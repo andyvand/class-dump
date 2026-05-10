@@ -68,6 +68,8 @@ void print_usage(void)
             "                             extract a fileset entry by name (raw slice)\n"
             "        --dsc-extract DIR    extract every dylib from a dyld_shared_cache to DIR\n"
             "                             (uses Apple's dsc_extractor.bundle from Xcode)\n"
+            "        --with-cache FILE    use a dyld_shared_cache file to resolve selectors and\n"
+            "                             type strings when class-dumping cache-extracted dylibs\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -96,6 +98,7 @@ void print_usage(void)
 #define CD_OPT_FILESET_LS  32
 #define CD_OPT_FILESET_EX  33
 #define CD_OPT_DSC_EXTRACT 34
+#define CD_OPT_WITH_CACHE  35
 
 int main(int argc, char *argv[])
 {
@@ -147,6 +150,7 @@ int main(int argc, char *argv[])
             { "list-fileset",            no_argument,       NULL, CD_OPT_FILESET_LS },
             { "extract-fileset",         required_argument, NULL, CD_OPT_FILESET_EX },
             { "dsc-extract",             required_argument, NULL, CD_OPT_DSC_EXTRACT },
+            { "with-cache",              required_argument, NULL, CD_OPT_WITH_CACHE },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -315,6 +319,26 @@ int main(int argc, char *argv[])
                 case CD_OPT_DSC_EXTRACT:
                     dscExtractDir = [NSString stringWithUTF8String:optarg];
                     break;
+
+                case CD_OPT_WITH_CACHE: {
+                    NSString *cachePath = [NSString stringWithUTF8String:optarg];
+                    NSData *cacheData = [NSData dataWithContentsOfFile:cachePath
+                                                               options:NSDataReadingMappedAlways
+                                                                 error:NULL];
+                    if (cacheData == nil) {
+                        fprintf(stderr, "class-dump: cannot read cache %s\n", optarg);
+                        errorFlag = YES;
+                        break;
+                    }
+                    CDDyldCache *cache = [[CDDyldCache alloc] initWithData:cacheData];
+                    if (cache == nil) {
+                        fprintf(stderr, "class-dump: %s is not a dyld_shared_cache\n", optarg);
+                        errorFlag = YES;
+                        break;
+                    }
+                    classDump.backingCache = cache;
+                    break;
+                }
 
                 case CD_OPT_HIDE: {
                     NSString *str = [NSString stringWithUTF8String:optarg];

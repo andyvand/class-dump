@@ -32,4 +32,14 @@
 // YES if the cache uses the old (pre-subcache) image table layout.
 @property (nonatomic, readonly) BOOL usesLegacyImageTable;
 
+// Read a NUL-terminated UTF-8 string from a cache vmaddr, walking the
+// mapping table to translate vmaddr → file offset.
+- (NSString *)stringAtAddress:(uint64_t)address;
+
+// Read a 64-bit pointer slot at a cache vmaddr.
+- (BOOL)readPointerAtAddress:(uint64_t)address into:(uint64_t *)outValue;
+
+// YES if the cache has a mapping covering this vmaddr.
+- (BOOL)containsAddress:(uint64_t)address;
+
 @end

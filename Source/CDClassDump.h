@@ -17,6 +17,7 @@
 @class CDTypeController;
 @class CDVisitor;
 @class CDSearchPathState;
+@class CDDyldCache;
 
 @interface CDClassDump : NSObject
 
@@ -34,6 +35,11 @@
 - (BOOL)shouldShowName:(NSString *)name;
 
 @property (strong) NSString *sdkRoot;
+
+// Optional dyld_shared_cache used as a fallback when resolving addresses
+// from cache-extracted dylibs (selectors, type strings, class refs that
+// point into the cache's shared pools).
+@property (strong) CDDyldCache *backingCache;
 
 @property (readonly) NSArray *machOFiles;
 @property (readonly) NSArray *objcProcessors;

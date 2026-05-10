@@ -33,4 +33,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDLCSourceVersion.h \
   /Users/andyvand/Downloads/class-dump/Source/CDLCBuildVersion.h \
   /Users/andyvand/Downloads/class-dump/Source/CDLCChainedFixups.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDLCLinkeditData.h
+  /Users/andyvand/Downloads/class-dump/Source/CDLCLinkeditData.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDDyldCache.h

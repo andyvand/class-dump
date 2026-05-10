@@ -15,8 +15,15 @@ typedef enum : NSUInteger {
 
 @class CDLCSegment;
 @class CDLCBuildVersion, CDLCDyldInfo, CDLCDylib, CDMachOFile, CDLCSymbolTable, CDLCDynamicSymbolTable, CDLCVersionMinimum, CDLCSourceVersion;
+@class CDDyldCache;
 
 @interface CDMachOFile : CDFile
+
+// Backing cache used to resolve addresses that fall outside this image's
+// segments. Set when the image was extracted from a dyld_shared_cache so
+// that selrefs / class refs / type strings that point into the cache's
+// shared selector or class pools can still be read.
+@property (strong) CDDyldCache *backingCache;
 
 @property (readonly) CDByteOrder byteOrder;
 
@@ -60,6 +67,11 @@ typedef enum : NSUInteger {
 - (CDLCSegment *)segmentWithName:(NSString *)segmentName;
 - (CDLCSegment *)segmentContainingAddress:(NSUInteger)address;
 - (NSString *)stringAtAddress:(NSUInteger)address;
+
+// Read a 64-bit value at a VM address, consulting the backing
+// dyld_shared_cache if the address is outside this image's segments.
+// Returns 0 if the address can't be resolved.
+- (uint64_t)pointerAtAddress:(uint64_t)address;
 
 - (NSUInteger)dataOffsetForAddress:(NSUInteger)address;
 

@@ -443,11 +443,8 @@
             if (directSelector) {
                 name = [self.machOFile stringAtAddress:nameTargetVMAddr];
             } else {
-                CDMachOFileDataCursor *selRefCursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:nameTargetVMAddr];
-                if ([selRefCursor offset] != 0) {
-                    uint64_t selPtr = [selRefCursor readPtr];
-                    name = [self.machOFile stringAtAddress:selPtr];
-                }
+                uint64_t selPtr = [self.machOFile pointerAtAddress:nameTargetVMAddr];
+                name = [self.machOFile stringAtAddress:(NSUInteger)selPtr];
             }
             NSString *types = [self.machOFile stringAtAddress:typeTargetVMAddr];
 

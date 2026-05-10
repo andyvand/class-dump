@@ -137,6 +137,7 @@ NSString *CDErrorKey_Exception    = @"CDErrorKey_Exception";
 
     // Set before processing recursively.  This was getting caught on CoreUI on 10.6
     assert([machOFile filename] != nil);
+    if (self.backingCache) machOFile.backingCache = self.backingCache;
     [_machOFiles addObject:machOFile];
     _machOFilesByName[machOFile.filename] = machOFile;
 

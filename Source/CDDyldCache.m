@@ -39,6 +39,14 @@ struct cd_dsc_image_info {
     uint32_t pad;
 };
 
+struct cd_dsc_mapping_info {
+    uint64_t address;
+    uint64_t size;
+    uint64_t fileOffset;
+    uint32_t maxProt;
+    uint32_t initProt;
+};
+
 @implementation CDDyldCacheImageInfo
 - (instancetype)initWithAddress:(uint64_t)address path:(NSString *)path {
     if ((self = [super init])) { _address = address; _path = path; }
@@ -51,6 +59,7 @@ struct cd_dsc_image_info {
     NSData *_data;
     struct cd_dsc_header_min _hdr;
     NSArray<CDDyldCacheImageInfo *> *_images;
+    NSArray *_mappings; // boxed cd_dsc_mapping_info entries
     uint32_t _platform;
     BOOL _legacy;
 }
@@ -64,8 +73,68 @@ struct cd_dsc_image_info {
     _data = data;
 
     [self loadImages];
+    [self loadMappings];
     [self probePlatform];
     return self;
+}
+
+- (void)loadMappings;
+{
+    NSMutableArray *m = [NSMutableArray array];
+    NSUInteger entrySize = sizeof(struct cd_dsc_mapping_info);
+    if ((NSUInteger)_hdr.mappingOffset + (NSUInteger)_hdr.mappingCount * entrySize > [_data length]) {
+        _mappings = @[];
+        return;
+    }
+    const uint8_t *base = (const uint8_t *)[_data bytes];
+    for (uint32_t i = 0; i < _hdr.mappingCount; i++) {
+        NSData *entry = [[NSData alloc] initWithBytes:base + _hdr.mappingOffset + i * entrySize length:entrySize];
+        [m addObject:entry];
+    }
+    _mappings = [m copy];
+}
+
+- (BOOL)_fileOffsetForVMAddr:(uint64_t)vmAddr outFileOff:(uint64_t *)outOff outRemaining:(uint64_t *)outRem;
+{
+    for (NSData *e in _mappings) {
+        struct cd_dsc_mapping_info mi;
+        memcpy(&mi, [e bytes], sizeof(mi));
+        if (vmAddr >= mi.address && vmAddr < mi.address + mi.size) {
+            uint64_t delta = vmAddr - mi.address;
+            if (outOff) *outOff = mi.fileOffset + delta;
+            if (outRem) *outRem = mi.size - delta;
+            return YES;
+        }
+    }
+    return NO;
+}
+
+- (NSString *)stringAtAddress:(uint64_t)address;
+{
+    uint64_t off = 0, rem = 0;
+    if (![self _fileOffsetForVMAddr:address outFileOff:&off outRemaining:&rem]) return nil;
+    if (off >= [_data length]) return nil;
+    NSUInteger maxLen = (NSUInteger)MIN(rem, (uint64_t)([_data length] - off));
+    const char *p = (const char *)[_data bytes] + off;
+    size_t n = strnlen(p, maxLen);
+    return [[NSString alloc] initWithBytes:p length:n encoding:NSUTF8StringEncoding];
+}
+
+- (BOOL)readPointerAtAddress:(uint64_t)address into:(uint64_t *)outValue;
+{
+    uint64_t off = 0, rem = 0;
+    if (![self _fileOffsetForVMAddr:address outFileOff:&off outRemaining:&rem]) return NO;
+    if (rem < 8 || off + 8 > [_data length]) return NO;
+    uint64_t v;
+    memcpy(&v, (const uint8_t *)[_data bytes] + off, 8);
+    if (outValue) *outValue = v;
+    return YES;
+}
+
+- (BOOL)containsAddress:(uint64_t)address;
+{
+    uint64_t off = 0, rem = 0;
+    return [self _fileOffsetForVMAddr:address outFileOff:&off outRemaining:&rem];
 }
 
 - (NSString *)magic

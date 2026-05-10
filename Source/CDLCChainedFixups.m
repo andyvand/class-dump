@@ -301,12 +301,9 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
     [self ensureParsed];
     NSData *blob = [self linkeditData];
     NSUInteger blobLen = [blob length];
-    if (blobLen < sizeof(_header)) { NSLog(@"chain: blob too small %lu < %lu", (unsigned long)blobLen, sizeof(_header)); return; }
-    if (_header.starts_offset == 0) { NSLog(@"chain: starts_offset is 0"); return; }
-    if ((NSUInteger)_header.starts_offset + sizeof(struct dyld_chained_starts_in_image) > blobLen) { NSLog(@"chain: starts out of bounds"); return; }
-    NSLog(@"chain: starts_offset=%u, blobLen=%lu, dataLen=%lu, imageBase=0x%llx",
-          _header.starts_offset, (unsigned long)blobLen, (unsigned long)[data length], imageBase);
-    NSUInteger chainCount = 0;
+    if (blobLen < sizeof(_header)) return;
+    if (_header.starts_offset == 0) return;
+    if ((NSUInteger)_header.starts_offset + sizeof(struct dyld_chained_starts_in_image) > blobLen) return;
 
     const uint8_t *blobBase = (const uint8_t *)[blob bytes];
     const struct dyld_chained_starts_in_image *image =
@@ -352,7 +349,6 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
                 }
 
                 memcpy(fileBytes + cursor, &resolved, 8);
-                chainCount++;
 
                 if (nextUnits == 0) break;
                 cursor += (uint64_t)nextUnits * strideBytes;
@@ -362,7 +358,6 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
             }
         }
     }
-    NSLog(@"chain: rewrote %lu slots", (unsigned long)chainCount);
 }
 
 @end
