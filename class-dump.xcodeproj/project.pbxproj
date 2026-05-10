@@ -133,6 +133,30 @@
 		ABCE4D8C2252F424009F167D /* CDLCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D8B2252F424009F167D /* CDLCNote.m */; };
 		ABCE4D8D2252F424009F167D /* CDLCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D8B2252F424009F167D /* CDLCNote.m */; };
 		ABCE4D902252F792009F167D /* CDLCNote.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCE4D8F2252F791009F167D /* CDLCNote.h */; };
+		F11E5E7E0000000000000003 /* CDLCFilesetEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */; };
+		F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */; };
+		110F710F710F710F71000003 /* CDLCLinkerOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 110F710F710F710F71000001 /* CDLCLinkerOption.h */; };
+		110F710F710F710F71000004 /* CDLCLinkerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F710F710F710F71000002 /* CDLCLinkerOption.m */; };
+		7A86E77A86E77A86E7000003 /* CDLCTargetTriple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */; };
+		7A86E77A86E77A86E7000004 /* CDLCTargetTriple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */; };
+		CFA0CFA0CFA0000000000003 /* CDLCChainedFixups.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */; };
+		CFA0CFA0CFA0000000000004 /* CDLCChainedFixups.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */; };
+		E70FE70FE70F000000000003 /* CDLCExportsTrie.h in Headers */ = {isa = PBXBuildFile; fileRef = E70FE70FE70F000000000001 /* CDLCExportsTrie.h */; };
+		E70FE70FE70F000000000004 /* CDLCExportsTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = E70FE70FE70F000000000002 /* CDLCExportsTrie.m */; };
+		C0DEC0DEC0DE000000000003 /* CDLCCodeSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */; };
+		C0DEC0DEC0DE000000000004 /* CDLCCodeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */; };
+		E0EDDED1AB1E000000000003 /* CDMachOWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EDDED1AB1E000000000001 /* CDMachOWriter.h */; };
+		E0EDDED1AB1E000000000004 /* CDMachOWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EDDED1AB1E000000000002 /* CDMachOWriter.m */; };
+		D5CCAC4ED5CCAC4ED5C00003 /* CDDyldCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */; };
+		D5CCAC4ED5CCAC4ED5C00004 /* CDDyldCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */; };
+		FACE0FFA1F11A0011B000003 /* CDLCFVMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */; };
+		FACE0FFA1F11A0011B000004 /* CDLCFVMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */; };
+		FACE0FFA1F11A0021B000003 /* CDLCFVMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */; };
+		FACE0FFA1F11A0021B000004 /* CDLCFVMFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */; };
+		1DE171171DE171171DE00003 /* CDLCIdent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE171171DE171171DE00001 /* CDLCIdent.h */; };
+		1DE171171DE171171DE00004 /* CDLCIdent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE171171DE171171DE00002 /* CDLCIdent.m */; };
+		515E70F0515E70F0515E0003 /* CDLCSymSeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 515E70F0515E70F0515E0001 /* CDLCSymSeg.h */; };
+		515E70F0515E70F0515E0004 /* CDLCSymSeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 515E70F0515E70F0515E0002 /* CDLCSymSeg.m */; };
 		C270B5C616C54AD6006CA75D /* ULEB128.m in Sources */ = {isa = PBXBuildFile; fileRef = C270B5C516C54AD5006CA75D /* ULEB128.m */; };
 		C270B5C816C54B0C006CA75D /* ULEB128.h in Headers */ = {isa = PBXBuildFile; fileRef = C270B5C716C54B0A006CA75D /* ULEB128.h */; };
 /* End PBXBuildFile section */
@@ -436,6 +460,30 @@
 		ABCE4D832252EE4C009F167D /* objc-symbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "objc-symbols.m"; path = "Source/objc-symbols.m"; sourceTree = "<group>"; };
 		ABCE4D8B2252F424009F167D /* CDLCNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCNote.m; path = Source/CDLCNote.m; sourceTree = "<group>"; };
 		ABCE4D8F2252F791009F167D /* CDLCNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCNote.h; path = Source/CDLCNote.h; sourceTree = "<group>"; };
+		F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFilesetEntry.h; path = Source/CDLCFilesetEntry.h; sourceTree = "<group>"; };
+		F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFilesetEntry.m; path = Source/CDLCFilesetEntry.m; sourceTree = "<group>"; };
+		110F710F710F710F71000001 /* CDLCLinkerOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCLinkerOption.h; path = Source/CDLCLinkerOption.h; sourceTree = "<group>"; };
+		110F710F710F710F71000002 /* CDLCLinkerOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCLinkerOption.m; path = Source/CDLCLinkerOption.m; sourceTree = "<group>"; };
+		7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCTargetTriple.h; path = Source/CDLCTargetTriple.h; sourceTree = "<group>"; };
+		7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCTargetTriple.m; path = Source/CDLCTargetTriple.m; sourceTree = "<group>"; };
+		CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCChainedFixups.h; path = Source/CDLCChainedFixups.h; sourceTree = "<group>"; };
+		CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCChainedFixups.m; path = Source/CDLCChainedFixups.m; sourceTree = "<group>"; };
+		E70FE70FE70F000000000001 /* CDLCExportsTrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCExportsTrie.h; path = Source/CDLCExportsTrie.h; sourceTree = "<group>"; };
+		E70FE70FE70F000000000002 /* CDLCExportsTrie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCExportsTrie.m; path = Source/CDLCExportsTrie.m; sourceTree = "<group>"; };
+		C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCCodeSignature.h; path = Source/CDLCCodeSignature.h; sourceTree = "<group>"; };
+		C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCCodeSignature.m; path = Source/CDLCCodeSignature.m; sourceTree = "<group>"; };
+		E0EDDED1AB1E000000000001 /* CDMachOWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDMachOWriter.h; path = Source/CDMachOWriter.h; sourceTree = "<group>"; };
+		E0EDDED1AB1E000000000002 /* CDMachOWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDMachOWriter.m; path = Source/CDMachOWriter.m; sourceTree = "<group>"; };
+		D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDDyldCache.h; path = Source/CDDyldCache.h; sourceTree = "<group>"; };
+		D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDDyldCache.m; path = Source/CDDyldCache.m; sourceTree = "<group>"; };
+		FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMLib.h; path = Source/CDLCFVMLib.h; sourceTree = "<group>"; };
+		FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMLib.m; path = Source/CDLCFVMLib.m; sourceTree = "<group>"; };
+		FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMFile.h; path = Source/CDLCFVMFile.h; sourceTree = "<group>"; };
+		FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMFile.m; path = Source/CDLCFVMFile.m; sourceTree = "<group>"; };
+		1DE171171DE171171DE00001 /* CDLCIdent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCIdent.h; path = Source/CDLCIdent.h; sourceTree = "<group>"; };
+		1DE171171DE171171DE00002 /* CDLCIdent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCIdent.m; path = Source/CDLCIdent.m; sourceTree = "<group>"; };
+		515E70F0515E70F0515E0001 /* CDLCSymSeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCSymSeg.h; path = Source/CDLCSymSeg.h; sourceTree = "<group>"; };
+		515E70F0515E70F0515E0002 /* CDLCSymSeg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCSymSeg.m; path = Source/CDLCSymSeg.m; sourceTree = "<group>"; };
 		C270B5C516C54AD5006CA75D /* ULEB128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULEB128.m; path = Source/ULEB128.m; sourceTree = "<group>"; };
 		C270B5C716C54B0A006CA75D /* ULEB128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULEB128.h; path = Source/ULEB128.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -773,6 +821,30 @@
 				0132DD4421816C09009CE078 /* CDLCBuildVersion.m */,
 				ABCE4D8F2252F791009F167D /* CDLCNote.h */,
 				ABCE4D8B2252F424009F167D /* CDLCNote.m */,
+				F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */,
+				F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */,
+				110F710F710F710F71000001 /* CDLCLinkerOption.h */,
+				110F710F710F710F71000002 /* CDLCLinkerOption.m */,
+				7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */,
+				7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */,
+				CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */,
+				CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */,
+				E70FE70FE70F000000000001 /* CDLCExportsTrie.h */,
+				E70FE70FE70F000000000002 /* CDLCExportsTrie.m */,
+				C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */,
+				C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */,
+				E0EDDED1AB1E000000000001 /* CDMachOWriter.h */,
+				E0EDDED1AB1E000000000002 /* CDMachOWriter.m */,
+				D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */,
+				D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */,
+				FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */,
+				FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */,
+				FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */,
+				FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */,
+				1DE171171DE171171DE00001 /* CDLCIdent.h */,
+				1DE171171DE171171DE00002 /* CDLCIdent.m */,
+				515E70F0515E70F0515E0001 /* CDLCSymSeg.h */,
+				515E70F0515E70F0515E0002 /* CDLCSymSeg.m */,
 			);
 			name = "Load Commands";
 			sourceTree = "<group>";
@@ -867,6 +939,18 @@
 				0194945C1673F8F400A29005 /* CDProtocolUniquer.h in Headers */,
 				C270B5C816C54B0C006CA75D /* ULEB128.h in Headers */,
 				ABCE4D902252F792009F167D /* CDLCNote.h in Headers */,
+				F11E5E7E0000000000000003 /* CDLCFilesetEntry.h in Headers */,
+				110F710F710F710F71000003 /* CDLCLinkerOption.h in Headers */,
+				7A86E77A86E77A86E7000003 /* CDLCTargetTriple.h in Headers */,
+				CFA0CFA0CFA0000000000003 /* CDLCChainedFixups.h in Headers */,
+				E70FE70FE70F000000000003 /* CDLCExportsTrie.h in Headers */,
+				C0DEC0DEC0DE000000000003 /* CDLCCodeSignature.h in Headers */,
+				E0EDDED1AB1E000000000003 /* CDMachOWriter.h in Headers */,
+				D5CCAC4ED5CCAC4ED5C00003 /* CDDyldCache.h in Headers */,
+				FACE0FFA1F11A0011B000003 /* CDLCFVMLib.h in Headers */,
+				FACE0FFA1F11A0021B000003 /* CDLCFVMFile.h in Headers */,
+				1DE171171DE171171DE00003 /* CDLCIdent.h in Headers */,
+				515E70F0515E70F0515E0003 /* CDLCSymSeg.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1065,6 +1149,18 @@
 			files = (
 				013D1F1913A5AEA100BF0A67 /* CDTopoSortNode.m in Sources */,
 				ABCE4D8C2252F424009F167D /* CDLCNote.m in Sources */,
+				F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */,
+				110F710F710F710F71000004 /* CDLCLinkerOption.m in Sources */,
+				7A86E77A86E77A86E7000004 /* CDLCTargetTriple.m in Sources */,
+				CFA0CFA0CFA0000000000004 /* CDLCChainedFixups.m in Sources */,
+				E70FE70FE70F000000000004 /* CDLCExportsTrie.m in Sources */,
+				C0DEC0DEC0DE000000000004 /* CDLCCodeSignature.m in Sources */,
+				E0EDDED1AB1E000000000004 /* CDMachOWriter.m in Sources */,
+				D5CCAC4ED5CCAC4ED5C00004 /* CDDyldCache.m in Sources */,
+				FACE0FFA1F11A0011B000004 /* CDLCFVMLib.m in Sources */,
+				FACE0FFA1F11A0021B000004 /* CDLCFVMFile.m in Sources */,
+				1DE171171DE171171DE00004 /* CDLCIdent.m in Sources */,
+				515E70F0515E70F0515E0004 /* CDLCSymSeg.m in Sources */,
 				013D1F1A13A5AEA100BF0A67 /* NSArray-CDExtensions.m in Sources */,
 				013D1F1B13A5AEA100BF0A67 /* NSData-CDExtensions.m in Sources */,
 				013D1F1C13A5AEA100BF0A67 /* NSError-CDExtensions.m in Sources */,
@@ -1492,8 +1588,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (

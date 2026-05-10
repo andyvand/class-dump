@@ -19,8 +19,18 @@
 
 @property (nonatomic, readonly) NSUInteger addr;
 @property (nonatomic, readonly) NSUInteger size;
+@property (nonatomic, readonly) uint32_t offset;
+@property (nonatomic, readonly) uint32_t align;
+@property (nonatomic, readonly) uint32_t reloff;
+@property (nonatomic, readonly) uint32_t nreloc;
+@property (nonatomic, readonly) uint32_t flags;
+@property (nonatomic, readonly) uint32_t reserved1;
+@property (nonatomic, readonly) uint32_t reserved2;
 
 - (BOOL)containsAddress:(NSUInteger)address;
 - (NSUInteger)fileOffsetForAddress:(NSUInteger)address;
+
+- (NSString *)flagsDescription;
+- (void)appendToString:(NSMutableString *)resultString verbose:(BOOL)isVerbose;
 
 @end

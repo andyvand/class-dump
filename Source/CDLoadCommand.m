@@ -35,6 +35,36 @@
 #import "CDLCDataInCode.h"
 #import "CDLCSourceVersion.h"
 #import "CDLCNote.h"
+#import "CDLCFilesetEntry.h"
+#import "CDLCLinkerOption.h"
+#import "CDLCTargetTriple.h"
+#import "CDLCChainedFixups.h"
+#import "CDLCExportsTrie.h"
+#import "CDLCCodeSignature.h"
+#import "CDLCFVMLib.h"
+#import "CDLCFVMFile.h"
+#import "CDLCIdent.h"
+#import "CDLCSymSeg.h"
+
+#ifndef LC_LAZY_LOAD_DYLIB_INFO
+#define LC_LAZY_LOAD_DYLIB_INFO 0x3A
+#endif
+
+#ifndef LC_FILESET_ENTRY
+#define LC_FILESET_ENTRY (0x35 | LC_REQ_DYLD)
+#endif
+#ifndef LC_ATOM_INFO
+#define LC_ATOM_INFO 0x36
+#endif
+#ifndef LC_FUNCTION_VARIANTS
+#define LC_FUNCTION_VARIANTS 0x37
+#endif
+#ifndef LC_FUNCTION_VARIANT_FIXUPS
+#define LC_FUNCTION_VARIANT_FIXUPS 0x38
+#endif
+#ifndef LC_TARGET_TRIPLE
+#define LC_TARGET_TRIPLE 0x39
+#endif
 
 @implementation CDLoadCommand
 {
@@ -52,14 +82,14 @@
         case LC_SEGMENT:               targetClass = [CDLCSegment class]; break;
         case LC_SEGMENT_64:            targetClass = [CDLCSegment class]; break;
         case LC_SYMTAB:                targetClass = [CDLCSymbolTable class]; break;
-            //case LC_SYMSEG: // obsolete
-            //case LC_THREAD: // not used?
+        case LC_SYMSEG:                targetClass = [CDLCSymSeg class]; break;
+        case LC_THREAD:                targetClass = [CDLCUnixThread class]; break;
         case LC_UNIXTHREAD:            targetClass = [CDLCUnixThread class]; break;
-            //case LC_LOADFVMLIB: // not used?
-            //case LC_IDFVMLIB: // not used?
-            //case LC_IDENT: // not used?
-            //case LC_FVMFILE: // not used?
-            //case LC_PREPAGE: // not used
+        case LC_LOADFVMLIB:            targetClass = [CDLCFVMLib class]; break;
+        case LC_IDFVMLIB:              targetClass = [CDLCFVMLib class]; break;
+        case LC_IDENT:                 targetClass = [CDLCIdent class]; break;
+        case LC_FVMFILE:               targetClass = [CDLCFVMFile class]; break;
+        case LC_PREPAGE:               targetClass = [CDLCUnknown class]; break;
         case LC_DYSYMTAB:              targetClass = [CDLCDynamicSymbolTable class]; break;
         case LC_LOAD_DYLIB:            targetClass = [CDLCDylib class]; break;
         case LC_ID_DYLIB:              targetClass = [CDLCDylib class]; break;
@@ -68,16 +98,16 @@
         case LC_PREBOUND_DYLIB:        targetClass = [CDLCPreboundDylib class]; break;
         case LC_ROUTINES:              targetClass = [CDLCRoutines32 class]; break;
         case LC_SUB_FRAMEWORK:         targetClass = [CDLCSubFramework class]; break;
-            //case LC_SUB_UMBRELLA:    targetClass = [CDLCSubUmbrella class]; break;
+        case LC_SUB_UMBRELLA:          targetClass = [CDLCSubUmbrella class]; break;
         case LC_SUB_CLIENT:            targetClass = [CDLCSubClient class]; break;
-            //case LC_SUB_LIBRARY:     targetClass = [CDLCSubLibrary class]; break;
+        case LC_SUB_LIBRARY:           targetClass = [CDLCSubLibrary class]; break;
         case LC_TWOLEVEL_HINTS:        targetClass = [CDLCTwoLevelHints class]; break;
         case LC_PREBIND_CKSUM:         targetClass = [CDLCPrebindChecksum class]; break;
         case LC_LOAD_WEAK_DYLIB:       targetClass = [CDLCDylib class]; break;
         case LC_ROUTINES_64:           targetClass = [CDLCRoutines64 class]; break;
         case LC_UUID:                  targetClass = [CDLCUUID class]; break;
         case LC_RPATH:                 targetClass = [CDLCRunPath class]; break;
-        case LC_CODE_SIGNATURE:        targetClass = [CDLCLinkeditData class]; break;
+        case LC_CODE_SIGNATURE:        targetClass = [CDLCCodeSignature class]; break;
         case LC_SEGMENT_SPLIT_INFO:    targetClass = [CDLCLinkeditData class]; break;
         case LC_REEXPORT_DYLIB:        targetClass = [CDLCDylib class]; break;
         case LC_LAZY_LOAD_DYLIB:       targetClass = [CDLCDylib class]; break;
@@ -97,10 +127,18 @@
         case LC_DATA_IN_CODE:          targetClass = [CDLCDataInCode class]; break;
         case LC_SOURCE_VERSION:        targetClass = [CDLCSourceVersion class]; break;
         case LC_DYLIB_CODE_SIGN_DRS:   targetClass = [CDLCLinkeditData class]; break; // Designated Requirements
-        case LC_LINKER_OPTION:
-        case LC_LINKER_OPTIMIZATION_HINT:
-        case LC_DYLD_EXPORTS_TRIE:
-        case LC_DYLD_CHAINED_FIXUPS:
+        case LC_LINKER_OPTION:           targetClass = [CDLCLinkerOption class]; break;
+        case LC_LINKER_OPTIMIZATION_HINT:targetClass = [CDLCLinkeditData class]; break;
+        case LC_DYLD_EXPORTS_TRIE:       targetClass = [CDLCExportsTrie class]; break;
+        case LC_DYLD_CHAINED_FIXUPS:     targetClass = [CDLCChainedFixups class]; break;
+        case LC_ATOM_INFO:               targetClass = [CDLCLinkeditData class]; break;
+        case LC_FUNCTION_VARIANTS:       targetClass = [CDLCLinkeditData class]; break;
+        case LC_FUNCTION_VARIANT_FIXUPS: targetClass = [CDLCLinkeditData class]; break;
+        case LC_LAZY_LOAD_DYLIB_INFO:    targetClass = [CDLCLinkeditData class]; break;
+        case LC_NOTE:                    targetClass = [CDLCNote class]; break;
+        case LC_BUILD_VERSION:           targetClass = [CDLCBuildVersion class]; break;
+        case LC_FILESET_ENTRY:           targetClass = [CDLCFilesetEntry class]; break;
+        case LC_TARGET_TRIPLE:           targetClass = [CDLCTargetTriple class]; break;
         default:
             NSLog(@"Unknown load command: 0x%08x", val);
     };
@@ -199,6 +237,11 @@
         case LC_VERSION_MIN_IPHONEOS:  return @"LC_VERSION_MIN_IPHONEOS";
         case LC_FUNCTION_STARTS:       return @"LC_FUNCTION_STARTS";
         case LC_DYLD_ENVIRONMENT:      return @"LC_DYLD_ENVIRONMENT";
+        case LC_MAIN:                  return @"LC_MAIN";
+        case LC_DATA_IN_CODE:          return @"LC_DATA_IN_CODE";
+        case LC_SOURCE_VERSION:        return @"LC_SOURCE_VERSION";
+        case LC_DYLIB_CODE_SIGN_DRS:   return @"LC_DYLIB_CODE_SIGN_DRS";
+        case LC_ENCRYPTION_INFO_64:    return @"LC_ENCRYPTION_INFO_64";
 
         case LC_LINKER_OPTION:            return @"LC_LINKER_OPTION";
         case LC_LINKER_OPTIMIZATION_HINT: return @"LC_LINKER_OPTIMIZATION_HINT";
@@ -208,6 +251,12 @@
         case LC_BUILD_VERSION:            return @"LC_BUILD_VERSION";
         case LC_DYLD_EXPORTS_TRIE:        return @"LC_DYLD_EXPORTS_TRIE";
         case LC_DYLD_CHAINED_FIXUPS:      return @"LC_DYLD_CHAINED_FIXUPS";
+        case LC_FILESET_ENTRY:            return @"LC_FILESET_ENTRY";
+        case LC_ATOM_INFO:                return @"LC_ATOM_INFO";
+        case LC_FUNCTION_VARIANTS:        return @"LC_FUNCTION_VARIANTS";
+        case LC_FUNCTION_VARIANT_FIXUPS:  return @"LC_FUNCTION_VARIANT_FIXUPS";
+        case LC_TARGET_TRIPLE:            return @"LC_TARGET_TRIPLE";
+        case LC_LAZY_LOAD_DYLIB_INFO:     return @"LC_LAZY_LOAD_DYLIB_INFO";
 
         default:
             break;

@@ -116,6 +116,89 @@ static NSString *CDBindTypeDescription(uint8_t type)
     return _dyldInfoCommand.cmdsize;
 }
 
+- (uint32_t)rebaseOff      { return _dyldInfoCommand.rebase_off; }
+- (uint32_t)rebaseSize     { return _dyldInfoCommand.rebase_size; }
+- (uint32_t)bindOff        { return _dyldInfoCommand.bind_off; }
+- (uint32_t)bindSize       { return _dyldInfoCommand.bind_size; }
+- (uint32_t)weakBindOff    { return _dyldInfoCommand.weak_bind_off; }
+- (uint32_t)weakBindSize   { return _dyldInfoCommand.weak_bind_size; }
+- (uint32_t)lazyBindOff    { return _dyldInfoCommand.lazy_bind_off; }
+- (uint32_t)lazyBindSize   { return _dyldInfoCommand.lazy_bind_size; }
+- (uint32_t)exportOff      { return _dyldInfoCommand.export_off; }
+- (uint32_t)exportSize     { return _dyldInfoCommand.export_size; }
+
+- (void)appendToString:(NSMutableString *)resultString verbose:(BOOL)isVerbose;
+{
+    [super appendToString:resultString verbose:isVerbose];
+    [resultString appendFormat:@"     rebase_off %u\n",     _dyldInfoCommand.rebase_off];
+    [resultString appendFormat:@"    rebase_size %u\n",     _dyldInfoCommand.rebase_size];
+    [resultString appendFormat:@"       bind_off %u\n",     _dyldInfoCommand.bind_off];
+    [resultString appendFormat:@"      bind_size %u\n",     _dyldInfoCommand.bind_size];
+    [resultString appendFormat:@"  weak_bind_off %u\n",     _dyldInfoCommand.weak_bind_off];
+    [resultString appendFormat:@" weak_bind_size %u\n",     _dyldInfoCommand.weak_bind_size];
+    [resultString appendFormat:@"  lazy_bind_off %u\n",     _dyldInfoCommand.lazy_bind_off];
+    [resultString appendFormat:@" lazy_bind_size %u\n",     _dyldInfoCommand.lazy_bind_size];
+    [resultString appendFormat:@"     export_off %u\n",     _dyldInfoCommand.export_off];
+    [resultString appendFormat:@"    export_size %u\n",     _dyldInfoCommand.export_size];
+
+    if (isVerbose && _dyldInfoCommand.export_size > 0) {
+        [resultString appendString:@"\nExports trie:\n"];
+        const uint8_t *start = (const uint8_t *)[self.machOFile.data bytes] + _dyldInfoCommand.export_off;
+        const uint8_t *end   = start + _dyldInfoCommand.export_size;
+        [self appendExportsTrie:resultString start:start end:end prefix:@"" offset:0];
+    }
+}
+
+- (void)appendExportsTrie:(NSMutableString *)out start:(const uint8_t *)start end:(const uint8_t *)end prefix:(NSString *)prefix offset:(uint64_t)offset;
+{
+    const uint8_t *ptr = start + offset;
+    if (ptr >= end) return;
+
+    uint64_t terminalSize = read_uleb128(&ptr, end);
+    const uint8_t *terminal = ptr;
+    ptr += terminalSize;
+    if (ptr > end) return;
+
+    if (terminalSize > 0) {
+        const uint8_t *tptr = terminal;
+        uint64_t flags = read_uleb128(&tptr, end);
+        uint8_t kind = flags & EXPORT_SYMBOL_FLAGS_KIND_MASK;
+        if (flags & EXPORT_SYMBOL_FLAGS_REEXPORT) {
+            uint64_t ordinal = read_uleb128(&tptr, end);
+            const char *str = (const char *)tptr;
+            [out appendFormat:@"  [re-export] %@ (from ordinal %llu, name %s)\n", prefix, ordinal, *str ? str : ""];
+        } else if (kind == EXPORT_SYMBOL_FLAGS_KIND_REGULAR) {
+            uint64_t addr = read_uleb128(&tptr, end);
+            if (flags & EXPORT_SYMBOL_FLAGS_STUB_AND_RESOLVER) {
+                uint64_t resolver = read_uleb128(&tptr, end);
+                [out appendFormat:@"  [stub+resolver] 0x%016llx (resolver 0x%016llx) flags 0x%llx %@\n", addr, resolver, flags, prefix];
+            } else {
+                [out appendFormat:@"  [addr] 0x%016llx flags 0x%llx %@\n", addr, flags, prefix];
+            }
+        } else if (kind == EXPORT_SYMBOL_FLAGS_KIND_THREAD_LOCAL) {
+            uint64_t addr = read_uleb128(&tptr, end);
+            [out appendFormat:@"  [tlv]  0x%016llx flags 0x%llx %@\n", addr, flags, prefix];
+        } else if (kind == EXPORT_SYMBOL_FLAGS_KIND_ABSOLUTE) {
+            uint64_t addr = read_uleb128(&tptr, end);
+            [out appendFormat:@"  [abs]  0x%016llx flags 0x%llx %@\n", addr, flags, prefix];
+        }
+    }
+
+    if (ptr >= end) return;
+    uint8_t childCount = *ptr++;
+    for (uint8_t i = 0; i < childCount && ptr < end; i++) {
+        const uint8_t *edge = ptr;
+        while (ptr < end && *ptr != 0) ptr++;
+        if (ptr >= end) return;
+        NSString *edgeStr = [[NSString alloc] initWithBytes:edge length:(ptr - edge) encoding:NSUTF8StringEncoding];
+        ptr++;
+        uint64_t childOffset = read_uleb128(&ptr, end);
+        [self appendExportsTrie:out start:start end:end
+                          prefix:[NSString stringWithFormat:@"%@%@", prefix, edgeStr ?: @""]
+                          offset:childOffset];
+    }
+}
+
 - (NSString *)symbolNameForAddress:(NSUInteger)address;
 {
     return [_symbolNamesByAddress objectForKey:[NSNumber numberWithUnsignedInteger:address]];

@@ -63,6 +63,7 @@
 // This assumes that the protocol name doesn't change after it's been added to this.
 - (void)addProtocol:(CDOCProtocol *)protocol;
 {
+    if (protocol == nil || protocol.name == nil) return;
     if ([_adoptedProtocolNames containsObject:protocol.name] == NO) {
         [_protocols addObject:protocol];
         [_adoptedProtocolNames addObject:protocol.name];
@@ -242,19 +243,20 @@
     NSMutableDictionary *optionalClassMethodsByName    = [NSMutableDictionary dictionary];
     
     for (CDOCMethod *method in _instanceMethods)
-        instanceMethodsByName[method.name] = method;
-    
+        if (method.name) instanceMethodsByName[method.name] = method;
+
     for (CDOCMethod *method in _optionalInstanceMethods)
-        optionalInstanceMethodsByName[method.name] = method;
-    
+        if (method.name) optionalInstanceMethodsByName[method.name] = method;
+
     for (CDOCMethod *method in _classMethods)
-        classMethodsByName[method.name] = method;
-    
+        if (method.name) classMethodsByName[method.name] = method;
+
     for (CDOCMethod *method in _optionalClassMethods)
-        optionalClassMethodsByName[method.name] = method;
-    
+        if (method.name) optionalClassMethodsByName[method.name] = method;
+
     // Instance methods
     for (CDOCMethod *method in other.instanceMethods) {
+        if (method.name == nil) continue;
         CDOCMethod *m2 = instanceMethodsByName[method.name];
         if (m2 == nil) {
             // Add if it is not an optional instance method.
@@ -264,15 +266,16 @@
             }
         }
     }
-    
+
     for (CDOCMethod *method in other.optionalInstanceMethods) {
+        if (method.name == nil) continue;
         CDOCMethod *m2 = optionalInstanceMethodsByName[method.name];
         if (m2 == nil) {
             m2 = instanceMethodsByName[method.name];
             if (m2 == nil) {
                 [self addOptionalInstanceMethod:method];
                 optionalInstanceMethodsByName[method.name] = method;
-            } else {
+            } else if (m2.name) {
                 // Move to the optional instance methods.
                 [self addOptionalInstanceMethod:m2];
                 [_instanceMethods removeObject:m2];
@@ -284,6 +287,7 @@
 
     // Class methods
     for (CDOCMethod *method in other.classMethods) {
+        if (method.name == nil) continue;
         CDOCMethod *m2 = classMethodsByName[method.name];
         if (m2 == nil) {
             // Add if it is not an optional class method.
@@ -293,15 +297,16 @@
             }
         }
     }
-    
+
     for (CDOCMethod *method in other.optionalClassMethods) {
+        if (method.name == nil) continue;
         CDOCMethod *m2 = optionalClassMethodsByName[method.name];
         if (m2 == nil) {
             m2 = classMethodsByName[method.name];
             if (m2 == nil) {
                 [self addOptionalClassMethod:method];
                 optionalClassMethodsByName[method.name] = method;
-            } else {
+            } else if (m2.name) {
                 // Move to the optional class methods.
                 [self addOptionalClassMethod:m2];
                 [_classMethods removeObject:m2];
@@ -317,9 +322,10 @@
     NSMutableDictionary *propertiesByName = [NSMutableDictionary dictionary];
 
     for (CDOCProperty *property in _properties)
-        propertiesByName[property.name] = property;
-    
+        if (property.name) propertiesByName[property.name] = property;
+
     for (CDOCProperty *property in other.properties) {
+        if (property.name == nil) continue;
         CDOCProperty *p2 = propertiesByName[property.name];
         if (p2 == nil) {
             [self addProperty:property];

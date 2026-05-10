@@ -51,6 +51,7 @@
     
     for (NSNumber *key in [[_protocolsByAddress allKeys] sortedArrayUsingSelector:@selector(compare:)]) {
         CDOCProtocol *p1 = _protocolsByAddress[key];
+        if (p1.name == nil) continue; // skip protocols whose name we couldn't resolve
         CDOCProtocol *uniqueProtocol = _uniqueProtocolsByName[p1.name];
         if (uniqueProtocol == nil) {
             uniqueProtocol = [[CDOCProtocol alloc] init];
@@ -67,12 +68,17 @@
     // And finally fill in adopted protocols, instance and class methods.  And properties.
     for (NSNumber *key in [[_protocolsByAddress allKeys] sortedArrayUsingSelector:@selector(compare:)]) {
         CDOCProtocol *p1 = _protocolsByAddress[key];
+        if (p1.name == nil) continue;
         CDOCProtocol *uniqueProtocol = _uniqueProtocolsByName[p1.name];
-        
+        if (uniqueProtocol == nil) continue;
+
         // Add the uniqued adopted protocols
-        for (CDOCProtocol *p2 in [p1 protocols])
-            [uniqueProtocol addProtocol:_uniqueProtocolsByName[p2.name]];
-        
+        for (CDOCProtocol *p2 in [p1 protocols]) {
+            if (p2.name == nil) continue;
+            CDOCProtocol *adopted = _uniqueProtocolsByName[p2.name];
+            if (adopted) [uniqueProtocol addProtocol:adopted];
+        }
+
         [uniqueProtocol mergeMethodsFromProtocol:p1];
         [uniqueProtocol mergePropertiesFromProtocol:p1];
     }

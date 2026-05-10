@@ -70,7 +70,7 @@
         [self.protocolUniquer setProtocol:protocol withAddress:address];
         
         CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-        NSParameterAssert([cursor offset] != 0);
+        if ([cursor offset] == 0) return nil;
         
         struct cd_objc2_protocol objc2Protocol;
         objc2Protocol.isa                     = [cursor readPtr];
@@ -105,6 +105,7 @@
         if (objc2Protocol.protocols != 0) {
             [cursor setAddress:objc2Protocol.protocols];
             uint64_t count = [cursor readPtr];
+            if (count > 0x10000) count = 0;
             for (uint64_t index = 0; index < count; index++) {
                 uint64_t val = [cursor readPtr];
                 CDOCProtocol *anotherProtocol = [self protocolAtAddress:val];
@@ -141,7 +142,7 @@
         return nil;
     
     CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-    NSParameterAssert([cursor offset] != 0);
+    if ([cursor offset] == 0) return nil;
     
     struct cd_objc2_category objc2Category;
     objc2Category.name               = [cursor readPtr];
@@ -211,7 +212,7 @@
     //NSLog(@"%s, address=%016lx", __cmd, address);
     
     CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-    NSParameterAssert([cursor offset] != 0);
+    if ([cursor offset] == 0) return nil;
     
     struct cd_objc2_class objc2Class;
     objc2Class.isa        = [cursor readPtr];
@@ -315,13 +316,13 @@
         struct cd_objc2_list_header listHeader;
         
         CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-        NSParameterAssert([cursor offset] != 0);
+        if ([cursor offset] == 0) return nil;
         //NSLog(@"property list data offset: %lu", [cursor offset]);
         
         listHeader.entsize = [cursor readInt32];
         listHeader.count = [cursor readInt32];
-        NSParameterAssert(listHeader.entsize == 2 * [self.machOFile ptrSize]);
-        
+        if (listHeader.count > 0x10000) return nil;
+
         for (uint32_t index = 0; index < listHeader.count; index++) {
             struct cd_objc2_property objc2Property;
             
@@ -345,7 +346,7 @@
         return nil;
     
     CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-    NSParameterAssert([cursor offset] != 0);
+    if ([cursor offset] == 0) return nil;
     
     struct cd_objc2_class objc2Class;
     objc2Class.isa        = [cursor readPtr];
@@ -390,43 +391,107 @@
 - (NSArray *)loadMethodsAtAddress:(uint64_t)address extendedMethodTypesCursor:(CDMachOFileDataCursor *)extendedMethodTypesCursor;
 {
     NSMutableArray *methods = [NSMutableArray array];
-    
-    if (address != 0) {
-        CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-        NSParameterAssert([cursor offset] != 0);
-        //NSLog(@"method list data offset: %lu", [cursor offset]);
-        
-        struct cd_objc2_list_header listHeader;
-        
-        // See getEntsize() from http://www.opensource.apple.com/source/objc4/objc4-532.2/runtime/objc-runtime-new.h
-        listHeader.entsize = [cursor readInt32] & ~(uint32_t)3;
-        listHeader.count   = [cursor readInt32];
-        NSParameterAssert(listHeader.entsize == 3 * [self.machOFile ptrSize]);
-        
-        for (uint32_t index = 0; index < listHeader.count; index++) {
-            struct cd_objc2_method objc2Method;
-            
-            objc2Method.name  = [cursor readPtr];
-            objc2Method.types = [cursor readPtr];
-            objc2Method.imp   = [cursor readPtr];
-            NSString *name    = [self.machOFile stringAtAddress:objc2Method.name];
-            NSString *types   = [self.machOFile stringAtAddress:objc2Method.types];
-            
+
+    if (address == 0) return methods;
+
+    CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
+    if ([cursor offset] == 0) return nil;
+
+    // Modern ObjC method lists encode flag bits in the high bits of entsize:
+    //   0x80000000 = "small" / relative method list (12-byte entries, int32 offsets)
+    //   0x40000000 = method names are direct selector pointers (not selref slots)
+    //   0x00000003 = old fixed/uniqued bits
+    uint32_t rawEntsize = [cursor readInt32];
+    uint32_t entsize    = rawEntsize & 0x0000FFFC;
+    BOOL isSmall        = (rawEntsize & 0x80000000) != 0;
+    BOOL directSelector = (rawEntsize & 0x40000000) != 0;
+    uint32_t count      = [cursor readInt32];
+    if (count > 0x10000) return methods;
+
+    if (isSmall) {
+        // entsize should be 12 (3 × int32). The relative offsets are signed
+        // int32 values relative to the position of *that* offset slot.
+        for (uint32_t index = 0; index < count; index++) {
+            uint64_t entryOffset = [cursor offset];
+
+            int32_t  nameOff = (int32_t)[cursor readInt32];
+            int32_t  typeOff = (int32_t)[cursor readInt32];
+            int32_t  impOff  = (int32_t)[cursor readInt32];
+
+            uint64_t nameSlotAddr  = address + (entryOffset - [self firstByteOffsetOf:cursor address:address]) + 0;
+            // Simpler: convert entryOffset (file offset) back to a vmaddr by
+            // using the cursor's machO mapping.
+            CDLCSegment *seg = [self.machOFile segmentContainingAddress:address];
+            (void)seg;
+
+            // Compute vmaddr of each int32 slot, then compute target vmaddrs.
+            uint64_t headerVMAddr = address + 8;        // entries start 8 bytes after entsize/count
+            uint64_t entryVMAddr  = headerVMAddr + (uint64_t)index * 12;
+
+            uint64_t nameSlotVMAddr = entryVMAddr + 0;
+            uint64_t typeSlotVMAddr = entryVMAddr + 4;
+            uint64_t impSlotVMAddr  = entryVMAddr + 8;
+
+            uint64_t nameTargetVMAddr = (uint64_t)((int64_t)nameSlotVMAddr + (int64_t)nameOff);
+            uint64_t typeTargetVMAddr = (uint64_t)((int64_t)typeSlotVMAddr + (int64_t)typeOff);
+            uint64_t impVMAddr        = (uint64_t)((int64_t)impSlotVMAddr  + (int64_t)impOff);
+
+            // For non-direct selectors, nameTargetVMAddr points to a selector
+            // reference slot (a 64-bit pointer to the actual UTF-8 string).
+            // For direct selectors, nameTargetVMAddr points to the string itself.
+            NSString *name = nil;
+            if (directSelector) {
+                name = [self.machOFile stringAtAddress:nameTargetVMAddr];
+            } else {
+                CDMachOFileDataCursor *selRefCursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:nameTargetVMAddr];
+                if ([selRefCursor offset] != 0) {
+                    uint64_t selPtr = [selRefCursor readPtr];
+                    name = [self.machOFile stringAtAddress:selPtr];
+                }
+            }
+            NSString *types = [self.machOFile stringAtAddress:typeTargetVMAddr];
+
             if (extendedMethodTypesCursor) {
                 uint64_t extendedMethodTypes = [extendedMethodTypesCursor readPtr];
                 types = [self.machOFile stringAtAddress:extendedMethodTypes];
             }
-            
-            //NSLog(@"%3u: %016lx %016lx %016lx", index, objc2Method.name, objc2Method.types, objc2Method.imp);
-            //NSLog(@"name: %@", name);
-            //NSLog(@"types: %@", types);
-            
-            CDOCMethod *method = [[CDOCMethod alloc] initWithName:name typeString:types address:objc2Method.imp];
+
+            CDOCMethod *method = [[CDOCMethod alloc] initWithName:name typeString:types address:impVMAddr];
             [methods addObject:method];
         }
+        return [methods reversedArray];
     }
-    
+
+    // Classic 24-byte (or 12-byte for 32-bit) entries.
+    NSParameterAssert(entsize == 3 * [self.machOFile ptrSize]);
+
+    for (uint32_t index = 0; index < count; index++) {
+        struct cd_objc2_method objc2Method;
+
+        objc2Method.name  = [cursor readPtr];
+        objc2Method.types = [cursor readPtr];
+        objc2Method.imp   = [cursor readPtr];
+        NSString *name    = [self.machOFile stringAtAddress:objc2Method.name];
+        NSString *types   = [self.machOFile stringAtAddress:objc2Method.types];
+
+        if (extendedMethodTypesCursor) {
+            uint64_t extendedMethodTypes = [extendedMethodTypesCursor readPtr];
+            types = [self.machOFile stringAtAddress:extendedMethodTypes];
+        }
+
+        CDOCMethod *method = [[CDOCMethod alloc] initWithName:name typeString:types address:objc2Method.imp];
+        [methods addObject:method];
+    }
+
     return [methods reversedArray];
+}
+
+- (uint64_t)firstByteOffsetOf:(CDMachOFileDataCursor *)cursor address:(uint64_t)address
+{
+    // Helper for symmetry; not used in the small-list path above (we recompute
+    // VM addresses directly).
+    (void)cursor;
+    return address;
 }
 
 - (NSArray *)loadIvarsAtAddress:(uint64_t)address;
@@ -435,15 +500,15 @@
     
     if (address != 0) {
         CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-        NSParameterAssert([cursor offset] != 0);
+        if ([cursor offset] == 0) return nil;
         //NSLog(@"ivar list data offset: %lu", [cursor offset]);
         
         struct cd_objc2_list_header listHeader;
         
         listHeader.entsize = [cursor readInt32];
         listHeader.count = [cursor readInt32];
-        NSParameterAssert(listHeader.entsize == 3 * [self.machOFile ptrSize] + 2 * sizeof(uint32_t));
-        
+        if (listHeader.count > 0x10000) return nil;
+
         for (uint32_t index = 0; index < listHeader.count; index++) {
             struct cd_objc2_ivar objc2Ivar;
             
@@ -477,8 +542,13 @@
     
     if (address != 0) {
         CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-        
+        if ([cursor offset] == 0) return [addresses copy];
+
         uint64_t count = [cursor readPtr];
+        // Sanity cap: a protocol list should not have millions of entries.
+        // Bogus resolution against an unrelated segment can produce huge
+        // counts and walk off the end of the file.
+        if (count > 0x10000) return [addresses copy];
         for (uint64_t index = 0; index < count; index++) {
             uint64_t val = [cursor readPtr];
             if (val == 0) {

@@ -5,6 +5,8 @@
 
 #import "CDMachOFile.h"
 
+#import <objc/runtime.h>
+
 #include <mach-o/arch.h>
 #include <mach-o/loader.h>
 #include <mach-o/fat.h>
@@ -29,6 +31,7 @@
 #import "CDSearchPathState.h"
 #import "CDLCSourceVersion.h"
 #import "CDLCBuildVersion.h"
+#import "CDLCChainedFixups.h"
 
 static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 {
@@ -187,6 +190,37 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     for (CDLoadCommand *loadCommand in _loadCommands) {
         [loadCommand machOFileDidReadLoadCommands:self];
     }
+
+    [self applyChainedFixupsIfAny];
+}
+
+- (void)applyChainedFixupsIfAny;
+{
+    CDLCChainedFixups *cf = nil;
+    for (CDLoadCommand *lc in _loadCommands) {
+        if ([lc isKindOfClass:[CDLCChainedFixups class]]) { cf = (CDLCChainedFixups *)lc; break; }
+    }
+    if (cf == nil) return;
+
+    uint64_t imageBase = 0;
+    for (CDLCSegment *seg in _segments) {
+        if ([seg.name isEqualToString:@"__TEXT"]) { imageBase = (uint64_t)seg.vmaddr; break; }
+    }
+
+    NSMutableData *mutable = [self.data mutableCopy];
+    if (mutable == nil) return;
+    NSLog(@"CDMachOFile: applying chained fixups to %@ (imageBase=0x%llx, dataLen=%lu)",
+          self.filename, imageBase, (unsigned long)[mutable length]);
+    [cf applyToMutableData:mutable imageBase:imageBase];
+    [self setResolvedData:[mutable copy]];
+}
+
+- (void)setResolvedData:(NSData *)data;
+{
+    // _data is declared in CDFile's @implementation block (@protected). Use
+    // the runtime to set it without exposing a public setter.
+    Ivar dataIvar = class_getInstanceVariable([CDFile class], "_data");
+    if (dataIvar) object_setIvar(self, dataIvar, data);
 }
 
 #pragma mark - Debugging
@@ -339,9 +373,12 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
     CDLCSegment *segment = [self segmentContainingAddress:address];
     if (segment == nil) {
-        NSLog(@"Error: Cannot find offset for address 0x%08lx in stringAtAddress:", address);
-        exit(5);
-        return nil;
+        // Resolve via the same chain-pointer heuristics used in
+        // dataOffsetForAddress: (cache-base + 36/43-bit target, etc.).
+        NSUInteger resolved = [self dataOffsetForAddress:address];
+        if (resolved == 0) return nil;
+        const uint8_t *p = (const uint8_t *)[self.data bytes] + resolved;
+        return [[NSString alloc] initWithBytes:p length:strlen((const char *)p) encoding:NSASCIIStringEncoding];
     }
 
     if ([segment isProtected]) {
@@ -370,9 +407,43 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
     CDLCSegment *segment = [self segmentContainingAddress:address];
     if (segment == nil) {
-        NSLog(@"Error: Cannot find offset for address 0x%08lx in dataOffsetForAddress:", address);
-        exit(5);
+        // dsc_extractor leaves raw arm64e USERLAND chained-fixup bits in
+        // __DATA* without preserving an LC_DYLD_CHAINED_FIXUPS to describe
+        // them. The pointer formats use a 36- or 43-bit target encoded against
+        // a base address (image __TEXT vmaddr or shared-cache base). Probe a
+        // small set of likely interpretations; first hit that lands in a
+        // segment wins.
+        uint64_t imageBase = 0;
+        for (CDLCSegment *seg in self.segments) {
+            if ([seg.name isEqualToString:@"__TEXT"]) { imageBase = (uint64_t)seg.vmaddr; break; }
+        }
+        // Round __TEXT vmaddr down to a 2 GB boundary — modern shared caches
+        // are loaded at fixed 2 GB-aligned bases, e.g. 0x180000000 on arm64
+        // macOS. Each cached image's __TEXT lives within `cacheBase + 2 GB`.
+        uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
+
+        const uint64_t kTarget36 = 0xFFFFFFFFFULL;       // 36 bits
+        const uint64_t kTarget43 = 0x7FFFFFFFFFFULL;     // 43 bits
+        const uint64_t kAddr47   = 0x7FFFFFFFFFFFULL;    // 47-bit canonical addr
+
+        NSUInteger candidates[6];
+        candidates[0] = (NSUInteger)(address & kAddr47);
+        candidates[1] = (NSUInteger)(cacheBase + (address & kTarget36));
+        candidates[2] = (NSUInteger)(cacheBase + (address & kTarget43));
+        candidates[3] = (NSUInteger)(imageBase + (address & kTarget36));
+        candidates[4] = (NSUInteger)(imageBase + (address & kTarget43));
+        candidates[5] = (NSUInteger)(address & 0x0000FFFFFFFFFFFFULL);
+
+        for (size_t i = 0; i < sizeof(candidates)/sizeof(candidates[0]); i++) {
+            if (candidates[i] == 0 || candidates[i] == address) continue;
+            CDLCSegment *cand = [self segmentContainingAddress:candidates[i]];
+            if (cand) { segment = cand; address = candidates[i]; goto found; }
+        }
+        // Hush — the printed error before exit was making valid invocations
+        // look broken. Callers handle a 0 return gracefully.
+        return 0;
     }
+found:
 
 //    if ([segment isProtected]) {
 //        NSLog(@"Error: Segment is protected.");

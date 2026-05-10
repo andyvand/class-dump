@@ -29,9 +29,30 @@ NSString *CDImportNameForPath(NSString *path)
 
 NSString *CDNameForCPUType(cpu_type_t cputype, cpu_subtype_t cpusubtype)
 {
-    const NXArchInfo *archInfo = NXGetArchInfoFromCpuType(cputype, cpusubtype);
-    if (archInfo != NULL)
-        return [NSString stringWithUTF8String:archInfo->name];
+    // Mask off PTRAUTH_ABI flag bit and ARM64_PTR_AUTH version nibble before
+    // querying the system mapping; otherwise NXGetArchInfoFromCpuType returns
+    // NULL for arm64e binaries with non-zero PAC version.
+    cpu_subtype_t maskedSubtype = cpusubtype;
+#ifdef CPU_SUBTYPE_PTRAUTH_ABI
+    maskedSubtype &= ~CPU_SUBTYPE_PTRAUTH_ABI;
+#endif
+#ifdef CPU_SUBTYPE_ARM64_PTR_AUTH_MASK
+    maskedSubtype &= ~CPU_SUBTYPE_ARM64_PTR_AUTH_MASK;
+#endif
+    maskedSubtype &= ~CPU_SUBTYPE_MASK;
+
+    const NXArchInfo *archInfo = NXGetArchInfoFromCpuType(cputype, maskedSubtype);
+    if (archInfo != NULL) {
+        NSString *name = [NSString stringWithUTF8String:archInfo->name];
+#ifdef CPU_SUBTYPE_ARM64_PTR_AUTH_MASK
+        uint32_t pacVersion = (uint32_t)((cpusubtype & CPU_SUBTYPE_ARM64_PTR_AUTH_MASK) >> 24);
+        if (pacVersion != 0 && [name isEqualToString:@"arm64e"]) {
+            BOOL versioned = (cpusubtype & CPU_SUBTYPE_PTRAUTH_ABI) != 0;
+            return [NSString stringWithFormat:@"arm64e (PAC v%u%s)", pacVersion, versioned ? ", versioned" : ""];
+        }
+#endif
+        return name;
+    }
 
     // Special cases until the built-in function recognizes these.
     switch (cputype) {
@@ -42,8 +63,11 @@ NSString *CDNameForCPUType(cpu_type_t cputype, cpu_subtype_t cpusubtype)
             break;
         }
         case CPU_TYPE_ARM | CPU_ARCH_ABI64: {
-            switch (cpusubtype) {
+            switch (maskedSubtype) {
                 case CPU_SUBTYPE_ARM_ALL: return @"arm64"; // Not recognized in 10.8.4
+#ifdef CPU_SUBTYPE_ARM64E
+                case CPU_SUBTYPE_ARM64E:  return @"arm64e";
+#endif
             }
             break;
         }

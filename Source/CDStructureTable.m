@@ -131,6 +131,7 @@ static BOOL debugAnonStructures = NO;
 - (void)phase0RegisterStructure:(CDType *)structure usedInMethod:(BOOL)isUsedInMethod;
 {
     NSString *key = structure.typeString;
+    if (key == nil) return;
     CDStructureInfo *info = _phase0_structureInfo[key];
     if (info == nil) {
         info = [[CDStructureInfo alloc] initWithType:structure];
@@ -187,6 +188,7 @@ static BOOL debugAnonStructures = NO;
 - (void)phase1RegisterStructure:(CDType *)structure;
 {
     NSString *key = structure.typeString;
+    if (key == nil) return;
     CDStructureInfo *info = _phase1_structureInfo[key];
     if (info == nil) {
         info = [[CDStructureInfo alloc] initWithType:structure];

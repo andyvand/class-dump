@@ -5,6 +5,8 @@
 
 #import "CDLCFunctionStarts.h"
 
+#import "CDMachOFile.h"
+#import "CDLCSegment.h"
 #import "ULEB128.h"
 
 @implementation CDLCFunctionStarts
@@ -30,6 +32,20 @@
         _functionStarts = [functionStarts copy];
     }
     return _functionStarts;
+}
+
+- (void)appendToString:(NSMutableString *)resultString verbose:(BOOL)isVerbose;
+{
+    [super appendToString:resultString verbose:isVerbose];
+
+    if (!isVerbose) return;
+
+    NSArray *starts = self.functionStarts;
+    CDLCSegment *textSeg = [self.machOFile segmentWithName:@"__TEXT"];
+    uint64_t base = textSeg ? (uint64_t)textSeg.vmaddr : 0;
+    for (NSNumber *offset in starts) {
+        [resultString appendFormat:@"        0x%016llx\n", base + [offset unsignedLongLongValue]];
+    }
 }
 
 @end

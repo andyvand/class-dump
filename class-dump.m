@@ -8,6 +8,7 @@
 #include <unistd.h>
 #include <getopt.h>
 #include <stdlib.h>
+#include <dlfcn.h>
 #include <mach-o/arch.h>
 
 #import "CDClassDump.h"
@@ -19,6 +20,10 @@
 #import "CDFatFile.h"
 #import "CDFatArch.h"
 #import "CDSearchPathState.h"
+#import "CDMachOWriter.h"
+#import "CDDyldCache.h"
+#import "CDLCFilesetEntry.h"
+#import "CDLoadCommand.h"
 
 void print_usage(void)
 {
@@ -45,6 +50,24 @@ void print_usage(void)
             "        --sdk-mac      specify Mac OS X version (will look for /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX<version>.sdk\n"
             "                       or /Developer/SDKs/MacOSX<version>.sdk)\n"
             "        --sdk-root     specify the full SDK root path (or use --sdk-ios/--sdk-mac for a shortcut)\n"
+            "        --show-mach-header   dump the Mach-O header and exit\n"
+            "        --show-load-commands dump the Mach-O load commands and exit\n"
+            "        --lipo-info          list architectures in a fat archive and exit\n"
+            "        --thin <arch>        extract a single architecture (with --out FILE)\n"
+            "        --out <file>         output path for write/extract operations\n"
+            "        --id <name>          set LC_ID_DYLIB (must fit in original space)\n"
+            "        --change OLD,NEW     change LC_LOAD_DYLIB / LC_REEXPORT_DYLIB / etc. matching OLD\n"
+            "        --rpath OLD,NEW      change LC_RPATH matching OLD\n"
+            "        --add-rpath <path>   add LC_RPATH (uses load command region slack)\n"
+            "        --delete-rpath <path>delete LC_RPATH\n"
+            "        --strip-codesig      remove LC_CODE_SIGNATURE and trailing signature data\n"
+            "        --dsc-info           print dyld_shared_cache header info\n"
+            "        --dsc-list-images    list all images in a dyld_shared_cache\n"
+            "        --list-fileset       list LC_FILESET_ENTRY entries (kernelcache)\n"
+            "        --extract-fileset NAME --out FILE\n"
+            "                             extract a fileset entry by name (raw slice)\n"
+            "        --dsc-extract DIR    extract every dylib from a dyld_shared_cache to DIR\n"
+            "                             (uses Apple's dsc_extractor.bundle from Xcode)\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -57,6 +80,22 @@ void print_usage(void)
 #define CD_OPT_SDK_MAC     5
 #define CD_OPT_SDK_ROOT    6
 #define CD_OPT_HIDE        7
+#define CD_OPT_SHOW_LC     8
+#define CD_OPT_SHOW_HEADER 9
+#define CD_OPT_OUT         20
+#define CD_OPT_SET_ID      21
+#define CD_OPT_CHANGE      22
+#define CD_OPT_RPATH_CHG   23
+#define CD_OPT_RPATH_ADD   24
+#define CD_OPT_RPATH_DEL   25
+#define CD_OPT_STRIP_SIG   26
+#define CD_OPT_THIN        27
+#define CD_OPT_LIPO_INFO   28
+#define CD_OPT_DSC_INFO    30
+#define CD_OPT_DSC_IMAGES  31
+#define CD_OPT_FILESET_LS  32
+#define CD_OPT_FILESET_EX  33
+#define CD_OPT_DSC_EXTRACT 34
 
 int main(int argc, char *argv[])
 {
@@ -92,8 +131,43 @@ int main(int argc, char *argv[])
             { "sdk-mac",                 required_argument, NULL, CD_OPT_SDK_MAC },
             { "sdk-root",                required_argument, NULL, CD_OPT_SDK_ROOT },
             { "hide",                    required_argument, NULL, CD_OPT_HIDE },
+            { "show-load-commands",      no_argument,       NULL, CD_OPT_SHOW_LC },
+            { "show-mach-header",        no_argument,       NULL, CD_OPT_SHOW_HEADER },
+            { "out",                     required_argument, NULL, CD_OPT_OUT },
+            { "id",                      required_argument, NULL, CD_OPT_SET_ID },
+            { "change",                  required_argument, NULL, CD_OPT_CHANGE },
+            { "rpath",                   required_argument, NULL, CD_OPT_RPATH_CHG },
+            { "add-rpath",               required_argument, NULL, CD_OPT_RPATH_ADD },
+            { "delete-rpath",            required_argument, NULL, CD_OPT_RPATH_DEL },
+            { "strip-codesig",           no_argument,       NULL, CD_OPT_STRIP_SIG },
+            { "thin",                    required_argument, NULL, CD_OPT_THIN },
+            { "lipo-info",               no_argument,       NULL, CD_OPT_LIPO_INFO },
+            { "dsc-info",                no_argument,       NULL, CD_OPT_DSC_INFO },
+            { "dsc-list-images",         no_argument,       NULL, CD_OPT_DSC_IMAGES },
+            { "list-fileset",            no_argument,       NULL, CD_OPT_FILESET_LS },
+            { "extract-fileset",         required_argument, NULL, CD_OPT_FILESET_EX },
+            { "dsc-extract",             required_argument, NULL, CD_OPT_DSC_EXTRACT },
             { NULL,                      0,                 NULL, 0 },
         };
+
+        BOOL shouldShowLoadCommands = NO;
+        BOOL shouldShowMachHeader = NO;
+        NSString *writeOutPath = nil;
+        NSString *newDylibID = nil;
+        NSString *changeOldPath = nil;
+        NSString *changeNewPath = nil;
+        NSString *rpathOldPath = nil;
+        NSString *rpathNewPath = nil;
+        NSMutableArray<NSString *> *addRPaths = [NSMutableArray array];
+        NSMutableArray<NSString *> *deleteRPaths = [NSMutableArray array];
+        BOOL shouldStripCodesig = NO;
+        NSString *thinArch = nil;
+        BOOL shouldLipoInfo = NO;
+        BOOL shouldDscInfo = NO;
+        BOOL shouldDscListImages = NO;
+        BOOL shouldListFileset = NO;
+        NSString *extractFilesetName = nil;
+        NSString *dscExtractDir = nil;
 
         if (argc == 1) {
             print_usage();
@@ -160,6 +234,88 @@ int main(int argc, char *argv[])
                     break;
                 }
                     
+                case CD_OPT_SHOW_LC:
+                    shouldShowLoadCommands = YES;
+                    break;
+
+                case CD_OPT_SHOW_HEADER:
+                    shouldShowMachHeader = YES;
+                    break;
+
+                case CD_OPT_OUT:
+                    writeOutPath = [NSString stringWithUTF8String:optarg];
+                    break;
+
+                case CD_OPT_SET_ID:
+                    newDylibID = [NSString stringWithUTF8String:optarg];
+                    break;
+
+                case CD_OPT_CHANGE: {
+                    NSString *arg = [NSString stringWithUTF8String:optarg];
+                    NSRange comma = [arg rangeOfString:@","];
+                    if (comma.location == NSNotFound) {
+                        fprintf(stderr, "class-dump: --change expects OLD,NEW\n");
+                        errorFlag = YES;
+                        break;
+                    }
+                    changeOldPath = [arg substringToIndex:comma.location];
+                    changeNewPath = [arg substringFromIndex:comma.location + 1];
+                    break;
+                }
+
+                case CD_OPT_RPATH_CHG: {
+                    NSString *arg = [NSString stringWithUTF8String:optarg];
+                    NSRange comma = [arg rangeOfString:@","];
+                    if (comma.location == NSNotFound) {
+                        fprintf(stderr, "class-dump: --rpath expects OLD,NEW\n");
+                        errorFlag = YES;
+                        break;
+                    }
+                    rpathOldPath = [arg substringToIndex:comma.location];
+                    rpathNewPath = [arg substringFromIndex:comma.location + 1];
+                    break;
+                }
+
+                case CD_OPT_RPATH_ADD:
+                    [addRPaths addObject:[NSString stringWithUTF8String:optarg]];
+                    break;
+
+                case CD_OPT_RPATH_DEL:
+                    [deleteRPaths addObject:[NSString stringWithUTF8String:optarg]];
+                    break;
+
+                case CD_OPT_STRIP_SIG:
+                    shouldStripCodesig = YES;
+                    break;
+
+                case CD_OPT_THIN:
+                    thinArch = [NSString stringWithUTF8String:optarg];
+                    break;
+
+                case CD_OPT_LIPO_INFO:
+                    shouldLipoInfo = YES;
+                    break;
+
+                case CD_OPT_DSC_INFO:
+                    shouldDscInfo = YES;
+                    break;
+
+                case CD_OPT_DSC_IMAGES:
+                    shouldDscListImages = YES;
+                    break;
+
+                case CD_OPT_FILESET_LS:
+                    shouldListFileset = YES;
+                    break;
+
+                case CD_OPT_FILESET_EX:
+                    extractFilesetName = [NSString stringWithUTF8String:optarg];
+                    break;
+
+                case CD_OPT_DSC_EXTRACT:
+                    dscExtractDir = [NSString stringWithUTF8String:optarg];
+                    break;
+
                 case CD_OPT_HIDE: {
                     NSString *str = [NSString stringWithUTF8String:optarg];
                     if ([str isEqualToString:@"all"]) {
@@ -245,6 +401,271 @@ int main(int argc, char *argv[])
             exit(0);
         }
 
+        BOOL hasWriteOp = (newDylibID || changeOldPath || rpathOldPath ||
+                           [addRPaths count] || [deleteRPaths count] ||
+                           shouldStripCodesig || thinArch);
+
+        if (optind < argc && dscExtractDir) {
+            NSString *cachePath = [NSString stringWithFileSystemRepresentation:argv[optind]];
+
+            // dyld_shared_cache_extract_dylibs_progress lives in dsc_extractor.bundle
+            // (shipped with Xcode). It works on caches for any platform.
+            static NSString * const kBundleSearchPaths[] = {
+                @"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/lib/dsc_extractor.bundle",
+                @"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/lib/dsc_extractor.bundle",
+                @"/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/usr/lib/dsc_extractor.bundle",
+                @"/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/usr/lib/dsc_extractor.bundle",
+                @"/Applications/Xcode.app/Contents/Developer/Platforms/XROS.platform/usr/lib/dsc_extractor.bundle",
+            };
+            void *bundle = NULL;
+            NSFileManager *fm = [NSFileManager defaultManager];
+            for (size_t i = 0; i < sizeof(kBundleSearchPaths)/sizeof(kBundleSearchPaths[0]); i++) {
+                if ([fm fileExistsAtPath:kBundleSearchPaths[i]]) {
+                    bundle = dlopen([kBundleSearchPaths[i] fileSystemRepresentation], RTLD_LAZY);
+                    if (bundle) break;
+                }
+            }
+            if (bundle == NULL) {
+                fprintf(stderr, "class-dump: dsc_extractor.bundle not found in any Xcode platform; install Xcode\n");
+                exit(1);
+            }
+            int (*extract)(const char *, const char *, void (^)(unsigned, unsigned)) =
+                dlsym(bundle, "dyld_shared_cache_extract_dylibs_progress");
+            if (extract == NULL) {
+                fprintf(stderr, "class-dump: dyld_shared_cache_extract_dylibs_progress not found in dsc_extractor.bundle\n");
+                exit(1);
+            }
+
+            if (![fm fileExistsAtPath:dscExtractDir]) {
+                NSError *e = nil;
+                if (![fm createDirectoryAtPath:dscExtractDir withIntermediateDirectories:YES attributes:nil error:&e]) {
+                    fprintf(stderr, "class-dump: cannot create %s: %s\n",
+                            [dscExtractDir UTF8String], [[e localizedDescription] UTF8String]);
+                    exit(1);
+                }
+            }
+
+            __block unsigned lastReported = 0;
+            int rc = extract([cachePath fileSystemRepresentation],
+                             [dscExtractDir fileSystemRepresentation],
+                             ^(unsigned cur, unsigned total) {
+                if (cur == total || cur - lastReported >= 50 || cur == 1) {
+                    fprintf(stderr, "\rclass-dump: extracting %u/%u", cur, total);
+                    fflush(stderr);
+                    lastReported = cur;
+                }
+            });
+            fprintf(stderr, "\n");
+            if (rc != 0) {
+                fprintf(stderr, "class-dump: dyld_shared_cache_extract_dylibs_progress failed (rc=%d)\n", rc);
+                exit(1);
+            }
+            exit(0);
+        }
+
+        if (optind < argc && (shouldDscInfo || shouldDscListImages)) {
+            NSString *arg = [NSString stringWithFileSystemRepresentation:argv[optind]];
+            NSData *fileData = [NSData dataWithContentsOfFile:arg
+                                                      options:NSDataReadingMappedAlways
+                                                        error:NULL];
+            if (fileData == nil) {
+                fprintf(stderr, "class-dump: cannot read %s\n", [arg UTF8String]);
+                exit(1);
+            }
+            CDDyldCache *cache = [[CDDyldCache alloc] initWithData:fileData];
+            if (cache == nil) {
+                fprintf(stderr, "class-dump: %s is not a dyld_shared_cache\n", [arg UTF8String]);
+                exit(1);
+            }
+            if (shouldDscInfo) {
+                printf("magic:        %s\n", [cache.magic UTF8String]);
+                printf("mappings:     %u (offset 0x%x)\n", cache.mappingCount, cache.mappingOffset);
+                printf("images:       %lu\n", (unsigned long)[cache.images count]);
+                printf("layout:       %s\n", cache.usesLegacyImageTable ? "legacy" : "modern");
+                if (cache.platform) printf("platform:     %u\n", cache.platform);
+            }
+            if (shouldDscListImages) {
+                for (CDDyldCacheImageInfo *img in cache.images) {
+                    printf("0x%016llx  %s\n", img.address, [img.path UTF8String]);
+                }
+            }
+            exit(0);
+        }
+
+        if (optind < argc && (shouldListFileset || extractFilesetName)) {
+            NSString *arg = [NSString stringWithFileSystemRepresentation:argv[optind]];
+            NSData *fileData = [NSData dataWithContentsOfFile:arg
+                                                      options:NSDataReadingMappedAlways
+                                                        error:NULL];
+            if (fileData == nil) {
+                fprintf(stderr, "class-dump: cannot read %s\n", [arg UTF8String]);
+                exit(1);
+            }
+            CDSearchPathState *sp = [[CDSearchPathState alloc] init];
+            sp.executablePath = [arg stringByDeletingLastPathComponent];
+            id parsed = [CDFile fileWithContentsOfFile:arg searchPathState:sp];
+            CDMachOFile *macho = nil;
+            if ([parsed isKindOfClass:[CDMachOFile class]]) macho = parsed;
+            else if ([parsed isKindOfClass:[CDFatFile class]]) {
+                CDArch a;
+                if ([parsed bestMatchForLocalArch:&a]) macho = [parsed machOFileWithArch:a];
+            }
+            if (macho == nil) {
+                fprintf(stderr, "class-dump: not a Mach-O\n");
+                exit(1);
+            }
+
+            NSMutableArray<CDLCFilesetEntry *> *entries = [NSMutableArray array];
+            for (CDLoadCommand *lc in macho.loadCommands) {
+                if ([lc isKindOfClass:[CDLCFilesetEntry class]]) [entries addObject:(CDLCFilesetEntry *)lc];
+            }
+            if ([entries count] == 0) {
+                fprintf(stderr, "class-dump: no LC_FILESET_ENTRY load commands found\n");
+                exit(1);
+            }
+
+            if (shouldListFileset) {
+                NSArray *sorted = [entries sortedArrayUsingComparator:^NSComparisonResult(CDLCFilesetEntry *a, CDLCFilesetEntry *b) {
+                    if (a.fileoff < b.fileoff) return NSOrderedAscending;
+                    if (a.fileoff > b.fileoff) return NSOrderedDescending;
+                    return NSOrderedSame;
+                }];
+                for (CDLCFilesetEntry *e in sorted) {
+                    printf("vmaddr 0x%016llx  fileoff 0x%016llx  %s\n",
+                           e.vmaddr, e.fileoff, [e.entryID UTF8String]);
+                }
+            }
+
+            if (extractFilesetName) {
+                if (writeOutPath == nil) {
+                    fprintf(stderr, "class-dump: --extract-fileset requires --out\n");
+                    exit(1);
+                }
+                CDLCFilesetEntry *target = nil;
+                for (CDLCFilesetEntry *e in entries) {
+                    if ([e.entryID isEqualToString:extractFilesetName]) { target = e; break; }
+                }
+                if (target == nil) {
+                    fprintf(stderr, "class-dump: fileset entry '%s' not found\n", [extractFilesetName UTF8String]);
+                    exit(1);
+                }
+                // Naive extraction: copy from this entry's fileoff to the next entry's fileoff.
+                // This works for typical kernelcache layouts where entries are contiguous;
+                // it does NOT rebase per-segment fileoff fields, so the resulting Mach-O
+                // segments still reference offsets relative to the original cache.
+                uint64_t end = [fileData length];
+                for (CDLCFilesetEntry *e in entries) {
+                    if (e.fileoff > target.fileoff && e.fileoff < end) end = e.fileoff;
+                }
+                if (target.fileoff >= [fileData length]) {
+                    fprintf(stderr, "class-dump: fileset entry fileoff 0x%llx out of bounds\n", target.fileoff);
+                    exit(1);
+                }
+                NSData *slice = [fileData subdataWithRange:NSMakeRange((NSUInteger)target.fileoff,
+                                                                       (NSUInteger)(end - target.fileoff))];
+                if (![slice writeToFile:writeOutPath atomically:YES]) {
+                    fprintf(stderr, "class-dump: cannot write %s\n", [writeOutPath UTF8String]);
+                    exit(1);
+                }
+                fprintf(stderr, "class-dump: extracted %llu bytes to %s (raw slice; segment file offsets not rebased)\n",
+                        end - target.fileoff, [writeOutPath UTF8String]);
+            }
+            exit(0);
+        }
+
+        if (optind < argc && (hasWriteOp || shouldLipoInfo)) {
+            NSString *arg = [NSString stringWithFileSystemRepresentation:argv[optind]];
+            NSString *executablePath = [arg executablePathForFilename] ?: arg;
+            NSData *fileData = [NSData dataWithContentsOfFile:executablePath];
+            if (fileData == nil) {
+                fprintf(stderr, "class-dump: cannot read %s\n", [executablePath UTF8String]);
+                exit(1);
+            }
+
+            if (shouldLipoInfo) {
+                NSArray *archs = [CDMachOWriter architecturesInData:fileData];
+                printf("%s\n", [[archs componentsJoinedByString:@" "] UTF8String]);
+                exit(0);
+            }
+
+            BOOL hasMutateOp = (newDylibID || changeOldPath || rpathOldPath ||
+                                [addRPaths count] || [deleteRPaths count] || shouldStripCodesig);
+
+            // For thin extraction with no other mutations, write the slice and exit.
+            if (thinArch && !hasMutateOp) {
+                if (writeOutPath == nil) {
+                    fprintf(stderr, "class-dump: --thin requires --out\n");
+                    exit(1);
+                }
+                NSError *err = nil;
+                NSData *slice = [CDMachOWriter thinSliceForArch:thinArch fromFatData:fileData error:&err];
+                if (slice == nil) {
+                    fprintf(stderr, "class-dump: %s\n", [[err localizedDescription] UTF8String]);
+                    exit(1);
+                }
+                if (![slice writeToFile:writeOutPath atomically:YES]) {
+                    fprintf(stderr, "class-dump: cannot write %s\n", [writeOutPath UTF8String]);
+                    exit(1);
+                }
+                exit(0);
+            }
+
+            // Mutating operations: require thin input.
+            NSMutableData *workingData = nil;
+            if (thinArch) {
+                NSError *err = nil;
+                NSData *slice = [CDMachOWriter thinSliceForArch:thinArch fromFatData:fileData error:&err];
+                if (slice == nil) {
+                    fprintf(stderr, "class-dump: %s\n", [[err localizedDescription] UTF8String]);
+                    exit(1);
+                }
+                workingData = [slice mutableCopy];
+            } else {
+                NSArray *archs = [CDMachOWriter architecturesInData:fileData];
+                if ([archs count] != 1) {
+                    fprintf(stderr, "class-dump: input is fat (%s); use --thin <arch> first\n",
+                            [[archs componentsJoinedByString:@" "] UTF8String]);
+                    exit(1);
+                }
+                workingData = [fileData mutableCopy];
+            }
+
+            if (writeOutPath == nil) {
+                fprintf(stderr, "class-dump: write operations require --out\n");
+                exit(1);
+            }
+
+            CDMachOWriter *writer = [[CDMachOWriter alloc] initWithData:workingData
+                                                            sliceOffset:0
+                                                            sliceLength:[workingData length]];
+            if (writer == nil) {
+                fprintf(stderr, "class-dump: not a Mach-O image\n");
+                exit(1);
+            }
+
+            NSError *err = nil;
+            BOOL ok = YES;
+            if (ok && newDylibID)        ok = [writer setDylibID:newDylibID error:&err];
+            if (ok && changeOldPath)     ok = [writer changeInstallName:changeOldPath to:changeNewPath error:&err];
+            if (ok && rpathOldPath)      ok = [writer changeRPath:rpathOldPath to:rpathNewPath error:&err];
+            for (NSString *p in deleteRPaths) { if (!ok) break; ok = [writer deleteRPath:p error:&err]; }
+            for (NSString *p in addRPaths)    { if (!ok) break; ok = [writer addRPath:p error:&err]; }
+            if (ok && shouldStripCodesig) ok = [writer stripCodeSignature:&err];
+
+            if (!ok) {
+                fprintf(stderr, "class-dump: %s\n", [[err localizedDescription] UTF8String]);
+                exit(1);
+            }
+
+            // Truncate workingData to current slice length (stripCodeSignature shrinks it).
+            NSData *out = [workingData subdataWithRange:NSMakeRange(0, writer.sliceLength)];
+            if (![out writeToFile:writeOutPath atomically:YES]) {
+                fprintf(stderr, "class-dump: cannot write %s\n", [writeOutPath UTF8String]);
+                exit(1);
+            }
+            exit(0);
+        }
+
         if (optind < argc) {
             NSString *arg = [NSString stringWithFileSystemRepresentation:argv[optind]];
             NSString *executablePath = [arg executablePathForFilename];
@@ -307,9 +728,19 @@ int main(int argc, char *argv[])
                     fprintf(stderr, "Error: %s\n", [[error localizedFailureReason] UTF8String]);
                     exit(1);
                 } else {
+                    if (shouldShowMachHeader) {
+                        [classDump showHeader];
+                    }
+                    if (shouldShowLoadCommands) {
+                        [classDump showLoadCommands];
+                    }
+                    if (shouldShowMachHeader || shouldShowLoadCommands) {
+                        exit(0);
+                    }
+
                     [classDump processObjectiveCData];
                     [classDump registerTypes];
-                    
+
                     if (searchString != nil) {
                         CDFindMethodVisitor *visitor = [[CDFindMethodVisitor alloc] init];
                         visitor.classDump = classDump;
