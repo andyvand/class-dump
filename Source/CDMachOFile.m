@@ -263,16 +263,25 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     // fallback. Returns the resolved VM address (which lies inside one of our
     // segments OR inside the backing dyld_shared_cache) or 0 if we can't
     // decode this slot.
-    const uint64_t kTarget36 = 0xFFFFFFFFFULL;
-    const uint64_t kTarget43 = 0x7FFFFFFFFFFULL;
-    const uint64_t kAddr47   = 0x7FFFFFFFFFFFULL;
+    const uint64_t kTarget30 = 0x3FFFFFFFULL;        // arm64e SHARED_CACHE
+    const uint64_t kTarget32 = 0xFFFFFFFFULL;        // arm64e auth_rebase
+    const uint64_t kTarget36 = 0xFFFFFFFFFULL;       // _64 / _64_OFFSET
+    const uint64_t kTarget43 = 0x7FFFFFFFFFFULL;     // arm64e USERLAND
+    const uint64_t kAddr47   = 0x7FFFFFFFFFFFULL;    // PAC-stripped canonical
 
-    uint64_t candidates[6] = {
-        raw & kAddr47,
+    uint64_t candidates[10] = {
+        // Try most-restrictive masks first (modern caches use small targets);
+        // wider masks would otherwise produce a "near-miss" address that lands
+        // on a neighbouring string and looks plausible.
+        cacheBase + (raw & kTarget30),
+        imageBase + (raw & kTarget30),
+        cacheBase + (raw & kTarget32),
+        imageBase + (raw & kTarget32),
         cacheBase + (raw & kTarget36),
-        cacheBase + (raw & kTarget43),
         imageBase + (raw & kTarget36),
+        cacheBase + (raw & kTarget43),
         imageBase + (raw & kTarget43),
+        raw & kAddr47,
         raw & 0x0000FFFFFFFFFFFFULL,
     };
     for (size_t i = 0; i < sizeof(candidates)/sizeof(candidates[0]); i++) {
@@ -292,6 +301,7 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
     uint8_t *bytes = (uint8_t *)[mutable mutableBytes];
     NSUInteger len = [mutable length];
+    NSUInteger rewroteToImage = 0, rewroteToCache = 0;
 
     for (CDLCSegment *seg in _segments) {
         NSString *n = seg.name;
@@ -315,8 +325,12 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
             uint64_t resolved = [self _resolveChainSlot:v imageBase:imageBase cacheBase:cacheBase];
             if (resolved == 0) continue;
             memcpy(bytes + i, &resolved, 8);
+            if ([self segmentContainingAddress:(NSUInteger)resolved]) rewroteToImage++;
+            else rewroteToCache++;
         }
     }
+    NSLog(@"chain-heuristic: rewrote %lu slots to image, %lu to cache",
+          (unsigned long)rewroteToImage, (unsigned long)rewroteToCache);
 }
 
 - (void)setBackingCache:(CDDyldCache *)cache;
@@ -324,7 +338,10 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     Ivar ivar = class_getInstanceVariable([CDMachOFile class], "_backingCache");
     if (ivar) object_setIvar(self, ivar, cache);
     // Re-run chain resolution now that more candidate-address pools exist.
-    if (cache) [self applyChainedFixupsIfAny];
+    if (cache) {
+        NSLog(@"CDMachOFile: re-running chain fixups with cache backing");
+        [self applyChainedFixupsIfAny];
+    }
 }
 
 - (void)setResolvedData:(NSData *)data;
@@ -483,11 +500,15 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     if (off != 0 && off + 8 <= [self.data length]) {
         uint64_t v;
         memcpy(&v, (const uint8_t *)[self.data bytes] + off, 8);
+        static int n = 0; if (n < 5) { NSLog(@"pointerAtAddress(0x%llx) [self] -> 0x%llx", address, v); n++; }
         return v;
     }
     if (self.backingCache) {
         uint64_t v = 0;
-        if ([self.backingCache readPointerAtAddress:address into:&v]) return v;
+        if ([self.backingCache readPointerAtAddress:address into:&v]) {
+            static int n = 0; if (n < 5) { NSLog(@"pointerAtAddress(0x%llx) [cache] -> 0x%llx", address, v); n++; }
+            return v;
+        }
     }
     return 0;
 }
@@ -559,17 +580,23 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
         // macOS. Each cached image's __TEXT lives within `cacheBase + 2 GB`.
         uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
 
-        const uint64_t kTarget36 = 0xFFFFFFFFFULL;       // 36 bits
-        const uint64_t kTarget43 = 0x7FFFFFFFFFFULL;     // 43 bits
-        const uint64_t kAddr47   = 0x7FFFFFFFFFFFULL;    // 47-bit canonical addr
+        const uint64_t kTarget30 = 0x3FFFFFFFULL;
+        const uint64_t kTarget32 = 0xFFFFFFFFULL;
+        const uint64_t kTarget36 = 0xFFFFFFFFFULL;
+        const uint64_t kTarget43 = 0x7FFFFFFFFFFULL;
+        const uint64_t kAddr47   = 0x7FFFFFFFFFFFULL;
 
-        NSUInteger candidates[6];
-        candidates[0] = (NSUInteger)(address & kAddr47);
-        candidates[1] = (NSUInteger)(cacheBase + (address & kTarget36));
-        candidates[2] = (NSUInteger)(cacheBase + (address & kTarget43));
-        candidates[3] = (NSUInteger)(imageBase + (address & kTarget36));
-        candidates[4] = (NSUInteger)(imageBase + (address & kTarget43));
-        candidates[5] = (NSUInteger)(address & 0x0000FFFFFFFFFFFFULL);
+        NSUInteger candidates[10];
+        candidates[0] = (NSUInteger)(cacheBase + (address & kTarget30));
+        candidates[1] = (NSUInteger)(imageBase + (address & kTarget30));
+        candidates[2] = (NSUInteger)(cacheBase + (address & kTarget32));
+        candidates[3] = (NSUInteger)(imageBase + (address & kTarget32));
+        candidates[4] = (NSUInteger)(cacheBase + (address & kTarget36));
+        candidates[5] = (NSUInteger)(imageBase + (address & kTarget36));
+        candidates[6] = (NSUInteger)(cacheBase + (address & kTarget43));
+        candidates[7] = (NSUInteger)(imageBase + (address & kTarget43));
+        candidates[8] = (NSUInteger)(address & kAddr47);
+        candidates[9] = (NSUInteger)(address & 0x0000FFFFFFFFFFFFULL);
 
         for (size_t i = 0; i < sizeof(candidates)/sizeof(candidates[0]); i++) {
             if (candidates[i] == 0 || candidates[i] == address) continue;

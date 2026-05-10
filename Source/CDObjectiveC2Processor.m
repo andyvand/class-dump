@@ -406,6 +406,7 @@
     BOOL isSmall        = (rawEntsize & 0x80000000) != 0;
     BOOL directSelector = (rawEntsize & 0x40000000) != 0;
     uint32_t count      = [cursor readInt32];
+    static int dbg = 0; if (dbg < 5) { NSLog(@"loadMethodsAtAddress(0x%llx) rawEntsize=0x%x entsize=%u count=%u small=%d direct=%d", address, rawEntsize, entsize, count, isSmall, directSelector); dbg++; }
     if (count > 0x10000) return methods;
 
     if (isSmall) {
@@ -417,6 +418,8 @@
             int32_t  nameOff = (int32_t)[cursor readInt32];
             int32_t  typeOff = (int32_t)[cursor readInt32];
             int32_t  impOff  = (int32_t)[cursor readInt32];
+            (void)entryOffset;
+            static int dbg2 = 0; if (dbg2 < 8) { NSLog(@"  entry[%u] nameOff=%d typeOff=%d impOff=%d", index, nameOff, typeOff, impOff); dbg2++; }
 
             uint64_t nameSlotAddr  = address + (entryOffset - [self firstByteOffsetOf:cursor address:address]) + 0;
             // Simpler: convert entryOffset (file offset) back to a vmaddr by
@@ -442,6 +445,7 @@
             NSString *name = nil;
             if (directSelector) {
                 name = [self.machOFile stringAtAddress:nameTargetVMAddr];
+                static int dn = 0; if (dn < 5) { NSLog(@"    directSel name @ 0x%llx -> %@", nameTargetVMAddr, name); dn++; }
             } else {
                 uint64_t selPtr = [self.machOFile pointerAtAddress:nameTargetVMAddr];
                 name = [self.machOFile stringAtAddress:(NSUInteger)selPtr];
