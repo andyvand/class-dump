@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include <dlfcn.h>
 #include <mach-o/arch.h>
+#include <mach-o/loader.h>
+#include <mach-o/fat.h>
 
 #import "CDClassDump.h"
 #import "CDFindMethodVisitor.h"
@@ -24,6 +26,7 @@
 #import "CDDyldCache.h"
 #import "CDLCFilesetEntry.h"
 #import "CDLoadCommand.h"
+#import "CDCPlusPlusDumper.h"
 
 void print_usage(void)
 {
@@ -70,6 +73,10 @@ void print_usage(void)
             "                             (uses Apple's dsc_extractor.bundle from Xcode)\n"
             "        --with-cache FILE    use a dyld_shared_cache file to resolve selectors and\n"
             "                             type strings when class-dumping cache-extracted dylibs\n"
+            "        --cpp                dump C++ classes (from LC_SYMTAB Itanium-mangled symbols)\n"
+            "        --dsc-class-dump CACHE_OR_DIR --out OUTDIR\n"
+            "                             extract every dylib from a cache (or use already-extracted\n"
+            "                             dir) and class-dump each into OUTDIR/<install-path>/\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -99,6 +106,8 @@ void print_usage(void)
 #define CD_OPT_FILESET_EX  33
 #define CD_OPT_DSC_EXTRACT 34
 #define CD_OPT_WITH_CACHE  35
+#define CD_OPT_CPP         36
+#define CD_OPT_DSC_DUMPALL 37
 
 int main(int argc, char *argv[])
 {
@@ -151,6 +160,8 @@ int main(int argc, char *argv[])
             { "extract-fileset",         required_argument, NULL, CD_OPT_FILESET_EX },
             { "dsc-extract",             required_argument, NULL, CD_OPT_DSC_EXTRACT },
             { "with-cache",              required_argument, NULL, CD_OPT_WITH_CACHE },
+            { "cpp",                     no_argument,       NULL, CD_OPT_CPP },
+            { "dsc-class-dump",          required_argument, NULL, CD_OPT_DSC_DUMPALL },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -172,6 +183,8 @@ int main(int argc, char *argv[])
         BOOL shouldListFileset = NO;
         NSString *extractFilesetName = nil;
         NSString *dscExtractDir = nil;
+        BOOL shouldDumpCpp = NO;
+        NSString *dscDumpAllInput = nil;
 
         if (argc == 1) {
             print_usage();
@@ -320,6 +333,14 @@ int main(int argc, char *argv[])
                     dscExtractDir = [NSString stringWithUTF8String:optarg];
                     break;
 
+                case CD_OPT_CPP:
+                    shouldDumpCpp = YES;
+                    break;
+
+                case CD_OPT_DSC_DUMPALL:
+                    dscDumpAllInput = [NSString stringWithUTF8String:optarg];
+                    break;
+
                 case CD_OPT_WITH_CACHE: {
                     NSString *cachePath = [NSString stringWithUTF8String:optarg];
                     NSData *cacheData = [NSData dataWithContentsOfFile:cachePath
@@ -422,6 +443,146 @@ int main(int argc, char *argv[])
 
         if (shouldPrintVersion) {
             printf("class-dump %s compiled %s\n", CLASS_DUMP_VERSION, __DATE__ " " __TIME__);
+            exit(0);
+        }
+
+        if (dscDumpAllInput) {
+            if (writeOutPath == nil) {
+                fprintf(stderr, "class-dump: --dsc-class-dump requires --out DIR\n");
+                exit(1);
+            }
+            NSFileManager *fm = [NSFileManager defaultManager];
+            BOOL isDir = NO;
+            if (![fm fileExistsAtPath:dscDumpAllInput isDirectory:&isDir]) {
+                fprintf(stderr, "class-dump: %s does not exist\n", [dscDumpAllInput UTF8String]);
+                exit(1);
+            }
+
+            NSString *extractedDir = dscDumpAllInput;
+            CDDyldCache *bulkCache = classDump.backingCache;
+
+            if (!isDir) {
+                // Treat as a cache file: extract first to a temp dir, then walk.
+                NSString *tmp = [NSTemporaryDirectory() stringByAppendingPathComponent:
+                                 [@"class-dump-dsc-" stringByAppendingString:[[NSUUID UUID] UUIDString]]];
+                if (![fm createDirectoryAtPath:tmp withIntermediateDirectories:YES attributes:nil error:NULL]) {
+                    fprintf(stderr, "class-dump: cannot create %s\n", [tmp UTF8String]);
+                    exit(1);
+                }
+                static NSString * const kBundleSearchPaths[] = {
+                    @"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/lib/dsc_extractor.bundle",
+                    @"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/lib/dsc_extractor.bundle",
+                    @"/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/usr/lib/dsc_extractor.bundle",
+                    @"/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/usr/lib/dsc_extractor.bundle",
+                    @"/Applications/Xcode.app/Contents/Developer/Platforms/XROS.platform/usr/lib/dsc_extractor.bundle",
+                };
+                void *bundle = NULL;
+                for (size_t i = 0; i < sizeof(kBundleSearchPaths)/sizeof(kBundleSearchPaths[0]); i++) {
+                    if ([fm fileExistsAtPath:kBundleSearchPaths[i]]) {
+                        bundle = dlopen([kBundleSearchPaths[i] fileSystemRepresentation], RTLD_LAZY);
+                        if (bundle) break;
+                    }
+                }
+                if (bundle == NULL) {
+                    fprintf(stderr, "class-dump: dsc_extractor.bundle not found\n");
+                    exit(1);
+                }
+                int (*extract)(const char *, const char *, void (^)(unsigned, unsigned)) =
+                    dlsym(bundle, "dyld_shared_cache_extract_dylibs_progress");
+                if (extract == NULL) {
+                    fprintf(stderr, "class-dump: dyld_shared_cache_extract_dylibs_progress not found\n");
+                    exit(1);
+                }
+                fprintf(stderr, "class-dump: extracting cache to %s\n", [tmp UTF8String]);
+                __block unsigned last = 0;
+                int rc = extract([dscDumpAllInput fileSystemRepresentation],
+                                 [tmp fileSystemRepresentation],
+                                 ^(unsigned cur, unsigned total) {
+                    if (cur == total || cur - last >= 100 || cur == 1) {
+                        fprintf(stderr, "\rclass-dump: extract %u/%u", cur, total);
+                        fflush(stderr);
+                        last = cur;
+                    }
+                });
+                fprintf(stderr, "\n");
+                if (rc != 0) {
+                    fprintf(stderr, "class-dump: extraction failed (rc=%d)\n", rc);
+                    exit(1);
+                }
+                extractedDir = tmp;
+
+                // Use the cache itself as backing for cross-image resolution.
+                if (bulkCache == nil) {
+                    NSData *cdata = [NSData dataWithContentsOfFile:dscDumpAllInput
+                                                           options:NSDataReadingMappedAlways
+                                                             error:NULL];
+                    if (cdata) bulkCache = [[CDDyldCache alloc] initWithData:cdata];
+                }
+            }
+
+            if (![fm fileExistsAtPath:writeOutPath]) {
+                [fm createDirectoryAtPath:writeOutPath withIntermediateDirectories:YES attributes:nil error:NULL];
+            }
+
+            // Walk extractedDir for Mach-O dylibs and class-dump each.
+            NSDirectoryEnumerator *en = [fm enumeratorAtPath:extractedDir];
+            unsigned processed = 0, succeeded = 0, failed = 0;
+            for (NSString *rel in en) {
+                NSString *full = [extractedDir stringByAppendingPathComponent:rel];
+                NSDictionary *attrs = [en fileAttributes];
+                if (![[attrs fileType] isEqualToString:NSFileTypeRegular]) continue;
+                if ([attrs fileSize] < 4) continue;
+
+                NSFileHandle *fh = [NSFileHandle fileHandleForReadingAtPath:full];
+                NSData *head = [fh readDataOfLength:4];
+                [fh closeFile];
+                if ([head length] != 4) continue;
+                uint32_t magic;
+                memcpy(&magic, [head bytes], 4);
+                if (magic != MH_MAGIC && magic != MH_MAGIC_64
+                    && magic != MH_CIGAM && magic != MH_CIGAM_64
+                    && magic != FAT_MAGIC && magic != FAT_CIGAM
+                    && magic != FAT_MAGIC_64 && magic != FAT_CIGAM_64) continue;
+
+                processed++;
+                if (processed % 50 == 0) {
+                    fprintf(stderr, "\rclass-dump: dumped %u/? ok=%u fail=%u", processed, succeeded, failed);
+                    fflush(stderr);
+                }
+
+                @autoreleasepool {
+                    CDClassDump *cd = [[CDClassDump alloc] init];
+                    if (bulkCache) cd.backingCache = bulkCache;
+                    CDSearchPathState *sp = [[CDSearchPathState alloc] init];
+                    sp.executablePath = [full stringByDeletingLastPathComponent];
+                    cd.searchPathState.executablePath = sp.executablePath;
+                    CDFile *file = [CDFile fileWithContentsOfFile:full searchPathState:cd.searchPathState];
+                    if (file == nil) { failed++; continue; }
+                    CDArch arch;
+                    if (![file bestMatchForLocalArch:&arch]) { failed++; continue; }
+                    cd.targetArch = arch;
+                    NSError *err = nil;
+                    if (![cd loadFile:file error:&err]) { failed++; continue; }
+
+                    NSString *outSub = [writeOutPath stringByAppendingPathComponent:rel];
+                    [fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:NULL];
+
+                    @try {
+                        [cd processObjectiveCData];
+                        [cd registerTypes];
+                        CDMultiFileVisitor *v = [[CDMultiFileVisitor alloc] init];
+                        v.classDump = cd;
+                        cd.typeController.delegate = v;
+                        v.outputPath = outSub;
+                        [cd recursivelyVisit:v];
+                        succeeded++;
+                    } @catch (NSException *e) {
+                        failed++;
+                    }
+                }
+            }
+            fprintf(stderr, "\nclass-dump: dumped %u images (ok=%u fail=%u) into %s\n",
+                    processed, succeeded, failed, [writeOutPath UTF8String]);
             exit(0);
         }
 
@@ -759,6 +920,24 @@ int main(int argc, char *argv[])
                         [classDump showLoadCommands];
                     }
                     if (shouldShowMachHeader || shouldShowLoadCommands) {
+                        exit(0);
+                    }
+
+                    if (shouldDumpCpp) {
+                        CDMachOFile *mf = [classDump.machOFiles lastObject];
+                        if (mf) {
+                            if (shouldGenerateSeparateHeaders) {
+                                NSError *e = nil;
+                                NSString *dir = outputPath ?: @".";
+                                if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:dir error:&e]) {
+                                    fprintf(stderr, "class-dump: %s\n", [[e localizedDescription] UTF8String]);
+                                    exit(1);
+                                }
+                            } else {
+                                NSString *s = [CDCPlusPlusDumper dumpHeaderForMachOFile:mf];
+                                fwrite([s UTF8String], 1, [s lengthOfBytesUsingEncoding:NSUTF8StringEncoding], stdout);
+                            }
+                        }
                         exit(0);
                     }
 

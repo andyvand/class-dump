@@ -20,6 +20,7 @@
 #import "cd_objc2.h"
 #import "CDProtocolUniquer.h"
 #import "CDOCClassReference.h"
+#import "CDSwiftDemangler.h"
 
 @implementation CDObjectiveC2Processor
 {
@@ -255,8 +256,11 @@
     //NSLog(@"%016lx %016lx %016lx %016lx", objc2ClassData.ivarLayout, objc2ClassData.name, objc2ClassData.baseMethods, objc2ClassData.baseProtocols);
     //NSLog(@"%016lx %016lx %016lx %016lx", objc2ClassData.ivars, objc2ClassData.weakIvarLayout, objc2ClassData.baseProperties);
     NSString *str = [self.machOFile stringAtAddress:objc2ClassData.name];
+    if ([CDSwiftDemangler isMangledSwiftName:str]) {
+        str = [CDSwiftDemangler demangle:str];
+    }
     //NSLog(@"name = %@", str);
-    
+
     CDOCClass *aClass = [[CDOCClass alloc] init];
     [aClass setName:str];
     
