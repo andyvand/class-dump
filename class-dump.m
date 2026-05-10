@@ -27,6 +27,7 @@
 #import "CDLCFilesetEntry.h"
 #import "CDLoadCommand.h"
 #import "CDCPlusPlusDumper.h"
+#import "CDSwiftDumper.h"
 
 void print_usage(void)
 {
@@ -74,6 +75,8 @@ void print_usage(void)
             "        --with-cache FILE    use a dyld_shared_cache file to resolve selectors and\n"
             "                             type strings when class-dumping cache-extracted dylibs\n"
             "        --cpp                dump C++ classes (from LC_SYMTAB Itanium-mangled symbols)\n"
+            "        --swift              dump Swift extensions/types (from LC_SYMTAB mangled symbols,\n"
+            "                             demangled via libswiftCore swift_demangle)\n"
             "        --dsc-class-dump CACHE_OR_DIR --out OUTDIR\n"
             "                             extract every dylib from a cache (or use already-extracted\n"
             "                             dir) and class-dump each into OUTDIR/<install-path>/\n"
@@ -108,6 +111,7 @@ void print_usage(void)
 #define CD_OPT_WITH_CACHE  35
 #define CD_OPT_CPP         36
 #define CD_OPT_DSC_DUMPALL 37
+#define CD_OPT_SWIFT       38
 
 int main(int argc, char *argv[])
 {
@@ -162,6 +166,7 @@ int main(int argc, char *argv[])
             { "with-cache",              required_argument, NULL, CD_OPT_WITH_CACHE },
             { "cpp",                     no_argument,       NULL, CD_OPT_CPP },
             { "dsc-class-dump",          required_argument, NULL, CD_OPT_DSC_DUMPALL },
+            { "swift",                   no_argument,       NULL, CD_OPT_SWIFT },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -184,6 +189,7 @@ int main(int argc, char *argv[])
         NSString *extractFilesetName = nil;
         NSString *dscExtractDir = nil;
         BOOL shouldDumpCpp = NO;
+        BOOL shouldDumpSwift = NO;
         NSString *dscDumpAllInput = nil;
 
         if (argc == 1) {
@@ -339,6 +345,10 @@ int main(int argc, char *argv[])
 
                 case CD_OPT_DSC_DUMPALL:
                     dscDumpAllInput = [NSString stringWithUTF8String:optarg];
+                    break;
+
+                case CD_OPT_SWIFT:
+                    shouldDumpSwift = YES;
                     break;
 
                 case CD_OPT_WITH_CACHE: {
@@ -923,18 +933,19 @@ int main(int argc, char *argv[])
                         exit(0);
                     }
 
-                    if (shouldDumpCpp) {
+                    if (shouldDumpCpp || shouldDumpSwift) {
                         CDMachOFile *mf = [classDump.machOFiles lastObject];
                         if (mf) {
+                            Class dumper = shouldDumpSwift ? [CDSwiftDumper class] : [CDCPlusPlusDumper class];
                             if (shouldGenerateSeparateHeaders) {
                                 NSError *e = nil;
                                 NSString *dir = outputPath ?: @".";
-                                if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:dir error:&e]) {
+                                if (![dumper writeHeadersForMachOFile:mf toDirectory:dir error:&e]) {
                                     fprintf(stderr, "class-dump: %s\n", [[e localizedDescription] UTF8String]);
                                     exit(1);
                                 }
                             } else {
-                                NSString *s = [CDCPlusPlusDumper dumpHeaderForMachOFile:mf];
+                                NSString *s = [dumper dumpHeaderForMachOFile:mf];
                                 fwrite([s UTF8String], 1, [s lengthOfBytesUsingEncoding:NSUTF8StringEncoding], stdout);
                             }
                         }
