@@ -5,8 +5,12 @@
 
 #import "CDClassDump.h"
 
+#import <mach-o/loader.h>
+#import <mach-o/fat.h>
+
 #import "CDFatArch.h"
 #import "CDFatFile.h"
+#import "CDFile.h"
 #import "CDLCDylib.h"
 #import "CDMachOFile.h"
 #import "CDObjectiveCProcessor.h"
@@ -46,6 +50,8 @@ NSString *CDErrorKey_Exception    = @"CDErrorKey_Exception";
     NSMutableArray *_machOFiles;
     NSMutableDictionary *_machOFilesByName;
     NSMutableArray *_objcProcessors;
+    // CDMachOFile instances loaded as type pool sources (pointer identity).
+    NSHashTable *_typePoolMachOFiles;
     
     CDTypeController *_typeController;
     
@@ -61,6 +67,7 @@ NSString *CDErrorKey_Exception    = @"CDErrorKey_Exception";
         _machOFiles = [[NSMutableArray alloc] init];
         _machOFilesByName = [[NSMutableDictionary alloc] init];
         _objcProcessors = [[NSMutableArray alloc] init];
+        _typePoolMachOFiles = [NSHashTable hashTableWithOptions:NSPointerFunctionsOpaquePersonality | NSPointerFunctionsOpaqueMemory];
         
         _typeController = [[CDTypeController alloc] initWithClassDump:self];
         
@@ -179,13 +186,107 @@ NSString *CDErrorKey_Exception    = @"CDErrorKey_Exception";
     return YES;
 }
 
+- (BOOL)loadFileAsTypePoolSource:(CDFile *)file error:(NSError *__autoreleasing *)error;
+{
+    NSUInteger oldCount = [_machOFiles count];
+    BOOL ok = [self loadFile:file error:error];
+    // Mark every Mach-O file added by this load (including transitively
+    // loaded dylibs when -shouldProcessRecursively is YES) as pool-only.
+    for (NSUInteger i = oldCount; i < [_machOFiles count]; i++) {
+        [_typePoolMachOFiles addObject:_machOFiles[i]];
+    }
+    return ok;
+}
+
+- (NSUInteger)scanDirectoryForTypePool:(NSString *)directoryPath
+                              excluding:(NSString *)excludedPath
+                                  error:(NSError *__autoreleasing *)error;
+{
+    NSFileManager *fm = [NSFileManager defaultManager];
+    BOOL isDir = NO;
+    if (![fm fileExistsAtPath:directoryPath isDirectory:&isDir] || !isDir) {
+        if (error != NULL) {
+            NSString *reason = [NSString stringWithFormat:@"Scan path is not a directory: %@", directoryPath];
+            *error = [NSError errorWithDomain:CDErrorDomain_ClassDump code:0
+                                     userInfo:@{ NSLocalizedFailureReasonErrorKey: reason }];
+        }
+        return 0;
+    }
+
+    NSString *standardizedExclude = [[excludedPath stringByStandardizingPath] stringByResolvingSymlinksInPath];
+    NSDirectoryEnumerator *en = [fm enumeratorAtPath:directoryPath];
+    NSUInteger loaded = 0;
+
+    for (NSString *rel in en) {
+        @autoreleasepool {
+            NSString *full = [directoryPath stringByAppendingPathComponent:rel];
+            NSDictionary *attrs = [en fileAttributes];
+            if (![[attrs fileType] isEqualToString:NSFileTypeRegular]) continue;
+            if ([attrs fileSize] < 4) continue;
+
+            if (standardizedExclude) {
+                NSString *stdFull = [[full stringByStandardizingPath] stringByResolvingSymlinksInPath];
+                if ([stdFull isEqualToString:standardizedExclude]) continue;
+            }
+
+            NSFileHandle *fh = [NSFileHandle fileHandleForReadingAtPath:full];
+            NSData *head = [fh readDataOfLength:4];
+            [fh closeFile];
+            if ([head length] != 4) continue;
+            uint32_t magic;
+            memcpy(&magic, [head bytes], 4);
+            if (magic != MH_MAGIC && magic != MH_MAGIC_64
+                && magic != MH_CIGAM && magic != MH_CIGAM_64
+                && magic != FAT_MAGIC && magic != FAT_CIGAM
+                && magic != FAT_MAGIC_64 && magic != FAT_CIGAM_64) continue;
+
+            // Don't load the same path twice (the primary or an earlier
+            // pool entry may already be loaded under this filename).
+            if (_machOFilesByName[full] != nil) continue;
+
+            CDFile *poolFile = [CDFile fileWithContentsOfFile:full searchPathState:self.searchPathState];
+            if (poolFile == nil) continue;
+
+            // Pick the best arch for this file rather than forcing the
+            // primary's targetArch — pool dylibs may not have it.
+            CDArch savedArch = _targetArch;
+            CDArch chosen;
+            if (![poolFile bestMatchForLocalArch:&chosen]) continue;
+            // Prefer the primary's CPU if the file has it, so type sizes
+            // stay consistent.
+            if ([poolFile machOFileWithArch:savedArch] != nil) chosen = savedArch;
+            _targetArch = chosen;
+            BOOL ok = [self loadFileAsTypePoolSource:poolFile error:NULL];
+            _targetArch = savedArch;
+            if (ok) loaded++;
+        }
+    }
+    return loaded;
+}
+
 #pragma mark -
 
 - (void)processObjectiveCData;
 {
     for (CDMachOFile *machOFile in self.machOFiles) {
         CDObjectiveCProcessor *processor = [[[machOFile processorClass] alloc] initWithMachOFile:machOFile];
-        [processor process];
+        BOOL isPool = [_typePoolMachOFiles containsObject:machOFile];
+        if (isPool) {
+            // A pool dylib may be malformed (stubs, dyld_shared_cache
+            // placeholders, truncated symbol tables). Don't let an
+            // Objective-C exception raised by its parser kill the
+            // primary dump.
+            @try {
+                [processor process];
+            } @catch (NSException *exc) {
+                fprintf(stderr, "class-dump: scan-pool: skipping %s (%s)\n",
+                        [machOFile.filename UTF8String], [[exc reason] UTF8String]);
+                continue;
+            }
+            processor.isTypePoolSource = YES;
+        } else {
+            [processor process];
+        }
         [_objcProcessors addObject:processor];
     }
 }
@@ -196,6 +297,7 @@ NSString *CDErrorKey_Exception    = @"CDErrorKey_Exception";
     [visitor willBeginVisiting];
 
     for (CDObjectiveCProcessor *processor in self.objcProcessors) {
+        if (processor.isTypePoolSource) continue;
         [processor recursivelyVisit:visitor];
     }
 

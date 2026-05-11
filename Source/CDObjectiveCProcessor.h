@@ -15,6 +15,11 @@
 @property (readonly) CDMachOFile *machOFile;
 @property (nonatomic, readonly) BOOL hasObjectiveCData;
 
+// When YES, this processor contributes its type encodings to the shared
+// CDTypeController but is skipped by -recursivelyVisit: so its classes,
+// categories, and protocols are not emitted as output.
+@property (assign) BOOL isTypePoolSource;
+
 @property (nonatomic, readonly) CDSection *objcImageInfoSection;
 @property (nonatomic, readonly) NSString *garbageCollectionStatus;
 

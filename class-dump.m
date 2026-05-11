@@ -82,6 +82,13 @@ void print_usage(void)
             "                             dir) and class-dump each into OUTDIR/<install-path>/\n"
             "                             (combine with --cpp and/or --swift to additionally write\n"
             "                             C++ .h files and Swift .swift files per image)\n"
+            "        --scan-dir DIR       recursively scan DIR for Mach-O/dylib files and feed their\n"
+            "                             Objective-C type encodings into a shared type pool so that\n"
+            "                             struct/union/protocol references in the primary binary get\n"
+            "                             resolved to fuller definitions across the binary set\n"
+            "                             (repeatable; pool images themselves are not emitted)\n"
+            "        --auto-scan          also scan the input file's containing directory as a\n"
+            "                             --scan-dir pool source (excluding the input itself)\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -114,6 +121,8 @@ void print_usage(void)
 #define CD_OPT_CPP         36
 #define CD_OPT_DSC_DUMPALL 37
 #define CD_OPT_SWIFT       38
+#define CD_OPT_SCAN_DIR    39
+#define CD_OPT_AUTO_SCAN   40
 
 int main(int argc, char *argv[])
 {
@@ -169,6 +178,8 @@ int main(int argc, char *argv[])
             { "cpp",                     no_argument,       NULL, CD_OPT_CPP },
             { "dsc-class-dump",          required_argument, NULL, CD_OPT_DSC_DUMPALL },
             { "swift",                   no_argument,       NULL, CD_OPT_SWIFT },
+            { "scan-dir",                required_argument, NULL, CD_OPT_SCAN_DIR },
+            { "auto-scan",               no_argument,       NULL, CD_OPT_AUTO_SCAN },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -193,6 +204,8 @@ int main(int argc, char *argv[])
         BOOL shouldDumpCpp = NO;
         BOOL shouldDumpSwift = NO;
         NSString *dscDumpAllInput = nil;
+        NSMutableArray<NSString *> *scanDirs = [NSMutableArray array];
+        BOOL shouldAutoScan = NO;
 
         if (argc == 1) {
             print_usage();
@@ -351,6 +364,14 @@ int main(int argc, char *argv[])
 
                 case CD_OPT_SWIFT:
                     shouldDumpSwift = YES;
+                    break;
+
+                case CD_OPT_SCAN_DIR:
+                    [scanDirs addObject:[NSString stringWithUTF8String:optarg]];
+                    break;
+
+                case CD_OPT_AUTO_SCAN:
+                    shouldAutoScan = YES;
                     break;
 
                 case CD_OPT_WITH_CACHE: {
@@ -987,6 +1008,39 @@ int main(int argc, char *argv[])
                             }
                         }
                         exit(0);
+                    }
+
+                    // Pool extra binaries into the shared type registry so
+                    // that struct / union / protocol references resolve to
+                    // their fullest definition across the binary set.
+                    for (NSString *dir in scanDirs) {
+                        NSError *poolErr = nil;
+                        NSUInteger n = [classDump scanDirectoryForTypePool:dir
+                                                                  excluding:executablePath
+                                                                      error:&poolErr];
+                        if (poolErr) {
+                            fprintf(stderr, "class-dump: --scan-dir %s: %s\n",
+                                    [dir UTF8String], [[poolErr localizedFailureReason] UTF8String]);
+                        } else {
+                            fprintf(stderr, "class-dump: scan-dir %s: pooled %lu image%s\n",
+                                    [dir UTF8String], (unsigned long)n, n == 1 ? "" : "s");
+                        }
+                    }
+                    if (shouldAutoScan) {
+                        NSString *neighbor = [executablePath stringByDeletingLastPathComponent];
+                        if ([neighbor length] > 0) {
+                            NSError *poolErr = nil;
+                            NSUInteger n = [classDump scanDirectoryForTypePool:neighbor
+                                                                      excluding:executablePath
+                                                                          error:&poolErr];
+                            if (poolErr) {
+                                fprintf(stderr, "class-dump: --auto-scan %s: %s\n",
+                                        [neighbor UTF8String], [[poolErr localizedFailureReason] UTF8String]);
+                            } else {
+                                fprintf(stderr, "class-dump: auto-scan %s: pooled %lu image%s\n",
+                                        [neighbor UTF8String], (unsigned long)n, n == 1 ? "" : "s");
+                            }
+                        }
                     }
 
                     [classDump processObjectiveCData];

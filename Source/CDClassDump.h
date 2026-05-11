@@ -53,6 +53,25 @@
 @property (readonly) CDTypeController *typeController;
 
 - (BOOL)loadFile:(CDFile *)file error:(NSError **)error;
+
+// Loads `file` like -loadFile: but marks every Mach-O image it adds
+// (including dylibs picked up via the recursive loader) as a "type pool"
+// source: its Objective-C type encodings still feed CDTypeController so
+// struct/union definitions get merged across binaries, but its classes,
+// categories, and protocols are skipped by -recursivelyVisit: and so are
+// not emitted to output.
+- (BOOL)loadFileAsTypePoolSource:(CDFile *)file error:(NSError **)error;
+
+// Walks `directoryPath` recursively, opening every regular file that
+// looks like a Mach-O (or fat archive) and loading it as a type pool
+// source. Paths whose standardized form equals `excludedPath` are
+// skipped (use this to avoid re-loading the primary binary).
+// Best architecture per-file is chosen via -bestMatchForLocalArch:.
+// Returns the number of files successfully loaded as pool sources.
+- (NSUInteger)scanDirectoryForTypePool:(NSString *)directoryPath
+                              excluding:(NSString *)excludedPath
+                                  error:(NSError **)error;
+
 - (void)processObjectiveCData;
 
 - (void)recursivelyVisit:(CDVisitor *)visitor;
