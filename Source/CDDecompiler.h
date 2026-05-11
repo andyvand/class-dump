@@ -28,6 +28,18 @@
                       toPath:(NSString *)outputCPath
                        error:(NSError **)error;
 
+// Decompiles only the Swift-mangled functions (names beginning with $s /
+// _$s / $S / _$S) and writes the demangled-name pseudo-C output to
+// `outputSwiftPath`. If the binary contains no Swift functions the file
+// is deleted after the run and YES is returned (so callers can ignore
+// "no Swift" as a non-error). Same temp-dir lifecycle as -decompileMachO.
+//
+// NOTE: Ghidra emits pseudo-C, not real Swift source. The .swift
+// extension is a convention for downstream tooling.
++ (BOOL)decompileSwiftMachOAtPath:(NSString *)inputPath
+                           toPath:(NSString *)outputSwiftPath
+                            error:(NSError **)error;
+
 @end
 
 extern NSString *CDErrorDomain_Decompiler;

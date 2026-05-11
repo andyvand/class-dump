@@ -1,7 +1,7 @@
 dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.modulemap \
   /Users/andyvand/Downloads/class-dump/Source/objc-symbols.m \
-  /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
+  /Users/andyvand/Downloads/class-dump/class-dump-Prefix.pch \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinBasic.modulemap \
   /Users/andyvand/Downloads/class-dump/Source/CDExtensions.h \

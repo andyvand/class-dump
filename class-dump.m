@@ -97,6 +97,11 @@ void print_usage(void)
             "                             /opt/ghidra*, /opt/homebrew/Caskroom/ghidra/*).\n"
             "                             Hooks into --dsc-class-dump, --dsc-extract, and\n"
             "                             --extract-fileset; also runs on a plain class-dump.\n"
+            "        --decompile-swift    like --decompile, but emits a <binary>.swift file\n"
+            "                             containing only Swift-mangled functions, with their\n"
+            "                             names demangled via Ghidra's Swift demangler\n"
+            "                             (NOTE: output is pseudo-C, not real Swift source).\n"
+            "                             Can be combined with --decompile.\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -132,6 +137,7 @@ void print_usage(void)
 #define CD_OPT_SCAN_DIR    39
 #define CD_OPT_AUTO_SCAN   40
 #define CD_OPT_DECOMPILE   41
+#define CD_OPT_DECOMPILE_SWIFT 42
 
 int main(int argc, char *argv[])
 {
@@ -190,6 +196,7 @@ int main(int argc, char *argv[])
             { "scan-dir",                required_argument, NULL, CD_OPT_SCAN_DIR },
             { "auto-scan",               no_argument,       NULL, CD_OPT_AUTO_SCAN },
             { "decompile",               no_argument,       NULL, CD_OPT_DECOMPILE },
+            { "decompile-swift",         no_argument,       NULL, CD_OPT_DECOMPILE_SWIFT },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -217,6 +224,7 @@ int main(int argc, char *argv[])
         NSMutableArray<NSString *> *scanDirs = [NSMutableArray array];
         BOOL shouldAutoScan = NO;
         BOOL shouldDecompile = NO;
+        BOOL shouldDecompileSwift = NO;
 
         if (argc == 1) {
             print_usage();
@@ -389,6 +397,10 @@ int main(int argc, char *argv[])
                     shouldDecompile = YES;
                     break;
 
+                case CD_OPT_DECOMPILE_SWIFT:
+                    shouldDecompileSwift = YES;
+                    break;
+
                 case CD_OPT_WITH_CACHE: {
                     NSString *cachePath = [NSString stringWithUTF8String:optarg];
                     NSData *cacheData = [NSData dataWithContentsOfFile:cachePath
@@ -494,17 +506,18 @@ int main(int argc, char *argv[])
             exit(0);
         }
 
-        // Fail-fast: if --decompile was requested but Ghidra cannot be found,
-        // tell the user now rather than after the dump has produced its
-        // other output.
-        if (shouldDecompile) {
+        // Fail-fast: if --decompile / --decompile-swift was requested but
+        // Ghidra cannot be found, tell the user now rather than after the
+        // dump has produced its other output.
+        if (shouldDecompile || shouldDecompileSwift) {
             NSString *gh = [CDDecompiler findGhidraHome];
             if (gh == nil) {
-                fprintf(stderr, "class-dump: --decompile: Ghidra not found.\n%s\n",
+                fprintf(stderr, "class-dump: --decompile%s: Ghidra not found.\n%s\n",
+                        shouldDecompileSwift ? "-swift" : "",
                         [[CDDecompiler installHint] UTF8String]);
                 exit(1);
             }
-            fprintf(stderr, "class-dump: --decompile: using Ghidra at %s\n", [gh UTF8String]);
+            fprintf(stderr, "class-dump: decompile: using Ghidra at %s\n", [gh UTF8String]);
         }
 
         if (dscDumpAllInput) {
@@ -666,6 +679,15 @@ int main(int argc, char *argv[])
                                         [rel UTF8String], [[de localizedFailureReason] UTF8String]);
                             }
                         }
+                        if (shouldDecompileSwift) {
+                            NSString *sOut = [outSub stringByAppendingPathComponent:
+                                              [[full lastPathComponent] stringByAppendingPathExtension:@"swift"]];
+                            NSError *de = nil;
+                            if (![CDDecompiler decompileSwiftMachOAtPath:full toPath:sOut error:&de]) {
+                                fprintf(stderr, "class-dump: decompile-swift %s failed: %s\n",
+                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                            }
+                        }
 
                         succeeded++;
                     } @catch (NSException *e) {
@@ -738,9 +760,9 @@ int main(int argc, char *argv[])
                 exit(1);
             }
 
-            if (shouldDecompile) {
+            if (shouldDecompile || shouldDecompileSwift) {
                 NSDirectoryEnumerator *den = [fm enumeratorAtPath:dscExtractDir];
-                unsigned dcDone = 0, dcFail = 0;
+                unsigned dcDone = 0, dcFail = 0, swDone = 0, swFail = 0;
                 for (NSString *rel in den) {
                     @autoreleasepool {
                         NSString *full = [dscExtractDir stringByAppendingPathComponent:rel];
@@ -754,21 +776,36 @@ int main(int argc, char *argv[])
                         memcpy(&magic, [head bytes], 4);
                         if (magic != MH_MAGIC && magic != MH_MAGIC_64
                             && magic != MH_CIGAM && magic != MH_CIGAM_64) continue;
-                        NSString *cOut = [full stringByAppendingPathExtension:@"c"];
-                        NSError *de = nil;
-                        if ([CDDecompiler decompileMachOAtPath:full toPath:cOut error:&de]) dcDone++;
-                        else {
-                            dcFail++;
-                            fprintf(stderr, "class-dump: decompile %s failed: %s\n",
-                                    [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+
+                        if (shouldDecompile) {
+                            NSString *cOut = [full stringByAppendingPathExtension:@"c"];
+                            NSError *de = nil;
+                            if ([CDDecompiler decompileMachOAtPath:full toPath:cOut error:&de]) dcDone++;
+                            else {
+                                dcFail++;
+                                fprintf(stderr, "class-dump: decompile %s failed: %s\n",
+                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                            }
                         }
-                        if ((dcDone + dcFail) % 20 == 0) {
-                            fprintf(stderr, "\rclass-dump: decompiled %u ok / %u fail", dcDone, dcFail);
+                        if (shouldDecompileSwift) {
+                            NSString *sOut = [full stringByAppendingPathExtension:@"swift"];
+                            NSError *de = nil;
+                            if ([CDDecompiler decompileSwiftMachOAtPath:full toPath:sOut error:&de]) swDone++;
+                            else {
+                                swFail++;
+                                fprintf(stderr, "class-dump: decompile-swift %s failed: %s\n",
+                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                            }
+                        }
+                        if ((dcDone + dcFail + swDone + swFail) % 20 == 0) {
+                            fprintf(stderr, "\rclass-dump: decompiled c=%u/%u swift=%u/%u",
+                                    dcDone, dcDone + dcFail, swDone, swDone + swFail);
                             fflush(stderr);
                         }
                     }
                 }
-                fprintf(stderr, "\nclass-dump: decompile finished: %u ok, %u fail\n", dcDone, dcFail);
+                fprintf(stderr, "\nclass-dump: decompile finished: c ok=%u fail=%u, swift ok=%u fail=%u\n",
+                        dcDone, dcFail, swDone, swFail);
             }
             exit(0);
         }
@@ -887,6 +924,16 @@ int main(int argc, char *argv[])
                         fprintf(stderr, "class-dump: decompiled to %s\n", [cOut UTF8String]);
                     } else {
                         fprintf(stderr, "class-dump: decompile failed: %s\n",
+                                [[de localizedFailureReason] UTF8String]);
+                    }
+                }
+                if (shouldDecompileSwift) {
+                    NSString *sOut = [writeOutPath stringByAppendingPathExtension:@"swift"];
+                    NSError *de = nil;
+                    if ([CDDecompiler decompileSwiftMachOAtPath:writeOutPath toPath:sOut error:&de]) {
+                        fprintf(stderr, "class-dump: swift decompiled to %s\n", [sOut UTF8String]);
+                    } else {
+                        fprintf(stderr, "class-dump: decompile-swift failed: %s\n",
                                 [[de localizedFailureReason] UTF8String]);
                     }
                 }
@@ -1163,6 +1210,31 @@ int main(int argc, char *argv[])
                             fprintf(stderr, "class-dump: wrote %s\n", [cOut UTF8String]);
                         } else {
                             fprintf(stderr, "class-dump: decompile failed: %s\n",
+                                    [[de localizedFailureReason] UTF8String]);
+                        }
+                    }
+
+                    if (shouldDecompileSwift) {
+                        NSString *sDir = outputPath ?: @".";
+                        if (![[NSFileManager defaultManager] fileExistsAtPath:sDir]) {
+                            [[NSFileManager defaultManager] createDirectoryAtPath:sDir
+                                                       withIntermediateDirectories:YES
+                                                                        attributes:nil
+                                                                             error:NULL];
+                        }
+                        NSString *sOut = [sDir stringByAppendingPathComponent:
+                                          [[executablePath lastPathComponent] stringByAppendingPathExtension:@"swift"]];
+                        NSError *de = nil;
+                        fprintf(stderr, "class-dump: decompile-swift %s ...\n", [executablePath UTF8String]);
+                        if ([CDDecompiler decompileSwiftMachOAtPath:executablePath toPath:sOut error:&de]) {
+                            if ([[NSFileManager defaultManager] fileExistsAtPath:sOut]) {
+                                fprintf(stderr, "class-dump: wrote %s\n", [sOut UTF8String]);
+                            } else {
+                                fprintf(stderr, "class-dump: decompile-swift: no Swift functions found in %s\n",
+                                        [[executablePath lastPathComponent] UTF8String]);
+                            }
+                        } else {
+                            fprintf(stderr, "class-dump: decompile-swift failed: %s\n",
                                     [[de localizedFailureReason] UTF8String]);
                         }
                     }
