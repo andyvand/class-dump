@@ -28,6 +28,7 @@
 #import "CDLoadCommand.h"
 #import "CDCPlusPlusDumper.h"
 #import "CDSwiftDumper.h"
+#import "CDDecompiler.h"
 
 void print_usage(void)
 {
@@ -89,6 +90,13 @@ void print_usage(void)
             "                             (repeatable; pool images themselves are not emitted)\n"
             "        --auto-scan          also scan the input file's containing directory as a\n"
             "                             --scan-dir pool source (excluding the input itself)\n"
+            "        --decompile          run Ghidra's headless decompiler over each extracted\n"
+            "                             or class-dumped binary, writing a pseudo-C .c file\n"
+            "                             next to the .h output (requires Ghidra; honors\n"
+            "                             $GHIDRA_HOME or searches /Applications/ghidra*, ~/ghidra*,\n"
+            "                             /opt/ghidra*, /opt/homebrew/Caskroom/ghidra/*).\n"
+            "                             Hooks into --dsc-class-dump, --dsc-extract, and\n"
+            "                             --extract-fileset; also runs on a plain class-dump.\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -123,6 +131,7 @@ void print_usage(void)
 #define CD_OPT_SWIFT       38
 #define CD_OPT_SCAN_DIR    39
 #define CD_OPT_AUTO_SCAN   40
+#define CD_OPT_DECOMPILE   41
 
 int main(int argc, char *argv[])
 {
@@ -180,6 +189,7 @@ int main(int argc, char *argv[])
             { "swift",                   no_argument,       NULL, CD_OPT_SWIFT },
             { "scan-dir",                required_argument, NULL, CD_OPT_SCAN_DIR },
             { "auto-scan",               no_argument,       NULL, CD_OPT_AUTO_SCAN },
+            { "decompile",               no_argument,       NULL, CD_OPT_DECOMPILE },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -206,6 +216,7 @@ int main(int argc, char *argv[])
         NSString *dscDumpAllInput = nil;
         NSMutableArray<NSString *> *scanDirs = [NSMutableArray array];
         BOOL shouldAutoScan = NO;
+        BOOL shouldDecompile = NO;
 
         if (argc == 1) {
             print_usage();
@@ -374,6 +385,10 @@ int main(int argc, char *argv[])
                     shouldAutoScan = YES;
                     break;
 
+                case CD_OPT_DECOMPILE:
+                    shouldDecompile = YES;
+                    break;
+
                 case CD_OPT_WITH_CACHE: {
                     NSString *cachePath = [NSString stringWithUTF8String:optarg];
                     NSData *cacheData = [NSData dataWithContentsOfFile:cachePath
@@ -477,6 +492,19 @@ int main(int argc, char *argv[])
         if (shouldPrintVersion) {
             printf("class-dump %s compiled %s\n", CLASS_DUMP_VERSION, __DATE__ " " __TIME__);
             exit(0);
+        }
+
+        // Fail-fast: if --decompile was requested but Ghidra cannot be found,
+        // tell the user now rather than after the dump has produced its
+        // other output.
+        if (shouldDecompile) {
+            NSString *gh = [CDDecompiler findGhidraHome];
+            if (gh == nil) {
+                fprintf(stderr, "class-dump: --decompile: Ghidra not found.\n%s\n",
+                        [[CDDecompiler installHint] UTF8String]);
+                exit(1);
+            }
+            fprintf(stderr, "class-dump: --decompile: using Ghidra at %s\n", [gh UTF8String]);
         }
 
         if (dscDumpAllInput) {
@@ -629,6 +657,16 @@ int main(int argc, char *argv[])
                             }
                         }
 
+                        if (shouldDecompile) {
+                            NSString *cOut = [outSub stringByAppendingPathComponent:
+                                              [[full lastPathComponent] stringByAppendingPathExtension:@"c"]];
+                            NSError *de = nil;
+                            if (![CDDecompiler decompileMachOAtPath:full toPath:cOut error:&de]) {
+                                fprintf(stderr, "class-dump: decompile %s failed: %s\n",
+                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                            }
+                        }
+
                         succeeded++;
                     } @catch (NSException *e) {
                         failed++;
@@ -698,6 +736,39 @@ int main(int argc, char *argv[])
             if (rc != 0) {
                 fprintf(stderr, "class-dump: dyld_shared_cache_extract_dylibs_progress failed (rc=%d)\n", rc);
                 exit(1);
+            }
+
+            if (shouldDecompile) {
+                NSDirectoryEnumerator *den = [fm enumeratorAtPath:dscExtractDir];
+                unsigned dcDone = 0, dcFail = 0;
+                for (NSString *rel in den) {
+                    @autoreleasepool {
+                        NSString *full = [dscExtractDir stringByAppendingPathComponent:rel];
+                        NSDictionary *attrs = [den fileAttributes];
+                        if (![[attrs fileType] isEqualToString:NSFileTypeRegular]) continue;
+                        NSFileHandle *fh = [NSFileHandle fileHandleForReadingAtPath:full];
+                        NSData *head = [fh readDataOfLength:4];
+                        [fh closeFile];
+                        if ([head length] != 4) continue;
+                        uint32_t magic;
+                        memcpy(&magic, [head bytes], 4);
+                        if (magic != MH_MAGIC && magic != MH_MAGIC_64
+                            && magic != MH_CIGAM && magic != MH_CIGAM_64) continue;
+                        NSString *cOut = [full stringByAppendingPathExtension:@"c"];
+                        NSError *de = nil;
+                        if ([CDDecompiler decompileMachOAtPath:full toPath:cOut error:&de]) dcDone++;
+                        else {
+                            dcFail++;
+                            fprintf(stderr, "class-dump: decompile %s failed: %s\n",
+                                    [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                        }
+                        if ((dcDone + dcFail) % 20 == 0) {
+                            fprintf(stderr, "\rclass-dump: decompiled %u ok / %u fail", dcDone, dcFail);
+                            fflush(stderr);
+                        }
+                    }
+                }
+                fprintf(stderr, "\nclass-dump: decompile finished: %u ok, %u fail\n", dcDone, dcFail);
             }
             exit(0);
         }
@@ -808,6 +879,17 @@ int main(int argc, char *argv[])
                 }
                 fprintf(stderr, "class-dump: extracted %llu bytes to %s (raw slice; segment file offsets not rebased)\n",
                         end - target.fileoff, [writeOutPath UTF8String]);
+
+                if (shouldDecompile) {
+                    NSString *cOut = [writeOutPath stringByAppendingPathExtension:@"c"];
+                    NSError *de = nil;
+                    if ([CDDecompiler decompileMachOAtPath:writeOutPath toPath:cOut error:&de]) {
+                        fprintf(stderr, "class-dump: decompiled to %s\n", [cOut UTF8String]);
+                    } else {
+                        fprintf(stderr, "class-dump: decompile failed: %s\n",
+                                [[de localizedFailureReason] UTF8String]);
+                    }
+                }
             }
             exit(0);
         }
@@ -1063,6 +1145,26 @@ int main(int argc, char *argv[])
                         if ([hiddenSections containsObject:@"structures"]) visitor.shouldShowStructureSection = NO;
                         if ([hiddenSections containsObject:@"protocols"])  visitor.shouldShowProtocolSection  = NO;
                         [classDump recursivelyVisit:visitor];
+                    }
+
+                    if (shouldDecompile) {
+                        NSString *cDir = outputPath ?: @".";
+                        if (![[NSFileManager defaultManager] fileExistsAtPath:cDir]) {
+                            [[NSFileManager defaultManager] createDirectoryAtPath:cDir
+                                                       withIntermediateDirectories:YES
+                                                                        attributes:nil
+                                                                             error:NULL];
+                        }
+                        NSString *cOut = [cDir stringByAppendingPathComponent:
+                                          [[executablePath lastPathComponent] stringByAppendingPathExtension:@"c"]];
+                        NSError *de = nil;
+                        fprintf(stderr, "class-dump: decompiling %s ...\n", [executablePath UTF8String]);
+                        if ([CDDecompiler decompileMachOAtPath:executablePath toPath:cOut error:&de]) {
+                            fprintf(stderr, "class-dump: wrote %s\n", [cOut UTF8String]);
+                        } else {
+                            fprintf(stderr, "class-dump: decompile failed: %s\n",
+                                    [[de localizedFailureReason] UTF8String]);
+                        }
                     }
                 }
             }

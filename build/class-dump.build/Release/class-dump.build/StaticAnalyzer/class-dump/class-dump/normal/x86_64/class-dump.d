@@ -27,4 +27,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDCPlusPlusDumper.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDSwiftDumper.h
+  /Users/andyvand/Downloads/class-dump/Source/CDSwiftDumper.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDDecompiler.h
