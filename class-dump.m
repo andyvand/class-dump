@@ -80,6 +80,8 @@ void print_usage(void)
             "        --dsc-class-dump CACHE_OR_DIR --out OUTDIR\n"
             "                             extract every dylib from a cache (or use already-extracted\n"
             "                             dir) and class-dump each into OUTDIR/<install-path>/\n"
+            "                             (combine with --cpp and/or --swift to additionally write\n"
+            "                             C++ .h files and Swift .swift files per image)\n"
             ,
             CLASS_DUMP_VERSION
        );
@@ -585,6 +587,27 @@ int main(int argc, char *argv[])
                         cd.typeController.delegate = v;
                         v.outputPath = outSub;
                         [cd recursivelyVisit:v];
+
+                        if (shouldDumpCpp || shouldDumpSwift) {
+                            CDMachOFile *mf = [cd.machOFiles lastObject];
+                            if (mf) {
+                                if (shouldDumpCpp) {
+                                    NSError *e = nil;
+                                    if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) {
+                                        fprintf(stderr, "class-dump: cpp dump for %s failed: %s\n",
+                                                [rel UTF8String], [[e localizedDescription] UTF8String]);
+                                    }
+                                }
+                                if (shouldDumpSwift) {
+                                    NSError *e = nil;
+                                    if (![CDSwiftDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) {
+                                        fprintf(stderr, "class-dump: swift dump for %s failed: %s\n",
+                                                [rel UTF8String], [[e localizedDescription] UTF8String]);
+                                    }
+                                }
+                            }
+                        }
+
                         succeeded++;
                     } @catch (NSException *e) {
                         failed++;
@@ -936,17 +959,31 @@ int main(int argc, char *argv[])
                     if (shouldDumpCpp || shouldDumpSwift) {
                         CDMachOFile *mf = [classDump.machOFiles lastObject];
                         if (mf) {
-                            Class dumper = shouldDumpSwift ? [CDSwiftDumper class] : [CDCPlusPlusDumper class];
                             if (shouldGenerateSeparateHeaders) {
-                                NSError *e = nil;
                                 NSString *dir = outputPath ?: @".";
-                                if (![dumper writeHeadersForMachOFile:mf toDirectory:dir error:&e]) {
-                                    fprintf(stderr, "class-dump: %s\n", [[e localizedDescription] UTF8String]);
-                                    exit(1);
+                                if (shouldDumpCpp) {
+                                    NSError *e = nil;
+                                    if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:dir error:&e]) {
+                                        fprintf(stderr, "class-dump: %s\n", [[e localizedDescription] UTF8String]);
+                                        exit(1);
+                                    }
+                                }
+                                if (shouldDumpSwift) {
+                                    NSError *e = nil;
+                                    if (![CDSwiftDumper writeHeadersForMachOFile:mf toDirectory:dir error:&e]) {
+                                        fprintf(stderr, "class-dump: %s\n", [[e localizedDescription] UTF8String]);
+                                        exit(1);
+                                    }
                                 }
                             } else {
-                                NSString *s = [dumper dumpHeaderForMachOFile:mf];
-                                fwrite([s UTF8String], 1, [s lengthOfBytesUsingEncoding:NSUTF8StringEncoding], stdout);
+                                if (shouldDumpCpp) {
+                                    NSString *s = [CDCPlusPlusDumper dumpHeaderForMachOFile:mf];
+                                    fwrite([s UTF8String], 1, [s lengthOfBytesUsingEncoding:NSUTF8StringEncoding], stdout);
+                                }
+                                if (shouldDumpSwift) {
+                                    NSString *s = [CDSwiftDumper dumpHeaderForMachOFile:mf];
+                                    fwrite([s UTF8String], 1, [s lengthOfBytesUsingEncoding:NSUTF8StringEncoding], stdout);
+                                }
                             }
                         }
                         exit(0);

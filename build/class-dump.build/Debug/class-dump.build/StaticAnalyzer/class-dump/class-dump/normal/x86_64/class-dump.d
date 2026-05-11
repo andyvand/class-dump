@@ -25,4 +25,6 @@ dependencies: /Users/andyvand/Downloads/class-dump/class-dump-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDLCFilesetEntry.h \
   /Users/andyvand/Downloads/class-dump/Source/CDLoadCommand.h \
   /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h
+  /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDCPlusPlusDumper.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDSwiftDumper.h
