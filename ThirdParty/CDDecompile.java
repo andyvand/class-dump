@@ -62,7 +62,8 @@ public class CDDecompile extends GhidraScript {
                 if (r != null && r.decompileCompleted()) {
                     DecompiledFunction df = r.getDecompiledFunction();
                     if (df != null) {
-                        pw.println("// ---- " + f.getName() + " @ " + f.getEntryPoint() + " ----");
+                        String retType = (f.getReturnType() != null) ? f.getReturnType().getName() : "void";
+                        pw.println("// ---- " + retType + " " + f.getName() + " @ " + f.getEntryPoint() + " ----");
                         pw.println(df.getC());
                         pw.println();
                         ok++;

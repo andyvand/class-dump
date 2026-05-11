@@ -44,14 +44,17 @@
 
 // Find the class scope from a demangled signature like:
 //   "int Foo::Bar::doIt(int, double const&) const"
-// or "Foo::Bar::doIt(int)" — return ("Foo::Bar", "doIt(int)").
+// or "Foo::Bar::doIt(int)" — returns ("Foo::Bar", "int doIt(int, double const&) const").
 // Returns nil class for free functions.
+//
+// The return type, when present in the demangled string, is preserved verbatim
+// at the front of *outRest. Constructors/destructors and conversion operators
+// have no return type in Itanium-demangled output and pass through unchanged.
 static void CDSplitDemangled(NSString *demangled, NSString **outClass, NSString **outRest)
 {
-    // Strip return type if present (everything up to the last `::name(` chain).
-    // Heuristic: locate the first `(` (start of arglist), then look backward
-    // for the last `::` before it. Return type is everything before the first
-    // space leading into the qualified name.
+    // Locate the first `(` (start of arglist), then look backward for the
+    // last `::` before it. The return type, if any, is the prefix before the
+    // last top-level space; the qualified name is what follows that space.
     NSRange paren = [demangled rangeOfString:@"("];
     if (paren.location == NSNotFound) {
         *outClass = nil;
@@ -60,8 +63,9 @@ static void CDSplitDemangled(NSString *demangled, NSString **outClass, NSString 
     }
 
     NSString *uptoParen = [demangled substringToIndex:paren.location];
-    // Trim a leading return type: split at the last space before any `<` to
-    // avoid breaking templates. Simpler: find the last space outside <>.
+    // Find the last space at bracket depth 0 — spaces inside template args
+    // (`std::vector<int, allocator<int>>`) must not split the return type
+    // from the qualified name.
     NSInteger bracket = 0;
     NSInteger lastSpace = -1;
     for (NSInteger i = 0; i < (NSInteger)[uptoParen length]; i++) {
@@ -70,6 +74,9 @@ static void CDSplitDemangled(NSString *demangled, NSString **outClass, NSString 
         else if (c == '>') bracket--;
         else if (c == ' ' && bracket == 0) lastSpace = i;
     }
+    NSString *returnType = (lastSpace >= 0)
+        ? [uptoParen substringToIndex:(NSUInteger)lastSpace]
+        : nil;
     NSString *qualified = (lastSpace >= 0)
         ? [uptoParen substringFromIndex:(NSUInteger)(lastSpace + 1)]
         : uptoParen;
@@ -83,7 +90,10 @@ static void CDSplitDemangled(NSString *demangled, NSString **outClass, NSString 
     *outClass = [qualified substringToIndex:lastColons.location];
     NSString *methodName = [qualified substringFromIndex:lastColons.location + 2];
     NSString *signature = [demangled substringFromIndex:paren.location];
-    *outRest = [methodName stringByAppendingString:signature];
+    NSString *body = [methodName stringByAppendingString:signature];
+    *outRest = ([returnType length] > 0)
+        ? [NSString stringWithFormat:@"%@ %@", returnType, body]
+        : body;
 }
 
 + (NSDictionary<NSString *, NSArray<NSString *> *> *)groupedSymbolsByClassFromMachOFile:(CDMachOFile *)machOFile

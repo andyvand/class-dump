@@ -144,8 +144,10 @@ public class CDDecompileSwift extends GhidraScript {
                 if (r != null && r.decompileCompleted()) {
                     DecompiledFunction df = r.getDecompiledFunction();
                     if (df != null) {
+                        String retType = (f.getReturnType() != null) ? f.getReturnType().getName() : "void";
                         pw.println("// ---- " + displayName + " ----");
                         pw.println("// address: " + f.getEntryPoint());
+                        pw.println("// return type (C): " + retType);
                         if (isSwiftFn) pw.println("// mangled: " + mangled);
                         else           pw.println("// (non-Swift function in a Swift binary)");
                         pw.println(df.getC());
