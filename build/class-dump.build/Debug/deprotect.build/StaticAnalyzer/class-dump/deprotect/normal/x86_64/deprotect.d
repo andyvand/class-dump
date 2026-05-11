@@ -1,19 +1,18 @@
-dependencies: \
-  /Users/andyvand/GitHub/class-dump/Source/NSString-CDExtensions.h \
-  /Users/andyvand/GitHub/class-dump/Source/NSScanner-CDExtensions.h \
-  /Users/andyvand/GitHub/class-dump/Source/NSError-CDExtensions.h \
-  /Users/andyvand/GitHub/class-dump/Source/NSData-CDExtensions.h \
-  /Users/andyvand/GitHub/class-dump/Source/NSArray-CDExtensions.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDTopologicalSortProtocol.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDTopoSortNode.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDExtensions.h \
-  /Users/andyvand/GitHub/class-dump/deprotect-Prefix.pch \
-  /Users/andyvand/GitHub/class-dump/deprotect.m \
-  /Users/andyvand/GitHub/class-dump/Source/CDClassDump.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDFile.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDMachOFile.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDFatFile.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDLoadCommand.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDMachOFileDataCursor.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDDataCursor.h \
-  /Users/andyvand/GitHub/class-dump/Source/CDLCSegment.h
+dependencies: /Users/andyvand/Downloads/class-dump/deprotect-Prefix.pch \
+  /Users/andyvand/Downloads/class-dump/Source/CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDTopoSortNode.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDTopologicalSortProtocol.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSArray-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSData-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSError-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSScanner-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSString-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/deprotect.m \
+  /Users/andyvand/Downloads/class-dump/Source/CDClassDump.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDFile.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDMachOFile.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDFatFile.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLoadCommand.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLCSegment.h

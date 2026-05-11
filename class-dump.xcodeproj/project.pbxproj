@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -128,43 +128,43 @@
 		01FB2152222A86C40012A5D3 /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 01FB2150222A86C40012A5D3 /* blowfish.c */; };
 		0D288C10187BC2EE0026E2A0 /* CDOCClassReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D288C0E187BC2EE0026E2A0 /* CDOCClassReference.h */; };
 		0D288C11187BC2EE0026E2A0 /* CDOCClassReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D288C0F187BC2EE0026E2A0 /* CDOCClassReference.m */; };
-		ABCE4D842252EE4C009F167D /* objc-symbols.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D832252EE4C009F167D /* objc-symbols.m */; };
-		ABCE4D8A2252F008009F167D /* libMachObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F1113A5AE5A00BF0A67 /* libMachObjC.a */; };
-		ABCE4D8C2252F424009F167D /* CDLCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D8B2252F424009F167D /* CDLCNote.m */; };
-		ABCE4D8D2252F424009F167D /* CDLCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D8B2252F424009F167D /* CDLCNote.m */; };
-		ABCE4D902252F792009F167D /* CDLCNote.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCE4D8F2252F791009F167D /* CDLCNote.h */; };
-		F11E5E7E0000000000000003 /* CDLCFilesetEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */; };
-		F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */; };
 		110F710F710F710F71000003 /* CDLCLinkerOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 110F710F710F710F71000001 /* CDLCLinkerOption.h */; };
 		110F710F710F710F71000004 /* CDLCLinkerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F710F710F710F71000002 /* CDLCLinkerOption.m */; };
-		7A86E77A86E77A86E7000003 /* CDLCTargetTriple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */; };
-		7A86E77A86E77A86E7000004 /* CDLCTargetTriple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */; };
-		CFA0CFA0CFA0000000000003 /* CDLCChainedFixups.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */; };
-		CFA0CFA0CFA0000000000004 /* CDLCChainedFixups.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */; };
-		E70FE70FE70F000000000003 /* CDLCExportsTrie.h in Headers */ = {isa = PBXBuildFile; fileRef = E70FE70FE70F000000000001 /* CDLCExportsTrie.h */; };
-		E70FE70FE70F000000000004 /* CDLCExportsTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = E70FE70FE70F000000000002 /* CDLCExportsTrie.m */; };
-		C0DEC0DEC0DE000000000003 /* CDLCCodeSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */; };
-		C0DEC0DEC0DE000000000004 /* CDLCCodeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */; };
-		E0EDDED1AB1E000000000003 /* CDMachOWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EDDED1AB1E000000000001 /* CDMachOWriter.h */; };
-		E0EDDED1AB1E000000000004 /* CDMachOWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EDDED1AB1E000000000002 /* CDMachOWriter.m */; };
-		D5CCAC4ED5CCAC4ED5C00003 /* CDDyldCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */; };
-		D5CCAC4ED5CCAC4ED5C00004 /* CDDyldCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */; };
-		FACE0FFA1F11A0011B000003 /* CDLCFVMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */; };
-		FACE0FFA1F11A0011B000004 /* CDLCFVMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */; };
-		FACE0FFA1F11A0021B000003 /* CDLCFVMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */; };
-		FACE0FFA1F11A0021B000004 /* CDLCFVMFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */; };
 		1DE171171DE171171DE00003 /* CDLCIdent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE171171DE171171DE00001 /* CDLCIdent.h */; };
 		1DE171171DE171171DE00004 /* CDLCIdent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE171171DE171171DE00002 /* CDLCIdent.m */; };
 		515E70F0515E70F0515E0003 /* CDLCSymSeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 515E70F0515E70F0515E0001 /* CDLCSymSeg.h */; };
 		515E70F0515E70F0515E0004 /* CDLCSymSeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 515E70F0515E70F0515E0002 /* CDLCSymSeg.m */; };
 		51F1A0FE51F1A0FE51F00003 /* CDSwiftDemangler.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F1A0FE51F1A0FE51F00001 /* CDSwiftDemangler.h */; };
 		51F1A0FE51F1A0FE51F00004 /* CDSwiftDemangler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F1A0FE51F1A0FE51F00002 /* CDSwiftDemangler.m */; };
-		C0DEC1A55ED0EFC1A55E0003 /* CDCPlusPlusDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DEC1A55ED0EFC1A55E0001 /* CDCPlusPlusDumper.h */; };
-		C0DEC1A55ED0EFC1A55E0004 /* CDCPlusPlusDumper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */; };
 		51F1D04ED5511F1D04ED0003 /* CDSwiftDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F1D04ED5511F1D04ED0001 /* CDSwiftDumper.h */; };
 		51F1D04ED5511F1D04ED0004 /* CDSwiftDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F1D04ED5511F1D04ED0002 /* CDSwiftDumper.m */; };
+		7A86E77A86E77A86E7000003 /* CDLCTargetTriple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */; };
+		7A86E77A86E77A86E7000004 /* CDLCTargetTriple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */; };
+		ABCE4D842252EE4C009F167D /* objc-symbols.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D832252EE4C009F167D /* objc-symbols.m */; };
+		ABCE4D8A2252F008009F167D /* libMachObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F1113A5AE5A00BF0A67 /* libMachObjC.a */; };
+		ABCE4D8C2252F424009F167D /* CDLCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D8B2252F424009F167D /* CDLCNote.m */; };
+		ABCE4D8D2252F424009F167D /* CDLCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D8B2252F424009F167D /* CDLCNote.m */; };
+		ABCE4D902252F792009F167D /* CDLCNote.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCE4D8F2252F791009F167D /* CDLCNote.h */; };
+		C0DEC0DEC0DE000000000003 /* CDLCCodeSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */; };
+		C0DEC0DEC0DE000000000004 /* CDLCCodeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */; };
+		C0DEC1A55ED0EFC1A55E0003 /* CDCPlusPlusDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DEC1A55ED0EFC1A55E0001 /* CDCPlusPlusDumper.h */; };
+		C0DEC1A55ED0EFC1A55E0004 /* CDCPlusPlusDumper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */; };
 		C270B5C616C54AD6006CA75D /* ULEB128.m in Sources */ = {isa = PBXBuildFile; fileRef = C270B5C516C54AD5006CA75D /* ULEB128.m */; };
 		C270B5C816C54B0C006CA75D /* ULEB128.h in Headers */ = {isa = PBXBuildFile; fileRef = C270B5C716C54B0A006CA75D /* ULEB128.h */; };
+		CFA0CFA0CFA0000000000003 /* CDLCChainedFixups.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */; };
+		CFA0CFA0CFA0000000000004 /* CDLCChainedFixups.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */; };
+		D5CCAC4ED5CCAC4ED5C00003 /* CDDyldCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */; };
+		D5CCAC4ED5CCAC4ED5C00004 /* CDDyldCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */; };
+		E0EDDED1AB1E000000000003 /* CDMachOWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EDDED1AB1E000000000001 /* CDMachOWriter.h */; };
+		E0EDDED1AB1E000000000004 /* CDMachOWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EDDED1AB1E000000000002 /* CDMachOWriter.m */; };
+		E70FE70FE70F000000000003 /* CDLCExportsTrie.h in Headers */ = {isa = PBXBuildFile; fileRef = E70FE70FE70F000000000001 /* CDLCExportsTrie.h */; };
+		E70FE70FE70F000000000004 /* CDLCExportsTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = E70FE70FE70F000000000002 /* CDLCExportsTrie.m */; };
+		F11E5E7E0000000000000003 /* CDLCFilesetEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */; };
+		F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */; };
+		FACE0FFA1F11A0011B000003 /* CDLCFVMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */; };
+		FACE0FFA1F11A0011B000004 /* CDLCFVMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */; };
+		FACE0FFA1F11A0021B000003 /* CDLCFVMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */; };
+		FACE0FFA1F11A0021B000004 /* CDLCFVMFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -462,42 +462,42 @@
 		01FB2150222A86C40012A5D3 /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = blowfish.c; path = ThirdParty/blowfish.c; sourceTree = "<group>"; };
 		0D288C0E187BC2EE0026E2A0 /* CDOCClassReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDOCClassReference.h; path = Source/CDOCClassReference.h; sourceTree = "<group>"; };
 		0D288C0F187BC2EE0026E2A0 /* CDOCClassReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDOCClassReference.m; path = Source/CDOCClassReference.m; sourceTree = "<group>"; };
-		AB47A63C2252EDD000623B23 /* objc-symbols */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-symbols"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABCE4D832252EE4C009F167D /* objc-symbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "objc-symbols.m"; path = "Source/objc-symbols.m"; sourceTree = "<group>"; };
-		ABCE4D8B2252F424009F167D /* CDLCNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCNote.m; path = Source/CDLCNote.m; sourceTree = "<group>"; };
-		ABCE4D8F2252F791009F167D /* CDLCNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCNote.h; path = Source/CDLCNote.h; sourceTree = "<group>"; };
-		F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFilesetEntry.h; path = Source/CDLCFilesetEntry.h; sourceTree = "<group>"; };
-		F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFilesetEntry.m; path = Source/CDLCFilesetEntry.m; sourceTree = "<group>"; };
 		110F710F710F710F71000001 /* CDLCLinkerOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCLinkerOption.h; path = Source/CDLCLinkerOption.h; sourceTree = "<group>"; };
 		110F710F710F710F71000002 /* CDLCLinkerOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCLinkerOption.m; path = Source/CDLCLinkerOption.m; sourceTree = "<group>"; };
-		7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCTargetTriple.h; path = Source/CDLCTargetTriple.h; sourceTree = "<group>"; };
-		7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCTargetTriple.m; path = Source/CDLCTargetTriple.m; sourceTree = "<group>"; };
-		CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCChainedFixups.h; path = Source/CDLCChainedFixups.h; sourceTree = "<group>"; };
-		CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCChainedFixups.m; path = Source/CDLCChainedFixups.m; sourceTree = "<group>"; };
-		E70FE70FE70F000000000001 /* CDLCExportsTrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCExportsTrie.h; path = Source/CDLCExportsTrie.h; sourceTree = "<group>"; };
-		E70FE70FE70F000000000002 /* CDLCExportsTrie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCExportsTrie.m; path = Source/CDLCExportsTrie.m; sourceTree = "<group>"; };
-		C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCCodeSignature.h; path = Source/CDLCCodeSignature.h; sourceTree = "<group>"; };
-		C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCCodeSignature.m; path = Source/CDLCCodeSignature.m; sourceTree = "<group>"; };
-		E0EDDED1AB1E000000000001 /* CDMachOWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDMachOWriter.h; path = Source/CDMachOWriter.h; sourceTree = "<group>"; };
-		E0EDDED1AB1E000000000002 /* CDMachOWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDMachOWriter.m; path = Source/CDMachOWriter.m; sourceTree = "<group>"; };
-		D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDDyldCache.h; path = Source/CDDyldCache.h; sourceTree = "<group>"; };
-		D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDDyldCache.m; path = Source/CDDyldCache.m; sourceTree = "<group>"; };
-		FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMLib.h; path = Source/CDLCFVMLib.h; sourceTree = "<group>"; };
-		FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMLib.m; path = Source/CDLCFVMLib.m; sourceTree = "<group>"; };
-		FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMFile.h; path = Source/CDLCFVMFile.h; sourceTree = "<group>"; };
-		FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMFile.m; path = Source/CDLCFVMFile.m; sourceTree = "<group>"; };
 		1DE171171DE171171DE00001 /* CDLCIdent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCIdent.h; path = Source/CDLCIdent.h; sourceTree = "<group>"; };
 		1DE171171DE171171DE00002 /* CDLCIdent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCIdent.m; path = Source/CDLCIdent.m; sourceTree = "<group>"; };
 		515E70F0515E70F0515E0001 /* CDLCSymSeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCSymSeg.h; path = Source/CDLCSymSeg.h; sourceTree = "<group>"; };
 		515E70F0515E70F0515E0002 /* CDLCSymSeg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCSymSeg.m; path = Source/CDLCSymSeg.m; sourceTree = "<group>"; };
 		51F1A0FE51F1A0FE51F00001 /* CDSwiftDemangler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSwiftDemangler.h; path = Source/CDSwiftDemangler.h; sourceTree = "<group>"; };
 		51F1A0FE51F1A0FE51F00002 /* CDSwiftDemangler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDSwiftDemangler.m; path = Source/CDSwiftDemangler.m; sourceTree = "<group>"; };
-		C0DEC1A55ED0EFC1A55E0001 /* CDCPlusPlusDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCPlusPlusDumper.h; path = Source/CDCPlusPlusDumper.h; sourceTree = "<group>"; };
-		C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CDCPlusPlusDumper.mm; path = Source/CDCPlusPlusDumper.mm; sourceTree = "<group>"; };
 		51F1D04ED5511F1D04ED0001 /* CDSwiftDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSwiftDumper.h; path = Source/CDSwiftDumper.h; sourceTree = "<group>"; };
 		51F1D04ED5511F1D04ED0002 /* CDSwiftDumper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDSwiftDumper.m; path = Source/CDSwiftDumper.m; sourceTree = "<group>"; };
+		7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCTargetTriple.h; path = Source/CDLCTargetTriple.h; sourceTree = "<group>"; };
+		7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCTargetTriple.m; path = Source/CDLCTargetTriple.m; sourceTree = "<group>"; };
+		AB47A63C2252EDD000623B23 /* objc-symbols */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-symbols"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCE4D832252EE4C009F167D /* objc-symbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "objc-symbols.m"; path = "Source/objc-symbols.m"; sourceTree = "<group>"; };
+		ABCE4D8B2252F424009F167D /* CDLCNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCNote.m; path = Source/CDLCNote.m; sourceTree = "<group>"; };
+		ABCE4D8F2252F791009F167D /* CDLCNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCNote.h; path = Source/CDLCNote.h; sourceTree = "<group>"; };
+		C0DEC0DEC0DE000000000001 /* CDLCCodeSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCCodeSignature.h; path = Source/CDLCCodeSignature.h; sourceTree = "<group>"; };
+		C0DEC0DEC0DE000000000002 /* CDLCCodeSignature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCCodeSignature.m; path = Source/CDLCCodeSignature.m; sourceTree = "<group>"; };
+		C0DEC1A55ED0EFC1A55E0001 /* CDCPlusPlusDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCPlusPlusDumper.h; path = Source/CDCPlusPlusDumper.h; sourceTree = "<group>"; };
+		C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CDCPlusPlusDumper.mm; path = Source/CDCPlusPlusDumper.mm; sourceTree = "<group>"; };
 		C270B5C516C54AD5006CA75D /* ULEB128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULEB128.m; path = Source/ULEB128.m; sourceTree = "<group>"; };
 		C270B5C716C54B0A006CA75D /* ULEB128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULEB128.h; path = Source/ULEB128.h; sourceTree = "<group>"; };
+		CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCChainedFixups.h; path = Source/CDLCChainedFixups.h; sourceTree = "<group>"; };
+		CFA0CFA0CFA0000000000002 /* CDLCChainedFixups.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCChainedFixups.m; path = Source/CDLCChainedFixups.m; sourceTree = "<group>"; };
+		D5CCAC4ED5CCAC4ED5C00001 /* CDDyldCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDDyldCache.h; path = Source/CDDyldCache.h; sourceTree = "<group>"; };
+		D5CCAC4ED5CCAC4ED5C00002 /* CDDyldCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDDyldCache.m; path = Source/CDDyldCache.m; sourceTree = "<group>"; };
+		E0EDDED1AB1E000000000001 /* CDMachOWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDMachOWriter.h; path = Source/CDMachOWriter.h; sourceTree = "<group>"; };
+		E0EDDED1AB1E000000000002 /* CDMachOWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDMachOWriter.m; path = Source/CDMachOWriter.m; sourceTree = "<group>"; };
+		E70FE70FE70F000000000001 /* CDLCExportsTrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCExportsTrie.h; path = Source/CDLCExportsTrie.h; sourceTree = "<group>"; };
+		E70FE70FE70F000000000002 /* CDLCExportsTrie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCExportsTrie.m; path = Source/CDLCExportsTrie.m; sourceTree = "<group>"; };
+		F11E5E7E0000000000000001 /* CDLCFilesetEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFilesetEntry.h; path = Source/CDLCFilesetEntry.h; sourceTree = "<group>"; };
+		F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFilesetEntry.m; path = Source/CDLCFilesetEntry.m; sourceTree = "<group>"; };
+		FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMLib.h; path = Source/CDLCFVMLib.h; sourceTree = "<group>"; };
+		FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMLib.m; path = Source/CDLCFVMLib.m; sourceTree = "<group>"; };
+		FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMFile.h; path = Source/CDLCFVMFile.h; sourceTree = "<group>"; };
+		FACE0FFA1F11A0021B000002 /* CDLCFVMFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMFile.m; path = Source/CDLCFVMFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1091,32 +1091,36 @@
 		01EB825613A590D9003EDE60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					013D1EFA13A5A0F100BF0A67 = {
-						DevelopmentTeam = TYR55Y75T7;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 					013D1F1013A5AE5A00BF0A67 = {
-						DevelopmentTeam = TYR55Y75T7;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 					0165B8B01827137D00CC647F = {
-						DevelopmentTeam = TYR55Y75T7;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 					01B02CFE13A5B0DC0047BC53 = {
-						DevelopmentTeam = TYR55Y75T7;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 					01B02D2E13A5B5D50047BC53 = {
-						DevelopmentTeam = TYR55Y75T7;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 					01EB825E13A590D9003EDE60 = {
-						DevelopmentTeam = TYR55Y75T7;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 					AB47A63B2252EDD000623B23 = {
-						DevelopmentTeam = TYR55Y75T7;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = W6E3273XL3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1377,16 +1381,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "deprotect-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
+					"-lc++",
+					"-lc++abi",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1397,16 +1406,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "deprotect-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
+					"-lc++",
+					"-lc++abi",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1417,9 +1431,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1428,9 +1449,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1441,15 +1469,21 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1457,7 +1491,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1474,20 +1508,26 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1506,16 +1546,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "formatType-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
+					"-lc++",
+					"-lc++abi",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1526,16 +1571,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "formatType-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
+					"-lc++",
+					"-lc++abi",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1546,7 +1596,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1555,7 +1610,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1588,19 +1648,22 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 3.6;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				DYLIB_COMPATIBILITY_VERSION = 3.0;
 				DYLIB_CURRENT_VERSION = 3.6;
@@ -1609,6 +1672,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1637,7 +1701,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = macosx;
-				STRIP_STYLE = "non-global";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				VALIDATE_PRODUCT = YES;
 				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1685,25 +1749,29 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 3.6;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				DYLIB_COMPATIBILITY_VERSION = 3.0;
 				DYLIB_CURRENT_VERSION = 3.6;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
@@ -1724,6 +1792,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				VALIDATE_PRODUCT = YES;
 				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1746,13 +1815,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "class-dump-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1767,13 +1839,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "class-dump-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1798,20 +1873,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1828,21 +1906,24 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = "";
+				CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION = "";
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = TYR55Y75T7;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

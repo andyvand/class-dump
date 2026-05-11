@@ -1,0 +1,20 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.modulemap \
+  /Users/andyvand/Downloads/class-dump/Source/CDLCNote.m \
+  /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinBasic.modulemap \
+  /Users/andyvand/Downloads/class-dump/Source/CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDTopoSortNode.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDTopologicalSortProtocol.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSArray-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSData-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSError-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSScanner-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/NSString-CDExtensions.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLCNote.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLoadCommand.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDMachOFile.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDFile.h
