@@ -9,9 +9,12 @@
 #include <getopt.h>
 #include <stdlib.h>
 #include <dlfcn.h>
+#include <signal.h>
+#include <sys/wait.h>
 #include <mach-o/arch.h>
 #include <mach-o/loader.h>
 #include <mach-o/fat.h>
+#include <mach-o/dyld.h>
 
 #import "CDClassDump.h"
 #import "CDFindMethodVisitor.h"
@@ -85,7 +88,18 @@ void print_usage(void)
             "                             extract every dylib from a cache (or use already-extracted\n"
             "                             dir) and class-dump each into OUTDIR/<install-path>/\n"
             "                             (combine with --cpp and/or --swift to additionally write\n"
-            "                             C++ .h files and Swift .swift files per image)\n"
+            "                             C++ .h files and Swift .swift files per image).\n"
+            "                             Each image is dumped in an isolated child class-dump\n"
+            "                             process so that a hang or crash in one image (e.g.\n"
+            "                             WebKit) cannot stall the rest of the batch.\n"
+            "        --dsc-image-timeout SEC\n"
+            "                             per-image wall-clock timeout for --dsc-class-dump\n"
+            "                             (default 600s; 0 disables; child is SIGKILL'd on timeout\n"
+            "                             and the image is reported as failed).\n"
+            "        --dsc-skip-existing  with --dsc-class-dump, skip images whose output subdir\n"
+            "                             already exists and is non-empty (resumable batch runs).\n"
+            "        --dsc-in-process     with --dsc-class-dump, run all images in-process (legacy\n"
+            "                             behaviour). A hang in one image stops the whole batch.\n"
             "        --scan-dir DIR       recursively scan DIR for Mach-O/dylib files and feed their\n"
             "                             Objective-C type encodings into a shared type pool so that\n"
             "                             struct/union/protocol references in the primary binary get\n"
@@ -149,6 +163,196 @@ void print_usage(void)
 #define CD_OPT_DECOMPILE   41
 #define CD_OPT_DECOMPILE_SWIFT 42
 #define CD_OPT_DECOMPILE_CPP 43
+#define CD_OPT_DSC_TIMEOUT       44
+#define CD_OPT_DSC_SKIP_EXISTING 45
+#define CD_OPT_DSC_IN_PROCESS    46
+#define CD_OPT_DSC_WORKER        47
+
+// Resolve the absolute path to the currently running class-dump executable.
+// Used by --dsc-class-dump to re-spawn self as a per-image worker.
+static NSString *CDExecutablePath(void)
+{
+    char buf[PATH_MAX];
+    uint32_t size = sizeof(buf);
+    if (_NSGetExecutablePath(buf, &size) != 0) {
+        // Buffer was too small — try once more with the needed size.
+        char *dyn = malloc(size);
+        if (dyn == NULL) return nil;
+        if (_NSGetExecutablePath(dyn, &size) != 0) { free(dyn); return nil; }
+        NSString *r = [NSString stringWithUTF8String:dyn];
+        free(dyn);
+        return [r stringByStandardizingPath];
+    }
+    return [[NSString stringWithUTF8String:buf] stringByStandardizingPath];
+}
+
+// Returns YES if the directory exists and has at least one entry (any file).
+static BOOL CDDirectoryHasOutput(NSString *dir)
+{
+    NSFileManager *fm = [NSFileManager defaultManager];
+    BOOL isDir = NO;
+    if (![fm fileExistsAtPath:dir isDirectory:&isDir] || !isDir) return NO;
+    NSDirectoryEnumerator *en = [fm enumeratorAtPath:dir];
+    for (NSString *child in en) {
+        (void)child;
+        return YES;
+    }
+    return NO;
+}
+
+// Run a child class-dump with argv `args` and wait up to `timeoutSec`
+// seconds. If timeoutSec <= 0, wait indefinitely.
+// Returns:
+//   0   — child exited 0 (success)
+//  -1   — child failed to launch
+//  -2   — child was killed because it exceeded the timeout
+// other — child exit status (non-zero)
+static int CDRunChildWithTimeout(NSString *exePath,
+                                 NSArray<NSString *> *args,
+                                 double timeoutSec)
+{
+    NSTask *task = [[NSTask alloc] init];
+    task.launchPath = exePath;
+    task.arguments = args;
+    // Inherit stdout/stderr so the child's messages are visible.
+    task.standardInput = [NSFileHandle fileHandleWithNullDevice];
+
+    @try {
+        if (@available(macOS 10.13, *)) {
+            NSError *e = nil;
+            if (![task launchAndReturnError:&e]) return -1;
+        } else {
+            [task launch];
+        }
+    } @catch (NSException *exc) {
+        return -1;
+    }
+
+    if (timeoutSec <= 0.0) {
+        [task waitUntilExit];
+        return [task terminationStatus];
+    }
+
+    // Poll waitpid via NSTask's isRunning, which internally uses waitpid.
+    // Sleep in small chunks so we can react to timeout reasonably quickly.
+    NSTimeInterval start = [NSDate timeIntervalSinceReferenceDate];
+    const useconds_t kPollUs = 100 * 1000; // 100 ms
+    while ([task isRunning]) {
+        NSTimeInterval elapsed = [NSDate timeIntervalSinceReferenceDate] - start;
+        if (elapsed >= timeoutSec) {
+            // Try a graceful terminate first, then escalate to SIGKILL.
+            kill(task.processIdentifier, SIGTERM);
+            NSTimeInterval graceStart = [NSDate timeIntervalSinceReferenceDate];
+            while ([task isRunning] && ([NSDate timeIntervalSinceReferenceDate] - graceStart) < 3.0) {
+                usleep(kPollUs);
+            }
+            if ([task isRunning]) {
+                kill(task.processIdentifier, SIGKILL);
+                [task waitUntilExit];
+            }
+            return -2;
+        }
+        usleep(kPollUs);
+    }
+    return [task terminationStatus];
+}
+
+// Process a single Mach-O image: class-dump (multi-file) into outDir, then
+// optionally also write C++/Swift symbol-derived headers and run the Ghidra
+// decompilers, all into outDir. backingCache, if non-nil, is used for
+// cross-image type/selector resolution.
+// Returns 0 on success, 1 if the file could not be parsed, 2 if class-dump
+// raised an Objective-C exception during processing.
+static int CDDumpSingleImage(NSString *fullPath,
+                             NSString *outDir,
+                             CDDyldCache *backingCache,
+                             BOOL dumpCpp,
+                             BOOL dumpSwift,
+                             BOOL decompile,
+                             BOOL decompileSwift,
+                             BOOL decompileCpp)
+{
+    NSFileManager *fm = [NSFileManager defaultManager];
+    [fm createDirectoryAtPath:outDir withIntermediateDirectories:YES attributes:nil error:NULL];
+
+    @autoreleasepool {
+        CDClassDump *cd = [[CDClassDump alloc] init];
+        if (backingCache) cd.backingCache = backingCache;
+        cd.searchPathState.executablePath = [fullPath stringByDeletingLastPathComponent];
+
+        CDFile *file = [CDFile fileWithContentsOfFile:fullPath searchPathState:cd.searchPathState];
+        if (file == nil) return 1;
+        CDArch arch;
+        if (![file bestMatchForLocalArch:&arch]) return 1;
+        cd.targetArch = arch;
+        NSError *err = nil;
+        if (![cd loadFile:file error:&err]) return 1;
+
+        @try {
+            [cd processObjectiveCData];
+            [cd registerTypes];
+            CDMultiFileVisitor *v = [[CDMultiFileVisitor alloc] init];
+            v.classDump = cd;
+            cd.typeController.delegate = v;
+            v.outputPath = outDir;
+            [cd recursivelyVisit:v];
+
+            if (dumpCpp || dumpSwift) {
+                CDMachOFile *mf = [cd.machOFiles lastObject];
+                if (mf) {
+                    if (dumpCpp) {
+                        NSError *e = nil;
+                        if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:outDir error:&e]) {
+                            fprintf(stderr, "class-dump: cpp dump failed: %s\n",
+                                    [[e localizedDescription] UTF8String]);
+                        }
+                    }
+                    if (dumpSwift) {
+                        NSError *e = nil;
+                        if (![CDSwiftDumper writeHeadersForMachOFile:mf toDirectory:outDir error:&e]) {
+                            fprintf(stderr, "class-dump: swift dump failed: %s\n",
+                                    [[e localizedDescription] UTF8String]);
+                        }
+                    }
+                }
+            }
+
+            NSString *base = [fullPath lastPathComponent];
+            if (decompile) {
+                NSString *cOut = [outDir stringByAppendingPathComponent:
+                                  [base stringByAppendingPathExtension:@"c"]];
+                NSError *de = nil;
+                if (![CDDecompiler decompileMachOAtPath:fullPath toPath:cOut error:&de]) {
+                    fprintf(stderr, "class-dump: decompile failed: %s\n",
+                            [[de localizedFailureReason] UTF8String]);
+                }
+            }
+            if (decompileSwift) {
+                NSString *sOut = [outDir stringByAppendingPathComponent:
+                                  [base stringByAppendingPathExtension:@"swift"]];
+                NSError *de = nil;
+                if (![CDDecompiler decompileSwiftMachOAtPath:fullPath toPath:sOut error:&de]) {
+                    fprintf(stderr, "class-dump: decompile-swift failed: %s\n",
+                            [[de localizedFailureReason] UTF8String]);
+                }
+            }
+            if (decompileCpp) {
+                NSString *cppOut = [outDir stringByAppendingPathComponent:
+                                    [base stringByAppendingPathExtension:@"cpp"]];
+                NSError *de = nil;
+                if (![CDDecompiler decompileCppMachOAtPath:fullPath toPath:cppOut error:&de]) {
+                    fprintf(stderr, "class-dump: decompile-cpp failed: %s\n",
+                            [[de localizedFailureReason] UTF8String]);
+                }
+            }
+        } @catch (NSException *e) {
+            fprintf(stderr, "class-dump: exception while dumping %s: %s\n",
+                    [fullPath UTF8String], [[e reason] UTF8String]);
+            return 2;
+        }
+    }
+    return 0;
+}
 
 int main(int argc, char *argv[])
 {
@@ -209,6 +413,10 @@ int main(int argc, char *argv[])
             { "decompile",               no_argument,       NULL, CD_OPT_DECOMPILE },
             { "decompile-swift",         no_argument,       NULL, CD_OPT_DECOMPILE_SWIFT },
             { "decompile-cpp",           no_argument,       NULL, CD_OPT_DECOMPILE_CPP },
+            { "dsc-image-timeout",       required_argument, NULL, CD_OPT_DSC_TIMEOUT },
+            { "dsc-skip-existing",       no_argument,       NULL, CD_OPT_DSC_SKIP_EXISTING },
+            { "dsc-in-process",          no_argument,       NULL, CD_OPT_DSC_IN_PROCESS },
+            { "dsc-worker",              no_argument,       NULL, CD_OPT_DSC_WORKER },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -238,6 +446,10 @@ int main(int argc, char *argv[])
         BOOL shouldDecompile = NO;
         BOOL shouldDecompileSwift = NO;
         BOOL shouldDecompileCpp = NO;
+        double dscImageTimeout = 600.0;
+        BOOL dscSkipExisting = NO;
+        BOOL dscInProcess = NO;
+        BOOL dscWorkerMode = NO;
 
         if (argc == 1) {
             print_usage();
@@ -418,6 +630,30 @@ int main(int argc, char *argv[])
                     shouldDecompileCpp = YES;
                     break;
 
+                case CD_OPT_DSC_TIMEOUT: {
+                    char *endp = NULL;
+                    double v = strtod(optarg, &endp);
+                    if (endp == optarg || v < 0) {
+                        fprintf(stderr, "class-dump: --dsc-image-timeout: invalid value %s\n", optarg);
+                        errorFlag = YES;
+                    } else {
+                        dscImageTimeout = v;
+                    }
+                    break;
+                }
+
+                case CD_OPT_DSC_SKIP_EXISTING:
+                    dscSkipExisting = YES;
+                    break;
+
+                case CD_OPT_DSC_IN_PROCESS:
+                    dscInProcess = YES;
+                    break;
+
+                case CD_OPT_DSC_WORKER:
+                    dscWorkerMode = YES;
+                    break;
+
                 case CD_OPT_WITH_CACHE: {
                     NSString *cachePath = [NSString stringWithUTF8String:optarg];
                     NSData *cacheData = [NSData dataWithContentsOfFile:cachePath
@@ -536,7 +772,27 @@ int main(int argc, char *argv[])
                         which, [[CDDecompiler installHint] UTF8String]);
                 exit(1);
             }
-            fprintf(stderr, "class-dump: decompile: using Ghidra at %s\n", [gh UTF8String]);
+            // Suppress the banner in worker mode so the parent's batch output
+            // isn't spammed with one of these per image.
+            if (!dscWorkerMode) {
+                fprintf(stderr, "class-dump: decompile: using Ghidra at %s\n", [gh UTF8String]);
+            }
+        }
+
+        // --dsc-worker: internal mode used when --dsc-class-dump re-spawns
+        // this binary per image. It expects a single positional Mach-O path
+        // and --out OUTDIR. All other flags (--cpp/--swift/--decompile*) are
+        // honoured. Failure is signalled via exit code.
+        if (dscWorkerMode) {
+            if (optind >= argc || writeOutPath == nil) {
+                fprintf(stderr, "class-dump: --dsc-worker: usage: --dsc-worker --out OUT FILE\n");
+                exit(2);
+            }
+            NSString *full = [NSString stringWithFileSystemRepresentation:argv[optind]];
+            int rc = CDDumpSingleImage(full, writeOutPath, classDump.backingCache,
+                                       shouldDumpCpp, shouldDumpSwift,
+                                       shouldDecompile, shouldDecompileSwift, shouldDecompileCpp);
+            exit(rc);
         }
 
         if (dscDumpAllInput) {
@@ -604,8 +860,10 @@ int main(int argc, char *argv[])
                 }
                 extractedDir = tmp;
 
-                // Use the cache itself as backing for cross-image resolution.
-                if (bulkCache == nil) {
+                // In-process mode needs the cache loaded here for cross-image
+                // resolution. In subprocess mode each worker loads its own
+                // copy via --with-cache, so skip the parent-side load.
+                if (dscInProcess && bulkCache == nil) {
                     NSData *cdata = [NSData dataWithContentsOfFile:dscDumpAllInput
                                                            options:NSDataReadingMappedAlways
                                                              error:NULL];
@@ -617,9 +875,36 @@ int main(int argc, char *argv[])
                 [fm createDirectoryAtPath:writeOutPath withIntermediateDirectories:YES attributes:nil error:NULL];
             }
 
+            // The path passed to child workers as --with-cache, if we have one.
+            NSString *childCachePath = (!isDir) ? dscDumpAllInput : nil;
+
+            // Resolve self path for subprocess re-invocation. If we cannot
+            // determine it, fall back to in-process mode.
+            NSString *selfPath = nil;
+            if (!dscInProcess) {
+                selfPath = CDExecutablePath();
+                if (selfPath == nil) {
+                    fprintf(stderr,
+                            "class-dump: could not resolve self path; falling back to --dsc-in-process\n");
+                    dscInProcess = YES;
+                }
+            }
+            if (!dscInProcess) {
+                fprintf(stderr,
+                        "class-dump: per-image worker: %s (timeout=%.0fs%s%s)\n",
+                        [selfPath UTF8String], dscImageTimeout,
+                        dscSkipExisting ? ", skip-existing" : "",
+                        childCachePath ? ", with-cache" : "");
+            } else {
+                // In-process: keep the eagerly-loaded bulkCache for cross-image
+                // resolution. (The variable is referenced by the in-process
+                // branch below.)
+                (void)bulkCache;
+            }
+
             // Walk extractedDir for Mach-O dylibs and class-dump each.
             NSDirectoryEnumerator *en = [fm enumeratorAtPath:extractedDir];
-            unsigned processed = 0, succeeded = 0, failed = 0;
+            unsigned processed = 0, succeeded = 0, failed = 0, skipped = 0, timedOut = 0;
             for (NSString *rel in en) {
                 NSString *full = [extractedDir stringByAppendingPathComponent:rel];
                 NSDictionary *attrs = [en fileAttributes];
@@ -637,94 +922,140 @@ int main(int argc, char *argv[])
                     && magic != FAT_MAGIC && magic != FAT_CIGAM
                     && magic != FAT_MAGIC_64 && magic != FAT_CIGAM_64) continue;
 
-                processed++;
-                if (processed % 50 == 0) {
-                    fprintf(stderr, "\rclass-dump: dumped %u/? ok=%u fail=%u", processed, succeeded, failed);
+                NSString *outSub = [writeOutPath stringByAppendingPathComponent:rel];
+
+                if (dscSkipExisting && CDDirectoryHasOutput(outSub)) {
+                    skipped++;
+                    fprintf(stderr, "class-dump: skip (exists)  %s\n", [rel UTF8String]);
                     fflush(stderr);
+                    continue;
                 }
 
-                @autoreleasepool {
-                    CDClassDump *cd = [[CDClassDump alloc] init];
-                    if (bulkCache) cd.backingCache = bulkCache;
-                    CDSearchPathState *sp = [[CDSearchPathState alloc] init];
-                    sp.executablePath = [full stringByDeletingLastPathComponent];
-                    cd.searchPathState.executablePath = sp.executablePath;
-                    CDFile *file = [CDFile fileWithContentsOfFile:full searchPathState:cd.searchPathState];
-                    if (file == nil) { failed++; continue; }
-                    CDArch arch;
-                    if (![file bestMatchForLocalArch:&arch]) { failed++; continue; }
-                    cd.targetArch = arch;
-                    NSError *err = nil;
-                    if (![cd loadFile:file error:&err]) { failed++; continue; }
+                processed++;
+                // Always print the current image up-front so a hang is visible.
+                fprintf(stderr, "class-dump: [%u] dumping %s\n", processed, [rel UTF8String]);
+                fflush(stderr);
 
-                    NSString *outSub = [writeOutPath stringByAppendingPathComponent:rel];
-                    [fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:NULL];
+                [fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:NULL];
 
-                    @try {
-                        [cd processObjectiveCData];
-                        [cd registerTypes];
-                        CDMultiFileVisitor *v = [[CDMultiFileVisitor alloc] init];
-                        v.classDump = cd;
-                        cd.typeController.delegate = v;
-                        v.outputPath = outSub;
-                        [cd recursivelyVisit:v];
+                if (dscInProcess) {
+                    @autoreleasepool {
+                        CDClassDump *cd = [[CDClassDump alloc] init];
+                        if (bulkCache) cd.backingCache = bulkCache;
+                        cd.searchPathState.executablePath = [full stringByDeletingLastPathComponent];
+                        CDFile *file = [CDFile fileWithContentsOfFile:full searchPathState:cd.searchPathState];
+                        if (file == nil) { failed++; continue; }
+                        CDArch arch;
+                        if (![file bestMatchForLocalArch:&arch]) { failed++; continue; }
+                        cd.targetArch = arch;
+                        NSError *err = nil;
+                        if (![cd loadFile:file error:&err]) { failed++; continue; }
 
-                        if (shouldDumpCpp || shouldDumpSwift) {
-                            CDMachOFile *mf = [cd.machOFiles lastObject];
-                            if (mf) {
-                                if (shouldDumpCpp) {
-                                    NSError *e = nil;
-                                    if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) {
-                                        fprintf(stderr, "class-dump: cpp dump for %s failed: %s\n",
-                                                [rel UTF8String], [[e localizedDescription] UTF8String]);
+                        @try {
+                            [cd processObjectiveCData];
+                            [cd registerTypes];
+                            CDMultiFileVisitor *v = [[CDMultiFileVisitor alloc] init];
+                            v.classDump = cd;
+                            cd.typeController.delegate = v;
+                            v.outputPath = outSub;
+                            [cd recursivelyVisit:v];
+
+                            if (shouldDumpCpp || shouldDumpSwift) {
+                                CDMachOFile *mf = [cd.machOFiles lastObject];
+                                if (mf) {
+                                    if (shouldDumpCpp) {
+                                        NSError *e = nil;
+                                        if (![CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) {
+                                            fprintf(stderr, "class-dump: cpp dump for %s failed: %s\n",
+                                                    [rel UTF8String], [[e localizedDescription] UTF8String]);
+                                        }
+                                    }
+                                    if (shouldDumpSwift) {
+                                        NSError *e = nil;
+                                        if (![CDSwiftDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) {
+                                            fprintf(stderr, "class-dump: swift dump for %s failed: %s\n",
+                                                    [rel UTF8String], [[e localizedDescription] UTF8String]);
+                                        }
                                     }
                                 }
-                                if (shouldDumpSwift) {
-                                    NSError *e = nil;
-                                    if (![CDSwiftDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) {
-                                        fprintf(stderr, "class-dump: swift dump for %s failed: %s\n",
-                                                [rel UTF8String], [[e localizedDescription] UTF8String]);
-                                    }
+                            }
+
+                            if (shouldDecompile) {
+                                NSString *cOut = [outSub stringByAppendingPathComponent:
+                                                  [[full lastPathComponent] stringByAppendingPathExtension:@"c"]];
+                                NSError *de = nil;
+                                if (![CDDecompiler decompileMachOAtPath:full toPath:cOut error:&de]) {
+                                    fprintf(stderr, "class-dump: decompile %s failed: %s\n",
+                                            [rel UTF8String], [[de localizedFailureReason] UTF8String]);
                                 }
                             }
-                        }
+                            if (shouldDecompileSwift) {
+                                NSString *sOut = [outSub stringByAppendingPathComponent:
+                                                  [[full lastPathComponent] stringByAppendingPathExtension:@"swift"]];
+                                NSError *de = nil;
+                                if (![CDDecompiler decompileSwiftMachOAtPath:full toPath:sOut error:&de]) {
+                                    fprintf(stderr, "class-dump: decompile-swift %s failed: %s\n",
+                                            [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                                }
+                            }
+                            if (shouldDecompileCpp) {
+                                NSString *cppOut = [outSub stringByAppendingPathComponent:
+                                                    [[full lastPathComponent] stringByAppendingPathExtension:@"cpp"]];
+                                NSError *de = nil;
+                                if (![CDDecompiler decompileCppMachOAtPath:full toPath:cppOut error:&de]) {
+                                    fprintf(stderr, "class-dump: decompile-cpp %s failed: %s\n",
+                                            [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                                }
+                            }
 
-                        if (shouldDecompile) {
-                            NSString *cOut = [outSub stringByAppendingPathComponent:
-                                              [[full lastPathComponent] stringByAppendingPathExtension:@"c"]];
-                            NSError *de = nil;
-                            if (![CDDecompiler decompileMachOAtPath:full toPath:cOut error:&de]) {
-                                fprintf(stderr, "class-dump: decompile %s failed: %s\n",
-                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
-                            }
+                            succeeded++;
+                        } @catch (NSException *e) {
+                            failed++;
+                            fprintf(stderr, "class-dump: exception %s: %s\n",
+                                    [rel UTF8String], [[e reason] UTF8String]);
                         }
-                        if (shouldDecompileSwift) {
-                            NSString *sOut = [outSub stringByAppendingPathComponent:
-                                              [[full lastPathComponent] stringByAppendingPathExtension:@"swift"]];
-                            NSError *de = nil;
-                            if (![CDDecompiler decompileSwiftMachOAtPath:full toPath:sOut error:&de]) {
-                                fprintf(stderr, "class-dump: decompile-swift %s failed: %s\n",
-                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
-                            }
-                        }
-                        if (shouldDecompileCpp) {
-                            NSString *cppOut = [outSub stringByAppendingPathComponent:
-                                                [[full lastPathComponent] stringByAppendingPathExtension:@"cpp"]];
-                            NSError *de = nil;
-                            if (![CDDecompiler decompileCppMachOAtPath:full toPath:cppOut error:&de]) {
-                                fprintf(stderr, "class-dump: decompile-cpp %s failed: %s\n",
-                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
-                            }
-                        }
+                    }
+                } else {
+                    // Spawn class-dump --dsc-worker as a child, kill it if it
+                    // exceeds dscImageTimeout. The child's stdout/stderr are
+                    // inherited so its errors stay visible to the user.
+                    NSMutableArray *childArgs = [NSMutableArray array];
+                    [childArgs addObject:@"--dsc-worker"];
+                    [childArgs addObject:@"--out"];   [childArgs addObject:outSub];
+                    if (childCachePath) {
+                        [childArgs addObject:@"--with-cache"]; [childArgs addObject:childCachePath];
+                    }
+                    if (shouldDumpCpp)        [childArgs addObject:@"--cpp"];
+                    if (shouldDumpSwift)      [childArgs addObject:@"--swift"];
+                    if (shouldDecompile)      [childArgs addObject:@"--decompile"];
+                    if (shouldDecompileSwift) [childArgs addObject:@"--decompile-swift"];
+                    if (shouldDecompileCpp)   [childArgs addObject:@"--decompile-cpp"];
+                    [childArgs addObject:full];
 
+                    int rc = CDRunChildWithTimeout(selfPath, childArgs, dscImageTimeout);
+                    if (rc == 0) {
                         succeeded++;
-                    } @catch (NSException *e) {
+                    } else if (rc == -2) {
+                        timedOut++;
                         failed++;
+                        fprintf(stderr, "class-dump: TIMEOUT (%.0fs)  %s\n",
+                                dscImageTimeout, [rel UTF8String]);
+                    } else {
+                        failed++;
+                        fprintf(stderr, "class-dump: failed (rc=%d)  %s\n",
+                                rc, [rel UTF8String]);
                     }
                 }
+
+                if (processed % 25 == 0) {
+                    fprintf(stderr, "class-dump: progress: processed=%u ok=%u fail=%u skip=%u timeout=%u\n",
+                            processed, succeeded, failed, skipped, timedOut);
+                    fflush(stderr);
+                }
             }
-            fprintf(stderr, "\nclass-dump: dumped %u images (ok=%u fail=%u) into %s\n",
-                    processed, succeeded, failed, [writeOutPath UTF8String]);
+            fprintf(stderr,
+                    "class-dump: dumped %u images (ok=%u fail=%u skip=%u timeout=%u) into %s\n",
+                    processed, succeeded, failed, skipped, timedOut, [writeOutPath UTF8String]);
             exit(0);
         }
 
