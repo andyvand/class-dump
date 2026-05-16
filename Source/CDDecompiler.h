@@ -40,6 +40,18 @@
                            toPath:(NSString *)outputSwiftPath
                             error:(NSError **)error;
 
+// Decompiles only the Itanium-mangled C++ functions (names beginning
+// with _Z / __Z) and writes the demangled-name pseudo-C output to
+// `outputCppPath`. Before decompiling each function the demangler is
+// applied to its symbol so the resulting pseudo-C carries the
+// declared return type and parameter types from the mangle rather
+// than Ghidra's default `undefined` placeholders. If the binary
+// contains no C++ functions the file is deleted after the run and
+// YES is returned. Same temp-dir lifecycle as -decompileMachO.
++ (BOOL)decompileCppMachOAtPath:(NSString *)inputPath
+                         toPath:(NSString *)outputCppPath
+                          error:(NSError **)error;
+
 @end
 
 extern NSString *CDErrorDomain_Decompiler;

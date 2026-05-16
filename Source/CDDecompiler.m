@@ -13,6 +13,12 @@ NSString *CDErrorDomain_Decompiler = @"CDErrorDomain_Decompiler";
 // The Ghidra post-script. Kept here so the class-dump binary is
 // self-contained and doesn't need to locate ThirdParty/CDDecompile.java
 // at runtime. Keep in sync with ThirdParty/CDDecompile.java.
+//
+// This script does NOT mutate the program (no applyTo); it just reads
+// types Ghidra's auto-analysis already attached. Return-type recovery
+// from mangled C++ names is the job of --decompile-cpp instead, which
+// runs the demangler explicitly in a two-pass design that is safe to
+// mutate during.
 static NSString * const kCDDecompileScript = @
 "import ghidra.app.script.GhidraScript;\n"
 "import ghidra.app.decompiler.DecompInterface;\n"
@@ -187,6 +193,140 @@ static NSString * const kCDDecompileSwiftScript = @
 "        pw.close();\n"
 "        di.dispose();\n"
 "        println(\"CDDecompileSwift: wrote \" + ok + \"/\" + total + \" functions (\" + swift + \" Swift) to \" + outPath);\n"
+"    }\n"
+"}\n";
+
+// C++-only post-script. Filters functions to Itanium-mangled C++ names
+// (_Z / __Z) and emits pseudo-C with demangled signatures. Two passes:
+//   (1) iterate functions once, collect the C++-mangled ones, then close
+//       the iterator;
+//   (2) walk the collected list, demangle + applyTo() each, then
+//       decompile each.
+// Splitting the apply-types step out of the FunctionIterator walk avoids
+// hangs that show up when applyTo() mutates the program in the middle
+// of iteration. Keep in sync with ThirdParty/CDDecompileCpp.java.
+static NSString * const kCDDecompileCppScript = @
+"import ghidra.app.script.GhidraScript;\n"
+"import ghidra.app.decompiler.DecompInterface;\n"
+"import ghidra.app.decompiler.DecompileOptions;\n"
+"import ghidra.app.decompiler.DecompileResults;\n"
+"import ghidra.app.decompiler.DecompiledFunction;\n"
+"import ghidra.app.util.demangler.DemangledObject;\n"
+"import ghidra.app.util.demangler.DemanglerOptions;\n"
+"import ghidra.app.util.demangler.DemanglerUtil;\n"
+"import ghidra.program.model.address.Address;\n"
+"import ghidra.program.model.listing.Function;\n"
+"import ghidra.program.model.listing.FunctionIterator;\n"
+"import ghidra.program.model.listing.FunctionManager;\n"
+"import ghidra.program.model.symbol.Symbol;\n"
+"import ghidra.program.model.symbol.SymbolTable;\n"
+"import java.io.PrintWriter;\n"
+"import java.io.FileOutputStream;\n"
+"import java.util.ArrayList;\n"
+"import java.util.List;\n"
+"\n"
+"public class CDDecompileCpp extends GhidraScript {\n"
+"    private static boolean isCppMangled(String n) {\n"
+"        return n != null && (n.startsWith(\"_Z\") || n.startsWith(\"__Z\"));\n"
+"    }\n"
+"    private static class Hit {\n"
+"        Address addr;\n"
+"        String mangled;\n"
+"        Hit(Address a, String m) { addr = a; mangled = m; }\n"
+"    }\n"
+"    @Override\n"
+"    protected void run() throws Exception {\n"
+"        String[] args = getScriptArgs();\n"
+"        if (args.length < 1) { println(\"CDDecompileCpp: missing output path argument\"); return; }\n"
+"        String outPath = args[0];\n"
+"        DecompInterface di = new DecompInterface();\n"
+"        DecompileOptions opts = new DecompileOptions();\n"
+"        di.setOptions(opts);\n"
+"        di.toggleCCode(true);\n"
+"        di.toggleSyntaxTree(true);\n"
+"        di.setSimplificationStyle(\"decompile\");\n"
+"        if (!di.openProgram(currentProgram)) {\n"
+"            println(\"CDDecompileCpp: openProgram failed: \" + di.getLastMessage()); return;\n"
+"        }\n"
+"        PrintWriter pw = new PrintWriter(new FileOutputStream(outPath));\n"
+"        pw.println(\"// Decompiled by class-dump --decompile-cpp (Ghidra headless + Itanium demangler).\");\n"
+"        pw.println(\"// Program: \" + currentProgram.getName());\n"
+"        pw.println(\"// Language: \" + currentProgram.getLanguageID());\n"
+"        pw.println(\"// Return types and parameter types are applied from the C++ mangle before decompile.\");\n"
+"        pw.println();\n"
+"\n"
+"        // Pass 1: scan functions, record the C++-mangled ones. We snapshot\n"
+"        // (address, mangled-name) pairs here so subsequent applyTo() calls\n"
+"        // cannot invalidate the FunctionIterator.\n"
+"        SymbolTable st = currentProgram.getSymbolTable();\n"
+"        FunctionManager fm = currentProgram.getFunctionManager();\n"
+"        int total = 0;\n"
+"        List<Hit> hits = new ArrayList<Hit>();\n"
+"        {\n"
+"            FunctionIterator it = fm.getFunctions(true);\n"
+"            while (it.hasNext()) {\n"
+"                if (monitor.isCancelled()) break;\n"
+"                Function f = it.next();\n"
+"                if (f.isThunk() || f.isExternal()) continue;\n"
+"                total++;\n"
+"                String mangled = null;\n"
+"                for (Symbol s : st.getSymbols(f.getEntryPoint())) {\n"
+"                    String n = s.getName();\n"
+"                    if (isCppMangled(n)) { mangled = n; break; }\n"
+"                }\n"
+"                if (mangled == null && isCppMangled(f.getName())) mangled = f.getName();\n"
+"                if (mangled != null) hits.add(new Hit(f.getEntryPoint(), mangled));\n"
+"            }\n"
+"        }\n"
+"\n"
+"        // Pass 2: apply the demangled signature, then decompile.\n"
+"        int ok = 0;\n"
+"        for (Hit h : hits) {\n"
+"            if (monitor.isCancelled()) break;\n"
+"            Function f = fm.getFunctionAt(h.addr);\n"
+"            if (f == null) continue;\n"
+"            String displayName = h.mangled;\n"
+"            try {\n"
+"                List<DemangledObject> ds = DemanglerUtil.demangle(currentProgram, h.mangled, h.addr);\n"
+"                if (ds != null && !ds.isEmpty()) {\n"
+"                    DemangledObject d = ds.get(0);\n"
+"                    if (d != null) {\n"
+"                        String sig = d.getSignature(false);\n"
+"                        if (sig != null && sig.length() > 0) displayName = sig;\n"
+"                        try {\n"
+"                            DemanglerOptions opts2 = new DemanglerOptions();\n"
+"                            opts2.setApplySignature(true);\n"
+"                            d.applyTo(currentProgram, h.addr, opts2, monitor);\n"
+"                        } catch (Exception e2) { /* best-effort */ }\n"
+"                    }\n"
+"                }\n"
+"            } catch (Exception e) { /* keep mangled */ }\n"
+"            // Re-fetch f in case applyTo replaced it.\n"
+"            f = fm.getFunctionAt(h.addr);\n"
+"            if (f == null) continue;\n"
+"            try {\n"
+"                DecompileResults r = di.decompileFunction(f, 120, monitor);\n"
+"                if (r != null && r.decompileCompleted()) {\n"
+"                    DecompiledFunction df = r.getDecompiledFunction();\n"
+"                    if (df != null) {\n"
+"                        String retType = (f.getReturnType() != null) ? f.getReturnType().getName() : \"void\";\n"
+"                        pw.println(\"// ---- \" + displayName + \" ----\");\n"
+"                        pw.println(\"// address: \" + h.addr);\n"
+"                        pw.println(\"// return type: \" + retType);\n"
+"                        pw.println(\"// mangled: \" + h.mangled);\n"
+"                        pw.println(df.getC());\n"
+"                        pw.println();\n"
+"                        ok++;\n"
+"                    }\n"
+"                }\n"
+"            } catch (Exception e) {\n"
+"                pw.println(\"// !! decompile of \" + displayName + \" failed: \" + e.getMessage());\n"
+"            }\n"
+"        }\n"
+"        pw.println(\"// \" + ok + \"/\" + hits.size() + \" C++ functions decompiled (of \" + total + \" total).\");\n"
+"        pw.close();\n"
+"        di.dispose();\n"
+"        println(\"CDDecompileCpp: wrote \" + ok + \"/\" + hits.size() + \" C++ functions to \" + outPath);\n"
 "    }\n"
 "}\n";
 
@@ -455,6 +595,28 @@ static NSArray<NSString *> *CDExpandGlob(NSString *pattern)
                                                       error:NULL];
     if (contents && [contents rangeOfString:@"\n// ---- "].location == NSNotFound) {
         [[NSFileManager defaultManager] removeItemAtPath:outputSwiftPath error:NULL];
+    }
+    return YES;
+}
+
++ (BOOL)decompileCppMachOAtPath:(NSString *)inputPath
+                         toPath:(NSString *)outputCppPath
+                          error:(NSError *__autoreleasing *)error
+{
+    BOOL ok = [self _runHeadlessWithInput:inputPath
+                               outputPath:outputCppPath
+                               scriptName:@"CDDecompileCpp.java"
+                             scriptSource:kCDDecompileCppScript
+                                    error:error];
+    if (!ok) return NO;
+
+    // Same trick as the Swift path: a header-only .cpp file (no C++
+    // mangled symbols in the binary) is noise, so delete it.
+    NSString *contents = [NSString stringWithContentsOfFile:outputCppPath
+                                                   encoding:NSUTF8StringEncoding
+                                                      error:NULL];
+    if (contents && [contents rangeOfString:@"\n// ---- "].location == NSNotFound) {
+        [[NSFileManager defaultManager] removeItemAtPath:outputCppPath error:NULL];
     }
     return YES;
 }
