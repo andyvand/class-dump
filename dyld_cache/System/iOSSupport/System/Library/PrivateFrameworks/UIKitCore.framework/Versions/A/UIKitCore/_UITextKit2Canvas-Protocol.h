@@ -7,8 +7,9 @@
 @protocol _UITextCanvasContext;
 
 @protocol _UITextKit2Canvas
-- (id <_UITextCanvasContext>)psAndOptions;
-- (void)lugin;
+- (id <_UITextCanvasContext>)1Â0@ù
+× ;
+- (void)_isDeferringSearchSuggestionsMenuRefreshForGeometryChange;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextCanvasContext> context;

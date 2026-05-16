@@ -21,10 +21,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)i+;
+- (void);
 - (_Bool);
-- (void);
-- (void)a;
+- (void);
+- (void);
 - (void);
 - (void);
 

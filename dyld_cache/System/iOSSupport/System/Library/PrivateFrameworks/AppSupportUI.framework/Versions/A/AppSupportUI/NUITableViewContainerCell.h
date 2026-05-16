@@ -13,10 +13,10 @@
 
 + (Class);
 - (void);
-- (id);
-- (void);
-- (struct CGSize)!;
 - (struct CGSize);
+- (id);
+- (struct CGSize);
+- (void);
 - (id);
 
 // Remaining properties

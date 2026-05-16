@@ -28,16 +28,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct CGRect);
-- (void)rgumentEncoder>"24@0:8Q16 /* Error: Ran out of types for this method. */;
 - (id);
-- (void)*	;
-- (id)icator;
-- (id)V_handler;
 - (void);
-- (id)^üÿwþÿ;
-- (void)at path %@;
-- (void);
+- (struct CGRect)1Â0@ù
+× ;
+- (void)orResizeWidth:(struct CGRect)arg1;
+- (id)TabBarRect;
+- (id);
+- (id)search bar without a search controller are not supported. This is an internal UIKit bug.;
+- (void)¢þ;
+- (void)\X[;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

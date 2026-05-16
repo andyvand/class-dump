@@ -12,18 +12,17 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_mapTable;
 }
 
-+ (id)exPath:isSupplementary: /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)hä{¬;
-- (void)!ÄCù1Êð1¢!0@ù
-× ;
-- (id)refixAtIndentLevel: /* Error: Ran out of types for this method. */;
-- (id)TQ,N,V_options;
-- (id)rtedSections:(id)arg1;
-- (void)t, addInputString for character;
-- (unsigned long long);
+- (void);
+- (void)aits;
+- (unsigned long long)%@;
+- (id)ùX"[;
+- (void)lôÒþ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

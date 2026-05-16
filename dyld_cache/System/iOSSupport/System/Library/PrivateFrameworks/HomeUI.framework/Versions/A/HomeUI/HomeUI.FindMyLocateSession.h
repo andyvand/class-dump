@@ -20,8 +20,8 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)AirPortExpressMessage_trigger;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType meDeviceUpdateCallback;

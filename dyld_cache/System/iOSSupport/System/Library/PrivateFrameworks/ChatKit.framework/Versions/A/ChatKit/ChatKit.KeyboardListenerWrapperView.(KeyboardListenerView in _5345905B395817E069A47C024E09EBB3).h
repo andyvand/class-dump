@@ -12,18 +12,18 @@
 }
 
 - (void);
-- (void)rror"8;
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)omposeContainerView;
-- (id);
-- (id)Ë­yµÅ­yB®A­yÉ­y>@­AFy&É­y;­yAFyACyACyi:­|)­yþ9­GG×­G_È5­k;­ACyAkLy$­GGtGGG_AYSgA2YtGAHG_AGyAhFyÈ­yAIyAJyAFyAQ_ArStGGG_Qo__A3_A3_tGAHGAGyAHA3_AHGtGG 0­yAMSgGG¬ì=GABy«ì=®ì=G_G /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (void)OPLE_CREATED_N_COLLABORATIONS;
+- (void)Ì¨ÿekÈ¨ÿekÄ¨ÿkð/²ÿ;
+- (id)Ø9¨10;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

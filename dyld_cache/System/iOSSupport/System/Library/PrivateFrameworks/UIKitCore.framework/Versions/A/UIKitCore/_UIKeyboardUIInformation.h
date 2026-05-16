@@ -38,78 +38,81 @@
     struct CGRect _assistantFrame;
 }
 
-+ (id)!,EùñÄÐ1¢!0@ù
-× ;
++ (id);
 + (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)d;
-- (void));
-- (void)8@"NSString"16;
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void)anagedStatus:(_Bool)arg1;
-- (id)rkVariantType:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (struct CGRect)outeDiscoveryEnabled;
-- (void);
-- (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (struct CGRect);
+- (id);
+- (id);
+- (double);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void)0@ù
-× ;
-- (long long)!|Eù1ËÐ1¢!0@ù
+- (void)Y1Â0@ù
 × ;
 - (void);
-- (void)1¢!0@ù
+- (void)ù
 × ;
-- (struct CGRect)y°!hCùÎð1¢!0@ù
+- (_Bool)!|Dù\ð1Â0@ù
 × ;
-- (id)int=dd}{CGSize=dd}}16d48@56;
-- (void)ationMode: /* Error: Ran out of types for this method. */;
-- (_Bool)eOffset;
-- (_Bool)lette;
-- (id)Value:(struct CGRect)arg1 toValue:(_Bool)arg2;
-- (unsigned long long)ngHeaderViewForSection: /* Error: Ran out of types for this method. */;
-- (id)ationRotationAngle;
-- (_Bool)ng",&,N,VattributedTitle;
-- (_Bool)laneName;
-- (void)Offset;
-- (void)nfiguration>",C,N;
-- (id)mingCurveProvider>",&,N,V_timingCurve;
-- (id)\X$ÌZü\'H^;
-- (struct CGRect)tomRenderController.contentsScale â%{public}.0fâ with traitCollection.displayScale â%{public}.0fâ from %{public}s;
-- (unsigned long long);
-- (unsigned long long)ÞÍþÿBÎþÿ;
-- (_Bool)N,&;
-- (double)Æ;
+- (void)!ÀEùÑað1Â0@ù
+× ;
+- (unsigned long long)1Â0@ù
+× ;
+- (_Bool)ùÑeð1Â0@ù
+× ;
+- (void):(struct CGRect)arg1;
+- (void)ndexPath:(id)arg1;
+- (void)sOrCancelHUDPresentationIfNeeded;
+- (long long)lassicCanvasViewClass;
+- (void)_setShouldDeferTransitions:(id)arg1;
+- (id)Subviews;
+- (id)_preferredAttachmentEdge;
+- (id)eholder",VpdfPlaceHolderView;
+- (id)pItem;
 - (void);
-- (void)þé4Èiþé4Èiþé4Èiþ;
-- (void)sition;
-- (_Bool)Àÿ#ÔÆ^;
-- (void)ÿ;
-- (_Bool)ø·ÿ?;
+- (_Bool)$;
+- (void)ure=%s; viewport=%s;
+- (unsigned long long)þ×þ;
+- (id);
+- (_Bool)rarchy up
+;
+- (void)ferredInspectorColumnWidth:(unsigned long long)arg1 ];
+- (_Bool)s;
+- (_Bool)Variant;
+- (void)tonBar"8@"UIBarButtonItem"16@"UIView"24;
+- (void)Attempting to begin a transition on navigation bar (;
+- (unsigned long long)arFrameAssistant;
+- (void)ng;
+- (_Bool);
+- (void)_UISliderColorVisualElement;
+- (struct CGRect)sþ=c43ØsþÝb43èÙsþåb43ØÙsþ½b43LØsþc43 Øsþb43Øsþb43Øsþåb43ÜØsþc43¤Ùsþíb43ÔØsþ;
+- (void)t[;
+- (unsigned long long)Ýþ;
+- (struct CGRect)Õç];
+- (struct CGRect)¼D^;
+- (void)^;
+- (id)D%cÿàåÛD­^;
+- (struct CGRect)üÿ;
+- (void)Ü8_;
+- (void)Ì_;
+- (_Bool)ò_;
+- (void);
+- (_Bool)qa;
+- (void)¤Ãâþ
+1Ðàûa;
 
 // Remaining properties
 @property(readonly) _Bool animated; // @synthesize animated=_animated;

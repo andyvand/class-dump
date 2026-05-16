@@ -16,22 +16,22 @@
 
 + (_Bool);
 + (_Bool);
-- (void)DrawingTextAttachment;
 - (void);
-- (_Bool)%;
-- (long long)e;
+- (void);
+- (_Bool);
+- (long long);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ror %@;
-- (id)message.guid:(id)arg1 %@;
-- (SEL)n;
 - (_Bool);
+- (void);
+- (id);
+- (SEL)´Aúÿÿÿ;
+- (void)ÿbÍÿ;
+- (void)Ì	;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

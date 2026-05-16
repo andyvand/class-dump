@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)ì~äD;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *perWorkflowStateData; // @synthesize perWorkflowStateData=_perWorkflowStateData;

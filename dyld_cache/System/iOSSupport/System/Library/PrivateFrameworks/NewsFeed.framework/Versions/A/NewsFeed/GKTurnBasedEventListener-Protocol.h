@@ -5,8 +5,5 @@
 //
 
 @protocol GKTurnBasedEventListener
-
-@optional
-- (void);
 @end
 

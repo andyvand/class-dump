@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)guration;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PFStoryRecipe> persistableRecipe; // @synthesize persistableRecipe=_persistableRecipe;

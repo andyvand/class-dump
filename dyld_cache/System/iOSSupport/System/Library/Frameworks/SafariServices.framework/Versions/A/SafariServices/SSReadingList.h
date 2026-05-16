@@ -12,12 +12,12 @@
 }
 
 + (id);
-+ (_Bool)ognizer:(id)arg1 shouldRequireFailureOfGestureRecognizer: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)@?0@"PPScoredItem"8;
 - (id);
 - (id);
+- (void);
 - (void);
 
 @end

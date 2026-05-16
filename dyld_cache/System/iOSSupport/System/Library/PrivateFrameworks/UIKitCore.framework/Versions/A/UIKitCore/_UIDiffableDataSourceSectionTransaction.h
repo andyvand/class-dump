@@ -15,14 +15,13 @@
 }
 
 - (id);
-- (id);
-- (_Bool);
 - (id);
-- (void);
-- (id)0@ù
-× ;
-- (id)etDetentDirectionWhenFloating: /* Error: Ran out of types for this method. */;
-- (id),¬b;
+- (id);
+- (_Bool)sePortal;
+- (id)eIdentifier:indexPath:applyDefaultAttributes: /* Error: Ran out of types for this method. */;
+- (id)rance_setTextColor: /* Error: Ran out of types for this method. */;
+- (id)instead.;
+- (void)p\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;

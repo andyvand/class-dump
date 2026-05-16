@@ -5,7 +5,7 @@
 //
 
 @interface (null) (MPExclusiveAccessToken)
-- (id);
+- (id);
 - (id);
 @end
 

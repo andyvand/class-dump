@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)e) updateAutomaticThirdPartyAccessorySoftwareUpdateEnabled:(CDStruct_70511ce9 *)arg1 completionHandler:(id *)arg2 ];
 @end
 

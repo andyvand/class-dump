@@ -6,10 +6,11 @@
 
 #import <HomeKit/_HMAccessoryProfile.h>
 
-@class HMCameraClipManager, HMCameraRecordingEventManager, HMCameraRecordingReachabilityEventManager, HMCameraUserSettings, NSArray, _HMCameraAudioControl, _HMCameraSettingsControl, _HMCameraSnapshotControl, _HMCameraStreamControl;
+@class HMCameraClipManager, HMCameraIndexingManager, HMCameraProfile, HMCameraRecordingEventManager, HMCameraRecordingReachabilityEventManager, HMCameraUserSettings, NSArray, _HMCameraAudioControl, _HMCameraSettingsControl, _HMCameraSnapshotControl, _HMCameraStreamControl;
 
 @interface _HMCameraProfile : _HMAccessoryProfile
 {
+    HMCameraProfile *_accessoryProfile;
     _HMCameraStreamControl *_streamControl;
     _HMCameraSnapshotControl *_snapshotControl;
     _HMCameraSettingsControl *_settingsControl;
@@ -17,6 +18,7 @@
     _HMCameraAudioControl *_microphoneControl;
     HMCameraUserSettings *_userSettings;
     HMCameraClipManager *_clipManager;
+    HMCameraIndexingManager *_indexingManager;
     HMCameraRecordingReachabilityEventManager *_reachabilityEventManager;
     HMCameraRecordingEventManager *_recordingEventManager;
 }
@@ -27,25 +29,31 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)RATION_CANCELLED;
+- (void)50341b318ffd;
+- (id)onOptionKey;
 
 // Remaining properties
+@property __weak HMCameraProfile *accessoryProfile; // @synthesize accessoryProfile=_accessoryProfile;
 @property(retain) HMCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;
 @property(readonly, copy) NSArray *controls;
+@property(retain) HMCameraIndexingManager *indexingManager; // @synthesize indexingManager=_indexingManager;
 @property(readonly) _HMCameraAudioControl *microphoneControl; // @synthesize microphoneControl=_microphoneControl;
 @property(retain) HMCameraRecordingReachabilityEventManager *reachabilityEventManager; // @synthesize reachabilityEventManager=_reachabilityEventManager;
 @property(retain) HMCameraRecordingEventManager *recordingEventManager; // @synthesize recordingEventManager=_recordingEventManager;

@@ -18,7 +18,7 @@
 - (unsigned int);
 - (unsigned short);
 - (id);
-- (int);
+- (int);
 - (int);
 - (unsigned long long);
 - (_Bool);
@@ -27,9 +27,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (unsigned char);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long);
 @end
 

@@ -15,8 +15,8 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *gridViewController; // @synthesize gridViewController=_gridViewController;

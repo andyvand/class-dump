@@ -9,7 +9,7 @@
     long long _contentOrientation;
 }
 
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);

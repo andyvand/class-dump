@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)ier;
-- (id)%{BOOL}d;
-- (void)llShapeLayer;
+- (_Bool);
+- (id);
+- (void):toNode:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

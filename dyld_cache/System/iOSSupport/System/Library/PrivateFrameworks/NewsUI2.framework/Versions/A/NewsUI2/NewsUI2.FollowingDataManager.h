@@ -13,15 +13,14 @@
     MISSING_TYPE *subscriptionService;
     MISSING_TYPE *tagService;
     MISSING_TYPE *favoritedShortcutService;
-    MISSING_TYPE *curatedShortcutsService;
-    MISSING_TYPE *editorialService;
+    MISSING_TYPE *contentShortcutsService;
     MISSING_TYPE *tagReorderService;
     MISSING_TYPE *followingBadgingCoordinator;
     MISSING_TYPE *magazinesBadgingCoordinator;
     MISSING_TYPE *puzzleBadgingCoordinator;
     MISSING_TYPE *userNotificationCenter;
     MISSING_TYPE *purchaseController;
-    MISSING_TYPE *cachedShortcutsManager;
+    MISSING_TYPE *contentShortcutsStorageManager;
     MISSING_TYPE *familySharingStatusManager;
     MISSING_TYPE *sportsOnboardingManager;
     MISSING_TYPE *shortcutsOnboardingManager;
@@ -31,9 +30,9 @@
 }
 
 - (void);
-- (void);
 - (void);
 - (id);
+- (void)verterType;
 
 @end
 

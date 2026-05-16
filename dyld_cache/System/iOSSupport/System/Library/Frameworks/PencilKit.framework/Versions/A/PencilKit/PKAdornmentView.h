@@ -18,9 +18,9 @@
 }
 
 + (Class);
-- (id).apple.com/v1/configs;
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -31,9 +31,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (_Bool);
-- (void);
+- (id);
+- (void)ÁTÄ)ÄÆ É;
 
 // Remaining properties
 @property(nonatomic) __weak PKSelectionController *selectionController; // @synthesize selectionController=_selectionController;

@@ -12,16 +12,16 @@
 }
 
 + (id);
-+ (id)idPurgeOrphanEntitiesNotification;
++ (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *events; // @synthesize events=_events;

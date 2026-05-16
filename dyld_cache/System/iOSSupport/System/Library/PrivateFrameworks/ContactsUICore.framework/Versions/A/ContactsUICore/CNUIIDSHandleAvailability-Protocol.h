@@ -7,7 +7,8 @@
 @protocol CNUIIDSHandle;
 
 @protocol CNUIIDSHandleAvailability
-- (_Bool)tyValuesFromContact: /* Error: Ran out of types for this method. */;
+- (_Bool)ñ1B50@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNUIIDSHandle> handle;

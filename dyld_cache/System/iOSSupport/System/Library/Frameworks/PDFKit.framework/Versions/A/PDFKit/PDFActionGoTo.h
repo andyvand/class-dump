@@ -14,18 +14,17 @@
 }
 
 - (id);
-- (id)ionView"16@"NSIndexPath"24;
-- (struct __CFDictionary *);
-- (void)6;
 - (id);
-- (id)LayoutSubviews;
-- (void)ibuteViewController;
+- (struct __CFDictionary *);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PDFDestination *destination;

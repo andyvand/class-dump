@@ -5,6 +5,6 @@
 //
 
 @interface (null) (_UIOldConstraintBasedLayoutSupport)
-+ (id)ask mode is set for handle ID:(unsigned long long)arg1 %@;
++ (id);
 @end
 

@@ -13,18 +13,17 @@
 - (id);
 - (void);
 - (void);
-- (void)?׀
-;
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)database;
+- (void);
 
 @end
 

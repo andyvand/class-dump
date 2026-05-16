@@ -9,17 +9,17 @@
 }
 
 + (id);
-+ (id);
-+ (id)ÿ;
++ (id);
++ (id)W;
 - (void);
 - (id);
 - (id);
 - (void);
+- (unsigned long long);
 - (oneway void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)p;
 
 @end
 

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (id)¨"CÿðÍk»g;
++ (id)÷2Ø¹n;
 
 @end
 

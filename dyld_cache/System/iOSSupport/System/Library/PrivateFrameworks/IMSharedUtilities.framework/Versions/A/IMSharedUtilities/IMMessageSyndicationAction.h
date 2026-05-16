@@ -15,24 +15,24 @@
 }
 
 + (_Bool);
-- (unsigned char)7;
+- (unsigned char);
 - (long long);
 - (long long);
 - (struct _NSRange);
 - (id);
-- (id)<;
-- (id);
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (_Bool)¦;þÿKþÿ;
+- (id);
+- (void)lue;
+- (_Bool)¨ð;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;

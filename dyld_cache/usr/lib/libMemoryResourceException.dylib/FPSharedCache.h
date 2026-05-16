@@ -17,13 +17,13 @@
 
 + (id);
 - (_Bool);
-- (unsigned long long)3G;
-- (id)P;
-- (void);
-- (id);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int alignment; // @synthesize alignment=_alignment;

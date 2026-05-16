@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _transactionCleared;
 }
 
-- (void);
-- (id)glish;
+- (void)lper;
+- (id)Ø©[;
 
 @end
 

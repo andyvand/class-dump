@@ -16,29 +16,29 @@ __attribute__((visibility("hidden")))
     UISearchBar *__searchBar;
 }
 
+- (void);
+- (void);
 - (double);
-- (CDUnknownBlockType);
-- (void)`;
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void)0@ù
 × ;
-- (void)@ù
+- (id)!Aùqa°1Â0@ù
 × ;
-- (id);
-- (void)ltImageSize:(CDUnknownBlockType)arg1;
-- (_Bool)Style;
-- (void)pshot,S_setPerformingSystemSnapshot:(id)arg1 ,V_performingSystemSnapshot;
-- (void)V_sensorActivityEntry;
-- (void)oundEffect;
-- (void)N,V__animatedValue;
-- (void)Ìs;
-- (id);
-- (_Bool);
-- (id);
+- (void)rimmingCharactersInCFCharacterSet:(struct CGRect)arg1;
+- (id)waysAllowsEdgeAttached: /* Error: Ran out of types for this method. */;
+- (void)gationEnabled;
+- (void)iewBackgroundMenu;
+- (void)h}þÿ;
+- (void)dynamic type;
+- (CDUnknownBlockType)hLayout[active]=;
+- (void)íJ33E.;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, setter=_setSearchBar:) __weak UISearchBar *_searchBar; // @synthesize _searchBar=__searchBar;

@@ -21,7 +21,7 @@
     NSSet *_existingVisits;
 }
 
-- (void)*;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -31,8 +31,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
+- (void)ÿÿ;
 
 @end
 

@@ -17,7 +17,7 @@
 + (void);
 + (void);
 + (id);
-+ (_Bool)tal.dylib;
++ (_Bool);
 + (_Bool);
 + (id);
 + (id);

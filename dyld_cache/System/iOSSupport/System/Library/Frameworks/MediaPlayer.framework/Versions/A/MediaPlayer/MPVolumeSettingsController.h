@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)9;
-- (void);
+- (void)ryShowCloudContent;
 
 // Remaining properties
 @property(nonatomic) __weak UIWindow *hostingWindow; // @synthesize hostingWindow=_hostingWindow;

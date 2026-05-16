@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     CKNicknamePreviewView *_nicknamePreviewView;
 }
 
-- (void)CLegacyAccount;
-- (id)SbSgG;
+- (void);
+- (id);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void),9`9;
-- (void)!%/;
+- (void)VisualEffectView",&,N,V_knockoutVisualEffectView;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKNicknamePreviewView *nicknamePreviewView; // @synthesize nicknamePreviewView=_nicknamePreviewView;

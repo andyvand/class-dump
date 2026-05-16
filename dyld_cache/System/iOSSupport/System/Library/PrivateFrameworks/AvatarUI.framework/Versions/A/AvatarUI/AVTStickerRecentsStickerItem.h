@@ -19,7 +19,7 @@
 }
 
 - (void);
-- (void)ۺ;
+- (void);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)ldRoots/4~CG42ugC7nLaN8fcr5J1keaAMtaCAm42IC-2M7QU/Library/Caches/com.apple.xbs/Sources/DialogEngine/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc;
 - (id);
-- (id)@;
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *avatarIdentifier; // @synthesize avatarIdentifier=_avatarIdentifier;

@@ -33,9 +33,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)oþÿ¯Nÿÿ;
 
 @end
 

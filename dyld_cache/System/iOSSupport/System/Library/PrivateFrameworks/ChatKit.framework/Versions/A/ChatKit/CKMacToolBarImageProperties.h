@@ -13,13 +13,15 @@
     UIColor *_tintColor;
 }
 
-- (id);
-- (void);
 - (void);
 - (id);
-- (void)dMessages;
-- (id){CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)³/;
+- (id)Áûð! @ùð1Â0@ù
+× ;
+- (id)
+× ;
+- (void)RL:(id)arg1 includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ðí0;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

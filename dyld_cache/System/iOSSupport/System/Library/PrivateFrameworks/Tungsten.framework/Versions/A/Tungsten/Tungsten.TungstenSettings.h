@@ -240,11 +240,11 @@
 - (long long);
 - (void);
 - (void);
-- (long long);
 - (_Bool);
-- (void);
-- (_Bool)d}}32;
-- (void)rollViewControllerDidLayoutSubviews:(_Bool)arg1;
+- (void)pdateItemsGeometryBufferForSpriteCount:(_Bool)arg1;
+- (long long)teReference",R,N,V_decoratedSpriteReference;
+- (void)out setPresentationType:(long long)arg1 ];
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool allowBlockingDueToFences; // @synthesize allowBlockingDueToFences;

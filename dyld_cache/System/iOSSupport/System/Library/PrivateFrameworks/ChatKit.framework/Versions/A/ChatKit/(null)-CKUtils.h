@@ -11,14 +11,13 @@
 + (_Bool);
 + (_Bool);
 + (struct CGSize);
-+ (double)
-;
++ (double);
 + (_Bool);
 - (id);
-- (void)Õ;
-- (void)*ù¬;
-- (id)xs®í;
-- (_Bool)eOpeningProgressDialog;
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (double);
 - (id);

@@ -31,33 +31,31 @@ __attribute__((visibility("hidden")))
     struct CGAffineTransform _symbolLayerPositionTransform;
 }
 
-+ (id)ction;
-- (void);
++ (id)ForInsertionOfAttributedText:(id)arg1 inRange:(id)arg2;
+- (struct CGImage *);
 - (_Bool);
-- (struct UIEdgeInsets)Content;
-- (double);
-- (struct CGImage *)hanged for itemid %lld expected %s;
-- (double);
-- (_Bool)voke;
 - (void);
 - (struct CGSize);
-- (void);
 - (id);
-- (void)@ù
-× ;
-- (struct CGAffineTransform)qÍÐ1¢!0@ù
-× ;
-- (id)ForChildViewController:index: /* Error: Ran out of types for this method. */;
-- (id)TextEffectsRequest;
-- (id)URL: /* Error: Ran out of types for this method. */;
-- (struct CGAffineTransform)erviceDummyPopoverController;
-- (struct UIEdgeInsets);
-- (_Bool)rlapSourceViewRect;
-- (unsigned int)enValue(_UITraitToken);
-- (id)ull;
-- (double)þZ;
-- (id)þ;
-- (struct CGSize)Øb@a;
+- (struct CGAffineTransform);
+- (void);
+- (double);
+- (struct CGSize);
+- (struct UIEdgeInsets);
+- (id)gateShouldCrossFadeBottomBars"b1"delegateShouldUseBuiltinInteractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
+- (id)dOutputAsInputViewControllerOutput: /* Error: Ran out of types for this method. */;
+- (_Bool)ScrollerState;
+- (void);
+- (double)e:displayScale:offset: /* Error: Ran out of types for this method. */;
+- (_Bool)_topLevelItemsView;
+- (id)¬E;
+- (struct CGAffineTransform);
+- (id)16^B24;
+- (double);
+- (void);
+- (id);
+- (struct UIEdgeInsets)q;
+- (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;

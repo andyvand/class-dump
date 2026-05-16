@@ -18,12 +18,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder;

@@ -14,22 +14,25 @@
 }
 
 + (id);
-+ (id);
-+ (id)Ásð! Aù±Ç°1¢!0@ù
++ (id)!p@ù±]°1Â0@ù
 × ;
-+ (_Bool)ckEnvironmentTree: /* Error: Ran out of types for this method. */;
-+ (_Bool)0uÿ;
-- (void);
-- (_Bool);
-- (_Bool);
++ (id);
++ (_Bool)@;
++ (_Bool);
 - (id);
-- (void);
-- (void);
-- (id)perations: /* Error: Ran out of types for this method. */;
-- (id)k: /* Error: Ran out of types for this method. */;
-- (_Bool)minimumInsets: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (id)ÿÿÿÐ;
+- (id);
+- (id);
+- (_Bool);
+- (id)0@ù
+× ;
+- (id)0@ù
+× ;
+- (_Bool)68;
+- (_Bool)rrentDeviceIdiom;
+- (void)aredCalloutBarIsVisible;
+- (void)nalRotation;
+- (void)×£p=
+§?-DTû!ù?-DTû!ù¿®Gáz®ï??Ð8Æ¦ñÀes-8RÁà?es-8RÁà¿?Ð8Æ¦ñ@;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isDimmingAlwaysVisible) _Bool _dimmingAlwaysVisible;

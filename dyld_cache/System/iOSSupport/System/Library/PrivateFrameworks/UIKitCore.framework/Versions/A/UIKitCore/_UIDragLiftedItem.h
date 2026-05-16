@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (double)jc_data;
-- (id)@   this is a typing indicator, and we've already stored a completed message;
-- (void);
-- (void);
-- (id)e:fromArchive: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
+- (void)oryView;
+- (id)ertionCount;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double liftAlpha; // @synthesize liftAlpha=_liftAlpha;

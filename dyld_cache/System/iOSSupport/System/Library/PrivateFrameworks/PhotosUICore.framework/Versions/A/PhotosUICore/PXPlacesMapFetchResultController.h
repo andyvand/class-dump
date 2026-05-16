@@ -51,8 +51,6 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
@@ -60,14 +58,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)PreviousAsset;
+- (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id)Àÿ;
+- (id)toryAnimation"32@0:8@"NSString"16@?<@"PXStoryAnimation"@?>24 /* Error: Ran out of types for this method. */;
+- (void)re;
+- (id)alOverall.specificDurationInfo.maximumSeconds, %f)
+;
+- (void));
+- (void)PhotosCollectionPreviewRepository;
+- (id)ýÇ8;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) PXPlacesPhotoAssetsStore *albumAssetStore; // @synthesize albumAssetStore=_albumAssetStore;

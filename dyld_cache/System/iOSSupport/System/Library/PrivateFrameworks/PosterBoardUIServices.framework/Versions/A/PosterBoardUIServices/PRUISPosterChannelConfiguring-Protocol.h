@@ -7,10 +7,9 @@
 @class NSFileManager, NSString, NSURL;
 
 @protocol PRUISPosterChannelConfiguring
-- (NSString *)ongToWeakObjectsMapTable;
 
 @optional
-- (NSFileManager *)§ny,°n×¿nGA87_GGGSgtGG-<ÎGGGGAFGºnGA105_GGAZGG_Qo_GtGGtG;
+- (NSFileManager *)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;

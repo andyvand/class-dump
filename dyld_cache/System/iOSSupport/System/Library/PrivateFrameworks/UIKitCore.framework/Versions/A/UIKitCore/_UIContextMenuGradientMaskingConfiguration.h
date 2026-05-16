@@ -17,7 +17,7 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,8 +25,8 @@
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (_Bool)ringStorage: /* Error: Ran out of types for this method. */;
-- (void){$Ûÿ;
+- (_Bool);
+- (void)0];
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundMasksCorners; // @synthesize backgroundMasksCorners=_backgroundMasksCorners;

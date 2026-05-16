@@ -13,15 +13,15 @@
 }
 
 + (long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)Wÿ.8.;
+- (id);
+- (id)onTailRadius;
+- (void)¨	üø	;
 
 // Remaining properties
 @property(readonly, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;

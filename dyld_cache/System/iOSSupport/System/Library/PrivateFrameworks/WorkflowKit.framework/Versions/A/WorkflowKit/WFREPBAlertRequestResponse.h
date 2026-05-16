@@ -16,6 +16,8 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -23,14 +25,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool)FSeekBehavior} ${WFTimeInterval} on ${WFMediaRoute} (Parameter Summary);
+- (void)ject.supportedDevices;
+- (_Bool)web page. (GetWebPageTitle);
 
 // Remaining properties
 @property(retain, nonatomic) WFREPBError *error; // @synthesize error=_error;

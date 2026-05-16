@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListener;
-
 @protocol NSXPCListenerDelegate
 
 @optional
-- (_Bool)orRow:(NSXPCListener *)arg1 inSection:(NSXPCConnection *)arg2;
+- (_Bool)UUID;
 @end
 

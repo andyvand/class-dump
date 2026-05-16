@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)n;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *keysToSchemata; // @synthesize keysToSchemata=_keysToSchemata;

@@ -12,8 +12,8 @@
 
 + (id);
 + (id);
-- (Class);
 - (id);
+- (Class);
 
 @end
 

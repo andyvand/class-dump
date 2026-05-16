@@ -11,7 +11,7 @@
 
 - (void);
 - (CDUnknownBlockType);
-- (void)M;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType itemBackgroundViewCreationHandler; // @synthesize itemBackgroundViewCreationHandler=_itemBackgroundViewCreationHandler;

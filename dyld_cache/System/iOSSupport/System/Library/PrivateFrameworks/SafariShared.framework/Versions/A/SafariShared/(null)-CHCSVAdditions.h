@@ -27,11 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (struct _NSRange)B;
+- (struct _NSRange);
 - (id);
 - (id);
 - (_Bool);
@@ -45,7 +45,7 @@
 - (void);
 - (id);
 - (id);
-- (id)P;
+- (id);
 - (id);
 - (id);
 - (id);

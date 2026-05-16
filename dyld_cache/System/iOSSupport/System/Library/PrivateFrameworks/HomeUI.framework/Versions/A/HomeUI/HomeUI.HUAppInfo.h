@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void).swift;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *bundleID;

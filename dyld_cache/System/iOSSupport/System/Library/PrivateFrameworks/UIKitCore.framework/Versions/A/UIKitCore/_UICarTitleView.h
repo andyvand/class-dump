@@ -20,15 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id)24@32B40;
-- (void)sagesGroupPhoto: /* Error: Ran out of types for this method. */;
-- (void);
-- (struct CGSize)displayScale:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)tistHasBiography;
 - (id);
-- (void)ËÛ	º;
-- (id);
-- (void)wz_¬j8_¾j8SHRzõj8Rd__r__lXX;
+- (void);
+- (void);
+- (struct CGSize);
+- (void)ÑXÐ1Â0@ù
+× ;
+- (id);
+- (id)rray",&,N,V_secondaryEdgeAdditionalBarButtonItemGroups;
+- (void){public}ld, %{public}@ (%{public}@);
+- (void)hv^;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *extraConstraints; // @synthesize extraConstraints=_extraConstraints;

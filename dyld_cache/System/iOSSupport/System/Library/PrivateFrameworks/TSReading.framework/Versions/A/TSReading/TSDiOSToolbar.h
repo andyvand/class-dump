@@ -21,19 +21,19 @@
 - (double);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (double);
 - (double);
 - (void);
+- (id);
 - (void);
-- (struct CGSize);
-- (_Bool)@;
-- (void)=dd}{CGSize=dd}}24;
-- (id)BeginIfNecessary: /* Error: Ran out of types for this method. */;
-- (void)gcd;
+- (void)RootNode>";
+- (_Bool)alVisibleInfosForCanvas: /* Error: Ran out of types for this method. */;
+- (struct CGSize)roperty;
+- (double)ì-;
+- (void)½WVæ;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=mBackgroundImage;

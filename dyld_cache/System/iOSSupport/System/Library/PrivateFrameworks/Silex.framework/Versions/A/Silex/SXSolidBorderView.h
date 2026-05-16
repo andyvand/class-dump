@@ -13,7 +13,8 @@
 
 - (id);
 - (id);
-- (void);
+- (void)áÝÐ!¼Fù1ï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXStrokeStyle *strokeStyle; // @synthesize strokeStyle=_strokeStyle;

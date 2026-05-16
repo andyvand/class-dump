@@ -82,8 +82,8 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -98,12 +98,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (void)tle;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUEditLocationViewControllerAddLocationDelegate> addLocationDelegate; // @synthesize addLocationDelegate=_addLocationDelegate;

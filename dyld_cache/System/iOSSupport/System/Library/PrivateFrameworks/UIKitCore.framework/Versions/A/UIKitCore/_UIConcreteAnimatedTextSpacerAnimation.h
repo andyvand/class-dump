@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (float)oterB0CIegg_;
-- (void)it - HTML media element showing AirPlay route picker;
-- (CDUnknownBlockType)4hp;
-- (void)ûb;
+- (CDUnknownBlockType);
+- (void)apshotter",&,N,V_initialSnapshot;
+- (float)ceOrientation;
+- (void)ollerDetentResolutionContext>"8;
+- (void)î×ÿbá§;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAnimatedTextSpacerAnimationInfo *animationInfo; // @synthesize animationInfo=_animationInfo;

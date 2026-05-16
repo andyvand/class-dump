@@ -20,11 +20,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
 - (void);
-- (void);
-- (void)Cache/;
 - (id);
+- (void);
+- (double);
+- (void)C;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *backgroundImageData; // @synthesize backgroundImageData=_backgroundImageData;

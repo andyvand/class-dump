@@ -10,7 +10,6 @@
 {
     PDFView *_pdfView;
     _Bool _didDetermineLastNodeStatus;
-    _Bool _isGatheringLeafDescendents;
     _Bool _isLastNodeInPage;
     int _type;
     PDFPage *_page;
@@ -18,8 +17,6 @@
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,14 +26,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (int);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool didDetermineLastNodeStatus; // @synthesize didDetermineLastNodeStatus=_didDetermineLastNodeStatus;
-@property(nonatomic) _Bool isGatheringLeafDescendents; // @synthesize isGatheringLeafDescendents=_isGatheringLeafDescendents;
 @property(nonatomic) _Bool isLastNodeInPage; // @synthesize isLastNodeInPage=_isLastNodeInPage;
 @property(nonatomic) __weak PDFPage *page; // @synthesize page=_page;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;

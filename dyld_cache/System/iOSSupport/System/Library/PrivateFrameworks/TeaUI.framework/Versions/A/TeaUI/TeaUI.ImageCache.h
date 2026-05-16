@@ -14,7 +14,7 @@
     MISSING_TYPE *mainLRU;
 }
 
-- (void)s:(id)arg1 ];
+- (void);
 
 @end
 

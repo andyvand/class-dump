@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)iewDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
+- (unsigned long long)CheckHelper";
 
 @end
 

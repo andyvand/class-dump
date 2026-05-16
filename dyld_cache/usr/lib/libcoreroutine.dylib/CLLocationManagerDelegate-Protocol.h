@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLLocationManager;
+
 @protocol CLLocationManagerDelegate
 
 @optional
-- (void)A;
-- (void)!8Aù],Ð1¢!0@ù
+- (void)C,ð1Â0@ù
 × ;
-- (void)eStore;
+- (void):(CLLocationManager *)arg1;
+- (void);
 @end
 

@@ -11,9 +11,9 @@
     MISSING_TYPE *resolver;
 }
 
-- (id);
-- (void);
 - (id);
+- (id);
+- (void)tivityProviderFactory;
 
 @end
 

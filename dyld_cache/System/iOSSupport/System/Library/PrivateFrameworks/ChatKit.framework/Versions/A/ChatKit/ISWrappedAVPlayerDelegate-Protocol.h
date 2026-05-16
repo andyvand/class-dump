@@ -5,6 +5,5 @@
 //
 
 @protocol ISWrappedAVPlayerDelegate
-- (void)t;
 @end
 

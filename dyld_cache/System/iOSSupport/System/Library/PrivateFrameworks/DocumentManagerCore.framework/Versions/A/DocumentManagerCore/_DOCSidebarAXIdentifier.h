@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id)(x;
++ (id);
 + (id);
 
 // Remaining properties

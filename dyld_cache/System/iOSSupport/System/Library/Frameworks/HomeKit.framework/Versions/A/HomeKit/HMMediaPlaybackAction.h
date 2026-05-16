@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (_Bool)stResetDate;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *mediaProfiles;

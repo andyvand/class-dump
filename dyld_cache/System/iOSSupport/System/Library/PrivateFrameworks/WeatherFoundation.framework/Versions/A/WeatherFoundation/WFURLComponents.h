@@ -19,37 +19,37 @@
 }
 
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void)Ash;
+- (void);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool)/error after unarchivedObjectOfClasses:(id)arg1 [%@];
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (unsigned long long);
+- (void);
+- (_Bool);
 - (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)é;
 
 // Remaining properties
 @property(readonly, copy) NSURL *URL;

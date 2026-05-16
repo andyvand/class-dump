@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)y0 [yAIy/[y_([yR@xGAIyéP[ys%[_ANQo_@#[y:(UIScrollView *)arg1 %[GGGò[yd&[GGm#[ye;
-- (void)i6offset_So34WFMultipleValueParameterStateEntryC7elementt;
+- (void)®ÑyÝ©ÑGGf#;
 @end
 

@@ -12,9 +12,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (void);
 - (_Bool);

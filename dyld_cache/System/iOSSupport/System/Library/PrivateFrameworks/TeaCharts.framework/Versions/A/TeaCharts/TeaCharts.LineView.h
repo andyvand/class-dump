@@ -12,11 +12,11 @@
     MISSING_TYPE *maskLayer;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

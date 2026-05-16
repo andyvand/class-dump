@@ -10,8 +10,8 @@
 
 - (id);
 - (_Bool);
-- (id)ithOutputURL:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)tentFilter:(id)arg1 preservedFilter:transactionID:properties:extensionToken:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 
 @end
 

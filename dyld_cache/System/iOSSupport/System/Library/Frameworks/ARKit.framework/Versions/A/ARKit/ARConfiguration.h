@@ -97,12 +97,12 @@
 - (void);
 - (long long);
 - (void);
+- (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

@@ -15,16 +15,16 @@
 }
 
 + (id);
-- (struct CGPoint)mesPerSecond;
+- (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double)convertAttributes == YES.;
-- (id)ller;
+- (double);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)L;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *associatedChatItemGUIDs; // @synthesize associatedChatItemGUIDs=_associatedChatItemGUIDs;

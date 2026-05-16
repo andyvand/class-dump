@@ -14,11 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void)_;
 - (void);
-- (void);
-- (id)n: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (id);
+- (void)
+`\´;
 
 // Remaining properties
 @property(copy, nonatomic) id <NSCopying> identifier; // @synthesize identifier=_identifier;

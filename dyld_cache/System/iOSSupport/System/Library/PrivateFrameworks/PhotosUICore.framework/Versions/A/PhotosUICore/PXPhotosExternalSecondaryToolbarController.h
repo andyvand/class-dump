@@ -12,16 +12,17 @@
 {
 }
 
-- (_Bool);
+- (struct CGSize);
 - (long long);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
 - (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
+- (struct UIEdgeInsets);
+- (double)0@ù
+× ;
+- (struct UIEdgeInsets)oadingInitialBatchOfAssets;
+- (_Bool)ader LUT;
 - (id);
-- (struct CGSize)ggregationPromotionScoreThreshold;
-- (double);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

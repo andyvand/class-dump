@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)indOfClass:[WFFileValue class]] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allowedStates; // @synthesize allowedStates=_allowedStates;

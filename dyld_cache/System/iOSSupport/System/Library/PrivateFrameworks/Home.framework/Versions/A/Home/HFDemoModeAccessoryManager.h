@@ -36,8 +36,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)x;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *demoAccessories; // @synthesize demoAccessories=_demoAccessories;

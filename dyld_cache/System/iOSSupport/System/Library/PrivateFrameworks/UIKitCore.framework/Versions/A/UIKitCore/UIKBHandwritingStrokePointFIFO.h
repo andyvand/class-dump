@@ -15,14 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)no precached chats are expected.;
+- (void);
 - (id);
 - (id);
-- (void)!DGùñÁ°1¢!0@ù
-× ;
-- (void)ShowsLanguageIndicatorOnly: /* Error: Ran out of types for this method. */;
-- (void)ck:(struct)arg1;
-- (void)uitcvba;
+- (void);
+- (void)&,N,V_platterCornerRadiusView;
+- (void)hs;
+- (void)>ug;
 
 // Remaining properties
 @property(retain, nonatomic) TIHandwritingStrokes *strokes; // @synthesize strokes=_strokes;

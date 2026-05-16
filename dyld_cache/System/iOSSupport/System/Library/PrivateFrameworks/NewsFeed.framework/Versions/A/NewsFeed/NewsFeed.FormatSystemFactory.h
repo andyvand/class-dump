@@ -15,11 +15,12 @@
     MISSING_TYPE *formatVersion;
     MISSING_TYPE *offlineManager;
     MISSING_TYPE *bundleSessionManager;
+    MISSING_TYPE *bundleCampaignSessionManager;
 }
 
 - (id);
-- (void);
 - (id);
+- (void)¨wþ/:|Ç$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

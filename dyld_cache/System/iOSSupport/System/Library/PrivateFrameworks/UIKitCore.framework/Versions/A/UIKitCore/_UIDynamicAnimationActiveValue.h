@@ -17,26 +17,26 @@
 }
 
 + (id);
-+ (id)ing:(double)arg1 %@, updatedPurgeableState:(int)arg2 %{BOOL}d;
-+ (id)7;
++ (id);
++ (id);
 - (void);
 - (void);
 - (double);
-- (double)@24@0:8Q16 /* Error: Ran out of types for this method. */;
-- (void)berOfChatsToFetch;
+- (double);
+- (void);
 - (_Bool);
 - (_Bool);
 - (double);
-- (CDUnknownBlockType)g guid or original guid found in transfers for guid:%s /* Error: Ran out of types for this method. */;
-- (double);
+- (CDUnknownBlockType);
 - (void);
-- (void)on-nil URL. catalog=%@;
-- (void)0@ù
+- (void);
+- (id);
+- (id);
+- (int)1Â0@ù
 × ;
-- (id)Collection: /* Error: Ran out of types for this method. */;
-- (id)ntrollerColumn;
-- (int)trollerIdentifier;
-- (void)´Ð´Á`;
+- (void)4@40^@48;
+- (double)rdEditActions>",W,N,S_setEditResponder:,V__editResponder /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double maximumActiveValue; // @synthesize maximumActiveValue=_maximumActiveValue;

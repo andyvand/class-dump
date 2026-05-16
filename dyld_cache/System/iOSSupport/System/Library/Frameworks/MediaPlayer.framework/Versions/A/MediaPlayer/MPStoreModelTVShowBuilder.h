@@ -26,9 +26,9 @@
     } _requestedTVShowProperties;
 }
 
-+ (id)DSID:websitePath:bundleID: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
-- (void);
+- (void)ion;
 
 @end
 

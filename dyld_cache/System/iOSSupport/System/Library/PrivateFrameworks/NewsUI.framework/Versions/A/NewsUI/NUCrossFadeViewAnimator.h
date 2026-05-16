@@ -9,13 +9,13 @@
     double _duration;
 }
 
-- (void).;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (double);
 - (void);
 - (id);
-- (double);
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

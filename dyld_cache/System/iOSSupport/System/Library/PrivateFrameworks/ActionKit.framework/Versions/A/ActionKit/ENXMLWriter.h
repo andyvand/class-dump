@@ -48,13 +48,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id)R;
+- (id);
+- (id);
+- (void)instead.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contents; // @synthesize contents=_contents;

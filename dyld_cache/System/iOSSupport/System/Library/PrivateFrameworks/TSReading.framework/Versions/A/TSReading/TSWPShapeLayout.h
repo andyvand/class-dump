@@ -17,13 +17,13 @@
     _Bool _observingStorage;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -33,11 +33,11 @@
 - (unsigned int);
 - (void);
 - (struct CGAffineTransform);
-- (id);
+- (id);
 - (_Bool);
 - (struct CGAffineTransform);
-- (struct CGAffineTransform)aZ;
-- (struct CGPoint);
+- (struct CGAffineTransform);
+- (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (id);
@@ -60,7 +60,7 @@
 - (struct CGRect);
 - (unsigned int);
 - (_Bool);
-- (_Bool)(;
+- (_Bool);
 - (struct CGSize);
 - (unsigned int);
 - (_Bool);
@@ -73,12 +73,12 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)N;
+- (void)oint=dd}{CGSize=dd}}48@80B88@92;
+- (id)able model!  Aborting expandCellRangeToCoverMergedCells:.  This is a bug in the calling code. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

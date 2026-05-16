@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     struct __CFPasteboard *_pasteboardRef;
 }
 
-+ (void)xception handling incoming download message  push:(id)arg1 %@;
-+ (id)artText for received associated message;
++ (void);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -38,46 +38,46 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)aging>";
-- (id)erProtocol>";
-- (_Bool)ransferGUIDOfRecord:(id)arg1;
-- (_Bool)GUID:(id)arg1;
-- (_Bool)etOtherUnformattedID:(Class)arg1;
-- (void)e,V_showingFailure;
-- (void)t;
 - (id);
-- (_Bool);
-- (_Bool)rt it. File a radar-------*/;
-- (_Bool)ng. Current GUID:%@ Sibling GUID:%@ /* Error: Ran out of types for this method. */;
-- (id)ountryCode:updateSiblings: /* Error: Ran out of types for this method. */;
-- (id)Failed to get bundle identifier for %@;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)F;
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)1¢!0@ù
+- (id);
+- (id)ù
 × ;
-- (void)!xð!|GùÍ°1¢!0@ù
+- (id)A°!Aù`°1Â0@ù
 × ;
-- (id)tersInRangeReplacementText"b1"delegateRespondsToTextInputShouldChangeCharactersInRangesReplacementText"b1"delegateRespondsToTextInputDidChange"b1"delegateRespondsToTextInputDidChangeSelection"b1"delegateRespondsToTextInputWillChangeSelectionFromCharacterRangeToCharacterRange"b1"delegateRespondsToTextInputWillChangeSelectionFromCharacterRangesToCharacterRanges"b1"delegateRespondsToTextInputEditorDidChangeSelection"b1"delegateRespondsToTextInputPrepareAttributedTextForInsertion"b1"delegateRespondsToTextInputShouldExtendCaretHeight"b1"delegateRespondsToIsSingleLine"b1"delegateRespondsToUndoRedoDidApplyText"b1"delegateRespondsToTextInputDidFinishUndoRedo"b1"delegateRespondsToTextInputDidApplyText"b1"delegateRespondsToTextInputPasteDelegateWillPaste"b1"delegateRespondsToTextInputPasteDelegateDidPaste"b1"delegateRespondsToTextInputWillChangeCharacters"b1"delegateRespondsToAttributesForApplyingFormattingModification"b1"textOrSelectionChangeOriginatesWithKeyboard"b1"undoRedoInProgress"b1"textOrSelectionChangeOriginatesWithMarkedText"b1"nextSelectionChangeMustUpdate"b1"hasTextAlternatives"b1"hasDictationResultMetadata"b1"suppressDelegateChangeNotifications"b1"adaptiveImageGlyphsDisabled"b1"isWritingToolsStreamingReplacements"b1"isWritingToolsStreamingUndoGroupPrematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
-- (void)@"NSOperationQueue";
-- (id)32@0:8@"_UIButtonBarButton"16@"UIBarButtonItem"24 /* Error: Ran out of types for this method. */;
-- (id)zes:,V_independentGroupSizes /* Error: Ran out of types for this method. */;
-- (void)tðtäw;
-- (long long);
-- (void); index path:(id)arg1 %@; cell:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ûf`;
-- (id);
-- (long long)ô ÿ;
-- (void)Bc;
-- (void)ËvÒ~{d;
+- (id)ustmentInteraction"16;
+- (id)rWebKitViewportConfigurationFlags;
+- (void)eDecelerationTarget;
+- (void)presentationPoint;
+- (void)ackingRunLoopModeIfNecessaryForReason:(id)arg1;
+- (void)yInteractionTypeStringPopup;
+- (void)ening some content in a new window.;
+- (long long).png;
+- (long long)ÓÉd a;
+- (_Bool)(§d;
 
 @end
 

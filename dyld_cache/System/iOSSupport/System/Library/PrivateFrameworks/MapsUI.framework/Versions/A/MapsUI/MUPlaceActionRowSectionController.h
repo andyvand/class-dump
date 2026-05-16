@@ -28,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (_Bool);
+- (void)eActionWithPresentationOptions:analyticsModuleMetadata: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

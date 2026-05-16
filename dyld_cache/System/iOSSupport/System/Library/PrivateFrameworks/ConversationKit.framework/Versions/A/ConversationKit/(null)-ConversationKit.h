@@ -5,5 +5,8 @@
 //
 
 @interface (null) (ConversationKit)
+- (id);
+- (id);
+- (id);
 @end
 

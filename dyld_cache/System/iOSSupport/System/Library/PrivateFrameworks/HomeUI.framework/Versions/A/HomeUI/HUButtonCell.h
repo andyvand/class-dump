@@ -26,16 +26,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (_Bool)e;
-- (void)ustAllowAccessWhileLockedToUseServiceAlertMessageFormat;
-- (long long)³;
-- (void);
-- (void)©óy;
+- (void);
+- (void);
+- (id);
+- (void)es presentAlertConfirmingTurningOfVoiceRecognitionFrom:]_block_invoke /* Error: Ran out of types for this method. */;
+- (long long)Ãÿè;
+- (_Bool)ç;
+- (void);
+- (void)ÿ%ÿÿ$¨;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

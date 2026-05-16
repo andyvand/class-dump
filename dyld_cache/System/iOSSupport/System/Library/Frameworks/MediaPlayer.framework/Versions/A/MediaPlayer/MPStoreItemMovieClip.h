@@ -11,12 +11,12 @@
     NSDictionary *_lookupDictionary;
 }
 
-- (id)R5%;
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)tTasteType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets;

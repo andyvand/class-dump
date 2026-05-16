@@ -14,12 +14,12 @@
 + (_Bool);
 + (_Bool);
 + (long long);
-+ (long long);
++ (long long);
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
 + (_Bool);
++ (id);
 
 @end
 

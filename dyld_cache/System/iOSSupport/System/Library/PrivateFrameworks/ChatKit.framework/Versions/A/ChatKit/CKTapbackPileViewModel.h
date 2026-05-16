@@ -21,16 +21,16 @@
 - (long long);
 - (id);
 - (_Bool);
-- (void)t for %s;
-- (void)or iCloud account without passphrase — manually fetching user record… {accountID:(long long)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
-- (void)t is nil;
 - (void);
-- (id)are"@"NSError">8;
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)a;
 
 // Remaining properties
 @property(nonatomic, readonly) CKAggregateAcknowledgmentChatItem *aggregateAcknowledgmentChatItem; // @synthesize aggregateAcknowledgmentChatItem;

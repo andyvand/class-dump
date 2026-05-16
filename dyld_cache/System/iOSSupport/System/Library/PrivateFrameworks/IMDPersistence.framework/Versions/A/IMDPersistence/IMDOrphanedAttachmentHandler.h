@@ -15,11 +15,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)laceholder;
-- (id)EIVED_AS_JUNK_BODY_DEFAULT;
+- (id);
+- (void)egrationErrorHandling;
+- (id)_id = ? AND    service_name = ? ORDER BY    chat_message_join.message_date DESC LIMIT    1;;
 
 // Remaining properties
 @property(retain, nonatomic) id <IMDFileManager> fileManager; // @synthesize fileManager=_fileManager;

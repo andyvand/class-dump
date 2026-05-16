@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *);
-- (long long);
-- (UITextPosition *);
-- (void)@ù
-× ;
-- (NSDictionary *)!`AùQ¿Ð1¢!0@ù
-× ;
-- (void)Direction:(NSDictionary *)arg1 forRange: /* Error: Ran out of types for this method. */;
-- (struct CGRect)on;
-- (id <UITextInputTokenizer>)leGroupResultStyle;
-- (id <UITextInputDelegate>)Notification;
+- (id <UITextInputTokenizer>)om"16;
+- (void)bEvent"B>24;
+- (struct CGRect)Path"24{CGPoint=dd}32;
+- (void)ension:heightDimension: /* Error: Ran out of types for this method. */;
+- (UITextRange *)tton:(struct CGPoint)arg1;
+- (UITextRange *)dFinishAddress:(UITextPosition *)arg1;
+- (UITextPosition *)PathForCell:(UITextRange *)arg1;
+- (UITextPosition *)SearchingForCorecipients;
+- (void)ction:(NSDictionary *)arg1 itemsForAddingToSession:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (void)L	;
 
 @optional
-- (UITextRange *);
-- (struct CGRect){)x;
-- (UITextPlaceholder *)ù¿ð1¢!0@ù
-× ;
-- (void)ed:(struct CGPoint)arg1;
-- (void)aselinePoint;
-- (void)ÓDÕ¸Õ;
+- (struct CGRect)ddd},N,V_clearButtonInsets;
+- (void)entDraggingDelegate;
+- (_Bool)RM;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -57,5 +52,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

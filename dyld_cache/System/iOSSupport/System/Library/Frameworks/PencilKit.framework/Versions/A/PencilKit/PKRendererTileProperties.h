@@ -15,7 +15,7 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (struct CGAffineTransform);
@@ -23,7 +23,7 @@
 - (_Bool);
 - (id);
 - (struct CGPoint);
-- (long long)|®;
+- (long long)ÿw.]Ó;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform=_drawingTransform;

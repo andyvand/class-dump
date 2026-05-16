@@ -37,8 +37,7 @@
 + (unsigned long long);
 + (_Bool);
 + (unsigned long long);
-+ (unsigned long long)	
-;
++ (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);

@@ -33,17 +33,17 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (_Bool);
-- (_Bool);
-- (id)ments have been specified, allowing all clients;
-- (id)Finished Sync;
-- (unsigned int)t;
-- (unsigned int)phoneNumber are valid to send with;
-- (void)at:%lld /* Error: Ran out of types for this method. */;
-- (void)This is my number, ignoring;
-- (unsigned int)IMDaemonCore.ScheduledMessageMembershipObserver;
-- (void)amDetectionSource;
+- (_Bool);
+- (id);
+- (id);
+- (unsigned int);
+- (unsigned int);
+- (void);
+- (void);
+- (unsigned int);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -51,29 +51,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id)@;
-- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void)ayloadRequiredDNSServers:(id)arg1;
 - (void);
 - (void);
-- (void)p°!HDùÂð1¢!0@ù
-× ;
-- (_Bool)× ;
-- (id)É1¢!0@ù
-× ;
-- (void)estureRecognizer;
-- (void)letionHandler:,V__completionHandler /* Error: Ran out of types for this method. */;
-- (_Bool)Øÿÿ®èÿYþþÿJpúÿ;
-- (void)backgroundEffects=%@ backgroundHost=%@ contentEffects=%@ contentHost=%@ capture=(source=%@, dependents=%@);
-- (long long);
-- (struct CGPoint)XAÿ¹;
-- (id)¤("ÿòóÎÎj;
-- (_Bool)`ÿ;
+- (void);
+- (_Bool);
+- (long long)iewController";
+- (_Bool)q16{CGPoint=dd}24q40@48@56@?64@?72;
+- (void)onDetentForHeight;
+- (struct CGPoint)nalMode;
+- (_Bool)urrentUpdate finished;
+- (id)Badge;
+- (void)dh;
+- (void)¤ÿ¬öµ;
+- (void)¼×l;
+- (id)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int dragSessionID; // @synthesize dragSessionID=_dragSessionID;

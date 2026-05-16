@@ -5,8 +5,5 @@
 //
 
 @protocol _WKTextManipulationDelegate
-
-@optional
-- (void);
 @end
 

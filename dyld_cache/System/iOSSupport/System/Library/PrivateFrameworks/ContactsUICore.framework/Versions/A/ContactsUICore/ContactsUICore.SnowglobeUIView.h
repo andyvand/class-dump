@@ -15,11 +15,11 @@
     MISSING_TYPE *cancellables;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)@"AVTStickerConfiguration",R,N,V_poseConfiguration;
 
 @end
 

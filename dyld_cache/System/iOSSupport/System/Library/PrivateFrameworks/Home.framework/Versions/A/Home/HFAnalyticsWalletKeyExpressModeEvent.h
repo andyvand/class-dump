@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)tomDescriptionProblemFixAccountMessageHomePod;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *expressModeLocationNumber; // @synthesize expressModeLocationNumber=_expressModeLocationNumber;

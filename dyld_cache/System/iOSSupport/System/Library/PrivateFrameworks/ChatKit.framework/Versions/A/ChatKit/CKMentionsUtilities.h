@@ -8,14 +8,14 @@
 {
 }
 
-+ (_Bool)u;
-+ (void)Enable Biometrics;
-+ (void)@?0@"CKRecord"8@"NSError"16;
-+ (_Bool)ication;
-+ (_Bool)tification;
-+ (_Bool)iews from drawing;
-+ (struct _NSRange)ing %@, with strokebounds %@;
-+ (id)areCropModifier;
++ (_Bool);
++ (void);
++ (void);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (struct _NSRange);
++ (id);
 + (_Bool);
 + (_Bool);
 + (void);

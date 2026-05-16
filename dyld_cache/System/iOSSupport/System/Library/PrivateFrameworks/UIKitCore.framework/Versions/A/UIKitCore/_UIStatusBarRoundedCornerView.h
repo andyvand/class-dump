@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (double);
-- (id)rst one is still in flight...;
-- (void);
+- (id)keyplaneForKey:(struct CGRect)arg1;
+- (double)SceneStack.count;
+- (void)t=}8;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

@@ -8,7 +8,6 @@
 
 @interface NewsUI2.FollowingViewController
 {
-    MISSING_TYPE *searchCoordinator;
     MISSING_TYPE *styler;
     MISSING_TYPE *eventHandler;
     MISSING_TYPE *blueprintViewController;
@@ -22,27 +21,24 @@
     MISSING_TYPE *offlineProvider;
     MISSING_TYPE *followingTabGroupManager;
     MISSING_TYPE *tipManager;
-    MISSING_TYPE *viewHasAppearedAtLeastOnce;
     MISSING_TYPE *offlineBannerCoordinator;
 }
 
-- (void)ain count(2) is %ld
-;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void)Ømßÿümßÿ0nßÿlnßÿnßÿànßÿoßÿ¨oßÿ$pßÿHpßÿÐpßÿôpßÿqßÿHqßÿlqßÿqßÿÌqßÿðqßÿørßÿsßÿHsßÿsßÿÀsßÿtßÿÌvßÿØvßÿävßÿHwßÿèxßÿôxßÿÀyßÿüyßÿDzßÿhzßÿzßÿÀzßÿüzßÿL{ßÿp{ßÿ{ßÿÄ{ßÿè{ßÿ|ßÿH|ßÿl|ßÿÔ|ßÿ}ßÿh}ßÿä}ßÿÌ~ßÿØ~ßÿü~ßÿ8ßÿ\ßÿÀßÿäßÿßÿ<ßÿxßÿßÿÐßÿßÿ0ßÿTßÿxßÿ8ßÿlßÿßÿ ßÿ\ßÿßÿ¼ßÿPßÿßÿÀßÿäßÿßÿ8ßÿ\ßÿßÿ¼ßÿ¬ßÿ¸ßÿÜßÿøßÿßÿÀßÿäßÿßÿ8ßÿ\ßÿßÿ¼ßÿ ßÿÄßÿèßÿßÿ<ßÿ`ßÿßÿÀßÿ¤ßÿ°ßÿäßÿ ßÿ\ßÿßÿÐßÿôßÿßÿ´ßÿßÿßÿÌßÿðßÿßÿDßÿhßÿßÿÈßÿìßÿßÿðßÿÈßÿìßÿHßÿßÿ¨ßÿßÿ¼ßÿßÿ@ßÿdßÿßÿ¼ßÿøßÿßÿlßÿßÿ´ßÿßÿ@ßÿdßÿ ßÿÄßÿøßÿ4ßÿXßÿ|ßÿ ßÿ$ßÿHßÿxßÿßÿÀßÿüßÿ ßÿ|ßÿÐßÿôßÿ$ßÿHßÿlßÿ¨ßÿÌßÿ`ßÿßÿ¨ßÿØßÿüßÿ ßÿ\ßÿßÿèßÿÐ ßÿ¸¡ßÿÜ¡ßÿ;
-- (void)s;
-- (void);
-- (void)ý´Ëþ;
-- (void)FÄÈÖþ;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)of the 'Newsletter' webpages canât be loaded.;
+- (void);
+- (void)_	þ;
+- (void)Í4;
+- (void)5;
 
 @end
 

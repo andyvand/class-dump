@@ -13,28 +13,29 @@ __attribute__((visibility("hidden")))
     IMHandle *_handle;
 }
 
-+ (_Bool)tºsÿ.H2èñ-;
-- (_Bool)achment:inTextStorage:atTextRange: /* Error: Ran out of types for this method. */;
-- (id)r;
++ (_Bool)lPosition: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id)!Ä@ùQÄð1¢!0@ù
+- (id)ð1Â0@ù
 × ;
-- (id)øP;
+- (id);
+- (void)ÿ!;
+- (id)\in;
+- (id)Îe0;
 
 // Remaining properties
 @property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;

@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     id <UISplitViewControllerImpl> _impl;
 }
 
-- (void)P;
-- (void)%@;
-- (void)for max spatial image %lu default(%@);
-- (_Bool)aired device which is connected:%@ /* Error: Ran out of types for this method. */;
-- (id)ror: /* Error: Ran out of types for this method. */;
-- (void)(º;
-- (id)%p; state:%s; events for event:%s /* Error: Ran out of types for this method. */;
-- (SEL)8ÆÿÍÇ·_;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id)À;
+- (SEL)= %g;
+- (void)@c;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_hasBeenUsed) _Bool hasBeenUsed; // @synthesize hasBeenUsed=_hasBeenUsed;

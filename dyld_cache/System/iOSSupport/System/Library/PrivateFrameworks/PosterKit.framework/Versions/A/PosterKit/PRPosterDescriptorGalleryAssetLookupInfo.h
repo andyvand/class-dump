@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ystem:userConfigured:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *assetCatalogIdentifier;

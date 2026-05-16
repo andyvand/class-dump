@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController;
+
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool);
+- (long long);
+- (void)ÿÿ¨ÿÿàÿÿÿÿìÿÿ\ÿÿÿÿÔÿÿøÿÿDÿÿtÿÿiùÿùÿt¾ùÿÀùÿÇùÿd#úÿ$úÿHQúÿütúÿøxúÿd£úÿ¤úÿ¸ÁúÿpÅúÿH9ûÿì:(UIPresentationController *)arg1 ûÿ¬?ûÿÈ¸ûÿkùÿÌùÿØ¾ùÿhÂùÿ ÈùÿÌ¾ùÿ$'úÿvúÿzúÿ¼¾ùÿ¨úÿÃúÿ`Æúÿ_ûÿ08ûÿ`@ûÿÿÿ,;
 @end
 

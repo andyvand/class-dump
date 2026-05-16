@@ -19,34 +19,35 @@
     unsigned long long _activationMode;
 }
 
-+ (_Bool)DhÿtÞÒq;
-- (void);
-- (_Bool)nged: /* Error: Ran out of types for this method. */;
-- (id)D:(id)arg1 filename:(id)arg2 bookmark:(unsigned long long)arg3 width:(id)arg4 height:(unsigned long long)arg5 isAnimoji:(_Bool)arg6;
-- (id)ChatParticipantsIfNeeded:usingChatGUIDToChatMap: /* Error: Ran out of types for this method. */;
-- (id)onCentricID;
-- (id)ager;
++ (_Bool)rInColumn:layout:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool)public}s;
+- (id)qY°1Â0@ù
+× ;
+- (unsigned long long)or"b1"hasCustomizedTextAlignment"b1"hasCustomizedLineBreakMode"b1"hasCustomizedNumberOfLines"b1"hasCustomizedAdjustsFontSizeToFitWidth"b1"hasCustomizedMinimumScaleFactor"b1"hasCustomizedAllowsDefaultTighteningForTruncation"b1"hasCustomizedAdjustsFontForContentSizeCategory"b1};
+- (_Bool)nmentConstraint:(id)arg1;
+- (void)dden;
+- (void)eferenceCorner;
+- (void)withAttributes:(id)arg1 paragraphStyle: /* Error: Ran out of types for this method. */;
+- (id)viceSessionActivityProviding>",W,N,V_lastActivityProvider;
+- (void)n",R,N,V_settingsButton;
+- (id)xþDÿÿx;
+- (id)we're snapshotting then just ignore fence requests - we'll synchronize anyway so that'll have to be close enough;
+- (id)ketContainerModel;
 - (void);
-- (id)v^{__CFError=}>16;
-- (id);
-- (void);
-- (id);
-- (void)acter:(id)arg1 errorVector:shouldTypeVariants:baseKeyForVariants: /* Error: Ran out of types for this method. */;
-- (void)butes:(unsigned long long)arg1;
-- (id)orViewController: /* Error: Ran out of types for this method. */;
-- (void)ContainerView;
-- (id)_state;
-- (unsigned long long);
-- (id);
-- (unsigned long long)ayCornerRadius;
-- (void)b;
+- (void)|´ÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationMode; // @synthesize activationMode=_activationMode;

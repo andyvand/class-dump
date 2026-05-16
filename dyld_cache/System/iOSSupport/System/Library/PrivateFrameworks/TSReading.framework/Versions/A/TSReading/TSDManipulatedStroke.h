@@ -21,22 +21,21 @@
 - (void);
 - (double);
 - (_Bool);
-- (struct CGPath *)4
-@;
+- (struct CGPath *);
 - (id);
 - (void);
 - (void);
 - (struct CGPath *);
 - (id);
-- (_Bool)C;
 - (_Bool);
-- (void)@9 S;
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (unsigned int);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) TSDPathManipulation *pathManipulation; // @synthesize pathManipulation=mManipulation;

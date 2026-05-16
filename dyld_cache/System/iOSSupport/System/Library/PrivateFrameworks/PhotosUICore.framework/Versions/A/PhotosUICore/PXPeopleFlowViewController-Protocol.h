@@ -9,9 +9,6 @@
 
 @protocol PXPeopleFlowViewController
 
-@optional
-- (id <PXPeopleFlowViewControllerActionDelegate>)SuspensionCount;
-
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate;
 // Preceding property had unknown attributes: ?

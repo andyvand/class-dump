@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSSet;
 
 @protocol FCReadingHistoryType
-- (NSSet *);
-- (NSDate *)áÖøI;
+- (void);
+- (NSSet *)EdgeView;
 
 // Remaining properties
+@property(readonly, nonatomic) NSSet *allDislikedArticleIDs;
 @property(readonly, nonatomic) NSSet *allReadArticleIDs;
 @property(readonly, nonatomic) NSSet *allSeenArticleIDs;
 @end

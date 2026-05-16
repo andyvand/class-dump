@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)range ;
-- (void);
+- (void)printViewSupplementaryViewProvider.swift;
 @end
 

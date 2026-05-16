@@ -15,14 +15,14 @@
 }
 
 - (id);
-- (id);
-- (void)om topic store.;
 - (void);
-- (id);
+- (void);
 - (id);
-- (void)DictionaryKey;
-- (void)ifierListEnumerationResult;
-- (id)terSectionIdentifier=%@;
+- (id);
+- (id);
+- (void)ING__;
+- (id)k__MAPPING_MISSING__;
+- (void)was missing mapping for MPModelPropertyMovieDuration;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *assetURLExpirationDate; // @synthesize assetURLExpirationDate=_assetURLExpirationDate;

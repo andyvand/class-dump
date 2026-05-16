@@ -5,8 +5,5 @@
 //
 
 @protocol SXSubscribeActionHandler
-
-@optional
-- (void);
 @end
 

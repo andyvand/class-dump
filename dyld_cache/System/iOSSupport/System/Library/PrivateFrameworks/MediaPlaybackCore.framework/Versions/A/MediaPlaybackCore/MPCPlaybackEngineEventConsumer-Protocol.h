@@ -5,6 +5,5 @@
 //
 
 @protocol MPCPlaybackEngineEventConsumer
-- (void);
 @end
 

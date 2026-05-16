@@ -40,7 +40,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)GridEmptyHomeViewInstructionsLabelText;
 
 @end
 

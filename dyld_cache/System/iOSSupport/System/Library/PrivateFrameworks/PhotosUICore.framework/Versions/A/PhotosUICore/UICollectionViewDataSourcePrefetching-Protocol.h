@@ -5,9 +5,9 @@
 //
 
 @protocol UICollectionViewDataSourcePrefetching
-- (void)P+p;
+- (void);
 
 @optional
-- (void)ns-fetch-queue;
+- (void)vementAnimationDelay;
 @end
 

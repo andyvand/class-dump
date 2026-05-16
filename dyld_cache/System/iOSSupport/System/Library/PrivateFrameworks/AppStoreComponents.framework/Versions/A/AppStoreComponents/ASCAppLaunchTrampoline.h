@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)xt";
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<ASCAppLaunchTrampolineWorkspace> *workspace; // @synthesize workspace=_workspace;

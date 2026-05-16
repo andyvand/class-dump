@@ -13,17 +13,18 @@
 }
 
 + (id);
-+ (id)+;
++ (id)lr;
 - (struct __DDScanner *);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool)!;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)l 3;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *scannerQueue; // @synthesize scannerQueue=_scannerQueue;

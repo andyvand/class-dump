@@ -18,17 +18,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)relativeToRect:inView: /* Error: Ran out of types for this method. */;
-- (id)er: /* Error: Ran out of types for this method. */;
-- (void)sToFit;
-- (void)catorStore.m;
-- (_Bool):%@> /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (_Bool);
+- (id);
+- (void)edScrollView;
+- (void)emAtEndWithEnumerationOptions:(unsigned long long)arg1;
+- (id)Suggestion;
+- (unsigned long long)nterRevealMode;
+- (void);
+- (void)\ØR0±43[;
+- (void)D=Òÿ#;
 
 // Remaining properties
 @property(readonly) unsigned long long beginningIndex;

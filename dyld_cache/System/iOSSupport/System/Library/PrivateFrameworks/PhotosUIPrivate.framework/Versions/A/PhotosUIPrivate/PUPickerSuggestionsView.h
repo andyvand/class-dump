@@ -28,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)Nþÿìèÿÿxþÿ;
+- (void)_dateRangeFormatter;
+- (void)GG;
 
 // Remaining properties
 @property(nonatomic) __weak id <PUPickerSuggestionsViewDelegate> delegate; // @synthesize delegate;

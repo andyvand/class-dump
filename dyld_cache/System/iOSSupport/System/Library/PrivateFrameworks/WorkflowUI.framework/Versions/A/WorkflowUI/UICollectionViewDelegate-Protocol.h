@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout;
+@class NSIndexPath, UICollectionView;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (NSIndexPath *)1â
+0@ù
+× ;
+- (_Bool)shouldPresentFullScreenPreview;
+- (_Bool)orItemAtIndexPath:(UICollectionView *)arg1 point:(NSIndexPath *)arg2;
 - (void);
-- (_Bool)ror:(UICollectionView *)arg1;
-- (UICollectionViewTransitionLayout *);
-- (NSIndexPath *)#8#y7y¼?y~ yMG³\G_AJtGABG;
-- (NSIndexPath *)ByACyAAyAAyAAyAAyAAyAAyAEGAMGy_êGGAMGAOG}G_þÆtGGAjAyAAyAAyAByACyþºy;
-- (_Bool)ÉÿyÉGGG_ÆûþÿQo_²þyþALGG;
-- (void)_;
-- (_Bool)yphCharacter;
-- (NSIndexPath *))4	;
+- (_Bool);
 @end
 

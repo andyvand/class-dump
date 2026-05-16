@@ -14,7 +14,7 @@
     MISSING_TYPE *showsContent;
 }
 
-- (void);
+- (void)emoteViewTracker;
 
 @end
 

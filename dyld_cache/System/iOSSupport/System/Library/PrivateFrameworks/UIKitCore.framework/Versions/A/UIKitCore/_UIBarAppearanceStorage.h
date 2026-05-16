@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_backgroundImages;
 }
 
-+ (long long)tInRange: /* Error: Ran out of types for this method. */;
++ (long long);
 - (void);
-- (_Bool)ing"40B48;
-- (id)cordIDsNotFoundFromCKPartialError: /* Error: Ran out of types for this method. */;
-- (void)çH'º;
-- (id)1¢!0@ù
-× ;
-- (void)ScrollableContainer:(id)arg1;
+- (_Bool);
+- (id);
+- (void)gistry"16@"PKPushPayload"24@"NSString"32;
+- (id)pshotSession:(long long)arg1;
+- (void)¨%¿;
 
 @end
 

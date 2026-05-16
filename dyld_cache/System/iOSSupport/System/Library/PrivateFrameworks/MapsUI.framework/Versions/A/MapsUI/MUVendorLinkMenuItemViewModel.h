@@ -19,12 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)ers;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

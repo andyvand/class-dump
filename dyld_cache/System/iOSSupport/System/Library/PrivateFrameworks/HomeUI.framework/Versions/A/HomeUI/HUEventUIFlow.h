@@ -49,12 +49,12 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (void);
-- (id)tZoomScale: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id):Invalid (ignored) drop position:(row:%ld, column:%ld) /* Error: Ran out of types for this method. */;
-- (unsigned long long)eSubclassRegularPadPortrait;
+- (void)Date:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUEventUIFlowDelegate> delegate; // @synthesize delegate=_delegate;

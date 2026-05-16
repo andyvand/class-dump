@@ -15,25 +15,24 @@ __attribute__((visibility("hidden")))
     id <_UIImageContentLayoutSource> _source;
 }
 
-+ (id)his is a build config issue.;
++ (id);
 - (id);
-- (_Bool)iceName:(id)arg1;
-- (_Bool)layDictionaryToPeers:requiresUpload:serviceName: /* Error: Ran out of types for this method. */;
-- (_Bool)n:account: /* Error: Ran out of types for this method. */;
-- (_Bool)sendUpdate:toPerson: /* Error: Ran out of types for this method. */;
-- (id)uessTransportType;
-- (id)lter:(long long)arg1 limit:error: /* Error: Ran out of types for this method. */;
-- (id)tParentChatIDForMergedBusinessThread:(id)arg1;
-- (id):(id)arg1 allowList:(id)arg2 blockingMode:(struct CGSize)arg3 blockIdleStatus:status:capabilities:serviceLoginStatus:loginStatusMessage: /* Error: Ran out of types for this method. */;
-- (id)ount:(struct CGSize)arg1 conference:remoteUser:properties: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (void);
-- (id)0@ù
-× ;
-- (long long)uggestedProposal;
-- (id)lectionView:willDisplayCell:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id)s;
-- (double)ntroller = %@;
+- (id);
+- (double)andoffData: /* Error: Ran out of types for this method. */;
+- (id)N,V_sceneHostingController;
+- (id)t has no room for any subitems itself. Inspect the parent and ensure the contentInsets (%@) do not result in a negative effectiveContentSize when applied to size:%@. /* Error: Ran out of types for this method. */;
+- (long long)þ;
+- (void)D[;
 
 // Remaining properties
 @property(readonly, nonatomic) long long colorRenderingMode;

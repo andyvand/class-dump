@@ -5,8 +5,5 @@
 //
 
 @protocol CKInternalAudioPlayerDelegate
-
-@optional
-- (void)_ownedSharedRootObjectsInSource;
 @end
 

@@ -36,8 +36,8 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ication/x-www-form-urlencoded;charset=UTF-8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableRoutes;

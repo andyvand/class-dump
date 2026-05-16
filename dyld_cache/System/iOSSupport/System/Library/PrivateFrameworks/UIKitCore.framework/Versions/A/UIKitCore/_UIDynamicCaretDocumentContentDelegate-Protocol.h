@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDynamicCaretDocumentContentDelegate
-- (void)n succeeded but decode options require version2;
 @end
 

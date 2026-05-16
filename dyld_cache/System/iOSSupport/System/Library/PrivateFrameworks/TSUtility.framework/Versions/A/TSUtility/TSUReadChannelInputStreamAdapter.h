@@ -25,10 +25,10 @@
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (long long);
-- (_Bool)com.apple.xbs/Sources/AlderShared/utility/TSUFormatUtilities.h;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

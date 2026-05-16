@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol PXMutableTabBadgeModel
-- (NSString *)Ô ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localizedString;

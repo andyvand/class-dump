@@ -9,7 +9,7 @@
 @interface (null) (DOC_IPI_Usage_103371117)
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 

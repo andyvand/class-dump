@@ -21,12 +21,11 @@
 + (double);
 + (_Bool);
 + (_Bool);
-+ (id);
 + (struct CGImage *);
 + (id);
 + (id);
-+ (_Bool);
 + (double);
++ (_Bool);
 
 @end
 

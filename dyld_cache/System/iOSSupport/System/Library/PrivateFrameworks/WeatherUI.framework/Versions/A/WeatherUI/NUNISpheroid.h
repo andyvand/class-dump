@@ -63,22 +63,22 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (unsigned long long);
+- (MISSING_TYPE *);
 - (float);
 - (float);
 - (struct);
-- (void);
 - (float);
-- (MISSING_TYPE *);
+- (float);
 - (void);
 - (id);
-- (unsigned long long);
-- (float);
-- (_Bool);
+- (struct CLLocationCoordinate2D);
 - (void);
-- (struct CLLocationCoordinate2D)y;þÿG;
-- (id);
-- (void)ÿ;
-- (void)ÿ;
+- (void)ìÞÿD5;
+- (void)expected to start in %@ and last for %@.;
+- (_Bool)Ìÿ¨cèÜÌÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) float angle; // @dynamic angle;

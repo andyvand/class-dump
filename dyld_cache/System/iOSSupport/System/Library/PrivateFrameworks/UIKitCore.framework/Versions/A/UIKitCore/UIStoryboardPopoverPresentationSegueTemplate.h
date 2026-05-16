@@ -17,19 +17,19 @@ __attribute__((visibility("hidden")))
     UIBarButtonItem *_anchorBarButtonItem;
 }
 
-- (void)sendEnabled;
+- (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void)apGGIDAttribute:(id)arg1 withADPreferredDCServerFlag:withADPreferredDCServer:withADDomainAdminGroupListFlag:withADDomainAdminGroupList:withADNamespaceFlag:withADNamespace:withADPacketSignFlag:withADPacketSign:withADPacketEncryptFlag:withADPacketEncrypt:withADRestrictDDNSFlag:withADRestrictDDNS:withADTrustChangePassIntervalDaysFlag:withADTrustChangePassIntervalDays: /* Error: Ran out of types for this method. */;
-- (unsigned long long)d;
 - (id);
-- (void);
-- (void)ôéØêëlë;
-- (id);
-- (void)/Ê^Øf;
+- (void)CheckedPreferences;
+- (void)dingPadding;
+- (id)ntroller's delegate (%@) does not conform to _UIColorPickerViewProvidingDelegate;
+- (unsigned long long)valid state:deallocating presentation controller while still ignoring interaction events:<%s:%p> /* Error: Ran out of types for this method. */;
+- (void)erProviderContext;
+- (void)ld(ÿ@ü{;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *anchorBarButtonItem; // @synthesize anchorBarButtonItem=_anchorBarButtonItem;

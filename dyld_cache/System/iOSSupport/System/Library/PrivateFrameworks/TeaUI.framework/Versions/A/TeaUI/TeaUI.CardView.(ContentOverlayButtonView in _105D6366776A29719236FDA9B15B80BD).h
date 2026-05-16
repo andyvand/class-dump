@@ -8,7 +8,7 @@
 {
 }
 
-- (id)onditions;
+- (id);
 - (id);
 
 @end

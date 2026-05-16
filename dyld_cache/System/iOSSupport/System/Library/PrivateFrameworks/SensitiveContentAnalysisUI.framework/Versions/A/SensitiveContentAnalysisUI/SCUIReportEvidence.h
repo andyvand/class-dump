@@ -32,10 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (id);
+- (void);
+- (void);
+- (id)AyßGya;
 
 // Remaining properties
 @property(copy) NSString *chatRoomName; // @synthesize chatRoomName=_chatRoomName;

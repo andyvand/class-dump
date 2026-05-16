@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id)NSError"8@"NSArray"16;
-- (id)Ò-ób~;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HFCameraClipPlayerItem *currentItem;

@@ -10,10 +10,10 @@
 }
 
 - (void);
-- (void)P;
-- (CDUnknownBlockType);
-- (void);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (void)emoteIntent;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

@@ -16,9 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <NUNIPreferencePaneDelegate> delegate; // @synthesize delegate=_delegate;

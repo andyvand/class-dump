@@ -15,19 +15,19 @@
     double _timeout;
 }
 
-- (double);
 - (id);
-- (id);
-- (id);
-- (void)nUtilProcessIncomingChannelData:(id)arg1 packet is too short for data length.;
-- (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)ontext";
-- (id);
+- (void);
 - (void);
 - (double);
 - (id);
+- (double)pÀ´À;
+- (void)te, %{sensitive}@, invalid and not allowed for a handoff operation;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *checkInStartDate; // @synthesize checkInStartDate=_checkInStartDate;

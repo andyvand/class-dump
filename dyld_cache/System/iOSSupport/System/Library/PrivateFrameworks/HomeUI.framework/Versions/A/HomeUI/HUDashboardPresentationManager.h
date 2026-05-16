@@ -11,16 +11,18 @@
     MISSING_TYPE *delegate;
 }
 
-+ (id);
++ (id)sForAccessory: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)!Dù±°1â
+0@ù
+× ;
+- (void)plate;
 
 @end
 

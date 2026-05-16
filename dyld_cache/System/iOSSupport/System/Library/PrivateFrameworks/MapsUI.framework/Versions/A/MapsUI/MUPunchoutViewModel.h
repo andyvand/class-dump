@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void)ration: /* Error: Ran out of types for this method. */;
+- (id)eHeaderSectionControllerInit;
 
 // Remaining properties
 @property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;

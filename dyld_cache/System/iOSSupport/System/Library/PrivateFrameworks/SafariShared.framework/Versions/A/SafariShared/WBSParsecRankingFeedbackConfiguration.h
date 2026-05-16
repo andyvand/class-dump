@@ -19,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SFSearchResult *hiddenSiriSuggestedSite; // @synthesize hiddenSiriSuggestedSite=_hiddenSiriSuggestedSite;

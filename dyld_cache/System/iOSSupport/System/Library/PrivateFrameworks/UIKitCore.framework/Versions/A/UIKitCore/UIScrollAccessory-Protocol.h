@@ -7,13 +7,9 @@
 @class UIScrollView;
 
 @protocol UIScrollAccessory
-- (long long)a"16^B24;
-- (_Bool)áo!ØGùqÂ°1¢!0@ù
-× ;
-- (void)he;
-- (UIScrollView *)©Ïÿ3Økþ;
-- (void);
-- (void)îu;
+- (UIScrollView *)geometry change without starting it:%@ /* Error: Ran out of types for this method. */;
+- (long long)4÷þõ13àn¹þ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long edge;

@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool)0;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

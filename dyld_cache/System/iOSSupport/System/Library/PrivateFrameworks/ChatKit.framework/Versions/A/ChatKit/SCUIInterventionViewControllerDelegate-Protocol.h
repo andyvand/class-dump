@@ -5,6 +5,5 @@
 //
 
 @protocol SCUIInterventionViewControllerDelegate
-- (void);
 @end
 

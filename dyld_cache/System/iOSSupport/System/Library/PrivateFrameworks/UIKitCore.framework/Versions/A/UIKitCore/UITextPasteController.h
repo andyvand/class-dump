@@ -14,25 +14,26 @@ __attribute__((visibility("hidden")))
     id <UITextPasteConfigurationSupporting_Internal> _supportingView;
 }
 
-+ (id)ges-cache-delete;
++ (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void):(id)arg1;
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)Ùº;
 - (void)0@ù
 × ;
-- (id)ionBackgroundViewsAnimated:(id)arg1;
-- (_Bool);
-- (void);
-- (id)ger;
+- (void)! FùeÐ1Â0@ù
+× ;
+- (id)nged"b1"rotationEnabledChanged"b1"useDefaultViewPropertiesApplierChanged"b1"chargeChanged"b1"dynamicChanged"b1};
+- (void)butedName:(id)arg1 image:actionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)inator;
+- (id)extCursorAssertion>",&,N,V_inputModeAssertion;
+- (void)=ØÞ;
+- (id)ïÿÔ¢ïÿïÿ;
+- (id)tyle:(id)arg1 forPartWithIdentifier:(id)arg2;
 - (id);
-- (void)UIStatusBarManagerWindowSceneComponentKey;
-- (id)WritingToolsUI.framework/WritingToolsUI;
-- (id)Tÿ3p±þ;
-- (void);
+- (void)*`D;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

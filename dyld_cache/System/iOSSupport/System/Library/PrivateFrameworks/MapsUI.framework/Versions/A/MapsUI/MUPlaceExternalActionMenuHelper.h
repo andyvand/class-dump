@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)sui_fittingSize;
 
 // Remaining properties
 @property(readonly, nonatomic) MUGroupedExternalActionController *actionController;

@@ -16,10 +16,12 @@
     MISSING_TYPE *foregroundViewInitialCenter;
 }
 
-- (void);
+- (double);
 - (id);
-- (void)B¥ÿØí3¨^8;
-- (double)Ì¿ÿ¸wP(¦8;
+- (void)1â
+0@ù
+× ;
+- (void)AdËë#ÿ;
 
 @end
 

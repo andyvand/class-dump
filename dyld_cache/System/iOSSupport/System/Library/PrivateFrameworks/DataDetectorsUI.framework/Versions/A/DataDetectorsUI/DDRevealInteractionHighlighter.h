@@ -39,14 +39,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (struct CGRect);
 - (_Bool);
-- (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (struct CGRect);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

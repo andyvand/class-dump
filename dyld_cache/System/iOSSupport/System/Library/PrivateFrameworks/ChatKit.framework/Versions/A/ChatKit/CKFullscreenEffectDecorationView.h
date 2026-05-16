@@ -14,12 +14,12 @@
 
 + (id);
 + (id);
-- (void)roller;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)3>ì0;
+- (id);
+- (void)%ÿ!;
 
 // Remaining properties
 @property(nonatomic) __weak UIView<CKFullscreenEffectView> *effectView; // @synthesize effectView=_effectView;

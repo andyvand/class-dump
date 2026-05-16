@@ -12,21 +12,21 @@
     HMAccessorySettingsPartialFetchFailureInformation *_failureInformation;
 }
 
-+ (id)k;
-+ (id)Dx;
++ (id);
++ (id)mpletionHandler:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)herFinishSendingMessageEvent;
-- (id)%@;
+- (void)no stream session UUID exists;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

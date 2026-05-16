@@ -24,19 +24,19 @@
 - (double);
 - (id);
 - (void);
-- (unsigned long long);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (unsigned long long);
 - (double);
 - (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)VisualStylingProvider"8@16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic, getter=_batteryDeviceViews) NSMutableArray *batteryDeviceViews;

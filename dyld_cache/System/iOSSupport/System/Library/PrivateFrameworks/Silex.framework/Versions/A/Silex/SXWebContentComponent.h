@@ -15,7 +15,7 @@
 
 + (id);
 + (CDUnknownBlockType);
-+ (id);
++ (id)ary",R,N,V_imageResourcesGroupedByImageIdentifier;
 - (unsigned long long);
 
 // Remaining properties

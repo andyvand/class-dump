@@ -4,8 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _UISceneKeyboardProxyLayerForwardingHostingEnvironmentObserver;
+
 @protocol _UISceneKeyboardProxyLayerForwardingHostingEnvironment
-- (void)failed;
-- (void)View<UIAutoscrollContainer>";
+- (void)unordered_map_hasher<void (*)(), std:(id <_UISceneKeyboardProxyLayerForwardingHostingEnvironmentObserver>)arg1:pair<void (*const)(), _UITrackedTraitUsageRecord>, std::hash<void (*)()>, std::equal_to<void (*)()>>, std::__unordered_map_equal<void (*)(), std::pair<void (*const)(), _UITrackedTraitUsageRecord>, std::equal_to<void (*)()>, std::hash<void (*)()>>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)UIEventMask;
 @end
 

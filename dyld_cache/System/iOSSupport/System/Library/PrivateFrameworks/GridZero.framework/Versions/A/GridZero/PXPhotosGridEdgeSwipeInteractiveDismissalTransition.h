@@ -19,11 +19,11 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)ayInsets:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPhotosGridEdgeSwipeInteractiveDismissalDelegate> delegate; // @synthesize delegate=_delegate;

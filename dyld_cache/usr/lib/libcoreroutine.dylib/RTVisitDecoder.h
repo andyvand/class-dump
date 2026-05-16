@@ -15,11 +15,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
 - (id);
-- (id)edIntValue;
+- (id);
+- (id);
+- (void)ntactsWithHandler,Fetched contacts %d, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisitHyperParameter *hyperParameter; // @synthesize hyperParameter=_hyperParameter;

@@ -5,13 +5,5 @@
 //
 
 @protocol PKTextInputTouchDetectionGestureRecognizerDelegate
-- (void)tInfos:%@
- userID:%@
- storefrontID:%@
- bundleID:%@
- endpointConfig:%@
- deviceInfo:%@
- debugOverrides:%@
- useBackgroundRefreshRate:%d requestMode:%lu applicationState:%lu /* Error: Ran out of types for this method. */;
 @end
 

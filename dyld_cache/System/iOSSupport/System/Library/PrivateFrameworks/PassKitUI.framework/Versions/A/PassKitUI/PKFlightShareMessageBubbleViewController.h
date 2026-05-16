@@ -17,12 +17,13 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)Oh;
-- (id);
+- (void)! îäÿâ;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,9 +12,9 @@
     struct CGPoint _endPoint;
 }
 
-- (void)minimumWidth=%f maximumWidth=%f;
-- (void)ñc;
-- (void)ÿ;
+- (void)ðÌè !Ð!;
+- (void)hField:(struct CGPoint)arg1 ];
+- (void)CornerType;
 
 @end
 

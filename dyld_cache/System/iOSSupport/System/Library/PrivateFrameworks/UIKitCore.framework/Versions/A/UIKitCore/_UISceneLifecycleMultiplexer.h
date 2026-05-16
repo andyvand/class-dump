@@ -17,34 +17,39 @@ __attribute__((visibility("hidden")))
     } _multiplexerFlags;
 }
 
-+ (long long);
 + (id);
 + (void);
-+ (id)ShowingMacOverlay: /* Error: Ran out of types for this method. */;
-+ (id)4æ;
-+ (id)@;
-+ (id)rom %@ to %@ while a transition is already in progress. Wait for viewDidAppear/viewDidDisappear to know the current transition has completed;
 + (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)_kl;
-- (_Bool);
-- (_Bool)chunk_keys;
-- (void);
-- (void);
++ (id)ù\1Â0@ù
+× ;
++ (id)× ;
++ (long long);
++ (id)þ;
++ (id)PQk;
 - (id);
 - (void);
-- (void)entText:(id)arg1;
-- (void)gins;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)ckgroundAppearance;
-- (void)tions._windowOrigin;
-- (void)isappearNotification;
-- (long long)er the nib (%@);
-- (void)F711¸;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool)!Eùñ^ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)°!¼@ùc°1Â0@ù
+× ;
+- (void)Ð!à@ùñd°1Â0@ù
+× ;
+- (long long)
+× ;
+- (void)DeliveryTarget>";
+- (void)etDictationAutoPunctuation:(id)arg1;
+- (_Bool)ondaryLabelColor;
+- (_Bool)tifierAfterIdentifier:(id)arg1;
+- (_Bool);
+- (void)à;
+- (_Bool);
+- (void)%@; pointerLockStatus:(id)arg1 %@;
+- (void)¸?R0-É03\J;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activatedOnce;

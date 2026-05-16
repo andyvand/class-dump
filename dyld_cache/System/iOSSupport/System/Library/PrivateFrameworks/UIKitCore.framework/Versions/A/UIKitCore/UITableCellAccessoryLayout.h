@@ -22,46 +22,48 @@ __attribute__((visibility("hidden")))
     struct CGRect _totalFrame;
 }
 
-- (void);
-- (void);
-- (void);
 - (double);
-- (double);
-- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (double)me: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
 - (struct CGRect);
-- (unsigned long long);
-- (double);
-- (struct CGRect)èþ¹;
-- (void),r	ë;
-- (void);
-- (struct CGRect)n!|@ùÁ°1¢!0@ù
-× ;
-- (struct CGRect)× ;
-- (double)!DùQÇð1¢!0@ù
-× ;
-- (double)@ù
-× ;
-- (id)!¸@ùñÊ°1¢!0@ù
-× ;
-- (void)titleSeparatorView;
-- (CDUnknownBlockType)rResponder: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)eBackground: /* Error: Ran out of types for this method. */;
-- (void)ForChangingNavigationController:(CDUnknownBlockType)arg1;
-- (double)tAssistantManager;
-- (id)StatusBar:(id)arg1 duration:(struct CGSize)arg2 skipCallbacks:(struct CGRect *)arg3;
 - (id);
-- (struct CGRect)_collectionView:(unsigned long long)arg1 flowLayoutRowAlignmentOptionsForSection:(id)arg2;
-- (void)eferViewUpdateToFocusUpdate,S_setDeferViewUpdateToFocusUpdate:(id)arg1;
-- (void)ationInteraction;
-- (id)ntent;
-- (void)¬QþØ¾þÿ;
-- (void)etionHandlers;
-- (void)h;
+- (void);
+- (void);
+- (double);
+- (struct CGRect);
+- (struct CGRect);
+- (id)ù
+× ;
+- (CDUnknownBlockType)0@ù
+× ;
+- (double)Ô ;
+- (double);
+- (CDUnknownBlockType)°!$Bùñ`1Â0@ù
+× ;
+- (double)ð!$Dùqbð1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (struct CGRect)0@ù
+× ;
+- (id);
+- (id)NSMutableArray""javascript"@"NSMutableArray""css"@"NSMutableArray""error"@"NSMutableArray""warning"@"NSMutableArray""tip"@"NSMutableArray""log"@"NSMutableArray"};
+- (id)yleForAlertControllerStyle:traitCollection:descriptor: /* Error: Ran out of types for this method. */;
+- (void)dAssertCurrentKeyState:(id)arg1;
+- (double)tentViewControllerContainer: /* Error: Ran out of types for this method. */;
+- (void)gFeedbackIfNeeded;
+- (double)EndRect;
+- (id),V_titleControl;
+- (void)only be used by approved clients.;
+- (struct CGRect)eManager;
+- (CDUnknownBlockType)ntrollerFormattingDescriptorListStyle;
+- (void)X;b;
+- (void)b;
+- (unsigned long long)®;
 
 // Remaining properties
 @property(readonly, nonatomic) double _disclosureLayoutWidth;

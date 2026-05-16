@@ -17,26 +17,24 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)er:(long long)arg1;
+- (long long);
 - (struct CGSize);
-- (id);
-- (void);
-- (id)
-× ;
-- (long long)Point=dd}{CGSize=dd}}16@"UIView"48Q56@"NSLayoutManager"64;
-- (void)ntContext:(long long)arg1;
-- (long long);
-- (id)Ó;
-- (void)BÿhÔ;
-- (void))ÿ¦#;
 - (void);
-- (long long)Cÿ#ÌÚôd;
-- (void)Æ
-;
-- (long long);
-- (id)ÌMÈÿ;
-- (id)'îd;
+- (void)t:(long long)arg1;
+- (void)tyle:(long long)arg1;
+- (id)ttributesToViews;
+- (id)d;
 - (void);
+- (void);
+- (id)Ðtºc;
+- (void)ÿÜ¬;
+- (void)Ld;
+- (id)ìed;
+- (long long);
+- (id)þvk;
+- (long long)ø;
+- (void)¸;
+- (long long)Þ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

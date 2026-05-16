@@ -5,12 +5,5 @@
 //
 
 @protocol CKBalloonTextViewInteractionDelegate
-
-@optional
-- (void)roundTask;
-- (void)ce;
-- (void)entation;
-- (void)eContext;
-- (void)ailRepresentation"8@"NSError"16;
 @end
 

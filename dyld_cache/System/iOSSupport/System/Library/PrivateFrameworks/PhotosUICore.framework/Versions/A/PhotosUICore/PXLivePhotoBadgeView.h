@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
 - (void);
+- (id);
 - (void);
-- (id)3ýÿ´3ýÿÐ3ýÿ¼<üÿØ<üÿô<üÿ°=üÿ>üÿ=üÿ$>üÿà=üÿ=üÿ¸=üÿÌ3ýÿì3ýÿ4ýÿ$4ýÿL4ýÿl4ýÿÄ4ýÿ¼äûÿè4ýÿ;
-- (id)yAction;
+- (id);
 - (void);
-- (struct CGSize)odifyGroupActionPerformer;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXLivePhotoBadgeViewDelegate> delegate; // @synthesize delegate=_delegate;

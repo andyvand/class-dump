@@ -16,37 +16,35 @@
 - (void);
 - (void);
 - (id);
-- (void)};
 - (void);
 - (void);
+- (void)!ÔCù\ð1Â0@ù
+× ;
 - (void);
-- (void)
+- (void)1Â0@ù
 × ;
-- (void)QÈ1¢!0@ù
+- (void)	ð!pFùÑeÐ1Â0@ù
 × ;
-- (_Bool)1¢!0@ù
-× ;
-- (void)GùñÍ°1¢!0@ù
-× ;
-- (void)!@ùQÎ°1¢!0@ù
-× ;
-- (void)AlignmentForFooterInSection:(id)arg1;
-- (void)d:(id)arg1 alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
-- (void)ojiForEmoji:(id)arg1;
-- (void)egateWillPresentWithAdaptiveStyle:(id)arg1 transitionCoordinator:(id)arg2;
-- (_Bool)ctionOffset;
-- (void)olariumImpactedContent;
-- (void)lumn:(id)arg1;
-- (void)ene:(id)arg1 fromTransitionContext:(_Bool)arg2;
-- (id)llerItems;
-- (void)Duration;
-- (void),&,N,V_tableViewCell;
-- (void)e:(id)arg1;
-- (void)ÉPHÊ;
-- (void)$;
-- (_Bool);
-- (void)ible scope bar to hidden scope bar on search presentation. This is a UIKit bug.;
-- (void)wÿÿ¯üÿýÿ°¬üÿ;
+- (void):(id)arg1 8@"UITraitCollection"16@"_UIViewControllerTransitionCoordinatorContextDescription"24B32B36;
+- (void);
+- (void)teBaseIsStartWithDocumentPoint:(id)arg1;
+- (void)erCbrtSpeed;
+- (void);
+- (void)dMoveToSuperview;
+- (_Bool)entClass;
+- (void)lidCaretPositionFromCharacterIndex:(id)arg1 downstream:(id)arg2;
+- (_Bool)esEvent;
+- (void)es;
+- (id)_scrollIfNecessary;
+- (void),N,V_buttonSettings;
+- (_Bool)eExtension;
+- (void)8×;
+- (void)¤;ä;;
+- (void);
+- (void);
+- (void)ificantTimeChangeNotification;
+- (void)e;
+- (void)UIView;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

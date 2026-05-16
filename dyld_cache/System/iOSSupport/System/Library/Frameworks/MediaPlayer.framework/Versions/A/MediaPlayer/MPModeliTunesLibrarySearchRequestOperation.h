@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _responseHandler;
 }
 
-- (id)ombstonePropagator";
-- (id)2@0:(Class)arg1 8@16@24d32@40@48@56@64;
-- (Class)8@16@24;
-- (Class)Type:(id)arg1;
-- (id)riEngagement:(id)arg1 pseDelta:pseContentsDictionary: /* Error: Ran out of types for this method. */;
-- (void)ta store;
-- (void);
-- (void);
-- (CDUnknownBlockType)u;
 - (id);
-- (id)ventDelivery;
-- (void)timed out;
+- (id);
+- (Class);
+- (Class);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)mID;
 
 // Remaining properties
 @property(copy, nonatomic) MPModelLibrarySearchRequest *request; // @synthesize request=_request;

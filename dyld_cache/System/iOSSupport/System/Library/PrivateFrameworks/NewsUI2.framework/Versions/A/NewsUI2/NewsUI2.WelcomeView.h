@@ -17,9 +17,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)6;
-- (void);
-- (id)_$observationRegistrar;
+- (id);
+- (id);
+- (void)pUÿ;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityElements;

@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (void)~¯;
+- (void);
+- (void)ted after setup failure. Ignoring.;
+- (long long)ßÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long preferredStatusBarStyle;

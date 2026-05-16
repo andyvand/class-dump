@@ -83,11 +83,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)/;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateToStartGridAnimation; // @synthesize dateToStartGridAnimation=_dateToStartGridAnimation;

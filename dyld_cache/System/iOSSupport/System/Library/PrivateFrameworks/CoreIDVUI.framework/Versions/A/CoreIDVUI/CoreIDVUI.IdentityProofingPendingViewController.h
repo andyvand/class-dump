@@ -15,9 +15,9 @@
     MISSING_TYPE *isRetryProvisioningFlow;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

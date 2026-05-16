@@ -20,29 +20,30 @@
 
 + (id);
 - (void);
-- (void)g;
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (double);
 - (void);
 - (void);
+- (_Bool);
 - (struct CGPoint);
-- (_Bool)@;
 - (struct CGPoint);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)@;
-- (void);
 - (id);
-- (id)\Æ;
-- (void)ÿøÈ6þÐ0;
-- (id)dvÿÜ%8©;
-- (id)ø7ö1;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)!0Dù1°1Â0@ù
+× ;
+- (void)QG_Ìc]Qo_AJGtGG¾®\GACGÅÀ\yWg]GG;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

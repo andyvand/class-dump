@@ -61,29 +61,28 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)!Eù1o	°1b0@ù
-× ;
-- (id);
+- (void);
+- (id)Ô ;
+- (id).;
 
 // Remaining properties
 @property(retain, nonatomic) FBKAnswer *answer; // @synthesize answer=_answer;

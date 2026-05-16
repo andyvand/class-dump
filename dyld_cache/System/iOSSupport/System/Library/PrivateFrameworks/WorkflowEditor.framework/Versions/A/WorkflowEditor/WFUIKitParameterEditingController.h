@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <WFUIKitParameterEditingControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)t = %d;
++ (Class);
 - (id);
-- (id)le) createWithManagedObject:(id)arg1 ];
+- (id)2;
 
 @end
 

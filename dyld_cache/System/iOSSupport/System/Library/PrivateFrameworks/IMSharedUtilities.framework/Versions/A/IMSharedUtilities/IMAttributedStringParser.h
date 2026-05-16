@@ -11,7 +11,7 @@
     IMAttributedStringParserContext *_context;
 }
 
-+ (id)dêÿ»RezÃ;
++ (id);
 - (void);
 - (void);
 

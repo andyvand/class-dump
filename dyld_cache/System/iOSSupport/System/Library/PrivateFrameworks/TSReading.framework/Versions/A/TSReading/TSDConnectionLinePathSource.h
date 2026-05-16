@@ -33,11 +33,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id)P;
+- (_Bool);
 - (int);
-- (void)410t2 3È34(,6 à7ä8;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long numberOfControlKnobs;

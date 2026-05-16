@@ -60,12 +60,12 @@
     MISSING_TYPE *dispatchAfterTickExitCallbacks;
 }
 
-+ (void)d not find file transfer for message GUID %@ transfer guid %@;
-- (void)ng reload;
-- (void)d reload of chats but has zero chats, forcing reload;
-- (void)peFromDataURL;
-- (void)Ľ;
-- (void)ÿþµÉîÈq;
++ (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)XÅq;
 
 @end
 

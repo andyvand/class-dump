@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void)x;
+- (void);
 - (void);
 - (void);
 

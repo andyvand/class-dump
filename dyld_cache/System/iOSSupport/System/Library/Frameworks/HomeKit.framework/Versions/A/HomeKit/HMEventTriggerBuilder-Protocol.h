@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMEvent, NSArray, NSPredicate;
+@class NSArray, NSPredicate;
 
 @protocol HMEventTriggerBuilder
-- (NSArray *);
-- (void)workInfoWithCompletion:(HMEvent *)arg1 ];
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *endEvents;

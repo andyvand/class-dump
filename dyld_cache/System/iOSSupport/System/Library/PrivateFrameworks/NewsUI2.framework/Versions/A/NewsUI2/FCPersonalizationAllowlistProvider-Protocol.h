@@ -7,7 +7,6 @@
 @class FCPersonalizationWhitelist;
 
 @protocol FCPersonalizationAllowlistProvider
-- (FCPersonalizationWhitelist *);
 
 // Remaining properties
 @property(readonly) FCPersonalizationWhitelist *allowlist;

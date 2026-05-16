@@ -12,6 +12,7 @@
     MISSING_TYPE *contextBuilder;
     MISSING_TYPE *recipeService;
     MISSING_TYPE *localRecipeManager;
+    MISSING_TYPE *recipeUserDataManager;
     MISSING_TYPE *cache;
 }
 

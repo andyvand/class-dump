@@ -25,19 +25,19 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (long long);
 - (void);
 - (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)ged;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BSServiceConnection *connection; // @synthesize connection=_connection;

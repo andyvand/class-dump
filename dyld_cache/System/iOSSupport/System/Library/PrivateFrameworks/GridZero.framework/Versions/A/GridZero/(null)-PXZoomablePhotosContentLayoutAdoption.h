@@ -28,9 +28,9 @@
 - (double);
 - (void);
 - (CDStruct_2bd92d94);
-- (void);
 - (double);
-- (long long)Ô ;
+- (void);
+- (long long);
 
 // Remaining properties
 @property(nonatomic) double accessoryAlpha;

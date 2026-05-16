@@ -33,22 +33,22 @@
 - (void);
 - (void);
 - (id);
-- (long long)tjes;
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
-- (id);
-- (id)ble>"16@"NSError"24;
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (long long);
 - (struct CGSize);
 - (long long);
 - (void);
 - (id);
-- (id)t";
-- (id)relativeDuration:(id)arg1 animations:(id)arg2;
 - (void);
+- (id)PresetsForCategory:(id)arg1 colorIndex:(id)arg2;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsStatusBarDiffInspector;
 }
 
+- (id);
 - (void);
+- (void)eRecognizer;
+- (void)nWillDeactivate:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (id)activeImage;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

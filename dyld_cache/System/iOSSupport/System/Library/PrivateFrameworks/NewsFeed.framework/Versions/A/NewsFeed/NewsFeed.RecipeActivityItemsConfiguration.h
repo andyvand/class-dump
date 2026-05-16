@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)ound:(id)arg1 %{public}s;
+- (id);
 
 @end
 

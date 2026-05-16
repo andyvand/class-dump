@@ -22,9 +22,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)rOfItems:(struct CGRect)arg1 options: /* Error: Ran out of types for this method. */;
-- (id)ûÿ;
+- (id)1Gð1â
+0@ù
+× ;
+- (void)ChapterTitleBaselineAndBottomWithoutChrome;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PXGHostingController *hostingController; // @synthesize hostingController=_hostingController;

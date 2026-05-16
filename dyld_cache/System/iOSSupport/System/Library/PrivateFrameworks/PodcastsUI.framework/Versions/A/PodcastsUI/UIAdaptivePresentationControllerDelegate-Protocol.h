@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController, UIViewController;
-
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void)not satisfying:(UIPresentationController *)arg1 %@;
-- (void)@;
-- (UIViewController *);
-- (void);
-- (void)(;
-- (_Bool)!;
+- (_Bool)èoDp;
+- (long long)Ðûÿÿ([þÿèÉíÿ¬V;
+- (void)eDidChange;
 @end
 

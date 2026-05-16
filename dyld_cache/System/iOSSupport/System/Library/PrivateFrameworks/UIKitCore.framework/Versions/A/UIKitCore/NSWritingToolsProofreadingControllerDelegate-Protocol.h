@@ -5,8 +5,5 @@
 //
 
 @protocol NSWritingToolsProofreadingControllerDelegate
-
-@optional
-- (_Bool);
 @end
 

@@ -17,20 +17,21 @@ __attribute__((visibility("hidden")))
     id <_UIMultiSelectOneFingerPanGestureDelegate> _oneFingerPanDelegate;
 }
 
-- (_Bool);
-- (void)eroImageForPersistentID: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)mating;
-- (id)hHandler;
-- (_Bool)`½;
-- (_Bool)retRectForPosition:while the NSTextStorage has oustanding changes %@ /* Error: Ran out of types for this method. */;
+- (_Bool)1_ð1Â0@ù
+× ;
 - (_Bool);
-- (_Bool)¸;
-- (id).;
+- (_Bool)_connectionActionProvider:(id)arg1;
+- (void)ction;
+- (_Bool)sToBounds;
+- (id)_menuPresentationDelegate;
+- (_Bool)"<UITextDragDelegate>",W,N;
+- (id)UIKeyboardLayoutJapanese50OnFlick;
+- (_Bool)ìì <;
+- (_Bool)entOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINY=%f, CONTENT_HEIGHT=%f, _parentAdjustment=%@, scrollView=%@;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIEvent *activeEvent; // @synthesize activeEvent=_activeEvent;

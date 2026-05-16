@@ -14,13 +14,13 @@
 + (_Bool);
 - (void);
 - (long long);
+- (id);
 - (void);
-- (id):(void *)arg1 %p; sourceLocale = %@; targetLocale = %@>;
 - (id);
-- (id)i;
-- (id);
+- (void);
 - (long long);
-- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long contentMode;

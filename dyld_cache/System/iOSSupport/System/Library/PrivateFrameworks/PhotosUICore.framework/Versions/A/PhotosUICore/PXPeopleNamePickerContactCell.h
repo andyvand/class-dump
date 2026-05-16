@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (id)Color:(long long)arg1;
+- (void)àÿÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraintsForHiddenSubtitle; // @synthesize constraintsForHiddenSubtitle=_constraintsForHiddenSubtitle;

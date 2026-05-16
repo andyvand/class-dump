@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void){CGSize=dd}}24{_NSRange=QQ}56@72B80Q84B92;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMFactory> DOMFactory; // @synthesize DOMFactory=_DOMFactory;

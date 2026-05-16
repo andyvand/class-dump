@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableString *string; // @synthesize string=_string;

@@ -15,14 +15,14 @@
     NSDictionary *_categories;
 }
 
-- (void);
+- (void);
 - (unsigned int);
+- (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 
 // Remaining properties

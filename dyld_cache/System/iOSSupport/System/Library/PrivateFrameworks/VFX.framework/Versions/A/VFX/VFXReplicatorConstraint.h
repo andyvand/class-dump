@@ -21,7 +21,7 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)>>16;
 - (void);
 - (void);
 - (void);
@@ -37,13 +37,13 @@
 - (CDStruct_183601bc);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

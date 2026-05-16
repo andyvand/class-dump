@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@@hFpFØF$J,QäS;
 
 // Remaining properties
 @property(readonly, nonatomic) HFMediaPlaybackActionBuilder *mediaActionBuilder; // @synthesize mediaActionBuilder=_mediaActionBuilder;

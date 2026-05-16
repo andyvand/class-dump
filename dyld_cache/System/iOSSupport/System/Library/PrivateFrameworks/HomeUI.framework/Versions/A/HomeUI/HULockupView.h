@@ -58,16 +58,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)omeHH2AutoMigration: /* Error: Ran out of types for this method. */;
-- (void)m:(id)arg1;
-- (id)òÿ;
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void)bileTimerObjects:(id)arg1;
+- (void)wareUpdateSharedUsersWarningTitle;
+- (id)8;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

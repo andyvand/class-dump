@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSDateInterval, NSMapTable, NSMutableSet, NSString, PXAssetReference, PXAssetsDataSource, PXAssetsDataSourceManager, PXGAnchor, PXGBurstStackEffect, PXGEdgeStretchEffect, PXGItemsLayout, PXGOneColumnLayout, PXGZoomLayout, PXMediaProvider, PXNumberAnimator, PXPhotosGridAssetDecorationSource, PXZoomableInlineHeadersLayout, PXZoomablePhotosLayoutSpec, PXZoomablePhotosViewModel;
+@class NSArray, NSCache, NSDateInterval, NSMapTable, NSMutableSet, NSString, PXAssetReference, PXAssetsDataSource, PXGAnchor, PXGBurstStackEffect, PXGEdgeStretchEffect, PXGItemsLayout, PXGOneColumnLayout, PXGZoomLayout, PXMediaProvider, PXNumberAnimator, PXPhotosGridAssetDecorationSource, PXZoomableInlineHeadersLayout, PXZoomablePhotosLayoutSpec, PXZoomablePhotosViewModel;
 @protocol PXDisplayAssetFetchResult, PXZoomablePhotosContentLayout;
 
 @interface PXZoomablePhotosLayout
@@ -19,7 +19,6 @@
     struct _PXGSpriteIndexRange _lightBackgroundSpriteIndexRange;
     unsigned int _backgroundMediaVersion;
     PXZoomableInlineHeadersLayout *_inlineHeadersLayout;
-    PXAssetsDataSourceManager *_dataSourceManager;
     PXAssetsDataSource *_currentDataSource;
     PXMediaProvider *_preheatMediaProvider;
     struct _NSRange _preheatedThumbsForItemsByColumnIndex[10];
@@ -196,10 +195,10 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long)øèy;
+- (unsigned long long);
 - (CDUnknownBlockType);
-- (id)[S4|;
-- (unsigned long long)|;
+- (id);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -216,16 +215,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (_Bool);
-- (void)eProgressDecoration;
-- (id)rOfColumns == 1;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)tsController;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType addContentHandler; // @synthesize addContentHandler=_addContentHandler;

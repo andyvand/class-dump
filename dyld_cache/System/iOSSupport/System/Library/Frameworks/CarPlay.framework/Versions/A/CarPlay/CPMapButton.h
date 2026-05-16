@@ -28,20 +28,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CPMapButtonDelegate> controlDelegate; // @synthesize controlDelegate=_controlDelegate;

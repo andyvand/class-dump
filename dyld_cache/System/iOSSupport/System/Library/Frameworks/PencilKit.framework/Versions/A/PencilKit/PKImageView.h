@@ -16,22 +16,22 @@
     UIImage *_mulImage;
 }
 
-- (void)om Cache-Control header for URL:(id)arg1 %@;
+- (void);
 - (void);
 - (id);
-- (void)Tm;
 - (void);
-- (void);
 - (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)E;
 - (void);
-- (id);
 - (id);
-- (id)16^@24;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)Ô;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *addImage; // @synthesize addImage=_addImage;

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)@;
-- (id)ì;
-- (id)kÿÊußj90;
+- (id);
+- (id)log results received;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;

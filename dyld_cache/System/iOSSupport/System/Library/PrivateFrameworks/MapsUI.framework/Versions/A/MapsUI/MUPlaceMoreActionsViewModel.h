@@ -23,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)UWebPlacecardBridge;
+- (void)_openPlaceArgument;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *externalActionMenuRevealButtons;

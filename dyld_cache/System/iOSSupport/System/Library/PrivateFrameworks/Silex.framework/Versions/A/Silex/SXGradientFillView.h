@@ -18,13 +18,12 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (id)is currently processing.
-No onboarding will be shown.;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CGRect)sk"16@"<SXDOMObjectProviding>"24;
+- (void)TangierTextLayout"24@"NSString"32@"SXTextView<TSDRepDirectLayerHosting>"40B48@"NSString"52;
+- (struct CGRect)tIdentifier=%@;
 
 // Remaining properties
 @property(readonly, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;

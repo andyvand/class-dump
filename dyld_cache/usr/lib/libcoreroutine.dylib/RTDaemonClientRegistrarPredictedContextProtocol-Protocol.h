@@ -5,6 +5,5 @@
 //
 
 @protocol RTDaemonClientRegistrarPredictedContextProtocol
-- (void)AOI, %{sensitive}@;
 @end
 

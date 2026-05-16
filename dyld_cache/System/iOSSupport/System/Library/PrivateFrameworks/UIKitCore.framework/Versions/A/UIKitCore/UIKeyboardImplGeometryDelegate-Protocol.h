@@ -5,10 +5,10 @@
 //
 
 @protocol UIKeyboardImplGeometryDelegate
-- (_Bool)omplete data is not allowed;
-- (_Bool);
 - (_Bool);
-- (_Bool)ableView;
+- (void)4;
+- (void)nse:(double)arg1 fromDataSource:(_Bool)arg2;
+- (_Bool)$;
 
 // Remaining properties
 @property(nonatomic, getter=isMinimized) _Bool minimized;

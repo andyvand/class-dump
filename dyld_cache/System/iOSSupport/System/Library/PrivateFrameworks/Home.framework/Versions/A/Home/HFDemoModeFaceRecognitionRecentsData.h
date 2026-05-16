@@ -17,10 +17,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
+- (void)dAuthorizationStatus;
+- (void)ectoryURL;
+- (void)ü;
 
 // Remaining properties
 @property(retain, nonatomic) HMFaceCrop *faceCrop; // @synthesize faceCrop=_faceCrop;

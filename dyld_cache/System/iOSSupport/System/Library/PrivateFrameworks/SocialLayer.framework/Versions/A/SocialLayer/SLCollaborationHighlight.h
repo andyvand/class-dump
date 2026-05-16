@@ -35,17 +35,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)r:requestedTypeIdentifier:requestedItemProviderIndex:responseHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *collaborationIdentifier; // @synthesize collaborationIdentifier=_collaborationIdentifier;

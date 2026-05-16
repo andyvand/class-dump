@@ -7,10 +7,8 @@
 @class NSArray, NSString;
 
 @protocol MPUniversalStoreIdentifiers
-- (NSString *);
+- (long long)Listening=%@;
 - (long long);
-- (long long)ng to load subscription asset [request aborted after %lds].;
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long adamID;

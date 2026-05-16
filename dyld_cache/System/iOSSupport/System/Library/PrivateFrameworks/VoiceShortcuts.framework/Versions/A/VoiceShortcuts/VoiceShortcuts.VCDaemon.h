@@ -25,7 +25,7 @@
     MISSING_TYPE *toolkitIndexingScheduler;
     MISSING_TYPE *toolkitCascadeSyncEngine;
     MISSING_TYPE *shortcutSpotlightCoordinator;
-    MISSING_TYPE *toolkitSpotlightCoordinator;
+    MISSING_TYPE *baseSpotlightToolCoordinator;
     MISSING_TYPE *daemonTaskScheduler;
 }
 

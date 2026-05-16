@@ -5,14 +5,13 @@
 //
 
 @protocol UICollectionViewTableSectionHeaderFooterAttributes
-- (void)thDidChangeForDataProvider:(struct UIEdgeInsets)arg1;
-- (void);
-- (void)ctions:(double)arg1;
-- (_Bool)yerImage;
-- (double)e that's the size of your window).;
-- (struct UIEdgeInsets)4¸I8;
-- (long long)Åï2)'4«;
-- (void)ã;
+- (double)CùQZ1Â0@ù
+× ;
+- (_Bool);
+- (void)ation:(_Bool)arg1;
+- (void)cleAnimationWithLayer:(double)arg1 animation:key: /* Error: Ran out of types for this method. */;
+- (_Bool)InterfaceOrientationUnknown;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) _Bool floating;

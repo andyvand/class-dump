@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *element;
 }
 
-- (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (double)NodeAtViewportLocation: /* Error: Ran out of types for this method. */;
-- (void)ht of zero                          for a %@'s content view. We're considering the collapse unintentional and using                          standard height instead.;
-- (void)lor10KeyPhoneInsideEdge;
-- (id)rAdaptiveLayoutTransition;
+- (struct CGRect)ht: /* Error: Ran out of types for this method. */;
+- (double)ownAudioFeedback: /* Error: Ran out of types for this method. */;
+- (void)kingEnabled;
+- (id)ViewCountView;
+- (void)øKl;
 
 // Remaining properties
 @property(nonatomic) double _cornerRadius;

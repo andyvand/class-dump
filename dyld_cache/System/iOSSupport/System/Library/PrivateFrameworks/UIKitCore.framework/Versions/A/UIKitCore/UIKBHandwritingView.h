@@ -31,21 +31,21 @@ __attribute__((visibility("hidden")))
     CDStruct_23d8ee2f _previousPoint;
 }
 
-- (void)WithChangeType:changedParticipants:sender:service:groupID:originalGroupID:guid:destinationCallerID:failed:fromMe: /* Error: Ran out of types for this method. */;
-- (void)ith:(id)arg1;
-- (void)ageCallback: /* Error: Ran out of types for this method. */;
-- (id)transferGuid: /* Error: Ran out of types for this method. */;
-- (void)tWithFromIdentifier:toIdentifier:displayName:participants:groupID: /* Error: Ran out of types for this method. */;
-- (_Bool)riptionCreatedOverride;
-- (void)Bytes:(id)arg1 hfsType:hfsCreator:hfsFlags:isIncoming: /* Error: Ran out of types for this method. */;
-- (void),V_subAction;
-- (void)ngFailure;
-- (void)PhoneNumber:(id)arg1 cellSize:serverConfigurationBag:phoneNumber:simID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ionKey;
-- (void)"NSString",C,N,V_encryptionKey;
-- (void):(_Bool)arg1;
-- (void)ontroller;
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,17 +53,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (void)dy monitoring.;
-- (id)%ld success %@;
-- (void)mming response for message %@ attachment index %lu ;
-- (void)pport text auto reply;
+- (void);
 - (id);
-- (void)ving on.;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (struct CGImage *);
-- (id);
 - (void);
 - (unsigned long long);
 - (id);
@@ -72,9 +72,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)awStatusText;
-- (void)"NSString",&,N,V_sender;
-- (struct CGColor *)T@"NSMutableDictionary",&,V_runningQueries;
+- (void);
+- (void);
+- (struct CGColor *);
 - (void);
 - (double);
 - (id);
@@ -82,25 +82,23 @@ __attribute__((visibility("hidden")))
 - (struct);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (void);
+- (void)tVariableObservationsCreateIfNecessary;
+- (void)PreCommitHandlersAfterCAFlush;
+- (void)r;
+- (void)ne",R,W,N,V_windowScene;
+- (_Bool)ized = YES;
 - (void);
-- (void)0@ù
-× ;
+- (void)tationEnvironmentToStateMachineMap;
+- (void);hÜ{®];
+- (_Bool)­Ö_;
+- (void)psþ¿$;
+- (void)¦þþ;
+- (void)°±êÿÔ ÊDg;
+- (id)ôßj;
+- (void)Tl;
 - (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)rdFromAutofillIncrement;
-- (void)ty:(id)arg1 originalPosition:(id)arg2;
-- (void)t mode key found - initializing new entry for source:(id)arg1 %lu actionType:%lu flagOptions%lu inputMode:"%@" /* Error: Ran out of types for this method. */;
-- (void)dinated writing for moving to new URL:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)pSg;
-- (id);
-- (_Bool)û;
-- (void)ÿD}ÛUHp;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *activeTouches; // @synthesize activeTouches=_activeTouches;

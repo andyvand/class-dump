@@ -7,6 +7,7 @@
 @class NSDictionary, NSShadow, PXExploreLayoutMetrics, PXStoryChromeButtonSpec, PXStoryDetailsViewButtonSpec, UIColor;
 
 @protocol PXStoryLayoutSpec
+- (UIColor *)pß´à;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor;

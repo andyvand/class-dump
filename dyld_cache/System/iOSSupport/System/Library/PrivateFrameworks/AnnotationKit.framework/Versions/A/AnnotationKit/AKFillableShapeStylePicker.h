@@ -19,8 +19,8 @@
 - (void);
 - (id);
 - (void);
-- (void)~;
-- (void)`;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool showFill; // @synthesize showFill=_showFill;

@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ShowMutedMicIcon];
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceOrientationStr; // @synthesize deviceOrientationStr=_deviceOrientationStr;

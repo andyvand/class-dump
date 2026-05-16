@@ -21,8 +21,8 @@
 }
 
 + (id);
-+ (_Bool)pertyForObservation;
-- (id)?;
++ (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -42,17 +42,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)g;
-- (id);
-- (id)ith unknown error:(struct _NSZone *)arg1;
-- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)¸ê;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

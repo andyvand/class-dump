@@ -31,10 +31,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)nCodeNameLabelSectionFooter;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

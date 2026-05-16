@@ -7,16 +7,18 @@
 @class UIColor;
 
 @protocol UISwipeActionVisualStyle
+- (unsigned long long);
+- (double)eAsyncViewsFromHierarchy;
+- (double)efaultConfigurationForStyle:state: /* Error: Ran out of types for this method. */;
+- (double)ViewDiffableDataSource",&,N,V_dataSource;
+- (unsigned long long)NSArray",R,N,V_extractedContentAbsolutePaths;
+- (double)existing content view must be replaced with a new content view created from the new configuration, instead of updating the existing content view directly, which is expensive. %@ Make a symbolic breakpoint at UIContentConfigurationAlertForReplacedContentView to catch this in the debugger.
+%@:(unsigned long long)arg1 %@;
+Existing content configuration:%@;
+New content configuration:%@ /* Error: Ran out of types for this method. */;
 - (double);
-- (double)iº;
-- (unsigned long long)Ë1¢!0@ù
-× ;
-- (double)stateContext;
-- (UIColor *)ntDispatchQueue;
-- (double)ar:,V_columnSeparatorsExtendToTitlebar /* Error: Ran out of types for this method. */;
-- (double)y",&,N,V_decorationViewFeed;
-- (UIColor *)elegate;
-- (double)@>;
+- (unsigned long long)rPickerViewController.m;
+- (double)%@;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *defaultButtonBackgroundColor;

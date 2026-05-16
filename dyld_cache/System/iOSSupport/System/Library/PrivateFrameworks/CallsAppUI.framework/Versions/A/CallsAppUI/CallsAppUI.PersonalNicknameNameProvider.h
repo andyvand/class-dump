@@ -11,12 +11,12 @@
     MISSING_TYPE *personalNickname;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_recommendationIds;
+- (id)þÿ;
+- (id);
 
 @end
 

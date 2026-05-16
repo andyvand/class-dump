@@ -14,15 +14,15 @@
 }
 
 + (double);
-- (void)cacheDidInvalidateObject;
-- (void)soon.;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)!;
 - (void);
-- (void);
-- (id)y:(struct CGRect)arg1 changedObjects:objectComparator: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)ayerChatController;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *loadingIndicator; // @synthesize loadingIndicator=_loadingIndicator;

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIVisualEffectView, _UITextFieldCanvasView;
+@class UIView, _UITextFieldCanvasView;
 
 @protocol _UITextFieldVisualStyleSubject
-- (long long);
-- (UIVisualEffectView *)TUConversationManager"16@"TUConversationMember"24@"TUConversationLink"32;
-- (long long)Necessary;
-- (_UITextFieldCanvasView *)É°1¢!0@ù
+- (_UITextFieldCanvasView *)
 × ;
-- (UIView *)ts;
-- (_Bool)R,&,N;
-- (_Bool)erContainer;
-- (_Bool)lInProgress:%d /* Error: Ran out of types for this method. */;
+- (UIView *)ePropertiesCG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_contentView;

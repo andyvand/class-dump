@@ -45,12 +45,12 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
+- (double);
 - (void);
-- (void)^{?}^{?}^{?}}20@0:(double)arg1 8I16;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool continuousCorners; // @synthesize continuousCorners=_continuousCorners;

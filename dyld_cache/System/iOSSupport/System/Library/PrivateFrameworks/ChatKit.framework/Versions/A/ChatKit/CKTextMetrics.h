@@ -11,9 +11,9 @@
     struct UIEdgeInsets _alignmentInset;
 }
 
-- (void)tions:(_Bool)arg1 beforeMergeTimestamp: /* Error: Ran out of types for this method. */;
-- (void)ociatedObjectTitle;
-- (id)iGG;
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (struct UIEdgeInsets);
 - (struct CGSize);

@@ -23,7 +23,7 @@
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool)htroom (Parameter Summary);
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alarmIDs; // @synthesize alarmIDs=_alarmIDs;

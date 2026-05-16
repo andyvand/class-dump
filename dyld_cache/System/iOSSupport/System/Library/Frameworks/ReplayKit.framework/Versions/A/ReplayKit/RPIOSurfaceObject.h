@@ -12,9 +12,9 @@
 + (_Bool);
 - (void);
 - (void);
+- (id);
 - (struct __IOSurface *);
 - (void);
-- (id);
 
 @end
 

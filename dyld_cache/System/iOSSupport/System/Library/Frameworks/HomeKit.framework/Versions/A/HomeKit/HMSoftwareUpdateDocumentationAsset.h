@@ -24,8 +24,8 @@
 
 + (id);
 + (id);
-+ (id)e;
-+ (_Bool)tActiveTypeUnknown;
++ (_Bool);
++ (id)r;
 - (_Bool);
 - (void);
 - (void);
@@ -44,33 +44,33 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
 - (id);
 - (void);
 - (long long);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)B,N,V_supportsHomeLevelLocationServiceSetting;
-- (void)data %@:(id)arg1 %@;
-- (id)public}@Failed to fill slot for camera source:%@ /* Error: Ran out of types for this method. */;
-- (id)ú;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSURL *URL;

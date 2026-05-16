@@ -20,22 +20,22 @@ __attribute__((visibility("hidden")))
     long long _spacerType;
 }
 
++ (long long);
 + (id);
-+ (long long)KEY;
-+ (id)ToBackgroundInsets"b1"hasCustomizedBackgroundColor"b1"hasCustomizedBackgroundColorTransformer"b1"hasCustomizedVisualEffect"b1"hasCustomizedVisualEffectGroupName"b1"hasCustomizedVisualEffectblurClippingMode"b1"hasCustomizedImage"b1"hasCustomizedImageContentMode"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1"hasCustomizedMaskedCorners"b1"hasCustomizedMaterial"b1};
-- (void);
-- (long long)Éð1¢!0@ù
++ (id)0@ù
 × ;
-- (void)d:(id)arg1;
-- (id)In;
-- (_Bool)¢éÖäb;
-- (id)hÍ¡ÿëHÒZ¯c;
-- (void) c;
-- (_Bool)>c;
-- (id)¸ÿþ;
-- (double)Ìc;
-- (id)e;
-- (void)bDÿßÐ;
+- (id);
+- (_Bool)ment;
+- (long long)TextField;
+- (id);
+- (double)berDot;
+- (_Bool)<;
+- (void)tart:(id)arg1 %f, end:%f, delta:%f) /* Error: Ran out of types for this method. */;
+- (id)riginatedFromRotationUserInfoKey;
+- (void)ime=%s;
+- (void)tExpandByFactorAndUnitVector(CGRect, CGFloat, CGVector);
+- (id)ror during replacement animation:(id)arg1;
+- (void)°e^;
 
 // Remaining properties
 @property(readonly, nonatomic) long long spacerType; // @synthesize spacerType=_spacerType;

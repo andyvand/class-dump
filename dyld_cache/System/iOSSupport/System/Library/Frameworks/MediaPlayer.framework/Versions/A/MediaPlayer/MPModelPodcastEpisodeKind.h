@@ -12,18 +12,18 @@
     unsigned long long _options;
 }
 
-+ (id):(unsigned long long)arg1;
-+ (id)ability;
-+ (_Bool)talystSystemDataSource]Failed to get default audio UID:%d /* Error: Ran out of types for this method. */;
-- (id);
++ (id);
++ (id);
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (unsigned long long)ationWithName:thoroughfare:city:state:country:postalCode:latitude:longitude:extractionContainer: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

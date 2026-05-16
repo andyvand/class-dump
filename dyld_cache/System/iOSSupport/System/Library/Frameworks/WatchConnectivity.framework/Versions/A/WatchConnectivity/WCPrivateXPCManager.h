@@ -26,17 +26,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (int);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void)L;
-- (void);
-- (id);
 - (void);
 
 // Remaining properties

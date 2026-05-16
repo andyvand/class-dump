@@ -26,11 +26,11 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ewDidAppear: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTCircularButton *button; // @synthesize button=_button;

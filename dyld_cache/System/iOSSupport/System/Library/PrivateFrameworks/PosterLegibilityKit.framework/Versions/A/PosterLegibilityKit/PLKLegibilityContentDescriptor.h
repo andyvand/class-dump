@@ -23,17 +23,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsGroupBlending; // @dynamic allowsGroupBlending;

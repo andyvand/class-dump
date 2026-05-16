@@ -26,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)llCommitMenuWithAnimator: /* Error: Ran out of types for this method. */;
-- (void)setIconAlpha:(id)arg1;
+- (void)onFooter_PersonalContent;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsCellSelection; // @synthesize allowsCellSelection=_allowsCellSelection;

@@ -18,24 +18,24 @@
 + (id);
 + (double);
 + (id);
-- (void)bject:(id)arg1 atIndex:(id)arg2;
-- (_Bool)eneratePreviewIfNeededForAttachment: /* Error: Ran out of types for this method. */;
-- (void)ue;
-- (void),&,N,V_nonMathNotesNotesInSource;
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (id)tivityStreamSelectionCSgt;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)�#;
-- (id)!;
-- (id)ager;
-- (id);
-- (void)AQGGtGG$\­G_­tGG]j­Ggd­GADy&­yA6_GA8_GGG¶­ySbGGtGGA19__G;
-- (id).;
+- (id);
+- (void);
+- (id);
+- (void)};
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

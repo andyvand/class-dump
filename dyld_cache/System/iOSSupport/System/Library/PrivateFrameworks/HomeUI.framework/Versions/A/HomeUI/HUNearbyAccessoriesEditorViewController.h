@@ -31,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ViewController;
 
 @end
 

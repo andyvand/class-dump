@@ -54,18 +54,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)Hot;
-- (void)¯ÿ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)l;
+- (void)iveLight;
+- (void);
 
 @end
 

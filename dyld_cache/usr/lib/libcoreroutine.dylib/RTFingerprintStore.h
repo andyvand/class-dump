@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void)angeDuration:(CDUnknownBlockType)arg1;
-- (id)ByteCount:(id)arg1;
+- (void);
+- (id)¸;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

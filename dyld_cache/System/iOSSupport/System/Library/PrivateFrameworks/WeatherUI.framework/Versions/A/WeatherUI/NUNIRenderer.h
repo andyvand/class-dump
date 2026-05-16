@@ -21,8 +21,8 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)number of hours until sunset;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;

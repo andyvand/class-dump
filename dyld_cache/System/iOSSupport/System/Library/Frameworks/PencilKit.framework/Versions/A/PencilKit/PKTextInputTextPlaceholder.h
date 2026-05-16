@@ -13,18 +13,18 @@
     NSArray *__rects;
 }
 
-+ (id)H;
 + (id);
-+ (id);
 + (id);
-- (_Bool);
++ (id);
++ (id);
+- (_Bool);
 - (void);
-- (void);
-- (id)ary/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Categories/NSEnumerator+RCAdditions.m;
-- (id);
 - (void);
 - (id);
-- (void)_replayCancelled;
+- (id);
+- (id);
+- (void);
+- (void)outConstraint",&,N,V__contentViewTrailingAnchor;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_rects; // @synthesize _rects=__rects;

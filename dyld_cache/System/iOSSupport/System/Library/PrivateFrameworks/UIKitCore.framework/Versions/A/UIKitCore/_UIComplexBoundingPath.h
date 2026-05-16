@@ -16,31 +16,33 @@ __attribute__((visibility("hidden")))
     _UIBoundingPathBitmap *_bitmap;
 }
 
-+ (_Bool)ì¤ÿ	_Ôcm;
++ (_Bool)ingToolsResultOptions;
 - (struct UIEdgeInsets);
 - (id);
 - (struct CGRect);
-- (void);
-- (struct CGRect);
-- (struct _UIIntegralRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct _UIIntegralRect)";
 - (id);
-- (struct CGRect);
-- (id);
-- (void)7;
 - (struct CGRect);
 - (id);
-- (void);
-- (_Bool)!0@ù
+- (id);
+- (id);
+- (id);
+- (struct CGRect)
 × ;
-- (_Bool)etions;
-- (id)V_modelessUsedAtLeastOnceCount;
-- (struct CGRect)ideBehaviour;
-- (_Bool)d not be called if the client adopts UIScene lifecycle as it will return unexpected results.;
-- (id)is not enabled, requesting a view for background effects is an error.;
-- (id)%@>;
+- (_Bool)Ña1Â0@ù
+× ;
+- (struct CGRect)ùñc°1Â0@ù
+× ;
+- (struct CGRect)toreOptions:(unsigned long long)arg1;
+- (void)rnerAdaptation:(id)arg1;
+- (_Bool)etry:(id)arg1;
+- (id)letion: /* Error: Ran out of types for this method. */;
+- (struct CGRect):(double)arg1;
+- (struct _UIIntegralRect)tributeNameIgnoreShiftRendering;
+- (_Bool)electionRangeAdjustmentContainerView;
+- (struct _UIIntegralRect)tcutIconTypeDate;
+- (void);
+- (struct CGRect)];
+- (void)`Íÿ;
 
 @end
 

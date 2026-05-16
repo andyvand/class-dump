@@ -11,10 +11,10 @@
     UIColor *_buttonColor;
 }
 
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
-- (_Bool)uage: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties

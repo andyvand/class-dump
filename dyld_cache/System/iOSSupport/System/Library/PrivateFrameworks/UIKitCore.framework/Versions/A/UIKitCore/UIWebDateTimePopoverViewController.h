@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id <UIWebFormControl> _innerWebDateTimeControl;
 }
 
-- (void)TI;
-- (id)tDateViewed:(id)arg1;
-- (id)Error %@;
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)pover;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIWebFormControl> _innerWebDateTimeControl; // @synthesize _innerWebDateTimeControl;

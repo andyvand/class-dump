@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)ùÿ;
+- (void)lue isKindOfClass:[HKUnit class]] /* Error: Ran out of types for this method. */;
+- (id)om;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *elements; // @synthesize elements=_elements;

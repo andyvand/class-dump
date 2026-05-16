@@ -26,13 +26,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)POSE_SYSDIAGNOSE_FOR_HOMEPOD;
+- (id);
+- (void)H;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

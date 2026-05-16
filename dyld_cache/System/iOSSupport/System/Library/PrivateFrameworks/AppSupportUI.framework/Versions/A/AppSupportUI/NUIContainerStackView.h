@@ -22,11 +22,10 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
-- (void)@
-;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -34,25 +33,25 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long)y;
-- (void);
-- (long long);
 - (void);
 - (void);
 - (long long);
-- (double)gAutolayout;
+- (id);
+- (long long);
+- (void);
+- (long long);
+- (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment;

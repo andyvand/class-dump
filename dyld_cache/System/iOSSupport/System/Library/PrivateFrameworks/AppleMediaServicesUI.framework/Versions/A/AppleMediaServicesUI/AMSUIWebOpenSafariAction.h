@@ -30,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)avigationBarModel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

@@ -22,7 +22,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (void);
@@ -36,21 +36,21 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)76@0:(id)arg1 8B16@20@28@36@44@52@60@68;
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)Backgrounded-upload;
-- (void);
-- (id);
+- (void)_MPModelPropertyPodcastEpisodeTitle__MAPPING_MISSING__;
+- (void)ïÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) MPPlayableContentManagerContext *context; // @synthesize context=_context;

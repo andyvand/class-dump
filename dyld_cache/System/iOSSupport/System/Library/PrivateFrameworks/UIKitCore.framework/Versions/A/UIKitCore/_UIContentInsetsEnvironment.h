@@ -17,28 +17,27 @@ __attribute__((visibility("hidden")))
 
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (struct NSDirectionalEdgeInsets);
-- (id)failed;
-- (struct NSDirectionalEdgeInsets);
-- (long long);
 - (void);
 - (void);
-- (_Bool);
-- (id)t",R,N,V_sectionedIdentifierList;
 - (id);
-- (struct NSDirectionalEdgeInsets)GÚ¹;
-- (id)ù
-× ;
-- (id)ration;
-- (void)eCurlInProgressAndUncommitted;
-- (void)ft;
-- (void)eractionWithTranslation:(long long)arg1 location: /* Error: Ran out of types for this method. */;
-- (id)stFocusedChildViewControllerIndex;
-- (struct NSDirectionalEdgeInsets)for %@, subrange {%lu, %lu}, hasn't been consumed before storing another. Should have been cleared when finishing;
+- (id);
 - (struct NSDirectionalEdgeInsets);
-- (void)to TypoTracker;
-- (struct NSDirectionalEdgeInsets)value (%ld);
-- (struct NSDirectionalEdgeInsets)2c;
+- (id);
+- (void);
+- (id);
+- (void);
+- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets);
+- (_Bool)etUpSearchBarSearchContainerIfNecessary;
+- (struct NSDirectionalEdgeInsets)SelectionDelegate: /* Error: Ran out of types for this method. */;
+- (struct NSDirectionalEdgeInsets)t:(long long)arg1;
+- (void)playModeButtonItem;
+- (struct NSDirectionalEdgeInsets)setAllowsTearOff:,V__allowsTearOff /* Error: Ran out of types for this method. */;
+- (id)FeedbackBehavior,S_setEdgeFeedbackBehavior:(struct _NSZone *)arg1;
+- (long long)sFromKeyboard;
+- (struct NSDirectionalEdgeInsets)by the specified environment (e.g. `[focusSystem requestFocusUpdateToEnvironment:environment]`), outlining each step of the process for determining the next focused item. /* Error: Ran out of types for this method. */;
+- (void)å];
+- (id)àQtÿÅÙÄ`;
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSDirectionalEdgeInsets effectiveInsets;

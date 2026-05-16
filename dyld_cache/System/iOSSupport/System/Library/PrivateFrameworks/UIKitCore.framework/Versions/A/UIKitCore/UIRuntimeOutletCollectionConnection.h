@@ -14,18 +14,17 @@
     _Bool addsContentToExistingCollection;
 }
 
-- (void)ransferGUIDForExistingTransferWithTemporaryGUID: /* Error: Ran out of types for this method. */;
-- (void)%;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)ay",C,N,V_payloadHostnames;
 - (id);
-- (void)an!DBùqÀ1¢!0@ù
-× ;
-- (id)e: /* Error: Ran out of types for this method. */;
-- (void)equestingURL;
+- (id);
+- (void)Insets;
+- (void)ØÿK;
+- (void);
 
 // Remaining properties
 @property _Bool addsContentToExistingCollection; // @synthesize addsContentToExistingCollection;

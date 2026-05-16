@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIClickInteraction;
-
 @protocol _UIClickInteractionDelegate_ForSpringBoardOnly
-- (void);
-- (unsigned long long):(_UIClickInteraction *)arg1;
 @end
 

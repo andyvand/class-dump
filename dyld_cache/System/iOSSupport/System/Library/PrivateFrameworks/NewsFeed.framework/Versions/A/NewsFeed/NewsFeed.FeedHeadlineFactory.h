@@ -14,6 +14,7 @@
     MISSING_TYPE *paidAccessChecker;
     MISSING_TYPE *sharedItemManager;
     MISSING_TYPE *headlineService;
+    MISSING_TYPE *appConfigManager;
 }
 
 @end

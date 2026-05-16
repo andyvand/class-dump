@@ -16,12 +16,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (id);
 - (void);
-- (void)ameterKeysForRemoteExecution;
-- (unsigned long long)ÿ:æ}º© /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)"NSURLResponse";
+- (void)"NSString",C,N,V_type;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic, getter=isSubscribed) _Bool subscribed; // @synthesize subscribed=_subscribed;

@@ -15,25 +15,25 @@
     double *__temp;
 }
 
-+ (id)ntEffects;
-+ (_Bool)lm;
++ (id)Unhiding: /* Error: Ran out of types for this method. */;
++ (_Bool):%@, from responder:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void)hXl[;
 - (void);
 - (double *);
-- (_Bool)dler:(id)arg1;
-- (id);
+- (void);
 - (double);
 - (id);
-- (void);
 - (id);
+- (_Bool);
 - (unsigned long long);
-- (void)åº;
-- (void);
-- (void)tAutomaticOrderInDirection:(double)arg1 duration: /* Error: Ran out of types for this method. */;
-- (_Bool)Appearance;
-- (id)entComplete;
+- (_Bool)s:(id)arg1;
+- (void)enterAmbiguousActivationMargin:(id)arg1;
+- (id)Speed:(unsigned long long)arg1 ,V__minimumSpeed;
+- (id)eViewSnapshotWindow;
+- (void)(mÿÿ;
+- (void)æ£îÿH~þÿ;
+- (void)UÊDù^;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

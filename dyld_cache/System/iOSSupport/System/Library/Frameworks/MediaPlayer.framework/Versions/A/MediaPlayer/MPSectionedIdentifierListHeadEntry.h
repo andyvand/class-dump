@@ -19,10 +19,10 @@ __attribute__((visibility("hidden")))
     id <MPSectionedIdentifierListDataSource> _dataSource;
 }
 
-+ (id)hments:(id)arg1;
-+ (_Bool)citSettingEnabled=%{BOOL}u [monitorForCurrentUser=nil];
++ (id);
++ (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)setBundleID:(long long)arg1;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (long long);
-- (id)!X!;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)lFileAsset__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;

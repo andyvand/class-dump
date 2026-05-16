@@ -4,15 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-@protocol CKTranscriptPluginView;
-
 @protocol CKTranscriptPluginViewReuseDelegate
-
-@optional
-- (void)orPlaceView;
-- (Class)dths;
-- (UIView<CKTranscriptPluginView> *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsReusablePluginViews;

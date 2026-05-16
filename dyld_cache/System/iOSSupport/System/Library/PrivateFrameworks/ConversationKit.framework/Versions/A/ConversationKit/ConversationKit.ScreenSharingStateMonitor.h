@@ -21,11 +21,11 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)d"ùÿØhþÿ;
+- (void)kerViewControllerProtocolP;
 
 // Remaining properties
 @property(nonatomic, retain) TUCall *call; // @synthesize call;

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)",C,N,V_informalStaticAssetID;
 
 // Remaining properties
 @property(nonatomic) __weak UIImageView *addRemoveButton; // @synthesize addRemoveButton=_addRemoveButton;

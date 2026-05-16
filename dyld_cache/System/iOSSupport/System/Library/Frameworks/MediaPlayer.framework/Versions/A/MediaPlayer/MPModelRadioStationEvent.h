@@ -12,21 +12,21 @@
 {
 }
 
-+ (long long)s:contentProtection: /* Error: Ran out of types for this method. */;
-+ (id)main: /* Error: Ran out of types for this method. */;
-+ (id)robabilityVectors;
-+ (id)Reason;
-+ (id)ediaPropertyType;
-+ (id)isStart;
-+ (void)ociatedMessageID;
-+ (void)g",R,N,V_summary;
-+ (void)String",R,N,V_suggestedPhotoPath;
-+ (void)et;
-+ (void)NSString",R,N,V_state;
-+ (void)T@"NSString",R,N,V_sourceBundleId;
++ (long long);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 + (id);
 - (id);
-- (id)96@204@212@220@228@236@244@252@260@268;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;

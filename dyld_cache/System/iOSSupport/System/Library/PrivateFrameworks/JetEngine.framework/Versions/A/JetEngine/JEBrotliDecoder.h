@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (void)ringShelves;
-- (struct BrotliDecoderStateStruct *);
+- (void);
 - (id);
+- (struct BrotliDecoderStateStruct *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct BrotliDecoderStateStruct *decoder; // @synthesize decoder=_decoder;

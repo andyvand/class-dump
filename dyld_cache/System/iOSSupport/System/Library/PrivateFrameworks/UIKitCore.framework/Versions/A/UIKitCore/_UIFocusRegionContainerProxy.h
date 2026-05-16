@@ -22,31 +22,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)olAuxiliary;
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)pportsEncryption: /* Error: Ran out of types for this method. */;
-- (void)ount:(id)arg1;
-- (id)orLocalMessage:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (struct CGRect)ckSwitch Recents request. Bailing!;
-- (_Bool)not compute message record name hash %@ from guid %@ and salt %@ as one or both are nil;
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (struct CGRect);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)tlyVisitingHierarchy;
-- (id)iderEndpoint;
-- (void)backs;
-- (_Bool);
-- (_Bool)rÖ_\;
-- (void)¾h];
+- (_Bool)Field:(id)arg1 editMenuForCharactersInRange:suggestedActions: /* Error: Ran out of types for this method. */;
+- (id)sForItemNearestPosition:maximumDistance: /* Error: Ran out of types for this method. */;
+- (void)ackgroundView;
+- (void)ÿ6õoþ;
+- (_Bool)í13l¯uþí13Ôt°þ;
+- (void)#5;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsLazyLoading; // @synthesize allowsLazyLoading=_allowsLazyLoading;

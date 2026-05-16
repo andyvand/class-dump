@@ -8,11 +8,11 @@
 {
 }
 
-+ (id)t, return default version:%@ /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 @end

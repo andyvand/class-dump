@@ -5,7 +5,5 @@
 //
 
 @protocol HFHomeKitSettingItemProviderProtocol
-- (_Bool)!`Cùñ	Ð1b0@ù
-× ;
 @end
 

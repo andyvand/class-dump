@@ -7,7 +7,6 @@
 @protocol TSSPropertySource;
 
 @protocol TSDPrototypeChange
-- (_Bool);
 
 // Remaining properties
 @property(readonly, retain) id <TSSPropertySource> propertiesAfterChange;

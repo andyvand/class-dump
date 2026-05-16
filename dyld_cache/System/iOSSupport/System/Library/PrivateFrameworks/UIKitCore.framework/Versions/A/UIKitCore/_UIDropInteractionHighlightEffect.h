@@ -25,16 +25,16 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (double);
 - (struct CGRect);
-- (void)ot exist at URL:%@ /* Error: Ran out of types for this method. */;
-- (double)@;
-- (id);
 - (void);
-- (void)× ;
+- (id);
 - (void);
-- (id)imated:completion: /* Error: Ran out of types for this method. */;
-- (void)Êÿ}	Øï/];
-- (id)<Ôÿ;
-- (void):(double)arg1 ^;
+- (void);
+- (id);
+- (void)nterfaceOrientation:(id)arg1 resultSize: /* Error: Ran out of types for this method. */;
+- (id);
+- (double)rientation;
+- (void);
+- (void)¹;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

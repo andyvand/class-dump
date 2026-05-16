@@ -72,22 +72,22 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (id);
-- (void)0@ù
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)
 × ;
 - (void);
-- (id);
+- (void)zedVisibleFrame;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAlbumSpec:) PUPhotosAlbumViewControllerSpec *_albumSpec; // @synthesize _albumSpec=__albumSpec;

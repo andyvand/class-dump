@@ -17,21 +17,21 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
+- (_Bool)¼³;
+- (void)ublic}@ to indexes:(id)arg1 %{public}@ in workflow:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id)particular object class from the input.;
-- (void)rl/parse?reminder=1&sentence=[[event]]&notes=[[notes]];
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;

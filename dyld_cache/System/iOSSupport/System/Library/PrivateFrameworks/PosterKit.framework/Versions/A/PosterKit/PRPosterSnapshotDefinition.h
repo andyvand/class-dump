@@ -36,16 +36,16 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (id);
+- (long long);
 - (unsigned long long);
+- (long long);
 - (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (void);
-- (long long);
-- (long long);
-- (id);
 - (_Bool);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long boundingShape; // @synthesize boundingShape=_boundingShape;

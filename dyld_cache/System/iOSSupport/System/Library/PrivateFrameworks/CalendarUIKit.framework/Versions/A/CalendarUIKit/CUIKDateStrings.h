@@ -14,11 +14,11 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id)I;
 + (id);
 + (id);
 + (id);
-+ (id)T;
++ (id);
++ (id);
 + (id);
 + (unsigned long long);
 + (id);
@@ -29,7 +29,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)?;
++ (id);
 + (id);
 + (id);
 + (id);

@@ -12,10 +12,10 @@
     MISSING_TYPE *countdownLabel;
 }
 
+- (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)7UIColorCSg;
 
 @end
 

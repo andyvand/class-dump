@@ -5,6 +5,6 @@
 //
 
 @protocol NFCopying
-- (id)YouFeedGroup;
+- (id)lFeedPrompt;
 @end
 

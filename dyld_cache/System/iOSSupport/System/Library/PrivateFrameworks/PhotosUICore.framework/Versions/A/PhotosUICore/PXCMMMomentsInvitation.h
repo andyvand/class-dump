@@ -26,7 +26,7 @@
 + (id);
 + (void);
 + (id);
-+ (id)¸ÿ_ý70$: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
 - (void);
@@ -46,16 +46,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)0@ù
-× ;
-- (id)ding;
-- (id)$à;
 - (id);
-- (unsigned long long)PXImageOrientation;
+- (id)Q16;
+- (id),R,C;
+- (unsigned long long)Error changing type for people:%@ to type:%ld with order:%ld error:%@ /* Error: Ran out of types for this method. */;
+- (id)) Failed to request live photo photo data:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long aggregateMediaType; // @dynamic aggregateMediaType;

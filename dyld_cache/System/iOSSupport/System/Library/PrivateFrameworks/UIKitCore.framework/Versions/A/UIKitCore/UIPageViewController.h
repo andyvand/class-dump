@@ -55,14 +55,13 @@
     id <UIPageViewControllerDelegate> _unsafeUnretainedDelegate;
 }
 
-+ (_Bool)ithOpaqueID:(long long)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)r:(long long)arg1;
-+ (id)ñÎÐ1¢!0@ù
-× ;
-+ (id)s={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}16;
-+ (_Bool)navigationControllerClassName;
-+ (_Bool)4ø;
-+ (_Bool);
++ (id);
++ (id);
++ (_Bool)wsFullScreen;
++ (_Bool)ngTraitCollectionsForTraitTracking: /* Error: Ran out of types for this method. */;
++ (_Bool)ngInterfaceAutorotation. Ignoring.;
++ (_Bool)card;
++ (id)ÿúÖ(j;
 
 @end
 

@@ -11,8 +11,8 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (_Bool);
-- (id)þÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeKeyWindow;

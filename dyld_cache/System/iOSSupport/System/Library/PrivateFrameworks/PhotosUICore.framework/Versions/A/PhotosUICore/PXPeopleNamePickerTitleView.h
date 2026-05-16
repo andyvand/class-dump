@@ -34,19 +34,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)1b0@ù
-× ;
 - (id);
-- (void)ePersonWithChangeRequest:(id)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
-- (id)¨¸
-;
-- (void)ceManager"16;
-- (id)<¤ÿÅCJïõ5;
+- (id);
+- (id);
+- (id);
+- (void)setShouldDownloadOrCloudReReferenceMissingResources:(id)arg1;
+- (_Bool)badgeSystemImageColors;
+- (void)nerDismissalDate;
+- (id)ÕÌéÿ;
+- (void)PXLemonadeYearsAndMonthsMode;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPeopleScalableAvatarView *avatarView; // @synthesize avatarView=_avatarView;

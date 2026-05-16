@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)gurationConnected:andNotify: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -26,7 +26,7 @@
     NSSet *_preconditionsIgnoredForServices;
 }
 
-+ (_Bool)IMSharedUtilities/RemoteIntentRequest.swift;
++ (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -43,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -59,13 +59,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (unsigned char);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned char)hÐÿ;
+- (void)0@ù
+× ;
+- (void)eturnType;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;

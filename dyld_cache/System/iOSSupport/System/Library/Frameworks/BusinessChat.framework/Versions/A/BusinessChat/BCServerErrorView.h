@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

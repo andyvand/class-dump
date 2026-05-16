@@ -4,17 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VFXWorld;
-@protocol VFXWorldRenderer;
-
 @protocol VFXWorldRendererDelegate
-
-@optional
-- (void)dex:(id <VFXWorldRenderer>)arg1 itemIdentifier:(VFXWorld *)arg2 typeIdentifier:(double)arg3 inPlace:error: /* Error: Ran out of types for this method. */;
-- (void)nload:(id <VFXWorldRenderer>)arg1 error:(double)arg2;
-- (void):(id <VFXWorldRenderer>)arg1 itemIdentifier:(double)arg2 typeIdentifier:inPlace:allowDownload:error: /* Error: Ran out of types for this method. */;
-- (void)leSystemRepresentation;
-- (void)ectory:(id <VFXWorldRenderer>)arg1;
-- (void)zationResult;
 @end
 

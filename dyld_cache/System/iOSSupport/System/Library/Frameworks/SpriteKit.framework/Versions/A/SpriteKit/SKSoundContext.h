@@ -17,13 +17,12 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void);
 - (void);
-- (double);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
-- (void)Q°1b0@ù
-× ;
+- (double)FczýËöÿ'8G÷;
 
 // Remaining properties
 @property(nonatomic) double gain;

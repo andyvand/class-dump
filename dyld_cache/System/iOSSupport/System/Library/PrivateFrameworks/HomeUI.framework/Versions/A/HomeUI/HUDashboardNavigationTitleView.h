@@ -14,11 +14,11 @@
 
 - (void);
 - (double);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)nlineModule: /* Error: Ran out of types for this method. */;
-- (void)ID;
+- (void)nWithContext: /* Error: Ran out of types for this method. */;
+- (void)bileTimerObjectTableViewController.m;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUDashboardNavigationTitleViewDelegate> delegate; // @synthesize delegate=_delegate;

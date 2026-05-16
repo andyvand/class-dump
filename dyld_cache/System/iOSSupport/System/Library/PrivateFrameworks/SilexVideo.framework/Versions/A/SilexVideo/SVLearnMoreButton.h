@@ -25,14 +25,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (struct CGSize);
-- (void);
-- (double);
 - (_Bool);
-- (void);
-- (void);
+- (struct CGSize);
+- (double);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 

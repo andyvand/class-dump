@@ -11,7 +11,8 @@
     MISSING_TYPE *enableSuggestions;
     MISSING_TYPE *placeholder;
     MISSING_TYPE *handler;
-    MISSING_TYPE *keyboardAnimation;
+    MISSING_TYPE *keyboardHandler;
+    MISSING_TYPE *editingStateAnimation;
     MISSING_TYPE *textFieldCornerRadius;
     MISSING_TYPE *$__lazy_storage_$_textFieldContainer;
     MISSING_TYPE *closePlaceholder;
@@ -24,11 +25,12 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 @end
 

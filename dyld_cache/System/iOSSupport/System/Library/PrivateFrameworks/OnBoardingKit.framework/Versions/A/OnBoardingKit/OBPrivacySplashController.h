@@ -37,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void)A;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +45,7 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,31 +57,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)meUnderTopFrameDomains WHERE subFrameDomainID = ? AND topFrameDomainID = ?;;
 - (void);
-- (void);
-- (id)KA;
-- (void);
 - (void);
 - (_Bool);
-- (void)0@ù
-× ;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;

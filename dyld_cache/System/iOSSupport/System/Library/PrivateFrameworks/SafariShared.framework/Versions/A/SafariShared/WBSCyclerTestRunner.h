@@ -23,15 +23,15 @@
 - (void);
 - (void);
 - (id);
-- (void)entContent";
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void)AIGAEyA__A_tGGA0_GAiUQo_;
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)¨È;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;

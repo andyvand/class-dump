@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (unsigned short);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned short assetID; // @synthesize assetID=_assetID;

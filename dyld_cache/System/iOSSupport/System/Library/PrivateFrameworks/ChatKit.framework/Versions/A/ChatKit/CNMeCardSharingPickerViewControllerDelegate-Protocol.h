@@ -5,10 +5,5 @@
 //
 
 @protocol CNMeCardSharingPickerViewControllerDelegate
-- (void);
-
-@optional
-- (void);
-- (void);
 @end
 

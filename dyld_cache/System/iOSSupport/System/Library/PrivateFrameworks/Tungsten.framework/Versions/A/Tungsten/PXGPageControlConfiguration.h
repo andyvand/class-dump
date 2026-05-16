@@ -18,17 +18,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
+- (long long);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
 - (SEL);
+- (void);
+- (void);
+- (long long)5(88 ;¤;<)>>,@8@B´BC;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

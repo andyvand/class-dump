@@ -22,35 +22,35 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)counts/Notification/IDSAccountNotificationPlugin.bundle/Contents/MacOS/IDSAccountNotificationPlugin;
-- (void)ST;
-- (void);
-- (void);
-- (struct _MSVSignedRange)eaconUUID:(CDStruct_339ad95e)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)Store: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)le.AppleMediaServices.eligibilityoverridechanged;
-- (id)ount"8Q16^B24;
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (struct _MSVSignedRange);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (id)e] - %{public}@:getUnverifiedSubscriptionLeaseSessionWithCompletion - Finished loading subscription lease session:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)fiers requested, processing locally.;
+- (void)yEnabled;
+- (void)ysLiveItem;
+- (void)ublic}@ %{public}@ %2i %{public}@ô SESSION END                %{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

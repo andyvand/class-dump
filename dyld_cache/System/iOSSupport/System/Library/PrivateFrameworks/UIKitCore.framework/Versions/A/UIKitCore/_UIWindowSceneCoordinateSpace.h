@@ -14,13 +14,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (struct CGPoint);
 - (struct CGPoint);
-- (void);
-- (struct CGRect)l:(struct CGRect)arg1;
-- (id)mation;
-- (struct CGRect)ying to delete restorable state:(struct CGRect)arg1 %@;
 - (id);
+- (struct CGRect)0@ù
+× ;
+- (struct CGRect)!lAùñb°1Â0@ù
+× ;
+- (id)nTintColor;
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

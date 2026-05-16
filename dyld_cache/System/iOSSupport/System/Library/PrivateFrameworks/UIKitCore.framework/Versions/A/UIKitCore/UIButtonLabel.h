@@ -17,25 +17,27 @@ __attribute__((visibility("hidden")))
     _Bool _fontIsDefaultForIdiom;
 }
 
-- (void);
-- (void);
-- (_Bool)rete.getState->itemsWithDistinctSignaturesForGetChunks;
-- (void);
-- (_Bool);
-- (void);
-- (id)EventsForBackgroundURLSession:(struct CGRect)arg1;
-- (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)0@ù
+- (_Bool);
+- (double)Ð1Â0@ù
 × ;
-- (double)!¬Eù±ÆÐ1¢!0@ù
+- (void)Á;
+- (struct CGSize)
 × ;
-- (struct CGSize);
-- (void)to property list, error = %@;
-- (void)Ê­b;
+- (void)!XDùqað1Â0@ù
+× ;
+- (_Bool);
+- (void)ffsetX;
+- (_Bool)3<¤ü
+ð;
+- (void);
+- (id)rigger a fallback transition. To get the best possible teansition, be sure to provide a view that's visible and in a window.;
+- (void);
+- (void)d~°ÿÎÛä¿i;
+- (void)(k;
+- (struct CGSize)Tim;
+- (void)ÜÄo;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _fontIsDefaultForIdiom; // @synthesize _fontIsDefaultForIdiom;

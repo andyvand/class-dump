@@ -20,18 +20,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (struct CGRect)b;
+- (struct CGPoint);
 - (void);
-- (struct CGPDFPageLayoutTable *)or;
-- (void)iewBottomConstraint;
+- (struct CGPDFPageLayoutTable *);
+- (id);
+- (struct CGRect);
 - (void);
-- (id)ationFactor: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)etalDrawable;
-- (struct CGPoint)0@ù
+- (void);
+- (void);
+- (void)Â0@ù
 × ;
-- (void)¸¼;
-- (id);
+- (id)y: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) PDFPage *page; // @synthesize page=_page;

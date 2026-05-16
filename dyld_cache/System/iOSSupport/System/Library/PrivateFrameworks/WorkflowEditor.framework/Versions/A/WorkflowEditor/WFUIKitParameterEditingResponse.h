@@ -11,12 +11,12 @@
     id <WFParameterState> _parameterState;
 }
 
-+ (_Bool)rkflowEditor27VariableTextEditorViewModel;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFParameterState> parameterState; // @synthesize parameterState=_parameterState;

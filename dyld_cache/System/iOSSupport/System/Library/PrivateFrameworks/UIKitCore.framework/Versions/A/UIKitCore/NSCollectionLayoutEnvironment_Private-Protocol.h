@@ -7,7 +7,8 @@
 @protocol _UIDataSourceSnapshotTranslating;
 
 @protocol NSCollectionLayoutEnvironment_Private
-- (long long)classes saved with restoration archive:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)!,DùÑdð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIDataSourceSnapshotTranslating> _dataSourceSnapshot;

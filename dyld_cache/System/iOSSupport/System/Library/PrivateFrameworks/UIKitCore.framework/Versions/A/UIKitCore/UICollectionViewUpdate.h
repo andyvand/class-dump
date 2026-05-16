@@ -35,44 +35,45 @@ __attribute__((visibility("hidden")))
     NSUUID *_identifier;
 }
 
-- (id);
-- (void)acheLimit:withDataPath:withDenyActivation:withDenyTetheredCaching:withListenRanges:withListenRangesOnly:withListenWithPeersAndParents:withLocalSubnetsOnly:withLogClientIdentity:withParents:withParentSelectionPolicy:withPeerFilterRanges:withPeerListenRanges:withPeerLocalSubnetsOnly:withPort:withPublicRanges: /* Error: Ran out of types for this method. */;
-- (id);
 - (_Bool);
-- (struct _NSRange)g.;
-- (id)celeratorRequestHeader (%{public}@:(id)arg1 %{public}@);
-- (id)(;
-- (long long);
-- (id)InterfaceOrientations:(id)arg1;
 - (void);
 - (id);
-- (long long)B-º;
-- (void)!üBùñÂ1¢!0@ù
-× ;
+- (long long);
+- (void);
+- (long long);
 - (id);
-- (long long)Ôxð!ÀAùÎ1¢!0@ù
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (struct _NSRange)
 × ;
-- (id)4@0:(id)arg1 8@"NSSet"16;
-- (long long)ntrolStyle;
-- (void)TISupplementalPhraseItem: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)Â0@ù
+× ;
+- (id)`1Â0@ù
+× ;
+- (long long)Ô ;
 - (_Bool);
-- (void)haracterRange;
-- (long long)ateTextContentStorage;
-- (struct _NSRange)sCount;
-- (void)owingModeEnabled;
-- (id)eWindows;
-- (id)dColorContext;
-- (void)´;
-- (_Bool))çÿ()çÿd)çÿ)çÿÄ)çÿ;
-- (id)invalidationLockingQueue;
-- (long long);
-- (void)4àý;
-- (_Bool);
-- (_Bool)Ô;
-- (id)ø=ÿ\RÈN/g;
-- (_Bool)4h;
-- (_Bool)ÿÔ?Óû®m;
-- (void)0Kÿ;
+- (void);
+- (id)utDirection:(id)arg1;
+- (_Bool)on:(id)arg1;
+- (void)ConstraintsForArrangedContentViews;
+- (_Bool)hotEventsForAsyncDelivery;
+- (void);
+- (id)ffsetAdjustment;
+- (id)SMutableArray",&,N,V_windows;
+- (_Bool)Proposal;
+- (id)ositional layout's section provider as is.;
+- (void)¿7G;
+- (long long);
+- (long long)è|.ÿÛh;;
+- (void)4&½ÿ;
+- (_Bool)<©BÿQj;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimated) _Bool animated;

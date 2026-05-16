@@ -33,13 +33,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)currentQueryId;
-- (id)Ó¤ÓdÔh×ð×xÙ;
-- (void)ÿ;
+- (void)mpositionTrackB:(_Bool)arg1;
+- (void)arentViewDelegate;
+- (id);
+- (void);
+- (void)°k;
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) NSPredicate *filterPredicate;

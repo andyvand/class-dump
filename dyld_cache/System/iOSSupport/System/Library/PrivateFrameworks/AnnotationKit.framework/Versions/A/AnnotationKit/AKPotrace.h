@@ -14,19 +14,19 @@
 + (struct CGPath *);
 - (int);
 - (int);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
+- (void);
 - (double);
 - (int);
 - (id);
-- (double);
-- (void)ܻ;
+- (double);
+- (void);
 - (void);
 - (struct CGPath *);
-- (void)oint=dd}{CGSize=dd}}32;
+- (void);
 
 // Remaining properties
 @property double alphamax;

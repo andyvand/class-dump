@@ -12,7 +12,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)oundQueue;
+- (_Bool);
 
 @end
 

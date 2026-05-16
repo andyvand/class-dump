@@ -18,7 +18,7 @@
     NSURL *_sourceDocumentURL;
 }
 
-+ (_Bool)X®Å×;
++ (_Bool)tring"16{_NSRange=QQ}24;
 - (void);
 - (id);
 - (_Bool);
@@ -43,185 +43,258 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)	
-H;
-- (_Bool)wProjectionMatrix,
-    OsdPatchParamBufferSet osdBuffers
-    )
+- (_Bool)f
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(256) VFX_RE_C_InstanceConstants_s
 {
-	OsdComputePerVertexGregory(vertexId, position.xyz, hullVertex, osdBuffers);
+    simd_float4x4 objectToCrWorld;
+    simd_float3x3 normalToCrWorld; 
+    float povcControl; 
+    float screenSpaceDepthBias;
+    uint userInstanceIndex;
+} VFX_RE_C_InstanceConstants;
 
-#if OSD_ENABLE_PATCH_CULL
-    float4 clipPos = mul(modelViewProjectionMatrix, position);    
-    short3 clip0 = short3(clipPos.x < clipPos.w,                    
-    clipPos.y < clipPos.w,                    
-    clipPos.z < clipPos.w);                   
-    short3 clip1 = short3(clipPos.x > -clipPos.w,                   
-    clipPos.y > -clipPos.w,                   
-    clipPos.z > -clipPos.w);                  
-    hullVertex.clipFlag = short3(clip0) + 2*short3(clip1);
-#endif
-    
-    OSD_USER_VARYING_PER_CONTROL_POINT(osdBuffers.vertexBuffer[vertexId], hullVertex);
-}
-
-//----------------------------------------------------------
-// Patches.Gregory.Factors
-//----------------------------------------------------------
-
-void OsdComputePerPatchFactors(
-	int3 patchParam,
-	float tessLevel,
-	unsigned patchID,
-	float4x4 projectionMatrix,
-	float4x4 modelViewMatrix,
-	OsdPatchParamBufferSet osdBuffer,
-	threadgroup PatchVertexType* patchVertices,
-	device MTLQuadTessellationFactorsHalf& quadFactors
-	)
+typedef struct VFX_RE_SHADERS_ALIGN_AS(32) VFX_RE_C_EntityConstants_s
 {
-    float4 tessLevelOuter = float4(0,0,0,0);
-    float2 tessLevelInner = float2(0,0);
+    uint lodDrawInfo;
 
-	OsdGetTessLevels(
- 		tessLevel, 
- 		projectionMatrix, 
- 		modelViewMatrix,
-		patchVertices[0].P, 
-		patchVertices[3].P, 
-		patchVertices[2].P, 
-		patchVertices[1].P,
-		patchParam, 
-		tessLevelOuter, 
-		tessLevelInner
-		);
+    
+    float fadeOpacity;
 
-    quadFactors.edgeTessellationFactor[0] = tessLevelOuter[0];
-    quadFactors.edgeTessellationFactor[1] = tessLevelOuter[1];
-    quadFactors.edgeTessellationFactor[2] = tessLevelOuter[2];
-    quadFactors.edgeTessellationFactor[3] = tessLevelOuter[3];
-    quadFactors.insideTessellationFactor[0] = tessLevelInner[0];
-    quadFactors.insideTessellationFactor[1] = tessLevelInner[1];
-}
+    
+    float tintFactor;
 
-//----------------------------------------------------------
-// Patches.Gregory.Vertex
-//----------------------------------------------------------
+    uint debugMode;
 
-void OsdComputePerPatchVertex(
-	int3 patchParam, 
-	unsigned ID, 
-	unsigned PrimitiveID, 
-	unsigned ControlID,
-	threadgroup PatchVertexType* patchVertices,
-	OsdPatchParamBufferSet osdBuffers
-	)
+    ClippingIndexSlice clippingIndexSlice;
+    uint samplerIndexCount;  
+    float sfFactor;
+    uint instanceCount;
+
+    float fakeFresnelOpacityBasedBoostFactor;   
+    uint8_t btTextureReadIndex;
+    uint8_t stencilReferenceValue;
+    bool receivesIBLShadow;
+    
+    float environmentLightingWeight;
+
+    simd_float4 portalPlane;
+    simd_float4 dfColor;
+    simd_float4 dfColorStraight;
+
+    uint64_t entityIdentifier;
+    uint64_t meshPartIdentifier;
+
+    bool btUIBreakthroughEnabled;
+    vfx_half btUIBreakthroughInfluence;
+
+    
+    
+    float meshShadowIntensity;
+
+    uint16_t lightGroupIdentifier;
+
+    float depthMitigationTransitionFactor;
+    float sceneUnderstandingTransitionFactor;
+    float visualDepthStaticOcclusionTransitionFactor;
+    vfx_half invPortalLightBlendDistance;
+
+    
+    
+    
+    
+    
+    
+    
+    bool automaticallyInstanced;
+
+    vfx_half visualDepthStaticOcclusionDepthBias;
+} VFX_RE_C_EntityConstants;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(256) VFX_RE_C_ViewConstants_s
 {
-	OsdComputePerPatchVertexGregory(
-		patchParam,
-		ID,
-		PrimitiveID,
-		patchVertices,
-		osdBuffers.perPatchVertexBuffer[ControlID],
-		osdBuffers);
-    
-    OSD_USER_VARYING_PER_VERTEX(patchVertices[ID], osdBuffers.perPatchVertexBuffer[ControlID]);
-}
+    simd_float4x4 crWorldToViewArray[kViewConstantsArraySize];
+    simd_float4x4 crWorldToPhysicalCameraArray[kViewConstantsArraySize];
+    simd_float4x4 crWorldToProjArray[kViewConstantsArraySize];
+    simd_float4x4 crWorldToHomographyArray[kViewConstantsArraySize];
+    simd_float4x4 viewToProjArray[kViewConstantsArraySize];
+    simd_float4x4 projToViewArray[kViewConstantsArraySize];
+    simd_float3 crwsCameraPositionArray[kViewConstantsArraySize]; 
+    simd_float4 vrrMapPhysicalSizeArray[kViewConstantsArraySize];
+    simd_float4 viewportPercentsArray[kViewConstantsArraySize];
 
-//----------------------------------------------------------
-// Patches.Gregory.Domain
-//----------------------------------------------------------
+    simd_float4 viewportPercents; 
+    simd_float4 renderTargetSize; 
 
-template<typename PerPatchVertexGregory>
-static OsdPatchVertex ds_gregory_patches(
-                     PerPatchVertexGregory patch,
-                     int3 patchParam,
-                     float2 UV
-                    )
+    simd_float4 vrrMapScreenSize;
+
+    simd_int4 renderTargetColorFormats;
+    simd_int2 renderTargetDepthStencilFormatSampleCount;
+
+    uint tonemapInPlace;
+    uint viewportCount;
+
+    uint useVertexAmplification;
+
+    float povcClipDistance; 
+    uint cameraEye;
+    simd_float3 additiveTintColor;
+
+    vfx_half vignettingFadeoutDistanceNormalization;
+    vfx_half vignettingTotalFadeoutDistance;
+    simd_float3 vignettingPivotPosition;
+
+    simd_float4 portalClipPlane; 
+} VFX_RE_C_ViewConstants;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(16) VFX_RE_C_GlobalConstants_s
 {
-    OsdPatchVertex output;
-    
-    float3 P = float3(0,0,0), dPu = float3(0,0,0), dPv = float3(0,0,0);
-    float3 N = float3(0,0,0), dNu = float3(0,0,0), dNv = float3(0,0,0);
-    
-    float3 cv[20];
-    cv[0] = patch[0].P;
-    cv[1] = patch[0].Ep;
-    cv[2] = patch[0].Em;
-    cv[3] = patch[0].Fp;
-    cv[4] = patch[0].Fm;
-    
-    cv[5] = patch[1].P;
-    cv[6] = patch[1].Ep;
-    cv[7] = patch[1].Em;
-    cv[8] = patch[1].Fp;
-    cv[9] = patch[1].Fm;
-    
-    cv[10] = patch[2].P;
-    cv[11] = patch[2].Ep;
-    cv[12] = patch[2].Em;
-    cv[13] = patch[2].Fp;
-    cv[14] = patch[2].Fm;
-    
-    cv[15] = patch[3].P;
-    cv[16] = patch[3].Ep;
-    cv[17] = patch[3].Em;
-    cv[18] = patch[3].Fp;
-    cv[19] = patch[3].Fm;
-    
-    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
-    
-    // all code below here is client code
-    output.position = P;
-    output.normal = N;
-    output.tangent = dPu;
-    output.bitangent = dPv;
-#if OSD_COMPUTE_NORMAL_DERIVATIVES
-    output.Nu = dNu;
-    output.Nv = dNv;
-#endif
+    simd_float3 crwsReferencePosition; 
+    float time;
+    uint frameCount;
+    simd_float4 dfColor; 
+    simd_float4 dfColorStraight; 
+} VFX_RE_C_GlobalConstants;
 
-    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
-    
-    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
-
-    return output;
-}
-
-#if USE_STAGE_IN
-template<typename PerPatchVertexGregoryBasis>
-#endif
-static OsdPatchVertex OsdComputePatch(
-	float tessLevel,
-	float2 domainCoord,
-	unsigned patchID,
-#if USE_STAGE_IN
-	PerPatchVertexGregoryBasis osdPatch
+#if VFX_IMPORT_RE_SHADERS_ENGINE_CONSTANTS
+typedef re::ClippingIndexSlice ClippingIndexSlice;
+typedef re::InstanceConstants InstanceConstants;
+typedef re::EntityConstants EntityConstants;
+typedef re::ViewConstants ViewConstants;
+typedef re::GlobalConstants GlobalConstants;
 #else
-    OsdVertexBufferSet osdBuffers
-#endif
-	)
-{
-	return ds_gregory_patches(
-#if USE_STAGE_IN
-		osdPatch.cv,
-		osdPatch.patchParam,
-#else
-        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
-        osdBuffers.patchParamBuffer[patchID],
-#endif
-		domainCoord);
-}
+typedef VFX_RE_C_ClippingIndexSlice ClippingIndexSlice;
+typedef VFX_RE_C_InstanceConstants InstanceConstants;
+typedef VFX_RE_C_EntityConstants EntityConstants;
+typedef VFX_RE_C_ViewConstants ViewConstants;
+typedef VFX_RE_C_GlobalConstants GlobalConstants;
+#endif 
 
-;
-- (void)simd_float4 shadowMapTile;
+#if VFX_IMPORT_RE_SHADERS_ENGINE_CONSTANTS && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ClippingIndexSlice) == sizeof(re::ClippingIndexSlice), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_InstanceConstants) == sizeof(re::InstanceConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_EntityConstants) == sizeof(re::EntityConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ViewConstants) == sizeof(re::ViewConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_GlobalConstants) == sizeof(re::GlobalConstants), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ClippingIndexSlice) == alignof(re::ClippingIndexSlice), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_InstanceConstants) == alignof(re::InstanceConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_EntityConstants) == alignof(re::EntityConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ViewConstants) == alignof(re::ViewConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_GlobalConstants) == alignof(re::GlobalConstants), "vfx_re_shaders:struct alignof mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING
+#   import "REShaders/SharedLighting.h"
+#endif 
+
+#define VFX_SUPPORTS_CASCADED_SHADOW_MAPS 0
+
+#if defined(__OBJC__) && !defined(__cplusplus)
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxLightCounts)
+{
+    kVFXMaxLightCount = 8,
+    kVFXMaxDirectionalLightCount = 8,
+    kVFXMaxDirectionalUnshadowedLightCount = 8,
+    kVFXMaxPointLightCount = 1,
+    kVFXMaxPointUnshadowedLightCount = 8,
+    kVFXMaxSpotLightCount = 8,
+    kVFXMaxSpotUnshadowedLightCount = 8,
+    kVFXMaxAmbientLightCount = 8,
+    kVFXMaxRectangleUnshadowedLightCount = 8,
+    kVFXMaxRealWorldProxyLightCount = 1,
+    kVFXMaxSpotFilteredLightCount = 8,
+    kVFXMaxSpotFilteredUnshadowedLightCount = 8,
+    kVFXMaxPointFilteredLightCount = 1,
+    kVFXMaxPointFilteredUnshadowedLightCount = 8,
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+    kVFXMaxCascadesPerLight = 3
+#else
+    kVFXMaxCascadesPerLight = 1
+#endif
+};
+#elif __METAL_VERSION__
+constant int kVFXMaxLightCount = 8;
+constant int kVFXMaxDirectionalLightCount = 8;
+constant int kVFXMaxDirectionalUnshadowedLightCount = 8;
+constant int kVFXMaxPointLightCount = 1;
+constant int kVFXMaxPointUnshadowedLightCount = 8;
+constant int kVFXMaxSpotLightCount = 8;
+constant int kVFXMaxSpotUnshadowedLightCount = 8;
+constant int kVFXMaxAmbientLightCount = 8;
+constant int kVFXMaxRectangleUnshadowedLightCount = 8;
+constant int kVFXMaxRealWorldProxyLightCount = 1;
+constant int kVFXMaxSpotFilteredLightCount = 8;
+constant int kVFXMaxSpotFilteredUnshadowedLightCount = 8;
+constant int kVFXMaxPointFilteredLightCount = 1;
+constant int kVFXMaxPointFilteredUnshadowedLightCount = 8;
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+constant int kVFXMaxCascadesPerLight = 3;
+#else
+constant int kVFXMaxCascadesPerLight = 1;
+#endif
+
+#else
+constexpr int kVFXMaxLightCount = 8;
+constexpr int kVFXMaxDirectionalLightCount = 8;
+constexpr int kVFXMaxDirectionalUnshadowedLightCount = 8;
+constexpr int kVFXMaxPointLightCount = 1;
+constexpr int kVFXMaxPointUnshadowedLightCount = 8;
+constexpr int kVFXMaxSpotLightCount = 8;
+constexpr int kVFXMaxSpotUnshadowedLightCount = 8;
+constexpr int kVFXMaxAmbientLightCount = 8;
+constexpr int kVFXMaxRectangleUnshadowedLightCount = 8;
+constexpr int kVFXMaxRealWorldProxyLightCount = 1;
+constexpr int kVFXMaxSpotFilteredLightCount = 8;
+constexpr int kVFXMaxSpotFilteredUnshadowedLightCount = 8;
+constexpr int kVFXMaxPointFilteredLightCount = 1;
+constexpr int kVFXMaxPointFilteredUnshadowedLightCount = 8;
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+constexpr int kVFXMaxCascadesPerLight = 3;
+#else
+constexpr int kVFXMaxCascadesPerLight = 1;
+#endif
+#endif 
+
+typedef struct
+{
+    int directionalUnshadowedLightsCount;
+    int directionalLightsCount;
+    int pointUnshadowedLightsCount;
+    int pointLightsCount;
+    int spotUnshadowedLightsCount;
+    int spotLightsCount;
+    int ambientLightsCount;
+    int rectangularLightsCount;
+    int realWorldProxyLightsCount;
+    int spotFilteredUnshadowedLightsCount;
+    int spotFilteredLightsCount;
+    int pointFilteredUnshadowedLightsCount;
+    int pointFilteredLightsCount;
+    int globalDirectionalLightCount;
+} VFX_RE_C_LightCounts;
+
+
+typedef struct
+{
+    simd_float3 intensity;
+    simd_float3 direction;
+    simd_float4x4 lightViewFromCrWorldMatrix;
+    simd_float4x4 lightProjFromViewMatrix;
+    
+    
+    simd_float4 shadowMapTile;
     float shadowBias;
     float texelSize;
 
@@ -1095,6 +1168,517 @@ struct re_vfx_object_constants {
 
 #endif 
  /* Error: Ran out of types for this method. */;
+- (id)TS, vfx_commonprofile.normalIntensity));
+#endif
+#else
+        _surface._normalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS.xyz );
+    }
+#else
+    _surface._normalTS = float3(0.f, 0.f, 1.f);
+#endif
+#if defined(USE_PBR) && !defined(USE_GBUFFER_OUTPUT)
+    {
+        _surface.rawRoughness = _surface.roughness;
+        float roughness = clamp(_surface.roughness, PBR_MIN_ROUGHNESS, 1.0);
+        float alpha = vfx_filteredAlphaFromRoughness(_surface.normal, roughness);
+        _surface.roughness = sqrt(alpha);
+    }
+#endif
+#if defined(USE_CLEARCOATNORMAL_MAP)
+    {
+        
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.geometryNormal);
+#ifdef USE_CLEARCOATNORMAL_MAP
+#if defined(USE_CLEARCOATNORMAL_TEXTURE_COMPONENT)
+        _surface._clearCoatNormalTS.xy = colorFromMask(u_clearCoatNormalTexture.sample(u_clearCoatnormalTextureSampler, _surface.clearCoatNormalTexcoord), USE_CLEARCOATNORMAL_TEXTURE_COMPONENT).rg * 2.f - 1.f;
+        _surface._clearCoatNormalTS.z = sqrt(1.f - saturate(length_squared(_surface._clearCoatNormalTS.xy)));
+#else
+        _surface._clearCoatNormalTS = u_clearCoatNormalTexture.sample(u_clearCoatNormalTextureSampler, _surface.clearCoatNormalTexcoord).rgb;
+        _surface._clearCoatNormalTS = _surface._clearCoatNormalTS * 2.f - 1.f;
+#endif
+#ifdef USE_CLEARCOATNORMAL_INTENSITY
+        _surface._clearCoatNormalTS = mix(float3(0.f, 0.f, 1.f), _surface._clearCoatNormalTS, vfx_commonprofile.clearCoatNormalIntensity);
+#endif
+#else
+        _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.clearCoatNormal.rgb = normalize(ts2vs * _surface._clearCoatNormalTS.xyz );
+    }
+#else
+    _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+    
+#ifdef USE_REFLECTIVE_MAP
+    float3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.f)*(refl.z+1.f));
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+#if defined(USE_REFLECTIVE_TEXTURE_COMPONENT)
+    _surface.reflective = colorFromMask(_surface.reflective, USE_REFLECTIVE_TEXTURE_COMPONENT).r;
+#endif
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= vfx_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    float3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, vfx::mat4_mult_float3(vfx_frame.viewToCubeTransform, refl)); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= vfx_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = vfx_commonprofile.reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = float4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = vfx_commonprofile.fresnel.x + vfx_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), vfx_commonprofile.fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = vfx_commonprofile.materialShininess;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+    
+    __DoSurfaceModifier__
+    
+#endif
+    
+    
+    
+    
+    
+    VFXShaderLightingContribution _lightingContribution(_surface, in);
+#ifdef USE_LIGHT_MODIFIER
+    __LightModifierCopyDecl__
+#endif
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = vfx_frame.ambientLightingColor.rgb;
+#endif
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+#ifdef USE_CLUSTERED_LIGHTING
+    uint3 clusterIndex;
+    clusterIndex.xy = uint2(in.fragmentPosition.xy * vfx_frame.clusterScale.xy); 
+    clusterIndex.z = in.position.z * vfx_frame.clusterScale.z + vfx_frame.clusterScale.w; 
+    
+    
+    ushort4 cluster_offset_count = u_clusterTexture.read(clusterIndex);
+    int lid = cluster_offset_count.x;
+#endif
+
+#ifdef USE_PBR
+    _lightingContribution.prepareForPBR(u_specularDFGDiffuseHammonTexture, vfx_commonprofile.selfIlluminationOcclusion);
+    
+    
+#ifdef USE_SELFILLUMINATION
+    _lightingContribution.add_irradiance_from_selfIllum();
+#else
+#ifdef USE_PROBES_LIGHTING 
+
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_irradiance_from_sh(vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, vfx_node.shCoefficients);
+#else
+    _lightingContribution.add_global_irradiance_from_sh(vfx_frame.viewToCubeTransform, vfx_node.shCoefficients);
+#endif 
+
+#else
+
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_irradiance_probe(u_irradianceTexture, vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#else
+    _lightingContribution.add_global_irradiance_probe(u_irradianceTexture, vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#endif 
+
+#endif 
+#endif
+
+    
+#ifdef CFX_USE_REFLECTION_PROBES
+    int probe_count = (cluster_offset_count.z & 0xff);
+    for (int i = 0 ; i < probe_count; ++i, ++lid) {
+        if ((vfx_node.categoryBitmask & vfx_lights[LightIndex(lid)].categoryBitmask) == 0) continue;
+        _lightingContribution.add_local_probe(vfx_lights[LightIndex(lid)], u_reflectionProbeTexture);
+    }
+#if PROBES_NORMALIZATION
+    float3 probesNormalization = 0;
+#if PROBES_OUTER_BLENDING
+    probesNormalization = _lightingContribution.probesWeightedSum.rgb / max(1.f, _lightingContribution.probesWeightedSum.a);
+#else
+    probesNormalization = _lightingContribution.probesWeightedSum.rgb / _lightingContribution.probesWeightedSum.a;
+#endif 
+#ifdef DISABLE_SPECULAR
+    _lightingContribution.pbr.envDiffuse += probesNormalization;
+#else
+    _lightingContribution.specular += probesNormalization;
+#endif
+
+    float globalFactor = saturate(1.f - _lightingContribution.probesWeightedSum.a);
+#else
+    float globalFactor = _lightingContribution.probeRadianceRemainingFactor;
+#endif 
+
+#ifndef DISABLE_SPECULAR
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_probe(vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, globalFactor * vfx_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#else
+    _lightingContribution.add_global_probe(vfx_frame.viewToCubeTransform, globalFactor * vfx_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#endif 
+#endif 
+    
+#else 
+
+#ifndef DISABLE_SPECULAR
+
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_probe(u_radianceTexture, vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#else
+   _lightingContribution.add_global_probe(u_radianceTexture, vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#endif 
+    
+#ifdef USE_CLEARCOAT
+    
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#else
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#endif 
+    
+#endif 
+
+    
+#endif 
+#endif 
+
+#endif 
+    #if DEBUG_PIXEL
+        switch (DEBUG_PIXEL) {
+            case 1:_output.color = float4(_surface.normal * 0.5f + 0.5f, 1.f); break;
+            case 2:_output.color = float4(_surface.geometryNormal * 0.5f + 0.5f, 1.f); break;
+            case 3:_output.color = float4(_surface.tangent * 0.5f + 0.5f, 1.f); break;
+            case 4:_output.color = float4(in.uv0, 0.f, 1.f); break;
+            case 5:_output.color = float4(_surface.diffuse.rgb, 1.f); break;
+            case 6:_output.color = float4(float3(_surface.roughness), 1.f); break;
+            case 7:_output.color = float4(float3(_surface.metalness), 1.f); break;
+            case 8:_output.color = float4(float3(_surface.ambientOcclusion), 1.f); break;
+                
+            #ifdef USE_BENTNORMALS
+                case 9:_output.color = float4(float3(_surface.bentNormal * 0.5f + 0.5f), 1.f); break;
+            #else
+                case 9:_output.color = float4(float3(_surface.normal * 0.5f + 0.5f), 1.f); break;
+            #endif
+            default:break;
+        }
+        return _output;
+    #endif
+    
+    __FragmentDoLighting__
+    
+    #ifdef USE_CLUSTERED_LIGHTING
+        
+        int omni_count = cluster_offset_count.y & 0xff;
+        for (int i = 0 ; i < omni_count; ++i, ++lid) {
+            if ((vfx_node.categoryBitmask & vfx_lights[LightIndex(lid)].categoryBitmask) == 0) continue;
+            _lightingContribution.add_local_omni(vfx_lights[LightIndex(lid)]);
+        }
+
+        
+        int spot_count = (cluster_offset_count.y >> 8);
+        for (int i = 0 ; i < spot_count; ++i, ++lid) {
+            if ((vfx_node.categoryBitmask & vfx_lights[LightIndex(lid)].categoryBitmask) == 0) continue;
+            _lightingContribution.add_local_spot(vfx_lights[LightIndex(lid)]);
+        }
+
+    #endif
+#else 
+        _lightingContribution.diffuse = in.diffuse;
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = in.specular;
+    #endif
+#endif 
+    #ifdef AVOID_OVERLIGHTING
+        _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = saturate(_lightingContribution.specular);
+    #endif 
+    #endif 
+#else 
+    _lightingContribution.diffuse = float3(0.);
+#endif 
+
+    
+    
+    
+    
+#ifndef USE_GBUFFER_OUTPUT
+#ifdef USE_PBR
+    { 
+        float3 diffuseAlbedo = mix(_lightingContribution.pbr.albedo, float3(0.0), _surface.metalness);
+        
+        
+#ifdef USE_PBR_TRANSPARENCY
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _lightingContribution.pbr.albedo;
+#else
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _surface.diffuse.rgb;
+#endif
+        
+        color += _lightingContribution.pbr.envDiffuse;
+        color += _lightingContribution.diffuse * diffuseAlbedo;
+#ifndef DISABLE_SPECULAR
+#ifndef DISABLE_SPECULAR_IBL
+        color += _lightingContribution.pbr.envSpecular;
+#endif
+        color += _lightingContribution.specular;
+#endif
+#ifdef USE_EMISSION
+        color += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+        color *= _surface.multiply.rgb;
+#endif
+#ifdef USE_MODULATE
+        color *= _lightingContribution.modulate;
+#endif
+#ifndef USE_GBUFFER_OUTPUT
+        _output.color.rgb = color;
+#endif
+    }
+#else 
+
+#ifdef USE_SHADOWONLY
+    _output.color.rgb = float3(0.0);
+    _output.color.a = 1. - _lightingContribution.shadowFactor;
+#else
+#ifdef USE_CONSTANT
+    _output.color.rgb = _surface.diffuse.rgb;
+    
+#ifdef USE_EMISSION
+    _output.color.rgb += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+    _output.color.rgb *= _surface.multiply.rgb;
+#endif
+    
+#else
+    _output.color.rgb = illuminate(_surface, _lightingContribution);
+#endif
+#endif 
+#endif 
+
+#ifndef USE_SHADOWONLY
+  #ifdef USE_PBR_TRANSPARENCY
+    _output.color.a = _lightingContribution.pbr.transparency;
+  #else
+    _output.color.a = _surface.diffuse.a;
+  #endif
+#endif
+
+#ifdef USE_FOG
+    applyFog(_output.color, length(_surface.position.xyz), vfx_frame.fogParameters, vfx_frame.fogColor);
+#endif
+
+#if !defined(DIFFUSE_PREMULTIPLIED) && !defined(USE_PBR_TRANSPARENCY)
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SHADOWONLY
+    float transparencyFactor = 1.0;
+  #ifdef USE_NODE_OPACITY
+    transparencyFactor *= in.nodeOpacity;
+  #endif
+    _output.color.a *= transparencyFactor; 
+
+#else 
+
+#ifdef USE_TRANSPARENT 
+    
+#ifndef USE_PBR_TRANSPARENCY
+  _output.color *= _surface.transparent.a;
+#endif
+
+#endif 
+    
+#ifdef USE_NODE_OPACITY
+    _output.color *= in.nodeOpacity;
+#endif
+    
+#endif 
+#endif 
+
+    
+    
+    
+    
+#ifdef USE_MODIFIER_FRAMEBUFFER
+    const VFXFramebuffer _framebuffer = {
+#if defined(CFX_SUPPORTS_PROGRAMMABLE_BLENDING) && defined(USE_MODIFIER_FRAMEBUFFER_COLOR0)
+        .color = framebufferColor0
+#else
+        .color = 0.f
+#endif
+    };
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+    
+    __DoFragmentModifier__
+    
+#endif
+#if defined(USE_CLUSTERED_LIGHTING) && defined(DEBUG_CLUSTER_TILE)
+    _output.color.rgb = mix(_output.color.rgb, float3(vfx::debugColorForCount(clusterIndex.z).xyz), 0.1f);
+    _output.color.rgb = mix(_output.color.rgb, float3(clusterIndex.x & 0x1 ^ clusterIndex.y & 0x1).xyz, 0.01f);
+#endif
+    
+#ifdef USE_ALPHA_CUTOFF
+    if (_output.color.a <= vfx_commonprofile.alphaCutoff)
+        discard_fragment();
+#endif
+
+#ifdef USE_POINT_RENDERING
+    if ((dfdx(pointCoord.x) < 0.5f) && (length_squared(pointCoord * 2.f - 1.f) > 1.f)) {
+        discard_fragment();
+    }
+#endif
+    
+    
+#ifdef USE_OUTLINE
+    _output.color.rgb = in.outlineHash;
+#endif
+    
+
+#if defined(USE_MOTIONBLUR) && !defined(USE_GBUFFER_OUTPUT)
+#ifdef USE_MULTIPLE_RENDERING
+    _output.motionblur.xy = half2((in.mv_fragment.xy - vfx_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * vfx_frame.motionBlurIntensity;
+#else
+    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * vfx_frame.motionBlurIntensity;
+#endif
+    _output.motionblur.z = length(_output.motionblur.xy);
+    _output.motionblur.w = half(-_surface.position.z);
+#endif
+
+#ifdef USE_NORMAL_ROUGHNESS_OUTPUT
+#ifdef USE_PBR
+    _output.normalRoughness = half4( half3(_surface.normal.xyz), half(_surface.rawRoughness) );
+#else
+    _output.normalRoughness = half4( half3(_surface.normal.xyz), 0.h );
+#endif
+#endif
+                                 
+#ifdef USE_ALBEDO_METALNESS_OUTPUT
+#ifdef USE_PBR
+    _output.albedoMetalnessOutput = half4( half3(_surface.diffuse.rgb), half(_surface.metalness) );
+#else 
+    _output.albedoMetalnessOutput = half4( 0.h );
+#endif
+#endif
+    
+#ifdef USE_RADIANCE_AO_OUTPUT
+#ifdef USE_PBR
+    _output.radianceAOOutput = half4(half3(_lightingContribution.pbr.envSpecular.rgb), half(_surface.ambientOcclusion));
+#else
+    _output.radianceAOOutput = half4(0.h, 0.h, 0.h, 0.h);
+#endif
+#endif
+    
+#ifdef USE_BARYCENTRIC_WIREFRAME
+#ifdef USE_BARYCENTRIC_COORD
+    const float3 d = 1.0f * fwidth(baryCoord);
+    const float3 s = smoothstep(d * 0.25f, d * 0.75, u_barycentricCoord);
+    _output.color = mix(float4(1.0), _output.color, min3(s.x, s.y, s.z));
+#endif
+#endif
+    
+#ifdef USE_GBUFFER_OUTPUT
+    float opacity = _surface.diffuse.a;
+#ifdef USE_NODE_OPACITY
+    opacity *= in.nodeOpacity;
+#endif
+    
+    float dither = vfx::interleaved_gradient_noise(in.fragmentPosition.xy);
+    dither = fract(dither + in.fragmentPosition.z * 1.61803398875);
+    dither = fract(dither + vfx_frame.frame * 1.61803398875);
+    if (opacity < dither) discard_fragment();
+    if (opacity < 0.01) discard_fragment();
+    
+    float3 emission = float3(0.);
+#ifdef USE_EMISSION
+    emission = _surface.emission.rgb;
+#endif
+    _output.albedo = float4(_surface.diffuse.rgb, opacity);
+    _output.normals = float4(_surface.normal.xyz, -_surface.position.z);
+    _output.roughmetal = float4(_surface.roughness, _surface.metalness, _surface.ambientOcclusion, 1.);
+    _output.color = float4(emission, 1.);
+    
+    float2 vfx_prevUv = (in.mv_lastFragment.xy / in.mv_lastFragment.z);
+    float2 vfx_uv = (in.mv_fragment.xy / in.mv_fragment.z);
+    _output.velocity.xy = (vfx_prevUv - vfx_uv) * float2(.5,-.5);
+    
+#ifdef USE_MOTIONBLUR
+    _output.velocity.z = length(_output.velocity.xy);
+    _output.velocity.w = -_surface.position.z;
+#endif
+    ushort clearcoatIR = packHalf2ToUShort(half2(_surface.clearCoat, _surface.clearCoatRoughness));
+    _output.clearCoat = half4(half3(_surface.clearCoatNormal), as_type<half>(clearcoatIR));
+    
+    _output.subsurface = half4(half3(_surface.subsurfaceRadius), half(_surface.subsurface));
+    
+    float transmissionColorLength = length(_surface.transmissionColor);
+    _surface.transmissionColor /= max(1e-4, transmissionColorLength);
+    ushort transmissionRG = packHalf2ToUShort(half2(_surface.transmissionColor.r, _surface.transmissionColor.g));
+    ushort transmissionBW = packHalf2ToUShort(half2(_surface.transmissionColor.b, _surface.transmission));
+    _output.transmission = ushort4(transmissionRG, transmissionBW,
+                                 as_type<ushort>(half(transmissionColorLength)), as_type<ushort>(half(vfx_commonprofile.indexOfRefraction)));
+#endif
+
+#ifdef USE_RE_SYSTEM_TREATMENTS
+
+#ifdef USE_MULTIPLE_RENDERING
+#ifdef USE_VERTEX_AMPLIFICATION
+    uint cameraIndex = amplificationID;
+#else
+    uint cameraIndex = in.sliceIndex;
+#endif
+#else
+    uint cameraIndex = 0;
+#endif 
+
+    uint sampleMask = 0;
+
+    vfx::api_v2::re_buffers buffers = vfx::api_v2::re_buffers {
+        .entityConstants      = u_re_entityConstants,
+        .viewConstants        = u_re_viewConstants,
+        .globalConstants      = u_re_globalConstants,
+        .objectConstants      = u_re_vfx_objectConstants,
+        .entityArgumentBuffer = u_re_vfx_entityArgumentBuffer,
+        .sceneArgumentBuffer  = u_re_vfx_sceneArgumentBuffer,
+#ifdef USE_RE_SYSTEM_TREATMENTS_TIER_1_AB
+        .probeTextures        = u_re_vfx_virtualEnvProbeTextures
+#endif
+    };
+
+    auto params = vfx::api_v2::make_system_treatment_parameters(in.crworldPosition, in.fragmentPosition, cameraIndex, in.screen_uv);
+    _output.color = float4(vfx::api_v2::apply_system_treatments(half4(_output.color), params, buffers, sampleMask));
+#endif 
+
+    return _output;
+}
+
+#pragma mark - Namespace End
+
+    
+ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, getter=isLoaded) _Bool loaded;

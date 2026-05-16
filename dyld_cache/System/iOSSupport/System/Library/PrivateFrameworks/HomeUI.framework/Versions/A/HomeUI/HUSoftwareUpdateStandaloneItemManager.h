@@ -55,9 +55,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)fyAddressAndSubmitTAF();
-- (void);
+- (id);
+- (void)rom transition context:%{public}s /* Error: Ran out of types for this method. */;
+- (void)h»ëÿXýi;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *autoUpdateItem; // @synthesize autoUpdateItem=_autoUpdateItem;

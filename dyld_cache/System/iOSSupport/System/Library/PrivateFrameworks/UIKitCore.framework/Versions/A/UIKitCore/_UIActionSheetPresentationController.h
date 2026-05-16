@@ -19,33 +19,33 @@
     _UIActionSheetCompactPresentationController *_compactPresentationController;
 }
 
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)
+× ;
+- (void)ñb°1Â0@ù
+× ;
+- (void)dDimension:(id)arg1;
+- (_Bool)vers;
+- (id)fersCollapsedAppearance;
+- (id)FUITargetDetectionController;
+- (id)ck environment:%@%@) /* Error: Ran out of types for this method. */;
+- (_Bool)mode must be normal here;
+- (long long)¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;
+- (id)¶^;
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void)õKº;
-- (void);
-- (void)
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (void)onDelegate:(id)arg1;
-- (_Bool)LayoutAttributesForInsertedDecorationElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
-- (id)didRevisionBubbleReplacementForText:(id)arg1 withText: /* Error: Ran out of types for this method. */;
-- (void)otationState;
-- (_Bool)t: /* Error: Ran out of types for this method. */;
-- (_Bool)T{UIEdgeInsets=dddd},N,S_setAdditionalSidebarSafeAreaInsets: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool)Ùt0`;
+- (_Bool)ôÛ=ÿ;
 
 // Remaining properties
 @property(nonatomic, setter=_setShouldUseCompactPresentationControllerWhenPresentedInSheet:) _Bool _shouldUseCompactPresentationControllerWhenPresentedInSheet; // @synthesize _shouldUseCompactPresentationControllerWhenPresentedInSheet=__shouldUseCompactPresentationControllerWhenPresentedInSheet;

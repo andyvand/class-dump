@@ -18,21 +18,21 @@
 - (void);
 - (void);
 - (id);
-- (id)irLock",&,N,V_taskLock;
-- (id)d request for configuration:(id)arg1 %@ with UUID:(id)arg2 %@, URL:%@ /* Error: Ran out of types for this method. */;
-- (id)Will cancel all tasks on background URLSession:(id)arg1 %{public}@;
-- (struct CGPoint)edConfigurationData;
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)belCenterYConstraint;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

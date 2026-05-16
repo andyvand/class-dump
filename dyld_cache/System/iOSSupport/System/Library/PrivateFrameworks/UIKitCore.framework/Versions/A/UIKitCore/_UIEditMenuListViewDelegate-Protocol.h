@@ -5,6 +5,5 @@
 //
 
 @protocol _UIEditMenuListViewDelegate
-- (void);
 @end
 

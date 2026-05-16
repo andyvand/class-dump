@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)lic}@;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *addToSiriBundleIdentifier; // @synthesize addToSiriBundleIdentifier=_addToSiriBundleIdentifier;

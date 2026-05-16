@@ -17,25 +17,24 @@
     UITableViewCell *_tableCell;
 }
 
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void)#;
-- (void)D;
-- (id);
-- (void);
+- (_Bool)ransform:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (id)oveAllNonVisibleTiles;
+- (void)le;
+- (id)B,R,N,GisScrollAnimating;
+- (void)&,N,G_magnifierLineColor,S_setMagnifierLineColor:(id)arg1;
+- (void)`A;
+- (id)d;
 - (void);
-- (void)ù±ÉÐ1¢!0@ù
-× ;
-- (void)ockItemButton";
-- (void)ition;
-- (void)onSelectionTrackingController;
-- (id)eyboardCenterBeginUserInfoKey;
-- (void)urationIndicator;
-- (id)Òo¡^;
-- (void)ÖÓÿ2;
+- (void)or;
+- (void)ationShortcutIconTypeMail;
+- (void)UIAnyModifierComponent;
+- (void)ÿïÉ^;
+- (void)hÍ§ÿÈº;
 
 // Remaining properties
 @property(nonatomic) __weak UITableViewCell *tableCell; // @synthesize tableCell=_tableCell;

@@ -8,7 +8,7 @@
 {
 }
 
-- (id)EngagedSize:(id)arg1;
+- (id);
 
 @end
 

@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)URLString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

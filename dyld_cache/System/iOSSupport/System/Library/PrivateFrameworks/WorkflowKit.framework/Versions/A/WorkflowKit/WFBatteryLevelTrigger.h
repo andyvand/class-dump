@@ -13,13 +13,13 @@
 }
 
 + (id);
-+ (_Bool)7¶Ì;
++ (_Bool);
 + (id);
-+ (id)§É;
++ (id);
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool)When turning Personal Hotspot on, this action will make the hotspot discoverable for only a short period of time, in order to preserve battery life.;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long level; // @synthesize level=_level;

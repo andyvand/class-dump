@@ -13,8 +13,8 @@
     MISSING_TYPE *subscribers;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

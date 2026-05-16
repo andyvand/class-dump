@@ -16,6 +16,7 @@
     MISSING_TYPE *headlineService;
     MISSING_TYPE *recipeService;
     MISSING_TYPE *recipeAutofavoritesProvider;
+    MISSING_TYPE *recipeHistory;
 }
 
 @end

@@ -5,9 +5,5 @@
 //
 
 @protocol QLPreviewControllerDelegate
-
-@optional
-- (_Bool);
-- (void);
 @end
 

@@ -12,13 +12,13 @@
 
 + (id);
 + (id);
-+ (id);;
++ (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void)stination %@  on service:(id)arg1 %@ respectExpiry:%@   from listenerID:%@ /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;

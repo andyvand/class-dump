@@ -28,8 +28,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)inID = ?);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);

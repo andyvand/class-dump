@@ -370,7 +370,7 @@ struct unique_ptr<std::vector<PKCompressedStrokePoint>, std::default_delete<std:
 };
 
 struct unordered_map<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>> {
-    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::__unordered_map_hasher<(anonymous namespace)::PKMetalKernelKey, std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalKernelKey, std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>> {
+    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::__unordered_map_hasher<(anonymous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*> {
@@ -383,7 +383,7 @@ struct unordered_map<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipel
 };
 
 struct unordered_map<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, std::allocator<std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>> {
-    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::__unordered_map_hasher<(anonymous namespace)::PKMetalShaderKey, std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalShaderKey, std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>> {
+    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::__unordered_map_hasher<(anonymous namespace)::PKMetalShaderKey, std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalShaderKey, std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*> {
@@ -396,7 +396,7 @@ struct unordered_map<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *, (
 };
 
 struct unordered_map<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>, std::allocator<std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>> {
-    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, std::__unordered_map_hasher<(anonymous namespace)::PKSixChannelShaderKey, std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKSixChannelShaderKey, std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>> {
+    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, std::__unordered_map_hasher<(anonymous namespace)::PKSixChannelShaderKey, std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKSixChannelShaderKey, std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*> {
@@ -409,7 +409,7 @@ struct unordered_map<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader
 };
 
 struct unordered_map<PKNamedShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKNamedShaderKey>, std::allocator<std::pair<const PKNamedShaderKey, PKMetalShader *>>> {
-    struct __hash_table<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, std::__unordered_map_hasher<PKNamedShaderKey, std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKNamedShaderKey>>, std::__unordered_map_equal<PKNamedShaderKey, std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, std::equal_to<PKNamedShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>>> {
+    struct __hash_table<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, std::__unordered_map_hasher<PKNamedShaderKey, std::pair<const PKNamedShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKNamedShaderKey>>, std::__unordered_map_equal<PKNamedShaderKey, std::pair<const PKNamedShaderKey, PKMetalShader *>, std::equal_to<PKNamedShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const PKNamedShaderKey, PKMetalShader *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*> {
@@ -422,7 +422,7 @@ struct unordered_map<PKNamedShaderKey, PKMetalShader *, (anonymous namespace)::P
 };
 
 struct unordered_map<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>, std::allocator<std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>> {
-    struct __hash_table<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::__unordered_map_hasher<PKShaderPipelineConfig, std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>>, std::__unordered_map_equal<PKShaderPipelineConfig, std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::equal_to<PKShaderPipelineConfig>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>> {
+    struct __hash_table<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::__unordered_map_hasher<PKShaderPipelineConfig, std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>>, std::__unordered_map_equal<PKShaderPipelineConfig, std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::equal_to<PKShaderPipelineConfig>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*> {
@@ -595,11 +595,6 @@ typedef struct {
 } CDStruct_14f26992;
 
 typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-} CDStruct_4bcfbbae;
-
-typedef struct {
     unsigned long long __size_;
 } CDStruct_a7186859;
 
@@ -654,11 +649,6 @@ typedef struct {
 typedef struct {
     CDStruct_183601bc *__cap_;
 } CDStruct_669ce3ce;
-
-typedef struct {
-    CDStruct_14f26992 _field1;
-    CDStruct_14f26992 _field2;
-} CDStruct_4c83c94d;
 
 typedef struct {
     union {

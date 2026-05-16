@@ -13,12 +13,11 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)/Ð1b0@ù
-× ;
+- (id);
+- (void)ItemProvider;
+- (void)ultApplicationAverageRating;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color;

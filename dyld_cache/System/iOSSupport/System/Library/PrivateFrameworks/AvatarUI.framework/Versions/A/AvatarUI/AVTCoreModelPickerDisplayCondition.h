@@ -11,10 +11,10 @@
 }
 
 + (id);
-+ (unsigned long long)H;
++ (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long)tUI.Table.FixedColumnSizeH;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long targetSectionIndex; // @synthesize targetSectionIndex=_targetSectionIndex;

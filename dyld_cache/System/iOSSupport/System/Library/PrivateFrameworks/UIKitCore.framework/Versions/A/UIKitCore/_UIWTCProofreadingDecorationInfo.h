@@ -17,16 +17,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)r sms spam, filter is off;
++ (id);
 - (id);
 - (void);
-- (void);
-- (id)onSize: /* Error: Ran out of types for this method. */;
-- (id)legate;
-- (id)View;
-- (long long);
-- (id)4_jþ;
-- (id)Ò4[;
+- (id);
+- (long long)1Â0@ù
+× ;
+- (id)Element;
+- (id)_format(struct ui_archive *);
+- (id)ection %ld;
+- (void)o;
+- (id)°ô²þ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *containers; // @synthesize containers=_containers;

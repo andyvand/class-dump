@@ -36,11 +36,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void)dler;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

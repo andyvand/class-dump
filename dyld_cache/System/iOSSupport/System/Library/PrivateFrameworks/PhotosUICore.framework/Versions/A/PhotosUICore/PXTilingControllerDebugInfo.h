@@ -36,10 +36,10 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
 - (struct CGRect);
+- (void)onCustomizationTitlePlaceholder;
+- (id);
 - (void);
-- (id)7Sessionk;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activeItems; // @synthesize activeItems=_activeItems;

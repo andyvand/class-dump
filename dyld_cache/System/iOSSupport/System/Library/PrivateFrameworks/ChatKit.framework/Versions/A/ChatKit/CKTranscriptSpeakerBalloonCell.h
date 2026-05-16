@@ -18,25 +18,25 @@
     CKSpeakerButton *_speakerButton;
 }
 
-- (_Bool)ncludeNotes:includeWebsites: /* Error: Ran out of types for this method. */;
-- (_Bool)latformImage: /* Error: Ran out of types for this method. */;
-- (id)nMarkdown:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)nge:(_Bool)arg1;
-- (void)ngeInLength:(_Bool)arg1;
-- (void)teOptions:(_Bool)arg1 usingBlock: /* Error: Ran out of types for this method. */;
-- (void)StorageDocument;
-- (void)TextStorage:(id)arg1;
-- (void)idEndScrub;
-- (void)temAppearance:(double)arg1;
-- (void);
-- (void);
-- (_Bool)lazy_storage_$_didUpdateSystemPaperNotesImmediately;
-- (_Bool)ionAffordanceUsages;
-- (_Bool)nversion.swift;
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)ô;
+- (void)NSString"16@?0@"NSString"8;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustSpeakerForAcknowledgment; // @synthesize adjustSpeakerForAcknowledgment=_adjustSpeakerForAcknowledgment;

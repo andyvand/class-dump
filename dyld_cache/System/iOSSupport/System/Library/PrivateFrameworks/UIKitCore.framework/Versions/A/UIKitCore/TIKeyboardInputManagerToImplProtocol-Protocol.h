@@ -5,8 +5,6 @@
 //
 
 @protocol TIKeyboardInputManagerToImplProtocol
-- (void)undColor;
-- (void);
-- (void)ectCompletionContext;
+- (void)<¸;
 @end
 

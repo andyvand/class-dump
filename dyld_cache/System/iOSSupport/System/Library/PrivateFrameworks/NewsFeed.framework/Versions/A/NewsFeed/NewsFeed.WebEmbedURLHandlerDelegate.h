@@ -16,8 +16,8 @@
 
 - (void);
 - (void);
-- (void)entialForUrl:userAgent:withPersistence: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

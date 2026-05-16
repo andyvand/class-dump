@@ -13,7 +13,7 @@
     MISSING_TYPE *imageView;
 }
 
-- (void);
+- (void);
 
 @end
 

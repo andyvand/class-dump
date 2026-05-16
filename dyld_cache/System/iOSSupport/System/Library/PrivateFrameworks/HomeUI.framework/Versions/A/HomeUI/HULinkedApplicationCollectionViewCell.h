@@ -24,12 +24,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
-- (id)Á%ð!,Eù/1b0@ù
+- (void);
+- (id);
+- (struct CGSize)!4Aùð1â
+0@ù
 × ;
+- (void)dTurnOn:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *bottomSeparatorView; // @synthesize bottomSeparatorView=_bottomSeparatorView;

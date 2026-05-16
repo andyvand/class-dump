@@ -18,47 +18,46 @@
 }
 
 - (_Bool);
-- (_Bool)tCard;
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)sMainThreadBound,V_mainThreadBound;
-- (void)backQueueCommand;
-- (void)m:%{public}@ inSection:%{public}@ | moving [user moved] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (_Bool)
-× ;
-- (void)ñÈð1¢!0@ù
-× ;
-- (void);
-- (id)× ;
 - (_Bool);
-- (_Bool)troller"16B24;
-- (void)postDoubleHeightStatusString:forStyle: /* Error: Ran out of types for this method. */;
-- (void)thLocalAccess:(id)arg1;
-- (void)edRegionRectForButton: /* Error: Ran out of types for this method. */;
-- (id)ingScrollIndicators: /* Error: Ran out of types for this method. */;
-- (_Bool)rackedElementFor:(id)arg1 with:(id)arg2;
-- (double)	
-H;
-- (_Bool){public}@;
-- (id);
-- (_Bool)no items;
-- (void)expandIntermediateSpring;
-- (_Bool)C5UIKit32NavigationBarTransitionContainer8Animator;
-- (void)Sides;
-- (void)tConfiguration>",N,&;
 - (void);
 - (id);
-- (void)x^;
-- (void)°!qÿ;
-- (void)Ö^;
-- (_Bool)ì´xÿ;
-- (void)8AáþrY;
-- (void)3_;
-- (void)`;
-- (void)þi5;
-- (void)¶ôþõ>ØÝ a;
+- (double);
+- (void)ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (_Bool)irectionSelector:(id)arg1;
+- (void)antViewInfo;
+- (void)PanelVisible;
+- (_Bool)ntrollerProvider;
+- (id);
+- (void)odeSubviews;
+- (id)oveGeometryChangeObserver: /* Error: Ran out of types for this method. */;
+- (void)neInactiveWidth;
+- (void)Customized_supportMultilineShrinkToFit;
+- (void)tinueWithTimingParameters:(double)arg1 duration: /* Error: Ran out of types for this method. */;
+- (_Bool)nimatedTransitionsPermitted;
+- (id)evertTexts;
+- (_Bool)ockFailureCount;
+- (void)groundEffectOnInputModeChange;
+- (void)AnimationPrototypeSettings",&,N,V_morph;
+- (void)sition;
+- (_Bool)d;
+- (void)_UIScrollPocketProxyElement;
+- (void)n:(Accepted:%@, Undo:%@) /* Error: Ran out of types for this method. */;
+- (void)~ÿÿ$êÿdB{þ$¦þÿ^íÿ;
+- (_Bool)eneHostingImpl.m;
+- (void)first responder, can't handle %@;
+- (void)onP;
+- (void)erCSg;
+- (void)çPÝ6?];
+- (_Bool)Sû;
+- (_Bool);
+- (void)c;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

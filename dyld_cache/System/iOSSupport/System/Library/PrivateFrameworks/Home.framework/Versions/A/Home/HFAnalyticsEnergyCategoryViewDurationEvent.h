@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)uccessfully;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *energyViewDuration; // @synthesize energyViewDuration=_energyViewDuration;

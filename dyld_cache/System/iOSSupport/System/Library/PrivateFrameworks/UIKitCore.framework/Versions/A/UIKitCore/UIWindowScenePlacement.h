@@ -15,20 +15,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)upload asset for %@;
-- (_Bool)ource session %@ for replicating account %@;
-- (_Bool)eaders;
-- (id)x;
-- (id)
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)!Bùq]1Â0@ù
 × ;
-- (id)QÈ1¢!0@ù
-× ;
-- (id)tangular;
-- (id)ionController;
-- (id)Flock,S_setApplyTargetTransformToFlock:,V__applyTargetTransformToFlock /* Error: Ran out of types for this method. */;
-- (id)yþ÷;
-- (id)Z;
-- (id)¼ÓþöÕf;
+- (id);
+- (_Bool)oveDragEventTimestamp:(id)arg1;
+- (id)izeOverride;
+- (id)IDocumentState",R,N,G_documentState;
+- (id)ItemSize;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preserveLayout;

@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)GGtG;
+- (void);
+- (void)veObjectForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSUIWebClientContext *context;

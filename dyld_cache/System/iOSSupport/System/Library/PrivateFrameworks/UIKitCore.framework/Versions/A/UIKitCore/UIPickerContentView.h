@@ -19,17 +19,16 @@
 }
 
 + (double);
-- (double),N,V_subscriptionCreatedOverride;
+- (double);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void)!pBù±À1¢!0@ù
-× ;
-- (void)debugger and see which API method caused this to occur. Table view:(_Bool)arg1 %{public}@;
-- (_Bool){Ðb;
-- (id)ÞßÿëêÔtÒj;
+- (void)_visibleRows and _visibleCells must be of same length. _visibleRows:(_Bool)arg1 %@; _visibleCells.count:%ld, _visibleCells:%@ /* Error: Ran out of types for this method. */;
+- (void)¿;
+- (id)ÿ¨;
+- (_Bool)ÝÛh;
 
 // Remaining properties
 @property(nonatomic, getter=isChecked) _Bool checked;

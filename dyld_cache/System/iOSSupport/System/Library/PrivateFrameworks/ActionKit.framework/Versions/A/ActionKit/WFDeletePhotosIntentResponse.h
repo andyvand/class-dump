@@ -11,8 +11,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
-- (void)FFIUIWorkoutActivityTypeSubstitutableState;
+- (long long)onHandler: /* Error: Ran out of types for this method. */;
+- (void)THAT SOMEONE IS DOING SOMETHING NASTY!
+
+This could indicate a man-in-the-middle attack, or it is possible that the host has changed.
+
+The host key's fingerprint is %@.
+
+Are you sure you want to continue connecting?;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

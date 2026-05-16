@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)esRoute;
-- (void);
-- (id)@];
 - (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITextInputController *textInputController; // @synthesize textInputController=_textInputController;

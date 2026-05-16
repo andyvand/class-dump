@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)ith a nil focus system. Inferring focus system found %@;
+- (id)_overlaysContentView;
 
 @end
 

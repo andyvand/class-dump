@@ -11,8 +11,8 @@
 
 - (void);
 - (void);
-- (_Bool);
 - (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool disableAnimation; // @synthesize disableAnimation=_disableAnimation;

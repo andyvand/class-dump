@@ -16,8 +16,8 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)edMessageEffect;
 
 // Remaining properties
 @property(readonly, copy) NSArray *testRuns; // @synthesize testRuns=_testRun;

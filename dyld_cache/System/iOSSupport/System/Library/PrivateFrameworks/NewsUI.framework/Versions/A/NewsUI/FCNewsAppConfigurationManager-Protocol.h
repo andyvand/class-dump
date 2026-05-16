@@ -8,11 +8,7 @@
 @protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
 
 @protocol FCNewsAppConfigurationManager
-- (void);
-- (id <FCNewsAppConfiguration>)Ƭ;
-
-@optional
-- (id <FCNewsAppConfiguration>)Enabled;
+- (id <FCNewsAppConfiguration>)out;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;

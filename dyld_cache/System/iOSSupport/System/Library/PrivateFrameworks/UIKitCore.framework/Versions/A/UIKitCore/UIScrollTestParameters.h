@@ -19,29 +19,31 @@
     CDUnknownBlockType _completionBlock;
 }
 
-- (double);
+- (void);
 - (CDUnknownBlockType);
+- (double);
+- (long long);
+- (double);
+- (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (double)º;
-- (void);
-- (void)Ô ;
-- (void)oreAfterRotation;
-- (double)ffscreenWidth: /* Error: Ran out of types for this method. */;
-- (id)eseWrapperCalendar;
-- (id)Item: /* Error: Ran out of types for this method. */;
-- (long long)4Û;
-- (id)cale;
-- (void)htColorDidChangeNewColor;
-- (CDUnknownBlockType)Ük°ÿ;
-- (void)2_;
-- (double)<áÕþ;
-- (void)ðÇ;
-- (void).;
-- (unsigned long long)f;
+- (void)0@ù
+× ;
+- (unsigned long long)!üDù1dð1Â0@ù
+× ;
 - (void);
+- (void)thContentForIndexPath:(id)arg1 elementKind: /* Error: Ran out of types for this method. */;
+- (id)olor:(struct _NSZone *)arg1 dodgeColor:compositingColor: /* Error: Ran out of types for this method. */;
+- (void)ð¸;
+- (void)undConfigurationShadowType;
+- (CDUnknownBlockType);
+- (void)ÐÛc;
+- (id)Ìf;
+- (void)XÒÕÿf;
+- (double)lþzÍ¼i;
+- (id)+ÈÒk;
 
 // Remaining properties
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;

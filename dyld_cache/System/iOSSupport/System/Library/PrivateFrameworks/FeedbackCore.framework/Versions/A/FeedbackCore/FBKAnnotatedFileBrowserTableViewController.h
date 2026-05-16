@@ -26,15 +26,15 @@
 - (id);
 - (id);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)tWithQuestionText:andAnswerText: /* Error: Ran out of types for this method. */;
-- (void)allowsAttachmentDragAndDrop;
-- (id)name [%{public}@];
+- (id)à ;
+- (void)È;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;

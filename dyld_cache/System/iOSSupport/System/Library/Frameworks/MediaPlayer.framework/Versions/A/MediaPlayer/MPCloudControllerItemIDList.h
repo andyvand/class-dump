@@ -11,15 +11,15 @@
     ICCloudItemIDList *_cloudItemIDList;
 }
 
-+ (id)sUserSpecificPlaceType;
++ (id);
 - (void);
-- (void)32@40@48B56Q60B68d72@80@88B96Q100;
-- (void)e:(id)arg1 startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline: /* Error: Ran out of types for this method. */;
-- (void)ctedStreamsWithActivity:(unsigned long long)arg1 protectionClass:(long long)arg2;
-- (id)er;
-- (id)r;
+- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)angedObserver;
 
 // Remaining properties
 @property(retain, nonatomic) ICCloudItemIDList *cloudItemIDList; // @synthesize cloudItemIDList=_cloudItemIDList;

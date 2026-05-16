@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)a default country code instead of being aware of the number a message was received on.;
-+ (_Bool)nation Information;
-- (void)unsignedIntegerValue;
-- (void)geGUIDs;
-- (_Bool)String;
-- (void)RateLimiter;
++ (_Bool);
++ (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);

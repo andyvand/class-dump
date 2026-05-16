@@ -29,13 +29,13 @@
 - (struct CGPoint);
 - (void);
 - (void);
-- (struct CGPoint);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)ause;
-- (id)mRÿdñ;
-- (void)$Àþÿ@ìÿ;
-- (void);
+- (void);
+- (struct CGPoint)iderDelegate>";
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXStoryScrollContentLayoutDelegate> delegate; // @synthesize delegate=_delegate;

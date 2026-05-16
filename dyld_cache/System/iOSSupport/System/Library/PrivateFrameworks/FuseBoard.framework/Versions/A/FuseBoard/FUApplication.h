@@ -42,21 +42,21 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (unsigned int);
 - (void);
-- (void);
-- (unsigned int)F8String: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) FUApplicationBundleInfo *bundleInfo; // @synthesize bundleInfo=_bundleInfo;

@@ -18,18 +18,18 @@
     _Bool sendMenuButtonEnabled;
 }
 
-+ (struct CGSize)P¤-;
++ (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)_GAHGA10_GAHGGt;
-- (void)GtGAAyAAyAAyA63_AHGAHGAHGGAAyAAyAAyA6_yA55_A8_GAHGA10_GAHGGt;
-- (_Bool)jectCG;
+- (void);
+- (void);
+- (_Bool);
 - (double);
-- (id)a;
+- (id);
 - (id);
 - (id);
 - (double);
@@ -37,16 +37,15 @@
 - (double);
 - (void);
 - (void);
-- (id);
-- (_Bool)?;
-- (void)j;
-- (id);
+- (struct CGSize);
 - (id);
 - (void);
-- (id)1ÅÐ1¢!0@ù
-× ;
-- (id)¥;
-- (struct CGSize)ndle;
+- (_Bool);
+- (id);
+- (id)i;
+- (id)etting pending recipients to:(id)arg1 %@ and firing notification:(id)arg2 %@;
+- (void)}};
+- (id);
 
 // Remaining properties
 @property(nonatomic) double backgroundBlurRadiusDarkMode; // @synthesize backgroundBlurRadiusDarkMode;

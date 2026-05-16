@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (double);
 - (id);
+- (double);
 - (void);
-- (long long);
+- (void);
 - (struct CGSize);
-- (void)provided:(long long)arg1 %@;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) struct CGSize drawableSize; // @synthesize drawableSize=_drawableSize;

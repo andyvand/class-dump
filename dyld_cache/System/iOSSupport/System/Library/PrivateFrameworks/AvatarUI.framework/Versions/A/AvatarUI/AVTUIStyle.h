@@ -14,11 +14,12 @@
 
 + (id);
 + (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

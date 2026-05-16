@@ -15,15 +15,15 @@
 }
 
 - (id);
-- (id)@ ;
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)econdPeerMessage:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)°W;
-- (id)t cancel xpc activity %@;
+- (id);
+- (void);
+- (id);
+- (void)ntTransitionPreprocessor:applyRule_ShortVisitsAreInvalid_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Reject /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;

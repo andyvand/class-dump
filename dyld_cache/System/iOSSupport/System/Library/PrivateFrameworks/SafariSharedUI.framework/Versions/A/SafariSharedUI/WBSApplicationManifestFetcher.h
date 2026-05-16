@@ -16,11 +16,11 @@
 
 + (long long);
 + (long long);
-+ (double)?;
++ (double);
 + (void);
-- (void)ns/A/Accounts;
-- (id)k command buffer;
-- (void)!;
+- (void);
+- (id);
+- (void)isReadOnly;
 
 @end
 

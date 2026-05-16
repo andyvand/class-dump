@@ -22,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (double);
++ (double);
 + (double);
 + (struct CGRect);
 

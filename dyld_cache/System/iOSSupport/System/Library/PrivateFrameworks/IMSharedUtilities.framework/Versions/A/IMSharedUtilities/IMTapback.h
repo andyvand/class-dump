@@ -14,7 +14,7 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)g+Reviewed;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;

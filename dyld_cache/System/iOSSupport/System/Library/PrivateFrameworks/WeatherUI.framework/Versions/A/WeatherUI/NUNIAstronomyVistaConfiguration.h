@@ -35,13 +35,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (double);
 - (long long);
 - (id);
-- (void)ÜÈëÿ$;
-- (id)@. ;
 - (void);
+- (void)Say$/íG]]y]yUW]yAGyàuþÿ?]G_Qo_S]G_n'íSgtGGG_AGyAGyAGyAGyAGy[]v]ySiSgGG]GATy1]SgGG ]GALGt;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long colorSpace; // @synthesize colorSpace=_colorSpace;

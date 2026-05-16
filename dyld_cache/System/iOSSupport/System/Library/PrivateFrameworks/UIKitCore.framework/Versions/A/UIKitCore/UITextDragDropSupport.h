@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id)Ë;
++ (id)oveDragEventResendTimestamp;
++ (id)reKeyboard:(id)arg1;
 
 @end
 

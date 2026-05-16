@@ -16,23 +16,23 @@ __attribute__((visibility("hidden")))
     _UIBackdropViewSettings *_outputSettingsB;
 }
 
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void)s:(id)arg1 chat: /* Error: Ran out of types for this method. */;
-- (id)fer map. %lu left for processing;
-- (id)ps);
+- (void);
+- (id);
+- (id);
+- (void);
 - (double);
-- (void)-º;
 - (_Bool);
-- (void)icationRequests;
-- (void)ations;
+- (void)aturalSearchFieldContainerHeight;
 - (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIBackdropViewSettings *inputSettingsA; // @synthesize inputSettingsA=_inputSettingsA;

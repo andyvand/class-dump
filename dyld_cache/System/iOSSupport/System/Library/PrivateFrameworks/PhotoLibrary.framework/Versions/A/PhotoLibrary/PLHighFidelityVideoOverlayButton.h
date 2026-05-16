@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (long long);
+- (void);
+- (void);
 - (id);
 
 @end

@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (_Bool);
-- (_Bool)IyH;
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)}.ad--ipad {background-size:(struct _NSZone *)arg1 contain; }.ad--landscape {background-image:url("http://iad2v2-iadctest.iad.apple.com/adunits/f2/e7/68/00048f30-44e1-4f00-9eda-0022ed2dc67a/1.ad/video//"); }.ad {display:flex;align-items:center;justify-content:center;background-position:center center;background-repeat:no-repeat;}.ad--iphone.ad--htmlinterstitial {background-position:top center;}</style><script src="mraid.js"></script></head><body><article onClick="mraid.open('https://apple.news/subscription')" id="ad-content" class="ad ad--ipad ad--large"></article><script>function changeClass() {var obj = document.getElementById('ad-content');if( Math.abs(window.orientation) === 90 ) {obj.classList.remove('ad--portrait');obj.classList.add('ad--landscape');} else {obj.classList.remove('ad--landscape');obj.classList.add('ad--portrait');}}if('large' === 'htmlinterstitial' && 'ipad' === 'iphone') {window.addEventListener('orientationchange', changeClass);window.addEventListener('resize', changeClass);window.addEventListener('load', changeClass);}</script></body></html> /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsLoadingMediaWithAutoPlayDisabled; // @synthesize allowsLoadingMediaWithAutoPlayDisabled=_allowsLoadingMediaWithAutoPlayDisabled;

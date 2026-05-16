@@ -14,9 +14,9 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ternativeStrokesAnimation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;

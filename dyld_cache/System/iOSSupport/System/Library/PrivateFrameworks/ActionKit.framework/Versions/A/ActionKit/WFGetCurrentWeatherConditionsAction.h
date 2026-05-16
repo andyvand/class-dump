@@ -14,8 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)consumer key was obtained.
+	This is probably a sever error.;
 
 @end
 

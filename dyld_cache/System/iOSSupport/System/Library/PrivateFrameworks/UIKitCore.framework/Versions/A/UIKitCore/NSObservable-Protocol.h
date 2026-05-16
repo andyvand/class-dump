@@ -10,8 +10,9 @@
 @protocol NSObservable
 
 @optional
-- (void)twork;
-- (NSObservation<NSObservable><NSObserver> *)ayoutMargins"b1"hasCustomizedDirectionalLayoutMargins"b1"hasCustomizedPrefersSideBySideTextAndSecondaryText"b1"hasCustomizedImageToTextPadding"b1"hasCustomizedTextToSecondaryTextHorizontalPadding"b1"hasCustomizedTextToSecondaryTextVerticalPadding"b1"hasCustomizedEnforcesMinimumHeight"b1"hasCustomizedAlpha"b1"isSidebarStyle"b1};
-- (void)te handled when removing old search controller. Investigate if repro steps are available. Otherwise, ignore.;
+- (void)að1Â0@ù
+× ;
+- (void);
+- (NSObservation<NSObservable><NSObserver> *)UIImageAsset"8@"UIImageConfiguration"16@"UIImage"24;
 @end
 

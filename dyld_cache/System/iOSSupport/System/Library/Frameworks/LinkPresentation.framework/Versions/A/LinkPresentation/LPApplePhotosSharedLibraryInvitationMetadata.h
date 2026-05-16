@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (_Bool)andler;
++ (_Bool);
 - (id);
 - (void);
 - (id);
@@ -23,14 +23,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool)֑;
-- (id);
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -9,11 +9,13 @@
 @protocol UICollectionViewFocusDelegate_Legacy
 
 @optional
-- (NSIndexPath *)alloonTitleTextColor;
-- (void):(UICollectionView *)arg1;
-- (void)_dismiss;
-- (_Bool)shelfPluginPayload is not equal;
-- (_Bool)CKOrderMediaObject:(UICollectionView *)arg1 Failed to load preview metadata in-process:(NSIndexPath *)arg2 %@;
-- (void)w;
+- (_Bool);
+- (_Bool)0@ù
+× ;
+- (void)!PGùQ1Â0@ù
+× ;
+- (void)ionsOptionsPresentationInProgress:(UICollectionView *)arg1;
+- (void)tiateTUConversationWithScreenShareType:(UICollectionView *)arg1;
+- (NSIndexPath *)urf.;
 @end
 

@@ -24,17 +24,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)ÿÿÔ;
+- (id)iMuted;
 
 // Remaining properties
 @property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;

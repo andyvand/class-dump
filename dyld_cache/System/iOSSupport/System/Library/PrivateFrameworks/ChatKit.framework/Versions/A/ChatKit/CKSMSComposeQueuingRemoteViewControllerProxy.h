@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)ntentViewLeadingAnchorLayoutConstraintConstant;
+- (void);
+- (void);
+- (id)apsed:(SEL)arg1 sourceBarButtonItem:animated: /* Error: Ran out of types for this method. */;
+- (void)ÐH;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *queuedInvocations; // @synthesize queuedInvocations=_queuedInvocations;

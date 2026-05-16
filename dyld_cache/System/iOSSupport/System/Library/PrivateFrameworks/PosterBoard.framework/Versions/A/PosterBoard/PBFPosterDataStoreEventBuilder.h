@@ -44,11 +44,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)thIdentifier: /* Error: Ran out of types for this method. */;
-- (void)tStyle;
+- (id);
+- (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;

@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (double);
-+ (double)8;
++ (double);
 + (double);
 + (struct CGPath *);
 + (id);

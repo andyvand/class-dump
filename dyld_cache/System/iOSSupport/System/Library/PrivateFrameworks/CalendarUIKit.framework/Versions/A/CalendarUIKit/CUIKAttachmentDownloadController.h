@@ -24,11 +24,11 @@
 - (id);
 - (void);
 - (id);
-- (id)s;
+- (id);
 - (void);
-- (void);
-- (id)otation"24@"AKPageModelController"32;
-- (void)DetectedFormFields:(id)arg1;
+- (id);
+- (void)Type: /* Error: Ran out of types for this method. */;
+- (void)P;þÿìïñÿHÿ;
 
 // Remaining properties
 @property(retain, nonatomic) EKAttachment *attachment; // @synthesize attachment=_attachment;

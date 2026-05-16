@@ -27,13 +27,13 @@
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id)d: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (id)@40;
-- (id)ize=dd}}16;
-- (void)o];
+- (id)Alignment"b3"wasLastHighlightSuccessful"b1"touchHasHighlighted"b1"enableSymbolAnimations"b1"hasPointerInteraction"b1"hasProxyPointerInteraction"b1"hasContextMenuInteraction"b1"highlightForMenuPresentation"b1"showsMenuFromSource"b1"currentlyDeferringFinalActions"b1"wasTouchInside"b1};
+- (void)nCount;
+- (id)swift;
+- (void)mationVector;
+- (id)tÌæþy;
 
 // Remaining properties
 @property(retain, nonatomic) NSOrderedSet *additionalExtensions; // @synthesize additionalExtensions=_additionalExtensions;

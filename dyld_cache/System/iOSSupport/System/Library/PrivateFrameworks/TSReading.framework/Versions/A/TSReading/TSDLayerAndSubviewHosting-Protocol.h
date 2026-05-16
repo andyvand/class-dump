@@ -7,7 +7,7 @@
 @class CALayer, TSDCanvasSubviewsController, UIView, UIViewController;
 
 @protocol TSDLayerAndSubviewHosting
-- (UIView *)ColumnsUsingBlock: /* Error: Ran out of types for this method. */;
+- (UIView *)PTextMagnifierRanged underlayImageName];
 
 // Remaining properties
 @property(readonly, retain, nonatomic) CALayer *containerLayer;

@@ -9,19 +9,19 @@
     struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
-+ (_Bool);
++ (_Bool)pI;
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (oneway void);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id)ct:waitUntilDone: /* Error: Ran out of types for this method. */;
-- (unsigned long long)k;
+- (id);
+- (_Bool)è;
+- (_Bool)iability-witness>;
 
 @end
 

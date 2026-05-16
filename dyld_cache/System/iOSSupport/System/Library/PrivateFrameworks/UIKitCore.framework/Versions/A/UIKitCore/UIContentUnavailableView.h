@@ -35,61 +35,60 @@
     _UISystemBackgroundView *_backgroundView;
 }
 
-- (void);
+- (struct NSDirectionalEdgeInsets);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)ens;
-- (id);
-- (void);
-- (double);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (struct NSDirectionalEdgeInsets)0@ù
-× ;
-- (void)!ìGùÑÂ°1¢!0@ù
-× ;
+- (struct NSDirectionalEdgeInsets);
 - (_Bool);
-- (_Bool);
-- (id)¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)0@ù
 × ;
-- (_Bool)
-× ;
-- (void)abled"b1"dimTableViewOnEmptySearchString"b1"isRotatingWithPopover"b1"cancelButtonManagementDisabled"b1"allowDisablingNavigationBarHiding"b1"showsResultsForEmptyField"b1"searchBarCanBeHoisted"b1"animatingSearchResultsDisappearance"b1"navigationBarShadowWasHidden"b1"hoistingSearchBar"b1};
-- (id):(struct CGPoint)arg1;
-- (void)ntColor:(double)arg1;
-- (void)w: /* Error: Ran out of types for this method. */;
-- (double)ectRuleMinorDimensionThreshold;
-- (void)ion:(id)arg1;
-- (void)ailingPreviewAction;
-- (void)ToBegin: /* Error: Ran out of types for this method. */;
-- (void)m:(id)arg1;
-- (_Bool)tsLandscapeLeft;
-- (id)B,N,V_presenting;
-- (id) ðD;
-- (struct CGSize)\;
-- (void)ÿÿ^TÔ°;
-- (struct UIContentUnavailableViewLayoutInfo)l and internal accessory counts do not match! Cell accessories:(struct CGSize)arg1 %@; Internal accessories:%@ /* Error: Ran out of types for this method. */;
-- (void)ViewInContainerView;
-- (id)t class of object saved in state restoration archive is %@:Object = %@ /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)boardContextID;
-- (double)uide.%p;
-- (void)4;
-- (id)71;
-- (_Bool);
-- (struct CGSize)"×þ´;
-- (id)$æàþA;
-- (id)ÈñÆÿ§TÌkìg;
-- (struct CGSize)n²l;
-- (void)n;
+- (void)d}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
+- (id)er: /* Error: Ran out of types for this method. */;
+- (void)erViewController:(id)arg1;
+- (void)zedPersistentOffsetIgnoringState;
+- (void)Hover:(id)arg1 playFeedback: /* Error: Ran out of types for this method. */;
+- (void)atorEndingActiveSession:(id)arg1;
+- (_Bool)rs;
+- (void)Domain;
+- (void)rGenerator:(struct UIEdgeInsets)arg1;
+- (void)ding: /* Error: Ran out of types for this method. */;
+- (void)ction:(id)arg1;
+- (void)izeInfo;
+- (void)roundGradient;
+- (double)entifier;
+- (void)g;
+- (_Bool)D;
+- (void)P8;
+- (id)L;
+- (double)ting a scene for systemUIService from the default system shell.;
+- (void). Caller must filter [event allPresses] appropriately and pass in a set of UIPress objects that matches current phase. Not doing so runs a risk of triggering infinite loop.;
+- (void)nsitive}@';
+- (id)ing %@ to %@;
+- (_Bool)on is not set! (%@);
+- (void);
+- (struct UIContentUnavailableViewLayoutInfo)®Ïîÿþÿ;
+- (struct CGSize)hadowXOffset;
+- (_Bool)itionCoordinatorDescriptionCompletionVelocityKey;
+- (id)erDidLayout;
+- (id)illRotateToInterfaceOrientation:update _rotationInfo /* Error: Ran out of types for this method. */;
+- (id)cessibilityIgnoresInvertColors;
+- (struct CGSize)own;;
+- (double);
+- (id)pe;
+- (void)hÖÅÿaìÍ Ðh;
+- (id)ÿÖ\;
+- (id)°§j;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_activityIndicator) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

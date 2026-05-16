@@ -20,8 +20,8 @@
     NSString *_lastNotifiedDestinationIdentifier;
 }
 
-+ (id)dIndexAccessoryEventTopic;
-+ (id)à (¡¨¡ü¡ô¢h£ì£@¤;
++ (id);
++ (id)internal-build;
 
 @end
 

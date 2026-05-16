@@ -17,23 +17,23 @@
 }
 
 + (id);
-- (id);
-- (long long)z;
 - (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)+;
-- (id);
-- (void);
-- (id)m;
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;

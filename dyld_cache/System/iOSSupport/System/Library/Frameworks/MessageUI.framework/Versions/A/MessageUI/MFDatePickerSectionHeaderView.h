@@ -11,10 +11,10 @@
     UILabel *_label;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)oreSpotlight to finish indexing message items!;
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;

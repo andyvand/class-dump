@@ -16,9 +16,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
+- (id)!´EùñI°1â
+0@ù
+× ;
+- (void)picker.;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSpec:) PXViewSpec *_spec; // @synthesize _spec=__spec;

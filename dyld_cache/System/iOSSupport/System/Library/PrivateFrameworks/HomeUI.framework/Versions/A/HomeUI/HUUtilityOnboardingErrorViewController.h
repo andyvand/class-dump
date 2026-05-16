@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)teredButtonFutures;
-- (void)equiredSubpredicates:(id)arg1 optionalSubpredicates:minimumNumberOfMatchedPredicates: /* Error: Ran out of types for this method. */;
+- (void)wordless(value:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

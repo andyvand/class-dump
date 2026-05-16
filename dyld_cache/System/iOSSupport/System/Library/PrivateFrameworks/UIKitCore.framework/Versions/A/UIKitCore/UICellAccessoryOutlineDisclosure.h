@@ -15,25 +15,24 @@
     UIImage *__customImage;
 }
 
-+ (_Bool)"0n;
++ (_Bool)ust register a nib or a class for the identifier or connect a prototype cell in a storyboard;
 - (void);
 - (id);
 - (double);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
 - (long long);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (long long)d}}32N^d40@48{_NSRange=QQ}56;
-- (id)TB,N,S_dci_setIgnoresSearchSuggestionsForStackedSearch: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ation;
-- (long long)taskName:%{private}@, expirationHandler:%@ /* Error: Ran out of types for this method. */;
-- (void)°ÌñZ;
-- (void);
-- (id)wq_;
+- (id);
+- (void)ect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d}20@0:(long long)arg1 8B16;
+- (CDUnknownBlockType)ddd}48{UIEdgeInsets=dddd}80{UIEdgeInsets=dddd}112;
+- (void)nKeyboardFrame:(CDUnknownBlockType)arg1;
+- (_Bool)eFromArray:(id)arg1;
+- (void)aitCollection:(id)arg1 withTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (long long)y",R,N,G_effectiveFeedbackData;
+- (id)CCFÜHDQdRW(Z;
+- (_Bool)-%{public}@-not hosting because scene is not foreground or other conditions aren't met to allow hosting (foreground:(id)arg1 %d, allowsHostingWithLayersAndHasLayers:%d, allowsHostingWithoutLayers:%d). /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)´ØÆÿÒ;
+- (void)TÇ´ÿ8ÌÈi;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_customImage, setter=_setCustomImage:) UIImage *_customImage; // @synthesize _customImage=__customImage;

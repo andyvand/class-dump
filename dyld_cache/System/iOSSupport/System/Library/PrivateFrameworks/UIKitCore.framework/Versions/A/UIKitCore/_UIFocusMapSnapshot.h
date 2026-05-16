@@ -43,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,24 +53,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)yle:(id)arg1;
-- (void)ThoseLoggedOutOfIMessage:(id)arg1;
-- (id)ier;
-- (id);
-- (void);
-- (id)MDIDSService received aliases changed to %@:(id)arg1 %@ (%@);
-- (id)ark all incompatibleMessagesForDeletion, set version (%ld) current version (%d);
-- (id)king off a sync on power and wifi isSyncing %@ isUnderFirstUnlock %@ lastSyncDate %@ deviceConditionsAllowSync %@;
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)eNormalization;
+- (id);
 - (void);
-- (void)cted;
-- (id)entView;
-- (id)eturnKeyType;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)"Ë;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;

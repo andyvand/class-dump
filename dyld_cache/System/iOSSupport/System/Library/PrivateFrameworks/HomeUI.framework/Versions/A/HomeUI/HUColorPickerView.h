@@ -51,9 +51,9 @@
 - (void);
 - (id);
 - (void);
+- (double);
+- (double);
 - (id);
-- (double);
-- (double);
 - (void);
 - (unsigned long long);
 - (void);
@@ -67,16 +67,14 @@
 - (void);
 - (void);
 - (CDStruct_dbd0f16f);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (void)1b0@ù
-× ;
-- (id)&!8@ù±/Ð1b0@ù
-× ;
-- (id)@x(yh{Ì{¬|;
-- (void)xØ);
+- (_Bool)racteristicWritingDelegate:(id)arg1;
+- (void)z;
+- (void)@ for clip:(id)arg1 %@ with profileUUID:%@. /* Error: Ran out of types for this method. */;
+- (void)_Warning_Message;
+- (id)oduleController;
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long colorPickerMode; // @synthesize colorPickerMode=_colorPickerMode;

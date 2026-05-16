@@ -15,17 +15,17 @@
 
 - (id);
 - (id);
-- (id)kWithBookmark:(id)arg1 completion:(id)arg2 receiveInput:(id)arg3;
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id)24@0:8@"MPMusicPlayerQueueDescriptor"16 /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)tyVersion;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *changes; // @synthesize changes=_changes;

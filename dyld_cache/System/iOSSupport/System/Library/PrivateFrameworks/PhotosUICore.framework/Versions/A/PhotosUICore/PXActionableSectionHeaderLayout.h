@@ -42,12 +42,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)SearchOverlay;
-- (id)HorizontalPagingHint;
-- (id)ilViewController;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ÇÊGÀ;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysWantsBackground; // @synthesize alwaysWantsBackground=_alwaysWantsBackground;

@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)pty;
 
 @end
 

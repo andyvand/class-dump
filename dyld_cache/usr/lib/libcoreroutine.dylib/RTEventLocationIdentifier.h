@@ -19,16 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)BEXSession][addIncompletePacketData] received:(unsigned long long)arg1 0x%x. Total:0x%x/0x%x.
- /* Error: Ran out of types for this method. */;
-- (unsigned long long)<˟;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (unsigned long long)es are 14-21, 31, and 32;
-- (id);
+- (unsigned long long);
+- (void)DistanceBeforeDriveMax;
+- (void)anager,locations not available in recent history;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;

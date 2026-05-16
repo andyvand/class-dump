@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol HMUserActionPredictionDataSource
+- (NSArray *)emonDisconnectedNotification;
 
 // Remaining properties
 @property(readonly, copy) NSArray *predictions;

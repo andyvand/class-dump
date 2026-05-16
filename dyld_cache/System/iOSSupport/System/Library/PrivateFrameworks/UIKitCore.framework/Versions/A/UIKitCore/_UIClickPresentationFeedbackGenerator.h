@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (void);
 - (void);
-- (void)NSString"56B64;
-- (id)recordNameToRowIDMap! ;
-- (void)÷;
-- (void)FÀa;
-- (id)Üæÿ©ÛÙàa;
-- (void)øÿ a;
-- (void)ToÐÿÞÄ;
 - (void);
-- (void)ÚÎÿ;
+- (id);
+- (void)üÁîÿ;
+- (void)nReusableView"8;
+- (void);
+- (void)tt;
+- (void)@;
+- (void)UÉ×°kd;
+- (id)ëÿq©×îd;
 
 @end
 

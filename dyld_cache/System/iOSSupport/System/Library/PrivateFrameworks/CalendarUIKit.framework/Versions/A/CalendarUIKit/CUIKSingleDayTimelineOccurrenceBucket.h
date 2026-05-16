@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -43,10 +43,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)tary;
+- (void)yACyg¾ya¾y[¾yAAyAAyAAy>÷G)®yëGGlyAEGG_SbQo__SbQo__SbQo__AAyAAyAAyAAyK>GALGAPGASGtGGtGG¨y+OGGA6_yðMGG_Qo_¥ySbGG_AAyAAyAAyAAyAAyAJyAAyý=AYGGALGANyAFGGASG7GALGSgt;
 - (id);
-- (id)PGASGtGGtGG;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CUIKSingleDayTimelineLayoutPartition *correspondingPartition; // @synthesize correspondingPartition=_correspondingPartition;

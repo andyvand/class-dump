@@ -13,7 +13,7 @@
 {
 }
 
-+ (id)!;
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel;

@@ -17,29 +17,28 @@
     NSDate *_date;
 }
 
-+ (_Bool)not requiring user time and trusted time to align).;
-- (id)/E�?;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (id)tReference;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)0@ù
-× ;
+- (id)e"@"NSError">24;
+- (void)g,found long duration visit,transitions index,%{public}ld;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;

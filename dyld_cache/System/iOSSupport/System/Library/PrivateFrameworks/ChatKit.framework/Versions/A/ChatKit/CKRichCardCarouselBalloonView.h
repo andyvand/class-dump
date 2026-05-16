@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *richCards;
 }
 
-- (struct CGSize)egate:(struct CGSize)arg1;
-- (void);
+- (struct CGSize);
 - (void);
-- (void):(id)arg1 %f. ID:%@:%ld /* Error: Ran out of types for this method. */;
-- (void)ate",N,R;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)j!ʚJ;
-- (id)ll;
+- (id);
+- (void)è;
 
 @end
 

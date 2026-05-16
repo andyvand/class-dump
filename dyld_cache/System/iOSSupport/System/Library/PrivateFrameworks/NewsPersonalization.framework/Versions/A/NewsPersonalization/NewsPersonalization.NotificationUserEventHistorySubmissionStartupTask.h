@@ -10,7 +10,7 @@
 {
     MISSING_TYPE *headlineService;
     MISSING_TYPE *notificationHistory;
-    MISSING_TYPE *sessionTracker;
+    MISSING_TYPE *userEventHistory;
 }
 
 @end

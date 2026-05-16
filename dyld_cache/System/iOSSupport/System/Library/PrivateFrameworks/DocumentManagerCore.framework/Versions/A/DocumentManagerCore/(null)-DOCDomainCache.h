@@ -5,8 +5,8 @@
 //
 
 @interface (null) (DOCDomainCache)
-+ (id)G;
-+ (id);
++ (id);
++ (id);
 + (void);
 @end
 

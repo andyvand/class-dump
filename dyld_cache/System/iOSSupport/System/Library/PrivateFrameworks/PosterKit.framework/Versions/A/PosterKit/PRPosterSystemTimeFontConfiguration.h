@@ -16,26 +16,26 @@
     double _weight;
 }
 
-+ (_Bool);
 + (id);
-+ (_Bool)entifier:systemItem: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (void);
+- (_Bool);
 - (void);
 - (id);
+- (void);
+- (id);
+- (double);
+- (_Bool);
 - (double);
 - (struct PRVariantWeightRange);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 

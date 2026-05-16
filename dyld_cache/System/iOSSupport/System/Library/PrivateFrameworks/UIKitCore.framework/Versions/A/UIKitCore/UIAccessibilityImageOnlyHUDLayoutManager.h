@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize)alytic defaults and local sync state;
-- (struct CGSize)sent in recordNameToRowIDMap! ;
-- (struct CGRect)rocessingPipelineComponent> Not seen as off grid;
+- (struct CGSize);
+- (struct CGSize);
+- (struct CGRect);
 
 @end
 

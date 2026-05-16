@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
+- (void)d¸;
 
 // Remaining properties
 @property(copy, nonatomic) HFStateDumpBuilderContext *context; // @synthesize context=_context;

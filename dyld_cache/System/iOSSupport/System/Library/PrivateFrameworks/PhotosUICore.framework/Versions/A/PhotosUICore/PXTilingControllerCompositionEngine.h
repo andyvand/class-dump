@@ -66,14 +66,14 @@
 - (void);
 - (struct UIEdgeInsets);
 - (struct CGSize);
-- (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void)Ømyl¬Ö0e;
-- (void);
-- (_Bool);
 - (id);
-- (void)r;
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (_Bool);
+- (void)cialGroups;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setComposition:) PXTilingControllerComposition *_composition; // @synthesize _composition=__composition;

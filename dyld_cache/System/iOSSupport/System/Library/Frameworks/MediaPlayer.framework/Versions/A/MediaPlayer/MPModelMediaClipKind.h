@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)Read:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService:messageEffect:isKnownSender:conversationUUID: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

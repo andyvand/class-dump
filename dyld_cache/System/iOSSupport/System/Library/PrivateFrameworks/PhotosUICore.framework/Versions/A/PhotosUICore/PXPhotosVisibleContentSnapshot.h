@@ -19,9 +19,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval;

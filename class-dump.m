@@ -72,7 +72,10 @@ void print_usage(void)
             "        --extract-fileset NAME --out FILE\n"
             "                             extract a fileset entry by name (raw slice)\n"
             "        --dsc-extract DIR    extract every dylib from a dyld_shared_cache to DIR\n"
-            "                             (uses Apple's dsc_extractor.bundle from Xcode)\n"
+            "                             (uses Apple's dsc_extractor.bundle from Xcode).\n"
+            "                             Combine with --cpp / --swift to additionally write C++\n"
+            "                             and Swift header dumps (one .h/.swift per type) into\n"
+            "                             <DIR>/<install-path>.cpp_h/ and .swift_h/ subdirs.\n"
             "        --with-cache FILE    use a dyld_shared_cache file to resolve selectors and\n"
             "                             type strings when class-dumping cache-extracted dylibs\n"
             "        --cpp                dump C++ classes (from LC_SYMTAB Itanium-mangled symbols)\n"
@@ -785,9 +788,11 @@ int main(int argc, char *argv[])
                 exit(1);
             }
 
-            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp) {
+            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp
+                || shouldDumpCpp || shouldDumpSwift) {
                 NSDirectoryEnumerator *den = [fm enumeratorAtPath:dscExtractDir];
                 unsigned dcDone = 0, dcFail = 0, swDone = 0, swFail = 0, cppDone = 0, cppFail = 0;
+                unsigned hCppDone = 0, hCppFail = 0, hSwDone = 0, hSwFail = 0;
                 for (NSString *rel in den) {
                     @autoreleasepool {
                         NSString *full = [dscExtractDir stringByAppendingPathComponent:rel];
@@ -801,6 +806,47 @@ int main(int argc, char *argv[])
                         memcpy(&magic, [head bytes], 4);
                         if (magic != MH_MAGIC && magic != MH_MAGIC_64
                             && magic != MH_CIGAM && magic != MH_CIGAM_64) continue;
+
+                        if (shouldDumpCpp || shouldDumpSwift) {
+                            CDSearchPathState *sp = [[CDSearchPathState alloc] init];
+                            sp.executablePath = [full stringByDeletingLastPathComponent];
+                            id parsed = [CDFile fileWithContentsOfFile:full searchPathState:sp];
+                            CDMachOFile *mf = nil;
+                            if ([parsed isKindOfClass:[CDMachOFile class]]) {
+                                mf = parsed;
+                            } else if ([parsed isKindOfClass:[CDFatFile class]]) {
+                                CDArch a;
+                                if ([parsed bestMatchForLocalArch:&a])
+                                    mf = [parsed machOFileWithArch:a];
+                            }
+                            if (mf) {
+                                if (shouldDumpCpp) {
+                                    NSString *outSub = [full stringByAppendingString:@".cpp_h"];
+                                    [fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:NULL];
+                                    NSError *e = nil;
+                                    if ([CDCPlusPlusDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) hCppDone++;
+                                    else {
+                                        hCppFail++;
+                                        fprintf(stderr, "class-dump: cpp header dump %s failed: %s\n",
+                                                [rel UTF8String], [[e localizedDescription] UTF8String]);
+                                    }
+                                }
+                                if (shouldDumpSwift) {
+                                    NSString *outSub = [full stringByAppendingString:@".swift_h"];
+                                    [fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:NULL];
+                                    NSError *e = nil;
+                                    if ([CDSwiftDumper writeHeadersForMachOFile:mf toDirectory:outSub error:&e]) hSwDone++;
+                                    else {
+                                        hSwFail++;
+                                        fprintf(stderr, "class-dump: swift header dump %s failed: %s\n",
+                                                [rel UTF8String], [[e localizedDescription] UTF8String]);
+                                    }
+                                }
+                            } else {
+                                if (shouldDumpCpp) hCppFail++;
+                                if (shouldDumpSwift) hSwFail++;
+                            }
+                        }
 
                         if (shouldDecompile) {
                             NSString *cOut = [full stringByAppendingPathExtension:@"c"];
@@ -832,17 +878,22 @@ int main(int argc, char *argv[])
                                         [rel UTF8String], [[de localizedFailureReason] UTF8String]);
                             }
                         }
-                        if ((dcDone + dcFail + swDone + swFail + cppDone + cppFail) % 20 == 0) {
-                            fprintf(stderr, "\rclass-dump: decompiled c=%u/%u swift=%u/%u cpp=%u/%u",
+                        unsigned total = dcDone + dcFail + swDone + swFail + cppDone + cppFail
+                                        + hCppDone + hCppFail + hSwDone + hSwFail;
+                        if (total % 20 == 0) {
+                            fprintf(stderr, "\rclass-dump: c=%u/%u swift=%u/%u cpp=%u/%u cpp_h=%u/%u swift_h=%u/%u",
                                     dcDone, dcDone + dcFail,
                                     swDone, swDone + swFail,
-                                    cppDone, cppDone + cppFail);
+                                    cppDone, cppDone + cppFail,
+                                    hCppDone, hCppDone + hCppFail,
+                                    hSwDone, hSwDone + hSwFail);
                             fflush(stderr);
                         }
                     }
                 }
-                fprintf(stderr, "\nclass-dump: decompile finished: c ok=%u fail=%u, swift ok=%u fail=%u, cpp ok=%u fail=%u\n",
-                        dcDone, dcFail, swDone, swFail, cppDone, cppFail);
+                fprintf(stderr, "\nclass-dump: finished: c ok=%u fail=%u, swift ok=%u fail=%u, cpp ok=%u fail=%u, cpp_h ok=%u fail=%u, swift_h ok=%u fail=%u\n",
+                        dcDone, dcFail, swDone, swFail, cppDone, cppFail,
+                        hCppDone, hCppFail, hSwDone, hSwFail);
             }
             exit(0);
         }

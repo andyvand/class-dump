@@ -10,7 +10,7 @@
 
 - (void);
 - (void);
-- (void);
+- (void)traintInCompact:(id)arg1;
 
 @end
 

@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (double);
 - (long long);
-- (void);
+- (double);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long component; // @synthesize component=_component;

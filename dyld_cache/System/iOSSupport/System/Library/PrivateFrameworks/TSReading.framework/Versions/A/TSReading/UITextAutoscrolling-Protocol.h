@@ -5,8 +5,8 @@
 //
 
 @protocol UITextAutoscrolling
-- (void)ething went wrong!;
+- (void)ty;
+- (void):(struct CGPoint)arg1 |[rootView]|;
 - (void);
-- (void)ex:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -13,8 +13,8 @@
     MISSING_TYPE *mapItemIdentifier;
 }
 
-- (void);
 - (id);
+- (void)setHourStrings: /* Error: Ran out of types for this method. */;
 
 @end
 

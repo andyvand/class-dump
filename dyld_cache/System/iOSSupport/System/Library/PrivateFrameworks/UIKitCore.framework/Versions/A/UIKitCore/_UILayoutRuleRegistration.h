@@ -17,13 +17,14 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
-- (struct CGSize)nShouldPresent: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets)|kàþ;
-- (id)Ä½}ÿS\;
-- (struct NSDirectionalEdgeInsets)a;
+- (struct CGSize)A!äDùQ]ð1Â0@ù
+× ;
+- (id)°H	;
+- (struct UIEdgeInsets)ssible;
+- (struct NSDirectionalEdgeInsets);
+- (void)r;
+- (struct UIEdgeInsets)à;
+- (id)ôÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,8 +12,8 @@
 
 - (struct CGRect);
 - (id);
-- (unsigned long long);
-- (struct CGRect)]7ß;
+- (struct CGRect);
+- (unsigned long long)36;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long edge; // @synthesize edge=_edge;

@@ -13,16 +13,16 @@
     NSString *_sourceAppIdentifier;
 }
 
-+ (_Bool)king for? (WFSearchQuery);
++ (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id)Meters;
+- (void)arameterState"16^B24;
 
 // Remaining properties
 @property(readonly, nonatomic) WFFileRepresentation *file; // @synthesize file=_file;

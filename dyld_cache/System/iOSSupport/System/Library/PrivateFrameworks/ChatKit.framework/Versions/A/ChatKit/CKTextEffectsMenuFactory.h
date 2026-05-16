@@ -8,11 +8,6 @@
 {
 }
 
-+ (id)s;
-+ (id);
-+ (id);
-+ (id)t;
-+ (id)r;
 + (id);
 + (id);
 + (id);
@@ -20,8 +15,13 @@
 + (id);
 + (id);
 + (id);
-- (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
+- (void)CKSuggestedRepliesBalloonView;
 
 @end
 

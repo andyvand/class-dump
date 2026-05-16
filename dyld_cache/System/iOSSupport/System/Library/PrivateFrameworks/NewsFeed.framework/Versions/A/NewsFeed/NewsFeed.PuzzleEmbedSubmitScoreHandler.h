@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)3Ö;
 
 @end
 

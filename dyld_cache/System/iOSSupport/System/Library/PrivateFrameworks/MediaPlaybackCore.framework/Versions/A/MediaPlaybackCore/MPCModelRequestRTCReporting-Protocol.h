@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol MPCModelRequestRTCReporting
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *rtcReportingPlayQueueSourceIdentifier;

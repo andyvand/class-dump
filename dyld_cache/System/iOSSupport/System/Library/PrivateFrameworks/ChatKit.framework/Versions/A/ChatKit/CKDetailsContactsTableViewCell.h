@@ -37,20 +37,17 @@
 
 + (double);
 + (double);
-+ (Class);
-+ (double);
 + (id);
-- (id):rowIndex: /* Error: Ran out of types for this method. */;
-- (_Bool),R,N;
++ (Class);
++ (double);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void)mestamp;
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -59,27 +56,30 @@
 - (void);
 - (void);
 - (void);
-- (void)ersistedThumbnailDescribingP;
-- (void)7CKShareC;
 - (void);
-- (id)-;
-- (id)h;
-- (id)s with prompt {prompt:%@, error:%@}%s:%d /* Error: Ran out of types for this method. */;
-- (id)oteSortType;
-- (id)ic_preferredFontForSubheadingTextWithContentSizeCategory:isForPrint:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -90,16 +90,16 @@
 - (long long);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)yº#¬yAAyÑ$¬¼¬G_Qo_ë«y4û«GG1´üÿGö«G)	¬yÓè«yAGkî«GGG;
-- (void)GGAFyAGA2_AGGtGG.­yALSgGGê=GAAyê=ê=GG;
-- (id)t. defaulting currentPreviewItemIsSaved to NO;
-- (id)onversation of a transcript background change.;
-- (struct CGSize);
 - (void);
+- (id);
+- (id)uttonFrameInScreenCoordinates;
+- (id)dler:(long long)arg1;
+- (void);
+- (id)p¸¢ÿW9 e0;
 
 // Remaining properties
 @property(nonatomic) long long callType; // @synthesize callType=_callType;

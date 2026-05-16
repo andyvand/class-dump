@@ -28,15 +28,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (unsigned int);
-- (id);
 - (void);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

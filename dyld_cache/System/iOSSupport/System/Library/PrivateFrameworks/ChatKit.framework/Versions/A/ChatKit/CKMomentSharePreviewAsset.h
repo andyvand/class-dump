@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (long long)I;
+- (long long);
 - (id);
 - (Class);
-- (struct CGRect)8;
-- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (id)?;
-- (id)È¬y­yIð¬=Çû¬yÑ­ysú¬ö¬ySayADGSSHÙ¬y:(CDUnknownBlockType)arg1 =y<õ¬yAEyAC_°õ¬ô¬SgtGG_ADQo_=yAC_ADQo_GGAGG_AFyAgHyAISSARGAGGtGGë¬yíó¬SgGG;
-- (double)y~_>ALGARy{_>A2GGGAEyARys_>A2GGARyo_>A2GGGGGAEyAEyAEyARy__>A2GGARyX>A2GGGAEyARyK_>A2GGAHyAHyAFyAgHyAGsy­G5_>GAJy<9®GG¦­y5®SgGGGGAFyA3GGGGGG_Qo_;
+- (id)82FAED4A25LoadingIndicatorCoverView;
+- (void)ÿ=.;
+- (double)ÿt7°Ë0;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPreviewImageDataAvailable;

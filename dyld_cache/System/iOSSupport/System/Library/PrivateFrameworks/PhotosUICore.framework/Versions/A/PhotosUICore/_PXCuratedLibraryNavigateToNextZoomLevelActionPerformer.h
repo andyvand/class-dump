@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (id)fidential UI;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXGSpriteReference *hitSpriteReference; // @synthesize hitSpriteReference=_hitSpriteReference;

@@ -38,38 +38,38 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (unsigned long long);
 - (_Bool);
-- (struct UIEdgeInsets);
-- (void)tring"40@"NSString"48;
-- (struct CGSize)ed;
-- (struct CGRect)oupIDChatIndex: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (void);
+- (struct CGSize);
 - (struct CGRect);
-- (_Bool);
 - (void);
 - (void);
+- (struct CGRect);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
-- (struct UIEdgeInsets);
-- (struct CGRect);
-- (id)WithStoreID:(struct _NSZone *)arg1 persistentID:timeStamp:completion: /* Error: Ran out of types for this method. */;
-- (void)MRoute;
-- (void)in assets [MediaKit]:flavorStringType=%{public}@ urlStringType=%{public}@ sinfsType=%{public}@ flavorString=%{public}@ urlString=%{public}@ /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
-- (_Bool)@;
-- (unsigned long long);
-- (_Bool)!¸DùQÉð1¢!0@ù
+- (void);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (void);
+- (struct CGSize)ð! GùÑbÐ1Â0@ù
 × ;
-- (void)ontentIdentifierPredicate;
-- (double)hIdentifier: /* Error: Ran out of types for this method. */;
-- (void)WindowProxy: /* Error: Ran out of types for this method. */;
-- (id)ontentScrollView: /* Error: Ran out of types for this method. */;
-- (double)nt;
-- (id)n: /* Error: Ran out of types for this method. */;
-- (void)roundData2;
-- (double)tiveImpl _prepareForExpansionWithTransition:] /* Error: Ran out of types for this method. */;
-- (void)tics.framework/CoreHaptics;
+- (struct CGRect)FieldClass;
+- (void)pletion:inRect: /* Error: Ran out of types for this method. */;
+- (double)rPath;
+- (id)},R,N;
+- (_Bool)Rate;
+- (unsigned long long)pacity;
+- (void)SayySo27CAPresentationModifierGroupCcG;
+- (_Bool);
+- (void);
+- (double)DÇ\;
+- (void)>c¼Ç^;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;

@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool);
-- (void)ݧ;
-- (UITargetedPreview *);
-- (void)iftQuartzCore.dylib;
-- (void)Á¤	Ð!°BùqÁ1¢!0@ù
+- (void)¡	ð!@ù±&°1Â0@ù
 × ;
-- (void)
-× ;
-- (void)1Â1¢!0@ù
-× ;
-- (struct CGPoint);
-- (UIWindowSceneActivationConfiguration *)0@ù
-× ;
-- (_Bool)!¸Gù±ÂÐ1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (_Bool)0:(UICollectionView *)arg1 8@16@24B32B36B40@?44;
-- (_Bool)allFlags"Q)};
-- (void)ckViewCompactHeightConstraint;
-- (UITargetedPreview *)uInteraction:(UICollectionView *)arg1 willPresentMenuForConfiguration:(UIContextMenuConfiguration *)arg2 animator: /* Error: Ran out of types for this method. */;
-- (void)pdateIncludedButton;
-- (_Bool)sturesOverReservedSpace;
-- (UICollectionViewTransitionLayout *)er;
-- (NSIndexPath *)@5;
-- (NSIndexPath *);
-- (void)ì;
-- (_Bool);
-- (NSIndexPath *)¼;
+- (_Bool)raction"16{CGRect={CGPoint=dd}{CGSize=dd}}24@"PKAttachmentView"56;
+- (_Bool)IBBBQ{PKShaderPipelineConfig=[8C]}}16;
+- (UIContextMenuConfiguration *)stemMidGrayColor;
+- (struct CGPoint)aint:(UICollectionView *)arg1;
+- (_Bool)ionInView:(UICollectionView *)arg1 completionHandler:(NSIndexPath *)arg2;
+- (_Bool)edStrokesForStroke:(UICollectionView *)arg1 attachment:(NSIndexPath *)arg2 drawing: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)ement;
+- (_Bool)observers;
+- (_Bool)ebuffer;
+- (void)_isDrawing;
+- (_Bool)u5xvôv0x;
+- (_Bool)erCustomItemC;
 @end
 

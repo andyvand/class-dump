@@ -13,13 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)SELECT DISTINCT
-        json_each.value AS date
-    FROM
-        extracted_dates,
-        json_each(extracted_dates.dates)
-    WHERE extracted_dates.name = ?;;
-- (void)tion;
+- (long long)esourceNodes;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

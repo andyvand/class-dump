@@ -9,10 +9,9 @@
     double minimumScaleFactor;
 }
 
-- (double)nPropertiesToFetch: /* Error: Ran out of types for this method. */;
-- (void)!øBùñÁ1¢!0@ù
-× ;
-- (id)age;
+- (id);
+- (void), which it needs to animate on displays different from the main one.;
+- (double)èo;
 
 // Remaining properties
 @property(nonatomic) double minimumScaleFactor; // @synthesize minimumScaleFactor;

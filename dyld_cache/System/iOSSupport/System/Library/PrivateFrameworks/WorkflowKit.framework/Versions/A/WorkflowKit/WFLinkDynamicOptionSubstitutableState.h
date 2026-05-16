@@ -26,9 +26,9 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void)ri|view|controller|open|website|preview|quick look;
+- (id)p);
 
 // Remaining properties
 @property(readonly, nonatomic) WFImage *image; // @synthesize image=_image;

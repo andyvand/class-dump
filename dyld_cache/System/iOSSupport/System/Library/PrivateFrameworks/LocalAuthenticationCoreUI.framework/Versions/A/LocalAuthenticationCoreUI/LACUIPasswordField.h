@@ -24,11 +24,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (long long);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (long long);
 - (void);
 - (id);
 - (void);

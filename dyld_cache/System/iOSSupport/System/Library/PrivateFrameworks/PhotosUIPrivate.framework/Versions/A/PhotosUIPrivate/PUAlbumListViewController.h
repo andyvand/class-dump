@@ -238,10 +238,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -299,71 +299,79 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (long long);
-- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (long long);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool)T!tDùÑV1b0@ù
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (_Bool);
+- (long long);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)q"Ð1â
+0@ù
 × ;
-- (id)AUð!ôCùñW1b0@ù
+- (_Bool);
+- (_Bool)0@ù
 × ;
-- (id)Ô ;
-- (void);
-- (_Bool)rray"24;
-- (id)oolLabelFont;
-- (long long)y_creationStateImage:(id)arg1;
-- (long long)rtedMotionEffectsMode:(long long)arg1;
-- (void)sentedObjectForTab:(_Bool)arg1;
-- (id)tainsIndexPath:(id)arg1;
-- (void)Traits:(id)arg1;
-- (id)Configuration;
-- (id)desSharedAlbums;
-- (void)PhotoPlayer",R,N,V_player;
-- (id)or;
-- (void)LÏ(Ð;
-- (void)ores:(id)arg1 %@
+- (id)1#Ð1â
+0@ù
+× ;
+- (void)
+× ;
+- (void)1â
+0@ù
+× ;
+- (id)ÁØ°!ðFùñ#1â
+0@ù
+× ;
+- (void)aractersInRanges:(id)arg1 replacementString:(unsigned long long)arg2;
+- (id)rentProgress:(id)arg1;
+- (_Bool)thVisibility:(id)arg1 key:(id)arg2;
+- (long long)houldUpdateBarButtonItems:(long long)arg1 withNewBarButtonItems: /* Error: Ran out of types for this method. */;
+- (void)ViewModel:toViewModel:usingCrossfade: /* Error: Ran out of types for this method. */;
+- (id)SIndexSet",&,N,V_visualSections;
+- (id)Change: /* Error: Ran out of types for this method. */;
+- (void)ng poster shuffle configuration;
+- (id)OW_DELETE_CONFIRMATION;
+- (id)SelectedAssetIdentifiers;
+- (id)ôø
 ;
-- (id)P½oJ½yaK½SgGGAFyO½SgGGü9½G=½G_N½yADy^¿y;
-- (void);
-- (void);
-- (void)"ÁN¾a;
-- (id);
-- (void)¾;
+- (void)¶;
+- (void)ôîÿ;
+- (void)È+;
 
 // Remaining properties
 @property(nonatomic, setter=_setAboutToCreateAlbum:) _Bool _aboutToCreateAlbum; // @synthesize _aboutToCreateAlbum=__aboutToCreateAlbum;

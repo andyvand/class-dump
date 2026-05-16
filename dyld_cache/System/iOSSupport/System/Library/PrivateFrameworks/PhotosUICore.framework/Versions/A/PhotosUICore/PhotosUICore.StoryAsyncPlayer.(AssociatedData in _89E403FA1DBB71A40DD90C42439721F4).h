@@ -11,8 +11,8 @@
     MISSING_TYPE *previewPlayersList;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

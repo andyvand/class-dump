@@ -19,18 +19,19 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (unsigned int);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%@
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;

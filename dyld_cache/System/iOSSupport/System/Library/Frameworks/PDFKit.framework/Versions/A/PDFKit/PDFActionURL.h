@@ -13,17 +13,17 @@
     PDFActionURLPrivateVars *_private2;
 }
 
-- (id)"16@"NSIndexSet"24@"NSEvent"32^{CGPoint=dd}40;
-- (struct __CFDictionary *)indow"16;
-- (_Bool)ion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)formBoardLinkWithURL:(struct _NSZone *)arg1;
-- (void)erRadiusView;
+- (struct __CFDictionary *);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)lh;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL;

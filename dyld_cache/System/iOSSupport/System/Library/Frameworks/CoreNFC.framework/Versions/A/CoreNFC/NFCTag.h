@@ -32,13 +32,14 @@
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -48,19 +49,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAvailable) _Bool available;

@@ -7,8 +7,6 @@
 @class UIColor, UITabBar;
 
 @protocol _UITabBarButton
-- (UITabBar *);
-- (void)rk/SymptomDiagnosticReporter;
 
 // Remaining properties
 @property(nonatomic, getter=_isSelected, setter=_setSelected:) _Bool _selected;

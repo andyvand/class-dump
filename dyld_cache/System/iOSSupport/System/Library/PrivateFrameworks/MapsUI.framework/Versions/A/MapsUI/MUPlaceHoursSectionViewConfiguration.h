@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ame;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfInlineServiceHours; // @synthesize numberOfInlineServiceHours=_numberOfInlineServiceHours;

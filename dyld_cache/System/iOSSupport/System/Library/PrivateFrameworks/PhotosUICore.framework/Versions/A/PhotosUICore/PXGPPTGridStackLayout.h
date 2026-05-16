@@ -36,8 +36,8 @@
 - (struct PXGAssetDecorationInfo);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)8á3ÿ-É:ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,7 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (long long);
-- (_Bool)tDataByIdentifier;
+- (_Bool)dOÿ;
+- (long long)Delegate;
+- (void);
 @end
 

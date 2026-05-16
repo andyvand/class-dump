@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     _Bool isSyncingFromAKAnnotation;
 }
 
-- (void)geableStrokeRenderCache;
+- (void);
 
 @end
 

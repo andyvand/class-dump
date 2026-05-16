@@ -11,16 +11,15 @@
     MISSING_TYPE *delegate;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)!üCùÄð1¢!0@ù
-× ;
-- (id)ion;
+- (id);
+- (void)pTl;
 
 @end
 

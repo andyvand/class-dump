@@ -19,7 +19,7 @@
     struct CGPoint _originalCenter;
 }
 
-- (void)0;
+- (void);
 - (void);
 - (void);
 - (double);
@@ -30,12 +30,12 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (double);
 - (void);
-- (void)(;
-- (double);
 - (id);
-- (double)ningSession: /* Error: Ran out of types for this method. */;
+- (void);
+- (double)d<;
+- (double)PostProcessor"16@?0@"<TFResolver>"8;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double damping; // @synthesize damping=_damping;

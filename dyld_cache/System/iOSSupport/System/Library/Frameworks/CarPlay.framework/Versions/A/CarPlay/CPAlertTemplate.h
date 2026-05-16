@@ -21,10 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;

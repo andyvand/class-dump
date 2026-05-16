@@ -18,16 +18,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool)(z;
-- (id);
 - (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
+- (void)contactIDsToContacts;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *assetSyndications; // @synthesize assetSyndications=_assetSyndications;

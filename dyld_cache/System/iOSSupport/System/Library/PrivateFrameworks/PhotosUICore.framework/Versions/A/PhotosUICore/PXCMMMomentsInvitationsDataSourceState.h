@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)# I+¡8;
+- (id)@"<PXPeopleFlowViewControllerActionDelegate>";
+- (void)üt;
+- (id)¾`TT6;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *assetCollections; // @synthesize assetCollections=_assetCollections;

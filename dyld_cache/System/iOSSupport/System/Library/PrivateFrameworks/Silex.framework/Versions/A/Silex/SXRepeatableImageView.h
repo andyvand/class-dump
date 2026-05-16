@@ -15,10 +15,11 @@
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *repeatingImage; // @synthesize repeatingImage=_repeatingImage;

@@ -5,6 +5,6 @@
 //
 
 @protocol SGSuggestionsServiceURLsProtocol
-- (void)opView;
+- (void)additionalContentInsets;
 @end
 

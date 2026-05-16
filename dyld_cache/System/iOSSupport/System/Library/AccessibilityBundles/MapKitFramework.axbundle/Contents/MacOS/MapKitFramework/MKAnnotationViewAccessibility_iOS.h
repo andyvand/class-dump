@@ -11,15 +11,15 @@
 }
 
 + (id);
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
 - (id);
 
 @end

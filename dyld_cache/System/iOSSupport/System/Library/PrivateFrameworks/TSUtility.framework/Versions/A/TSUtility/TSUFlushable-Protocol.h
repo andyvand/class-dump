@@ -5,8 +5,5 @@
 //
 
 @protocol TSUFlushable
-
-@optional
-- (void);
 @end
 

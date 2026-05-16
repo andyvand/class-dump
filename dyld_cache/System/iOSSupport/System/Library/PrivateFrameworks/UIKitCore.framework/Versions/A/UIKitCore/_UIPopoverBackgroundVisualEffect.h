@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)tLastPlayedDate:(struct _NSZone *)arg1;
-- (id);
-- (_Bool)ontentSizeCategory"b1"needsDelayedSearchControllerPresentation"b1"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"supportsStagedDictation"b1"backgroundMaterialShouldBeGlass"b1"makingTextChangesForCloning"b1"needsUpdateBackdropStyle"b1"needsUpdateBackgroundMaterial"b1"isPresentingEditMenu"b1};
+- (_Bool);
+- (id)t_subterraneanViewContainer: /* Error: Ran out of types for this method. */;
+- (id)CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}d@},R,N;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool tintColorIsTranslucent; // @synthesize tintColorIsTranslucent=_tintColorIsTranslucent;

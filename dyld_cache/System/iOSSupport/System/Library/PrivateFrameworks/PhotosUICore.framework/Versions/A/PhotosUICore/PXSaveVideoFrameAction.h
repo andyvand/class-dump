@@ -34,9 +34,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ity: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)WithAction: /* Error: Ran out of types for this method. */;
+- (id)ndex %u in layout %@;
+- (void)Ç<1ÿÇX1ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

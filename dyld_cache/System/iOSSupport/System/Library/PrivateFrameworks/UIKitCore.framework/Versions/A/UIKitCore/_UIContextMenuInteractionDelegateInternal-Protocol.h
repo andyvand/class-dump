@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIClickHighlightEffect;
-
 @protocol _UIContextMenuInteractionDelegateInternal
 
 @optional
-- (id <_UIClickHighlightEffect>)HyyHz;
+- (_Bool).3yACyACyâ.3yì×.3¯Ð.3G!.3G;.3G]¨.3GGSg;
 @end
 

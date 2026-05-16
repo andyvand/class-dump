@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 + (long long);
 - (id);
 - (void);
-- (void)urce:decisionInfo:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (void);
+- (id)O;
 - (void);
 
 // Remaining properties

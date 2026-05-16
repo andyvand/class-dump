@@ -14,8 +14,8 @@
     MISSING_TYPE *collectionResultsScoreMap;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

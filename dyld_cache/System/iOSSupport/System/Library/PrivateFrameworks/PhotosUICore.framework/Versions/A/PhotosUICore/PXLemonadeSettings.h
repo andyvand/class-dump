@@ -205,7 +205,7 @@
     long long _samplePhototypeVisibility;
 }
 
-+ (id)¨v9;
++ (id)r_lock_s;
 - (long long);
 - (double);
 - (_Bool);
@@ -556,25 +556,25 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (double);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
-- (long long);
 - (long long);
 - (_Bool);
 - (_Bool);
+- (long long);
+- (double);
+- (void);
+- (void);
+- (void);
+- (double);
+- (long long);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -591,10 +591,10 @@
 - (void);
 - (void);
 - (long long);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (id)isualDiagnostics is false. Skip collecting visual diagnostics;
+- (void)Ìbÿ@Ìbÿ;
 
 // Remaining properties
 @property(nonatomic) long long aggregatedHighlightColumns; // @synthesize aggregatedHighlightColumns=_aggregatedHighlightColumns;

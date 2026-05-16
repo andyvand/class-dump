@@ -38,13 +38,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)riggerTitle;
-- (void)¾òÿ©ó«¡;
+- (id);
+- (void);
+- (void);
+- (void)rvice4Sensors;
+- (id)±È;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *audioFileURL; // @synthesize audioFileURL=_audioFileURL;

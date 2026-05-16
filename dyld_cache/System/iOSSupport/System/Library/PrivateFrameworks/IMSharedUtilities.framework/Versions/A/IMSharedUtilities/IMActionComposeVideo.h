@@ -12,13 +12,13 @@
 }
 
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)Í;
+- (void)ration, not rescheduling timer;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

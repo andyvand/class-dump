@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)^;
-- (CDUnknownBlockType);
-- (void)0º;
-- (id)UIPointerInteractionAnimating;
-- (_Bool)2@?0@"NSItemProvider"8Q16^B24;
-- (void)omImageInset)-|;
-- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool)egator>"32;
+- (CDUnknownBlockType)ctivationHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)È`;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

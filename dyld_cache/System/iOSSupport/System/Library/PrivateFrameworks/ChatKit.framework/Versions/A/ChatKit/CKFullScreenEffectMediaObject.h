@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSURL *_audioFileURL;
 }
 
-- (id)redacting preview images for attachment %@;
-- (void);
-- (id)ÿñÍ½ ¶ÿùÍ½¶ÿÙÍ½¶ÿ;
+- (id);
+- (void)H¨;
+- (id)`(.;
 
 @end
 

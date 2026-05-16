@@ -29,14 +29,14 @@
 - (void);
 - (Class);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id),N;
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) Class collectionGeneric; // @synthesize collectionGeneric=_collectionGeneric;

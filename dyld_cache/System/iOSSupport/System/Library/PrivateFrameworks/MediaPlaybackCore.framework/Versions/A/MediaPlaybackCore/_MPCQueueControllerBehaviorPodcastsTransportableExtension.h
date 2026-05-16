@@ -11,14 +11,14 @@
     id <MPCQueueControllerSessionTypesInvalidatable> sessionTypesInvalidatable;
 }
 
-+ (id)eporting empty username;
 + (id);
-- (void)A;
-- (id);
-- (_Bool)setLastAuthenticationCredentialSource:(id)arg1;
-- (id);
++ (id);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)Creating hosted endpoint for local because %{public}@;
 
 // Remaining properties
 @property(nonatomic, retain) id <MPCQueueControllerSessionTypesInvalidatable> sessionTypesInvalidatable; // @synthesize sessionTypesInvalidatable;

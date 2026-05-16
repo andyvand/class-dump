@@ -8,14 +8,5 @@
 
 @optional
 - (void);
-- (void)$;
-- (void)X;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ìÄ;
-- (void)cy;
 @end
 

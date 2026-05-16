@@ -26,12 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)9h;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -41,27 +41,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)&;
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
 - (void);
-- (id)boundCount: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)larEligibilityCheckWithEffectivePairedDevice:handoffType:defaultsManager: /* Error: Ran out of types for this method. */;
-- (void)he,%@,%@,failed to save records in zone with zoneID %@  after retries with recoverable error %@;
-- (void)er not satisfying:(id)arg1 options (in %s:(id)arg2 %d);
-- (void)®Gáz?ÍÌÌÌÌÌÌ?;
-- (void)-eV;
+- (void);
+- (void)rvice _fetchCurrentWorkoutSnapshotWithCompletion:(CDUnknownBlockType)arg1 ];
+- (void)ionModifyMessage, %@, skipping any action;
+- (void)ContextSources, %{sensitive}@;
+- (void)isit, %{sensitive}@, fidelity policy, %lu;
+- (void)Ë-Ê;
 
 // Remaining properties
 @property(nonatomic) unsigned long long availability; // @synthesize availability=_availability;

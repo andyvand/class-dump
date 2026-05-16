@@ -12,23 +12,23 @@
 {
 }
 
-+ (id);
++ (id)­]+b§;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (int);
+- (int);
 - (_Bool);
 - (id);
 - (id);
-- (id)A4;
+- (id);
 - (int);
 - (int);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)@, start training, reason, %lu, mode, %lu, trainLocationsOfInterestLastCompletionDate (full-training) %@, lastLightweightTrainingCompletionDate %@ <---------;
+- (void)tal_uninterrupted_WiFi_connection_duration_work_bucketed;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedPreview;
+@class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
+@protocol UIContextMenuInteractionAnimating;
 
 @protocol UIContextMenuInteractionDelegate
+- (UIContextMenuConfiguration *)y*]é%]ySiSgGG]]GSg_A11_tGGtGG_Qo_0]ADyAFyAFyAFy­.]yADyä*]yþÀ]yAFyA4_AJG·0]ySayHGøÐ\AGyADyAFyÄ]yA4_AHGA5_yB.]SgGGA4_GGGG_Qo_º	;
 
 @optional
-- (UITargetedPreview *)c#;
+- (UITargetedPreview *)ester;
+- (void)nce.;
+- (void)nscript:(UIContextMenuInteraction *)arg1 keepAllCurrentlyLoadedMessages:(UIContextMenuConfiguration *)arg2 userInitiated:(id <UIContextMenuInteractionAnimating>)arg3 ];
 - (UITargetedPreview *);
-- (void)sferGUID};
-- (void)Yq½Ä§Jÿqq½ÌÑâÿ;
+- (void)¥÷i;
 @end
 

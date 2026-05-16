@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (id);
+- (id);
+- (void)ring"88B96Q100d108Q116q124q132@"NSString"140B148@"NSSet"152@"SXTagSubscriptionStatus"160;
 - (void);
 
 // Remaining properties

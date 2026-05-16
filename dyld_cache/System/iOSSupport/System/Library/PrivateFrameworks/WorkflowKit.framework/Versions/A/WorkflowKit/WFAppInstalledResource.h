@@ -38,10 +38,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id)³Ì;
-- (id)ºÌ;
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -51,18 +51,17 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)1B0@ù
-× ;
-- (void)@?@"NSNumber"@"NSError">24;
-- (id);
-- (void)ation;
+- (id)rk: /* Error: Ran out of types for this method. */;
+- (void)nticationType);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;

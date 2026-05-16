@@ -42,10 +42,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)@;
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;

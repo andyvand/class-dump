@@ -7,9 +7,6 @@
 @protocol HUConfigurationViewControllerDelegate;
 
 @protocol HUConfigurationViewController
-- (id <HUConfigurationViewControllerDelegate>)
-× ;
-- (void)0:(id <HUConfigurationViewControllerDelegate>)arg1 8@"HUQuickControlPresentationCoordinator"16@"HFItem"24;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUConfigurationViewControllerDelegate> delegate;

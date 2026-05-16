@@ -5,7 +5,7 @@
 //
 
 @interface (null) (AKPlatformTextExtensions)
-- (void)XT;
+- (void);
 - (struct CGSize);
 - (id);
 @end

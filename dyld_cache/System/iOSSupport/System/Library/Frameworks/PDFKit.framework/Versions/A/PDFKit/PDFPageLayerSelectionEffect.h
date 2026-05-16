@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)36@?<v@?@"NSError">44;
-- (void)"SiriUISiriView"16;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);

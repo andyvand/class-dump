@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     _UIDebugIssueReport *_subissueReport;
 }
 
-+ (id)%@ Error reading from MOCK store %@ ;
-+ (id)g fetchRecordZoneChangesOperation;
++ (id);
++ (id);
 - (id);
-- (id)ckholing chat:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)esentation;
-- (id)yondDistance;
-- (id)formationHierarchyLayoutDelegate>",W,N,V_delegate;
-- (void)°;
+- (id);
+- (id);
+- (void)ayoutSubviews:(id)arg1 baseImplementation: /* Error: Ran out of types for this method. */;
+- (id)StringDrawingContext;
+- (void)0];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

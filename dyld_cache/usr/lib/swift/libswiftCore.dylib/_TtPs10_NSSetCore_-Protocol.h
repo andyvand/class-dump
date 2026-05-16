@@ -7,11 +7,9 @@
 @protocol _TtPs13_NSEnumerator_;
 
 @protocol _TtPs10_NSSetCore_
-- (id)E;
-- (id <_TtPs13_NSEnumerator_>);
-- (id)G";
-- (id)Ôÿÿ´ÿÿ;
-- (long long)L;
+- (id)º,àÿÿÿ;
+- (id <_TtPs13_NSEnumerator_>);
+- (long long)î`ôàõ`÷ øàú`û@;
 
 // Remaining properties
 @property(nonatomic, readonly) long long count;

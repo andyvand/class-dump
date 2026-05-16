@@ -11,12 +11,12 @@
     GEOLocationShifter *_geoLocationShifter;
 }
 
-+ (_Bool)C;
-- (void)aring/SFShareSheetService/createSharingURLForCollaborationRequest;
-- (void);
-- (void);
++ (_Bool);
 - (id);
-- (id)ndPrettyBOOL:withName:andIndent:options: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)erForPolygonalRegionEvents;
+- (void)not satisfying:assertionIdentifier /* Error: Ran out of types for this method. */;
 
 @end
 

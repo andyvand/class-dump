@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSOpaqueWrapper;
+@class BSOpaqueWrapper, MISSING_TYPE;
 
 @interface IMBrandRBMBrandDataSourceObjcShim
 {
+    MISSING_TYPE *chatBotBrandDataSource;
     BSOpaqueWrapper *opaqueWrapper;
 }
 
-- (id)le == %@;
-- (id)r _finalizeInteractivePreview;
-- (void);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)Unblocking contact:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) BSOpaqueWrapper *opaqueWrapper; // @synthesize opaqueWrapper;

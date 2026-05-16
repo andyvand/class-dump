@@ -13,8 +13,8 @@
     MISSING_TYPE *directionsContact;
 }
 
-- (void);
 - (id);
+- (void)ontentSize: /* Error: Ran out of types for this method. */;
 
 @end
 

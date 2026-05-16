@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)ate2D=dd}{?=dd}},R,D,N;
+- (id);
+- (void)XFeatures";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

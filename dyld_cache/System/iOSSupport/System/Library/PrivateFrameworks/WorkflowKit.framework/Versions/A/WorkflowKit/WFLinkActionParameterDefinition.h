@@ -16,6 +16,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -28,8 +29,8 @@
 - (id);
 - (Class);
 - (id);
-- (void);
-- (id)iting the run request data %{public}@;
+- (id);
+- (void)ay include parameters in the URL. These will be passed as output to the next action, as text if there is just one parameter, or as a dictionary if there are multiple (use Get Dictionary Value to access it).;
 
 // Remaining properties
 @property(readonly, nonatomic) Class parameterClass;

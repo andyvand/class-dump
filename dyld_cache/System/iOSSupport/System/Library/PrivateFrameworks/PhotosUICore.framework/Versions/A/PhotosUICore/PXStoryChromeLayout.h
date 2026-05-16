@@ -121,22 +121,22 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned int);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)imulatedDetailsViewLoadingDelay;
 - (_Bool);
 - (void);
-- (id)5;
+- (void)lFavorite;
+- (void)rce;
+- (id)$S4;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *alphaOverride; // @synthesize alphaOverride=_alphaOverride;

@@ -12,8 +12,7 @@
 
 - (id);
 - (id);
-- (CDUnknownBlockType)!¬Dù±µ	1b0@ù
-× ;
+- (CDUnknownBlockType);
 
 @end
 

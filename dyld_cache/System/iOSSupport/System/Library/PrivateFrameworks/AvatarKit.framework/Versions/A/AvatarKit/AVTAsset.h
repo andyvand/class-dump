@@ -45,10 +45,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (long long)_;
+- (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSString *ambientOcclusion; // @synthesize ambientOcclusion=_ambientOcclusion;

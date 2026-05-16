@@ -14,11 +14,10 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)!X@ùñx1b0@ù
-× ;
-- (struct CGRect)omLevel: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (void)rch.suggestion-fetcher;
+- (void)nÿ;
 
 // Remaining properties
 @property struct CGRect destinationRect; // @synthesize destinationRect=_destinationRect;

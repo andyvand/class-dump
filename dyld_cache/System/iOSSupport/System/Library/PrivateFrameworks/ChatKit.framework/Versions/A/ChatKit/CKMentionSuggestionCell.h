@@ -14,18 +14,19 @@
     UIView *_hoverView;
 }
 
-+ (id));
++ (id);
 - (void);
 - (void);
 - (id);
-- (id)%d;
+- (id);
 - (void);
-- (id)=2;
+- (id);
 - (void);
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
 - (void);
-- (id);
-- (void)6Dk.;
-- (id)¨¸.;
 
 // Remaining properties
 @property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;

@@ -9,12 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)ding participants %@;
++ (_Bool);
 + (_Bool);
 + (id);
-+ (id)BadgeViewC;
-+ (id)/
-;
++ (id)le;
++ (id)´ÍË´f;
 
 @end
 

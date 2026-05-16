@@ -5,6 +5,5 @@
 //
 
 @protocol IMGroupTypingTrackingControllerDelegate
-- (void);
 @end
 

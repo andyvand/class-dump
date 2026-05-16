@@ -13,13 +13,13 @@
 }
 
 - (void);
-- (void)uplicateBeaconsWithCompletion:(id)arg1;
-- (void)DeviceKeyRecordsForUUID:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1;
-- (void)SaveAccount:(id)arg1 inStore: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)PasteWithRange:(id)arg1 originalBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

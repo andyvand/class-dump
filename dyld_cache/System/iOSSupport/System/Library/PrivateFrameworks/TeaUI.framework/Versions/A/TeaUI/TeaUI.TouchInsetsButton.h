@@ -11,10 +11,10 @@
     MISSING_TYPE *touchInsets;
 }
 
-- (void);
-- (_Bool);
-- (id)me;
 - (id);
+- (void);
+- (id);
+- (_Bool);
 
 @end
 

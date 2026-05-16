@@ -20,16 +20,15 @@
     MISSING_TYPE *topHits;
 }
 
+- (struct CGSize);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)entString:(id)arg1;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (struct CGSize)L1B0@ù
-× ;
 
 @end
 

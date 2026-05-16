@@ -8,11 +8,10 @@
 @protocol UIPreviewInteractionDelegate, _UIPreviewInteractionTouchForceProviding;
 
 @protocol _UIPreviewInteractionImpl
-- (void)%d;
-- (struct CGPoint)decelerationTrackingBehavior;
-- (void)kOfYearDelegate>",R,W,N,V_delegate;
-- (id <UIPreviewInteractionDelegate>);
-- (void)rüÿ¢ýÿ;
+- (void)0@ù
+× ;
+- (UIView *)stingAccessoryViewFrom: /* Error: Ran out of types for this method. */;
+- (void)tSides;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIPreviewInteractionDelegate> delegate;

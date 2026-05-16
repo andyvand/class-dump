@@ -24,7 +24,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)troller initWithTitle:detailText:symbolName:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cachedSortedRooms; // @synthesize cachedSortedRooms=_cachedSortedRooms;

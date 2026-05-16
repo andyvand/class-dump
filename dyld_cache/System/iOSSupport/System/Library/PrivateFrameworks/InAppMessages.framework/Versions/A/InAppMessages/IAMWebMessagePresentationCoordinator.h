@@ -33,12 +33,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

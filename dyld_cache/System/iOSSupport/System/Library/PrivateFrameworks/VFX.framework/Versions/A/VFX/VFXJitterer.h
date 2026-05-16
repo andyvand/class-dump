@@ -17,17 +17,18 @@
     NSObject<OS_dispatch_source> *_restartSource;
 }
 
-+ (void)9ñÕÐO^ÿ)ñÕÜ\(ÿñÕP^ÿ;
++ (void)`«d>È[>%Ï=éðp?¸}=b?5c>
+?1]?x¹<?¸'?ÕÍM?-$°>ÓL×>%=âçg?w);9>wJ¿>¸±1?·(7?==>?¤  =«¶=VID?jl>ëâb?i <i/	<ó®>îÐP>Ò?÷4=¤Ý:>ÌÓù=jÂö>²ãu=¿¶6?Qp>¨8.>ü9>øúú>T´< /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (id);
-- (void)OnCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)b:ÅÇG?Ú>½l> /* Error: Ran out of types for this method. */;
+- (void)';
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

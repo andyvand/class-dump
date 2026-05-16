@@ -15,19 +15,20 @@
 
 - (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (_Bool)°1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)@ù
+× ;
+- (void)AnimatedFrameOrBoundsChange;
 - (struct CGRect);
 - (void);
-- (void);
-- (void)º;
-- (void)o°!Ä@ùñÁ°1¢!0@ù
-× ;
-- (void)!0@ù
-× ;
-- (void)eViewCompressionResistancePriority;
-- (struct CGRect)IKBStrokeSample;
-- (void)TargetForSelector, ((void*)0))" -> %llu;
-- (void)ptions;
-- (_Bool);
 
 // Remaining properties
 @property struct CGRect documentBounds; // @synthesize documentBounds=_documentBounds;

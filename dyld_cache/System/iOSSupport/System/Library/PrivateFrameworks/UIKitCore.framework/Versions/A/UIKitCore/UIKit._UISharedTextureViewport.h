@@ -17,14 +17,13 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)r3ç;
-- (void)1¢!0@ù
-× ;
-- (void)backGeneratorPlayCountWithSuffix:(id)arg1;
-- (id)e;
-- (id);
+- (id)on;
+- (void)ISplitViewControllerAdaptiveImpl _updatePreferredColumnsSplitBehavior:] /* Error: Ran out of types for this method. */;
+- (void)Àwôþ;
+- (void)XÑFÿ&#x;
 
 @end
 

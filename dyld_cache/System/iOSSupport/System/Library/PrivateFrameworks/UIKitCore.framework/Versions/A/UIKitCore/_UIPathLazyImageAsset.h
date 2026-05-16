@@ -19,20 +19,17 @@ __attribute__((visibility("hidden")))
     NSArray *_imagePaths;
 }
 
-- (id)pletion: /* Error: Ran out of types for this method. */;
-- (_Bool)e command event [missing event];
+- (_Bool);
 - (id);
-- (void);
-- (id)ap!,EùÃÐ1¢!0@ù
-× ;
-- (id)!GùqÇ°1¢!0@ù
-× ;
-- (id)Í1¢!0@ù
-× ;
-- (_Bool)ndary:inDirection: /* Error: Ran out of types for this method. */;
-- (id)etFirstLineCapFrameOriginY: /* Error: Ran out of types for this method. */;
-- (void)`;
-- (id)pÿPÃØg`;
+- (id);
+- (id);
+- (id);
+- (id)U23ø~;
+- (void);
+- (_Bool);
+- (void);
+- (id)ÊdQ];
+- (id)^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool haveCGCacheImages; // @synthesize haveCGCacheImages=_haveCGCacheImages;

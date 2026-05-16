@@ -5,6 +5,7 @@
 //
 
 @protocol PXVideoScrubberControllerTarget
+- (float)NumberedSelectionStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType durationChangeHandler;

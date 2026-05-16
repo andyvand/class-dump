@@ -15,9 +15,9 @@
 - (void);
 - (void);
 - (id);
-- (void)0e;
-- (id);
 - (void);
+- (id);
+- (void)rExtended;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDebugInfo:) PXTilingControllerDebugInfo *_debugInfo; // @synthesize _debugInfo=__debugInfo;

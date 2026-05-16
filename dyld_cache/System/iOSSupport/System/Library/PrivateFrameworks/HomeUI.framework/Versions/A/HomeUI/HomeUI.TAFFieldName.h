@@ -18,10 +18,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)æÿ;
-- (void);
++ (id)! @ùñð1â
+0@ù
+× ;
++ (id)PD;
 - (id);
+- (void)rtedAppleTVMessage_actionSet;
 
 @end
 

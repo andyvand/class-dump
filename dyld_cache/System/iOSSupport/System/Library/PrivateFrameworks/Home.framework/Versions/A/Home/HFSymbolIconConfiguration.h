@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ü;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageSymbolConfiguration *configuration; // @synthesize configuration=_configuration;

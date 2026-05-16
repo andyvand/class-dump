@@ -8,6 +8,7 @@
 
 @protocol PXStoryMovieHighlightsCollection
 - (long long);
+- (NSString *)PXSuggestionsDataSourceManager.m;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

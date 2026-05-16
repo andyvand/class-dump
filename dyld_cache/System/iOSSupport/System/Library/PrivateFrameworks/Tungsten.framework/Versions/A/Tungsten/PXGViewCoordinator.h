@@ -50,14 +50,14 @@
 - (id);
 - (void);
 - (unsigned char);
+- (id);
 - (void);
-- (void);
+- (id);
 - (struct UIEdgeInsets);
-- (id);
 - (void);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id)ns:forSublayoutsInRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *belowSubview; // @synthesize belowSubview=_belowSubview;

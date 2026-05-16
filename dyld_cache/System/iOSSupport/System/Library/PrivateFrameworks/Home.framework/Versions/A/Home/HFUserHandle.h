@@ -14,13 +14,14 @@
 
 + (id);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)ddingUnit:value:toDate:options: /* Error: Ran out of types for this method. */;
+- (void)	
+;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,10 +30,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)twareUpdateRequiredTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

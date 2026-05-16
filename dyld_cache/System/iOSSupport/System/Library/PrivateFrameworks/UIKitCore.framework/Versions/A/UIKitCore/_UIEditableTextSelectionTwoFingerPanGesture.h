@@ -10,8 +10,8 @@
 {
 }
 
-- (id)mallSymbolImageFontSize;
-- (id)layConfigurations;
+- (id);
+- (id)t. State (@lu) is out of range for the initialized eventCount (%lu);
 
 @end
 

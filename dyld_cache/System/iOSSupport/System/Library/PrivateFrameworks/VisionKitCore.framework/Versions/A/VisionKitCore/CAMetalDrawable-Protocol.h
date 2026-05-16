@@ -8,6 +8,7 @@
 @protocol MTLTexture;
 
 @protocol CAMetalDrawable
+- (id <MTLTexture>)id _SetInitialZoomFactorOnCaptureDevice(AVCaptureDevice *__strong);
 
 // Remaining properties
 @property(readonly) CAMetalLayer *layer;

@@ -14,8 +14,9 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)1ï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;

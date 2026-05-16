@@ -7,8 +7,8 @@
 @class UIStatusBarServer;
 
 @protocol UIStatusBarServerClient
-- (void)r:(UIStatusBarServer *)arg1;
-- (void)setButtonRole:(UIStatusBarServer *)arg1;
-- (void)rWindow:(UIStatusBarServer *)arg1;
+- (void)nimated:(UIStatusBarServer *)arg1;
+- (void)dow:(UIStatusBarServer *)arg1 fromViewController:(_Bool)arg2 toViewController:(long long)arg3;
+- (void);
 @end
 

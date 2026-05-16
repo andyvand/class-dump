@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (id);
-- (_Bool)Ì;
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (Class);
@@ -34,8 +34,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsAllCalendars; // @synthesize allowsAllCalendars=_allowsAllCalendars;

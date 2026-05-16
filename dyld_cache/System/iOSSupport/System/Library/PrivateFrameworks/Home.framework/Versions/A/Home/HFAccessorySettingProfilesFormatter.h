@@ -11,7 +11,7 @@
 
 - (void);
 - (unsigned long long);
-- (id)hØÿÞÓôWq;
+- (id)G;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfProfiles; // @synthesize numberOfProfiles=_numberOfProfiles;

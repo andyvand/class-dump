@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, UITextInputTraits, UITextInteractionAssistant, UIView;
+@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, UITextInteractionAssistant, UIView;
 @protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
 
 @protocol UITextInputPrivate
-- (UITextInputTraits *)@;
-- (UITextInteractionAssistant *)1¢!0@ù
-× ;
-- (struct _NSRange)äAù1¿Ð1¢!0@ù
-× ;
-- (void)omTextView";
-- (_Bool)Sections;
+- (UITextInteractionAssistant *)eractionAnimating>"16;
+- (void)archManager;
 
 @optional
-- (_Bool);
-- (SEL);
-- (struct CGAffineTransform)4;
-- (void);
-- (void)(=;
-- (struct CGRect)?;
-- (NSAttributedString *);
-- (id <UISelectionInteractionAssistant>);
-- (void)Q?i;
-- (UIView *)0@ù
+- (NSDictionary *)0@ù
 × ;
-- (NSDictionary *);
-- (struct CGRect)g simulated results;
+- (void)ITextPosition"16q24;
+- (void)Range=QQ}32;
+- (struct CGRect)dentifier:contactProvider:groupMembersProvider:userInfo: /* Error: Ran out of types for this method. */;
+- (id <UISelectionInteractionAssistant>)belWithContentRect:labelRect: /* Error: Ran out of types for this method. */;
+- (_Bool)tion: /* Error: Ran out of types for this method. */;
+- (NSAttributedString *)xSet",&,N,V_deletedRows;
+- (void)_NAME;
+- (UIView *)ÿ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;

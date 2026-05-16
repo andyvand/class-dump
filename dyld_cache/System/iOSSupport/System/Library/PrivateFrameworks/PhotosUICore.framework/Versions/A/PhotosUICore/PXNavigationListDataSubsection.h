@@ -26,10 +26,9 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id)
-× ;
-- (long long)diom;
+- (id);
+- (long long);
+- (void)Xa;
 
 // Remaining properties
 @property(readonly, nonatomic) PXDataSection *dataSection; // @synthesize dataSection=_dataSection;

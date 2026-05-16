@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
     struct CGPoint bottomRightSelectionPoint;
 }
 
-- (void)ReplicaManager;
+- (void);
 
 @end
 

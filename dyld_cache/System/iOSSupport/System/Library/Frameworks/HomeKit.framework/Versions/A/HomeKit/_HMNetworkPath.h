@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)",&,V_accessorySettingsMetricsDispatcher;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

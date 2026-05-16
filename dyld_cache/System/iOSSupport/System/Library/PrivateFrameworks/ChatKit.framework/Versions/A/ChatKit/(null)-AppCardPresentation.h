@@ -7,9 +7,9 @@
 @interface (null) (AppCardPresentation)
 + (void);
 + (_Bool);
-- (void)ring;
-- (void)E;
 - (void);
-- (id)ondary;
+- (void);
+- (void);
+- (id);
 @end
 

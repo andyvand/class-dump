@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)ring"12;
 - (id);
+- (void);
 
 @end
 

@@ -40,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)ctionModeOptionItem;
-- (void)5NSURLCSgSo7NSErrorCSgIeyByy_;
+- (_Bool)ìþp;
+- (void)ergyTip;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate;

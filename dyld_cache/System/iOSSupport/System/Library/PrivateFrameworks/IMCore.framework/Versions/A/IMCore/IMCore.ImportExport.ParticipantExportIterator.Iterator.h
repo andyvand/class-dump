@@ -13,6 +13,8 @@
     MISSING_TYPE *iterationState;
     MISSING_TYPE *exportConfiguration;
     MISSING_TYPE *hasExportedEmptyAccountParticipant;
+    MISSING_TYPE *lastExportedURI;
+    MISSING_TYPE *exportedAccountAddresses;
 }
 
 @end

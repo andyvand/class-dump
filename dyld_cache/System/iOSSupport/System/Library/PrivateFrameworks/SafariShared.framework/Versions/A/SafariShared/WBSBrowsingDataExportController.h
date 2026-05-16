@@ -12,9 +12,9 @@
     NSSet *_profileIdentifiersToExportFrom;
 }
 
-+ (id)C;
 + (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,15 +26,17 @@
 - (id);
 - (id);
 - (void);
-- (void)hJ;
-- (unsigned long long)^;
+- (unsigned long long);
 - (void);
-- (void)>;
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)Ð;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *exportErrorAlertMessage;

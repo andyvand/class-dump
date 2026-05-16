@@ -14,21 +14,22 @@
     long long _type;
 }
 
-+ (id)S message.;
-+ (id)View;
-+ (_Bool)tÿ2Ö;
-- (unsigned long long);
++ (id);
++ (id)3AC7BD163D47CACAD0711PlatterView";
++ (_Bool);
+- (id);
 - (_Bool);
 - (unsigned int);
-- (id)AnyType;
-- (_Bool);
-- (id);
-- (id)omanSwitchIfNoDismissKey: /* Error: Ran out of types for this method. */;
-- (id)0?;
-- (id)ectionView (%@) is being deallocated while an update is in flight (animations have not completed) and an unexpected result may occur.;
-- (long long)ationTypeHighlight;
-- (void)ÀÛ½'[;
-- (_Bool)rqÿÖ´ÿa;
+- (unsigned long long);
+- (id);
+- (long long)0@ù
+× ;
+- (_Bool)wsTransliterationCandidates;
+- (id)ewControllerTransition",&,N,S_setPreferredTransition:(struct _NSZone *)arg1 ,V_spiTransition;
+- (void)ttributes;
+- (id)à;
+- (id)plicationLaunchOptionsPasteSharingTokenKey;
+- (_Bool)ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -20,35 +20,35 @@
     CDUnknownBlockType _draggingCompletionHandler;
 }
 
-- (id)e;
-- (_Bool)_pauseMergeForScrollingCounter;
-- (void)hanges;
-- (void)sImage,V_image;
-- (void)lService;
-- (void)HTMLEditorViewURLSchemeHandler",&,N,V_urlSchemeHandler;
-- (void)h;
-- (void)tarImageRenderer",R,N,V_renderer;
-- (void)StorageStyler>",&,N,V_styler;
-- (void)ccountPassphraseManager;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)g;
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)a;
-- (_Bool)x;
+- (_Bool);
+- (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (void)y;
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -56,14 +56,12 @@
 - (void);
 - (void);
 - (void);
-- (void)!;
-- (void)O¾©ý{©ýC;
-- (void)yÙJ¬GG
-¬G_;
-=AAy5¬yAOGº¬G<¬yAPSd?¬ySd_?¬ySd_?¬ySd_ç¬ySdGAWQo_AWQo_d¬ySdGQo_GQo_44¬yVK¬GG_A4_Qo_;
-- (_Bool)HR­yêÙ­y´F­G_A3FtGABG;
-- (void)-;
-- (void)¤Wÿâä³6Å.;
+- (void)Point=dd}{CGSize=dd}}32N^d40@48{_NSRange=QQ}56;
+- (void)nding;
+- (void);
+- (_Bool)tring and rich link metadata, attempting to dedupe;
+- (void)ÿ1#;
+- (void)0;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

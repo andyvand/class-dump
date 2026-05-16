@@ -22,11 +22,11 @@
 - (id);
 - (unsigned short);
 - (void);
-- (void);
 - (id);
 - (double);
 - (void);
-- (id){public}@;
+- (void);
+- (id)okoLineAtCharIndex(TSWPCharIndex, CGFloat &, CGFloat &, CGFloat &, CGFloat &, CGFloat &) const;
 
 // Remaining properties
 @property(retain, nonatomic) TSTCellStyle *cellStyle; // @synthesize cellStyle=mCellStyle;

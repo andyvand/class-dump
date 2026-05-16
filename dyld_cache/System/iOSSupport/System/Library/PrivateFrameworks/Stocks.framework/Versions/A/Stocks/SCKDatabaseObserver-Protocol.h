@@ -5,6 +5,5 @@
 //
 
 @protocol SCKDatabaseObserver
-- (void);
 @end
 

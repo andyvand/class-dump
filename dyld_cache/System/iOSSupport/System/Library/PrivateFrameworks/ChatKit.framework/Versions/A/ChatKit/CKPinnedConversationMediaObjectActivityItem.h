@@ -14,19 +14,19 @@
     CKMediaObject *_mediaObject;
 }
 
-+ (id)magenta;
-+ (id)he password.;
++ (id);
++ (id);
 + (_Bool);
 - (id);
-- (id)+[ICLegacyNoteUtilities importLegacyNote:temporaryTextStorage:toNote:attachmentPreviewGenerator:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (id);
+- (id)ionListSearchBarForLayoutMargins:isRTL: /* Error: Ran out of types for this method. */;
+- (void)ø;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;

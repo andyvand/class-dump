@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     double _widestImageWidth;
 }
 
-- (struct CGRect)licationPhoneNumbers;
-- (double)edRecoverableMessagesMetadata:(id)arg1 queryID: /* Error: Ran out of types for this method. */;
-- (void)ÿ(·üÿ¶üÿ;
+- (struct CGRect);
+- (double);
+- (void);
 
 @end
 

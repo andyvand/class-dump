@@ -11,11 +11,10 @@
     MISSING_TYPE *_inhibitor;
 }
 
-- (id)sage %@, %@;
+- (id);
 - (_Bool);
-- (void)
-× ;
-- (id)enceMonitor",&,N,V_cadenceMonitor;
+- (id);
+- (void)DÛ¥ÿiZØpNl;
 
 @end
 

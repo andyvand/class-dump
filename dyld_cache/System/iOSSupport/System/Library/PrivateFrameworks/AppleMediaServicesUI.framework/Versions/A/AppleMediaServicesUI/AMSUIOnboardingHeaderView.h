@@ -26,14 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (struct CGSize);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)er:didEncounterAuthorizationEvent: /* Error: Ran out of types for this method. */;
+- (id)ontroller:didFinishWithPurchaseResult:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double containerHeight; // @synthesize containerHeight=_containerHeight;

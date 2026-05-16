@@ -10,12 +10,12 @@
 }
 
 + (id);
-+ (id)C;
++ (id);
 + (id);
 - (void);
 - (_Bool);
-- (void)nfo:(_Bool)arg1;
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isDestructive; // @synthesize isDestructive=_isDestructive;

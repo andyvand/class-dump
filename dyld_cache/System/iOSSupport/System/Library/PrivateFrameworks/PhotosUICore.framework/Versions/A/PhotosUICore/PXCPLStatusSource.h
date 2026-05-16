@@ -76,26 +76,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)videosCount;
+- (void)NSString",C,N,V_actionConfirmationAlertTitle;
+- (_Bool)namicHeaderViewModelPlaybackDelegateP;
+- (void)0Yÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

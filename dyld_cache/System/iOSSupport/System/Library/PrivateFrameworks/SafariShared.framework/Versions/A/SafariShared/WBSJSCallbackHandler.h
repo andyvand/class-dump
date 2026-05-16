@@ -20,14 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (id)(=;
+- (id);
 - (id);
 - (id);
 - (struct OpaqueJSContext *);
 - (id);
-- (id);
 - (void);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct OpaqueJSContext *globalContext;

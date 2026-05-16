@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void)0e;
+- (void)ler;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStoryClipComposition> clipComposition; // @synthesize clipComposition=_clipComposition;

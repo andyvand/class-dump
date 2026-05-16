@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FBSceneWorkspace;
+
 @protocol FBSceneWorkspaceObserver
 
 @optional
-- (void)le",&,N,V_frontMostElements;
+- (void)PathForItemAtGlobalIndex:(FBSceneWorkspace *)arg1;
 @end
 

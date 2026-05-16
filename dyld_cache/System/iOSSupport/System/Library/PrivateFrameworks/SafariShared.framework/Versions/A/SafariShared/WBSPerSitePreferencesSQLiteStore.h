@@ -15,12 +15,11 @@
     WBSSafariBookmarksSyncAgentProxy *_syncProxy;
 }
 
-+ (id)}S);
++ (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 - (id);
-- (void)=;
 - (void);
 - (void);
 - (void);
@@ -34,10 +33,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void)RG;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,6 +50,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (int);
 - (id);
 - (void);
 - (int);
@@ -60,18 +61,17 @@
 - (_Bool);
 - (int);
 - (id);
-- (void);
+- (int);
 - (void);
-- (int);
-- (int);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void)JSContext *>>::validateKey(const ValueType &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) WBSSafariBookmarksSyncAgentProxy *syncProxy; // @synthesize syncProxy=_syncProxy;

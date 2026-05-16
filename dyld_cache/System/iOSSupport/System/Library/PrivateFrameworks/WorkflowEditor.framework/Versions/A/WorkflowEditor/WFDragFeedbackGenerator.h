@@ -18,15 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void)y²#x&xGA_AAyAAyAByACyY;
-- (void)5StateCG;
-- (void)gGG;
-- (void)9];
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)64B68@72@?80@?88;
 
 // Remaining properties
 @property(nonatomic) long long activeDragSessions; // @synthesize activeDragSessions=_activeDragSessions;

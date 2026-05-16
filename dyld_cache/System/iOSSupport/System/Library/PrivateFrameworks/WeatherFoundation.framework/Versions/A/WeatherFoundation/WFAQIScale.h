@@ -19,30 +19,30 @@
 }
 
 + (_Bool);
-- (void)?;
+- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool)llerMessageSelectionDidChangeNotification;
-- (void);
-- (id);
-- (id);
-- (void)ipReloadingListUponChangingSortingStyle;
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id)(=;
-- (id);
-- (id);
-- (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
 - (struct _NSRange);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAscending) _Bool ascending; // @synthesize ascending=_ascending;

@@ -5,7 +5,5 @@
 //
 
 @protocol TUDynamicBarAnimatorDelegate
-- (void)>;
-- (void);;
 @end
 

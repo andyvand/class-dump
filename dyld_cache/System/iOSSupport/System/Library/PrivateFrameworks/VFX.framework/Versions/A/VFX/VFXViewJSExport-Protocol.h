@@ -8,159 +8,63 @@
 @protocol VFXCameraControlConfiguration;
 
 @protocol VFXViewJSExport
-- (long long);
-- (void),ì;
-- (id);
-- (id);
-- (void)P»ô/ÿ%;
-- (double)[[ buffer(TRANSFORMS_BUFFER_INDEX) ]],
-                               constant float&                        tessellationLevel              [[ buffer(TESSELLATION_LEVEL_BUFFER_INDEX) ]],
-                               unsigned                               thread_position_in_grid        [[ thread_position_in_grid ]],
-                               unsigned                               thread_position_in_threadgroup [[ thread_position_in_threadgroup ]],
-                               unsigned                               threadgroup_position_in_grid   [[ threadgroup_position_in_grid ]],
-                               OsdPatchParamBufferSet                 osdBuffers, 
-                               device MTLQuadTessellationFactorsHalf* quadTessellationFactors        [[ buffer(QUAD_TESSFACTORS_INDEX) ]]
-#if OSD_USE_PATCH_INDEX_BUFFER
-                               ,device unsigned* patchIndex                                          [[ buffer(OSD_PATCH_INDEX_BUFFER_INDEX) ]]
-                               ,device MTLDrawPatchIndirectArguments* drawIndirectCommands           [[ buffer(OSD_DRAWINDIRECT_BUFFER_INDEX) ]]
+- (void)<O;
+- (id)lue;
+- (void)Ê}ÿW;
+- (_Bool)ure2d_array<half> envProbeTextureArray;
+    constant VirtualEnvironmentProbeLighting::TextureArgumentBuffer& virtualEnvProbeTextures;
 #endif
-                         )
-{
+    constant VirtualEnvironmentProbeLighting::ProbeConstantBuffer& virtualEnvProbeConstants;
+
+    metal::depth2d<float> textureShadow;
+
+    metal::texture2d_array<half> dmWarpedAlphaMask;
+
+    metal::texture2d_array<half> textureVisualDepth;
+    metal::texture2d_array<half> textureImmersiveEnvironmentMask;
+    metal::texture2d_array<half> textureSUOcclusionAlphaMask;
+
+#else 
+#if !TARGET_OS_SIMULATOR
+    MTLResourceID textureSpecMaxEss;
+    uint64_t specMaxEssAvgTable;
+
+    uint64_t clippingConstants;
+    MTLResourceID clippingSdfTextureArray;
+
+    MTLResourceID blueNoiseTexture;
+
+    MTLResourceID ispTonemapLUT;
+    MTLResourceID textureFilter;
+
+    uint64_t probes;
+    MTLResourceID envProbeCubeArray;
+    MTLResourceID envProbeDiffuseArray;
+    MTLResourceID envProbeTextureArray;
+    uint64_t virtualEnvProbeTextures;
+    uint64_t virtualEnvProbeConstants;
+
+    MTLResourceID textureShadow;
+
+    MTLResourceID dmWarpedAlphaMask;
     
-    
-    
-    
-    
-    
-    
-    threadgroup int3 patchParam[PATCHES_PER_THREADGROUP];
-    
-    threadgroup PatchVertexType patchVertices[PATCHES_PER_THREADGROUP * CONTROL_POINTS_PER_PATCH];
-    
-    const auto real_threadgroup = thread_position_in_grid / REAL_THREADGROUP_DIVISOR;
-    const auto subthreadgroup_in_threadgroup = thread_position_in_threadgroup / REAL_THREADGROUP_DIVISOR;
-    const auto real_thread_in_threadgroup = thread_position_in_threadgroup & (REAL_THREADGROUP_DIVISOR - 1);
-    
-#if NEEDS_BARRIER
-    const auto validThread = thread_position_in_grid * CONTROL_POINTS_PER_THREAD < osdBuffers.kernelExecutionLimit;
-#else
-    const auto validThread = true;
-    if(thread_position_in_grid * CONTROL_POINTS_PER_THREAD >= osdBuffers.kernelExecutionLimit)
-        return;
+    MTLResourceID textureVisualDepth;
+    MTLResourceID textureImmersiveEnvironmentMask;
+    MTLResourceID textureSUOcclusionAlphaMask;
 #endif
-    
-    
-    
-    
-    if(validThread)
-    {
-        patchParam[subthreadgroup_in_threadgroup] = OsdGetPatchParam(real_threadgroup, osdBuffers.patchParamBuffer);
-        
-        for(unsigned threadOffset = 0; threadOffset < CONTROL_POINTS_PER_THREAD; threadOffset++)
-        {
-            const auto vertexId = osdBuffers.indexBuffer[(thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset) * IndexLookupStride];
-            const auto v = osdBuffers.vertexBuffer[vertexId];
-            
-            threadgroup auto& patchVertex = patchVertices[thread_position_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset];
-            
-            
-            
-            
-            
-            OsdComputePerVertex(float4(v.position,1), patchVertex, vertexId, transforms.modelViewProjectionTransform, osdBuffers);
-        }
-    }
-    
-#if NEEDS_BARRIER
-    threadgroup_barrier(mem_flags::mem_threadgroup);
-#endif
-    
-    
-    
-    
-    
-    if(validThread)
-    {
-#if PATCHES_PER_THREADGROUP > 1
-        auto patch = patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_THREAD * CONTROL_POINTS_PER_PATCH;
-#else
-        
-        auto patch = patchVertices;
-#endif
-        
-        if(!OsdCullPerPatchVertex(patch, transforms.modelViewTransform))
-        {
-#if !OSD_USE_PATCH_INDEX_BUFFER
-            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[0] = 0.0h;
-            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[1] = 0.0h;
-            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[2] = 0.0h;
-            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[3] = 0.0h;
-            quadTessellationFactors[real_threadgroup].insideTessellationFactor[0] = 0.0h;
-            quadTessellationFactors[real_threadgroup].insideTessellationFactor[1] = 0.0h;
-#endif
-            
-            patchParam[subthreadgroup_in_threadgroup].z = -1;
-#if !NEEDS_BARRIER
-            return;
-#endif
-        }
-    }
-    
-#if NEEDS_BARRIER
-    threadgroup_barrier(mem_flags::mem_threadgroup);
-#endif
-    
-    
-    
-    
-    if(validThread && patchParam[subthreadgroup_in_threadgroup].z != -1)
-    {
-        for(unsigned threadOffset = 0; threadOffset < CONTROL_POINTS_PER_THREAD; threadOffset++)
-        {
-            OsdComputePerPatchVertex(
-                                     patchParam[subthreadgroup_in_threadgroup],
-                                     real_thread_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset,
-                                     real_threadgroup,
-                                     thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset,
-                                     patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
-                                     osdBuffers
-                                     );
-        }
-    }
-    
-#if NEEDS_BARRIER
-    threadgroup_barrier(mem_flags::mem_device_and_threadgroup);
-#endif
-    
-    
-    
-    
-    if(validThread && real_thread_in_threadgroup == 0)
-    {
-        
-#if OSD_USE_PATCH_INDEX_BUFFER
-        const auto patchId = atomic_fetch_add_explicit((device atomic_uint*)&drawIndirectCommands->patchCount, 1, memory_order_relaxed);
-        patchIndex[patchId] = real_threadgroup;
-#else
-        const auto patchId = real_threadgroup;
-#endif
-        
-        OsdComputePerPatchFactors(
-                                  patchParam[subthreadgroup_in_threadgroup],
-                                  tessellationLevel,
-                                  real_threadgroup,
-                                  transforms.projectionTransform,
-                                  transforms.modelViewTransform,
-                                  osdBuffers,
-                                  patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
-                                  quadTessellationFactors[patchId]
-                                  );
-    }
-}
+#endif 
+};
+
+struct re_vfx_object_constants {
+    uint16_t render_options;
+    uint16_t perceptual_blending_mode;
+};
 
 #endif 
  /* Error: Ran out of types for this method. */;
-- (void)±ÔXö^ÿ;
+- (void)8;
+- (id)q?R¸ëQð?5ú<;
+- (void)¹4Ö¾¿m@_²E?;´¿@ùÕ¾â­P@qF?ú©@ØaÔ¾Îý8@7F?î½@~ÈÓ¾%@²dF?$Q@a4Ó¾1D@F?pv@¿aÒ¾jõ@$ÒF?`@80Ñ¾¸só?8.G?«L@õGÐ¾3Þ?%xG?Ý;@¤SÏ¾ÁÄË?´ÇG?aR-@ccÎ¾.Ç»?nH?$ @,ÕÍ¾iÅ­?RH?ão@$ÔÌ¾Üg¡?±H?nR@ÆÀÊ¾¾?kfI?'i@¬oÈ¾ßý?¤5J?,õ?FêÅ¾J?K?;Rç?ãTÃ¾õôu?ËL?u;Û?Ë¢À¾õ¡g?ïM?ïÐ?+Ý½¾w¿Z?7N?ìÆ?0»¾ñÕN?|`O?ìl¾?õö·¾øC?«P?õÖ¶?J%´¾Ì¸9?ê@R?0°?¯!°¾0?ýôS?Îª?%¬¾i6'?é¹U?[¶¤?¸Î§¾±¢?W?ì?ïU£¾?ÁY?«?öA¾Sv?HÅ[?7Ã?¾"Þ?~;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCameraControl;

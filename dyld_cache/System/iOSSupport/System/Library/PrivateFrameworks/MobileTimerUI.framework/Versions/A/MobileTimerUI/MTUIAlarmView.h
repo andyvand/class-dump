@@ -41,14 +41,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (long long);
 - (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *currentConstraints; // @synthesize currentConstraints=_currentConstraints;

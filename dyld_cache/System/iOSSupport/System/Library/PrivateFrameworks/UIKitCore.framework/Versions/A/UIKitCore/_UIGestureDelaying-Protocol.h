@@ -5,8 +5,5 @@
 //
 
 @protocol _UIGestureDelaying
-- (long long)@ù
-× ;
-- (double)øø;
 @end
 

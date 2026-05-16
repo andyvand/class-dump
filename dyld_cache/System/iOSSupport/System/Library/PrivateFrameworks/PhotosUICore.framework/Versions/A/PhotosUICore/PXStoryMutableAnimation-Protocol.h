@@ -5,6 +5,5 @@
 //
 
 @protocol PXStoryMutableAnimation
-- (void)ckTitle;
 @end
 

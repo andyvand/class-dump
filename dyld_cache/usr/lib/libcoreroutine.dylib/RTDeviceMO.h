@@ -13,9 +13,9 @@
 }
 
 + (id);
-+ (id)(Ø;
-- (id)yle;
-- (void)ogress:(id)arg1 %lf;
++ (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *addresses; // @dynamic addresses;

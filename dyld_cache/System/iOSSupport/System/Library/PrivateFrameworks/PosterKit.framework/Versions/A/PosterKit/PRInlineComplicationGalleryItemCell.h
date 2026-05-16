@@ -29,11 +29,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)ù1)Ð1b0@ù
+- (id);
+- (void)¨Ð!ÜEù±ñÐ1â
+0@ù
 × ;
 
 // Remaining properties

@@ -23,7 +23,7 @@
     SXWebContentLoadEvent *_loadEvent;
 }
 
-+ (id)P;
++ (id);
 - (void);
 - (void);
 - (id);
@@ -36,7 +36,7 @@
 - (void);
 - (void);
 - (id);
-- (void)a~;
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -50,26 +50,25 @@
 - (void);
 - (void);
 - (void);
-- (id)P;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (struct CGRect)A°!8Bù1¤°1¢!0@ù
-× ;
-- (void)rDidStartPictureInPicture: /* Error: Ran out of types for this method. */;
-- (void)ackStarted;
+- (struct CGRect);
+- (void)iewController"16@"NSError"24;
+- (void);
+- (id)ÿOW;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;

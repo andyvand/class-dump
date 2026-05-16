@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
-- (id)redMenuItem;
-- (void);
 - (id);
-- (int)",R,D,N;
+- (id);
+- (int);
+- (void)sterAnnotation"32@0:8@"MKMapView"16@"NSArray"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXIssueCoverViewProvider> viewProvider; // @synthesize viewProvider=_viewProvider;

@@ -18,23 +18,23 @@
 
 + (id);
 - (double);
-- (void)'%s';
-- (void)ceived a valid validity response, no further action needed.;
-- (void)ord:(double)arg1 %@:%@  has pass:%@   bad pass:%@ /* Error: Ran out of types for this method. */;
-- (void)ting service status to disconnected, account or server is invalid;
-- (void)a transfer for guid:(double)arg1 %@;
-- (void)nding auto-reply because no message text was available to send;
-- (void)re unable to send any request for enabling SMS Relay for ourselves, we know of no phone with an alias we can use!!!!!;
-- (double)om IMDAttachmentRecordRef rowid:%lld, marking as synced *** /* Error: Ran out of types for this method. */;
-- (double)orrect subscription to send with %@;
-- (double)ier %@ and style %hhu need to have shouldForceToSMS updated to %@.;
-- (double)preter;
-- (double)eState;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
-- (void)idChangeHandler: /* Error: Ran out of types for this method. */;
-- (id)ations;
-- (void))2n;
-- (double)kð;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void);
+- (double)updateBackgroundImage;
+- (void)tInteractionState: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @synthesize blurRadius;

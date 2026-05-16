@@ -10,7 +10,7 @@
 - (void);
 - (id);
 - (id);
-- (id)ntDate;
+- (id);
 - (id);
 @end
 

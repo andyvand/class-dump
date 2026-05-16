@@ -4,32 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont, UIImage, UIView;
-@protocol UITableConstantsCellProviding;
-
 @protocol UITableConstants
-+ (id)EnableAutoRenewal: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);g;
-- (double)`;
-- (struct _UITableConstantsBackgroundProperties);
-- (double)c;
-- (UIImage *);
-- (double);
-- (UIColor *)8;
-- (double);
-- (double)!;
-- (struct UIEdgeInsets)rrorIndicatesAssetWasNotAvailable: /* Error: Ran out of types for this method. */;
-- (double)tices;
-- (UIImage *)tDefaultHighlightedShadowRadius:(UIView<UITableConstantsCellProviding> *)arg1;
-
-@optional
-- (_Bool)leChipNameStr has wrong type:(long long)arg1 %@;
-- (UIFont *);
-- (UIImage *)R!;
-- (UIImage *)";
-- (UIImage *)�9;
-- (double);
-- (double);
++ (id)tiveTransitionWithProgress: /* Error: Ran out of types for this method. */;
+- (struct _UITableConstantsBackgroundProperties)ÚíÿLþÿ;
 @end
 

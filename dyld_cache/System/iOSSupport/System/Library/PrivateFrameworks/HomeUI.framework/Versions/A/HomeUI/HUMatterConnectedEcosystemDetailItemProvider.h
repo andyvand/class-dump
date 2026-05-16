@@ -22,10 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)¤{ÚP|Û}\}Ü~ÝÜ~Þàß¬Ä;
 - (id);
+- (id);
+- (void)lerCoordinator _primaryStatusTextForLatestResults:showingSecondaryStatus:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItems; // @synthesize allItems=_allItems;

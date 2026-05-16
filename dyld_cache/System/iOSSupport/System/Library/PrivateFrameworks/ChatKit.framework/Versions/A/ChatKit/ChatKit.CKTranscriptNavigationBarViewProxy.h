@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)5o1å1;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *avatarView; // @synthesize avatarView;

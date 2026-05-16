@@ -27,17 +27,17 @@
 - (id);
 - (void);
 - (long long);
+- (void);
+- (id);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void)ceeding with forecast operation.;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long conditionCode; // @synthesize conditionCode=_conditionCode;

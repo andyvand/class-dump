@@ -18,8 +18,8 @@
 }
 
 - (id);
-- (void);
-- (id)A`b;
+- (id);
+- (void)entView;
 
 @end
 

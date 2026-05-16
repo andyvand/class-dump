@@ -7,9 +7,6 @@
 @class NSArray, NSDate;
 
 @protocol FCAudioPlaylistType
-- (NSArray *)6Х;
-- (void)abel;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;

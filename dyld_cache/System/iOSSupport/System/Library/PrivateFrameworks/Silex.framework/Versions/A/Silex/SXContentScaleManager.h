@@ -19,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (long long)?	;
 - (double);
-- (void);
 - (id);
 - (void);
+- (long long);
+- (void)rFlowInfo"32{_NSRange=QQ}40{CGPoint=dd}56B72;
 
 // Remaining properties
 @property(nonatomic) long long contentScale; // @synthesize contentScale=_contentScale;

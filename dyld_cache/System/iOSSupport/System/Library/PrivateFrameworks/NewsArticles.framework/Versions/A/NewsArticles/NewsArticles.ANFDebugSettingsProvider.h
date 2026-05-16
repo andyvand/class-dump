@@ -14,13 +14,13 @@
 }
 
 - (_Bool);
-- (_Bool)@;
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)configurationManager;
 
 // Remaining properties
 @property(nonatomic) _Bool testingConditionEnabled; // @synthesize testingConditionEnabled;

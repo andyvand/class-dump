@@ -19,67 +19,63 @@ __attribute__((visibility("hidden")))
     UIColor *_textFieldOrigColor;
 }
 
-+ (unsigned long long);
-+ (id)B;
-+ (long long);
-- (void);
-- (void);
-- (void)uildRequiredOnlyWithIdentifier:(id)arg1 withMedia:(_Bool)arg2 withMandatory: /* Error: Ran out of types for this method. */;
-- (void)dleIdentifiers;
-- (id)AVHostName;
-- (long long);
-- (long long)ʱ;
++ (unsigned long long)er;
++ (id)C;
++ (long long)þ?`;
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void)isSteerable;
-- (id)EMPTY>;
+- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (void);
 - (long long);
-- (id);
-- (void);
 - (long long);
-- (void)oÐ!¨DùñÁð1¢!0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (_Bool)QÉÐ1¢!0@ù
-× ;
-- (id)!HFù±ËÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (id)dow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
-- (_Bool)ationForInterfaceOrientation"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"dataSourceSuppliesBeforeViewController"b1"dataSourceSuppliesAfterViewController"b1"dataSourceSuppliesPageCount"b1"dataSourceSuppliesPageNumber"b1};
-- (id)ongLongValue;
-- (long long)omingPushWithPayload:(id)arg1 forType:(id)arg2;
-- (void)hContentsOfFileURL:(id)arg1;
-- (_Bool)mizationStore;
-- (id)ingDidChange;
-- (long long)eItemUsesContentShapeForSelectionHighlight;
-- (void)UpdateMapsAssertingForInvalidUpdates:(id)arg1;
-- (id);
-- (long long)buildHavingDescriptiveLabelConstraints;
-- (id),V_element;
-- (void)tainerObserved;
-- (void)tocorrectionRects;
-- (long long)dataClass;
-- (id)$2;
-- (id)0;
-- (id);
-- (void)pple.UIKit.view-service-wants-custom-idiom-and-scale;
-- (void)erAdaptiveImpl _presentationControllerDidEndPresentationTransition:(id)arg1 completed:] /* Error: Ran out of types for this method. */;
-- (id)e %@ already exists for %@;
-- (id)extCompletion;
-- (id)itterAnimation;
-- (void)eraOverlayView;
-- (void)s;
-- (void)ÿPÀ×Pûj;
 - (void);
-- (void)ÿ;
+- (id);
+- (void);
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (void)aÐ1Â0@ù
+× ;
+- (long long);
+- (id)erationAssistant";
+- (id)plete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
+- (long long)ncyEffect;
+- (void)alLayer;
+- (id)tEyedropperOnStart;
+- (id)sformedFrame: /* Error: Ran out of types for this method. */;
+- (id)ller;
+- (id):animated:reset: /* Error: Ran out of types for this method. */;
+- (id)oller:edges: /* Error: Ran out of types for this method. */;
+- (_Bool)nallyManaged;
+- (id)rContainerView;
+- (id)ETextInputDelegate>",W,N;
+- (void);
+- (id);
+- (_Bool)ioCustom;
+- (_Bool)e %@, variable name %@, and runtime collection class name %@.;
+- (long long);
+- (void)Ïüï[;
+- (void);
+- (id)Dd;
+- (void)<ÑÔLKg;
+- (long long)5Ò|®g;
+- (void)ÿÊØPýl;
+- (void)¡Üÿ=Ï¨m;
+- (void)=n;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSMutableDictionary *autofillGroup;

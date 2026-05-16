@@ -14,18 +14,18 @@
     _Bool __prefersCompactAppearance;
 }
 
-- (_Bool)d;
-- (void);
-- (void)× ;
-- (_Bool)0@ù
-× ;
-- (id)!ì@ùÎ°1¢!0@ù
-× ;
 - (_Bool);
-- (void)d32;
-- (long long)nToSegment:highlight:shouldAnimate:sameSegment: /* Error: Ran out of types for this method. */;
-- (id)on:(id)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
-- (void)tion",R,N,V_configuration;
+- (void);
+- (long long)Q\ð1Â0@ù
+× ;
+- (_Bool)!<Aùñd°1Â0@ù
+× ;
+- (_Bool)eaderView;
+- (void)_updateToggleAction;
+- (id)InCellInWindow:(id)arg1;
+- (id)ertIndexPaths;
+- (void);
+- (void)yboardBoundsUserInfoKey;
 
 // Remaining properties
 @property(nonatomic, setter=_setPrefersCompactAppearance:) _Bool _prefersCompactAppearance; // @synthesize _prefersCompactAppearance=__prefersCompactAppearance;

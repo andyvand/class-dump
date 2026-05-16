@@ -6,23 +6,12 @@
 
 #import <WorkflowKit/WFDatabaseResult.h>
 
-@protocol WFCoreDataDatabaseResultFetchOperation;
-
 @interface WFCoreDataDatabaseResult : WFDatabaseResult
 {
-    id <WFCoreDataDatabaseResultFetchOperation> _fetchOperation;
 }
 
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-
-// Remaining properties
-@property(retain, nonatomic) id <WFCoreDataDatabaseResultFetchOperation> fetchOperation; // @synthesize fetchOperation=_fetchOperation;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)entableTraitDefinitionP;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType layoutSubviewHandler; // @synthesize layoutSubviewHandler=_layoutSubviewHandler;

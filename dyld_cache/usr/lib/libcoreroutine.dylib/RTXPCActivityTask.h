@@ -15,11 +15,11 @@
 }
 
 - (id);
-- (void);
-- (id)Object<OS_nw_interpose>";
-- (id)l;
 - (id);
-- (CDUnknownBlockType)ensitive}@;
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (void)ith handler;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;

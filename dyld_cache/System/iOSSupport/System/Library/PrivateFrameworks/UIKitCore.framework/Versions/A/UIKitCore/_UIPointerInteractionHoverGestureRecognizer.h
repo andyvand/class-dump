@@ -11,9 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)°eþ°eþBlurTransition;
-- (struct CGPoint)Ðjþ;
-- (_Bool);
+- (_Bool)Að!<@ùÑ^°1Â0@ù
+× ;
+- (_Bool)tAnimation;
+- (struct CGPoint)aterPrivate;
 
 @end
 

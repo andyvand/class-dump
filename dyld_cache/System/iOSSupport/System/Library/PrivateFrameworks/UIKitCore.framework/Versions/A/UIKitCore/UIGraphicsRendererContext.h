@@ -13,19 +13,19 @@
     _Bool ___createsImages;
 }
 
-- (void)ationRules;
-- (void)=;
+- (void);
+- (_Bool);
 - (void);
 - (void);
-- (void)
+- (void);
+- (struct CGContext *);
+- (void)@ù
 × ;
-- (_Bool)Attributes";
-- (void)rollerState:(struct CGRect)arg1 forceImmediately:(int)arg2;
-- (id)derInRect:(struct CGContext *)arg1;
-- (id)Edges;
-- (struct CGContext *)ctionDriverClickMinimumTouchDuration;
-- (void)?ðøÃ?<?;
-- (void)[ªÿÂþÇ~i;
+- (id)ent;
+- (void);
+- (void)tateNone;
+- (id)-[UIPopoverController initWithContentViewController:] called when not running under UIUserInterfaceIdiomPad. /* Error: Ran out of types for this method. */;
+- (void)-,;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGContext *CGContext;

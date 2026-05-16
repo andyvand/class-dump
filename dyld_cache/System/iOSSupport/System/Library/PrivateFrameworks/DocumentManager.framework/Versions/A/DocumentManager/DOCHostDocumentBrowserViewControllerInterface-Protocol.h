@@ -5,8 +5,5 @@
 //
 
 @protocol DOCHostDocumentBrowserViewControllerInterface
-- (void);
-- (void);
-- (void)C;
 @end
 

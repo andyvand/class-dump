@@ -32,18 +32,19 @@
 - (void);
 - (long long);
 - (id);
-- (double);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)1|ð1b0@ù
+- (void);
+- (void);
+- (double)!¨Dù1FÐ1â
+0@ù
 × ;
-- (void)h;
-- (void);
-- (struct CGSize)e;
-- (_Bool)"PXCuratedLibraryHitTestResult"8^B16;
-- (void)g;
-- (id)X;
+- (id)paceConverter";
+- (struct CGSize)entation: /* Error: Ran out of types for this method. */;
+- (id)x¦~íÿ;
+- (void)ionsMapStyle;
+- (_Bool)NÈ¢5;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

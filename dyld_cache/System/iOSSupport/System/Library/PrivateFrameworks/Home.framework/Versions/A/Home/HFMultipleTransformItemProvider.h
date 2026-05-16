@@ -28,9 +28,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)ForTargetKind: /* Error: Ran out of types for this method. */;
-- (id)ctionary"8;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItems; // @synthesize allItems=_allItems;

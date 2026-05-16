@@ -19,7 +19,7 @@
     NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
-+ (id);
++ (id)onType is invalid;
 - (void);
 - (void);
 - (void);
@@ -31,20 +31,22 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)
+× ;
+- (unsigned long long)1â1B50@ù
+× ;
+- (void)tRawEvents:(id)arg1;
+- (void)Ó;
+- (id)ode%@;
 - (unsigned long long);
-- (id);
-- (void)sYearDayRules;
-- (_Bool);
-- (id)ors (expected 1, found %lu):%@. Defaulting to %@. /* Error: Ran out of types for this method. */;
-- (unsigned long long)ted;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;

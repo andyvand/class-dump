@@ -15,10 +15,16 @@ __attribute__((visibility("hidden")))
     NSArray *_secondaryButtonItems;
     _Bool _alwaysSuppressPrimaryActionInActionBar;
     MUPlaceCallToActionAppearance *_submissionStatus;
+    NSArray *_moreMenuActionItems;
+    NSArray *_unifiedActionRowViewModels;
 }
 
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -30,8 +36,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (void)er;
+
+// Remaining properties
+@property(retain, nonatomic) NSArray *moreMenuActionItems; // @synthesize moreMenuActionItems=_moreMenuActionItems;
+@property(retain, nonatomic) NSArray *unifiedActionRowViewModels; // @synthesize unifiedActionRowViewModels=_unifiedActionRowViewModels;
 
 @end
 

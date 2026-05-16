@@ -22,17 +22,17 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

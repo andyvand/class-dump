@@ -42,8 +42,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)pover;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bestContent; // @synthesize bestContent=_bestContent;

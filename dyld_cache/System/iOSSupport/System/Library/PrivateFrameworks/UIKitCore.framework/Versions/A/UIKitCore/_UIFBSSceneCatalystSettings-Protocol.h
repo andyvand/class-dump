@@ -5,8 +5,6 @@
 //
 
 @protocol _UIFBSSceneCatalystSettings
-- (void)ocalDataStore;
-- (long long)ց;
 
 // Remaining properties
 @property(nonatomic) long long hostingWindowCreationBehavior;

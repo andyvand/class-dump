@@ -19,29 +19,30 @@
     RTInvocationDispatcher *_dispatcher;
 }
 
-+ (_Bool)%@, WARNING, using defaults override of status with RTAuthorizedLocationEnumUnavailable;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
+- (long long);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)9;
-- (id);
-- (_Bool);
-- (id)9;
-- (long long)iers:context:error: /* Error: Ran out of types for this method. */;
-- (id)tledFingerprintCountWithoutTimeWindowFallback: /* Error: Ran out of types for this method. */;
-- (id)ions:modeOfTransport:outputHandler:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)or;
-- (void)tore, %@, error, %@;
-- (void)g;
-- (_Bool)ßA;
+- (void);
+- (void)ibilityWithError:(id)arg1;
+- (_Bool)	;
+- (void)crumb %{sensitive}@ is at or after time of stopLoiLocation %{sensitive}@, not adding start LOI;
+- (_Bool)ÀÚÙÿ
+?,FD;
+- (id)<×;
+- (id)x-ÇÿA;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientIdentity; // @synthesize clientIdentity=_clientIdentity;

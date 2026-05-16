@@ -34,14 +34,14 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (id);
 - (_Bool);
+- (id);
+- (void)r;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actionButtons;

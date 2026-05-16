@@ -12,12 +12,12 @@
     MPModelGenericObject *_metadataObject;
 }
 
-- (id)ray"16@?<v@?@"NSDictionary">24;
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)Queue and Play events (eventID:%{public}@ item:%{public}@ %{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *metadataObject; // @synthesize metadataObject=_metadataObject;

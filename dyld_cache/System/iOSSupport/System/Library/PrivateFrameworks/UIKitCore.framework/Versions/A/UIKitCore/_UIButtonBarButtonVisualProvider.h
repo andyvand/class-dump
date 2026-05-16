@@ -15,76 +15,74 @@
 }
 
 + (id);
-+ (void)nWindowProxy:(Class)arg1;
-- (struct CGRect);
-- (void);
-- (void)brary/BuildRoots/4~CG4qugCAwx2HRnOmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/d1_srtp.c;
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (struct CGSize)transactionCount;
-- (id)m;
-- (id);
-- (struct CGSize)`;
++ (void)UISceneHostingReconnectingActivationControllerDelegate;
 - (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (Class);
+- (struct CGSize);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void)ý/º;
-- (id)!GùQÂÐ1¢!0@ù
-× ;
+- (_Bool);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (void)aw!HAùqÌ1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)torage";
-- (struct CGSize)8B52;
-- (id)mKeysForFiveRowKeyplane:(id)arg1 withTransformationContext: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)DisplayCornerRadius:(id)arg1;
-- (void)ewProviders;
-- (id)placeCharactersInRange:attributedString:state:identifier:completion: /* Error: Ran out of types for this method. */;
-- (id)ltMaskLayer;
-- (void)terfaceOrientation:(_Bool)arg1 hasInputView: /* Error: Ran out of types for this method. */;
-- (void)ewEditingState:(id)arg1 showingDeleteConfirmation:(_Bool)arg2;
-- (id)dCompactImage;
-- (id)modifierFlags: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)WhenDisabled;
-- (_Bool)Image",&,N,VscopeBarBackgroundImage;
-- (void)W,N,V_browserDelegate;
-- (Class)extRangeView;
+- (struct CGSize);
 - (void);
-- (id)Q;
-- (_Bool);
-- (void);
-- (_Bool)failing invocation:%@) /* Error: Ran out of types for this method. */;
-- (id)anded.right;
-- (void)photo-picker;
-- (id)errors;
-- (void)E5UIKitCSo6UIViewP33_FE53B1CE385CEEC5B789D2CA9BD7C0EB31BackgroundSuppressionController;
-- (void)ºa;
-- (id)ÿHc;
-- (_Bool)ÿ;
-- (id)ÿ;
-- (id)ÿ;
-- (struct CGPoint)ðþ;
-- (void)ðþ_Õf;
+- (void);
+- (unsigned long long);
+- (id)1Â0@ù
+× ;
+- (void)Á!@ù±d°1Â0@ù
+× ;
+- (_Bool)deActive:(id)arg1;
+- (id);
+- (_Bool)ingMultipliedBy: /* Error: Ran out of types for this method. */;
+- (id)tentView;
+- (id);
+- (id);
+- (id)ecognizer;
+- (id)servationInfo;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)ate>",R,N;
+- (struct CGSize)",W,N,V_delegate;
+- (void)mage has an invalid size. (w:(id)arg1 %g, h:(CDUnknownBlockType)arg2 %g);
+- (id)ViewType;
+- (void)LocalizeOverrideLayoutEngine;
+- (struct CGPoint)ted:%@ /* Error: Ran out of types for this method. */;
+- (void)layout attributes for supplementary view "%@" in section %ld when there are only %ld sections in the collection view;
+- (_Bool)peed up your typing by sliding your finger across the letters to compose a word.;
+- (void)a^;
+- (id)}úþÇÝ;
+- (void)öþ´ÑFb;
+- (struct UIEdgeInsets);
+- (void)b;
+- (id)VÿÏ;
+- (void)b;
+- (_Bool)(c;
+- (void)@c;
+- (Class)¼;
+- (_Bool)`ØÿbÒc;
+- (void)@Ð0;
+- (_Bool)Ï4ÿVÍH×c;
+- (void)\gâÿjÛøÙc;
+- (_Bool)@ÌÔd;
+- (id)h¼);
+- (id)Ø¸d;
+- (struct CGPoint)¾F;
+- (id);
+- (id)|Vd;
+- (void)Ô,d;
+- (void)Ú0Ýd;
+- (struct CGSize)-ÝÏd;
+- (void)e;
+- (void);
+- (struct CGRect)ÿq;
+- (_Bool)pËe;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect accessoryViewAlignmentRect;

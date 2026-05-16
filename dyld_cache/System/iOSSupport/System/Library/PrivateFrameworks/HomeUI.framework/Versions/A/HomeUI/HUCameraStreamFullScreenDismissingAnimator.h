@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
+- (double);
 - (void);
-- (void)`íÿ;
-- (double);
+- (void)tion;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *cameraOverlaySnapshot; // @synthesize cameraOverlaySnapshot=_cameraOverlaySnapshot;

@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ntroller _reloadTableViewWithExistingData]_block_invoke_2;
 
 @end
 

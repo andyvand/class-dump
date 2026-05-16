@@ -36,7 +36,7 @@
 - (void);
 - (void);
 - (id);
-- (id)h;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -47,7 +47,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)T;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -55,29 +55,29 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void)P;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)irectedFromServer;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
-- (void)ÛDÝÞ;
-- (void)rs;
-- (id)ultsWithOptions:handler:] /* Error: Ran out of types for this method. */;
-- (id)ror while removing expired records for other devices on this device, error, %@;
-- (id)%s, Fetched %lu locations, batch from, %@, to, %@, error, %@;
 - (id);
-- (id)<Û»ÿûÞ*¶@;
+- (id);
+- (id)Üq r;
+- (id)erWithCommuteID:handler:] /* Error: Ran out of types for this method. */;
+- (id)imeKey;
+- (id)TDaemonClient fetchAuthorizedLocationStatus:] /* Error: Ran out of types for this method. */;
+- (void)e WiFi, status accessible;
+- (id)activity:%{public}@. /* Error: Ran out of types for this method. */;
+- (void)@,%@,got nil account info and nil error;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;

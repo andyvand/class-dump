@@ -14,19 +14,19 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

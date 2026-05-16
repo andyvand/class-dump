@@ -18,17 +18,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (long long);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

@@ -7,13 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long);
-- (struct _NSZone *)RTED;
-- (_Bool);
-- (unsigned long long)Ð_;
-
-@optional
-- (NSString *)resourceIdentifiers;
+- (_Bool)òTòò¼òìòóLóó¼óìó8ô\ôôÐôõ<õxõ¬õäõ0öxö¤öÜö÷H÷l÷¸÷;
+- (struct _NSZone *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

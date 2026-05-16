@@ -43,23 +43,23 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) MCNearbyServiceAdvertiser *advertiser; // @synthesize advertiser=_advertiser;

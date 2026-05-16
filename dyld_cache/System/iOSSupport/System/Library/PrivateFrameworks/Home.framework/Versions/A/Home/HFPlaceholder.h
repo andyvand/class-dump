@@ -11,9 +11,9 @@
     NSUUID *_uniqueIdentifier;
 }
 
-- (void);
 - (id);
-- (id)thSet: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)L×;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

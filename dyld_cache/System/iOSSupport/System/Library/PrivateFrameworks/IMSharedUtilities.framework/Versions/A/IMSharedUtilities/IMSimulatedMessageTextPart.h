@@ -13,15 +13,15 @@
     NSString *_text;
 }
 
-+ (id)A;
-+ (_Bool)unterpart;
++ (id);
++ (_Bool);
+- (id)Àjl«2YÖ¸;
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;

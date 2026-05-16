@@ -103,8 +103,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ageCannotRecognizeMultipleVoices_Title;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

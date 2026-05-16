@@ -34,18 +34,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (float);
+- (id);
 - (float);
 - (void);
 - (void);
-- (id);
-- (float);
 
 // Remaining properties
 @property(nonatomic) float confidence; // @synthesize confidence=_confidence;

@@ -17,9 +17,9 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
-- (void)¼®sÿ"6Â-;
-- (double).ÿ:¼3¡¾/ /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double blurRadius;

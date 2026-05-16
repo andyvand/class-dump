@@ -24,22 +24,22 @@
     NSObject *_composedFragmentsMutex;
 }
 
++ (id);
 + (void);
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
++ (id);
++ (id);
 + (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 - (void);
@@ -92,17 +92,17 @@
 - (id);
 - (double);
 - (id);
+- (void);
 - (void);
 - (CDStruct_73a5d3ca);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 

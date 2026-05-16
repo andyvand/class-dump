@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     WebSelectionRect *webRect;
 }
 
-+ (id):(id)arg1 '%@':'%@':'%@' /* Error: Ran out of types for this method. */;
-+ (id)age:(id)arg1 %@;
++ (id);
++ (id);
 - (void);
-- (id)atStyle:(id)arg1 groupID:domainIdentifiers:participantIDs:lastAddressedHandleID:originalGroupID:chatIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)ss;
-- (_Bool)sagesDictionaryKey;
+- (id);
+- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
-- (void)(;
-- (id):A` /* Error: Ran out of types for this method. */;
-- (struct CGRect)Fh;
+- (id)UIFont"48{_NSRange=QQ}56;
+- (struct CGRect)constraintAffectsContentSize: /* Error: Ran out of types for this method. */;
+- (void)KÖ,ç`;
 
 // Remaining properties
 @property(retain, nonatomic) WebSelectionRect *webRect; // @synthesize webRect;

@@ -18,19 +18,20 @@
 }
 
 - (void);
-- (struct UIEdgeInsets)u;
-- (id)== 2;
+- (struct UIEdgeInsets);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (long long);
-- (id);
-- (void)heckingIfPinningOnboardingNeeded;
-- (id)tFilter;
+- (id)Áúð!ôDùÑ°1Â0@ù
+× ;
+- (void);
+- (void)à0;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSCollectionLayoutEnvironment> collectionLayoutEnvironment; // @synthesize collectionLayoutEnvironment=_collectionLayoutEnvironment;

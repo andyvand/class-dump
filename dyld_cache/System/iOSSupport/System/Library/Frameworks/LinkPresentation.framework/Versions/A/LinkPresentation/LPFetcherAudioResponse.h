@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPAudio *audio; // @synthesize audio=_audio;

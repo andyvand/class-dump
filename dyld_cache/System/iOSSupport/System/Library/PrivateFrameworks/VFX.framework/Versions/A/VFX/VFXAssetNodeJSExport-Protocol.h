@@ -8,7 +8,8 @@
 @protocol VFXAsset;
 
 @protocol VFXAssetNodeJSExport
-- (_Bool)?;
+- (void)S;
+- (id <VFXAsset>)of wrong root type: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <VFXAsset> asset;

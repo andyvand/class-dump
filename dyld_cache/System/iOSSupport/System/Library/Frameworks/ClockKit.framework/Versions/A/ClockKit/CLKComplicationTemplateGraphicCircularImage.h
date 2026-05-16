@@ -16,9 +16,9 @@
 + (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CLKFullColorImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;

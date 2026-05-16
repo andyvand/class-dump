@@ -53,6 +53,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -62,18 +69,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)ormingNavigation: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id)G;
-- (void)AppleMediaServicesUI.RegulatoryAgeVerificationAction;
+- (_Bool)3yNrN_Qo__Qo__Qo_GAKGAKGAKGAKGtGG_ABy1rN|÷0GtGGk1yABy
+ü0í1yÇ1GGGG_íb3yWú0GQo_AByACyADyAEyAByAByAByAByAFyADyAI_AStGGAKGAKGAKGAKGG_A1_tGGA10_GG;
+- (void);
+- (void)ype;
 
 // Remaining properties
 @property(nonatomic) _Bool animateFadeIn; // @synthesize animateFadeIn=_animateFadeIn;

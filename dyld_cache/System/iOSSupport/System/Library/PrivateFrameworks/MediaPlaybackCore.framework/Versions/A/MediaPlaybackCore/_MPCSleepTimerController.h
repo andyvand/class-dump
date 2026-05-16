@@ -20,15 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (void)didSignIn:%@, isInGoodStateForRepair:%@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
-- (void)rvices { account:(double)arg1 %@ };
-- (long long);
 - (void);
 - (void);
-- (id);
+- (long long);
+- (void);
 - (double);
 - (id);
+- (id);
 - (double);
+- (void)xt [dataSource %p] playbackContext=%{public}@ ;
 
 // Remaining properties
 @property(nonatomic, readonly) double fireDate;

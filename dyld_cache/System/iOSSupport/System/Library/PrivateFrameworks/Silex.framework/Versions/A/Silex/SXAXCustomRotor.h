@@ -17,9 +17,9 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)d}}32;
 
 // Remaining properties
 @property(copy, nonatomic) NSOrderedSet *rotorItems; // @synthesize rotorItems=_rotorItems;

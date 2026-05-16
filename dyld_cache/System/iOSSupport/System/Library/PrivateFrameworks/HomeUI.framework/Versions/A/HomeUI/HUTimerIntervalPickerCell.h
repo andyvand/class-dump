@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)UPDATE] User AGREED to license for update:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;

@@ -40,12 +40,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (long long);
-- (void);
 - (id);
 - (long long);
-- (long long)}48@0:8Q16Q24Q32q40 /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSCountedSet *allItemDomains; // @synthesize allItemDomains=_allItemDomains;

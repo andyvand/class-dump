@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)eachability=};
++ (id);
 - (id);
 
 @end

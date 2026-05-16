@@ -14,9 +14,9 @@
 - (double);
 - (id);
 - (id);
-- (void);
-- (id)tKeyInterpageSpacing:(id)arg1;
 - (id);
+- (void);
+- (id)üo9;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMSession *session; // @synthesize session=_session;

@@ -37,14 +37,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void)w Available for ;
-- (id)_LAYOUT_EXPLANATION;
+- (void);
+- (id)tputDestination:snapshottingAssertion:executeIfNecessary: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;

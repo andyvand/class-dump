@@ -12,12 +12,14 @@
     double _additionalSlideHeight;
 }
 
-- (id);
 - (void);
-- (int)ter"28@0:8q16B24 /* Error: Ran out of types for this method. */;
-- (void)oryBounds:(double)arg1;
+- (id);
 - (double);
-- (_Bool)oardUIDidChange:onComplete:]  Setting currentUIState:%@ /* Error: Ran out of types for this method. */;
+- (int)@ù
+× ;
+- (_Bool)b°1Â0@ù
+× ;
+- (void)ge;
 
 // Remaining properties
 @property(nonatomic) double additionalSlideHeight; // @synthesize additionalSlideHeight=_additionalSlideHeight;

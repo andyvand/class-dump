@@ -19,7 +19,7 @@
     NSArray *_validValues;
 }
 
-+ (_Bool)sonHighTemperature;
++ (_Bool);
 
 @end
 

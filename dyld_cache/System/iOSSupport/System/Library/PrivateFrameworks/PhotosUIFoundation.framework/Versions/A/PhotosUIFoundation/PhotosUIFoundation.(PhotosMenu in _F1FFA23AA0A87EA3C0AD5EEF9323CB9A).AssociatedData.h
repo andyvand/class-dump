@@ -12,8 +12,8 @@
     MISSING_TYPE *onCloseAction;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

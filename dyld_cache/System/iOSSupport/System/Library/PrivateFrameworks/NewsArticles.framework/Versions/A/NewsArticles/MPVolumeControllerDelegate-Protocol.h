@@ -5,8 +5,5 @@
 //
 
 @protocol MPVolumeControllerDelegate
-
-@optional
-- (void)];
 @end
 

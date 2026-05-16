@@ -7,6 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void)erfaceProtectionState;
+- (void);
 @end
 

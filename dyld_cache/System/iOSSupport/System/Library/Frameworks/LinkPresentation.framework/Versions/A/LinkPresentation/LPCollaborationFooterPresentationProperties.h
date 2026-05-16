@@ -16,19 +16,20 @@
     CDUnknownBlockType _action;
 }
 
-- (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)lightweightPrimary;
-- (void);
-- (id);
 - (void);
 - (CDUnknownBlockType);
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

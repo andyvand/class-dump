@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol _MPCPodcastAVItemProvidingProtocol
-- (NSString *);
-- (float)SK;
 
 // Remaining properties
+@property(readonly, nonatomic) _Bool hasAudioOnlyDownload;
+@property(readonly, nonatomic) _Bool hasVideo;
 @property(readonly, copy, nonatomic) NSString *podcastUUID;
 @property(nonatomic) float preferredPlaybackRate;
 @end

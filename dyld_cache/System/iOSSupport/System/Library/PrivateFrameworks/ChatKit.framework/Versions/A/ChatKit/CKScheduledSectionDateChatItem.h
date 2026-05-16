@@ -10,9 +10,9 @@
 {
 }
 
-- (struct CGSize)eCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyAUGG;
+- (struct CGSize);
 - (id);
-- (Class);
+- (Class);
 
 @end
 

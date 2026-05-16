@@ -27,12 +27,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)ooterViewModelControllerDelegate;
+- (void)©Ç@Ç!ÿÇè8ÿÇXÇÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *completionKey; // @synthesize completionKey=_completionKey;

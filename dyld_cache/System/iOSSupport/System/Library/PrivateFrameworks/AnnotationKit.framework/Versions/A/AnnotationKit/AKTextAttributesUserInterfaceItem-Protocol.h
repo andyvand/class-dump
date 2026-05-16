@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol AKTextAttributesUserInterfaceItem
-- (void)incomplete (loading:(NSSet *)arg1 %d, incomplete:%d, copiedFromIncomplete:%d, isPlaceholder:%d)! /* Error: Ran out of types for this method. */;
 @end
 

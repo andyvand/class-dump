@@ -15,20 +15,20 @@ __attribute__((visibility("hidden")))
     id <CKSendMenuPopoverViewControllerDelegate> _delegate;
 }
 
-- (void)int;
-- (void)sentationIntents;
-- (id)AuthenticationPrompt;
-- (id)MarkChar;
-- (id)ngeNotification;
-- (id)deStruct=*IQQBBddddddddd}16;
-- (id)iews;
-- (void)perImageGenerator imageGeneratorWithPaperAttachment:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (id)øÿÿ;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)n;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *appContainerViewController; // @synthesize appContainerViewController=_appContainerViewController;

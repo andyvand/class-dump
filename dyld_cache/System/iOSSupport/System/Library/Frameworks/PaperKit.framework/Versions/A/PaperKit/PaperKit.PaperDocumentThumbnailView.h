@@ -15,10 +15,10 @@
     MISSING_TYPE *thumbnailLayout;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)yOÿÿ;
 
 @end
 

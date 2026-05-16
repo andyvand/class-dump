@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)"NSArray",&,N,V_participantsToRemove;
 - (void);
 - (void);
-- (void)`;
 - (void);
-- (CDUnknownBlockType)ineHeight: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (void)hadowIntensity;
+- (void)Ë3;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dismissAction; // @synthesize dismissAction=_dismissAction;

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScene;
-
 @protocol UISceneDelegate
 
 @optional
-- (void);
-- (void)ntaryViewOfKind:(UIScene *)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
-- (void)0xp¬tì,xÈP;
-- (void);
+- (void)ÿ¸ÿÿvIþÿLIþÿ;
+- (void)(ûâÿ;
 @end
 

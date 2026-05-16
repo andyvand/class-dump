@@ -14,13 +14,13 @@
 }
 
 - (id);
-- (double);
-- (double);
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (id);
+- (double);
+- (_Bool);
+- (double);
 
 // Remaining properties
 @property(getter=isIndeterminate) _Bool indeterminate;

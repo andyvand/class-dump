@@ -17,24 +17,6 @@
     struct CGSize _viewportSize;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)g;
-- (id);
-- (id);
-- (void);
-- (void)?;
-- (struct CGSize);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
 - (id);
 - (id);
@@ -42,6 +24,22 @@
 - (id);
 - (id);
 - (id);
+- (struct CGSize);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -49,7 +47,9 @@
 - (id);
 - (id);
 - (id);
-- (id)otationView:(id)arg1 calloutAccessoryControlTapped: /* Error: Ran out of types for this method. */;
+- (void)8{?=QQ}16;
+- (id)epareShadow:(id)arg1;
+- (id)er;
 
 // Remaining properties
 @property(readonly, nonatomic) SXColumnLayout *columnLayout; // @synthesize columnLayout=_columnLayout;

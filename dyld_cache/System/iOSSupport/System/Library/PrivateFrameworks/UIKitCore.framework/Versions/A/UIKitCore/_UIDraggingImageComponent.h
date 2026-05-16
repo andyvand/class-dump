@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)uages;
 - (id);
-- (struct CGRect)MPMusicPlayerControllerNowPlayingTimeSnapshot">16;
-- (id)PING_MISSING__;
 - (id);
-- (void);
-- (id)astFocusedChildViewControllerColumn;
-- (id)S;
+- (id);
+- (struct CGRect)ideTextColor: /* Error: Ran out of types for this method. */;
+- (id)r;
+- (id);
+- (void)`àµ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;

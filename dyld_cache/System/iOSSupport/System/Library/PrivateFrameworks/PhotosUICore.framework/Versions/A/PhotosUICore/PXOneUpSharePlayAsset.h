@@ -65,35 +65,39 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (unsigned long long)interMomentTransitionTable;
-- (void)idesViewOptionsToolbar;
-- (id)ìë;
-- (id);
-- (double)t!y»_!yp!`k!G_Õ;
-- (void)crewdriver;
-- (id)PXImportConcurrentAction.m;
-- (double)bserverDelegateProxy;
-- (id)¦37I;
-- (void)^No²3;
-- (id)?]4;
 - (unsigned long long);
-- (id)ç5;
+- (long long);
+- (double);
+- (void);
+- (long long);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)áúÐ!l@ùñG1â
+0@ù
+× ;
+- (void)ñG°1â
+0@ù
+× ;
+- (id)ject<OS_dispatch_queue>"40@?<v@?{?=qiIq}>48;
+- (_Bool)gEnabled: /* Error: Ran out of types for this method. */;
+- (id)äò;
+- (id)\Dþÿdþÿà`þÿ;
+- (id)ot a request to perform authentication.;
+- (id)Journal:[%{public}ld] Cancel from deinit for image /* Error: Ran out of types for this method. */;
+- (id)p:%s /* Error: Ran out of types for this method. */;
+- (void)e_%@;
+- (void)otos.cloud;
+- (void)Ðÿÿÿ;
+- (id)ÒÿTZ;
+- (double)< 7;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

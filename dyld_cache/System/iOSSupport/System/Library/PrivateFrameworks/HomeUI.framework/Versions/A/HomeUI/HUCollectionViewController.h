@@ -15,12 +15,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)A%!Eù±.ð1b0@ù
-× ;
-- (void)scrubberView;
-- (void)for user %@;
+- (void);
+- (void)int:(id)arg1;
+- (void)$;
+- (void)f_VoiceID_Cancel_Button_Title;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

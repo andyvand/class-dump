@@ -13,18 +13,18 @@
 }
 
 + (Class);
-+ (_Bool)letionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool)=;
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (struct CGRect);
-- (id);
-- (unsigned long long);
+- (void);
+- (unsigned long long)Õ°Ö;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=mBounds;

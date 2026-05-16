@@ -15,11 +15,11 @@
 
 + (id);
 + (id);
-+ (_Bool)WFCalendarItemEndDate} (Parameter Summary);
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,9 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)0°1b0@ù
-× ;
+- (id);
+- (void)derView.swift;
 
 @end
 

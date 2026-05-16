@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PUIMediaLibraryStorageController
 {
-    MISSING_TYPE *_storageCleanupObservers;
-    MISSING_TYPE *_globalAutomaticDownloadLimit;
-    MISSING_TYPE *activeObserver;
-    MISSING_TYPE *globalDownloadLimitObserver;
-    MISSING_TYPE *downloadedAssetsAsPercentageOfTotalSpace;
-    MISSING_TYPE *totalConsumedSpace;
-    MISSING_TYPE *_ignoredAssetsAsPercentageOfTotalSpace;
-    MISSING_TYPE *_ignoredConsumedSpaceQuantity;
-    MISSING_TYPE *_shouldDisplayStorageCleanupTip;
-    MISSING_TYPE *_shouldDisplayStorageCleanupTipPublisher;
 }
 
-+ (id)Ì|p}¼~H;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
++ (void);
 - (id);
-
-// Remaining properties
-@property(nonatomic) _Bool shouldDisplayStorageCleanupTip;
 
 @end
 

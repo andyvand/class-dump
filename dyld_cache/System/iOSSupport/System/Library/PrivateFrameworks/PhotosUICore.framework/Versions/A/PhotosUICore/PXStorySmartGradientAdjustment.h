@@ -39,10 +39,10 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (struct CGSize);
 - (_Bool);
+- (void);
 - (id);
-- (struct CGSize)h;
-- (void)utton;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsUnadjustedOpportunisticDelivery;

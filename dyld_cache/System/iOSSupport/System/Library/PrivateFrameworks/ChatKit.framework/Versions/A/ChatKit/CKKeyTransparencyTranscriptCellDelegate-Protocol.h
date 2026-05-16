@@ -5,9 +5,5 @@
 //
 
 @protocol CKKeyTransparencyTranscriptCellDelegate
-- (void)tagsAndMentionsController;
-- (void)rtedTextAttachmentWithFallbackImage;
-- (void)atter;
-- (void)elineSectionIdentifier;
 @end
 

@@ -5,7 +5,8 @@
 //
 
 @protocol _UIFeedbackCoreHapticsPlayerReuse_Internal
-- (_Bool)-;
+- (_Bool)ÔáÐ!BùQb1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canReuseCoreHapticsPlayer;

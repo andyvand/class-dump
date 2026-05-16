@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)premiumServiceStart;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *communicationEngineUrl; // @synthesize communicationEngineUrl=_communicationEngineUrl;

@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (long long);
+- (void)e__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;

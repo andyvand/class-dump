@@ -16,21 +16,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)C	;
-- (_Bool);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void)¡oÐ!Cù1Â1¢!0@ù
-× ;
-- (double)ð!èBùÇ1¢!0@ù
-× ;
-- (void)vationConditionsDataWithBlock: /* Error: Ran out of types for this method. */;
-- (void)AtPoint:(_Bool)arg1;
-- (double)cTraits:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
-- (double)sSortedForLayout;
-- (double)TC;
-- (void);
-- (void)ì;
+- (double);
+- (void)ateViewOffset:(double)arg1;
+- (void)maximumContentWidthForLayoutMargins;
+- (double)TB,N,S_setPrefersZoomTransitions:,V__prefersZoomTransitions /* Error: Ran out of types for this method. */;
+- (double),V_highlightHoverGestureRecognizer;
+- (void)D(ü(;
+- (void)8&;
+- (_Bool)þÿ;
+- (double)fore adding it as a subview of %@;
+- (void)ËÿwðØûc;
 
 // Remaining properties
 @property(nonatomic) double alphaValue; // @synthesize alphaValue=_alphaValue;

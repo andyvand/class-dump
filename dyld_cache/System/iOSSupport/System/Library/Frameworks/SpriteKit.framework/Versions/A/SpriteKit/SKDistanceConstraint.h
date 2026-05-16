@@ -19,20 +19,19 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)ô;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (struct CGPoint);
-- (id)Á°!È@ùð1b0@ù
-× ;
+- (void)setNeedsFocusUpdate;
+- (id)*ñgÎÿpàÿpßÿ^ÁÿGfÿA]þQt¨ÿkÜÿiÛÿiÜÿ*@aþÐ;
 
 // Remaining properties
 @property(copy) SKRange *distanceRange; // @synthesize distanceRange=_distanceRange;

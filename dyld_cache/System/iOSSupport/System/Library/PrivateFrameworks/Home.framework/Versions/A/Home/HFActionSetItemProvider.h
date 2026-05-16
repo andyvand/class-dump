@@ -33,20 +33,20 @@
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id)ingViewControllerForAlert;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (void)letedInfo;
+- (void)racteristicValueTemperatureUnitFahrenheit;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long actionSetItemStyle; // @synthesize actionSetItemStyle=_actionSetItemStyle;

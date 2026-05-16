@@ -23,73 +23,62 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)_job_queue;
-- (void)Ҥe;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (id)Gùq[Ð1Â0@ù
+× ;
+- (id)Ô ;
+- (id)w"24@0:8@"UITextSelectionDisplayInteraction"16 /* Error: Ran out of types for this method. */;
+- (void)nu"24;
+- (id)wipeViewManipulator>"24@0:8@"UISwipeActionController"16 /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ackground;
+- (_Bool)omInputModes: /* Error: Ran out of types for this method. */;
+- (id)AdjustmentForBarMetrics: /* Error: Ran out of types for this method. */;
+- (void)e;
+- (_Bool)ary;
+- (long long)overrideMinimumWidth;
+- (void)ntStoryboardSegueCreator;
+- (void)lor;
+- (void)eImageRepresentation;
+- (id)ionSceneDeactivationManager;
+- (void)dStorageP33_1C0F8C0D03AFC671C72C2F6A6CCF61F417StoredPayloadBase;
 - (void);
+- (void)er your primary view controller has been initialized.;
+- (void)þQ;
+- (id)antOnScreenOnlyUserInfoKey;
+- (double)"8Q16^B24;
+- (id)LoggingEnabled;
+- (id)undGradientEnd;
+- (void)fault title of a document user activity.;
+- (void)ollerShouldDismiss;
+- (void)´hþÿ^$ÿÿ%ÿÿ¢hþÿ%ÿÿ;
 - (void);
-- (void)';
-- (id)not import an object without a personID;
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)FloatingPad;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (double)ñÇ1¢!0@ù
-× ;
-- (void)!4FùÌÐ1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (id)@ù
-× ;
-- (id)roposedSettings:withSettingsDiff: /* Error: Ran out of types for this method. */;
-- (void)ition:(id)arg1 toView: /* Error: Ran out of types for this method. */;
-- (void)onFooterHeight;
-- (id)ntroller:sourcePreview:dismissalCompletion: /* Error: Ran out of types for this method. */;
-- (void)SearchFieldFrameForProposedFrame;
-- (id);
-- (void)eSceneWithCompletion:(double)arg1;
-- (id)s;
-- (_Bool)WithName: /* Error: Ran out of types for this method. */;
-- (void)ô|üLtà;
-- (_Bool) 'D);
-- (void)8Þ
-ÈÞpßØßhàèã åhåÐåhæÐæhç8èé@ê
-`ëøë
-ìÄìlîôî¼ï\ð
-ìðTñ¼ñ$òüòló¨ó(õÀ÷(øÐù ú
-Pü	¬ü
-Ôý8
-È0
-Px¸¼,tô(ÐLp:(long long)arg1 <p<ü<ti\j;
-- (void)ÌVrpXÈXlY;
-- (void);
-- (unsigned int)cannot be used to start a drag;
-- (id)or;
-- (_Bool);
-- (void)àt[;
-- (id);
-- (id);
-- (id)a;
+- (_Bool)àþ~õØÂ];
+- (void)®îb;
+- (unsigned int)¦{;
 
 @end
 

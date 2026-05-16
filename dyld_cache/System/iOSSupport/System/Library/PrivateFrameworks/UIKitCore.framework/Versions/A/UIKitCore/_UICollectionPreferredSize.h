@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGSize);
-- (id)p";
+- (_Bool);
 - (id);
 - (id);
-- (id)ntation,V_loadingRepresentation;
 - (struct CGSize);
-- (void);
-- (_Bool)tColor;
-- (struct CGSize)eContentUnavailableConfiguration;
-- (id)g;
-- (struct CGSize)ation;
-- (id)68188D4F11SegmentView;
+- (id);
+- (id);
+- (id)entsPosition: /* Error: Ran out of types for this method. */;
+- (struct CGSize)alMenuCenter;
+- (struct CGSize)processShoulder:pressesEvent:timestamp: /* Error: Ran out of types for this method. */;
+- (id)nk;
+- (void)®·ÿK;
 
 // Remaining properties
 @property(readonly, nonatomic) id additionalData; // @synthesize additionalData=_additionalData;

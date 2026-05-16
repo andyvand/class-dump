@@ -14,12 +14,11 @@
 
 + (id);
 + (id);
-+ (id)@ù
-× ;
++ (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)TableView"16;
+- (unsigned long long);
+- (void)AlertTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDevice *customDevice; // @synthesize customDevice=_customDevice;

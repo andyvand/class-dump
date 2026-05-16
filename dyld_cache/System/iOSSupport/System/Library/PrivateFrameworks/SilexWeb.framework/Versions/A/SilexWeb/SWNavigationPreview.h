@@ -14,11 +14,11 @@
     NSURLRequest *_request;
 }
 
-- (id)dLoadingObserver;
-- (id)|_Ʌhi;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWNavigationHandler> navigationHandler; // @synthesize navigationHandler=_navigationHandler;

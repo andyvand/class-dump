@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)TimeZone;
 
 // Remaining properties
 @property(retain) EKEvent *originalEventToSliceOn;

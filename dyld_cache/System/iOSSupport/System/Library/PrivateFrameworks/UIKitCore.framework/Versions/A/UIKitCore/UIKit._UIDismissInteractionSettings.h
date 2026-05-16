@@ -16,20 +16,19 @@
 }
 
 + (id);
-- (id);
-- (void)ssage to timeElapsed since it's in an invalid state. %lu;
-- (void)d;
-- (void)hat:(id)arg1 %@);
-- (id)GUID (%@);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)±Ä°1¢!0@ù
-× ;
-- (void)etParentLayoutInfo: /* Error: Ran out of types for this method. */;
-- (id)rbandingEdges;
+- (void)setIgnoresKeyboardNotifications: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *edgePan; // @synthesize edgePan;

@@ -77,18 +77,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (double);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, getter=isBorderAndAccessoriesVisible) _Bool borderAndAccessoriesVisible;

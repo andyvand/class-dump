@@ -30,18 +30,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (struct os_unfair_lock_s);
-- (id);
-- (void);
-- (void)ÌHDKüKM;
-- (id);
-- (void)¢Hóâÿm¢Lãÿm¢ ßÿm¢`óâÿ;
-- (id);
+- (void)ÛØäÞ;
+- (struct os_unfair_lock_s)c;
+- (id)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s cacheLock; // @synthesize cacheLock=_cacheLock;

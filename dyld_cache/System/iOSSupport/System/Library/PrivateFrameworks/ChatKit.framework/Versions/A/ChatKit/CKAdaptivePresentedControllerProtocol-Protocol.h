@@ -5,13 +5,6 @@
 //
 
 @protocol CKAdaptivePresentedControllerProtocol
-- (void)acterForString:(_Bool)arg1;
-- (void)ier:(_Bool)arg1;
-- (_Bool)setNotesButton;
-
-@optional
-- (_Bool)üì;
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool preserveModalPresentationStyle;

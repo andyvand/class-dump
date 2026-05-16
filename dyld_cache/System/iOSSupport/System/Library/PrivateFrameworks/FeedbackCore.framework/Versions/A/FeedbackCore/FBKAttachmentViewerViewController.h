@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, QLPreviewController, UIButton, UIStackView;
+@class NSURL, QLPreviewController, UIStackView;
 
 @interface FBKAttachmentViewerViewController
 {
     UIStackView *_stackView;
     QLPreviewController *_previewController;
-    UIButton *_deleteButton;
     NSURL *_url;
-    CDUnknownBlockType _deleteHandler;
-    _Bool _interactionEnabled;
 }
 
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (id);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (void);
-
-// Remaining properties
-@property(nonatomic) _Bool interactionEnabled; // @synthesize interactionEnabled=_interactionEnabled;
+- (void)X|þ;
 
 @end
 

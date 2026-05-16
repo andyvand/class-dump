@@ -5,6 +5,5 @@
 //
 
 @protocol MCSessionDelegate
-- (void);
 @end
 

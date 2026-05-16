@@ -27,9 +27,9 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)¶;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

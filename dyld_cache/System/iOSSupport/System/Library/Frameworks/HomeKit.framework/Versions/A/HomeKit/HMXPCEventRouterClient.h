@@ -21,7 +21,7 @@
     HMEPersistentConnectionClient *_eventRouterClient;
 }
 
-+ (id)@"NSArray",R,N;
++ (id)sterID:%@, endpointID:%@, accessory:%@, commandFields:%@, expectedValues:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -34,22 +34,22 @@
 - (id);
 - (void);
 - (void);
+- (_Bool);
+- (unsigned long long);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void)dateDocumentationAssetExtractor;
+- (id)3;
+- (id)ients of updated location services using delegate:(id)arg1 %@;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)erWithName:significantEvent:significantEventOffset:recurrences: /* Error: Ran out of types for this method. */;
-- (id)lly updated photos person manager settings:%@, zone UUID:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)/command ids;
-- (id)%@ mismatches cache class %@: /* Error: Ran out of types for this method. */;
-- (void)ableUpdateWithCompletionHandler:] /* Error: Ran out of types for this method. */;
-- (id)cessoryAccessCodesMessage;
-- (id);
+- (id)_fetchNewAccessoriesWithPrivacyCheck];
+- (void)Accessories:(_Bool)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *changeRegistrationsMessageName; // @synthesize changeRegistrationsMessageName=_changeRegistrationsMessageName;

@@ -13,8 +13,8 @@
 }
 
 + (Class);
-+ (id)agePlayground.framework/Versions/A/ImagePlayground;
-+ (id)ystem/Library/Frameworks/ImagePlayground.framework/Versions/A/ImagePlayground;
++ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -27,7 +27,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool)centageTextOffset;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool onConnect; // @synthesize onConnect=_onConnect;

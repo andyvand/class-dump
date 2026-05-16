@@ -4,12 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UIBarButtonItemGroup;
-
 @protocol _UIBarButtonItemGroupOwner
-- (void)tent:(UIBarButtonItemGroup *)arg1 idealBackButtonWidth:(UIBarButtonItem *)arg2;
-
-@optional
-- (void)@"NSError"44;
+- (void)edPreferredSymbolConfiguration"b1"hasCustomizedTintColor"b1"hasCustomizedCornerRadius"b1"hasCustomizedMaximumSize"b1"hasCustomizedAccessibilityIgnoresInvertColors"b1};
+- (void)pple.uikit.backgroundTaskAssertionQueue;
 @end
 

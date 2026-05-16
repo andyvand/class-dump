@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, STScreenTimeConfiguration;
+@class NSObject, NSXPCConnection, STScreenTimeConfiguration;
 
 @interface STScreenTimeConfigurationObserver
 {
+    NSObject *_configurationLock;
     int _notificationToken;
     STScreenTimeConfiguration *_configuration;
     NSXPCConnection *_xpcConnection;
@@ -18,8 +19,8 @@
 - (void);
 - (int);
 - (id);
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);

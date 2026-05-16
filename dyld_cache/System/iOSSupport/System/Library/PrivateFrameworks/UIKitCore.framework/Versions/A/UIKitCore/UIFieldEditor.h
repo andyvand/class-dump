@@ -45,229 +45,238 @@
     struct CGPoint _autoscrollContentOffset;
 }
 
-+ (id)Server>"8@?<B@?>16;
-+ (id)er: /* Error: Ran out of types for this method. */;
-+ (id)lurEffectStyleSystemVibrantBackgroundRegular;
++ (id):forced:didAdjustFont: /* Error: Ran out of types for this method. */;
++ (id)ernal inconsistency:transition already committed /* Error: Ran out of types for this method. */;
++ (id);
+- (struct _NSRange);
+- (id);
+- (struct UIEdgeInsets);
+- (_Bool);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct CGRect);
 - (struct CGPoint);
+- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (_Bool);
-- (void)!;
-- (void)yloadSMBDomains;
-- (id)thApplicationRules: /* Error: Ran out of types for this method. */;
-- (id)edApplicationDictionaryManaged:(struct CGPoint)arg1;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (struct _NSRange);
 - (id);
+- (void);
+- (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool):(id)arg1;
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void)eV;
 - (void);
 - (void);
 - (void);
-- (_Bool)ideoITunesUQuery;
-- (void)stringByReplacingOccurrencesOfString:(_Bool)arg1 withString: /* Error: Ran out of types for this method. */;
-- (void)nitWithEndpointRoute:(struct CGPoint)arg1;
-- (void)er: /* Error: Ran out of types for this method. */;
-- (void)ction out of bounds [negative index]:(_Bool)arg1 %lld;
-- (struct _NSRange)ettings;
+- (int);
+- (void);
 - (id);
+- (long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (struct _NSRange);
 - (void);
 - (void);
-- (void)ê	º;
+- (id);
+- (void);
 - (_Bool);
-- (void)1Á1¢!0@ù
+- (double);
+- (struct _NSRange);
+- (void);
+- (void)ù
+× ;
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (void)°!Ø@ù[°1Â0@ù
+× ;
+- (id)
+× ;
+- (id)±[°1Â0@ù
+× ;
+- (id)@ù
+× ;
+- (void)0@ù
+× ;
+- (void)!ÐCù±^ð1Â0@ù
+× ;
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (void)a!Aù1`°1Â0@ù
+× ;
+- (void)
+× ;
+- (id)±aÐ1Â0@ù
 × ;
 - (void);
 - (void)0@ù
 × ;
-- (void)!EùqÃÐ1¢!0@ù
+- (id)1Â0@ù
 × ;
+- (void);
+- (void)1Â0@ù
+× ;
+- (int)1Â0@ù
+× ;
+- (_Bool)UIScrollerImp";
+- (_Bool)dd}{CGSize=dd}}16@48;
+- (struct CGRect)0:(id)arg1 8@16B24q28B36B40B44B48;
+- (void)CGPoint=dd}16@32@40;
+- (struct UIEdgeInsets)UIInputViewControllerState";
+- (void)Path;
+- (_Bool)ertForDocumentState:(id)arg1 stringToInsert:(struct _NSRange)arg2 outBeforeString:(id)arg3 outAfterString: /* Error: Ran out of types for this method. */;
+- (void)TransitionController:(struct CGPoint)arg1;
+- (void)gPriority: /* Error: Ran out of types for this method. */;
+- (void)upType:(id)arg1;
+- (void)ectedDates;
+- (struct CGPoint)CurrentTouchState;
+- (struct CGRect)ate;
+- (void)llTypingUpdatesIfNecessary;
+- (_Bool)d;
+- (id)Name;
+- (void)yCode: /* Error: Ran out of types for this method. */;
+- (void)ange;
+- (void):(id)arg1;
+- (id)hRequestType:view: /* Error: Ran out of types for this method. */;
+- (void)ardView;
+- (void)s:(unsigned long long)arg1;
+- (id)_transferQueue_sendBeganCallback;
+- (void)ion;
+- (void)adingImageOffset;
+- (struct CGRect)ionFlippedHorizontally;
+- (id)endPoint:peakPoint:pinnedArrowSide:cornerRadii:arrowBase: /* Error: Ran out of types for this method. */;
+- (void)ntentViewConfigurationProvider;
+- (void)FocusViews;
+- (id)llChangeHandler;
+- (void)=dd},N,V_position;
+- (void)age;
+- (void)N,W,Vdelegate;
+- (id)tHeight;
+- (void)rdIfNeeded;
+- (void)s;
+- (id)ÐÞ;
+- (void)Dø;
+- (void);
+- (void)ast once requires afterScreenUpdates:(id)arg1 YES.;
+- (_Bool)tery status properties, will be UIDeviceBatteryStateUnknown;
+- (_Bool)ake a palette of a class that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
+- (void)index path %@. Scrolling may not function correctly. 
+Collection View:(struct _NSRange)arg1 %@;
+- (void).UIKit.UISheetPresentationControllerExteriorPanGesture;
+- (id)configuration style:%ld for state:%@ /* Error: Ran out of types for this method. */;
+- (id)nimationCurveUserInfoKey;
+- (void)ubclasses of UIKeyboardMotionSupport should be instantiated;
+- (id)const __strong, _UIMapIndex *);
+- (id)tion style other than UIModalTransitionStyleCoverVertical %@.;
+- (id)t no invalidation action;
+- (void)Jÿÿ;
+- (id)<ªoþÕ¨23pçrþ;
+- (void);
+- (void)â_;
+- (id)Zqþ;
+- (void);
+- (void)9;
+- (void)+`§;
+- (_Bool)àºÿ;
+- (id)`±e;
+- (id),Èe;
+- (id)à§rþxPÕg;
+- (_Bool)Q;
+- (void)ÿg;
+- (void);
+- (void)¸@h;
+- (long long)´ch;
+- (id)±Àÿ²;
+- (_Bool)h;
+- (long long)h;
 - (id);
-- (id)1¢!0@ù
-× ;
-- (void)t°!ÐFùñÇÐ1¢!0@ù
-× ;
-- (double)
-× ;
-- (void)¢!0@ù
-× ;
+- (void)q;
+- (long long)üi;
+- (void)­³ÿ³Û;
+- (id)#ás;
+- (_Bool)°º7ÿÅvÔx!j;
+- (struct _NSRange)¦tA;
+- (struct CGRect)<-ÿ&Øô;
+- (id)¹
+Ñ@ñj;
+- (_Bool)É;
+- (void)nÑ$#k;
+- (id)GÐO;
+- (void)Äjk;
+- (id)¨jþ	@q;
+- (_Bool)k;
 - (id);
-- (int)0@ù
-× ;
-- (id)!èCù±Îð1¢!0@ù
-× ;
-- (id)rTransitionOptions";
-- (struct CGRect)electRange"b1};
-- (void)=Q{CGPoint=dd}{CGPoint=dd}{CGSize=dd}{CGPoint=dd}{CATransform3D=dddddddddddddddd}q@@@@}16;
-- (void)entation";
-- (_Bool):(id)arg1 8r^Q16Q24@32;
-- (void)gSessionSource"16@"UIDragItem"24;
-- (void)tationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (_Bool)ze=dd}}16;
-- (_Bool)4{CGSize=dd}32;
-- (id)idFinishLoadingFromDataSource:(id)arg1;
-- (id)gsWithBlock: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (unsigned long long)Keyplane:(id)arg1;
-- (void)etButtonBar:(id)arg1;
-- (struct UIEdgeInsets): /* Error: Ran out of types for this method. */;
-- (void)setAllowsAlternateFullscreen:(_Bool)arg1;
-- (void)lay:(id)arg1;
-- (_Bool)geOfReplacement: /* Error: Ran out of types for this method. */;
-- (void)tureRecognizer;
-- (void)proachCurvature;
-- (void)iedInsetsToEdgeOfContent;
-- (id)eetTransition:(id)arg1 context:(long long)arg2;
-- (struct UIEdgeInsets)esForNewParentViewControllerIfNecessary: /* Error: Ran out of types for this method. */;
-- (void)howsChevron:(id)arg1;
-- (_Bool)_referenceKey;
-- (void)aselineOffsetFromTop;
-- (void)d;
-- (void)TextWithoutClosingTyping:(id)arg1;
-- (id)ctedCirWidth;
-- (void)ataSourceSnapshotter",&,N,V_finalSnapshot;
-- (long long),&,N,V_animator;
-- (id)ide",&,N,V_keyboardToSearchResultsFocusGuide;
-- (void)reen;
-- (id)°g;
-- (void)¤e;
-- (void);
-- (id)\;
-- (void),ö;
-- (void)ÿÿ5;
-- (void)ÿÿ7;
-- (void)egate:(struct _NSRange)arg1 %@;
-- (id)oring -- have in-flight update;
-- (void)ctable %@; snapshot %@%@>;
-- (_Bool)of UIContentUnavailableConstants_IOS - use UIContentUnavailableConstants_Phone or UIContentUnavailableConstants_Pad instead;
-- (void)ICTFontTextStyleBody;
-- (id)0@"UIDynamicBehavior"8Q16^B24;
-- (void)separate scene, and cannot deduce this value;
-- (id)ion=content;
-- (id));
-- (id)tCommonRowHorizontalAlignmentKey;
-- (void)view:(id)arg1 %@;
-- (void)Customized_textAlignmentMirrored;
-- (struct CGRect)ationShortcutIconTypeAlarm;
-- (long long)stashedDismissalPreview;
-- (_Bool)yboardSuppressionAssertion;
-- (void);
+- (void)ÿ;
+- (id)ÿù¶Ñèk;
+- (id)lÚ;
+- (id)îyÔÄMl;
+- (struct CGPoint)$¼l;
+- (struct UIEdgeInsets)¤YÿÖWÚLEl;
+- (void))/Ïødl;
+- (id)xl;
+- (void)VÕ$²l;
+- (id)Ø7÷ÿN;
+- (struct UIEdgeInsets)È¿ÿí=×Ûl;
+- (id)ÇI;
+- (void)ÿ;
+- (void)Ø ºm;
 - (id);
+- (id)@°m;
+- (void)vÿ;
+- (id)?K;
 - (void);
+- (struct CGRect)Ðôm;
+- (void)!n;
+- (void)`3n;
+- (id)n;
+- (id)¹×n;
+- (void)iÿDÜhZn;
+- (struct CGRect)ÿ;
+- (void)L­n;
+- (id)n;
+- (void)¼n;
+- (id)¿r;
 - (void);
-- (void)jþñè4jþ;
-- (void);
-- (long long)×r*\;
+- (id)n;
+- (id)üÉn;
+- (_Bool)\sÿq;
+- (void)ìo;
+- (id),;àÿFP	;
+- (void)èÿ÷ÑIs;
+- (long long)'	;
+- (struct CGSize)eØàIo;
+- (void)Væ;
+- (void)÷Ð`o;
 - (id);
-- (struct _NSRange);
-- (id)l¯uÿ\;
-- (id)¢ÿ;
-- (id)¦®Ç\G_;
-- (void)ÿRNØ£_;
-- (void)èþ;
-- (id)ØÿÙ¶Æ_;
-- (id)/ú_;
-- (void)k`;
-- (void);
-- (id)jb;
-- (long long)"Ñc;
-- (_Bool)kd;
-- (void):(_Bool)arg1 )e;
-- (void)/h;
-- (void)KÖ;
-- (void)g;
-- (id)¤Çÿ­<Ð©êg;
-- (long long)\-;
-- (void)ÿäa;
-- (struct CGRect)BXÔ¯¼i;
-- (_Bool)n¸ÇÅi;
-- (void);j;
-- (void)²?j;
-- (_Bool)Õéþ;
-- (id)c¶j;
-- (id)/nþºsÌáãj;
-- (id)uË¢k;
-- (_Bool)ÿé;
-- (_Bool)ðÿ¨Èck;
-- (_Bool)zk;
-- (void);
-- (void)ð+wÿÊÙÑk;
-- (id);
-- (int)ïþ;
-- (CDUnknownBlockType);
-- (struct CGPoint)·þk;
-- (id)þl;
-- (id);
-- (id)ØFn;
-- (_Bool)Ìû'l;
-- (id)ÿn´É(+l;
-- (void)gl;
-- (void);
-- (struct CGRect)@ l;
-- (void)]l;
-- (id)ÿ;
-- (void)"ÿ>=Ù]hl;
-- (struct CGSize)ÈÊÿ;
-- (id)Ç¾¦l;
-- (void)l;
-- (void)±ÿ;
-- (id);
-- (id)×£l;
-- (void);;
-- (void)\ÀÒÿ²";
-- (struct _NSRange)Ël;
-- (struct CGRect)5YÞ;
-- (id)þl;
-- (id)×
-m;
-- (id)óm;
-- (id)|æ;
-- (void)i§ÿ;
-- (void)gm;
-- (void)mÿ;
-- (void)vsÍòm;
-- (void)R§m;
-- (long long)Bªm;
-- (void)¡;
-- (void)Ô¹Üq;
-- (struct _NSRange)à;
-- (struct UIEdgeInsets)§ìm;
-- (void);
-- (void),fÿ,WÖ²n;
-- (struct CGRect)Pbÿ!ÕZcq;
-- (_Bool)n;
-- (struct UIEdgeInsets)¶gn;
-- (void);
-- (void)rÿé;
-- (id)V¤;
-- (_Bool);
-- (void);
-- (id)ón;
-- (id)¸4÷ÿ);
-- (struct CGRect)ø;
-- (id)x;
-- (id)R*;o;
-- (id)Go;
+- (_Bool)p#ÿ±È;
+- (void)}ÿø>Êo;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
@@ -699,6 +708,10 @@ m;
 @property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIColor",?,&,N
+
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
 
 @property(nonatomic) _Bool useAutomaticEndpointing;
 // Preceding property had unknown attributes: ?

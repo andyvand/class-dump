@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class MPCPlayerCommandRequest, NSArray;
 
 @protocol MPCPlayerPlaybackRateCommand
-- (float);
+- (MPCPlayerCommandRequest *)em:(float)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *extendedSupportedPlaybackRates;

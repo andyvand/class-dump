@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)king if salt zone needs to be created;
 + (_Bool);
-+ (id)Handler: /* Error: Ran out of types for this method. */;
-+ (id)õ;
-+ (long long)È¿ÔþXbÈYMe;
++ (_Bool);
++ (id);
++ (id)UpdateResult _UIUpdateLabelUsingTextConfiguration(UIView * _Nonnull __strong, UILabel * _Nullable __strong * _Nonnull, UIListContentTextProperties * _Nonnull __strong);
++ (long long)áf;
 
 @end
 

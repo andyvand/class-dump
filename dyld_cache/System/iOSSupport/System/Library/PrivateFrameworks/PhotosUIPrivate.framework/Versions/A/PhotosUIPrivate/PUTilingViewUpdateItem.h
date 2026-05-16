@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (long long)tColorTransformer: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)ilingViewAnimationGroup;
 
 // Remaining properties
 @property(readonly, nonatomic) long long action; // @synthesize action=_action;

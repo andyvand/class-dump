@@ -17,16 +17,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)~!ÄGùq|Ð1b0@ù
-× ;
+- (id)6Q24q32;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *backgroundImageView; // @synthesize backgroundImageView=_backgroundImageView;

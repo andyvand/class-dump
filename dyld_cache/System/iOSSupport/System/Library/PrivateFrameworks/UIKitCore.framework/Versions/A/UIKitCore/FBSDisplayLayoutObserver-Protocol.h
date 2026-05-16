@@ -5,8 +5,5 @@
 //
 
 @protocol FBSDisplayLayoutObserver
-
-@optional
-- (void);
 @end
 

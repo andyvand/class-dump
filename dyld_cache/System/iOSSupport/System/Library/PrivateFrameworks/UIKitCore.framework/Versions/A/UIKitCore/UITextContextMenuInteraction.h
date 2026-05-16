@@ -37,68 +37,69 @@ __attribute__((visibility("hidden")))
     UIContextMenuConfiguration *_externallyManagedConfiguration;
 }
 
-- (_Bool)P;
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
-- (_Bool)gesEnabled;
-- (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
+- (struct CGPoint);
 - (_Bool);
-- (_Bool)leLabel;
-- (id)[RCE:(id)arg1 %{public}@] timeout | timing out [was dispatched];
-- (id);
-- (_Bool);
-- (void)P;
-- (id);
-- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id)hä{¬;
-- (void);
-- (id)¶ÿ¹;
-- (void)ù1Ä1¢!0@ù
+- (id)ùqYÐ1Â0@ù
 × ;
-- (void)ÑÄÐ1¢!0@ù
-× ;
-- (void);
-- (id)
-× ;
-- (void)0@ù
-× ;
-- (void)64;
-- (void)vement;
-- (id)iner:applicationFrameworkContext: /* Error: Ran out of types for this method. */;
-- (id)ackwardAndNotify:(id)arg1 reinsertText:(id)arg2;
-- (id)UIShape",C,N,V_shape;
-- (_Bool)bBarPocketContainerInteraction;
-- (void)ontentRegistry",R,N;
-- (id)ViewController",&,N,V_recentsVC;
-- (struct CGPoint)SArray",C,N,V_trailingEditingAccessoryConfigurations;
-- (void)tIdentifier;
-- (void)UIDebuggingZoomDelegate;
-- (id)t;
-- (void)Û;
-- (void)q;
-- (_Bool)iOS16.4 or later. self = %@;
 - (id);
-- (_Bool)ÿÿÿð@èÿÜZþµþÿ;
-- (_Bool)CIImage"16@?0@"CIImage"8;
-- (void)tingViewsShouldGuardWantsAutolayoutFlagPropagation;
+- (_Bool)!ôEù±[Ð1Â0@ù
+× ;
+- (id)¡°!ìAùñ]1Â0@ù
+× ;
+- (id)× ;
+- (void)Ñ^1Â0@ù
+× ;
 - (id);
-- (id)eyboardImpl hardwareKeyboardAvailabilityChanged];
-- (void)ollerPhoneTVMacView.m;
-- (_Bool)e;
-- (void);
-- (void)ÒG×°c;
-- (void)_ÛE°d;
-- (void)ÜÌ>ÿ;
-- (id)ãÄg;
-- (id)¯h;
+- (void)@ù
+× ;
+- (_Bool)wCell"24@32;
+- (_Bool)inHighlightOnMenuNavigation: /* Error: Ran out of types for this method. */;
+- (void)ondaryIconLabel:(id)arg1 artwork:(struct CGPoint)arg2 inputModes:(CDUnknownBlockType)arg3;
+- (void)eView:(id)arg1 tableViewRowData: /* Error: Ran out of types for this method. */;
+- (void)T@"_UIShadowProperties",&,N,V_previewShadowSettings;
+- (id)C,N,V_leadingBarButtonItems;
+- (_Bool)ng_insertSubview:atIndex: /* Error: Ran out of types for this method. */;
+- (void),R,W,N;
+- (_Bool)îÿíwþÿ;
+- (void)not conform to UIViewControllerRestoration protocol:(id)arg1 Class is %@;
+- (void)licationOpenURLOptionsSourceApplicationKey;
+- (void)rsorEnabled;
+- (void)om.apple.inputAnalytics;
+- (id)HUDGesturePan;
+- (id);
+- (_Bool)\÷[;
+- (void)I@à;
+- (void)8Î`;
+- (_Bool)Påþì	;
+- (void)F;
+- (void)1Ö8¤a;
+- (void)¸ìa;
+- (id)\ob;
+- (_Bool)|c;
+- (void)#c;
+- (id)°½Øÿ?¯Ô°c;
+- (id)c;
+- (struct CGRect)xêÿk¨ÒTd;
+- (id);
+- (id)ëÿrýÍ,öj;
+- (void)@êÿ_´;
+- (id)ÿ¸Õpg;
+- (id)|*zþOl;
+- (_Bool)mÁ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;

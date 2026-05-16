@@ -5,8 +5,5 @@
 //
 
 @protocol BETextSelectionDirectionNavigation
-- (void)-;
-- (void);
-- (void)/;
 @end
 

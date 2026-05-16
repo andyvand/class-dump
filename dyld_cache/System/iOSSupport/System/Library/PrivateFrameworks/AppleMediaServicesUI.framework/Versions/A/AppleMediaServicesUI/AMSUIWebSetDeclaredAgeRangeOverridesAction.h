@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)st. request = %{public}@ presentingViewController = %{public}@;
+- (id);
+- (void)t: /* Error: Ran out of types for this method. */;
 
 @end
 

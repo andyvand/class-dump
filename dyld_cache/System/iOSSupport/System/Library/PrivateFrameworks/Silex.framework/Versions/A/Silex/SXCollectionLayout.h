@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)4@0:8@"SXTextSource"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *rowsLayouts; // @synthesize rowsLayouts=_rowsLayouts;

@@ -7,13 +7,6 @@
 @protocol LSApplicationWorkspaceObserverProtocol
 
 @optional
-- (void)H ;
-- (void);
-- (void)ª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (void)^mô;
-- (void);
-- (void)¡®Ð!ÔDùQÇ°1¢!0@ù
-× ;
-- (void)h;
+- (void)@ for %@.;
 @end
 

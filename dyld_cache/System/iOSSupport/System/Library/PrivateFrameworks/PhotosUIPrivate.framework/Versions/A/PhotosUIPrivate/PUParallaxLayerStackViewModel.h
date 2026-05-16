@@ -281,36 +281,37 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (void);
 - (struct CGRect);
-- (void);
+- (id);
 - (id);
 - (void);
-- (long long);
-- (void);
+- (struct CGRect);
+- (id);
 - (void);
 - (double);
-- (void);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (struct CGSize);
-- (struct CGRect)!øDùW1b0@ù
+- (id);
+- (long long)"°1â
+0@ù
 × ;
-- (id)U°!Cù1X1b0@ù
+- (struct CGRect)0@ù
 × ;
-- (id)hotoEditingNotchButtonBackgroundColor;
-- (void)troller:(CDUnknownBlockType)arg1;
-- (struct CGRect)_rectViewForIdentifier: /* Error: Ran out of types for this method. */;
-- (void)Qo_GG_Qo_ËM½GtGG;
+- (void)ndexPath"32@40;
+- (void)serEndingZoom;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double adaptiveLayoutAvailableContentHeight; // @synthesize adaptiveLayoutAvailableContentHeight=_adaptiveLayoutAvailableContentHeight;

@@ -36,9 +36,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (Class)erDelegate>",W,N,V_delegate;
+- (Class)es;
+- (void)uration(Dimensions),WFWidth,WFHeight;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *JSONAdaptersByModelClass; // @synthesize JSONAdaptersByModelClass=_JSONAdaptersByModelClass;

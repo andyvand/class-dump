@@ -19,7 +19,7 @@
 }
 
 - (struct CGPoint);
-- (void);
+- (void)NavigationBarView";
 
 @end
 

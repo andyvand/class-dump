@@ -17,11 +17,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (id);
-- (_Bool)ject><NSCopying>",R,N,V_identifier;
+- (id);
+- (void)chingFrameOfView:withFrameOfView:directionalInsets: /* Error: Ran out of types for this method. */;
+- (_Bool)metadata for empty URL.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;

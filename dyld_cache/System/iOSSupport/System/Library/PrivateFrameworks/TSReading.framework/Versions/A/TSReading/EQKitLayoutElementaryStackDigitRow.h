@@ -21,10 +21,10 @@
 - (id);
 - (id);
 - (double);
-- (unsigned long long);
-- (long long);
 - (unsigned long long);
+- (long long);
 - (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignmentShift; // @synthesize alignmentShift=mAlignmentShift;

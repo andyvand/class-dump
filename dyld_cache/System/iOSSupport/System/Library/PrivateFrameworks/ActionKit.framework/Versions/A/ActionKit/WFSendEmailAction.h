@@ -29,8 +29,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)ô)SÚ,
-ûm¶ébÜh;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isContentManaged) _Bool contentManaged; // @synthesize contentManaged=_contentManaged;

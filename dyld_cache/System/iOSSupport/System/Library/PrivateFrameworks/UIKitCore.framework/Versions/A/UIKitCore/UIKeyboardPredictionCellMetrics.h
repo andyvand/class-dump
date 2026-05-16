@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)instance or conform your subclass to AsyncCacheComputer.;
-+ (id),V_cornerMask;
++ (id);
++ (id)electionInset;
 
 @end
 

@@ -18,15 +18,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)downloadSucceeded %@;
-- (void)elineComponent> No chat found, going to create one later;
-- (long long);
 - (void);
-- (void)Þ	º;
-- (void)ÔªØ¬`­ì­;
-- (id);
-- (id)¬,ÓþTÍ,2c;
-- (id)°z*ÿ¾Û&Zc;
+- (void);
+- (id);
+- (void);
+- (long long)òxóöüö;
+- (void)mØK;
+- (id)prb;
+- (id)ìÃc;
+- (void)e;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

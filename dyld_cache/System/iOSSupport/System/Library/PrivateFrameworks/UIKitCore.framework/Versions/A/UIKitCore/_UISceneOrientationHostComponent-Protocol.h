@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneOrientationHostComponent
-- (long long)T7;
 
 // Remaining properties
 @property(readonly, nonatomic) long long clientInterfaceOrientationLockPreference;

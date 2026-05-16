@@ -49,10 +49,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (double)× ;
+- (double);
+- (id)aü°!hGùñI1â
+0@ù
+× ;
+- (id)artingGestureEndAnimation;
+- (void)CustomizeCollectionsTipMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;

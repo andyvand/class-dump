@@ -8,6 +8,7 @@
 
 @interface PhotosSwiftUICore.DefaultChromeEnvironment
 {
+    MISSING_TYPE *_captionsMenu;
     MISSING_TYPE *__assetObjectIdentifier;
     MISSING_TYPE *__videoModel;
     MISSING_TYPE *__assetDebugInfo;

@@ -12,15 +12,15 @@
 }
 
 + (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ifier: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

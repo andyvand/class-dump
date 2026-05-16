@@ -24,7 +24,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)ULanguageOnboardingKey_SetupLanguage_AssistantDevice_UserInput;
 
 // Remaining properties
 @property(readonly, nonatomic) HUCheckmarkAccessoryView *checkmarkAccessoryView; // @synthesize checkmarkAccessoryView=_checkmarkAccessoryView;

@@ -21,12 +21,12 @@
 - (id);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
 - (id);
 - (void);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property int dialerType; // @synthesize dialerType=_dialerType;

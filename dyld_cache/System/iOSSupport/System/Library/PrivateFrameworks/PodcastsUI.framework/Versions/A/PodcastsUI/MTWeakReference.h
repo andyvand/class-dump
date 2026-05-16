@@ -9,10 +9,10 @@
     id _object;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;

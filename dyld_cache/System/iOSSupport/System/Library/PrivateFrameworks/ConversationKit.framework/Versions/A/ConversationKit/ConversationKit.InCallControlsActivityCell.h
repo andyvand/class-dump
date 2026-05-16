@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)ggny_;
 
 @end
 

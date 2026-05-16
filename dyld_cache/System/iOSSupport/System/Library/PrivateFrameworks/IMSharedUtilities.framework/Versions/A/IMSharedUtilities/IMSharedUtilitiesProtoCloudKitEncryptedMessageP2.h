@@ -16,24 +16,24 @@
 
 - (_Bool);
 - (_Bool);
+- (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
-- (void),¹5H;
-- (id)MessagesMetadataResponse;
+- (id);
+- (id);
+- (_Bool);
+- (void)IMLinkedHashMapNodeStoreP;
+- (id)back_menu;
+- (void)es;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPadding;

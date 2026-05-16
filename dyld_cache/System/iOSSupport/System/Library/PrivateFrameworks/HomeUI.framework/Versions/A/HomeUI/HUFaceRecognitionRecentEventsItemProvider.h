@@ -22,15 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)ù
-× ;
-- (unsigned long long)ectedRoomItemProvider;
-- (void);
-- (id)üµÿ;
+- (id);
+- (void)tionViewController"16@"HFWallpaper"24@"UIImage"32;
+- (void)umber"8;
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSDateInterval *dateRange; // @synthesize dateRange=_dateRange;

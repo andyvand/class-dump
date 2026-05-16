@@ -19,13 +19,13 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id)agazinesEventHandlerTypeDelegate;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)nsCharacterSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SWDatastore *datastore; // @synthesize datastore=_datastore;

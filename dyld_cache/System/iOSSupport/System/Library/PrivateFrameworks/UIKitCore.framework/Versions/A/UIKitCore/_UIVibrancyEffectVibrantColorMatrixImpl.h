@@ -20,20 +20,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)!XGùÃ°1¢!0@ù
+- (id)Ñ_Ð1Â0@ù
 × ;
-- (id)2;
-- (void)stingBackgroundColor:(id)arg1;
-- (id)idateAfterObscuredRangeChangeIfNeeded;
-- (_Bool);
-- (void)tionBar-;
+- (id);
+- (_Bool)nt"32@"NSDictionary"40@"<WebFormSubmissionListener>"48;
+- (void)er:(id)arg1;
+- (void)ssHandler;
+- (_Bool)e version.;
+- (id)d notifications;
+- (void)nstraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:(id)arg1 %@;
+- (void)Byy_;
 
 @end
 

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (double)catorIS2_EEFvfEEE;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double interval; // @synthesize interval=_interval;

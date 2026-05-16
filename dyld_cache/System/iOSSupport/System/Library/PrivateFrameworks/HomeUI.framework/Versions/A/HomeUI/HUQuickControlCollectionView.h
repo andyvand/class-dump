@@ -13,10 +13,10 @@
 
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)atureUnitDegreesCelsius;
 
 // Remaining properties
 @property(readonly, nonatomic) HUScrollGestureRecognitionResolver *scrollGestureResolver; // @synthesize scrollGestureResolver=_scrollGestureResolver;

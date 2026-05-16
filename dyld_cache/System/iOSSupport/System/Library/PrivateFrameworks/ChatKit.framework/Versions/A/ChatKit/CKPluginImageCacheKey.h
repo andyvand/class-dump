@@ -13,16 +13,15 @@
 }
 
 + (id);
-- (void)ending;
-- (void)skController;
-- (long long)f;
+- (void);
+- (void);
+- (long long);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)n
-;
-- (void);
-- (id);
+- (_Bool);
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) long long integerIdentifier; // @synthesize integerIdentifier=_integerIdentifier;

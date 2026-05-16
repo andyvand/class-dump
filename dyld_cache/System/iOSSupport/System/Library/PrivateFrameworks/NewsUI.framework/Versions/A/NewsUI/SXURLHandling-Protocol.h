@@ -5,6 +5,5 @@
 //
 
 @protocol SXURLHandling
-- (void)s.news_personalization.legacy_max_linear_impression_count;
 @end
 

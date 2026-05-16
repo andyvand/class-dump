@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
+- (unsigned long long);
+- (void)ctionController;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

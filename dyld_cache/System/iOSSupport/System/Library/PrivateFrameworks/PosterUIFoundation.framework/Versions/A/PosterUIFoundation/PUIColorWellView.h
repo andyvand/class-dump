@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PUIColorWell *colorWell; // @synthesize colorWell=_colorWell;

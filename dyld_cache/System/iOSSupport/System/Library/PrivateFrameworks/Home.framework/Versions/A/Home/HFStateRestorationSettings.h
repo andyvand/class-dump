@@ -16,7 +16,7 @@
     NACancelationToken *_cancelationToken;
 }
 
-+ (id)lEéÿ;
++ (id)cheduled;
 - (void);
 - (void);
 - (void);
@@ -35,14 +35,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)edHomeWithName:(id)arg1;
+- (void);
+- (id);
+- (void)temperatureStringKeyForActions:(id)arg1 execution:characteristics: /* Error: Ran out of types for this method. */;
+- (void)ô45;
 
 // Remaining properties
 @property(retain, nonatomic) NACancelationToken *cancelationToken; // @synthesize cancelationToken=_cancelationToken;

@@ -69,19 +69,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (_Bool);
+- (void);
+- (id)Ámð!XFùñµ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSSet *blockedContactsHandles;

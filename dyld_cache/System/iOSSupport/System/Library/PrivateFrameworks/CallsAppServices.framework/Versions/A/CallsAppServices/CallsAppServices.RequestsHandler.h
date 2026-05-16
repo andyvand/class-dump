@@ -11,6 +11,7 @@
     MISSING_TYPE *cachedHandlesToIsUnknown;
     MISSING_TYPE *communicationTrustHandling;
     MISSING_TYPE *isRequestsEnabledOverride;
+    MISSING_TYPE *filterModeOverride;
     MISSING_TYPE *acceptedContactsDidChange;
     MISSING_TYPE *unreadRequestCount;
     MISSING_TYPE *$__lazy_storage_$_callHistoryController;
@@ -26,8 +27,9 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

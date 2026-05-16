@@ -22,11 +22,11 @@
 }
 
 - (void);
-- (void)@"CTXPCServiceSubscriptionContext";
-- (void)String";
-- (struct CGSize);
+- (void);
+- (void);
+- (struct CGSize);
 - (struct CGRect);
-- (struct CGSize)@@;
+- (struct CGSize);
 - (struct CGRect);
 - (void);
 - (void);
@@ -38,22 +38,22 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (_Bool)q!;
-- (struct CGPoint)S*U;
+- (_Bool);
+- (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct CGRect)	;
+- (struct CGRect);
 - (_Bool);
 - (double);
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (void);
 - (long long);
-- (void);
 - (id);
+- (void);
 - (double);
+- (void);
 - (void);
 
 // Remaining properties

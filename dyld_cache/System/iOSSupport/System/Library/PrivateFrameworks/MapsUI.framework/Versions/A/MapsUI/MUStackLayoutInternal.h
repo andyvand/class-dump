@@ -15,44 +15,46 @@
 }
 
 - (id);
+- (float);
 - (void);
+- (void);
+- (float);
+- (long long);
 - (id);
 - (_Bool);
-- (void);
+- (long long);
 - (struct UIOffset);
-- (void);
-- (_Bool);
 - (struct NSDirectionalEdgeInsets);
-- (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (void);
-- (_Bool);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (float);
-- (void);
-- (void);
-- (void);
 - (long long);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (long long);
-- (void)n:(long long)arg1;
-- (void)AndSwipeToDismissGestureEnabled;
-- (id)vailability;
-- (void)ing observer:(id)arg1 %@;
-- (long long)r Place Card] Compact Attribution;
-- (void)4ÌçÿQ;
-- (void)ÿ;
-- (long long)M4éÄãÿ54éü×äÿ]4é ØäÿM4éøAéÿU4é<Øäÿ;
-- (double)¤?ù«	;
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id)1â
+0@ù
+× ;
+- (void)nGestureWithTarget:action: /* Error: Ran out of types for this method. */;
+- (void)3°;
+- (void)£;
 
 // Remaining properties
 @property(nonatomic) long long alignment;

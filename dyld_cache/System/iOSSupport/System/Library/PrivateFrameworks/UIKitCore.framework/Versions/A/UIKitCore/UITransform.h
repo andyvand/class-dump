@@ -12,24 +12,23 @@
 }
 
 + (id);
-+ (id)ype %d and context %@;
-+ (id)age %@ fromID %@;
-+ (id)tgoing Download Message;
-+ (id)endDownloadRequest;
 + (id);
-+ (id)òÿ;
-- (id)guid:(struct CGAffineTransform)arg1 %@ to mark as saved, bailing;
-- (struct CGAffineTransform);
-- (unsigned long long);
-- (_Bool)ve NULL updateItems.;
-- (id)d;
-- (id)1¢!0@ù
-× ;
-- (id)ContextBefore:(id)arg1 markedText:selectedText:contextAfter:selectedRangeInMarkedText: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)ControlShouldBeOnLeadingSideForStyle: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)orwardEnumerateVisibleItems: /* Error: Ran out of types for this method. */;
-- (id)R,N,V_timeFormat;
-- (id)st have same number of items;
+- (id);
+- (id);
+- (id);
+- (struct CGAffineTransform);
+- (id);
+- (unsigned long long);
+- (id)"16@24@"WebDataSource"32;
+- (_Bool)tentByIdentifier:(id)arg1;
+- (id)N,V_dampedAnimationDampingRatio;
+- (id)buteDefaults>",R,N,V_label;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

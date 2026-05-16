@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)YØÀ;
++ (_Bool)onStructure>"24@0:8@"MTLAccelerationStructureDescriptor"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -33,8 +33,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

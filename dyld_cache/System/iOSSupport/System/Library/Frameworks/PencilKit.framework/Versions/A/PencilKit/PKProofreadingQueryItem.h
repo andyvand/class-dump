@@ -14,15 +14,16 @@
 }
 
 - (void);
-- (id)$;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (int);
+- (int)!ÔBù(ð1Â0@ù
+× ;
+- (void)lorPickerController>",&,N,V_colorPickerController;
 
 // Remaining properties
 @property(retain, nonatomic) CHTextCheckingQueryItem *coreHandwritingTextCheckingQueryItem; // @synthesize coreHandwritingTextCheckingQueryItem=_coreHandwritingTextCheckingQueryItem;

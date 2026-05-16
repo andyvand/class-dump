@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void);
 - (oneway void);
-- (void)ng, __strong id<LSMCStateProvider>);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

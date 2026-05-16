@@ -13,11 +13,12 @@
 
 + (id);
 + (id);
-+ (void);
++ (void)0@ù
+× ;
 - (oneway void);
 - (void);
 - (id);
-- (void)ToolPreviewDelegate;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

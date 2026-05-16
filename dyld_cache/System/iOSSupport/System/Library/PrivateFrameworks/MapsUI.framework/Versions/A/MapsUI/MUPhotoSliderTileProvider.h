@@ -30,11 +30,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
 - (long long);
-- (id)n°1b0@ù
-× ;
+- (id);
+- (void);
+- (void)ctionControllerForAvailability: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long displayType;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)tactLastName} to Contacts;
++ (_Bool);
 
 @end
 

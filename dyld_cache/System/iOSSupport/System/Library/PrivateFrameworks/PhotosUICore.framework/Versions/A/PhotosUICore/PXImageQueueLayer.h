@@ -14,10 +14,12 @@
 - (void);
 - (void);
 - (id);
-- (void)Ìã;
-- (id)s;
-- (struct __CVBuffer *)´V;
-- (void)Lµ4;
+- (id);
+- (void)0@ù
+× ;
+- (void)ayerItemWithAsset(AVAsset *__strong _Nonnull, CMTime, CMTimeRange, CMTime);
+- (struct __CVBuffer *)Í
+;
 
 // Remaining properties
 @property(nonatomic) struct __CVBuffer *pixelBuffer;

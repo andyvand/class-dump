@@ -20,14 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (id)*;
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (unsigned char);
-- (_Bool);
+- (_Bool)ntValue;
+- (void)LÑ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

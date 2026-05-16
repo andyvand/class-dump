@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (_Bool);
 - (id);
-- (void);
-- (id)¢N;
-- (id)ô´íþïþ;
+- (_Bool)InlineByToolbar:(SEL)arg1;
+- (id)@"UIViewController"16;
+- (void)ÂçÓ°Rd;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <UIPreviewInteractionDelegate> delegate; // @dynamic delegate;

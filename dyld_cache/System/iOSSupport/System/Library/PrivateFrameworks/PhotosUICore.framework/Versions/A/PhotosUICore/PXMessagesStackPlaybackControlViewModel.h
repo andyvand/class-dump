@@ -17,9 +17,9 @@
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
 - (_Bool);
+- (void)c_hasAppleMusicSubscription;
+- (void)Result;
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentItem; // @synthesize currentItem=_currentItem;

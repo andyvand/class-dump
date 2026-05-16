@@ -27,14 +27,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)1
-ð1b0@ù
-× ;
+- (void)NCache",&,N,V_delegates;
+- (id)_MEDICAL_ID;
 
 // Remaining properties
 @property(nonatomic, copy) NSData *avatarRecipeData;

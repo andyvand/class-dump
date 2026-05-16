@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
-- (void);
 - (void);
 - (id);
-- (void)inishedClosingWithState;
-- (double);
+- (void);
+- (double);
+- (double);
+- (void)IntervalGranularity:(double)arg1 dateType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double endAngle; // @synthesize endAngle=_endAngle;

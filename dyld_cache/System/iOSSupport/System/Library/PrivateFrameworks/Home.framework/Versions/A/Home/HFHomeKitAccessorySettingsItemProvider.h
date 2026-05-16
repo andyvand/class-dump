@@ -49,22 +49,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void)selected home changed notification. New selected home identifier:(id)arg1 %@;
-- (id)AccessoryCollectionSettingItem"8;
-- (id)"Ä;
+- (id);
+- (id);
+- (void)!øAù1â°1B50@ù
+× ;
+- (void)Ø,D;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;

@@ -19,22 +19,21 @@
 }
 
 - (id);
-- (void)egrzo_;
-- (void)mat().mChannelsPerFrame == 1;
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (double);
+- (double);
+- (void);
 - (id);
+- (double);
+- (void);
+- (_Bool)viewForPresentation"B"previewForCancellingDragItem"B"willAnimateDragCancelWithAnimator"B"dragSessionDidEndForItems"B"interactionEffectForTargetedPreview"B"endedForPresentation"B"shouldPlayFeedback"B"shouldPresentWithCompletion"B"shouldBeDelayedByGestureRecognizer"B"secondaryPreviews"B"shouldMaintainKeyboardAssertion"B};
+- (id)actionPeekCount;
 - (void);
 - (void);
-- (double)!xFùñÍÐ1¢!0@ù
-× ;
-- (id)BackdropGroupName;
-- (_Bool)tUseUnifiedSelectionBehavior: /* Error: Ran out of types for this method. */;
-- (void)¬;
-- (double)oard;
-- (void)Data;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAdditive) _Bool additive; // @synthesize additive=_additive;

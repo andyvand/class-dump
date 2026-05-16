@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)Rü7ù1;
-- (id)ìP¼;
++ (id);
+- (id)8à;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,19 +11,23 @@
     _Bool _isMailVIP;
     _Bool _shouldColorEmphasizeHighlightedProperties;
     NSArray *_highlightedLabeledValueIdentifiers;
+    NSArray *_displayedProperties;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)ctionTypes;
 
 // Remaining properties
+@property(copy, nonatomic) NSArray *displayedProperties; // @synthesize displayedProperties=_displayedProperties;
 @property(copy, nonatomic) NSArray *highlightedLabeledValueIdentifiers; // @synthesize highlightedLabeledValueIdentifiers=_highlightedLabeledValueIdentifiers;
 @property(nonatomic) _Bool isMailVIP; // @synthesize isMailVIP=_isMailVIP;
 @property(nonatomic) _Bool shouldColorEmphasizeHighlightedProperties; // @synthesize shouldColorEmphasizeHighlightedProperties=_shouldColorEmphasizeHighlightedProperties;

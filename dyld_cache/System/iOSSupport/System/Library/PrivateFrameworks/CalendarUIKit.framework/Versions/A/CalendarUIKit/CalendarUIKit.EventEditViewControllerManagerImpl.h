@@ -34,23 +34,22 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool)rrayCreateMutable pValueArray:NULL
- /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
+- (void)ocationPrecisionDeterminedNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) UIViewController *viewController;

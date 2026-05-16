@@ -10,12 +10,12 @@
 {
 }
 
-+ (double);
++ (double);
 + (unsigned long long);
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);

@@ -16,23 +16,23 @@
     unsigned long long _mockUnreadMessageCount;
 }
 
-- (void)mSelector:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
-- (void)le:(id)arg1 appearanceInfo: /* Error: Ran out of types for this method. */;
-- (void)ifierForColumnAtIndex:(unsigned long long)arg1;
-- (void)ableIdentifier:(id)arg1 itemType: /* Error: Ran out of types for this method. */;
-- (void)eferredFontForHeadingText;
-- (void)ic_compactMap:(id)arg1;
-- (void)entWithTag:(id)arg1;
-- (id)"NSAttributedString",&,N,V_displayingAttributedSnippet;
-- (unsigned long long)NSMutableArray",&,N,V_nonSystemPaperNotesInSource;
-- (id)Source;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)completionHandler:(id)arg1 ];
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -43,11 +43,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)
-× ;
-- (id)IView",&,N,V_textContainerOverlayView;
+- (id);
+- (id);
+- (void)wser.RecentPlugin;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *extraParticipants; // @synthesize extraParticipants=_extraParticipants;

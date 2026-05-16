@@ -14,19 +14,20 @@
     _UIAssertionController *_assertionController;
 }
 
-+ (id);
++ (id)1Â0@ù
+× ;
 - (void);
-- (id)tDirection: /* Error: Ran out of types for this method. */;
-- (id)orKTPeerURI:(id)arg1;
-- (struct UIEdgeInsets)O<;
+- (id);
+- (id);
+- (struct UIEdgeInsets);
 - (unsigned long long);
-- (id)T<;
-- (void);
-- (_Bool)an10Key;
-- (void)[;
-- (void)\;
-- (id)0Ù¹ÿ¥ÌMö];
-- (id)ñ];
+- (id);
+- (_Bool);
+- (void)greater than zero or UITableViewAutomaticDimension.;
+- (id);
+- (void)T];
+- (id)»-;
+- (void) a;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

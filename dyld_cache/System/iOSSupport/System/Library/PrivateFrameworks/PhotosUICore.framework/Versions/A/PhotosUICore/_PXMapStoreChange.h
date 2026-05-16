@@ -20,9 +20,9 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)ÿ;
+- (_Bool)marksDataSource;
 - (id);
+- (void)eÜL:(id)arg1 4;
 
 // Remaining properties
 @property(retain) NSSet *addedItems; // @synthesize addedItems=_addedItems;

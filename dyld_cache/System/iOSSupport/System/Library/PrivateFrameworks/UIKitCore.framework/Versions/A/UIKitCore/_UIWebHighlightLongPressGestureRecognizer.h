@@ -10,9 +10,11 @@
 {
 }
 
-- (_Bool)truction text for AppleTV generic dictation.;
-- (void)tiveLetter;
-- (id).apple.focus._UIFocusGestureJoystick;
+- (id)
+ð!LBù1g1Â0@ù
+× ;
+- (void)ActionView: /* Error: Ran out of types for this method. */;
+- (_Bool)TouchForceMessage;
 
 @end
 

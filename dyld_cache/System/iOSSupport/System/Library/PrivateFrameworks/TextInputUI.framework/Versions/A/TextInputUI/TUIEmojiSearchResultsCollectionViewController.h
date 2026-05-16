@@ -26,17 +26,17 @@
 
 + (id);
 + (double);
-- (void)9³|;
-- (void);
 - (void);
-- (void)D9³|;
-- (void)Âº0{;
-- (void)wäz;
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
-- (id)¨Å ;
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -45,22 +45,21 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
-- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (id);
 - (void);
-- (void)±|°1b0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic, getter=isCellHighlightFrozen) _Bool cellHighlightFrozen; // @synthesize cellHighlightFrozen=_cellHighlightFrozen;

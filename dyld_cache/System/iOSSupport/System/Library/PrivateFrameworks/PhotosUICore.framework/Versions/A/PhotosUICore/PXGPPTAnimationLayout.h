@@ -19,15 +19,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)«°myl¬Ö0e;
-- (void);
 - (long long);
 - (id);
-- (void),V_completionKey;
-- (void)18PhotosUIFoundation0A4ItemP;
-- (unsigned int)rceObservation;
-- (unsigned int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned int)XCuratedLibrarySectionHeaderLayout setExternalLeadingButtonConfigurations:] /* Error: Ran out of types for this method. */;
+- (void)s;
+- (unsigned int)À;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *configurationDescription;

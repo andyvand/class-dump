@@ -21,11 +21,13 @@
 - (id);
 - (long long);
 - (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessorySymbolName; // @synthesize accessorySymbolName=_accessorySymbolName;

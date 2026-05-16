@@ -13,19 +13,17 @@
 }
 
 - (id);
-- (void);
+- (long long);
 - (unsigned long long);
+- (long long);
+- (long long);
 - (_Bool);
-- (long long);
 - (void);
-- (long long);
 - (void);
-- (long long);
-- (unsigned long long);
-- (void)ÐÚAð?(¶Acïý¾¦¿ Aô?±vA~áý¾#vAû?ÿc\ApÍý¾eyBA?2Ad±ý¾nA4?GAôý¾M2Aá%?yø@û\ý¾>ÏÚ@>?æiÓ@Æý¾{º@ª`?s¶@æZü¾È
-¡@Ü¹?@@ÎÁû¾og@Å?±@9û¾xðv@
-J?Sxx@ú¾æZ@b?^@{¤ù¾C@?ÃG@à¼ø¾7Â/@K?Ç4@%²÷¾é@["?ô$@-wö¾x@ÍÍ?.@%õ¾þ@"?í~
-@.¬ó¾¦_ò?þc?·;
+- (void);
+- (void)	
+;
+- (unsigned long long)5\Q8£;
 
 // Remaining properties
 @property(nonatomic) long long arrayLength; // @synthesize arrayLength;

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (double);
++ (double)ublic}s) Image request cancelled [1];
 - (id);
 
 @end

@@ -19,9 +19,9 @@
 
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (id)Paid;
+- (id);
+- (_Bool);
 
 @end
 

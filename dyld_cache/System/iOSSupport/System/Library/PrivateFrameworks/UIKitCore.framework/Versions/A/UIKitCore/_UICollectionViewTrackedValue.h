@@ -20,10 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id)imumParallaxImages;
-- (double)e>);
-- (void)êÊÖ»b;
+- (id);
+- (double);
+- (void)NQ
+;
+- (void)ÿ&6;
 
 // Remaining properties
 @property(nonatomic) _Bool isAccumulating; // @synthesize isAccumulating=_isAccumulating;

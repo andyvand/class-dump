@@ -14,24 +14,24 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long)Èª;
-- (long long),;
+- (long long);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ser:%@ (nonfatal) /* Error: Ran out of types for this method. */;
+- (unsigned long long)tml4/loose.dtd";
+- (unsigned long long)actPhoneNumbers);
+- (_Bool)ation.framework/AVFoundation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;

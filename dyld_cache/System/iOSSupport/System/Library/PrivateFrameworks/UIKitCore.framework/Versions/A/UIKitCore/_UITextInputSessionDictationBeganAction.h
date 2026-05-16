@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     unsigned long long _multiModalDictationBeganCount;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
 - (unsigned long long);
+- (id);
 - (long long);
-- (id)ction;
 
 // Remaining properties
 @property(nonatomic) unsigned long long dictationBeganCount; // @synthesize dictationBeganCount=_dictationBeganCount;

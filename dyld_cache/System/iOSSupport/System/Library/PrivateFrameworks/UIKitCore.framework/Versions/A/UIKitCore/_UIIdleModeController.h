@@ -26,32 +26,32 @@
 - (_Bool);
 - (id);
 - (double);
-- (_Bool)es;
-- (void)nChat:(id)arg1 withCompletionHandler:(id)arg2;
-- (void)eModifyRecordsOperation: /* Error: Ran out of types for this method. */;
-- (void)_handleMessageProcessedWithGUID: /* Error: Ran out of types for this method. */;
-- (id)tification:(id)arg1 wantsCheckpointing:(id)arg2 needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
+- (_Bool);
 - (void);
-- (void)<;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)<;
 - (void);
-- (id);
-- (void)yRadioStationEventHeroArtwork;
 - (void);
-- (double)º;
-- (unsigned long long)
+- (unsigned long long);
+- (void);
+- (void)1Â0@ù
 × ;
-- (double)eRequest;
-- (id)s.keyboard;
-- (void)tomizationItemReservoirView"8@"UITraitCollection"16;
+- (id)numberOfBars;
+- (double)patrick3;
+- (double)=%p minimumSize=%p;
+- (void)d;
+- (id)aëþ½Ñ a;
 
 // Remaining properties
 @property(nonatomic, getter=isIdleModeEnabled) _Bool idleModeEnabled; // @synthesize idleModeEnabled=_idleModeEnabled;

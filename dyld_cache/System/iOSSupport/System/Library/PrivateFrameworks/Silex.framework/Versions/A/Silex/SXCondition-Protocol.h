@@ -7,10 +7,8 @@
 @class NSSet, NSString, SXFollowingCondition;
 
 @protocol SXCondition
-- (NSString *);
-- (NSString *)dContentPrefetchTask;
-- (NSString *)";
-- (NSSet *);
+- (SXFollowingCondition *)r;
+- (NSSet *)ayout;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *app;

@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)numberOfInlineServiceHours;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canShowCallAction;

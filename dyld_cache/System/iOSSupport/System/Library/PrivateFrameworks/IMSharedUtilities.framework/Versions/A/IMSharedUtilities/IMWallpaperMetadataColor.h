@@ -11,13 +11,14 @@
     IMWallpaperMetadataColor_Impl *swiftImpl;
 }
 
-+ (_Bool)termsAndConditionsURL;
++ (_Bool);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)!ÜAùQsð1Â0@ù
+× ;
+- (void);
 
 @end
 

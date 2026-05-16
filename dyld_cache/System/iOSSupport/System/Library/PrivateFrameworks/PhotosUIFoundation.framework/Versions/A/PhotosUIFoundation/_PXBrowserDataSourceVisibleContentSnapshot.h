@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetDataSource> dataSource; // @synthesize dataSource=_dataSource;

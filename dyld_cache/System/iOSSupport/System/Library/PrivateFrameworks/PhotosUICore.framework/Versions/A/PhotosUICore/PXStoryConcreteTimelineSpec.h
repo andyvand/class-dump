@@ -31,12 +31,12 @@
 - (id);
 - (unsigned long long);
 - (double);
+- (struct CGSize);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (struct CGSize);
-- (struct UIEdgeInsets)½;
-- (long long)XnPÎ5;
+- (struct UIEdgeInsets)raryContext;
+- (void)ÈÉÿshouldRefreshBackgroundAssetsOnAppRestart;
+- (long long)WàÚ5;
 
 // Remaining properties
 @property(nonatomic) unsigned long long allowedInlineTitles; // @synthesize allowedInlineTitles=_allowedInlineTitles;

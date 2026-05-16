@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (long long);
-- (id)Items;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long integerArgument; // @synthesize integerArgument=_integerArgument;

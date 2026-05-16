@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @dynamic URL;

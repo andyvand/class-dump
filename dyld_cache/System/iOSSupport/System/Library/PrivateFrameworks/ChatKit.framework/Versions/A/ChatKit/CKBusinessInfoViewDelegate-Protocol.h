@@ -5,6 +5,5 @@
 //
 
 @protocol CKBusinessInfoViewDelegate
-- (void)n;
 @end
 

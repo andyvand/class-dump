@@ -11,9 +11,9 @@
     MISSING_TYPE *localNewsChannelService;
 }
 
-- (void);
 - (void);
 - (id);
+- (void)SportsFavoritesAssembly;
 
 @end
 

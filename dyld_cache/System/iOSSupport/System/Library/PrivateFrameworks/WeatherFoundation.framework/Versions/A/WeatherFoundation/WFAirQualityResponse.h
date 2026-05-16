@@ -22,8 +22,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

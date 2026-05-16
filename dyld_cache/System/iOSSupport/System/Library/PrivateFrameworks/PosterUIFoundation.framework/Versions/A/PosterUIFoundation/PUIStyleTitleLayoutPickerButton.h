@@ -13,9 +13,9 @@
     id <PUIIncomingCallTextViewAdapter> _textViewAdapter;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 

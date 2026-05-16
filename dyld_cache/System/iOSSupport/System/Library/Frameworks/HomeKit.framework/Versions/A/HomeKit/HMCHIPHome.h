@@ -15,8 +15,8 @@
     HMCHIPEcosystem *_ecosystem;
 }
 
-+ (id)õÀ÷Lù0ý¼þ(;
-+ (_Bool)ssoryCollectionSettingItem class]];
++ (id);
++ (_Bool);
 
 @end
 

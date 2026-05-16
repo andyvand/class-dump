@@ -8,6 +8,7 @@
 
 @protocol FCPPTContext
 - (void);
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic, getter=isPrefetchDisabled) _Bool prefetchDisabled;

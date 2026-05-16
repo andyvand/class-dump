@@ -16,11 +16,11 @@
 
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 
 // Remaining properties

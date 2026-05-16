@@ -7,15 +7,6 @@
 @protocol CKEffectPickerViewControllerDelegate;
 
 @protocol CKEffectPickerViewControllerProtocol
-- (void);
-- (void)teForAllPaperKitBackedAttachments;
-- (void)ndleURL:(_Bool)arg1;
-- (void)opyTitleToPasteboard:(double)arg1;
-- (void)Handler: /* Error: Ran out of types for this method. */;
-- (void)<);
-- (void));
-- (id <CKEffectPickerViewControllerDelegate>)$þ;
-- (void)¸úÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKEffectPickerViewControllerDelegate> delegate;

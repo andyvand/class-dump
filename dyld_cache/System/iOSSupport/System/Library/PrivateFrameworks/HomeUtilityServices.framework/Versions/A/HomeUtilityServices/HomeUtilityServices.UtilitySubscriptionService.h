@@ -5,11 +5,13 @@
 //
 
 @class MISSING_TYPE, _TtC19HomeUtilityServices20UtilityConfiguration;
+@protocol _TtPC19HomeUtilityServices26UtilitySubscriptionService18DecryptionDelegate_;
 
 @interface HomeUtilityServices.UtilitySubscriptionService
 {
     MISSING_TYPE *sessionID;
     _TtC19HomeUtilityServices20UtilityConfiguration *configuration;
+    id <_TtPC19HomeUtilityServices26UtilitySubscriptionService18DecryptionDelegate_> decryptionDelegate;
 }
 
 + (void);
@@ -22,6 +24,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,12 +34,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC19HomeUtilityServices20UtilityConfiguration *configuration; // @synthesize configuration;
+@property(nonatomic, retain) id <_TtPC19HomeUtilityServices26UtilitySubscriptionService18DecryptionDelegate_> decryptionDelegate; // @synthesize decryptionDelegate;
 
 @end
 

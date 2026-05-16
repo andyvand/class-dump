@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)meBusiness;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMAuthenticationResult *authResult; // @synthesize authResult=_authResult;

@@ -13,12 +13,12 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)EIÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *AES128Key;

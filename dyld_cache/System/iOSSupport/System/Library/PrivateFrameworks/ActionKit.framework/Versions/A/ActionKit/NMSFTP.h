@@ -39,15 +39,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void)zonUserId;
-- (id)ÔÆ³³;
+- (_Bool);
+- (_Bool);
+- (void)le Right;
+- (_Bool)ssistantServices;
+- (void)åc8ZPÝ}G5) µç¯£æóãcp+yàu]VSé@{é¥ÿùôµ<,èu3ó~ÄÛ¯¸jaÓÙåÝ!9RwøªÒÖ"â%½¨5xqþuqJ¡ðÊì`]ea0DÁ¼ç¥@ÔÝAôÏ,Ü jà®zé[ÐâÚU¨²0_ùG4Kùì½RÆ·]ÆeÒC>Ð"OîÀ^±ýYéKdWV¿¤¥Ý£Æhqm¤T~,´Ä×¢$V±v0L ¼¾A:î¦2ó6}ãk¼gf;@ð>ê:F_i-(Ãà°­Nh*J[±Å·a([ÐDá¿[\)òÀazÃLt·õèñÑÃYcËLK?§EïFßkã60K+û=Õôtöæï¢õkû-NFvä_
+ß4 xu#¡º½b3ª~Ñ®wS÷°þÑÈ£.U	?Qp)¬cUW§§ÉiEQeh&Ôº
+öQø*·I×}Énöy=ï'õ+-ÍHîð°z0É"ñ¢íTsaBñÓ/ÐÇJgM(jðâáý|Ét¾Òq~pg¯OI©ìÑÛ³ã²4MÑr'4%£Ö /* Error: Ran out of types for this method. */;
+- (void)«MÛÛKÛ«M¡¡¾¡a_À¡¡¾¡a_À==ô=õÉzÈ==ô=õÉzÈfÌñ3[fÌñ3[;
+- (id)ø;
 
 // Remaining properties
 @property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;

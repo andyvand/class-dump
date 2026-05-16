@@ -7,6 +7,6 @@
 @protocol TSDRepTextContaining
 
 @optional
-- (_Bool)leInternal/Library/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDDisplayLink.m;
+- (_Bool)ar: /* Error: Ran out of types for this method. */;
 @end
 

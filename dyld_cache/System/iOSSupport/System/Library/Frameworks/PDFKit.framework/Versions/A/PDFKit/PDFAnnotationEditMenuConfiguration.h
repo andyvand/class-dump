@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)ntView;
 - (id);
-- (void)ent:(id)arg1;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) PDFAnnotation *annotation; // @synthesize annotation=_annotation;

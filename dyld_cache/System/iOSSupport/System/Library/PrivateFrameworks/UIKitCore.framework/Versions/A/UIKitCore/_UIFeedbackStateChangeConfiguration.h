@@ -25,16 +25,16 @@
 - (void);
 - (void);
 - (void);
-- (double)"NSArray"40I48B52@"NSDictionary"56Q64Q72@"NSString"80;
-- (double)Dictionary"24@"NSArray"32@"NSArray"40I48B52@"NSDictionary"56Q64Q72@"NSString"80;
-- (id)0@44;
-- (double)72@80;
-- (double)8@0:8@16@24@32@40I48B52@56Q64Q72@80 /* Error: Ran out of types for this method. */;
-- (void)PC Connection for IMDBackgroundMessagingAPIListener;
-- (id)ssage from me;
-- (_Bool);
+- (double);
+- (double);
 - (id);
+- (double);
+- (double);
 - (void);
+- (id);
+- (_Bool)sform;
+- (id),N,G_isCancellationTimerEnabled,S_setCancellationTimerEnabled:(struct _NSZone *)arg1 ,V_cancellationTimerEnabled;
+- (void){\;
 
 // Remaining properties
 @property(nonatomic) double approachCurvature; // @synthesize approachCurvature=_approachCurvature;

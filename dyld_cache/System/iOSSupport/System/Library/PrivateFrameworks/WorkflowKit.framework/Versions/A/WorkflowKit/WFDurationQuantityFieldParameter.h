@@ -8,23 +8,30 @@
 
 @interface WFDurationQuantityFieldParameter : WFQuantityFieldParameter
 {
+    unsigned long long _defaultCalendarUnit;
 }
 
 + (_Bool);
++ (id);
++ (id);
 + (unsigned long long);
 + (id);
 + (unsigned long long);
 - (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void)ation;
+- (unsigned long long);
+- (void);
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
+@property(nonatomic) unsigned long long defaultCalendarUnit; // @synthesize defaultCalendarUnit=_defaultCalendarUnit;
 @property(nonatomic) unsigned long long possibleCalendarUnits;
 
 @end

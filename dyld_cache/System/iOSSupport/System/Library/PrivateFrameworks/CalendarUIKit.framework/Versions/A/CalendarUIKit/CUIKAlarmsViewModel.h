@@ -17,7 +17,7 @@
 }
 
 + (id);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (id);
@@ -39,16 +39,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)*;
-- (id);
-- (void);
-- (void);
-- (void)HalfPredictionTimeInterval;
-- (void)umnToCommit:(_Bool)arg1 providerVersion:delay:taskInitBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
+- (void)oposeFuture;
 
 // Remaining properties
 @property(retain, nonatomic) EKCalendarItem *calendarItem; // @synthesize calendarItem=_calendarItem;

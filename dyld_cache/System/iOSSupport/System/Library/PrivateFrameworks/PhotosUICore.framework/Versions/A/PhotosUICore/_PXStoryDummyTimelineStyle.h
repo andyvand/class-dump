@@ -33,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)SearchCollectionResultsFeedProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsIncompleteTimelines;

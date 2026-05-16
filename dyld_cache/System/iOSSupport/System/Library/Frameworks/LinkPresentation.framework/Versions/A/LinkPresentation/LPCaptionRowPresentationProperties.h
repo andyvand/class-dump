@@ -17,13 +17,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)sCommon20NotificationReceiverP;
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

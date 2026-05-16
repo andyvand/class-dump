@@ -11,10 +11,10 @@
 }
 
 + (id);
-+ (id)utDetailsArray;
++ (id)formationBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (struct UIEdgeInsets);
 - (struct CGSize);
-- (void);
 - (void);
 
 // Remaining properties

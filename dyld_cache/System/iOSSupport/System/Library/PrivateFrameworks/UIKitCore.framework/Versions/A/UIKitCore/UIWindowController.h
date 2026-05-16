@@ -28,37 +28,40 @@
 }
 
 + (id);
-+ (void);
++ (void)(¯öþSÈ;
 - (void);
 - (id);
-- (void),V_nicknameRecordsKVStore;
-- (id)yOfIDs: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)yProxy;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (_Bool)};
-- (id)dataProtection lock;
-- (struct CGSize)ssage push:(struct CGSize)arg1 %@;
-- (struct CGRect)updating the deny/allow list store;
+- (_Bool);
+- (id);
+- (struct CGSize);
+- (struct CGRect);
 - (void);
 - (_Bool);
-- (struct CGPoint);
 - (void);
-- (double);
+- (void);
 - (struct CGPoint);
-- (void);
-- (void)w(6º;
-- (void)@0:(id)arg1 8^{CGColorSpace=}16;
-- (void)=QQ}40;
-- (struct CGPoint)nager>";
-- (struct CGPoint)tiveCandidates:(id)arg1;
-- (void)ëQì?¨ÆË>P½®Ga=;
+- (void);
 - (_Bool);
-- (void)Pó;
-- (id)jb;
+- (struct CGPoint);
+- (id)!EùYð1Â0@ù
+× ;
+- (double)DCùq_1Â0@ù
+× ;
+- (void)ñfð1Â0@ù
+× ;
+- (struct CGPoint)setPreventPaddle:(id)arg1;
+- (void)n;
+- (struct CGPoint)ccessing invalid yOrigin on %@;
+- (void)13L¼uþÍ13´°þ;
+- (void)7Bv;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setInteractionController:) id <UIViewControllerInteractiveTransitioning> _interactionController; // @synthesize _interactionController;

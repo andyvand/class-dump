@@ -26,26 +26,26 @@
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool)#;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (void);
+- (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)^;
-- (id);
+- (_Bool);
+- (id)nversationOnWatchEnabled;
+- (void)lmse;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMessageActionType;

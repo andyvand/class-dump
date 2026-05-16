@@ -47,17 +47,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id)d;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)right_torpedo.aa;
+- (void);
+- (void)lattenCorrectivesAtIndices:inCorrective:weight:morpher:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;

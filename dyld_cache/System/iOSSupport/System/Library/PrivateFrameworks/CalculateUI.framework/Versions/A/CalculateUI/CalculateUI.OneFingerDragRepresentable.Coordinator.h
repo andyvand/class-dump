@@ -12,9 +12,9 @@
     MISSING_TYPE *graphViewModel;
 }
 
-- (void);
 - (id);
 - (_Bool);
+- (void);
 
 @end
 

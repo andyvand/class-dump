@@ -5,10 +5,5 @@
 //
 
 @protocol CKObscurableBalloonViewDelegate
-- (_Bool)gAttachmentView;
-- (_Bool)cessibilityButton;
-
-@optional
-- (void);
 @end
 

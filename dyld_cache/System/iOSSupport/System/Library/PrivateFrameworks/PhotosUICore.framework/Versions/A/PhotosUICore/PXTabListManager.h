@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)@îk;
+- (void)m;
+- (void)Core.LemonadeCollectionCustomizationPeopleModel;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *childTabManagers; // @synthesize childTabManagers=_childTabManagers;

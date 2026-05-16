@@ -11,8 +11,8 @@
     MISSING_TYPE *offers;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

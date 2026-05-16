@@ -12,9 +12,8 @@
     MISSING_TYPE *containerView;
 }
 
-- (void)!DùÄð1¢!0@ù
-× ;
-- (id),&,N,V_emphasizeAction;
+- (id);
+- (void)°ÒËMÊn;
 
 @end
 

@@ -38,13 +38,13 @@
 + (id);
 - (id);
 - (id);
-- (void)object %@ %@;
-- (id)has expired for processing the record zone for attachments going to try and fetch again;
-- (void)tatus from PCS %u;
-- (void)edited scheduled message[%@];
-- (void)2@"NSData"60@"NSError"68;
-- (void)tachmentSyncZoneMetaData.db;
-- (void)eZoneSubscription;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,13 +54,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -68,8 +68,8 @@
 - (id);
 - (struct CGVector);
 - (_Bool);
-- (id);
-- (id)z;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -77,17 +77,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)m;
-- (void);
-- (id)entifier;
-- (unsigned long long)ectsOperator_Connection;
-- (id)UISwipeActionDeleteScanlineView;
-- (id)¨f;
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void)(ÒÙÿ
+CÒ¬&h;
+- (id)ÑÁÜ½àp;
 
 // Remaining properties
 @property(nonatomic, setter=_setFocusedGuideImpl:) __weak _UIFocusGuideImpl *_focusedGuideImpl; // @synthesize _focusedGuideImpl;

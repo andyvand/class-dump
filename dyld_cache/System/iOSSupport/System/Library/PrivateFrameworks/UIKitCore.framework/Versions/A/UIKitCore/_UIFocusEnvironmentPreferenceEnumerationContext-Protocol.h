@@ -8,8 +8,7 @@
 @protocol UIFocusEnvironment;
 
 @protocol _UIFocusEnvironmentPreferenceEnumerationContext
-- (id <UIFocusEnvironment>)0@ù
-× ;
+- (id <UIFocusEnvironment>)bled;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIDebugLogStack *debugStack;

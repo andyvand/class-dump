@@ -8,10 +8,11 @@
 
 @interface WFPersonNameComponentsParameter : WFParameter
 {
+    _Bool _isRemappedIntentArrayParameter;
 }
 
-- (Class);
-- (id);
 
+// Remaining properties
+@property(readonly, nonatomic) _Bool isRemappedIntentArrayParameter; // @synthesize isRemappedIntentArrayParameter=_isRemappedIntentArrayParameter;
 @end
 

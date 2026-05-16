@@ -9,15 +9,15 @@
 }
 
 + (id);
-+ (id)sage time's;
-+ (id)us:(id)arg1 %@;
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)ol, ((void*)0))" -> %llu;
 
 @end
 

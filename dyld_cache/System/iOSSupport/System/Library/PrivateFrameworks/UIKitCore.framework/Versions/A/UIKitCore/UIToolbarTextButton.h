@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     NSSet *_possibleTitles;
 }
 
-- (id)tyle:(id)arg1 allowWatchdog:(id)arg2 account:(id)arg3 didReplaceMessageBlock:(long long)arg4 completionBlock:(long long)arg5;
+- (id);
 - (void);
 - (void);
+- (struct CGSize);
 - (void);
-- (struct UIEdgeInsets)3y­ï;
-- (void)corationItems.count;
-- (void);
-- (struct CGSize)Z];
+- (void)ingViewControllerSetBoldChange;
+- (void)IFocusItemContainerGatherAllExtantChildFocusableItemsInRect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
+- (struct UIEdgeInsets)ÚÁb;
 
 @end
 

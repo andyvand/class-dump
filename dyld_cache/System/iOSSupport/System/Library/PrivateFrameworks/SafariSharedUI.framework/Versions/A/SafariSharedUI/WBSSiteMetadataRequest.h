@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSURL;
+@class NSDictionary, NSObject, NSString, NSURL;
 @protocol OS_os_activity;
 
 @interface WBSSiteMetadataRequest
 {
     NSObject<OS_os_activity> *_activity;
+    NSString *_cachedDescription;
     NSURL *_url;
     NSDictionary *_extraInfo;
 }
@@ -17,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)(;
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)thURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;

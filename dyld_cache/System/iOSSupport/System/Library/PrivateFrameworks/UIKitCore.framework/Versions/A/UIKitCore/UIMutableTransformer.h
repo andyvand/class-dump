@@ -13,17 +13,18 @@
     id <UIMutableTransformerDelegate> _delegate;
 }
 
-- (void)cludeNetworkUser:(id)arg1 withHideAdminUsers:(id)arg2 withSHOWOTHERUSERSMANAGED:(id)arg3 withAdminHostInfo:withAllowList:withDenyList:withHideMobileAccounts:withShutDownDisabled:withRestartDisabled:withSleepDisabled:withDisableConsoleAccess:withLoginwindowText:withShutDownDisabledWhileLoggedIn:withRestartDisabledWhileLoggedIn:withPowerOffDisabledWhileLoggedIn:withLogOutDisabledWhileLoggedIn:withDisableScreenLockImmediate: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
 - (id);
 - (void);
-- (id):(id)arg1 requireTopApplication:opaque:presentAnimated: /* Error: Ran out of types for this method. */;
-- (void)groundAppearanceData;
-- (void)ateMachine.m;
-- (void)ßÖïO^;
-- (void)ÛÌ^;
-- (id)òÇj;
+- (void);
+- (void)Ð!ØEùqeÐ1Â0@ù
+× ;
+- (void)SelectedCircleBlendMode:(id)arg1;
+- (void)oveDirection;
+- (id)PageIndicatorStoreDelegate;
+- (void)¨~;
+- (void);
+- (id)ÿtÔk;
+- (void):l /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setDelegate:) __weak id <UIMutableTransformerDelegate> _delegate; // @synthesize _delegate;

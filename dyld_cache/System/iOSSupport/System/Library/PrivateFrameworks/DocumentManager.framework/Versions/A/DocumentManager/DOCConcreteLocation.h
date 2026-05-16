@@ -21,21 +21,21 @@
     NSString *_composedTitleFormat;
 }
 
-+ (id)P;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,21 +59,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)) after %0.2fs, state:(id)arg1 %@.;
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)l;
-- (_Bool);
-- (id);
-- (id)de=}16;
-- (id);
-- (void);
 - (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

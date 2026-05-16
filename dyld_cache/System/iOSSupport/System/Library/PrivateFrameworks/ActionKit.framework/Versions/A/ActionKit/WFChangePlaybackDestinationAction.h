@@ -12,7 +12,7 @@
 - (id);
 - (void);
 - (id);
-- (long long)on"16@"NSString"24;
+- (long long);
 
 @end
 

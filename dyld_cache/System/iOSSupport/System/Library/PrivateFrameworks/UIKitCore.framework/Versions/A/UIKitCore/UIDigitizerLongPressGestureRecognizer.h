@@ -13,29 +13,28 @@
     _UIDigitizerGestureRecognizerImp *_imp;
 }
 
-- (void)fmlSession;
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint)e record image asset to %@ GUID:%@ /* Error: Ran out of types for this method. */;
-- (double);
 - (void);
+- (struct CGPoint);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)xÐ!tCùñÍð1¢!0@ù
-× ;
-- (void)g"40;
-- (void)lVisualProvider;
-- (void)withKey:(double)arg1 popupInfo:force: /* Error: Ran out of types for this method. */;
-- (void)initWithTicks:(id)arg1 number:(id)arg2 evenlySpaced: /* Error: Ran out of types for this method. */;
-- (void)roperties:(id)arg1;
-- (void)hUp;
-- (void)cationFrameWithoutOverscanForInterfaceOrientation:(id)arg1 usingStatusbarHeight:(id)arg2 ignoreStatusBar: /* Error: Ran out of types for this method. */;
+- (id)Object:(id)arg1 withObject:(SEL)arg2;
+- (void)_setPreferredUserInterfaceStyle:(id)arg1;
+- (void)assThrough;
+- (void)nary;
+- (void)(;
+- (void)ô
+;
 - (void);
-- (void)®a`;
-- (id)B*b;
+- (double)e;
+- (void)uÿ;
+- (void);
+- (void)$ý;
+- (void);
+- (void)Üh;
+- (void)ÙÄSl;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

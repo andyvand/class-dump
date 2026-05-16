@@ -16,12 +16,12 @@
 - (double);
 - (double);
 - (void);
-- (double);
 - (void);
+- (double);
 - (id);
 - (void);
-- (double)e";
-- (void)ge:(double)arg1 ,V_navigationBarTitleDidChange;
+- (void);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double currentTime; // @synthesize currentTime=_currentTime;

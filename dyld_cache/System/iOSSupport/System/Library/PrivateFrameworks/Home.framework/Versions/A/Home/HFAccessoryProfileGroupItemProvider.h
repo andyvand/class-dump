@@ -21,8 +21,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
@@ -31,7 +29,9 @@
 - (id);
 - (id);
 - (id);
-- (id)ons) hf_enableExpressModeForWalletKeyWithAuthData:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)itionNameCharacteristicEqual;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

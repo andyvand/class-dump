@@ -25,9 +25,9 @@
 - (void);
 - (unsigned short);
 - (void);
+- (id);
 - (void);
-- (id)ication score for recipe:%{public}@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)¼Ã;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short cellCount; // @synthesize cellCount=mCellCount;

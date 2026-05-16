@@ -13,14 +13,14 @@
     } m_points[16];
 }
 
-- (double);
 - (struct CGPoint);
-- (void);
-- (struct CGSize);
+- (double);
+- (double);
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (double)rPixelFormat:(double)arg1 andDevice: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint weightedPoint;

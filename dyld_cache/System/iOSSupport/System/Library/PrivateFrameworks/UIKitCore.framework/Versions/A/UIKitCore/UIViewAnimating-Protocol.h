@@ -5,16 +5,16 @@
 //
 
 @protocol UIViewAnimating
-- (long long)ffer:shouldPerformChildSnapshotMoves: /* Error: Ran out of types for this method. */;
-- (void)UICollectionViewFlowLayoutAlertForInvalidItemSize to catch this in the debugger. Invalid size:(double)arg1 %@; collection view:%@ /* Error: Ran out of types for this method. */;
-- (double)fBþÿ;
-- (void)þÿ;
-- (void)ObservableP;
-- (void)r;
-- (void)nDomain;
-- (void)ÍÌl?ÍÌ?ÿÿÿÿÿÿïÿÿÿÿÿÿïC2=;
-- (_Bool)=Nÿ3T÷dþMNÿ3´Vÿ5Nÿ3D÷dþ5Nÿ3h+|þ=Nÿ3±þ;
-- (void);
+- (long long)ÁÐ!ÀGùqcÐ1Â0@ù
+× ;
+- (_Bool);
+- (void)ÿÿ?;
+- (void)tMenuForTextInRange:(_Bool)arg1 suggestedActions:instead. /* Error: Ran out of types for this method. */;
+- (void)ParentStackAlignmentFrame;
+- (void)ndTransparentWhenNotCollapsed;
+- (void)Header/Footer;
+- (double)pshot on next launch:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) double fractionComplete;

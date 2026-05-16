@@ -14,9 +14,9 @@
     NSObject<OS_dispatch_queue> *_offGridBackgroundQueue;
 }
 
-+ (id),me¸­;
++ (id);
 - (void);
-- (void)R;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,9 +30,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)n the avatar preview image at:(CDUnknownBlockType)arg1 %@;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *dateAttemptedInvitationByHandleCache; // @synthesize dateAttemptedInvitationByHandleCache=_dateAttemptedInvitationByHandleCache;

@@ -5,7 +5,6 @@
 //
 
 @protocol CKMessageEntryViewStyleProtocol
-- (void)textViewIdentifier;
 
 // Remaining properties
 @property(nonatomic) long long style;

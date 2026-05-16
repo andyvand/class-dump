@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id)B;
-- (_Bool)56q64@?72;
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

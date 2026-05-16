@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)er>;
 + (_Bool);
 + (_Bool);
-+ (id)FromDisplayLink: /* Error: Ran out of types for this method. */;
-+ (id)Ñj8_pXp;
-+ (id)ÜíþL³;
++ (_Bool);
++ (id);
++ (id)ction"16@?0@"UITraitCollection"8;
++ (id)îÝÌDug;
 
 @end
 

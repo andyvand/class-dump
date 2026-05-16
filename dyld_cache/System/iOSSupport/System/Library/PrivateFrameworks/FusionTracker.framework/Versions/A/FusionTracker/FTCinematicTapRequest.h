@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (id);
 - (long long);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

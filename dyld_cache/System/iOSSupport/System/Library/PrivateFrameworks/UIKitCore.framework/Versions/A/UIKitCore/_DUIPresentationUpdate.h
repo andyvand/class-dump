@@ -12,16 +12,16 @@
     long long _badgeStyle;
 }
 
-+ (_Bool)JOÙ~nm;
-- (void)dNotification;
++ (_Bool)essage;
+- (void);
 - (void);
 - (id);
-- (long long)ssionIfNecessary;
-- (void);
-- (unsigned long long)ng: /* Error: Ran out of types for this method. */;
-- (_Bool)truncation in file job:(id)arg1 %@;
+- (long long);
 - (id);
-- (void)Åº;
+- (unsigned long long);
+- (_Bool)e:(id)arg1;
+- (void)ndOfLineAndModifySelection:(id)arg1;
+- (void)g.;
 
 // Remaining properties
 @property(nonatomic) long long badgeStyle; // @synthesize badgeStyle=_badgeStyle;

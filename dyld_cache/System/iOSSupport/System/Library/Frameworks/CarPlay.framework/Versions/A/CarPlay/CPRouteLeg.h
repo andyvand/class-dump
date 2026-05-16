@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPNavigationWaypoint, MKMapItem, NSString;
+@class CPNavigationWaypoint, MKMapItem, NSString, NSUUID;
 
 @interface CPRouteLeg
 {
+    NSUUID *_identifier;
     CPNavigationWaypoint *_originLocation;
     CPNavigationWaypoint *_destinationLocation;
     CDStruct_071ac149 *_coordinates3D;
@@ -24,11 +25,12 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_071ac149 *coordinates3D; // @synthesize coordinates3D=_coordinates3D;
@@ -41,6 +43,7 @@
 @property(readonly, nonatomic) MKMapItem *destination; // @synthesize destination=_destination;
 @property(readonly, nonatomic) CPNavigationWaypoint *destinationLocation; // @synthesize destinationLocation=_destinationLocation;
 @property(readonly) unsigned long long hash;
+@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) MKMapItem *origin; // @synthesize origin=_origin;
 @property(readonly, nonatomic) CPNavigationWaypoint *originLocation; // @synthesize originLocation=_originLocation;
 @property(readonly) Class superclass;

@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (void)FL;
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)SessionActionAnalyticsEndingObserver;
+- (void)ÌÔ;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaletteTapToRadarConfiguration *configuration; // @synthesize configuration=_configuration;

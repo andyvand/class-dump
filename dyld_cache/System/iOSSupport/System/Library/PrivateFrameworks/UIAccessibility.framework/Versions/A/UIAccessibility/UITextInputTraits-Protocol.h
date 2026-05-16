@@ -9,17 +9,16 @@
 @protocol UITextInputTraits
 
 @optional
-- (_Bool)onRequest;
-- (UIConversationContext *)ldKey;
-- (void)4;
-- (long long);
-- (long long)-;
-- (long long);
-- (void);
-- (void)
-ð1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (long long)or;
+- (void)áAÐ!|DùqZ	°1Â0@ù
+× ;
+- (void);
+- (long long)ScrollToVisibleForNextElementRetrieval: /* Error: Ran out of types for this method. */;
+- (long long)mEscape;
+- (unsigned long long)ncestor;
+- (_Bool)th: /* Error: Ran out of types for this method. */;
+- (void) ;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

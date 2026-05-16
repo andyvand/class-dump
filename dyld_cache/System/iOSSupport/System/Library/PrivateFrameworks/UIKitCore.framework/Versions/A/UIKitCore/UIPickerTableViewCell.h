@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
     _UIPickerViewStyle *_style;
 }
 
-- (void);
-- (id)load [request changed];
-- (void)!ÔBù±À1¢!0@ù
+- (id);
+- (id);
+- (void)
 × ;
-- (id)@0:8@"_UITextContainerView"16@24Q32 /* Error: Ran out of types for this method. */;
-- (void)Support;
-- (id)´3D4;
-- (void)$N,POZdQ;
+- (void)x:(id)arg1 ofReply: /* Error: Ran out of types for this method. */;
+- (void)windowServerHitTestWindow:(_Bool)arg1;
+- (id)¬ÿÿnÍîÿæyïÿÔïÿ;
 - (void);
+- (void)aj;
 
 // Remaining properties
 @property(nonatomic) UIPickerTableView *pickerTable; // @synthesize pickerTable;

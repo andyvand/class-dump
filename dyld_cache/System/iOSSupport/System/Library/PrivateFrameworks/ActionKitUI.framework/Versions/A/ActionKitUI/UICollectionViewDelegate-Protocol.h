@@ -7,6 +7,6 @@
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool);
+- (_Bool)|;
 @end
 

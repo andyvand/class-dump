@@ -5,8 +5,5 @@
 //
 
 @protocol WBSParsecGlobalFeedbackDispatcher
-
-@optional
-- (void);
 @end
 

@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISearchController;
-
 @protocol _UISearchControllerDelegatePrivate
-
-@optional
-- (void);
-- (void)eLoadSessionIndex:(UISearchController *)arg1;
-- (void)SentDowngradeRequestSinceLoadDate:(UISearchController *)arg1;
-- (void)dDate:(UISearchController *)arg1;
 @end
 

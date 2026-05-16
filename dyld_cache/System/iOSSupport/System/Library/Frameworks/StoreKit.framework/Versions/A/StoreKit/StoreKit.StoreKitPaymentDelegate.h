@@ -13,7 +13,7 @@
     MISSING_TYPE *uiAnchor;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

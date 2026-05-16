@@ -13,11 +13,11 @@
 }
 
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (id);
 - (struct CGRect);
 - (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (id);
 
 @end

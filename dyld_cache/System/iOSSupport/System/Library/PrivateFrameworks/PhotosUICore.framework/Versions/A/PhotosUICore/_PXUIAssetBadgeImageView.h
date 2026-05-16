@@ -11,10 +11,11 @@
     UIImage *_image;
 }
 
-- (id);
-- (void)Ømyl¬Ö0e;
 - (void);
-- (id);
+- (id);
+- (id)
+× ;
+- (void)stomize people album view because the initial state was invalid;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (id);
+- (void)BackgroundColor;
 
 // Remaining properties
 @property(copy) EKSeriesDetails *createdSeriesDetails; // @synthesize createdSeriesDetails=_createdSeriesDetails;

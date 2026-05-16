@@ -28,14 +28,14 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id);
-- (void)`;
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool),N,V_dismissHandler;
+- (void)rArtworkCatalog: /* Error: Ran out of types for this method. */;
+- (id)hange;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cacheMissItemIdentifiers; // @synthesize cacheMissItemIdentifiers=_cacheMissItemIdentifiers;

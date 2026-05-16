@@ -8,8 +8,6 @@
 @protocol PXScrollControllerUpdateDelegate;
 
 @protocol PXScrollController
-- (struct CGRect)1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect activeRect;

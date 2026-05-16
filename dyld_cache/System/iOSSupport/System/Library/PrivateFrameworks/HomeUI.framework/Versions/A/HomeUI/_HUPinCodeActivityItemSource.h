@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)public}@) | upgradeRequirements = [%lu];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

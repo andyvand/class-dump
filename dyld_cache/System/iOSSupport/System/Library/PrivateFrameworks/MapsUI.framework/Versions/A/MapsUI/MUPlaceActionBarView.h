@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)nItemViewModel",&,N,V_viewModel;
 
 // Remaining properties
 @property(nonatomic, retain) MUPlaceActionBarConfiguration *configuration; // @synthesize configuration;

@@ -33,17 +33,18 @@
 - (double);
 - (void);
 - (void);
-- (double);
-- (id);
-- (void);
-- (double);
-- (void);
 - (unsigned long long);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (void)rchBarTextDidBeginEditing:(unsigned long long)arg1;
-- (void)SingleControlViewController controlItemClass];
-- (void)edApplicationItem bundleIdentifier];
+- (double)ithItemUpdater:settingGroupItem:usageOptions: /* Error: Ran out of types for this method. */;
+- (void)berViewController;
+- (double)òÐòó¸ô¨öüö¬÷ÈøùxúÔüý4þ
+L;
+- (void)pBannerResumeMultipleAccessoriesConfigurationButton;
+- (void)ÿ½nÜ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;

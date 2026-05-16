@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)iptor_t;
+- (long long);
+- (void)Vÿãÿ;
 @end
 

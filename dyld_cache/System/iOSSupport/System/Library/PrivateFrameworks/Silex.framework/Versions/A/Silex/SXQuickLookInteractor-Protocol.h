@@ -7,8 +7,6 @@
 @class SXQuickLookFile;
 
 @protocol SXQuickLookInteractor
-- (SXQuickLookFile *)°!LDù¤1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXQuickLookFile *file;

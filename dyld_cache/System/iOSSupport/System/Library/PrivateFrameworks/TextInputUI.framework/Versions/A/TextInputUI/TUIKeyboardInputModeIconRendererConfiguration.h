@@ -27,21 +27,23 @@
 - (double);
 - (void);
 - (id);
-- (id);
-- (void);
 - (long long);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (void);
 - (double);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)!ÀEùQ41â
+0@ù
+× ;
+- (void)esponse:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artwork; // @synthesize artwork=_artwork;

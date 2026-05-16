@@ -8,14 +8,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)!;
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (id)onCompletionType;
-- (void)e at least one was nil:(id)arg1 %@, %@;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _accessibilityUsesFrameInContainerSpace; // @dynamic _accessibilityUsesFrameInContainerSpace;

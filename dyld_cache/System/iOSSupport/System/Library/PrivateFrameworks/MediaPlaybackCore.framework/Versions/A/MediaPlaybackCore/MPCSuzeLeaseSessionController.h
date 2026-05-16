@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)%p sectionID=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

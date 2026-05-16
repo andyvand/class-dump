@@ -5,8 +5,5 @@
 //
 
 @protocol UITextDropDelegate
-
-@optional
-- (void);
 @end
 

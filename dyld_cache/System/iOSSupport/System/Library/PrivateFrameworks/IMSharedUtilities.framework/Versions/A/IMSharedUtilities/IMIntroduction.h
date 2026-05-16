@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
+- (void)viewsInitializedKey;
+- (void)¥9Ì.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;

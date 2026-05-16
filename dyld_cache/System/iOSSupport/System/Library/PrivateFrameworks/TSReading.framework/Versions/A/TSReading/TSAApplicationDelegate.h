@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,9 +34,9 @@
 - (void);
 - (id);
 - (_Bool);
+- (_Bool)last row moved.;
+- (void)chGesture:(id)arg1 ];
 - (void);
-- (void);
-- (_Bool);
 
 // Remaining properties
 @property(getter=isActivating) _Bool activating; // @synthesize activating=_activating;

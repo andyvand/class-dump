@@ -5,6 +5,8 @@
 //
 
 @protocol ISChangeObserver
-- (void)le.photos.shareddefaults;
+- (void)¡Ø°!Aù±#Ð1â
+0@ù
+× ;
 @end
 

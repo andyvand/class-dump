@@ -12,10 +12,10 @@
     MISSING_TYPE *circleView;
 }
 
-- (void);
 - (id);
-- (id)	;
-- (void)elegateQueue;
+- (void);
+- (void);
+- (id)$rûÿ;
 - (void);
 
 @end

@@ -28,13 +28,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
 - (unsigned long long);
-- (double);
-- (id)Aw°!TGùñ{°1b0@ù
-× ;
+- (id)leView"16q24;
+- (_Bool)ardSettings: /* Error: Ran out of types for this method. */;
+- (double)outSpec",R,N,V_cardSpec;
+- (void);
+- (id)Bðÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

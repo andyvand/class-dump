@@ -16,9 +16,9 @@
 
 - (Class);
 - (id);
+- (id);
 - (void);
-- (id)s: /* Error: Ran out of types for this method. */;
-- (void)ule;
+- (void)it on;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUAccessorySettingsProfileModuleControllerDelegate> delegate; // @synthesize delegate=_delegate;

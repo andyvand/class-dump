@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)_accessoryInfoDataProvider;
++ (id)ettingsAdapter;
 - (id);
 - (id);
 - (id);

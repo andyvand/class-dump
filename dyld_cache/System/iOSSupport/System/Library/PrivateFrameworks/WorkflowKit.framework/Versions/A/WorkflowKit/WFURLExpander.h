@@ -15,14 +15,14 @@
 + (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)nitionForGetSelectedFilesinFinder;
+- (void)e) deserializedNoInputBehavior];
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

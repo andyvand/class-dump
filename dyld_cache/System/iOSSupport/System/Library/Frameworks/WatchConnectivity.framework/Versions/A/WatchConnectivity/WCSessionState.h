@@ -22,25 +22,26 @@
 }
 
 + (_Bool);
+- (_Bool);
 - (id);
-- (void)?;
-- (id)>;
+- (id);
+- (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)a;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)d!
+;
 
 // Remaining properties
 @property(readonly, copy) NSString *appInstallationID; // @synthesize appInstallationID=_appInstallationID;

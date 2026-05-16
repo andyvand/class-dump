@@ -11,8 +11,8 @@
     MISSING_TYPE *icon;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

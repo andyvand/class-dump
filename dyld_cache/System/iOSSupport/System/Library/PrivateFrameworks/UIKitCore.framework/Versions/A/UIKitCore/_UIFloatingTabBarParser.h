@@ -26,36 +26,35 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)H;
 - (id);
 - (id);
-- (void)lue: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)nBlocks;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id)R;
-- (void);
-- (id)0@ù
-× ;
-- (id)Ç»_;
-- (id)õ`;
+- (id);
+- (id)Orientation;
+- (void)VãÓ;
+- (id);
+- (id)0Íùþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *currentFavoriteOrder; // @synthesize currentFavoriteOrder=_currentFavoriteOrder;

@@ -17,12 +17,13 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *appletIdentifiers; // @synthesize appletIdentifiers=_appletIdentifiers;

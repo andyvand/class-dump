@@ -36,9 +36,9 @@
 + (id);
 + (id);
 + (id);
-+ (double);
-+ (double);
 + (struct CGSize);
++ (double);
++ (double);
 + (double);
 + (id);
 - (id);

@@ -5,6 +5,5 @@
 //
 
 @protocol SXFullscreenNavigationBarViewDelegate
-- (void);
 @end
 

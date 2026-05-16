@@ -15,12 +15,12 @@
 - (id);
 - (struct CGRect);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) id <UICoordinateSpace> coordinateSpace;

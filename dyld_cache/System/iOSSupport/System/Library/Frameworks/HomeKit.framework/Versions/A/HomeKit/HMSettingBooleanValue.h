@@ -17,9 +17,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) _Bool boolValue; // @synthesize boolValue=_boolValue;

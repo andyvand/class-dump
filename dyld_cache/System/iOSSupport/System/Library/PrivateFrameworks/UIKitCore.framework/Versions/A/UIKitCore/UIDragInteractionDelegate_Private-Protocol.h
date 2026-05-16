@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction, UIGestureRecognizer, UIView, _UIDragSessionProperties;
-@protocol UIViewSpringAnimationBehaviorDescribing;
+@class UIDragInteraction;
 
 @protocol UIDragInteractionDelegate_Private
 
 @optional
-- (_Bool)o:(UIDragInteraction *)arg1;
-- (UIView *)ateDescriptor:(UIDragInteraction *)arg1;
-- (void)cSyncWithRecordType:(UIDragInteraction *)arg1;
-- (id <UIViewSpringAnimationBehaviorDescribing>)tialSyncSetByCloudKitHooks:(UIDragInteraction *)arg1;
-- (_Bool)Handler:(UIDragInteraction *)arg1 forCommand:(UIGestureRecognizer *)arg2;
-- (_Bool)Ô ;
-- (_UIDragSessionProperties *)utViewKeylineView;
-- (_Bool)Ø(;
-- (long long)r=%f scaledLineHeight=%f scaledFirstBaseline=%f scaledLastBaseline=%f numberOfLines=%ld unscaledSize=%@ scaledText=%@>;
-- (long long)ch would be an app error)?;
-- (_Bool);
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)howsDeleteButton:(UIDragInteraction *)arg1;
+- (long long)nControllerSourceItem;
+- (long long);
 @end
 

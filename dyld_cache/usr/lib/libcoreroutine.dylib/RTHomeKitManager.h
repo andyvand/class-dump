@@ -20,15 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
-- (id)q,V_configurationChangeSource;
-- (void);
-- (void)ingToLoopbackTransition,nil nextLearnedLOI,nil learnedLocationNextVisit;
-- (id)T.û;
-- (void)ôÿ,+H;
-- (id)>Æÿó¡*	a;
+- (id)
+× ;
+- (void)Date:(id)arg1 timeInterval: /* Error: Ran out of types for this method. */;
+- (void)¼5ð8d:(id)arg1 T;Ì<Ø=;
+- (void)ekdays_Work_Bucketed;
+- (void)screen lock is disabled;
+- (id)Ê;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

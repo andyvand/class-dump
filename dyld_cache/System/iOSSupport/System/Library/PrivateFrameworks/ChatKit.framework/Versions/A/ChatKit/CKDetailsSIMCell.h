@@ -15,18 +15,18 @@
 }
 
 + (_Bool);
-+ (double)X;
 + (id);
++ (double)path:/System/Library/PrivateFrameworks/FindMyUICore.framework/FindMyUICore /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
-- (void);
+- (id)thRecognizer:(long long)arg1 didChangeValue:(id)arg2;
+- (void)àÈÈè¡;
+- (void)jÏùÿDÿþÿ;
+- (void);
+- (id)\|Ò;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CKComposeSubscriptionSelectorButton *button; // @synthesize button=_button;

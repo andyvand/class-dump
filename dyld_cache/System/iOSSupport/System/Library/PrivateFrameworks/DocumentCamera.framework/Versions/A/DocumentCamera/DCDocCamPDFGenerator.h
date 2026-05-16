@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (void);
-+ (id)Ì;
++ (id)ground_color;
 
 @end
 

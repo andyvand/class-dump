@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)eProtocol>",R,N;
-- (id)Cell available:(double)arg1 %{BOOL}d;
+- (_Bool);
+- (id);
 
 @end
 

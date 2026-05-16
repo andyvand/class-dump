@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)Data;
+- (id);
 
 @end
 

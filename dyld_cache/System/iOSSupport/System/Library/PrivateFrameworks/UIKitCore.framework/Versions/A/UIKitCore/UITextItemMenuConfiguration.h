@@ -14,16 +14,16 @@
     UITextItemMenuPreview *_preview;
 }
 
-+ (id)lure, but didn't transition the scheduleState;
-+ (id)teNotSet;
++ (id);
++ (id);
 - (void);
 - (void);
-- (long long)the same caller id. clearing caller ID settings for current account;
-- (unsigned long long)ts:%@ /* Error: Ran out of types for this method. */;
-- (id)uid, returning nil.;
+- (long long);
+- (unsigned long long);
 - (id);
-- (void)(;
-- (id);
+- (id)eGlyphDataSource;
+- (void)à®ßþº;
+- (id)ÿV0×¨9d;
 
 // Remaining properties
 @property(nonatomic) unsigned long long _preferredElementDisplayMode; // @synthesize _preferredElementDisplayMode=__preferredElementDisplayMode;

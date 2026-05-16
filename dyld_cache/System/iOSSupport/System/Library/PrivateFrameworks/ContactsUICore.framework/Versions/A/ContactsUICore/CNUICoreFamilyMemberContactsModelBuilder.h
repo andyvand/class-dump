@@ -38,11 +38,11 @@
 - (long long);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)le: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long contactFormatterStyle; // @synthesize contactFormatterStyle=_contactFormatterStyle;

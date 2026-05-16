@@ -28,18 +28,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (long long);
+- (void);
 - (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasStartIndex;

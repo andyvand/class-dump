@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)tifiersByCustomSectionIdentifier;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIActivity *activity; // @synthesize activity=_activity;

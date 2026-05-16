@@ -16,15 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (id)b;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allChatGUIDs;

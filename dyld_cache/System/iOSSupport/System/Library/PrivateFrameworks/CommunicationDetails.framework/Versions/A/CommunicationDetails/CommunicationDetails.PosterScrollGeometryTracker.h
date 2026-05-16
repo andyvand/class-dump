@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *_scrollGeometry;
     MISSING_TYPE *_saliencyRect;
+    MISSING_TYPE *_onSaliencyRectUpdate;
     MISSING_TYPE *_$observationRegistrar;
 }
 

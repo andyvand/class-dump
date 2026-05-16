@@ -10,28 +10,28 @@
 {
 }
 
-+ (void)is %c but participant count is %llu;
-+ (long long)ot set to phone number However I am SMS Capable:Sending Message via CT /* Error: Ran out of types for this method. */;
-- (id)te;
++ (void);
++ (long long);
+- (id);
 - (double);
-- (_Bool)edRampState featurePromoted(%@) fetchHadServerError(%@);
-- (long long)eded.;
-- (id)@ error %@;
-- (id)d;
-- (double)Incoming XPC Connection for IMDBackgroundMessagingAPIListener missing entitlement;
-- (double)onnection for IMDBackgroundMessagingAPIListener;
-- (double)ked as Junk by CTS:%@ /* Error: Ran out of types for this method. */;
-- (double):%@ /* Error: Ran out of types for this method. */;
-- (double)TS check;
-- (_Bool)%@;
-- (struct UIEdgeInsets)ttings toggle;
-- (void)?;
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (struct UIEdgeInsets);
+- (void);
 - (double);
 - (double);
 - (_Bool);
 - (id);
-- (id);
-- (double)aintsIfNecessary;
+- (id)ched;
+- (double)a;
 
 @end
 

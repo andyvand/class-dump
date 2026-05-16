@@ -5,6 +5,6 @@
 //
 
 @interface (null) (UIKit)
-+ (id)*j;
++ (id);
 @end
 

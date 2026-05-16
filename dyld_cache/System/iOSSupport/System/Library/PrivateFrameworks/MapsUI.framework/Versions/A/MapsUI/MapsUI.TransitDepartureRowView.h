@@ -21,8 +21,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)C,N,V_photoViews;
 
 @end
 

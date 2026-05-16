@@ -44,20 +44,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)ñ/°1b0@ù
-× ;
-- (id)tShowContainedItems: /* Error: Ran out of types for this method. */;
-- (void)fier:(id)arg1;
-- (id)erviceTypes;
-- (void)#;
-- (void);
-- (id);
+- (void);
+- (void);
+- (id);
+- (id)tem:animated: /* Error: Ran out of types for this method. */;
+- (id)Spacing;
+- (void);
+- (void)imerObjectTableViewController _newCellForMTTimerObjectUUID:] /* Error: Ran out of types for this method. */;
+- (void)currently only supports search in label.attributedText, feel free to add label.text support too!;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allConstraints; // @synthesize allConstraints=_allConstraints;

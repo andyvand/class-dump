@@ -10,6 +10,8 @@
 @interface ContactsUICore.(ActionsProvider in _B36447D588C06954708674886B340C63)
 {
     id <CNUICoreParentContainerProvider> containerProvider;
+    _Bool allowsEditing;
+    _Bool allowsActions;
     CNUIGKGameCenterFriendPlayerViewWrapper *gameCenterPlayerViewWrapper;
     _Bool shouldShowInlineActions;
 }
@@ -19,10 +21,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -30,10 +34,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
+@property(nonatomic) _Bool allowsActions; // @synthesize allowsActions;
+@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing;
 @property(nonatomic, retain) id <CNUICoreParentContainerProvider> containerProvider; // @synthesize containerProvider;
 @property(nonatomic, retain) CNUIGKGameCenterFriendPlayerViewWrapper *gameCenterPlayerViewWrapper; // @synthesize gameCenterPlayerViewWrapper;
 @property(nonatomic) _Bool shouldShowInlineActions; // @synthesize shouldShowInlineActions;

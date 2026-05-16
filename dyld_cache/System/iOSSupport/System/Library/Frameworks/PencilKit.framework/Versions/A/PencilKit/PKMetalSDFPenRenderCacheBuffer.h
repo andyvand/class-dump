@@ -25,8 +25,8 @@
 -     // Error parsing type: @56@0:8r^{PKMetalSDFPenKernelUniforms=II}16r^{PKMetalSDFPenStrokePoint=f  b16b16}24Q32Q40@48, name: (null)
 - (_Bool);
 - (unsigned long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numPoints; // @synthesize numPoints=_numPoints;

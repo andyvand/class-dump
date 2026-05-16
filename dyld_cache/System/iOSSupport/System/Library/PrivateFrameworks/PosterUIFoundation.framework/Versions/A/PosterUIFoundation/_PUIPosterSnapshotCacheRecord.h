@@ -34,7 +34,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id)þÿHÿ&ü;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -66,24 +66,27 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (long long);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (double);
-- (struct CGRect);
+- (id);
+- (long long);
+- (void);
 - (id);
 - (struct CGSize);
-- (id);
-- (id);
-- (long long);
-- (long long);
+- (double);
 - (void);
 - (id);
+- (struct CGRect);
+- (void);
+- (id)
+× ;
+- (long long)Qéð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContrast; // @synthesize accessibilityContrast=_accessibilityContrast;

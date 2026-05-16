@@ -20,12 +20,11 @@
 
 - (id);
 - (id);
-- (id)I16;
-- (void);
 - (id);
-- (id)!¤Dùñ\,1¢!0@ù
-× ;
 - (id);
+- (id);
+- (id)buteWithDomain:name: /* Error: Ran out of types for this method. */;
+- (void)rState, %{sensitive}@, isLocalStateInSync %{Bool}d;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

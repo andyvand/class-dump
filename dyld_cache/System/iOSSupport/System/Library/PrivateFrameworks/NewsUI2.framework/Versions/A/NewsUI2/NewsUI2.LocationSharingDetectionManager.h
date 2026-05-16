@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *router;
     MISSING_TYPE *configurationManager;
+    MISSING_TYPE *locationDetectionManager;
     MISSING_TYPE *completionEventManager;
 }
 

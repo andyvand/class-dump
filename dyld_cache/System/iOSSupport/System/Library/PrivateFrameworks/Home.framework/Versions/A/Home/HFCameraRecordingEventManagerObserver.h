@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)e.m;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *recordingEvents;

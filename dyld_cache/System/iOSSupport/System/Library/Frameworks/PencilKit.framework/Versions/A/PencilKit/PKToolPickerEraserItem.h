@@ -17,9 +17,9 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (double);
-- (id)tionView";
-- (id)asSnappedToRuler;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PKEraserTool *eraserTool;

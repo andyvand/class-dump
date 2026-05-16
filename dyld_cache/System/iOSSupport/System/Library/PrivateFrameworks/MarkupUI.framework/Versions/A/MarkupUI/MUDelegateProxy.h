@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (void)/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation;
+- (_Bool);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property __weak id firstDelegate; // @synthesize firstDelegate=_firstDelegate;

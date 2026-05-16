@@ -4,69 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIStyleEffectConfiguration, NSArray, NSAttributedString, NSDictionary, NSLayoutManager, NSTextContainer, NSTextStorage, UITextPosition, UITextRange, UIView;
-@protocol NSLayoutManagerDelegate, _UITextCanvas, _UITextPreviewRenderer;
+@class CUIStyleEffectConfiguration, NSArray, NSAttributedString, NSDictionary, NSLayoutManager, NSTextContainer, NSTextStorage, UITextPosition, UITextRange;
+@protocol NSLayoutManagerDelegate;
 
 @protocol _UITextLayoutController
-- (_Bool)ystem/Library/PrivateFrameworks/SMBClient.framework/Versions/A/SMBClient;
-- (UITextRange *);
-- (void);
-- (void)HomographiesFromL1Results();
-- (struct CGRect)m Pool %@ stats
+- (UITextRange *)ñZ°1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (CUIStyleEffectConfiguration *)ÁÐ!°Eù^ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (UITextRange *)1Â0@ù
+× ;
+- (void)!(Eùñfð1Â0@ù
+× ;
+- (void)tAnyContent>"48@0:(UITextRange *)arg1 8@"_UISlotView"16@"<UISSlotAnyContent>"24@"UISSlotStyle"32@"UISSlotTag"40;
+- (UITextRange *)PreparationHandler:(struct _NSRange)arg1;
+- (void)formKeyboardOutput: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)nitWithCTRun:(UITextPosition *)arg1 lineIndex:(long long)arg2 layoutInfo: /* Error: Ran out of types for this method. */;
+- (void)ain;
+- (void)e:(struct CGRect)arg1;
+- (NSArray *)State:(UITextRange *)arg1;
+- (struct _NSRange)tioningBottomBarIsTabBar;
+- (struct _NSRange)ene:(UITextRange *)arg1;
+- (struct CGRect)ions;
+- (UITextRange *)pd;
+- (NSTextStorage *)LÜN;
+- (struct CGRect)¬	È
 ;
-- (UITextRange *)error specified. Creating an internal error instead.;
-- (void)ou;
-- (NSArray *)C;
-- (UITextRange *)};
-- (UITextPosition *)ÂÐ1¢!0@ù
-× ;
-- (UITextRange *)!0@ù
-× ;
-- (NSAttributedString *)0@ù
-× ;
-- (_Bool)!LBùñÈ1¢!0@ù
-× ;
-- (struct CGRect)ùË1¢!0@ù
-× ;
-- (void)TargetedDragPreview"32@0:(UITextRange *)arg1 8@"_UIClickPresentationInteraction"16@"UIDragItem"24;
-- (id <_UITextPreviewRenderer>)redCancel"b1};
-- (void)ClientSettings:(CUIStyleEffectConfiguration *)arg1 transitionContext: /* Error: Ran out of types for this method. */;
-- (void)ttributedString:(UITextRange *)arg1 toRange: /* Error: Ran out of types for this method. */;
-- (void)geRects:(double)arg1;
-- (void)dLineFragment:glyphPosition:characterIndex: /* Error: Ran out of types for this method. */;
-- (id <NSLayoutManagerDelegate>)onfiguration: /* Error: Ran out of types for this method. */;
-- (id)ceSystemBounds;
-- (struct _NSRange)teReason:(UITextRange *)arg1 springAnimationBehavior:(_Bool)arg2;
-- (NSTextContainer *)exPaths:(UITextPosition *)arg1 allowingAppendingInserts: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)llForCurrentItemAttributes:(UITextPosition *)arg1 proposedNextItemAttributes:(long long)arg2;
-- (void)esponder;
-- (struct CGRect)eneForwardingLayersForOwners:(UITextPosition *)arg1;
-- (void)isLowBattery;
-- (_Bool)bugDictionary,V_debugDictionary;
-- (struct CGRect)enter;
-- (void)perExtender;
-- (struct CGRect)environment.;
-- (UITextRange *)of a class that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
-- (void)o a provide a view that's visible and in a window. View:(UITextRange *)arg1 %{public}s;
-- (UIView<_UITextCanvas> *);
-- (UITextRange *)FullScreenWebRTCAudioCapture;
-- (UITextPosition *)lass]];
-- (UITextPosition *)mapDataCorner _createCornerWithRadius(const _UIBoundingPathBitmapDataCornerLocation, const NSInteger);
-- (long long)ocus update requested by the specified environment (e.g. `[focusSystem requestFocusUpdateToEnvironment:(UITextPosition *)arg1 environment]`), outlining each step of the process for determining the next focused item.;
-- (UITextPosition *)bleCellWithReuseIdentifier:(struct CGPoint)arg1 forIndexPath:(NSTextContainer *)arg2 . Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
-- (NSLayoutManager *)@"UIFont"24@?0@"NSString"8@"UITraitCollection"16;
-- (struct CGRect)%@ must have a title when running in %@;
-- (NSTextContainer *)quiringFlushWithTransaction;
-- (long long)BarPlatterContainer+PlatterView.swift;
-- (NSTextStorage *)rgeSubtitleContent;
-- (NSArray *)ªªªª@@;
+- (UITextRange *)@) in %@;
+- (struct _NSRange)KBColorKeyNumberPadDarkGradientStart;
+- (void)UILabelConfiguration_hasCustomized_cuiCatalog;
+- (NSTextContainer *)entifier;
+- (UITextPosition *)tonGroupAssignRepresentative(UIBarButtonItem *__strong, UIBarButtonItemGroup *__strong);
+- (long long)itySwitchControlStatusDidChangeNotification;
+- (long long)ror message when the attempt to start renaming a document fails.;
+- (void);
+- (long long)extFormattingViewControllerComponentGroupCG;
+- (UITextRange *)¢Ý2;
+- (NSAttributedString *)Éz43ôsþ;
 
 @optional
-- (void);
-- (UITextRange *), %0.f} [previous size:(UITextRange *)arg1 {%0.f, %0.f}];
-- (_Bool)int, UIRectCorner);
-- (_Bool);
-- (void);
+- (long long);
+- (UITextPosition *)ctCorners;
+- (_Bool)thGuideTimer;
+- (void)transitionProgress=%f;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;

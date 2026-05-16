@@ -16,10 +16,10 @@
 + (unsigned long long);
 + (id);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (unsigned long long)mmaries for objectIDs %{public, name=objectID}u;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTEditingPreviewModeOptions *options; // @synthesize options=_options;

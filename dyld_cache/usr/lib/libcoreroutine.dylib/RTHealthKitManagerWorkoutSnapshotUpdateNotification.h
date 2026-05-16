@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)s - OUT-OF-STATE-OP;
 
 // Remaining properties
 @property(readonly, nonatomic) RTCurrentWorkoutSnapshot *workoutSnapshot; // @synthesize workoutSnapshot=_workoutSnapshot;

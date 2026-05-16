@@ -32,12 +32,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)ª;
+- (id)rForSyncPushNotificationsResult;
+- (void)fied, %@, is below the minimum amount you are allowed to request.;
+- (id)mporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/asn1/a_mbstr.c;
+- (void)°;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;

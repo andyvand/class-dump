@@ -79,16 +79,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void)tComplicationTemplate: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long calendarUnits; // @synthesize calendarUnits=_calendarUnits;

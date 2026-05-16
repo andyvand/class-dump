@@ -15,10 +15,10 @@
     MISSING_TYPE *selectionColor;
 }
 
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
 
 @end
 

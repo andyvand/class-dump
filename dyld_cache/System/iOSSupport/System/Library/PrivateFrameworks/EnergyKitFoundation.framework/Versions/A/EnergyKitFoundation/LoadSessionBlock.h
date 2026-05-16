@@ -17,7 +17,10 @@
 @property(nonatomic, copy) NSDate *blockEnd; // @dynamic blockEnd;
 @property(nonatomic) int blockIndex; // @dynamic blockIndex;
 @property(nonatomic, copy) NSDate *blockStart; // @dynamic blockStart;
+@property(nonatomic) _Bool certified; // @dynamic certified;
+@property(nonatomic) long long circuitScope; // @dynamic circuitScope;
 @property(nonatomic, copy) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
+@property(nonatomic, copy) NSString *deviceName; // @dynamic deviceName;
 @property(nonatomic, copy) NSUUID *homeIdentifier; // @dynamic homeIdentifier;
 @property(nonatomic) _Bool isConsumptionBlock; // @dynamic isConsumptionBlock;
 @property(nonatomic, copy) NSString *loadType; // @dynamic loadType;

@@ -18,13 +18,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (_Bool);
+- (void);
 - (unsigned char);
 - (void);
 - (void);
-- (struct CGSize);
-- (_Bool)to identifier.;
+- (struct CGSize)senderDictionary:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char contentScale;

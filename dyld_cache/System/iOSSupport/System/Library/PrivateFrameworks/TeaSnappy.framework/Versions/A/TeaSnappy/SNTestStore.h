@@ -14,15 +14,15 @@
     NSMutableDictionary *_testCases;
 }
 
-- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (id);
-- (id);
-- (id)amework/Versions/A/LimitAdTracking;
 - (id);
-- (void);
+- (id);
 - (void);
 
 // Remaining properties

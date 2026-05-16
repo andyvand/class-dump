@@ -7,7 +7,6 @@
 @class NSString, UIColor;
 
 @protocol MUFactoidViewModel
-- (NSString *)guration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *darkSymbolColor;

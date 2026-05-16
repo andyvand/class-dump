@@ -14,29 +14,28 @@
     id _didFinishLaunchingObserver;
 }
 
-+ (_Bool)eceipts in SMS chat;
-+ (_Bool)e time including the grace period.;
-- (long long);
-- (void)utDevices:(long long)arg1 parentRoute:(id)arg2;
++ (_Bool);
++ (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)¢!0@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (_Bool)!y!`Cù±Îð1¢!0@ù
-× ;
-- (_Bool)ed;
-- (id)rationViewSymbolConfiguration;
-- (_Bool)0;
-- (_Bool);
 - (long long);
-- (_Bool)NavigationTransitionsSpec;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool)× ;
+- (void)@ù
+× ;
+- (void)°1Â0@ù
+× ;
+- (_Bool)y:animateChange:dismissible: /* Error: Ran out of types for this method. */;
+- (_Bool)vider;
+- (_Bool)r of dimensions;
+- (long long)e *const __strong, BOOL)_block_invoke_4;
+- (void);
+- (_Bool)7HwPgNF7O1ShqV5hLdg1iCBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
+- (void)@kb;
 
 @end
 

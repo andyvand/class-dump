@@ -49,7 +49,7 @@
 + (id);
 + (id);
 + (id);
-+ (void)@;
++ (void);
 - (_Bool);
 - (void);
 - (id);
@@ -66,10 +66,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)վ;
+- (id);
 - (id);
 - (_Bool);
-- (void)!;
+- (void);
 - (id);
 
 @end

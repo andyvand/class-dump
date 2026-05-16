@@ -17,26 +17,26 @@
     NSString *_cachedGUID;
 }
 
-+ (_Bool)unterpart;
++ (_Bool);
 - (void);
 - (id);
-- (id)!;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)P;
-- (void)h;
-- (void);
 - (void);
 - (id);
-- (id);
 - (id);
-- (id);
-- (id)SString"16q24@"NSString"32;
-- (id)ck: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (id)ite;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cachedGUID; // @synthesize cachedGUID=_cachedGUID;

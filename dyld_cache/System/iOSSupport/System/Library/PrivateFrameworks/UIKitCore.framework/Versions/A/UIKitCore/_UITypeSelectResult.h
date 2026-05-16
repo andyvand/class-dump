@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (void)ata is NULL;
+- (void);
 - (void);
 - (id);
 - (id);

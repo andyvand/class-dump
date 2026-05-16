@@ -4,84 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCPurchaseOfferableConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
-@protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NSURL, NTPBPublisherPaidDescriptionStrings;
+@protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (_Bool),;
-- (NSString *)a;
-- (NSData *);
-- (_Bool)eConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)Representation;
-- (_Bool)ocalAreas: /* Error: Ran out of types for this method. */;
-- (unsigned long long)image:type:block: /* Error: Ran out of types for this method. */;
-- (NSArray *)x;
-- (FCAssetHandle *)~Zÿÿÿÿÿ|;
-- (_Bool);
-- (FCAssetHandle *);
-- (NSString *);
-- (NSArray *);
-- (id <FCSportsProviding>)	
-;
-- (NSString *);
-- (_Bool)h;
-- (long long)t~ÔôLS¸TxÜd;
-- (_Bool),;
-- (_Bool)¤%h(l+;
-- (NSString *);
-- (_Bool)X¹ïÿ»ïÿ½ïÿ¸¾ïÿÀïÿäÀïÿtÁïÿÂïÿÃïÿÄïÿÅïÿÉïÿÈÊïÿ;
-- (NSDictionary *)z¾ñÿä§óÿ;
-- (FCPaywallConfiguration *)VÐñÿ;
-- (NSArray *)er group subtype:%s and section identifier:%s /* Error: Ran out of types for this method. */;
-- (double)°óÿX°óÿH±óÿà±óÿø±óÿ0²óÿh²óÿ ²óÿè²óÿ ³óÿ³óÿØ³óÿ´óÿ(´óÿÄ´óÿü´óÿµóÿ8µóÿ`µóÿxµóÿ<¶óÿ¶óÿ´¶óÿT·óÿ·óÿ´·óÿÌ·óÿì·óÿ<¸óÿT¸óÿ¸óÿø·óÿl¸óÿ¸óÿÔ¸óÿ¹óÿ$¹óÿ\¹óÿ¹óÿ¸¹óÿð¹óÿ(ºóÿLºóÿlºóÿºóÿ »óÿX»óÿp»óÿ»óÿà»óÿ´¼óÿø¼óÿ½óÿ`½óÿ½óÿ¼½óÿÜ½óÿü½óÿ¾óÿ@¾óÿX¾óÿp¾óÿÐ¾óÿ¿óÿx¿óÿÐ¿óÿÀóÿ4ÀóÿLÀóÿÀóÿÄÀóÿÜÀóÿüÁóÿÂóÿÃóÿpÃóÿ¨ÃóÿÔÃóÿìÃóÿÄóÿ0ÄóÿPÄóÿÅóÿPÅóÿÅóÿ¨ÅóÿàÅóÿÆóÿ0ÆóÿHÆóÿhÆóÿÆóÿ¨ÆóÿÈÆóÿàÆóÿÇóÿPÇóÿhÇóÿ ÇóÿÀÇóÿØÇóÿðÇóÿ(Èóÿ@ÈóÿdÈóÿ|ÈóÿÈóÿÌÈóÿÉóÿÉóÿ4ÉóÿLÉóÿÉóÿEngagementManager:Using directory %{private}s /* Error: Ran out of types for this method. */;
-- (NSDate *)ÿXåÿ|åÿÈåÿÀ¢åÿä¢åÿp£åÿ£åÿ¸£åÿÜ£åÿ¤åÿ<¤åÿ`¤åÿ¤åÿÐ¤åÿô¤åÿ¥åÿL¥åÿ¥åÿ¬¥åÿÐ¥åÿ8§åÿ§åÿD¨åÿh¨åÿè¨åÿ$©åÿT©åÿx©åÿ©åÿÐ©åÿªåÿ0ªåÿ@«åÿX«åÿ «åÿÄ«åÿT¬åÿx¬åÿ¬åÿØ¬åÿü¬åÿ ­åÿD­åÿ­åÿ¤­åÿð­åÿd®åÿ®åÿ´®åÿØ®åÿh¯åÿ8°åÿl°åÿ¸°åÿ(±åÿ\±åÿø±åÿ4²åÿT³åÿx³åÿ´³åÿÄ³åÿ´åÿ¤´åÿÐ´åÿô´åÿpµåÿ¬µåÿèµåÿ¶åÿh¶åÿ·åÿ·åÿ´·åÿ;
-- (FCAssetHandle *)Ìßÿ<ÌßÿÍßÿ¨ÍßÿäÍßÿÎßÿÔÎßÿàÎßÿÏßÿàÏßÿÐßÿ4ÐßÿXÐßÿ¼ÐßÿÔÐßÿÑßÿ<Ñßÿ`ÑßÿÑßÿ¨ÑßÿÌÑßÿÒßÿ,ÒßÿXÓßÿÓßÿÓßÿÐÓßÿÔßÿ0ÔßÿÔßÿÄÔßÿHÕßÿtÕßÿ°ÕßÿtÖßÿüÖßÿ×ßÿ@ØßÿØßÿ4ÙßÿôÙßÿ;
-- (FCSportsRecommendationMappings *);
-- (_Bool)§òûÿ;
-- (void);
-- (NSDate *)ÞøÿÜøûÿ;
-- (NSArray *)àøÿ;
-- (NSString *)ìüÿöùÿ;
-- (long long)ôÒøÿüÿ;
-- (NSString *)nge;
-- (_Bool)allowedEventStates;
-- (_Bool)ItemManager;
-- (_Bool)Empty;
-- (_Bool)J9GSgXw;
-- (id <FCChannelProviding>)Oî_p;
-- (FCAssetHandle *)y!ý9G;
-- (NSString *);
-- (NSArray *);
-- (NSArray *);
-- (NSArray *)eEventTranslator;
-- (_Bool)to remove the downloads or remove these issues from My Magazines?;
-- (FCAssetHandle *)will fetch and cluster sports topics...;
-- (NSString *)ionScriptingTestCase.swift;
-- (NSString *)r/Modules/news-reader/NewsUI/Modules/Puzzle/PuzzleTracker.swift;
-- (_Bool)43NewIssueNotificationBackgroundWorkerFactory;
-- (NSString *)etch the feed configuration for feed %{public}@, error=%{public}@;
-- (_Bool)ng to select local headline from %{public}@ with %lu headlines;
-- (NSDate *)ndWorkerManager;
-- (_Bool)ed.debug_sport_highlights_feed_config.path;
-- (unsigned long long)entsAppDependencyStartupTask;
-- (_Bool)ishedTrackRescuer;
-- (_Bool)PlusLabel.lastPresentedDate;
-- (FCColor *)e device is offline;
-- (_Bool)ing to refresh with a blueprint that has no cursor;
-- (_Bool)ameCenterEnabled;
-- (unsigned long long)Eôûøã;
-- (FCAssetHandle *)þ;
-- (void);
-- (_Bool)FailedBlueprintModifier;
-- (_Bool)½^Èÿÿÿ;
-- (FCPurchaseOfferableConfiguration *)oÓ;
-- (_Bool);
-- (id <FCPuzzleTypeProviding>)Ýpeÿþ­p fÿþp¢Àþ;
-- (id <FCTopicProviding>)ÄÃÕþ68ÄÕþ6ÓÉþM6dÓÉþ6´ÓÉþ%6ÄÕþE6;
-- (_Bool)°k;
-
-@optional
-- (NSData *)geHandler;
+- (_Bool)ImageOnTopLayout;
+- (FCAssetHandle *)sUI262FollowingNotificationsSectionFooterViewLayoutAttributesFactory;
+- (NSDate *)$;
+- (FCAssetHandle *);
+- (NSString *);
+- (void)=d=°=ä=0>x>¤>Ô>?<?l?¤?Ô?ü?,@l@¬@ä@$ALAAÌABDBlBB¼BäBCTC|C¤CÜCDLDD¬DÜDE4E\EE¬EÔEüE$FTF|F¬FÔFüF$GhGGÄGüG$HLHtHHÄHìH$ITII´IÜIJ<JdJ¨JÜJKLKK´KäKLLLL¼LôL,MTM|M¬MÜMN@NtN¤NÜNODO|O´OìOPTPP¼PäPQ<QdQQ´QðQ RHRxR RØR;
+- (NSArray *)H!|!¤!ð!"`""¼"ä"#L##Ä#$D$$Ä$ô$$%h%%è%&T&&Ä&'<'l''Ô'(D(l((Ì()D)t)¬)ä) *h*´*ì*$+h++Ä+ü+4,l,¸,Ü,-D-l--Ä-;
+- (NSString *)ää¸Dü !ì"ü#\&À)l+;
+- (_Bool)Ø-;
+- (NSArray *);
+- (long long);
+- (NSArray *)¸æÿÜæÿ;
+- (NSDate *)ÞÃøÿ;
+- (FCAssetHandle *)lines;
+- (id <FCTagProviding>)a;
+- (NSArray *)ûÿ;
+- (NSString *)óþÿ,aïÿÀ2òþ;;
+- (NSArray *)in your region when opened from an external URL.;
+- (NSDate *)Chronological;
+- (_Bool)xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SearchMore/SearchMoreTracker.swift;
+- (FCAssetHandle *)(X¹ÿ;
+- (_Bool)MEÿf_\1«þf_X1«þ	f_T1«þ;
+- (_Bool)nContainer;
+- (_Bool)º
+YÒd@­;
+- (NSString *)ingKeys;
+- (_Bool)°þ	æd{°þéåd4{°þ;
+- (NSDate *)roviderDelegate;
+- (NSURL *)exø;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -107,6 +62,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -133,6 +90,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

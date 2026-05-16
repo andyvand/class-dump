@@ -5,9 +5,5 @@
 //
 
 @protocol UITableViewDataSource
-
-@optional
-- (void);
-- (_Bool);
 @end
 

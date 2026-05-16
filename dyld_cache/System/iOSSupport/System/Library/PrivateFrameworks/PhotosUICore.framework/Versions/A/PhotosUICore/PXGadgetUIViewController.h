@@ -105,78 +105,80 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)Qz°1b0@ù
+- (struct PXGadgetUpdateFlags);
+- (struct CGRect)HÐ1â
+0@ù
 × ;
-- (id);
-- (void)tyle:(id)arg1;
-- (_Bool)ler:(id)arg1;
-- (void)rategies;
-- (void)oInput;
-- (void)hõ;
-- (void)ØÓ;
-- (void)\hÿ;
-- (id)nished;
+- (void)
+× ;
+- (long long)rtUsingComparator:(id)arg1;
+- (_Bool)nsetsWithCurrentBehavior;
+- (struct UIEdgeInsets)otosDataSourceInterestingAssetReferences:(id)arg1;
+- (id)rCurrentlySelectedSection;
+- (struct CGSize);
+- (long long)DByCacheSpec;
+- (void)t;
+- (void)Ü;
+- (void)<;
+- (void)fûÿDÑøÿ;
 - (void);
-- (void)iZyAB_Qo_Gn#G;
-- (struct CGSize)YES;
-- (_Bool)eLayoutCoordinator.m;
-- (id)reP33_CD21F7C3F43DE96DB6B87D28E0B201CF22StoryViewCurationProxy;
-- (long long)apple.photos.SearchAssetUUIDsValidator;
-- (id);
-- (void)µ·;
-- (void)erlay_Previews;
-- (struct UIEdgeInsets)½èh;
-- (struct PXGadgetUpdateFlags)ÿvÿ;
+- (void);
+- (id);
 - (void);
-- (void)øI[W5;
-- (void)5²ÿiVe5;
-- (id)Á¼KÞÙ5;
-- (void)Í6;
-- (struct CGRect)¼ÿàöKF6;
-- (void)Ê&6;
-- (void)ÿKCû<6;
-- (void)ÿE«P:(id)arg1 36;
-- (void)àø¸ÿäÎ6;
-- (id)¬ ³ÿâNZ:7 /* Error: Ran out of types for this method. */;
-- (void)®ÿsKMÒÚ7;
+- (void)PXPeopleBootstrapConfirmationViewController willTransitionToNextInFlow];
+- (_Bool)ningMessage;
+- (id)plitLayout.firstSublayout;
+- (void)mplement;
+- (id)Title Appear Delay;
+- (void)chQueryTimeout;
+- (void)<a;
+- (id)ÄÚ;
+- (id)sTÄú4;
+- (id)´ÃÿNäR5;
+- (id)8B6;
+- (void)|Åÿ[ßKa6;
+- (void)S7;
+- (void)À%MÈ8;
+- (void)øD8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsBarManagement; // @synthesize allowsBarManagement=_allowsBarManagement;

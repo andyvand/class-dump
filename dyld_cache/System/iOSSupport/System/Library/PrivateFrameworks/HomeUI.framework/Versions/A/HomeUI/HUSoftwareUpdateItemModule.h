@@ -31,8 +31,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)tureDependent:%@ %s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories; // @synthesize accessories=_accessories;

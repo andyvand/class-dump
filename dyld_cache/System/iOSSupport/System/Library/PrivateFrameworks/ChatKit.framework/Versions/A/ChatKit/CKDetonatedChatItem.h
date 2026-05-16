@@ -14,14 +14,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (Class);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)y|¬yq¬yì«G_v¬Qo__+Õ«yU|¬y?¬yAHSSAFyRò«ySaySSGSSü<yAH_SSQo_G_APSgtGG_ìu¬Qo_ACyé~¬yAHGèª<GGSgtGAEGAYGG;
+- (_Bool);
 
 @end
 

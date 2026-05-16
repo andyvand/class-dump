@@ -19,16 +19,17 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
 - (void);
-- (double);
 - (void);
 - (id);
 - (void);
+- (double);
 - (void);
+- (double);
 - (void);
-- (void);
+- (void)Ð!ÌEùQoÐ1B50@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;

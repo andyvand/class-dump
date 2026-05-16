@@ -7,15 +7,13 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (oneway void)[%ld %@] %@;
-- (id)	
-;
-- (_Bool)storage_$_articleLinkBehaviorImprovementsEnabled;
-- (id);
+- (_Bool)neCatalogBlueprintLayoutBuilder;
+- (id)XU;
+- (_Bool)message when the saved feed is not available due to device obsoletion;
+- (struct _NSZone *);
 
 @optional
-- (NSString *)24@0:8d16 /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIInteractionProgress;
+
 @protocol UIInteractionProgressObserver
 
 @optional
-- (void)ingFuture;
-- (void)l %@ ;
+- (void)!CùQÐ1â
+0@ù
+× ;
+- (void)uleDelegate:(UIInteractionProgress *)arg1;
 @end
 

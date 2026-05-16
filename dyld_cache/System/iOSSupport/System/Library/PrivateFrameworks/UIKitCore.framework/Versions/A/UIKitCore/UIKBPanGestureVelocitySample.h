@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     double majorRadius;
 }
 
-- (void);
 - (double);
 - (void);
-- (void)qÍ°1¢!0@ù
+- (void);
+- (struct CGPoint);
+- (void)ù1^Ð1Â0@ù
 × ;
-- (void)atelliteEntry;
-- (void)À8;
-- (struct CGPoint)ver does not handle estimated items so this method does nothing. Are you calling this in error?;
-- (struct CGPoint)^;
-- (void)ÿþÏA¾`;
-- (void)t&ÿ;
-- (double)Ðf;
-- (double);
+- (struct CGPoint)leValue: /* Error: Ran out of types for this method. */;
+- (void)Vîÿðhîÿ;
+- (void)Ì/;
+- (double)ýÖ`;
+- (void)Eÿ\;
+- (double);
+- (void)¦Ðp¾g;
 
 // Remaining properties
 @property double dt; // @synthesize dt;

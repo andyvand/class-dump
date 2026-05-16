@@ -7,7 +7,10 @@
 @protocol UITextPasteSessionDelegate
 
 @optional
-- (void)r invalidate (id=%ld);
-- (void)ookupEventSubtype(IOHIDEventRef);
+- (void)
+× ;
+- (void)be in a UIWindow;
+- (void)s.m;
+- (void)trailing;
 @end
 

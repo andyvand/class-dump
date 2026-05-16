@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)rceGallery;
+- (id)tsActionP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUnit *unit; // @synthesize unit=_unit;

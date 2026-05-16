@@ -14,11 +14,11 @@
     MISSING_TYPE *trackedConversionTranslation;
 }
 
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)ÀðñøñÄò¨óôõ;
 
 @end
 

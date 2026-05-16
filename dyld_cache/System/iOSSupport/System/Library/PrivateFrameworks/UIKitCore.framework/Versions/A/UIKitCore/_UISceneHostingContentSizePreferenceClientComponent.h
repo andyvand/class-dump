@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGSize);
+- (struct CGSize)p%Âÿ¸gÚK^;
 
 // Remaining properties
 @property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize; // @synthesize _preferredContentSize;

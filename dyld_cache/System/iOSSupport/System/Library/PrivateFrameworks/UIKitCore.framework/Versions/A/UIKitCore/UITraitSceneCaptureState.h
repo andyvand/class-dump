@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (_Bool)sageStore;
 + (_Bool);
-+ (id)utTraits;
-+ (id)8yÑÊj8GSg;
-+ (long long)Òóe;
++ (_Bool);
++ (id);
++ (id)arged view %p was still registered to a window when it was deallocated.;
++ (long long)àÿæÌðtg;
 
 @end
 

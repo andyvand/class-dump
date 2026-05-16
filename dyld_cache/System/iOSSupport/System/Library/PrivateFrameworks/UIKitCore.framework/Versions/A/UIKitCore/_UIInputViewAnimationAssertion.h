@@ -16,20 +16,20 @@
 }
 
 + (id);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id)Ëð1¢!0@ù
+- (id);
+- (id);
+- (void);
+- (void)!Fù1bÐ1Â0@ù
 × ;
-- (id)16;
-- (id)nted;
+- (_Bool)nge=QQ},N;
+- (void)";
+- (int)DÓÐhwÛ;
+- (void)UICTFontTextStyleHeadline2;
+- (_Bool)ng;
 - (void);
-- (void)humb;
-- (_Bool)BaseWritingDirection;
-- (int)ÿ;
-- (void);
-- (_Bool)<Zÿ1,ÖÒù^;
-- (void)@8a;
-- (void)°Ñ¯ÿdÙr:(_Bool)arg1 a;
+- (void)EffectRegion;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

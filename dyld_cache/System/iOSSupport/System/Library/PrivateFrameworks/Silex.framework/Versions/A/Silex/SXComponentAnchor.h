@@ -20,10 +20,10 @@
 - (void);
 - (long long);
 - (id);
-- (void);
-- (void);
 - (id);
-- (struct _NSRange)DInteractiveCanvasController"16@"TSDRep"24;
+- (struct _NSRange);
+- (void);
+- (void)6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

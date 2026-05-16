@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemCollection, NSArray;
-
 @protocol FPItemCollectionIndexPathBasedDelegate
-- (void)artDescriptor:(FPItemCollection *)arg1 shouldHideFromSyndication:(NSArray *)arg2 ];
-- (void)(LegacyMessages) _updateMessageItemSyndicationRanges:(FPItemCollection *)arg1 messagePartDescriptor:(void (^)(void))arg2 shouldHideFromSyndication:] /* Error: Ran out of types for this method. */;
-- (void)hmentSyndicationRanges:(FPItemCollection *)arg1 shouldHideFromSyndication:(NSArray *)arg2 ];
-- (void)n ;
-- (void));
 @end
 

@@ -17,26 +17,27 @@
     NSString *_hidFeedbackPatternName;
 }
 
-+ (id)d] event=%{public}@;
 + (id);
 + (id);
-+ (id)!0@ù
++ (id)Â0@ù
 × ;
-+ (id)egin_"^{?}"__end_"^{?}""{?="__cap_"^{?}}};
-+ (id)iderForBarButtonItem: /* Error: Ran out of types for this method. */;
++ (id)compressing: /* Error: Ran out of types for this method. */;
++ (id)tributeKey:state: /* Error: Ran out of types for this method. */;
++ (id)& Liquid Lens View;
+- (void);
+- (CDUnknownBlockType);
+- (void);
 - (void);
 - (long long);
-- (_Bool);
-- (void)gHistoryUpdateControl:(double)arg1 forHome: /* Error: Ran out of types for this method. */;
-- (id)L;
-- (void);
-- (void);
-- (id)tedRangeInMarkedText: /* Error: Ran out of types for this method. */;
-- (void)nt=dd}{CGSize=dd}},N,V_caretRectBeforeInsertion;
-- (id),N,V_translationWeight;
-- (double)set;
-- (CDUnknownBlockType)É;
-- (id)jþ;
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (id){CGRect={CGPoint=dd}{CGSize=dd}}88@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGPoint=dd}72 /* Error: Ran out of types for this method. */;
+- (_Bool):(id)arg1 untransformedSheetFrame:fullHeightUntransformedFrameForDepthLevel:topAlignment:depthLevel:peeks:metrics: /* Error: Ran out of types for this method. */;
+- (double)er;
+- (id)eThrottle;
+- (void)NSToolbarSection;
 
 // Remaining properties
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *feedback; // @synthesize feedback=_feedback;

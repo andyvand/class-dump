@@ -11,7 +11,6 @@
     MISSING_TYPE *decoder;
     MISSING_TYPE *appConfigManager;
     MISSING_TYPE *resourceService;
-    MISSING_TYPE *suggestionIdentifiers;
 }
 
 @end

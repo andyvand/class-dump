@@ -14,12 +14,11 @@
 + (void);
 + (_Bool);
 + (void);
-+ (_Bool)0:8@16{PXSimpleIndexPath=qqqq}24@56{CGSize=dd}64 /* Error: Ran out of types for this method. */;
-+ (void)< ;
-+ (void)HwÕÿUø
-VF6;
-- (void);
++ (void);
++ (_Bool)because key asset is nil for social group:%s /* Error: Ran out of types for this method. */;
++ (void)8ê8;
 - (id);
+- (void);
 
 @end
 

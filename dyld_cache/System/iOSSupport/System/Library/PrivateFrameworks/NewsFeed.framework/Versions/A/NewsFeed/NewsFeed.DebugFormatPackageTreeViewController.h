@@ -14,12 +14,12 @@
     MISSING_TYPE *$__lazy_storage_$_hostingController;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)¥@:¨Îýþ¥@:0¡wþ¥@:Ù$ÿ /* Error: Ran out of types for this method. */;
+- (void)X@;
 
 @end
 

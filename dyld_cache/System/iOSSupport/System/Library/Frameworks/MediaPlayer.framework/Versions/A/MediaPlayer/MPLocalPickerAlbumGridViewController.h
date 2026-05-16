@@ -35,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (long long);
 - (long long);
 - (void);
 - (void);
-- (long long)NSZone=}16@0:(id)arg1 8;
-- (void)hangeNotifications;
-- (id)PropertyPlaylistParentPersistentID;
-- (void)erNotificationUserInfoKeyContentType;
-- (void)ÕVt;
+- (void)"NSString",C,N;
+- (id)ng mapping for MPModelPropertySongArtwork;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaItemCollection *mCollection; // @synthesize mCollection=_mCollection;

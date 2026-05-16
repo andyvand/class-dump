@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)ServiceOperatingStateAbnormalReasonHighTemperature;
++ (_Bool);
 
 @end
 

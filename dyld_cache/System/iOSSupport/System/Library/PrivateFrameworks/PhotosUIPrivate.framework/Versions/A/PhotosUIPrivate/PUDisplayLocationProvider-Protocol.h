@@ -5,6 +5,5 @@
 //
 
 @protocol PUDisplayLocationProvider
-- (struct CGPoint)astIncrementTime;
 @end
 

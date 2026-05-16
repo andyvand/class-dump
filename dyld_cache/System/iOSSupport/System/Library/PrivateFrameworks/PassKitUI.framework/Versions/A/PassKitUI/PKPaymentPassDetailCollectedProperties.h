@@ -31,8 +31,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ø1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *actionForBalanceIdentifier; // @synthesize actionForBalanceIdentifier=_actionForBalanceIdentifier;

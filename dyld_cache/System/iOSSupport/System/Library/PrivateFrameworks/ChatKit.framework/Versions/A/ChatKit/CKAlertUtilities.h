@@ -22,10 +22,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)y_S®yytÐ\®y
-_®yADG_Qo_GQo_Qo_Qo__Qo_;
-- (void)y%¶®yã®yñé®y#ä®yADyAAyè®AByçn?Ô®GG_BÞ®AByAByAKuÙ®ySiSgGGALyÎÝ®GGtGG_AAyAByAByAByABy$n¯y6q¯yÞ®yAByâ®Ñ®yâ®GG_Qo_G_7h¯Qo_ALy\g¯GGALy§®GGAHG¶®GAByAByABy1Þ®yAByAvLyüÜ®SgGG_Qo_ALyüá®GGALyAXSgGGA10_GGtGGÛ³®GACyADyAJ_AEyADyAK_ARtGGã®A24_tGGG;
+- (void)p;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKAlertUtilitiesProtocol> delegate; // @synthesize delegate=_delegate;

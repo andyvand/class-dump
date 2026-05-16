@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (CDStruct_14d5dc5e);
 - (CDStruct_14d5dc5e);

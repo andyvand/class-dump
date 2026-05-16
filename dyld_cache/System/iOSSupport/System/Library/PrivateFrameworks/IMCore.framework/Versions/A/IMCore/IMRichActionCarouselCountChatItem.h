@@ -15,7 +15,7 @@
     long long _totalCount;
 }
 
-+ (id)ity: /* Error: Ran out of types for this method. */;
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;

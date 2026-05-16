@@ -14,23 +14,22 @@
     CDUnknownBlockType _selectedElementDidChangeHandler;
 }
 
-+ (_Bool)ì/n;
++ (_Bool)class for the identifier or connect a prototype cell in a storyboard;
 - (void);
 - (id);
-- (CDUnknownBlockType)A;
+- (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ferenceVersusContent:(id)arg1 checkFontDifference: /* Error: Ran out of types for this method. */;
+- (void)rentWithSceneSettings:(id)arg1 transitionContext: /* Error: Ran out of types for this method. */;
+- (long long),V__facets;
+- (id)Ð<hè;
+- (_Bool)ng for reason:(id)arg1 %{public}@;
 - (id);
-- (_Bool);
-- (long long);
-- (id);
-- (void)1Ã1¢!0@ù
-× ;
-- (long long)d description:%{private}@, _expireHandler:%@ /* Error: Ran out of types for this method. */;
-- (id)·²_;
+- (long long)üÆÿì;
+- (void)I´ÿÆÌxi;
+- (id)¤ÿ±È;
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenu *_internalMenu;

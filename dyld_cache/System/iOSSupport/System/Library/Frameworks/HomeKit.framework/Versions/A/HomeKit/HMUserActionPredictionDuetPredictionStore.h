@@ -16,17 +16,17 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (void)ettingsMessengerFactory;
 - (id);
 
 // Remaining properties

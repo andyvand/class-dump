@@ -31,8 +31,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)pS;
+- (void)vice"8;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *defaultAttributes; // @synthesize defaultAttributes=_defaultAttributes;

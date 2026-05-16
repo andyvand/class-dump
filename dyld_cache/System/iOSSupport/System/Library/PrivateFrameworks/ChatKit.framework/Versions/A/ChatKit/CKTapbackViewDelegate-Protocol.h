@@ -5,6 +5,5 @@
 //
 
 @protocol CKTapbackViewDelegate
-- (struct CGRect);
 @end
 

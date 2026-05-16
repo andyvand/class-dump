@@ -15,9 +15,9 @@
 - (void);
 - (struct _NSRange);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (long long);
+- (long long)should not reset the lazy reference's identifier when its object isn't loaded in memory.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

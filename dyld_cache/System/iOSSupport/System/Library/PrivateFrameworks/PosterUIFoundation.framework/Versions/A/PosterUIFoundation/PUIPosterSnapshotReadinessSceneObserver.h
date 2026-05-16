@@ -12,7 +12,7 @@
     _Bool _isSceneReadyForSnapshotting;
 }
 
-+ (id)ùÿ¾*ÿ;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -22,10 +22,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)PosterUIFoundation_Internal.PUIDebugViewFactory;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

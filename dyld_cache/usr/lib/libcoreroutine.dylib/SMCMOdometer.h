@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)ray"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (id);
+- (void)t iMessage to conversation, %@, message, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

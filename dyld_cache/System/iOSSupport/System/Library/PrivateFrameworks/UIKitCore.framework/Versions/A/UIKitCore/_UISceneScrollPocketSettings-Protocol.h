@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol _UISceneScrollPocketSettings
-- (void)d;
-- (NSArray *)taInstanceArray must be a CFArrayRef;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *scrollPocketElements;

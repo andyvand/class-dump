@@ -9,35 +9,40 @@
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)!¯Ð!$DùñÇÐ1¢!0@ù
+- (UITargetedPreview *)
 × ;
-- (UIContextMenuConfiguration *)batchDeleteButtonTapped:(UICollectionView *)arg1;
-- (UITargetedPreview *)umTrailingSpacing;
-- (void)lineReplyActionForChatItem:(UICollectionView *)arg1;
-- (void)upplementalItemToInsert;
-- (UITargetedPreview *)tor;
-- (void)UILabel",&,N,V_browserLabel;
-- (_Bool)ConversationsWithCompletion:(UICollectionView *)arg1;
-- (UITargetedPreview *)te",&,N,V_date;
-- (_Bool);
-- (UIContextMenuConfiguration *)8ë;
-- (void)èÄ;
-- (void)bÉÿàÉÿX®ÊÿlüÿÌÿäÌÿàvÍÿÍÿXüÿTüÿPüÿüÐÿÐÿ¬¡Ðÿ$¬ÐÿÔÆÐÿ¼ÌÐÿ4üÿ¬ÝÿPÑÿ(üÿð	ÔÿäÕ¶ÿ´Ú¶ÿß¶ÿlã¶ÿÄ·ÿìÔÿ|Ôÿ<§Ôÿ|Ýÿüûÿ´ÔÿÑÿAÚÿhHÚÿèûÿ\lÚÿð#¿ÿ Üÿ¼óÜÿÔûÿüÇÿìÃÝÿÈûÿ¸ÏÝÿä,øÿ$0øÿ¼7øÿ:(UICollectionView *)arg1 øÿÜFøÿHøÿPVøÿ0`øÿ8bøÿløÿàøÿhøÿ¤øÿ©øÿ0»øÿ½øÿüÄøÿÌøÿ¼îøÿÄúøÿùÿ 	ùÿTùÿ;
-- (_Bool);
-- (void)ÿ²Ëÿ;
-- (void)yâ­GGAFyÈ­SgGG­y­GG_ADyACyAAyAeNy­GG_D­tGGtGG_ADyACyAAyAmSG_AWtGGA2yAy ¥­{è¬GAAyAUA2_GAY²­tGGA2_GA2_GA2_Gþú¬y¨Ú¬yêì¬AOGGGAFyø¬GG;
-- (void)®SgGG;
-- (UIWindowSceneActivationConfiguration *)<ÒÿÜ©;
-- (_Bool)B;
-- (_Bool);
-- (_Bool)ail view controller:(UICollectionView *)arg1 %@ animate:(NSIndexPath *)arg2 %@ with view controllers:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)just to %.2f;
-- (void)to create data representation for preview at URL:(UICollectionView *)arg1 %@. Preview NOT persisted.;
-- (UITargetedPreview *)nto iMessage after completing setup;
-- (void)generative-playground-orb;
-- (_Bool)ld;
-- (UICollectionViewTransitionLayout *)fier;
-- (NSIndexPath *)ô;
-- (NSIndexPath *)RÚC¿,;
+- (void)qÐ1Â0@ù
+× ;
+- (void);
+- (void)0@ù
+× ;
+- (UICollectionViewTransitionLayout *)!Fùñ1Â0@ù
+× ;
+- (void)kSummaryForConversationListUsingIsAdaptiveImageGlyphProvider:(UICollectionView *)arg1 isCommSafetySensitiveProvider:(NSIndexPath *)arg2 adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
+- (UIWindowSceneActivationConfiguration *)tFadeView:(UICollectionView *)arg1;
+- (UITargetedPreview *)tmapSize:(UICollectionView *)arg1;
+- (void)urrentBrowser;
+- (UITargetedPreview *)inueWithSendMessageInteraction:(UICollectionView *)arg1 chatRegistry:(UIContextMenuConfiguration *)arg2 navigationProvider:(NSIndexPath *)arg3 conversationList:chatController: /* Error: Ran out of types for this method. */;
+- (UIContextMenuConfiguration *)ionTimeOrderingChanges;
+- (void)rs;
+- (NSIndexPath *)isclosureLabelText;
+- (_Bool)sertingReply;
+- (_Bool)&,N,V_photosVideosItems;
+- (NSIndexPath *)orPoint;
+- (void)legate;
+- (void)ÿÿ;
+- (void)gs;
+- (_Bool)ionControllerDelegateP;
+- (_Bool)]GGGSg_)]yAByACyAAyADyADyAAyAGõ\Gí-]G@GSg×½]G_-]yACyAAyAAy¹']#]ySiSgGGx]GSg_A9_tGGtGG_Qo_:(UICollectionView *)arg1 -]ADyAAyAAyAAyÉ+]yADy;
+- (UIContextMenuConfiguration *)rovided final URL but emitted error. Trying to send anyway. Error:(UICollectionView *)arg1 %@;
+- (struct CGPoint)LongPress didProcessMediaObject;
+- (_Bool)Plugin balloon cache prewarm complete, new count is %lu;
+- (_Bool)ndex %lu is greater than visibleFavoritePlugins count %lu;
+- (NSIndexPath *)positioning guide to follow Keyboard;
+- (_Bool)eBalloonMaskConfiguration;
+- (_Bool)! returning %@;
+- (void)with CKTranscriptCompositionalLayout. Got nil layout attributes. If allowed to continue, this would be a fatal crash. Please file a radar.;
+- (_Bool)4;
+- (_Bool)}Ô;
 @end
 

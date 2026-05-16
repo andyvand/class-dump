@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     long long _inputActions;
 }
 
-+ (id)ated deleted attachment operation ID %@;
-- (long long)a is NULL;
-- (long long)0;
++ (id);
+- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 
 // Remaining properties

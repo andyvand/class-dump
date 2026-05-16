@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)C,N;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;

@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol PUMutablePickerConfiguration
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool didDismissOnboardingHeaderView;

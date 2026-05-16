@@ -27,19 +27,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (long long);
 - (void);
 - (void);
-- (void)(Ý;
-- (void);
-- (_Bool)ù|Ð1b0@ù
+- (id)0@ù
 × ;
-- (id)ows;
-- (id)ð;
-- (void)Î§L&3;
-- (long long)@vùÿuâNaO6;
+- (id)>";
+- (void)ets:(id)arg1;
+- (id)ÿJûÿÑ;
+- (_Bool)_ALBUM_LIST_MESSAGE_%@;
+- (void)s Show Bootstrap;
+- (void);
+- (void);
+- (void)0¢6;
 
 // Remaining properties
 @property(nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;

@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (long long)@"_WKVisitedLinkStore",&,N,S_setVisitedLinkStore: /* Error: Ran out of types for this method. */;
+- (long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)lí;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;

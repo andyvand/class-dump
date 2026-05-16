@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     struct _NSRange _rangeAfter;
 }
 
-- (long long)FDRDataDecodeAndSetSealingManifest failed;
+- (long long);
 - (void);
 - (struct _NSRange);
 - (long long);
-- (id)lsDebugAlignmentRects: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct _NSRange rangeAfter; // @synthesize rangeAfter=_rangeAfter;

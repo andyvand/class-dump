@@ -15,14 +15,14 @@
     struct CGRect _strokeBounds;
 }
 
-+ (id)initWithDelegate:(id)arg1 ];
++ (id);
 + (_Bool);
 - (void);
 - (struct CGRect);
 - (double);
-- (void);
 - (id);
 - (id);
+- (void)¸¯x°X±;
 
 // Remaining properties
 @property(readonly, nonatomic) PKMathRecognitionItem *item; // @synthesize item=_item;

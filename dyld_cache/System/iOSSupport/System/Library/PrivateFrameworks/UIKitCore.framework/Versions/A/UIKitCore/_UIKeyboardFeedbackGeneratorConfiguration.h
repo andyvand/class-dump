@@ -17,7 +17,7 @@
     double _fastTypingVolumeMultiplier;
 }
 
-+ (id)× ;
++ (id)Avoiding nested keyboard update because is rendering.;
 - (double);
 - (void);
 - (void);
@@ -26,11 +26,11 @@
 - (_Bool);
 - (double);
 - (double);
-- (_Bool)tion:withEncryptCertPayloadUUID:withDeviceKey: /* Error: Ran out of types for this method. */;
 - (void);
+- (id){_NSRange=QQ}24Q40@?48;
 - (id);
-- (void)yDriver;
-- (id)a;
+- (void);
+- (_Bool)0(a;
 
 // Remaining properties
 @property(nonatomic) double fastTypingTime; // @synthesize fastTypingTime=_fastTypingTime;

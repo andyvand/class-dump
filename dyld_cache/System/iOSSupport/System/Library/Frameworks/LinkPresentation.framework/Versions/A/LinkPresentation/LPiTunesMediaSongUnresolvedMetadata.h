@@ -24,20 +24,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)ButtonStyle",&,N,V_button;
-- (id);
+- (void);
+- (void);
+- (id)Ðf¬Ø;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *album; // @synthesize album=_album;

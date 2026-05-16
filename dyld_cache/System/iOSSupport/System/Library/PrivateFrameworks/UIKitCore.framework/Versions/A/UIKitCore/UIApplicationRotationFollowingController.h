@@ -11,17 +11,17 @@
     _Bool _sizesWindowToScene;
 }
 
-- (void)&,N,V_accountController;
-- (void)cessorC;
+- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)ition",N,R;
-- (_Bool)Gáz¿;
-- (unsigned long long)h4;
-- (_Bool)Öþ¬aÖën;
+- (_Bool)adAutofillSignUp;
+- (_Bool),V_allowsKeyboardShortcuts;
+- (_Bool)¬Ìe;
+- (unsigned long long)ôGÿ,ÎðÈg;
 
 // Remaining properties
 @property(nonatomic) _Bool sizesWindowToScene; // @synthesize sizesWindowToScene=_sizesWindowToScene;

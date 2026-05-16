@@ -12,15 +12,16 @@ __attribute__((visibility("hidden")))
     NSHashTable *_mediaPlayers;
 }
 
-+ (id)ü#;
++ (id)Ô ;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)á÷!GùQð1Â0@ù
+× ;
 
 @end
 

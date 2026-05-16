@@ -7,7 +7,6 @@
 @class UIView;
 
 @protocol _UIViewControllerTransitionConductorDelegate
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *navigationTransitionView;

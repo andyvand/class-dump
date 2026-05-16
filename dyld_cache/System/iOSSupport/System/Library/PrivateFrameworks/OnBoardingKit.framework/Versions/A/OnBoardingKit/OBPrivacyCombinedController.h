@@ -19,12 +19,12 @@
 }
 
 + (void);
-+ (id)&}(;
++ (id);
 - (_Bool);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -32,10 +32,10 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)@;
 
 // Remaining properties
 @property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;

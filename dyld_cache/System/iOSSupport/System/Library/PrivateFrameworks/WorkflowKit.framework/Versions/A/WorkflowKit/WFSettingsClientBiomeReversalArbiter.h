@@ -25,9 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)ary);
+- (id)
+× ;
+- (void)ion;
 
 // Remaining properties
 @property(readonly, nonatomic) BPSPublisher *publisher; // @synthesize publisher=_publisher;

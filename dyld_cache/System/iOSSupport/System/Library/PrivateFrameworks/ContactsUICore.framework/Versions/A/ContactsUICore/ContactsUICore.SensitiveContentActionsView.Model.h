@@ -18,8 +18,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)rocessor;
 
 @end
 

@@ -19,16 +19,16 @@
 + (void);
 + (void);
 + (void);
++ (id);
 + (_Bool);
-+ (id)magesForCacheKeys:%@] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
+- (id);
+- (double);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
 - (double);
-- (id);
-- (double);
-- (id);
 - (double);
 - (struct CGSize);
 

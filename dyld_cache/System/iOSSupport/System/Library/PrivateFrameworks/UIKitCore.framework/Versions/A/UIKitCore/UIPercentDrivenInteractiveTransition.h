@@ -24,46 +24,43 @@
     NSUUID *__uuid;
 }
 
-- (id)8@16@24@32@40B48B52;
-- (void)tionDidSuspendForEventsOnly;
-- (void)ntifier:(_Bool)arg1 alternateCallbackID:willSendToDestinations:skippedDestinations:registrationPropertyToDestinations: /* Error: Ran out of types for this method. */;
-- (void)versationManager:(double)arg1 pendingMembersChangedForConversation: /* Error: Ran out of types for this method. */;
-- (void)er:(long long)arg1 otherInvitedHandlesChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void)ged keys on notification or changed keys was empty:(id)arg1 %s;
-- (void)ilable to send;
-- (_Bool)gh;
-- (void)hangesCompletionWithError with no error;
-- (void)ot exist. Attempting to create one;
-- (void)e. Device Conditions suitable to write:(_Bool)arg1 %@;
-- (void):(id)arg1 %@, current:%@ /* Error: Ran out of types for this method. */;
-- (void)of nicknames %@;
-- (id)ot the IDS registered number, and we support SMS, So we sent this one out using %@ instead;
-- (_Bool)ILE name="%@" width="%ld" height="%ld" datasize="%llu";
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (double);
 - (void);
 - (_Bool);
+- (double);
+- (void);
+- (id);
 - (void);
 - (double);
-- (id)I:%@   ID:%@   Existing handle:%@ /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
-- (_Bool)tion.;
-- (void);
-- (void)@ù
-× ;
-- (void)0@ù
-× ;
-- (double)!AùñÎ1¢!0@ù
-× ;
-- (void)ocation: /* Error: Ran out of types for this method. */;
-- (id)ackgroundImageName;
-- (double)_shouldFocusViewControllerAfterTransition;
-- (void)dà !;
-- (void);
-- (double)Ä¿ôþ­Î;
-- (long long)e;
-- (void)­½f;
+- (id);
+- (void):8{CGSize=dd}16@"<UIViewControllerTransitionCoordinator>"32 /* Error: Ran out of types for this method. */;
+- (_Bool)RemoteInputSource: /* Error: Ran out of types for this method. */;
+- (void)ed;
+- (void)°~þÿ;
+- (void)ensions. Attributes:(id)arg1 %@; new frame:%@ /* Error: Ran out of types for this method. */;
+- (void)ÙÉ¬d;
+- (double)(i;
+- (void)ìnþ8øÍBi;
+- (long long)Ü3i;
 - (void);
 
 // Remaining properties

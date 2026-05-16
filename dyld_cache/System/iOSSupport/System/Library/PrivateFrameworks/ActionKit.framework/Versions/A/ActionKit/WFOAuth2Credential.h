@@ -15,21 +15,21 @@
     NSDictionary *_responseObject;
 }
 
-+ (_Bool)reboot|restart|turn|off|halt|power|down;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool)ng Sports;
+- (id);
+- (_Bool);
+- (void)peration} WLAN ${OnValue};
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessToken; // @synthesize accessToken=_accessToken;

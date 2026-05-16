@@ -45,15 +45,17 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void)0e;
 - (void);
 - (id);
-- (void)troller",&,N,V_transitionController;
-- (id)neRectArray"8@"PXNewMagazineRectArray"16;
+- (_Bool);
+- (id)aü°!8AùÑIð1â
+0@ù
+× ;
+- (void)Title;
 - (void);
-- (id)`4;
+- (void)'ÿØQa;
+- (id)sibilityPreferenceObserver;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;

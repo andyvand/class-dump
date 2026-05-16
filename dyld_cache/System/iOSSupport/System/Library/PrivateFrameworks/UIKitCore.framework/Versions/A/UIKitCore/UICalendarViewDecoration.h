@@ -11,23 +11,23 @@
     _UICalendarViewDecorationItem *_decoration;
 }
 
-+ (id)plyValueKey;
-+ (id)rsCore;
-+ (id)DDExtractMessageBotReplies;
++ (id);
++ (id);
++ (id);
 + (double);
 + (id);
-- (id)%@;
-- (id)rvices:(id)arg1 %@;
-- (id)empty parts-mardid command;
-- (void)*p;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void)
 × ;
-- (id)aledFixedWidthBar;
-- (void)ibutes",R,N,V_currentAttributes;
-- (id)Rÿ¡Æ¦;
+- (id);
+- (void)°¥i;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDecorationView:) UIView *_decorationView;

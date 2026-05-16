@@ -16,12 +16,12 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;

@@ -15,14 +15,14 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
+- (void)¸.è.</;
+- (void)$;
 
 // Remaining properties
 @property(retain) NSDate *date; // @synthesize date=_date;

@@ -17,9 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)T@"SXFullscreenCaptionView",&,N,V_captionView;
+- (int);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

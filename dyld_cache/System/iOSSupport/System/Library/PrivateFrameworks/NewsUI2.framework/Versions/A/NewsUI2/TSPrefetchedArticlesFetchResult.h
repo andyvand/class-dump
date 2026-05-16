@@ -16,9 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)(;
-- (id)P;
+- (id);
+- (void)¼)¸
+;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *articleIDs;

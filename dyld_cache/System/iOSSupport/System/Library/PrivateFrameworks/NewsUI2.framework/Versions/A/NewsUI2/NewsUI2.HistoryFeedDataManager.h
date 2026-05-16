@@ -12,7 +12,6 @@
     MISSING_TYPE *clearUserDataManager;
     MISSING_TYPE *newsletterManager;
     MISSING_TYPE *userActivityManager;
-    MISSING_TYPE *personalizationData;
     MISSING_TYPE *readingHistory;
     MISSING_TYPE *readingList;
     MISSING_TYPE *headlineService;
@@ -28,8 +27,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol SKAccountService
-- (void)#;
 @end
 

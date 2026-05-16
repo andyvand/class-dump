@@ -5,6 +5,6 @@
 //
 
 @interface (null) (MediaPlayerCore)
-+ (id)Adapter;
++ (id);
 @end
 

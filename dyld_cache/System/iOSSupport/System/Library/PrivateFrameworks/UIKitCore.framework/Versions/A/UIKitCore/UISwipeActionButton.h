@@ -23,39 +23,36 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)tificationUnreadCountForChat:(id)arg1;
-- (void)lass;
-- (id)Store;
+- (void);
+- (void);
+- (id);
 - (double);
-- (_Bool)tB=;
-- (long long):(id)arg1 %@ on service:%@  from me:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (double)cting devices for both nickname services, giving up;
-- (double)%@;
-- (double)ld:%lu), dropping deny/allow list update /* Error: Ran out of types for this method. */;
-- (double)Notice protobuf fromHandle:%@, notice:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ibed to:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)yPipelineComponent;
+- (_Bool);
+- (long long);
+- (double);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (unsigned long long);
 - (struct CGRect);
 - (double);
 - (id);
-- (void);
-- (void);
-- (double)q!GùÄÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)È°1¢!0@ù
-× ;
-- (id)le;
-- (id)nchor: /* Error: Ran out of types for this method. */;
-- (id)esponseContext;
-- (void)"èdÌÌ 1l!¸!	à";
-- (void);
-- (void)entViewC;
-- (void)ntaining view:(id)arg1 %@ at index path:%@ /* Error: Ran out of types for this method. */;
-- (id)kgroundToContentInsets;
-- (void)TËÿ;
-- (void)Kóf;
+- (id);
+- (id);
+- (void)wWithTitle:(id)arg1 description:closeButtonAction: /* Error: Ran out of types for this method. */;
+- (id);
+- (double)stTintColor:,V__hostTintColor /* Error: Ran out of types for this method. */;
+- (void)UICollectionViewCell"32@?0@"UICollectionView"8@"NSIndexPath"16@"_UIFloatingTabBarListItem"24;
+- (void)SString *getIAPayloadKeyMissingKeyboardIsWebKitView(void);
+- (id);
+- (void)^;
+- (void)þ¦xQ;
+- (void)Öa;
+- (void)ãÑðµb;
+- (void);
+- (id)þ©Ý( f;
+- (void)"¹ÿ´×>_k;
 
 // Remaining properties
 @property(nonatomic) _Bool autosizes; // @synthesize autosizes=_autosizes;

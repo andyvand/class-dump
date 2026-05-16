@@ -28,10 +28,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id)× ;
+- (void)pe ="%@" hash="%@"/>;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *OAuthToken; // @synthesize OAuthToken=_OAuthToken;

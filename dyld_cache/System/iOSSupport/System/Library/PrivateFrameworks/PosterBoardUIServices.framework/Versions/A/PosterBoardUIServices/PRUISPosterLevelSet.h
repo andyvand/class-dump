@@ -25,16 +25,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *levels;

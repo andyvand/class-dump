@@ -7,7 +7,6 @@
 @protocol RTDiagnosticProvider
 
 @optional
-- (void)h	;
-- (void)eiver session status;
+- (void)orted by RTWiFiAccessPoint+CoreDataTransformable (in %s:(void (^)(NSArray *, NSError *))arg1 %d);
 @end
 

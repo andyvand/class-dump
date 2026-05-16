@@ -31,18 +31,18 @@
 - (struct UIEdgeInsets);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (double);
+- (void);
+- (id)oryViewController",&,N,V_categoryViewController;
 
 // Remaining properties
 @property(nonatomic) double bottomInset; // @synthesize bottomInset=_bottomInset;

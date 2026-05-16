@@ -34,16 +34,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (double);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id)nents";
-- (void)ridPosition:(id)arg1;
-- (id)panel item found for control view %@!;
-- (_Bool)iew;
+- (void);
+- (void)initWithStyle:] /* Error: Ran out of types for this method. */;
+- (_Bool)ot start update due to nil license:%@ %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak HUSetupCodeFieldItem *activeItem; // @synthesize activeItem=_activeItem;

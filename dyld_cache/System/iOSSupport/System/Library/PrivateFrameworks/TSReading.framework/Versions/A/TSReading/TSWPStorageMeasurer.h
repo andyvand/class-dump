@@ -19,7 +19,7 @@
     struct CGPoint _anchor;
 }
 
-- (id)u;
+- (id);
 - (struct CGSize);
 - (struct CGSize);
 - (id);
@@ -47,7 +47,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (id);
@@ -63,18 +63,18 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
 - (void);
+- (id);
 - (unsigned long long);
-- (struct CGPoint);
 - (struct CGSize);
 - (struct CGPoint);
+- (id);
+- (struct CGPoint);
+- (id)STCell *, TSTCellID);
+- (struct CGSize)torage findNextParagraphStyleChange:maxCharIndex:] /* Error: Ran out of types for this method. */;
+- (id)ader;
+- (unsigned long long)anvasControllerDidUpdateMoviePlayerControllerNotification;
 - (struct CGSize);
-- (id);
-- (id)k/Versions/A/TeaFoundation;
-- (struct CGSize)ctiveCanvasController p_viewScrollingEnded];
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

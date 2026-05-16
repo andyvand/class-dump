@@ -31,8 +31,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Shazam media;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

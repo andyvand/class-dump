@@ -57,10 +57,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)"NSError"32;
 
 // Remaining properties
 @property(retain, nonatomic) UIBezierPath *borderedNormalizedHighlightPath; // @synthesize borderedNormalizedHighlightPath=_borderedNormalizedHighlightPath;

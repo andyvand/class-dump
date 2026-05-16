@@ -22,28 +22,22 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)+;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)n.framework/Versions/A/CoreFoundation;
-- (void);
-- (void);
-- (void)I;
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -51,7 +45,13 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)<;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *clearButton; // @synthesize clearButton=_clearButton;

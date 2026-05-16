@@ -5,7 +5,5 @@
 //
 
 @protocol TUKeyCommandTraversable
-- (void)ProfileMonitor:(long long)arg1:profileCallback no profile installed. previous state:%d, current state:%d
- /* Error: Ran out of types for this method. */;
 @end
 

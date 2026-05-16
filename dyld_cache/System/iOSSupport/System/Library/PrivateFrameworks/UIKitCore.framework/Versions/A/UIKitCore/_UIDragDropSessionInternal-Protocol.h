@@ -5,7 +5,6 @@
 //
 
 @protocol _UIDragDropSessionInternal
-- (_Bool)em:withProtobufData:protobuf2Data: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_allowsItemsToUpdate) _Bool _allowsItemsToUpdate;

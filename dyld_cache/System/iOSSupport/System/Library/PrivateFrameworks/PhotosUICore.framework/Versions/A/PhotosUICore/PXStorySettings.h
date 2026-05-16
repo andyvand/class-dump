@@ -305,7 +305,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id)Kî8;
++ (id)¼(*ÿ ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -379,7 +379,6 @@
 - (long long);
 - (long long);
 - (double);
-- (long long);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -398,7 +397,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -841,8 +839,8 @@
 - (double);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (long long);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -852,14 +850,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (double);
-- (_Bool);
+- (double);
 - (_Bool);
 - (float);
 - (_Bool);
+- (long long);
 - (_Bool);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -869,19 +866,22 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (double);
-- (double);
 - (long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (long long);
 - (void);
+- (long long);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id)Sg;
-- (void);
+- (void) ;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustToWallClockTime; // @synthesize adjustToWallClockTime=_adjustToWallClockTime;

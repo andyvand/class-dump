@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)ÄOXPxR;
+- (void);
+- (id)onsumerDelegate>"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *circleViews; // @synthesize circleViews=_circleViews;

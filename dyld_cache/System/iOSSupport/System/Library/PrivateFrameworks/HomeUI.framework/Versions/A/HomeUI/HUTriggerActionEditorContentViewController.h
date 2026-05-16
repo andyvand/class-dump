@@ -63,8 +63,8 @@
 - (id);
 - (void);
 - (void);
-- (void)rase Options Update finished with error [%@];
-- (void)HomeHubsSelectionListView;
+- (void)iew;
+- (void)mer %@ and restarting mode update;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

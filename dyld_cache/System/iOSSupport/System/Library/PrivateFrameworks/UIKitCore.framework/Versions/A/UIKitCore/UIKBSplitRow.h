@@ -24,25 +24,24 @@ __attribute__((visibility("hidden")))
     UIKBTree *_attrlistRight;
 }
 
-- (void)OnHandles;
-- (void)ipantChangeItemFields:(double)arg1;
-- (void)hatId;
-- (double);
-- (id)2Sg;
-- (struct CGSize)already marked as read (likely via another device). Not writing summary to chat.;
 - (void);
-- (id)C�;
+- (void);
+- (void);
+- (double);
+- (id);
+- (struct CGSize);
+- (void);
+- (id);
 - (double);
 - (void);
 - (unsigned char);
+- (id);
 - (void);
-- (void);
-- (void)0@ù
-× ;
-- (id)edDisplayNativePixelSize,S_setScreenRequestedDisplayNativePixelSize: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)raction;
-- (id)%ÉÑnj;
+- (id);
+- (id);
+- (id)canOnlyHandleReordering;
+- (void)Internal>",W,N,V_internalDelegate;
+- (void)£f;
 
 // Remaining properties
 @property struct CGSize defaultKeySize; // @synthesize defaultKeySize=_defaultKeySize;

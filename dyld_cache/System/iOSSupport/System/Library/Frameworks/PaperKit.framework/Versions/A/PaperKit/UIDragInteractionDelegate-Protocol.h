@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIDragSession;
+@class UIDragInteraction, UITargetedDragPreview;
 
 @protocol UIDragInteractionDelegate
 
 @optional
-- (id <UIDragSession>)yqGGRy´GGAFG_ACyACyãyÐ
-GGAFG¾ tGG;
-- (void);
-- (_Bool)t create PDFDocument.;
+- (void)okeWidth:(UIDragInteraction *)arg1;
+- (UITargetedDragPreview *);
+- (_Bool)pg¥ÿ;
 @end
 

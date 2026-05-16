@@ -7,14 +7,9 @@
 @class NSArray, NSString;
 
 @protocol MPUniversalStoreIdentifiers
-- (NSString *)acos://recipes.mela.appkit /* Error: Ran out of types for this method. */;
-- (long long)://com.apple.Numbers /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (NSString *)ring;
-- (long long)@72@80@88;
-- (NSString *)p"b1"contentIsReaderText"b1};
-- (long long)lyricsURLForURLBag: /* Error: Ran out of types for this method. */;
-- (long long)e;
+- (long long)rs:dataSource=<%{public}@ %p> sectionIndex=%ld /* Error: Ran out of types for this method. */;
+- (long long)lator was missing mapping for MPModelPropertyAlbumCleanDownloadedTrackCount;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long adamID;

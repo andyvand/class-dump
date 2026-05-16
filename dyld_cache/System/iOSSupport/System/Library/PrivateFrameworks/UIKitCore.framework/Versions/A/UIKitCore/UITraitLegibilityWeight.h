@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)orReflowedTextInContextWithIdentifier: /* Error: Ran out of types for this method. */;
-+ (id)vigationItemRenameDelegateP;
-+ (long long)î;
++ (id);
++ (id)ceHandlers after the system animation synchronizes;
++ (long long)ÿ1TÌÁg;
 
 @end
 

@@ -39,17 +39,17 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)ntOfInterest;
-- (void)sEmpty;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VKFrameProviderConfiguration *configuration;

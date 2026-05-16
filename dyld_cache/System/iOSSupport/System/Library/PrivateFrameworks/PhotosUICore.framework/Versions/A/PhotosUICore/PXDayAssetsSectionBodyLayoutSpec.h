@@ -20,7 +20,7 @@
 - (_Bool);
 - (double);
 - (double);
-- (long long)õ3;
+- (long long)ÿUTØ\8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVideoPlaybackAtAnySize; // @synthesize allowsVideoPlaybackAtAnySize=_allowsVideoPlaybackAtAnySize;

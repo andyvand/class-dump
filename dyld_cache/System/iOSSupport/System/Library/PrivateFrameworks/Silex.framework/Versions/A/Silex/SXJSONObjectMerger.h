@@ -14,19 +14,20 @@
     NSMutableDictionary *_transformers;
 }
 
-- (void);
-- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)°1¢!0@ù
+- (void);
+- (id)°1Â0@ù
+× ;
+- (void)Qï°1Â0@ù
 × ;
 
 // Remaining properties

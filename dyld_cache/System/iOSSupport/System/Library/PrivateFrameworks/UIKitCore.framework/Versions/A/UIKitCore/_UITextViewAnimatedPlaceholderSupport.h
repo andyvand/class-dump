@@ -16,8 +16,8 @@
     MISSING_TYPE *activePlaceholders;
 }
 
-- (void)e string;
-- (void)d %@;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)deAppSourceOperationMask:prefersFullSizePreview: /* Error: Ran out of types for this method. */;
-- (id)ent;
-- (id)le: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)InteractionAnimating>"32;
+- (id)State;
+- (id);
+- (void)Sg;
 
 // Remaining properties
 @property(nonatomic) __weak UITextView *textView; // @synthesize textView;

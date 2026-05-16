@@ -19,14 +19,16 @@
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
 - (id);
+- (void);
 - (struct CGSize);
-- (_Bool);
-- (void)rd.PBFPosterSnapshotManager.calloutQueue;
+- (void);
+- (struct CGSize);
+- (void)¿°!ÜGù	1â
+0@ù
+× ;
+- (_Bool)Õ1;
+- (void)blic}@;
 
 // Remaining properties
 @property(readonly, nonatomic) BSUICAPackageView *packageView; // @synthesize packageView=_packageView;

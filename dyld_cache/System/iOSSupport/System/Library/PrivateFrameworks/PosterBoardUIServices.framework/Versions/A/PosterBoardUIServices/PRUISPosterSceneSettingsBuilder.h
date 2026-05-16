@@ -25,17 +25,17 @@
 - (void);
 - (struct CGRect);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (long long);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (long long);
-- (void);
-- (id)yA10__Qo_AFG_AFSgtGGA41_GAByACyAdByAEyAF'ÎASySayA45_GA45_AFGG_î­pyAFGSgA50_tGADG_ACyADA50_AFGtGSgtGAByAF_AQyAQyA2FGAByAF_AFtGGA2FtG_G;
 
 // Remaining properties
 @property(nonatomic) struct CGRect canvasBounds; // @synthesize canvasBounds=_canvasBounds;

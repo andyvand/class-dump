@@ -105,15 +105,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (void);
-- (id);
 - (void);
 - (struct CGRect);
-- (struct CGPoint);
-- (double);
 - (id);
 - (void);
-- (void);
-- (unsigned long long)tio;
+- (id);
+- (unsigned long long);
+- (struct CGPoint);
+- (double);
+- (void)ons;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAutoUpdateDisplayLink:) CADisplayLink *_autoUpdateDisplayLink; // @synthesize _autoUpdateDisplayLink=__autoUpdateDisplayLink;

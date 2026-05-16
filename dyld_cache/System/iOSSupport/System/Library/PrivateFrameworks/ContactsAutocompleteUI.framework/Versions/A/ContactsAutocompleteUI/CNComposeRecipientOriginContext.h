@@ -12,10 +12,10 @@
     unsigned long long _resultType;
 }
 
-- (id);
-- (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties

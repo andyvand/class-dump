@@ -11,16 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double)TextIndirectKeyboardInteraction;
-- (void)vered quietly receipt:(long long)arg1 %@;
++ (double);
 - (void);
-- (double);
-- (long long)`;
-- (id)rkCatalog"32@?0@"MPModelPlaylist"8q16q24;
 - (void);
-- (id)"<NSCoding><NSCopying>"16@0:(struct CGPoint)arg1 8;
-- (void)pt to access out of bounds index in corner byte data;
-- (void)ÈI(ÿ;
+- (id);
+- (void);
+- (id)ÁÐ!ð@ùqc°1Â0@ù
+× ;
+- (void)searchStringForMarkedText;
+- (void)eenWidth;
+- (long long)µ¶X¶;
+- (double)x¢a;
 
 @end
 

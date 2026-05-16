@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
     CKSendMenuPopoverPresentationConfiguration *_configuration;
 }
 
-- (id)d;
-- (void)ttachment isLegacyMediaType];
-- (void)ata;
-- (id)dification Date;
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
-- (double)o8ñ,;
+- (double);
+- (id);
+- (void);
+- (void);
+- (void)ðà0À;
 
 // Remaining properties
 @property(readonly, nonatomic) CKSendMenuPopoverPresentationControllerAnchorItem *anchorItem;

@@ -11,12 +11,12 @@
     NSString *_debuggingService;
 }
 
-+ (id);
++ (id)id is nil.;
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)5˿;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *debuggingService; // @synthesize debuggingService=_debuggingService;

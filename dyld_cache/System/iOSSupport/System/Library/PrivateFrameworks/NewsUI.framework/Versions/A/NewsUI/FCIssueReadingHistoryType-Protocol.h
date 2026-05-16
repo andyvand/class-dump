@@ -7,9 +7,6 @@
 @class NSArray, NSString;
 
 @protocol FCIssueReadingHistoryType
-- (_Bool)z;
-- (void)k;
-- (_Bool)se;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allEngagedIssueIDs;

@@ -51,9 +51,9 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property float EMAFactorPerFrame; // @synthesize EMAFactorPerFrame=_EMAFactorPerFrame;

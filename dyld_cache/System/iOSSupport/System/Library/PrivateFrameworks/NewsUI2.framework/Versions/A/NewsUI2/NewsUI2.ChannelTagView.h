@@ -10,20 +10,21 @@
 {
     MISSING_TYPE *iconImageView;
     MISSING_TYPE *nameLabel;
+    MISSING_TYPE *customizeButton;
     MISSING_TYPE *accessoryButton;
     MISSING_TYPE *separatorView;
     MISSING_TYPE *token;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)actory;
-- (id)ameOfPresentedViewInContainerView;
+- (id);
+- (id);
+- (void)accessibilityElements;
+- (void)ineFeedsManifest;
 - (id);
 
 // Remaining properties

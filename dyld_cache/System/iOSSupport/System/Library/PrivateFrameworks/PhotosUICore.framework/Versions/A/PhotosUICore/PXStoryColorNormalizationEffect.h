@@ -21,8 +21,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (long long);
+- (void)øÿÚÆÿÚÆÿÚÆ(ÿÚÆPÿ5ÚÆlÿÕÙÆxÿÝÙÆÿµÙÆÿÚÆÿÙÆ¨ÿÙÆúÿÝÙÆ¬ÿÚÆ´ÿåÙÆÄÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PFStoryRecipeDisplayAssetNormalization *assetNormalization; // @synthesize assetNormalization=_assetNormalization;

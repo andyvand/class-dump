@@ -15,15 +15,15 @@
 }
 
 + (id);
-+ (id)igrator;
-+ (id)dacted note;
-- (void)nForMovingBetweenManagedAndUnmanagedAccounts;
-- (id);
++ (id);
++ (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)ÿ5&;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;

@@ -16,12 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)tream;
-- (void)gistrationProperties;
-- (struct CGRect)ssage guid needs updating, old %@ new %@;
-- (void)©N
-º;
-- (void)teAppearance;
+- (void);
+- (void);
+- (struct CGRect);
+- (void)ritingToolsWillBegin;
+- (void)4;
 - (void);
 
 // Remaining properties

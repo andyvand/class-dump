@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ôè;
+- (id);
+- (void)wLayoutAttributes"8;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessoryDiagnosticItem *diagnosticItem; // @synthesize diagnosticItem=_diagnosticItem;

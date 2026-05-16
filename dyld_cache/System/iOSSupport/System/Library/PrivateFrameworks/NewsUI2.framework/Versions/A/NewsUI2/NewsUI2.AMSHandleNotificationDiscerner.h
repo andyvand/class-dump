@@ -8,11 +8,11 @@
 
 @interface NewsUI2.AMSHandleNotificationDiscerner
 {
-    MISSING_TYPE *pushHandler;
+    MISSING_TYPE *amsNotificationChecker;
 }
 
-- (void);
 - (id);
+- (void)1Tÿ;
 
 @end
 

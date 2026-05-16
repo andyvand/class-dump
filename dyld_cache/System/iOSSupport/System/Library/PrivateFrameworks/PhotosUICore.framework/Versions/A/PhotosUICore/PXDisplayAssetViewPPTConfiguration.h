@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)houldAutoReplayPreference;
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType assetViewFactory; // @synthesize assetViewFactory=_assetViewFactory;

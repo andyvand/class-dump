@@ -8,20 +8,11 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (unsigned long long)omData:] /* Error: Ran out of types for this method. */;
-- (_Bool)3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/NSDictionaryAdditions.m;
-- (_Bool)ildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/TSUColorUtils.m;
-- (unsigned long long);
-- (long long)j;
-- (_Bool)LRþÿ;
-- (unsigned long long)Ê7ÿÿ;
-- (unsigned long long)ndicatorAnimation;
-- (NSString *)kH;
-- (NSString *)d­×ÿ;
+- (unsigned long long)0:8@"UITextField"16 /* Error: Ran out of types for this method. */;
+- (long long)®;
 
 @optional
-- (int)pLinksWithURL:limit:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long)gTimeLabel;
+- (int)P-_p;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

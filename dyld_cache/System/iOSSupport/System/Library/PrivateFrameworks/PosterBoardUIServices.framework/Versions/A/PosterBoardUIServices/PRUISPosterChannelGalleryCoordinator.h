@@ -20,7 +20,7 @@
     PFPosterExtensionInstanceProvider *_instanceProvider;
 }
 
-+ (id)¡;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -32,13 +32,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)de any updates.;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

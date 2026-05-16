@@ -13,9 +13,10 @@
     UIBarButtonItem *_barButtonItem;
 }
 
-- (id)%@}%s:(id)arg1 %d;
-- (void);
-- (id)t;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;

@@ -11,20 +11,20 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (CDStruct_2ec95fd7)9I;
++ (CDStruct_2ec95fd7);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id)ÿZÊ+Â;
++ (id);
++ (id)Ë5.4;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,12 +34,12 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id)`;
-- (_Bool)suggestionsPresented_weekly;
-- (id)WithHandler:] /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)tricsSubmissionTimer;
 - (id);
+- (id)ler: /* Error: Ran out of types for this method. */;
+- (_Bool)ey:NSXPCStoreDaemonizeKey] /* Error: Ran out of types for this method. */;
+- (id)locations to enumerate, breaking out, itr, %lu, target output size, %lu, fetched location count, %lu, cached location count, %lu, output location count, %lu;
+- (_Bool)Expected,%d,numTripsInStore,%d,dateIntervalOccupied,%d,startDate,%@,endDate,%@;
+- (id)®.­P;
 
 @end
 

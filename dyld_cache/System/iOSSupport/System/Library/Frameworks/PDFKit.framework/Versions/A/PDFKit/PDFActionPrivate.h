@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSArray *nextActions;
 }
 
-- (void)ller;
+- (void);
 
 @end
 

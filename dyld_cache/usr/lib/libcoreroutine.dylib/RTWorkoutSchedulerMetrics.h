@@ -18,7 +18,7 @@
 + (id);
 - (id);
 - (void);
-- (void)h;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,15 +31,15 @@
 - (void);
 - (void);
 - (void);
-- (void)Candidate;
-- (void);
-- (void)&N;
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)d parameter not satisfying:storeURL /* Error: Ran out of types for this method. */;
-- (id)ing contents of directory, %@, error, %@;
+- (void);
+- (void);
+- (id)t;
+- (void)zing or Ready, current state, %{sensitive}@;
+- (id)ator,sessionID:(id)arg1 %@,%@,%@,starting initialization sequence;
+- (id)isfying:originalCandidate /* Error: Ran out of types for this method. */;
+- (void)ationOfInterest for place, %{sensitive}@, with %lu visits;
+- (void)tionDate, %@, calling appendVisitsToLocationsOfInterestModel <---------;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

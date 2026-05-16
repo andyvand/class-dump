@@ -16,17 +16,20 @@
     id <UITableViewDataSource> _tableDataSource;
 }
 
-- (_Bool);
+- (id);
 - (void);
-- (long long);
 - (id);
 - (long long);
-- (long long)usCollapsedFrame;
-- (id)rColumn;
-- (void)lbacks;
-- (long long)tion APIs on UIViewController to manually drive appearance callbacks instead. Make a symbolic breakpoint at UIViewControllerAlertForAppearanceCallbackMisuse to catch this in the debugger. View controller:(long long)arg1 %@;
-- (id)Ô·ÿ
-MÐÇd;
+- (void);
+- (long long);
+- (long long)1Â0@ù
+× ;
+- (id)¡
+Ð!pCùQg1Â0@ù
+× ;
+- (_Bool)ateInterval";
+- (long long)ÄÔÕ
+ÖHØØ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

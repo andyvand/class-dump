@@ -17,11 +17,11 @@
 
 + (id);
 + (id);
-+ (_Bool)endarItemAllDay);
++ (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)sible Value);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

@@ -117,13 +117,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)
-× ;
-- (void)÷#®ä½Ø.ÙdZ!2.LjípµÙÁ´;bîôÐ	ÿ;xâÐÔPÑh{¹}_|mPG@j^h5"	¼¹ø"}Þ8]Vc2ìÀê¿©Ïx"ýò	÷;
+- (void)ent:withMusicPlayer:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)F;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *businessAddress; // @synthesize businessAddress=_businessAddress;

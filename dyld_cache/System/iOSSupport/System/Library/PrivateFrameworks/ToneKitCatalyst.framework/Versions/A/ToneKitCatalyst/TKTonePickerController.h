@@ -212,13 +212,13 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id);
 - (void);
 - (long long);
 

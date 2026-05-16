@@ -7,6 +7,7 @@
 @class NSDate, NSString;
 
 @protocol PXDisplayCollection
+- (NSString *)_spec;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

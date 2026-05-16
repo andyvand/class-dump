@@ -14,21 +14,21 @@
 }
 
 + (id);
-- (void)======================
-;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id)ckets;
-- (unsigned long long);
-- (id);
-- (id);
-- (double)OIWithWiFiHI;
-- (void)equires valid dateInterval;
+- (unsigned long long);
+- (double);
+- (void)!°Bù1A,Ð1Â0@ù
+× ;
+- (id)eWithInterval:leeway: /* Error: Ran out of types for this method. */;
+- (void)Store;
+- (void)tive}@, lifespan %{sensitive}f, numOfClustEntries %{sensitive}d, LastLoc Dist to Clust %{sensitive}f, ageLatestClust visit %{sensitive}f, Max Cluster Dist %{sensitive}f, weeklyDens %{sensitive}f, dailyDens %{sensitive}f ;
 
 // Remaining properties
 @property(nonatomic) double confidence; // @synthesize confidence=_confidence;

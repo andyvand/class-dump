@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (unsigned long long);
+- (id);
+- (void)"8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long context; // @synthesize context=_context;

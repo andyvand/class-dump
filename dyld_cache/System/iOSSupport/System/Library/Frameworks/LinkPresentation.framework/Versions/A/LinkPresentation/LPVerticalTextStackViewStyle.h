@@ -24,24 +24,25 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (_Bool)k;
+- (_Bool);
 - (void);
-- (void);
 - (void);
-- (void)h;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (unsigned int);
 - (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) LPTextRowStyle *aboveTopCaption; // @synthesize aboveTopCaption=_aboveTopCaption;

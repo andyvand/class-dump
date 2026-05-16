@@ -634,7 +634,7 @@ struct jet_program;
 struct jet_texture;
 
 struct map<std::string, std::shared_ptr<jet_buffer_pool>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<jet_buffer_pool>>>> {
-    struct __tree<std::__value_type<std::string, std::shared_ptr<jet_buffer_pool>>, std::__map_value_compare<std::string, std::__value_type<std::string, std::shared_ptr<jet_buffer_pool>>, std::less<std::string>>, std::allocator<std::__value_type<std::string, std::shared_ptr<jet_buffer_pool>>>> {
+    struct __tree<std::__value_type<std::string, std::shared_ptr<jet_buffer_pool>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<jet_buffer_pool>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<jet_buffer_pool>>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -642,7 +642,7 @@ struct map<std::string, std::shared_ptr<jet_buffer_pool>, std::less<std::string>
 };
 
 struct map<unsigned int, double, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double>>> {
-    struct __tree<std::__value_type<unsigned int, double>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, double>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, double>>> {
+    struct __tree<std::__value_type<unsigned int, double>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, double>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, double>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -650,7 +650,7 @@ struct map<unsigned int, double, std::less<unsigned int>, std::allocator<std::pa
 };
 
 struct map<unsigned short, SKSpriteNode *, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, SKSpriteNode *>>> {
-    struct __tree<std::__value_type<unsigned short, SKSpriteNode *>, std::__map_value_compare<unsigned short, std::__value_type<unsigned short, SKSpriteNode *>, std::less<unsigned short>>, std::allocator<std::__value_type<unsigned short, SKSpriteNode *>>> {
+    struct __tree<std::__value_type<unsigned short, SKSpriteNode *>, std::__map_value_compare<unsigned short, std::pair<const unsigned short, SKSpriteNode *>, std::less<unsigned short>>, std::allocator<std::pair<const unsigned short, SKSpriteNode *>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -658,7 +658,7 @@ struct map<unsigned short, SKSpriteNode *, std::less<unsigned short>, std::alloc
 };
 
 struct map<unsigned short, double, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, double>>> {
-    struct __tree<std::__value_type<unsigned short, double>, std::__map_value_compare<unsigned short, std::__value_type<unsigned short, double>, std::less<unsigned short>>, std::allocator<std::__value_type<unsigned short, double>>> {
+    struct __tree<std::__value_type<unsigned short, double>, std::__map_value_compare<unsigned short, std::pair<const unsigned short, double>, std::less<unsigned short>>, std::allocator<std::pair<const unsigned short, double>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -710,7 +710,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 };
 
 struct unordered_map<std::string, SKTexture *, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, SKTexture *>>> {
-    struct __hash_table<std::__hash_value_type<std::string, SKTexture *>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, SKTexture *>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, SKTexture *>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, SKTexture *>>> {
+    struct __hash_table<std::__hash_value_type<std::string, SKTexture *>, std::__unordered_map_hasher<std::string, std::pair<const std::string, SKTexture *>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, SKTexture *>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, SKTexture *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *>*> {
@@ -741,6 +741,13 @@ struct vector<float __attribute__((ext_vector_type(2))), std::allocator<float __
 };
 
 #pragma mark Typedef'd Structures
+
+typedef struct {
+    unsigned long long _field1;
+    id *_field2;
+    unsigned long long *_field3;
+    unsigned long long _field4[5];
+} CDStruct_70511ce9;
 
 typedef struct {
     unsigned long long __size_;

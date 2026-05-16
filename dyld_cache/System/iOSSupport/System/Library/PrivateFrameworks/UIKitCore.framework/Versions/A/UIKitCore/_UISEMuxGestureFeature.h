@@ -19,13 +19,12 @@ __attribute__((visibility("hidden")))
     unsigned long long _recognizes;
 }
 
-- (void);
-- (id)ÔÁs! AùÇ°1¢!0@ù
-× ;
-- (void)ficationFilter:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)R;
 - (id);
-- (void)kþSÿ3;
+- (void)led:(const struct _UISEGestureFeatureSample *)arg1;
+- (id)umerateTextAttachmentsUsingBlock:(id)arg1;
+- (void)he update;
+- (id)_dispatch_semaphoreC;
+- (void)nteractionKey;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

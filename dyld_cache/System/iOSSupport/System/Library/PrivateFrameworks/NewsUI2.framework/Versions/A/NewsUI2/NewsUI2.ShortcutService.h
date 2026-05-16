@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)èü°	"_°g;
 
 @end
 

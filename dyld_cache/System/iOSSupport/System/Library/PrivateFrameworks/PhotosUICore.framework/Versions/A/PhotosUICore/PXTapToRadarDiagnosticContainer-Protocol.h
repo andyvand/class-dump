@@ -5,6 +5,5 @@
 //
 
 @protocol PXTapToRadarDiagnosticContainer
-- (void);
 @end
 

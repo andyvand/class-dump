@@ -18,10 +18,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool);
-- (unsigned long long)\Ý;
+- (unsigned long long);
+- (void)lic}@Failed to create validation options for unarchiving with digest:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ÖO@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long linkLayerType; // @synthesize linkLayerType=_linkLayerType;

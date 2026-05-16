@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
-- (id);
 - (struct _NSRange);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;

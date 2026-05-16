@@ -16,33 +16,32 @@
 }
 
 + (id);
-+ (_Bool)rn;
++ (_Bool)erView.m;
 - (void);
-- (unsigned long long)&;
-- (_Bool);
 - (id);
 - (id);
-- (void)ÑÂÐ1¢!0@ù
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (id)ù±]ð1Â0@ù
 × ;
-- (id);
-- (void)ñË1¢!0@ù
-× ;
-- (id)ckingDidBegin;
-- (id)ss:(id)arg1;
-- (id)IAutocorrectShadow;
-- (void)ld not establish connection:(id)arg1 %@;
-- (void)¨*ô;
-- (void)ÒÕ0Dd;
-- (void)k;
-- (unsigned long long)rje;
-- (id)Tg;
-- (id)nþi;
-- (id)i;
-- (void)ên;
-- (void)øí ÿ;
-- (void)Zl;
-- (id)tmÿ;
-- (id)d.;
+- (void)errides";
+- (_Bool)edTextHighlightColor;
+- (void);
+- (id)84;
+- (void)+a;
+- (void);
+- (unsigned long long)ÕÁc;
+- (void)(Aÿ;
+- (id)·þ¯u;
+- (id)hÿg;
+- (void)3ÇÿóÁ;
+- (id)´ÿ&`ÚÜ§i;
+- (id)×X;
+- (id)£·m;
+- (void)þ;
+- (void)r;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _mutations;

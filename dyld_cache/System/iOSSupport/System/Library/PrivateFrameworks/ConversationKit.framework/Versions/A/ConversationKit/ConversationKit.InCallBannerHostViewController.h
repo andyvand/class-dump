@@ -25,12 +25,13 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)replay;
+- (void);
+- (void)AAyAJ* y yÞ _Qo_GGSgtGG¦
+ÐGAhAyt yAVyû0¢y7¢yAJG_;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool menuPresented;

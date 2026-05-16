@@ -35,7 +35,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)#;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -44,15 +44,15 @@
 - (void);
 - (id);
 - (void);
+- (struct CGSize);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)ath:smartFieldFactory:dataSource:documentLangaugeProvider:fontAttributesConstructor: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)@a;
-- (struct CGSize)faultTTLForArticleListRecords;
 - (_Bool);
+- (void);
+- (id)ç;;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol IASUnifiedProgressProtocol
-- (void)Tk;
-- (void);
-- (void)onTarget:(NSDictionary *)arg1;
 @end
 

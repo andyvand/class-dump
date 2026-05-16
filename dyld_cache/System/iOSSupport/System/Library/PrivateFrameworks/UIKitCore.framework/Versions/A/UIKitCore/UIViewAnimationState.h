@@ -65,91 +65,92 @@
     struct CAFrameRateRange _preferredFrameRateRange;
 }
 
-+ (void)ourcePath:withSourcePathInUserHome:withTargetPath:withTargetPathInUserHome: /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
-+ (void):(CDUnknownBlockType)arg1 No loading context for url=%@;
 + (void);
-+ (void)0@ù
-× ;
-+ (void)fClass:(id)arg1 forScene:(unsigned long long)arg2 withOptions:(void *)arg3 createIfNecessary: /* Error: Ran out of types for this method. */;
-- (id);
++ (void);
++ (void)rmSpringAnimations:(id)arg1;
++ (void)usSystemSceneComponent;
++ (void)¤0	ÿç+Îhüi;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (void)d5,2;
 - (_Bool);
-- (void);
-- (void):(CDUnknownBlockType)arg1;
-- (void)rrorDomain;
-- (void)rial;
-- (id);
 - (unsigned int);
-- (void)-�;
-- (double);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (void);
-- (_Bool)ÂUº;
 - (void);
-- (_Bool);
+- (void);
 - (_Bool);
-- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void)Î/º;
-- (void)Ô!pð! DùÑÂð1¢!0@ù
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)Â0@ù
+× ;
+- (_Bool)× ;
+- (double)× ;
+- (id);
+- (void)ù±_Ð1Â0@ù
+× ;
+- (void)× ;
+- (void);
+- (_Bool)1Â0@ù
 × ;
 - (void)× ;
-- (id)!@ùÊ°1¢!0@ù
+- (_Bool)
 × ;
-- (void)ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (id)d"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
-- (void)ureTrackingSessionElement>";
-- (_Bool)Column"b1"isGestureHidingPrimaryWithSupplementaryVisible"b1"isForcingOverlayForGesture"b1"overrideSplitBehaviorForRestrictedWidth"b2"allowToggleSidebarButtonWithoutGesture"b1"alwaysHideToggleSidebarButton"b1"allowsTriggeringSidebarKeyCommandAction"b1"wantsHideSidebarDisplayNameForKeyCommand"b1"allowsDimmedSecondaryAsDeepestUnambiguousResponder"b1"ignoresSheetContext"b1"showsSeparators"b1"allowSecondaryOnlyButton"b1"lockedForDelegateCallback"b1"inCollapsingToProposedTopColumnCallback"b1"inExpandingToProposedDisplayModeCallback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
-- (void)16@0:(id)arg1 8;
-- (double)gleFontPanelShown: /* Error: Ran out of types for this method. */;
-- (_Bool)ertedFromCoordinateSpace:toCoordinateSpace: /* Error: Ran out of types for this method. */;
-- (void)eviews:(id)arg1;
-- (void)avBarButton;
-- (double)ayoutContainerViewDidMoveToWindow: /* Error: Ran out of types for this method. */;
-- (_Bool)thFrame:debugName:scene:attached: /* Error: Ran out of types for this method. */;
-- (id)s;
-- (id)_characterStreamingManager;
-- (id)N;
-- (void)kActionItem;
-- (_Bool)er;
-- (_Bool)tInsertionTextAfterSelection: /* Error: Ran out of types for this method. */;
-- (void)¬¯;
-- (_Bool);d;;
-- (int);
-- (_Bool)ØcÔÇÚc8ÔÇ(ÛcXÔÇ8ÜcxÔÇ`ÝcÔÇTÞc¸ÔÇDíc0ÖÇxûcPÖÇþc¨ÖÇìd¼ÖÇpdÜÖÇàdüÖÇì¦d(×Ç|*e´×Ç-eÌ×Ç¨6eð×ÇTneØÇ@àe(ØÇXf ØÇØfÔØÇ\fÙÇæf$ÙÇîfÙÇ©g¨ÙÇ¨ûgÈÙÇ|þgÚÇ8h<ÚÇ|&hXÚÇ¤KhhÚÇhh¬ÚÇ;
-- (void);
-- (void)activatedKeyboard, shouldUpdatePlacement:(id)arg1 %d;
-- (void);
-- (id).system.powersources.timeremaining;
-- (id)uration;
-- (void)llerShowsSecondaryOnlyButton;
-- (void)ntroller:(id)arg1 ].;
-- (void)uttonConfigurationSymbolContentTransition;
-- (void);
-- (_Bool)ics;
-- (void);
-- (struct CAFrameRateRange);
-- (_Bool)lÞzÿñR;
-- (id)8g;
-- (void);
+- (void)rContextDescription"32@"_UIBoundingPath"40d48B56@"BKSAnimationFenceHandle"60{_UIUpdateTiming=QQQ}68@?<v@?{CGSize=dd}d>92;
+- (id)Point=dd}{CGSize=dd}}28@0:(id)arg1 8q16B24;
+- (id)sion>"16;
+- (void)rstResponder:(id)arg1;
+- (int)tion: /* Error: Ran out of types for this method. */;
+- (_Bool)ControlSize:bounds: /* Error: Ran out of types for this method. */;
+- (_Bool)g;
+- (id)ludingCalloutBarAdjustments:(id)arg1;
+- (_Bool)ndIfAppropriate;
+- (_Bool)ExtendedLayout;
+- (_Bool)tionDelegate;
+- (void)nfiguration;
+- (void)bel",&,N,V_unreleasedBanner;
+- (id)rShapePathProviderTV;
+- (_Bool)ì;
+- (_Bool)ng replacement animation;
+- (id)self;
+- (void)rong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (_Bool)¿ÿ;;
+- (void)äðNÿùVÚä5`;
+- (void)hiÐ-oa;
+- (double)sþ
+;
+- (void)³;
+- (double)LKb;
+- (void)A;
+- (struct CAFrameRateRange)Ôd;
+- (void)Ànd;
+- (void)?;
+- (void)ø*f;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _allowsUserInteraction;

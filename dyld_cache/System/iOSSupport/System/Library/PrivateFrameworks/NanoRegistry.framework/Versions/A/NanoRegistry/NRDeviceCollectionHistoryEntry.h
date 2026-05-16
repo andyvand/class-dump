@@ -16,21 +16,21 @@
 }
 
 + (_Bool);
-- (void);
+- (id);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int)eDeviceAssertionMonitor;
+- (void);
+- (id)Ý;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date;

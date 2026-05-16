@@ -21,37 +21,34 @@
     UIView *_superview;
 }
 
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (_Bool)}16@32{UIEdgeInsets=dddd}40;
-- (id)dReceiveServerRedirectForProvisionalLoadForFrame: /* Error: Ran out of types for this method. */;
-- (void)yWhileDecelerating;
-- (_Bool)ItemWithSize:elementKind:containerAnchor: /* Error: Ran out of types for this method. */;
-- (id)wControllerIfNeeded: /* Error: Ran out of types for this method. */;
-- (void)Bar",&,N,V_topBar;
-- (void)ring;
-- (void)lerTargetForPrompt;
-- (void)nal inconsistency:(id)arg1 attempted to enter new reordering session whilst an existing session was active. Collection view:%@ /* Error: Ran out of types for this method. */;
-- (void)ctionView Flow Layout received layout attributes with an empty size. This happens when a reusable view has incorrectly configured constraints, or an incorrect override of -sizeThatFits:(_Bool)arg1 , -systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:, or -preferredLayoutAttributesFittingAttributes:. Ensure that your view generates a valid preferred size.
-Original attributes:%@. Preferred attributes:%@.
-Collection View:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (id)crollEdgeEffectViewInteraction;
-- (void);
 - (id);
 - (long long);
-- (id)ø`;
-- (id)\;
+- (id);
+- (void);
+- (_Bool)htForComponent: /* Error: Ran out of types for this method. */;
+- (_Bool)boardLayoutGuideScrollViewOffset;
+- (void)magePaddingForEdgeMarginInNavBar;
+- (void)trategy;
+- (id)lientUsesManualScrollEdgeAppearanceProgressSPI;
+- (void);
+- (id)ted user activity to restore scene state:type = %@, title = %@, userInfo = %@ /* Error: Ran out of types for this method. */;
+- (void)pTitleInset;
+- (_Bool);
+- (void)forEntity_áJ¾76anchort;
+- (id)H;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsBlurring;

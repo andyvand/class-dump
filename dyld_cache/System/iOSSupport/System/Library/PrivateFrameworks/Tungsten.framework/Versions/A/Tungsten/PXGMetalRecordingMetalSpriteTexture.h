@@ -22,11 +22,13 @@
 - (id);
 - (_Bool);
 - (id);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)1â
+0@ù
+× ;
+- (unsigned long long)activeGroupIndexes;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long height; // @synthesize height=_height;

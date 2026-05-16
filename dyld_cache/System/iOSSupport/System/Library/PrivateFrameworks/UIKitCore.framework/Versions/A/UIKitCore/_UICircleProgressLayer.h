@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     UIColor *_progressBackgroundColor;
 }
 
-+ (_Bool);
++ (_Bool)AnimatedTransitioning>"48@0:(id)arg1 8@"UINavigationController"16q24@"UIViewController"32@"UIViewController"40;
 - (_Bool);
 - (void);
 - (void);
@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (void);
-- (void)orizontalConstraints:(struct CGContext *)arg1;
-- (id)nalEventTimestamp;
-- (id)À;
+- (void);
+- (id);
+- (id);
+- (void)ð0³ÿ/eÔh^;
 
 // Remaining properties
 @property(nonatomic) double progress; // @dynamic progress;

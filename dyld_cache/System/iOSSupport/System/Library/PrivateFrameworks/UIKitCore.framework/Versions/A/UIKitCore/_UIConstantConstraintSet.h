@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)6b;
+- (id)Ô ;
+- (void){];
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

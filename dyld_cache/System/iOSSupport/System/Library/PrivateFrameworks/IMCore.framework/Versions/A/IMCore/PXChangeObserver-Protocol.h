@@ -5,6 +5,6 @@
 //
 
 @protocol PXChangeObserver
-- (void);
+- (void)Reports;
 @end
 

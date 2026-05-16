@@ -14,7 +14,7 @@
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)myl«`áÌ;
+- (id);
 
 @end
 

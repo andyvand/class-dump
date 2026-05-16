@@ -17,17 +17,17 @@
 - (void);
 - (id);
 - (void);
-- (void)completionHandler:(long long)arg1;
-- (double)D:services:finishedWithResult: /* Error: Ran out of types for this method. */;
-- (id)ange:(id)arg1 fromID:toIdentifier:forChat:style:account: /* Error: Ran out of types for this method. */;
-- (double)ordIDsToDeleteWithLimit:error: /* Error: Ran out of types for this method. */;
-- (void)nsitionToCompletedStateForContext:(id)arg1;
-- (void)_className;
-- (double)to move file from %@ to %@ error %@;
+- (void);
+- (double);
 - (id);
 - (double);
-- (void);
-- (void)ITextFormattingViewControllerTextAlignment;
+- (void);
+- (void);
+- (double);
+- (double): /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ypeAdd;
+- (void)À*b;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

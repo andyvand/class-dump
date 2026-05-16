@@ -35,8 +35,8 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (Class);
 - (double);
 - (void);
@@ -44,22 +44,22 @@
 - (double);
 - (unsigned long long);
 - (void);
-- (void)\;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (double);
+- (id);
+- (double);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool)t TSWPListStyle *>>, std::allocator<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_charIndex"Q"_validThroughCharIndex"Q"_styleProvider"@"NSObject<TSWPStyleProvider>"} /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool)ayout.m;
 
 // Remaining properties
 @property(nonatomic) double attachmentAnchorY; // @synthesize attachmentAnchorY=_attachmentAnchorY;

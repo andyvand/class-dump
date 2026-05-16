@@ -17,10 +17,10 @@
     MISSING_TYPE *$__lazy_storage_$_mainStack;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

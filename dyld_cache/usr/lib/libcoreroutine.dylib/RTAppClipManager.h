@@ -17,10 +17,10 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (void)P;
-- (id)te, %@;
+- (void)or;
 
 // Remaining properties
 @property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;

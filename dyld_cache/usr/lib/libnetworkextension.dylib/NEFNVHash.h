@@ -8,8 +8,8 @@
 {
 }
 
-+ (unsigned int)lumesForContainer:(id)arg1 volumes: /* Error: Ran out of types for this method. */;
-+ (unsigned int)umeFreeSpaceForDisk:(const char *)arg1 error: /* Error: Ran out of types for this method. */;
++ (unsigned int);
++ (unsigned int);
 
 @end
 

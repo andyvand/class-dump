@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (id);
-- (void)9ÇHê;
 - (id);
-- (id)PersonActionManager init];
+- (id);
+- (void)yet on the current platform;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

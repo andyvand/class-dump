@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPVolumeController;
-
 @protocol MPVolumeControllerDelegate
-
-@optional
-- (void)24@0:(MPVolumeController *)arg1 8q16;
-- (void)dler:(MPVolumeController *)arg1;
-- (void):(MPVolumeController *)arg1;
-- (void)eFamily:(MPVolumeController *)arg1;
-- (void)egoryIDWithPatternMatching:(MPVolumeController *)arg1;
-- (void)er:(MPVolumeController *)arg1;
-- (void)oding;
-- (void)edWebBrowserBundleIdentifiersForDeviceFamily:(MPVolumeController *)arg1;
-- (void)Format:(MPVolumeController *)arg1;
 @end
 

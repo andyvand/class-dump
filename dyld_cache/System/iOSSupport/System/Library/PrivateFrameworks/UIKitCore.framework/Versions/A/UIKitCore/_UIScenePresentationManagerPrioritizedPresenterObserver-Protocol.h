@@ -5,6 +5,5 @@
 //
 
 @protocol _UIScenePresentationManagerPrioritizedPresenterObserver
-- (void);
 @end
 

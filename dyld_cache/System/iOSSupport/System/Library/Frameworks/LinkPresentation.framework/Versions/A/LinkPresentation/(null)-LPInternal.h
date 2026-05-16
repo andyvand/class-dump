@@ -5,7 +5,7 @@
 //
 
 @interface (null) (LPInternal)
-- (unsigned long long)R	!&*}S)=;
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);

@@ -8,7 +8,7 @@
 {
 }
 
-- (void)taneously;
+- (void);
 
 @end
 

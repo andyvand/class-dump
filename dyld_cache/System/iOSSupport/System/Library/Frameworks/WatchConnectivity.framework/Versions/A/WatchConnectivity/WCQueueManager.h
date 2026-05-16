@@ -38,12 +38,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property _Bool canSend; // @synthesize canSend=_canSend;

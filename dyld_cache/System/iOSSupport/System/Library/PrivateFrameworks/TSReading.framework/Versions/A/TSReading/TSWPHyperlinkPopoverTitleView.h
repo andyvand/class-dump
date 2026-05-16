@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (void)rtProperty;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *titleString; // @synthesize titleString=_titleString;

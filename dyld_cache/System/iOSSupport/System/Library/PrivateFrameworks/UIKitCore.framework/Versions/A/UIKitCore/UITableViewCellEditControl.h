@@ -23,43 +23,43 @@
     UIColor *_accessoryBackgroundColor;
 }
 
-- (_Bool)MPersonCapabilitiesKey;
+- (_Bool);
 - (void);
-- (void)`;
-- (void)!;
 - (void);
-- (void)ntinue syncing;
-- (id)rite:%@ /* Error: Ran out of types for this method. */;
-- (id)a write. Device Conditions suitable to write:%@ /* Error: Ran out of types for this method. */;
-- (id)ate from:%@, with message:%@ /* Error: Ran out of types for this method. */;
-- (id)file for transfer:%@ /* Error: Ran out of types for this method. */;
-- (void)essage:%@, drop rest of the transfer starting from:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void)`;
-- (void);
-- (id);
-- (id);
-- (void)ceObject;
+- (struct CGSize);
 - (id);
 - (void);
-- (void)7&º;
-- (struct CGSize)Ôu°!(AùñÉ°1¢!0@ù
-× ;
-- (_Bool)tAlignmentHunkAtIndex: /* Error: Ran out of types for this method. */;
-- (id)rForKey: /* Error: Ran out of types for this method. */;
-- (id)Zþÿÿÿÿ;
-- (unsigned long long),ê;
-- (id)$;
-- (void);
-- (void);
-- (struct CGSize)ÑÌ^;
-- (void)Û×a;
-- (_Bool)¨âÿfÒÑ"d;
-- (id)ôýÌÔ;
+- (_Bool)rsInAutofillGroup: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ryID;
+- (id)mingWithTitle: /* Error: Ran out of types for this method. */;
+- (void)meOffsets;
+- (id);
+- (void)$n;
+- (id)}´ìà(;
+- (void)on;
+- (void)display:(_Bool)arg1 %@ bundle:%@} hostBundle:%@ posWithIAV:%@ %s%s%s%s%s%@> /* Error: Ran out of types for this method. */;
+- (id)be at least 0.0, or UITableViewAutomaticDimension.;
+- (_Bool)r -TripleColumn;
+- (void)a ;
+- (id);
+- (void)Pªâþé«;
+- (unsigned long long)ìu¼ÿ¿½Ô¬e;
+- (void)Jh;
+- (void)ÌÏh;
+- (id)
+i;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryBackgroundColor; // @synthesize accessoryBackgroundColor=_accessoryBackgroundColor;

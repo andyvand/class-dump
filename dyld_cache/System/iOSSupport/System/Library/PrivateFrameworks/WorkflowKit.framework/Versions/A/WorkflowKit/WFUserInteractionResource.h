@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool)OmniFocusProject} ${OmniFocusFolderName};
++ (_Bool);
 - (void);
 - (void);
 - (void);

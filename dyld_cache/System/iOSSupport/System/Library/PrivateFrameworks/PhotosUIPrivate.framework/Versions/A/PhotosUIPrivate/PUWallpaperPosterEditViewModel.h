@@ -149,11 +149,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -174,17 +174,19 @@
 - (void);
 - (void);
 - (CDStruct_ffe9c43a);
-- (struct CGRect);
-- (long long);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (long long);
 - (void);
-- (id)udeAllPhotosSmartAlbum: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)laxLayerStyle"8Q16^B24;
+- (struct CGRect);
+- (void)Ñ#°1â
+0@ù
+× ;
+- (void)ewModel: /* Error: Ran out of types for this method. */;
+- (id)lbar.m;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *activeLayerStackViewModels; // @synthesize activeLayerStackViewModels=_activeLayerStackViewModels;

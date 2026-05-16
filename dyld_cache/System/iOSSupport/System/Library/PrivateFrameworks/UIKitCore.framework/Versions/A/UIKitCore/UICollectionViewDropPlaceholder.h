@@ -11,11 +11,10 @@
     CDUnknownBlockType _previewParametersProvider;
 }
 
-- (void)<;
+- (void);
 - (CDUnknownBlockType);
-- (id);
-- (void)0@ù
-× ;
+- (id)Ìê;
+- (void)PKi;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType previewParametersProvider; // @synthesize previewParametersProvider=_previewParametersProvider;

@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property unsigned long long currentTile; // @synthesize currentTile=_currentTile;

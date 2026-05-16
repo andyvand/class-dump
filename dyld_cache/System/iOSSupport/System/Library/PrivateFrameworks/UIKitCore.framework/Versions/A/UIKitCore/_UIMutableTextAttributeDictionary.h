@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)öñq;
++ (id)°ºq;
+- (id);
 - (void);
-- (id)led locally;
-- (_Bool)_hasBadge;
-- (_Bool)ativeFractionComplete;
-- (id)is not supported in this context.;
-- (id)ceneComponent:(id)arg1 forKey:(id)arg2 ];
+- (id);
+- (id)ut awaiting feedback UI still. Ignoring update.;
+- (_Bool);
+- (_Bool);Ðü;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UITextAttributeDefaults> fallback; // @dynamic fallback;

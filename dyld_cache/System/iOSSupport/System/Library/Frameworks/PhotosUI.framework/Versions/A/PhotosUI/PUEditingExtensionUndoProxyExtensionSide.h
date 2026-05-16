@@ -18,11 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)n;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

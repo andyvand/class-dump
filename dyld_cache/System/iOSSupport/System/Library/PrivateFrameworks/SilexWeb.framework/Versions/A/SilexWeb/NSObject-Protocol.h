@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (struct _NSZone *)TSTCellRange, TSTHidingAction);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,10 +5,5 @@
 //
 
 @protocol NSNetServiceBrowserDelegate
-
-@optional
-- (void)nativeStrings;
-- (void);
-- (void)rcePipeline;
 @end
 

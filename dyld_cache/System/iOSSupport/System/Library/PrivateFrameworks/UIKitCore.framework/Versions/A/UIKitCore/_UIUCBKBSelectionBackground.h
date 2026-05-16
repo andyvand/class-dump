@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool)e;
-- (void);
-- (struct CGSize);
+- (_Bool);
 - (void);
-- (id)ent instance:(struct CGRect)arg1 %@;
+- (struct CGSize);
+- (id)uctivelyResignFirstResponder;
+- (void)®.3GGGGG;
 
 // Remaining properties
 @property(nonatomic) _Bool showButtonShape; // @synthesize showButtonShape=_showButtonShape;

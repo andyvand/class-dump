@@ -22,37 +22,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)`;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGRect);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (_Bool)taryOfKind:(id)arg1 atIndexPath:(id)arg2;
-- (void)chTimerEnabled;
-- (void)city;
-- (void)fier:(float)arg1;
-- (_Bool)Recognizer;
 - (void);
-- (id);
-- (void)data.;
 - (void);
+- (void)0@ù
+× ;
+- (void)°1Â0@ù
+× ;
+- (void);
+- (_Bool)NotificationInfo: /* Error: Ran out of types for this method. */;
+- (void)TargetRect:(struct CGRect)arg1 forced: /* Error: Ran out of types for this method. */;
+- (id)tyStickers;
+- (void)ismissGestureRecognizer;
+- (struct CGRect);;
+- (_Bool)to collapse %@ column into itself. Split view controller:(id)arg1 %@;
+- (void)rollView;
+- (void)¨.3GAFGALGG;
+- (void)";
+- (void)-43¨©zþ43¨©zþ43¨©zþ;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *additionalTrackingViews;

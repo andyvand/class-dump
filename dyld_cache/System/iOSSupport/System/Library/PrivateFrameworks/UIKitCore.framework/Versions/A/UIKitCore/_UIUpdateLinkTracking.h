@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)lableChanged: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 @end
 

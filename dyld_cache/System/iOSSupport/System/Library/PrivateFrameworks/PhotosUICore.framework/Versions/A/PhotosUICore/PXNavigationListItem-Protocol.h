@@ -8,11 +8,14 @@
 @protocol NSCopying><NSObject;
 
 @protocol PXNavigationListItem
-- (NSString *)essoryView;
-- (long long);
-- (NSString *)rrentCurationKind;
-- (_Bool)ÿ8©Fÿ;
-- (NSString *);
+- (NSString *)vironment;
+- (NSString *)gûÿ;
+- (NSString *)èú$ÿ;
+- (NSString *);
+- (PHCollection *)otos.ui.story.didFinishPlaying;
+- (NSURL *)ÙõÇp;
+- (NSString *)Order;
+- (_Bool)rovider;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessibilityIdentifier;

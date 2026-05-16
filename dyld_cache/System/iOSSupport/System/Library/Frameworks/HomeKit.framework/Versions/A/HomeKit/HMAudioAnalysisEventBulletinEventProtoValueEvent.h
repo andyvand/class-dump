@@ -15,20 +15,19 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (void);
+- (id);
+- (void)ÿÿP;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;

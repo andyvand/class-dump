@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)erTarget;
 - (void);
-- (id)edOverride;
 - (void);
 - (id);
+- (id);
+- (void)sBookmarkButton:(id)arg1;
 - (void);
 
 @end

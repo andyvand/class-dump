@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)È¨,©°©;
 
 // Remaining properties
 @property(readonly, nonatomic) HFTimeCondition<HFPrimitiveTimeCondition> *endCondition; // @synthesize endCondition=_endCondition;

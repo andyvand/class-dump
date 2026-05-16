@@ -20,9 +20,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)ÿÓI	#9;
+- (void)ed in is not valid. Either out of range or the wrong type.;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

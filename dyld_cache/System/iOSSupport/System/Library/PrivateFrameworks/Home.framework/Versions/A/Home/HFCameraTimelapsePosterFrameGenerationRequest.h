@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Ä¬;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *clip; // @synthesize clip=_clip;

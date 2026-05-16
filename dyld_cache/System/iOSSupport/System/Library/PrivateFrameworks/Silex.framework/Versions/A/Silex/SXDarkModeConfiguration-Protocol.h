@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol SXDarkModeConfiguration
+- (_Bool)tTangierStorage",R,N,V_storage;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoDarkModeEnabled) _Bool autoDarkModeEnabled;

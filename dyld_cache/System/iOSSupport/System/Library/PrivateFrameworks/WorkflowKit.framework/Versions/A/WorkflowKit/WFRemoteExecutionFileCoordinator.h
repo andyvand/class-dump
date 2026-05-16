@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)Source:withCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *waitingArchivers; // @synthesize waitingArchivers=_waitingArchivers;

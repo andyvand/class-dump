@@ -21,24 +21,27 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void)ingDisabled;
-- (double)ng:linearHeading:isInitial:shouldLoadScrollableContainer:looping:groupFilter:inputType: /* Error: Ran out of types for this method. */;
-- (id)ôþÿ;
-- (void)P;
-- (void)ementSize;
-- (void);
-- (void);
+- (id);
+- (id)°1Â0@ù
+× ;
+- (void)
+× ;
+- (double)±eÐ1Â0@ù
+× ;
+- (void); index path:(CDUnknownBlockType)arg1 %@; cell:%@ /* Error: Ran out of types for this method. */;
+- (void)Pulse Duration;
+- (void)uttonItemC03barbC0_So6UIViewC4viewtG;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, getter=_animator, setter=_setAnimator:) id <UIDragAnimating> animator; // @synthesize animator=_animator;

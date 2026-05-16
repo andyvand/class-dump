@@ -43,19 +43,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
 - (id);
 - (id);
-- (void)Ñ7GAOGAOG;
-- (long long)_Qo_GAJGAJGAJGAJGAByAByÐõ9³â7GAJGAnByAByAByAByAByAEyò9yAByîó7yAByArZG_SSQo_AGG_Qo_GAJGAJGAJGAJGAOGtGGê7yABy°ä7AXyXô7GGGG_Fk:yã7GQo_AByACyADyAByAByAByAByAByAEyADyAH_A5_tGGAJGAJGAJGAJGAOG_A14_AByAByAByAByAByAEyADyAH_A18_tGGAJGAJGAJGAJGAOGtGGA32_GG /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
+- (void);
+- (struct CGRect)!lBù°1B50@ù
+× ;
+- (void)romiseWithResult: /* Error: Ran out of types for this method. */;
+- (void)tWithDelegateAuthenticateRequest:(_Bool)arg1 account:presentingViewController: /* Error: Ran out of types for this method. */;
+- (void)^1y¼NSgG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView, UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void);
+- (UIView *)LayerLinedPaper:(UIScrollView *)arg1;
+- (void)it.PrecisePanGestureRecognizer;
 @end
 

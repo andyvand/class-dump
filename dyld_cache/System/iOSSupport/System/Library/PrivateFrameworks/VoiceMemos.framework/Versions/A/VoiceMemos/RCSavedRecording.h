@@ -19,22 +19,23 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
 - (double);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (long long);
-- (void)@0:8{?=dd}16@32 /* Error: Ran out of types for this method. */;
-- (void)terleaved: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *customLabel;

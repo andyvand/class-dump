@@ -13,8 +13,8 @@
 
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;

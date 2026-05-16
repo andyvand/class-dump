@@ -27,18 +27,18 @@
 
 - (long long);
 - (void);
-- (_Bool)k;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)xo;
 - (void);
 - (void);
 - (void);
-- (void)UnpackResponseMessage;
-- (void)or;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -48,37 +48,38 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)ipList;
 - (void);
 - (void);
-- (void)/e;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
-- (void)eStrokePointBufferOffset;
+- (id);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (struct CGSize);
-- (long long)SpacesForUnitTesting;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void))A;
-- (void);
-- (_Bool)n;
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id)mittedURL;
-- (void);
-- (void);
 - (id);
-- (void)sentationControllerShouldDismiss:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ùñé°1Â0@ù
+× ;
+- (id)ath:atScrollPosition:animated: /* Error: Ran out of types for this method. */;
+- (void)coding of path element with type %d;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEdits; // @synthesize allowsEdits=_allowsEdits;

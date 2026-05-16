@@ -26,7 +26,7 @@
     id _userInfo;
 }
 
-+ (id)ion;
++ (id);
 - (void);
 - (void);
 - (_Bool);
@@ -66,8 +66,13 @@
 - (void);
 - (void);
 - (struct CGSize);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -75,26 +80,21 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)24B28@32q40;
-- (void)osterConfigurationForPosterConfiguration:(id)arg1;
-- (void)CºSgG;
-- (void)expected class %@:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)eServerDomain;
+- (void)J;
 
 // Remaining properties
 @property(readonly, nonatomic) PRPosterConfigurableOptions *configurableOptions; // @dynamic configurableOptions;

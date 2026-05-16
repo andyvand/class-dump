@@ -14,17 +14,16 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (id)0@ù
-× ;
-- (void)ing:(CDUnknownBlockType)arg1;
-- (id)leDistance;
-- (id)iginals;
-- (long long)re39PHLivePhotoViewImageAnalysisInteraction;
+- (id)nvitationToSharedAlbum:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)lt;
+- (id)è)*<*t**Ø*+@+h+¤+è+4,h,¤,Ü,-@-l-¤-Ü-.4.\..Ä.ì./P/x/¨/Ø/0D0|0¤0;
+- (long long)ter;
+- (void)ecentlySharedAssetsActionName;
+- (id);
+- (id)¶Úÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

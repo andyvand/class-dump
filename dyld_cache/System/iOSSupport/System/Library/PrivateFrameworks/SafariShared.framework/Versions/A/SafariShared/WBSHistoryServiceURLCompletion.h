@@ -22,15 +22,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)<;
+- (_Bool);
 - (void);
 - (double);
 - (void);
+- (void);
 - (id);
 - (id);
-- (id)`;
-- (void)!;
 - (id);
+- (id);
+- (id);
+- (void)0¨;
 
 @end
 

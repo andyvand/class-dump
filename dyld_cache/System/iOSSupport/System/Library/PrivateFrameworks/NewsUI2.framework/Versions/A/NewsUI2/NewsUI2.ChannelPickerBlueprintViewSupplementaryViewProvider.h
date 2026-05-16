@@ -9,7 +9,9 @@
 @interface NewsUI2.ChannelPickerBlueprintViewSupplementaryViewProvider
 {
     MISSING_TYPE *delegate;
-    MISSING_TYPE *channelPickerHeaderViewRenderer;
+    MISSING_TYPE *titleViewRenderer;
+    MISSING_TYPE *channelPickerFooterViewRenderer;
+    MISSING_TYPE *pickerType;
 }
 
 @end

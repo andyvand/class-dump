@@ -59,8 +59,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -84,66 +84,65 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id)× ;
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)PhotoOutput"16@"AVCapturePhoto"24@"NSError"32;
+- (void)ckerPickerViewControllerDidLoad;
 - (id);
+- (id)sInteraction:imageAnalysisBarItemPressed: /* Error: Ran out of types for this method. */;
+- (id)eRecognizer: /* Error: Ran out of types for this method. */;
+- (id)artPoint;
+- (id)_currentMinX;
+- (id)hò¨ò;
+- (id)¨w;
 - (void);
-- (_Bool);
+- (void);
+- (void)stanceTexture);
+- (id)est Submitted to MAD:(id)arg1 %@;
+- (void)ancelled request not yet submitted to MAD:(id)arg1 %@;
+- (void)dge.sparkles;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (_Bool)!p@ùNÐ1B0@ù
-× ;
-- (void)@"UIBezierPath"24;
-- (_Bool)ion: /* Error: Ran out of types for this method. */;
-- (_Bool)ithAlphaComponent: /* Error: Ran out of types for this method. */;
-- (void)&,N,V_highlightColor;
-@property(nonatomic) unsigned long long draggedRectEdge; // @synthesize draggedRectEdge=_draggedRectEdge;
-- (id)ontentRect:addTranscript: /* Error: Ran out of types for this method. */;
-- (void)è+ð+;
-- (id)o7UIImageC;
-- (void)eNumber;
-- (void)ent childAtIndex:(id)arg1 ];
-- (void)ÿÿì;
-- (id)lT;
-- (id)8Ì÷ÿ;
+- (void)J
+¨$;
+- (void)9<L;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
@@ -243,6 +242,7 @@ __attribute__((visibility("hidden")))
 // Original attribute string: TB,?,N
 
 @property(retain, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
+@property(nonatomic) unsigned long long draggedRectEdge; // @synthesize draggedRectEdge=_draggedRectEdge;
 @property(readonly, nonatomic, getter=isEditable) _Bool editable;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N,GisEditable
@@ -525,6 +525,10 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIColor",?,&,N
+
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
 
 @property(nonatomic) _Bool useAutomaticEndpointing;
 // Preceding property had unknown attributes: ?

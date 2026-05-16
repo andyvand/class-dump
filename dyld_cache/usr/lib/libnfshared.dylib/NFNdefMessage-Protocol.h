@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol NFNdefMessage
-- (void);
-- (id)0@48;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *records;

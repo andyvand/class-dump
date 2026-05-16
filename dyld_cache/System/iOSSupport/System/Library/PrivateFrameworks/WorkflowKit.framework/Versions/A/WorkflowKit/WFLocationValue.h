@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSString, WFVariableString;
+@class CLPlacemark, CNPostalAddress, NSString, WFVariableString;
 @protocol WFPropertyListObject;
 
 @interface WFLocationValue
@@ -12,10 +12,11 @@
     _Bool _currentLocation;
     NSString *_locationName;
     CLPlacemark *_placemark;
+    CNPostalAddress *_postalAddress;
     WFVariableString *_legacyVariableString;
 }
 
-+ (id);
++ (id)¨;
 - (id);
 - (id);
 - (id);
@@ -25,11 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool)|;
-- (id)errorâ, and âx-cancelâ. (WFXCallbackCustomCallbackEnabled);
-- (id)points, to apply to the text.;
+- (id);
+- (id);
+- (_Bool);
+- (void)EntityContentItem reminderCoercionHandler]_block_invoke;
+- (id)althKitAccessResource;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCurrentLocation) _Bool currentLocation; // @synthesize currentLocation=_currentLocation;
@@ -44,6 +47,7 @@
 @property(readonly, nonatomic) WFVariableString *legacyVariableString; // @synthesize legacyVariableString=_legacyVariableString;
 @property(readonly, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
 @property(readonly, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
+@property(readonly, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
 @property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation;
 @property(readonly) Class superclass;
 

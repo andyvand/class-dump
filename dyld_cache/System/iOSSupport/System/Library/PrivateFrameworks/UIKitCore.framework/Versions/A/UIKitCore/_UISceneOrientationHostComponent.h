@@ -12,18 +12,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (long long);
-- (id)
+- (id);
+- (void)1Â0@ù
 × ;
-- (id)onEffects;
-- (id) ` ,!ä"ð#ì$;
-- (void)l;
-- (void)UI-FullwidthSpace;
-- (void)ideImplementation=%p;
-- (id)_UICollectionLayoutSectionSolver>"16@"_UICollectionLayoutFramesQueryResult"24^B32;
-- (id)s (%lu) must be equal to the number of stored month offsets (%lu).;
+- (id)!FùñcÐ1Â0@ù
+× ;
+- (id);
+- (void),N,V_trailingBarButtonGroups;
+- (id)¼ª°«;
+- (void)Ì½8À;
+- (id)storation(id<UIStateRestoring>, NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long clientInterfaceOrientationLockPreference;

@@ -19,28 +19,28 @@
     CDUnknownBlockType __overrideLabelCenterOffsetYHandler;
 }
 
-- (id)Array"16;
-- (id)16@24d32^@40;
-- (id)nge=QQ}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ate:(id)arg1;
-- (void)downloadTaskWithRequest:(id)arg1;
-- (void)esting;
-- (void)sponse:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)@"NSString",R,C,N,V_buildNumber;
-- (_Bool)rong);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (struct CGAffineTransform);
 - (struct CGPoint);
 - (void);
-- (CDUnknownBlockType)0;
-- (void);
-- (void)Id:(double)arg1;
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)`;
+- (void);
+- (void)DetectionQueryItem;
+- (id);
+- (void)çbÔ3Ðÿqçb 3Ðÿ;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setOverrideLabelCenterOffsetYHandler:) CDUnknownBlockType _overrideLabelCenterOffsetYHandler; // @synthesize _overrideLabelCenterOffsetYHandler=__overrideLabelCenterOffsetYHandler;

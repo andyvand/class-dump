@@ -18,16 +18,16 @@
     struct CGColorSpace *_colorspace;
 }
 
-+ (id)è9ûÿ´ÑL­;;
++ (id)iÊHã;
 - (long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

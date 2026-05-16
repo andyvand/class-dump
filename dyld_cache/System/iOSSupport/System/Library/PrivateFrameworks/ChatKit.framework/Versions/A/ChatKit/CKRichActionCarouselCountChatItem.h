@@ -10,15 +10,14 @@
 {
 }
 
-- (id);
-- (struct CGSize);
-- (id)(q
-;
 - (id);
-- (long long)=;
-- (struct UIEdgeInsets);
+- (struct CGSize);
+- (id);
+- (id);
 - (long long);
 - (id);
+- (struct UIEdgeInsets);
+- (long long)$,%;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets contentInsets;

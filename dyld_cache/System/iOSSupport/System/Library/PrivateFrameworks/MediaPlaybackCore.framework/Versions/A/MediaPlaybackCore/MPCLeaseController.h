@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)DÛ;
+- (id);
+- (void)%p:_generateAggregateNoncatalogEndEventForCursor:- could not find queueItemIdentifier - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _MPCLeaseManager *leaseManager; // @synthesize leaseManager=_leaseManager;

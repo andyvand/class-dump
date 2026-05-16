@@ -20,37 +20,37 @@
 }
 
 - (void);
-- (void)re"28@"ACAccount"36;
-- (void);
-- (id);
-- (void)Criteria:(id)arg1;
-- (void)t as active. Seeing if we need to merge local privacy acknowledgement. account = %{public}@;
-- (_Bool)PrivateFrameworks/iTunesCloud.framework/Contents/MacOS/iTunesCloud;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)Breakout;
-- (void);
 - (void);
 - (void);
 - (void);
-- (void)|�;
-- (id);
+- (void);
 - (id);
-- (id)_G;
-- (void)s;
 - (id);
 - (void);
-- (void)updating library stats [could not find library] databaseID=%{public}s;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)snapshotDeviceAtTime:(id)arg1;
+- (void)[AP] - MPCProcessAudioTap %p - Stopped processing audio queue [MediaServicesWereLost];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

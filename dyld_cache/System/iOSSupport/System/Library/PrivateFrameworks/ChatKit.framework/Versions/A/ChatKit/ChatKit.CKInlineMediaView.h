@@ -19,14 +19,14 @@
 }
 
 - (_Bool);
-- (void)r %@;
-- (_Bool);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void)oÛ;
 
 // Remaining properties
 @property(nonatomic) _Bool isGenerativeAssetAppearance; // @synthesize isGenerativeAssetAppearance;

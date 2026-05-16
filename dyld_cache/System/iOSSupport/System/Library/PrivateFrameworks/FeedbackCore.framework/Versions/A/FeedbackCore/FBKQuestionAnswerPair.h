@@ -14,7 +14,7 @@
     unsigned long long _answerType;
 }
 
-+ (_Bool)bleView:cellForRowAtIndexPath:withItemIdentifier: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -24,12 +24,12 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *answerText; // @synthesize answerText=_answerText;

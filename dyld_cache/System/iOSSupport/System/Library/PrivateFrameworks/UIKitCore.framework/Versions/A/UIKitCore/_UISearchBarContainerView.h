@@ -18,16 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)ItemIDs;
-- (void);
-- (void);
-- (id)Êð1¢!0@ù
+- (id)
 × ;
-- (void);
-- (void)¢¢
-£¸£ü¥h§t¨¬¨;
-- (id)TDúÿ;
-- (void)ô];
+- (void)@"UIPreviewInteractionController"16@"UIViewController"24;
+- (void)or: /* Error: Ran out of types for this method. */;
+- (void)t:(struct CGRect)arg1 turnOnCount: /* Error: Ran out of types for this method. */;
+- (id)insertSegmentWithAttributedTitle:(struct CGRect)arg1 atIndex:animated: /* Error: Ran out of types for this method. */;
+- (void)ectsRect:(struct CGRect)arg1;
+- (void)7GGGAByÙ.3y>Ù.3yØ.3yØ.3yAByq©.3y_ª¡.3y¶;
+- (void)q13ü;
 
 @end
 

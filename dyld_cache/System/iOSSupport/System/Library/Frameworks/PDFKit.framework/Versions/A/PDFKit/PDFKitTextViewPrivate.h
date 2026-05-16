@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     PDFAnnotation *annotation;
 }
 
-- (void)nEditableViews;
+- (void);
 
 @end
 

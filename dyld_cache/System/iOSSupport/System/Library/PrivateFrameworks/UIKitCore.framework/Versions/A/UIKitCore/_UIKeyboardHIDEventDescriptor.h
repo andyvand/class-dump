@@ -13,21 +13,22 @@ __attribute__((visibility("hidden")))
     long long _usage;
 }
 
-+ (id)due to excessive recipient count:(struct __IOHIDEvent *)arg1 %llu maxRecipients:%llu /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)ndingAirDate;
-- (id)ñÅð1¢!0@ù
+- (long long)0@ù
 × ;
-- (id)ngsideHandlers:(id)arg1;
-- (id)SimultaneousRecognitionDuringLift;
-- (id)iguration;
-- (id)llDynamicAnimators;
-- (id)¨¦úÿñ'ê3;
-- (void){_UIListMetricsShadowMetrics=dd{CGPoint=dd}}40@0:(id)arg1 8q16q24@32;
-- (long long);
-- (long long)ÿO­×«`;
+- (void)!Ü@ùQc°1Â0@ù
+× ;
+- (id);
+- (_Bool)teClientResponseDelegatesWithDelegate:(id)arg1;
+- (long long)elState;
+- (id)eleteItems;
+- (id)isPerformingLowLatencyPhases,V_performingLowLatencyPhases;
 
 // Remaining properties
 @property(readonly, nonatomic) long long usage; // @synthesize usage=_usage;

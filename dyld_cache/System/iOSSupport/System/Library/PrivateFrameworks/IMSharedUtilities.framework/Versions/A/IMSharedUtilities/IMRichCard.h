@@ -24,15 +24,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tionDialPhone;
+- (void)for untracked request %{public}s %@;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *cardDescription;

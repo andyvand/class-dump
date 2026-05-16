@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGRect)@;
-- (struct CGRect)@ (%@);
-- (void);
-- (id);
+- (struct CGRect);
+- (struct CGRect);
 - (void);
-- (id)angeAdjustmentViewContainer;
-- (id)luminanceAdjustment;
+- (id);
+- (id);
+- (id)erShouldUpdateNotification;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect availableBounds; // @synthesize availableBounds=_availableBounds;

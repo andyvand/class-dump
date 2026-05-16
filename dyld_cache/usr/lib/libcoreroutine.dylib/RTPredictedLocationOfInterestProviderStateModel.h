@@ -19,27 +19,27 @@
     long long _encryptedDataAvailability;
 }
 
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (long long)A;
+- (void);
 - (_Bool);
 - (void);
-- (id)_removeStateModelForArchive:error: /* Error: Ran out of types for this method. */;
-- (void)}@;
-- (id)(in %s:(id)arg1 %d);
-- (void).3f;
-- (void)fully looped through biome events phone & messages.;
-- (void)low power mode state, %@, fetchError %@;
-- (_Bool)public}@,startDateWithoutBoundsCheck,%{public}@,startDateForFetchInterval,%{public}@,fetchInterval,%{public}@,endDate,%{public}@,endDateForFetchInterval,%{public}@;
+- (id);
+- (_Bool);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void),%{public}d,isLOIAndZDRLocSameBasedOnUUID,%{public}d,loiUUID,%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;

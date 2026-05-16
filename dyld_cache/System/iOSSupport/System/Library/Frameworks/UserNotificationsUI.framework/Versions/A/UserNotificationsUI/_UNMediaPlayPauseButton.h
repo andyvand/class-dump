@@ -33,14 +33,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (long long);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) MTMaterialView *backgroundCircle; // @synthesize backgroundCircle=_backgroundCircle;

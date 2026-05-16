@@ -14,10 +14,10 @@
     MISSING_TYPE *isSelected;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)XIÿÿ;
 
 @end
 

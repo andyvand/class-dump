@@ -65,17 +65,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void)ccessibilityTitle;
-- (void);
-- (void);
-- (id)HPLµ4;
+- (void)}@ Present Confirmation Dialog;
+- (void)tCopyState;
+- (void)<;
+- (id)ø3;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *alphaOverride; // @synthesize alphaOverride=_alphaOverride;

@@ -14,21 +14,20 @@
     UIImageView *_imageView;
 }
 
-- (id)ion];
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)CodingConfiguration;
-- (void)@;
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (double);
-- (id)
-× ;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)Recognizer;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *colorA; // @synthesize colorA=_colorA;

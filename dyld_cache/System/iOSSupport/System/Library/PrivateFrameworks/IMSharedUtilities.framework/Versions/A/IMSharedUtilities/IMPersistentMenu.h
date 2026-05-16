@@ -15,19 +15,19 @@
 
 + (id);
 + (id);
-+ (_Bool);
 + (id);
-- (id);
-- (id);
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
-- (id)?;
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)tItems;
-- (long long)Èdz;
+- (void)to determine the underlying error.;
+- (long long)E;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *displayText;

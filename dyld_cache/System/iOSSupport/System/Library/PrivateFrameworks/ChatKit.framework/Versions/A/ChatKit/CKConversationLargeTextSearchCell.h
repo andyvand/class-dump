@@ -14,14 +14,14 @@
     struct UIEdgeInsets marginInsets;
 }
 
-+ (id)!ɚ;
-- (void)GIegynr_;
-- (struct UIEdgeInsets)**;
-- (_Bool)16;
++ (id);
+- (void);
+- (struct UIEdgeInsets);
+- (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)0;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

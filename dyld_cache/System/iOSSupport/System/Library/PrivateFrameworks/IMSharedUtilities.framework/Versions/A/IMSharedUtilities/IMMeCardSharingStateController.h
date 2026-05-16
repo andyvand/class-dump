@@ -8,8 +8,8 @@
 {
 }
 
-+ (id)ëªfÿ²;
-- (_Bool);
++ (id)s not satisfied.;
+- (_Bool);
 - (void);
 - (void);
 - (void);

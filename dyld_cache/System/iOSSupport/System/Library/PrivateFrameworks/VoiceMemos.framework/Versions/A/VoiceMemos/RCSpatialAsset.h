@@ -25,11 +25,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)ù
-× ;
-- (id)wsCloudEncryptionAttributes:(id)arg1;
+- (id);
+- (void);
+- (id)vice prepareToPreviewCompositionAVURL:(id)arg1 accessRequestHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAsset *asset; // @synthesize asset=_asset;

@@ -35,7 +35,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)edString"8@?0;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *addButtonItem;

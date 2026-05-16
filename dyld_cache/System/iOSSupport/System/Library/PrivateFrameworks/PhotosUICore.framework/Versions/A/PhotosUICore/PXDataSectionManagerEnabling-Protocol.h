@@ -7,7 +7,6 @@
 @class PXDataSectionEnablementForwarder;
 
 @protocol PXDataSectionManagerEnabling
-- (_Bool)@ahÿÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

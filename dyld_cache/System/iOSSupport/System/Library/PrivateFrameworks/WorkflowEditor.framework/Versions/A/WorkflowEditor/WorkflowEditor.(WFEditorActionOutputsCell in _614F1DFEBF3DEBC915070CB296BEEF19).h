@@ -13,9 +13,9 @@
     MISSING_TYPE *outputViews;
 }
 
-- (void);
 - (id);
 - (void);
+- (void)4°;
 
 @end
 

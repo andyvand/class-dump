@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)roadcast and reflection.;
+- (void);
 - (id);
-- (void)D;
-- (id)datePersistentSceneSessionMap(void);
-- (_Bool)t;
-- (long long);
+- (void);
+- (_Bool);
+- (id)PropagationEnabled,V_visibilityPropagationEnabled;
+- (long long)¾»ÿæßÒj;
 
 @end
 

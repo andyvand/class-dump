@@ -21,15 +21,15 @@
     id <NSURLSessionDataDelegate> _delegate;
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
-+ (id)z;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id);
 + (void);
-+ (void)c|l;
++ (void);
 + (void);
 + (void);
 + (void);
@@ -39,21 +39,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)y;
 - (unsigned long long);
-- (id)z;
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void)`;
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 

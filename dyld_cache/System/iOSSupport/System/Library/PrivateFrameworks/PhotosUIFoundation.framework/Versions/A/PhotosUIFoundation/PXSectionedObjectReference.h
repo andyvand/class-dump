@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (struct PXSimpleIndexPath);
 - (_Bool);
 - (id);
-- (struct PXSimpleIndexPath);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct PXSimpleIndexPath indexPath; // @synthesize indexPath=_indexPath;

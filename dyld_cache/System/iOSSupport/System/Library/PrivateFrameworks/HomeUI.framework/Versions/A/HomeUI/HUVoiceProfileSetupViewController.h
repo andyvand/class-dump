@@ -43,14 +43,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)1b0@ù
-× ;
-- (void)2;
+- (void);
+- (id);
+- (void);
+- (void)illDisappear];
 
 // Remaining properties
 @property(retain, nonatomic) NSString *buttonOneText; // @synthesize buttonOneText=_buttonOneText;

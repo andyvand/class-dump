@@ -96,21 +96,22 @@
 - (id);
 - (struct CGRect);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)²Ï;
-- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)me:(id)arg1 timeRange: /* Error: Ran out of types for this method. */;
-- (void)sCustomUserAssets: /* Error: Ran out of types for this method. */;
-- (void)±]ÿÿÿÿÿÈ;
-- (_Bool)Ð;
-- (id)s];
-- (void)ÿ]5l¤&ÿ;
+- (id)0@ù
+× ;
+- (void)wnGestureRecognizer;
+- (id)fidentialWarningRequiredForAssetReferences:(id)arg1;
+- (id)llection;
+- (void)nLocalIdentifierWithNegativeFeedback:(id)arg1 ];
+- (void)ultDataSection initWithOutlineObject:(id)arg1 ];
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder;

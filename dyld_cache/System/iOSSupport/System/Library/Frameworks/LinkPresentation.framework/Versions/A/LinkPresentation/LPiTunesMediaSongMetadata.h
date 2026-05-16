@@ -24,7 +24,7 @@
 }
 
 + (id);
-+ (_Bool)text;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -48,24 +48,23 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id)sCommon19RoutingInfoProvider;
-- (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)a	Ð!ìEùµ1¢!0@ù
-× ;
-- (id)et",&,N,V_arAsset;
+- (id);
+- (void);
+- (void);
+- (id)Ý;
 - (id);
 
 // Remaining properties

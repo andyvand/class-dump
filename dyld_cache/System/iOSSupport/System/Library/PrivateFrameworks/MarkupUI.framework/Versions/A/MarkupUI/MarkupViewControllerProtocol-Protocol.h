@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSArray, NSString, UINavigationBar, UIView, UIViewController, UTType;
+@class AKController, NSString, UINavigationBar, UIView, UIViewController, UTType;
 @protocol MUContentViewControllerProtocol;
 
 @protocol MarkupViewControllerProtocol
-+ (NSArray *)P;
-- (void);
-- (void);
-- (_Bool)/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
-- (void)P;
-- (void)ilViewHolderConstraints;
 
 // Remaining properties
 @property(nonatomic) _Bool allEditingDisabled;

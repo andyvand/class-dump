@@ -18,19 +18,18 @@
 
 - (void);
 - (double);
-- (void)f;
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void)!8EùQÂÐ1¢!0@ù
-× ;
-- (void)Size=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}56^{CGContext=}88@96;
-- (void)pdateButtonWithIdentifier:(id)arg1 keyEquivalent: /* Error: Ran out of types for this method. */;
-- (void)dContentViewControllerContainer: /* Error: Ran out of types for this method. */;
-- (void)edMovement;
-- (void)fect;
-- (void);
-- (id)uÜþZgÎDa;
+- (id)Handler;
+- (void)0´;
+- (void)ØÐg;
+- (void)Ä;
+- (void)­Ô´}e;
+- (void)4q?ÿ;
+- (void)´×>_k;
+- (void)Et¡;
+- (void)hÿ>ã;
 
 // Remaining properties
 @property(nonatomic) double maximumIntervalBetweenPresses; // @synthesize maximumIntervalBetweenPresses=_maximumIntervalBetweenPresses;

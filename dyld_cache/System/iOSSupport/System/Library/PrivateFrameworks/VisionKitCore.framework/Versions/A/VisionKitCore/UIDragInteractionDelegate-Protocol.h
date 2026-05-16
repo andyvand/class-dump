@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction;
-@protocol UIDragSession;
-
 @protocol UIDragInteractionDelegate
 
 @optional
-- (id <UIDragSession>)0@ù
-× ;
-- (void)!EùQN1B0@ù
-× ;
-- (_Bool)etResultHandler:(UIDragInteraction *)arg1;
+- (_Bool)a non-0 groupingLevel undoManager;
 @end
 

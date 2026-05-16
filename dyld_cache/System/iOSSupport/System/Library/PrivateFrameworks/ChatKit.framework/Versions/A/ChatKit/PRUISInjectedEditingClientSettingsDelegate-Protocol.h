@@ -5,8 +5,5 @@
 //
 
 @protocol PRUISInjectedEditingClientSettingsDelegate
-
-@optional
-- (void)ntroller;
 @end
 

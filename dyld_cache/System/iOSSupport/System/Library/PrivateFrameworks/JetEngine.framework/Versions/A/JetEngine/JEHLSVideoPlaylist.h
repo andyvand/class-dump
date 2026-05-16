@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id)C;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,8 +30,8 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)raphMetricsRule;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,8 +13,8 @@
 + (Class);
 - (void);
 - (id);
-- (void);
-- (id)_TtC5UIKit18_UISoftOutlineView;
+- (id)BarStringView;
+- (void)gestionOptions;
 
 @end
 

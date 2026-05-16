@@ -35,11 +35,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)ent"16;
+- (id);
+- (void)@Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

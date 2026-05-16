@@ -5,7 +5,6 @@
 //
 
 @protocol LPCodable
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _canEncodeWithoutComputation;

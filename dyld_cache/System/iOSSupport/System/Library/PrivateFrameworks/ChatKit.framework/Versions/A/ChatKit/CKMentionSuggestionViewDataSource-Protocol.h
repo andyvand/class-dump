@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntity, NSIndexPath;
-
 @protocol CKMentionSuggestionViewDataSource
-- (NSIndexPath *)0EmÕ;
-- (CKEntity *);
-- (unsigned long long)datesUserRecordIfNeeded;
 @end
 

@@ -23,27 +23,27 @@
 
 + (id);
 + (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void)arting work on operation queue;
 
 // Remaining properties
 @property(readonly, nonatomic) BSAuditToken *auditToken; // @synthesize auditToken=_auditToken;

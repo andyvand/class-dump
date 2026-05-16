@@ -54,22 +54,22 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (struct CGSize);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (struct CGSize);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
-- (struct CGSize);
-- (id);
 - (void);
-- (void);
-- (id);
 - (_Bool);
-- (_Bool)_PUIStylePickerHomeScreenVariantPickerWrapperView",&,N,V_variantPickerWrapperView;
+- (_Bool);
+- (void)T{CGRect={CGPoint=dd}{CGSize=dd}},R,N;
+- (void)ed no error.;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView<PUIStylePickerMicaAssetControlling> *assetView; // @synthesize assetView=_assetView;

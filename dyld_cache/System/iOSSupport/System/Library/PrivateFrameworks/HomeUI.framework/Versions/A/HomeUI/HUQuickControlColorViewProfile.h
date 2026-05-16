@@ -24,12 +24,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
 - (id);
+- (void)sFooterLink;
 
 // Remaining properties
 @property(retain, nonatomic) id <HFColorProfile> colorProfile; // @synthesize colorProfile=_colorProfile;

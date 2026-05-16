@@ -57,7 +57,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) AegirCloudCoverService *cloudsService; // @synthesize cloudsService=_cloudsService;

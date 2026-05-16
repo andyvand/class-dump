@@ -15,17 +15,17 @@
     NSSet *_responseSecondaryRecipientIdentifiers;
 }
 
-- (id)Password:(long long)arg1 shouldRememberPassword:outRequestID:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)dsFilteredUsingPredicate:(id)arg1 sortedUsingLastMessageDateAscending:olderThan:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)singPredicate:(id)arg1 sortedUsingDescriptors:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)nPreferenceWithReply:(_Bool)arg1;
-- (id)mID: /* Error: Ran out of types for this method. */;
-- (_Bool)shCacheForRemoteURI:fromURI:guid: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (void)án!;
-- (id)affordance;
-- (id)ct={CGPoint=dd}{CGSize=dd}}24;
+- (id);
+- (id);
+- (void)5 ê;
 
 // Remaining properties
 @property(nonatomic) _Bool responseHasCustomSignature; // @synthesize responseHasCustomSignature=_responseHasCustomSignature;

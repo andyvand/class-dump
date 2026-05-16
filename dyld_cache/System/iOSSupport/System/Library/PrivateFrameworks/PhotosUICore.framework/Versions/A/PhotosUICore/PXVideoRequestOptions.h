@@ -45,28 +45,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (void);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (void)­Ö0e;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (long long);
 - (id);
 - (void);
-- (void)v!ØGùñz1b0@ù
-× ;
-- (void)8@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionCommitAnimating>"32;
-- (long long)ionController:] /* Error: Ran out of types for this method. */;
-- (CDStruct_e83c9415)w;
+- (long long);
 - (struct CGSize);
-- (void)Ìv;
 - (void);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (CDStruct_e83c9415)o import.;
+- (void)alking On Sunshine;
+- (void)MapStyle case found for usesImagery;
 - (CDUnknownBlockType);
+- (_Bool)ôÌ3;
+- (void)4;
 
 // Remaining properties
 @property(nonatomic, getter=isMediumHighQualityAllowed) _Bool allowMediumHighQuality; // @synthesize allowMediumHighQuality=_allowMediumHighQuality;

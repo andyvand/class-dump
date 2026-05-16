@@ -27,6 +27,7 @@ __attribute__((visibility("hidden")))
     int _appSpecificBackgroundContrastSetting;
     int _appSpecificDarkenSystemColorsSetting;
     int _appSpecificEnhanceTextLegibilitySetting;
+    int _appSpecificReduceHighlightingEffectsSetting;
     _Bool _usesInsets;
     _Bool _lightKeyboard;
     _Bool _colorAdaptiveBackground;
@@ -35,28 +36,31 @@ __attribute__((visibility("hidden")))
     _Bool _differentDisplayStrings;
 }
 
-+ (id)L;
 + (id);
++ (id);
+- (id);
 - (void);
+- (CDStruct_227bb23d);
 - (void);
 - (id);
 - (id);
+- (void);
 - (int);
-- (id)illsToLibrary;
-- (void)r %{public}@ and no creation metadata was provided;
-- (int);
-- (void)â|¬;
-- (void)!XEùñÁÐ1¢!0@ù
+- (void);
+- (id);
+- (void)× ;
+- (void);
+- (struct CGSize)0@ù
 × ;
+- (void)4@32;
 - (void);
-- (CDStruct_227bb23d)@0:8 /* Error: Ran out of types for this method. */;
-- (id)ontainerView:(CDUnknownBlockType)arg1;
-- (struct CGSize)hStateBasedAnimations;
-- (void)oller;
-- (_Bool)¸J;
-- (void);
-- (id)iAnalyticsDispatcher] Menu Dismiss. source:(id)arg1 %lu. old:(CDStruct_227bb23d)arg2 %@;
-- (void)zË`;
+- (int)sponder warning:'<%@>' rejected resignFirstResponder when being removed from hierarchy /* Error: Ran out of types for this method. */;
+- (id)nding -%@ to %@
+	âº trait changes:(id)arg1 %@
+	âº current:(CDStruct_227bb23d)arg2 %@
+	âº new:(id)arg3 %@;
+- (_Bool)tH`;
+- (void)tèÿååÓàDg;
 
 @end
 

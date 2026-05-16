@@ -30,8 +30,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)gLocationButtonDescription;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

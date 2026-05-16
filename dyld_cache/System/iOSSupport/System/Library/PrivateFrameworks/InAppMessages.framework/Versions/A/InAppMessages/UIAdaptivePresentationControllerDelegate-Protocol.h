@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (void)â
+0@ù
+× ;
 @end
 

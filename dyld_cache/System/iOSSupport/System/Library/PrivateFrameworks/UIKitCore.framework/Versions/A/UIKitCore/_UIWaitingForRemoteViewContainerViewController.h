@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)?;
 - (id);
-- (void);
-- (void)ôöèöì÷
-¤ø;
-- (_Bool);
+- (id);
+- (_Bool)0@ù
+× ;
+- (void)ViewHeaderFooterB0CÜÉ;
+- (void)ø];
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *loadingSpinner; // @synthesize loadingSpinner=_loadingSpinner;

@@ -14,14 +14,13 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_animationFrames;
 }
 
-- (void)nseMapTexture:(CDUnknownBlockType)arg1 tileBuffer:tileCountBuffer:tileCount:thresholdsBuffer:cumulativePointsBuffer:keypointLocationsBuffer:keypointResponsesBuffer:desiredKeypointsBuffer:indexBuffer: /* Error: Ran out of types for this method. */;
-- (void)points;
-- (void)f %llu at itemOffset %llu with byteLength %u has signature %{public}s;
-- (void)@;
+- (id);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (_Bool)è;
+- (void);
+- (void)ontext:(id)arg1 offsetForSessionRange:withProofreadingController: /* Error: Ran out of types for this method. */;
+- (void)acy;
+- (_Bool)´;
+- (void)rC_yt¢¯;
 
 @end
 

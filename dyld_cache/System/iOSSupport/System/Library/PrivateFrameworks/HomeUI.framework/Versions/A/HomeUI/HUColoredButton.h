@@ -20,13 +20,11 @@
 - (double);
 - (_Bool);
 - (void);
-- (double);
 - (void);
-- (void)0@ù
-× ;
-- (id)!°Fùñ/ð1b0@ù
-× ;
+- (id);
 - (void);
+- (double)y;
+- (void)OnboardingFlow;
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundColorFollowsTintColor; // @synthesize backgroundColorFollowsTintColor=_backgroundColorFollowsTintColor;

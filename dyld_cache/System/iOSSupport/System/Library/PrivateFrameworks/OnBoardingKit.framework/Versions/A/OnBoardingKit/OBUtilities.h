@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)ation;
-+ (id)bCore:(id)arg1:FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslatorAdapter<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 
 @end
 

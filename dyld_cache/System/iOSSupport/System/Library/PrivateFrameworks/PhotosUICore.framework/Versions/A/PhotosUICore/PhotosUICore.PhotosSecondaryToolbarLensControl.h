@@ -16,12 +16,12 @@
 
 - (void);
 - (void);
-- (void);
+- (struct CGSize);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)$Ü­VÿB;
-- (struct CGSize)±úh0gÿ±úh¸!2ÿ;
+- (void)CGRect;
 
 @end
 

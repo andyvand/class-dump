@@ -17,12 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <STKMSStickerViewDelegate> delegate; // @synthesize delegate=_delegate;

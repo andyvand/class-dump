@@ -18,7 +18,7 @@
     struct CGSize _maximumSize;
 }
 
-+ (_Bool)aybackControls:,V_disablePlaybackControls /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -28,14 +28,15 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
+- (id);
 - (double);
-- (id);
+- (struct CGSize);
 - (void);
 - (struct CGSize);
-- (id);
-- (struct CGSize);
-- (id);
+- (void)
+× ;
+- (id)stalAddress",C,N,V_directionsDestinationAddressComponents;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;

@@ -16,9 +16,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)edSearch;
+- (void)rm-urlencoded; charset=UTF-8;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

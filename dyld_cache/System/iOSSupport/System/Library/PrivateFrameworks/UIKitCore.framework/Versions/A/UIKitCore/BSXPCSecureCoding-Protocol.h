@@ -5,7 +5,8 @@
 //
 
 @protocol BSXPCSecureCoding
-+ (_Bool);
-- (id)ting customRenderController.contentsScale â%{public}.0fâ with traitCollection.displayScale â%{public}.0fâ from %{public}s;
++ (_Bool)shotting a window (%p, %@) requires it to be in a foreground scene.;
+- (id);
+- (void)izeFactor;
 @end
 

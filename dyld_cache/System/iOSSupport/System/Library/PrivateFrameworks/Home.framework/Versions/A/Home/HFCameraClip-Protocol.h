@@ -7,8 +7,7 @@
 @class NSDate;
 
 @protocol HFCameraClip
-- (double)pshotEventWithPreviousError: /* Error: Ran out of types for this method. */;
-- (long long)e: /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly) double duration;

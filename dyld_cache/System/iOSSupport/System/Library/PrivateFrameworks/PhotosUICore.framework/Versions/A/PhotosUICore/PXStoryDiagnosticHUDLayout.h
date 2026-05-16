@@ -49,16 +49,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)eToDataSourceIdentifier;
-- (void)peManager",&,N,V_persistableRecipeManager;
-- (void)pe:(id)arg1;
-- (id)stment.m;
-- (void)À;
+- (void);
+- (id)"16@"AVPlayerItem"24;
+- (id)t=þÿ;
+- (void)XCollectionFetchOperation.m;
+- (void)FiltersActionPerformer;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *HUDText; // @synthesize HUDText=_HUDText;

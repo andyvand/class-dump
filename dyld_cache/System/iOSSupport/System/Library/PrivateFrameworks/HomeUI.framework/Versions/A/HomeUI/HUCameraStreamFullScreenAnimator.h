@@ -15,8 +15,8 @@
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
 - (double);
+- (void)nsitiveStrings-SiriEndpoints-UserFriendlyNameDerived;
 
 // Remaining properties
 @property(readonly, nonatomic) HUGridCameraCell *sourceCameraCell; // @synthesize sourceCameraCell=_sourceCameraCell;

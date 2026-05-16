@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)do not expect file to already exist. Clearing it.;
-- (void)ource file URLs for asset:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (void);
 - (void);
-- (void)±Â1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void)è¿2$h;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

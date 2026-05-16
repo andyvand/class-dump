@@ -22,10 +22,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)onForItems:withAnimation: /* Error: Ran out of types for this method. */;
-- (void)initWithServiceItem:(id)arg1 inHome:displayingDetails: /* Error: Ran out of types for this method. */;
-- (void)ú*;
+- (void)imationFactory;
+- (void)ingError_Title_AccountNotFound;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

@@ -27,15 +27,15 @@
     NSString *_cachedSizeCategory;
 }
 
-+ (id)edicate;
-+ (id);
 + (id);
 + (id);
 + (id);
-+ (id)WindowServerHitTestWindow:(id)arg1 event:(_Bool)arg2;
-+ (id)t;
 + (id);
-+ (_Bool);
++ (id);
++ (id)× ;
++ (id)edsUpdateLayerIfNeeded;
++ (_Bool)epeat Cadence;
++ (id)b#;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *automaticHardwareLayout;

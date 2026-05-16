@@ -23,21 +23,19 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (double);
 - (void);
-- (void)ù
-× ;
-- (id)!ÌGù±%°1b0@ù
-× ;
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id)etModalPresentationStyle: /* Error: Ran out of types for this method. */;
+- (id),V_style;
 
 // Remaining properties
 @property(retain, nonatomic) id asset; // @synthesize asset=_asset;

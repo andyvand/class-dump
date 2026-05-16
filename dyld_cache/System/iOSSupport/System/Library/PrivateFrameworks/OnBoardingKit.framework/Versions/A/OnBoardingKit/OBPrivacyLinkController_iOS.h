@@ -18,14 +18,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id)equired;
-- (id)der_SetVertexBuffer;
-- (void);
+- (id);
 - (void);
 - (id);
+- (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) UIImageView *iconView;

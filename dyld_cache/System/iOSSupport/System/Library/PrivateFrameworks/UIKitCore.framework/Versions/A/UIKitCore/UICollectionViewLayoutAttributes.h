@@ -40,13 +40,13 @@
     struct UIEdgeInsets _defaultLayoutMargins;
 }
 
-+ (id)%@, %@;
-+ (id)ñ;
-+ (id)figuration:(id)arg1;
-- (void)ary/PrivateFrameworks/FamilyCircle.framework/FamilyCircle;
++ (id);
++ (id)entLightened;
++ (id)NotificationAlertView"8;
+- (void);
 - (_Bool);
-- (long long)ion not configured for replicated messages;
-- (id)d an empty noticeURL, unable to map to chatGUIDs.;
+- (long long);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -59,8 +59,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (long long);
+- (id);
+- (long long);
 - (_Bool);
 - (struct CGRect);
 - (double);
@@ -71,9 +71,9 @@
 - (id);
 - (struct UIEdgeInsets);
 - (id);
-- (void)4x!;
 - (void);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -84,39 +84,41 @@
 - (id);
 - (id);
 - (_Bool);
-- (struct CATransform3D);
-- (struct CGRect);
 - (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (void);
 - (struct CGAffineTransform);
-- (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void)bindJSONConvertible:(unsigned long long)arg1 toParameterNamed:error: /* Error: Ran out of types for this method. */;
-- (double)ng *getITLibMediaItemPropertyComments();
-- (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long)0@ù
+- (struct CGSize)
 × ;
-- (id)tainerEnvironment;
-- (double)editingAccessoryShouldAppearForCell: /* Error: Ran out of types for this method. */;
-- (_Bool)abledValue:maxEnabledUsed:maxEnabledValue: /* Error: Ran out of types for this method. */;
-- (void)nerLeadingPinConstraint;
-- (struct CGSize)ratedContentSequenceViewToFit;
-- (id)ion;
-- (void)Hidden;
-- (void)arButtonItemViewOwner>",W,N,S_setViewOwner:(long long)arg1 ,V__viewOwner;
-- (id)ctivator;
-- (void)äí;
-- (void)rchResults;
-- (void)ody;
-- (void)~^;
-- (unsigned long long);
-- (struct CGPoint)Ym;
-- (void)Ú¹ìm;
+- (id)ÑeÐ1Â0@ù
+× ;
+- (struct CGPoint);
+- (void)sForAddingToSession"b1"sessionPropertiesForSession"b1"operationForAcceptingIntoAction"b1"acceptItemsIntoAction"b1"willBeginDisplayingTab"b1"didEndDisplayingTab"b1"operationForInsertingIntoGroup"b1"insertIntoGroup"b1};
+- (void)ayPreferences"b1"prefersOverlayInRegularWidthPhone"b1};
+- (struct CGRect)ckingAnnotationRemovalRange;
+- (double): /* Error: Ran out of types for this method. */;
+- (struct CATransform3D)onAnimation;
+- (_Bool)ct:(id)arg1 afterScreenUpdates: /* Error: Ran out of types for this method. */;
+- (struct CGRect)r;
+- (_Bool)erformPresentViewControllerFromViewController: /* Error: Ran out of types for this method. */;
+- (void)pshotEndFrame;
+- (void)MutableArray",&,N,S_setAlongsideCompletions:(_Bool)arg1 ,V__alongsideCompletions;
+- (long long)ler;
+- (id)`ü;
+- (unsigned long long)Ú
+8ÛxÛ;
+- (void)ôI;
+- (void)hP;
+- (void)kStatus updated:(struct CGRect)arg1 scene:%@; pointerLockStatus:%@ /* Error: Ran out of types for this method. */;
+- (void)Q;
+- (void)ingToneWhite;
+- (double)-Ñ@[;
+- (id)/;
+- (void)j3;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICollectionLayoutListAttributes *_existingListAttributes;

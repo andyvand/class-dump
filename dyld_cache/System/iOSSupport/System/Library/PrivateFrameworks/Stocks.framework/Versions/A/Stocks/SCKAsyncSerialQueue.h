@@ -11,14 +11,14 @@
     NSOperationQueue *_serialOperationQueue;
 }
 
-- (void)A;
-- (void)o;
-- (void);
-- (id);
 - (id);
-- (_Bool);
+- (id);
 - (void);
-- (void)mberFromString:(_Bool)arg1;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *serialOperationQueue; // @synthesize serialOperationQueue=_serialOperationQueue;

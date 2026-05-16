@@ -12,13 +12,13 @@
     MISSING_TYPE *contentSize;
 }
 
-- (long long);
-- (struct CGSize);
-- (void);
-- (id)licitContentDidChangeNotification: /* Error: Ran out of types for this method. */;
-- (double)P;
-- (double)ionForId:(id)arg1;
 - (id);
+- (struct CGSize);
+- (double);
+- (double);
+- (long long);
+- (void);
+- (id)apple.com;
 
 @end
 

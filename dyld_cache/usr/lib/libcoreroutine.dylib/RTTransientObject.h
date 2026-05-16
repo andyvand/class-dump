@@ -19,33 +19,34 @@
     double _lastForwardedMessageTimeInterval;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void)nt;
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)tificateAuthorityPublicKeyHash:] failed /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (double);
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (void)laceType;
-- (void)pSegmentWithUUID:handler:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (CDUnknownBlockType)Ôa(!XCù1C,°1Â0@ù
+× ;
+- (void)ctWithEntityDescription:predicate:context:error: /* Error: Ran out of types for this method. */;
+- (id)heReleasedViaScheduledSend;
+- (void)e}@;
+- (void)ervalSinceMessage, %f, didInteract, %@;
+- (void)satisfying:(id)arg1 softDistanceThreshold > 0;
 
 // Remaining properties
 @property(retain, nonatomic) id backingObject; // @synthesize backingObject=_backingObject;

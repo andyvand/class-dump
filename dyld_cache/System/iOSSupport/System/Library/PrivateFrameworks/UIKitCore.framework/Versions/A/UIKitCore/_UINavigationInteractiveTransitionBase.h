@@ -44,85 +44,82 @@
     double _startingVelocity;
 }
 
-- (id);
-- (unsigned long long);
-- (id);
+- (void);
 - (_Bool);
-- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (double);
 - (double);
 - (_Bool);
 - (void);
+- (double);
+- (void);
 - (void);
 - (double);
-- (void);
-- (_Bool);
-- (void)B;
-- (void)rmDictionaries;
-- (void)_;
-- (void)r;
-- (double)t ratio. Preview image dimensions:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)oveItem:%{public}@ fromSection:%{public}@ afterItem:%{public}@ inSection:%{public}@ | moving [user moved] /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
+- (void);
+- (double);
+- (double);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void)A!¤Fù±ZÐ1Â0@ù
+× ;
+- (id)0@ù
+× ;
 - (void);
-- (double);
-- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (double)Ô ;
-- (_Bool);
+- (_Bool)× ;
+- (void)0@ù
+× ;
 - (void)0@ù
 × ;
-- (_Bool)!Aù±È1¢!0@ù
+- (double)1Â0@ù
 × ;
-- (void)1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)BùÊ1¢!0@ù
-× ;
-- (void)
-× ;
-- (long long)1Ì°1¢!0@ù
-× ;
+- (id)rData";
+- (_Bool)bContainerView"16;
+- (_Bool)des: /* Error: Ran out of types for this method. */;
+- (double)ForState:traitCollection: /* Error: Ran out of types for this method. */;
+- (double)sedTopSpacing;
+- (id)sectionSnapshotHandlers;
+- (_Bool)osition;
+- (void)_makeDraggingPanGestureRecognizer;
+- (_Bool)dingConstraint;
+- (void)ightDidChange;
+- (id)@"NSObject<WebOpenPanelResultListener>",&,N,V_resultListener;
+- (void);
+- (_Bool)H´h;
+- (_Bool)ëÿ(b­þwþÿ;
+- (id);
 - (_Bool);
-- (_Bool)0@ù
-× ;
-- (void)w";
-- (void)aceIdiom:(double)arg1 userInterfaceStyle: /* Error: Ran out of types for this method. */;
-- (_Bool)tLeft:splitRight:keyplane: /* Error: Ran out of types for this method. */;
-- (double)ceOverlay;
-- (id)en:traverseHierarchy: /* Error: Ran out of types for this method. */;
-- (_Bool)tentFont;
-- (void)Scene:(id)arg1 inUIScene:fromTransitionContext: /* Error: Ran out of types for this method. */;
-- (void)mSuperview:(_Bool)arg1 toSuperview: /* Error: Ran out of types for this method. */;
-- (double)icalSpacing;
-- (_Bool)customizeWithAvailableItems:(id)arg1;
-- (void)InteractiveUpdateHandler:(unsigned long long)arg1;
-- (void)quiringContentMargin;
-- (double)_UIKeyboardChangedInformation",&,N,V_currentClientState;
-- (id)imatableProperty",R,N,V_targetPosition;
-- (void)eSided:(_Bool)arg1;
-- (double);
-- (double)VisualizationDebug;
-- (_Bool)in unexpected and insidious behavior.;
-- (void);
-- (void);
-- (id)erContainer>"8@"NSMutableSet"16;
+- (id)ve resize.;
+- (_Bool)xtContainerView.m;
+- (double)24;
 - (id);
-- (void)oller:(id)arg1 %@; presenting view controller:%@ /* Error: Ran out of types for this method. */;
-- (id)letion handler was never called.;
-- (_Bool)e;
-- (void)ºd[;
 - (void);
-- (_Bool)íÁ_;
-- (void)'´];
-- (double)ÿY×&ó];
-- (void)»G^;
-- (id)³;
+- (void)alHelper;
+- (id);
+- (unsigned long long);
+- (void)r^;
+- (void)ÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setCompletesTransitionOnEnd:) _Bool _completesTransitionOnEnd; // @synthesize _completesTransitionOnEnd=__completesTransitionOnEnd;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PHPickerShareAlbumSheetConfiguration;
+@class NSData, NSString, _PHPickerShareAlbumSheetConfiguration;
 
 @interface PHPickerUpdateConfiguration
 {
@@ -13,6 +13,8 @@
     _Bool __didSetMinimumSelectionLimit;
     _Bool __didSetPrompt;
     _Bool __didSetTitle;
+    _Bool __didSetSearchText;
+    _Bool __didSetDecoratedQueryData;
     _Bool __didSetPrimaryButtonType;
     _Bool __didSetSecondaryButtonType;
     _Bool __didSetSharedAlbumSheetConfiguration;
@@ -22,12 +24,16 @@
     long long _minimumSelectionLimit;
     NSString *_prompt;
     NSString *_title;
+    NSString *__searchText;
+    NSData *__decoratedQueryData;
     long long __primaryButtonType;
     long long __secondaryButtonType;
 }
 
 + (_Bool);
 - (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
@@ -44,33 +50,43 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
 - (void);
 - (long long);
+- (id);
 - (void);
 - (long long);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
+@property(copy, nonatomic) NSData *_decoratedQueryData; // @synthesize _decoratedQueryData=__decoratedQueryData;
+@property(readonly, nonatomic) _Bool _didSetDecoratedQueryData; // @synthesize _didSetDecoratedQueryData=__didSetDecoratedQueryData;
 @property(readonly, nonatomic) _Bool _didSetEdgesWithoutContentMargins; // @synthesize _didSetEdgesWithoutContentMargins=__didSetEdgesWithoutContentMargins;
 @property(readonly, nonatomic) _Bool _didSetMinimumSelectionLimit; // @synthesize _didSetMinimumSelectionLimit=__didSetMinimumSelectionLimit;
 @property(readonly, nonatomic) _Bool _didSetPrimaryButtonType; // @synthesize _didSetPrimaryButtonType=__didSetPrimaryButtonType;
 @property(readonly, nonatomic) _Bool _didSetPrompt; // @synthesize _didSetPrompt=__didSetPrompt;
+@property(readonly, nonatomic) _Bool _didSetSearchText; // @synthesize _didSetSearchText=__didSetSearchText;
 @property(readonly, nonatomic) _Bool _didSetSecondaryButtonType; // @synthesize _didSetSecondaryButtonType=__didSetSecondaryButtonType;
 @property(readonly, nonatomic) _Bool _didSetSelectionLimit; // @synthesize _didSetSelectionLimit=__didSetSelectionLimit;
 @property(readonly, nonatomic) _Bool _didSetSharedAlbumSheetConfiguration; // @synthesize _didSetSharedAlbumSheetConfiguration=__didSetSharedAlbumSheetConfiguration;
 @property(readonly, nonatomic) _Bool _didSetTitle; // @synthesize _didSetTitle=__didSetTitle;
 @property(readonly, nonatomic) _Bool _isValidConfiguration;
 @property(nonatomic, setter=_setPrimaryButtonType:) long long _primaryButtonType; // @synthesize _primaryButtonType=__primaryButtonType;
+@property(copy, nonatomic) NSString *_searchText; // @synthesize _searchText=__searchText;
 @property(nonatomic, setter=_setSecondaryButtonType:) long long _secondaryButtonType; // @synthesize _secondaryButtonType=__secondaryButtonType;
 @property(copy, nonatomic, setter=_setSharedAlbumSheetConfiguration:) _PHPickerShareAlbumSheetConfiguration *_sharedAlbumSheetConfiguration; // @synthesize _sharedAlbumSheetConfiguration=__sharedAlbumSheetConfiguration;
 @property(nonatomic) unsigned long long edgesWithoutContentMargins; // @synthesize edgesWithoutContentMargins=_edgesWithoutContentMargins;

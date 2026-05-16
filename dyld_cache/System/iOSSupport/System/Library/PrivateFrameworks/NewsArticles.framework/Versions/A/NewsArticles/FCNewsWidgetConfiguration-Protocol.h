@@ -7,18 +7,16 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
-- (NSString *)identifier;
 
 @optional
-- (_Bool);
-- (long long)adline;
+- (long long)7ýÿ0pýÿ;
+- (long long)øÿ;
 - (long long);
-- (long long)brand bar display due to exceeded max display count or recent prior display;
-- (long long)ContentsBlueprintViewSupplementaryViewProvider;
-- (double)being offline.;
-- (long long)Unô¿õÿUnð¿õÿ;
-- (long long)¹ÙnÈ];
-- (long long)cleBlueprintViewCellProviderDelegate;
+- (long long)gXw;
+- (long long)tionQuotaSatisfier:Found replacements %{public}@ /* Error: Ran out of types for this method. */;
+- (long long)ngInfoCenter:Encountered an error fetching artwork %{public}@ /* Error: Ran out of types for this method. */;
+- (long long)ÿÿÿ0;
+- (long long)ester;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

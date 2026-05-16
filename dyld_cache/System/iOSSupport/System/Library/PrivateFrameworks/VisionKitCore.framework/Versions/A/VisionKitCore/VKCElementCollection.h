@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)lementData;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_children; // @synthesize _children=__children;

@@ -22,16 +22,14 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id)P;
-- (void)~;
 - (id);
 - (id);
 - (id);
-- (id)x;
 - (id);
-- (id)
-àLÀ
-;
+- (id);
+- (id);
+- (id)_identifier;
+- (void)d;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;

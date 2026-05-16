@@ -16,6 +16,7 @@
     MISSING_TYPE *resizeGroupIdentifier;
     MISSING_TYPE *config;
     MISSING_TYPE *blocks;
+    MISSING_TYPE *assetHandleFactory;
     MISSING_TYPE *itemIdentifier;
     MISSING_TYPE *boundItem;
     MISSING_TYPE *bindingStack;
@@ -24,6 +25,7 @@
     MISSING_TYPE *selectors;
     MISSING_TYPE *boundStateMachines;
     MISSING_TYPE *lazyContextLayoutOptions;
+    MISSING_TYPE *commandCenter;
 }
 
 @end

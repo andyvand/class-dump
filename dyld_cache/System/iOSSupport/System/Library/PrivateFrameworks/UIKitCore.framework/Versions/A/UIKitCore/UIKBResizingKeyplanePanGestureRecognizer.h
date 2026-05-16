@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id <UIKBResizingKeyplanePanGestureRecognizerDelegate> _resizingDelegate;
 }
 
-- (void)stingChatWithGroupID:(id)arg1 onService: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)ord, success %@ error %@;
 - (void);
+- (id);
+- (_Bool);
+- (void)h+ÍdÂf;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIKBResizingKeyplanePanGestureRecognizerDelegate> resizingDelegate; // @synthesize resizingDelegate=_resizingDelegate;

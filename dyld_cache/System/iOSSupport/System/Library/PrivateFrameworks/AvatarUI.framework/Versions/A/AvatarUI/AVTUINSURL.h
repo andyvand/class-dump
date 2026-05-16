@@ -8,7 +8,7 @@
 {
 }
 
-- (unsigned long long)A;
+- (unsigned long long);
 
 @end
 

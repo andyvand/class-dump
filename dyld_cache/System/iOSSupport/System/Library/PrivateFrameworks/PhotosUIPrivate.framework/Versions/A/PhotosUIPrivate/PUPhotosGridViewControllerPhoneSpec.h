@@ -20,7 +20,7 @@
 - (_Bool);
 - (struct CGSize);
 - (unsigned short);
-- (unsigned long long),N,V_looksButton;
+- (unsigned long long)ntainer:photoLibrary: /* Error: Ran out of types for this method. */;
 
 @end
 

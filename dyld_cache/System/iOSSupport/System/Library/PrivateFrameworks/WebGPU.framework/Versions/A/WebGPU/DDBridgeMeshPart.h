@@ -8,10 +8,10 @@
 
 @interface DDBridgeMeshPart
 {
-    unsigned long long indexOffset;
-    unsigned long long indexCount;
+    long long indexOffset;
+    long long indexCount;
     unsigned long long topology;
-    unsigned long long materialIndex;
+    long long materialIndex;
     MISSING_TYPE *boundsMin;
     MISSING_TYPE *boundsMax;
 }
@@ -19,18 +19,18 @@
 - (id);
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
+- (long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (long long);
+- (long long);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) MISSING_TYPE *boundsMax; // @synthesize boundsMax;
 @property(nonatomic, readonly) MISSING_TYPE *boundsMin; // @synthesize boundsMin;
-@property(nonatomic, readonly) unsigned long long indexCount; // @synthesize indexCount;
-@property(nonatomic, readonly) unsigned long long indexOffset; // @synthesize indexOffset;
-@property(nonatomic, readonly) unsigned long long materialIndex; // @synthesize materialIndex;
+@property(nonatomic, readonly) long long indexCount; // @synthesize indexCount;
+@property(nonatomic, readonly) long long indexOffset; // @synthesize indexOffset;
+@property(nonatomic, readonly) long long materialIndex; // @synthesize materialIndex;
 @property(nonatomic, readonly) unsigned long long topology; // @synthesize topology;
 
 @end

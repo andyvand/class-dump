@@ -14,9 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)Ôu!(Dù1Éð1¢!0@ù
-× ;
-- (id)q,N,S_setIndexOfLastUndimmedDetentWhenEdgeAttachedInCompactHeight: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Xóþq;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

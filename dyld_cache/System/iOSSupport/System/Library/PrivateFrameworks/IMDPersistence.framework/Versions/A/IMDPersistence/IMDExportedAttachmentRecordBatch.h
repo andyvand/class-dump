@@ -6,23 +6,26 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class NSArray;
+@class NSArray, NSDictionary;
 
 @interface IMDExportedAttachmentRecordBatch : IMDExportedRecordBatch
 {
+    void batchIterationKeys;
     void records;
 }
 
-+ (_Bool)t create legacy CoreSDB connection;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)dInks;
-- (id);
+- (void)ng attachment, finding messageRowID for attachment rowID %d;
 
 // Remaining properties
+@property(nonatomic, readonly) NSDictionary *batchIterationKeys;
 @property(nonatomic, readonly) NSArray *records;
 
 @end

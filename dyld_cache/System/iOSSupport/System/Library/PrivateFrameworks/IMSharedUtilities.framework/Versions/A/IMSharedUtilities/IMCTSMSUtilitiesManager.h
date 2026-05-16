@@ -23,14 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)P;
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (int);
 - (int);
 - (double);
@@ -43,20 +43,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
 - (id);
 - (id);
 - (id);
-- (int);
-- (_Bool);
 - (id);
 - (int);
+- (id);
+- (int);
+- (_Bool);
 - (id);
 
 // Remaining properties

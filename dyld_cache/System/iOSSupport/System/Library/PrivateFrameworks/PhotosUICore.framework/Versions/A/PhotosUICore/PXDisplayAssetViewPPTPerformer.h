@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Èo;
-- (id)ums;
-- (id)BasicInteractiveTransition;
+- (id);
+- (void);
+- (id)­nË9;
+- (id)ìÉÎÿéL¡4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<PXAnonymousView> *containerView; // @synthesize containerView=_containerView;

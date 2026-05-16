@@ -5,7 +5,7 @@
 //
 
 @protocol _UIStatusBarPrioritized
-- (long long)0º;
+- (long long)T-;
 
 // Remaining properties
 @property(readonly, nonatomic) long long priority;

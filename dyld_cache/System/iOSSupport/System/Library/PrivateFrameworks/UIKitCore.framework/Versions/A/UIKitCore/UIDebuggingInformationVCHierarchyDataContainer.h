@@ -15,10 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void):(id)arg1 willBeginAtLocation: /* Error: Ran out of types for this method. */;
-- (void)ngDecorationMarginAppliesPerSection;
-- (id)úd;
-- (long long)^o;
+- (void)
+× ;
+- (id)erEffectP;
+- (void)«Çÿ4Æ;
+- (long long)ÿð;
 
 // Remaining properties
 @property(nonatomic) long long level; // @synthesize level=_level;

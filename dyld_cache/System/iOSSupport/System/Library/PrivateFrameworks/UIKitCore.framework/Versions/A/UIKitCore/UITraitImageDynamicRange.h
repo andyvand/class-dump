@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)updateForMainHostWindowDidChangeNotification: /* Error: Ran out of types for this method. */;
-+ (id)¾;
-+ (long long)øÂØþ;
++ (id);
++ (id)ication should use the smoother single-stage animation.;
++ (long long)ÅÇËú¹g;
 
 @end
 

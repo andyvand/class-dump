@@ -9,28 +9,33 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)áJ°!tFùqS1¢!0@ù
-× ;
-- (void);
-- (void){__CTFont=}16;
-- (void)LParticleSystem>"120@0:(long long)arg1 8{CGSize=dd}16{CGSize=dd}32{CGSize=dd}48{CGSize=dd}64d80Q88@"<TSDAnimationRandomGenerator>"96@"TSDMetalShader"104@"TSDMetalContext"112;
-- (void)Selection:(long long)arg1 isVisual: /* Error: Ran out of types for this method. */;
-- (NSString *)dHideCanvasLayer;
-- (void)e:(long long)arg1 undoTransaction: /* Error: Ran out of types for this method. */;
-- (long long)eImageNamed:inBundle: /* Error: Ran out of types for this method. */;
-- (void)Color;
-- (long long)dRep;
-- (void)_shouldReverseStrokeDrawing;
-- (long long)ranslationYInitialValue;
-- (long long)torage: /* Error: Ran out of types for this method. */;
-- (long long)nCoalesce: /* Error: Ran out of types for this method. */;
-- (long long),¢7;
-- (long long)bleStyleNetwork.mm;
-- (void)to transaction.;
-- (void)f preserveAspectRatio components! (%zu);
-- (long long)y/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDGPUVoronoiTriangleData.mm;
-- (void)h;
-- (long long)neRSquaredParagraphStyleIndexProperty;
+- (long long)"TSDInteractiveCanvasController"16@"<TSDGesture>"24;
+- (long long)ldChangeTextInRanges:replacementText: /* Error: Ran out of types for this method. */;
+- (NSString *)houldAllowReplacementFromDrop;
+- (void)actersToBeSkipped:(long long)arg1;
+- (void)Block:(long long)arg1;
+- (long long)llRanges;
+- (void)entRoot:(long long)arg1;
+- (long long)entSize;
+- (long long)nteractiveCanvasController: /* Error: Ran out of types for this method. */;
+- (long long)ntInset;
+- (long long)ssedByButtonBlock: /* Error: Ran out of types for this method. */;
+- (long long)al;
+- (void)kerManipulatorCoordinator;
+- (void)$\lè;
+- (void);
+- (void)ellDoubleValue(TSTCell *);
+- (long long)a footnote storage;
+- (long long)m;
+- (void)RenderTarget.m;
+- (void)rtOpacity:(NSString *)arg1 ];
+- (void)DBezierPathAdditions.mm;
+- (void)velEdgesProperty;
+- (long long)ize;
+- (long long)utRow::endNestedRow() /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool)à$;
+- (void)<;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSArray *_tileArtworkVisualIdenticalityIdentifiers;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)?;
+- (void)ility;
 
 // Remaining properties
 @property(copy, nonatomic) id <NSCopying> revisionIdentifier; // @synthesize revisionIdentifier=_revisionIdentifier;

@@ -7,7 +7,7 @@
 @protocol WFPropertyListObject;
 
 @protocol WFVariableSerialization
-- (id <WFPropertyListObject>)captio://edit?note=[[note]] /* Error: Ran out of types for this method. */;
+- (id <WFPropertyListObject>)°Öÿu×X(ÿu×Xÿ×X@×ÿ5×XP×ÿ=×XÈÿ×Xüÿe×X×ÿõÖXÿõÖX×ÿ=×Xäÿu×X¸ÿE×Xÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation;

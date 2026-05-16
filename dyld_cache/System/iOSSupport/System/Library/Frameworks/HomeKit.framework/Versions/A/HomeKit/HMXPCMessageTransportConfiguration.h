@@ -15,26 +15,25 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)Tðà`È3;
++ (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
 - (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)Q¨1b0@ù
-× ;
-- (id)1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1},R,N,V_capabilities;
-- (id)lient did not accept share but no error specified.;
+- (unsigned long long);
+- (id);
+- (void)ssoryInfoDataProvider;
+- (void)tsAccessCodeCodingKey;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

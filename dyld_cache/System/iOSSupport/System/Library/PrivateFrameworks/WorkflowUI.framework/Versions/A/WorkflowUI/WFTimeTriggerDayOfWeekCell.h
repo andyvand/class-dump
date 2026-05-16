@@ -24,11 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)MenuDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;

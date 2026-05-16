@@ -7,6 +7,7 @@
 @class UIColor;
 
 @protocol PKPaletteColorPicker
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long colorUserInterfaceStyle;

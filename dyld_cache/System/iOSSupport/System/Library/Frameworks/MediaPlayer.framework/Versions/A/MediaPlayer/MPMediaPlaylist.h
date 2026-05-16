@@ -14,10 +14,10 @@
     MPMediaQuery *_seedTracksQuery;
 }
 
-+ (_Bool):(id)arg1;
-+ (_Bool)cEntity;
++ (_Bool);
++ (_Bool);
 + (void);
-+ (_Bool)ing video URLCache memory capacity to 0.;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -29,28 +29,28 @@
 - (id);
 - (id);
 - (id);
-- (id)76;
-- (id)16@24Q32;
-- (id)pThread"b1"isJunk"b1"isKnownSender"b1"isNew"b1"isPinned"b1"isRead"b1"isTwoFactorCode"b1};
-- (id)BMBookmarkablePublisher"40@0:8@"BMAccount"16@"BMDevice"24@"NSString"32 /* Error: Ran out of types for this method. */;
-- (void)@16;
-- (void):(id)arg1 8@16^@24;
-- (_Bool)ShortVersionString;
-- (id)tedImageRepresentation;
-- (void)Digest;
-- (id)ULL;
-- (unsigned long long)fer:fromCKRecord: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (void)s;
+- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long)__;
-- (id)Liked;
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)_itemDidEnd;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authorDisplayName;

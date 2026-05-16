@@ -18,16 +18,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnion_c6a188fc);
-- (void)ToCNIDMap;
+- (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (id)DRW(YZ,[1`]];
-- (void)r;
-- (id)z;
-- (void)tableSet"16;
-- (void)%@  on %@ which is already presenting %@;
-- (id)ionalLayoutAlertForInvalidLayout(UICollectionViewCompositionalLayout *const __strong, NSInteger, _UICollectionLayoutContainer *const __strong, _UIContentInsetsEnvironment *const __strong, NSString *const __strong, BOOL);
+- (id);
+- (void)0@ù
+× ;
+- (void)c1Â0@ù
+× ;
+- (id);
+- (id)ðZ	[è[D\ \;
+- (void)4bìc$dÜe,gLh0ik;
+- (void)ÑÅ03X*¸þÑÅ03ä*¸þÙÅ03à*¸þ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

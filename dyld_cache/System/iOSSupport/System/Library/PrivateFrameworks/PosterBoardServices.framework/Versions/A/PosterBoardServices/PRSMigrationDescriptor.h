@@ -32,15 +32,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

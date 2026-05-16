@@ -33,18 +33,19 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ontHeightCache sharedCache];
+- (void);
 - (id);
 - (long long);
-- (void);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -52,16 +53,16 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool)sSubscription23AlacartePaywallRenderer;
-- (void);
-- (void);
+- (id)¡î°!tDùñþÐ1Â0@ù
+× ;
 - (_Bool);
-- (id);
+- (void)|;
+- (_Bool);
+- (void)ntage;
+- (_Bool)on;
+- (id);
 - (void);
-- (_Bool)i=üÿ;
-- (id)TextFieldC;
-- (id);
-- (id)Q'ºà=;
+- (id);Ì+ÿþ%;à+ÿþ;
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContainerType;

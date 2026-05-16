@@ -15,9 +15,9 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)Pü°	½*_h;
 
 @end
 

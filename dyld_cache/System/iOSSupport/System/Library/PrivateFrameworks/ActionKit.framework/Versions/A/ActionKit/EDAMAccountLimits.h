@@ -53,7 +53,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)rackNumber;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *noteResourceCountMax; // @synthesize noteResourceCountMax=_noteResourceCountMax;

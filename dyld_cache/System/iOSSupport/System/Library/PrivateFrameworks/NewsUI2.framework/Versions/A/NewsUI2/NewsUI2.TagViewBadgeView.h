@@ -11,10 +11,10 @@
     MISSING_TYPE *color;
 }
 
-- (void);
+- (id);
 - (id);
 - (void);
-- (id)privacyTravelDistance;
+- (void);
 
 @end
 

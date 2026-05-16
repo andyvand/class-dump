@@ -47,8 +47,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (struct CGSize);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -57,24 +57,23 @@
 - (void);
 - (double);
 - (void);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (id)!ðEùÑ/ð1b0@ù
-× ;
-- (long long);
-- (struct CGSize)background check for software updates:(struct CGSize)arg1 %@;
-- (void)ooterText;
+- (long long)ple;
+- (void)äw;
+- (void)ì|;
+- (void)e;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsAddImage; // @synthesize allowsAddImage=_allowsAddImage;

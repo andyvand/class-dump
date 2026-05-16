@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id);
++ (id)l,;
 - (void);
 - (void);
 - (id);
@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)%s;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories; // @synthesize accessories=_accessories;

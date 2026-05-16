@@ -38,20 +38,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
+- (long long);
 - (void);
-- (long long)with error:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)tchRect;
+- (void)Gö-Sy¨(SGGAAyAAyAAyAKf'SGh&SGANGGGALyz,SGGGB&SG,SySbGGA1_ySaySo8NSObjectCGGG;
 
 // Remaining properties
 @property(nonatomic, setter=_setAlignment:) long long _alignment; // @synthesize _alignment=__alignment;

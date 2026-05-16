@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (Class);
-- (id);
+- (id)Tapped BACK button;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

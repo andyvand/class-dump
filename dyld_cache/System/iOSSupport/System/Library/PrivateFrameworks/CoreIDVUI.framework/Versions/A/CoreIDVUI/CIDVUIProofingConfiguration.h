@@ -52,18 +52,18 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (id);
+- (long long);
 - (void);
 
 // Remaining properties

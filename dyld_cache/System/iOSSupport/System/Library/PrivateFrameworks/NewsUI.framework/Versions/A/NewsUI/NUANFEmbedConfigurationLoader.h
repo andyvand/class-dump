@@ -17,15 +17,15 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)@;
-- (id);
+- (id)ViewController;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;

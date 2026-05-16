@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -24,13 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)�b;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)setOfPosition:withinRange: /* Error: Ran out of types for this method. */;
 
 @end
 

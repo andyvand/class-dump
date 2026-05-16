@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)ntItemUserInfo;
+- (void)â° siri-wha-metrics:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

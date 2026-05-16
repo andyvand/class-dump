@@ -8,7 +8,8 @@
 @protocol CNKFaceTimeMultiwayConversationViewControllerDelegate, CNKFaceTimeMultiwayViewControllerIOSDelegate;
 
 @protocol CNKMultiwayViewControllerProtocol
-- (void)EnteredState %{public}s;
+- (_Bool)Þøÿ`wþÿ;
+- (void)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) TUCall *call;

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (void)mpatibility text message part for message %@;
-+ (id)] for key:(struct CGRect)arg1 [%@];
-+ (unsigned long long)mcs-UTI-type;
++ (void);
++ (id);
++ (unsigned long long);
 + (id);
 + (id);
 

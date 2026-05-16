@@ -7,11 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id)!;
-- (_Bool);
-- (_Bool)r:(Class)arg1 ,V__doneActionResignsFirstResponder;
-- (_Bool);
-- (id)able;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)tePosterPreview for posterPreview %{public}@; marking visible as %{BOOL}u;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

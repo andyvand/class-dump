@@ -12,16 +12,16 @@
 }
 
 + (_Bool);
-+ (_Bool)ition),WFTextX,WFTextY;
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void)tâ (WFGetFilePath);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

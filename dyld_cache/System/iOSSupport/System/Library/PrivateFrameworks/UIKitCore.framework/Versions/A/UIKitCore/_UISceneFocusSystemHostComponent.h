@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)tForBaselineAligningOrVerticallyCenteringImageViewToLabelsView: /* Error: Ran out of types for this method. */;
-- (void)utForSections:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -33,8 +33,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)maticSetting_All;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *accessoryIdentifyFuture; // @synthesize accessoryIdentifyFuture=_accessoryIdentifyFuture;

@@ -5,6 +5,5 @@
 //
 
 @protocol SXMosaicGalleryLayouterDataSource
-- (unsigned long long);
 @end
 

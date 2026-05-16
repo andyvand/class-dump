@@ -50,18 +50,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PUIColorWell *colorWell; // @synthesize colorWell=_colorWell;

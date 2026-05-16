@@ -11,24 +11,24 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)dIDsAndGUIDsToDeleteWithLimit: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
 - (double);
 - (struct UIEdgeInsets);
+- (_Bool);
+- (id);
+- (double);
 - (struct CGPoint);
-- (struct CGPoint)ader: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint)°1¢!0@ù
+- (id)0@ù
 × ;
-- (struct CGPoint);
-- (double)eactivateLayout;
-- (id)tPopoverSizeOverride;
-- (_Bool)	
-;
-- (struct CGPoint)Hå;
-- (struct CGPoint);
-- (struct UIEdgeInsets)*ìþ;
-- (id)f;
+- (struct CGPoint)á	ð!lGùQfÐ1Â0@ù
+× ;
+- (struct CGPoint)ldSendInClient;
+- (struct CGPoint)ineByWordBeforeCharacterAtIndex: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)aintsForEdge: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ntentOffsetAdjustmentEnabledWhenLastIdle;
+- (struct CGPoint)L!;
+- (struct UIEdgeInsets);
 
 @end
 

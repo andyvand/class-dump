@@ -39,21 +39,21 @@
 - (void);
 - (_Bool);
 - (unsigned int);
+- (id);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
+- (_Bool)Äé;
+- (void)T÷ø÷;
+- (void)nnection=%@;
+- (void)rtcutSourceDefaultShortcut;
 
 // Remaining properties
 @property(nonatomic) unsigned int batchCount; // @synthesize batchCount=_batchCount;

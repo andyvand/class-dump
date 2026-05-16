@@ -19,14 +19,16 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
-- (double)dPosition:(int)arg1;
-- (_Bool)¹;
-- (double)0@ù
+- (id);
+- (double)0@ù
 × ;
-- (id)oneFileName;
-- (id)ected:(id)arg1;
-- (double)Observer;
-- (double);
+- (_Bool)Ô¡
+ð!@ùQg°1Â0@ù
+× ;
+- (double)eObserver>",W,N,S_setChangeObserver:(int)arg1 ,V__changeObserver;
+- (double)ing zero task count handler.;
+- (id)ns before the update;
+- (double)%lu) as part of a section %@ update, but there are only %lu items in the section.;
 
 @end
 

@@ -32,10 +32,9 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
-- (id)!AùÑn°1b0@ù
-× ;
+- (id);
 - (_Bool);
+- (void)dAddOverlayRenderers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasContent;

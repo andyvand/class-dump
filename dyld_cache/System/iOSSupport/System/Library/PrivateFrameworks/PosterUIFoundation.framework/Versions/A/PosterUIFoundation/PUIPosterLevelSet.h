@@ -26,17 +26,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsFloatingLayerOnly;

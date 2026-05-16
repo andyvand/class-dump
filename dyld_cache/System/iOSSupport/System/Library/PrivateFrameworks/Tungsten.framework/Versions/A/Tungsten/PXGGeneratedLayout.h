@@ -95,15 +95,15 @@
 - (void);
 - (unsigned char);
 - (CDStruct_2bd92d94);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)leAXInfo"24;
-- (struct UIEdgeInsets)stingController;
-- (id),VdisableLowResThumbnails;
+- (id);
+- (void);
+- (struct UIEdgeInsets)GeometryBufferCount;
+- (void)BadgeDecorationSource;
 
 // Remaining properties
 @property(nonatomic) unsigned char accessoryMediaKind; // @synthesize accessoryMediaKind=_accessoryMediaKind;

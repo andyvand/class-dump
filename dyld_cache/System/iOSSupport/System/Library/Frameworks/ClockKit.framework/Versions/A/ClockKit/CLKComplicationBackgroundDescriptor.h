@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *backgroundColors; // @synthesize backgroundColors=_backgroundColors;

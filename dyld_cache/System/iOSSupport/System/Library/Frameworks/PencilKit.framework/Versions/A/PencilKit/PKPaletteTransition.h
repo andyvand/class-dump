@@ -21,18 +21,18 @@
 
 - (void);
 - (long long);
-- (void)@"NSURLSessionTaskMetrics"32;
-- (void)mString:(id)arg1;
-- (void)teChildOperations:(id)arg1;
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void)nteger value for key:%{public}@ defaultValue:%lld /* Error: Ran out of types for this method. */;
-- (void)public}@ Endpoint JSON response:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ation/RemoteConfiguration/Utilities/RCMath.m;
-- (long long)n/RCRequestInfo.m;
-- (long long)orsKey;
-- (id)uspended:(long long)arg1 ];
-- (double)ponse"24@"NSError"32;
-- (id)ror"16;
+- (void);
+- (void);
+- (_Bool);
+- (long long);
+- (long long);
+- (id);
+- (double);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -43,9 +43,9 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)PKVectorTimestampElement;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_remainingTransitionStages; // @synthesize _remainingTransitionStages=__remainingTransitionStages;

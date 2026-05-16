@@ -18,15 +18,15 @@
 + (id);
 - (id);
 - (id);
-- (id)É;
-- (id)%EÉ;
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)Øùÿ¦EP~6;
+- (id);
+- (id)arameterSummaryValue";
+- (id)ÿÿÿÿ(;
+- (void)or Automation with ${Input};
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appVersion; // @synthesize appVersion=_appVersion;

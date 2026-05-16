@@ -5,33 +5,22 @@
 //
 
 @class NSString;
-@protocol NSObject;
 
 @protocol UIMutableTraits
-- (long long);
-- (void)ecodeItem failed for propertyItem;
-- (void)ibuteBatteryPackIdentifier, expected CFString or CFData.;
-- (void)ed;
-- (void)mber is null ;
-- (void)sts;
-- (void)%@;
-- (void)stProperties;
-- (void)yID.length;
-- (void)figurationBegin failed 0x%X;
-- (void)taPatchWithOptions;
-- (long long)ler: /* Error: Ran out of types for this method. */;
-- (void)stenersForService:(long long)arg1 withBlackholeStatus: /* Error: Ran out of types for this method. */;
-- (id <NSObject>)ss;
-- (void)lementSTQZ;
-- (void)alTime:(long long)arg1 error: /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (void)eneWindowingControlStyle"24@0:(long long)arg1 8@"UIWindowScene"16;
-- (void)oryboardPreviewingRegistrants;
-- (long long)datingSize: /* Error: Ran out of types for this method. */;
-- (long long)ScrollView;
-- (void)llectionView,V_collectionView;
-- (long long)¼ÿÿ4Nèÿx^^þÐ¸þÿXûÿ;
-- (void)dicatorImage;
+- (void);
+- (long long)ùq[°1Â0@ù
+× ;
+- (_Bool)!`@ùQ_°1Â0@ù
+× ;
+- (double)nerInsets:updateSubviewsDuringNextLayoutPass: /* Error: Ran out of types for this method. */;
+- (NSString *)gedPresentation;
+- (void);
+- (void)UIIVCResponseDelegate>",&,N,V_responseDelegate;
+- (long long): /* Error: Ran out of types for this method. */;
+- (void)ingPlayerIfPossible %@;
+- (long long)UIPhasedTransitionModifierComponentImpl;
+- (void)D33%.;
+- (long long)H7\;
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContrast;

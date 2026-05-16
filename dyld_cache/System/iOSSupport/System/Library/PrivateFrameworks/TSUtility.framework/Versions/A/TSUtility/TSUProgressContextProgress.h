@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (void);
+- (id);
 - (double);
 - (void);
 - (_Bool);
-- (id)i;
-- (void);
+- (double);
 
 @end
 

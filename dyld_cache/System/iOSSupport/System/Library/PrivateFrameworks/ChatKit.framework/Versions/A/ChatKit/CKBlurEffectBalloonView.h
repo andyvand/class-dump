@@ -15,14 +15,13 @@
 }
 
 - (void);
-- (void)d;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)!ÈBùQÃÐ1¢!0@ù
-× ;
-- (id)¨í0|ï	¼ï!ð;
+- (id);
+- (void)ÜÄDÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;

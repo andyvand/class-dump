@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isDestinationPlaceholderHidden) _Bool destinationPlaceholderHidden;

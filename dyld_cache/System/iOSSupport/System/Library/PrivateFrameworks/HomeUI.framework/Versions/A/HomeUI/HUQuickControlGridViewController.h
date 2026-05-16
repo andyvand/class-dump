@@ -20,9 +20,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool)a&Ð!BùQ0°1b0@ù
-× ;
+- (_Bool);
+- (void)odule"8;
 
 // Remaining properties
 @property(readonly, nonatomic) HUQuickControlCollectionViewController *collectionViewController; // @synthesize collectionViewController=_collectionViewController;

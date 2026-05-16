@@ -17,7 +17,7 @@
     id <PXDisplayAssetFetchResult> _allAssetsFetchResult;
 }
 
-+ (id)PS	: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -30,9 +30,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

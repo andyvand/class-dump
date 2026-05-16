@@ -14,9 +14,9 @@
 
 - (void);
 - (id);
-- (_Bool)izedTriggersCount;
-- (id)WithUniqueId:domainId:absoluteTimestamp:title:content:contentIsReaderText:url: /* Error: Ran out of types for this method. */;
-- (id)icPlaceType;
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 

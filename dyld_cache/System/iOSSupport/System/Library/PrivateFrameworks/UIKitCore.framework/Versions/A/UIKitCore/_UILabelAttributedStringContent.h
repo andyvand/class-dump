@@ -16,32 +16,32 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_lightInertAttributedString;
 }
 
+- (_Bool);
 - (id);
-- (_Bool)payloadMaxPINAgeInDays;
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (id);
-- (id)xtAlignment;
-- (id);
-- (id);
 - (_Bool);
 - (id);
-- (id)ingSet:(struct _NSZone *)arg1;
-- (void);
-- (void);
-- (_Bool)H	ë;
-- (id)× ;
+- (id)ù
+× ;
+- (_Bool)D;
+- (_Bool)leView:(id)arg1 checked:(id)arg2;
+- (_Bool)nWithSearchBarNotHostedByNavBarWillBegin;
+- (id)dedEdge;
+- (_Bool)_visualProvider;
+- (id)micFactory;
+- (id)guration: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool)Adapter"16@0:(id)arg1 8;
-- (_Bool);
-- (id)
-Ü;
-- (id)le.AuthKitUIService;
-- (id)w;
-- (long long);
-- (_Bool)Ãõ(\Âí?ìQ¸ë±?;
-- (_Bool)ÿª;
-- (_Bool)¹ÿ;
+- (id)8è;
+- (id)p;
+- (id)¨,x@Ìø ;
+- (void)ks/TextInputUI.framework;
+- (void);
 
 @end
 

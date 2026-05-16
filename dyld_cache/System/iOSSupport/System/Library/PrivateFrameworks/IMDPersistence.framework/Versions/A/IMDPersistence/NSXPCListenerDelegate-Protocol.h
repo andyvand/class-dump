@@ -5,8 +5,5 @@
 //
 
 @protocol NSXPCListenerDelegate
-
-@optional
-- (_Bool)tedActiveInputPropertiesExpectingUpdates"q}];
 @end
 

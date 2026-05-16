@@ -24,11 +24,11 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool)4@0:8q16 /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)3;
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,26 +39,27 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)";
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fallbackHashFileName; // @synthesize fallbackHashFileName=_fallbackHashFileName;

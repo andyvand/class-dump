@@ -13,7 +13,7 @@
     MPPlaybackArchive *_playbackArchive;
 }
 
-+ (_Bool)eDidUpdateAccessControlForCurrentUser;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPPlaybackArchive *playbackArchive; // @synthesize playbackArchive=_playbackArchive;

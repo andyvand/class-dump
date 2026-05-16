@@ -17,7 +17,7 @@
 + (void);
 + (void);
 + (void);
-+ (id)Ø%;
++ (id);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -36,12 +36,12 @@
 - (unsigned int);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)hortcutChange;
 
 // Remaining properties
 @property(readonly, nonatomic) VCMetricCheckIn *checkIn; // @synthesize checkIn=_checkIn;

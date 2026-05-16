@@ -31,9 +31,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id)edGuestViewDelegate;
+- (void)sDevicesModuleController.m;
 
 // Remaining properties
 @property(nonatomic) __weak AVPlayerViewController *cameraPlayerViewController; // @synthesize cameraPlayerViewController=_cameraPlayerViewController;

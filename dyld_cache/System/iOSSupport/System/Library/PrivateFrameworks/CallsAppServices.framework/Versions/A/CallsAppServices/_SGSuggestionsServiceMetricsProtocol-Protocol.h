@@ -5,8 +5,6 @@
 //
 
 @protocol _SGSuggestionsServiceMetricsProtocol
-- (void)ingMembersChangedForConversation:(int)arg1;
-- (void)k;
-- (void);
+- (void)÷À÷;
 @end
 

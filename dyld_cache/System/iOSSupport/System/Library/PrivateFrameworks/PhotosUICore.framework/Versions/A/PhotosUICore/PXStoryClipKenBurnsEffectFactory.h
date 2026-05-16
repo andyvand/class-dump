@@ -56,9 +56,9 @@
 - (long long);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)ø°`;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryClipComposition> clipComposition; // @synthesize clipComposition=_clipComposition;

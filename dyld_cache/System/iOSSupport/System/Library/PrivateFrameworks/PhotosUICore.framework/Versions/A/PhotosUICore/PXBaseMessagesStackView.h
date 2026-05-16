@@ -87,17 +87,17 @@
 - (void);
 - (long long);
 - (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id){CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16@784q792;
-- (id);
-- (id)nvitationsDataSource init];
-- (void);
+- (id)X;
+- (void)iTunesMediaID;
+- (void)ns-shelf;
+- (id);
+- (void)lectionManagerMutator;
 
 // Remaining properties
 @property(retain, nonatomic) PXSectionedDataSource *currentDataSource; // @synthesize currentDataSource=_currentDataSource;

@@ -5,20 +5,22 @@
 //
 
 @class NSArray, NSString, UIWindow;
+@protocol UINSMenuItem;
 
 @protocol UINSMenu
-- (UIWindow *);
-- (void);
-- (NSString *);
-- (void)0@ù
+- (long long)0@ù
 × ;
-- (NSString *)ironment;
-- (long long)·þÿÒìûÿ;
-- (void)@;
-- (unsigned long long)<×þ;
-- (void)ñÑéJ[;
+- (NSArray *)ransitions;
+- (void)irectory:(NSString *)arg1 relativeToURL: /* Error: Ran out of types for this method. */;
+- (void)ageAddedUnsupportedAttribute:(NSString *)arg1;
+- (void);
+- (NSString *)IContentEffect;
+- (void)ÄÊîÿfþÿ;
+- (NSString *)spendAppearanceTransitionsInSplitViewController]_block_invoke;
+- (unsigned long long)edback;
 
 // Remaining properties
+@property(nonatomic) __weak id <UINSMenuItem> currentHighlightedItem;
 @property(copy, nonatomic) NSString *identifier;
 @property(copy, nonatomic) NSArray *items;
 @property(nonatomic) unsigned long long presentationStyle;

@@ -34,16 +34,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)LL;
-- (id)stringTagToDERTag;
-- (id)=%@;
-- (void)ob;
-- (void)taClasses allocation failed;
-- (void)nvalid dataValueArray count;
-- (void)OW;
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)e;
-- (void)fests;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)A;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -79,12 +79,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)_reindexTransferIfNeededForPreviewGenerationStateChange:(id)arg1 originalPreviewGenerationState: /* Error: Ran out of types for this method. */;
-- (_Bool)en:batchSize:activity: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
-- (id)ction;
-- (_Bool)DEDEE6C8426C15FCDB740980229AlphaOverrideAssertionSubject;
+- (id);
+- (_Bool)SString * _Nonnull _UIBoundingPathBitmapDataDescription(const _UIBoundingPathBitmapData);
+- (void)DataSourceC;
 
 // Remaining properties
 @property(retain, nonatomic) UIWritingToolsCoordinatorContext *acceptedEvaluationContext; // @synthesize acceptedEvaluationContext=_acceptedEvaluationContext;

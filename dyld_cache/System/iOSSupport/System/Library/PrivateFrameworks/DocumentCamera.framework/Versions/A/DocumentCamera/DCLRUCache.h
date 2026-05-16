@@ -19,16 +19,16 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allKeys;

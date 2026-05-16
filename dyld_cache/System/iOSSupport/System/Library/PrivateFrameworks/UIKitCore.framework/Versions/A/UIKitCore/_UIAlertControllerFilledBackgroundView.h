@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)rPº;
-- (void)ð´;
-- (id)TransitionComponentEventP;
-- (id)kades;
-- (void)'¼§>ð@;
-- (void)9;
-- (void)ä3ÿÕ;
+- (id)_actionSheet;
+- (void);
+- (id)d when rounding frame %@ to screen scale (%g).;
+- (void)ed to set _regions including %@ (%lu) with unequal dimensions to %@ (%lu);
+- (void)\$þÿ;
+- (void)C¾X9?;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

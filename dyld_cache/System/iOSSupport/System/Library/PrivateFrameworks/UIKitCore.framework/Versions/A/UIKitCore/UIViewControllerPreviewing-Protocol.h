@@ -9,7 +9,6 @@
 
 @protocol UIViewControllerPreviewing
 - (struct CGRect);
-- (UIView *)xponent;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIViewControllerPreviewingDelegate> delegate;

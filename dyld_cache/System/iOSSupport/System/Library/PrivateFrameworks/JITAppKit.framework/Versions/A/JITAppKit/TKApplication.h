@@ -35,13 +35,14 @@
 - (Class);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (_Bool)~è
+@B;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;

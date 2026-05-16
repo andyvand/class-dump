@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)BûÿA}×Bûÿ)}×ÀBûÿ9}×lÑøÿ;
++ (id)on message (%lld)   (Message:%@  Handle:%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

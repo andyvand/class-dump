@@ -15,19 +15,19 @@ __attribute__((visibility("hidden")))
     _EditScriptRangedAtom *_currentScriptAtom;
 }
 
-+ (id)relay, guid:(id)arg1 %@;
-+ (id)@];
-+ (id)eport-junk-mmcs-upload-timeout, using the default 10 seconds;
++ (id);
++ (id);
++ (id);
 - (void);
-- (void)UConversationParticipant"32@"TUCollaborationNotice"40;
-- (id)entController";
-- (void)e:messagesUpdated: /* Error: Ran out of types for this method. */;
-- (void)lock: /* Error: Ran out of types for this method. */;
-- (void)th:(long long)arg1 error:(unsigned long long)arg2;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void){@$º;
+- (void)àA»ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *stringA;

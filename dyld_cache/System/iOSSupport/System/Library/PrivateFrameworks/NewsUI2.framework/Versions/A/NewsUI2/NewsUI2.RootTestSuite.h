@@ -13,9 +13,9 @@
     MISSING_TYPE *tipStorageManager;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)9F_,;
 
 @end
 

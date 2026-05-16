@@ -17,26 +17,27 @@
 }
 
 + (id);
-+ (id)E;
 + (id);
-- (void)for message identifier:(id)arg1 %lld;
++ (id);
+- (void);
 - (id);
 - (id);
 - (id);
+- (long long);
+- (void);
+- (id)ù
+× ;
+- (void)A
+ð!È@ùÑf°1Â0@ù
+× ;
+- (void)ion;
+- (void)__highlightBackgroundViewNeedsUpdate;
+- (id)ider;
+- (id)H%ÿÿ<LêÿTþ0þÿ;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)!pBùÀ1¢!0@ù
-× ;
-- (id);
-- (void)1¢!0@ù
-× ;
-- (long long)_UIDismissInteractionUpdate"16;
-- (void)Bar:(id)arg1;
-- (id)gs;
-- (id)ied by layout, delegate, or focus. Current:%@; original:%@; new:%@ /* Error: Ran out of types for this method. */;
-- (void)8ToolbarPreferences;
+- (id)H f;
 
 // Remaining properties
 @property(copy, nonatomic, getter=_actions, setter=_setActions:) NSArray *actions; // @synthesize actions=_actions;

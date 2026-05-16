@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id)ingFromWebArchive: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void)will delete attachment files on disk but you can re-download them. Be sure to imtool kim after running this.;
 
 // Remaining properties
 @property(readonly, nonatomic) CKComposition *composition; // @synthesize composition=_composition;

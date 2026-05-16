@@ -13,11 +13,11 @@
 }
 
 - (_Bool);
-- (id)Delegate;
-- (void);
 - (id);
-- (id)24^{_NSRange=QQ}32;
 - (id);
+- (id);
+- (void);
+- (id)ing;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

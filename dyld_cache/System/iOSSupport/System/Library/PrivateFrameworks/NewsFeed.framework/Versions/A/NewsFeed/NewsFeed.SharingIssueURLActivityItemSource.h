@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void) : 1 /* Error: Ran out of types for this method. */;
 
 @end
 

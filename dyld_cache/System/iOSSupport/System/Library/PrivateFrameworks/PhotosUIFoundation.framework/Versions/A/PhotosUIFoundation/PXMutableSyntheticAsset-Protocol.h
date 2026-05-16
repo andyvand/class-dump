@@ -7,7 +7,7 @@
 @class NSDate, NSSet, NSString, UIColor;
 
 @protocol PXMutableSyntheticAsset
-- (void)etCount;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect acceptableCropAssetRect;

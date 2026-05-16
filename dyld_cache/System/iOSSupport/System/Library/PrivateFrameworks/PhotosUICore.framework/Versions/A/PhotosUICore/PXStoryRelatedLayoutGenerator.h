@@ -28,9 +28,9 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (void);
 - (struct CGSize);
-- (void)ïH4;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isContentScrolledIntoView;

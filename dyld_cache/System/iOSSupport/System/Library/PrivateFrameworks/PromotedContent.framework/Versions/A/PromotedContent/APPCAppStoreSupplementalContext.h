@@ -21,24 +21,24 @@
 
 - (id);
 - (id);
-- (void);
-- (void)?kA;
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)(%@);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *adamId;

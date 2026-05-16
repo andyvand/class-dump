@@ -15,19 +15,18 @@
     unsigned long long deactivationTransitionDirection;
 }
 
-- (void)<IMDeferReplicatedMessagePipelineComponent> Allowing instant delivery of %@, message is not replicated.;
-- (void)However this device has requested to be enrolled before, Not allowing it to try again;
-- (id)ned for me to send out, I am the gatekeeper;
-- (id)ing message request from %@;
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool)@"MPArtworkCatalog"16@?<v@?@"MPArtworkRepresentation"@"NSError">24;
+- (void);
+- (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)groundCornerRadius;
-- (id)ongDefinition: /* Error: Ran out of types for this method. */;
-- (_Bool)ø\¸L¬ÈØ;
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool):(id)arg1;
+- (void)ated tvOS method not executed on this platform:(id)arg1 %@;
+- (_Bool);
+- (void):AÐgl /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationTransitionDirection; // @synthesize activationTransitionDirection;

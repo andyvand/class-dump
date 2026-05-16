@@ -14,17 +14,18 @@ __attribute__((visibility("hidden")))
     struct _NSRange _affectedRange;
 }
 
-- (_Bool)outError;
-- (void)i;
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct _NSRange)A;
+- (_Bool);
 - (void);
-- (void)eractions;
-- (id)entingTextCompletionAsMarkedText;
-- (void)action = %@, bundleId = %@;
+- (id);
+- (id);
+- (id);
+- (void);
+- (struct _NSRange);
+- (id);
+- (void)0@ù
+× ;
+- (void)sition;
+- (void)³.3G;Å.3yý¤.3y¾7GGGAByÙ.3y>Ù.3yØ.3yØ.3yAByq©.3y_ª¡.3y¶;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;

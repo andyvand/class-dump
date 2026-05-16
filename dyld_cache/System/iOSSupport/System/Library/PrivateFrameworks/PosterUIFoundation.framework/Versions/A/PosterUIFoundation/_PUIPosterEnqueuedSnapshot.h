@@ -24,17 +24,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (void)ðÇ;
+- (id)e:orientation: /* Error: Ran out of types for this method. */;
+- (unsigned long long)iew;
+- (void)eue;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

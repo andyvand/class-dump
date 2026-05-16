@@ -19,37 +19,39 @@
 }
 
 + (id);
-+ (void)!Dù1Ëð1¢!0@ù
++ (id)!Bù]1Â0@ù
 × ;
-+ (_Bool)tem: /* Error: Ran out of types for this method. */;
-+ (void),V_hasPerformedInitialLayout;
-+ (id)pitalizationType: /* Error: Ran out of types for this method. */;
-+ (id)_UIFocusGroup * _Nonnull __strong);
-+ (void)¯þ;
++ (_Bool)ysWithDeveloperPunctuation;
++ (void)er;
++ (void)ÀìÀ¤ÄÔÄ;
++ (id)ëÑ?333333Ã?áz®Gáâ?;
++ (void)Lf;
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (_Bool);
-- (void)ertyPlaylistKeepLocalEnableState__MAPPING_MISSING__;
-- (void);
-- (void)â|¬;
-- (void);
-- (id)±Ã1¢!0@ù
+- (id);
+- (id);
+- (_Bool)0@ù
 × ;
-- (void);
-- (id)nary"16;
-- (void)mentariesThatCanAffectContentSize: /* Error: Ran out of types for this method. */;
-- (_Bool)ewXConstraint: /* Error: Ran out of types for this method. */;
-- (id)ntSize: /* Error: Ran out of types for this method. */;
-- (id)onModels:primaryInteractionModel:touchLevel: /* Error: Ran out of types for this method. */;
-- (id)ionEffect;
-- (id)ardStateManager",W,N,V_keyboardStateManagerDelegate;
-- (_Bool)vailableBrowserPresentationController;
-- (id)buttonAppearance;
-- (void)X;
-- (void)NSLayoutConstraint"8q16@24;
-- (void)ue Cell;
-- (id)m.apple.UIKit.UIImage.async-drawing;
+- (_Bool)!x@ùQ]°1Â0@ù
+× ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)ationsUsingFilter:(id)arg1;
+- (_Bool)inlineTopInset;
+- (id)hEffects:(CDUnknownBlockType)arg1;
+- (void)xer",R,N;
+- (void)owOrderedIn;
+- (void)friction;
+- (id)oatingTabBar;
+- (void)$s10Foundation19AttributedStringKeyP;
+- (void)onCondition;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *containingViewControllerClassName;

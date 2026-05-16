@@ -22,15 +22,15 @@
 
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void)ring"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (void)ReüÿÆùÿ;
+- (void)J:«wþJ:ðâ$ÿ /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

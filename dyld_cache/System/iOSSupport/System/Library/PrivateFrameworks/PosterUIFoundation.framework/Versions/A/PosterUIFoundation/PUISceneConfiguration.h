@@ -17,14 +17,14 @@
 
 - (void);
 - (CDUnknownBlockType);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
+- (id)does not work on mac.;
 
 // Remaining properties
 @property(retain, nonatomic) id <FBSSceneClientIdentifying> clientIdentity; // @synthesize clientIdentity=_clientIdentity;

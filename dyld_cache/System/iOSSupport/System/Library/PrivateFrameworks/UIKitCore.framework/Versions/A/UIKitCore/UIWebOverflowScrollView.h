@@ -21,23 +21,23 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)B;
-- (void)T*;
+- (id);
 - (void);
-- (void)Source;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool)ng"40@"NSString"48@"IDSMessageContext"56;
-- (id)tionary:(id)arg1 error:(id)arg2;
-- (_Bool)ordMessageSentFromAppWithBundleID:toRecipientHandle: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (id)rSearchBar: /* Error: Ran out of types for this method. */;
-- (void)Ä+ÿ'Ñþ¤];
-- (id)Ô¢áþ;
+- (void);
+- (id)Ô ;
+- (id)¶¤;
 
 // Remaining properties
 @property(nonatomic, getter=isBeingRemoved) _Bool beingRemoved; // @synthesize beingRemoved=_beingRemoved;

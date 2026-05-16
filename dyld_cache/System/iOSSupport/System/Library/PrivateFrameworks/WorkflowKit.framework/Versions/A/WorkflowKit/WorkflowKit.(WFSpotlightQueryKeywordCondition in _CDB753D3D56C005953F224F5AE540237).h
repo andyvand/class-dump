@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id)Ö0%EÉ;
-- (void);
+- (id);
+- (void)WFEvernoteShareInAppLink;
 
 @end
 

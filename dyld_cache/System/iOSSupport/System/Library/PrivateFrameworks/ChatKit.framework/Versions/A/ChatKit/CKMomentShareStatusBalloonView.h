@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (struct CGSize)¸;
++ (struct CGSize);
+- (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void)_;
 - (BOOL);
-- (id)ÿÿÿÿD;
-- (struct CGSize)ndex (section:(struct CGSize)arg1 %@, item:%@),  /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 @end
 

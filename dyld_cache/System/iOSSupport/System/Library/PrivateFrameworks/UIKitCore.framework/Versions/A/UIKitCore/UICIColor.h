@@ -16,21 +16,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void)!@ù1Ã°1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (id)ckerHorizontalEdgeInset;
-- (id)w;
-- (struct CGColor *)Òüÿ-~þÿ¦üÿ;
-- (void)íJÿ3TSÿÕJÿ3äódþÕJÿ3(|þÝJÿ3(±þ;
-- (void)h{þu¬4d{þu¬4`{þ;
-- (void);
-- (_Bool)qÐ×í];
-- (id)ïþ;
-- (_Bool)Dü²ÿz¶ÏµÚf;
+- (id)stallDragInteractionIfNeeded;
+- (_Bool)nterHoverWithTrackpadFingerDownCount:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
+- (id)(Ì4Í;
+- (struct CGColor *)Gwÿ;
+- (void);
+- (void)RÿsËwl;
+- (void)ðHwÿ(;
+- (_Bool)óùÜn;
+- (id)0þÆø;
+- (void)Ìàn;
+- (_Bool)°ÿ;
 
 @end
 

@@ -10,10 +10,10 @@
 {
 }
 
-+ (id)i;
-+ (id)r;
 + (id);
-- (void)d;
++ (id);
++ (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,10 +13,10 @@
     MISSING_TYPE *label;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

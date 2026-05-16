@@ -19,10 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)utofavorited;
-- (int)t5$6;
+- (id);
+- (id);
+- (int);
+- (void)}16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

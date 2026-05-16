@@ -37,7 +37,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)N;
+- (void)sPinchZoom:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

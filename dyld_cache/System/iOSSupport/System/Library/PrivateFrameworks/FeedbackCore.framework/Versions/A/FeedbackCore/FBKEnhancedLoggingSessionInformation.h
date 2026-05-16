@@ -19,7 +19,7 @@
     long long _enhancedLoggingRetryCount;
 }
 
-+ (_Bool)wedCharacters: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -33,19 +33,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (id)ïôÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) FBKContentItem *contentItem;

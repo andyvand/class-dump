@@ -15,12 +15,12 @@
 
 - (void);
 - (_Bool);
-- (void);
 - (long long);
 - (id);
 - (void);
-- (id);
-- (void)UsedFlexSongIDs;
+- (void);
+- (void)dRequirement:) /* Error: Ran out of types for this method. */;
+- (id)#ÿð£Zÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowBackdropStatisticsSupression; // @synthesize allowBackdropStatisticsSupression=_allowBackdropStatisticsSupression;

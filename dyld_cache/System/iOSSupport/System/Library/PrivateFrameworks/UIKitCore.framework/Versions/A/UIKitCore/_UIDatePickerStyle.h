@@ -11,13 +11,13 @@
 
 - (long long);
 - (double);
-- (_Bool)urce;
-- (struct UIOffset):(struct UIEdgeInsets)arg1 fromPoolWithName:(long long)arg2;
+- (_Bool);
+- (struct UIOffset);
 - (double);
 - (double);
-- (double)x: /* Error: Ran out of types for this method. */;
 - (double);
-- (double)t: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
 - (struct UIEdgeInsets);
 - (double);
 - (double);
@@ -33,17 +33,17 @@
 - (double);
 - (long long);
 - (id);
-- (id)kgroundMessagingAPITargetHandlerDelegate>";
-- (_Bool)SProcessMonitor";
-- (double)ipient"24@?<v@?@"NSError">32;
-- (double)undMessage"16@"IMBackgroundMessageRecipient"24@?<v@?@"NSError">32;
-- (double)onary"@"NSError">24;
-- (struct CGSize)04@?112;
-- (id)OrderedSet";
-- (id)40@0:8@16^Q24^Q32 /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (double);
-- (double)NSXPCListener"16@"NSXPCConnection"24;
-- (void)e:(id)arg1 forKey:(id)arg2 shouldOverride: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (struct CGSize);
+- (id);
+- (id);
+- (double);
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double compactDateLabelPlatterHorizontalPadding;

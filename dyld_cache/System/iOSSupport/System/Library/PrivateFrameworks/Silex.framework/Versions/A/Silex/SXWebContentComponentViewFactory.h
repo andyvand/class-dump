@@ -29,7 +29,6 @@
 
 - (id);
 - (id);
-- (id)C;
 - (id);
 - (id);
 - (id);
@@ -41,11 +40,12 @@
 - (id);
 - (id);
 - (id);
-- (id)�=;
+- (id);
+- (id);
+- (id);
+- (int);
 - (void);
-- (id);
-- (id)ramework/Versions/A/Network;
-- (int)XImageView",&,N,V_contentView;
+- (id)onverter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

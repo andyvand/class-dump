@@ -15,13 +15,14 @@ __attribute__((visibility("hidden")))
     struct CGRect _contentFrameIncludingAuxiliaries;
 }
 
-- (struct CGRect);
 - (struct CGSize);
-- (id)erIndex;
-- (id)mized;
-- (struct CGRect)d:%@, duration:%f. Pending the update instead. /* Error: Ran out of types for this method. */;
-- (struct CGRect)ðÿÿPÿÿxÿÿÿÿ¨ÿÿÀÿÿØÿÿðÿÿÿÿ ÿÿ8ÿÿPÿÿhÿÿÿÿÿÿ°ÿÿÈÿÿàÿÿøÿÿÿÿ(ÿÿ@ÿÿXÿÿpÿÿÿÿ ÿÿ¸ÿÿÐÿÿèÿÿ;
-- (struct CGPoint);
+- (struct CGRect);
+- (struct CGRect);
+- (id);
+- (id)PEù±dð1Â0@ù
+× ;
+- (struct CGPoint)TopEdgeInset;
+- (struct CGRect)ontentImage;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize auxillaryHostContentSize;

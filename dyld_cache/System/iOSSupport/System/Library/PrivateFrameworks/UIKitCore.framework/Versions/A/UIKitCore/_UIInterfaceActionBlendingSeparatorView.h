@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (double);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)entGeometryObservers;
+- (void)P°R0¥ª43 ;
 
 // Remaining properties
 @property(nonatomic) double constantAxisDimension;

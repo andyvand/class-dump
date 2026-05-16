@@ -12,12 +12,12 @@
 + (Class);
 - (id);
 - (id);
-- (Class).framework/Versions/A/CoreRecents;
+- (Class);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)hes;
+- (id)ery:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

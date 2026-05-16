@@ -11,13 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)sitionToSize;
-- (_Bool);
-- (_Bool);
++ (_Bool);
 - (id);
-- (id)tionForLinkPresentation;
-- (id);Ø[;
-- (_Bool)ïûb;
+- (id);
+- (id)1Â0@ù
+× ;
+- (_Bool)Geometry:forControlKey: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 
 @end
 

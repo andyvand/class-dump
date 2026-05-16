@@ -7,7 +7,6 @@
 @protocol UIKeyboardInput
 
 @optional
-- (_Bool)\{;
-- (_Bool);
+- (_Bool)DrawingBeingCopiedToCanvas;
 @end
 

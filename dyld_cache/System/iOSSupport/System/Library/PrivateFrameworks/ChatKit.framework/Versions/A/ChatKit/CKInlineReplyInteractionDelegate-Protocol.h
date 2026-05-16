@@ -5,10 +5,5 @@
 //
 
 @protocol CKInlineReplyInteractionDelegate
-- (double)Ö;
-- (void);
-- (struct UIEdgeInsets)nge=QQ},R,N;
-- (void)4;
-- (_Bool);
 @end
 

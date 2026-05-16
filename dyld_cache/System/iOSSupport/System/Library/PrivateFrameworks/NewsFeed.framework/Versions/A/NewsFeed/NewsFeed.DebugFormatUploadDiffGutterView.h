@@ -15,10 +15,11 @@
     MISSING_TYPE *source;
 }
 
+- (id);
 - (void);
-- (id);
-- (void)guration";
-- (id);
+- (id)1Â0@ù
+× ;
+- (void);
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool)tH;
+- (_Bool);
 
 @end
 

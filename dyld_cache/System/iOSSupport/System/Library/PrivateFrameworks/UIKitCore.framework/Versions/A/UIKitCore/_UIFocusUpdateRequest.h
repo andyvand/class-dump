@@ -21,15 +21,15 @@
     id <UIFocusEnvironment> _environment;
 }
 
-+ (id)not including token on this message;
++ (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)x;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -39,7 +39,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)8�	;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -48,14 +48,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)o destinations to cancel to;
-- (id);
-- (id)atformDictionaries;
+- (id);
+- (id);
+- (id);
+- (id)nabled:(struct _NSZone *)arg1;
+- (id)nabled = YES;
 - (void);
-- (id)AwÐ!tFùQÌÐ1¢!0@ù
-× ;
-- (id)getForKey:decelerationFactor: /* Error: Ran out of types for this method. */;
-- (id)ÿ;
+- (id)H¼b;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsDeferral; // @synthesize allowsDeferral=_allowsDeferral;

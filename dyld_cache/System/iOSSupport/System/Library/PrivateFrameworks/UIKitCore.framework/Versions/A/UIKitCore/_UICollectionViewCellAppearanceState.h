@@ -15,27 +15,28 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)b;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)64;
-- (void)Number"40@"NSData"48@"NSString"56B64;
-- (void)NSString"24B32@"NSString"36@"NSString"44@"NSNumber"52@"NSNumber"60;
-- (void)ary"80@"NSNumber"88;
-- (void)er"64@"NSNumber"72@"NSDictionary"80@"NSNumber"88;
-- (void)"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72@"NSDictionary"80@"NSNumber"88;
-- (_Bool)}d;
-- (void)services:%@ /* Error: Ran out of types for this method. */;
-- (void)sagesBefore:%d numberOfMessagesAfter:%d /* Error: Ran out of types for this method. */;
-- (_Bool)hecking sms spam, chatid %@ has 3 replies or more;
 - (void);
 - (void);
-- (int)icallyTransitionToMultiSelectModeAtPoint:withVelocity: /* Error: Ran out of types for this method. */;
-- (id)braryKey;
-- (id)out;
-- (unsigned long long)erView",R,N;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (void)¡!Fù1cÐ1Â0@ù
+× ;
+- (int)16@?20;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long appearance;

@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool)_Ua;
+- (_Bool);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)oving local report files in %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;

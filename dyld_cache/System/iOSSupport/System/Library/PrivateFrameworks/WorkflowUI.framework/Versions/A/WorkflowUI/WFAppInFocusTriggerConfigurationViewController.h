@@ -28,12 +28,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (long long);
 - (void);
+- (void)ä;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

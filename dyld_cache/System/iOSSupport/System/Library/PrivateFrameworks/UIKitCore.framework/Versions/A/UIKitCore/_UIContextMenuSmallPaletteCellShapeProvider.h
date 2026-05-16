@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)Responder: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)Activity:(id)arg1 restorationHandler:on context for activity %@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)P>];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

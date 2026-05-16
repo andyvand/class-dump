@@ -7,6 +7,8 @@
 @class NSDictionary;
 
 @protocol MTLModel
+- (id)d:(NSDictionary *)arg1;
+- (NSDictionary *)?ÿÍº;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;

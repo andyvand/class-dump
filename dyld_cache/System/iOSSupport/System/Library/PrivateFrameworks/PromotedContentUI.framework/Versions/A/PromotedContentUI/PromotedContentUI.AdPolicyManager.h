@@ -8,23 +8,18 @@
 
 @interface PromotedContentUI.AdPolicyManager
 {
-    MISSING_TYPE *kPolicyKeyAdType;
-    MISSING_TYPE *kPolicyKeyAdFormatType;
-    MISSING_TYPE *kPolicyKeyContainerType;
-    MISSING_TYPE *kPolicyKeyPlacementDescriptor;
-    MISSING_TYPE *kPolicyKeyUnknown;
-    MISSING_TYPE *kPlacementDescriptorTodayKey;
-    MISSING_TYPE *kPlacementDescriptorPublisherKey;
-    MISSING_TYPE *kSubscriberStatusKey;
-    MISSING_TYPE *kNonSubscriberStatusKey;
+    MISSING_TYPE *$defaultActor;
     MISSING_TYPE *frequencyCap;
     MISSING_TYPE *adPolicies;
+    MISSING_TYPE *unsafeAdPolicies;
     MISSING_TYPE *subscriberStatus;
     MISSING_TYPE *impressions;
+    MISSING_TYPE *unsafeImpressions;
     MISSING_TYPE *creativeImpressions;
     MISSING_TYPE *launchTimestamps;
+    MISSING_TYPE *unsafeLaunchTimestamps;
     MISSING_TYPE *xlAdFormat;
-    MISSING_TYPE *policyQueue;
+    MISSING_TYPE *requester;
 }
 
 @end

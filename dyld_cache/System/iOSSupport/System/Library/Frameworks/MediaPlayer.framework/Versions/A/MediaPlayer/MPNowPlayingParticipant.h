@@ -18,15 +18,14 @@
 - (id);
 - (id);
 - (void);
-- (id)ainId:(id)arg1 personaId:absoluteTimestamp:title:content:summary:publication:contentProtection: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void)î
-;
+- (id);
+- (id);
+- (id);
+- (void)ive__MAPPING_MISSING__;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName;

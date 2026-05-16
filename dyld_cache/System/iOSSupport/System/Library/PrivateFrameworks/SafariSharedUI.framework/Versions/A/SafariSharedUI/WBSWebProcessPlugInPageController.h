@@ -13,12 +13,12 @@
 }
 
 - (void);
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)efaultProfile;
 
 // Remaining properties
 @property(readonly, nonatomic) WKWebProcessPlugInBrowserContextController *browserContextController; // @synthesize browserContextController=_browserContextController;

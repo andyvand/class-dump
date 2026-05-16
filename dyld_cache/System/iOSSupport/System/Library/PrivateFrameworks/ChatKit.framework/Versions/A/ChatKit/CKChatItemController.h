@@ -14,17 +14,17 @@
     MISSING_TYPE *collectionView;
 }
 
-- (void)Window:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)ics while not currently authenticating;
-- (void)ing %@;
-- (void)g;
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)u×;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *associatedChatItems;

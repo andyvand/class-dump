@@ -7,8 +7,8 @@
 @class NSDate, NSDateInterval;
 
 @protocol HFCameraRecordingEvent
-- (double)iceGroupItems: /* Error: Ran out of types for this method. */;
-- (_Bool)MultipleOff;
+- (unsigned long long)firstSetupSourceAccessory;
+- (_Bool)(%@). This is not supported, because the update may change the item's latestResults out from under the other item manager. Not only will the other item manager not know about the changes, but if it tries to perform its own update, it may think nothing has changed by comparing the item's latestResults before and after the update. Consider copying the item before passing it into a different item manager. In release builds, we continue with the update anyway. Item:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool canAskForUserFeedback;

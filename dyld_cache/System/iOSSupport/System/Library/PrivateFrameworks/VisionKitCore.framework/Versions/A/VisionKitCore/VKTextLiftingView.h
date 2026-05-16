@@ -58,22 +58,22 @@
 - (struct CGRect);
 - (double);
 - (void);
-- (struct UIEdgeInsets);
+- (double);
+- (id);
+- (CDUnknownBlockType);
 - (void);
 - (id);
+- (void);
+- (id);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (double);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (double);
-- (double)View"16;
-- (void)mage(CGImageRef _Nullable, NSString *__strong _Nonnull, NSDictionary * _Nullable __strong);
+- (void)gInteraction"16@"UIDragItem"24@"<UIDragAnimating>"32;
 
 // Remaining properties
 @property(nonatomic, setter=_hasFadedOut:) _Bool _hasFadedOut; // @synthesize _hasFadedOut=__hasFadedOut;

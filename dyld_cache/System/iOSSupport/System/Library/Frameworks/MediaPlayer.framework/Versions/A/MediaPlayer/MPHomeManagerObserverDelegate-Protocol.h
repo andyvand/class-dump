@@ -5,6 +5,5 @@
 //
 
 @protocol MPHomeManagerObserverDelegate
-- (void)m.apple.SharingViewService;
 @end
 

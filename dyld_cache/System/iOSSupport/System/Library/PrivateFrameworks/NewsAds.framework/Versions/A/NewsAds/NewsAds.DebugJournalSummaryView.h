@@ -25,8 +25,8 @@
 }
 
 - (id);
-- (void)dinator";
 - (id);
+- (void);
 
 @end
 

@@ -7,6 +7,10 @@
 @class NSArray, NSDate, NSString, NSUUID, PUIPosterContentOcclusionRectSet;
 
 @protocol PUIPosterSnapshotCollectionContextProviding
+- (NSString *)!lFùé°1â
+0@ù
+× ;
+- (long long);
 
 // Remaining properties
 @property(readonly) long long accessibilityContrast;

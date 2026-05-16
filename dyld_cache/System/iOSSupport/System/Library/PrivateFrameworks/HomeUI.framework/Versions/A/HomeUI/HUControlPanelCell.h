@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ationUpdateHomeHubFooter;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allControlViews;

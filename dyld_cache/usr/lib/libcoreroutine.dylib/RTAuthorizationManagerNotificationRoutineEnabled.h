@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)untChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

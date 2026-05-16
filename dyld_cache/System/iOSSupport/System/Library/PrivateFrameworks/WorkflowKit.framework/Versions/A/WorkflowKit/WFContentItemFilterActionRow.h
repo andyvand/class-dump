@@ -10,8 +10,8 @@
 {
 }
 
-- (id)ivar;
-- (id)«XÌ;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContentProperty *contentProperty;

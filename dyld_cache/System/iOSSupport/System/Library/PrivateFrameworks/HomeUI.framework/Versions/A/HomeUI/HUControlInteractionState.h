@@ -22,7 +22,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)section sorting keys.;
 
 // Remaining properties
 @property(nonatomic) unsigned long long inFlightWriteCount; // @synthesize inFlightWriteCount=_inFlightWriteCount;

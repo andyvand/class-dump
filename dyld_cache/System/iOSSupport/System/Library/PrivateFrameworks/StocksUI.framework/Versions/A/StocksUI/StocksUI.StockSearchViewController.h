@@ -26,14 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)tory;
-- (void)¸ç;
+- (void);
+- (void)búÿ¨búÿcúÿ@cúÿdcúÿìcúÿ<dúÿHeúÿeúÿÀeúÿüeúÿ fúÿ\fúÿfúÿ¼fúÿÈfúÿhúÿ@húÿdhúÿ húÿÄhúÿiúÿ@iúÿÔiúÿøiúÿ4júÿXjúÿjúÿ°júÿÔjúÿøjúÿ,kúÿhkúÿkúÿ8lúÿtlúÿlúÿ<múÿÀmúÿômúÿ8núÿ´núÿoúÿ@oúÿloúÿ¨oúÿ,púÿPpúÿ(qúÿ4qúÿ@qúÿqúÿ qúÿ¸qúÿrúÿàrúÿsúÿXsúÿtúÿttúÿtúÿôuúÿ0vúÿèvúÿ$wúÿHwúÿ|wúÿ¨wúÿÜwúÿxúÿyúÿ<zúÿ`zúÿzúÿà{úÿì{úÿø{úÿ|úÿ|úÿL}úÿ}úÿÄ}úÿP~úÿt~úÿø~úÿhúÿ,úÿPúÿúÿ,úÿhúÿúÿ¸úÿäúÿúÿ4úÿ`úÿúÿ°úÿÔúÿúÿDúÿhúÿ¬úÿÐúÿ¤úÿHúÿ;
+- (id)kListDraggingObserver;
 - (void);
 
 // Remaining properties

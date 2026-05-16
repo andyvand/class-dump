@@ -9,18 +9,18 @@
 }
 
 + (id);
-+ (id)C;
++ (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
++ (_Bool);
 + (_Bool);
 + (unsigned char);
-+ (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 - (id);
 

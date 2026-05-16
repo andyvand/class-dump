@@ -12,13 +12,13 @@
 }
 
 + (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;

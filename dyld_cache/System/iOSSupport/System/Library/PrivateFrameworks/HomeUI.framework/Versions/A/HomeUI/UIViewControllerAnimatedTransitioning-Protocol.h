@@ -5,7 +5,5 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void)t;
-- (double)when we cannot go next for contentViewController %@;
 @end
 

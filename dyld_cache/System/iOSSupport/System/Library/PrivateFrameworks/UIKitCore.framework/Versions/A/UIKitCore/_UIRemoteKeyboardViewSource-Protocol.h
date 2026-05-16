@@ -7,12 +7,13 @@
 @protocol _UIRemoteKeyboardControllerDelegate;
 
 @protocol _UIRemoteKeyboardViewSource
-- (void)Container>";
-- (id <_UIRemoteKeyboardControllerDelegate>)SCalendarUnitHour;
-- (void)isplayModeAutomatic. This is a UIKit issue.;
-- (_Bool)PlaceholderIdentifier;
+- (void)onditions;
+- (_Bool)oller doesn't support state restoration, so skipping it and marking that we should ignore snapshot:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)d.fill;
+- (void)¾7;
+- (void)ax13¸;
 - (void);
-- (_Bool);
+- (id <_UIRemoteKeyboardControllerDelegate>)¹;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIRemoteKeyboardControllerDelegate> controllerDelegate;

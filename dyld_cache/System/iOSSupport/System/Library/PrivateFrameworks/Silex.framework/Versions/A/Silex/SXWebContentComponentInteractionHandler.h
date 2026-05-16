@@ -13,9 +13,10 @@
 }
 
 - (void);
-- (id)eededWithCompletionQueue:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)er: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ÁÝð!X@ùñîð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

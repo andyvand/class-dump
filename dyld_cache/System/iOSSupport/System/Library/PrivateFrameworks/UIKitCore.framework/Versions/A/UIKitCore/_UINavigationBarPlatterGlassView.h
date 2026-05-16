@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)_UINavigationBarHostedViewWrapper;
+- (id)UIKeyboardEmojiAndStickerCollectionView;
 
 @end
 

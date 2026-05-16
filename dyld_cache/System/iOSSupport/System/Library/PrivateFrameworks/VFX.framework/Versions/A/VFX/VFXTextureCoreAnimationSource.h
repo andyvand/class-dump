@@ -28,8 +28,1609 @@
 - (void);
 - (double);
 - (void);
-- (id);
-- (void)q?¬X¾# >­ùm?¤ßn?~«E¾ïå>8q?K[l?áÒ1¾2V{>w.t?®õi?KÊ¾×Z>Æv?´!g?µÜ	¾SÊ;>Úÿx?{d?(ë½î>øãz?wKb?¤TÂ½ïÉ>v|?õ`?,Ô½ÎÒ=w¼}?ÌF_?;e½=©¿~?¶^?>v½rM=%t?;;
+- (id)lic:device particle_counters* counters() const {
+        
+        particle_data_description desc = particle_header.descriptions[ particle_data_index_counters ];
+        return (device particle_counters *)(data + desc.offset);
+    }
+
+    particle_data(constant particle_data_header& particle_header,
+                  device const uint8_t* data)
+    :particle_header(particle_header), data(data)
+    {
+    }
+    
+    
+
+    uint32_t get_active_count() const { return counters()->get_active_count(); }
+    void set_active_count(uint32_t v) { counters()->set_active_count(v); }
+
+    uint32_t get_live_count() { return counters()->get_live_count(); }
+    void set_live_count(uint32_t v) { counters()->set_live_count(v); }
+
+    uint32_t get_added_count() { return counters()->get_added_count(); }
+    void set_added_count(uint32_t v) { counters()->set_added_count(v); }
+
+    uint32_t get_dead_count() { return counters()->get_dead_count(); }
+    void set_dead_count(uint32_t v) { counters()->set_dead_count(v); }
+
+    uint32_t get_generated_count() { return counters()->get_generated_count(); }
+    void add_generated_count(uint32_t v) { counters()->add_generated_count(v); }
+    
+    uint32_t get_allocated_count() { return counters()->get_allocated_count(); }
+    void set_allocated_count(uint32_t v) { counters()->set_allocated_count(v); }
+    
+    uint32_t get_current_seed() { return counters()->get_current_seed(); }
+    void set_current_seed(uint32_t v) { counters()->set_current_seed(v); }
+    
+    uint32_t get_visible_count() const { return counters()->get_visible_count(); }
+    void set_visible_count(uint32_t v) { counters()->set_visible_count(v); }
+
+    uint32_t increment_live_count() { return counters()->increment_live_count(); }
+    uint32_t increment_dead_count() { return counters()->increment_dead_count(); }
+
+    bool is_outside(uint index) const { return counters()->is_outside(index); }
+    bool is_outside(thread uint* index, int spawnid) { return counters()->is_outside(index, spawnid); }
+    uint index_from_added(uint index) { return counters()->index_from_added(index); }
+    bool newly_created_is_outside(thread uint* index) { return counters()->newly_created_is_outside(index); }
+    bool newly_created_is_outside(thread uint* index, int spawnid) { return counters()->newly_created_is_outside(index, spawnid); }
+    int32_t get_spawn_id(uint index){ return counters()->get_spawn_id(index); }
+    int32_t get_spawn_id_if_present(uint index, int32_t dispatch_spawn_id){ return counters()->get_spawn_id_if_present(index, dispatch_spawn_id); }
+
+    float4x4 world_from_emitter() { return counters()->world_from_emitter; }
+    float3 emitter_scale() { return vfx_get_scale(world_from_emitter()); }
+    float4 emitter_orientation() { return vfx_quat_(world_from_emitter()); }
+
+    
+
+    uint32_t init_kernel_seed(uint32_t kernel_offset, uint32_t particle_offset) {
+        return counters()->get_current_seed() + kernel_offset + particle_offset;
+    }
+    uint32_t get_seed(int pid) {
+        return init_kernel_seed(0, pid);
+    }
+    
+    
+
+    device uint32_t* get_uint32(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device uint32_t *)(data + desc.offset);
+    }
+    
+    device atomic_uint* get_atomic_uint(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device atomic_uint *)(data + desc.offset);
+    }
+    
+    device int32_t* get_int32(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device int32_t *)(data + desc.offset);
+    }
+
+    device float* get_float(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float *)(data + desc.offset);
+    }
+
+    device float2* get_float2(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float2 *)(data + desc.offset);
+    }
+
+    device float3* get_float3(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float3 *)(data + desc.offset);
+    }
+
+    device float4* get_float4(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float4 *)(data + desc.offset);
+    }
+
+    
+    
+    bool has(int data_index) const {
+        return particle_header.descriptions[ data_index ].offset > 0;
+    }
+    
+    bool has(int data_index, int16_t type) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return desc.offset > 0 && desc.type == type;
+    }
+
+    
+
+    float3 get_position(int pid) const {
+        return get_float3(particle_data_index_positions)[pid];
+    }
+
+    void set_position(int pid, float3 v) {
+        get_float3(particle_data_index_positions)[pid] = v;
+    }
+
+    float3 get_velocity(int pid) const {
+        return get_data_f3(has_velocity, particle_data_index_velocities, DEFAULT_VELOCITY);
+    }
+
+    void set_velocity(int pid, float3 v) {
+        set_data_f3(has_velocity, particle_data_index_velocities, v);
+    }
+
+    float4 get_color(int pid) const {
+        return get_data_f4(has_color, particle_data_index_colors, DEFAULT_COLOR);
+    }
+
+    half4 get_color_as_half(int pid) const {
+        half4 color = half4(get_color(pid));
+        color.a = saturate(color.a);
+        return color;
+    }
+
+    void set_color(int pid, float4 v) {
+        set_data_f4(has_color, particle_data_index_colors, v);
+    }
+
+    float2 get_ribbon_length(int pid) const {
+        return get_data_f2(has_ribbon_length, particle_data_index_ribbon_lengths, 0.f);
+    }
+
+    void set_ribbon_length(int pid, float2 v) {
+        set_data_f2(has_ribbon_length, particle_data_index_ribbon_lengths, v);
+    }
+
+    float3 get_size(uint pid) const {
+        
+        if (is_defined_and_true(has_size3D)) {
+            return get_float3(particle_data_index_sizes)[ pid ];
+        } else if (is_defined_and_true(has_size2D)) {
+            return float3(get_float2(particle_data_index_sizes)[ pid ], 0.001f); 
+        } else if (is_defined_and_true(has_size1D)) {
+            return float3(get_float(particle_data_index_sizes)[ pid ]);
+        }
+        
+        particle_data_description desc = particle_header.descriptions[ particle_data_index_sizes ];
+        if (desc.offset > 0) {
+            switch (desc.type) {
+                case particle_data_type_float3:return get_float3(particle_data_index_sizes)[ pid ];
+                case particle_data_type_float2:return float3(get_float2(particle_data_index_sizes)[ pid ], 0.001f);
+                case particle_data_type_float:return float3(get_float(particle_data_index_sizes)[ pid ]);
+            }
+        }
+        return DEFAULT_SIZE;
+    }
+
+    void set_size(int pid, float3 v) {
+        
+        if (is_defined_and_true(has_size3D)) {
+            get_float3(particle_data_index_sizes)[ pid ] = v;
+        } else if (is_defined_and_true(has_size2D)) {
+            get_float2(particle_data_index_sizes)[ pid ] = v.xy;
+        } else if (is_defined_and_true(has_size1D)) {
+            get_float(particle_data_index_sizes)[ pid ] = v.x;
+        } else {
+            
+            particle_data_description desc = particle_header.descriptions[ particle_data_index_sizes ];
+            if (desc.offset > 0) {
+                switch (desc.type) {
+                    case particle_data_type_float3:get_float3(particle_data_index_sizes)[ pid ] = v;
+                        break;
+                    case particle_data_type_float2:get_float2(particle_data_index_sizes)[ pid ] = v.xy;
+                        break;
+                    case particle_data_type_float:get_float(particle_data_index_sizes)[ pid ] = v.x;
+                        break;
+                }
+            }
+        }
+    }
+
+    float2 get_size2D(uint pid) const {
+        return get_size(pid).xy;
+    }
+
+    void set_size2D(uint pid, float2 size) {
+        set_size(pid, float3(size, 1.f));
+    }
+
+    float get_size1D(uint pid) const {
+        return get_size(pid).x;
+    }
+
+    void set_size1D(uint pid, float size) {
+        set_size(pid, float3(size));
+    }
+
+    float4 get_orientation(int pid) const {
+        return get_data_f4(has_orientation, particle_data_index_orientations, DEFAULT_ORIENTATION);
+    }
+
+    void set_orientation(int pid, float4 v) {
+        set_data_f4(has_orientation, particle_data_index_orientations, v);
+    }
+
+    float4 get_angular_velocity(int pid) const {
+        return get_data_f4(has_angular_velocity, particle_data_index_angular_velocities, DEFAULT_ANGULAR_VELOCITY);
+    }
+
+    void set_angular_velocity(int pid, float4 v) {
+        set_data_f4(has_angular_velocity, particle_data_index_angular_velocities, v);
+    }
+
+    float get_angle(int pid) const {
+        return get_data_f(has_angle, particle_data_index_angles, DEFAULT_ANGLE);
+    }
+
+    void set_angle(int pid, float v) {
+        set_data_f(has_angle, particle_data_index_angles, v);
+    }
+
+    float get_angle_velocity(int pid) const {
+        return get_data_f(has_angle_velocity, particle_data_index_angle_velocities, DEFAULT_ANGLE_VELOCITY);
+    }
+
+    void set_angle_velocity(int pid, float v) {
+        set_data_f(has_angle_velocity, particle_data_index_angle_velocities, v);
+    }
+
+    
+
+    float get_age(int pid) const {
+        return get_data_f(has_age, particle_data_index_ages, DEFAULT_AGE);
+    }
+
+    void set_age(int pid, float v) {
+        set_data_f(has_age, particle_data_index_ages, v);
+    }
+
+    float get_lifetime(int pid) const {
+        return get_data_f(has_lifetime, particle_data_index_lifetimes, DEFAULT_LIFETIME);
+    }
+
+    void set_lifetime(int pid, float v) {
+        set_data_f(has_lifetime, particle_data_index_lifetimes, v);
+    }
+
+    float get_texture_frame(int pid) const {
+        return get_data_f(has_texture_frame, particle_data_index_frames, DEFAULT_TEXTURE_FRAME);
+    }
+
+    void set_texture_frame(int pid, float v) {
+        set_data_f(has_texture_frame, particle_data_index_frames, v);
+    }
+
+    float3 get_linear_factor(int pid) const {
+        return get_data_f3(has_linear_factor, particle_data_index_linear_factors, DEFAULT_LINEAR_FACTOR);
+    }
+
+    void set_linear_factor(int pid, float3 v) {
+        set_data_f3(has_linear_factor, particle_data_index_linear_factors, v);
+    }
+
+    float3 get_angular_factor(int pid) const {
+        return get_data_f3(has_angular_factor, particle_data_index_angular_factors, DEFAULT_ANGULAR_FACTOR);
+    }
+
+    void set_angular_factor(int pid, float3 v) {
+        set_data_f3(has_angular_factor, particle_data_index_angular_factors, v);
+    }
+
+    
+    float3 get_pivot(int pid) const {
+        return has_data(has_pivot, particle_data_index_pivots)
+        ? unpack_unorm4x8_to_float(get_uint32(particle_data_index_pivots)[pid]).xyz
+        :DEFAULT_PIVOT_F; 
+    }
+
+    
+    void set_pivot(int pid, float3 v) {
+        uint32_t u = pack_float_to_unorm4x8(float4(v, 0.f));
+        set_data_u(has_pivot, particle_data_index_pivots, u);
+    }
+    
+    
+    float3 get_signed_pivot(int pid) const {
+        return get_pivot(pid) * 2 - 1;
+    }
+
+    float3 get_target(int pid) const {
+        return get_data_f3(has_target, particle_data_index_targets, DEFAULT_TARGET);
+    }
+
+    void set_target(int pid, float3 v) {
+        set_data_f3(has_target, particle_data_index_targets, v);
+    }
+
+    
+
+    float get_mass(int pid) const {
+        return get_data_f(has_mass, particle_data_index_masses, DEFAULT_MASS);
+    }
+
+    void set_mass(int pid, float v) {
+        set_data_f(has_mass, particle_data_index_masses, v)
+    }
+
+    uint32_t get_id(int pid) const {
+        return get_data_u(has_particle_id, particle_data_index_ids, 0);
+    }
+
+    void set_id(int pid, uint32_t v) {
+        set_data_u(has_particle_id, particle_data_index_ids, v);
+    }
+
+    uint32_t get_parent_id(int pid) const {
+        return get_data_u(has_parent_id, particle_data_index_parent_ids, 0);
+    }
+
+    void set_parent_id(int pid, uint32_t v) {
+        set_data_u(has_parent_id, particle_data_index_parent_ids, v);
+    }
+
+    float get_roughness(int pid) const {
+        return has(particle_data_index_roughness) ? get_float(particle_data_index_roughness)[pid] :DEFAULT_ROUGHNESS;
+    }
+
+    void set_roughness(int pid, float v) {
+        if (has(particle_data_index_roughness)) { get_float(particle_data_index_roughness)[pid] = v; }
+    }
+
+    float get_metalness(int pid) const {
+        return has(particle_data_index_metalness) ? get_float(particle_data_index_metalness)[pid] :DEFAULT_METALNESS;
+    }
+
+    void set_metalness(int pid, float v) {
+        if (has(particle_data_index_metalness)) { get_float(particle_data_index_metalness)[pid] = v; }
+    }
+
+    float get_emission(int pid) const {
+        return has(particle_data_index_emission) ? get_float(particle_data_index_emission)[pid] :DEFAULT_EMISSION;
+    }
+
+    void set_emission(int pid, float v) {
+        if (has(particle_data_index_emission)) { get_float(particle_data_index_emission)[pid] = v; }
+    }
+
+    float4 get_user_data1(int pid) const {
+        return get_data_f4(has_user_data1, particle_data_index_user_data1s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data1(int pid, float4 v) {
+        set_data_f4(has_user_data1, particle_data_index_user_data1s, v);
+    }
+
+    float4 get_user_data2(int pid) const {
+        return get_data_f4(has_user_data2, particle_data_index_user_data2s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data2(int pid, float4 v) {
+        set_data_f4(has_user_data2, particle_data_index_user_data2s, v);
+    }
+
+    float4 get_user_data3(int pid) const {
+        return get_data_f4(has_user_data3, particle_data_index_user_data3s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data3(int pid, float4 v) {
+        set_data_f4(has_user_data3, particle_data_index_user_data3s, v);
+    }
+
+    float4 get_user_data4(int pid) const {
+        return get_data_f4(has_user_data4, particle_data_index_user_data4s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data4(int pid, float4 v) {
+        set_data_f4(has_user_data4, particle_data_index_user_data4s, v);
+    }
+
+    uint32_t get_index_from_id(int pid) const {
+        return get_data_u(has_particle_id, particle_data_index_index_from_id, VFX_PARTICLE_INVALID);
+    }
+    
+    
+    uint32_t safe_get_index_from_id(int32_t pid) const {
+        if (pid < 0 || pid >= int(counters()->get_allocated_count())){
+            return VFX_PARTICLE_INVALID;
+        }
+        return get_data_u(has_particle_id, particle_data_index_index_from_id, VFX_PARTICLE_INVALID);
+    }
+    
+    void set_index_from_id(int pid, uint32_t index) const {
+        set_data_u(has_particle_id, particle_data_index_index_from_id, index);
+    }
+    
+    uint32_t get_free_id(int pid) const {
+        return get_data_u(has_particle_id, particle_data_index_free_ids, VFX_PARTICLE_INVALID);
+    }
+    
+    void set_free_id(int pid, uint32_t v) const {
+        set_data_u(has_particle_id, particle_data_index_free_ids, v);
+    }
+    
+    
+    
+    uint32_t get_neighbor_grid_list_head(int cell) const {
+        return (counters()->has_neighbor_grid && cell < int(counters()->get_grid_cell_count())) ? get_uint32(particle_data_index_neighbor_grid_heads)[cell] :VFX_PARTICLE_INVALID;
+    }
+    
+    void set_neighbor_grid_list_head(int cell, uint32_t v) const { 
+        if (counters()->has_neighbor_grid) {
+            get_uint32(particle_data_index_neighbor_grid_heads)[cell] = v;
+        }
+    }
+    
+    uint32_t atomic_exchange_neighbor_grid_list_head(int cell, uint32_t v) const {
+        return atomic_exchange_explicit(&get_atomic_uint(particle_data_index_neighbor_grid_heads)[cell], v, memory_order_relaxed);
+    }
+    
+    uint32_t get_neighbor_grid_list_next(int pid) const {
+        return counters()->has_neighbor_grid ? get_uint32(particle_data_index_neighbor_grid_nexts)[pid] :VFX_PARTICLE_INVALID;
+    }
+    
+    void set_neighbor_grid_list_next(int pid, uint32_t v) const {
+        if (counters()->has_neighbor_grid) {
+            get_uint32(particle_data_index_neighbor_grid_nexts)[pid] = v;
+        }
+    }
+    
+    uint3 pos_to_cell_3d(simd_float3 pos) const {
+        int3 grid_dim = int3(counters()->grid_dimensions);
+        return uint3((int3(floor((pos - counters()->grid_origin) / counters()->grid_cell_size)) % grid_dim + grid_dim) % grid_dim);
+    }
+    
+    uint32_t cell_3d_to_cell_index(uint3 cell_3d) const {
+        uint3 cell = cell_3d * counters()->grid_cell_stride;
+        return cell.x + cell.y + cell.z;
+    }
+    
+    uint32_t pos_to_cell_index(simd_float3 pos) const {
+        return cell_3d_to_cell_index(pos_to_cell_3d(pos));
+    }
+    
+    bool particle_index_is_valid(uint32_t index) const {
+        return index < get_active_count();
+    }
+    
+    void get_27_neighboring_cells_lists(simd_float3 pos, thread uint32_t* cell_lists) const{
+        uint3 cell_3d = pos_to_cell_3d(pos);
+        int3 grid_dim = int3(counters()->grid_dimensions);
+        
+        
+        constexpr int3 cell_offsets[13] = {
+            { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 },
+            {-1, 1, 0 }, {-1, 0, 1 }, { 1, 1, 0 }, { 1, 0, 1 }, { 0,-1, 1 }, { 0, 1, 1 },
+            {-1,-1, 1 }, { 1,-1, 1 }, {-1, 1, 1 }, { 1, 1, 1 }
+        };
+        
+        
+        
+        cell_lists[0] = get_neighbor_grid_list_head(cell_3d_to_cell_index(cell_3d));
+        int index = 1;
+        
+        for(int i = 0; i < 13; i++){
+            uint3 current_cell = uint3(((int3(cell_3d) + cell_offsets[i]) % grid_dim + grid_dim) % grid_dim);
+            cell_lists[index] = get_neighbor_grid_list_head(cell_3d_to_cell_index(current_cell));
+            index++;
+            current_cell = uint3(((int3(cell_3d) - cell_offsets[i]) % grid_dim + grid_dim) % grid_dim);
+            cell_lists[index] = get_neighbor_grid_list_head(cell_3d_to_cell_index(current_cell));
+            index++;
+        }
+    }
+    
+    uint32_t get_neighbors_in_radius(simd_float3 pos, float radius, uint32_t max_neighbor_count, thread uint32_t* neighbors) const {
+        
+        
+        for(uint i = 0; i < max_neighbor_count; i++){
+            neighbors[i] = VFX_PARTICLE_INVALID;
+        }
+        
+        if(!counters()->has_neighbor_grid) return 0; 
+        
+        uint32_t cell_lists[27];
+        
+        get_27_neighboring_cells_lists(pos, cell_lists);
+        
+        
+        uint neighbor_count = 0;
+        float squared_radius = vfx_pow2(min(radius, counters()->grid_cell_size));
+        
+        for(int cell = 0; cell < 27; cell++){
+            uint32_t particle_index = cell_lists[cell];
+            for(uint i = 0; i < counters()->max_neighbors_per_cell; i++){
+                
+                if(particle_index != VFX_PARTICLE_INVALID){
+                    
+                    float3 their_pos = get_position(particle_index);
+                    float3 diff = their_pos - pos;
+                    float squared_dist = dot(diff, diff);
+                    
+                    if(squared_dist < squared_radius){
+                        neighbors[neighbor_count] = particle_index;
+                        neighbor_count++;
+                        if(neighbor_count >= max_neighbor_count){
+                            break;
+                        }
+                    }
+                } else {
+                    break;
+                }
+                particle_index = get_neighbor_grid_list_next(particle_index);
+            }
+        }
+        
+        
+        return neighbor_count;
+    }
+    
+    uint32_t get_nearest_neighbor_in_radius(simd_float3 pos, float radius) const {
+        
+        if(!counters()->has_neighbor_grid) return VFX_PARTICLE_INVALID; 
+            
+        uint32_t cell_lists[27];
+        
+        get_27_neighboring_cells_lists(pos, cell_lists);
+            
+        uint32_t closest = VFX_PARTICLE_INVALID;
+        float min_squared_dist = MAXFLOAT;
+            
+        float squared_radius = vfx_pow2(min(radius, counters()->grid_cell_size));
+        
+        for(int cell = 0; cell < 27; cell++){
+            uint32_t particle_index = cell_lists[cell];
+            for(uint i = 0; i < counters()->max_neighbors_per_cell; i++){
+                if(particle_index != VFX_PARTICLE_INVALID){
+                    
+                    float3 their_pos = get_position(particle_index);
+                    float3 diff = their_pos - pos;
+                    float squared_dist = dot(diff, diff);
+                    
+                    if(squared_dist < min_squared_dist && squared_dist < squared_radius){
+                        closest = particle_index;
+                        min_squared_dist = squared_dist;
+                    }
+                } else {
+                    break;
+                }
+                particle_index = get_neighbor_grid_list_next(particle_index);
+            }
+        }
+
+        return closest;
+    }
+    
+    
+    
+    
+    float4x4 get_transform(int pid) const {
+        float3 pos = get_position(pid);
+        float4 ori = get_orientation(pid);
+        float3 scl = get_size(pid);
+        float4x4 emitter_from_particle = vfx_make_transform(ori, float4(pos, 1), scl);
+        if (has_pivot) {
+            float3 pvt = get_signed_pivot(pid);
+            emitter_from_particle = emitter_from_particle * vfx_make_translation(float4(-pvt, 1));
+        }
+        return emitter_from_particle;
+    }
+    
+    float4x4 get_world_transform(int pid) {
+        return counters()->world_from_emitter * get_transform(pid);
+    }
+    
+    half3 get_rme(int pid) const {
+        return half3(get_roughness(pid), get_metalness(pid), get_emission(pid));
+    }
+
+};
+
+template <int B = 4>
+struct particle_data_attachment {
+    constant particle_data_header& particle_header    [[ buffer(B) ]];
+    device const uint8_t* data                        [[ buffer(B+1) ]];
+    
+    particle_data unwrap() {
+            return particle_data(particle_header, data);
+    }
+};
+
+#endif
+
+typedef struct
+{
+    int resolution;
+    float edgeAtt;
+    simd_float4 worldPosSize;
+    simd_float4 scaleBiasNrm; 
+    simd_float4 scaleBiasTex; 
+
+    float worldCellSize;
+    float invWorldCellSize;
+
+    simd_float2 opacityScaleBias;
+    simd_float2 colorScaleBias;
+
+    int frameCount;
+} VoxelDataUniforms;
+
+NS_ASSUME_NONNULL_END
+ /* Error: Ran out of types for this method. */;
+- (void)yBased:(id)arg1 physicallyBased(l, color, intensity); break;
+#endif
+            case VFXShadingModelCustom:custom(l, color, intensity); break;
+            default:break; 
+        }
+#endif
+    }
+
+    
+    
+    
+    float pbr_dist_attenuation_alternate(float3 l, float cutoff) {
+        
+        float radius = 0.1f; 
+        float factor = 1.f / (1.f + length(l)/radius);
+        float attenuation = saturate(factor * factor); 
+        return saturate((attenuation - cutoff) / (1.f - cutoff));
+    }
+
+    float pbr_dist_attenuation(float3 l, float inv_square_radius) {
+        float sqr_dist = length_squared(l);
+        float atten = 1.f / max(sqr_dist, 0.0001f);
+
+        
+        float factor = saturate(1.f - vfx::sq(sqr_dist * inv_square_radius));
+        return atten * factor * factor;
+    }
+
+    float non_pbr_dist_attenuation(float3 l, float4 att)
+    {
+        return powr(saturate(length(l) * att.x + att.y), att.z);
+    }
+
+    float dist_attenuation(float3 unnormalized_l, vfx_light light)
+    {
+#ifdef USE_PBR
+        return pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors.w);
+        
+        
+#else
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        return non_pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors);
+#endif
+    }
+
+    float spot_attenuation(float3 l, vfx_light light)
+    {
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        
+        return saturate(dot(l, light.dir) * light.parameters.spot.scaleBias.x + light.parameters.spot.scaleBias.y);
+    }
+
+    void shade_modulate(float3 l, float4 color, float intensity)
+    {
+        constexpr half3 white = half3(1.h);
+        
+        modulate *= float3(mix(white, half3(color.rgb), half(color.a * intensity)));
+    }
+
+#ifdef USE_GOBO
+    float3 gobo(float3 pos, vfx_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        half3 g = texture2DProj(goboTexture, goboSampler, (light.shadowMatrix * float4(pos, 1.f))).rgb;
+        return light.color.rgb * float3(mix(1.h, g, half(light.color.a)));
+    }
+#endif
+
+    float shadow_hard(float3 pos, vfx_light light, depth2d<float> shadowMap)
+    {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float shadow = ComputeShadow(vfx_shadow_sampler, pos, light.shadowMatrix, shadowMap, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+    float shadow_soft_dynamic(float3 pos, vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float4 lightScreen = transformViewPosInShadowSpace(pos, light.shadowMatrix);
+        lightScreen.xyz /= lightScreen.w;
+        float shadow = ComputeSoftShadow(vfx_shadow_sampler, lightScreen.xyz, shadowMap, shadowKernel, light.shadowSampleCount, light.shadowRadius, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_soft(float3 pos, vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int shadowSampleCount)
+    {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float4 lightScreen = transformViewPosInShadowSpace(pos, light.shadowMatrix);
+        lightScreen.xyz /= lightScreen.w;
+        float shadow = ComputeSoftShadow(vfx_shadow_sampler, lightScreen.xyz, shadowMap, shadowKernel, shadowSampleCount, light.shadowRadius, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_pcf_grid(float3 pos, vfx_light light, depth2d<float> shadowMap, int shadowSampleCount)
+    {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float shadow = ComputeSoftShadowGrid(vfx_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowSampleCount, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+
+ushort getCubeFace(float3 dir)
+{
+    
+    float3 absDir = abs(dir);
+    float maxAxis = max(absDir.x, max(absDir.y, absDir.z));
+    if (absDir.z == maxAxis) {
+        
+        return dir.z > 0.0f ? 4 :5;
+    } else if (absDir.y == maxAxis) {
+        
+        return dir.y > 0.0f ? 2 :3;
+    } else {
+        
+        
+        return dir.x > 0.0f ? 0 :1;
+    }
+}
+
+
+float4x4 getFaceRotation(ushort face) {
+    float4 xAxis(1.0, 0.0, 0.0, 0.0);
+    float4 yAxis(0.0, 1.0, 0.0, 0.0);
+    float4 zAxis(0.0, 0.0, 1.0, 0.0);
+    float4 zero (0.0, 0.0, 0.0, 1.0);
+    switch (face) {
+        case 0:return float4x4(-zAxis, yAxis,  xAxis, zero); 
+        case 1:return float4x4( zAxis, yAxis, -xAxis, zero); 
+        case 2:return float4x4( xAxis,-zAxis,  yAxis, zero); 
+        case 3:return float4x4( xAxis, zAxis, -yAxis, zero); 
+        case 4:return float4x4(-xAxis, yAxis, -zAxis, zero); 
+        default:return float4x4( xAxis, yAxis,  zAxis, zero); 
+    }
+}
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#else
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, vfx_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#endif
+    {
+        
+#define USE_TANGENT_SAMPLING 0
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float  depthBias = light.parameters.omni.depthBias;
+#else
+        float2 scaleBias = light.parameters.omni.shadowScaleBias.xy;
+        float  depthBias = light.parameters.omni.shadowScaleBias.z;
+#endif
+
+        
+        pos_vs += nrm_vs * depthBias;
+
+        
+        float4 pos_ls = (light.shadowMatrix * float4(pos_vs, 1.f));
+
+#if !CFX_USE_ATLAS_FOR_SHADOW_MAP
+        
+        float z_lin = vfx::reduce_max(abs(pos_ls));
+
+        
+        
+        
+        
+        float z_ndc = (z_lin * scaleBias.x + scaleBias.y) / z_lin - depthBias;
+#endif
+
+        
+        float shadow;
+        if (sampleCount <= 1) {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+            ushort face = getCubeFace(normalize(pos_ls.xyz));
+            float4 tile = light.tiles[face];
+            shadow = ComputeShadow(vfx_shadow_sampler, (getFaceRotation(face) * pos_ls).xyz, light.parameters.omni.projection, shadowMap, tile);
+#else
+            shadow = shadowMap.sample_compare(vfx_shadow_sampler, pos_ls.xyz, z_ndc);
+#endif
+        } else {
+
+            
+            float filteringSizeFactor = light.shadowRadius;
+
+#if USE_TANGENT_SAMPLING
+            float3 tgt_x, tgt_y;
+            vfx::orthogonal_basis(pos_ls, tgt_x, tgt_y);
+#else
+            float3 nrm_ls = (light.shadowMatrix * float4(nrm_vs, 0.f)).xyz;
+#endif
+
+            
+            float totalAccum = 0.0;
+            for(int i=0; i < sampleCount; i++){
+
+#if USE_TANGENT_SAMPLING
+                float2 scale = shadowKernel[i].xy * filteringSizeFactor * 2.f;
+                float3 smp_ls = pos_ls.xyz + tgt_x * scale.x + tgt_y * scale.y;
+#else
+                float3 smp_ls = pos_ls.xyz + vfx::randomHemisphereDir(nrm_ls, shadowKernel[i].xy * 0.5 + 0.5) * filteringSizeFactor;
+#endif
+
+                
+                
+                
+
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+                ushort face = getCubeFace(normalize(smp_ls.xyz));
+                float4 tile = light.tiles[face];
+                totalAccum += ComputeShadow(vfx_shadow_sampler, (getFaceRotation(face) * float4(smp_ls, 1.0)).xyz, light.parameters.omni.projection, shadowMap, tile);
+#else
+                totalAccum += shadowMap.sample_compare(vfx_shadow_sampler, smp_ls, z_ndc);
+#endif
+
+            }
+            shadow = totalAccum / float(sampleCount);
+        }
+
+        return 1.f - shadow * light.color.a; 
+    }
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    float shadow_cascaded(float3 pos, constant vfx_light& light, depth2d<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(vfx_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius, light.tiles).a;
+        return 1.f - shadow * light.color.a; 
+    }
+#else
+    float shadow_cascaded(float3 pos, constant vfx_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(vfx_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius).a;
+        return 1.f - shadow * light.color.a; 
+    }
+#endif
+
+    
+
+    void add_directional(vfx_light light)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+#ifdef USE_GOBO
+    void add_directional_gobo(vfx_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+#endif
+
+    
+    void add_directional_hard_shadows(vfx_light light, depth2d<float> shadowMap)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_hard(surface.position, light, shadowMap);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional_soft_shadows_dynamic(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_soft_dynamic(surface.position, light, shadowMap, shadowKernel);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    void add_directional_soft_shadows(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    void add_directional_pcf_grid_shadows(vfx_light light, depth2d<float> shadowMap, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_pcf_grid(surface.position, light, shadowMap, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    void add_directional_cascaded_shadows(constant vfx_light& light, depth2d<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+#else
+    void add_directional_cascaded_shadows(constant vfx_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+#endif
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        if (debugCascades) {
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+            float4 shadowDebug = ComputeCascadedShadow(vfx_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius, light.tiles);
+#else
+            float4 shadowDebug = ComputeCascadedShadow(vfx_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius);
+#endif
+            intensity *= (1.f - shadowDebug.a);
+            shade(light.dir, light.color.rgb, intensity);
+            diffuse.rgb = mix(diffuse.rgb, shadowDebug.rgb, light.color.a);
+        } else {
+            intensity *= shadow_cascaded(surface.position, light, shadowMaps, cascadeCount, blendCascade, shadowKernel, sampleCount);
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+
+    void add_omni(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light) * BoostFactor);
+    }
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    void add_omni_soft_shadows(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#else
+    void add_omni_soft_shadows(vfx_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#endif
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity *= shadow_omni(surface.position, surface.normal, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_local_omni(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light) * BoostFactor);
+    }
+
+    
+
+    void add_spot(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+#ifdef USE_GOBO
+    void add_spot_gobo(vfx_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity      *= spot_attenuation(l, light);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+
+        
+        
+        
+              shade(l, light.color.rgb, intensity);
+        
+    }
+#endif
+
+    void add_local_spot(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+    void add_spot_soft_shadows(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;;
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+    
+#ifdef USE_GOBO
+    void add_spot_gobo_soft_shadows(vfx_light light,
+                                    depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount,
+                                    texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(l, light.color.rgb, intensity);
+    }
+#endif
+
+    
+
+#ifdef USE_PBR
+
+    
+
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+    void add_local_probe(vfx_light light, texturecube_array<half> probeTextureArray)
+#else
+    void add_local_probe(vfx_light light, texture2d_array<half> probeTextureArray)
+#endif
+    {
+#if !PROBES_NORMALIZATION
+        if (probeRadianceRemainingFactor <= 0.f)
+            return;
+#endif
+
+        bool parallaxCorrection = light.parameters.probe.parallaxCorrection;
+        int    probeIndex       = light.parameters.probe.index;
+        float3 probeExtents     = light.parameters.probe.halfExtents.xyz;
+        float  blendDist        = light.parameters.probe.halfExtents.w;
+        float3 probeOffset      = light.parameters.probe.offset;
+        float3 parallaxExtents  = light.parameters.probe.parallaxExtents;
+        float3 parallaxCenter   = light.parameters.probe.parallaxCenter;
+
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+
+        float3 specDir = vfx::mat4_mult_float3(light.shadowMatrix, r);
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(surface.position, 1.f)).xyz;
+
+        
+        float3 d = abs(pos_ls) - probeExtents;
+#if PROBES_OUTER_BLENDING
+        if (any(d > blendDist))
+#else
+        if (any(d > 0.f))
+#endif
+        {
+            return;
+        }
+
+#if PROBES_NORMALIZATION
+        
+        
+#if PROBES_OUTER_BLENDING
+        float3 nd = saturate(-(d / blendDist) * 0.5f + 0.5f);
+#else
+        float3 nd = saturate(-(d / blendDist));
+#endif
+        float probeFactor = (nd.x * nd.y * nd.z) * light.color.r;
+#else
+        
+        float sd = min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
+#if PROBES_OUTER_BLENDING
+        float probeFactor = saturate(1.f - sd / blendDist);
+#else
+        float probeFactor = saturate(-sd / blendDist);
+#endif
+        
+        
+        
+        probeFactor *= probeRadianceRemainingFactor * light.color.r; 
+#endif
+
+        if (parallaxCorrection ) {
+            
+            float3 pos_off = pos_ls + parallaxCenter;
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+
+        
+        specDir.z *= -1.0;
+        
+        
+        
+        float ao = surface.ambientOcclusion;
+#ifdef USE_BENTNORMALS
+        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, surface.roughness*surface.roughness);
+#endif
+        
+        float mipd = float(probeTextureArray.get_num_mip_levels()) - 1.f;
+        const float intensity = ao * probeFactor;
+
+        float mips = surface.roughness * mipd;
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        float2 specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+
+        
+
+        
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectance, probeFactor);
+#else
+        probeRadianceRemainingFactor = saturate(probeRadianceRemainingFactor - probeFactor);
+#ifdef DISABLE_SPECULAR
+        pbr.envDiffuse += LD * intensity * pbr.probeReflectance;
+#else
+        pbr.envSpecular += LD * intensity * pbr.probeReflectance;
+#endif
+#endif
+        
+#ifdef USE_CLEARCOAT
+        n = surface.clearCoatNormal;
+        r = reflect(-v, n);
+        specDir = vfx::mat4_mult_float3(light.shadowMatrix, r);
+        
+        specDir.z *= -1.0;
+        if (parallaxCorrection ) {
+            float3 pos_off = pos_ls + parallaxCenter;
+            
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+            
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+        mips = surface.clearCoatRoughness * mipd;
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+        LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
+        LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectanceClearCoat, probeFactor) * surface.clearCoat;
+#else
+
+#ifdef DISABLE_SPECULAR
+        pbr.envDiffuse += LD * intensity * pbr.probeReflectanceClearCoat  * surface.clearCoat;
+#else
+        specular += LD * intensity * pbr.probeReflectanceClearCoat  * surface.clearCoat;
+#endif
+#endif
+#endif
+    }
+
+    void add_global_probe(float4x4 localDirToWorldCubemapDir,
+                          float environmentIntensity,
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+                          texturecube_array<half> probeTextureArray
+#else
+                          texture2d_array<half> probeTextureArray
+#endif
+                          )
+    {
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+        
+        float3 specDir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, r);
+        float mips = surface.roughness * float(probeTextureArray.get_num_mip_levels() - 1);
+        
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, 0, level(mips)).rgb);
+#else
+        float2 specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, 0, level(mips)).rgb);
+#endif
+        
+        
+        specular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+    void add_global_probe(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n        = surface.normal;
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.roughness;
+
+#if USE_PBR_DOMINANT_DIRECTION
+        float alpha = roughness * roughness;
+        float smoothness = 1.0f - alpha;
+        
+        float specularLerpFactor = (1. - smoothness * (sqrt(smoothness) + alpha));
+        
+        float3 specularDominantNDirection = mix(r, n, specularLerpFactor); 
+#else
+        float3 specularDominantNDirection = r;
+#endif
+        
+        float ao = surface.ambientOcclusion;
+        
+        
+        
+#ifdef USE_BENTNORMALS
+        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
+#endif
+        
+        
+#ifdef USE_RE_RADIANCE_IRRADIANCE_MAP_SAMPLING
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+#else
+        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
+#endif
+        float3 dir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
+        float3 LD = specularLD.sample(vfx_lighting::linearSampler, dir, level(mipLevel)).rgb;
+        pbr.envSpecular += pbr.probeReflectance * LD * ao * environmentIntensity;
+    }
+
+#ifdef USE_CLEARCOAT
+    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n = surface.clearCoatNormal;
+        
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.clearCoatRoughness;
+
+        
+        
+        float ao = surface.ambientOcclusion;
+        
+        
+#ifdef USE_BENTNORMALS
+        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
+#endif
+        
+        
+        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
+        float3 LD = specularLD.sample(vfx_lighting::linearSampler, vfx::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
+
+        
+        float Fc = vfx_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
+        float attenuation = 1.0f - Fc;
+        specular *= (attenuation * attenuation);
+        
+        specular += pbr.probeReflectanceClearCoat * LD  * surface.clearCoat * ao * environmentIntensity;
+    }
+#endif
+    
+    
+
+    void add_irradiance_from_selfIllum()
+    {
+        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
+        float3 irradiance = surface.selfIllumination.rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+#ifdef USE_BENTNORMALS
+        float3 n = surface.bentNormal;
+        float ao = surface.aoDirectionnal;
+#else
+        float3 n = surface.normal;
+        float ao = surface.ambientOcclusion;
+#endif
+        float3 n_sh_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, n);
+        float3 irradiance = shEvalDirection(float4(n_sh_space.xy, -n_sh_space.z, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += ao * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += ao * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+#ifdef USE_BENTNORMALS
+        float3 n = surface.bentNormal;
+        float ao = surface.aoDirectionnal;
+#else
+        float3 n = surface.normal;
+        float ao = surface.ambientOcclusion;
+#endif
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(vfx_lighting::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+        
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+#ifdef USE_IES_LIGHT
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, vfx_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = vfx::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = vfx::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(vfx_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies_soft_shadows(vfx_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+#endif
+
+#ifdef USE_AREA_LIGHT
+    
+
+    void add_area_rectangle(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(vfx_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(vfx_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+#endif
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *layer; // @synthesize layer=_layer;

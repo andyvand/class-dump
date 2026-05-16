@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextRange *)B;
-- (void)olatedImageWithFirstImage:(UITextRange *)arg1 secondImage:(NSString *)arg2 blend: /* Error: Ran out of types for this method. */;
-- (long long)(;
-- (void)@ù
+- (id <UITextInputDelegate>)0@ù
 × ;
-- (NSDictionary *)!xFù1	1¢!0@ù
-× ;
-- (void)ViewInsets;
-- (struct CGRect)e>",W,N,V_delegate;
-- (id <UITextInputDelegate>)%;
+- (id <UITextInputTokenizer>)ion: /* Error: Ran out of types for this method. */;
+- (void)ngeOfCharacterFromSet:(id <UITextInputDelegate>)arg1 options: /* Error: Ran out of types for this method. */;
+- (struct CGRect)Mode;
+- (void)ertGlyphRect: /* Error: Ran out of types for this method. */;
+- (UITextRange *)AtIndexPath:(struct CGPoint)arg1;
+- (UITextRange *)oFillDidInsertWithExplicitInvocationMode:(UITextPosition *)arg1;
+- (UITextPosition *)C,D,N;
+- (void)t<OS_os_log>",R;
 
 @optional
-- (struct CGRect);
-- (NSArray *);
-- (void)P;
-- (UIView *)Sg;
-- (UITextPlaceholder *)ùñ°1¢!0@ù
-× ;
-- (void);
+- (struct CGRect)@?0@"NSNumber"8@"NSMutableArray"16^B24;
+- (UITextPosition *);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -56,5 +51,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

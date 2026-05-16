@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-@protocol WBSFormAutoFillFrame;
-
 @protocol WBSFormAutoFillFrame
-- (id <WBSFormAutoFillFrame>);
-- (struct OpaqueJSValue *);
-- (struct OpaqueJSContext *)xY;
-- (struct OpaqueFormAutoFillFrame *)roying player;
-- (NSURL *);
 @end
 

@@ -9,27 +9,27 @@
 }
 
 + (void);
-+ (struct CGRect)Ԥ;
++ (struct CGRect);
 + (_Bool);
 + (_Bool);
-+ (struct CGPath *)D;
++ (struct CGPath *);
 + (_Bool);
 + (struct CGRect);
-+ (struct CGSize)ld;
++ (struct CGSize);
 + (_Bool);
-+ (void);
++ (void);
 + (void);
 + (Class);
 + (id);
 + (struct CGPath *);
-+ (struct CGRect)x;
++ (struct CGRect);
 + (void);
 + (struct CGRect);
 + (_Bool);
 + (_Bool);
 + (struct CGRect);
 + (struct CGSize);
-+ (struct CGRect);
++ (struct CGRect);
 
 @end
 

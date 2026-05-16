@@ -7,23 +7,16 @@
 @protocol UIResponderStandardEditActions
 
 @optional
-- (void);
+- (void)S;
+- (void)urrentIntent:(NSDictionary * (^)(NSDictionary *))arg1 %@;
+- (void)ew animatedImage:(id)arg1 %@ %@];
 - (void);
+- (void)jÐ8ÊÿÁÂjp9Êÿ©ÂjÍ²ÿ©Âjt,ÆÿùÂj-ÊÿÉÂjÍ²ÿÉÂjÍ²ÿ±ÂjX,Æÿ;
+- (void)ÿU_kà}¹ÿm_kÜ}¹ÿ-_kØ}¹ÿM_kì}¹ÿ%_kè}¹ÿe_ký¹ÿ;
+- (void);
+- (void);
 - (void);
-- (void);
-- (void)!´DùñÆ°1¢!0@ù
-× ;
-- (void)ord;
-- (void)ckoutView:(id)arg1;
-- (void)ActionForShortcutItem in willConnectToSession completed:(id)arg1 %@;
-- (void)ew?Title=[Downgrade] Attempted to send ;
-- (void)tKitP33_8A4A7F2520585D04B4143D0BC937F1D724AppCardRemoteViewTracker;
-- (void)ebViewControllerFullDetent;
-- (void)Ü ô;
-- (void)ltDetails;
-- (void)Ý*¿Y;
-- (void)©ÿýß¿Ü©ÿ;
-- (void)<ì;
-- (void)B;
+- (void).;
+- (void)ðÜÌz.;
 @end
 

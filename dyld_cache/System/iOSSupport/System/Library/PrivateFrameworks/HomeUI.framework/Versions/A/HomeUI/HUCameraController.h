@@ -230,15 +230,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (double);
 - (_Bool);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -302,17 +302,19 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)1â
+0@ù
+× ;
 - (void);
-- (id);
-- (id)home tab since room section should now be hidden, select sidebar section:%ld row:%ld for selected item:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (id)_pG;
-- (void)er:] /* Error: Ran out of types for this method. */;
+- (void)bMigrationSuccessViewController:_doneAction] user tapped done button /* Error: Ran out of types for this method. */;
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraPlayerAccessoryViewController *accessoryViewController; // @synthesize accessoryViewController=_accessoryViewController;

@@ -56,12 +56,12 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (id);
 - (void);
-- (void);
-- (id);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (id);

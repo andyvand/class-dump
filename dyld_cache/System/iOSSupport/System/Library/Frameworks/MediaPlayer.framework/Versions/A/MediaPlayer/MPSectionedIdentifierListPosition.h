@@ -13,20 +13,20 @@
     long long _entryType;
 }
 
-+ (id)4@88@96@104B112@116;
-+ (id)2;
-+ (id)teTombstonePropagator";
-+ (_Bool)teListeningEnabledForCurrentUserAndAccessory returning fallback value=%{BOOL}u [monitorForCurrentUser=nil];
-- (void);
-- (unsigned long long)ond to the expected selector. This breaks FindMy functionality in Messages! Please file a radar.;
-- (_Bool);
-- (id);
-- (void);
++ (id);
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (id);
 - (long long);
-- (id)esForSecureCoding cannot contain NSObject;
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (void)MISSING__;
+- (id)ropertyArtistArtwork;
 
 // Remaining properties
 @property(readonly, nonatomic) long long entryType; // @synthesize entryType=_entryType;

@@ -15,21 +15,20 @@ __attribute__((visibility("hidden")))
     UIColor *_fillColor;
 }
 
-+ (Class)ontrollerDelegate>",W,D,N;
-- (id)t;
-- (void)cy;
-- (id)};
++ (Class);
+- (id);
 - (void);
-- (void)0@ù
-× ;
-- (void)LÕ;
-- (void)%@);
-- (void).dragging-system-connection;
-- (id)yCellOutlineShadow;
-- (long long)¼©Ôþ¤·;
-- (void)X'e;
-- (_Bool)Ëmþ+Úü;
-- (void);
+- (id);
+- (void);
+- (void);
+- (void)te:(struct CGRect)arg1;
+- (id)Radii;
+- (void)H;
+- (void)MailCompositionService;
+- (_Bool)emFrameCount > 0;
+- (void);
+- (long long)Üß;
+- (void)OêÏì¼j;
 
 @end
 

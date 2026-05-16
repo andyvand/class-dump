@@ -36,21 +36,24 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)d;
-- (id)lass getNEVPNManagerClass(void)_block_invoke;
-- (void)pecified, %@, is above the maximum amount you are allowed to send.;
-- (id)app, which this device does not have.;
 - (void);
+- (void);
+- (id);
+- (void):form-data; name="%@"; filename="%@"
+Content-Type:%@
+
+ /* Error: Ran out of types for this method. */;
+- (id)I;
+- (void)\Ìôÿöh;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *active; // @synthesize active=_active;

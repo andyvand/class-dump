@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (void)layView.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;

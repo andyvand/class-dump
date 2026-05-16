@@ -32,8 +32,8 @@
 + (struct CGRect);
 + (struct CGRect);
 + (id);
-+ (_Bool)ment size between -1 and 1;
-+ (id)D;
++ (_Bool);
++ (id)ã0;
 - (id);
 - (id);
 - (id);
@@ -52,7 +52,7 @@
 - (void);
 - (id);
 - (id);
-- (id)%;
+- (id);
 - (id);
 - (id);
 - (Class);
@@ -76,7 +76,7 @@
 - (void);
 - (void);
 - (void);
-- (void)";
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -152,36 +152,36 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (struct CGRect);
-- (unsigned long long);
-- (_Bool)ayContent;
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (Class);
 - (id);
+- (unsigned long long);
+- (struct CGRect);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)Á¥	!;
-- (id);
-- (long long);
+- (long long)ous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)H"\¨;
+- (id)iseIsHeightBased;
+- (id)esponderKey;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_cachedVisibleStrokes; // @synthesize _cachedVisibleStrokes;

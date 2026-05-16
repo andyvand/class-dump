@@ -58,27 +58,27 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (int);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)omnibar;
+- (void);
+- (id)ap;
+- (id)ü!;
+- (void);
+- (id)ration:(id)arg1 %f, queryID:(id)arg2 %llu, id:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allDataDetectorElements; // @synthesize allDataDetectorElements=_allDataDetectorElements;

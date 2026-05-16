@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
     NSString *_key;
 }
 
+- (id);
 - (void);
-- (void);
-- (id)qÇ°1¢!0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;

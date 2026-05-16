@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     id <_UIFocusSoundPlayer> _focusSoundPlayer;
 }
 
-+ (void)omming local sent message push:(id)arg1 %@;
-+ (id)orMessageWithGUID invalid parameters [key length] %@ guid %@;
++ (void);
++ (id);
 + (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIFocusSoundPlayer> focusSoundPlayer; // @synthesize focusSoundPlayer=_focusSoundPlayer;

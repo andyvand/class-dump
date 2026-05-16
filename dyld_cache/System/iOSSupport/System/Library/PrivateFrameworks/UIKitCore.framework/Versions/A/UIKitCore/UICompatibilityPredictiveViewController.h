@@ -14,18 +14,17 @@ __attribute__((visibility("hidden")))
     UIView *_customView;
 }
 
-- (void)xyFailClosedOverride;
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (double)0@ù
-× ;
-- (_Bool)toHiddenWithBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)e.PlatterItemView;
-- (id)ÿò";i;
-- (_Bool)Ü¶Íÿ&Ù9þk;
-- (id)o;
-- (void)Â(ÙÑºo;
+- (double)Entry";
+- (_Bool);
+- (_Bool)By:(id)arg1;
+- (_Bool)$±;
+- (void)InDragSession;
+- (id)Ã;
+- (void)7Óf;
+- (void)PÆÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customView; // @synthesize customView=_customView;

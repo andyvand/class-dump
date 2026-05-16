@@ -23,24 +23,24 @@
 - (void);
 - (void);
 - (id);
-- (id)ription";
-- (id)SObject<OS_dispatch_queue>";
-- (void)edForAccount:store: /* Error: Ran out of types for this method. */;
-- (void)ffersIfNeeded;
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
-- (unsigned int);
 - (void);
 - (void);
-- (unsigned int);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (void);
-- (void)pletion:(unsigned int)arg1;
-- (_Bool)ctivation-command-id;
+- (unsigned int);
+- (unsigned int);
+- (void)ayloadForItemAssetLoad:serviceName=nil for assetLoadEndEvent date=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <MPCProcessAudioTapDelegate> delegate; // @synthesize delegate=_delegate;

@@ -12,14 +12,14 @@
 {
 }
 
-- (id)d;
-- (_Bool);
 - (id);
 - (_Bool);
-- (Class);
 - (id);
 - (_Bool);
-- (id)ircleView;
+- (_Bool);
+- (Class);
+- (id);
+- (id)GSgAByAcDyAfJGACGAByAcDyADyDD]yAFG¦\ySbGGAJGACGtG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *errorText;

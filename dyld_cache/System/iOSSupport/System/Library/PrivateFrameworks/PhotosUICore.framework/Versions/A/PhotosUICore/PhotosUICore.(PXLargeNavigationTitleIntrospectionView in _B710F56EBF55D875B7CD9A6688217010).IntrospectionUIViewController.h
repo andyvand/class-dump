@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)setWindowSceneID:(id)arg1;
+- (void)%8;
 
 @end
 

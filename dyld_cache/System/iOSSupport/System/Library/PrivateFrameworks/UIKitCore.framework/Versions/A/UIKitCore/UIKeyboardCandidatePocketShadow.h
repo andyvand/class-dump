@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     _Bool _showsInDarkBackground;
 }
 
-+ (double);
++ (double);
 + (id);
-- (_Bool)ncyUserPersona;
 - (_Bool);
-- (void)nFrom:(_Bool)arg1 properties: /* Error: Ran out of types for this method. */;
-- (void)dateTransferPreviewGenerationState:(_Bool)arg1 newState: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void)agerDelegate>",W,N,V_delegate;
-- (id)emSoundOptionFlagsKey;
-- (void)j;
+- (void);
+- (void);
+- (id),R,N,V_transactionReason;
+- (void);
+- (_Bool)@9;
+- (void)ôÿÿÿì}êÿ·þ¸}þÿØ%íÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;

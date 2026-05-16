@@ -20,17 +20,18 @@
 - (id);
 - (id);
 - (long long);
-- (long long)pendingRequests;
 - (id);
+- (long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)nsion state:%{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void)ollectionView:(_Bool)arg1 didBeginMultipleSelectionInteractionAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (id)tionsAndSelections;
 
 // Remaining properties
 @property(nonatomic) __weak AKController *controller; // @synthesize controller=_controller;

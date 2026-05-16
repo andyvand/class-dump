@@ -24,16 +24,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool)mary);
-- (id)it305;
-- (id)Action Name);
-- (_Bool)¨;
+- (id)RunDescriptor:input:automationType:interactions:siriInteractions:conditions:resultExpectation: /* Error: Ran out of types for this method. */;
+- (id)e;
+- (_Bool)tion"8Q16;
+- (void)into account current traffic conditions.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;

@@ -11,17 +11,15 @@
     id <_UIIVCInterface> _forwardingInterface;
 }
 
-+ (id)!0@ù
-× ;
-+ (id)ode: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (void);
-- (id)d reindex scheduling;
-- (void)failure;
+- (id);
 - (void);
 - (void);
-- (void)!(Aù1Â°1¢!0@ù
-× ;
-- (id)leForPresentation;
+- (void);
+- (id);
+- (void)À1pþ_Ì;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIIVCInterface> forwardingInterface; // @synthesize forwardingInterface=_forwardingInterface;

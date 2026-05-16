@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     unsigned char _key[16];
 }
 
-+ (id)Document: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (id);
 - (id);

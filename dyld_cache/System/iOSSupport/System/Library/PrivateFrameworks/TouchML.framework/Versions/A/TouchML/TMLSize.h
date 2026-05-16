@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (double);
 - (struct CGSize);
-- (id);
 - (double);
+- (double);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double height;

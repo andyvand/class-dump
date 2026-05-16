@@ -25,9 +25,9 @@
 - (id);
 - (void);
 - (void);
+- (double);
 - (CDUnknownBlockType);
 - (void);
-- (double);
 - (void);
 
 // Remaining properties

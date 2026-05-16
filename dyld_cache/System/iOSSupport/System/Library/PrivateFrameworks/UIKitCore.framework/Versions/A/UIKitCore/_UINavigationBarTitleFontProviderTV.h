@@ -12,8 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)!pÐ!(GùÑÂÐ1¢!0@ù
-× ;
+- (id)nimating>"32;
 
 @end
 

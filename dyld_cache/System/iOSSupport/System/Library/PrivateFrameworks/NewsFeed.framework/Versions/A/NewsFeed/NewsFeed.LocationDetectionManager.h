@@ -10,8 +10,10 @@
 {
     MISSING_TYPE *observers;
     MISSING_TYPE *locationManager;
+    MISSING_TYPE *statusFetchQueue;
     id observableMostFrequentLocation;
     MISSING_TYPE *_mostFrequentLocation;
+    MISSING_TYPE *_currentLocation;
     MISSING_TYPE *onUserInteractedWithLocationAuthorizationTCC;
 }
 
@@ -19,17 +21,23 @@
 - (void);
 - (id);
 - (id);
-- (void)@;
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (void)À;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)ableViewCell.swift;
+- (id);
+- (void);
+- (void)]+:ìéÿ]+:èwþ]+:´Ã$ÿ /* Error: Ran out of types for this method. */;
+- (void)£;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool authorized;
+@property(nonatomic, retain) CLLocation *currentLocation;
 @property(nonatomic, readonly) _Bool locationServicesEnabled;
 @property(nonatomic, retain) CLLocation *mostFrequentLocation;
 @property(nonatomic, retain) id observableMostFrequentLocation; // @synthesize observableMostFrequentLocation;

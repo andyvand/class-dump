@@ -29,19 +29,15 @@
 }
 
 + (_Bool);
-- (_Bool)ridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)};
-- (id)gible for showing Apple SMS Filter.;
-- (id)r asset %@;
-- (id)equest for resource file URLs for asset %@;
-- (void)o converge;
-- (void)singPipelineComponent> No chat found, nothing to converge;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -52,20 +48,23 @@
 - (void);
 - (void);
 - (void);
-- (void)d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void)dDelegateRoutesChanged;
-- (void)!pð!TCùÑÂð1¢!0@ù
-× ;
-- (id)V_floatingForced;
-- (id)hicsPDFRendererContext;
-- (void)&È=Il;
 - (id);
-- (void)è>Þÿ­Í¦l;
-- (id)$n;
+- (void);
+- (id);
+- (id);
+- (void)rSizeChangeOfTextContainer:(id)arg1;
+- (id)omCoder;
+- (void);
+- (void)'Ìi;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *boundaryIdentifiers;

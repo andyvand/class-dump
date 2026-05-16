@@ -25,12 +25,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedSubtitle; // @synthesize attributedSubtitle=_attributedSubtitle;

@@ -22,7 +22,7 @@
 
 + (id);
 + (id);
-+ (_Bool)IMSharedUtilities.IMActionOpenWeb;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,19 +39,19 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (void)fier;
+- (void)v;
 
 // Remaining properties
 @property(nonatomic) _Bool allAreReachable; // @synthesize allAreReachable=_allAreReachable;

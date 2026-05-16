@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)ated:fastUpdate: /* Error: Ran out of types for this method. */;
-- (void)upBuilder:(id)arg1 delegate: /* Error: Ran out of types for this method. */;
-- (id)>;
+- (id)rRule;
+- (void)providerAccount(_:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

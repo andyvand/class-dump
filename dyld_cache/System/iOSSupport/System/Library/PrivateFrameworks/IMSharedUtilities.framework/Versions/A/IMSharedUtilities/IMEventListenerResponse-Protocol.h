@@ -7,7 +7,6 @@
 @class NSDictionary, NSError;
 
 @protocol IMEventListenerResponse
-- (NSError *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;

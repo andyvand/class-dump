@@ -25,25 +25,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (long long);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (id);
+- (long long);
 - (_Bool);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id)letion: /* Error: Ran out of types for this method. */;
-- (void)ination;
-- (void)-0026BB765291;
-- (long long)EventTriggerActivationStateKey;
+- (void)ture for brightness:%lu /* Error: Ran out of types for this method. */;
+- (void)ributedString failed with error:(id)arg1 %@;
+- (id)d to fetch all faceprints:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;

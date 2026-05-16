@@ -40,10 +40,10 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (unsigned long long);
-- (id);
-- (void);
 - (WeakPtr_feba35c9);
+- (id);
 - (void *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cullMode; // @synthesize cullMode=_cullMode;

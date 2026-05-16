@@ -13,10 +13,11 @@ __attribute__((visibility("hidden")))
     _Bool _hasRequestedPreload;
 }
 
-+ (id);
++ (id)];
 - (void);
-- (id)set;
-- (void);
+- (id)ckButton;
+- (void)È¶®þµ&13p
+¹þ;
 
 // Remaining properties
 @property(readonly, nonatomic) UISDisplayContext *initialDisplayContext;

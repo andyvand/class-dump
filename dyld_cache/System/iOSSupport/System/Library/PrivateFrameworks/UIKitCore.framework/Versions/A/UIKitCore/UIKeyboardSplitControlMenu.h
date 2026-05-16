@@ -16,23 +16,22 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _finishSplitTransitionBlock;
 }
 
-+ (id),MÿbÀß;
-+ (id);
-- (int)iMessageSpam:(unsigned long long)arg1;
++ (id)îâþ;
++ (id)èl;
+- (int);
 - (_Bool);
-- (id):(unsigned long long)arg1 identifier:style:account: /* Error: Ran out of types for this method. */;
-- (void)istingChatsForIDs:(_Bool)arg1 style: /* Error: Ran out of types for this method. */;
-- (void)oSendLocalNicknameInfo:(CDUnknownBlockType)arg1;
+- (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)%;
-- (unsigned long long)<;
-- (void)%@ from guid %@ and salt %@;
+- (void);
+- (unsigned long long);
+- (void);
 - (struct CGSize);
-- (void)ánð!dFù1ÁÐ1¢!0@ù
-× ;
-- (unsigned long long)ShadowColor;
-- (id)Counter decrementReferenceForObject:(struct CGRect)arg1 invalidationHandler:] /* Error: Ran out of types for this method. */;
+- (id)oveUp:(struct CGRect)arg1;
+- (unsigned long long);
+- (void),ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType finishSplitTransitionBlock; // @synthesize finishSplitTransitionBlock=_finishSplitTransitionBlock;

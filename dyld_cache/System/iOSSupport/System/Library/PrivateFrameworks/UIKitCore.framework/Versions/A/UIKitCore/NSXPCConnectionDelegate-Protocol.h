@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
+@protocol NSSecureCoding;
 
 @protocol NSXPCConnectionDelegate
 
 @optional
-- (void)nsition:(NSXPCConnection *)arg1;
+- (id <NSSecureCoding>)KeyboardCandidateSceneHostingControllerC;
+- (void)î;
 @end
 

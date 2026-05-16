@@ -45,88 +45,89 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _contentTouchInsets;
 }
 
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)áÐ!¬@ùñ\°1Â0@ù
+× ;
+- (_Bool)@ù
+× ;
+- (_Bool)× ;
+- (void)0@ù
+× ;
+- (void)áÐ!;
+- (void)@ù
+× ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (id)á	°!`Dù1fð1Â0@ù
+× ;
+- (double): /* Error: Ran out of types for this method. */;
+- (id)lement: /* Error: Ran out of types for this method. */;
+- (id)leViewController;
+- (void)faultLabelForCell:(id)arg1;
+- (_Bool)imations;
+- (void)pedEndInputSession;
+- (id)ghtColor,S_setHighlightColor: /* Error: Ran out of types for this method. */;
+- (double)erOverlayPlatterView;
+- (void)yboardEmojiGenerationPresenter;
+- (void)availableConfiguration;
+- (long long)üã;
+- (void)èm;
+- (void)X;
+- (void)ä;
+- (void)ng to transfer an animation to an animation state that is not a direct child of the animation's animation state.;
+- (void)t (%g). Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (void)delegate set. An app delegate class must be specified to use a main storyboard file.;
+- (void)essibility contrast for slot:%ld /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ÔÐîÿ¬þÿÖÐîÿ;
+- (struct UIRectCornerRadii)Ñïÿ¼#ïÿ;
+- (struct UIEdgeInsets)formUpdate:] /* Error: Ran out of types for this method. */;
+- (id)to the -contentView.;
+- (_Bool)ctionSheet:Buttons added must have a title. /* Error: Ran out of types for this method. */;
+- (_Bool)Þ?¨êt ké?>v(­ÍÀEïÔÓz@á)äJ=ò?;
+- (struct CGSize);
 - (struct CGRect);
+- (void)©b;
 - (void);
-- (void);
-- (void);
-- (void)Declaration_IPv4";
-- (long long)adUUID;
-- (void);
+- (void)uÓôuh;
+- (id)EÖ`"n;
 - (id);
-- (struct UIRectCornerRadii);
-- (void)Insets="top"d"left"d"bottom"d"right"d};
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)entID:(_Bool)arg1;
-- (id);
-- (id)e;
-- (void)was missing mapping for MPModelPropertyLibraryPinPositionUUID;
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)û.º;
-- (id)@ù
-× ;
-- (void);
-- (void)@ù
-× ;
-- (id)Ð1¢!0@ù
-× ;
-- (double)× ;
-- (void)qÆÐ1¢!0@ù
-× ;
-- (id);
-- (double)0@ù
-× ;
-- (id)!@Gù±Î°1¢!0@ù
-× ;
-- (id)="top"d"leading"d"bottom"d"trailing"d}"scrollAccessoryInsets"{NSDirectionalEdgeInsets="top"d"leading"d"bottom"d"trailing"d}"size"{CGSize="width"d"height"d}};
-- (void)2@48@56;
-- (id)ect={CGPoint=dd}{CGSize=dd}}20@0:8B16 /* Error: Ran out of types for this method. */;
-- (id)NSPointerArray";
-- (void)boardMode:(struct UIEdgeInsets)arg1 shouldMoveKeyboard: /* Error: Ran out of types for this method. */;
-- (void):(double)arg1;
-- (void)uchUp;
-- (void)ure:(id)arg1 touchEndedAtDigitizerLocation: /* Error: Ran out of types for this method. */;
-- (_Bool)Touch;
-- (struct UIEdgeInsets)entMinSize;
-- (long long)imation: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 lengthDelta: /* Error: Ran out of types for this method. */;
-- (void)rrows;
-- (void)aptiveBackdrop;
-- (void)entedViewControllerControlStatusBarAppearance;
-- (_Bool)ame: /* Error: Ran out of types for this method. */;
-- (_Bool)ed out. This means that the view service didn't call us back.;
-- (double)been undrawn. Associated proofreadingSuggestionID = %@;
-- (void);
-- (id);
-- (id);
-- (void)ä»þÿ;
-- (_Bool)ctionClientSettings>"8@"FBSSceneTransitionContext"16;
-- (void);
-- (id)ator(void);
-- (id)not create background animator, effect view is missing.;
-- (id)entRight;
-- (_Bool)bug. bottomlayoutGuide = %@;
-- (struct CGSize)a toolbar transition while the floating bar is enabled.;
-- (id)ÿÿÿÿ;
-- (void)í;
-- (_Bool)ÿ\Ñl;
-- (_Bool)ÿ;
-- (id)gÿ«Öî÷m;
-- (id)=;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIGrabber *_bottomGrabber; // @synthesize _bottomGrabber=__bottomGrabber;

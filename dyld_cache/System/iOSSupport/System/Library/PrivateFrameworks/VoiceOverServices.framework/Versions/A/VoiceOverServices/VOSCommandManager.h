@@ -16,47 +16,47 @@
     _Bool _loadShortcuts;
 }
 
+- (_Bool);
+- (void);
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)B;
-- (id);
-- (void);
-- (id)k;
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (id)B;
-- (id)ollView;
-- (_Bool);
-- (_Bool);
+- (void);
 - (id);
-- (id);
+- (void);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)decode database JSON with error:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id)g>";
 - (id);
-- (_Bool);
 - (void);
 
 // Remaining properties

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)WithStyle:color: /* Error: Ran out of types for this method. */;
+- (_Bool)àÈÑ<v[;
 
 @end
 

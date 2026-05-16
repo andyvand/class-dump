@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
     UIResponder *_hitTestResponder;
 }
 
-- (void)ler:(id)arg1;
-- (void)IndexSetForBatch:(_Bool)arg1 indexOfTransfers: /* Error: Ran out of types for this method. */;
-- (void)ithGUIDs:(id)arg1 chatIdentifiers:style:onServices:batchNumber:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)torC;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -31,18 +31,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (void)-;
-- (void)!@ùÁ°1¢!0@ù
-× ;
 - (void);
-- (void)1¢!0@ù
+- (id)!ÀEù1eð1Â0@ù
 × ;
-- (id)x°!XFùñÍÐ1¢!0@ù
-× ;
-- (id)@16{CGRect={CGPoint=dd}{CGSize=dd}}24B56Q60;
-- (void)antPrimaryItem:(id)arg1 cachedItemOK:(id)arg2;
-- (void)tBackSwipeEnabled;
-- (id)onsibleForModalPresentation: /* Error: Ran out of types for this method. */;
+- (void)leTextDescriptorForRole:(id)arg1;
+- (void)r;
+- (void)lTransitionDidEndBlock;
+- (id)_redesign;
+- (id)ceLightConfiguration;
+- (void),Åÿq;
+- (void)¼>.ÿ?»ÕXRf;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

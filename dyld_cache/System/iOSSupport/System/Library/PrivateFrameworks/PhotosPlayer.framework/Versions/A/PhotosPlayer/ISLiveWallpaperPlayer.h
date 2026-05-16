@@ -29,8 +29,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,8 +39,8 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (_Bool);
+- (double);
 
 // Remaining properties
 @property(nonatomic, setter=_setActive:) _Bool _active; // @synthesize _active=__active;

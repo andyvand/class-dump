@@ -16,7 +16,7 @@
 }
 
 + (_Bool);
-+ (_Bool)setData;
++ (_Bool);
 
 // Remaining properties
 @property(readonly) WFHomeWorkflow *shortcut;

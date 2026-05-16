@@ -31,16 +31,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (id)erViewForDevice: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKCActionInfoButton *actionInfoButton; // @synthesize actionInfoButton=_actionInfoButton;

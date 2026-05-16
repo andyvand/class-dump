@@ -28,35 +28,36 @@
     id <TUDynamicBarAnimatorDelegate> _delegate;
 }
 
-- (void)te;
-- (double);
 - (void);
-- (void);
-- (void)ns(MFRichLinkClass)},Element.prototype.richLinkContainer=function(){if(this.isRichLink())return this;let e=this.parentElement;return e?e.richLinkContainer():(long long)arg1 null},Element.prototype.isRichLinkPlaceholder=function(){let e=this.classList;return e.length&&e.contains(linkPlaceHolderClass)},Element.prototype.richLinkPlaceholderContainer=function(){if(this.isRichLinkPlaceholder())return this;let e=this.parentElement;return e?e.richLinkPlaceholderContainer():(_Bool)arg2 null},Element.prototype.mf_isListContainer=function(){return this instanceof HTMLOListElement||this instanceof HTMLUListElement},Element.prototype.mf_insertChildrenWithUndoSupport=function(){let e=[],t=insertAttachmentsAtEnd;for(let i of this.querySelectorAll("attachment, img")){let S=i.mf_attachmentIdentifier();if(S)if(e.push(i),t)i.remove();else{let e=document.createElement("span");e.setAttribute("class",MFMailTemporaryAttachmentWrapper),e.id=S,i.replaceWith(e)}}document.execCommand("InsertHTML",!0,this.innerHTML);for(let i of e)if(t)document.body.appendChild(i);else{let e=i.mf_attachmentIdentifier();document.getElementById(e).appendChild(i)}};;
+- (_Bool);
 - (void);
 - (double);
-- (void)adCompletionHandler: /* Error: Ran out of types for this method. */;
-- (double)ces/feldsparcore/Classes/FCDraftIssuesFetchOperation.m;
-- (_Bool)nt:(long long)arg1 %lld meanCountOfEvents:%.4f standardDeviationOfEvents:%.4f totalEventsCount:%lld headlineEventCount:%lld headlinesWithValidTitleEmbeddingsEventCount:%lld headlinesWithInvalidTitleEmbeddingsEventCount:%lld headlinesWithValidBodyEmbeddingsEventCount:%lld headlinesWithInvalidBodyEmbeddingsEventCount:%lld eventCounts:%@ aggregateStoreData:%@ } /* Error: Ran out of types for this method. */;
-- (double);
-- (void);
-- (void);
 - (double);
 - (void);
 - (double);
 - (double);
+- (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (double);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (void)fineTransform=dddddd}24@0:8@"UITextPosition"16 /* Error: Ran out of types for this method. */;
-- (id)dLinkedUIElements;
-- (void)WebOptIn;
+- (long long);
 - (void);
 - (double);
-- (id);
 - (void);
-- (long long);
 - (void);
+- (void);
+- (double);
+- (void);
+- (void)ÔAa!èFùÑz	ð1Â0@ù
+× ;
+- (void)è+ùÿÜ,ùÿô,ùÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) double bottomBarOffset; // @synthesize bottomBarOffset=_bottomBarOffset;

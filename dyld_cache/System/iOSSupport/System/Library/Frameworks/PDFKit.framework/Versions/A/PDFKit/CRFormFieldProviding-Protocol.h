@@ -9,8 +9,7 @@
 @protocol CRFormFieldProviding
 
 @optional
-- (_Bool)24q32;
-- (unsigned long long)le;
+- (void);
 
 // Remaining properties
 @property _Bool autofillNewContextStart;

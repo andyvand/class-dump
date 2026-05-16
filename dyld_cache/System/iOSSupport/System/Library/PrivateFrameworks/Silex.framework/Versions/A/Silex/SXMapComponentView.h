@@ -67,24 +67,24 @@
 - (void);
 - (id);
 - (void);
-- (void)U܇;
+- (void);
 - (CDStruct_02837cd9);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (CDStruct_2b0c6e0b);
-- (id)1¢!0@ù
+- (void)0@ù
 × ;
-- (void)tHidesWhenStopped: /* Error: Ran out of types for this method. */;
-- (void)bjectMerger",R,N,V_componentStyleMerger;
-- (id)(#;
+- (id)dateVisibleBoundsIfNeeded;
+- (void)R,N;
+- (id)V_tags;
+- (CDStruct_2b0c6e0b)ComponentSizerFactory;
+- (void)@;
+- (void)Wæ?;
 
 // Remaining properties
 @property(retain, nonatomic) SXMediaEngageEvent *activeMediaEngageEvent; // @synthesize activeMediaEngageEvent=_activeMediaEngageEvent;

@@ -20,34 +20,36 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)ô¢j;
+- (void);
+- (void);
 - (_Bool);
+- (void);
 - (id);
-- (id)MultilineText",&,N,V_centerLeadingTitle;
-- (_Bool);
-- (id);
-- (void)event [non-serialized] event=%{public}@;
 - (id);
 - (void);
-- (id)á%º;
-- (void)1¢!0@ù
-× ;
-- (void){CGPoint=dd}32;
-- (void)chUsingImages:(id)arg1 scaleFactor:deviceIdiom:deviceSubtype:displayGamut:layoutDirection:sizeClassHorizontal:sizeClassVertical: /* Error: Ran out of types for this method. */;
-- (void)oundaryToPoint:(id)arg1 touchPhase:baseIsStart:flags: /* Error: Ran out of types for this method. */;
-- (void)ilingConstraint;
-- (id)tSize;
-- (id)_overrideSourceWindow;
-- (id)ighlightSelection;
-- (id)rms;
-- (id)oWindowOrientation;
-- (id)dden:,V__chromeHidden /* Error: Ran out of types for this method. */;
-- (id)PartRotationAnimation;
-- (id)IntelligenceLightSourceDescriptor;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void)usted resolvedRange, {%lu, %lu}. Stopping Writing Tools;
-- (void)orStyleAndMode(UIDatePickerStyle, UIDatePickerMode);
+- (_Bool);
+- (void);
+- (id);
+- (id)@ù
+× ;
+- (id)ð1Â0@ù
+× ;
+- (void)°!øCù±cð1Â0@ù
+× ;
+- (id)irectInteractions;
+- (id)view controller. Error:%@ /* Error: Ran out of types for this method. */;
+- (id)UIScrollDirection;
+- (void)¸²\;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *affectedSectionIdentifiers; // @synthesize affectedSectionIdentifiers=_affectedSectionIdentifiers;

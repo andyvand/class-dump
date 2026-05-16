@@ -18,25 +18,24 @@
     NSString *_hidTargetUpdatedFeedbackPatternName;
 }
 
-+ (id)!0@ù
-× ;
-- (void);
-- (void)IMESigningCertificateUUIDOverrideable;
-- (long long);
-- (id)w"16@"NSTableColumn"24;
-- (_Bool);
-- (id)onHandler:(struct _NSZone *)arg1;
++ (id)m.translation.z;
 - (void);
 - (id);
+- (void);
 - (long long);
 - (void);
-- (void);
-- (double)qËð1¢!0@ù
-× ;
 - (id);
-- (id)eViewForCell: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)!Ð!ÈCù^ð1Â0@ù
+× ;
+- (id)tion: /* Error: Ran out of types for this method. */;
+- (_Bool)unctuationOptionsForLocale:(id)arg1;
 - (void);
-- (id)ÑÙÙb;
+- (id)?,C,N,S_setBackgroundColorTransformer:(struct _NSZone *)arg1 ,V_backgroundColorTransformer;
+- (double)rtrait;
+- (void)axWidth = %g;
+- (long long)w2;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *hidTargetUpdatedFeedbackPatternName; // @synthesize hidTargetUpdatedFeedbackPatternName=_hidTargetUpdatedFeedbackPatternName;

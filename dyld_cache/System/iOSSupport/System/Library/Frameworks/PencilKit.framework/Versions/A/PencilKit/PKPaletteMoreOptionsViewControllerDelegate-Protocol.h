@@ -5,12 +5,5 @@
 //
 
 @protocol PKPaletteMoreOptionsViewControllerDelegate
-
-@optional
-- (void);
-- (void)/libAccessibility.dylib;
-- (void)UIIntelligenceSupport.framework/Versions/A/UIIntelligenceSupport;
-- (void)IFoundation;
-- (void)stem/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/UIFoundation;
 @end
 

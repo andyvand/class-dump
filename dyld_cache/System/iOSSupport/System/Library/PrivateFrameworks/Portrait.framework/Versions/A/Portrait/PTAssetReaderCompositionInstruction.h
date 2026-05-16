@@ -26,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (CDStruct_e83c9415);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak PTAssetReader *assetReader; // @synthesize assetReader=_assetReader;

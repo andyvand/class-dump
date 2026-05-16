@@ -13,8 +13,8 @@
 {
 }
 
-+ (CDUnknownBlockType);
 + (Class);
++ (CDUnknownBlockType);
 - (int);
 - (long long);
 - (long long);

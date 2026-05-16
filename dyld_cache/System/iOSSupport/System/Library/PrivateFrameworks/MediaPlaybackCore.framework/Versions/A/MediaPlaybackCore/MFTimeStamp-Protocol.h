@@ -5,7 +5,6 @@
 //
 
 @protocol MFTimeStamp
-- (double)string;
 
 // Remaining properties
 @property(nonatomic, readonly) double avTime;

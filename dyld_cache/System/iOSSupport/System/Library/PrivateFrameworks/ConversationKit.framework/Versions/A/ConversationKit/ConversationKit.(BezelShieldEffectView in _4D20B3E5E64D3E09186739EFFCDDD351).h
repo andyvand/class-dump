@@ -14,11 +14,11 @@
     MISSING_TYPE *customCornerRadius;
 }
 
-- (void);
+- (id)§K;
 - (id);
 - (void);
 - (id);
-- (id);
+- (void)nstraintCGG;
 
 @end
 

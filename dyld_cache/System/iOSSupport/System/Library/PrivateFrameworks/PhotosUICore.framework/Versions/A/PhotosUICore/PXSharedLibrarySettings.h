@@ -40,7 +40,7 @@
     double _sharingSuggestionsMinimumTimeSinceLastAsset;
 }
 
-+ (id)|ÀÊÿ@QZ÷8;
++ (id);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -99,10 +99,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
 - (void);
-- (id)on;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysConfirmMoveToPersonalLibrary; // @synthesize alwaysConfirmMoveToPersonalLibrary=_alwaysConfirmMoveToPersonalLibrary;

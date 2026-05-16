@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
     _Atomic _Bool _transactionCleared;
 }
 
-+ (id)¡tÐ!FùÑÈÐ1¢!0@ù
-× ;
++ (id)rationHandler:(CDUnknownBlockType)arg1 reuseIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool)t;
 - (void);
-- (id);
+- (void)èdÿ;
+- (id)ÏCe;
+- (_Bool)ÃÒþ±È;
 
 @end
 

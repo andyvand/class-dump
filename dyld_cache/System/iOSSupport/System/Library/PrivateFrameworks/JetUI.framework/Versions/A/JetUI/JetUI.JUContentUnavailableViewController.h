@@ -13,10 +13,10 @@
     MISSING_TYPE *retry;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

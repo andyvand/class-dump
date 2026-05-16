@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (_Bool);
 - (Class);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (void)%@" href="%@">;
+- (id)ÿnº#ÿÆó*;
 
 // Remaining properties
 @property(readonly, nonatomic) Class accountClass; // @synthesize accountClass=_accountClass;

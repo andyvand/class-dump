@@ -19,18 +19,18 @@
 + (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool)RE;
 - (id);
 - (_Bool);
-- (void)!;
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)R,N,V_modelGenericObject;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void)k__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isUsingNetwork;

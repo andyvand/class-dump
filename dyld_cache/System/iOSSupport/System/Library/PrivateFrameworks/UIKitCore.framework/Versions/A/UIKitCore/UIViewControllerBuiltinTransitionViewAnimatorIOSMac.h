@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _presenting;
 }
 
-- (_Bool)DailyAnalyticstoCloudKit;
+- (_Bool);
 - (void);
 - (double);
-- (void)ºÚ;
+- (void)owOpacity;
 
 // Remaining properties
 @property(nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;

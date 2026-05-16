@@ -39,22 +39,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (struct CGSize);
-- (id)rForDisplayAsset:spriteIndex:inLayout: /* Error: Ran out of types for this method. */;
-- (void)SimpleIndexPath=qqqq}8;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backdropGroupName;

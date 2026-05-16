@@ -13,17 +13,17 @@
     long long _comparisonType;
 }
 
-+ (_Bool)OOL}u [accessory=nil];
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (long long);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)Token;
 
 // Remaining properties
 @property(readonly, nonatomic) long long comparisonType; // @synthesize comparisonType=_comparisonType;

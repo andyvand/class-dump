@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     UIDocumentPasswordView *_uiDocPasswordView;
 }
 
-- (void)!Mh;
 - (void);
 - (void);
-- (void)unchoutCommand"16@"NSViewController<CRKCardViewControlling>"24;
 - (void);
-- (void)ray",C,N,V_baseImagesForAzimuth;
+- (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

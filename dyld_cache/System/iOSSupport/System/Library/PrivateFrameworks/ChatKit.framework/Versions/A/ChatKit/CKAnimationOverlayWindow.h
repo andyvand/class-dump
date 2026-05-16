@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
+- (id);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool)hedContentClipViewLayer;
+- (void)\G) ÆDÿ ÆDÿ;
 - (_Bool);
 
 // Remaining properties

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;

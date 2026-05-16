@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)_scrollTargetIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *activeRequests; // @synthesize activeRequests=_activeRequests;

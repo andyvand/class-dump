@@ -18,28 +18,27 @@
     long long _textAlignment;
 }
 
-- (id);
-- (id);
 - (void);
-- (_Bool)eLabelsProperty;
-- (_Bool);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)c;
-- (id);
-- (id);
 - (double);
-- (unsigned long long);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (long long)1¢!0@ù
-× ;
-- (void)FCReadingHistory",R,N;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (long long);
+- (void)perationCount:(long long)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;

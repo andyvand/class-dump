@@ -18,11 +18,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)ry;
 - (void);
-- (void)Ôx°!XFùñÍÐ1¢!0@ù
-× ;
-- (void)ontinuation:isSuspended: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)sCustomInputView;
+- (void)ÿ_pSgIego_;
 
 @end
 

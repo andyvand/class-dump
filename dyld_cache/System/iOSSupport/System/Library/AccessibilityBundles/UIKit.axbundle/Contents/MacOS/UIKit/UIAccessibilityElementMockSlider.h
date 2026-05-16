@@ -15,11 +15,11 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (struct CGRect);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 
 @end
 

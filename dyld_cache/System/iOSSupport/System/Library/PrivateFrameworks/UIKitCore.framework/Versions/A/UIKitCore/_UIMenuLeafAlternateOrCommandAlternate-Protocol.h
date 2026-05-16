@@ -7,8 +7,6 @@
 @class UICommandAlternate, _UIMenuLeafAlternate;
 
 @protocol _UIMenuLeafAlternateOrCommandAlternate
-- (UICommandAlternate *);
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) UICommandAlternate *commandAlternate;

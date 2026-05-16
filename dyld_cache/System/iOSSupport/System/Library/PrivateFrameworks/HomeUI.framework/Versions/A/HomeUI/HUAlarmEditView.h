@@ -19,9 +19,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)Q0°1b0@ù
-× ;
+- (id);
+- (void)rkRouterSettingsItemManager.m;
 
 // Remaining properties
 @property(nonatomic) _Bool accessorySupportsMusicAlarm; // @synthesize accessorySupportsMusicAlarm=_accessorySupportsMusicAlarm;

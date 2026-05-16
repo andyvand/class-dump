@@ -58,15 +58,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id)portsImages: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property __weak id <TUIKeyboardCandidateReceiver> candidateReceiver; // @synthesize candidateReceiver=_candidateReceiver;

@@ -26,31 +26,32 @@
     id <NSObject><UIPDFDocumentDelegate> _delegate;
 }
 
-+ (id)ority;
-- (void)"NSArray"16C24@"NSArray"28q36@"NSString"44@"NSString"52;
-- (id)efaults: /* Error: Ran out of types for this method. */;
-- (double)edValue: /* Error: Ran out of types for this method. */;
-- (double)setsOfSize:refreshCachedValue: /* Error: Ran out of types for this method. */;
-- (void)ufData:(id)arg1;
-- (void)age:(id)arg1 idsTrustedData: /* Error: Ran out of types for this method. */;
-- (void)le:(unsigned long long)arg1;
-- (void)achmentsWithRecordIDs:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)N,V_pendingNicknameUpdates;
++ (id);
+- (void);
+- (id);
+- (double);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id)}};
+- (id);
+- (id);
 - (struct CGPDFDocument *);
 - (struct CGPDFDocument *);
 - (_Bool);
-- (id)<4;
-- (double)ecret;
 - (id);
-- (double);
+- (id);
 - (void);
-- (unsigned long long)trailingBar;
-- (id)ardBarHeight;
-- (id)er;
-- (void)B64@?0@"NSTextRange"8{CGRect={CGPoint=dd}{CGSize=dd}}16d48@"NSTextContainer"56;
+- (double);
+- (id)0@ù
+× ;
+- (void)leHidden"b1"receivedTextInputUpdate"b1"isPresentingOrDismissingKeyboard"b1};
+- (id)onary",R,N,V_itemViews;
+- (double)ÍüÍHÏ;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly) struct CGPDFDocument *CGDocument; // @synthesize CGDocument=_cgDocument;

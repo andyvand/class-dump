@@ -17,14 +17,14 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void)p;
+- (void);
 - (_Bool);
-- (id);
-- (id)rUser: /* Error: Ran out of types for this method. */;
-- (void)e it cannot be favorited.;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *future; // @synthesize future=_future;

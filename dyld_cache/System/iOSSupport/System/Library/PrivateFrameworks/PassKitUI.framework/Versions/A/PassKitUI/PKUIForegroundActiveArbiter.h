@@ -24,7 +24,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (id)ÍÆ]6;
++ (id);
 - (void);
 - (void);
 - (unsigned int);
@@ -33,16 +33,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (CDStruct_973bafd3);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

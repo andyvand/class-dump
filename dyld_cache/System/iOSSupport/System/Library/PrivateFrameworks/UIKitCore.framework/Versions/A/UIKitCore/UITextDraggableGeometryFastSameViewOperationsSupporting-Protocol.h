@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextDraggableGeometrySameViewDropOperationResult;
+@class NSArray;
 
 @protocol UITextDraggableGeometryFastSameViewOperationsSupporting
-- (NSArray *)GùÑÄ°1¢!0@ù
-× ;
-- (UITextDraggableGeometrySameViewDropOperationResult *)vedIsHighlighted;
+- (NSArray *)À9:(NSArray *)arg1 : /* Error: Ran out of types for this method. */;
 @end
 

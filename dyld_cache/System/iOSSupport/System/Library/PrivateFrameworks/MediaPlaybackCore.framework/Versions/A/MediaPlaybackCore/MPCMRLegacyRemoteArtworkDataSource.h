@@ -9,15 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)pes;
 + (id);
-- (id)d the iCloud account with iTunes.;
++ (id);
 - (id);
-- (id)<;
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (void);
+- (_Bool);
+- (_Bool);
 
 @end
 

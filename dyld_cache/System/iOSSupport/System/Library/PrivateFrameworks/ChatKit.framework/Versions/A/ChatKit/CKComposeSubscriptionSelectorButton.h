@@ -19,24 +19,24 @@
 
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)D296CCFF5C5FDF512ICTitleQuery;
-- (id);
-- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id)electionState: /* Error: Ran out of types for this method. */;
-- (id)AFyAKyAFyj<­yAG_APSgQo_AHGG>;­G_O5­Qo_W§¬y9°¬SgGGGG;
-- (void)ACtGG_x­yòQ®yAAyAByAD_AcDtGGGì¹­yÎÂ­SgGGt;
 - (unsigned long long);
-- (id)ntPresentationOpacity;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) TPBadgeView *badgeView; // @synthesize badgeView=_badgeView;

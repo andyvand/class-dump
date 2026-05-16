@@ -32,24 +32,24 @@
 }
 
 - (_Bool);
-- (void)Key:(id)arg1;
-- (void)Resource;
-- (void)_utcOffset;
-- (double)tory;
-- (_Bool)ationData;
-- (_Bool)teConfiguration/RCRequestInfo.m;
 - (void);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void)iewHidden:(double)arg1;
-- (double)keToken;
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (double);
+- (void)teColorPicker;
 - (id);
-- (long long);
+- (long long)ÿ.;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

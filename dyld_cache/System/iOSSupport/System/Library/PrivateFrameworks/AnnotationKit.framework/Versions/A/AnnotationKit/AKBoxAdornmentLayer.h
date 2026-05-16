@@ -12,7 +12,7 @@
 
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 
 @end

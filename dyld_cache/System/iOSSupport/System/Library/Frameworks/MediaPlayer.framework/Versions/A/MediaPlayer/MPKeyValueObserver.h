@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)hSubtype:(id)arg1;
-- (CDUnknownBlockType)ID;
+- (void);
+- (CDUnknownBlockType);
+- (void)eedsReload: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

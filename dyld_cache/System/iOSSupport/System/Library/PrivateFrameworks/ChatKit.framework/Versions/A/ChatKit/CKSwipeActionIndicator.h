@@ -16,17 +16,17 @@
 + (id);
 + (id);
 - (void);
-- (void)to access ICTintColorForICFilterType for ICFilterTypeUnknown.;
-- (void)hmentModel;
+- (void);
+- (void);
 - (double);
 - (struct CGSize);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
+- (double);
 - (id);
-- (void);
-- (id);
-- (void)Wß-;
-- (double)S°Ü/;
+- (void)PosterKitChannelSnapshotControllerKey;
 
 // Remaining properties
 @property(nonatomic) double blurRadius;

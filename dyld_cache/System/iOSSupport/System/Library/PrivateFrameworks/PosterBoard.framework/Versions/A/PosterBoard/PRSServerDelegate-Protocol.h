@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PRSServer;
-
 @protocol PRSServerDelegate
-- (void)°1b0@ù
-× ;
-- (void)6@0:(PRSServer *)arg1 8@16@24@32@40o^@48;
-- (void)kPosterAppearance;
-- (void)ferenceFromArray:(PRSServer *)arg1 withOptions:(void (^)(NSSet *, NSError *))arg2 usingEquivalenceTest: /* Error: Ran out of types for this method. */;
 @end
 

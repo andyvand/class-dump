@@ -23,31 +23,27 @@
 }
 
 + (id);
-- (id)mageToIconSize;
-- (void)tchFinder;
-- (void)CROperation;
+- (id);
 - (void);
-- (void)ntUI;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (id)y;
-- (id)ex unchanged for %@;
-- (id)ing continuation;
-- (void)d **you**;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)providing any SYContentItems for this. ;
-- (_Bool);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -55,7 +51,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)MacToolBarImageProperties;
+- (id);
+- (void);
+- (id);
+- (void)&Uýÿ¨gýÿÄ;
+- (void)0r$ÿYM;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

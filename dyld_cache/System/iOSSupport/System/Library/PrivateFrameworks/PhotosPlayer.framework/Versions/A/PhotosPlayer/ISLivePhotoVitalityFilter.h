@@ -16,21 +16,21 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _outputChangeHandler;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (_Bool)*;
+- (_Bool);
 - (void);
-- (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setShouldUpdateOutput:) _Bool _shouldUpdateOutput; // @synthesize _shouldUpdateOutput=__shouldUpdateOutput;

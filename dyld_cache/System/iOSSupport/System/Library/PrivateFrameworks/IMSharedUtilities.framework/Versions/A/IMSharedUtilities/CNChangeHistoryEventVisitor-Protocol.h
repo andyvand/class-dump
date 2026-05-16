@@ -5,9 +5,8 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
-- (void)P;
 
 @optional
-- (void);
+- (void)anageStatusProtocol;
 @end
 

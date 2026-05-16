@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)riptionShowInvisibleItemsInBaseSectioning:hasIncorrectSampling:hasInvisibleItemsInBaseSectioning: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PUPickerBadgeIconView *iconView; // @synthesize iconView=_iconView;

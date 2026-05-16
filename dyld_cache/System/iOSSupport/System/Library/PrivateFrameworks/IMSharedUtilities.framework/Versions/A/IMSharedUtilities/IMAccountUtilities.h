@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool)*@f;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);

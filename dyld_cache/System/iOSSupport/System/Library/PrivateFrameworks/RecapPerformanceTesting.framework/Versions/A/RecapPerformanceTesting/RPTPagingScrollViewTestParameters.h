@@ -36,11 +36,11 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
+- (long long);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

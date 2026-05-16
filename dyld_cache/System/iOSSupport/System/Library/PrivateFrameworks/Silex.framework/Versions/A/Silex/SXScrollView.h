@@ -20,13 +20,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SXAXCustomRotorProvider *customRotorProvider; // @synthesize customRotorProvider=_customRotorProvider;

@@ -5,9 +5,6 @@
 //
 
 @protocol MFOverlappingTransitionTime
-- (double);
-- (double);
-- (double)ctive renewal for services:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) double endItemSourceTime;

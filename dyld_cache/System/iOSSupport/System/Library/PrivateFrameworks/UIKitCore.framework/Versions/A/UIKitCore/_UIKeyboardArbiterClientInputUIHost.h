@@ -19,8 +19,17 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -29,27 +38,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)ken;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)thName:(_Bool)arg1;
-- (void);
-- (id);
-- (void);
-- (void)1¢!0@ù
+- (_Bool)Ñ\°1Â0@ù
 × ;
-- (struct CGRect)x!BùñÍ1¢!0@ù
+- (_Bool)ð!ôFùÑcÐ1Â0@ù
 × ;
-- (_Bool)20;
+- (id)ntTraits:forceNotification: /* Error: Ran out of types for this method. */;
+- (struct CGRect)etIndexColor: /* Error: Ran out of types for this method. */;
+- (void)ôB;
 - (void);
-- (void)t:(_Bool)arg1 updateDimmingView: /* Error: Ran out of types for this method. */;
-- (id)les;
 
 // Remaining properties
 @property(nonatomic) _Bool inputDestinationInWindowedMode; // @synthesize inputDestinationInWindowedMode=_inputDestinationInWindowedMode;

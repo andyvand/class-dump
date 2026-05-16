@@ -8,7 +8,6 @@
 @protocol NSItemProviderWriting;
 
 @protocol SXDraggable
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *dragIdentifier;

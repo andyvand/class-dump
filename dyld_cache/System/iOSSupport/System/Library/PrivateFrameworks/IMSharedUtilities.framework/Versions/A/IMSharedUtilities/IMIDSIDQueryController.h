@@ -9,14 +9,14 @@
 }
 
 + (_Bool);
++ (_Bool);
++ (_Bool);
++ (id);
++ (_Bool);
++ (id);
++ (_Bool);
 + (long long);
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
 
 @end
 

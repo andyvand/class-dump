@@ -19,24 +19,26 @@
 
 - (void);
 - (id);
+- (_Bool);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
 - (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void)Size=dd}40@0:8@16@24q32 /* Error: Ran out of types for this method. */;
-- (void)ryConfiguration.m;
+- (void)	°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

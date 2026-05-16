@@ -17,17 +17,17 @@
     UIView *_listView;
 }
 
-- (void)t:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)lineRanges;
 - (void);
-- (id)rse, $noteContainer, $noteContainer.markedForDeletion != YES).@count > 3;
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)r",&,N,V_backdrop;
-- (id)x#;
-- (void);
+- (id);
+- (void)TranscriptTailspinLoggingInterval;
 
 // Remaining properties
 @property(readonly, nonatomic) _TtC7ChatKit33QuickReplyButtonListConfiguration *configuration; // @synthesize configuration=_configuration;

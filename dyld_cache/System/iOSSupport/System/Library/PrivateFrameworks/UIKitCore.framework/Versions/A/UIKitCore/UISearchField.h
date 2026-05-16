@@ -11,13 +11,14 @@
 }
 
 + (double);
-- (void)efresh:(float)arg1;
+- (void);
 - (struct CGRect);
 - (struct CGRect);
-- (id)ary/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPriority.bundle;
-- (id);
-- (_Bool);
-- (struct CGRect);[Õ/c;
+- (struct CGRect);
+- (id)0@ù
+× ;
+- (_Bool)cognizerDriverDelegate>";
+- (id)vityViewControllerProvider;
 
 @end
 

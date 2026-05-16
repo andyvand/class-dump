@@ -14,19 +14,19 @@
 }
 
 + (id);
-+ (id)¨°#h#;
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)aylistGenerator;
-- (id)g target value via merge to %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

@@ -26,19 +26,19 @@
 - (void);
 - (void);
 - (void);
-- (void)o find existing chat for conversation:(id)arg1 %s;
-- (void)t over quick switch service %ld;
-- (void)e received profile changed to %@:(id)arg1 %@ (%@);
-- (void)oredDeviceUUIDs count:(CDUnknownBlockType)arg1 %d ignoredDeviceUUIDs count:%d /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 %@ from message guid:%@ /* Error: Ran out of types for this method. */;
-- (id)g account %@ service session %@ (replication source:%@) /* Error: Ran out of types for this method. */;
-- (void)dating syndication ranges for message item with guid %@. newRange:(id)arg1 %@;
-- (void)ist:%@, against previous active list:%@ /* Error: Ran out of types for this method. */;
-- (id)ay. Need to update filter params.;
-- (id)actualService override but current service is not SMS (current %@, override %@), ignoring!;
-- (_Bool)ng read receipts to process after storage timer fired, delaying by 15s;
-- (id)efault text app;
-- (id)@   chat:(id)arg1 %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -50,16 +50,15 @@
 - (void);
 - (_Bool);
 - (CDStruct_d52ce5d2);
-- (id)U;
 - (id);
 - (id);
 - (id);
-- (void)@16@24Q32B40d44d52@60^@68;
 - (id);
-- (void)0@ù
-× ;
-- (id)mageEdgeInsets;
-- (_Bool)ÍYÑ.Kg;
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)(q;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *_accessoryViews;

@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (struct OpaqueJSValue *)e for frame %zu;
-- (struct OpaqueJSContext *)edImageTranscoder<%d>:failed, could not create surface for frame %zu /* Error: Ran out of types for this method. */;
+- (id);
+- (struct OpaqueJSValue *);
+- (struct OpaqueJSContext *);
 - (struct OpaqueFormAutoFillFrame *);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void)ring"8^B16;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

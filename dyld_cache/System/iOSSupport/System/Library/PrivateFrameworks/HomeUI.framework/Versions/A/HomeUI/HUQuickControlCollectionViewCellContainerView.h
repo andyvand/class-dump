@@ -18,8 +18,8 @@
 }
 
 + (double);
-+ (_Bool);
 + (id);
++ (_Bool);
 - (void);
 - (struct UIEdgeInsets);
 - (id);
@@ -33,11 +33,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)
-× ;
-- (id)_;
+- (id)mAtIndexPath:point: /* Error: Ran out of types for this method. */;
+- (void)t a details view controller for unsupported item %@!;
+- (id)ng_FirstParty_Off_Footer;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NAUILayoutConstraintSet *constraintSet; // @synthesize constraintSet=_constraintSet;

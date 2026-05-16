@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     NSDate *_dateSelected;
 }
 
-- (_Bool)utomatic;
-- (void)Name;
-- (void)uthenticationPrompt;
-- (id)error:%s} /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
-- (void)1;
+- (id);
+- (void);
+- (void);
+- (void)f;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateSelected; // @synthesize dateSelected=_dateSelected;

@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)tionsForEmailAddresses:contact:discoveringEnvironment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PRPosterLevelSet *wrappedLevelSet; // @synthesize wrappedLevelSet=_wrappedLevelSet;

@@ -28,16 +28,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void)ãÿV={S;
+- (id);
+- (void)eVideoURLFutureWithHandle:contact: /* Error: Ran out of types for this method. */;
+- (_Bool)æFþÿªÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;

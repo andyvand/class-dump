@@ -21,17 +21,17 @@
 + (_Bool);
 + (id);
 + (id);
-- (id)y: /* Error: Ran out of types for this method. */;
-- (struct CGSize)HFSFileManager;
-- (void)gReplication:(struct CGSize)arg1 shouldForceFail:watchSendsOverCellular:forceReflection:forceRelay:callerID: /* Error: Ran out of types for this method. */;
-- (void)SNumber",&,N,V_originalMessageTimestamp;
-- (void)ferringTransfers;
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
-- (id)n iMessageGroupID domain from (%@) to (%@) for chat %@ and broadcasting the update to clients.;
-- (void)skip it;
-- (void)ount id:(id)arg1 %@    defaults:%@    on service:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,17 +40,16 @@
 - (void);
 - (id);
 - (void);
-- (void)P;
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)1¢!0@ù
+- (id)1aÐ1Â0@ù
 × ;
-- (id)¡tð!8DùÑÈð1¢!0@ù
-× ;
-- (id)ntroller: /* Error: Ran out of types for this method. */;
-- (id)enceSystemViewHostLayer;
+- (id)nRanges;
+- (id)iewSettingsLightKeyboard;
+- (id)ì©[;
+- (void)éMÜ´ig;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)electURL: /* Error: Ran out of types for this method. */;
-- (id)òxZ~à*é?ªÄÌ:ÛÀaNÐ&3r@'ÚUHùIõ? /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 
 @end
 

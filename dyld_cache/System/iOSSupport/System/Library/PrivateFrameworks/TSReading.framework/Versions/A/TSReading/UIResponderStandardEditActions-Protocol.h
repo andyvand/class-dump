@@ -7,20 +7,16 @@
 @protocol UIResponderStandardEditActions
 
 @optional
+- (void)0@ù
+× ;
+- (void)las;
+- (void)ts;
+- (void)during threaded layout;
+- (void)dViewController showPopoverFromRect:(id)arg1 inView:arrowDirection:animated:constrainToView:withPadding:fromToolbar:] /* Error: Ran out of types for this method. */;
+- (void)oldCurveControlPointDistance;
 - (void);
-- (void)electAction for placement %s;
-- (void);
-- (void)@;
-- (void)2@0:(id)arg1 8@"UITableView"16@"UIContextMenuConfiguration"24;
-- (void)n;
-- (void)ingleTap;
-- (void)ät`;
-- (void)ViewController dealloc];
-- (void)awables/TSDGPUVoronoiTriangleData.mm;
-- (void)0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDImageRep.m;
-- (void)rStroke;
-- (void)];
-- (void)xÌ;
-- (void)ÿ) ;
+- (void)Ä;
+- (void)àôÀ(;
+- (void)¦Å;
 @end
 

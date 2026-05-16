@@ -20,15 +20,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)"UIFont";
-- (void);
-- (id)tentRenditionContext"48;
-- (id)_shouldSkipContentOverlayInsetsUpdate;
-- (id)ontName:fallbackFontName: /* Error: Ran out of types for this method. */;
-- (void)nal inconsistency:(id)arg1 UICollectionView %@ asked layout to prepare for update %@ without computing deleted sections;
-- (unsigned long long);
+- (_Bool)"16;
+- (id)or:(struct _NSZone *)arg1;
+- (id)n;
+- (unsigned long long)SCalendarUnitMonth;
+- (void)ÜPR0;
+- (void)ä;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allObjects;

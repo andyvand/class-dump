@@ -17,7 +17,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)OTP_Factor_Title.;
 
 @end
 

@@ -58,21 +58,21 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)hSubtype: /* Error: Ran out of types for this method. */;
-- (void)setsForLoadingAnimation;
-- (id);
-- (id)UICoreP33_AEF562763F3BEE3B23D607568135135047PXSensitivityInterventionManagerDelegateHandler;
-- (id)ationWithMockData;
-- (void).;
-- (void)ÿ6.;
+- (void)line;
+- (void)ssionRecipientJournal;
+- (id)6;
+- (void)Áÿ¯È6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *accessoryTapToRadarDiagnosticsProviders; // @synthesize accessoryTapToRadarDiagnosticsProviders=_accessoryTapToRadarDiagnosticsProviders;

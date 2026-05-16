@@ -18,18 +18,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)nfo for %@. Dropping.;
+- (id);
 - (id);
 - (void);
-- (struct CGSize)tryMovie;
-- (void)
+- (struct CGSize)!;
+- (_Bool)
 × ;
-- (id)±ËÐ1¢!0@ù
-× ;
-- (_Bool)ement: /* Error: Ran out of types for this method. */;
-- (void)ckGenerator methods. This will become an assert in a future version.;
-- (void);
-- (id)outputString;
+- (id),N,V_sceneSettingsPointerLockedDiffInspector;
+- (void)nt;
+- (id)w property of the UIBackgroundConfiguration will be automatically added to the view hierarchy when necessary. Subview added:%@; Background view:%@ /* Error: Ran out of types for this method. */;
+- (void)|>f;
+- (void)åáÿ"Ï@?k;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

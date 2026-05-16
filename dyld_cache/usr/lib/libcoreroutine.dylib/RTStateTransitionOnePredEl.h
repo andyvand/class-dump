@@ -25,12 +25,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -39,12 +39,12 @@
 - (double);
 - (double);
 - (id);
+- (id);
 - (unsigned long long);
+- (void)lusterWithUUID:(unsigned long long)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)@, input predictedContextSources, %{sensitive}@;
 - (double);
-- (void)vailable;
-- (void);
-- (void);
-- (id)andSafariDomains: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double density; // @synthesize density=_density;

@@ -5,9 +5,5 @@
 //
 
 @protocol MPSectionedIdentifierListDelegate
-
-@optional
-- (void);
-- (void);
 @end
 

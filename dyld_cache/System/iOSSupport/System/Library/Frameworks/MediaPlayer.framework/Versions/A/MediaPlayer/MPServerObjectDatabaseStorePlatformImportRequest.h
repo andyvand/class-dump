@@ -10,11 +10,11 @@
 {
 }
 
-+ (id)urceUrl:sender:domainIdentifier:batchIdentifier:calculatedFeatures:clientIdentifier:contentCreationDate:groupPhotoPath:displayName:isPrimary:attributionIdentifier:rank:score:isConversationAutoDonating:originatingDeviceId:rankingDate:resolvedUrl: /* Error: Ran out of types for this method. */;
-+ (id)onDate:sourceBundleId:applicationIdentifiers:resourceUrl:sender:domainIdentifier:batchIdentifier:calculatedFeatures:clientIdentifier:contentCreationDate:groupPhotoPath:displayName:isPrimary:attributionIdentifier:rank:score:isConversationAutoDonating:originatingDeviceId:rankingDate:resolvedUrl: /* Error: Ran out of types for this method. */;
-+ (id)rm:(id)arg1;
-+ (id)teEventsWithPredicateBlock:(id)arg1;
-- (id);
++ (id);
++ (id);
++ (id);
++ (id);
+- (id);
 - (id);
 
 @end

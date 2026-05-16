@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaletteAdditionalOptionsView;
-
 @protocol PKPaletteAdditionalOptionsViewDelegate
-- (void)2q40q48;
-- (void)6@0:(PKPaletteAdditionalOptionsView *)arg1 8@16@24@32@40@?48;
-- (void)tial">32;
-- (void)32@0:(PKPaletteAdditionalOptionsView *)arg1 8@16^@24;
 @end
 

@@ -14,6 +14,7 @@
 }
 
 + (id);
++ (id);
 + (_Bool);
 - (void);
 - (id);
@@ -23,8 +24,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)¸´¨ìÜ`lÌXÄ,,D |ì;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *formatItems; // @synthesize formatItems=_formatItems;

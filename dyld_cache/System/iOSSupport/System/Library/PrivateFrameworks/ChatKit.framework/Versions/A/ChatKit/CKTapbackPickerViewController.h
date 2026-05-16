@@ -29,21 +29,21 @@
     MISSING_TYPE *numberOfItemsToPeek;
 }
 
-- (void)c_numberOfItemsInAllSections;
-- (id)BackgroundColor;
-- (void)ge:(id)arg1;
-- (void)rNoteObjectIds:(id)arg1 dates:referenceDate:direction: /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void)teAnimated;
-- (void)Speed;
-- (void)alloonView setPluginView:(id)arg1 pluginController:(id)arg2 ];
+- (void);
+- (void);
+- (void);
+- (void)oint:(id)arg1;
+- (void);
+- (void)È¤;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKTapbackPickerViewControllerDelegate> tapbackPickerViewControllerDelegate; // @synthesize tapbackPickerViewControllerDelegate;

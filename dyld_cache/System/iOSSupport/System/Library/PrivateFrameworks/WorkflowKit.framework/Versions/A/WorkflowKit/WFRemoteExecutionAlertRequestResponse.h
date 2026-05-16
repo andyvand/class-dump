@@ -20,10 +20,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)hError:cancelled:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

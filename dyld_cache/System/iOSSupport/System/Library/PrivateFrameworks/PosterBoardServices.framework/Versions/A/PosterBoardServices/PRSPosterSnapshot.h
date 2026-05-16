@@ -24,14 +24,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (long long);
 - (long long);
 - (struct CGImage *);
 - (id);
 - (void);
 - (void);
-- (id);
-- (long long);
-- (id);
 - (long long);
 
 // Remaining properties

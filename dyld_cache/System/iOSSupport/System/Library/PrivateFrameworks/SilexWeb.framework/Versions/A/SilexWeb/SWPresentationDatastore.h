@@ -12,12 +12,12 @@
     NSString *_identifier;
 }
 
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id)20S28@32B40i44B48i52d56B64@68;
-- (id);
-- (id)?;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewTransitionLayout;
+@class UICollectionView;
 
 @protocol UICollectionViewDelegate
 
 @optional
 - (_Bool);
-- (UICollectionViewTransitionLayout *)16@"PKPayment"24@?<v@?q>32;
-- (NSIndexPath *)ring",&,N,V_clientIdentifier;
-- (NSIndexPath *);
-- (_Bool)èùHýlÿL;
-- (void)ier;
-- (_Bool)apper;
-- (NSIndexPath *);
+- (_Bool)6@"AMSAuthenticateRequest"24@?<v@?@"AMSAuthenticateResult"@"NSError">32;
+- (void)wnload:(UICollectionView *)arg1;
+- (_Bool)rics;
+- (_Bool);
 @end
 

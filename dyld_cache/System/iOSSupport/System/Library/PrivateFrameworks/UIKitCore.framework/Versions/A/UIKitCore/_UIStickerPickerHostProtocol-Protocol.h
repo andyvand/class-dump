@@ -5,7 +5,5 @@
 //
 
 @protocol _UIStickerPickerHostProtocol
-- (void)ement is missing;
-- (void);
 @end
 

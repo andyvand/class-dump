@@ -16,9 +16,9 @@
 
 - (id);
 - (id);
+- (long long);
 - (void);
 - (void);
-- (long long)scriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long direction;

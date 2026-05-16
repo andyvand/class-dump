@@ -15,13 +15,13 @@
     UIColor *_checkerColor;
 }
 
-- (void)oundVersion: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)generation state change;
 - (void);
 - (void);
-- (id)=%p;
-- (_Bool)®¡;
+- (id);
+- (id)UIColor",C,N,V_fillColor;
+- (void)¸ÅþÿõîÿÔöîÿ®øîÿ;
+- (_Bool)w¾=o<;
+- (void)Hó³ÿÍpui;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *checkerColor; // @synthesize checkerColor=_checkerColor;

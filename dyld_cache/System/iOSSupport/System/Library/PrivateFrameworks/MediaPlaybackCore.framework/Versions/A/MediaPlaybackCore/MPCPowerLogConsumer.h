@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     id <MPCPlaybackEngineEventStreamSubscription> _subscription;
 }
 
-+ (unsigned int)_TEXT;
++ (unsigned int);
 + (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)rary/Accounts/Notification/IDSAccountNotificationPlugin.bundle/Contents/MacOS/IDSAccountNotificationPlugin;
+- (_Bool);
 - (void);
-- (void);
-- (id)playerIsReadyToPlay - timeStamp: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ic}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

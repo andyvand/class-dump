@@ -25,7 +25,7 @@
     } _requestedArtistProperties;
 }
 
-+ (id)n:delegate: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

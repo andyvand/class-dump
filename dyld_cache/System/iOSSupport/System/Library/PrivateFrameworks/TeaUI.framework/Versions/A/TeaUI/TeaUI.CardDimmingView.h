@@ -11,7 +11,7 @@
     MISSING_TYPE *preventTouches;
 }
 
-- (id)ts;
+- (id);
 - (id);
 - (id);
 

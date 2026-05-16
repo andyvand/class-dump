@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)S8�;
 - (double);
-- (id);
+- (double);
+- (id)24B28;
 
 @end
 

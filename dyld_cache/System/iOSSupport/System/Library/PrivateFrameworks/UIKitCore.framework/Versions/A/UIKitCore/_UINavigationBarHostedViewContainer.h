@@ -18,9 +18,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)!AùÄ1¢!0@ù
-× ;
-- (id)ent;
+- (id)rView;
+- (void)k;
 
 @end
 

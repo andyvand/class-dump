@@ -22,13 +22,13 @@
 - (long long);
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (id)A621BEB44663E19ResourceBundleClass;
-- (void);
 - (id);
-- (id)P;
-- (id)ng Page Complete for %{sensitive, mask.hash}@ with options %zu;
-- (unsigned long long)atrix - already valid;
+- (id);
+- (id);
+- (id);
+- (void)@¨;
 
 // Remaining properties
 @property(readonly, nonatomic) long long pageStatus; // @synthesize pageStatus=_pageStatus;

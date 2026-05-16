@@ -24,12 +24,12 @@
     MISSING_TYPE *viewControllerForPresentingUI;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)À;
+- (void)\Mÿÿ;
+- (void)hWÊÄÏ;
 
 @end
 

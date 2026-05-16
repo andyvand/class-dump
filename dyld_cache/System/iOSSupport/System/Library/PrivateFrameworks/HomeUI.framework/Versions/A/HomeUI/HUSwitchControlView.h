@@ -14,21 +14,20 @@
     UISwitch *_switchView;
 }
 
-+ (Class)¨SÖÿSyø¥R;
++ (Class)NetworkConfigurationSettingsSectionTitle;
 - (void);
-- (id);
 - (id);
 - (void);
 - (struct CGSize);
+- (struct CGSize);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)
-× ;
-- (id)<HUTappableTextViewDelegate>";
-- (void)"16@"MTMutableTimer"24;
-- (struct CGSize)¨;
-- (_Bool)ÛvAAy+vyÝvyAAy¨Á;
+- (id);
+- (id);
+- (void)ng Login with Password button;
+- (_Bool);
 - (void);
 
 // Remaining properties

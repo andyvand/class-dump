@@ -13,6 +13,7 @@
     MISSING_TYPE *stackView;
     MISSING_TYPE *actionIdentifier;
     MISSING_TYPE *contentButton;
+    MISSING_TYPE *uiAction;
     MISSING_TYPE *stackViewHorizontalMargin;
     MISSING_TYPE *stackViewSpacing;
     MISSING_TYPE *stackViewImageContainerConstraint;
@@ -26,9 +27,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool)xâ÷ÿâ÷ÿ´â÷ÿàâ÷ÿã÷ÿ(ã÷ÿ\ã÷ÿã÷ÿ¼ã÷ÿTä÷ÿPå÷ÿå÷ÿLç÷ÿÀç÷ÿè÷ÿè÷ÿè÷ÿÌè÷ÿHì÷ÿ|ì÷ÿì÷ÿ´ì÷ÿ4í÷ÿpí÷ÿ í÷ÿ¸í÷ÿñ÷ÿlø÷ÿ¨ø÷ÿäø÷ÿXû÷ÿdû÷ÿÿ÷ÿ¼ÿ÷ÿøÿ÷ÿ,;
+- (void)4Iÿÿ;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool highlighted;

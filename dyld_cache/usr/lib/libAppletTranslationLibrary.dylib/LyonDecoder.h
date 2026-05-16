@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long)eTimeRangeTrigger;
 - (id);
 - (id);
+- (long long);
+- (id);
+- (void)iver: /* Error: Ran out of types for this method. */;
 
 @end
 

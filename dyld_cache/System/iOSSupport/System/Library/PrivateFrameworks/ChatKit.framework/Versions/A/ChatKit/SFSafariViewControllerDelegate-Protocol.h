@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL, SFSafariViewController;
-
 @protocol SFSafariViewControllerDelegate
-
-@optional
-- (void)c_fittingHeight;
-- (void)tWithAttribute:(SFSafariViewController *)arg1;
-- (NSArray *)hPreferredSize:(SFSafariViewController *)arg1;
-- (NSArray *)ctWithID:(SFSafariViewController *)arg1 context:(NSURL *)arg2;
-- (void);
 @end
 

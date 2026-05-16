@@ -13,12 +13,13 @@
 
 + (id);
 + (id);
-+ (id)U;
++ (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)#;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,12 +29,11 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SKPaymentAppleIDAuthorizationRequest *appleIDAuthorizationClientInfo;

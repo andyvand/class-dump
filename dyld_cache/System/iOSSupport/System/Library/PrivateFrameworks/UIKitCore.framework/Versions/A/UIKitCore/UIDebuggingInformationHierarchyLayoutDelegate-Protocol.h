@@ -5,6 +5,5 @@
 //
 
 @protocol UIDebuggingInformationHierarchyLayoutDelegate
-- (_Bool)nfo value;
 @end
 

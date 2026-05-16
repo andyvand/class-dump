@@ -23,17 +23,17 @@
 - (void);
 - (void);
 - (id);
-- (id)tWithDisableAbTesting:overrideSegmentSetIDs:additionalSegmentSetIDs:onlyUseFallbackURL:debugEnvironment: /* Error: Ran out of types for this method. */;
-- (_Bool)roundSessionConfigurationWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (Class);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (void)d:,V__activeResultCommand /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool addBottomPadding; // @synthesize addBottomPadding=_addBottomPadding;

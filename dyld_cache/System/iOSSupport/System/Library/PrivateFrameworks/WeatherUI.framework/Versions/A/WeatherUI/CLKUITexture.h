@@ -21,12 +21,12 @@
 + (id);
 - (id);
 - (id);
-- (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
-- (id);
 - (MISSING_TYPE *);
+- (unsigned long long);
+- (id);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) CLKUIAtlas *atlas; // @synthesize atlas=_atlas;

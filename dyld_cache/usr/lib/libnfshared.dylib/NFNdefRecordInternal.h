@@ -14,19 +14,19 @@
     NSData *_payload;
 }
 
-+ (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)ing:(unsigned char)arg1;
 + (id);
 + (_Bool);
++ (_Bool);
++ (id);
 - (id);
 - (unsigned char);
-- (_Bool)#;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -37,23 +37,23 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (void)";
-- (id)d(;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)with upcoming walking segment. Triggering parked vehicle state.;
-- (void)ingDoesNotIncludeSelf;
 - (void);
 - (void);
-- (unsigned char)]þÿ»rª$;
+- (unsigned char);
 
 // Remaining properties
 @property(nonatomic) _Bool chunked;

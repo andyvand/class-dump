@@ -16,8 +16,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *nameToRectMap; // @synthesize nameToRectMap=_nameToRectMap;

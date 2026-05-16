@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)lt {note:(id)arg1 %s};
 - (void);
-- (void)hr;
+- (id);
 - (void);
-- (id)hÁÅÿ3(%
-;
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;

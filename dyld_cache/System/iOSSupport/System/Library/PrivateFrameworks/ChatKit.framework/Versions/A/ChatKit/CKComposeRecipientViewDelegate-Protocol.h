@@ -5,6 +5,5 @@
 //
 
 @protocol CKComposeRecipientViewDelegate
-- (struct UIEdgeInsets)eWidthProviding;
 @end
 

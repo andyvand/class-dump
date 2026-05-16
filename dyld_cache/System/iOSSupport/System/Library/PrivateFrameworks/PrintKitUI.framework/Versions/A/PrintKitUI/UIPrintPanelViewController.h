@@ -34,13 +34,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (unsigned long long);
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIPrintInfo *printInfo; // @synthesize printInfo=_printInfo;

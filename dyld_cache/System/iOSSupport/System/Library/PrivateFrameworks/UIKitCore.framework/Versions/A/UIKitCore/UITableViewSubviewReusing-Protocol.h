@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol UITableViewSubviewReusing
-- (id)fusing connection from pptool due to client blocklist;
-- (void);
-- (NSString *)oardState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *reuseIdentifier;

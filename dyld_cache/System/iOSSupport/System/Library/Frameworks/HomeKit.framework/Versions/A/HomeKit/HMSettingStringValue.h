@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)dData;
 
 // Remaining properties
 @property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;

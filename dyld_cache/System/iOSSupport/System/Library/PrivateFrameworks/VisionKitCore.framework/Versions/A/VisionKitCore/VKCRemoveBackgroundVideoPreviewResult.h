@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (struct CGRect);
 - (CDStruct_5c5366e1);
-- (struct CGRect)ads:%@  /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

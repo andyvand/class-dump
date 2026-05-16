@@ -48,11 +48,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
+- (id)ilsSettings";
+- (id)sourceProducerFactory>",R,N,V_songResourceProducerFactory;
+- (void)ÜíSÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXFeedActionPerformer> actionPerformer; // @synthesize actionPerformer=_actionPerformer;

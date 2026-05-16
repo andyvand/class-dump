@@ -11,10 +11,10 @@
     NSMapTable *_weakCache;
 }
 
-+ (id)DÁÊÿQÎNÒ÷8;
++ (id)y/Ë¼ç;
+- (id);
 - (id);
 - (void);
-- (id);
 
 @end
 

@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     UIView<UITextLinkInteraction> *_linkInteractionView;
 }
 
-- (_Bool)rCurrentDevice;
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)fier:withLDAPAccountHostName: /* Error: Ran out of types for this method. */;
-- (void)ckID;
 - (void);
+- (_Bool);
+- (void)ctingC0t;
 
 @end
 

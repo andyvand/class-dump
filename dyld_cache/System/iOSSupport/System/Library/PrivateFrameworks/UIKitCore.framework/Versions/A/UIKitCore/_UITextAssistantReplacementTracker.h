@@ -31,10 +31,10 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_rewrittenText;
 }
 
-- (void)nifest but incomplete data is allowed;
-- (id)ject;
-- (struct _NSRange), invalid trusted tag length;
-- (struct _NSRange)RDataCreateInstanceString;
+- (void);
+- (id);
+- (struct _NSRange);
+- (struct _NSRange);
 - (void);
 - (void);
 - (_Bool);
@@ -61,17 +61,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
-- (struct _NSRange)IMDIdentityLookupDecisioningManaging>",&,N,V_identityLookupDecisioningManager;
-- (struct _NSRange)ponent;
-- (struct _NSRange)DAccount;
-- (id)reate_FileChunkList failed to create fileReferenceData;
-- (void);
-- (id)aseBlock;
-- (_Bool)correctionType;
+- (struct _NSRange);
+- (struct _NSRange);
+- (struct _NSRange);
+- (id);
+- (_Bool)Component",R,N;
+- (id)ewCellSwipeContainerView was hit tested that had no children. This indicates UIKit is not properly cleaning up the container view. tableView:%@; responder chain:%@ /* Error: Ran out of types for this method. */;
+- (void)7UIImageCG;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange activeCharacterRange;

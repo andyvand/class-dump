@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)j;
-- (id)Images.count %lu;
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)meSummaryForConversationAtIndexPathIfNeeded: /* Error: Ran out of types for this method. */;
-- (id)dropView;
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText; // @synthesize attributedButtonText=_attributedButtonText;

@@ -20,7 +20,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)q;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -34,11 +34,11 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id)¬yÚÿ3ÿWkD;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -82,16 +82,15 @@
 - (id);
 - (void);
 - (id);
-- (void)˟;
+- (void);
 - (id);
 - (id);
 - (id);
-- (id)|n�z;
 - (id);
-- (_Bool)=;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
 - (double);
 - (id);
@@ -105,25 +104,27 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id)%@);
-- (id)t.m;
-- (id)rence while adding URL:(id)arg1 %@. Error:%@ /* Error: Ran out of types for this method. */;
-- (void)ýu;
+- (void)1Â0@ù
+× ;
+- (id):(id)arg1 8B16;
 
 // Remaining properties
 @property(readonly, nonatomic) TSSStyle *baseStyleForVariation;

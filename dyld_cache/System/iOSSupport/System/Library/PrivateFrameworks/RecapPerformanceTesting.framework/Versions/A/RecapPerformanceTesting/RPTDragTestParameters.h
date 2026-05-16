@@ -20,10 +20,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);

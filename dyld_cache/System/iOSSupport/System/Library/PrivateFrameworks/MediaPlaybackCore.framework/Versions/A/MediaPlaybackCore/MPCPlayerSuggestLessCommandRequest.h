@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
     MPModelObject *_modelObject;
 }
 
-- (id)2@"NSUUID"40@?<v@?B>48;
 - (id);
-- (_Bool)�C;
-- (void);
+- (id);
+- (_Bool);
+- (void)type=%{public}@ date=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *modelObject; // @synthesize modelObject=_modelObject;

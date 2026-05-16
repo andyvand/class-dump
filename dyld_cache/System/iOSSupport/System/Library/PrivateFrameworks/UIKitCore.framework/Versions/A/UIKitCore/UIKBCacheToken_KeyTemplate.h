@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (id)ollerShowsCancelButton:(CDUnknownBlockType)arg1;
++ (id);
+- (id);
 
 @end
 

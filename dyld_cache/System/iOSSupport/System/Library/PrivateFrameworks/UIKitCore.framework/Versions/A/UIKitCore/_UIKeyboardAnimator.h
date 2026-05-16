@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)tCoreHapticsEngine;
+- (id);
+- (void)Region;
 
 @end
 

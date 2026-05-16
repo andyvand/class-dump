@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     _Bool isAnimated;
 }
 
-- (void);
+- (void)þ¾7yë¿7G;
 
 @end
 

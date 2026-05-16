@@ -5,7 +5,7 @@
 //
 
 @interface (null) (MPAVOutputDeviceRoutingDataSource)
-- (id)tachment;
-- (id)dContent:(id)arg1;
+- (id);
+- (id);
 @end
 

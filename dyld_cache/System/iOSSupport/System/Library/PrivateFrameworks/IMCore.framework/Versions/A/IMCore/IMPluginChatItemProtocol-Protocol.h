@@ -7,7 +7,6 @@
 @class IMBalloonPluginDataSource, NSString;
 
 @protocol IMPluginChatItemProtocol
-- (IMBalloonPluginDataSource *)mpletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) IMBalloonPluginDataSource *dataSource;

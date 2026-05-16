@@ -12,11 +12,13 @@ __attribute__((visibility("hidden")))
     NSUserDefaults *_defaults;
 }
 
-+ (id)$ø;
-- (void);
++ (id)±°1â
+0@ù
+× ;
 - (id);
-- (_Bool);
 - (double);
+- (_Bool);
+- (void);
 
 @end
 

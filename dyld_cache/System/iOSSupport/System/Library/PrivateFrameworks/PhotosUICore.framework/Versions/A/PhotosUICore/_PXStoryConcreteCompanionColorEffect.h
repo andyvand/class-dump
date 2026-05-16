@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)°myl«°myl¬Ö0e;
+- (void)o perform Social Group reorder action because the initial state is invalid.;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGColorLookupCube *colorLookupCube; // @synthesize colorLookupCube=_colorLookupCube;

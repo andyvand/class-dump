@@ -11,17 +11,17 @@
     _Bool _searchTerminated;
 }
 
-- (_Bool)pableAccounts: /* Error: Ran out of types for this method. */;
-- (_Bool)viewedResult;
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id)n;
-- (id)(;
-- (void)ccepting share. %@;
-- (Class)on and associated it with object {share:%@, objectID:%@} /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (struct NSDirectionalEdgeInsets)owed;
+- (Class);
+- (void);
+- (struct NSDirectionalEdgeInsets);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool searchTerminated; // @synthesize searchTerminated=_searchTerminated;

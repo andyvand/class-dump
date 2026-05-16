@@ -13,10 +13,10 @@
     MISSING_TYPE *textLabel;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

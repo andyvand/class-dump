@@ -16,36 +16,34 @@ __attribute__((visibility("hidden")))
     NSProgress *_currentActivityContinuationProgress;
 }
 
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)ainer %{public}s status N/A (%llu failed / %llu completed / %llu count);
-- (void)quest will notify request %{public}@ done;
-- (id);
-- (void)Enabled:(id)arg1;
+- (void);
 - (void);
 - (id);
-- (void)
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)ð!@ùÑ_°1Â0@ù
 × ;
-- (void)1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (void)tionDelegate>";
-- (_Bool)dd}{CGSize=dd}}16d48Q56;
-- (void)d:(_Bool)arg1;
-- (_Bool)arItemGroupForPreferredPlacementChange:(id)arg1;
-- (id)ForHeading:(id)arg1;
-- (void)ages;
-- (_Bool)n:(id)arg1;
-- (id)ictation;
-- (id)leViewDragController",&,N,G_dragController,S_setDragController:,V_dragController /* Error: Ran out of types for this method. */;
-- (void)@:(id)arg1 Created scene %{public}@;
-- (void)oundView;
-- (_Bool)tion.openURL(_:) needs to migrate to the non-deprecated UIApplication.open(_:options:completionHandler:) /* Error: Ran out of types for this method. */;
+- (id)UIView"24;
+- (void)eRepresentationForTypeIdentifier:(id)arg1 toURL:options:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)entsNeedUpdate;
+- (void)etionCommitted;
+- (_Bool);
+- (void),N,V_keyboardVC;
+- (void)\Y¨Y¸\À]D^p_3Pbøb4cPeÄeìf`g°klÜlPn;
+- (id);
+- (id)m;
+- (void);
+- (void).;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, getter=_currentActivityContinuationProgress, setter=_setCurrentActivityContinuationProgress:) NSProgress *currentActivityContinuationProgress; // @synthesize currentActivityContinuationProgress=_currentActivityContinuationProgress;

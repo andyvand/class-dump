@@ -26,37 +26,37 @@
 
 + (id);
 + (id);
-+ (_Bool)Ê/n;
++ (_Bool)empted to dequeue multiple cells for the same index path, which is not allowed. If you really need to dequeue more cells than the table view is requesting, use the -dequeueReusableCellWithIdentifier:method (without an index path). Cell identifier:%@, index path:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool)onse__descriptor;
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (long long);
-- (_Bool);
 - (id);
-- (void);
+- (void);
+- (_Bool);
 - (long long);
-- (void)¢!0@ù
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (void)Zð1Â0@ù
 × ;
-- (void)°!8GùQÈ°1¢!0@ù
+- (void);
+- (_Bool)1Â0@ù
 × ;
-- (_Bool)"16@"UIGestureRecognizer"24;
-- (_Bool)RemovingLastObjectEqualTo: /* Error: Ran out of types for this method. */;
-- (long long)tCategory: /* Error: Ran out of types for this method. */;
-- (void)RLsDetected;
-- (void)9ÿ_X;
-- (void)[Óg;
-- (id)d¾ÿ1B;
-- (void)²´Ïl;
-- (_Bool)s*m;
+- (void)ssistantBar:(_Bool)arg1;
+- (_Bool)gnizer;
+- (_Bool)State:isMini: /* Error: Ran out of types for this method. */;
+- (long long)ble: /* Error: Ran out of types for this method. */;
+- (void):(long long)arg1;
+- (void)omTransformer:(id)arg1;
+- (long long): /* Error: Ran out of types for this method. */;
+- (long long)g>",R,N,V_animator;
+- (void)ehaviorsToAdd;
+- (void);
+- (void)s an invalid lift anchor point (%@). This is a client issue, likely caused by an invalid view size. PLEASE FIX ME.;
+- (_Bool)g delayed press <%@:%p; phase = %@> /* Error: Ran out of types for this method. */;
+- (unsigned long long)óàþ~õØÂ];
+- (id)¼¨h;
+- (_Bool)xGi;
+- (void);
+- (void)]éþ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _contextMenuGroupLocation;

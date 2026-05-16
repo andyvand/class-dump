@@ -29,11 +29,11 @@
 - (id);
 - (id);
 - (long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id)rentUser: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *UUIDsByControlItemPointer; // @synthesize UUIDsByControlItemPointer=_UUIDsByControlItemPointer;

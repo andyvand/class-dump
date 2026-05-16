@@ -26,8 +26,8 @@
 - (CDStruct_618113c1);
 - (_Bool);
 - (id);
-- (void)9°°9Ð9Ô9°x9PrF;
 - (id);
+- (void)8õÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryAutoEditConfiguration *configuration; // @synthesize configuration=_configuration;

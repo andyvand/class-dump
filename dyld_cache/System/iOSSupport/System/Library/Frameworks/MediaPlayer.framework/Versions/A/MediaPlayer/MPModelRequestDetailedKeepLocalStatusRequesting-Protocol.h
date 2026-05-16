@@ -5,8 +5,6 @@
 //
 
 @protocol MPModelRequestDetailedKeepLocalStatusRequesting
-- (_Bool)ries;
-- (void)r7;
 
 // Remaining properties
 @property(nonatomic) _Bool wantsDetailedKeepLocalRequestableResponse;

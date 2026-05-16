@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
     ITLibMediaItem *_itLibMediaItem;
 }
 
-+ (unsigned long long)ure;
++ (unsigned long long);
 - (id);
-- (id)ookmark>"16@0:(id)arg1 8;
-- (id)ribedSystemStreams;
-- (id)tDuration:(id)arg1;
-- (id)hXPCConnection:(id)arg1;
-- (id)ype;
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ioOnlyAssets;
 
 // Remaining properties
 @property(readonly, nonatomic) ITLibMediaItem *itLibMediaItem; // @synthesize itLibMediaItem=_itLibMediaItem;

@@ -5,6 +5,6 @@
 //
 
 @protocol _UIScrollViewScrollObserver
-- (void);
+- (void)ew;
 @end
 

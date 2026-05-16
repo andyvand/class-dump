@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TSAppMonitorType;
-
 @protocol TSAppMonitorType
-- (id <TSAppMonitorType>)j is%s NULL, with type %ld, but has type %ld
-;
-- (id <TSAppMonitorType>)reChannelDescriptionFromDriverGroup %s expected obj is%s NULL, with type %ld, but has type %ld
-;
-- (_Bool)Key;
-- (_Bool);
+- (_Bool)ityEvent;
+- (void)cØßþÙûctßþ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;

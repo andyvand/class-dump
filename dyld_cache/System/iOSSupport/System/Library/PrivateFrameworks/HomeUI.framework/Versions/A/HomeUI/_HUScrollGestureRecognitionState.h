@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)ill;
+- (void)e = %@ (uniqueIdentifier = %{public}@) | residentDevices = [%@];
+- (id)Code.Details.RestoreHomeKeyAccess;
 
 // Remaining properties
 @property(retain, nonatomic) id <NACancelable> activationTimer; // @synthesize activationTimer=_activationTimer;

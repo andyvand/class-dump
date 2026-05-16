@@ -17,16 +17,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void)R;
-- (void)`=;
 - (void);
 - (void);
-- (id)esponseDelay:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id)}­ÿ5;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

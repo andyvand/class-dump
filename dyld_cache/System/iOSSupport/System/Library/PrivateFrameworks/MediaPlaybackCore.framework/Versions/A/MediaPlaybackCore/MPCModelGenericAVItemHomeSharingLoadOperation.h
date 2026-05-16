@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _responseHandler;
 }
 
-- (void);
-- (id)ount:store: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (void){public}@  ââ´%{public}@ %{public}-40@ [%{public}@];
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;

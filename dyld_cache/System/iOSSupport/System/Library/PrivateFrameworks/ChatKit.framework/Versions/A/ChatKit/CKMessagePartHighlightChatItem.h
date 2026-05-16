@@ -13,11 +13,11 @@
     NSString *_timestampString;
 }
 
-- (_Bool)untName;
-- (BOOL)t: /* Error: Ran out of types for this method. */;
-- (id)t;
-- (struct CGSize)m;
-- (id)t;
+- (_Bool);
+- (BOOL);
+- (id);
+- (struct CGSize);
+- (id);
 - (Class);
 - (BOOL);
 - (id);
@@ -25,13 +25,13 @@
 - (struct IMAssociatedMessageGeometryDescriptor);
 - (id);
 - (struct _NSRange);
-- (Class);
-- (struct UIEdgeInsets);
-- (void);
 - (_Bool);
-- (id)Ü¹;
-- (id)essfully saved %tu items;
-- (id);
+- (struct UIEdgeInsets);
+- (Class);
+- (id)reURL;
+- (id)alBaseDelayInSeconds;
+- (id)ickname;
+- (void)´;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *timestampString; // @synthesize timestampString=_timestampString;

@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (void);
-- (void)lVideoThumbnailID;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *leafElements; // @synthesize leafElements=_leafElements;

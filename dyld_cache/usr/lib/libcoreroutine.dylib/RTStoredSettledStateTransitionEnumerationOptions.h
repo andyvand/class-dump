@@ -16,12 +16,12 @@
 
 - (id);
 - (id);
-- (void)a;
-- (void);
 - (id);
 - (_Bool);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)edTravelTime:crowFliesExpectedTravelTime:etaScaleFactor: /* Error: Ran out of types for this method. */;
+- (void)option:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;

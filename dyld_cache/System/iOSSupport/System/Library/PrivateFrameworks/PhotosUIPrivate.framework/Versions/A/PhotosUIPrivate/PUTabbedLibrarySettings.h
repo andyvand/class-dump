@@ -23,7 +23,7 @@
 
 + (id);
 + (id);
-+ (id)TVùÿnMþZ;
++ (id)debarLaunchLoadMode;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,8 +52,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool sidebarAnimateDataSourceUpdates; // @synthesize sidebarAnimateDataSourceUpdates=_sidebarAnimateDataSourceUpdates;

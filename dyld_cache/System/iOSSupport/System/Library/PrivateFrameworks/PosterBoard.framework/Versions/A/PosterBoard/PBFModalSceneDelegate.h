@@ -11,10 +11,10 @@
     NSMapTable *_sceneToWindowMap;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)56@64;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

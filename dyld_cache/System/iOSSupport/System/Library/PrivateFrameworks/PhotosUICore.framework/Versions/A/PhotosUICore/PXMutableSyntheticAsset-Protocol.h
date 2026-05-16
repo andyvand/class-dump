@@ -7,11 +7,14 @@
 @class NSDate, NSSet, NSString, UIColor;
 
 @protocol PXMutableSyntheticAsset
-- (void)!dFù±x°1b0@ù
+- (UIColor *)1â
+0@ù
 × ;
-- (void)er;
-- (void)"NSIndexSet",R,N,V__kindsCoveringContentTiles;
-- (void)LemonadeTwoColumnsReorderView_Previews;
+- (NSString *)dingOperation;
+- (void)tion;
+- (void)ility-;
+- (void)pMessageIdentifierPlayMusic(void);
+- (void)iÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect acceptableCropAssetRect;

@@ -12,12 +12,12 @@
 
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)ork/Versions/A/SoftLinking;
-- (void)፬r(;
-- (void)nBehavior:(double)arg1 caretAffinity:smartFieldRange:leadingEdge:leadingCharIndex: /* Error: Ran out of types for this method. */;
-- (void)Ô:(double)arg1 ÷ÿSV¹;
+- (void);
 
 @end
 

@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCPurchaseOfferableConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NSURL, NTPBPublisherPaidDescriptionStrings;
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (long long)thContext:url: /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (id <FCSportsEventProviding>)_;
-- (FCAssetHandle *);
-- (NSString *);
-- (_Bool);
-- (NSString *)d;
-- (_Bool)9;
-- (id <FCChannelProviding>)X;
-- (FCSectionSupergroupKnobs *)֢;
-- (_Bool)B;
-- (_Bool);
-- (_Bool);
-- (void)P;
-- (NSString *)THHJLJ´KüKdM¬MO\OÄPQtR¼R$TlTÔUVWÌW4Y|Y0Z¬Z`[¨[´d;
-- (_Bool)ÿðµùÿ<¶ùÿ`¶ùÿ¶ùÿÐ¶ùÿô¶ùÿ8·ùÿ·ùÿ°·ùÿ¸ùÿ@¸ùÿd¸ùÿ ¸ùÿÄ¸ùÿ¹ùÿd¹ùÿ¹ùÿü¹ùÿ ºùÿDºùÿºùÿ¤ºùÿðºùÿD»ùÿh»ùÿä»ùÿ¼ùÿ,¼ùÿh¼ùÿ¼ùÿà¼ùÿ4½ùÿX½ùÿÈ½ùÿì½ùÿ¾ùÿL¾ùÿp¾ùÿä¾ùÿ¿ùÿp¿ùÿ¿ùÿÀùÿ4ÀùÿXÀùÿÀùÿ¸ÀùÿÁùÿ(ÁùÿdÁùÿÁùÿ¼ÁùÿÂùÿ\ÂùÿÂùÿäÂùÿÃùÿ,ÃùÿhÃùÿÃùÿØÃùÿüÃùÿ Äùÿ¬ÄùÿÐÄùÿôÄùÿ0ÅùÿTÅùÿ ÅùÿÄÅùÿèÅùÿÔÆùÿøÆùÿÇùÿXÇùÿ|ÇùÿÈÇùÿÈùÿ@ÈùÿÉùÿÀÉùÿäÉùÿ ÊùÿDÊùÿÊùÿ¼ÊùÿøÊùÿ,ËùÿPËùÿ¬ËùÿÐËùÿôËùÿÀÌùÿäÌùÿÍùÿDÍùÿhÍùÿàÍùÿ@ÎùÿdÎùÿÎùÿtÏùÿÏùÿ¼ÏùÿøÏùÿÐùÿpÐùÿÐùÿÐÐùÿÑùÿ(Ñùÿ¬ÑùÿhÒùÿ¤ÒùÿÈÒùÿìÒùÿìÓùÿÔùÿ4ÔùÿpÔùÿÔùÿäÔùÿÕùÿÔÕùÿøÕùÿdÖùÿÖùÿ¬ÖùÿèÖùÿ×ùÿ`×ùÿ´×ùÿØ×ùÿ`ØùÿØùÿ¨ØùÿäØùÿÙùÿXÙùÿ¬ÙùÿÐÙùÿ4ÚùÿXÚùÿ|Úùÿ¸ÚùÿÜÚùÿ0ÛùÿTÛùÿxÛùÿ8Üùÿ\ÜùÿÜùÿ¼ÜùÿàÜùÿ0ÝùÿÝùÿ¨ÝùÿÞùÿ<Þùÿ`ÞùÿÞùÿÀÞùÿßùÿ4ßùÿpßùÿ¤ßùÿÈßùÿ,àùÿPàùÿàùÿÀàùÿäàùÿ8áùÿáùÿ°áùÿ âùÿDâùÿhâùÿ¤âùÿÈâùÿãùÿlãùÿãùÿäùÿ,äùÿPäùÿäùÿ°äùÿåùÿ,åùÿPåùÿ`æùÿæùÿ¨æùÿäæùÿçùÿXçùÿ|çùÿ çùÿØèùÿüèùÿ éùÿ\éùÿéùÿØéùÿüéùÿ êùÿìêùÿëùÿ4ëùÿpëùÿëùÿäëùÿìùÿDìùÿxìùÿìùÿôìùÿHíùÿlíùÿØíùÿüíùÿ îùÿ\îùÿîùÿ,ïùÿïùÿ¨ïùÿèïùÿ<ðùÿ`ðùÿÈðùÿìðùÿñùÿLñùÿpñùÿÈñùÿìñùÿòùÿ`óùÿóùÿ¨óùÿäóùÿôùÿôùÿìôùÿõùÿõùÿ¨õùÿÌõùÿöùÿ,öùÿxöùÿöùÿØöùÿ÷ùÿ0÷ùÿ¤÷ùÿø÷ùÿøùÿøùÿ´øùÿØøùÿùùÿ8ùùÿùùÿèùùÿúùÿúùÿ¼úùÿàúùÿûùÿ@ûùÿÄûùÿèûùÿ$üùÿXüùÿ|üùÿàüùÿýùÿ(ýùÿxþùÿþùÿÀþùÿüþùÿ ÿùÿpÿùÿÄÿùÿèÿùÿT;
-- (NSString *)accessibilityExtraExtraExtraLarge;
-- (FCPurchaseOfferableConfiguration *)ÜïÿB;
-- (_Bool)_j05HsbvhKQoVt2DQgbW27-yiE8/Library/Caches/com.apple.xbs/Sources/FeldsparFrameworks/Modules/news-reader/NewsAnalytics/Session/SessionObserver+AppBadgeData.swift;
-- (_Bool)ÎÿÅ¼öTÎÿµ¼öxÎÿ;
-- (NSString *)/ ;
-- (_Bool)RøüÏÿ;
-- (_Bool)ÅùÐÍÓÿuÅùÎÓÿ;
-- (_Bool)øg;
+- (_Bool)ÿ;
+- (double)Data;
+- (_Bool)Ðÿe`k8ÐÿM`kHÐÿ;
+- (_Bool)Ü;
+- (_Bool)zleRevealData;
+- (_Bool)"nè0Ûÿ"n1Ûÿ"n42Ûÿ;
+- (_Bool);
+- (NSString *)ÿ<m|tÒÿ½<mä;
+- (_Bool)ÿåQm¼ÒÿõQm¸ÒÿõQmÈÒÿÝQmØÒÿ;
+- (NSDate *);
+- (NSString *)}dn;
+- (long long);
+- (NSURL *)Òÿ«nDÄÖÿ;
+- (_Bool)%ínLç;
+- (_Bool)L£
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -57,6 +49,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -83,6 +77,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

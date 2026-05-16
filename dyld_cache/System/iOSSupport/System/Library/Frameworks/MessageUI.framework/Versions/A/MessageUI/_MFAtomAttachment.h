@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _MFAtomLayoutView *atomView; // @synthesize atomView=_atomView;

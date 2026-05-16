@@ -13,8 +13,9 @@
 }
 
 - (id);
-- (void)idateSession;
-- (id)G_SSSgSayÆð¨GSgSDySSSay¾ð¨GGtc;
+- (id)1Â0@ù
+× ;
+- (void)±H:¬Y /* Error: Ran out of types for this method. */;
 
 @end
 

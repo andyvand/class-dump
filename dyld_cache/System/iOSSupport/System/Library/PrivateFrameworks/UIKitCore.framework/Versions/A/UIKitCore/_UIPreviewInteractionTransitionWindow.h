@@ -11,15 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)_showVisualForFeedback: /* Error: Ran out of types for this method. */;
++ (_Bool)0@ù
+× ;
+- (id);
+- (id);
+- (_Bool)rTreeSizeThresholdForReset;
+- (_Bool)ColorCapsuleForSelection;
+- (_Bool)yleKey;
+- (void);
+- (_Bool)%];
 - (_Bool);
-- (void)j$º;
-- (id)ontentView: /* Error: Ran out of types for this method. */;
-- (id)_TtC5UIKit22UIPromptBackgroundView;
-- (_Bool)eyboardSubstitutePhonePresentationController;
-- (_Bool);
-- (_Bool)Îh[;
-- (_Bool)Ùÿ;
 
 @end
 

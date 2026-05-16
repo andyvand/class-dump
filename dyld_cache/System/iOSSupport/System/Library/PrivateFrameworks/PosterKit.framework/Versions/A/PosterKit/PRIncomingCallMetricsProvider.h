@@ -20,11 +20,11 @@
 + (double);
 + (double);
 + (double);
++ (id);
 + (_Bool);
-+ (id);
 + (double);
 + (id);
-+ (double);
++ (double)× ;
 
 @end
 

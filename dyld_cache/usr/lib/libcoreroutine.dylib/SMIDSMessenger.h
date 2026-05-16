@@ -20,11 +20,19 @@
 - (void);
 - (void);
 - (void);
-- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -35,18 +43,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)S;
-- (id)^,1¢!0@ù
-× ;
-- (id);
-- (void)equestedBackgroundTask;
+- (void)managedObject isKindOfClass:[RTLearnedVisitMO class]] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

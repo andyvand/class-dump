@@ -18,10 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)!Cùññ1â
+0@ù
+× ;
+- (id)uggestedContentStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *graphicComplications; // @synthesize graphicComplications=_graphicComplications;

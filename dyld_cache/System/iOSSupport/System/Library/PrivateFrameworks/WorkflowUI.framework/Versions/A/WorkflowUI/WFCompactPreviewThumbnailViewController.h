@@ -17,13 +17,13 @@
 - (double);
 - (unsigned long long);
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (id)The iCloud link will be deleted and will no longer work within a few minutes.;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContentItem *contentItem; // @synthesize contentItem=_contentItem;

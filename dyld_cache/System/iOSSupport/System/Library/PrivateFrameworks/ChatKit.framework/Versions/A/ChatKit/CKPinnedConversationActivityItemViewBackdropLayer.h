@@ -11,8 +11,8 @@
 
 - (void);
 - (id);
-- (long long);
-- (void)yADyß½¬AOGSgGGAOG_ADyADyADyADyADyADyADyADyADyl&¬§!¬ySiSgGGA5_y¯%¬SgGGA5_y÷«GGã¬ye*¬GGAOGAUGAKG}¬Gg¬GADyA19_A23_GtGG;
+- (void)nt:fromCoordinateSpace: /* Error: Ran out of types for this method. */;
+- (long long)@;
 
 // Remaining properties
 @property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;

@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, RTEnumerationOptions;
+@class RTEnumerationOptions;
 
 @protocol RTStoreManager
-+ (NSSet *);
-- (void)ct sum vector is, %f + %fi, centroid, %@ (in %s:(RTEnumerationOptions *)arg1 %d);
+- (void)nID:(RTEnumerationOptions *)arg1 %@,%@,%@, notifying cache manager of user viewing session details;
 @end
 

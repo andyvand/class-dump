@@ -15,9 +15,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (id);
-- (id)SSING__;
-- (id)oint;
-- (long long);
+- (id);
+- (long long)
+× ;
+- (id)setPlaysFeedback:(struct _NSZone *)arg1 ,V_playsFeedback;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint originatingLocation; // @synthesize originatingLocation=_originatingLocation;

@@ -25,12 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (long long);
 - (CDUnknownBlockType);
-- (unsigned long long)umberOfSections] %ld;
+- (id);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXMenuAction> alternateAction;

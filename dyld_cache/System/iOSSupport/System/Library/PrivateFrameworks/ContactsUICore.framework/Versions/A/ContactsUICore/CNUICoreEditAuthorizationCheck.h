@@ -29,11 +29,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)_messagingURLFutureWithHandle:contact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;

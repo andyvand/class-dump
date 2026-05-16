@@ -16,9 +16,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;

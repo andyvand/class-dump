@@ -44,25 +44,25 @@
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (long long);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)invoke;
-- (id)alCityIdentifier;
+- (id)@16@24B32@36;
+- (id)orage_$_batchExecutor;
+- (void)Name);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

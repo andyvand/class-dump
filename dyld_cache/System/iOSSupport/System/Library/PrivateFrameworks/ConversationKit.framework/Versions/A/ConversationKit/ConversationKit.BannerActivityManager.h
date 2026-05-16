@@ -16,8 +16,8 @@
 }
 
 + (id);
-- (void);
 - (id);
+- (void)q0_yc;
 
 @end
 

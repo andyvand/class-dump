@@ -7,7 +7,6 @@
 @class NSString, PFPosterPath;
 
 @protocol PFPosterContents
-- (NSString *)rics=dddd},R,N;
 
 // Remaining properties
 @property(readonly, nonatomic) PFPosterPath *_path;

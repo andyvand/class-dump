@@ -7,10 +7,8 @@
 @class NSObject, UIColor;
 
 @protocol UIMutableTraitsInternal
-- (unsigned long long)@;
-- (double);
-- (void)onversation:(double)arg1;
-- (void)cText;
+- (void)tion for %@;
+- (UIColor *)s.minimumSize;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject *_environmentWrapper;

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (unsigned int);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) unsigned int chipID; // @synthesize chipID=_chipID;

@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (void);
 - (_Bool);
+- (CDUnknownBlockType);
+- (void)Photos;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUActivityViewControllerDelegate> activityControllerDelegate; // @synthesize activityControllerDelegate=_activityControllerDelegate;

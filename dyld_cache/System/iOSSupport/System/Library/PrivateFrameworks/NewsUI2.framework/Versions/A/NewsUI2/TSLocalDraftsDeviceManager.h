@@ -13,9 +13,9 @@
     void delegate;
 }
 
-- (void);
 - (id);
-- (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

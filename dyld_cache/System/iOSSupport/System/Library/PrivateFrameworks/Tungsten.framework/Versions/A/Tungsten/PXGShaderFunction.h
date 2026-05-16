@@ -17,12 +17,12 @@
 + (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *assignmentVariable; // @synthesize assignmentVariable=_assignmentVariable;

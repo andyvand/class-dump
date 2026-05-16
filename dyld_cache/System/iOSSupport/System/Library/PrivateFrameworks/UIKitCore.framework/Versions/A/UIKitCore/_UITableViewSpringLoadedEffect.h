@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (void);
 - (void);
-- (void)ùÁ°1¢!0@ù
+- (id);
+- (void)ð!àEùQZÐ1Â0@ù
 × ;
-- (id)r>";
-- (id)textDidChange;
-- (void)ContinuousFeedback;
+- (void)ttingsC;
 
 // Remaining properties
 @property(retain, nonatomic) id <UISpringLoadedInteractionEffect> blinkEffect; // @synthesize blinkEffect=_blinkEffect;

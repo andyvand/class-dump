@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)hResult;
 + (_Bool);
-+ (id)rOrientation: /* Error: Ran out of types for this method. */;
-+ (id)8CAAction_p;
-+ (long long)ZÍþ;
++ (_Bool);
++ (id);
++ (id)controllers not the window delegate;
++ (long long)xwg;
 
 @end
 

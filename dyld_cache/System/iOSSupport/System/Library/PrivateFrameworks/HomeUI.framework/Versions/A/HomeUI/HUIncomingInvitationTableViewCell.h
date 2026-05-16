@@ -62,15 +62,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)raints;
-- (void)e:(id)arg1;
+- (void);
 - (id);
-- (void)pple.com;
-- (void)÷à;
-- (id)·÷1;
+- (void)te:sourceItem:] /* Error: Ran out of types for this method. */;
+- (id)õGþ,;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;

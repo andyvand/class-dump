@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (Class);
-- (void);
-- (unsigned long long)s not respond to didFinishRunningHarnessTestsWithResult;
+- (void)tomMaskImage);
+- (unsigned long long)n Bear (Action Name);
 
 // Remaining properties
 @property(readonly, nonatomic) Class contentItemClass; // @synthesize contentItemClass=_contentItemClass;

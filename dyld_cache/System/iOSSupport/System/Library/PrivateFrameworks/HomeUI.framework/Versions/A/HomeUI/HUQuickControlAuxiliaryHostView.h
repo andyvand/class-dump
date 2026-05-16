@@ -14,9 +14,9 @@
 
 - (void);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)mManager initWithSourceItem:delegate:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView<HUQuickControlAuxiliaryView> *auxiliaryView; // @synthesize auxiliaryView=_auxiliaryView;

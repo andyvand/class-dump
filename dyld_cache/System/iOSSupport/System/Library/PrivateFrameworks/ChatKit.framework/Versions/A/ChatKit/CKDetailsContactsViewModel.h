@@ -26,14 +26,13 @@
 }
 
 + (id);
-- (_Bool)collaborationAnalyticsDelegate;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)Z;
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,24 +40,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)locked notes.;
-- (id)iewBackground;
 - (void);
-- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (void);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)¢!0@ù
-× ;
-- (id)ePickerController"16@"NSDictionary"24;
-- (void)Ø";
-- (id);
-- (id)RL %@ recipients %@;
-- (void)PillViewDelegate;
-- (id)-¨ÿ;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)5\ySayèl;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long callType; // @synthesize callType=_callType;

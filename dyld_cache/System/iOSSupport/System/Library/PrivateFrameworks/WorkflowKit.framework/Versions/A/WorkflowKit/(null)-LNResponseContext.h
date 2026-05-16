@@ -7,7 +7,7 @@
 @class LNResponseContext;
 
 @interface (null) (LNResponseContext)
-- (id)°´Ì;
+- (id);
 
 // Remaining properties
 @property(readonly) LNResponseContext *linkResponseContext;

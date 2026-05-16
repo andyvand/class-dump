@@ -11,12 +11,12 @@
     MISSING_TYPE *orientationSubscription;
 }
 
-- (void);
-- (id);
+- (id)ÌÄXÁüh<K;
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void)So6UIViewCG;
 
 @end
 

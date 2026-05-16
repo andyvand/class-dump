@@ -34,9 +34,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType clientRegistrationHandler; // @synthesize clientRegistrationHandler=_clientRegistrationHandler;

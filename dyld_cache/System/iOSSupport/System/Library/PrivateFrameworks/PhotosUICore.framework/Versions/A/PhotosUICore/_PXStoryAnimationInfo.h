@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (void);
-- (id)argetSize:contentMode:prefersHDR:resultHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)moriesFeedTabButtonTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXStoryAnimation *animation; // @synthesize animation=_animation;

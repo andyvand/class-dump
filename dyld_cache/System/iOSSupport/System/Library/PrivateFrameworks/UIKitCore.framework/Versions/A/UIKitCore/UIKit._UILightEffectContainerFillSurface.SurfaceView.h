@@ -10,10 +10,9 @@
 {
 }
 
-- (void);
 - (id);
-- (id)g menu is removed or replaced by the new menu.
-;
+- (void);
+- (id)oard;
 
 @end
 

@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (struct CGSize);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (void);
+- (struct CGSize);
+- (unsigned long long);
 - (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

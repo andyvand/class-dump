@@ -17,11 +17,13 @@
     CNGeminiManager *_geminiManager;
 }
 
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -30,10 +32,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void)ct;
+- (id):color: /* Error: Ran out of types for this method. */;
+- (void)_isEmergencyContact;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *channelIdentifier;

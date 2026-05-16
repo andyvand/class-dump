@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id)name;
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id)*	;
-- (void);
-- (void);
+- (void)Performing out of band migration for %s;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

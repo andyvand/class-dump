@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)";
+- (id);
+- (void)becoming Non Active handler  was called, with error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisit *visitIncident; // @synthesize visitIncident=_visitIncident;

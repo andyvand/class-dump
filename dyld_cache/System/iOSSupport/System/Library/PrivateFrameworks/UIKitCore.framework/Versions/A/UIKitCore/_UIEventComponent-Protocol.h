@@ -7,12 +7,8 @@
 @class _UIEventComponentPhaseValue;
 
 @protocol _UIEventComponent
-- (_UIEventComponentPhaseValue *)?0@"<NSCopying>"8@"MPMusicMediaPickerRemoteViewController"16@"NSError"24;
-- (unsigned long long)0@ù
-× ;
-- (_UIEventComponentPhaseValue *)ù
-× ;
-- (void)B;
+- (_UIEventComponentPhaseValue *)Ô ;
+- (_UIEventComponentPhaseValue *)rmWithTarget:(long long)arg1;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setEventComponentPhase:) _UIEventComponentPhaseValue *_eventComponentPhase;

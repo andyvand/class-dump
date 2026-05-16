@@ -19,14 +19,16 @@
 - (long long);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
+- (void)1â
+0@ù
+× ;
+- (id)t=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}24@0:(struct _NSZone *)arg1 8@16;
+- (id)rary:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

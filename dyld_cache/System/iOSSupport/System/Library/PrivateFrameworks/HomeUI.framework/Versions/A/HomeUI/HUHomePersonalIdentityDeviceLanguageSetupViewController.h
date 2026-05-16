@@ -37,15 +37,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)°1b0@ù
-× ;
-- (void)0Ð1b0@ù
-× ;
-- (id)onForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ionFactor:(id)arg1;
+- (void);
+- (void)nTitle;
 
 // Remaining properties
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;

@@ -17,10 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)Qï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXColumnCalculator> columnCalculator; // @synthesize columnCalculator=_columnCalculator;

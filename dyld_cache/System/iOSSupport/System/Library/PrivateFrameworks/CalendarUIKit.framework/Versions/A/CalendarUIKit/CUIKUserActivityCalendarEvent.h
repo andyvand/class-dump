@@ -20,14 +20,14 @@
 }
 
 - (id);
-- (void)!;
-- (id);
-- (id);
-- (id)boolForKey:(id)arg1;
-- (unsigned long long)GG;
 - (void);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (void)opTimeDemoModeComponents;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;

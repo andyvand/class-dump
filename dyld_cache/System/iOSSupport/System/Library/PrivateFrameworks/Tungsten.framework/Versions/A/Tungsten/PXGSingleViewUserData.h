@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)D(H(3¸*;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

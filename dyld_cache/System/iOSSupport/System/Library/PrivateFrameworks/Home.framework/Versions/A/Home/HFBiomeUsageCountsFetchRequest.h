@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
 - (id);
+- (CDUnknownBlockType);
+- (void):(CDUnknownBlockType)arg1 andMediaAccessories: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain) NSMapTable *accessoryRepresentablesByUniqueIdentifier; // @synthesize accessoryRepresentablesByUniqueIdentifier=_accessoryRepresentablesByUniqueIdentifier;

@@ -5,7 +5,6 @@
 //
 
 @protocol _UIInterfaceOrientationLockClient
-- (void)sealingMapRepairConfigurationCache;
 
 // Remaining properties
 @property(nonatomic) long long interfaceOrientationLockPreference;

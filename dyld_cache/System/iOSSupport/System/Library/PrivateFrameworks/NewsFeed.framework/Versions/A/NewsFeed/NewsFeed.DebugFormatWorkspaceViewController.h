@@ -15,10 +15,10 @@
     MISSING_TYPE *workspaceCanvasNavigationController;
 }
 
-- (id)u;
 - (id);
-- (void)ponse"32@?<v@?@"NSCachedURLResponse">40;
 - (id);
+- (void)íD:¹ï /* Error: Ran out of types for this method. */;
+- (id)I:(long long)arg1 L;
 
 @end
 

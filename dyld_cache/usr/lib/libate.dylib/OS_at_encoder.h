@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void);
 - (unsigned long long);
-- (_Bool)v~Sc;
-- (void)d writing a JPX file, but failed to write all codestreams before calling `jpx_target::close'. /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool);
+- (id);
 - (id);
 
 // Remaining properties

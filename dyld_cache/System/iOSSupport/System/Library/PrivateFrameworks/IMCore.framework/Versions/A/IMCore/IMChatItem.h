@@ -24,7 +24,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,21 +32,23 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (long long);
-- (id);
 - (long long);
-- (id)64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, std::unique_ptr<WebKit::LayerHostingContext>>::KeyValuePairTraits, WTF::DefaultHash<std::pair<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = std::pair<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)A;
+- (id);
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (id)(;
 - (id);
 - (id);
-- (_Bool)4;
+- (void)öHÿÿàðÿÿ~ÿÿ¨Iÿÿ.ÿÿ;
+- (_Bool)s rejected, guid:%@, error:%@, error description:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *balloonBundleID;

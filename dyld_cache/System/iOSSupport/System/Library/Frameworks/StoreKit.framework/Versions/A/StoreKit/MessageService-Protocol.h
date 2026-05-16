@@ -5,6 +5,5 @@
 //
 
 @protocol MessageService
-- (void);
 @end
 

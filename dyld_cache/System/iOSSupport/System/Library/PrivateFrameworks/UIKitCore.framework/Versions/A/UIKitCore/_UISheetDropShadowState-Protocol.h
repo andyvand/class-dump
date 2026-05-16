@@ -6,9 +6,6 @@
 
 @protocol _UISheetDropShadowState
 - (_Bool);
-- (_Bool)geController: /* Error: Ran out of types for this method. */;
-- (_Bool)!CùÉ1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly) double _depthLevel;

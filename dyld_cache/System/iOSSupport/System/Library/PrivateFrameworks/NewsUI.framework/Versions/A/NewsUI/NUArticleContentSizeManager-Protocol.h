@@ -5,6 +5,5 @@
 //
 
 @protocol NUArticleContentSizeManager
-- (void)@;
 @end
 

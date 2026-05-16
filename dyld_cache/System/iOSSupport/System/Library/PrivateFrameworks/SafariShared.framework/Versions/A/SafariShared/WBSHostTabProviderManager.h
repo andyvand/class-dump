@@ -12,13 +12,13 @@
     NSMapTable *_hostTabMapTable;
 }
 
-+ (id)ou want to delete this password?;
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)¨ô;
 
 @end
 

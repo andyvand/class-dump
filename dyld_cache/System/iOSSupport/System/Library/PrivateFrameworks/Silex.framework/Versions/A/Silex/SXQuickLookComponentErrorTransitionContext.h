@@ -11,9 +11,9 @@
     NSError *_error;
 }
 
-- (void)5	;
-- (id)d;
-- (id)entStylesMap;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXMLParser;
-
 @protocol NSXMLParserDelegate
-
-@optional
-- (void);
-- (void)tAssociatedMessageSummaryToDisplayFormat:(NSXMLParser *)arg1 isAdaptiveImageGlyphProvider:(NSString *)arg2 isCommSafetySensitiveProvider:(NSString *)arg3 adaptiveImageGlyphProvider:(NSString *)arg4;
 @end
 

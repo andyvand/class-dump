@@ -11,8 +11,8 @@
     MISSING_TYPE *placeDescriptor;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

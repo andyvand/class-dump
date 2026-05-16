@@ -16,10 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void);
-- (void)iewController;
-- (id)eBoard;
-- (void)IKBTree"40@?0{CGRect={CGPoint=dd}{CGSize=dd}}8;
+- (id);
+- (void)0@ù
+× ;
+- (void)ansition"16;
+- (void)8@\;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIEventSessionDynamicAccumulatorDelegate> delegate; // @synthesize delegate=_delegate;

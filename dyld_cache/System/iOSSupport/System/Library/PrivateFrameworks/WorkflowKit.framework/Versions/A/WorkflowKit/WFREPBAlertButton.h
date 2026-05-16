@@ -13,24 +13,24 @@
     _Bool _preferred;
 }
 
+- (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (int);
-- (id);
-- (int);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
-- (void)pportedVariableTypes;
-- (void)emCache;
-- (id)flowID:(int)arg1 completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id):error: /* Error: Ran out of types for this method. */;
+- (void)g (This Version);
+- (void);
+- (_Bool)eo;
+- (int)onRequestC;
 
 // Remaining properties
 @property(nonatomic) _Bool preferred; // @synthesize preferred=_preferred;

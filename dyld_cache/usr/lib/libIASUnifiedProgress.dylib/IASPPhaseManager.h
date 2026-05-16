@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)k;
+- (_Bool);
 - (float);
 - (id);
 - (void);
@@ -39,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -48,11 +48,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (float);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSMutableArray *phases; // @synthesize phases=_phases;

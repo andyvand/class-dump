@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
     NSData *_imageData;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
-- (void)esponder;
 - (id);
+- (void);
 
 @end
 

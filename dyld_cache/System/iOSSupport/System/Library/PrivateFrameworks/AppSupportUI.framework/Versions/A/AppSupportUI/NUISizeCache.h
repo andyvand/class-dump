@@ -13,8 +13,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id): /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (void);
 - (void);
 

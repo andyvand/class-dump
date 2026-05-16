@@ -14,8 +14,8 @@
 
 - (CDUnknownBlockType);
 - (id);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;

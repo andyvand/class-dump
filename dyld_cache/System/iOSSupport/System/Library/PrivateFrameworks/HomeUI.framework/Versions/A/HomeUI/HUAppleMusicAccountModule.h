@@ -36,8 +36,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)a¯Ð!8Gùq1â
+0@ù
+× ;
+- (void)me;
 
 // Remaining properties
 @property(readonly, nonatomic) HFStaticItemProvider *appleMusicAccountActionItemProvider; // @synthesize appleMusicAccountActionItemProvider=_appleMusicAccountActionItemProvider;

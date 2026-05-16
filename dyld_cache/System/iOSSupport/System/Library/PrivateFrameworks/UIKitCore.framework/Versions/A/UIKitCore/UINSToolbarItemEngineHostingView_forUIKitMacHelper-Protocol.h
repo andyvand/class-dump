@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIView;
+@class UIView;
 
 @protocol UINSToolbarItemEngineHostingView_forUIKitMacHelper
-- (UIImage *)?;
-- (void);
-- (UIView *)oundAnalysis.WrapperNSHashableShallowCopying;
 
 // Remaining properties
 @property(readonly) UIView *observedView;

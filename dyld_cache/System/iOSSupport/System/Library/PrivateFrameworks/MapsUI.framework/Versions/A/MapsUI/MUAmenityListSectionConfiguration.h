@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ggingRevealUntilRefinement;
 
 // Remaining properties
 @property(retain, nonatomic) MUAmenityApplePayConfiguration *applePayConfiguration; // @synthesize applePayConfiguration=_applePayConfiguration;

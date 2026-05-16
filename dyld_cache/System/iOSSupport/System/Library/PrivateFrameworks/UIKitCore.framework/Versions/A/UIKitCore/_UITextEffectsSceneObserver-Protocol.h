@@ -5,10 +5,10 @@
 //
 
 @protocol _UITextEffectsSceneObserver
-- (void)Àð1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void)
+- (void)A
+ð! GùÑfÐ1Â0@ù
 × ;
-- (void)@;
 @end
 

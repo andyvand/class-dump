@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct CGSize)umber",&,N,V_groupProtocolVersion;
-- (struct CGPoint)chatGUIDToCountMap;
+- (struct CGSize);
+- (struct CGPoint);
 - (unsigned long long);
 - (void);
 - (id);
@@ -34,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)IsCompilation();
-- (void);
-- (unsigned int);
-- (id);
-- (struct CGPoint)EkØß];
-- (id);
+- (struct CGPoint)lView;
+- (id)ighlightColor;
+- (id)_animationFlags;
+- (id);
+- (void)±¡^;
+- (unsigned int)¶ÿ,ØÒFc;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_allowsItemsToUpdate) _Bool _allowsItemsToUpdate;

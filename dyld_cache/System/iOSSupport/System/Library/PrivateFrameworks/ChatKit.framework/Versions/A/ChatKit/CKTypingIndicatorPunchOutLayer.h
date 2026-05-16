@@ -17,14 +17,14 @@
 }
 
 - (id);
-- (void):(id)arg1;
-- (void)atchFinder:(_Bool)arg1;
-- (void)tionMechanism;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id)12@?0B8;
-- (id)xt storage;
-- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,12 +44,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (id)0@ù
+× ;
+- (void)ationBarCallModeJoinedVideo;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *alignedContentLayer; // @synthesize alignedContentLayer=_alignedContentLayer;

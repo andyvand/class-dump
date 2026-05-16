@@ -18,9 +18,9 @@
 - (id);
 - (long long);
 - (id);
-- (long long);
 - (_Bool);
 - (unsigned long long);
+- (long long)@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;

@@ -5,7 +5,7 @@
 //
 
 @interface (null) (CKComposition)
-+ (id)#;
++ (id);
 - (id);
 - (void);
 - (_Bool);

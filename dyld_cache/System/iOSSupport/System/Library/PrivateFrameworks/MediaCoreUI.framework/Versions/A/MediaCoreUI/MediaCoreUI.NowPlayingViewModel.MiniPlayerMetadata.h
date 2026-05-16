@@ -11,8 +11,8 @@
     MISSING_TYPE *_contentState;
     MISSING_TYPE *_title;
     MISSING_TYPE *_subtitle;
+    MISSING_TYPE *_interaction;
     MISSING_TYPE *_canMarquee;
-    MISSING_TYPE *metadataStyle;
     MISSING_TYPE *copyFields;
 }
 

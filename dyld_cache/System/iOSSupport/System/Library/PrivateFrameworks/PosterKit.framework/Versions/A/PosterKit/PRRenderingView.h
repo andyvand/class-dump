@@ -19,25 +19,25 @@
     double _parallaxFactor;
 }
 
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void)sition:(id)arg1;
-- (long long);
-- (void)empty, no selected poster could be found.;
+- (_Bool)faultPalette,V_defaultPalette;
+- (void)2@?0@"<PRPosterContentStyle>"8Q16^B24;
+- (long long)orPickerConfiguration;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;

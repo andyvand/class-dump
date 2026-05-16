@@ -30,16 +30,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)iredLegibilitySettings: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)"UIPresentationController"16q24;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *customFont; // @synthesize customFont=_customFont;

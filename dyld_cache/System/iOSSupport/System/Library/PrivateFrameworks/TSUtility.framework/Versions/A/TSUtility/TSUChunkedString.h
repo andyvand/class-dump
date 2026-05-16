@@ -16,18 +16,18 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
 - (id);
 - (unsigned short);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)s;
-- (void);
-- (unsigned long long);
-- (void);
+- (void)Fûÿ;
 
 @end
 

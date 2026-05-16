@@ -11,8 +11,8 @@
     MISSING_TYPE *assetManager;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

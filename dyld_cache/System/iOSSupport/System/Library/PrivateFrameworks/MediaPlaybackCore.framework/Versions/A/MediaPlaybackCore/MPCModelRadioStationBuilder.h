@@ -27,10 +27,10 @@
     MPPropertySet *_requestedProperties;
 }
 
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)%{public}@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPPropertySet *requestedProperties; // @synthesize requestedProperties=_requestedProperties;

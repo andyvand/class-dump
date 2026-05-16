@@ -12,7 +12,7 @@
 
 - (const int *);
 - (int);
-- (id)AVCaptureInputPort";
+- (id);
 
 @end
 

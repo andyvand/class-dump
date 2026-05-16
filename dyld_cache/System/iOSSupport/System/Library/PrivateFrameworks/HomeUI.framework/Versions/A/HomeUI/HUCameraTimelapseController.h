@@ -55,9 +55,9 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
 - (void);
 - (_Bool);
+- (CDStruct_1b6d18a9);
 - (id);
 - (void);
 - (void);
@@ -70,14 +70,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
+- (void)withAnimation: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)arding-TVViewingProfiles;
+- (void)Ó»ÿ=Ks;
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *cachedPlayerItems; // @synthesize cachedPlayerItems=_cachedPlayerItems;

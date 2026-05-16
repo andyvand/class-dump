@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)dJZÿ;
++ (_Bool)cludeFromHitTesting;
 - (id);
 - (unsigned long long);
 - (double);
@@ -29,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id)ForPredefinedQuery:(struct _NSZone *)arg1;
 - (id);
-- (void);
-- (id)GPoint=dd}{CGSize=dd}}24{CGPoint=dd}56B72;
-- (id)ementaryShown: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)2@0:(id)arg1 8@"_UIDatePickerCalendarTimeView"16@"_UIDatePickerCalendarTime"24;
+- (void)er:(id)arg1;
+- (id)d},?,N,V_selectionEdgeInsets;
+- (void)f;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

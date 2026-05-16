@@ -19,8 +19,8 @@
 - (void);
 - (id);
 - (void);
-- (void)allBlock.sync;
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -30,7 +30,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)miss: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

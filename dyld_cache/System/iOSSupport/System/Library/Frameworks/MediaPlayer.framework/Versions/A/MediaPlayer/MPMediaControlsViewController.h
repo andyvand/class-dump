@@ -23,23 +23,23 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void)R$;
 - (void);
+- (void);
+- (double);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)s;
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)t;
-- (void)re.;
-- (id)2;
-- (void)scribed;
-- (double)219;
-- (void)acOS accountDSID];
+- (void);
+- (id)}}16q48@56@64;
+- (void)odelID;
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaControlsConfiguration *configuration; // @synthesize configuration=_configuration;

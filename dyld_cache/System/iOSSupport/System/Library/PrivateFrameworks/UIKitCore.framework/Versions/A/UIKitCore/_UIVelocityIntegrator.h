@@ -21,48 +21,53 @@
     CDUnion_5898235e _totalTranslation;
 }
 
-- (CDUnion_c6a188fc);
-- (id);
+- (void);
 - (double);
-- (id);
 - (void);
-- (_Bool);
-- (CDUnion_c6a188fc);
-- (void);
-- (CDUnion_c6a188fc);
-- (void)$;
+- (double);
 - (CDUnion_c6a188fc);
 - (void);
 - (void);
-- (struct CGVector);
-- (void);
-- (void);
-- (void)ediaGroupingAlbum;
-- (CDUnion_c6a188fc);
-- (CDUnion_c6a188fc);
-- (void)P;
 - (CDUnknownBlockType);
-- (void)sXº;
-- (long long)ÔAp°!ü@ùñÂ°1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (long long);
+- (long long);
+- (id);
+- (CDUnion_c6a188fc);
+- (void);
+- (id);
+- (CDUnion_c6a188fc);
+- (CDUnion_c6a188fc)!Eù1Zð1Â0@ù
 × ;
-- (_Bool)±Èð1¢!0@ù
+- (CDUnion_c6a188fc)ôFùQ[Ð1Â0@ù
 × ;
-- (id)trollerSceneContext"16;
-- (CDUnion_c6a188fc)ce";
-- (void)"32@0:(struct CGPoint)arg1 8@"LPLinkView"16@"NSURL"24;
-- (void)mationFencing;
-- (long long)thImage: /* Error: Ran out of types for this method. */;
-- (id)oadedItem;
-- (void)w;
-- (void)cations;
-- (struct CGPoint)nerBounds;
-- (double)TextAttachments:previousLabelViewTextAttachments: /* Error: Ran out of types for this method. */;
-- (void)S_setDeferredUpdate:(long long)arg1 ,V_deferredUpdate;
-- (void)`Ø;
-- (struct CGVector);
-- (struct CGVector);
-- (double)3yø;
-- (id)elper.m;
+- (id)1Â0@ù
+× ;
+- (struct CGVector)AÐ!dGùqaÐ1Â0@ù
+× ;
+- (struct CGPoint)
+× ;
+- (id)Ñc°1Â0@ù
+× ;
+- (void);
+- (CDUnion_c6a188fc)4;
+- (CDUnion_c6a188fc)ion;
+- (id)sesAccessibilityHairlineThickening;
+- (double)Effects;
+- (void):(CDUnion_c6a188fc)arg1 presentationValueChangedCallback:(double)arg2;
+- (void)nConstraint;
+- (void)&,N,V_cursorPortalInteraction;
+- (_Bool)ableArray",&,N,S_setMutableItems:,V_mutableItems /* Error: Ran out of types for this method. */;
+- (void)W;
+- (_Bool)
+;
+- (void)feedback loop. This will become an assert in a future version.;
+- (void)¹îÿ;
+- (void)GGAByAByAC.3GAJG_G;
+- (struct CGVector)efinitionCustomHandlingP;
+- (struct CGVector)efinitionIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _sampleCount;

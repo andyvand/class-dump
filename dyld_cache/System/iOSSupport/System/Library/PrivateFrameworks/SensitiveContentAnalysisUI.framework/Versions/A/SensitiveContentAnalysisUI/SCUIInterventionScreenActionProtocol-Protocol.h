@@ -10,6 +10,10 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionID;
+@property(readonly, nonatomic) _Bool isLinkStyle;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @property(readonly, nonatomic) _Bool primary;
 @property(readonly, copy, nonatomic) NSString *title;
 @end

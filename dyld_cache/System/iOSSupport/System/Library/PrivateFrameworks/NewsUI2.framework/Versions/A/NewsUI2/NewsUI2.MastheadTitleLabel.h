@@ -12,11 +12,11 @@
     MISSING_TYPE *cachedAccessibilityLabel;
 }
 
-- (id);
 - (void);
-- (void);
-- (id)noTag;
-- (id)àþáèûäàþÑèûTàþ;
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

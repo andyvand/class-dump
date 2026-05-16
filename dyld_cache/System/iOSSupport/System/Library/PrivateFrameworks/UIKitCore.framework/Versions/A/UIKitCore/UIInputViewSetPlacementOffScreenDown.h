@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)/þm;
-- (id)NSArray",&,N,V_results;
++ (_Bool)& merge test;
+- (id)productivity_gestures_cancel_touches;
 
 @end
 

@@ -33,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)bleTileRowInfo *, TSUColumnIndex, TSUColumnRowCount);
 
 @end
 

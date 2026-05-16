@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _useLowerIntensity;
 }
 
-- (void);
 - (_Bool);
-- (void);
 - (void);
+- (void)d: /* Error: Ran out of types for this method. */;
+- (void)sal;
 
 // Remaining properties
 @property(nonatomic) _Bool useLowerIntensity; // @synthesize useLowerIntensity=_useLowerIntensity;

@@ -5,12 +5,5 @@
 //
 
 @protocol _UIDraggingSessionDelegate
-
-@optional
-- (void);
-- (void);
-- (void)trimmedString;
-- (void)ionMessagePartClasses;
-- (void)anslationLanguage;
 @end
 

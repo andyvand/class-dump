@@ -13,10 +13,10 @@
     NSMapTable *_sceneLayerTable;
 }
 
-- (void);
-- (void);
-- (void)P;
-- (id)UÓ\;
+- (void):(id)arg1;
+- (void)ce;
+- (id);
+- (void)ÈL\;
 
 @end
 

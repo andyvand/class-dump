@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     double _width;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (double);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;

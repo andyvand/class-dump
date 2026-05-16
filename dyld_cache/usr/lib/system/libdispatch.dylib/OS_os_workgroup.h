@@ -10,11 +10,11 @@
 {
 }
 
-- (oneway void);
 - (void);
+- (oneway void);
 - (id);
 - (id);
-- (void)ABCDEFGHIJKLMNOPQRSTUVWXYZ234567;
+- (void);
 
 @end
 

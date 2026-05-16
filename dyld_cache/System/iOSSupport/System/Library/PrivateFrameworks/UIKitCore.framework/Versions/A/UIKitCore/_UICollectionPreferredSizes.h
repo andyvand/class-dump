@@ -20,26 +20,26 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (struct CGSize);
+- (long long);
+- (void);
+- (void);
+- (id)ect={CGPoint=dd}{CGSize=dd}}16@48^{CGImage=}56B64;
+- (_Bool)40@48;
+- (_Bool)bviews;
+- (id)ubleTap;
+- (id)alEffect",&,N,V_backgroundEffect;
+- (id)Change:(struct _NSRange)arg1 ]_block_invoke  Unexpected bundleIdentifier:%@ for applicationIdentifier:%@ /* Error: Ran out of types for this method. */;
+- (id)table delegate. Value must be greater than zero or UITableViewAutomaticDimension.;
+- (id)@
+;
+- (void)\;
+- (void);
+- (id)ðwÿLò;
 - (id);
-- (id);
-- (void)nfiguredLayoutGuide;
-- (id)ctionAdditions;
-- (id)"ڗWZ;
-- (_Bool)5;
-- (void);
-- (void)úUº;
-- (void)ÔayÐ!dGù1Ï°1¢!0@ù
-× ;
-- (id)ButtonPadding"b1"hasCustomizedButtonToSecondaryButtonPadding"b1};
-- (_Bool)ut:(id)arg1;
-- (id)gnment:lineSpacing:includeEmoji: /* Error: Ran out of types for this method. */;
-- (id)ition;
-- (id);
-- (void)AyAAyñÂí3y;ý;
-- (id)CSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView",N,R,VcancelButtonPlatterView;
-- (long long);
-- (id)IÈA.^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *elementKinds;

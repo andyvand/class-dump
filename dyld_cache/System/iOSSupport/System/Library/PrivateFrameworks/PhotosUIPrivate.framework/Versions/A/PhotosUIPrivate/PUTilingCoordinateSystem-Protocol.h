@@ -7,8 +7,6 @@
 @protocol PUTilingCoordinateSystem;
 
 @protocol PUTilingCoordinateSystem
-- (struct CGPoint)T! CùñV°1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint coordinateSystemOrigin;

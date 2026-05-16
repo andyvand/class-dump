@@ -14,7 +14,11 @@
     id <PBFPosterSnapshotContext> _snapshotContext;
 }
 
-+ (id)ìÿ'ñÆ;
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,11 +26,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)@ù
+- (void)0@ù
 × ;
 
 // Remaining properties

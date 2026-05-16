@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id)epositionMessage;
++ (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)WithReason_all;
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *archivePath; // @synthesize archivePath=_archivePath;

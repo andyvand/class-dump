@@ -10,12 +10,12 @@
 
 + (unsigned long long);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 
 @end

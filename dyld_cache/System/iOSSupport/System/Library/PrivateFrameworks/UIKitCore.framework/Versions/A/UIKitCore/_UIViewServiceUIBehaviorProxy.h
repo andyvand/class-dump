@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
     _UIViewServiceFencingControlProxy *_fencingControlProxy;
 }
 
-+ (id)er override prevents us from syncing chats when coming back online;
-+ (void)lèRÿ;
++ (id);
++ (void);
 - (void);
-- (void)hortURL__MAPPING_MISSING__;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

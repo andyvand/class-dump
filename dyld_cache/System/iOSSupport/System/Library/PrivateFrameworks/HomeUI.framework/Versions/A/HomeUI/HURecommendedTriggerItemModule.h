@@ -39,10 +39,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)age"32;
+- (void)ËÌÍ;
+- (void)LocksUserOnboarding_Title_WalletKeyUWB;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType configureBlock; // @synthesize configureBlock=_configureBlock;

@@ -20,7 +20,7 @@
 - (void);
 - (double);
 - (id);
-- (_Bool)ÿá1öö©;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) double cellSize; // @synthesize cellSize=_cellSize;

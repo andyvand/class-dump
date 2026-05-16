@@ -15,10 +15,10 @@
     MISSING_TYPE *session;
 }
 
-- (void)@"NSString";
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -25,7 +25,7 @@
     id <NSObject><NSCopying> _containerElementIdentifier;
 }
 
-+ (struct CGRect)o4;
++ (struct CGRect);
 + (struct UIEdgeInsets);
 - (void);
 - (void);
@@ -37,50 +37,45 @@
 - (void);
 - (void);
 - (void);
-- (void));
-- (void)__gcc_except_tab__TEXT;
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
-- (void)ndpointMaxAge: /* Error: Ran out of types for this method. */;
-- (void)tEnableExtraLogs: /* Error: Ran out of types for this method. */;
-- (void)izedStringForStatusCode:(struct CGPoint)arg1;
-- (_Bool)inished;
-- (_Bool)sion:(id)arg1 countryCode:formatVersion:seedNumber:buildNumber: /* Error: Ran out of types for this method. */;
-- (_Bool)ns:(id)arg1 migrator: /* Error: Ran out of types for this method. */;
-- (_Bool)rsion:(id)arg1 options: /* Error: Ran out of types for this method. */;
-- (_Bool)acktrace: /* Error: Ran out of types for this method. */;
-- (id)yncBlockOperationWithBlock:(id)arg1;
-- (struct CGRect)kResponse:(struct CGRect)arg1 fallbackURL:requestKey:enableExtraLogs:maxAge:etag:lastModifiedString:completion: /* Error: Ran out of types for this method. */;
-- (void)airLock;
-- (void)SUUID",&,N,V_parentToken;
-- (void)tMode: /* Error: Ran out of types for this method. */;
-- (id)ainerIdentifier;
-- (void)uestUUID;
-- (void)ntMaxAge;
-- (void)estKey;
-- (void)bleArray",&,N,V_runningOperations;
-- (id)Task;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool)se data for task (%{public}@) of network session (%{public}@), error:%{public}@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)m Cache-Control header for URL:(struct CGPoint)arg1 %{public}@, taskID:%{public}@ /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (void);
-- (struct _NSRange)e;
-- (_Bool)/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Utilities/RCAsyncSerialQueue.m;
-- (id)%ld
- appVersion:%@
- osVersion:%@
- formatVersion:%@
- seedNumber:%@
- buildNumber:%@> /* Error: Ran out of types for this method. */;
-- (id)apple.com/v1/configs;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (struct CGPoint);
+- (void);
+- (struct _NSRange);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (long long)x6;
+- (long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -93,17 +88,18 @@
 - (struct _NSRange);
 - (id);
 - (void);
-- (id);
-- (id);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
-- (void);
-- (void);
 - (id);
-- (id)M/;
-- (id);
-- (_Bool);
-- (_Bool)xíÿÿ;
+- (id)(Ð1Â0@ù
+× ;
+- (_Bool)e: /* Error: Ran out of types for this method. */;
+- (_Bool)ate>",W,N,V_delegate;
+- (void)tentViewHeightConstraint;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PKScribbleInteractionWrapper> _containerInteraction; // @synthesize _containerInteraction=__containerInteraction;

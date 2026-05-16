@@ -24,12 +24,13 @@
 - (void);
 - (void);
 - (void);
+- (int);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
 - (void);
-- (id);
+- (id)
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) BSServiceConnection *connection; // @synthesize connection=_connection;

@@ -13,15 +13,15 @@
 
 - (id);
 - (id);
-- (_Bool)q!;
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)vices lost;
+- (_Bool);
+- (id);
 - (long long);
-- (void)APIs;
+- (void);
+- (void);
+- (void)ING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) MRContentItemMetadataAudioRoute *mediaRemoteAudioRoute; // @synthesize mediaRemoteAudioRoute=_mediaRemoteAudioRoute;

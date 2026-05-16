@@ -14,11 +14,11 @@
 + (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id)û>;
 
 // Remaining properties
 @property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

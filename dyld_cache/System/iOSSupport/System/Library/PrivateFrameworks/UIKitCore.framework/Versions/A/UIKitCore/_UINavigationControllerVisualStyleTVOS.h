@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     _UINavigationCrossfadeAnimator *_transitionController;
 }
 
-- (_Bool);
-- (id)teFrameworks/MIL.framework/Versions/A/MIL;
-- (id);
-- (void);
+- (_Bool)ationForMenuAtLocation"B"overrideSuggestedActions"B"shouldPresent"B"shouldAllowDragAfterDismiss"B"shouldAllowSwipeToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
+- (id)ontroller;
+- (id)ke;
+- (void)ñ@33¼{þá@33(wþÑ@33wþ;
 
 @end
 

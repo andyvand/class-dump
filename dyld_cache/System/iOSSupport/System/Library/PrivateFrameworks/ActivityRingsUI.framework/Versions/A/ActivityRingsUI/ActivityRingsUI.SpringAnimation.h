@@ -19,8 +19,8 @@
 - (void);
 - (_Bool);
 - (double);
-- (double);
 - (id);
+- (double);
 
 // Remaining properties
 @property(nonatomic, readonly) double target;

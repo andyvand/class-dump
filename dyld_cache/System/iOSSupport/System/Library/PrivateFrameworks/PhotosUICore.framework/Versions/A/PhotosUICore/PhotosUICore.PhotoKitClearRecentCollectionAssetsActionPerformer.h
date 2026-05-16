@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)øNa;
 
 @end
 

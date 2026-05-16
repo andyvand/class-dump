@@ -8,7 +8,8 @@
 
 @interface NewsPersonalization.UserEventHistoryAggregateStoreFactory
 {
-    MISSING_TYPE *dataProvider;
+    MISSING_TYPE *userEventHistory;
+    MISSING_TYPE *sessionLimit;
     MISSING_TYPE *configurationManager;
     MISSING_TYPE *aggregateStoreMetadataEndpoint;
     MISSING_TYPE *cachedAggregateStoreURL;
@@ -18,7 +19,6 @@
     MISSING_TYPE *lazyStore;
     MISSING_TYPE *refreshQueue;
     MISSING_TYPE *sizeFormatter;
-    MISSING_TYPE *personalizationData;
 }
 
 @end

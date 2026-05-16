@@ -12,12 +12,12 @@
 }
 
 - (id);
+- (double);
 - (id);
 - (id);
 - (id);
-- (double)lf->_lock_sceneSnapshotter == nil;
-- (double)?ÑÐÐÐÐÐà?xxxxxxè?ÚÙÙÙÙÙÙ?]]]]]]í?ëQ¸Õ?ÍÌÌÌÌÌì?ffffffö?ffffffò?UUUUUP@{®Gáz´?¸ëQ¸®?333333Ã?¹?;
-- (double);
+- (double)ColorValues",R,N,V_colorValues;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double brightness; // @synthesize brightness=_brightness;

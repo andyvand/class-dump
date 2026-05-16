@@ -14,17 +14,17 @@
 
 - (id);
 - (void);
-- (_Bool)mmand:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)e Session Received Request To Un Enroll %@ Into SMS Relay ;
-- (id)t;
-- (struct _NSRange)h;
-- (struct _NSRange)MPurgedAttachmentHandler;
-- (id)want to analyze this, Skip and retry later, user did not tap to downloaded.;
+- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool)Tÿÿÿ/èÿ;
-- (id)ActivityManager _deleteSceneSessionsWithPersistentIdentifiers:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id)r;
+- (struct _NSRange);
+- (struct _NSRange);
+- (id);
+- (id);
+- (id);
+- (id)butesForElementKind:indexPath:attributes: /* Error: Ran out of types for this method. */;
+- (_Bool)asPlugIn must be NO if initialized with delegate :delegate = %@ /* Error: Ran out of types for this method. */;
+- (void)èEa;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_attachmentRange, setter=_setAttachmentRange:) id <NSObject> _attachmentRange; // @synthesize _attachmentRange;

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (unsigned long long)ons:(%@), isWifiUsable:(%@), hasLTE:(%@) /* Error: Ran out of types for this method. */;
++ (unsigned long long);
 
 @end
 

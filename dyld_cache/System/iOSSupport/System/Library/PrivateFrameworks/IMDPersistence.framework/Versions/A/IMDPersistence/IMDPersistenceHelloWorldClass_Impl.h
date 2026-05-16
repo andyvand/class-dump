@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id)apEraseWithInputType: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)%@;
 
 @end
 

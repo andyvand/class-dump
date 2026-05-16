@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu;
+@class UIEditMenuInteraction, UIMenu;
 
 @protocol UIEditMenuInteractionDelegate
 
 @optional
-- (UIMenu *);
+- (void)troller showFullScreenAcknowledgmentPickerIfNeededForBalloonAtIndexPath:(UIEditMenuInteraction *)arg1 ];
+- (void)SSAGES;
+- (UIMenu *)hatController_MenuBar;
+- (struct CGRect)ü,;
 @end
 

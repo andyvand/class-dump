@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CKContactsSearchManagerDelegate
-- (_Bool);
-- (void)jc_selectionFromData:(_Bool)arg1;
-- (NSArray *)Sg;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldHideGroupsDonations;

@@ -37,17 +37,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *shortText; // @synthesize shortText=_shortText;

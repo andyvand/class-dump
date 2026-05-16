@@ -7,10 +7,7 @@
 @protocol FCAppActivityObserving
 
 @optional
-- (void);
-- (void)`;
-- (void)that just-in-time compilation of JavaScript be disabled per Apple security policy;
-- (void)er_So7FCIssueC5issue/Ñì_pSg8observert;
-- (void)SeeMoreButtonStylerType;
+- (void)R;
+- (void)à;
 @end
 

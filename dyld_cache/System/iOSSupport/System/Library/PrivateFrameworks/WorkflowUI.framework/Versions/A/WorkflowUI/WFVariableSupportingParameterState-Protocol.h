@@ -7,7 +7,6 @@
 @class WFVariable;
 
 @protocol WFVariableSupportingParameterState
-- (WFVariable *)stinations;
 
 // Remaining properties
 @property(readonly, nonatomic) WFVariable *variable;

@@ -20,24 +20,26 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void)_DATA_DIRTY;
-- (void);
+- (void);
+- (void);
 - (id);
 - (double);
 - (id);
-- (double)ations;
-- (id)edForCTPhoneNumberNotifications;
-- (id)oller sync type to %@ for record type:%@ /* Error: Ran out of types for this method. */;
-- (void)q	º;
+- (double);
+- (id);
+- (id);
 - (long long);
-- (void)üÿ;
-- (void)ot conform to _UIColorPickerViewProvidingDelegate;
-- (void)-`;
-- (double)hÁqÿcÔ.b;
-- (double);
+- (void);
+- (void)ÑcÐ1Â0@ù
+× ;
+- (double)s: /* Error: Ran out of types for this method. */;
+- (void)chmentBehavior;
+- (void)!ÊX^;
+- (double)½ÿüØùe;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backdropTint; // @synthesize backdropTint=_backdropTint;

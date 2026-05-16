@@ -24,12 +24,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMeasurement *arrivalBatteryLevel; // @synthesize arrivalBatteryLevel=_arrivalBatteryLevel;

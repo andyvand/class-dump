@@ -14,10 +14,10 @@
 + (struct CGRect);
 + (void);
 + (struct CGRect);
-+ (_Bool)%;
 + (_Bool);
-+ (struct CGRect)H;
-+ (struct CGSize);
++ (_Bool);
++ (struct CGRect);
++ (struct CGSize);
 
 @end
 

@@ -8,8 +8,7 @@
 @protocol UIInterfaceActionVisualStyleProviding;
 
 @protocol UIInterfaceActionGroupDisplaying
-- (void);
-- (UIInterfaceActionVisualStyle *)N,ü¹;
+- (UIInterfaceActionVisualStyle *) ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceActionVisualStyle *visualStyle;

@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *providerButton; // @synthesize providerButton=_providerButton;

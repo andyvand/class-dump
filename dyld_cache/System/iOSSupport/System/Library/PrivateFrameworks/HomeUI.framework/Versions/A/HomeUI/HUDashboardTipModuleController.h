@@ -17,7 +17,7 @@
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)Home.OnboardingView.Utility.QuickLookup.Icon;
 
 @end
 

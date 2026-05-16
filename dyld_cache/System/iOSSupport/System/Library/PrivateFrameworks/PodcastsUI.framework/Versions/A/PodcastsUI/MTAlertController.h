@@ -13,7 +13,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)a;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool replacesExistingAlert; // @synthesize replacesExistingAlert=_replacesExistingAlert;

@@ -21,10 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (void)a;
 - (id);
 - (void);
 - (id);
+- (void)IMInstant;
 
 // Remaining properties
 @property(retain) NSMutableArray *currentLine; // @synthesize currentLine=_currentLine;

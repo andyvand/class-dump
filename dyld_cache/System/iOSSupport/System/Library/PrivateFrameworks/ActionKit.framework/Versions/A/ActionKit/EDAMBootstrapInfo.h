@@ -16,8 +16,8 @@
 + (id);
 + (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *profiles; // @synthesize profiles=_profiles;

@@ -13,12 +13,12 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
+- (id)ignment;
+- (void)visibility updates. %@ display assets. View %@ settled. Individual Items:(id)arg1 %@;
+- (void)lbumsMenuItemTitle;
+- (id)4aÿaÿ¨2ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *graphChapterDictionary;

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (double);
@@ -24,13 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (double);
-- (void)s;
+- (void);
 - (_Bool);
-- (void)%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (double)
+× ;
 - (void);
-- (double)ctor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentPage;

@@ -22,31 +22,30 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
-- (void)EXT;
+- (void);
 - (double);
 - (double);
 - (_Bool);
 - (void);
-- (void)imageinfo__DATA_CONST;
 - (void);
-- (void)Dictionary"32@?<v@?q@"NSError">40;
-- (void)ount;
-- (void)Selector:(int)arg1;
-- (void)libobjc.A.dylib;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (id);
 - (int);
-- (int)rHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)eAccount sync XPC error:%@ /* Error: Ran out of types for this method. */;
+- (int);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (struct os_unfair_lock_s);
 - (id);
 - (long long);
-- (id);
-- (void)Á5!´Bù;°1¢!0@ù
-× ;
+- (void);
+- (struct os_unfair_lock_s);
+- (void)eshuffleWithTargetContentItemID:completion:| enabled shuffle [] shuffleType=Songs wasShuffled=%{BOOL}u /* Error: Ran out of types for this method. */;
+- (id)"MPIdentifierSet"24@"MPMusicPlayerPlayParameters"32@"MPCModelRadioPlaybackContext"40;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;

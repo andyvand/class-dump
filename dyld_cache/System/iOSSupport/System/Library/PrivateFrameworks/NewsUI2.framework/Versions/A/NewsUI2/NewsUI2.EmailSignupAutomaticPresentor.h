@@ -23,9 +23,9 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)E;
+- (void)¹_DQ;
 
 @end
 

@@ -18,19 +18,19 @@
 - (long long);
 - (void);
 - (void);
-- (id)4q32@40@48;
-- (_Bool)etHighlightChangeEventType: /* Error: Ran out of types for this method. */;
-- (_Bool)text: /* Error: Ran out of types for this method. */;
-- (_Bool)rdsRead;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)git-;
-- (void)Value"8d16^d24^d32;
-- (long long)iþ4|»iþ;
 - (id);
+- (id)o calculate range for date %@ in calendar %@ with accuracy %tu.;
+- (void);
+- (void)^;
+- (long long)£^;
 
 // Remaining properties
 @property(nonatomic, setter=_setAllowsHiding:) _Bool _allowsHiding;

@@ -23,48 +23,50 @@
     struct CGSize _maximumSize;
 }
 
-+ (_Bool);
++ (_Bool)eader/footer view;
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (double);
 - (id);
-- (void);
-- (void)ÑÂ°1¢!0@ù
+- (id);
+- (unsigned long long);
+- (id)1Â0@ù
 × ;
+- (id)ùÑ^°1Â0@ù
+× ;
+- (_Bool):(id)arg1 8@16B24B28@32;
+- (double)_firstResponderTarget: /* Error: Ran out of types for this method. */;
+- (_Bool)ldResign:(id)arg1 waitForReply: /* Error: Ran out of types for this method. */;
+- (void)userInfo;
+- (id)Ô@|A¤B,C¤EðL$QQÈR
+àSHT;
+- (id);
+- (void)o;
+- (_Bool)aceholder context that isn't contained in the placeholderContexts array;
+- (void)me view controller instance (%@) more than once which is not supported and is most likely an error in the application :(id)arg1 %@;
+- (void)IBarBackground.m;
+- (struct CGSize)is not allowed to set the userInteractionEnabled property of an active animator (%@);
+- (id);
+- (void)erLayer;
+- (void)43;
 - (id);
-- (void)t"d}}];
-- (double)umerateVisibleItems: /* Error: Ran out of types for this method. */;
-- (id)bilityProcessingLock;
-- (id)essionForWritingToolsWillBegin: /* Error: Ran out of types for this method. */;
-- (double)sedRecently;
-- (_Bool)barConfiguration;
-- (id),N,V_isUsingCamera;
-- (void)owBolt;
-- (id)ictationMenu;
-- (id)§p¨©0«8¬;
-- (void)8´8p9(:(id)arg1 ;
-- (void)inally, and return the same cell. Index path:(double)arg1 %@; Existing cell:%@; Returned cell:%@ /* Error: Ran out of types for this method. */;
-- (void)ndleDisplayName;
-- (_Bool)essionTracker;
-- (struct CGSize)Þ²þ;
-- (void)³×¾y^;
-- (void);
-- (void)ÿ\;
-- (_Bool)¿îþ;
-- (id);
-- (void)è"ÿª§Ò;
-- (void){àÿ;
-- (struct CGSize);
-- (id)Ä>ÿ;
-- (void)ÿØÉXl;
-- (void)øN;
-- (_Bool)P';
+- (double)>;
+- (void)¬];
+- (struct CGSize)ÒÁ^;
+- (void)ÇPÙD&`;
+- (void)<a;
+- (void)$è;
+- (_Bool)ÜÒ1ÿÖ;
+- (id)@§vþà"ä;
+- (void);
+- (void)li;
+- (void)(o;
 
 // Remaining properties
 @property(nonatomic, setter=_setAccessibilityIgnoresInvertColors:) _Bool _accessibilityIgnoresInvertColors; // @synthesize _accessibilityIgnoresInvertColors;

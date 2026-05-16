@@ -5,14 +5,8 @@
 //
 
 @class UITextSelection;
-@protocol UITextCursorAssertion;
 
 @protocol UITextSelectionDisplayInteractionDelegate_Internal
-
-@optional
-- (id <UITextCursorAssertion>);
-- (UITextSelection *)ialNetworkChange;
-- (id <UITextCursorAssertion>)sOfMessagesToFetchInInitialSync;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextSelection *activeSelection;

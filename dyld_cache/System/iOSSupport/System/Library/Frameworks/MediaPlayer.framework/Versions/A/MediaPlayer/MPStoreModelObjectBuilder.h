@@ -12,18 +12,18 @@
     MPPropertySet *_requestedPropertySet;
 }
 
-+ (id)in:source:listener: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
 - (id);
-- (id)ramework/Versions/C/Foundation;
 - (id);
-- (_Bool)iceId: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void)ss;
 
 // Remaining properties
 @property(nonatomic) _Bool preventStoreItemMetadataCaching; // @synthesize preventStoreItemMetadataCaching=_preventStoreItemMetadataCaching;

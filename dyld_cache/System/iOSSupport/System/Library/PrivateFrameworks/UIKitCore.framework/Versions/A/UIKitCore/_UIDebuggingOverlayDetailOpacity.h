@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     UIView *_inspectedView;
 }
 
-- (void)geTime;
-- (void)yRecordIDsAndGUIDsPendingCloudKitDelete;
-- (id);
+- (void);
+- (void);
+- (id)uch;
 - (void);
 
 @end

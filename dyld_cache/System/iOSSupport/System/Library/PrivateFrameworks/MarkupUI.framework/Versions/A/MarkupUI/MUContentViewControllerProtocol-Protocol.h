@@ -7,10 +7,7 @@
 @class NSArray, UIScrollView;
 
 @protocol MUContentViewControllerProtocol
-- (struct CGRect)alResourceName;
-
-@optional
-- (_Bool)`B;
+- (struct CGSize)bjectAfterNextAnalysis: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canEditContent;

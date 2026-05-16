@@ -35,8 +35,10 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ðc;
+- (void)qøð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKPeerPaymentMessagesContentRenderBubbleDelegate> renderBubbleDelegate; // @synthesize renderBubbleDelegate=_renderBubbleDelegate;

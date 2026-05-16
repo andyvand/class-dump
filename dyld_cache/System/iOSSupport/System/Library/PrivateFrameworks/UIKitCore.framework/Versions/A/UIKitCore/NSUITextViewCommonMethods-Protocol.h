@@ -7,15 +7,18 @@
 @class NSDictionary, NSLayoutManager, NSTextContainer;
 
 @protocol NSUITextViewCommonMethods
-- (struct CGRect);
-- (NSLayoutManager *)oundStyleTransform;
-- (struct CGSize)terLayout;
-- (void)é;
+- (struct CGRect)rs: /* Error: Ran out of types for this method. */;
+- (void)pþÿÂÈþÿ;
+- (NSLayoutManager *)*`oþ`oþæÚ;
+- (void)odel;
+- (struct UIEdgeInsets)rAnimatableProperty;
+- (struct CGSize)¢\;
 
 @optional
-- (void)LiteMessage;
-- (struct CGPoint);
-- (NSDictionary *)4Ï71á4æ;
+- (void)TextSearchOptions"24@"<_UITextSearchAggregator>"32;
+- (NSTextContainer *)vityIndicator;
+- (_Bool);
+- (struct _NSRange)`O0<ñ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLayoutManager *layoutManager;

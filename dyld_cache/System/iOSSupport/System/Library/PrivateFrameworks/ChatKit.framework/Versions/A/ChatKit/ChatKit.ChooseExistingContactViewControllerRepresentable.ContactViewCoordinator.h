@@ -14,9 +14,9 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)exPath"32@0:(id)arg1 8@"UICollectionView"16@"NSIndexPath"24;
+- (void);
+- (void)";
 
 @end
 

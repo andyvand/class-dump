@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (id)24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *addImageOptions; // @synthesize addImageOptions=_addImageOptions;

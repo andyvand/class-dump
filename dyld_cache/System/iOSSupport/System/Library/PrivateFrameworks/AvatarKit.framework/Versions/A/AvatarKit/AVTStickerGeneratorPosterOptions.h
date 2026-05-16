@@ -15,11 +15,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (double);
-- (double);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (void);
+- (double);
+- (double);
 - (void);
 
 // Remaining properties

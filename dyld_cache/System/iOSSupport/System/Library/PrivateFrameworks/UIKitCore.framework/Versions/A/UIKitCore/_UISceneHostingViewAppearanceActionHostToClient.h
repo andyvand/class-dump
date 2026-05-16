@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)rityLevelHSA2;
-+ (id)AKAppleIDSecurityLevelHSA1;
-+ (id)sswordOnly;
++ (id);
++ (id);
++ (id);
 + (id);
 - (void);
-- (id)ate;
+- (id);
 
 @end
 

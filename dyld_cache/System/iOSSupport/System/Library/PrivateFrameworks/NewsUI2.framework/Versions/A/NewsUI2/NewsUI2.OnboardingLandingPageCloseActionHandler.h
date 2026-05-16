@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)terType;
 
 @end
 

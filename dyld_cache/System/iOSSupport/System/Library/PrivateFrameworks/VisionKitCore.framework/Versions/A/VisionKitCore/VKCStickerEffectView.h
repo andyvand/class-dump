@@ -35,18 +35,18 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (struct CGSize);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)Ô ;
-- (id)gParentObject: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (id);
+- (void);
+- (id),N,V_subjectFound;
+- (_Bool)`7÷ÿ:H£ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *_image;

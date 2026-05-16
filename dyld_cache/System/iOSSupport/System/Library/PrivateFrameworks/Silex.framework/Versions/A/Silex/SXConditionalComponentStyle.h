@@ -12,7 +12,7 @@
 {
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *conditions; // @dynamic conditions;

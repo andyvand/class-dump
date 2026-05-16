@@ -16,14 +16,14 @@
 }
 
 - (void);
+- (id)à*;
 - (void);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool)¸®G;
-- (_Bool)Å5´ô	;
+- (void)oUpgradeRequestActivity;
+- (void)¯;
+- (_Bool)}@ on local participant view %@;
 - (_Bool);
 
 // Remaining properties

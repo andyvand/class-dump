@@ -28,11 +28,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)extType;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;

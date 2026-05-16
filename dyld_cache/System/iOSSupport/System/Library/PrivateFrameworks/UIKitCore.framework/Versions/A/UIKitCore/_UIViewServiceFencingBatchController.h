@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_pendingProxies;
 }
 
-+ (id)xy registered is %@;
-- (void)t have subCC defined in the sealing map, yet contains the following keys:(id)arg1 %@, subCC checking complete...;
++ (id);
 - (void);
 - (void);
-- (id)eBackgroundTransitionProgressForScrollView:toolbar:isNavigationTransitionUpdate: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ractionCSg;
 
 @end
 

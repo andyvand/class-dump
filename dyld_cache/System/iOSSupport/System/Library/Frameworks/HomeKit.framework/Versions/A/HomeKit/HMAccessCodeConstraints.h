@@ -14,22 +14,22 @@
     long long _maximumAllowedAccessCodes;
 }
 
-+ (id)4ÎdÐ¼Ò;
-+ (_Bool)26BB765291;
++ (id);
++ (_Bool);
 - (long long);
 - (long long);
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id)h\j;
-- (id)te destination due to matching destination identifiers:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long allowedCharacterSets; // @synthesize allowedCharacterSets=_allowedCharacterSets;

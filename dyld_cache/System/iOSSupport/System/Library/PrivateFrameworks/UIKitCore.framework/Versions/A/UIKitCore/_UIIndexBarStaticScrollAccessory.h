@@ -22,16 +22,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)ng;
 - (void);
-- (long long);
 - (void);
-- (_Bool)Ar!¤EùÅÐ1¢!0@ù
-× ;
+- (_Bool);
 - (void);
-- (id)¤Qÿ¢R;
-- (void)ÔvBa;
-- (void)[rÿ;
+- (void);
+- (id)iftAnchorPoint;
+- (void)ngDescriptorListStyle;
+- (long long)üc~ÿ;
+- (void)4Þ_;
 
 // Remaining properties
 @property(nonatomic) long long edge; // @synthesize edge=_edge;

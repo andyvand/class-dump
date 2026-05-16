@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol HFIconDescriptor
+- (_Bool)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

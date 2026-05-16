@@ -12,21 +12,19 @@
 }
 
 + (id);
-- (id)not find a service for string:(float)arg1 %@;
+- (id);
+- (id);
 - (void);
-- (long long)DataTask"24@"NSError"32;
-- (id)t"16@?<v@?@"NSArray"@"NSError">24;
-- (_Bool)tStyle:(id)arg1;
-- (void)ertyAlbumVolumeNormalization__MAPPING_MISSING__;
 - (id);
+- (long long);
+- (id)Ô ;
+- (float);
+- (_Bool)y;
+- (void)Key:(id)arg1;
+- (void)geColorTransformer;
+- (id);
 - (id);
-- (void)0@ù
-× ;
-- (id)!FùËÐ1¢!0@ù
-× ;
-- (void)6;
-- (id)ainedInInstancesOfClasses: /* Error: Ran out of types for this method. */;
-- (float)ðÈ;
+- (void)0m;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

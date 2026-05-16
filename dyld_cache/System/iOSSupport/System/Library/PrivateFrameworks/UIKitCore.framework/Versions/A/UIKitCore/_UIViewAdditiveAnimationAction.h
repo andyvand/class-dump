@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     UIView *_view;
 }
 
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)+;
-- (id)legateView:forCustomInputView: /* Error: Ran out of types for this method. */;
-- (void)n %@;
+- (id)__layoutInfo;
+- (id)4;
+- (void)x;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIViewPropertyAnimator *animationObject; // @synthesize animationObject=_animationObject;

@@ -20,14 +20,15 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (unsigned long long);
 - (id);
-- (void)`;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
+- (void)QÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) LPMetadataProviderSpecializationContext *context; // @synthesize context=_context;

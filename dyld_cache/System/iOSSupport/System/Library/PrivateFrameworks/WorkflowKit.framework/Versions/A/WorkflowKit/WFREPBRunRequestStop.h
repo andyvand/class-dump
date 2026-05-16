@@ -13,16 +13,16 @@
 
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)allowed to run actions on behalf of other devices.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *runRequestIdentifier; // @synthesize runRequestIdentifier=_runRequestIdentifier;

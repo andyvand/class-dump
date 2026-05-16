@@ -16,17 +16,17 @@
 
 + (_Bool);
 + (_Bool);
-- (void)P;
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)ime;
+- (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

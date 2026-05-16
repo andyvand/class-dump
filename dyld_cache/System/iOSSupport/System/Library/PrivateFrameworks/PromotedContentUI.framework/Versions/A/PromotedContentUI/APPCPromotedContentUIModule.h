@@ -10,8 +10,8 @@
 
 + (void);
 + (void);
+- (id);
 - (void);
-- (id)upport;
 
 @end
 

@@ -34,28 +34,27 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void)on"24@0:(struct CGPoint)arg1 8@"IMDChat"16;
-- (void)ilter:(unsigned long long)arg1 limit: /* Error: Ran out of types for this method. */;
-- (void)dStyleID:(id)arg1 timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (struct CGRect)dIdentifierForInput:error: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ubService;
-- (void)GroupID;
-- (void)col>",&,N,V_broadcaster;
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (struct CGPoint);
+- (void);
+- (void);
 - (struct CGPoint);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)fe_unretained, NSInteger);
 - (void);
-- (void)!XBùqÀ1¢!0@ù
-× ;
-- (id)fNecessaryAtPoint:withVelocity: /* Error: Ran out of types for this method. */;
-- (id)alPresentationController,S_setOriginalPresentationController:,V_originalPresentationController /* Error: Ran out of types for this method. */;
-- (void)ionItems;
-- (void)ÕþäôÒ"k;
+- (void);
+- (void)j1;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint currentSelectionPointOnPage;

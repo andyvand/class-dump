@@ -12,23 +12,23 @@
 {
 }
 
-+ (long long)n: /* Error: Ran out of types for this method. */;
-+ (id)userModeName;
-+ (id)tedPublisherForSubscription: /* Error: Ran out of types for this method. */;
-+ (id)odeChangeReason;
-+ (id)safariProfileID;
++ (long long);
 + (id);
-+ (id)d;
-+ (id)ryStreamWithIdentifier:eventDataClass: /* Error: Ran out of types for this method. */;
-+ (void),N,V_isSignificant;
-+ (void)TB,N,V_isMe;
-+ (void)isGroupMessage;
-+ (void)isFirstPartyDonation;
-+ (void)usinessChat;
-+ (void)rDevice;
-+ (void)TaskSuccess;
-+ (void)UserCancelled;
-+ (id)Platform: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (id);
 + (id);
 - (id);
 

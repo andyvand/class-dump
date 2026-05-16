@@ -17,14 +17,14 @@
     MISSING_TYPE *dateFormatter;
 }
 
-+ (id)ÝªlþéÐ];
++ (id)TENSION;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)ots/4~CNrSugDYcx6sjASS2XskMirRBBIt5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/JXHTTP/JXHTTP/JXHTTPJSONBody.m;
 
 @end
 

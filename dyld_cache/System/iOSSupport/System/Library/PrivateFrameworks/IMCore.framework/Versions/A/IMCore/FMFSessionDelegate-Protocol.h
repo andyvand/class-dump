@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class FMFDevice, NSDictionary;
 
 @protocol FMFSessionDelegate
 
 @optional
-- (void)oWebProcess_SetCookiesFromDOM;
-- (void)delProcessModelPlayerProxy_SetLoop;
-- (void)rocessModelPlayerProxy_SetHasPortal;
-- (void)erProxy_SetEnvironmentMap;
-- (void)delPlayerProxy_SetEntityTransform;
-- (void)e_TimeChanged;
+- (void)HighQualityVariantForTransfer:(FMFDevice *)arg1 completion:was given no transfer /* Error: Ran out of types for this method. */;
+- (void)umber:(NSDictionary *)arg1 %@;
 - (void);
-- (void)lesForNicknamesUnderScrutiny;
-- (void)%@] returning, info timestamp = %lld < chat timestamp = %lld, info guid = %@;
-- (void)ing out to daemon to find potential chat rawAddressSet set %@ of count %lu;
-- (void)from IMTUConversationItem %@;
-- (void)icipantCount;
-- (void)ding) _chat:(NSSet *)arg1 updateIsFiltered:synchronously:] /* Error: Ran out of types for this method. */;
-- (void)message;
+- (void)overableMessages;
+- (void)´;
+- (void)ü;
 @end
 

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nge: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) GKContactRelationshipResult *relationshipResult; // @synthesize relationshipResult=_relationshipResult;

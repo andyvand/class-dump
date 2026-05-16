@@ -20,21 +20,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (_Bool)onManager:conversation:participant:addedCollaborationNotice: /* Error: Ran out of types for this method. */;
-- (void):retryCount:numAttachmentsDownloaded:completion: /* Error: Ran out of types for this method. */;
-- (void)ReceiveMessagePlayedReceiptForMessageID:date:attempts:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ssageID:date:attempts:completionBlock: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void)!$GùÑÄÐ1¢!0@ù
-× ;
-- (void);
 - (_Bool);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)rmer;
-- (_Bool)is:%@ /* Error: Ran out of types for this method. */;
-- (id)should not already have a layout manager;
-- (void)ÿp;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (_Bool)ð»îÿ;
+- (id)ed.TitleTextAttributes;
+- (void)@?0@"_UIDragInteractionDriver"8Q16Q24;
+- (_Bool)dChangeNotification;
+- (void)G9distancesSaySo21CAMediaTimingFunctionCG14interpolationst;
+- (void)ßAÛ\;
+- (void)*l;
+- (void)tjåþ3Ô;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIDocumentUnavailableBrowserPresentationControllerDelegate> browserDelegate; // @synthesize browserDelegate=_browserDelegate;

@@ -54,7 +54,6 @@
 - (void);
 - (void);
 - (void);
-- (void)P;
 - (void);
 - (void);
 - (void);
@@ -71,7 +70,8 @@
 - (void);
 - (void);
 - (void);
-- (id)recoverable sync state:%@ for message rowID:%@ partIndex:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMDRemoteDatabaseProtocol> database;

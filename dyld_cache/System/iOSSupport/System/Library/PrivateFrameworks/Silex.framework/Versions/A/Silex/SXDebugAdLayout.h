@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)mponentShadow"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)tring"8{_NSRange=QQ}16{_NSRange=QQ}32^B48;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

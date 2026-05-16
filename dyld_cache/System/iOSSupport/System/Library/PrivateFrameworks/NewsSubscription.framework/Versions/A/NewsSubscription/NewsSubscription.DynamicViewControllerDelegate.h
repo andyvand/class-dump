@@ -14,13 +14,15 @@
     MISSING_TYPE *router;
     MISSING_TYPE *postPurchaseOnboardingManager;
     MISSING_TYPE *paidBundleViaOfferHandler;
+    MISSING_TYPE *offerConfigMatcher;
+    MISSING_TYPE *configurableOffersConfigFetcher;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

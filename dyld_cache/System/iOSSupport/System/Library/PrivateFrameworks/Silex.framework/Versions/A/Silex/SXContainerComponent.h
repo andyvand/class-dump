@@ -14,8 +14,8 @@
 }
 
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
 + (Class);
++ (CDUnknownBlockType);
 + (id);
 - (_Bool);
 - (_Bool);

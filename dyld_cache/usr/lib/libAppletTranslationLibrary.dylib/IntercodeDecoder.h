@@ -9,6 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (_Bool);
++ (_Bool);
 + (void);
 + (id);
 + (id);
@@ -20,7 +22,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)#;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);

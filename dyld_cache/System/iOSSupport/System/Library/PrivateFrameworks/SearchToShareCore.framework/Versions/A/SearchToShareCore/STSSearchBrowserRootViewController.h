@@ -75,15 +75,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
 - (unsigned long long);
-- (void)0@ù
-× ;
+- (void);
+- (void);
+- (void)ions;
+- (void)ngMoreResults;
+- (void)é;
 
 // Remaining properties
 @property(retain, nonatomic) STSCategoryViewController *categoryViewController; // @synthesize categoryViewController=_categoryViewController;

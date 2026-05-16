@@ -14,8 +14,8 @@
     id <HMSiriEndpointProfileDelegate> _delegate;
 }
 
-+ (id)e;
-+ (id)ë¬ë8íDø\ù¼ú;
++ (id);
++ (id)missedCameraRecordingOnboarding;
 - (_Bool);
 - (id);
 - (id);
@@ -40,8 +40,6 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -49,11 +47,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
 - (id);
 - (void);
-- (id)utSettingsDidUpdate;
-- (id)failed with error:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void)nager;
 
 // Remaining properties
 @property(readonly) NSNumber *activeIdentifier;

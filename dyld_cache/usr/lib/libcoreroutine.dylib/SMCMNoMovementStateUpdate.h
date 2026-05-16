@@ -13,14 +13,14 @@
     NSDate *_startTime;
 }
 
-+ (id)ji8J2jj)8h;
 + (id);
-- (id);
++ (id);
+- (id);
 - (long long);
 - (id);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void)tionDeliveryRequest, fetchDestinationNameFromMapItem %@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long detectionType; // @synthesize detectionType=_detectionType;

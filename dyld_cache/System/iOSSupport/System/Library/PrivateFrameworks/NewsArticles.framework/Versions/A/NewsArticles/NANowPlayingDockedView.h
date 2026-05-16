@@ -38,37 +38,38 @@
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (id)C;
+- (id);
 - (void);
 - (double);
 - (void);
 - (void);
 - (void);
-- (id)Source;
+- (id);
 - (void);
 - (id);
 - (struct CGSize);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
+- (void)hedArticleTextRanges;
+- (struct CGPoint)®x® ¯
+°;
+- (void);
+- (id)ÿÿ;
+- (id)Ûÿ¸Ë;
 - (id);
-- (struct CGPoint);
-- (void)=;
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)der: /* Error: Ran out of types for this method. */;
-- (_Bool)N;
-- (id);
-- (void);
-- (void);
-- (_Bool)"o\¬Êÿ;
-- (id)Ìÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize artworkSize;

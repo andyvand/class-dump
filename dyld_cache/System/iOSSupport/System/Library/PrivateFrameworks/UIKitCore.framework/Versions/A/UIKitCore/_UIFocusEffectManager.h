@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     id <UIFocusItem> _focusedItem;
 }
 
-- (void)ROUP0;
-- (id);
-- (void)Store:(id)arg1;
-- (void)ndler for command:(id)arg1 %@;
+- (void);
 - (id);
 - (void);
-- (void)7­;
+- (void);
+- (id);
+- (void);
+- (void)Ö¬ì[;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIFocusItem> focusedItem; // @synthesize focusedItem=_focusedItem;

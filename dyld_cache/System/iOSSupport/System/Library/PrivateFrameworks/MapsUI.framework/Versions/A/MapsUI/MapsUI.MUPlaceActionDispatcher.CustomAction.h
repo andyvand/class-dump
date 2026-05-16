@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ring",C,N,V_subtitle;
 
 @end
 

@@ -13,8 +13,8 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long)A;
-- (void);
+- (unsigned long long);
+- (void)e>",&,N,V_componentViewEngine;
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;

@@ -27,10 +27,10 @@
 - (struct CGSize);
 - (id);
 - (long long);
+- (long long);
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (long long);
 - (id);
 - (double);
 - (void);

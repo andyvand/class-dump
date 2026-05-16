@@ -30,12 +30,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 
 @end
 

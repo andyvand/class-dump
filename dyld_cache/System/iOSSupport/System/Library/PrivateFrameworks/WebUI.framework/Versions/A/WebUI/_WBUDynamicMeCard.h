@@ -13,15 +13,15 @@
     _Bool _meCardExists;
 }
 
-+ (id)dleTapEventForBalloonView:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
-- (id)initializeForTraitCollection:(id)arg1;
-- (void)wSize;
-- (_Bool)Object:isSynchronous:requestID: /* Error: Ran out of types for this method. */;
-- (void)ts:(CDUnknownBlockType)arg1 subject:onService: /* Error: Ran out of types for this method. */;
-- (void)lloonViewFrame;
++ (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool meCardExists; // @synthesize meCardExists=_meCardExists;

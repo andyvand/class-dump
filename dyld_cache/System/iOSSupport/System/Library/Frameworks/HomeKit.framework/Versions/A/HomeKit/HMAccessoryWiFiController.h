@@ -23,10 +23,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain) _HMContext *context; // @synthesize context=_context;

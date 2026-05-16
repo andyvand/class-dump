@@ -12,12 +12,12 @@
     NSHashTable *_lock_viewControllers;
 }
 
-+ (id)or reason:%{public}@ /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *viewControllers;

@@ -14,16 +14,16 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
 - (id);
-- (id)entifier: /* Error: Ran out of types for this method. */;
-- (id)urrentRequest;
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void)mentVisitStatus[%ld], Reject;
+- (unsigned long long)¥B@sIÕv^À÷x!äb@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contactsIdentifier; // @synthesize contactsIdentifier=_contactsIdentifier;

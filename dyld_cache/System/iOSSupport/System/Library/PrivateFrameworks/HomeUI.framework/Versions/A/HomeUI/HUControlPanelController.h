@@ -36,13 +36,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)ttomToNextSectionTitleBaselineDistance: /* Error: Ran out of types for this method. */;
-- (id)rrent user is a restricted guest:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)â;
+- (void)cessoryNoAccessItem;
+- (void)OMediaSelectionVolumeSelectionSectionIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allItems; // @synthesize allItems=_allItems;

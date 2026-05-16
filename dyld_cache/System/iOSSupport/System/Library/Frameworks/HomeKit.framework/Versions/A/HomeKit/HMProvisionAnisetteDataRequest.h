@@ -15,10 +15,10 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)dia Systems;
++ (_Bool);
 - (id);
 - (id);
-- (id)ndedPANID:masterKey:passPhrase:PSKc: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

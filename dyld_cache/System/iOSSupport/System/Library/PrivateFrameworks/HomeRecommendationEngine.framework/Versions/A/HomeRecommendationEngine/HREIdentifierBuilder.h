@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *baseIdentifier; // @synthesize baseIdentifier=_baseIdentifier;

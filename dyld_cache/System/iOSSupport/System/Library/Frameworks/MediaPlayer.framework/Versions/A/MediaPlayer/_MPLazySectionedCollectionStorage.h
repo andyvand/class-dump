@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
     struct map<long, MPIdentifierSet *, std::less<long>, std::allocator<std::pair<const long, MPIdentifierSet *>>> _sectionIdentifierSetMap;
 }
 
-- (id)?;
 - (id);
-- (void);
+- (id);
+- (void)tity:createIfRequired: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

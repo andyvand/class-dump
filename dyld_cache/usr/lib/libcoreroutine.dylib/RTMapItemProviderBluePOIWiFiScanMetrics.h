@@ -22,9 +22,9 @@
 + (id);
 + (id);
 + (id);
-+ (CDStruct_b8464340)rivate.alloy.screensharing.qr;
++ (CDStruct_b8464340);
 - (id);
-- (id)nedByString: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

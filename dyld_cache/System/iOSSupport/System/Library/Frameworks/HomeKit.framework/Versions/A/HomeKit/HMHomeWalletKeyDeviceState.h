@@ -14,8 +14,8 @@
     long long _canAddWalletKeyErrorCode;
 }
 
-+ (id)üª« ­ ­ä®h°°;
-+ (_Bool)m.daem;
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -24,17 +24,17 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)R,C,V_categoryType;
-- (id)characteristic %@ with request;
+- (void)|ÜÌÜ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

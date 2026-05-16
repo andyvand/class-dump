@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)° ¡t¢;
 
 // Remaining properties
 @property(retain, nonatomic) NSDiffableDataSourceSnapshot *baseSnapshot; // @synthesize baseSnapshot=_baseSnapshot;

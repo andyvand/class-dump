@@ -26,49 +26,47 @@ __attribute__((visibility("hidden")))
     NSDictionary *_overrideAttributes;
 }
 
-- (_Bool)';
-- (void);
-- (void);
-- (id);
-- (void)thMessageStore:defaultsStore: /* Error: Ran out of types for this method. */;
-- (void)leInfoForParticipants:(struct CGSize)arg1 unformattedIDs:countryCodes:isGroupChat: /* Error: Ran out of types for this method. */;
-- (void)h:(struct CGSize)arg1 contents:attributes: /* Error: Ran out of types for this method. */;
-- (void)ckFromStorage;
-- (long long)viceReachabilityRequest",&,N,V_originalRequest;
-- (void);
-- (id);
-- (void)6IntentProcessingP;
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)A;
-- (id);
-- (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
-- (void);
-- (void);
-- (_Bool)1¢!0@ù
-× ;
-- (void)geForState:(id)arg1 barMetrics: /* Error: Ran out of types for this method. */;
-- (id)tureDelegate>",W,N,V_delegate;
-- (void)eDelegate;
-- (id)G;
-- (void)gs in the "UICollectionViewFeedbackLoopDebugger" category.
-Collection view:(id)arg1;
-- (void);
-- (struct CGSize);
-- (void)×ØsQ];
-- (struct CGSize)*¼`;
 - (long long);
-- (void)M`c;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (void)resultsTitle;
+- (id)onePropertiesToTouch:(struct CGRect)arg1;
+- (id)erView;
+- (void)vationCount;
+- (void)yout;
+- (void);
+- (struct CGSize)&;
+- (id)dy=%.03f, dt=%.03f, vx=%.03f, vy=%.03f, vs=%.03f;
+- (id);
+- (void);
+- (void)atusBarStyleOverrideScreenSharing;
+- (void)troller if there's no document loaded.;
+- (_Bool)ase check the values returned by the delegate.;
+- (void)hForTraitCollection(UITraitCollection *__strong);
+- (double);
+- (void);
+- (void)4`;
+- (long long)2a;
+- (_Bool)Ð5êÿ6;
+- (void)Ê0!c;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontForContentSizeCategory;

@@ -15,21 +15,17 @@
 }
 
 + (id);
-- (void)D %@ failed chat validation:(id)arg1 %@;
-- (void)rocess with a fatalError if you do not have the required entitlement.;
-- (id)ge operation ID %@;
-- (_Bool)code processing complete for transfer:%@  (Attempted Transcode:%@) /* Error: Ran out of types for this method. */;
-- (_Bool)t>
-</head>
-<body>
-;
 - (void);
 - (void);
 - (id);
-- (void)qð!ØFù±ÄÐ1¢!0@ù
-× ;
-- (void)allWritingDirectionFollowsLayoutDirection: /* Error: Ran out of types for this method. */;
-- (id)Q,N,V_index;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)ues: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)©l;
 
 // Remaining properties
 @property(nonatomic) _Bool flexEnabled; // @synthesize flexEnabled;

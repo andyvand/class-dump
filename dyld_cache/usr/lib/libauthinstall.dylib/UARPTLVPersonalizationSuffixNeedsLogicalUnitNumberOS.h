@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned int);
-- (id);
+- (id);
 - (unsigned char);
 - (void);
 - (id);
 - (id);
-- (id)__TEXT;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned char suffixNeedsLogicalUnitNumber; // @synthesize suffixNeedsLogicalUnitNumber=_suffixNeedsLogicalUnitNumber;

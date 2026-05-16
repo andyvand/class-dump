@@ -14,15 +14,15 @@
     unsigned long long _comparableTimeUnits;
 }
 
-+ (_Bool)riptor;
++ (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long)0%EÉ;
-- (void);
+- (unsigned long long);
 - (id);
 - (void);
-- (id)<;
-- (long long);
+- (id)ng connection to the target remote device;
+- (long long)horization state data upon grouping:%@ /* Error: Ran out of types for this method. */;
+- (void)l|movie;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCaseInsensitive) _Bool caseInsensitive; // @synthesize caseInsensitive=_caseInsensitive;

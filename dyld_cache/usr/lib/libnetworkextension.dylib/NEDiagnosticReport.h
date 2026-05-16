@@ -8,7 +8,7 @@
 {
 }
 
-+ (void):(id)arg1 didGoIdle:(id)arg2;
++ (void);
 
 @end
 

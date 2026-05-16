@@ -5,6 +5,5 @@
 //
 
 @protocol CKIMSimulatedChatDelegate
-- (void);
 @end
 

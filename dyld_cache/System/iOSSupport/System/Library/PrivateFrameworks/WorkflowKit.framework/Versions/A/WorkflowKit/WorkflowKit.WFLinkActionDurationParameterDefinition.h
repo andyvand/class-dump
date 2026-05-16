@@ -6,18 +6,22 @@
 
 #import <WorkflowKit/WFLinkActionParameterDefinition.h>
 
+@class WFParameterDefinition;
+
 @interface WorkflowKit.WFLinkActionDurationParameterDefinition : WFLinkActionParameterDefinition
 {
 }
 
-- (id)8Ì;
-- (id)`ö³Ì;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (Class);
 
 // Remaining properties
 @property(nonatomic, readonly) Class parameterClass;
+@property(nonatomic, readonly) WFParameterDefinition *parameterDefinitionDictionary;
 
 @end
 

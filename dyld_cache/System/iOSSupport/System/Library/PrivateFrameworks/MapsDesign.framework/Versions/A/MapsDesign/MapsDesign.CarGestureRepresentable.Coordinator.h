@@ -11,11 +11,10 @@
     MISSING_TYPE *action;
 }
 
-- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)G_AEyACyÙyAEyACy
-yACyACyACy&AJGyxSgGGöG_SNyeúGQo_4G_tGGùGSg_ACyACyANyAEyACyACyADyG1üGsy­GGSg_ëyAEyAFyACyt	yACyACyACyACyACyACy¼AQySiSgGGAQy£öGGATGAQy^GGAJGA13_G_öyAXGQo_A_GA33_G_ACy	yACyA24_AHyyAIGGG_A31_Qo_A_GSgtGGA15_tGGA4_GA4_GtGACyADyAEyAK_A48_tGGyANyAEyACyACyýAJGAVG_A53_tGGGGSgtGGA9_GA9_GGA63__G;
+- (void);
 
 @end
 

@@ -34,14 +34,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id)fileContainer: /* Error: Ran out of types for this method. */;
-- (id)s;
+- (id);
+- (id);
+- (unsigned long long)ßÐ!¨GùâÐ1B50@ù
+× ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItems; // @synthesize allItems=_allItems;

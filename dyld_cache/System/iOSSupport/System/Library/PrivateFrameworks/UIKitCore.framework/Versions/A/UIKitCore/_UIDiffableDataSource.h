@@ -16,46 +16,46 @@
 - (id);
 - (long long);
 - (id);
-- (void)ng mapping for MPModelPropertyPodcastEpisodeSubtitle;
 - (id);
 - (id);
-- (void);
-- (void)
+- (id)1Â0@ù
 × ;
-- (void)ÉÐ1¢!0@ù
-× ;
-- (id);
-- (void)[100c][100c][256c][256c]}16i24;
-- (id)w"28@0:(id)arg1 8@"UIView"16B24;
-- (id)ectsForCandidate:selectionRects: /* Error: Ran out of types for this method. */;
-- (void)tSuppressionPolicyDelegate:(id)arg1;
-- (void)hAction:(id)arg1 forIndexPath: /* Error: Ran out of types for this method. */;
-- (id)age:(id)arg1 stylePresetName:(CDUnknownBlockType)arg2 styleConfiguration:(CDUnknownBlockType)arg3 foregroundColor:scale: /* Error: Ran out of types for this method. */;
-- (void)or:(id)arg1 textHighlightColorForScheme:(id)arg2 inHighlightStyle: /* Error: Ran out of types for this method. */;
-- (long long)ViewForCurrentOffset;
-- (id)ewCenterOffsetFromForegroundViewCenter;
-- (long long)s;
-- (void)on;
-- (void)reViews;
-- (id)ction;
-- (void)nGestureRecognizer;
-- (void)$Y;
-- (id)4l;
+- (id)16;
+- (id)leEnclosingScrollViewNestedPinching;
+- (long long),V_dismissesOnViewportResize;
+- (id)Element;
+- (void)%p for view %p to %ld;
+- (long long)es.m;
+- (void)a UIKeyCommand without a keyboard shortcut? Use the superclass UICommand instead.
+;
 - (void);
-- (void)¿ûÿ3þÿ;
-- (long long)ueChangedCallback;
-- (void)tionNameIndirectSingleTap;
-- (void)of kind:(id)arg1 %@ - must register as a class or nib or connect a prototype in a storyboard;
-- (id)pectedly found duplicate menuChildren. This is a UIKit internal bug.;
-- (void)ugAUd-kT2TJnGjOjc0LwVs5qDWKGsb8Xl_0/Library/Caches/com.apple.xbs/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptivePanelLayout.swift;
-- (id)ÝÝÝ?ß?Ù?Û?Ü?Þ?ñðððððà?ÝÜÜÜÜÜÜ?000000à?³²²²²²â?ã?Î?______ß?ÑÐÐÐÐÐà?qqqqqqá?Û?Ü?YYYYYYÙ?ZZZZZZÚ?;
-- (void)ÿÌ;
-- (long long)ckground;
 - (id);
-- (void)~í];
+- (void)DestructionConditionC_G;
+- (void)csAccessoryD0P;
 - (void);
-- (void)ÜÈÿ6åËæ_;
-- (long long)¡J";
+- (void)Q-;
+- (void)þ¥134ùþ­13ç¸þ;
+- (void);
+- (id)­G33¿+;
+- (void)u;
+- (void)crollPocketInteractionStyle;
+- (long long);
+- (void)Vy£\;
+- (long long)X¸];
+- (id)Äéþ/P: /* Error: Ran out of types for this method. */;
+- (void)°^;
+- (id)È;
+- (void)t^;
+- (id)Lü^;
+- (void);
+- (void);
+- (void)@`;
+- (void)Ð;
+- (long long)xJa;
+- (id);
+- (void)DLc;
+- (void);
+- (void)xÚ|)d;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *itemIdentifiers;

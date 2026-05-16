@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKCActionInfoView *actionInfoView; // @synthesize actionInfoView=_actionInfoView;

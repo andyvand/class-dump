@@ -28,47 +28,43 @@
     struct CGPoint _beginCentroid;
 }
 
-+ (id)atching file transfer GUID, using 0 as the message part index.;
++ (id);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (double);
+- (id);
+- (double);
+- (double);
+- (double)tedWindowMacComponent";
+- (id)6@0:(id)arg1 8;
+- (_Bool)onCompletionBlock;
+- (double)t;
+- (void)ontrollerUsingAnimator:(id)arg1;
+- (id)yActionInSwipeActionPullView: /* Error: Ran out of types for this method. */;
+- (void)nToneChooserVariantsForString:(id)arg1;
+- (struct CGPoint)mentShouldAppearBelowForAttributes: /* Error: Ran out of types for this method. */;
+- (void)teIfNecessary:(struct CGPoint)arg1;
+- (void)table;
+- (struct CGPoint)cing;
+- (void)tRotationCount;
+- (void)dingUncontrolledSubviewWithBookmark:(double)arg1 relativeTo: /* Error: Ran out of types for this method. */;
+- (void)ionPreferredSizes",&,N,V_globalSupplementaryPreferredSizes;
+- (double)nimateUpdate;
+- (double);
+- (void)_trailingButtonActivatesDictationWhenEmpty;
+- (void)sSensitivityUpdateNotification;
+- (double)nFocusSystem(__strong id<UIFocusItem>, UIFocusSystem *__strong, BOOL, BOOL);
 - (_Bool);
-- (void);
-- (id);
-- (double);
-- (double);
-- (void);
-- (_Bool)9Route;
-- (void)lockOperationWithBlock: /* Error: Ran out of types for this method. */;
-- (void);
-- (void),V_lyricsID;
-- (long long)lidatePlaybackQueueBoundaryWithExpectedQueueSize:%ld [] didChange=%{BOOL}u /* Error: Ran out of types for this method. */;
-- (id);
-- (double);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint)Â1¢!0@ù
-× ;
-- (void)p!°Cù±Ãð1¢!0@ù
-× ;
-- (void)!s°!hBùÑÆ1¢!0@ù
-× ;
-- (void)
-× ;
-- (double);
-- (void)ontentAdjustments";
-- (void)SSceneClientSettingsDiffInspector";
-- (void)uttonItem:(id)arg1;
-- (void)uts;
-- (double)onWithBasePositionAtBoundary:inDirection:withInitialExtentPoint:executionContext: /* Error: Ran out of types for this method. */;
-- (void)uslyVisibleItemIndexPaths;
-- (void)roidOfTouches;
-- (double),N;
-- (void)bleForFloatingTransition;
-- (double)`c¸cd`e;
-- (double);
-- (id)lling -%@ on %@;
-- (void)s/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m;
-- (long long)while popover is still visible.;
-- (id)igationBarLayout ;
-- (void)t_;
+- (void)Headroom;
+- (void)CG;
+- (void)p;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activeTouches; // @synthesize activeTouches=_activeTouches;

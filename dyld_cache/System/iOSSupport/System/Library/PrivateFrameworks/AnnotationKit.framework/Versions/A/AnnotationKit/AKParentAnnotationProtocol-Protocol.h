@@ -7,7 +7,6 @@
 @class AKAnnotation;
 
 @protocol AKParentAnnotationProtocol
-- (void);
 
 // Remaining properties
 @property __weak AKAnnotation *childAnnotation;

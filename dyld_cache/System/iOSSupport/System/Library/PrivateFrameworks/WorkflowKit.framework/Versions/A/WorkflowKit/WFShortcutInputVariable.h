@@ -19,9 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool)WFParameterState>"12@"WFDialogResponseContext"20;
+- (_Bool)leaves any WLAN network;
+- (void)%s
+;
 
 @end
 

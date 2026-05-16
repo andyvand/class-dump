@@ -10,8 +10,9 @@
 {
 }
 
-- (id)rest"24@0:(id)arg1 8@"PXAssetReference"16;
-- (id)ä;
+- (id);
+- (id)0@ù
+× ;
 
 @end
 

@@ -28,13 +28,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

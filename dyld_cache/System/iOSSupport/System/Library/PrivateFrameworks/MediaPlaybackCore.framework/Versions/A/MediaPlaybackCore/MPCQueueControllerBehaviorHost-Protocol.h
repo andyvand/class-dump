@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, MPCPlaybackIntent, MPCQueueControllerEdit, NSString;
+@class MPCPlaybackEngineEventStream, MPCPlaybackIntent, NSString;
 
 @protocol MPCQueueControllerBehaviorHost
-- (void);
-- (MPCPlaybackIntent *)ounts;
-- (NSString *)st;
-- (void)ignIn:%@, isInGoodStateForRepair:%@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
-- (MPCQueueControllerEdit *)count:(NSString *)arg1 %@ };
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *engineID;

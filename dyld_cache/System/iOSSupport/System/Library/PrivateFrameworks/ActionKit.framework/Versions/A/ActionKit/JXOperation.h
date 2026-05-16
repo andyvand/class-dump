@@ -18,18 +18,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void)
-× ;
-- (_Bool)gNoteWithGuid:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)r;
-- (void)ÆtySbG;
+- (_Bool);
+- (void)"8@"NSError"16;
+- (_Bool);
 
 // Remaining properties
 @property _Bool isExecuting; // @synthesize isExecuting=_isExecuting;

@@ -32,11 +32,11 @@ __attribute__((visibility("hidden")))
 - (CDStruct_e791d03f);
 - (_Bool);
 - (MISSING_TYPE *);
+- (id);
 - (long long);
 - (MISSING_TYPE *);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_e791d03f destinationPixelFormat; // @synthesize destinationPixelFormat=_destinationPixelFormat;

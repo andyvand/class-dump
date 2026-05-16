@@ -30,14 +30,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)8);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)R!;
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -50,25 +50,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
 - (long long);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (long long);
-- (float);
-- (void);
 - (id);
-- (void)URLRequest"8Q16^B24;
+- (void);
+- (void)
+× ;
+- (id)TØ;
+- (long long)½ùÿè;
+- (float);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

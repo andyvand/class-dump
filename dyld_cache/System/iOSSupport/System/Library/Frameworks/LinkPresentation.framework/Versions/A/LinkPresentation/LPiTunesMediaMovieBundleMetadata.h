@@ -19,32 +19,32 @@
 }
 
 + (id);
-+ (_Bool)nate;
-- (id)`';
++ (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)?;
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)formsCommon26RotatedAnonymousIdCacheTTL;
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id)P;
-- (id);
-- (void)edPreview"8@?0;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

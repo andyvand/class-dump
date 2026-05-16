@@ -5,6 +5,5 @@
 //
 
 @protocol PXPhotosNavigationPermission
-- (void)cation",R,N;
 @end
 

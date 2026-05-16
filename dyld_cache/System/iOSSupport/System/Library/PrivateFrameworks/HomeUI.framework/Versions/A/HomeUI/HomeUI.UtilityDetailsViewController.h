@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)init(title:detailText:icon:contentLayout:itemTableViewController:) /* Error: Ran out of types for this method. */;
 
 @end
 

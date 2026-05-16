@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void)ature;
+- (void)@;
 
 @end
 

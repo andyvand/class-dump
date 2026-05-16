@@ -5,5 +5,8 @@
 //
 
 @protocol PXUIImageProvider
+
+@optional
+- (void)otosDetailsSingleAlbumAttributionTitle;
 @end
 

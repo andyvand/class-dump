@@ -24,8 +24,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)á°!tCù±£°1¢!0@ù
+- (id);
+- (void)0@ù
 × ;
 
 // Remaining properties

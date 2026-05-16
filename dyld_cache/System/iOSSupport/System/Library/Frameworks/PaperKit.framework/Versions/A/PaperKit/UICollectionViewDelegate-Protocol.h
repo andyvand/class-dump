@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewTransitionLayout, UITargetedPreview;
+@class NSIndexPath, UIContextMenuConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (void)*°!üCù±?Ð1b0@ù
-× ;
-- (UITargetedPreview *);
-- (void)èL;
-- (_Bool);
-- (UICollectionViewTransitionLayout *)kSendValueTimeInterval;
-- (void)ilsDataSource;
-- (_Bool)dOÿñ¥Oÿñ¥Oÿñ¥Oÿ;
-- (NSIndexPath *)H,] ;
+- (UIContextMenuConfiguration *);
+- (struct CGPoint);
+- (_Bool)tPointerTouchMode;
+- (NSIndexPath *)HI;
+- (_Bool)8Ü§HÝ¨ÞôÞ©4áª<â«ãèã¬ä­àå®(çç¯@è¤ð°tñ±ó²0ô8ú³èúôû´ýµÄþH4¶Üè·ø¸ °!¹L"ºT#»|$ä$à%;
+- (_Bool);
+- (void);
+- (_Bool)8PKStrokeC;
+- (_Bool)ÄÌÿ|ÿå´ÌÿÕHPÿÝDPÿ;
 @end
 

@@ -12,11 +12,10 @@
 }
 
 + (id);
-+ (id)d by a controller;
++ (id)?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}};
 - (id);
-- (void)
-× ;
-- (id)lowsSelection;
+- (id)(;
+- (void)êÕó¥o;
 
 @end
 

@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (_Bool)ÙÖ×P ;
++ (_Bool)pelineDescriptor"16Q24^@32^@40;
 - (void);
 - (void);
 - (void);
@@ -42,18 +42,16 @@
 - (struct __CFXModel *);
 - (float);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (float);
-- (void);
 - (id);
 - (float);
-- (float)àåéíñõøüÿ
-
-ýúöñíèãÝØÒÌÅ¾·°¨ |rh]RG;/#úìÝÎ¿®{hVB.î×¿§tY= ãÃ¢Z5ã¸Y%î²q)×xÿ;
+- (float);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)deformedNode;
 
 // Remaining properties
 @property(nonatomic) float length;

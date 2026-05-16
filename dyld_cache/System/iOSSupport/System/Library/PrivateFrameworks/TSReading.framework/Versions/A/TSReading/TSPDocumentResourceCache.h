@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (id)P;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -29,9 +29,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)àDìGhK(MOPRtRShS;
 
 // Remaining properties
 @property(nonatomic) long long maxCacheSizeInBytes; // @synthesize maxCacheSizeInBytes=_maxCacheSizeInBytes;

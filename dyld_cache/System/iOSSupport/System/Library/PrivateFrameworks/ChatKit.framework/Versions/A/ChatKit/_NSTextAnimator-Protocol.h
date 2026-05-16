@@ -8,19 +8,8 @@
 @protocol _NSTextAnimation, _NSTextAnimatorStateSnapshot;
 
 @protocol _NSTextAnimator
-- (long long)4@72B80@84@92;
-- (id <_NSTextAnimation>);
-- (void)sageStatusFont;
-- (void)le;
-- (double)onAction;
-- (void)0Àc;
-
-@optional
+- (void)!;
 - (void);
-- (void)y¬;
-- (double)ations;
-- (NSString *)iewController.swift;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <_NSTextAnimation> animation;

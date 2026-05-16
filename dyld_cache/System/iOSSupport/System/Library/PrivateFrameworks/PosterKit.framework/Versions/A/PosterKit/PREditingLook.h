@@ -10,7 +10,8 @@
 {
 }
 
-+ (id)Context;
++ (id)AOGGAVG_ACyAuYGtGAByAW_AWtG_G;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,12 +23,11 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,17 +18,17 @@
 }
 
 - (void);
-- (void)ssionsLock;
-- (void)oken;
-- (id)er_segmentation_foreground_refresh_rate;
+- (void);
+- (void);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)dd}}24@0:(id)arg1 8@"PKColorPickerCrosshairView"16;
+- (id)rgetIndexPathForMoveFromRowAtIndexPath:(id)arg1 toProposedIndexPath:(struct CGPoint)arg2;
+- (void)nputPointFilter;
 
 // Remaining properties
 @property(nonatomic) _Bool enableKeyboardToggle; // @synthesize enableKeyboardToggle=_enableKeyboardToggle;

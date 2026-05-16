@@ -12,16 +12,16 @@
     struct CGRect _adjustedBounds;
 }
 
-- (void)KitWithActivity:(struct CGRect)arg1 completion: /* Error: Ran out of types for this method. */;
-- (_Bool)xupStoringMessageIfNecessaryWithMessage: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (Class);
 - (int);
-- (struct CGRect);
 - (id);
-- (id)~cdVg;
-- (void)ÂÑðþj;
+- (id);
+- (struct CGRect)32@0:8@"_UIViewControllerTransitionConductor"16@"UIViewController"24 /* Error: Ran out of types for this method. */;
+- (void)dView;
 
 // Remaining properties
 @property(nonatomic) struct CGRect adjustedBounds; // @synthesize adjustedBounds=_adjustedBounds;

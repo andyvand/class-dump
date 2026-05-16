@@ -14,8 +14,8 @@
     MISSING_TYPE *materialView;
 }
 
-- (void)A;
-- (id)øýÿ;
+- (id);
+- (void)Hß;
 
 @end
 

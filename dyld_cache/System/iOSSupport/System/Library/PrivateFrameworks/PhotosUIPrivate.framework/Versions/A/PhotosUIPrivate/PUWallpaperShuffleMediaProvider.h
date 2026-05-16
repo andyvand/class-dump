@@ -26,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)nges: /* Error: Ran out of types for this method. */;
+- (void)wVisible;
 - (id);
 
 // Remaining properties

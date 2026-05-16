@@ -8,12 +8,16 @@
 
 @interface ChronoKit.ActivitySubscriber
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *activityCenter;
-    MISSING_TYPE *_locked_subscriptions;
-    MISSING_TYPE *_locked_descriptors;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *announcementSubscription;
+    MISSING_TYPE *_logger;
+    MISSING_TYPE *_activityCenter;
+    MISSING_TYPE *_calloutQueue_activeStatePublisher;
+    MISSING_TYPE *$__lazy_storage_$_activeStatePublisher;
+    MISSING_TYPE *_lock;
+    MISSING_TYPE *_lock_widgetSubscriptions;
+    MISSING_TYPE *_lock_descriptorState;
+    MISSING_TYPE *_lock_observeAllActivitiesTokens;
+    MISSING_TYPE *_calloutQueue;
+    MISSING_TYPE *_announcementSubscription;
 }
 
 @end

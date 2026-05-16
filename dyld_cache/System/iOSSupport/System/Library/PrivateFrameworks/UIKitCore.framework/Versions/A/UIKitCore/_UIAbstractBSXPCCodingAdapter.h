@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)orderGoingOffAnimationDuration;
-- (id)unt:(id)arg1 defaults:(Class)arg2;
-- (id)llMoveChatToRecentlyDeleted:(id)arg1;
-- (void)Uº;
-- (void)!ðCùqÀð1¢!0@ù
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)!øDùdð1Â0@ù
 × ;
-- (id)8_µvj8t;
-- (id)re;
-- (id)eIdentity = %@;
+- (void)rrentPositionChange:(id)arg1 currentTimeChange:indirect: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ð_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

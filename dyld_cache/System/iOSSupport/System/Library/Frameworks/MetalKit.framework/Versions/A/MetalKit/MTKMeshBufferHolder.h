@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     MTKMeshBuffer *_buffer;
 }
 
-- (id)t;
-- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property MTKMeshBuffer *buffer; // @synthesize buffer=_buffer;

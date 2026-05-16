@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)vailability;
 - (void);
-- (void)gModeLinearBurn;
+- (void);
+- (void);
 
 @end
 

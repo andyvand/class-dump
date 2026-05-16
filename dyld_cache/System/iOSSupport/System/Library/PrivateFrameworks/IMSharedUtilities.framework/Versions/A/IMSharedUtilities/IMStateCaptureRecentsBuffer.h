@@ -24,10 +24,10 @@
 - (id);
 - (id);
 - (void);
+- (unsigned long long *);
 - (void);
-- (id)0;
-- (void);
-- (unsigned long long *)IMCTBlockList;
+- (id);
+- (void)¸4ÿÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long *handles; // @synthesize handles=_handles;

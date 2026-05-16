@@ -25,14 +25,14 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id)?;
+- (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysShowExtended; // @synthesize alwaysShowExtended=_alwaysShowExtended;

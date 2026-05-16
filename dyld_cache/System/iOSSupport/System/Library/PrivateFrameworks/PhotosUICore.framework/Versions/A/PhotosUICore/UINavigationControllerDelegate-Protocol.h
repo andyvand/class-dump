@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINavigationController, UIViewController;
+@protocol UIViewControllerInteractiveTransitioning;
 
 @protocol UINavigationControllerDelegate
 
 @optional
-- (void)ounds:(UINavigationController *)arg1 swipeCount:(UIViewController *)arg2 direction:(_Bool)arg3 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)sError;
+- (void)ÌÜØÝ;
+- (id <UIViewControllerInteractiveTransitioning>)MemoriesMusic] (PXMusicCurator) requestMusicCuration received reply for asset container (%@).;
 @end
 

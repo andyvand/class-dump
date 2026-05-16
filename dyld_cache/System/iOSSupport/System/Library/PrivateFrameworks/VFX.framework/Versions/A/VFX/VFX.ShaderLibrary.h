@@ -16,8 +16,8 @@
     MISSING_TYPE *reloadedNotificationBlock;
 }
 
-- (void);
 - (id);
+- (void)QûPðx;
 
 @end
 

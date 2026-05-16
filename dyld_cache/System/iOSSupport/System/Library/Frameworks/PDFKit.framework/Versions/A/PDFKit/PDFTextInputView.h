@@ -25,60 +25,61 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)nt",&,N,V_compactToolPickerContainerViewWidthConstraint;
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (long long);
+- (_Bool);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
+- (long long);
 - (id);
-- (_Bool);
 - (void);
+- (long long);
+- (id);
 - (struct CGRect);
-- (long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)ions:range: /* Error: Ran out of types for this method. */;
-- (long long);
-- (void);
-- (long long);
-- (_Bool);
-- (id);
-- (id)Ð!ÈBùQÐ1¢!0@ù
+- (id)1v°1Â0@ù
 × ;
-- (id)6@24;
-- (void)onEnabled:(id)arg1;
-- (id)bleWithKeyOptions:valueOptions: /* Error: Ran out of types for this method. */;
-- (void)egerForKey: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (struct CGRect);
+- (id);
+- (id)0@ù
+× ;
+- (id)ateSelectionLayersWithFocusState: /* Error: Ran out of types for this method. */;
+- (id)ge: /* Error: Ran out of types for this method. */;
+- (void)Responder;
+- (struct CGRect)o:(id)arg1;
+- (id)vationForPageAtIndex: /* Error: Ran out of types for this method. */;
+- (void)andler: /* Error: Ran out of types for this method. */;
+- (id)etionBlocks;
+- (id)t=dd}{CGSize=dd}},R,N;
+- (id)ÜLôN8RSÈT¼VWDX;
+- (id);
+- (void)À¼;
 - (void);
-- (id)à;
-- (id);
-- (id)·þÿXgO²;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;
@@ -196,6 +197,10 @@ __attribute__((visibility("hidden")))
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @property long long writingToolsBehavior;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?

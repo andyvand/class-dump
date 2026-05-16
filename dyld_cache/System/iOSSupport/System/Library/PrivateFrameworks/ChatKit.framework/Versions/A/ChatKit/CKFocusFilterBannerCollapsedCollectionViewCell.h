@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)rompt:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)D;
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id)Ø|bø};
+- (id);
+- (void)c&;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -19,9 +19,9 @@
 
 + (void);
 + (id);
-+ (id)ditions;
++ (id);
 - (void);
-- (id)˩#;
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -45,12 +45,12 @@
 - (BOOL);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
 - (id);
 
 // Remaining properties

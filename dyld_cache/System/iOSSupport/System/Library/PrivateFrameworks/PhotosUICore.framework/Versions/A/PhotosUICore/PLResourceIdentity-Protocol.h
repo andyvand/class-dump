@@ -7,8 +7,8 @@
 @class PLUniformTypeIdentifier;
 
 @protocol PLResourceIdentity
-- (PLUniformTypeIdentifier *)*$ÿÅè2|*$ÿÍè2x*$ÿ­è2t*$ÿ;
-- (_Bool);
+- (unsigned int);
+- (_Bool)BarCoordinator;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isOriginalResource;

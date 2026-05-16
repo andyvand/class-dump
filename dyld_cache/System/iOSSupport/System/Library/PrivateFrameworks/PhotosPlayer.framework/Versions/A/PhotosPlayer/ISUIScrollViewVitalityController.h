@@ -15,24 +15,24 @@
 }
 
 - (id);
-- (_Bool)?;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)	k;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)ORD;
-- (void)y�;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setScrollView:) __weak UIScrollView *_scrollView; // @synthesize _scrollView=__scrollView;

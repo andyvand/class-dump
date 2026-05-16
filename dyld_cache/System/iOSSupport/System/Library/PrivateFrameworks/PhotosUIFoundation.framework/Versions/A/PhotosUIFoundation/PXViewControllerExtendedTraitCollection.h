@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;

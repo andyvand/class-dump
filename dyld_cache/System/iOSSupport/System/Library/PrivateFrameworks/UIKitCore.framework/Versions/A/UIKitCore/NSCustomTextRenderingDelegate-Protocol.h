@@ -5,11 +5,5 @@
 //
 
 @protocol NSCustomTextRenderingDelegate
-- (void)libFDR.AllowIdentifierOverride;
-
-@optional
-- (void);
-- (void);
-- (void)_CONST;
 @end
 

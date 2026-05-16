@@ -31,16 +31,17 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (id)_;
-- (void);
-- (void);
+- (void)1Â0@ù
+× ;
+- (void)ullscreenCanvasViewController",&,N,V_fullScreenCanvasViewController;
 
 // Remaining properties
 @property(nonatomic) struct CGSize calculatedSize; // @synthesize calculatedSize=_calculatedSize;

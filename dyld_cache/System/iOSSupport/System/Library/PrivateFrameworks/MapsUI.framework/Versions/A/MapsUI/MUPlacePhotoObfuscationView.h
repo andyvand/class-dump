@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)derButtonsView:didSelectPrimaryType:withPresentationOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NSAttributedString *attributedText; // @synthesize attributedText;

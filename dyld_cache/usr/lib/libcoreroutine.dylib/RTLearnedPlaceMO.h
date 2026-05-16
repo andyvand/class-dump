@@ -13,10 +13,10 @@
 {
 }
 
-+ (id)anager onqueue_purgeAssetsMatchingQuery:]_block_invoke /* Error: Ran out of types for this method. */;
-+ (id);
-+ (id)h	;
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id)imeAvg,%{public}.3lf;
 - (void);
 
 // Remaining properties

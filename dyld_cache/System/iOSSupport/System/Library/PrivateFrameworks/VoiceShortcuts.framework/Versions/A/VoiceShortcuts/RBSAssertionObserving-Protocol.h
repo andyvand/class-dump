@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, RBSAssertion;
+
 @protocol RBSAssertionObserving
 
 @optional
-- (void)ve App Intent;
+- (void)eShortcutManager addVoiceShortcut:(RBSAssertion *)arg1 phrase:(NSError *)arg2 accessSpecifier:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)ndexing:(RBSAssertion *)arg1 creating fresh runner;
 @end
 

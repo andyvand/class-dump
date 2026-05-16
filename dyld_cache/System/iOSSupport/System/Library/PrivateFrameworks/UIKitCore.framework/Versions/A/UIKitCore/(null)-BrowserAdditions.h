@@ -5,7 +5,7 @@
 //
 
 @interface (null) (BrowserAdditions)
-- (_Bool)andler: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 @end
 

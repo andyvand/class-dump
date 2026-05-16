@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
+
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (void)cySensitiveAlbum;
+- (UITargetedPreview *)eAtIndex:(UIContextMenuInteraction *)arg1 inLayout:(UIContextMenuConfiguration *)arg2;
+- (UITargetedPreview *)DataSourceManager;
+- (void)setupDateFormatters;
+- (UITargetedPreview *)omSectionBodyStyle;
 @end
 

@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *_scale;
 }
 
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (MISSING_TYPE *);
-- (void);
-- (MISSING_TYPE *)s/MacOS/ContactsUI;
 - (MISSING_TYPE *);
+- (MISSING_TYPE *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MISSING_TYPE *position; // @synthesize position=_position;

@@ -16,9 +16,9 @@
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)PKToolPicker;
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PKToolConfiguration *configuration;

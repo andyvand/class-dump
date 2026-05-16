@@ -7,6 +7,6 @@
 @protocol NSCacheDelegate
 
 @optional
-- (void)ve found it going backwards.;
+- (void)ã;
 @end
 

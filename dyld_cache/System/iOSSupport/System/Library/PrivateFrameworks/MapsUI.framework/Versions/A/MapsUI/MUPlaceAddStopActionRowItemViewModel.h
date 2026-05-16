@@ -27,14 +27,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)_TtC6MapsUI37TransitDeparturesContainerSectionView;
+- (void)on;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canShowDetourTime; // @synthesize canShowDetourTime=_canShowDetourTime;

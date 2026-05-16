@@ -5,9 +5,5 @@
 //
 
 @protocol SWNavigationManager
-- (_Bool)Q;
-- (void)tedIntentItemSectionFactory;
-- (void);
-- (void);
 @end
 

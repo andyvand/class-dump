@@ -19,7 +19,7 @@
 - (Class);
 - (_Bool);
 - (_Bool);
-- (id)ostAlertNotificationMentioningMeInChat:message: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
-@protocol NUPageable;
+@class NSString;
 
 @protocol NUPage
-- (UIViewController<NUPageable> *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowNeighboringAdvertising;

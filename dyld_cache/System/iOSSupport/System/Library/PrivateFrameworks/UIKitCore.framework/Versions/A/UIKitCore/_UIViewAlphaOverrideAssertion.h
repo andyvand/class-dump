@@ -15,22 +15,21 @@
     id <_UIAssertion> backgroundSuppressionAssertion;
 }
 
-- (void)P;
-- (void)ity reply, DND framework says we should appear available to this user;
-- (id);
-- (id)ErrorList;
-- (void)ting settings [parentalPrefsChanged];
-- (double);
-- (void)1¢!0@ù
-× ;
-- (id)leLabel;
-- (id)z {l~àx
-Ä@\lDð¼¬3";
-- (void)%p; flow layout == %p; adding preferred attributes to invalidation batch. Preferred attrs:(id)arg1 %@; original attrs:%@. /* Error: Ran out of types for this method. */;
-- (id);
-- (void)`¥[;
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (void)getTransformToFlock:(id)arg1 ,V__applyTargetTransformToFlock;
+- (void)$;
+- (double)ÄN^;
+- (id)øÖ$ÿ;
+- (void)ìl;
+- (void)W)p;
 
 // Remaining properties
 @property(nonatomic) double alpha;

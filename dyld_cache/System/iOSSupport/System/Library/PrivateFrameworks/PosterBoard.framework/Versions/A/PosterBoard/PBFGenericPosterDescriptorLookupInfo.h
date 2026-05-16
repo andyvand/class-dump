@@ -15,16 +15,15 @@
 }
 
 + (id);
-+ (id);
+- (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

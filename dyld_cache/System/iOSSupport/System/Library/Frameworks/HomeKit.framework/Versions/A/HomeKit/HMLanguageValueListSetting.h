@@ -21,8 +21,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)XuLw;
 
 // Remaining properties
 @property(readonly, copy) NSArray *languageValues; // @synthesize languageValues=_languageValues;

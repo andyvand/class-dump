@@ -11,16 +11,15 @@
     unsigned long long __dimensions;
 }
 
-+ (_Bool)7m;
-- (void)ed for root;
-- (_Bool);
++ (_Bool)ar;
 - (id);
-- (id)tions;
 - (id);
 - (unsigned long long);
-- (void)!Gù±ÈÐ1¢!0@ù
-× ;
-- (id)_translatedUnconstrainedPoint;
+- (_Bool)Width;
+- (void)rentOutputDeviceEnabled:(id)arg1;
+- (id)anager;
+- (id)ReorderedItemInSession;
+- (void)d) inUpdateAnimation(%d):(double *)arg1 %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

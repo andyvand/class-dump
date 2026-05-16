@@ -24,18 +24,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)d ;
++ (_Bool);
 - (id);
 - (_Bool);
 - (double);
 - (double);
 - (double);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)Dynamic: /* Error: Ran out of types for this method. */;
 
 @end
 

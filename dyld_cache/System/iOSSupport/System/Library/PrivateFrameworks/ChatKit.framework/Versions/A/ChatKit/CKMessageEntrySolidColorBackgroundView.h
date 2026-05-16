@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)chment:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (long long);
-- (void)WQo_GG_ATQo_ACGSgAByAcDyAfJGACGAByAcDyADys®yAFGÝ­ySbGGAJGACGtG;
-- (void)endMenuListItem;
+- (void);
+- (void)È,;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName=_backdropGroupName;

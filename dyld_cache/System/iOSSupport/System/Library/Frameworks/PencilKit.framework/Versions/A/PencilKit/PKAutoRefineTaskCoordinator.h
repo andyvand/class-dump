@@ -19,7 +19,7 @@
     double _userInteractionDelay;
 }
 
-- (double)<;
+- (double);
 - (void);
 - (_Bool);
 - (id);
@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

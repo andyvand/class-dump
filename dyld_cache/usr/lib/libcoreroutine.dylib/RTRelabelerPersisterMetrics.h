@@ -14,14 +14,14 @@
 
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
-+ (CDStruct_b8464340)kit;
-- (void)h;
-- (void)B;
++ (id);
++ (CDStruct_b8464340);
+- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);

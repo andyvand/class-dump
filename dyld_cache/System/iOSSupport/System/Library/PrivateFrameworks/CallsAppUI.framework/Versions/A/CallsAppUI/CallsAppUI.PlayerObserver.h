@@ -11,8 +11,8 @@
     MISSING_TYPE *playerRateDidChange;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

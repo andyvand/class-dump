@@ -18,14 +18,14 @@
 }
 
 - (id);
-- (long long);
 - (id);
-- (void);
 - (id);
-- (id)q;
+- (id);
+- (long long);
 - (void);
 - (void);
 - (long long);
+- (void);
 - (void);
 
 @end

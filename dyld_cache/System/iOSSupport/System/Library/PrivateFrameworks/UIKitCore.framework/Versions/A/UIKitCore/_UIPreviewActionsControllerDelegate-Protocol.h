@@ -5,6 +5,5 @@
 //
 
 @protocol _UIPreviewActionsControllerDelegate
-- (void);
 @end
 

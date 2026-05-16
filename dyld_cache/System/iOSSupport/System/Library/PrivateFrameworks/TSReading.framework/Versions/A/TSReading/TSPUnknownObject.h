@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)hannel:(id)arg1 dataURL:readHandler:completion:] /* Error: Ran out of types for this method. */;
+- (id)GPoint=dd}24;
+- (void)\_¤_;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_data> *serializedData; // @synthesize serializedData=_serializedData;

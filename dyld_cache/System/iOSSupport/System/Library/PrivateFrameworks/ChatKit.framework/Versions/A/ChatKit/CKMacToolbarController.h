@@ -32,15 +32,15 @@
     double _inspectorDividerXPosition;
 }
 
-+ (id)id;
-+ (id)r bounds:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-- (void)_webView:(struct CGRect)arg1 requestCookieConsentWithMoreInfoHandler:decisionHandler: /* Error: Ran out of types for this method. */;
-- (void)deoInPictureInPictureDidChange:(id)arg1;
-- (void)CountQueue;
-- (id)&,N,V_readOnlySharedSubObjectsInSource;
-- (double)T@"NSArray",C,N,V_previewImageURLs;
++ (id);
++ (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (double);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -51,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,36 +64,33 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)G;
-- (void)G;
-- (void)y�;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)GSgtGG;
+- (id);
 - (id);
 - (double);
 - (double);
-- (_Bool)H;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (double);
-- (id)ote URI:(id)arg1 %s;
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)(
-;
+- (void);
 - (_Bool);
 - (void);
-- (id)Y<.o
-;
+- (id);
 - (long long);
 - (id);
-- (id)o
-;
+- (id);
 - (id);
 - (double);
 - (id);
@@ -103,13 +100,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (void)permittedArrowDirections;
-- (id)r;
-- (void)Åÿ;
-- (id)nator;
+- (void)
+× ;
+- (id)s %@:%@ /* Error: Ran out of types for this method. */;
+- (void)};
+- (void):r1 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

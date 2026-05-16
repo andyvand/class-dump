@@ -12,12 +12,12 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (double)urableOptions.plist;
-- (double)ration;
 - (double);
+- (id);
+- (id);
+- (id);
+- (double)AQGGAXGòÈÿÿGtGGSg_ADyAWA8_GADyAYA8_GSgtGGtGG;
+- (double)SString"8@"NSNumber"16@"NSNumber"24@"NSNumber"32@"NSNumber"40@"UIFont"48@"NSString"56@"PREditingColorItem"64;
 
 // Remaining properties
 @property(readonly, nonatomic) double brightness; // @synthesize brightness=_brightness;

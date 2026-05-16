@@ -12,16 +12,16 @@
     NSString *_identifier;
 }
 
-+ (_Bool)ðÿ|&ª¤m;
++ (_Bool)that was not loaned out.;
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)easonLibraryAdded;
-- (id);
-- (void);
-- (id)res will be cancelled to unblock responder event delivery of the new sequence for this touch:%{public}@ /* Error: Ran out of types for this method. */;
-- (id)ÈÏþ;
+- (_Bool)reAt:(id)arg1 withGesture:withState:withFlags: /* Error: Ran out of types for this method. */;
+- (void)point:(id)arg1 sourceDescription:purchaser: /* Error: Ran out of types for this method. */;
+- (id)tureRecognizer;
+- (id)TintColor;
+- (id)yout direction for slot:%ld /* Error: Ran out of types for this method. */;
+- (void)ÜÅ;ÿÕÃÔðTa;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *components; // @synthesize components=_components;

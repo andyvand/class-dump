@@ -23,6 +23,7 @@
     unsigned long long _teamType;
     FBKBugFormStub *_exactMatchFormStub;
     FBKTeam *_teamForExactMatchFormStub;
+    unsigned long long _itemTypeToShow;
     NSDictionary *_queryItemsFromURL;
     NSString *_shouldMakeVisibleFromURL;
     NSString *_isCaptiveFromURL;
@@ -33,6 +34,7 @@
     FBKSCustomBehavior *_customBehavior;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
@@ -60,6 +62,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -67,8 +70,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -83,26 +88,26 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (id);
-- (void)tle;
-- (void)boardHeight:(id)arg1 withPadding: /* Error: Ran out of types for this method. */;
-- (id)t build device data.;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)LoginManager",W,N,V_loginManager;
+- (_Bool)n;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *action; // @synthesize action=_action;
@@ -123,6 +128,7 @@
 @property(retain, nonatomic) NSString *isCaptiveFromURL; // @synthesize isCaptiveFromURL=_isCaptiveFromURL;
 @property(readonly, nonatomic) _Bool isShowContentItemAction;
 @property(retain, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
+@property(nonatomic) unsigned long long itemTypeToShow; // @synthesize itemTypeToShow=_itemTypeToShow;
 @property(readonly, nonatomic) _Bool launchesBatchUI;
 @property(readonly, nonatomic) _Bool launchesFeedback;
 @property(readonly, nonatomic) _Bool launchesInbox;

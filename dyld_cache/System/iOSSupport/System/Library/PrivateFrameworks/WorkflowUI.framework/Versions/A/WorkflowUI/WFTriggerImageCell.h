@@ -27,14 +27,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)GGABG_ðyAAy2þÿZySaySo18WFSmartPromptStateCGAN'µÈGABGSg_ALySay¦ÈGAtRGSgAAyAkLySaySo023WFDeletionAuthorizationC0CGAyPSgGABGSgAAyABoyù6yAEG ySgGGA3_yAEûGGtGSgt;
+- (id);
+- (void);
+- (void)orkflowUI13WFIconPreviewP33_80F92779D897A46549571E219A3CDF5016IconPreviewModel;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;

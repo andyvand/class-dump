@@ -7,6 +7,7 @@
 @class NSArray, NSAttributedString, NSDictionary, NSNumber, NSString, SLCollaborationFooterViewModel, UIColor, UIViewController;
 
 @protocol SHSheetContentViewModel
+- (_Bool)rary/PrivateFrameworks/CloudDocs.framework/CloudDocs;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *actionProxies;

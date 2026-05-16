@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
     UIView *_touchForwardingView;
 }
 
-+ (struct CGSize)%@;
-- (_Bool)agesFromRecentlyDeletedForChatsWithGUIDs:(id)arg1;
-- (void)rChatsForCommandDictionary:(id)arg1;
-- (void)otectionClass:(long long)arg1 itemIdentifiers:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)esThatWereJustMarkedReadWithChatGUID:(id)arg1 messageGUIDs:(id)arg2 readDate:fromMe: /* Error: Ran out of types for this method. */;
-- (id)ageItemWithGUID:queryID: /* Error: Ran out of types for this method. */;
-- (void)urseCount:(id)arg1 error: /* Error: Ran out of types for this method. */;
++ (struct CGSize);
 - (_Bool);
 - (void);
-- (id)edbackView;
-- (id)HHapticDynamicParameterID getCHHapticDynamicParameterIDAudioPitchControl(void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id)eRemoteTextEditingSession;
+- (void)<¨f;
+- (id)È	;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -14,16 +14,16 @@
     NSDate *_date;
 }
 
-+ (_Bool)IMSharedUtilities.IMChipSuggestion;
++ (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long)Pø;
+- (void)CNContactCGm;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;

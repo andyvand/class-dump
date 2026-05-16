@@ -11,11 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ayloadADPacketEncrypt;
 - (id);
-- (void);
-- (id)iceHostSceneComponentDelegate>",W,N,V_delegate;
-- (id);
+- (id);
+- (id)Ô ;
+- (id)ùqd°1Â0@ù
+× ;
+- (void)dth,S_setMarginWidth:(id)arg1;
 
 @end
 

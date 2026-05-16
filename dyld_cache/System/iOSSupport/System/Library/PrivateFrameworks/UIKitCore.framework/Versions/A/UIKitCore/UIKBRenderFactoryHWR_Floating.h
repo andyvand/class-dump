@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)support text auto reply;
-- (id)mands:(id)arg1 %@;
+- (double);
+- (id);
 
 @end
 

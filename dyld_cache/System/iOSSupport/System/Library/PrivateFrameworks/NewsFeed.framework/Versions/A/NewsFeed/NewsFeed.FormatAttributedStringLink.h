@@ -8,7 +8,7 @@
 {
 }
 
-- (id)ate:(id)arg1 releaseReadWhileWaiting:(id)arg2 ];
+- (id);
 - (id);
 
 @end

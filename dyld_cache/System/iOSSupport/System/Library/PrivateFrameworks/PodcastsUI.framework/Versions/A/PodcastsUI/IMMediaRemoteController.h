@@ -17,28 +17,28 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
-- (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
 - (struct __CFArray *);
 - (void);
 - (long long);
 - (long long);
 - (long long);
-- (long long)s;
 - (long long);
-- (long long)<;
-- (id);
-- (void);
-- (id);
-- (void);
+- (long long);
+- (long long);
+- (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)=;
+- (void);
+- (void);
+- (id)GG;
 
 // Remaining properties
 @property(retain, nonatomic) IMAVPlayer *player; // @synthesize player=_player;

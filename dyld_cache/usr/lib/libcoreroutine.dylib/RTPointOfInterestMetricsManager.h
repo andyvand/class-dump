@@ -31,7 +31,7 @@
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -42,42 +42,41 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (int)";
-- (id);
-- (void);
+- (int);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void)B;
-- (id);
-- (id);
-- (void);
-- (id)ifier: /* Error: Ran out of types for this method. */;
-- (id)wn:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)C
-;
 - (void);
 - (void);
 - (id);
-- (id)STORE;
-- (void)textWorkout;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)Ó;
+- (id);
+- (id)rtTypeTransit;
+- (void)eDisplay, %@, used %.2f seconds ago. exceeds max time interval since used threshold, %.2f;
+- (void)sitive}@. another HistoryEntryRoute is already being predicted to the same destination, %@;
+- (void)tions;
+- (void)t for tripID,%@;
+- (id)esponse, %@;
+- (void)@, error, %@;
+- (id)ð-ýL;
+- (void)`7¿ÿ,,(R;
 
 // Remaining properties
 @property(readonly, nonatomic) RTBatteryManager *batteryManager; // @synthesize batteryManager=_batteryManager;

@@ -19,10 +19,10 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;

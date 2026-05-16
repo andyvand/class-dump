@@ -16,9 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)sAvailabilityProvider;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

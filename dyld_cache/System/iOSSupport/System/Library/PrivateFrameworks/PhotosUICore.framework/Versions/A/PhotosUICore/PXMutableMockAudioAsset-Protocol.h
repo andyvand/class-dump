@@ -7,10 +7,11 @@
 @class NSArray, NSString;
 
 @protocol PXMutableMockAudioAsset
-- (NSString *)currentLayoutItemToAnnotationTable;
-- (CDStruct_1b6d18a9)ent;
-- (void);
-- (NSString *){3;
+- (unsigned long long);
+- (void)Error:(unsigned long long)arg1;
+- (NSString *)rsAsynchronousDelivery;
+- (NSString *)onUpdated;
+- (void).PXVideoSession.audioSession;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumTitle;

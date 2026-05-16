@@ -5,7 +5,5 @@
 //
 
 @protocol _UIDocumentPickerViewControllerExtensionHost
-- (void)ntext"16;
-- (void)8C56@"NSString"60;
 @end
 

@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (id), BOOL)_block_invoke;
 - (id);
-- (void);
-- (id);
+- (id)Õþÿÿÿÿ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata;

@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)ttonTitle;
+- (void)sÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;

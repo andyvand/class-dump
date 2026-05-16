@@ -55,11 +55,11 @@
 - (id);
 - (void);
 - (void);
-- (id));
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (struct CGAffineTransform);
 - (void);
@@ -70,15 +70,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (struct CGAffineTransform);
+- (id);
+- (id);
 - (struct CGRect);
 - (void);
-- (id);
-- (id);
-- (id)ypeProperty;
-- (id)tion.mm;
-- (id)Ð	;
-- (void)b×g;
+- (void)r:(id)arg1 endColor: /* Error: Ran out of types for this method. */;
+- (id)lEditorOnTextResponder;
+- (id)Height: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *children;

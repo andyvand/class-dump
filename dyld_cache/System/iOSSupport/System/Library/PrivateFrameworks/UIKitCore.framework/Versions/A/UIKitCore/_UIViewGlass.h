@@ -14,38 +14,38 @@
 - (id);
 - (void);
 - (void);
-- (void)un lock;
-- (void)king off delete sync to CloudKit;
-- (void)connect Request:(_Bool)arg1 %@:%@ /* Error: Ran out of types for this method. */;
-- (void)g up messages;
-- (void)radar-------*/;
-- (void)cy service session, please file a radar-------*/;
-- (void)into sendLazuliSpamReport from legacy service session, please file a radar-------*/;
-- (void)e file a radar-------*/;
-- (void)oundUpload from legacy service session, please file a radar-------*/;
-- (void)...;
-- (void)r this message by checking if we are in an urgent message grace period. Looking for received urgent messages in the last %ld minutes.;
-- (void)After received messages are saved, apply pending priority messages if needed.;
-- (void)check. Is the account and service set correctly?;
-- (void)ssage unable to perform downgrade/routing check. Is the account and service set correctly?;
-- (void)ge can make downgrade check;
-- (id)v1WithQOI %lud v1WithQOINoChat %lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
-- (id)adReceipts %lud { v0 %lud v1 %lud v1NoQOI %lud v1WithQOI %lud v1WithQOINoChat %lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
-- (id)essages %lud service %@ time %0.2f numReadReceipts %lud { v0 %lud v1 %lud v1NoQOI %lud v1WithQOI %lud v1WithQOINoChat %lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
-- (id)ng message from storage metric with numMessages %lud service %@ time %0.2f numReadReceipts %lud { v0 %lud v1 %lud v1NoQOI %lud v1WithQOI %lud v1WithQOINoChat %lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
-- (id)ng unit tests. This method should be stubbed;
-- (id)om storage %@;
-- (id)ack batches!;
-- (id)while under first unlock. Can't track batches!;
-- (_Bool)ailed to respond to ST request requestID == nil;
-- (_Bool)eIntentProtocol>",N,R;
-- (_Bool)istenceQueue;
-- (_Bool)LimiterOverride;
-- (_Bool)imiter.persistenceQueue;
-- (_Bool)ride;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -58,17 +58,18 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)2;
-- (void);
-- (void)!xFùqÄÐ1¢!0@ù
+- (id);
+- (id);
+- (long long)á	ð! AùQf°1Â0@ù
 × ;
-- (void):(long long)arg1;
-- (id)uldInsertChar;
-- (long long)ering: /* Error: Ran out of types for this method. */;
-- (id)R,N,V_timeLabel;
-- (long long)empty;
-- (void)IViewController traits update error:(id)arg1 %@;
-- (long long)ÿÆ²Ç7p;
+- (_Bool)eterForActionType:(id)arg1 timeSinceLastAction: /* Error: Ran out of types for this method. */;
+- (void)}{CGSize=dd}},N,S_setHostParentStackAlignmentFrame:(long long)arg1 ,V__hostParentStackAlignmentFrame;
+- (id)¨ÔÈ;
+- (long long)tion;
+- (void)ÌÜh;
+- (void)¼öþ JÊ`l;
+- (long long).;
+- (void)ðØr;
 
 // Remaining properties
 @property(nonatomic) long long _flexVariant;
@@ -77,6 +78,7 @@
 @property(nonatomic) _Bool boostWhitePoint;
 @property(nonatomic) _Bool contentLensing;
 @property(nonatomic, retain) UIColor *controlTintColor;
+@property(nonatomic, readonly) NSString *description;
 @property(nonatomic) _Bool excludingControlDisplacement;
 @property(nonatomic) _Bool excludingControlLensing;
 @property(nonatomic) _Bool excludingForeground;

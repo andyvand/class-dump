@@ -21,11 +21,11 @@
 - (id);
 - (Class);
 - (id);
-- (void);
-- (id)_block_invoke;
-- (id)g Exception;
-- (id)âx (WFScientificMathOperation);
-- (id)on to a specified drop off location.;
+- (id)OL (^ _Nonnull __strong)(id<NSObject>  _Nonnull __strong));
+- (id)mpts) allStatesDataForReference:actionUUID:] /* Error: Ran out of types for this method. */;
+- (void)WFContentItem"8Q16;
+- (id)el.;
+- (id)FImageResizeKey,WFImage,WFImageResizeLength;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *autocapitalizationType; // @synthesize autocapitalizationType=_autocapitalizationType;

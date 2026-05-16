@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
 - (void);
-- (_Bool)
-× ;
-- (void)¼;
-- (struct CGSize)EYÿ3ÄÍ¦þEYÿ3ìN²þ;
-- (id)¤Eÿ50;
-- (void)ÑFa;
-- (void)Vrÿ;
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (id)hat takes a target with an explicit container. (view:%@) /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)Â^;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long edge;

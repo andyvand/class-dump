@@ -15,9 +15,9 @@
 }
 
 + (void);
-+ (void)`Ü;
-- (void);
++ (void)0Û(;
 - (id);
+- (void);
 
 @end
 

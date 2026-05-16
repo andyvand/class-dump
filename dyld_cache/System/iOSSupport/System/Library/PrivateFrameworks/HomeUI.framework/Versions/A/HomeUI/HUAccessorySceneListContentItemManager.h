@@ -33,7 +33,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ridItemManager:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *committedActionBuildersByActionSetID; // @synthesize committedActionBuildersByActionSetID=_committedActionBuildersByActionSetID;

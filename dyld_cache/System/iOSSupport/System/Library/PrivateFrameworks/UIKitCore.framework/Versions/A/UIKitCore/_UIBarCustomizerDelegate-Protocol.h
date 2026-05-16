@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class UIView, _UIBarCustomizationSession, _UIBarCustomizer;
 
 @protocol _UIBarCustomizerDelegate
-- (UIView *);
-- (struct CGRect)à;
+- (UIView *)±eÐ1Â0@ù
+× ;
+- (struct CGRect)nContextForPreferredLayoutAttributes:(_UIBarCustomizer *)arg1 withOriginalAttributes:(_UIBarCustomizationSession *)arg2;
+- (UIView *)sTabBar;
 @end
 

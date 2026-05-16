@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
++ (void);
 + (_Bool);
 + (void);
 + (id);
-+ (long long);
++ (long long);
 + (unsigned long long);
 + (_Bool);
 - (id);

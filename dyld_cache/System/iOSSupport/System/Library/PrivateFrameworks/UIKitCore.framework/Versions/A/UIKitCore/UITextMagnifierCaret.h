@@ -13,23 +13,23 @@ __attribute__((visibility("hidden")))
     struct CGPoint _offset;
 }
 
-+ (id)!Ì@ùÑÄ°1¢!0@ù
-× ;
-+ (id)navigationToolbarTransitionController;
-+ (Class)xtAttributes:forKey: /* Error: Ran out of types for this method. */;
++ (id);
++ (Class);
++ (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (double)ageCreatedDate: /* Error: Ran out of types for this method. */;
-- (id)er:messageGUIDToReport: /* Error: Ran out of types for this method. */;
-- (void)tensiveSpotlightDiskEnabled;
-- (struct CGPoint)r;
+- (double);
+- (id);
+- (void);
+- (struct CGPoint);
 - (void);
 - (_Bool);
-- (void);
-- (struct CGPoint)ngWindowKey;
-- (void);
+- (void)ArrayLiteralElement;
+- (void)ize=dd}};
+- (struct CGPoint)3
+ÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;

@@ -14,11 +14,11 @@
 
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
-- (void)9;
 - (void);
-- (_Bool)fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/text/TSWPShapeRep.mm;
+- (void)IsBeingReplaced;
 
 // Remaining properties
 @property(nonatomic) UIScrollView *containingScrollView; // @synthesize containingScrollView=mContainingScrollView;

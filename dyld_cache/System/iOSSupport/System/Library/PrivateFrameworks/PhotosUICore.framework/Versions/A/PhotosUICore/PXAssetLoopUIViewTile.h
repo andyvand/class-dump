@@ -38,15 +38,15 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (id);
 - (void);
+- (id)ideshow: /* Error: Ran out of types for this method. */;
+- (double)d;
+- (void)tion init];
+- (void)e;
 - (void);
-- (id);
-- (void)innedCollection3;
-- (struct CGSize)itle;
-- (void)4;
 - (void);
+- (struct CGSize)x:KÌÕ8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_e83c9415 bestPlaybackTimeRange; // @synthesize bestPlaybackTimeRange=_bestPlaybackTimeRange;

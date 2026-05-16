@@ -8,6 +8,7 @@
 @protocol PRPosterContents;
 
 @protocol PRPosterEditingEnvironment
+- (id <PRPosterContents>)ttingSize:withHorizontalFittingPriority:verticalFittingPriority: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long editingVariant;

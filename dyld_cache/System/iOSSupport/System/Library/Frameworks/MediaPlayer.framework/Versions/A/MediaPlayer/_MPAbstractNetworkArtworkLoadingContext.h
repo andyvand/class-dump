@@ -15,9 +15,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)#;
 - (void);
-- (id);
+- (id)Fù1@ð1Â0@ù
+× ;
+- (void)iesByDataProviderEntityClass;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *catalogIdentifierToCompletionHandlerMap; // @synthesize catalogIdentifierToCompletionHandlerMap=_catalogIdentifierToCompletionHandlerMap;

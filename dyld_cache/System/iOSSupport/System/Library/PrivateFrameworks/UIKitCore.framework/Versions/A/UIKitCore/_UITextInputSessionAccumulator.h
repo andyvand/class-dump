@@ -16,24 +16,25 @@ __attribute__((visibility("hidden")))
     struct _NSRange _depthRange;
 }
 
-+ (id);
-+ (id)reDelayedEventComponentDispatcher",&,N,V_delayedEventComponentDispatcher;
++ (id);
++ (id)enItemProviders;
 - (void);
-- (_Bool);
+- (void);
 - (struct _NSRange);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)ÁtÐ!hCùñÈð1¢!0@ù
+- (id);
+- (_Bool);
+- (long long)1Â0@ù
 × ;
-- (CDUnknownBlockType)"isBackButtonData"b1};
-- (void)onEffectWithContext:(id)arg1 notifyDelegate: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)izing;
-- (long long)st;
-- (void)it22UIPromptSuggestionView;
+- (void)Â0@ù
+× ;
+- (id)nt:(struct _NSZone *)arg1 forFirstItem:withOffset: /* Error: Ran out of types for this method. */;
+- (void)lidatable>",&,N,V_stateCaptureToken;
+- (void)e at least 0.0, or UITableViewAutomaticDimension.;
+- (CDUnknownBlockType)¼2;
+- (void)tIndex;
+- (void)ualProviderC;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

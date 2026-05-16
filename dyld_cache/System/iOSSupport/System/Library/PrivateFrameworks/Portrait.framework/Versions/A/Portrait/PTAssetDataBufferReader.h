@@ -46,14 +46,14 @@
 - (id);
 - (id);
 - (float);
-- (void);
-- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned int);
 - (unsigned long long);
+- (id);
 - (void);
-- (id)¾úÿ;
+- (void);
+- (unsigned long long);
+- (unsigned int)28q32;
 
 // Remaining properties
 @property(retain, nonatomic) AVAssetReader *assetReader; // @synthesize assetReader=_assetReader;

@@ -5,7 +5,6 @@
 //
 
 @protocol UIFocusAnimationContext
-- (double)being applied to the group's effective size (%@).;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

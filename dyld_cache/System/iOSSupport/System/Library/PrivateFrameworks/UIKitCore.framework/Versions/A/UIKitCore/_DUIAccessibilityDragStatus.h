@@ -11,16 +11,16 @@
     unsigned long long _potentialOperation;
 }
 
-+ (_Bool)×µÖ9p;
-- (void)p;
++ (_Bool)n a document could not be imported.;
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool)ID: /* Error: Ran out of types for this method. */;
-- (void)2;
-- (void);
+- (_Bool);
 - (id);
+- (id);
+- (void);
+- (void)moveSectionWithIdentifier:(id)arg1 beforeSectionWithIdentifier: /* Error: Ran out of types for this method. */;
 - (long long);
-- (id)gnoreScrollDirectionUserPreference:,V_iOSMacIgnoreScrollDirectionUserPreference /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool forbidden; // @synthesize forbidden=_forbidden;

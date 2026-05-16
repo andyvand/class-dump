@@ -30,9 +30,9 @@
 - (id);
 - (id);
 - (id);
+- (id)l;
 - (void);
-- (id)Respiratory Rate;
-- (void)ÿâÿ}Ø;
+- (void)¤ìòÿÔ£À;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;

@@ -36,16 +36,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (struct _NSRange);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, getter=_accessibilityIsUnread, setter=_accessibilitySetIsUnread:) _Bool accessibilityIsUnread; // @synthesize accessibilityIsUnread=_accessibilityIsUnread;

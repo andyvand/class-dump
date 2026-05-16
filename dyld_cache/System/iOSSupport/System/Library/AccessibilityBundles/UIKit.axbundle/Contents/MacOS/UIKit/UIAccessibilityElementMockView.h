@@ -31,13 +31,13 @@
 - (id);
 - (_Bool);
 - (struct _NSRange);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (_Bool);
 - (id);
 - (id);
 - (struct _NSRange);
@@ -67,14 +67,8 @@
 - (_Bool);
 - (double);
 - (double);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -82,6 +76,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 
 @end

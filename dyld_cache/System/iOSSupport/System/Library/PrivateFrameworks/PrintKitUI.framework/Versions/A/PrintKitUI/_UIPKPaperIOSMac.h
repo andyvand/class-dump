@@ -25,18 +25,18 @@
 - (id);
 - (struct CGSize);
 - (int);
-- (int);
+- (id);
 - (int);
 - (int);
 - (id);
+- (int);
+- (int);
+- (id);
+- (int);
+- (int);
+- (id);
+- (int);
 - (void);
-- (int);
-- (int);
-- (id);
-- (id);
-- (id);
-- (int);
-- (int);
 
 @end
 

@@ -30,25 +30,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void))
-;
-- (void);
-- (void);
-- (void);
-- (void)Ý2º;
-- (void);
-- (void)¡x!Ì@ùÎ°1¢!0@ù
-× ;
-- (void)ction"16@"_UIFlexInteractionUpdate"24;
-- (void)setLayerPositions;
-- (void):(id)arg1;
-- (void)RenderBounds;
-- (id)crollAssistantUpdateContentOffset: /* Error: Ran out of types for this method. */;
-- (_Bool)ge;
-- (id);
-- (void)çÿ³ÿÍ¼g];
+- (_Bool)IKeyboardFloatingTransitionController"16;
+- (void)tInput:(id)arg1;
+- (void)ontext: /* Error: Ran out of types for this method. */;
+- (void)CollapsedAffinity: /* Error: Ran out of types for this method. */;
+- (void)@"NSArray",C,N,V_sourceItems;
+- (void)H;
+- (id)has been initialized to:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)WKÿz$;
+- (void)Ö;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

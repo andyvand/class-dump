@@ -42,14 +42,13 @@
     MISSING_TYPE *transition;
 }
 
-- (id)enting:%{public}@ NowPlaying:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)!x@ù±Ä°1¢!0@ù
-× ;
+- (void);
 - (id);
-- (void)ldShowWritingToolsInCandidateBarWithCompletionHandler:(id)arg1;
-- (id)ayout",R,N,G_tableLayout;
-- (id)¸¡$¢¤$¥;
-- (void)iewSegueTemplates;
+- (id);
+- (void)t;
+- (id);
+- (id)«ÑþqÏ´ d;
+- (void)hl;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

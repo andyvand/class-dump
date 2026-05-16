@@ -24,13 +24,13 @@
 - (_Bool);
 - (void);
 - (unsigned char);
-- (id);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (void);
-- (void)icalOnly;
-- (id)%p cleaning up;
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id)xture>";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

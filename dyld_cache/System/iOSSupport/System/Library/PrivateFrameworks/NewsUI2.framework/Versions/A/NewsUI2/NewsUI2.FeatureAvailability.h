@@ -13,10 +13,7 @@
     MISSING_TYPE *$__lazy_storage_$_isContentStoreFrontSupported;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)mentID;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -24,26 +21,37 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)t:destinationURL:sharedCacheURL:assetLoadProperties:loadResult:storeRequestContext:urlBag:fileUpgradeRecommendation: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (_Bool)rror] accumulationError=%{public}@;
-- (_Bool)ess data while processor is unavailable;
-- (_Bool);
-- (_Bool)!
-;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id)àÿÄ2àÿè2àÿt3àÿ84àÿ\4àÿ4àÿ°4àÿÔ4àÿø4àÿ45àÿX5àÿø5àÿt6àÿ6àÿÄ6àÿè6àÿd7àÿ8àÿ<8àÿ 8àÿÈ9àÿ:àÿì:àÿ ;àÿl;àÿ;àÿ´;àÿè;àÿ<àÿ0<àÿ\<àÿ<àÿÄ<àÿè<àÿD=àÿ=àÿ¤=àÿ>àÿ¤>àÿÔ>àÿø>àÿ?àÿX?àÿ|?àÿ@àÿ@àÿ4@àÿ@@àÿTAàÿ`AàÿÀAàÿ$BàÿCàÿ`DàÿDàÿØDàÿüDàÿ¨EàÿFàÿ4FàÿdFàÿFàÿ¬FàÿèFàÿGàÿ|Gàÿ GàÿÄGàÿ$HàÿHHàÿlHàÿ¨HàÿÌHàÿIàÿ¼IàÿJàÿÀJàÿðJàÿKàÿ8KàÿlKàÿ¨KàÿÌKàÿLàÿLàÿÐLàÿôLàÿPMàÿ¨MàÿÌMàÿüMàÿ NàÿDNàÿNàÿ¤NàÿäOàÿ PàÿDPàÿPPàÿ¼PàÿìPàÿQàÿLQàÿQàÿ$Ràÿ0RàÿRàÿÀRàÿüRàÿ¨SàÿHTàÿXTàÿdTàÿTàÿ¼TàÿðTàÿUàÿPUàÿtUàÿUàÿ¼UàÿPVàÿVàÿèVàÿWàÿ0WàÿTWàÿWàÿdXàÿXàÿ,[àÿh[àÿ[àÿ¤\àÿØ\àÿü\àÿ ]àÿ]àÿ]àÿÀ]àÿä]àÿü]àÿL^àÿp^àÿ^àÿÐ^àÿô^àÿ_àÿØ_àÿ`àÿ`àÿ`aàÿøaàÿXbàÿ|bàÿ bàÿcàÿ¬càÿÐcàÿ4dàÿLdàÿpdàÿdàÿÈdàÿeàÿ(eàÿ¤eàÿÈeàÿìeàÿ(fàÿLfàÿfàÿ¬fàÿØfàÿgàÿ¸gàÿègàÿhàÿ0hàÿlhàÿhàÿøhàÿLiàÿ|iàÿ iàÿÄiàÿøiàÿ4jàÿXjàÿØkàÿlàÿ8làÿDlàÿ°làÿÔlàÿmàÿ(màÿLmàÿmàÿ¬màÿ4nàÿoàÿoàÿ0qàÿTqàÿxqàÿqàÿàqàÿràÿràÿ@ràÿdràÿràÿÌràÿðràÿsàÿDsàÿ¨vàÿÌvàÿðvàÿ,wàÿPwàÿtwàÿwàÿÔwàÿøwàÿDxàÿ¬xàÿìxàÿÈyàÿüyàÿÈzàÿ`{àÿ{àÿh|àÿt|àÿ|àÿÄ|àÿè|àÿ$}àÿH}àÿ}àÿä}àÿ~àÿÄ~àÿàÿ4àÿ´àÿ(àÿ|àÿ¬àÿ àÿ,àÿPàÿtàÿ°àÿÔàÿàÿ4àÿàÿÌàÿðàÿàÿ°àÿÜàÿàÿàÿ¼àÿøàÿlàÿàÿÀàÿäàÿàÿDàÿhàÿLàÿXàÿtàÿØàÿüàÿ,àÿPàÿtàÿ°àÿÔàÿ@àÿtàÿàÿ¼àÿààÿàÿPàÿ¨àÿìàÿàÿ4àÿXàÿ|àÿàÿøàÿàÿ@àÿdàÿàÿÔàÿøàÿxàÿÔàÿøàÿàÿLàÿpàÿàÿÐàÿôàÿàÿ¼àÿàÿHàÿlàÿ¨àÿÜàÿàÿ,àÿPàÿàÿÀàÿ<àÿÐàÿôàÿàÿüàÿ0àÿ<àÿHàÿlàÿxàÿàÿàÿàÿ¨àÿÔàÿààÿ|àÿ°àÿüàÿ àÿDàÿhàÿàÿÀàÿìàÿàÿ<àÿ`àÿàÿ¨àÿÌàÿðàÿàÿàÿàÿ¨àÿÌàÿøàÿàÿàÿàÿ¨àÿØàÿüàÿ àÿ\àÿàÿØàÿàÿ@¢àÿh¢àÿ¼¢àÿì¢àÿ£àÿ4£àÿh£àÿ¤£àÿÈ£àÿp¤àÿ8¥àÿä¥àÿ¦àÿ,¦àÿP¦àÿ¦àÿÀ¦àÿä¦àÿ§àÿ,§àÿP§àÿ§àÿÀ§àÿä§àÿ¨àÿ,¨àÿP¨àÿt¨àÿ¨àÿ¼¨àÿà¨àÿ«àÿ¬«àÿÐ«àÿ¬àÿ0¬àÿT¬àÿx¬àÿ¬¬àÿè¬àÿ­àÿ0­àÿT­àÿ­àÿ´­àÿØ­àÿü­àÿ8®àÿ\®àÿ®àÿ¤®àÿà®àÿ¯àÿ(¯àÿL¯àÿ¯àÿ¬¯àÿÐ¯àÿô¯àÿ0°àÿT°àÿ °àÿì°àÿ8±àÿ±àÿÐ±àÿ²àÿ²àÿ¼²àÿà²àÿ³àÿ@³àÿd³àÿ¬´àÿè´àÿôµàÿ¶àÿÄ¶àÿÐ¶àÿÜ¶àÿ·àÿÔ·àÿ(¸àÿ¸àÿÀ¸àÿä¸àÿl¹àÿHºàÿTºàÿºàÿÀºàÿìºàÿ»àÿ»àÿÈ»àÿ¼àÿ(¼àÿ¼àÿ°¼àÿÜ¼àÿ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)sUI238TodayBlueprintViewCellProviderDelegateP;
-- (_Bool)Crush Feed, installing CACommit Completion Block;
-- (_Bool)eedGroupConfigData;
 - (_Bool);
-- (_Bool)| ;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)	;
+- (_Bool);
+- (_Bool)picTagFeedGroupKnobs;
+- (_Bool)d÷;
+- (_Bool)²þÅícüÍ²þ;
+- (_Bool);
+- (_Bool)SearchLayoutAttributesFactoryType;
+- (_Bool);
+- (_Bool);
+- (_Bool)õ°þ}e¿¬þ}eö°þ;
+- (_Bool)ÿ;
+- (_Bool)ô;
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowCIPBestOffer;
@@ -55,14 +63,23 @@
 @property(nonatomic, readonly) _Bool articleLinkBehaviorImprovementsEnabled;
 @property(nonatomic, readonly) _Bool configurableOffersEnabled;
 @property(nonatomic, readonly) _Bool dimNonSubscriberContentOffline;
+@property(nonatomic, readonly) _Bool featurePromotionEnabled;
+@property(nonatomic, readonly) _Bool imagesInStepsEnabled;
+@property(nonatomic, readonly) _Bool ingredientScalingEnabled;
 @property(nonatomic, readonly) _Bool interstellarEnabled;
+@property(nonatomic, readonly) _Bool localOnboardingEnabled;
+@property(nonatomic, readonly) _Bool multipartRecipesEnabled;
 @property(nonatomic, readonly) _Bool narrativeAudio;
+@property(nonatomic, readonly) _Bool nutritionInfoEnabled;
 @property(nonatomic, readonly) _TtC16NewsSubscription26PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
 @property(nonatomic, readonly) _Bool puzzlesEnabled;
 @property(nonatomic, readonly) _Bool puzzlesGameCenterEnabled;
+@property(nonatomic, readonly) _Bool recipeHistoryFeedEnabled;
+@property(nonatomic, readonly) _Bool recipeNotesEnabled;
+@property(nonatomic, readonly) _Bool recipeRatingsEnabled;
+@property(nonatomic, readonly) _Bool recipeUnitConversionEnabled;
 @property(nonatomic, readonly) _Bool sportsNativeAdsEnabled;
 @property(nonatomic, readonly) _Bool useContinueReading;
-@property(nonatomic, readonly) _Bool useFeedDifferentiationMode;
 @property(nonatomic, readonly) _Bool useFineGrainedNewsletterManagement;
 @property(nonatomic, readonly) _Bool useFood;
 @property(nonatomic, readonly) _Bool useMoreFromIssueEOA;

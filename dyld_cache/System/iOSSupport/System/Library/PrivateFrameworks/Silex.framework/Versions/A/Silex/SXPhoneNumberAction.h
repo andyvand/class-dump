@@ -13,10 +13,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)yConditionValidator"16@?0@"<TFResolver>"8;
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;

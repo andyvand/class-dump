@@ -31,11 +31,11 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *headerImageData; // @synthesize headerImageData=_headerImageData;

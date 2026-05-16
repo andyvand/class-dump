@@ -11,30 +11,30 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)lteredByPredicate: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)andleInfo: /* Error: Ran out of types for this method. */;
-- (struct CGPoint):handoffEligibilityChangedForConversation: /* Error: Ran out of types for this method. */;
-- (double)geConversationAdvertisement: /* Error: Ran out of types for this method. */;
-- (_Bool)tAddressedHandle:(id)arg1 lastAddressedSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
-- (id)ithActivity: /* Error: Ran out of types for this method. */;
-- (void)at: /* Error: Ran out of types for this method. */;
-- (id)pIegn_;
+- (id);
+- (struct UIEdgeInsets);
+- (struct CGPoint);
 - (double);
-- (struct CGPoint)1$;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (double);
+- (struct CGPoint);
 - (double);
 - (double);
-- (double)sharedInstance() to IMUserNotificationCenter!;
-- (double)ickSwitch we were given a nil path to delete;
-- (double)@;
-- (id)Incoming command doesn't match BlastDoor command (%ld), trustedData:(id)arg1 %@;
+- (double);
+- (double);
+- (double);
+- (id);
 - (_Bool);
 - (void);
 - (struct CGPoint);
 - (_Bool);
 - (double);
 - (double);
-- (id)f;
-- (long long)h;
+- (id);
+- (long long)ûsþ;
 
 @end
 

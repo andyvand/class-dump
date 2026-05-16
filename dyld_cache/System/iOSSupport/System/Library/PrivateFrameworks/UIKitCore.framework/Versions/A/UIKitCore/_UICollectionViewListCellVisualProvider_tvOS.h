@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long)aryForDeletedChat:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)age:(id)arg1;
-- (_Bool)LastAddressedHandle;
-- (id)latestReadReceipt;
-- (void)	?ח;
+- (long long);
+- (void);
+- (_Bool);
+- (id);
+- (void)tAttributesForExtraLineFragment:(id)arg1;
 
 @end
 

@@ -13,18 +13,18 @@
     NSArray *_kinds;
 }
 
-+ (id):(id)arg1;
-+ (id)eamType: /* Error: Ran out of types for this method. */;
-+ (_Bool)CS cannot add local speaker route. Picked route:%{public}@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
+- (void)faultPlaybackRate;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *kinds; // @synthesize kinds=_kinds;

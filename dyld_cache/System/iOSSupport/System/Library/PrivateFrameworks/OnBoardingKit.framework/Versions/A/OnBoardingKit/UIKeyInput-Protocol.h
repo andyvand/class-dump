@@ -5,7 +5,6 @@
 //
 
 @protocol UIKeyInput
-- (_Bool)@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

@@ -14,9 +14,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
 - (id);
+- (void);
+- (unsigned long long)wn-casted Array element failed to match the target type
+Expected ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfUnits;

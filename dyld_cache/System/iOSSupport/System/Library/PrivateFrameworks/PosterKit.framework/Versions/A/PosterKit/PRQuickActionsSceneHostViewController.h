@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void)er editor supports a maximum of 2 leading menu elements;
 - (void);
 
 // Remaining properties

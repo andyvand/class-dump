@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
     SKPaymentTransactionAuthorizationResponse *_authorizationResponse;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

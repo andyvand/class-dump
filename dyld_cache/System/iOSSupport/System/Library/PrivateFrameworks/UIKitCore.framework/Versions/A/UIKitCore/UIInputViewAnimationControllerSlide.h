@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)oomMaximumValue;
-- (void)"_UIPortalView",&,N,V_retargetingContainerPortalView;
+- (void)@.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,13 +15,13 @@
 }
 
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
 + (Class);
++ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)rPresentationOptions"32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisingSettings> advertisingSettings; // @dynamic advertisingSettings;

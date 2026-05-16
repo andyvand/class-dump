@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)berWithInteger: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *choices; // @synthesize choices=_choices;

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class NSSet, _UIKBRTTouchDrifting;
 
 @protocol _UIKBRTTouchDriftingDelegate
-- (NSSet *);
-- (struct CGPoint)0@ù
-× ;
-- (unsigned long long)XÐèÐ;
-- (void)UÇU ÜUÇøX ðUÇØ[ VÇÔg @VÇÜy VÇÀ ¸VÇ¸G!$WÇÌÒ!4WÇTÕ!HWÇhØ!`WÇ¸ß!WÇØâ!¨WÇð+"äWÇÜ"øWÇì"XÇ"|XÇ|¡"¤XÇñ"¸XÇ#äXÇÄ#øXÇLM#@YÇO#TYÇpd#hYÇÔe#xYÇ8g#YÇh#YÇ´k#¨YÇ s#ìYÇz#TZÇ~#dZÇÄ#äZÇÈ#[Ç;
+- (unsigned long long)ation on the drop animation container view that never began;
+- (void)Search controller:(_UIKBRTTouchDrifting *)arg1;
+- (NSSet *)nctionallyFullScren;
+- (struct CGPoint);
 @end
 

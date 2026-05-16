@@ -13,22 +13,22 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)N,V_contextStamp;
-- (struct CGRect)tIdentifierWithIdentifier:(id)arg1 onChat:(id)arg2;
-- (struct CGRect)DaemonCoreSpotlightManager",R,N;
+- (id);
+- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id)ctionCount;
-- (id)elperC;
 - (id);
 - (id);
-- (id)hat with accountUniqueID:(id)arg1 %s and chatIdentifier:(id)arg2 %s;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void)fence task;
+- (void)GíÑ¬¶[;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFocusMovementPerformerDelegate> delegate; // @synthesize delegate=_delegate;

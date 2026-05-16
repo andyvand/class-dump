@@ -23,30 +23,29 @@
 
 - (void);
 - (void);
-- (id)ReferenceDate:(_Bool)arg1;
-- (id)xtPartialResult:(id)arg1;
-- (id)antHandlesType;
-- (_Bool)inatingDeviceId;
-- (void)UUID:eventType:isUpdate: /* Error: Ran out of types for this method. */;
-- (void)sion;
-- (void)edText;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (id);
-- (void)0@ù
-× ;
-- (_Bool)s;
-- (long long)v@:C /* Error: Ran out of types for this method. */;
-- (void)PlaybackPosition.m;
-- (void)failed. No artwork URL found in the artwork info dictionary for item with persistent ID %lld;
+- (id);
+- (void);
+- (void);
+- (_Bool)ime:playbackRate: /* Error: Ran out of types for this method. */;
+- (void)patch_queue>",&,N,V_dataSourceQueue;
+- (long long)ediaControls dismissed with tapped custom row identifier :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool didReceiveDiscoveryResults;

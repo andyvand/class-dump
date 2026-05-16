@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)ôñÿÒû(É;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *backingStore;

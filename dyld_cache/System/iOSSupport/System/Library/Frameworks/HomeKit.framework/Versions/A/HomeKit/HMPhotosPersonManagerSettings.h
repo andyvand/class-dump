@@ -12,24 +12,24 @@
     _Bool _sharingFaceClassificationsEnabled;
 }
 
-+ (id)TÐT;
-+ (_Bool)Copying>"8@"UIViewController"16@"NSError"24;
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)Predicate",C,N;
-- (id)%@ / %@;
-- (_Bool)eratingStateCodingKey;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

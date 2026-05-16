@@ -19,13 +19,13 @@
 + (id);
 + (id);
 + (id);
-+ (id)ogle;
-+ (id)ibrary/BuildRoots/4~CG-JugDWSUoDCj8o5WUG74fBKCdmEdAcn8-FOQA/Library/Caches/com.apple.xbs/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/bn/bn_ctx.c;
++ (id);
++ (id)¨[Ð[;
 - (void);
 - (void);
-- (_Bool);
 - (id);
-- (void);
+- (_Bool);
+- (void).com;
 
 // Remaining properties
 @property(copy, nonatomic) WFOAuth2Credential *credential; // @synthesize credential=_credential;

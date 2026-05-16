@@ -10,8 +10,8 @@
 {
 }
 
-- (id)pG;
-- (struct CGSize)edStringCSg;
+- (id);
+- (struct CGSize);
 - (id);
 - (Class);
 

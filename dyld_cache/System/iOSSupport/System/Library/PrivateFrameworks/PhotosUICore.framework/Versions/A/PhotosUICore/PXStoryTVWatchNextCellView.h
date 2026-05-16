@@ -18,8 +18,9 @@
 }
 
 - (void);
-- (void);
-- (id)ppÄp;
+- (id)
+× ;
+- (void)eShelvesOrder;
 
 // Remaining properties
 @property(copy, nonatomic) PXStoryTVWatchNextCellConfiguration *userData; // @dynamic userData;

@@ -16,11 +16,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (long long);
-- (_Bool)ror:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

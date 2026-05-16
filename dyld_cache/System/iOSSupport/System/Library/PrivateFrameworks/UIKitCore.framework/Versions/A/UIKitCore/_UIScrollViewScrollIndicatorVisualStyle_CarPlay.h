@@ -10,7 +10,7 @@
 {
 }
 
-- (id)to recover:(long long)arg1 %f;
+- (id)WithReplacement:(long long)arg1 accordingToProofreadingSuggestionWithIdentifier:(_Bool)arg2 replacingCharactersInRange:newState:contextID: /* Error: Ran out of types for this method. */;
 
 @end
 

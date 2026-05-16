@@ -14,8 +14,8 @@
     NSUUID *_externalPersonUUID;
 }
 
-+ (id)¬-´/23ì5t7´7h8:$<Ä<|= /* Error: Ran out of types for this method. */;
-+ (_Bool)%lu (%@) Shuffle %lu Repeat %lu MediaUniqueIdentifier %@>;
++ (id);
++ (_Bool);
 
 @end
 

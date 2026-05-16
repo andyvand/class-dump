@@ -22,7 +22,7 @@
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void)ucceeded;
 
 // Remaining properties
 @property(nonatomic) __weak HUAccessoryDiagnosticsItemManager *accessoryLogsItemManager; // @synthesize accessoryLogsItemManager=_accessoryLogsItemManager;

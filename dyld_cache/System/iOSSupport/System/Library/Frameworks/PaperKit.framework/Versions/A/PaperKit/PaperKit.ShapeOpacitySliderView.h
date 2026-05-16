@@ -13,13 +13,13 @@
     MISSING_TYPE *axis;
 }
 
+- (id);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
 - (struct CGRect);
-- (id);
+- (void)ø³ýÿKÿÿ;
 
 @end
 

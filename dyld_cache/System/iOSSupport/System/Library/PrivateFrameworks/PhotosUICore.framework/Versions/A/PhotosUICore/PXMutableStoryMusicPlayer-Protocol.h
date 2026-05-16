@@ -5,6 +5,7 @@
 //
 
 @protocol PXMutableStoryMusicPlayer
+- (void)ÿíÚÉèÿíÚÉ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;

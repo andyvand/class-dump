@@ -18,12 +18,12 @@
 
 - (void);
 - (id);
-- (id)l;
-- (double);
+- (void);
 - (double);
 - (void);
 - (_Bool);
-- (void);
+- (double);
+- (id);
 
 @end
 

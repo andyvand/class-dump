@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 
 @end

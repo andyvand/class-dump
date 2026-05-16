@@ -18,56 +18,53 @@ __attribute__((visibility("hidden")))
     UISwipeActionController *_swipeActionController;
 }
 
+- (id);
 - (void);
-- (void)ication;
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
+- (long long);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void)I±º;
-- (_Bool);
-- (struct UIEdgeInsets)@ù
-× ;
-- (id)Ð1¢!0@ù
-× ;
-- (id)<Fù1ÅÐ1¢!0@ù
-× ;
-- (void)!;
-- (id)Ás!ØEùÇÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)Ô ;
-- (void)Ô ;
-- (id)ÔÁw!AùñÌ1¢!0@ù
-× ;
-- (long long)!pDùÎð1¢!0@ù
-× ;
-- (void)dReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"maskingConfigurationIsInvalid"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
-- (void)"_UIStatesFeedbackGenerator";
-- (void);
-- (_Bool)ressEvent:(id)arg1;
-- (id)erClassNameForViewServiceSessionManager:(id)arg1;
-- (long long)centerTextButtons;
-- (_Bool)nsformPath:(id)arg1 rotation:flipX:flipY:roundToScale: /* Error: Ran out of types for this method. */;
-- (id)rt;
-- (void)ver;
-- (void);
-- (id)È;
-- (void)latters;
-- (void)iCategoryFoodAndDrink(void);
+- (struct UIEdgeInsets);
 - (id);
-- (id)×i\;
-- (void)\;
-- (id)Eÿ¢Úö¼];
-- (void)6c;
-- (id)WLc;
+- (id);
+- (_Bool)¡!PFù1_Ð1Â0@ù
+× ;
+- (void)°1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)!HFùQgÐ1Â0@ù
+× ;
+- (void)DirectionalEdgeInsets=dddd}24@0:(id)arg1 8@"UITraitCollection"16;
+- (void)kenForIdentifierOfCAContext: /* Error: Ran out of types for this method. */;
+- (id)lledFeedback: /* Error: Ran out of types for this method. */;
+- (id)tPoint:(id)arg1 completionHandler:(struct CGPoint)arg2;
+- (void)edCallback;
+- (id)IndexPath:(id)arg1;
+- (void)ryType:(id)arg1;
+- (id)latterWithMenuViewPresentedForActionSheet:(id)arg1;
+- (void);
+- (long long)erTransform:(id)arg1;
+- (_Bool)sArrow;
+- (void);
+- (void)¼;
+- (void)ÜB;
+- (id)È·ü·;
+- (void)¬Hü0àH¨¬ à ´"#l#;
+- (id));
+- (_Bool)24;
+- (void);
+- (void)putModelP;
+- (void)urce_t;
+- (void)üpþ;
+- (void)ÿf;ÝÈ*^;
 
 // Remaining properties
 @property(readonly, nonatomic) UISwipeOccurrence *currentSwipeOccurrence;

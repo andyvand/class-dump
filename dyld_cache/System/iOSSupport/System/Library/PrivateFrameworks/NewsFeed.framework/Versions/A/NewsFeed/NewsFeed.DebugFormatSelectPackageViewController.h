@@ -23,15 +23,15 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void)__objc_classname__TEXT;
 - (void);
-- (long long)=;
-- (void)Uüÿ;
+- (long long);
+- (void)±c1<Änþ±c1«þ;
+- (void)¥:xðíþ /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

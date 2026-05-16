@@ -21,25 +21,25 @@
 
 - (id);
 - (void);
-- (void)meworks/CoreText.framework/Versions/A/CoreText;
-- (void)ST;
-- (id)ne or more errors.;
-- (void)questKey;
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)usViewAnimationDelegate>";
-- (void)2@0:(id)arg1 8@16@?24;
-- (void)@"AceObject<SAAceCommand>"24@?<v@?@"AceObject<SAAceCommand>">32;
-- (id);
-- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)Distance;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *_detailsButton; // @synthesize _detailsButton=__detailsButton;

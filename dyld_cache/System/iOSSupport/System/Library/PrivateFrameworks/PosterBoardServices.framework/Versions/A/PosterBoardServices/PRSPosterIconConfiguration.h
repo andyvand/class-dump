@@ -12,26 +12,29 @@
     BSColor *_accentColor;
     unsigned long long _variant;
     unsigned long long _type;
+    unsigned long long _size;
 }
 
++ (id);
 + (_Bool);
-+ (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) BSColor *accentColor; // @synthesize accentColor=_accentColor;
 @property(readonly, nonatomic) PRSPosterConfiguration *posterConfiguration; // @synthesize posterConfiguration=_posterConfiguration;
+@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned long long variant; // @synthesize variant=_variant;
 

@@ -5,8 +5,5 @@
 //
 
 @protocol AXDragSessionDelegate
-
-@optional
-- (void);
 @end
 

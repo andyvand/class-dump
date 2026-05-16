@@ -26,9 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void)µ
-1b0@ù
-× ;
+- (void)teKeyAllowPartialExpressions(void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

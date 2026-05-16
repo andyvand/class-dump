@@ -51,15 +51,15 @@
 - (id);
 - (void);
 - (long long);
+- (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)tural light state to %{BOOL}d for profile:%@ %@ /* Error: Ran out of types for this method. */;
+- (void)ccessoryStateDescriptionInterrupted;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contextType; // @synthesize contextType=_contextType;

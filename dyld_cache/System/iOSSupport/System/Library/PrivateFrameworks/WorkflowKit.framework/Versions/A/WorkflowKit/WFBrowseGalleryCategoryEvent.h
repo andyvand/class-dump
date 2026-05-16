@@ -17,9 +17,9 @@
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)remote change;
+- (void)e;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *galleryCategoryIdentifier; // @synthesize galleryCategoryIdentifier=_galleryCategoryIdentifier;

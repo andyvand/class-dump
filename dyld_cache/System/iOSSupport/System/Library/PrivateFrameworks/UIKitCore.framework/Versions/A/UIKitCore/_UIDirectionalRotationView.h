@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class)n;
++ (Class);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)member relation using SCI;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isCounterTransformView) _Bool counterTransformView;

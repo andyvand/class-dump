@@ -19,10 +19,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)reTitle: /* Error: Ran out of types for this method. */;
-- (void)",&,N,V_previousRankingFeedback;
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXFKAFocusRingBorderShapeLayer *topBorderLayer; // @synthesize topBorderLayer=_topBorderLayer;

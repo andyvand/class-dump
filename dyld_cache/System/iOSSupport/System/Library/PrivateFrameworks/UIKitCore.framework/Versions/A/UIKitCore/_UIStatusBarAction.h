@@ -10,13 +10,13 @@
     CDUnknownBlockType _block;
 }
 
-+ (id)eRecord;
-- (void);
++ (id);
 - (void);
-- (CDUnknownBlockType)ator"16Q24;
-- (void)ets:(_Bool)arg1;
-- (void)<(¼¬¼Ô '*;
+- (void);
 - (_Bool);
+- (void)emController error notification:(CDUnknownBlockType)arg1 %@;
+- (CDUnknownBlockType)T¤éÿHx]þ@¾þÿ;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

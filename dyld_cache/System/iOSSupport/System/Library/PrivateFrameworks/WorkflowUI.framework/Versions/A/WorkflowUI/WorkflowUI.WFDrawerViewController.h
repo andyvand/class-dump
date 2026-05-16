@@ -31,20 +31,20 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (void);
+- (long long);
 - (void);
-- (void)ySgGGA4_yAGnGGtGSgtGG;
+- (void);
+- (void);
+- (void)ÈúÿÚt u	;
 
 @end
 

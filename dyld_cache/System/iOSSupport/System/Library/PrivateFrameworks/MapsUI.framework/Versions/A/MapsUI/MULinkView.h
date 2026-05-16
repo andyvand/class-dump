@@ -23,11 +23,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (void);
+- (void)HeightForContentAboveTitle;
+- (void);
+- (unsigned long long)]§
+y£;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedText;

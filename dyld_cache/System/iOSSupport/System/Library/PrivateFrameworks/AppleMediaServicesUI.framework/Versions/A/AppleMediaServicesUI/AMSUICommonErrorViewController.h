@@ -34,18 +34,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (CDUnknownBlockType);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id)tViewControllerWithDictionary:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)le.AppleMediaServicesUI.ImageLoader.workQueue;
+- (void)onText:appName:primaryButtonText:privacyLinkController: /* Error: Ran out of types for this method. */;
+- (id)idEnqueueClickstreamMetrics;
+- (void)SSQo__Qo__ACyACy£N3yÅT3yACyACyÁ41AJGALyV41GGG_uE3Qo_%M3G.1y)51GGSgtGG;
+- (void)xeDd;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;

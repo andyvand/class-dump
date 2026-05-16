@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)e.SafariShared.WBSCloudHistory.fetchChanges;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long insertionIndex; // @synthesize insertionIndex=_insertionIndex;

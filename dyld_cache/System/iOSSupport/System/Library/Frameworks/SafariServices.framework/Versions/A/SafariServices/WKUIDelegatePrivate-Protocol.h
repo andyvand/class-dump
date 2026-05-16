@@ -4,24 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView;
-
 @protocol WKUIDelegatePrivate
-
-@optional
-- (void);
-- (_Bool);
-- (void);
-- (NSString *)ad;
-- (UIView *)tIdentifier;
-- (NSArray *)rrayLiteralElement;
-- (void)u;
-- (void)Lu;
-- (void);
-- (void)x;
-- (void)|y;
-- (void){;
-- (void)B;
-- (_Bool)DAnimationInitWithPropertyList;
 @end
 

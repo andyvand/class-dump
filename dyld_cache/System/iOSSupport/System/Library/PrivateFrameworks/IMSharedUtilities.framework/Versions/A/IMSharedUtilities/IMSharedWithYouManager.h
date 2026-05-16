@@ -23,12 +23,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)P;
-+ (id);
-+ (_Bool);
 + (id);
 + (id);
 + (_Bool);
++ (id);
++ (_Bool);
++ (id);
 + (id);
 - (id);
 - (void);
@@ -67,10 +67,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)`;
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LSApplicationWorkspace *_applicationWorkspace;

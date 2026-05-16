@@ -5,7 +5,5 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void)SError"8Q16@"<WFUserInterfaceHost>"24@?<v@?B@"NSError">32;
-- (double)erchangeURLRequest"8;
 @end
 

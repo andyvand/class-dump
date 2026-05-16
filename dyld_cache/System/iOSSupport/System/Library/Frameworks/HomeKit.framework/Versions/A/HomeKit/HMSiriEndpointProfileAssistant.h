@@ -16,25 +16,23 @@
 }
 
 + (id);
-+ (id)wController;
-+ (id)¤t
-ð
-Ðð	,Ü$;
-+ (_Bool)et;
++ (id);
++ (_Bool);
++ (id)root.home.dismissedCameraRecordingSetupBanner;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (long long)iles;
-- (id)PairingIsNew;
-- (id)ailed to decode setting value due to no integer value event type in proto payload:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)oProtoAccountInfoEvent;
+- (long long)with CHIP decimal string representation;
 
 // Remaining properties
 @property long long active; // @synthesize active=_active;

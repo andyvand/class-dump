@@ -38,18 +38,18 @@
 - (unsigned long long);
 - (id);
 - (double);
-- (unsigned long long);
 - (double);
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (double)Keys;
-- (void)I!ɚ
-;
 - (void);
-- (unsigned long long)phicBounds: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (unsigned long long);
+- (void);
+- (void)Þ°!0GùQï1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

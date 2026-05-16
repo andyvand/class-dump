@@ -16,7 +16,7 @@
     long long _gpuFamily;
 }
 
-+ (_Bool)ô;
++ (_Bool)"16;
 - (_Bool);
 - (void);
 - (void);
@@ -26,14 +26,13 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void)GÔBG«"?ì B±lö¾ËËnBÍ«"?b»IBjö¾ÛÍBÚ¬"?ðBeö¾FBÔAÀ®"?<ãÍA^ö¾åòAæ±"?_¡A½Rö¾¾ÉnA®¶"?]yA9Bö¾Ú©<A²½"?ÊÇIA+ö¾ÁÒATÇ"?ûÂ&AEö¾ü@Ô"?q"Aóåõ¾=Ô@Òä"?V×î@Õ²õ¾oÙ´@¤ú"?Î@Ì@õ¾@_)#?Ò³@çmô¾Ç@~#?1@¢Óó¾ko@¾#??@@ó¾©0T@	þ#?zz@)ò¾ýf=@wI$?7Pa@¢|ñ¾JF*@YÀ$?¬ÊK@=ð¾\å@0%?V9@èfï¾EÔ@«°%?^)@Ìî¾%zÿ?ßN&?ðÀ@m¬ì¾Ebê?ö&?EÕ@Ì'ë¾c
-Ø?²'?I@Sé¾ÇÈ?~(?¤þø?'è¾º?J)?lCé?Ýæ¾èÁ­?C*?HÛ?Fïä¾î¢?5+?VeÏ?9aâ¾½?aq,?ÏÄ?Vß¾Æ?#.?Ú »?;
+- (void)ÿÿÿÿÜ;
+- (void)a_index, io.vertice.screen_uv);;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha; // @synthesize additiveWritesToAlpha=_additiveWritesToAlpha;

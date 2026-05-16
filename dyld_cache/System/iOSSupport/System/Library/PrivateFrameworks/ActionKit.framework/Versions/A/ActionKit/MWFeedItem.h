@@ -23,26 +23,26 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)zedValue: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)rmitExpires;
+- (void)qyÙõqySSGSSºÔÿÿG;
+- (void)t-Type:application/octet-stream /* Error: Ran out of types for this method. */;
+- (id)ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *author; // @synthesize author;

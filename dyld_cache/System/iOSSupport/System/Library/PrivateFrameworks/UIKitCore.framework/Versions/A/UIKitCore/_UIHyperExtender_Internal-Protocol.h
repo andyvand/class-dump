@@ -5,7 +5,7 @@
 //
 
 @protocol _UIHyperExtender_Internal
-- (void)r_;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions;

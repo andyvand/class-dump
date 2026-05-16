@@ -12,12 +12,12 @@
     struct CGPoint _preferredSourceRectAnchorPoint;
 }
 
-- (double)sTitle;
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint)e;
+- (struct CGPoint);
 - (double);
 - (double);
 

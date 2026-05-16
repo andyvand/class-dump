@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)rationStructure>"24@0:8Q16 /* Error: Ran out of types for this method. */;
 - (struct __CFXWorld *);
 - (void);
 - (id);
@@ -37,11 +37,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)p`Ì;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

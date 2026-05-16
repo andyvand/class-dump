@@ -22,8 +22,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)us;
 
 // Remaining properties
 @property(nonatomic) _Bool keepLocal; // @synthesize keepLocal=_keepLocal;

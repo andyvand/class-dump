@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     UIViewFloatAnimatableProperty *_y;
 }
 
-- (struct CGPoint);
-- (void);
 - (void);
 - (id);
 - (struct CGPoint);
+- (struct CGPoint);
 - (id);
-- (id)AVCapturePreviewView"16;
+- (void);
+- (id)sult: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint presentationValue;

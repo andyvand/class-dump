@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void)MAPPING_MISSING__;
+- (void);
+- (_Bool)ayoutAttributes:(id)arg1;
 - (void);
 
 // Remaining properties

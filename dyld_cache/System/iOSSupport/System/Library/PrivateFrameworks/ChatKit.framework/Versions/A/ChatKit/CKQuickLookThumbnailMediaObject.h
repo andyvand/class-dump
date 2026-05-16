@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-- (_Bool)dRange;
+- (_Bool);
 - (id);
 - (id);
-- (id)isForPrint:(unsigned long long)arg1 ];
+- (id);
 - (_Bool);
 
 @end

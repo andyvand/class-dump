@@ -21,20 +21,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void));
+- (void);
 - (unsigned long long);
 - (long long);
 - (long long *);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long):%@ in handler:%@ while executing:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (id);
+- (_Bool);
 - (void);
-- (void)u;
-- (void);
-- (_Bool);
 - (id);
 - (id);
 

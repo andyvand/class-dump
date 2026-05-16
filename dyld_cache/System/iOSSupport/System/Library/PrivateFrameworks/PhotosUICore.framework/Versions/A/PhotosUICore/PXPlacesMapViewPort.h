@@ -21,13 +21,14 @@
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)1â
+0@ù
+× ;
+- (double)ns;
+- (void)st;
 - (void);
-- (double);
-- (void)mberOfObjects" :(double)arg1 %@,
-;
-- (double);
 - (void);
+- (double)øò`;
 
 // Remaining properties
 @property(nonatomic) CDStruct_02837cd9 mapRect; // @synthesize mapRect=_mapRect;

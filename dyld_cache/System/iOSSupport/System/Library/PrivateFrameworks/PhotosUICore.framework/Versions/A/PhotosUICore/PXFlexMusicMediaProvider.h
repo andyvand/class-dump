@@ -16,7 +16,7 @@
     _Atomic int _requestIDCounter;
 }
 
-+ (id)P¥éÿ8J59;
++ (id);
 - (long long);
 - (id);
 - (void);
@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ÁJÉ(ïÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

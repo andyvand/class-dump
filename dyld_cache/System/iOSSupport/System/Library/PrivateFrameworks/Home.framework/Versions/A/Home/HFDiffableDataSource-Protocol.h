@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFItem, NSIndexPath;
+@class HFItem, NSDiffableDataSourceSnapshot, NSIndexPath;
 
 @protocol HFDiffableDataSource
-- (NSIndexPath *)odeValue;
-- (HFItem *)ithEmailAddress:(NSIndexPath *)arg1 keys: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)èD;
+- (HFItem *)CharacteristicValueDoorStateOpen;
+- (NSDiffableDataSourceSnapshot *)ser %@ settings - but settings are invalid;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType supplementaryViewProvider;

@@ -5,6 +5,5 @@
 //
 
 @protocol STKStickerEffectEditorViewControllerDelegate
-- (void)ks_fdr_hmac_data;
 @end
 

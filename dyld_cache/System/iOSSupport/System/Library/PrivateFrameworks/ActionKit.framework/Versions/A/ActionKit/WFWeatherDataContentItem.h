@@ -39,7 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e to extract public key from private key file:Unable to open private key file /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;

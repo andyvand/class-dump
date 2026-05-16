@@ -15,6 +15,7 @@
     MISSING_TYPE *playbackState;
     MISSING_TYPE *channelDataFactory;
     MISSING_TYPE *scienceDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *completedListeningProcessor;
     MISSING_TYPE *itemSession;
     MISSING_TYPE *onNextTrack;

@@ -33,14 +33,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 @end
 

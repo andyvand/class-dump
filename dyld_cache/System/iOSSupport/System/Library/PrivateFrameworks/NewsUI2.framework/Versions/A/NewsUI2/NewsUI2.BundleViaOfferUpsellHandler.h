@@ -14,8 +14,8 @@
     MISSING_TYPE *router;
 }
 
-- (void);
 - (id);
+- (void)State;
 
 @end
 

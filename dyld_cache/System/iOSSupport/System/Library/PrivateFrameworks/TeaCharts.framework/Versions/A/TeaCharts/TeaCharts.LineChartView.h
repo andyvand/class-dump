@@ -11,10 +11,10 @@
     MISSING_TYPE *seriesViews;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

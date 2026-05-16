@@ -32,18 +32,20 @@
 - (void);
 - (void);
 - (id);
-- (double);
 - (void);
-- (void);
-- (struct CGSize);
 - (id);
-- (id)!¤Dù/1b0@ù
-× ;
 - (void);
-- (id)P4ÿÿ`Á;
-- (void)_Alert_Detail;
-- (id)akersViewController.swift;
-- (void)¤};
+- (struct CGSize)
+× ;
+- (id)pDùq°1â
+0@ù
+× ;
+- (double)MonospacedDigitsForFontDescriptor: /* Error: Ran out of types for this method. */;
+- (void)ersonItemManager",R,N,V_addPersonItemManager;
+- (void)ô7<8;
+- (id)lity list %s;
+- (void)sCameraStatusChangesTitle;
+- (id)=íÿØ¥ýx;
 
 // Remaining properties
 @property(retain, nonatomic) HULayeredBackgroundEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;

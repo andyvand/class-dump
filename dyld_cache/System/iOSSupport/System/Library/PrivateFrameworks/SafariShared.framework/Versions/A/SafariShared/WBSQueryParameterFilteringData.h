@@ -11,11 +11,11 @@
     NSMutableOrderedSet *_originalAndAdjustedURLs;
 }
 
-- (void)=;
-- (long long);
-- (void)!;
 - (void);
+- (long long);
 - (id);
+- (void);
+- (void)!<Pager>!$_;
 
 // Remaining properties
 @property(readonly, nonatomic) long long numberOfFilteredQueryParameters;

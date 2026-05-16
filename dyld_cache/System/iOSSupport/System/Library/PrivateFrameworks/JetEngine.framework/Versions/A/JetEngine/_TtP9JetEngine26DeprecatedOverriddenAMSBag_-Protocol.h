@@ -7,7 +7,6 @@
 @protocol AMSBagProtocol;
 
 @protocol _TtP9JetEngine26DeprecatedOverriddenAMSBag_
-- (id <AMSBagProtocol>);
 
 // Remaining properties
 @property(nonatomic, readonly) id <AMSBagProtocol> replacingSnapshotIfNeeded;

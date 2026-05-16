@@ -15,8 +15,8 @@
     MISSING_TYPE *vibrancyView;
 }
 
-- (void);
-- (id);
+- (id);
+- (void)LÖ;
 
 @end
 

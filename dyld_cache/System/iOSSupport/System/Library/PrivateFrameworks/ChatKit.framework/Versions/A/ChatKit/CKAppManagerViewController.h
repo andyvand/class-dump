@@ -18,27 +18,27 @@
     NSArray *_appContainedPlugins;
 }
 
-- (void)GGtGG;
+- (void);
 - (_Bool);
 - (void);
-- (void)r:(id)arg1 %s};
-- (void)Getting %@ file URL for %@;
-- (void)ghts();
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -49,19 +49,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
+- (void)DetailsInfoTabView15FaceTimeSection14ActionHandlers;
+- (void)(length:(_Bool)arg1 %lu) or URL (%@);
+- (void)didCalculateForCloudKit:(_Bool)arg1;
 - (void);
-- (void);
-- (long long);
-- (id)_t;
-- (void)yN®GGAEGÄ§®GACyACyACymÏ®yACyAvKy8Î®SgGG_Qo_AKy8Ó®GGAKyAXSgGGA10_GGt;
-- (void);
-- (void),;
-- (void)ìç0;
-- (void)$»nÿ14'22;
+- (void)$ê^ÿgÜ>52;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *appContainedPlugins; // @synthesize appContainedPlugins=_appContainedPlugins;

@@ -43,19 +43,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool)i¾MÒÿ;
-- (void)¼9¬ÿ;
 - (void);
+- (void)atingState;
+- (void)iaSystem;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *actionSets;

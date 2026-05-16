@@ -8,8 +8,8 @@
 {
 }
 
-- (int)entricID:statusChanged:handleInfo: /* Error: Ran out of types for this method. */;
-- (id);
+- (int);
+- (id)inFrame:(int)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) int processIdentifer;

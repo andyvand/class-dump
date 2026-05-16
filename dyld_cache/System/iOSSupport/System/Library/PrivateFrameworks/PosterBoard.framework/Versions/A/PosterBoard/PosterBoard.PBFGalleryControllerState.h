@@ -25,8 +25,9 @@
 - (double);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *lastUsefulGalleryConfigurationPersistDate;

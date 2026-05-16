@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ng"16@"UILabel"24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

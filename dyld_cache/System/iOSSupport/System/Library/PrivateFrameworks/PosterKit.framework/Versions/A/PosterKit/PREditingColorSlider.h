@@ -78,14 +78,14 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (double);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)tadataWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color1; // @synthesize color1=_color1;

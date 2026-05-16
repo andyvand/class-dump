@@ -11,35 +11,36 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)t:guid: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)mBundleID:recipientHandle: /* Error: Ran out of types for this method. */;
-- (double)ictionaryWithObjectsAndKeys: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (struct CGPoint);
+- (double);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets)d;
+- (struct UIEdgeInsets);
 - (double);
 - (struct CGPoint);
-- (double)unk by CTS:%@ /* Error: Ran out of types for this method. */;
-- (double)OUTPUT chat = %@; numMessageItems = %lu};
-- (double)stFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
 - (double);
-- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (_Bool);
+- (id);
+- (double);
 - (struct CGPoint);
-- (struct CGPoint)teringOptions;
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint)0@ù
+- (id)!Fù1eÐ1Â0@ù
 × ;
-- (double)ents;
-- (id)tion: /* Error: Ran out of types for this method. */;
-- (double)_UIKBRTRecognizerDelegate>",N,V_delegate;
-- (_Bool)(;
-- (struct CGPoint)t;
-- (struct CGPoint)Ó2;
-- (struct UIEdgeInsets)e;
-- (id)º*ÿ;
+- (struct CGPoint)
+× ;
+- (struct CGPoint)idatesInCurrentInputMode:ignoreHidePredictionTrait: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)lyphRange: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ctMediaView;
+- (struct CGPoint);
+- (struct CGPoint)S;
+- (struct UIEdgeInsets)îÿ{þÿ;
+- (double)igurationBaseBackgroundColor;
 
 @end
 

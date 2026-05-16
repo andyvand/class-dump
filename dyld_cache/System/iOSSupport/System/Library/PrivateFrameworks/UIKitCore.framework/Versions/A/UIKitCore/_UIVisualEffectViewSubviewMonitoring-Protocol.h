@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol _UIVisualEffectViewSubviewMonitoring
-- (void)ù±Á1¢!0@ù
-× ;
-- (void)efreshControlStyle;
+- (void)eAnimatingDelete:(UIView *)arg1 oldVisibleViews:(UIView *)arg2 useCopyBlendingForAnimations: /* Error: Ran out of types for this method. */;
+- (void)rItemCè¿7G;
 @end
 

@@ -7,8 +7,8 @@
 @class WFContactStore;
 
 @protocol WFContentPermissionRequestor
-- (void)eader;
-- (WFContactStore *)arametersWithoutAskingForValues(withInput:workQueue:) /* Error: Ran out of types for this method. */;
+- (void)ie2.ShareExtension;
+- (WFContactStore *)ÁËW¨ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) WFContactStore *contactStore;

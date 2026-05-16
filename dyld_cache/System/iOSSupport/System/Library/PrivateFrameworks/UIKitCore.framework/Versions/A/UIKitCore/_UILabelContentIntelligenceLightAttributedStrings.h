@@ -16,9 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)shRotation;
 - (void);
-- (id)xð!CùÎ1¢!0@ù
-× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *lightInertAttributedString; // @synthesize lightInertAttributedString=_lightInertAttributedString;

@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (void)|�|;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,10 +24,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void)GATA35_Qo_tG;
+- (id);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)sen;
+- (void)¼;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType connectionInvalidationHandler;

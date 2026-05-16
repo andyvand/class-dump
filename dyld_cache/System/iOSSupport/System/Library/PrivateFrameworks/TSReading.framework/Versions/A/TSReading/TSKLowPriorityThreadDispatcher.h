@@ -16,18 +16,18 @@
 }
 
 + (id);
-+ (id);
-+ (id)ÿÚ;
++ (id);
++ (id)ÔåZ>U;
 - (id);
+- (unsigned long long);
 - (oneway void);
-- (id);
-- (void);
 - (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (unsigned long long)oved;
 
 // Remaining properties
 @property(readonly, getter=isSuspended) _Bool suspended;

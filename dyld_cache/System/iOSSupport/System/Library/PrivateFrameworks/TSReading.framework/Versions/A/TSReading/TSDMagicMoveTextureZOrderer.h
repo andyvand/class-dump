@@ -24,11 +24,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 

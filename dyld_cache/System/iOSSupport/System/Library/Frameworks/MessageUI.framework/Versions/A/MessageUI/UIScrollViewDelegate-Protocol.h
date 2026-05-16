@@ -7,9 +7,7 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (_Bool)pletion;
-- (void)¼Fù	1¢!0@ù
+- (void)0@ù
 × ;
-- (void)xicon;
 @end
 

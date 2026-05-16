@@ -5,6 +5,5 @@
 //
 
 @protocol LPMultipleMetadataPresentationTransformer
-- (long long);
 @end
 

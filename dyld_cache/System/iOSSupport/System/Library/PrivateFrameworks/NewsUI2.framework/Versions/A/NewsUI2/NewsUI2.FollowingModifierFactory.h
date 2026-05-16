@@ -13,7 +13,6 @@
     MISSING_TYPE *tagRanker;
     MISSING_TYPE *shortcutService;
     MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *editorialService;
     MISSING_TYPE *appConfigurationManager;
     MISSING_TYPE *followingBadgingCoordinator;
     MISSING_TYPE *magazinesBadgingCoordinator;
@@ -25,7 +24,7 @@
     MISSING_TYPE *familySharingStatusManager;
     MISSING_TYPE *engagementInlineViewManager;
     MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *cachedShortcutsManager;
+    MISSING_TYPE *contentShortcutsStorageManager;
     MISSING_TYPE *userInfo;
 }
 

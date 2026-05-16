@@ -8,7 +8,7 @@
 
 @interface (null) (HUTriggerLikeItem)
 - (id);
-- (id);
+- (id)yACyAR_ATtGG_AUtGGG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

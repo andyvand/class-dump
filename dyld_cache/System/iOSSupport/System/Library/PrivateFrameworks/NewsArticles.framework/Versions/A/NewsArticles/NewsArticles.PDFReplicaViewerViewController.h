@@ -29,17 +29,17 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)cleViewerRouter;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)eReadingHistory;
+- (void);
 
 @end
 

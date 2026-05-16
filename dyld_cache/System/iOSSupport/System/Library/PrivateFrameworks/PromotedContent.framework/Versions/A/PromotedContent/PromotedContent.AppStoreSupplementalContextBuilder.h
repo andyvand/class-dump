@@ -19,8 +19,8 @@
     MISSING_TYPE *requestTime;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

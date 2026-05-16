@@ -7,17 +7,14 @@
 @class NFPromise, NSArray, NSString;
 
 @protocol FCNewsletterManager
-- (long long)lds>"16@0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)A/NewsFeed;
-- (_Bool)S;
-- (NSString *);
-- (_Bool)23FeatureAvailabilityTypeP;
-- (_Bool)t;
-- (NFPromise *);
-- (_Bool)t1Z;
-- (_Bool)Vtüÿ;
-- (NSArray *)ding scores...;
-- (void)è;
+- (NFPromise *)îð!¨Fùñþ1Â0@ù
+× ;
+- (_Bool)ÔÝtÞÔßà;
+- (void);
+- (_Bool)ments;
+- (long long)rrency;
+- (_Bool)lArrayStrategy;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long activeNewsletter;

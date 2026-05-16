@@ -13,11 +13,10 @@
 
 - (void);
 - (_Bool);
+- (id);
 - (void);
-- (void)
-;
 - (id);
-- (id);
+- (void)eanup handler for connection %@ with ID %s;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;

@@ -11,9 +11,9 @@
     UVMutablePreviewSceneSettings *_settings;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UVMutablePreviewSceneSettings *settings; // @synthesize settings=_settings;

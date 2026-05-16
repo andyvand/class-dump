@@ -19,7 +19,7 @@
 }
 
 + (id);
-+ (void)s;
++ (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,13 +39,13 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
-- (id)ty;
+- (void);
+- (void)erTypes);
 
 // Remaining properties
 @property(copy) NSDictionary *cachedSchemasByBundleIdentifier; // @synthesize cachedSchemasByBundleIdentifier=_cachedSchemasByBundleIdentifier;

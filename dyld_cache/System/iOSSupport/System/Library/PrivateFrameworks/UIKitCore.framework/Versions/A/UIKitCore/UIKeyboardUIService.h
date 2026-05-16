@@ -15,17 +15,16 @@
     NSMutableArray *_slots;
 }
 
-+ (id)àCÿFâ_;
-+ (id)îYÿ-áÌ¶ªr;
++ (id)Text;
++ (id)tionC;
 - (int);
 - (void);
 - (void);
-- (void);
-- (void)
-× ;
-- (id)ViewToNavigationBarIfNecessary: /* Error: Ran out of types for this method. */;
-- (id)Öé3;
-- (void);
+- (id);
+- (id);
+- (void):(id)arg1 shouldBeginAtPoint:(id)arg2;
+- (void)Wæþõ(;
+- (void)0¨oþ: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CAContext *context;

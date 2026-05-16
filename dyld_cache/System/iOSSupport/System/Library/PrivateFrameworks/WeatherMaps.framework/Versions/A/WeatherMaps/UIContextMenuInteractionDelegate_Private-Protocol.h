@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIContextMenuStyle;
+
 @protocol UIContextMenuInteractionDelegate_Private
+
+@optional
+- (_UIContextMenuStyle *);
 @end
 

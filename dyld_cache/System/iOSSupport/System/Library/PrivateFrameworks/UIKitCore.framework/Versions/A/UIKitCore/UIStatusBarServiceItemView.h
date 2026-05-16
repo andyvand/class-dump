@@ -28,23 +28,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (void);
-- (double)ervice:wasInterworked: /* Error: Ran out of types for this method. */;
-- (void)dKitSyncStateDebuggingInfo: /* Error: Ran out of types for this method. */;
-- (double)oToCKRecord:error: /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (double);
 - (id);
 - (_Bool);
-- (double);
-- (id)g inconsistency as is.;
-- (_Bool)s skipped because it is unsupported while processing GUID (%@);
-- (void)stDoor (Airlock) processing for command %ld was skipped because it is unsupported while processing GUID (%@);
-- (_Bool)8@"CKServerChangeToken"16@"NSData"24B32@"NSError"36;
-- (void)"NSString"16;
-- (id)"16@"NSData"24;
-- (id)>;
-- (double)</;
+- (double);
 - (id);
+- (_Bool);
 - (void);
-- (long long)åOb;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void);
+- (id)ÞÒì"i;
+- (long long) Êi;
 
 @end
 

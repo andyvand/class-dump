@@ -25,38 +25,38 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool)llDeviceInSMSRelay: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)tas;
-- (id)oEnableDevicesforSMSRelay: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1;
-- (void)tilitiesSharedInstance;
-- (void)DString;
-- (void)ate",&,N,V_scheduledDate;
-- (void)Receipt;
-- (void):(CDUnknownBlockType)arg1;
+- (_Bool);
+- (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (CDUnknownBlockType)};
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (long long);
-- (void)icationRemoveApplicationCommand;
 - (void);
-- (void);
-- (void)¡oð!àFù1ÂÐ1¢!0@ù
-× ;
-- (void)Ã1¢!0@ù
-× ;
 - (id);
-- (void)tyAttributes;
-- (void)rForScreenEdgesDeferringSystemGestures;
-- (id)FirstLetterInString:toUpperCase:language: /* Error: Ran out of types for this method. */;
-- (id)rTopItem;
-- (void)installShadowViews;
-- (id),à9;
-- (id)<üÿ;
-- (id);
+- (void);
+- (id);
+- (void);
+- (void)@ù
+× ;
+- (id)!¤Eù1eð1Â0@ù
+× ;
+- (void)2;
+- (void)urationForState:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)rows - this is a UIKit bug;
+- (void)û_;
+- (void)xbâÿìúÐ<g;
+- (id)# Ìk;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

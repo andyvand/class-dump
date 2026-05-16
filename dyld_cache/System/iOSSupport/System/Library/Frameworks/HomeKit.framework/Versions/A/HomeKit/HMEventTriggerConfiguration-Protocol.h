@@ -7,7 +7,6 @@
 @class NSArray, NSPredicate;
 
 @protocol HMEventTriggerConfiguration
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *endEvents;

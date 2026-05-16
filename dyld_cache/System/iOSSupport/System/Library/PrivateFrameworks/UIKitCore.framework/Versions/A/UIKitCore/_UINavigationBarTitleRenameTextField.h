@@ -24,22 +24,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (double);
-- (_Bool)8@0:8Q16B24 /* Error: Ran out of types for this method. */;
-- (void)"IMDAccountController";
-- (void)etScheduledMessageOriginalTransferGUIDs:(id)arg1;
-- (void)pressiveSendForIDs:style:onServices:message: /* Error: Ran out of types for this method. */;
-- (id)oticesForChat:withParticipants:forNoticeType: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)S_dispatch_queue>";
 - (void);
 - (void);
-- (void)n"16@"RTISessionOptions"24@?<v@?>32;
-- (void)Format;
-- (id)lver",R,N;
+- (void);
+- (id);
 - (_Bool);
-- (_Bool)Metronome;
-- (id)þÝ^;
-- (_Bool)¸±¤;
+- (_Bool);
+- (id);
+- (void);
+- (void)thIdentifier: /* Error: Ran out of types for this method. */;
+- (void)xhÈh;
+- (void)lateImageLandscape;
+- (_Bool)DelegateP;
+- (void);
+- (_Bool);
+- (id)þ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setLayeringSceneIdentity:) FBSSceneIdentityToken *_layeringSceneIdentity; // @synthesize _layeringSceneIdentity;

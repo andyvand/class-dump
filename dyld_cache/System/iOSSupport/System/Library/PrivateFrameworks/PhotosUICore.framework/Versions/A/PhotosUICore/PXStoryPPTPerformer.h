@@ -71,13 +71,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)RGÿ;
 - (id);
 - (void);
+- (id);
+- (void);
+- (id)@16@24@32;
+- (void)ntInset=%@;
+- (void)0;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXAsyncIterator> configurationIterator; // @synthesize configurationIterator=_configurationIterator;

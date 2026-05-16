@@ -13,9 +13,9 @@
 
 + (id);
 - (void);
+- (id);
 - (long long);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

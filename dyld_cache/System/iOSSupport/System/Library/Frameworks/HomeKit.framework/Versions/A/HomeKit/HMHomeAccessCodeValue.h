@@ -15,21 +15,21 @@
 + (id);
 + (id);
 + (id);
-+ (id)X;
-+ (_Bool)MCH.ck.index;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)me: /* Error: Ran out of types for this method. */;
-- (id)eceivedMessage:Did not find request handler for message name:%@ /* Error: Ran out of types for this method. */;
+- (void)hP8;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;

@@ -5,6 +5,5 @@
 //
 
 @protocol CKPluginPlaybackManagerDelegate
-- (void)ailable;
 @end
 

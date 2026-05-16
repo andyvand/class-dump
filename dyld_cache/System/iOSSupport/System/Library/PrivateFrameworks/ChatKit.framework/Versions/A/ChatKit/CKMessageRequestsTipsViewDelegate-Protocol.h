@@ -5,6 +5,5 @@
 //
 
 @protocol CKMessageRequestsTipsViewDelegate
-- (void);
 @end
 

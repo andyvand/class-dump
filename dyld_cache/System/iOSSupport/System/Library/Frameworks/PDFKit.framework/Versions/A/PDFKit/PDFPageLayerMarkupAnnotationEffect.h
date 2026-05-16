@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)CNContactProperty"24;
+- (void);
 - (id);
-- (void)`;
-- (id)stem/Library/PrivateFrameworks/IDSKVStore.framework/Versions/A/IDSKVStore;
+- (void);
+- (id);
 - (void);
 
 @end

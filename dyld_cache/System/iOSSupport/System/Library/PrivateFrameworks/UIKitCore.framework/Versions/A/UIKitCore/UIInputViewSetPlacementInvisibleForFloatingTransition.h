@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id),&,N,V_sourceItem;
++ (id);
 - (_Bool);
+- (id);
 - (_Bool);
-- (_Bool)¾;
-- (id)W^;
+- (_Bool)¨;
 
 @end
 

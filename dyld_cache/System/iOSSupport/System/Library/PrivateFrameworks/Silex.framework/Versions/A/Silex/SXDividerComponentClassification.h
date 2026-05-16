@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (int)T÷;
++ (int);
 - (unsigned long long);
 
 @end

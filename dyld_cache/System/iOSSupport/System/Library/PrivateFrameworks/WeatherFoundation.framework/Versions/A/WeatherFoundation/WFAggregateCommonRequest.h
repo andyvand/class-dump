@@ -20,24 +20,25 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (int);
+- (void);
 - (id);
 - (CDUnknownBlockType);
-- (id){presenter:%s} /* Error: Ran out of types for this method. */;
-- (int)l;
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

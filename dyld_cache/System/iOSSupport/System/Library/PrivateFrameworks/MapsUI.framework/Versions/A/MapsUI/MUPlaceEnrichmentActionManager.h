@@ -68,9 +68,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)ider>";
+- (void);
+- (void)UnitsStringFromDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MUAMSResultProvider *amsResultProvider; // @synthesize amsResultProvider=_amsResultProvider;

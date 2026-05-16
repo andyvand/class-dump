@@ -43,10 +43,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)Ðóòï;
+- (id);
+- (void)extControlItem;
+- (void)ogrammable switch characteristic! ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

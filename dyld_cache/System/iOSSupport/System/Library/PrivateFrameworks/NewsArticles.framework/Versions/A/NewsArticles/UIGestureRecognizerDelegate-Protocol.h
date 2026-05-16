@@ -7,7 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool);
-- (_Bool)cles012RecipeViewerC13RepresentableP;
+- (_Bool)barVisibilityAnimator;
 @end
 

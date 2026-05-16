@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)nt:(_Bool)arg1 accountStore:reason:completion: /* Error: Ran out of types for this method. */;
-- (void)+;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)R;
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -50,18 +50,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)c;
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (double);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)ackages | removing database package [] url=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(nonatomic) long long equivalencySourceAdamID; // @synthesize equivalencySourceAdamID=_equivalencySourceAdamID;

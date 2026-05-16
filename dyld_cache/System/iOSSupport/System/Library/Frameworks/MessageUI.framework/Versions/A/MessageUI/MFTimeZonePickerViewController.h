@@ -24,14 +24,14 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)leDescriptor:(id)arg1 ];
 - (void);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

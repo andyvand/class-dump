@@ -7,10 +7,10 @@
 @class CABasicAnimation, CAMediaTimingFunction;
 
 @protocol _UIBasicAnimationFactory
-- (CABasicAnimation *)8àº;
+- (CABasicAnimation *)GG_Qo_GGAXG_Qo_GAGGGG;
 
 @optional
-- (CAMediaTimingFunction *)ID key not provided in extension context;
-- (_Bool)éÚ½üYGÿÙÚ½ ãîÿñÚ½´ãîÿÙÚ½L¥ÿÙÚ½n¦ÿ±Ú½n¦ÿ;
+- (CAMediaTimingFunction *)__±I\ySnySiGSi#Ü\yAByAByAByACyAAyABy{;
+- (_Bool)ì	;
 @end
 

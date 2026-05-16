@@ -40,9 +40,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)ce motion event onto main queue;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

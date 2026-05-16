@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKWebView, WKWebViewConfiguration;
-
 @protocol WKUIDelegate
-
-@optional
-- (void);
-- (void);
-- (void)R;
-- (WKWebView *)an:(WKWebView *)arg1 withEvent:(WKWebViewConfiguration *)arg2;
 @end
 

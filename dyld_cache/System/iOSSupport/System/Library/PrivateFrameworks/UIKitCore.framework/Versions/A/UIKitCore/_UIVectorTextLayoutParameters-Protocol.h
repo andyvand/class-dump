@@ -7,9 +7,10 @@
 @class NSAttributedString, UITraitCollection;
 
 @protocol _UIVectorTextLayoutParameters
-- (NSAttributedString *)!Aù1É°1¢!0@ù
-× ;
-- (UITraitCollection *)nteractionVariantSpec;
+- (NSAttributedString *): /* Error: Ran out of types for this method. */;
+- (long long)cessibilityBackgroundLandscape.png;
+- (UITraitCollection *)NSIntegerTraitP;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedText;

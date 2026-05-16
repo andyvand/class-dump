@@ -27,35 +27,35 @@ __attribute__((visibility("hidden")))
     struct CGRect _boundingBox;
 }
 
-+ (id)tly {%@}.;
++ (id);
 - (struct CGRect);
 - (id);
-- (_Bool)R;
+- (_Bool);
 - (id);
-- (void)"NSArray"24;
-- (void)24C32@"NSString"36;
-- (void)String"16@"NSString"24@"NSString"32C40@"NSString"44B52;
-- (void)0@0:(id)arg1 8@"IMDRelayPushHandler"16@"NSDictionary"24@"NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72;
-- (void)(;
-- (void);
-- (void)pT;
 - (void);
 - (void);
-- (id);
-- (void)idated for PID %d;
-- (id);
-- (void)SMSService;
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool)a(a!@b;
 - (void);
-- (struct CGRect)tClickAtLocation: /* Error: Ran out of types for this method. */;
-- (id)FBSDisplayDidPossiblyConnect:withScene: /* Error: Ran out of types for this method. */;
-- (id)À·;
-- (id)OutInteractive;
-- (id)¬áþ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (struct CGRect);
+- (_Bool)cationProxy;
+- (id)nBecomeFirstResponder;
+- (id);
+- (id)@?0;
+- (void)Ç[;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;

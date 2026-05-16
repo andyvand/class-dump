@@ -5,8 +5,5 @@
 //
 
 @protocol SMInitiatorSessionConfigurationProtocol
-
-@optional
-- (void);
 @end
 

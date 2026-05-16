@@ -59,9 +59,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ltNetworkVersion:(long long)arg1;
 
 // Remaining properties
 @property long long effectQuality;

@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)£p7G;
-- (void)@;
+- (void)nName:object: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

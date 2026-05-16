@@ -16,17 +16,15 @@ __attribute__((visibility("hidden")))
     _Bool _allowsOverdamping;
 }
 
-+ (void);
-+ (id)ntColorTransformer;
-+ (id)ht:(id)arg1;
-+ (void)#;
++ (id);
++ (id);
++ (void)nt;
++ (void)N,S_setAdditionalMinimumTopInset:(double)arg1 ,V__additionalMinimumTopInset;
+- (void);
 - (id);
 - (void);
-- (void)0@ù
-× ;
-- (void)0@ù
-× ;
-- (id);
+- (void);
+- (id)ce && appBundleId);
 
 @end
 

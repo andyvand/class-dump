@@ -27,12 +27,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)it is possible that the host has changed.
+
+The host key's fingerprint is %@.
+
+Are you sure you want to continue connecting?;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *notes; // @synthesize notes=_notes;

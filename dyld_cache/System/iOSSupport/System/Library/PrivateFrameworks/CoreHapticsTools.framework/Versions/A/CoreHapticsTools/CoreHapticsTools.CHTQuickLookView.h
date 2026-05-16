@@ -69,11 +69,11 @@
     MISSING_TYPE *maxLabelWidth;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 
 @end
 

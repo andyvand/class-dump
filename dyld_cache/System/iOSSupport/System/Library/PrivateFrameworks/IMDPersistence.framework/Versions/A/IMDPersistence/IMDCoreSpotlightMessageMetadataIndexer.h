@@ -12,6 +12,7 @@
 {
 }
 
++ (unsigned long long);
 + (_Bool);
 + (void);
 + (_Bool);

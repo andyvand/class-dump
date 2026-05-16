@@ -16,11 +16,12 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (long long);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)1B50@ù
+× ;
+- (void)!;
 
 // Remaining properties
 @property(nonatomic) _Bool oneWay; // @synthesize oneWay=_oneWay;

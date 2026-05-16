@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (id)2@0:(CDUnknownBlockType)arg1 8@"WebView"16@"WebScriptObject"24;
-- (_Bool)llerSceneContext";
+- (_Bool);
+- (id);
+- (void)øÄ\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType tapHandler; // @synthesize tapHandler=_tapHandler;

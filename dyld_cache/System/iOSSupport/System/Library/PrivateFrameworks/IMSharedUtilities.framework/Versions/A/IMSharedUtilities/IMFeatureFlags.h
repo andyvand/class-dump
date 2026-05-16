@@ -7,13 +7,14 @@
 @interface IMFeatureFlags
 {
     _Bool _tapbackInferenceEnabled;
+    _Bool _searchTokensEnabled;
 }
 
 + (_Bool);
 + (void);
-+ (void);
++ (void);
 + (id);
-+ (id);
++ (id)lator.languages result has a dominantLocale:%{bool}d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,7 +50,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,8 +71,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -88,7 +86,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -109,11 +106,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool));
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)I;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -121,7 +115,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -156,21 +149,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -211,10 +189,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -231,18 +209,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -255,10 +221,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAVLessSharePlayEnabled) _Bool AVLessSharePlayEnabled;
 @property(readonly, nonatomic, getter=isBIAEnabled) _Bool BIAEnabled;
+@property(readonly, nonatomic, getter=isCKVPolicyEngineEnabled) _Bool CKVPolicyEngineEnabled;
 @property(readonly, nonatomic, getter=isGFTOnWatchEnabled) _Bool GFTOnWatchEnabled;
 @property(readonly, nonatomic, getter=isNSXPCSetupInfoEnabled) _Bool NSXPCSetupInfoEnabled;
 @property(readonly, nonatomic, getter=isSWYAttachmentsEnabled) _Bool SWYAttachmentsEnabled;
@@ -267,6 +240,7 @@
 @property(readonly, nonatomic, getter=isAllowU18SnapAssetsEnabled) _Bool allowU18SnapAssets;
 @property(readonly, nonatomic, getter=isAllowU18SnapWatchAssetsEnabled) _Bool allowU18SnapWatchAssets;
 @property(readonly, nonatomic, getter=isAlwaysShowStickerDropUIEnabled) _Bool alwaysShowStickerDropUIEnabled;
+@property(readonly, nonatomic, getter=isAppIntentDonationEnabled) _Bool appIntentDonationEnabled;
 @property(readonly, nonatomic, getter=arePreResolvedSiriMatchesEnabled) _Bool arePreResolvedSiriMatchesEnabled;
 @property(readonly, nonatomic, getter=isAutomaticIncomingTranslationEnabled) _Bool automaticIncomingTranslationEnabled;
 @property(readonly, nonatomic, getter=isAutomaticOutgoingTranslationEnabled) _Bool automaticOutgoingTranslationEnabled;
@@ -274,13 +248,8 @@
 @property(readonly, nonatomic, getter=isBackgroundMessagingAPIEnabled) _Bool backgroundMessagingAPIEnabled;
 @property(readonly, nonatomic, getter=isBalloonMaterialsEnabled) _Bool balloonMaterialsEnabled;
 @property(readonly, nonatomic, getter=isBatchDeliveryEnabled) _Bool batchDeliveryEnabled;
-@property(readonly, nonatomic, getter=isBGSTMessageProcessingEnabled) _Bool bgstMessageProcessingEnabled;
-@property(readonly, nonatomic, getter=isBizChatBlastDoorEnabled) _Bool bizChatBlastDoorEnabled;
-@property(readonly, nonatomic, getter=isCAShapeLayerBalloonsEnabled) _Bool caShapeLayerBalloonsEnabled;
-@property(readonly, nonatomic, getter=isCarPlayPinnedConversationsToggleEnabled) _Bool carPlayPinnedConversationsToggleEnabled;
 @property(readonly, nonatomic, getter=isCarPlaySummaryEnabled) _Bool carplaySummaryEnabled;
 @property(readonly, nonatomic, getter=isCarrierPigeonEnabled) _Bool carrierPigeonEnabled;
-@property(readonly, nonatomic, getter=isCatchUpEnabled) _Bool catchUpEnabled;
 @property(readonly, nonatomic, getter=isCategorizationEnabled) _Bool categorizationEnabled;
 @property(readonly, nonatomic, getter=isCertainRegionsRequireKnownChatForNicknames) _Bool certainRegionsRequireKnownChatForNicknames;
 @property(readonly, nonatomic, getter=isChatSNAPOnboardingBannerEnabled) _Bool chatSNAPOnboardingBannerEnabled;
@@ -302,6 +271,7 @@
 @property(readonly, nonatomic, getter=isEmojiTapbacksEnabled) _Bool emojiTapbacksEnabled;
 @property(readonly, nonatomic, getter=isEnhancedFromPickerEnabled) _Bool enhancedFromPickerEnabled;
 @property(readonly, nonatomic, getter=isEnhancedReadReceiptProcessingEnabled) _Bool enhancedReadReceiptsEnabled;
+@property(readonly, nonatomic, getter=isEntryViewEmptyActionEnabled) _Bool entryViewEmptyActionEnabled;
 @property(readonly, nonatomic, getter=isEntryViewInTranscriptEnabled) _Bool entryViewInTranscriptEnabled;
 @property(readonly, nonatomic, getter=isEntryViewRefreshEnabled) _Bool entryViewRefreshEnabled;
 @property(readonly, nonatomic, getter=isEntryViewUsesKeyboardLayoutGuideEnabled) _Bool entryViewUsesKeyboardLayoutGuideEnabled;
@@ -309,6 +279,7 @@
 @property(readonly, nonatomic, getter=isFindMyLocateSessionEnabled) _Bool findMyLocateSessionEnabled;
 @property(readonly, nonatomic, getter=isFindMyNavBarEnabled) _Bool findMyNavBar;
 @property(readonly, nonatomic, getter=isFluidTransitioningEnabled) _Bool fluidTransitioningEnabled;
+@property(readonly, nonatomic, getter=isFringeDetectionEnabled) _Bool fringeDetectionEnabled;
 @property(readonly, nonatomic, getter=isFromPickerEnabledForAll) _Bool fromPickerEnabledForAll;
 @property(readonly, nonatomic) _Bool fullTranscriptLoggingEnabled;
 @property(readonly, nonatomic, getter=isGelatoAsyncSendingEnabled) _Bool gelatoAsyncSendingEnabled;
@@ -317,13 +288,9 @@
 @property(readonly, nonatomic) _Bool generativeModelsAvailable;
 @property(readonly, nonatomic, getter=isGlitterBackgroundEnabled) _Bool glitterBackgroundEnabled;
 @property(readonly, nonatomic, getter=isGroupNameAndPhotoDisabledInCertainRegions) _Bool groupNameAndPhotoDisabledInCertainRegions;
-@property(readonly, nonatomic, getter=isGroupTypingIndicatorsEnabled) _Bool groupTypingIndicatorsEnabled;
 @property(readonly, nonatomic, getter=isHighQualityPhotosEnabled) _Bool highQualityPhotosEnabled;
 @property(readonly, nonatomic, getter=isIMLLegacyRelayEnabled) _Bool iMLLegacyRelayEnabled;
-@property(readonly, nonatomic, getter=isLQMImageQualityEstimatorEnabled) _Bool imageQualityEstimatorEnabled;
-@property(readonly, nonatomic, getter=isInboxSummaryEnabled) _Bool inboxSummaryEnabled;
 @property(readonly, nonatomic, getter=isInlineTapbackMenuEnabled) _Bool inlineTapbackMenuEnabled;
-@property(readonly, nonatomic, getter=isIntensiveSpotlightCPUEnabled) _Bool intensiveSpotlightCPUEnabled;
 @property(readonly, nonatomic, getter=isIntensiveSpotlightDiskEnabled) _Bool intensiveSpotlightDiskEnabled;
 @property(readonly, nonatomic, getter=isIntensiveSpotlightMemoryEnabled) _Bool intensiveSpotlightMemoryEnabled;
 @property(readonly, nonatomic, getter=isIntroductionsEnabled) _Bool introductionsEnabled;
@@ -334,7 +301,7 @@
 @property(readonly, nonatomic, getter=isKeyTransparencyCKVBlockSignOutAppleIDEnabled) _Bool keyTransparencyCKVBlockSignOutAppleIDEnabled;
 @property(readonly, nonatomic, getter=isKeyTransparencyEnabled) _Bool keyTransparencyEnabled;
 @property(readonly, nonatomic, getter=isKeyTransparencyReportToAppleEnabled) _Bool keyTransparencyReportToAppleEnabled;
-@property(readonly, nonatomic, getter=isLQMHQEnabled) _Bool lqmHqEnabled;
+@property(readonly, nonatomic, getter=isLocalMergingEnabled) _Bool localMergingEnabled;
 @property(readonly, nonatomic) _Bool macApplicationMetricsGatheringEnabled;
 @property(readonly, nonatomic, getter=isMacSendMenuGenmojiEnabled) _Bool macSendMenuGenmojiEnabled;
 @property(readonly, nonatomic) _Bool macToolbarEnabled;
@@ -348,7 +315,6 @@
 @property(readonly, nonatomic) _Bool micGroupPhotoEnabled;
 @property(readonly, nonatomic, getter=isMissingMessagesEnabled) _Bool missingMessagesEnabled;
 @property(readonly, nonatomic, getter=isModernDetailsViewEnabled) _Bool modernDetailsViewEnabled;
-@property(readonly, nonatomic, getter=isModernFilteringEnabled) _Bool modernFilteringEnabled;
 @property(readonly, nonatomic, getter=isModernMentionsAndEmojiAnimationsEnabled) _Bool modernMentionsAndEmojiAnimationsEnabled;
 @property(readonly, nonatomic, getter=isModernPersistenceXPCEnabled) _Bool modernPersistenceXPCEnabled;
 @property(readonly, nonatomic, getter=isModernScreenSharingEnabled) _Bool modernScreenSharingEnabled;
@@ -358,18 +324,14 @@
 @property(readonly, nonatomic, getter=isOneChatEnabled) _Bool oneChatEnabled;
 @property(readonly, nonatomic, getter=isOOPKeyboardEnabled) _Bool oopKeyboardEnabled;
 @property(readonly, nonatomic, getter=isPersistentTaskNotificationsEnabled) _Bool persistentTaskNotificationsEnabled;
-@property(readonly, nonatomic, getter=isPhotoBackgroundKeyboardInteractionEnabled) _Bool photoBackgroundKeyboardInteractionEnabled;
 @property(readonly, nonatomic, getter=isPinActionEnabled) _Bool pinActionEnabled;
 @property(readonly, nonatomic, getter=isPinnedConversationOnWatchEnabled) _Bool pinnedConversationOnWatchEnabled;
-@property(readonly, nonatomic, getter=isPollsEnabled) _Bool pollsEnabled;
 @property(readonly, nonatomic, getter=isPopoverSendMenuEnabled) _Bool popoverSendMenuEnabled;
 @property(readonly, nonatomic, getter=isPriorityMessagesEnabled) _Bool priorityMessagesEnabled;
 @property(readonly, nonatomic, getter=isQuickRepliesEnabled) _Bool quickRepliesEnabled;
 @property(readonly, nonatomic, getter=isLazuliEnabled) _Bool rcsEnabled;
 @property(readonly, nonatomic, getter=isRCSEncryptionEnabled) _Bool rcsEncryptionEnabled;
 @property(readonly, nonatomic, getter=isRCSEncryptionOptInTestEnabled) _Bool rcsEncryptionOptInTestEnabled;
-@property(readonly, nonatomic, getter=isReactWithAStickerEnabled) _Bool reactWithAStickerEnabled;
-@property(readonly, nonatomic, getter=isReadMMSDefaultFromCBEnabled) _Bool readMMSDefaultFromCBEnabled;
 @property(readonly, nonatomic, getter=isRedesignedDetailsViewEnabled) _Bool redesignedDetailsViewEnabled;
 @property(readonly, nonatomic, getter=isNicknamesDisabledInCertainRegionsEnabled) _Bool regionBasedSnapEnabled;
 @property(readonly, nonatomic, getter=isRelayChatBotEnabled) _Bool relayChatBotEnabled;
@@ -383,7 +345,7 @@
 @property(readonly, nonatomic, getter=isSatelliteRelayEnabled) _Bool satelliteRelayEnabled;
 @property(readonly, nonatomic, getter=isSearchImprovementsEnabled) _Bool searchImprovementsEnabled;
 @property(readonly, nonatomic, getter=isSearchRefreshEnabled) _Bool searchRefreshEnabled;
-@property(readonly, nonatomic, getter=isSearchTokensEnabled) _Bool searchTokensEnabled;
+@property(readonly, nonatomic, getter=isSearchTokensEnabled) _Bool searchTokensEnabled; // @synthesize searchTokensEnabled=_searchTokensEnabled;
 @property(readonly, nonatomic, getter=isSearchTokensForDatesEnabled) _Bool searchTokensForDatesEnabled;
 @property(readonly, nonatomic, getter=isSemanticSearchEnabled) _Bool semanticSearchEnabled;
 @property(readonly, nonatomic, getter=isSemanticSearchRankingEnabled) _Bool semanticSearchRankingEnabled;
@@ -396,12 +358,9 @@
 @property(readonly, nonatomic) _Bool showTapToRadarMessagesApp;
 @property(readonly, nonatomic, getter=isSMSFilterEnabledForUK) _Bool smsFilterForUK;
 @property(readonly, nonatomic, getter=isSMSFilterEnabledForUS) _Bool smsFilterForUS;
-@property(readonly, nonatomic, getter=isSMSForwardingEnabled) _Bool smsForwardingEnabled;
 @property(readonly, nonatomic, getter=isSpotlightClientStateEnabled) _Bool spotlightClientStateEnabled;
 @property(readonly, nonatomic, getter=isSpotlightDaemonDelegateEnabled) _Bool spotlightDaemonDelegateEnabled;
 @property(readonly, nonatomic, getter=isSpotlightInternalIndexingUIEnabled) _Bool spotlightInternalIndexingUIEnabled;
-@property(readonly, nonatomic, getter=isSpotlightRefactorEnabled) _Bool spotlightRefactorEnabled;
-@property(readonly, nonatomic, getter=isSpotlightReindexRefactorEnabled) _Bool spotlightReindexRefactorEnabled;
 @property(readonly, nonatomic, getter=isStaticTextEffectMenusEnabled) _Bool staticTextEffectMenusEnabled;
 @property(readonly, nonatomic) _Bool stewieEnabled;
 @property(readonly, nonatomic, getter=isStickerRepositioningEnabled) _Bool stickerRepositioningEnabled;
@@ -411,17 +370,14 @@
 @property(nonatomic) _Bool summarizationUserPreferenceEnabled;
 @property(readonly, nonatomic, getter=isSwiftUIAvatarRenderingEnabled) _Bool swiftUIAvatarRenderingEnabled;
 @property(readonly, nonatomic, getter=isSwiftUIBalloonsEnabled) _Bool swiftUIBalloonsEnabled;
-@property(readonly, nonatomic, getter=isSwipeToReplyEnabled) _Bool swipeToReplyEnabled;
-@property(readonly, nonatomic, getter=isSwipeToReplyOnWatchEnabled) _Bool swipeToReplyOnWatchEnabled;
 @property(readonly, nonatomic, getter=isTapbackInferenceEnabled) _Bool tapbackInferenceEnabled; // @synthesize tapbackInferenceEnabled=_tapbackInferenceEnabled;
 @property(readonly, nonatomic, getter=isTapbacksRefreshEnabled) _Bool tapbacksRefresh;
-@property(readonly, nonatomic, getter=isTextAccessFor3rdPartyEnabled) _Bool textAccessFor3rdPartyEnabled;
 @property(readonly, nonatomic, getter=isTextSelectionEnabled) _Bool textSelectionEnabled;
 @property(readonly, nonatomic) _Bool threeAttachmentStackEnabled;
 @property(readonly, nonatomic, getter=isTranscriptBackgroundsEnabled) _Bool transcriptBackgroundsEnabled;
-@property(readonly, nonatomic, getter=isTranscriptBackgroundsMicEnabled) _Bool transcriptBackgroundsMicEnabled;
 @property(readonly, nonatomic, getter=isTranscriptPortalEnabled) _Bool transcriptPortalEnabled;
 @property(readonly, nonatomic, getter=isTranscriptSharingEnabled) _Bool transcriptSharingEnabled;
+@property(readonly, nonatomic, getter=isTranslationReportAConcernEnabled) _Bool translationReportAConcernEnabled;
 @property(readonly, nonatomic, getter=isTrustKitRCSSpamReportingEnabled) _Bool trustKitRCSSpamReportingEnabled;
 @property(readonly, nonatomic, getter=isUnitTestableFeatureEnabled) _Bool unitTestableFeatureEnabled;
 @property(readonly, nonatomic, getter=isUnitTestableFeatureForNewPlatformEnabled) _Bool unitTestableFeatureForNewPlatformEnabled;

@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)ain thread;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

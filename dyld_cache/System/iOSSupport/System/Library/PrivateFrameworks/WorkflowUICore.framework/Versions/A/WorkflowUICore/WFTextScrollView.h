@@ -22,22 +22,22 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
+- (id);
+- (struct _NSRange);
+- (void);
+- (void)@"UIMenu"32@0:(struct _NSRange)arg1 8@"UITextRange"16@"NSArray"24;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct _NSRange)SgGGAByAAyAAyÌÛ³ADGAFGAAyAAyÃÛ³AHyÃÛ³GGAFGGGïyAByÎAXGGGjÿÿG;
-- (void)öÿX¹;
 
 // Remaining properties
 @property(nonatomic, getter=isAdjustmentEnabled) _Bool adjustmentEnabled; // @synthesize adjustmentEnabled=_adjustmentEnabled;

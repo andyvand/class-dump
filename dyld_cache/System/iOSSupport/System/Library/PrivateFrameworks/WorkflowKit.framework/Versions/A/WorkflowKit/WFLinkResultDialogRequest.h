@@ -14,16 +14,16 @@
     id <LNDialogResult> _catResult;
 }
 
-+ (_Bool)The stroke width, in points, to apply to the text. Optional.;
++ (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)lowKit70;
+- (void)sed into the action to your Pinboard.;
 
 // Remaining properties
 @property(retain, nonatomic) id <LNDialogResult> catResult; // @synthesize catResult=_catResult;

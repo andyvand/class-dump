@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)^UúÔ^N0ä^àù_ù_ÀÑ%_øZ_dh_1x_Ö_ù¤_´_;
++ (id)ÿjÿ;
 - (id);
-- (_Bool);
-- (id)`;
 - (void);
 - (id);
-- (Class);
-- (id)_size_"Q}}};
-- (long long);
+- (Class);
+- (_Bool);
+- (id);
+- (id);
+- (long long)Subnormal;
 
 @end
 

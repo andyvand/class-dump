@@ -14,15 +14,17 @@
     NSString *_guestName;
 }
 
-+ (id)h9;
-+ (_Bool)-8000-0026BB765291;
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -30,10 +32,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)\Õ××ÜÛ;
-- (id)have non number setting. Need to handle that. %@;
-- (id)ÿ;
+- (void)stem payload in response:%@ /* Error: Ran out of types for this method. */;
+- (id)cteristicInstanceID;
 
 // Remaining properties
 @property(readonly, copy) HMAccessoryAccessCodeValue *accessoryAccessCodeValue; // @synthesize accessoryAccessCodeValue=_accessoryAccessCodeValue;

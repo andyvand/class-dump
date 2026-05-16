@@ -22,10 +22,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CLKClockComplicationCountSet *homeScreenComplicationCountSet; // @synthesize homeScreenComplicationCountSet=_homeScreenComplicationCountSet;

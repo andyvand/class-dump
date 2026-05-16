@@ -5,7 +5,5 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void)FErrorRef))_block_invoke;
-- (double)delGenericObject"8;
 @end
 

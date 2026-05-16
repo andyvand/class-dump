@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)t-oauth-v1:///authorize?request_token=%@&redirect_uri=%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *experts; // @synthesize experts=_experts;

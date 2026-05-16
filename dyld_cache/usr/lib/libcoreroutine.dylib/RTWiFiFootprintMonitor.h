@@ -26,22 +26,21 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)EIKEv2ConfigurationDelegate>";
 - (id);
-- (void)Cache appInfoForPid:(id)arg1 UUID:bundleID:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)e}@, polygon centroid, %@, error, %@;
-- (void)B@b5Ð[^À=
-×£pV@vËªB@BË>¸P^ÀR¸ë}v@¹ÝË}¨B@°WXp?^ÀAµmä?;
+- (void);
+- (id)ementMonitorNotification:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)xSessionState;
+- (void)oc,%{sensitive}@,tripSeq,%d,tripSeqMax,%d;
+- (void)cted transition, it should have never happened;
+- (void)ying:(id)arg1 durationTrigger (in %s:(id)arg2 %d);
 
 // Remaining properties
 @property(nonatomic) long long footprintState; // @synthesize footprintState=_footprintState;

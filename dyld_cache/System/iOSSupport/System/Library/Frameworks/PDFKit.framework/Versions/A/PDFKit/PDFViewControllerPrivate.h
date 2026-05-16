@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     _Bool didPostPDFExtensionViewAnnotationLongPress;
 }
 
-- (void)uateWeight: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

@@ -13,13 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (_Bool)
-× ;
-- (_Bool)¢!0@ù
-× ;
-- (void)vertRect:(struct CATransform3D)arg1 fromView: /* Error: Ran out of types for this method. */;
-- (void)objects is nil.;
+- (_Bool)imaryContentFrame:layoutAxis:supplementaryFrames:preferredSizes:layoutRTL:supplementaryKind: /* Error: Ran out of types for this method. */;
+- (void)ndVisualEffect;
+- (void)_setTargetRectView:(struct CATransform3D)arg1 ,V_targetRectView;
+- (void)ä;
+- (_Bool)|88: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isCounterTransformLayer) _Bool counterTransformLayer; // @synthesize counterTransformLayer=_counterTransformLayer;

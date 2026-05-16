@@ -5,9 +5,5 @@
 //
 
 @protocol CKBrowserViewControllerStoreSendDelegate
-- (void)Cyk?;
-
-@optional
-- (void)ddedExtraNewlineRanges;
 @end
 

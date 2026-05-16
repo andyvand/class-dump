@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview;
+@class NSIndexPath, UICollectionView;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (UITargetedPreview *);
-- (UIContextMenuConfiguration *);
-- (void)i;
-- (void);
-- (_Bool);
-- (UITargetedPreview *)ptions:(UICollectionView *)arg1 error:(UIContextMenuConfiguration *)arg2;
-- (void)°Óÿÿÿÿÿ°;
-- (_Bool)æ1ýÿ;
-- (UICollectionViewTransitionLayout *)Ó!ÿÿ;
-- (NSIndexPath *)¬ýÿ|ãïÿ<¥;
-- (NSIndexPath *)¤wÚÿ½;
-- (_Bool);
-- (void)SCardView;
-- (_Bool)n\OËÿ;
+- (_Bool)!|Gùz	ð1Â0@ù
+× ;
+- (_Bool)0:(UICollectionView *)arg1 8@"CALayer"16@"NSString"24;
+- (NSIndexPath *);
+- (_Bool);
+- (_Bool)pÿ;
+- (_Bool)<;
+- (_Bool)ONTextEncoder;
 @end
 

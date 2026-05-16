@@ -20,14 +20,14 @@
 }
 
 - (void);
-- (void)aragraphStyleCG;
 - (void);
 - (void);
-- (id) t;
-- (id)ces/NotesFramework/Ironcade/SharedUI/Mac/ICMAlertSheetTouchBarController.m;
-- (void)yWindow) != nil);
-- (id)entation level %lu;
-- (id)e;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,11 +38,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)¢<_SS©l¬ysÙ«GADQo_p¢<_G;
+- (id);
 - (void);
-- (void);
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *animationTimer; // @synthesize animationTimer=_animationTimer;

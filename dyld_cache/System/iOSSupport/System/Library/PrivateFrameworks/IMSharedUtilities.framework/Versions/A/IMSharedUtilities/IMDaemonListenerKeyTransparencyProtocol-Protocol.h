@@ -5,6 +5,5 @@
 //
 
 @protocol IMDaemonListenerKeyTransparencyProtocol
-- (void);
 @end
 

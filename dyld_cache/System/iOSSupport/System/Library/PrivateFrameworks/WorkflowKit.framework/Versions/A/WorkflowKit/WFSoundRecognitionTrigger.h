@@ -14,13 +14,13 @@
 }
 
 + (id);
-+ (_Bool)tServices;
-+ (double)«À¸Ì;
-+ (id);
++ (_Bool);
++ (double);
++ (id);
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool)ecified draft in Drafts and allows you to run a Drafts action on it.;
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *soundDetectionTypes; // @synthesize soundDetectionTypes=_soundDetectionTypes;

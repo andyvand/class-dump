@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol MTLBinding
-- (NSString *);
+- (_Bool);
 
 // Remaining properties
 @property(readonly) unsigned long long access;

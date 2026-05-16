@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)ics:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)-message-remote-read;
-+ (_Bool);
-+ (id)sForImageElement:withTargetURL:suggestedActions: /* Error: Ran out of types for this method. */;
-+ (id)g;
-+ (long long)Ie;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)ve been cleaned up in prepareForSwipeDirection:%@ /* Error: Ran out of types for this method. */;
++ (long long)ÄôÑ´Ûf;
 
 @end
 

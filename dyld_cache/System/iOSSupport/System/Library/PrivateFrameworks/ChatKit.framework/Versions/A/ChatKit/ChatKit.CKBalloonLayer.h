@@ -20,27 +20,30 @@
 
 - (void);
 - (struct UIEdgeInsets);
-- (void)dFontForBodyText;
-- (void)rkerAccessibilityColorForColor:(struct CGRect)arg1;
-- (void)Origin:(_Bool)arg1;
-- (void)ndler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)tring"8;
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (struct CGRect);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)hatGUID:deviceIndependentID:backgroundGUID:posterConfiguration:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)Â0@ù
+× ;
+- (void)ù
+× ;
+- (void)!PEù°1Â0@ù
+× ;
+- (void)rentConversationsManager;
+- (void)gIndication;
+- (id):(id)arg1 xú.;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKBalloonViewAnimationDelegate> animationDelegate; // @synthesize animationDelegate;

@@ -30,12 +30,14 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void)áªý{C©ôOB©öWA©ø_Ä¨ÿ_Öàª;
-- (unsigned long long);
-- (void);
+- (void)±ø°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PKAccount *account; // @synthesize account=_account;

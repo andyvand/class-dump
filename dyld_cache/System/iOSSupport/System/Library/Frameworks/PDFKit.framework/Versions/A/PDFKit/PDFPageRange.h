@@ -13,13 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (_Bool);
-- (void)ghtConstraint;
 - (id);
-- (id)mer: /* Error: Ran out of types for this method. */;
+- (id);
 - (struct _NSRange);
-- (void)sPVRFile:(id)arg1 data] && "This function should not be reachable.";
+- (_Bool);
+- (void);
+- (void);
+- (void)Q	°!0DùqvÐ1Â0@ù
+× ;
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (struct CGPoint);
 - (id);
+- (struct CGPoint);
 
 @end
 

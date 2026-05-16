@@ -24,23 +24,23 @@
 + (id);
 + (id);
 + (id);
-+ (id)T;
 + (id);
-+ (id))=;
++ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (double);
-- (void);
 - (unsigned long long);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (id)N,V_isPointOfInterest;
+- (id)_;
+- (id)8*;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPAudio *audio; // @synthesize audio=_audio;

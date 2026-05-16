@@ -75,271 +75,272 @@
 - (double);
 - (void);
 - (void);
-- (MISSING_TYPE *);
-- (float);
 - (void);
-- (void *);
 - (id);
 - (void);
-- (void)êÿDêÿêÿêÿêÿ êÿDêÿPêÿ\êÿêÿ¤êÿ°êÿ¼êÿÔêÿøêÿêÿXêÿ|êÿtêÿêÿêÿêÿ¤êÿ°êÿ¼êÿÈêÿÔêÿøêÿêÿ(êÿ4êÿ@êÿXêÿ|êÿ êÿÔêÿêÿ4êÿØêÿäêÿðêÿêÿ8êÿTêÿêÿÄêÿèêÿôêÿ;
+- (float);
+- (float);
+- (id);
+- (MISSING_TYPE *);
 - (void);
-- (float)& 2) != 0) {
-        sWeights[1] -= sWeights[3];
-        sWeights[2] += 2*sWeights[3];
-        sWeights[3] = 0;
-    }
-    if ((boundary & 4) != 0) {
-        tWeights[1] -= tWeights[3];
-        tWeights[2] += 2*tWeights[3];
-        tWeights[3] = 0;
-    }
-    if ((boundary & 8) != 0) {
-        sWeights[2] -= sWeights[0];
-        sWeights[1] += 2*sWeights[0];
-        sWeights[0] = 0;
-    }
-}
+- (void *);
+- (void)ÁQ°!èFùð1â
+0@ù
+× ;
+- (void)entumPhase;
+- (void)unctionConstantIndex) ]];
 
-OSD_FUNCTION_STORAGE_CLASS
-void OsdComputeTensorProductPatchWeights(float dScale, int boundary,
-    OSD_TYPE_ARRAY(float, sWeights, 4), OSD_TYPE_ARRAY(float, tWeights, 4),
-    OSD_TYPE_ARRAY(float, dsWeights, 4), OSD_TYPE_ARRAY(float, dtWeights, 4),
-    OSD_TYPE_ARRAY(float, dssWeights, 4), OSD_TYPE_ARRAY(float, dttWeights, 4),
-    OSD_TYPE_ARRAY(OSD_OUT float, wP, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 16),
-    OSD_TYPE_ARRAY(OSD_OUT float, wDss, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 16)) {
+constant short positionOffset   [[ function_constant(kOpenSubdivRaytracingVertexPositionOffsetFunctionConstantIndex)  ]];
+constant short normalOffset     [[ function_constant(kOpenSubdivRaytracingVertexNormalOffsetFunctionConstantIndex)    ]];
+constant short texcoord0Offset  [[ function_constant(kOpenSubdivRaytracingVertexTexcoord0OffsetFunctionConstantIndex) ]];
+constant short texcoord1Offset  [[ function_constant(kOpenSubdivRaytracingVertexTexcoord1OffsetFunctionConstantIndex) ]];
+constant short texcoord2Offset  [[ function_constant(kOpenSubdivRaytracingVertexTexcoord2OffsetFunctionConstantIndex) ]];
+constant short texcoord3Offset  [[ function_constant(kOpenSubdivRaytracingVertexTexcoord3OffsetFunctionConstantIndex) ]];
 
-    if (OSD_OPTIONAL(wP)) {
-        // Compute the tensor product weight of the (s,t) basis function
-        // corresponding to each control vertex:OsdAdjustBoundaryWeights(boundary, sWeights, tWeights);
+constant bool generateTexcoord0 [[ function_constant(kOpenSubdivRaytracingGenerateTexcoord0FunctionConstantIndex) ]];
+constant bool generateTexcoord1 [[ function_constant(kOpenSubdivRaytracingGenerateTexcoord1FunctionConstantIndex) ]];
+constant bool generateTexcoord2 [[ function_constant(kOpenSubdivRaytracingGenerateTexcoord2FunctionConstantIndex) ]];
+constant bool generateTexcoord3 [[ function_constant(kOpenSubdivRaytracingGenerateTexcoord3FunctionConstantIndex) ]];
 
-        for (int i = 0; i < 4; ++i) {
-            for (int j = 0; j < 4; ++j) {
-                wP[4*i+j] = sWeights[j] * tWeights[i];
-            }
-        }
-    }
-
-    if (OSD_OPTIONAL(derivS && derivT)) {
-        // Compute the tensor product weight of the differentiated (s,t) basis
-        // function corresponding to each control vertex (scaled accordingly):OsdAdjustBoundaryWeights(boundary, dsWeights, dtWeights);
-
-        for (int i = 0; i < 4; ++i) {
-            for (int j = 0; j < 4; ++j) {
-                wDs[4*i+j] = dsWeights[j] * tWeights[i] * dScale;
-                wDt[4*i+j] = sWeights[j] * dtWeights[i] * dScale;
-            }
-        }
-
-        if (OSD_OPTIONAL(derivSS && derivST && derivTT)) {
-            // Compute the tensor product weight of appropriate differentiated
-            // (s,t) basis functions for each control vertex (scaled accordingly):float d2Scale = dScale * dScale;
-
-            OsdAdjustBoundaryWeights(boundary, dssWeights, dttWeights);
-
-            for (int i = 0; i < 4; ++i) {
-                for (int j = 0; j < 4; ++j) {
-                    wDss[4*i+j] = dssWeights[j] * tWeights[i] * d2Scale;
-                    wDst[4*i+j] = dsWeights[j] * dtWeights[i] * d2Scale;
-                    wDtt[4*i+j] = sWeights[j] * dttWeights[i] * d2Scale;
-                }
-            }
-        }
+static int OsdGetPatchNumControlVertices(int patchType) {
+    switch(patchType) {
+        case 3:(id)arg1 return 4;
+        case 6:(id)arg2 return 16;
+        case 9:return 20;
+        default:return 0;
     }
 }
 
-OSD_FUNCTION_STORAGE_CLASS
-void OsdGetBezierPatchWeights(
-    float s, float t, float dScale,
-    OSD_TYPE_ARRAY(OSD_OUT float, wP, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDS, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDT, 16),
-    OSD_TYPE_ARRAY(OSD_OUT float, wDSS, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDST, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDTT, 16)) {
 
-    float sWeights[4], tWeights[4], dsWeights[4], dtWeights[4], dssWeights[4], dttWeights[4];
 
-    OsdGetBezierWeights(s, OSD_OPTIONAL_INIT(wP, sWeights), OSD_OPTIONAL_INIT(wDS, dsWeights), OSD_OPTIONAL_INIT(wDSS, dssWeights));
-    OsdGetBezierWeights(t, OSD_OPTIONAL_INIT(wP, tWeights), OSD_OPTIONAL_INIT(wDT, dtWeights), OSD_OPTIONAL_INIT(wDTT, dttWeights));
-
-    OsdComputeTensorProductPatchWeights(dScale, /*boundary=*/0, sWeights, tWeights, dsWeights, dtWeights, dssWeights, dttWeights, wP, wDS, wDT, wDSS, wDST, wDTT);
+static void osd_rt_eval_vertex(device float*      dstData,
+                               OsdVertexBufferSet osdBuffers,
+                               uint               patchID,
+                               float2             UV)
+{
+    int3 patchParam = osdBuffers.patchParamBuffer[patchID];
+    device OsdPerPatchVertexBezier *cv = osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH;
+    
+    float3 P, dPu, dPv;
+    float3 N, dNu, dNv;
+    float2 vSegments;
+    
+    OsdEvalPatchBezier(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv, vSegments);
+    
+    *(device packed_float3 *)(dstData + positionOffset) = P;
+    *(device packed_float3 *)(dstData + normalOffset)   = N;
 }
 
-OSD_FUNCTION_STORAGE_CLASS
-void OsdGetBSplinePatchWeights(
-    float s, float t, float dScale, int boundary,
-    OSD_TYPE_ARRAY(OSD_OUT float, wP, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 16),
-    OSD_TYPE_ARRAY(OSD_OUT float, wDss, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 16)) {
 
-    float sWeights[4], tWeights[4], dsWeights[4], dtWeights[4], dssWeights[4], dttWeights[4];
 
-    OsdGetBSplineWeights(s, sWeights, OSD_OPTIONAL_INIT(wDS, dsWeights), OSD_OPTIONAL_INIT(wDSS, dssWeights));
-    OsdGetBSplineWeights(t, tWeights, OSD_OPTIONAL_INIT(wDT, dtWeights), OSD_OPTIONAL_INIT(wDTT, dttWeights));
+#if defined(OSD_FVAR_WIDTH)
 
-    OsdComputeTensorProductPatchWeights(dScale, boundary, sWeights, tWeights, dsWeights, dtWeights, dssWeights, dttWeights, wP, wDs, wDt, wDss, wDst, wDtt);
-}
-
-OSD_FUNCTION_STORAGE_CLASS
-void OsdGetGregoryPatchWeights(
-    float s, float t, float dScale,
-    OSD_TYPE_ARRAY(OSD_OUT float, wP, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 20),
-    OSD_TYPE_ARRAY(OSD_OUT float, wDss, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 20)) {
-
-    //
-    //  P3         e3-      e2+         P2
-    //     15------17-------11--------10
-    //     |        |        |        |
-    //     |        |        |        |
-    //     |        | f3-    | f2+    |
-    //     |       19       13        |
-    // e3+ 16-----18           14-----12 e2-
-    //     |     f3+          f2-     |
-    //     |                          |
-    //     |                          |
-    //     |      f0-         f1+     |
-    // e0- 2------4            8------6 e1+
-    //     |        3        9        |
-    //     |        | f0+    | f1-    |
-    //     |        |        |        |
-    //     |        |        |        |
-    //     O--------1--------7--------5
-    //  P0         e0+      e1-         P1
-    //
-
-    //  Indices of boundary and interior points and their corresponding Bezier points
-    //  (this can be reduced with more direct indexing and unrolling of loops)://
-    OSD_DATA_STORAGE_CLASS const int boundaryGregory[12] = OSD_ARRAY_12(int, 0, 1, 7, 5, 2, 6, 16, 12, 15, 17, 11, 10 );
-    OSD_DATA_STORAGE_CLASS const int boundaryBezSCol[12] = OSD_ARRAY_12(int, 0, 1, 2, 3, 0, 3,  0,  3,  0,  1,  2,  3 );
-    OSD_DATA_STORAGE_CLASS const int boundaryBezTRow[12] = OSD_ARRAY_12(int, 0, 0, 0, 0, 1, 1,  2,  2,  3,  3,  3,  3 );
-
-    OSD_DATA_STORAGE_CLASS const int interiorGregory[8] = OSD_ARRAY_8(int, 3, 4,  8, 9,  13, 14,  18, 19 );
-    OSD_DATA_STORAGE_CLASS const int interiorBezSCol[8] = OSD_ARRAY_8(int, 1, 1,  2, 2,   2,  2,   1,  1 );
-    OSD_DATA_STORAGE_CLASS const int interiorBezTRow[8] = OSD_ARRAY_8(int, 1, 1,  1, 1,   2,  2,   2,  2 );
-
-    //
-    //  Bezier basis functions are denoted with B while the rational multipliers for the
-    //  interior points will be denoted G -- so we have B(s), B(t) and G(s,t)://
-    //  Directional Bezier basis functions B at s and t:float Bs[4], Bds[4], Bdss[4];
-    float Bt[4], Bdt[4], Bdtt[4];
-
-    OsdGetBezierWeights(s, Bs, OSD_OPTIONAL_INIT(wDs, Bds), OSD_OPTIONAL_INIT(wDss, Bdss));
-    OsdGetBezierWeights(t, Bt, OSD_OPTIONAL_INIT(wDt, Bdt), OSD_OPTIONAL_INIT(wDtt, Bdtt));
-
-    //  Rational multipliers G at s and t:float sC = 1.0f - s;
-    float tC = 1.0f - t;
-
-    //  Use <= here to avoid compiler warnings -- the sums should always be non-negative:float df0 = s  + t;   df0 = (df0 <= 0.0f) ? 1.0f :(1.0f / df0);
-    float df1 = sC + t;   df1 = (df1 <= 0.0f) ? 1.0f :(1.0f / df1);
-    float df2 = sC + tC;  df2 = (df2 <= 0.0f) ? 1.0f :(1.0f / df2);
-    float df3 = s  + tC;  df3 = (df3 <= 0.0f) ? 1.0f :(1.0f / df3);
-
-    float G[8] = OSD_ARRAY_8(float, s*df0, t*df0,  t*df1, sC*df1,  sC*df2, tC*df2,  tC*df3, s*df3 );
-
-    //  Combined weights for boundary and interior points:for (int i = 0; i < 12; ++i) {
-        wP[boundaryGregory[i]] = Bs[boundaryBezSCol[i]] * Bt[boundaryBezTRow[i]];
-    }
-    for (int i = 0; i < 8; ++i) {
-        wP[interiorGregory[i]] = Bs[interiorBezSCol[i]] * Bt[interiorBezTRow[i]] * G[i];
-    }
-
-    //
-    //  For derivatives, the basis functions for the interior points are rational and ideally
-    //  require appropriate differentiation, i.e. product rule for the combination of B and G
-    //  and the quotient rule for the rational G itself.  As initially proposed by Loop et al
-    //  though, the approximation using the 16 Bezier points arising from the G(s,t) has
-    //  proved adequate (and is what the GPU shaders use) so we continue to use that here.
-    //
-    //  An implementation of the true derivatives is provided for future reference -- it is
-    //  unclear if the approximations will hold up under surface analysis involving higher
-    //  order differentiation.
-    //
-    if (OSD_OPTIONAL(wDs && wDt)) {
-        bool find_second_partials = OSD_OPTIONAL(wDs && wDst && wDtt);
-        //  Remember to include derivative scaling in all assignments below:float d2Scale = dScale * dScale;
-
-        //  Combined weights for boundary points -- simple (scaled) tensor products:for (int i = 0; i < 12; ++i) {
-            int iDst = boundaryGregory[i];
-            int tRow = boundaryBezTRow[i];
-            int sCol = boundaryBezSCol[i];
-
-            wDs[iDst] = Bds[sCol] * Bt[tRow] * dScale;
-            wDt[iDst] = Bdt[tRow] * Bs[sCol] * dScale;
-
-            if (find_second_partials) {
-                wDss[iDst] = Bdss[sCol] * Bt[tRow] * d2Scale;
-                wDst[iDst] = Bds[sCol] * Bdt[tRow] * d2Scale;
-                wDtt[iDst] = Bs[sCol] * Bdtt[tRow] * d2Scale;
-            }
-        }
-
-        // dclyde's note:skipping half of the product rule like this does seem to change the result a lot in my tests.
-        // This is not a runtime bottleneck for cloth sims anyway so I'm just using the accurate version.
-#ifndef OPENSUBDIV_GREGORY_EVAL_TRUE_DERIVATIVES
-        //  Approximation to the true Gregory derivatives by differentiating the Bezier patch
-        //  unique to the given (s,t), i.e. having F = (g^+ * f^+) + (g^- * f^-) as its four
-        //  interior points://
-        //  Combined weights for interior points -- (scaled) tensor products with G+ or G-:for (int i = 0; i < 8; ++i) {
-            int iDst = interiorGregory[i];
-            int tRow = interiorBezTRow[i];
-            int sCol = interiorBezSCol[i];
-
-            wDs[iDst] = Bds[sCol] * Bt[tRow] * G[i] * dScale;
-            wDt[iDst] = Bdt[tRow] * Bs[sCol] * G[i] * dScale;
-
-            if (find_second_partials) {
-                wDss[iDst] = Bdss[sCol] * Bt[tRow] * G[i] * d2Scale;
-                wDst[iDst] = Bds[sCol] * Bdt[tRow] * G[i] * d2Scale;
-                wDtt[iDst] = Bs[sCol] * Bdtt[tRow] * G[i] * d2Scale;
-            }
-        }
+static void osd_rt_eval_fvar(device float*                dstData,
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                             constant uint32_t&           osdFaceVaryingChannelCount,
+                             constant OsdFVarChannelDesc* osdFaceVaryingChannelDescriptors,
+                             constant uint32_t&           osdFaceVaryingPatchArrayIndex,
+                             constant void*               osdFaceVaryingChannelsPackedData,
 #else
-        //  True Gregory derivatives using appropriate differentiation of composite functions://
-        //  Note that for G(s,t) = N(s,t) / D(s,t), all N' and D' are trivial constants (which
-        //  simplifies things for higher order derivatives).  And while each pair of functions
-        //  G (i.e. the G+ and G- corresponding to points f+ and f-) must sum to 1 to ensure
-        //  Bezier equivalence (when f+ = f-), the pairs of G' must similarly sum to 0.  So we
-        //  can potentially compute only one of the pair and negate the result for the other
-        //  (and with 4 or 8 computations involving these constants, this is all very SIMD
-        //  friendly...) but for now we treat all 8 independently for simplicity.
-        //
-        //float N[8] = OSD_ARRAY_8(float,    s,     t,      t,     sC,      sC,     tC,      tC,     s );
-        float D[8] = OSD_ARRAY_8(float,  df0,   df0,    df1,    df1,     df2,    df2,     df3,   df3 );
-
-        OSD_DATA_STORAGE_CLASS const float Nds[8] = OSD_ARRAY_8(float, 1.0f, 0.0f,  0.0f, -1.0f, -1.0f,  0.0f,  0.0f,  1.0f );
-        OSD_DATA_STORAGE_CLASS const float Ndt[8] = OSD_ARRAY_8(float, 0.0f, 1.0f,  1.0f,  0.0f,  0.0f, -1.0f, -1.0f,  0.0f );
-
-        OSD_DATA_STORAGE_CLASS const float Dds[8] = OSD_ARRAY_8(float, 1.0f, 1.0f, -1.0f, -1.0f, -1.0f, -1.0f,  1.0f,  1.0f );
-        OSD_DATA_STORAGE_CLASS const float Ddt[8] = OSD_ARRAY_8(float, 1.0f, 1.0f,  1.0f,  1.0f, -1.0f, -1.0f, -1.0f, -1.0f );
-
-        //  Combined weights for interior points -- (scaled) combinations of B, B', G and G':for (int i = 0; i < 8; ++i) {
-            int iDst = interiorGregory[i];
-            int tRow = interiorBezTRow[i];
-            int sCol = interiorBezSCol[i];
-
-            //  Quotient rule for G' (re-expressed in terms of G to simplify (and D = 1/D)):float Gds = (Nds[i] - Dds[i] * G[i]) * D[i];
-            float Gdt = (Ndt[i] - Ddt[i] * G[i]) * D[i];
-
-            //  Product rule combining B and B' with G and G' (and scaled):wDs[iDst] = (Bds[sCol] * G[i] + Bs[sCol] * Gds) * Bt[tRow] * dScale;
-            wDt[iDst] = (Bdt[tRow] * G[i] + Bt[tRow] * Gdt) * Bs[sCol] * dScale;
-
-            if (find_second_partials) {
-                float Dsqr_inv = D[i]*D[i];
-
-                float Gdss = 2.0f * Dds[i] * Dsqr_inv * (G[i] * Dds[i] - Nds[i]);
-                float Gdst = Dsqr_inv * (2.0f * G[i] * Dds[i] * Ddt[i] - Nds[i] * Ddt[i] - Ndt[i] * Dds[i]);
-                float Gdtt = 2.0f * Ddt[i] * Dsqr_inv * (G[i] * Ddt[i] - Ndt[i]);
-
-                wDss[iDst] = (Bdss[sCol] * G[i] + 2.0f * Bds[sCol] * Gds + Bs[sCol] * Gdss) * Bt[tRow] * d2Scale;
-                wDst[iDst] = (Bt[tRow] * (Bs[sCol] * Gdst + Bds[sCol] * Gdt) + Bdt[tRow] * (Bds[sCol] * G[i] + Bs[sCol] * Gds)) * d2Scale;
-                wDtt[iDst] = (Bdtt[tRow] * G[i] + 2.0f * Bdt[tRow] * Gdt + Bt[tRow] * Gdtt) * Bs[sCol] * d2Scale;
-            }
+                             constant float*              osdFaceVaryingData,
+                             constant int*                osdFaceVaryingIndices,
+                             constant packed_int3*        osdFaceVaryingPatchParams,
+                             constant packed_int4&        osdFaceVaryingPatchArray,
+#endif 
+                             uint                         patchID,
+                             float2                       UV)
+{
+    float2 texcoord0 = 0.f;
+    
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+    
+    
+    
+#else 
+    
+    int3 fvarPatchParam = osdFaceVaryingPatchParams[patchID];
+    bool isRegular = OsdGetPatchIsRegular(fvarPatchParam);
+    
+    int4 patchArray = osdFaceVaryingPatchArray;
+    int patchStride = OsdGetPatchNumControlVertices(patchArray.x);
+    int patchType = select(patchArray.x, int(6), isRegular);
+    int patchCVs = OsdGetPatchNumControlVertices(patchType);
+    
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+    
+    if (patchType == 3) {
+        OsdGetBilinearPatchWeights(UV.x, UV.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 6) {
+        int boundaryMask = OsdGetPatchBoundaryMask(fvarPatchParam);
+        OsdGetBSplinePatchWeights(UV.x, UV.y, 1.0f, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 9) {
+        OsdGetGregoryPatchWeights(UV.x, UV.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+    
+    for (int i = 0; i < patchCVs; ++i) {
+        int dataIdx = osdFaceVaryingIndices[patchID * patchStride + i] * OSD_FVAR_WIDTH + 0 ;
+#if OSD_COLOR_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 4;
+#endif
+#if OSD_TEXCOORD0_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        if (generateTexcoord0) {
+            texcoord0 += wP[i] * float2(osdFaceVaryingData[dataIdx], osdFaceVaryingData[dataIdx+1]);
         }
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD1_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD2_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD3_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD4_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
+#endif
+#if OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING
+        dataIdx += 2;
 #endif
     }
+    
+#endif 
+    
+    if (generateTexcoord0) {
+        *(device packed_float2 *)(dstData + texcoord0Offset) = texcoord0;
+    }
 }
 
-#endif /* OPENSUBDIV3_OSD_PATCH_BASIS_COMMON_H */
+#endif 
 
+
+
+kernel void osd_rt_eval_regular_point_vertex(uint               index      [[ thread_position_in_grid ]],
+                                             constant uint&     pointCount [[ buffer(0) ]],
+                                             device float*      dstData    [[ buffer(1) ]],
+                                             OsdVertexBufferSet osdBuffers)
+{
+    if (index >= pointCount)
+        return;
+    
+    
+    
+    uint patchID      = index / (CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE * CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE);
+    uint gridVertexID = index % (CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE * CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE);
+    float2 UV         = float2(gridVertexID % CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE, gridVertexID / CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE) / (float)(CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE - 1);
+    
+    osd_rt_eval_vertex(dstData + index * vertexStride, osdBuffers, patchID, UV);
+}
+
+kernel void osd_rt_eval_extra_point_vertex(uint                         index       [[ thread_position_in_grid ]],
+                                           constant uint&               pointCount  [[ buffer(0) ]],
+                                           device float*                dstData     [[ buffer(1) ]],
+                                           constant osd_rt_extra_point* extraPoints [[ buffer(2) ]],
+                                           OsdVertexBufferSet           osdBuffers)
+{
+    if (index >= pointCount)
+        return;
+    
+    
+    
+    osd_rt_extra_point extraPoint = extraPoints[index];
+    
+    osd_rt_eval_vertex(dstData + index * vertexStride, osdBuffers, extraPoint.patchID, extraPoint.UV);
+}
+
+#if defined(OSD_FVAR_WIDTH)
+
+kernel void osd_rt_eval_regular_point_fvar(uint                         index                            [[ thread_position_in_grid ]],
+                                           constant uint&               pointCount                       [[ buffer(0) ]],
+                                           device float*                dstData                          [[ buffer(1) ]],
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                                           constant uint32_t&           osdFaceVaryingChannelCount       [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_COUNT_INDEX) ]],
+                                           constant OsdFVarChannelDesc* osdFaceVaryingChannelDescriptors [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_DESCRIPTORS_INDEX) ]],
+                                           constant uint32_t&           osdFaceVaryingPatchArrayIndex    [[ buffer(OSD_FVAR_CHANNELS_PATCH_ARRAY_INDEX_BUFFER_INDEX) ]],
+                                           constant void*               osdFaceVaryingChannelsPackedData [[ buffer(OSD_FVAR_CHANNELS_PACKED_DATA_BUFFER_INDEX) ]]
+#else
+                                           constant float*              osdFaceVaryingData               [[ buffer(OSD_FVAR_DATA_BUFFER_INDEX) ]],
+                                           constant int*                osdFaceVaryingIndices            [[ buffer(OSD_FVAR_INDICES_BUFFER_INDEX) ]],
+                                           constant packed_int3*        osdFaceVaryingPatchParams        [[ buffer(OSD_FVAR_PATCHPARAM_BUFFER_INDEX) ]],
+                                           constant packed_int4&        osdFaceVaryingPatchArray         [[ buffer(OSD_FVAR_PATCH_ARRAY_BUFFER_INDEX) ]]
+#endif
+                                           )
+{
+    if (index >= pointCount)
+        return;
+    
+    
+    
+    uint patchID      = index / (CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE * CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE);
+    uint gridVertexID = index % (CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE * CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE);
+    float2 UV         = float2(gridVertexID % CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE, gridVertexID / CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE) / (float)(CFX_OSD_RT_TESS_GRID_POINTS_PER_EDGE - 1);
+    
+    osd_rt_eval_fvar(dstData + index * vertexStride,
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                     osdFaceVaryingChannelCount,
+                     osdFaceVaryingChannelDescriptors,
+                     osdFaceVaryingPatchArrayIndex,
+                     osdFaceVaryingChannelsPackedData,
+#else
+                     osdFaceVaryingData,
+                     osdFaceVaryingIndices,
+                     osdFaceVaryingPatchParams,
+                     osdFaceVaryingPatchArray,
+#endif
+                     patchID,
+                     UV);
+}
+
+kernel void osd_rt_eval_extra_point_fvar(uint                         index                            [[ thread_position_in_grid ]],
+                                         constant uint&               pointCount                       [[ buffer(0) ]],
+                                         device float*                dstData                          [[ buffer(1) ]],
+                                         constant osd_rt_extra_point* extraPoints                      [[ buffer(2) ]],
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                                         constant uint32_t&           osdFaceVaryingChannelCount       [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_COUNT_INDEX) ]],
+                                         constant OsdFVarChannelDesc* osdFaceVaryingChannelDescriptors [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_DESCRIPTORS_INDEX) ]],
+                                         constant uint32_t&           osdFaceVaryingPatchArrayIndex    [[ buffer(OSD_FVAR_CHANNELS_PATCH_ARRAY_INDEX_BUFFER_INDEX) ]],
+                                         constant void*               osdFaceVaryingChannelsPackedData [[ buffer(OSD_FVAR_CHANNELS_PACKED_DATA_BUFFER_INDEX) ]]
+#else
+                                         constant float*              osdFaceVaryingData               [[ buffer(OSD_FVAR_DATA_BUFFER_INDEX) ]],
+                                         constant int*                osdFaceVaryingIndices            [[ buffer(OSD_FVAR_INDICES_BUFFER_INDEX) ]],
+                                         constant packed_int3*        osdFaceVaryingPatchParams        [[ buffer(OSD_FVAR_PATCHPARAM_BUFFER_INDEX) ]],
+                                         constant packed_int4&        osdFaceVaryingPatchArray         [[ buffer(OSD_FVAR_PATCH_ARRAY_BUFFER_INDEX) ]]
+#endif
+                                         )
+{
+    if (index >= pointCount)
+        return;
+    
+    
+    
+    osd_rt_extra_point extraPoint = extraPoints[index];
+    
+    osd_rt_eval_fvar(dstData + index * vertexStride,
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                     osdFaceVaryingChannelCount,
+                     osdFaceVaryingChannelDescriptors,
+                     osdFaceVaryingPatchArrayIndex,
+                     osdFaceVaryingChannelsPackedData,
+#else
+                     osdFaceVaryingData,
+                     osdFaceVaryingIndices,
+                     osdFaceVaryingPatchParams,
+                     osdFaceVaryingPatchArray,
+#endif
+                     extraPoint.patchID,
+                     extraPoint.UV);
+    
+}
+
+#endif 
  /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ß×;
-- (id)sì=+¢f½É@n;(Ô³=sÚS½[xØ?Lz;ºÙ=Á\½®¸?\;Ö=h½ê¢?{/¾;×Ü=wy½´?ìjò;Þ9=I½½üp?â<<Wê=¦¶½àÙ?GI<R¢=&ä£½úy?å+<Ä{®=Hú´½/Üq?¾g¤<¢¼=`êÇ½?rk?$Ï<9&Ë=HPÜ½o d?Õé;
 
 // Remaining properties
 @property __weak id <VFXPhysicsContactDelegate> contactDelegate;

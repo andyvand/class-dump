@@ -88,10 +88,11 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)sÿkÿsÿsÿsÿ{ÿsÿÿsÿÿsÿÿsÿÿsÿ¥ÿsÿ®ÿsÿ¶ÿsÿ¾ÿtÿÆÿtÿÏÿuÿ×ÿuÿßÿvÿèÿxÿñÿyÿúÿ{ÿÿÿ}ÿ
+;
 
 // Remaining properties
 @property long long effectQuality; // @synthesize effectQuality;

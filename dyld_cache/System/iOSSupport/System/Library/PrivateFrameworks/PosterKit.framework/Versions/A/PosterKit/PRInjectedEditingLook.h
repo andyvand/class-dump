@@ -13,20 +13,20 @@
 }
 
 + (id);
++ (id);
 + (_Bool);
-+ (_Bool)upportedDataLayout:creationBehavior:editingBehavior:deletionBehavior:galleryDisplayBehavior: /* Error: Ran out of types for this method. */;
-+ (id)òÿÿùÿñß;
-- (void);
++ (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

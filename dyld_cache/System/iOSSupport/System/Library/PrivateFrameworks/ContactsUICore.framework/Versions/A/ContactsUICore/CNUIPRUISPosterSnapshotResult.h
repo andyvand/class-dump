@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)lueFilterWithValueFilters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIPRUISPosterSnapshotBundle *posterSnapshotBundle;

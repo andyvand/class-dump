@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)se current device has Wallet app deleted;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

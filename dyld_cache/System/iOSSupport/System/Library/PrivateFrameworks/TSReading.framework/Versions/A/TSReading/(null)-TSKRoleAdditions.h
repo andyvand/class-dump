@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id)=;
+- (id);
 - (id);
 - (id);
 - (long long);

@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     UIButton *_blockContactButton;
 }
 
-+ (double)tAtGGAAt;
-+ (id)C;
-- (void)hContentSizeCategory:(id)arg1 isForPrint: /* Error: Ran out of types for this method. */;
-- (void)ller",&,N,V_zoomController;
++ (double);
++ (id);
 - (void);
 - (void);
-- (id)eValues;
-- (id)ics;
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)audioMediaObject;
-- (id)rView;
+- (id);
+- (void)/;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;

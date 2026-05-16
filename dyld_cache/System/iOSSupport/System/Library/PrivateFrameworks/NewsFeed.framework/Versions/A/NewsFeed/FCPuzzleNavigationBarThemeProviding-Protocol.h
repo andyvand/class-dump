@@ -7,11 +7,6 @@
 @class FCColor;
 
 @protocol FCPuzzleNavigationBarThemeProviding
-- (FCColor *);
-- (FCColor *);
-- (FCColor *);
-- (FCColor *)Ԩc;
-- (FCColor *)`;
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *barButtonItemBackgroundColor;

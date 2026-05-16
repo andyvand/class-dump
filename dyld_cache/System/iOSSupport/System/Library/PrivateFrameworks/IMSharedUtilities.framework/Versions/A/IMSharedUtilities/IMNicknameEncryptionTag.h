@@ -11,17 +11,17 @@
     NSData *_dataRepresentation;
 }
 
-+ (id)";
++ (id);
 + (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id)!;
-- (id);
-- (id);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dataRepresentation; // @synthesize dataRepresentation=_dataRepresentation;

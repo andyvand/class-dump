@@ -10,19 +10,18 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id)ull path to attachments with "/private" in path, falling back to .resolvingSymLinksInPath;
 - (id);
-- (id)create CKRecord in zone %s for metadata dictionary %s;
 - (id);
-- (_Bool)write;
-- (_Bool)llerID [%@] has been unselected from list of available aliases;
-- (id)
-× ;
-- (long long)ative updates for controlled subviews should share a common bookmark;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (long long)ÿ*Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool appliesToAllScenes;

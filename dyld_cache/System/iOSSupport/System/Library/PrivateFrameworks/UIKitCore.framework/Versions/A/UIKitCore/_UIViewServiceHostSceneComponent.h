@@ -19,23 +19,24 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)`;
-- (void)_;
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void)__DATA;
+- (void);
 - (id);
-- (void);
-- (void)>;
 - (int);
-- (void);
-- (CDStruct_4c969caf)ontroller;
-- (void)ð÷pùûPû4üÐü ý;
-- (id)eSpace;
-- (void)ÄÓþÿÆÓþÿ;
+- (CDStruct_4c969caf);
+- (id);
+- (void)0@ù
+× ;
+- (void)_autoShutdownTimeout;
+- (void)rd",R,N;
+- (void)L@°Ô;
+- (void)_UITabMorphTransitionCSgXw;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_4c969caf auditToken;

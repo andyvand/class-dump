@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)cludingPinnedChatIdentifiers:(id)arg1 repairInconsistentMergedChats:(id)arg2;
-- (void)ionService",&,N,V_offGridAvailabilitySubscriptionService;
+- (void);
+- (void);
 - (id);
-- (void)Found message to mark as played:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)0@ù
-× ;
-- (id)A;
-- (void)ÑýËn;
+- (id);
+- (void)ñAÛP~d;
+- (void)¿!;
 
 @end
 

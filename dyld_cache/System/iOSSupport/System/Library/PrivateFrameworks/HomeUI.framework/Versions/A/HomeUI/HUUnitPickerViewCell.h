@@ -27,9 +27,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)current user. Error = %@. Hiding 'Personal Code' item.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *longestValue; // @synthesize longestValue=_longestValue;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)mumPossibleForce: /* Error: Ran out of types for this method. */;
+- (void)n: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -20,20 +20,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (id)iaPlayerProxy_SetShouldDisableHDR;
-- (void)LL, monthDay INTEGER NOT NULL);
-- (void);
-- (struct CGSize)@;
-- (void);
-- (void);
-- (void)#;
-- (id)!;
 - (id);
-- (void)¢!0@ù
-× ;
-- (double)°!\Bùqð1¢!0@ù
-× ;
-- (id)UILabel",&,N,V_titleLabel;
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (double);
+- (void);
+- (void)× ;
 
 // Remaining properties
 @property(readonly, nonatomic) double baselineFromBoundsTop; // @synthesize baselineFromBoundsTop=_baselineFromBoundsTop;

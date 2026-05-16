@@ -5,7 +5,7 @@
 //
 
 @protocol UIDragAnimating
-- (void)onByType;
-- (void)n;
+- (void)out matching -beginIgnoringInteractionEvents. Ignoring.;
+- (void)ertionSubject;
 @end
 

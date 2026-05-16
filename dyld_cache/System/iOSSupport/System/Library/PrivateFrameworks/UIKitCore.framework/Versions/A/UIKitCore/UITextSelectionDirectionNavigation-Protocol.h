@@ -5,7 +5,5 @@
 //
 
 @protocol UITextSelectionDirectionNavigation
-- (void);
-- (void);
 @end
 

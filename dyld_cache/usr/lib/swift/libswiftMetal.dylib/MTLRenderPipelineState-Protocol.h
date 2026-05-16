@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4PipelineDescriptor, MTLIntersectionFunctionTableDescriptor, MTLRenderPipelineReflection, NSString;
-@protocol MTLDevice, MTLFunctionHandle, MTLIntersectionFunctionTable, MTLVisibleFunctionTable;
+@class MTLRenderPipelineReflection, NSString;
+@protocol MTLDevice;
 
 @protocol MTLRenderPipelineState
-- (id <MTLVisibleFunctionTable>)d;
-- (MTL4PipelineDescriptor *)"NSString"24@"NSString"32@"NSArray"40@"NSString"48@"NSDate"56q64@"NSString"72;
-- (CDStruct_14f26992);
-- (id <MTLIntersectionFunctionTable>)2@0:(MTLIntersectionFunctionTableDescriptor *)arg1 8q16B24B28;
-- (unsigned long long);
-- (struct MTLResourceID);
-- (id <MTLFunctionHandle>);
-- (CDStruct_14f26992);
+- (long long)mpilationTaskCount;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
@@ -29,9 +22,9 @@
 @property(readonly) unsigned long long meshThreadExecutionWidth;
 @property(readonly) unsigned long long objectThreadExecutionWidth;
 @property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerTileThreadgroup;
+@property(readonly) struct requiredThreadsPerMeshThreadgroup;
+@property(readonly) struct requiredThreadsPerObjectThreadgroup;
+@property(readonly) struct requiredThreadsPerTileThreadgroup;
 @property(readonly, nonatomic) long long shaderValidation;
 @property(readonly) _Bool supportIndirectCommandBuffers;
 @property(readonly) _Bool threadgroupSizeMatchesTileSize;

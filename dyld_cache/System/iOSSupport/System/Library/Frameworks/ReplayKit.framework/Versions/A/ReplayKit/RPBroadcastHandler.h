@@ -20,17 +20,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

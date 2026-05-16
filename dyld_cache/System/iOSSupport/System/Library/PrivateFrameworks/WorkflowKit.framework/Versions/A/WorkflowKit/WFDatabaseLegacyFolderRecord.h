@@ -14,13 +14,13 @@
     void cloudKitMetadata;
 }
 
-- (id)Ì;
+- (id);
 - (long long);
 - (id);
+- (id);
+- (id);
 - (unsigned short);
-- (void);
-- (id);
-- (id);
+- (void)hown as 1 KB.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *cloudKitMetadata;

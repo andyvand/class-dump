@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (id)tributedSelector:attributedSelector: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)yÿÿ8=þÿ;
 
 @end
 

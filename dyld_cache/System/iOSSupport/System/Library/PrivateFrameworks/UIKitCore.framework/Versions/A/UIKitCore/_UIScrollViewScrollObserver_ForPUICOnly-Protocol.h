@@ -5,8 +5,5 @@
 //
 
 @protocol _UIScrollViewScrollObserver_ForPUICOnly
-
-@optional
-- (void);
 @end
 

@@ -29,7 +29,7 @@
 + (id);
 + (id);
 + (id);
-+ (double)E;
++ (double);
 + (double);
 + (id);
 + (id);
@@ -52,11 +52,11 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)H;
-- (id)L-large-downtime;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;

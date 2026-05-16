@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
 - (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) WFAQIScale *aqiScale; // @synthesize aqiScale=_aqiScale;

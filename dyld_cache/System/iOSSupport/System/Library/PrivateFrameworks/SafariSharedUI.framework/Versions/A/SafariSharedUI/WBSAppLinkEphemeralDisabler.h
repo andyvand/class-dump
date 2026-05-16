@@ -14,8 +14,8 @@
 + (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)chingUserTypedQuery: /* Error: Ran out of types for this method. */;
 
 @end
 

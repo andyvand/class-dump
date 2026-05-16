@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     NSString *_chrDescription;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)INT;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chrDescription; // @synthesize chrDescription=_chrDescription;

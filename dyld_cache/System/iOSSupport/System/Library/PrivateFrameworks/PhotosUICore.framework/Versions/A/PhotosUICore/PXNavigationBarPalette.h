@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (id)eBookmarksDataSectionManager;
-- (void)"ÿEÌ0xUÿ;
+- (void);
+- (id)D¹ÿd¹ÿÙäÇ};
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC12PhotosUICoreP33_10BDB50F966DC5489C73BD7ADCF2FC8A31NavigationBarPaletteContentView *paletteContentView;

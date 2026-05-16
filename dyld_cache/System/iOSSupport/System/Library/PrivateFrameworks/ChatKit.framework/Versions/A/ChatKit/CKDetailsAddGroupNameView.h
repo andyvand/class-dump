@@ -16,25 +16,25 @@
     CKDetailsViewAddGroupNameViewUITextField *_inputField;
 }
 
-+ (double);
++ (double)lated;
 - (void);
 - (id);
-- (void)*;
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (id)ªóªô;
+- (struct CGSize);
 - (void);
-- (void)ze=dd}}40{CGPoint=dd}72Q88;
-- (id)dM;
-- (id)ACyACyACyACyACyACyACy)¬É$¬ySiSgGGA4_yÑ(¬SgGGA4_y¤ú«GG¬y-¬GGANGATGAJG¬G¬GACyA18_A22_GtGG;
-- (void)=yABG¹ë=yABG¸ë=y_ABG¾ë=y_ABGSgªë=y_ABGt;
-- (id)seController. Could not initialize CKRemoteItemForSending object.;
-- (struct CGSize)¬Ð¤Ä;
-- (void)-2!-;
-- (_Bool)äNPÿ*{3£-;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id)luginDataSource: /* Error: Ran out of types for this method. */;
+- (id)isionPlatter;
+- (void);
+- (void)á;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

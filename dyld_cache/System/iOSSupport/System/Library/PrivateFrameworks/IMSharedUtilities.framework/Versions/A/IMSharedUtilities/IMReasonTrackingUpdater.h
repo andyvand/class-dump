@@ -40,11 +40,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (id);
 - (id);
 - (void);
-- (void)tainArguments;
-- (id)|ìÿ ;
+- (_Bool)hx;
+- (void)nshot;
 
 // Remaining properties
 @property(readonly, nonatomic) long long activeUpdaterHoldsCount;

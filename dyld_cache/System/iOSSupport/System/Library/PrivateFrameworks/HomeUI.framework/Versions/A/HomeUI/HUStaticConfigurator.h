@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)domain:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *staticViewControllers; // @synthesize staticViewControllers=_staticViewControllers;

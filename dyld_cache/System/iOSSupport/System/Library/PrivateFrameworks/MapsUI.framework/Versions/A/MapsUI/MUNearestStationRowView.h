@@ -28,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *distanceString;

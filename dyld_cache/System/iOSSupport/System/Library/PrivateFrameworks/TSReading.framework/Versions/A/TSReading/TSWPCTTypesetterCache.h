@@ -13,10 +13,10 @@
 - (void);
 - (shared_ptr_b124cf66);
 - (void);
-- (id);
-- (void)4˟;
-- (void)s;
 - (void);
+- (id);
+- (void);
+- (void)TMäMN°OÜPðQR;
 
 @end
 

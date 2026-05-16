@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     _Bool _restrictedToPortraitOrientation;
 }
 
-- (void),N,V_processChangesSelectorDelayer;
-- (void)4<A;
-- (_Bool)es-app-sec1782bcab1;
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)(;
 - (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long)ViewModelPhotosSavedAllTitle;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsRotation; // @synthesize allowsRotation=_allowsRotation;

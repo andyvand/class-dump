@@ -16,13 +16,13 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id _actionURL;

@@ -55,13 +55,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (unsigned long long);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
 
 // Remaining properties
 @property(nonatomic) double amplitudeVariationPerIteration; // @synthesize amplitudeVariationPerIteration=_amplitudeVariationPerIteration;

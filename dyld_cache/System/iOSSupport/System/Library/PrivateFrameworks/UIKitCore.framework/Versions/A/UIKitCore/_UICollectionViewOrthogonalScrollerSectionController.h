@@ -17,38 +17,40 @@ __attribute__((visibility("hidden")))
     NSHashTable *_elementsBelowOrthogonalScrollView;
 }
 
-- (void)P;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void)ctionTitle;
+- (_Bool);
 - (id);
-- (void);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id)@ù
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)1Â0@ù
 × ;
+- (void)!Aù±c°1Â0@ù
+× ;
+- (id)
+× ;
+- (void)w";
 - (_Bool);
-- (id)Ô ;
-- (void)× ;
-- (id)ttern"b1"dontAnimate"b1"superLayerIsView"b1"layerKitPatternDrawing"b1"multipleTouchEnabled"b1"exclusiveTouch"b1"hasViewController"b1"needsDidAppearOrDisappear"b1"deliversTouchesForGesturesToSuperview"b1"deliversPressesForGesturesToSuperview"b1"chargeEnabled"b1"skipsSubviewEnumeration"b1"needsDisplayOnBoundsChange"b1"hasTiledLayer"b1"hasContentSizeCategoryLimits"b1"traversalMark"b1"appearanceIsInvalid"b1"monitorsSubtree"b1"hostsAutolayoutEngine"b1"constraintsAreClean"b1"subviewLayoutConstraintsAreClean"b1"intrinsicContentSizeConstraintsAreClean"b1"strictDescendantNeedsDoubleUpdateConstraints"b1"strictDescendantNeedsDoubleUpdateConstraintsIsInvalid"b1"hasStoredLayoutEngineWidth"b1"determiningWidthForDoubleUpdateConstraints"b1"inSecondConstraintsPass"b1"potentiallyHasDanglyConstraints"b1"doesNotTranslateAutoresizingMaskIntoConstraints"b1"autolayoutIsClean"b1"autolayoutBoundsAreClean"b1"layoutFlushingDisabled"b1"layingOutFromConstraints"b1"wantsAutolayout"b1"subviewWantsAutolayout"b1"isApplyingValuesFromEngine"b1"autolayoutIsSendingSetBoundsWithNoChanges"b1"isResizingDueToParentResize"b1"isInLayoutSubviewsOrVCCallback"b1"isInUpdateProperties"b1"isInAnimatedLayout"b1"isSubviewUpdatingAutoresizingConstraints"b1"isUpdatingConstraints"b1"isReapplyingStillActiveBrokenConstraints"b1"isSuppressingUnsatisfiableConstraintsLoggingForNestedLayoutEngines"b1"isHostingUpdateConstraintsPassDuringLayout"b1"isRunningEngineLevelConstraintsPass"b1"isUpdatingLayoutEngineHostConstraints"b1"isExpectingToFlushPendingLayoutChangeNotifications"b1"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges"b1"systemLayoutFittingSizeNeedsUpdate"b1"systemLayoutFittingSizeNeedsUpdateInWholeSubtree"b1"isCalculatingSystemLayoutFittingSize"b1"suppressEncapsulationConstraints"b1"suppressAutoresizingMaskConstraintsUpdate"b1"isFetchingSizeForTAMIC_NOEngineHost"b1"internallyHiddenForReason"b2"stayHiddenAfterBeingInternallyHiddenForReason"b1"skippedPreLayoutWhileInternallyHiddenForReason"b1"skippedLayoutWhileInternallyHiddenForReason"b1"isPendingHiddenForAnimation"b1"hasMaskView"b1"isSettingMaskView"b1"hasVisualAltitude"b1"hasBackdropMaskViews"b1"backdropMaskViewFlags"b5"delaysTouchesForSystemGestures"b1"subclassShouldDelayTouchForSystemGestures"b1"hasMotionEffects"b1"backdropOverlayMode"b2"tintAdjustmentMode"b2"isReferenceView"b1"focusState"b2"hasUserInterfaceIdiom"b1"userInterfaceIdiom"b3"ancestorDefinesTintColor"b1"ancestorDefinesTintAdjustmentMode"b1"ancestorIgnoresInvertColors"b1"needsUpdateProperties"b1"needsTraitCollectionDidChangePropagation"b1"isRootOfTraitCollectionDidChangePropagation"b1"implementsTraitCollectionForChildEnvironment"b1"implementsBaselineOffsetsAtSize"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"preservesSuperviewMargins"b4"insettingLayoutMarginsFromSafeArea"b4"safeAreaInsetsFrozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"maskingConfigurationIsInvalid"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
-- (void)Rect={CGPoint=dd}{CGSize=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}56B88@92;
-- (id)etToBoundaryOfWhitespaceOrLine;
-- (void)body;
-- (void)r;
-- (_Bool)m;
-- (_Bool)n:(id)arg1;
-- (id)e=dd}}{CAPoint3D=ddd}{CGPoint=dd}{CGAffineTransform=dddddd}d},N,V_menu;
-- (void)llScreen:(id)arg1;
-- (id)@"UIView",W,N,G_viewToSnapshot,S_setViewToSnapshot:(id)arg1 ,V_viewToSnapshot;
-- (_Bool);
-- (void)P;
-- (void)ardArbiterClientInputDestination queue_sceneBecameFocused:(_Bool)arg1 withCompletion:]_block_invoke  Setting focused scene identity or identifier to nil because a scene from another application was focused /* Error: Ran out of types for this method. */;
-- (id);
-- (id)ScrollEdgeEffectViewInteractionC;
-- (id)UICollectionView.;
-- (id)< cornerSize;
+- (id)ew;
+- (void)cts:(id)arg1;
+- (id)completion: /* Error: Ran out of types for this method. */;
+- (id)ToSceneReferenceSpace:fromView: /* Error: Ran out of types for this method. */;
+- (id)ated:(id)arg1;
+- (id)ltGroupIdentifiers;
+- (void)tohiding display mode in width %g;
+- (id)R;
+- (void)sToContexts allKeys] containsObject:(id)arg1 @(UISystemNavigationActionResponseDestinationPrimary)];
+- (id)\;
+- (void)zÿC;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

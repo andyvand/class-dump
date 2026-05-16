@@ -18,11 +18,11 @@
 }
 
 + (_Bool);
-- (id)Downloads;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)lementForFocus;
-- (id)tivePresentationControllerDelegate;
-- (void)Ôýÿ4òüÿÐýÿèüÿýÿ$òüÿBýÿ;
+- (void)tÿÿÀ<þÿ;
 
 @end
 

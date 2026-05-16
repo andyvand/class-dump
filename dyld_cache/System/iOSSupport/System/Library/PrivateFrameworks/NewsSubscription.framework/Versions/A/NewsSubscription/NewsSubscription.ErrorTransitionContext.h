@@ -12,8 +12,8 @@
     MISSING_TYPE *subtitle;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

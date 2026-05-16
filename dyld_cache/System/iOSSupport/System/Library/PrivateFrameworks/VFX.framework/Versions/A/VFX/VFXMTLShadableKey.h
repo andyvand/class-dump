@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (id);
+- (unsigned long long);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) VFXMTLRenderPipeline *pipeline;

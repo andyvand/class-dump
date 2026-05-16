@@ -13,11 +13,13 @@
 }
 
 - (struct CGSize);
-- (id);
-- (void);
-- (id);
-- (void);
 - (struct CGSize);
+- (void);
+- (id);
+- (id);
+- (void)©Ð!À@ùqøÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextField *textField; // @synthesize textField=_textField;

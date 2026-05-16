@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)nesCredential_Title;
 
 // Remaining properties
 @property(readonly, nonatomic) HFControlItem<HFPrimaryStateWriter> *controlItem; // @dynamic controlItem;

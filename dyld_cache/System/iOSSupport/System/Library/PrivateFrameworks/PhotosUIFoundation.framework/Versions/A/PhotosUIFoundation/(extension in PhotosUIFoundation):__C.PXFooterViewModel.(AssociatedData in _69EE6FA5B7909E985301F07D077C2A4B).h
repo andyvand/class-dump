@@ -11,8 +11,8 @@
     MISSING_TYPE *environmentValues;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

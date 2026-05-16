@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)me, success %@, error %@;
-+ (_Bool)ownload-message;
 + (_Bool);
-+ (id)ithTargetURL:suggestedActions: /* Error: Ran out of types for this method. */;
-+ (id)û;
-+ (long long),zØKe;
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)olariumSwipeActions;
++ (long long)l8iþÜBÒÚf;
 
 @end
 

@@ -7,17 +7,13 @@
 @class UITextInputArrowKeyHistory;
 
 @protocol _UITextSelectionDirectionNavigation_Internal
-- (UITextInputArrowKeyHistory *)²üÿþÿ;
-- (UITextInputArrowKeyHistory *)yF¹í3y ¸í3y¸í3yAByéí3y_í3y¼ô;
-- (UITextInputArrowKeyHistory *)Factor;
-- (UITextInputArrowKeyHistory *)nabled;
-- (UITextInputArrowKeyHistory *)nted view controller, but view controller is either not in a window, or the window is hidden, or we have a current context presentation which needs to be deferred until after layout has run. Deferring presentation which might cause flashing when presentation is made after a turn of the run loop:(_Bool)arg1 self:(UITextInputArrowKeyHistory *)arg2 %@, presented view controller:%@ /* Error: Ran out of types for this method. */;
-- (UITextInputArrowKeyHistory *)alViewController:(_Bool)arg1 ];
-- (UITextInputArrowKeyHistory *)SourceSnapshot != nil;
-- (UITextInputArrowKeyHistory *)EffectStyleATVMenuAutomatic;
-- (UITextInputArrowKeyHistory *)tInnerRefractionHeight;
-- (UITextInputArrowKeyHistory *)B;
-- (UITextInputArrowKeyHistory *)f;
+- (UITextInputArrowKeyHistory *)IEmojiAndStickerShouldCreateNotification;
+- (UITextInputArrowKeyHistory *);
+- (UITextInputArrowKeyHistory *)»þÿ;
+- (UITextInputArrowKeyHistory *)System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices;
+- (UITextInputArrowKeyHistory *);
+- (UITextInputArrowKeyHistory *)0;
+- (UITextInputArrowKeyHistory *)lue;
 - (UITextInputArrowKeyHistory *);
 @end
 

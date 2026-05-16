@@ -15,9 +15,9 @@
 + (id);
 + (id);
 + (id);
-+ (id)nvitationsToCreateOrUpdate;
-+ (id)osmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/dso/dso_lib.c;
-+ (id)v;
++ (id);
++ (id)äX(Y;
++ (id);
 
 @end
 

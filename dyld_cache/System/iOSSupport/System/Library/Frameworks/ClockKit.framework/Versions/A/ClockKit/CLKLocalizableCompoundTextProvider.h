@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
 

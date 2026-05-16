@@ -31,10 +31,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)0@ù
-× ;
+- (unsigned long long)TtCVC6HomeUI22AccessoryDetailsHelper34LinkedApplicationViewRepresentable11Coordinator;
+- (void)ingTitle_ChooseLightsButton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

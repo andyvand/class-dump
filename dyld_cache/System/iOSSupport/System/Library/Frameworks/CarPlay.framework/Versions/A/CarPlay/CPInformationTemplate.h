@@ -22,17 +22,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void)dentifier;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;

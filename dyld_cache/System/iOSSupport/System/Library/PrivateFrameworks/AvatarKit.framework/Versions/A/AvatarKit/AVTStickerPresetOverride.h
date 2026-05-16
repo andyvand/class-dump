@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (long long);
 - (void);
-- (long long)ayload:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long category; // @synthesize category=_category;

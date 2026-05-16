@@ -15,15 +15,15 @@
 + (id);
 + (id);
 + (id);
-+ (id)t;
-+ (id)an attempt to insert %@ into a placeholder attachment %@ in note:(double)arg1 %@;
-+ (id)0@"ICTTTextEdit"8^B16;
 + (id);
 + (id);
-+ (id);
-- (void);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
+- (void)´¡¯ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;

@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (void);
-- (_Bool)NecessaryWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (long long)an md5 hash for fetched record:(struct CGPoint)arg1 %@;
-- (void);
-- (void)0@ù
+- (_Bool);
+- (long long);
+- (id);
+- (void)¡	Ð!FùñeÐ1Â0@ù
 × ;
-- (id)tRect;
-- (void)athBitmapDataRowHitTestResult _UIBoundingPathBitmapDataRowHitTest(const _UIBoundingPathBitmapData, const _UIIntegralPoint);
-- (id)Sÿ3|[ÿýRÿ3üdþýRÿ300|þSÿ3P±þ;
-- (void);
+- (void)llerTransitionCoordinator>"24;
+- (id);
+- (void)w;
+- (void)n;
 
 // Remaining properties
 @property(nonatomic) _Bool failWhenTappingInBars; // @synthesize failWhenTappingInBars=_failWhenTappingInBars;

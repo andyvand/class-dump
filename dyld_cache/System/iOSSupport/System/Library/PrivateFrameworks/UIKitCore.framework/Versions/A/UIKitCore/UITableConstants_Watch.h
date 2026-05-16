@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (struct _UITableConstantsBackgroundProperties);
-- (id)Necessary;
++ (id)ity: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct _UITableConstantsBackgroundProperties)tionIndex < _beforeDataSourceState.numberOfSections;
 
 @end
 

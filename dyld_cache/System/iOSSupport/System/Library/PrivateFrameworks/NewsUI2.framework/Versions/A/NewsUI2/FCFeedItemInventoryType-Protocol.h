@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol FCFeedItemInventoryType
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allFeedItems;

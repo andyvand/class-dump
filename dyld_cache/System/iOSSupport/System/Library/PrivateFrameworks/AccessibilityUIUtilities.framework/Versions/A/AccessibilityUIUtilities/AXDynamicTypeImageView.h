@@ -15,18 +15,18 @@
 
 - (id);
 - (struct CGSize);
-- (void)@"NSArray"Q@"NSError">;
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

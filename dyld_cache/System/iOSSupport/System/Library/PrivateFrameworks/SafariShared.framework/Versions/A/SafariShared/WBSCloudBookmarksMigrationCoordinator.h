@@ -27,13 +27,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)bJ9`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)Ä;
 
 // Remaining properties
 @property(retain, nonatomic) id <WBSLogger> keyActionsLogger; // @synthesize keyActionsLogger=_keyActionsLogger;

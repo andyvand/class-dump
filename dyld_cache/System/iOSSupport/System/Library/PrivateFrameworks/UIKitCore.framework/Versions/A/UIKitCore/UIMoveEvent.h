@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     unsigned long long _focusHeading;
 }
 
-- (void)@);
-- (void)message through Blastdoor name=(%@); reason=(%@);
-- (long long)ata"36@"NSData"44@"NSData"52@"NSError"60;
-- (unsigned long long);
 - (void);
-- (long long)ual style=%@);
+- (void);
+- (long long);
+- (unsigned long long);
+- (long long)16{CGPoint=dd}24;
+- (void)ÿF>;
 
 // Remaining properties
 @property(nonatomic, setter=_setFocusHeading:) unsigned long long _focusHeading; // @synthesize _focusHeading;

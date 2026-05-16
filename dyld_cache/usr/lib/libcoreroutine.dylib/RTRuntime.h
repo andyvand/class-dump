@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (double)didateStatsForType:placeStats:dateInterval:excludingPlaces:parameters:distanceThreshold: /* Error: Ran out of types for this method. */;
++ (double);
 
 @end
 

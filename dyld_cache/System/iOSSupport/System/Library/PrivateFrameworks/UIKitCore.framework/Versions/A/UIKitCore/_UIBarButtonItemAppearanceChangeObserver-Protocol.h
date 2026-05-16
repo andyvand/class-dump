@@ -5,6 +5,7 @@
 //
 
 @protocol _UIBarButtonItemAppearanceChangeObserver
-- (void);
+- (void)ÔA!¸Bù\1Â0@ù
+× ;
 @end
 

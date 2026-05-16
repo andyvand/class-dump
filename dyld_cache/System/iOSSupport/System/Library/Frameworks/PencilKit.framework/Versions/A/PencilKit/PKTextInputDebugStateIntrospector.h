@@ -16,20 +16,20 @@
 + (id);
 + (void);
 + (id);
-- (id)pointConfig",&,N,V_internalEndpointConfig;
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id)/;
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)ButtonItem",&,N;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKTextInputDebugStateIntrospectorDelegate> delegate; // @synthesize delegate=_delegate;

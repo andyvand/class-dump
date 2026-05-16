@@ -19,18 +19,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
-- (void)i not supported:(id)arg1 %@;
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)etweenStartDate:(id)arg1 endDate:(CDUnknownBlockType)arg2 filteredBySettledState:handler:] /* Error: Ran out of types for this method. */;
+- (id)l visit, %{sensitive}@, returned visit, %{sensitive}@, error, %@, wifi scan timer fire count, %lu;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

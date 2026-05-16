@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
@@ -25,15 +25,15 @@
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (struct CGPoint)7;
+- (struct CGPoint);
 - (void);
-- (_Bool);
+- (id);
+- (void);
 - (struct CGSize);
-- (id)%;
+- (_Bool);
+- (id);
 - (void);
-- (void);
-- (id)16@24q32@40;
-- (id)ckers;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) AVTEngagementLayout *engagementLayout; // @synthesize engagementLayout=_engagementLayout;

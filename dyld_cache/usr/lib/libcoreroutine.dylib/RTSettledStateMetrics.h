@@ -18,19 +18,19 @@
 + (id);
 + (void);
 + (id);
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 + (id);
 + (id);
-+ (CDStruct_b8464340)te.alloy.tinker.messages;
++ (CDStruct_b8464340);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (double)	;
-- (void)%s].;
-- (id)tion:withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
-- (double)isPartialAndExitDateIsEqualToDate:] /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

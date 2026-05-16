@@ -21,33 +21,33 @@ __attribute__((visibility("hidden")))
     _Bool isWidthVariant;
 }
 
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)roxyDeclaration;
+- (id);
 - (void);
 - (id);
-- (void)tItemIDs:(id)arg1;
 - (id);
-- (id);
-- (void)
+- (id)!8Cù[1Â0@ù
 × ;
-- (id);
-- (id);
-- (void)!wÐ!DBù1Ì1¢!0@ù
+- (id)Ô¡!¸Gù1_Ð1Â0@ù
 × ;
-- (void)Controller"16;
-- (void)tPortalViewEnabled:(id)arg1 ,V_portalViewEnabled;
-- (id)ion;
-- (id)@²;
-- (id)Ð0Ä1<22x3¬3;
-- (id)¤;
-- (id)les;
-- (_Bool)et for index [%d] for identifier path %@;
-- (void)gationBarTransitionContainer;
-- (void)¼sãÿG;
-- (id)È/ýþºÔ;
-- (void)ÿ3È);
+- (id)6;
+- (void)rentRegionIfNecessary:(id)arg1 update: /* Error: Ran out of types for this method. */;
+- (void)_wtContext;
+- (id);
+- (void)d;
+- (id)-[UIResponder(StateRestoration) _rebuildStateRestorationIdentifierPath];
+- (_Bool)hat isn't a child! %@;
+- (void)ction view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:(id)arg1 ] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)×¶Ñ=q;
+- (void);
+- (id)?";
+- (void)$~°ÿÑ{ÕÓj;
+- (void)ÿbí;
+- (void);
+- (void);
+- (id)ÿ>ã;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle;

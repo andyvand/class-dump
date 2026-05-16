@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, NSSet;
+@class NSSet;
 
 @protocol FBSceneObserver
 
 @optional
-- (void);
-- (void)gDeviceRoute;
-- (void)learPendingDisconnection;
 - (void);
-- (void)ithRangeAdjustment:(FBScene *)arg1;
-- (NSSet *)shadowLayer;
-- (void)ÐCÔD;
-- (void)bleView is not supported, and will result in incorrect self-sizing. View:(FBScene *)arg1 %@;
-- (void)%@;
-- (void)le;
+- (NSSet *)0@ù
+× ;
+- (void)1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
+- (void)N,G_springStiffness,V_springStiffness;
+- (void)e;
+- (void)üi;
+- (void)3¦¶.3y¸è.3GG;
 @end
 

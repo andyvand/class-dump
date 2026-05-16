@@ -14,11 +14,14 @@
     NSString *_applicationVersion;
 }
 
-+ (_Bool)MainThread;
++ (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -27,10 +30,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)r¿ÿÿ;
+- (void)óæÿC+«;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;

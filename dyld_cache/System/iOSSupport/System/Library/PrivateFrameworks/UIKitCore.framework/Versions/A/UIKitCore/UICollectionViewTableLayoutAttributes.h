@@ -38,64 +38,66 @@
     struct UIEdgeInsets _margins;
 }
 
-+ (void);
-+ (long long)@0:(unsigned long long)arg1 8@"UINavigationItem"16q24@"_UINavigationBarPalette"32;
++ (long long)1Â0@ù
+× ;
++ (void)ionContext;
+- (void);
+- (_Bool);
+- (void);
+- (long long);
+- (void);
+- (void);
 - (int);
 - (void);
-- (_Bool);
-- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool)÷/º;
-- (void)× ;
-- (void)ñÂ1¢!0@ù
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)0@ù
 × ;
-- (void);
-- (void)ldAutomaticallyTransitionToPreviewAfterDelay"b1"delegateHighlighterForPreviewTransition"b1"delegateViewControllerPresentationForPresentingViewController"b1"interactive"b1"delegateDidPreventInteraction"b1"interactionRequiresRestart"b1"interactionWasCancelled"b1"previousProgressWasNegativeOrZero"b1"currentState"b3"nextUpdateShouldTransitionToPreview"b1"nextPreviewShouldPreventHapticFeedback"b1};
-- (_Bool)ag;
-- (void)idth;
-- (long long)en;
-- (id)rtyList;
-- (void)rolAccentColor;
-- (void)ls;
-- (void)er;
-- (void)",&,N,V_tabBarHostedView;
-- (void)LayerStack:(long long)arg1 ,V_layerStack;
-- (_Bool)lvedMaterial;
-- (long long)itDepth;
-- (void)iving multiple (%lu) transitions.;
+- (void)!ÀEùñ]ð1Â0@ù
+× ;
+- (struct UIEdgeInsets);
+- (double)Ô ;
+- (_Bool)ng>"32;
+- (_Bool)Block: /* Error: Ran out of types for this method. */;
+- (_Bool)ewHandle;
+- (_Bool);
+- (void)ngShadowOffset;
+- (_Bool)nBarAnimation;
+- (void)ction:(id)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)rHeight;
+- (void)essibilityConfiguration;
+- (id)hè;
+- (_Bool)ÜÑhgsèÜÑpjs;
+- (_Bool);
+- (void)ponderWithoutAutomaticAppearanceEnabled:(_Bool)arg1 %@ (_automaticAppearEnabled:%d) /* Error: Ran out of types for this method. */;
+- (void)egate %@ does not respond to -writingToolsCoordinator:(_Bool)arg1 requestsDecorationContainerViewForRange:inContext:completion:and therefore must assign a non-nil value to the coordinator's decorationContainerView property. /* Error: Ran out of types for this method. */;
+- (void)hlightedBackgroundColor;
+- (id)ewCellCSo24UICellConfigurationStateCIeggg_;
 - (long long);
-- (void)ªáþ}gÔõ\;
-- (double);
-- (void)j.};
-- (id)Ë9i;
-- (struct UIEdgeInsets)þ;
-- (_Bool)l;
-- (void);
-- (_Bool)ÿ;
-- (double)ëªÿßO;
-- (void)uÿ;
-- (double)ÿ;
-- (struct UIEdgeInsets)ÿÖ¤ío;
-- (long long)_öÓúm;
-- (void)ÿ;
-- (_Bool)Wbÿ;
-- (void)ndn;
-- (void)4¿×þjn;
-- (id)n;
-- (long long);
-- (void)v»n;
-- (void)ÿìüÓ;Ún;
-- (void);
-- (void);
-- (struct UIEdgeInsets)ä1ÿ;
-- (void)Db-ÿ;
-- (_Bool)Ø:o /* Error: Ran out of types for this method. */;
-- (double);
+- (void)ÿäØ;
+- (_Bool)b;
+- (void)Nº× ûh;
+- (id);
+- (long long)±;
+- (void)Ýo;
+- (struct UIEdgeInsets)ÝþlÙ¼ßn;
+- (id);
+- (void)ÜÀx;
+- (void)ÜÜ o;
+- (void)Ëo;
+- (double)ôÇÉÿóÎÚ8o;
+- (double)>ÇÔp;
+- (double)o;
+- (struct UIEdgeInsets)ío;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;

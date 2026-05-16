@@ -22,12 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void)`;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,14 +47,21 @@
 - (long long);
 - (void);
 - (void);
-- (_Bool)c;
+- (_Bool);
 - (id);
-- (void);
-- (id)0;
-- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void)R
+y[R
+yuR
+yADy¬R
+y~R
+aR
+yAFaR
+GGAJGAEyAFr×GGGGG;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *clientRequestsByUrl; // @synthesize clientRequestsByUrl=_clientRequestsByUrl;

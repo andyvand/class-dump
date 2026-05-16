@@ -14,17 +14,17 @@
     id _maximumRelativeValue;
 }
 
-- (void)setPayloadAppsRatingExemptedBundleIDs:(id)arg1;
-- (void);
-- (id);
 - (id);
-- (void)!CùÂ1¢!0@ù
+- (id);
+- (id);
+- (void);
+- (id)
 × ;
-- (id)allow;
-- (id)isibility;
-- (long long)age";
-- (id)ÌR;
-- (id)Q;
+- (id)ng>"16B24;
+- (long long){CGPoint=dd}{CGSize=dd}}16@48i56i60;
+- (void)tter;
+- (id)groundColor;
+- (void)(5g;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *keyPath;

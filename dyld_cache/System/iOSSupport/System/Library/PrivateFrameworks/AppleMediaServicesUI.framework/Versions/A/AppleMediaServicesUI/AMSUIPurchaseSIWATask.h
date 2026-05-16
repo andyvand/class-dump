@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (Class)ntrollerC;
+- (void)sWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (Class)uide;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUIPurchaseDelegate> delegate; // @dynamic delegate;

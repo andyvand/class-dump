@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)|ù´ùû{°þP;
++ (Class);
 - (id);
 
 @end

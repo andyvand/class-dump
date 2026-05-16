@@ -24,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool)essedContext:(id)arg1;
-- (Class)delegate:(id)arg1 allowsUltraConstrainedNetwork: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (Class);
 - (void);
-- (void)tsiMessageAutoReply;
-- (void)T@"IMNickname",&,N,V_personalNickname;
-- (_Bool)anager;
+- (void);
+- (void);
+- (_Bool);
 - (struct CGPoint);
-- (void)<y	ë;
+- (void)ÀCa;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

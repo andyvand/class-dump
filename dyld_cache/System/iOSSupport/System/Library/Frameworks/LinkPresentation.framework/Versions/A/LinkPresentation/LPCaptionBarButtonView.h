@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void)!;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -37,18 +37,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (struct CGSize);
-- (void);
 - (id);
+- (void);
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (void);
+- (void)ssetType;
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;

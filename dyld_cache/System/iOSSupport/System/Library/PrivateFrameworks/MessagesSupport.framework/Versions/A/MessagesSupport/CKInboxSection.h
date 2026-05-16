@@ -16,14 +16,14 @@
 
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id)ion;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *footer; // @synthesize footer=_footer;

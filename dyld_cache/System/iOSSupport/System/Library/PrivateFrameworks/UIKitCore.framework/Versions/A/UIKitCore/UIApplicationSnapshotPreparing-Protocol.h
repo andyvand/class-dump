@@ -5,7 +5,5 @@
 //
 
 @protocol UIApplicationSnapshotPreparing
-- (void)i;
-- (void);
 @end
 

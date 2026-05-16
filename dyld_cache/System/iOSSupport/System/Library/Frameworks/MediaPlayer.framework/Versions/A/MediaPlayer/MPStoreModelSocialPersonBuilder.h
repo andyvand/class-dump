@@ -21,7 +21,7 @@
     } _requestedSocialPersonProperties;
 }
 
-+ (id)WithReason:isStart: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

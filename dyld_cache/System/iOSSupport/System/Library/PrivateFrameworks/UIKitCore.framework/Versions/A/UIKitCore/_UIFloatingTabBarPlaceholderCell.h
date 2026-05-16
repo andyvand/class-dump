@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)itWithTitle:actionsBySection: /* Error: Ran out of types for this method. */;
++ (Class);
 - (void);
 - (id);
-- (void)nceClassifier;
-- (void)0@ù
-× ;
-- (id)ayoutPriority:(id)arg1;
+- (void);
 - (id);
+- (void)!4Bù1\1Â0@ù
+× ;
+- (id)ost;
 
 @end
 

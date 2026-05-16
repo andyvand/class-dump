@@ -27,12 +27,12 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (struct CGSize);
-- (id);
+- (void)k.swe.apple.com/apps/%@;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contentConstraints; // @synthesize contentConstraints=_contentConstraints;

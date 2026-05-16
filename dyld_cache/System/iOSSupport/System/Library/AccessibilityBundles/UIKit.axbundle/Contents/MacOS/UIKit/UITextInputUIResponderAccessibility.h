@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (_Bool);
 - (id);
@@ -42,14 +42,14 @@
 - (id);
 - (void);
 - (struct _NSRange);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id)(;
+- (unsigned long long);
+- (id)SWindow;
+- (id)ngAccessoryConfigurations;
 
 @end
 

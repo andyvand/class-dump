@@ -23,20 +23,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double)(l;
-- (unsigned long long)K;
-- (id)p=;
+- (double);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void)eURL;
 - (void);
-- (void);
-- (_Bool)!üEùñÊÐ1¢!0@ù
-× ;
 - (id);
-- (id)ceOrientation: /* Error: Ran out of types for this method. */;
-- (void)h¥èÿ;
+- (id)orward;
+- (void)ü;
+- (_Bool)dnþ;
+- (void)ä[;
+- (void))\;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UIFocusEnvironment> environment; // @synthesize environment=_environment;

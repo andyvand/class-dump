@@ -14,13 +14,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)setAppearingAnimations:(const struct _UISEGestureFeatureSample *)arg1;
-- (unsigned long long)ems;
-- (id)Pþ`þÿ;
-- (id)Vþ;
-- (void)ut must be in the receiver's subtree.;
-- (void)Æ`;
+- (id);
+- (void)1Â0@ù
+× ;
+- (unsigned long long)A	ð!\Dùqeð1Â0@ù
+× ;
+- (void)tInteractionTintColor:(const struct _UISEGestureFeatureSample *)arg1;
+- (void);
+- (id)unLoopCSgXw;
+- (void)Ôµþ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISEGestureFeatureDelegate> delegate; // @synthesize delegate=_delegate;

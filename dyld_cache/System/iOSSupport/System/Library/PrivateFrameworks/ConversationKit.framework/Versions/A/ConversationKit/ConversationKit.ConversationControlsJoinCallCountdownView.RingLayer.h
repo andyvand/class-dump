@@ -19,10 +19,10 @@
 - (double);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)__Qo__Qo_G;
-- (id)ControlsStatusCell;
+- (id);
+- (id);
+- (void)ø÷ÏADGG;
 
 // Remaining properties
 @property(nonatomic) double percentage; // @synthesize percentage;

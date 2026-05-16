@@ -20,17 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct UIEdgeInsets);
-- (struct CGRect)ontrol=},N,V_accessControlRef;
-- (_Bool);
-- (id)&;
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)le: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (id);
 - (struct CGSize);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets atomInsets;

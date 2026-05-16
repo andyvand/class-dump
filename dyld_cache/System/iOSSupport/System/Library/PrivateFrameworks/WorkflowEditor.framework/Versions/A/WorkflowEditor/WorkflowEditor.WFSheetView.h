@@ -38,13 +38,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (void)ô;
 
 @end
 

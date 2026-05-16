@@ -8,9 +8,6 @@
 
 @protocol _UIFocusEnvironmentInternal
 
-@optional
-- (id <_UIFocusRegionContainer>)2;
-
 // Remaining properties
 @property(readonly, nonatomic, getter=_focusMapContainer) __weak id <_UIFocusRegionContainer> focusMapContainer;
 // Preceding property had unknown attributes: ?

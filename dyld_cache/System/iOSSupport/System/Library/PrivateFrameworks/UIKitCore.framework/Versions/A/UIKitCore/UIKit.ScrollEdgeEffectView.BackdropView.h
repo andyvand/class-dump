@@ -14,12 +14,12 @@
     MISSING_TYPE *currentLuma;
 }
 
-+ (Class)n;
++ (Class);
 - (void);
-- (id)ᄹ;
-- (void);
-- (id)Øb;
-- (id)33_7B0E981B8821F2CDCDA2E3B0ADC40D428Analysis11Bookkeeping;
+- (id);
+- (id);
+- (id)rImageProvider;
+- (void)Ì0jþ³HÎ8l;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

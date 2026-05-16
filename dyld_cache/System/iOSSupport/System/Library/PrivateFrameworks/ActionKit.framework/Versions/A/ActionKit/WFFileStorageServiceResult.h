@@ -17,16 +17,16 @@
 + (id);
 + (id);
 + (void);
-+ (_Bool));
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)orkflow.my.app.dropbox;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *lifecycleManagedURL; // @synthesize lifecycleManagedURL=_lifecycleManagedURL;

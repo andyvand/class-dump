@@ -37,38 +37,38 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void)e:(float)arg1 %s;
-- (void)tasks are submitted;
-- (void)essage guids, stopping chunking.;
-- (void)a candidate for routing;
-- (void)e due to:(_Bool)arg1 filter category unknown sender;
-- (void)ow;
-- (void)rvice:(id)arg1 %@;
-- (unsigned long long)with guid %@. newRange:%@ /* Error: Ran out of types for this method. */;
-- (void)to send a delivery receipt, but failed to send a certified delivery receipt. This should be ok because this was a message redelivery though.;
-- (void)ity:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (float)I;
-- (id)i;
+- (float);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void)0@ù
+- (void)1Â0@ù
 × ;
-- (void)meCount;
-- (id)titleConstraints;
-- (void)nWhenPaused;
-- (_Bool)=ø>;
-- (id)tCore/_UIListMetrics+Extensions.swift;
-- (void)I~®\;
+- (id)TableIndexOverlaySelectionViewCollectionViewLayoutAttributes;
+- (id)DÚ+d;
+- (void)ørh;
+- (void)FìÜ×l;
+- (_Bool)-m;
+- (void)»p;
+- (void)´}w;
 
 // Remaining properties
 @property(nonatomic) _Bool appliesBackgroundFromView; // @synthesize appliesBackgroundFromView;

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (long long)/usr/lib/libSystem.B.dylib;
+- (long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

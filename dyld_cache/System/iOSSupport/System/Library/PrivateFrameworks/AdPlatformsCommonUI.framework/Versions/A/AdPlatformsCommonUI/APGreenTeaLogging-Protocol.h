@@ -5,6 +5,5 @@
 //
 
 @protocol APGreenTeaLogging
-- (void);
 @end
 

@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id)rtProxyWithOptions:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)initiator rekey child followup KE);
+- (id);
+- (_Bool)ir;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=activeUser) _Bool activeUser; // @synthesize activeUser=_activeUser;

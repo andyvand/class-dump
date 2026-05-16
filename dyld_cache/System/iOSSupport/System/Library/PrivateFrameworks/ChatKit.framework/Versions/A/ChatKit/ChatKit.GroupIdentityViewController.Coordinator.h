@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)¬Gÿ­¢kGÿu¢k´n©ÿ½¢kGÿ¥¢kGÿ½¢k°Ø¨ÿe¢k´Ø¨ÿ;
 
 @end
 

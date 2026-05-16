@@ -52,11 +52,10 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (unsigned long long)0@ù
-× ;
-- (id)setLastSelectedArchive: /* Error: Ran out of types for this method. */;
-- (void)Color;
+- (unsigned long long)troller;
+- (void)entity.ContinueButton;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long awayAccessModeSetting;

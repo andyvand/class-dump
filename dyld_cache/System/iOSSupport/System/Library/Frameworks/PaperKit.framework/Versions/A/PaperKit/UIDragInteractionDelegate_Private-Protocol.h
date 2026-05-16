@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction, UIGestureRecognizer;
-@protocol UIDragSession;
-
 @protocol UIDragInteractionDelegate_Private
 
 @optional
-- (long long)Image:(UIDragInteraction *)arg1 requestType:(id <UIDragSession>)arg2;
-- (_Bool)sform:(UIDragInteraction *)arg1 mask:(UIGestureRecognizer *)arg2 randomSeed:) /* Error: Ran out of types for this method. */;
+- (long long)¿úy©þÿG;
 @end
 

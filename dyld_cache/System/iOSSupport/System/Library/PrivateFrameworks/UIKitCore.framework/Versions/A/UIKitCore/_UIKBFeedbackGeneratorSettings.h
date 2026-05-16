@@ -41,19 +41,19 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,12 +67,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (double);
-- (id);
+- (id);
 - (long long);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -81,11 +81,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (void);
 - (void);
-- (double)";
-- (void)$;
-- (void)mBackgroundColor: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (void)tainerViewProvider: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double adjustedRingerVolumeMax; // @synthesize adjustedRingerVolumeMax=_adjustedRingerVolumeMax;

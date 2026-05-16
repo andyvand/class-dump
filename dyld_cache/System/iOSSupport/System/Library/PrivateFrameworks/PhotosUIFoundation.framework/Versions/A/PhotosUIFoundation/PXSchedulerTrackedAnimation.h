@@ -14,8 +14,8 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;

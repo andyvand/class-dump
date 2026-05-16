@@ -8,7 +8,8 @@
 
 @interface MediaCoreUI.NowPlayingViewModel.Lifecycle
 {
-    MISSING_TYPE *transitionPhase;
+    MISSING_TYPE *_transitionPhase;
+    MISSING_TYPE *_$observationRegistrar;
 }
 
 @end

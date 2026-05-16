@@ -5,5 +5,6 @@
 //
 
 @protocol _UIButtonConfigurationUpdateExecuting
+- (void)otateFromInterfaceOrientation:has pending inputViewSet /* Error: Ran out of types for this method. */;
 @end
 

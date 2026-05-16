@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (CDStruct_5c52f79b);
 + (unsigned short);
-+ (_Bool);
++ (_Bool);
 + (CDStruct_95d471ab);
 + (id);
 

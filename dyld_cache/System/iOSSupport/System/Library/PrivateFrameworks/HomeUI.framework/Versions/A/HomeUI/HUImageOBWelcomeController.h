@@ -22,8 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)2h÷;
+- (void)!EùQ°1â
+0@ù
+× ;
+- (void)ppleTVOnly_Detail;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *contentImage;

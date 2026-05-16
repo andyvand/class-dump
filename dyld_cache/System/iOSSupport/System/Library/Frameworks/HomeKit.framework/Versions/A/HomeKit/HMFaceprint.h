@@ -18,15 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void)Pü
+;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

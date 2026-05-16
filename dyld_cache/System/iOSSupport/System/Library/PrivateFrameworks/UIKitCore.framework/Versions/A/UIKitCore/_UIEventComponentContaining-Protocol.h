@@ -7,9 +7,7 @@
 @class NSSet;
 
 @protocol _UIEventComponentContaining
+- (NSSet *)w;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (NSSet *);
 @end
 

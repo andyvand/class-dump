@@ -26,23 +26,22 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool)0@ù
-× ;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

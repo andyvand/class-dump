@@ -24,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (_Bool)isFirstSyncWithActivity:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (long long)r.;
+- (_Bool);
+- (long long);
 - (void);
 - (id);
-- (void);
-- (id)SizeClassPair: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsInferringPreferences; // @synthesize allowsInferringPreferences=_allowsInferringPreferences;

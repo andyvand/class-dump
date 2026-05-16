@@ -13,6 +13,8 @@ __attribute__((visibility("hidden")))
     UIView<MULabelViewProtocol> *_titleLabel;
     UIView<MULabelViewProtocol> *_valueLabel;
     NSLayoutConstraint *_titleLabelLeadingConstraint;
+    NSLayoutConstraint *_titleToValuePreferredConstraint;
+    NSLayoutConstraint *_titleToValueRequiredConstraint;
     UITapGestureRecognizer *_tapRecognizer;
     UITapGestureRecognizer *_selectRecognizer;
     MUPlaceRibbonItemViewModel *_viewModel;
@@ -32,13 +34,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (CDUnknownBlockType);
 - (void);
-- (id);
+- (void)DidSelectViewReview: /* Error: Ran out of types for this method. */;
+- (id)Ûÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

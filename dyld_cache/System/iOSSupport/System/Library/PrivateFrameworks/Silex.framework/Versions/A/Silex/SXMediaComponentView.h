@@ -42,9 +42,10 @@
 - (double);
 - (double);
 - (void);
+- (struct CGRect);
 - (void);
-- (void);
-- (struct CGRect))èLé¬í;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;

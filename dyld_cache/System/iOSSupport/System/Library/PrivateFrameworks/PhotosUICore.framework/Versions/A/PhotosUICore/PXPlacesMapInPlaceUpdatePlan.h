@@ -26,8 +26,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSMapTable *currentLayoutItemToAnnotationTable; // @synthesize currentLayoutItemToAnnotationTable=_currentLayoutItemToAnnotationTable;

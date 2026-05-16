@@ -20,11 +20,11 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id)H;
+- (void)nStateMachine:didDecideRunningProgressIsAllowed:dialogAttribution:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

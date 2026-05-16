@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 + (void);
 - (void);
 - (id);
-- (void)WeekdayAllowance;
 - (id);
-- (void);
+- (void)oardItemAtIndex:(id)arg1 inTextContentView: /* Error: Ran out of types for this method. */;
+- (void)Ä1ÿ÷zÏ/d;
 
 @end
 

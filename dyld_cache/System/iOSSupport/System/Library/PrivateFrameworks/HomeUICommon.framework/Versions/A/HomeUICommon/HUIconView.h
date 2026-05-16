@@ -29,6 +29,7 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,23 +40,22 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (unsigned long long);
+- (struct CGSize);
 - (void);
 - (void);
 - (struct CGSize);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long);
-- (struct CGSize);
 - (long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
-- (id)ÿÿéÃM;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;

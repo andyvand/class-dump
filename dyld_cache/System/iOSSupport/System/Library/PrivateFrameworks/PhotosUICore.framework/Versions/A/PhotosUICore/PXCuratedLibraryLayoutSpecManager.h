@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (long long)5;
+- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *availableThumbnailSizes; // @synthesize availableThumbnailSizes=_availableThumbnailSizes;

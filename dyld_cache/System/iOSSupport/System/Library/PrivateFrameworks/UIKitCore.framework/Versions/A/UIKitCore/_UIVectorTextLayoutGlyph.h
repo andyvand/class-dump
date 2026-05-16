@@ -17,14 +17,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CGAffineTransform);
-- (void)?(jA;
-- (void);
-- (id)yÐ!Bù±Î1¢!0@ù
-× ;
-- (void):(id)arg1;
-- (void)View;
-- (unsigned short)(ÐÐÑ`Ó8Ô´×´Ú4Û;
-- (struct CGRect)ÐÿÀ;
+- (void)B24^B28;
+- (struct CGRect)mLineCount: /* Error: Ran out of types for this method. */;
+- (unsigned short)tViewTransform;
+- (id)pacing_OpaqueButtonBaselines;
+- (void)ocument;
+- (void)rdinator _trailingCursorLocationRangeForProofreadingSuggestion:(unsigned short)arg1 inContextID:] /* Error: Ran out of types for this method. */;
+- (void)¾7GGG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -22,17 +22,17 @@
 - (double);
 - (id);
 - (struct CGRect);
-- (_Bool);
-- (double);
-- (id);
 - (_Bool);
+- (double);
 - (id);
 - (void);
-- (double);
 - (id);
 - (id);
 - (double);
-- (double)2;
+- (double);
+- (_Bool);
+- (id);
+- (double)°rüÿ\ãY¨;
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;

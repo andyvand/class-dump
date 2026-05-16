@@ -20,17 +20,17 @@
     AVURLAsset *_asset;
     id _mediaServicesResetNotificationHandler;
     NSURL *_streamingURL;
-    NSURL *_youTubeURL;
 }
 
-+ (_Bool)hevronForSingleAction;
++ (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id)R;
 - (id);
-- (id)<;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,17 +42,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id)hr�ir;
-- (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void)Q1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAsset *_asset;
@@ -67,7 +68,7 @@
 @property(readonly, copy, nonatomic) LPVideoProperties *properties; // @dynamic properties;
 @property(readonly, retain, nonatomic) NSURL *streamingURL; // @synthesize streamingURL=_streamingURL;
 @property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSURL *youTubeURL; // @synthesize youTubeURL=_youTubeURL;
+@property(readonly, retain, nonatomic) NSURL *youTubeURL;
 
 @end
 

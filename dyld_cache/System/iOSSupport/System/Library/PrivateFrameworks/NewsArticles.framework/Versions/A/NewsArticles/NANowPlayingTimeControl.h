@@ -48,22 +48,22 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void);
 - (void);
-- (double);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)A;
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)9(;
-- (void);
 - (id);
-- (void);
-- (_Bool)nderlying track index for the specified position %@;
-- (void)ïn±b;
+- (void);
+- (void);
+- (double);
+- (void)ëÿÿÿÿÿÌ;
+- (void)se;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

@@ -4,62 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome;
-
 @protocol HMHomeDelegatePrivate
-
-@optional
-- (void)ionBlock:(HMHome *)arg1;
-- (void)CommandWithPipeline:(HMHome *)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)",R,N,V_participantIdentifiers;
-- (void)nsferGuids;
-- (void)groupIDForChat:(HMHome *)arg1;
-- (void)fierForChatRoom:(HMHome *)arg1;
-- (void)rray",R,C,N,V_reviewedChatGUIDs;
-- (void)urrence;
-- (void)ge:(HMHome *)arg1 context: /* Error: Ran out of types for this method. */;
-- (void)eHFSTypeCode;
-- (void)"NSArray",C,N,V_participantIdentifiers;
-- (void)hSizeFailure:(HMHome *)arg1;
-- (void)ddyChanges;
-- (void)D;
-- (void)y",&,N,V_messageItems;
-- (void)handleInfo;
-- (void)teChatStatus:(HMHome *)arg1 chat:style: /* Error: Ran out of types for this method. */;
-- (void)&,N,V_currentParticipants;
-- (void)Storage;
-- (void)WithGUIDs:(HMHome *)arg1 queryID:(_Bool)arg2;
-- (void)leteChat1Zone;
-- (void)tureAssistant",&,N,V_stateCaptureAssistant;
-- (void)ated;
-- (void)eReachabilityResult",&,N,V_lastResult;
-- (void)ntext",&,N,V_context;
-- (void)Utilities;
-- (void)itor;
-- (void)ToType:(HMHome *)arg1;
-- (void);
-- (void)ncomingMessageHandler",R,&,V_handler;
-- (void)edData",R,N;
-- (void)tsInstance;
-- (void)tKitManager;
-- (void)SIMIDUpdated:(HMHome *)arg1;
-- (void)emetryReporter",&,N,V_telemetryReporter;
-- (void)R,W,N,V_session;
-- (void)rviceSession",R,N,V_session;
-- (void)sion",R,&;
-- (void)",&,N,V_serviceSession;
-- (void)ce;
-- (void)R,&;
-- (void)e",&,N,V_service;
-- (void)&,N,V_heldDeletionContext;
-- (void)Array:(HMHome *)arg1;
-- (void)ys;
-- (void)DRecordZoneManager",&,N,V_recordZoneManager;
-- (void)addParticipant:(HMHome *)arg1;
-- (void)re",&,N,V_messageStore;
-- (void)tsToHighlightsQueue;
-- (void)SObject<OS_dispatch_queue>",R,N,V_mappingChatsToHighlightsQueue;
-- (void);
-- (void);
 @end
 

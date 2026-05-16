@@ -10,6 +10,8 @@
 {
     _Bool _shouldSimulateSharedAlbumsUnavailable;
     _Bool _shouldShowEngUIToDifferentiateBetweenSharedAlbumTypes;
+    _Bool _simulateUnavailableSharedAlbumsHeader;
+    _Bool _simulateMigratedSharedAlbum;
     _Bool _activityEntryAllowsMultipleLikeContributors;
     _Bool _showParticipantCountBadges;
     _Bool _lemonadeActivityAlwaysAppearUnread;
@@ -34,8 +36,10 @@
     long long _simulatedSubscriptionError;
 }
 
-+ (id)ÀÊÿ«qQ¢÷8;
++ (id)lÞ ÿ-.Ë¬Þ ÿ.ËÐÞ ÿ;
 - (long long);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,8 +64,8 @@
 - (long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (void);
-- (id)Preparation;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityEntryAllowsMultipleLikeContributors; // @synthesize activityEntryAllowsMultipleLikeContributors=_activityEntryAllowsMultipleLikeContributors;
@@ -87,6 +91,8 @@
 @property(readonly, nonatomic) _Bool simulateErrorWhileRenaming; // @synthesize simulateErrorWhileRenaming=_simulateErrorWhileRenaming;
 @property(readonly, nonatomic) _Bool simulateHasReachedLimitOfAcceptedSharedAlbums; // @synthesize simulateHasReachedLimitOfAcceptedSharedAlbums=_simulateHasReachedLimitOfAcceptedSharedAlbums;
 @property(readonly, nonatomic) _Bool simulateInvalidAddressWhenValidatingParticipantsToAdd; // @synthesize simulateInvalidAddressWhenValidatingParticipantsToAdd=_simulateInvalidAddressWhenValidatingParticipantsToAdd;
+@property(readonly, nonatomic) _Bool simulateMigratedSharedAlbum; // @synthesize simulateMigratedSharedAlbum=_simulateMigratedSharedAlbum;
+@property(readonly, nonatomic) _Bool simulateUnavailableSharedAlbumsHeader; // @synthesize simulateUnavailableSharedAlbumsHeader=_simulateUnavailableSharedAlbumsHeader;
 @property(readonly, nonatomic) long long simulatedSubscriptionError; // @synthesize simulatedSubscriptionError=_simulatedSubscriptionError;
 
 @end

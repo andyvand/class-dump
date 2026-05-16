@@ -18,23 +18,21 @@ __attribute__((visibility("hidden")))
     id <UIDimmingViewDelegate> _dimmingViewDelegate;
 }
 
-- (void)V_posterWasRemoved;
-- (int)>;
+- (void);
+- (int);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)0@ù
-× ;
-- (void)!ÄDù±Éð1¢!0@ù
-× ;
-- (void)pSession>"24;
-- (void)ouldAutorotateToInterfaceOrientation:checkForDismissal:isRotationDisabled: /* Error: Ran out of types for this method. */;
-- (void)leInvalid;
-- (struct CGRect)ontroller;
-- (void)0[h;
-- (void)k;
-- (double)ÿËËNðm;
+- (void);
+- (double);
+- (_Bool)Q16{CGRect={CGPoint=dd}{CGSize=dd}}24{UIEdgeInsets=dddd}56;
+- (void),N,V_interactiveFrame;
+- (void)ilableConfiguration;
+- (void)8û×ÿì=`;
+- (struct CGRect);
+- (void)8}f;
+- (void)(ÐµÿgÊÓL®f;
+- (void)ÒÌk;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

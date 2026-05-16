@@ -13,13 +13,13 @@
 }
 
 + (id);
-- (void);
-- (_Bool)allDisablediTunesButton;
-- (double);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id)P;
+- (double);
 - (void);
+- (void)ate>",W,N,V_delegate;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKProgressAlertControllerDelegate> delegate; // @synthesize delegate=_delegate;

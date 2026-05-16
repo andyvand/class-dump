@@ -36,21 +36,23 @@
 - (struct CGRect);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)1â
+0@ù
+× ;
+- (_Bool)nTitles:(struct CGPoint)arg1 andTableContent:(id)arg2 forIndex:sourceMemory:sourceDictionary: /* Error: Ran out of types for this method. */;
+- (void)ty.m;
+- (void)p;
+- (id)À¬àtQÿuQÿ±Ç¸;
+- (id);
+- (id)À1R75;
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)AnimatingScrollOffsetForNavigation: /* Error: Ran out of types for this method. */;
-- (id)pÅ;
-- (id)bCategory;
-- (id);
-- (void)çh3;
-- (id)5;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *axPauseLabel; // @synthesize axPauseLabel=_axPauseLabel;

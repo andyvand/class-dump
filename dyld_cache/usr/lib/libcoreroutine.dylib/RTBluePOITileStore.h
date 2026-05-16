@@ -12,9 +12,6 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)T;
 - (void);
 - (void);
 - (void);
@@ -26,8 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

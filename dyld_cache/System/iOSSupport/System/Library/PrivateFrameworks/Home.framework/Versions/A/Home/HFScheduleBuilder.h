@@ -28,15 +28,15 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)dictions;
+- (void)Ï¬ØÙÙðÛÝ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long maxNumberOfRules; // @synthesize maxNumberOfRules=_maxNumberOfRules;

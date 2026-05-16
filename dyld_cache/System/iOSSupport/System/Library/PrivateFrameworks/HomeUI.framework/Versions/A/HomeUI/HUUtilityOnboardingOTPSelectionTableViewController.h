@@ -17,10 +17,9 @@
 - (Class);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)1b0@ù
-× ;
-- (void)ViewController";
+- (void)teScrollViewContentSize> Updating to new content size | currentSize (%f, %f) |  newSize (%f, %f);
 
 // Remaining properties
 @property(nonatomic) __weak id <OTPSelectionTableDelegate> delegate; // @synthesize delegate=_delegate;

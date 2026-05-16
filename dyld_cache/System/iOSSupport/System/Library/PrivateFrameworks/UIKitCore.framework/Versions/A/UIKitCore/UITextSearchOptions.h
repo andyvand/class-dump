@@ -10,12 +10,12 @@
     long long _wordMatchMethod;
 }
 
-+ (id)DowngradeHandler;
++ (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)ationController:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long stringCompareOptions; // @synthesize stringCompareOptions=_stringCompareOptions;

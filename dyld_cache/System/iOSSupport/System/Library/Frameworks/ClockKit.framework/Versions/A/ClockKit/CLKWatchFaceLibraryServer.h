@@ -11,7 +11,7 @@
     NSXPCConnection *_connection;
 }
 
-+ (id)8E;
++ (id);
 - (void);
 - (void);
 - (void);

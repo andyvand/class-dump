@@ -22,12 +22,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)nConfiguredBridgesCount;
+- (void)onTextAnyoneInHome;
+- (id)p$ðÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;

@@ -18,10 +18,10 @@
 }
 
 + (id);
-+ (id)r"24@"NSNumber"32@"NSNumber"40@"NSNumber"48B56B60@?<@"<BPSPublisher>"@?@"BMBookmarkablePublisher">64;
++ (id);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool){public}@;
 
 // Remaining properties
 @property(retain, nonatomic) Class itemClass;

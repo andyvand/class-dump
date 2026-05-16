@@ -13,15 +13,15 @@
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (long long);
-- (struct CGSize);
 - (double);
-- (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (struct UIEdgeInsets);
+- (long long);
 - (double);
+- (struct CGSize);
+- (unsigned long long);
 - (void);
+- (unsigned long long);
 - (struct CGSize);
 
 @end

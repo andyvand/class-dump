@@ -12,12 +12,12 @@
 
 + (struct CGPath *);
 + (struct CGPath *);
-+ (struct CGRect),;
-+ (void);
-+ (struct CGRect);
++ (struct CGRect);
++ (void);
++ (struct CGRect);
 + (_Bool);
 + (_Bool);
-+ (struct CGRect)L;
++ (struct CGRect);
 + (struct CGSize);
 
 @end

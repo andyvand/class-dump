@@ -30,18 +30,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)serveInternationalStyleTitlePreferences;
-- (void)View:(id)arg1;
-- (void)onsWithType:(id)arg1 options: /* Error: Ran out of types for this method. */;
-- (id)traitReason;
-- (id)tryModel;
+- (id);
 - (void);
-- (void)H3;
+- (void);
+- (id);
+- (void)Aù±Hð1â
+0@ù
+× ;
+- (void)sult<PHAsset *> * _Nonnull PXCuratedAssetsWithFallbackForMomentShare(PHMomentShare *__strong _Nonnull, BOOL);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;

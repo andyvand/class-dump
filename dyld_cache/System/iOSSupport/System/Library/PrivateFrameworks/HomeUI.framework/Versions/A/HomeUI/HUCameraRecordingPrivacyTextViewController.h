@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)p.PersonalIdentity.DeviceConfiguration.DetailsLabel;
 
 // Remaining properties
 @property(retain, nonatomic) UITextView *consentTextView; // @synthesize consentTextView=_consentTextView;

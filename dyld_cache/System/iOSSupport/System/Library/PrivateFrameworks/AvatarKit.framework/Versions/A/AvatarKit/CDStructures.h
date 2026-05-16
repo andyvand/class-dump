@@ -27,12 +27,6 @@ struct CGSize {
     double height;
 };
 
-struct SCNVector3 {
-    float _field1;
-    float _field2;
-    float _field3;
-};
-
 struct UIEdgeInsets {
     double _field1;
     double _field2;

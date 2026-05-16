@@ -26,11 +26,11 @@
 - (void);
 - (double);
 - (id);
-- (void)Ømyl¬Ö0e;
-- (id);
-- (unsigned long long)À;
-- (void)c7;
-- (struct UIEdgeInsets);
+- (void);
+- (id)Size=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}^B>96;
+- (struct UIEdgeInsets)ôóÿà:O5 /* Error: Ran out of types for this method. */;
+- (void)HD¢ÿý²L5;
+- (unsigned long long)88;
 
 // Remaining properties
 @property(nonatomic) double headerHeight; // @synthesize headerHeight=_headerHeight;

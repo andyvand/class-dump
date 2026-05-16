@@ -22,8 +22,8 @@
 }
 
 - (_Bool);
-- (void)ѿ#9�);
-- (void)$;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,26 +40,32 @@
 - (void);
 - (id);
 - (id);
-- (void)erForDevice:(_Bool)arg1 options: /* Error: Ran out of types for this method. */;
-- (id)ndTime:maxEvents:lastN:options: /* Error: Ran out of types for this method. */;
-- (_Bool)UpdateReason;
-- (id)ssagesChatGuid;
+- (id);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
-- (void)vider %@;
-- (_Bool)sicVideos;
+- (_Bool);
+- (double)Q?Ð1Â0@ù
+× ;
+- (void)tySongGrouping__MAPPING_MISSING__;
+- (void)ÇJÑÒú	Ý8J£hh5 TD¯À­Æ¿;UÆP¶¸¾Û@i¦`EA v÷¶« ¬ÀË
+uUK·þú1"\zf·çá§º#VXWÐ¦+éAÈ¹ç}ÔÉ«ÙÉ8HðJÉ1}ÌÉ`ÙÕ ?¿ÎJ¸åäd
+_"Ãt4Ù|à7÷iæß¨=âÔ-·duçüõ6­+µ$¤÷@Òuæ¿×{hÙ¥G²à]×=Jù^üvIÆL$[P¼#Á¹LØÔrÊT]&ú|ÉÐWØ>s1²4ÂWsÀõã³j s7Ô
+ÚÝAd°ØO«²úo­Ýs$çæÖ¼+ncØÑ=ë.
+¢usyïmwh®((Ï£xfhæG[ÔL9hÖ>ð°úæò)hµo)r×WóWÚÕ %Û-+è¸JO¸!èkrä#Òý!ý:(id)arg1 Bû©xZ¯ð½}¥Í§ÑÁÈÃâ|¼ý]9GdIóHò]Èëfù±sáV_mTÀ´_WCÈúÐ[»ÛQé+q¯33Êq5RáôUFÛ¤R !@óNEuÊÄ	0¡ôBíÔù¥lz4T*%5lq)«³Õçâ®û
+}uãD[?ð?ÁÐO{ëTZÅíþ´^ò;
 
 // Remaining properties
 @property(nonatomic) __weak MPRemoteCommandCenter *commandCenter; // @synthesize commandCenter=_commandCenter;

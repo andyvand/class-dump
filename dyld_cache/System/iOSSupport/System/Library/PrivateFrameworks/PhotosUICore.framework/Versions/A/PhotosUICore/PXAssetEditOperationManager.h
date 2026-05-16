@@ -15,7 +15,7 @@
     NSMapTable *_observersWithContexts;
 }
 
-+ (id);
++ (id)vationRegistrar;
 - (void);
 - (void);
 - (void);
@@ -37,8 +37,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *observersWithContexts; // @synthesize observersWithContexts=_observersWithContexts;

@@ -7,9 +7,6 @@
 @class PKPaletteTooltipPresentationHandle, UIView;
 
 @protocol PKPaletteViewHosting
-- (void)k!;
-- (_Bool);
-- (UIView *)T@"NSArray",C,N,G_serverUtterances,S_setServerUtterances:,V_serverUtterances /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *hostingView;

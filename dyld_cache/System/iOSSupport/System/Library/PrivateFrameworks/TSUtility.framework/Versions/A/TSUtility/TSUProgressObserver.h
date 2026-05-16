@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double valueInterval; // @synthesize valueInterval=mValueInterval;

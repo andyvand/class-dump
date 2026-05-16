@@ -5,9 +5,31 @@
 //
 
 @protocol VFXParametricModelJSExport
-- (float)Stencil8;
 - (void);
-- (void)torPerFrame;
+- (float)XVFXPrepareDrawCalls -> no world yet;
+- (void)mentBuffer;
+    typedef VFX_RE_C_ProbeConstantBuffer ProbeConstantBuffer;
+}
+#  endif
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+namespace re {
+    struct BreakthroughGPUData;
+}
+typedef re:(float)arg1:BreakthroughGPUData BreakthroughGPUData;
+#elif defined(__cplusplus)
+struct BreakthroughGPUData;
+#endif 
+
+#ifdef __cplusplus
+struct re_entity_argument_buffer;
+struct re_scene_argument_buffer;
+struct re_vfx_object_constants;
+#endif
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float chamferRadius;

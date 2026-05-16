@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAlertAction;
-
 @protocol _UIAlertActionMutablePropertyObservering
-- (void)nabled;
-- (void)eleteAttachmentPath:(UIAlertAction *)arg1;
-- (void)MSSpam;
-- (void)MSRelayCapable;
-- (void)bled;
-- (void)d;
-- (void)isReplicating;
 @end
 

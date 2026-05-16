@@ -22,7 +22,7 @@
     NSDictionary *_endTimes;
 }
 
-+ (_Bool)orCurrentUser;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool disableQueueModifications; // @synthesize disableQueueModifications=_disableQueueModifications;

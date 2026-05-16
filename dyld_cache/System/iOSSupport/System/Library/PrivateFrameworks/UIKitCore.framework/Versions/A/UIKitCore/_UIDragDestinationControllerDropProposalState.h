@@ -19,14 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id)!dBù_1Â0@ù
+× ;
+- (void)gFormCandidate;
+- (void)ation",C,N,V_configuration;
 - (id)e;
+- (_Bool);
 - (void);
-- (id)llerBlock: /* Error: Ran out of types for this method. */;
-- (void)enticatingSessionIdentifier;
-- (id)pectorPreference;
-- (_Bool)íHPãa;
-- (void)éÿ$WÌRa;
-- (id))ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool didDrop; // @synthesize didDrop=_didDrop;

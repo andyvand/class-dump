@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)age;
+- (id)tatusBarNewUIStyleAttributes;
 
 @end
 

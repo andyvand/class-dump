@@ -19,10 +19,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
 - (long long);
 - (CDUnknownBlockType);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *axIdentifier;

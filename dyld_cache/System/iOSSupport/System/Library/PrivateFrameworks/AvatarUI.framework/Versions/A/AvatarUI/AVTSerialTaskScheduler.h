@@ -16,23 +16,23 @@
 }
 
 + (CDUnknownBlockType);
-+ (id)!;
 + (id);
 + (id);
 + (id);
++ (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (long long);
-- (void)llowEditing:(CDUnknownBlockType)arg1 allowPeel:environment: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *backlogTasks; // @synthesize backlogTasks=_backlogTasks;

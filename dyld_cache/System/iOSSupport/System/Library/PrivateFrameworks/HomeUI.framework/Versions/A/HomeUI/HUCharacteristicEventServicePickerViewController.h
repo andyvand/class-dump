@@ -35,11 +35,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (unsigned long long);
-- (void);
-- (CDUnknownBlockType)0@ù
-× ;
+- (CDUnknownBlockType)ghted: /* Error: Ran out of types for this method. */;
+- (void)resenting alert card:(CDUnknownBlockType)arg1 title %@ message %@;
+- (void)InputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromResidentWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromHomePodSoftwareUpdate) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationInProgress) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationSucceeded) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationFailed) || (userInputValue.integerValue== HUHomeHub2OnboardingValue_ResetAppleHome);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

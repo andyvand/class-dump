@@ -29,17 +29,17 @@
 - (void);
 - (id);
 - (id);
-- (double);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (double);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)?40;
+- (id){CGSize=dd}}16@48@?56;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPassField *field; // @synthesize field=_field;

@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)psui_resetLayoutMargins;
 
 // Remaining properties
 @property(retain, nonatomic) GEOHeaderButtonModuleConfiguration *buttonModuleConfiguration; // @synthesize buttonModuleConfiguration=_buttonModuleConfiguration;

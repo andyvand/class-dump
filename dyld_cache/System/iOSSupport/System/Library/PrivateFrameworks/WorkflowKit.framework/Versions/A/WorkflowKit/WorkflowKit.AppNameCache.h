@@ -11,5 +11,10 @@
     MISSING_TYPE *cache;
 }
 
++ (id)Cloud Compute model.;
+- (id);
+- (id);
+- (void)video;
+
 @end
 

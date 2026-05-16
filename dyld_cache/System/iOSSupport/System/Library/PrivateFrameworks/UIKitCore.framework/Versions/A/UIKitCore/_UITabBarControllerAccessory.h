@@ -10,7 +10,7 @@
 {
 }
 
-- (long long)þÿÿÜñèÿ8Óþxþÿ;
+- (long long)be negative. activationCount=%ld; styleActivationCount=%ld; style=%@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long displayStyle;

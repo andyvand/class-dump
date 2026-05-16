@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_assets;
 }
 
-- (void)Rs;
-- (void)ctionsForDataclasses:(id)arg1;
 - (void);
-- (id){public}@] oldAccount.ams_lastAuthenticated = %{public}@;
-- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void)%p - Unable to update PAF event [missing account identifier] - event:%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,7 +7,7 @@
 @class UIView;
 
 @protocol _UISheetPresentationControllerDetentResolutionContext_Internal
-- (UIView *);
+- (UIView *)&,N,V_activeKeyboardLayoutGuideTransitionAssertions;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_containerView;

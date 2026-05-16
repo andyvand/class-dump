@@ -25,8 +25,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)Ï÷5;
+- (id)Protocol>",&,N,V_startEvent;
+- (void)veMemoriesConfiguration;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *additionalMenuItems; // @synthesize additionalMenuItems=_additionalMenuItems;

@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (_Bool).framework/Versions/A/PromotedContentSupport;
+- (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)Context;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *proxyAutoConfigScript;

@@ -17,28 +17,27 @@
     UIView *_trackView;
 }
 
-- (void)cer",&,N,V_changeCoalescer;
-- (void)ng;
+- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool)t;
-- (unsigned long long)hare;
+- (_Bool);
+- (unsigned long long);
 - (void);
-- (void)
-;
-- (void);
-- (id);
-- (void);;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)(=;
-- (double)ieAttachmentItem;
-- (id)te;
-- (void)$;
+- (id);
+- (void);
+- (id);
+- (double)aultQuery;
+- (void)\yWq;
+- (void)°;
 
 // Remaining properties
 @property(nonatomic) unsigned long long capStyle; // @synthesize capStyle=_capStyle;

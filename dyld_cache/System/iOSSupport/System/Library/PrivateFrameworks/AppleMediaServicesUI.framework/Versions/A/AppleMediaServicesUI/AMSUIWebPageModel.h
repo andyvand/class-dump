@@ -15,6 +15,7 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     AMSUIWebAction *_swipeToDismissAction;
     AMSUIWebToolbarModel *_toolbar;
     AMSUIWebClientContext *_context;
@@ -34,15 +35,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (struct CGSize)?@"AMSDialogResult"@"NSError">32;
-- (id)RL;
+- (id);
+- (void)Account: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long),3yACyAAyõ1$3G_©%3yÛ*3y*3y_qN_Qo__Qo__Qo_tGGóø0GAOGAOGAOGG_AAy?qNö0GtGGy;
+- (id)d;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
@@ -62,6 +64,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) _Bool supportsRefresh; // @synthesize supportsRefresh=_supportsRefresh;
 @property(retain, nonatomic) AMSUIWebAction *swipeToDismissAction; // @synthesize swipeToDismissAction=_swipeToDismissAction;
 @property(retain, nonatomic) AMSUIWebToolbarModel *toolbar; // @synthesize toolbar=_toolbar;
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

@@ -7,12 +7,6 @@
 @class NSDictionary, NSSet, NSString, NSURL, WFWeatherEventsConfig;
 
 @protocol WFSettings
-- (double);
-- (NSString *);
-- (float)0@48@?56;
-- (NSString *)¤Fùq­
-ð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *apiVersion;

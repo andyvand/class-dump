@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)CapabilityToWatch isMMSEnabled %@;
++ (id);
 
 @end
 

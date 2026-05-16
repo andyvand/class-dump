@@ -64,136 +64,136 @@ __attribute__((visibility("hidden")))
     struct CGRect _originLayoutFrame;
 }
 
+- (void);
+- (void);
 - (struct CGRect);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (struct CGRect);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (double);
 - (id);
 - (_Bool);
 - (void);
-- (double);
-- (void);
 - (id);
-- (struct CGRect);
+- (void);
 - (void);
 - (void);
 - (double);
-- (long long);
-- (void);
-- (void)gEnabled;
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)icalTo:(struct _NSZone *)arg1;
-- (id),N;
-- (void)PlaylistQuery;
-- (struct CGRect)R,N,V_playerViewController;
-- (id)pLocalEnableState;
-- (void)entifier to update orderedSections;
+- (double);
 - (_Bool);
 - (void);
 - (void);
 - (long long);
+- (_Bool);
+- (id);
+- (_Bool);
 - (struct CGRect);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (double);
 - (void);
+- (struct CGRect);
+- (void);
+- (struct NSDirectionalEdgeInsets);
 - (void);
 - (CDStruct_39925896);
 - (void);
-- (double)ÔAoð!Fù±ÁÐ1¢!0@ù
-× ;
-- (id)¬AùÃ1¢!0@ù
-× ;
-- (void)!qÐ!0Gù1Ä°1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (struct CGRect)ñÈ°1¢!0@ù
-× ;
 - (void);
-- (id)0@ù
-× ;
-- (_Bool);
 - (void);
-- (void)1¢!0@ù
+- (_Bool)Â0@ù
 × ;
-- (_Bool)ÔxÐ!CùñÍð1¢!0@ù
+- (id);
+- (struct CGRect)!ð@ù1[°1Â0@ù
 × ;
-- (_Bool)
+- (id)!äAùñ[1Â0@ù
 × ;
-- (void)28{CGRect={CGPoint=dd}{CGSize=dd}}36d68B76;
-- (void):(_Bool)arg1;
-- (double)ardAvoidance;
-- (id)SuppressEditMenu;
-- (void)e:(id)arg1;
-- (void)ergeAsMoreKey:(id)arg1;
-- (void)teAdditionalHeight:(id)arg1;
-- (void)resolveSolutionForUpdate:(_Bool)arg1 container:ignoreEmptyUpdate: /* Error: Ran out of types for this method. */;
-- (void)orderControlShouldFadeForCell:(struct NSDirectionalEdgeInsets)arg1;
-- (void)ation;
-- (void)nFrames:(double)arg1;
-- (void)uggestedTitle:(_Bool)arg1 selectedRange: /* Error: Ran out of types for this method. */;
-- (id)ndler:(double)arg1;
-- (double)CADisplayLinkDispatch;
-- (id)LayerIfNeeded;
-- (void)nctuation:(CDUnknownBlockType)arg1;
-- (long long)r;
-- (void)ons:animated: /* Error: Ran out of types for this method. */;
-- (id)ingBroadcast: /* Error: Ran out of types for this method. */;
-- (void)riod;
-- (void)xedOffsetObj;
-- (void)wOffsetForState:(id)arg1;
-- (id)ckgroundRectForCell: /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)arentWidth: /* Error: Ran out of types for this method. */;
-- (double),N,V_shouldUseContinuousCorners;
-- (double)onfigurationHandler;
-- (struct CGRect)erWebEvent: /* Error: Ran out of types for this method. */;
-- (_Bool)estoreFromPageCache: /* Error: Ran out of types for this method. */;
-- (void)actionDidEnd:(_Bool)arg1;
-- (void)SActivityItemsConfigurationReading>",R,N;
-- (double)Xõø°ú;
-- (void)ð;
-- (_Bool)4øXùìü;
-- (void)Ø¸
-;
-- (void)Ô;
-- (id)Ü;
-- (id)r is used within a UIDocumentViewControllerLaunchOptions context. Browser view controller:%@ /* Error: Ran out of types for this method. */;
-- (struct CGRect)+imageNamed:or +systemImageNamed:. /* Error: Ran out of types for this method. */;
-- (id);
-- (void)nerRadii;
-- (void)ableP;
-- (_Bool)on.y;
-- (void)andidateVerticalLight;
-- (void)tyRowSetVariantType;
-- (struct CGRect)TEM_VIEW_ZOOM_TO_FIT;
-- (id)t"16@?0@"UIMutableApplicationSceneSettings"8;
-- (struct CGSize);
-- (_Bool)storableStateWithCoder:] /* Error: Ran out of types for this method. */;
-- (void)sertion location; this should never be nil.;
-- (id)kgroundConfiguration. Any view set to the customView property of the UIBackgroundConfiguration will be automatically removed from the view hierarchy when necessary; never call removeFromSuperview on the customView yourself. Also ensure that the customView of each UIBackgroundConfiguration that gets applied to a different view is unique; setting the same UIView instance to the customView of configurations applied to different views is not allowed. Subview removed:%@; Background view:%@ /* Error: Ran out of types for this method. */;
-- (struct CGRect).springboard;
+- (struct CGRect);
+- (_Bool)á°!Ü@ù_°1Â0@ù
+× ;
+- (void)!äFù1`Ð1Â0@ù
+× ;
+- (struct CGRect)0@ù
+× ;
+- (void)Ð!ìAùQd1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (_Bool)Gùf°1Â0@ù
+× ;
+- (double)rozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
+- (void)Point=dd}{CGSize=dd}}16N^{CGRect={CGPoint=dd}{CGSize=dd}}24N^{CGRect={CGPoint=dd}{CGSize=dd}}32{CGPoint=dd}40;
+- (void)idDraw;
+- (void)BarTouchesEnded:(_Bool)arg1 withEvent: /* Error: Ran out of types for this method. */;
+- (void)set_dragContainerView:(struct CGSize)arg1;
+- (struct CGRect)etCloseButtonMinSize: /* Error: Ran out of types for this method. */;
+- (id)ponder: /* Error: Ran out of types for this method. */;
+- (long long)ize: /* Error: Ran out of types for this method. */;
+- (void)izationContextWithParameters: /* Error: Ran out of types for this method. */;
+- (void)wControllerForAccessibilityHUDGestureManager:(_Bool)arg1;
+- (struct CGRect)_uiWindowSceneFromFBSScene: /* Error: Ran out of types for this method. */;
+- (struct CGRect)rtcutAction: /* Error: Ran out of types for this method. */;
+- (void)tegory:(id)arg1;
+- (void)_observerImplementingWillEndDraggingMethod;
+- (id)aybackAssertions;
+- (id)lectedIndicatorImage;
+- (void)n:(id)arg1 didPerformMenuLeaf:target: /* Error: Ran out of types for this method. */;
+- (void)FullHeightUntransformedFrameForDepthLevel:(id)arg1;
+- (id)N,V_preferredSecondaryColumnWidthFraction;
+- (struct CGRect)_UISearchSuggestionsListViewController",R,N,V_suggestionsListViewController;
+- (double)referredFocusReport,S_setPreferredFocusReport:,V_preferredFocusReport /* Error: Ran out of types for this method. */;
+- (void)forKey:(id)arg1;
+- (void)SUserActivity",R,N,V_userActivity;
+- (void)scrollerImp:convertRectToLayer: /* Error: Ran out of types for this method. */;
+- (void)T@"NSString",C,N,G_currentActivityContinuationUUIDString,S_setCurrentActivityContinuationUUIDString:(id)arg1 ,V_currentActivityContinuationUUIDString;
+- (id)rvalWeight;
+- (void)entViewProvider;
+- (id)avigationBarPlatterAnimationView;
+- (id)sDomain;
+- (void)Dy;
+- (id)Äô$;
+- (double);
+- (id);
+- (_Bool)ÿÊÄîÿ;
+- (id)straints to %@.
+%@ or one of its superclasses may have overridden -updateViewConstraints without calling super or sending -updateConstraints to the view. Or, something may have dirtied layout constraints in the middle of updating them.  Both are programming errors.;
+- (void));
+- (struct CGRect)16B20;
+- (id)collection view's data source returned a supplementary view with an unexpected element kind. Collection view:%@; requested element kind:%@; supplementary view element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
+- (long long)iousBackEntry=%p previousItems=%p transitionAssistant=%p;
+- (void));
+- (void)ator. Property animators must either finish animating or be explicitly stopped and finished before they can be released. (animationState = %@, isStarting = %@, hasFinalized = %@, name = %@);
+- (struct CGSize)ions;
+- (void)þÿÄÎþÿ;
+- (void)8¾7y¾7_G;
+- (void)dgedEnvironmentKeyP;
+- (long long)ÿ;
 - (void);
-- (void)|NÿhØß];
-- (double)rÜÿ;
-- (void)Ô;
-- (void)ÿ#ØÇ;
-- (long long)VO;
-- (id)	;
-- (void);
-- (void)hÿ:(id)arg1;
+- (void)0ýL43;;
+- (id);
 - (void);
-- (void)àÿ0EÐ'­`;
-- (id)þ;
+- (void)Ð];
+- (void)3ÿ³ü1^;
+- (void)^;
+- (void)8Lÿ;
+- (double);
+- (void)ö¸;
+- (id);
+- (void)_;
+- (void)àÿq;
+- (void)\ú`;
+- (void)Gºÿ¡;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustForTabBar; // @synthesize adjustForTabBar=_adjustForTabBar;

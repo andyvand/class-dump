@@ -21,8 +21,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain) NSString *_inContent; // @synthesize _inContent;

@@ -36,14 +36,13 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)$²;
+- (id);
+- (id);
+- (id)#ÿ6É¤;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;

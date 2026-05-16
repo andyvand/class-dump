@@ -7,7 +7,6 @@
 @class NSDictionary, NSString;
 
 @protocol HMRemoteLoginMessageProtocol
-- (NSDictionary *)letionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *messageName;

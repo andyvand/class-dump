@@ -5,8 +5,5 @@
 //
 
 @protocol IMDaemonChatModifyReadStateProtocol
-- (void)8d#(b(b;
-- (void)A;
-- (void);
 @end
 

@@ -5,7 +5,5 @@
 //
 
 @protocol CKAppCardViewControllerProtocol
-- (void)esIfNecessary;
-- (void)ì;
 @end
 

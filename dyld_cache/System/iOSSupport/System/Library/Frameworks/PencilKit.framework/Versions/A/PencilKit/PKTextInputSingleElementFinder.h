@@ -15,13 +15,13 @@
     NSSet *_candidateElements;
 }
 
-- (id)rmingOperationWithError: /* Error: Ran out of types for this method. */;
-- (void)ceInfoWithAppVersion:(struct CGPoint)arg1 formatVersion:(id)arg2 seedNumber:(CDUnknownBlockType)arg3 buildNumber: /* Error: Ran out of types for this method. */;
-- (void)pVersion:(struct CGPoint)arg1;
-- (id)elegate;
+- (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
+- (void)veredElementsByUniqueID;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *candidateElements; // @synthesize candidateElements=_candidateElements;

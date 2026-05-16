@@ -13,21 +13,21 @@
     NSUUID *_uuid;
 }
 
-+ (_Bool)ns;
-- (void);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;

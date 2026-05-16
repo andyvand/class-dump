@@ -22,8 +22,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Layout didUpdate];
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *dataSectionManagers; // @synthesize dataSectionManagers=_dataSectionManagers;

@@ -20,10 +20,10 @@
     MISSING_TYPE *onCompleteTransitionOut;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

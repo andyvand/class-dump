@@ -7,6 +7,7 @@
 @class NSArray, NSString;
 
 @protocol SCUIInterventionScreenModelProtocol
+- (long long)crypted report with ID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *actions;

@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     UITabBarButton *_view;
 }
 
-- (id)allbackGUID:(id)arg1;
+- (id);
+- (id);
+- (id)e;
 - (void);
-- (id)V;
-- (void);
-- (id)ViewSettingsAdaptiveLight;
+- (void)uÿ
+ÓÉRb;
 
 @end
 

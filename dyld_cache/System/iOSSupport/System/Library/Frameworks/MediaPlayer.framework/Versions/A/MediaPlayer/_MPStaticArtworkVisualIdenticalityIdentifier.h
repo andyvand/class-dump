@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     NSString *_videoArtworkIdentifier;
 }
 
-- (id)//com.apple.garageband10;
+- (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)ForChannelLayoutTag: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

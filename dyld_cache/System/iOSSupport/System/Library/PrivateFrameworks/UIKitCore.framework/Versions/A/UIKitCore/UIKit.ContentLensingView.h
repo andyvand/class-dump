@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)ct;
+- (id)InertImpl;
+- (void)B8Û|Ðl;
 
 @end
 

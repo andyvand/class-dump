@@ -28,7 +28,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -47,35 +47,35 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (void)workMonitor;
-- (void)rror creating temporary directory:(id)arg1 %@;
-- (void)om data. %@;
-- (void)chive at %@. error:(id)arg1 %@;
-- (void)rom source BUReadChannel:(id)arg1 %zd %{public}@ %@;
-- (_Bool);
 - (void);
 - (void);
-- (void)>;
-- (id);
-- (void);
-- (void);
-- (void))A;
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool)b-0b;
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)WithHandlesLegacy bailing because this is a group chat.;
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void)thFrameOfView:edgeInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

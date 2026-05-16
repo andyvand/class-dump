@@ -12,12 +12,13 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)y.ò®ye®ySay§õ>Gi®AAyAAyAAyî®y½b®yABy$î®yAAyk^®Æ4®GAEySayõ>GAHñ®yAByAAyfñ®yAKÆb®GxY®yZb®SgGGAKGGGG[óýÿyAAyAAyAKe:®GAWGGGG_`è®Qo_ATyç®GGATyK]®SgGGA2_GGGG#h®GALGALGALGALG /* Error: Ran out of types for this method. */;
-- (void);
-- (struct UIEdgeInsets)q¼3vº1;
+- (struct UIEdgeInsets)21_A27_G_Qo_G6
+]Gt;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP7ChatKit49CKPosterRenderingTranscriptBackgroundViewDelegate_> delegate; // @synthesize delegate;

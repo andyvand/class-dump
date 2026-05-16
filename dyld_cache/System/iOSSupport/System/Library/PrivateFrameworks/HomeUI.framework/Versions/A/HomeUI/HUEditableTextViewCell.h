@@ -32,16 +32,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (_Bool)results. Trigger %@, Event builder item:%@, event builders:%@ /* Error: Ran out of types for this method. */;
-- (void)O;
+- (void),V_previousCollectionViewSize;
+- (void)aActivityZonesProceedWithoutSavingText;
+- (_Bool);
+- (void)@Ù;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

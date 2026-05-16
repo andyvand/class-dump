@@ -11,9 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)=
-×£pý=À=
-×£p=2@ÍÌÌÌÌLD@í|?5þ:(id)arg1 @Zd;ßQ@¶óýÔxñU@ClçÛFÀ`åÐ"Ûù;
+- (id){CGSize=dd}}24@56@64;
 
 @end
 

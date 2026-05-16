@@ -17,14 +17,13 @@ __attribute__((visibility("hidden")))
     double _timeBalance;
 }
 
-- (void)0@ù
-× ;
-- (_Bool)64;
-- (void)thOrder:inLayouts: /* Error: Ran out of types for this method. */;
-- (void)epresentedSuggestion;
-- (void)À\;
-- (void);
-- (void) k;
+- (void)ectsImage:style: /* Error: Ran out of types for this method. */;
+- (void)L[[\;
+- (_Bool)l presentation style other than full screen or custom %@.;
+- (void)th unsupported;
+- (void)ÀÏc;
+- (void);
+- (void)êg;
 
 @end
 

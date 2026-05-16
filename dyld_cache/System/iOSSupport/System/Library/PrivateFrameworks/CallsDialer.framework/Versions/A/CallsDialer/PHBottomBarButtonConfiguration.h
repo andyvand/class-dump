@@ -49,18 +49,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (long long);
+- (long long);
+- (id);
 - (id);
 - (id);
 - (double);
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;

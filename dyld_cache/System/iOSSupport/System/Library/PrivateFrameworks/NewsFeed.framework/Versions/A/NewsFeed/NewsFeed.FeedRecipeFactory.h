@@ -11,8 +11,9 @@
     MISSING_TYPE *accessProvider;
     MISSING_TYPE *imageShareAttributeProvider;
     MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *externalRecipeFactory;
+    MISSING_TYPE *recipeFactory;
     MISSING_TYPE *featureAvailability;
+    MISSING_TYPE *appConfigManager;
 }
 
 @end

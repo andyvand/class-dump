@@ -31,9 +31,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)id append view controller %{public}@ with transition identifier %{public}s;
-- (_Bool)Delegate dataManagerFeedPrepared;
-- (void){public}ld;
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);

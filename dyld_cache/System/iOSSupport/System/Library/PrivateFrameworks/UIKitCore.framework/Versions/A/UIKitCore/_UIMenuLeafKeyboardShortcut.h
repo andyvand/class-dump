@@ -17,8 +17,8 @@
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)e;
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -26,16 +26,16 @@
 - (id);
 - (id);
 - (id);
-- (void)atchOnly:(struct __GSKeyboard *)arg1 shouldDisableScreenTimeRestrictions:(_Bool)arg2 hasAttachments:(_Bool)arg3 requiredCapabilities:(_Bool)arg4;
-- (_Bool)PayloadDataWithTransferGUID:messageGUID: /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)Representation;
-- (id);
-- (void);
-- (id)er: /* Error: Ran out of types for this method. */;
+- (_Bool)SDirectionalEdgeInsets:(id)arg1;
+- (void)ndimmedDetentIdentifier:(id)arg1;
+- (id)ension;
+- (void)DisplayMode;
 
 // Remaining properties
 @property(nonatomic, getter=isAutomaticLocalizationEnabled) _Bool automaticLocalizationEnabled; // @synthesize automaticLocalizationEnabled=_automaticLocalizationEnabled;

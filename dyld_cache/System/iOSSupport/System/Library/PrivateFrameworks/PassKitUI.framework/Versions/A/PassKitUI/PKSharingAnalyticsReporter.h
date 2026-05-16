@@ -14,10 +14,12 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)qøÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *sessionToken;

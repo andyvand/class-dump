@@ -8,7 +8,7 @@
 {
 }
 
-- (id)Config;
+- (id);
 - (id);
 
 @end

@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSArray, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *);
-- (UITextPosition *);
-- (UITextPosition *);
-- (NSArray *)1¢!0@ù
-× ;
-- (UITextRange *)AJ°!ÈDùR°1¢!0@ù
-× ;
-- (UITextRange *)FùqS1¢!0@ù
-× ;
-- (UITextPosition *)qSð1¢!0@ù
-× ;
-- (void)r";
-- (UITextPosition *)h;
-- (long long)Number:(UITextPosition *)arg1 number:(UITextPosition *)arg2;
-- (void)ition;
-- (long long)8ÝøÝ Þ;
-- (UITextPosition *)PStorageMeasurer addAttachmentLayout:(UITextPosition *)arg1 ];
-- (UITextRange *)s/TSDFrameRep.m;
-- (UITextPosition *)m.apple.xbs/Sources/AlderShared/drawables/TSDCheckableTableViewCell.m;
-- (void)calculated as expected! Image may be the wrong size.;
-- (NSDictionary *)boxedOverrideValueForProperty:] /* Error: Ran out of types for this method. */;
-- (void)ldn't read with error %@;
-- (struct CGRect);
-- (id <UITextInputTokenizer>)ô;
-- (id <UITextInputDelegate>)l;
+- (NSString *)WithContext:(UITextRange *)arg1 geometry:pathSource: /* Error: Ran out of types for this method. */;
+- (NSArray *)orage;
+- (long long)WPHyperlinkField",&,N,V_hyperlink;
+- (NSDictionary *)lementAtIndex: /* Error: Ran out of types for this method. */;
+- (long long)on;
+- (UITextRange *)ternal;
+- (long long)øÐ;
+- (UITextRange *)¸C;
+- (struct CGRect)anNumericDoubleParenKind;
+- (void)ddenDeletionMarkup];
+- (UITextPosition *)orm! %@;
+- (UITextPosition *)xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDContentAnimation.m;
+- (UITextPosition *)UParticleSystem startingPointAtIndexPoint:] /* Error: Ran out of types for this method. */;
+- (id <UITextInputDelegate>)forLayer:forShadow:forHitTest:] /* Error: Ran out of types for this method. */;
+- (id <UITextInputTokenizer>)size;
+- (void)~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKKeyboardMonitor.m;
+- (struct CGRect)etCancelButtonIndex:(UITextRange *)arg1 ];
+- (void)handler:]_block_invoke_4 /* Error: Ran out of types for this method. */;
+- (UITextRange *)TSP:(struct CGPoint)arg1:ObjectStateIdentifier::dataState() const /* Error: Ran out of types for this method. */;
+- (UITextRange *)%@;
+- (UITextPosition *)space;
+- (UITextPosition *)Ô	;
+- (void);
+- (void)öñX_ÂSÛVNmQNkQ]NöùX0ÁSOFÒgLcsöùX³ÃSOÓùÒgLcs;
 
 @optional
-- (UITextPosition *);
-- (void)d;
-- (UIView *)
-× ;
-- (void)imarySelectionForEditor:(NSString *)arg1;
-- (void)textureSize:(id)arg1 maxDistance:(_Bool)arg2 edgeInsets:downsampleScale:floatTexture:makeCPUReadable:metalContext:capabilities: /* Error: Ran out of types for this method. */;
-- (void)ecordWithKind:(NSArray *)arg1 details: /* Error: Ran out of types for this method. */;
-- (struct CGRect)Ô/0;
-- (void)assign from.;
-- (void),3;
-- (_Bool)red/drawables/TSDCheckableTableViewCell.m;
-- (UITextPlaceholder *)-[TSDMetalLayer setDevice:(struct CGSize)arg1 ];
-- (_Bool)value of a %@-valued property.;
-- (void)on;
-- (void)é?-Cëâ6
-?
-×#<¤p}?É?;
+- (void)Preset;
+- (void)pÈ;
+- (void)x#´#à#`%Ð%;
+- (void);
+- (UIView *)endOperation];
+- (struct CGRect)È;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -81,5 +69,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

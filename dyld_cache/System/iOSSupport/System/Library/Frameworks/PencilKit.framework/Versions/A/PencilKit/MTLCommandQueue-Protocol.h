@@ -5,11 +5,10 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLResidencySet;
+@protocol MTLDevice;
 
 @protocol MTLCommandQueue
-- (void)yptRSA:(id <MTLResidencySet>)arg1 length:result: /* Error: Ran out of types for this method. */;
-- (void)e:(const id *)arg1;
+- (void)olWithIdentifier:(NSString *)arg1;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

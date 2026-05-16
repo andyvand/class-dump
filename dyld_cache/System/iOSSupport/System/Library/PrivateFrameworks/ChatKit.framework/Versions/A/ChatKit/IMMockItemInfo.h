@@ -13,12 +13,12 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)é>6m¼-;
++ (_Bool)gnmentMode:numRegions: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (long long)T;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool outgoing; // @synthesize outgoing=_outgoing;

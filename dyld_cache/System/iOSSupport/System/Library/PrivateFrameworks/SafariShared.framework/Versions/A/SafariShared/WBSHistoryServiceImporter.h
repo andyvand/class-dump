@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)ÿÿZ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) WBSHistoryServiceDatabase *database; // @synthesize database=_database;

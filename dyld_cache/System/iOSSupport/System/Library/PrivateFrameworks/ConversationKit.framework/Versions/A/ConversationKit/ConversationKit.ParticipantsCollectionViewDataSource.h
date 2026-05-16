@@ -14,10 +14,10 @@
     MISSING_TYPE *didCreateCellForParticipant;
 }
 
-- (long long);
-- (void);
 - (id);
 - (long long);
+- (long long);
+- (void)yACyVÝqÛySiSgGGG,ÑGG_Qo_ADyäy0¢_ACyACyAERÎGAQGSgtGG_G;
 - (id);
 
 @end

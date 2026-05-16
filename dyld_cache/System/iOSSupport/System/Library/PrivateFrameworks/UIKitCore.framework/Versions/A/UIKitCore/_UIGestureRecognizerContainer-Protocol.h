@@ -8,11 +8,6 @@
 @protocol _UIGestureRecognizerContainer;
 
 @protocol _UIGestureRecognizerContainer
-- (id <_UIGestureRecognizerContainer>)e:operationalErrorDomain:operationalErrorCode:validationErrorDomain:validationErrorCode: /* Error: Ran out of types for this method. */;
-- (UIWindow *)c;
-- (long long);
-- (void)Hx8hX<ø(t 
-ô;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIGestureRecognizerContainer> _actingParentGestureRecognizerContainer;

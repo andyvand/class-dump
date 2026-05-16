@@ -5,8 +5,5 @@
 //
 
 @protocol _UISwipeActionDynamicButtonViewDelegate
-
-@optional
-- (void);
 @end
 

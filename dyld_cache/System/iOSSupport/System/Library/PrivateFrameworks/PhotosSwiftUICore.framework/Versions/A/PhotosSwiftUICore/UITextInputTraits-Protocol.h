@@ -9,20 +9,30 @@
 @protocol UITextInputTraits
 
 @optional
-- (_Bool)×;
-- (void)ngeOfComposedCharacterSequenceAtIndex:(_Bool)arg1;
-- (void)µ;
-- (long long)|LüÿMüÿdNüÿNüÿpOüÿQüÿ¤QüÿTüÿTTüÿTüÿÜTüÿ;
-- (void)ÿ;
-- (long long);
-- (long long)ar;
-- (long long)Hëþÿ;
-- (long long)s¼ÙÍÿ;
-- (long long)Íìÿ;
-- (long long)sSearchTokenDisplayInfo;
-- (long long)_úáQo_SgtGGÍìy¿íSgGG.ëy8éGGSg_VëyAEySaySiAF_E;;
-- (void)G;
-- (long long)yA10_®GHGGG_AAyAQyA20_GAOGQo_A2_G)GGGA17_GA17_GA17_G³%yAAyAAy/¼SÊ*GAOGGGAIGA17_G×$yyÀGGt;
+- (UIConversationContext *);
+- (long long)iew;
+- (void)g;
+- (long long)l view with AX identifier %s;
+- (long long)Search.ZKW.ShowLess;
+- (long long)Ü÷ÿÙ/ÿÿ;
+- (long long)ÿ¤úÿ¶úÿ¾\øÿ;
+- (long long)qÿÿì-øÿð.øÿHàúÿ;
+- (void);
+- (void)`vàÿ;
+- (void)ûÿ;
+- (void)8ðÿ;
+- (long long)archOverlayViewComponent;
+- (void)ÿõÜµ	øªÑÿõÜµ	ôªÑÿõÜµ	ôªÑÿýÜµ	`¯Ùÿ;
+- (void)±¶	y«+ß	ARSQ12CoreGraphicsyHCg_GG_Ì/ß	Qo_;
+- (void)¸	GGÇ·	G·	GÓà	G;
+- (long long)I_AAyq1_%Q¸	GtGSgtGGGGAQG;
+- (long long)uéà	GG;
+- (unsigned long long)%á	yACyACyACyACyACy¸	yþà	¸	G'y¸	G¡¸	yS{¸	GGL¸	y¶¸	GGox¸	y±|¸	GGº¸	yACyq³¸	yAWGðy¸	GGGGA1_Gs¸	GGG3¸	GG_ã¸	yACyACyACyô¸	ARy¼¸	SgGGûz¸	GA1_GGtG;
+- (_Bool)ADGACyACy/ß¸	y!à¸	yAD_ADtGGAIGAEGGAEGACyAdAyADØ¹	GGGGÛ¸	yÛ¸	SgGGHÚ¸	yrÙ¸	GG;
+- (void)ACyACyACy.H¹	yACyACyACyACy¼¹	y&¹	yACyE¹	X¹	GSg_AByACyACyACyACyà¹	yACyACyü¹	AHGAHG_Qo_¹	G¹	G!
+¹	ySbGG?¹	yé	¹	GGSgAPGSgACyACyAgQGATGSgtGGAHGAHGS
+¹	y¥¹	yÇ¹	"¹	]¹	yA10_¹	GGGG
+¹	yA10_GG_C¹	Qo_Å¹	yW¹	GG¹	yò¹	SgGG	¹	G¹	yA10_GG7¹	GATG_Õá	Qo_á	y¯á	_Y¬¹	SgQo_G¦á	GACyACyACy·L¹	yA41_G,á	Gá	G(¹	ySbGGGACyA41_V¹	GGG;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

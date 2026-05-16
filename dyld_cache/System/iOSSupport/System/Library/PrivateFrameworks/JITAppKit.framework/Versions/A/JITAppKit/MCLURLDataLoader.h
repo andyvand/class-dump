@@ -110,8 +110,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -121,18 +122,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURLCache *cache;

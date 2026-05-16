@@ -15,13 +15,13 @@
 }
 
 + (id);
-- (id)@9;
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)m DAV to CloudKit;
+- (void)adataElement = this.adoptableMetadataBlock();if (metadataElement) {var allMetadataElements = metadataElement.getElementsByTagName('*');var numberOfMetadataElements = allMetadataElements.length;for (var i = 0; i < numberOfMetadataElements; ++i) {var element = allMetadataElements[i];element.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);}}var metadataHTML = '';if (metadataElement && metadataElement.innerText) {metadataElement.className = 'metadata';metadataHTML = metadataElement.outerHTML;}articleHTML = subheadHTML + metadataHTML + articleHTML;articleHTML;;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *recentlyBreachedSavedAccountsIfAvailable;

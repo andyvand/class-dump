@@ -10,7 +10,7 @@
 {
 }
 
-- (id)owerLogStatistics;
+- (id)36@0:(id)arg1 8i16@20@?28;
 
 @end
 

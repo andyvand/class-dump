@@ -39,15 +39,15 @@
 - (void);
 - (void);
 - (unsigned char);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
+- (_Bool);
 - (struct CGImage *);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

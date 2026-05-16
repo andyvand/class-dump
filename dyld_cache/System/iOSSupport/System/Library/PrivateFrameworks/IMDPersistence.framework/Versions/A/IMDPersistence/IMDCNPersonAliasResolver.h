@@ -18,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,12 +33,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)hColor",&,N,V_swatchColor;
-- (void)MessagesWithChatIdentifiersOnServicesBeforeAndAfterGUID IMDP client got null array_result back:(id)arg1 %@;
-- (id)ntTaskQueries>"8;
-- (id);
+- (id);
+- (id);
+- (void)re new database step:%@ /* Error: Ran out of types for this method. */;
+- (id)E index_state != 2 AND (((associated_message_type not between 2000 and 2007) and associated_message_type != 0) or item_type != 0);
+- (void)_recoverable_messages AS urrm LIMIT ?;;
+- (id)d IMDSqlStatementBindInt64(IMDSqlStatement *, int64_t);
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *acceptedContactStore; // @synthesize acceptedContactStore=_acceptedContactStore;

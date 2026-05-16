@@ -22,19 +22,19 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-- (double)ghlightsController;
+- (double);
 - (void);
-- (void)ObjectIDC;
+- (void);
 - (_Bool);
-- (id)pting share metadata for share %@;
-- (void)RB;
+- (id);
 - (void);
 - (void);
 - (void);
-- (struct CGSize)i;
+- (id);
+- (struct CGSize);
 - (void);
-- (id)e«yS«yAByl«çI«Gyo«yû«GGAByvüÿAHGG;
-- (void)§\¬G_A4_yACyA9__A9_A9_A9_A9_A9_tGGtGGGGSgGGA5_yA5_yA12_A5_yAfDGG}¬GGGt;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKInvisibleInkEffectCoverageTrackerDelegate> delegate; // @synthesize delegate=_delegate;

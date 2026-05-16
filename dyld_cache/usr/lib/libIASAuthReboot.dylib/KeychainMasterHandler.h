@@ -17,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)jQ;
+- (_Bool);
 - (id);
 - (void);
 - (int);

@@ -33,19 +33,19 @@
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (id);
-- (void);
-- (void);
 - (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool)work_school_shortcut;
+- (void)ensionManager;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentTextFieldValue;

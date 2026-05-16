@@ -38,21 +38,20 @@
     long long _keyboardVisualState;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)"16;
 - (void);
 - (void);
 - (double);
-- (void)oForAspectRatio:(struct CGRect)arg1;
-- (void)tUpdatedItemIndexPaths:(double)arg1;
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -61,54 +60,54 @@
 - (void);
 - (void);
 - (void);
-- (id)5F;
 - (void);
-- (void);
-- (_Bool)Â1¢!0@ù
+- (void)ùQ[1Â0@ù
 × ;
 - (void)
 × ;
-- (void)uÐ!pEùÑÉÐ1¢!0@ù
-× ;
-- (double)v°!\BùQË1¢!0@ù
-× ;
-- (long long)Ì1¢!0@ù
-× ;
-- (void)nt=dd}16d32@40d48^d56q64q72;
-- (long long)vailableConfigurationUpdate"b1};
-- (void)aseIsStart:(double)arg1 allowFlipping:(double)arg2;
-- (void)ximumSize:(id)arg1;
-- (int)ystem;
-- (id)xtServiceAnimated: /* Error: Ran out of types for this method. */;
-- (void)withSource:(double)arg1 withType:(_Bool)arg2 withInputActionCount: /* Error: Ran out of types for this method. */;
-- (void)clickDriver:(double)arg1 shouldDelayGestureRecognizer:(struct CGRect)arg2;
-- (void)tIsRelativeToCellEdges;
-- (void)t:(double)arg1 embeddedInView:(long long)arg2 usingViewForLayoutConstraints:permittedArrowDirections:animate: /* Error: Ran out of types for this method. */;
-- (void)TargetedPreview:(long long)arg1;
-- (id)ttributes:allowsLargeTitle: /* Error: Ran out of types for this method. */;
-- (void)withRect:(long long)arg1;
-- (void)l;
-- (id),V_serviceWindowHostingHandle;
-- (_Bool)llectionViewController;
-- (id)XÄÅÅ ÆTÉxÉàÉðË8Ï;
-- (id)Ð;
-- (long long)a touch view the current view without finding a touch for the current window;
 - (void);
-- (id)bled;
-- (void)is internal method;
-- (void)t margins of a private view;
-- (double)4 ìiþ;
-- (void);
-- (double)×MÕc;
-- (void)òÁd;
-- (void)Fïe;
-- (void)P¡êÿ<Ô;
-- (id)2 g;
-- (void)ØÆÿIºÐ«åg;
-- (void)â;
-- (void)N`l;
-- (struct CGSize);
-- (_Bool)ÿÀxØ_m;
+- (void);
+- (void)0@ù
+× ;
+- (id)!AùÑg°1Â0@ù
+× ;
+- (void)32@40^@48;
+- (void)ffableDataSourceState";
+- (id)d: /* Error: Ran out of types for this method. */;
+- (_Bool)sk:withName: /* Error: Ran out of types for this method. */;
+- (void)oresizingMaskIntoConstraints;
+- (void)etEdgesForScreenGestureRecognition;
+- (id);
+- (void)shotViewForWindow;
+- (void)oregroundTransparentWithBlock:(id)arg1;
+- (void)izedIconImageView;
+- (void):inLayer: /* Error: Ran out of types for this method. */;
+- (id)sform;
+- (void)CreationAndSelfSizingOutsideVisibleCellsUpdate;
+- (int)FromAttributedString: /* Error: Ran out of types for this method. */;
+- (void),R,N,GisInteractiveSelectionDisabled;
+- (id)ttributes;
+- (double)"NSAttributedString",C,N,S_setAttributedDetailMessage:,V_attributedDetailMessage /* Error: Ran out of types for this method. */;
+- (double)kItemView;
+- (long long);
+- (void)ÈÔ4Õ;
+- (id);
+- (long long)@"NSString"16;
+- (void)hangeNotification;
+- (id)ue_scheduleUpdateAndSaveForPersistedSceneSessions(void);
+- (id)ateRestoration) encodeRestorableStateWithCoder:] /* Error: Ran out of types for this method. */;
+- (id)self. View:%@; Superview:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)`;
+- (void)Ü>ßÿ;
+- (void);
+- (double)Xa;
+- (void)y;
+- (void);
+- (void)d+g;
+- (struct CGSize)Uÿ;
+- (_Bool)ìýj;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long backdropStyle; // @synthesize backdropStyle=_backdropStyle;

@@ -24,15 +24,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id)GùÑ´°1B50@ù
+× ;
+- (void)Words:(id)arg1 mainImageURL:URL: /* Error: Ran out of types for this method. */;
+- (void)ntentAction;
+- (void)count;
+- (id)ResTBEB;
 - (id);
-- (void)rl;
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *apiToken; // @synthesize apiToken=_apiToken;

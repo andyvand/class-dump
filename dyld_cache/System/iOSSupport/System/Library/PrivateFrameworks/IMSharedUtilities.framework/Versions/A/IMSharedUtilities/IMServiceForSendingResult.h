@@ -13,16 +13,16 @@
     NSDictionary *_resultsByAccountID;
 }
 
-+ (_Bool)viceSelections;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)nailPxSize;
 
 // Remaining properties
 @property(readonly, nonatomic) IMServiceReachabilityResult *bestResult; // @synthesize bestResult=_bestResult;

@@ -15,12 +15,12 @@
     void additionalBuyParams;
 }
 
-- (void)(;
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *additionalBuyParams;

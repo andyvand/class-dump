@@ -19,15 +19,15 @@
 }
 
 - (struct CGSize);
-- (void);
-- (struct CGSize)t;
+- (struct CGSize);
 - (id);
 - (void);
-- (void)et;
-- (void)1;
-- (id)tLogUnsatisfiable;
 - (struct CGSize);
-- (_Bool)\çÿMBÐÂg];
+- (id):(struct CGRect)arg1 currentAnimationSettings: /* Error: Ran out of types for this method. */;
+- (void)´_]þ;
+- (void);
+- (_Bool)a;
+- (void)dÌÛþ;
 
 // Remaining properties
 @property(nonatomic) _Bool highlighted;

@@ -5,7 +5,6 @@
 //
 
 @protocol PXStoryResourcesPreloadingCoordinatable
-- (_Bool)IÞ0/;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCompleted;

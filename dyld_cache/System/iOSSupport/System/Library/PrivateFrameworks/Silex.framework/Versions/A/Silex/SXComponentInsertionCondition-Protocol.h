@@ -5,8 +5,5 @@
 //
 
 @protocol SXComponentInsertionCondition
-
-@optional
-- (void);
 @end
 

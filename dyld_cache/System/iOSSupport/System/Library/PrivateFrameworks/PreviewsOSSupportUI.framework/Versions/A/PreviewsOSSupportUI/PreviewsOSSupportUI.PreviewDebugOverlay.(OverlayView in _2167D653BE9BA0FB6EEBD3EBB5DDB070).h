@@ -12,12 +12,12 @@
     MISSING_TYPE *label;
 }
 
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

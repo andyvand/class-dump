@@ -25,12 +25,12 @@
 - (void);
 - (long long);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
 

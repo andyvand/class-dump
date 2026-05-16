@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class NSString, UIView, UIViewController;
 
 @protocol UIViewControllerContextTransitioning
-- (_Bool)gthBars"i"serviceString"[100c]"secondaryServiceString"[100c]"serviceCrossfadeString"[100c]"secondaryServiceCrossfadeString"[100c]"serviceImages"[2[100c]]"operatorDirectory"[1024c]"serviceContentType"I"secondaryServiceContentType"I"cellLowDataModeActive"b1"secondaryCellLowDataModeActive"b1"wifiSignalStrengthRaw"i"wifiSignalStrengthBars"i"wifiLowDataModeActive"b1"dataNetworkType"I"secondaryDataNetworkType"I"batteryCapacity"i"batteryState"I"batteryDetailString"[150c]"bluetoothBatteryCapacity"i"thermalColor"i"thermalSunlightMode"b1"slowActivity"b1"syncActivity"b1"activityDisplayId"[256c]"bluetoothConnected"b1"displayRawGSMSignal"b1"displayRawWifiSignal"b1"locationIconType"b2"voiceControlIconType"b2"quietModeInactive"b1"tetheringConnectionCount"I"batterySaverModeActive"b1"deviceIsRTL"b1"lock"b1"breadcrumbTitle"[256c]"breadcrumbSecondaryTitle"[256c]"personName"[100c]"electronicTollCollectionAvailable"b1"radarAvailable"b1"announceNotificationsAvailable"b1"wifiLinkWarning"b1"wifiSearching"b1"backgroundActivityDisplayStartDate"d"shouldShowEmergencyOnlyStatus"b1"emergencyOnly"b1"secondaryCellularConfigured"b1"primaryServiceBadgeString"[100c]"secondaryServiceBadgeString"[100c]"quietModeImage"[256c]"quietModeName"[256c]};
-- (UIView *)dbackLoopDebugger";
-- (void)ontroller;
-- (struct CGRect)À©;
-- (void)spendAnimationNotification;
-- (_Bool)ithCoder:] when created from -[%@ %@] /* Error: Ran out of types for this method. */;
-- (UIView *)Vertical || layoutAxis == UIAxisHorizontal;
-- (struct CGRect)ButtonItem"8^B16;
-- (struct CGAffineTransform)agBox;
-- (void);
-- (long long)¤#;
-- (_Bool)ons;
-- (UIViewController *)îfþ;
+- (void)idth: /* Error: Ran out of types for this method. */;
+- (_Bool)è;
+- (UIView *)y);
+- (long long)lorWhite_Alpha25;
+- (struct CGRect)iner(__strong id<UIFocusEnvironment> _Nonnull, BOOL);
+- (UIViewController *)queueConfiguredReusableSupplementaryViewWithRegistration:(NSString *)arg1 forIndexPath:or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)UITabBarItem.m;
+- (struct CGAffineTransform)ation bar. topItem = %@, navigation bar = %@, possibly from a client attempt to nest wrapped navigation controllers.;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

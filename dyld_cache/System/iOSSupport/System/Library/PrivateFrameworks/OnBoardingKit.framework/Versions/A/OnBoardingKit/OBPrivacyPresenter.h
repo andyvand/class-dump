@@ -48,14 +48,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -66,13 +66,13 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (id);
 - (long long);
-- (void);
+- (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void)iption:(id)arg1 accessoryButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool animatePresentAndDismiss; // @synthesize animatePresentAndDismiss=_animatePresentAndDismiss;

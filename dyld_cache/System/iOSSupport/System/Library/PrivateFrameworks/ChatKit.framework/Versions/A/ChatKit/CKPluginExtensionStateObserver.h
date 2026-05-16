@@ -12,15 +12,15 @@
 }
 
 + (id);
-+ (id)$8)µ1;
-- (_Bool)tableState;
-- (void)ttributedString;
-- (void)ayDate:(_Bool)arg1;
-- (void)dowController;
++ (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)rdMessage;
+- (void);
 - (void);
 - (void);
 - (void);

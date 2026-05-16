@@ -14,15 +14,18 @@
 }
 
 + (void);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
-- (void)P(º;
-- (id)transition data:%@/%lu/%@ /* Error: Ran out of types for this method. */;
-- (void)iew controller without a valid tab:(id)arg1 %@;
-- (id)e;
-- (void)ÿË;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)Á
+Ð!<@ùqg°1Â0@ù
+× ;
+- (void);
+- (void)ü2ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

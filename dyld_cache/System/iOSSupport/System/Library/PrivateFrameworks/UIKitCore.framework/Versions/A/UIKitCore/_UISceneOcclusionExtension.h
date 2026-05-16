@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)�;
++ (id);
 
 @end
 

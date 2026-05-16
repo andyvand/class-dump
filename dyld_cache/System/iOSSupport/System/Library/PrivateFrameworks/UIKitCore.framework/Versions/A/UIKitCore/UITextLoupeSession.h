@@ -18,28 +18,30 @@
     id <_UITextLoupeSessionDelegate> _delegate;
 }
 
-+ (id)Notification;
 + (id);
 + (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void)account:(struct CGPoint)arg1 inviteReceivedForSession:(struct CGRect)arg2 fromID:(_Bool)arg3;
-- (id)undIfNecessary:toIdentifier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
-- (void)h7;
-- (void)ing complete success to NO because of attachment send result. (Error:(struct CGPoint)arg1 %@);
-- (struct CGPoint)usiness chat;
-- (void)eached ********;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)× ;
-- (void)led;
-- (id)ationY;
-- (void)Replace;
-- (id)Nÿ½ØNd;
-- (void)8oþ;
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (id)
+× ;
+- (void)Qg°1Â0@ù
+× ;
+- (void)attemptsToUseAncestorViewContainer;
+- (id)UITextSearchingWrapper;
+- (id)8ÿ;
+- (void)Ûÿ¯HÖ@`;
+- (void)IØ;
+- (id)7Òðg;
 
 // Remaining properties
 @property(nonatomic) __weak UIWindow *containerWindow; // @synthesize containerWindow=_containerWindow;

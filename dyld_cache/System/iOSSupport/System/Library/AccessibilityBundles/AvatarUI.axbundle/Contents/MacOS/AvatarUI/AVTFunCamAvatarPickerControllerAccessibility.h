@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 
 @end
 

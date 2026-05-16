@@ -29,20 +29,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)nt:fromSender:ifCapableOfSMS:withConversationDowngradeState:andConversationHistoryState: /* Error: Ran out of types for this method. */;
-- (void)7-a70c-c753b1bff6fa;
-- (id)CodingKeys;
+- (void)Ù;
+- (id)odeStringValue;
+- (void)g<÷;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;

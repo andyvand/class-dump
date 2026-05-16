@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)24Q32@40@48@56;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONObjectMerger *componentStyleMerger; // @synthesize componentStyleMerger=_componentStyleMerger;

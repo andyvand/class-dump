@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void)oKitVideoContentProvider;
+- (void);
 
 @end
 

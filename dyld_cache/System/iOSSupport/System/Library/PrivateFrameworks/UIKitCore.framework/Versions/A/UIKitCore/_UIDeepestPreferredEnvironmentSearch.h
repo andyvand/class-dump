@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool)subscriptionServiceDaemonDisconnected: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (void)ChangeNotifier;
-- (void)rollerServiceDelegate>",R,N,V_serviceDelegate;
-- (void)V_syncTaskFactory;
-- (void)ingManager;
-- (void)DecisioningManaging>",&,N,V_identityLookupDecisioningManager;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)ËÐ\;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsOverridingPreferedFocusEnvironments; // @synthesize allowsOverridingPreferedFocusEnvironments=_allowsOverridingPreferedFocusEnvironments;

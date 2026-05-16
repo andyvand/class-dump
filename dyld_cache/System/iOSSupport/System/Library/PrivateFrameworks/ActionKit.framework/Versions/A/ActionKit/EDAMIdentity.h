@@ -34,11 +34,11 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)(void)_block_invoke;
-- (void)16;
+- (void)@?0@"CalculateResult"8@"NSError"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *blocked; // @synthesize blocked=_blocked;

@@ -13,21 +13,19 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
+- (double);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double)0@ù
+- (id)!Gù1[Ð1Â0@ù
 × ;
-- (id)Ô¡w!<Dù±Ìð1¢!0@ù
-× ;
-- (double)didBeginSelection"b1"didEndSelection"b1"didSelectRange"b1};
-- (id)Item;
-- (id)Configuration;
-- (_Bool);
-- (double)ht:(int)arg1;
-- (double)x
-Ä@\lDð¼¬3";
-- (double)ifierForStringsFile;
+- (double)× ;
+- (double)6f20;
+- (_Bool)tyle: /* Error: Ran out of types for this method. */;
+- (id)MaskBounds:startInsets:endInsets:intensities: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)ting;
+- (double)_acceptMenuVisit:(int)arg1 commandVisit:actionVisit:deferredElementVisit: /* Error: Ran out of types for this method. */;
+- (id)ue:(id)arg1 %ld;
+- (double)only %lu sections.;
 
 @end
 

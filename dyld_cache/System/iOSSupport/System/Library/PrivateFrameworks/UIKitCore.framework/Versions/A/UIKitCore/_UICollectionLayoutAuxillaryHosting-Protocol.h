@@ -4,20 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITraitCollection, _UICollectionLayoutContainer, _UICollectionPreferredSizes;
+@class NSArray, UITraitCollection, _UICollectionLayoutContainer, _UICollectionLayoutSupplementaryEnroller, _UICollectionPreferredSizes;
 
 @protocol _UICollectionLayoutAuxillaryHosting
-- (UITraitCollection *)yloadAllowDockFixupOverride: /* Error: Ran out of types for this method. */;
-- (_UICollectionPreferredSizes *)peFromItemCallback for item %lld;
-- (_Bool);
-- (NSArray *)0@ù
-× ;
-- (unsigned long long)Document:withText: /* Error: Ran out of types for this method. */;
-- (_Bool)ng: /* Error: Ran out of types for this method. */;
-- (_UICollectionLayoutContainer *)ï÷;
-- (long long)b[;
+- (UITraitCollection *)CurrentState;
+- (unsigned long long)View;
+- (long long);
+- (_UICollectionLayoutContainer *);
+- (_UICollectionPreferredSizes *);
+- (_UICollectionLayoutSupplementaryEnroller *)þ­43T'tþ;
+- (NSArray *)tionSceneInterfaceOrientationMode;
+- (_Bool)Á;
+- (struct CGRect)¤Ü[;
 
 @optional
-- (struct CGPoint)?Ù?Ù?ffffffÖ?Ù?Ù?ffffffæ?ffffffæ?ffffffÖ?333333ã?333333ã?ffffffæ?ÀÊ¡EÆ?ëQ¸ï?ßà©Õ?Jê4q¿¾0*¿s±lÍÀ ÿ¡@R¸ëQÈ?6@;
+- (struct CGPoint);
+- (double)behavior, as this property is managed by the owning UITableViewHeaderFooterView. View:%@ /* Error: Ran out of types for this method. */;
 @end
 

@@ -5,9 +5,5 @@
 //
 
 @protocol MPCRequestControllerDelegate
-
-@optional
-- (void);
-- (_Bool)A;
 @end
 

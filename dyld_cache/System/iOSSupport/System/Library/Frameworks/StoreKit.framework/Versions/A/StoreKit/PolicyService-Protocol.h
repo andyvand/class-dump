@@ -5,6 +5,5 @@
 //
 
 @protocol PolicyService
-- (void);
 @end
 

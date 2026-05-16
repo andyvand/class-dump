@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MISSING_TYPE, MTLRenderPassDescriptor, NSArray, VFXNode, VFXRenderGraph, VFXWorld;
+@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSArray, VFXNode, VFXRenderGraph, VFXWorld;
 @protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, VFXWorldRendererDelegate;
 
 @protocol VFXWorldRenderer
-- (void)a;
-- (MISSING_TYPE *);
-- (NSArray *)nStartRxBytes;
-- (void)sPlaybackBegunSincePlayerControllerBecameReadyToPlay:(unsigned long long)arg1;
-- (id <MTLDevice>)#;
-- (id <MTLCommandQueue>)rFramingMode: /* Error: Ran out of types for this method. */;
+- (id <MTLCommandQueue>)veFromWorld: /* Error: Ran out of types for this method. */;
+- (NSArray *)escriptions:shaderModifiers:adjustments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha;

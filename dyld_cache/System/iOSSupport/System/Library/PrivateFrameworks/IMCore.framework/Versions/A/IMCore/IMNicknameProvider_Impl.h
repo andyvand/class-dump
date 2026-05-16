@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -31,10 +31,10 @@
 - (void);
 - (id);
 - (id);
-- (void))J];
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool haveNicknamesLoaded;

@@ -18,26 +18,26 @@
 + (void);
 - (_Bool);
 - (void);
-- (id);
 - (id);
-- (id)A;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (double);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
-- (void)completeUsingApplication:kind:title:thumbnail:icon: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly) double blend; // @synthesize blend=_blend;

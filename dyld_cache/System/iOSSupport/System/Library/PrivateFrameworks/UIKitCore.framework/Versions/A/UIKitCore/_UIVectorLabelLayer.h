@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
     unsigned long long _maxRenderedMoveDistance;
 }
 
-+ (void)k;
++ (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (id)ing"24C32@"NSString"36;
-- (_Bool)ackgroundMessagingAPIMessageRegistry";
-- (id)ata:(id)arg1 powerAssertion:(id)arg2;
-- (void)redQuietlyReceiptForMessageID: /* Error: Ran out of types for this method. */;
-- (void)sOfItemAtPath:(id)arg1 error:(id)arg2;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)dCarSystemColor: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)3y¹«;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,25 +15,24 @@
 }
 
 - (double);
-- (_Bool)u sure you want to move these shared notes?;
-- (void)e access to these notes may lose it.;
-- (void)it them.;
-- (void)and edit it.;
+- (_Bool);
 - (void);
-- (void)ared folder?;
-- (void)notes within it.;
-- (void).;
-- (void)der is shared. People who currently have access to it may lose it.;
-- (void)already contains shared notes. People who currently have access to these notes may lose it.;
-- (void)already contains a shared note. People who currently have access to this note may lose it.;
-- (void)ready contains shared notes and folders. People who currently have access to these may lose it.;
-- (void)%@;};
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (void)
-;
 - (void);
-- (void)!;
+- (void);
 - (id);
+- (void)þ;
 
 @end
 

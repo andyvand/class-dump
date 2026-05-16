@@ -14,31 +14,32 @@
 }
 
 + (_Bool);
-- (double)ded;
-- (double)dUpdateSettingsKeys: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)omation;
-- (void)antUpdate;
-- (void);
-- (void);
-- (struct CGVector)le non-repeating task but was only expected to handle repeating tasks.;
-- (struct CGPoint)has sync in flight ignoring request;
-- (void)nRouteProvider;
-- (void);
-- (void);
-- (void)16@24@32;
-- (void);
-- (double)thQuery called with limit %tu and date range:%@ - %@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (struct CGPoint);
 - (double);
-- (id)setMaximumWidth:,V_maximumWidth /* Error: Ran out of types for this method. */;
-- (id)UIContextMenuLoadingCellContentView;
-- (void);Ð*k;
-- (id)$ÿðÕJZk;
-- (void)rÈGk;
-- (id)\Ô`pm;
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGVector);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint)0@ù
+× ;
+- (void)vable>"16@0:(id)arg1 8;
+- (id)ddenDisplayGamut;
+- (double)Recognizer;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double angle;

@@ -67,8 +67,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)L¼äÿUAéÐOéÿ]Aé,Oéÿ]Aé(OéÿEAé¼ãÿ-Aé@¼äÿUAé¼äÿEAéðNéÿMAé¸¼äÿ;
+- (_Bool);
+- (void)tionForFrequency: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

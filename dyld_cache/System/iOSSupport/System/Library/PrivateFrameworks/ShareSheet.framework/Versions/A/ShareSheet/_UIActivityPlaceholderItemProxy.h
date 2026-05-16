@@ -17,13 +17,13 @@
 - (Class);
 - (_Bool);
 - (id);
-- (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id placeholderItem; // @dynamic placeholderItem;

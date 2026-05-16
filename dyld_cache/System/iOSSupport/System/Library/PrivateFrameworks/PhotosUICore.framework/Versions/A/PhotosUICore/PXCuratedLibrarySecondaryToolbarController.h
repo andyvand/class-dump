@@ -14,21 +14,21 @@
     PXCuratedLibraryStyleGuide *_styleGuide;
 }
 
-- (_Bool);
+- (void);
+- (struct CGSize);
+- (id);
 - (long long);
-- (struct UIEdgeInsets);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void);
 - (struct UIEdgeInsets);
-- (_Bool);
 - (id);
+- (double)Ô¡ú°!;
+- (struct UIEdgeInsets)aResultsValue:(id)arg1 metric:forMeasure:configuration: /* Error: Ran out of types for this method. */;
+- (void)pported documentType;
+- (_Bool)PlayMovieDefaultActionTitle;
+- (void)MàÉ6;
 - (id);
-- (void);
-- (struct CGSize)eed;
-- (double)ideActionMenu;
-- (void)ÿ;
-- (id)v8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

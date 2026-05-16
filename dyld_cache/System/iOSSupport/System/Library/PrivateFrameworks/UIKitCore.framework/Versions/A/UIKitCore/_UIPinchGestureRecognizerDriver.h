@@ -36,26 +36,25 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGPoint);
 - (_Bool);
-- (double)MetricsOperation:(id)arg1;
+- (double);
 - (void);
 - (void);
+- (void);
+- (double);
 - (struct CGAffineTransform);
+- (id);
 - (double);
-- (void)PropertyKey:toDeviceSpecificUserInfoKey: /* Error: Ran out of types for this method. */;
-- (double);
-- (void);
-- (void);
-- (void)0@ù
+- (double)
 × ;
-- (void)!Eù1Îð1¢!0@ù
-× ;
-- (void)IDraggingSystemSessionInfo"24@?<v@?@"UIDraggingSystemTouchRoutingPolicy">32;
-- (void)onBarButton"16;
-- (void)opagationEnabled:(id)arg1;
-- (void):(struct CGAffineTransform)arg1;
-- (id)ame: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)¬`À4	Ü(ÔP¬	h ü \£p©¬¬®Ü®;
-- (double)tion;
+- (void)Range:(id)arg1 document:(id)arg2;
+- (void);
+- (void)iewsCanRemoveContentFromHierarchyWhenNotVisible:(id)arg1;
+- (void)fiersForSnapshot:(struct CGAffineTransform)arg1;
+- (void)Dr;
+- (struct CGPoint)ureGroupName;
+- (void)|;
+- (void)tyleATVDark;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;

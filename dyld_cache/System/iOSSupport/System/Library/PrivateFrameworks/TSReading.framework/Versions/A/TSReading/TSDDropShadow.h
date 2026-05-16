@@ -11,7 +11,7 @@
 }
 
 - (struct CGImage *);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);

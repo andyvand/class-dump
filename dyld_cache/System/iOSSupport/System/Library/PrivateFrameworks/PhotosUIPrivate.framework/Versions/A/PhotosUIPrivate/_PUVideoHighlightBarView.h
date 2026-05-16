@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
-- (void)AllProgressInfoIndexPaths;
-- (id)AdditionalViewTitleHeight;
+- (id);
+- (void)r;
 
 // Remaining properties
 @property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;

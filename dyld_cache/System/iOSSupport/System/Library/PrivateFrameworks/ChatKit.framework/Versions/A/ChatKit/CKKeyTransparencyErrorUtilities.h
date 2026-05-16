@@ -10,8 +10,8 @@
 
 + (void);
 + (void);
-+ (void)le > 0.;
-+ (void)sterForRemoteControlEvents];
++ (void);
++ (void);
 + (void);
 + (id);
 + (id);

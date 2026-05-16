@@ -30,19 +30,21 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)lForKey:(id)arg1;
-- (id);
-- (double)Switch got _handleIncomingRecents on a non gizmo. Really bad!!;
-- (double)RJ;
-- (void)ifier;
-- (id)r:(struct _NSZone *)arg1 lengths: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ibilityLevelInKeyboardWindow;
-- (void)thUpdate;
-- (id)SizeView: /* Error: Ran out of types for this method. */;
-- (id)itionalSafeAreaInsets;
-- (double)ument autosaving has completed and completion handler is now invoked:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ze of target %@ from %@ to %@;
+- (id);
+- (double);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void);
+- (unsigned long long)QZ°1Â0@ù
+× ;
+- (void)!HGù\Ð1Â0@ù
+× ;
+- (id);
+- (void)v¸ÖÈÙ[;
+- (double)b;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCustomDrivers:) NSArray *_customDrivers; // @synthesize _customDrivers;

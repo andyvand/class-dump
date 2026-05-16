@@ -20,11 +20,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (long long);
 - (void);
 - (void);
 - (id);
-- (void)0:(long long)arg1 8@16{CGSize=dd}24f40;
-- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyFlipsForRTL;

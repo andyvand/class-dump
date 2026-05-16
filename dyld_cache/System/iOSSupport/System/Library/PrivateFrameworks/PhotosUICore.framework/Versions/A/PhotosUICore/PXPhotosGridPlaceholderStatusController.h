@@ -18,8 +18,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStatusController *statusController;

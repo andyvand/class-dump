@@ -12,10 +12,10 @@
 + (id);
 + (Class);
 - (id);
+- (id);
+- (id);
 - (double);
-- (id);
-- (id);
-- (void)ion:(double)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

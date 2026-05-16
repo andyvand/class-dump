@@ -38,27 +38,28 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id)formattedCityAndStateWithCity:state: /* Error: Ran out of types for this method. */;
-- (id)Size:shouldContinueBlock:createRecordWithStatement:eventForRecord: /* Error: Ran out of types for this method. */;
-- (void)ityContainersForUserActivity:(id)arg1;
 - (id);
+- (id);
+- (void);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (unsigned long long);
 - (_Bool);
 - (long long);
 - (unsigned long long);
-- (long long);
-- (void);
-- (unsigned long long)
+- (_Bool)ð!ÜBù±`1Â0@ù
 × ;
-- (id)tton;
-- (_Bool)ngToReusableView;
-- (_Bool)°";
+- (_Bool)Ô!Ð!üCùbð1Â0@ù
+× ;
+- (long long);
+- (_Bool)ocusedItemForFocusMovementRequest:startingFromRegion:inRegions:withSnapshot: /* Error: Ran out of types for this method. */;
+- (_Bool)sUpdateTarget;
+- (_Bool),N,V_directTouchPanGestureRecognizer;
+- (id)tion token:%@ /* Error: Ran out of types for this method. */;
+- (long long)utes:%@; new frame:%@ /* Error: Ran out of types for this method. */;
+- (id)oplayStatusDidChangeNotification;
+- (void)í^;
 - (_Bool);
-- (_Bool)Float;
-- (_Bool);
-- (long long),8ÿ ;
+- (long long) ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;

@@ -16,8 +16,8 @@
 
 - (void);
 - (void);
-- (void)¬Ö0e;
 - (id);
+- (void)ectGroup;
 
 @end
 

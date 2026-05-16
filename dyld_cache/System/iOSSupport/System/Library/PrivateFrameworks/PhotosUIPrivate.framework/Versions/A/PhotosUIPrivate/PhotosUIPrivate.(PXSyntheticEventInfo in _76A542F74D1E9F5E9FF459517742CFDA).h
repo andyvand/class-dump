@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (int);
 - (id);
+- (int);
 - (id);
 
 // Remaining properties

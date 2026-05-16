@@ -89,10 +89,10 @@
 - (id);
 - (double);
 - (double);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)p¦`;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

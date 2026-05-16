@@ -16,17 +16,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)completion: /* Error: Ran out of types for this method. */;
-- (id)r found;
 - (id);
-- (id)¬}O;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)lid Date Range;
+- (id)ªX`;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

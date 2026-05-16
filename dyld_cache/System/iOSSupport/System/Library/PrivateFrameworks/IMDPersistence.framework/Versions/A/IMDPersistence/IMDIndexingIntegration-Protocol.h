@@ -5,15 +5,5 @@
 //
 
 @protocol IMDIndexingIntegration
-
-@optional
-- (void);
-- (_Bool);
-
-// Remaining properties
-@property(readonly, nonatomic) _Bool isIntegrationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

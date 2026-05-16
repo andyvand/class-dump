@@ -16,9 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id)ñF°1â
+0@ù
+× ;
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryMiroMemoryConverter *miroInfo; // @synthesize miroInfo=_miroInfo;

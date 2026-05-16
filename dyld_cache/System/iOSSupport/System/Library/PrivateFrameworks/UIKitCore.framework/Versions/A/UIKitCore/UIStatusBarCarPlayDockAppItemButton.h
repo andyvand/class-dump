@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
     UIImageView *_badgeView;
 }
 
-- (void)gBuddy:(id)arg1 account: /* Error: Ran out of types for this method. */;
-- (_Bool)SharingPreferencesIfNeededFromMadridMessage: /* Error: Ran out of types for this method. */;
-- (id)extByRemovingMessagePartIndex: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (float);
@@ -32,21 +32,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)ntifierForIndexPath:(id)arg1 usingExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id)ntStateAnimated:handoffData: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)diom:(id)arg1;
-- (_Bool)eversed:,V_actionsReversed /* Error: Ran out of types for this method. */;
-- (void)sBarOrientationDidChange:(_Bool)arg1;
-- (id)ýÿÄSýÿ;
-- (id)ror = %@;
-- (void)egate method -prepareForPopoverPresentation.;
-- (void)h bar with a legacy visual provider should not end up in this code path. This is a UIKit bug;
-- (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void)Qd°1Â0@ù
+× ;
+- (_Bool);
+- (void)isUsingCustomSize;
+- (id)V_thumbEnabled;
+- (id)eEnabledWithNotification:(struct _NSZone *)arg1;
+- (void)e nil.;
+- (void);
+- (void)ÿ;
+- (void);
+- (void);
+- (void)q;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

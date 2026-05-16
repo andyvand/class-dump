@@ -17,9 +17,9 @@
 + (id);
 + (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)AnalyticsFaceRecognitionNotificationAssociatePersonEvent's NSNumber wrapping boolean about open url success is nil;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;

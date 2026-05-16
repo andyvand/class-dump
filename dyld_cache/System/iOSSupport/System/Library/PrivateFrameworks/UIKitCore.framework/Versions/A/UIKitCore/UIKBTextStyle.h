@@ -36,68 +36,69 @@
 }
 
 + (id);
-+ (id);
-+ (id)Ôq!TAùñÃ1¢!0@ù
-× ;
-- (void);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (_Bool)"NSString",R,N,V_sectionIdentifier;
-- (id)a;
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool)P;
-- (double);
-- (void)Tº;
-- (void)Ô ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)¡s!àGùqÇ°1¢!0@ù
-× ;
-- (double)
-× ;
-- (double)exPath: /* Error: Ran out of types for this method. */;
-- (_Bool)fects;
-- (struct CGPoint)nEmpty;
-- (void)ritsSecurityWithNewContext:(_Bool)arg1;
-- (void)redBackgroundColorChanged;
-- (void)ingBase:(id)arg1;
-- (id)T{CGSize=dd},N,V_asymmetricPressedScaleFactor;
-- (void)intSet",&,V_titleLabelTopAlignmentConstraints;
-- (id)straint;
-- (void)HÒ;
-- (double)È¬Ç0NÜ¬Ç8N;
-- (void)¬;
++ (id);
++ (id)nDataKey;
 - (unsigned long long);
-- (double)tivationDuration;
-- (long long)IImagePickerControllerCropRect;
-- (long long)lastAppearState;
-- (void)ntextFileSystem;
-- (void)Û\;
-- (double)GÆ^;
-- (struct CGPoint)'Kg;
 - (void);
-- (void)ä°ÿ`ßÌB0i;
-- (void)¥;
-- (id)Î»Èi;
-- (long long);
-- (void)-ÉNBj;
-- (void)³;
-- (void)ÍªÉQQn;
-- (double);
+- (void);
+- (void);
+- (double);
+- (double);
+- (void);
+- (double);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (struct CGPoint);
+- (int);
+- (void);
+- (id);
+- (void);
+- (void)Ôáð!¨Cù±[1Â0@ù
+× ;
+- (void)Â0@ù
+× ;
+- (id)!D@ùÑ_°1Â0@ù
+× ;
+- (_Bool)0@ù
+× ;
+- (void);
+- (void)× ;
+- (void);
+- (long long)TestArchive";
+- (struct CGPoint)troller"32i40;
+- (void)aScriptEnabled;
+- (_Bool)ithHandler:(id)arg1;
+- (void)bserver;
+- (double)etSlideTransitionCount;
+- (id)ence;
+- (void)ase;
+- (void)onBackgroundView;
+- (double)IRepeatingGestureClockDelegate;
+- (id)kGeneratorConfiguration;
+- (id)Blocker;
+- (double)¸8;
+- (double);
+- (double)keyboard.
+Tap to switch scripts.;
+- (void)st have at least one hid event;
+- (double);
+- (void);
+- (void);
+- (long long)82ÿÐRg;
+- (long long)`D2ÿ;
+- (void)f)ÿT®Úôf;
+- (void)f;
+- (double)Xpþ¯ !;
+- (void)øÿ;
+- (void)ÿRæÓ&k;
+- (void)dÿ;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

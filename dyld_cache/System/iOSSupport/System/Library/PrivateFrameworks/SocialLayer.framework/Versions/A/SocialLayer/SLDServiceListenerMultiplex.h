@@ -28,12 +28,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

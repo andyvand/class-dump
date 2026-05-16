@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol TMLJSObjectExports
-+ (id)9Ç;
++ (id)@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *tmlState;

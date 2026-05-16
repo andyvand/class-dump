@@ -12,6 +12,7 @@
 {
     _Bool _blockingRichLinks;
     _Bool _isRCSSendWithoutEncryption;
+    _Bool _isFirstUnencryptedSend;
     _Bool _shouldSendPartIndexesInMessageBody;
     _Bool _isBeingRetried;
     _Bool _updatingDataSourcePayload;
@@ -84,14 +85,21 @@
 @property(retain, nonatomic) IMCollaborationInitiationRequestInfo *collaborationInitiationRequestInfo; // @synthesize collaborationInitiationRequestInfo=_collaborationInitiationRequestInfo;
 @property(retain, nonatomic) NSData *contactsAvatarRecipeData; // @synthesize contactsAvatarRecipeData=_contactsAvatarRecipeData;
 @property(readonly, nonatomic) _Bool containsRichLink;
+@property(nonatomic) _Bool containsWarnState;
 @property(retain, nonatomic) NSDate *dateEdited; // @synthesize dateEdited=_dateEdited;
 @property(retain, nonatomic) NSDate *dateRecovered; // @synthesize dateRecovered=_dateRecovered;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool didNotifyRecipient;
 @property(nonatomic) unsigned long long editEligibility; // @synthesize editEligibility=_editEligibility;
 @property(readonly, nonatomic) NSArray *editUnsupportedByHandleIDs;
 @property(retain, nonatomic) NSIndexSet *editedPartIndexes;
 @property(nonatomic) _Bool encrypted;
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_error;
+@property(nonatomic) _Bool evaluatedByTimeSensitiveModel;
 @property(nonatomic) unsigned long long expectedOffGridCapableDeliveries;
 @property(retain, nonatomic) NSString *expectedServiceForCrossServiceReplacement;
 @property(nonatomic) long long expireState; // @synthesize expireState=_expireState;
@@ -105,7 +113,9 @@
 @property(readonly, nonatomic) _Bool hasEditedParts;
 @property(nonatomic, readonly) _Bool hasLegacyUrgentTriggerMatchInText;
 @property(nonatomic, readonly) _Bool hasMessageHistoryForSpamReport;
+@property(readonly, nonatomic) _Bool hasRetractedParts;
 @property(nonatomic) _Bool hasUnseenMention;
+@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isInitialTranscriptSharingItem) _Bool initialTranscriptSharingItem;
 @property(nonatomic) _Bool intelligentlyClassifiedAsTimeSensitive;
 @property(readonly, nonatomic) _Bool isAlert;
@@ -125,7 +135,9 @@
 @property(readonly, nonatomic) _Bool isFileAttachment;
 @property(readonly, nonatomic) _Bool isFindMyPlugin;
 @property(readonly, nonatomic) _Bool isFinished;
+@property(nonatomic) _Bool isFirstUnencryptedSend; // @synthesize isFirstUnencryptedSend=_isFirstUnencryptedSend;
 @property(readonly, nonatomic) _Bool isFromExternalSource;
+@property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, nonatomic) _Bool isFullyRetracted;
 @property(readonly, nonatomic) _Bool isGroupTypingMessage;
 @property(nonatomic) _Bool isHQTransfer;
@@ -190,6 +202,7 @@
 @property(retain, nonatomic) NSString *subject; // @synthesize subject=_subject;
 @property(copy, nonatomic) NSString *suggestedAuthorAvatarPath; // @synthesize suggestedAuthorAvatarPath=_suggestedAuthorAvatarPath;
 @property(copy, nonatomic) NSString *suggestedAuthorName; // @synthesize suggestedAuthorName=_suggestedAuthorName;
+@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *swyAppName;
 @property(copy, nonatomic) NSString *swyBundleID;
 @property(copy, nonatomic) NSArray *syncedSyndicationRanges; // @synthesize syncedSyndicationRanges=_syncedSyndicationRanges;
@@ -211,7 +224,9 @@
 @property(readonly, nonatomic) _Bool wasDataDetected;
 @property(readonly, nonatomic) _Bool wasDeliveredQuietly;
 @property(nonatomic) _Bool wasDetectedAsSWYSpam; // @synthesize wasDetectedAsSWYSpam=_wasDetectedAsSWYSpam;
+@property(readonly, nonatomic) _Bool wasDetonated;
 @property(readonly, nonatomic) _Bool wasDowngraded;
+@property(nonatomic) _Bool wasDowngradedManually;
 @property(nonatomic) _Bool wasInterworked;
 @end
 

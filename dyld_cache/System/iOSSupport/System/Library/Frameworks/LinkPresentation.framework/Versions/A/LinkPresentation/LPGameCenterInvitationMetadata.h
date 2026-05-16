@@ -19,33 +19,34 @@
 }
 
 + (id);
-+ (_Bool)owsOpeningSensitiveURLs:,V_allowsOpeningSensitiveURLs /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)E;
+- (id);
 - (id);
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (unsigned int);
+- (id);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void);
 - (id);
-- (id);
-- (void)r;
-- (void);
-- (void);
+- (id);
+- (void)á÷ð!8@ùqÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

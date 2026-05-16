@@ -18,15 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)SDictionary"24;
-- (void)tWithBatchLimit:(struct CGSize)arg1 findChat:mutedChatList:muteChat:muteIdentifiers: /* Error: Ran out of types for this method. */;
-- (_Bool)MMessageItemFields: /* Error: Ran out of types for this method. */;
-- (void);
 - (_Bool);
-- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void)Context",&,N;
-- (struct CGSize);
+- (_Bool);
+- (void);
+- (struct CGSize)ha;
 
 // Remaining properties
 @property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize;

@@ -15,15 +15,17 @@
     MISSING_TYPE *dataSource;
     MISSING_TYPE *linkController;
     MISSING_TYPE *_hasFinishedFirstLoad;
+    MISSING_TYPE *firstLoadTracker;
     MISSING_TYPE *sensitiveContentTipViewModel;
     MISSING_TYPE *cancellables;
     MISSING_TYPE *isShowingRequestsTip;
     MISSING_TYPE *shouldPresentRequestsTip;
     MISSING_TYPE *shouldPresentRequestsTipOnResume;
+    MISSING_TYPE *visibleItemsProvider;
     MISSING_TYPE *signposter;
-    MISSING_TYPE *firstLoadSignpostID;
-    MISSING_TYPE *firstLoadState;
-    MISSING_TYPE *_activeApplies;
+    MISSING_TYPE *loadSignpostID;
+    MISSING_TYPE *loadState;
+    MISSING_TYPE *hasFinishedTrackingFirstLoad;
     MISSING_TYPE *currentFilterMode;
     MISSING_TYPE *currentFilterBadgeCount;
     MISSING_TYPE *currentRequestCount;
@@ -54,9 +56,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)49ÿ;
 
 @end
 

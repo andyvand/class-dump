@@ -14,8 +14,8 @@
     MISSING_TYPE *maximumAdRequestsForCurrentAdPreviewID;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

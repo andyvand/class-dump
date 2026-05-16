@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDropProposal, UITargetedDragPreview;
+@class UIDropInteraction;
+@protocol UIDropSession;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void);
-- (void);
+- (void)n:(UIDropInteraction *)arg1 previewForDismissingMenuWithConfiguration:(id <UIDropSession>)arg2;
 - (void);
-- (UITargetedDragPreview *);
-- (UIDropProposal *);
-- (void)ÀÓÿbÿåa°ÓÿÕaÈÎÿÝaÄÎÿ;
+- (void)ge thumbnail in the sidebar.;
 @end
 

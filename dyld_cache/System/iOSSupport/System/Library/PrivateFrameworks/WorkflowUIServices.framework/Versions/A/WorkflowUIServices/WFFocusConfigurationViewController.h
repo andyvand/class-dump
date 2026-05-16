@@ -38,19 +38,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (void)lerProxyWithErrorHandler:(id)arg1;
-- (void)olor:(id)arg1;
+- (void);
+- (void);
+- (id)scrollViewWillBeginDecelerating: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

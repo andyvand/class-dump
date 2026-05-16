@@ -24,10 +24,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)Eùñ°1¢!0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPresentingAlert;

@@ -5,13 +5,10 @@
 //
 
 @protocol UIAutoscrollContainer
-- (void)1¢!0@ù
+- (struct CGRect)!TFù1_Ð1Â0@ù
 × ;
-- (struct CGRect);
-
-@optional
-- (_Bool)nceString '%@';
-- (void)icate property;
+- (void)ð!TDùñcð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint autoscrollContentOffset;

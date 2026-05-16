@@ -15,24 +15,24 @@
 }
 
 + (id);
-+ (id);
-+ (id);
 + (_Bool);
++ (id);
++ (id);
+- (id);
+- (id);
 - (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)ce: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

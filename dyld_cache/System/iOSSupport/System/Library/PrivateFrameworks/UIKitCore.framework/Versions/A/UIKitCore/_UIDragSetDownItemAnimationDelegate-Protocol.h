@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDragSetDownItemAnimationDelegate
-- (void)i;
 @end
 

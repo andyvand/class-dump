@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (_Bool)@@"REMObjectID";
++ (_Bool);
 + (id);
 + (id);
 + (_Bool);

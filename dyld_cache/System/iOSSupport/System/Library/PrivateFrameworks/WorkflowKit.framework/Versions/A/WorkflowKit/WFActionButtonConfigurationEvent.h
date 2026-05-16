@@ -20,15 +20,15 @@
 + (Class);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool)´@|p;
+- (void)h;
+- (void)minutes after sunrise;
+- (void)Archive};
+- (void)FItemSpecifier);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

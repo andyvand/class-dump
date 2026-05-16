@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)est method failed;
 @end
 

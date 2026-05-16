@@ -30,12 +30,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (double);
 - (void);
 - (void);
 - (id);
-- (void)´ÿÇê;
+- (void);
+- (void)Á¨!4@ùññ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

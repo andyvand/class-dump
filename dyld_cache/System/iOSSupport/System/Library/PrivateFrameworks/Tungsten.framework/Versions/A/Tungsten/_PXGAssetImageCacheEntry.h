@@ -21,21 +21,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGImage *);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (unsigned int);
+- (_Bool);
+- (void);
 - (struct CGSize);
 - (void);
-- (struct CGSize)1b0@ù
-× ;
-- (void)cð!@Dù1`°1b0@ù
-× ;
+- (struct CGSize);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

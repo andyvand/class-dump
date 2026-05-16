@@ -11,17 +11,17 @@
     NSArray *_items;
 }
 
-+ (_Bool)teCatalystClientC8DelegateP;
-- (void);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)ctionC8DelegateP;
-- (id);
+- (void)r: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;

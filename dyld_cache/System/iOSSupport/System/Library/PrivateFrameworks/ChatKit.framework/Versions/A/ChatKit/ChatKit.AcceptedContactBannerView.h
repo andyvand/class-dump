@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)ÈI¼;
+- (void)sß;
 
 @end
 

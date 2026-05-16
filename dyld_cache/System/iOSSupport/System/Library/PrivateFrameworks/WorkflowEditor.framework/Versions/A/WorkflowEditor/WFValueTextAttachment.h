@@ -26,17 +26,17 @@
 - (id);
 - (void);
 - (void);
+- (struct CGRect);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (double);
 - (void);
-- (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (void)ame:(id)arg1;
-- (id);
-- (_Bool)¬¬ûÿ;
-- (void);
+- (void)0;
+- (id)bleTypes;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;

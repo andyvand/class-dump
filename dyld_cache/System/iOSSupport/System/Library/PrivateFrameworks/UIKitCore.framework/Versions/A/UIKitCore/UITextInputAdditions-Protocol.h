@@ -8,17 +8,16 @@
 @protocol UISelectionInteractionAssistant;
 
 @protocol UITextInputAdditions
+- (_Bool)ttomLeftRadius = ;
+- (_Bool)ework/CoreAnalytics;
+- (UIView *)×;
+- (UITextInteractionAssistant *)ù33ðúpþù33$8tþ;
 - (void);
-- (struct CGRect)tionAnimationView;
-- (UIView *);
-- (void)ratorMetrics=q@@q}32@0:8q16@24 /* Error: Ran out of types for this method. */;
-- (_Bool)MetricsColorTransformer;
-- (_Bool)LÔdþ;
+- (void)Ó;
 
 @optional
-- (_Bool)!Ô@ùñÉ°1¢!0@ù
-× ;
-- (id <UISelectionInteractionAssistant>)ardInputMode",&,N,V_nextInputMode;
+- (_Bool)ze=dd}24q40i48;
+- (id <UISelectionInteractionAssistant>)[;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_caretRect) struct CGRect caretRect;

@@ -21,10 +21,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)sory;
-- (id)õÿÍ»òw;
+- (void)Pò5;
+- (id)^;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessorySettingsDataSource *dataSource; // @synthesize dataSource=_dataSource;

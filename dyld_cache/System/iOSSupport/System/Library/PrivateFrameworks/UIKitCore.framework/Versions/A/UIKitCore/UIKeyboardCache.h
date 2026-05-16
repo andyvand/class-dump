@@ -15,29 +15,30 @@ __attribute__((visibility("hidden")))
     _UIActionWhenIdle *_idleAction;
 }
 
-+ (_Bool)sing session:(id)arg1 %@;
-+ (_Bool)<34¼7<x<Ü=P>;
-+ (id);
-- (void)Identifier:(id)arg1 chats: /* Error: Ran out of types for this method. */;
-- (id)tentBody;
++ (_Bool);
++ (_Bool)´h_;
++ (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ing rate limiter persistence;
-- (struct CGImage *)to disk because of nil path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
-- (struct CGImage *)tPath %@;
-- (struct CGImage *)ve group photo file from %@ to %@, error %@;
+- (void);
+- (struct CGImage *);
+- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)!ðEùÁÐ1¢!0@ù
+- (id)@ù
 × ;
-- (id)quenceNumber: /* Error: Ran out of types for this method. */;
-- (id)djustment;
-- (void)96DFCA3559B6_Boxed;
+- (void)J²ÿ=kÛD}a;
+- (void)lÿ,æÌÀ®f;
 
 // Remaining properties
 @property(retain, nonatomic) _UIActionWhenIdle *idleAction; // @synthesize idleAction=_idleAction;

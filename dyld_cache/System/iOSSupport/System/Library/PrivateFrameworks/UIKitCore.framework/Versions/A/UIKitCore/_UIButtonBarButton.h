@@ -30,97 +30,99 @@
 }
 
 + (_Bool);
-- (struct CGRect);
 - (id);
 - (_Bool);
 - (id);
+- (struct CGSize);
 - (id);
-- (void)4~CG4qugCAwx2HRnOmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s3_both.c;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGSize);
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id)checksum;
-- (id);
-- (void);
-- (void);
-- (struct CGSize)sistentID;
-- (void)ect;
-- (_Bool)tyAlbumKeepLocalConstraints;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool)Z;
-- (void);
-- (id)=iº;
-- (id);
-- (void);
-- (void)ÔAp°!FùñÂÐ1¢!0@ù
+- (void)0@ù
 × ;
-- (id);
-- (void)1¢!0@ù
+- (struct CGSize)[ð1Â0@ù
+× ;
+- (_Bool)0@ù
+× ;
+- (_Bool)!´Cùa1Â0@ù
 × ;
 - (_Bool);
-- (struct CGSize)
+- (void)1Â0@ù
 × ;
-- (id)ÔAw!ØDù1Ìð1¢!0@ù
+- (void)ð1Â0@ù
 × ;
+- (void):(_Bool)arg1 24@"WebFrame"32;
+- (void):(_Bool)arg1;
+- (void)llControlStringInset;
+- (void)nipulation:(_Bool)arg1;
+- (void)largeContentViewerInteraction:(id)arg1 itemAtPoint: /* Error: Ran out of types for this method. */;
+- (id):image:actionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)taOwnerForAddingToSession:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (void)ller:(_Bool)arg1;
+- (void)er;
+- (void)tImageNamed:(id)arg1 withTint:(id)arg2 flippedForRightToLeftLayoutDirection: /* Error: Ran out of types for this method. */;
+- (id)imates;
+- (void)us:(id)arg1;
+- (void),V_favoriteOrder;
+- (void)stepperControl;
+- (void)ontextDelegate;
+- (void)´Ûtþÿÿÿÿà;
+- (_Bool);
+- (long long);
+- (void)hý $`	;
+- (void)it was waiting for the next layout pass. This will cause unnecessary performance overhead, and may also cause bugs by forcing views inside the table view to load and perform layout too early. For best results, if the UITableView API must be called, you should defer it until after the table view receives -layoutSubviews during a regular layout pass. Make a symbolic breakpoint at UITableViewAlertForForcedLayout to catch this in the debugger and see which API method caused this to occur. Table view:(id)arg1 %{public}@;
+- (void)ø¨þþÿ;
+- (void);
+- (void)Q;
+- (id)onnull, __strong id<_UIListContentTextPropertiesInternal> _Nonnull, _UIContentViewLayoutMode, CGFloat);
+- (id):(id)arg1 %@
+;
+- (_Bool)roundStyle;
+- (void)4@?0@"_UIBarCustomizationItemReservoirView"8@"UITraitCollection"16;
+- (_Bool)oDataSource;
+- (void)ring.;
+- (void)ggingForStrictRepeatedPushAssertion;
+- (id)_UIRopeAnimationC;
+- (void)works/InputAnalytics.framework/InputAnalytics;
+- (id)m/Library/Frameworks/AVKit.framework/AVKit;
+- (void)43àtþ;
 - (struct CGPoint);
-- (void)0@ù
-× ;
-- (_Bool)preferredItemsRange"{_NSRange="location"Q"length"Q}"numberOfItems"Q};
-- (_Bool)16@"FBSScene"24@"FBSSceneTransitionContext"32@?<v@?@"FBSWorkspaceDestroySceneResponse">40;
-- (_Bool)rButtonItemAppearanceChangeObserver>";
-- (void)4B32B36B40;
-- (struct CGSize)ceChanged"b1"denyPointerInteractions"b1"effectiveLayoutHasCriticalGroup"b1};
-- (void):(id)arg1 hostView:containerView: /* Error: Ran out of types for this method. */;
-- (void)InputViewControllerForResponder:editorView:containingResponder: /* Error: Ran out of types for this method. */;
-- (id)Disabled:(id)arg1 withPlacement: /* Error: Ran out of types for this method. */;
-- (void)tle: /* Error: Ran out of types for this method. */;
-- (struct CGSize)EffectView;
-- (void)dentifierForKey:(_Bool)arg1;
-- (void)aranceTransitions:(_Bool)arg1;
-- (void)rfaceOrientations:(id)arg1;
-- (void)roller:(_Bool)arg1 forEdges: /* Error: Ran out of types for this method. */;
-- (_Bool)OperationsFilter;
-- (void)mmendationChanged:(id)arg1;
-- (void)mVisibleItemsHandler;
-- (id)int;
-- (_Bool)imagePickerDidCompleteWithInfoArray:(struct CGPoint)arg1;
-- (id)ibleEvenIfTheControlIsStillPartiallyOnScreen;
-- (void)tPoint:(_Bool)arg1 endPoint:peakPoint:pinnedArrowSide:cornerRadii:arrowBase: /* Error: Ran out of types for this method. */;
-- (void)ion;
-- (_Bool)Recognizers;
-- (void)d},N,V_sectionInset;
-- (void)ve;
-- (id)TB,N,V_hasSecondaryProgress;
-- (void)dView;
-- (id)ntainerFocusEnvironment;
-- (_Bool)tentTransition;
-- (void)_UISceneFocusSystemHostComponent;
-- (unsigned long long)o;
-- (id)Xç ç;
-- (void)PïTð¸ð$ôò;
-- (struct UIEdgeInsets)cContentSizeInvalidationHandler;
-- (_Bool);
-- (id)32@?0@"UISheetPresentationControllerDetent"8Q16^B24;
-- (_Bool)%@ twice;
-- (void)calLo;
-- (id)243005 (Custom sheet detents for remote view controllers);
-- (void)ct, NSDictionary *__strong _Nullable);
-- (_Bool)uctivity.threeFingerSingleTap;
-- (void)'t expect lifecycle;
-- (void)derLabelP33_6F0AB2EDC77A7506E9CF9A7668188D4F11SegmentView;
-- (void)$__lazy_storage_$_assertionController;
-- (void)nsViewSmallVariantSpec;
-- (void)¢^;
+- (void)°Íÿë;
+- (_Bool)'úþ;
+- (void)8Ñ_;
+- (id)`;
+- (struct UIEdgeInsets)ÎÀ`;
+- (void)ùþôïÔb;
 - (void);
-- (id)nÅc;
+- (unsigned long long)Á;
+- (id)ëÕtsb;
+- (void)Ñÿ";
+- (_Bool)#¸ÿSi;
+- (id)ÿ«ÝË¤d;
+- (struct CGRect)Áì;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _buttonBarHitRect;

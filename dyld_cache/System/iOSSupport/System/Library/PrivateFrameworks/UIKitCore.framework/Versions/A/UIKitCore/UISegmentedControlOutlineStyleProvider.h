@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
 - (_Bool);
+- (id);
 - (_Bool);
-- (id)erIndexes;
-- (double)ventView;
-- (id)edRowHeight;
-- (double)92;
+- (double)mVelocity;
+- (double)eateSystemInputViewControllerIfNeededForTraitEnvironment:(int)arg1;
+- (double)UI;
+- (id)ngs;
 
 @end
 

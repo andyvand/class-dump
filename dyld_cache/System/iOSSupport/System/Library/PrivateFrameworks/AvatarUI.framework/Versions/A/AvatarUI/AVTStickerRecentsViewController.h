@@ -36,7 +36,7 @@
     CALayer *_edgeMaskLayer;
 }
 
-+ (id)a	;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -46,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -62,9 +62,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
-- (id)P;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -73,7 +73,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -81,39 +81,39 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (long long)en turk;
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)n.networkOperations;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)derScheduler;
-- (void)rerelease_categories_enabled;
+- (long long);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)vironment:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;

@@ -10,8 +10,8 @@
 {
 }
 
-- (id)ary/Caches/com.apple.xbs/Sources/FeldsparServices/feldsparcore/Classes/FCAssetManager.m;
 - (id);
+- (id)ndexPath=%{public}@; velocity=%{public}@;
 
 // Remaining properties
 @property(nonatomic, readonly) UIResponder *nextResponder;

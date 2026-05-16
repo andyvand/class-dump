@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)m"8;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;

@@ -10,16 +10,16 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (id);
-- (id)@;
-- (id)anagerCameraScanAction"@"NSError">;
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool)e;
-- (id)or">;
-- (id)p;
+- (_Bool);
+- (id);
+- (id);
 
 @end
 

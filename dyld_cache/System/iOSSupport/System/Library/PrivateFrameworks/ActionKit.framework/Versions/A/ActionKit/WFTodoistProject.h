@@ -17,12 +17,13 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)re day and time is ignored.;
++ (_Bool);
 - (_Bool);
-- (long long);
-- (void);
 - (id);
 - (id);
+- (long long)áªÐ!¤Eù´Ð1B50@ù
+× ;
+- (void)Videos (Entity Type);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool collapsed; // @synthesize collapsed=_collapsed;

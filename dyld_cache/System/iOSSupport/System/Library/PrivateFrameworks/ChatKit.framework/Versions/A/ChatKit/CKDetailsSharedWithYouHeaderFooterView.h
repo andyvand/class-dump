@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     UITextView *_sharedWithYouTextView;
 }
 
-+ (double);
 + (id);
-+ (double);
++ (double)ÀäÀ;
++ (double)½;
 - (id);
-- (void)teObject;
 - (void);
+- (struct CGSize);
 - (void);
-- (struct CGSize)@ÿ;
+- (void)QhkªÿQh;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

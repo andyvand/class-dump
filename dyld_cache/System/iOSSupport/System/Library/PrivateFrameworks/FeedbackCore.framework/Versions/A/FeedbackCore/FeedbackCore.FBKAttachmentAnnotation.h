@@ -15,10 +15,10 @@
     MISSING_TYPE *additionalInfo;
 }
 
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

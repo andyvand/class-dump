@@ -16,7 +16,7 @@
     NSMapTable *_delegateCallersByObservers;
 }
 
-+ (id)ion;
++ (id)3A6E-4E6F-8196-678ABE909D8E;
 - (id);
 - (id);
 - (void);
@@ -34,16 +34,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)dler: /* Error: Ran out of types for this method. */;
-- (void)ZX;
-- (id)ÒçÿT%¡\Ý;
+- (id);
+- (void);
+- (void);
+- (void)@32q40@48@56@64;
+- (void)Ì;
+- (id)reUpdate:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;

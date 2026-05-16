@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
+- (id)gate;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;

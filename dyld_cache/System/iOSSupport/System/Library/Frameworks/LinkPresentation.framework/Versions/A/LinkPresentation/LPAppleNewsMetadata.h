@@ -14,23 +14,23 @@
     NSString *_title;
 }
 
-+ (id)!;
-+ (_Bool)T@?,C,N,V__alternateHTMLImageGenerator;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void)tedMasterKeys:(id)arg1 wireEnvelopes:reply: /* Error: Ran out of types for this method. */;
-- (id)ys;
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

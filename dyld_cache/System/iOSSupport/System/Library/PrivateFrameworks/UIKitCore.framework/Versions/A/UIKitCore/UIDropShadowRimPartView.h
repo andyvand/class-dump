@@ -16,10 +16,9 @@ __attribute__((visibility("hidden")))
     UIImageView *_imageView;
 }
 
-- (id)ettingsManager tried to update a local synced setting with an unknown key:(id)arg1 %s;
-- (void)n on next sync;
-- (void)0@ù
-× ;
+- (id);
+- (void);
+- (void)ÚÒ<vh;
 
 @end
 

@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
     UIButton *_leaveConversationButton;
 }
 
-- (void)minutes;
-- (void)tainsObject:(id)arg1;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)t;
-- (id)Assigned;
+- (void);
+- (id);
 - (struct CGSize);
 - (_Bool);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (void)loonsForSendingMessages:audioMessageSourceRect:contextContainerView:audioRecordingPillViewSnapshot: /* Error: Ran out of types for this method. */;
-- (id)ler",W,N;
-- (struct CGSize)rDragEnded;
+- (id);
+- (void)À;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;

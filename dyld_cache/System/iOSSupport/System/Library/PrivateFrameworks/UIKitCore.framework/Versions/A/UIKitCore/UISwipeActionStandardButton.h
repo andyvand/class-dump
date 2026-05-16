@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
     double _extensionLength;
 }
 
-- (void)rvalSince1970;
+- (void);
 - (double);
 - (double);
-- (void)tOnVerificationQueue;
-- (void)j8RzlXX;
-- (id)form a custom view controller hierarchy transition in -commitPreviewViewController:(struct CGRect)arg1 committedViewController:on UIViewControllerPreviewingDelegate. /* Error: Ran out of types for this method. */;
+- (void);
+- (id)pleting:(struct CGRect)arg1;
+- (void)8@"NSString"16@"UICollectionReusableView"24;
 - (id);
 
 // Remaining properties

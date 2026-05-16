@@ -62,7 +62,7 @@
 }
 
 + (id);
-+ (id);
++ (id)qõ´V'ÿ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -163,12 +163,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (id);
 - (long long);
 - (void);
-- (id)dDisappear;
 
 // Remaining properties
 @property(nonatomic) _Bool allowEditorialLayoutStressTest; // @synthesize allowEditorialLayoutStressTest=_allowEditorialLayoutStressTest;

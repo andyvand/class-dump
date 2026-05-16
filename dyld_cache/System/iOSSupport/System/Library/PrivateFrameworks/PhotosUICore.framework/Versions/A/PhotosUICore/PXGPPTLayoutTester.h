@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
+- (id)olderSearchBarTrailingNavigationBarButtonItem;
 - (void);
-- (id)0!;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

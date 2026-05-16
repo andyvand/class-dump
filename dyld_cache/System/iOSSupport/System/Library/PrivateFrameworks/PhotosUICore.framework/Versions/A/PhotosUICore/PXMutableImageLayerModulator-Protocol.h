@@ -7,7 +7,8 @@
 @class CALayer;
 
 @protocol PXMutableImageLayerModulator
-- (void)4h&ÿ;
+- (CALayer *)W»yAAy¼É»yQo_3]»yAESgGGGGG_AAy;
+- (void)ound. Starting new request for asset container:(CALayer *)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) _Bool displayingOpaqueContent;

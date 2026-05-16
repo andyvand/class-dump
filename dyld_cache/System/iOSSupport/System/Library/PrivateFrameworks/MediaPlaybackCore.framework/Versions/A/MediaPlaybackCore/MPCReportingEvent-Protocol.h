@@ -5,6 +5,5 @@
 //
 
 @protocol MPCReportingEvent
-- (unsigned long long);
 @end
 

@@ -11,8 +11,8 @@
     ICInAppMessageManager *_iTunesCloudIAMManager;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 

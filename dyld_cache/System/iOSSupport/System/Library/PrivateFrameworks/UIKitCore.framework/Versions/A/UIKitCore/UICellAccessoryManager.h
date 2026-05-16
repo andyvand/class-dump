@@ -27,49 +27,50 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _contentInset;
 }
 
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (struct UIEdgeInsets);
-- (void)moveNextDataWithBlock:(id)arg1;
 - (void);
 - (struct CGRect);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)Dù1Áð1¢!0@ù
-× ;
-- (struct CGSize)× ;
 - (void);
-- (id)setAccumulatedDistance: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)CoreUIWidget: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ion: /* Error: Ran out of types for this method. */;
-- (void)otPresentingViewControllerForNestedPresentation;
-- (id)ustomClass:(id)arg1;
-- (long long): /* Error: Ran out of types for this method. */;
-- (_Bool)iewCellBackgroundSize;
-- (id)phableInternal;
-- (id);
-- (void)%@;
-- (void)ication;
-- (id).png;
-- (void)lÒÈÿ,èØÓ];
-- (void)Lÿ¹ðÚ>`a;
-- (void)£_;
-- (id)¼k0ÿ×;
-- (id))³;
-- (id)øøìÿ`,UN f;
-- (id)ÔÿI
-Ïffg;
-- (struct CGRect)#ÿérÚÌ³i;
-- (struct CGRect)Gç;
-- (void)h/ ÿÖàp;
-- (void)ÿ¡Í#l;
-- (struct UIEdgeInsets)În;
-- (void)DÄÿè©;
+- (void);
+- (id);
+- (void)! DùYð1Â0@ù
+× ;
+- (id)
+× ;
+- (struct CGRect);
+- (struct UIEdgeInsets)× ;
+- (struct CGSize);
+- (long long)0@ù
+× ;
+- (CDUnknownBlockType);
+- (struct CGSize)eraction;
+- (void)ge:(long long)arg1 session: /* Error: Ran out of types for this method. */;
+- (void)an anchor;
+- (id)t;
+- (id)rOfScopeTitles=%lu scopeBar=%p;
+- (struct UIEdgeInsets);
+- (void)Êÿbí;
+- (CDUnknownBlockType)b;
+- (void)£CÌTi;
+- (void)ä	j;
+- (void)­ÿüÑaj;
+- (void)æFÛ\¡l;
+- (id)Ðdäl;
+- (void)0;
+- (id)xÿ@t;
+- (struct CGRect)ðtÿ;
+- (void)¬_;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *accessoryViews; // @synthesize accessoryViews=_accessoryViews;

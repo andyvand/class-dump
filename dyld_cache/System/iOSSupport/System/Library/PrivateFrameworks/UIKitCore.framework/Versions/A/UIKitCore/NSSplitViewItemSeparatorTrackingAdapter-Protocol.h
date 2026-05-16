@@ -9,11 +9,6 @@
 
 @protocol NSSplitViewItemSeparatorTrackingAdapter
 
-@optional
-- (long long);
-- (void)redSecureMicrophoneProviderP;
-- (struct NSEdgeInsets)ǀ;
-
 // Remaining properties
 @property(readonly) _Bool allowsFloatingLayout;
 // Preceding property had unknown attributes: ?

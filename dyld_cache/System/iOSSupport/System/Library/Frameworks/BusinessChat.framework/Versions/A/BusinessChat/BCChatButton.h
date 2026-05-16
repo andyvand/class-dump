@@ -16,44 +16,44 @@
     UIView *_centeredView;
 }
 
+- (void)Ô;
+- (void);
+- (id);
+- (void)Ð;
 - (void);
 - (void);
+- (void);
+- (void)ò;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
+- (long long);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)rNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *centeredView; // @synthesize centeredView=_centeredView;

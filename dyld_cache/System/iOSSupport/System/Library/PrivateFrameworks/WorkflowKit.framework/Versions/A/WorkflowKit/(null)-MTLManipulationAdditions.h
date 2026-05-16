@@ -5,8 +5,8 @@
 //
 
 @interface (null) (MTLManipulationAdditions)
-- (id)Ì;
-- (id)myl¬Ö0%EÉ;
+- (id);
+- (id);
 - (id);
 - (id);
 

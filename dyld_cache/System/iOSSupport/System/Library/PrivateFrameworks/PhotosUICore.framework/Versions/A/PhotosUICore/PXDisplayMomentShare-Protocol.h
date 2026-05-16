@@ -7,9 +7,9 @@
 @class NSDate, NSString, NSURL;
 
 @protocol PXDisplayMomentShare
-- (NSDate *);
-- (NSURL *)MutableComposition",&,N,V_audioComposition;
-- (NSDate *)%{public}@;
+- (unsigned short)tViewSize: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (unsigned long long)ContentViewControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long assetCount;

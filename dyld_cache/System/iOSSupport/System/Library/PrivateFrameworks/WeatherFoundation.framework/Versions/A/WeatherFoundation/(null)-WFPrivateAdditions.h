@@ -8,7 +8,7 @@
 + (id);
 + (id);
 + (long long);
-+ (_Bool)(;
++ (_Bool);
 + (id);
 - (id);
 - (id);

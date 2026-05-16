@@ -32,13 +32,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)lõÿ;
+- (void);
+- (void)e;
+- (void)G;
 
 @end
 

@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _updateHandler;
 }
 
-- (id)the past hour.;
-- (void);
-- (void)ase;
-- (_Bool)ÿR×Zc;
-- (void)ºe;
+- (id);
+- (void);
+- (void);
+- (void)2x;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isComplete) _Bool complete;

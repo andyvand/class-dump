@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)8B16@?<v@?>20;
+- (id);
+- (void)©ª\¼¬;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isReadable) _Bool readable;

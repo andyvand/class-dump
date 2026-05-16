@@ -17,11 +17,11 @@
 - (void);
 - (id);
 - (id);
-- (void)texture with no content;
+- (id);
 - (void);
 - (id);
-- (id),&,V_task;
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

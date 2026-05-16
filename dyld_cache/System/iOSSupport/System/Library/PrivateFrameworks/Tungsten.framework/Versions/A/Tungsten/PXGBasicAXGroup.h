@@ -110,21 +110,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)CbCrMatricesBuffer;
 
 // Remaining properties
 @property(nonatomic) struct CGRect axFrame; // @synthesize axFrame=_axFrame;

@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (id);
+- (void)nager;
 
 @end
 

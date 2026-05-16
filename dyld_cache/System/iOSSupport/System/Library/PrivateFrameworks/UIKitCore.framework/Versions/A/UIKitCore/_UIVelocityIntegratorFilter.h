@@ -11,13 +11,13 @@
 
 + (id);
 + (id);
-+ (id)quest for resource file URLs for asset:(double)arg1 %@;
-+ (id)ncing finished;
 + (id);
 + (id);
-- (id)r(;
++ (id);
++ (id);
+- (id);
 - (void);
-- (void)westValue;
+- (void);
 
 @end
 

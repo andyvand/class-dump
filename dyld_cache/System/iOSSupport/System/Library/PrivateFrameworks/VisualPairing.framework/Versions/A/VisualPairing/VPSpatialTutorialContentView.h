@@ -33,13 +33,12 @@
 - (void);
 - (id);
 - (int);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);8Á4x#<
-`d@6Q\/)¨Es,:(id)arg1 ;
 
 @end
 

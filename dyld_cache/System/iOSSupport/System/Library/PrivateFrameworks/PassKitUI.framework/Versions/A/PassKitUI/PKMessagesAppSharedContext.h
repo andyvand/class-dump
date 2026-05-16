@@ -31,9 +31,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *bubbleAppControllers;

@@ -7,7 +7,6 @@
 @class NSIndexPath, UIDragItem;
 
 @protocol UICollectionViewDropItem
-- (NSIndexPath *)rsonalNicknameWithRecordID:decryptionKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIDragItem *dragItem;

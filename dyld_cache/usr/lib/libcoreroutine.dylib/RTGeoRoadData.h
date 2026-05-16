@@ -21,25 +21,25 @@
 
 + (id);
 + (id);
-+ (_Bool)egistered erase-install initialization XPC activity due to criteria change:%{public}@, error, %{public}@ /* Error: Ran out of types for this method. */;
-- (void)h;
++ (_Bool);
+- (void);
 - (void);
 - (int);
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double);
 - (unsigned long long);
 - (double);
 - (double);
 - (long long);
-- (long long);
+- (long long);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (_Bool)H;
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

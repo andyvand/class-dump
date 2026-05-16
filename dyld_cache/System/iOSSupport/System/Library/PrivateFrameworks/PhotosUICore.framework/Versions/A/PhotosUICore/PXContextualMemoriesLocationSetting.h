@@ -43,12 +43,14 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (struct CLLocationCoordinate2D);
-- (id)«ÿ,) sþ6;
+- (struct CLLocationCoordinate2D)EÐ1â
+0@ù
+× ;
+- (id)sset:%{public}s /* Error: Ran out of types for this method. */;
+- (id)an error resetting isTracking=false;
+- (id)TEMS;
+- (void)øçõ;
 
 // Remaining properties
 @property(retain, nonatomic) _PXCompletionHandlerManager *completionHandlerManager; // @synthesize completionHandlerManager=_completionHandlerManager;

@@ -22,16 +22,16 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)ionCSgA_pG;
-- (void)ProofingRetryProvisioningViewController;
+- (void);
+- (void);
+- (void);
+- (void)fed stats UI config;
 
 @end
 

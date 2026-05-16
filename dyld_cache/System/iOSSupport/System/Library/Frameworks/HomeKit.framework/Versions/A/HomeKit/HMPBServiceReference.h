@@ -17,20 +17,19 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)
-× ;
-- (_Bool)SetupUnderlyingErrorCode_HH2;
+- (void)D;
 
 // Remaining properties
 @property(retain, nonatomic) HMPBAccessoryReference *accessoryReference; // @synthesize accessoryReference=_accessoryReference;

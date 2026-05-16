@@ -19,17 +19,17 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)LightSensor;
 
 // Remaining properties
 @property(readonly, nonatomic) HFActivityLogCoordinator_Swift *coordinator; // @synthesize coordinator=_coordinator;
 @property(nonatomic) __weak id <HFActivityLogCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
 @property _Bool eventsExist; // @synthesize eventsExist=_eventsExist;
-@property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;
+@property(readonly, nonatomic) __weak HMHome *home; // @synthesize home=_home;
 
 @end
 

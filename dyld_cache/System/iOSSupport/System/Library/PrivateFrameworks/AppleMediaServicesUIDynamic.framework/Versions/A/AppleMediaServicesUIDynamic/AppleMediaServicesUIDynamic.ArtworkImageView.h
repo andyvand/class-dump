@@ -19,13 +19,13 @@
 }
 
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool)_pG;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool amsuid_wantsArtworkStyle;

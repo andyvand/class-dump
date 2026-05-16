@@ -10,8 +10,8 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isPrimary) _Bool primary; // @synthesize primary=_primary;

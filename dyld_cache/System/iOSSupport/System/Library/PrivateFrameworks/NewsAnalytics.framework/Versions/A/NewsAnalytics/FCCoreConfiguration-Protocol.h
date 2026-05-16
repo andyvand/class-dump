@@ -4,44 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString;
+@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCFeaturePromotionResourceConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString;
 
 @protocol FCCoreConfiguration
-- (NSString *);
-- (_Bool)@;
-- (FCPuzzlesConfiguration *)Rect={CGPoint=dd}{CGSize=dd}}16;
-- (long long)ctorChanges;
-- (long long)ob;
-- (long long)mLayoutToImageTransform;
-- (FCForYouGroupsConfiguration *)m;
-- (NSString *)({;
-- (long long)ôÿÿÿãçûÿäÒÿ¸Ï;
+- (NSString *)¨¸;
+- (NSString *)Ü~;
 
 @optional
-- (long long);
-- (long long)(;
-- (double)NSURL"8;
-- (FCSportsUpsellConfig *)Opaque: /* Error: Ran out of types for this method. */;
-- (FCNewsPersonalizationConfiguration *)bundleIdentifier;
-- (NSString *)pJ;
-- (long long)gJ;
-- (long long)#;
-- (NSArray *)ceType;
-- (long long)i_;
-- (NSString *)@9	;
-- (_Bool)Q32;
-- (long long)trokeDelta: /* Error: Ran out of types for this method. */;
-- (NSArray *)osition:] /* Error: Ran out of types for this method. */;
-- (NSString *)itWithDocumentRoot:] /* Error: Ran out of types for this method. */;
-- (FCLaunchPresentationConfig *)perty;
-- (double)ger_TSPersistence.m;
-- (_Bool)8;
-- (double)4;
-- (NSDictionary *);
-- (NSString *)Ô|;
-- (long long)t;
-- (long long)(£p£Ø¤ ¥¦Ð¦§;
-- (NSDictionary *)ÿ´ÏøÿØÏøÿüÏøÿðÐøÿÑøÿ8ÑøÿtÑøÿÑøÿäÑøÿÒøÿDÒøÿxÒøÿÒøÿÓøÿ(ÓøÿLÓøÿpÓøÿ<Ôøÿ`ÔøÿÔøÿÀÔøÿäÔøÿ<Õøÿ`ÕøÿÕøÿÐÕøÿôÕøÿHÖøÿlÖøÿÖøÿl×øÿ×øÿ´×øÿð×øÿØøÿhØøÿØøÿ°ØøÿàÙøÿÚøÿ(ÚøÿdÚøÿÚøÿØÚøÿüÚøÿ8ÛøÿlÛøÿÛøÿ<Üøÿ`ÜøÿÜøÿÐÜøÿôÜøÿÝøÿÔÝøÿøÝøÿhÞøÿÞøÿ°ÞøÿìÞøÿßøÿ`ßøÿ´ßøÿØßøÿ<àøÿ`àøÿàøÿÀàøÿäàøÿ0áøÿTáøÿxáøÿãøÿ(ãøÿLãøÿãøÿ¬ãøÿ;
+- (_Bool)¼oúÿàoúÿ0qúÿTqúÿxqúÿ´qúÿØqúÿXrúÿ¬rúÿÐrúÿDsúÿhsúÿsúÿÈsúÿìsúÿ8túÿ\túÿtúÿÌtúÿðtúÿduúÿ¸uúÿÜuúÿPvúÿtvúÿvúÿÔvúÿøvúÿTwúÿ¨wúÿÌwúÿXxúÿ|xúÿ xúÿÜxúÿ;
+- (_Bool);
+- (FCStatelessPersonalizationPublisherFavorability *)A$màèÖÿ;
+- (_Bool);
+- (FCSportsPrivacyConfiguration *)SubscriptionStatus;
+- (NSString *)areEvent;
+- (NSArray *);
+- (_Bool)Üÿ;
+- (long long)wn,;
+- (_Bool)e;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *aLaCartePaidSubscriptionGroupWhitelistedChannelIDs;
@@ -99,6 +78,10 @@
 
 @property(readonly, nonatomic) NSString *breakingNewsChannelID;
 @property(readonly, nonatomic) NSString *briefingsTagID;
+@property(readonly, nonatomic) NSString *cacheInvalidationResourceID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSDictionary *campaignReferralConfigsByID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSDictionary",?,R,N
@@ -161,6 +144,10 @@
 
 @property(readonly, nonatomic) long long expirePinnedArticlesAfter;
 @property(readonly, nonatomic) long long expiredPaidSubscriptionGroupCutoffTime;
+@property(readonly, nonatomic) FCFeaturePromotionResourceConfiguration *featurePromotionResourceConfiguration;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"FCFeaturePromotionResourceConfiguration",?,R,N
+
 @property(readonly, nonatomic) NSString *featuredStoriesTagID;
 @property(readonly, nonatomic) double feedLineHeightMultiplier;
 // Preceding property had unknown attributes: ?
@@ -214,6 +201,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCLaunchPresentationConfig",?,R,N
 
+@property(readonly, nonatomic) NSString *localNewsHubTagID;
 @property(readonly, nonatomic) FCLocationSharingUpsellConfig *locationSharingUpsellConfig;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCLocationSharingUpsellConfig",?,R,N
@@ -222,7 +210,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
-@property(readonly, nonatomic) long long maxCuratedShortcutsCount;
+@property(readonly, nonatomic) long long maxContentShortcutsCount;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
 
@@ -329,6 +317,18 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) _Bool paywallExperimentationEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSArray",?,R,N
+
+@property(readonly, nonatomic) NSString *paywallTagID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSArray *permanentChannelIDs;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,N
@@ -362,7 +362,10 @@
 // Original attribute string: TB,?,R,N,GshouldProxyURLBucketFetch
 
 @property(readonly, nonatomic) FCPuzzlesConfiguration *puzzlesConfig;
+@property(readonly, nonatomic) NSString *recipeAlcoholicDrinkTagID;
+@property(readonly, nonatomic) NSString *recipeBakingTagID;
 @property(readonly, nonatomic) NSString *recipeCatalogTagID;
+@property(readonly, nonatomic) NSString *recipeNonAlcoholicDrinkTagID;
 @property(readonly, nonatomic) long long savedArticlesCutoffTime;
 @property(readonly, nonatomic) long long savedArticlesMaximumCountCellular;
 @property(readonly, nonatomic) long long savedArticlesMaximumCountWiFi;
@@ -479,6 +482,10 @@
 @property(readonly, nonatomic) NSString *todayFeedKnobs;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool treatmentIDAdDonationEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) NSString *trendingRecipesListID;
 // Preceding property had unknown attributes: ?

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UICubicTimingParameters *cubicTimingParameters;

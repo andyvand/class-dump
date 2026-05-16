@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id)MetricsEvent",R,N;
+- (id);
+- (void)resentationStyle: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

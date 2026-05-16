@@ -13,18 +13,18 @@
     NSString *_diagnosticExtensionIdentifier;
 }
 
-+ (_Bool)howsItem;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *diagnosticExtensionIdentifier; // @synthesize diagnosticExtensionIdentifier=_diagnosticExtensionIdentifier;

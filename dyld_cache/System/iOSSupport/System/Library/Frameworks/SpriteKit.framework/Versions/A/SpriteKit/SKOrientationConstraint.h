@@ -19,20 +19,19 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (struct CGPoint);
-- (id);
-- (id)!,DùÐ1b0@ù
-× ;
 - (void);
+- (void)ctions;
+- (id);
+- (id);
 
 // Remaining properties
 @property __weak SKNode *node; // @synthesize node=_node;

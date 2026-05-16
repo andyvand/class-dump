@@ -37,62 +37,63 @@
 
 - (void);
 - (id);
-- (void)ng"16@"NSString"24;
-- (void)equest:(_Bool)arg1;
-- (void)setDeferredUnreadCountRefresh:(id)arg1;
 - (void);
-- (struct UIEdgeInsets)rSyncType: /* Error: Ran out of types for this method. */;
-- (id)isValidSubAction:subAction: /* Error: Ran out of types for this method. */;
-- (_Bool)edOut;
-- (id)ed;
-- (double)letionHandler: /* Error: Ran out of types for this method. */;
-- (void)eceiveMessageReadForMessageID:(double)arg1 date:(double)arg2 completionBlock:(id)arg3;
-- (id)oneID;
-- (struct UIEdgeInsets)lowList;
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
+- (_Bool);
+- (id);
+- (double);
+- (void);
+- (id);
+- (struct UIEdgeInsets);
 - (double);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (double);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)l is sooner. Existing:(double)arg1 %f vs requested:%f /* Error: Ran out of types for this method. */;
-- (void)c}s] Failed to expire:(struct CGRect)arg1 %@;
-- (double)on for IMDBackgroundMessagingAPIListener;
-- (void)from me for messages:(id)arg1 %@;
-- (double)ing isDeletingIncomingMessages to:%@ /* Error: Ran out of types for this method. */;
-- (void)ed Device ID has no extension Name. Resetting category and subCategory to None;
-- (double)t and message was force failed so that user can pick correct subscription to send with %@;
+- (void);
+- (void);
+- (double);
+- (void);
+- (double);
+- (void);
+- (double);
 - (double);
 - (Class);
 - (void);
 - (void);
 - (void);
 - (void);
+- (double);
+- (_Bool);
+- (id);
 - (void);
-- (struct UIEdgeInsets);
+- (id)Z1Â0@ù
+× ;
 - (void);
-- (void)CSResultError;
-- (void)À;
-- (id)
+- (struct UIEdgeInsets)0@ù
 × ;
-- (_Bool)Ð1¢!0@ù
+- (void)!ÀDùÑað1Â0@ù
 × ;
-- (id)1"hasUserBadgeTitleColor"b1"hasUserBadgeTitlePosition"b1}];
-- (unsigned long long)rview: /* Error: Ran out of types for this method. */;
-- (id)nary",&,N,V_colorBurnTintMaskViewMap;
-- (void);
-- (void)Xz;
-- (double)Curve;
-- (id)ouldn't find a drop proposal to return to the drop interaction. Collection view:%@; drop session:%@; destination controller session state:%@ /* Error: Ran out of types for this method. */;
-- (void)!= nil;
-- (void)ÀºÿØ;
-- (void)';
+- (id);
+- (void);
+- (unsigned long long)w"24@"NSString"32@"NSIndexPath"40;
+- (void)rabberDot;
+- (void)ì)ä+(,;
+- (void);
+- (id);
+- (void)4äÿÖÏx°g;
+- (void)T;
 
 // Remaining properties
 @property(nonatomic) _Bool autosizesButtons; // @synthesize autosizesButtons=_autosizesButtons;

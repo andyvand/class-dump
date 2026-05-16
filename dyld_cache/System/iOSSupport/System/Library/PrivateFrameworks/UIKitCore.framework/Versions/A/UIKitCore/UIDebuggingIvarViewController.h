@@ -14,20 +14,21 @@ __attribute__((visibility("hidden")))
     NSObject *_inspectedObject;
 }
 
-- (id)dMessage:(id)arg1;
+- (id);
 - (void);
-- (void)h;
+- (void);
 - (id);
 - (id);
 - (id);
 - (Class);
 - (id);
-- (long long);
 - (id);
+- (long long);
 - (void);
-- (void)ptLabel"b1"hasSearchBarBackground"b1"hasSearchBarBackdrop"b1"hasSeparator"b1"isHostedInlineByNavigationBar"b1"isHostedInlineByToolbar"b1"isFloating"b1"isTextFieldManagedInNSToolbar"b1"allowSearchFieldShrinkage"b1"searchFieldUsesCustomBackgroundImage"b1"searchFieldEffectivelySupportsDynamicType"b1"isProspective"b1"isHostingNavBarTransitionActive"b1"alwaysForceReadableWidth"b1"needsReconfigurationForScopeBar"b1};
-- (long long)sh;
-- (id)sFirstItemAsHeader;
+- (id);
+- (long long)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSObject *inspectedObject; // @synthesize inspectedObject=_inspectedObject;

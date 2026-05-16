@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (long long);
-+ (id)or;
++ (id);
 + (void);
 + (long long);
 

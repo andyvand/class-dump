@@ -16,8 +16,8 @@
     MISSING_TYPE *puzzleStreakThreadIdentifier;
 }
 
-- (void);
 - (id);
+- (void)Aý^|ðTÿYý^$óTÿYý^óTÿAý^äóTÿYý^$õTÿYý^õTÿAý^äõTÿý^$÷Tÿ;
 
 @end
 

@@ -12,9 +12,9 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long interactionType; // @synthesize interactionType=_interactionType;

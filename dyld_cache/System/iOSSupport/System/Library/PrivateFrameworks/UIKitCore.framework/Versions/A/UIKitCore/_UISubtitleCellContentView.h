@@ -21,42 +21,41 @@
     CDUnknownBlockType _primaryTextFrameDidChangeHandler;
 }
 
-- (struct _UISubtitleCellContentViewSizes)$;
+- (struct _UISubtitleCellContentViewSizes);
 - (id);
-- (void);
-- (void)ation_AlwaysOnServiceException"8;
-- (void);
-- (void);
-- (id)ttingsForPlayerViewController: /* Error: Ran out of types for this method. */;
-- (double)dingRepresentation;
+- (struct CGSize);
 - (id);
-- (void);
-- (void);
+- (struct CGRect);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)¢!0@ù
-× ;
-- (id)@ù
-× ;
-- (void)× ;
+- (void);
+- (void);
 - (id);
-- (void)SceneIdentifierCallback:(struct CGRect)arg1;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id)aselineConstraintsOnHeightChange;
-- (struct CGSize)CGSize=dd}},N,V_rowFrame;
-- (id),V_layoutWithinSafeArea;
 - (void);
-- (id)IApplicationSceneDeactivationAssertion;
-- (void)tate;
-- (double);
+- (void)!ðBùqf1Â0@ù
+× ;
+- (void)ition;
+- (void)omWindowsMenu:(struct UIEdgeInsets)arg1;
+- (void)ltOptions;
+- (id);
+- (id)usageSource;
+- (double)nuAtLocation3D: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)oresDynamicType;
+- (void)undImage;
+- (id)tentsDidChange;
+- (void),N,S_setPreferredHorizontalAlignment:(CDUnknownBlockType)arg1 ,V__preferredHorizontalAlignment;
+- (void),V_searchController;
+- (struct CGSize);
+- (id)ocus while inside another focus update. This typically happens when clients are manipulating state in response to a state change callout for the same state.;
+- (struct CGSize)ing reuse of prefetched cell for reason isViewInReuseQueue(%d) inUpdateAnimation(%d):(struct CGSize)arg1 %@;
 - (void);
-- (id)ht;
-- (struct CGRect)menu.learn;
-- (struct CGSize)imation;
-- (CDUnknownBlockType);
-- (id)omize Toolbar;
-- (struct CGSize);
+- (_Bool)with no owning view.;
+- (double)ChangeNotification;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preventFocus;

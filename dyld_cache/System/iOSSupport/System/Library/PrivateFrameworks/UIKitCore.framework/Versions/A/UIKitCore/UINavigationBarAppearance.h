@@ -20,56 +20,65 @@
     NSDictionary *__subtitleTextAttributes;
 }
 
-- (void)P;
-- (double);
-- (id)irPrintItem"8;
-- (void)and.management.refresh.status;
+- (id);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long)tItem;
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void)!@ùñÀ°1¢!0@ù
+- (_Bool)Fù1\Ð1Â0@ù
 × ;
-- (void)× ;
-- (void)tUikitTransitionDidEnd:(id)arg1;
-- (id)RenderedContent;
-- (void)r:(id)arg1;
-- (void)ForItemProviderWritableTypeIdentifier:(id)arg1;
-- (void)tGeneratedTextImageText;
-- (id)ionsEnabled;
-- (id)_UIViewServiceImplicitAnimationEncodingProxy;
-- (void)ebugIssueReport;
-- (_Bool);
-- (void)trol is not active for the cell:%@ /* Error: Ran out of types for this method. */;
-- (id)Setting modalPresentationStyle once presentationController has been accessed will have no effect until %@ is presented, dismissed, and presented again.;
-- (void)à?æÿ(@æÿP@æÿx@æÿ @æÿÈ@æÿì@æÿAæÿDAæÿ|Aæÿ¬AæÿÔAæÿBæÿTBæÿxBæÿBæÿÄBæÿüBæÿ,CæÿTCæÿCæÿÜCæÿDæÿ<DæÿlDæÿDæÿÜDæÿEæÿ<EæÿlEæÿEæÿÜEæÿFæÿ<FæÿlFæÿFæÿÜFæÿGæÿ<GæÿlGæÿGæÿÜGæÿHæÿ<HæÿlHæÿHæÿÜHæÿIæÿ,Iæÿ`Iæÿ$JæÿXJæÿJæÿ¸JæÿäJæÿKæÿÜKæÿLæÿ4LæÿhLæÿLæÿ¸LæÿüLæÿ$MæÿTMæÿMæÿÜMæÿNæÿ4NæÿtNæÿ¼NæÿäNæÿOæÿTOæÿOæÿÄOæÿôOæÿ4Pæÿ|Pæÿ¤PæÿÔPæÿQæÿ\QæÿQæÿ¬QæÿàQæÿ¤RæÿèRæÿSæÿPSæÿSæÿÈSæÿðSæÿ(TæÿLTæÿTæÿ¨TæÿàTæÿUæÿ@UæÿdUæÿUæÿÌUæÿ;
+- (void)GùQdÐ1Â0@ù
+× ;
+- (id)
+× ;
+- (void)qe1Â0@ù
+× ;
+- (id)reDragsToken>";
+- (double)CustomTransitionWithDuration: /* Error: Ran out of types for this method. */;
+- (void)thing;
+- (id)ustingFontForTypesettingLanguage:adjustingFontForTypesettingLanguageAwareLineHeightRatio:checkingForDifferences: /* Error: Ran out of types for this method. */;
+- (void)a;
+- (void)	
+;
+- (id)H;
+- (_Bool)Ü;
+- (unsigned long long)Tcc;
+- (id)ül;
+- (void)ÿÿ;
+- (id)ting to lay out with unsupported attachment edge:%lu /* Error: Ran out of types for this method. */;
+- (void)extures. texture=%s;
+- (void)¬èÿÔèÿèÿ<èÿdèÿ¤èÿìèÿèÿLèÿ|èÿ¤èÿÜèÿ¤èÿÜèÿèÿ<èÿdèÿ¨èÿÐèÿèÿ8èÿ`èÿ èÿèèÿèÿ@èÿhèÿ èÿÄèÿøèÿ	èÿP	èÿx	èÿ°	èÿà	èÿ
+èÿH
+èÿ
+èÿÐ
+èÿø
+èÿ0èÿTèÿèÿÄèÿèèÿèÿDèÿ|èÿ¤èÿÜèÿèÿ<èÿpèÿèÿÈèÿðèÿ(èÿPèÿèÿ°èÿèèÿèÿHèÿpèÿ¨èÿäèÿèÿ0èÿhèÿ èÿàèÿ èÿ`èÿ èÿàèÿ èÿTèÿèÿÀèÿøèÿ,èÿ`èÿèÿÈèÿüèÿ0èÿdèÿèÿÔèÿèÿDèÿ|èÿ´èÿìèÿ$èÿ\èÿèÿÌèÿèÿ<èÿ!èÿØ!èÿ;
+- (void)%ld rows in this section of the table view.;
 - (id);
-- (id)ly valid when using auto layout;
-- (id)ppingAfterAnimation:], but ignoringbecause test %@ is already being performed starting before animation named %@ and stopping after animation named %@ /* Error: Ran out of types for this method. */;
-- (id)caleDidChange;
-- (id)-symbols;
-- (unsigned long long)8Q16;
-- (id)toFillUI;
-- (void)¯ª;
 - (id);
-- (void)X'Þÿ1';
-- (id)7/_;
-- (id)h pÿ;
-- (id)8ø¯;
+- (id);
 - (void);
-- (void)ì¡-ÿC­ËNÜb;
-- (void);
-- (void)ÿ/yÛç>d;
-- (void)Ãh;
-- (struct UIOffset)å	©]h;
-- (id)ôh;
-- (void)ôÅ;
-- (void)¬Í¿Áj;
+- (id)PáþrJ×ðÂ];
+- (id)^;
+- (struct UIOffset);
+- (id)0lsÿ;
+- (void);
+- (void)Ð4Bc;
+- (id)c;
+- (void)<ee;
+- (void)tocþ;
+- (void)ÒDjg;
+- (void)Ìxöi;
+- (id)n;
+- (id)l;
 
 // Remaining properties
 @property(nonatomic) long long _backgroundVisibility; // @synthesize _backgroundVisibility=__backgroundVisibility;

@@ -20,10 +20,10 @@
 + (id);
 - (_Bool);
 - (void);
-- (_Bool)x;
-- (void)";
+- (_Bool);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,21 +31,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)\$;
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)ncXPCIMDMessageStoreSendXPCMessage failed too many times...bailing!;
-- (void)ageStoreSendXPCMessage:You should not be hitting the database in a unit test. Please check your dependencies /* Error: Ran out of types for this method. */;
-- (void)isHighDynamicRange;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void),V_colorPickerPopoverViewController;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain) AKAnnotation *annotation; // @synthesize annotation=_annotation;

@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (id)emsAttributes;
+- (id);
 
 @end
 

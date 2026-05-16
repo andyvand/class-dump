@@ -13,7 +13,9 @@
     MISSING_TYPE *playerStyle;
     MISSING_TYPE *hostedContent;
     MISSING_TYPE *updateContentSelection;
+    MISSING_TYPE *videoPlayerDelegate;
     MISSING_TYPE *aspectRatioObserver;
+    MISSING_TYPE *previousVideoSize;
     MISSING_TYPE *subscriptions;
     MISSING_TYPE *nowPlayingViewModel;
     MISSING_TYPE *tapGestureRecognizer;
@@ -23,9 +25,9 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
-- (_Bool)G;
+- (_Bool);
+- (void)dices:Changed from client-defined buckets to default cacheIndex. /* Error: Ran out of types for this method. */;
 
 @end
 

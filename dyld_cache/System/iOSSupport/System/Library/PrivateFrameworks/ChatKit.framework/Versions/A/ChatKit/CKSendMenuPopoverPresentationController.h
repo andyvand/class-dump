@@ -18,23 +18,23 @@ __attribute__((visibility("hidden")))
     CKPopoverViewLayoutMetrics *_layoutMetricsCommunicatedToDelegate;
 }
 
-- (void)utedStringByHighlightingRegexMatches:(id)arg1 withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
-- (void)ouldIncludeSharedWithYou;
-- (void)Progress",&,N,V_observedProgress;
-- (void)collaborationAnalyticsDelegate;
-- (void)tring",C,N,V_dismissTitle;
-- (void)hints:(id)arg1;
-- (id)ction;
-- (void)orage;
 - (void);
-- (id)0;
-- (id)amp;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
-- (unsigned long long)pink;
-- (id)e.;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
-- (id)rTextAttachmentDidAppearNotification;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -43,25 +43,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (long long);
-- (void);
-- (struct CGRect);
+- (id);
 - (id);
 - (void);
-- (void)ngKeys;
-- (void)±7.;
-- (id)Q.;
-- (id);
+- (void);
+- (void);
+- (_Bool)ilename;
+- (void)8TÜD%0'`(T)<*;
+- (void)¨ÇøÇ;
+- (void)y Deleted] Permanent deletion confirmed;
+- (struct CGRect)er;
+- (id)OnboardingController;
+- (id)cle.badge.plus;
+- (void)À
+;
+- (void)ü5$ÿ!;
+- (id);
+- (void);
+- (void)riptNavigationBarAction;
 
 // Remaining properties
 @property(retain, nonatomic) CKSendMenuPopoverPresentationControllerAnchorItem *anchorItem; // @dynamic anchorItem;

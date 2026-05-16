@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MPCQueueControllerBehaviorMusicDelegate;
 
 @protocol MPCQueueControllerBehaviorMusic
-- (void)rivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices;
-- (void)unt:(NSString *)arg1 inStore:error: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)g",?,R,C;
-- (_Bool)nStore:(id *)arg1;
-- (_Bool)ExistingIdentityServicesACAccountWithUserName:(id *)arg1 inStore: /* Error: Ran out of types for this method. */;
-- (long long);
-
-@optional
-- (void)2;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool autoPlayEnabled;

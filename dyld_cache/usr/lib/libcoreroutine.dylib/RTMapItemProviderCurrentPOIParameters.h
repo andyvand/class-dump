@@ -9,11 +9,11 @@
     double _distanceThreshold;
 }
 
+- (id);
+- (id);
 - (double);
 - (id);
-- (id);
-- (id)U;
-- (id)g:(id)arg1 region (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id)ntiguousNonDriveSegments,%lu;
 
 // Remaining properties
 @property(readonly, nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;

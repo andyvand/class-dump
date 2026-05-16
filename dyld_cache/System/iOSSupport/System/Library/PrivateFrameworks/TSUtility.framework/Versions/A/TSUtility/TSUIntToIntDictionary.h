@@ -16,18 +16,18 @@
 - (long long);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool)eadChannel;
 
 @end
 

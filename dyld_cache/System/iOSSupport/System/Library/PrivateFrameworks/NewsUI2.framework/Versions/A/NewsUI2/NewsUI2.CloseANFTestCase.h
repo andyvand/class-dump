@@ -13,12 +13,12 @@
     unsigned long long aggregate;
 }
 
-- (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)óÿTPóÿ|PóÿPóÿÌPóÿQóÿ,QóÿLQóÿQóÿÌQóÿRóÿDRóÿRóÿ°RóÿðRóÿSóÿ Sóÿ`SóÿxSóÿSóÿ¨SóÿÀSóÿäSóÿTóÿ,TóÿDTóÿ\TóÿTóÿÌTóÿ$Uóÿ\UóÿUóÿ¬UóÿäUóÿVóÿ,VóÿDVóÿ\Vóÿ|VóÿVóÿ´VóÿÌVóÿWóÿ<Wóÿ°WóÿèWóÿXóÿ,XóÿDXóÿ XóÿÌXóÿYóÿYóÿ¼Yóÿ`Zóÿ [óÿ[óÿ¼[óÿÔ[óÿ;
-- (id);
+- (void)@ñMÿ;
+- (id))apÝ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

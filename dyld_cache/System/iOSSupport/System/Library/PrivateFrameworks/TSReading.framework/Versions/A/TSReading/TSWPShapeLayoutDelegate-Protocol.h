@@ -5,6 +5,5 @@
 //
 
 @protocol TSWPShapeLayoutDelegate
-- (_Bool)#;
 @end
 

@@ -15,10 +15,10 @@
 }
 
 - (void);
-- (id)tsEventArticlesGroupTopicsConfig;
-- (void)7;
-- (id)ntMode;
-- (void)noreDelegate;
+- (void);
+- (id);
+- (id);
+- (void)¼ÿÿ;
 - (id);
 
 // Remaining properties

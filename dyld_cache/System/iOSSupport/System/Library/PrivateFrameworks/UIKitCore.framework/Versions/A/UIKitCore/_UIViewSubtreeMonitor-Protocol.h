@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol _UIViewSubtreeMonitor
-- (void)ions:(UIView *)arg1 writingItemAtURL:(UIView *)arg2 options:(UIView *)arg3 error:byAccessor: /* Error: Ran out of types for this method. */;
-- (void)So8UIButtonC³Ò;
+- (void)!dAù1[°1Â0@ù
+× ;
+- (void)
+× ;
 @end
 

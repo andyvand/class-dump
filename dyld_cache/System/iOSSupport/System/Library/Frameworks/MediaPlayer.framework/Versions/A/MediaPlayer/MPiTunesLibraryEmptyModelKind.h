@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)Coder:expectNonNull:errorDomain:errorCode:logHandle: /* Error: Ran out of types for this method. */;
++ (id);
 
 @end
 

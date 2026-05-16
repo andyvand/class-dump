@@ -17,8 +17,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)blisherGuide: /* Error: Ran out of types for this method. */;
 
 @end
 

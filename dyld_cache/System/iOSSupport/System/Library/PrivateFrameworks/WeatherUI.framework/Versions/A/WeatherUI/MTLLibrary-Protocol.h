@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunctionReflection, NSArray, NSString;
-@protocol MTLDevice;
+@class NSArray, NSString;
+@protocol MTLDevice, MTLFunction;
 
 @protocol MTLLibrary
-- (MTLFunctionReflection *);
-- (void)_WeatherV136WatchBackground_particleInit_324;
+- (void);
+- (id <MTLFunction>)current air quality index in the country's scale;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

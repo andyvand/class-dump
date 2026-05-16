@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatBotActionButton;
-
 @protocol CKChatBotActionButtonDelegate
-- (void)unclampTextView;
-- (void);
-- (void)orUserID:(CKChatBotActionButton *)arg1;
 @end
 

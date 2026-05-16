@@ -23,19 +23,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool)public}@] Error sending logout request. error = %{public}@;
-- (id)ment.;
-- (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (double);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)g Item pivot time in ItemTransitionParameters event=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) double crossfadeDuration;

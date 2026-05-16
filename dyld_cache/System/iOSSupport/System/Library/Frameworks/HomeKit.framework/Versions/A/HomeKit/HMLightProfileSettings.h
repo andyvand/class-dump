@@ -12,20 +12,20 @@
     unsigned long long _supportedFeatures;
 }
 
-+ (id)¼();
-+ (_Bool)racteristicWriteAction;
++ (id);
++ (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id)_bulletinBoardNotificationInternal;
-- (id)key paths:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)les: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

@@ -9,8 +9,8 @@
 @interface CallsAppServices.RecentsItemDataSource
 {
     MISSING_TYPE *configuration;
-    MISSING_TYPE *_forceLoaded;
-    MISSING_TYPE *_loadingState;
+    MISSING_TYPE *forceLoaded;
+    MISSING_TYPE *loadingState;
     MISSING_TYPE *_loading;
     MISSING_TYPE *_hasFinishedFirstLoad;
     MISSING_TYPE *_hasFinishedFirstLoadValue;
@@ -24,19 +24,18 @@
     MISSING_TYPE *loadingFallbackTask;
     MISSING_TYPE *previousDataSourceStates;
     MISSING_TYPE *featureFlags;
-    MISSING_TYPE *_signState;
+    MISSING_TYPE *signState;
     MISSING_TYPE *$__lazy_storage_$_recentsReminderActionProvider;
     MISSING_TYPE *recentsReminderCache;
-    MISSING_TYPE *_reminderUpdateCancellable;
-    MISSING_TYPE *_datasourceCancellable;
-    MISSING_TYPE *_$observationRegistrar;
+    MISSING_TYPE *reminderUpdateCancellable;
+    MISSING_TYPE *datasourceCancellable;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

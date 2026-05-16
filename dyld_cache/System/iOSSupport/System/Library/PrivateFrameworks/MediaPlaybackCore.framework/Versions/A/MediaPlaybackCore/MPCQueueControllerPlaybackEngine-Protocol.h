@@ -7,8 +7,6 @@
 @class MPCPlaybackEngineEventStream, MPCPlaybackIntent, NSString;
 
 @protocol MPCQueueControllerPlaybackEngine
-- (void);
-- (NSString *)upport;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *engineID;

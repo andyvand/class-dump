@@ -21,7 +21,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool),WFTextOffset;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -29,13 +29,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)ÉÌ;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)mand line.;
+- (id)h¼;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appContainerBundleIdentifier; // @synthesize appContainerBundleIdentifier=_appContainerBundleIdentifier;

@@ -12,10 +12,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType callback; // @synthesize callback=_callback;

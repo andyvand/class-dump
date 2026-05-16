@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *isLive;
     MISSING_TYPE *snapshot;
+    MISSING_TYPE *formattedDuration;
     MISSING_TYPE *jumpSubject;
     MISSING_TYPE *jumpPublisher;
 }

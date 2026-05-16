@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)list id failed;
-- (void)iting for password response;
+- (long long)PlistFileRepresentation:attributionSet: /* Error: Ran out of types for this method. */;
+- (void)uts.WFSpeechSynthesizer;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

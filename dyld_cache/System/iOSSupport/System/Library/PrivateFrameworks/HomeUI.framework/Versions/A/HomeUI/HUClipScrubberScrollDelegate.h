@@ -51,34 +51,35 @@
 - (void);
 - (void);
 - (float);
-- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (double);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool)ù
+- (double);
+- (struct UIEdgeInsets);
+- (double);
+- (struct CGSize);
+- (void)
 × ;
-- (void)Ôá&Ð!T@ùñ0Ð1b0@ù
+- (_Bool)°1â
+0@ù
 × ;
-- (double)ext",&,N,V_onboardingContext;
-- (struct CGSize)AApC;
-- (id)rationBannerStringWithIsForTitle:) allResidentsAreATVsWithHH1EOL = YES | atvsHH1EOL = (%lu) %{public}@ /* Error: Ran out of types for this method. */;
-- (void);
-- (struct UIEdgeInsets)n presentation while a previous presentation is already in progress;
-- (struct CGSize)nnotRecognizeAdditionalVoices_Title;
-- (double)iù;
-- (void)º;
-- (double)ÿíâ÷Ûb;
-- (void)^;
+- (struct CGSize);
+- (id)eSwitch;
+- (void)<M8N|NDOôP\QüRS;
+- (void)nedInFooter;
+- (double)¤;
+- (void).7ÿ¬Ï;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *clipCollectionView; // @synthesize clipCollectionView=_clipCollectionView;

@@ -31,18 +31,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (struct CGSize)!;
+- (void);
+- (struct CGSize);
 - (void);
 - (void);
-- (double);
-- (id)Ãð1¢!0@ù
-× ;
 - (void);
-- (id)ü;
-- (void)W_CONTACT_CARD;
-- (struct CGSize)¸¥ÿ]N;
-- (id)opyAssetActionPerformer;
-- (void)/;
+- (struct CGSize);
+- (id);
+- (id);
+- (void)q;
+- (double),»ÿ;
+- (id)tj3;
 
 // Remaining properties
 @property(nonatomic) _Bool animating; // @synthesize animating=_animating;

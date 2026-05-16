@@ -17,10 +17,10 @@
 
 - (void);
 - (id);
-- (void)rName;
-- (id)<ù;
-- (void).on.rectangle;
-- (id)tUpdateInProgress;
+- (id);
+- (id)LinkViewModel";
+- (void)IfNeeded;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <MULayoutItem> container;

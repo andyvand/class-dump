@@ -25,14 +25,14 @@ __attribute__((visibility("hidden")))
 - (struct __CFRunLoopSource *);
 - (void);
 - (id);
-- (id)i and from actual backpropagator exist at same time;
-- (unsigned int);
-- (void);
+- (id);
 - (unsigned int);
 - (void);
 - (void);
 - (_Bool);
 - (struct __CFRunLoop *);
+- (unsigned int);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct __CFRunLoopSource *clientDefsServerSource; // @synthesize clientDefsServerSource=_clientDefsServerSource;

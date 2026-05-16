@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     NSURL *_deepLinkURL;
 }
 
-+ (_Bool)ctWithParameters:completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (_Bool)bå\G;
+- (void);
+- (_Bool)nse:%{private}s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *deepLinkURL; // @synthesize deepLinkURL=_deepLinkURL;

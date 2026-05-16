@@ -17,23 +17,23 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)tartPageNumberProperty;
-- (void)block_invoke;
-- (id)HÐ;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ject: /* Error: Ran out of types for this method. */;
+- (void)qXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableStylePreset.mm;
+- (void)ityFont;
+- (id);
+- (void)¼';
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;

@@ -5,9 +5,7 @@
 //
 
 @protocol VFXFloorJSExport
-- (float)%@<float> %@
-;
-- (void)ðL,?õi;É©B<±¨¨>?ÅÉ>;
+- (void);
 
 // Remaining properties
 @property(nonatomic) float length;

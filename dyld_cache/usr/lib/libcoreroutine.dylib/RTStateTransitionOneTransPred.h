@@ -13,14 +13,15 @@
     NSUUID *_stateUUID;
 }
 
-- (void)che:(id)arg1 continuous extensions discovery failed with error = %@;
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
-- (id)onPluginType: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
+- (void)!ÄBùñB,Ð1Â0@ù
+× ;
+- (void)hKitWorkout, %{sensitive}@ -> %{sensitive}@;
 
 // Remaining properties
 @property(retain, nonatomic) RTStateTransitionOnePredEl *daily; // @synthesize daily=_daily;

@@ -4,24 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CKSMSComposeViewServiceProtocol
-- (void);
-- (void);
-- (void)IntoBuffer:(_Bool)arg1 frameCount:error: /* Error: Ran out of types for this method. */;
-- (void)ncated:(_Bool)arg1;
-- (void)e;
-- (void)dLabel;
-- (void)tically;
-- (void)cale:(NSArray *)arg1 appearanceInfo:(NSArray *)arg2 backgroundColor:hasBorder: /* Error: Ran out of types for this method. */;
-- (void)e:(void (^)(void))arg1 accountIdentifier:cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder: /* Error: Ran out of types for this method. */;
-- (void)imated:(NSArray *)arg1;
-- (void)(;
-- (void);
-- (void)eueCG;
-- (void)lain Link;
-- (void)vice-background;
-- (void)ell;
+- (void)lternate;
 @end
 

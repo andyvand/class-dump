@@ -33,18 +33,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void)\;
+- (_Bool);
+- (id)GG;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

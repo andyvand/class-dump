@@ -21,19 +21,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)TruthZone: /* Error: Ran out of types for this method. */;
-- (void)essAssetFetchPerRecordProgressBlock:(id)arg1 progress:(_Bool)arg2;
-- (void)findUnsubscribeTextForChat:inMessageBody: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool)!;
-- (void)fications;
-- (void);
-- (id)!\GùqÌ°1¢!0@ù
-× ;
-- (id),R,N,V_rangeToBeReplaced;
-- (id)elements contains an element with invalid properties;
-- (id)`;
+- (id);
+- (_Bool)aits"24;
+- (void)ActivelyAvoidingKeyboard;
+- (id)playConfigurationUpdatedNotification;
+- (id)g; %g, %g);
+- (void)4Ç[;
+- (id)!¤c;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *childNodes; // @synthesize childNodes=_childNodes;

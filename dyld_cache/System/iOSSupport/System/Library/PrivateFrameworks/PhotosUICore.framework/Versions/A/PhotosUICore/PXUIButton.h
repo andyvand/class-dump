@@ -17,11 +17,12 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id)ø1ø2P3d5*8;
+- (id)0@ù
+× ;
+- (_Bool)PrivateStyle:(struct CGPoint)arg1;
+- (id)?@;
+- (id)supported representation found for itemProvider:(id)arg1 %@;
+- (void)LemonadeEmptySharedAlbumsMessage;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

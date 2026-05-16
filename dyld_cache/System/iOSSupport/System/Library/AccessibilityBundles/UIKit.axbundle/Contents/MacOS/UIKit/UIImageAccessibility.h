@@ -16,9 +16,9 @@
 + (id);
 + (id);
 + (id);
-+ (void);
 + (Class);
 + (id);
++ (void);
 - (id);
 - (id);
 - (id);
@@ -34,10 +34,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (id);
 - (struct CGImage *);
 - (id);
+- (id)ViewAccessibility;
 
 @end
 

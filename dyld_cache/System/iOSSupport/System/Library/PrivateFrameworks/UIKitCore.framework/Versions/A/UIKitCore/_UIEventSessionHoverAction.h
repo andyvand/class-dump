@@ -19,8 +19,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (id)__MPModelPropertySongGaplessInfo__MAPPING_MISSING__;
-- (long long)Pocket;
+- (long long)
+× ;
+- (id)nEnabled,VuserAuthenticationEnabled;
 
 // Remaining properties
 @property(nonatomic) long long numFingers; // @synthesize numFingers=_numFingers;

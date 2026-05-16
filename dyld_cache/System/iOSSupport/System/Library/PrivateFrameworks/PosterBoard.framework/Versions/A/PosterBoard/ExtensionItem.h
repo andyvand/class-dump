@@ -17,14 +17,14 @@
 
 + (id);
 - (_Bool);
+- (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)me Screen Poster rejected this update;
+- (void);
 
 @end
 

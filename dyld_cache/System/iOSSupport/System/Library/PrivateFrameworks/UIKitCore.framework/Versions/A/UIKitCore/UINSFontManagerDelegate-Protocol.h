@@ -5,6 +5,6 @@
 //
 
 @protocol UINSFontManagerDelegate
-- (void);
+- (void)path (%@) - the collection view's delegate must return an index path for a valid UICollectionViewCell from -indexPathForPreferredFocusedViewInCollectionView:(NSDictionary * (^)(NSDictionary *))arg1;
 @end
 

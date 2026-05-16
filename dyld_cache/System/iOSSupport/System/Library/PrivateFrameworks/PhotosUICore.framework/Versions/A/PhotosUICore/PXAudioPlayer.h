@@ -65,24 +65,23 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (id);
-- (id)1b0@ù
-× ;
-- (id)CGPoint=dd}24{CGPoint=dd}40o^B56;
-- (void)toStore: /* Error: Ran out of types for this method. */;
-- (float)ailed to present details view from photos grid header tap, error %@;
-- (void)@; existing assertion reasons:(float)arg1 %{public}@;
-- (void)m provider for asset %{public}s;
-- (CDStruct_1b6d18a9)reProvider;
 - (void);
-- (void)×3;
-- (void)¨7;
+- (void);
+- (float);
+- (CDStruct_1b6d18a9)orTesting:assetCollectionToObserveForTesting:automaticAuthenticationBehaviorForTesting: /* Error: Ran out of types for this method. */;
+- (void)tButtonTitle;
+- (void)È"a;
+- (void)Á7;
+- (void):(id)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXAudioPlayerDelegate> audioSessionDelegate; // @synthesize audioSessionDelegate=_audioSessionDelegate;

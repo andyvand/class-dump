@@ -64,14 +64,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)%i];
+- (id);
+- (void);
+- (id)ickerDelegate;
 
 // Remaining properties
 @property(retain) NSMutableSet *_attachments; // @synthesize _attachments=__attachments;

@@ -11,6 +11,8 @@
     MISSING_TYPE *styler;
     MISSING_TYPE *baseMastheadHeight;
     MISSING_TYPE *publisherLogoMaxHeight;
+    MISSING_TYPE *supplementalViewWidth;
+    MISSING_TYPE *featureAvailability;
 }
 
 @end

@@ -20,20 +20,20 @@
 - (void);
 - (void);
 - (void);
-- (struct UIEdgeInsets)f;
-- (void)port;
+- (struct UIEdgeInsets);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)@¨4øD¼;
+- (void)Font;
+- (void)¬Ì;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

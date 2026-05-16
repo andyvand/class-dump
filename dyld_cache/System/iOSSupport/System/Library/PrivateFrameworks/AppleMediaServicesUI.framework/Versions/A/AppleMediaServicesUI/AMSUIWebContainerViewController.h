@@ -43,6 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -114,19 +115,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
+- (long long);
+- (unsigned long long)1B50@ù
+× ;
+- (void)s: /* Error: Ran out of types for this method. */;
+- (id)ïÿd;
 - (void);
-- (void);
-- (void);
-- (unsigned long long)ictionary: /* Error: Ran out of types for this method. */;
-- (void)BannerMessageModel;
-- (long long)edResultKeys;
+- (void)h¡Ð;
+- (void)`øïÿb¡";
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activePresentationType; // @synthesize activePresentationType=_activePresentationType;

@@ -13,31 +13,31 @@
     MPModelObject *_pinnedEntity;
 }
 
-+ (id)Data;
-+ (id)tentId;
-+ (id)ionDate;
-+ (id)uration;
-+ (id)DateTimestamp;
-+ (id)municationSafetyResultEventType;
-+ (id)SafetyResultEventDirection;
-+ (id)te;
-+ (id)d;
-+ (id)upancy;
-+ (void)sAllDay;
-+ (void)mageRepresentation;
-+ (void)bscriptions;
-+ (void)tIsReaderText;
-+ (void)BookmarkTimestamp;
-+ (void)ncodedLocation;
-+ (void)N,V_userActivityData;
-+ (void)eadFrom: /* Error: Ran out of types for this method. */;
-+ (void)SData",&,N,V_interaction;
-+ (void)ncodedLocation;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)xt"16@"MPIdentifierSet<MPMutableIdentifierSet>"24;
+- (id);
+- (void)toreCellularNetworkingAllowed;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelAlbum *album; // @dynamic album;

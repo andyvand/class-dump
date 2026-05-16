@@ -9,13 +9,13 @@
 
 @interface (null) (ForPreviewsOnly)
 + (id);
-- (struct UIEdgeInsets)H;
-- (struct UIEdgeInsets);
-- (double)Range:forElementKind: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)a: /* Error: Ran out of types for this method. */;
-- (double)entsCenter;
-- (struct UIEdgeInsets)itSelectionIsKey;
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (double);
+- (struct UIEdgeInsets)tentView: /* Error: Ran out of types for this method. */;
+- (double)ntroller: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)nment;
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)<?@¯±<à?+M9û®×n@r"E?Ðâ?4i$XU@ ªrÞz2@Äí[cûï?;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long artworkSubtype;

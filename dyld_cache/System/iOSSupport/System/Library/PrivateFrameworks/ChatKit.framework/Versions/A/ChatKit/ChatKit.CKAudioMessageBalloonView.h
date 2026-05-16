@@ -34,34 +34,35 @@
 }
 
 - (id);
-- (void)ÐÖÖ;
-- (long long)Õ;
+- (void);
+- (long long);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
-- (void)s:(id)arg1;
-- (void)gObject:(long long)arg1;
-- (void)jectIDURIString:(_Bool)arg1;
-- (void)ontext;
-- (void)preferredFontForFixedWidthTextWithContentSizeCategory:(double)arg1;
-- (_Bool)ocalDatabase;
-- (_Bool)eteEmptyNote: /* Error: Ran out of types for this method. */;
-- (id)me;
-- (id)ightedMultiplier;
-- (id)ngStyleFontSizeThreshold;
-- (id)save;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (double);
 - (void);
-- (void)So25ICActivityStreamSelectionCSgt;
 - (void);
-- (struct CKBalloonDescriptor_t)";
 - (void);
-- (void)barBridge.swift;
+- (struct CKBalloonDescriptor_t);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -70,16 +71,16 @@
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (id);
+- (double);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)lloonViewController",W,N,V_notificationFullScreenBalloonController;
-- (void)MSyncedSettingsManager",&,N,V_syncedSettingsManager;
-- (double),9;
-- (double)E_FOOTER_BUTTON_TEXT;
-- (_Bool)Jÿ ß¼;
+- (double);
+- (_Bool)yAByAwNyÊ]SgGG_Qo_ANyÏ]GGANyAYSgGGA11_GGtGG ]GAEyAFyAL_AGyAFyAM_ATtGGÐ]A25_tGGGGS¸]yå^^GG6¦]GAFyABy²Ð]ySayAãGSSb^yAByÈa^yBã_AByACyAMGA22_GSgQo_A39_G_SSA47_Qo_G!ãG_"ãtGG;
+- (void)age == %@;
+- (void)nForDisplayQueue;
+- (void)8p7H.;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration;

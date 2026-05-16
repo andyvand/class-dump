@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)edSerialNumbers;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *body; // @synthesize body=_body;

@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAnnotationView;
-
 @protocol MKMapViewDelegate
-
-@optional
-- (void);
-- (void);
-- (MKAnnotationView *);
 @end
 

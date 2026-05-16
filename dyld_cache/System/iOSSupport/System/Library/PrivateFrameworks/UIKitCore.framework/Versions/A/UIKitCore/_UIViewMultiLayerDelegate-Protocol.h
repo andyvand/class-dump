@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewMultiLayerDelegate
+- (void)þÿ;
 @end
 

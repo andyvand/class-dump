@@ -24,15 +24,15 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (const struct CGRect *);
-- (struct CGRect)@0:(unsigned long long)arg1 8@"SiriUISimpleNavigationController"16@"NSViewController"24;
+- (struct CGRect);
 - (struct CGSize);
 - (struct CGRect);
-- (void)bject<OS_dispatch_queue>",&,N,V_outputQueue;
-- (id);
 - (id);
 - (id);
 - (void);
-- (void)andler:(id)arg1;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id delegate;

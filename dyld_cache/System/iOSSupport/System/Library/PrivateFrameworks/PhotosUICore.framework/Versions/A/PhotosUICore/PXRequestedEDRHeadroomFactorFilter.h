@@ -19,8 +19,8 @@
 - (double);
 - (double);
 - (id);
-- (_Bool);
-- (void)=qiIq}{?=qiIq}{?={?=qiIq}q}q{?=qiIq}d{?=qiIq}qc{?=qiIq}},R,N,V_currentPacingDecision;
+- (void);
+- (_Bool)Zi;
 
 // Remaining properties
 @property(nonatomic) double highValue; // @synthesize highValue=_highValue;

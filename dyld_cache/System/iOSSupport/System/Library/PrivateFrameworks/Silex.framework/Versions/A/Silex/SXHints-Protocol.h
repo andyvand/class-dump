@@ -7,7 +7,6 @@
 @protocol SXConditionHints, SXConditionalHints;
 
 @protocol SXHints
-- (id <SXConditionHints>)teConformingToProtocol:forRep: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXConditionalHints> conditionals;

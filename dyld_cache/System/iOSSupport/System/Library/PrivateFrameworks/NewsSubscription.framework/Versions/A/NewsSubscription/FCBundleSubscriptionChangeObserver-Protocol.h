@@ -5,8 +5,5 @@
 //
 
 @protocol FCBundleSubscriptionChangeObserver
-
-@optional
-- (void)ion requirement to become trackListened action. See time played as %{public}@ but required %{public}@;
 @end
 

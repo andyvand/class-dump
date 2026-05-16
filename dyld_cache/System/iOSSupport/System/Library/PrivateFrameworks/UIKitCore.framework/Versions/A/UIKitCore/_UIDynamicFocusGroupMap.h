@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)nCallbacksDisabledOnPop: /* Error: Ran out of types for this method. */;
-- (id)nkPresentationMetadata;
+- (id);
+- (id)ndlers;
+- (void)°ª\;
 
 @end
 

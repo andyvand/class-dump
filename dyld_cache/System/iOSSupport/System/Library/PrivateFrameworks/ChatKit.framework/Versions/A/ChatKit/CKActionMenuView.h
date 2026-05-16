@@ -23,41 +23,40 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-- (void)o;
 - (void);
 - (void);
-- (void)thing;
-- (void)Search result object is nil;
-- (void)Table:(id)arg1 Found a token text attachment that we could not create a text attachment for:(unsigned long long)arg2 %@ at %@;
-- (void)not authenticated {account:(id)arg1 %@};
-- (void)or diverged notes because account is not authenticated {account:(id)arg1 %@};
-- (struct CGPoint)Range=QQ}16^B32;
-- (struct CGRect)hed list style;
-- (unsigned long long)le.badge.plus;
-- (id)e Note;
-- (void)are;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (struct CGRect);
+- (unsigned long long);
+- (id);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (id);
-- (id)Ã°1¢!0@ù
-× ;
-- (void)dAppearance:(_Bool)arg1;
-- (_Bool)moved:reload:regenerate:animated:completion: /* Error: Ran out of types for this method. */;
-- (void)hes;
-- (struct CGSize)à;
-- (void)6å-;
-- (id)ÿ`'8u1;
+- (void);
+- (void)× ;
+- (_Bool)ts for conversation request. %@;
+- (id)MAIL;
+- (void)#ÿE9;
+- (id);
+- (void);
+- (void)4î/;
+- (void)¸ÿcn4,1;
 
 // Remaining properties
 @property(nonatomic) __weak CKActionMenuController *actionMenuController; // @synthesize actionMenuController=_actionMenuController;

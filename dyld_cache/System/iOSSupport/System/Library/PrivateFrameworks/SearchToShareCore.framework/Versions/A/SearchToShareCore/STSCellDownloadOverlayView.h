@@ -12,9 +12,9 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) STSRoundProgressView *progressView; // @synthesize progressView=_progressView;

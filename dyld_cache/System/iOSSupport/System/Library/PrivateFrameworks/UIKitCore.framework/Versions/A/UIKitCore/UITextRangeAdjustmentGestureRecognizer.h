@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
     struct CGPoint _startPoint;
 }
 
+- (struct CGPoint);
+- (void)currentBackgroundColor;
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (struct CGPoint)P!fÿcÑs~d;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;

@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool)ferWithGUID:(id)arg1;
+- (_Bool);
 - (struct CGPoint);
 - (double);
 - (struct CGPoint);
 - (double);
 - (id);
-- (struct CGPoint)yGUIDs from IMDPersistence returning nil for batchOfRecordIDsToDelete for DeletedChatStore.;
-- (id)ine component as finished.;
-- (double)itWithThreadID:participantsIDtoNamesMap:primaryRecipients:secondaryRecipients: /* Error: Ran out of types for this method. */;
-- (long long)}ÿ;
+- (struct CGPoint);
+- (id);
+- (double)t",&,N,V_placementDuringAnimation;
+- (long long);
 
 @end
 

@@ -23,9 +23,9 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id)Çÿ;
+- (id)erObservation;
+- (void)e·Êl£;
+- (id)ø3;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetCount; // @synthesize assetCount=_assetCount;

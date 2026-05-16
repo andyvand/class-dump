@@ -17,10 +17,10 @@
 - (struct CGSize);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) FMAttributedStringRendererOptions *options; // @synthesize options=_options;

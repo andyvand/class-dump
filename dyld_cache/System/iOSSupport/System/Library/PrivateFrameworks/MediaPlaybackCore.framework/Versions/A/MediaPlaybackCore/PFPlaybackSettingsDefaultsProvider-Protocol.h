@@ -5,8 +5,6 @@
 //
 
 @protocol PFPlaybackSettingsDefaultsProvider
-- (float)4;
-- (_Bool)imeSeries",R,&,V_timeIndex;
 
 // Remaining properties
 @property(nonatomic) _Bool enhanceDialogueEnabledGlobalValue;

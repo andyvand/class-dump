@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol PXGVideoPresentationController
-- (NSString *)ForIdentifier:placement: /* Error: Ran out of types for this method. */;
+- (NSString *)ourceProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) long long actualPlayState;

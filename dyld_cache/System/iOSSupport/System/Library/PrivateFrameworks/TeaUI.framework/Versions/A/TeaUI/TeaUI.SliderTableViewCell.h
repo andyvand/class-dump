@@ -15,10 +15,10 @@
     MISSING_TYPE *slider;
 }
 
-- (void)<;
+- (void);
 - (id);
-- (id)_sportsTopStoriesOntologyLevelConfig;
-- (void)Q@;
+- (id);
+- (void);
 
 @end
 

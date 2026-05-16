@@ -15,15 +15,15 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (_Bool)cherSplitMenu>"16;
-- (id)tainerView;
-- (void)tion;
-- (void);
-- (void)×ýj8G;
 - (_Bool);
-- (_Bool)BÖ)£a;
+- (id);
+- (void)!;
+- (_Bool)llback;
+- (id),N,V_transitionEffectiveGeometry;
+- (void)urity]_block_invoke;
+- (void)osition:(id)arg1 %p, %i, {"%@"}, {"%@"}>;
+- (void)Ìn ÿ@j9;
+- (_Bool)Jÿ´É°î_;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *view; // @synthesize view;

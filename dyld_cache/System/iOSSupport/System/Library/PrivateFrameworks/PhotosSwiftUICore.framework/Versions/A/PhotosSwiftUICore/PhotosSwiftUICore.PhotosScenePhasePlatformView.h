@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)ountLimit;
 
 @end
 

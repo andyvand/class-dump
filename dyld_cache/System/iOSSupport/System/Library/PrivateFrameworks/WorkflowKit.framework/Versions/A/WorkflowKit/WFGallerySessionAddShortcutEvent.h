@@ -18,11 +18,11 @@
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)WFImage};
 - (void);
+- (void)kipping remote quarantine policy evaluation for workflow %@, since it has already been checked.;
+- (void)o);
+- (id)me);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;

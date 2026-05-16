@@ -48,13 +48,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
 - (void);
 - (id);
-- (void);
+- (id);
 - (int);
-- (id);
-- (id)P9;
+- (long long)SerializationKey;
+- (id)rning .unsupported;
+- (void)is.workflow.actions.text.combine;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

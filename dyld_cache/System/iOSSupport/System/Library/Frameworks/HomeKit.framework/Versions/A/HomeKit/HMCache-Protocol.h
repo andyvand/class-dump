@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData, NSNumber, NSString;
 
 @protocol HMCache
-- (NSData *);
-- (void)on.uri;
-- (void)eDisabled;
+- (NSData *)yload;
+- (NSNumber *)upCode:(NSString *)arg1 onboardingSetupPayloadString:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)v16@?0@"NSNull"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *name;

@@ -19,12 +19,12 @@
 - (void);
 - (double);
 - (void);
+- (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id)eType;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long dataDetectorTypes; // @synthesize dataDetectorTypes=_dataDetectorTypes;

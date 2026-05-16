@@ -11,8 +11,9 @@
     MISSING_TYPE *categoriesRegisterer;
 }
 
-- (void);
 - (id);
+- (void),¸
+å_Ð;
 
 @end
 

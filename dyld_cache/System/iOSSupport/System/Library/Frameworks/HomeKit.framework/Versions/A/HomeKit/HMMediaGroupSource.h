@@ -11,25 +11,31 @@
     NSUUID *_accessoryUniqueIdentifier;
     NSString *_deviceIdentifier;
     NSUUID *_homeTheaterIdentifier;
+    NSUUID *_roomIdentifier;
+    NSString *_roomName;
 }
 
-+ (_Bool)ediaSystem.Component;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void)ª«;
+- (id)H}öÿ+;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUniqueIdentifier; // @synthesize accessoryUniqueIdentifier=_accessoryUniqueIdentifier;
 @property(readonly, copy) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
 @property(readonly, copy) NSUUID *homeTheaterIdentifier; // @synthesize homeTheaterIdentifier=_homeTheaterIdentifier;
+@property(readonly, copy) NSUUID *roomIdentifier; // @synthesize roomIdentifier=_roomIdentifier;
+@property(readonly, copy) NSString *roomName; // @synthesize roomName=_roomName;
 
 @end
 

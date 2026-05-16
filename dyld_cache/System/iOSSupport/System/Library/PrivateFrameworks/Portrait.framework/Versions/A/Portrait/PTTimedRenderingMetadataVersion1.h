@@ -28,9 +28,9 @@
 - (void);
 - (void);
 - (void);
-- (float);
 - (unsigned int);
-- (float)ÿksÿssÿ{sÿsÿsÿtÿt	ÿ¥tÿ­tÿµuÿ½uÿÅuÿÎvÿÖvÿÞwÿæxÿïxÿ÷yÿÿzÿ;
+- (float);
+- (float);
 
 // Remaining properties
 @property(nonatomic) unsigned int agc; // @synthesize agc=_agc;

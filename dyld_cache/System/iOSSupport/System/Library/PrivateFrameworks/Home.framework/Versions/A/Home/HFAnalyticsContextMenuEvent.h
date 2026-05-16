@@ -23,13 +23,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)cessories; treating as a failure;
+- (void);
+- (id);
+- (void)@"<NSCopying>"16@?0@"HFItem<HFAccessoryRepresentableItem>"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contextMenuTitle; // @synthesize contextMenuTitle=_contextMenuTitle;

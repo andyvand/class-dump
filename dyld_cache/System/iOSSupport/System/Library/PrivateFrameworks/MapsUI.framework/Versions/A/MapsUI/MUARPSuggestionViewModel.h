@@ -31,9 +31,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void)CenterContents;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canAddPhotos; // @synthesize canAddPhotos=_canAddPhotos;

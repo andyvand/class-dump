@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (id);
 - (unsigned long long);
 - (const void *);
-- (id)_binds;
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *sql;

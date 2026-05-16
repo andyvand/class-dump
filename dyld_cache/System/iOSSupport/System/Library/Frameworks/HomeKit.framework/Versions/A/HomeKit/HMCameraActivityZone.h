@@ -11,16 +11,16 @@
     NSArray *_points;
 }
 
-+ (_Bool)eUpdatedNotificationKey;
-- (void);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)tate:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSArray *points; // @synthesize points=_points;

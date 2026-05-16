@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)MachineState",R,N,V_appearingState;
+- (int);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

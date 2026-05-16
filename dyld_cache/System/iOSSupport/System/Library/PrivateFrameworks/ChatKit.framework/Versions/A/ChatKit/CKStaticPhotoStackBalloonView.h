@@ -14,16 +14,16 @@
     CKStaticImageStackView *_stackView;
 }
 
-- (double)UsingBlock: /* Error: Ran out of types for this method. */;
-- (void)hRecognitionPermissionForOrigin:(double)arg1 decisionHandler: /* Error: Ran out of types for this method. */;
-- (void)}d};
+- (double);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ä;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;

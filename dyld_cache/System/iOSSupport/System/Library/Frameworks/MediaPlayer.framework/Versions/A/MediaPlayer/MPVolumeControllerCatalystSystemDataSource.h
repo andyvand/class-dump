@@ -39,34 +39,35 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct AudioObjectPropertyAddress);
 - (struct AudioObjectPropertyAddress);
-- (float);
-- (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (long long);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (unsigned int);
+- (float);
+- (id);
+- (float);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)s_chunk;
-- (float)with itemIDs (%{public}@);
 - (void);
-- (void);
-- (void)
-× ;
-- (void)Ñ¨1¢!0@ù
-× ;
-- (_Bool)ration;
-- (unsigned int)State;
+- (id);
+- (_Bool);
+- (_Bool)24;
+- (void)nForView:withKeyPath: /* Error: Ran out of types for this method. */;
+- (void)ranslator was missing mapping for MPModelPropertySongDateFavorited;
+- (id)missing mapping for MPModelPropertyAlbumDiscCount;
+- (void)(
+  textColor:(id)arg1 %@
+  hasTitle:%@
+) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) float EUVolumeLimit;

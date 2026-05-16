@@ -25,8 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void)8@"_PRUpdatingSession"16^B24;
-- (void)x!;
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PRPosterHostedContentSettings *contentSettings; // @synthesize contentSettings=_contentSettings;

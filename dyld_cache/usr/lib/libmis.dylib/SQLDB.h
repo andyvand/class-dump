@@ -32,13 +32,13 @@
 - (void);
 - (id);
 - (id);
-- (int);
 - (void);
-- (void);
+- (int);
 - (id);
 - (id);
+- (int);
 - (id);
-- (int);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *dbURL; // @synthesize dbURL=_url;

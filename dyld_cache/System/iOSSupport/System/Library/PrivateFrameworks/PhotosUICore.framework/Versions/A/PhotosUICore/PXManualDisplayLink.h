@@ -30,24 +30,22 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (double);
-- (double);
-- (double);
 - (_Bool);
 - (id);
-- (void);
-- (void)
-× ;
-- (id)
-× ;
-- (long long)t¦L¨;
-- (SEL)ÞïøÿÀûÿ;
-- (id)ntentrZQzGúå#GL($GGÝ¡!yê#GG;
 - (double);
-- (unsigned int)IÝ1¬D;
-- (void)vû,6;
-- (void)¡Ë}Ò·6;
+- (double);
+- (void);
+- (double);
+- (void);
+- (long long)Ô ;
+- (void)ntsVirtualCollection;
+- (id)ing: /* Error: Ran out of types for this method. */;
+- (void),Ä-H0`1¨1¨BCHFÌFGdHHàIPMàO@QôQ0U¬U;
+- (unsigned int);
+- (SEL)Ý¼ð+ÿÝ¼ð¸¦ÿ;
+- (void)pecs;
+- (double);
+- (id)ÂN¼6;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentMediaTime;

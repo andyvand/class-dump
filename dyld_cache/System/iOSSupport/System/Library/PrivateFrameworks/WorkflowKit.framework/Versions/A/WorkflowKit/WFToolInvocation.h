@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
+@class MISSING_TYPE, NSUUID;
 
 @interface WFToolInvocation
 {
     MISSING_TYPE *toolInvocation;
 }
 
-+ (void);
++ (void);
 + (id);
 - (void);
 - (void);
@@ -21,9 +21,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)omID:context:] /* Error: Ran out of types for this method. */;
+
+// Remaining properties
+@property(nonatomic, readonly) NSUUID *identifier;
 
 @end
 

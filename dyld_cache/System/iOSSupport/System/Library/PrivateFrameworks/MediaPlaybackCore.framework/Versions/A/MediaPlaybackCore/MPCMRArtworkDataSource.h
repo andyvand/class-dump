@@ -12,15 +12,16 @@ __attribute__((visibility("hidden")))
     MPCMediaRemoteController *_controller;
 }
 
-- (_Bool)layingViewControllerState;
 - (id);
 - (void);
+- (id);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool)G;
 - (id);
-- (id);
-- (id);
+- (_Bool);
+- (id)
+× ;
+- (void)%p:_fetchField:fromTransitionEvent:inParametersDictionary:- could not find ItemTransitionParameters event=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCMediaRemoteController *controller; // @synthesize controller=_controller;

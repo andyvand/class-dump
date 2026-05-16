@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)TE KEY;
 @end
 

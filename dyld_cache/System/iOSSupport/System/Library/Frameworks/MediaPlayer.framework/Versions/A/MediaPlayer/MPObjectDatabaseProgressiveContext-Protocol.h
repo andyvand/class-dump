@@ -5,9 +5,7 @@
 //
 
 @protocol MPObjectDatabaseProgressiveContext
-- (void)Progress;
-- (unsigned int)eLanguageOptionCommandEvent;
-- (_Bool)request != nil;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInvalid;

@@ -16,24 +16,25 @@ __attribute__((visibility("hidden")))
     NSUUID *_documentIdentifier;
 }
 
-+ (id)/IdentityLookup.framework/IdentityLookup;
-+ (_Bool)0m;
++ (id);
++ (_Bool)%d
+;
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (_Bool);
-- (id)jects:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (_Bool)u;
-- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)nWithTitle:image:style:handler:shouldDismissHandler: /* Error: Ran out of types for this method. */;
-- (id),G_alignActionSeparatorLeadingEdgeWithContent,S_setAlignActionSeparatorLeadingEdgeWithContent:,V_alignActionSeparatorLeadingEdgeWithContent /* Error: Ran out of types for this method. */;
-- (void)ays read the default value and will not update.;
-- (void)%@%@sourceBounds=%@ bounds=%@ drawingBounds=%@ idealBounds=%@ firstLineBaseline=%f lastLineBaseline=%f numberOfLines=%ld scaleFactor=%f>;
-- (void)é \;
-- (id);
+- (_Bool)eProgress:(id)arg1 finish:transitionCompleted:transitionContext: /* Error: Ran out of types for this method. */;
+- (void)TouchInput:(id)arg1;
+- (id)houldAssignOffscreenWidthsToStateRequest;
+- (void)nment;
+- (void)9¬ÿ½kÜë_;
+- (id)®;
 - (id);
 
 // Remaining properties

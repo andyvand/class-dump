@@ -22,9 +22,9 @@
 - (id);
 - (void);
 - (void);
-- (void)%;
+- (void);
 - (id);
-- (double)Q;
+- (double);
 - (id);
 - (void);
 - (id);
@@ -36,15 +36,15 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void)u external signal recommendations;
-- (id);
-- (void)n layer with NaN values.;
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 

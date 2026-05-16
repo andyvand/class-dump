@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UIPress;
-
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)vider:(UIGestureRecognizer *)arg1 registerDataRepresentationForPage:(UIPress *)arg2 draggedPages: /* Error: Ran out of types for this method. */;
 @end
 

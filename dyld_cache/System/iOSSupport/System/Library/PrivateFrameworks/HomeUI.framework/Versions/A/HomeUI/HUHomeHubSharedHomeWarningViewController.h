@@ -29,16 +29,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)!Fù0ð1b0@ù
-× ;
-- (id)ath:withValue: /* Error: Ran out of types for this method. */;
-- (void)eadlineBaselineOffset:(id)arg1;
-- (id);
-- (void)¿h;
-- (void)<;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C,N,V_headlineCellOptions;
+- (id)ssSlider;
+- (void)ontroller saveButtonPressed:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;

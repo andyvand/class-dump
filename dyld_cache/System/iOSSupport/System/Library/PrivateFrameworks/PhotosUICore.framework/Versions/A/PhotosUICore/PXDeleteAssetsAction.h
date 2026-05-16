@@ -8,12 +8,15 @@
 
 @interface PXDeleteAssetsAction : PXDestructiveAssetsAction
 {
+    long long _source;
 }
 
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
 
 @end
 

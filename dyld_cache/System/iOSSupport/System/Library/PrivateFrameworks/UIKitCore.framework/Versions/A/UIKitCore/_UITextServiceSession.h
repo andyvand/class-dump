@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _dismissedHandler;
 }
 
-+ (id)=;
-+ (_Bool);
-+ (id)rSendingResultCIegg_;
-+ (id)ingTaskCSgXwz_Xx;
++ (id);
 + (_Bool);
-+ (long long)abled;
++ (id);
++ (id);
++ (_Bool);
++ (long long);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -33,12 +33,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (void)atsDidsync:messagesDidSync:attachmentsDidSync:recoverableMessagesDidSync: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)`;
-- (id)Controller:toViewController:target:didFinish:animation: /* Error: Ran out of types for this method. */;
-- (long long)fectStyle;
-- (id)SError"16;
+- (id);
+- (long long)
+× ;
+- (id)und provider for border style %@.;
+- (void)xtEffectViewC0cD8PausableP;
+- (void)A];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewSet, UIInputViewSetPlacement, UIView;
+@class UIView;
 
 @protocol UIInputViewAnimationHost
-- (unsigned long long)Route;
-- (void)1¢!0@ù
-× ;
-- (void):(_Bool)arg1 8{CGPoint=dd}16{CGRect={CGPoint=dd}{CGSize=dd}}32B64;
-- (void)r after the scene has been dealloced :(UIInputViewSetPlacement *)arg1 manager=%@ identifier=%@;
-- (UIView *)0@"UIColor"8Q16B24@"UITraitCollection"28;
-- (void)4hlþ5¹;
-- (struct CGRect);
-- (UIInputViewSet *)QÞ[;
-- (UIView *)d;
+- (UIView *);
+- (void)ssage;
+- (void)3(è;
 @end
 

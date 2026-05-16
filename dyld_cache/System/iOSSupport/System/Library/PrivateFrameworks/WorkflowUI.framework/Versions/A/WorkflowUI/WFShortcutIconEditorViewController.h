@@ -17,13 +17,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)ÜWÛÿÿÿÿÿh;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFShortcutIconEditorViewControllerDelegate> delegate; // @synthesize delegate;

@@ -15,13 +15,14 @@ __attribute__((visibility("hidden")))
     _UIMenuBarControllerContext *_context;
 }
 
-- (void);
-- (id);
 - (void);
-- (id);
-- (void)B;
-- (id)×ÀÛXÝ;
-- (void)DataCreateRoundRectWithCornerRadii(const _UIIntegralRect, const _UIIntegralCornerRadii);
+- (id);
+- (void);
+- (id);
+- (id)±fÐ1Â0@ù
+× ;
+- (void)tionForReusableView:(id)arg1 toLayoutAttributes: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIMenuBarControllerContext *context; // @synthesize context=_context;

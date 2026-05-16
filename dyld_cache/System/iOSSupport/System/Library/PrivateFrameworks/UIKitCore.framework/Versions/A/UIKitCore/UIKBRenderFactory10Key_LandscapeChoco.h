@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)ctionary!;
-- (double)for service %@ as it does not support relayed reachability;
+- (double);
+- (double);
 
 @end
 

@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)verlayIfNeeded;
 
 // Remaining properties
 @property(retain, nonatomic) MUPlaceDataAvailability *availability; // @synthesize availability=_availability;

@@ -22,10 +22,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)Gî½pGALGtGADyAhGyAHSSATySaySo9CNContactCGA18_¨KÎyAH_SSQo_GGGGAHGtGACyAJyAYA0_G_ADyACyA4__AGyAHSo22PRSPosterConfigurationCSgATySayA29_GA29_IKÎyAH_A29_Qo_GSgGA15_tGAHGtGGACyADyóÉpyA11__Qo_AHG_AHSgtGGA42_GACyAEyAfCyAGyAHIÎATySayA46_GA46_AHGG_õÏpyAHGSgA51_tGAFG_AEyAFA51_AHGtGSgtGACyAH_ADyADyA2HGACyAH_AHtGGA2HtGG_ADyAJyA11_ALGACyÉpyAGyAH9W;
+- (void)itleAlignment;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;

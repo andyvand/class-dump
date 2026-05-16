@@ -15,7 +15,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,8 +23,8 @@
 - (void);
 - (long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)APPING_MISSING__;
 
 @end
 

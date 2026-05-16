@@ -15,12 +15,11 @@
 + (struct CGSize);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)Ô(Ð!ÌAùq)°1b0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *iconImage;

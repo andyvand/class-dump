@@ -14,17 +14,17 @@
 }
 
 + (id);
-+ (_Bool)sponding with data [currentOffset was greater than length] task=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld;
++ (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool)3;
-- (id);
-- (void);
-- (id)xt;
 - (id);
+- (id);
+- (void)aybackSessionType;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

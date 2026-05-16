@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (void)ü9;
+- (id)ameraProfile;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bucketingPolicy; // @synthesize bucketingPolicy=_bucketingPolicy;

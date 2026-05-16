@@ -21,21 +21,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
 - (double);
-- (void)thText: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGSize);
+- (void);
 - (void);
 - (id);
-- (struct CGSize);
+- (unsigned long long);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

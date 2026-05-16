@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)neTimeStamp >= ? AND LSQuarantineTimeStamp <= ?) AND LSQuarantineAgentBundleIdentifier = ?;VACUUM;;
+- (id);
 - (id);
 
 @end

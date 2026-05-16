@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (id)d\c;
-+ (id);
++ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buddyEmail; // @dynamic buddyEmail;

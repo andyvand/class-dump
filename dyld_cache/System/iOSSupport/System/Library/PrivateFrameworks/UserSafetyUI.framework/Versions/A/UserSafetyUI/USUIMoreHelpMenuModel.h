@@ -17,11 +17,11 @@
 + (void);
 + (void);
 + (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;

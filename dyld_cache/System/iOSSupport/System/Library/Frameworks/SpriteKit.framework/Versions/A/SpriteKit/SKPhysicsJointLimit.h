@@ -12,10 +12,10 @@
 }
 
 + (id);
-+ (_Bool)ü;
++ (_Bool);
 + (id);
-- (double);
 - (void);
+- (double)¨äÿx§äÿMoþ!ì;
 
 // Remaining properties
 @property(nonatomic) double maxLength; // @synthesize maxLength=_maxLength;

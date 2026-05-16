@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)e. This is a serious bug.;
+- (id);
+- (void)inkTitle:linkAction:ctaButtons:context: /* Error: Ran out of types for this method. */;
 
 @end
 

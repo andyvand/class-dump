@@ -58,11 +58,12 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
 - (id);
+- (unsigned long long);
 - (void);
+- (unsigned long long);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, getter=areActivationOptionsUserEditable) _Bool activationOptionsUserEditable; // @synthesize activationOptionsUserEditable=_activationOptionsUserEditable;

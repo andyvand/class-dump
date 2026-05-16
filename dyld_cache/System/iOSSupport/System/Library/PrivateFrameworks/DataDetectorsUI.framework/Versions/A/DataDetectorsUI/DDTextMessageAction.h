@@ -28,11 +28,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (int);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

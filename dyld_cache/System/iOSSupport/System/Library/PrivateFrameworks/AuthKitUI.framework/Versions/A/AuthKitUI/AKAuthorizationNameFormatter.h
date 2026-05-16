@@ -10,11 +10,11 @@
 
 + (id);
 + (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)eWithDuration:(id)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

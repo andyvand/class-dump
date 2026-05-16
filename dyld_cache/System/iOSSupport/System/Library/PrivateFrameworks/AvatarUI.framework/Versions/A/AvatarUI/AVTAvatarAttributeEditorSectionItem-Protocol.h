@@ -7,9 +7,8 @@
 @class NSString;
 
 @protocol AVTAvatarAttributeEditorSectionItem
-- (NSString *)ty.framework/Versions/A/Security;
-- (NSString *)c}@ - %@ Subscription for personID %@ is no longer available.;
-- (_Bool)T{CGPoint=dd},N,V_lastContentOffset;
+- (_Bool)qI°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

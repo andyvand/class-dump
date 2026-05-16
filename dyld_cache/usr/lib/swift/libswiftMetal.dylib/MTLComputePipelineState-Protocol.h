@@ -5,12 +5,10 @@
 //
 
 @class MTLComputePipelineReflection, NSString;
-@protocol MTLDevice, MTLIntersectionFunctionTable;
+@protocol MTLDevice;
 
 @protocol MTLComputePipelineState
-- (unsigned long long);
-- (unsigned long long);
-- (id <MTLIntersectionFunctionTable>)?;
+- (long long)arycentricCoordsSupported;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
@@ -18,7 +16,7 @@
 @property(readonly) NSString *label;
 @property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
 @property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerThreadgroup;
+@property(readonly) struct requiredThreadsPerThreadgroup;
 @property(readonly, nonatomic) long long shaderValidation;
 @property(readonly) unsigned long long staticThreadgroupMemoryLength;
 @property(readonly) _Bool supportIndirectCommandBuffers;

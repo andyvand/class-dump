@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nil;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *longestPossibleTitleText; // @synthesize longestPossibleTitleText=_longestPossibleTitleText;

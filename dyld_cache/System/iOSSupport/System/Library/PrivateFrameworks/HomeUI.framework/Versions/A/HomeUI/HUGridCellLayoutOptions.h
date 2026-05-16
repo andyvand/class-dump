@@ -26,6 +26,7 @@
 }
 
 + (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -45,20 +46,19 @@
 - (long long);
 - (double);
 - (id);
+- (double);
 - (long long);
 - (double);
+- (void);
+- (void);
+- (id);
 - (double);
 - (id);
-- (void);
-- (id);
-- (id);
 - (double);
-- (void);
-- (void);
 - (id);
-- (void);
-- (double);
-- (void);
+- (void)rs:(id)arg1 items:senderSelector: /* Error: Ran out of types for this method. */;
+- (void)e.m;
+- (void)Ø;
 
 // Remaining properties
 @property(copy, nonatomic) HUGridCellBackgroundDisplayOptions *backgroundDisplayOptions; // @synthesize backgroundDisplayOptions=_backgroundDisplayOptions;

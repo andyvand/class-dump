@@ -13,29 +13,28 @@
     NSDictionary *_managedConfigurationSettings;
 }
 
-+ (id)phonyServicesession;
-+ (id)× ;
++ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)/*-------calling into sendGroupPhotoUpdate from legacy service session, please file a radar-------*/;
-- (_Bool)device type (%ld) is not capable of receiving it;
-- (_Bool)oo large for relay in message:%@, drop rest of the transfer starting from:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)%@;
-- (_Bool)%@    on service:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)0@ù
-× ;
 - (unsigned long long);
-- (void):(unsigned long long)arg1 ^[;
+- (void)}84@0:(unsigned long long)arg1 8{CGPoint=dd}16d32@40d48^d56q64q72B80;
+- (id)è;
+- (void)Ú§É¤ãi;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsAccessibilityShortcut;

@@ -18,16 +18,16 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;

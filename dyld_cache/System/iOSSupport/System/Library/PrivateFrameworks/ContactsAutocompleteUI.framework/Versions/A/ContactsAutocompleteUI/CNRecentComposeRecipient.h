@@ -15,14 +15,14 @@
 
 - (id);
 - (id);
-- (id)ingTextAttributeDefinitionP;
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
 
 @end
 

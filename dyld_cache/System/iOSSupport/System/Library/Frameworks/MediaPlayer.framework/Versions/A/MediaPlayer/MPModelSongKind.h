@@ -12,18 +12,18 @@
     unsigned long long _options;
 }
 
-+ (id)ategories:(unsigned long long)arg1;
-+ (id)umbersCount;
-+ (_Bool)}@];
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)conversation, so not initiating a call.;
-- (_Bool);
-- (id);
-- (unsigned long long)sterLogNamedEntityPerplexity;
 - (unsigned long long);
 - (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

@@ -33,7 +33,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) __weak UIBarButtonItem *composeFeedbackToolbarItem;

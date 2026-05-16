@@ -20,7 +20,7 @@
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
+- (void)xHhKHL;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

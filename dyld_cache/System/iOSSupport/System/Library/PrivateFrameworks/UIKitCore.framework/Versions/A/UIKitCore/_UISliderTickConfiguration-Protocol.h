@@ -7,13 +7,6 @@
 @class NSArray;
 
 @protocol _UISliderTickConfiguration
-+ (id)×P\;
-- (long long)98@9;
-- (void);
-- (void), attempting to seal.;
-- (id)dentifier:(unsigned long long)arg1 fromIdentifier:(long long)arg2 fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
-- (id)isplayOffsetAccumulationFactorForFocusTransfer;
-- (long long)taken when linked against iOS 14 or newer.;
 
 // Remaining properties
 @property(readonly, nonatomic) long long behavior;

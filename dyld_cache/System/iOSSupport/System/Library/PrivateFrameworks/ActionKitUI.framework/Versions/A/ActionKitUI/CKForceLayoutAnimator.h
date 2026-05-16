@@ -47,22 +47,22 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (double);
 - (void);
+- (void);
+- (double);
+- (void);
+- (id);
+- (id);
 - (double);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)lView"16B24;
-- (double)!¸gð6ûÿ)¸gì6ûÿ¸gè6ûÿ!¸gä6ûÿ1¸gà6ûÿ1¸g;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

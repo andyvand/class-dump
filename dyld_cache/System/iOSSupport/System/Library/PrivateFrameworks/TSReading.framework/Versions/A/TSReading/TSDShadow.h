@@ -31,13 +31,13 @@
 + (id);
 - (_Bool);
 - (id);
-- (struct CGRect)B;
+- (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
 - (struct CGImage *);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (SEL);
@@ -50,10 +50,10 @@
 - (double);
 - (double);
 - (double);
-- (struct CGRect);
 - (struct CGRect);
-- (void)�;
-- (void);
+- (struct CGRect);
+- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -61,19 +61,19 @@
 - (struct CGPoint);
 - (unsigned long long);
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (double)=;
-- (double);
 - (struct CGColor *);
+- (_Bool);
 - (double);
-- (id)GroupingEligibilityPolicy;
 - (double);
-- (id)intPath:inContext:] /* Error: Ran out of types for this method. */;
-- (_Bool)SourceForDocumentCachePath:] /* Error: Ran out of types for this method. */;
+- (id);
+- (double);
+- (id);
+- (double)y;
 
 // Remaining properties
 @property(readonly, nonatomic) TSUColor *TSUColor;

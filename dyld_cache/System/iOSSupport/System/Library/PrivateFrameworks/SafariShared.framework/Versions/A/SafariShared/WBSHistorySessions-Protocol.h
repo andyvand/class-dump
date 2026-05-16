@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol WBSHistorySessions
-- (void)(;
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfSessions;

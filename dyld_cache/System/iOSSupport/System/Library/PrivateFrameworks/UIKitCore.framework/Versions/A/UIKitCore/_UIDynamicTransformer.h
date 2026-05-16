@@ -13,13 +13,14 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _action;
 }
 
-- (id);
-- (struct CGRect);
 - (struct CGAffineTransform);
-- (void);
-- (void)omAccessoryViewForCell:(struct CGAffineTransform)arg1 editing: /* Error: Ran out of types for this method. */;
-- (void)ght:(struct CGPoint)arg1;
-- (struct CGPoint)´0;
+- (struct CGPoint)!äAùQ`1Â0@ù
+× ;
+- (struct CGRect);
+- (void)uotesType;
+- (void)ollectionChange;
+- (void)z\;
+- (id)];
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

@@ -28,11 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (void)1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) VKAnalyticsAnalyzerEvent *analyzerEvent;

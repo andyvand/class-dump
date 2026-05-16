@@ -7,12 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id);
-- (_Bool);
-- (_Bool)MNO;
-- (_Bool)7N;
-- (unsigned long long)d;
+- (struct _NSZone *)1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

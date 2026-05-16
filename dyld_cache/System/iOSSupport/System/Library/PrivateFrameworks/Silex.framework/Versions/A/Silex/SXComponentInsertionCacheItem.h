@@ -14,7 +14,7 @@
     NSArray *_results;
 }
 
-- (void);
+- (void)ayoutInvalidationManagerDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -16,8 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)0OÞÿ1
-;
+- (id)roup;
 
 @end
 

@@ -24,11 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ÿ_pSgXw;
+- (void);
+- (void)	
+;
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *iconPreview; // @synthesize iconPreview;

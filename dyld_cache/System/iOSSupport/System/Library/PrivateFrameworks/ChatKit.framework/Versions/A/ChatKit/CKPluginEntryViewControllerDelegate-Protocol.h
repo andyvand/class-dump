@@ -5,8 +5,5 @@
 //
 
 @protocol CKPluginEntryViewControllerDelegate
-
-@optional
-- (void);
 @end
 

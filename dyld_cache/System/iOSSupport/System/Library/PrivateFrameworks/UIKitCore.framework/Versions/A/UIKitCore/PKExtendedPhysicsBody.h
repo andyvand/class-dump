@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (double)ssage item present in recordNameToMessageItemMap!;
-- (id)not get chatInfo from chat:(struct CGSize)arg1 %@;
-- (_Bool)to %@ or their last addressed sim id updated to %@;
-- (void)Broadcaster;
-- (id)BarCellularSignalView",R,V_signalView;
+- (double);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

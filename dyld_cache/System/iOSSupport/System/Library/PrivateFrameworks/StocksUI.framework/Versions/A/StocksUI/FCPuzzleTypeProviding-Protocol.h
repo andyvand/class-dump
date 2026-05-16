@@ -8,8 +8,6 @@
 @protocol FCPuzzleTypeThumbnailDirectoryType;
 
 @protocol FCPuzzleTypeProviding
-- (void);
-- (FCAssetHandle *)µ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long behaviorFlags;
@@ -19,6 +17,7 @@
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *engineResourceID;
 @property(readonly, nonatomic) FCAssetHandle *exploreTileImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, copy, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) NSString *imageResourceID;

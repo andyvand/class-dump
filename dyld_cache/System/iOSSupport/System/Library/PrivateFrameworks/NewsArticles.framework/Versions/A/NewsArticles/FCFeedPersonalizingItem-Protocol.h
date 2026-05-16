@@ -7,21 +7,13 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)`;
-- (_Bool)`;
-- (void)SXLayoutBlueprint"16@"SXColumnLayout"24@"SXLayoutDescription"32^B40;
-- (NSArray *)WillExit: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)ountRule;
-- (NSString *)IssueReadingHistoryRecorder;
-
-@optional
-- (_Bool)ger;
-- (NSData *);
-- (_Bool)H;
-- (NSArray *);
-- (long long)C;
-- (NSString *);
+- (NSArray *)<SXComponent>"32;
+- (_Bool);
+- (NSDate *)dTimeLabelBaselineConstraint;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)rovider;
+- (NSString *)Ú;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)nentViewC;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)80pÆÿC;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

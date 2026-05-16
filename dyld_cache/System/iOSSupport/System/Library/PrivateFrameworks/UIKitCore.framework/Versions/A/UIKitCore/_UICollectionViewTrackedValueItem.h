@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (void);
-- (double);
 - (void);
+- (double),V_edgeSwipeGestureRecognizer;
 
 // Remaining properties
 @property(nonatomic) double timeStamp; // @synthesize timeStamp=_timeStamp;

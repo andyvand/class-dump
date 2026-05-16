@@ -15,16 +15,17 @@
     UIViewPropertyAnimator *_propertyAnimator;
 }
 
-+ (id)chat command not from me for message:%@ /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
+- (id)Ð!ÄAùq\°1Â0@ù
+× ;
+- (id)Ô ;
 - (id);
-- (void);
-- (id)`";
-- (void)e an interactive transition that was not started interactively;
-- (void);
-- (id)Zê_;
-- (id)Oÿ\¥Ùb;
-- (void)Ek;
+- (id)Controller;
+- (void)kgroundColorTransformerIdentifier;
+- (void)Change;
+- (void)ingEnabled;
+- (void)À§\;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIDragInteractionContext> context; // @synthesize context=_context;

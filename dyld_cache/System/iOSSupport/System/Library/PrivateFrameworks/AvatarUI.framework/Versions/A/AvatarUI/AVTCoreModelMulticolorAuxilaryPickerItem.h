@@ -14,10 +14,10 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)ue;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

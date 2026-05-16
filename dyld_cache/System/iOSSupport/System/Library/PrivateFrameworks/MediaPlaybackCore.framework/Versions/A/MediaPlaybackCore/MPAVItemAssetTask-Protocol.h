@@ -5,5 +5,6 @@
 //
 
 @protocol MPAVItemAssetTask
+- (_Bool)PlayerPath: /* Error: Ran out of types for this method. */;
 @end
 

@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool negativeProperty;

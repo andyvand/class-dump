@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)targetIdentifier;
-- (void);
++ (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)deHH2;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,7 @@
 //
 
 @protocol GCKeyboardControllerWindowManager
+- (_Bool)nabled;
 
 // Remaining properties
 @property(nonatomic) _Bool enablePointerCapture;

@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)Á}Ì	cg;
-- (id)houldAllowWithTouchTypes:atPoint:toBegin: /* Error: Ran out of types for this method. */;
-- (void)wController = %@; presenting view controller;
-- (void)rowDirection;
-- (id)ÜWÿ;
++ (id)T±Þþ;
+- (id)ect;
+- (void)ped;
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *tintColor;

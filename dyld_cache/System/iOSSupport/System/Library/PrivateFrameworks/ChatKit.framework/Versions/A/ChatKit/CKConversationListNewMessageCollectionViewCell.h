@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 + (id);
-- (double)nary",&,N,V_folderListSectionIdentifiersToButtonIdentifiers;
-- (void)bnailGeneratorAvatar;
-- (void)tManager;
+- (double);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void));
-- (id);
-- (id)¨¼8ÿ;
-- (void)ye­±X­yTýÿGGGGGùV­yAYô=SQ12CoreGraphicsyHCg0_GGÌSýÿG;
+- (id);
+- (void)ÀÂÿ;
+- (void),.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

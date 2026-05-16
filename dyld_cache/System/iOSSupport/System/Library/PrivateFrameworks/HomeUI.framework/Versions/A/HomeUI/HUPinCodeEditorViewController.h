@@ -58,14 +58,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)yIndicatorView",&,N,V_spinnerView;
+- (void)ptionWiFiDisassociation;
 
 // Remaining properties
 @property(nonatomic) long long codeLengthMax; // @synthesize codeLengthMax=_codeLengthMax;

@@ -15,10 +15,10 @@
     NSArray *_selectedBundleIdentifiers;
 }
 
-+ (id);
-+ (id)Dîk;
 + (id);
-+ (id)0%EÉ;
++ (id);
++ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -28,9 +28,9 @@
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)òÐ;
 + (id);
-+ (_Bool)itle of a calendar event, etc.;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool onBackground; // @synthesize onBackground=_onBackground;

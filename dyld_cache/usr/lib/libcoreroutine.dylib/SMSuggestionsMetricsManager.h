@@ -17,9 +17,9 @@
 }
 
 + (id);
-- (id)!@9J;
+- (id);
 - (void);
-- (void)(8 *H;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -33,7 +33,7 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,10 +44,10 @@
 - (void);
 - (void);
 - (void);
-- (void)for %@;
 - (id);
-- (void)ions:(id)arg1 offset:error:inManagedObjectContext: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)Ô;
+- (void);
+- (void), failed to fetch trusted time.;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

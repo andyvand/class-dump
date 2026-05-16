@@ -15,12 +15,12 @@
 
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (void)setAllInvolvedObjects:(id)arg1;
 - (void);
+- (id)½à½À¿;
 
 // Remaining properties
 @property(retain, nonatomic) HFScheduleRule *rule; // @synthesize rule=_rule;

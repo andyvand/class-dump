@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSPerSitePreferencesSQLiteStore;
+@class WBSPerSitePreferencesSQLiteStore;
 
 @protocol WBSPerSitePreferenceManagerDefaultsDelegate
-- (NSString *)4;
-- (WBSPerSitePreferencesSQLiteStore *);
 
 // Remaining properties
 @property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore;

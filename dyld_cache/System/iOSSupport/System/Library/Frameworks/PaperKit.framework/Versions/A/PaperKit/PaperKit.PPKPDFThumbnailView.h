@@ -13,8 +13,8 @@
     MISSING_TYPE *documentView;
 }
 
-- (void);
 - (id);
+- (void)¡ýÿÜHÿÿ;
 
 @end
 

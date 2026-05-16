@@ -12,9 +12,9 @@
     MISSING_TYPE *headline;
 }
 
-- (void)`;
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -7,7 +7,6 @@
 @class SXJSONArray;
 
 @protocol SXConditional
-- (SXJSONArray *)WithTextProvider:textSourceFactory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *conditions;

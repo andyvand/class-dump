@@ -18,8 +18,8 @@
 
 - (void);
 - (void);
-- (void);
-- (id)$_imageView;
+- (id)ÌU¨V[ü\;
+- (void)vation;
 
 @end
 

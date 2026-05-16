@@ -11,12 +11,12 @@
     NSMutableOrderedSet *_acceptableTypes;
 }
 
-+ (id)%@, invalid message type for item %@;
-+ (id)ata? %@);
 + (id);
-+ (_Bool)ZÎm;
-- (void)sage:(id)arg1 toChat: /* Error: Ran out of types for this method. */;
-- (void)dLockdownCommandHandlersToRegistry:(id)arg1;
++ (id);
++ (id);
++ (_Bool)This is a UIKit internal bug.;
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,13 +24,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool)ckground;
+- (void)eedback;
+- (id)List;
 - (void);
-- (_Bool)x;
-- (id);
-- (id);
-- (void)
-× ;
-- (id)gBackButtonView:titleView:withBackButtonWidth: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *acceptableTypeIdentifiers; // @dynamic acceptableTypeIdentifiers;

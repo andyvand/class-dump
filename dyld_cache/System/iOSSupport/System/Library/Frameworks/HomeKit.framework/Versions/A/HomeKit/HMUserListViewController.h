@@ -33,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long)ublic}@Received %lu updated events, %lu removed event UUIDs;
+- (unsigned long long)hedEvents;
+- (void)iriEndpointApplyOnboardingSelectionsResponsePayload;
 
 // Remaining properties
 @property(retain, nonatomic) _UIAsyncInvocation *cancelServiceInvocation; // @synthesize cancelServiceInvocation=_cancelServiceInvocation;

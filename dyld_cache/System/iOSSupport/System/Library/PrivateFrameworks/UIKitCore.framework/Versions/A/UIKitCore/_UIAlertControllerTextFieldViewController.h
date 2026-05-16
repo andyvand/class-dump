@@ -24,32 +24,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
-- (id)mOldConversation:(id)arg1;
+- (id);
 - (void);
-- (double)ed;
+- (double);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void)`;
+- (_Bool);
 - (void);
-- (void);
 - (id);
-- (_Bool)thFontName:maxFontSize:minFontSize:textColor: /* Error: Ran out of types for this method. */;
-- (id)ePreferences:excluding: /* Error: Ran out of types for this method. */;
-- (_Bool)ainingFrame: /* Error: Ran out of types for this method. */;
-- (void)KBRenderFactory_Candidates;
-- (_Bool)ì>T@;
-- (void)ÔÆþþÿ;
-- (_Bool).0+.plist;
-- (long long);
+- (_Bool)!Dùgð1Â0@ù
+× ;
+- (_Bool)Path: /* Error: Ran out of types for this method. */;
+- (void)ationUpdateHandler;
+- (long long)onImage:(id)arg1;
+- (long long)h P;
+- (void)gXwz_Xx;
+- (_Bool);N?Ò$ñ æó?;
+- (id)Ø\;
+- (void)ÌÖ^;
 - (id);
-- (void)°Üþ^Ûä;
-- (id)éÓÿ uc;
-- (void)<ÿí{Ö¡^d;
+- (id)±þ.;
+- (void)Fe;
+- (void)5Õ.e;
+- (void)mÞþ :Ê /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIAlertControllerTextFieldViewControllerContaining> container; // @synthesize container=_container;

@@ -20,17 +20,17 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (long long);
 - (id);
 - (long long);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void)0e;
 - (long long);
-- (void);
+- (void)ctionaryWithValuesForKeys:(long long)arg1;
+- (void)ift;
 
 // Remaining properties
 @property(nonatomic) long long appSuspensionCount; // @synthesize appSuspensionCount=_appSuspensionCount;

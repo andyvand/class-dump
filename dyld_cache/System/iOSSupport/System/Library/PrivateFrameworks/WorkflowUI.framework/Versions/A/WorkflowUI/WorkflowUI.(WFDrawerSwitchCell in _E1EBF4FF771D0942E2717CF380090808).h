@@ -14,11 +14,11 @@
 }
 
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)ü;
 
 @end
 

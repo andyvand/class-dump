@@ -8,7 +8,7 @@
 
 @interface StocksPersonalization.UserEventFeaturesFactory
 {
-    MISSING_TYPE *dataProvider;
+    MISSING_TYPE *userEventHistory;
     MISSING_TYPE *isSubscribed;
 }
 

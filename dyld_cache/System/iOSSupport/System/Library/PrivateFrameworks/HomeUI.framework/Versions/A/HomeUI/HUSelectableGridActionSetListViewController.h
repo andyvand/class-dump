@@ -23,12 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)PresentationCoordinator"32;
-- (void)nguageCodes;
-- (_Bool)ModulesForHome:(id)arg1;
-- (void):(id)arg1 Prediction fetch finished; reloading item provider;
+- (id);
+- (void);
+- (void);
+- (_Bool)nTriggerRegion",&,N,V_region;
+- (void)sersTVViewingProfiles;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUSelectableGridActionSetListViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

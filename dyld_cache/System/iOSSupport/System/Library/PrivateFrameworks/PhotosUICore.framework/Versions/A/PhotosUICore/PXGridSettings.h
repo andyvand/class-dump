@@ -14,7 +14,7 @@
     long long _simulatedNumberOfLocations;
 }
 
-+ (id)ÇMf.9;
++ (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool disableSelectionOverlayView; // @synthesize disableSelectionOverlayView=_disableSelectionOverlayView;

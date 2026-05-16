@@ -10,14 +10,14 @@
 
 + (id);
 + (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)Q16;
 - (void);
+- (void);
+- (id);
 
 @end
 

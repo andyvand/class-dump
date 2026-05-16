@@ -16,23 +16,24 @@
     struct CGRect _rect;
 }
 
-+ (id)T@"UIMenu",C,N,S_setMenu:(struct CGRect)arg1 ,V__menu;
-- (id);
++ (id);
 - (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long)removePlaylist:preserveUndeletableEntities: /* Error: Ran out of types for this method. */;
+- (_Bool)s;
+- (void)DidChange:(id)arg1;
+- (struct CGRect),V_sourceRectInParentUIWindow;
+- (_Bool)ntationBlock;
+- (id)oller",R,W,N;
+- (unsigned long long)|	Ü
+;
+- (id)92¬7@<êÿdãþÐþÿnäìÿ;
 - (id);
+- (void)@8_;
 - (void);
-- (void)pingViewBounds:(id)arg1;
-- (id)",&,N,V_prefixLabel;
-- (void)orViewControllerDelegate;
-- (void)ady holding a lock for this scroll view when trying to set a lock.;
-- (id)t == %@;
-- (_Bool)yboard "%@", but didn't get a UITableView.;
-- (void)vÿ¬Ï#b;
-- (unsigned long long)ªÿ°.Ði;
-- (struct CGRect)©k;
+- (void)bí;
+- (void)DØÿ;
+- (unsigned long long)8sf;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isLatching;

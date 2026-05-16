@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol PXMutableFlexMusicAsset
-- (NSString *)ctionIsFavorite;
-- (CDStruct_1b6d18a9)displayAssets.count;
-- (void)setMediaSubtype;
-- (NSString *)y3;
+- (unsigned long long): /* Error: Ran out of types for this method. */;
+- (void)edPlayState:(unsigned long long)arg1;
+- (NSString *)tView;
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumTitle;

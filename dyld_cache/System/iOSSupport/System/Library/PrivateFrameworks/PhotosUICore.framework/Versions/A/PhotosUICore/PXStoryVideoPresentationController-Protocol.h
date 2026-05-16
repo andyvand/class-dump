@@ -7,7 +7,6 @@
 @protocol PXDisplayAsset;
 
 @protocol PXStoryVideoPresentationController
-- (void)gle;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> displayAsset;

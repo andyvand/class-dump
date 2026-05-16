@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)escriptionLinesForAsset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

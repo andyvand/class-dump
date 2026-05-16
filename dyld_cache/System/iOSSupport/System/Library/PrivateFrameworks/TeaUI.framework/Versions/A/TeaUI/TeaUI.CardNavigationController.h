@@ -17,10 +17,11 @@
 - (long long);
 - (id);
 - (void);
-- (id)isherPadApp;
 - (void);
+- (id);
+- (id);
 - (void);
-- (void)G;
+- (void)0lüÿHlüÿlüÿ¸lüÿÐlüÿèlüÿ müÿ8müÿPmüÿxmüÿ müÿ¸müÿðmüÿ0nüÿ|nüÿ´nüÿÌnüÿänüÿ(oüÿ`oüÿxoüÿoüÿ¨oüÿÀoüÿØoüÿPpüÿ¨püÿÀpüÿøpüÿDqüÿrüÿTrüÿ¬rüÿärüÿürüÿsüÿLsüÿpsüÿsüÿ¬süÿÔsüÿDtüÿltüÿtüÿðtüÿ4uüÿÈuüÿðvüÿTwüÿÔwüÿ\xüÿxüÿ¬xüÿôxüÿyüÿDyüÿ\yüÿtyüÿyüÿ¤yüÿ¼yüÿDzüÿlzüÿzüÿT{üÿð{üÿh|üÿ¬|üÿì|üÿ<}üÿÐ}üÿè}üÿ;
 
 @end
 

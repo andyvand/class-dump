@@ -21,22 +21,19 @@
     _Bool _preferJapaneseRomajiTranscriptions;
 }
 
-+ (id)ties;
 + (id);
-- (id)nBOOL:(id)arg1;
++ (id);
 - (void);
-- (id);
-- (id);
 - (long long);
-- (void)1¢!0@ù
-× ;
-- (id)oÐ!lFùQÁÐ1¢!0@ù
-× ;
 - (id);
-- (long long)ÔAu°!¬CùÉð1¢!0@ù
-× ;
-- (id)setInterruptible: /* Error: Ran out of types for this method. */;
-- (struct __CFStringTokenizer *)]mþ;
+- (id);
+- (id);
+- (id);
+- (long long)rtAX;
+- (id)ong, BOOL);
+- (void)põþ;
+- (id);
+- (struct __CFStringTokenizer *)@ÿcgÒPöj;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *sectionIndexTitles;

@@ -11,11 +11,11 @@
     double _luminance;
 }
 
+- (id);
 - (double);
 - (id);
-- (id);
-- (double)orTesting:] /* Error: Ran out of types for this method. */;
-- (double)ëQ¸®?333333Ã?¹?;
+- (double);
+- (double)orderColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double hue; // @synthesize hue=_hue;

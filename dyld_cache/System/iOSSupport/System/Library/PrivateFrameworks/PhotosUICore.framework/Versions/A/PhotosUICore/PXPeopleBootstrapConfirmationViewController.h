@@ -69,31 +69,29 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (long long);
 - (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (struct CGSize);
 - (void);
 - (void);
+- (long long)tensity;
+- (struct UIEdgeInsets);
+- (void)etchCollectionListsWithLocalIdentifiers:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)labilityForFeature:(unsigned long long)arg1 readOptions:error: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ForBufferingIndicator;
+- (long long)ourceIndexes;
+- (void)LoopTimeRange;
+- (struct CGSize)(Zøÿ;
+- (void)nteractiveMemoryTimelinePlayedWith75-84PercentTransitionsOnBar;
+- (id)load;
+- (_Bool)ssetsRecoveryBannerTitle;
+- (void);
 - (id);
-- (id);
-- (_Bool)ð!¨@ù1|1b0@ù
-× ;
-- (id)pying>",C,N,V_currentKey;
-- (void);
-- (void);
-- (unsigned long long)½ûÿ;
-- (struct CGSize)XCTAssert(momentCount == %ld)
-;
-- (long long)The CVDisplayLink is already started and running.;
-- (void)ayoutStyle;
-- (void);
-- (void)ø×BÿØBÿÀ®o;
-- (struct UIEdgeInsets)<»oÁ1¼;
-- (id);
-- (struct CGSize);
-- (void);
-- (id)Y5;
-- (void);
+- (id)P,Ã4;
+- (id)$F6;
+- (void)Ã6;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate; // @synthesize actionDelegate;

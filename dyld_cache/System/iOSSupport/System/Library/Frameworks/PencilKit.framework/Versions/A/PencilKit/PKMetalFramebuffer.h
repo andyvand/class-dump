@@ -32,18 +32,18 @@
 - (id);
 - (_Bool);
 - (struct __IOSurface *);
-- (unsigned long long);
+- (void);
 - (struct __IOSurface *);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (struct CGSize);
-- (id)#;
-- (unsigned long long);
 - (id);
-- (CDStruct_3ead2808)es not want interaction to begin for gesture recognizer:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (struct CGSize);
+- (long long);
+- (id);
+- (CDStruct_3ead2808);
+- (void);
+- (void);
+- (void)8;
+- (unsigned long long);
+- (unsigned long long)ype;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool backedByIOSurface; // @synthesize backedByIOSurface=_backedByIOSurface;

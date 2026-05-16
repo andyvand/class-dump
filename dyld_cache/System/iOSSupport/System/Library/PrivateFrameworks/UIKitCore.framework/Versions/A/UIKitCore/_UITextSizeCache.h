@@ -10,12 +10,13 @@ __attribute__((visibility("hidden")))
     struct ui_size_cache _cache;
 }
 
-- (id);
-- (_Bool)ction profile list too long;
-- (void)ons;
-- (void)olumeBy: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ceneKeyWindowForWindowMadeKey:consideringVisibility:findingNewKeyWindowIfNeeded:ignoringOldKeyWindow:forReason: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id)0@ù
+× ;
+- (void)MutableTraitsInternal>"@?>16;
+- (void)NSObjectCSgG;
 
 @end
 

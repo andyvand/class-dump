@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     UIColor *_tintColor;
 }
 
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
-- (id)ffset:overrideDisplayOffset: /* Error: Ran out of types for this method. */;
-- (_Bool)soriesForState:(id)arg1 isEditing: /* Error: Ran out of types for this method. */;
-- (id)eValidationHandler;
 - (void);
-- (void)olbar appear very similar. It was not possible to auto-generate unique NSToolbarItemIdentifiers without the use of object pointers. Toolbar persistence issues may arise. Set unique identifiers on items that are visible at the same time to disambiguate them.;
+- (_Bool)6@?24@?32;
+- (id)ction;
+- (id)riptorForUIApplicationIconFormat: /* Error: Ran out of types for this method. */;
+- (_Bool)	;
+- (void)tary;
+- (void)SgXw;
+- (void)ÕU×$];
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;

@@ -10,11 +10,11 @@
 {
 }
 
-+ (_Bool)ies:error:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 - (id);
 
 @end

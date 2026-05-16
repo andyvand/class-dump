@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)pe:bounds: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak id <VKFeedbackProviderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -25,14 +25,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool)gramImageWithPhotoSize:monogramString:handler:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (void)ageContainerTopConstraint;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType buttonAction; // @synthesize buttonAction=_buttonAction;

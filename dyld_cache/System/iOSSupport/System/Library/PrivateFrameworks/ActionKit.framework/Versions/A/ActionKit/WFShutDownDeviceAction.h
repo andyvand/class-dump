@@ -16,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)n iPhone;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *iconSymbolName;

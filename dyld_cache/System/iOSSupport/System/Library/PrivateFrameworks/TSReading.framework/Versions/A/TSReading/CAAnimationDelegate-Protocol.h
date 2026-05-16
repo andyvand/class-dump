@@ -5,5 +5,9 @@
 //
 
 @protocol CAAnimationDelegate
+
+@optional
+- (void)ld not be;
+- (void)adff2f;
 @end
 

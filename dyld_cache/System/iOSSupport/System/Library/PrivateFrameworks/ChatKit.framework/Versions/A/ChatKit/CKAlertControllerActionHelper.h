@@ -8,7 +8,10 @@
 {
 }
 
-+ (void)]_block_invoke;
++ (void);
++ (id);
++ (void);
++ (id);
 - (id);
 
 @end

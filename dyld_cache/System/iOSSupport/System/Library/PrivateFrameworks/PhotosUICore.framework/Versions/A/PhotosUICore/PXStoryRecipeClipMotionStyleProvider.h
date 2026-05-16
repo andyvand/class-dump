@@ -26,8 +26,8 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void)¸ÿ0ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryAutoEditConfiguration *configuration; // @synthesize configuration=_configuration;

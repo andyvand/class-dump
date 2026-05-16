@@ -19,21 +19,20 @@ __attribute__((visibility("hidden")))
     unsigned long long _cachedThemeKey;
 }
 
-+ (_Bool)xn;
++ (_Bool)equest for offset of unknown section row data;
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
+- (void);
+- (_Bool)ckerViewControllerDidCancel:(id)arg1;
+- (void)nalConstraints;
 - (id);
-- (unsigned long long)`;
-- (_Bool);
-- (id);
-- (void)Â°1¢!0@ù
-× ;
-- (id)uiltinTransitionGap:(id)arg1 ,V_builtinTransitionGap;
-- (id)putModeControllerDelegate>",W,N,V_delegate;
-- (id)ng;
-- (id);
-- (void)ontrollerProvider requires a UIActivityViewController.;
-- (void)Ðok;
+- (id)arameterIDHapticDecayTimeControl(void);
+- (void)Ó;
+- (id)Mn;
 
 @end
 

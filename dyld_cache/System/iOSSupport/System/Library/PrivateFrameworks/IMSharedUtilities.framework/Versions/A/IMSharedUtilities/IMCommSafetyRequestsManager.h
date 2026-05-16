@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (void)No contact in map with ID:%@ /* Error: Ran out of types for this method. */;
++ (void)URGEABLE_DOCUMENT_TYPE;
 - (id);
 - (void);
 - (void);
@@ -28,12 +28,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (void)	�;
-- (id);
+- (void)Ö;
+- (void)fdí;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cachedResults; // @synthesize cachedResults=_cachedResults;

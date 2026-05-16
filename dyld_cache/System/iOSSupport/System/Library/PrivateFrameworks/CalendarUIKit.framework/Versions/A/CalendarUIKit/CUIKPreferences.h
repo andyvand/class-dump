@@ -39,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,7 +78,6 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,24 +88,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool)4;
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void)ÍÌ2SgGGÌÔ2GÎñ2yANGG<É2yVÙ2GGA2_AGyAGyAGyAGyA3_yA4_! ACySayA22_GA22_AJGGA11_GA13_GA16_GA20_GA2_tGGSgtGSg;
+- (id);
+- (void);
+- (void)#óGAwQGGGSgtGG_G;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowSubscribedCalendarSpamDetection;

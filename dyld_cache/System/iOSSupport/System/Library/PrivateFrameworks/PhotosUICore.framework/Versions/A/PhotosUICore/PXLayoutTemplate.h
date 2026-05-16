@@ -11,7 +11,7 @@
 
 - (struct CGRect);
 - (void);
-- (void)UpForAssetReference:(struct CGRect)arg1 configurationHandler: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (double);
-- (id);
-- (void)Úi;
+- (double);
+- (void)¯Fÿ¡ÕÌ]h;
+- (id)hoþ];
 
 @end
 

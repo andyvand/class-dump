@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)c;
-- (oneway void)@;
-- (NSString *);
+- (struct _NSZone *)l events, time=%llums;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

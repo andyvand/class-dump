@@ -22,39 +22,39 @@ __attribute__((visibility("hidden")))
     struct CGPoint _originalCentroid;
 }
 
-- (double);
 - (void);
+- (struct CGPoint);
 - (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (double);
 - (_Bool);
-- (void);
-- (void)Item;
-- (double);
-- (void);
-- (void);
+- (void)0@ù
+× ;
+- (id)!Aùqg°1Â0@ù
+× ;
+- (double)24@0:8@?<v@?qQ>16 /* Error: Ran out of types for this method. */;
+- (void)ntentOffsetChanges:(id)arg1;
+- (void)le;
+- (void)sSizeAnimation;
+- (void)ationInfo:(double)arg1 forDismissMode: /* Error: Ran out of types for this method. */;
+- (void)ler;
+- (void)onHighlighter;
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (void)Áq!ØBùñÄ1¢!0@ù
-× ;
-- (id)
-× ;
-- (void){CGPoint=dd}{CGSize=dd}}64;
-- (struct CGPoint)^{CGPDFPage=}16;
-- (void)ew";
-- (void)onse;
-- (id)gSwipeActionsConfigurationForTab: /* Error: Ran out of types for this method. */;
-- (double):label:hint:traits:andIsAccessibilityElement: /* Error: Ran out of types for this method. */;
-- (void)ctivated;
-- (id)AtPoint:completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void)Cursor;
-- (_Bool)Y-Choctaw;
-- (double)rary(void);
-- (id)nstrainSize;
-- (_Bool)nPulseScalePtsX;
+- (double)Result;
+- (void);
+- (id)blurEffectStyle;
+- (void)(returned %@ from -resignFirstResponder):%@ inside containing view:%@ at index path:%@
+Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
+- (void)eneWindowingControlClientSettings>"8@"FBSSceneTransitionContext"16;
+- (void)þÿ;
+- (double)³µ;
+- (void)UIHoverEffect_p;
+- (double);
+- (_Bool)gnment;
+- (id)¹¨^;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIWeakGestureTarget *_weakTarget; // @synthesize _weakTarget;

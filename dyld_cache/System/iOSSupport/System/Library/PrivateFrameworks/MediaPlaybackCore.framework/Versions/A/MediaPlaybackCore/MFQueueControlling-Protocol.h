@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerPlaybackCoordinator, NSArray, NSString;
+@class AVPlayerPlaybackCoordinator, NSString;
 
 @protocol MFQueueControlling
-- (void)4@0:(AVPlayerPlaybackCoordinator *)arg1 8@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
-- (_Bool);
-- (NSString *)Disabling Siri Cloud Sync.;
-- (void)ibrary/PrivateFrameworks/AccountsDaemon.framework/Versions/A/AccountsDaemon;
-- (void);
-- (NSArray *)ount:(long long)arg1 %@, changeType:(long long)arg2 %@ };
-- (_Bool)c;
-- (double)ngKeys;
-- (void)*;
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) double crossfadeDuration;

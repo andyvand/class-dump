@@ -19,7 +19,7 @@
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)"8;
 
 // Remaining properties
 @property(retain, nonatomic) HUCollectionLayoutManager *collectionLayoutManager; // @synthesize collectionLayoutManager=_collectionLayoutManager;

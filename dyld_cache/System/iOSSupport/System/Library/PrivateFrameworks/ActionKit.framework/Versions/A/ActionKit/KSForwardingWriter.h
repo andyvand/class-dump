@@ -14,10 +14,10 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)ML document is not a valid web feed document.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

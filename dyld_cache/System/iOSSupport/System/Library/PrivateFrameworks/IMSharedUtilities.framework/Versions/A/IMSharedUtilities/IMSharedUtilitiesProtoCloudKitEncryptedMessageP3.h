@@ -21,29 +21,29 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (unsigned int)@;
+- (void);
+- (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void)P;
-- (id);
-- (void);
-- (id)2yf¹5P;
+- (id)creenEffectsEnabled;
+- (void)utePaddingForStorage;
 
 // Remaining properties
 @property(nonatomic) unsigned int cmmAssetOffset; // @synthesize cmmAssetOffset=_cmmAssetOffset;

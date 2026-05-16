@@ -12,11 +12,13 @@
     MISSING_TYPE *foregroundColor;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (struct CGSize);
+- (id)1â
+0@ù
+× ;
+- (void)Tip;
 
 @end
 

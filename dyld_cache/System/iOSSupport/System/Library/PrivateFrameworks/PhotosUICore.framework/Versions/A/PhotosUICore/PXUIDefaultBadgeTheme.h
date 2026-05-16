@@ -29,24 +29,22 @@
 + (id);
 - (id);
 - (id);
-- (double);
-- (id);
-- (id);
 - (Class);
 - (double);
 - (id);
 - (id);
 - (double);
-- (id);
-- (void)pQå;
-- (id);
+- (double);
 - (id);
 - (id);
-- (double)0@ù
-× ;
-- (double)ù±zð1b0@ù
-× ;
-- (id)'kyî;
+- (id);
+- (id);
+- (double);
+- (id);
+- (double)ind;
+- (id);
+- (id)/albums;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *afterLabelImageTintColor; // @synthesize afterLabelImageTintColor=_afterLabelImageTintColor;

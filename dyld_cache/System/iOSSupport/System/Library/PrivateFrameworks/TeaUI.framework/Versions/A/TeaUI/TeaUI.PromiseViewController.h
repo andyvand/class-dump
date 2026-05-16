@@ -18,15 +18,15 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)Size;
-- (id)videoURL;
-- (void)FY;
+- (void);
+- (id);
+- (id);
+- (void)ÂäýÿPÿÿ;
+- (id)ssing is not complete;
 - (long long);
-- (id)etHasFilterNonSubscribedInFavoritesOnlyMode: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (void)õ<;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

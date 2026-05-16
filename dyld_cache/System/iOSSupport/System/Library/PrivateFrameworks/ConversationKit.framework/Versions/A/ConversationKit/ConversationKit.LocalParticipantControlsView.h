@@ -8,7 +8,6 @@
 
 @interface ConversationKit.LocalParticipantControlsView
 {
-    UIControl *effectsButton;
     UIControl *cameraBlurButton;
     UIControl *cinematicFramingButton;
     UIControl *collapseButton;
@@ -26,12 +25,10 @@
     MISSING_TYPE *$__lazy_storage_$_shutterButton;
     MISSING_TYPE *currentConstraints;
     MISSING_TYPE *delegate;
-    MISSING_TYPE *controlsLayoutGuide;
     MISSING_TYPE *zoomButtonLayoutGuide;
     MISSING_TYPE *style;
     MISSING_TYPE *buttonsStackViewController;
     MISSING_TYPE *viewModel;
-    MISSING_TYPE *effectsSelected;
     MISSING_TYPE *blurEnabled;
     MISSING_TYPE *cinematicFramingIsEnabled;
     MISSING_TYPE *reactionEffectGestureIsEnabled;
@@ -39,6 +36,7 @@
     MISSING_TYPE *isDisabled;
     MISSING_TYPE *tuFeatures;
     MISSING_TYPE *previewButtonConstraints;
+    MISSING_TYPE *cameraFlipButtonConstraints;
     MISSING_TYPE *_videoMessagingState;
     MISSING_TYPE *subscriptions;
     MISSING_TYPE *timerSink;
@@ -58,7 +56,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -67,14 +64,13 @@
 - (void);
 - (id);
 - (id);
+- (id)?;
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)p;
 
 // Remaining properties
 @property(nonatomic, readonly) UIControl *cameraBlurButton; // @synthesize cameraBlurButton;
@@ -82,7 +78,6 @@
 @property(nonatomic, readonly) UIControl *cameraFlipButtonWithText; // @synthesize cameraFlipButtonWithText;
 @property(nonatomic, readonly) UIControl *cinematicFramingButton; // @synthesize cinematicFramingButton;
 @property(nonatomic, readonly) UIControl *collapseButton; // @synthesize collapseButton;
-@property(nonatomic, readonly) UIControl *effectsButton; // @synthesize effectsButton;
 @property(nonatomic, readonly) UIControl *reactionEffectGestureButton; // @synthesize reactionEffectGestureButton;
 @property(nonatomic, readonly) UIControl *rotateButton; // @synthesize rotateButton;
 @property(nonatomic, retain) UIView *shutterButton;

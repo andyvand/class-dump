@@ -48,57 +48,56 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)file;
-- (void);
-- (void)ocol: /* Error: Ran out of types for this method. */;
-- (void);
-- (double)$;
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)AoÐ!hGù±Á°1¢!0@ù
+- (double)0@ù
 × ;
-- (void)!CùqÂð1¢!0@ù
-× ;
-- (void)ù±Â1¢!0@ù
-× ;
-- (void)ù
-× ;
-- (id)Ô ;
-- (void)!0@ù
-× ;
-- (void)iewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"automaticallyUpdatesContentViewConfiguration"b1};
-- (void)e:(CDUnknownBlockType)arg1 graphicsQuality:(id)arg2;
-- (void)ansitionZoneRect:(double)arg1;
-- (void)er:(struct __CFRunLoopTimer *)arg1 size:(double)arg2 selected:bold:hasMaterial: /* Error: Ran out of types for this method. */;
-- (void)ntHighlights;
-- (double)ndexTitleBarOffset;
-- (_Bool)racters;
-- (void)adingEdge;
 - (void);
-- (id)backgroundTaskIdentifier;
-- (double)essoryEnabled,V_accessoryEnabled;
-- (void);
-- (void)UITransitionComponentSystemViewProvidingP;
-- (void)AquaDuck;
-- (void)guage.;
-- (struct __CFRunLoopTimer *)hStyle: /* Error: Ran out of types for this method. */;
+- (void)0@ù
+× ;
+- (void)
+× ;
+- (id)q]ð1Â0@ù
+× ;
 - (void);
-- (void);
-- (void);
-- (double);
-- (struct __CFRunLoop *)r;
-- (void)¬;
-- (struct __IOHIDEvent *);
+- (_Bool)SUserActivity"16;
+- (void)llUpdateCellHandler;
+- (id)WithSize: /* Error: Ran out of types for this method. */;
+- (void)lumn:(CDUnknownBlockType)arg1;
+- (struct __CFRunLoopTimer *)ts:forKeys:count: /* Error: Ran out of types for this method. */;
+- (void)owClass;
+- (void)der:(double)arg1;
+- (void)barTitleData;
+- (struct __IOHIDEvent *)hStyle",R,N;
+- (void),W,N,V_delegate;
+- (void)bel",&,N,V_promptLabel;
+- (id);
+- (void)ÿÈÿ;
+- (double)aceAction"8^B16;
+- (void)postRotationPendingBlock;
+- (void)ypeShift;
+- (void)stom content types;
+- (void)IButtonBarTrashLandscape.png;
+- (double)ilableConfiguration;
+- (void)ÿ;
+- (double)InteractionUpdateC;
+- (void)ðø®?óWya§?©'ôú ?;
+- (void)?;
+- (void);
+- (struct __CFRunLoop *)a;
+- (void)Üc;
+- (void)¨2h;
+- (void)øþ#+	;
+- (void)xácÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CFRunLoop *_eventFetchRunLoop;

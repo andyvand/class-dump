@@ -7,11 +7,6 @@
 @class APPCAdPolicyData, APPCTapAction, NSString, NSUUID;
 
 @protocol APPCPromotableContentRepresentation
-- (struct CGSize);
-- (APPCAdPolicyData *)oud is off and issue is downloaded;
-- (long long)!;
-- (long long);
-- (long long)1;
 
 // Remaining properties
 @property(nonatomic, readonly) APPCAdPolicyData *adPolicyData;

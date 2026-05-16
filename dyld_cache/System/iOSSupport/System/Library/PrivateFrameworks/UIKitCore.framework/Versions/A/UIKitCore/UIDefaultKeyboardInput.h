@@ -14,94 +14,94 @@
     UITextInputTraits *m_traits;
 }
 
-- (int)perties:(id)arg1 invitationReceived: /* Error: Ran out of types for this method. */;
-- (void)&,N,V_requestResponse;
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id)oadcaster:%p /* Error: Ran out of types for this method. */;
-- (void)sSWYSpam %@, showQuickAction:(int)arg1 %@;
-- (struct CGRect)rgedID-based merged chats - 48047873;
-- (unsigned short)r key %@ error %@;
-- (unsigned short)e had a problem archiving ignored list for key %@ error %@;
-- (_Bool)d error:%@ /* Error: Ran out of types for this method. */;
-- (void)A;
 - (int);
+- (void);
 - (_Bool);
-- (_Bool);
-- (id)ParentSelectionPolicy;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)ainerView:(id)arg1 willMeasureArrangedSubviewsFittingSize:forReason: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (unsigned short)y %p>%s%s%s%s priority [%@, %ld];
-- (void);
+- (id);
+- (id);
 - (void);
 - (struct CGRect);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (void)As°!tEùñÆÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)ñÎð1¢!0@ù
-× ;
-- (void)CGPoint=dd}{CGSize=dd}}24N^{CGRect={CGPoint=dd}{CGSize=dd}}32N^d40@"NSTextContainer"48{_NSRange=QQ}56;
-- (void)oftwareLayoutFromIdentifier:(_Bool)arg1;
-- (_Bool)Component;
-- (id);
-- (_Bool)tring",C,N,G_initialHeaderSubtitle,S_setInitialHeaderSubtitle:(id)arg1 ,V_initialHeaderSubtitle;
-- (id)|§È§;
-- (id)À:(id)arg1 Ø;;
-- (_Bool)tation is already disabled. Will use the current window orientation (%@) as the target orientation.;
-- (void)ButtonShapesEnabled;
-- (void)ontextChangeTrigger;
-- (struct CGRect)me;
-- (long long)ngButtonActivatesDictationWhenEmpty;
-- (id);
-- (void)thDescendantForDepthLevel;
-- (id);
-- (void);
-- (id)ÈÝÿ;
-- (id)ã;;
-- (id)ÿ^;
-- (id);
-- (id)H_ÿeÙio`;
-- (void)_`þ~m;
-- (id)¨<,ÿ=Ófáb;
-- (long long)$èÿátÔLId;
-- (id);²;
-- (void)g;
+- (unsigned short);
+- (unsigned short);
 - (_Bool);
-- (long long)8i;
-- (_Bool)Ù¾Ù,Nj;
-- (id)k;
-- (void)Ütÿ;
-- (_Bool);
-- (_Bool)Æl;
-- (_Bool)¨;
-- (id)ÿ;
-- (id)*¤Ào;
-- (id)|ÿ;
-- (id)ªm;
-- (void)tÿ¯;
-- (struct _NSRange)Zm;
-- (void) sÿ§ Ê;
-- (id)Ùm;
-- (struct CGRect)ÿ³;
-- (void)ùÞm;
-- (void)m;
 - (void);
-- (_Bool)`\	;
-- (struct CGRect);
-- (id)È||;
+- (_Bool);
 - (id);
+- (id);
+- (id);
+- (unsigned short);
+- (struct _NSRange);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id)!ÌDùQZð1Â0@ù
+× ;
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (id)°!ø@ù_°1Â0@ù
+× ;
+- (void)
+× ;
+- (void)tingSheetDelegate: /* Error: Ran out of types for this method. */;
+- (int)ocale: /* Error: Ran out of types for this method. */;
+- (void)nTest:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (struct CGRect)SortedDeleteItems:moveItems:movedSourceIndexPaths:movedDestinationIndexPaths:insertItems:oldCollectionViewData: /* Error: Ran out of types for this method. */;
+- (void)s;
+- (id):(id)arg1;
+- (_Bool)wController,V_rememberedFocusedItemsByViewController;
+- (struct CGRect)NSLayoutConstraint",&,N,V_nonSymbolImageHeight;
+- (_Bool)ShapeLayer",&,N,V_slashShapeLayer;
+- (id)qHq;
+- (_Bool)kingAssistantPosition;
+- (void)BackgroundGradientEnd;
+- (id)es Configuration;
+- (_Bool)ainer=(%g, %g; %g, %g);
+- (id)list.;
+- (_Bool)mationCXo;
+- (void)O¢;
+- (void)_;
+- (_Bool)Äe;
+- (id)mØ×Èf;
+- (_Bool)´D)ÿbÚ­f;
+- (id);
+- (_Bool)¹ÓL|h;
+- (void)üºh;
+- (long long)¸;
+- (id)õh;
+- (long long);
+- (id)i;
+- (void)j;
+- (long long)N Ú;
+- (id)ÕLCj;
+- (_Bool)¼-k;
+- (struct CGRect)èk;
+- (void)$ðÎ\k;
+- (void)µ*Õ<l;
+- (id)Ml;
+- (id)\Ífþ¾MÎðl;
+- (id)ô§l;
+- (id);
+- (id)xn;
+- (void)`n;
+- (void)jÿ$îz;
+- (id)-Ýdsn;
+- (struct CGRect)ä{n;
+- (void);
+- (id)n;
+- (id)d¶n;
+- (void)o;
+- (id)o;
+- (id)Ï}ÕÌo;
+- (void);
+- (void)!QÅ;
+- (void)èÖo;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
@@ -507,6 +507,10 @@
 @property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIColor",?,&,N
+
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
 
 @property(nonatomic) _Bool useAutomaticEndpointing;
 // Preceding property had unknown attributes: ?

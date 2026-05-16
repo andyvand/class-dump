@@ -13,10 +13,12 @@
 }
 
 + (id);
-+ (id)Ì¤T¥Ä¥L¦¨¦0§è§X¨;
-+ (_Bool)redentialType = %@, Rotate = %@>;
++ (id);
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -24,10 +26,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)ay",R,N,V_constraints;
-- (id)due to current home changed notification;
-- (id)anager submitAccessCodeModificationRequests:completion:] /* Error: Ran out of types for this method. */;
+- (void)¼æé;
+- (id)s;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;

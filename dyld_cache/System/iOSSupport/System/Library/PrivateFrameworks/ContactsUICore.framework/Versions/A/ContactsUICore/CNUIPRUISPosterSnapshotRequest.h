@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ce:queryControllerWrapper:scheduler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISPosterSnapshotRequest *wrappedRequest; // @synthesize wrappedRequest=_wrappedRequest;

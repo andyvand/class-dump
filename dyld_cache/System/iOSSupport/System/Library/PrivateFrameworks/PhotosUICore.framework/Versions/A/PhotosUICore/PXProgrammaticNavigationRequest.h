@@ -14,14 +14,13 @@
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id)
-× ;
-- (void)xt.m;
+- (CDUnknownBlockType);
+- (void);
+- (void)ration;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

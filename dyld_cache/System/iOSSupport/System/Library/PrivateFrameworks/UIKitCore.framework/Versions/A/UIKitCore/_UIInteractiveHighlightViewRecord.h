@@ -18,15 +18,16 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)Kit;
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)iftProgress: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)þ;
-- (id)ôþîf;
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (void)itCollection:(id)arg1;
+- (id)ecognizer",&,N,V_selectByPressGestureRecognizer;
+- (id)error;
+- (void)a±43d+tþ;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;

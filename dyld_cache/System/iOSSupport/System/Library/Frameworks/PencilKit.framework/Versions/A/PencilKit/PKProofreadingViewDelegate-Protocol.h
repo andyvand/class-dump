@@ -5,7 +5,5 @@
 //
 
 @protocol PKProofreadingViewDelegate
-- (void);
-- (void);
 @end
 

@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (id)sociatedDimension;
+- (id)ionsHandler;
 
 @end
 

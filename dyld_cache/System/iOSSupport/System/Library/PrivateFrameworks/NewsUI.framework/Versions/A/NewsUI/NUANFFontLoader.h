@@ -21,7 +21,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,10 +30,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
 - (long long);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FCANFContent *anfContent; // @synthesize anfContent=_anfContent;

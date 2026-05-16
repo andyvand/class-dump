@@ -14,29 +14,30 @@
     NSArray *_itemEffects;
 }
 
-- (void)rWithMetadata:(struct UIOffset)arg1 fileTransferGUID:repositioningFromLocalChange: /* Error: Ran out of types for this method. */;
-- (void)toreRepositionedStickerLocally:(id)arg1;
-- (void)bleMessagePartWithBody:(struct UIOffset)arg1 forMessageWithGUID:deleteDate: /* Error: Ran out of types for this method. */;
-- (id)eteBatchWithContext:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id);
 - (struct UIOffset);
 - (id);
 - (struct UIOffset);
-- (id)%@:(id)arg1 Failed request for resource file URLs for asset:(id)arg2 %@, error:(long long)arg3 %@;
-- (void)%K == %ld;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id)esponder;
-- (void)hKLL;
 - (void);
-- (void)êZ;
-- (id)Úc;
-- (id)\_;
-- (void)G'a;
-- (struct UIOffset)Íe;
+- (id);
+- (id);
+- (void)Ñ^°1Â0@ù
+× ;
+- (void)nges;
+- (id);
+- (void)ípíî	Ðî;
+- (id)03y0¿7G;
+- (void)ration;
+- (struct UIOffset);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setData:) _UITabBarItemData *_data; // @synthesize _data;

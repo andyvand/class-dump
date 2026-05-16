@@ -10,20 +10,20 @@
 {
 }
 
-- (long long);
-- (void);
-- (struct CGSize);
 - (double);
-- (unsigned long long);
-- (unsigned long long);
-- (struct CGSize);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (struct CGSize);
+- (long long);
+- (_Bool);
 - (double);
 - (struct CGSize);
-- (_Bool);
+- (unsigned long long);
 - (void);
+- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
+- (void);
+- (unsigned long long);
 - (struct CGSize);
 
 @end

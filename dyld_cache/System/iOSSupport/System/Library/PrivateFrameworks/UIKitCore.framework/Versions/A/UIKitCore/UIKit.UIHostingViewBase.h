@@ -16,7 +16,6 @@
     MISSING_TYPE *inheritedEnvironment;
     MISSING_TYPE *environmentOverride;
     MISSING_TYPE *traitCollectionOverride;
-    MISSING_TYPE *cachedContainerShape;
     MISSING_TYPE *canAdvanceTimeAutomatically;
     MISSING_TYPE *allowUIKitAnimationsForNextUpdate;
     MISSING_TYPE *lastRenderTime;
@@ -51,12 +50,13 @@
 - (void);
 - (void);
 - (void);
-- (void)ximumNumberOfChats:skipsLastMessageLoading:usingChats:useCachedChatGroups:includingPinnedChatIdentifiers:repairInconsistentMergedChats: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)Ð;
-- (id)tionCount;
-- (void)lþ¹ð4:þ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ñ^1Â0@ù
+× ;
+- (void)(*ÊÃL_;
+- (void)¹ÿ_;
 
 @end
 

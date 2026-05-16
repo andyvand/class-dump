@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (id)s;
-- (void);
 - (id);
+- (id);
+- (void)>"16@"<SXComponentState>"24{CGSize=dd}32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponent><SXInsertableComponent> component; // @synthesize component=_component;

@@ -5,6 +5,6 @@
 //
 
 @protocol UIKBAlertControllerDelegate
-- (void)on view before the update (%d), plus or minus the number of sections inserted or deleted (%d inserted, %d deleted). Collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)without Setting Up;
 @end
 

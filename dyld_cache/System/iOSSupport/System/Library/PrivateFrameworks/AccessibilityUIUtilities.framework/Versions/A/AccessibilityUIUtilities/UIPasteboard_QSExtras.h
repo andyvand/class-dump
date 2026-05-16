@@ -16,15 +16,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (Class);
-- (_Bool)?<v@?@"CNContact">;
++ (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)@9�;
 - (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,18 +32,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (id);
-- (id)_;
+- (id);
 - (id);
 - (void);
-- (id)@;
-- (id)!;
 - (id);
-- (long long);
 - (id);
-- (long long);
+- (id);
+- (id);
+- (id);
 - (void);
+- (long long);
+- (long long);
 
 @end
 

@@ -54,6 +54,7 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);

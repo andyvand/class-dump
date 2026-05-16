@@ -11,12 +11,12 @@
     NSString *_flexMusicID;
 }
 
-+ (_Bool)Ü@±ÿÝ©P5;
++ (_Bool)N,V_gridViewController;
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)Ñ,ÆSê;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *flexMusicID; // @synthesize flexMusicID=_flexMusicID;

@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)0©Ì©«L­Ä­¼®;
-- (id)apple.CameraOverlayAngel;
-- (void)_;
 - (void);
-- (void)Ûéþ³Ä;
+- (id)tiveBackdrop;
+- (void)´Ðqþ²þÿ;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

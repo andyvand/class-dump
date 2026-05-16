@@ -14,15 +14,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (long long);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void)glelineAddress;
 
 // Remaining properties
 @property(readonly, nonatomic) MUConstraintLayoutInternal *internal; // @synthesize internal=_internal;

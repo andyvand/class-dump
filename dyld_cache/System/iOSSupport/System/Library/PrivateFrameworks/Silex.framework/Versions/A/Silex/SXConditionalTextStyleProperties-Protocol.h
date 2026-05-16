@@ -7,7 +7,7 @@
 @class SXJSONArray, SXTextDecoration, SXTextShadow, SXTextStroke, UIColor;
 
 @protocol SXConditionalTextStyleProperties
-- (long long);
+- (double)XLayoutFinalizationProcessor"16@?0@"<TFResolver>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor;

@@ -7,7 +7,6 @@
 @class NSString, SXExperiment, SXLayoutOptions;
 
 @protocol SXDOMModificationContext
-- (SXExperiment *)nfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXExperiment *experiment;

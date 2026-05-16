@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIScrollEventAsyncDeliveryTarget;
-
 @protocol _UIScrollEventAsyncDeliverable
-- (id <_UIScrollEventAsyncDeliveryTarget>)erGoingOnAnimationDuration;
 @end
 

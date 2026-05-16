@@ -22,26 +22,26 @@ __attribute__((visibility("hidden")))
     NSXPCConnection *_serviceConnection;
 }
 
-+ (id)ver bag does not allow us to sync. Our client version %d server client version %ld;
-+ (void)`ØHÿü;
++ (id);
++ (void)%ØL,n;
 - (int);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)Handle:(id)arg1;
-- (id)t item count %@;
+- (void);
+- (id);
 - (CDStruct_4c969caf);
 - (void);
-- (void)tring:(CDUnknownBlockType)arg1;
-- (void)oratorStatus__MAPPING_MISSING__;
-- (id)ÁpÐ!Bù±Ã1¢!0@ù
+- (void);
+- (id);
+- (id)A!Gù±bÐ1Â0@ù
 × ;
-- (id)ateDeferralTarget: /* Error: Ran out of types for this method. */;
-- (void)ist appearance style in trait collection. Style:(id)arg1 %ld; trait collection:%@ /* Error: Ran out of types for this method. */;
-- (id)age=}8@?0;
-- (id)MagicMorphAnimation10Parameters;
+- (void)rBackgroundLayout",&,N,V_layout;
+- (void)d.;
+- (id)ionsOnResignActive;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

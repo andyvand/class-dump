@@ -246,9 +246,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -276,29 +276,30 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct UIEdgeInsets);
-- (id)Ó¿yAJyAC(9ALySayA1_GSi÷8yAC_A1_Qo_GG_AQQo__Qo_ACGSgtG;
 - (id);
+- (id);
+- (id);
+- (struct CGSize);
+- (struct CGSize);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (struct CGSize);
+- (_Bool);
+- (id);
+- (void);
+- (void)ntroller:ontoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)_setIsScrubbingDidChange: /* Error: Ran out of types for this method. */;
+- (id)wConfiguationForAssetPicker:(id)arg1 assetCollection:(id)arg2;
+- (id)tîìÿ¯¶xè
+;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *cachedDefaultGlobalFooterHeight; // @synthesize cachedDefaultGlobalFooterHeight=_cachedDefaultGlobalFooterHeight;

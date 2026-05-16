@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)Ù;
+- (void)¬ (¡;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContact *wfContact; // @synthesize wfContact=_wfContact;

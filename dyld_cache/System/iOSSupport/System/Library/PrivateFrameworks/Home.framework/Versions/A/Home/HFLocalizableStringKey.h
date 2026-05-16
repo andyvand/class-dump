@@ -21,13 +21,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)r: /* Error: Ran out of types for this method. */;
+- (void)idUpdateAudioStreamSettingWithError:(id)arg1;
+- (void)(¹;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *argumentKeys; // @synthesize argumentKeys=_argumentKeys;

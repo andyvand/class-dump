@@ -7,7 +7,6 @@
 @class NSUUID;
 
 @protocol HFCameraClipIdentifiable
-- (NSUUID *)diaAccessoriesCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *uniqueIdentifier;

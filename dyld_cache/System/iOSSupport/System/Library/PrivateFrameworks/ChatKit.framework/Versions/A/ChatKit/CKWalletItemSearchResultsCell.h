@@ -14,8 +14,8 @@
 - (double);
 - (struct CGPoint);
 - (struct CGPoint);
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -11,15 +11,15 @@
     NSMutableDictionary *_dictionary;
 }
 
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id),'];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

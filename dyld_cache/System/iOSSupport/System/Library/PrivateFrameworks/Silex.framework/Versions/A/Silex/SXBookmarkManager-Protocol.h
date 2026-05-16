@@ -5,5 +5,6 @@
 //
 
 @protocol SXBookmarkManager
+- (void)eshold_override;
 @end
 

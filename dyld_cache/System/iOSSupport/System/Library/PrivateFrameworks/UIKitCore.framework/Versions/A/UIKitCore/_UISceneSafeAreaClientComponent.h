@@ -10,12 +10,14 @@ __attribute__((visibility("hidden")))
     _Bool _safeAreaEdgeInsetsPopulated;
 }
 
-- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (struct _UICornerInsets);
-- (void);
-- (id)xð!\"ð%ì&'	À(;
-- (void)raitsFromViewHierarchy;
+- (void)ð1Â0@ù
+× ;
+- (void)°!8Aù]°1Â0@ù
+× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool safeAreaEdgeInsetsPopulated; // @synthesize safeAreaEdgeInsetsPopulated=_safeAreaEdgeInsetsPopulated;

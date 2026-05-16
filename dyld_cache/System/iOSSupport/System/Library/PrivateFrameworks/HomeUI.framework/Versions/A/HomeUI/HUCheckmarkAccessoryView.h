@@ -14,21 +14,20 @@
 }
 
 + (id);
-+ (double);
++ (double)ing to Home Settings ... using navController = %@;
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (struct CGSize);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (id)0@ù
-× ;
-- (_Bool)¨5;
-- (struct CGSize)riptor;
-- (void)\×þ¥;
-- (void)öÐÃ;
+- (id);
+- (void)dition"8;
+- (void);
+- (_Bool)þ6=;
+- (void)ÿÈ¦ÿD;
 
 // Remaining properties
 @property(nonatomic) _Bool checked; // @synthesize checked=_checked;

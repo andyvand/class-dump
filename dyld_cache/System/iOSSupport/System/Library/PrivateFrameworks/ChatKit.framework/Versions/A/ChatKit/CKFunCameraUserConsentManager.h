@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool)hing indexable text content for system paper attachment %s;
++ (_Bool);
 + (void);
-- (void);
 - (id);
+- (void)CKInlineMediaTextAttachmentViewProvider;
 
 @end
 

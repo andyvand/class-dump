@@ -23,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (void);
@@ -38,12 +38,12 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (int);
 - (void);
-- (id)H;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -53,9 +53,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
-- (void)pÔÿyVTå;
+- (void):(id)arg1 forSegment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int wrapContainerMode;

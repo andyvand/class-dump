@@ -4,173 +4,189 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBarButtonItem, UIBlurEffect, UICommand, UIDimmingView, UINavigationController, UIResponder, UIScreenEdgePanGestureRecognizer, UISearchController, UISplitViewController, UIView, UIViewController, _UITabContainerView;
+@class NSArray, NSString, UIBarButtonItem, UIBlurEffect, UIDimmingView, UINavigationController, UIPopoverController, UIResponder, UIScreenEdgePanGestureRecognizer, UISearchController, UISplitViewController, UITraitCollection, UIView, UIViewController, _UITabContainerView;
 @protocol UIActivityItemsConfigurationReading, UIFocusEnvironment, UISplitViewControllerDelegate, UIViewControllerTransitionCoordinator;
 
 @protocol _UISplitViewControllerImplementing
 + (Class);
-- (double)`;
-- (void);
-- (void)e�]�!;
-- (double)6;
-- (double)ogStateWithDescriptor:error: /* Error: Ran out of types for this method. */;
-- (void)onName:(_Bool)arg1 withDestinationDeviceID:withScanTime:withPassword: /* Error: Ran out of types for this method. */;
-- (void)loadPaused;
-- (struct UIEdgeInsets)6@?0@"CEMNetworkVPNAppToAppLayerMappingDeclaration_AppLayerVPNMappingItem"8;
-- (void);
-- (void);
-- (UINavigationController *)';
-- (void)PMediaQuerySection is a read-only object;
-- (_Bool)ving is supported.;
-- (_Bool);
-- (void);
-- (UINavigationController *)C¯º;
-- (void)º;
-- (_Bool)!0@ù
+- (double)1Â0@ù
+× ;
+- (void)@ù
 × ;
 - (void)
 × ;
-- (void)ñÁ°1¢!0@ù
+- (void)\ð1Â0@ù
 × ;
-- (UIScreenEdgePanGestureRecognizer *)0@ù
-× ;
-- (void)!8DùÑÆð1¢!0@ù
-× ;
-- (struct CGRect)1¢!0@ù
-× ;
-- (id <UIViewControllerTransitionCoordinator>)¡t!´Dù±Èð1¢!0@ù
-× ;
-- (double)QÊÐ1¢!0@ù
-× ;
-- (_Bool)!¬@ùÌ°1¢!0@ù
-× ;
-- (_Bool)ùÍÐ1¢!0@ù
-× ;
-- (_Bool)ITextDragFinishState>"16;
-- (void)24d28;
-- (void)d}{CGSize=dd}}24@0:(UICommand *)arg1 8@"NSTextViewportLayoutController"16;
-- (_Bool)"b1"usesExtraWidePrimaryColumn"b1"usesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1"isGestureShowingSupplementaryColumn"b1"isGestureHidingPrimaryWithSupplementaryVisible"b1"isForcingOverlayForGesture"b1"overrideSplitBehaviorForRestrictedWidth"b2"allowToggleSidebarButtonWithoutGesture"b1"alwaysHideToggleSidebarButton"b1"allowsTriggeringSidebarKeyCommandAction"b1"wantsHideSidebarDisplayNameForKeyCommand"b1"allowsDimmedSecondaryAsDeepestUnambiguousResponder"b1"ignoresSheetContext"b1"showsSeparators"b1"allowSecondaryOnlyButton"b1"lockedForDelegateCallback"b1"inCollapsingToProposedTopColumnCallback"b1"inExpandingToProposedDisplayModeCallback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
-- (_Bool)Time"24;
-- (NSArray *)tFieldContainerViews;
-- (_Bool)esentEditMenuWithAnimator:(long long)arg1;
-- (void)tQuietModeEntry:(long long)arg1;
-- (void)thFractionForSecondColumn:(UINavigationController *)arg1;
-- (double)reForGeometryChange;
-- (_Bool)initWithPlaceholderSize: /* Error: Ran out of types for this method. */;
-- (void)ibleWindows:(double)arg1;
-- (void)iewDescription;
-- (void)arDisplayStyle:(double)arg1;
-- (void):(UIViewController *)arg1;
-- (void)InteractiveTransition:(UICommand *)arg1 transitionContext: /* Error: Ran out of types for this method. */;
-- (void)HiddingButton:(double)arg1;
-- (_Bool)ithUIScene: /* Error: Ran out of types for this method. */;
-- (void)ashboardReportConcernView;
-- (long long)lightView;
-- (double)figurationAction;
-- (_Bool)nViewSourcePrivateLocalObject;
-- (void)ØH;
-- (_Bool)}p; contextId:0x%{public}X; scene identity:%{public}s /* Error: Ran out of types for this method. */;
-- (void)r:(_Bool)arg1 ), (IMP)NSImage_respondsToSelector, ((void*)0))" -> %llu;
-- (void)ting arbiter connection;
-- (NSArray *);
-- (void)ÿÐsèÿ;
-- (void);
-- (UIViewController *)~;
-- (void)tAüÿ+þÿ;
-- (void)*{þÿ;
-- (void)escendantTransitioning;
-- (void)3G5valuetG;
-- (struct CGSize)rLanguage;
-- (long long)d;
-- (_UITabContainerView *)rMode = %@;;
-- (void)ged during State Restoration for window %@;
-- (void)eviewInteractionController.m;
-- (_Bool)alStyleWildcatStandard;
-- (void)"16;
-- (UIViewController *)rID getCHHapticDynamicParameterIDAudioReleaseTimeControl(void);
-- (_Bool)='%@';
-- (struct CGSize)namerSession *__strong);
-- (NSString *)ectViewContentView;
-- (void)UIBlurEffectStyleSystemThickMaterialLight;
-- (_Bool)tle:%@> /* Error: Ran out of types for this method. */;
-- (void)r!;
-- (UIResponder *)not be set on an active animator (%@);
-- (long long)he main menu system is building.;
-- (_Bool)ubclass];
-- (double)"NSIndexPath"24;
-- (void)apseIntermediateSpring;
-- (UIResponder *)urrentActiveOrDismissDetent;
-- (UIBarButtonItem *)ransitions;
-- (struct UIEdgeInsets)atingPad;
-- (_Bool)mentsCovered;
-- (void)ornerInsets={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}16;
-- (void)sentedViewInContainerView;
-- (_Bool)t;
-- (double)tedReceivers;
-- (long long)le;
-- (double)UIBarButtonItemAppearanceStorage",N,R;
-- (double)g;
-- (UIBlurEffect *)earchBar;
-- (float)elMaterial;
-- (_Bool)Text Effect view hasn't been installed before starting anticipation animations;
-- (void)elyHidden;
-- (double)istry;
-- (_Bool)ew+TransitionContainer.swift;
-- (void)<UILayoutRuleEvaluationContext>"8@"<UIMutableTraitsInternal>"16;
-- (long long)UIMenuBuilder went down the duplicate menu error log path when there were no duplicate menus. This is a UIKit internal bug.;
-- (UIViewController *)0:(long long)arg1 8Q16{CGPoint=dd}24B40@44;
-- (void)pLeadingConcentricLayoutPoint;
-- (void)ColumnViewP33_E55D530921B5D45A8EA231E2252C983512ClippingView";
-- (double)iantSpec;
-- (void)t generated value:(long long)arg1 ";
-- (UIView *)pName;
-- (_Bool)TB,N,VlensingEnabled;
-- (void)ifier;
-- (_Bool)stureRecognizer",N,&,VpanGestureRecognizer;
-- (_Bool)ultThumbTintColor;
-- (_Bool)w;
-- (long long)dddddddddd}16@0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)Frameworks/SpringBoardServices.framework/SpringBoardServices;
-- (void)k:(UIViewController *)arg1 r:(UIViewController *)arg2 path:/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics /* Error: Ran out of types for this method. */;
-- (UIDimmingView *)/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI;
-- (id <UIActivityItemsConfigurationReading>)¾/Ý$Þ?¢E¶óýÔÐ?é&1¬Ú?7A`åÐÒ?¬Zd;ï?;
-- (void)N;
-- (void)5;
-- (void)o<;
-- (void)ÍV^ò?ùß?¨Á?;
-- (long long)·é$pÀä¡ïne	ñ?;
-- (void)@;
-- (void)e;
-- (void)3x^»þ;
-- (_Bool);
-- (_Bool)agedContentStateKey;
-- (void),+71¡cÿ3pÓ;
-- (void)t°þ;
-- (void)lper;
-- (UIViewController *)lBecomeUnavailableMessage;
-- (void)ePhonePresentationController;
-- (NSArray *)µÊ;
-- (void)ô$;
-- (void)t,;
-- (_Bool);
-- (NSArray *)-øÿ3äþ;
-- (void)ÑX4[;
-- (void),x71h4ìa;
-- (_Bool);
-- (void)SeparatorMetrics;
-- (_Bool)nterShape;
-- (double)}8;
-- (void)ÍþMì4ÍþUì4$ÍþEì44ÍþMì4ÈÍþ;
-- (void)¨eþ";
-- (void)4~þí4ð~þí4\þí4Xþ;
-- (void)d&®3;
-- (void)4;
 - (void);
-- (void)Í4ÀkþÕ4Ä¨kþí4d kþ;
-- (void)äûiþÌ4àûiþÌ4ÐûiþÍÌ4`üiþÍ4°ûiþÕÌ4dûiþ;
-- (void)1Ì4Ô;
-- (long long);
-- (double)aceOrientationMode;
+- (UIViewController *)0@ù
+× ;
+- (double)!àGù±\°1Â0@ù
+× ;
+- (void)Ð!¬Gùq^Ð1Â0@ù
+× ;
+- (void)q_1Â0@ù
+× ;
+- (void)ð!<GùÑ_Ð1Â0@ù
+× ;
+- (void)!¤Gù±`Ð1Â0@ù
+× ;
+- (void)Rect"b1"selectionClipRect_External"b1};
+- (double)pdateVisibleCellsContext";
+- (_Bool)dd}16{CGSize=dd}32@48;
+- (void)dscape"b1"isLocked"b1"isIgnoringLock"b1"layoutInProgress"b1"delegateRespondsToFreezeLayoutForDismissalSelector"b1"delegateRespondsToInterfaceOrientationWindowSelector"b1"delegateRespondsToEffectiveDelegateForNavigationItem"b1"delegateSupportsScrollEdgeTransitionProgress"b1"delegateSupportsEffectiveSearchControllerGivenTopNavigationItem"b1"decodedUnlockedWithNavigationControllerDelegate"b1"lostNavigationControllerDelegate"b1"didSetAppearanceProperty"b1};
+- (_Bool)onLayoutContainer";
+- (void)ionViewState"32;
+- (_Bool)OverArrow;
+- (void)ateDictationAsPrimaryInputMode:(_Bool)arg1;
+- (void)traitChangeObservation;
+- (void)illDisplayForTextItem:(double)arg1 animator: /* Error: Ran out of types for this method. */;
+- (void)acementBuildInPalette;
+- (_Bool)rgeContentViewer: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ress: /* Error: Ran out of types for this method. */;
+- (NSArray *)removeSublayout:(UINavigationController *)arg1;
+- (_Bool)ForKeys: /* Error: Ran out of types for this method. */;
+- (void)ntersectingFrame:(void (^)(void))arg1;
+- (UIScreenEdgePanGestureRecognizer *)ureItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (_Bool)serveAudioCategoriesDisablingVolumeHUDWithBlock: /* Error: Ran out of types for this method. */;
+- (NSArray *)tations;
+- (void)nMenu:(long long)arg1;
+- (void)lConfiguration;
+- (NSArray *)set;
+- (long long)reviewActionView;
+- (UIView *)e:withElementCategory:elementKind:reuseIdentifier:indexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)tanceComparisonType;
+- (void)te:(long long)arg1;
+- (void)region:interfaceOrientation:forceState: /* Error: Ran out of types for this method. */;
+- (_Bool)tViewTransform;
+- (void)W,N,V_observedInputAssistantItem;
+- (void)missActionView;
+- (void)letteOverridesPinningBar: /* Error: Ran out of types for this method. */;
+- (double)rm;
+- (void)nerDelegate>",N,W,Vdelegate;
+- (void)´~;
+- (_Bool)º;
+- (UISearchController *)@ÔÔ;
+- (void)8´Ð´\¶ä¶¸@ºÔºl¼½¨¾,À;
+- (double);
+- (void)in the old navigation item's documentProperties to become nil.;
+- (void)now we have %@;
+- (void)s without a transitionContext and a search bar;
+- (void);
+- (UIViewController *)|wþ;
+- (void)Ñîÿ;
+- (void)t environment received from the compositional layout's section provider as is.;
+- (_Bool)@?0;
+- (void)oteCommand, CFDictionaryRef);
+- (void)cation windows are expected to have a root view controller at the end of application launch;
+- (_UITabContainerView *)nWillBeginSuspendAnimationNotification;
+- (void)vityIndicatorView.m;
+- (unsigned long long)9awAAAABJRU5ErkJggg==;
+- (void)ntFontContextEndpointCodingKey;
+- (double)PersistentIdentifier(NSDictionary * _Nullable __strong, NSString *__strong);
+- (id)nager _deleteSceneSessionsWithPersistentIdentifiers:(UISplitViewController *)arg1 ];
+- (void)main;
+- (void)eOrientation;
+- (void)ompletion.wordLength;
+- (struct UIEdgeInsets)0@"_UIBarCustomizationItemReservoirView"8@"UITraitCollection"16;
+- (void)lInNotificationInfo:(_Bool)arg1 (hosting item);
+- (double)eToInterfaceOrientation:update _rotationInfo /* Error: Ran out of types for this method. */;
+- (void)s(void);
+- (void)%@, middleLocations = %@;
+- (long long)idateCellGroupHeaderLight;
+- (void)stract;
+- (NSString *)documentIdentifier;
+- (void)rentFocusItem;
+- (id <UIActivityItemsConfigurationReading>)mentDebugViewLineElement"8Q16^B24;
+- (long long)ale=(%@);
+- (void)mber argument (%@) for built-in trait;
+- (void)Capacity;
+- (_Bool)eneDestructionCondition"8^B16;
+- (long long)ets initialized with _dynamicAssetNamed:generator must provide a block /* Error: Ran out of types for this method. */;
+- (_Bool)on:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)UITEM_WINDOW_ALL_TO_FRONT;
+- (void)_block_invoke_2;
+- (double)e;
+- (void)itializer is unavailable. Please use init(title:(UINavigationController *)arg1 image:identifier:discoverabilityTitle:attributes:alternate:_:) /* Error: Ran out of types for this method. */;
+- (void)LaunchStoryboards;
+- (UIBlurEffect *)otSupported;
+- (void)electName;
+- (_Bool)ion;
+- (struct CGSize)iple gravity behavior per animator is undefined and may assert in the future;
+- (void)ontainerClass(void)_block_invoke;
+- (long long)nDidChangeNotification;
+- (_Bool)session.role != %@;
+- (double)ied to present a nested modal view controller while curled %@.;
+- (_Bool)om view %@;
+- (_Bool)4@?0@"UIPreviewMenuItem"8@"UIViewController"16;
+- (void)Replace all occurrences.;
+- (NSArray *)saving function. %s
+;
+- (NSArray *)oRemakerQuality;
+- (_Bool)legate method -prepareForPopoverPresentation.;
+- (void)t supported by flow layout. Delegate:(UIPopoverController *)arg1 %@; collection view:(_Bool)arg2 %@;
+- (NSArray *)%@ globalIndex:%ld numItems:%ld /* Error: Ran out of types for this method. */;
+- (_Bool)ionViewCell"8@"UIKey"16;
+- (unsigned long long)Q16@"NSString"24;
+- (_Bool), ensure that a single view is dequeued and returned to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)loadKeyMissingKeyboardSceneId;
+- (void)move != nil;
+- (void)tingDelegate:(long long)arg1 forSetDelegate:force:delayEndInputSession:]_block_invoke_3 /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)Element>::addContainer(shared_ptr<_UIRTreeContainerNode<T>>, shared_ptr<_UIRTreeContainerNode<T>>) [T = _UICollectionViewRTreeElement] /* Error: Ran out of types for this method. */;
+- (void)aren't ordered by character position;
+- (UIBarButtonItem *)%@. Lost track of delivery when calculating source range. %@;
+- (NSArray *)ardAppearance;
+- (_Bool)ot listed as a possible system item;
+- (void)@"UIBarButtonItemGroup"8Q16^B24;
+- (long long)ctStyleSystemMaterialLight;
+- (_Bool)inputQuality;
+- (UIViewController *)n = %f;
+- (_Bool)tatusDidChangeNotification;
+- (float)_hidingUnderneathDescendant;
+- (void)eLargeTitlesOn;
+- (void)creen rather than the one assosiated with input animatable properties. Transformers don't support simultaneous animations on multiple screens. It is likely that the UIViewFloatAnimatableProperty is not associated with a view, which it needs to animate on displays different from the main one.;
+- (UISplitViewController *)þhþÿ.òýÿ,òýÿÂZþÿÂZþÿhÿÿìhþÿ$ÿÿN%ÿÿÚhþÿJ%ÿÿ;
+- (void)°òþÿ;
+- (NSArray *);
+- (void)}þÿ;
+- (double)quidMorphPresentationAnimationCSgXw;
+- (_Bool)errideAssertionCGSg;
+- (double)27UIFocusAnimationCoordinatorCSg;
+- (void)Xwz_Xx;
+- (long long)AByABy5«;
+- (void)¸;
+- (_Bool)³«;
+- (id <UIFocusEnvironment>)owSceneReplacePlacementCG;
+- (double)uCG;
+- (_Bool)72â¾7yAB_GG;
+- (UIViewController *)ð¸þ;
+- (double)ColorC_GG;
+- (UIViewController *);
+- (void)&@R¸ëR@®Gázô:(UINavigationController *)arg1 @VVVVVVæ?ÒÑÑÑÑÑá?Ò?Ò?Õ?è?ë?ë?Ì?¼?à?À?í?É?ìQ¸ëÑ?
+×£p=
+×? ï?Âõ(\â?¹ëQ¸Î?Ý?Ý?¹ëQ¸¾?¿¾¾¾¾¾î?ï?Ú?Á?]]]]]]Ý?ëQ¸Û?Âõ(\ê?[[[[[[Û?666666æ?´³³³³³ã?ÍÌÌÌÌÌÜ?ffffffÖ?333333ã?ffffffæ?¶óý<ªñÒ=
+×#<;
+- (_Bool)2SZKç?çþêqßêá?ªN-BÙ@%Ì´ÝGÀ«ëPMIVê?;
+- (void)ÛI@ÿÿÿÿÿÿïÿ;
+- (UIViewController *){®Gázt? ;
+- (double)ázä?;
+- (_Bool)acingStyle;
+- (void)edUntransformedFrame;
+- (UIDimmingView *)obView;
+- (double)KÆ;
+- (struct CGRect)À;
+- (_Bool)é0;
+- (struct CGSize)3È¦;
+- (void)essoryProviding;
+- (struct CGSize)rializeAnimation;
+- (void);
+- (UIResponder *)ÌÝR0943´;
+- (void);
+- (long long)­d43øÙsþ½d43lÛsþ½d43Úsþ½d43°ÚsþÝd43$Úsþ}d43Ûsþd43xÛsþ]d43ìÙsþ­d43@Úsþ=d43<Úsþ=d43,Úsþd43|Úsþ½d43DÛsþd43tÚsþ;
+- (_Bool)QuartzCore;
+- (void)w;
+- (void)ionalEdgeInsets;
+- (UITraitCollection *)0h[;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalSidebarSafeAreaInsets:) struct UIEdgeInsets _additionalSidebarSafeAreaInsets;

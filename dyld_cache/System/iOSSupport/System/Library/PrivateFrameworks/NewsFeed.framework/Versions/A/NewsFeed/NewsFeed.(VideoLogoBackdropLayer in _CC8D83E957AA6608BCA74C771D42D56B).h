@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)Ô§bÿ;
+- (id);
+- (void)=æ;
 
 @end
 

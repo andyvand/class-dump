@@ -12,10 +12,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)	
+;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP10WorkflowUI48SmartShortcutPickerViewControllerManagerDelegate_> delegate; // @synthesize delegate;

@@ -7,8 +7,7 @@
 @protocol _UIIVCResponseDelegate;
 
 @protocol _UIIVCInterface
-- (void)gedStatusReason;
-- (id <_UIIVCResponseDelegate>)table: /* Error: Ran out of types for this method. */;
+- (void)r;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIIVCResponseDelegate> responseDelegate;

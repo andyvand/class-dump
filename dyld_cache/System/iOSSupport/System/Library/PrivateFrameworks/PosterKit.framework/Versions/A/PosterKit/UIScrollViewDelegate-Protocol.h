@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)V_color3;
-- (void)te;
+- (void)_gradientView;
 @end
 

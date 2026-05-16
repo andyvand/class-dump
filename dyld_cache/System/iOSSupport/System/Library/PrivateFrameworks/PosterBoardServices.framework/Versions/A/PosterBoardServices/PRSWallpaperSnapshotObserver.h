@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (void);
 - (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

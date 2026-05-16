@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (CDUnknownBlockType);
 - (void);
+- (CDUnknownBlockType);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType handlerBlock; // @synthesize handlerBlock=_handlerBlock;

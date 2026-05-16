@@ -8,6 +8,5 @@
 
 @optional
 - (void);
-- (void)P;
 @end
 

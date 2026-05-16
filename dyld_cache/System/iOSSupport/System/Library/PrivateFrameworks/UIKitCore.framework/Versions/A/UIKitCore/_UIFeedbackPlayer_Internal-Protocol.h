@@ -5,6 +5,6 @@
 //
 
 @protocol _UIFeedbackPlayer_Internal
-- (_Bool)unt;
+- (_Bool)tsMessage;
 @end
 

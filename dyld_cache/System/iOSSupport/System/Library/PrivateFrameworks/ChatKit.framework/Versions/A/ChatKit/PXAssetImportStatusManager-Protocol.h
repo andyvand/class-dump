@@ -5,8 +5,5 @@
 //
 
 @protocol PXAssetImportStatusManager
-- (void)nimatableTokenCharacterSet;
-- (long long);
-- (void)s;
 @end
 

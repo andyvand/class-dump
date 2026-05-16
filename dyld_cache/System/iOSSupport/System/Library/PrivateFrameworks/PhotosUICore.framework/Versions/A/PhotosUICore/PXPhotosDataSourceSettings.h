@@ -13,15 +13,15 @@
     double _delayChanges;
 }
 
-+ (id)ó9;
++ (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (double);
+- (id);
 - (void);
-- (id):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double delayChanges; // @synthesize delayChanges=_delayChanges;

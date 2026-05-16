@@ -26,14 +26,14 @@
 - (struct PXSimpleIndexPath);
 - (unsigned long long);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXSectionedDataSource *dataSource; // @synthesize dataSource=_dataSource;

@@ -13,21 +13,21 @@
     double _travelTime;
 }
 
-+ (_Bool)ng visit curation, processing %{public}lu LOIs;
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (void)essWithNWLink:(double)arg1 wantsWiFi:wantsCellular: /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
-- (id)manGroup;
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) RTMapItem *destinationMapItem; // @synthesize destinationMapItem=_destinationMapItem;

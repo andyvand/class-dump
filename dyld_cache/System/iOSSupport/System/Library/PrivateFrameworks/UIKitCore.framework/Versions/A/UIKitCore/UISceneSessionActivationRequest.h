@@ -16,29 +16,31 @@
     UISceneActivationRequestOptions *_options;
 }
 
-+ (id)ply not supported becuase local device does not have a SIM matching the last addressed SIM ID;
-+ (id)is not an iPhone;
 + (id);
-+ (id)Íùn;
++ (id);
++ (id);
++ (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)!¸@ùÑÀ°1¢!0@ù
+- (id)1Â0@ù
 × ;
+- (id)a
+°!\Bùñf1Â0@ù
+× ;
+- (id)nt=dd}16i32d36;
+- (id)R,N,V_timeFormat;
+- (id)",&,N,V_fillLayer;
+- (id)Z[H\°\;
+- (id)_Xx;
 - (id);
-- (id)extSystem;
+- (void);
 - (id);
-- (id)D,N;
-- (id);
-- (id)eived a resign active event with reason %d, which is not supported;
-- (id)èÒnÈ];
-- (id)è½ÿ¹YØ@h;
-- (id)¥îh;
-- (id)½j;
-- (id)0éþy};
 
 // Remaining properties
 @property(readonly, nonatomic) UISceneConfiguration *_configuration; // @synthesize _configuration;

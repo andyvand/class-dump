@@ -11,10 +11,10 @@
     MISSING_TYPE *continuation;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)temperatureSensor;
 
 @end
 

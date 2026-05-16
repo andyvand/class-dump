@@ -17,15 +17,15 @@
 
 - (void);
 - (void);
-- (id)SString"32@"NSString"40q48@"NSError"56B64;
-- (_Bool)ontexts;
-- (_Bool)MessagesExpected:(CDUnknownBlockType)arg1;
-- (_Bool)ithInput: /* Error: Ran out of types for this method. */;
-- (long long)tionsDontAllowSync: /* Error: Ran out of types for this method. */;
-- (_Bool)andles;
 - (id);
-- (void);
-- (void)`Ù¹;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (id);
+- (void);
+- (void)ô</ÿSfË°^;
 
 // Remaining properties
 @property(nonatomic) long long appleDoubleIdentificationType; // @synthesize appleDoubleIdentificationType=_appleDoubleIdentificationType;

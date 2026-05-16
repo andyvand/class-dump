@@ -22,18 +22,18 @@
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
-- (id)P;
-- (id)a;
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (double);
 - (struct CGImage *);
 - (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasColorAdjustments;

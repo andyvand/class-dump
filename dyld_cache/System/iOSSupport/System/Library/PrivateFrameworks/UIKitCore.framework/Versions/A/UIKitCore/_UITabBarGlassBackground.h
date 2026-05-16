@@ -13,11 +13,11 @@
 }
 
 - (_Bool);
+- (id);
 - (void);
 - (id);
-- (id)ingElements;
-- (void)LÌØBm;
-- (id);
+- (id)Ðßr;
+- (void)p;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _useAdaptiveGlass;

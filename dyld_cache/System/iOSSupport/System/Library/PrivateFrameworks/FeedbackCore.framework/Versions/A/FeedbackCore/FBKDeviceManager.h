@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (id)s_fba_plugin;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -76,13 +76,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)ìFù±=1B50@ù
+× ;
+- (void)ddAttachmentWithItemProvider: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)ü;
 
 // Remaining properties
 @property(retain) NSArray *_notConfiguredDevicesCache; // @synthesize _notConfiguredDevicesCache=__notConfiguredDevicesCache;

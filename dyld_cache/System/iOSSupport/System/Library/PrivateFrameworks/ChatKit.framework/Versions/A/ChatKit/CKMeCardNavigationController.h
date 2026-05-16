@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)mpletionHandler: /* Error: Ran out of types for this method. */;
-- (void)a}.;
+- (_Bool);
+- (void)d not look up asset reference for tapback on chat item:(_Bool)arg1 %@;
 
 @end
 

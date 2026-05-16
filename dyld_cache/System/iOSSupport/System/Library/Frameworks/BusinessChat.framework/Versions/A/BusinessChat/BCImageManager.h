@@ -12,14 +12,14 @@
     id <BCNetworkProviderProtocol> _networkProvider;
 }
 
-- (id);
+- (id);
+- (void);
+- (void);
+- (id)Ï;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,17 +18,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)%;
+- (_Bool);
 - (void);
 - (id);
-- (double)qK;
+- (double);
 - (double);
 - (id);
 - (id);
-- (void);
-- (double);
 - (id);
-- (id)ssIdentity";
+- (id);
+- (double);
+- (void)%@, coarseEstimatedEndDate, %@, sessionID, %@, error, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

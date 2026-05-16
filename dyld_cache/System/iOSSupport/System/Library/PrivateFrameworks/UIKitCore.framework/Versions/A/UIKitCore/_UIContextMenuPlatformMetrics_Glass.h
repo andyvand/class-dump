@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ImageViewUpdate;
+- (id);
 
 @end
 

@@ -8,9 +8,7 @@
 @protocol PXPlacesGeotaggedItemDataSourceDelegate;
 
 @protocol PXPlacesGeotaggedItemDataSource
-- (long long);
-- (void);
-- (NSSet *)veMemoryGenericPersistenceRequestRecoverySuggestion;
+- (long long)ns;
 
 // Remaining properties
 @property(readonly) NSSet *allItems;

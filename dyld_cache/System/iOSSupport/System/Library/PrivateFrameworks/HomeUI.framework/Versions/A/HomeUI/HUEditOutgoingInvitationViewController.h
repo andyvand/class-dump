@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)lu;
+- (void)Value:] /* Error: Ran out of types for this method. */;
+- (id)CyAR_ATtGG_AUtGG_G;
 
 // Remaining properties
 @property(readonly, nonatomic) HUEditOutgoingInvitationItemManager *editOutgoingInvitationItemManager; // @synthesize editOutgoingInvitationItemManager=_editOutgoingInvitationItemManager;

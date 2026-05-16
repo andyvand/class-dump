@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     struct CGRect _rect;
 }
 
-+ (id)bility message %s. Message cannot be dropped.;
-- (_Bool)tReplacementState;
-- (_Bool)thCompletion: /* Error: Ran out of types for this method. */;
++ (id);
+- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
-- (struct CGRect)oÿaR;
+- (struct CGRect)ureMode: /* Error: Ran out of types for this method. */;
 
 @end
 

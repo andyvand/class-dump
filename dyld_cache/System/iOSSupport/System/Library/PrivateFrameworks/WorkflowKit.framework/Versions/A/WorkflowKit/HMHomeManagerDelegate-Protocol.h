@@ -5,5 +5,8 @@
 //
 
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void)24@32@?40;
 @end
 

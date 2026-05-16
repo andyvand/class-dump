@@ -5,9 +5,9 @@
 //
 
 @protocol _UIVisualEffectDiffable
-- (id)e:preferredHorizontalAlignment:showsArrow:isRTL: /* Error: Ran out of types for this method. */;
-- (_Bool)apWithRect:(id)arg1 cornerRadii: /* Error: Ran out of types for this method. */;
-- (id)Offset;
-- (_Bool)eColorMatrixFillColor;
+- (id)!ð!FùQaÐ1Â0@ù
+× ;
+- (_Bool)nerView;
+- (id)lledHideDelay;
 @end
 

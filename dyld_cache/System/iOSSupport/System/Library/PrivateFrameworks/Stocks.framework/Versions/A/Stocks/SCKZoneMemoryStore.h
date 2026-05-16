@@ -15,21 +15,21 @@
     NSArray *_pendingCommands;
 }
 
-- (void);
-- (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
-- (void)tons;
 - (void);
 - (void);
 - (void);
-- (id)@32@?40;
-- (id)iewContentInsets;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)ema;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;

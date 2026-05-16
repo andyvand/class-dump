@@ -14,7 +14,7 @@
     double _maximumWhitespaceHeightForInitialZoomToFill;
 }
 
-+ (id)#9;
++ (id)@5$ÿ;
 - (double);
 - (_Bool);
 - (void);
@@ -25,8 +25,8 @@
 - (double);
 - (double);
 - (_Bool);
+- (id);
 - (void);
-- (id)rary;
 
 // Remaining properties
 @property(nonatomic) _Bool hideFloatingInfoPanel; // @synthesize hideFloatingInfoPanel=_hideFloatingInfoPanel;

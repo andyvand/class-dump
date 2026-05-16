@@ -16,20 +16,20 @@
 
 + (id);
 - (id);
-- (double)hment metric-ing %@;
-- (id)uarantineTypeInstantMessageAttachment;
 - (double);
-- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
 - (id)0@ù
 × ;
-- (id)dClickUp:(id)arg1;
-- (id)me;
-- (id)reRecognizer;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)eparatorItem;
+- (id)?<v@?B@"RVItem">32;
+- (id)abel",&,N,V_accessoryLabel;
 - (id);
-- (unsigned long long)ø:ÿÏc.g /* Error: Ran out of types for this method. */;
-- (id)ºq;
+- (void)°d;
 
 // Remaining properties
 @property(readonly, nonatomic) double _normalizedForceVelocity; // @synthesize _normalizedForceVelocity;

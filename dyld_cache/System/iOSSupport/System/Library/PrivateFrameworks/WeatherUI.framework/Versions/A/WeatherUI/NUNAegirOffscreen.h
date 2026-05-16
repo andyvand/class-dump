@@ -21,12 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (int);
-- (void);
 - (int);
+- (void);
+- (void);
+- (void)ôÿÿÿüÿÕÿÈ;
 
 // Remaining properties
 @property(nonatomic) int height; // @synthesize height=_height;

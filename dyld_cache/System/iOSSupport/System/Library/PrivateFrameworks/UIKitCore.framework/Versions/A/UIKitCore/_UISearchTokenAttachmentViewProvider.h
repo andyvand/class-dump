@@ -14,11 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (struct CGRect)DCù±Áð1¢!0@ù
-× ;
-- (struct CGRect)ity:(id)arg1;
+- (struct CGRect);
+- (struct CGRect);
+- (void)tLevel;
+- (void);
 
 @end
 

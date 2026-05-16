@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)eSize;
 - (void);
+- (void)qfð1Â0@ù
+× ;
 
 @end
 

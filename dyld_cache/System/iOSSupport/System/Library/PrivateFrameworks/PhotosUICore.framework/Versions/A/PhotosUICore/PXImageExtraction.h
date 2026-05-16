@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (_Bool);
-- (void)XPhotosGridTogglePortraitFilterActionPerformer.m;
+- (void);
+- (_Bool)osUiIntent;
 
 // Remaining properties
 @property(getter=isCancelled, setter=_setCancelled:) _Bool cancelled; // @synthesize cancelled=_cancelled;

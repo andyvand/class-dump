@@ -11,38 +11,38 @@
     long long _inflightBoltAnimationCount;
 }
 
-+ (id)fers:(struct CGSize)arg1 offsets:(double)arg2 attributeStrides:(struct CGRect)arg3 withRange:(double)arg4;
-+ (id)tor:(id)arg1 dynamicLinkingDescriptor:(struct CGRect)arg2 compilerTaskOptions:(_Bool)arg3 error:(id)arg4;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)ÔÁpÐ!PGù±Ã°1¢!0@ù
++ (id)´Aù1Z°1Â0@ù
 × ;
-+ (id)1¢!0@ù
++ (id)dFùqdÐ1Â0@ù
 × ;
-+ (id)ty:(struct CGSize)arg1 animateChange:(struct CGSize)arg2 dismissible:(double)arg3;
-+ (id)xpected an NSToolbarItem;
++ (id)1Â0@ù
+× ;
++ (id)_animationDurationDown;
++ (id)undsAnimation;
++ (id)%@;
++ (id)lar;
++ (id)@h;
+- (void);
 - (void);
 - (struct CGRect);
+- (void);
+- (struct CGSize);
+- (struct CGRect);
+- (double);
 - (double);
 - (void);
-- (struct CGRect)ryModifyLibraryCommmand();
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize)arÐ!ð@ùÑÅ°1¢!0@ù
+- (double)ÌGùq\°1Â0@ù
 × ;
-- (void)Aw°!XAùQÌ1¢!0@ù
-× ;
-- (double)ent: /* Error: Ran out of types for this method. */;
-- (double)UsingSpecificStyling;
-- (_Bool)raction;
-- (void)pplicator;
-- (void)%@, passed to %@. Expected %@ or %@. This is an internal UISplitViewController problem.;
-- (void)@;
+- (void)UniformAcrossSiblings;
+- (void)_setSmallestUndimmedDetentIdentifierWhenEdgeAttachedInCompactHeight:(_Bool)arg1;
+- (void)",W,N;
+- (_Bool)gacy alert presentation:%@ /* Error: Ran out of types for this method. */;
+- (void)ñþÿ;
+- (void)lectionDidTranslateForReachability;
+- (void);
 
 @end
 

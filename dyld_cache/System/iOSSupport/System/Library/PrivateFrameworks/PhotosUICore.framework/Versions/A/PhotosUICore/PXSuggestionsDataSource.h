@@ -14,11 +14,12 @@
 - (id);
 - (long long);
 - (id);
-- (void)HþLoü¸<;
 - (id);
+- (long long)
+× ;
+- (id)error:%@ /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long)cesPlaceholderImage-%@-%@;
-- (id);
+- (void)urrent represented item ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplaySuggestionFetchResult> suggestions; // @synthesize suggestions=_suggestions;

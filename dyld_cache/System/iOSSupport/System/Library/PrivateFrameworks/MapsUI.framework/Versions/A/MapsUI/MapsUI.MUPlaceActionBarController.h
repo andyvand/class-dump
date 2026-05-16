@@ -17,10 +17,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)lineItemViewController:openURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC6MapsUI23MUPlaceActionDispatcher *actionDispatcher; // @synthesize actionDispatcher;

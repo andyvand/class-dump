@@ -27,8 +27,8 @@
 - (_Bool);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void)verrideRequest;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allowedColumnsOverride;

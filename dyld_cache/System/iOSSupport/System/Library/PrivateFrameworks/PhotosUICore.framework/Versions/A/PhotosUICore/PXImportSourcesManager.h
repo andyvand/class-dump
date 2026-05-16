@@ -13,7 +13,9 @@
     PHImportController *_importController;
 }
 
-+ (id);
++ (id)aû!ÀAùqHð1â
+0@ù
+× ;
 - (void);
 - (void);
 - (id);
@@ -31,8 +33,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

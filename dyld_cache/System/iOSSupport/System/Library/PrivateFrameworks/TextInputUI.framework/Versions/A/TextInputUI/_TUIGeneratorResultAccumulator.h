@@ -28,13 +28,15 @@
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id)mParentViewController;
+- (_Bool)1â
+0@ù
+× ;
+- (id)"TIKeyboardConfiguration">28;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType accumulatorCompletedBlock; // @synthesize accumulatorCompletedBlock=_accumulatorCompletedBlock;

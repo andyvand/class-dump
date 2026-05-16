@@ -5,6 +5,5 @@
 //
 
 @protocol _UILayoutBaselineUpdating
-- (void)K;
 @end
 

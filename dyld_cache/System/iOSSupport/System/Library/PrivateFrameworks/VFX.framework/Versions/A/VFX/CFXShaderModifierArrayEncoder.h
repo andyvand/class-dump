@@ -12,12 +12,12 @@
 }
 
 + (id);
-+ (_Bool)ä#;
++ (_Bool)}24;
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)V_succeded;
 
 @end
 

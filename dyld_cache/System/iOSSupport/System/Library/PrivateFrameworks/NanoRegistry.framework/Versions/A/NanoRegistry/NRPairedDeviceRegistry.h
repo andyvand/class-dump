@@ -21,12 +21,12 @@
     unsigned long long _callCount;
 }
 
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (Class);
 + (_Bool);
 + (CDUnknownBlockType);
-+ (id): /* Error: Ran out of types for this method. */;
++ (Class);
++ (CDUnknownBlockType);
++ (CDUnknownBlockType);
++ (id);
 - (void);
 - (void);
 - (_Bool);
@@ -131,27 +131,27 @@
 - (_Bool);
 - (_Bool);
 - (unsigned short);
+- (void);
+- (unsigned int);
+- (id);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
+- (long long);
 - (id);
 - (long long);
 - (void);
-- (id);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (_Bool);
-- (long long);
-- (id);
-- (unsigned int)Index;
+- (_Bool)ff type property;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long status;

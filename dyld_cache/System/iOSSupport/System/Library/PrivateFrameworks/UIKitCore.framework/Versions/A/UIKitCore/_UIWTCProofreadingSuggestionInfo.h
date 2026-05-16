@@ -21,22 +21,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id), '%@', '%@', '%@' not exists in sealing map entry;
-- (void)lX;
-- (void)-%@;
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)V1NoQOI;
+- (id);
 - (struct _NSRange);
 - (long long);
-- (void);
-- (long long)RightIndexFinger;
-- (id)_fromLayout;
-- (id),V_requiresHeightForIntegratedAssistantBar;
-- (id)ostComponent;
-- (id)1;
+- (id);
+- (id);
+- (long long)1Â0@ù
+× ;
+- (id)URLOptions;
+- (id)5UIKit19_UILatencyLightView;
+- (void)ðÀþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;

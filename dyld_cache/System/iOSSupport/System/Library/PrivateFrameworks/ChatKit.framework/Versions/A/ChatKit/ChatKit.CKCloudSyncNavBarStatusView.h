@@ -16,16 +16,16 @@
 }
 
 - (void);
-- (void)ount;
-- (void)wingResult;
-- (void)edRanges:inTextStorage: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
 - (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)upport.swift;
+- (void)ations (> max allowed (%ld)). Used increment %f to generate %ld durations.;
 
 // Remaining properties
 @property(nonatomic) _Bool progressViewHidden;

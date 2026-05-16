@@ -94,18 +94,19 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (double);
-- (id)@ù
+- (void);
+- (void);
+- (void)1â
+0@ù
 × ;
-- (void)Ô ;
-- (void)lViewToObserve;
+- (void);
+- (void)ectMotionManagerObserver;
 
 // Remaining properties
 @property(retain, nonatomic) VKCImageAnalysis *analysis; // @synthesize analysis=_analysis;

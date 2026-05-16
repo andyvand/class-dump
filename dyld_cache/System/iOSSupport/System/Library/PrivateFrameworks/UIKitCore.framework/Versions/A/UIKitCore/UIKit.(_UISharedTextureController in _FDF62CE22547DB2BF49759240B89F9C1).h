@@ -13,9 +13,8 @@
 }
 
 - (void);
-- (void)!DùÄð1¢!0@ù
-× ;
-- (id)Fail:proposedName: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)sËwl;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (id)nkLists.;
+- (id);
 
 @end
 

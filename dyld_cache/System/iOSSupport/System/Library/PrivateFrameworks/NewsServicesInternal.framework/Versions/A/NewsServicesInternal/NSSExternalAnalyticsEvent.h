@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)ansform.scale;
 - (id);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

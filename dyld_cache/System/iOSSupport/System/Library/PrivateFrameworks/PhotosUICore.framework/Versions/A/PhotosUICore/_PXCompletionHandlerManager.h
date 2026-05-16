@@ -15,11 +15,11 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
+- (void)de all processing UI;
 
 // Remaining properties
 @property(nonatomic) __weak id <_PXCompletionHandlerManagerDelegate> delegate; // @synthesize delegate=_delegate;

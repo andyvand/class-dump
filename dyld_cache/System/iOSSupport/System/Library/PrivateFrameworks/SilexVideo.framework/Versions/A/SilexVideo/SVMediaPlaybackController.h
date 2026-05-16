@@ -17,9 +17,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak AVPlayer *currentlyPlaying; // @synthesize currentlyPlaying=_currentlyPlaying;

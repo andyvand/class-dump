@@ -52,10 +52,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *attachmentNamesByItemUUID; // @synthesize attachmentNamesByItemUUID=_attachmentNamesByItemUUID;

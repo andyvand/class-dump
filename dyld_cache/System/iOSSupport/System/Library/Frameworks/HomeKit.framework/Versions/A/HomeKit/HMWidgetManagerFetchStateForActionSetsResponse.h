@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)llectionSetting;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *didExecutionFailByActionSetUniqueIdentifier; // @synthesize didExecutionFailByActionSetUniqueIdentifier=_didExecutionFailByActionSetUniqueIdentifier;

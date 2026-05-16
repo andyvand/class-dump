@@ -19,16 +19,16 @@
 
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)ion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, retain) _TtC6MapsUI23MUEVChargerAvailability *availability; // @synthesize availability;

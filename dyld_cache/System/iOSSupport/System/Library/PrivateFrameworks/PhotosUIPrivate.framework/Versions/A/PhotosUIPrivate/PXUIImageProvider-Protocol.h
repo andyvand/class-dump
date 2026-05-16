@@ -5,5 +5,8 @@
 //
 
 @protocol PXUIImageProvider
+
+@optional
+- (void)n: /* Error: Ran out of types for this method. */;
 @end
 

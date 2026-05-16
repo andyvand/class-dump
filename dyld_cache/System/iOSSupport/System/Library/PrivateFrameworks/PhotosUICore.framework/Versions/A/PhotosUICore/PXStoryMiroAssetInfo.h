@@ -16,10 +16,10 @@
 + (id);
 - (_Bool);
 - (void);
-- (void)Dù±zÐ1b0@ù
+- (id);
+- (id)
 × ;
-- (id)iewUIInteraction"16@"PXAssetReference"24;
-- (id)8;
+- (void)ÄH;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *dataRepresentation; // @synthesize dataRepresentation=_dataRepresentation;

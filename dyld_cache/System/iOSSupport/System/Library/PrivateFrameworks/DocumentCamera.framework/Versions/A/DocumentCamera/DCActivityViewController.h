@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) ICDocCamDocumentInfoCollection *documentInfoCollection; // @synthesize documentInfoCollection=_documentInfoCollection;

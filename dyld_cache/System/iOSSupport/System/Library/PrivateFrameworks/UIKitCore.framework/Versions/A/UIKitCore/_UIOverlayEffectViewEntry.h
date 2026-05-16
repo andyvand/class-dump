@@ -17,26 +17,24 @@ __attribute__((visibility("hidden")))
     double _alpha;
 }
 
-+ (id)@ù
-× ;
-+ (id){public}@ on display:(id)arg1 %{public}@;
++ (id);
++ (id);
 - (void);
 - (void);
-- (void)T;
-- (id)hb;
-- (double);
+- (id);
 - (void);
-- (id);
-- (void)1¢!0@ù
+- (void);
+- (id);
+- (id)0@ù
 × ;
-- (id)axð!TDùÑÍð1¢!0@ù
-× ;
-- (_Bool)ingItemGroups:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)tion:(id)arg1;
-- (id)rdingEnabled;
-- (void)bilityConfiguration;
-- (void)}þÿ;
-- (void)stemDarkBlueColor;
+- (void)d"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
+- (void)pty:(id)arg1;
+- (void)arginForDoneButton;
+- (id)t;
+- (_Bool)`Õ;
+- (void)Appearance;
+- (double)rete subclasses.;
+- (void)iding;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

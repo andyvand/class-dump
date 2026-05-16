@@ -15,17 +15,17 @@
     MISSING_TYPE *observers;
 }
 
-+ (id)WithDestinationID: /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (long long)3;
+- (void);
+- (void);
+- (long long)Àøÿñ8à¼Àøÿ	9à¼ÿþÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long current;

@@ -7,13 +7,12 @@
 @class NSArray, VFXPhysicsShape;
 
 @protocol VFXPhysicsBodyJSExport
-- (long long)_NodeProtocolP;
-- (NSArray *)FX14AttributeArrayP;
-- (void);
-- (float)1¼Óx;
-- (void)Ðÿÿÿ;
-- (void)ðH;
-- (id)|H?¢ñ\?Í?;
+- (void)elTransform;
+- (void)Ð©]O\;
+- (id);
+- (float)¸?ûtì¾e5ï?Ø.Í>p«?ë¾U£Ý?¬TÐ>-¯ ?«°é¾`Î?ÜÓ>_?n4è¾Ý]Á?»Ñ×>M¼?¶æ¾ÝÍµ?.Ü>@?5)å¾Lá«?âá>¦¹?Ö¬ã¾þ¢?bHæ>~?Ç)â¾R?bùë>¬w?ö³à¾g?Pò>Ðòp?Iß¾Ë?¯°ø>h=l?÷ÍÝ¾;n?ÄÏÿ>Þh?:Ü¾9&?¼Í?ä¾e?h$Ú¾B#|?YL?äc? /* Error: Ran out of types for this method. */;
+- (_Bool)E?AÓ¾ôB>Ø)z??¶¿ó½ãà2>åz?w÷?Æá½9µ#>${?¥?È^Ï½Õ>[@|?ü|?â?½½>äÚ|?¢y?Ìª½óñ=j}?u?>y½E¼Õ=í}?WCr?§v½Fx»=È_~?jo?çh½{¤¡=~Å~?ÓÚl?->E½[=ë?j?±"½â±_=e?L¨h?C;
+- (void)ÄÚHó';
 
 // Remaining properties
 @property(nonatomic, getter=isAffectedByGravity) _Bool affectedByGravity;

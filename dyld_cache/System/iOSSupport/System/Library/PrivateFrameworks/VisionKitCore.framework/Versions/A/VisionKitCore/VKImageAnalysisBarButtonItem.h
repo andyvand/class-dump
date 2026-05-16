@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-- (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;

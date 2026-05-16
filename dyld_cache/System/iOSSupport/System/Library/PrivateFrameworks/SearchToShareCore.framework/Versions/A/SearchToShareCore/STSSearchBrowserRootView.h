@@ -16,14 +16,14 @@
 
 - (void);
 - (double);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id);
+- (void)ion:(id)arg1;
+- (id)CreateTask: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

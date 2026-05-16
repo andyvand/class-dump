@@ -16,17 +16,18 @@
 - (void);
 - (id);
 - (void);
-- (void)9;
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (CDStruct_73b5d383);
-- (void);
-- (void);
-- (void);
+- (CDStruct_73b5d383)1Â0@ù
+× ;
+- (void)at use UITextInteraction.;
+- (void)tion;
+- (void)Eþ[);
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=mIndex;

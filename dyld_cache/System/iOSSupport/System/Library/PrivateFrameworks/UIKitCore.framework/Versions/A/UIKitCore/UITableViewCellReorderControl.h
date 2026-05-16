@@ -20,24 +20,25 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)teChatBotAttachmentSyncToken;
-- (id)perties;
-- (void);
-- (void);
 - (id);
-- (void)ransport protocol to be HTTP, not %s;
+- (id);
 - (void);
-- (_Bool);
+- (struct CGSize);
 - (void);
-- (void);
-- (_Bool)er:(id)arg1 textRanges:(id)arg2 animationName: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)8Ô;
-- (void);
-- (void)~üÿ4ýÿ>ñüÿ;
-- (struct CGSize)}ÐØÈ^;
-- (void)¼¼ôþ£â;
-- (_Bool)d;
+- (_Bool)etForEnvironmentScrollableContainer:toShowFocusItem:targetOffset: /* Error: Ran out of types for this method. */;
+- (void)&,N,V_druidConnection;
+- (void)ômLn;
+- (id){¬;
+- (void)4;
+- (_Bool)nal;
+- (void)ðÁa;
+- (void)qp;
+- (_Bool)<86ÿ
+ÍÔig;
+- (void)g;
+- (void)¤ÿ;
+- (void)¼ÿä¥Û¤ºh;
+- (id)ØÛ¸ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;

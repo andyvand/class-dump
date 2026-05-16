@@ -5,10 +5,5 @@
 //
 
 @protocol CKMessageEditingBalloonViewDelegate
-- (void)"<ICItemIdentifier>",&,N,V_overrideContainerIdentifier;
-- (void)MergeControlling>",W,N;
-- (void)lerDelegate;
-- (void)borationControllerDelegate>",W,N,V_collaborationControllerDelegate;
-- (void),W,N,V_attachmentDelegate;
 @end
 

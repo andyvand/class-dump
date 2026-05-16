@@ -19,9 +19,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)eController;
+- (void)rchViewNavigationItem;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

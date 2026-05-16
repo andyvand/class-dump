@@ -13,10 +13,10 @@
     struct __CFDateFormatter *mFullDateFormatter;
 }
 
-+ (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (unsigned long long);
 + (id);

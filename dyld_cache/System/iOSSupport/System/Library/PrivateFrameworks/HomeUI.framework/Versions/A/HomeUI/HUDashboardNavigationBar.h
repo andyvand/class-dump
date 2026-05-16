@@ -21,11 +21,9 @@
 - (_Bool);
 - (long long);
 - (void);
-- (void);
-- (id)1b0@ù
-× ;
-- (id)á&Ð!ø@ùñ0Ð1b0@ù
-× ;
+- (id);
+- (void)ObjectTableViewController _activateAccessoryForMobileTimerCreation];
+- (id)ä­³ÿÀ>;
 
 // Remaining properties
 @property(nonatomic) _Bool isBackgroundVisible; // @synthesize isBackgroundVisible=_isBackgroundVisible;

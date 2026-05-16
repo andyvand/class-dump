@@ -14,24 +14,24 @@
 }
 
 + (id);
-+ (id)@ô@AÔA`B´B@C4FlF;
-+ (_Bool)-8000-0026BB765291;
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id)tringForKey: /* Error: Ran out of types for this method. */;
-- (id)HIPAccessorySetupPayload;
+- (id);¸;<l<ü<d@;
+- (void)t bundle:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSUUID *identifier;

@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
     _Atomic long long _value;
 }
 
-- (long long);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long)ncy as .lazyDependency only or migrating to JSStack init(with:) to reduce the risk of bugs related to duplicate dependencies. /* Error: Ran out of types for this method. */;
+- (long long);
+- (long long);
 
 @end
 

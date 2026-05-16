@@ -12,12 +12,12 @@
     MISSING_TYPE *backgroundView;
 }
 
-- (void);
-- (id)r;
-- (void);
+- (struct CGSize);
 - (id);
 - (id);
-- (struct CGSize);
+- (void);
+- (id);
+- (void);
 
 @end
 

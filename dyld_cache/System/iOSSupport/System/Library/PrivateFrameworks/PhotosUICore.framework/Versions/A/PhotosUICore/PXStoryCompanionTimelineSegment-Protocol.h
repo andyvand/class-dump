@@ -8,7 +8,7 @@
 @protocol PXStoryCompanionTimelineSegmentTransition;
 
 @protocol PXStoryCompanionTimelineSegment
-- (NSArray *)lÍÀÎ\Ô;
+- (NSArray *)ngResult;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assets;

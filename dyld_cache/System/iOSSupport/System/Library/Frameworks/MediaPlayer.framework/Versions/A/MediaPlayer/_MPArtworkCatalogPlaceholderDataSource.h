@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (void)s;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

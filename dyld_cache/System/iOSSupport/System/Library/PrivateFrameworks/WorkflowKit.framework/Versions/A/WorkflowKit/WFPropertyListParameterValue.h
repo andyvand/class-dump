@@ -34,18 +34,20 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (long long);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long)ore data than saved authorization:%{private}@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id)Zãÿ£;
+- (id)1â
+0@ù
+× ;
+- (id)%{public}@;
+- (void)ger _eventsWithFilter:newestFirst:] /* Error: Ran out of types for this method. */;
+- (id)¼$Ôÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

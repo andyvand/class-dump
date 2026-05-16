@@ -8,11 +8,9 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
-- (unsigned long long);
-- (unsigned long long)ÞÑ;
-- (unsigned long long)!;
-- (unsigned long long)CoreUIP33_5C0FCAEC7E121FD01840555B36210BDC29MotionPlayerViewRepresentable11Coordinator;
-- (int)ÿÿÿ;
+- (unsigned long long);
+- (unsigned long long);
+- (id <MTLHeap>);
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

@@ -13,18 +13,18 @@
     NSNumber *_persistentIdentifier;
 }
 
-+ (_Bool)tutableState;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id)4s28;
+- (id);
+- (id);
+- (void)nLevel;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool entireMusicLibrary; // @synthesize entireMusicLibrary=_entireMusicLibrary;

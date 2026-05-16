@@ -26,7 +26,7 @@
 + (id);
 + (void);
 + (void);
-+ (_Bool)Ôè;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -39,15 +39,15 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)$È;
+- (void)tring"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *textureNames;

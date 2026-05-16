@@ -104,9 +104,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (int);
-- (int);
 - (void);
+- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -130,19 +130,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (void);
 - (id);
+- (void);
 - (_Bool);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (int);
 - (void);
@@ -150,14 +147,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (int)Types;
+- (_Bool)ntAttributionSet:contentDestination:actionUUID:actionIdentifier:actionIndex:reference:allowedOnceStates:error: /* Error: Ran out of types for this method. */;
+- (void)_pickerLocalizedIconForState:(_Bool)arg1;
+- (int)tionary;
+- (_Bool),;
+- (id)¾ÿÜ¾ÿ`
+¾ÿ ¾ÿ¾ÿx¾ÿx"¾ÿ°¾ÿ«¾ÿÌ®¾ÿèÉ¾ÿè¾ÿ(í¾ÿñ¾ÿàô¾ÿ0¿ÿ¬¿ÿ$¿ÿ¤ÆÿHÌ¿ÿHÒ¿ÿ¸Ô¿ÿt×¿ÿÚ¿ÿâ¿ÿ¬Àÿ$ÀÿToÿôÌÿX¾ÿøèÿ@oÿpRÂÿ@TÂÿûÿÐåÿ`EÿZÂÿÜ[ÂÿDÿôþÿxõþÿlùþÿ´ûþÿÐûþÿ0ÿÿTÿÿÄÿÿÿÿÀÿÿXÿÿt
+ÿÿxÿÿ4ÿÿxÿÿÄÿÿôÿÿ$ÿÿpÿÿ°ÿÿ;
+- (void));
+- (void)entItemClass;
+- (void)arameter Label);
+- (int);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (int)Oé;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

@@ -25,11 +25,11 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)PY;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)sationLinkCG;
 
 // Remaining properties
 @property(nonatomic) _Bool isMomentsAvailable; // @synthesize isMomentsAvailable;

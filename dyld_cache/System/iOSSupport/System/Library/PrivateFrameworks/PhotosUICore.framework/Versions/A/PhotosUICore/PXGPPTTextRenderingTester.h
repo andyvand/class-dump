@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PXGStringTextureProvider *stringTextureProvider; // @synthesize stringTextureProvider=_stringTextureProvider;

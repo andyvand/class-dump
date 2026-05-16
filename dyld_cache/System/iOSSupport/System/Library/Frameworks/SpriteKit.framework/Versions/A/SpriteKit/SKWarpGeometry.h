@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool)¬;
++ (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

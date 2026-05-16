@@ -13,9 +13,9 @@
     NSArray *_vehicleEvents;
 }
 
-- (id);
 - (id);
-- (void);
+- (id);
+- (void)ublic}.3lf,tripsToFormLearnedRouteAvg,%{public}.3lf,waypointCountAvg,%{public}.3lf,clusterProcessingRunTimeAvg,%{public}.3lf;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *vehicleEvents; // @synthesize vehicleEvents=_vehicleEvents;

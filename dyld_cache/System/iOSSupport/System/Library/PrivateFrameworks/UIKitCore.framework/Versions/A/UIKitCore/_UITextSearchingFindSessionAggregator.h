@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void);
-- (id)dth:(id)arg1 ,V_maximumWidth;
+- (id);
 - (void);
 - (id);
-- (void)\;
+- (void);
+- (_Bool)
+× ;
+- (void)ictionaryRef, CFStringRef, CFRange, DCSTransformStyle, DCSDictionaryRef *);
+- (void)6UIViewCIgr_;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *allFoundRanges;

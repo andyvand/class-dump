@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)"16@?0@"NSNumber"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

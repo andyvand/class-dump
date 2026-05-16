@@ -5,8 +5,7 @@
 //
 
 @protocol CLKUIRenderCoordinator
-- (void)ß¿;
-- (void)ÑòTM¬Cÿ;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isPaused) _Bool paused;

@@ -18,22 +18,23 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)qî1Â0@ù
+× ;
+- (void)@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24@"<NSCopying>"32;
+- (id)ng;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXDragManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;

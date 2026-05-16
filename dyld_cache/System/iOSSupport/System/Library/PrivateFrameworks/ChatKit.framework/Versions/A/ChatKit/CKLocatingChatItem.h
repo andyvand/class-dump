@@ -13,15 +13,14 @@
 }
 
 - (id);
-- (struct CGSize)h;
-- (void)updateDivergedNotesFromPassphrase:(id)arg1 toAccountPassphrase:completion:] /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (void);
 - (Class);
 - (_Bool);
-- (id)F9a;
-- (id)0@ù
-× ;
-- (id);
-- (id)q,N,R,VtipType;
+- (id);
+- (id)sistentMenuManager;
+- (id)eAdditionalItemsCount;
+- (id)ght;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *locationText;

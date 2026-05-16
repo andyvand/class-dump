@@ -16,11 +16,11 @@
 
 + (id);
 + (id);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void)PlaylistPropertyName;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *maxEntries; // @synthesize maxEntries=_maxEntries;

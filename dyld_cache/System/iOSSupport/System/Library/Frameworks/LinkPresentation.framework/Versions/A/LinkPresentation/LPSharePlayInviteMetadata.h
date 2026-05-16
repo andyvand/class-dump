@@ -18,28 +18,29 @@
 
 + (id);
 + (id);
-+ (_Bool)vertColors;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)n;
 - (void);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
-- (void)2?;
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)H´ ¤ø°,°(;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *application; // @synthesize application=_application;

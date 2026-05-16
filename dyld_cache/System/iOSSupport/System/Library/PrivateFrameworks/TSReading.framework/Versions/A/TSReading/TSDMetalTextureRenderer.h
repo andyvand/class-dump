@@ -34,11 +34,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (double);
-- (void)referredStartPosition:(double)arg1 preferredEndPosition: /* Error: Ran out of types for this method. */;
-- (id)m;
-- (void)Ü;
+- (void);
+- (void)oxUnchecked24;
+- (id);
+- (void)»ê;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *dataBuffers; // @synthesize dataBuffers=_dataBuffers;

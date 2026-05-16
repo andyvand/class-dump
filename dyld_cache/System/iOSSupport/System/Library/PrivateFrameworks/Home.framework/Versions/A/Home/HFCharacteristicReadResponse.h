@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;

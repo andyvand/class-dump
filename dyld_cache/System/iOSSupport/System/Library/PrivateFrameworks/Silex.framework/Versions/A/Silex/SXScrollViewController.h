@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSOrderedSet, NSString, SXComponentAnimationController, SXComponentBehaviorController, SXComponentView, SXContext, SXDocumentProvider, SXExperimentationManager, SXFontIndex, SXFullscreenCanvasController, SXFullscreenCanvasViewController, SXFullscreenVideoPlaybackManager, SXHighlightManager, SXMediaPlaybackController, SXPresentationAttributes, SXScrollPosition, SXTangierController, SXVideoPlayerViewControllerManager, SXViewControllerPresentingManager, SXViewport, SXViewportDebugger, UIColor, UIResponder, UIScrollView, UITraitCollection;
+@class NSMutableArray, NSOrderedSet, NSString, SXComponentAnimationController, SXComponentBehaviorController, SXComponentView, SXContext, SXDocumentFontFamilyProvider, SXDocumentProvider, SXExperimentationManager, SXFontIndex, SXFullscreenCanvasController, SXFullscreenCanvasViewController, SXFullscreenVideoPlaybackManager, SXHighlightManager, SXMediaPlaybackController, SXPresentationAttributes, SXScrollPosition, SXTangierController, SXVideoPlayerViewControllerManager, SXViewControllerPresentingManager, SXViewport, SXViewportDebugger, UIColor, UIResponder, UIScrollView, UITraitCollection;
 @protocol SXAdDocumentStateManager, SXAnalyticsReportingContainer, SXAppStateMonitor, SXComponentController, SXComponentInteractionManager, SXDOMObjectProviding, SXDocumentControllerContainer, SXDocumentSectionBlueprint, SXDocumentSectionManager, SXDocumentStyleRenderer, SXExperimentationDelegate, SXFormatInteractor, SXInteractionContextManager, SXLinkHoverStylingManager, SXMediaSharingPolicyProvider, SXPresentationAttributesManager, SXPresentationDelegateContainer, SXResourceDataSourceContainer, SXScrollPositionManager, SXScrollReporting, SXScrollViewControllerDelegate, SXTextSelectionManager, SXTransitionDataSourceProvider, UIViewControllerPreviewing;
 
 @interface SXScrollViewController
@@ -65,11 +65,12 @@
     id <SXDOMObjectProviding> _DOMObjectProvider;
     SXExperimentationManager *_experimentationManager;
     SXHighlightManager *_highlightManager;
+    SXDocumentFontFamilyProvider *_documentFontFamilyProvider;
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -86,8 +87,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)�A�`;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -104,7 +105,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -162,6 +164,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -193,52 +196,53 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (double);
-- (void);
 - (id);
 - (id);
-- (void);
 - (void);
 - (id);
 - (double);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)!;
-- (_Bool);
-- (void);
+- (id);
+- (double);
 - (struct CGSize);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)leVisited;
-- (void)Encountered a case on article %{public}@ cohort %{public}@ where the server provided clicks %{public}@ is less than 25 percent the calculated client side clicks %{public}@. This is indicative of a strong penalty being applied by the server that the client is unaware of, we will use the server side clicks.;
-- (void)er;
 - (_Bool);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (id);
 - (void);
-- (void)tSpecVersion;
-- (id)ttler",&,N,V_webCrashRetryThrottler;
-- (struct UIEdgeInsets)SXPortraitComponentClassification;
-- (void)er;
-- (void)mponent-identifier=%{public}@;
-- (void);
+- (void)1Â0@ù
+× ;
+- (void)Äñ;
+- (id)øÖWd*;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
@@ -262,6 +266,7 @@
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) UIColor *documentBackgroundColor;
 @property(readonly, nonatomic) id <SXDocumentControllerContainer> documentControllerContainer; // @synthesize documentControllerContainer=_documentControllerContainer;
+@property(retain, nonatomic) SXDocumentFontFamilyProvider *documentFontFamilyProvider; // @synthesize documentFontFamilyProvider=_documentFontFamilyProvider;
 @property(readonly, nonatomic) SXDocumentProvider *documentProvider; // @synthesize documentProvider=_documentProvider;
 @property(readonly, nonatomic) id <SXDocumentSectionManager> documentSectionManager; // @synthesize documentSectionManager=_documentSectionManager;
 @property(readonly, nonatomic) id <SXDocumentStyleRenderer> documentStyleRenderer; // @synthesize documentStyleRenderer=_documentStyleRenderer;

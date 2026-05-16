@@ -12,13 +12,13 @@
     _Bool _initialVerticalFlip;
 }
 
-- (void)8;
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 

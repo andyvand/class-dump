@@ -24,7 +24,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)C;
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -33,8 +33,8 @@
 - (void);
 - (id);
 - (void);
-- (void)P;
-- (void)F;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TSAAnnotationController *annotationController; // @synthesize annotationController=_annotationController;

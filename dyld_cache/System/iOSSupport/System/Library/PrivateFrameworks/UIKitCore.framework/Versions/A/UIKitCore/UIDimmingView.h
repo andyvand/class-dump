@@ -30,57 +30,56 @@ __attribute__((visibility("hidden")))
     NSArray *_lowerWindowDismissalGestureViews;
 }
 
-+ (id);
++ (id);
 - (void);
-- (void)
+- (id)
 × ;
-- (void)ñÍð1¢!0@ù
+- (id)QfÐ1Â0@ù
 × ;
-- (id)Error"32;
-- (void)ection:(id)arg1;
-- (int)nt: /* Error: Ran out of types for this method. */;
-- (_Bool)N,V_centroid;
-- (_Bool)%@ but that service is terminated;
-- (id)6^B24;
-- (id)butes *__strong, UIView *__strong);
-- (id)active animator (%@);
-- (void)faceStyleOverride;
-- (void)al._UIScrollPocketLumaObserverInteraction;
-- (id);
-- (void)sformer;
+- (void)gate"b1"lostNavigationControllerDelegate"b1"didSetAppearanceProperty"b1};
+- (int)ighlightStateUpdateHandler;
+- (id)UIView",&,N,V_togglePrimaryEdgeButtonView;
+- (void)etsEqualToInsetsAlongAxis(UIEdgeInsets, UIEdgeInsets, UIAxis);
+- (id)úþÿÆþÿ;
+- (_Bool)9R¢Fß±¿9R¢Fß±?ffffffî?;
 - (void);
-- (void);
+- (void)¼ÿÿW8¾;
+- (void);
+- (void)ôYh;
 - (id);
-- (void);
+- (void)¹h;
+- (void)l<k;
+- (void)ÐÃh;
+- (void);
+- (void)Ø.i;
+- (_Bool)UØ1i;
+- (double)Y´ÿH¬ÑXri;
+- (id)®j;
+- (void)i;
+- (void)Ltòþ¥æÐ;
+- (id)^ÿ"Ùdj;
+- (double)7ÿÖlj;
+- (void)«j;
 - (id);
-- (void) ³;
-- (double)þ¦];
-- (_Bool)T$¢ÿg@;
-- (id)¼¥ÿVi×M`;
-- (id)a;
-- (void)PsôþX¾ÚU a;
-- (void)¿µÿ!­;
-- (void)¨]ÿ]O;
-- (_Bool);
-- (_Bool)¶¦d;
-- (void)Tj;
-- (void)v%g;
-- (void)§g;
-- (void)h;
-- (void)?CÎ%Ei;
-- (void)è°ÿÂÐÜ@i;
-- (double)ì<ÿ5¸q;
-- (void)ÿ0;
-- (void)k;
-- (id)uÿMp
-;
-- (void)5Í'l;
-- (void),ÜÿcnÖfl;
-- (void)ÜÇ;
+- (_Bool)®ÝÿSR×¸cl;
+- (void)_ÿt«ÕÐk;
+- (id)¤ÿbí;
+- (void);
+- (void)7;
+- (id)ÿ»a;
+- (void)¸ßl;
+- (void)&±;
+- (void)ÿ;
+- (void) Zr;
 - (id);
-- (void)¯;
-- (_Bool)1~o;
-- (void)½o;
+- (_Bool)»gÿÂ­É¼qn;
+- (void)è©n;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool)ÿ;
+- (void)gþ[|ë;
+- (void);
+- (void)\Ó?ÿË$¡o;
+- (void)p;
 
 // Remaining properties
 @property(retain, nonatomic) UIBlurEffect *blurEffect; // @synthesize blurEffect=_blurEffect;

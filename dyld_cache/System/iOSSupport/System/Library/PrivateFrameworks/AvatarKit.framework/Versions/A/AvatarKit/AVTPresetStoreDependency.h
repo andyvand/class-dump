@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *conditions; // @synthesize conditions=_conditions;

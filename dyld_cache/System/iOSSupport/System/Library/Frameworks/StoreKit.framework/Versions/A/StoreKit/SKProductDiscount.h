@@ -22,11 +22,11 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
 - (id);
+- (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long)@;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

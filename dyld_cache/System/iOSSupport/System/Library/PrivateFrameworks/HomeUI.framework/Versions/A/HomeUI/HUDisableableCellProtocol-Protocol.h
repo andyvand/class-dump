@@ -5,8 +5,8 @@
 //
 
 @protocol HUDisableableCellProtocol
-- (_Bool)Ä¯ÿ;
-- (void)ll;
+- (_Bool)À;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isDisabled) _Bool disabled;

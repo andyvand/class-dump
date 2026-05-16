@@ -10,12 +10,12 @@
 }
 
 + (id);
-+ (_Bool)x®EÛ×¼#;
++ (_Bool)Buffer>"16@"<MTLBuffer>"24Q32;
 - (struct __CFXShaderModifier *);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

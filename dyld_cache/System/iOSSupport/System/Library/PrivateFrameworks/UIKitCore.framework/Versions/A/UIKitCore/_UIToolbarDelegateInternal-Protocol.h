@@ -5,8 +5,5 @@
 //
 
 @protocol _UIToolbarDelegateInternal
-
-@optional
-- (_Bool)@;
 @end
 

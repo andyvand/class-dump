@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)s (%s);
 
 // Remaining properties
 @property(readonly, nonatomic) INImage *buildingSilhouette; // @synthesize buildingSilhouette=_buildingSilhouette;
@@ -29,10 +29,6 @@
 
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isIntegrationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly) Class superclass;
 
 @end

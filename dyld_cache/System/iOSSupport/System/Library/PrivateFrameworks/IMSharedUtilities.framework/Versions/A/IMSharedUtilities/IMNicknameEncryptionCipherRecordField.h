@@ -22,11 +22,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id)nInfo:(id *)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *IV; // @synthesize IV=_IV;

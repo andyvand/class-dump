@@ -14,8 +14,8 @@
 
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)HomeUI/DetailsHostingController.swift;
 
 @end
 

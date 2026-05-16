@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (id)Ì;
+- (id);
 - (Class);
-- (void);
-- (unsigned long long)e action; this should be addressed by %@ immediately.;
+- (void)ters:) /* Error: Ran out of types for this method. */;
+- (unsigned long long)is action can get the name of a photo or song, or the text of a web page.;
 
 // Remaining properties
 @property(readonly, nonatomic) Class contentItemClass; // @synthesize contentItemClass=_contentItemClass;

@@ -68,6 +68,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -76,15 +77,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool)Øäÿêê0Aéÿ;
+- (_Bool);
+- (id)@ù
+× ;
+- (void)llections;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)
+- (_Bool)1Â0@ù
 × ;
-- (_Bool)ðFLGàH<IðI\J LèLDM<N;
-- (_Bool)r Radius;
-- (_Bool)Ð;
+- (_Bool)40@0:(id)arg1 8{CGSize=dd}16@"UIWindow"32;
+- (void)Right:(id)arg1 keyplane:(id)arg2;
+- (_Bool)egueTemplate;
+- (_Bool)TextBehaviorSettings",&,N,V_textSettings;
+- (_Bool);
 
 @end
 

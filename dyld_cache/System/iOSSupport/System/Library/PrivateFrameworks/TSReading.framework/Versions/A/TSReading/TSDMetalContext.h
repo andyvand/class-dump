@@ -28,32 +28,32 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (struct CGColorSpace *);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (CDStruct_39925896);
 - (unsigned long long);
+- (void);
 - (id);
-- (void)r;
-- (id)8ø;
-- (void)WªC;
-- (void)èÃòÿ*¶%;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (CDStruct_39925896);
+- (void);
+- (void)'>;
+- (unsigned long long)ContextOptions:] /* Error: Ran out of types for this method. */;
+- (id)ÿÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_commandBuffer;

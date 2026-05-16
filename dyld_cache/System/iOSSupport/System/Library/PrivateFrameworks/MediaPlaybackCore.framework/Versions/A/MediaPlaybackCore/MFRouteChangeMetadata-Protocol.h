@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol MFRouteChangeMetadata
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isAirplay;

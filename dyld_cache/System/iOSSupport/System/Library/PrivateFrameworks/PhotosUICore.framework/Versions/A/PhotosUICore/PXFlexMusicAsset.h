@@ -44,27 +44,29 @@
 - (id);
 - (long long);
 - (id);
-- (long long);
-- (void);
+- (id);
+- (id);
+- (CDStruct_1b6d18a9);
 - (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (long long);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id)
+- (void)
 × ;
-- (id)eded;
-- (id)AAyP±!yAAy/³!y¡¯!GÓ­!y³!SgGG_AHQo_¦£!GAPySiSgGGAPy4³!GGADGAAyAAyAAy±!yAN_AHQo_AVGAYGADGGSg_AAyü;
-- (CDStruct_1b6d18a9)entryPointBackgroundMode;
-- (void);
-- (id)U8;
+- (id)±Fð1â
+0@ù
+× ;
+- (id)te>";
+- (unsigned long long)OnlyLocalSongs;
+- (void)uldBakeInIfPortraitDepthEffectEnabled;
+- (id)yEmbedding;
+- (id);
+- (id)query strings.;
+- (void)ionBarPaletteContentView;
+- (void)oVideoDuration;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumTitle; // @synthesize albumTitle=_albumTitle;

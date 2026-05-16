@@ -21,15 +21,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (unsigned long long);
 - (id);
-- (_Bool)è»;
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)ller init];
-- (_Bool);
+- (unsigned long long);
+- (_Bool)Album:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ÇQ;
+- (_Bool)aûSp{5;
+- (_Bool)0!6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLock *_stateLock; // @synthesize _stateLock=__stateLock;

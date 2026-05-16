@@ -15,14 +15,14 @@
 
 - (id);
 - (id);
-- (long long);
-- (id);
-- (void)M;
 - (id);
 - (id);
-- (void)ata;
+- (id);
 - (long long);
 - (void);
+- (long long);
+- (void);
+- (void)C;
 
 @end
 

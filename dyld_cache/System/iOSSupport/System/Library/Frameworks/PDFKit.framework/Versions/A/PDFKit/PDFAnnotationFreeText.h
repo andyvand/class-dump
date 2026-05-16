@@ -13,20 +13,20 @@
     PDFAnnotationFreeTextPrivateVars *_private2;
 }
 
-- (id)egate>";
-- (struct __CFDictionary *)36;
-- (void)ocalEnvelopes;
-- (void);
-- (id)KX	;
 - (id);
+- (struct __CFDictionary *);
 - (void);
-- (id)dsDominantBackgroundColor;
+- (void);
 - (id);
-- (void)PKTextInputReserveSpaceController;
-- (void);
+- (id);
 - (long long);
 - (void);
-- (void)d;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

@@ -22,8 +22,8 @@
 - (id);
 - (struct CGImage *);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumberFormatter *assetIndexFormatter; // @synthesize assetIndexFormatter=_assetIndexFormatter;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)PPING_MISSING__;
+- (void);
 - (void);
 
 @end

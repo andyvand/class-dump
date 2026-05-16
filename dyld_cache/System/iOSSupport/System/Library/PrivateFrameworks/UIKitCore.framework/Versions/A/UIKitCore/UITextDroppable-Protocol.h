@@ -8,7 +8,6 @@
 @protocol UITextDropDelegate;
 
 @protocol UITextDroppable
-- (void)ataInstances;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isTextDropActive) _Bool textDropActive;

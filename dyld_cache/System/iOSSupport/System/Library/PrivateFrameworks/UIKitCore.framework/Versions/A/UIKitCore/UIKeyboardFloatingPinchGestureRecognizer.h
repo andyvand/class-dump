@@ -15,13 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)¡wÐ!GùÑÌÐ1¢!0@ù
-× ;
-- (void)setFromPosition:(id)arg1 toPosition:(id)arg2;
-- (id)pã8ÿ;
+- (id)ormForTouchedPage:(id)arg1;
+- (void)EventForHIDEvent:(id)arg1;
+- (void)tFromSceneReferenceSpace:(id)arg1;
+- (void):(id)arg1 `;
+- (void);
 
 @end
 

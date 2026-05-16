@@ -22,38 +22,37 @@
 
 + (id);
 - (void);
-- (void)essageGUID:(id)arg1 %@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (void);
-- (void);
-- (void)@0:(double)arg1 8q16q24@?32@?40;
-- (struct CGSize);
-- (void)B;
 - (void);
 - (id);
-- (void);
+- (_Bool);
 - (void);
-- (_Bool)1¢!0@ù
+- (struct CGSize)0@ù
 × ;
-- (double)setViewController: /* Error: Ran out of types for this method. */;
-- (void)mOppositeMovement;
-- (struct CGSize)mestamp:(struct CGSize)arg1 eventPhase:normalizedForceVelocity:hoverState: /* Error: Ran out of types for this method. */;
-- (_Bool)inatorActiveAnimationStack;
-- (void)uenceTopSeparatorView;
-- (void)rchy:(double)arg1;
-- (void)r;
-- (struct CGSize)ä-h./D081@2È2
-`3ð35¬6Ì7ô8ì;¼<¤=`?ì?@@AhB4ELHüHJ O¸PpQ@U°VÀYZ@[h\ð_`a¤a bÈcÜeÐfÌh;
-- (CDStruct_c3b9c2ee)¼;
-- (void)ÄþÿÄþÿÄþÿ;
-- (void)and 1;
-- (void)unds rows memory read.;
-- (void)completionHandler;
+- (double)Block: /* Error: Ran out of types for this method. */;
+- (struct CGSize)OOL)_block_invoke_2;
 - (double);
+- (struct CGSize)s without updating search bar to new placement. Fixing, but delegate searchBarPlacement callbacks have been skipped. navigationBar = ;
+- (void)oþ;
 - (void);
-- (_Bool)g;
-- (void)±½Í& g;
+- (double);
+- (_Bool);
+- (CDStruct_c3b9c2ee)Ü©[;
+- (void);
+- (void);
+- (void)¨3ÿö;
+- (void)^;
+- (void);/ÖÄ«^;
+- (void)ñ;
+- (void)y[ÑÜC`;
+- (void)a;
+- (void)éÿf;
+- (void)`ÿò¯É¤wd;
+- (void);
+- (void)HqÆÿGÂtñh;
+- (void);
+- (void)+I;
+- (_Bool)l;
 
 // Remaining properties
 @property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;

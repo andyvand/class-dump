@@ -8,8 +8,8 @@
 @protocol OS_dispatch_queue;
 
 @protocol PXDisplayLinkProtocol
-- (void)yxq__8ItemListÌ+3_0A0[)3QZq_GG;
-- (void)lerationRate);
+- (double)y: /* Error: Ran out of types for this method. */;
+- (UIScreen *)ntSyndicationRemoveSuggestionNoConfirm;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentMediaTime;

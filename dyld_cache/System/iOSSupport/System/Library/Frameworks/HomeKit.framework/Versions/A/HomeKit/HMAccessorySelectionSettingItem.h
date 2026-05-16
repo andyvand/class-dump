@@ -13,7 +13,7 @@
     HMAccessorySelectionSetting *_setting;
 }
 
-+ (_Bool)000-0026BB765291;
++ (_Bool);
 
 @end
 

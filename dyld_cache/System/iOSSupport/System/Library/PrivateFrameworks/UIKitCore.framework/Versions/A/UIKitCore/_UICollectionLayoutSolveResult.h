@@ -13,18 +13,19 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_invalidatedAuxillaryIndexesDict;
 }
 
-- (id);
 - (id);
-- (void)FindMyFriendsModification;
-- (void)iptor;
 - (void);
-- (void)ásº;
-- (void)nt:(id)arg1;
-- (id)ght;
-- (id)fset;
-- (void)queue:(long long)arg1 %@;
-- (void)tivity since type is same as the activity we were already waiting for;
-- (id)M¿[;
+- (id);
+- (id);
+- (void)!@Aù1f°1Â0@ù
+× ;
+- (void)ne;
+- (id);
+- (void):(long long)arg1;
+- (void)floatingEffectEnabled;
+- (void)·ì·x¹L¿ ¿;
+- (id)viders:must be overridden if pasteConfiguration is not nil. /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *invalidatedAuxillaryKinds;

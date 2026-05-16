@@ -30,9 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (void)egate;
+- (void)ouldDisableReportAProblem;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *activityTitle; // @synthesize activityTitle=_activityTitle;

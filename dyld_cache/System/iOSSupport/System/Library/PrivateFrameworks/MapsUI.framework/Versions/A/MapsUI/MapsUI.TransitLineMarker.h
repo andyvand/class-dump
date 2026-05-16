@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)dules: /* Error: Ran out of types for this method. */;
 
 @end
 

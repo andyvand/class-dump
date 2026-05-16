@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *preferredOrdering; // @synthesize preferredOrdering=_preferredOrdering;

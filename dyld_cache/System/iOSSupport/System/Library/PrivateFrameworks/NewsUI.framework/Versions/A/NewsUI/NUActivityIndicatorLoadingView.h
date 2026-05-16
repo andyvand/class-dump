@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void)= %lu);
 - (id);
 - (void);
 - (id);
-- (id)wd;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;

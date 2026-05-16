@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
-- (double);
-- (void);
 - (id);
+- (void);
 - (id);
 - (double);
 - (void);
-- (id);
+- (double);
 - (void);
 - (void);
+- (void);
+- (id)¸;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

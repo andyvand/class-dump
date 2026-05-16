@@ -49,16 +49,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
 - (void);
+- (id)_targetSize;
 - (id);
-- (id)1b0@ù
-× ;
-- (void);
+- (void)ë;
+- (void)ingglass;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;

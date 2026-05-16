@@ -22,55 +22,56 @@
     id <UIKeyboardAutocorrectionControllerDelegate> _delegate;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void)cachedRepresentationForCatalog:(_Bool)arg1;
-- (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void)B;
-- (void);
-- (void);
-- (void)ÔávÐ! EùÑËÐ1¢!0@ù
+- (void)!°Bù1Y1Â0@ù
 × ;
-- (void)!0@ù
+- (_Bool)FùZÐ1Â0@ù
 × ;
-- (id)1¢!0@ù
+- (id)!Ð!xAùñ[°1Â0@ù
 × ;
-- (void);
-- (void)"_UIPreviewGestureRecognizer";
+- (void)!¸Bù_1Â0@ù
+× ;
+- (id)× ;
 - (_Bool);
-- (id)bBarVisibility: /* Error: Ran out of types for this method. */;
-- (_Bool)eal;
-- (void)ps: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (_Bool)rame:forSection:floating:visibleRectDisplacement:reuseViewIfPossible:willDisplay: /* Error: Ran out of types for this method. */;
-- (id)=dddd},R,N,V_accessoryInsets;
-- (_Bool);
-- (_Bool)onDistanceThreshold;
-- (id)äj8yÓãj8_G;
-- (id)ed;
-- (id)vider;
-- (void)pdateFidelity;
+- (id)4;
+- (void)View<_UICollectionTableIndexOverlayHost>";
+- (_Bool)UIView"24;
+- (id)on"16;
+- (void)"16@"<UIDropSession>"24;
+- (void)sTintColorCapsuleForSelection;
+- (void)ion:(id)arg1;
+- (void)gFrame:(id)arg1;
+- (id)ecessary: /* Error: Ran out of types for this method. */;
+- (_Bool)etAdjustmentEnabledWhenLastIdle;
+- (_Bool)ormDocumentUnavailableConfigurationUpdate;
+- (_Bool)artOne:partTwo: /* Error: Ran out of types for this method. */;
+- (_Bool)ngs:,V__ignoreBarButtonItemSiblings /* Error: Ran out of types for this method. */;
+- (void)enceHandler;
+- (void)entifiers;
+- (_Bool)ControllerTransition;
+- (void)pple.menu.substitutions;
 - (void);
-- (_Bool)¸4$ëiþ¸4^iþ;
-- (id)rHorizontalAlignment;
-- (void)À;
-- (void)ìÓ%ÿ[þ;
-- (void)GÊbrg;
-- (unsigned long long)þy'Ëri;
-- (void)Üs9ÿ/vÌµ`i;
+- (void):©ÔÔ²f /* Error: Ran out of types for this method. */;
+- (void)\*)ÿ_Ü8¯f;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardCandidate *autocorrection;

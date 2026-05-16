@@ -7,9 +7,12 @@
 @class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
+- (long long)ForArticlesWithIDs: /* Error: Ran out of types for this method. */;
+- (FCTopStoriesConfiguration *)stering for %ld items from %{public}@ context with min %ld and max %ld cluster size.;
 
 @optional
-- (FCPersonalizationPublisherDampeningConfig *);
+- (double);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

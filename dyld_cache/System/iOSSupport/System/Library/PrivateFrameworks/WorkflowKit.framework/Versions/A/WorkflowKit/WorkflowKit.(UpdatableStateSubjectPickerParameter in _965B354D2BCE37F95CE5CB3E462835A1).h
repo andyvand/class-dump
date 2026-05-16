@@ -16,8 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)e in the Evernote app. (WFEvernoteShareInAppLink);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *possibleStates;

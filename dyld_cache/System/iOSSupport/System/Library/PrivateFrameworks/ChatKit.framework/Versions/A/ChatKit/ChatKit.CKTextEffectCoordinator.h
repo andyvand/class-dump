@@ -33,22 +33,22 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (void)nline attachment (%@) in text of attachment (%@) that doesn't have a typeUTI;
-- (void)conImageView zoomController is different from the textView's zoomController;
-- (void)ageView hostViewDidZoom:(id)arg1 ];
-- (id)RN%;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
 - (id);
-- (id)þÿ;
-- (void);
-- (id)ameworks/Photos.framework/Photos;
+- (id);
+- (void);
+- (id)x~(ð h¸	p;
+- (void);
+- (_Bool) Èÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP7ChatKit50CKTextEffectCoordinatorEffectConfigurationDelegate_> configurationDelegate; // @synthesize configurationDelegate;

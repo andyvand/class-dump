@@ -16,25 +16,26 @@
     struct CGColor *_knobColor;
 }
 
-- (void)4@"NSURLSessionDownloadTask"32;
-- (long long)String",R,C,N,V_buildNumber;
+- (void);
+- (long long);
 - (id);
-- (double)queueBlockForMainThread:(struct CGPoint)arg1 ];
-- (void)e setObject:forKey:] /* Error: Ran out of types for this method. */;
-- (void)ration could not be completed with just the contents of the cache.;
-- (_Bool)Id;
+- (double);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (double);
 - (_Bool);
-- (void)erView:(struct CGColor *)arg1;
-- (struct CGColor *)$;
 - (void);
+- (struct CGColor *);
 - (void);
-- (id);
 - (_Bool);
-- (void)_IOSurface=},R;
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)ckViewBottomConstraint;
 
 // Remaining properties
 @property(nonatomic) struct CGColor *knobColor; // @synthesize knobColor=_knobColor;

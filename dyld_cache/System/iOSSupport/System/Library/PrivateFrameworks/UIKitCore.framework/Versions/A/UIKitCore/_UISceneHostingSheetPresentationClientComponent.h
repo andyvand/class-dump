@@ -12,17 +12,18 @@ __attribute__((visibility("hidden")))
     UISheetPresentationController *_localSheetPresentationController;
 }
 
-- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)WithUnsignedLong: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (void);
+- (void)× ;
+- (id)1Â0@ù
+× ;
 - (void);
-- (id)ter;
 
 // Remaining properties
 @property(nonatomic, setter=_setLocalSheetPresentationController:) __weak UISheetPresentationController *_localSheetPresentationController; // @synthesize _localSheetPresentationController;

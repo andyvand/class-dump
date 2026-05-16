@@ -13,7 +13,9 @@
     MISSING_TYPE *stateSubscriptionConfig;
     MISSING_TYPE *homeManagerSet;
     MISSING_TYPE *homeManager;
-    MISSING_TYPE *currentHome;
+    MISSING_TYPE *_currentHome;
+    MISSING_TYPE *currentHomeResolver;
+    MISSING_TYPE *currentHomeResolverObservation;
     MISSING_TYPE *accessorySettingsDataSource;
     MISSING_TYPE *homeKitDelegate;
     MISSING_TYPE *matterDelegate;

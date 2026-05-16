@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerContextTransitioning;
-
 @protocol UIViewControllerAnimatedTransitioning
-- (void)to acquire runtime assertion provider:(id <UIViewControllerContextTransitioning>)arg1 %{public}@;
-- (double)recovered:(id <UIViewControllerContextTransitioning>)arg1 %@;
 @end
 

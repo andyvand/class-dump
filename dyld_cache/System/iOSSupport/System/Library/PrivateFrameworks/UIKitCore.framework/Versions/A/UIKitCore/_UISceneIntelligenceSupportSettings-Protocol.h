@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneIntelligenceSupportSettings
-- (void)gnoring raw error 0x%016llX;
 
 // Remaining properties
 @property(nonatomic) _Bool collectAsRemoteElement;

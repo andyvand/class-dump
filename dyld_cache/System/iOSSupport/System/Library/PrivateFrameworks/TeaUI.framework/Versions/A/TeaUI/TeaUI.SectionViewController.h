@@ -19,10 +19,10 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)n;
-- (id)",C,N,V_deepLinkURL;
-- (void);
+- (void);
 
 @end
 

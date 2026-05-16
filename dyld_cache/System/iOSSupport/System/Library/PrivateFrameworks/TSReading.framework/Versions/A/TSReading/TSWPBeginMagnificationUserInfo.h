@@ -15,13 +15,13 @@
 }
 
 - (void);
-- (struct CGPoint)tected no changes;
-- (id);
-- (void)";
 - (struct CGPoint);
-- (_Bool)yout+render is disabled;
+- (id);
 - (void);
-- (void);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGPoint)spect the aspect ratio of the natural size;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

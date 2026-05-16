@@ -13,19 +13,19 @@
     double _maxAllowedGapBetweenActiveMotionStates;
 }
 
-+ (double);
-- (void)S	2);
-- (void);
++ (double);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (id)0:8 /* Error: Ran out of types for this method. */;
-- (id)ionMO;
+- (id);
+- (id)Url:(id)arg1 %@,handle:%@,fromMe:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double maxAllowedGapBetweenActiveMotionStates; // @synthesize maxAllowedGapBetweenActiveMotionStates=_maxAllowedGapBetweenActiveMotionStates;

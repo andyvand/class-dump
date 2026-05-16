@@ -5,11 +5,5 @@
 //
 
 @protocol CKComposeChatControllerDelegate
-- (_Bool)ICTTParagraphStyleCG15paragraphStylest;
-- (void)tWriterC;
-- (void)Ǹ@_pSg;
-
-@optional
-- (void);
 @end
 

@@ -17,10 +17,10 @@
 - (double);
 - (void);
 - (void);
-- (id)44@0:(id)arg1 8@16@24@32B40;
-- (void);
+- (id);
 - (id);
 - (void);
+- (void)MusicPlayerApplicationController",R,N;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

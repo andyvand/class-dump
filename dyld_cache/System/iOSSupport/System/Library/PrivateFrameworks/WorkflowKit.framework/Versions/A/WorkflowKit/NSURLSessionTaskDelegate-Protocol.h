@@ -7,7 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)%{public}@;
+- (void)ple.com;
 - (void);
-- (void)& Size;
 @end
 

@@ -67,22 +67,22 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (unsigned long long);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
+- (unsigned long long);
 - (id);
-- (id)rorWithURL: /* Error: Ran out of types for this method. */;
-- (long long)[0GG_N0Qo_;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;

@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (id)=;
-- (void);
+- (id);
+- (void)sController"16@"NSObject<TSKModel>"24@"TSKSelection"32;
 
 // Remaining properties
 @property(retain, nonatomic) SXLayoutBlueprint *layoutBlueprint; // @synthesize layoutBlueprint=_layoutBlueprint;

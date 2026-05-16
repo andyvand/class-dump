@@ -12,7 +12,8 @@
     MISSING_TYPE *lazyStore;
     MISSING_TYPE *recipeService;
     MISSING_TYPE *tagService;
-    MISSING_TYPE *externalRecipeFactory;
+    MISSING_TYPE *recipeFactory;
+    MISSING_TYPE *recipeUserDataManager;
 }
 
 @end

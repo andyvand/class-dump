@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void) ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HFEventTriggerBuilder *triggerBuilder; // @synthesize triggerBuilder=_triggerBuilder;

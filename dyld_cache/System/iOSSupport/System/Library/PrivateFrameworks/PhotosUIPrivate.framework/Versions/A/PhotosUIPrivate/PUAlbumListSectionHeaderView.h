@@ -20,13 +20,13 @@
 - (id);
 - (void);
 - (struct UIEdgeInsets);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id)AttributesLoadingDelay;
+- (void)or;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setConstraints:) NSArray *_constraints; // @synthesize _constraints=__constraints;

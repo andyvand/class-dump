@@ -36,115 +36,118 @@ __attribute__((visibility("hidden")))
     UISlider *_slider;
 }
 
-+ (CDStruct_6024001e)%;
-+ (id)16{CGSize=dd}24^B40@48:(id)arg1 56@64;
-- (void);
-- (id);
-- (_Bool);
++ (CDStruct_6024001e);
++ (id)ð!lFùQdÐ1Â0@ù
+× ;
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (void)SMIMEEncryptByDefaultOverrideable;
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)ntGetRequestContext and currentPutRequestContext are both non-NULL! I refuse to choose.;
-- (void);
 - (id);
-- (id);
-- (void)DidMoveItems:inSection: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)tionsEnabledDidChangeNotification;
-- (void);
-- (struct CGRect);
+- (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
-- (double);
-- (id)1¢!0@ù
-× ;
-- (id)pÐ!@Bù±Â1¢!0@ù
-× ;
-- (void)!@Dù±Âð1¢!0@ù
-× ;
-- (void)±Æð1¢!0@ù
-× ;
 - (void);
-- (void);
-- (double)!¨AùñÉ1¢!0@ù
-× ;
 - (id);
-- (struct CGRect)1¢!0@ù
-× ;
-- (_Bool)x°!tBùQÍ1¢!0@ù
-× ;
-- (void)Ï1¢!0@ù
-× ;
-- (void){?="hasCustomBottomBarView"b1"currentVisibilityAppliedByUser"b1};
-- (id)"40;
-- (_Bool)ationsDidUpdate;
-- (id);
-- (id)er: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)usIndexPathsForInteractivelyMovingItems;
-- (struct CGRect)rginOverride;
-- (void)issViewControllerWithTransition:completion: /* Error: Ran out of types for this method. */;
-- (void)dismissCursorAccessory;
-- (void)gnizers;
-- (unsigned long long)tivateKeys;
-- (void)tRectFromSelectedFrameCoordinates: /* Error: Ran out of types for this method. */;
-- (void)HaveSameHeight;
-- (void)wTraitCollectionDidChange: /* Error: Ran out of types for this method. */;
-- (id)owsRemoteInputDashViewController;
-- (id)erviceForType:withContext: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)tToButtonPadding: /* Error: Ran out of types for this method. */;
-- (void)on:forCell:sender: /* Error: Ran out of types for this method. */;
-- (id)Bar:itemEnabledAutoScrollTransition: /* Error: Ran out of types for this method. */;
-- (void)ndMinimum:(id)arg1;
-- (void)ansform;
-- (id)ornerRadius:(id)arg1 ,V_selectionCornerRadius;
-- (void)V_badgeString;
-- (void)@"NSString",C,N,S_setGroupName:(float)arg1;
-- (void)emView;
-- (_Bool)eplacementChunk;
-- (void)plittableInputView;
-- (void)_Ü_ð`Àa'hdeXe°fgÜhÌj;
-- (_Bool)à´PµpµÄµ;
-- (void)¨Û;
-- (struct UIEdgeInsets)t contained in the placeholderContexts array;
-- (id);
-- (void);
 - (void);
-- (void)is %ld and may be too low. Use the -%s launch argument to try a higher threshold, up to %ld.;
-- (void)"NSString"8;
-- (void)kip region minY %lu out of bounds. %@ %@;
-- (void)ide;
-- (struct CGSize)antsFullScreen;
-- (_Bool)ansitionAnimationSpec",N,&,VzoomOutInteractive;
-- (struct CGSize)ß`;
-- (void)[;
-- (id)Ùf\;
 - (id);
+- (void)ð1Â0@ù
+× ;
+- (void)ùQ\°1Â0@ù
+× ;
+- (void)áð!<Dùñ\ð1Â0@ù
+× ;
+- (void)ùq]1Â0@ù
+× ;
+- (id)ñ]Ð1Â0@ù
+× ;
+- (void)ù
+× ;
+- (void)0@ù
+× ;
+- (void)× ;
+- (void)1Â0@ù
+× ;
+- (void);
+- (id)AÐ!`Dùdð1Â0@ù
+× ;
+- (unsigned long long)
+× ;
+- (void)AtBottomOfSection"b1"separatorBackdropOverlayBlendMode"b3"separatorDrawsInVibrantLightMode"b1"separatorHidden"b1"hidingSeparatorsForSelection"b1"wantsClipping"b1"allowsReorderingWhenNotEditing"b1"needsHeightCalculation"b1"focusStyle"b3"accessoryViewsHidden"b1"skipsLayout"b1"separatorInsetIsRelativeToCellEdges"b1"highlightingInteractively"b1"userInteractionEnabledWhileDragging"b1"userInteractionEnabledBeforeDragging"b2"insetsContentViewsToSafeArea"b1"needsAccessoriesUpdate"b1"needsAccessoriesUpdateForced"b1"badgeVisible"b1"shouldRestoreTextLabelAfterSystemTextSizeChange"b1"shouldRestoreDetailTextLabelAfterSystemTextSizeChange"b1"shouldRestoreEditableTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
+- (void)@"UIView"16;
+- (void)shed"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
+- (id)ge"24;
+- (void)24@?32;
+- (struct UIEdgeInsets)ts";
+- (id)gressTray: /* Error: Ran out of types for this method. */;
+- (_Bool)WithTransformVisibleItemsHandler: /* Error: Ran out of types for this method. */;
+- (void)icItemRect: /* Error: Ran out of types for this method. */;
+- (struct CGRect)View;
+- (void)lock:(struct CGRect)arg1;
+- (_Bool)aints;
+- (void)_stifledDelta;
+- (id)ewService;
+- (void)dicator;
+- (void)ctionAction;
+- (_Bool)eringLogsDidChangeStatusNotification:(struct CGPoint)arg1;
+- (double)ionThreshold;
+- (void)esize,S_setInLiveResize:,V_inLiveResize /* Error: Ran out of types for this method. */;
+- (id)urationProvider: /* Error: Ran out of types for this method. */;
+- (void)dDragPreview",&,N,V_targetedDropPreview;
+- (struct CGRect)UIListContentTextPropertiesInternal>",R,N,V_labelProperties;
+- (void)erDetent;
+- (struct CGSize)e;
+- (void)A;
+- (void) D	;
+- (struct CGRect);
+- (struct CGRect)w controller for %{public}@;
+- (id)update proofreading suggestion to Invalid. suggestionID = %@;
+- (id)r animation finishes, %@;
+- (double)ow yet;
+- (_Bool);
+- (void)r's designated initializer, initWithNotificationReasons: /* Error: Ran out of types for this method. */;
+- (_Bool)mGroupsDidChange:(id)arg1 ];
+- (struct CGRect)Key;
+- (id)for all non-nil leading, trailing, and supplementary views. This is an internal UIKit problem.;
+- (void)ust not be called with `nil`.;
+- (id)lowed. If you have implemented a custom content view, you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:%@ /* Error: Ran out of types for this method. */;
+- (id)Consecutive Cursor;
+- (void)AC.3GAJGG<Ì.3yAByABy©;
+- (void);
+- (struct CGRect)ÿp;
+- (id)33ðRwþ;
+- (struct UIEdgeInsets)_;
+- (void)lePropertyType;
+- (_Bool)D¬;
+- (_Bool)ÒÊÛL];
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *additionalTrackingViews;

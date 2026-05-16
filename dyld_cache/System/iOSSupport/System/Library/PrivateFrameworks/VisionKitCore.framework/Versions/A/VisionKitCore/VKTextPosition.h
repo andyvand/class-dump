@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (long long);
-- (id);
-- (void)ckerComicSobelShader;
+- (void);
+- (long long)tionRectsForRange:documentView:contentRect:addTranscript: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long offset; // @synthesize offset=_offset;

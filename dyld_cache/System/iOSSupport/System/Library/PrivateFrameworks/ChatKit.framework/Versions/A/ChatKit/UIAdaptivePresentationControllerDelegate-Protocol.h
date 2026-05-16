@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController;
-
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void);
-- (long long);
-- (_Bool)rollerCoordinates.origin.y (%@) is <= 0, setting entryViewCurrentMaxY to max y:(UIPresentationController *)arg1 %f;
+- (_Bool);
+- (long long)tProvider;
 @end
 

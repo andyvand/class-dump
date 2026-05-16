@@ -11,12 +11,13 @@
 }
 
 + (id);
-+ (id)4;
 + (id);
 + (id);
-+ (id);
-+ (id)tion;
-+ (id)rator:(struct _NSZone *)arg1 fractionAccuracy: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (id)0@ù
+× ;
 
 @end
 

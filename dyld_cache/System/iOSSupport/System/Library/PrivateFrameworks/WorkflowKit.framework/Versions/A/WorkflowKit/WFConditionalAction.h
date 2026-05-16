@@ -21,19 +21,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)°myl«XÌ;
-- (_Bool);
-- (_Bool);
-- (id)Ømyl¬Ö0%EÉ;
-- (unsigned long long)u±Ì;
-- (id);
-- (id);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,14 +47,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)ed to Pocket.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *inputContentClasses;
 @property(nonatomic, readonly) _Bool inputPassthrough;
 @property(nonatomic, readonly) _Bool inputRequired;
 @property(nonatomic, readonly) _Bool isDeletable;
+@property(nonatomic, readonly) _Bool isEligibleForOutputVariable;
 @property(nonatomic, readonly) unsigned long long parameterCollapsingBehavior;
 @property(nonatomic, readonly) NSArray *parameterDefinitions;
 @property(nonatomic, readonly) WFActionParameterSummary *parameterSummary;

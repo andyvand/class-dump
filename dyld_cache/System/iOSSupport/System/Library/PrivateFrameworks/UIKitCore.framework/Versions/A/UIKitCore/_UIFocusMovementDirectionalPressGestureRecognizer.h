@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (void)) is not YES, or we had a server error last time(%@) so fetching from server;
-- (void)tionLabel__MAPPING_MISSING__;
 - (void);
-- (void)TraitCollection:(id)arg1;
-- (void)pshot:(id)arg1;
-- (void)iew(==height)]-(bottom)-|;
+- (void);
+- (void)OffSwitchLabelsDidChangeNotification;
+- (void)Receded Background Min Scale;
+- (void)barKeyboardAssistant;
+- (void)\O;
 
 // Remaining properties
 @property(nonatomic) unsigned long long pressSource; // @synthesize pressSource=_pressSource;

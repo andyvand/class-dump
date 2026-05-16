@@ -14,20 +14,20 @@
     double _maximumTemporaryZoomScale;
 }
 
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
-- (double)tlkImageView;
 - (void);
 - (double);
-- (void);
-- (double);
-- (void)0@ù
+- (void)1Â0@ù
 × ;
-- (void)× ;
-- (void)0@44;
-- (void)torWithTextStyle:(double)arg1 addingSymbolicTraits:(struct CGPoint)arg2 options: /* Error: Ran out of types for this method. */;
-- (id)pdateImageLayerFilterValues;
-- (void)AnimatedWithAlongsideActions: /* Error: Ran out of types for this method. */;
-- (void),&,V_toolbarFixedItems;
+- (double)tomatically;
+- (double)reRecognizer;
+- (void)ibleCellsPassWithLayoutOffset:(double)arg1 cv == %p; layoutOffset == %@; preferredSizes == %@; dependentItems == %@;
+- (void);
 - (id);
 
 // Remaining properties

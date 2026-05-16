@@ -50,14 +50,14 @@
 - (void);
 - (id);
 - (void);
-- (id)h¿\µó;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)'4;
-- (void)ÂîÿgPÞ4;
+- (void)ractiveMemoryExportFailed;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *countLabel; // @synthesize countLabel=_countLabel;

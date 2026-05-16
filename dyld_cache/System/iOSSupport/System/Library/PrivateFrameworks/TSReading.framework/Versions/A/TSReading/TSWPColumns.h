@@ -12,15 +12,15 @@
     double _gapArray[9];
 }
 
-+ (id)æÿ?gT!Ú;
-- (void)(;
++ (id)stence/src/TSPObject.mm;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -29,11 +29,11 @@
 - (double);
 - (double);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id)Token;
 
 // Remaining properties
 @property(nonatomic) unsigned long long columnCount; // @synthesize columnCount=_columnCount;

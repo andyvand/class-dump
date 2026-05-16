@@ -5,9 +5,5 @@
 //
 
 @protocol AKTextViewKeyCommandDelegate
-
-@optional
-- (void);
-- (void)stAckEnvelopeV1Payload;
 @end
 

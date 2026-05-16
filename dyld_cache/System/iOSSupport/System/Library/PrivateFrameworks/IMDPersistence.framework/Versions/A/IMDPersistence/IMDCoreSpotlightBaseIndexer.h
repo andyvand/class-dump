@@ -13,14 +13,16 @@
 + (id);
 + (void);
 + (void);
++ (unsigned long long);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (_Bool);
++ (id);
 + (id);
 + (id);
 

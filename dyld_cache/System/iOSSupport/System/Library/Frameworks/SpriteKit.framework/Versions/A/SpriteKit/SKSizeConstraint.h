@@ -18,17 +18,17 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)ä;
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)t={CGPoint=dd}{CGSize=dd}}16@48;
 
 // Remaining properties
 @property(copy) SKRange *heightRange; // @synthesize heightRange=_heightRange;

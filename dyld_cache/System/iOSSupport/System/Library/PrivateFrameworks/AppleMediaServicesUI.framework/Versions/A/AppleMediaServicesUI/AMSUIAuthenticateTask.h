@@ -30,9 +30,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)mageStyle;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @dynamic bag;

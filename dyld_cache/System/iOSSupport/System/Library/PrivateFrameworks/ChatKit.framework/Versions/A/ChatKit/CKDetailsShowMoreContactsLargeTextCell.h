@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void);
 - (struct CGSize);
+- (id)rowViewCoordinates;
 
 @end
 

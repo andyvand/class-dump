@@ -5,6 +5,5 @@
 //
 
 @protocol UISpringLoadedInteractionEffect
-- (void)ò;
 @end
 

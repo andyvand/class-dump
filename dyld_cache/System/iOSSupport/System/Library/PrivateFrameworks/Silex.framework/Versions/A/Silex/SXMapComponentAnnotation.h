@@ -11,9 +11,9 @@
     SXMapItem *_mapItem;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SXMapItem *mapItem; // @synthesize mapItem=_mapItem;

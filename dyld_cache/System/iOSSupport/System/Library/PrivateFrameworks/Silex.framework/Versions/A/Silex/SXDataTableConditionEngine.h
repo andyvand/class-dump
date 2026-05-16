@@ -10,7 +10,7 @@
     unsigned long long _validConditionCount;
 }
 
-+ (id)P;
++ (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long conditionCount; // @synthesize conditionCount=_conditionCount;

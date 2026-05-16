@@ -16,12 +16,14 @@
 - (void);
 - (struct PXMagazineRect);
 - (void);
-- (id);
 - (void);
-- (id);
-- (double);
-- (void);
-- (unsigned long long)ayerFrameLatencyApproximation;
+- (id)±E1â
+0@ù
+× ;
+- (id)8@0:(struct _NSZone *)arg1 8q16{CGSize=dd}24d40;
+- (double)CMMInvitationsIsNewMonitor",R;
+- (unsigned long long)- cuesForAsset;
+- (void)ntShare(void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

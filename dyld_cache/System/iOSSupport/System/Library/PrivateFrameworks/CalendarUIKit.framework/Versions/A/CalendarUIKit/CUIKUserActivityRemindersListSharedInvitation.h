@@ -15,10 +15,10 @@
 
 - (id);
 - (_Bool);
-- (id)ront:(id)arg1;
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)RemovingMailto;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;

@@ -14,17 +14,17 @@
 }
 
 + (id);
-- (id)x;
+- (id);
 - (struct CGImage *);
-- (id);
-- (id);
-- (double);
 - (id);
 - (void);
+- (long long);
+- (double);
 - (struct CGSize);
 - (id);
-- (long long);
+- (id);
 - (struct CGImage *);
+- (id);
 
 @end
 

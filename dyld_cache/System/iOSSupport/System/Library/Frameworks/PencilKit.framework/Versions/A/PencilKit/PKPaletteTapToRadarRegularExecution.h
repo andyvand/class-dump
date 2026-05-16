@@ -15,10 +15,10 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)gate;
+- (void)D;
+- (long long)êbHW;
+- (void)/°f;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

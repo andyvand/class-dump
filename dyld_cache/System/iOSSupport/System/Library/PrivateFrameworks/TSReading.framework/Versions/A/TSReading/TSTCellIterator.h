@@ -39,10 +39,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)?	;
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)et:argument: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool dontExpandCellRefs; // @synthesize dontExpandCellRefs=mDontExpandCellRefs;

@@ -17,19 +17,19 @@
 
 - (id);
 - (long long);
-- (struct CGSize)earchableItemCG;
-- (void)C;
-- (void)w;
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)!;
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void)SendMenuCellBlurContainerView;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

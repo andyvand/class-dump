@@ -25,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (double);
+- (struct MUPlaceHeaderMetrics);
 - (void);
-- (void);
-- (struct MUPlaceHeaderMetrics)(AâÿµméHAâÿ;
+- (void)tDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) double coverPhotoAlpha;

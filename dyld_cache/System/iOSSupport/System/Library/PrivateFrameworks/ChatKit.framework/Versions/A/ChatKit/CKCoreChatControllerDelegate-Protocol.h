@@ -5,13 +5,5 @@
 //
 
 @protocol CKCoreChatControllerDelegate
-- (void)a;
-- (void);
-- (void)n;
-- (void)e;
-- (void);
-
-@optional
-- (_Bool)mÕ;
 @end
 

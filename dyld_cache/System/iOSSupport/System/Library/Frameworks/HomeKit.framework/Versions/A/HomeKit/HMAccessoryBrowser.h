@@ -18,12 +18,11 @@
     unsigned long long _generationCounter;
 }
 
-+ (id)odeValue;
++ (id)sory _writeValue:forCharacteristic:service:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -36,18 +35,19 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void)UUID:(id)arg1 source: /* Error: Ran out of types for this method. */;
+- (void)der;
 - (void);
-- (id);
-- (void);
-- (void)X}èÿ;
-- (unsigned long long)¾¹;
-- (id)R;
+- (unsigned long long)Óÿ;
 
 // Remaining properties
 @property(retain, nonatomic) HMMutableArray *accessories; // @synthesize accessories=_accessories;

@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)leForSyncType:(id)arg1 currentBatchCount:(long long)arg2;
+- (id);
 - (double);
 - (long long);
 - (long long);
@@ -31,11 +31,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (double);
 - (struct NSEdgeInsets);
-- (void)´ò;
-- (void);
-- (id)BLc;
+- (double);
+- (void)FloatingTabBarListItem"16;
+- (void)èÂ0ÿuÍýb;
+- (id)¡ZHd;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalSafeAreaInsets; // @synthesize additionalSafeAreaInsets=_additionalSafeAreaInsets;

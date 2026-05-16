@@ -18,7 +18,7 @@
     HMMediaProfile *_mediaProfile;
 }
 
-+ (_Bool)ingKeyStringValue;
++ (_Bool);
 
 @end
 

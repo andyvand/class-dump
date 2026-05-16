@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, PUPickerAdditionalSelectionState, PUPickerConfiguration, PUPickerOnboardingHeaderView, PUPickerPrivacyBadge, PUPickerSearchBar, PUPickerSearchCoordinator, PUPickerSuggestionResultFetcher, PUPickerSuggestionResultFetcherResult, PUPickerSuggestionsView, PUSessionInfo, PUSidebarViewController, PXAssetsDataSourceManager, PXPhotosFilterToggleButtonController, PXPhotosUIViewController, PXPhotosViewConfiguration, PXSectionedSelectionManager, PXSelectionCoordinator, UIAction, UIBarButtonItem, UISegmentedControl, UIView, UIViewController, _UINavigationBarPalette;
+@class NSArray, NSLayoutConstraint, NSString, PUPickerAdditionalSelectionState, PUPickerConfiguration, PUPickerOnboardingHeaderView, PUPickerPrivacyBadge, PUPickerSearchBar, PUPickerSearchCoordinator, PUPickerSelectionCoordinator, PUPickerSuggestionResultFetcher, PUPickerSuggestionResultFetcherResult, PUPickerSuggestionsView, PUSessionInfo, PUSidebarViewController, PXAssetsDataSourceManager, PXPhotosFilterToggleButtonController, PXPhotosUIViewController, PXPhotosViewConfiguration, PXSectionedSelectionManager, UIAction, UIBarButtonItem, UISegmentedControl, UIView, UIViewController, _UINavigationBarPalette;
 @protocol PUPickerContainerControllerActionHandler, PXMemoryAssetsActionFactory;
 
 @interface PUPickerContainerController
@@ -21,7 +21,7 @@
     PUSidebarViewController *_sidebarViewController;
     PUPickerConfiguration *_configuration;
     PUSessionInfo *_sessionInfo;
-    PXSelectionCoordinator *_selectionCoordinator;
+    PUPickerSelectionCoordinator *_selectionCoordinator;
     PUPickerAdditionalSelectionState *_additionalSelectionState;
     id <PUPickerContainerControllerActionHandler> _containerControllerActionHandler;
     UIBarButtonItem *_cancellationBarButtonItem;
@@ -68,7 +68,6 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -212,28 +211,28 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id)Key:(id)arg1;
 - (void);
-- (void)owHighlightTimeRanges;
-- (_Bool)hLocationProvider:(id)arg1;
 - (void);
-- (void)6@?0@"<PXDisplayAssetFetchResult>"8;
-- (void)ouldShowFallbackView;
+- (id);
+- (void);
 - (_Bool);
-- (void)Pñúÿ?ý«8;
+- (void)rWell";
+- (void)Info:style: /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 estimatedHeightForFooterInSection: /* Error: Ran out of types for this method. */;
+- (void)oller;
+- (id);
+- (void)ewController;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotosUIViewController *actionResponderPhotosViewController;
@@ -290,7 +289,7 @@
 @property(readonly, nonatomic) PUPickerSearchCoordinator *searchCoordinator; // @synthesize searchCoordinator=_searchCoordinator;
 @property(retain, nonatomic) NSArray *searchResultUUIDs; // @synthesize searchResultUUIDs=_searchResultUUIDs;
 @property(readonly, nonatomic) NSString *selectedSuggestionAnalyticsName;
-@property(readonly, nonatomic) PXSelectionCoordinator *selectionCoordinator; // @synthesize selectionCoordinator=_selectionCoordinator;
+@property(readonly, nonatomic) PUPickerSelectionCoordinator *selectionCoordinator; // @synthesize selectionCoordinator=_selectionCoordinator;
 @property(retain, nonatomic) UIBarButtonItem *selectionStatusBarButtonItem; // @synthesize selectionStatusBarButtonItem=_selectionStatusBarButtonItem;
 @property(retain, nonatomic) UIView *selectionStatusView; // @synthesize selectionStatusView=_selectionStatusView;
 @property(readonly, nonatomic) PUSessionInfo *sessionInfo; // @synthesize sessionInfo=_sessionInfo;

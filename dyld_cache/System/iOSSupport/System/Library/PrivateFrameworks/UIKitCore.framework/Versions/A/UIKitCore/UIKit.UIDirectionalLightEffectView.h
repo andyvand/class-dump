@@ -17,11 +17,11 @@
     MISSING_TYPE *idleTimerImpl;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)per use of internal layout method with view that does not want auto layout;
+- (void)ection;
+- (id)ViewControllerContainer;
+- (void)	_;
 
 @end
 

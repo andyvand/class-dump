@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
-- (id)FocusMovementRequest: /* Error: Ran out of types for this method. */;
-- (unsigned long long)v32@?0@"UIKBTree"8@"NSArray"16q24;
 - (id);
+- (id);
+- (void)llapseSecondaryViewController:(id)arg1 ontoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ry;
+- (id)s=%@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title;

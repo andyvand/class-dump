@@ -22,8 +22,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ity;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cipher; // @synthesize cipher=_cipher;

@@ -15,23 +15,25 @@
 }
 
 + (_Bool);
-+ (_Bool)titleContentStyle:timeNumberingSystem:userConfigured:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
-- (void);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)¨°!ÌBù±ñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *extensionBundleRelativeFilePath; // @synthesize extensionBundleRelativeFilePath=_extensionBundleRelativeFilePath;

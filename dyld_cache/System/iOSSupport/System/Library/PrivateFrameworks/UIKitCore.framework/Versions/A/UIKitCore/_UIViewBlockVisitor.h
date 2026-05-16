@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _visitorBlock;
 }
 
+- (void);
+- (CDUnknownBlockType);
 - (_Bool);
-- (void)ssion:task:willBeginDelayedRequest:completionHandler: /* Error: Ran out of types for this method. */;
-- (id);
-- (CDUnknownBlockType);
-- (void)onPresetManager"16B24@"NSSymbolEffect"28@"NSSymbolEffectOptions"36B44@?<v@?@"UISymbolEffectCompletionContext">48;
+- (void)animationCurve:(CDUnknownBlockType)arg1 animationConfigurator: /* Error: Ran out of types for this method. */;
+- (id)lpha;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType visitorBlock; // @synthesize visitorBlock=_visitorBlock;

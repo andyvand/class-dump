@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)Ô";
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *identifierBlockMap; // @synthesize identifierBlockMap=_identifierBlockMap;

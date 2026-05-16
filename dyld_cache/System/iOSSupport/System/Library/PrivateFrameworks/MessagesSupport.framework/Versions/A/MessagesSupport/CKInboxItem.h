@@ -16,15 +16,15 @@
 
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

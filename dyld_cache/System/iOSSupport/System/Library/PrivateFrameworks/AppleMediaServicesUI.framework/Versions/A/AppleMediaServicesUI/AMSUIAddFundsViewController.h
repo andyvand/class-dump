@@ -15,24 +15,24 @@
 }
 
 + (id);
-+ (id)KyAMG7y7SgGG_ACy7ARG07tGGGGG_9Qo_Ô7y7GG_AVtGGAEGAEGtGG;
-+ (id)t;
-+ (id)¥êÿ£ïû;
-- (id);
-- (id);
-- (id);
-- (void);
++ (id)7ýÿ;
++ (id)¯Ì;
++ (id)aErrorDomain;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)h:withContext: /* Error: Ran out of types for this method. */;
-- (void)erviceMacHelperFn;
-- (void)edgesPropagatingSafeAreaInsetsToSubviews;
+- (id)formAction:forItemAtIndexPath:withSender: /* Error: Ran out of types for this method. */;
+- (void)SSgtG;
+- (void)¸;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account;

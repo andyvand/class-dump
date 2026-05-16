@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id)è³;
 
 @end
 

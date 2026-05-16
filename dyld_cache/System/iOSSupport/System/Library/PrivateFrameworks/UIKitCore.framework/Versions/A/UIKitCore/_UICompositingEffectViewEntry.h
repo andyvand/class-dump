@@ -14,15 +14,14 @@ __attribute__((visibility("hidden")))
     NSString *_filterType;
 }
 
+- (_Bool);
 - (void);
-- (void)=dd}8;
-- (void);
-- (id)0@ù
-× ;
-- (_Bool)ttonAlignmentOffset;
-- (void)plyingFormattingModification:(id)arg1 withAttributes:paragraphStyle: /* Error: Ran out of types for this method. */;
-- (id)berOfClicksRequired;
-- (_Bool)l`;
+- (id);
+- (void);
+- (void)estoringInputViews;
+- (id)l%Ä%	&ì';
+- (_Bool);
+- (void)ÑØ4];
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filterType; // @synthesize filterType=_filterType;

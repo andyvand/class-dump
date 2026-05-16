@@ -13,7 +13,7 @@
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)SkipContentIntent;
 - (void);
 - (id);
 

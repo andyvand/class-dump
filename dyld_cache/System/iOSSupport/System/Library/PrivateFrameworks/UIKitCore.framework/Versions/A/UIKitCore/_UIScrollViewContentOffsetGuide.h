@@ -11,16 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)oupListFlag;
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)eaElement"16@"WebFrame"24;
-- (id)eLabelColors;
-- (id)raggingSourceDelegate,S_setDraggingSourceDelegate: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)× ;
+- (id)Ð! @ùqd°1Â0@ù
+× ;
+- (void)eresis:(id)arg1;
+- (id)olorRenderingMode;
+- (_Bool)line;
+- (id)rchSuggestionItemGroup;
 
 @end
 

@@ -12,25 +12,25 @@
     struct CGAffineTransform _drawingTransform;
 }
 
-- (void)ings initWithRequestKey:(id)arg1 responseKey:fallbackURL:userID:storefrontID:bundleID:deviceInfo:debugOverrides:requestMode:] /* Error: Ran out of types for this method. */;
+- (void);
 - (double);
 - (void);
 - (id);
 - (void);
 - (struct CGAffineTransform);
-- (struct CGRect)erReportRequestFeedback>"16@"<CRCardSection>"24;
+- (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
 - (void);
-- (id)Y;
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (_Bool);
 - (void);
+- (id)tion:(id)arg1;
+- (void)¼Ã;
 - (id);
-- (void)IS5_S5_EENS3_IS5_EEEE;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

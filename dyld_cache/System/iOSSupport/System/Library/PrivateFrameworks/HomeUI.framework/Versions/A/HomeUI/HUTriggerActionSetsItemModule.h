@@ -40,8 +40,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)%ld. self.home.restrictedGuests.count = %ld.;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *actionSetsGridItem; // @synthesize actionSetsGridItem=_actionSetsGridItem;

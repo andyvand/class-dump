@@ -39,10 +39,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)ctPropertyResolver;
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <CNUIDefaultUserActionFetcher> defaultActionFetcher; // @synthesize defaultActionFetcher=_defaultActionFetcher;

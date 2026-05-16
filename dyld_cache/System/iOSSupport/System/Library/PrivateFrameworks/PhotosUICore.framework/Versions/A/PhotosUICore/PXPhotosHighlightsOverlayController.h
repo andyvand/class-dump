@@ -21,15 +21,15 @@
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)yABøÙZGGACG;
-- (void)ayback time left:(id)arg1 %f, estimated loading time left:%f, current preloading segment:%ld /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *availableLenses;

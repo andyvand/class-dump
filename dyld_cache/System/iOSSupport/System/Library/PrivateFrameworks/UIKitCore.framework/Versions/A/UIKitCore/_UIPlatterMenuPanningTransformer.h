@@ -51,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (double);
-- (void);
+- (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGVector);
@@ -59,18 +59,19 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (void)nters;
+- (void);
 - (void);
 - (unsigned long long);
-- (void)chatPredicateForFilterAction: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)_dispatch_queue>",&,N,V_serialQueue;
 - (void);
-- (void)lyticsDispatcher";
-- (struct CGVector)onSetP;
-- (id)not allowed.;
-- (void)bject *> *(^__strong)(void));
-- (struct CGVector)extTiledLayer.m;
+- (void);
+- (id);
+- (struct CGVector)c1Â0@ù
+× ;
+- (void);
+- (id)BarInit;
+- (void)y;
+- (struct CGVector)ü\;
 
 // Remaining properties
 @property(nonatomic) unsigned long long axisLock; // @synthesize axisLock=_axisLock;

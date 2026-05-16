@@ -22,8 +22,8 @@
 - (float);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 @end
 

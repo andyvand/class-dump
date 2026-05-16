@@ -20,7 +20,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)workflow;
 - (id);
 
 // Remaining properties

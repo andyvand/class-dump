@@ -7,9 +7,6 @@
 @class UIView;
 
 @protocol _UITextCursorAnimation
-- (UIView *)ecipients: /* Error: Ran out of types for this method. */;
-- (void)thEvent:(_Bool)arg1;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *cursorShapeView;

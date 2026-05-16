@@ -7,8 +7,8 @@
 @class NSString;
 
 @protocol AVTAvatarRecord
-- (NSString *)cking for errors on %lu assets...;
-- (_Bool)yRemovingTagNames:fromTagSet: /* Error: Ran out of types for this method. */;
+- (_Bool)!!°@ùqI°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEditable) _Bool editable;

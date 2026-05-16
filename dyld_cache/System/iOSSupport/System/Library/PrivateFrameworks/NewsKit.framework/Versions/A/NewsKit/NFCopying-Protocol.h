@@ -5,6 +5,5 @@
 //
 
 @protocol NFCopying
-- (id)ry"16@0:8 /* Error: Ran out of types for this method. */;
 @end
 

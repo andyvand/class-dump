@@ -13,10 +13,10 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PKDiscoveryShelfView *shelfView; // @synthesize shelfView=_shelfView;

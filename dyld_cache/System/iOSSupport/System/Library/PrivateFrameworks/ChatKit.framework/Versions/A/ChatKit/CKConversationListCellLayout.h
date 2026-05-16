@@ -30,9 +30,9 @@
     struct CGRect _footerFrame;
 }
 
-- (double)delegate;
-- (struct CGRect);
-- (double);
+- (double);
+- (struct CGRect);
+- (double);
 - (double);
 - (double);
 - (struct CGRect);
@@ -53,33 +53,32 @@
 - (void);
 - (void);
 - (void);
-- (void)i;
-- (void)f;
-- (struct CGRect);
-- (struct CGRect)m;
 - (void);
-- (double)wShare;
-- (_Bool)es on any device with your iCloud account by using the passcode or password for that device.;
-- (struct CGRect)CENT_COLOR];
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (double);
+- (_Bool);
+- (struct CGRect);
 - (struct CGRect);
 - (double);
-- (double)icationName;
-- (double)U
-;
+- (double);
+- (double);
 - (double);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
-- (void);
-- (struct CGRect);
 - (id);
-- (_Bool)P¾ÿÏ6ÌÒ.;
-- (void)éD0;
+- (struct CGRect);
+- (void);
+- (_Bool);
+- (void)ving live browser for plugin %@;
 
 // Remaining properties
 @property(nonatomic) struct CGRect avatarFrame; // @synthesize avatarFrame=_avatarFrame;

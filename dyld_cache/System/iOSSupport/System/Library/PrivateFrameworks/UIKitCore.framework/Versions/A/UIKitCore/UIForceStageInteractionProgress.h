@@ -17,12 +17,12 @@
 }
 
 - (void);
-- (_Bool)with handles %@;
+- (_Bool);
 - (void);
-- (void)U;
 - (void);
-- (id)][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}},R,N,V_localDataOverrides;
-- (void)dateCompletionObservationAddObserver(_UIUpdateCompletionObservation *const _Nonnull, const id<_UIUpdateCompletionObserving>  _Nonnull const __strong, const BOOL);
+- (id);
+- (void)ShadowView";
+- (void)>¤ÿÙt[;
 
 // Remaining properties
 @property(nonatomic) _Bool completesAtTargetState; // @synthesize completesAtTargetState=_completesAtTargetState;

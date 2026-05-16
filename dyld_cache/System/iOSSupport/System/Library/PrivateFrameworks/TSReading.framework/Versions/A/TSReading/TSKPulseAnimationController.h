@@ -22,17 +22,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double)CAssetDataProvider;
+- (double);
 - (void);
 - (void);
+- (void);
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (double)nForAlignment;
-- (void)mentMode;
+- (void)";
 
 // Remaining properties
 @property(nonatomic) _Bool autohide; // @synthesize autohide=_autohide;

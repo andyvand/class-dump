@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void)CString:encoding: /* Error: Ran out of types for this method. */;
+- (void)Mobile>!$_;
 
 @end
 

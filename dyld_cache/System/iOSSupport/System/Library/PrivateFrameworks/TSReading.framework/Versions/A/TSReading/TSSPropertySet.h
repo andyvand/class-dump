@@ -16,26 +16,27 @@
 - (id);
 - (id);
 - (id);
-- (id)".;
 - (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long)MLMTd;
-- (void)t;
-- (id)5Yõ;;
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (unsigned long long)0@ù
+× ;
 
 @end
 

@@ -14,8 +14,8 @@
 
 - (void);
 - (id);
-- (id);
-- (void)nt;
+- (void);
+- (id)LayoutSpaceType;
 
 // Remaining properties
 @property(nonatomic) TSWPColumn *column; // @synthesize column=_column;

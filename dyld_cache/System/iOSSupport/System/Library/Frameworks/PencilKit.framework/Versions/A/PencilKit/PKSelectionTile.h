@@ -11,9 +11,9 @@
     PKSelectionTileProperties *_properties;
 }
 
-- (void);
-- (id)Lïÿ;
-- (id)";
+- (id);
+- (id);
+- (void)traint",&,N,V_toolPickerContainerViewWidthConstraint;
 
 // Remaining properties
 @property(readonly, nonatomic) PKSelectionTileProperties *properties; // @synthesize properties=_properties;

@@ -16,20 +16,20 @@
     _TUIKeyboardEmojiDraggableView *_emojiLabel;
 }
 
-+ (id)fì ;
 + (id);
 + (id);
-- (void);
-- (void)Aæ|;
-- (id);
++ (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *displayedEmojiString; // @synthesize displayedEmojiString=_displayedEmojiString;

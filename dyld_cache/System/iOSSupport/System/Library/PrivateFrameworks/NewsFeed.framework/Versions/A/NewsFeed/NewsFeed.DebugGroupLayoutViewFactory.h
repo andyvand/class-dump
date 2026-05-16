@@ -17,10 +17,10 @@
     MISSING_TYPE *internalErrorViewRenderer;
 }
 
-- (void);
-- (id)*: /* Error: Ran out of types for this method. */;
-- (id)0D;
-- (id)Éh´³ù;
+- (id);
+- (id)Þùÿ¢$üÿ;
+- (id)<Ó&ÿ;
+- (void)ÿ;
 
 @end
 

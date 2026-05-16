@@ -21,16 +21,19 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)s;
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)OfYear;
-- (_Bool)arance: /* Error: Ran out of types for this method. */;
-- (void)ÿÿ;
+- (_Bool);
+- (id)!@Eùñ°1Â0@ù
+× ;
+- (id)ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)ByAByABy;
+- (id)ntains more than 1 primary filter modes. Rejecting given filter modes.;
+- (void)	;
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObjectBackedAsset *asset; // @synthesize asset=_asset;

@@ -14,17 +14,16 @@
     UIKeyEvent *_keyEvent;
 }
 
-- (_Bool)AccountSettings;
-- (_Bool)ataForKey:error: /* Error: Ran out of types for this method. */;
-- (void)roundCommand;
-- (void)eoutIntervalForEditType:(_Bool)arg1 enforceExactRetractionTimeoutInterval: /* Error: Ran out of types for this method. */;
-- (void)ingEnabled;
-- (id)atListRebuilderC;
-- (id);
-- (_Bool)\;
-- (void)!ôCùÁð1¢!0@ù
-× ;
-- (id)AreaInsets;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)Ã;
 
 // Remaining properties
 @property(nonatomic) _Bool documentIsEditable; // @synthesize documentIsEditable=_documentIsEditable;

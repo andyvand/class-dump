@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (id);
-- (struct _NSZone *);
-- (id)for album %{public}@. This is not an error. Status:%{public}@ /* Error: Ran out of types for this method. */;
+- (struct _NSZone *)l;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

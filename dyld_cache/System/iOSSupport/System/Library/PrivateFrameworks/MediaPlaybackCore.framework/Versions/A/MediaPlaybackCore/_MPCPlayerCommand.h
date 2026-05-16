@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
-- (id)bH;
 - (id);
-- (id)date"Q};
+- (id);
+- (id);
+- (void)eueFA is OFF];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPCPlayerPath *playerPath; // @synthesize playerPath=_playerPath;

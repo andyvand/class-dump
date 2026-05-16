@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (void)tionSelectionUnsupportedHomePodMessage_actionSet;
+- (id)ø;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *formKey;

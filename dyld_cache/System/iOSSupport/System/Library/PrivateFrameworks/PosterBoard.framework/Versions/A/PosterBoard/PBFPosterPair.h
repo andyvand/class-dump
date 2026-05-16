@@ -20,11 +20,13 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)1â
+0@ù
+× ;
+- (id)èwóÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSUUID *configurationUUID;

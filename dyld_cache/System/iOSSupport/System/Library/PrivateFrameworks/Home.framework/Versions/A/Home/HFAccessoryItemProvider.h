@@ -29,13 +29,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)[HMHome(Additions) hf_isCurrentRestrictedGuestAwayFromHome];
+- (void)haracteristic:(CDUnknownBlockType)arg1;
+- (void)6@?0@"HFActionSetBuilder"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *accessoryItems; // @synthesize accessoryItems=_accessoryItems;

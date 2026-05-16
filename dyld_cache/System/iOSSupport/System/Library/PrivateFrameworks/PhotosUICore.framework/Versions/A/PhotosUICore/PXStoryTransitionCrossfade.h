@@ -16,7 +16,7 @@
 
 - (id);
 - (double);
-- (void);
+- (void)ift;
 
 @end
 

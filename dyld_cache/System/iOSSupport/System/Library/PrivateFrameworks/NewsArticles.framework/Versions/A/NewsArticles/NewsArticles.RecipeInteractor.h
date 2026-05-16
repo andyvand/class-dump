@@ -13,6 +13,11 @@
     MISSING_TYPE *routeModel;
     MISSING_TYPE *paywallFactory;
     MISSING_TYPE *accessChecker;
+    MISSING_TYPE *recipeLoader;
+    MISSING_TYPE *recipeFactory;
+    MISSING_TYPE *_recipeWasLoaded;
+    MISSING_TYPE *unitConfigDataManger;
+    MISSING_TYPE *recipeUnitDataManager;
 }
 
 @end

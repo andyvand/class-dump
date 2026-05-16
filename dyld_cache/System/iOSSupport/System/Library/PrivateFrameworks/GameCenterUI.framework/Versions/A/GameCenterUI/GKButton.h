@@ -24,8 +24,8 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

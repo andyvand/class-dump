@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (id);
-- (void)ìNº;
+- (void)è·ÿRÔX®];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

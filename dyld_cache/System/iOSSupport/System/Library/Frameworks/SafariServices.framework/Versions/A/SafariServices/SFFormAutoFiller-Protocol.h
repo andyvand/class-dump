@@ -5,13 +5,5 @@
 //
 
 @protocol SFFormAutoFiller
-- (void);
-- (void);
-- (void)ts;
-- (void)tedText;
-- (void)nConfiguration;
-- (void)odeUnresolvedMetadata;
-- (void)SnapshotGeneratorServiceProtocol;
-- (void)n;
 @end
 

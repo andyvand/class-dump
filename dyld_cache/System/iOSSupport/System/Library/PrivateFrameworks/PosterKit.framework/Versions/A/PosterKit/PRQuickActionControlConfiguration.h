@@ -13,15 +13,15 @@
     unsigned long long _type;
 }
 
-+ (_Bool)tle:subtitle: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (id);
 - (unsigned long long);
-- (id)^ä^8b@btdg;
+- (void);
+- (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long category; // @synthesize category=_category;

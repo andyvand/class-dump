@@ -9,17 +9,23 @@
 @protocol UITextInputTraits
 
 @optional
-- (long long)
+- (void)
 × ;
-- (long long)ÑMÐ1B0@ù
+- (void)ð1â
+0@ù
 × ;
-- (long long)× ;
-- (void)1B0@ù
-× ;
-- (void)setIncludesRichPasteboardContent:(long long)arg1;
-- (long long)vateLongPressMenuInteraction;
-- (void)d;
-- (long long),V_imageAnalysis;
+- (void);
+- (long long)4@0:8@"MTLTensorDescriptor"16 /* Error: Ran out of types for this method. */;
+- (long long)rDelegate>";
+- (void)tDeviceIsEligibleForVI:(long long)arg1;
+- (void)oLibraryURL:(NSString *)arg1 cgImage:orientation:requestType: /* Error: Ran out of types for this method. */;
+- (void)nView:(long long)arg1;
+- (void)vsItemPresentedFromMenu;
+- (long long)x@;
+- (long long)ÿ;
+- (unsigned long long)inalTexture;
+- (_Bool)t Remove Background Resize";
+- (void)serious bug in Notes. Will you please file a Radar?;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

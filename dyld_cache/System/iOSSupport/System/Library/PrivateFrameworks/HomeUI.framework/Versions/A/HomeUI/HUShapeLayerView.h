@@ -19,12 +19,12 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void),V_invitation;
+- (id)RoomBuilder:presentationDelegate:addRoomDelegate: /* Error: Ran out of types for this method. */;
+- (void)em:(id)arg1 triggerBuilder:source:flow:stepIdentifier: /* Error: Ran out of types for this method. */;
+- (void)er.m;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor;

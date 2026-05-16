@@ -31,11 +31,11 @@
 - (id);
 - (_Bool);
 - (id);
+- (long long);
+- (id);
+- (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
-- (long long);
-- (CDUnknownBlockType);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

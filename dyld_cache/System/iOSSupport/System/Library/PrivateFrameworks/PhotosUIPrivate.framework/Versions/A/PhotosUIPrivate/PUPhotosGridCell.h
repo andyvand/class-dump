@@ -61,18 +61,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id);
 - (id);
 - (void);
-- (struct CGSize):(struct CGSize)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void)ecelerationTarget;
 
 // Remaining properties
 @property(nonatomic, getter=isCloudIconVisible) _Bool cloudIconVisible; // @synthesize cloudIconVisible=_cloudIconVisible;

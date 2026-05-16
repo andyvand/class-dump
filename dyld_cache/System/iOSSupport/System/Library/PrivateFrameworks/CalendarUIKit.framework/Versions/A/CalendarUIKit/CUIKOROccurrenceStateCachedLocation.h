@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)pecifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *generatedLocationString; // @synthesize generatedLocationString=_generatedLocationString;

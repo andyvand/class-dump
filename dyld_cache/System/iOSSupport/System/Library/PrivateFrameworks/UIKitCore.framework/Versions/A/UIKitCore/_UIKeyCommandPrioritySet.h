@@ -18,19 +18,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (id);
 - (_Bool);
-- (id)riptionForItem:(struct _NSZone *)arg1 inSection: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long);
+- (void)=b1b1b1b1}}24;
+- (_Bool)eString;
+- (id)ngScene:(id)arg1;
+- (id)ccessoryViewEnabled;
 - (void);
-- (_Bool)Ð1¢!0@ù
-× ;
-- (id)deTimerWithDelay: /* Error: Ran out of types for this method. */;
-- (id)w:atScale: /* Error: Ran out of types for this method. */;
-- (id)LandscapeOrientations:(id)arg1 %@     OUTPUTS:frame:%@, offset:%f, arrowDirection:%@, candidates:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)Ñ;
+- (unsigned long long)ses:inPhase:withEvent:and finishDeliveringPresses. /* Error: Ran out of types for this method. */;
+- (void)urationCornerStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allKeyCommands;

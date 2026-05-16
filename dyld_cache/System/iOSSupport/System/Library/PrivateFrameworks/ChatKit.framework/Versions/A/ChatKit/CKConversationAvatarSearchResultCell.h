@@ -19,8 +19,8 @@
 + (long long);
 + (id);
 - (void);
-- (void)=;
-- (struct UIEdgeInsets)Somebody** left the folder;
+- (void);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
@@ -33,14 +33,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
 - (void);
 - (id);
-- (id)l;
-- (id)rs enabled;
-- (void)©ÿ=Y5Ý1;
-- (id)Úæ1;
+- (id)!<AùQð1Â0@ù
+× ;
+- (void);
+- (id)BackgroundEffects;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing;

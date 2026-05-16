@@ -7,7 +7,7 @@
 @protocol CAAnimationDelegate
 
 @optional
-- (void);
-- (void)nsitionControllerCSgXw;
+- (void);
+- (void);
 @end
 

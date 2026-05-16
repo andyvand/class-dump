@@ -14,25 +14,25 @@
     NSLayoutConstraint *_trailingMarginConstraint;
 }
 
+- (double);
+- (void);
+- (struct CGSize);
 - (id);
-- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
 - (struct CGSize);
 - (double);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (double);
-- (id);
-- (struct CGSize)ns";
+- (void);
+- (_Bool);
+- (void)tryCode;
 
 // Remaining properties
 @property(nonatomic) double leadingMargin;

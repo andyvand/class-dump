@@ -14,10 +14,10 @@
 }
 
 - (long long);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)$__lazy_storage_$_verifyingSpinnerViewController;
 
 // Remaining properties
 @property(nonatomic, readonly) long long offerUpsellScenario;

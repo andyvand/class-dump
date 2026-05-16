@@ -7,33 +7,11 @@
 @class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
 
 @protocol FCFeedTheming
-- (NSString *);
-- (_Bool);
-- (NSArray *)Accepting formerly rejected News+ to satisfy quota ;
-- (FCColor *);
-- (struct CGSize);
-- (FCColorGradient *)h;
-- (FCAssetHandle *);
-- (FCColorGradient *)r"16@"<TSDGesture>"24;
-- (FCColor *)ContextFactory:unitConverterFactory: /* Error: Ran out of types for this method. */;
-- (FCColor *)eviewViewController: /* Error: Ran out of types for this method. */;
-- (long long)ect;
-- (NSString *)fer-identifier;
-- (FCColor *)];
-- (struct FCEdgeInsets);
-- (FCAssetHandle *);
-- (FCColor *);
-- (_Bool)0@ù
-× ;
-- (FCColor *)ehaviorConfig;
-- (FCColor *)$Ó;
-- (FCAssetHandle *)à3;
-- (FCColor *)D;ÿÿBýÿüÿüÿ;
-- (FCAssetHandle *)16@"NSArray"20@"NSError"28;
-- (unsigned long long)CoordinatorType;
-- (struct FCEdgeInsets)printProvider;
-- (double)YÖ;
-- (FCAssetHandle *)1M]o,³;
+- (NSArray *);
+- (FCTextInfo *)nkArticlePresentationContextServiceType;
+- (struct FCEdgeInsets)<1E1à$;
+- (FCColor *);
+- (FCTextInfo *)¥Èÿa	0¥Èÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *adBackgroundColor;

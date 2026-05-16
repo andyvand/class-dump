@@ -47,13 +47,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)ptureImagePadding;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableAttributedString *accumulator; // @synthesize accumulator=_accumulator;

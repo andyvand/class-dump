@@ -30,9 +30,9 @@
 - (id);
 - (void);
 - (long long);
-- (void);
 - (id);
 - (id);
+- (void)l>"8@"NSError"16;
 
 @end
 

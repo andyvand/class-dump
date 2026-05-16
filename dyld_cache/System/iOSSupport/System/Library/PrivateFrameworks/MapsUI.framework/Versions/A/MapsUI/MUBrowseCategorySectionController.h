@@ -25,9 +25,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (id)¡f°!$@ù±n°1b0@ù
-× ;
+- (id);
+- (void)rameSize;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

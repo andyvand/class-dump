@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITraitCollection;
-
 @protocol UIAppearance
-+ (id)agesDetected:(UITraitCollection *)arg1;
-+ (id)nder;
 @end
 

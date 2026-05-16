@@ -18,24 +18,27 @@
 }
 
 + (_Bool);
-- (void)and.passcode.unlocktoken;
 - (void);
-- (void)B;
-- (id);
-- (struct CGSize);
 - (void);
 - (id);
-- (void)den;
-- (void)rowViewForTraitCollection:(id)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
-- (unsigned long long)setContentSize: /* Error: Ran out of types for this method. */;
-- (id)teImage;
-- (id)ceAfterAcceptingPredictionForSupplementalItem: /* Error: Ran out of types for this method. */;
-- (void)g4|rdþ½g4rdþg4rdþåg4 rdþug4¬rdþug4Àhþ½g4Ärdþõg4ÌrdþÅg4Ürdþ;
 - (void);
-- (_Bool);
-- (double);
-- (void)ÓDa;
-- (void)&ÿZc;
+- (void);
+- (unsigned long long)Bù1`1Â0@ù
+× ;
+- (struct CGSize)0@ù
+× ;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)ctCursorPanGestureWithState:(id)arg1 withTranslation:withFlickDirection: /* Error: Ran out of types for this method. */;
+- (_Bool)ltIndentationWidth;
+- (void)InactiveWidth;
+- (id)UIView",&,N,V_mirroredLightBorderView;
+- (void)ø¹ÿdr;
+- (void)VØÿbû;
+- (void)XÊÿØ¿c;
+- (double)Ä;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <_UIBarAppearanceChangeObserver> appearanceObserver;

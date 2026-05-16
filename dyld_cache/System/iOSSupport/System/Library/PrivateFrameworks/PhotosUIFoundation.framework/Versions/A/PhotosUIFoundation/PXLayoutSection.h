@@ -20,20 +20,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (struct CGRect);
-- (id);
-- (void);
-- (long long);
-- (void);
 - (struct CGSize);
-- (id);
 - (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
+- (struct CGRect);
 - (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAccurate) _Bool accurate; // @synthesize accurate=_accurate;

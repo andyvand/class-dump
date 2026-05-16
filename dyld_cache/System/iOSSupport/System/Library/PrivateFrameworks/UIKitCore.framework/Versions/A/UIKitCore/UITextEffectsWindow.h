@@ -33,124 +33,124 @@
     struct CGRect _hostedViewReference;
 }
 
-+ (id)loadADDefaultUserShell;
-+ (id);
 + (_Bool);
++ (id);
++ (id);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (id)!hAùqÁ1¢!0@ù
++ (void);
++ (id)
 × ;
-+ (void)oÐ!Cù±Á1¢!0@ù
++ (void)ControllerDelegate>";
++ (id)edTimestamps:(id)arg1 startingAt:endingAt: /* Error: Ran out of types for this method. */;
++ (id)ualTarget;
++ (void)sLayoutEngine:(Class)arg1;
++ (_Bool)hEvent;
++ (id)rgument's range different from the range of the context that the tracker was initialized with;
++ (id);
++ (id)ring *getkSymptomDiagnosticTypeEnergy(void);
++ (id)extColor;
+- (void);
+- (long long);
+- (void);
+- (unsigned int)Ð!HGùqdÐ1Â0@ù
 × ;
-+ (void)ChangedNotifications;
-+ (id)entedActionResponderOrBlock:(id)arg1;
-+ (_Bool)fIterations;
-+ (void)orChangedNotification;
-+ (id)c;
-+ (id)f;
-+ (id)~g;
+- (id)_sidebarAppearance;
+- (void)ÔÝ;
+- (void)ed.;
+- (void)ontentSizeCategory _Nonnull, __strong UIContentSizeCategory _Nonnull);
+- (id)iaServiceWarmUpQueue;
+- (struct CGRect)of the return to sender button in the document menu;
+- (struct UIEdgeInsets)icationShortcutAction:onWindowScene:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void):(double)arg1 failed to insert subtree from snapshotter (%@) into snapshotter (%@) at insertion index %ld;
+- (void)electionDragGesture;
+- (struct CGRect)peFitzpatrick5;
+- (double)left bounds;
+- (void)ill.autofillDetected;
+- (struct CGRect)the "%@" image referenced from a nib in the bundle with identifier "%@";
+- (void)le;
+- (void)region %f;
+- (id)putViewHiddenCount;
+- (_Bool)BEKeyEntry"8B16;
+- (_Bool)efined state.;
+- (void)dioCustom;
+- (void)ruid connection yet;
+- (id)onst char *__ui_archive_format_name(struct ui_archive *);
+- (_Bool)iew controller before calling a UIViewController initializer. View controller:(id)arg1 %@;
+- (_Bool)plyViewControllers;
+- (void)>;
+- (struct CGRect)turned a cell without a reuseIdentifier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (id)8Q16^B24;
+- (struct CGPoint)ourceSnapshot.numberOfSections;
+- (void)Action;
+- (id)ncyCATransactionCommit;
+- (void)l;
+- (void)olver;
+- (_Bool)ue;
+- (id)úZþÿ~%ÿÿ ÿÿ|%ÿÿÎ$ÿÿz%ÿÿiþÿx%ÿÿ;
+- (id);
+- (id);
+- (double)G;
+- (struct CGRect)p;
+- (_Bool)w/3Sg;
+- (_Bool)7yñ!¿7G;
+- (void)/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI;
 - (void);
-- (void)pectedToSend;
+- (void)EÀ7ì;
+- (struct CGSize)	;
+- (long long)SolariumInsetsAndCornerRadiusEnabled;
+- (id)ics;
+- (void);
 - (void);
-- (void)Êº;
-- (unsigned int)tMapGesture;
-- (id);
-- (long long)tWindowLevel:sceneLevel:forResponder:] /* Error: Ran out of types for this method. */;
-- (void);
-- (void)³è;
-- (void)PÃ`;
-- (void)¦Ê`;
-- (void)Kê`;
-- (void);
-- (_Bool)Êû`;
-- (struct CGRect)+ßþ;
-- (_Bool){ a;
-- (id)õ×G3a;
-- (id)9a;
-- (struct CGRect)Va;
-- (struct CGRect)Ëýa;
-- (void)a;
-- (void)a;
-- (_Bool)OÀa;
-- (void)ÛÍa;
-- (struct CGSize)Üæÿ©ÛÙàa;
-- (void)à®ØÐJb;
-- (_Bool)ÔÁfÿ¦ç×æb;
-- (void)#b;
+- (struct CGRect)ÜB;
 - (struct CGPoint);
-- (double)Ä 0ÿ;
-- (void))©b;
-- (id)×Èb;
-- (void)âb;
-- (void)M÷b;
-- (_Bool)&c;
-- (id)9È;
-- (void)vc;
-- (void)Ä(ÿ;
 - (struct CGRect);
-- (_Bool);
-- (void)×;
-- (void)ÿ&Z;
-- (_Bool)»c;
-- (void)¿;
-- (_Bool)PÜÿ×ñf;
-- (void)è°Óþ;
-- (id)ñ*d;
-- (id);
-- (void)Üëÿ9ýØ[Sd;
-- (struct CGPoint)©Ùcd;
-- (_Bool)ØSÒïld;
-- (void)d;
-- (struct CGPoint)ðþ@9$;
-- (void)*¯d;
-- (_Bool);
-- (id);
-- (_Bool)Ôìÿ;
-- (void)Ø®ÿî;
-- (void)þ;
-- (_Bool)Ê¿;
-- (struct CGRect)Èn(ÿØÓv7e;
-- (struct CGPoint)Be;
-- (_Bool);
-- (void)PÀÛþn>;
-- (struct CGPoint);
-- (id)Se;
-- (void)_¹e;
-- (struct CGRect)RÇe;
-- (_Bool)À@ÿàyÖñe;
-- (struct CGRect)¨*ÿ{PÓJf;
-- (id);
-- (void)<7þpsÖx+;
-- (struct CGRect)pEf;
-- (struct CGPoint)Yf;
-- (struct CGRect)z¶ÏµÚf;
-- (struct CGRect)ãìÿÌöÑk¡f;
-- (_Bool);
-- (long long)[Íü"g;
-- (id);
-- (void)3ÿ,èØcg;
+- (id);
+- (struct CGRect)Û;
+- (double);
+- (id);
+- (id)É¢Ê \;
+- (void)\;
 - (void);
-- (void)ÿ!Ô h;
-- (id)ÿûnÏzSg;
-- (id)ËgþqÜÍ\g;
-- (void)|Sãÿ46È±zg;
-- (struct CGRect)®;
-- (_Bool);
+- (_Bool)¬ZÒÄ\;
+- (struct CGPoint);
+- (_Bool)©];
+- (struct CGRect)çÿ>Òøî];
+- (void)^;
+- (struct CGSize)Ð6ÿ;
+- (_Bool)è½ÿ;
 - (void);
-- (_Bool)	ð;
-- (id)à¾h;
-- (struct CGPoint)ÈÛg;
-- (void)ÉÛhl;
+- (void)3W;
+- (_Bool)t`;
+- (id)^`;
+- (_Bool)Ö8`;
+- (struct CGPoint)T;
+- (void)Àa;
+- (_Bool)Àãþi(1;
+- (void)<a;
+- (void)è½a;
+- (void);
+- (struct CGRect)fb;
+- (_Bool)Ì<(ÿoìO;
+- (void)°öàÿRrÎ`ãb;
+- (void)2,ÙPÇc;
+- (void);
+- (void)Ú×5d;
+- (void)ðyòþpµÖÀÜd;
+- (struct CGRect)L*pÿ;pØuïh;
+- (struct CGPoint)ÛÒd;
+- (struct CGRect)ôþ;
+- (_Bool)q;
+- (void)Às8ÿÈ(;
+- (void)ÒÏÿbTq;
 - (struct CGSize);
-- (double)TÙÂh;
-- (void)kÌ¥h;
-- (double)~h;
-- (struct CGSize)"Ah;
-- (void)ÕSh;
-- (struct UIEdgeInsets)`-Åÿ;
-- (struct CGRect);
+- (void)PÙj;
+- (_Bool);
+- (struct CGPoint)TÕ|pg;
+- (_Bool)@pçþz;
+- (void)N;
+- (struct CGPoint)¤´h;
+- (void)¬¹{ÿÎÖèÍh;
 
 // Remaining properties
 @property(readonly) UIWindowScene *_intendedScene;

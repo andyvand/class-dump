@@ -11,7 +11,7 @@
     NSMutableDictionary *_clock;
 }
 
-+ (_Bool)	;
++ (_Bool);
 - (void);
 - (long long);
 - (unsigned long long);
@@ -24,20 +24,20 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
 - (_Bool);
-- (unsigned long long);
-- (id)yDraggedKnob;
+- (void)ssInputTargetState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

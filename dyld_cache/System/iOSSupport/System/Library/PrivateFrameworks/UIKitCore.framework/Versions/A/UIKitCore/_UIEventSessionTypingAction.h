@@ -12,7 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)iverStorage;
+- (long long)0@ù
+× ;
 
 @end
 

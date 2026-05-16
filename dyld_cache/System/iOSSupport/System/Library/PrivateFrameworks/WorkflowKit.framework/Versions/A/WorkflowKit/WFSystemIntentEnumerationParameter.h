@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)aScriptCoreRepresentation;
 
 // Remaining properties
 @property(readonly, nonatomic) INIntentSlotDescription *slotDescription; // @synthesize slotDescription=_slotDescription;

@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool)ledDidChange;
-- (void);
++ (_Bool);
 - (id);
+- (void);
 - (id);
 
 @end

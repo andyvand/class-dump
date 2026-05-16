@@ -19,25 +19,26 @@
     MISSING_TYPE *cachedCompactDetentHeight;
 }
 
-- (void)nonCallNotesInSource;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)lic}@ segmentSetIDs:(id)arg1 %{public}@ contentHash:(_Bool)arg2 %{public}@;
 - (void);
-- (id)rade to SMS, showing non-cellular blackhole message.;
-- (unsigned long long)0ÿqe;
-- (void)øÌ;
-- (void)àå¼;
-- (struct UIEdgeInsets))ï;
 - (void);
+- (void);
+- (void)ingJunkFilter;
+- (id)ÿÿ;
+- (void)yõ\AEy\yAEyAG_\AGtGG_6_\y@"]yAHyAEyAI_AgItGGG
+\yÜ\SgGGtGù\G_úÀAFyAgEy]yAGîÀG_AZyAGêÀGAZyAGçÀGAZyAGäÀGAZyAGáÀGAZyAGÞÀGAZyAGÛÀGtGAWGAFyAgZyAGÏÀGAWGAFyAgEyAZyAGÂÀG_A19_A19_A19_A19_A19_A19_tGAWG¦ÀtGG_Qo__Qo__U]y_N]y_7]yytß]yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_!]yAG7\GQo__­ ]yAAyABÂ]y¬ ]y ]yp]yACyAdFyAgEyAZyAG*ÀG_AZyAG&ÀGAZyAG#ÀGtGAWGG_Qo__Qo__A32_Qo__Qo_G_A38_Qo_t;
+- (struct UIEdgeInsets);
+- (unsigned long long)TRANSLATIONS_SUGGESTED_LANGUAGES_LONG;
+- (void)ecipients:chatIdentifier:] /* Error: Ran out of types for this method. */;
+- (void)·$9ÔÙ.;
 
 // Remaining properties
 @property(nonatomic, readonly) _UIRemoteViewController *_containedRemoteViewController;

@@ -27,15 +27,15 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id)#;
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSPointerArray *allKeyboardFocusable; // @synthesize allKeyboardFocusable=_allKeyboardFocusable;

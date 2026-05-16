@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (double);
-- (id)scopeToDirectInterface;
+- (id);
 - (id);
 - (void);
 - (void);
-- (double)esAfterDailyPatternsPruning;
+- (double);
+- (double)izedLocation.maintenance;
+- (void)s, %{sensitive}@, count, %lu, error, %@;
 
 // Remaining properties
 @property(nonatomic) double dailyDensityCorrection; // @synthesize dailyDensityCorrection=_dailyDensityCorrection;

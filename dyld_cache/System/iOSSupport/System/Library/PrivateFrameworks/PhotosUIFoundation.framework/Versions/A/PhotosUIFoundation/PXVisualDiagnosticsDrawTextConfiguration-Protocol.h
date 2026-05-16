@@ -7,8 +7,7 @@
 @class NSAttributedString, NSString, UIColor, UIFont;
 
 @protocol PXVisualDiagnosticsDrawTextConfiguration
-- (void)18PhotosUIFoundation17SettingsValidator33_7D61CC2309F4A7C1363274FED007C1AFLLP;
-- (double)Á.å´Éóÿ.åÈkðÿY.å¨Éóÿ1.å¬Éóÿ9.å°ÉóÿI.å´ÉóÿI.å´ÉóÿI.å´Éóÿi.å´Éóÿ	.ålðÿ.å¬Éóÿé-å¬Éóÿ9.å¬lðÿÉ-å¨ÉóÿÉ-å`kðÿ.å¤ÉóÿI.å¬lðÿ.åÉóÿ;
+- (void)CalendarUnit:(UIColor *)arg1 calendar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;

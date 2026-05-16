@@ -38,10 +38,9 @@
 + (id);
 + (id);
 + (id);
-+ (void)Ö?;
-+ (void):\F=Ó/½ÎT®?j4¹:n==7.½ïá?=Ö;äL=Í½±3?j;TI=^¡O½hxw?3;8$=Nï"½z?t	;´X=ê^g½kGm?%ì;ÛkA=2[½È`?B<_=~p~½_\^?Äè9<fw=¾¡½jÁW?jÂv<Ìî=r¿£½jhS?ÍÈ <£\=K¸½5
-Q?µÍ<ÇG«= Î½N?F_=ÛÀ½=å½¼K?©. =%ZÒ=öaý½$^J?r¿C=gGê=¥¾ñJ?l=²>nÃ¾1[J?`:=`>¹&¾(eJ?ð§=ñ·>¡ 4¾^*J?ÀÃ=å},>ÔB¾·I?@ã=By?>Q¾L?ã>UMP>÷_¾Þ:K?Ëò>ãb>¤©n¾ØÓJ?*>1xx>jú|¾!L?eª@>¦í>¾¸\M?ºX>Lá><j¾²-K?»q>C>á¾ÖK?¥->5«>]â¾eÂK?]>½¸>ó¾zpK?ÁÅ¢>@Ã>~o£¾X®G?ö¶±>ÒRÑ>[@¨¾HùE?+¾Á>µ¥Þ>áë«¾¸ÊC?º¡Ñ>aì>é¯¾¡/A?5â>Íú>¸X±¾ýO>?ò>?,Ô²¾;ª:?¢?;û
-?J{³¾ÁÅ6?µû	?vR?üV³¾B/?\Y?èÜ?ê<²¾³*?a?	ß?c°¾1Ñ$?j¾"?!?Ð­¾êÏ?´*?2'?Hù©¾?ën2?â,?P¥¾?ö9?1?TU ¾6#?{0A?6;2?ñ¾© /* Error: Ran out of types for this method. */;
++ (void);
++ (void)~«>Wk?,l?ÄQ¾TÉ>¨o?t
+j?wI<¾[]>á|r?qËg?Kw'¾cÐi>;qu?ÒRe?>¾ßPH>ÿw?À²b?Óôù½Ò)>A-z?rm`?ÏÏ½jÜ>÷{?W¯^?Mõ¤½hèß=h}?ò}]?u½N¦=K~?ß\?åa!½i[=³_?^f\?d> ¼§×<ÏØ?z[?8O9()°¸;
 - (void);
 - (id);
 - (_Bool);
@@ -153,27 +152,459 @@ Q?µÍ<ÇG«= Î½N?F_=ÛÀ½=å½¼K?©. =%ZÒ=öaý½$^J?r¿C=gGê=
 - (long long);
 - (id);
 - (void);
+- (void);
+- (_Bool);
 - (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)0@ù
+- (id)1°1â
+0@ù
 × ;
-- (id);
-- (_Bool)¸ûÿûÿ;
-- (void)CaptureDuringSnapshot;
-- (float);
-- (id);
-- (void)revfx_function_constants_EnableNonVRRAnisotropy,
+- (float);
+- (void)';
+- (void)xhÿY;
+- (void)G]      cell count:(id)arg1;
+- (_Bool)tCount;
+constexpr int kMaxPointLightCount = kVFXMaxPointLightCount;
+constexpr int kMaxPointUnshadowedLightCount = kVFXMaxPointUnshadowedLightCount;
+constexpr int kMaxSpotLightCount = kVFXMaxSpotLightCount;
+constexpr int kMaxSpotUnshadowedLightCount = kVFXMaxSpotUnshadowedLightCount;
+constexpr int kMaxAmbientLightCount = kVFXMaxAmbientLightCount;
+constexpr int kMaxRectangleUnshadowedLightCount = kVFXMaxRectangleUnshadowedLightCount;
+constexpr int kMaxRealWorldProxyLightCount = kVFXMaxRealWorldProxyLightCount;
+constexpr int kMaxSpotFilteredLightCount = kVFXMaxSpotFilteredLightCount;
+constexpr int kMaxSpotFilteredUnshadowedLightCount = kVFXMaxSpotFilteredUnshadowedLightCount;
+constexpr int kMaxPointFilteredLightCount = kVFXMaxPointFilteredLightCount;
+constexpr int kMaxPointFilteredUnshadowedLightCount = kVFXMaxPointFilteredUnshadowedLightCount;
+#   endif 
+
+#endif 
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING && defined(__cplusplus) && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_LightCounts) == sizeof(re::LightCounts), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightDirectional) == sizeof(re::LightDirectional), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightPoint) == sizeof(re::LightPoint), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightSpot) == sizeof(re::LightSpot), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightRealWorldProxy) == sizeof(re::LightRealWorldProxy), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightAmbient) == sizeof(re::LightAmbient), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightRectangle) == sizeof(re::LightRectangle), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_IBLConstants) == sizeof(re::IBLConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightConstantBuffer) == sizeof(re::LightConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_LightCounts) == alignof(re::LightCounts), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightDirectional) == alignof(re::LightDirectional), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightPoint) == alignof(re::LightPoint), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightSpot) == alignof(re::LightSpot), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightAmbient) == alignof(re::LightAmbient), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightRectangle) == alignof(re::LightRectangle), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_IBLConstants) == alignof(re::IBLConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightConstantBuffer) == alignof(re::LightConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(kVFXMaxLightCount == kMaxLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxDirectionalLightCount == kMaxDirectionalLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxDirectionalUnshadowedLightCount == kMaxDirectionalUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointLightCount == kMaxPointLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointUnshadowedLightCount == kMaxPointUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotLightCount == kMaxSpotLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotUnshadowedLightCount == kMaxSpotUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxAmbientLightCount == kMaxAmbientLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxRectangleUnshadowedLightCount == kMaxRectangleUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxRealWorldProxyLightCount == kMaxRealWorldProxyLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotFilteredLightCount == kMaxSpotFilteredLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotFilteredUnshadowedLightCount == kMaxSpotFilteredUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointFilteredLightCount == kMaxPointFilteredLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointFilteredUnshadowedLightCount == kMaxPointFilteredUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_CLIPPING
+#  import "REShaders/Clipping.h"
+#endif 
+
+typedef struct
+{
+    simd_float4 toUnitClippingSpaceXAndOriginX;
+    simd_float4 toUnitClippingSpaceYAndOriginY;
+    simd_float4 toUnitClippingSpaceZAndOriginZ;
+
+    
+    
+    simd_float3 padding;
+} VFX_RE_C_ClippingParametersEntry;
+#if defined(__OBJC__) && !defined(__cplusplus)
+typedef NS_ENUM(int32_t, VFX_RE_C_ClippingConstantsConstants)
+{
+    kREVFXMaxNumClippingParameters = 1024,
+    kREVFXMaxNumClippingIndices = 16384,
+    kREVFXMaxDynamicClippingPrimitivesPerMesh = 32
+};
+#elif __METAL_VERSION__
+constant int kREVFXMaxNumClippingParameters = 1024;
+constant int kREVFXMaxNumClippingIndices = 16384;
+constant ushort kREVFXMaxDynamicClippingPrimitivesPerMesh = 32;
+#else
+constexpr int kREVFXMaxNumClippingParameters = 1024;
+constexpr int kREVFXMaxNumClippingIndices = 16384;
+constexpr ushort kREVFXMaxDynamicClippingPrimitivesPerMesh = 32;
+#endif
+
+typedef struct REVFXClippingRoundedCornerParametersEntry_s
+{
+    simd_float4 dimensionFactors;
+    simd_ushort4 textureIndices;
+    simd_float2 blendWeights;
+} VFX_RE_C_ClippingRoundedCornerParametersEntry;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(256) VFX_RE_C_ClippingConstants_s
+{
+    VFX_RE_C_ClippingParametersEntry clippingParameters[kREVFXMaxNumClippingParameters];
+    uint16_t indexIndirection[kREVFXMaxNumClippingIndices];
+    VFX_RE_C_ClippingRoundedCornerParametersEntry roundedCornerParameters[kREVFXMaxNumClippingParameters];
+} VFX_RE_C_ClippingConstants;
+
+#if VFX_IMPORT_RE_SHADERS_CLIPPING
+typedef re::ClippingParametersEntry ClippingParametersEntry;
+typedef re::ClippingRoundedCornerParametersEntry ClippingRoundedCornerParametersEntry;
+typedef re::ClippingConstants ClippingConstants;
+#else
+typedef VFX_RE_C_ClippingParametersEntry ClippingParametersEntry;
+typedef VFX_RE_C_ClippingRoundedCornerParametersEntry ClippingRoundedCornerParametersEntry;
+typedef VFX_RE_C_ClippingConstants ClippingConstants;
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_CLIPPING && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ClippingParametersEntry) == sizeof(re::ClippingParametersEntry), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ClippingRoundedCornerParametersEntry) == sizeof(re::ClippingRoundedCornerParametersEntry), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ClippingConstants) == sizeof(re::ClippingConstants), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ClippingParametersEntry) == alignof(re::ClippingParametersEntry), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ClippingRoundedCornerParametersEntry) == alignof(re::ClippingRoundedCornerParametersEntry), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ClippingConstants) == alignof(re::ClippingConstants), "vfx_re_shaders:struct alignof mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES
+#  import "REShaders/SharedProbeConstants.h"
+#  import "REShaders/SharedProbe.h"
+#endif
+
+
+
+
+#if __METAL_VERSION__
+
+constant uint kVFXMaxLocalizedProbeCountDefault = 4;
+
+constant uint kVFXMaxGlobalProbeCountDefault = 3;
+#elif defined(__cplusplus)
+constexpr uint kVFXMaxLocalizedProbeCountDefault = 4;
+constexpr uint kVFXMaxGlobalProbeCountDefault = 3;
+#else
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxProbeCountDefault)
+{
+    kVFXMaxLocalizedProbeCountDefault = 4,
+    kVFXMaxGlobalProbeCountDefault = 3
+};
+#endif 
+
+
+
+#if TARGET_OS_VISION
+
+#if __METAL_VERSION__
+
+constant uint kVFXMaxLocalizedProbeCount = 0;
+
+constant uint kVFXMaxGlobalProbeCount = 2;
+#elif defined(__cplusplus)
+constexpr uint kVFXMaxLocalizedProbeCount = 0;
+constexpr uint kVFXMaxGlobalProbeCount = 2;
+#else
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxProbeCount)
+{
+    kVFXMaxLocalizedProbeCount = 0,
+    kVFXMaxGlobalProbeCount = 2
+};
+#endif 
+
+#else 
+
+#if __METAL_VERSION__
+constant uint kVFXMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCountDefault;
+constant uint kVFXMaxGlobalProbeCount = kVFXMaxGlobalProbeCountDefault;
+#elif defined(__cplusplus)
+constexpr uint kVFXMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCountDefault;
+constexpr uint kVFXMaxGlobalProbeCount = kVFXMaxGlobalProbeCountDefault;
+#else
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxProbeCount)
+{
+    kVFXMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCountDefault,
+    kVFXMaxGlobalProbeCount = kVFXMaxGlobalProbeCountDefault
+};
+#endif 
+
+#endif 
+
+typedef struct
+{
+    uint32_t localizedProbeCount;
+    uint32_t globalProbeCount;
+} VFX_RE_C_ProbeCounts;
+
+typedef struct
+{
+    simd_float3x3 axes;
+    simd_float3 parallaxCenter;
+    simd_float3 parallaxScale;
+    float minScale; 
+    float fadeDistance;
+    
+    float weight;
+    
+    float crossWeight;
+    float clippingPointLux;
+    uint32_t textureSlice;
+    uint32_t crossSlice;
+    float crossClippingPointLux;
+} VFX_RE_C_LocalizedProbeConstant;
+
+typedef struct
+{
+    simd_float3x3 axes;
+    simd_float3 parallaxCenter;
+    simd_float3 parallaxScale;
+    float radius; 
+    
+    float weight;
+    
+    float crossWeight;
+    float clippingPointLux;
+    uint32_t textureSlice;
+    uint32_t crossSlice;
+    float crossClippingPointLux;
+} VFX_RE_C_GlobalProbeConstant;
+
+typedef struct VFX_RE_C_ProbeConstantBuffer_s
+{
+    VFX_RE_C_ProbeCounts counts;
+    bool enableLegacyBlur;
+    float probeIntensityScale;
+    VFX_RE_C_LocalizedProbeConstant localizedProbes[kVFXMaxLocalizedProbeCountDefault];
+    VFX_RE_C_GlobalProbeConstant globalProbes[kVFXMaxGlobalProbeCountDefault];
+    
+    simd_float3x3 combinedMatrix;
+    float probeClampFloor;
+    float probeClampCeil;
+} VFX_RE_C_ProbeConstantBuffer;
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES
+typedef re::ProbeCounts ProbeCounts;
+typedef re::LocalizedProbeConstant LocalizedProbeConstant;
+typedef re::GlobalProbeConstant GlobalProbeConstant;
+typedef re::ProbeConstantBuffer ProbeConstantBuffer;
+constant uint32_t kMaxLocalizedProbeCount = re::kMaxLocalizedProbeCount;
+constant uint32_t kMaxGlobalProbeCount = re::kMaxGlobalProbeCount;
+#else
+typedef VFX_RE_C_ProbeCounts ProbeCounts;
+typedef VFX_RE_C_LocalizedProbeConstant LocalizedProbeConstant;
+typedef VFX_RE_C_GlobalProbeConstant GlobalProbeConstant;
+typedef VFX_RE_C_ProbeConstantBuffer ProbeConstantBuffer;
+#  if __METAL_VERSION__
+constant uint32_t kMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCount;
+constant uint32_t kMaxGlobalProbeCount = kVFXMaxGlobalProbeCount;
+#  elif defined(__cplusplus)
+constexpr uint32_t kMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCount;
+constexpr uint32_t kMaxGlobalProbeCount = kVFXMaxGlobalProbeCount;
+#  endif
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ProbeCounts) == sizeof(re::ProbeCounts), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LocalizedProbeConstant) == sizeof(re::LocalizedProbeConstant), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_GlobalProbeConstant) == sizeof(re::GlobalProbeConstant), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ProbeConstantBuffer) == sizeof(re::ProbeConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ProbeCounts) == alignof(re::ProbeCounts), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LocalizedProbeConstant) == alignof(re::LocalizedProbeConstant), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_GlobalProbeConstant) == alignof(re::GlobalProbeConstant), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ProbeConstantBuffer) == alignof(re::ProbeConstantBuffer), "vfx_re_shaders:struct alignof mismatch");
+
+static_assert(kVFXMaxLocalizedProbeCount == re::kMaxLocalizedProbeCount, "vfx_re_shaders:max probe count mismatch");
+static_assert(kVFXMaxGlobalProbeCount == re::kMaxGlobalProbeCount, "vfx_re_shaders:max probe count mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_VIRTUAL_ENV_PROBES
+#  import <REShaders/SharedVirtualEnvironmentProbes.h>
+#endif
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+#  import <REShaders/SharedBreakthrough.h>
+#endif
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+typedef re::BreakthroughGPUData BreakthroughGPUData;
+#elif defined(__METAL_VERSION__)
+struct BreakthroughGPUData;
+#endif
+
+
+
+
+typedef VFX_RE_SHADERS_ENUM(int32_t) {
+    revfx_portal_clipping_mode_none                 = 0,
+    revfx_portal_clipping_mode_clipping             = 1,
+    revfx_portal_clipping_mode_crossing_inside      = 2,
+    revfx_portal_clipping_mode_crossing_outside     = 3,
+    revfx_portal_clipping_mode_no_clipping_inside   = 4,
+    revfx_portal_clipping_mode_count
+} revfx_portal_clipping_mode;
+
+#define VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED 1
+#define VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION (!TARGET_OS_SIMULATOR)
+
+
+typedef VFX_RE_SHADERS_ENUM(int32_t)
+{
+    revfx_function_constants_EdgeBevelShadowMode,
+    revfx_function_constants_EnableGlow,
+    revfx_function_constants_EnableNormalMap,
+    revfx_function_constants_EnableDetailMapping,
+    revfx_function_constants_EnableIBL,
+    revfx_function_constants_EnableAreaLight,
+    revfx_function_constants_EnableRMAS,
+    revfx_function_constants_EnableSeparateRMAS,
+    revfx_function_constants_EnableSRGBOutput,
+    revfx_function_constants_EnableTransparency,
+    revfx_function_constants_DiffuseOption,
+    revfx_function_constants_EnableLightmap,
+    revfx_function_constants_EnableDynamicLighting,
+    revfx_function_constants_EnableNdfFiltering,
+    revfx_function_constants_LodCrossFading,
+    revfx_function_constants_EnableAlphaCutoutShadows,
+    revfx_function_constants_EnableScreenSpaceAdaptiveTessellation,
+    revfx_function_constants_EnableUnlitTexture,
+    revfx_function_constants_EnableAREnvProbe,
+    revfx_function_constants_EnableSRGBToLinearConversion,
+    revfx_function_constants_EnableBaseColorMap,
+    revfx_function_constants_EnableEmissiveMap,
+    revfx_function_constants_EnableRoughnessMap,
+    revfx_function_constants_EnableMetallicMap,
+    revfx_function_constants_EnableAOMap,
+    revfx_function_constants_EnableSpecularMap,
+    revfx_function_constants_EnableClearcoat,
+    revfx_function_constants_EnableVertexColor,
+    revfx_function_constants_VertexColorOption,
+    revfx_function_constants_ShadowPcfFilterOption,
+    revfx_function_constants_EnableOpacityMap,
+    revfx_function_constants_UseBaseColorMapAsTintMask,
+    revfx_function_constants_EnableTension,
+    revfx_function_constants_EnableOpacityThreshold,
+    revfx_function_constants_EnablePerTileLightCulling,
+    revfx_function_constants_EnableClipping,
+    revfx_function_constants_EnableCloth,
+    revfx_function_constants_EnableCustomBlend,
+    revfx_function_constants_EnablePassthrough,
+    revfx_function_constants_EnableSSAO,
+    revfx_function_constants_EnableSSDO,
+    revfx_function_constants_EnableDebug,
+    revfx_function_constants_EnableSphericalSkybox,
+    revfx_function_constants_MeshShadow,
+    revfx_function_constants_EnableSamplerArray,
+    revfx_function_constants_EnablePassthroughBlurPlane,
+    revfx_function_constants_EnableDitherFade,
+    revfx_function_constants_EnableProjectiveShadow,
+    revfx_function_constants_EnablePostProcessBlur,
+    revfx_function_constants_BaseColorHasPremultipliedAlpha,
+    revfx_function_constants_EnableMultiUVs,
+    revfx_function_constants_EnableVRROnCapableDevice,
+    revfx_function_constants_AllowAlphaBlendingWithOpacityThreshold,
+    revfx_function_constants_EnableAnisotropy,
+    revfx_function_constants_EnablePlanarReflection,
+    revfx_function_constants_SupportsCubeArray,
+    revfx_function_constants_EnableBlurMeshScaling,
+    revfx_function_constants_SupportsPrefilteredProbes,
+    revfx_function_constants_EnableMultiscatter,
+    revfx_function_constants_EnableShaderColorToLinearConversion,
+    revfx_function_constants_EnablePtCrossing,
+    revfx_function_constants_EnableFoveatedCARendering,
+    revfx_function_constants_EnableInstancing,
+    revfx_function_constants_EnableIBLRotation,
+    revfx_function_constants_EnableIBLDirectionsBend,
+    revfx_function_constants_EnableWorldSpaceNormalMap,
+    revfx_function_constants_EnablePlatter,
+    revfx_function_constants_EnableVCABlurPlane,
+    revfx_function_constants_SpecularOption,
+    revfx_function_constants_EnableShadowedDynamicLight,
+    revfx_function_constants_EnableCAEdgeBevel,
+    revfx_function_constants_EnableCAShaderDebug,
+    revfx_function_constants_EnableCAPerEyeTransform,
+    revfx_function_constants_EnableInset,
+    revfx_function_constants_VideoPlaybackOption,
+    revfx_function_constants_EnableTriPlanarVideoSupport,
+    revfx_function_constants_EnableInverseToneMapping,
+#if VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+    revfx_function_constants_EyeFilter,
+    revfx_function_constants_ExperienceMode,
+    revfx_function_constants_EnableHDRCroppingUVRemapping,
+#endif
+    revfx_function_constants_EnableSurfaceShaderCustomParams,
+    revfx_function_constants_EnableSurfaceShaderWithCustomParams,
+    revfx_function_constants_EnableGeometryModifierWithCustomParams,
+    revfx_function_constants_CAEdgeSpecularMode,
+    revfx_function_constants_EnableVideoColorSpaceConversion,
+    revfx_function_constants_EnableVideoColorSpaceTransformation,
+    revfx_function_constants_IsPtSurface,
+    revfx_function_constants_EnableSurfaceShaderPremultipliedOutput,
+    revfx_function_constants_RenderToCompositeLayer,
+    revfx_function_constants_EnableDepthMitigation,
+    revfx_function_constants_EnableBtMask,
+    revfx_function_constants_EnableTonemapInPlace,
+    revfx_function_constants_EnableDragUIShadow,
+    revfx_function_constants_EnableVideoColorTransformation,
+    revfx_function_constants_EnableBtTransition,
+    revfx_function_constants_UseFullscreenQuadForImmersionMask,
+    revfx_function_constants_UseDirectionalLight,
+    revfx_function_constants_EnableUserEnvironment,
+    revfx_function_constants_DisableFoveatedCA,
+    revfx_function_constants_EnableRuntimeFunctionConstants,
+    revfx_function_constants_EnableScreenVideoLetterBoxPadding,
+    revfx_function_constants_EnableREShadersTonemapInPlace,
+    revfx_function_constants_RenderForBlur,
+    revfx_function_constants_EnableNearFieldVignetting,
+    revfx_function_constants_EnableCAPreSamplerDegamma,
+    revfx_function_constants_GlobalProbeCount,
+    revfx_function_constants_LocalProbeCount,
+    revfx_function_constants_EnableCrossBlending,
+    revfx_function_constants_EnableSpecularPerQuadRoughness,
+    revfx_function_constants_EnableCAVertexObjPos,
+    revfx_function_constants_PerceptualBlendingMode,
+    revfx_function_constants_MatchUnlitColor,
+    revfx_function_constants_EnableEdgeAnalyticAA,
+    revfx_function_constants_EnableSpatialFocus,
+    revfx_function_constants_EnableNonVRRAnisotropy,
     revfx_function_constants_EnableSurfaceShaderColorDithering,
     revfx_function_constants_EnablePlatterFakeFresnel,
     revfx_function_constants_SurfaceShaderAttributeSet,
@@ -413,369 +844,54 @@ struct re_vfx_object_constants {
 
 #endif 
  /* Error: Ran out of types for this method. */;
-- (float)- 1);
-#else
-        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
+- (void)RIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.color += wP[i] * float4(osdFaceVaryingData[index], osdFaceVaryingData[index+1], osdFaceVaryingData[index+2], osdFaceVaryingData[index+3]);
+        index += 4;
 #endif
-        float3 dir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
-        float3 LD = specularLD.sample(vfx_lighting::linearSampler, dir, level(mipLevel)).rgb;
-        pbr.envSpecular += pbr.probeReflectance * LD * ao * environmentIntensity;
-    }
-
-#ifdef USE_CLEARCOAT
-    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
-                          float4x4                           localDirToWorldCubemapDir,
-                          float                              environmentIntensity)
-    {
-        float3 n = surface.clearCoatNormal;
-        
-        float3 v        = surface.view;
-        float3 r        = reflect(-v, n); 
-        float roughness = surface.clearCoatRoughness;
-
-        
-        
-        float ao = surface.ambientOcclusion;
-        
-        
-#ifdef USE_BENTNORMALS
-        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
+#if defined(NEED_IN_TEXCOORD0) && (OSD_TEXCOORD0_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[0] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
 #endif
-        
-        
-        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
-        float3 LD = specularLD.sample(vfx_lighting::linearSampler, vfx::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
-
-        
-        float Fc = vfx_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
-        float attenuation = 1.0f - Fc;
-        specular *= (attenuation * attenuation);
-        
-        specular += pbr.probeReflectanceClearCoat * LD  * surface.clearCoat * ao * environmentIntensity;
-    }
+#if defined(NEED_IN_TEXCOORD1) && (OSD_TEXCOORD1_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[1] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
 #endif
-    
-    
-
-    void add_irradiance_from_selfIllum()
-    {
-        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
-        float3 irradiance = surface.selfIllumination.rgb;
-        
-        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
-#ifdef USE_PBR_LAMBERTIAN_REFLECTION
-        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
-#else
-        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
-        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#if defined(NEED_IN_TEXCOORD2) && (OSD_TEXCOORD2_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[2] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD3) && (OSD_TEXCOORD3_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[3] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD4) && (OSD_TEXCOORD4_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[4] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD5) && (OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[5] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD6) && (OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[6] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD7) && (OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[7] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
 #endif
     }
-
-    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
-#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
-                                       sh2_coefficients shCoefficients)
-#else
-    sh3_coefficients shCoefficients)
-#endif
-    {
-#ifdef USE_BENTNORMALS
-        float3 n = surface.bentNormal;
-        float ao = surface.aoDirectionnal;
-#else
-        float3 n = surface.normal;
-        float ao = surface.ambientOcclusion;
-#endif
-        float3 n_sh_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, n);
-        float3 irradiance = shEvalDirection(float4(n_sh_space.xy, -n_sh_space.z, 1.), shCoefficients);
-        
-        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
-#ifdef USE_PBR_LAMBERTIAN_REFLECTION
-        pbr.envDiffuse += ao * irradiance * diffuseAlbedo;
-#else
-        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
-        pbr.envDiffuse += ao * irradiance * diffuseReflectance;
-#endif
-    }
-
-    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
-                                     float4x4                           localDirToWorldCubemapDir,
-                                     float                              environmentIntensity)
-    {
-#if USE_PBR_DOMINANT_DIRECTION
-#ifdef USE_BENTNORMALS
-        float3 n = surface.bentNormal;
-        float ao = surface.aoDirectionnal;
-#else
-        float3 n = surface.normal;
-        float ao = surface.ambientOcclusion;
-#endif
-        float3 v = surface.view;
-        
-        
-        const half a = 1.02341h * surface.roughness - 1.51174h; 
-        const half b = -0.511705h * surface.roughness + 0.755868h;
-        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
-        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
-#else
-        float3 diffuseDominantNDirection = n;
-#endif
-        
-        float3 n_cube_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
-        float3 irradiance = irradianceTexture.sample(vfx_lighting::linearSampler, n_cube_space).rgb;
-        
-        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
-        
-#ifdef USE_PBR_LAMBERTIAN_REFLECTION
-        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseAlbedo;
-#else
-        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
-        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseReflectance;
-#endif
-    }
-
 #endif 
-
-#ifdef USE_IES_LIGHT
-    
-
-    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
-    
-    float ies_attenuation(float3 l, vfx_light light, texture2d<half> iesTexture)
-    {
-#if USE_QUAT_FOR_IES
-        float3 v    = vfx::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
-#else
-        float3 v    = vfx::matrix_rotate(light.parameters.ies.light_from_view, -l);
-#endif
-        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
-        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
-        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
-    }
-
-    void add_ies(vfx_light light, texture2d<half> iesTexture)
-    {
-        float3 unnormalized_l = light.pos - surface.position;
-        float3 l = normalize(unnormalized_l);
-        float intensity = dist_attenuation(unnormalized_l, light);
-        intensity      *= ies_attenuation(l, light, iesTexture);
-        shade(l, light.color.rgb, intensity);
-    }
-
-    void add_ies_soft_shadows(vfx_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
-    {
-        float3 unnormalized_l = light.pos - surface.position;
-        float3 l = normalize(unnormalized_l);
-        float intensity = dist_attenuation(unnormalized_l, light);
-        intensity      *= ies_attenuation(l, light, iesTexture);
-        intensity      *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
-        shade(l, light.color.rgb, intensity);
-    }
-#endif
-
-#ifdef USE_AREA_LIGHT
-    
-
-    void add_area_rectangle(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-        float3 v = surface.view;
-        float3 n = surface.normal;
-        float3 p = surface.position;
-
-        
-        float3 tangent = normalize(v - n * dot(v, n));
-        float3 bitangent = cross(n, tangent);
-        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
-
-        float3 lightCenter = light.shadowMatrix[3].xyz;
-        
-        
-        float sidedness = dot(light.dir, lightCenter - p);
-        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
-            return;
-        
-        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
-        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
-        
-        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
-                                             (lightCenter + lightRight - lightTop) - p,
-                                             (lightCenter - lightRight - lightTop) - p,
-                                             (lightCenter - lightRight + lightTop) - p);
-
-        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
-        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
-        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
-        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
-
-        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
-
-        float brdfNorm = 1.f;
-        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
-
-        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
-        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
-        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
-        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
-
-        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
-
-        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
-        
-        float3 lightColor = light.color.rgb;
-        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
-        specular += specularAmount * lightColor * pbr.reflectance;
-#endif
-    }
-
-    void add_area_polygon(vfx_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
-    {
-#ifdef USE_PBR
-        float3 v = surface.view;
-        float3 n = surface.normal;
-        float3 p = surface.position;
-
-        
-        float3 tangent = normalize(v - n * dot(v, n));
-        float3 bitangent = cross(n, tangent);
-        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
-
-        float3 lightCenter = light.shadowMatrix[3].xyz;
-        
-        
-        float sidedness = dot(light.dir, lightCenter - p);
-        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
-            return;
-        
-        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
-        float3 lightTop   = light.shadowMatrix[1].xyz;
-
-        p           = shadingSpaceTransform * p;
-        lightCenter = shadingSpaceTransform * lightCenter;
-        lightRight  = shadingSpaceTransform * lightRight;
-        lightTop    = shadingSpaceTransform * lightTop;
-
-        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
-
-        float brdfNorm = 1.f;
-        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
-
-        p           = inverseLTCMatrix * p;
-        lightCenter = inverseLTCMatrix * lightCenter;
-        lightRight  = inverseLTCMatrix * lightRight;
-        lightTop    = inverseLTCMatrix * lightTop;
-
-        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
-        
-        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
-
-        float3 lightColor = light.color.rgb;
-        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
-        specular += specularAmount * lightColor * pbr.reflectance;
-#endif
-    }
-
-    void add_area_line(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-        float3 v = surface.view;
-        float3 n = surface.normal;
-        float3 p = surface.position;
-
-        
-        float3 tangent = normalize(v - n * dot(v, n));
-        float3 bitangent = cross(n, tangent);
-        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
-
-        float3 lightCenter = light.shadowMatrix[3].xyz;
-        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
-
-        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
-                                             (lightCenter - lightRight) - p);
-
-        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
-        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
-
-        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
-
-        float brdfNorm = 1.f;
-        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
-
-        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
-        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
-
-        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
-
-        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
-        float ltcWidthFactor = 1.0 / length(vfx_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
-        specularAmount *= ltcWidthFactor;
-        
-        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
-
-        float3 lightColor = light.color.rgb;
-        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
-        specular += specularAmount * lightColor * pbr.reflectance;
-#endif
-    }
-
-    void add_area_ellipse(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-#endif
-    }
-
-    void add_area_ellipsoid(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-#endif
-    }
-#endif
-};
-
-#endif 
- /* Error: Ran out of types for this method. */;
-- (void)DEX) ]],
-                                         constant OsdFVarChannelDesc* osdFaceVaryingChannelDescriptors [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_DESCRIPTORS_INDEX) ]],
-                                         constant uint32_t&           osdFaceVaryingPatchArrayIndex    [[ buffer(OSD_FVAR_CHANNELS_PATCH_ARRAY_INDEX_BUFFER_INDEX) ]],
-                                         constant void*               osdFaceVaryingChannelsPackedData [[ buffer(OSD_FVAR_CHANNELS_PACKED_DATA_BUFFER_INDEX) ]]
-#else
-                                         constant float*              osdFaceVaryingData               [[ buffer(OSD_FVAR_DATA_BUFFER_INDEX) ]],
-                                         constant int*                osdFaceVaryingIndices            [[ buffer(OSD_FVAR_INDICES_BUFFER_INDEX) ]],
-                                         constant packed_int3*        osdFaceVaryingPatchParams        [[ buffer(OSD_FVAR_PATCHPARAM_BUFFER_INDEX) ]],
-                                         constant packed_int4&        osdFaceVaryingPatchArray         [[ buffer(OSD_FVAR_PATCH_ARRAY_BUFFER_INDEX) ]]
-#endif
-                                         )
-{
-    if (index >= pointCount)
-        return;
-    
-    
-    
-    osd_rt_extra_point extraPoint = extraPoints[index];
-    
-    osd_rt_eval_fvar(dstData + index * vertexStride,
-#if OSD_FVAR_USES_MULTIPLE_CHANNELS
-                     osdFaceVaryingChannelCount,
-                     osdFaceVaryingChannelDescriptors,
-                     osdFaceVaryingPatchArrayIndex,
-                     osdFaceVaryingChannelsPackedData,
-#else
-                     osdFaceVaryingData,
-                     osdFaceVaryingIndices,
-                     osdFaceVaryingPatchParams,
-                     osdFaceVaryingPatchArray,
-#endif
-                     extraPoint.patchID,
-                     extraPoint.UV);
-    
 }
-
 #endif 
 ;
+- (float)ormer_wrap_legacy_relative;
 - (_Bool);
-- (void)=D?L¤D¾b1>6°m?ÎB?Bv.¾Ó0|>Ýq?ùj??¶»¾õT>su?9´<?vp;
-- (void)¸Xm?8»]?>¾Úu>|}q?%²[?¸W&¾Ðf>×u?B{Y?4¾æB>x?]5W?·Aí½hÍ>~z?U?Ùµ½½;
-- (void)©M ?Ii^?È¾G?tz&?Ít_?zàÃ¾ý=?éº,?¢Ò`?]5¿¾
-5?°3?;b?Öÿ¹¾,?íH9?Ïc?AJ´¾F³"?É??Ôe?ø­¾L??ÉE?/5f?R¸¦¾âw?L?®Ig?g·¾þ?k'R?iäg?ÕA¾ëýö>aýW?/h?W¾Ðâ>{]?k-h?¾«Î>Zb?cíg?t¾{º>õgg?öf?Â`¾S¦>Ìk?K¯e?;J¾­>^Ûo?Íc?¹;
+- (void);
+- (id);
+- (void)NÖVB¨;
+- (void)>Dt??6!-¾N>Ó£u?dv?3©!¾Ûm>¿ðv?}?,Õ¾¥X>©2x?b?!
+¾À	E>Yy?î>{?¯Ìû½È1>	pz?yxw?nßã½>i{?¯ës?SË½c{>]O|?È¶p?³½péø=H}?Lám?o¼½EõÖ=Í}?ÿYk?_	½îµ=¶g~?8,i?ÏY½b=óè~?.Wg?H5,½duk=ÂP?Ëe?cþ¼rQ-=ý?fld?-z§¼Þâ<bÖ?õc?ø#¼`"^<ùõ?e¥a?RI9~â¸;
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha;

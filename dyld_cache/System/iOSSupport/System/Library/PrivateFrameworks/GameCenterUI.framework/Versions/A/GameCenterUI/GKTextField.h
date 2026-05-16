@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) GKTextStyle *appliedStyle; // @synthesize appliedStyle=_appliedStyle;

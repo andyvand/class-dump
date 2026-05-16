@@ -14,19 +14,19 @@
     struct CGRect _clippingRect;
 }
 
-+ (_Bool)eEditorSectionController>"16@"NSArray"24;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
-- (void)h;
-- (id)@;
-- (id)CListener;
-- (void)c;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL;

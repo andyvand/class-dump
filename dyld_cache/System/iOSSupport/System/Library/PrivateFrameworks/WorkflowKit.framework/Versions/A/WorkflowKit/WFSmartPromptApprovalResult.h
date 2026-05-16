@@ -16,7 +16,7 @@
     NSString *_actionUUID;
 }
 
-+ (_Bool)D1FB470E-6A2D-44B7-892D-37F30591754C;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,11 +24,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (void)should only be run on javaScriptEvaluationThread;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionUUID; // @synthesize actionUUID=_actionUUID;

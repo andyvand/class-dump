@@ -13,13 +13,13 @@
     double _wallTime;
 }
 
-+ (id)R#;
++ (id);
+- (id);
+- (unsigned long long);
 - (double);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (unsigned long long)te: /* Error: Ran out of types for this method. */;
-- (id);
 - (unsigned long long);
 
 // Remaining properties

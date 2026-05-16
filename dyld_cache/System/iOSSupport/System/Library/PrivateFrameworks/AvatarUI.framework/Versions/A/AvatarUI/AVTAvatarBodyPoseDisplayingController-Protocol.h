@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarBodyPoseDisplayingController
-- (void);
 @end
 

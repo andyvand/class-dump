@@ -13,24 +13,23 @@
     long long _style;
 }
 
-+ (Class);
-+ (id)vÚ¸X];
-- (void)V_payloadPinHistory;
++ (id);
++ (Class)0@ù
+× ;
 - (void);
-- (void);
 - (id);
-- (void)
-× ;
-- (void)@ù
-× ;
-- (id);
-- (id);
-- (id)tLineOfCell:(long long)arg1 rowWidth:(id)arg2 forSizing: /* Error: Ran out of types for this method. */;
-- (void)dViewController;
-- (id)x<à °¢;
-- (void)´;
-- (id)VÛk;
-- (id)kÿ;
+- (void)¡;
+- (void)Ô ;
+- (void)ippingView;
+- (id)ughScrollGestureRecognizerShouldRequireFailureOfGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (id)tion: /* Error: Ran out of types for this method. */;
+- (void).m;
+- (void)antsP;
+- (void);
+- (id)<~h;
+- (id)(kk;
+- (id)l;
+- (id)ÀÚm;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_impactConfiguration) _UIImpactFeedbackGeneratorConfiguration *impactConfiguration;

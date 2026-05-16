@@ -11,8 +11,8 @@
     MISSING_TYPE *_lineLimit;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

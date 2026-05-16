@@ -25,8 +25,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)lay;
+- (id)iWÊÀm5ÿyWÊn5ÿaWÊ|n5ÿyWÊxn5ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGLayout *containerLayout; // @synthesize containerLayout=_containerLayout;

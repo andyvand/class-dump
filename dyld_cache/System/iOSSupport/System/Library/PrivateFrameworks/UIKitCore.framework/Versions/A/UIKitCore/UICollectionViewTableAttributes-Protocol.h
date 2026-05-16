@@ -7,8 +7,8 @@
 @class UIColor;
 
 @protocol UICollectionViewTableAttributes
-- (UIColor *)tFileSize: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)Animation:(UIColor *)arg1;
+- (UIColor *)the debugger. Invalid size:%@; collection view:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor;

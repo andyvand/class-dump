@@ -20,12 +20,12 @@
 
 - (long long);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)owWithError:(id)arg1 cancelled:(id)arg2;
 - (void);
+- (void);
+- (void)àøáÿÿÿÿÿü;
 
 // Remaining properties
 @property(nonatomic, readonly) long long preferredUserInterfaceStyle;

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIView *_actualPointer;
 }
 
+- (void)ldShowSeparatorAboveActionsSequenceView;
+- (id)ectionalAxis;
 - (void);
-- (void)ivate;
-- (id)qþÿ¤üÿ;
 
 @end
 

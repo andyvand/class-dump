@@ -11,9 +11,9 @@
     MISSING_TYPE *puzzleType;
 }
 
-- (id)eractiveCanvasController i_drawRepWithReadLock:inContext:forLayer:] /* Error: Ran out of types for this method. */;
-- (void)SessionTask"24q32q40q48;
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) LPLinkMetadata *linkMetadata;

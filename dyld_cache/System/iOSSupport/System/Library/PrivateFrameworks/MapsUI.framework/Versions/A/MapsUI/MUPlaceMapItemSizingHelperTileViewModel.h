@@ -22,10 +22,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)ensionArgument;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

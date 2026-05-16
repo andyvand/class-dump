@@ -12,9 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (double)slv3 alert illegal parameter;
-+ (double);
-+ (double)tSDKVersion;
++ (double)!ÌAù^1Â0@ù
+× ;
++ (double)inputModeListTouchPhase;
++ (double)shotter.m;
 
 @end
 

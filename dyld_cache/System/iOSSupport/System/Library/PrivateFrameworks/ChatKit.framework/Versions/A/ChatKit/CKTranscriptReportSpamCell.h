@@ -18,23 +18,23 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (void)oMigrate;
-- (void)vertDispatchQueue;
-- (void)otes;
-- (id)"NSView",&,N,V_contentView;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)";
-- (id)ring because range is invalid {attachment:%@} /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (void)k�;
+- (struct CGSize);
 - (void);
 - (void);
-- (void)portSpamHander:withNotReportSpamHandler:withCancelHandler: /* Error: Ran out of types for this method. */;
-- (id)gWithTouch:(struct CGRect)arg1 withEvent: /* Error: Ran out of types for this method. */;
-- (struct CGSize)iewDelegate_;
+- (void);
+- (id);
+- (void)Controller;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;

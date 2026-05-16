@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)Ôôÿ°Ê7;
++ (id);
 - (void);
 
 // Remaining properties

@@ -47,13 +47,12 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)_AAyAAyAAyAAy
-­¯y¼³¯yAAyAAyAAyAAyz¯­õ ­GAIG¤£­GÞ­­yµ­£­GGG_"§¯Qo_j¨­yÄ­yAPô©­GGGl­­yö­GG­­ySbGG=£­GSgtGGAEG;
+- (void);
+- (void)GAQGSgtGG_G;
 
 @end
 

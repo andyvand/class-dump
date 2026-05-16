@@ -13,11 +13,11 @@
     NSArray *_commands;
 }
 
-- (id)@;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void),R,N;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *commands; // @synthesize commands=_commands;

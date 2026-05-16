@@ -19,33 +19,31 @@ __attribute__((visibility("hidden")))
     UIView *_centerView;
 }
 
-+ (id),8217;
++ (long long);
 + (CDStruct_b7523c42);
-+ (long long)Installer;
++ (id)t¡ÿ;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)ckQueueCommandEvent;
 - (id);
 - (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)!$EùñÄð1¢!0@ù
-× ;
 - (void);
-- (id)Ð!¤Bù1Î1¢!0@ù
-× ;
-- (id)n"16;
-- (id)hanges;
-- (id)ButtonDisplayMode;
-- (_Bool)arned.;
-- (id)single keyframe animation;
-- (id)faultUnfocusingBackgroundFadeDurationPercentage;
-- (id)er;
 - (void);
-- (void)Dÿ;
+- (id)!hCùñ[1Â0@ù
+× ;
+- (id)MenuBarControllerContext";
+- (void)ansform=dddddd}16@64;
+- (id)IHyperOutOfProcessViewAnimatorDelegate>";
+- (void)Necessary;
+- (id)atingTextRange;
+- (id);
+- (void)zy_storage_$_kickAmountProperty;
+- (void)ÿe;
+- (void)ÈQf;
+- (id)$èÿÑìSg;
+- (id)T¯ÿ0¬g;
 
 // Remaining properties
 @property(retain, nonatomic) UIKeyboardDockItem *centerDockItem; // @synthesize centerDockItem=_centerDockItem;

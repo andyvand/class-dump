@@ -10,7 +10,7 @@
 {
 }
 
-- (Class)mport;
+- (Class);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

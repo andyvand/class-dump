@@ -19,16 +19,16 @@
 }
 
 - (_Bool);
-- (void)sionIdentifier;
-- (void)ects:(_Bool)arg1;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
-- (long long);
+- (void);
+- (void)tResizeViewDelegate;
+- (long long)$	;
 
 // Remaining properties
 @property(nonatomic) _Bool bottomOrTrailingEdgeViewVisible; // @synthesize bottomOrTrailingEdgeViewVisible=_bottomOrTrailingEdgeViewVisible;

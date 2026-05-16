@@ -27,17 +27,17 @@
 - (id);
 - (double);
 - (void);
+- (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int)_pairedDeviceRegistryDeviceListQueue;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double dateTimeInterval; // @synthesize dateTimeInterval=_dateTimeInterval;

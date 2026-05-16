@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDBugSession, FBKAttachmentManager, FBKDeviceManager, NSArray, NSMutableDictionary, NSMutableSet, NSNumber, NSSet, NSString, _TtC12FeedbackCore37FBKDeviceDiagnosticsControllerCombine;
+@class FBKAttachmentManager, FBKDeviceManager, NSArray, NSMutableDictionary, NSMutableSet, NSNumber, NSSet, NSString, _TtC12FeedbackCore37FBKDeviceDiagnosticsControllerCombine;
 @protocol FBKDeviceDiagnosticsDelegate, FBKFilerForm;
 
 @interface FBKDeviceDiagnosticsController
@@ -46,7 +46,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -92,7 +91,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -135,13 +133,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (id);
 - (void);
 - (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id _filesBeingAttachedCount; // @synthesize _filesBeingAttachedCount=__filesBeingAttachedCount;
@@ -153,7 +152,6 @@
 @property(retain, nonatomic) NSMutableDictionary *cachedDiffableIdentifiersTable; // @synthesize cachedDiffableIdentifiersTable=_cachedDiffableIdentifiersTable;
 @property(nonatomic, readonly) _TtC12FeedbackCore37FBKDeviceDiagnosticsControllerCombine *combine;
 @property(nonatomic, readonly) FBKAttachmentManager *currentDeviceAttachmentManager;
-@property(nonatomic, readonly) DEDBugSession *currentDeviceBugSession;
 @property(readonly, nonatomic) NSSet *currentMatcherPredicates; // @synthesize currentMatcherPredicates=_currentMatcherPredicates;
 @property(readonly, copy, nonatomic) NSArray *deConsentTextsForGatheringAttachments; // @synthesize deConsentTextsForGatheringAttachments=_deConsentTextsForGatheringAttachments;
 @property(retain, nonatomic) NSSet *deferredAttachmentCollections; // @synthesize deferredAttachmentCollections=_deferredAttachmentCollections;

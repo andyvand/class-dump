@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (_Bool)0@ù
+× ;
 - (_Bool);
-- (_Bool),;
-- (_Bool)essAssistantBar;
-- (_Bool)ûÿ3@;
-- (_Bool)Ó[;
+- (_Bool)dPasteboardTypesForTypes:(id)arg1;
+- (_Bool)gInViewsOfScaleChange;
+- (_Bool)OverflowedButtons;
 
 @end
 

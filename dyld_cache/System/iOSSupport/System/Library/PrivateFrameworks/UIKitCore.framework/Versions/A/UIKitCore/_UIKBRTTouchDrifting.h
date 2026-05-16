@@ -44,11 +44,12 @@ __attribute__((visibility("hidden")))
     } _touchError;
 }
 
-+ (_Bool)°éÚþ;
++ (_Bool)0@ù
+× ;
 - (void);
 - (void);
 - (id);
-- (id)(;
+- (id);
 - (CDStruct_d2b197d1);
 - (_Bool);
 - (void);
@@ -62,16 +63,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)\;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -83,7 +84,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)6;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -92,32 +93,33 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)4;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)"NSString"76;
-- (void)"16@"NSString"24B32;
-- (void)@"NSDictionary"40;
-- (void)"16@"NSString"24@"NSString"32@"NSDictionary"40;
-- (void)@"NSString"24@"NSString"32@"NSString"40;
-- (id)nPhotoLibraryURLForIdentifier:(id)arg1;
-- (void)ain:style:everOnServices:completionHandler: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)erRecordInfoListWithInfo:(struct CGPoint)arg1 purgeIfNeeded:(struct CGPoint)arg2;
-- (struct CGPoint)dationErrorUserInfo:(struct CGPoint)arg1 message:fromIdentifier:token:chat: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)es:(struct CGPoint)arg1;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)ProviderEntityClass:block: /* Error: Ran out of types for this method. */;
-- (void)>"8;
+- (void);
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)ss %@, which does not support changing content;
-- (void)onMask;
+- (id);
+- (id);
+- (void)
+× ;
+- (void)¤øsþ|43¼÷sþu|43¸÷sþ;
 
 // Remaining properties
 @property(nonatomic) id <_UIKBRTTouchDriftingDelegate> delegate; // @synthesize delegate=_delegate;

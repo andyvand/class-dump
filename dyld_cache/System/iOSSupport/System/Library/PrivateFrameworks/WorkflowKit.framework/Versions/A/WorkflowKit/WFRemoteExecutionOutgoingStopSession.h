@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (id);
-- (void):(id)arg1;
+- (void);
 
 @end
 

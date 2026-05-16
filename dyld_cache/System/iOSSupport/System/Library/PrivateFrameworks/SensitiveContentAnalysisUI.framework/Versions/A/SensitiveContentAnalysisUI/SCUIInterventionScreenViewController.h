@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCUIInterventionScreenModel, SCUIReportAuthority;
+@class MISSING_TYPE;
 @protocol SCUIInterventionContainer;
 
 @interface SCUIInterventionScreenViewController
 {
-    _Bool _dismissedBySwipe;
-    id <SCUIInterventionContainer> _container;
-    long long _contentScreen;
-    long long _options;
-    SCUIInterventionScreenModel *_model;
-    SCUIReportAuthority *_authority;
-    long long _interventionType;
+    void container;
+    long long contentScreen;
+    long long options;
+    MISSING_TYPE *model;
+    MISSING_TYPE *interventionType;
+    MISSING_TYPE *dismissedBySwipe;
 }
 
++ (void);
 - (void);
 - (void);
 - (void);
@@ -25,33 +25,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (long long);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (id);
-- (_Bool);
 - (void);
-- (id);
+- (void)ÿÿÿ(;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SCUIReportAuthority *authority; // @synthesize authority=_authority;
-@property(nonatomic) __weak id <SCUIInterventionContainer> container; // @synthesize container=_container;
-@property(readonly, nonatomic) long long contentScreen; // @synthesize contentScreen=_contentScreen;
-@property _Bool dismissedBySwipe; // @synthesize dismissedBySwipe=_dismissedBySwipe;
-@property(readonly, nonatomic) long long interventionType; // @synthesize interventionType=_interventionType;
-@property(readonly) SCUIInterventionScreenModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) long long options; // @synthesize options=_options;
+@property(nonatomic) __weak id <SCUIInterventionContainer> container; // @synthesize container;
+@property(nonatomic) long long contentScreen; // @synthesize contentScreen;
+@property(nonatomic) long long options; // @synthesize options;
 
 @end
 

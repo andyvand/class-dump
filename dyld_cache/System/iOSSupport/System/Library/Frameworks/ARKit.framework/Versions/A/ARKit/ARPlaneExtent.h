@@ -14,15 +14,15 @@
 + (_Bool);
 - (void);
 - (float);
-- (void);
-- (void);
+- (id);
+- (id);
+- (float);
+- (float);
 - (_Bool);
-- (id);
-- (id);
-- (float);
+- (void);
 - (void);
 - (id);
-- (float);
+- (void);
 
 // Remaining properties
 @property(nonatomic) float height; // @synthesize height=_height;

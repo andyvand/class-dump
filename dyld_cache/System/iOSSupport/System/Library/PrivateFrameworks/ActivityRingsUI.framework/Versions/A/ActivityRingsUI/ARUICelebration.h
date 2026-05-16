@@ -12,11 +12,11 @@
 
 - (void);
 - (void);
-- (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
 - (double);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;

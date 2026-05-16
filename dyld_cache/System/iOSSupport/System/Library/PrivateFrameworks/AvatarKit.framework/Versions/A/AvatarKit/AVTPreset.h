@@ -31,8 +31,8 @@
 + (id);
 + (unsigned long long);
 + (id);
-+ (id)sesBusinessColumnName;
-+ (id)tenceManager;
++ (id);
++ (id);
 - (id);
 - (void);
 - (id);
@@ -45,13 +45,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (long long)workingAnalytics logPeerConnectionFailed:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id)InWindow;
-- (id);
 - (id);
 
 // Remaining properties

@@ -11,10 +11,10 @@
     MISSING_TYPE *continuation;
 }
 
-- (void)9;
 - (void);
 - (void);
 - (id);
+- (void);
 
 @end
 

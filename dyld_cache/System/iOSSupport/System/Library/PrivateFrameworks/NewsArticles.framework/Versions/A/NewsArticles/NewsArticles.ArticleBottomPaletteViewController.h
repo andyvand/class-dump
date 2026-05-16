@@ -14,11 +14,11 @@
     MISSING_TYPE *contentView;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)edium;
 
 @end
 

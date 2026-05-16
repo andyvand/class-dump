@@ -16,7 +16,7 @@
     struct CGRect _lastRenderedBounds;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,21 +25,21 @@
 - (id);
 - (id);
 - (id);
-- (void)Session"16@"NSURLSessionDataTask"24@"NSURLSessionDownloadTask"32;
-- (id)torefrontID:(_Bool)arg1 bundleID:(_Bool)arg2 deviceInfo:debugOverrides:useBackgroundRefreshRate:backgroundFetchConfiguration:requestMode:endpointConfig:endpointTimeoutDuration:fallbackTimeoutDuration: /* Error: Ran out of types for this method. */;
-- (_Bool)oundURLSessionHandlers;
 - (void);
-- (id)loadID: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)hl;
+- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (double);
+- (void);
 - (id);
 - (void);
-- (struct CGSize)Strokes;
-- (struct CGSize)¼C\D;
+- (id)"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (void)MenuInteraction;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *assetImage; // @synthesize assetImage=_assetImage;

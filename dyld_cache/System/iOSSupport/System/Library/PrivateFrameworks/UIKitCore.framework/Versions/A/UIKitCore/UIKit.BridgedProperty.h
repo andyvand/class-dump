@@ -11,23 +11,25 @@
     MISSING_TYPE *property;
 }
 
-- (void)ublic}s] Finished notifying delegate of resume;
-- (void)%@ since it is after %@;
-- (_Bool)local device, looking for fromID:%@ /* Error: Ran out of types for this method. */;
-- (void)om account:(_Bool)arg1 %@, service session not configured for replicated messages;
-- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)nd_"^{?}""{?="__cap_"^{?}}};
-- (_Bool)ultTitleView;
-- (id)eRateRangeSettings",C,N,V_preferredFrameRateRange;
 - (id);
-- (id)_UIUserInterfaceVibrancy;
-- (void)a¶l;
-- (id);
+- (id)ù
+× ;
+- (id)gSizeDidChangeForChildContentContainer: /* Error: Ran out of types for this method. */;
+- (id)¸;Ð;
+- (id) 
+;
+- (_Bool)_ÿ¾7RzlXX;
+- (id)D;
+- (void)°»7ÿq;
+- (void)|Ãl;
+- (void)d'rÿAÛÄÇm;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isInvalidated;

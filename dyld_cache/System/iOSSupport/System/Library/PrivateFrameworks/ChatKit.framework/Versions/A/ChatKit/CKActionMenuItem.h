@@ -24,26 +24,26 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)D_ON_SERVERS;
 - (void);
-- (id);
-- (void)1¢!0@ù
-× ;
-- (void)nt:(_Bool)arg1;
-- (void)|7;
-- (void)u-send-later;
-- (SEL)°p;
 - (_Bool);
-- (_Bool)Q·72/;
-- (_Bool)(1;
+- (void);
+- (id)aýð!XEùQ°1Â0@ù
+× ;
+- (void)ionVisualIdentity:(_Bool)arg1;
+- (void)°ñûÿ;
+- (SEL)yÛ;
+- (void)ÿ\y]GG]_G;
+- (void)tMenuWith;
+- (void)ler:(_Bool)arg1 %@;
+- (void);
+- (void);
+- (_Bool)Yµ;¸A/;
+- (_Bool)5¯-;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

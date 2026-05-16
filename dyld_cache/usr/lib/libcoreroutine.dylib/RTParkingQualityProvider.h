@@ -14,17 +14,17 @@
 
 - (void);
 - (void);
-- (unsigned long long)h;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (int);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id)S;
+- (id);
 - (void);
-- (void);
-- (id)cryptionAlgorithm;
+- (id);
+- (void)urrent working hypothesis, %{sensitive}@ (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *movingHistorgram; // @synthesize movingHistorgram=_movingHistorgram;

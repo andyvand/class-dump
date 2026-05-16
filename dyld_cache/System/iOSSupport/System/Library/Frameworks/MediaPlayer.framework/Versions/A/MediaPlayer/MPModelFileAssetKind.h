@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)Protection: /* Error: Ran out of types for this method. */;
-- (id)K;
++ (id);
+- (id);
 
 @end
 

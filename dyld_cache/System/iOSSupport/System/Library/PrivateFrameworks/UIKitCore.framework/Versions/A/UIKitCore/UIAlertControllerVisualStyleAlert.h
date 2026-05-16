@@ -12,26 +12,26 @@
 
 - (double);
 - (double);
-- (struct UIEdgeInsets)(<,=;
+- (struct UIEdgeInsets);
 - (id);
 - (_Bool);
-- (_Bool)%@;
-- (long long)State Did Change;
-- (id)te item [%@] could not be converted to CKRecord, marking it as clean and moving on.;
-- (id)notification:%@ /* Error: Ran out of types for this method. */;
-- (double)ly had partial error and the whole batch failed ;
-- (double)in chat sync -- failing to continue writes;
-- (double)d %@;
-- (double)CompletionBlock error %@;
-- (double)flict while fetching lock record %@;
-- (struct UIEdgeInsets)in the last 7 days;
-- (void)it was not spam, click Recover and send a report to Apple;
-- (double)oupID63841559;
-- (double)n;
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (void);
+- (double);
+- (double);
 - (double);
 - (id);
-- (id);
-- (double)tingAnimationsWithText:forRange:inContextWithID:finished: /* Error: Ran out of types for this method. */;
+- (id)Grabber;
+- (double)a;
 
 @end
 

@@ -12,7 +12,6 @@
     MISSING_TYPE *_isSidebarVisible;
     MISSING_TYPE *_isSidebarEditing;
     MISSING_TYPE *navigationControllers;
-    MISSING_TYPE *layoutCoordinator;
     MISSING_TYPE *commandContainer;
     MISSING_TYPE *presentationContextCache;
     MISSING_TYPE *stagedModalContextCache;
@@ -43,17 +42,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)LÀßÿÀßÿ¬ÀßÿÁßÿ´ÁßÿØÁßÿÂßÿ,ÂßÿPÂßÿÂßÿ°Âßÿ4ÃßÿpÃßÿØÃßÿ$Äßÿ4ÄßÿÄßÿÀÄßÿÅßÿ\ÅßÿÅßÿÐÅßÿôÅßÿ0ÆßÿÆßÿ¼ÆßÿøÆßÿ|ÇßÿÜÇßÿÈßÿ@ÈßÿpÈßÿÈßÿ¸ÈßÿìÈßÿ(ÉßÿLÉßÿèÉßÿpÊßÿËßÿ@ËßÿdËßÿËßÿ¸ËßÿÜËßÿÌßÿ<ÌßÿÍßÿ¨ÍßÿäÍßÿÎßÿÔÎßÿàÎßÿÏßÿàÏßÿÐßÿ4ÐßÿXÐßÿ¼ÐßÿÔÐßÿÑßÿ<Ñßÿ`ÑßÿÑßÿ¨ÑßÿÌÑßÿÒßÿ,ÒßÿXÓßÿÓßÿÓßÿÐÓßÿÔßÿ0ÔßÿÔßÿÄÔßÿHÕßÿtÕßÿ°ÕßÿtÖßÿüÖßÿ×ßÿ@ØßÿØßÿ4ÙßÿôÙßÿ;
-- (id)ÿIegyy_;
-- (void)C;
-- (void)ýåç;
-- (void)yPR;
+- (void);
+- (void);
+- (void)fms;
+- (void)­](^;
+- (void)haseTransactionTrackerProvider;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *keyCommands;

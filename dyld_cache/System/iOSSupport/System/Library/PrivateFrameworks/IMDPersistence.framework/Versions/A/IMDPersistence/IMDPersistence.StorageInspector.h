@@ -15,7 +15,7 @@
 + (id);
 - (id);
 - (void);
-- (id)S_setVisualizeTargets:,V__visualizeTargets /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 
 // Remaining properties

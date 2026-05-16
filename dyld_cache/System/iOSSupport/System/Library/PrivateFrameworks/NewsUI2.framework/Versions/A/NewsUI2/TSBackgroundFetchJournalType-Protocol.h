@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol TSBackgroundFetchJournalType
-- (NSArray *);
+- (NSArray *)¨;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *entries;

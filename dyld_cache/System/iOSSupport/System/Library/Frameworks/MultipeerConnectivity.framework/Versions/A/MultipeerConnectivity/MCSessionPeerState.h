@@ -38,9 +38,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (long long);
-- (id);
 
 // Remaining properties
 @property(nonatomic) long long certificateDecision; // @synthesize certificateDecision=_certificateDecision;

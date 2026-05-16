@@ -5,6 +5,5 @@
 //
 
 @protocol CKTranscriptActionButtonCellDelegate
-- (void)dOutput;
 @end
 

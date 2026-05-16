@@ -16,22 +16,21 @@ __attribute__((visibility("hidden")))
     unsigned int _registeredForNotifications:1;
 }
 
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
 - (double);
 - (void);
-- (void)remote view controller invalidated.;
-- (_Bool));
-- (void)1¢!0@ù
-× ;
-- (void)ù1Äð1¢!0@ù
-× ;
-- (id)lementDelegate:(id)arg1;
-- (void)ackingSystemInputActivity;
-- (void)ginalOffset;
-- (void);;
+- (void);
+- (void);
+- (void)yle;
+- (void)SArray",&,N,S_setSecondaryEdgeAdditionalBarButtonItemGroups:(id)arg1;
+- (_Bool)|Ì ;
+- (void)	
+;
+- (void);
+- (void)H9_;
+- (void);
+- (void)|bjÿvØØSn;
 
 // Remaining properties
 @property(nonatomic) double adjustmentForKeyboard; // @synthesize adjustmentForKeyboard=_adjustmentForKeyboard;

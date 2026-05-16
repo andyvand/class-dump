@@ -5,6 +5,7 @@
 //
 
 @protocol SNTestCaseScroll
+- (long long)orÝ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long iterations;

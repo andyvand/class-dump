@@ -18,10 +18,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long deviceMotionMode; // @synthesize deviceMotionMode=_deviceMotionMode;

@@ -12,13 +12,13 @@
 
 + (id);
 + (id);
-+ (void);
-+ (_Bool)A;
++ (void);
++ (_Bool);
 + (Class);
 - (double);
 - (_Bool);
 - (void);
-- (void)�T;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -36,19 +36,19 @@
 - (void);
 - (_Bool);
 - (double);
-- (id)P;
+- (id);
 - (id);
 - (void);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 
 @end
 

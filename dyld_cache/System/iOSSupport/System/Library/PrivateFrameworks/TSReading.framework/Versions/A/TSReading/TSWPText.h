@@ -71,7 +71,7 @@
 - (const void *);
 - (id);
 - (id);
-- (int);
+- (int);
 - (unsigned int);
 - (unsigned int);
 - (double);
@@ -84,8 +84,8 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned int);
@@ -99,20 +99,20 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
 - (void);
-- (unsigned long long)@;
-- (struct CGPoint);
-- (struct CGSize)nEventSportsTagSeen;
-- (struct CGPoint);
+- (id);
+- (unsigned long long);
 - (struct CGSize);
 - (id);
-- (id)6;
+- (id);
 - (void);
-- (id);
-- (id);
-- (struct CGSize)lectingChanges without calling -beginCollectingChanges first;
-- (id);
+- (struct CGPoint);
+- (struct CGPoint);
+- (id)CalculationEngine *);
+- (struct CGSize);
+- (id)r it.;
+- (unsigned long long)iew;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

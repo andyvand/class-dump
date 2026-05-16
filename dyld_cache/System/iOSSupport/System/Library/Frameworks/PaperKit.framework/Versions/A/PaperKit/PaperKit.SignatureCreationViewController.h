@@ -21,6 +21,7 @@
     MISSING_TYPE *navigationBar;
     MISSING_TYPE *signatureView;
     MISSING_TYPE *signatureLineView;
+    MISSING_TYPE *dimmingView;
     MISSING_TYPE *doneItem;
     MISSING_TYPE *clearButton;
     MISSING_TYPE *savedFirstResponder;
@@ -34,16 +35,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)@ß;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

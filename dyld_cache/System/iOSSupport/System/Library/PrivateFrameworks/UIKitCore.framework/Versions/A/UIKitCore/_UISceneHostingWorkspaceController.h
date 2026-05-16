@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
     FBSceneWorkspace *_sceneWorkspace;
 }
 
-+ (id)¸	ëþ
-;
++ (id);
 - (id);
-- (void)DemandRules:(id)arg1 withDisconnectOnIdle:(id)arg2 withDisconnectOnIdleTimer: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)0@ù
+- (id);
+- (id);
+- (id);
+- (id)!ð!lDùñcð1Â0@ù
 × ;
-- (id)!GùñÄ°1¢!0@ù
-× ;
-- (id)thFirstMatchingRange: /* Error: Ran out of types for this method. */;
-- (id)rovider;
-- (void)idateDataSourceCounts:(id)arg1;
-- (void)yboard.m;
-- (id)of internal subview with type %ld. Subview:%@ /* Error: Ran out of types for this method. */;
+- (void)yer:(id)arg1;
+- (void)ingScrollerIncludingSelf;
+- (id)_restorationIdentifierPathForRestorableObject(id<UIStateRestoring>);
+- (void)b;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -29,18 +29,18 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
-- (unsigned int);
+- (id);
+- (id);
 - (unsigned short);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned int);
+- (unsigned int);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

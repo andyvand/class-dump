@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)de:(id)arg1;
-- (long long)tUniqueID: /* Error: Ran out of types for this method. */;
-- (double)nternalName;
+- (void);
+- (long long);
+- (double);
 - (id);
-- (void)Uº;
+- (void)q;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destinationText; // @synthesize destinationText=_destinationText;

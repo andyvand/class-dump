@@ -12,10 +12,10 @@
 
 - (double);
 - (void);
-- (unsigned long long);
-- (id);
 - (_Bool);
-- (void);
+- (id);
+- (unsigned long long);
+- (void)UIView<BCUIBatteryDeviceDisplaying>"8Q16^B24;
 
 @end
 

@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol UIColorJSExports
+- (UIColor *)"16@24;
 
 // Remaining properties
 @property(readonly, nonatomic) id CGColorRef;

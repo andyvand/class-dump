@@ -7,7 +7,8 @@
 @protocol HULayoutAnchorProviding, HUQuickControlContentHosting;
 
 @protocol HUQuickControlInteractiveContentContaining
-- (void)24@0:(_Bool)arg1 8#16;
+- (_Bool)tem %@ with missing error;
+- (void)ue change from interactionCoordinator %@ when user interaction is not active! This doesn't make any sense and is likely a bug.;
 
 // Remaining properties
 @property(retain, nonatomic) id <HULayoutAnchorProviding> preferredFrameLayoutGuide;

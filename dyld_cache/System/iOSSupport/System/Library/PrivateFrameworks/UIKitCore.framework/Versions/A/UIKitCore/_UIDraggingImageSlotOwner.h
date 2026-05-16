@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (void)Post:(unsigned int)arg1;
-- (void)ion already in process;
 - (void);
+- (void);
+- (void)U¸];
 
 // Remaining properties
 @property(readonly, nonatomic) __weak _UIDragManager *dragManager; // @synthesize dragManager=_dragManager;

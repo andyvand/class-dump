@@ -10,9 +10,17 @@
 {
     MISSING_TYPE *store;
     MISSING_TYPE *requiredKeys;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *notificationObserver;
+    MISSING_TYPE *cache;
+    MISSING_TYPE *contactChangeObserver;
+    MISSING_TYPE *observerTask;
+    MISSING_TYPE *changeStream;
+    MISSING_TYPE *taskQueue;
 }
+
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 @end
 

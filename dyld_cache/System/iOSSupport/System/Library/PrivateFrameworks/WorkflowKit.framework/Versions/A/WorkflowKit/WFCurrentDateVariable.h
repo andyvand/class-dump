@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)mask to apply to the source image, where darker colors become transparent and lighter colors remain opaque. If the mask is sized differently than the source image, the mask is resized to match the dimensions of the source image. (WFCustomMaskImage);
+- (_Bool)NSString"16@?<v@?B@"NSError">24;
 
 @end
 

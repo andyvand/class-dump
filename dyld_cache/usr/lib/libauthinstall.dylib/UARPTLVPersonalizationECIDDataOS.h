@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSData *ecID; // @synthesize ecID=_ecID;

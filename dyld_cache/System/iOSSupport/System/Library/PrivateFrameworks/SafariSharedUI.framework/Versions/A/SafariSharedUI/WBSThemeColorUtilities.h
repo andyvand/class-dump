@@ -11,7 +11,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id)_container;
++ (id);
 + (_Bool);
 
 @end

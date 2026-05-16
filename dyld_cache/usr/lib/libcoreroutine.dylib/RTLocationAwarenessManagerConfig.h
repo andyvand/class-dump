@@ -16,17 +16,18 @@
     double _highAccuracyLocationRequestDuration;
 }
 
+- (double);
+- (id);
+- (double);
+- (double);
+- (double);
 - (id);
 - (double);
 - (id);
-- (double)OfService:isGood: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id)swordMethod;
-- (double)final message len (%zd);
+- (double)
+× ;
+- (double)pResponse;
 
 // Remaining properties
 @property(readonly, nonatomic) double activeDuration; // @synthesize activeDuration=_activeDuration;

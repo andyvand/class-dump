@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SFUInputStream;
-
 @protocol SFUInputStream
-- (id <SFUInputStream>);
-- (_Bool)read buffer;
 @end
 

@@ -16,8 +16,8 @@
 
 + (id);
 - (void);
-- (id);
-- (void)üÿ;
+- (void)	É<J3ÿ	É¹ÿýÉ0J3ÿ;
+- (id)Lÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXTimeInterval *timeInterval; // @synthesize timeInterval=_timeInterval;

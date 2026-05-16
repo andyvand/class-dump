@@ -12,8 +12,9 @@
     MISSING_TYPE *size;
 }
 
-- (void);
 - (id);
+- (void)0@ù
+× ;
 
 @end
 

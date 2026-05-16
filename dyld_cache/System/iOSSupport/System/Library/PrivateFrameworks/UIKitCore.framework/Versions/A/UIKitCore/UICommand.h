@@ -27,76 +27,73 @@
 }
 
 - (void);
-- (id)bled for account:(id)arg1 %@, but we can't find an account for it;
-- (SEL)roll device in SMS relay.;
-- (id)as been synced to CloudKit, but we don't have the asset -- however we can download from MMCS;
-- (_Bool);
-- (id)nt:incomingMessage:fromID:context:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (SEL);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
-- (_Bool)B;
-- (void)ControlCommand;
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (_Bool)1¢!0@ù
-× ;
 - (void);
-- (id)
-× ;
-- (void)ÑÂð1¢!0@ù
-× ;
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)¢!0@ù
-× ;
-- (_Bool)!0Bù±Ì1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (long long);
-- (_Bool)WithTouch: /* Error: Ran out of types for this method. */;
-- (id)izeChanges:(id)arg1;
-- (_Bool)veContentViewControllerContainerViewSubviews;
-- (long long)raintsAffectingHorizontalAxis;
 - (void);
-- (id)UICollectionViewCell",R,N;
-- (unsigned long long)te;
-- (id)eviceConfigurationLoader;
-- (id)äL;
-- (id)s * _Nonnull);
-- (id)DismissDetents;
+- (_Bool);
 - (id);
-- (id)@UUUUUU@;
-- (id)æ²Ñ9?Åâ?vUånÆ@Täq3±À²ñ`Ý¾é?;
-- (void);
-- (id)´®·ÿ;
-- (id)T³;
-- (id)ÙEc;
-- (SEL)fe;
-- (long long);
-- (void)ÿMÕh;
-- (void)Æl;
+- (unsigned long long);
+- (_Bool);
+- (void)@ù
+× ;
+- (void)
+× ;
+- (id)EùÑfð1Â0@ù
+× ;
+- (void)"8@?<@"UITraitCollection"@?>16@?<@"UITraitCollection<UIMutableTraitsInternal>"@?>24;
+- (long long)TextChoice: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool)sEmoji:(id)arg1;
+- (void)customInfoType:(id)arg1;
+- (id)ognizer: /* Error: Ran out of types for this method. */;
+- (long long)trix:darkCAColorMatrix:alpha: /* Error: Ran out of types for this method. */;
+- (void)esult:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)arOffscreenFocusGuide;
+- (id)referredSizesDict:dataSourceSnapshot:update: /* Error: Ran out of types for this method. */;
+- (id)KeySymbol: /* Error: Ran out of types for this method. */;
+- (void)ationParallaxTransition",?,&,N;
+- (id)<f hÜj;
+- (void)4rtàtDu´upw;
+- (void)tion. remoteTouchSurfaceType=%{public}@;
+- (void)nimateSwipeDeletion(__strong id<UITable_RowDataSource>, NSIndexPath *__strong, UITableViewCell *__strong, UIView *__strong, UISwipeOccurrence *__strong, UIColor *__strong, void (^__strong)(BOOL), void (^__strong)(BOOL))_block_invoke;
+- (id)ä² þ;
+- (SEL)UIHoverLiftEffect;
+- (id);
+- (_Bool);
+- (_Bool)_;
+- (void)öÂÿ;
+- (id)Fk;
+- (id)o;
 
 // Remaining properties
 @property(nonatomic, setter=_setAllowsGlobeKeyModifier:) _Bool _allowsGlobeKeyModifier;

@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id)�#;
-- (void);
+- (id);
+- (void)@96@0:8@16@24@32@40@48@56@64@72@80@88 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDateParser> dateParser; // @synthesize dateParser=_dateParser;

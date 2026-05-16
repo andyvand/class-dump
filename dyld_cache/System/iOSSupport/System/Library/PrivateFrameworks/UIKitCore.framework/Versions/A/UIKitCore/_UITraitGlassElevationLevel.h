@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)cription *******;
-+ (_Bool)omming-message;
 + (_Bool);
-+ (id)ects;
-+ (id)etSg;
-+ (long long)%EÖuLe;
++ (_Bool);
++ (_Bool);
++ (id);
++ (id);
++ (long long)¬µmþLÑ ¿f;
 
 @end
 

@@ -36,36 +36,35 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void)NSNumber",C,N,V_payloadAllowGameCenterPrivateMessaging;
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
 - (id);
-- (void)Z;
-- (void);
-- (_Bool)ÔÁq°!ÀFùñÄÐ1¢!0@ù
+- (void)ÔAð!pFùÑbÐ1Â0@ù
 × ;
-- (void)s!Ô@ùÆ°1¢!0@ù
-× ;
-- (struct CGRect)ng:(double)arg1 includeEmoji:(double)arg2;
-- (id)m",R,N,G_internalFocusSystem,V_internalFocusSystem;
-- (void) NÇ\ÙdNÇüòÐNÇ°÷èNÇ<ú;
-- (void)³üÿ;
-- (void)spended;
-- (id)enAngleAndAngleInDirection(CGFloat, CGFloat, _UIInterfaceOrientationRotationDirection);
-- (void)const _UIIntegralPoint);
-- (id)ion;
+- (void)anelControllerWillUpdate:(id)arg1;
+- (id)ws;
+- (void)utRowAlignmentOptionsForSection: /* Error: Ran out of types for this method. */;
+- (id)8a`aØb;
+- (void)etails:(_Bool)arg1;
+- (void)rent view controller of %@ could not be found.;
+- (_Bool)r;
+- (id);
 - (void);
-- (void);
-- (id)|ýÝþ9Ë];
-- (void)_;
-- (id)à;
-- (void)b;
-- (void)8;Êþð2ÎC%b;
+- (id)pÿ;
+- (void)a;
+- (id)Ñþ;
+- (void)|nb;
+- (void)Ü3pÿ'GÒd;
+- (void)e;
+- (void)H§ÿè;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customBackgroundView; // @synthesize customBackgroundView=_customBackgroundView;

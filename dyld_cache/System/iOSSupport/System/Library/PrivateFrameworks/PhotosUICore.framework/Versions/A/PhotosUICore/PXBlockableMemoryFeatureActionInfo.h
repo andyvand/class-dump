@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)nadeAlbumCellStyle;
+- (void)`Ê;ÿÊ;ÿÜÊ;ÿxdÿ;
+- (id)ho6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;

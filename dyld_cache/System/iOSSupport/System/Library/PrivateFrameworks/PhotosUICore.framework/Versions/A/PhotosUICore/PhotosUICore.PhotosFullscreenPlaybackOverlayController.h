@@ -16,7 +16,7 @@
 
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize),ÙµÿÈ½6;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *containerViewController; // @synthesize containerViewController;

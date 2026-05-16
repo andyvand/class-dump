@@ -7,25 +7,14 @@
 @class NSISVariable, NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor;
 
 @protocol _UILayoutItem
-- (void);
-- (void)eGUID:(_Bool)arg1;
-- (NSLayoutDimension *)ver:%s /* Error: Ran out of types for this method. */;
-- (NSLayoutYAxisAnchor *);
-- (NSISVariable *)hApplauseModel;
-- (NSISVariable *)8;
-- (_Bool)egral(mOutputHopSize);
-- (NSLayoutXAxisAnchor *)={?=qiIq}{?=qiIq}}}16@112;
-- (_Bool);
-- (NSISVariable *);
-- (void *)lPasteboard;
-- (NSISVariable *)ng:isPrimary:withFrame: /* Error: Ran out of types for this method. */;
-- (NSISVariable *)erStoredWeakly,S_setPresentedViewControllerStoredWeakly:,V__presentedViewControllerStoredWeakly /* Error: Ran out of types for this method. */;
-- (_Bool)ward;
-- (NSISVariable *)application is not configured properly for Autonomous Single App Mode.;
-
-@optional
-- (NSISVariable *)meInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
-- (NSISVariable *)ncOnLaunchIfNeeded;
+- (NSISVariable *)GùaÐ1Â0@ù
+× ;
+- (NSISVariable *)ù
+× ;
+- (_Bool)d,N,V_knobProportion;
+- (NSISVariable *)VisualBehavior:,V_wantsDefaultVisualBehavior /* Error: Ran out of types for this method. */;
+- (_Bool)N,G_FBSScene;
+- (NSISVariable *)olor",&,N,V_imageTintColor;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLayoutYAxisAnchor *bottomAnchor;

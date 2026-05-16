@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (void)_identifier;
-- (id)ÏóÂyÁóÂÈüÿG;
+- (id)"<UIDragSession>"24{CGPoint=dd}32;
+- (void)ùS:È_ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,8 +5,8 @@
 //
 
 @protocol VFXCaptureDeviceOutputConsumer
-- (_Bool)amferModeBack;
-- (void);
+- (_Bool)actor;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyAdjustsVideoMirroring;

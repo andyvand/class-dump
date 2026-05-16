@@ -18,6 +18,7 @@
     NSString *_displayString;
     UIKBRenderTraits *_traits;
     NSArray *_variantGeometries;
+    NSArray *_nonNullVariantGeometries;
     NSArray *_cellConstraints;
 }
 
@@ -26,43 +27,47 @@
 - (void);
 - (void);
 - (void);
-- (struct UIEdgeInsets)tæ|;
-- (_Bool)rpæ|;
-- (id)øOz;
-- (unsigned long long);
-- (id)·á¾{;
-- (id)[z;
-- (id)|;
-- (id)øI_z;
-- (id)uæ|;
-- (struct UIEdgeInsets);
-- (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
 - (struct UIEdgeInsets);
+- (_Bool);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (void);
 - (id);
 - (void);
 - (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
-- (id);
+- (unsigned long long);
 - (id);
 - (double);
-- (id);
+- (void);
+- (struct CGSize);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (id);
-- (id)1b0@ù
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool)Ôáí°!`Aù14ð1â
+0@ù
 × ;
-- (id)BKeyInteractionTypeCandidateList;
+- (void)ViewForKey:(id)arg1 widthGuide: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *annotationLabelView; // @synthesize annotationLabelView=_annotationLabelView;
@@ -73,6 +78,7 @@
 @property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic) unsigned long long indexNumber; // @synthesize indexNumber=_indexNumber;
 @property(readonly, nonatomic) UILabel *labelView; // @synthesize labelView=_labelView;
+@property(retain, nonatomic) NSArray *nonNullVariantGeometries; // @synthesize nonNullVariantGeometries=_nonNullVariantGeometries;
 @property(nonatomic, getter=isPrimaryVariant) _Bool primaryVariant; // @synthesize primaryVariant=_primaryVariant;
 @property(retain, nonatomic) UIKBRenderTraits *traits; // @synthesize traits=_traits;
 @property(retain, nonatomic) NSArray *variantGeometries; // @synthesize variantGeometries=_variantGeometries;

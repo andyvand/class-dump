@@ -23,14 +23,14 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
 - (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

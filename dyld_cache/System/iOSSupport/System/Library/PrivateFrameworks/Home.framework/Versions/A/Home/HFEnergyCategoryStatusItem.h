@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)è;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *energyAdviceDisplayDescription; // @synthesize energyAdviceDisplayDescription=_energyAdviceDisplayDescription;

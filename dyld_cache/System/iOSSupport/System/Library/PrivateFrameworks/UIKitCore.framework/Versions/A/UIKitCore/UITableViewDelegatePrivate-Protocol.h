@@ -4,24 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor, UITableView, UIView, _UITableViewCellActionButton;
-
 @protocol UITableViewDelegatePrivate
-
-@optional
-- (UIView *);
-- (void);
-- (_UITableViewCellActionButton *);
-- (NSArray *);
-- (struct CGRect)failed to open userclient via %s:(UITableView *)arg1 %d
-;
-- (void)invalid number of payload values;
-- (void)d;
-- (void)ueData is NULL;
-- (void)level payload set:(UITableView *)arg1 %d;
-- (_UITableViewCellActionButton *)e at #%ld:(UITableView *)arg1 %lu;
-- (struct CGRect)is NULL;
-- (UIColor *)ode sysconfig data:(UITableView *)arg1 0x%llx;
-- (UIColor *)empty;
 @end
 

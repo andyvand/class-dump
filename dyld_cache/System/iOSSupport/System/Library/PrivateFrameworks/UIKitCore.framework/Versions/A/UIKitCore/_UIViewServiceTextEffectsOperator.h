@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
     _UITouchesBeganObserverGestureRecognizer *_hostedRemoteKeyboardWindowActivityObserverGesture;
 }
 
-+ (id)tending grace period to %ld minutes.;
-+ (_Bool);
 + (id);
-+ (void);
++ (_Bool);
++ (id)× ;
++ (void)Hiÿ$îz;
 - (void);
 - (void);
 - (void);
@@ -46,39 +46,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void)Q24@32@?40;
-- (void)ionDidBecomeActive;
-- (void)ble:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)ForBundleID:(id)arg1 protectionClass:reason:acknowledgementHandler: /* Error: Ran out of types for this method. */;
-- (void)lItemsForBundleID:protectionClass:acknowledgementHandler: /* Error: Ran out of types for this method. */;
-- (void)contentId;
-- (void)ntainsActiveBIASession;
-- (void)d;
-- (void)sagesForReplication:(struct UIEdgeInsets)arg1;
-- (void)pt:(int)arg1;
-- (void)options:(struct CGSize)arg1 outTransfer:outError: /* Error: Ran out of types for this method. */;
-- (void)veLocalFileURLForFileTransferWithGUID:(struct CGRect)arg1 options:outTransfer:outError: /* Error: Ran out of types for this method. */;
-- (void)tReason:(CDUnknownBlockType)arg1;
-- (void)upWithGuid: /* Error: Ran out of types for this method. */;
-- (void)uet:(_Bool)arg1;
-- (void)thReset:(_Bool)arg1;
-- (void)Context:(CDUnknownBlockType)arg1 receivedViaRelay:serviceName:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)eID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)ntrollerForGUIDs:(CDUnknownBlockType)arg1;
-- (void):(CDUnknownBlockType)arg1;
-- (void)mainIdentifiers;
-- (void)ataIfNeededForNickname:withNewNickname: /* Error: Ran out of types for this method. */;
-- (void)iCloudAccountTheSame: /* Error: Ran out of types for this method. */;
-- (void)rned;
-- (void)LastBatchByAccountID;
 - (void);
-- (void)pertyPlaylistLastDevicePlaybackDate__MAPPING_MISSING__;
 - (void);
-- (id)1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)1Â0@ù
 × ;
-- (id)Ì;
-- (void)}Eÿ3îdþ}Eÿ3°"|þEÿ3Ð±þ;
-- (id);
+- (void);
+- (void);
+- (id)S;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _providerType;

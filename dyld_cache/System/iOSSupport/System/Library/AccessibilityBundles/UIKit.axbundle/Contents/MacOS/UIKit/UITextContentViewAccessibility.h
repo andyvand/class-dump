@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (void);
 - (id);
@@ -31,13 +31,13 @@
 - (id);
 - (struct CGPoint);
 - (_Bool);
+- (void);
+- (struct CGRect);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (id);
-- (_Bool)ds:(id)arg1;
 
 @end
 

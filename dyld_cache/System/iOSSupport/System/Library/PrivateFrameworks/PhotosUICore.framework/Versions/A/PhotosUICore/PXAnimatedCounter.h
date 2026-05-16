@@ -37,18 +37,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
 - (struct CGSize);
 - (void);
+- (void);
 - (id);
-- (id)I|èªúÿ«úÿÐ;
-- (void)ce;
-- (void);
+- (unsigned long long);
+- (id)áúð!0DùñGÐ1â
+0@ù
+× ;
+- (void)Related;
+- (void)exPaths;
+- (id)"3;
+- (void);
+- (void)roll stack view to asset reference %@;
+- (void);
 
 // Remaining properties
 @property unsigned long long animationsInProgress; // @synthesize animationsInProgress=_animationsInProgress;

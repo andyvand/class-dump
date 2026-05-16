@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UIContextMenuInteractionDelegate_ForWebKitOnly
 
 @optional
-- (void)!wÐ!Cù1Ì1¢!0@ù
-× ;
+- (void)-;
+- (NSArray *);
 @end
 

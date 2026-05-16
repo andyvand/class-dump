@@ -24,40 +24,42 @@
 
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
 + (_Bool);
 + (id);
 + (id);
++ (id);
++ (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (unsigned long long);
 - (long long);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (void)¿°!8Gù	1â
+0@ù
+× ;
+- (id)alleryFromProactive: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) PRPosterConfiguredProperties *configuredProperties; // @synthesize configuredProperties=_configuredProperties;

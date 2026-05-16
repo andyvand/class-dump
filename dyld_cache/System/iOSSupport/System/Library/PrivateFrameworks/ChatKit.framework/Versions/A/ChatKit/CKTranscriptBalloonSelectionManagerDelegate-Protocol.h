@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatItem, CKTranscriptBalloonSelectionManager;
-
 @protocol CKTranscriptBalloonSelectionManagerDelegate
-- (void)ext;
-- (void)lateCrash:(CKTranscriptBalloonSelectionManager *)arg1 showAlert:(CKChatItem *)arg2 format: /* Error: Ran out of types for this method. */;
-- (void)tIsInPoint;
 @end
 

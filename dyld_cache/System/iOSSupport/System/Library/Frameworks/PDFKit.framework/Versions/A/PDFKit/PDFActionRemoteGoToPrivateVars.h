@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     PDFDestination *destination;
 }
 
-- (void)erSubject;
+- (void);
 
 @end
 

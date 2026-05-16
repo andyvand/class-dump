@@ -8,19 +8,12 @@
 @protocol UITableConstants;
 
 @protocol _UICollectionViewListAccessoryDisclosureView
-- (void)e;
-- (UIControl *)sources AS src %@ tp_records AS tp ON tp.source_id = src.id WHERE 1 ;
+- (void (^)(void))0@ù
+× ;
+- (void)!`Cùñc1Â0@ù
+× ;
+- (id <UITableConstants>)sAreSimpleInsertWithOptionalMoveSequenceForIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)Ð!¤Aù±Ã1¢!0@ù
-× ;
-- (void)±Æ1¢!0@ù
-× ;
-- (void)t:(id <UITableConstants>)arg1;
-- (void (^)(void))_navigationTransitionView;
-- (UIColor *)tRecognizer;
-- (id <UITableConstants>)mputeEdgeAbsorptionForItems: /* Error: Ran out of types for this method. */;
-- (void)ô;
-- (void)ytIegr_;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryTintColor;

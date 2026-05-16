@@ -28,15 +28,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (void);
-- (long long)riesEntryCardTimeSlotProvider;
 - (void);
+- (long long);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void)-;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

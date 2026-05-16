@@ -14,6 +14,8 @@
     MISSING_TYPE *_isMagnifying;
     MISSING_TYPE *_isGeneratingFinalImage;
     MISSING_TYPE *_isAnimatingKeyboard;
+    MISSING_TYPE *_composingPreviewViewScale;
+    MISSING_TYPE *_previewViewScale;
     MISSING_TYPE *_genmojiDelegate;
     MISSING_TYPE *_previewsThatHaveBeenVisible;
     MISSING_TYPE *_visiblePreviewID;

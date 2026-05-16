@@ -7,8 +7,8 @@
 @class WFConfiguredSystemAction;
 
 @interface (null) (SystemAction)
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFConfiguredSystemAction *action;

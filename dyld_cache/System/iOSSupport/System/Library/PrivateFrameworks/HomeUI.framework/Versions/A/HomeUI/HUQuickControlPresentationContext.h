@@ -46,15 +46,17 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id)!äFùQ1â
+0@ù
+× ;
+- (void)ngeButton;
 
 // Remaining properties
 @property(nonatomic) unsigned long long colorStyle; // @synthesize colorStyle=_colorStyle;

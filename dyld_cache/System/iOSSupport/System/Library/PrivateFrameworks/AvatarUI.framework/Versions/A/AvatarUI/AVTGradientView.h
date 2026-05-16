@@ -9,7 +9,7 @@
 }
 
 + (Class);
-- (id)3A;
+- (id);
 
 @end
 

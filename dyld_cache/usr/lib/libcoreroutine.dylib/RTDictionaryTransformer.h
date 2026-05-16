@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)efault acl application list %@;
++ (Class);
 - (id);
-- (id)tweenLocationsInTrace;
+- (id);
 
 @end
 

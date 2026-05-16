@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void);
 - (double);
+- (id);
+- (void)eviousCollectionsCount;
 
 // Remaining properties
 @property(readonly, nonatomic) PUPickerBannerView *bannerView;

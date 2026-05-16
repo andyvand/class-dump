@@ -29,8 +29,8 @@
 - (_Bool);
 - (void);
 - (void);
+- (unsigned int);
 - (id);
-- (unsigned int)FocusRegion;
 
 // Remaining properties
 @property(nonatomic) unsigned int hwModelID; // @synthesize hwModelID=_hwModelID;

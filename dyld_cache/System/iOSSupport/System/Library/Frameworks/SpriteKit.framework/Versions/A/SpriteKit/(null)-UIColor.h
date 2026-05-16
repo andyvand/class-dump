@@ -13,8 +13,7 @@
 - (CDStruct_818bb265);
 - (double);
 - (double);
-- (double)
-× ;
+- (double);
 - (double);
 @end
 

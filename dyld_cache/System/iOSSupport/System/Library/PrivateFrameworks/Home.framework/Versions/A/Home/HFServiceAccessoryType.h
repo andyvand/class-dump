@@ -17,11 +17,11 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id)AccessoryRepresentablesByUniqueIdentifier: /* Error: Ran out of types for this method. */;
+- (void)lÐ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;

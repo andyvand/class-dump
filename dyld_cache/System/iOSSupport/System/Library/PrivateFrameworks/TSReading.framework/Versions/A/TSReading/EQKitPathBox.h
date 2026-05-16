@@ -23,28 +23,28 @@
 }
 
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGRect);
 - (int);
 - (_Bool);
 - (struct CGPath *);
-- (double);
-- (_Bool);
-- (double);
-- (id);
 - (void);
 - (double);
+- (id);
+- (id);
+- (double);
+- (double);
+- (double);
 - (struct CGColor *);
+- (_Bool);
 - (id);
-- (id);
-- (double);
-- (double)Á;
-- (double);
+- (double)elper",R,N;
+- (double)bí;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPath *cgPath; // @synthesize cgPath=mCGPath;

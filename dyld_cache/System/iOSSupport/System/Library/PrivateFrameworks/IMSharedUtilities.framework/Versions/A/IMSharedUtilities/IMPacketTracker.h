@@ -17,9 +17,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)icsCollectorEventLastCompleteDBCKSyncWasWithin7Days;
 
 @end
 

@@ -21,12 +21,15 @@
     unsigned long long _style;
 }
 
++ (unsigned long long);
++ (void);
 + (void);
 + (struct CGSize);
 + (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -45,22 +48,23 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (Class);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
+- (id);
 - (void);
-- (_Bool);
-- (id)rumentClusterProviding>",&,N,V_instrumentClusterProvider;
+- (Class);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsMultipleLines; // @synthesize allowsMultipleLines=_allowsMultipleLines;
@@ -75,7 +79,7 @@
 @property(readonly, nonatomic) NSArray *gridImages; // @dynamic gridImages;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
+@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSArray *imageTitles; // @dynamic imageTitles;
 @property(copy, nonatomic) CDUnknownBlockType listImageRowHandler; // @synthesize listImageRowHandler=_listImageRowHandler;
 @property(nonatomic) __weak CPListTemplate *listTemplate; // @synthesize listTemplate=_listTemplate;

@@ -95,7 +95,7 @@
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (id)Q;
 
 // Remaining properties
 @property(readonly, nonatomic) VFXNode *authoringLayer;

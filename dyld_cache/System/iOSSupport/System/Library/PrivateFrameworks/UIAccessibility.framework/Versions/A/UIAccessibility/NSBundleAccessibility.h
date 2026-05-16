@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)16@?0@"NSString"8;
-- (_Bool)C!;
+- (_Bool);
 - (id);
 
 @end

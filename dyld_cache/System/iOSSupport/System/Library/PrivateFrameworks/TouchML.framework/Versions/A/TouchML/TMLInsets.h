@@ -13,9 +13,9 @@
 - (id);
 - (struct UIEdgeInsets);
 - (id);
-- (double);
-- (double);
 - (id);
+- (double);
+- (double);
 - (double);
 - (double);
 - (id);

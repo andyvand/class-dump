@@ -17,16 +17,17 @@
 }
 
 - (id);
-- (id)legacyStreamClassMapping;
+- (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void)reference_data__pack;
-- (long long)delPropertyMovieLibraryAddEligible;
+- (long long)q?°1Â0@ù
+× ;
+- (void)ctionary",R,C,N,V_dialogDictionary;
+- (id)tyTranslator+Schema.m;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id)Rate(void);
++ (id);
 - (id);
 - (void);
 

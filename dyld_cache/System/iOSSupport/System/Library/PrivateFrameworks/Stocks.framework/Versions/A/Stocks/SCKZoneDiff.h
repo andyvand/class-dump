@@ -13,14 +13,14 @@
 }
 
 - (id);
-- (id);
-- (void)";
-- (id)a@9;
+- (_Bool);
 - (void);
-- (_Bool)0;
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id)t_change;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;

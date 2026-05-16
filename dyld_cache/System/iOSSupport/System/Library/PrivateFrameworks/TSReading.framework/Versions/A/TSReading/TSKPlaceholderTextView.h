@@ -13,18 +13,19 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)xtStatistics:(id)arg1;
-- (void)_leadingCharIndex;
-- (void)nder;
-- (void)WÈe;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1°1Â0@ù
+× ;
+- (void)%f %f %f %f %f %f curveto;
+- (void)YF;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *placeholder;

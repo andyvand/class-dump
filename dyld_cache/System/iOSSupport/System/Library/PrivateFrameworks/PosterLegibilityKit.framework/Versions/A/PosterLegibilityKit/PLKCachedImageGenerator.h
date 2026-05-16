@@ -6,7 +6,7 @@
 
 #import <PosterLegibilityKit/PLKImageGenerator.h>
 
-@class BSUIMappedImageCache, NSMutableSet, NSNumber, PLKLRUCache;
+@class BSAtomicFlag, BSUIMappedImageCache, NSMutableSet, NSNumber, PLKLRUCache;
 @protocol PFTScheduler;
 
 @interface PLKCachedImageGenerator : PLKImageGenerator
@@ -15,6 +15,7 @@
     PLKLRUCache *_imageFutureLRUCache;
     NSMutableSet *_prewarmScheduler_perwarmingCacheKeys;
     id <PFTScheduler> _prewarmScheduler;
+    BSAtomicFlag *_prewarmInProgressFlag;
     struct os_unfair_recursive_lock_s _cacheKeyFutureLock;
     struct os_unfair_recursive_lock_s _imageFutureLock;
     struct os_unfair_recursive_lock_s _prewarmLock;
@@ -41,8 +42,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BSUIMappedImageCache *cache; // @synthesize cache=_cache;

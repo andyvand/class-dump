@@ -11,11 +11,11 @@
     MISSING_TYPE *delegate;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,10 +25,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
+- (void)for %s;
 
 @end
 

@@ -18,14 +18,14 @@
 }
 
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (long long)erticalStackView;
-- (id);
+- (void)setMessage: /* Error: Ran out of types for this method. */;
+- (long long)ÿ¾ ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;

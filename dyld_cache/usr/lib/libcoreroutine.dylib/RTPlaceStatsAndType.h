@@ -17,9 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)0@ù
-× ;
+- (unsigned long long);
+- (void)rror occurred while fetching visits with options, %{sensitive}@, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *placeIdentifier; // @synthesize placeIdentifier=_placeIdentifier;

@@ -5,7 +5,7 @@
 //
 
 @protocol MUSelectable
-- (_Bool)y=?_pG;
+- (_Bool)9;
 
 // Remaining properties
 @property(nonatomic, getter=isSelected) _Bool selected;

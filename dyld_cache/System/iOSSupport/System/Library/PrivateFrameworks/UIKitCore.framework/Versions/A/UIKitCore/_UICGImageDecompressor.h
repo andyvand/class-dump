@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGImage *);
-- (id)ding;
+- (id);
+- (struct CGImage *)× ;
 
 @end
 

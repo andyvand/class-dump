@@ -25,13 +25,13 @@
 }
 
 - (void);
+- (struct CGSize);
+- (id);
+- (void);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

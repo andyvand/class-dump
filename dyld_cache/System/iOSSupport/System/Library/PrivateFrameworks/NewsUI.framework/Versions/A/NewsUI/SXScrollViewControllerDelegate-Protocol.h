@@ -5,10 +5,5 @@
 //
 
 @protocol SXScrollViewControllerDelegate
-
-@optional
-- (void);
-- (void)0;
-- (void)B;
 @end
 

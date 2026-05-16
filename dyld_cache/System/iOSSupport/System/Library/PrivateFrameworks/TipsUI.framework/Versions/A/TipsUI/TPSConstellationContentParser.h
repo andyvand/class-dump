@@ -65,15 +65,16 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -83,27 +84,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)AAyÀDí
-yÂFí
-yAAyAAyfCí
-q-í
-G:í
-y­7í
-GG_AAyò<ï
-y¤Cï
-yAí
-yAAyå?í
-ygCï
-yY?í
-ADG_Qo_=í
-yCí
-GG_SNyl1í
-GQo_G_Q2ï
-Qo_i.í
-GtGG<í
-GAIG /* Error: Ran out of types for this method. */;
-- (id)ÝûÿcollectionIds;
+- (id);
+- (void)GSgtGGAHGG;
 
 // Remaining properties
 @property(retain, nonatomic) TPSAssetFileInfoManager *assetFileInfoManager; // @synthesize assetFileInfoManager=_assetFileInfoManager;

@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void)D;
-- (id)w;
+- (void);
 - (id);
-- (id)9*;
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)$ÄDÿ$ÄDÿ;
 
 // Remaining properties
 @property(retain, nonatomic) CKBrowserIconView *browserIconView; // @synthesize browserIconView=_browserIconView;

@@ -27,11 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)eristicGroupTitleTemperature;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessoryBuilder *accessoryBuilder; // @synthesize accessoryBuilder=_accessoryBuilder;

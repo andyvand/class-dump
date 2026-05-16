@@ -24,19 +24,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
-- (CDUnknownBlockType);
-- (double);
 - (id);
 - (void);
+- (void);
+- (CDUnknownBlockType);
+- (double);
+- (void);
+- (void)ivityHandler;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image;

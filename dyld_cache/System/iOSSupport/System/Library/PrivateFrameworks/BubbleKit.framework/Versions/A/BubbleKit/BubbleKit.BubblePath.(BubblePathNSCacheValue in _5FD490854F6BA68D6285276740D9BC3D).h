@@ -11,8 +11,8 @@
     MISSING_TYPE *path;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

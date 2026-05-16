@@ -22,9 +22,9 @@
 - (_Bool);
 - (Class);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -45,7 +45,7 @@
 - (int);
 - (int);
 - (int);
-- (int)#;
+- (int);
 - (id);
 - (_Bool);
 - (_Bool);

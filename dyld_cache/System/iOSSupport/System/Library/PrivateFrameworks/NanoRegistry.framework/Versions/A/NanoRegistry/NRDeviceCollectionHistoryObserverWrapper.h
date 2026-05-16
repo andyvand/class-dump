@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);

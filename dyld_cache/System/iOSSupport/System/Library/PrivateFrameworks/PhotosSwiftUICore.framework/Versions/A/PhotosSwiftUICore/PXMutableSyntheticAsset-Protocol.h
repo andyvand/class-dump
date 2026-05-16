@@ -7,7 +7,8 @@
 @class NSDate, NSSet, NSString, UIColor;
 
 @protocol PXMutableSyntheticAsset
-- (void);
+- (void)ndexOfObject:(NSString *)arg1;
+- (void)bGG_G;
 
 // Remaining properties
 @property(nonatomic) struct CGRect acceptableCropAssetRect;

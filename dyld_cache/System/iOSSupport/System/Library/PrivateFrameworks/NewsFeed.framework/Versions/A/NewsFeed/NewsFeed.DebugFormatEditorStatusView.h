@@ -20,11 +20,12 @@
     MISSING_TYPE *statusLabelBranchIcon;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
-- (id)?;
-- (void)tartLoading;
-- (id)¥üÿ;
-- (struct CGSize);
+- (id)!@ùÿ1Â0@ù
+× ;
+- (void)é$ÿ;
 
 @end
 

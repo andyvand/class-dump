@@ -14,12 +14,12 @@
     MISSING_TYPE *todayBlueprintPrewarmState;
 }
 
-- (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)fetch channels for sports alerts from Apple news section;
-- (id)üÿ;
+- (void)xî¦þ;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

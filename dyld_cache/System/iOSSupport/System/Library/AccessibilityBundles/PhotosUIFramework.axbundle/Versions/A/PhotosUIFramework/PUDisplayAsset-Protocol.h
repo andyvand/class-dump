@@ -7,6 +7,7 @@
 @class CLLocation, NSDate, NSString;
 
 @protocol PUDisplayAsset
+- (double)y: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double aspectRatio;

@@ -15,7 +15,6 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -31,12 +30,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (long long);
-- (void);
+- (void)erface>"8@"NSError"16;
 
 // Remaining properties
 @property(retain, nonatomic) WFIntentExecutor *executor; // @synthesize executor;

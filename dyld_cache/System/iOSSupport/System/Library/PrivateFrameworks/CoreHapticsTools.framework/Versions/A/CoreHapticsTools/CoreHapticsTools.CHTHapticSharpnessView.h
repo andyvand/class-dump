@@ -10,10 +10,10 @@
 {
 }
 
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

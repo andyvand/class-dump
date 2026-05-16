@@ -13,7 +13,7 @@
     id <NSObject><NSCopying><NSSecureCoding> _value;
 }
 
-+ (_Bool)completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 @end
 

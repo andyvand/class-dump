@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)oaded);
+- (_Bool)p`è`ta	b8b;
 
 @end
 

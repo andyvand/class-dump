@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)À?æ;
+- (id);
+- (void)o horizontalSpacing verticalSpacing rowsStyle contentMarginEdges ;
 
 // Remaining properties
 @property(retain, nonatomic) _TtC12PhotosUICore29PXVideoFormatMetadataProvider *metadataProvider; // @synthesize metadataProvider=_metadataProvider;

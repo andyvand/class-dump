@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSArray *_subfeatures;
 }
 
-- (void);
-- (id)actor:(id)arg1;
-- (void)terView:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)À÷ÿÿä#éÿ(þH{þÿ;
 - (id);
-- (void);
+- (id);
+- (void)esentation:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)ined in the collection view after the update (%d) must be equal to the number of sections contained in the collection view before the update (%d), plus or minus the number of sections inserted or deleted (%d inserted, %d deleted). Collection view:(id)arg1 %@;
+- (id)eViewCSg;
+- (void)R23¸_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

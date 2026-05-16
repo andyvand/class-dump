@@ -5,8 +5,5 @@
 //
 
 @protocol CKFunCameraViewControllerDelegate
-- (void);
-- (void)ô;
-- (void)ew:didStartInputSession: /* Error: Ran out of types for this method. */;
 @end
 

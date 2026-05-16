@@ -24,7 +24,7 @@
 - (_Bool);
 - (long long);
 - (unsigned short);
-- (unsigned long long)imulateAssetContentLoading: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Suggestion: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -17,18 +17,23 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (long long);
-- (id)0:(id)arg1 8@"IDSService"16@"IDSAccount"24@"NSString"32@"NSString"40q48@"NSError"56B64;
-- (long long)dentifier:(id)arg1;
-- (long long)ilure;
-- (id):style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)fº;
-- (id)unchedFromKeyboard;
-- (void)focusItemsInRect:(id)arg1;
-- (id)B,N,G_isEditing,S_setEditing:,V__editing /* Error: Ran out of types for this method. */;
-- (id),N,V_changeType;
-- (id)ettingsLoader bundle;
-- (long long);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (long long);
+- (id)1Â0@ù
+× ;
+- (void)Á!ä@ù±`°1Â0@ù
+× ;
+- (id)EventsBySessionID: /* Error: Ran out of types for this method. */;
+- (id)ingInteraction;
+- (id)xisting content view directly, which is expensive. %@ Make a symbolic breakpoint at UIContentConfigurationAlertForReplacedContentView to catch this in the debugger.
+%@:(id)arg1 %@;
+Existing content configuration:%@;
+New content configuration:%@ /* Error: Ran out of types for this method. */;
+- (void)>_;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cachedStringValue; // @synthesize cachedStringValue=_cachedStringValue;

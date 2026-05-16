@@ -12,17 +12,17 @@
     unsigned long long _scheme;
 }
 
-+ (_Bool)ingKey;
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long)d string;
+- (unsigned long long)erUser: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSData *key; // @synthesize key=_key;

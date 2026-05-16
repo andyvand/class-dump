@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)h;
-- (void)derBufferSize:renderEncoder: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHome, HMZone;
+
 @protocol HMHomeDelegate
 
 @optional
-- (void)ÿÿÿü;
-- (void)<ô;
+- (void)ierFlags:(HMHome *)arg1 propertyList:(HMZone *)arg2;
 @end
 

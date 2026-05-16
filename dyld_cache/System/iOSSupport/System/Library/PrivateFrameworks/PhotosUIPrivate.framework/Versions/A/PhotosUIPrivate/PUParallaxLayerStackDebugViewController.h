@@ -61,15 +61,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
@@ -78,17 +78,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
 - (void);
-- (void)excludesOptionsMenu;
-- (void);
-- (id)OF;
-- (void)èåøÿ;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void){UIEdgeInsets=dddd}24;
+- (void)hange;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

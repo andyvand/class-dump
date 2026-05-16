@@ -13,10 +13,10 @@
 
 - (id);
 - (id);
+- (id);
+- (unsigned long long)8ºyAAy~ºyÂ}ºy}ºyAAyÛH;
 - (void);
 - (id);
-- (id)ue];
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

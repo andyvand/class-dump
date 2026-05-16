@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)fier>",R,N,V_URLQualifier;
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

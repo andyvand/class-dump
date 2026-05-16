@@ -12,13 +12,13 @@
 }
 
 + (id);
-- (void);
 - (void);
-- (void);
 - (void);
-- (void);
-- (id),V_attributes;
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)l _fetchCNContactForEmail;
 
 @end
 

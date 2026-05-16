@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)te transition requested, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastDateInferred; // @synthesize lastDateInferred=_lastDateInferred;

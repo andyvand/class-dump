@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
 - (_Bool);
+- (void)RepresentationForTreatment: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -15,9 +15,9 @@
 
 - (id);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *address; // @synthesize address=_address;

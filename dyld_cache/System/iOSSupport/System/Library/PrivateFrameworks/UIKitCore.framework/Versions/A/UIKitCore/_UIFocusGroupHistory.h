@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)te: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)MoreKeyTime;
+- (id);
+- (void);
 
 @end
 

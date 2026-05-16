@@ -14,16 +14,15 @@
     double _touchBasedAllowableMovement;
 }
 
-- (void);
-- (void)&º;
-- (void)1¢!0@ù
-× ;
-- (void)¡uÐ!Bù1Ê1¢!0@ù
-× ;
-- (id)§4¸Òiþ§4´Òiþ§4°Òiþ;
 - (double);
-- (void)c;
-- (id)Lg;
+- (id);
+- (void)! Gù1dÐ1Â0@ù
+× ;
+- (id)tableView:(id)arg1 performPrimaryActionForRowAtIndexPath:(SEL)arg2;
+- (void)thTimeIntervalSinceNow:(id)arg1;
+- (void)_UIIntelligenceRimHighlightEffectRegion;
+- (void)Å`;
+- (void)ò`;
 
 // Remaining properties
 @property(nonatomic) double touchBasedAllowableMovement; // @synthesize touchBasedAllowableMovement=_touchBasedAllowableMovement;

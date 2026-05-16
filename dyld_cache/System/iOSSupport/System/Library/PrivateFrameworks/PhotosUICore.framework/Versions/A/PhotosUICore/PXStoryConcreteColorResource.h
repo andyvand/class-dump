@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)ÀáÿèáÿshouldLoadStoriesFromCache;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

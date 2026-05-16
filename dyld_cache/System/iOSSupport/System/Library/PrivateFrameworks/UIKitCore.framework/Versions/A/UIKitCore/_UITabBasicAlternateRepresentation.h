@@ -12,17 +12,15 @@
     UIImage *image;
 }
 
-- (id)pping message part because messagePartGUID for messagePartDescriptor:(id)arg1 '%s' wasn't found;
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool)bStatsRecord=dddddd}16@24@32;
-- (void);
-- (void);
-- (id)¡n!tCù±Àð1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)Selection;
+- (_Bool)24@0:(id)arg1 8@"UISplitViewControllerDisplayModeBarButtonItem"16;
+- (void)ineBreakStrategy:(id)arg1;
+- (id)ived a callback from a session not attached to this renamer.;
+- (void)System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

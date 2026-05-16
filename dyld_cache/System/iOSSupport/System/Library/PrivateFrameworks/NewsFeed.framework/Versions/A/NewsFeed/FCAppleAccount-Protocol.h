@@ -7,21 +7,21 @@
 @class ACAccount, NSArray, NSString;
 
 @protocol FCAppleAccount
-- (NSString *);
-- (NSString *);
-- (NSString *);
-- (void)equencyCapIdentifier;
-- (NSString *)iN;
-- (ACAccount *)	
-;
-- (_Bool);
-- (_Bool)le;
-- (NSString *);
-- (NSString *)ormatCacheFileMetadata;
-- (_Bool)LÄøÝ¬þLÄèÝ¬þõKÄÜÝ¬þ;
-- (NSString *)ry;
-- (NSString *)C;
-- (NSString *)ÙÆlz;
+- (void)ortLeagueScoresTagID;
+- (long long)nxõ;
+- (_Bool)Ø;
+- (void)ÿ;
+- (NSString *)äÿCäÿ¤Cäÿ4EäÿLEäÿpEäÿEäÿFäÿ<Fäÿ`FäÿFäÿÀFäÿGäÿ0GäÿlGäÿGäÿGäÿ¨GäÿÌGäÿ0HäÿdHäÿHäÿ¼HäÿøHäÿIäÿLIäÿpIäÿ¬IäÿàIäÿøIäÿJäÿ(JäÿLJäÿìJäÿKäÿØKäÿ°LäÿäLäÿhMäÿMäÿMäÿ¼MäÿàMäÿdOäÿOäÿÄOäÿèOäÿ$PäÿHPäÿlPäÿäPäÿQäÿ,Qäÿ`QäÿQäÿÀQäÿôQäÿ0RäÿTRäÿxRäÿRäÿ¨SäÿÌSäÿTäÿ,Täÿ8TäÿPTäÿtTäÿTäÿ¼UäÿÈUäÿÔVäÿdWäÿìXäÿLYäÿpYäÿYäÿÄYäÿèYäÿZäÿHZäÿlZäÿ¸ZäÿÐZäÿèZäÿ[äÿ0[äÿ\äÿ\äÿ4\äÿX\äÿ|\äÿP]äÿt]äÿ]äÿÌ]äÿ^äÿ,^äÿP^äÿ0_äÿp`äÿ¬`äÿØ`äÿð`äÿaäÿ,aäÿPaäÿtaäÿaäÿaäÿ¤aäÿ¼aäÿàaäÿbäÿ(bäÿ4bäÿLbäÿdbäÿbäÿ¬bäÿÐbäÿ\päÿpäÿäpäÿqäÿ,qäÿ`qäÿqäÿÀqäÿräÿ¸räÿèräÿsäÿ0säÿlsäÿsäÿàsäÿtäÿ(täÿLtäÿtäÿ¼täÿàtäÿ¼uäÿàuäÿväÿ@väÿdväÿwäÿxäÿPxäÿ¼yäÿÐyäÿôyäÿzäÿX{äÿ|{äÿ {äÿÔ{äÿ|äÿ4|äÿh|äÿ¤|äÿÈ|äÿì|äÿ}äÿ`}äÿx}äÿð~äÿäÿ äÿ8äÿPäÿhäÿäÿäÿ°äÿÈäÿàäÿøäÿäÿ(äÿ@äÿXäÿ¸äÿÐäÿèäÿäÿ0äÿTäÿ(äÿ@äÿdäÿ|äÿäÿ äÿÄäÿèäÿäÿ$äÿ<äÿTäÿxäÿäÿÀäÿÌäÿäÿ°äÿÈäÿìäÿäÿ4äÿàäÿìäÿHäÿäÿ8äÿtäÿ°äÿäÿ8äÿüäÿ äÿ\äÿäÿ¨äÿÀäÿØäÿüäÿèäÿäÿHäÿäÿ¬äÿÐäÿÜäÿèäÿäÿ@äÿdäÿLäÿpäÿäÿÐäÿôäÿLäÿpäÿäÿ¨äÿÜäÿäÿ<äÿ`äÿäÿ¤äÿ4äÿXäÿäÿÈäÿàäÿøäÿäÿäÿLäÿäÿ¬äÿèäÿ;
+- (NSString *)tûÿ;
+- (NSString *)hlight;
+- (NSString *)Hÿ;
+- (NSString *);
+- (NSString *)Xýÿòÿ\Ûuÿ$;
+- (_Bool);
+- (NSString *)nEligibilityProvider;
+- (void);
+- (_Bool)bs;
+- (long long)¬Fþ¬Õ+uì+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *DSID;

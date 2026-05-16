@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class FCSportsEventLiveStreamVideo, NSArray, NSDate, NSDictionary, NSString;
 @protocol FCSportsProviding;
 
 @protocol FCSportsEventProviding
-- (NSDate *)�;
-- (NSArray *);
-- (_Bool)¨e;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *eventArticleListID;
@@ -18,7 +16,11 @@
 @property(readonly, nonatomic) id <FCSportsProviding> eventLeagueTag;
 @property(readonly, nonatomic) _Bool isDeprecated;
 @property(readonly, nonatomic) _Bool isRouteable;
+@property(readonly, nonatomic) FCSportsEventLiveStreamVideo *liveStreamVideo;
+@property(readonly, copy, nonatomic) NSString *primaryLiveActivityID;
 @property(readonly, nonatomic) NSDictionary *rosterResourceIDs;
+@property(readonly, copy, nonatomic) NSArray *secondaryLiveActivityIDs;
 @property(readonly, copy, nonatomic) NSDate *sportsEventStartTime;
+@property(readonly, nonatomic) _Bool supportsLiveActivity;
 @end
 

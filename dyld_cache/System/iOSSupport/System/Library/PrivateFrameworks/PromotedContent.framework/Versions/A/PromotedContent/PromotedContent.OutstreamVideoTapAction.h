@@ -16,7 +16,7 @@
     MISSING_TYPE *iTunesMetadata;
 }
 
-- (id)udioCPListItemFactory:(long long)arg1 Handing back image for track %{public}@;
+- (id);
 - (void);
 
 @end

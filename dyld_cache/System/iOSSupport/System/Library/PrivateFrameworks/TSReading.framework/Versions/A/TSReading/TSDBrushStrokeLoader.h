@@ -31,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ontents;
 
 @end
 

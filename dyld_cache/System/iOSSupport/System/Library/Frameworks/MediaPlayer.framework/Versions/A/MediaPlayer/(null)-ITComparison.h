@@ -5,6 +5,6 @@
 //
 
 @interface (null) (ITComparison)
-- (_Bool)nDomain:(id)arg1 account:(long long)arg2 activity:protectionClass: /* Error: Ran out of types for this method. */;
+- (_Bool);
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
 - (id);
+- (void)tionSectionController:didSelectStationAttributionURL: /* Error: Ran out of types for this method. */;
 
 @end
 

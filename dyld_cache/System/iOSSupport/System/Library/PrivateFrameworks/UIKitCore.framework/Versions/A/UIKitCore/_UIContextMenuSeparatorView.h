@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)So13UIDimmingViewCSg;
+- (id)ItemDeferral:(struct CGRect)arg1;
 
 @end
 

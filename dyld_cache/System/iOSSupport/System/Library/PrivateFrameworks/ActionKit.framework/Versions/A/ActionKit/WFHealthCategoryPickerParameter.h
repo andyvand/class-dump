@@ -16,9 +16,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (_Bool);
 - (id);
+- (void)rdSubstitutableState"24@?0@"WFTrelloBoard"8Q16;
 
 // Remaining properties
 @property(retain, nonatomic) HKCategoryType *categoryType; // @synthesize categoryType=_categoryType;

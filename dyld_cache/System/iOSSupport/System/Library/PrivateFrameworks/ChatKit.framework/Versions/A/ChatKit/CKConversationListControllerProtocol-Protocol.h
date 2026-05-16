@@ -4,49 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversationList, NSSet, NSString, UISearchController;
+@class NSSet, NSString;
 @protocol CKConversationListControllerDelegate;
 
 @protocol CKConversationListControllerProtocol
-- (void);
-- (void);
-- (void);
-- (void)Õ;
-- (void)e;
-- (void)ithIdentifier:(NSString *)arg1;
-- (void)ithPreferredSize:(NSSet *)arg1;
-- (void)result:(long long)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ndler:(_Bool)arg1;
-- (void)thoutHint;
-- (void)acity:(_Bool)arg1;
-- (void)rButtonFromButton:(_Bool)arg1;
-- (void)croppingQuadTopLeftX;
-- (void)ottomRightX;
-- (void)reIDToRootRecordID;
-- (void)Result:highlightColor:insideFrame:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void)nAnimationForWebView: /* Error: Ran out of types for this method. */;
-- (void)ens;
-- (void)tionLength;
-- (void)orIndex;
-- (void);
-- (void)yADyAEyA10__A11_AWyAEyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGGGGAGG;
-- (CKConversationList *)CGShyA1_GGA4_G;
-- (void);
-- (void)c;
-- (void)lu and %2$lu;
-- (void)ÑÇÐ1¢!0@ù
-× ;
-- (UISearchController *)erverProtocol;
-- (id <CKConversationListControllerDelegate>)èÎ;
-- (void)öÿüÿXýÿ;
-- (_Bool)ionally marked as read.;
+- (_Bool);
+- (void).;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *activeFilterModes;
 @property(retain, nonatomic) NSString *deferredSearchQuery;
 @property(nonatomic) __weak id <CKConversationListControllerDelegate> delegate;
-@property(nonatomic) unsigned long long filterMode;
 @property(retain, nonatomic) NSSet *guidsOfPreservedConversations;
 @property(readonly, nonatomic) _Bool isSearchActive;
 @property(readonly, nonatomic) _Bool isSearchActiveAndDisplayingResultsForSearchText;

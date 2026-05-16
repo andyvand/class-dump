@@ -8,12 +8,14 @@
 
 @interface NewsFeed.WebEmbedDataSourceCache
 {
+    MISSING_TYPE *sportsLiveActivityManager;
     MISSING_TYPE *delegate;
     MISSING_TYPE *jsonCache;
     MISSING_TYPE *datastoreCache;
     MISSING_TYPE *cacheKeyMap;
     MISSING_TYPE *queue;
     MISSING_TYPE *operationQueue;
+    MISSING_TYPE *observationTasks;
 }
 
 @end

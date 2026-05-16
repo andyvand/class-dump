@@ -14,23 +14,22 @@
     struct CGSize _offset;
 }
 
-+ (id)fore sorting %@;
-- (id)d local trust object;
-- (void);
-- (id)oller"16@"UIViewController"24@"UIViewController"32;
-- (void);
-- (void);
-- (double)0@ù
-× ;
-- (void)°1¢!0@ù
-× ;
++ (id);
 - (id);
-- (id)DataDetectors;
-- (double)UnselectionDuration;
-- (void)ColorPickingDelegate;
-- (struct CGSize)ickInteractionForceGestureRecognizer;
-- (void)e.text.grabber.leading;
-- (void)$%¢ÿá;
+- (void);
+- (id);
+- (void);
+- (id)!0AùÑe°1Â0@ù
+× ;
+- (double)nge:inSession: /* Error: Ran out of types for this method. */;
+- (void)tes;
+- (id)reshViews:(struct _NSZone *)arg1;
+- (double)ingCustomBackgroundColor;
+- (void);
+- (void)8°;
+- (void);
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

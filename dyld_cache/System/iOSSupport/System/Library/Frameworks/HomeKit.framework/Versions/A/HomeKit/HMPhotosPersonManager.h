@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)onProfile;
++ (id)taVendorDictionaryKey;
 - (id);
 - (id);
 - (id);

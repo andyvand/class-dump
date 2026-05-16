@@ -36,14 +36,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)isImageViewHidden;
-- (void)°àtqùÿ;
-- (void)nStatusDidChangeNotification;
-- (id);
+- (void);
+- (void);
+- (void)tor:withObject: /* Error: Ran out of types for this method. */;
+- (id)ryButtonText:privacyLinkBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)G_õö0tGG;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

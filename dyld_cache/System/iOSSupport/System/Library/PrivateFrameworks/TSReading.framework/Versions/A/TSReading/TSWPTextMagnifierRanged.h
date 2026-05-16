@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -31,22 +31,22 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint)s for dataSource=%s, time elapsed=%f;
+- (struct CGPoint);
 - (double);
 - (double);
 - (void);
 - (struct CGPoint);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (double);
+- (void);
 - (id);
-- (struct CGPoint);
-- (void)efaultBackgroundFillProperty;
-- (void)è;
+- (void);
+- (void);
+- (struct CGPoint)ignoring height;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint animationPoint; // @synthesize animationPoint=_animationPoint;

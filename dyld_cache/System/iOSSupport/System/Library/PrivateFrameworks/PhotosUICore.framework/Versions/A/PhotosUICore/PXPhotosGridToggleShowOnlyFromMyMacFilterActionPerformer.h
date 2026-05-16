@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)Á6;
+- (id)tionPerformerDelegate>",W,N,V_actionPerformerDelegate;
 
 @end
 

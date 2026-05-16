@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
+- (void);
+- (void)text:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;

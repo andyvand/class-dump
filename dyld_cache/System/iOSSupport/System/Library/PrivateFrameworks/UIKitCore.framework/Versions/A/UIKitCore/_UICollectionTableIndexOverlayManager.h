@@ -31,15 +31,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)Sent;
-- (void)=;
 - (void);
-- (void)ditions don't allow it):%@:%@ /* Error: Ran out of types for this method. */;
-- (void)Reconnect Request:%@:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)uest;
-- (void)°t0uvv;
-- (id)ôß(ÿyÉÉþZc;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)èPþ;
+- (void)dsb;
+- (void)e;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *indexOverlayIndicatorViewText; // @synthesize indexOverlayIndicatorViewText=_indexOverlayIndicatorViewText;

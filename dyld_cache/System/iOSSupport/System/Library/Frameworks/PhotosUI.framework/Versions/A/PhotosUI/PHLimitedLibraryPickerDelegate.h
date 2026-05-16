@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)r:] /* Error: Ran out of types for this method. */;
+- (void)on token.;
 
 // Remaining properties
 @property(retain, nonatomic) PLAssetsdClient *assetsdClient; // @synthesize assetsdClient=_assetsdClient;

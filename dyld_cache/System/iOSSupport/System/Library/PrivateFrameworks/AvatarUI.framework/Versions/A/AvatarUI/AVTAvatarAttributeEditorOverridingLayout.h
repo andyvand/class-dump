@@ -17,7 +17,7 @@
 
 - (struct CGRect);
 - (double);
-- (double)';
+- (double);
 - (struct CGRect);
 - (unsigned long long);
 - (struct CGRect);
@@ -36,12 +36,12 @@
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (_Bool);
-- (struct CGSize);
-- (void);
-- (id);
-- (double);
 - (struct UIEdgeInsets);
 - (id);
+- (id);
+- (double);
+- (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool RTL;

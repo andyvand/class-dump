@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)L+¤ÿ³I/ø5;
+- (id)avigationDestination",&,N,V_targetDestination;
 
 @end
 

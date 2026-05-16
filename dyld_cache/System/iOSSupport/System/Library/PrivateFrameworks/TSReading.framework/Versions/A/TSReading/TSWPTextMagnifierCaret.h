@@ -20,33 +20,33 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)_;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGPoint);
-- (void)ć;
 - (void);
 - (void);
-- (void);
-- (struct CGPoint)ss provider, identifier=%{public}s;
+- (void);
+- (void);
+- (struct CGPoint);
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
-- (double)the internet.;
-- (void);
+- (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (void)SCHChartInfoDefaultShowLegendProperty;
-- (void)¼;
+- (void);
+- (void);
+- (struct CGPoint)[TSDCanvasLayer setController:] /* Error: Ran out of types for this method. */;
+- (void)ôC\3Û;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint animationPoint; // @synthesize animationPoint=_magnificationPoint;

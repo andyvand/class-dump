@@ -9,6 +9,7 @@
 @interface PhotosUIPrivate.BrowsingVideoModel
 {
     MISSING_TYPE *__audioMuteState;
+    MISSING_TYPE *_wantsCaptionsButton;
     MISSING_TYPE *__currentTime;
     MISSING_TYPE *__totalDuration;
     MISSING_TYPE *videoPlayer;
@@ -25,8 +26,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)nteractionOptions;
 
 @end
 

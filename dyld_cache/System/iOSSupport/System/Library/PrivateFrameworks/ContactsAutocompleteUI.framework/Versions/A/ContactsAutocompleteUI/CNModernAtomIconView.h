@@ -23,8 +23,8 @@
 - (id);
 - (void);
 - (double);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint drawingOffset; // @synthesize drawingOffset=_drawingOffset;

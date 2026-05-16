@@ -27,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (void);
-- (float);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (double);
+- (id);
+- (id);
+- (void);
+- (float);
+- (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

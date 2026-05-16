@@ -4,8 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UITableViewDropPlaceholderContextImpl;
+
 @protocol _UITableViewPlaceholderContextDelegate
-- (_Bool)Ü;
-- (_Bool)Tracker;
+- (_Bool)an out-of-bounds section (%ld) when there are only %ld sections. Table view:(_UITableViewDropPlaceholderContextImpl *)arg1 %@;
 @end
 

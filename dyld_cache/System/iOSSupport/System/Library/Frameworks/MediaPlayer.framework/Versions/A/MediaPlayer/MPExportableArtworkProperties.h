@@ -19,17 +19,17 @@
 - (void);
 - (id);
 - (long long);
-- (id)@136@0:(id)arg1 8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128;
-- (id)Connected: /* Error: Ran out of types for this method. */;
-- (id)tityType: /* Error: Ran out of types for this method. */;
-- (_Bool)Array"16;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (id)32@0:8@"<MTLFunction>"16^@24 /* Error: Ran out of types for this method. */;
-- (void)egacy-MusicKit;
+- (void)sDescription:(unsigned long long)arg1;
+- (void)rectionMappings;
 
 // Remaining properties
 @property(readonly, nonatomic) ICStoreArtworkInfo *artworkInfo;

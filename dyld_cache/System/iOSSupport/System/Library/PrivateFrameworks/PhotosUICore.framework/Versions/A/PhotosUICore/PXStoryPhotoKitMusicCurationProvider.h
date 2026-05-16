@@ -18,7 +18,7 @@
     NSObject<OS_os_log> *_log;
 }
 
-+ (id)ÝwNçï8;
++ (id);
 - (void);
 - (id);
 - (id);
@@ -38,11 +38,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)DateSi14processingCodeSd36embeddingDistanceThresholdForRankingt;
 - (void);
-- (id);
-- (id);
-- (id)egory:songPace:randomNumberGenerator:storyConfiguration: /* Error: Ran out of types for this method. */;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;

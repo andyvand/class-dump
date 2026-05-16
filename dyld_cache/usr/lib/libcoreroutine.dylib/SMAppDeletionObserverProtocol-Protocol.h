@@ -5,9 +5,5 @@
 //
 
 @protocol SMAppDeletionObserverProtocol
-
-@optional
-- (void)B;
-- (void);
 @end
 

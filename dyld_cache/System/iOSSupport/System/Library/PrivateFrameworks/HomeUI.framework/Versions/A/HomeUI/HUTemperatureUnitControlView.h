@@ -19,7 +19,7 @@
     NSArray *_labelConstraints;
 }
 
-+ (Class) ];
++ (Class)tion;
 - (_Bool);
 - (void);
 - (void);
@@ -32,19 +32,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id)
-× ;
-- (id)itorViewController"16@"HMServiceGroup"24;
-- (void)chorProviding>"16@0:(id)arg1 8;
-- (_Bool);
-- (void)ê;
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void)but meDevice did not change;
+- (id)eEditorItemModule supportedServiceTypes];
+- (_Bool)gacyRowView;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted; // @synthesize canBeHighlighted=_canBeHighlighted;

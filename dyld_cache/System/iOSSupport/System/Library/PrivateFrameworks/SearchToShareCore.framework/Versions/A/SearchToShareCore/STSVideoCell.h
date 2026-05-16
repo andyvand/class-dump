@@ -31,8 +31,11 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,9 +43,6 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *duration;

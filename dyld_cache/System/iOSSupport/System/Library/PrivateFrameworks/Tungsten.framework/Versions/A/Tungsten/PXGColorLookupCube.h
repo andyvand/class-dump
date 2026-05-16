@@ -16,9 +16,9 @@
 - (long long);
 - (id);
 - (id);
+- (MISSING_TYPE *);
 - (id);
 - (_Bool);
-- (MISSING_TYPE *)&,N,V_itemPlacementController;
 
 // Remaining properties
 @property(readonly, nonatomic) MISSING_TYPE *center;

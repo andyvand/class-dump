@@ -40,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (struct CGSize);
@@ -53,13 +53,13 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id)edTime;
-- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPeel;

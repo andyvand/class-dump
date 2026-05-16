@@ -17,9 +17,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)ÿãþàp6;
+- (void)ete all your Generative Memories? It will NOT delete those which are favorite.;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

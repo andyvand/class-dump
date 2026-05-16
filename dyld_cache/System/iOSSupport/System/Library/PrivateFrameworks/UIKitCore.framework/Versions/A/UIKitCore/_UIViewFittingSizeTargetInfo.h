@@ -13,17 +13,18 @@ __attribute__((visibility("hidden")))
     struct CGSize _targetSize;
 }
 
-- (unsigned long long);
-- (_Bool);
-- (float);
-- (_Bool);
 - (id);
-- (id)ntifier;
-- (void)gDirectionFollowsLayoutDirection"b1"disableLinkHypenation"b1"hasExplicitBaselineOffset"b1};
-- (_Bool)setSound:(id)arg1;
-- (id)ssible;
-- (float),N,V_gestureRecognizerForExclusionRelationship;
-- (struct CGSize)rrationAmount;
+- (_Bool);
+- (unsigned long long);
+- (struct CGSize)
+× ;
+- (_Bool)ransformer";
+- (_Bool)anged:(id)arg1;
+- (id)dampingRatioSmoothing;
+- (float)pOperationAnimated:transitionAssistant: /* Error: Ran out of types for this method. */;
+- (id)AppearanceTransitionIfPossible:(struct _NSZone *)arg1 animated: /* Error: Ran out of types for this method. */;
+- (float)oq|rðsduØvLxÀy4{¨|;
+- (void)¸uv;
 
 // Remaining properties
 @property(nonatomic, getter=isDummy) _Bool dummy; // @synthesize dummy=_dummy;

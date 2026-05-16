@@ -24,32 +24,32 @@
 }
 
 - (void);
-- (void)derDelegate;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool)Subscript: /* Error: Ran out of types for this method. */;
-- (id)LocalAreasProvider_p;
 - (id);
-- (id);
-- (id)ressedMisspellingRange:blackAndWhite:dictationInterpretations:autocorrections:markedRange:markedText:renderMode:pageCount:suppressInvisibles:currentCanvasSelection: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)g;
-- (id);
-- (id);
-- (void);
-- (id)arator;
-- (id);
-- (void)edWithReason:(id)arg1;
-- (id)<;
+- (void)L ÿÿúWÅ»;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *activePictureInPictureURL; // @synthesize activePictureInPictureURL=_activePictureInPictureURL;

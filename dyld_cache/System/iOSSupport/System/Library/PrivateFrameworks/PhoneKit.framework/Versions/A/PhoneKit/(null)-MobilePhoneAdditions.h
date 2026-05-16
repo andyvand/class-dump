@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *encodedDialerString;

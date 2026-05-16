@@ -34,9 +34,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)Data;
 
 // Remaining properties
 @property(readonly, nonatomic) CRRecentContactsLibrary *recentsLibrary; // @synthesize recentsLibrary=_recentsLibrary;

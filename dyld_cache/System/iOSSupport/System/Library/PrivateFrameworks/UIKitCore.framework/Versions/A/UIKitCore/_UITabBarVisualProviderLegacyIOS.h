@@ -22,66 +22,63 @@ __attribute__((visibility("hidden")))
     double _backgroundTransitionProgress;
 }
 
-- (void);
 - (id);
-- (double);
 - (id);
-- (void)libswiftCore.dylib;
-- (void);
-- (long long)d;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)k;
 - (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (double);
+- (void)@ù
+× ;
+- (id);
+- (id)0@ù
+× ;
+- (id)!àBù±b1Â0@ù
+× ;
+- (void);
+- (long long)fÐ1Â0@ù
+× ;
+- (void)6o^q24;
+- (void)d}}16Q48@56;
+- (void)h"16;
+- (void)ressTimestamp:(id)arg1;
+- (void)ine;
+- (_Bool)ngCustomBackgroundView;
+- (struct CGRect)vateLocalContext;
+- (void)veScaleWithLevel:(_Bool)arg1;
+- (id)onAssistantViewRespondsShouldShowEditMenu;
+- (void)WithTintColor:(id)arg1;
+- (void)n:previewForDismissingToItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)n;
+- (double)int",&,N,V_widthConstraint;
+- (void)WithAccessoryContainer:(id)arg1;
+- (double)CacheInfo;
+- (void)_extension;
+- (void);
+- (id)Ä¨´ÈDÀÜ;
+- (id)a later crash. self is a %@. viewController is a %@. navigationItem = %@;
+- (void);
+- (void)stExtension;
+- (void)storation path %@) couldn't be created from Storyboard %@, exception raised:(long long)arg1 %@;
+- (struct CGSize)eChange;
+- (id)l after failed readAdditionalContentsFromURL:(id)arg1 %@;
+- (id)ve a hosting window to fetch new proxy layers.;
+- (void)ationMark;
+- (void)bbleInteraction;
+- (void)/CloudDocs;
+- (id)y;
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (struct CGRect)@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (void)ÁqÐ!DùñÄð1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (void)ñËð1¢!0@ù
-× ;
-- (void);
-- (void)Ô ;
-- (_Bool)0@ù
-× ;
-- (struct CGSize);
-- (void)@0:8@"_UIContextMenuUIController"16 /* Error: Ran out of types for this method. */;
-- (void)ct={CGPoint=dd}{CGSize=dd}}16B48@52;
-- (void)AllStrokes;
-- (void)Configuration:(id)arg1 animator: /* Error: Ran out of types for this method. */;
-- (id)hadowView:state:presentationController: /* Error: Ran out of types for this method. */;
-- (id)ionsCurrentlyEnabled;
-- (void)entation:(id)arg1;
-- (void)scheduleRemovePageViewsNotInViewCoordsRect;
-- (void)tMenuWithPreferredDirection:replacements: /* Error: Ran out of types for this method. */;
-- (id)tIfNecessary:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)e;
-- (id)_manualHitTestingEnabled;
-- (id)r",R,N;
-- (void)ting>",&,N,G_animator,S_setAnimator:,V_animator /* Error: Ran out of types for this method. */;
-- (void)eManager;
-- (void)¡X¤;
-- (double);
-- (void);
-- (void)3ya¼í3yßï;
-- (double)_UINSIntegerTraitTokenProtocol_p;
-- (void)ViewOrthogonalScrollView"16^B24;
-- (void)emiDark;
-- (void)azy_storage_$_insets;
-- (double)nsistency:expected scheduled transition /* Error: Ran out of types for this method. */;
-- (id);
-- (void),ßwÿÎ$Ó¹yb;
+- (void)××H [;
+- (double);
+- (void);
+- (void)Ï$^;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

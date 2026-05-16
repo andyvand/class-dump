@@ -47,7 +47,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ionItemProvider init];
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *debounceDate; // @synthesize debounceDate=_debounceDate;

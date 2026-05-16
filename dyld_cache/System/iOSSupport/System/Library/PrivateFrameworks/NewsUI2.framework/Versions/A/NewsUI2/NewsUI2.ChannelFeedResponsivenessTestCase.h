@@ -13,12 +13,12 @@
     unsigned long long aggregate;
 }
 
-- (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)manage notifications screen.;
-- (id)ôøÿÄüÿ;
+- (void)t±	Á_\r;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

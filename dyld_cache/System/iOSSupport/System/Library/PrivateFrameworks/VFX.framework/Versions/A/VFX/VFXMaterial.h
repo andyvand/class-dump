@@ -65,8 +65,8 @@
 + (id);
 + (id);
 + (id);
++ (_Bool)nctionHandle>"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool)sR;
 - (struct __CFXWorld *);
 - (id);
 - (id);
@@ -187,580 +187,707 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (void)$äåÿdäåÿ¤äåÿÔäåÿååÿ8ååÿlååÿÔååÿæåÿDæåÿlæåÿ¬æåÿìæåÿ,çåÿlçåÿ¬çåÿèçåÿ(èåÿhèåÿtëåÿÄîåÿØîåÿðîåÿïåÿ$ïåÿ@ïåÿXïåÿpïåÿïåÿ¸ïåÿèïåÿðåÿ<ðåÿlðåÿðåÿÄðåÿððåÿñåÿDñåÿ|ñåÿ´ñåÿ+æÿ´+æÿè+æÿ$,æÿH,æÿl,æÿ ,æÿÌ,æÿ-æÿô-æÿ;
-- (id)_TtC3VFX15IsInClosedRange;
-- (id)d<half> goboTexture, sampler goboSampler)
-    {
-        float3 unnormalized_l = light.pos - surface.position;
-        float3 l = normalize(unnormalized_l);
-        float intensity = dist_attenuation(unnormalized_l, light);
-        intensity      *= spot_attenuation(l, light);
-        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
-        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
-        shade(l, light.color.rgb, intensity);
-    }
+- (id);
+- (void)elineState:(long long)arg1;
+- (void)	
+;
+- (id);
+- (id)P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
 #endif
+}
 
-    
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
 
-#ifdef USE_PBR
 
-    
 
-#ifdef CFX_SUPPORT_CUBE_ARRAY
-    void add_local_probe(vfx_light light, texturecube_array<half> probeTextureArray)
-#else
-    void add_local_probe(vfx_light light, texture2d_array<half> probeTextureArray)
-#endif
-    {
-#if !PROBES_NORMALIZATION
-        if (probeRadianceRemainingFactor <= 0.f)
-            return;
-#endif
 
-        bool parallaxCorrection = light.parameters.probe.parallaxCorrection;
-        int    probeIndex       = light.parameters.probe.index;
-        float3 probeExtents     = light.parameters.probe.halfExtents.xyz;
-        float  blendDist        = light.parameters.probe.halfExtents.w;
-        float3 probeOffset      = light.parameters.probe.offset;
-        float3 parallaxExtents  = light.parameters.probe.parallaxExtents;
-        float3 parallaxCenter   = light.parameters.probe.parallaxCenter;
 
-        float3 n = surface.normal;
-        float3 v = surface.view;
-        float3 r = reflect(-v, n); 
 
-        float3 specDir = vfx::mat4_mult_float3(light.shadowMatrix, r);
 
-        
-        float3 pos_ls = (light.shadowMatrix * float4(surface.position, 1.f)).xyz;
-
-        
-        float3 d = abs(pos_ls) - probeExtents;
-#if PROBES_OUTER_BLENDING
-        if (any(d > blendDist))
-#else
-        if (any(d > 0.f))
-#endif
-        {
-            return;
+;
+- (void)onMultiply;
+- (void)_computeHammonFactors(NoLd, NoHd, NoV, LoVd, alpha);
+            diffuseHammonFactors.x += HF.x;
+            diffuseHammonFactors.y += HF.y;
         }
+    }
+    
+    return float4(specularDFG.x, specularDFG.y, diffuseHammonFactors.x, diffuseHammonFactors.y) / sampleCount;
+}
 
-#if PROBES_NORMALIZATION
+inline float3 vfx_irradiance_cube(texturecube<float, access:(id)arg1:(id)arg2 sample> environment,
+                                  uint                               environmentMipmapLevel,
+                                  float3                             n_cube)
+{
+    float3 n = float3(n_cube.x, -n_cube.z, n_cube.y);
+    
+    constexpr sampler linearSampler(filter::linear);
+    
+    float3 L = float3(0.0);
+    float weight = 0.0f;
+    
+    ushort const sampleCount = 1024;
+    for (ushort i = 0; i < sampleCount; ++i) {
+        float2 random = vfx_sampleHammersley(i, sampleCount);
+        float3 l = vfx_importanceSampleCosine_brdf(random, n); 
         
-        
-#if PROBES_OUTER_BLENDING
-        float3 nd = saturate(-(d / blendDist) * 0.5f + 0.5f);
-#else
-        float3 nd = saturate(-(d / blendDist));
-#endif
-        float probeFactor = (nd.x * nd.y * nd.z) * light.color.r;
-#else
-        
-        float sd = min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
-#if PROBES_OUTER_BLENDING
-        float probeFactor = saturate(1.f - sd / blendDist);
-#else
-        float probeFactor = saturate(-sd / blendDist);
-#endif
-        
-        
-        
-        probeFactor *= probeRadianceRemainingFactor * light.color.r; 
-#endif
-
-        if (parallaxCorrection ) {
-            
-            float3 pos_off = pos_ls + parallaxCenter;
-            float3 t1 = ( parallaxExtents - pos_off) / specDir;
-            float3 t2 = (-parallaxExtents - pos_off) / specDir;
-            float3 tmax = max(max(0, t1), t2); 
-            float t = min(tmax.x, min(tmax.y, tmax.z));
-
-            
-            float3 hit_ls = pos_ls + specDir * t;
-            specDir = hit_ls - probeOffset;
+        float NoL = saturate(dot(n, l));
+        if (NoL > 0) {
+            float3 Li = environment.sample(linearSampler, float3(l.x , l.z, -l.y), level(environmentMipmapLevel)).rgb;
+            Li = min(Li, float3(16.));
+            L += Li; 
+            weight += 1.0;
         }
+    }
+    
+    return L / weight;
+}
 
-        
-        specDir.z *= -1.0;
-        
-        
-        
-        float ao = surface.ambientOcclusion;
-#ifdef USE_BENTNORMALS
-        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, surface.roughness*surface.roughness);
-#endif
-        
-        float mipd = float(probeTextureArray.get_num_mip_levels()) - 1.f;
-        const float intensity = ao * probeFactor;
 
-        float mips = surface.roughness * mipd;
-#ifdef CFX_SUPPORT_CUBE_ARRAY
-        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, probeIndex, level(mips)).rgb);
-#else
-        float2 specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
-        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, probeIndex, level(mips)).rgb);
-#endif
+inline float vfx_pbr_distanceAttenuation(float3 lightVector)
+{
+    float sqrDist = dot(lightVector, lightVector);
+    return 1. / max(sqrDist, 0.0001);
+}
 
+inline float3 vfx_pbr_reference_world(VFXPBRSurface                      surface,
+                                      texturecube<float, access::sample> environment,
+                                      uint                               environmentSamplingLevel,
+                                      float4x4                           localDirToWorldCubemapDir,
+                                      float                              environmentIntensity)
+{
+    constexpr sampler linearSampler(filter::linear, mip_filter::linear);
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float NoV = saturate(dot(n, v));
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    
+    float3 irradiance = float3(0.0);
+    
+    ushort const sampleCountDiffuse = 1024;
+    for (ushort i = 0; i < sampleCountDiffuse; ++i) {
+        float2 random = vfx_sampleHammersley(i, sampleCountDiffuse);
+        float3 l = vfx_importanceSampleCosine_brdf(random, n); 
         
-
+        float NoL = saturate(dot(n, l));
         
-#if PROBES_NORMALIZATION
-        probesWeightedSum += float4(LD * intensity * pbr.probeReflectance, probeFactor);
-#else
-        probeRadianceRemainingFactor = saturate(probeRadianceRemainingFactor - probeFactor);
-#ifdef DISABLE_SPECULAR
-        pbr.envDiffuse += LD * intensity * pbr.probeReflectance;
-#else
-        pbr.envSpecular += LD * intensity * pbr.probeReflectance;
-#endif
-#endif
-        
-#ifdef USE_CLEARCOAT
-        n = surface.clearCoatNormal;
-        r = reflect(-v, n);
-        specDir = vfx::mat4_mult_float3(light.shadowMatrix, r);
-        
-        specDir.z *= -1.0;
-        if (parallaxCorrection ) {
-            float3 pos_off = pos_ls + parallaxCenter;
-            
-            float3 t1 = ( parallaxExtents - pos_off) / specDir;
-            float3 t2 = (-parallaxExtents - pos_off) / specDir;
-            float3 tmax = max(max(0, t1), t2); 
-            float t = min(tmax.x, min(tmax.y, tmax.z));
-            
-            
-            float3 hit_ls = pos_ls + specDir * t;
-            specDir = hit_ls - probeOffset;
+        if (NoL > 0) {
+            float3 Li = environment.sample(linearSampler, vfx::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            irradiance += Li; 
         }
-        mips = surface.clearCoatRoughness * mipd;
-#ifdef CFX_SUPPORT_CUBE_ARRAY
-        LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, probeIndex, level(mips)).rgb);
-#else
-        specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
-        LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, probeIndex, level(mips)).rgb);
-#endif
-#if PROBES_NORMALIZATION
-        probesWeightedSum += float4(LD * intensity * pbr.probeReflectanceClearCoat, probeFactor) * surface.clearCoat;
-#else
-
-#ifdef DISABLE_SPECULAR
-        pbr.envDiffuse += LD * intensity * pbr.probeReflectanceClearCoat  * surface.clearCoat;
-#else
-        specular += LD * intensity * pbr.probeReflectanceClearCoat  * surface.clearCoat;
-#endif
-#endif
-#endif
     }
-
-    void add_global_probe(float4x4 localDirToWorldCubemapDir,
-                          float environmentIntensity,
-#ifdef CFX_SUPPORT_CUBE_ARRAY
-                          texturecube_array<half> probeTextureArray
-#else
-                          texture2d_array<half> probeTextureArray
-#endif
-                          )
-    {
-        float3 n = surface.normal;
-        float3 v = surface.view;
-        float3 r = reflect(-v, n); 
-        
-        float3 specDir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, r);
-        float mips = surface.roughness * float(probeTextureArray.get_num_mip_levels() - 1);
-        
-#ifdef CFX_SUPPORT_CUBE_ARRAY
-        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, 0, level(mips)).rgb);
-#else
-        float2 specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
-        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, 0, level(mips)).rgb);
-#endif
-        
-        
-        specular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
-    }
-
-    void add_global_probe(texturecube<float, access::sample> specularLD,
-                          float4x4                           localDirToWorldCubemapDir,
-                          float                              environmentIntensity)
-    {
-        float3 n        = surface.normal;
-        float3 v        = surface.view;
-        float3 r        = reflect(-v, n); 
-        float roughness = surface.roughness;
-
-#if USE_PBR_DOMINANT_DIRECTION
-        float alpha = roughness * roughness;
-        float smoothness = 1.0f - alpha;
-        
-        float specularLerpFactor = (1. - smoothness * (sqrt(smoothness) + alpha));
-        
-        float3 specularDominantNDirection = mix(r, n, specularLerpFactor); 
-#else
-        float3 specularDominantNDirection = r;
-#endif
-        
-        float ao = surface.ambientOcclusion;
-        
-        
-        
-#ifdef USE_BENTNORMALS
-        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
-#endif
-        
-        
-#ifdef USE_RE_RADIANCE_IRRADIANCE_MAP_SAMPLING
-        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
-#else
-        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
-#endif
-        float3 dir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
-        float3 LD = specularLD.sample(vfx_lighting::linearSampler, dir, level(mipLevel)).rgb;
-        pbr.envSpecular += pbr.probeReflectance * LD * ao * environmentIntensity;
-    }
-
-#ifdef USE_CLEARCOAT
-    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
-                          float4x4                           localDirToWorldCubemapDir,
-                          float                              environmentIntensity)
-    {
-        float3 n = surface.clearCoatNormal;
-        
-        float3 v        = surface.view;
-        float3 r        = reflect(-v, n); 
-        float roughness = surface.clearCoatRoughness;
-
-        
-        
-        float ao = surface.ambientOcclusion;
-        
-        
-#ifdef USE_BENTNORMALS
-        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
-#endif
-        
-        
-        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
-        float3 LD = specularLD.sample(vfx_lighting::linearSampler, vfx::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
-
-        
-        float Fc = vfx_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
-        float attenuation = 1.0f - Fc;
-        specular *= (attenuation * attenuation);
-        
-        specular += pbr.probeReflectanceClearCoat * LD  * surface.clearCoat * ao * environmentIntensity;
-    }
-#endif
+    
+    irradiance = irradiance / float(sampleCountDiffuse);
     
     
-
-    void add_irradiance_from_selfIllum()
-    {
-        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
-        float3 irradiance = surface.selfIllumination.rgb;
-        
-        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
-#ifdef USE_PBR_LAMBERTIAN_REFLECTION
-        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
-#else
-        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
-        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
-#endif
-    }
-
-    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
-#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
-                                       sh2_coefficients shCoefficients)
-#else
-    sh3_coefficients shCoefficients)
-#endif
-    {
-#ifdef USE_BENTNORMALS
-        float3 n = surface.bentNormal;
-        float ao = surface.aoDirectionnal;
-#else
-        float3 n = surface.normal;
-        float ao = surface.ambientOcclusion;
-#endif
-        float3 n_sh_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, n);
-        float3 irradiance = shEvalDirection(float4(n_sh_space.xy, -n_sh_space.z, 1.), shCoefficients);
-        
-        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
-#ifdef USE_PBR_LAMBERTIAN_REFLECTION
-        pbr.envDiffuse += ao * irradiance * diffuseAlbedo;
-#else
-        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
-        pbr.envDiffuse += ao * irradiance * diffuseReflectance;
-#endif
-    }
-
-    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
-                                     float4x4                           localDirToWorldCubemapDir,
-                                     float                              environmentIntensity)
-    {
-#if USE_PBR_DOMINANT_DIRECTION
-#ifdef USE_BENTNORMALS
-        float3 n = surface.bentNormal;
-        float ao = surface.aoDirectionnal;
-#else
-        float3 n = surface.normal;
-        float ao = surface.ambientOcclusion;
-#endif
-        float3 v = surface.view;
-        
-        
-        const half a = 1.02341h * surface.roughness - 1.51174h; 
-        const half b = -0.511705h * surface.roughness + 0.755868h;
-        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
-        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
-#else
-        float3 diffuseDominantNDirection = n;
-#endif
-        
-        float3 n_cube_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
-        float3 irradiance = irradianceTexture.sample(vfx_lighting::linearSampler, n_cube_space).rgb;
-        
-        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
-        
-#ifdef USE_PBR_LAMBERTIAN_REFLECTION
-        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseAlbedo;
-#else
-        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
-        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseReflectance;
-#endif
-    }
-
-#endif 
-
-#ifdef USE_IES_LIGHT
+    float3 specular = float3(0.0);
+    float specularWeight = 0.0;
     
-
-    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    float correctedRoughness = mix(1.0f / 128.0f, 1.0f - 1.0f / 128.0f, roughness);
+    float alpha = correctedRoughness * correctedRoughness; 
     
-    float ies_attenuation(float3 l, vfx_light light, texture2d<half> iesTexture)
-    {
-#if USE_QUAT_FOR_IES
-        float3 v    = vfx::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+    ushort const sampleCountSpecular = 128;
+    for (ushort i = 0; i < sampleCountSpecular; ++i) {
+        float2 random = vfx_sampleHammersley(i, sampleCountSpecular);
+        float3 h = vfx_importanceSampleGGX_brdf(random, correctedRoughness, n); 
+        float3 l = reflect(-v, h); 
+        
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        if (NoH * NoV > 0) {
+            float3 Li = environment.sample(linearSampler, vfx::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            float3 F = vfx_brdf_F(reflectance, LoH);
+            float G = vfx_brdf_G(alpha, NoL, NoV);
+#if 0
+            float D = vfx_brdf_D(alpha, NoH);
+            float pdf = (D * NoH) / (4.0f * LoH);
+            
+            if (pdf >= 0) {
+                float3 l = D * F * G / (4.0f * NoV); 
+                specular += Li * l / pdf;
+                specularWeight += 1.0f;
+            }
 #else
-        float3 v    = vfx::matrix_rotate(light.parameters.ies.light_from_view, -l);
+            specular += Li * F * G * LoH / (NoH * NoV);
+            specularWeight += 1.0f;
 #endif
-        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
-        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
-        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+        }
     }
-
-    void add_ies(vfx_light light, texture2d<half> iesTexture)
-    {
-        float3 unnormalized_l = light.pos - surface.position;
-        float3 l = normalize(unnormalized_l);
-        float intensity = dist_attenuation(unnormalized_l, light);
-        intensity      *= ies_attenuation(l, light, iesTexture);
-        shade(l, light.color.rgb, intensity);
-    }
-
-    void add_ies_soft_shadows(vfx_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
-    {
-        float3 unnormalized_l = light.pos - surface.position;
-        float3 l = normalize(unnormalized_l);
-        float intensity = dist_attenuation(unnormalized_l, light);
-        intensity      *= ies_attenuation(l, light, iesTexture);
-        intensity      *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
-        shade(l, light.color.rgb, intensity);
-    }
-#endif
-
-#ifdef USE_AREA_LIGHT
     
+    specular /= specularWeight;
+    
+    
+    return ambientOcclusion * (effectiveAlbedo * irradiance + specular);
+}
 
-    void add_area_rectangle(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-        float3 v = surface.view;
-        float3 n = surface.normal;
-        float3 p = surface.position;
 
-        
-        float3 tangent = normalize(v - n * dot(v, n));
-        float3 bitangent = cross(n, tangent);
-        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
 
-        float3 lightCenter = light.shadowMatrix[3].xyz;
-        
-        
-        float sidedness = dot(light.dir, lightCenter - p);
-        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
-            return;
-        
-        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
-        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
-        
-        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
-                                             (lightCenter + lightRight - lightTop) - p,
-                                             (lightCenter - lightRight - lightTop) - p,
-                                             (lightCenter - lightRight + lightTop) - p);
+inline float3x3 vfx_ltc_matrix_invert_transpose(float3x3 m)
+{
+    float a = m[0][0];
+    float b = m[1][0];
+    float c = m[0][1];
+    float d = m[1][1];
+    float det = a * d - b * c;
+    m[0][0] = +det * d;
+    m[1][0] = -det * b;
+    m[1][0] = -det * c;
+    m[1][1] = +det * a;
+    m[2][2] = 1.f / m[2][2];
+    return m;
+}
 
-        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
-        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
-        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
-        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+inline float3x3 vfx_sample_area_light_precomputed_data(float3                 v,
+                                                       float3                 n,
+                                                       float                  roughness,
+                                                       thread float*          brdfNorm,
+                                                       texture2d_array<float> bakedDataTexture)
+{
+    constexpr sampler linearSampler = sampler(address::clamp_to_edge, filter::linear);
+    
+    float theta = acos(fabs(dot(n, v)));
+    float2 uv = float2(roughness, theta * M_2_PI_F);
+    
+    float4 dataA = bakedDataTexture.sample(linearSampler, uv, 0);
+    float4 dataB = bakedDataTexture.sample(linearSampler, uv, 1);
+    
+    *brdfNorm = dataB.y;
+    
+    return float3x3(float3(dataA.x, dataA.y, 0.f),
+                    float3(dataA.z, dataA.w, 0.f),
+                    float3(0.f, 0.f, dataB.x));
+}
 
-        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
-
-        float brdfNorm = 1.f;
-        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
-
-        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
-        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
-        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
-        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
-
-        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
-
-        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
-        
-        float3 lightColor = light.color.rgb;
-        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
-        specular += specularAmount * lightColor * pbr.reflectance;
+inline float3 vfx_area_light_polygon_edge_vector_form_factor(float3 cornerDirectionA,
+                                                             float3 cornerDirectionB)
+{
+    
+    
+    
+#if 0
+    float theta = acos(dot(cornerDirectionA, cornerDirectionB));
+    return (0.5f * M_1_PI_F) * cross(cornerDirectionA, cornerDirectionB) * ((theta > 0.001) ? theta/sin(theta) :1.0);
+#else
+    float x = dot(cornerDirectionA, cornerDirectionB);
+    float y = abs(x);
+    
+    float a = 5.42031f + (3.12829f + 0.0902326 * y) * y;
+    float b = 3.45068f + (4.18814f + y) * y;
+    float thetaOverSinTheta = a / b;
+    
+    if (x < 0.f)
+        thetaOverSinTheta = M_PI_F * rsqrt(1.f - x * x) - thetaOverSinTheta;
+    
+    float3 u = cross(cornerDirectionA, cornerDirectionB);
+    return (0.5f * M_1_PI_F) * thetaOverSinTheta * u;
 #endif
+}
+
+inline float vfx_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(float3 vectorFormFactor)
+{
+#if 1
+    
+    float l = length(vectorFormFactor);
+    return max((l * l + vectorFormFactor.y) / (l + 1.f), 0.f);
+#else
+    
+    return max(vectorFormFactor.y, 0.f);
+#endif
+}
+
+inline float pbr_area_light_eval_rectangle(float4x3 corners)
+{
+    
+    
+    
+    float3 corner0 = normalize(corners[0]);
+    float3 corner1 = normalize(corners[1]);
+    float3 corner2 = normalize(corners[2]);
+    float3 corner3 = normalize(corners[3]);
+    
+    float3 vectorFormFactor = float3(0.f);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner1, corner2);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner2, corner3);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner3, corner0);
+    
+    return vfx_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_eval_polygon(float3                position,
+                                         float3                lightCenter,
+                                         float3                lightRight,
+                                         float3                lightTop,
+                                         uint32_t              vertexCount,
+                                         device packed_float2 *vertexPositions)
+{
+    
+    
+    
+    float3 vectorFormFactor = float3(0.f);
+    for (uint32_t vertexIndex = 0; vertexIndex < vertexCount; ++vertexIndex) {
+        packed_float2 localCorner0 = vertexPositions[vertexIndex];
+        packed_float2 localCorner1 = vertexPositions[(vertexIndex + 1) % vertexCount];
+        
+        
+        
+        float3 cornerDirection0 = lightCenter - localCorner0[0] * lightRight + localCorner0[1] * lightTop;
+        float3 cornerDirection1 = lightCenter - localCorner1[0] * lightRight + localCorner1[1] * lightTop;
+        
+        float3 corner0 = normalize(cornerDirection0 - position);
+        float3 corner1 = normalize(cornerDirection1 - position);
+        
+        vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner0, corner1);
     }
+    
+    return vfx_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
 
-    void add_area_polygon(vfx_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
-    {
-#ifdef USE_PBR
-        float3 v = surface.view;
-        float3 n = surface.normal;
-        float3 p = surface.position;
+inline float pbr_area_light_line_integral_position(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l / (d * (d_squared + l_squared)) + atan(l / d) / d_squared;
+}
 
-        
-        float3 tangent = normalize(v - n * dot(v, n));
-        float3 bitangent = cross(n, tangent);
-        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+inline float pbr_area_light_line_integral_direction(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l_squared / (d * (d_squared + l_squared));
+}
 
-        float3 lightCenter = light.shadowMatrix[3].xyz;
-        
-        
-        float sidedness = dot(light.dir, lightCenter - p);
-        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
-            return;
-        
-        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
-        float3 lightTop   = light.shadowMatrix[1].xyz;
-
-        p           = shadingSpaceTransform * p;
-        lightCenter = shadingSpaceTransform * lightCenter;
-        lightRight  = shadingSpaceTransform * lightRight;
-        lightTop    = shadingSpaceTransform * lightTop;
-
-        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
-
-        float brdfNorm = 1.f;
-        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
-
-        p           = inverseLTCMatrix * p;
-        lightCenter = inverseLTCMatrix * lightCenter;
-        lightRight  = inverseLTCMatrix * lightRight;
-        lightTop    = inverseLTCMatrix * lightTop;
-
-        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
-        
-        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
-
-        float3 lightColor = light.color.rgb;
-        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
-        specular += specularAmount * lightColor * pbr.reflectance;
-#endif
-    }
-
-    void add_area_line(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-        float3 v = surface.view;
-        float3 n = surface.normal;
-        float3 p = surface.position;
-
-        
-        float3 tangent = normalize(v - n * dot(v, n));
-        float3 bitangent = cross(n, tangent);
-        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
-
-        float3 lightCenter = light.shadowMatrix[3].xyz;
-        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
-
-        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
-                                             (lightCenter - lightRight) - p);
-
-        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
-        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
-
-        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
-
-        float brdfNorm = 1.f;
-        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
-
-        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
-        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
-
-        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
-
-        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
-        float ltcWidthFactor = 1.0 / length(vfx_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
-        specularAmount *= ltcWidthFactor;
-        
-        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
-
-        float3 lightColor = light.color.rgb;
-        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
-        specular += specularAmount * lightColor * pbr.reflectance;
-#endif
-    }
-
-    void add_area_ellipse(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-#endif
-    }
-
-    void add_area_ellipsoid(vfx_light light, texture2d_array<float> bakedDataTexture)
-    {
-#ifdef USE_PBR
-#endif
-    }
-#endif
-};
-
-#endif 
+inline float pbr_area_light_eval_line(float2x3 cornerDirections)
+{
+    
+    
+    
+    float3 corner0 = normalize(cornerDirections[0]);
+    float3 corner1 = normalize(cornerDirections[1]);
+    
+    float3 direction = normalize(corner1 - corner0);
+    
+    if (corner0.y <= 0.f && corner1.y <= 0.f) return 0.f;
+    if (corner0.y < 0.f) corner0 = (+corner0 * corner1.y - corner1 * corner0.y) / (+corner1.y - corner0.y);
+    if (corner1.y < 0.f) corner1 = (-corner0 * corner1.y + corner1 * corner0.y) / (-corner1.y + corner0.y);
+    
+    float l1 = dot(corner0, direction);
+    float l2 = dot(corner1, direction);
+    
+    float3 position = corner0 - l1 * direction;
+    float d = length(position);
+    
+    float I = (pbr_area_light_line_integral_position(d, l2) - pbr_area_light_line_integral_position(d, l1)) * position.y
+            + (pbr_area_light_line_integral_direction(d, l2) - pbr_area_light_line_integral_direction(d, l1)) * direction.y;
+    
+    return M_1_PI_F * I;
+}
  /* Error: Ran out of types for this method. */;
-- (void)p;
-- (void)?>;
-- (id);
-- (id)ñKÝ¾¦	Aàò>Ò¬@¨ÿÜ¾#Úã@â>]@¸Ü¾§¤¿@9>Î=@×iÜ¾8s£@ö>y#@rýÛ¾Â2@ø>Ë@üÛ¾Tqv@Û>ü?ÀÛ¾ã4Y@:(id)arg1 x>À<à?´sÚ¾
-÷@@ò>>É?cÐÙ¾·Õ,@Þ>Ýìµ?'Ù¾MÙ@oò>µÅ¥?nØ¾°@a>|'?·³×¾®g@ã>.Ê?õÖ¾pCî?m8>¶0?2<Ö¾®Ü?s»>{v?õÕ¾@¤Í?·>i?¹àÔ¾þÀ?^0 >â®^?OÔ¾nßµ?L3¥>lV?uÊÓ¾Øe¬?åÐª>*O?oÓ¾ë¤?`;
-- (id)¾ë?7ß<?ª1@6Û¾Ø?ÉX=?üä#@p"Ú¾bÇ?;
-- (id):Å' /* Error: Ran out of types for this method. */;
-- (id)åN';
+- (id)se += probesNormalization;
+#else
+    _lightingContribution.specular += probesNormalization;
+#endif
+
+    float globalFactor = saturate(1.f - _lightingContribution.probesWeightedSum.a);
+#else
+    float globalFactor = _lightingContribution.probeRadianceRemainingFactor;
+#endif 
+
+#ifndef DISABLE_SPECULAR
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_probe(vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, globalFactor * vfx_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#else
+    _lightingContribution.add_global_probe(vfx_frame.viewToCubeTransform, globalFactor * vfx_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#endif 
+#endif 
+    
+#else 
+
+#ifndef DISABLE_SPECULAR
+
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_probe(u_radianceTexture, vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#else
+   _lightingContribution.add_global_probe(u_radianceTexture, vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#endif 
+    
+#ifdef USE_CLEARCOAT
+    
+#ifdef USE_IBL_TRANSFORM
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, vfx_frame.environmentTransform * vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#else
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, vfx_frame.viewToCubeTransform, vfx_frame.environmentIntensity);
+#endif 
+    
+#endif 
+
+    
+#endif 
+#endif 
+
+#endif 
+    #if DEBUG_PIXEL
+        switch (DEBUG_PIXEL) {
+            case 1:_output.color = float4(_surface.normal * 0.5f + 0.5f, 1.f); break;
+            case 2:_output.color = float4(_surface.geometryNormal * 0.5f + 0.5f, 1.f); break;
+            case 3:_output.color = float4(_surface.tangent * 0.5f + 0.5f, 1.f); break;
+            case 4:_output.color = float4(in.uv0, 0.f, 1.f); break;
+            case 5:_output.color = float4(_surface.diffuse.rgb, 1.f); break;
+            case 6:_output.color = float4(float3(_surface.roughness), 1.f); break;
+            case 7:_output.color = float4(float3(_surface.metalness), 1.f); break;
+            case 8:_output.color = float4(float3(_surface.ambientOcclusion), 1.f); break;
+                
+            #ifdef USE_BENTNORMALS
+                case 9:_output.color = float4(float3(_surface.bentNormal * 0.5f + 0.5f), 1.f); break;
+            #else
+                case 9:_output.color = float4(float3(_surface.normal * 0.5f + 0.5f), 1.f); break;
+            #endif
+            default:break;
+        }
+        return _output;
+    #endif
+    
+    __FragmentDoLighting__
+    
+    #ifdef USE_CLUSTERED_LIGHTING
+        
+        int omni_count = cluster_offset_count.y & 0xff;
+        for (int i = 0 ; i < omni_count; ++i, ++lid) {
+            if ((vfx_node.categoryBitmask & vfx_lights[LightIndex(lid)].categoryBitmask) == 0) continue;
+            _lightingContribution.add_local_omni(vfx_lights[LightIndex(lid)]);
+        }
+
+        
+        int spot_count = (cluster_offset_count.y >> 8);
+        for (int i = 0 ; i < spot_count; ++i, ++lid) {
+            if ((vfx_node.categoryBitmask & vfx_lights[LightIndex(lid)].categoryBitmask) == 0) continue;
+            _lightingContribution.add_local_spot(vfx_lights[LightIndex(lid)]);
+        }
+
+    #endif
+#else 
+        _lightingContribution.diffuse = in.diffuse;
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = in.specular;
+    #endif
+#endif 
+    #ifdef AVOID_OVERLIGHTING
+        _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = saturate(_lightingContribution.specular);
+    #endif 
+    #endif 
+#else 
+    _lightingContribution.diffuse = float3(0.);
+#endif 
+
+    
+    
+    
+    
+#ifndef USE_GBUFFER_OUTPUT
+#ifdef USE_PBR
+    { 
+        float3 diffuseAlbedo = mix(_lightingContribution.pbr.albedo, float3(0.0), _surface.metalness);
+        
+        
+#ifdef USE_PBR_TRANSPARENCY
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _lightingContribution.pbr.albedo;
+#else
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _surface.diffuse.rgb;
+#endif
+        
+        color += _lightingContribution.pbr.envDiffuse;
+        color += _lightingContribution.diffuse * diffuseAlbedo;
+#ifndef DISABLE_SPECULAR
+#ifndef DISABLE_SPECULAR_IBL
+        color += _lightingContribution.pbr.envSpecular;
+#endif
+        color += _lightingContribution.specular;
+#endif
+#ifdef USE_EMISSION
+        color += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+        color *= _surface.multiply.rgb;
+#endif
+#ifdef USE_MODULATE
+        color *= _lightingContribution.modulate;
+#endif
+#ifndef USE_GBUFFER_OUTPUT
+        _output.color.rgb = color;
+#endif
+    }
+#else 
+
+#ifdef USE_SHADOWONLY
+    _output.color.rgb = float3(0.0);
+    _output.color.a = 1. - _lightingContribution.shadowFactor;
+#else
+#ifdef USE_CONSTANT
+    _output.color.rgb = _surface.diffuse.rgb;
+    
+#ifdef USE_EMISSION
+    _output.color.rgb += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+    _output.color.rgb *= _surface.multiply.rgb;
+#endif
+    
+#else
+    _output.color.rgb = illuminate(_surface, _lightingContribution);
+#endif
+#endif 
+#endif 
+
+#ifndef USE_SHADOWONLY
+  #ifdef USE_PBR_TRANSPARENCY
+    _output.color.a = _lightingContribution.pbr.transparency;
+  #else
+    _output.color.a = _surface.diffuse.a;
+  #endif
+#endif
+
+#ifdef USE_FOG
+    applyFog(_output.color, length(_surface.position.xyz), vfx_frame.fogParameters, vfx_frame.fogColor);
+#endif
+
+#if !defined(DIFFUSE_PREMULTIPLIED) && !defined(USE_PBR_TRANSPARENCY)
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SHADOWONLY
+    float transparencyFactor = 1.0;
+  #ifdef USE_NODE_OPACITY
+    transparencyFactor *= in.nodeOpacity;
+  #endif
+    _output.color.a *= transparencyFactor; 
+
+#else 
+
+#ifdef USE_TRANSPARENT 
+    
+#ifndef USE_PBR_TRANSPARENCY
+  _output.color *= _surface.transparent.a;
+#endif
+
+#endif 
+    
+#ifdef USE_NODE_OPACITY
+    _output.color *= in.nodeOpacity;
+#endif
+    
+#endif 
+#endif 
+
+    
+    
+    
+    
+#ifdef USE_MODIFIER_FRAMEBUFFER
+    const VFXFramebuffer _framebuffer = {
+#if defined(CFX_SUPPORTS_PROGRAMMABLE_BLENDING) && defined(USE_MODIFIER_FRAMEBUFFER_COLOR0)
+        .color = framebufferColor0
+#else
+        .color = 0.f
+#endif
+    };
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+    
+    __DoFragmentModifier__
+    
+#endif
+#if defined(USE_CLUSTERED_LIGHTING) && defined(DEBUG_CLUSTER_TILE)
+    _output.color.rgb = mix(_output.color.rgb, float3(vfx::debugColorForCount(clusterIndex.z).xyz), 0.1f);
+    _output.color.rgb = mix(_output.color.rgb, float3(clusterIndex.x & 0x1 ^ clusterIndex.y & 0x1).xyz, 0.01f);
+#endif
+    
+#ifdef USE_ALPHA_CUTOFF
+    if (_output.color.a <= vfx_commonprofile.alphaCutoff)
+        discard_fragment();
+#endif
+
+#ifdef USE_POINT_RENDERING
+    if ((dfdx(pointCoord.x) < 0.5f) && (length_squared(pointCoord * 2.f - 1.f) > 1.f)) {
+        discard_fragment();
+    }
+#endif
+    
+    
+#ifdef USE_OUTLINE
+    _output.color.rgb = in.outlineHash;
+#endif
+    
+
+#if defined(USE_MOTIONBLUR) && !defined(USE_GBUFFER_OUTPUT)
+#ifdef USE_MULTIPLE_RENDERING
+    _output.motionblur.xy = half2((in.mv_fragment.xy - vfx_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * vfx_frame.motionBlurIntensity;
+#else
+    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * vfx_frame.motionBlurIntensity;
+#endif
+    _output.motionblur.z = length(_output.motionblur.xy);
+    _output.motionblur.w = half(-_surface.position.z);
+#endif
+
+#ifdef USE_NORMAL_ROUGHNESS_OUTPUT
+#ifdef USE_PBR
+    _output.normalRoughness = half4( half3(_surface.normal.xyz), half(_surface.rawRoughness) );
+#else
+    _output.normalRoughness = half4( half3(_surface.normal.xyz), 0.h );
+#endif
+#endif
+                                 
+#ifdef USE_ALBEDO_METALNESS_OUTPUT
+#ifdef USE_PBR
+    _output.albedoMetalnessOutput = half4( half3(_surface.diffuse.rgb), half(_surface.metalness) );
+#else 
+    _output.albedoMetalnessOutput = half4( 0.h );
+#endif
+#endif
+    
+#ifdef USE_RADIANCE_AO_OUTPUT
+#ifdef USE_PBR
+    _output.radianceAOOutput = half4(half3(_lightingContribution.pbr.envSpecular.rgb), half(_surface.ambientOcclusion));
+#else
+    _output.radianceAOOutput = half4(0.h, 0.h, 0.h, 0.h);
+#endif
+#endif
+    
+#ifdef USE_BARYCENTRIC_WIREFRAME
+#ifdef USE_BARYCENTRIC_COORD
+    const float3 d = 1.0f * fwidth(baryCoord);
+    const float3 s = smoothstep(d * 0.25f, d * 0.75, u_barycentricCoord);
+    _output.color = mix(float4(1.0), _output.color, min3(s.x, s.y, s.z));
+#endif
+#endif
+    
+#ifdef USE_GBUFFER_OUTPUT
+    float opacity = _surface.diffuse.a;
+#ifdef USE_NODE_OPACITY
+    opacity *= in.nodeOpacity;
+#endif
+    
+    float dither = vfx::interleaved_gradient_noise(in.fragmentPosition.xy);
+    dither = fract(dither + in.fragmentPosition.z * 1.61803398875);
+    dither = fract(dither + vfx_frame.frame * 1.61803398875);
+    if (opacity < dither) discard_fragment();
+    if (opacity < 0.01) discard_fragment();
+    
+    float3 emission = float3(0.);
+#ifdef USE_EMISSION
+    emission = _surface.emission.rgb;
+#endif
+    _output.albedo = float4(_surface.diffuse.rgb, opacity);
+    _output.normals = float4(_surface.normal.xyz, -_surface.position.z);
+    _output.roughmetal = float4(_surface.roughness, _surface.metalness, _surface.ambientOcclusion, 1.);
+    _output.color = float4(emission, 1.);
+    
+    float2 vfx_prevUv = (in.mv_lastFragment.xy / in.mv_lastFragment.z);
+    float2 vfx_uv = (in.mv_fragment.xy / in.mv_fragment.z);
+    _output.velocity.xy = (vfx_prevUv - vfx_uv) * float2(.5,-.5);
+    
+#ifdef USE_MOTIONBLUR
+    _output.velocity.z = length(_output.velocity.xy);
+    _output.velocity.w = -_surface.position.z;
+#endif
+    ushort clearcoatIR = packHalf2ToUShort(half2(_surface.clearCoat, _surface.clearCoatRoughness));
+    _output.clearCoat = half4(half3(_surface.clearCoatNormal), as_type<half>(clearcoatIR));
+    
+    _output.subsurface = half4(half3(_surface.subsurfaceRadius), half(_surface.subsurface));
+    
+    float transmissionColorLength = length(_surface.transmissionColor);
+    _surface.transmissionColor /= max(1e-4, transmissionColorLength);
+    ushort transmissionRG = packHalf2ToUShort(half2(_surface.transmissionColor.r, _surface.transmissionColor.g));
+    ushort transmissionBW = packHalf2ToUShort(half2(_surface.transmissionColor.b, _surface.transmission));
+    _output.transmission = ushort4(transmissionRG, transmissionBW,
+                                 as_type<ushort>(half(transmissionColorLength)), as_type<ushort>(half(vfx_commonprofile.indexOfRefraction)));
+#endif
+
+#ifdef USE_RE_SYSTEM_TREATMENTS
+
+#ifdef USE_MULTIPLE_RENDERING
+#ifdef USE_VERTEX_AMPLIFICATION
+    uint cameraIndex = amplificationID;
+#else
+    uint cameraIndex = in.sliceIndex;
+#endif
+#else
+    uint cameraIndex = 0;
+#endif 
+
+    uint sampleMask = 0;
+
+    vfx::api_v2::re_buffers buffers = vfx::api_v2::re_buffers {
+        .entityConstants      = u_re_entityConstants,
+        .viewConstants        = u_re_viewConstants,
+        .globalConstants      = u_re_globalConstants,
+        .objectConstants      = u_re_vfx_objectConstants,
+        .entityArgumentBuffer = u_re_vfx_entityArgumentBuffer,
+        .sceneArgumentBuffer  = u_re_vfx_sceneArgumentBuffer,
+#ifdef USE_RE_SYSTEM_TREATMENTS_TIER_1_AB
+        .probeTextures        = u_re_vfx_virtualEnvProbeTextures
+#endif
+    };
+
+    auto params = vfx::api_v2::make_system_treatment_parameters(in.crworldPosition, in.fragmentPosition, cameraIndex, in.screen_uv);
+    _output.color = float4(vfx::api_v2::apply_system_treatments(half4(_output.color), params, buffers, sampleMask));
+#endif 
+
+    return _output;
+}
+
+#pragma mark - Namespace End
+
+    
+ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)> ü]?Ý×»:i/	<Ûà`?­#=0>èf=¯´4?5b?h{O<B°>?jOé==Ò¨>|aB?®¸¸>Züý;¦Æ×;ô~í< /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float alphaCutoff;

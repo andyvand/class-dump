@@ -16,14 +16,14 @@
 
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (int);
-- (_Bool)Ô ;
-- (void);
+- (void);
+- (void);
+- (void)XGSplitLayout",R,N,V_splitLayout;
+- (id);
+- (_Bool)xMusicArtworkAsset init];
+- (void)ibraryExpansionFastToggleSpringStiffness;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;

@@ -21,24 +21,23 @@
 + (id);
 + (id);
 - (_Bool);
-- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint)mentions before %@:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGPoint);
 - (unsigned long long);
 - (id);
 - (double);
 - (struct CGSize);
 - (void);
-- (double);
 - (void);
-- (void);
-- (id)QÃÐ1¢!0@ù
-× ;
-- (void)nspector;
+- (id);
 - (double);
+- (double);
+- (void)nPreviewFontSizeOverrideLarge;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long associatedLayoutIntent; // @synthesize associatedLayoutIntent=_associatedLayoutIntent;

@@ -4,17 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLaneGuidance, CPMapTemplate, CPTrip, NAFuture, NSArray, NSMutableArray;
+@class CPLaneGuidance, CPMapTemplate, CPRouteSegment, CPTrip, NAFuture, NSArray, NSMutableArray;
 @protocol CPNavigationSessionManaging;
 
 @interface CPNavigationSession
 {
     _Bool _sendsNavigationMetadata;
+    _Bool _supportsRouteSharing;
     NSArray *_upcomingManeuvers;
     CPLaneGuidance *_currentLaneGuidance;
     NSArray *_currentRoadNameVariants;
     long long _maneuverState;
     CPTrip *_trip;
+    NSMutableArray *_routeSegments;
+    CPRouteSegment *_currentSegment;
     CPMapTemplate *_mapTemplate;
     NAFuture *_navigationSessionManagerFuture;
     NSMutableArray *_maneuvers;
@@ -27,6 +30,10 @@
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,6 +45,8 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -46,10 +55,13 @@
 - (long long);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,12 +74,15 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CPLaneGuidance *currentLaneGuidance; // @synthesize currentLaneGuidance=_currentLaneGuidance;
 @property(copy, nonatomic) NSArray *currentRoadNameVariants; // @synthesize currentRoadNameVariants=_currentRoadNameVariants;
+@property(retain, nonatomic) CPRouteSegment *currentSegment; // @synthesize currentSegment=_currentSegment;
 @property(copy, nonatomic) NSArray *destinationNameVariants; // @synthesize destinationNameVariants=_destinationNameVariants;
 @property(retain, nonatomic) NSMutableArray *laneGuidances; // @synthesize laneGuidances=_laneGuidances;
 @property(retain, nonatomic) id <CPNavigationSessionManaging> manager; // @synthesize manager=_manager;
@@ -76,7 +91,9 @@
 @property(nonatomic) __weak CPMapTemplate *mapTemplate; // @synthesize mapTemplate=_mapTemplate;
 @property(retain, nonatomic) NAFuture *navigationSessionManagerFuture; // @synthesize navigationSessionManagerFuture=_navigationSessionManagerFuture;
 @property(nonatomic) unsigned long long pauseReason; // @synthesize pauseReason=_pauseReason;
+@property(retain, nonatomic) NSMutableArray *routeSegments; // @synthesize routeSegments=_routeSegments;
 @property(nonatomic) _Bool sendsNavigationMetadata; // @synthesize sendsNavigationMetadata=_sendsNavigationMetadata;
+@property(nonatomic) _Bool supportsRouteSharing; // @synthesize supportsRouteSharing=_supportsRouteSharing;
 @property(retain, nonatomic) CPTrip *trip; // @synthesize trip=_trip;
 @property(copy, nonatomic) NSArray *upcomingManeuvers; // @synthesize upcomingManeuvers=_upcomingManeuvers;
 

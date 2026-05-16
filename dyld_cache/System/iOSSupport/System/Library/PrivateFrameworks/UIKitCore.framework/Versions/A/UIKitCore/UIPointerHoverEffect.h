@@ -15,23 +15,24 @@
     long long _preferredTintMode;
 }
 
-- (void)identifier:(_Bool)arg1 style:account: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 style: /* Error: Ran out of types for this method. */;
-- (void)mChatsMarkedRead;
-- (void)MessageID:(_Bool)arg1 shouldNotify: /* Error: Ran out of types for this method. */;
-- (void)oticeWithGUIDString:(long long)arg1 sender:metadata:date:dateViewed: /* Error: Ran out of types for this method. */;
-- (_Bool)eNumberForHandle: /* Error: Ran out of types for this method. */;
-- (_Bool)tive;
-- (long long)ithDictionary: /* Error: Ran out of types for this method. */;
-- (_Bool)ng subscription validation token for handle handleID:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)handleID:"%@". Not fetching again /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id)itionOffsetForTraitCollection: /* Error: Ran out of types for this method. */;
-- (id)9/èÿHùUþºþÿ;
+- (id);
+- (unsigned long long);
+- (unsigned long long)
+× ;
+- (id)set;
+- (_Bool);
+- (id)esponder>",N,V_hitTestResponder;
 
 // Remaining properties
 @property(nonatomic) _Bool _tintViewTakesOnPointerShape; // @synthesize _tintViewTakesOnPointerShape=__tintViewTakesOnPointerShape;

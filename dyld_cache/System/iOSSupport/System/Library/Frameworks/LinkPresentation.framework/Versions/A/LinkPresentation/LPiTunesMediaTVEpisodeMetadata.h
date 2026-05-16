@@ -20,7 +20,7 @@
 }
 
 + (id);
-+ (_Bool)tedInactiveState;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -28,26 +28,26 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)onverter;
-- (id);
 - (void);
 - (void);
 - (id);
-- (id)Ä'´R;
-- (void)ail_resources/app_icons/notes.png;
+- (id);
+- (void);
+- (void);
+- (id)Í;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

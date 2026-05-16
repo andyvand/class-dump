@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (id);
-- (void)ons/A/HomeKitMetrics;
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;

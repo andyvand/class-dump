@@ -12,17 +12,17 @@
 {
 }
 
-+ (id)tDownstream:(unsigned long long)arg1;
-+ (id)mes;
-+ (id)yLabel;
-+ (id)StreamConfigurationWithUUID:streamIdentifier:eventClass:storeConfig:syncPolicy:legacyNames:internalMetadata:enableSubscriptions:enableSubscriptionSubstream:enableTombstoneSubstream:allowedClients:pruningTriggers:spaceAttributionOwner: /* Error: Ran out of types for this method. */;
-+ (id)k;
-+ (id)ype;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (void);
-+ (void),V_lock;
-+ (void)",&,N,V_messageIdentifier;
-+ (void)tring",&,N,V_mediaPropertyType;
-+ (void)t;
++ (void);
++ (void);
++ (void);
++ (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPendingApproval; // @dynamic isPendingApproval;

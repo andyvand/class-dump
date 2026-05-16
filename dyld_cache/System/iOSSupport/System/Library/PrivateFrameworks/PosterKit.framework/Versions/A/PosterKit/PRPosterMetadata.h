@@ -11,23 +11,23 @@
     NSString *_displayNameLocalizationKey;
 }
 
-+ (_Bool);
 + (id);
-+ (_Bool)ignment:preferredTitleLayout:titleContentStyle:timeNumberingSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 

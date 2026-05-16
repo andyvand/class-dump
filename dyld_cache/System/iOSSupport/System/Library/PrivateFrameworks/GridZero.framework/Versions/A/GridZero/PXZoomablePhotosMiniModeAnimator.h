@@ -50,18 +50,18 @@
 - (void);
 - (double);
 - (void);
-- (_Bool);
-- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (unsigned long long);
 - (_Bool);
+- (void);
 - (unsigned long long);
 - (void);
-- (void)ion:(id)arg1 changeBlock:(unsigned long long)arg2;
-- (void)ithResult:(unsigned long long)arg1 forDataSource: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

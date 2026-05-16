@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)_offlineMapActionTypeArgument;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

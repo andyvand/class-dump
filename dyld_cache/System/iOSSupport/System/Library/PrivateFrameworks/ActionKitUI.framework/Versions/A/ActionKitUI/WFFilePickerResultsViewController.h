@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)iewController:(_Bool)arg1 transitionImageForPreviewItem:contentRect: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)ü?úÿ5bø?úÿEb@úÿ]bXúÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <WFRemoteFileListViewDelegate> delegate; // @synthesize delegate=_delegate;

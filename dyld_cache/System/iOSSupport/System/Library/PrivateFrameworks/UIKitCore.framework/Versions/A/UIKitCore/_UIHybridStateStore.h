@@ -16,10 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)eWidth;
-- (id)`ð;
+- (void)
+× ;
+- (id)longClick;
 
 // Remaining properties
 @property(nonatomic) UISceneSession *sceneSession; // @synthesize sceneSession=_sceneSession;

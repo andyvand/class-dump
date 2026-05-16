@@ -17,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)t|photos;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *possibleStates;

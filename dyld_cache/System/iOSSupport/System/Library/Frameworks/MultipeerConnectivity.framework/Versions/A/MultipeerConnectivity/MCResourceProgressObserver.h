@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void)r:toSession:withContext:timeout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;

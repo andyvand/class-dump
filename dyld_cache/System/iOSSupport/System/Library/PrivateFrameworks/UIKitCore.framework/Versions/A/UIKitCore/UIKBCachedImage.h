@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)÷m;
++ (_Bool)rict;
 - (_Bool);
-- (void);
-- (id)eDelegate;
+- (void)<6éÿ`6éÿÐ6éÿ7éÿ47éÿX7éÿ7éÿ¨7éÿ´7éÿÀ7éÿÌ7éÿp8éÿt9éÿ°9éÿÔ9éÿø9éÿ4:(id)arg1 éÿ`:éÿÔ:éÿ°;éÿ<éÿì<éÿ(=éÿÄ=éÿè=éÿ4>éÿp>éÿ,?éÿL@éÿ@éÿ¬@éÿÐ@éÿAéÿ(AéÿxAéÿ´Aéÿ¤Béÿ CéÿÔCéÿDéÿ¨EéÿhFéÿ|Féÿ FéÿhHéÿtHéÿHéÿPIéÿIéÿÐIéÿÄOéÿèOéÿôOéÿPéÿTPéÿxPéÿPéÿÀPéÿTRéÿRéÿ¤RéÿØRéÿSéÿÐSéÿôSéÿØTéÿüTéÿ UéÿDUéÿHVéÿ¤VéÿðVéÿüVéÿ¤Wéÿ°Wéÿ¼WéÿÈWéÿÔWéÿàWéÿXéÿYéÿ¸YéÿèYéÿ Zéÿ8ZéÿtZéÿZéÿÄZéÿL[éÿ`[éÿl]éÿx]éÿ]éÿ$aéÿ`aéÿaéÿaéÿaéÿ¨aéÿ´aéÿÀaéÿÌaéÿØaéÿäaéÿðaéÿüaéÿbéÿ béÿ8béÿtbéÿbéÿÈbéÿ\céÿhcéÿÄdéÿèdéÿ /* Error: Ran out of types for this method. */;
+- (id)Pÿþ®ÊÌzg;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *formatColor;

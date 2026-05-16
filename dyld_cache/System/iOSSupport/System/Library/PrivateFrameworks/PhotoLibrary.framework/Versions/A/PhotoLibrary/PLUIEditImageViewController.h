@@ -25,11 +25,11 @@
 - (id);
 - (int);
 - (void);
-- (unsigned short);
 - (int);
-- (void);
 - (id);
 - (void);
+- (void);
+- (unsigned short);
 
 // Remaining properties
 @property(nonatomic) id delegate; // @synthesize delegate=_delegate;

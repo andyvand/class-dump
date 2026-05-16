@@ -14,9 +14,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void);
+- (void)gValuesReviewFetchResultForPhotoLibrary(PHPhotoLibrary *__strong _Nonnull);
+- (void).ItemListManagerDataSectionManager;
 - (id);
 
 // Remaining properties

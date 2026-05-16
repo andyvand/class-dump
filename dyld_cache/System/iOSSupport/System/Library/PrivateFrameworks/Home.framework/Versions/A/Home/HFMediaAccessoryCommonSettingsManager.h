@@ -60,14 +60,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void)È;
-- (id)*åÿ<ôèº;
+- (id);
+- (id);
+- (void)ß°!ØBùâ1B50@ù
+× ;
+- (void):(id)arg1;
+- (void),X;
 
 // Remaining properties
 @property(retain, nonatomic) HMImmutableSetting *airPlayEnabledSetting; // @synthesize airPlayEnabledSetting=_airPlayEnabledSetting;

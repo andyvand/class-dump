@@ -9,9 +9,9 @@
 }
 
 - (struct CGPoint);
-- (id)updateEngramID:(struct CGPoint)arg1;
-- (long long)ÿÿ8ÿÿ;
-- (void)ÿ=ò%;
+- (id);
+- (void)argetIndexPathAndDropProposalForSession:(id)arg1;
+- (long long)ÿIJÐ;5n;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint touchLocation;

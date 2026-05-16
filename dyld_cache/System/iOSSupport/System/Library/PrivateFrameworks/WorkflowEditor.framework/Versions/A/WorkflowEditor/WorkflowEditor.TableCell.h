@@ -16,10 +16,11 @@
     MISSING_TYPE *isEmphasized;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)$°@È
+Ø;
 
 @end
 

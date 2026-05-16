@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UINSActivityItemsConfigurationReading, _UIServicesMenuDataProviding;
+@protocol UINSActivityItemsConfigurationReading;
 
 @protocol _UIServicesMenuDataProviding
-- (id <_UIServicesMenuDataProviding>)4!;
-- (id <UINSActivityItemsConfigurationReading>)edCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UINSActivityItemsConfigurationReading> _activityItemsConfigurationForServicesMenu;

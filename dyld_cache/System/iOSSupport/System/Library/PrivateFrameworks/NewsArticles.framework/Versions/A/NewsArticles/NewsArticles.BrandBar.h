@@ -18,11 +18,11 @@
 }
 
 - (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)aptivePresentationControllerDelegate;
+- (void);
 
 @end
 

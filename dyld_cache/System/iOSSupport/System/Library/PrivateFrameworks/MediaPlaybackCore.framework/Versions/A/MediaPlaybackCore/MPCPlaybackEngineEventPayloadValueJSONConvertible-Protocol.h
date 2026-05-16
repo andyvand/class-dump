@@ -5,6 +5,5 @@
 //
 
 @protocol MPCPlaybackEngineEventPayloadValueJSONConvertible
-+ (id);
 @end
 

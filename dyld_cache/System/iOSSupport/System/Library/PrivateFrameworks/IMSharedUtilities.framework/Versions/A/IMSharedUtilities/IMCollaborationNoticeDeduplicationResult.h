@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *deduplicatedNotices; // @synthesize deduplicatedNotices=_deduplicatedNotices;

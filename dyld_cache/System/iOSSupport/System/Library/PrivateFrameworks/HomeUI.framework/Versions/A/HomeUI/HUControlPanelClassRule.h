@@ -20,10 +20,10 @@
 - (void);
 - (Class);
 - (void);
-- (double);
-- (void);
-- (id)fset not found for event:%@ /* Error: Ran out of types for this method. */;
-- (void)+~¨¼;
+- (void)r;
+- (id);
+- (void)À;
+- (double)0Îâÿ{°ÿ(;
 
 // Remaining properties
 @property(copy, nonatomic) Class class; // @synthesize class=_class;

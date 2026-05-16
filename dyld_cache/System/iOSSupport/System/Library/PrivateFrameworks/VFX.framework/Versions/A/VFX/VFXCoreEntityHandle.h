@@ -21,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)">32;
 - (struct __CFXWorld *);
 - (void);
 - (_Bool);
@@ -45,8 +45,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -55,18 +55,18 @@
 - (void *);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (struct __CFXCoreEntityHandle *);
 - (id);
-- (id);
-- (void)øX]ÿÙÕtð_ÿ;
-- (id);
-- (void)½>ßùe¾"¦Â?íF=Q´>LRi¾Â5µ?©2¬=û­>m¾«^ª?Ó-»=gbª>¥Àr¾'¿¡?nnÌ=­¨>RÑx¾X?à=Ô»¨>Ü¾?sö=IJª>ÈÎ¾n?ÜÙ>'ú¬>k¾Íå?Îý>æY±>?¾1^?6°%>®º¶>LR¾w0?ºù6>½>NA¾®I?ZõI>úFÄ>5¾]}?W^>_$Ì>@ ¾ê]x?Cät>®Õ>ð¤¾ÐÐs?5}>6ß>0©¾Xäo?@j>dé>}é­¾ìk?*¡>F`ô>Aó±¾g?Ít¯>;
-- (id)À ';
+- (id)qQ=&ÿqQ´=&ÿ1qQÐ=&ÿÑpQÜ=&ÿÙpQè=&ÿ±pQô=&ÿqQ;
+- (id)x;
+- (void)ñWS7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bindingNames;

@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ä;
 
 // Remaining properties
 @property(readonly) id <HMCameraClipDownloadAssetDataTaskHandling> handler; // @synthesize handler=_handler;

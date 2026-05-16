@@ -47,21 +47,21 @@
 - (float);
 - (void);
 - (void);
-- (void);
-- (CDStruct_2bd92d94);
-- (void);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)GSpriteTexture>"16^{?={?=ddd}}24^{?=CCfqSC}32^{?=f{?=(?={?=ffff}[4f])}ffffSCf{?=[4]}}40^{?=ff}48{?=ffff}56@"_PXGReusableViewInfo"72d80B88;
 - (void);
-- (struct UIEdgeInsets)28@?0i8I12I1620;
+- (CDStruct_2bd92d94);
+- (void);
+- (void);
+- (struct UIEdgeInsets)te: /* Error: Ran out of types for this method. */;
+- (void)ViewContentInsetAlwaysAdjustToAvoidSafeArea;
+- (id)è¬;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

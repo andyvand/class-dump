@@ -15,21 +15,21 @@
 
 + (id);
 + (id);
-+ (id)ction;
-+ (id)¼¡¢;
++ (id);
++ (id)addControlTarget:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)MediaPlaybackAction;
-- (id)%{public}@Update event trigger recurrences response :%@, completionHandler:%@ error %@ /* Error: Ran out of types for this method. */;
-- (id)cc;
-- (id)¢};
+- (id);
+- (id);
+- (id);
+- (void)16P;
+- (id)gedCameraRecordingOnboarding value %@ is merging into home:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

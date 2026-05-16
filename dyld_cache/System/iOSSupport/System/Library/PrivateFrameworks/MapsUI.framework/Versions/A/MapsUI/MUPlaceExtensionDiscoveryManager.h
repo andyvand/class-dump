@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)vateLayouts:constraints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canShowExtensionReservation; // @synthesize canShowExtensionReservation=_canShowExtensionReservation;

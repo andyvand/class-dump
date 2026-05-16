@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void)*, SEL, long, NSString *, ...);
+- (void);
 
 @end
 

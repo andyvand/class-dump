@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)P;
+- (id)umnSpacingSpanDoubleSetBInterpolator;
+- (void)HÔJ0KÈK;
 
 // Remaining properties
 @property(retain, nonatomic) id first; // @synthesize first=_first;

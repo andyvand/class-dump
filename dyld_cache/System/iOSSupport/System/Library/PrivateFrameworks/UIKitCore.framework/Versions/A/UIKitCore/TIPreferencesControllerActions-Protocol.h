@@ -7,38 +7,33 @@
 @class NSArray, NSNumber;
 
 @protocol TIPreferencesControllerActions
-- (void)?;
-- (void);
-- (_Bool)eServerLikelyReachable;
-- (_Bool)rControllerQueueDidChangeNotification;
+- (unsigned long long)Að!,Cù1\1Â0@ù
+× ;
 - (void)
 × ;
-- (void)1Ä°1¢!0@ù
+- (void)1]°1Â0@ù
 × ;
-- (void)Ô ;
+- (void);
 - (void)0@ù
 × ;
-- (void)!0EùÏÐ1¢!0@ù
-× ;
-- (void)b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1};
-- (void)lSize:(NSNumber *)arg1;
-- (NSArray *)s;
-- (void)HeaderSubtitle;
-- (void)r;
-- (void)pleFiles;
-- (void)rs;
-- (void)RespectingOverridesUsingPresentationLayer:(_Bool)arg1;
-- (void)tyle;
-- (void)ames;
-- (void)Progress",&,N,V_observedProgress;
-- (void)ä|;
-- (struct CGPoint)hËØËÏ;
-- (void)ates;
-- (unsigned long long);
-- (void)ShadowProperties;
-- (_Bool)Á$4àþ±$44þ¡$4hþ;
-- (void)øjþ;
-- (_Bool)MJ;
+- (_Bool)onContentOffsetForProposedContentOffset:keyItemIndexPath: /* Error: Ran out of types for this method. */;
+- (void)kgroundViewLayout;
+- (void)numerationPriority;
+- (_Bool)_accumulatedMovement;
+- (void)",W,N,V_categoryView;
+- (void);
+- (void)jiAnalyticsInstance;
+- (void)à
+;
+- (void)d, placement:(NSNumber *)arg1 %@ (self:%@) /* Error: Ran out of types for this method. */;
+- (void)view:(struct CGPoint)arg1 %@;
+- (void).3q_So0aB4CellCSgIeggnno_;
+- (void);
+- (_Bool)P23´vþ;
+- (void)þ ;
+- (_Bool);
+- (void)À1;
+- (void)[;
 
 // Remaining properties
 @property(nonatomic) _Bool autocorrectionEnabled;

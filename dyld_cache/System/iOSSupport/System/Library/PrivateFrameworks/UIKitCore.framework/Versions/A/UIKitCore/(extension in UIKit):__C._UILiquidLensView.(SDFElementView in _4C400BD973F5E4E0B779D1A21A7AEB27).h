@@ -12,7 +12,7 @@
 
 + (Class);
 - (id);
-- (id)UICommand (duplicate action:(struct CGRect)arg1;
+- (id)tationSegueTemplate;
 
 @end
 

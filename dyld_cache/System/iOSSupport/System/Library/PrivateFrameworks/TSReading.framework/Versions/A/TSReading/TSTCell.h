@@ -55,15 +55,15 @@
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id)nt with probability ;
+- (id);
+- (id);
+- (id);
 
 @end
 

@@ -25,12 +25,12 @@
 - (void);
 - (id);
 - (struct CGFont *);
-- (_Bool);
 - (void);
 - (id);
-- (id)an app session ID specified:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)ind;
-- (id)ing width;
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 
 // Remaining properties

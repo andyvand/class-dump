@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ed25519.pub;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *noteResourceCountMax; // @synthesize noteResourceCountMax=_noteResourceCountMax;

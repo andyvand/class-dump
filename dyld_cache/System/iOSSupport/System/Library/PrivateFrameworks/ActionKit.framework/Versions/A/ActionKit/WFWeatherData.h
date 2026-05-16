@@ -36,7 +36,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)Tomorrow at 4pm (WFAlertCustomTime);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -53,9 +53,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -65,6 +62,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)leanStateSetting>"8@"NSError"16;
+- (id)blocksize <= sizeof(buf);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

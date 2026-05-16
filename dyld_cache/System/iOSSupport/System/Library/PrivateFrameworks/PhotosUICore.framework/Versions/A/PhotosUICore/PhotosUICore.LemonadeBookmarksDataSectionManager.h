@@ -24,7 +24,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)H;
 
 @end
 

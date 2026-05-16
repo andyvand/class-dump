@@ -11,8 +11,8 @@
     unsigned long long _linkQuality;
 }
 
-- (id)44;
-- (unsigned long long)qG;
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long linkQuality; // @synthesize linkQuality=_linkQuality;

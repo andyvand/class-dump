@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     CDPUIDeviceToDeviceEncryptionHelper *_encryptionHelper;
 }
 
-- (void)h;
+- (void);
 - (id);
 - (void);
 - (Class);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)ansferWithCommSafetyState: /* Error: Ran out of types for this method. */;
-- (id)ÔË;
+- (id);
+- (id)ADt;
+- (void)iptBackgroundView;
 
 // Remaining properties
 @property(retain, nonatomic) CDPUIDeviceToDeviceEncryptionHelper *encryptionHelper; // @synthesize encryptionHelper=_encryptionHelper;

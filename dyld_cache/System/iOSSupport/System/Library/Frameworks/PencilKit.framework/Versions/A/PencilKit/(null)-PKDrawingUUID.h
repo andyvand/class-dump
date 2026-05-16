@@ -9,8 +9,8 @@
 @interface (null) (PKDrawingUUID)
 + (id);
 - (id);
-- (long long);
 - (id);
+- (long long);
 - (id);
 
 // Remaining properties

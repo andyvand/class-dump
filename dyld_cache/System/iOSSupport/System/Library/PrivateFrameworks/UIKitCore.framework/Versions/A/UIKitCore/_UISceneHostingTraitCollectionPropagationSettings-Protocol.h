@@ -7,10 +7,10 @@
 @class UIColor, UITraitCollection;
 
 @protocol _UISceneHostingTraitCollectionPropagationSettings
-- (UIColor *)SafeAreaCornerInsetResolver"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)àÀá	â´äèäÌå;
-- (void)rrently focused);
-- (UITraitCollection *)ä°uþÖ;
+- (UIColor *)er;
+- (void)yboardTransitionInhibitStart;
+- (UITraitCollection *);
+- (void)À;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *tintColor;

@@ -17,21 +17,21 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _additionalClippingInsets;
 }
 
-- (void);
 - (void);
-- (id)nreadMessagesCount;
-- (id)sUpdated: /* Error: Ran out of types for this method. */;
-- (void)e>",W,V_delegate;
-- (void),N,V_balloonPluginPayload;
-- (_Bool)<IMScheduledMessageUpdateProcessingPipelineParameter> Started processing;
-- (struct UIEdgeInsets)g transcript background, subclass for iMessage should handle.;
-- (id);
 - (void);
 - (id);
-- (void);
-- (id)nimumActiveValue;
-- (id);
-- (id)xGSgXwz_x_µÎí3RzlXX;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)on:(struct CGRect)arg1;
+- (void)æÒþ­°j];
+- (id)+hÎc;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalClippingInsets:) struct UIEdgeInsets _additionalClippingInsets; // @synthesize _additionalClippingInsets;

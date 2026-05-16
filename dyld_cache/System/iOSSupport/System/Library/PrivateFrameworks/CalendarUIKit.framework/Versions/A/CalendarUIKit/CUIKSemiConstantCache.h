@@ -20,7 +20,7 @@
     UIFont *_dayOccurrenceUncompressedSecondaryTextFont;
 }
 
-+ (id);
++ (id)Contact:size: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (double);
@@ -29,7 +29,7 @@
 - (id);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (id);
@@ -37,9 +37,9 @@
 - (id);
 - (double);
 - (void);
-- (void);
 - (id);
-- (void)lectionWithUserInterfaceStyle:(id)arg1;
+- (void);
+- (void)erPhoneNumber;
 
 // Remaining properties
 @property(readonly) double dayOccurrenceMinimumCachedLineHeightCompact;

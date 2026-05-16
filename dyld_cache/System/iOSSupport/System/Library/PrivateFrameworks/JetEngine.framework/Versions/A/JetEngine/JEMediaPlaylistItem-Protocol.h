@@ -8,9 +8,6 @@
 
 @protocol JEMediaPlaylistItem
 
-@optional
-- (unsigned long long)`;
-
 // Remaining properties
 @property(readonly, nonatomic) NSArray *eventData;
 // Preceding property had unknown attributes: ?

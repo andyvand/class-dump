@@ -20,26 +20,26 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool)dleC;
+- (_Bool)´yzð{°|ø};
+- (void)g record error:(id)arg1 %@;
+- (_Bool)e leaving for home;
+- (void)rdinator:completion:]_block_invoke_3 /* Error: Ran out of types for this method. */;
+- (void)ent;
+- (id)TßÿOd;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destinationType; // @synthesize destinationType=_destinationType;

@@ -49,17 +49,17 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void)HþLoü¸Ð!;
-- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)5;
+- (id)iceProperties;
+- (void)ionDebugInformation;
+- (void)|;
+- (void)Å|3;
 
 // Remaining properties
 @property(retain, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;

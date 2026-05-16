@@ -13,23 +13,22 @@
     UIMenuElement<UIMenuLeaf> *_menuLeaf;
 }
 
-+ (id)cloud.com;
-+ (_Bool){&m;
++ (id);
++ (_Bool)splayFormatWithYear;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)#;
-- (id)dSession;
-- (id);
-- (void);
-- (long long)1¢!0@ù
-× ;
-- (id)des: /* Error: Ran out of types for this method. */;
+- (_Bool)nCalendarUnit:(id)arg1;
+- (void)tLargeSubtitle:(id)arg1;
+- (id)dthMaxBump;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UICommandAlternate *commandAlternate;

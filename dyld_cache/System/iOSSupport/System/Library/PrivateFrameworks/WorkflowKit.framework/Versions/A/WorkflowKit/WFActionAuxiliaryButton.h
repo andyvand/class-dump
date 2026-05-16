@@ -17,11 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
-- (void)m.apple.shortcuts.intentsactionprovider;
-- (CDUnknownBlockType)et phone numbers from ${WFInput} (Parameter Summary);
+- (CDUnknownBlockType);
+- (id);
+- (id)ializedRepresentation;
+- (void)me);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

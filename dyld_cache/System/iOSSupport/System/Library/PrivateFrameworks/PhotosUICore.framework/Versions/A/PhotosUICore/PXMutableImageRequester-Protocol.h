@@ -7,14 +7,14 @@
 @protocol PXDisplayAsset, PXUIImageProvider;
 
 @protocol PXMutableImageRequester
-- (void)«°myl¬Ö0e;
-- (id <PXDisplayAsset>)ividerScale;
-- (void)State;
-- (void)shared album %{public}s:(struct CGSize)arg1 %@;
-- (struct CGSize)ontentSnapshot init];
-- (void)upport small, medium, large or extraLarge;
-- (void)tle;
-- (id <PXUIImageProvider>);
+- (void)FunctionForAnimationInView:(double)arg1 withKeyPath: /* Error: Ran out of types for this method. */;
+- (void)presentationStyle;
+- (id <PXDisplayAsset>)pSg;
+- (void)ng libraryFilter %ld != %ld;
+- (struct CGRect)Ç;
+- (void)GÿØ$a;
+- (struct CGSize);
+- (double)KitSuggester;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAsset> asset;

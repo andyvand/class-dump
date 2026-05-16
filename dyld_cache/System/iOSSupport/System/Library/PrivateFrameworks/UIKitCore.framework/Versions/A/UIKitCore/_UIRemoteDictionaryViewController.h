@@ -24,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)sendMessageText:(id)arg1 toHandle:onService:completion: /* Error: Ran out of types for this method. */;
-- (id)i;
-- (long long);
+- (void);
 - (id);
+- (id);
+- (long long);
 - (void);
-- (void);
-- (id)ual;
+- (void)4¯þ;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) _UIDictionaryManager *dictionaryAssetManager; // @synthesize dictionaryAssetManager=_dictionaryAssetManager;

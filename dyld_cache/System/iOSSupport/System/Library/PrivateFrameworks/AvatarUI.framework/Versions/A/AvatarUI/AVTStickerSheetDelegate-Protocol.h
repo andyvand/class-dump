@@ -5,6 +5,5 @@
 //
 
 @protocol AVTStickerSheetDelegate
-- (void);
 @end
 

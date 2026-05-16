@@ -4,67 +4,89 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView, UIViewController;
+@class MISSING_TYPE, NSArray, UIViewController;
 @protocol CKAppCardPresentationOverseerDelegate, CKBrowserViewControllerProtocol;
 
 @interface CKAppCardPresentationOverseer
 {
+    _Bool isKeyboardAnimatingIn;
+    _Bool isAppCardAnimatingIn;
     MISSING_TYPE *pluginContext;
     void delegate;
     double appCardDismissPadding;
     MISSING_TYPE *container;
     _Bool presentationBegan;
+    _Bool isPreventingKeyboardPresentation;
     MISSING_TYPE *presentingViewController;
     MISSING_TYPE *sendDelegate;
     MISSING_TYPE *tracker;
+    MISSING_TYPE *failsafeKeyboardAnimationStateTimer;
+    void keyboardNotificationObservers;
 }
 
 - (void);
-- (_Bool)>@Sg;
-- (id)2ICThumbnailDescriptionCG;
 - (_Bool);
-- (_Bool)A;
-- (void);
-- (void)count is unsupported;
-- (void)**Somebody** joined the folder;
-- (void);
-- (_Bool)yway;
-- (_Bool)es;
-- (void)stomPasswordWithPrompt:(UIView *)arg1 displayWindow:(struct CGRect)arg2 completionHandler:(void (^)(void))arg3 ];
-- (void)istItemGlyphPointSizeForUnorderedListStyle:(unsigned long long)arg1 zoomFactor:(_Bool)arg2 ];
+- (id);
 - (_Bool);
-- (_Bool)humbnailService;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (unsigned long long);
 - (double);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id)__Qo__!S®y_S®y_+N®yytkW®yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_{Y®yAGÛÊ­GQo_;
-- (long long)yADyADy«ò®yA19_yAFyA35_A37_yADyADyA6_Ã>®GA30_GGGG_¼ì®Qo_A49_GANy¬a®SgGGA63_GGGGAGGAKGAKGAKGAKGSgtGG;
-- (void)×Þ®A25_tGG_G;
+- (void);%;
+- (long long)<T2;
+- (void)B603;
 
 // Remaining properties
 @property(nonatomic) double appCardDismissPadding; // @synthesize appCardDismissPadding;
 @property(nonatomic, readonly) UIViewController<CKBrowserViewControllerProtocol> *browserViewController;
 @property(nonatomic, readonly) UIViewController *containerViewController;
 @property(nonatomic) __weak id <CKAppCardPresentationOverseerDelegate> delegate; // @synthesize delegate;
+@property(nonatomic) _Bool isAppCardAnimatingIn; // @synthesize isAppCardAnimatingIn;
 @property(nonatomic, readonly) _Bool isExpanded;
+@property(nonatomic) _Bool isKeyboardAnimatingIn; // @synthesize isKeyboardAnimatingIn;
 @property(nonatomic, readonly) _Bool isPresentingBarelyVisibleAppCard;
 @property(nonatomic, readonly) _Bool isPresentingCard;
 @property(nonatomic, readonly) _Bool isPresentingInSendMenuPopover;
 @property(nonatomic, readonly) _Bool isPresentingInSheetController;
+@property(nonatomic) _Bool isPreventingKeyboardPresentation; // @synthesize isPreventingKeyboardPresentation;
+@property(nonatomic, copy) NSArray *keyboardNotificationObservers;
 @property(nonatomic) _Bool presentationBegan; // @synthesize presentationBegan;
 @property(nonatomic, readonly) _Bool presentedAppBypassesSendMenu;
 @property(nonatomic, readonly) _Bool shouldAnimateDismissal;

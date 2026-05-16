@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)åº;
-- (id)ntWhenScrolledToEdge;
-- (id)`Êþ;
+- (void);
+- (id)tCachedSystemAnimationFence: /* Error: Ran out of types for this method. */;
+- (void):0 /* Error: Ran out of types for this method. */;
+- (id)b;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;

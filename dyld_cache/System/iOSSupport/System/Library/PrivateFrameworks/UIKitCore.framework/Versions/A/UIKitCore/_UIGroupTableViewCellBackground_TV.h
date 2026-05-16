@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)le;
-- (void);
+- (id);
+- (void)[;
 
 @end
 

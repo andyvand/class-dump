@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CAAnimation;
+
 @protocol CAAnimationDelegate
+
+@optional
+- (void)ewServiceViewControllerWithDelegate:(CAAnimation *)arg1;
+- (void)patch_semaphore>",&,V_flashAndFilterUISemaphore;
 @end
 

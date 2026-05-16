@@ -10,16 +10,16 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (id);
 - (id);
 
 @end

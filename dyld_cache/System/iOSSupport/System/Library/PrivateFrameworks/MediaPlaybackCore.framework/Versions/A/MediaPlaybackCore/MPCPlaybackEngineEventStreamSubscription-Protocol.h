@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol MPCPlaybackEngineEventStreamSubscription
-- (void)Dataclasses:(NSString *)arg1;
-- (void)e:(NSString *)arg1 oldAccount:(_Bool (^)(MPCPlaybackEngineEvent *, id <MPCPlaybackEngineEventStreamCursor>))arg2;
-- (void)@, wasModified:%@ } /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *streamID;

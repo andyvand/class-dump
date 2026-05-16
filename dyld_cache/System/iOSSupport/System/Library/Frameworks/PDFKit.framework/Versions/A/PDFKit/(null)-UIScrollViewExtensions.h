@@ -5,7 +5,7 @@
 //
 
 @interface (null) (UIScrollViewExtensions)
-- (struct CGRect)xt: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (double);
 
 // Remaining properties

@@ -4,58 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCFeaturePromotionResourceConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString;
 
 @protocol FCCoreConfiguration
-- (NSString *)P;
-- (NSString *)g;
-- (NSNumber *);
-- (NSString *)re no campaign ID for the today feed to perform a brand conflict check with.;
-- (long long);
-- (_Bool);
-- (NSDictionary *)	
+- (FCForYouGroupsConfiguration *);
+- (NSString *)	
 ;
-- (long long)ë0ëmtën,ïïoÄïðïdð;
-- (_Bool)Zùÿ;
-- (long long)enStateMask;
-- (NSString *)ws-magazines;
-- (NSString *)ÿÿÿÿ;
-- (NSString *)Ì°@ÿ;
-- (long long)IåÛdÜ oá;
+- (NSString *)t%tÿÿÿÿÿÜ;
+- (long long);
+- (NSString *)°W;
+- (NSString *)´>?;
+- (FCNotificationsConfiguration *)õñÿ;
+- (long long)Lsöÿ;
+- (long long)H]Óÿ;
+- (NSString *);
+- (_Bool)w;
+- (_Bool)ÿ;
 
 @optional
-- (_Bool);
-- (long long);
-- (long long)jB;
-- (NSString *)(=;
-- (_Bool)C;
-- (NSArray *)rning cached view for placement=%{public}@, ad=%{public}@, host=%{public}@;
-- (FCTimesOfDayConfiguration *)h;
-- (NSString *);
-- (NSString *)h.;
-- (long long)Վ;
-- (long long)oller",&,N,V_appearingViewController;
-- (long long));
-- (NSString *);
-- (long long),;
-- (double)	
-;
-- (double)øg$hLhth¤hÜhiLitiiÌiüi,j\jjÈjüj$k\kkÈkìk(l\l¨lèl0mxm¬mÔmn;
-- (FCEmbedProxyConfiguration *)d;
-- (NSString *)ÿåñÿ;
-- (NSURL *)ÄÜÿèÜÿ ÜÿH Üÿl Üÿ  ÜÿÜ Üÿ;
-- (double)l~÷ÿ0>ûÿúè÷ÿÐõÿ;
-- (NSDictionary *)Ïûÿ;
-- (NSString *)Ò®þ;
-- (NSString *)xÿä=
-;
-- (FCNewsPlusLabelConfigGroup *)miling.inverse;
-- (_Bool);
-- (NSString *)(;
-- (NSString *)textKey;
-- (NSString *)¾ þ¾%þ;
-- (NSDictionary *)þ;
-- (long long)éÀ(ø;
+- (NSString *);
+- (long long)orYouScoringConfig;
+- (double)torage_$_urlSession;
+- (NSString *)zR;
+- (NSArray *);
+- (_Bool);
+- (long long)	
+;
+- (_Bool)&ñÿ;
+- (NSDictionary *)òðÿ°òðÿÔòðÿìòðÿóðÿ,óðÿLóðÿlóðÿóðÿóðÿ¼óðÿÔóðÿøóðÿôðÿ(ôðÿ@ôðÿXôðÿôðÿ¸ôðÿàôðÿõðÿXõðÿpõðÿõðÿ õðÿ¸õðÿÐõðÿèõðÿ0öðÿHöðÿ`öðÿxöðÿöðÿ´öðÿÌöðÿäöðÿ0÷ðÿH÷ðÿ÷ðÿ¬÷ðÿø÷ðÿøðÿ\øðÿtøðÿÀøðÿØøðÿ$ùðÿ<ùðÿùðÿ ùðÿìùðÿúðÿPúðÿhúðÿ´úðÿÌúðÿûðÿ0ûðÿ|ûðÿûðÿàûðÿøûðÿDüðÿ\üðÿ¨üðÿÀüðÿýðÿ$ýðÿ<ýðÿýðÿ ýðÿ¸ýðÿÐýðÿèýðÿ þðÿXþðÿpþðÿþðÿ¨þðÿÀþðÿàþðÿ;
+- (NSString *)PÚÿtÚÿ;
+- (NSString *)(ÕóÿX<öÿ|+õÿ;
+- (NSString *)rties;
+- (_Bool)Ó!;
+- (_Bool)ManageNotifications;
+- (NSString *)nd-search-more;
+- (long long)@;
+- (FCAppReviewRequestConfig *)ÿ;
+- (FCNewsPersonalizationConfiguration *)á,4e¬;
+- (FCLocationSharingUpsellConfig *)f>(q³þ;
+- (_Bool)htv;
+- (FCSportsPrivacyConfiguration *)?qg;
+- (NSString *)ormatVisualEffectContainer;
+- (NSString *);
+- (NSArray *)pConfigDataKind;
+- (long long);
+- (_Bool)þ]Aèj~þmAlk~þmAäj~þmAk~þAàj~þ-A`k~þ5ATk~þAÄj~þ]AÐj~þíAÌj~þíA¼j~þ5AÔj~þmA k~þ=AÈj~þ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *aLaCartePaidSubscriptionGroupWhitelistedChannelIDs;
@@ -113,6 +106,10 @@
 
 @property(readonly, nonatomic) NSString *breakingNewsChannelID;
 @property(readonly, nonatomic) NSString *briefingsTagID;
+@property(readonly, nonatomic) NSString *cacheInvalidationResourceID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSDictionary *campaignReferralConfigsByID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSDictionary",?,R,N
@@ -175,6 +172,10 @@
 
 @property(readonly, nonatomic) long long expirePinnedArticlesAfter;
 @property(readonly, nonatomic) long long expiredPaidSubscriptionGroupCutoffTime;
+@property(readonly, nonatomic) FCFeaturePromotionResourceConfiguration *featurePromotionResourceConfiguration;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"FCFeaturePromotionResourceConfiguration",?,R,N
+
 @property(readonly, nonatomic) NSString *featuredStoriesTagID;
 @property(readonly, nonatomic) double feedLineHeightMultiplier;
 // Preceding property had unknown attributes: ?
@@ -228,6 +229,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCLaunchPresentationConfig",?,R,N
 
+@property(readonly, nonatomic) NSString *localNewsHubTagID;
 @property(readonly, nonatomic) FCLocationSharingUpsellConfig *locationSharingUpsellConfig;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCLocationSharingUpsellConfig",?,R,N
@@ -236,7 +238,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
-@property(readonly, nonatomic) long long maxCuratedShortcutsCount;
+@property(readonly, nonatomic) long long maxContentShortcutsCount;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
 
@@ -343,6 +345,18 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) _Bool paywallExperimentationEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSArray",?,R,N
+
+@property(readonly, nonatomic) NSString *paywallTagID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSArray *permanentChannelIDs;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,N
@@ -376,7 +390,10 @@
 // Original attribute string: TB,?,R,N,GshouldProxyURLBucketFetch
 
 @property(readonly, nonatomic) FCPuzzlesConfiguration *puzzlesConfig;
+@property(readonly, nonatomic) NSString *recipeAlcoholicDrinkTagID;
+@property(readonly, nonatomic) NSString *recipeBakingTagID;
 @property(readonly, nonatomic) NSString *recipeCatalogTagID;
+@property(readonly, nonatomic) NSString *recipeNonAlcoholicDrinkTagID;
 @property(readonly, nonatomic) long long savedArticlesCutoffTime;
 @property(readonly, nonatomic) long long savedArticlesMaximumCountCellular;
 @property(readonly, nonatomic) long long savedArticlesMaximumCountWiFi;
@@ -493,6 +510,10 @@
 @property(readonly, nonatomic) NSString *todayFeedKnobs;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool treatmentIDAdDonationEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) NSString *trendingRecipesListID;
 // Preceding property had unknown attributes: ?

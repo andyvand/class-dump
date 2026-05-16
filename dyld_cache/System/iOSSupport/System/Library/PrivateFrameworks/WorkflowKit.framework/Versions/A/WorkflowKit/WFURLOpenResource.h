@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool)ame);
++ (_Bool);
 - (void);
 - (void);
 - (id);

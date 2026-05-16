@@ -7,8 +7,7 @@
 @class NSString;
 
 @protocol MPSectionedIdentifierListEnumerationItem
-- (NSString *)=;
-- (NSString *)ng *getITLibMediaItemPropertyWork(void);
+- (NSString *)ssing mapping for MPModelRelationshipSongGenre;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *itemIdentifier;

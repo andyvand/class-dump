@@ -11,8 +11,8 @@
     MISSING_TYPE *bundle;
 }
 
-- (void);
 - (id);
+- (void)YïÇhv;
 
 @end
 

@@ -5,8 +5,5 @@
 //
 
 @protocol CKSendMenuPopoverPresentationControllerDelegate
-- (void);
-- (void)Intent;
-- (void)g;
 @end
 

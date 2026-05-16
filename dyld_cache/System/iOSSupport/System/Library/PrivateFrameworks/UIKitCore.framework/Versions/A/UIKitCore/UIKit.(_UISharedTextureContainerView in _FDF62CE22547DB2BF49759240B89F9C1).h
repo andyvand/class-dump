@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (int)essionDidEnd: /* Error: Ran out of types for this method. */;
-- (id);
+- (int)onWhiteSpaceContent;
+- (id)avigationAction;
 
 @end
 

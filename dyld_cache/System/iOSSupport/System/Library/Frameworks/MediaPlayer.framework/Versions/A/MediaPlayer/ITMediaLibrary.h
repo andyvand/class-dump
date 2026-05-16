@@ -35,40 +35,41 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (unsigned long long);
-- (void)ContentEvent";
-- (void)96@104@112B120@124@132@140@148@156@164@172;
-- (id)treamDatastoreWriter";
-- (id)@72@80@88@96@104;
-- (_Bool)B40@44@52@?60;
-- (unsigned long long)6@24B32@36@?44;
-- (id)@0:(unsigned long long)arg1 8I16I20;
-- (id)4@0:(unsigned long long)arg1 8@?16;
-- (id)16#24@32;
-- (id):(unsigned long long)arg1 8@16@24#32@40@48@56@64B72B76B80@84@92@100;
+- (void);
+- (void);
 - (id);
-- (id)ersed:(unsigned long long)arg1;
-- (unsigned long long)nalMetadata;
-- (unsigned long long)g:(unsigned long long)arg1;
-- (unsigned long long)on;
-- (unsigned long long)nteraction;
-- (id)Id:personaId:locations:absoluteTimestamp:contentProtection: /* Error: Ran out of types for this method. */;
-- (id)eTimestamp:(unsigned long long)arg1 topics:entities:locations:contentProtection: /* Error: Ran out of types for this method. */;
-- (id)mp:(unsigned long long)arg1 conversationId:(long long)arg2 fromHandle:toHandles:suggestedNickname:suggestedPhotoPath:content:accountIdentifier:accountHandles:accountType:attachment:URL:contentProtection:isNew:isTwoFactorCode:isFromMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService:messageEffect:isKnownSender:conversationUUID: /* Error: Ran out of types for this method. */;
-- (id)AccessLoggingEnabled:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)TimeStamp:(unsigned long long)arg1 launchReason:launchType:parentBundleID:extensionHostID: /* Error: Ran out of types for this method. */;
-- (id)onString:exactBundleVersion: /* Error: Ran out of types for this method. */;
-- (id)tamp:(unsigned long long)arg1 duration:launchReason:launchType:parentBundleID:extensionHostID:shortVersionString:exactBundleVersion: /* Error: Ran out of types for this method. */;
-- (id)Id;
-- (id);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long)ForReindexing:reason: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
+- (id);
 - (_Bool);
-- (id)4ßøÿ;
+- (void)rtworkResizingOperations;
+- (id)ágOñ¤
+Ô|Á%v¢äÚq2­)úbx]Óì©ìR6ZÌV0ÅtùÛoz¤¨·-1?){G +ðQ*Qjê[~a;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *albumArtists; // @synthesize albumArtists=_albumArtists;

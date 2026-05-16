@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct CGSize)AFyAgNGtGG]9@yAXGG_AEtGG_G;
+- (struct CGSize);
 
 @end
 

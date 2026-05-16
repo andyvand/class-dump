@@ -39,15 +39,15 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (_Bool);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) GKChallenge *challenge; // @synthesize challenge=_challenge;

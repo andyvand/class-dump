@@ -26,16 +26,16 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)onPredictionDuetPredictionValue;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *topicFilterAdditions; // @synthesize topicFilterAdditions=_topicFilterAdditions;

@@ -5,6 +5,5 @@
 //
 
 @protocol EQKitLayoutSchemataToken
-- (unsigned int);
 @end
 

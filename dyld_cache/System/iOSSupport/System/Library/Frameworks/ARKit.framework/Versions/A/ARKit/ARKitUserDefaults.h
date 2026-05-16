@@ -25,21 +25,21 @@
 + (void);
 + (void);
 + (void);
++ (void);
++ (void);
++ (void);
++ (id);
++ (id);
 + (float);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
 + (id);
 + (double);
-+ (long long)at32;
++ (id);
++ (_Bool);
++ (long long);
++ (void);
++ (id);
++ (id)nager"16@"CLRegion"24@"NSError"32;
++ (void)ndString:(_Bool)arg1;
 
 @end
 

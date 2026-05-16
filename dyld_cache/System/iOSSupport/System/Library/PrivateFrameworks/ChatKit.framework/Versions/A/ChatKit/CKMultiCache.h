@@ -10,15 +10,15 @@
     unsigned long long _limit;
 }
 
-- (void);
-- (void)n;
-- (_Bool)emporaryTextStorage:toNote:attachmentPreviewGenerator:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)achments:shouldUseNonEmojiKeyboard:shouldUseNonHandwritingKeyboard:shouldDisableKeyboardStickers:shouldAllowPollSuggestions:translationLanguage: /* Error: Ran out of types for this method. */;
+- (unsigned long long)WillBegin;
 
 // Remaining properties
 @property(nonatomic) _Bool cacheEligibleForPrewarm; // @synthesize cacheEligibleForPrewarm=_cacheEligibleForPrewarm;

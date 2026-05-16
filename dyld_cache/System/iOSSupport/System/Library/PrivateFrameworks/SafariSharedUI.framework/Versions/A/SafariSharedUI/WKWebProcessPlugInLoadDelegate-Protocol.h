@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLRequest;
-
 @protocol WKWebProcessPlugInLoadDelegate
-
-@optional
-- (void);
-- (NSURLRequest *)㗔;
 @end
 

@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
+- (id);
 - (unsigned long long);
+- (long long);
+- (double);
 - (_Bool);
 - (id);
-- (double);
-- (id);
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) double rawValue; // @synthesize rawValue=_rawValue;

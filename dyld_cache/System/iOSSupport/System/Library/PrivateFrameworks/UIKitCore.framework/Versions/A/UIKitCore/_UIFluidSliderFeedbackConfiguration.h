@@ -18,17 +18,16 @@ __attribute__((visibility("hidden")))
     _UIFeedback<_UIFeedbackDiscretePlayable> *_minEdgeFeedback;
 }
 
-+ (id)!0@ù
-× ;
++ (id)e_Internal._UITabBarContentLayoutManager;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)les;
-- (id)th to delete;
-- (void);
+- (id);
+- (id);
+- (void)$\;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *detentFeedback; // @synthesize detentFeedback=_detentFeedback;

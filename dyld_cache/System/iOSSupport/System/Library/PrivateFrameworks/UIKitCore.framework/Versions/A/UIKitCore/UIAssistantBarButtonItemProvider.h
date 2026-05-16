@@ -9,45 +9,46 @@
 }
 
 + (id);
++ (_Bool);
++ (void);
 + (id);
-+ (_Bool);
 + (id);
-+ (id)**** ENABLING TESTING MODE WHICH PRETENDS PREALLOCATION FAILS *********************;
 + (id);
 + (_Bool);
-+ (void)teType;
++ (id);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (void)×;
-+ (id)ý/º;
-+ (id)
-× ;
-+ (id)Ô!rð!TBùÅ1¢!0@ù
-× ;
-+ (_Bool)Ô ;
++ (void);
++ (void);
 + (id)0@ù
 × ;
-+ (id)@0:(id)arg1 8@16d24d32d40^{CGColor=}48^{CGColor=}56;
-+ (_Bool)resentationInPopover;
-+ (id)ionHandlers;
-+ (void)ardOnly;
-+ (id)olContentTransition;
-+ (_Bool)artRotationAnimation;
++ (_Bool)!xBù^1Â0@ù
+× ;
++ (_Bool)0@ù
+× ;
++ (_Bool)1Â0@ù
+× ;
++ (id)Ð!|Aùñf°1Â0@ù
+× ;
++ (id)edSegmentTintColor:(id)arg1;
++ (id)AllCombinationsOfModifiers:(id)arg1 translator: /* Error: Ran out of types for this method. */;
++ (id)aint;
 + (id);
-+ (void)
-ôØtD\;
-+ (_Bool)policy caches.;
-+ (id)r presentation controller.;
-+ (id)tringMarkedTextFromClient;
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (id)Â"\;
-+ (id)¬m(ÿ;
-+ (void)ÿ;
++ (_Bool)ithDestinationViewController:sender: /* Error: Ran out of types for this method. */;
++ (_Bool)eceiveEvent: /* Error: Ran out of types for this method. */;
++ (_Bool)ng:editable:selectable:draggable:textLayoutManagerEnabled: /* Error: Ran out of types for this method. */;
++ (void)@"UIImage",&,N,V_imageBeingSetByLoader;
++ (id)eCommandManagerP33_027C523F92F121A6DBA25987CE370D9F24IntelligenceCommandCache;
++ (void) ¿;
++ (id)etched for %@ already stored for %@. Cell:(long long)arg1 %@; Prefetched Cells:(id)arg2 %@;
++ (id)erface orientation change (orientation %lu->%lu);
++ (id)t 0.0, or UITableViewAutomaticDimension.;
++ (id)essionActionHeatMapPencilGestureReport;
++ (id)¬¯;
++ (id);
++ (_Bool);
++ (void)¼ÿbí;
++ (_Bool);
++ (void)`¼(q;
 
 @end
 

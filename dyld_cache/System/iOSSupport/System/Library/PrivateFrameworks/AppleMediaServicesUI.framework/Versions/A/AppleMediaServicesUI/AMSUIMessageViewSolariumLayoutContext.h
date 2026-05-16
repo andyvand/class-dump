@@ -75,11 +75,11 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGSize);
 - (id);
-- (unsigned long long);
 - (struct CGSize);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (double);
 - (double);
@@ -129,21 +129,21 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (double);
 - (struct CGRect);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (void);
 - (void);
 - (struct CGRect);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
-- (void);
+- (struct CGSize);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
-- (struct CGSize);
-- (struct CGSize);
-- (void)PromptGranularNotification;
+- (_Bool);
+- (void);
+- (void)erSupportedInterfaceOrientations: /* Error: Ran out of types for this method. */;
+- (struct CGSize)t3èdáÿ!t3tóõÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessorySecondaryViewFrame; // @synthesize accessorySecondaryViewFrame=_accessorySecondaryViewFrame;

@@ -13,13 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (_Bool);
-- (void)PDò;
-- (id)Ô ;
-- (id)eInsetsForEdge:bounds:minimumEdgeInsets: /* Error: Ran out of types for this method. */;
-- (id)ãEÿ;
-- (id);^;
+- (_Bool)Á!¬Cùb1Â0@ù
+× ;
+- (void)eSettingsDisplayDiffInspector;
+- (id)n;
+- (id);
+- (id)ÿRþÿ|Êîÿ;
+- (void)Òÿ27ÎDyc;
+- (id)`f;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *associatedLabel; // @synthesize associatedLabel=_associatedLabel;

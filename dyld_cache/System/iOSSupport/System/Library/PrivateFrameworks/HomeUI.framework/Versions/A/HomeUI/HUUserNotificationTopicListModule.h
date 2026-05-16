@@ -31,8 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)etails for item:%@ and instead presenting accessory controls for HMServiceGroup:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *bridgesItem; // @synthesize bridgesItem=_bridgesItem;

@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void)e:suggestedSize: /* Error: Ran out of types for this method. */;
+- (id)lementCGSgtc;
 
 // Remaining properties
 @property(retain, nonatomic) MUScrollableSegmentedPickerCategory *viewModel; // @synthesize viewModel=_viewModel;

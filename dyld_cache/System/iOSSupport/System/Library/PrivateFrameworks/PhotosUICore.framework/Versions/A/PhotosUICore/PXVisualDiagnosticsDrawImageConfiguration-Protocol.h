@@ -7,7 +7,7 @@
 @class NSString, UIImage;
 
 @protocol PXVisualDiagnosticsDrawImageConfiguration
-- (NSString *)%@) with URL (%@) with error:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)Coordinator;
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *image;

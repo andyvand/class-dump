@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)on;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISIncomingCallSnapshotDefinition *wrappedDefinition; // @synthesize wrappedDefinition=_wrappedDefinition;

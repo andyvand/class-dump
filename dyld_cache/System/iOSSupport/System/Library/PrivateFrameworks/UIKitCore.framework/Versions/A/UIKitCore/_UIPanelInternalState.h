@@ -31,54 +31,54 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)or:(struct _NSZone *)arg1;
-- (id)layInFrames;
-- (id)me;
-- (double)dwareButtonController",R,N;
-- (id)ading skipped [already loading];
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (double);
-- (void);
 - (id);
+- (id);
+- (double);
 - (void);
-- (long long);
 - (void);
-- (id)º;
-- (id)_º;
-- (long long)0@ù
+- (void);
+- (double);
+- (id);
+- (id);
+- (id);
+- (id)1Â0@ù
 × ;
-- (void)"NSArray"24@"NSArray"32;
-- (void)ettings:(id)arg1 fromCurrentState:actions:completion: /* Error: Ran out of types for this method. */;
-- (id)ltsUnderlapsSearchBar;
-- (id)orItem:(double)arg1;
-- (id)isScrollingToTop;
-- (id)dth;
-- (double)ISecureControl;
-- (void)	
-;
-- (id)z;
-- (double);
-- (id)UIBackdropEffectView;
+- (void)qcÐ1Â0@ù
+× ;
 - (void);
-- (void);
-- (void);
-- (void)onValueError;
-- (id)Î4|;
-- (void);
-- (id);
-- (void)Ï[;
+- (id)erUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
+- (void)ionView;
+- (id)ers:(double)arg1;
+- (id)ata;
+- (void)uggestionsTitle;
+- (long long)tentViewMarginType;
+- (id)yle;
 - (id);
-- (id)\;
-- (id);
-- (id)¨Åÿ;
-- (void)ìÈ];
-- (void)Æ;
-- (void)_;
-- (void)_;
+- (double)vc = %p; toggling column visibility on primary edge;
+- (void)+þÿ;
+- (id)figurationStyle);
+- (id)icationSignificantTimeChangeNotification;
+- (void)3Ül þm13Øl þm13äl þm13àl þ;
+- (void)ew;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIPanelAnimationState *animationState; // @synthesize animationState=_animationState;

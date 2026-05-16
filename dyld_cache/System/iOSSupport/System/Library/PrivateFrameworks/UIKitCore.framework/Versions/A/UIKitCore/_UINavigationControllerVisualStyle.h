@@ -12,21 +12,21 @@
     UINavigationController *_navigationController;
 }
 
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)c;
-- (void);
-- (_Bool)asÐ!ÌGù1Ç°1¢!0@ù
+- (void)
 × ;
-- (void)N^d56N^d64o^@72;
-- (void)guration;
-- (void)ÿÿ4;
-- (void);
+- (_Bool)IClickPresentation"32;
+- (id)lor;
+- (void)nsientCaches;
+- (void)illHideAlertController:(id)arg1;
+- (id)ContentBackgroundColor;
+- (void)llm;
+- (void)¤+;
+- (void)sEnvironment:(id)arg1 %@  from focusItemContainer:%@ with owningEnvironment:%@ /* Error: Ran out of types for this method. */;
+- (id)UIImageAccessibilityLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIViewControllerInteractiveTransitioning> interactionController;

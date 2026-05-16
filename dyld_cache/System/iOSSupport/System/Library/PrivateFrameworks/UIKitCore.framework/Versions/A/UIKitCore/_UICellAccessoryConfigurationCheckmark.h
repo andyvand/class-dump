@@ -10,9 +10,9 @@
 {
 }
 
-+ (_Bool)¢Zm;
-- (long long)ItemViewOwnerInternal;
-- (id)ordinator;
++ (_Bool)orward them;
+- (id)id _UIResponderChainStartCollectingDebugInfo(SEL _Nonnull);
+- (long long)dÿ%8ë;
 
 @end
 

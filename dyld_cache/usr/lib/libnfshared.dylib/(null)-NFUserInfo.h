@@ -9,7 +9,7 @@
 @interface (null) (NFUserInfo)
 - (id);
 - (void);
-- (void)R;
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);

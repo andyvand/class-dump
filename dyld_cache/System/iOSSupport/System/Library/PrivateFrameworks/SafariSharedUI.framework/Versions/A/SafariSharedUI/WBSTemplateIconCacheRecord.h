@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)eWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canSaveToDisk; // @synthesize canSaveToDisk=_canSaveToDisk;

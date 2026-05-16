@@ -16,13 +16,12 @@
 + (id);
 + (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
-- (void)B;
-- (id)veConfigurationFromDisk:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)1],1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void)r, forwarding to the Helper Service;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;

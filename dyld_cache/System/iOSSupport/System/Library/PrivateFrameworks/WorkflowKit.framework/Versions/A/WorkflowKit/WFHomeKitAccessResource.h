@@ -15,11 +15,11 @@
 
 - (void);
 - (id);
-- (unsigned long long);
 - (CDUnknownBlockType);
+- (unsigned long long);
+- (void)AttributionAppBundleIdentifier;
+- (void)andler:(CDUnknownBlockType)arg1;
 - (void);
-- (void);
-- (void)AO;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

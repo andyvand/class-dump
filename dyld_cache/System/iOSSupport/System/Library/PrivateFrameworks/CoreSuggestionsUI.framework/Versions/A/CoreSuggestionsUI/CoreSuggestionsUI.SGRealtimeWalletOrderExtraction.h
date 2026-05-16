@@ -11,8 +11,8 @@
 
 - (void);
 - (int);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int extractionSource; // @synthesize extractionSource;

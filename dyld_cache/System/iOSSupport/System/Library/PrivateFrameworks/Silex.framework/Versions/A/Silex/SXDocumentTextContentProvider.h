@@ -12,14 +12,14 @@
 }
 
 + (id);
+- (id);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool)Limit;
+- (void)"UIContextMenuConfiguration"40@0:8@"UIContextMenuInteraction"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
+- (id)ntLayoutResolver;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

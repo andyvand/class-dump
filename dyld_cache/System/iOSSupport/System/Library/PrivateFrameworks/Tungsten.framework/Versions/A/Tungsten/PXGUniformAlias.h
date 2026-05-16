@@ -22,16 +22,16 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (long long);
-- (struct CGImage *);
-- (void);
 - (id);
+- (id);
+- (struct CGImage *);
+- (const void *);
+- (id);
+- (id);
+- (float);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (const void *)etSprites;
-- (float)rdingSerializable>"8;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long index; // @synthesize index=_index;

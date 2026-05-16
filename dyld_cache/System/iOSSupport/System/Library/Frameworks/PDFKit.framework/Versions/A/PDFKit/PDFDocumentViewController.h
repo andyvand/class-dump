@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     PDFDocumentViewControllerPrivate *_private;
 }
 
-- (void)i;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,31 +36,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (void)ler>"16B24@"NSString"28;
-- (void)ker";
-- (void)ContactPicker"16@"CNContact"24;
-- (struct CGPoint)6@"NSURL"24@"NSIndexSet"32;
-- (struct CGPoint)ollectionView"16@"NSURL"24@"NSSet"32;
-- (id)UISystemAssistantExperienceViewController"16;
-- (void)6SiriUI26GMEnrollmentViewController";
-- (void)essionDataTask"24@"NSData"32;
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (struct CGPoint);
+- (id);
+- (void);
+- (void);
 - (double);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (double)legate;
-- (void)ine;
-- (id);
+- (void);
 - (id);
 - (void);
-- (void)olumn IMDSqlStatementColumnByName(IMDSqlStatement *, const char *);
-- (void)ks/SwiftData.framework/Versions/A/SwiftData;
-- (void);
-- (id)=dd}72@0:8{CGPoint=dd}16{CGPoint=dd}32{CGPoint=dd}48d64 /* Error: Ran out of types for this method. */;
-- (void)tNumber;
-- (id)-î;
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)removeObserver: /* Error: Ran out of types for this method. */;
+- (void)pmõÿæ¿Éà;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

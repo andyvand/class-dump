@@ -38,18 +38,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)reenCenter;
-- (id)n×§³;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <VKAnalyzerAnalyticsDelegate> _analyticsDelegate; // @synthesize _analyticsDelegate=__analyticsDelegate;

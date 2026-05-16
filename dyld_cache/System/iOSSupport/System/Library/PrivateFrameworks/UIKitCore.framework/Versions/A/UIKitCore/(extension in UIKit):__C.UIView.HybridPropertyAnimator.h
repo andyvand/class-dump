@@ -30,25 +30,24 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (long long)t: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)q!PFùÄÐ1¢!0@ù
-× ;
-- (long long)SettingPresentationValueForKey: /* Error: Ran out of types for this method. */;
-- (id)FocusContainerGuide",R,N,G_masterFocusContainerGuide,V_masterFocusContainerGuide;
-- (void)ion;
 - (void);
-- (double)öBÎ"p];
+- (void)rameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting;
+- (void);
+- (void)Y43|@;
+- (void)¡WÍÊ\;
+- (void)ôQ^;
 - (void);
+- (_Bool)ü#_;
+- (void);
+- (void)Wb;
+- (double)Ð!RÿÀÕ¼h;
+- (void)ÌíÑu m;
+- (_Bool)m;
 - (void);
-- (void)ð=;
 - (void);
-- (void)jëÇVFl;
-- (void)øJ`ÿj;
-- (void)ro;
-- (void)=r;
-- (_Bool)pà+ÿ;
-- (_Bool);
-- (void)è6¾ÿ2æÏîq;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _canAddAnimations;

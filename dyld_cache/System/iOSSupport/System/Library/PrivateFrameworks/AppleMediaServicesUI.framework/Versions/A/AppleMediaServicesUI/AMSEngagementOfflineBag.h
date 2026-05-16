@@ -24,6 +24,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -32,12 +35,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (id);
-- (id)g:(id)arg1;
-- (_Bool)nitialResult:updateAccumulatingResult: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);;
+- (void)mes;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

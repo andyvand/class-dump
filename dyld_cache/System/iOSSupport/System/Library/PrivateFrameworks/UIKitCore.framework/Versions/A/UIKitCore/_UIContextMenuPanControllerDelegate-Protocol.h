@@ -5,7 +5,5 @@
 //
 
 @protocol _UIContextMenuPanControllerDelegate
-- (void)`;
-- (void)ve;
 @end
 

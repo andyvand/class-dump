@@ -34,12 +34,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)äH8;
+- (void)y;
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC15ConversationKit19InCallControlButton *actionButton; // @synthesize actionButton;

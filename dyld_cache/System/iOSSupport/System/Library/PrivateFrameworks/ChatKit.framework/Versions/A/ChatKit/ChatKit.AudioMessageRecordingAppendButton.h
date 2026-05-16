@@ -17,11 +17,11 @@
     MISSING_TYPE *textColor;
 }
 
-- (void)=;
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize);
+- (void);
 
 @end
 

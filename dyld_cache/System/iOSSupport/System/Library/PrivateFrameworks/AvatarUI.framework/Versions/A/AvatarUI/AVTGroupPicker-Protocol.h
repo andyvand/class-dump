@@ -8,8 +8,7 @@
 @protocol AVTGroupPickerDelegate;
 
 @protocol AVTGroupPicker
-- (id)onTypeDict_IntegerFormat_withUnit_mJ;
-- (id <AVTGroupPickerDelegate>)rked for delivery account:%@ /* Error: Ran out of types for this method. */;
+- (void)tarAttributeEditorSection>"8;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTGroupPickerDelegate> delegate;

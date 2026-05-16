@@ -5,6 +5,5 @@
 //
 
 @protocol MFExternalPlaybackController
-- (void);
 @end
 

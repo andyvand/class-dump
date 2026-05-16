@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (_Bool);
 - (id);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool animate; // @synthesize animate=_animate;

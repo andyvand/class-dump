@@ -9,11 +9,9 @@
 @protocol BEExtendedTextInputTraits
 
 @optional
-- (_Bool);
-- (UIColor *)Ap°!ô@ùñÂ°1¢!0@ù
-× ;
 - (_Bool)
 × ;
+- (UIColor *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *insertionPointColor;

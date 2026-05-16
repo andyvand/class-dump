@@ -12,14 +12,14 @@
     id <_UINavigationControllerVisualStyleProviding> _visualStyleProvider;
 }
 
-+ (id)!©ÿp;
-- (id);
-- (void);
-- (id)an^^^;
++ (id)NáÿÑk;
 - (void);
-- (void)Ô¡sÐ!°DùqÇð1¢!0@ù
+- (void);
+- (id);
+- (id)0@ù
 × ;
-- (id)nteraction: /* Error: Ran out of types for this method. */;
+- (id)Ð[t\;
+- (void)µë;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

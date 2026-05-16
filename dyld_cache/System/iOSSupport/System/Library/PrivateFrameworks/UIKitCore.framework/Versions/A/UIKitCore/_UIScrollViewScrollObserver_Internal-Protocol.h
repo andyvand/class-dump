@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol _UIScrollViewScrollObserver_Internal
 
 @optional
-- (void);
-- (void);
-- (struct UIEdgeInsets)ngPacket:(UIScrollView *)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void),N,V_preferredDuration;
+- (void);
 @end
 

@@ -5,11 +5,5 @@
 //
 
 @protocol _UIViewService_FencingControlInterface
-
-@optional
-- (void)eleteMessagesZone;
-- (void)ssageSyncToken;
-- (void)Token;
-- (void)baseNoLongerFull;
 @end
 

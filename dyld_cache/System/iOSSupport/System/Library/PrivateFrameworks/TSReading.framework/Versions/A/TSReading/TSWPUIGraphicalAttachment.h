@@ -12,10 +12,10 @@
 
 - (_Bool);
 - (id);
-- (int);
-- (double);
-- (struct CGSize);
 - (void);
+- (struct CGSize);
+- (int);
+- (double)td::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double baselineOffset;

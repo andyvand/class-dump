@@ -30,17 +30,17 @@
     unsigned long long _vibrantOptions;
 }
 
-+ (id),p;
++ (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)R;
+- (void);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void)otificationForAccount: /* Error: Ran out of types for this method. */;
-- (id)stAddressedSIMID:joinProperties: /* Error: Ran out of types for this method. */;
-- (void)terExtensionNameForDeviceID: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -48,38 +48,36 @@
 - (double);
 - (_Bool);
 - (id);
-- (struct CGColor *)%@;
-- (double)rver bag results for max stereo video %lu default(%@);
-- (id)uality image mode on. Forcing size limit to be %@;
-- (struct CGSize)d transfer %@ with low quality image mode on. Forcing size limit to be %@;
-- (id)hmentSendableUTIs got dict %@ from %@;
-- (struct UIEdgeInsets)tionForPersonIdentity returning:%@ /* Error: Ran out of types for this method. */;
-- (id)the mentioned identity, and it is a valid alias:(unsigned long long)arg1 %@;
-- (double)nd a matching handle for the mentioned identity, and it is a valid alias:%@ /* Error: Ran out of types for this method. */;
-- (void)om a device that we do not recognize;
-- (id)ed an Enroll me Request from a device that we do not recognize;
-- (_Bool)ickname, updating name;
+- (struct CGColor *);
+- (double);
+- (id);
+- (struct CGSize);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (double);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (id)tent;
-- (void);
-- (void);
-- (void);
-- (id)
-× ;
-- (void)Í°1¢!0@ù
-× ;
-- (id)Ô¡xÐ!DAù1Î1¢!0@ù
-× ;
-- (void)d}88{CGRect={CGPoint=dd}{CGSize=dd}}104B136d140;
-- (id)ype;
-- (id)neBackgroundPlacementCG;
-- (id))³;
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)°!TFùdÐ1Â0@ù
+× ;
+- (void)rColorForEnabled:(id)arg1;
+- (id)pension;
+- (id);
+- (void)X3¬5L6;
+- (id)to more than one view (->%@) at a time, this was never allowed, and is now enforced. Beginning with iOS 9.0 it will be put in the first view it is loaded into.;
+- (id)SelectionDuringEditing;
+- (void)3Ù¤];
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType buttonAction; // @synthesize buttonAction=_buttonAction;

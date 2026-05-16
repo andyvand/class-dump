@@ -5,10 +5,5 @@
 //
 
 @protocol CKConversationListCollectionViewCellDelegate
-- (_Bool)#;
-
-@optional
-- (void)ine;
-- (double);
 @end
 

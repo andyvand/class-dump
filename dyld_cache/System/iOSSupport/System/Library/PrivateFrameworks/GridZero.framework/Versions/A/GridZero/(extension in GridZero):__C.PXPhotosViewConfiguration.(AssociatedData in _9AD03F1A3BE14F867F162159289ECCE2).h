@@ -14,8 +14,8 @@
     MISSING_TYPE *assetCountPlacement;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

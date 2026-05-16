@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)tifier:(float)arg1;
-- (float)fier:domain:style:everOnServices: /* Error: Ran out of types for this method. */;
+- (void);
+- (float);
 - (_Bool);
-- (id)tainerViewController;
-- (id)z(c;
+- (id);
+- (id)InTabBar:(struct CGRect)arg1;
 
 // Remaining properties
 @property(nonatomic) float overlayLevel; // @synthesize overlayLevel=_overlayLevel;

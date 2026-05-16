@@ -5,9 +5,5 @@
 //
 
 @protocol IMDLegacyMessageQueries
-- (void);
-- (void)#;
-- (void);
-- (void)(i `@L` ` ``;
 @end
 

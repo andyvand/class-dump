@@ -16,14 +16,14 @@
 
 - (void);
 - (void);
-- (id)=;
-- (void)<;
-- (id);;
-- (id)<;
-- (void);
 - (id);
 - (void);
-- (id)ecutionObserverStore=;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)XAúÿdAúÿ@BúÿdBúÿ BúÿÔBúÿøBúÿ4CúÿhDúÿLEúÿ¼EúÿìEúÿÈFúÿDGúÿhGúÿ¤Gúÿ(HúÿHúÿ(IúÿlJúÿJúÿKúÿ(KúÿLKúÿKúÿTLúÿMúÿLMúÿèMúÿôMúÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject *appKitWindow; // @synthesize appKitWindow=_appKitWindow;

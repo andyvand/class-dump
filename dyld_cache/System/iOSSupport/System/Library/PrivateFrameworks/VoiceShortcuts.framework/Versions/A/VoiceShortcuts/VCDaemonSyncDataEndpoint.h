@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSSet, NSString, SwiftVCDaemonXPCEventHandler;
+@class NSMutableSet, NSObject, NSSet, NSString;
 @protocol OS_dispatch_queue;
 
 @interface VCDaemonSyncDataEndpoint
 {
     NSObject<OS_dispatch_queue> *_queue;
-    SwiftVCDaemonXPCEventHandler *_eventHandler;
     NSMutableSet *_mutableSyncDataHandlers;
 }
 
@@ -19,7 +18,6 @@
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -27,7 +25,6 @@
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SwiftVCDaemonXPCEventHandler *eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableSet *mutableSyncDataHandlers; // @synthesize mutableSyncDataHandlers=_mutableSyncDataHandlers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

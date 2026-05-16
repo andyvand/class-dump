@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (void)¡Tæ|;
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)X;
 
 // Remaining properties
 @property(retain, nonatomic) id <TUIInputAccessoryViewTraits> inputAccessoryViewTraits; // @synthesize inputAccessoryViewTraits=_inputAccessoryViewTraits;

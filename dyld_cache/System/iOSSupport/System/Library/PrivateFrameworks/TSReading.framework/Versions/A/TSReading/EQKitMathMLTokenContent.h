@@ -11,9 +11,9 @@
     NSArray *mChildren;
 }
 
-- (id);
 - (void);
-- (id)ä;
+- (id);
+- (id)ount:(id)arg1 footnoteMarkProvider:styleProvider:colorOverride: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *children; // @synthesize children=mChildren;

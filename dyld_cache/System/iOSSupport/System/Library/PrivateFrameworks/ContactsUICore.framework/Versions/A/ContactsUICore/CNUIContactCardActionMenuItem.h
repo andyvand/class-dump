@@ -24,10 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)1B50@ù
+× ;
+- (void)ngPathComponent:isDirectory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIUserActionItem *actionItem; // @synthesize actionItem=_actionItem;

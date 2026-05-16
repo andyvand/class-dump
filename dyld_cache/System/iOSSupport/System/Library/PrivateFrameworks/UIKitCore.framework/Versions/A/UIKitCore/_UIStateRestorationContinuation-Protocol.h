@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCoder;
-
 @protocol _UIStateRestorationContinuation
-
-@optional
-- (void (^)(void))WithQOINoChat:(NSCoder *)arg1;
 @end
 

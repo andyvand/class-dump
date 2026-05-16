@@ -11,17 +11,16 @@
 }
 
 - (id);
-- (id)	
-;
-- (id);
-- (id)¹¹;
-- (id)¤Ø[;
 - (id);
-- (id)alLight;
-- (id)íÿPÆ.ÿó	;
-- (id).PuzzleTypeLinkPresentationSource;
-- (id)É´ÐþuÉ´lþeÉ´ôþ;
-- (id)Tß;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)x;
+- (id)ager;
+- (id)Create Packageâ¦;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *currentIssueIDs;

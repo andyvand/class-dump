@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)saveCurationInFolder;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,19 +13,19 @@
     long long _state;
 }
 
-+ (_Bool)6BB765291;
++ (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (long long);
 - (id);
+- (void);
+- (void);
 - (id);
-- (id)tWithObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)%{public}@Failed to save asset with error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;

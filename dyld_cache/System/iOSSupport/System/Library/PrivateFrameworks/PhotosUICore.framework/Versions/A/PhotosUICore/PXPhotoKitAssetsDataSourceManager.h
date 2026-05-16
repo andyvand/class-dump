@@ -93,17 +93,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
-- (void)ordForAssetCollection:(id)arg1;
-- (id)ComponentProvider;
-- (void)n5;
-- (id)Ü©ÿOµ6;
+- (id);
+- (void)ileIdentifier=Q[10Q]}40;
+- (void)sRecoverySettings;
+- (_Bool)UÍ¶j+ûÿ®/ûÿÄ;
+- (id)ionProcessingValuesReviewFetchResultForPhotoLibrary(PHPhotoLibrary *__strong _Nonnull);
+- (void)server<PXMutableSystemAuthenticationTypeObserver>"8;
+- (void)I¼ÆÐúÿ;
+- (void)1U;
+- (id);
 
 // Remaining properties
 @property(nonatomic, setter=_setLoadingInitialPhotosDataSource:) _Bool _isLoadingInitialPhotosDataSource; // @synthesize _isLoadingInitialPhotosDataSource=__isLoadingInitialPhotosDataSource;

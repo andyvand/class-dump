@@ -45,10 +45,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (_Bool);
 - (id);
 - (void);
+- (void)entifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;

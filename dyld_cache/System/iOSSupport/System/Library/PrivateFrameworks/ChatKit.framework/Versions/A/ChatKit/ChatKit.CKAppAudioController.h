@@ -11,11 +11,13 @@
     CKAudioController *audioController;
 }
 
-+ (id)î;
-- (void)is too large to lock. You need to remove or reduce attachments and other content, then try again.;
-- (id);
++ (id);
 - (void);
 - (id);
+- (id);
+- (void)¼ð¬ÿ
+k¬ð¬ÿ-
+kT¤¬ÿ;
 
 // Remaining properties
 @property(nonatomic, retain) CKAudioController *audioController; // @synthesize audioController;

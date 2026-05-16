@@ -118,35 +118,35 @@
 - (void);
 - (long long);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
+- (CDStruct_1b6d18a9);
+- (void);
 - (id);
+- (void);
+- (void);
+- (struct CGSize);
 - (id);
-- (id);
-- (id);
+- (void);
 - (float);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (CDStruct_1b6d18a9)del"16@"PUToolbarViewModelChange"24;
-- (CDStruct_1b6d18a9)qualToLayoutInfo: /* Error: Ran out of types for this method. */;
-- (void)ration:(id)arg1 animator: /* Error: Ran out of types for this method. */;
-- (id)ectSessionCancelBarButtonItem;
-- (_Bool)gBehavior;
-- (struct CGSize)ngEffect,V_previewingSettlingEffect;
-- (_Bool)ÔLhM;
-- (_Bool)Coordinator;
-- (void)áÿ;
-- (void)×;
-- (id)Ö.;
+- (CDStruct_1b6d18a9);
+- (_Bool);
+- (void);
+- (id);
+- (void)teractionEnded;
+- (_Bool)nputValue: /* Error: Ran out of types for this method. */;
+- (void)ates;
+- (id)rSpec;
+- (void)Ä ¨;
+- (_Bool)REPARATION_CMM_NETWORK_ERROR_TITLE;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, setter=_setUpdatingAudioSession:) _Bool _isUpdatingAudioSession; // @synthesize _isUpdatingAudioSession=__isUpdatingAudioSession;

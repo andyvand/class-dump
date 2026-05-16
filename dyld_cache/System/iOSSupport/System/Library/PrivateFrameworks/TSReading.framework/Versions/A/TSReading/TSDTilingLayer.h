@@ -29,20 +29,20 @@
     id <TSDTileGeometryProviding> _geometryProvider;
 }
 
-+ (struct CGImage *)!;
++ (struct CGImage *);
 + (struct CGImage *);
 + (struct CGSize);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long)8	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
@@ -50,24 +50,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (int)$;
-- (void)O;
-- (void);
+- (int);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)0@ù
-× ;
-- (void)gResize;
-- (void)ChartSeriesErrorBarLineEndScatterXProperty;
+- (void);
+- (void);
+- (void);
+- (void)  ;
+- (void)oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDDrawableInfo.m;
 
 // Remaining properties
 @property(nonatomic) _Bool drawsInBackground;

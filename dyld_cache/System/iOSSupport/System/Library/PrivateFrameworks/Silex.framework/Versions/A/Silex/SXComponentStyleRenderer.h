@@ -49,14 +49,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)C;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -79,9 +79,9 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)40@0:8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24@"UIGestureRecognizer"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SXShapeLayer *borderLayer; // @synthesize borderLayer=_borderLayer;

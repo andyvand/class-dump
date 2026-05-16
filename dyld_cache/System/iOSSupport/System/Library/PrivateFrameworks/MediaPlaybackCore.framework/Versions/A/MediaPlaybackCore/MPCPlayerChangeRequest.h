@@ -17,15 +17,15 @@
 + (void);
 + (void);
 + (void);
-- (void);
-- (id)n timed out!;
 - (void);
-- (id)eKey;
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id)@;
+- (void);
+- (void)â­ samples:%ld; glitches:%ld; thermalLevel:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *commands; // @synthesize commands=_commands;

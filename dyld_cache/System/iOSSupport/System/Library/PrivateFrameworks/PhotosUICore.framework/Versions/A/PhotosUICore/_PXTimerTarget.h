@@ -13,9 +13,9 @@
 - (void);
 - (id);
 - (void);
-- (void)0e;
-- (SEL)¼ì¼t¿°ÃÔÊ¤Ë;
-- (void)tificationItem;
+- (SEL)Portrait;
+- (void)asized;
+- (void);
 
 // Remaining properties
 @property(nonatomic) SEL selector; // @synthesize selector=_selector;

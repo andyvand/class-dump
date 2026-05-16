@@ -15,14 +15,14 @@
     MISSING_TYPE *eventManager;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)UIStatusBarStyle;
+- (void);
+- (void);
+- (void);
+- (void)ecker;
+- (void)NewsArticles.AdComponentSizerFactory;
 
 @end
 

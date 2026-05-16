@@ -17,14 +17,14 @@
 - (id);
 - (id);
 - (double);
-- (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id)ngIdentifier: /* Error: Ran out of types for this method. */;
-- (void)(%d);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)nt prior visits found for LOI:%@ and day of week:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

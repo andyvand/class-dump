@@ -26,15 +26,14 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
+- (_Bool);
 - (id);
-- (id)°1b0@ù
-× ;
-- (id)one;
+- (void)ÿô;
+- (id)idify;
+- (id)#(ùä;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *colors;

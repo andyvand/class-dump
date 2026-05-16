@@ -31,10 +31,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)omePod and Supports MU = %d;
-- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItems; // @synthesize allItems=_allItems;

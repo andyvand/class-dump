@@ -16,10 +16,10 @@
 }
 
 - (id);
-- (void);
-- (long long);
 - (id);
-- (id)d:ignoring putComplete file error %@ for invalid item. sig:%s ref:%s /* Error: Ran out of types for this method. */;
+- (void)PING_MISSING__;
+- (id),N,V_isAssetLoaded;
+- (long long)r MPModelPropertyAlbumSuperHeroTallEditorialArtwork;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

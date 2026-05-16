@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)Ð;
+- (void);
+- (void)áZ_§þ;
 
 @end
 

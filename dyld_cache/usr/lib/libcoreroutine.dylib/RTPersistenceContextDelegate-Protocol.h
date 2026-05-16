@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, RTPersistenceContext;
-
 @protocol RTPersistenceContextDelegate
-- (_Bool)nagedPairingMode;
-- (void)ppedDestinations:(RTPersistenceContext *)arg1 registrationPropertyToDestinations:(NSError *)arg2 ];
 @end
 

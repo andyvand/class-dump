@@ -32,13 +32,13 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (CDUnknownBlockType);
-- (id)age;
-- (void)mManager:(id)arg1 collectionViewLayout: /* Error: Ran out of types for this method. */;
-- (void)__ÅwAHyAE£wGtGG;
+- (CDUnknownBlockType)ertForHH2Upgrade:withHome:viewContext:delegate:presentationDelegate: /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (void)HUUtilityOnboardingEnterOTP_CodeInvalid_Title;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUTriggerEditorDelegate> delegate; // @synthesize delegate;

@@ -14,6 +14,7 @@
     MISSING_TYPE *_isReady;
     MISSING_TYPE *_excludedLocale;
     MISSING_TYPE *suggestedLocales;
+    MISSING_TYPE *disambiguationLocales;
     MISSING_TYPE *preferredLanguages;
     MISSING_TYPE *_currentSelectedLocale;
     MISSING_TYPE *modelMap;

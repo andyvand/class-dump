@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (id);
-- (void)ainFrameOnly: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)tûÿ;
+- (void)ù;
 
 @end
 

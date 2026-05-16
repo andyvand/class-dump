@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol AVTAvatarAttributeEditorSectionSupplementalPickerItem
-- (NSString *)/Versions/A/BackgroundSystemTasks;
-- (_Bool)dd}{CGSize=dd}},N,V_avatarContainerFrame;
-- (NSString *)84X5à5;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedDescription;

@@ -24,12 +24,12 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (struct __IOSurface *);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (id);
+- (void);
+- (id)ÿs::ÿ{::ÿ::ÿ::ÿ::ÿ::ÿ¥::ÿ­::ÿµ;:ÿ½;;ÿÅ;;ÿÎ;;ÿÖ;;ÿÞ<;ÿæ<;ÿï<<ÿ÷=<ÿÿ=<ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool allowCompressed; // @synthesize allowCompressed=_allowCompressed;

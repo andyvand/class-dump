@@ -30,6 +30,7 @@
     _Bool _eventLogEnabled;
     _Bool _didOnboardEventLog;
     _Bool _supportsResidentSelection;
+    _Bool _dedicatedTopicStatusChannelEnabled;
     _Bool _ownerUser;
     _Bool _adminUser;
     _Bool _notificationEnableRequested;

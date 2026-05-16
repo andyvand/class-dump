@@ -30,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)s.SetUp.DoNotUseLinkButton;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *addButtonItem;

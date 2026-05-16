@@ -22,12 +22,12 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
 - (long long);
-- (void);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void)es not exceed required minimum interval, %.2f;
 
 // Remaining properties
 @property(retain, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

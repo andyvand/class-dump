@@ -27,12 +27,12 @@
     IMDistributingProxy *_remoteDaemonProxy;
 }
 
-+ (id);
 + (void);
 + (id);
++ (id)¾Êÿÿ|r;
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -56,12 +56,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)ylib;
-- (void)amework/Versions/A/CoreAnalytics;
+- (_Bool);
 - (void);
 - (void);
-- (_Bool)g;
-- (unsigned long long)c_except_tab__TEXT;
+- (void);
+- (_Bool);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
@@ -69,31 +69,31 @@
 - (void);
 - (id);
 - (id);
-- (id)es;
-- (id)ry/BuildRoots/4~CJtcugBX4pFOe55FdDEAiiTwhDstBNurrfNzWAY/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteRenderingBackend.cpp 397:(id)arg1 Invalid message dispatched %{public}s:(unsigned long long)arg2 NativeImage released before being cached.;
-- (unsigned long long)?;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct os_unfair_lock_s);
-- (void);
 - (void);
 - (id);
-- (_Bool);
+- (void);
 - (unsigned int);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void)A;
 - (id);
 - (void);
-- (void)<a;
-- (id)_loginIMHandles;
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (unsigned int);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
+- (struct os_unfair_lock_s)icateWithSubpredicates: /* Error: Ran out of types for this method. */;
+- (void)ü'3;
 
 // Remaining properties
 @property(nonatomic, setter=_setBlocksConnectionAtResume:) _Bool _blocksConnectionAtResume; // @synthesize _blocksConnectionAtResume=__blocksConnectionAtResume;

@@ -5,6 +5,7 @@
 //
 
 @protocol MFAssetLoadingTask
+- (_Bool)hutdownSequenceStartDate;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isCancelled;

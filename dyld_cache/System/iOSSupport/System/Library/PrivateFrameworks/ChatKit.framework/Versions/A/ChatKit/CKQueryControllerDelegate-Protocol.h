@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKQueryController, NSArray, NSString;
-
 @protocol CKQueryControllerDelegate
-- (NSArray *)ilterAttachmentsForPrintingInAttributedString:(CKQueryController *)arg1 textContainer: /* Error: Ran out of types for this method. */;
-- (void)xt:(CKQueryController *)arg1 completion: /* Error: Ran out of types for this method. */;
-- (NSArray *)rkdownStringFromPlainMarkdown:(CKQueryController *)arg1 error: /* Error: Ran out of types for this method. */;
-- (NSArray *)ary;
-- (CKConversation *)Index:(CKQueryController *)arg1 longestEffectiveRange:(NSString *)arg2 inRange: /* Error: Ran out of types for this method. */;
-- (unsigned long long)"ICTableAttachmentSelection",R,N,V_tableSelection;
 @end
 

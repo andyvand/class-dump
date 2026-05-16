@@ -21,29 +21,29 @@
 }
 
 + (id);
-- (void)nt tombstones for recordIDs:(id)arg1 %s;
-- (void)w afterRow %@;
-- (void)te/fetch from CloudKit;
-- (void)d to delete;
-- (void)do here:(id)arg1 %@;
-- (void)ists for the other session, nothing to do here:(double)arg1 %@;
-- (void)ind iMessage chat.;
-- (void)e to use the Dominent phone number alias, thats awesome, lets go for it;
-- (void)one number one if possible ;
-- (void)we are going to use the Dominent phone number one if possible ;
-- (id)duplicates %@;
-- (id)ow;
-- (double)rforming first unlock as if we did just now;
-- (id)pgrade;
-- (id)sage;
-- (double)ocal-incomming-message;
-- (id)al-outgoing-download-message;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (double);
-- (id)<';
-- (void);
-- (void)ltLayoutMargins: /* Error: Ran out of types for this method. */;
-- (id)ivityTimestamp;
+- (id);
+- (id);
+- (double);
+- (id);
+- (id);
+- (double);
+- (id);
+- (void)setHideSearchBar: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)6dÔT²l;
 
 // Remaining properties
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *collapseFinalSpring; // @synthesize collapseFinalSpring;

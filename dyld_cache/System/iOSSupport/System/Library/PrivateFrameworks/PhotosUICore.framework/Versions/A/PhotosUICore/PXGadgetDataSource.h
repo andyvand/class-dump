@@ -29,11 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (long long)! Fùx°1b0@ù
+- (long long)ü°!`FùJ°1â
+0@ù
 × ;
 - (long long);
+- (void)àQ[ÿ`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *gadgetSections; // @synthesize gadgetSections=_gadgetSections;

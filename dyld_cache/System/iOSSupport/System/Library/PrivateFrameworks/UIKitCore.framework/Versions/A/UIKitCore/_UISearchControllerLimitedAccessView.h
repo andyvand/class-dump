@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ure:(id)arg1;
-- (id)pþÿÿR;
-- (_Bool);
-- (id);
+- (id)ndow:(struct CGRect)arg1;
+- (_Bool)9þÿ9þÿ9þÿõþÿ;
+- (id)x;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *backButton; // @synthesize backButton=_backButton;

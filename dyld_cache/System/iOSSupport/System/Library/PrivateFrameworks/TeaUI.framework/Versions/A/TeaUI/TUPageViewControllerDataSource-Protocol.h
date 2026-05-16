@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @protocol TUPageViewControllerDataSource
-- (UIViewController *)6;
 @end
 

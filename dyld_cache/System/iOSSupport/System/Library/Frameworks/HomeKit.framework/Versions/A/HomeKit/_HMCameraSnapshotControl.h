@@ -15,7 +15,7 @@
     id <_HMCameraSnapshotControlDelegate> _delegate;
 }
 
-+ (id)",R,C,N,V_endpointID;
++ (id):enableNFCExpress:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -30,10 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)dictionControllerDelegate>",W,V_delegate;
 
 // Remaining properties
 @property __weak id <_HMCameraSnapshotControlDelegate> delegate; // @synthesize delegate=_delegate;

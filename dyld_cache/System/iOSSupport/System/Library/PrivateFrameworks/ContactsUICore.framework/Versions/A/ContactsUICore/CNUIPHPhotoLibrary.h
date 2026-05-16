@@ -13,7 +13,7 @@
 
 + (_Bool);
 + (id);
-+ (_Bool)R,N,V_options;
++ (_Bool);
 - (id);
 - (id);
 - (id);

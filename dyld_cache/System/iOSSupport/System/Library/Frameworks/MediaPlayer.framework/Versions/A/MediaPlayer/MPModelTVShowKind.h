@@ -13,18 +13,18 @@
     MPModelTVSeasonKind *_seasonKind;
 }
 
-+ (id)dPath:(id)arg1 typeRawValue:convertedTypeRawValue:sqliteContext:error: /* Error: Ran out of types for this method. */;
-+ (id)n;
-+ (_Bool)p> Adding <MPHomeUserMonitor %p> userID=%{private}@ uniqueIdentifier=%{private}@;
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long)- chatGUID:%@, threadIdentifier:%@, threadOriginator:%@, chatItems count:%lu /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void)ition;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelTVSeasonKind *seasonKind; // @synthesize seasonKind=_seasonKind;

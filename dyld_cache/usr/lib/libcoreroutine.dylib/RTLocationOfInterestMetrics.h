@@ -17,12 +17,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (int)f;
+- (int);
 - (id);
-- (id);
 - (id);
-- (void);
-- (id)lowsUnsafeSocketAccess;
+- (id);
+- (id);
+- (void)available, data is not published;
 
 @end
 

@@ -19,20 +19,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @dynamic actions;

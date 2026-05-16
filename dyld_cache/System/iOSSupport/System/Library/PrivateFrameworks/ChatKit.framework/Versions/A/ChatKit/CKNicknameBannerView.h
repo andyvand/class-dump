@@ -13,17 +13,16 @@
     UIView *_swiftBanner;
 }
 
-- (id)_setShouldDownloadMediaSubresources: /* Error: Ran out of types for this method. */;
-- (void)achmentsManagerAttachmentInfo;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (void)ü®yAAyAAy ®yAS_Qo_AVGAMG_Qo_AIGGAAyAHyAiDyAAyù®yA2__Qo_AVG_AEySaySo8IMHandleCGSSAAyAAyAJyADyA0__A4_tGGAVGAMGGtGAIGATyV®GGSgtGG_)
-®Qo_ATy~®GG×x­yÁ®SgGG;
-- (struct CGSize)n was not found last in visible plugins list! Found %@ instead.;
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *nicknameUpdates; // @synthesize nicknameUpdates=_nicknameUpdates;

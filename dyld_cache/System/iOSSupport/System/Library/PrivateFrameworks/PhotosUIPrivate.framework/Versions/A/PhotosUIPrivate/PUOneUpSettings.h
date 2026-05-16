@@ -96,7 +96,6 @@
     long long _chromeAutoHideBehaviorOnPlayButton;
     long long _chromeAutoHideBehaviorOnZoom;
     double _chromeAutoHideDelay;
-    double _chromeTimedAutoHideAnimationDuration;
     long long _chromeAnimationType;
     long long _chromeBackgroundAnimationType;
     double _interpageSpacing;
@@ -153,8 +152,7 @@
 }
 
 + (id);
-+ (id)Èdüs
-;
++ (id)RequestId;
 - (_Bool);
 - (double);
 - (double);
@@ -336,7 +334,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -386,7 +383,6 @@
 - (long long);
 - (unsigned long long);
 - (double);
-- (double);
 - (long long);
 - (long long);
 - (long long);
@@ -416,18 +412,18 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (double);
 - (double);
 - (_Bool);
 - (unsigned long long);
@@ -440,16 +436,16 @@
 - (void);
 - (double);
 - (double);
-- (void);
-- (long long);
-- (void);
-- (double);
-- (void);
-- (void);
-- (double);
-- (_Bool);
 - (void);
 - (id);
+- (long long);
+- (void);
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (double);
+- (void)tiveTransform;
 
 // Remaining properties
 @property(nonatomic) double accessoryInitialTopPosition; // @synthesize accessoryInitialTopPosition=_accessoryInitialTopPosition;
@@ -485,7 +481,6 @@
 @property(nonatomic) double chromeAutoHideDelay; // @synthesize chromeAutoHideDelay=_chromeAutoHideDelay;
 @property(nonatomic) long long chromeBackgroundAnimationType; // @synthesize chromeBackgroundAnimationType=_chromeBackgroundAnimationType;
 @property(nonatomic) double chromeDefaultAnimationDuration; // @synthesize chromeDefaultAnimationDuration=_chromeDefaultAnimationDuration;
-@property(nonatomic) double chromeTimedAutoHideAnimationDuration; // @synthesize chromeTimedAutoHideAnimationDuration=_chromeTimedAutoHideAnimationDuration;
 @property(nonatomic) unsigned long long debuggingBadges; // @synthesize debuggingBadges=_debuggingBadges;
 @property(nonatomic) unsigned long long debuggingBadgesWhenFavorite; // @synthesize debuggingBadgesWhenFavorite=_debuggingBadgesWhenFavorite;
 @property(nonatomic) long long debuggingTitleType; // @synthesize debuggingTitleType=_debuggingTitleType;

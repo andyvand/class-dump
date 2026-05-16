@@ -5,9 +5,5 @@
 //
 
 @protocol _UIPreviewInteractionControllerDelegate
-
-@optional
-- (void);
-- (void)i;
 @end
 

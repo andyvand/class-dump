@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     struct CGPoint _point;
 }
 
-- (id)};
-- (void);
+- (id);
 - (void);
 - (double);
-- (struct CGPoint)aderFooterView:isHeader:forSection: /* Error: Ran out of types for this method. */;
+- (void)AnimationsInFlightOrPending;
+- (struct CGPoint)UCLoLa;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint point; // @synthesize point=_point;

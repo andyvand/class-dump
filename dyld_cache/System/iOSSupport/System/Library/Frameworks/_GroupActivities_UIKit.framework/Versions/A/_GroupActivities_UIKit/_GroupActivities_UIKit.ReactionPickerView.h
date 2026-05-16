@@ -16,14 +16,14 @@
 }
 
 - (void);
+- (struct CGSize);
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

@@ -7,7 +7,6 @@
 @class SXStrokeStyle;
 
 @protocol SXConditionalLineComponentProperties
-- (SXStrokeStyle *);
 
 // Remaining properties
 @property(readonly, nonatomic) SXStrokeStyle *stroke;

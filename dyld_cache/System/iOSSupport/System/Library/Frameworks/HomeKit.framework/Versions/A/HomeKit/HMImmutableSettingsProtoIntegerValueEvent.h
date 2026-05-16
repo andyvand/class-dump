@@ -10,18 +10,18 @@
     CDStruct_01ef6375 _has;
 }
 
-- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 - (void);
 - (id);
+- (long long);
 - (id);
 
 // Remaining properties

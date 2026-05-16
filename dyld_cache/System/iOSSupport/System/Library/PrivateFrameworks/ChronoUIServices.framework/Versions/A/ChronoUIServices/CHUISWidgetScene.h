@@ -10,38 +10,38 @@
 {
 }
 
-- (long long);
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (double);
-- (_Bool);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool)g;
-- (id)trol set state succeeded (new state %{bool,public}d);
+- (id)y",R,C,N,V_outerLabelData;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *additionalSnapshotPresentationContext;

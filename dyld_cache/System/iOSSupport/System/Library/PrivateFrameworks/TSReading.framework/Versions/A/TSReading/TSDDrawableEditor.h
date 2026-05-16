@@ -19,20 +19,20 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id));
 - (id);
 - (id);
 - (id);
-- (id)9;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,13 +40,13 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void));
+- (void);
 - (int);
 - (void);
 - (void);
-- (void)a;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -62,8 +62,8 @@
 - (void);
 - (id);
 - (id);
-- (void)s:(id)arg1 andIsCheckbox: /* Error: Ran out of types for this method. */;
-- (id)lStyleSet *, TSTTableDataListKey);
+- (void)orPreset:(id)arg1 andTableArea: /* Error: Ran out of types for this method. */;
+- (id)ÿ_ÆZiÕ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

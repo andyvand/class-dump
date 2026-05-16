@@ -20,15 +20,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)aÓ°!ôDùqÒ°1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;

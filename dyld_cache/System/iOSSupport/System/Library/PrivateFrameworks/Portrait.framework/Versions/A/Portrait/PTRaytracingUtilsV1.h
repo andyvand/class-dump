@@ -30,8 +30,7 @@
 + (struct PTNoiseValues);
 + (struct PTFocusEdge);
 + (float);
-+ (float)!Lð!èFù1Nð1b0@ù
-× ;
++ (float);
 - (id);
 - (id);
 - (void);

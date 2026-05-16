@@ -19,15 +19,17 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool)UpsideDown;
+- (void)!¿ð!Aù1	ð1â
+0@ù
+× ;
+- (_Bool)ingIndicatorContainerView;
+- (_Bool)or: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;

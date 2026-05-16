@@ -26,13 +26,13 @@
 - (id);
 - (id);
 - (long long);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *formKey;

@@ -5,6 +5,5 @@
 //
 
 @protocol TSUStreamReadChannel
-- (void);
 @end
 

@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DDAction;
+
 @protocol DDDetectionControllerInteractionDelegate
 
 @optional
-- (void);
-- (void)0;
+- (void)ath, can't save mapping for restoration class:(DDAction *)arg1 %@;
 @end
 

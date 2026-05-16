@@ -8,9 +8,11 @@
 
 @interface NewsUI2.RecipeFilterDataManager
 {
+    MISSING_TYPE *context;
     MISSING_TYPE *recipeFilterConfigManager;
     MISSING_TYPE *recipeFilterResultProvider;
     MISSING_TYPE *recipeFilterSelectionManager;
+    MISSING_TYPE *recipeFeaturesConfiguration;
     MISSING_TYPE *delegate;
 }
 

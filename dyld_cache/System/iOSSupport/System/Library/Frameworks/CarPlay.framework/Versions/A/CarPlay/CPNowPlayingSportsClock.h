@@ -17,11 +17,11 @@
 - (id);
 - (_Bool);
 - (double);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (void);
+- (_Bool)ÞÈ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool countsUp; // @synthesize countsUp=_countsUp;

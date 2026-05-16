@@ -11,14 +11,14 @@
     char *_bitmap;
 }
 
-+ (void)leDiskIdentifierForDisk:(char *)arg1 error:(unsigned int)arg2;
-+ (unsigned int)me:(unsigned int)arg1;
-+ (_Bool)tionBlockSizeForDisk:(char *)arg1 error:(unsigned int)arg2;
-- (void):(long long)arg1 8;
-- (void)k=}16;
-- (id)WithDASession:(char *)arg1 timeout:(unsigned int)arg2 withDMTool:(unsigned int)arg3;
-- (_Bool)nsitive;
-- (void)UnmountedDisk:info: /* Error: Ran out of types for this method. */;
++ (void);
++ (unsigned int);
++ (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 
 @end
 

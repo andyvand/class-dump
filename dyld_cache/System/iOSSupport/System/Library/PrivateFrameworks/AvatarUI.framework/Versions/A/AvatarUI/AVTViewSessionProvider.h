@@ -29,7 +29,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)�;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,12 +51,12 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)	J);
-- (id)N,Vfeature;
 - (void);
+- (id)sion;
 
 // Remaining properties
 @property(retain, nonatomic) AVTViewSession *activeSession; // @synthesize activeSession=_activeSession;

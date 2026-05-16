@@ -13,18 +13,17 @@
     NSArray *_contextIDsToExcludeFromHitTesting;
 }
 
-+ (_Bool)*|ÿòð;
-- (void);
++ (_Bool)onsistency:attempted to add a drop target gap when one already exists /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)with originalGroupID as regular groupID (%@) in %llu chats, trying with client groupID (%@);
-- (id)originalGroupID:%@ and service:%@ /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (void)!¸FùÂÐ1¢!0@ù
-× ;
-- (id)yout;
+- (id);
+- (id);
+- (id);
+- (void)illBeginRenamingWithTitle:(id)arg1 selectedRange: /* Error: Ran out of types for this method. */;
+- (void)ÌDXh;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *contextIDsToAlwaysSendTouchesByDisplayIdentifier; // @synthesize contextIDsToAlwaysSendTouchesByDisplayIdentifier=_contextIDsToAlwaysSendTouchesByDisplayIdentifier;

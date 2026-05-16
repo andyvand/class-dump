@@ -5,14 +5,12 @@
 //
 
 @protocol _UIBarInsertLayoutDataProtocol
-- (double)¡p°!FùqÃÐ1¢!0@ù
+- (void)0@ù
 × ;
-- (_Bool)hYearLabelColor;
-- (void)|Ä;
-- (_Bool);
-- (double)ffset;
-- (void)U_SUBST_REPL_DASHES_STRING;
-- (void);
+- (_Bool)ed"b1"highlighted"b1"showDivider"b1"hasImage"b1"position"b3"autosizeText"b1"isMomentary"b1"wasSelected"b1"needsBackgroundAndContentViewUpdate"b1"usesAXTextSize"b1"selectionIndicatorDragged"b1"adjustsForContentSizeCategory"b1"hovered"b1"animatingSelectionIndicator"b1"hasCustomInfoView"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
+- (double)0.0;
+- (void)ase shadow updates with a nil update map and/or initial snapshot. Collection view:(double)arg1 %@;
+- (double);
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsible) _Bool collapsible;

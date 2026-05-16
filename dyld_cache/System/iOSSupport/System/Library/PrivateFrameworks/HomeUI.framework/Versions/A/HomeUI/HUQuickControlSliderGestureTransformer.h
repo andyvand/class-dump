@@ -41,12 +41,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)rSwipeAccessoryButtonForRowAtIndexPath:(id)arg1;
-- (id)derView;
+- (void);
+- (void)eItem>"8;
+- (id)ltKey;
 
 // Remaining properties
 @property(nonatomic) double accumulatedDragDistance; // @synthesize accumulatedDragDistance=_accumulatedDragDistance;

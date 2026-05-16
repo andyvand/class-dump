@@ -4,27 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UIColor, UIImage, UIImageSymbolConfiguration, _UIBarButtonItemAppearanceStorage, _UIButtonBarButton;
+@class UIColor, UIImage, UIImageSymbolConfiguration, _UIBarButtonItemAppearanceStorage;
 
 @protocol _UIButtonBarAppearanceDelegate
-- (_UIBarButtonItemAppearanceStorage *);
-- (double)1¢!0@ù
-× ;
-- (double)16{CGRect={CGPoint=dd}{CGSize=dd}}32{UIEdgeInsets=dddd}64;
-- (double)eAlignmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
-- (UIColor *)B16;
-- (long long)se;
-- (unsigned long long)or:(UIBarButtonItem *)arg1;
-- (double),V__requestedInteractionModel;
-- (_Bool)gForSetting: /* Error: Ran out of types for this method. */;
-- (double)k	Ôk	;
-- (_Bool)*³üÿÈ´üÿ;
 - (UIImage *);
-- (UIImage *);
+- (double)1Â0@ù
+× ;
+- (_Bool)Að!Bù1d1Â0@ù
+× ;
+- (unsigned long long);
+- (UIImage *)ntifiers;
+- (double)rruptable;
+- (UIColor *)ustomizationContainerView;
+- (_UIBarButtonItemAppearanceStorage *)ilityHandler;
+- (double)`;
+- (double)his, please discuss with UIKit.;
+- (_Bool)þÿÄèíÿ;
+- (long long)se context:%@
+ /* Error: Ran out of types for this method. */;
+- (double)a UIKit problem.;
 
 @optional
-- (double)ortEncryption:(_UIButtonBarButton *)arg1 didCheckServer: /* Error: Ran out of types for this method. */;
-- (UIImageSymbolConfiguration *)itWithRequestedPropertySet: /* Error: Ran out of types for this method. */;
+- (UIImageSymbolConfiguration *)entSceneComponent;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;

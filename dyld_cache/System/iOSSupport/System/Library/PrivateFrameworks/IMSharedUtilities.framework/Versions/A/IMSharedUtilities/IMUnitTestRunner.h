@@ -26,12 +26,12 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)f and scale:(id)arg1 %f;
+- (void)$	ØÿÜ];
+- (id)íá÷4´äãÿ;
 
 // Remaining properties
 @property(readonly) IMUnitTestBundleLoader *bundleLoader; // @synthesize bundleLoader=_bundleLoader;

@@ -379,7 +379,7 @@ struct list<unsigned long, std::allocator<unsigned long>> {
 };
 
 struct map<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>, std::less<const TSWPListStyle *>, std::allocator<std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>>> {
-    struct __tree<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>, std::__map_value_compare<const TSWPListStyle *, std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>, std::less<const TSWPListStyle *>>, std::allocator<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>>> {
+    struct __tree<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>, std::__map_value_compare<const TSWPListStyle *, std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>, std::less<const TSWPListStyle *>>, std::allocator<std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -387,7 +387,7 @@ struct map<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>, std::less<c
 };
 
 struct map<unsigned long, TSWPFontHeightCacheEntry, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, TSWPFontHeightCacheEntry>>> {
-    struct __tree<std::__value_type<unsigned long, TSWPFontHeightCacheEntry>, std::__map_value_compare<unsigned long, std::__value_type<unsigned long, TSWPFontHeightCacheEntry>, std::less<unsigned long>>, std::allocator<std::__value_type<unsigned long, TSWPFontHeightCacheEntry>>> {
+    struct __tree<std::__value_type<unsigned long, TSWPFontHeightCacheEntry>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, TSWPFontHeightCacheEntry>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, TSWPFontHeightCacheEntry>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -395,7 +395,7 @@ struct map<unsigned long, TSWPFontHeightCacheEntry, std::less<unsigned long>, st
 };
 
 struct map<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>>> {
-    struct __tree<std::__value_type<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>, std::__map_value_compare<unsigned long, std::__value_type<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>, std::less<unsigned long>>, std::allocator<std::__value_type<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>>> {
+    struct __tree<std::__value_type<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -492,7 +492,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 };
 
 struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowCoordinate, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowCoordinate>>> {
-    struct __hash_table<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, std::__unordered_map_hasher<TSUColumnRowCoordinate, std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>>, std::__unordered_map_equal<TSUColumnRowCoordinate, std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, std::equal_to<TSUColumnRowCoordinate>, TSTCellIDHasher>, std::allocator<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>>> {
+    struct __hash_table<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, std::__unordered_map_hasher<TSUColumnRowCoordinate, std::pair<const TSUColumnRowCoordinate, TSUColumnRowCoordinate>, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>>, std::__unordered_map_equal<TSUColumnRowCoordinate, std::pair<const TSUColumnRowCoordinate, TSUColumnRowCoordinate>, std::equal_to<TSUColumnRowCoordinate>, TSTCellIDHasher>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowCoordinate>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, void *>*> {
@@ -505,7 +505,7 @@ struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowCoordinate, TSTCellIDHa
 };
 
 struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowSize, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>>> {
-    struct __hash_table<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, std::__unordered_map_hasher<TSUColumnRowCoordinate, std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>>, std::__unordered_map_equal<TSUColumnRowCoordinate, std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, std::equal_to<TSUColumnRowCoordinate>, TSTCellIDHasher>, std::allocator<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>>> {
+    struct __hash_table<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, std::__unordered_map_hasher<TSUColumnRowCoordinate, std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>>, std::__unordered_map_equal<TSUColumnRowCoordinate, std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>, std::equal_to<TSUColumnRowCoordinate>, TSTCellIDHasher>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*> {
@@ -518,7 +518,7 @@ struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowSize, TSTCellIDHasher, 
 };
 
 struct unordered_map<const long long, NSMutableArray *, TSP::IdentifierHash, std::equal_to<const long long>, std::allocator<std::pair<const long long, NSMutableArray *>>> {
-    struct __hash_table<std::__hash_value_type<const long long, NSMutableArray *>, std::__unordered_map_hasher<const long long, std::__hash_value_type<const long long, NSMutableArray *>, TSP::IdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::__hash_value_type<const long long, NSMutableArray *>, std::equal_to<const long long>, TSP::IdentifierHash>, std::allocator<std::__hash_value_type<const long long, NSMutableArray *>>> {
+    struct __hash_table<std::__hash_value_type<const long long, NSMutableArray *>, std::__unordered_map_hasher<const long long, std::pair<const long long, NSMutableArray *>, TSP::IdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::pair<const long long, NSMutableArray *>, std::equal_to<const long long>, TSP::IdentifierHash>, std::allocator<std::pair<const long long, NSMutableArray *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*> {
@@ -531,7 +531,7 @@ struct unordered_map<const long long, NSMutableArray *, TSP::IdentifierHash, std
 };
 
 struct unordered_map<const long long, TSPData *__weak, TSP::ObjectIdentifierHash, std::equal_to<const long long>, std::allocator<std::pair<const long long, TSPData *__weak>>> {
-    struct __hash_table<std::__hash_value_type<const long long, TSPData *__weak>, std::__unordered_map_hasher<const long long, std::__hash_value_type<const long long, TSPData *__weak>, TSP::ObjectIdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::__hash_value_type<const long long, TSPData *__weak>, std::equal_to<const long long>, TSP::ObjectIdentifierHash>, std::allocator<std::__hash_value_type<const long long, TSPData *__weak>>> {
+    struct __hash_table<std::__hash_value_type<const long long, TSPData *__weak>, std::__unordered_map_hasher<const long long, std::pair<const long long, TSPData *__weak>, TSP::ObjectIdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::pair<const long long, TSPData *__weak>, std::equal_to<const long long>, TSP::ObjectIdentifierHash>, std::allocator<std::pair<const long long, TSPData *__weak>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*> {
@@ -544,7 +544,7 @@ struct unordered_map<const long long, TSPData *__weak, TSP::ObjectIdentifierHash
 };
 
 struct unordered_map<const std::array<unsigned char, 20>, TSPData *__weak, TSP::DataDigestHash, TSP::DataDigestEqualTo, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>> {
-    struct __hash_table<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, std::__unordered_map_hasher<const std::array<unsigned char, 20>, std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestHash, TSP::DataDigestEqualTo>, std::__unordered_map_equal<const std::array<unsigned char, 20>, std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestEqualTo, TSP::DataDigestHash>, std::allocator<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>>> {
+    struct __hash_table<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, std::__unordered_map_hasher<const std::array<unsigned char, 20>, std::pair<const std::array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestHash, TSP::DataDigestEqualTo>, std::__unordered_map_equal<const std::array<unsigned char, 20>, std::pair<const std::array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestEqualTo, TSP::DataDigestHash>, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*> {

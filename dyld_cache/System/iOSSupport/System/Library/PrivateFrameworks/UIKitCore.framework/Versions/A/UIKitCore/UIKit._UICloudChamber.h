@@ -15,12 +15,11 @@
     MISSING_TYPE *appliedSpriteHash;
 }
 
-+ (Class)r;
-- (void);
++ (Class);
 - (id);
-- (void)!pDù±Äð1¢!0@ù
-× ;
-- (id)gControlLensing;
+- (void);
+- (id)ableDataSource;
+- (void)8ÊÍl;
 
 @end
 

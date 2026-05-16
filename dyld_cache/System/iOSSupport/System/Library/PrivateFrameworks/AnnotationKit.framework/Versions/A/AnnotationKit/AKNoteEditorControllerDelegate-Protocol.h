@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @protocol AKNoteEditorControllerDelegate
-- (void);
-- (void);
-- (struct CGRect) ;
-- (UIViewController *);
-- (void);
 @end
 

@@ -15,7 +15,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)n;
 
 // Remaining properties
 @property(nonatomic) _Bool disableAutomaticLayout;

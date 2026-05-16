@@ -31,7 +31,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ting=%d, checked=%d)>;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraUserSettings *cameraUserSettings; // @synthesize cameraUserSettings=_cameraUserSettings;

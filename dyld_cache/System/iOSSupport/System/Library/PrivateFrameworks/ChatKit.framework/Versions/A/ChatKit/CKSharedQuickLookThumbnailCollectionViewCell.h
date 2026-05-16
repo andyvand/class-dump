@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (void)er thumbnail because the most recent note doesn't have one;
+- (void);
 
 @end
 

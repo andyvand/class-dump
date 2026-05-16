@@ -5,8 +5,6 @@
 //
 
 @protocol _UIVisualEffectDirectionalActivationTransitioning
-- (void)ZG:(unsigned long long)arg1 FDRProductType;
-- (unsigned long long)L;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationTransitionDirection;

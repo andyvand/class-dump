@@ -7,10 +7,12 @@
 @class NSArray;
 
 @protocol _UIStatusBarRegionAxisLayout
-- (NSArray *)äiÀjkàkèl|mÀnðo#¨qPzz;
+- (NSArray *)ì;
+- (_Bool)Üuþ;
 
 @optional
-- (_Bool);
+- (_Bool)cÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOverflowItems;

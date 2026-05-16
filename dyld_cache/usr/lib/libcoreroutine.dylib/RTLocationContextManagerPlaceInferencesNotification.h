@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)TLSForTCPEncapsulation;
+- (id);
+- (void)shold has not set yet.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *placeInferences; // @synthesize placeInferences=_placeInferences;

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPersonalizationPublisherDampeningConfig, FCPersonalizationTreatment, FCTopStoriesConfiguration, NSArray, NSString;
+@class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (FCPersonalizationTreatment *)at: /* Error: Ran out of types for this method. */;
-- (NSArray *)turedRectangleSourceProxy:] /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (long long)áÖ°!´Gù±æ°1Â0@ù
+× ;
+- (FCTopStoriesConfiguration *)esent unfilled reason:%@ /* Error: Ran out of types for this method. */;
 
 @optional
-- (NSString *)serEmbeddingManagerType;
-- (FCPersonalizationPublisherDampeningConfig *)nt=dd}24d40{CGSize=dd}48;
-- (_Bool)a;
-- (double);
-- (_Bool)!;
+- (double);
+- (long long)ontroller;
+- (NSString *)ÕlËêÿ¹Õ`Ëêÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

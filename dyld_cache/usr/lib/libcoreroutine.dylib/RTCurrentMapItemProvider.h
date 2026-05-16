@@ -20,31 +20,32 @@
 }
 
 + (void);
-+ (void)h;
++ (void);
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)ns/A/SoftLinking;
 - (id);
 - (void);
-- (id)h;
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void)on;
-- (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)EVPNIKEv2PPKConfiguration",C,V_ppkConfiguration;
-- (id)l firstChildSA;
-- (id);
-- (void), sigma, %f;
+- (void)@ù
+× ;
+- (id)eventLongestArray;
+- (void)pSegmentTransitionPreprocessor:applyRule_longTransitionsAreInvalid_ForTransitionAtIndex, tripSegmentTransitionStatus[%ld], Reject /* Error: Ran out of types for this method. */;
+- (void)RTTripSegmentTransitionPreprocessor:applyRule_LoiVisitsAreValid_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Passthrough /* Error: Ran out of types for this method. */;
+- (void)tor,sessionID:%@,%@,%@,Updating InitiatorContact, transaction,%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;

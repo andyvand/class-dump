@@ -15,9 +15,9 @@
     long long _previousPresentationReason;
 }
 
-+ (_Bool){CGSize=dd}40d56Q64B72@76B84B88B92B96;
-+ (id)Ü=aÿ.8m°1;
-- (void)emInsideChecklist;
++ (_Bool);
++ (id)Ik¨³ÿIkgµÿkQµÿikÌSµÿik8³ÿQkèfµÿ;
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -31,8 +31,8 @@
 - (void);
 - (void);
 - (void);
-- (int)Note(UI) announceAccessibilitySelectionChangedByMergeWithSavedSelections:(unsigned long long)arg1 beforeMergeTimestamp:] /* Error: Ran out of types for this method. */;
-- (id)16@?0@"NSTextElement"8;
+- (int);
+- (id);
 - (int);
 - (int);
 - (id);
@@ -40,15 +40,15 @@
 - (_Bool);
 - (id);
 - (int);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
 - (id);
-- (id);
+- (unsigned long long)0_G;
+- (void)d°;
 
 // Remaining properties
 @property(readonly, nonatomic) BMStream *eventStream; // @synthesize eventStream=_eventStream;

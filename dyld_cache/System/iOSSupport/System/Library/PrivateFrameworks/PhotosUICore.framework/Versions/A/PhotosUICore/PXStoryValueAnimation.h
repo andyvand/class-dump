@@ -17,9 +17,9 @@
 - (id);
 - (CDStruct_6f12f40c);
 - (void);
+- (CDStruct_1b6d18a9);
 - (id);
-- (id)¬ûÿÿÿ&üÿÿÿ:(id)arg1 Ëûÿð&üÿÄkûÿ;
-- (CDStruct_1b6d18a9)otosUICore43LemonadeTransientCollectionSortingUtilities;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_6f12f40c curveInfo; // @synthesize curveInfo=_curveInfo;

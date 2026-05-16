@@ -35,29 +35,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (struct CGSize);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (struct CGSize);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (struct CGSize);
 - (_Bool);
 - (id);
+- (void);
 - (id);
 - (void);
-- (id)4à;
+- (void);
+- (void);
+- (id);
+- (void)olor: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool compactLayout; // @synthesize compactLayout=_compactLayout;

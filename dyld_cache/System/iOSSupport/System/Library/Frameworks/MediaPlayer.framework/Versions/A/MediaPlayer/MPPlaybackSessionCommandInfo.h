@@ -13,13 +13,13 @@
     long long _priority;
 }
 
-+ (id)bccHandles:(id)arg1 headers:(id)arg2 subject:(long long)arg3 htmlContent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments:contentProtection: /* Error: Ran out of types for this method. */;
-- (unsigned long long)lock to %s;
++ (id);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (long long);
-- (id);
-- (id)valid receipt received. receipt:%s sig:%s ref:%s len:%llu /* Error: Ran out of types for this method. */;
+- (id);
+- (void)NG_MISSING__;
+- (id)V_isStartItem;
+- (long long)CopyrightText;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

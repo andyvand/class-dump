@@ -5,11 +5,11 @@
 //
 
 @protocol _UISceneSizeRestrictionsImpl
-- (void)iled to commit local data;
-- (struct CGSize)LargeContentViewer;
-- (void)ÿÿ[;
-- (struct CGSize);
-- (void);
+- (struct CGSize)i40B44;
+- (void)8134A7167432_UIViewDynamicLayoutGuideSupport;
+- (struct CGSize)inset background at indexPath:%@
+
+=== /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFullScreen;

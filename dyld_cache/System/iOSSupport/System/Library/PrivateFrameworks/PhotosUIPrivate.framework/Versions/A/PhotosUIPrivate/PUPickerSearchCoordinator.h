@@ -25,14 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)1b0@ù
-× ;
-- (_Bool)SUGGESTIONS_MESSAGE_FOR_STICKERS;
+- (_Bool)eBehaviorOnZoom;
+- (void)toloopView;
+- (_Bool)ÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) UIBarButtonItem *compactSearchBarButtonItem;

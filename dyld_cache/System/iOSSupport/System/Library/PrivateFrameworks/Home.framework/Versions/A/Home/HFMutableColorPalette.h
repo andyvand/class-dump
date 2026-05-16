@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void)pseClipInfoProvider>",W,N,V_timelapseClipInfoProvider;
 
 @end
 

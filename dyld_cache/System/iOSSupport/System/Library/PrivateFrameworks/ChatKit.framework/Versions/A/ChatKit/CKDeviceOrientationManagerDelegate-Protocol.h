@@ -5,6 +5,5 @@
 //
 
 @protocol CKDeviceOrientationManagerDelegate
-- (void);
 @end
 

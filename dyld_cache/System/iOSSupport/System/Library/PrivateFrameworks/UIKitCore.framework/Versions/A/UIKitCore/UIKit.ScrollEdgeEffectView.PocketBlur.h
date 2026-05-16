@@ -16,12 +16,11 @@
     MISSING_TYPE *blurEnabled;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)!ðDùÄð1¢!0@ù
-× ;
-- (id);
+- (id)rDataAggregator;
+- (void)CTFontTextStyleSubhead;
+- (void)h	ÿLÊÍ zl;
 
 @end
 

@@ -54,6 +54,7 @@ __attribute__((visibility("hidden")))
     struct __SecKey *peer_public_key;
     struct __CFArray *peer_cert_chain;
     struct __SecTrust *peer_trust_ref;
+    struct __SecTrust *backup_peer_trust_ref;
     struct __CFArray *server_raw_public_key_certificates;
     struct __CFArray *client_raw_public_key_certificates;
     unsigned char new_session_ticket_request;
@@ -111,6 +112,8 @@ __attribute__((visibility("hidden")))
     unsigned int ats_enforced:1;
     unsigned int ats_non_pfs_ciphersuite_allowed:1;
     unsigned int old_ats_enforced:1;
+    unsigned int old_ats_enforced_compat:1;
+    unsigned int fcs_tls_v2_compliance_mode_enabled:1;
     unsigned int trust_evaluation_complete:1;
     unsigned int certificate_compression_enabled:1;
     unsigned int certificate_compression_used:1;
@@ -122,6 +125,11 @@ __attribute__((visibility("hidden")))
     unsigned int pqtls_enabled:1;
     unsigned int pake_offered:1;
     unsigned int tls13_epsk_offered:1;
+    unsigned int ats_applicable:1;
+    unsigned int legacy_ats_applicable:1;
+    unsigned int is_local_networking:1;
+    unsigned int ats_violation_detected:1;
+    unsigned int skip_ats_trust_evaluation:1;
 }
 
 - (void);

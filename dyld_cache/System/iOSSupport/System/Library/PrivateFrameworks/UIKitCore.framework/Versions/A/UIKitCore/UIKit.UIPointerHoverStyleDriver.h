@@ -16,10 +16,9 @@
     MISSING_TYPE *pointerInteraction;
 }
 
-- (id).apple.configuration.network.vpn.applayer;
-- (void)!xFù±ÄÐ1¢!0@ù
-× ;
-- (id)ingGroupView:alongsideTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)äe;
+- (void)¹l;
 
 @end
 

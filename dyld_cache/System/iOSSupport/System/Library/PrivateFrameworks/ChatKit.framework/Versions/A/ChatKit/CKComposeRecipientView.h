@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)=;
-- (void);
-- (id)´y;
+- (id);
+- (void)nnerTip;
+- (struct UIEdgeInsets)7UIImageCSgIegg_;
+- (void)sì;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets)AQ/;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKComposeRecipientViewDelegate> layoutDelegate; // @synthesize layoutDelegate;

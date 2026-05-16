@@ -14,7 +14,7 @@
 - (id);
 - (Class);
 - (void);
-- (id)chives;
+- (id)eme;
 
 @end
 

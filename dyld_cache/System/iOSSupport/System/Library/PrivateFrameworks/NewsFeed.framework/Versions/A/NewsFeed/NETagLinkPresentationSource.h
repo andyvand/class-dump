@@ -12,10 +12,11 @@
 }
 
 + (id);
++ (id);
 - (id);
 - (id);
-- (id)textInfoDictionaryKeyIsPDFContext;
-- (void);
+- (id);
+- (void)P`ñþe3:ðwþe3:ÄË$ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata;

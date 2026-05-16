@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)shape;
 
 @end
 

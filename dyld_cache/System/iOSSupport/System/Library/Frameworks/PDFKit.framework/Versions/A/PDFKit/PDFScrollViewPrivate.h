@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     _Bool forcesTopAlignment;
 }
 
-- (void)_unchangedStrokes;
+- (void);
 
 @end
 

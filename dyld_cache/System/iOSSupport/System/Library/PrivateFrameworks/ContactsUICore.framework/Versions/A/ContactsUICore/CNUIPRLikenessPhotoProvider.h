@@ -24,7 +24,7 @@
 - (struct CGImage *);
 - (struct CGImage *);
 - (struct CGImage *);
-- (void);
+- (void)EditorColorPalette;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

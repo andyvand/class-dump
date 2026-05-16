@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (struct CGRect)ýÿ=ZHFû;
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;

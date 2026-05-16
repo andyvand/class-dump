@@ -19,24 +19,25 @@
 - (void);
 - (id);
 - (void);
-- (void)ceRef;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)%ld;
-- (void)D %@, already indexed newer record;
-- (long long)TB,R,N,V_timeProposals;
+- (id);
+- (void);
+- (id);
+- (long long);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id)em/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/A/ManagedConfiguration;
+- (void)Ð!ÀGùêð1Â0@ù
+× ;
+- (id)h: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;

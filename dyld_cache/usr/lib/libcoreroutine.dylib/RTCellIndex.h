@@ -12,12 +12,12 @@
 
 - (id);
 - (unsigned long long);
-- (_Bool)!;
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (short)chDistanceThreshold:unconcreteLOICollapseDistanceThreshold:visitAdjacencyMergeThreshold: /* Error: Ran out of types for this method. */;
-- (void)tsRelabelerPassthroughThreshold;
-- (short)rivate}d,isReducedSecurityConfirmationCacheFresh,%{public}d,isReducedSecurityConfirmationCacheStatusSuccess,%{public}d;
+- (short)dTime:destinationType:destinationMapItem:lowPowerModeWarningState: /* Error: Ran out of types for this method. */;
+- (short)s submission error, %@;
 
 // Remaining properties
 @property(nonatomic) short x; // @synthesize x=_x;

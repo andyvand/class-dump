@@ -22,14 +22,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (struct CGPath *);
 - (_Bool);
-- (id);
+- (void)perLimit;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPath *path;

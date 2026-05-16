@@ -7,7 +7,6 @@
 @class MPCPlaybackEngineEventStream, NSString;
 
 @protocol MPCEventStreamSettable
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak MPCPlaybackEngineEventStream *eventStream;

@@ -27,8 +27,8 @@
 - (struct CGRect);
 - (double);
 - (id);
-- (void);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _imageBounds; // @synthesize _imageBounds=__imageBounds;

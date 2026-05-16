@@ -22,13 +22,13 @@
     MISSING_TYPE *verticalSpacingBeneathForecastHint;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)layTile;
+- (void);
+- (void);
+- (void)apSnapshotView;
 
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol IMDaemonVCInvitationsAVObserverProtocol
-- (void)9;
 @end
 

@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
     struct CGColor *_color;
 }
 
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (id)^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16r^{mmcs_http_context_options=^{__CFString}^{__CFHTTPMessage}^{_mmcs_http_request_options}ddQQ^?^?^?^?^?^?^?^v^?^vCd^{os_activity_s}}24^{os_activity_s=}32;
-- (id)rollable;
-- (void)ametersMusicKitPersistentID;
-- (_Bool)feAreaLayoutGuide-left;
+- (_Bool)PaddedFrameInsets;
+- (_Bool)mageAtTime:(id)arg1 actualTime:error: /* Error: Ran out of types for this method. */;
+- (id)V_closeButtonOutset;
+- (id);
 
 @end
 

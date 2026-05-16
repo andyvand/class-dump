@@ -9,6 +9,7 @@
 @interface AMSUIWebPageRenderMetricsPresenterWrapper
 {
     MISSING_TYPE *metricsFields;
+    MISSING_TYPE *primaryDataFetchComplete;
     MISSING_TYPE *presenter;
     MISSING_TYPE *bag;
 }
@@ -24,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)on;
 
 @end
 

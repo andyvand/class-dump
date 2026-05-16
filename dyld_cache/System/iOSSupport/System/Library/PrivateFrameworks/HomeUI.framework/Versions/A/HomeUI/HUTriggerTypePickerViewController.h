@@ -40,10 +40,9 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)
-× ;
-- (void)erInlineViewController"16@"UIImage"24;
+- (void)e %p>:Prediction fetch finished; reloading item provider /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFActionSetBuilder *actionSetBuilder; // @synthesize actionSetBuilder=_actionSetBuilder;

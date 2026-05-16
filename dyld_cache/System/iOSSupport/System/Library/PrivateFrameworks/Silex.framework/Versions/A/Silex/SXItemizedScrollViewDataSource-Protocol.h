@@ -5,9 +5,5 @@
 //
 
 @protocol SXItemizedScrollViewDataSource
-- (unsigned long long);
-
-@optional
-- (_Bool);
 @end
 

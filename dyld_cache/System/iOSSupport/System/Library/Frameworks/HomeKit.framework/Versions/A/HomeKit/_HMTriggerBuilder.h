@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_actionSets;
 }
 
-+ (void)dated supportsMediaContentProfile support due to missing delegateCaller:%@ /* Error: Ran out of types for this method. */;
++ (void)dateEnabled:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -41,14 +41,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id)ter:Received AccessoryNetworkProtectionGroupAddedNotification /* Error: Ran out of types for this method. */;
-- (_Bool)ted for :%@ /* Error: Ran out of types for this method. */;
-- (void)lu;
+- (_Bool);
+- (void);
+- (void)roup:didRemoveSetting: /* Error: Ran out of types for this method. */;
+- (id)itchState:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionSets;

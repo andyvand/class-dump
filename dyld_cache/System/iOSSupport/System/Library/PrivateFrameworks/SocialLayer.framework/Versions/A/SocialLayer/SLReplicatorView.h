@@ -31,13 +31,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (long long)lfillAsynchronousMetadataAction:response: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (long long)alize SLCollaborationHighlight due to. %@;
+- (void)er.SLSyndicationProcessingQueue;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;

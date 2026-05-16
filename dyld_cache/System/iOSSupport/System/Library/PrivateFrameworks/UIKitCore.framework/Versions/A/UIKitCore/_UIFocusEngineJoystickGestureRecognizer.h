@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
-- (_Bool);
-- (void)imeSyncedLyrics__MAPPING_MISSING__;
-- (void)1¢!0@ù
-× ;
-- (void)ageWithTintColor:(id)arg1 backgroundColor:(id)arg2;
-- (void)dateBeforeConnection:(id)arg1;
-- (void)atrick1_2(void);
-- (_Bool)lViewClass(void)_block_invoke;
-- (id)_UIIntelligenceSystemNoiseView;
+- (void);
+- (id)UITraitCollection"40;
+- (_Bool)",R,N,V_removedObjects;
+- (_Bool)<;
+- (void)erOfActiveNonDismissDetents;
+- (void)adow Radius;
+- (void);
+- (void)L¶Õ¼X_;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint previousStickPosition; // @synthesize previousStickPosition=_previousStickPosition;

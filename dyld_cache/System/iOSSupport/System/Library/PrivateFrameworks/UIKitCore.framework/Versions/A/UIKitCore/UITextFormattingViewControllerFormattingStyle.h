@@ -13,18 +13,17 @@
     NSDictionary *_attributes;
 }
 
-+ (_Bool)c§m;
-- (id);
++ (_Bool)scaleFactor=%f scaledLineHeight=%f scaledFirstBaseline=%f scaledLastBaseline=%f numberOfLines=%ld unscaledSize=%@ scaledText=%@>;
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)odelPropertyTVShowShortTitle;
-- (id);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (id)__updateNavigationBarHandler;
+- (id)agInteractionEffect>";
+- (_Bool)selectionGestureRecognizer;
+- (void)sition:(id)arg1;
+- (id)nHandleDropSession:(struct _NSZone *)arg1;
+- (id)þÿþÿþÿ¶Ãþÿ;
+- (void)tjåþ3Ô;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;

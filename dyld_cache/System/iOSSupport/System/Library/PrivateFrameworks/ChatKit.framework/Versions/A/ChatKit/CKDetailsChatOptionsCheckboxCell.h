@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     UISwitch *_controlSwitch;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
-- (void);
-- (id)edNotesLearnMoreViewController;
-- (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (struct CGSize);
+- (void);
+- (void);
+- (id)On:(long long)arg1;
+- (void)>;
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;

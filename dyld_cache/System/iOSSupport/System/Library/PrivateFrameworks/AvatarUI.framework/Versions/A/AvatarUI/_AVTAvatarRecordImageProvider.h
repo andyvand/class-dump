@@ -32,17 +32,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void)#;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ttonHeight;
+- (void);
+- (id)XÊ;
+- (id)ategory;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowPreFlight; // @synthesize allowPreFlight=_allowPreFlight;

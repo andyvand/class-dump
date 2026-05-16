@@ -16,7 +16,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)inue Syncing;
 - (id);
 
 // Remaining properties

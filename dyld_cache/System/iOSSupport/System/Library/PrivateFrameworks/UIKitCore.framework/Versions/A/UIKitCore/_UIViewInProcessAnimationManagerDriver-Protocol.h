@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIViewInProcessDrivableAnimationManager;
-
 @protocol _UIViewInProcessAnimationManagerDriver
-- (void)tsResponse:(id <_UIViewInProcessDrivableAnimationManager>)arg1 identifier: /* Error: Ran out of types for this method. */;
-- (void)th:contentIsSensitive: /* Error: Ran out of types for this method. */;
 @end
 

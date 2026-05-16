@@ -58,9 +58,9 @@
 - (void);
 - (long long);
 - (_Bool);
-- (void)ðxs;
+- (id)oryChapterCollection>"40{?=q{?={?=qiIq}{?=qiIq}{?=qiIq}}}48;
+- (void)emLayout;
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool canChangePlaybackTime; // @synthesize canChangePlaybackTime=_canChangePlaybackTime;

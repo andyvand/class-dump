@@ -18,9 +18,9 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)Service;
+- (void)t;
 - (id);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;

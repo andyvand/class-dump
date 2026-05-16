@@ -14,18 +14,18 @@
 }
 
 + (double);
-+ (double);
-- (void);
-- (void);
-- (void)@G;
-- (id);
-- (void);
++ (double)item or chat for deletion.;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
+- (id)abberForBrowserTransitionCoordinator:(long long)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *buttonsTopConstraint; // @synthesize buttonsTopConstraint=_buttonsTopConstraint;

@@ -11,7 +11,7 @@
     NSData *_inContentAsData;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

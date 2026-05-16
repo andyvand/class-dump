@@ -14,39 +14,39 @@
     UIBarButtonItemStateAppearance *_states[4];
 }
 
-+ (_Bool)´@ÿ;
++ (_Bool)iew:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (void)× ;
+- (void)ùqZÐ1Â0@ù
+× ;
+- (void)ÔAÐ!8Fùq]Ð1Â0@ù
+× ;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)°!$EùÆð1¢!0@ù
-× ;
-- (id)rWindow;
-- (id)CGPoint=dd}{CGSize=dd}},N,V_hostedViewReference;
-- (id)sContextualSharingAllowed,S_setContextualSharingAllowed: /* Error: Ran out of types for this method. */;
-- (id)!;
-- (id)r;
-- (void);
-- (void)¤ñ(ò¨òdóXö0ùúûdûÈü;
-- (id)¨Ð;
-- (void)t on. Turning it off now.;
-- (id)istering for battery status changes:removed run loop source /* Error: Ran out of types for this method. */;
-- (void)InputContextIdentifiers;
-- (void)öpÏÅqb;
-- (id)GpV;
-- (id)Ì# ÿ½<ÔÒ3g;
-- (id);
-- (id)'¿;
+- (void)Ô ;
+- (id)atterView";
+- (_Bool)rd;
+- (void)geInsets;
+- (id)ation;
+- (void)n;
+- (id)resentationWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)ostedUIView;
+- (id)¸¨ä0ð;
+- (id)reenUpdates:YES. /* Error: Ran out of types for this method. */;
+- (id)àu^;
+- (void)NxÑ;
+- (void)4`ôþ,ªÑj;
+- (id)¶Î(:(long long)arg1 j;
+- (id)t%ÿ_Ñëj;
+- (void)ÿ"Ï0fl;
+- (id)o;
 
 // Remaining properties
 @property(nonatomic, setter=_setChangeObserver:) __weak id <_UIBarButtonItemAppearanceChangeObserver> _changeObserver; // @synthesize _changeObserver;

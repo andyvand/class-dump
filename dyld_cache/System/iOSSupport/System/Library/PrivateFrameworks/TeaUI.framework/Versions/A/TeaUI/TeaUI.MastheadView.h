@@ -12,12 +12,12 @@
     MISSING_TYPE *scrollView;
 }
 
-- (id)ayWidgetOntologyLevelConfig;
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)¨<þÿ\ÿÿ;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;

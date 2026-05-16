@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)reOnboardingConfiguratorDelegate protocol!;
 
 // Remaining properties
 @property(retain, nonatomic) HUDynamicAlignmentTitleValueCellLayoutOptions *layoutOptions; // @synthesize layoutOptions=_layoutOptions;

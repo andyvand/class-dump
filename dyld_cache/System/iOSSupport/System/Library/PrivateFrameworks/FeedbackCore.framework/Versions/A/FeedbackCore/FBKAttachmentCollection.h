@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (void)ndingLoginOperation;
-- (id)[%{public}@], will fallback to opaque controller %d;
+- (void);
+- (void);
+- (id)ô;
 
 // Remaining properties
 @property(nonatomic, readonly) NSSet *additionalMatchers;

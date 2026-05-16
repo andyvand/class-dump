@@ -5,6 +5,5 @@
 //
 
 @protocol PXChangeObserver
-- (void)SNumberFormatter",R,N,V_assetIndexFormatter;
 @end
 

@@ -12,8 +12,8 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
+- (void)Ñý^ìëTÿ¹ý^ÄìTÿ¹ý^ íTÿ¡ý^íTÿYý^ÄîTÿYý^TïTÿAý^|ðTÿYý^$óTÿYý^óTÿAý^äóTÿYý^$õTÿYý^õTÿAý^äõTÿý^$÷Tÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool supportsLiveActivities;

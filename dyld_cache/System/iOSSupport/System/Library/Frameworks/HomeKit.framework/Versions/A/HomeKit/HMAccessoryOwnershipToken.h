@@ -11,14 +11,14 @@
     NSData *_internalData;
 }
 
-+ (_Bool)291;
-- (void);
++ (_Bool);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void)d to download asset with error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSData *internalData; // @synthesize internalData=_internalData;

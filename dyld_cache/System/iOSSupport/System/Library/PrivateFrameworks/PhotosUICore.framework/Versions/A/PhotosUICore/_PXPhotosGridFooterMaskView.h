@@ -11,10 +11,10 @@
     id <_PXPhotosGridFooterMaskViewDelegate> _delegate;
 }
 
-- (void);
-- (void);
 - (id);
-- (void);
+- (void);
+- (void)ppearanceIsStatusBarVisible: /* Error: Ran out of types for this method. */;
+- (void)roup Shelf;
 
 // Remaining properties
 @property(nonatomic) __weak id <_PXPhotosGridFooterMaskViewDelegate> delegate; // @synthesize delegate=_delegate;

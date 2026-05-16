@@ -11,10 +11,10 @@
     MUPlaceActivityDataProvider *_dataProvider;
 }
 
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)d;
 
 // Remaining properties
 @property(readonly, nonatomic) MUPlaceActivityDataProvider *dataProvider; // @synthesize dataProvider=_dataProvider;

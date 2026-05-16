@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     struct __DDHighlight *highlightRef;
 }
 
-- (void),V_inks;
+- (void);
 
 @end
 

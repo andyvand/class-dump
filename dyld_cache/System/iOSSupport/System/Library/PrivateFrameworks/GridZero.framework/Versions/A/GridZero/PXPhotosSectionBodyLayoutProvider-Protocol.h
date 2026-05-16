@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGLayout;
-@protocol PXPhotosSectionBodyLayoutProviderInvalidationDelegate, PXPhotosSectionedLayoutBody;
+@protocol PXPhotosSectionBodyLayoutProviderInvalidationDelegate;
 
 @protocol PXPhotosSectionBodyLayoutProvider
-- (PXGLayout<PXPhotosSectionedLayoutBody> *);
-- (void)|;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate;

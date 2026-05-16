@@ -21,10 +21,9 @@
 - (struct CGSize);
 - (double);
 - (_Bool);
-- (struct CGSize);
 - (void);
-- (id)av°!¼GùÑz1b0@ù
-× ;
+- (struct CGSize);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool displayOneAssetPerPage; // @synthesize displayOneAssetPerPage=_displayOneAssetPerPage;

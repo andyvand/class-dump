@@ -24,10 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)ance;
-- (void)äÆ;
-- (void)0åóÿn;
+- (id);
+- (void);
+- (void);
+- (void)r;
 
 // Remaining properties
 @property(nonatomic) _Bool needsScrollToSelectedItem; // @synthesize needsScrollToSelectedItem=_needsScrollToSelectedItem;

@@ -17,37 +17,36 @@
     CNContact *_contact;
 }
 
-- (void)aresForObjects:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)extField",W,N,V_verifyLabel;
-- (void)ew;
-- (void)t",W,N,V_textAttachment;
-- (void)rol:(_Bool)arg1 textShouldBeginEditing:(CDUnknownBlockType)arg2;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)L;
-- (id);
-- (id);
-- (id)6-[cameraIcon]-1-[movieDurationLabel]-6-|;
-- (id)monostyled;
-- (id);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)S;
 - (id);
-- (struct CGSize)sVisible;
-- (void)ô
-¬;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (void)ViewController"16;
+- (void)emoveFromRunLoop:forMode: /* Error: Ran out of types for this method. */;
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) CKCNSharingProfileAvatarItemProvider *avatarItemProvider; // @synthesize avatarItemProvider=_avatarItemProvider;

@@ -28,18 +28,18 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id))�;
-- (void)Rw;
+- (id);
+- (void);
 - (int);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (unsigned long long)!FùQS1¢!0@ù
+- (id);
+- (unsigned long long);
+- (long long);
+- (void)1Â0@ù
 × ;
-- (long long)link;
+- (void)SWPRep p_newSelectionPathForRange:headKnobRect:tailKnobRect:selectionType:selection:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long bufferOffset; // @synthesize bufferOffset=_bufferOffset;

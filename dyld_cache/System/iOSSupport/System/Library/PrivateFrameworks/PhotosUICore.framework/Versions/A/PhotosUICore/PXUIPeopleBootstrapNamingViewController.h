@@ -37,17 +37,17 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
+- (unsigned long long);
+- (void)eferredTransform;
+- (id);
+- (id):(id)arg1 Empty phone number.;
+- (void)Unsupported collection type;
 - (void);
-- (_Bool);
-- (void);
-- (id)raryExpansionFastToggleSpringStiffness;
-- (unsigned long long);
-- (id)m;
-- (void);
-- (id)4;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate; // @synthesize actionDelegate;

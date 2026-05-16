@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)R,N,V_vendorLinkViewModel;
 
 @end
 

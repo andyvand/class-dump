@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)8TransitionAnimator;
+- (_Bool);
 - (id);
 - (_Bool);
 

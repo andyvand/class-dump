@@ -5,6 +5,5 @@
 //
 
 @protocol SXComponentInserterManager
-- (void);
 @end
 

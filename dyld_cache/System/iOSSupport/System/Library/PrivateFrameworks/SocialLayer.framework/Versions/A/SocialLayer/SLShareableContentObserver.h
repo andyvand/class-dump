@@ -38,11 +38,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

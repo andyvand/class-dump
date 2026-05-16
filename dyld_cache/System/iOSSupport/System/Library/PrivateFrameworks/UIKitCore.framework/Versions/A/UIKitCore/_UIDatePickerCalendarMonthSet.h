@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long)tionKeyIfNeeded:(struct __UISignedRange)arg1;
+- (unsigned long long);
 - (struct __UISignedRange);
 - (struct _NSRange);
-- (void)};
-- (void)s with the reason:%lu /* Error: Ran out of types for this method. */;
-- (id)Setting inconsistency handler;
-- (void)pá{¬;
+- (void);
+- (void);
+- (id);
+- (void);
 
 @end
 

@@ -29,8 +29,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)× ;
+- (id);
+- (void)_invoke_2;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

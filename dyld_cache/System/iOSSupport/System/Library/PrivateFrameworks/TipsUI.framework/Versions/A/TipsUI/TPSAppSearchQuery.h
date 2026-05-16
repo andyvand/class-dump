@@ -16,12 +16,12 @@
 + (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (long long);
+- (void);
 - (id);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

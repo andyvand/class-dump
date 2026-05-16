@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (void);
-- (id)	;
+- (void)earnedPlaceTypeUnknown && type <= RTLearnedPlaceTypeGym);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *latitudePropertyPath; // @synthesize latitudePropertyPath=_latitudePropertyPath;

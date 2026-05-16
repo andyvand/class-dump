@@ -14,17 +14,17 @@
 }
 
 + (unsigned int);
-+ (id)ÿËWè;
++ (id)5;
 - (void);
 - (void);
 - (void);
-- (id)(;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long)#;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,11 +34,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool)8@"TSWPLayout"16;
-- (id)called on a phone!;
+- (id)SWPCharIndexAndAffinity}"__end_"^{_TSWPCharIndexAndAffinity}""{?="__cap_"^{_TSWPCharIndexAndAffinity}}};
+- (_Bool)m.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDStroke.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

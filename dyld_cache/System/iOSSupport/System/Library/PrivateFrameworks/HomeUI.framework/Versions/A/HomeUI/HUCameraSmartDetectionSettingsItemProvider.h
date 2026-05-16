@@ -19,9 +19,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)a~äß;
+- (id);
+- (void)"CNLabeledValue"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;

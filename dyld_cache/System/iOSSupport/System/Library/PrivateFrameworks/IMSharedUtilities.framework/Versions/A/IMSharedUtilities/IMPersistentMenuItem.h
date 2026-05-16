@@ -14,14 +14,14 @@
 
 + (id);
 - (id);
+- (id);
+- (long long);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (long long);
-- (id)ce:linkedDevicesChanged: /* Error: Ran out of types for this method. */;
+- (id)SettingValueForBundleKey:uniqueID: /* Error: Ran out of types for this method. */;
+- (void)itor for reachability to %s;
 
 // Remaining properties
 @property(nonatomic, readonly) id <IMAttributableContent> content; // @synthesize content;

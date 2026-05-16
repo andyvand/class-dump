@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)okComponentFileProvider>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

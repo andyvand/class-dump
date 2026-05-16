@@ -23,22 +23,22 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (id);
 - (id);
 - (double);
 - (double);
-- (long long);
-- (void);
-- (void);
-- (id);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)(Ä;
+- (id);
+- (void);
+- (void);
+- (id)i;
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexPath *backIndexPath; // @synthesize backIndexPath=_backIndexPath;

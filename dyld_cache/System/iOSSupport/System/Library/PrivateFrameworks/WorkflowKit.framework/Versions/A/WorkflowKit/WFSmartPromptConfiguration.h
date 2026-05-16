@@ -24,7 +24,7 @@
     WFContentCollection *_cachedSourceContentCollection;
 }
 
-+ (_Bool)37F30591754C;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -37,13 +37,13 @@
 - (id);
 - (id);
 - (id);
+- (id)è÷AÓ;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)tCalendarsCollection: /* Error: Ran out of types for this method. */;
+- (void)licyEvaluator _evaluatePolicyForRequest:completion:] /* Error: Ran out of types for this method. */;
+- (id)Output;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionUUID; // @synthesize actionUUID=_actionUUID;

@@ -25,11 +25,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void));
+- (void)!¿Ð!ÀCù1	Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly) NSOrderedSet *applicationStateStack;

@@ -14,19 +14,19 @@
     NSNumber *_limit;
 }
 
-+ (_Bool)tsideALOI,%{public}d,_technologiesMissingToLookForInLocationUpdates,%{public}lu;
++ (_Bool);
 - (id);
 - (id);
-- (long long)T;
+- (long long);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id)upports-group-apple-cash;
 - (void);
 - (void);
 - (id);
-- (id)ConfigurationName: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)ture option:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

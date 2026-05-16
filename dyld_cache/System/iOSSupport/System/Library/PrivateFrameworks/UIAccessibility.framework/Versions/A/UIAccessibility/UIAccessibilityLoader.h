@@ -15,16 +15,16 @@
 + (void);
 + (void);
 + (void);
-+ (void);
 + (void);
 + (void);
 + (void);
 + (void);
-+ (_Bool)!;
 + (void);
 + (_Bool);
-+ (void)"`A;
-+ (void)@m;
++ (void);
++ (_Bool);
++ (void);
++ (void);
 + (id);
 + (_Bool);
 + (void);

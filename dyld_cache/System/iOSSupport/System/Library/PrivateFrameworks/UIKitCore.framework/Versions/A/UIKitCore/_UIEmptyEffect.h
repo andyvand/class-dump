@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)2Fm;
-- (unsigned long long);
-- (_Bool);
-- (id)classImplementsSelector: /* Error: Ran out of types for this method. */;
++ (_Bool)eading ;
 - (void);
+- (id);
+- (unsigned long long);
+- (_Bool)statusBarContextID;
 
 @end
 

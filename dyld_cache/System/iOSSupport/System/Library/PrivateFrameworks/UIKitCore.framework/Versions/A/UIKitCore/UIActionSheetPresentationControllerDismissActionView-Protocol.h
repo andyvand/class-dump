@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol UIActionSheetPresentationControllerDismissActionView
-- (_Bool);
-- (void)ntNonce is NULL;
-- (NSString *);
-- (void)vigationBar;
+- (void);
+- (void)h;
+- (NSString *)iewKeyboardLayoutGuide-viewBottom;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title;

@@ -22,16 +22,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
 - (struct _NSRange);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (unsigned long long)tionTypes;
 
 // Remaining properties
 @property(retain, nonatomic) VKQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;

@@ -13,12 +13,12 @@
     unsigned long long aggregate;
 }
 
+- (id);
+- (double);
 - (void);
-- (void);
-- (id)4˟;
 - (unsigned long long);
-- (double)retrieve prefetched Today feed from newsd, error=%{public}@;
-- (id)%ùÿ;
+- (void)üiQÿ;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

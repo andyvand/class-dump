@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)h;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) TSDLineEnd *lineEnd; // @synthesize lineEnd=mLineEnd;

@@ -17,7 +17,7 @@
 - (id);
 - (double);
 - (id);
-- (id)No index for for dataclass:%@ - can't open to journal /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double compressionQuality; // @synthesize compressionQuality=_compressionQuality;

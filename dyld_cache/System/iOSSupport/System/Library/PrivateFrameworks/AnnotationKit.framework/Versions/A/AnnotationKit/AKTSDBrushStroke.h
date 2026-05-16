@@ -16,12 +16,12 @@
 }
 
 + (id);
-+ (id)L;
++ (id);
 + (Class);
 + (void);
 + (void);
 + (void);
-+ (id)`";
++ (id);
 - (id);
 - (id);
 - (void);
@@ -36,10 +36,10 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (double);
 - (id);
-- (id)le:storeResultsIn:completionHandler: /* Error: Ran out of types for this method. */;
-- (double)!;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIColor *color; // @synthesize color=_color;

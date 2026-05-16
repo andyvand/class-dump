@@ -9,7 +9,6 @@
 
 @protocol FCNewsAppConfigurationManager
 - (id <FCNewsAppConfiguration>);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;

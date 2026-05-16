@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)on: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *referrerIdentifier; // @synthesize referrerIdentifier=_referrerIdentifier;

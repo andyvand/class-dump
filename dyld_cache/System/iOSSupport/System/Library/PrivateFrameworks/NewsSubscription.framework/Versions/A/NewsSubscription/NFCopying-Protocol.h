@@ -5,6 +5,6 @@
 //
 
 @protocol NFCopying
-- (id)rsViewModelFactoryType;
+- (id)ntroller"16@"NSDictionary"24;
 @end
 

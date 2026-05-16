@@ -8,7 +8,7 @@
 {
 }
 
-- (void)öZf;
+- (void);
 
 @end
 

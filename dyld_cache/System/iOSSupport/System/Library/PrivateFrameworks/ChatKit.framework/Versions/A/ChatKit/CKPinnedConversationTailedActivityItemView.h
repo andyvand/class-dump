@@ -26,20 +26,20 @@
     struct CGSize _parentAvatarViewSize;
 }
 
-- (struct CGPoint)downStringFromPlainMarkdown:(double *)arg1 error:(double *)arg2;
-- (_Bool):range:textView:mentionString: /* Error: Ran out of types for this method. */;
-- (_Bool)applyUnconfirmedMentionToTextStorage:participants:range:textView:mentionString: /* Error: Ran out of types for this method. */;
-- (void)nstraint;
+- (struct CGPoint);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id)ote=%@ wasMarkedForDeletion=%@;
-- (double);
-- (long long)+Conversion.swift;
 - (id);
-- (long long);
+- (double);
+- (long long);
+- (id);
+- (long long);
 - (id);
 - (id);
 - (struct CGPoint);
@@ -49,16 +49,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double)<;
+- (void);
+- (double);
 - (struct CGRect);
-- (double);
+- (double);
 - (struct CGSize);
 - (struct CGPoint);
 - (long long);
 - (struct UIEdgeInsets);
 - (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -67,13 +67,13 @@
 - (void);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (void)4;
-- (id)yle:variant: /* Error: Ran out of types for this method. */;
-- (struct CGSize)RROR_FOLDER_UNMODIFIABLE_SUBITEM_TITLE;
 - (id);
+- (void)View";
+- (void);
+- (id)ÐM/;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem; // @synthesize activityItem=_activityItem;

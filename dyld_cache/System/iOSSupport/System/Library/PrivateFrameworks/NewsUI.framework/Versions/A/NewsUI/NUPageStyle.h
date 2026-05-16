@@ -15,16 +15,16 @@
 }
 
 - (_Bool);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool)tOpacityProperty;
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hideToolbar; // @synthesize hideToolbar=_hideToolbar;

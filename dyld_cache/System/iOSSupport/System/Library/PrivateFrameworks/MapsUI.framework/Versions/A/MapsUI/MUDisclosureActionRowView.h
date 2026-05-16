@@ -31,10 +31,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)£ôÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id <MUDisclosureActionViewModelProviding> viewModel; // @synthesize viewModel=_viewModel;

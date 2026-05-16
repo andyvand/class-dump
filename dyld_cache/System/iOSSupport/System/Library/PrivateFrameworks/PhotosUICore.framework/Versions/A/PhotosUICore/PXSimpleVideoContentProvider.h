@@ -19,13 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (double);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)ÿP/Lr¸4;
+- (id);
+- (id);
+- (double);
+- (void)gZ;
+- (void);
 
 @end
 

@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-
 @protocol UITableViewDelegate
-
-@optional
-- (void);
-- (UIView *);
-- (NSString *)@9;
-- (_Bool)4˟;
-- (_Bool);
 @end
 

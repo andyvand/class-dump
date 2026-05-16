@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)n;
-+ (_Bool)onMetadata;
 + (_Bool);
-+ (id)teDragInteraction;
-+ (id)sÛj8_G;
-+ (long long)fåÇ®þe;
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)on;
++ (long long)¼Æ`þÐg;
 
 @end
 

@@ -4,48 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSArray, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *);
-- (NSArray *)!HEùñÁð1¢!0@ù
-× ;
-- (UITextRange *)Ô!¦	°!LGù1ÃÐ1¢!0@ù
-× ;
-- (UITextPosition *)A¦	!DAùQÃ°1¢!0@ù
-× ;
-- (void)QueryDelegate>";
-- (UITextPosition *)ke;
-- (long long)aletteContainerCenterYConstraint;
-- (void)iew;
-- (long long)delegate;
-- (UITextPosition *)4;
-- (UITextPosition *)`;
-- (void)ð;
-- (NSDictionary *)able;
-- (struct CGRect)ntain strokes that were previously made in the area shown in the screenshot, but which are no longer visible.;
-- (id <UITextInputTokenizer>)ings.drawing.slowRendering;
+- (NSString *)mAtIndexPath:(UITextRange *)arg1;
+- (NSArray *)ementRecognitionIDs;
+- (long long)UndoRedoButtonsVisibleInCompactSize:(UITextPosition *)arg1 ,V__wantsUndoRedoButtonsVisibleInCompactSize;
+- (NSDictionary *)resentationController;
+- (long long)ToRadarCommand;
+- (UITextRange *)"NSString",C,N,V_name;
+- (long long)eQueryDelegate>",W,N,V_autoRefineDelegate;
+- (UITextRange *)ntentView;
+- (struct CGRect)tÞ(ßÌßà4ã¨ãæAêTêøë;
+- (void)Ür;
+- (UITextPosition *);
+- (UITextPosition *);
+- (id <UITextInputTokenizer>)trokes replacing %ld strokes;
+- (void)Sharpener log from %@; error:(id <UITextInputDelegate>)arg1 %@;
+- (struct CGRect)lu SDR strokes, and %lu HDR strokes;
+- (void)or:invalid mutableImageMetadata /* Error: Ran out of types for this method. */;
+- (UITextRange *)ionLevelCluster;
+- (UITextPosition *)icaIndex;
+- (UITextPosition *)s;
+- (void)radar;
+- (void)Éæb3Ðÿ¹æbè2Ðÿ;
 
 @optional
-- (UITextRange *);
-- (long long)0;
-- (id);
-- (void)`;
-- (UITextRange *);
-- (void)anGR:(NSString *)arg1;
-- (void)rokeMask;
-- (void):(NSArray *)arg1;
-- (struct CGRect)actionFeedbackHostView;
-- (void)Ì~t	T;
-- (void)¬;
-- (_Bool);
-- (UITextPlaceholder *)¼;
-- (_Bool) 
-;
-- (void)Controller was not fully torndown before dealloc.;
-- (void)Ñÿ;
-- (void);
+- (void)w",R,N,V__borderView;
+- (void)Gain:(NSArray *)arg1;
+- (void),C,N,V_activePreviewText;
+- (void)ceControllerDelegate;
+- (_Bool)ÌPL¡S¤;
+- (UIView *)¸;
+- (struct CGRect)nk:r:path:/System/Library/PrivateFrameworks/DataDetectorsUI.framework/DataDetectorsUI /* Error: Ran out of types for this method. */;
+- (void)büvÌÿ;
+- (UITextPosition *);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -75,5 +69,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

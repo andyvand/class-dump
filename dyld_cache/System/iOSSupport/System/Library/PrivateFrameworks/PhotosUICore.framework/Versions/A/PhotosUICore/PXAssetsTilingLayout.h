@@ -65,16 +65,16 @@
 - (void);
 - (struct PXSimpleIndexPath);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (struct PXSimpleIndexPath);
 - (id);
-- (void)abled:(struct PXSimpleIndexPath)arg1;
-- (struct PXSimpleIndexPath)"øøÿ;
-- (unsigned long long)bool}d;
 - (id);
+- (void);
+- (unsigned long long);
+- (id)ss is not granted, no further prompting is needed.;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXBasicTileUserData *_draggingDimmingUserData; // @synthesize _draggingDimmingUserData=__draggingDimmingUserData;

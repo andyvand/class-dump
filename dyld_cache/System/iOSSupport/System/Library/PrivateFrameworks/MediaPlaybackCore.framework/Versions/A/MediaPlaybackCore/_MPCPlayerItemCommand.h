@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSString *_contentItemID;
 }
 
-- (void)G/H/O/;
+- (void);
 - (id);
-- (void)7;
+- (void)US:%{public}@:%{public}@] _addPlaybackContext:| rolling back edit [identifierList does not contain afterItem] afterSection=%{public}@ afterItem=%{public}@ edit=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentItemID; // @synthesize contentItemID=_contentItemID;

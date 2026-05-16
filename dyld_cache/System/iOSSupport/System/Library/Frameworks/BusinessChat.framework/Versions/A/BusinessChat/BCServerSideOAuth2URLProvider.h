@@ -29,19 +29,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (void);
+- (id)bView:navigationAction:didBecomeDownload: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *additionalParameters; // @synthesize additionalParameters=_additionalParameters;

@@ -8,14 +8,10 @@
 @protocol FCPuzzleTypeProviding;
 
 @protocol FCPuzzleProviding
-- (NSString *);
-- (NSArray *);
-- (NSString *): /* Error: Ran out of types for this method. */;
-- (NSDate *)R;
-- (NSDate *);
-- (NSString *);
-- (_Bool)ÿÿ;
-- (_Bool)Üëÿ¡ÍaÈÜëÿÍaðÜëÿ;
+- (_Bool)arserType;
+- (NSDate *)bly;
+- (long long)ype;
+- (_Bool)iptionOffersViewModel;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;

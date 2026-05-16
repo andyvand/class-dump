@@ -4,17 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MPCQueueControllerUpNextBehavior
-- (void)work/Versions/A/CoreFoundation;
-- (long long)otolist__DATA_CONST;
-- (_Bool)al;
-- (void)on:(NSString *)arg1;
-
-@optional
-- (NSString *);
-- (void)z;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsQueueModifications;

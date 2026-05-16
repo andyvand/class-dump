@@ -19,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void)1Í1¢!0@ù
-× ;
-- (id)ndexPath: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)tForTextRangeAdjustmentEdgeRect:(struct CGRect)arg1 isVertical:direction: /* Error: Ran out of types for this method. */;
+- (void)utMargins;
+- (id)lease pass an object of type UIDragItem.;
+- (void)èþ ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

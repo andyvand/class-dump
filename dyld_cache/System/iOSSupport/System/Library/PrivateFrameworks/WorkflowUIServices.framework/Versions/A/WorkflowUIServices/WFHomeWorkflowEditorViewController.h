@@ -20,11 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFComposeViewController *composeViewController; // @synthesize composeViewController=_composeViewController;

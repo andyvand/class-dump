@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     CDStruct_c223d907 _has;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
-- (void)跟;
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void)[BMUS:%{public}@:%{public}@] _addAutoPlayPlaybackContext:| committing edit [added data source] /* Error: Ran out of types for this method. */;
 
 @end
 

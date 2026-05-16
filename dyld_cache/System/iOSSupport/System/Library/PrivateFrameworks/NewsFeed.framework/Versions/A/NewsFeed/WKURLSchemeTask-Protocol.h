@@ -7,9 +7,7 @@
 @class NSURLRequest;
 
 @protocol WKURLSchemeTask
-- (void)þÄÌÿ;
-- (NSURLRequest *)etStrategy;
-- (void)©Æ¾Bþ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURLRequest *request;

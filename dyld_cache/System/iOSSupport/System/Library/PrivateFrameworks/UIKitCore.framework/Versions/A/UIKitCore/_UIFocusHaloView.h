@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
     UITraitCollection *_gapSourceTraitCollection;
 }
 
-+ (_Bool)antViewCanAnimate: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (void);
 - (void);
@@ -37,31 +37,33 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)tChanges;
-- (void)ore;
+- (void);
+- (void);
 - (_Bool);
-- (void)delete tombstones for %ld attachments still being referenced;
-- (id)nected, account or server is invalid;
+- (void);
+- (id);
 - (void);
 - (double);
 - (double);
 - (void);
-- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long)dioParameters;
-- (id)ustment:forBarMetrics: /* Error: Ran out of types for this method. */;
-- (void)operties",R,N,V_secondaryButtonProperties;
-- (void)SLayoutConstraint",&,N,V_bubbleTopConstraint;
 - (id);
-- (id)ed;
 - (void);
-- (id)ÿßÊ+kb;
+- (id)¡!8Fù1cÐ1Â0@ù
+× ;
+- (long long)
+× ;
+- (void)t: /* Error: Ran out of types for this method. */;
+- (void)closingBar:(struct CGRect)arg1;
+- (void)ngTransitionController;
+- (id)ptionForConstraintsAffectingAxis:(struct CGRect)arg1;
+- (id)attenedGameControllerFocusMovement;
+- (id)er",R,W,N,V_tabBarController;
+- (void)eractionProgress;
+- (void)because we're in live resize.;
+- (void)ent"8@"_UITitleContent"16;
+- (void)T®[;
+- (void)Ú¬k_;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *gapColor; // @synthesize gapColor=_gapColor;

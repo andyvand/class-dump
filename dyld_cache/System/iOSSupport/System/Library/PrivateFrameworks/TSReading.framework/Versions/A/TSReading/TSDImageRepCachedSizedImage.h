@@ -22,12 +22,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (long long);
 - (void);
 - (struct CGImage *);
-- (long long);
-- (struct CGSize)AJð!AùRð1¢!0@ù
-× ;
+- (struct CGSize);
+- (void)orProperty:(struct CGSize)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool imageHasAdjustmentsBakedImage; // @synthesize imageHasAdjustmentsBakedImage=mImageHasAdjustmentsBakedImage;

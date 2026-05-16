@@ -13,8 +13,8 @@
 
 - (void);
 - (struct CGRect);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frameOfSourceInDestination;

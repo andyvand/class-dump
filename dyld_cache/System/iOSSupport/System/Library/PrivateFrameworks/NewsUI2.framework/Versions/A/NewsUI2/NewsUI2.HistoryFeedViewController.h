@@ -17,18 +17,18 @@
     MISSING_TYPE *$__lazy_storage_$_clearButton;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)ìßÿÈìßÿììßÿíßÿDíßÿhíßÿ´íßÿøíßÿ$îßÿHîßÿlîßÿ îßÿÜîßÿ;
-- (void)allow;
 - (void);
-- (void)p;
+- (void);
+- (void);
+- (void);
+- (void)ItemModel;
+- (void),ËðþÍÌ^¼ÃXÿÕÌ^ØÃXÿÕÌ^ôÃXÿÕÌ^ÄXÿ;
+- (void);
+- (void);
 
 @end
 

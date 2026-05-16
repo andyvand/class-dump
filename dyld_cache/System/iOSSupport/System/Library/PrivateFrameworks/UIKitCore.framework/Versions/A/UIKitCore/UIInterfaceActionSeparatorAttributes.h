@@ -13,18 +13,18 @@
     double _opacity;
 }
 
-- (id)};
-- (_Bool);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)ransformToFlock: /* Error: Ran out of types for this method. */;
-- (id)erredStackOrder;
-- (double)edLength;
-- (id)H=;
-- (void)uctivity.threeFingerPinch;
-- (void)yout the container view;
-- (void)ª$ÿ;
+- (id)ectionHighlight: /* Error: Ran out of types for this method. */;
+- (_Bool)InRange:(id)arg1 options:passingTest: /* Error: Ran out of types for this method. */;
+- (void)ailingInsetConstraint;
+- (double)alues: /* Error: Ran out of types for this method. */;
+- (id)ut;
+- (void)@;
+- (id)ass;
+- (void)E13ÔþþM13¸ì¸þ;
+- (void)lE;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

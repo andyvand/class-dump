@@ -23,41 +23,40 @@
 }
 
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)j
-;
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)24@32{CGRect={CGPoint=dd}{CGSize=dd}}40;
-- (id)tTextBaseline: /* Error: Ran out of types for this method. */;
-- (id)art;
-- (void)e Break;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)I;
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void),R,C;
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *articleDataProviderCache; // @synthesize articleDataProviderCache=_articleDataProviderCache;

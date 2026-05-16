@@ -5,8 +5,5 @@
 //
 
 @protocol SXAppStateMonitor
-
-@optional
-- (void);
 @end
 

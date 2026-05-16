@@ -17,17 +17,17 @@
     MISSING_TYPE *commandContainer;
 }
 
-- (void)JL;
-- (void);
-- (void);
-- (void);
 - (id);
-- (id)i;
+- (id);
 - (void);
-- (void)$üàÿHüàÿüàÿ¨üàÿüüàÿýàÿ¬ýàÿÐýàÿ4þàÿXþàÿ|þàÿ8ÿàÿ\ÿàÿÿàÿ°ÿàÿÔÿàÿ;
 - (void);
-- (void)G=,ÿB;
-- (void);
+- (void);
+- (void);
+- (void)P;
+- (void);
+- (void);
+- (void)ÄÖ4;
+- (void)lP;
 
 @end
 

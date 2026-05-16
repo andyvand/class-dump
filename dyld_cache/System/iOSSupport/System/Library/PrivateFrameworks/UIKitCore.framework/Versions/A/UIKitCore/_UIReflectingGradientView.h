@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)E;
-- (_Bool);
++ (Class);
+- (_Bool);
 
 @end
 

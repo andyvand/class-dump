@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCache;
+
 @protocol NSCacheDelegate
 
 @optional
-- (void);
+- (void):(NSCache *)arg1 %@, identifier:(id)arg2 %@, sectionItems:%@ /* Error: Ran out of types for this method. */;
 @end
 

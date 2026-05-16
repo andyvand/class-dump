@@ -7,7 +7,7 @@
 @protocol PXAudioCueSource;
 
 @protocol PXStoryPacingCueSource
-- (CDStruct_1b6d18a9)t to create an image:%@ /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)tleFullScreenLandscapeWidthScale;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioCueSource> audioCueSource;

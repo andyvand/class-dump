@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 

@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id)À¡P¢°¢;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

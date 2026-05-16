@@ -7,8 +7,7 @@
 @class NSDate;
 
 @protocol GEOTransitTimeRange
-- (double)Áf!AùÑn°1b0@ù
-× ;
+- (_Bool)kLayoutGroupInternal",&,N,V_internal;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

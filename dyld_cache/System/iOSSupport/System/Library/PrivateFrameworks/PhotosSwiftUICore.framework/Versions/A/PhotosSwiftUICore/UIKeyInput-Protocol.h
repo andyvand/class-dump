@@ -5,8 +5,7 @@
 //
 
 @protocol UIKeyInput
-- (_Bool);
-- (void)_AAatcSg;
+- (_Bool)kView_Previews5Model;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

@@ -28,8 +28,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;

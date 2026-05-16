@@ -16,16 +16,16 @@
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)Action dndApplicationIdentifier];
-- (void)st in the Reminders app.;
+- (void);
 - (id);
+- (id);
+- (void).;
+- (void){;
+- (id)02;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WFAction *action; // @synthesize action=_action;

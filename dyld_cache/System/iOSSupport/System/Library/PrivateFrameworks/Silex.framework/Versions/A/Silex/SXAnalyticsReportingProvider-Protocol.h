@@ -7,7 +7,6 @@
 @protocol SXAnalyticsReporting;
 
 @protocol SXAnalyticsReportingProvider
-- (id <SXAnalyticsReporting>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReporting> analyticsReporting;

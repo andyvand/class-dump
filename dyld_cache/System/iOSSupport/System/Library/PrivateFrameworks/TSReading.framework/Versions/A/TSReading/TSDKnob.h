@@ -37,7 +37,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (struct CGRect);
@@ -46,19 +46,19 @@
 - (id);
 - (int);
 - (void);
-- (double);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (struct CGPoint)beddings before this, halting processing of sessions.;
-- (id);
-- (void);
+- (unsigned long long);
 - (int);
 - (struct CGPoint);
-- (void)H;
-- (void)lumn(TSTTableModel *, TSUColumnIndex, BOOL *);
-- (unsigned long long)oVector:viewScale:strokeTileLayout:cachedCurrentElementPercentage:] /* Error: Ran out of types for this method. */;
-- (void)Â¬;
+- (double);
+- (void);
+- (void);
+- (void)SIndexSet";
+- (id):array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestEqualTo, TSP::DataDigestHash>, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)"8@?0;
+- (struct CGPoint)-[TSKUIAlert alertView:willDismissWithButtonIndex:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) TSDBezierPath *hitRegionPath; // @synthesize hitRegionPath=mHitRegionPath;

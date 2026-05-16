@@ -27,20 +27,20 @@
 - (void);
 - (void);
 - (void);
-- (void)ueryProvider;
-- (void)iceConditionsToCheck:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)izingPath;
-- (void)dy:(id)arg1 forMessageWithGUID:deleteDate: /* Error: Ran out of types for this method. */;
-- (void)eplace:(id)arg1 modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage:isCloudImport:isIncomingMessage:didReplaceBlock: /* Error: Ran out of types for this method. */;
-- (void)readCount:(id)arg1 reindexMessage:isCloudImport: /* Error: Ran out of types for this method. */;
-- (_Bool)MMessageActionItem:(id)arg1 withProtobufData: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void)g path:(id)arg1 %@, ;
+- (void);
 - (id);
-- (void);
-- (id)sion;
-- (id)tion:(id)arg1 useForce: /* Error: Ran out of types for this method. */;
-- (id)skList"16^B24;
+- (id);
+- (id);
+- (id)ndsDidChange;
+- (void)µÿÁ´;
 
 // Remaining properties
 @property(copy, nonatomic) _UICalendarDateRange *dateRange; // @synthesize dateRange=_dateRange;

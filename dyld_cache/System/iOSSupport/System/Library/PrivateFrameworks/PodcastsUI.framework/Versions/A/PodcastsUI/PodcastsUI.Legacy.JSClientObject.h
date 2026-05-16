@@ -19,11 +19,11 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)=C^_;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *buildType;

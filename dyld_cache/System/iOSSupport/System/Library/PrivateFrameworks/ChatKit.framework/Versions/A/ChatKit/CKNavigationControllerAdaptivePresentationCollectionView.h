@@ -12,10 +12,10 @@
     _Bool _preserveModalPresentationStyle;
 }
 
-- (_Bool)ootRecordID;
-- (void)lickableTextView;
-- (void)AttachmentPreviewImageLoader;
-- (_Bool)I;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

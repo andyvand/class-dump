@@ -5,8 +5,6 @@
 //
 
 @protocol FCNetworkReachabilityType
-- (_Bool)q9;
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long cellularRadioAccessTechnology;

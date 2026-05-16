@@ -24,9 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (void)a£Ð!lFùñµ
-1b0@ù
-× ;
+- (void)sts (Media Type);
 
 // Remaining properties
 @property(retain, nonatomic) FBSDisplayLayoutMonitor *displayLayoutMonitor; // @synthesize displayLayoutMonitor=_displayLayoutMonitor;

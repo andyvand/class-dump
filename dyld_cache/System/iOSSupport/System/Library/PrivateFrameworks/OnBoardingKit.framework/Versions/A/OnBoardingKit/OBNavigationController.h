@@ -10,11 +10,10 @@
 }
 
 - (void);
-- (void)!;
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (void)0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long supportedInterfaceOrientations; // @synthesize supportedInterfaceOrientations=_supportedInterfaceOrientations;

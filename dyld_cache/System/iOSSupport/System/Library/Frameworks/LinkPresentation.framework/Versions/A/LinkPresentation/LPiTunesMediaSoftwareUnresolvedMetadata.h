@@ -29,27 +29,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)e.WalletPassSharingExternalInvitationMessageGenericData.sharingDataType;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)p;
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)pecializations.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

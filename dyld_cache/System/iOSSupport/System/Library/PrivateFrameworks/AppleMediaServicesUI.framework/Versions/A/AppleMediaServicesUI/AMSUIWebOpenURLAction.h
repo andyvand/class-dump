@@ -19,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (long long);
 - (void);
+- (void)enter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

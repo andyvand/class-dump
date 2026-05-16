@@ -5,10 +5,9 @@
 //
 
 @protocol UIViewControllerInteractiveTransitioning
-- (void)ÐÌxÎ;
 
 @optional
-- (long long)dView"b1"showsPanSuffix"b1"loadedCachedFaceImage"b1"loadedFaceImage"b1"loadedPartialFaceImage"b1"loadedPlaceholderImage"b1"backgroundModeSet"b1"faceImageLoading"b1"partialFaceImageLoading"b1};
+- (long long)Pay AppleÂ Card ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long completionCurve;

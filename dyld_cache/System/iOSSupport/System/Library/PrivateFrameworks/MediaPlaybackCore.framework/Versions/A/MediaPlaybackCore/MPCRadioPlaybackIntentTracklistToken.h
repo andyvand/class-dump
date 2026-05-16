@@ -15,8 +15,8 @@
     NSURL *_radioStationURL;
 }
 
-+ (_Bool)sing;
-- (void)rrect entitlements to get the master token;
++ (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -26,10 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool continueListeningStation; // @synthesize continueListeningStation=_continueListeningStation;

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UILabel *_label;
 }
 
-- (void);
 - (id);
-- (void);
 - (id);
+- (void)°! $;
+- (void)ViewController-_cancelFlow] User tapped cancel button;
 
 // Remaining properties
 @property(copy, nonatomic) UILabel *label; // @synthesize label=_label;

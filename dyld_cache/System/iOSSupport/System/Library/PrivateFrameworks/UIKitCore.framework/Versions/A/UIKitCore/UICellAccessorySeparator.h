@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)Ú/n;
-- (long long);
-- (id)N,S_setAllowedInContextTransform: /* Error: Ran out of types for this method. */;
-- (long long)ionQueue, clearing shared assertion;
-- (id)hÔßþ­0;
++ (_Bool)cell in a storyboard;
+- (id);
+- (long long)NSArray",R,N,V_auxillaryFrames;
+- (id)\;
+- (long long)KÆÿ;
 
 @end
 

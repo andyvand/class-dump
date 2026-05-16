@@ -15,24 +15,24 @@
     long long _tag;
 }
 
-- (void)PCSAttributes;
+- (void);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
+- (long long);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)houldUsePaperAppearance=ReaderAppearanceJS._shouldUsePaperAppearance.bind(ReaderAppearanceJS);ReaderAppearanceJS._shouldUsePaperAppearance=function(){return 0!==window.orientation&&180!==window.orientation&&originalShouldUsePaperAppearance()},ReaderAppearanceJS._isOLEDDisplay=function(){return!!(ReaderJSController.initialConfiguration()||{}).isOLEDDisplay},ReaderJS._distanceFromBottomOfArticleToStartLoadingNextPage=function(){return ReaderJSController.maxDistanceForLoadingNextPage()||(screen.height>=1024?2048:1024)},ReaderJS._shouldSkipActivationWhenPageLoads=function(){return ReaderJSController.isLoadingFromOfflineReadingListArchive&&ReaderJSController.isLoadingFromOfflineReadingListArchive()},ReaderJS._shouldConvertRelativeURLsToAbsoluteURLsWhenPrintingOrMailing=!0,ReaderJS._deferSendingContentIsReadyForDisplay=!0,ReaderJS._isJavaScriptEnabled=function(){return!!(ReaderJSController.initialConfiguration()||{})[ReaderConfigurationJavaScriptEnabledKey]},ReaderAppearanceJS._tryApplyStaticConfiguration=function(){return document.body.classList.add("ios"),!1}; /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (long long)!¤Dùð1¢!0@ù
+- (void)Qê1Â0@ù
 × ;
-- (void)eationDate;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

@@ -7,11 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)C;
-- (id);
-- (Class);
-- (id)herOccurrences;
-- (unsigned long long);
+- (struct _NSZone *)ectionCalculator;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

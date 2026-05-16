@@ -11,7 +11,7 @@
     _Bool _preservesRepeatMode;
 }
 
-- (id)ngValue;
+- (id);
 - (_Bool);
 
 // Remaining properties

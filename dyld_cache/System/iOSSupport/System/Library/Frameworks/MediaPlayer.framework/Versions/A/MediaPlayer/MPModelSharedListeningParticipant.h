@@ -10,10 +10,10 @@
 {
 }
 
-+ (id)ID:streamIdentifier:eventClass:storeConfig:syncPolicy:legacyNames:internalMetadata:enableSubscriptions:enableSubscriptionSubstream:enableTombstoneSubstream:allowedClients:pruningTriggers:spaceAttributionOwner: /* Error: Ran out of types for this method. */;
-+ (void)ri;
 + (id);
-- (id)sher>";
++ (void);
++ (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;

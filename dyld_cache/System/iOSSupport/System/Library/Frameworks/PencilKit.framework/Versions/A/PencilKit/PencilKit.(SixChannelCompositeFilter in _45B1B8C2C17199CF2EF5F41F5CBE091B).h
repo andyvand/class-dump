@@ -14,9 +14,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id);
+- (id)0@ù
+× ;
+- (void)d7;
 
 // Remaining properties
 @property(nonatomic, readonly) CIImage *outputImage;

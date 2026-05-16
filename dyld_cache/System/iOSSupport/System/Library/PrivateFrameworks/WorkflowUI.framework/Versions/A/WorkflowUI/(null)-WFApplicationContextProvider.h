@@ -15,7 +15,7 @@
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long)Ï2yùÈSgG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

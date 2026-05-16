@@ -27,9 +27,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (SEL);
+- (SEL)ceVerticalCardConfiguration";
+- (void)TitleLabel;
 
 // Remaining properties
 @property(retain, nonatomic) UIMenu *seeMoreButtonMenu; // @synthesize seeMoreButtonMenu=_seeMoreButtonMenu;

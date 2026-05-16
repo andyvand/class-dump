@@ -34,18 +34,18 @@
 - (id);
 - (id);
 - (id);
-- (id)layerProxy_SetWirelessPlaybackTarget;
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool)ibrary/BuildRoots/4~CHlpugD-eGuyyCNPdCsWeKPYI77pqSPINYR34uM/Library/Caches/com.apple.xbs/Sources/MessagesCore_iosmac/IMCore/IMCore/Source/ImportExport/Exporting/Iterators/ParticipantExportIterator.swift;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)P-;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;

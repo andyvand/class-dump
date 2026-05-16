@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (void);
+- (struct CGPoint);
 - (void);
-- (void);
-- (struct CGPoint)Þÿ;
+- (void)oPanel.discoverability.image;
+- (void)qâÈ¨!ÿÁâÈ¨!ÿQâÈ¨!ÿQâÈ w ÿâÈ¨!ÿÑâÈ,¨!ÿ¡âÈ¨!ÿ;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface NewsUI2.MagazineSectionBarBlueprintLayoutBuilder
 {
     MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *featureAvailability;
 }
 
 @end

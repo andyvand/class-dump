@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView, UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)oundColors;
-- (void)c;
+- (UIView *)0:(UIScrollView *)arg1 8;
+- (void)ption of an audio playback rate of 1.25x.;
 @end
 

@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIInputSwitcherSegmentControl *_segmentControl;
 }
 
-+ (struct CGSize)try to create one;
-- (void)ginsRegistered:(_Bool)arg1;
-- (id);
-- (void);
++ (struct CGSize);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id)ICTFontTextStyleTitle3;
+- (void)~dÑ´¹g;
 
 // Remaining properties
 @property(readonly, nonatomic) UIInputSwitcherSegmentControl *segmentControl; // @synthesize segmentControl=_segmentControl;

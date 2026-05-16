@@ -40,13 +40,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 @end
 

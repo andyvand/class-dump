@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
-- (id)URL;
-- (id)overlapDateInterval (in %s:(id)arg1 %d);
+- (id);
+- (id)];
+- (void)messageGUID:%@,success:%d,error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *updatedKeys; // @synthesize updatedKeys=_updatedKeys;

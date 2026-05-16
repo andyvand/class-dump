@@ -23,9 +23,9 @@
 - (short);
 - (_Bool);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) short detectionType;

@@ -7,7 +7,7 @@
 @class UIViewController;
 
 @protocol UIContextMenuInteractionAnimating
-- (void)ØÎüÿfâÿLº;
+- (void)reload policy created after %{public}@, jittered up to %f is %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *previewViewController;

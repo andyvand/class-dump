@@ -19,23 +19,24 @@
 
 + (id);
 + (id);
-+ (_Bool)®eØ×´";
++ (_Bool)n"16@"NSError"24;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (float)orm3DValue;
-- (id)ÿÿÈîÿÏÿpD;
-- (void)%@ %p> (ref:(id)arg1 %p) targets the wrong world %p (ref:%p) â has token for %p (%p) /* Error: Ran out of types for this method. */;
+- (void);
+- (float)
+;
 
 // Remaining properties
 @property(nonatomic) float bias;

@@ -20,35 +20,35 @@
 }
 
 + (id);
-+ (_Bool)V_usesActivityPub;
-- (id)@9?k!;
-- (void);
-- (id) ;
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
++ (_Bool);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
-- (id)D;
-- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)+;
-- (void);
 - (id);
-- (id)0@ù
+- (void);
+- (void)
 × ;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

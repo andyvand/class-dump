@@ -23,9 +23,9 @@
 - (long long);
 - (id);
 - (id);
-- (void)Ì;
-- (unsigned long long);
 - (id);
+- (unsigned long long);
+- (void)PHAssetExportRequestVariant;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

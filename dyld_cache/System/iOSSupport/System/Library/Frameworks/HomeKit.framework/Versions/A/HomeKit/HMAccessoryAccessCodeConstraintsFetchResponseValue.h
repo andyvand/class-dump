@@ -13,23 +13,23 @@
     NSError *_error;
 }
 
-+ (id)h;
-+ (_Bool)5291;
++ (id);
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)à;
-- (id)}@Did receive cached event:%@, topic:%@, source:%@ /* Error: Ran out of types for this method. */;
-- (id)e;
-- (id)ÿ;
+- (void)ergyAutomation;
+- (id)e;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;

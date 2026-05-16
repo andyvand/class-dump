@@ -11,9 +11,10 @@
     NSArray *_sections;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;

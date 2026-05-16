@@ -18,22 +18,22 @@
 
 - (void);
 - (_Bool);
-- (id)qz;
-- (void)<d;
-- (id);
-- (void);
-- (void);
-- (void)e;
-- (void)ifier;
-- (void)ManagementMoveBlueprintModifier;
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id)?@"SWInspection">16;
+- (id)hÕ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

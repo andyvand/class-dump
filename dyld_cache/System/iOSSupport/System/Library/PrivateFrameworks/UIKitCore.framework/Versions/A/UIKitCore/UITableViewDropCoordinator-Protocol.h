@@ -8,11 +8,12 @@
 @protocol UIDragAnimating, UIDropSession, UITableViewDropPlaceholderContext;
 
 @protocol UITableViewDropCoordinator
-- (id <UIDragAnimating>);
-- (id <UITableViewDropPlaceholderContext>)ec;
-- (NSArray *)DØ¦þÅcÿ3lÍ±þ;
-- (id <UIDropSession>)ListMetricsProviding;
-- (UITableViewDropProposal *);
+- (id <UITableViewDropPlaceholderContext>)!ð!XGùQ]Ð1Â0@ù
+× ;
+- (NSArray *)SpecificLaunchOptions:registerLaunchOption: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)rTerm: /* Error: Ran out of types for this method. */;
+- (UITableViewDropProposal *)ntainerSafeAreaInsets;
+- (id <UIDragAnimating>)s Setting keyboard minimized = YES;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *destinationIndexPath;

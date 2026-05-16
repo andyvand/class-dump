@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol WFStaccatoLinkAction
-
-@optional
-- (NSString *)Ømyl¬Ö0%EÉ;
 @end
 

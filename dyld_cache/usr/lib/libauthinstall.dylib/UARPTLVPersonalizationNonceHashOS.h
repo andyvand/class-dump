@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSData *nonceHash; // @synthesize nonceHash=_nonceHash;

@@ -45,12 +45,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *containingScrollViews;

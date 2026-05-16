@@ -18,24 +18,24 @@
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
 - (long long);
 - (void);
-- (_Bool);
+- (long long);
+- (void);
 - (id);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (long long);
+- (void);
 - (long long);
 - (long long);
-- (long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isOverrideActive; // @synthesize isOverrideActive=_isOverrideActive;

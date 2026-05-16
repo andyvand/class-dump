@@ -5,8 +5,5 @@
 //
 
 @protocol UICalendarViewDelegate
-
-@optional
-- (void);
 @end
 

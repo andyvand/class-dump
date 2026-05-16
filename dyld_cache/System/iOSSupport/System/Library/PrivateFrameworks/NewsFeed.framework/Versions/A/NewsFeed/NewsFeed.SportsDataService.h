@@ -16,6 +16,8 @@
     MISSING_TYPE *sportsEventController;
     MISSING_TYPE *eventRosterCache;
     MISSING_TYPE *visualizationCache;
+    MISSING_TYPE *countryFlagConfigCache;
+    MISSING_TYPE *countryFlagConfigFetchDeduper;
 }
 
 @end

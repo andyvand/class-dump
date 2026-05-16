@@ -16,7 +16,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (id)hape;
++ (id);
 - (void);
 - (id);
 - (void);
@@ -31,10 +31,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

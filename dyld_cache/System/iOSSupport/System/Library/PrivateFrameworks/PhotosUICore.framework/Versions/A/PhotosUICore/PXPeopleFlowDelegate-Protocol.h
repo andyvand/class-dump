@@ -5,7 +5,6 @@
 //
 
 @protocol PXPeopleFlowDelegate
-- (void)APyAQyACyAlGG_ARtGGAMG-!G!G_ACyACyACyArMGAVGAXGtGGGAð#´³!G_Qo_;
-- (void)x®2ÿ;
+- (void);
 @end
 

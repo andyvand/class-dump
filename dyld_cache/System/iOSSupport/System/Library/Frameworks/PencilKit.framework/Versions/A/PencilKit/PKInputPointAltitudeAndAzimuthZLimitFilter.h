@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (void)R;
+- (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 

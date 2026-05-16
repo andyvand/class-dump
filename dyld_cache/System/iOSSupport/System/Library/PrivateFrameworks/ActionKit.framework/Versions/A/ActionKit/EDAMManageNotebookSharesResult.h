@@ -17,7 +17,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)le.Dataclass.Ubiquity;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;

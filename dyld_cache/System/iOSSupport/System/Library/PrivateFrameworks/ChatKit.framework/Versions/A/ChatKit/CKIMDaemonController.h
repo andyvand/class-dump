@@ -13,35 +13,35 @@
 }
 
 + (void);
-+ (id)s@�;
-+ (id)Í1;
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id);
++ (id)nagerDelegate;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)v;
-- (void)controllers checked in, delaying update;
-- (id)ED_CONTACT_INFO_FORMAT;
-- (void)void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)Z£f>¡,;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)ting;
+- (void)roller:(id)arg1 constrainPrimaryColumnWidthForResizeWidth: /* Error: Ran out of types for this method. */;
+- (void)ated. The channel creation failed due to:(id)arg1 %@;
+- (void) ¸;
+- (id)5Mh-;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *listeners; // @synthesize listeners=_listeners;

@@ -17,11 +17,12 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (void)iedBusinessContainerView;
 - (id);
 
 // Remaining properties

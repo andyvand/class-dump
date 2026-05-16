@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
+- (id);
 - (void);
-- (id)/A/IDSKVStore;
 
 @end
 

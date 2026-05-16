@@ -21,16 +21,16 @@
 - (void);
 - (void);
 - (void);
-- (void).;
+- (void);
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (void),;
 - (void);
-- (double);
-- (void)_wantsGrabber;
+- (double)ase;
+- (void)e is no next focused item, but updating focus to nil is not allowed.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableOrderedSet *contentViews; // @synthesize contentViews=_contentViews;

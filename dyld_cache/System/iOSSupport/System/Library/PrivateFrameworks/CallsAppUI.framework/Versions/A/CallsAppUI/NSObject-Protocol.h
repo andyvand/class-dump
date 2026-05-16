@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)owConfidenceLimit;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

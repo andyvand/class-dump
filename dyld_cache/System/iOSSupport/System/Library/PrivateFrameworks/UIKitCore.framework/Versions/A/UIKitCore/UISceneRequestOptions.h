@@ -8,8 +8,8 @@
 {
 }
 
-+ (id)}16;
-+ (id)6W_;
++ (id);
++ (id)tPanelVisible;
 
 @end
 

@@ -16,21 +16,21 @@ __attribute__((visibility("hidden")))
     UIViewController *__associatedViewController;
 }
 
-+ (id)essingParameter;
-+ (id)ncomingReadReceiptAssertion;
-- (void)ta;
-- (void)mmitSealedData;
++ (id);
++ (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool)ng"52;
-- (id)endMessageEditForMessageGUID: /* Error: Ran out of types for this method. */;
-- (void)jectWithService:(id)arg1 account:incomingTopLevelMessage:fromID: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
 - (id);
+- (void);
+- (id)entStorageURL is nil in Open or Move mode.;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *_associatedViewController; // @synthesize _associatedViewController=__associatedViewController;

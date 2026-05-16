@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (void)est;
+- (void);
+- (void)chemes;
 
 // Remaining properties
 @property(retain, nonatomic) WFAutoIncrementingProgress *delayProgress; // @synthesize delayProgress=_delayProgress;

@@ -24,11 +24,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)¼p	;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraStream *cameraStream;

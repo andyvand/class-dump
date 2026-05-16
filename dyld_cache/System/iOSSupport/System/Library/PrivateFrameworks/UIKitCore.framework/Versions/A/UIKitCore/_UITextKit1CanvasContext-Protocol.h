@@ -7,7 +7,7 @@
 @class NSLayoutManager;
 
 @protocol _UITextKit1CanvasContext
-- (NSLayoutManager *)ntrollerAppearance;
+- (NSLayoutManager *)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLayoutManager *layoutManager;

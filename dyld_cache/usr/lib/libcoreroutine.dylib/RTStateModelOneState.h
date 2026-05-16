@@ -13,18 +13,18 @@
     NSMutableDictionary *_stateTransitions;
 }
 
-+ (_Bool)s in time:%@. /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id)eliveryContextKey;
-- (void);
-- (void);
-- (void)<;
-- (id)e:delegateQueue: /* Error: Ran out of types for this method. */;
-- (id)iator;
++ (_Bool);
 - (id);
-- (id);
-- (id)BÁ.ý¶;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)-[RTVisitPipeline filterVisitClusters:(id)arg1 ];
+- (void)em or LOI fetched;
 
 // Remaining properties
 @property(retain, nonatomic) RTStateDepiction *stateDepiction; // @synthesize stateDepiction=_stateDepiction;

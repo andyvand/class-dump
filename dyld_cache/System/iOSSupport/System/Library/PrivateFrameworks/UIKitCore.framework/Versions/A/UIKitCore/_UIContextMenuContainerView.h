@@ -25,37 +25,35 @@ __attribute__((visibility("hidden")))
 
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id)v88@0:8@"IMDRelayPushHandler"16@"NSDictionary"24@"NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64B72B76@"NSNumber"80 /* Error: Ran out of types for this method. */;
-- (_Bool):flag:lane:reason:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)main:(const struct _UITraitCollectionChangeDescription *)arg1 style:everOnServices:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)T@"IMBlastDoorBackgroundRequestInfo",&,N,V_request;
-- (void)te>",R,N,V_dispatchDelegate;
-- (void);
-- (void)to %@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)e½;
-- (_Bool)1¢!0@ù
-× ;
-- (id)áw°!pCùÍð1¢!0@ù
-× ;
-- (void)uInteraction";
-- (void)onViewCenterX;
-- (void)extEffectsHostingInfo;
+- (id);
 - (_Bool);
-- (_Bool)nter Appearance;
-- (void)g)>;
-- (_Bool)nsition. This means we MAY need to support implicit start/finish animator tracking.;
-- (CDUnknownBlockType),N,&,VsourceViewHidingAssertion;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (CDUnknownBlockType)ileScale: /* Error: Ran out of types for this method. */;
+- (void)emoveGuideAndConstraintGroupsAsNecessary;
+- (void)PasteButton;
+- (void)Ó;
+- (_Bool);
+- (void)ISheetPresentationMetricsC;
+- (_Bool)ùp;
+- (void)m];
+- (_Bool)0ÊÕÿoèÚ`;
+- (void)¥ÏJH]a;
+- (_Bool)Ñÿ}Ødc;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsDragEventsToPassthrough; // @synthesize allowsDragEventsToPassthrough=_allowsDragEventsToPassthrough;

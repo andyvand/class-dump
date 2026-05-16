@@ -26,7 +26,7 @@
 + (_Bool);
 + (_Bool);
 + (RefPtr_95c86671);
-+ (RefPtr_95c86671)8;
++ (RefPtr_95c86671);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -43,13 +43,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)B;
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)£
-;
+- (void)can-use-history-push-agent;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSURLCompletionDataSource> dataSource; // @synthesize dataSource=_dataSource;

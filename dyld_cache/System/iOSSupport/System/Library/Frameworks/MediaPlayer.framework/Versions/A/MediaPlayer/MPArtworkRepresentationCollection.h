@@ -13,17 +13,17 @@
     unsigned long long _bestRepresentationKinds;
 }
 
-+ (id)ark:(id)arg1 identifier:(id)arg2;
-+ (id)d:(id)arg1 maxAge:(id)arg2 maxStreamSize:maxEventCount: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)<BMCoreDuetMediaUsageStore>";
-- (unsigned long long)registerWithSpaceAttributionWithActivity:completion: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)ayerPlayParameters",&,N,V_startItemPlayParameters;
 
 // Remaining properties
 @property(nonatomic) unsigned long long bestRepresentationKinds; // @synthesize bestRepresentationKinds=_bestRepresentationKinds;

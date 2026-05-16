@@ -30,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)AUTH_CONST;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -48,17 +48,18 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)1B0@ù
+- (void);
+- (_Bool);
+- (void)Eù 1â
+0@ù
 × ;
-- (id)thRenderingMode: /* Error: Ran out of types for this method. */;
+- (id)owUpActionWithBundleIdentifier:actionIdentifier:parameterValues:encodedToolInvocation:showOutputActionOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)Finished;
+- (void)c operation;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *airPlayRouteIDs; // @synthesize airPlayRouteIDs=_airPlayRouteIDs;

@@ -16,9 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)tSpeakerMargin, leftHomePodDetailView, rightHomePodDetailView, swapButton;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUServiceDetailsCameraSettingsReaderWriterConfigurator> configurator; // @synthesize configurator=_configurator;

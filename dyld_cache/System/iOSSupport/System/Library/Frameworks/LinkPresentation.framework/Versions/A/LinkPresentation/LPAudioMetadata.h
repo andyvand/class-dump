@@ -14,21 +14,22 @@
     NSString *_accessibilityText;
 }
 
-+ (_Bool),S_setIncomplete:,V_incomplete /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
-- (id);
-- (unsigned int)P;
+- (id);
 - (void);
-- (unsigned long long)P;
+- (id);
+- (id);
+- (unsigned int);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void)J;
 - (void);
-- (id)!;
-- (id);
-- (id);
-- (id);
 - (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

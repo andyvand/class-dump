@@ -20,28 +20,30 @@ __attribute__((visibility("hidden")))
     struct CGSize _unscaledAndPossiblyTooLargeSize;
 }
 
-- (double);
-- (double);
-- (void);
-- (double);
-- (void)(@9
-;
 - (void);
 - (void);
 - (void);
-- (double)!p!Eù±Âð1¢!0@ù
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (double)@ù
 × ;
-- (void)1¢!0@ù
+- (struct CGSize)°!Cùq_1Â0@ù
 × ;
-- (id)2@40;
-- (void)t:(long long)arg1 forPhase: /* Error: Ran out of types for this method. */;
-- (struct CGSize)te;
-- (double)youtDebuggingIdentifier: /* Error: Ran out of types for this method. */;
-- (long long)tHapticParameters: /* Error: Ran out of types for this method. */;
-- (struct CGSize)w;
-- (void)putModelP;
-- (void)SpecifierTypeFitzpatrick4(void);
-- (void);
+- (id)1Â0@ù
+× ;
+- (double)d1Â0@ù
+× ;
+- (void)tainer:(double)arg1;
+- (double)UIScreenRoutePickerRemoteViewControllerHost;
+- (long long)Ø(
+àLì;
+- (void)Y;
+- (double);
+- (double)itionAdjustment;
+- (void)esolvers:(double)arg1;
+- (void)TitleElementsHiddenKey;
 
 // Remaining properties
 @property(nonatomic) double actualScaleFactor; // @synthesize actualScaleFactor=_actualScaleFactor;

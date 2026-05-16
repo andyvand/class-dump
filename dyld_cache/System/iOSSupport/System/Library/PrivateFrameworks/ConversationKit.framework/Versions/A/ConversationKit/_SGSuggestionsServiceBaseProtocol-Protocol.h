@@ -5,8 +5,6 @@
 //
 
 @protocol _SGSuggestionsServiceBaseProtocol
-- (void);
-- (_Bool)t·©ÿM¸t·©ÿ=¸t·©ÿ;
-- (double);
+- (void)Y¨	;
 @end
 

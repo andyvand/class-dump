@@ -14,29 +14,29 @@
     NSDictionary *_dynTypes;
 }
 
-+ (id)ÿÝH6ªÃ1;
-- (id)inedSharedRootObjectsInSource;
-- (id)orWritingTools;
-- (id)ection;
-- (id)tions;
-- (id)lighted;
-- (id)mporaryAttributes;
-- (void)em;
-- (Class)sDragging;
++ (id)l;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)e_$_managedObjectContextDidSavePublisher;
+- (Class);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id)c;
-- (id));
-- (id)s;
-- (id).;
-- (id).;
-- (id)e;
 - (id);
-- (id)gate;
-- (Class)?0@"NSAttributedString"8;
-- (Class)@?0@"NSError"8;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (Class);
+- (Class);
 - (id);
 - (void);
 - (_Bool);
@@ -46,13 +46,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)!;
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)ÿ£e1/;
+- (id);
+- (void)er"16@"IMTapback"24;
+- (void)mData:(id)arg1;
+- (void)ÿò;
+- (id)0;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *UTITypes; // @synthesize UTITypes=_UTITypes;

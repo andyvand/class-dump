@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ary",&,N,V_cachedViewProviders;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

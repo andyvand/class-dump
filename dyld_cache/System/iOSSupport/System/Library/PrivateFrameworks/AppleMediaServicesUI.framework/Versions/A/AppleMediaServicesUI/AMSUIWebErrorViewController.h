@@ -28,17 +28,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)softlink:(id)arg1 r:path:/System/Library/Frameworks/StoreKit.framework/StoreKit /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ClientName: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PXMutableHorizontalCollectionGadget
+- (NSString *)Name;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *collectionAccessoryButtonTitle;

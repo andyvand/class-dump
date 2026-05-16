@@ -21,18 +21,18 @@
 - (id);
 - (double);
 - (double);
-- (void);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (long long);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)e;
+- (void)ng",&,N,VitemIdentifier;
 
 @end
 

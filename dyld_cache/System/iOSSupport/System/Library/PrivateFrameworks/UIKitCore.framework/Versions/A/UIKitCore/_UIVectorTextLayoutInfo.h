@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CGAffineTransform);
-- (id);
 - (void);
 - (double);
-- (struct __CTFrame *);
-- (void)Mode;
-- (void);
-- (void)ionGrabbersAreConcreteImpl;
+- (struct __CTFrame *)Q24q32;
+- (void)idePresentationPoint;
+- (void)ewController;
+- (id)ttonConfiguration",C,N;
+- (void)Ø.3GÊ¶.3y.3y®¾7GGGAByAByAByáª;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform coordinateAdjustment; // @synthesize coordinateAdjustment=_coordinateAdjustment;

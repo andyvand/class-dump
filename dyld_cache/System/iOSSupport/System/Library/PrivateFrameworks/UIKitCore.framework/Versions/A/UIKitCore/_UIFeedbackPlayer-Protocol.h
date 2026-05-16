@@ -5,6 +5,10 @@
 //
 
 @protocol _UIFeedbackPlayer
+- (void)ð!@ùÑ]°1Â0@ù
+× ;
+- (void (^)(void))Ô ;
+- (void)Ð/Ì0d8è9LD;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType invalidationBlock;

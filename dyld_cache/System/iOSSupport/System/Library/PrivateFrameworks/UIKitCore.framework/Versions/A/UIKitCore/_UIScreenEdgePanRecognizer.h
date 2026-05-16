@@ -44,27 +44,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (void)lReports:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)eStore:chatRegistry:accountController:storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
-- (void)nClearNoticePayload:(struct CGPoint)arg1 resultHandler:(double)arg2;
-- (void)lts;
-- (void)neIfNeededWithCompletionBlock:(id)arg1;
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void)tRequest: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
+- (id);
+- (unsigned long long)Z1Â0@ù
+× ;
 - (void);
-- (long long)inedToWindowGuide;
-- (void)ew:(id)arg1;
-- (id)ð`(x\Ø;
-- (long long)ÄG;
-- (id)åj8_G;
-- (void)not being tracked by this registry;
-- (id)ONTAINER(UIView * _Nonnull __strong);
-- (void)g];
+- (void)0@ù
+× ;
+- (long long)!àCùQeð1Â0@ù
+× ;
+- (id);
+- (void);
+- (id)plicationPreservationState:(long long)arg1 viewController:sessionIdentifier:beginHandler:completionHandler:] /* Error: Ran out of types for this method. */;
+- (long long)riginatingBounds;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint _lastTouchLocation; // @synthesize _lastTouchLocation;

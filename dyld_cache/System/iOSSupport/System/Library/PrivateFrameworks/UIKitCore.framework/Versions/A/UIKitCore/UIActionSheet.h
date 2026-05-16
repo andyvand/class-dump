@@ -31,20 +31,20 @@
 - (void);
 - (void);
 - (void);
-- (void)L;
 - (void);
 - (void);
-- (void)to Group chat -- Invalid chat style:(struct CGRect)arg1 %c;
-- (void)ng;
-- (id)he write path;
-- (id)nter - Update from CKRecord found no existing attachment for %@, but was on the write path;
-- (long long)ror while processing iml to im association command:%@, %@ /* Error: Ran out of types for this method. */;
-- (void)rror:(long long)arg1 %@;
-- (long long)oding Failed for Peer Relay: /* Error: Ran out of types for this method. */;
-- (long long)-- falling through.;
-- (id)ccount found for %@ (loginID:(long long)arg1 %@);
-- (id)teChat;
-- (long long)StringDisplayName;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -60,25 +60,26 @@
 - (void);
 - (long long);
 - (long long);
+- (id);
 - (void);
-- (void)yAssertion;
+- (id);
 - (void);
-- (id);
 - (void);
 - (id)0@ù
 × ;
-- (void)UpdateItem;
-- (void)Inactive:(id)arg1 reverseLayout:scale:showsPercentage:contentSizeCategory: /* Error: Ran out of types for this method. */;
-- (id)ntainerView;
-- (id)·;
-- (id)À;
-- (id)ractionCSgXw;
-- (id)ouped dynamic animations may not be run independent of their group;
-- (id)CoreListMetricsSeparatorProviding;
-- (void)ÅD4xtþµD4tþ½D4Àtþ;
-- (void)lÿÚÂ9^;
-- (_Bool)È»{ÿiÚác;
-- (id)l<;
+- (id)!FùqfÐ1Â0@ù
+× ;
+- (void)ionStyle;
+- (void)mentView;
+- (id)r: /* Error: Ran out of types for this method. */;
+- (void)entationController;
+- (id)NSLayoutRect",R,N;
+- (void)InterfaceActionBlankSeparatorView;
+- (id)Ì;
+- (id)IndexPath"16^B24;
+- (id)åÿIxÚ¼^;
+- (void);
+- (_Bool)ÝþöÓTÖn;
 
 // Remaining properties
 @property(nonatomic) long long actionSheetStyle;

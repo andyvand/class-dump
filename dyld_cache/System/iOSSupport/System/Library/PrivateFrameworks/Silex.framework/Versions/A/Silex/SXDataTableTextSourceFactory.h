@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ecognizer";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,7 +5,5 @@
 //
 
 @protocol _UIDismissInteractionDelegate
-- (double);
-- (void);
 @end
 

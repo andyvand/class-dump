@@ -5,7 +5,8 @@
 //
 
 @protocol UIAccessibilityContentSizeCategoryImageAdjusting
-- (void)À;
+- (_Bool)ltStyleEffectConfiguration;
+- (void)llY;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsImageSizeForAccessibilityContentSizeCategory;

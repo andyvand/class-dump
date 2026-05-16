@@ -12,6 +12,7 @@
     MISSING_TYPE *paidAccessChecker;
     MISSING_TYPE *bundleSubscriptionManager;
     MISSING_TYPE *bundleSessionManager;
+    MISSING_TYPE *bundleCampaignSessionManager;
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *appConfigManager;
     MISSING_TYPE *platform;

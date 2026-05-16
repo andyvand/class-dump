@@ -15,14 +15,13 @@
 }
 
 - (void);
-- (void)n!z;
 - (void);
 - (void);
-- (id)5;
-- (id);
+- (id);
 - (void);
-- (void)Ôð!Gù°1¢!0@ù
-× ;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;

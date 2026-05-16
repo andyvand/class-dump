@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
 - (id);
+- (_Bool);
 - (void);
-- (_Bool)yAiQG_SSQo_AFG_Qo_tGGA_GA_GA_GA_GA4_GtGG_è7yAAyöâ7AOyò7GGGG;
+- (void)count:accountParameters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUIAirplaneModeInquiryDelegate> delegate; // @synthesize delegate=_delegate;

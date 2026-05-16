@@ -12,12 +12,12 @@
     UIViewController *_presentationViewController;
 }
 
-- (void)t:(id)arg1;
-- (void)gurationDictionaryCompletionHandler;
-- (id)@ lastFetched:%{public}@ maxAge:%@ treatmentIDs:%{public}@ segmentSetIDs:%{public}@ /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
-- (_Bool)ÃËá×;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void)isLogger;
 
 // Remaining properties
 @property(retain, nonatomic) PKTextInputDebugSharpenerLog *debugSharpenerLog; // @synthesize debugSharpenerLog=_debugSharpenerLog;

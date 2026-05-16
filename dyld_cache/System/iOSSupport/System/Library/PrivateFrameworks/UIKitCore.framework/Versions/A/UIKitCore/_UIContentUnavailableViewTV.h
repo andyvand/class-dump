@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (double);
-- (double)cipients support hqp:%@, hqp enabled:%@ /* Error: Ran out of types for this method. */;
-- (struct CGSize)s for high quality photo size limit:%lu is default:(%@) /* Error: Ran out of types for this method. */;
-- (id)mage %lu default(%@);
-- (id)tempting to send transfer %@ with low quality image mode on. Forcing size limit to be %@;
-- (double)d Size to tiny size %@;
-- (id)tworkProtectionGroup: /* Error: Ran out of types for this method. */;
+- (double);
+- (struct CGSize);
+- (id);
+- (id);
+- (double);
+- (id);
 
 @end
 

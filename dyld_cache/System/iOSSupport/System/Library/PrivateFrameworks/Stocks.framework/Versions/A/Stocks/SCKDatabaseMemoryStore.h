@@ -15,19 +15,19 @@
     NSMutableDictionary *_zoneStoresByName;
 }
 
-- (id);
-- (id)#;
-- (void);
-- (id)m;
-- (void)tions;
-- (void)";
 - (void);
-- (id);
 - (_Bool);
-- (void);
 - (void);
-- (id){CGRect={CGPoint=dd}{CGSize=dd}}16;
-- (id)=ddQ},R,V_stockValues;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)ü;
 
 // Remaining properties
 @property(nonatomic, getter=isCloudBackupEnabled) _Bool cloudBackupEnabled; // @synthesize cloudBackupEnabled=_cloudBackupEnabled;

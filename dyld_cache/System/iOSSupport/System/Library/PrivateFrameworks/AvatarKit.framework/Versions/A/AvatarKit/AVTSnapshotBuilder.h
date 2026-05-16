@@ -21,15 +21,15 @@
 - (double);
 - (void);
 - (id);
-- (id)Rb;
-- (id)3;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
-- (id)4B;
-- (id)rectionalEdgeInsets=dddd},N,V_directionalHitRectInsets;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatar *avatar;

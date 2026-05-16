@@ -18,24 +18,24 @@
     unsigned long long _offset;
 }
 
-- (void)zR;
+- (void);
 - (unsigned short);
 - (void);
 - (void);
 - (unsigned short);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)#;
-- (unsigned long long);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
+- (void);
 - (_Bool);
-- (void)PÑ;
+- (void);
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;

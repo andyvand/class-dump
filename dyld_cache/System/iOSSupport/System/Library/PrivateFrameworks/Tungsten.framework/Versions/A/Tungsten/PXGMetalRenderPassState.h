@@ -21,10 +21,10 @@
 - (unsigned int *);
 - (id);
 - (CDStruct_d16cbd38 *);
-- (void);
 - (id);
 - (long long);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long capacity; // @synthesize capacity=_capacity;

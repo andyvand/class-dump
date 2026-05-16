@@ -22,6 +22,7 @@
     id <PXSelectionCoordinatorDelegate> _delegate;
     NSMutableOrderedSet *_mutableSelectedObjectIDs;
     NSMapTable *_stateByManager;
+    id __observableBridging;
 }
 
 - (_Bool);
@@ -30,7 +31,6 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -39,6 +39,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,13 +50,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 
 // Remaining properties
+@property(retain, nonatomic) id _observableBridging; // @synthesize _observableBridging=__observableBridging;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

@@ -13,14 +13,12 @@
     int _fieldsToChange;
 }
 
-- (void)",&,N,V_handledNicknames;
-- (void)R,N,V_editedMessagePartFileTransferGUIDs;
-- (struct CGRect);
-- (void)dateSelectionRectsIfNeeded;
-- (void)outItem created with invalid combination of spacing and size specified. This group cannot fit even a single item. Inspect the spacing and size of the items in this group and ensure that they fit into the group when its effective size is %@.
-Group:(float)arg1 %@;
-- (id)n
-;
+- (void);
+- (void);
+- (void)reaInsets;
+- (void)X.];
+- (id)ô=a;
+- (struct CGRect)O;
 
 @end
 

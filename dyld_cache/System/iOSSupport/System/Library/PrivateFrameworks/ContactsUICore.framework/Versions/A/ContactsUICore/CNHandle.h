@@ -26,10 +26,10 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void)V_hasBeenPersisted;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;

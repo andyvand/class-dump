@@ -8,7 +8,7 @@
 @protocol MTLDevice;
 
 @protocol MTLBinaryArchive
-- (id <MTLDevice>);
+- (void)m.apple.xbs/TemporaryDirectory.8dFyG1/Sources/VFX_iosmac/sources/VFX/CFX/RenderGraphV2/Passes/Culling.mm;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

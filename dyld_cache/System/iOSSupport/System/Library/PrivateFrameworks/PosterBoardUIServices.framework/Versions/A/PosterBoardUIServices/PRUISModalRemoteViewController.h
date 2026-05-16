@@ -37,39 +37,38 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (long long);
-- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void)¼;
-- (void)intEditing:could not decode update session info /* Error: Ran out of types for this method. */;
-- (void)hµ³
-5r,!;
+- (void)ating;
+- (void)¨Ç]*p;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

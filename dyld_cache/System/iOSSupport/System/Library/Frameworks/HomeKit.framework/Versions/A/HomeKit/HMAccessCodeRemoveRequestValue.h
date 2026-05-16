@@ -13,14 +13,16 @@
     NSString *_guestName;
 }
 
-+ (id)2;
-+ (_Bool)-0026BB765291;
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -28,10 +30,8 @@
 - (void);
 - (id);
 - (id);
+- (void)targetUUID:%@, payload:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ðTLW;
-- (id)he keypath %@ needs at least 2 keys, but only has %lu component.;
-- (id)ÿ*;
 
 // Remaining properties
 @property(readonly, copy) HMAccessoryAccessCodeValue *accessoryAccessCodeValue; // @synthesize accessoryAccessCodeValue=_accessoryAccessCodeValue;

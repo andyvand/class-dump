@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
     unsigned long long currentPageIndex;
 }
 
-- (void);
-- (_Bool)8q76@?84@?92;
 - (void);
-- (double)t messages:%@ /* Error: Ran out of types for this method. */;
-- (double)as read:%@ /* Error: Ran out of types for this method. */;
-- (void)%@ !!!;
+- (_Bool);
+- (void);
+- (double);
+- (double);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (void);
-- (void)alidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (id)Window;
-- (void);
+- (id)rmer;
+- (void);
+- (void)orStyleAndScene(_UITabBarItemTitleStyle, UIWindowScene *__strong _Nonnull);
+- (void)<"&ÿ_¨Ô;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentPageIndex; // @synthesize currentPageIndex;

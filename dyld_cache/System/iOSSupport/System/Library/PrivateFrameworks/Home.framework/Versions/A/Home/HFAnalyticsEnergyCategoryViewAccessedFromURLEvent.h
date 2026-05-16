@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)rmAddedSuccessfully;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fromUIView; // @synthesize fromUIView=_fromUIView;

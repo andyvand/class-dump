@@ -18,9 +18,9 @@
 - (struct _SXConvertibleValue);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
 - (id);
+- (void)ize=dd}16;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bannerType; // @synthesize bannerType=_bannerType;

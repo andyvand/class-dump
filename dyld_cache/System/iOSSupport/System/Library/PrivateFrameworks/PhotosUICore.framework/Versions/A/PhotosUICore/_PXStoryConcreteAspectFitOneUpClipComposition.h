@@ -22,8 +22,7 @@
 - (long long);
 - (id);
 - (id);
-- (id)áuÐ!üAùzð1b0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) const long long *clipAssetIndexes;

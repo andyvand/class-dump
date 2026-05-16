@@ -25,9 +25,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)orkToken:artworkType:sourceType:mediaType: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)ifier;
+- (id)plementaryShown:shouldUseOverlay:dimMainIfNecessary: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)ðÿyD;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setBottomBarView:) UIView *_bottomBarView; // @dynamic _bottomBarView;

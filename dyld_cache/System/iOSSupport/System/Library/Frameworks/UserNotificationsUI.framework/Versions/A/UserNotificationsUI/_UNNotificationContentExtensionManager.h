@@ -12,8 +12,8 @@
     id _extensionsDiscoveryToken;
 }
 
-+ (void);
 + (id);
++ (void);
 - (void);
 - (void);
 - (id);
@@ -22,8 +22,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UNNotificationContentExtensionCache *extensionsCache; // @synthesize extensionsCache=_extensionsCache;

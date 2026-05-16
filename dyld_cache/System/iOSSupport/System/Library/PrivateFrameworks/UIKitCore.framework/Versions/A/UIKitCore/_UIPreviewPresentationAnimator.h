@@ -19,18 +19,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)oCategory;
+- (id);
+- (double);
 - (void);
 - (id);
 - (void);
-- (id)View: /* Error: Ran out of types for this method. */;
-- (id)ize:options:context: /* Error: Ran out of types for this method. */;
-- (void)g;
-- (double)NSString"8@16@"NSDictionary"24;
+- (void);
+- (void)];
+- (id)Êb;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType advanceBlock; // @synthesize advanceBlock=_advanceBlock;

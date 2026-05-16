@@ -18,11 +18,13 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void)Ð!¨@ùBð1â
+0@ù
+× ;
+- (id)waysShowExpandedVerifiedBusinessHeader;
+- (void)_browseCategoryDelegate;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

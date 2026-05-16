@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)creenImageViewDelegate>",W,N,V_delegate;
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

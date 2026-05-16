@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
+@protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
-- (void)ght:(CALayer *)arg1;
+- (id <CAAction>)¼	;
 @end
 

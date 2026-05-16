@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (id)ntentMarginsGuideIfExists;
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;

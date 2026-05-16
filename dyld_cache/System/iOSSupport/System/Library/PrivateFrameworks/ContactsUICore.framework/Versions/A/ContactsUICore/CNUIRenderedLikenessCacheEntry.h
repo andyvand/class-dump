@@ -18,11 +18,11 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)rayWithObjects: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;

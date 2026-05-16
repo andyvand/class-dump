@@ -5,7 +5,7 @@
 //
 
 @protocol _UITypeSelectInteractionAnimating
-- (void)HELP_MAC_HELP;
-- (void)onDirection;
+- (void)n animation to an animation state that is not a direct child of the animation's animation state.;
+- (void);
 @end
 

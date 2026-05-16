@@ -5,8 +5,7 @@
 //
 
 @protocol UIWKTextInteractionAssistantDelegate
-- (void)!DBùÏ1¢!0@ù
+- (void)¡°!$Dù1[ð1Â0@ù
 × ;
-- (void)ionID = %@;
 @end
 

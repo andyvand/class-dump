@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)à_;
-- (id)tent;
+- (id);
+- (void)ypeVideoURLWithHandle: /* Error: Ran out of types for this method. */;
+- (id)yAJyACyACyACyACyACy+ôMç G°ì G"ôMG$ôMGAGG_ACyACyACyaì yAdlBGAPGARGAGGSgtGGAGGtGGGù÷ GGACyACyôóMA9_GAGGG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *elements; // @synthesize elements=_elements;

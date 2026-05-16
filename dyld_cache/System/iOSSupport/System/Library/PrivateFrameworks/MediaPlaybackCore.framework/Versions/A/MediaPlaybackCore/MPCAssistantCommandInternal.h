@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)b;
 - (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void)ublic}@;
 
 @end
 

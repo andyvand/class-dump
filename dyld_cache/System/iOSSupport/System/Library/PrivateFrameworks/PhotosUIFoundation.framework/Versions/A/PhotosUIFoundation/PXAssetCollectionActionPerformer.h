@@ -26,16 +26,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)=QQQ},N;
-- (void)nd %@;
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection;

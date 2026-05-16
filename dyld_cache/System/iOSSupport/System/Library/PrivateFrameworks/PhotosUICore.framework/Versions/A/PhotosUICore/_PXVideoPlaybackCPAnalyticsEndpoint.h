@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)iveMemoryActionMenuItemShareMovie;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *loggingIdentifier; // @synthesize loggingIdentifier;

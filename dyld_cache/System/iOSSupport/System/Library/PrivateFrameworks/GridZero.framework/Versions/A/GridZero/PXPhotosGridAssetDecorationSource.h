@@ -129,9 +129,9 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id)|;
+- (id);
 - (unsigned long long);
-- (id)'¹;
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (struct PXGAssetDecorationInfo);
@@ -146,13 +146,13 @@
 - (id);
 - (_Bool);
 - (Class);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXAssetImportStatusManager> assetImportStatusManager; // @synthesize assetImportStatusManager=_assetImportStatusManager;

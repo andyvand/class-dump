@@ -14,11 +14,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (double);
 - (void);
 - (id);
 - (id);
-- (double)orSymptomsHandler: /* Error: Ran out of types for this method. */;
-- (id)%s Sending homed request to refresh graph with local process;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

@@ -15,13 +15,13 @@
     MISSING_TYPE *delegate;
 }
 
-- (void)a;
+- (void);
+- (id);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (struct CGSize)AnimationValues;
 
 @end
 

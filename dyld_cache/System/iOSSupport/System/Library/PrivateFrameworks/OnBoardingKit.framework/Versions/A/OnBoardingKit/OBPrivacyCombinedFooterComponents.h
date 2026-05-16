@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *linkText; // @synthesize linkText=_linkText;

@@ -12,10 +12,10 @@
 }
 
 + (id);
+- (id);
+- (id)sicCuration for asset container (%@) was cancelled -> exiting without calling resultHandler.;
+- (id)tching suggested me person with identifier:(id)arg1 %{public}@;
 - (void);
-- (id);
-- (id)HOTO_AUTOLOOP_BADGE_TEXT;
-- (id)PXLocalizedStringForPersonOrPetAndVisibility(id<PXPerson>  _Nullable __strong, PXPeoplePetsHomeVisibility, NSString *__strong _Nonnull);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -33,17 +33,18 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (long long),;
+- (long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)mTrackCount;
-- (id)P;
+- (id)"NSArray">32;
+- (id)le;
+- (id),¶
+K[æ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *adPreviewID;

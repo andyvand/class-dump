@@ -39,17 +39,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (void)	;
-- (void);
-- (id));
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

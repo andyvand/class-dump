@@ -63,8 +63,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)H;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _effectiveExecuteOnce;

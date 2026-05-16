@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (void);
-- (void):(long long)arg1;
-- (long long)ollerProxy;
+- (void);
+- (long long);
 - (CDUnknownBlockType);
-- (void)WithIdentifier:(id)arg1 withLogoutEject:withMountControls:withUnmountControls: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)ath:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) long long destinationContainmentContext; // @synthesize destinationContainmentContext=_destinationContainmentContext;

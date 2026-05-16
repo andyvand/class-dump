@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)onPunchout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

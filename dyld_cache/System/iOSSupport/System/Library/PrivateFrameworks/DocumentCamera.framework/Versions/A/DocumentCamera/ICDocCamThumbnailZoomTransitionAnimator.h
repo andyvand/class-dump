@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (double);
+- (void);
+- (double);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (CDUnknownBlockType);
-- (double);
-- (void)ilteredImage:(id)arg1 imageFilterType:constantColor: /* Error: Ran out of types for this method. */;
-- (void)tentEnd:(id)arg1;
-- (double)nizer;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

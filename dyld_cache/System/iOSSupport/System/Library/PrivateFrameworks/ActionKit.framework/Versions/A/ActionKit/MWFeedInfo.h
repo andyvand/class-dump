@@ -14,18 +14,18 @@
     NSURL *url;
 }
 
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void)Mode getAVAudioSessionModeVoicePrompt(void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *link; // @synthesize link;

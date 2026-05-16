@@ -35,26 +35,26 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
 - (Class);
 - (id);
 - (void);
-- (void)";
 - (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void)ubarrayWithRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionName;

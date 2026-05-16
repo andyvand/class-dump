@@ -4,28 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSFetchRequest, NSSet, NSString;
+@class NSEntityDescription, NSFetchRequest, NSSet, NSString, WFDatabase;
 
 @interface WFCoreDataDatabaseResultFetchRequestOperation
 {
-    NSSet *_relationshipKeysAffectingDescriptors;
+    WFDatabase *_database;
     NSFetchRequest *_fetchRequest;
+    NSSet *_relationshipKeysAffectingDescriptors;
 }
 
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id) ?;
-- (id)ext:(id)arg1 ];
-- (id)âx (WFScientificMathOperation);
+- (id);
+- (void)operty} of %@ to ${value} ${plus};
 
 // Remaining properties
+@property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

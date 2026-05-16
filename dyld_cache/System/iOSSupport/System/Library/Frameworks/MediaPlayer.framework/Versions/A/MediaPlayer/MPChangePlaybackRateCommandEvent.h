@@ -11,7 +11,7 @@
     float _playbackRate;
 }
 
-- (id)B68@?72;
+- (id);
 - (float);
 
 // Remaining properties

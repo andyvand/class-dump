@@ -77,20 +77,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (void);
+- (long long);
 - (_Bool);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
-- (_Bool);
 - (long long);
 - (void);
+- (long long);
+- (_Bool);
 - (void);
 
 // Remaining properties

@@ -16,15 +16,15 @@
 
 - (id);
 - (id);
-- (long long);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void)q;
+- (id);
 - (long long);
 - (void);
+- (void);
+- (long long);
+- (void);
+- (void)hp@;
 
 @end
 

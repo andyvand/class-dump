@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (void);
-- (id)ibraryArtistContentReference;
 - (id);
 - (id);
-- (id)ssage  when app store purchased channel is removed from Following section with publisher name.;
+- (id);
+- (id)ctionNoLongerAvailableAlertMessage;
+- (void)p¦þ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *message;

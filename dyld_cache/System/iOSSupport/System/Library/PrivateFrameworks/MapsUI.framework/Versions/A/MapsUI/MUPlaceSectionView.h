@@ -36,9 +36,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (long long);
+- (void);
+- (void)tedAddPhotosWithEntryPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool applyVerticalSpacingBetweenHeaderAndContent; // @synthesize applyVerticalSpacingBetweenHeaderAndContent=_applyVerticalSpacingBetweenHeaderAndContent;

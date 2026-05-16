@@ -22,11 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue;

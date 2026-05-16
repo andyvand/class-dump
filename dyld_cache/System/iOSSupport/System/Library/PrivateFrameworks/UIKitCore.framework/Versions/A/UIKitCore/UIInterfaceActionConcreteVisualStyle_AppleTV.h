@@ -14,28 +14,28 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (double)s_stickerRotation;
-- (_Bool)$J;
+- (double);
+- (_Bool);
 - (id);
 - (id);
 - (struct CGSize);
 - (double);
-- (id)g %@ isUnderFirstUnlock %@ lastSyncDate %@ deviceConditionsAllowSync %@;
-- (double)ntController:Told To Transcode but the message had no parts, don't wake me up.  /* Error: Ran out of types for this method. */;
-- (void)pelineComponent> Started processing type (%@) for guid %@;
-- (void)g Sync;
-- (id)ncorrect service:(id)arg1 %@;
-- (id)failed:(id)arg1 ChatRegistry returned chat that did not match inputs:%@ /* Error: Ran out of types for this method. */;
-- (id)d identifiers %@ to chats with guids %@ with no matching participants!;
-- (struct UIEdgeInsets)rnate ID:%@, for handle:%@ /* Error: Ran out of types for this method. */;
-- (double)mIDs of chats got modified, force reloading chats;
-- (id)ut URL is a directory, not transcoding;
-- (id)ved request to transcode:%@  transcodeInfo:%@ /* Error: Ran out of types for this method. */;
-- (id)not a Check In message;
+- (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (struct UIEdgeInsets)!8;
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (double);
 - (void);
 - (void);
@@ -28,15 +28,16 @@
 - (struct CGPoint);
 - (double);
 - (double);
-- (void);
-- (void);
 - (_Bool);
-- (id);
 - (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (void);
 - (void);
 - (id);
+- (void)
+× ;
+- (_Bool)entViewConfigurationAccessibility;
 
 @end
 

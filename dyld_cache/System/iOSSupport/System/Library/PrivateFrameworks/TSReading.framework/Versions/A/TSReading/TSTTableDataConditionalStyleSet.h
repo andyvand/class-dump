@@ -14,10 +14,10 @@
 }
 
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id)utoFavorites %lu from %lu remaining tags;
 
 @end
 

@@ -23,38 +23,38 @@ __attribute__((visibility("hidden")))
     long long _draggingState;
 }
 
-- (void)oupChatWithFromIdentifier:(struct CGPoint)arg1 toIdentifier:(_Bool)arg2 displayName:participants:groupID: /* Error: Ran out of types for this method. */;
-- (void)tedMessagePartTextForMessageItem:(long long)arg1;
-- (void)ocessingParameter;
 - (void);
 - (void);
-- (unsigned long long),;
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (struct CGPoint);
 - (void);
 - (struct CGPoint);
-- (_Bool), wasAlreadyInvited:%ld, didShare:%ld Error:%@ /* Error: Ran out of types for this method. */;
-- (long long)regenerating preview, no destination attachmentPath for transfer %@;
-- (void)ID;
-- (struct CGRect)service is %@;
-- (struct CGPoint)item for updating for %@;
-- (void)age and this is not a 3rd party message, so let's try and transcode them;
-- (void)er with guid %@;
-- (void)pants:%@ toIdentifier:%@, fromIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (void)g participant version of chat %@ to %ld;
+- (_Bool);
+- (long long);
+- (void);
+- (struct CGRect);
+- (struct CGPoint);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (void)áo°!ÔFùqÂÐ1¢!0@ù
-× ;
-- (_Bool)ckgroundShapeView";
-- (struct CGRect)mated: /* Error: Ran out of types for this method. */;
-- (_Bool)below must be a subview of the keyboardLayoutGuide's owning view. Ideally use viewController.view.keyboardLayoutGuide (or something else that's the size of your window).;
-- (void)ò)b;
 - (void);
-- (void)7àw;
+- (void)^°1Â0@ù
+× ;
+- (_Bool)esolvingImage: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)ÔÙòþÑ43h;
+- (void)ÂÿPNÛìh;
+- (struct CGRect)¼lh;
+- (unsigned long long). Êi;
 
 // Remaining properties
 @property(nonatomic) long long draggingState; // @synthesize draggingState=_draggingState;

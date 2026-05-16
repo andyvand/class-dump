@@ -14,22 +14,22 @@
     RTMapItemMO *cachedFinerGranularityMapItem;
 }
 
-+ (id))	;
 + (id);
-+ (id);
 + (id);
-+ (id)$;
++ (id);
++ (id);
++ (id);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)%@ success.;
 
 // Remaining properties
 @property(retain, nonatomic) RTMapItemMO *cachedFinerGranularityMapItem; // @synthesize cachedFinerGranularityMapItem;

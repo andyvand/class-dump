@@ -16,8 +16,10 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void) y» yAAyê
+ÐU G_AAy AEG yAByACy¯ Sg_AAyAJ* y yÞ _Qo_GGSgtGG¦
+ÐGAhAyt yAVyû0¢y7¢yAJG_;
 
 @end
 

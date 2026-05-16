@@ -12,14 +12,14 @@
     NSString *_privacyBundleName;
 }
 
-- (void)y;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

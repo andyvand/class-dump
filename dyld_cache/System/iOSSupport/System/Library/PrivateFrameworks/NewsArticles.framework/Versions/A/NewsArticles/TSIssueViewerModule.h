@@ -13,8 +13,8 @@
     MISSING_TYPE *contextBuilder;
 }
 
-- (void);
 - (id);
+- (void)overriddenTraitCollection;
 
 @end
 

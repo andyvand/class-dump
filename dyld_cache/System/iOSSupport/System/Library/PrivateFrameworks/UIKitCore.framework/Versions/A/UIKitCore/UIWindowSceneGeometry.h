@@ -17,28 +17,27 @@
     struct CGRect _systemFrame;
 }
 
-+ (id)C9;
++ (id);
 - (struct CGRect);
 - (void);
 - (void);
 - (long long);
-- (_Bool)"40@"NSString"48@"NSString"56@"NSString"64;
-- (_Bool)SString"24;
-- (void)egistry was reloaded, but merge is not yet completed (e.g. we're still under first data protection). Not updating vocabulary.;
-- (id);
-- (_Bool)dBellyDisconnect;
-- (id);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (id)ÑÄ1¢!0@ù
-× ;
 - (void);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (id)0@ù
 × ;
-- (id)lowsPopoverPresentationToAdapt;
-- (long long);
-- (void)IViewPropertyAnimator"8Q16^B24;
-- (id)Ü	uþ ;
+- (_Bool)entifier:(id)arg1;
+- (id)dStickerCollectionViewConfiguration",&,N,V_configuration;
+- (void)ffect;
+- (id)tion view;
+- (void)BarPaletteC;
+- (void)|¯;
 
 // Remaining properties
 @property(retain, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;

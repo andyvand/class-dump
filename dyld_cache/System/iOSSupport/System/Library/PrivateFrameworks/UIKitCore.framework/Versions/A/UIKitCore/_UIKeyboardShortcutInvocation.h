@@ -27,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool)FooterPinning;
+- (_Bool);
+- (void)|Ísþ5R43xÍsþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenuElement<_UIMenuLeaf> *keyboardShortcutLeaf; // @synthesize keyboardShortcutLeaf=_keyboardShortcutLeaf;

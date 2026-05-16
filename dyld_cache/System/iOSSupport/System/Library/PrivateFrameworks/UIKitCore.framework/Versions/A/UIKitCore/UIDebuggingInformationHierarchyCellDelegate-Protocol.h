@@ -5,7 +5,5 @@
 //
 
 @protocol UIDebuggingInformationHierarchyCellDelegate
-- (_Bool)erties;
-- (void);
 @end
 

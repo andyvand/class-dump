@@ -14,9 +14,9 @@
     MISSING_TYPE *metricsProvider;
 }
 
+- (id);
 - (void);
-- (void);
-- (id)S;
+- (void)lterBarViewModel;
 
 @end
 

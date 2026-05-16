@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)B;
++ (_Bool);
 + (void);
 + (void);
 + (void);
@@ -17,18 +17,21 @@
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
 + (void);
 + (void);
 + (void);
 + (void);
 + (id);
 + (void);
-+ (_Bool);
++ (void);
++ (void);
++ (void);
 + (id);
++ (void);
 + (id);
++ (_Bool);
++ (id);
++ (id)Õÿþðf4i;
 
 @end
 

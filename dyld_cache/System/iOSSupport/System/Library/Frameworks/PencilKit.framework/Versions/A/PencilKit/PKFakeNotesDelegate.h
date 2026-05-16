@@ -13,8 +13,8 @@
 
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void)m<n;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

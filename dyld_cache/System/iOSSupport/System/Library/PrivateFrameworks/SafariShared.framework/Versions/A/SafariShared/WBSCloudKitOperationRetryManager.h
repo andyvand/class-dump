@@ -23,15 +23,16 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)
+× ;
+- (double)ype:queryId: /* Error: Ran out of types for this method. */;
+- (void)$(;
 - (void);
-- (double);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;

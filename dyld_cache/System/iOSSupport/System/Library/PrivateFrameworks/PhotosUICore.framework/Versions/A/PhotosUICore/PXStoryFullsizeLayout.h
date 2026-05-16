@@ -91,16 +91,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (long long);
+- (void);
+- (void);
 - (CDStruct_b1a1f14e);
-- (void)MMFeatureState;
-- (_Bool)server] Scheduling async authentication type update;
-- (void)4;
+- (void);
+- (id)orItemIndex:(id)arg1;
+- (_Bool)gWithValues: /* Error: Ran out of types for this method. */;
+- (id)g;
+- (void)ryPersistableRecipeManager init];
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_b1a1f14e activeTransition; // @synthesize activeTransition=_activeTransition;

@@ -29,7 +29,7 @@
 - (CDStruct_fe8c0406);
 - (double);
 - (double);
-- (void)Ømyl¬Ö0e;
+- (void)com.apple.photos.CPAnalytics.infoPanelNewDateSelected;
 
 // Remaining properties
 @property(readonly, nonatomic) PXSwipeDownTracker *swipeDownTracker; // @synthesize swipeDownTracker=_swipeDownTracker;

@@ -45,156 +45,152 @@ __attribute__((visibility("hidden")))
     struct CGPoint _previousTouchLocation;
 }
 
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (double);
-- (long long);
-- (id);
-- (long long)_;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
-- (void);
-- (long long);
-- (struct CGAffineTransform);
-- (void);
-- (long long);
-- (void);
-- (double);
-- (struct CGSize);
-- (void)Identifier:(id)arg1;
-- (double)CachePurgesWhenEnteringBackground:forCacheIdentifier:requestingContext: /* Error: Ran out of types for this method. */;
-- (_Bool),N,V_shouldAutoplay;
-- (double)jectDatabaseAssetImportRequest;
+- (_Bool);
 - (unsigned long long);
-- (id)(%ld);
+- (long long);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (_Bool);
 - (double);
-- (void);
+- (long long);
 - (void);
-- (void);
-- (void)ë;
-- (id)!°AùñÀ1¢!0@ù
-× ;
-- (_Bool)Ô ;
-- (struct CGPoint)1¢!0@ù
-× ;
-- (_Bool)ap!FùÃÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)±Äð1¢!0@ù
-× ;
+- (struct CGSize);
+- (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
 - (double);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (double);
+- (struct CGSize);
+- (void);
+- (id)0@ù
+× ;
+- (void)!AùÑ[°1Â0@ù
+× ;
+- (struct CGSize);
+- (void)1Â0@ù
+× ;
+- (id)°!Gù]Ð1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (void)ô@ùñ_°1Â0@ù
+× ;
+- (void);
 - (void)0@ù
 × ;
-- (id)!DBùÈ1¢!0@ù
-× ;
-- (void)Eù±ÊÐ1¢!0@ù
-× ;
-- (long long)1¢!0@ù
-× ;
-- (void)¡vÐ!DùqËð1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)ÑÎð1¢!0@ù
-× ;
-- (void)PushRegistry"16@"NSString"24;
-- (struct CGSize)dingContext={InteractionContext=@}BQ@@?@?}24;
-- (id)nge"16@"UITextRange"24;
-- (id)sualElement";
-- (double)8@16{_NSRange=QQ}24B40;
-- (id)setStackedLayoutAppearance: /* Error: Ran out of types for this method. */;
-- (void)undColor:(double)arg1;
-- (void):(id)arg1;
-- (long long)ettingTouchInfo:(long long)arg1;
-- (_Bool)ationCompleted: /* Error: Ran out of types for this method. */;
-- (id)yEffect;
-- (void)ctForTitleAndMessageLabel;
-- (double)leForDisplayMode:(double)arg1;
-- (double)_secureLabelImageLayer;
-- (_Bool)Completions;
-- (void)ection:(long long)arg1 tableView:(long long)arg2;
-- (void)dUpdateProgress:(id)arg1 toForceLevel: /* Error: Ran out of types for this method. */;
-- (void)nalizeLiftCancellation;
-- (_Bool)umerateAllBlendingViewsWithBlock: /* Error: Ran out of types for this method. */;
-- (id)alNonCollapsingHeightAboveSearchBar;
-- (id)ailingItemsRect;
-- (long long)}},N,V_initialEndCaretRect;
-- (void)tentViewConfigurationProvider,S_setContentViewConfigurationProvider: /* Error: Ran out of types for this method. */;
-- (void)dropGradientMaskView;
-- (long long)te",R,N;
-- (void)tributeForSizing;
-- (void)&,N,V_attributionInfo;
-- (void)tate;
-- (void)dDockView",&,N,V_dockView;
-- (void)butedString",C,N,V_attributedString;
-- (_Bool)ew;
-- (void)!0";
-- (long long);
-- (void)x yT{;
-- (id)PQ;
-- (struct CGRect)U;
-- (void)H;
-- (id);
-- (_Bool)Ä$;
-- (id)´;
-- (void);
-- (double)\;
-- (void)text completion mode for traits is NO;
-- (struct CGSize)icker %{public}@. %{public}@;
-- (void)perty is managed by the owning UITableViewCell. Cell:(long long)arg1 %@;
-- (id)rent phase. Not doing so runs a risk of triggering infinite loop.;
-- (void)lass_addMethod(nsImage, @selector(conformsToProtocol:), (IMP)NSImage_conformsToProtocol, ((void*)0))" -> %llu /* Error: Ran out of types for this method. */;
-- (_Bool)ntroller %@ is expected to have a view controller at index 0 before it's used!;
-- (void)r, %@, when the top item belongs to a different navigation bar. topItem = %@, navigation bar = %@, possibly from a client attempt to nest wrapped navigation controllers.This mismatch may cause a layout feedback loop. This will become an assert in a future version.;
-- (void);
-- (void)Èêþÿ¬DþÿªDþÿV¯þÿV¯þÿ;
-- (double)j8;
-- (void)URL %@:(long long)arg1 %@;
-- (id)consistent;
-- (struct CGSize)zily;
-- (void)ap;
-- (void)ge and a back indicator transition mask image, or contain neither image;
-- (id)rationActivity for scene session %@;
-- (void)oardNeedsUpdatingKeyboardDockViewVisibilityNotification;
-- (void)uts;
-- (unsigned long long)dBackgroundFillColor;
-- (void)llerTextAlignmentCenter;
-- (id)hould be being interacted with when cancelling it;
-- (double)both the top and bottom edge of a sibling layout;
-- (id)ilogueOnly;
-- (void)ing;
-- (id)cherView should not be removed, there is a misunderstanding in UIInputViewSet  + inputSwitcherView lifecycle.;
-- (void)perty;
-- (void)augmentedTitleViewHost;
-- (struct CGSize)Dòdþ=Iÿ3¤Qÿ%Iÿ34òdþ%Iÿ3X&|þ-Iÿ3x±þ;
-- (void)rModel;
-- (id)Ê{[;
-- (double);
-- (double);
-- (struct CGSize)ÜÇÿ[ÄÓu"];
-- (double)þÅ ;
 - (void);
-- (_Bool)];
-- (void)®×];
-- (void)º%_;
-- (void)þÎN;
-- (_Bool)üÇÿÉÊ)Ö_;
-- (struct CGSize)(Ûâ	a;
-- (void)'{a;
+- (long long)6;
+- (void)b1"maskedCorners"b4"hasDefaultLayoutMargins"b1"removeMaskViewAfterAnimation"b1"pinningAlignment"b4"pinnedToVisibleBounds"b1"hasCustomAttributes"b1};
+- (struct CGSize)elayRecognizer:(id)arg1;
+- (void)erTreeSizeThresholdForReset: /* Error: Ran out of types for this method. */;
+- (void)ter:(id)arg1;
+- (id)FrameMode: /* Error: Ran out of types for this method. */;
+- (long long)Out:(long long)arg1;
+- (long long)yle;
+- (double);
+- (void)nterLiftMoveHysteresis;
+- (struct CGSize)ropAnimationForPlatterView:(id)arg1;
+- (struct CGPoint)hevronImage;
+- (long long)thParameters: /* Error: Ran out of types for this method. */;
+- (void)ertController:forPresentation:inContainerView:descendantOfContainerView:duration:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)ryView:(id)arg1 withCellAccessoryType:(unsigned long long)arg2 forState:(id)arg3;
+- (id)hod: /* Error: Ran out of types for this method. */;
+- (long long)input:modifierFlags: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double)abledTextColor;
+- (void)Step:(id)arg1;
+- (_Bool)nt;
+- (void)rence;
+- (double)T{UIEdgeInsets=dddd},N;
+- (void)ockState;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (double)ISplitViewControllerDelegatePrivate><UISplitViewControllerDelegate>",R,N;
+- (void)$Y;
+- (id)^;
+- (id)|Ì;
+- (double)¤;
+- (double)ion _performRequiredSceneUpdateIfPermittedForWindow:withContext:]  Updating proxy context:%@ /* Error: Ran out of types for this method. */;
+- (long long)iew <%@:%p> with nearest ancestor view controller <%@:%p>; backtrace:%@ /* Error: Ran out of types for this method. */;
+- (void)size:{width=%lu, height=%lu}; Orientation:%@; Scale:%.1f; Coordinate space:%@ /* Error: Ran out of types for this method. */;
+- (double)ÕY¬7_¬7ÈyþB;
+- (void);
+- (void);
+- (double)ate;
+- (id)rdinator;
+- (void);
+- (void)ment_airplay_;
+- (void);
+- (double)bleViewDropLocation _UITableViewDropLocationForDropIntent(UITableViewDropIntent);
+- (id)ttingViewControllerDecreaseIndentationChange;
+- (void)keyboardResponderDisableKeyboardUI;
+- (_Bool)a30;
+- (_Bool)r10KeyLightControlKeySeparator;
+- (void)ification;
+- (void)out of bounds. %@ %@;
+- (void)support;
+- (void)based updateItem cannot have both an initial+final indexPath == nil. Faulty updateItem is (%@);
+- (void)ions-panel;
+- (void)te;
+- (void)h doesn't own it;
+- (id)ot available. Use a designated initializer instead.;
+- (_Bool)ns to %@ (%lu);
+- (void)o set a selected month that is before the minimum or after the maximum date.;
+- (void);
+- (void)sBackground.inputBleedBlurRadius;
+- (double);
+- (id);
+- (void)<Å·þ;
+- (id)Sg;
+- (double)G5valuet;
+- (id)xtViewAnimatedPlaceholderIdentifierC ¿7G;
+- (void)rollerAdaptivePanelLayoutC;
+- (id)®GÁ?¤p=
+×£°¿çû©ñÒMÒ?Âõ(\Ú?ClçË?Tã¥Ä ì?ClçË¿!°rhíà¿0ä.ÿ++;
+- (void);
+- (void) 13eb;
+- (double)veDetent;
+- (void);
+- (void);
+- (struct CGSize);
+- (struct CGAffineTransform)1[43$btþ1[43°btþ1[43¸Fqþ;
+- (void)=43ï;
+- (void)§R0¯43p;
+- (long long);
+- (id)RÚD;];
+- (struct CGRect)c`ÌP^;
+- (void)ï­Ô¼¶^;
+- (struct CGSize)üÜ8Ñ^;
+- (void)xí^;
+- (void)bí;
+- (void)æþße;
+- (id);
+- (void)¯Ñþó¦Ùè_;
+- (id) ;
+- (void)ð`;
+- (void)TMpþ´;
+- (id)µx;
 
 // Remaining properties
 @property(retain, nonatomic) _UIPageControlContentView *contentView; // @synthesize contentView=_contentView;

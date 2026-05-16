@@ -18,14 +18,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)h Blastdoor;
-- (id)romStorage = %@; isFromMe = %@; OUTPUT chat = %@;;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)dylib;
 - (id);
+- (id)ld not get user activity for UUID %@, error is %@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UISceneLayoutPreferencesControlling> _ui_layoutPreferencesController;

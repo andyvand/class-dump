@@ -15,7 +15,7 @@
     NSData *_archivedContentItem;
 }
 
-+ (_Bool)extOffset;
++ (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -24,19 +24,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
+- (void)Name);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *archivedContentItem; // @synthesize archivedContentItem=_archivedContentItem;

@@ -13,23 +13,23 @@
 }
 
 - (void);
-- (_Bool);
-- (void)essionDataDelegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)xtCandidateForView: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
 - (id);
+- (id)× ;
+- (void)ÀPüÿÈQüÿ°RüÿSüÿSüÿ0TüÿpTüÿTüÿ¨TüÿUüÿ0Uüÿ¸UüÿVüÿVüÿ¨VüÿWüÿdWüÿ|WüÿWüÿ¬WüÿÄWüÿÜWüÿXüÿ<XüÿdXüÿÌXüÿäXüÿüXüÿYüÿäYüÿlZüÿ¬ZüÿÐZüÿèZüÿ[üÿ]üÿÐ]üÿ8^üÿP^üÿx^üÿ^üÿ¸^üÿ_üÿ´_üÿÌ_üÿä_üÿü_üÿ$`üÿ`üÿØ`üÿaüÿÄaüÿ(büÿhbüÿ büÿpcüÿÐcüÿdüÿpdüÿ¨düÿ;
 - (void);
-- (void)Manager;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

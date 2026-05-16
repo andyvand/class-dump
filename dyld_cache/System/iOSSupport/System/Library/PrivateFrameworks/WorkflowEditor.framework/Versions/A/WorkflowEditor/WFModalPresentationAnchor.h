@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (struct CGRect);
-- (void);
 - (id);
+- (struct CGRect);
+- (void)ìc;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;

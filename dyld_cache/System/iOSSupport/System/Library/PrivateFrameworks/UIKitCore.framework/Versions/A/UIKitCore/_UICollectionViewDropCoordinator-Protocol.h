@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewDropProposal;
-@protocol UIDropSession;
+@class NSIndexPath, UICollectionViewDropProposal;
+@protocol UIDropSession, _UICollectionViewDropPlaceholderContext;
 
 @protocol _UICollectionViewDropCoordinator
-- (void));
-- (id <UIDropSession>);
-- (UICollectionViewDropProposal *)`yfþ¨þ;
+- (id <_UICollectionViewDropPlaceholderContext>)1fÐ1Â0@ù
+× ;
+- (void)InputViewSet:(NSIndexPath *)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionViewDropProposal *dropProposal;

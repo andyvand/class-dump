@@ -8,7 +8,7 @@
 @protocol MTLDevice;
 
 @protocol MTLCommandQueue
-- (void);
+- (void),Qýÿ2_ÿÿ;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

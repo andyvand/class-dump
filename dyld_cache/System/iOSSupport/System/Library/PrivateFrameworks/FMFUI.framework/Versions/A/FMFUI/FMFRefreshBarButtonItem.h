@@ -28,20 +28,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) FMFTintedActivityIndicatorView *aiv; // @synthesize aiv=_aiv;

@@ -13,16 +13,16 @@
     MPModelAlbumKind *_albumKind;
 }
 
-+ (id):(id)arg1;
-+ (id)tegories:isNew:isTwoFactorCode:isFromMe:isJunk:isRead:isVIP:isFlagged: /* Error: Ran out of types for this method. */;
-+ (_Bool)ion];
-- (id)@0:8^@16@?24 /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
++ (id);
++ (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void)itialization,V_requestingPlaybackInitialization;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelAlbumKind *albumKind; // @synthesize albumKind=_albumKind;

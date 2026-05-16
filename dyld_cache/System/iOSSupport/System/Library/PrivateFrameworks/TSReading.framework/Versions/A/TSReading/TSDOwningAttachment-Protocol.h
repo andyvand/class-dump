@@ -5,9 +5,7 @@
 //
 
 @protocol TSDOwningAttachment
-- (Class)h;
-- (_Bool)dleViaOffer masthead banner feature disabled. Using News+ banner configuration.;
-- (_Bool);
+- (_Bool)ing rect;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long enabledKnobMask;

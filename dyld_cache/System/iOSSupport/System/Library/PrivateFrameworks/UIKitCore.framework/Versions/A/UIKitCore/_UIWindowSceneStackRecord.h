@@ -14,23 +14,20 @@ __attribute__((visibility("hidden")))
     unsigned long long _lastPushedTime;
 }
 
-- (void);
-- (unsigned long long)tus;
+- (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)ow"b1"delegateRespondsToTitleForRow"b1"delegateRespondsToAttributedTitleForRow"b1"delegateRespondsToWidthForComponent"b1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
+- (void):(unsigned long long)arg1;
+- (id)_navigationToolbarTransitionControllerForContext: /* Error: Ran out of types for this method. */;
+- (id)ractionEnabled set to NO. Views must allow focus interaction to be focusable.;
+- (id)terTextColor;
+- (void)ess=;
 - (void);
-- (void);
-- (id)Ã1¢!0@ù
-× ;
-- (id)PublicToUIHost:(id)arg1;
-- (id)tationAction;
-- (unsigned long long)set;
-- (id)celerationFactor:decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
-- (id)archy:%@
-	View not found in container hierarchy:%@
-	That view's superview:%@ /* Error: Ran out of types for this method. */;
-- (id)test must having a container focus environment before being run.;
-- (id)r;
-- (id)i\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

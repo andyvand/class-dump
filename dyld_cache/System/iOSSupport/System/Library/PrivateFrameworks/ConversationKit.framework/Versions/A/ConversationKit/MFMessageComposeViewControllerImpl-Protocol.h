@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol MFMessageComposeViewControllerImpl
-- (void)ectoryLocalizedExtensionContainingAppName;
-- (NSArray *)ÅI¥·à¾	;
-- (void)°;
+- (NSArray *)TextButtonStyle;
 @end
 

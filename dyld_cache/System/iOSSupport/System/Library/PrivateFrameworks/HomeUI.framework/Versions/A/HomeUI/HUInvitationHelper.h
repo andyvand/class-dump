@@ -20,12 +20,11 @@
     NSArray *_familyMembers;
 }
 
++ (id)! ýt;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -34,19 +33,20 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
-- (id)edOutcome: /* Error: Ran out of types for this method. */;
-- (void)ed:(id)arg1;
+- (void);
+- (void);
+- (void)ghtingOnboardingKey_UserInput;
+- (id)pý;
 
 // Remaining properties
 @property(retain, nonatomic) HFContactController *contactsController; // @synthesize contactsController=_contactsController;

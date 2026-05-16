@@ -13,11 +13,11 @@
 }
 
 + (_Bool);
-+ (_Bool)erredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) PRPosterAmbientConfiguration *ambientConfiguration; // @dynamic ambientConfiguration;

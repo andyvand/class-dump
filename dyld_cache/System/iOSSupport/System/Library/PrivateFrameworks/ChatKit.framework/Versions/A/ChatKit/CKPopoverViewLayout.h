@@ -17,27 +17,27 @@
     struct CGSize _anchorSize;
 }
 
-- (void)tContext;
-- (void);
-- (struct CGRect)AddInput;
+- (void);
+- (void);
+- (struct CGRect);
 - (id);
-- (_Bool),;
-- (struct CGRect)NSTextContainer"56;
-- (struct CGPoint)nge"8{CGRect={CGPoint=dd}{CGSize=dd}}16d48@"NSTextContainer"56;
+- (_Bool);
+- (struct CGRect);
+- (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (struct CGSize);
+- (id);
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (struct CGSize);
 - (unsigned long long);
-- (id);
-- (id)GtGGSgACyADySayÀ =GAV¬yARy`¬yÙ¬tV¬G_ACyARyAG_A5GtGGtGGGGSgG_G;
+- (void);
+- (id)gate;
+- (void)È¸;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint anchorCenter; // @synthesize anchorCenter=_anchorCenter;

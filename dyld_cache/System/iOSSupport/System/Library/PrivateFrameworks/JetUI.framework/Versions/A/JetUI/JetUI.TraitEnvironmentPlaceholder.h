@@ -11,10 +11,10 @@
     UITraitCollection *traitCollection;
 }
 
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)on;
 
 // Remaining properties
 @property(nonatomic, readonly) UITraitCollection *traitCollection; // @synthesize traitCollection;

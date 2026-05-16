@@ -46,8 +46,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak WFCameraFlashButton *flashButton; // @synthesize flashButton=_flashButton;

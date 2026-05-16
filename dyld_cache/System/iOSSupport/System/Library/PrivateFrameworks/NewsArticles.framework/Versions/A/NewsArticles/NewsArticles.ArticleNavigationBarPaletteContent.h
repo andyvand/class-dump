@@ -12,19 +12,20 @@
     MISSING_TYPE *horizontalScrollOffset;
     MISSING_TYPE *bottomPaletteButtonLocation;
     MISSING_TYPE *parallaxX;
+    MISSING_TYPE *isPinned;
     MISSING_TYPE *contentSafeAreaFrame;
 }
 
 + (double);
-- (id)?;
+- (id);
 - (void);
 - (double);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 @end
 

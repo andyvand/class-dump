@@ -28,22 +28,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)elocity:(id)arg1 targetContentOffset: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)ewModelsWithUpdateDelegate:completion: /* Error: Ran out of types for this method. */;
+- (void)SSAGE_HOURS;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *JSONObject;

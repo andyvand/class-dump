@@ -14,15 +14,15 @@
     NSMutableSet *_trackingTasks;
 }
 
-- (id);
+- (id);
 - (void);
-- (CDUnknownBlockType)c^;
-- (void);
+- (CDUnknownBlockType);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (void)A`A`;
-- (id)0:8d16d24 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType endCallbackBlock; // @synthesize endCallbackBlock=_endCallbackBlock;

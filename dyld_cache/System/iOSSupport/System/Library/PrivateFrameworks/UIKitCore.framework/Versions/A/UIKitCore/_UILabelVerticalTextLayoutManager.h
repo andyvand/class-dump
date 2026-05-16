@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
+- (id)$ÿÿhêÿ;
+- (void)tateCIeyByy_;
 - (long long);
-- (id)ation(Boolean);
+- (void)H;
 
 // Remaining properties
 @property(nonatomic) long long lineBreakMode; // @synthesize lineBreakMode=_lineBreakMode;

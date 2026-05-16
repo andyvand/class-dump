@@ -14,26 +14,24 @@
     _Bool _opaque;
 }
 
+- (id);
+- (float);
+- (id);
+- (id);
 - (double);
+- (id);
+- (id);
 - (unsigned long long);
-- (id):(struct _NSZone *)arg1 %llu
-;
-- (_Bool)F;
 - (id);
-- (_Bool);
-- (id);
-- (void)1¢!0@ù
+- (id)
 × ;
-- (id)vÐ!¬Bù±Ê1¢!0@ù
-× ;
-- (id)ViewControllerContainerViewWidthConstraint;
-- (id)ring;
-- (float)bel;
-- (id)aryColor;
-- (id)tionViewAnimationContext",&,N,G_collectionViewAnimationContext,S_setCollectionViewAnimationContext:,V_collectionViewAnimationContext /* Error: Ran out of types for this method. */;
-- (id)on delegate %@;
+- (id)24;
+- (_Bool)orsForStartIndex:(id)arg1 fittingLength:hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
+- (id)",R,N,V_editingConfiguration;
+- (id)Item;
+- (_Bool)¬à;
 - (id);
-- (id)<ÿ6=íÖ];
+- (void)å¾¬	d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

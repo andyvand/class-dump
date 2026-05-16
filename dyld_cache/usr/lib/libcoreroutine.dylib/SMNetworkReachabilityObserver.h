@@ -16,11 +16,11 @@
 
 + (id);
 - (void);
-- (void)scriptionFor: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
 - (void);
+- (void)r dateInterval,%@;
+- (_Bool)ignificant heartbeat delay, %0.1f seconds;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isNetworkReachable; // @synthesize isNetworkReachable=_isNetworkReachable;

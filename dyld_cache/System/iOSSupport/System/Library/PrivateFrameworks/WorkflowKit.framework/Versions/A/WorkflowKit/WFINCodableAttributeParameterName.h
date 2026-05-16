@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)e} in ${WFDictionary} (Parameter Summary);
 - (id);
 
 // Remaining properties

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     UIPanelController *__panelController;
 }
 
-- (void);
 - (id);
-- (void);
-- (id)extServices;
+- (void)imumOffsetWasInvalidated:(id)arg1;
 - (id);
+- (void);
+- (id)|ÿ;
 
 // Remaining properties
 @property(nonatomic, getter=_panelController, setter=_setPanelController:) __weak UIPanelController *_panelController; // @synthesize _panelController=__panelController;

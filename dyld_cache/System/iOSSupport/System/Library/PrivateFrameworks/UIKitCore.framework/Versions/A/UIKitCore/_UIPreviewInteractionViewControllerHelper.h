@@ -23,21 +23,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)';
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)orChatWithGUID:(id)arg1 chatIdentifiers:style:services:limit:beforeGUID:afterGUID:threadIdentifier:reply: /* Error: Ran out of types for this method. */;
-- (void)ageCode: /* Error: Ran out of types for this method. */;
-- (void)tedDBPath;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)´];
-- (double)qÏÿÛÚîV^;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (id);
+- (void)e:(id)arg1;
+- (id)FullScreen;
+- (void)¶23;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

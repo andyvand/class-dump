@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIView *_activeView;
 }
 
-+ (id)D;
++ (id);
 - (void);
-- (void) ;
+- (void);
 
 @end
 

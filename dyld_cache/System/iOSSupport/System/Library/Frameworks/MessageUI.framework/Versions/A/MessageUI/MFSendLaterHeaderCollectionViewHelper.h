@@ -25,12 +25,12 @@
 - (void);
 - (double);
 - (double);
-- (id);
+- (id);
 - (void);
-- (void)(=;
+- (double);
 - (void);
-- (double)@`;
-- (struct UIEdgeInsets)¶»;
+- (void);
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;

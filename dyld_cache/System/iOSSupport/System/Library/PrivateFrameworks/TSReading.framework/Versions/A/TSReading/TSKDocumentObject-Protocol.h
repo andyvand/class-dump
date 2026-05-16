@@ -5,6 +5,5 @@
 //
 
 @protocol TSKDocumentObject
-- (void);
 @end
 

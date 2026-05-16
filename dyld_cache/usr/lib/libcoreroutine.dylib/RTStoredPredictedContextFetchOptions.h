@@ -14,19 +14,19 @@
     NSNumber *_limit;
 }
 
-+ (_Bool)lic}d,isDeviceLocationOutsideALOI,%{public}d,_technologiesMissingToLookForInLocationUpdates,%{public}lu;
++ (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id)pports-mirage;
 - (void);
 - (void);
 - (id);
-- (id)rs:errorStr: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)%@, %@, stopping periodic trigger timer for predicted context;
 
 // Remaining properties
 @property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

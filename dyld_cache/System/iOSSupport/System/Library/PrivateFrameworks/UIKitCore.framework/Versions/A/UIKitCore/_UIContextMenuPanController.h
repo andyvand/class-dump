@@ -36,15 +36,13 @@ __attribute__((visibility("hidden")))
     CDStruct_17a0fc55 _menuAnchor;
 }
 
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)
-)
-*	y:(id)arg1 x;
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (struct CGPoint);
@@ -52,52 +50,53 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDStruct_17a0fc55);
 - (id);
-- (id)ayStorageIterationContext";
-- (long long)dedWithGUID: /* Error: Ran out of types for this method. */;
-- (void)LastMessageOlderThan:(struct CAPoint3D)arg1 predicate:(struct CAPoint3D)arg2 limit:(_Bool)arg3 reply:(_Bool)arg4;
-- (void)s:(struct CGPoint)arg1 partCount:(struct CGPoint)arg2 dateEdited:(_Bool)arg3 dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (void)agePartTranslation:(struct CGPoint)arg1 editedMessagePartFileTransferGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
-- (void)has_spamCategory;
-- (double)ger:activitySessionsChangedForConversation: /* Error: Ran out of types for this method. */;
-- (struct CAPoint3D)N,V_attachmentRecordZone;
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (struct CAPoint3D);
 - (double);
 - (int);
 - (_Bool);
 - (double);
-- (struct CGVector);
+- (struct CGVector);
 - (id);
-- (id);
-- (_Bool)roup.;
-- (_Bool)rs. Not adding to record.;
-- (void)n cache %@;
-- (void)%@;
-- (void)rties;
-- (void)ted recoverable recordIDs %@;
-- (id)posed smil:%@ /* Error: Ran out of types for this method. */;
-- (void)not found in original message. FileTransferGuid:(long long)arg1 %@;
-- (void);
-- (id);
-- (id);
-- (void)c}@;
-- (id)unesLibraryEntityTranslatorContext"24;
-- (void);
-- (void)¦Q.º;
-- (void);
-- (void)1"isRunExpandScheduled"b1};
-- (_Bool)ing:(id)arg1;
-- (void)ngualSet:(_Bool)arg1 forDisplayInLists:usingDeviceLanguage:context: /* Error: Ran out of types for this method. */;
-- (_Bool)o;
-- (_Bool)isDisplayingActivityContinuationUI,S_setIsDisplayingActivityContinuationUI:,V_isDisplayingActivityContinuationUI /* Error: Ran out of types for this method. */;
-- (id)ToolbarPrimarySidebarSeparatorItem;
-- (void)food-and-drink.png;
-- (void)Layout internal error;
-- (_Bool)stemVibrantBackgroundRegular;
-- (id)dd}}24@0:8@16 /* Error: Ran out of types for this method. */;
-- (id);
-- (id)lð2;
 - (id);
 - (_Bool);
-- (void)äöÏhic;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)A	!TDùQeð1Â0@ù
+× ;
+- (void)nState;
+- (_Bool)Constraint;
+- (id)sBarVisibility;
+- (_Bool);
+- (id)at are visible at the same time to disambiguate them.;
+- (_Bool)letterCaseToggle;
+- (_Bool)ry;
+- (id);
+- (void)¼U];
+- (void)ø];
+- (_Bool)ùc_;
+- (id),8ÿ×Ô}`;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;

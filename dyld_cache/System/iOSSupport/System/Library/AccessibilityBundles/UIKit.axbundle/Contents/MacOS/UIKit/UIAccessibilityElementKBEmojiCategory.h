@@ -11,8 +11,8 @@
     unsigned long long _categoryIndex;
 }
 
-- (void);
 - (struct CGRect);
+- (void);
 - (id);
 
 @end

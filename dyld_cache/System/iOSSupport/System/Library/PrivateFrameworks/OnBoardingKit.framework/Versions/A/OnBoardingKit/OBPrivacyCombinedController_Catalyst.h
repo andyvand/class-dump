@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -37,10 +37,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void));
 - (void);
-- (void)Qð1¢!0@ù
-× ;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bundles; // @synthesize bundles=_bundles;

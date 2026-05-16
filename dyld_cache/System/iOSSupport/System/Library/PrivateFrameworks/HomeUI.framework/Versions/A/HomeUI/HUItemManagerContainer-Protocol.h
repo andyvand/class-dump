@@ -7,6 +7,8 @@
 @class HFItemManager;
 
 @protocol HUItemManagerContainer
+- (HFItemManager *)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) HFItemManager *itemManager;

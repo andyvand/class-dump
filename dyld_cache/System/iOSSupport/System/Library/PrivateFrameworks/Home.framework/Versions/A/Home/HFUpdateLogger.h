@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (id)kInvitation;
++ (id)SaySo15HMMatterCommandCG;
 - (id);
 - (double);
 - (void);
@@ -29,13 +29,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)ameraTimelapsePosterFrameGeneratorDelegate>",W,N,V_delegate;
-- (id);
+- (void)
+× ;
+- (id)tion",&,N,V_matchedCondition;
+- (void);
+- (void)equestDate=%@;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientDescription; // @synthesize clientDescription=_clientDescription;

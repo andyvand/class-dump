@@ -19,8 +19,8 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *downstreamInputName;

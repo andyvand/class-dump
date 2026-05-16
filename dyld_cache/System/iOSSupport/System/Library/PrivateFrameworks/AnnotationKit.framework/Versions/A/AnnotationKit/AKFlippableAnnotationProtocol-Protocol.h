@@ -6,10 +6,6 @@
 
 @protocol AKFlippableAnnotationProtocol
 
-@optional
-- (_Bool)d>:fetch cancelled by client /* Error: Ran out of types for this method. */;
-- (void);
-
 // Remaining properties
 @property _Bool horizontallyFlipped;
 // Preceding property had unknown attributes: ?

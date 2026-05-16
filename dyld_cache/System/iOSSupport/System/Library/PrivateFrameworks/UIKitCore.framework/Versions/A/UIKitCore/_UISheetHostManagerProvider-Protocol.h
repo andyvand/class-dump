@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _UISheetHostManager;
+
 @protocol _UISheetHostManagerProvider
++ (id <_UISheetHostManager>)Ð!øAùQd1Â0@ù
+× ;
 @end
 

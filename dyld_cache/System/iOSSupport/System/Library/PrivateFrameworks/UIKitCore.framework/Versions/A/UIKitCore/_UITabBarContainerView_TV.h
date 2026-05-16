@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)th.;
-- (void);
-- (id)yEdgeButton;
+- (id);
+- (id)TabBarItem: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITabBar *tabBar; // @synthesize tabBar=_tabBar;

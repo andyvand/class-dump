@@ -9,6 +9,8 @@
 __attribute__((visibility("hidden")))
 @interface CRAlignmentLayer
 {
+    _Bool _hideCardInfoOverlay;
+    _Bool _hideCardAlignmentRect;
     CATextLayer *_instructionLayer;
     CAShapeLayer *_maskLayer;
     CAShapeLayer *_outlineLayer;
@@ -31,9 +33,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -47,8 +53,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties
@@ -57,6 +63,8 @@ __attribute__((visibility("hidden")))
 @property(retain) NSMutableArray *cardNumberLayers; // @synthesize cardNumberLayers=_cardNumberLayers;
 @property(retain) CATextLayer *cardholderNameLayer; // @synthesize cardholderNameLayer=_cardholderNameLayer;
 @property(retain) CATextLayer *expirationDateLayer; // @synthesize expirationDateLayer=_expirationDateLayer;
+@property _Bool hideCardAlignmentRect; // @synthesize hideCardAlignmentRect=_hideCardAlignmentRect;
+@property _Bool hideCardInfoOverlay; // @synthesize hideCardInfoOverlay=_hideCardInfoOverlay;
 @property(retain) CALayer *infoLayer; // @synthesize infoLayer=_infoLayer;
 @property(retain) CATextLayer *instructionLayer; // @synthesize instructionLayer=_instructionLayer;
 @property(retain) CAShapeLayer *maskLayer; // @synthesize maskLayer=_maskLayer;

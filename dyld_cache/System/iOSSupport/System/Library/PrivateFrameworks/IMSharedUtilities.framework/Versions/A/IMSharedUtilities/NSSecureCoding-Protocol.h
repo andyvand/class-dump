@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)Èüð;
 @end
 

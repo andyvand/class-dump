@@ -13,8 +13,8 @@
     MISSING_TYPE *curationModel;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

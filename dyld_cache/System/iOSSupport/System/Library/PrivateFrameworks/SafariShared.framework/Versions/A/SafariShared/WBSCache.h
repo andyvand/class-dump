@@ -16,11 +16,11 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 
 @end
 

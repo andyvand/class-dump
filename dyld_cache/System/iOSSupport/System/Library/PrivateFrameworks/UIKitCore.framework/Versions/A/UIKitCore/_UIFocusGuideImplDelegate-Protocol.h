@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _UIFocusGuideImpl;
 
 @protocol _UIFocusGuideImplDelegate
-- (struct CGRect)chableEnvironments;
-- (void)ntrollerConfiguration",&,N;
+- (struct CGRect);
+- (void)0@ù
+× ;
 
 @optional
-- (NSArray *)nsitionCoordinator>",&,N,V_transitioningToSizeCoordinator;
+- (NSArray *)extContentView:(_UIFocusGuideImpl *)arg1 shouldChangeSizeForContentSize:(unsigned long long)arg2;
 @end
 

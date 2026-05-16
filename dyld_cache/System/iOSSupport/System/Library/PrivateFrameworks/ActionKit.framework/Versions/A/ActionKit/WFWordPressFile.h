@@ -16,12 +16,12 @@
 
 + (id);
 + (id);
-+ (_Bool)nt? (WFCalendarItemNotes);
++ (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)@;
+- (id);
+- (void)art of a cycle.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

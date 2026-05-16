@@ -42,7 +42,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)lue"8;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *activeOptionItem; // @synthesize activeOptionItem=_activeOptionItem;

@@ -13,8 +13,8 @@
     MISSING_TYPE *urlString;
 }
 
-- (void);
 - (id);
+- (void)tring",C,N,V_winningAdamId;
 
 @end
 

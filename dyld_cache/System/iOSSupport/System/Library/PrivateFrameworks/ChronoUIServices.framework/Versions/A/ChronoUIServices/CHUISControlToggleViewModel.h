@@ -35,22 +35,22 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void)nt load successful:(_Bool)arg1 loading content for key:%{public}s with data protection level of entry [%{public}s] (system protection level:%{public}s), current state:%{public}s, isDataProtected (isPlaceholder):%{bool,public}d, hasError? %{bool,public}d /* Error: Ran out of types for this method. */;
+- (_Bool)rUpdateStreamContinuation;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;

@@ -13,21 +13,21 @@
 }
 
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void)tLocation;
+- (_Bool)(¸ ½Ë¼Í@Ò;
+- (void)pleted. Item:(id)arg1 %@;
+- (void)orAction:] /* Error: Ran out of types for this method. */;
+- (id)me;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;

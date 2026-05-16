@@ -58,16 +58,16 @@
 - (const struct NUNISceneStructure *);
 - (unsigned long long);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (void);
+- (void)xæWTµÜÿQ;
 - (unsigned long long);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long backgroundType; // @dynamic backgroundType;

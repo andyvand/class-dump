@@ -5,6 +5,5 @@
 //
 
 @protocol _UITabBarControllerInterruptibleTransitioning
-- (void);
 @end
 

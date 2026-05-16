@@ -5,8 +5,9 @@
 //
 
 @protocol _UIFeedbackTransientHaptic_Internal
-- (float)!o!´AùqÁ1¢!0@ù
+- (float)1Â0@ù
 × ;
+- (float)upported, and will result in incorrect self-sizing. View:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) float intensity;

@@ -14,7 +14,7 @@
     _Bool _synchronousFullSizePreviewEnabled;
 }
 
-+ (id)h;¼ÿ	H 9;
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -23,8 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (void);
-- (id)erformer %@;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysUseDataProviderForObjectReference; // @synthesize alwaysUseDataProviderForObjectReference=_alwaysUseDataProviderForObjectReference;

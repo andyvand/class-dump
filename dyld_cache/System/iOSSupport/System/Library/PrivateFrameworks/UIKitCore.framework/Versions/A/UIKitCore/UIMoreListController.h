@@ -20,31 +20,32 @@
     _Bool _moreViewControllersChanged;
 }
 
-- (void)eIdentifier:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)orSearchableIndex:(id)arg1 itemIdentifier:typeIdentifier:error: /* Error: Ran out of types for this method. */;
-- (void)kMessageAsNotifiedRecipientAndNotify:(_Bool)arg1 session:chat: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (_Bool)ting is already submitted;
-- (void)ntly deleted:(long long)arg1 returning nil record. recordID nil for metadata:(id)arg2 %s;
-- (_Bool)to add aliases:%@  account:%@ /* Error: Ran out of types for this method. */;
-- (void):%@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (id)e a radar **** Asset last path component from url %@ is nil so cannot save it to metadata;
-- (void)ord;
-- (_Bool)nitorLogDomain;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (long long);
+- (void)
+× ;
+- (void)ategory,S_setCategory:,V_category /* Error: Ran out of types for this method. */;
+- (void)\;
+- (void)Ì#ÿj³Ø¨ò_;
 - (void);
-- (void)eInsets=dddd}}40@0:(id)arg1 8q16@24@32;
-- (long long)cameActive;
-- (id)ablingNavigationBarHiding;
-- (void)ÌÏh;
-- (void)_ºh;
-- (void)Ì×j;
+- (void)ø7ÿ* Ï@µk;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCustomizing;

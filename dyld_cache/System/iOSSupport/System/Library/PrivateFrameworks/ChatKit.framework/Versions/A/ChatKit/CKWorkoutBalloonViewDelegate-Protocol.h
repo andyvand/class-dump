@@ -5,6 +5,5 @@
 //
 
 @protocol CKWorkoutBalloonViewDelegate
-- (void)sCancelled;
 @end
 

@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (void);
-- (float);
-- (float);
 - (id);
+- (float);
+- (float);
 
 // Remaining properties
 @property float down; // @synthesize down=_down;

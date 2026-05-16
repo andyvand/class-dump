@@ -20,8 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Á¨!(Aùññ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditingColorItem *colorItem; // @synthesize colorItem=_colorItem;

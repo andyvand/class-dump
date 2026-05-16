@@ -17,8 +17,8 @@
     MISSING_TYPE *colorMap;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

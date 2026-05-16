@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)5	;
-- (void);
-- (void);
-- (void)!;
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)pMeÎTÂ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;

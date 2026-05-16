@@ -11,18 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void):inPhase:withEvent: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)em: /* Error: Ran out of types for this method. */;
-- (void)_Vertical_Normal.png;
-- (long long)Ó«a;
-- (long long)ÿ;
-- (_Bool)#¬;
-- (_Bool)¬d;
-- (_Bool)q×µd;
-- (long long)e;
-- (struct CGRect);
-- (struct CGRect)Äòþ;
-- (struct UIEdgeInsets).Ìf;
+- (struct UIEdgeInsets)kImage:%@
+ /* Error: Ran out of types for this method. */;
+- (_Bool)reKeyboardExclusivityIdentifier;
+- (_Bool);
+- (struct CGRect)creteResolverC;
+- (long long);
+- (_Bool),];
+- (_Bool)dÄåþ;
+- (struct CGRect)¬%ÿ;
+- (long long)Ùc;
+- (long long)Êôg;
 
 @end
 

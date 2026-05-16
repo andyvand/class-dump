@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)nteractiveCanvasController"16@?<v@?>24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

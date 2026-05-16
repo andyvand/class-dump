@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)elegate>";
-- (id)@"SFCardSection"16@"SiriSharedUIAdditionalDomainFeedback"24;
-- (void)SDraggingInfo>"24^q32^q40;
-- (void)16@24@32q40;
-- (id)@0:(id)arg1 8@"SiriUISystemAssistantExperienceViewController"16;
-- (_Bool)L"24@0:(id)arg1 8@"NSString"16;
-- (id)EffectView";
-- (void)ject<SAAceCommand>"16@"AFUIDelayedActionCommandCache"24;
-- (void)"16@"NSFont"24B32@?<v@?@"NSArray">36;
-- (void)GPoint=dd}{CGSize=dd}}24;
-- (void)B;
-- (void)invertedColors;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

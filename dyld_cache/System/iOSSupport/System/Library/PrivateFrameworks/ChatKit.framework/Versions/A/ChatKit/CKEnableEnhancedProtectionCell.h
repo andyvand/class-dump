@@ -24,16 +24,16 @@
 - (void);
 - (void);
 - (id);
-- (id)g index update;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
 - (void);
-- (struct CGSize)eRegistryWillUnregisterChatNotification:(struct CGSize)arg1 ];
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *ktTitleLabel; // @synthesize ktTitleLabel=_ktTitleLabel;

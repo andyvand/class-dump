@@ -18,21 +18,21 @@
     NSMapTable *_dependentScrollViews;
 }
 
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool)0@ù
+- (_Bool)1â
+0@ù
 × ;
-- (_Bool)argeTitleDisplayMode:(id)arg1;
-- (id);
-- (void)ÿÿÿX	ìÿ<bGÿÀ
-;
-- (_Bool)r;
+- (id)rdance: /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1;
+- (_Bool),V_containerCollection;
+- (id);
+- (void)GroupActivityTitle;
 
 // Remaining properties
 @property(nonatomic) _Bool allowSwipeDown; // @synthesize allowSwipeDown=_allowSwipeDown;

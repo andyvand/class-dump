@@ -27,9 +27,9 @@
 
 + (struct CGRect);
 + (struct CGRect);
-+ (id);
++ (id);
 + (struct CGSize);
-+ (struct CGRect)�;
++ (struct CGRect);
 + (struct CGSize);
 + (struct CGRect);
 + (_Bool);
@@ -46,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,18 +61,17 @@
 - (struct CGRect);
 - (void);
 - (struct CGRect);
-- (id)ista;
+- (_Bool);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
 - (unsigned long long);
-- (_Bool)h;
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
-- (void);
 - (_Bool);
-- (struct UIEdgeInsets);
-- (id)pertyKey_messageData;
 - (void);
-- (void)ÔÁ!àGùÉ°1¢!0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect buttonFrame; // @synthesize buttonFrame=_buttonFrame;

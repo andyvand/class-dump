@@ -20,35 +20,35 @@ __attribute__((visibility("hidden")))
     IMChatRegistry *_chatRegisteryOverride;
 }
 
-- (void)ntifierBeforeAttachmentIsSet;
-- (void)essIndicator",W,V_progressIndicator;
-- (void)sAutoListInsertionDisabled:(id)arg1;
-- (id)ngObserving;
-- (id);
-- (id)aySo18ICTTParagraphStyleCG15paragraphStylest;
-- (id)oPCMBufferCG;
-- (id)aper;
-- (id)e=QQ}16;
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)|;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id)0@ù
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void)!ìEùñ1Â0@ù
 × ;
-- (CDUnknownBlockType)didSelectSharingAudience: /* Error: Ran out of types for this method. */;
-- (void)alCellData;
-- (void)lts. Max is %lu;
-- (unsigned long long)_WARNING_NON_CELLULAR;
-- (void)ÿ;
-- (_Bool);
+- (CDUnknownBlockType);
+- (void)dDismissCustomizationPicker:(_Bool)arg1;
+- (void)¨;
+- (void);
+- (id)ýËjD?´ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;

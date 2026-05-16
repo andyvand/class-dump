@@ -36,8 +36,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)eldNameSymptomInternetOutageHomeHub is nil;
+- (id);
+- (void)tionRoomKey;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

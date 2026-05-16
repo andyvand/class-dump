@@ -16,16 +16,16 @@
     NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
-- (id):(id)arg1;
-- (void)ngDeviceId:(CDUnknownBlockType)arg1;
-- (void)StreamEnumerator:(void *)arg1 downstream:streamId:accessClient: /* Error: Ran out of types for this method. */;
-- (void)ithStreamDatastoreReader:(void *)arg1 streamsAccessClient: /* Error: Ran out of types for this method. */;
-- (id):sender:domainIdentifier:batchIdentifier:calculatedFeatures:clientIdentifier:contentCreationDate:groupPhotoPath:displayName:isPrimary:attributionIdentifier:rank:score:isConversationAutoDonating:originatingDeviceId:rankingDate:resolvedUrl: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)rtTime;
-- (void)*getITLibMediaItemPropertyYear();
+- (void);
+- (id);
+- (void);
+- (_Bool)tObject:forKey: /* Error: Ran out of types for this method. */;
+- (void)lessInfo",&,D,N;
 
 @end
 

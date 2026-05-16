@@ -17,22 +17,22 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id);
-+ (id)T);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)N;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ommutePlanIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,10 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MPSectionedIdentifierListEnumerationTrackingEntry;
-
 @protocol MPSectionedIdentifierListEnumerationResult
-- (id <MPSectionedIdentifierListEnumerationTrackingEntry>)om.tinginteractive.usms;
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;

@@ -7,9 +7,7 @@
 @protocol UIDragInteractionDelegate_Internal
 
 @optional
-- (double);
-- (_Bool)qÍ°1¢!0@ù
-× ;
-- (_Bool)FocusItem>";
+- (_Bool)× ;
+- (_Bool)ÿ;
 @end
 

@@ -17,9 +17,8 @@
 }
 
 - (id);
-- (void)
-× ;
-- (id)yDriverStorage;
+- (id)UIHIDPathCollection;
+- (void);
 
 @end
 

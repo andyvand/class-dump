@@ -11,7 +11,7 @@
     NSSet *_freshnessProviders;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (_Bool);
@@ -25,8 +25,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *dataComponents;

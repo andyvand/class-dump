@@ -18,7 +18,7 @@
     double _variableValue;
 }
 
-- (void)thDomain:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -29,12 +29,11 @@
 - (void);
 - (void);
 - (id);
-- (void)^K;
 - (id);
-- (void)ÁoÐ!@ùQÂ°1¢!0@ù
-× ;
-- (double)bleView dataSource does not implement required method -tableView:cellForRowAtIndexPath:%@ /* Error: Ran out of types for this method. */;
-- (void)T<;
+- (void)ath:(id)arg1 options:context: /* Error: Ran out of types for this method. */;
+- (double)setBackgroundTaskIdentifier:,V_backgroundTaskIdentifier /* Error: Ran out of types for this method. */;
+- (void)Âÿ;
+- (void)¤Øÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *resourceCatalogName; // @synthesize resourceCatalogName=_resourceCatalogName;

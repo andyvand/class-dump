@@ -24,9 +24,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)licy;
-- (id);
+- (id);
+- (id);
+- (void)nHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

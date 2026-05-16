@@ -18,13 +18,14 @@
     id <PKPaymentAuthorizationViewControllerPrivateDelegate> _privateDelegate;
 }
 
-+ (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
++ (void);
 + (void);
 + (_Bool);
 - (void);
@@ -53,20 +54,22 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (long long);
 - (void);
-- (id);
 - (void);
 - (id);
-- (unsigned long long)s: /* Error: Ran out of types for this method. */;
-- (void)xAæÿ»óÿèÀóÿlAæÿ;
-- (void)3;
-- (void)ivityItemsConfiguration",N,&;
+- (unsigned long long);
+- (void);
+- (void)!©! Dùø°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PassKitMacHelperPaymentHelperProtocol> catalystHelper; // @synthesize catalystHelper=_catalystHelper;

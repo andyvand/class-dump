@@ -20,40 +20,39 @@
     UIGestureRecognizer *_gestureRecognizer;
 }
 
-- (void)ionCoordinate2D=dd},R,N;
-- (void)SColor",R,C,N;
-- (void);
-- (void)tributedStringCG;
 - (void);
 - (void);
-- (void){userActivity:(id)arg1 %@, error:%s} /* Error: Ran out of types for this method. */;
-- (id)achment:(id)arg1 %@, modificationDate:%@, previewUpdateDate:%@). /* Error: Ran out of types for this method. */;
-- (void)noteData.needsToBeSaved=YES but noteData.hasChanges=NO. Telling noteData that it has changes.;
-- (void)alues to note %@;
-- (_Bool)ttings*AppleIDSettings?iCloud;
-- (id);
-- (id);
-- (void)x0
-;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (id)t: /* Error: Ran out of types for this method. */;
-- (void),;
-- (void)}};
-- (_Bool);
-- (id),Ùrÿ×£/Þ
-.;
-- (void)·.;
-- (id)1YÍ/;
+- (void)aý°!ÈBù1Ð1Â0@ù
+× ;
+- (id)estrictions prevent installing apps.;
+- (id)<;
+- (void)ÿ5';
+- (void)	;
+- (id);
+- (_Bool)$0ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *borrowedEffectViewSnapshot; // @synthesize borrowedEffectViewSnapshot=_borrowedEffectViewSnapshot;

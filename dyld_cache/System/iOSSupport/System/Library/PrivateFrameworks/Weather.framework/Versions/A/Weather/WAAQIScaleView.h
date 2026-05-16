@@ -19,12 +19,12 @@
 - (double);
 - (void);
 - (unsigned long long);
+- (void);
 - (id);
 - (struct CGSize);
-- (void);
+- (id);
 - (struct CGRect);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

@@ -24,27 +24,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id)4;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (double);
 - (void);
-- (void)SheetConfiguration:(id)arg1;
-- (id)ä;
-- (id)efore the presentation occurs.;
-- (void)exactly 4 constraints, in order:(struct CGSize)arg1 top, left, bottom, right;
-- (struct CGSize)ion state!;
-- (void)DüiþõÌ4üiþÍ4ýiþÍ4°üiþÍ4`ûiþ%Í4ûiþÅÌ4ûiþÍÌ4Lûiþ¥Ì4LûiþõÌ4äûiþÌ4àûiþÌ4ÐûiþÍÌ4`üiþÍ4°ûiþÕÌ4dûiþ;
-- (void)BÔ[;
-- (double);
+- (double)style:renderConfig:size: /* Error: Ran out of types for this method. */;
+- (void)lidationReportFormatter;
+- (double)%@;
+- (void)annot place a sublayout relative to both the top and bottom edge of a sibling layout;
+- (void)nvalid frame %@ generated when rounding frame %@ to screen scale (%g).;
+- (id)lingP;
+- (void)iner;
+- (id) ^;
+- (struct CGSize)tçþ;
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @dynamic blurRadius;

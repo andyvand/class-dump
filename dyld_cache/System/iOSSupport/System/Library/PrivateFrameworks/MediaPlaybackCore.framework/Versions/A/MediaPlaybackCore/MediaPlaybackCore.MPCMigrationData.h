@@ -17,11 +17,11 @@
 }
 
 + (void);
-+ (_Bool)led in shared listening mode;
-- (void);
++ (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)ive:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

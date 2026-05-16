@@ -27,8 +27,8 @@
 - (id);
 - (long long);
 - (long long);
+- (id);
 - (void);
-- (id)apple.managedcorespotlightd;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *multicolorEnabledStates; // @synthesize multicolorEnabledStates=_multicolorEnabledStates;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegateInternal
 
 @optional
-- (void)sHostingSearchTextField:(UIGestureRecognizer *)arg1;
 - (_Bool);
+- (_Bool)´Ú;
+- (void)eparatorView.m;
 @end
 

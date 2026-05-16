@@ -17,12 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void)e calling process doesn't have that, we will always pass calls to AppleAccount and don't do any caching/notifying.;
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, setter=setAnimationOrigin:) long long animationOrigin; // @synthesize animationOrigin=_animationOrigin;

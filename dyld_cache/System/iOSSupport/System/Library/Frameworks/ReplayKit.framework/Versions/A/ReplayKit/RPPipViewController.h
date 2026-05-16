@@ -47,12 +47,12 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)uldResumeSessionType;
 
 // Remaining properties
 @property(nonatomic) long long cameraPosition; // @synthesize cameraPosition=_cameraPosition;

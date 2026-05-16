@@ -24,13 +24,13 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (double);
-- (unsigned long long);
+- (double)inBundle:withConfiguration: /* Error: Ran out of types for this method. */;
+- (long long)tion",&,N,V_configuration;
+- (unsigned long long)iderTrackView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

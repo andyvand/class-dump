@@ -26,11 +26,10 @@
 - (id);
 - (id);
 - (void);
+- (id)L;
 - (void);
-- (id)q}°1b0@ù
-× ;
-- (id)\÷ÿA¥ûÿ;
-- (void);
+- (id)splayedInWholeRow;
+- (void)iewChromeItems;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCuratedLibraryActionManager *actionManager; // @synthesize actionManager=_actionManager;

@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id)date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id;
-- (id)s/Sources/MessagesCore_iosmac/IMCore/IMDPersistence/Source/IMDCFChatRecord.m;
+- (id);
+- (id);
+- (void)}};
+- (void)AND ROWID > ? ORDER BY ROWID LIMIT ?;;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

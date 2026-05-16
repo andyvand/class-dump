@@ -21,24 +21,23 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)BalloonGradientPositionTrackingLayer;
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id)
-× ;
-- (id)l/vnd.reality;
+- (id);
+- (void);
+- (void)¤;
+- (id)ß;
+- (id)g;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

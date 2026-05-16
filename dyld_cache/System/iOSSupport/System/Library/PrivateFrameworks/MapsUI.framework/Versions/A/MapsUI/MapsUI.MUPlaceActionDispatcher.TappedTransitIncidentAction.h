@@ -13,8 +13,8 @@
     MISSING_TYPE *transitIncidents;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

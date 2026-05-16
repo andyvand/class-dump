@@ -25,10 +25,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (id)	
+;
+- (void);
+- (void)ingSubfolders:error:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *automationType; // @synthesize automationType=_automationType;

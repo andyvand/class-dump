@@ -42,18 +42,17 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
 - (unsigned long long);
-- (unsigned long long)1b0@ù
-× ;
-- (double)leItem;
-- (unsigned long long)ÔÑ]ÐÔ^Ø_¼Ù`lÜaÝÞb,ßàc8ádTâe°äf<å°ægXçhøèéiÔêjÔëkííüîl¤ïm(ñ\ñdôô;
-- (unsigned long long)s.SetUp.Lock.NewFeatures;
+- (void);
+- (void)ber;
+- (double)eared;
+- (unsigned long long)olorPicker;
+- (unsigned long long);
+- (void)iriOrHeySiri_Setting_Section_Footer_UnsupportedAccessory;
+- (void)soryLikeObjectCG;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) long long horizontalAlignment; // @synthesize horizontalAlignment=_horizontalAlignment;

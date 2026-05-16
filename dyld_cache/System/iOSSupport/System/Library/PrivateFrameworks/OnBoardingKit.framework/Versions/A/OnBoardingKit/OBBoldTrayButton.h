@@ -17,7 +17,7 @@
 
 + (id);
 + (id);
-+ (id)nGroups;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -27,8 +27,8 @@
 - (void);
 - (void);
 - (void);
-- (void)L;
-- (void)INTEGER NOT NULL,isScheduledForAllButCookieDataRemoval INTEGER NOT NULL, mostRecentWebPushInteractionTime REAL NOT NULL);
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);

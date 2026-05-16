@@ -17,10 +17,11 @@
 - (void);
 - (id);
 - (long long);
-- (id);
 - (void);
 - (void);
 - (void);
+- (id)
+× ;
 - (void);
 
 // Remaining properties

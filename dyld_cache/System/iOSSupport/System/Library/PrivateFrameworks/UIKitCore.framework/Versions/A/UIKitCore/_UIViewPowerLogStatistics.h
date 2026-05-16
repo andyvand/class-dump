@@ -9,9 +9,8 @@
 }
 
 + (void);
-- (void)!ôFùqÄÐ1¢!0@ù
-× ;
-- (id)teraction;
+- (id);
+- (void)Ml;
 
 @end
 

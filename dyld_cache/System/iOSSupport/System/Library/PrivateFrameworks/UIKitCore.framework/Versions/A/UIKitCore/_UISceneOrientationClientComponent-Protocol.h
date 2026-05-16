@@ -5,8 +5,6 @@
 //
 
 @protocol _UISceneOrientationClientComponent
-- (long long)S;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long interfaceOrientationLockState;

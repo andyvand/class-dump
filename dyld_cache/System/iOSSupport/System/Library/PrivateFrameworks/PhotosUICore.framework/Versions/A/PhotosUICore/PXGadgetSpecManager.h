@@ -26,10 +26,10 @@
 - (id);
 - (long long);
 - (void);
-- (void)MapStyle case found for imageName;
+- (void)onfiguration"8;
+- (void)LCD-Filetype-Video;
 - (void);
-- (void)ÿP{Kê;
-- (id);
+- (id)oë9 &4;
 
 // Remaining properties
 @property(retain, nonatomic) PXGadgetSpec *currentGadgetSpec; // @synthesize currentGadgetSpec=_currentGadgetSpec;

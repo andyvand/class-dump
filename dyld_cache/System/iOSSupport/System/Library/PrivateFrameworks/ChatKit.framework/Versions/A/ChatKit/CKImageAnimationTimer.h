@@ -18,27 +18,29 @@
 
 + (_Bool);
 + (id);
-- (void)omplete;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool)emPaperNotesImmediately;
+- (_Bool);
 - (void);
 - (double);
 - (double);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)ted:(id)arg1;
-- (void)ESCRIPTION_INPUT_DISABLED_DESCRIPTION;
+- (void)utTraitsDidChange;
+- (id)G	GÀHI
+ìKM ÌQôRÔSàT	XUU\V#8WX[¬[
+]ô]^	ð^¨_ÐbXd;
+- (void)d;
+- (id)ëxÿ;
 
 // Remaining properties
 @property(nonatomic) double animationStartTime; // @synthesize animationStartTime=_animationStartTime;

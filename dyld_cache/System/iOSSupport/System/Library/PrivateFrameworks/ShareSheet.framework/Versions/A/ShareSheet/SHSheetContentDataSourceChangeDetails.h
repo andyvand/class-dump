@@ -30,9 +30,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool airDropBadgeChanged; // @synthesize airDropBadgeChanged=_airDropBadgeChanged;

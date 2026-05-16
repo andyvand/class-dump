@@ -5,6 +5,6 @@
 //
 
 @protocol WCXPCPrivateManagerDaemonProtocol
-- (void)=;
+- (void)WithIdentifier:clientPairingID:]_block_invoke /* Error: Ran out of types for this method. */;
 @end
 

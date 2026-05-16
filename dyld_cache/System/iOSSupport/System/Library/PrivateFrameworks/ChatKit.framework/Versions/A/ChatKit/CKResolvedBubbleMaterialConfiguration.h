@@ -15,9 +15,10 @@
 - (id);
 - (id);
 - (double);
-- (void);
-- (id);
 - (id);
+- (id)
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIColor *backdropColor;

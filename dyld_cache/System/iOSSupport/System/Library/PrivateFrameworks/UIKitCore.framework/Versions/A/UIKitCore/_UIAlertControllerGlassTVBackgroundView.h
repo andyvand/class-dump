@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (double)6;
-+ (struct CGSize)elete;
++ (double);
++ (struct CGSize);
 + (_Bool);
-- (id)Shape>"8^B16;
+- (id)ionSheetContainerView;
 
 @end
 

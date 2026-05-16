@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ForApp:warningHeader:warning:callbackQueue:callbackHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)o meCard;
+- (id);
+- (_Bool);
+- (void)ms but are AOI/POI pair, continuing with boost;
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;

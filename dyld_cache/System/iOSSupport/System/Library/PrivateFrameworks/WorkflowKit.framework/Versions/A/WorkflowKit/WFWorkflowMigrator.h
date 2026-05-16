@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (void);
-+ (void)FInput} (Parameter Summary);
++ (void);
 
 @end
 

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     _Bool _active;
 }
 
-- (_Bool);
-- (void);
 - (id);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

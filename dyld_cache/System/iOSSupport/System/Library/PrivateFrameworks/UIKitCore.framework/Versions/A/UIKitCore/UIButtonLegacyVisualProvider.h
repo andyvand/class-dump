@@ -22,170 +22,168 @@
     NSArray *_contentConstraints;
 }
 
-+ (_Bool)buildRequiredOnlyWithIdentifier:withLocation:withEncryptCertPayloadUUID: /* Error: Ran out of types for this method. */;
-+ (_Bool)ainsAlways;
++ (_Bool);
 + (id);
++ (_Bool);
 + (long long);
-+ (id)rFloatingAssistantViewTransition:] /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool);
-- (_Bool)!;
-- (void);
-- (id)|_;
-- (void);
-- (void);
-- (void)a;
-- (void);
-- (void)n:(id)arg1 withLDAPSearchSettingSearchBase:(unsigned long long)arg2 withLDAPSearchSettingScope:(unsigned long long)arg3;
-- (_Bool)led;
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id)5;
-- (void);
-- (void);
-- (id)@;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id)fier:(id)arg1 requestingContext: /* Error: Ran out of types for this method. */;
-- (void)rDidUpdateDataSyncInProgress: /* Error: Ran out of types for this method. */;
-- (void)ocked_reevaluateCanBeNowPlayingApplication;
-- (id)LyricsItem;
-- (void);
-- (void);
-- (id)return MPRemoteCommandHandlerStatus or take a completion handler as the second argument.;
-- (void)nslator was missing mapping for MPModelPropertyPodcastEpisodePodcastStoreID;
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (id)P;
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
++ (id)RegistrationInteractionC;
 - (void);
 - (struct CGRect);
+- (_Bool);
 - (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (id);
+- (struct CGSize);
+- (void);
+- (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)
+× ;
+- (void)_°1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)!4Cùe1Â0@ù
+× ;
+- (struct CGRect);
+- (void)1Â0@ù
+× ;
+- (_Bool)!°!Cùñg1Â0@ù
+× ;
+- (void)nt: /* Error: Ran out of types for this method. */;
+- (void)ionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGSize)fset;
+- (void)t;
+- (void)sparentTearingEnabled;
+- (_Bool);
+- (struct CGRect)DeleteItems:(struct CGRect)arg1 sortedMoveItems:(_Bool)arg2;
+- (struct CGRect);
+- (_Bool)mRangeIndexer;
+- (void)nitWithDefaultValues;
+- (void)ty;
+- (struct CGRect)_UIPreviewTarget;
+- (void)wSceneStackRecord;
+- (void);
+- (void)°è;
+- (void)L;
+- (struct CGRect)owHeight (%g). Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (void)IDragging:(id)arg1 pasteboardObjectForItemIndex:%lu type:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)rrangement init];
+- (void)ith _UIObjectIdentifierPathProxy for encoding:(unsigned long long)arg1 %s<%p>;
+- (id)ionAxisLayoutAttributeForAlignmentAndAxis(_UIStatusBarRegionAxisLayoutAlignment, UILayoutConstraintAxis);
+- (struct CGRect)ingReordering;
+- (id)ection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
+- (id)indicator=pulldown;
+- (struct CGSize)IPinnedFrameForFrameWithContainerFrameVisibleFrame(CGRect, CGRect, CGRect, NSRectAlignment);
+- (void)iew instance to the customView of configurations applied to different views is not allowed. Subview removed:(id)arg1 %@; Background view:(unsigned long long)arg2 %@;
+- (void)th;
+- (id)^{__CFRunLoopObserver=}8Q16;
+- (void)lertActionStyleCancel;
+- (void);
+- (void);
+- (_Bool)pha;
+- (id);
+- (void);
+- (void)¯;
+- (void)3©;
+- (id)ÿö°þ;
+- (id)¾7_tý¾7RzlXX;
 - (_Bool);
 - (void);
-- (id);
-- (void)(;
-- (id)1¢!0@ù
-× ;
-- (void)Ao°!°CùÁð1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)1ÃÐ1¢!0@ù
-× ;
+- (void)ø<R0%Í03ØN;
+- (void)ÔÏ2_23Ôe;
+- (double);
+- (void);
+- (void);
+- (void)Ð;
+- (void)¡Ø;
+- (id);
+- (CDStruct_c3b9c2ee);
+- (void)Á[;
 - (id);
-- (long long)0@ù
-× ;
-- (void)¢!0@ù
-× ;
+- (void)\;
+- (id)f;
 - (void);
-- (struct CGRect)
-× ;
-- (void)avð!Fù1ËÐ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)ÎÐ1¢!0@ù
-× ;
-- (id)Size";
-- (void)@16{CGPoint=dd}24@40{CGPoint=dd}48;
-- (id)Point=dd}40;
-- (void)lEdgeInsets: /* Error: Ran out of types for this method. */;
-- (id)slationWeight;
-- (struct CGPoint)t:(id)arg1;
-- (void)ask;
-- (void)eaderHeightDidChangeToHeight: /* Error: Ran out of types for this method. */;
-- (id)ewarmsPredictiveCandidates:(id)arg1;
-- (void)Insets: /* Error: Ran out of types for this method. */;
-- (_Bool)itleView:animated: /* Error: Ran out of types for this method. */;
-- (void)sparent;
-- (id):mode: /* Error: Ran out of types for this method. */;
+- (void)P°\;
+- (void);
+- (void)XD];
 - (void);
-- (void)odel;
-- (_Bool)annotationTapRecognized: /* Error: Ran out of types for this method. */;
-- (double)animateOffsetOfEnvironmentScrollableContainer:(id)arg1 toShowFocusItem: /* Error: Ran out of types for this method. */;
-- (void)actions:animated: /* Error: Ran out of types for this method. */;
-- (void)InDarkMode;
-- (id)ndView;
-- (id)WithCompletion: /* Error: Ran out of types for this method. */;
-- (id)lowRequired;
-- (_Bool)archArea;
-- (void)reenEdgeForTransition: /* Error: Ran out of types for this method. */;
-- (id)itemLastBaselineToBottom;
-- (struct CGSize)nitWithLayout:(struct CGSize)arg1;
-- (void)xPath:(id)arg1;
-- (void)egory;
-- (void)tToValuePadding;
-- (id)on;
-- (id)ingConfiguration;
-- (void)ookmarks;
-- (void),N,V_focusSoundPlayer;
-- (void)ndowPickerViewController;
-- (id)atusBarDataNetworkEntry;
-- (void)µP¶d¸¤¸¹D¹ô¹<º;
-- (void)\pq°qðsØxÈz$|;
-- (struct CGRect);
-- (CDStruct_c3b9c2ee)rs...;
-- (void)iguration.usesTextInputAsLabel with a corresponding label configuration whose numberOfLines != 1 will result in incorrect positioning of the text input. This message will only be logged once.;
-- (void)lling out to a delegate. UICollectionViewFlowLayout instance is (%@);
-- (void)%p] _setFocusedItemState:(id)arg1 Asked to update focus at %@ to cell %@ while cell %@ is already focused;
-- (struct CGRect)ng UIAlert:(struct CGRect)arg1 no title or message to display;
-- (id)ôÿÿÿÄéÿ;
-- (_Bool)ÀüÿZ>ÿÿÀüÿ[>ÿÿ¦ÀüÿÄHýÿHâüÿ;
+- (_Bool)ôæÿh¼);
+- (void)7EÏh@_;
+- (struct CGRect)Øñ_;
+- (void)âãþ8;
 - (void);
-- (id)nal inconsistency:attempted to exchange subviews that do not have an associated _UICollectionViewSubviewRouterBookmark index. Please file a bug against UICollectionView. /* Error: Ran out of types for this method. */;
-- (struct CGRect)wSystemGestureStateChangedNotification;
-- (double)his is unexpected, please file a radar.;
-- (void)*_UIAllocateStandardizedEndiannessByteArrayForEncodingHostNodeArray(const _UIBoundingPathBitmapDataNode *, const size_t);
-- (struct UIEdgeInsets)0% White;
-- (void)controller's view is loaded;
-- (id)eDataSource cell provider returned nil for index path %@ with item identifier '%@', which is not allowed. You must always return a cell to the collection view:%@ /* Error: Ran out of types for this method. */;
-- (struct CGSize)mpositional layout internal error:The number of NSCollectionLayoutSections returned (%ld) does not match the number of sections in the data source snapshot (%ld) /* Error: Ran out of types for this method. */;
-- (void)0:8@16d24@?32 /* Error: Ran out of types for this method. */;
-- (void);
-- (double),*;
-- (void)×8a;
-- (void)Â¬;
-- (struct CGRect)*s_;
-- (_Bool)èoÿ;
-- (void)JÝ`;
-- (void)7ÿ¦Ö²a;
-- (id)KÖ;
-- (struct CGRect);
+- (id)Ù¨>b;
+- (void)Ìtb;
 - (id);
-- (void)7µÿÛÐÓ	>d;
+- (_Bool)«á;
+- (id)LÔØc;
+- (_Bool);
+- (_Bool)Dyc;
 - (void);
-- (struct CGSize)©f;
-- (void)2nÊºg;
-- (_Bool)èÖÿUÌ¿gg;
-- (void)k©Ï^j;
-- (void)\ÿOÔDn;
-- (void)¶l;
+- (id)|x#d;
+- (double);
+- (void)°7ì;
+- (void);
+- (void)¾[;
+- (id)8Xe;
+- (_Bool)Dye;
+- (void)¿
+g;
+- (id)¨g;
+- (void)ÔqðþË¸g;
+- (void)$;
 - (struct CGRect);
-- (id)ÆNq;
+- (struct CGPoint)ö¿ÿ#ÞZ;
+- (long long)ðhvþÔî`åh;
+- (void)éÅÿw\;
+- (struct CGRect)Wµÿ·(¦i;
+- (void)cÕ¨ði;
+- (id)ÌJ÷þ;
+- (void)ÀÁ¡ÿ;
+- (struct CGRect)&ÿ¬ÿÚÌÃj;
+- (struct UIEdgeInsets)É;
+- (id)ík;
+- (void)m;
+- (id)<lÿ;
+- (id)Ïm;
+- (void)8fn;
+- (void)Þ¾;
+- (_Bool);
+- (id)paNÿÜ9;
+- (id)!Ü;;
+- (void)\­-ÿ©÷;
+- (_Bool)¤ÎèÿBDÖÈ@p;
+- (id)}ÑXÎp;
+- (id)±¼;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setContentConstraints:) NSArray *_contentConstraints; // @synthesize _contentConstraints;

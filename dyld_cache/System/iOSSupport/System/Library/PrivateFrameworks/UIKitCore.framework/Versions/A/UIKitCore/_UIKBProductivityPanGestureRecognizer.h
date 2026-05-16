@@ -19,32 +19,31 @@
     struct CGPoint _beginPanCentroid;
 }
 
-+ (id)@;
-- (void)160@168@176@184@192@200@208@216@224@232@240@248@256@264@272@280@288@296@304@312@320@328@336@344@352@360@368@376@384@392@400@408@416@424@432@440@448@456@464@472@480;
-- (id)#;
++ (id);
 - (void);
-- (void)T;
+- (id);
 - (void);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)er;
 - (id);
 - (id);
+- (id);
+- (void);
+- (_Bool);
 - (struct CGPoint);
+- (id)nteraction"16@"UIContextMenuConfiguration"24@"_UIContextMenuStyle"32;
+- (_Bool)fromView:toView: /* Error: Ran out of types for this method. */;
+- (void)arch;
+- (void)dFromEmojiKeyboardSearch:(id)arg1 inputModeIdentifier:resultIndex:query:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)eractionEventsOnly;
+- (void)sInContext:(id)arg1;
+- (void)ResizeMaskIntoConstraints;
+- (void)DisplayMode:(struct CGPoint)arg1 mainScreen:actualDisplayScale: /* Error: Ran out of types for this method. */;
+- (void)n;
+- (struct CGPoint)orTransformer;
+- (double)emHighlightMotionEffect;
+- (void)tionItems;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)asð!$Aù1Ç°1¢!0@ù
-× ;
-- (struct CGPoint);
-- (void)nment>"24;
-- (void)setNormalizedInputModes:(id)arg1;
-- (void)s;
-- (double)ile: /* Error: Ran out of types for this method. */;
-- (id)uctive:%@, open:%f, confirm:%f} /* Error: Ran out of types for this method. */;
-- (id);
-- (id)];
+- (void)sBackground.inputBleedDistance0;
+- (void)i43ôtþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *activeTouches; // @synthesize activeTouches=_activeTouches;

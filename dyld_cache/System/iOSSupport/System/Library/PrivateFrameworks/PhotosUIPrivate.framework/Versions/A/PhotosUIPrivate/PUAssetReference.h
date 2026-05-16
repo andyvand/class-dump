@@ -19,15 +19,17 @@
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)1â
+0@ù
+× ;
+- (void)ontent;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PUDisplayAsset> asset; // @synthesize asset=_asset;

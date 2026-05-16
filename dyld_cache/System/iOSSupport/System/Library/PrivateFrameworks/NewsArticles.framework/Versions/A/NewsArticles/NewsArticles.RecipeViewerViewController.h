@@ -25,16 +25,19 @@
     MISSING_TYPE *prewarm;
     MISSING_TYPE *_isPagingEnabled;
     MISSING_TYPE *observableScrollView;
+    MISSING_TYPE *radarReporter;
+    MISSING_TYPE *externalRecipeTheme;
+    MISSING_TYPE *featureAvailability;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
+- (void);
+- (void);
+- (id)b location.;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

@@ -26,15 +26,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (unsigned long long);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long)th totalCount:%lu, unsavedFetchResultCount:%li> /* Error: Ran out of types for this method. */;
-- (unsigned long long)CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32^B40;
 - (struct CGSize);
+- (id);
+- (void)amilyName:(double)arg1;
+- (unsigned long long)ithSuccess:error: /* Error: Ran out of types for this method. */;
+- (void)AutomaticSharingEnabled;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *averageBitratePerSecond; // @synthesize averageBitratePerSecond=_averageBitratePerSecond;

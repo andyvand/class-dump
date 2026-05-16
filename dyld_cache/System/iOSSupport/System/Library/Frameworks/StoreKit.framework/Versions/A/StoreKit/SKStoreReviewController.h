@@ -10,6 +10,7 @@
 
 + (void);
 + (void);
++ (void)µk;
 
 @end
 

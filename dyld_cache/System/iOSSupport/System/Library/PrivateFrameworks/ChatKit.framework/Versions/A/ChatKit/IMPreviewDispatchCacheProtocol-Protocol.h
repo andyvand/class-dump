@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMPreviewDispatchCacheProtocol;
-
 @protocol IMPreviewDispatchCacheProtocol
-+ (id <IMPreviewDispatchCacheProtocol>);
-- (void)imageCacheKey;
-- (_Bool)reviewGeneratorOCROperation;
-- (id);;
+- (void);
 @end
 

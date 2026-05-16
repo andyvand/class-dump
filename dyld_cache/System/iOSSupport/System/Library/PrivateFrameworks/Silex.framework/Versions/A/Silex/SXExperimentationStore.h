@@ -11,7 +11,7 @@
     SXExperimentationStoreItems *_store;
 }
 
-- (void)';
+- (void);
 - (id);
 - (void);
 - (id);
@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (void)P;
-- (void)ÿó;
+- (void);
+- (void)wController"16@"<SVVideoProviding>"24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

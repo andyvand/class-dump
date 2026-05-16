@@ -26,14 +26,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;

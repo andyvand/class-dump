@@ -12,7 +12,7 @@
 {
 }
 
-+ (_Bool)t associated with data task] task=%{public}@;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;

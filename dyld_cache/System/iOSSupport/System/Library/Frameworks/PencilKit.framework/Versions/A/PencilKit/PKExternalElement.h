@@ -12,13 +12,13 @@
 }
 
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (void);
-- (void);
-- (struct CGPath *);
+- (unsigned long long);
 - (struct CGRect);
-- (id)ayback: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGPath *);
+- (id);
+- (void)òôÀõ $÷ ÷I0ø)Äù)Xû;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingBox;

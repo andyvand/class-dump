@@ -17,12 +17,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
 - (id);
-- (void)1b0@ù
-× ;
-- (id)Info;
+- (id);
+- (void);
+- (void)KeyValuePair"8Q16;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

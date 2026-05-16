@@ -10,10 +10,13 @@
 {
     MISSING_TYPE *readingHistory;
     MISSING_TYPE *currentlyPlayingObservable;
+    MISSING_TYPE *mostRecentPosition;
+    MISSING_TYPE *minTimeSpentToPersistPosition;
 }
 
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

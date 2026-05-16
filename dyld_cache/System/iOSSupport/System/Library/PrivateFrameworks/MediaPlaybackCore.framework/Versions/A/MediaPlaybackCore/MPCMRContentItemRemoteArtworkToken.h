@@ -16,19 +16,19 @@ __attribute__((visibility("hidden")))
     MPArtworkCatalog *_storeArtworkCatalog;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)}s") | cancel [continuation canceled];
-- (id)ÿ;
+- (void)gStartTimeForTransitionEvent:- could not find Incoming Item start time in ItemTransitionParameters event=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)áÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;

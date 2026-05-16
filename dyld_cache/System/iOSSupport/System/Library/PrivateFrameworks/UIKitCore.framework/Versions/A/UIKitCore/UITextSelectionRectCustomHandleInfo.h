@@ -8,14 +8,13 @@
 {
 }
 
-- (unsigned long long);
-- (_Bool);
-- (struct CGPoint)0@ù
-× ;
+- (id);
 - (struct CGPoint);
-- (id)w;
-- (struct CGPoint)ystem. This probably means that the focus system has been deallocated but its event delivery object is still around. This should never happen and is a UIKit bug.;
-- (struct CGPoint)Ï²Èg;
+- (struct CGPoint);
+- (struct CGPoint);
+- (unsigned long long);
+- (struct CGPoint)rView:willSubmitForm:toFrame:fromFrame:withValues:submissionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)tedTitle:(id)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint bottomLeft;

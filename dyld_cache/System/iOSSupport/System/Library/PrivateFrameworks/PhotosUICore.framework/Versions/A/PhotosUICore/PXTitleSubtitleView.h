@@ -15,11 +15,11 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (void);
 - (id);
-- (void)«ÀeÔ­Ö0e;
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)ata source;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

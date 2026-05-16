@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ary;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;

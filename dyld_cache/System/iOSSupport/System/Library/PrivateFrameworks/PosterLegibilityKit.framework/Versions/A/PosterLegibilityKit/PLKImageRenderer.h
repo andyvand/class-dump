@@ -8,12 +8,13 @@
 {
 }
 
++ (id);
 + (void);
-+ (struct CGContext *);
 + (Class);
++ (struct CGContext *);
+- (id);
 - (id);
 - (_Bool);
-- (id);
 
 @end
 

@@ -16,12 +16,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)moryImageCache;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *fadeInImageView; // @synthesize fadeInImageView=_fadeInImageView;

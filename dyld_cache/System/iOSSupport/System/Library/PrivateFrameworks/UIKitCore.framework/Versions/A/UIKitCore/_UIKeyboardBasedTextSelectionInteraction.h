@@ -16,22 +16,21 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)yh:(id)arg1;
 - (void);
-- (void)aylistEditPlaylistEntryDataSource.m;
-- (void)sForItemAtIndexPath:(struct CGPoint)arg1 ] (originalObject has no identifiers);
-- (_Bool)@"ITLibIdentifierSet<ITLibMutableIdentifierSet>"8;
 - (void);
-- (id);
-- (void);
-- (id)1¢!0@ù
+- (void)Ð!ÀCùÑ]1Â0@ù
 × ;
-- (void)!tð!x@ù1È°1¢!0@ù
-× ;
-- (_Bool)yFeedback:(id)arg1;
-- (void)ipantDetails:(id)arg1 ,V_participantDetails;
-- (void)ate;
-- (_Bool)ÚG];
+- (void)erDelegate_Private>";
+- (void)Node:(id)arg1;
+- (void)oftwareKeyboardAndAssistantView;
+- (id)mSpace:toSpace: /* Error: Ran out of types for this method. */;
+- (_Bool)tation;
+- (void)in hiding overlay scrollers...;
+- (_Bool)ate:%@ is nil /* Error: Ran out of types for this method. */;
+- (void)mbol content transition added to UIImageView.;
+- (_Bool)yleForTableViewStyle(UITableViewStyle);
+- (id); scale=%.1f; bitmap=%@>;
+- (void)ïÀ;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextGestureTuning *gestureTuning; // @synthesize gestureTuning=_gestureTuning;

@@ -17,7 +17,7 @@
     long long _importedHLSAssetsCount;
 }
 
-- (id)g;
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -25,8 +25,8 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)on__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) id annotatedPayload; // @synthesize annotatedPayload=_annotatedPayload;

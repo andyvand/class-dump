@@ -8,9 +8,9 @@
 {
 }
 
-+ (id)ëeâ¹;
-- (id)aunchOptionsLocationKey;
-- (id)tionsLocalNotificationKey;
++ (id)Failed to get URL from message %@. Not informing Safety Monitor Manager;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);

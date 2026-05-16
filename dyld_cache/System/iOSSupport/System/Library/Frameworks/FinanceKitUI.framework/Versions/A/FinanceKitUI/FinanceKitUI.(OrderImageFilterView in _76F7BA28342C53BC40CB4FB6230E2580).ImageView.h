@@ -15,10 +15,10 @@
     MISSING_TYPE *maskImageView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -36,18 +36,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)GGGGAHG0ÅnGA107_GGA0_GG_Qo_GtGGtGG_
-ÌnQo_A119_G;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISPosterChannel *channel; // @synthesize channel=_channel;

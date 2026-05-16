@@ -23,12 +23,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (CDUnknownBlockType)A%ð!dEùÑ.ð1b0@ù
-× ;
-- (id)wnerItem;
-- (id)Ê²;
+- (id);
+- (id);
+- (CDUnknownBlockType)sGridItem;
+- (void)PrefrenceChanges completed successfully;
+- (void)maryTransactionReasonTestTrigger;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *accessorySettingsProfileItems; // @synthesize accessorySettingsProfileItems=_accessorySettingsProfileItems;

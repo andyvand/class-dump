@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void)Subtype:searchTerm:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *workflowID; // @synthesize workflowID=_workflowID;

@@ -22,12 +22,12 @@
     MISSING_TYPE *animationSmoothstep;
 }
 
-- (void);
+- (id);
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

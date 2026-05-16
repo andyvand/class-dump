@@ -14,8 +14,8 @@
 }
 
 - (id);
+- (id)ection:(void *)arg1;
 - (void);
-- (id);
 
 @end
 

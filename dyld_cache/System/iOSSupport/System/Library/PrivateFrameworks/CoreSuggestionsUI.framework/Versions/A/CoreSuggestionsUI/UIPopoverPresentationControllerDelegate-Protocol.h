@@ -5,8 +5,5 @@
 //
 
 @protocol UIPopoverPresentationControllerDelegate
-
-@optional
-- (void)Action;
 @end
 

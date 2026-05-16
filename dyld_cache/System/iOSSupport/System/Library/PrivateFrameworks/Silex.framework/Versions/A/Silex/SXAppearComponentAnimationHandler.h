@@ -12,7 +12,7 @@
 
 - (void);
 - (void);
-- (void)textManagerDelegate>"16;
+- (void);
 
 @end
 

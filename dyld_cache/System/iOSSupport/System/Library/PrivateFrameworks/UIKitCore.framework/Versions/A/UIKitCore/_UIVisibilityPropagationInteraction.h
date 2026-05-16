@@ -28,27 +28,26 @@
     _Bool _visibilityLock_invalidated;
 }
 
-+ (id)g from tracking;
++ (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)!;
 - (void);
-- (void)neID: /* Error: Ran out of types for this method. */;
-- (void)ERROR:%s:MSG_ReadNext(sMsgHdr) for SetBindingOut failed %d /* Error: Ran out of types for this method. */;
-- (void)MAPPING_MISSING__;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
 - (void);
-- (id);
-- (void)!üEùÊÐ1¢!0@ù
-× ;
-- (void)ctionInteraction;
-- (void)}{CGSize=dd}},R,N,V_originatingBounds;
-- (void)N,V_associatedLabel;
-- (void)rVisualElement;
+- (_Bool);
+- (void)w: /* Error: Ran out of types for this method. */;
+- (id)ewIsAppearing:skipWindowCheck: /* Error: Ran out of types for this method. */;
+- (void)n of enforcing column preferences for scene resize;
+- (void);
+- (void)w;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

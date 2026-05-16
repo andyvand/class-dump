@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void)rror:error in removeFromParentNode :inconsistent tree /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties

@@ -13,15 +13,15 @@
     MISSING_TYPE *_hostingView;
 }
 
-- (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
+- (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) UIFont *font; // @synthesize font;

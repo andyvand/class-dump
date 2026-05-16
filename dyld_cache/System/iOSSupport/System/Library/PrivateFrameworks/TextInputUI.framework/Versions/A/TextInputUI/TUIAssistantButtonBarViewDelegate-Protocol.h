@@ -7,7 +7,7 @@
 @class NSLocale, UITextInputAssistantItem;
 
 @protocol TUIAssistantButtonBarViewDelegate
-- (UITextInputAssistantItem *)backGeneratorWithView: /* Error: Ran out of types for this method. */;
+- (UITextInputAssistantItem *);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextInputAssistantItem *inputAssistantItem;

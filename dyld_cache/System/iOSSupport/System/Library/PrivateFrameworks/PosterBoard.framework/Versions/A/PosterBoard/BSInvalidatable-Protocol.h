@@ -5,6 +5,5 @@
 //
 
 @protocol BSInvalidatable
-- (void)tion"8;
 @end
 

@@ -17,30 +17,29 @@
     MISSING_TYPE *eventHandler;
     MISSING_TYPE *coverViewManager;
     MISSING_TYPE *eventManager;
-    MISSING_TYPE *scope;
     MISSING_TYPE *hardPaywallViewController;
     MISSING_TYPE *contentViewController;
     MISSING_TYPE *parallaxX;
     MISSING_TYPE *lastSafeAreaInsets;
     MISSING_TYPE *loadContext;
     MISSING_TYPE *loadContextBlock;
-    MISSING_TYPE *navigationTitleViewBlock;
     MISSING_TYPE *onPresentedRecipeBlock;
     MISSING_TYPE *onFailedToLoadRecipeBlock;
     MISSING_TYPE *observableScrollView;
+    MISSING_TYPE *radarReporter;
 }
 
-- (void)B;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)8;
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ule;
+- (id)troller.swift;
 - (void);
 
 // Remaining properties

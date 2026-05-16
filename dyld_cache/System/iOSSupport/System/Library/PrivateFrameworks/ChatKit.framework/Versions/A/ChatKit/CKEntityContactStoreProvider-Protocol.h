@@ -7,6 +7,6 @@
 @class CNContactStore;
 
 @protocol CKEntityContactStoreProvider
-- (CNContactStore *)<¬;
+- (CNContactStore *)1ell;
 @end
 

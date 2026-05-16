@@ -13,11 +13,11 @@
     _Bool _cancelled;
 }
 
-+ (void)m;
++ (void);
 + (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

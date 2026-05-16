@@ -28,10 +28,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allDetections;

@@ -5,9 +5,8 @@
 //
 
 @protocol UIFocusItemScrollableContainer
-- (struct CGSize);
-- (void)oller's barHideOnSwipeGestureRecognizer;
-- (struct CGPoint)%@ (%lu) with unequal dimensions to %@ (%lu);
+- (struct CGPoint)ngOnBackgroundViews: /* Error: Ran out of types for this method. */;
+- (struct CGSize)kÑ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset;

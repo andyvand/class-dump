@@ -17,7 +17,8 @@
     NSDistributedNotificationCenter *_notificationCenter;
 }
 
-+ (id);
++ (id)0@ù
+× ;
 - (void);
 - (void);
 - (_Bool);
@@ -31,8 +32,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)«°myl¬Ö0%EÉ;
-- (id)H²Ì;
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -43,10 +44,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)bject} to ${WFSendEmailActionToRecipients};
+- (void)ith Each;
 - (id);
-- (void)y,DraftsAfterSuccess;
 - (void);
 
 // Remaining properties

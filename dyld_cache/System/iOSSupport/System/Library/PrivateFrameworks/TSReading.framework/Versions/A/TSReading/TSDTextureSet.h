@@ -40,10 +40,10 @@
     long long _stageIndex;
 }
 
-- (id);
-- (long long)C;
+- (id);
+- (long long);
 - (double);
-- (struct CGRect)%;
+- (struct CGRect);
 - (double);
 - (long long);
 - (long long);
@@ -53,7 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,7 +91,7 @@
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
 - (void);
@@ -100,19 +100,19 @@
 - (_Bool);
 - (void);
 - (struct CGPoint);
-- (struct CGRect);
-- (id)(;
-- (void);
 - (void);
 - (id);
 - (id);
-- (id){"minNumberOfItems":{"value":6},"maxNumberOfItems":{"value":12},"bundleArticleQuotas":{"value":{"defaultRatio":-1.0,"slottedRatios":[-1.0,1.0]}}},"generalTopicClusteringKnobs":{"minNumberOfItems":{"value":6},"maxNumberOfItems":{"value":12}}}} /* Error: Ran out of types for this method. */;
-- (void);
-- (struct CGRect);
 - (struct CGColorSpace *);
-- (void)È;
-- (unsigned long long)dedDataStorage newCGImageSource];
-- (struct CGPoint)M°IMJÈLÐJøN;
+- (struct CGPoint);
+- (void);
+- (struct CGRect);
+- (id);
+- (void);
+- (id):8@"TSDInteractiveCanvasController"16{CGRect={CGPoint=dd}{CGSize=dd}}24 /* Error: Ran out of types for this method. */;
+- (struct CGRect)er:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)Color",C,N;
+- (unsigned long long)yDirectory.AbPtYx/Sources/AlderShared/drawables/Metal/TSDMetalShader.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allTextures; // @synthesize allTextures=mAllTextures;

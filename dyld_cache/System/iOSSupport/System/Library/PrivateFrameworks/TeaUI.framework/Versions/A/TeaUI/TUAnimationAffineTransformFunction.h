@@ -21,29 +21,29 @@
 }
 
 - (id);
-- (id);;
-- (struct CGAffineTransform);
-- (void);;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)P<;
 - (id);
-- (id)<;
-- (id)Pg<;
-- (id);P<;
-- (id)<;
-- (void)<;
+- (struct CGAffineTransform);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (void);
 - (double);
-- (void)s_systemDarkTealColor;
-- (id)WillAppear: /* Error: Ran out of types for this method. */;
-- (void)þÿÿ¸Éÿ0þÿÿlþÿÿ;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) TUAnimationFloatFunction *aFunction; // @synthesize aFunction=_aFunction;

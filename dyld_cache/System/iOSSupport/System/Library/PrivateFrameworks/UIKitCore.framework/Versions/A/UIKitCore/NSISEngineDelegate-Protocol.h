@@ -5,9 +5,5 @@
 //
 
 @protocol NSISEngineDelegate
-- (void);
-
-@optional
-- (void);
 @end
 

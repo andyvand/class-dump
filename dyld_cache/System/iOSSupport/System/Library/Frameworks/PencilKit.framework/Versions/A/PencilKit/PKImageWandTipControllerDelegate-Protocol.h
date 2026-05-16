@@ -5,6 +5,5 @@
 //
 
 @protocol PKImageWandTipControllerDelegate
-- (void);
 @end
 

@@ -75,7 +75,7 @@
     struct PXSimpleIndexPath _presentedSectionIndexPath;
 }
 
-+ (struct CGSize)|;
++ (struct CGSize);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -142,6 +142,7 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -203,16 +204,16 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void)óy;
-- (void)ª)|;
-- (void)23|;
-- (void);
-- (void)|;
-- (void);
-- (id)|;
-- (id)z;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id)g!;
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (long long);
@@ -227,16 +228,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
 - (double);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -247,23 +247,23 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (long long);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (long long);
 - (void);
+- (void);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType addContentActionHandler; // @synthesize addContentActionHandler=_addContentActionHandler;

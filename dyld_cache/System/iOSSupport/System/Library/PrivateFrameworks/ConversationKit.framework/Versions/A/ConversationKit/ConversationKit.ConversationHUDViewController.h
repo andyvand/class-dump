@@ -42,14 +42,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void)GGÕÞy×ÜGGtGG_¢yAAy[ó¡yAAyAByAAyAgKySiSgGGSgGÖGGA3_G_Qo_tGGUÓGA3_G_"èãyA12__Qo_A14_Qo_;
 
 @end
 

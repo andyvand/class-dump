@@ -35,12 +35,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <RPTTestRunnerDelegate> delegate; // @synthesize delegate=_delegate;

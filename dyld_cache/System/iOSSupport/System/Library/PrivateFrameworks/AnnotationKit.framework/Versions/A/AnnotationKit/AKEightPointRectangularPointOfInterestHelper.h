@@ -10,9 +10,9 @@
 {
 }
 
-+ (struct CGPoint);
++ (struct CGPoint);
 + (void);
-+ (unsigned long long);
++ (unsigned long long);
 
 @end
 

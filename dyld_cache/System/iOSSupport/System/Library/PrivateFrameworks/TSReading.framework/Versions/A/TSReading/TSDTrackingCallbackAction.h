@@ -13,15 +13,15 @@
 
 - (void);
 - (void);
-- (void);
-- (unsigned long long)*P;
+- (void);
+- (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void)!;
 - (id);
+- (void);
+- (void);
+- (void)°Æ;
 
 // Remaining properties
 @property(retain, nonatomic) id object; // @synthesize object=_object;

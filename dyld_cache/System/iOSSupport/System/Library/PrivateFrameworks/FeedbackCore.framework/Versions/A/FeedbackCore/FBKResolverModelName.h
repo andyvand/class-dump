@@ -12,7 +12,7 @@
 
 + (id);
 - (long long);
-- (id);
+- (id)icatedUserWithCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

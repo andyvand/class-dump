@@ -12,12 +12,12 @@
     NSString *_selectedDetailsTabID;
 }
 
-- (void)gory:(id)arg1 mode:options:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)e;
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *existingAsyncTabs; // @synthesize existingAsyncTabs=_existingAsyncTabs;

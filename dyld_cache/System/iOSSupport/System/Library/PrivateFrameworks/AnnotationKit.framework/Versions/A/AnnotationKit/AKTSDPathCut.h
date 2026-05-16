@@ -15,7 +15,7 @@
 - (double);
 - (double);
 - (id);
-- (long long)sitsPendingWriteToDataStoreFromSynchronizationQueue;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long segment; // @synthesize segment=mSegment;

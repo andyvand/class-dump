@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)anslationRequest;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMShareRelationshipRestrictions *invitationRestrictions; // @synthesize invitationRestrictions=_invitationRestrictions;

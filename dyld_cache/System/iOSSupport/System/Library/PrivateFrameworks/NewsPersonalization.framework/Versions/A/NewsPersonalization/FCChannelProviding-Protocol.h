@@ -7,8 +7,6 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
-- (_Bool)erInfo:%s> /* Error: Ran out of types for this method. */;
-- (NSArray *)lineScoringOutputName;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *backIssuesListID;

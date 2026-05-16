@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSTextAlternatives *_alternatives;
 }
 
-- (id)es:(id)arg1 hfsType:(id)arg2 hfsCreator:(id)arg3 hfsFlags: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)erType;
-- (id),&,N,V_fixedTrailingGroup;
+- (id);
+- (id);
+- (id)PaddingForOrientation: /* Error: Ran out of types for this method. */;
+- (void)Pù`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSTextAlternatives *alternatives; // @synthesize alternatives=_alternatives;

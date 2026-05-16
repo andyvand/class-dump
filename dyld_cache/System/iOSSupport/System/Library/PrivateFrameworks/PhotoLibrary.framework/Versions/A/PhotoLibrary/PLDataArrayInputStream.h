@@ -33,23 +33,23 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (void);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (unsigned long long);
-- (long long)tLimit;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) id <PLDataArrayInputStreamProgressDelegate> progressDelegate; // @synthesize progressDelegate=_progressDelegate;

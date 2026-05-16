@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (int);
+- (void)¢GACyíÐAEGACy¢#ÐAEGACySbAEGGSo9NSRunLoopCG;
 
 // Remaining properties
 @property(nonatomic, readonly) int state;

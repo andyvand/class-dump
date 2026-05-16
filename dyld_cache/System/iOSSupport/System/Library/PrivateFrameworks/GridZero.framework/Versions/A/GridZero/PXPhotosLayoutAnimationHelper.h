@@ -21,13 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (id);
 - (id);
 - (long long);
+- (double);
 - (id);
 - (unsigned int);
-- (id)AtItemIndexPath:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long animationCurve;

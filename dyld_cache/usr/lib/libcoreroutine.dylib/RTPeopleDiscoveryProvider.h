@@ -13,8 +13,8 @@
 }
 
 + (long long);
-- (id)numerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
-- (void)±~;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

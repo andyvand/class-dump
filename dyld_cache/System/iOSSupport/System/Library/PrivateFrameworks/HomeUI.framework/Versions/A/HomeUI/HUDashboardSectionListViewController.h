@@ -28,9 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)viceLikeItems:(id)arg1;
+- (_Bool)A¯Ð!¸Cù1Ð1â
+0@ù
+× ;
+- (id)dActionSetContainerSummaryGridViewController;
 - (void);
-- (id);
 
 @end
 

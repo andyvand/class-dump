@@ -12,22 +12,22 @@
     NSString *_key;
 }
 
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
+- (void)8(è(;
+- (_Bool)hÈð P°ØHÌ;
+- (void)%{public}@, Intent slot:(id)arg1 %{public}@;
+- (void)agsHash;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

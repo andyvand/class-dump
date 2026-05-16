@@ -23,47 +23,47 @@ __attribute__((visibility("hidden")))
     UIImageView *_irisBadgeView;
 }
 
-- (void)9;
 - (void);
-- (void)s;
-- (void)u;
-- (void)earchIndexer;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id)ailView;
+- (id);
 - (void);
 - (_Bool);
 - (struct CGImage *);
-- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)T;
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)+%;
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id)¤q;
-- (id)»`>GAEyBC®y¼`>A2GGARy¸`>SgA2GGGGAEyAEyAHyª`>ALGARy§`>A2GGGAEyARy`>A2GGARy`>A2GGGGGAEyAEyAEyARy`>A2GGARy¯Y>A2GGGAEyARyw`>A2GGAHyAHyAFyAgHyAGz­Ga`>GAJyh:®GGÁ§­y«6®SgGGGGAFyA3GGGGGG /* Error: Ran out of types for this method. */;
-- (void)V?G;
-- (id)tics;
-- (_Bool)D@ÿ¤s/9¢.;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void)ÛÍ\yÞ\GGö§\GSg;
+- (_Bool)HÁDÿHÁDÿConfiguration;
+- (void);
+- (void)xö2;
 
 // Remaining properties
 @property(retain, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;

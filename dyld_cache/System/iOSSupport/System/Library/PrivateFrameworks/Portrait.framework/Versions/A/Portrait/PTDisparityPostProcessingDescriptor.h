@@ -26,7 +26,7 @@
 - (CDStruct_da2e99ad);
 - (unsigned long long);
 - (void);
-- (id)simdReductionThreadsPerGroup.height;
+- (id)ound. Rotation;
 
 // Remaining properties
 @property(readonly) unsigned long long colorPixelFormat; // @synthesize colorPixelFormat=_colorPixelFormat;

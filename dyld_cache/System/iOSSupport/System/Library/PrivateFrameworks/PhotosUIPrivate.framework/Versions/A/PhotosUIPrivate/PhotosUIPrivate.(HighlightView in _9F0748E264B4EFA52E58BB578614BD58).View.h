@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)TopOutset;
 
 @end
 

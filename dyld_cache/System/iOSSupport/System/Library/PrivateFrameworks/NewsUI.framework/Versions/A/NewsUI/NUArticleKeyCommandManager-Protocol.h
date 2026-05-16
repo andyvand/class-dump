@@ -5,7 +5,6 @@
 //
 
 @protocol NUArticleKeyCommandManager
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasBeenTraversed;

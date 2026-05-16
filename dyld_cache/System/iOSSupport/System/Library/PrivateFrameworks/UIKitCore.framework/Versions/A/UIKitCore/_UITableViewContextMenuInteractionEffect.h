@@ -14,16 +14,15 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _completionBlock;
 }
 
-+ (id)sign new identifier %@ to chat record with GUID %@ for domain %@ :(id)arg1 %@;
-- (id)ationAddSequenceWithKey failed 0x%X;
-- (id)Component;
++ (id);
+- (id);
+- (id);
 - (void);
-- (_Bool)ror;
+- (_Bool);
 - (void);
-- (void)ù
-× ;
-- (void);
-- (CDUnknownBlockType)rder view for the supplementary column:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)HHapticEventParameterIDAudioPan;
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

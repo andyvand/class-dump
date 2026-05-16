@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CKPluginEntryViewControllerDelegate;
 
 @protocol CKPluginEntryViewController
-- (struct CGSize)g-images;
-
-@optional
-- (void);
-- (_Bool);
-- (_Bool)9;
-- (void)rsion;
-- (void)yWithForceDelay: /* Error: Ran out of types for this method. */;
-- (void)ut: /* Error: Ran out of types for this method. */;
-- (void)AttachmentsObject: /* Error: Ran out of types for this method. */;
-- (void)eValue: /* Error: Ran out of types for this method. */;
-- (_Bool)tionary",R,C,N;
-- (NSArray *)xL;
-- (id <CKPluginEntryViewControllerDelegate>)d};
-- (void)SizeDidChangeNotification;
-- (void)ontinue Editing;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKPluginEntryViewControllerDelegate> entryViewDelegate;

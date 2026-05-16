@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuInteraction;
+@class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
 
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (void)ÿÿÿÿ;
-- (void){CGRect={CGPoint=dd}{CGSize=dd}}24@0:(UIContextMenuInteraction *)arg1 8@16;
+- (void)canvasView:(UIContextMenuInteraction *)arg1 didChangeHiddenState:(UIContextMenuConfiguration *)arg2;
+- (void)¬ô;
+- (UITargetedPreview *)t size not supported;
+- (UITargetedPreview *);
+- (void);
+- (UITargetedPreview *)F;;
 @end
 

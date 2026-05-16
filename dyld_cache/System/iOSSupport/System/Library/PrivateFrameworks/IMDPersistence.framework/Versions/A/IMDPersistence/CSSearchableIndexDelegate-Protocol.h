@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
-
 @protocol CSSearchableIndexDelegate
-
-@optional
-- (void);
-- (void);
-- (NSURL *)rterP;
-- (NSData *)IDGeneratorP;
 @end
 

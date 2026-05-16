@@ -4,63 +4,77 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIContextMenuConfiguration, UIContextMenuInteraction, UIImageView, UIMenu, UIPointerShape, UIPreviewParameters, UIShape, UITargetedPreview, UIView, _UIFocusAnimationConfiguration;
-@protocol UIHoverEffect;
+@class UIButton, UIContextMenuConfiguration, UIImageView, UILabel, UIPointerEffect, UIPointerShape, UIPreviewParameters, UIShape, UITargetedPreview, UIView, UIVisualEffectView, _UIFocusAnimationConfiguration;
+@protocol UIHoverEffect, UIPointerInteractionAnimating;
 
 @protocol UIButtonVisualProvider
-- (UIShape *);
-- (_Bool)ft/libswiftObjectiveC.dylib;
-- (void);
-- (UIImageView *)setPayloadFileType: /* Error: Ran out of types for this method. */;
-- (id <UIHoverEffect>)r",C,N,V_payloadSoundsEnabled;
+- (void)1Â0@ù
+× ;
+- (void)eEnableProKeyboard:(UIView *)arg1;
+- (void)eractingReleaseFeedback;
+- (struct CGRect)ÿÿ¤Ô;
+- (UIImageView *);
+- (struct CGSize)Ü;
 - (void);
-- (void)have partial complete pcs info.;
-- (void)- Skipping all properties for setPlaylistProperties:(_Bool)arg1 trackList:(_Bool)arg2 forPlaylist:completionHandler:%@ /* Error: Ran out of types for this method. */;
-- (void)#$º;
-- (void)
-× ;
-- (void)QÄ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)!XFùÑÈÐ1¢!0@ù
-× ;
-- (UIPointerShape *)1¢!0@ù
-× ;
-- (_Bool)¡wð!EùÑÌð1¢!0@ù
-× ;
-- (void)iewProviderForTextInRange:(UIMenu *)arg1 dismissing: /* Error: Ran out of types for this method. */;
-- (UIPreviewParameters *)laySizes;
-- (UIView *)vantRange: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ognitionWeight;
-- (void)ded;
-- (void)s;
-- (UITargetedPreview *)nimationKey:(UIContextMenuInteraction *)arg1 forKeyPath:(UIContextMenuConfiguration *)arg2 forLayer: /* Error: Ran out of types for this method. */;
-- (void)e:(_Bool)arg1;
-- (void)IfNeeded;
-- (void)sary;
-- (struct CGRect)leLayoutFlushingCount:(struct CGRect)arg1;
-- (CDStruct_c3b9c2ee)etPrefersPencilOnlyDrawing:(struct CGSize)arg1;
-- (void)textAccepted:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ex:(UIContextMenuInteraction *)arg1;
-- (UITargetedPreview *)legate;
-- (UIView *)Ð)À/0;
-- (double);
-- (void)ü;
-- (UIView *)View bounds should not be empty!;
-- (void);
-- (void)þÿ;
-- (void)?0@"NSDateComponents"8;
-- (_Bool)on identifier, skipping:%@ /* Error: Ran out of types for this method. */;
-- (_UIFocusAnimationConfiguration *)andidateBarHighlight;
-- (void)hangeNotification;
-- (void)xt container should not already have a layout manager;
-- (void)th final height:(double)arg1;
-- (struct CGRect)latterSource;
+- (UITargetedPreview *)ted autoresize mask during view resizing;
+- (void)to track resume time or/and signal end of extended launch as __ExecOrResumeTime is 0;
+- (_Bool)ew (%p, %@) that has not been rendered at least once requires afterScreenUpdates:YES. /* Error: Ran out of types for this method. */;
+- (_UIFocusAnimationConfiguration *)iceConnection to keyboard UI service.;
+- (void)lid state machine transition. Instead setting state to %@;
+- (void)nnot be nil;
+- (void)wController. This will become an assert in a future version.;
+- (UIPointerShape *)rgetForAction:(UIView *)arg1 withSender:(UIPointerShape * (^)(void))arg2 on %@ for %@ so we will not call it again.;
+- (UIPointerEffect *)rd UI host:(UITargetedPreview *)arg1 didForward=%s, shouldWaitForOutput=%s;
+- (void);
+- (void)p®þÿyíÿ;
+- (double);
+- (void);
+- (void)Rsïÿ4ßîÿ;
+- (void)LargeBackground;
+- (void)lue;
+- (UIView *)age_$_cornerRadii;
+- (CDStruct_c3b9c2ee)horizontalTextInset;
+- (void)ndex;
+- (void)must be before End Date (%@);
+- (UIPreviewParameters *)er.BatteryWidget;
+- (void)@:(id <UIPointerInteractionAnimating>)arg1 %@ keyboard; backdropStyle = %ld, floating = %d;
+- (void)ct != nil;
+- (void)CMENUITEM_APP_SERVICES;
+- (void):(long long)arg1 %d
+;
+- (_Bool)ttomSafeArea;
+- (void)Map(NSObject *, NSString *, NSMutableDictionary *, NSString *);
+- (struct CGRect)otification;
+- (void)ady active!;
+- (void)olorCandidateBarHighlight;
+- (UIContextMenuConfiguration *)ectionRangeAdjustmentContainerView;
+- (UIView *)olumn %lu is missing for row %lu of bitmap data:%@ /* Error: Ran out of types for this method. */;
+- (UIView *)ecognition;
+- (void)undTaskInfo fireExpirationHandler];
+- (UIVisualEffectView *)rFocusableInFocusSystem(__strong id<UIFocusItem>, UIFocusSystem *__strong, BOOL, BOOL);
+- (void)@"UIButton"8@"_UIButtonConfigurationState"16;
+- (void)roller"40d48;
+- (_Bool)AugmentedPopGesture;
+- (void)initial attributes:(struct CGSize)arg1 %@; layout query:%@; collection view:%@;  data source counts:%@ /* Error: Ran out of types for this method. */;
+- (UIShape *)Dismissed;
+- (void)identifier %@;
+- (void)__strong, BOOL);
+- (struct CGRect)B16@?0@"_UIViewServiceSessionActivityRecord"8;
+- (struct CGPoint)finger across the letters to compose a word;
+- (void)body() should not be called on (ButtonRepresentation in _DDE14AA6B49FCAFC5A54255A118E1D87).;
+- (struct CGRect)tor.swift;
+- (UIView *):(_Bool)arg1 Yþÿ8YþÿþÏþÿÎÁþÿ;
+- (struct UIEdgeInsets)oftlink:o:path:/System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI /* Error: Ran out of types for this method. */;
+- (UITargetedPreview *);
+- (void)A~33pÿþ1~33Lvpþ9~33xÿþ;
+- (UILabel *);
+- (id <UIHoverEffect>);
 
 @optional
-- (_Bool)1Ä1¢!0@ù
-× ;
+- (void)are trying to ask the table view for a cell from inside a table view callback about a specific row? Table view:(_Bool)arg1 %@;
+- (void)Q;
+- (UIButton *)13;
+- (UIView *);
 
 // Remaining properties
 @property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;

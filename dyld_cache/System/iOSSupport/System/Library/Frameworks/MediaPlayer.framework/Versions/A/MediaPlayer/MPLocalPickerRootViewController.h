@@ -30,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (long long)storyChatsToObserve;
-- (void)DisplayStatusForResults:(_Bool)arg1 isSelfOptedIn: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (void)l;
+- (void);
+- (void);
+- (void)String",C,N,V_routingContextUID;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

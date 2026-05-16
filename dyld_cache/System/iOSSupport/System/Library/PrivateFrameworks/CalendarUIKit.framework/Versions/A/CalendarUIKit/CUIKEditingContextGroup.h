@@ -16,7 +16,7 @@
     NSNumber *_earlyCommitDecisionAsNumber;
 }
 
-- (void)&;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,14 +41,14 @@
 - (void);
 - (id);
 - (id);
-- (id)6I@9);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)!;
 - (void);
+- (void)oups: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMutableArray *additionalObjectGroups; // @synthesize additionalObjectGroups=_additionalObjectGroups;

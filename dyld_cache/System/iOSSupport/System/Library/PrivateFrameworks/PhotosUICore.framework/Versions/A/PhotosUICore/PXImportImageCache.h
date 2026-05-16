@@ -14,7 +14,7 @@
     NSObject<OS_dispatch_queue> *_cacheTableQueue;
 }
 
-+ (id)Kø19;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -25,9 +25,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)r";
+- (void);
+- (void)»(R,5;
 
 @end
 

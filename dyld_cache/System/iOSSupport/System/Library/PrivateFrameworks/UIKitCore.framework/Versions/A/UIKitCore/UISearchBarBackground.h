@@ -21,34 +21,36 @@ __attribute__((visibility("hidden")))
     _Bool _usesContiguousBarBackground;
 }
 
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long)ification"b1"allowsEditingTextAttributes"b1"usesAttributedText"b1"clearingBehavior"b2"overridePasscodeStyle"b1"shouldResignWithoutUpdate"b1"blurEnabled"b1"visualEffectViewEnabled"b1"disableFocus"b1"disableRemoteTextEditing"b1"allowsAttachments"b1"isReceivingDrop"b1"contentCoverUnsecuresText"b1"forcesClearButtonHighContrastAppearance"b1"contentInsetsFromFontsValid"b1"autolayoutWantsBaselines"b1"animateNextHighlightChange"b1"backgroundProviderDraws"b1"backgroundProviderHasBackgroundView"b1"isHandlingClearButton"b1"textLayoutManagerEnabled"b1"extremeSizingEnabled"b1"sizingRule"b1"shouldDisplayDictationPlaceholderMessage"b1"supportsKeyboardNavigationForSuggestions"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"shouldUpdatePlaceholderTextAlignmentWhenOverridden"b1"hasDictationButton"b1};
-- (void)tInputPanelWithPrompt:defaultText: /* Error: Ran out of types for this method. */;
-- (_Bool)ivationScaleThreshold;
-- (_Bool)teraction: /* Error: Ran out of types for this method. */;
-- (id)ProofreadingDecorations;
-- (id)izerUsedForDelayingActions:(long long)arg1;
-- (void)imaryAction:(id)arg1;
-- (long long)latency;
-- (long long)ition",R,N,V_symbolContentTransition;
-- (void)ì}4;
-- (void)à;
-- (id)change;
-- (void)v²[;
-- (id)0{;ÿ;
-- (_Bool)«%b;
-- (void)cc;
 - (void);
-- (void)âÿÊÑóxi;
+- (void)!Ø@ùñY°1Â0@ù
+× ;
+- (long long)1\Ð1Â0@ù
+× ;
+- (void);
+- (id)× ;
+- (long long)nteractionLocation;
+- (void)ntentSizeCategory:(unsigned long long)arg1;
+- (void)ivityTrackingIfNeededForReason:(struct CGRect)arg1;
+- (_Bool)ialPresentationViewController;
+- (unsigned long long):animated:fence:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)sitMaskViews;
+- (id)erInfo;
+- (void)cognizer;
+- (void)y;
+- (_Bool)ed by the UITableViewDelegate, not the UITableViewDataSource. This error will cause undefined behavior. Please move the implementation of this method to the delegate of this table view, instead of the data source:%@ /* Error: Ran out of types for this method. */;
+- (void)matching -beginIgnoringInteractionEvents. Ignoring.;
+- (id)atBeginningOfMenu:must only be sent to the main menu /* Error: Ran out of types for this method. */;
+- (void)s;
+- (id)eters;
+- (void)®%;
+- (void)ÚþÇ¦ÓÄc;
+- (void)èªjþr:ÒPj /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *backgroundImage;

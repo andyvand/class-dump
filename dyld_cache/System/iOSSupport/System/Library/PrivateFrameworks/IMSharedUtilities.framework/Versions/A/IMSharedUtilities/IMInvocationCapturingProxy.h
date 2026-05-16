@@ -15,11 +15,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool)±sÐ1Â0@ù
+× ;
+- (void)licy;
+- (id)nsitiveSNaPPersistence;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType forwardingHandler; // @synthesize forwardingHandler=_forwardingHandler;

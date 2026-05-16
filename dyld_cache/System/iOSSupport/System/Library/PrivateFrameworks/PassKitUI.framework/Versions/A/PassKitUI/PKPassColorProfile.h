@@ -44,10 +44,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)View;
+- (void)!Ä@ùøÐ1â
+0@ù
+× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

@@ -5,8 +5,8 @@
 //
 
 @protocol UIViewAnimatingPrivate
-- (void)not obtain source(%p) or destination(%p) coordinate space;
-- (double);
+- (double)table view.;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double unitDuration;

@@ -23,12 +23,11 @@
 - (CDStruct_5d4c7ed3);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id)±zð1b0@ù
-× ;
+- (void)SceneOrientationModifier;
 
 // Remaining properties
 @property(readonly, nonatomic) PXMemoryCustomUserAssetsEdit *customUserAssetsEdit; // @synthesize customUserAssetsEdit=_customUserAssetsEdit;

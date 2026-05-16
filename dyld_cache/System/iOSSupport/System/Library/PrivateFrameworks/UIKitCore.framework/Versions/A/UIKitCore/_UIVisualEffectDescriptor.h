@@ -24,8 +24,8 @@
     long long _alphaTransition;
 }
 
-+ (id)ro viewControllers:(id)arg1 %@;
-- (_Bool);
++ (id)key_grabber_handles.png;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,37 +33,37 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)tion
-;
-- (void);
-- (id)%@ opened;
 - (id);
 - (_Bool);
-- (void);
-- (void)cedIntentDestination;
-- (_Bool)on;
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)!TBùQÉ1¢!0@ù
+- (_Bool);
+- (void)ù
 × ;
-- (void)erLayoutManagerConnection";
-- (void)_NSRange=QQ}24;
-- (id)ve: /* Error: Ran out of types for this method. */;
-- (_Bool)ent:toResponder: /* Error: Ran out of types for this method. */;
-- (void)ty:(long long)arg1;
-- (id)dateContextMenuStateForVisibleCells: /* Error: Ran out of types for this method. */;
-- (id)gAnimation;
-- (long long)V_tag;
-- (void)n;
-- (id)rView: /* Error: Ran out of types for this method. */;
-- (id)ssApplicationSceneSpecification;
-- (_Bool)k8t;
-- (id)et;
-- (_Bool)nt;
-- (void)ßÔ[;
+- (_Bool)b°1Â0@ù
+× ;
+- (id);
+- (id)CentroidAtLocation: /* Error: Ran out of types for this method. */;
+- (id)elf: /* Error: Ran out of types for this method. */;
+- (_Bool)ightMinimizingConstraint;
+- (void)reservingTokens;
+- (_Bool)ForResponseDestination: /* Error: Ran out of types for this method. */;
+- (id)View;
+- (void)gnizer;
+- (void)ü";
+- (long long)rStyle, UIDatePickerMode);
+- (id)UIBlurEffectStyleSystemVibrantBackgroundThinLight;
+- (void)ount;
+- (void);
+- (void);
+- (void)ySo13_UIBarSectionCG;
+- (id)U´13'ë;
+- (id)[;
 
 // Remaining properties
 @property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *_identityContainerView; // @synthesize _identityContainerView;

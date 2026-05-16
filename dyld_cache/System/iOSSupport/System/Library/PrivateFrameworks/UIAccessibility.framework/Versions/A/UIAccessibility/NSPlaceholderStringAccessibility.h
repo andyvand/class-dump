@@ -10,8 +10,8 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)_Daemon_Network session:failedToResolvePeerNamed:errorCode:] /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

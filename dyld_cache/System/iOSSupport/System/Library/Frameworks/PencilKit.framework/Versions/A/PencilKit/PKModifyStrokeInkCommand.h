@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id)|�|;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)äÉÿÿÿÿÿü;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *inks; // @synthesize inks=_inks;

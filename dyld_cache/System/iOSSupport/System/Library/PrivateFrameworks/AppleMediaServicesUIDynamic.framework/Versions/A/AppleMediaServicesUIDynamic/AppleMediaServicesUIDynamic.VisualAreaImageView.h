@@ -16,13 +16,13 @@
 
 - (struct JUMeasurements);
 - (struct CGSize);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
-- (_Bool)entCellP;
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasContent;

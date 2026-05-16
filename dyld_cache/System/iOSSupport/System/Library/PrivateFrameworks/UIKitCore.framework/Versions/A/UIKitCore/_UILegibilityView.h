@@ -27,34 +27,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id)nGL.framework/Versions/A/Libraries/libGLProgrammability.dylib;
-- (id);
-- (void);
-- (void)OR_CINEMATIC_SESSION_MALFORMED;
-- (id)w;
-- (void)@;
-- (void);
-- (void)peatTypeOne;
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (long long);
-- (void)!`GùÉ°1¢!0@ù
-× ;
-- (long long);
-- (void)rdCameraItem;
-- (id)ew;
-- (void)ewController;
-- (id)¨Ø;
-- (double)ut. This means that the view service didn't call us back.;
+- (void);
 - (struct CGSize);
-- (id)|;
-- (void)iH4T¾;
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id);
+- (long long)0@ù
+× ;
+- (void)!øGù±c°1Â0@ù
+× ;
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)ractiveStart;
+- (id);
+- (void);
+- (void)T'^;
+- (void)FÓÈ=_;
 
 // Remaining properties
 @property(nonatomic) _Bool hidesImage; // @synthesize hidesImage=_hidesImage;

@@ -15,10 +15,10 @@
     UIColor *_endColorFallback;
 }
 
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)XÿT;
 
 @end
 

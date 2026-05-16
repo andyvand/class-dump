@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize)_STATUS_CHECK_VIA_SATELLITE;
+- (struct CGSize);
 
 @end
 

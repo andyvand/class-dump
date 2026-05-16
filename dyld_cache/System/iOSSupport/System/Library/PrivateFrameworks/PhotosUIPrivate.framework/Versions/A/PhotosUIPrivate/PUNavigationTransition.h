@@ -35,15 +35,15 @@
 - (void);
 - (void);
 - (long long);
+- (double);
+- (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)à¸¹à¸ à¸¹à¸ à¸¹à¸ à¸¹à¸ à¸¹à¸ à¸¹à¸ à¸¹à¸ à¸¹à¸ à¸¹;
-- (double)G;
+- (void)geAnalysisInteractionDidChange;
+- (void)rPrincipalUIViewController.m;
+- (void)ÿc©ºu;
 
 // Remaining properties
 @property(nonatomic, setter=_setOperation:) long long _operation; // @synthesize _operation=__operation;

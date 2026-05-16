@@ -22,7 +22,7 @@
     PFFileSystemEndpoint *_channelPersistenceURLEndpoint;
 }
 
-+ (id)Æ;
++ (id);
 - (id);
 - (_Bool);
 - (id);
@@ -32,17 +32,17 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)rContextID;
-- (id)finished caching result for request %{public}@;
-- (id)þÝ;
+- (id)ARySayA43_GA43_ADGG_üËÿyADGSgA48_tGABG_AAyABA48_ADGtGSgt;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (void);
-- (long long);
-- (void);
 - (id);
+- (void);
+- (void)ìÚúÿ;
 - (CDUnknownBlockType);
-- (void)evelsOfDetail;
+- (void)1000;
+- (long long)(;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

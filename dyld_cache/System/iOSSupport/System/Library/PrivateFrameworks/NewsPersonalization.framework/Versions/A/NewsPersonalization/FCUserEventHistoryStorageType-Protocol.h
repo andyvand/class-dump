@@ -7,7 +7,6 @@
 @class FCUserEventHistoryMetadata, NSArray, NSDate;
 
 @protocol FCUserEventHistoryStorageType
-- (NSArray *);
 - (NSArray *);
 
 // Remaining properties

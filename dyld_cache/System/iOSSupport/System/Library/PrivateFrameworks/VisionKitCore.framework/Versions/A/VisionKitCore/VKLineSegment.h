@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (struct CGPoint);
 - (void);
-- (struct CGPoint): /* Error: Ran out of types for this method. */;
-- (void)Image=},N,V_maskImage;
+- (void);
+- (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;

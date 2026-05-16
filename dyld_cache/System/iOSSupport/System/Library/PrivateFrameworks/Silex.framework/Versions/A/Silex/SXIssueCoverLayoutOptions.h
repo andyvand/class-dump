@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (double);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double boundingWidth; // @synthesize boundingWidth=_boundingWidth;

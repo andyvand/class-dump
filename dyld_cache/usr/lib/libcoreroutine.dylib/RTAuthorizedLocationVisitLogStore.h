@@ -28,8 +28,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)nHandler:(id)arg1;
 - (id);
+- (id)£+ËÌ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

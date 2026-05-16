@@ -21,31 +21,30 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id):(id)arg1 protectionClass:acknowledgementHandler:) /* Error: Ran out of types for this method. */;
-+ (id)cutor;
 + (id);
-- (void)rkAsSync:transfersToSyncRowIDs: /* Error: Ran out of types for this method. */;
-- (id)ndReturnTransfersToForceMarkAsSync:transfersToSyncRowIDs: /* Error: Ran out of types for this method. */;
-- (void)gesWithGUIDs:(id)arg1;
-- (id)7;
-- (void)s locked;
-- (long long)find iMessage chat.;
-- (void)hat doesn't exist that we think we can delete for CacheDelete:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (void)ormedFirstAppExtensionLoad;
-- (id)ndle: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)1¢!0@ù
-× ;
+- (long long);
 - (void);
-- (id)d;
-- (id)óöf;
-- (void)÷Ôh;
-- (id)ä;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)LÔÿ;
+- (void)©ÿu©Üø`;
+- (void),öj;
+- (id)g;
+- (void)ÖÜ h;
+- (id)Í k;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *artworkView; // @synthesize artworkView=_artworkView;

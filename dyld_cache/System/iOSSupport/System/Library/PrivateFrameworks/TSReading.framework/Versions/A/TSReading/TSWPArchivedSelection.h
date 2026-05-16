@@ -14,9 +14,9 @@
 }
 
 - (void);
-- (id)ler];
-- (void);
-- (id);
+- (id)r<_TSWPCharIndexAndAffinity>>="__begin_"^{_TSWPCharIndexAndAffinity}"__end_"^{_TSWPCharIndexAndAffinity}""{?="__cap_"^{_TSWPCharIndexAndAffinity}}};
+- (void)È8;
+- (id)l°;
 
 // Remaining properties
 @property(retain, nonatomic) TSWPSelection *selection; // @synthesize selection=_selection;

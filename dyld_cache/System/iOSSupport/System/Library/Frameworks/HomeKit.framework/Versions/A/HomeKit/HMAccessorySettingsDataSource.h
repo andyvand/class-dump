@@ -24,7 +24,7 @@
 }
 
 + (id);
-+ (id)erAssertionInfo;
++ (id)tionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -40,13 +40,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)teOfAddedConstraint: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void)ent one %{public,uuid_t}.16P;
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;

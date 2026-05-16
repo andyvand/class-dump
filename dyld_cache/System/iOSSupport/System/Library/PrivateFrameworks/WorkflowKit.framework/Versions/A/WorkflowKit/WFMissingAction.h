@@ -19,7 +19,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)ither Media or Ringtone.;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isForLocalization; // @synthesize isForLocalization=_isForLocalization;

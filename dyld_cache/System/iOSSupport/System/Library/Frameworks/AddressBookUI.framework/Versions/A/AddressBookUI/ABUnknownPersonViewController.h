@@ -28,23 +28,23 @@
 - (id);
 - (void *);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void *);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

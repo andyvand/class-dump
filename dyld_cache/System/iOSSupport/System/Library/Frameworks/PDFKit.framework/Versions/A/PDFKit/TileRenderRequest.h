@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     int tag;
 }
 
-- (void)eredSet",R,N,V_strokes;
+- (void);
 
 @end
 

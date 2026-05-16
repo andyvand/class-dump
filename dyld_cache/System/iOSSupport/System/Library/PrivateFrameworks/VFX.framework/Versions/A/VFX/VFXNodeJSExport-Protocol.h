@@ -7,649 +7,68 @@
 @class NSArray, NSString, VFXCamera, VFXForceField, VFXLight, VFXModel, VFXMorpher, VFXNode, VFXPhysicsBody, VFXSkinner;
 
 @protocol VFXNodeJSExport
-+ (id)laneSystem;
-- (void)Refraction;
-- (void)OS_MACCATALYST
-    
-    
-    #define SHOULD_CHECK_IF_OUTSIDE_TEXTURE  0
-    #define RETURN_IF_OUTSIDE_TEXTURE(dst)
-    #define RETURN_IF_OUTSIDE_TEXTURE3D(dst)
-#else
-    #define SHOULD_CHECK_IF_OUTSIDE_TEXTURE  1
-    #define RETURN_IF_OUTSIDE_TEXTURE(dst)   if ((index.x >= dst.get_width()) || (index.y >= dst.get_height())) return;
-    #define RETURN_IF_OUTSIDE_TEXTURE3D(dst) if ((index.x >= dst.get_width()) || (index.y >= dst.get_height()) || (index.z >= dst.get_depth())) return;
++ (id)BufferRef;
+- (void),
+                         device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+                         device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+                         const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+                         )
+{
+    auto current = thread_position_in_grid;
+    auto patchCoord = patchCoords[current];
+    auto patchIndex = patchIndices[patchCoord.patchIndex];
+    auto patchArray = patchArrays[patchCoord.arrayIndex];
+    auto patchBits = patchParams[patchIndex].field1; 
+    auto patchType = select(patchArray.x, uint(6), isRegular(patchBits));
+    auto numControlVertices = getNumControlVertices(patchType);
+    auto uv = normalizePatchCoord(patchBits, float2(patchCoord.s, patchCoord.t));
+    auto dScale = float(1 << getDepth(patchBits));
+    auto boundaryMask = int((patchBits >> 8) & 0xFU);
+
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+
+
+    if(patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 6) {
+        OsdGetBSplinePatchWeights(uv.x, uv.y, dScale, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+
+    Vertex dst, du, dv;
+    clear(dst);
+    clear(du);
+    clear(dv);
+
+
+    auto indexBase = patchArray.z + numControlVertices * (patchCoord.patchIndex - patchArray.w);
+    for(auto cv = 0; cv < numControlVertices; cv++)
+    {
+        auto index = patchIndices[indexBase + cv];
+        auto src = readVertex(index, srcVertexBuffer, args);
+        addWithWeight(dst, src, wP[cv]);
+        addWithWeight(du, src, wDs[cv]);
+        addWithWeight(dv, src, wDt[cv]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    if(args.duDesc.y > 0)
+        writeDu(current, du, duDerivativeBuffer, args);
+
+    if(args.dvDesc.y > 0)
+        writeDv(current, dv, dvDerivativeBuffer, args);
 #endif
 
-#if __METAL_VERSION__ >= 220
-    #define SUPPORTS_LAYERED_RENDERING           1
-    #define SUPPORTS_MULTIPLE_VIEWPORT_RENDERING 1
-#else
-    #if TARGET_OS_OSX || TARGET_OS_MACCATALYST
-        #define SUPPORTS_LAYERED_RENDERING           (__METAL_VERSION__ >= 200)
-        #define SUPPORTS_MULTIPLE_VIEWPORT_RENDERING (__METAL_VERSION__ >= 200)
-    #else
-        #define SUPPORTS_LAYERED_RENDERING           (__METAL_VERSION__ >= 210)
-        #define SUPPORTS_MULTIPLE_VIEWPORT_RENDERING (__METAL_VERSION__ >= 210)
-    #endif
-#endif
 
-
-#define GOLDEN_RATIO 1.61803398875
-#define GOLDEN_RATIO_H 1.61803398875h
-#define GOLDEN_ANGLE 2.399963229728
-#define GOLDEN_ANGLE_H 2.399963229728h
-
-
-
-
-namespace vfx {
-    
-    
-    static inline float4 reduce_op(float4 d0, float4 d1)
-    {
-        d0.x = min(d0.x, d1.x);
-        d0.y = max(d0.y, d1.y);
-        d0.z += d1.z;
-        d0.w += d1.w;
-        return d0;
-    }
-    
-    inline float vector_reduce_min(float4 v)
-    {
-        float2 min_lh = min(v.xy, v.zw);
-        return min(min_lh.x, min_lh.y);
-    }
-    
-    inline float vector_reduce_max(float4 v)
-    {
-        float2 max_lh = max(v.xy, v.zw);
-        return max(max_lh.x, max_lh.y);
-    }
-    
-    inline int vector_reduce_add(int4 v)
-    {
-        int2 add_lh = v.xy + v.zw;
-        return add_lh.x + add_lh.y;
-    }
-    
-    inline float3x3 mat3(float4x4 mat4)
-    {
-        return float3x3(mat4[0].xyz, mat4[1].xyz, mat4[2].xyz);
-    }
-    
-    inline float3 mat4_mult_float3_normalized(float4x4 matrix, float3 src)
-    {
-        float3 dst  =  src.xxx * matrix[0].xyz;
-        dst         += src.yyy * matrix[1].xyz;
-        dst         += src.zzz * matrix[2].xyz;
-        return normalize(dst);
-    }
-    
-    inline float3 mat4_mult_float3(float4x4 matrix, float3 src)
-    {
-        float3 dst  =  src.xxx * matrix[0].xyz;
-        dst         += src.yyy * matrix[1].xyz;
-        dst         += src.zzz * matrix[2].xyz;
-        return dst;
-    }
-
-    inline float3 matrix_rotate(float4x4 mat, float3 dir)
-    {
-        return  dir.xxx * mat[0].xyz +
-                dir.yyy * mat[1].xyz +
-                dir.zzz * mat[2].xyz;
-    }
-
-    inline float4 matrix_transform(float4x4 mat, float3 pos)
-    {
-        return  pos.xxxx * mat[0] +
-                pos.yyyy * mat[1] +
-                pos.zzzz * mat[2] +
-                           mat[3];
-    }
-
-    inline float3 quaternion_rotate_vector(float4 q, float3 v)
-    {
-        float3 t = 2.f * cross(q.xyz, v);
-        return v + q.w * t + cross(q.xyz, t);
-    }
-
-    
-    template <class T>
-    inline vec<T, 3> robust_normalize(vec<T, 3> v)
-    {
-        vec<T, 3> zero = 0.;
-        return all(v == zero) ? zero :(float)arg1 normalize(v);
-    }
-
-    template <class T>
-    inline void generate_basis(vec<T, 3> inR, thread vec<T, 3> *outS, thread vec<T, 3> *outT)
-    {
-        
-        T x  = -inR.x;
-        T y  = inR.y;
-        T z  = inR.z;
-        T sz = copysign(T(1.), z);
-        T a  = y / (abs(z) + T(1.));
-        T b  = y * a;
-        T c  = x * a;
-        *outS = (vec<T, 3>){ z + sz * b,  sz * c,       x       };
-        *outT = (vec<T, 3>){ c,           T(1.) - b,    -sz * y };
-    }
-    
-    
-    
-    inline float3 blend_add(float3 base, float3 blend)
-    {
-        return min(base + blend, 1.0);
-    }
-    
-    inline float3 blend_lighten(float3 base, float3 blend)
-    {
-        return max(blend, base);
-    }
-    
-    inline float3 blend_screen(float3 base, float3 blend)
-    {
-        return (1.0 - ((1.0 - base) * (1.0 - blend)));
-    }
-
-    
-    
-    inline half sq(half f) {
-        return f * f;
-    }
-
-    inline float sq(float f) {
-        return f * f;
-    }
-    
-    inline float2 sincos(float angle) {
-        float cs;
-        float sn = ::sincos(angle, cs);
-        return float2(sn, cs);
-    }
-    
-    
-    inline float acos_fast(float f) {
-        float x = abs(f);
-        float res = -0.156583f * x + M_PI_2_F;
-        res *= sqrt(1.0f - x);
-        return (f >= 0.f) ? res :M_PI_F - res;
-    }
-
-    inline float asin_fast(float f)
-    {
-        return M_PI_2_F - acos_fast(f);
-    }
-
-    
-    inline float atan_fast(float inX)
-    {
-        float  x = inX;
-        return x*(-0.1784f * abs(x) - 0.0663f * x * x + 1.0301f);
-    }
-    
-    inline float atan2_fast(float y, float x)
-    {
-        float sx = x > 0.f ? -1.f :1.f;
-        float abs_y = abs(y) + 1e-10f; 
-        float r = (x + abs_y*sx) / (abs_y - x*sx);
-        float angle = sx * M_PI_4_F + M_PI_2_F;
-        angle      += (0.1963f * r * r - 0.9817f) * r;
-        return y > 0.f ? angle :-angle;
-    }
-    
-    
-    template <class T>
-    inline vec<T, 3> cartesian_from_spherical(vec<T, 2> uv)
-    {
-        
-        
-        T cos_phi;
-        T phi = uv.x * 2.0f * M_PI_F;
-        T sin_phi = ::sincos(phi, cos_phi);
-        
-        T cos_theta;
-        T theta     = uv.y * M_PI_F;
-        T sin_theta = ::sincos(theta, cos_theta);
-
-        return vec<T, 3>(cos_phi * sin_theta,
-                         cos_theta,
-                         -sin_phi * sin_theta);
-    }
-
-    inline float2 spherical_from_cartesian(float3 dir)
-    {
-        return float2( atan2(-dir.z, dir.x) * (0.5f * M_1_PI_F), acos(dir.y) * M_1_PI_F);
-    }
-
-    inline half2 spherical_from_cartesian(half3 dir)
-    {
-        return half2(atan2(-dir.z, dir.x) * 0.5h, acos(dir.y)) * M_1_PI_H;
-    }
-
-    inline float2 spherical_from_cartesian_fast(float3 dir)
-    {
-        return float2( atan2_fast(-dir.z, dir.x) * (0.5f * M_1_PI_F), acos_fast(dir.y) * M_1_PI_F);
-    }
-
-    inline half2 spherical_from_cartesian_fast(half3 dir)
-    {
-        return half2( atan2_fast(-dir.z, dir.x) * 0.5h, acos_fast(dir.y)) * M_1_PI_H;
-    }
-
-    #define dual_contract_factor  1.0
-
-    template <class T>
-    inline vec<T, 2> dual_paraboloid_from_cartesian(vec<T, 3> dir)
-    {
-        dir.xy /= abs(dir.z) + 1.0;
-
-        dir.y = 0.5 - dir.y * 0.5;
-        T s   = sign(dir.z) * 0.25;
-        dir.x = s * (dir.x - 1.0) + 0.5;
-        return dir.xy;
-    }
-    
-    
-    template <class T>
-    inline vec<T, 3> cartesian_from_dual_paraboloid(vec<T, 2>  uv)
-    {
-        
-        T zside = 0.5 * sign(0.5 - uv.x);
-        uv.x = 1.0 - abs(4.0 * uv.x - 2.0); 
-        uv.y   = 1.0 - uv.y * 2.0;
-        T z = length_squared(uv); 
-        z = (1.0 - z) * zside;
-        
-        return vec<T, 3>(uv.x, uv.y, z);
-    }
-
-    
-    template <class T>
-    inline vec<T, 2> signNotZero(vec<T, 2> v) {
-        return vec<T, 2>((v.x >= 0.0) ? +1.0 :-1.0, (v.y >= 0.0) ? +1.0 :-1.0);
-    }
-
-    template <class T>
-    inline vec<T, 2> octEncode(vec<T, 3> v) {
-        float2 p = v.xy * (1.0 / (abs(v.x) + abs(v.y) + abs(v.z)));
-        return (v.z <= 0.0) ? ((1.0 - abs(p.yx)) * signNotZero(p)) :p;
-    }
-
-    template <class T>
-    inline vec<T, 3> octDecode(vec<T, 2> p) {
-        float3 v = float3(p.xy, 1.0 - abs(p.x) - abs(p.y));
-        if (v.z < 0) v.xy = (1.0 - abs(v.yx)) * signNotZero(v.xy);
-        return normalize(v);
-    }
-
-    inline float reduce_min(float3 v) {
-        return min(v.x, min(v.y, v.z));
-    }
-    
-    inline float reduce_min(float4 v) {
-        return min(min(v.x, v.y), min(v.z, v.w));
-    }
-
-    inline float reduce_max(float3 v) {
-        return max(v.x, max(v.y, v.z));
-    }
-
-    inline float reduce_max(float4 v) {
-        return max(max(v.x, v.y), max(v.z, v.w));
-    }
-
-    
-    inline float3 randomSphereDir(float2 rnd)
-    {
-        float s = rnd.x * M_PI_F * 2.f;
-        float t = rnd.y * 2.f - 1.f;
-        return float3( float2(sin(s), cos(s)) * sqrt(1.f-t*t), t );
-    }
-    
-    
-    template <class T>
-    inline T interleaved_gradient_noise(vec<T, 2> pos)
-    {
-        vec<T, 3> magic( 0.06711056f, 0.00583715f, 52.9829189f );
-        return fract( magic.z * fract( dot( pos, magic.xy ) ) );
-    }
-    
-    inline float3 hemisphere_reflect(float3 v, float3 nrm)
-    {
-        
-        
-        
-        float k = dot(v,nrm);
-        return (k>0.0) ? v :v-2.0*nrm*k;
-    }
-
-    
-    inline float3 randomHemisphereDir(float3 dir, float2 rnd)
-    {
-        return hemisphere_reflect(randomSphereDir( rnd ), dir);
-    }
-    
-    inline void orthogonal_basis(float3 n, thread float3& xp, thread float3& yp)
-    {
-        
-        float sz = n.z >= 0.f ? 1.f :-1.f;
-        float a  =  n.y / (1.f + abs(n.z));
-        float b  =  n.y * a;
-        float c  = -n.x * a;
-        
-        xp = float3(n.z + sz * b,   sz * c,     -n.x);
-        yp = float3(c,              1.f - b,    -sz * n.y);
-    }
-
-    template <class U>
-    inline float2 normalized_coordinate(ushort2 index, U texture)
-    {
-        uint width  = texture.get_width();
-        uint height = texture.get_height();
-        
-        float u = width  == 1 ? 0.5f :float(index.x) / float(width - 1);
-        float v = height == 1 ? 0.5f :float(index.y) / float(height - 1);
-        
-        return float2(u, v);
-    }
-
-    template <class U>
-    inline float2 normalized_coordinate(uint2 index, U texture)
-    {
-        uint width  = texture.get_width();
-        uint height = texture.get_height();
-        
-        float u = width  == 1 ? 0.5f :float(index.x) / float(width - 1);
-        float v = height == 1 ? 0.5f :float(index.y) / float(height - 1);
-        
-        return float2(u, v);
-    }
-
-    template <class U>
-    inline half2 normalized_coordinate_half(uint2 index, U texture)
-    {
-        uint width  = texture.get_width();
-        uint height = texture.get_height();
-        
-        half u = width  == 1 ? 0.5h :half(index.x) / half(width - 1);
-        half v = height == 1 ? 0.5h :half(index.y) / half(height - 1);
-        
-        return half2(u, v);
-    }
-
-    
-    
-    
-    inline float2 R2(float2 jitt, float i) {
-        const float2 a = float2(0.245122333753, 0.4301597090025);
-        return fract(a * i + jitt);
-    }
-
-    
-
-    template <class T>
-    inline vec<T, 3> cubemap_dir_from_sampleCoord(uint face, vec<T, 2> sampleCoord) 
-    {
-        switch(face) {
-            case 0:return vec<T, 3>( 1.0, -sampleCoord.y, -sampleCoord.x);
-
-            case 1:return vec<T, 3>(-1.0, -sampleCoord.y,  sampleCoord.x);
-
-            case 2:return vec<T, 3>(sampleCoord.x,  1.0,  sampleCoord.y);
-
-            case 3:return vec<T, 3>(sampleCoord.x, -1.0, -sampleCoord.y);
-
-            case 4:return vec<T, 3>( sampleCoord.x, -sampleCoord.y,  1.0);
-
-            default:return vec<T, 3>(-sampleCoord.x, -sampleCoord.y, -1.0);
-        }
-    }
-
-    
-    template <class T>
-    inline T signed_unit(T uv) {
-        return uv * 2.0 - 1.0;
-    }
-
-    
-    template <class T>
-    inline T unsigned_unit(T uv) {
-        return uv * 0.5 + 0.5;
-    }
-
-    template <class T>
-    inline vec<T, 3> cubemap_dir_from_uv(uint face, vec<T, 2> uv) 
-    {
-        return cubemap_dir_from_sampleCoord(face, signed_unit(uv));
-    }
-
-    template <class T>
-    inline vec<T, 3> cubemap_dir_from_uv_unit(uint face, vec<T, 2> uv) 
-    {
-        return normalize(cubemap_dir_from_uv(face, uv));
-    }
-
-    
-    
-    inline float2 barycentric_mix(float2 __x, float2 __y, float2 __z, float3 __t) { return __t.x * __x + __t.y * __y + __t.z * __z; }
-    inline float3 barycentric_mix(float3 __x, float3 __y, float3 __z, float3 __t) { return __t.x * __x + __t.y * __y + __t.z * __z; }
-    inline float4 barycentric_mix(float4 __x, float4 __y, float4 __z, float3 __t) { return __t.x * __x + __t.y * __y + __t.z * __z; }
-    
-    static inline float rect(float2 lt, float2 rb, float2 uv)
-    {
-        float2 borders = step(lt, uv) * step(uv, rb);
-        return borders.x * borders.y;
-    }
-    
-    inline half4 debugColorForCascade(int cascade)
-    {
-        switch (cascade) {
-            case 0:return half4(1.h, 0.h, 0.h, 1.h);
-            case 1:return half4(0.9, 0.5, 0., 1.);
-            case 2:return half4(1., 1., 0., 1.);
-            case 3:return half4(0., 1., 0., 1.);
-            default:return half4(0., 0., 0., 1.);
-        }
-    }
-
-    inline half3 debugColorForFace(int count)
-    {
-        switch (count) {
-            case 0:return half3(1.0h, 0.1h, 0.1h);
-            case 1:return half3(0.1h, 1.0h, 1.0h);
-            case 2:return half3(0.1h, 1.0h, 0.1h);
-            case 3:return half3(1.0h, 0.1h, 1.0h);
-            case 4:return half3(0.1h, 0.1h, 1.0h);
-            default:return half3(1.0h, 1.0h, 0.1h);
-        }
-    }
-
-    inline half4 debugColorForCount(int count)
-    {
-        switch (count) {
-            case 0:return half4(0.0h, 0.0h, 0.0h, 1.h);
-            case 1:return half4(0.0h, 0.0h, 0.4h, 1.h);
-            case 2:return half4(0.0h, 0.0h, 0.9h, 1.h);
-            case 3:return half4(0.0h, 0.4h, 0.7h, 1.h);
-            case 4:return half4(0.0h, 0.9h, 0.4h, 1.h);
-            case 5:return half4(0.0h, 0.9h, 0.0h, 1.h);
-            case 6:return half4(0.4h, 0.7h, 0.0h, 1.h);
-            case 7:return half4(0.9h, 0.7h, 0.0h, 1.h);
-            default:return half4(1., 0., 0., 1.);
-        }
-    }
-
-    inline float grid(float2 lt, float2 rb, float2 gridSize, float thickness, float2 uv)
-    {
-        float insideRect = rect(lt, rb + thickness, uv);
-        float2 gt = thickness * gridSize;
-        float2 lines = step(abs(lt - fract(uv * gridSize)), gt);
-        return insideRect * (lines.x + lines.y);
-    }
-
-    inline float checkerboard(float2 gridSize, float2 uv)
-    {
-        float2 check = floor(uv * gridSize);
-        return step(fmod(check.x + check.y, 2.f), 0.f);
-    }
-
-    
-
-    inline float luminance(float3 color)
-    {
-        
-        
-        return dot(color, float3(0.212671, 0.715160, 0.072169));
-    }
-    inline half luminance(half3 color)
-    {
-        
-        
-        return dot(color, half3(0.212671h, 0.715160h, 0.072169h));
-    }
-    
-    inline float srgb_to_linear(float c)
-    {
-        return (c <= 0.04045f) ? c / 12.92f :powr((c + 0.055f) / 1.055f, 2.4f);
-    }
-    
-    inline half srgb_to_linear_fast(half c)
-    {
-        return powr(c, 2.2h);
-    }
-    
-    inline half3 srgb_to_linear_fast(half3 c)
-    {
-        return powr(c, 2.2h);
-    }
-    
-    inline half srgb_to_linear(half c)
-    {
-        
-        return (c <= 0.04045h) ? (c * 0.0773993808h) :powr(0.9478672986h * c + 0.05213270142h, 2.4h);
-    }
-    
-    inline float3 srgb_to_linear(float3 c)
-    {
-        return float3(srgb_to_linear(c.x), srgb_to_linear(c.y), srgb_to_linear(c.z));
-    }
-    
-    inline float linear_to_srgb(float c)
-    {
-        return (c < 0.0031308f) ? (12.92f * c) :(1.055f * powr(c, 1.f/2.4f) - 0.055f);
-    }
-    
-    inline float3 linear_to_srgb(float3 v) { 
-        return float3(linear_to_srgb(v.x), linear_to_srgb(v.y), linear_to_srgb(v.z));
-    }
-    
 }
 
-
-
-inline float4 texture2DProj(texture2d<float> tex, sampler smp, float4 uv)
-{
-    return tex.sample(smp, uv.xy / uv.w);
-}
-
-inline half4 texture2DProj(texture2d<half> tex, sampler smp, float4 uv)
-{
-    return tex.sample(smp, uv.xy / uv.w);
-}
-
-static constexpr sampler vfx_shadow_sampler_rev_z = sampler(coord::normalized, filter::linear, mip_filter::none, address::clamp_to_zero, compare_func::less_equal);
-
-static constexpr sampler vfx_shadow_sampler = vfx_shadow_sampler_rev_z;
-
-inline float shadow2DProj(sampler shadow_sampler, depth2d<float> tex, float4 uv, float4 tile)
-{
-    float3 uvp = uv.xyz / uv.w;
-    uvp.xy = tile.xy + uvp.xy * tile.zw;
-    return tex.sample_compare(shadow_sampler, uvp.xy, uvp.z);
-}
-
-inline float shadow2DArray(sampler shadow_sampler, depth2d_array<float> tex, float3 uv, uint slice)
-{
-    return tex.sample_compare(shadow_sampler, uv.xy, slice, uv.z);
-}
-
-inline float shadow2DArrayProj(sampler shadow_sampler, depth2d_array<float> tex, float4 uv, uint slice)
-{
-    float3 uvp = uv.xyz / uv.w;
-    return tex.sample_compare(shadow_sampler, uvp.xy, slice, uvp.z);
-}
-
-
-
-inline float4 transformViewPosInShadowSpace(float3 pos, float4x4 shadowMatrix)
-{
-    
-    float4 lightScreen =  shadowMatrix * float4(pos, 1.f);
-
-    return lightScreen;
-}
-
-inline float ComputeCascadeBlendAmount(float3 shadowPos, bool cascadeBlending)
-{
-    const float cascadeBlendingFactor = 0.1f; 
-
-    float3 cascadePos = abs(shadowPos.xyz * 2.f - 1.f);
-    
-    if (cascadeBlending) {
-#if 0
-        const float edge = 1.f - cascadeBlendingFactor;
-        
-        cascadePos = 1.f - saturate((cascadePos - edge) / cascadeBlendingFactor);
-        return cascadePos.x * cascadePos.y * cascadePos.z; 
-#else
-        
-        float distToEdge = 1.0f - max(max(cascadePos.x, cascadePos.y), cascadePos.z);
-        return smoothstep(0.0f, cascadeBlendingFactor, distToEdge);
-#endif
-    } else {
-        return step(cascadePos.x, 1.f) * step(cascadePos.y, 1.f) * step(cascadePos.z, 1.f);
-    }
-}
-
-template <class T>
-inline void applyFog(thread vec<T, 4>& color, float eye_distance, float3 fogParameters, vec<T, 4> fogColor) {
-    float factor = eye_distance * fogParameters.x + fogParameters.y;
-    T fogFactor = pow(clamp(T(factor), T(0), fogColor.a), T(fogParameters.z));
-    color.rgb = mix(color.rgb, fogColor.rgb * color.a, fogFactor);
-}
-
-
-
-#pragma mark Pack/Unpack
-
-inline ushort packHalf2ToUShort(half2 v) {
-    v = saturate(v);
-    v = round(v*255);
-    ushort2 uv = ushort2(v);
-    ushort res = (uv.x & 0x00ff) | ((uv.y & 0x00ff) << 8);
-    return res;
-}
-
-inline half2 unpackHalf2FromUShort(ushort v) {
-    half2 res;
-    
-    res.x = half(v & 0x00ff);
-    res.y = half( (v & 0xff00) >> 8);
-    
-    return res/255.;
-}
- /* Error: Ran out of types for this method. */;
-- (VFXCamera *)FlowScope;
-- (void)ÙGÕ I;
-- (void)¿n8ü{?\;
-- (NSArray *);
-- (void)¹å>;
-- (id),Ó?à4¾^J>t?]?ø'¾0s><2v?ß~?ÿ¾dx\>ô©w?µz??«¾eÇF>Fy?À²v?1þ½Û1>ªCz? $s?kÔã½Ä>Va{?øùo?ñÈ½Æ
->ò_|?Öm?Ó®½K!ð=ÿ<}?_j?Ï÷½Ï2Ë=aÿ}?`h?L8t½@ú¦=¡~?®f?¦&A½ÏÜ=%#?Áe?½qçB=M?aâc? ¼¼#¿þ<qË?|b?õ7¼»¹x<kó?->a?Z9()°¸;
+;
+- (void)particle_decal_vert;
+- (id)5<PÀõ;
+- (_Bool)âÚë';
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *audioPlayers;

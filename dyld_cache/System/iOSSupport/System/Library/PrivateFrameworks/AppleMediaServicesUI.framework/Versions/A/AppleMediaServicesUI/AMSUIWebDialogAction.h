@@ -22,11 +22,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)!¨Eù1
-°1b0@ù
-× ;
-- (void)éi7<ÿÿ=ÿÿÄ;
+- (void)omButtonFrames: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *buttonModels; // @synthesize buttonModels=_buttonModels;

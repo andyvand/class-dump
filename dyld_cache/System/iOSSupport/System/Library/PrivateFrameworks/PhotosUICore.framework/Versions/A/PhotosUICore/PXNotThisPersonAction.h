@@ -27,12 +27,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)ûÿ`ùÿ;
+- (id)y: /* Error: Ran out of types for this method. */;
+- (id)ÿ$ðÿXm;
+- (void)rideSuggestionPills;
+- (id)k<ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool didSetPersonAsVerified; // @synthesize didSetPersonAsVerified=_didSetPersonAsVerified;

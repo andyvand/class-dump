@@ -18,17 +18,17 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)ð;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) SKRange *xRange; // @synthesize xRange=_xRange;

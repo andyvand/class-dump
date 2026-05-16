@@ -11,8 +11,8 @@
 + (void);
 + (id);
 + (id);
-- (id)g session;
-- (id)elay message is in a instant message chat, no need to validate.;
+- (id);
+- (id);
 - (id);
 @end
 

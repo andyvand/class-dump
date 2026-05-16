@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id)@ß¬ß!dá;
+- (id);
+- (void)MacSyncedAssetsBannerDismissalDate;
 
 @end
 

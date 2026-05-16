@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-- (void);
-- (void);
 - (id);
-- (void);
-- (id)0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)udio:(id)arg1;
-- (id)etTreatSupplementaryHiddenAsOverlaps:,V__treatSupplementaryHiddenAsOverlaps /* Error: Ran out of types for this method. */;
-- (void),¢;
-- (void)@:(id)arg1 %p left->right=%@, right->left=%@>;
+- (void);
+- (id)dleOpenURL"b1"delegateOpenURL"b1"delegateOpenURLOptions"b1"delegateDidReceiveMemoryWarning"b1"delegateWillTerminate"b1"delegateSignificantTimeChange"b1"delegateWillChangeInterfaceOrientation"b1"delegateDidChangeInterfaceOrientation"b1"delegateWillChangeStatusBarFrame"b1"delegateDidChangeStatusBarFrame"b1"delegateDidBecomeActive"b1"delegateWillResignActive"b1"delegateDidEnterBackground"b1"delegateWillEnterForeground"b1"delegateWillSuspend"b1"delegateSupportsStateRestoration"b1"delegateSupportedInterfaceOrientations"b1"delegateHandleSiriTask"b1"delegateSupportsWatchKitRequests"b1"delegateSupportsConfigurationForConnectingSceneSession"b1"delegateSupportsDidDiscardSceneSessions"b1"idleModeVisualEffectsEnabled"b1"userDefaultsSyncDisabled"b1"headsetButtonClickCount"b4"isHeadsetButtonDown"b1"isFastForwardActive"b1"isRewindActive"b1"shakeToEdit"b1"ignoreHeadsetClicks"b1"touchRotationDisabled"b1"taskSuspendingUnsupported"b1"taskSuspendingOnLockUnsupported"b1"isUnitTests"b1"singleUseLaunchOrientation"b3"delegateWantsNextResponder"b1"delegateWantsStatusBarTouchesEnded"b1"interfaceLayoutDirectionIsValid"b1"interfaceLayoutDirection"b3"restorationExtended"b1"normalRestorationInProgress"b1"normalRestorationCompleted"b1"isDelayingTintViewChange"b1"isUpdatingTintViewColor"b1"isHandlingMemoryWarning"b1"couldNotRestoreStateWhenLocked"b1"disableStyleOverrides"b1"legibilityAccessibilitySettingEnabled"b1"viewControllerBasedStatusBarAppearance"b1"isStatusBarFading"b1"systemWindowsSecure"b1"isFrontBoardForeground"b1"appSwitcherLayoutState"b2"isObservingPIP"b1"shouldRestoreKeyboardInputState"b1"subclassOverridesInterfaceOrientation"b1"subclassOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
+- (void)ionBackground";
+- (void);
+- (id)thReason:(struct _NSZone *)arg1;
+- (_Bool);
+- (void)idths;
+- (void)Téþ8;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *color; // @synthesize color=_color;

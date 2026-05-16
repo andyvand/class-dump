@@ -13,8 +13,8 @@
 
 - (void);
 - (void);
-- (id);
 - (long long);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;

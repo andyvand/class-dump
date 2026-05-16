@@ -7,8 +7,8 @@
 @class NSSet;
 
 @protocol PXPlacesGeotaggedItemDataSourceChange
-- (_Bool)àp;
-- (NSSet *);
+- (_Bool);
+- (NSSet *)Êø];
 
 // Remaining properties
 @property(readonly) NSSet *addedItems;

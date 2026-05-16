@@ -7,16 +7,12 @@
 @class UIColor, UIView;
 
 @protocol _UIScrollViewScrollIndicatorVisualStyle
-- (UIView *)!`Fù1ÁÐ1¢!0@ù
-× ;
-- (double)0@ù
-× ;
-- (_Bool)veDropSession;
-- (CDStruct_f413d7fe)nterval;
-- (_Bool)gÔj;
-- (struct UIEdgeInsets)o;
-- (UIColor *)(¼+;
-- (double)extDismissSearch;
+- (double);
+- (_Bool)FromRight;
+- (UIColor *)ltHeaderFooterLayoutMarginsForTableViewStyle:(long long)arg1 isHeader:(_Bool)arg2 isFirstSection: /* Error: Ran out of types for this method. */;
+- (CDStruct_f413d7fe)ssary;
+- (struct UIEdgeInsets)mageSingleNamedLayerImage",&,N,V_layerImage;
+- (UIView *)<nüoq(r;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool clipsToBounds;

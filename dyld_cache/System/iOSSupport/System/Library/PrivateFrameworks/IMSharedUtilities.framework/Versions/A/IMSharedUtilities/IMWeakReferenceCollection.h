@@ -11,13 +11,13 @@
     NSMutableArray *_list;
 }
 
-- (void);
-- (void);
-- (void)5;
-- (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (void)HêÙÿ¸[;
 
 @end
 

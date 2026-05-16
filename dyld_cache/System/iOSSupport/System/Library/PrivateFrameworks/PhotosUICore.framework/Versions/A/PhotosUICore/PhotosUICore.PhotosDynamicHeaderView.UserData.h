@@ -12,8 +12,8 @@
 }
 
 - (id);
+- (id)atedAssetsForAssetCollection:(void *)arg1;
 - (void);
-- (id);
 
 @end
 

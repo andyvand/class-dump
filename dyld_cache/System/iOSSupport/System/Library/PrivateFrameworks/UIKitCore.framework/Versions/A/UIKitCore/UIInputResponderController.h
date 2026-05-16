@@ -17,28 +17,28 @@
 
 + (id);
 + (void);
-+ (void)
-× ;
-+ (long long)ea;
-- (void)dGuid %@ threadPart %@);
-- (struct CGRect);
++ (long long);
++ (void);
 - (void);
-- (void)0@ù
-× ;
-- (void)udioURL;
-- (struct CGRect)tionForDismissEyeDropper:(id)arg1;
-- (_Bool)Subclass:isOtherModule: /* Error: Ran out of types for this method. */;
-- (void)@"UISplitViewController",W,N;
-- (id)IDragEventSupport;
-- (id);
-- (id)e;
 - (_Bool);
-- (void)Jìÿ;
-- (void)2"c;
-- (void)Cf;
-- (void)ÿÙ2;
-- (double)¤{¥ÿ=;
-- (_Bool)2ÛsÁl;
+- (void);
+- (void);
+- (id);
+- (double);
+- (void)
+× ;
+- (id)]ð1Â0@ù
+× ;
+- (struct CGRect)SRange=QQ}{_NSRange=QQ}{_NSRange=QQ}{_NSRange=QQ}{_NSRange=QQ}}16;
+- (void)matchFidelityForKeyboardShortcutLeaf:(_Bool)arg1 translationMap:additionalModifiers: /* Error: Ran out of types for this method. */;
+- (struct CGRect)nstraint;
+- (id);
+- (void)ÿ;
+- (_Bool)ØØÿQ.;
+- (_Bool)Ñÿ©WÒ|c;
+- (void)È½g;
+- (void)ÿÌ/;
+- (void)lgßþ;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticAppearanceEnabled; // @synthesize automaticAppearanceEnabled=_automaticAppearanceEnabled;

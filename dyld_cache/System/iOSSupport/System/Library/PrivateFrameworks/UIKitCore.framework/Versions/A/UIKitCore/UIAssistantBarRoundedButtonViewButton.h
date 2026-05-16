@@ -20,17 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)};
-- (id)nnot create record without a salt;
-- (id)fier:%@  guid:%@ /* Error: Ran out of types for this method. */;
-- (id)under first unlock:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (void)2ON;
-- (id);
+- (void);
 - (id);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)Uyþÿ;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)uestFocusUpdateToEnvironment:(_Bool)arg1 environment]`), outlining each step of the process for determining the next focused item.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *highlightedBackgroundColor; // @synthesize highlightedBackgroundColor=_highlightedBackgroundColor;

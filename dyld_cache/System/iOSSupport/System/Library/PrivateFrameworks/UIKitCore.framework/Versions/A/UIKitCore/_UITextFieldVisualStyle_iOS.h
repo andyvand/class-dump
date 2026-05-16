@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id).apple.configuration.security.timelimits;
-- (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id)scriptor>"16@"<_UIContentEffectKey>"24;
-- (id)didSelectTab:previousTab: /* Error: Ran out of types for this method. */;
+- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)configuration for the top navigation item on the navigation bar (activeLayout is nil with non-nil inactiveLayout). %@;
 
 @end
 

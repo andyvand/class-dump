@@ -8,8 +8,11 @@
 
 @interface HomeEnergyUI.HistoricalUsageIntervalModel
 {
-    MISSING_TYPE *isInitialized;
+    MISSING_TYPE *wholeHomeSnapshot;
+    MISSING_TYPE *deviceSnapshot;
     MISSING_TYPE *_currentScrolledDate;
+    MISSING_TYPE *isInitialized;
+    MISSING_TYPE *cachedScrollDerivedCalculations;
     MISSING_TYPE *_$observationRegistrar;
 }
 

@@ -17,14 +17,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CPBarButton *backButton;

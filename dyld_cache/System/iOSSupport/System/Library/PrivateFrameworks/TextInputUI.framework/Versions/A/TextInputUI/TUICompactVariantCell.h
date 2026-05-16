@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (struct UIEdgeInsets);
+- (id);
 - (struct CGSize);
+- (struct UIEdgeInsets);
 
 @end
 

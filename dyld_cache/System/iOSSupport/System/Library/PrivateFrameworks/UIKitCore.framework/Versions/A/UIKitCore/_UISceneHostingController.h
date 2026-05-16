@@ -20,7 +20,7 @@
     id <_UISceneHostingControllerDelegate> _delegate;
 }
 
-+ (void)_ÀÎ¦1k;
++ (void),gÿ«üÚXn;
 - (id);
 - (id);
 - (void);
@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (id);
-- (id)R;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -38,29 +38,31 @@
 - (id);
 - (id);
 - (void);
-- (id)tandalone: /* Error: Ran out of types for this method. */;
-- (id)portReason: /* Error: Ran out of types for this method. */;
-- (id)ocessRecordZoneFetchCompletion:zoneID:clientChangeTokenData:moreComing:shouldWriteBackChanges:desiredKeys:syncType:error:currentBatchCount:maxBatchCount:activity:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)R,N,V_chatRegistry;
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
-- (id)0@ù
+- (void);
+- (id);
+- (void)Ô!Ð!ìDùbð1Â0@ù
 × ;
+- (void)
+× ;
+- (id)d1Â0@ù
+× ;
+- (id);
+- (void)Entry",C,N,V_mainBatteryEntry;
+- (void)ssForBackGesture;
+- (id)ew=%p data=%p%@ scopeBarData=%p};
 - (void);
-- (void)ngRemoteEvent:(id)arg1;
-- (id)x:(id)arg1;
-- (id)TrailingToImageViewsExact: /* Error: Ran out of types for this method. */;
-- (void)with nil focusItemInfo and null focusItemFrame. This is uselesss.;
-- (id)k8G;
-- (void)may have dirtied layout constraints in the middle of updating them.  Both are programming errors.;
-- (void)otateToInterfaceOrientation:(id)arg1 %li;
-- (id)ntext *__strong);
-- (void)å¾^;
+- (void)!?;
 
 // Remaining properties
 @property(readonly, nonatomic) FBScene *_fbScene; // @synthesize _fbScene;

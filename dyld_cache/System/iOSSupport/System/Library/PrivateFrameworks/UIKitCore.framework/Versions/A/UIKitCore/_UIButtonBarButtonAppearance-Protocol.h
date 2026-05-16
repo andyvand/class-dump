@@ -5,11 +5,11 @@
 //
 
 @protocol _UIButtonBarButtonAppearance
-- (void)ation;
-- (struct UIEdgeInsets)ntelligenceCommandManager;
+- (void);
+- (struct UIEdgeInsets)DkÍõ[;
 
 @optional
-- (void)tch.m;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalSelectionInsets:) struct UIEdgeInsets _additionalSelectionInsets;

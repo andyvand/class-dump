@@ -7,7 +7,6 @@
 @protocol SXAutoPlacement;
 
 @protocol SXAutoPlacementProviding
-- (id <SXAutoPlacement>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement;

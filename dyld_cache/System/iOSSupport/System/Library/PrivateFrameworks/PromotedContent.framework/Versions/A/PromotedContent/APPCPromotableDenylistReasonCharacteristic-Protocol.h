@@ -7,10 +7,6 @@
 @class NSArray;
 
 @protocol APPCPromotableDenylistReasonCharacteristic
-- (NSArray *)agFeedViewerDataManager;
-- (NSArray *)ic}@;
-- (NSArray *)remove this issue from My Magazines on all your iCloud devices?;
-- (NSArray *)ve the download from this %@ or remove this issue from My Magazines on all your iCloud devices?;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *campaignCategories;

@@ -5,6 +5,5 @@
 //
 
 @protocol PKTextInputDrawingGestureRecognizerDelegate
-- (void);
 @end
 

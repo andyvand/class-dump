@@ -24,12 +24,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
-- (double)_smallCapsBaseFont;
+- (double);
 
 // Remaining properties
 @property(nonatomic) _Bool charging; // @synthesize charging=_charging;

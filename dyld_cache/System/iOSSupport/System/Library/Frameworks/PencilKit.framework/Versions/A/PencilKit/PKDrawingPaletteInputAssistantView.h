@@ -26,35 +26,30 @@
 
 - (id);
 - (_Bool);
-- (id)lled configuration request %@;
-- (_Bool):%.1f /* Error: Ran out of types for this method. */;
-- (_Bool)ntID:%@
- bundleID:%@
- endpointConfig:%@
- deviceInfo:%@
- debugOverrides:%@
- useBackgroundRefreshRate:%d requestMode:%lu applicationState:%lu /* Error: Ran out of types for this method. */;
-- (void)uildRoots/4~CG4tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/BackgroundURLSessionSupport/RCURLSession.m;
-- (void)al;
-- (void)figuration/RemoteConfiguration/Operations/RCOperationThrottler.m;
-- (void)ons.m;
-- (void)PkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Categories/NSEnumerator+RCAdditions.m;
-- (void)Canceling><RCOperationPrioritizing>"16@?0@?<v@?B>8;
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)J%;
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (_Bool)C;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -68,12 +63,12 @@
 - (void);
 - (id);
 - (void);
-- (void)erFullScreenForWindow:(double)arg1;
-- (id);
-- (double);
-- (struct CGSize);
 - (void);
 - (id);
+- (struct CGSize);
+- (id);
+- (double);
+- (void)\ê;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaletteButtonGroupView *bottomOrLeadingGroupView; // @synthesize bottomOrLeadingGroupView=_bottomOrLeadingGroupView;

@@ -29,12 +29,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float primaryFocusCoefficient; // @synthesize primaryFocusCoefficient=_primaryFocusCoefficient;

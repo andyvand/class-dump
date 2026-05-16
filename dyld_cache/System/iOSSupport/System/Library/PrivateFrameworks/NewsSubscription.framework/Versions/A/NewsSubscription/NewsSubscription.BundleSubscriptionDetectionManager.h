@@ -19,9 +19,9 @@
 
 - (void);
 - (void);
-- (void)G47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDImageInfo.m;
 - (void);
 - (id);
+- (void);
 
 @end
 

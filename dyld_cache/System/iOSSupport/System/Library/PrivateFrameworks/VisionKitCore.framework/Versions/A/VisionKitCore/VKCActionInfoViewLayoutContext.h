@@ -39,23 +39,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CATransform3D);
-- (double);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
 - (void);
+- (void);
+- (struct CATransform3D);
+- (id);
+- (double);
 - (struct CGRect);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (void)icVertex;
-- (double)right after I...
-
-%@;
+- (double)tMaskIfNecessaryWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)ectDelegate;
 
 // Remaining properties
 @property(nonatomic) _Bool animateItemVisibilityChanges; // @synthesize animateItemVisibilityChanges=_animateItemVisibilityChanges;

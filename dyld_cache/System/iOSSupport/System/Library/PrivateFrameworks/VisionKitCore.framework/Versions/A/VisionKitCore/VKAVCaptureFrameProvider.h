@@ -62,17 +62,17 @@
 - (double);
 - (void);
 - (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (void)_dispatch_queueC;
-- (double)tH;
+- (void)UIButton"8;
+- (double)N¯;
 
 // Remaining properties
 @property(readonly, nonatomic) CIImage *_ciImage;

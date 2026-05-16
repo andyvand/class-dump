@@ -5,10 +5,5 @@
 //
 
 @protocol HMSettingsDelegate
-- (void);
-
-@optional
-- (void)//com.apple.reminders;
-- (void)lator;
 @end
 

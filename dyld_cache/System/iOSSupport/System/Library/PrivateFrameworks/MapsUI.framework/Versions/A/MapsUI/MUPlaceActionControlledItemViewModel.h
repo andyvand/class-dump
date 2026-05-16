@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)ev.plug.ac.gb.t.fill;
+- (void)ectionControllerForAvailability: /* Error: Ran out of types for this method. */;
 
 @end
 

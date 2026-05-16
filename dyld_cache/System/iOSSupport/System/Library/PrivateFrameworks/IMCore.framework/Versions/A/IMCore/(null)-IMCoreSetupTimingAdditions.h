@@ -5,7 +5,7 @@
 //
 
 @interface (null) (IMCoreSetupTimingAdditions)
-+ (void)dpoint: /* Error: Ran out of types for this method. */;
-+ (id)ickerWithConfiguration:withStream:withFilter:withContentStyle: /* Error: Ran out of types for this method. */;
++ (id);
++ (void);
 @end
 

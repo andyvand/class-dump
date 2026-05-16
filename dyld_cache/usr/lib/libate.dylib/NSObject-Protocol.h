@@ -7,11 +7,11 @@
 @class NSString;
 
 @protocol NSObject
-- (NSString *)resourceByName;
-- (_Bool)^c($ch(c)k;
-- (_Bool)x;
-- (id)_deleteIS3_EENS_9allocatorIS3_EEEE;
-- (unsigned long long);
+- (struct _NSZone *){=<'g|4
+_òg:)¦öð Ñ'=°²=ä	â)bÞ .|*j%O!` â"©(OåÙ (Ê=<¥(âf"(~ä2)= ` %!	
+=à=(
+
+=ògÜ`%'Ý` V /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

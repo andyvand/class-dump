@@ -14,11 +14,11 @@
 
 - (id);
 - (unsigned long long);
-- (_Bool)goryLabelParagraphStyleIndexProperty;
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;

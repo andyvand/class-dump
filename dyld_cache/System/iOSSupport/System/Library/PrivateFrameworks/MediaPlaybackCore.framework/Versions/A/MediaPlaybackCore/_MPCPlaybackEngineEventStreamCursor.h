@@ -17,22 +17,22 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)G;
 - (id);
 - (id);
-- (void)tem.B.dylib;
-- (void);
-- (void)framework/Versions/C/Foundation;
-- (void)nts;
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id)";
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ing data source [] sil=%{public}@ position=AfterSection section=%{public}@ afterSection=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

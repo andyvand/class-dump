@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)ectorInteraction;
+- (id)endarViewDecorationItem;
 
 @end
 

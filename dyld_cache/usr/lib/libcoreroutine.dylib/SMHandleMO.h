@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) SMConversationMO *conversation; // @dynamic conversation;

@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)navBarButtonTapped(_:) /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <ISKVOProxyDelegate> delegate; // @synthesize delegate=_delegate;

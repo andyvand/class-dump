@@ -10,8 +10,8 @@
 
 + (_Bool);
 + (id);
-+ (id)oup;
-+ (long long)RRENT_LINE;
++ (id)ntBalloonStrokeColor;
++ (long long)àT´;
 
 @end
 

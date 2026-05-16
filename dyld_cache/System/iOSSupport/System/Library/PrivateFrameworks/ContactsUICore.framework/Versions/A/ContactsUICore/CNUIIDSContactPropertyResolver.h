@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)er;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIIDSAvailabilityProvider *idsAvailabilityProvider; // @synthesize idsAvailabilityProvider=_idsAvailabilityProvider;

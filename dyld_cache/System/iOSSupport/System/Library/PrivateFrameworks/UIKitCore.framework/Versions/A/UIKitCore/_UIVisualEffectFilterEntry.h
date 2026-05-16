@@ -20,33 +20,35 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (double);
-- (id);
+- (_Bool);
 - (void);
-- (void)s=nil;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)yForFloatingKeyboard;
-- (double)der: /* Error: Ran out of types for this method. */;
-- (void)pearance:(double)arg1;
-- (id)Bounds;
-- (_Bool)ground;
-- (id)Progress:boundedBy: /* Error: Ran out of types for this method. */;
-- (id)arder;
-- (void)ntainerGuide;
-- (id)teraction_CustomHighlighter;
 - (id);
-- (_Bool)llerStyleTripleColumn.;
-- (id)ritingToolsUI;
-- (double)ëQ¸?;
-- (_Bool)`M71;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (double)Ôð!¤Dùq`ð1Â0@ù
+× ;
+- (id)Ð!HAùqb°1Â0@ù
+× ;
+- (void)32@0:(id)arg1 8q16@"UINavigationItem"24;
+- (id);
+- (void)r:(id)arg1 fromChildrenBlock: /* Error: Ran out of types for this method. */;
+- (id)itingWithText:(struct _NSZone *)arg1;
+- (double),N,V_resolvedImage;
+- (void)delegate;
+- (id)IDisableLayoutFlushingCount;
+- (void)orPickerColorQueueDelegate;
+- (_Bool)DragSession;
+- (id)8îÿ;
+- (id)ceStyle;
+- (void)ShySuG;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configurationValues; // @synthesize configurationValues=_configurationValues;

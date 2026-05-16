@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)itleCO2Detected%@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

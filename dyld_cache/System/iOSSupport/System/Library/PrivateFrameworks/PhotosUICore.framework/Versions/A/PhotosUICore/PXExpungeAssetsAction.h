@@ -8,8 +8,11 @@
 
 @interface PXExpungeAssetsAction : PXDestructiveAssetsAction
 {
+    long long _source;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 

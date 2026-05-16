@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, MPSectionedCollection, MPStoreItemMetadataRequest, NSError, NSOperationQueue;
+@class ICURLAggregatedPerformanceMetrics, MPSectionedCollection, NSError, NSOperationQueue;
 
 @protocol MPCModelStorePlaybackItemsRequestAccumulator
-+ (_Bool):inStore: /* Error: Ran out of types for this method. */;
-- (unsigned int)ngeType %u;
-- (MPStoreItemMetadataRequest *);
+- (id);
+- (NSOperationQueue *)1Â0@ù
+× ;
+- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult)rDefaults";
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *accumulationError;

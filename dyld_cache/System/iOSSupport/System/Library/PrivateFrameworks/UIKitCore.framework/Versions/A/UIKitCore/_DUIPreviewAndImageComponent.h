@@ -13,21 +13,20 @@
     unsigned long long _index;
 }
 
-+ (_Bool)g¦Ú.nm;
++ (_Bool)ported.;
 - (void);
-- (id)24@0:(id)arg1 8@"IMDChat"16;
-- (id)TildeInPath;
-- (void);
-- (void);
-- (unsigned long long)imumNumberOfLines: /* Error: Ran out of types for this method. */;
-- (_Bool)ests:(id)arg1 %@ containerRequests:%@ completionRequests:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (unsigned long long)±Îð1¢!0@ù
-× ;
-- (id)usState;
-- (void)ernationalKey;
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool)mitsLayoutForSuspiciousContents:(id)arg1;
+- (void)alizationFactor;
+- (id)orCurrentUpdate;
+- (id)exPath:(struct _NSZone *)arg1;
+- (unsigned long long)te;
+- (void);
+- (void)ø«ÿQcØÈc;
 
 // Remaining properties
 @property(retain, nonatomic) _DUIImageComponent *imageComponent; // @synthesize imageComponent=_imageComponent;

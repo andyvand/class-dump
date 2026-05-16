@@ -5,6 +5,5 @@
 //
 
 @protocol PQLEnumeration
-- (id)H;
 @end
 

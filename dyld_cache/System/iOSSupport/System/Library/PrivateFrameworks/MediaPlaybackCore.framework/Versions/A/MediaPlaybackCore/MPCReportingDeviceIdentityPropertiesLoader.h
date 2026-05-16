@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void);
 - (id);
+- (void)led [insert statement failed] event.id=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (void)`;
 - (void);
 - (void);
-- (void)ndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)tòóóèóPôô;
+- (void);
+- (void),º¼º;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAutoRefineQueryDelegate> autoRefineDelegate; // @synthesize autoRefineDelegate=_autoRefineDelegate;

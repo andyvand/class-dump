@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long fileContentType; // @synthesize fileContentType=_fileContentType;

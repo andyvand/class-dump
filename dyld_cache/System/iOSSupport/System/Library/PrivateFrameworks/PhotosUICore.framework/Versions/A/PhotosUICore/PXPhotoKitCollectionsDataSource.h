@@ -44,20 +44,21 @@
 - (id);
 - (id);
 - (id);
-- (long long);
 - (void);
+- (long long);
 - (id);
 - (struct PXSimpleIndexPath);
 - (long long);
 - (id);
+- (id);
+- (id);
 - (unsigned short);
 - (id);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (long long)UpSharePlayDataSource.swift;
+- (long long)
+× ;
+- (id)iewController.m;
+- (long long)ß1ÿa+Çè8ÿ;
+- (void)èdµ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *_collectionListBySection; // @synthesize _collectionListBySection=__collectionListBySection;

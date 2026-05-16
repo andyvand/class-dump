@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSMapTable *_transportableExtensions;
 }
 
-+ (id);
++ (id)S] <%p> Sending discovered local endpoint to caller;
 - (id);
-- (id)rotocol: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (id);
+- (void)urce doesn't want to load more];
 
 // Remaining properties
 @property(readonly, nonatomic) MPProtocolProxy<MPCQueueControllerPublisher> *publisherProxy; // @synthesize publisherProxy=_publisherProxy;

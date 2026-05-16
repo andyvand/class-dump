@@ -32,21 +32,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (double);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize)@ù
+- (id)@ùH1â
+0@ù
 × ;
-- (void)moriesWithMaximumCount:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
-- (void)b4;
-- (void)ÿ;
+- (void)ze=dd}32d48;
+- (id): /* Error: Ran out of types for this method. */;
+- (struct CGSize)entifier;
+- (double)ureUsageCountDestination - recordFeatureUsageCounts completed;
+- (void)d}}24^{?={CGSize=dd}{CGSize=dd}{CGSize=dd}BQ{CGPoint=dd}}32;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setContentSize:) struct CGSize _contentSize; // @synthesize _contentSize=__contentSize;

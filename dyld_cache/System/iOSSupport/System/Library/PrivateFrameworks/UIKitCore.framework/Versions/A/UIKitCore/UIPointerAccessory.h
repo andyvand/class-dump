@@ -17,19 +17,19 @@
     } _position;
 }
 
-+ (id)^;
 + (id);
-- (void)edImageReceivedEvent:(_Bool)arg1;
-- (_Bool)ext;
-- (_Bool)etch error;
-- (unsigned long long);
++ (id);
+- (void);
 - (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (CDStruct_c3b9c2ee)eringModeAutomatic"b1"resolvedColorMaterialRenderingMode"b2};
+- (_Bool)ustomizationIndex;
+- (id),V_customHighlighterGesture;
 - (id);
-- (void);
-- (void);
-- (CDStruct_c3b9c2ee)StateShouldAvoidKeyboard;
-- (void)textFieldBorderColor;
-- (id)Æ0k;
+- (void)ðç[;
+- (void)â·d;
+- (void)h;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isArrowAccessory; // @synthesize _isArrowAccessory;

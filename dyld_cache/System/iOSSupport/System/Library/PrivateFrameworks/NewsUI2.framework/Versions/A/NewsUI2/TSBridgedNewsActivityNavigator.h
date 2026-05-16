@@ -13,10 +13,10 @@
     MISSING_TYPE *tracker;
 }
 
-- (void)C;
 - (void);
 - (void);
 - (id);
+- (void)T ¦þ;
 
 @end
 

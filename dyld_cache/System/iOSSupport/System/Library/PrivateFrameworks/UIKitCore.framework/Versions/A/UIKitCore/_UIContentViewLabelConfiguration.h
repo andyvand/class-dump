@@ -33,77 +33,74 @@
     UIColor *_highlightedTextColor;
 }
 
-+ (_Bool)«Um;
-- (void)n:(id)arg1 conference:account: /* Error: Ran out of types for this method. */;
-- (void)ut Path:(id)arg1 %@;
-- (void)PropertyList:(long long)arg1 writtenToPath:format:error: /* Error: Ran out of types for this method. */;
++ (_Bool)etFromBottom];
+- (void);
+- (void);
+- (void);
 - (long long);
-- (_Bool);
 - (id);
 - (void);
+- (_Bool);
 - (void);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool)iguration: /* Error: Ran out of types for this method. */;
-- (_Bool)oring.request;
-- (long long);
-- (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
 - (_Bool);
+- (long long);
 - (double);
-- (void);
-- (id)EndObserverToken;
-- (id)led;
-- (void)sode;
-- (void)tyVolumeAdjustment();
 - (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (id)×~ÿ¹;
-- (long long);
-- (long long)¡pð!àAùÃ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (id)QÈð1¢!0@ù
-× ;
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)!ØFù±ÌÐ1¢!0@ù
+- (long long)Á°!TCùq_1Â0@ù
 × ;
+- (void)ùb1Â0@ù
+× ;
+- (void)entAsyncDeliveryTarget>";
+- (_Bool)edWhileDragging:(id)arg1;
+- (void)ctangleOfInterestAt:(id)arg1 kind: /* Error: Ran out of types for this method. */;
+- (void)angeCount;
+- (id)IFeedbackDiscretePlayable>",&,N,V_userInteractingThresholdFeedback;
+- (void)"UITabBarAppearance",C,N,V_scrollEdgeAppearance;
+- (id)nt",&,N,V_documentToSearch;
+- (void)rnationalKeyIntroductionView;
+- (_Bool)",&,N,V_itemOneButton;
+- (void)erContexts:(_Bool)arg1 ,V_placeholderContexts;
+- (id)es not conform to UITextInput protocol;
+- (id)a trait with name '%@' that has the same identifier '%@' as a previously used trait named '%@' with a different defaultValueRepresentsUnspecified value. Trait definitions with the same identifier must have the same defaultValueRepresentsUnspecified value.;
+- (void)d to update focus at %@ to cell %@ while cell %@ is already focused;
+- (void)ËLÿÿÐ¨ïÿN©ïÿîàîÿ;
+- (void);
+- (void);
+- (void)the completion handler was never called.;
+- (long long);
+- (id)ardFocusWithoutFirstResponderNotification;
+- (id)TouchTypeIndirect, UITouchTypeStylus, or UITouchTypeIndirectPointer;
+- (void)ndexPath"24;
+- (_Bool)APayloadValueMissingKeyboardOrientationLandscapeUnknown(void);
+- (void)lease file a bug on UICollectionView.;
+- (void);
 - (id);
-- (void)24B28B32@36;
-- (_Bool)erAsymmetricExtender";
+- (id);
 - (void);
-- (void)sBlock:(id)arg1;
-- (_Bool)DisplayMenu: /* Error: Ran out of types for this method. */;
+- (long long)UÐU;`;
+- (double);
+- (void)f];
+- (id)fÑ C^;
+- (_Bool)^;
 - (void);
-- (void)iewNamed:(id)arg1 ofType:needsFrame: /* Error: Ran out of types for this method. */;
-- (id)StyleRequiresTemporaryPopoverPresentationController: /* Error: Ran out of types for this method. */;
-- (_Bool)llScrollPocketInteractionIfNecessary;
-- (void)erredFocusableItemCacheForCurrentUpdate;
-- (id)des;
-- (long long),N,V_rvHighlighter;
-- (_Bool)icAnimator;
-- (void);
-- (id)ContentOnNextLine;
-- (void)ckGhost;
-- (double)but received section %ld. Collection View:%@ /* Error: Ran out of types for this method. */;
-- (void)UIKitCore/UITabBarAuxiliaryView.swift;
-- (void)assVariant;
-- (id)²áþÒ
-ö\;
-- (id)h¼Ì;'`;
-- (long long)2Zb;
-- (void)ÿ;
-- (void)8±ÿ¬û;
+- (void)L;
+- (long long)ÄéÿsÇÓd¸a;
+- (_Bool)ø;
+- (long long)ôOÿóWÚ,Ïb;
+- (void)Úc;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdjustsFontForContentSizeCategory:) _Bool _adjustsFontForContentSizeCategory; // @synthesize _adjustsFontForContentSizeCategory;

@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)dObjectID ::Deleting share for objectID %@ succeeded /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void)@;
-- (id)Â
-@²àªý{C©ôOB©öWA©ø_Ä¨ÿ#ÕÐÊP;
-- (id)Pvxw;
+- (id);
+- (id)REMOVE_TAPBACK_INTENT_MESSAGE_PARAMETER_DESCRIPTION;
+- (void)t:(id)arg1 animated:animationDuration:animationCurve:] /* Error: Ran out of types for this method. */;
+- (void)nalytics;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;

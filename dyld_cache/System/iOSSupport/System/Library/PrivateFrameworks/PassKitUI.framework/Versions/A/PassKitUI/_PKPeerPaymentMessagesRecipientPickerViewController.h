@@ -15,14 +15,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)½;
 - (void);
-- (void);
-- (void)D;
+- (void)0@ù
+× ;
+- (void)ðx.;
+- (void)H;
 
 @end
 

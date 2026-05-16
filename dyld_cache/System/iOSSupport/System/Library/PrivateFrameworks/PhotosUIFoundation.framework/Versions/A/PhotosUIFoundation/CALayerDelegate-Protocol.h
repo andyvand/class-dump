@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
+@protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
-- (void)oller;
-- (void)estImageDataForAsset:(CALayer *)arg1 options:resultHandler:] /* Error: Ran out of types for this method. */;
+- (id <CAAction>);
 @end
 

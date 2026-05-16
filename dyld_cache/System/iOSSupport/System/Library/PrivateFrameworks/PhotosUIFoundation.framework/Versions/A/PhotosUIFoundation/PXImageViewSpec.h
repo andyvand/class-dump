@@ -30,11 +30,11 @@
 - (void);
 - (void);
 - (double);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint floatingContentMotionRotation;

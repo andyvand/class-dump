@@ -15,7 +15,7 @@
     NSArray *_taskReports;
 }
 
-+ (_Bool)ntifiers;
++ (_Bool);
 - (id);
 - (void);
 - (long long);
@@ -23,15 +23,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (long long);
-- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (long long);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;

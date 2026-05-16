@@ -25,15 +25,15 @@
 - (id);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PRMutablePosterConfiguration *configuration; // @synthesize configuration=_configuration;

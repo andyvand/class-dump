@@ -29,9 +29,9 @@
 - (double);
 - (id);
 - (id);
-- (double);
-- (void);
-- (id)ondaryCellularEntry;
+- (id)teItem"16;
+- (double)pped;
+- (void)¨ónþ-13¼þ513 ò¸þ;
 
 // Remaining properties
 @property(readonly, nonatomic) double contentHorizontalPadding;

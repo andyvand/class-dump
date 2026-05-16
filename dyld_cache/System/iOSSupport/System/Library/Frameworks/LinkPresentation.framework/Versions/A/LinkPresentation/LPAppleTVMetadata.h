@@ -16,24 +16,25 @@
 }
 
 + (id);
-+ (_Bool)ve;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
-- (void)setClientRuntimeProvidedServiceURL:(id)arg1;
-- (id)[256c]}][256c][16C]{PWAdminGroupList=C[16C]}qc[380c]i{PWMoreAccessFeatures=II[64c]IIb1b1b1b1b1b1b1b1b3b1b1b1b1b1}[37c]}24;
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id)creenSharingAvailable;
-- (void);
 - (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

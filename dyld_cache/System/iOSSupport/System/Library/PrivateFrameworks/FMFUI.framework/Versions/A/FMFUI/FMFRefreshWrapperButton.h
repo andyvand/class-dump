@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
 - (id);
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets wrapperInsets; // @synthesize wrapperInsets=_wrapperInsets;

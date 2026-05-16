@@ -29,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (long long);
@@ -40,12 +40,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)rror"24;
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_isEphemeral, setter=_setEphemeral:) _Bool _ephemeral; // @synthesize _ephemeral;

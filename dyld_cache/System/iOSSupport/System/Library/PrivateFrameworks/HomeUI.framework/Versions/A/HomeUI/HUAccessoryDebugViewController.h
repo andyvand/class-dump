@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sing will incorrectly scale image, as wallpaper scale (%f) doesn't match screen scale (%f);
 
 // Remaining properties
 @property(retain, nonatomic) HUAccessoryDebugModuleController *debugModuleController; // @synthesize debugModuleController=_debugModuleController;

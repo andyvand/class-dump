@@ -20,12 +20,12 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)EndDate;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HFHomeKitDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;

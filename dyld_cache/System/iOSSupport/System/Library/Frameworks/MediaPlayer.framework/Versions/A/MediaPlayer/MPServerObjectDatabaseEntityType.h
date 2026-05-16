@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     NSString *_genericObjectRelationshipKey;
 }
 
-+ (id)sonDict;
++ (id);
 - (id);
 - (id);
-- (void);
+- (void)_MPModelRelationshipSongComposer__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *genericObjectRelationshipKey; // @synthesize genericObjectRelationshipKey=_genericObjectRelationshipKey;

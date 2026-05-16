@@ -13,15 +13,15 @@
 }
 
 - (void);
-- (void);
-- (void)ib;
 - (void);
 - (void);
 - (void);
-- (void)Reader:(id)arg1 streamsAccessClient: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)ÐÔ!;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *dialogDictionary; // @dynamic dialogDictionary;

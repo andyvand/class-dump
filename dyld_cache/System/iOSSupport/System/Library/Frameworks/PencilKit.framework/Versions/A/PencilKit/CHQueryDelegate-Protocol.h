@@ -5,6 +5,5 @@
 //
 
 @protocol CHQueryDelegate
-- (void)*;
 @end
 

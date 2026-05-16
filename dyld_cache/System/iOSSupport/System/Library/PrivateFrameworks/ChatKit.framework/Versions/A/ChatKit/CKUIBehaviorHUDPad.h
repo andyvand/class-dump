@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)ÈÙÖ;
+- (_Bool);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets)dObjectIDCSo0aB0CIeggo_;
+- (struct UIEdgeInsets);
 - (_Bool);
-- (id)_currentSelection;
+- (id);
 
 @end
 

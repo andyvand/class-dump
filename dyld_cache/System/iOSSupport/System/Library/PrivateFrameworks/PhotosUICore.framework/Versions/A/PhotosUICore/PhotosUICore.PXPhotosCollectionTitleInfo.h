@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id)thumbnailAssetAtIndex:] /* Error: Ran out of types for this method. */;
+- (void)ì"#ÿuË8##ÿMË##ÿ]Ë_#ÿEË##ÿ]Ë|_#ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *subtitle;

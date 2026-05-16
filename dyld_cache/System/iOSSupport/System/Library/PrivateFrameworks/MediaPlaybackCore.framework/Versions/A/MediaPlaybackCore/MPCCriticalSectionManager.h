@@ -11,14 +11,14 @@
     MISSING_TYPE *_context;
 }
 
-+ (id)entifier: /* Error: Ran out of types for this method. */;
-- (id)"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
-- (id)@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
-- (id)0@0:(id)arg1 8@"ACAccount"16@"ACDAccountStore"24^@32;
-- (_Bool)with iTunes.;
-- (id)#�C;
-- (void);
++ (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)}@> returned with error <%{public}@> for %{public}@ in %.4lf seconds;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool inCriticalSection;

@@ -7,9 +7,7 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol FCPersonalizationAggregate
-- (double);
-- (double);
-- (NSString *);
+- (double)"<_TtP8NewsFeed32LocationDetectionManagerObserver_>"16;
 
 // Remaining properties
 @property(readonly, nonatomic) double clicks;

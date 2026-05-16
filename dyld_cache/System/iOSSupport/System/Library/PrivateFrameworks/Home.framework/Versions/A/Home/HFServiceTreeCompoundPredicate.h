@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)D] ]¨]^;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *childServicePredicates; // @synthesize childServicePredicates=_childServicePredicates;

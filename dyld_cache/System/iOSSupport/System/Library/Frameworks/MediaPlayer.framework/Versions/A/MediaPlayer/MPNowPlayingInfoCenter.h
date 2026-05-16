@@ -30,6 +30,7 @@
     MSVTimer *_contentItemInvalidationTimer;
     _Bool _isHighPriorityInvalidationTimer;
     id <MPNowPlayingPlaybackQueueDataSource> _playbackQueueDataSource;
+    _Bool _supportsArtworkCatalogLoading;
     id <MPNowPlayingInfoLyricsDelegate> _lyricsDelegate;
     struct {
         void *createPlaybackQueue;
@@ -53,10 +54,10 @@
 }
 
 + (id);
-+ (id)ockStateChanges:(id)arg1;
-+ (id)rrerURL;
-+ (long long)chment:URL:contentProtection:isNew:isTwoFactorCode:isFromMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService: /* Error: Ran out of types for this method. */;
-+ (id)`;
++ (id);
++ (id);
++ (long long);
++ (id);
 + (id);
 
 @end

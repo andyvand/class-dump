@@ -28,12 +28,12 @@
 - (CDStruct_b796b1f4);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *components; // @synthesize components=_components;

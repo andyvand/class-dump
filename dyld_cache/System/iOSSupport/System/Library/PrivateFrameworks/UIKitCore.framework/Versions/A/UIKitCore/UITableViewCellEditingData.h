@@ -21,13 +21,14 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id)a pattern color as backgroundColor of UITableViewRowAction is no longer supported.;
-- (_Bool)d;
+- (id);
+- (id)ð!ÜEùQ[Ð1Â0@ù
+× ;
+- (id)rame:(_Bool)arg1 innerCorners: /* Error: Ran out of types for this method. */;
+- (_Bool)Resize;
+- (id)´×;
+- (void)Õa;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool wantsMaskingWhileAnimatingDisabled;

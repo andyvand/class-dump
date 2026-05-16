@@ -5,8 +5,5 @@
 //
 
 @protocol PKPaymentDataProviderDelegate
-
-@optional
-- (void)ñÿ;
 @end
 

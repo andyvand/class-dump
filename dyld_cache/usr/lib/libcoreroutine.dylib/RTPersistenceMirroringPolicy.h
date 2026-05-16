@@ -16,15 +16,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
 - (double);
+- (id);
+- (id);
+- (long long);
+- (id);
 - (void);
 - (id);
-- (id)ler: /* Error: Ran out of types for this method. */;
-- (id);
-- (long long)tioned from idle status yet, origin location, %{sensitive}@, last location, %{sensitive}@;
-- (id)unt > 0;
-- (void)^;
+- (id)@ù
+× ;
+- (void)ailed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsMirroringViaCellular;

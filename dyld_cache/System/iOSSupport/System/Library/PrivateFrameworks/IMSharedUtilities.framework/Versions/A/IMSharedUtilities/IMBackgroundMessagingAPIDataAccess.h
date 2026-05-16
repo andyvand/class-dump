@@ -11,14 +11,15 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (id);
 + (unsigned long long);
 + (unsigned long long);
-+ (id);
-+ (void);
++ (id)
+;
++ (void)ëÚÿÔeõ ;
 
 @end
 

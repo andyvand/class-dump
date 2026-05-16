@@ -30,10 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)v°!@ùñz1b0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryMovieHighlight> bestHighlight;

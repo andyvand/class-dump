@@ -4,24 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SGBannerDividerParameter, UIColor, UIImage, UIView, UIVisualEffectView;
-
 @protocol SGSuggestionCategory
-- (NSString *)etParseSemaphore:(NSArray *)arg1;
-- (NSString *)Ref: /* Error: Ran out of types for this method. */;
-- (NSString *)Type:(NSArray *)arg1;
-- (NSString *)asNewInksSpring2024:(NSArray *)arg1;
-- (UIImage *)3: /* Error: Ran out of types for this method. */;
-- (NSString *)ewInks2022: /* Error: Ran out of types for this method. */;
-
-@optional
-- (UIView *);
-- (long long (^)(id, id))nableSuggestionTokens: /* Error: Ran out of types for this method. */;
-- (_Bool)EmailAddresses: /* Error: Ran out of types for this method. */;
-- (NSString *)edV1MainKey: /* Error: Ran out of types for this method. */;
-- (SGBannerDividerParameter *)vior: /* Error: Ran out of types for this method. */;
-- (_Bool)DisabledInternal: /* Error: Ran out of types for this method. */;
-- (UIVisualEffectView *)leBlockingOnIndex: /* Error: Ran out of types for this method. */;
-- (UIColor *)bleAutomaticallyRetryNetworkFailures: /* Error: Ran out of types for this method. */;
 @end
 

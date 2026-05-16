@@ -11,8 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)v!EùÊÐ1¢!0@ù
-× ;
++ (_Bool)ledViews;
 
 @end
 

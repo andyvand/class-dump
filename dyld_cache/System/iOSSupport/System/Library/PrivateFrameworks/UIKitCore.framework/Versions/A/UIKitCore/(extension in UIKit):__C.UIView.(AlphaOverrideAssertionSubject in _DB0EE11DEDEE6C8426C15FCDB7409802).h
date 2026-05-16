@@ -15,11 +15,11 @@
     MISSING_TYPE *host;
 }
 
-- (void);
-- (void);
-- (id),V_searchResultsToHiddenKeyboardFocusGuide;
-- (_Bool);
-- (void)=j;
+- (id);
+- (_Bool)oard-detection-pattern.dd.flight;
+- (void)í;
+- (void)¼ÿ;
+- (void)øl;
 
 @end
 

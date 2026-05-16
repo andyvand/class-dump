@@ -16,22 +16,22 @@
 }
 
 - (id);
-- (void)mentSetIDs:(id)arg1 additionalSegmentSetIDs:onlyUseFallbackURL:debugEnvironment: /* Error: Ran out of types for this method. */;
-- (void)onentsJoinedByString:(id)arg1;
-- (void)ThrottlerDelegate>",W,N,V_delegate;
-- (void)N,V_identifier;
-- (void),N,V_requestUUID;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void)etAnimates:(id)arg1;
-- (id)nge;
-- (struct CGSize);
-- (void)A;
+- (void);
 - (id);
+- (struct CGSize);
 - (_Bool);
+- (id);
+- (void)inerViewDelegate;
 
 // Remaining properties
 @property(nonatomic) long long eraserType;

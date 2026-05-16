@@ -31,39 +31,39 @@
 }
 
 - (void);
-- (void)24@32B40Q44@52^Q60Q68;
-- (void)pportsRegistration;
-- (id)aseFromMessageDictionary:(struct CGPoint)arg1;
-- (void)_remergeChatsWithParticipantIDsSets:(id)arg1;
-- (id)tachmentData:(id)arg1 skipServiceForSending:(struct CGPoint)arg2;
-- (_Bool)ageDict:(id)arg1 messageID:(struct CGPoint)arg2 forcedCallerID:(id)arg3 didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)ommand:(id)arg1 messageID:(id)arg2 forcedCallerID:(id)arg3 didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:sentToDevices:extraOptions:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)relayToWatchOnly:(id)arg1 shouldDisableScreenTimeRestrictions:(id)arg2 hasAttachments:(struct CGPoint)arg3 requiredCapabilities:(id)arg4;
-- (void):(id)arg1 relayToWatchOnly:(id)arg2 shouldDisableScreenTimeRestrictions:(_Bool)arg3 callerID: /* Error: Ran out of types for this method. */;
-- (id)geToken:clientChangeTokenData:moreComing:NSError:syncType:currentBatchCount:maxNumberOfBatches:shouldFetchArchivedRecords:activity:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)hangeTokenUpdated:zoneID:clienChangeToken:syncType: /* Error: Ran out of types for this method. */;
-- (void)stMessagesFromStorage:(id)arg1;
-- (_Bool)SoundEnabled;
-- (_Bool)@"NSDictionary",R,N,V_batchContext;
-- (void);
-- (_Bool)d %@ in chatGuid %@;
-- (_Bool)eue;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (void)1¢!0@ù
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)!\GùÑZÐ1Â0@ù
 × ;
-- (id)Ô ;
-- (id)oBackViews;
-- (id)onTitle;
-- (long long)ainerNode<T>>, shared_ptr<_UIRTreeContainerNode<T>>) [T = unsigned long];
-- (id)icItemRect;
-- (void)mColorChangedNotification;
-- (void)rs];
-- (void)L[êÿ~:(id)arg1 ÕØc;
-- (id)Æ¿e;
+- (long long);
+- (void)placement"b1"shouldReplaceFoundTextInRange"b1"replaceFoundTextInRange"b1"replaceAllOccurrencesOfQueryString"b1"willHighlightFoundTextRange"b1"scrollRangeToVisible"b1"shouldBeginTextSearchOperation"b1"didBeginTextSearchOperation"b1"didEndTextSearchOperation"b1"searchResultDisplayStyle"b1"selectedTextSearchDocument"b1"compareOrderFromDocument"b1"compareFoundRangeToRange"b1};
+- (id)UIScenePresentationContext;
+- (void)HostingSceneOldScreenUserInfoKey;
+- (void)_timer_p;
+- (void)lÿïPØìd;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

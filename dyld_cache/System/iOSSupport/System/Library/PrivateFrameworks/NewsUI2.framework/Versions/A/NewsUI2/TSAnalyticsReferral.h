@@ -21,21 +21,20 @@
     int appSessionStartNotificationType;
 }
 
-- (id)P;
+- (id);
 - (id);
 - (id);
 - (id);
 - (int);
 - (_Bool);
 - (int);
-- (id)ile Size=%u, Max Number Of Files:%u
- /* Error: Ran out of types for this method. */;
-- (id)X�h&�H;
-- (id)dCharValue;
-- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void)if_d;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool appOpenedByUserActivity; // @synthesize appOpenedByUserActivity;

@@ -16,13 +16,12 @@
 }
 
 - (void);
-- (id)2I
-;
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)T§ÿ;
 
 @end
 

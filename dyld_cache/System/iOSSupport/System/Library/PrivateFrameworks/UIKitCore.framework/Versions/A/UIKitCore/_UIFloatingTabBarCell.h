@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     _UIFloatingTabBarListItem *_listItem;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)¨;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSelectionHighlight; // @dynamic hasSelectionHighlight;

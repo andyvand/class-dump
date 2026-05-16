@@ -14,12 +14,11 @@ __attribute__((visibility("hidden")))
     UIColor *_lineColor;
 }
 
-- (_Bool);
-- (void);
-- (id)鉹;
-- (void)1¢!0@ù
-× ;
-- (id)r;
+- (_Bool)gForeground;
+- (id)$ö;
+- (void)$B];
+- (id)8¦e;
+- (void)ÙI;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *lineColor; // @synthesize lineColor=_lineColor;

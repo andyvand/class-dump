@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     _Bool isRequested;
 }
 
-- (void)nt;
+- (void);
 
 @end
 

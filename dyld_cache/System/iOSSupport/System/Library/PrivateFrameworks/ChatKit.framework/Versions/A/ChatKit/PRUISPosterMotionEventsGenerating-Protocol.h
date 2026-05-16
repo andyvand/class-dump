@@ -7,8 +7,7 @@
 @protocol PRUISPosterMotionEventsDelegate;
 
 @protocol PRUISPosterMotionEventsGenerating
-- (void);
-- (id <PRUISPosterMotionEventsDelegate>)onalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)m:(double)arg1 partIndex:withNewComposition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double deviceMotionUpdateInterval;

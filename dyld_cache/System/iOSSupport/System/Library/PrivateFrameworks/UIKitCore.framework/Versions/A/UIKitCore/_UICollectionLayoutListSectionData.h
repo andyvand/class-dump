@@ -12,14 +12,15 @@
     unsigned long long _selectionGrouping;
 }
 
-- (unsigned long long);
+- (id);
 - (void);
 - (unsigned long long);
-- (id)setBackgroundStyle: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (void);
-- (id)orForUnRenderedContent;
+- (void)á°!ÜBùñ\1Â0@ù
+× ;
+- (id)ntifier: /* Error: Ran out of types for this method. */;
+- (_Bool)State:(id)arg1;
+- (unsigned long long)allowsHidingShortcuts;
+- (void)HjÙô];
 
 // Remaining properties
 @property(nonatomic) unsigned long long selectionGrouping; // @synthesize selectionGrouping=_selectionGrouping;

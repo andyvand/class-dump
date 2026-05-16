@@ -5,7 +5,8 @@
 //
 
 @protocol PFTFuture
-- (id)icDescriptorIdentifier:(double)arg1;
+- (void)itorPresented;
+- (void)l];
 
 // Remaining properties
 @property(readonly, getter=isCancelled) _Bool cancelled;

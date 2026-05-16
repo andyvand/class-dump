@@ -36,23 +36,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (struct CGRect);
-- (double);
-- (id);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
 - (void);
+- (struct CGRect);
 - (struct CGContext *);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)ngeBlock;
-- (id)È$;
+- (void);
+- (id);
+- (double);
+- (void);
+- (_Bool)nuAction>",N,R;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontSizeToFitWidth; // @synthesize adjustsFontSizeToFitWidth=_adjustsFontSizeToFitWidth;

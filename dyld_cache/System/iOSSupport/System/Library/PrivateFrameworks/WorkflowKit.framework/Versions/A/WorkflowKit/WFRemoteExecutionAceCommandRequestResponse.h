@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)of the device.;
+- (void)WFBackgroundShortcutRunner synchronouslyPerformWithHost:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)ow.actions.playpodcast;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *aceCommandResponseDictionary; // @synthesize aceCommandResponseDictionary=_aceCommandResponseDictionary;

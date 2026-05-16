@@ -36,18 +36,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)fo;
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)24B32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDarkModeConfiguration> configuration; // @synthesize configuration=_configuration;

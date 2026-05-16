@@ -26,10 +26,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (struct UIEdgeInsets)String",R,C,N,V_name;
+- (struct UIEdgeInsets);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentFrameOverride; // @synthesize contentFrameOverride=_contentFrameOverride;

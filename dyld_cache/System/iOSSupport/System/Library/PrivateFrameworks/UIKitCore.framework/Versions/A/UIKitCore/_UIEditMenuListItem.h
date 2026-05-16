@@ -21,27 +21,26 @@ __attribute__((visibility("hidden")))
     unsigned long long _displayMode;
 }
 
-+ (id)inconsistent properties;
++ (id);
 + (id);
 - (_Bool);
 - (void);
-- (void)#;
-- (void);
+- (void);
+- (void);
 - (id);
 - (double);
-- (id)Mercury.dylib;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (long long)?Ù¹;
-- (id)
-× ;
-- (id)ctivePageIndicatorVibrantColorMatrix;
-- (unsigned long long)c;
-- (id)Êc;
+- (id);
+- (id);
+- (long long);
+- (id)enWidth;
+- (void)òl;
+- (unsigned long long)¸á^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *customView; // @synthesize customView=_customView;

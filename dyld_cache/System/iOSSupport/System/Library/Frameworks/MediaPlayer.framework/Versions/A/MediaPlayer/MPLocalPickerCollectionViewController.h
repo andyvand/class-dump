@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (Class);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -42,28 +42,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)gic == PROTOBUF_C__MESSAGE_DESCRIPTOR_MAGIC;
-- (id)IADIC aggregated argument of the same data type;
+- (void);
+- (id);
+- (long long);
 - (void);
 - (void);
-- (long long)downloadlocalFilesWithURLCompletionHandlers;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)ionsEnabled;
-- (void)#;
-- (void)ayloadProvider;
-- (id);
-- (void)lid playlist global ID;
-- (id)÷
-;
+- (void)rkType:artworkVariantType: /* Error: Ran out of types for this method. */;
+- (id)erationCount: /* Error: Ran out of types for this method. */;
+- (void)%{public}@;
+- (id)ModelRelationshipSongStoreAsset;
+- (void)©;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *authorLabel; // @synthesize authorLabel=_authorLabel;

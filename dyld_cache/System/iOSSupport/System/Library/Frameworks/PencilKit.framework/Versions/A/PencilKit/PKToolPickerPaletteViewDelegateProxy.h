@@ -27,15 +27,15 @@
 - (void);
 - (void);
 - (id);
-- (void)fallback operation must have valid URL;
+- (void);
 - (id);
 - (void);
-- (void)A;
+- (void);
 - (id);
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)ller;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

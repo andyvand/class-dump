@@ -22,11 +22,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)1B50@ù
+× ;
+- (id)0:8@"MPAVRoutingController"16@"MPAVRoute"24 /* Error: Ran out of types for this method. */;
+- (void)TB,N,V_usesAccount;
+- (void)@%%26;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

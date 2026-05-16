@@ -18,11 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (struct CGRect)!;
+- (struct CGRect);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) AXChartDescriptor *accessibilityChartDescriptor;

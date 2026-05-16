@@ -18,12 +18,12 @@
     MISSING_TYPE *isOwned;
 }
 
-+ (_Bool)ø*;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (void)òHÿÿ;
 
 @end
 

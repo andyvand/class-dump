@@ -22,22 +22,22 @@
 + (id);
 + (id);
 + (id);
-+ (CDStruct_b8464340)vate.alloy.ondemanddowntime;
++ (CDStruct_b8464340);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)|;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)Dens %{sensitive}f, dailyDens %{sensitive}f ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bluePOICandidates; // @synthesize bluePOICandidates=_bluePOICandidates;

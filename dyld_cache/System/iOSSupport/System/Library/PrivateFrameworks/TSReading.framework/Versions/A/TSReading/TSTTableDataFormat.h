@@ -12,10 +12,10 @@
 }
 
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id)Final result:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

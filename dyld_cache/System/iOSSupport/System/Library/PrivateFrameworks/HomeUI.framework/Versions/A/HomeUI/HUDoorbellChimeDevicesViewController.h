@@ -21,8 +21,8 @@
 - (Class);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)MULanguages;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (long long)Type: /* Error: Ran out of types for this method. */;
-- (id)ation:contentProtection: /* Error: Ran out of types for this method. */;
-- (void);
+- (long long);
+- (id);
+- (void)MPRemoteCommand",R,N,V_specialSeekBackwardCommand;
 
 // Remaining properties
 @property(nonatomic) long long currentRepeatType; // @synthesize currentRepeatType=_currentRepeatType;

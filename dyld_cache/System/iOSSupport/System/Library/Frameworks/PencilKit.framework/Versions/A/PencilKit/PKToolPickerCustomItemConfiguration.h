@@ -24,11 +24,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id)Queue;
+- (id);
 - (_Bool);
 - (_Bool);
-- (void)o request configuration %{public}@ with error:(_Bool)arg1 %{public}@;
-- (void)tus code:(_Bool)arg1 %{public}@;
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -37,16 +37,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (CDUnknownBlockType);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType)ð;
+- (id);
+- (void)
+× ;
+- (void)tAnchorPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setSupportsLassoBehaviors:) _Bool _supportsLassoBehaviors;

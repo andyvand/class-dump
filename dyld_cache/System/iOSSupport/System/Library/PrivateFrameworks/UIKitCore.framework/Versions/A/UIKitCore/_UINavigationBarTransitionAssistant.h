@@ -25,47 +25,47 @@
 }
 
 + (id);
-+ (id)uchGrabbingView;
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long)e=dd}24Q40@48;
-- (void);
-- (void);
-- (void);
++ (id)bð1Â0@ù
+× ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)listEntryPlaylist;
 - (_Bool);
-- (void);
-- (_Bool)qÂÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)ñÃ°1¢!0@ù
-× ;
-- (_Bool)t°!h@ùñÇ°1¢!0@ù
-× ;
-- (id)0@ù
-× ;
-- (_Bool)@ùñÎ°1¢!0@ù
-× ;
-- (void)ifier: /* Error: Ran out of types for this method. */;
-- (id)w:willDisplay: /* Error: Ran out of types for this method. */;
-- (void)alTo:(double)arg1;
-- (_Bool)ode for %@ in width %g is %@;
-- (void)rstReponder(%d) isFocused(%d):(double)arg1 %@;
-- (id);
-- (void)Hidden;
-- (id)ader.share;
-- (long long)ctStyleSystemVibrantBackgroundThinLight;
+- (_Bool);
 - (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (_Bool)zl];
-- (void)è];
+- (void)0@ù
+× ;
+- (_Bool)Ô!
+°!<FùfÐ1Â0@ù
+× ;
+- (_Bool)ÔA
+!@@ù±f°1Â0@ù
+× ;
+- (id)8@0:8{CGPoint=dd}16^B32^B40 /* Error: Ran out of types for this method. */;
+- (void)y;
+- (void)n:(_Bool)arg1;
+- (void)nfiguration;
+- (void)t:(double)arg1;
+- (long long)yout:(id)arg1 imageFlags:(long long)arg2;
+- (_Bool)chBehavior;
+- (_Bool);
+- (id)have any enabled segments. Segmented controls must have at least one enabled segment in order to be focusable.;
+- (void)ent %@ on %@ while a presentation is in progress!;
+- (void):(double)arg1 %@;
+- (void)Ô¨R0I23 Ü;
+- (id);
+- (long long);
+- (void);
+- (id)¨>ÿ¡8Z;
+- (void)`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *animationIDs; // @synthesize animationIDs=_animationIDs;

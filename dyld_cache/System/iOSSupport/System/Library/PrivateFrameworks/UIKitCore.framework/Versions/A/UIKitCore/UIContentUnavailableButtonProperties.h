@@ -22,51 +22,50 @@
     struct CGSize _minimumSize;
 }
 
-+ (_Bool)÷n;
-- (long long);
-- (void);
-- (void);
-- (id)P;
-- (id);
-- (unsigned long long);
-- (struct CGSize);
++ (_Bool)derView;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)!pÐ!;
-- (_Bool)q!AùqÄ1¢!0@ù
+- (id);
+- (id);
+- (unsigned long long);
+- (long long);
+- (_Bool)Ð!8CùQY1Â0@ù
 × ;
-- (void)ñÍ°1¢!0@ù
-× ;
+- (_Bool);
+- (void)× ;
+- (_Bool)× ;
+- (_Bool):forCalendarUnit: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)deredItemCount;
-- (void)lTo:(id)arg1;
-- (void)rackPositionAnimationWithFromValue:(id)arg1 toValue:on: /* Error: Ran out of types for this method. */;
-- (_Bool)etryObserversForBaselineChanges;
-- (id),V_invalidateTableLayoutDelegateMetrics;
-- (void)ableSpace;
+- (void)tIsAccessibilityElement:(struct CGSize)arg1;
+- (void)justment:(id)arg1 forState: /* Error: Ran out of types for this method. */;
+- (_Bool)ementalLexiconIdentifiers;
+- (struct CGSize)MessageInvocationBuffer;
+- (void)ContentDimensionVariablesForConstraintLowering;
+- (void)ctiveRenamerSession;
+- (void)witchToggleBlock;
+- (id);
+- (id)º;
+- (void)¼êÿ4þäþÿ;
+- (void)ight set (%g). Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (id)ollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ /* Error: Ran out of types for this method. */;
+- (id)ng modern appearance flag from YES to NO not supported;
 - (void);
-- (_Bool),C,N,S_setSuggestedColors: /* Error: Ran out of types for this method. */;
-- (id)toFillTestTableViewHeaderFooterData;
-- (struct CGSize)È;
-- (id)yle);
-- (void)t Alpha;
+- (void)csAccessoryD0P;
 - (id);
-- (void)¾Úþb%Ù~a];
-- (_Bool)ÇGIl;
-- (long long);
+- (void)}Z;
+- (long long)DøþJÕêb;
+- (void)~¢;
+- (void)äÞh;
+- (struct CGSize)þFTÛPsj;
 - (id);
+- (id)k;
+- (_Bool)QÑp4l;
+- (void)Ë<nl;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setConfiguration:) UIButtonConfiguration *_configuration; // @synthesize _configuration;

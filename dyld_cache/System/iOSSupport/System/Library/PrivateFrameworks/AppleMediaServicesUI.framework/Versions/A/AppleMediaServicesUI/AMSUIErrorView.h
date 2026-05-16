@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)olImage;
 
 // Remaining properties
 @property(retain, nonatomic) UIContentUnavailableView *backingView; // @synthesize backingView=_backingView;

@@ -13,9 +13,9 @@
     MISSING_TYPE *sceneMessenger;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 

@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id);
 - (void);
-- (id)DùÑÍð1¢!0@ù
+- (struct UIEdgeInsets)ù±cÐ1Â0@ù
 × ;
-- (struct UIEdgeInsets)ol"16@"UITraitCollection"24;
-- (void);
-- (void)a save for scene session %@;
-- (id)ode %llx - %{public}@;
+- (void)fiers:(id)arg1;
+- (id)avoriteOrder;
+- (void)pearingViewController;
 
 @end
 

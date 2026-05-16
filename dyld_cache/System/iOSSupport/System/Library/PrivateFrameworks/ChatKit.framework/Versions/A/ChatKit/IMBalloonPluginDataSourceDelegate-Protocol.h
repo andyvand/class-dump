@@ -5,8 +5,5 @@
 //
 
 @protocol IMBalloonPluginDataSourceDelegate
-
-@optional
-- (void);
 @end
 

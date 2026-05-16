@@ -12,20 +12,20 @@
 }
 
 + (id);
-+ (_Bool)tion);
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)l connection because '%@';
-- (id)expected type: /* Error: Ran out of types for this method. */;
+- (id)èÌ·;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;

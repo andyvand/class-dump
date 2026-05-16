@@ -13,11 +13,11 @@
     MISSING_TYPE *buttonTapHandler;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

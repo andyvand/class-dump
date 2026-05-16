@@ -29,9 +29,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)HULanguageOnboardingKey_MediaProfileAndLanguageInfo;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory;

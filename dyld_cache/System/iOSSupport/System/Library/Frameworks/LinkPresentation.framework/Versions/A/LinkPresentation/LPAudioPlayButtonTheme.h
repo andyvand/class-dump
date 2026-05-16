@@ -20,7 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)LyricExcerptMetadata;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIColor *keyColor; // @synthesize keyColor=_keyColor;

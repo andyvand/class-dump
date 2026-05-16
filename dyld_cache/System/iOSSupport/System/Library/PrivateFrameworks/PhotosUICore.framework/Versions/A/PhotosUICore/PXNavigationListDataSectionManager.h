@@ -48,10 +48,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
 - (long long);
+- (void)PersonActionTypeBlock;
 - (void);
 
 // Remaining properties

@@ -11,19 +11,19 @@
     UIApplication *_application;
 }
 
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (unsigned long long);
+- (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

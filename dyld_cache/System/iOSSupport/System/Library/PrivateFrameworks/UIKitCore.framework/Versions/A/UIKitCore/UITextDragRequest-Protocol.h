@@ -8,8 +8,8 @@
 @protocol UIDragSession;
 
 @protocol UITextDragRequest
-- (id <UIDragSession>)t: /* Error: Ran out of types for this method. */;
-- (_Bool)@;
+- (id <UIDragSession>);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextRange *dragRange;

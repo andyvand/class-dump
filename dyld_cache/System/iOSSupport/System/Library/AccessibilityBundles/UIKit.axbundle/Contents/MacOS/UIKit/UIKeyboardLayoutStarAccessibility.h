@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (id);
 - (id);
@@ -43,27 +43,28 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!DùQ_	1B50@ù
+× ;
+- (void)t:(id)arg1;
 
 @end
 

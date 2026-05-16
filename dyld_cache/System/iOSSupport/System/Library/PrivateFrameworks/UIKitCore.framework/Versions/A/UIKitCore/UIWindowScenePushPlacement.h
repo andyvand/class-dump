@@ -15,13 +15,13 @@
 
 + (unsigned long long);
 + (id);
-- (id)ion:hadQOI:wantsDeliveryReceipt:messageContext: /* Error: Ran out of types for this method. */;
-- (id)ot adding to record.;
-- (id)write path;
-- (_Bool)tApplication;
 - (id);
-- (void);
-- (id)CapsLockSwitchEnabled;
+- (id);
+- (id);
+- (id);
+- (_Bool)setLayerID:(id)arg1;
+- (id)yboardCandidate",R,N;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_targetSceneSessionPersistentIdentifier; // @synthesize _targetSceneSessionPersistentIdentifier;

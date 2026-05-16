@@ -18,23 +18,23 @@
     NSString *_persistentID;
 }
 
-+ (_Bool)omeManagerObserver %p> HMHomeDelegatePrivate homeDidUpdateAccessControlForCurrentUser;
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)n is still necessary;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)>ÐÒ%;
+- (void)itle__MAPPING_MISSING__;
+- (id)dSections;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *catalogID; // @synthesize catalogID=_catalogID;

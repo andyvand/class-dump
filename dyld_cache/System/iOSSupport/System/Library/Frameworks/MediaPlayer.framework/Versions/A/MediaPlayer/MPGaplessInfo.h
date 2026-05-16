@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned int)Q40;
-- (unsigned int)tyData;
-- (unsigned int)Type;
-- (unsigned long long)tonePublisherWithUseCase:device:options: /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (unsigned int);
+- (unsigned int);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long durationInFrames; // @synthesize durationInFrames=_durationInFrames;

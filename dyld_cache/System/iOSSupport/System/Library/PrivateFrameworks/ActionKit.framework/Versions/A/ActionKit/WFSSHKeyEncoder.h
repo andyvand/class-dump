@@ -19,9 +19,9 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)ierFromReadableTypeIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)um subscription.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableData *data; // @synthesize data=_data;

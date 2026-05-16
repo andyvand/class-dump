@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)PhotosChildProvidingItemListManager;
 
 // Remaining properties
 @property(readonly, nonatomic) long long preferredOrientation; // @synthesize preferredOrientation=_preferredOrientation;

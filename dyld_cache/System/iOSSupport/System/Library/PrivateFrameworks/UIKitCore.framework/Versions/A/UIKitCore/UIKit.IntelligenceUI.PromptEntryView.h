@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, _TtC5UIKit21UITextEffectTextChunk;
+@class MISSING_TYPE;
 
 @interface UIKit.IntelligenceUI.PromptEntryView : UIView
 {
@@ -61,26 +61,21 @@
 - (id);
 - (void);
 - (void);
-- (void)k:uploadFailureBlock: /* Error: Ran out of types for this method. */;
-- (void)gToken:(void (^)(_Bool))arg1 zoneID:resultsLimit:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (void)rs:(_TtC5UIKit21UITextEffectTextChunk *)arg1 limit:(void (^)(_Bool))arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (struct CGSize)ShowCloudMediaDidChangeNotification: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 - (id);
-- (void);
-- (id)x°!4EùñÍÐ1¢!0@ù
+- (void);
+- (void);
+- (struct CGSize);
+- (id)a°!|GùaÐ1Â0@ù
 × ;
-- (id)@%@
-
-constraints
-%@%@
-
-;
-- (struct CGSize)íù[;
+- (id)Image;
+- (void)(þÞÿÕ@_;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

@@ -12,12 +12,12 @@
     MISSING_TYPE *scalability;
 }
 
-- (void);
-- (id)ortScoresTagID;
-- (void);
 - (id);
-- (long long)Ô»ýÿTÿÿ;
-- (void)ÿ;
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void)ä®ýÿdÿÿ;
 
 // Remaining properties
 @property(nonatomic) long long contentMode;

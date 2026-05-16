@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id)failed;
+- (id)PhotosIntelligenceDetailsView;
+- (void);
 
 @end
 

@@ -29,9 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ñµ
-°1b0@ù
-× ;
+- (void)ct a list to create the card on.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

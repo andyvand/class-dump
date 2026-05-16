@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (Class)vïò|;
++ (Class)sorStatus;
 - (id);
 - (id);
 - (id);
@@ -36,8 +36,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)jxjÜj`l;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsToggle; // @synthesize allowsToggle=_allowsToggle;

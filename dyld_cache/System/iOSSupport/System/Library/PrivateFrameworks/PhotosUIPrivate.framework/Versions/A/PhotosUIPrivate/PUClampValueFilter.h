@@ -13,10 +13,10 @@
 }
 
 - (double);
-- (void)dChange;
-- (void)letion;
-- (double)ibrary;
-- (double)child view controller):%@ /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (void)etNavigationBarHidden:(double)arg1 edge:duration: /* Error: Ran out of types for this method. */;
+- (double)KSAOGKGSyARGGGBSGtGGtG;
 
 // Remaining properties
 @property(nonatomic) double maximumValue; // @synthesize maximumValue=_maximumValue;

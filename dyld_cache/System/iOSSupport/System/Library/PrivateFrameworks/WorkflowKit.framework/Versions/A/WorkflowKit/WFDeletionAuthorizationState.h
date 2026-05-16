@@ -15,10 +15,12 @@
 }
 
 + (id);
-+ (id)Ì;
 + (id);
 + (id);
-+ (_Bool)ion} offset by ${WFTextOffset} points;
++ (id);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,10 +32,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long)bstitutableState.m;
+- (unsigned long long)essmentModeManagerDidBecomeActive: /* Error: Ran out of types for this method. */;
+- (void)from Input (Action Name);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionUUID; // @synthesize actionUUID=_actionUUID;

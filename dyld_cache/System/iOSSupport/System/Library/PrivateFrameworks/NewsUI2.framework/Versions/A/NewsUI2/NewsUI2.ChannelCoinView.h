@@ -18,16 +18,16 @@
 
 - (_Bool);
 - (id);
-- (id)@;
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (void)rInputLabels;
 - (void);
-- (void)iãÿ;
-- (id)paidBundleConfigManager;
-- (id)dgTxwKZdY/Library/Caches/com.apple.xbs/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelIssues/ChannelIssuesModule.swift;
-- (id)ûû;
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityHint;

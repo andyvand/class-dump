@@ -15,8 +15,8 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ray",&,N,V_viewModels;
 
 @end
 

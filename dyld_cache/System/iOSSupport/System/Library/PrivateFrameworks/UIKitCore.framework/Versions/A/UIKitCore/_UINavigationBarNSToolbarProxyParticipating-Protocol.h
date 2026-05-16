@@ -7,10 +7,6 @@
 @class _UINavigationBarNSToolbarLayout;
 
 @protocol _UINavigationBarNSToolbarProxyParticipating
-- (void)iated;
-- (_UINavigationBarNSToolbarLayout *)StrategyChangedKey;
-
-@optional
-- (void);
+- (_UINavigationBarNSToolbarLayout *)fier;
 @end
 

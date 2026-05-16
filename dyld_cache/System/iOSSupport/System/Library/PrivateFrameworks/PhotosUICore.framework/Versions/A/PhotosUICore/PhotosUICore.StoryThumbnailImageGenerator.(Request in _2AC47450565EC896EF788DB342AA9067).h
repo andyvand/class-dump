@@ -24,8 +24,8 @@
 
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void)Hv$ÿM]ËLv$ÿ]Ëà"$ÿU]Ë4v$ÿ;
 
 @end
 

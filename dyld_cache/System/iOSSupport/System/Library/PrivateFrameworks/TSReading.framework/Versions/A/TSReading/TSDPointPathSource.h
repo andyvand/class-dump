@@ -23,13 +23,13 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void)9;
 - (void);
 - (void);
+- (void);
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPath *);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -37,7 +37,7 @@
 - (struct CGPoint);
 - (unsigned long long);
 - (struct CGPath *);
-- (long long);
+- (long long);
 - (id);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -48,18 +48,18 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)K9;
-- (struct CGPoint);
-- (id);
-- (id);
 - (void);
 - (int);
-- (void)eContainerRep;
-- (struct CGSize)>;
-- (void)áÿ;
+- (_Bool);
+- (id);
+- (void);
+- (struct CGPoint);
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property struct CGSize naturalSize; // @synthesize naturalSize=mNaturalSize;

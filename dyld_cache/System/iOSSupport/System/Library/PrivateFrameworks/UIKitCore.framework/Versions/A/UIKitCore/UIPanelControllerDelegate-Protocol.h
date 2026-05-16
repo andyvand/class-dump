@@ -4,27 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UIPanelController, UIViewController;
-@protocol UIViewControllerAnimatedTransitioning;
+@class UIBlurEffect, UIColor, UINavigationBar, UIPanelController, UIViewController;
 
 @protocol UIPanelControllerDelegate
 
 @optional
-- (UIViewController *)4!;
-- (void)s_register_item_padded_length RegisterItem cannot have NULL chunks.;
-- (_Bool)xn;
-- (id <UIViewControllerAnimatedTransitioning>);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (UIBlurEffect *)Alignment:(UIPanelController *)arg1;
-- (void)rowAccessoryWithPosition:(UIPanelController *)arg1;
-- (void)sSearchSuggestionsForStackedSearch:(UIPanelController *)arg1;
-- (UIViewController *)ransitionWindow;
-- (void)°ü;
-- (void)oard layers changed:(UIPanelController *)arg1 %@.;
-- (void)pdateExpandCollapseAnimationContext> _Nonnull)_block_invoke_3;
-- (UISlidingBarStateRequest * (^)(NSArray *, _Bool *))dleEventsForBackgroundURLSession:(UIPanelController *)arg1 completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (void)er;
+- (void);
+- (UIBlurEffect *)
+× ;
+- (double)ð!äFùÑ`Ð1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (UIViewController *)0@ù
+× ;
+- (UIColor *)?="enabled"b1};
+- (void)SwipeActionController"16@"NSIndexPath"24;
+- (UISlidingBarStateRequest * (^)(NSArray *, _Bool *))eNamed:(UIPanelController *)arg1 capInsets:resizingMode:duration: /* Error: Ran out of types for this method. */;
+- (_Bool)eItemFromPendingQueueOrLibArchiveRead;
+- (UINavigationBar *)tViewInsetsForArrowDirection:(UIPanelController *)arg1;
+- (void)utViewController;
+- (void)ng inputAccessoryView:(UIPanelController *)arg1 %@;
+- (UIViewController *);
+- (void)tentUnavailableConfigurationStyle);
+- (void)^B24;
 
 // Remaining properties
 @property(readonly) UIColor *primaryBackgroundColor;

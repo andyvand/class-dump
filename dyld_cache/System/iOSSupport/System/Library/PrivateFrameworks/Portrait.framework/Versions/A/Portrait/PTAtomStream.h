@@ -52,10 +52,10 @@
 - (_Bool);
 - (unsigned int);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, getter=isAtEndOfStream) _Bool atEndOfStream; // @synthesize atEndOfStream=_atEndOfStream;

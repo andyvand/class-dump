@@ -26,12 +26,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void)yJ@!GG;!yÄ#GGAKySo14PHPhotoLibraryCSgGGAKy©(ZySo16UIViewControllerCGSgGG_AAyAAyAzKy>#GGAKyü#GGQo_R8!y'!GGA6_yY;
-- (void);
+- (void)Variation;
+- (void)îÉHÿ;
+- (void)7;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canDisplayGuestAssets; // @synthesize canDisplayGuestAssets=_canDisplayGuestAssets;

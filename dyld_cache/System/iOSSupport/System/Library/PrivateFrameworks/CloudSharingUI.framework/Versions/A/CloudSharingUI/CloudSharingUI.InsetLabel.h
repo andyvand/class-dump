@@ -11,11 +11,11 @@
     MISSING_TYPE *insets;
 }
 
+- (struct CGSize);
+- (id);
+- (struct CGSize);
+- (id);
 - (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

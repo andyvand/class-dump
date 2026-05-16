@@ -7,13 +7,12 @@
 @class CKRecord, NSDate, NSString;
 
 @protocol FCReadingHistoryItem
-- (_Bool);
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;
 @property(readonly, nonatomic) unsigned long long articleLikingStatus;
 @property(readonly, nonatomic) CKRecord *asCKRecord;
+@property(readonly, copy, nonatomic) NSString *clusterID;
 @property(readonly, copy, nonatomic) NSString *deviceID;
 @property(readonly, copy, nonatomic) NSDate *firstSeenAt;
 @property(readonly, copy, nonatomic) NSDate *firstSeenAtOfMaxVersionSeen;

@@ -25,13 +25,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (unsigned long long);
+- (id);
 - (void);
 - (void);
-- (id)ayFooterView:forSection: /* Error: Ran out of types for this method. */;
-- (void)lectedTintColor:(id)arg1;
-- (void)sLevelOptionItemProvider.m;
+- (void);
+- (id)× ;
+- (void)kInfluencesActivation_Alert_Description;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUHomePodDetailViewDelegate> delegate; // @synthesize delegate=_delegate;

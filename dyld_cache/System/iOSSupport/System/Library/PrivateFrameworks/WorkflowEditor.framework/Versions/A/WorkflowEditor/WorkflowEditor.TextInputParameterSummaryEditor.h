@@ -31,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)¢;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFVariableProvider> variableProvider;

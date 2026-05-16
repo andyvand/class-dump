@@ -13,15 +13,15 @@
 
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ñÇåò0ÁÚñªñGÁÚë@;
 - (unsigned long long);
 - (double);
 - (id);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (double);
-- (_Bool);
+- (void)esultForBundleId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *categoryTitle; // @synthesize categoryTitle=_categoryTitle;

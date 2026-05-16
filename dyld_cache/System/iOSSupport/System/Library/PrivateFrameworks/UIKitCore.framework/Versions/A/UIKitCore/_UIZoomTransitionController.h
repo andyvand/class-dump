@@ -32,48 +32,45 @@
     MISSING_TYPE *behaviors;
 }
 
-- (_Bool)stentTaskExecutorStatusReportCG;
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)explicitly specified service %@, payload=%{sensitive}@;
-- (void)h failed ;
-- (_Bool)hat had previously set one before this device was added. toIdentifier:%@, fromIdentifier:%@, chat:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)last sync date after received user deleted zone error;
-- (double)%@), number of accounts:(id)arg1 %lu;
-- (_Bool)= %@; priorityMessageGUIDs = %@;
-- (void)astFromStorage = %@; isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
-- (void)%p; GUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
-- (void).heic;
-- (void)cordZone _serializedCKRecordData:(id)arg1 ];
-- (id)DCKMockRecordZone;
-- (void)Key;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (_Bool);
-- (_Bool)st;
+- (id);
 - (void);
+- (double);
 - (void);
+- (id);
+- (id)ehavior:(id)arg1 interactionEffect:activationHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)boardIntroduction;
+- (_Bool)ollisionBitMask;
+- (id)aultTitle;
+- (void)keyViewAnimator;
+- (void);
+- (void)0q;
+- (_Bool)§ÉÔ°\;
 - (void);
-- (void)!GùqÄÐ1¢!0@ù
-× ;
-- (void)Ôt!CùñÇ1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (id)terfaceActionViewState"24;
-- (id)on",&,N,V_recentInputs;
-- (id)s;
-- (void)UpdateMapNewSectionForOldSection(const _UIDataSourceUpdateMaps, const NSInteger);
-- (void);
-- (void);
-- (double)nq;
+- (void)rfÝ	m;
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *_navigationBarTransitionOverlay;

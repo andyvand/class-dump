@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned int _hasPlaceholderImage:1;
 }
 
-- (void)dateGroupChatWithFromIdentifier:(_Bool)arg1 toIdentifier:displayName:participants:groupID:originalGroupID:serviceName: /* Error: Ran out of types for this method. */;
-- (_Bool)erviceReachabilityRequestC;
+- (void);
+- (_Bool);
 
 @end
 

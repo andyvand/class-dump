@@ -19,15 +19,15 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
-- (void)Py	ë;
-- (void)exPath:(struct UIEdgeInsets)arg1;
-- (id)t><NSCopying>"8@"NSMutableOrderedSet"16^B24;
+- (id)CenterY;
+- (void)4U;
+- (void)¬Uíþ"U;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;

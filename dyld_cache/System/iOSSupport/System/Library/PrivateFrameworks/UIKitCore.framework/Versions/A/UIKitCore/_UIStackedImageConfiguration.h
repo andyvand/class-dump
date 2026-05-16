@@ -66,12 +66,12 @@
     struct CACornerRadii _cornerRadii;
 }
 
-+ (id)ReadForMessageID because messageID:%@, [[self service] supportsDatabase]:%@, service:%@ /* Error: Ran out of types for this method. */;
-+ (id)ady marked as delivered, ignoring;
++ (id);
++ (id);
 + (struct CGSize);
 - (double);
-- (double)ikPubDigestIfNecessary;
-- (double)estring for minimal manifest;
+- (double);
+- (double);
 - (struct CGPoint);
 - (double);
 - (double);
@@ -82,21 +82,6 @@
 - (void);
 - (void);
 - (void);
-- (void)I;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)i;
 - (void);
 - (void);
 - (void);
@@ -127,10 +112,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (double);
-- (double)h;
+- (double);
 - (double);
 - (double);
 - (_Bool);
@@ -150,8 +150,7 @@
 - (double);
 - (id);
 - (_Bool);
-- (_Bool)
-h;
+- (_Bool);
 - (double);
 - (double);
 - (double);
@@ -163,32 +162,32 @@ h;
 - (double);
 - (_Bool);
 - (_Bool);
-- (void)UIDs:(id)arg1 flags:error:guid:associatedMessageGUID:associatedMessageType:associatedMessageRange:associatedMessageEmoji:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void);
 - (double);
-- (double);
-- (double);
-- (double);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
 - (double);
-- (double);
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (double);
 - (_Bool);
 - (void);
-- (struct CACornerRadii);
-- (id)ActivationPredicate;
-- (_Bool).32f
-;
+- (void);
 - (id);
-- (void);
-- (long long);
-- (double);
-- (void);
-- (void);
-- (id)pecImages;
-- (void)_UICommandParentInserts;
+- (void)Â0@ù
+× ;
+- (void)";
+- (_Bool)n"16@"UIEditMenuConfiguration"24@"NSArray"32;
+- (long long)lable;
+- (struct CACornerRadii)DoingISwear;
+- (id)itsUsingBoldFont: /* Error: Ran out of types for this method. */;
+- (id)t:(struct _NSZone *)arg1;
+- (double)Delegate and navigationItem must both be set to non-nil or both to nil;
+- (void));
 - (void);
 
 // Remaining properties

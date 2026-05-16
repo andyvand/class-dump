@@ -35,10 +35,10 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (id)i];
 
 // Remaining properties
 @property(nonatomic, retain) FBKAnswer *answer; // @synthesize answer;

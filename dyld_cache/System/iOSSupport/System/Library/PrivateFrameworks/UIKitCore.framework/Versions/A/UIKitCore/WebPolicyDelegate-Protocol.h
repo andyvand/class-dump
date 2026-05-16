@@ -5,8 +5,5 @@
 //
 
 @protocol WebPolicyDelegate
-
-@optional
-- (void)c;
 @end
 

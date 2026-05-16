@@ -22,8 +22,8 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (id)ÁÊÿæ¨JÜ9;
++ (id);
++ (id)à` ÿ;
 - (id);
 - (void);
 - (_Bool);
@@ -49,11 +49,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (long long);
 - (void);
-- (void)ngToFinish;
-- (id)etailsPreparation;
-- (void);
+- (void)PersonsKey;
+- (void)X´`¥7Ç¶;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasDefaultValues;

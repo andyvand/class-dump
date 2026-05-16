@@ -30,7 +30,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)à;
++ (_Bool);
 - (double);
 - (void);
 - (void);
@@ -61,29 +61,24 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
 - (id);
 - (unsigned short);
 - (void);
+- (void)@0:8^{CGPoint=dd}16Q24 /* Error: Ran out of types for this method. */;
+- (id)¸Ø¸;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id),
-               const device float2 *a_tex_coord [[buffer(1)]],
-               constant float4 &u_color         [[buffer(2)]],
-               constant float4x4 &u_transform   [[buffer(3)]],
-               
-;
-- (unsigned long long);
-- (void)³êÿ~¯èÿ°éÿ°éÿVwÿÊ;
-- (id);
+- (void)r¡áÿoÙÿ%9÷;
 
 // Remaining properties
 @property(nonatomic) unsigned short currentFrameIndex; // @synthesize currentFrameIndex=_currentFrameIndex;

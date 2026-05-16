@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol PXGMutableDisplayAssetVideoPresentationController
-- (void);
-- (_Bool)image attachment due to no pending requests:%{public}s | asset %{public}s /* Error: Ran out of types for this method. */;
-- (struct CGSize)ataSource must contain at least one underlying data source.;
-- (void);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *audioSessionCategory;

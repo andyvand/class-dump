@@ -15,15 +15,15 @@
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)progress;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;

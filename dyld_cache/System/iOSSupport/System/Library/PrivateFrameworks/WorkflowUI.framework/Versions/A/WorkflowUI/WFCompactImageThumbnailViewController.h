@@ -23,12 +23,13 @@
 - (double);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (double);
-- (void)®7	;
+- (void);
+- (void);
+- (void);
+- (void)	
+;
+- (double)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;

@@ -14,8 +14,8 @@
     MISSING_TYPE *presentingViewController;
 }
 
-- (void);
 - (id);
+- (void)defaultClientWorld;
 
 @end
 

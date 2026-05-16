@@ -31,17 +31,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)
-× ;
-- (id)tectionSettingsItems;
-- (void):(id)arg1;
-- (id)ÿ·
-÷V;
+- (void);
+- (id);
+- (void)@"HMAccessory"8Q16^B24;
 
 // Remaining properties
 @property(retain, nonatomic) HUColoredButton *addAccessoryButton; // @synthesize addAccessoryButton=_addAccessoryButton;

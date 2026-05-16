@@ -18,33 +18,33 @@ __attribute__((visibility("hidden")))
     id <PDFPageOverlayViewProvider> _viewProvider;
 }
 
-+ (id)atingView;
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)<AFSpeakableNamespaceProvider>"24@0:(id)arg1 8@"AceObject"16;
-- (void)"16;
-- (void)ze=dd}}48@0:(unsigned long long)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
-- (void)ge=QQ}40;
-- (void)ITrainingViewController"16@"NSData"24@"SSRVoiceProfile"32;
-- (void)40@0:(id)arg1 8@"VTUITrainingViewController"16@"NSString"24@"NSString"32;
-- (void)UICompactViewController"16@"NSURL"24@?<v@?B>32;
-- (void)@"<QLPreviewItem>"24^{CGRect={CGPoint=dd}{CGSize=dd}}32;
-- (void)ject<SAAceCommand>"16@?<v@?@"AceObject<SAAceCommand>">24;
-- (id)ceCommand>"16@?<v@?>24;
-- (id)LevelUpdater"16f24f28;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)x;
 - (void);
 - (void);
-- (void)llector;
 - (void);
-- (void)I;
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property __weak PDFDocument *pdfDocument; // @synthesize pdfDocument=_pdfDocument;

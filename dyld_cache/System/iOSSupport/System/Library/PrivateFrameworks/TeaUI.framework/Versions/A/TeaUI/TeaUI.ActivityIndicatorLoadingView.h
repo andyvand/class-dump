@@ -14,10 +14,10 @@
     MISSING_TYPE *overrideColor;
 }
 
-- (void);
-- (id)gDateRangeTopicsConfig;
+- (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

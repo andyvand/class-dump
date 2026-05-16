@@ -36,14 +36,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool);
 - (int);
-- (id)oiceListChoiceProviding>"})};
-- (void)Ø;
-- (_Bool)òrV±­;
+- (id);
+- (void);
+- (void)1°1Â0@ù
+× ;
+- (_Bool)GPath=}60@0:8{_NSRange=QQ}16^{CGRect={CGPoint=dd}{CGSize=dd}}32^{CGRect={CGPoint=dd}{CGSize=dd}}40i48@52 /* Error: Ran out of types for this method. */;
+- (_Bool)valued property.;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint inControlPoint; // @synthesize inControlPoint=mIn;

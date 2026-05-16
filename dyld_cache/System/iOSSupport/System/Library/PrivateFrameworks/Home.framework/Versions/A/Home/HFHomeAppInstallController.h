@@ -13,17 +13,17 @@
     NSMutableSet *_statusUpdaters;
 }
 
-+ (id)¬%ýÿ<ô§;
++ (id)tionary *__strong);
 - (id);
 - (void);
 - (long long);
 - (id);
 - (_Bool);
-- (id);
 - (void);
+- (id);
+- (id);
 - (long long);
-- (void);
-- (id);
+- (void)Ì	D;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *activeHomeAppDownloadFuture; // @synthesize activeHomeAppDownloadFuture=_activeHomeAppDownloadFuture;

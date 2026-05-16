@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @protocol AVPlayerViewControllerDelegate
-
-@optional
-- (UIViewController *);
-- (void)#;
 @end
 

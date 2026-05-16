@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)urce: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *namespaceIds; // @synthesize namespaceIds=_namespaceIds;

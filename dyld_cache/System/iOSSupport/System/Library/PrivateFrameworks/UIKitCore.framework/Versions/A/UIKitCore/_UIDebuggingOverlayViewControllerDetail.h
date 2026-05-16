@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     UIViewController *viewController;
 }
 
-- (void)aceMessageID:(id)arg1 fromHandle:onService: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)Rect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d}24@0:(id)arg1 8d16;
-- (id)XQ71;
+- (void);
+- (id)shed;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController;

@@ -30,12 +30,12 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)¸ö;
+- (void)Jÿÿ;
+- (id)d;
 
 @end
 

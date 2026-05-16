@@ -24,9 +24,9 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (float);
 - (_Bool);
 - (void);
-- (float);
 
 // Remaining properties
 @property(retain, nonatomic) PXGColorLookupCube *colorLookupCube; // @synthesize colorLookupCube=_colorLookupCube;

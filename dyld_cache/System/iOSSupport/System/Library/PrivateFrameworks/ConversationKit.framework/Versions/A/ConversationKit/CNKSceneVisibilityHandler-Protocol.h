@@ -5,7 +5,8 @@
 //
 
 @protocol CNKSceneVisibilityHandler
-- (void)Machine;
+- (_Bool)úÿ;
+- (void)ÿcýÿ,ýÿcýÿ,Iþÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isOnScreen;

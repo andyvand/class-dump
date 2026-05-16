@@ -24,13 +24,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (id);
 - (void);
-- (struct CGSize)TransitionBackgroundDimming;
+- (id);
+- (void);
+- (void)alternateBackKeyCommand;
 
 // Remaining properties
 @property(nonatomic) __weak id <PUPickerOnboardingHeaderViewDelegate> delegate; // @synthesize delegate;

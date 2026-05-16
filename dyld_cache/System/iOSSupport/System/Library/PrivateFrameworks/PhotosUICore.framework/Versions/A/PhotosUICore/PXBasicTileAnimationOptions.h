@@ -19,18 +19,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (long long);
-- (unsigned long long);
-- (double);
 - (id);
-- (id)
-× ;
-- (void)à;
-- (void)te %tu;
-- (double)ionItemLargeTitleDisplayMode;
+- (double);
+- (void);
+- (id);
+- (double);
+- (void);
+- (id)pter>"24@0:(struct _NSZone *)arg1 8@"<PXDisplayAsset>"16;
+- (unsigned long long)eded:inSnapshot: /* Error: Ran out of types for this method. */;
+- (void)ollection",W,N,V_assetCollection;
+- (void)ÊPdÖ7;
 
 // Remaining properties
 @property(nonatomic) double delay; // @synthesize delay=_delay;

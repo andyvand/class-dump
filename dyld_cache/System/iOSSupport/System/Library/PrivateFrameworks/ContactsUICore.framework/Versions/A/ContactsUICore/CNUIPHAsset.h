@@ -15,8 +15,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ldRequireConfirmationOfChanges;
 
 // Remaining properties
 @property(readonly) NSString *assetID;

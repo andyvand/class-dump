@@ -36,8 +36,8 @@
 + (id);
 + (id);
 + (id);
-+ (id)ountMailboxesExpression;
-+ (id)bleIndexingForTaskType:(id)arg1;
++ (id);
++ (id);
 + (id);
 + (id);
 

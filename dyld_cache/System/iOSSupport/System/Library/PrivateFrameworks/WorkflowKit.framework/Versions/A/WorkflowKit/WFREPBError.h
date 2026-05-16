@@ -19,21 +19,21 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (long long)ult;
-- (void)e};
-- (id)!Òg;
+- (id);
+- (long long)s;
+- (void)eptNewConnection:] /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

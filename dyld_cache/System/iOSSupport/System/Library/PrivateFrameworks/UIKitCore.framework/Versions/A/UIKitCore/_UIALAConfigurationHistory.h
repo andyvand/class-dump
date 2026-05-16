@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     unsigned long long _alignment;
 }
 
-- (_Bool);
-- (id);
-- (void)0@ù
+- (unsigned long long)Ñe1Â0@ù
 × ;
-- (void)ry;
-- (void)ler:(_Bool)arg1;
-- (unsigned long long)AADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==;
-- (_Bool)a;
+- (void)ActivityIndicatorViewStyle;
+- (_Bool)ight;
+- (id)r",C,N,V_bodyColor;
+- (void)ta",C,N;
+- (_Bool)ttributeDictionaryImplM;
+- (void)xñþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_newlyHiddenItems;

@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)øêÿÞ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFVariable *variable; // @synthesize variable=_variable;

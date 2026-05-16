@@ -43,11 +43,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool)ãg;
+- (void);
+- (_Bool)lock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setActive:) _Bool _isActive; // @synthesize _isActive=__isActive;

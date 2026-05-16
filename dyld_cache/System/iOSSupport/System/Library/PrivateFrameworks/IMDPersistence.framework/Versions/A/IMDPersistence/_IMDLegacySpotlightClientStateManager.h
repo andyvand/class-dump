@@ -12,7 +12,7 @@
 
 - (void);
 - (void);
-- (id),V__showsPlusButton;
+- (id);
 
 @end
 

@@ -32,9 +32,9 @@
 
 + (void);
 + (void);
-+ (void)__data;
 + (void);
-+ (void);
++ (void);
++ (void);
 + (id);
 + (id);
 + (void);
@@ -60,24 +60,24 @@
 - (void);
 - (void);
 - (void);
-- (id)ReadChannel;
-- (id)one;
-- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (double);
-- (void)Iza;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id));
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)stThumbnailDataFromImage: /* Error: Ran out of types for this method. */;
+- (id)ÿÄ>¶\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *blockedKnownTrackers; // @synthesize blockedKnownTrackers=_blockedKnownTrackers;

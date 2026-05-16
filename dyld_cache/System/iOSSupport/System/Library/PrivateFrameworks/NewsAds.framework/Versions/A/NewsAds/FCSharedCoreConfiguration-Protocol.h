@@ -7,14 +7,11 @@
 @class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (_Bool)y;
-- (NSArray *)ftMarginProperty;
+- (FCTopStoriesConfiguration *). placement=%{public}@, contentIdentifier=%{public}@;
 
 @optional
-- (NSString *)sionState:triggerKVO: /* Error: Ran out of types for this method. */;
-- (double);
-- (NSString *)g"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (double);
+- (long long)­äP;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

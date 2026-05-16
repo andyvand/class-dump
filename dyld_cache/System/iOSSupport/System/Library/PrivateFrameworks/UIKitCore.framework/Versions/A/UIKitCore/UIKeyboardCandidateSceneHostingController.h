@@ -13,13 +13,12 @@
     MISSING_TYPE *sceneConfigurationObservables;
 }
 
-- (void)h;
-- (void)ermined to be %@;
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void)¡q°!øAùÑÄ1¢!0@ù
-× ;
-- (id)aysAttemptToShowTapHighlight;
-- (id)xyôyLzÈz{|;
+- (id)teWithDuration:(id)arg1 delay:options:animations:start:completion: /* Error: Ran out of types for this method. */;
+- (void)hËl;
 
 @end
 

@@ -20,32 +20,31 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _alignmentRectInsets;
 }
 
-- (id);
-- (void);
-- (id);
 - (_Bool);
-- (void);
-- (void)P;
 - (void);
-- (void)ð1¢!0@ù
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)× ;
+- (id)ùYÐ1Â0@ù
 × ;
-- (void)!üDù±Äð1¢!0@ù
-× ;
-- (id)arButtonItem: /* Error: Ran out of types for this method. */;
-- (void)issButton;
-- (_Bool)tImageInView: /* Error: Ran out of types for this method. */;
-- (id)_computingNavigationBarHeightWithRevealPresentationIterations;
-- (void)Point=dd},N,V_position;
-- (id)¬;
-- (id)$Ðà(.$1447|:AôEI /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)insertion %lu, deletion %lu, net %ld;
-- (id)l glitch, please explicitly specify settings for these actions!;
-- (void)ame;
-- (void)ngRatio;
-- (_Bool)ey;
-- (void)Color;
-- (void)rval;
-- (void)/ÿ÷¿Úò];
+- (void)derForTab:(id)arg1;
+- (id)ngToTrailing;
+- (id)ii;
+- (void)¼§;
+- (id);
+- (void)ÉîÿXÉîÿ;
+- (void)ð¼îÿþÿ;
+- (id)kVelocityBoostFactor;
+- (void)ew service:(id)arg1 %@;
+- (void)-Cëâ6Â?·Ñ;
+- (_Bool)M³13ß.;
+- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (void)ÈT];
+- (void)Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

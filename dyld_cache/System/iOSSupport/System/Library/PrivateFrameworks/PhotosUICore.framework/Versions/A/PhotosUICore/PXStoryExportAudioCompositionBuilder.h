@@ -54,12 +54,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (CDStruct_1b6d18a9);
-- (id)¡w°!@ùq|1b0@ù
-× ;
+- (void);
+- (void);
+- (void)@Q1ÿÆ7ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) AVMutableComposition *audioComposition; // @synthesize audioComposition=_audioComposition;

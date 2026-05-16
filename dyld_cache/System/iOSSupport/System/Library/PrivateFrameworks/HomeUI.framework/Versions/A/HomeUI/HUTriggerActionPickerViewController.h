@@ -33,11 +33,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)q11b0@ù
-× ;
-- (void);
-- (void)ContainedSpeakersItemManager;
+- (void)thenticate;
+- (void)r ecosystems with results %@;
 
 // Remaining properties
 @property(nonatomic, readonly) id <HUTriggerEditorDelegate> delegate; // @synthesize delegate;

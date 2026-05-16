@@ -15,9 +15,9 @@
 - (id);
 - (long long);
 - (long long);
+- (id);
 - (void);
 - (void);
-- (id)X�;
 
 // Remaining properties
 @property(readonly, nonatomic) long long bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus=_bundleSubscriptionStatus;

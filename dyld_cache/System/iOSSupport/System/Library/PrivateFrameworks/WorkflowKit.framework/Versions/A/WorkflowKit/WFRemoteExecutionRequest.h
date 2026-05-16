@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (_Bool)ta__DATA_CONST;
++ (_Bool);
 + (id);
 + (_Bool);
 + (long long);
@@ -23,13 +23,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (void);
+- (long long)xdúÓ;
+- (id);
 - (void);
 - (id);
-- (id);
-- (long long)b1};
-- (id)Characters;
+- (long long)tivity:bundleIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ffSource;
+- (id)or App Store apps passed as input in a store sheet. This is useful with the Find iTunes Store Items and Find App Store Apps actions.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

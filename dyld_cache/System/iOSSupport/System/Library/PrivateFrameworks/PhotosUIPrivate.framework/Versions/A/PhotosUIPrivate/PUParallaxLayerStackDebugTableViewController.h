@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (_Bool);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
+- (void)FullyOutOfFocusChanged;
 
 // Remaining properties
 @property(retain, nonatomic) PUParallaxLayerStackView *layerStackView; // @synthesize layerStackView=_layerStackView;

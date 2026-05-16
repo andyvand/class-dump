@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id)
+- (double);
+- (double);
+- (void);
+- (id)°!ìBùñZ1Â0@ù
 × ;
-- (void)±ÊÐ1¢!0@ù
-× ;
-- (id)chController:(id)arg1;
-- (struct CGSize)esArray;
-- (id);
-- (void)It was not possible to auto-generate unique NSToolbarItemIdentifiers without the use of object pointers. Toolbar persistence issues may arise. Ensure that all CustomizationIdentifiers are globally unique.;
-- (double)±þÿ;
-- (double)VRoutingControllerClass(void)_block_invoke;
+- (void)ntroller:(struct CGRect *)arg1 fromServiceWithBundleIdentifier:(struct CGRect *)arg2 traitCollection:(id)arg3 legacyImpl:(double)arg4 serviceViewControllerDeputyInterface:(_Bool)arg5 connectionHandler: /* Error: Ran out of types for this method. */;
+- (id)ader;
+- (id)Scene;
+- (struct CGSize)rAdaptation;
+- (id)fiers, or ensure the existing action is removed or replaced by the new action.
+;
 
 @end
 

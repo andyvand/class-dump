@@ -11,35 +11,35 @@
     UITargetedPreview *_preview;
 }
 
-+ (id)rnal install so overriding server bag check and defaulting to yes;
++ (id);
 - (_Bool);
-- (struct CGPoint)licationDidSuspendForEventsOnly;
-- (double)uddyProperties:buddyPictures: /* Error: Ran out of types for this method. */;
-- (double):buddyPictureChanged:imageData:imageHash: /* Error: Ran out of types for this method. */;
-- (double)ged: /* Error: Ran out of types for this method. */;
-- (double): /* Error: Ran out of types for this method. */;
-- (id)tingBehaviors:message:messageGUID:fromIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)Account;
-- (double)ker;
-- (double)viceSupport;
+- (struct CGPoint);
 - (double);
 - (double);
 - (double);
-- (_Bool);
-- (struct CGPoint)te;
-- (double)%@;
-- (double)ing ping cloudkit fetch zone operation %@;
 - (double);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (struct CGPoint);
+- (double);
+- (double);
+- (unsigned long long);
+- (double);
 - (void);
-- (unsigned long long)0@ù
+- (unsigned long long);
+- (unsigned long long)!Ð@ù1g°1Â0@ù
 × ;
-- (id)er;
-- (id)0UþØ¸þÿ;
+- (id);
+- (_Bool)ld;
+- (id)aView;
+- (id);
+- (void)Hud;
 
 // Remaining properties
 @property(readonly, nonatomic) double _plasmaLensParallaxFactor;

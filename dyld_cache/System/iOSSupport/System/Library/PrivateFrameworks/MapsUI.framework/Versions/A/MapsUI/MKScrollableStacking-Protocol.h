@@ -7,7 +7,6 @@
 @class UIScrollView;
 
 @protocol MKScrollableStacking
-- (UIScrollView *)apshotArgument;
 
 // Remaining properties
 @property(readonly, nonatomic) UIScrollView *scrollView;

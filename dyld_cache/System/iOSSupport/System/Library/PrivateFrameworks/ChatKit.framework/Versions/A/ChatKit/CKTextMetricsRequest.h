@@ -19,29 +19,31 @@
     struct UIEdgeInsets _containerInset;
 }
 
-- (void)ssibilityUndoableTextInsertion;
-- (void)oForBinding:(struct UIEdgeInsets)arg1;
-- (void)TextAttachment";
+- (void);
+- (void);
+- (void);
 - (double);
 - (struct UIEdgeInsets);
-- (double)ade/SharedUI/Utilities/ICLongRunningTaskController.m;
-- (struct CGSize)xbs/Sources/NotesFramework/Ironcade/SharedUI/Utilities/ICLongRunningTaskController.m;
-- (_Bool);
-- (void);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void)@;
-- (long long);
+- (struct CGSize);
+- (_Bool);
 - (unsigned long long);
 - (double);
-- (id);
 - (void);
 - (id);
-- (void)ÿ;
-- (void)sentable;
-- (double);
+- (void)ûð!@ùð1Â0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (id)omPreviousLayout: /* Error: Ran out of types for this method. */;
+- (void)l;
+- (double)col_p;
+- (void)of group conversation, sending separately;
+- (long long)nkDataKey;
+- (void)t;
+- (void);
+- (double)åj@Dÿýjþ»ÿ;
+- (void)ü88Á.;
 
 // Remaining properties
 @property(readonly) struct CGSize adjustedMaximumSize;

@@ -11,7 +11,6 @@
     MISSING_TYPE *formatService;
     MISSING_TYPE *weatherService;
     MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *serverService;
     MISSING_TYPE *cloudContext;
 }
 

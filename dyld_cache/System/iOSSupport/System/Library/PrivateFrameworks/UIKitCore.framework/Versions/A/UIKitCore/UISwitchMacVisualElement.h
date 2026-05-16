@@ -15,14 +15,15 @@ __attribute__((visibility("hidden")))
     NSSwitch *_macSwitch;
 }
 
-+ (struct CGSize)String",C,N,V_statusCarrierSettingsVersion;
-+ (struct UIEdgeInsets)yTintColorToBackgroundColor;
-- (void)roller;
++ (struct CGSize)or:previous:completionHandler: /* Error: Ran out of types for this method. */;
++ (struct UIEdgeInsets)Type;
 - (void);
-- (void);
-- (void),V_type;
-- (id)er startInteraction. This is unexpected, please file a radar.;
-- (_Bool)HÇ;
+- (void);
+- (_Bool)!CùÑ[1Â0@ù
+× ;
+- (void)IDropSession>"24@"NSIndexPath"32;
+- (id)wsPreferredContentSizeWhenEdgeAttached:(struct CGRect)arg1;
+- (void)Ðb;
 
 @end
 

@@ -35,10 +35,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)ontroller";
-- (void)yFrame:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)bleArray"8Q16^B24;
+- (void);
+- (void)iewController;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

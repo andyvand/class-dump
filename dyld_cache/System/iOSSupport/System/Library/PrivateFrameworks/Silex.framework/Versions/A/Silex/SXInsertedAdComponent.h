@@ -28,27 +28,27 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void)@;
+- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (id)G;
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)Ô ;
 - (void);
-- (id)tio;
-- (id)a;
-- (int),N;
-- (id),d-L/°0d1¸23¬3;
+- (id);
+- (int);
+- (id);
+- (void)@"_WKContentRuleListAction"32@"NSURL"40;
+- (id)ConditionEnabled;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel;

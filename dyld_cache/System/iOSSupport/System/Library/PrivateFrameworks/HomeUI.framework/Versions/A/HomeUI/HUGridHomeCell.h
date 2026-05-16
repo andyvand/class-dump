@@ -50,15 +50,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)±/Ð1b0@ù
-× ;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)boarding;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cellConstraints; // @synthesize cellConstraints=_cellConstraints;

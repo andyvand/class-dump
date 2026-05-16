@@ -20,33 +20,33 @@
 }
 
 + (void);
-- (id);
-- (void)tionInAttributedString: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)e;
-- (void);
-- (void)sist thumbnail {key:(id)arg1 %@, error:%s} /* Error: Ran out of types for this method. */;
-- (void)conversion;
-- (void);
-- (id)nt:%@ /* Error: Ran out of types for this method. */;
-- (struct CGRect)mages.count %lu hasDefault %d hasDark %d;
 - (void);
 - (void);
 - (void);
-- (void)R;
+- (void);
+- (void);
+- (id);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void);
 - (id);
-- (void);
-- (id)¼lúÿýÿ(ýÿ;
-- (id)uredDidChangeObserver;
-- (void)rmView;
+- (id);
+- (void);
+- (void)tem:(id)arg1 inView: /* Error: Ran out of types for this method. */;
+- (id)$;
+- (void)torColor1;
 
 // Remaining properties
 @property(nonatomic, readonly) UINavigationItem *backNavigationItem; // @synthesize backNavigationItem;

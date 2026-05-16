@@ -5,6 +5,5 @@
 //
 
 @protocol FCBackgroundActivityScheduler
-- (void);
 @end
 

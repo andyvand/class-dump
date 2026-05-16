@@ -14,17 +14,18 @@
 }
 
 + (id);
-+ (_Bool),N,V_isSolariumEnabled;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void)3#Ū;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

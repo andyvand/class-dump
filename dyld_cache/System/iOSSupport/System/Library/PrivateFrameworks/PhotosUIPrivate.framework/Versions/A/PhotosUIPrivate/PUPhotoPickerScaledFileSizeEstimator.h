@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
-- (id)½y½GGð¡½yâ¢½SgGG_Qo_ALy§½SgGGAByAAyAD_AGy½§¿yAGyAGyQ§½AOG! ½yARGGG½GtGGtG;
+- (void)geForKeyPrefix:forAssets: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

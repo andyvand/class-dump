@@ -18,21 +18,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)risonType;
 - (id);
-- (id)hBlockGuard(NSString *__strong, MPRemoteCommandEvent *__strong)_block_invoke;
 - (void);
-- (id)o;
-- (void)¬Óº;
 - (id);
-- (id)!0@ù
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)Ð1Â0@ù
 × ;
-- (void)× ;
-- (_Bool)etY: /* Error: Ran out of types for this method. */;
-- (id)rollerSourceItem;
-- (void)PresentationAppearanceContainer;
-- (id)lickPhase;
-- (void)¿Ä\;
+- (_Bool)AppliesPreferredTrackTransform: /* Error: Ran out of types for this method. */;
+- (void)ller;
+- (id)TextRange;
+- (id);
+- (void)`|^;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsViewWrappers; // @synthesize allowsViewWrappers=_allowsViewWrappers;

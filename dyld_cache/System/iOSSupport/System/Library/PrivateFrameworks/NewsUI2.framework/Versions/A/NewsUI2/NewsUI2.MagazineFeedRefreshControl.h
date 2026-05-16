@@ -11,13 +11,13 @@
     MISSING_TYPE *messageLabel;
 }
 
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)	
-;
-- (id)eManager;
+- (void)èðÿØðÿ;
+- (void)0(¸
+Ý=_ôz;
 
 @end
 

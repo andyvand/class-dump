@@ -12,13 +12,14 @@ __attribute__((visibility("hidden")))
     UIFont *_fontForExtraBulletRendering;
 }
 
-- (long long)tC;
+- (long long);
 - (void);
 - (struct CGRect);
-- (void)t reachable for %@ with error %@;
-- (void);
 - (void);
-- (void)opShadowView",&,N,V_dropShadowView;
+- (void);
+- (void)1Â0@ù
+× ;
+- (void)/Ô=;
 
 @end
 

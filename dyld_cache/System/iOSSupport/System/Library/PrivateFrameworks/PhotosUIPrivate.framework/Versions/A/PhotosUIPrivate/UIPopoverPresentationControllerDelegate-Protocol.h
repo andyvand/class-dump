@@ -7,6 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void)NU_ITEM_TITLE;
+- (void)r.viewDidLoad;
 @end
 

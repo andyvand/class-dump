@@ -5,6 +5,5 @@
 //
 
 @protocol AVTUIControllerPresentationDelegate
-- (void);
 @end
 

@@ -34,11 +34,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)cessorySettingsInterfaceModalitySlider;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *announceNotificationSettingOption; // @synthesize announceNotificationSettingOption=_announceNotificationSettingOption;

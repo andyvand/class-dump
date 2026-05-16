@@ -5,8 +5,5 @@
 //
 
 @protocol PKTextInputDebugStateReporting
-
-@optional
-- (_Bool);
 @end
 

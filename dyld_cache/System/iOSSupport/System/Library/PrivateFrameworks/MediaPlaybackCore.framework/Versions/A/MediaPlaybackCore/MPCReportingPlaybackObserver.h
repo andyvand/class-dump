@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)S;
+- (void);
+- (void)blic}@] invalidate | removing database [invalidation] url=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

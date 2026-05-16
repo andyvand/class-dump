@@ -19,15 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id)»@âê;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)ger>";
+- (id)size and position, component-identifier=%{public}@, task-identifier=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionActivityManager> activityManager; // @synthesize activityManager=_activityManager;

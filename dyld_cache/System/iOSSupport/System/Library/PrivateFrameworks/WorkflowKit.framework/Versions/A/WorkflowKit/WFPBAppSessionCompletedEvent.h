@@ -14,26 +14,26 @@
     CDStruct_84479c50 _has;
 }
 
+- (id);
+- (unsigned int);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool)LNEntityValueType"24@?0@"LNPropertyMetadata"8Q16;
-- (unsigned int)ties;
+- (void)¬a³ÿÿÿÿÿä;
+- (_Bool)Ü>xAìB;
+- (void)he intent has a value for %{public}@, but that parameter isn't configurable, so data loss would occur.;
+- (_Bool)om registry;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int duration; // @synthesize duration=_duration;

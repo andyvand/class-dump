@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ptorWithKey:ascending: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;

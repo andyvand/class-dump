@@ -14,23 +14,23 @@
     NSArray *_videoSegments;
 }
 
-+ (id)4¼\½;
-+ (_Bool)ingKey;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)eraSignificantEventPersonFamiliarityNotificationCondition;
-- (id)data due to encoded component:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ÿÿ.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

@@ -8,7 +8,6 @@
 
 @interface NewsUI2.MagazineSectionBarLayoutAttributesFactory
 {
-    MISSING_TYPE *categoryViewLayoutAttributesFactory;
     MISSING_TYPE *pillViewLayoutAttributesFactory;
 }
 

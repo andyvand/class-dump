@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     UIView *_contentView;
 }
 
-- (void)Z$º;
-- (id);
-- (id)tion policy caches.;
+- (id)ransitionToOrientation:(struct CGRect)arg1 duration:masterChange: /* Error: Ran out of types for this method. */;
+- (void)´^^;
+- (id)ÐÎ$d;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

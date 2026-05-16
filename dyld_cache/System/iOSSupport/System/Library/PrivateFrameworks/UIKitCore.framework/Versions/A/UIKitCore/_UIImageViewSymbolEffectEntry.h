@@ -18,12 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType)ع;
-- (void);
-- (id);
-- (void)!;
-- (_Bool)7À;
-- (void)ÐÜáÿJn¹;
+- (id)1Â0@ù
+× ;
+- (CDUnknownBlockType)ateIfNeeded:completion: /* Error: Ran out of types for this method. */;
+- (void)et support UIWritingToolsResultTable. Troublesome SPI can make it possible for apps allowed to use SPI.;
+- (_Bool)rimaryLandscapeX;
+- (void).apple.mobilenotes;
+- (void)_UISheetGrabberAction;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

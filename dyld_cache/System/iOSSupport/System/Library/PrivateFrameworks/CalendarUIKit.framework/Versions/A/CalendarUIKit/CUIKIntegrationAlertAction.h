@@ -13,11 +13,11 @@
     long long _style;
 }
 
-- (void)A`";
-- (id);
 - (void);
 - (id);
-- (long long)	;
+- (long long);
+- (id);
+- (void)d: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;

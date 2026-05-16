@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void)senter;
+- (void);
 
 @end
 

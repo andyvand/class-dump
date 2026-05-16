@@ -7,8 +7,10 @@
 @class AMSMetricsEvent, AMSUIWebAction, AMSUIWebNavigationBarModel, NSString;
 
 @protocol AMSUIWebPageProvider
-- (struct CGSize)"NSURLSessionTask"24@"AMSDialogRequest"32@?<v@?@"AMSDialogResult"@"NSError">40;
-- (AMSMetricsEvent *);
+- (AMSUIWebNavigationBarModel *)d;
+- (long long)RGtGG;
+- (AMSMetricsEvent *)g self.options.clientInfo.bundleURL for icon. bundle:%{public}@ /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *backgroundColor;
@@ -19,6 +21,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize;
 @end
 

@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
     long long _delay;
 }
 
-+ (id);
 + (id);
-+ (_Bool)P;
++ (id);
++ (_Bool);
 - (id);
 - (float);
 - (void);
-- (void);
 - (id);
-- (void)	?a;
+- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
+- (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) long long delay; // @synthesize delay=_delay;

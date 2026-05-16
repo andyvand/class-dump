@@ -5,16 +5,5 @@
 //
 
 @protocol WBSFormAutoFillNode
-- (id);
-- (void)"LPImagePresentationProperties",&,N,V_backgroundImageProperties;
-- (void)IDelegate;
-- (void)er;
-- (void)YouTubePlayerWebView;
-- (void)ePlayerViewFullScreenDelegate;
-- (_Bool)length;
-- (long long)#;
-
-@optional
-- (void)LPiTunesMediaAsset;
 @end
 

@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     UITextPosition *_position;
 }
 
-+ (id)/IdentityLookup.framework/Contents/MacOS/IdentityLookup;
++ (id);
 - (id);
+- (id);
+- (id)
+× ;
 - (void);
-- (id)nBecomingFirstResponder;
-- (id)rASPInTextField: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *position; // @synthesize position=_position;

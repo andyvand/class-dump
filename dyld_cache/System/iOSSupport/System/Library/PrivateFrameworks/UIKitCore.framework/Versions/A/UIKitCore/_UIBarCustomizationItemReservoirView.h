@@ -32,38 +32,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)ing";
-- (id)itWithContainerID:options: /* Error: Ran out of types for this method. */;
-- (void)LevelMessage:fromID:messageContext:isBeingReplayed: /* Error: Ran out of types for this method. */;
-- (void)sRelayedUponSuccess: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
 - (double);
 - (double);
-- (void)usiness chat message because it is not supported. (guid:(id)arg1 %@);
-- (void)did not respond to _pushHandlerForIDSAccount:(id)arg1 %@;
-- (void)g %ld messages due to preview generation state change;
 - (void);
-- (long long);
 - (void);
-- (struct CGSize);
-- (void);
-- (void)0@ù
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id)1Â0@ù
 × ;
-- (void)ng;
-- (_Bool)|´;
+- (void)A
+ð!Ø@ùÑf°1Â0@ù
+× ;
+- (struct CGSize)ration"b1"itemsForBeginningSession"b1"itemsForAddingToSession"b1"sessionPropertiesForSession"b1"operationForAcceptingIntoAction"b1"acceptItemsIntoAction"b1"willBeginDisplayingTab"b1"didEndDisplayingTab"b1"operationForInsertingIntoGroup"b1"insertIntoGroup"b1};
+- (id)ItemWithStyle: /* Error: Ran out of types for this method. */;
+- (void)ty;
+- (id)heetPresentationMetrics",R,N;
+- (id)@"UITableViewCollectionCell",&,N,V_tableViewCell;
+- (struct CGSize)è|;
+- (long long)ü´|¬hà;
 - (void);
-- (id)@þÿ;
-- (id)41_UINavigationControllerRefreshControlHostC;
-- (void);
-- (struct CGSize);
-- (id)];
-- (id)¸Ûßÿ;
-- (void)ÐòþDÍÓj§a;
-- (id)<BçÿWä;
-- (void)êMÉ·$b;
-- (id)Ä%Ôqc;
-- (id)RO¶÷c;
-- (void);
-- (void)¤fþ;
+- (void)pearance invocations have been saved.;
+- (void)line;
+- (void)footer height (%g) provided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (void)\àÿ\ÜØ^;
+- (void)¤ÿ;
+- (id)Ñÿý7;
+- (id)*nØc;
+- (void)ìÿYbÔe;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *arrowView; // @synthesize arrowView=_arrowView;

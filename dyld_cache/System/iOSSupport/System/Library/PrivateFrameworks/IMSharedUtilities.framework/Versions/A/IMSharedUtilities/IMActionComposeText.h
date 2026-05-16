@@ -13,14 +13,14 @@
 }
 
 - (id);
+- (id);
 - (long long);
-- (_Bool)P;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

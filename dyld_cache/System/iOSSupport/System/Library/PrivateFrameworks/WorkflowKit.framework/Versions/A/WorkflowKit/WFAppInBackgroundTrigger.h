@@ -13,13 +13,13 @@
     NSArray *_selectedBundleIdentifiers;
 }
 
-+ (id)pÙl¬Ö0%EÉ;
++ (id);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool)assed as input. Depending on the input, this could be a file name, the title of a website, the title of a calendar event, etc.;
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *selectedBundleIdentifiers; // @synthesize selectedBundleIdentifiers=_selectedBundleIdentifiers;

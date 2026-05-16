@@ -11,8 +11,8 @@
     double _spacing;
 }
 
-- (void)¾l;
-- (double)ÂGo;
+- (double)nCustom;
+- (void)X0m;
 
 // Remaining properties
 @property(nonatomic) double spacing; // @synthesize spacing=_spacing;

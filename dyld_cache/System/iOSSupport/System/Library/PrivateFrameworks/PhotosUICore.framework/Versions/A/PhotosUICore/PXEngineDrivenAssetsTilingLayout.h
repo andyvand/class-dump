@@ -40,13 +40,13 @@
 - (struct CGRect);
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (void)ts;
-- (id)tionCompletionBlock;
-- (void)27PXFooterViewModelControllerC;
-- (id)otos.SearchAssetUUIDsValidator;
+- (void);
 - (long long);
-- (void)ðMÆ85;
+- (void);
+- (id)public}@;
+- (void)nimation initWithIdentifier:duration:curveInfo:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

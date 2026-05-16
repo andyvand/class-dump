@@ -18,13 +18,13 @@
 
 - (id);
 - (_Bool);
-- (_Bool)=;
+- (_Bool);
 - (long long);
 - (void);
-- (void);
 - (_Bool);
-- (id)ÄPäQ;
-- (struct CGRect)ëÿç©XB9;
+- (id);
+- (void);
+- (struct CGRect);
 
 // Remaining properties
 @property(retain, nonatomic) UITextRange *range; // @synthesize range=_range;

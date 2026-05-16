@@ -4,34 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSArray, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (void)orRepresentationWithTypeIdentifier: /* Error: Ran out of types for this method. */;
-- (long long)ØÉ;
-- (UITextPosition *)g>"8@"NSError"16;
-- (UITextRange *)teEntryCàxwyACGÇlZAF(wAF_G;
-- (UITextPosition *)yAAyÏZyÑzZÔyZyözZy0zZ_AAyWyZZwZy$yZAIGG+xZAFtGGACGwZyrZGGAPyAISgGGhsZGSg;
-- (void)b;
-- (NSDictionary *)yZf[_<e[g[AAyg[yAAyf[yAAyAAyAAyAEa[Gd[yÉd[SgGGAJyíe[SgGGGAJy_[SgGG_[Qo_AJyë|[GGtGGAQG.`[G;
-- (void) ñÿ ñÿ*;
-- (id <UITextInputTokenizer>)ctionConnectorView;
-- (id <UITextInputDelegate>)\Ûÿ;
+- (NSString *)
+× ;
+- (long long)(¨L¨¨;
+- (UITextRange *)lHÜ;
+- (UITextRange *)showEndDateCollapsingControl;
+- (struct CGRect);
+- (void)nts specified.;
+- (UITextPosition *)ÑtGSgG_AEy7ÑyÑyAEyAEyÝ×ÐyAGyl×Ð_FÕÐtGGAQGsÍÐGG_c/eQo_KÔÐy×ÐSgGGSgtGG·ÓÐy¡:(UITextPosition *)arg1 eGGG;
+- (UITextPosition *)çóÐyùúÐDùÐyÞüÐGGG;
+- (UITextPosition *)ÑyÇ°;
+- (id <UITextInputDelegate>)O;
+- (id <UITextInputTokenizer>)¹ÒSgGGb°ÒGG£¸ÒySbGG_SSQo_AAyàKÓAHGtGGGAHG·Òy3»ÒGGSg;
+- (struct CGRect)±3;
+- (UITextRange *)SummaryRowView;
+- (UITextRange *);
+- (UITextPosition *)er;
+- (void);
 
 @optional
-- (void)1B0@ù
-× ;
-- (void)e>";
-- (struct CGRect)½ûÿÐÿÿ°1ýÿ;
-- (void)ÀM=l×ûÿ;
-- (void)GGAEyïàYSgGGAEy#Øv_pSgGGAEySbGGAEyöüÿ_pSgGG;
-- (_Bool)y¾kwGG;
-- (UITextPlaceholder *)y?[yíA;
-- (_Bool)[yACyACy!\[yë?[yAByABy×Z[y±][yAByhZ[y][y4@[yæ@[yADSg_A1_tGGAByACyACyÜ8[y_Õ7[yÿYxGACyj[y ?[_A8_Qo_ì<[yæ>[GGG7[y@[GG=[y+;
-- (void);
-- (struct CGRect);
-- (void)BÞÿ_]4BÞÿ;
+- (NSArray *);
+- (void)ÃÜÅ;
+- (void)AÿÿØüÿÂüÿ§ýÿ;
+- (void)lingDragSessions;
+- (UIView *)ÑyõÑy»;
+- (void)(O;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -61,5 +62,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

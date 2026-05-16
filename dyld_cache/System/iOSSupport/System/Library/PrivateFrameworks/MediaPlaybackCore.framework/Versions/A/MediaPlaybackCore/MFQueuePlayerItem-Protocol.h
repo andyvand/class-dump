@@ -7,17 +7,10 @@
 @class ICUserIdentity, NSArray;
 
 @protocol MFQueuePlayerItem
-- (void);
-- (long long)24@0:8@"Protocol"16 /* Error: Ran out of types for this method. */;
-- (double)u;
-- (_Bool)letion: /* Error: Ran out of types for this method. */;
-- (_Bool)on;
-- (_Bool)kControllerImplementation;
-- (_Bool)nfo;
-- (_Bool)name;
-- (double)tion;
-- (_Bool)8@16d24@32;
-- (ICUserIdentity *)<ÎÜÿp;
+- (_Bool)riceType: /* Error: Ran out of types for this method. */;
+- (ICUserIdentity *)ource=%p section=%{public}@;
+- (_Bool)elector: /* Error: Ran out of types for this method. */;
+- (ICUserIdentity *)iption lease session, using it. Lease status:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *adjunctErrors;
@@ -29,6 +22,7 @@
 @property(readonly, nonatomic) double playbackStartTime;
 @property(nonatomic) double playbackStartTimeOverride;
 @property(readonly, nonatomic) long long playerItemType;
+@property(nonatomic) _Bool useFallbackAsset;
 @property(readonly, nonatomic) ICUserIdentity *userIdentity;
 @end
 

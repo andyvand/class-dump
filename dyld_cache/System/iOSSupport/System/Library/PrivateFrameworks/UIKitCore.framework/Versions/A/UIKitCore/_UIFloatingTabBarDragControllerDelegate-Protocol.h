@@ -7,8 +7,8 @@
 @class UICollectionView;
 
 @protocol _UIFloatingTabBarDragControllerDelegate
-- (void);
-- (UICollectionView *);
+- (UICollectionView *)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionView *collectionView;

@@ -5,6 +5,6 @@
 //
 
 @protocol BSInterfaceOrientationMapResolving
-- (long long)tyle:(unsigned long long)arg1;
+- (long long)dEnd:(unsigned long long)arg1;
 @end
 

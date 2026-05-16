@@ -64,21 +64,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
 - (void);
-- (long long);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
 - (void);
 - (_Bool);
-- (void)ueWithCMTime:(_Bool)arg1;
-- (id)?,C,N,V__displayFilter;
-- (void)CoolTo;
-- (id)x·ôö;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (id)5;
+- (void);
+- (void)ce crop update failed with error %@. Recovering and hiding face crop result.;
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;

@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)GE_;
+- (_Bool)w is nil.;
 
 // Remaining properties
 @property(nonatomic, setter=_setAccessoryViewChanged:) _Bool accessoryViewChanged; // @synthesize accessoryViewChanged=_accessoryViewChanged;

@@ -5,6 +5,6 @@
 //
 
 @protocol _UITextLoupeResponderProxyDelegate
-- (_Bool)@@Q{?=b1b1b1b1}}16;
+- (_Bool)_ObjectiveCType;
 @end
 

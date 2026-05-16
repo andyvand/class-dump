@@ -11,15 +11,15 @@
     NSArray *_sections;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
+- (id);
 - (void);
 - (long long);
-- (void)he employee consent.;
+- (id)settingItems;
+- (void);
+- (id)twareUpdate;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;

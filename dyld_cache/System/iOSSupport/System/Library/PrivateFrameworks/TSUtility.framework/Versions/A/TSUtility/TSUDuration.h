@@ -11,10 +11,10 @@
 
 + (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (double);
-- (id)be populated.;
 
 @end
 

@@ -27,13 +27,15 @@
 - (id);
 - (void);
 - (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (id)ty",R,N,V_contentsIdentity;
-- (void)sterAppearance != nil;
-- (void)F;
-- (void);
+- (void)!l@ùññ°1â
+0@ù
+× ;
+- (void)dpointDidChangeAction;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;

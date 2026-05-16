@@ -17,11 +17,11 @@
     MISSING_TYPE *lastSeenContentWidthOverflows;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)eoOutput.playerViewController. playerViewController:%{public}@. parent:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

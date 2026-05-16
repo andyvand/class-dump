@@ -58,6 +58,7 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
@@ -117,8 +118,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -128,25 +129,26 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)A%!h@ù±.Ð1b0@ù
+- (id);
+- (_Bool)1â
+0@ù
 × ;
-- (id)etIconTopInset:(id)arg1;
-- (void)okupViewEventWithUtilityID:(id)arg1 presentingVC:(id)arg2;
-- (_Bool)upItem;
-- (void)ath:(_Bool)arg1;
-- (_Bool)em",&,N,V_startConditionPickerItem;
-- (void)available with 1 or more resident devices in the home | presentedViewController = %@;
-- (id)iningItem;
-- (id)HUTriggerActionEditorShortcutSectionTitle;
-- (void)tionSetItemStyle;
-- (void);
+- (_Bool)nToTitleSpacing:(id)arg1;
+- (_Bool)tegoryCellOptions;
+- (void)ess:(id)arg1 requiresPassword:(id)arg2 password:(id)arg3;
+- (void)Provider",&,N,V_genericItemProvider;
+- (void)lor;
+- (_Bool)HUGridActionSetPlaceholderCell;
+- (void)ilityOnboardingLoadingViewController;
+- (void)vigation controller but no initial view controller available for step:%@! /* Error: Ran out of types for this method. */;
+- (void)Àr;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *actionSetExecutionFuturesKeyedByIdentifier; // @synthesize actionSetExecutionFuturesKeyedByIdentifier=_actionSetExecutionFuturesKeyedByIdentifier;

@@ -48,8 +48,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -58,29 +58,30 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
 - (id);
 - (id);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)Áw!|Fù|°1b0@ù
+- (id)!lDùGÐ1â
+0@ù
 × ;
-- (id)extSelectionDidChangeForImageAnalysisInteraction:(id)arg1;
-- (void)tModeDisplay:(_Bool)arg1;
+- (void)tAllowedAssetCount:(id)arg1;
+- (void)7;
 - (id);
-- (id){ûÿ;
-- (_Bool)edsCloudNotAuthenticatedErrorTitle;
+- (id)fill;
+- (id)"NSValue"8@"NSArray"16^B24;
+- (void)umLabel;
+- (void);
 - (void);
-- (struct CGSize)jg¤ÿ;
-- (void);
-- (void)¼ÖÞÿ®ÒM_8;
-- (id)8;
+- (void)ÿ0Rr5;
+- (void)äõ­ÿ PT5;
+- (id)à7;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *axLabel; // @synthesize axLabel=_axLabel;

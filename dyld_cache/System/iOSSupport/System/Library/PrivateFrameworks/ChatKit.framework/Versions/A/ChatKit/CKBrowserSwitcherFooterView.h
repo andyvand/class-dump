@@ -37,31 +37,31 @@
 - (void);
 - (void);
 - (void);
-- (void)lStart;
-- (void)SgGG;
-- (void)_A1_AByACyC@;
-- (_Bool)t;
-- (struct CGPoint)yAEyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGG_G;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGPoint);
 - (double);
 - (_Bool);
 - (void);
-- (void)t;
 - (void);
 - (void);
-- (void)e;
-- (void)E;
-- (void)=;
 - (void);
-- (void)s;
-- (void)to toggle collapsed due to missing text storage;
-- (_Bool);
-- (void)CMentionNotificationController senderNameForMentions:(_Bool)arg1 ];
-- (_Bool)"16@?0@"ICInlineAttachment"8;
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (struct UIEdgeInsets);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
 - (id);
 - (double);
 - (void);
@@ -70,37 +70,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
-- (void)ȗ;
-- (double);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)!|@ùQð1Â0@ù
+× ;
 - (long long);
-- (void);
-- (void)wb;
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long)ePayload:(id)arg1 appIconData:(long long)arg2 appName:adamID:allowDataPayloads: /* Error: Ran out of types for this method. */;
+- (_Bool)k;
+- (_Bool)kingView:(id)arg1 %@;
+- (void)tion] ;
 - (id);
-- (void)y: /* Error: Ran out of types for this method. */;
-- (void)utedString:(id)arg1 withEntity:fromInputText:inRange:updatingRange: /* Error: Ran out of types for this method. */;
-- (id).­ycæ­yAByªV­õ2­G]­ySay>í=Ghþ¬»é­yÅZ­yAAyé­yADüZ­GADGGGGG§2­G>yAFGG_þ[­SgAYt;
-- (void)Qo_ß\®yX®GGGSg_Fj®yADyACyAAyAEyAEyAHo®G©ù>GSg!ø®G_AByACyAAyAAyöh®AMySiSgGG(E®GSg_A10_tGGtGG_Qo_yn®AEyAAyAAyAAyAAyAAyúl®yAEy9i®y[ø®yAAyA4_AJGo®ySay;ÿ>Ge®AGyAEyAAyû®yA4_AHGAMyl®SgGGA4_GGGG_Qo_ýýÿyA19_GGGAMy¤6®SgGGAOGX?GAMy¿ñ®GGA8_GAFGAXtGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy÷®yû®yA20_ySayÿ>GA23_AAyAAyAAyù÷®yA17_yAEyA33_A35_yAAyAAyA4_D®GA28_GGGG_
-ò®Qo_A47_GAMyúf®SgGGA61_GGGGAFGAJGAJGAJGAJGSgtGG_j¯y>®GQo__Qo_qP®yAAyAAyAAyAByACypüýÿSg_Ìú®SgtGGú\®G2®y6B®GGb®GGGo?yA101_GG;
-- (_Bool)Ïþÿ_­þÿþÿQPG;
-- (void)yy®SgGGADyª®SgGG_Qo_ADy¯®GGtGSgt;
-- (_Bool)rollerHandleDismissTap:(id)arg1;
-- (id)pBundleID;
-- (long long)s;
-- (void)Üì;
-- (id)ù¿ÈS;
-- (void);
-- (id)@ó	;
-- (_Bool)ö-;
-- (id)NG0;
-- (void)t ÿä´­0;
-- (void);
+- (void)playLink;
+- (void)Ã5xÿ/;
+- (id);
+- (void)ÔÏ1;
+- (id)!ë0;
+- (void)_3;
+- (void)6Ø3;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionView *appStripCollectionView;

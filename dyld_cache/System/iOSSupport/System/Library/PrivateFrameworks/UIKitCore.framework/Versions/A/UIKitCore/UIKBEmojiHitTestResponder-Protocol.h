@@ -5,12 +5,11 @@
 //
 
 @protocol UIKBEmojiHitTestResponder
-- (_Bool)× ;
-- (void)0@ù
-× ;
-- (void)sToday: /* Error: Ran out of types for this method. */;
-- (void)h;
-- (void)om;
-- (void)mat;
+- (_Bool)%@ reverted successfully:%@ /* Error: Ran out of types for this method. */;
+- (void)iledImage = %@>;
+- (void)ginatingContentOffset;
+- (void)duplicate commands. This is a UIKit internal bug.;
+- (void)ccessoryCSg;
+- (void)bsÑôæ[;
 @end
 

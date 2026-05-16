@@ -10,10 +10,10 @@
 {
 }
 
-- (id),;
-- (id)se at path %@ remains active;
-- (id)yndicationItemType:%ld /* Error: Ran out of types for this method. */;
-- (id)he AppleID account is not active, we can not use SMS Relay;
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

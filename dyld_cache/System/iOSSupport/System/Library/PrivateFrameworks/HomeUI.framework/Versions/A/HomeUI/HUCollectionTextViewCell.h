@@ -15,8 +15,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)uageChange_TurnOff_VoiceID_Confirmation_Button_Title;
 
 // Remaining properties
 @property(retain, nonatomic) HUTappableTextView *messageTextView; // @synthesize messageTextView=_messageTextView;

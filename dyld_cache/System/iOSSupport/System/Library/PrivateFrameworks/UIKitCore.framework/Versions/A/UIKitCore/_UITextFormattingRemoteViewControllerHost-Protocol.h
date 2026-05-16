@@ -5,6 +5,5 @@
 //
 
 @protocol _UITextFormattingRemoteViewControllerHost
-- (void)+P;
 @end
 

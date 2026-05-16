@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
-+ (id)thCompletion:(double)arg1;
++ (id);
 + (id);
 - (id);
 - (double);
+- (double);
 - (long long);
-- (double):%p] getArchiveFromIntent:| could not resolve artworkImageURL, error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;

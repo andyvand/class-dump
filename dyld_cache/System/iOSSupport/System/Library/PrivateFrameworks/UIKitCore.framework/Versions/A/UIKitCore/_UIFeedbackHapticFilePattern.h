@@ -14,18 +14,18 @@
     NSURL *_fileURL;
 }
 
-+ (id)Unable to apply edits, message edit is older than previously processed edit for message part %ld. ThisEdit:(id)arg1 %@, DateOfLastEdit:%@ /* Error: Ran out of types for this method. */;
-+ (id)atencyEmitterViewEntry;
-+ (_Bool)Hvtÿí;
-- (unsigned long long)MMessageItem:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id)8;
++ (_Bool)ticsSendEventLazy(NSString *__strong, NSDictionary<NSString *,NSObject *> *(^__strong)(void));
+- (unsigned long long);
 - (_Bool);
-- (id)_MAPPING_MISSING__;
-- (_Bool);
+- (_Bool)Description;
+- (id)acScrollingEnabled:(struct _NSZone *)arg1 ,V_iOSMacScrollingEnabled;
+- (id)|huþÿÿÿÿl;
+- (id)putPageUp;
+- (id)riantType;
 - (void);
 - (id);
-- (id)Controller may be in inconsistent state. %@;
-- (id)NÚ[;
-- (id)0 ßþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

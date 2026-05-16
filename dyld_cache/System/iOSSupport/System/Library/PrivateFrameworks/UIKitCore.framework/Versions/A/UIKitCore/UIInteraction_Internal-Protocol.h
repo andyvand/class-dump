@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITargetedPreview;
+@class UITargetedPreview;
 
 @protocol UIInteraction_Internal
 
 @optional
-- (UITargetedPreview *)t$u;
-- (void);
-- (NSArray *)71m|;
+- (UITargetedPreview *)0@ù
+× ;
+- (void)idResumeFromUnderLock;
+- (void)©23Øoþ23Ôoþ;
 @end
 

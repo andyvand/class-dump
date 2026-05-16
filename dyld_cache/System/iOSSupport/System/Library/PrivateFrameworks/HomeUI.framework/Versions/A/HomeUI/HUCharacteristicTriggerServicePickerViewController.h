@@ -27,12 +27,12 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (CDUnknownBlockType);
-- (id)der: /* Error: Ran out of types for this method. */;
-- (void)layer;
+- (CDUnknownBlockType)ocation: /* Error: Ran out of types for this method. */;
+- (void)loud);
+- (void)uickControlViewController"8;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUTriggerEditorDelegate> delegate;

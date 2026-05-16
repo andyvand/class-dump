@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
-- (int)try;
+- (int);
+- (void)¡;
 
 // Remaining properties
 @property int hostPID; // @synthesize hostPID=_hostPID;

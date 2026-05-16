@@ -18,11 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (void)tSuspendTime;
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *highlight; // @synthesize highlight=_highlight;

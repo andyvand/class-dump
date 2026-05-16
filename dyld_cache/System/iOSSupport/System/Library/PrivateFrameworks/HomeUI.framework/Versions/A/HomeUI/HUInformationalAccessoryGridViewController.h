@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool)tailsCollectDiagnosticsItem;
+- (_Bool)Ì0;
+- (void)e.Home.backgroundDisplayStyle;
 
 // Remaining properties
 @property(nonatomic, copy) NSSet *visibleAccessories;

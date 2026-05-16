@@ -24,10 +24,10 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
--     // Error parsing type: @48@0:8r^{PKMetalParticleKernelUniforms=fffIIIBBBBff}16r^{PKMetalParticleStrokePoint=Iff     SS}24Q32@40, name: 
+-     // Error parsing type: @48@0:8r^{PKMetalParticleKernelUniforms=fffIIIBBBBff}16r^{PKMetalParticleStrokePoint=Iff     SS}24Q32@40, name: (null)
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)ljknànsswwytz;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numParticles; // @synthesize numParticles=_numParticles;

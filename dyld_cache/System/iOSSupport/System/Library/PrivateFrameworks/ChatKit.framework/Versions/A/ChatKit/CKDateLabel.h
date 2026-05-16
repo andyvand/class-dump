@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *textForOverride; // @synthesize textForOverride=_textForOverride;

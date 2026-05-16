@@ -55,15 +55,15 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void)accessories.count > 0;
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id)c-ols-homekit-article_ht210213-ios_ui-04142022;
-- (void)pAndGoHome;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

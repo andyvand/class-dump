@@ -5,7 +5,6 @@
 //
 
 @protocol UIPopoverBackgroundViewMethods
-+ (double)shotRect: /* Error: Ran out of types for this method. */;
-+ (double)ng it with activationCount:%ld; %@ /* Error: Ran out of types for this method. */;
++ (double)horizontal constraints;
 @end
 

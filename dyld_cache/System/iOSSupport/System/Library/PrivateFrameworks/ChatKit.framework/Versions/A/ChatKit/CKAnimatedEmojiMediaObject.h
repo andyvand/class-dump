@@ -11,14 +11,14 @@
 }
 
 + (_Bool);
-+ (_Bool)!;
++ (_Bool);
 + (id);
-- (id)f you have forgotten your notes password, click Learn More for next steps.;
-- (Class)locked using your login password are only viewable on iOS 16, iPadOS 16, and macOS 13 and later. Your devices that need upgrading: /* Error: Ran out of types for this method. */;
+- (id);
+- (Class);
 - (_Bool);
 - (id);
 - (id);
-- (id)9;
+- (id);
 - (id);
 
 // Remaining properties

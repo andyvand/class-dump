@@ -9,8 +9,8 @@
     CDUnknownBlockType _deallocationHandler;
 }
 
-- (void)ssage_canAcceptMediaObjectType:(CDUnknownBlockType)arg1 givenMediaObjects: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ctCellButtons;
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 

@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -37,9 +37,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)°1b0@ù
+- (id)1B50@ù
 × ;
+- (void)resDisplayOnTracking;
 
 @end
 

@@ -18,22 +18,22 @@
 + (id);
 - (struct CGAffineTransform);
 - (void);
-- (long long)=;
+- (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id)";
 - (id);
-- (struct CGSize)XXÙÿ©¸XY;
-- (void)=;
+- (void);
+- (struct CGSize)};
 
 // Remaining properties
 @property(nonatomic) struct CGSize naturalSize; // @synthesize naturalSize=mNaturalSize;

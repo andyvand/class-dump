@@ -16,11 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (_Bool)pe;
-- (void);
-- (void);
 - (id);
 - (void);
+- (void)qð1Â0@ù
+× ;
+- (_Bool);
+- (void)Ôð;
 
 // Remaining properties
 @property(retain, nonatomic) LPFetcher *fetcher; // @synthesize fetcher=_fetcher;

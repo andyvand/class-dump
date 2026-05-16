@@ -9,14 +9,14 @@
     _Bool _hasSetUserHasDrawn;
 }
 
-+ (id)wy,1!;
-- (void)",C,N,V_loggingKey;
-- (void)BoostableOperationThrottler suspended];
-- (void)Match;
++ (id)Ì,6;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (CDStruct_2ec95fd7);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties

@@ -13,6 +13,7 @@
     MISSING_TYPE *blueprintProvider;
     MISSING_TYPE *pageBlueprintFactory;
     MISSING_TYPE *pageBlueprintManager;
+    MISSING_TYPE *recipeUserDataManager;
     MISSING_TYPE *coordinator;
 }
 

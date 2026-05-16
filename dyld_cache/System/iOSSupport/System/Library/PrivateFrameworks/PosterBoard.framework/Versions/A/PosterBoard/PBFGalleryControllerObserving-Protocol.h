@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBFGalleryController, PRSPosterGalleryLayout;
-
 @protocol PBFGalleryControllerObserving
-
-@optional
-- (void)UID:(PBFGalleryController *)arg1 updates:(PRSPosterGalleryLayout *)arg2 completion: /* Error: Ran out of types for this method. */;
 @end
 

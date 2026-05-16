@@ -14,8 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Qï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXColumnLayout *columnLayout; // @synthesize columnLayout=_columnLayout;

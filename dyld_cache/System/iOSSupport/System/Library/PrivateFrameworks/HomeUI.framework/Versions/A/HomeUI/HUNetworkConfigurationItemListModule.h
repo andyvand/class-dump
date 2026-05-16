@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)voke_5;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotosDataSource *photosDataSource; // @synthesize photosDataSource=_photosDataSource;

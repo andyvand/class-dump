@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ect",W,N,V_inspectedObject;
+- (id)ryView:forAxis: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -18,7 +18,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)c}@Trying to dereference Characteristic Reference from different home %@ %@;
 
 @end
 

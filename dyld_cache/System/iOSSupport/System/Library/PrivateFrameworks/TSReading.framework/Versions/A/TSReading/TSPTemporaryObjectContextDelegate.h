@@ -22,13 +22,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)@9;
 - (void);
-- (id)@;
 - (void);
 - (id);
-- (id)
-;
+- (id);
+- (id);
+- (void)ä56 9;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areNewExternalReferencesToDataAllowed;

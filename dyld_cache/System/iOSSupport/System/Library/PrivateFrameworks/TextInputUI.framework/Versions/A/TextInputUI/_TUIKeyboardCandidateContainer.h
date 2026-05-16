@@ -21,11 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (void)ñ|Ð1b0@ù
-× ;
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) TIAutocorrectionList *autocorrectionList; // @synthesize autocorrectionList=_autocorrectionList;

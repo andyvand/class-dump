@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *resolver;
     MISSING_TYPE *tracker;
+    MISSING_TYPE *cookingKitTrackerManager;
 }
 
 @end

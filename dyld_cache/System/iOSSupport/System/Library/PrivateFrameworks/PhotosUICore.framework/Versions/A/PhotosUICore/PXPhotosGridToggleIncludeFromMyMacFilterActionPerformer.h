@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)ì'6;
+- (id)NSCopying>",&,N,V_hoveredItemObjectID;
 
 @end
 

@@ -14,16 +14,17 @@
 
 + (id);
 + (id);
-+ (id)initWithURL:(struct _NSZone *)arg1;
++ (id)ÑÏ1Â0@ù
+× ;
+- (void);
+- (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (struct __CFLocale *)r;
+- (struct __CFLocale *)/utility/sf/SFUZipArchiveOutputStream.m;
 
 @end
 

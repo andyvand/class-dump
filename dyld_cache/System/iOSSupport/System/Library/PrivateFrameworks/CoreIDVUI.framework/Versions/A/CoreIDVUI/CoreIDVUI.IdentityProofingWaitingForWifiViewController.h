@@ -14,10 +14,10 @@
     MISSING_TYPE *proofingFlowManager;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)yAAyûÆ»G(»G"ÅyÆSgGGÃyÁGGÖÂG;
+- (void);
+- (void);
 
 @end
 

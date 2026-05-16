@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SwiftVCDaemonXPCEventHandler, _CDClientContext, _CDContextualChangeRegistration;
-
 @interface WFTopHitsAppShortcutsUpdater
 {
-    SwiftVCDaemonXPCEventHandler *_xpcEventHandler;
-    _CDClientContext *_clientContext;
-    _CDContextualChangeRegistration *_changeRegistration;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 
 // Remaining properties
-@property(retain, nonatomic) _CDContextualChangeRegistration *changeRegistration; // @synthesize changeRegistration=_changeRegistration;
-@property(retain, nonatomic) _CDClientContext *clientContext; // @synthesize clientContext=_clientContext;
-@property(retain, nonatomic) SwiftVCDaemonXPCEventHandler *xpcEventHandler; // @synthesize xpcEventHandler=_xpcEventHandler;
+@property(nonatomic, readonly) _Bool shouldTriggerUpdate;
 
 @end
 

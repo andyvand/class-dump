@@ -18,16 +18,16 @@
 - (void);
 - (id);
 - (long long);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
+- (long long);
+- (id)r"24@0:(struct _NSZone *)arg1 8@"NSArray"16;
+- (id)dler: /* Error: Ran out of types for this method. */;
+- (void)@?,C,N,V_actionHandler;
 - (id);
 - (void);
-- (void);
-- (id)eholder Action for MacOS;
-- (long long)pp;
-- (void)ÿ;
-- (id)ÿ6;
-- (void)KÔ7;
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

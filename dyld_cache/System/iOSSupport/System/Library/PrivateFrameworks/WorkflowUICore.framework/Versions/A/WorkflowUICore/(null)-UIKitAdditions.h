@@ -13,8 +13,9 @@
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)dChangeSelection: /* Error: Ran out of types for this method. */;
+- (id)IyMûHûyºûSgGG	ûG¦ûGSg_
+ûtGGGAKyAXGGAKyAUGGSg_Qo_Eûy×ûGG0ûyÊûGG_AIyûyñûA7_G¨ûGSgtGGG;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView;

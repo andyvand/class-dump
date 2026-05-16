@@ -16,16 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
-- (id)0;
+- (double);
+- (id);
 - (unsigned long long);
 - (long long);
-- (long long)Èª;
-- (double)ay feed groups, error=%{public}@;
-- (id)Lüÿ;
-- (long long)(ºïÿ\åAÿÜÌ
-;
+- (void)ContentShortcutsTrackerType;
+- (id)|B±	ACaèÔ;
+- (long long)°ªþ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

@@ -21,11 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)P;
-- (id)logstring;
-- (id)digest type:%d
- /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly) NSData *nonce; // @synthesize nonce=_nonce;

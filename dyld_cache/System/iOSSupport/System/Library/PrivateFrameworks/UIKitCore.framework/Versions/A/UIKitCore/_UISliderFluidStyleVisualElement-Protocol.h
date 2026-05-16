@@ -5,8 +5,6 @@
 //
 
 @protocol _UISliderFluidStyleVisualElement
-- (void)d to get product type;
-- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool changeWithVolumeButtons;

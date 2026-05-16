@@ -28,8 +28,8 @@
 }
 
 + (id);
-+ (id)onPolicy;
-+ (_Bool)X-HM;
++ (_Bool);
++ (id)ilities:%lu /* Error: Ran out of types for this method. */;
 
 @end
 

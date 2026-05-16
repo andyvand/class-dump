@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ùÊØK;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *originalAssets; // @synthesize originalAssets=_originalAssets;

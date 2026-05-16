@@ -8,9 +8,10 @@
 @protocol OS_dispatch_queue;
 
 @protocol HMXPCConnection
-- (id)HMAccessory";
-- (NSXPCInterface *)ReasonsMessage: /* Error: Ran out of types for this method. */;
-- (void)ney devices and the root cause should be investigated. This assert is intentionally included on internal builds for high-priority visibility to developers but omitted on customer builds to prevent the crash loop from being possible in Sydney and later software;
+- (void)ñ«ð1B50@ù
+× ;
+- (NSXPCInterface *)r service type %@ characteristic type %@;
+- (HMFProcessInfo *)share;
 
 // Remaining properties
 @property(readonly) CDStruct_6ad76789 auditToken;

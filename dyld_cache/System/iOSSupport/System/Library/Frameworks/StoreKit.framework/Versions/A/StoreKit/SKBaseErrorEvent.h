@@ -28,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (long long)nitWithConfig:notifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canCreatePayload;

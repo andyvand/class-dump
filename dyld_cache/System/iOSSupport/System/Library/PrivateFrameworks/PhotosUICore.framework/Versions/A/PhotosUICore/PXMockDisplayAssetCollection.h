@@ -182,16 +182,16 @@
 - (_Bool);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
 - (id);
 - (_Bool);
-- (id)d;
-- (long long)ÈûÿÏ¯þÿ²üÿüÿûÿ;
-- (id)dget;
+- (long long);
+- (id);
+- (id)Asset>"16@?<v@?@"SLHighlight">24;
+- (id)Layout;
+- (id)4Ü`Pìä¡¸¢ô£0¤;
+- (long long)£ï;
+- (void)ÅäÇ0gÿ;
+- (id)P¥«ÿâùLh-4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

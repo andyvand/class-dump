@@ -50,7 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ork;
+- (void)voke;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

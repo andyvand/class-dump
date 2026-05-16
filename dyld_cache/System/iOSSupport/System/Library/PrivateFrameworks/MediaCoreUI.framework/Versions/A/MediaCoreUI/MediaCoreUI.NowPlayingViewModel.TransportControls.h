@@ -11,8 +11,9 @@
     MISSING_TYPE *_leading;
     MISSING_TYPE *_center;
     MISSING_TYPE *_trailing;
-    MISSING_TYPE *_isEnabled;
     MISSING_TYPE *_isHidden;
+    MISSING_TYPE *_hasCurrentItem;
+    MISSING_TYPE *_availabilityOverride;
 }
 
 @end

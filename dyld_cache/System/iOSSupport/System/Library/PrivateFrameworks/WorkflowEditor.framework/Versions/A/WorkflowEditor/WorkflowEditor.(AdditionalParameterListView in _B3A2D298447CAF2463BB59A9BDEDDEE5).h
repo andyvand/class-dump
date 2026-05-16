@@ -15,11 +15,11 @@
     MISSING_TYPE *additionalParameters;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)á;
+- (void)ìÒÔÔ;
 
 @end
 

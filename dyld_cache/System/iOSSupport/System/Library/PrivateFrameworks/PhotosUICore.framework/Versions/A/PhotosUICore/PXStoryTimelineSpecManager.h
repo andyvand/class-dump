@@ -26,7 +26,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)AccountViewTipMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long allowedInlineTitles; // @synthesize allowedInlineTitles=_allowedInlineTitles;

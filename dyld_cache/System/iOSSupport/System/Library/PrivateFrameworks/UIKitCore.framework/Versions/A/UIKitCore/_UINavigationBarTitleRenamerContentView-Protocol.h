@@ -5,9 +5,8 @@
 //
 
 @protocol _UINavigationBarTitleRenamerContentView
-- (void)iled;
-- (long long)eKey;
-- (void)ÙÌ4jþÉÌ4Djþ¹Ì4¨;
+- (long long)6R0Ñ 130;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double horizontalTextInset;

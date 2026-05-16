@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (void);
+- (unsigned long long);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long action; // @synthesize action=_action;

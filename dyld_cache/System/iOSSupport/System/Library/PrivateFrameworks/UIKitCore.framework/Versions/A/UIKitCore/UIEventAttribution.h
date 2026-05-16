@@ -15,20 +15,19 @@
     NSString *_purchaser;
 }
 
-- (unsigned char);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id)ctionViewLayoutAttributes *>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (_Bool)n:(id)arg1;
+- (id)esEvent",R,N;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id)!ìFùÌÐ1¢!0@ù
-× ;
-- (id)UIAccessibilityContentSizeCategoryImageAdjustingInternal;
-- (id);
-- (id)ÿ;
+- (unsigned char)Dy&;
+- (void)@7h;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;

@@ -29,14 +29,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)lection;
-- (id)÷©ûÿ;
-- (void)ÿ;
+- (id);
+- (long long);
+- (id)deMutableCurationModelP;
+- (id)ler init];
+- (void)Curations In Album Folder;
+- (void)yle;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFlexMusicAsset *asset; // @synthesize asset=_asset;

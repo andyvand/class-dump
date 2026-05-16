@@ -7,8 +7,8 @@
 @class NSDate, NSString, NSUUID;
 
 @protocol HFSymptomResultContextProviding
-- (NSUUID *)ts;
-- (NSString *)Collection init];
+- (NSString *)ameraImageManager purgeVideoFilesAtURL:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (NSUUID *)lic}@ selectedHome:%{private}@ %{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryCategory;

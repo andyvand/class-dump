@@ -17,7 +17,7 @@
     CNAtomView *_hostAtomView;
 }
 
-- (id));
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -30,16 +30,16 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)P;
-- (_Bool)cipients:animated: /* Error: Ran out of types for this method. */;
-- (int)ForTruncation: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (int)ËÏ£;
 
 // Remaining properties
 @property(nonatomic) __weak CNAtomView *hostAtomView; // @synthesize hostAtomView=_hostAtomView;

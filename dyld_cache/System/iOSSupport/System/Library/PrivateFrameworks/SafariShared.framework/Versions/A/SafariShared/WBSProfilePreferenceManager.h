@@ -24,16 +24,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)&;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

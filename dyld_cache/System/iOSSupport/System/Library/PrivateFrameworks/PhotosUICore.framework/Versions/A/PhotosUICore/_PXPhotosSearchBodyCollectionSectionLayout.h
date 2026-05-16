@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Max Concurrent Players;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotosSearchBodyContainerInfo *containerInfo; // @synthesize containerInfo=_containerInfo;

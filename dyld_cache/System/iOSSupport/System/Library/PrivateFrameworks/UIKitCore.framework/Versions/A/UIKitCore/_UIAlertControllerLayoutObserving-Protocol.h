@@ -5,11 +5,5 @@
 //
 
 @protocol _UIAlertControllerLayoutObserving
-- (void)C;
-- (void)orPixelFormat: /* Error: Ran out of types for this method. */;
-- (void)eImpl;
-- (void);
-- (void)ImageReceivedEvent: /* Error: Ran out of types for this method. */;
-- (void)tWithGUID:chatIdentifiers:style:services:reply: /* Error: Ran out of types for this method. */;
 @end
 

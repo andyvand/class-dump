@@ -16,21 +16,21 @@
     double _iconScale;
 }
 
-- (id);
-- (void);
+- (long long);
+- (void);
 - (struct CGSize);
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (_Bool)lExtent;
+- (id)dLabel;
+- (id)parators;
+- (void)em;
+- (double)m/Library/Frameworks/StickerKit.framework/StickerKit;
 - (void);
 - (void);
-- (long long)@ù
-× ;
-- (void)ansitionToView:(_Bool)arg1;
-- (id);
-- (id)ed key window scene in stack affectingApplicationKeyWindow:(struct CGRect)arg1 %{public}d; new:%{public}s:%{public}p; new scene identity:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (_Bool)oved:%@ /* Error: Ran out of types for this method. */;
-- (void)/ÿ/ÔK^;
-- (void)Î9^;
-- (double)öàþ;
+- (id)/
+ÿ¼×è];
+- (void):(id)arg1 0;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *accessibilityHUDImage; // @synthesize accessibilityHUDImage=_accessibilityHUDImage;

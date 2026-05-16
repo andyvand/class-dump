@@ -21,14 +21,13 @@
 - (id);
 - (id);
 - (struct CGSize);
+- (id);
+- (id);
 - (struct UIEdgeInsets);
-- (void);
+- (long long);
 - (id);
-- (id)!ÄAùQzð1b0@ù
-× ;
-- (id);
-- (id)nVolumeAnimator;
-- (long long)kûÿ;
+- (id)rtMessage;
+- (void)sUtilities.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;

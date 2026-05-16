@@ -16,9 +16,8 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (_Bool);
 - (id);
-- (void)!|DùqÂð1¢!0@ù
-× ;
-- (id)idGestureRecognizerShouldBegin: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)°ËÉÿ«¢ÏXFh;
 
 @end
 

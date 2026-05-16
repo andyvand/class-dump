@@ -34,14 +34,14 @@
 - (id);
 - (void);
 - (id);
-- (long long);
 - (id);
-- (void);
-- (void);
-- (void);
 - (long long);
-- (id);
 - (void);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (void)with Enhanced Logging;
 
 // Remaining properties
 @property(nonatomic) __weak id <FBKDeviceChoiceDelegate> choiceDelegate; // @synthesize choiceDelegate=_choiceDelegate;

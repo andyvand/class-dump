@@ -26,23 +26,23 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (CDStruct_14d5dc5e);
+- (_Bool);
 - (long long);
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (double);
-- (id);
 - (double);
 - (struct CLLocationCoordinate2D);
+- (double);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double altitude;

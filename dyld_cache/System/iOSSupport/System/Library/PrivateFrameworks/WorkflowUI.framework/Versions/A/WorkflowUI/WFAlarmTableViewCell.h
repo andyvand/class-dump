@@ -14,11 +14,11 @@
 
 - (void);
 - (id);
+- (void);
+- (struct CGSize);
 - (id);
-- (void);
-- (void);
 - (_Bool);
-- (struct CGSize)!6;
+- (void)ÿÿÿÿü;
 
 // Remaining properties
 @property(readonly, nonatomic) MTUIAlarmView *alarmView; // @synthesize alarmView=_alarmView;

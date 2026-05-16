@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)eAndSubtitle;
+- (id);
+- (void)sMagazineFeedGroupConfigData;
 
 @end
 

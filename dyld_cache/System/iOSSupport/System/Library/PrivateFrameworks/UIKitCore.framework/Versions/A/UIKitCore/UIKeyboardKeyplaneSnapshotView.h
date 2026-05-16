@@ -15,11 +15,10 @@ __attribute__((visibility("hidden")))
     UIImageView *_bgView;
 }
 
-- (id)sAutoReplyWithBlastDoorMessage:(id)arg1;
-- (id);
-- (void)
-× ;
+- (id);
+- (id);
 - (void);
+- (void)xìe;
 
 @end
 

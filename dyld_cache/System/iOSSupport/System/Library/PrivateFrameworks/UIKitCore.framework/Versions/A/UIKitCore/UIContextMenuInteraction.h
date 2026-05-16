@@ -50,8 +50,9 @@
     struct CGPoint _stashedLocation;
 }
 
-+ (void)w;
-+ (id)0ämþp¯þÿÎîúÿ;
++ (id);
++ (void)Áÿ°!Dù±Xð1Â0@ù
+× ;
 
 @end
 

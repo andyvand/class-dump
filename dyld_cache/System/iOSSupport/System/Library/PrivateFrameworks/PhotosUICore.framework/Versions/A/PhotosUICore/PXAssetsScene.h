@@ -66,23 +66,23 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)tion:(id)arg1;
-- (id)L8;
-- (_Bool);
-- (id)brary;
-- (id)GG_Qo__Qo_G|¶ G_SSQo_AQySbGGAQySiGGâÁ GA3_G_: /* Error: Ran out of types for this method. */;
-- (void)7UIImageCSg5imagetSgG;
-- (void)À¬6!è(ÿ (ÿàp;
-- (id);
-- (void) ¼7;
+- (void);
+- (id)r;
+- (void)SortCollectionAction;
+- (void)ShelvesPreferBeingDisplayedOnLeadingSide;
+- (_Bool)tosSuggestionType;
+- (void)titleText;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *_anchors; // @synthesize _anchors=__anchors;

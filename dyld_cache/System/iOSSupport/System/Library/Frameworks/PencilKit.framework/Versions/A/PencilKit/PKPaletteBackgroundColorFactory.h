@@ -8,7 +8,7 @@
 {
 }
 
-- (id)"NSError"32;
+- (id);
 
 @end
 

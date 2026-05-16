@@ -29,11 +29,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)N@P;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;

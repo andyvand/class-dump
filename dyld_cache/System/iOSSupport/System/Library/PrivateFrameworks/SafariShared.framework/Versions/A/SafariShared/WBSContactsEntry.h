@@ -11,20 +11,19 @@
     CNContact *_contact;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 - (id);
-- (unsigned long long)7;
 - (unsigned long long);
-- (void);
+- (unsigned long long);
 - (id);
-- (id)!à@ùQe°1¢!0@ù
-× ;
-- (id)=q}},R,N,V_timestamp;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;

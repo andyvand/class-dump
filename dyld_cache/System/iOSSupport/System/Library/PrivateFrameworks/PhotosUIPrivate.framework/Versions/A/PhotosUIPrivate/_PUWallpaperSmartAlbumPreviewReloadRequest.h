@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (CDUnknownBlockType);
+- (void)olumnsOverride;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

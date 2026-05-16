@@ -7,9 +7,6 @@
 @class UIMenuSystem;
 
 @protocol UIMenuBuilder
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenuSystem *system;

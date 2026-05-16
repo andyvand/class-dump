@@ -32,10 +32,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)g;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *bottomSeparator; // @synthesize bottomSeparator=_bottomSeparator;

@@ -5,7 +5,5 @@
 //
 
 @protocol _UIWTCProofreadingInteractionDelegate
-- (_Bool)d oid sub-identifier %s;
-- (void)d;
 @end
 

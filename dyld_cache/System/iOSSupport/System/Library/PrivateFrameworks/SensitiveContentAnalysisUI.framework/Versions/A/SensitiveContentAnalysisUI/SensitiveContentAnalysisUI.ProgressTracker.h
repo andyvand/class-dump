@@ -8,6 +8,8 @@
 
 @interface SensitiveContentAnalysisUI.ProgressTracker
 {
+    MISSING_TYPE *totalBytes;
+    MISSING_TYPE *processedBytes;
     MISSING_TYPE *progress;
     MISSING_TYPE *currentFileProgress;
     MISSING_TYPE *currentChunkSize;

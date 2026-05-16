@@ -10,17 +10,16 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool)<;
-- (void)$Q;
-<;
-- (void);
-- (double)5&<;
-- (double)}&<;
+- (_Bool);
 - (_Bool);
 - (void);
-- (double)ecognizer;
-- (id)cessibilityShouldUseViewHierarchyForFindingScrollParent;
+- (void);
+- (double);
+- (double);
+- (_Bool);
+- (void);
+- (double);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;

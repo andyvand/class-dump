@@ -43,8 +43,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (float);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setChildrenToneClassicsPickerItems:) NSArray *childrenToneClassicsPickerItems; // @synthesize childrenToneClassicsPickerItems=_childrenToneClassicsPickerItems;

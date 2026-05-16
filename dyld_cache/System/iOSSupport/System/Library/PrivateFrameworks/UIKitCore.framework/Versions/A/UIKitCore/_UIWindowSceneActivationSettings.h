@@ -21,26 +21,26 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)gestsBegin;
-- (void)Payload failed 0x%X;
-- (void)aInstance;
-- (void)add dataClass;
-- (void)Length is not 0;
 - (void);
-- (void)kt;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (double);
-- (id)a;
+- (id);
 - (double);
 - (double);
-- (double)'E�(;
+- (double);
 - (id);
 - (id);
-- (void)onHandler:(id)arg1;
 - (void);
 - (void);
-- (void)updatePanelControllerForViewControllerChangeInColumn:alwaysAnimate:shouldUpdateCollapsedNavStack: /* Error: Ran out of types for this method. */;
+- (void)aseHeight: /* Error: Ran out of types for this method. */;
+- (void)ÀÔþÿ;
 
 // Remaining properties
 @property(retain, nonatomic) _UISpringAnimationPrototypeSettings *morph; // @synthesize morph=_morph;

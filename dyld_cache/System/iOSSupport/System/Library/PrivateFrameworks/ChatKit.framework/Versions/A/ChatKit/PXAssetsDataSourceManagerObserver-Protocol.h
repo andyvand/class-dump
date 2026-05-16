@@ -5,8 +5,5 @@
 //
 
 @protocol PXAssetsDataSourceManagerObserver
-
-@optional
-- (void);
 @end
 

@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long);
-- (double)update...;
-- (id)ú´øÿüÿ;
-- (long long)|kDÿB;
+- (void)Øþ°	ÍP_z;
+- (id);
+- (long long)MyMagazinesRouterType;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

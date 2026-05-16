@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize)hment:(id)arg1 %@ Exit:(double)arg2 %@;
-- (struct CGSize)reply, but CarKit is not available, not sending auto reply;
-- (void)k as delivered, trying again in a bit;
+- (struct CGSize);
+- (struct CGSize);
+- (void);
 
 @end
 

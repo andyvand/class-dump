@@ -11,12 +11,12 @@
     NSString *_identifier;
 }
 
-+ (_Bool)Left (WFTextAlignment);
-- (void);
++ (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)@0:(id)arg1 8@"WFWorkflowController"16@"WFAction"24;
+- (void)Gets the halfway point between two locations.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

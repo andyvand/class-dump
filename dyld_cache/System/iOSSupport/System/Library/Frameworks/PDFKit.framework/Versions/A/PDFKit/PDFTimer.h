@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)_setSnippetEdgeInsets:,V_snippetEdgeInsets /* Error: Ran out of types for this method. */;
 - (void);
-- (void)pConstraint;
-- (void)E;
+- (void);
+- (void);
+- (void);
 - (void);
 
 @end

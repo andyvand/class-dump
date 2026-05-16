@@ -5,6 +5,5 @@
 //
 
 @protocol UIDropInteractionEffect
-- (void);
 @end
 

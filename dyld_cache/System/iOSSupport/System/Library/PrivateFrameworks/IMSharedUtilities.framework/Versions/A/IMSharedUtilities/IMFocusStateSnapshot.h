@@ -19,9 +19,9 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
+- (void)chmentsP;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long configurationType; // @synthesize configurationType=_configurationType;

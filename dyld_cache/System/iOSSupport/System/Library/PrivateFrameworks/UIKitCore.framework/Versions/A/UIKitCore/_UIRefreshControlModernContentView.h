@@ -23,56 +23,54 @@ __attribute__((visibility("hidden")))
     double _impactIntensity;
 }
 
-- (double);
-- (double);
 - (void);
 - (void);
-- (double)data in message;
-- (void);
-- (void);
-- (void);
+- (long long);
 - (_Bool);
 - (void);
 - (void);
+- (struct CGSize);
+- (double);
+- (double);
 - (void);
-- (void);
+- (double);
 - (void);
-- (double)#0º;
-- (void)°1¢!0@ù
-× ;
-- (void)ð!@BùÅ1¢!0@ù
-× ;
 - (void);
-- (long long)uð!BùÊ1¢!0@ù
-× ;
-- (void)°!8AùQÌ1¢!0@ù
-× ;
-- (void)!8Gù±Í°1¢!0@ù
-× ;
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)"UITableView"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionCommitAnimating>"32;
-- (void)portAppLaunchCompleteCallback: /* Error: Ran out of types for this method. */;
-- (double)IfNecessary;
-- (_Bool);
-- (void)er:(id)arg1 allowUndeclared: /* Error: Ran out of types for this method. */;
-- (id)shouldReset:(double)arg1;
-- (void)euedAuxiliaryConnections;
-- (struct CGAffineTransform)delegateWantsFooterTitleForSection: /* Error: Ran out of types for this method. */;
-- (id)tIsEqual;
-- (void)tem;
-- (void)neLayoutPreferenceBuilder;
-- (id);
-- (struct CGAffineTransform)È­;
-- (void)he collapse unintentional and using standard height instead. Cell:(id)arg1 %@;
-- (void)n:sawDragEndEvent /* Error: Ran out of types for this method. */;
-- (id);
-- (double)dPlaceholderSupportC;
-- (void)archive data:(id)arg1 <%@:%@> %@ /* Error: Ran out of types for this method. */;
-- (void)ansitioning state!;
-- (struct CGSize)resenterGeometryDriverStorage;
-- (void)u@üÇBtÕ?;
-- (double)opGroupName;
-- (void)½Kÿ;
+- (void)°1Â0@ù
+× ;
+- (struct CGAffineTransform)Ô ;
+- (id)ð1Â0@ù
+× ;
+- (double);
+- (_Bool)Ô!°! @ùb°1Â0@ù
+× ;
+- (double)UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
+- (id)tterMenuPanningTransformer"16{CGPoint=dd}24{CGVector=dd}40{CGVector=dd}56;
+- (void)hTrackpadFingerDownCount:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
+- (void)ityFromDroppedItem:(double)arg1;
+- (void)Overlay: /* Error: Ran out of types for this method. */;
+- (void)lyRepositionButtons:(long long)arg1;
+- (id)dRemoteKeyboardWindowActivityObserverGesture;
+- (void)owProxy:,V_UINSWindowProxy /* Error: Ran out of types for this method. */;
+- (void)taForPath: /* Error: Ran out of types for this method. */;
+- (void)ä ;
+- (double)Ø£ÑÈUð£ÑÔ(UÄ¤ÑÜ*Uè¤ÑRU¥Ñ]U4¥ÑrUp¥ÑPuUÌ¥ÑÐzUT¦ÑdUh¦ÑÐUÌ§Ñ¸Uì§ÑU¨Ñð¨UH¨Ñd»Ut¨ÑüÅU¤¨ÑüÇUì¨ÑHàU,©ÑðâUl©ÑàïU©ÑøVì©ÑP,V ªÑÄ4VtªÑ8V¬ªÑ·VàªÑü¿VôªÑ¸#W(«Ñ¼OW`«ÑpQWt«ÑphW«Ñü®W «Ñ|äW´¬Ñ¸XÈ­Ñ;
+- (struct CGAffineTransform);
+- (id)U;
+- (void);
+- (void)ÀE;
+- (void)à?\;
+- (void)À;
+- (void);
+- (void)úz;
 
 // Remaining properties
 @property(nonatomic) _Bool areAnimationsValid; // @synthesize areAnimationsValid=_areAnimationsValid;

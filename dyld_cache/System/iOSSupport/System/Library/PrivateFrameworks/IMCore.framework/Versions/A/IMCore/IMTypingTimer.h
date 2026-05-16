@@ -18,18 +18,18 @@
 
 + (_Bool);
 - (void);
-- (void)';
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (id)H;
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)ersions/A/Metal;
-- (double)d;
-- (void)³j;
-- (void);
+- (void)$¶¤¶à·º»ä»0½øÀ4ÁÁdÂÌÂ<Ã;
+- (double)¤h;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;

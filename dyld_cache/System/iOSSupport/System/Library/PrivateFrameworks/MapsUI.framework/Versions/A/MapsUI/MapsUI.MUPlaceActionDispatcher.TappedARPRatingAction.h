@@ -14,8 +14,8 @@
     MISSING_TYPE *value;
 }
 
-- (void);
 - (id);
+- (void)etRatingState: /* Error: Ran out of types for this method. */;
 
 @end
 

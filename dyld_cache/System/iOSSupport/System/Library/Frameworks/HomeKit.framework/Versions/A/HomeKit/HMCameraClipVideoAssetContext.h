@@ -13,21 +13,21 @@
     NSData *_hlsPlaylist;
 }
 
-+ (id)ÈÛÜ Ü;
-+ (_Bool)MServiceMediaSourceIdentifierUpdatedNotification;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)yCollectionSettingItemClassManager;
-- (id)wnload for segments because we are cancelled:%@ /* Error: Ran out of types for this method. */;
+- (void)ø¤Ü	;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

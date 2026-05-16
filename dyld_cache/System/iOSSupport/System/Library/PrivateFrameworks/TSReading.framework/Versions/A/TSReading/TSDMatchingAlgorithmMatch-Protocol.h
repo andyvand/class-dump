@@ -5,7 +5,6 @@
 //
 
 @protocol TSDMatchingAlgorithmMatch
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id incomingMatchObject;

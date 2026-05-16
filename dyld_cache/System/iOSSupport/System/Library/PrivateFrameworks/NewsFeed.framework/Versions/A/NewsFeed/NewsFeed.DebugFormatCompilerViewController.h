@@ -16,15 +16,15 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (long long);
-- (void){Xüÿ;
+- (void)à1;
+- (void);
 
 @end
 

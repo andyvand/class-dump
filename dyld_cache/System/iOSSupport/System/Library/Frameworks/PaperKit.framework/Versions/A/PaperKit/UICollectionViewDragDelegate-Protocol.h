@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UICollectionViewDragDelegate
-- (NSArray *);
 
 @optional
-- (_Bool)yÅyaÁG_Ú±þÿQo_ºÅylÈyÞ³yAJy¡±þÿ¯G²²G_AJyAJy²þÿALGANGtGGGAIyAHyAIyAG_ARtGG_AJyAHyAMGANGSgtG_G;
-- (_Bool),¢Ãÿ;
+- (_Bool);
 @end
 

@@ -8,7 +8,7 @@
 @protocol SWShareConfiguration;
 
 @protocol SWNavigationBarConfiguration
-- (NSString *)@;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWShareConfiguration> shareConfiguration;

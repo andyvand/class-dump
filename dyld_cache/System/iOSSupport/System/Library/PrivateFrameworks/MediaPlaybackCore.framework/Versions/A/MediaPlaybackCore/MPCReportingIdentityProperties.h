@@ -16,7 +16,7 @@
 }
 
 - (void);
-- (_Bool)"NSError">36;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)@ error=%{public}@;
 
 // Remaining properties
 @property(copy, nonatomic) ICPlayActivityEnqueuerProperties *enqueuerProperties; // @synthesize enqueuerProperties=_enqueuerProperties;

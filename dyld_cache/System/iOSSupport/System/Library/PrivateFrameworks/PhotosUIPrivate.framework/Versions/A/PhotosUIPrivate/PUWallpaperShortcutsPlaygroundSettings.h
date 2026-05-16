@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     NSString *_selectedAssetIdentifier;
 }
 
-+ (id);
++ (id)ContentViewLayout;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ssibilityIdentifier;
 
 // Remaining properties
 @property(nonatomic) _Bool previewEnabled; // @synthesize previewEnabled=_previewEnabled;

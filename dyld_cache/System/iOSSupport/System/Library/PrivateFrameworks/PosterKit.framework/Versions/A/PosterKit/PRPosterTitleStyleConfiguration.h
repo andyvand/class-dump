@@ -13,22 +13,22 @@
 }
 
 + (double);
++ (id);
++ (id);
 + (double);
-+ (id);
-+ (id);
-+ (id);
++ (unsigned long long);
++ (void);
 + (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (_Bool);
 + (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (_Bool)edTintColor:iconTintSource:isDimmed:iconUserInterfaceSize:iconUserInterfaceStyleType: /* Error: Ran out of types for this method. */;
-+ (id)ata;
++ (id);
++ (id)Qo_ðTéybUéSgGGAIySiSgGG KéGAIy·êGGhVéyAR_Qo_G[YéG_AYtGG_éG_AEyACyXéyACyADyAYA0_G_ADyAFyAFyAyDyÚ=AQGGAXGòÈÿÿGtGGSg_ADyAWA8_GADyAYA8_GSgtGGtGG;
++ (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -70,19 +70,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (Class);
 - (id);
+- (unsigned long long);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 

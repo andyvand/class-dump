@@ -27,11 +27,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)AtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ittenAnyNewValues:(id)arg1;
-- (void)ôóñÿ;
+- (void)r:(_Bool)arg1;
+- (void)ller.m;
 
 // Remaining properties
 @property(retain, nonatomic) OBBoldTrayButton *commitButton; // @synthesize commitButton=_commitButton;

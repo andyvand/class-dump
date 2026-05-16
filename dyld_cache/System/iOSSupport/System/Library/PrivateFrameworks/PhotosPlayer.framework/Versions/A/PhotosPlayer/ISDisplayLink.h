@@ -16,19 +16,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (long long);
 - (void);
-- (long long)B;Fi;
-- (void) ;
-- (void)@;
 - (void);
+- (void);
+- (void);
+- (CDUnknownBlockType)°1Â0@ù
+× ;
+- (id)eo:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

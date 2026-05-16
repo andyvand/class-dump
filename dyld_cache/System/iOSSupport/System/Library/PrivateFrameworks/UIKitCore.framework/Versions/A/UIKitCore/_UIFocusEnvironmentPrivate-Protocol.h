@@ -5,18 +5,8 @@
 //
 
 @class NSArray;
-@protocol UICoordinateSpace, UIFocusEnvironment;
 
 @protocol _UIFocusEnvironmentPrivate
-
-@optional
-- (long long);
-- (id <UIFocusEnvironment>)8@0:8q16B24 /* Error: Ran out of types for this method. */;
-- (_Bool)d:(unsigned long long)arg1;
-- (struct CGRect)ecoverableMessagesCKConfiguration:(id <UICoordinateSpace>)arg1;
-- (void)cType: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)%p>;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isEligibleForFocusInteraction) _Bool eligibleForFocusInteraction;

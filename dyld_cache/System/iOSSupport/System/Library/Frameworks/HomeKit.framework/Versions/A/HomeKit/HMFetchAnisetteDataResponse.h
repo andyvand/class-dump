@@ -16,15 +16,15 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)Onboarding;
++ (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)Class:forKey:error: /* Error: Ran out of types for this method. */;
+- (void)À;
 
 // Remaining properties
 @property(copy, nonatomic) AKAnisetteData *anisetteData; // @synthesize anisetteData=_anisetteData;

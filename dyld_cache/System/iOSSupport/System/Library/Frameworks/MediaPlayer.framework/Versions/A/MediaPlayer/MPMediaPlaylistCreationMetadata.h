@@ -15,13 +15,13 @@
 }
 
 - (void);
-- (id)sReaderText"b1};
-- (void);
-- (id)ey->attestation is NULL;
+- (id);
 - (void);
 - (id);
-- (id)_;
 - (id);
+- (id);
+- (id);
+- (void)DidEnd;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *authorDisplayName; // @synthesize authorDisplayName=_authorDisplayName;

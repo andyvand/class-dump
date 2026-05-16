@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)led to get resulting media system from response:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) HMAccessoryAccessCode *accessoryAccessCode; // @synthesize accessoryAccessCode=_accessoryAccessCode;

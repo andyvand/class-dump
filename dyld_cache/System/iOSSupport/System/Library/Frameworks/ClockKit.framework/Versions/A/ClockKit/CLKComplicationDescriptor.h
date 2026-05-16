@@ -35,20 +35,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CLKUserActivity *clkUserActivity; // @synthesize clkUserActivity=_clkUserActivity;

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol DOCUndoableOperation;
+@class NSString;
 
 @protocol DOCUndoableOperation
-- (NSObject<DOCUndoableOperation> *);
-
-@optional
-- (void)±ð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionNameForUndoing;

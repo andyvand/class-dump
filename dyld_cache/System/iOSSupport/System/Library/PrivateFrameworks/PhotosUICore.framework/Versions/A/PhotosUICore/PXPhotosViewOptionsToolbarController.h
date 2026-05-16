@@ -30,17 +30,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (struct CGSize);
 - (long long);
-- (struct UIEdgeInsets);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void);
 - (struct UIEdgeInsets);
-- (_Bool);
-- (id);
-- (struct CGSize)em:(id)arg1 afterGroupItem: /* Error: Ran out of types for this method. */;
-- (double)reFeedbackGenerator;
+- (double)× ;
+- (id)64;
+- (struct UIEdgeInsets)n:(id)arg1 context:withChangeRequest: /* Error: Ran out of types for this method. */;
+- (void)ontrollerSwiftFactory class];
+- (_Bool)UBJECT;
 - (void);
 
 // Remaining properties

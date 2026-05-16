@@ -7,8 +7,6 @@
 @class HMHome, NSUUID;
 
 @protocol HMAutomationBuilderInternal
-- (NSUUID *)ñ¨°1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home;

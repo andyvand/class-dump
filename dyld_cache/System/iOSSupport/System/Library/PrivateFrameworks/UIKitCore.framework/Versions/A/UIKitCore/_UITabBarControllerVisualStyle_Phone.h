@@ -17,28 +17,27 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void)appear available to this user;
-- (void)played on linked device:(_Bool)arg1 %@;
-- (void)ilesOnDiskAndUpdateTransfers without proper default ---- please set them:(id)arg1 defaults write com.apple.madrid EnableCacheDelete -bool YES;
-- (void)eController. Storing message %@ failed with error %@;
-- (id)n Notice (guid:(id)arg1 %@) to handles:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ce with a nil URL, dropping notice.;
-- (id)atSyncFailed;
-- (struct UIEdgeInsets);
+- (_Bool);
 - (void);
 - (void);
-- (long long);
+- (void);
+- (void);
 - (id);
-- (void)qÄÐ1¢!0@ù
-× ;
-- (id)«Y×»]o;
-- (void)À;
+- (_Bool);
+- (id);
+- (struct UIEdgeInsets);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (void)TXq;
+- (id)uJÿÉÕn;
+- (void) ÿÙI©p;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool ignoresDefaultTabBarVisibilityAnimation;

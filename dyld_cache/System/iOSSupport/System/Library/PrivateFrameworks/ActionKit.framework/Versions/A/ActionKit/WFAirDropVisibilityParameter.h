@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)lizedDescription;
 
 // Remaining properties
 @property(nonatomic, readonly) id <WFPropertyListObject> defaultSerializedRepresentation;

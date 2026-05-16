@@ -16,7 +16,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (long long);
-- (void);
+- (void)Kind;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

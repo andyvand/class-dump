@@ -19,14 +19,14 @@
 }
 
 - (void);
-- (void);
-- (void)Coordinator setObserver:(_Bool)arg1 ]_block_invoke;
-- (void);
-- (id)yticsNotificationReceiptEndpointUrlForEnvironment:(id)arg1;
-- (id),N,V_articleDiversificationUniquePublisherExpectationSlope;
+- (id);
+- (id);
 - (void);
 - (void);
-- (void)!Z\Ùí;
+- (void);
+- (void);
+- (void)pÊüÿÊüÿèÊüÿËüÿ<ËüÿhËüÿËüÿøËüÿDÌüÿdÌüÿ|ÌüÿÍüÿÍüÿ4ÍüÿLÍüÿdÍüÿ|ÍüÿÍüÿðÍüÿ;
+- (void)/;
 
 @end
 

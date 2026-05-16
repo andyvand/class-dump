@@ -31,7 +31,7 @@
 
 + (id);
 + (struct CGRect);
-+ (id)`;
++ (id);
 + (id);
 + (id);
 + (struct CGColor *);
@@ -44,7 +44,7 @@
 + (struct CGRect);
 + (struct CGRect);
 - (struct CGRect);
-- (double);
+- (double);
 - (struct CGRect);
 - (struct CGRect);
 - (unsigned long long);
@@ -53,7 +53,7 @@
 - (void);
 - (struct CGAffineTransform);
 - (double);
-- (double)%F;
+- (double);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -70,11 +70,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -95,9 +95,8 @@
 - (const void *);
 - (unsigned long long);
 - (const void *);
-- (const void *);
-- (const void *)Sh
-;
+- (const void *);
+- (const void *);
 - (int);
 - (struct CGRect);
 - (_Bool);
@@ -117,7 +116,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (struct CGRect);
-- (struct _TSWPCharIndexAndPosition);
+- (struct _TSWPCharIndexAndPosition);
 - (double);
 - (double);
 - (struct _NSRange);
@@ -126,7 +125,7 @@
 - (_Bool);
 - (struct CGAffineTransform);
 - (unsigned long long);
-- (struct CGRect)R;
+- (struct CGRect);
 - (void);
 - (double);
 - (_Bool);
@@ -146,22 +145,21 @@
 - (struct CGRect);
 - (double);
 - (void);
-- (void)F;
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
 - (struct CGRect);
-- (id)ÑQ1¢!0@ù
-× ;
-- (struct _NSRange)ontroller;
+- (id);
+- (id);
+- (struct _NSRange);
+- (unsigned long long);
+- (void);
+- (id);
+- (void)(ÔP¬;
+- (struct CGSize)ta> &) const;
 
 // Remaining properties
 @property(nonatomic) unsigned long long anchoredCharCount; // @synthesize anchoredCharCount=_anchoredCharCount;

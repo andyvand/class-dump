@@ -15,9 +15,8 @@
 }
 
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)movementNormalizationFactor;
+- (id);
+- (void)üÄFÿ+Aÿ;
 
 @end
 

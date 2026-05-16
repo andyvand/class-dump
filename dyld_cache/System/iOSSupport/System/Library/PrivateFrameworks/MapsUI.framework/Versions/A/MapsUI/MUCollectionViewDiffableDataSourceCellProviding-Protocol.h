@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionReusableView, UICollectionView;
+@class UICollectionReusableView;
 
 @protocol MUCollectionViewDiffableDataSourceCellProviding
 
 @optional
-- (UICollectionReusableView *)action:(UICollectionView *)arg1;
+- (UICollectionReusableView *)³;
 @end
 

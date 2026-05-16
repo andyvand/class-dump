@@ -7,11 +7,11 @@
 @protocol BEResponderEditActions
 
 @optional
-- (void)is NULL;
-- (void)aletteIsTransitioning;
-- (void)tentHeight;
-- (void)SentinelPoint;
-- (void); value:(id)arg1 %f>;
-- (void);
+- (void)ar on UIKit if you have repro steps;
+- (void)ntent{view=%p data=%p layout=%p};
+- (void)%@={
+;
+- (void)ameworks/TelephonyUtilities.framework/TelephonyUtilities;
+- (void)P \;
 @end
 

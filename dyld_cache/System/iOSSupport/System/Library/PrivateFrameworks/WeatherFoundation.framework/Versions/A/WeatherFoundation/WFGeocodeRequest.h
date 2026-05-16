@@ -21,22 +21,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (struct CLLocationCoordinate2D);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id)";
-- (struct CLLocationCoordinate2D);
-- (void);
-- (void);
+- (id);
+- (void)× ;
 
 // Remaining properties
 @property(retain) MKLocalSearchCompletion *autocompleteSearchResult; // @synthesize autocompleteSearchResult=_autocompleteSearchResult;

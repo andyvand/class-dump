@@ -10,10 +10,10 @@
 }
 
 - (id);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool baseContentTouchedDown; // @synthesize baseContentTouchedDown=_baseContentTouchedDown;

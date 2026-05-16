@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)re;
-- (id);
 - (void);
-- (void)ady prepared to play];
 - (id);
 - (void);
 - (id);
-- (id)0@ù
-× ;
-- (void)mumContentPoint;
-- (id);
+- (id);
+- (void)tViews;
+- (id)asSetupWindowInteractions;
+- (id)tArrow;
+- (void);
+- (void)vþµÆ23èvþ;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *label; // @synthesize label=_label;

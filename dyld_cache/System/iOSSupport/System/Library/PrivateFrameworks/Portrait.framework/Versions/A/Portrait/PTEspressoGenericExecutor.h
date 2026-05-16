@@ -43,9 +43,9 @@
 - (unsigned int);
 - (short);
 - (id);
-- (unsigned int);
-- (unsigned int);
 - (void);
+- (unsigned int);
+- (unsigned int);
 - (void);
 
 @end

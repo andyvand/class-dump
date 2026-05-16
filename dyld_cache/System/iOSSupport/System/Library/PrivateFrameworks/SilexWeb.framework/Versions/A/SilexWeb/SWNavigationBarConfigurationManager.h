@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (id)ndler;
-- (void)ntentNavigator;
-- (void);
-- (CDUnknownBlockType);
-- (void)_;
 - (id);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id)edByFrame:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

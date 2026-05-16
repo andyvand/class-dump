@@ -18,14 +18,14 @@
 + (id);
 + (id);
 - (id);
-- (id)eys;
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (void);
+- (_Bool);
 - (id);
-- (id)etion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SWDatastore *datastore; // @synthesize datastore=_datastore;

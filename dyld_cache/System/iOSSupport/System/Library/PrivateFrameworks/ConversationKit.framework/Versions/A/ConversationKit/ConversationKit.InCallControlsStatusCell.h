@@ -25,11 +25,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)¼ÿ;
+- (void)IControlCtG;
+- (id)yAKA4_GAWy§z SgGGA58_GAWy^ GGATGä¢GSgtG¢| ySSGGtGG_Qo__Qo_A72_G_kÐSgSgtGGATGpu G²O;
 
 // Remaining properties
 @property(nonatomic, retain) UIControl *actionButton; // @synthesize actionButton;

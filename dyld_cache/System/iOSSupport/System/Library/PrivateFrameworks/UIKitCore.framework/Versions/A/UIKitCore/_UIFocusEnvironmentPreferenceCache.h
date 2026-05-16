@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)te standard Size to tiny size %@;
-- (void);
-- (id)ndEffectWithProgress: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)°Ñ[;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *environmentsMap; // @synthesize environmentsMap=_environmentsMap;

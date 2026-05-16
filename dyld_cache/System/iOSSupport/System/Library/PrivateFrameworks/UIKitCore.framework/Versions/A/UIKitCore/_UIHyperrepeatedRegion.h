@@ -21,31 +21,30 @@
     double *__temp;
 }
 
-+ (id).%@.%@;
-+ (_Bool)Þsÿ;
-- (const unsigned long long *)forChatGUID: /* Error: Ran out of types for this method. */;
-- (void)e:(CDUnknownBlockType)arg1;
-- (void)SString",&,N,V_groupID;
-- (void),N,V_countryCode;
-- (double *)lIDPrefix;
++ (id)n: /* Error: Ran out of types for this method. */;
++ (_Bool)bday;
+- (const unsigned long long *);
 - (void);
-- (const double *),;
-- (id)te for account %@;
-- (const double *)versation:%@ member:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)stBytesCreateMutable failed;
+- (void);
 - (double *);
-- (_Bool);
-- (id);
-- (id)ionAdamID;
-- (void)PropertyRadioStationEndingAirDate;
-- (id);
-- (unsigned long long);
 - (void);
-- (void)tð!üFù±ÈÐ1¢!0@ù
-× ;
-- (_Bool)nPresence;
-- (id)idChangeHandler;
+- (const double *);
+- (const double *);
+- (id);
+- (void);
+- (double *);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (_Bool)topShadowImage;
+- (void)tKeyboard:(id)arg1;
+- (id)ext;
+- (id)B,N,V_hasNextKeyResponder;
+- (void)View:(double *)arg1 %@;
+- (void)¸l[;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

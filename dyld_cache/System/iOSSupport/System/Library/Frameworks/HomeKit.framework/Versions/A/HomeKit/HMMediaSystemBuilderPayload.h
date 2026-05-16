@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)\Ù;
 
 // Remaining properties
 @property(readonly, copy) NSString *configuredName; // @synthesize configuredName=_configuredName;

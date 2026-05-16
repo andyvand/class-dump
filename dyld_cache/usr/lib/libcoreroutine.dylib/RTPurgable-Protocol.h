@@ -5,7 +5,5 @@
 //
 
 @protocol RTPurgable
-+ (long long).;
-- (void)ÄE;
 @end
 

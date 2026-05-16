@@ -7,9 +7,7 @@
 @class CAAnimation;
 
 @protocol _UISceneSizeRestrictionsCatalyst_Internal
-- (CAAnimation *)#;
-- (void);
-- (struct CGSize)3X±þ;
+- (struct CGSize)e;
 
 // Remaining properties
 @property(nonatomic, setter=_setNeedsStyleMaskUpdates:) _Bool _needsStyleMaskUpdates;

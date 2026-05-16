@@ -5,6 +5,5 @@
 //
 
 @protocol PKTextInputFeedbackControllerDelegate
-- (void);
 @end
 

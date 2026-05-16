@@ -14,7 +14,7 @@
     struct os_unfair_lock_s _tmpPathLock;
 }
 
-- (void)ndingText;
+- (void);
 
 @end
 

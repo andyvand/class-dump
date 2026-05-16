@@ -5,9 +5,5 @@
 //
 
 @protocol _UIRotatingAlertControllerDelegate
-
-@optional
-- (void)allocate report.;
-- (void)vice is not FDR supported;
 @end
 

@@ -13,36 +13,35 @@
     UITabBarAppearance *_owningAppearance;
 }
 
-+ (_Bool)¨ìEÿC6ÕPn;
-- (void)ayloadParentSelectionPolicy;
-- (unsigned long long);
-- (_Bool);
-- (id)Time;
++ (_Bool)ckground decorator that is already attached to a textfield.;
+- (void);
 - (id);
 - (void);
-- (id)9;
 - (id);
-- (void)=iº;
-- (void);
-- (void)Au!øFùÉÐ1¢!0@ù
-× ;
-- (id)¢!0@ù
-× ;
-- (void)ndView";
-- (id)dAtomPurpleColor;
-- (id)ouchEvents;
-- (id)ring",C,N,V_subtitle;
-- (id)nImage;
-- (void)ut;
-- (id)tackView",R,N,V_stackView;
-- (void)Ý Þ;
-- (id)only %ld sections in the table view.;
-- (void)%ñÐ¦íZ;
-- (id)ä;
-- (id)É]_;
-- (id)º!c;
 - (id);
-- (id)@£×ÎÝh;
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id)! GùqeÐ1Â0@ù
+× ;
+- (_Bool)jectsInArray:(id)arg1;
+- (void)eringMode:(id)arg1;
+- (id)earchBarForController: /* Error: Ran out of types for this method. */;
+- (void)TransitionViewFrame:(CDUnknownBlockType)arg1;
+- (id)ousMovementRequest: /* Error: Ran out of types for this method. */;
+- (id)Td,N,V_pageSpacing;
+- (id)eView;
+- (id)zcG;
+- (void);
+- (void)uÿbí;
+- (id)¬­ÿ@ô;
+- (id)|Tc;
+- (void)Ñø¢d;
+- (id)h;
+- (id)WÊÿx,ÌH8h;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setData:) _UITabBarItemData *_data; // @synthesize _data;

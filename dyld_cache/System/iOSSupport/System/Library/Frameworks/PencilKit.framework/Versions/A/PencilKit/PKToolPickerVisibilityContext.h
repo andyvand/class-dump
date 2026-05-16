@@ -13,7 +13,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)r: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool contextMenuPresentedDidChange; // @synthesize contextMenuPresentedDidChange=_contextMenuPresentedDidChange;

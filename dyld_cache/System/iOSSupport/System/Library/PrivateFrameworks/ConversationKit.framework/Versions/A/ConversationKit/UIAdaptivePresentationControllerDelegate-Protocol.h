@@ -7,6 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool)³ÿ;
+- (_Bool)D;
+- (long long)þÿ;
+- (void)ÿL;
 @end
 

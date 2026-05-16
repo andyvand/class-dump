@@ -15,10 +15,10 @@
     MISSING_TYPE *spinnerView;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)P;
+- (void);
 - (void);
 
 @end

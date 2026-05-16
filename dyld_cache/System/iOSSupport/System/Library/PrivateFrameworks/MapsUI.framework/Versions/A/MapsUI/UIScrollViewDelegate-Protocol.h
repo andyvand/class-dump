@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)ÑýÿÒýÿTÒýÿÒýÿ¼ÒýÿàÒýÿÓýÿhÓýÿÓýÿÐÓýÿôÓýÿ0Ôýÿ|Ôýÿ°ÔýÿäÔýÿÕýÿDÕýÿÕýÿÄÕýÿøÕýÿÖýÿXÖýÿ¤ÖýÿØÖýÿ×ýÿ0×ýÿl×ýÿ¸×ýÿì×ýÿ ØýÿDØýÿØýÿÌØýÿ;
-- (void);
+- (void)TAP_NEARBY_TRANSIT_FILTER;
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)tlingLinearVelocityThreshold: /* Error: Ran out of types for this method. */;
+- (void)bled: /* Error: Ran out of types for this method. */;
 
 @end
 

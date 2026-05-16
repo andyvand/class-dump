@@ -5,7 +5,6 @@
 //
 
 @protocol SXConditionalHints
-- (long long)u;
 
 // Remaining properties
 @property(readonly, nonatomic) long long autoplacement;

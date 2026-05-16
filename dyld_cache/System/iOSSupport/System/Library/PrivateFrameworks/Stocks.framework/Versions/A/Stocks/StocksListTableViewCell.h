@@ -21,20 +21,20 @@
 
 + (double);
 - (id);
-- (void);
-- (void)'Dz;
 - (void);
-- (void);
-- (void)z;
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (id)z;
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (void);
 
 // Remaining properties

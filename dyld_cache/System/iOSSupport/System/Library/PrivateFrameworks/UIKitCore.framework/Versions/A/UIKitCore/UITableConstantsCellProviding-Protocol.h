@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @protocol UITableConstantsCellProviding
-- (UIColor *):(long long)arg1 8@"TUConversationManager"16B24;
-- (long long)ReceiptIfPending: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_cellStyle) long long cellStyle;

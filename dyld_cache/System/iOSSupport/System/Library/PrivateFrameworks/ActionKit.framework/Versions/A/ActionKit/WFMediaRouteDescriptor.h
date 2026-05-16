@@ -16,16 +16,16 @@
 
 + (_Bool);
 + (id);
-+ (_Bool)wKit.ShortcutsIntents.WFMatchTextIntent;
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (_Bool)D;
+- (_Bool)tion;
+- (void)@; %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

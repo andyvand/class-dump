@@ -5,6 +5,6 @@
 //
 
 @protocol BSDescriptionStreaming
-- (void)header height (%g) provided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (void)emInfo;
 @end
 

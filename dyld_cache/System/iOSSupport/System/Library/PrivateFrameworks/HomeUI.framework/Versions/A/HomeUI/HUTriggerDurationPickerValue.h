@@ -13,11 +13,11 @@
 
 + (id);
 + (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *duration; // @synthesize duration=_duration;

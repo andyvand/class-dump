@@ -17,16 +17,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (unsigned short);
 - (void);
 - (id);
-- (id)A;
-- (id);
-- (void)1¢!0@ù
-× ;
-- (_Bool)aybackModeChanged;
-- (void)gin;
+- (void)n;
+- (_Bool)source:%{public}@ | updating target /* Error: Ran out of types for this method. */;
+- (void)OCAL;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned short behaviorFlags;

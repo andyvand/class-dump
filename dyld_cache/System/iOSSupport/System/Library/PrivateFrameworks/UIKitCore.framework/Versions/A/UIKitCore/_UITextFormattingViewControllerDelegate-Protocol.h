@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextFormattingViewController;
-
 @protocol _UITextFormattingViewControllerDelegate
-
-@optional
-- (void)loudKitMetricWithData:(UITextFormattingViewController *)arg1 operationGroupName:completion: /* Error: Ran out of types for this method. */;
-- (void)itAnalyticWithDictionary:(UITextFormattingViewController *)arg1 operationGroupName:completion: /* Error: Ran out of types for this method. */;
 @end
 

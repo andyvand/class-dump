@@ -7,10 +7,10 @@
 @class MPModelPlayEvent;
 
 @interface (null) (Nesting)
-+ (id)ICloudServiceMonitor:(id)arg1;
-- (void)tial;
-- (id)veAccount:inStore:error: /* Error: Ran out of types for this method. */;
-- (id)tsWithAccountTypeIdentifiers:error: /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic, setter=mpc_setNestedPlayEvent:) MPModelPlayEvent *mpc_nestedPlayEvent;

@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol PKPaletteColorPickerViewDelegate
-- (void);
-
-@optional
-- (UIView *)>32;
-- (_Bool)ential">40;
 @end
 

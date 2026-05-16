@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (void)Oÿÿ;
 
 // Remaining properties
 @property(nonatomic, copy) NSSet *declaredVariables;

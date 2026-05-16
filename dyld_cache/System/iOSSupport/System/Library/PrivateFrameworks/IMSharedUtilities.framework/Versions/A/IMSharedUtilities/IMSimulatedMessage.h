@@ -14,16 +14,16 @@
     NSArray *_parts;
 }
 
-+ (_Bool)24@0:8@?16 /* Error: Ran out of types for this method. */;
-- (id);
++ (_Bool);
+- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)ôýÿÿt»øÿÎÙÿ;
+- (id)ery;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMMessageItem *item; // @synthesize item=_item;

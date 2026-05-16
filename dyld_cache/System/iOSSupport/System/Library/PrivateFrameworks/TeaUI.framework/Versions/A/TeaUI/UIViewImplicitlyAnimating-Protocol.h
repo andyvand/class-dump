@@ -7,6 +7,6 @@
 @protocol UIViewImplicitlyAnimating
 
 @optional
-- (void)P;
+- (void)vity, error=%{public}@;
 @end
 

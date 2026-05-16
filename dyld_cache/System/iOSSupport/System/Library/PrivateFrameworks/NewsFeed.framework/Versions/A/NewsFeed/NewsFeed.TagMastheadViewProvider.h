@@ -13,11 +13,19 @@
     MISSING_TYPE *mastheadView;
     MISSING_TYPE *renderer;
     MISSING_TYPE *layoutAttributesFactory;
+    MISSING_TYPE *weatherService;
+    MISSING_TYPE *channelLocationService;
+    MISSING_TYPE *commandCenter;
     MISSING_TYPE *margins;
+    MISSING_TYPE *weatherMonitor;
+    MISSING_TYPE *weather;
+    MISSING_TYPE *weatherToken;
+    MISSING_TYPE *weatherTask;
 }
 
-- (void)ndsToSelector: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (void);
 
 @end
 

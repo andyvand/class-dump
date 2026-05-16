@@ -11,7 +11,7 @@
     MISSING_TYPE *style;
 }
 
-- (id);
+- (id)ü¸à^;
 - (id);
 
 @end

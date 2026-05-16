@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, UITextPlaceholder, UITextPosition, UITextRange, UIView;
-@protocol UIEditMenuInteractionAnimating, UITextInputDelegate, UITextInputTokenizer;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
+@protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (void)redential;
-- (NSArray *)(;
-- (UITextPosition *)shPreferredContentSize;
-- (long long)X;
-- (UITextPosition *)× ;
-- (UITextRange *)Ô¡ï	!xAù1ð1¢!0@ù
+- (UITextPosition *)1Â0@ù
 × ;
-- (UITextPosition *);
-- (void)DidEnterPassword:(id <UITextInputDelegate>)arg1 forPasswordView: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)ons;
-- (void)onForRequest:(NSDictionary *)arg1 defaultRegion:completion: /* Error: Ran out of types for this method. */;
-- (struct CGRect)wercaseString;
-- (id <UITextInputTokenizer>)%;
-- (id <UITextInputDelegate>)Kit "setFontColor:" warning:Annotations do not support pattern colors. Defaulting to clear. /* Error: Ran out of types for this method. */;
+- (UITextPosition *)!Q	°!Fù1v1Â0@ù
+× ;
+- (id <UITextInputDelegate>)NSIndexPath"24;
+- (id <UITextInputTokenizer>)de;
+- (void)alysisEnabled;
+- (struct CGRect)uWithConfiguration:(UITextRange *)arg1 animator: /* Error: Ran out of types for this method. */;
+- (void)tContainer: /* Error: Ran out of types for this method. */;
+- (UITextRange *)PDFScrollViewMinimumNumberOfTouches;
+- (UITextRange *)ent:(UITextPosition *)arg1 forPage:(UITextPosition *)arg2;
+- (UITextPosition *)ormField:(UITextRange *)arg1;
+- (UITextPosition *)"UIButton",&,N,V_actionsButton;
+- (void);
+- (void)syncContentsForAnnotation:(UITextRange *)arg1 withKey:andNewValue:] /* Error: Ran out of types for this method. */;
 
 @optional
-- (struct CGAffineTransform);
-- (void)dexableAttachments:(id <UIEditMenuInteractionAnimating>)arg1;
-- (NSDictionary *)*V;
-- (void)gRepresentationOfCompleteMatchesForRecipient:(NSString *)arg1 constrainedToWidth:(NSArray *)arg2 overflowRecipients:(long long)arg3 useHighlighting: /* Error: Ran out of types for this method. */;
-- (void);
-- (struct CGRect)@56;
-- (void)ð!ØEùñ1¢!0@ù
+- (UITextPosition *)
 × ;
-- (_Bool)0@ù
-× ;
-- (UITextPlaceholder *)6@"UITextFormattingViewController"24;
-- (_Bool)ailWidth: /* Error: Ran out of types for this method. */;
-- (void)iew:(struct CGPoint)arg1;
-- (void)#¨~;
-- (void)nnotationV2;
-- (void)æ?ÍÌÌÌÌÌì?ö(\ÂõØ?ÍÌÌÌÌÌä?R¸ëQØ?=
-×£p=â?¸ëQ¸æ?áz®Gáâ?áz®Gáê?¸ëQ¸¾?;
+- (struct CGRect)è;
+- (void)oForm;
+- (_Bool)w Range;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -70,5 +59,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

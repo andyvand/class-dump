@@ -24,8 +24,8 @@
 + (Class);
 - (_Bool);
 - (_Bool);
-- (void)R;
-- (void);
+- (void);
+- (void);
 - (double);
 - (id);
 - (_Bool);
@@ -36,10 +36,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id)P;
+- (id);
 - (float);
 - (void);
 - (void);
@@ -47,16 +47,16 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)(;
 - (void);
-- (void)using search path %@;
-- (void);
+- (id);
+- (void);
+- (void)ø¯²³;
 
 // Remaining properties
 @property(nonatomic) float cachedSendProgress; // @synthesize cachedSendProgress=_cachedSendProgress;

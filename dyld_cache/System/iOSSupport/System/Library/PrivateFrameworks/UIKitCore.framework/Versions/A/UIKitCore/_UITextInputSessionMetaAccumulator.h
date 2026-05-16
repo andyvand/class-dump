@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
     unsigned long long _actionCountWithoutIncrease;
 }
 
-+ (id)in3Days;
-- (id);
++ (id);
 - (void);
 - (void);
-- (void)apshot:(id)arg1;
+- (id)ndTaskWithName:(struct _NSZone *)arg1 expirationHandler: /* Error: Ran out of types for this method. */;
+- (void)#;
 
 @end
 

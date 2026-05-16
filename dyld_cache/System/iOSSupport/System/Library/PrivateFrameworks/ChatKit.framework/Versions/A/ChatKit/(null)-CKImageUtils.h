@@ -7,10 +7,10 @@
 @interface (null) (CKImageUtils)
 - (_Bool);
 - (_Bool);
-- (_Bool)MoveToWindowHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)¸²;
 @end
 

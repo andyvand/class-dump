@@ -21,7 +21,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)0;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *annotationNavigationString;

@@ -14,15 +14,13 @@ __attribute__((visibility("hidden")))
     id <_UIFocusEnginePanGestureTouchObserver> _touchObserver;
 }
 
-- (id);
 - (void);
-- (void)0@ù
-× ;
-- (void)!tEùÇÐ1¢!0@ù
-× ;
-- (void)iewState"32;
-- (void)eringValues:(id)arg1;
-- (void)er;
+- (void)ainerForContainerSize:(id)arg1 layoutAxis:(id)arg2;
+- (void)lignment:(id)arg1;
+- (void)ixColorTintAlpha;
+- (id);
+- (void)òÄþÿôÄþÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFocusEnginePanGestureRecognizerDelegate> delegate; // @dynamic delegate;

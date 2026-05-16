@@ -23,19 +23,19 @@
     MISSING_TYPE *translation;
 }
 
-- (_Bool)Delegate>",W,N,V_delegate;
 - (void);
 - (id);
-- (void)aqð!øGùÄ°1¢!0@ù
+- (id);
+- (_Bool)0@ù
 × ;
-- (unsigned long long)ranAlongsideAnimations;
-- (id)Image",&,N,V_highlightedImage;
-- (void)ü;
-- (void);
-- (id)c`;
+- (_Bool)eViewCell"16;
+- (void)sBarHiddenForInterfaceOrientation:(id)arg1 onDisplay:withUserInterfaceIdiom: /* Error: Ran out of types for this method. */;
+- (unsigned long long)",W,N,V_selectionView;
+- (id)ücäe(f;
+- (void)PµþÿÁþÿ;
 - (void);
-- (void)k\;
-- (_Bool)p;
+- (void)@íþHàÊìml;
+- (void)$;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIDismissInteractionDelegate> delegate; // @synthesize delegate;

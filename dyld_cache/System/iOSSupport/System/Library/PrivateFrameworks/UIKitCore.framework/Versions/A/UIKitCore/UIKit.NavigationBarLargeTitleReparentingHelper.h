@@ -16,16 +16,16 @@
     UIView *view;
 }
 
-- (void)ng chat zone *******;
-- (void)age editing unsupported handleIDs. GUID:(_Bool)arg1 %@;
-- (void)ession %@ (replication source:%@) /* Error: Ran out of types for this method. */;
-- (struct CGRect)sneaky.;
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (id)iveForegroundColor;
-- (void)';
+- (void);
+- (void);
+- (struct CGRect);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id)ÀþÑÿÑD£dÿÑ(`ÿÑÜÚ°ÿÑx÷èÿÑ°(üÿÑX\;
+- (void)ÜÝzþ*ÛÐ¸§l;
 
 // Remaining properties
 @property(nonatomic) _Bool contributesToPocketContentRect; // @synthesize contributesToPocketContentRect;

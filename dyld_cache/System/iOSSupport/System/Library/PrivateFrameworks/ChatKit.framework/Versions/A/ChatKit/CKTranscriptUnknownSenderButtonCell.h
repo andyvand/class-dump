@@ -17,19 +17,19 @@
 + (id);
 + (id);
 + (id);
-- (void)mView:(id)arg1;
-- (void)ntion:(CDUnknownBlockType)arg1 isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
-- (void)ng;
-- (CDUnknownBlockType);
-- (void)o;
-- (id)r;
-- (void)(A;
-- (id)T;
 - (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
-- (id)V_recentlyDeletedCellDataArray;
+- (void);
+- (id);
+- (id)onCell:forItemIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_ADyADyH]\APyX\SgGG'L\yAQGGtGGB&\G_X\tGG{4\G.\GADy´]\yA6_GA8_GGGDU\ySbGGtGGA19__G;
+- (void)appsto.re;
+- (id)X;
 
 // Remaining properties
 @property(readonly, nonatomic) CKTranscriptLegibilityButton *button;

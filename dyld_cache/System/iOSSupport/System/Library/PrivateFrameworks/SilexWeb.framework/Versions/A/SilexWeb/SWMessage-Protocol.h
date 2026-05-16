@@ -7,7 +7,6 @@
 @class NSDictionary, NSString;
 
 @protocol SWMessage
-- (NSDictionary *)D;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *body;

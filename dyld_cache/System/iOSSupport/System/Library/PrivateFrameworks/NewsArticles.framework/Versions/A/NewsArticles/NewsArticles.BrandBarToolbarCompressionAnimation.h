@@ -15,15 +15,15 @@
 }
 
 - (void);
-- (_Bool)$;
 - (_Bool);
-- (void)%;
+- (_Bool);
+- (void);
 - (void);
 - (double);
 - (double);
 - (_Bool);
 - (void);
-- (double)0m;
+- (double);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldCloseGapOnScroll; // @synthesize shouldCloseGapOnScroll;

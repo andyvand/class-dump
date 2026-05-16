@@ -24,10 +24,9 @@
     AVTUIStickerRenderer *_currentStickerRenderer;
 }
 
-+ (id)33Ã?333333Ó?;
++ (id);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -35,7 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -53,17 +53,17 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)dSender:spotlightReceiver disabling messages for reset /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (id);
-- (void)eNextSession;
+- (void);
+- (id)Ì;
 
 // Remaining properties
 @property(nonatomic) long long activeTransactionCount; // @synthesize activeTransactionCount=_activeTransactionCount;

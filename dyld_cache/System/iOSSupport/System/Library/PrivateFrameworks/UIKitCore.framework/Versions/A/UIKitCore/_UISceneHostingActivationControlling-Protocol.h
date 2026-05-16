@@ -5,10 +5,5 @@
 //
 
 @protocol _UISceneHostingActivationControlling
-- (void);
-- (void);
-
-@optional
-- (void);
 @end
 

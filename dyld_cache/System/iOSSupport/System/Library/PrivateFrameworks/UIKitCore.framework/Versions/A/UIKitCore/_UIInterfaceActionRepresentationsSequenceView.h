@@ -31,40 +31,38 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)gment Program string from PPStream;
+- (id);
 - (double);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (void)ication"16;
-- (void)tringValue;
-- (struct CGSize)che;
-- (double)x:editedMessagePartText:editedMessagePartTranslation:shouldRetractSubject:editTimestamp: /* Error: Ran out of types for this method. */;
-- (void)ated;
-- (_Bool)",&,N,V_originalGroupID;
+- (void);
+- (void);
+- (struct CGSize);
+- (double);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (double);
-- (void);
-- (void);
-- (struct CGSize);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (id)Ánð!àAùÁ1¢!0@ù
-× ;
+- (void);
+- (void);
+- (struct CGSize);
+- (id);
 - (void)
 × ;
-- (void)ÑË°1¢!0@ù
-× ;
-- (id)usBarHidden:animated: /* Error: Ran out of types for this method. */;
-- (void)omescreenCloseGlassButtonConfiguration;
-- (id)OutstandingSessionCompletion;
-- (void)rgestItemSize;
-- (void)er.h;
-- (void)];
+- (void)that was not loaned out.;
+- (id)Layout;
+- (void)þ;
+- (void);
+- (void)èÂ^;
+- (id)ÿãGÛÀõ^;
+- (void)X²ÿ¤;
 
 // Remaining properties
 @property(nonatomic) long long actionLayoutAxis; // @synthesize actionLayoutAxis=_actionLayoutAxis;

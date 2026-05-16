@@ -19,13 +19,13 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (struct UListFormatter *);
-- (void);
-- (id)ç;
+- (struct UListFormatter *),;
+- (void)ü;
+- (id)%@;
 
 // Remaining properties
 @property(nonatomic) struct UListFormatter *formatter; // @synthesize formatter=_formatter;

@@ -13,10 +13,10 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)sts for %{public}@ <%{public}@:%p> with objectID %{public}@. Adding to observed cache. /* Error: Ran out of types for this method. */;
 - (void);
-- (id)wView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;

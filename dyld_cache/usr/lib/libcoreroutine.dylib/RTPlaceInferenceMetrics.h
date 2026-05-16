@@ -12,20 +12,20 @@
     NSMutableDictionary *_metrics;
 }
 
-- (void)fo;
+- (void);
 - (id);
-- (void)ssage %@ with %@;
+- (id);
 - (void);
-- (void);
-- (void)aType_ParticipantMappingReplacment - Couldn't get NSData from fieldBytes;
-- (void);
-- (id)itWithData:protocolFamily: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
-- (id);
+- (void);
 - (id);
-- (void)ation, %@, place, %@, visits, %lu, transitions, %lu;
-- (id)@ûÿ.^T;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)%{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;

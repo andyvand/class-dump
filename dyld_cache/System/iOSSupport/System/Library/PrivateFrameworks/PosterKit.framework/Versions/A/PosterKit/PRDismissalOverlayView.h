@@ -29,11 +29,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)Á¨!P@ùññ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *bottomTapRecognizerView; // @synthesize bottomTapRecognizerView=_bottomTapRecognizerView;

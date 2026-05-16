@@ -35,19 +35,19 @@
 - (void);
 - (void);
 - (void);
-- (void)z;
-- (void);
-- (void)y;
 - (void);
 - (void);
 - (void);
-- (void)y;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (long long)z;
+- (long long);
 - (id);
-- (unsigned long long)z;
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -55,15 +55,15 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)cz;
+- (_Bool);
 - (long long);
-- (id)z;
-- (id)z;
+- (id);
+- (id);
 - (long long);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) long long accountInfoErrorMode; // @synthesize accountInfoErrorMode=_accountInfoErrorMode;

@@ -13,9 +13,9 @@
 - (_Bool);
 - (unsigned int);
 - (long long);
-- (_Bool);
 - (long long);
 - (_Bool);
+- (_Bool)int failed to load function;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int contextID;

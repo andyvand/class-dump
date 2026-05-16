@@ -28,12 +28,13 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id)/º;
-+ (id)ÇÐ1¢!0@ù
++ (id)Ð!(Fùq_Ð1Â0@ù
 × ;
-+ (id)ª;
-+ (_Bool)Ä.|ÿ;
++ (id)QfÐ1Â0@ù
+× ;
++ (id)itled;
++ (_Bool)ive - provided height for section %ld is %f;
++ (id)APayloadKeySafariKeyHeight;
 
 @end
 

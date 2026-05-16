@@ -23,12 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)#;
-- (id)$;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;

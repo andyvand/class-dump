@@ -8,11 +8,12 @@
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (id <UITextInputDelegate>)UIServer;
+- (void)ion:(UITextRange *)arg1;
 
 @optional
-- (void)ure: /* Error: Ran out of types for this method. */;
-- (void):(struct CGPoint)arg1;
+- (void)Ô!w!üFùQ	1B50@ù
+× ;
+- (_Bool)ck(__strong dispatch_block_t);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -42,5 +43,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

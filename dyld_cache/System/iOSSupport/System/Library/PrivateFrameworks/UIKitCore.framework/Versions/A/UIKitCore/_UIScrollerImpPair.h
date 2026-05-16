@@ -33,23 +33,23 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (void);
-- (id);
-- (void)R;
++ (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)redAOPResultsStream8Instance;
-- (void)AD.dspg;
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (long long)elCodingKeys;
+- (long long);
 - (void);
 - (_Bool);
-- (_Bool)H;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -61,7 +61,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)C;
 - (void);
 - (void);
 - (void);
@@ -70,10 +69,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -81,13 +76,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)ù±Ç°1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)aÐ!ì@ùñb°1Â0@ù
 × ;
-- (id)sheetClientConfiguration;
-- (id)eggg_;
-- (void)pple.uikit.simulated-scrollview-gesture-thread;
-- (id);
-- (void)·ÿ9;
+- (_Bool)ypes:(id)arg1;
+- (id)ystemHUDPreventUnintendedPresentationDarwinNotificationName;
+- (void)u13¥®þu13Ô³¹þ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

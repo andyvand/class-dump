@@ -20,21 +20,21 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)tive;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

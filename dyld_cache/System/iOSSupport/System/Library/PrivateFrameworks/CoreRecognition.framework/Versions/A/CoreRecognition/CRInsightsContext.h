@@ -14,14 +14,14 @@
 
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) __weak CRCameraReader *cameraReader; // @synthesize cameraReader=_cameraReader;

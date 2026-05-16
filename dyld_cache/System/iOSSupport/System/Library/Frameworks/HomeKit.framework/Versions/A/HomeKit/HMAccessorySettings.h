@@ -20,7 +20,7 @@
 }
 
 + (id);
-+ (id)on;
++ (id)ifyWithCompletionHandler:] /* Error: Ran out of types for this method. */;
 
 @end
 

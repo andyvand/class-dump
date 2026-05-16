@@ -11,11 +11,11 @@
     MISSING_TYPE *material;
 }
 
-- (id)h;
-- (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void)Ó;
 
 @end
 

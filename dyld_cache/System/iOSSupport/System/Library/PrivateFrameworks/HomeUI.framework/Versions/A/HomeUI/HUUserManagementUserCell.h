@@ -15,10 +15,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void)ntViewController:(id)arg1 didChangeNumberOfSelectedItems: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)r item:%@ and instead presenting accessory settings for HomeKit object:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

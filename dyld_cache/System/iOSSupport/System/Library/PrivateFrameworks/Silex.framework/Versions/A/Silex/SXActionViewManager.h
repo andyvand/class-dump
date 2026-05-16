@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)CGSize=dd}48@0:8@16@24@32@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

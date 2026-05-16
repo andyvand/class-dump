@@ -6,10 +6,6 @@
 
 @protocol PDFPageOverlayViewProviderPrivate
 
-@optional
-- (void);
-- (void)TemplateView<UNNotificationOnboardingController>";
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldVerticallyFlipOverlayViews;
 // Preceding property had unknown attributes: ?

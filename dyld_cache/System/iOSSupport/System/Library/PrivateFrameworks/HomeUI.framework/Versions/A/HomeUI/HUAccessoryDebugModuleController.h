@@ -22,7 +22,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)e to find named wallpaper for wallpaper %@;
 
 // Remaining properties
 @property(retain) NSMapTable *cellToItemMap; // @synthesize cellToItemMap=_cellToItemMap;

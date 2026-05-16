@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)è;
 
 // Remaining properties
 @property(retain, nonatomic) id <WBSHostableTab> hostTab; // @synthesize hostTab=_hostTab;

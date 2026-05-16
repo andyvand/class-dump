@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)<MTL4CommandBuffer>"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -42,9 +42,9 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 

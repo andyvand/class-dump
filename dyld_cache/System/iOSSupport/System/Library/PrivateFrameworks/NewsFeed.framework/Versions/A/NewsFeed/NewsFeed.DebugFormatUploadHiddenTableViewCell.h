@@ -12,11 +12,11 @@
     MISSING_TYPE *onTap;
 }
 
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)ì;
 
 @end
 

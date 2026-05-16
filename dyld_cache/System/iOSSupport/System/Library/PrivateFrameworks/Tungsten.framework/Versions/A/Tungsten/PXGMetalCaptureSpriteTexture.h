@@ -38,15 +38,15 @@
 - (float);
 - (void);
 - (id);
-- (float);
-- (id);
 - (void);
-- (void);
-- (id);
-- (double);
+- (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (double);
+- (id);
+- (float);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha;

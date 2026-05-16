@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void)ntThread: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void)L: X /* Error: Ran out of types for this method. */;
 
 @end
 

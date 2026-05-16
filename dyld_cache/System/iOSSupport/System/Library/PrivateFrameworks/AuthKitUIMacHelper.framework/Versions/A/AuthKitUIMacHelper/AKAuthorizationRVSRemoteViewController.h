@@ -15,10 +15,10 @@
 - (void);
 - (id);
 - (void);
-- (void)che - invoked on a non focusable node (waste of time);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void)"40;
 
 // Remaining properties
 @property(nonatomic) __weak id <AKAuthorizationRVSServiceDelegate> delegate; // @synthesize delegate=_delegate;

@@ -20,10 +20,10 @@
     double _bikeDistanceAfterDrive_m;
 }
 
-- (double)C;
 - (double);
 - (double);
-- (void)A`h;
+- (double);
+- (void);
 - (long long);
 - (long long);
 - (long long);
@@ -33,11 +33,11 @@
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
 - (_Bool);
 - (_Bool);
-- (id)D: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double bikeDistanceAfterDrive_m; // @synthesize bikeDistanceAfterDrive_m=_bikeDistanceAfterDrive_m;

@@ -57,32 +57,33 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (_Bool);
 - (id);
 - (void);
+- (long long);
 - (void);
 - (long long);
-- (id)"NSURL"24;
-- (_Bool)illDismissWithButtonIndex: /* Error: Ran out of types for this method. */;
-- (void)dler;
+- (id)ÿ
+	zç;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration;

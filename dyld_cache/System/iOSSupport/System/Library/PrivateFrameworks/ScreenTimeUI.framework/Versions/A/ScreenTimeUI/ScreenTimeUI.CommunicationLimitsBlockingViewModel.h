@@ -25,8 +25,8 @@
 - (void);
 - (long long);
 - (long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long _blockingViewType; // @synthesize _blockingViewType;

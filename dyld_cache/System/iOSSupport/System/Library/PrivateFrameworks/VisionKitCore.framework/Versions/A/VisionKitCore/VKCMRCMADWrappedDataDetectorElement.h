@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     struct CGRect _boundingBox;
 }
 
-+ (_Bool)ey: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -26,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
 - (void);
 - (unsigned long long);
+- (id);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;

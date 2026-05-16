@@ -24,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)vableModel;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateIntervalFormatter *dateIntervalFormatter; // @synthesize dateIntervalFormatter=_dateIntervalFormatter;

@@ -17,10 +17,10 @@
 }
 
 + (id);
-+ (Class);
++ (Class);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,25 +28,25 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)̷;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id)<;
+- (void);
+- (id);
 - (void);
 - (double);
-- (void)'%@' <-- TABLE SCAN DETECTED!;
-- (void)xt:%@ /* Error: Ran out of types for this method. */;
-- (void)ractionDidDismissVisualSearchController;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)uInteractionCommitAnimating>"32;
-- (void)ionManager;
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain) AKAnnotation *annotation; // @synthesize annotation=_annotation;

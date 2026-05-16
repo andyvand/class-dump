@@ -4,17 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIDocumentState, TIKeyboardState;
+@class TIKeyboardState;
 
 @protocol UIKeyboardImplStateProtocol
+- (_Bool);
+- (void);
 - (void);
-- (TIDocumentState *)backSourceView;
-- (void)/Ï;
-- (void)üi;
-- (void)nerMaskingContextTrait;
-- (void)äÿÿÿ(&8;
-- (void)Box;
-- (void)[;
+- (TIKeyboardState *)ansformedFrame;
+- (void)hP;
+- (void)â;
+- (_Bool)rdShortcutEnumerationPriority;
+- (void)àôsþ|43Üõsþ;
+- (void)àÆR0í430r;
+- (void)@i[;
+- (struct CGRect)À;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardState *keyboardState;

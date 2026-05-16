@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)natingAppBundleID;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaItemCollection *mMediaCollection; // @synthesize mMediaCollection=_mMediaCollection;

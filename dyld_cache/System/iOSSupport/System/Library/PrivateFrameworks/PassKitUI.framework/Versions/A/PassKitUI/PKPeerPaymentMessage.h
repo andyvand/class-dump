@@ -19,13 +19,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -59,17 +59,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)ø1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *amount;

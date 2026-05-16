@@ -15,24 +15,23 @@
 }
 
 + (id);
-+ (id)üD!;
-+ (_Bool)mpletion:] /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id)
-× ;
-- (id)fier;
+- (id)aders;
+- (void)MMediaGroupProtoSurroundSystemRoles;
 
 // Remaining properties
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;

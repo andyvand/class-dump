@@ -4,13 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-@protocol MTLDevice;
-
 @interface DDBridgeReceiver
 {
-    id <MTLDevice> device;
-    MISSING_TYPE *dispatchSerialQueue;
 }
 
 - (void);
@@ -19,19 +14,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-
-// Remaining properties
-@property(nonatomic, readonly) id <MTLDevice> device; // @synthesize device;
+- (void);
+- (id):(id)arg1:DefaultHash<unsigned long long>, Traits = WTF::HashMap<unsigned long long, WTF::RefPtr<WebGPU::Texture>, WTF::DefaultHash<unsigned long long>, WTF::UnsignedWithZeroKeyHashTraits<unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::UnsignedWithZeroKeyHashTraits<unsigned long long>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)øÌ;
 
 @end
 

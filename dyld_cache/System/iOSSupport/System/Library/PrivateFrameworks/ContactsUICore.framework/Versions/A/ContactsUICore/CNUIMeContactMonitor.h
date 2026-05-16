@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSNotificationCenter, NSObject;
+@class CNCache, CNContactStore, NSArray, NSNotificationCenter, NSObject;
 @protocol CNCancelable, CNMeContactComparisonStrategy, OS_dispatch_queue;
 
 @interface CNUIMeContactMonitor
@@ -14,6 +14,7 @@
     NSNotificationCenter *_notificationCenter;
     NSObject<OS_dispatch_queue> *_queue;
     id <CNCancelable> _meNotificationToken;
+    CNCache *_isMeContactCache;
 }
 
 + (id);
@@ -23,29 +24,32 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)R,N,V_whitelistStatus;
-- (id)vªþÿxµÿÿ;
-- (void)ÿ5n5@¶äÿ5n5´Ýÿ;
+- (id)ctWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)aveError;
+- (id)dated contact async;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
+@property(retain, nonatomic) CNCache *isMeContactCache; // @synthesize isMeContactCache=_isMeContactCache;
 @property(readonly, nonatomic) NSArray *meContactIdentifiers;
 @property(retain, nonatomic) id <CNCancelable> meNotificationToken; // @synthesize meNotificationToken=_meNotificationToken;
 @property(retain, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;

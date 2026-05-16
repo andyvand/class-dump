@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)erChangeToken;
 
 @end
 

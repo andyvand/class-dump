@@ -27,10 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void)DelegateForSeeAll;
+- (void)%;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

@@ -13,8 +13,8 @@
 
 + (id);
 - (_Bool);
-- (void);
 - (CDUnknownBlockType);
+- (void)oot";
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

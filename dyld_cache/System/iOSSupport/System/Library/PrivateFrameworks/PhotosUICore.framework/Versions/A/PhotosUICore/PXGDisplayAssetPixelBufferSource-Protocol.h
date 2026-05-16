@@ -5,7 +5,7 @@
 //
 
 @protocol PXGDisplayAssetPixelBufferSource
-- (struct CGAffineTransform)¨àúÿ,^;
+- (struct CGAffineTransform)ResourcesDataSourceManager>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *currentPixelBuffer;

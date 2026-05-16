@@ -30,11 +30,10 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
 - (id);
-- (id)
-× ;
-- (void)n"24;
+- (id);
+- (void);
+- (void)orkSchoolShortcut;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType activityTitleBlock; // @synthesize activityTitleBlock=_activityTitleBlock;

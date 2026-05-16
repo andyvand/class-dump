@@ -7,7 +7,7 @@
 @class NSString, NSUUID;
 
 @protocol AKCredentialRequestProtocol
-- (NSString *);
+- (NSString *)ic}@] Ignoring dismiss due to different identifier (identifier:%{public}@, requested:%{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *altDSID;

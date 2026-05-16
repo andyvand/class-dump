@@ -12,18 +12,16 @@
     id <_UIIVCResponseDelegate> _responseDelegate;
 }
 
-+ (id)FùñÆÐ1¢!0@ù
-× ;
-+ (id)etCursorAssertion: /* Error: Ran out of types for this method. */;
-- (void)Enabled %@;
-- (void)rror"16;
++ (id);
++ (id);
 - (void);
 - (void);
-- (void)!dFùqÀÐ1¢!0@ù
-× ;
-- (id)_textFieldObserver;
-- (void)ws=%@;
-- (void)Htäg;
+- (void);
+- (id);
+- (void)reted as UIControlStateHighlighted.;
+- (void)cketInsets;
+- (void)T"d;
+- (void)o;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

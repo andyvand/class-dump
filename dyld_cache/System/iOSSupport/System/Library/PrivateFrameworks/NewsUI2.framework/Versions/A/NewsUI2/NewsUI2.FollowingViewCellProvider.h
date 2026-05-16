@@ -12,7 +12,6 @@
     MISSING_TYPE *settingsButtonViewRenderer;
     MISSING_TYPE *tagViewRenderer;
     MISSING_TYPE *engagementViewManager;
-    MISSING_TYPE *tipSourceManager;
     MISSING_TYPE *delegate;
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *renderer;

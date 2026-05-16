@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ImportAssetsDataSourceManager";
+- (id)igationContext;
+- (void);$;
 
 // Remaining properties
 @property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;

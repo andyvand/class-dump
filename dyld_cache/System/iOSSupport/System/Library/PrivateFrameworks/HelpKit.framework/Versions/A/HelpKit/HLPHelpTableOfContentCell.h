@@ -54,8 +54,6 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -64,6 +62,8 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool RTL; // @synthesize RTL=_RTL;

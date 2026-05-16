@@ -144,9 +144,9 @@
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
 - (long long);
 - (void);
 - (void);
@@ -155,24 +155,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
-- (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)0@ù
-× ;
-- (id)¤lüÿ;
-- (void)GGG;
-- (id)arView;
-- (_Bool)_ñ5;
+- (_Bool);
+- (id)ect"32@0:8@"PXDataSectionArrayController"16@"NSObject"24 /* Error: Ran out of types for this method. */;
+- (id)16;
+- (void)icalDirectionFilter;
+- (_Bool)ÿ^½*ÿ;
+- (void);
+- (void)7;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cloudQuotaActionTitle; // @synthesize cloudQuotaActionTitle=_cloudQuotaActionTitle;

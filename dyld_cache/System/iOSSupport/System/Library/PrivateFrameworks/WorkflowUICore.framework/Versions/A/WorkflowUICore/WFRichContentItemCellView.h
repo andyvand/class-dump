@@ -57,19 +57,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id)Ù;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;

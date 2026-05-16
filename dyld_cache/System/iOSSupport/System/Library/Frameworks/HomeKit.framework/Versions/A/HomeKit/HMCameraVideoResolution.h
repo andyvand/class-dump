@@ -10,13 +10,13 @@
 }
 
 + (_Bool);
-+ (_Bool)mitedFunctionality;
++ (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long videoResolution; // @synthesize videoResolution=_videoResolution;

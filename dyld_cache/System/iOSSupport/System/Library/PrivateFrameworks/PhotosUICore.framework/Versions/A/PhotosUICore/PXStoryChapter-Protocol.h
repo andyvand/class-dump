@@ -8,7 +8,10 @@
 @protocol NSCopying;
 
 @protocol PXStoryChapter
-- (NSObject<NSCopying> *)matChooser;
+- (NSObject<NSCopying> *)_pxswizzled_barAppearance_prefersStatusBarHidden;
+- (NSString *)sting;
+- (NSString *)Coder:] /* Error: Ran out of types for this method. */;
+- (NSString *)Mode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *diagnosticDescription;

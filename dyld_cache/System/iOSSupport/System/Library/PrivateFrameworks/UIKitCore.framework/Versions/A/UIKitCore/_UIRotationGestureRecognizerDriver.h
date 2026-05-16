@@ -35,24 +35,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct CGPoint);
-- (void)ndler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)¡r!<@ùÆ°1¢!0@ù
-× ;
-- (void)iveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (void)ble;
-- (id)setSuggestedColors: /* Error: Ran out of types for this method. */;
-- (void)iewPendingInsertion: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)Àí ï4ð;
-- (double)archingP;
 - (double);
-- (void)loatingContentViewModifyTransformMaxWidth;
-- (double);
-- (double)ÿ;
+- (id);
+- (double)±bÐ1Â0@ù
+× ;
+- (void)oadComplete;
+- (void)ollView:(id)arg1 viewController:(id)arg2 getTabBarRequiresStandardBackground: /* Error: Ran out of types for this method. */;
+- (double)imulationDuration;
+- (void)eToContentView:(id)arg1;
+- (void)wipeActionHost;
+- (struct CGPoint)üùîÿÐøîÿ;
+- (double)sessionSource must be non-nil;
+- (void)];
+- (void)MatrixWhite;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;

@@ -11,9 +11,9 @@
     MISSING_TYPE *thickness;
 }
 
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (id);
 
 @end
 

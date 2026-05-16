@@ -18,31 +18,32 @@ __attribute__((visibility("hidden")))
     UIKeyboardCameraRemoteViewController *_remoteViewController;
 }
 
-+ (_Bool)ock for guid as either guid or completion block is invalid;
-+ (_Bool)d %@ path %@;
-+ (_Bool)icationAction:%@, %@ /* Error: Ran out of types for this method. */;
-+ (void)H;
-+ (_Bool)ä7mþÅ;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)kmark;
-- (void);
-- (id)P;
-- (void)1¢!0@ù
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (void);
++ (_Bool)Q`Ð1Â0@ù
 × ;
-- (void)eraction;
-- (void)tionDebugDescriptionBuilderWithMultilinePrefix:(id)arg1;
-- (id)nge=QQ},R,N,V_validItemRange;
-- (id)¤Çþÿ¾Çþÿ;
-- (_Bool)ble delegate. Value must be greater than zero or UITableViewAutomaticDimension.;
-- (id)ew;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)«ªªªªªú?«ªªªªªú?;
+- (id);
 - (void);
-- (id)M²`;
+- (id);
+- (id)0@ù
+× ;
+- (void):(id)arg1 8q16d24@32;
+- (_Bool)"16@?0@"UIZoomTransitionSourceViewProviderContext"8;
+- (void)pupDirection;
+- (void)fault;
+- (id)1¤_ÑM1ø_Ñ1`Ñt#2|`Ñ·2`Ñº2 `Ñ$½2´`ÑÄ2Ü`Ñ¼Ç2ü`Ñ38aÑ$n3LaÑô3haÑ¬3ÐaÑ 3øaÑä3bÑàø38bÑà4LbÑ$E4bÑðF4¨bÑ`4¼bÑa4ÌbÑôb4ÜbÑhd4ìbÑg4übÑo4@cÑ¬v4 cÑÈz4°cÑ40dÑ4\dÑT4dÑø4¼dÑ;
+- (id)¨7_;
+- (id)ute;
+- (void)îÒüyf;
+- (void)¹«Úàj;
+- (void)[§;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

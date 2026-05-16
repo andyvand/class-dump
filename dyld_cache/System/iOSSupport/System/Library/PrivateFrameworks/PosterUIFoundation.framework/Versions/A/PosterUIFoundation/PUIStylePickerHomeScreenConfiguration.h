@@ -55,21 +55,21 @@
 - (id);
 - (double);
 - (id);
-- (double);
-- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (struct UIEdgeInsets);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
 - (id);
 - (unsigned long long);
-- (double)m;
+- (id);
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (id);
+- (double);
+- (void);
+- (double)DelegateOfUpdatedHomeScreenConfiguration;
+- (void)y;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIColor *accentColor;

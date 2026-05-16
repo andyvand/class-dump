@@ -15,13 +15,13 @@
 
 + (unsigned long long);
 + (id);
-- (id):ckRecordID: /* Error: Ran out of types for this method. */;
-- (id)found for group photo guid %s;
-- (id)d %@ hasAsset:(id *)arg1 %@;
-- (_Bool)cientSystemResources;
-- (id);
-- (void);
-- (id)ringDestination;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)nselectionDuration:(id)arg1;
+- (id)roundViewAnimationProgress;
+- (void)n|;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_targetSceneSessionPersistentIdentifier; // @synthesize _targetSceneSessionPersistentIdentifier;

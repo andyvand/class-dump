@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMUser;
-
 @protocol HMUserDelegatePrivate
-
-@optional
-- (void)nAutomation;
-- (void)CardUpdated;
-- (void)isBlackholed;
-- (void)_isRecovered;
-- (void)IncomingMessages;
-- (void),N,V_isFinished;
-- (void)iceName:(HMUser *)arg1;
-- (void);
-- (void);
 @end
 

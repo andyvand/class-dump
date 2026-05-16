@@ -32,7 +32,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)!;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,27 +45,28 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)
+× ;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)(;
-- (id);
-- (void);
-- (id)oint:prefix:protocol: /* Error: Ran out of types for this method. */;
-- (void)oTCPEncapsulation];
-- (void);
-- (id);
-- (id);
-- (void)urgeHintsPredating:(id)arg1 handler: /* Error: Ran out of types for this method. */;
-- (void)\{;
-- (id)ssPoint:inManagedObjectContext:] /* Error: Ran out of types for this method. */;
-- (void)nabled;
+- (id)ProtectionNotification:] /* Error: Ran out of types for this method. */;
+- (void)visit, %{sensitive}@, options, %{sensitive}@, error, %@;
+- (id)nd];
+- (void)started, type, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTBiomeManager *biomeManager; // @synthesize biomeManager=_biomeManager;

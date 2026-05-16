@@ -31,12 +31,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool)
+- (id)1â
+0@ù
 × ;
-- (void)ndConditions_AgreeAndSubscribe_Button;
+- (void)ge;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

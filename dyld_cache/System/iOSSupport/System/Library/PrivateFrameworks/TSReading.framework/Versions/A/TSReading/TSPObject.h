@@ -16,8 +16,7 @@
     id <TSPObjectDelegate> _delegate;
 }
 
-+ (_Bool)4
-@;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
@@ -32,21 +31,22 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool)(;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ngleLineHeight;
+- (id)}40d72@80@?88;
+- (void)Ü
+L ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsImplicitComponentOwnership;

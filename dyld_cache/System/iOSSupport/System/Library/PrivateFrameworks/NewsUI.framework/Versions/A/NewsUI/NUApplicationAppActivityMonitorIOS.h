@@ -20,27 +20,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)2;
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *backgroundObserverBlocks; // @synthesize backgroundObserverBlocks=_backgroundObserverBlocks;

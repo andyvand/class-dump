@@ -17,19 +17,18 @@ __attribute__((visibility("hidden")))
     UILabel *_textBody;
 }
 
-- (id)Name;
+- (id);
 - (_Bool);
-- (id)ssion: /* Error: Ran out of types for this method. */;
-- (void)atListenersWithBlackholeStatus:(id)arg1;
-- (void)ntEncryptionValidationTokenWithBlastDoorMessage:(_Bool)arg1;
-- (void)rvice:(id)arg1;
-- (void)to delete/fetch from CloudKit;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);;
-- (void)AoÐ!Bù±Á1¢!0@ù
-× ;
+- (void);
+- (void)©;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *textBody; // @synthesize textBody=_textBody;

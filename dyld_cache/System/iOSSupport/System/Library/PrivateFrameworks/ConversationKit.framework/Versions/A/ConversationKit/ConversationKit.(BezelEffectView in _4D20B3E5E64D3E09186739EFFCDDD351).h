@@ -18,10 +18,10 @@
     MISSING_TYPE *outlineEffectView;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)a¢yÃSayòÏ_pGG;
 
 @end
 

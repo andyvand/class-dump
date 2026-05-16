@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)h;
++ (Class);
 - (id);
-- (void)BarAlpha;
+- (void)ItemForItem:(id)arg1;
 
 @end
 

@@ -11,10 +11,10 @@
 }
 
 + (struct CGSize);
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (id);
-- (struct CGSize);
 
 @end
 

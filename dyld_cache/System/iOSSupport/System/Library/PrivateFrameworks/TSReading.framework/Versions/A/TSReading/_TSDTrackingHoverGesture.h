@@ -8,8 +8,8 @@
 {
 }
 
-- (_Bool),V_shouldMaintainKeyboardWhenEndingSession;
-- (_Bool)lidateNode(UInt16, UInt16, void *);
+- (_Bool);
+- (_Bool);
 
 @end
 

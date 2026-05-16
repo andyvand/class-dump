@@ -24,8 +24,8 @@
 + (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)) J* GSg;
 
 @end
 

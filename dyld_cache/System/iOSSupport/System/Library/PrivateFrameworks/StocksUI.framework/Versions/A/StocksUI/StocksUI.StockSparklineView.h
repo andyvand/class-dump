@@ -13,10 +13,10 @@
     MISSING_TYPE *nonAnimatingDelegate;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

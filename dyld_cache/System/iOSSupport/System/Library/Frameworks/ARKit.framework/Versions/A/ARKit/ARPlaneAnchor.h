@@ -47,18 +47,18 @@
 - (id);
 - (float);
 - (MISSING_TYPE *);
-- (void);
-- (void);
 - (id);
-- (void);
-- (long long);
-- (id);
-- (void);
 - (id);
 - (long long);
-- (void);
-- (id);
 - (MISSING_TYPE *);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignment; // @synthesize alignment=_alignment;

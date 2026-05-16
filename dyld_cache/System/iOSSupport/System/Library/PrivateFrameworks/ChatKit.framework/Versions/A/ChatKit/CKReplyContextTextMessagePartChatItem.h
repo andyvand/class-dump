@@ -10,14 +10,14 @@
 {
 }
 
-- (id)nLoopCGAJGGSo6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyA0_GG;
-- (id)_Qo_AEtGG;
-- (_Bool)fication;
-- (id)ote.recordID.recordName];
-- (long long)40@?0@"ICAuthorHighlightValueAttribute"8{_NSRange=QQ}16^B32;
-- (Class)ing a previous password. Enter the previous password to view the attachment.;
-- (BOOL)^B24;
-- (BOOL)neTimeAlertKey-%lld-%@;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (long long);
+- (Class);
+- (BOOL);
+- (BOOL);
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);

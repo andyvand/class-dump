@@ -13,7 +13,7 @@
 - (_Bool);
 - (double);
 - (double);
-- (double)nt";
+- (double);
 
 @end
 

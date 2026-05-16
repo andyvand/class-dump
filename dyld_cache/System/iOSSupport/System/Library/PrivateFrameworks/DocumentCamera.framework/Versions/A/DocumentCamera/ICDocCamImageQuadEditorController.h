@@ -21,10 +21,10 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
 - (long long);
 - (void);
 - (void);

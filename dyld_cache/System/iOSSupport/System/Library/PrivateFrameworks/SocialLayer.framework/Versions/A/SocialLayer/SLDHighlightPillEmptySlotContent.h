@@ -16,7 +16,7 @@
 - (void);
 - (double);
 - (void);
-- (unsigned long long)ompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) double maxWidth; // @synthesize maxWidth=_maxWidth;

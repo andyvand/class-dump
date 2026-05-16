@@ -37,8 +37,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (void)wift;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *allowlistedAccessories;

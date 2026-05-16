@@ -22,17 +22,17 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool)ner"16{CGPoint=dd}24N^{CGPoint=dd}40{CGPoint=dd}48;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

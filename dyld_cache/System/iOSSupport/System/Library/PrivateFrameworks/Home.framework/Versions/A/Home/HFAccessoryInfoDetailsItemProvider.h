@@ -37,11 +37,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)@"HMNetworkConfigurationProfile"8;
+- (id);
+- (void)idRemoveVideoDebug;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

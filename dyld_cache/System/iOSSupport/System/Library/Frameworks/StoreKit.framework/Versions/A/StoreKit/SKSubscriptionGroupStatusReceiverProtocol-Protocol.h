@@ -5,6 +5,5 @@
 //
 
 @protocol SKSubscriptionGroupStatusReceiverProtocol
-- (void)|;
 @end
 

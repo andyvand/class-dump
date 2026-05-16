@@ -10,8 +10,8 @@
 
 + (double);
 + (id);
-+ (struct UIEdgeInsets);
-- (id)rowserDragViewControllerDelegate;
++ (struct UIEdgeInsets)¢5äG1;
+- (id);
 
 @end
 

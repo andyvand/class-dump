@@ -6,7 +6,7 @@
 
 @interface (null) (FileExistsCheck)
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties

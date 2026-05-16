@@ -26,7 +26,7 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)24;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

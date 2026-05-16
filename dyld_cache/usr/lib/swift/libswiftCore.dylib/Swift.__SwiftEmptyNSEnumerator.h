@@ -10,10 +10,10 @@
 {
 }
 
-- (long long);
 - (id);
 - (id);
 - (id);
+- (long long)q`st`u y`Ô;
 
 @end
 

@@ -7,9 +7,7 @@
 @class CNContactImage, CNWallpaper, NSData, NSString;
 
 @protocol CNMeCardSharingResult
-- (NSString *)ð!0Aùñ
-ð1b0@ù
-× ;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *avatarRecipeData;

@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPointerInteraction, UIPointerRegion, UIPointerStyle;
+
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)_enableCells;
-- (void)eraClipTip;
+- (UIPointerRegion *)!pAùÑð1â
+0@ù
+× ;
+- (UIPointerStyle *);
+- (void)yout:(UIPointerInteraction *)arg1 ];
+- (void)idth;
 @end
 

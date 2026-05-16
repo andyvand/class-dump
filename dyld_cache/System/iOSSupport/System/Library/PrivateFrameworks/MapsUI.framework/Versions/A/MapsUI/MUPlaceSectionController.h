@@ -51,14 +51,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool)Üþäÿ;
+- (void)werName;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

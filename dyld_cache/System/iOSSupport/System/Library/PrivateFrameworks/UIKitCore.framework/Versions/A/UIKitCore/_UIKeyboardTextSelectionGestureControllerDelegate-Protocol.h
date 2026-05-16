@@ -7,15 +7,18 @@
 @class UIKeyboardTaskQueue, _UIKeyboardTextSelectionController;
 
 @protocol _UIKeyboardTextSelectionGestureControllerDelegate
-- (UIKeyboardTaskQueue *)eed: /* Error: Ran out of types for this method. */;
+- (_UIKeyboardTextSelectionController *)Òîÿ;
+- (UIKeyboardTaskQueue *)yle;
 
 @optional
-- (double)ns;
-- (_Bool)lFailureCount;
-- (void)chedBackgroundColor;
-- (void)on %@ when it was not active.;
-- (_Bool)tionViewDiffableDataSource APIs when acting as the UICollectionView's dataSource:please do not call mutation APIs directly on UICollectionView. %@ /* Error: Ran out of types for this method. */;
-- (_UIKeyboardTextSelectionController *);
+- (void)ed:onComplete: /* Error: Ran out of types for this method. */;
+- (void)0;
+- (_Bool)fo.plist%s:(_Bool)arg1;
+- (double)TestEventsIfTransparent;
+- (_Bool);
+- (void)±¶33xKþ;
+- (_Bool);
+- (_Bool)@5;
 
 // Remaining properties
 @property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue;

@@ -15,21 +15,22 @@
     UIView *_view;
 }
 
-+ (double);
-+ (_Bool);
 + (_Bool);
 + (void);
++ (double)Å ÆLÉ4ËôË°Ì¸ÍlÎ)ü× Ú\Û;
++ (_Bool)yÿ»À;
+- (void);
 - (_Bool);
 - (id);
-- (void)øÏò;
-- (void)rollerSessionDidExit:(_Bool)arg1;
-- (id)ctionViewDiffableDataSourceReorderingHandlers;
-- (void)lsCoordinatorAnimationParameters;
-- (void)PüÌüÔ;
-- (void)yboardArbiterClientInputDestination _performRequiredSceneUpdateIfPermittedForWindow:(_Bool)arg1 withContext:]  Setting required scene:%@ /* Error: Ran out of types for this method. */;
-- (void)groundViewImage;
-- (id)rterLibrary(void);
-- (_Bool)Û];
+- (void)1Â0@ù
+× ;
+- (_Bool)e;
+- (id)undsAfterAnimation;
+- (id)tegoryBar_iPad;
+- (void)BColorWhite_Alpha73;
+- (void)orted in setTabs:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Xd;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isDefaultSystemInteraction) _Bool _defaultSystemInteraction; // @synthesize _defaultSystemInteraction=__defaultSystemInteraction;

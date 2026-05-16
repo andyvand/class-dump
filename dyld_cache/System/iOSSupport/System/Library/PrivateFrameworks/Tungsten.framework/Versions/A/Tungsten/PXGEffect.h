@@ -29,14 +29,14 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
-- (double);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (double);
+- (double);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double drawingScale; // @synthesize drawingScale=_drawingScale;

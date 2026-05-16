@@ -7,9 +7,8 @@
 @class NSError, NSNumber;
 
 @protocol PXInternalMutableAudioSession
-- (NSError *)
-× ;
-- (CDStruct_1b6d18a9)IKED_THIS_PHOTO_PHRASE_FORMAT;
+- (long long)mumAlpha: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *contentLoudnessInLKFS;

@@ -7,8 +7,7 @@
 @class NSDictionary, NSError;
 
 @protocol PXMusicCurationResult
-- (NSError *);
-- (_Bool)d´Xÿ;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;

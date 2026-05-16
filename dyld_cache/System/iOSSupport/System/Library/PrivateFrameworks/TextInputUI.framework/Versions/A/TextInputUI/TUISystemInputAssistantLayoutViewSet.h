@@ -16,16 +16,16 @@
 }
 
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ct;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *centerView; // @synthesize centerView=_centerView;

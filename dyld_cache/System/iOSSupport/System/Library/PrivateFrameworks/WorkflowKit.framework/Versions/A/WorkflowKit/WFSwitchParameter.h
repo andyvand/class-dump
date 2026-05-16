@@ -12,8 +12,8 @@
 {
 }
 
-+ (id)Ì;
-+ (id)¸ÏÌ;
++ (id);
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedOffDisplayName;

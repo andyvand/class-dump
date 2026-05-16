@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)0é;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsDataSourceManager *assetsDataSourceManager; // @synthesize assetsDataSourceManager=_assetsDataSourceManager;

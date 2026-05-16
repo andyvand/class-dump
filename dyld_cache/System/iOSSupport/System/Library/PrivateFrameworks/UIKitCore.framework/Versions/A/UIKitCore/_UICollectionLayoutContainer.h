@@ -14,23 +14,21 @@ __attribute__((visibility("hidden")))
     struct NSDirectionalEdgeInsets _contentInsets;
 }
 
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (struct NSDirectionalEdgeInsets)
+× ;
+- (void)ewChangedDisplayLayer:(id)arg1;
+- (_Bool)utton:(id)arg1;
 - (struct NSDirectionalEdgeInsets);
-- (struct NSDirectionalEdgeInsets);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct CGSize);
-- (id)ledAppearance;
-- (void)axTransition;
-- (id)(%@) is %g;
-- (void)À@@É?333333ã?;
-- (struct CGSize)ÔÔä?«ªªªª*H@433333Ã?ÿÿÿÿÿÿïÿÿÿÿÿÿï=
-×£p=Ú?ö(\Âõð?x:æÑx@ùªf pF@¢-¬¾VÚ?´<k¥@OÇw.j@\¹Ü~Æ?kvb'v@á¿×£p=
-×Ó?/£Xniuø?333333Ó?333333ã?
-×#=ð#tI /* Error: Ran out of types for this method. */;
-- (void)d;
+- (void);
+- (void)x^;
+- (struct CGSize)d0åþCÖ;
+- (struct CGSize)ÄÆÎìÞd;
 
 // Remaining properties
 @property(nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

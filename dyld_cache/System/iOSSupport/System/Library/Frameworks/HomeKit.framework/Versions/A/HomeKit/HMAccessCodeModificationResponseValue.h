@@ -15,25 +15,24 @@
     NSError *_error;
 }
 
-+ (id)@-;
-+ (_Bool)BB765291;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
+- (long long);
 - (id);
-- (id);
-- (long long)
-× ;
-- (id)D`dlepf@gèiÊ;
-- (id)settings for user %@;
-- (id);
+- (void)t submit another commit;
+- (id)_HH2;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;

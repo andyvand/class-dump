@@ -37,13 +37,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,26 +82,25 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void)ugC7nLaN8fcr5J1keaAMtaCAm42IC-2M7QU/Library/Caches/com.apple.xbs/Sources/DialogEngine/engine/visual/Switch.pb.cc;
-- (id);
 - (void);
-- (void)a;
-- (id);
 - (void);
 - (id);
-- (id)͊;
 - (id);
-- (void);
-- (void)nt:(_Bool)arg1;
-- (id)t a primary iCloud mailbox change;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (void)GPoint=dd}{CGSize=dd}}116@0:(id)arg1 8@16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}56B88{CGSize=dd}92d108;
-- (void)ViewAddCell;
-- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)tWithStore:(id)arg1 environment:allowAddItem:interItemSpacing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatarInlineActionsController *actionsController; // @synthesize actionsController=_actionsController;

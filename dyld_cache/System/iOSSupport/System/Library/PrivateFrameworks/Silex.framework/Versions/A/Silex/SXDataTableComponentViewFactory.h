@@ -31,11 +31,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)
-× ;
-- (int)nent;
+- (id);
+- (int);
+- (id);
+- (void)tching";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdIgnorableViewFactory> adIgnorableViewFactory; // @synthesize adIgnorableViewFactory=_adIgnorableViewFactory;

@@ -7,8 +7,6 @@
 @class AKAnnotation;
 
 @protocol AKChildAnnotationProtocol
-- (void):(AKAnnotation *)arg1;
-- (AKAnnotation *)utputForDevice: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak AKAnnotation *parentAnnotation;

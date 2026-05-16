@@ -19,12 +19,12 @@
 - (id);
 - (_Bool);
 - (double);
-- (CDUnknownBlockType);
 - (void);
-- (long long);
 - (unsigned long long);
 - (void);
-- (void)ject;
+- (long long)pe;
+- (CDUnknownBlockType);
+- (void)Representation:variableProvider:parameter:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

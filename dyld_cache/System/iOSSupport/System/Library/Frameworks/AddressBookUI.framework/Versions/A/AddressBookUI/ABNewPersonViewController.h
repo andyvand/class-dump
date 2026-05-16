@@ -34,19 +34,19 @@
 - (void *);
 - (void *);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void *);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void *);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic) void *addressBook;

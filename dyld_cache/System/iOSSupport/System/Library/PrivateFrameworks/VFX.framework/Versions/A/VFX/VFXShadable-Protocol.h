@@ -8,6 +8,9 @@
 
 @protocol VFXShadable
 
+@optional
+- (VFXProgram *)ProgramHashCodeStoreRegisterProgramForRendererElement - programIndex out of uint32_t. will crash soon;
+
 // Remaining properties
 @property(retain, nonatomic) NSNumber *minimumLanguageVersion;
 // Preceding property had unknown attributes: ?

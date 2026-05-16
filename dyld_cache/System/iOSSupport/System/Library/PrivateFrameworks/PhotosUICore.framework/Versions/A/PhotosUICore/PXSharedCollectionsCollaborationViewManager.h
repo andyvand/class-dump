@@ -12,7 +12,7 @@
     void observedPhotoLibraries;
 }
 
-+ (id)B¦9;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -24,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)©:Çõi /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) id collaborationViewsById; // @synthesize collaborationViewsById;

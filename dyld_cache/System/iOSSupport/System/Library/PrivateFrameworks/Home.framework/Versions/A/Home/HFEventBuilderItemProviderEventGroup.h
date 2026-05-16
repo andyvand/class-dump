@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *comparisonKey; // @synthesize comparisonKey=_comparisonKey;

@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (int);
+- (void)outeFactory;
 
 // Remaining properties
 @property(nonatomic, readonly) int role;

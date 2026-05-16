@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)issed this view controller. Opening HH2 onboarding URL.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long naturalLanguageNameType; // @synthesize naturalLanguageNameType=_naturalLanguageNameType;

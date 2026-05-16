@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)°QÀÿÿÿÿÿô;
 
 // Remaining properties
 @property(retain, nonatomic) BSUIMappedImageCache *imageCache; // @synthesize imageCache=_imageCache;

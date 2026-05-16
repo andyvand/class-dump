@@ -11,7 +11,9 @@
     MISSING_TYPE *commandCenter;
     MISSING_TYPE *recipeViewerStyler;
     MISSING_TYPE *recipeCoordinator;
-    MISSING_TYPE *featureAvailability;
+    MISSING_TYPE *radarReporter;
+    MISSING_TYPE *recipeFeaturesConfiguration;
+    MISSING_TYPE *recipeFactory;
 }
 
 @end

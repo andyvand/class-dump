@@ -5,6 +5,6 @@
 //
 
 @interface (null) (PodcastsUI)
-- (void);
+- (id);
 @end
 

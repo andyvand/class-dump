@@ -12,7 +12,7 @@
 - (void);
 - (void);
 - (void);
-- (void)tConfiguration"8;
+- (void);
 
 @end
 

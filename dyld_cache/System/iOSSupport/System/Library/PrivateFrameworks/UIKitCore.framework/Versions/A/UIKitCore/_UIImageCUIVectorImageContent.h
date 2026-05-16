@@ -14,28 +14,26 @@ __attribute__((visibility("hidden")))
     CUINamedVectorImage *_vectorImage;
 }
 
+- (_Bool);
+- (void);
 - (id);
+- (id);
+- (struct CGPDFPage *);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (struct CGSVGDocument *);
-- (_Bool);
-- (_Bool);
-- (double);
+- (struct CGSVGDocument *):8@16@24 /* Error: Ran out of types for this method. */;
+- (_Bool)ynchronizePreferencesTimer;
+- (double)beforeLowLatencyCATransactionCommit;
+- (_Bool)updateDetailLabelBackgroundColor;
 - (void);
-- (void)ormatDidChange:(struct CGSize)arg1;
-- (struct CGPDFPage *)Year: /* Error: Ran out of types for this method. */;
-- (struct CGImage *);
+- (id)pearEffect;
+- (void)ô;
+- (id);
+- (struct CGImage *)^;
 - (_Bool);
-- (void);
-- (id)|FùqÃÐ1¢!0@ù
-× ;
-- (_Bool)av!GùËÐ1¢!0@ù
-× ;
-- (_Bool)40@0:8@"UIPreviewInteraction"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
-- (void)ForString:(struct CGSize)arg1 inputMode:(double)arg2 keyboardVariantIndludes:(struct CGContext *)arg3;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)l_mþ;
-- (_Bool)6;
-- (id)b;
+- (id)Ü±!ÿpØä¸`;
+- (void)wÿ;
 
 @end
 

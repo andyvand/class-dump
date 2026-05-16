@@ -28,6 +28,7 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -38,22 +39,21 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
 - (long long);
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
+- (void);
 - (id);
 - (void);
-- (double);
+- (unsigned long long);
 - (void);
-- (void)Shade;
+- (void);
+- (double):%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;

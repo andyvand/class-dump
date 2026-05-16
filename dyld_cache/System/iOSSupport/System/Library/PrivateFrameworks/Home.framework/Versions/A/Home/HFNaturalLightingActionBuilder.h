@@ -29,10 +29,10 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (void)ì;
 
 // Remaining properties
 @property(readonly, nonatomic) HMLightProfileNaturalLightingAction *action; // @dynamic action;

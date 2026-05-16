@@ -70,29 +70,33 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (long long);
-- (long long);
+- (id);
 - (id);
 - (void);
-- (long long);
 - (id);
 - (void);
-- (void)Cù1zð1b0@ù
+- (id);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (long long);
+- (void)0@ù
 × ;
-- (id)D;
-- (id)P;
-- (id);
-- (void)ü÷øÿ0ûÿ;
-- (id)oKitAssetCollectionManagerStandardActionTitle_RevealInMoment;
-- (void)mÿenableDetailsViewHorizontalPaging;
-- (id);
-- (void);
-- (void)*8;
+- (void)!ÐCùqEÐ1â
+0@ù
+× ;
+- (void)â
+0@ù
+× ;
+- (void)ion;
+- (long long)Pè;
+- (id)teItemListWithPendingResult:numberOfItems=%ld, removed=%ld, inserted=%ld, changed=%ld /* Error: Ran out of types for this method. */;
+- (void)PLANATION_%@;
+- (void)Editor();
+- (id)óÿõ^ÆÄÿ-_ÆÌÿý^ÆÜÿ;
+- (void)`;
+- (long long)Ôu8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsUnverifiedPersons; // @synthesize containsUnverifiedPersons=_containsUnverifiedPersons;

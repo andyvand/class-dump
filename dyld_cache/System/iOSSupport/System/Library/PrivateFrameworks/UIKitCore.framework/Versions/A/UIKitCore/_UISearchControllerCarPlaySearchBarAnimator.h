@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)inimalSealingManifests;
 - (void);
 - (void);
-- (void);
 - (void);
+- (void);
+- (void)onController:(id)arg1;
 
 @end
 

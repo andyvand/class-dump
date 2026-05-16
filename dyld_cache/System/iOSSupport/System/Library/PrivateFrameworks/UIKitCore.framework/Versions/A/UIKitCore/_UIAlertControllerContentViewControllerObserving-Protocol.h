@@ -5,8 +5,5 @@
 //
 
 @protocol _UIAlertControllerContentViewControllerObserving
-- (void);
-- (void)egistered;
-- (void):chatID:queryID: /* Error: Ran out of types for this method. */;
 @end
 

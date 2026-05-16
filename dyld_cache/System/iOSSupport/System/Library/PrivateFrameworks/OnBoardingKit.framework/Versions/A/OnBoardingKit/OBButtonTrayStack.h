@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *bottomPaddingConstraint; // @synthesize bottomPaddingConstraint=_bottomPaddingConstraint;

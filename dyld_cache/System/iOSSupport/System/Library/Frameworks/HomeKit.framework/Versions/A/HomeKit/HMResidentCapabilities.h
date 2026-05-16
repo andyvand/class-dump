@@ -22,6 +22,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,21 +37,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (struct _HMResidentCapabilitiesStruct);
 - (_Bool);
 - (_Bool);
@@ -54,14 +59,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)× ;
+- (_Bool)áð!¤Fù­Ð1B50@ù
+× ;
+- (_Bool)ngHH2;
+- (void)ø;
+- (_Bool)l)ýÿÜÌÿÀ;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id)ser:%@, isOwner:%@, isAdmin:%@, isRG:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ing value (NO) will not be merged into home:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ource;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _HMResidentCapabilitiesStruct capabilities; // @synthesize capabilities=_capabilities;
@@ -82,11 +86,14 @@
 @property(readonly, nonatomic) _Bool supportsCameraRecordingReachabilityNotifications;
 @property(readonly, nonatomic) _Bool supportsCameraSignificantEventNotifications;
 @property(readonly, nonatomic) _Bool supportsCustomMediaApplicationDestination;
+@property(readonly, nonatomic) _Bool supportsDedicatedStatusChannel;
 @property(readonly, nonatomic) _Bool supportsDistributedExecutionOnAppleMediaAccessories;
 @property(readonly, nonatomic) _Bool supportsDistributedExecutionOnPrimary;
 @property(readonly, nonatomic) _Bool supportsEventLog;
 @property(readonly, nonatomic) _Bool supportsFaceClassification;
 @property(readonly, nonatomic) _Bool supportsFirmwareUpdate;
+@property(readonly, nonatomic) _Bool supportsHEVC;
+@property(readonly, nonatomic) _Bool supportsHKSV3;
 @property(readonly, nonatomic) _Bool supportsHomeActivityState;
 @property(readonly, nonatomic) _Bool supportsHomeHub;
 @property(readonly, nonatomic) _Bool supportsLockNotificationContext;

@@ -5,6 +5,7 @@
 //
 
 @class NSArray, NSString;
+@protocol WBSCloudTabItem;
 
 @interface WBSHistoryServiceURLCompletionMatchData
 {
@@ -27,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -37,20 +38,24 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (long long);
+- (void);
 - (id);
 - (double);
-- (_Bool)a;
+- (_Bool);
 - (long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)isit_counts column to history_items table:%{public}@ (%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(readonly, nonatomic) id <WBSCloudTabItem> cloudTab;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"<WBSCloudTabItem>",?,R,N
+
 @property(readonly, copy, nonatomic) NSString *cloudTabDeviceName;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C,N

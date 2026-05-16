@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)nce from me:(UICollectionView *)arg1 %@;
-- (NSIndexPath *)ÿÿ;
+- (_Bool);
 @end
 

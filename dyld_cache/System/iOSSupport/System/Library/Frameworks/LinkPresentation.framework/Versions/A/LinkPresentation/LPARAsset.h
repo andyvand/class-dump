@@ -13,17 +13,18 @@
     NSURL *_temporaryFileURL;
 }
 
-+ (_Bool)@"UIView",R,N,V_imageView;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
+- (void)°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LPARAssetProperties *properties; // @dynamic properties;

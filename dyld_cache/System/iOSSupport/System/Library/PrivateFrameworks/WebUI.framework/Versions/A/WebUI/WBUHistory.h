@@ -9,12 +9,12 @@
     _Bool _shouldScheduleMaintenance;
 }
 
-- (_Bool)nInChatItems:inserted:removed:outIndexOfReplacedPlugin:outIndexOfNewPlugin: /* Error: Ran out of types for this method. */;
-- (void)IsFilteredChange;
-- (id);
-- (_Bool)E;
 - (_Bool);
-- (Class);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (Class);
 - (id);
 - (void);
 - (void);

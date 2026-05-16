@@ -22,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,8 +36,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFActionUserInterfaceListener *actionUserInterfaceListener; // @synthesize actionUserInterfaceListener=_actionUserInterfaceListener;

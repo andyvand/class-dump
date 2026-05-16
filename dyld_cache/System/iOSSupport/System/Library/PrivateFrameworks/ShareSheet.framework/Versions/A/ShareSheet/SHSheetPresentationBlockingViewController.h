@@ -18,13 +18,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)ÏY©;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *closeButton; // @synthesize closeButton=_closeButton;

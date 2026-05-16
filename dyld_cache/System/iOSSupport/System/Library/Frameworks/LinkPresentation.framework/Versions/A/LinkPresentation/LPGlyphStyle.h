@@ -17,21 +17,20 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-- (id)u@yj
-*
-u;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)?;
 - (id);
-- (double){;
+- (id);
+- (double);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void)1Â0@ù
+× ;
+- (id)r:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) LPPointUnit *baselineOffset; // @synthesize baselineOffset=_baselineOffset;

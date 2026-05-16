@@ -30,49 +30,50 @@ __attribute__((visibility("hidden")))
     struct CGSize _preferredSize;
 }
 
-+ (id)dentifier in domain %@;
-+ (double)ved an imcomming pin code alert from a non SMS Device;
-+ (double)sms spam, filter is off;
-+ (id)ecause we have already logged in the past hour.;
-+ (id)r decontaminating MMS transfer:%@ error:%@ /* Error: Ran out of types for this method. */;
-+ (id)StackedSearch"b1"hasPendingSuggestionMenuRefresh"b1"hasSuppressedSuggestionMenuBeforeHorizontalSizeClassChange"b1"wasShowingSuggestionsWhenChangedToInline"b1"isLayingOutNavigationBarToActivateInlineSearch"b1"isDismissingOrAboutToDismiss"b1"hasDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2};
-- (void)gth does not match;
-- (double)dr2Data.tag.length;
-- (double)alformed FDR2 Format, invalid fdr2Data.tag.length;
-- (double)ontains %lu unused bytes;
-- (void)%p;
++ (id);
++ (double);
++ (double);
++ (id);
++ (id);
++ (id);
+- (void);
+- (double);
+- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)s;
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)pProtocolVersion;
-- (void);
-- (void);
-- (id);
-- (struct CGSize)A;
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (struct CGSize);
+- (id);
 - (void);
-- (id)0@ù
+- (void);
+- (id);
+- (void)1\Ð1Â0@ù
 × ;
-- (unsigned long long):newInputMode: /* Error: Ran out of types for this method. */;
-- (void)_longForcePressAction;
-- (id)llbacks have been skipped. navigationBar = %@;
-- (id);
-- (void)_ªÙj8_lXX;
-- (id)ñÿ;
+- (void);
+- (unsigned long long)0@ù
+× ;
+- (void);
+- (void)scale:(id)arg1;
+- (id)rce;
+- (void),&,VfadeOut;
+- (id)_UIPerformWithTraitLock(void (^ _Nonnull)(void));
+- (void);
+- (id)²µ¾HÝ?;ÁþëÖ?{k`«ÈÀ¤Ýè7þÀ@¡ÕÉä?;
+- (id)43+é;
 
 // Remaining properties
 @property(readonly, nonatomic) _UISwipeActionDynamicButton *button; // @synthesize button=_button;

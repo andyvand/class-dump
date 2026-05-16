@@ -12,7 +12,7 @@
     long long _queueEndAction;
 }
 
-- (id)Array"16@"NSNumber"24@"NSNumber"32@"NSNumber"40@"NSNumber"48B56B60@?<@"<BPSPublisher>"@?@"BMBookmarkablePublisher">64;
+- (id);
 - (long long);
 - (_Bool);
 

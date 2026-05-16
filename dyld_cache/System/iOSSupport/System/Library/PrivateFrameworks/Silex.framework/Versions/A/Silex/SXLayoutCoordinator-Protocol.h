@@ -7,7 +7,6 @@
 @protocol SXLayoutCoordinatorDelegate;
 
 @protocol SXLayoutCoordinator
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXLayoutCoordinatorDelegate> delegate;

@@ -14,23 +14,23 @@
     NSNumber *_uniqueIdentifier;
 }
 
-+ (id)L;
-+ (_Bool)0000-1000-8000-0026BB765291;
++ (id);
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)apter: /* Error: Ran out of types for this method. */;
-- (id)P¬T;
-- (id)age from archive data:%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (void)or:%@ /* Error: Ran out of types for this method. */;
+- (id)ryDiagnosticInfoRequestMessage;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (struct _NSRange);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

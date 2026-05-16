@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _lastLocation;
 }
 
-- (void)tAppliesTintAndBlurSettings:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)h: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ayer:(const struct _UISEGestureFeatureSample *)arg1;
 
 @end
 

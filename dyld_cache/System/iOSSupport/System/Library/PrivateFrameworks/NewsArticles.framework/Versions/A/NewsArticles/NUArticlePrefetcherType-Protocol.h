@@ -5,7 +5,6 @@
 //
 
 @protocol NUArticlePrefetcherType
-- (void)	
-;
+- (void);
 @end
 

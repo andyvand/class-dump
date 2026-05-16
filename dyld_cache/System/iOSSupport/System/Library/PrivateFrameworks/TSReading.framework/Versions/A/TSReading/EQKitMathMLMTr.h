@@ -13,17 +13,17 @@
     NSArray *mChildren;
 }
 
-- (id)|;
+- (id);
 - (const void *);
 - (struct Schemata);
 - (_Bool);
-- (id)<;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)ithImage:(id)arg1 leftCap:rightCap:topCap:bottomCap: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

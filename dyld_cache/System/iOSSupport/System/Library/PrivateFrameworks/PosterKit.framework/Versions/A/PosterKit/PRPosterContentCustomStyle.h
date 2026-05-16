@@ -12,7 +12,7 @@
     NSString *_localizedName;
 }
 
-+ (_Bool)eDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -26,16 +26,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

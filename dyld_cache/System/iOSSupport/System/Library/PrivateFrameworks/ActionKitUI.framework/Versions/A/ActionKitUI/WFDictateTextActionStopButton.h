@@ -23,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
+- (id);
+- (void);
 - (struct CGSize);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool)8;
 
 // Remaining properties
 @property(nonatomic) _Bool recording; // @synthesize recording=_recording;

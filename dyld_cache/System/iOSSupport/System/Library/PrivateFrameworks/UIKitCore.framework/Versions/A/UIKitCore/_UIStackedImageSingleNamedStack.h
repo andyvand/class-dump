@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)';
+- (id);
 - (struct CGImage *);
 - (id);
 - (double);
-- (void);
-- (id)!;
-- (struct CGSize)eWithRect:cornerRadius: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (id)erRadius;
+- (void));
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

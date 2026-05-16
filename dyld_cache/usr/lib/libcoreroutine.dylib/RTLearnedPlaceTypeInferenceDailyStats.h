@@ -17,10 +17,10 @@
 - (unsigned long long);
 - (id);
 - (double);
-- (void);
 - (id);
 - (id);
-- (id)$ØìØ;
+- (id);
+- (void)ing:companionLinkClient /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double aggregateDwellTimeBetweenDateRange; // @synthesize aggregateDwellTimeBetweenDateRange=_aggregateDwellTimeBetweenDateRange;

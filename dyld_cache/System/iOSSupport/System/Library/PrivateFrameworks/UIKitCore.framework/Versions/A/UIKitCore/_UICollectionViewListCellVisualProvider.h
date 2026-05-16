@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)t:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ate:toPerson:conference:account: /* Error: Ran out of types for this method. */;
-- (id)ID;
-- (void);
+- (long long);
+- (_Bool);
+- (id);
+- (void)itle:(id)arg1 forState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *accessoryManagerContainerView;

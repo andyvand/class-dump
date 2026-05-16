@@ -17,19 +17,20 @@
     _Bool _audioMessage;
 }
 
-+ (id)dy** added the folder;
++ (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id)!,Gùñ1Â0@ù
+× ;
+- (void)0	%ÿ¸«;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAudioMessage) _Bool audioMessage; // @synthesize audioMessage=_audioMessage;

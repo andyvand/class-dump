@@ -13,14 +13,14 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)lection"16@"NSError"24;
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

@@ -25,16 +25,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)roadcasterProviding;
+- (void);
 - (id);
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ion by selecting from prediction bar;
-- (void)¾ÿ¹v
-;
+- (id)fo.plist's CFBundleDocumentTypes dictionary.;
+- (void);
+- (struct UIEdgeInsets)lexInteractionKey;
+- (void)NÜ­^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

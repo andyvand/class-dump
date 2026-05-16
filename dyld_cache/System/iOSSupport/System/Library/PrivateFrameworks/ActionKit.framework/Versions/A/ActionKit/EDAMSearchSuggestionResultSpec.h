@@ -17,7 +17,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *maxTypeAheadSuggestions; // @synthesize maxTypeAheadSuggestions=_maxTypeAheadSuggestions;

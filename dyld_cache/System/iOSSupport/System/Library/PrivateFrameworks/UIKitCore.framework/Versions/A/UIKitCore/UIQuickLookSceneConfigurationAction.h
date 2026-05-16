@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)V;
-- (id)isFiltered;
-- (long long);
++ (id);
+- (id);
+- (long long)þhÜXg;
 
 @end
 

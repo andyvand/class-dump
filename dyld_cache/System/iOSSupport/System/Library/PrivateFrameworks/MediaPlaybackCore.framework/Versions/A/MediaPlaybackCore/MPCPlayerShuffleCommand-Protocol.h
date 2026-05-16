@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol MPCPlayerShuffleCommand
-- (NSArray *)ountStore"28@"ACAccount"36;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *supportedShuffleTypes;

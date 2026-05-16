@@ -22,11 +22,11 @@
 
 - (id);
 - (_Bool);
-- (void)8d16Q24@"NSDate"32@"NSUUID"40@?<v@?B>48;
-- (void)48;
-- (id)ookies;
-- (void)countModification:(id)arg1 oldAccount:(CDUnknownBlockType)arg2 inStore: /* Error: Ran out of types for this method. */;
-- (struct _MRSystemAppPlaybackQueue *)tiveMediaTypes on the local account.;
+- (void);
+- (void);
+- (id);
+- (void);
+- (struct _MRSystemAppPlaybackQueue *);
 - (void);
 - (id);
 - (id);
@@ -34,16 +34,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)A;
 - (void);
 - (id);
 - (id);
-- (id)ÊmH|w;
+- (void);
+- (id);
+- (void)c}@ - Unpreparing tap;
+- (id)es:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contextID; // @synthesize contextID=_contextID;

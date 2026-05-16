@@ -21,26 +21,27 @@
 
 + (id);
 + (id);
-- (void)æ|;
-- (void)Ç»{;
++ (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (double);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
-- (_Bool);
 - (void);
 - (_Bool);
-- (double);
-- (long long)²Êÿÿ;
-- (void)J;
+- (long long);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long animationType; // @synthesize animationType=_animationType;

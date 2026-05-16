@@ -21,8 +21,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)28@0:8@16i24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;

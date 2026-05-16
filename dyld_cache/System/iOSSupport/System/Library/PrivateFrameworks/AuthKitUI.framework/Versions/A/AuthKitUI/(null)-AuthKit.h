@@ -5,6 +5,6 @@
 //
 
 @interface (null) (AuthKit)
-+ (id)rServer+FormatRestrictions.swift;
++ (id);
 @end
 

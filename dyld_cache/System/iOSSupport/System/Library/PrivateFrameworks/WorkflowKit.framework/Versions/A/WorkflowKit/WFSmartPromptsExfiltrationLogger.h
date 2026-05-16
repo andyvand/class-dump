@@ -14,10 +14,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)ErrorFromError:(id)arg1;
+- (void)tcutCount;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *store; // @synthesize store=_store;

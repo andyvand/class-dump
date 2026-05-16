@@ -27,18 +27,18 @@
 + (_Bool);
 - (struct CGPoint);
 - (void);
-- (id)rService:(id)arg1 accountID:(struct CGPoint)arg2;
-- (void)nd Mapping packet;
-- (void)ete:(double)arg1 %@;
-- (double)dinator;
-- (double)-[IMDNicknameController _updateNameOnlyUpdateForMessage:fromHandleID:] /* Error: Ran out of types for this method. */;
-- (void)pdates from Peer Device;
+- (id);
 - (void);
-- (void)ÐÏ¹;
-- (id)Only: /* Error: Ran out of types for this method. */;
-- (id)View;
 - (void);
-- (double)ê;
+- (double);
+- (double);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)c;
+- (double);
+- (void)³j;
 
 // Remaining properties
 @property(nonatomic) double damping; // @synthesize damping=_damping;

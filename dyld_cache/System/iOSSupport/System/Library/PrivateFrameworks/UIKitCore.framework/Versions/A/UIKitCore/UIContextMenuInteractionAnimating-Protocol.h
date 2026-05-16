@@ -7,9 +7,8 @@
 @class UIViewController;
 
 @protocol UIContextMenuInteractionAnimating
-- (UIViewController *)e at least as large as original;
-- (void)ropSession>"8;
-- (void)Èÿ3À;
+- (void)ectionView internal inconsistency:(void (^)(void))arg1 attempted to reuse view for a nil collection view;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *previewViewController;

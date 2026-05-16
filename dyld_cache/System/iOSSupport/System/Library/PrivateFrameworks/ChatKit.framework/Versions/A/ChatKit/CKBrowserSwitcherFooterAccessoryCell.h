@@ -13,17 +13,17 @@
     UIView *_seperatorView;
 }
 
-+ (id)l;
 + (id);
-- (void)d;
++ (id);
+- (void);
 - (id);
-- (void);
 - (double);
 - (double);
 - (void);
 - (void);
-- (id)\ËäÐpÑ+Ú,Û °Ý4à;
 - (void);
+- (id);
+- (void)ViewModel;
 
 // Remaining properties
 @property(nonatomic) double maxHeight; // @synthesize maxHeight=_maxHeight;

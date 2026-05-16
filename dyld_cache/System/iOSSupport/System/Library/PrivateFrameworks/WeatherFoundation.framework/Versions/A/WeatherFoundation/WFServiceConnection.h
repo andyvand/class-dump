@@ -35,22 +35,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id)DG;
-- (void)a day toggle title;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)ing",R,C,N,V_eventDescription;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;

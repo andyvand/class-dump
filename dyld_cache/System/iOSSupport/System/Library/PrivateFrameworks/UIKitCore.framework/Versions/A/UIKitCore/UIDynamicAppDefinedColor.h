@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     NSDictionary *_colorsByThemeKey;
 }
 
-+ (_Bool)Mn;
++ (_Bool)ne being added first;
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)mCount__MAPPING_MISSING__;
-- (id)`;
-- (void)1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (id)t=},?,N;
-- (id)estionController;
-- (id);
+- (_Bool)iguration;
+- (void)etion:(id)arg1;
+- (id)ÿÿÿÿD;
+- (id)e=Úðc_;
+- (void)¬Áÿ;
+- (id)tn;
 
 @end
 

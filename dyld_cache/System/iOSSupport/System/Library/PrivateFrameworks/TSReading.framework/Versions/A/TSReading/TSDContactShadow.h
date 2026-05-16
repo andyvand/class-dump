@@ -16,7 +16,7 @@
 - (struct CGImage *);
 - (struct CGImage *);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (double);
@@ -26,9 +26,9 @@
 - (unsigned long long);
 - (double);
 - (id);
+- (double);
 - (_Bool);
 - (id);
-- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double height; // @synthesize height=mHeight;

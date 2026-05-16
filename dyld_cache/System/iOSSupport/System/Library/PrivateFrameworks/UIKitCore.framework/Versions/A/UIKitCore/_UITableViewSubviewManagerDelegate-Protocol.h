@@ -5,7 +5,5 @@
 //
 
 @protocol _UITableViewSubviewManagerDelegate
-- (void);
-- (void);
 @end
 

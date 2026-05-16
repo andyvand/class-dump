@@ -12,13 +12,15 @@ __attribute__((visibility("hidden")))
     UIScreen *_screen;
 }
 
+- (void);
 - (struct CGRect);
 - (struct CGPoint);
+- (id)EùQ]ð1Â0@ù
+× ;
+- (struct CGRect);
+- (struct CGRect)1Â0@ù
+× ;
 - (struct CGPoint);
-- (id);
-- (struct CGRect)esSelectionState;
-- (void)or;
-- (struct CGRect)andidateBarHighlight;
 
 // Remaining properties
 @property(nonatomic, setter=_setScreen:) UIScreen *_screen; // @synthesize _screen;

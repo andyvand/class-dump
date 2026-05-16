@@ -22,7 +22,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)tonEditTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

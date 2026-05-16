@@ -11,19 +11,19 @@
     unsigned long long _persistentID;
 }
 
-+ (id)t:accountIdentifier:accountHandles:accountType:attachment:URL:contentProtection:isNew:isTwoFactorCode:isFromMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService: /* Error: Ran out of types for this method. */;
-+ (_Bool)thStreamEnumerator:(id)arg1 downstream:streamId:accessClient: /* Error: Ran out of types for this method. */;
-+ (_Bool)rver %p> HMHomeManagerDelegatePrivate homeManager:%{public}@ didUpdateStatus:%lu /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)e:album:artist:duration:genre:title:elapsed:mediaType:iTunesStoreIdentifier:iTunesSubscriptionIdentifier:iTunesArtistIdentifier:iTunesAlbumIdentifier:isAirPlayVideo:outputDevices: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (unsigned long long)C;
+- (unsigned long long);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 
 @end

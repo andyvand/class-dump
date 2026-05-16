@@ -14,18 +14,21 @@ __attribute__((visibility("hidden")))
     NSMutableIndexSet *_allIndexes;
 }
 
-- (id)@;
+- (id);
 - (void);
 - (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (id)legate>";
-- (id)PrimaryLanguage: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)3ó^;
+- (id)xEùñYð1Â0@ù
+× ;
+- (id)!Ð!ÜGùQa°1Â0@ù
+× ;
+- (struct CGRect)xCù1d1Â0@ù
+× ;
+- (struct CGRect)ControllerForWindow:(unsigned long long)arg1;
+- (void)ÐWøX¼^t`;
+- (void);
+- (void)e23ÙÎ;
+- (id)¬^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *allIndexes;

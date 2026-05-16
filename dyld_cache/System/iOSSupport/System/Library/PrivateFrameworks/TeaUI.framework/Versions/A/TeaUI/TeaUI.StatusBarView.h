@@ -8,8 +8,8 @@
 {
 }
 
+- (id);
 - (void);
-- (id)Color;
 - (id);
 
 @end

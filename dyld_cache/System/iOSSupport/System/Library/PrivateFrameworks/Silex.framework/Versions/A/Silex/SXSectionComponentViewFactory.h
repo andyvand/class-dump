@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (int)T@"<SXGalleryItemImageViewFactory>",R,N,V_imageViewFactory;
+- (int);
 
 @end
 

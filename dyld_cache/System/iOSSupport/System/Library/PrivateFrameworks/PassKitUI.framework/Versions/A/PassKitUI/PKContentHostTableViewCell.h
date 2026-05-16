@@ -13,10 +13,11 @@
 
 - (void);
 - (id);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (struct CGSize);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *hostedContentView; // @synthesize hostedContentView=_hostedContentView;

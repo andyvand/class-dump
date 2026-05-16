@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ØL;
-- (id)adte the transfer. Record hasAsset %@;
++ (_Bool)ust specify a test name for the rotation with keyboard test;
+- (id);
+- (_Bool);
+- (_Bool);
 - (struct CGAffineTransform);
-- (_Bool)ryPinEntityType__MAPPING_MISSING__;
-- (double)Error"24;
-- (_Bool)all block passed to defersResponseReplacement.;
-- (_Bool)pareForRowDataHeaderFooterSizing;
-- (_Bool)llover (out) due to hiding scroller;
-- (_Bool)Úÿ¶ÒI3`;
-- (_Bool)³·ÿ;
-- (_Bool)Ënïg;
+- (_Bool);
+- (_Bool)WithID:options:documentTraits:initialDocumentState: /* Error: Ran out of types for this method. */;
+- (double);
+- (_Bool)dv¼ÿq;
+- (_Bool)ÿ;
+- (_Bool);
 
 @end
 

@@ -8,8 +8,6 @@
 @protocol MPCQueueControllerBehaviorMusicSharePlayDelegate;
 
 @protocol MPCQueueControllerBehaviorMusicSharePlay
-- (void);
-- (MPPropertySet *);
 
 // Remaining properties
 @property(nonatomic) __weak id <MPCQueueControllerBehaviorMusicSharePlayDelegate> musicSharePlayBehaviorDelegate;

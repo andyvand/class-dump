@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     MPModelMediaClip *_mediaClip;
 }
 
-+ (id)rameworks/FMCoreLite.framework/Versions/A/FMCoreLite;
-- (id)fs;
-- (_Bool)count actually changed.;
++ (id);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -28,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool)C;
 - (void);
 - (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (_Bool)ChangeQueueController:| updating playback coordinator [new queue controller] playbackCoordinator=%{public}@ musicSharePlayBehavior=%{public}@ /* Error: Ran out of types for this method. */;
+- (void)%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelMediaClip *mediaClip; // @synthesize mediaClip=_mediaClip;

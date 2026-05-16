@@ -16,8 +16,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)}Ü;
 
 @end
 

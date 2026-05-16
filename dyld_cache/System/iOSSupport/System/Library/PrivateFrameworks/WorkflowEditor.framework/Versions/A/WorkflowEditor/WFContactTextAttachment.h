@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void)Ù;
+- (id)inator;
 
 // Remaining properties
 @property(retain, nonatomic) WFContact *value; // @synthesize value=_value;

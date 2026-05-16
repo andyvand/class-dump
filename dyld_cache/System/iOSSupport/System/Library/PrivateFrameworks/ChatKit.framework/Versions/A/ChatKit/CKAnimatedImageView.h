@@ -16,7 +16,7 @@
 
 - (void);
 - (void);
-- (void)onverted %lu sketches in note %@;
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -24,10 +24,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)h;
-- (void);
 - (id);
+- (void)ndColor: /* Error: Ran out of types for this method. */;
+- (void)èÄDÿÈ5\;
+- (void)ÿü¨:(id)arg1 \B3;
 
 // Remaining properties
 @property(retain, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;

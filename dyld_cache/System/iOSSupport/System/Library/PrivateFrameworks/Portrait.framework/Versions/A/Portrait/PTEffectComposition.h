@@ -17,8 +17,8 @@
 
 - (unsigned int);
 - (MISSING_TYPE *);
-- (void);
 - (id);
+- (void);
 
 @end
 

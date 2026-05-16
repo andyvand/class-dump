@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (struct CGSize);
@@ -39,15 +39,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

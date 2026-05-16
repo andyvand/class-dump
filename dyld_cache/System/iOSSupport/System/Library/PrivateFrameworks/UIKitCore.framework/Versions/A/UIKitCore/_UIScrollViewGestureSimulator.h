@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
     double _lastWakeUpTime;
 }
 
-+ (id)S;
++ (id)XJk;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)56;
-- (id)ForState: /* Error: Ran out of types for this method. */;
-- (void)iveTouches;
-- (void);
+- (id);
+- (void)ing",C,N,V_sessionActionString;
+- (void)t be between opposite attributes. Can't put %@ between %@ of %@ and %@ of %@;
+- (void)u;
 
 @end
 

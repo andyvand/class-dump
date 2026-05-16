@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)0;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 @end

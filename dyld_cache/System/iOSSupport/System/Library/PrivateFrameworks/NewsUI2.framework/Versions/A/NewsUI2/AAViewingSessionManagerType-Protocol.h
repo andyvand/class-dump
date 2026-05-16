@@ -5,6 +5,5 @@
 //
 
 @protocol AAViewingSessionManagerType
-- (void);
 @end
 

@@ -20,10 +20,10 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (void);
 - (_Bool);
 - (struct CGRect);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

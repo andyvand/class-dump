@@ -10,12 +10,12 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (void);
-- (void)ndation.framework/EmojiFoundation;
+- (void);
 
 @end
 

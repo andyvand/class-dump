@@ -4,16 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.AccountManager
 {
-    MISSING_TYPE *cachedServices;
-    MISSING_TYPE *cachedAccounts;
-    MISSING_TYPE *cachedAccountParticipants;
-    MISSING_TYPE *cachedAccountAliases;
-    MISSING_TYPE *cachedServicesMissingLoginAddress;
-    MISSING_TYPE *loggedOnce;
 }
 
 @end

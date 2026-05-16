@@ -5,8 +5,5 @@
 //
 
 @protocol IMDChatQueries
-- (void);
-- (void);
-- (void)P;
 @end
 

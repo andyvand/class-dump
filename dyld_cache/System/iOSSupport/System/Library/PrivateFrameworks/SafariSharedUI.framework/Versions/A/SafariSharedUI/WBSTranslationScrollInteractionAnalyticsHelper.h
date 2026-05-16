@@ -16,14 +16,14 @@
     CDUnknownBlockType _submissionHandler;
 }
 
-- (void)톹;
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)lectionMethod:collectionOptions:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType submissionHandler; // @synthesize submissionHandler=_submissionHandler;

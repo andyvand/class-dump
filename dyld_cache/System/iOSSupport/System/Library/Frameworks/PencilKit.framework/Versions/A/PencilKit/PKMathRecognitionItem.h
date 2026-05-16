@@ -43,7 +43,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -62,19 +62,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)�);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,23 +96,24 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (id)`F;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (double);
 - (id);
-- (struct CGRect)p:%d /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
+- (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (void),C,N,V_cachedDrawingVersionForAdditionalStrokes;
+- (id)0@ù
+× ;
+- (void)oubleTap;
+- (void)t1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allTokens; // @synthesize allTokens=_allTokens;

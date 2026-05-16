@@ -15,18 +15,18 @@
 }
 
 - (void);
+- (void);
+- (id);
 - (double);
-- (void);
-- (void)`;
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void)rStringByTrimmingTrailingNewlines;
+- (void);
+- (void);
 
 // Remaining properties
 @property double cooldownTime; // @synthesize cooldownTime=_cooldownTime;

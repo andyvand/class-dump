@@ -18,18 +18,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)from %llu to %llu;
-- (void)yýº;
 - (id);
-- (void)pdateTab:(_Bool)arg1 toHidden: /* Error: Ran out of types for this method. */;
-- (void)tsArchivingCustomClass:(_Bool)arg1;
-- (id)ordanceHidden: /* Error: Ran out of types for this method. */;
-- (_Bool)IPassthroughGestureDelegate;
-- (_Bool) ø;
-- (void)hould not be changed while active.;
-- (void)¥sÔ_;
+- (_Bool)!ð!lGùQaÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (void)ntentResolver:(_Bool)arg1;
+- (_Bool)ingFactor;
+- (void)ack:(_Bool)arg1;
+- (id)Please use UIWebView in place of UIWebDocumentView.;
 - (_Bool);
-- (_Bool)¼ÌPÿ;
+- (_Bool);
+- (void)ìIÿøç_;
+- (void)³a;
+- (void)¸kÊÿ¯ÌÀÜc;
 
 // Remaining properties
 @property(nonatomic) _Bool optimizationsEnabled; // @synthesize optimizationsEnabled=_optimizationsEnabled;

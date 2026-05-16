@@ -15,12 +15,12 @@
 
 - (void);
 - (void);
+- (void);
 - (struct UIEdgeInsets);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)s:(struct UIEdgeInsets)arg1;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

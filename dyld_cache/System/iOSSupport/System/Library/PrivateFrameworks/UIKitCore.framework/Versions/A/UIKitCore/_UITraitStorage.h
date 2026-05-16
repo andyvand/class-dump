@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id)rayColor;
-- (id)executed on this platform:%@ /* Error: Ran out of types for this method. */;
-- (id)le (%ld);
-- (id)tViewRenderingMode;
-- (void);
+- (id);
+- (id);
+- (id);
+- (void)lue;
+- (void)r;
+- (id)~íÿ;
+- (void)cureCoding_p;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;

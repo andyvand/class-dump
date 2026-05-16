@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol HFReorderableItemListItemProtocol
-- (NSString *)em:] /* Error: Ran out of types for this method. */;
+- (NSString *)LÄÐÅ(Æ¸Ç¬È3Ê;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *uuidString;

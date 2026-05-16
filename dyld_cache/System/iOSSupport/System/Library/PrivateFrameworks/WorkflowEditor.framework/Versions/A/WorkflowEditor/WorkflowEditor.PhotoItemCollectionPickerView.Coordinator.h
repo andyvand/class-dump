@@ -12,8 +12,8 @@
     MISSING_TYPE *previousSelection;
 }
 
-- (void);
 - (id);
+- (void)üà;
 
 @end
 

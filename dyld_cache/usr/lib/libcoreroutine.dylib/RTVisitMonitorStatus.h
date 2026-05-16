@@ -13,17 +13,17 @@
 }
 
 - (id);
-- (_Bool);
-- (_Bool)hDevice;
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool)perties.referenceFramePropertyPath.count > 0;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long feedBufferReferenceCounter; // @synthesize feedBufferReferenceCounter=_feedBufferReferenceCounter;

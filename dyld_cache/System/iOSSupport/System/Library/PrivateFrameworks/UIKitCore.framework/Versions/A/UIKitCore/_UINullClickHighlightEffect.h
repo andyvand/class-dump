@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _completionBlock;
 }
 
-+ (id)ion:(id)arg1 %@, isIncomingParticipantSetSame %@;
++ (id);
 - (id);
 - (id);
 - (void);
-- (void)ù
-× ;
+- (CDUnknownBlockType)d;
 - (void);
-- (CDUnknownBlockType)f %f %f %f}};
+- (void)\Î\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ruct;
 
 // Remaining properties
 @property(retain, nonatomic) WFSettingsClientBookmark *stateBeforeRun; // @synthesize stateBeforeRun=_stateBeforeRun;

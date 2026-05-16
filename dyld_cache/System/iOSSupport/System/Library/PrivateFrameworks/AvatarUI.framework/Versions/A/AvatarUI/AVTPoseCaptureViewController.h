@@ -61,7 +61,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,41 +75,40 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (long long);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)or">16@0:(_Bool)arg1 8;
-- (id)ked as read when entering a conversation.;
 - (void);
-- (void)
-× ;
-- (void)qÉð1¢!0@ù
-× ;
-- (void)ConfigurationProvider",&,N,V_stickerConfigurationProvider;
-- (void),óùÿq;
+- (id);
+- (void);
+- (long long);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void)ration:(id)arg1;
+- (id)q=
+×£pÝ?VUUUUUd@;
+- (void)ÛØ;
 
 // Remaining properties
 @property(retain, nonatomic) AVTStickerConfiguration *adHocConfiguration; // @synthesize adHocConfiguration=_adHocConfiguration;

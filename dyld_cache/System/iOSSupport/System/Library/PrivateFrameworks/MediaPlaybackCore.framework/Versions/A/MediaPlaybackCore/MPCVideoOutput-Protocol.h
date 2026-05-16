@@ -8,14 +8,24 @@
 @protocol MPCVideoOutputDelegate;
 
 @protocol MPCVideoOutput
-- (void);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)kX;
+- (void)0@ù
+× ;
+- (void)sset";
+- (AVPlayerLayer *)rtificateURL;
+- (struct CGSize)rocessor>",R,N,V_processor;
+- (_Bool);
+- (_Bool)rror"24;
+- (void)on.begin;
+- (struct CGRect);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPictureInPicturePlayback;
 @property(nonatomic) _Bool allowsVideoFrameAnalysis;
+@property(nonatomic) _Bool canStartPictureInPictureAutomaticallyFromInline;
+@property(nonatomic) _Bool exitsFullScreenWhenPlaybackEnds;
+@property(readonly, nonatomic, getter=isExternalPlaybackActive) _Bool externalPlaybackActive;
+@property(nonatomic) _Bool hidesVideoPlayerBackground;
 @property(readonly, nonatomic, getter=isPictureInPictureActive) _Bool pictureInPictureActive;
 @property(readonly, nonatomic) AVPlayerLayer *playerLayer;
 @property(readonly, nonatomic) UIViewController *playerViewController;
@@ -23,6 +33,7 @@
 @property(readonly, nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay;
 @property(nonatomic) _Bool showsPlaybackControls;
 @property(readonly, nonatomic) struct CGRect videoBounds;
+@property(nonatomic) _Bool videoEnabled;
 @property(copy, nonatomic) NSString *videoGravity;
 @property(nonatomic) __weak id <MPCVideoOutputDelegate> videoOutputDelegate;
 @end

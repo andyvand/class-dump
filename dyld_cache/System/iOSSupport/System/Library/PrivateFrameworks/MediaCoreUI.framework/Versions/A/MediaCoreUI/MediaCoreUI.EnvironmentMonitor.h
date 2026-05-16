@@ -12,11 +12,11 @@
     MISSING_TYPE *_thermalLevel;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)É;
 - (void);
 - (id);
+- (void);
+- (void)will fail. %{public}s.;
 
 @end
 

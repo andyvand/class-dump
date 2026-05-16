@@ -11,9 +11,9 @@
     _Bool _active;
 }
 
-- (id)es;
+- (id);
+- (void);
 - (_Bool);
-- (void)tate_create_MethocCompletionInfoList;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

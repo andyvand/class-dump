@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)N,V_viewModels;
 
 @end
 

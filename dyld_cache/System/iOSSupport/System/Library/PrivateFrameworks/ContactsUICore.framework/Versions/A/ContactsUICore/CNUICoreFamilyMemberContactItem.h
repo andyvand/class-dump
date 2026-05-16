@@ -18,7 +18,7 @@
     long long _whitelistStatus;
 }
 
-+ (_Bool)FavoritesCSg;
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -26,7 +26,9 @@
 - (id);
 - (_Bool);
 - (long long);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -34,9 +36,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)ntact:channelIdentifier:preferDefaultApp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;

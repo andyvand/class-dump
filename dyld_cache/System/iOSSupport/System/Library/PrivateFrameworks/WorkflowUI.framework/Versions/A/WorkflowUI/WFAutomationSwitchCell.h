@@ -12,9 +12,10 @@
 }
 
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)	
+;
 
 // Remaining properties
 @property(readonly, nonatomic) UISwitch *switchControl; // @synthesize switchControl=_switchControl;

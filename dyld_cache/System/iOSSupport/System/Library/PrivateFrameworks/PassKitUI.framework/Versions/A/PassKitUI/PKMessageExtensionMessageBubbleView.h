@@ -30,15 +30,17 @@
 - (struct CGSize);
 - (void);
 - (id);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (struct CGSize);
-- (void)4îÿ;
-- (id)è;
+- (void)øð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;

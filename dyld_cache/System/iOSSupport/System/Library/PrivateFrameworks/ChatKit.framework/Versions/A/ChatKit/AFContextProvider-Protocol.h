@@ -5,6 +5,5 @@
 //
 
 @protocol AFContextProvider
-- (_Bool)Ty;
 @end
 

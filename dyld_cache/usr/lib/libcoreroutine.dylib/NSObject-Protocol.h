@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
-- (id)T;
-- (struct _NSZone *);
-- (_Bool)?;
-- (_Bool)1],°1¢!0@ù
-× ;
-- (id)erType: /* Error: Ran out of types for this method. */;
+- (id)Preprocessor;
+- (_Bool)idMessagesWaitingForAck:(Protocol *)arg1;
+- (struct _NSZone *)%@;
 
 @optional
-- (NSString *);
+- (NSString *)ults;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

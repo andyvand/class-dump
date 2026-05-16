@@ -13,18 +13,17 @@
     MISSING_TYPE *passthroughViews;
 }
 
-- (void).fill;
 - (void);
 - (void);
-- (void)6;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id)y
-;
 - (id);
-- (id)v®y]?_pG;
-- (void)ØóÎÿ°;
+- (id);
+- (void);
+- (id);
+- (void)Ü;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP7ChatKit37CKInteractionNotificationViewDelegate_> delegate; // @synthesize delegate;

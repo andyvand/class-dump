@@ -28,7 +28,7 @@
 + (id);
 + (void);
 + (id);
-+ (id)sted;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -45,6 +45,7 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -156,16 +157,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)refresh FormResponseStub.;
 - (id);
-- (id)lowups.@count == 0;
-- (id)ÒÂ;
+- (id);
+- (void);
+- (void);
+- (id)§¤¨¤«¬;
+- (void)quested feedback status but feedback is nil;
+- (id)ö;
 
 // Remaining properties
 @property(retain, nonatomic) FBKSeedPortalAPI *api; // @synthesize api=_api;

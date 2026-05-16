@@ -16,11 +16,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
 - (long long);
+- (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) long long clientBatchSize; // @synthesize clientBatchSize=_clientBatchSize;

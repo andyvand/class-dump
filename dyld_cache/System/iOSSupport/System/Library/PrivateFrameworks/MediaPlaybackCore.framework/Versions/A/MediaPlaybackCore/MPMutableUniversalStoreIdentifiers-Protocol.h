@@ -7,11 +7,9 @@
 @class NSArray, NSString;
 
 @protocol MPMutableUniversalStoreIdentifiers
+- (long long)racklistTokenRequest;
+- (long long)0;
 - (void);
-- (NSString *);
-- (long long)equest aborted after %lds].;
-- (void);
-- (long long);
 
 // Remaining properties
 @property(nonatomic) long long adamID;

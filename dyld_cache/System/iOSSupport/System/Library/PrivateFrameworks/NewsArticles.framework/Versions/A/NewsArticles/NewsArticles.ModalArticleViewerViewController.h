@@ -17,12 +17,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)iouslyRestoredScrollPosition: /* Error: Ran out of types for this method. */;
-- (void)À=;
+- (void);
+- (void)peCoordinator;
+- (void)ü;
 
 @end
 

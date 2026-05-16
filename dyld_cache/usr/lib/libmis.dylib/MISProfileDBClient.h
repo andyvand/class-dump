@@ -18,30 +18,31 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)j.;
 - (id);
 - (id);
-- (id);
+- (void);
 
 @end
 

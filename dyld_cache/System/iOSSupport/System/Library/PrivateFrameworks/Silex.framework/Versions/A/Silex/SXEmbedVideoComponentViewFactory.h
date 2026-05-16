@@ -19,17 +19,17 @@
     id <SXSceneStateMonitor> _sceneStateMonitor;
 }
 
-- (id)<;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (int)WebCalAction;
+- (id);
+- (int);
+- (void)rViewController"16B24@"<AVPlayerViewControllerAnimationCoordinator>"28;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;

@@ -5,8 +5,5 @@
 //
 
 @protocol AVPlayerItemMetadataOutputPushDelegate
-
-@optional
-- (void);
 @end
 

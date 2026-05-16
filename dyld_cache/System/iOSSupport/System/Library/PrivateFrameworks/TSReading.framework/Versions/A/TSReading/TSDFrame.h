@@ -23,14 +23,14 @@
 
 + (Class);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (struct CGRect);
 - (double);
-- (_Bool)";
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -40,7 +40,7 @@
 - (double);
 - (double);
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (_Bool);
 - (void);
@@ -58,11 +58,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
 - (id);
 
 // Remaining properties

@@ -17,13 +17,13 @@
 
 + (id);
 + (void);
-- (id)H;
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void):completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

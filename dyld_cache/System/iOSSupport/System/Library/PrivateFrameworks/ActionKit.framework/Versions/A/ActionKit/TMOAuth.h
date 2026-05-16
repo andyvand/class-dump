@@ -15,8 +15,8 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)s;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *baseString; // @synthesize baseString=_baseString;

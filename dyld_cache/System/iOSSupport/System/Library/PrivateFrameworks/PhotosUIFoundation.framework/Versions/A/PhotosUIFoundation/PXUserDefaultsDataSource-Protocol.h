@@ -7,7 +7,6 @@
 @class NSDate;
 
 @protocol PXUserDefaultsDataSource
-- (NSDate *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *currentDate;

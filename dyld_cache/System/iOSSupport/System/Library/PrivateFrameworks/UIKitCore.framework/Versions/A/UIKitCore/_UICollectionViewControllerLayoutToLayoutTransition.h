@@ -18,21 +18,21 @@
 + (id);
 - (void);
 - (void);
-- (_Bool)UID: /* Error: Ran out of types for this method. */;
-- (_Bool)chment:associateWithMessageWithGUID: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (_Bool)ssFileAtPath:toPath:withCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (void);
-- (void)ù;
-- (void);
-- (void)andardTextCursorViewAudioLevelProvider>",W,N,V_audioLevelProvider;
-- (long long)UICommand instead.
-;
-- (void);
-- (void)ªh;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (double);
+- (id);
+- (void)Ð1Â0@ù
+× ;
+- (void)Classes;
+- (void)boardCrossFadeOpacity;
+- (void)vider:(id)arg1 ,V__metadataProvider;
+- (id);
+- (void)80éþ©;
+- (long long)Ô9ab;
+- (void)Ù;
 
 // Remaining properties
 @property(nonatomic) _Bool crossFadeBottomBars; // @synthesize crossFadeBottomBars=_crossFadeBottomBars;

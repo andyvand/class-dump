@@ -14,10 +14,10 @@
 
 + (id);
 + (id);
-- (id)wSpan:startingColumn:columnSpan: /* Error: Ran out of types for this method. */;
-- (id)WithTable:startingRow:rowSpan:startingColumn:columnSpan: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
+- (id)onfigurationWithTextStyle:scale: /* Error: Ran out of types for this method. */;
+- (void)yAAyKù\y½d\ywn]ySay¦|GGSS}c\yAAy$ø\yn`\y8_\y_Qo__°/\yú%\GQo__Qo_­GSSGGGò3\GA0_Gt;
 
 // Remaining properties
 @property(readonly, nonatomic) CKTranscriptLegibilityButton *stampButton;

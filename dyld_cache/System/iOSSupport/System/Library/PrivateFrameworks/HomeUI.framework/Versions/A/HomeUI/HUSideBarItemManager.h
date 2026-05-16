@@ -44,9 +44,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Ä`;
+- (id);
+- (void)wController initWithItemManager:tableViewStyle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUSideBarStaticItem *automationItem; // @synthesize automationItem=_automationItem;

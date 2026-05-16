@@ -15,11 +15,11 @@
 - (id);
 - (void);
 - (void);
-- (void)inconsitent node;
-- (void)tSingleDeviceSaveChangesThrottlingPolicyString:(id)arg1;
+- (id);
+- (void);
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

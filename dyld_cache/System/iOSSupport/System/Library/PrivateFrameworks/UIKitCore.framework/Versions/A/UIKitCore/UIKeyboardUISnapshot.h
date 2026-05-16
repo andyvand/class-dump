@@ -11,16 +11,17 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-+ (_Bool)ì×m;
-- (void);
-- (_Bool);
-- (void);
++ (_Bool)ts;
 - (id);
 - (id);
-- (struct CGSize)ckbox;
-- (unsigned int)ctionInitialLocationInContainerView;
-- (void)thenticationMessage",R,N;
-- (id)ons;
+- (unsigned int);
+- (void);
+- (struct CGSize)ñbð1Â0@ù
+× ;
+- (void)_UITextKit1CanvasContext>"16@0:(struct CGSize)arg1 8;
+- (_Bool)inDisplay;
+- (void)FromTop;
+- (id)wDecorationItem;
 
 // Remaining properties
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;

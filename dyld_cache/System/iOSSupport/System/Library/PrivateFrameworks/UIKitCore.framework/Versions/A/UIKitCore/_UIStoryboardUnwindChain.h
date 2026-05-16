@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)lStrategy:] /* Error: Ran out of types for this method. */;
+- (id)ethod should never be called. We use the async menuForConfiguration:suggestedActions:method instead. /* Error: Ran out of types for this method. */;
+- (void)";
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *commonAncestorViewController;

@@ -13,18 +13,19 @@
     double _lastTypedKeyTimestamp;
 }
 
-+ (Class);
++ (Class)`°1Â0@ù
+× ;
 - (float);
-- (void)rvice:(double)arg1;
-- (void)Style:(long long)arg1;
-- (double)Store;
-- (id)wift_setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
-- (id)[;
+- (void);
+- (void);
+- (double);
+- (id);
+- (id);
 - (double);
 - (void);
-- (void)lEvents;
-- (void)Layer;
-- (id)Àç^;
+- (void):(long long)arg1 documentTraits:initialDocumentState: /* Error: Ran out of types for this method. */;
+- (void)@;
+- (id)´§ÿæÕûc;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

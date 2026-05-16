@@ -14,10 +14,10 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)HostingControllerRequest;
 
 // Remaining properties
 @property(readonly, nonatomic) PXViewSpec *viewSpec; // @synthesize viewSpec=_viewSpec;

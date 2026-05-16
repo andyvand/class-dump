@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCModelGenericAVItem;
 @protocol MPCSingleTrackAudioProcessing;
 
 @protocol MPCSingleTrackAudioProcessing
-- (_Bool)ector:(MPCModelGenericAVItem *)arg1;
-- (void);
-- (id <MPCSingleTrackAudioProcessing>)added;
 
 // Remaining properties
 @property(retain, nonatomic) id <MPCSingleTrackAudioProcessing> selfRef;

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)tPresentationProviderP;
-- (void)ount:(id)arg1 anonymousMetrics:clientInfo:clientOptions:mediaClientIdentifier:metricsOverlay:handlers:) /* Error: Ran out of types for this method. */;
+- (id);
+- (void)serviceType;
+- (void)iewExtensionHostInterface_p;
 
 // Remaining properties
 @property(retain, nonatomic) id contentType; // @synthesize contentType=_contentType;

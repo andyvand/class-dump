@@ -9,23 +9,23 @@
 }
 
 + (id);
-+ (double)NSTextLayoutManagerCG;
-+ (id)e;
++ (double);
++ (id);
 + (id);
 + (id);
 + (struct CGSize);
-+ (_Bool)ferent account.;
 + (_Bool);
 + (_Bool);
-+ (_Bool)dingMethod;
-+ (id);
++ (_Bool);
++ (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (double);
 + (double);
-+ (_Bool)ÿý{A©ôOÂ¨ÿ_Ö#ÕôO¾©ý{©ýC;
++ (_Bool);
 
 @end
 

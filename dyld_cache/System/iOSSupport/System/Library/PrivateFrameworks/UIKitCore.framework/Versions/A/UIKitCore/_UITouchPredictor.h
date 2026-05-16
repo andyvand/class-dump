@@ -27,18 +27,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)q;
+- (void);
 - (id);
 - (unsigned long long);
-- (id)t: /* Error: Ran out of types for this method. */;
-- (id)stingChatsWithIdentifier:style: /* Error: Ran out of types for this method. */;
-- (id)ipantVersion: /* Error: Ran out of types for this method. */;
-- (unsigned long long)DB;
 - (id);
-- (void);
-- (id)TextColorNormalUserInterfaceStyleDark;
-- (id)ew;
-- (id)s;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id)calculationVisibility;
+- (id)e.;
+- (void)yProvidingP;
 
 @end
 

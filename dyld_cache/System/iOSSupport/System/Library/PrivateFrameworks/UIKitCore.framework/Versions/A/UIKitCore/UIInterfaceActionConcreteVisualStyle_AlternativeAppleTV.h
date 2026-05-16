@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (id);
 - (struct CGSize);
-- (id)matching participants!;
-- (id)unt:(id)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
-- (id)ccount:(id)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
-- (id)rties;
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
 
 @end

@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
     _Bool _reduceMotion;
 }
 
-- (void)erenceDate:direction:sizes of arrays don't match /* Error: Ran out of types for this method. */;
-- (unsigned long long)Enabled;
-- (_Bool)Options;
-- (unsigned long long)path:%@, error:%@ /* Error: Ran out of types for this method. */;
-- (id)%@, fromValue:(unsigned long long)arg1 %@, toValue:(unsigned long long)arg2 %@, color:(unsigned long long)arg3 %@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
-- (double)d list style;
-- (struct CGSize)map;
-- (unsigned long long)oveButton:(unsigned long long)arg1 ];
-- (id)eDocumentControllerDidUpdateHighlights;
 - (void);
-- (id)>;
-- (void)DN;
+- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (double);
+- (struct CGSize);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void)t;
 
 @end
 

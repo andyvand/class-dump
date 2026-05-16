@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol MULabeledValueActionViewModelProviding
-- (NSString *)fication: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock;

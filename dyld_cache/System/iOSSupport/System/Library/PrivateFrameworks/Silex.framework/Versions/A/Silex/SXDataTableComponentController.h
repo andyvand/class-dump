@@ -26,17 +26,17 @@
 - (id);
 - (id);
 - (id);
-- (id)2;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (CDStruct_d2b197d1);
-- (double);
+- (double);
 - (id);
 - (id);
 - (CDStruct_2fea82da);
@@ -51,7 +51,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -64,18 +64,17 @@
 - (double);
 - (double);
 - (_Bool);
-- (unsigned long long)9	;
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)1¢!0@ù
-× ;
-- (unsigned long long)resentationDelegate:componentStyleRendererFactory: /* Error: Ran out of types for this method. */;
+- (void)Point=dd}{CGSize=dd}}48;
+- (void)continuousCorners:(id)arg1;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

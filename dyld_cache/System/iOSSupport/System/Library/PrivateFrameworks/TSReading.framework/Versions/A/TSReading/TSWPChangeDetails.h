@@ -19,17 +19,17 @@
 - (void);
 - (id);
 - (int);
-- (void)7;
-- (int);
+- (void);
+- (int);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)ÿÂmW;
 
 // Remaining properties
 @property(readonly, nonatomic) int annotationDisplayStringType;

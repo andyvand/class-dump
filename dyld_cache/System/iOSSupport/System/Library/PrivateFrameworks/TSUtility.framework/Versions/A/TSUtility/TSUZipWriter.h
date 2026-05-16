@@ -30,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (void)JKLMNO;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,10 +44,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void)Context=}48^{CGImage=}56{CGRect={CGPoint=dd}{CGSize=dd}}64B96;
 - (id);
 - (void);
-- (void)UZipArchiveFileDataRepresentation;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long archiveLength;

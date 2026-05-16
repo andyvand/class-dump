@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)�;
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)itWithConversationIDs:origin:actor:conversationNotificationLevel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

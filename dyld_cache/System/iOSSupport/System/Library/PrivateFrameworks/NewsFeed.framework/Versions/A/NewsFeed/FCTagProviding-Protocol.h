@@ -4,92 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCPurchaseOfferableConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (id <FCSectionProviding>);
-- (id <FCSportsEventProviding>)*;
-- (FCColor *);
-- (NSData *)tableView:willSelectRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ig;
-- (id <FCTagProviding>)idRequestMatchWithOtherPlayers:(NSString *)arg1;
-- (_Bool)thTouchAtPoint: /* Error: Ran out of types for this method. */;
-- (NSString *)ÿÿÿÿ ;
-- (NSString *);
+- (_Bool)!;
+- (FCPaywallConfiguration *)h: /* Error: Ran out of types for this method. */;
+- (NSString *)ype;
+- (_Bool)_TtC8NewsFeed26BundleSessionFixedProvider;
+- (_Bool)	
+HIJKLMNO;
 - (NSString *);
-- (id <FCTagStocksFields>);
-- (unsigned long long);
-- (NSArray *)ÿÿÿÿ\;
-- (NSArray *)	
-;
-- (_Bool)	
-;
-- (NSString *);
-- (FCAssetHandle *);
-- (NSString *)$;
-- (NSString *)	
-;
-- (_Bool)àqþÿÿÿÿ;
-- (_Bool)	
-;
-- (_Bool)þ;
-- (_Bool)Ã;
-- (unsigned long long)LIxI¼IJLJJÌJðJ KHKxK KÜK(LtL LÐLMTMMÄMNLNN¨NôN OdOOÀOøO(PdP¬PôPQPQxQ°QüQ RPRRÌR;
-- (NSArray *)T
-;
-- (NSString *),r];
-- (FCAssetHandle *)Ôª;
-- (_Bool)ø³8Ý´äâ;
-- (FCAssetHandle *)^Ø_`è`;
-- (_Bool)<g;
-- (NSString *);
-- (_Bool)t~ôÿgóÿ;
-- (long long)¤]ðÿ¼]ðÿô]ðÿ`^ðÿx^ðÿ^ðÿð^ðÿ(_ðÿÌ_ðÿä_ðÿü_ðÿ`ðÿ4`ðÿT`ðÿt`ðÿ`ðÿä`ðÿtaðÿ¬aðÿäaðÿbðÿbðÿ4bðÿTbðÿtbðÿbðÿÄbðÿäbðÿübðÿcðÿ,cðÿLcðÿÜcðÿ dðÿDdðÿ\dðÿdðÿdðÿeðÿ¸eðÿðeðÿ(fðÿLfðÿpfðÿfðÿ¬fðÿäfðÿgðÿ4gðÿLgðÿdgðÿ|gðÿgðÿÌgðÿhðÿDhðÿdhðÿ,iðÿPiðÿhiðÿ iðÿ¸iðÿÐiðÿ(jðÿjðÿjðÿÜjðÿôjðÿ<kðÿtkðÿ¬kðÿìkðÿlðÿ$lðÿ\lðÿlðÿälðÿmðÿTmðÿlmðÿmðÿ¤mðÿ¼mðÿÔmðÿìmðÿnðÿ<nðÿhnðÿnðÿÄnðÿènðÿ oðÿ8oðÿXoðÿpoðÿÄoðÿÜoðÿôoðÿ<pðÿ`pðÿxpðÿ°pðÿÈpðÿàpðÿøpðÿqðÿ(qðÿ`qðÿxqðÿÄqðÿðqðÿrðÿrðÿrðÿìrðÿsðÿsðÿ4sðÿ`sðÿxsðÿsðÿ¨sðÿàsðÿtðÿ@tðÿ`tðÿxtðÿtðÿ°tðÿètðÿ,uðÿtuðÿØuðÿðuðÿvðÿ0vðÿPvðÿhvðÿ vðÿ¸vðÿÐvðÿèvðÿ wðÿDwðÿhwðÿwðÿwðÿ°wðÿèwðÿ;
-- (_Bool)¼¬õÿÀìôÿ;
-- (NSString *);
-- (NSDictionary *)"Gøÿ;
-- (_Bool)ûÿ;
-- (NSDate *)ÿ;
-- (FCAssetHandle *)^üÿò»ùÿ;
-- (void)Publisher;
-- (_Bool)ideo;
-- (_Bool)inear;
-- (NSString *)er;
-- (long long)llPointFactory;
-- (_Bool)Iegynynd_;
-- (_Bool)æéÿ ÿXà	;
-- (id <FCChannelProviding>)ÄU;
-- (FCAssetHandle *)èZ	;
-- (NSArray *)ugFormatInspectorPaneViewController;
-- (NSArray *)DecorationView;
-- (id <FCFeedTheming>)igible Non-Member;
-- (NSString *)inFactoryType;
-- (FCSectionSupergroupKnobs *)ÒÈÿ;
-- (NSDate *)äñÿ;
-- (_Bool)matLocalizationCollection;
-- (_Bool);
-- (_Bool)·0¤ÿ;
-- (_Bool)ã;
-- (_Bool)à;
-- (unsigned long long)­TºÍ\;
-- (_Bool)|¦÷$»ð;
-- (void);
-- (_Bool)leanTrueStrategy;
-- (_Bool)}¬Àèa4ÿ;
-- (NSString *)«ë;
-- (FCPurchaseOfferableConfiguration *)~	ÿ;
-- (NSArray *)¦ÿ;
-- (_Bool)1ëÛ4Ü oá;
-- (id <FCPuzzleTypeProviding>)mêÃ8¥±þ;
-- (NSString *)Ð]¾þÝÀÄD·þÝÀÄð*þ;
-- (_Bool)Í4Åd;
-- (id <FCTopicProviding>)´·;
-- (_Bool)=¥Æx§þM¥Æ §þM¥Æ§þM¥Æì¦þm¥Æ§þ¥Æ;
-
-@optional
-- (NSData *)GÄÿ
-;
+- (_Bool)4;
+- (FCAssetHandle *)8(;
+- (NSDate *)tO OP;
+- (FCAssetHandle *)øÇ;
+- (NSString *)¬ðÿ;
+- (void)+Ýÿ|+Ýÿ°+ÝÿÔ+Ýÿø+ÝÿD,Ýÿx,Ýÿ,Ýÿè,Ýÿ-Ýÿ@-Ýÿ-ÝÿÀ-Ýÿä-Ýÿ0.Ýÿd.Ýÿ.ÝÿÔ.Ýÿ/Ýÿ,/ÝÿP/Ýÿ/ÝÿÐ/Ýÿô/Ýÿ0Ýÿd0Ýÿ0Ýÿ¼0Ýÿà0Ýÿ,1Ýÿ`1Ýÿ1ÝÿÐ1Ýÿ2Ýÿ(2Ýÿt2Ýÿ¨2ÝÿÌ2Ýÿ3ÝÿL3Ýÿp3Ýÿ¼3Ýÿð3Ýÿ4Ýÿ84Ýÿ4Ýÿ¸4ÝÿÜ4Ýÿ(5Ýÿ\5Ýÿ5Ýÿ¤5Ýÿð5Ýÿ$6ÝÿH6Ýÿ6ÝÿÈ6Ýÿì6Ýÿ7Ýÿ47ÝÿX7Ýÿ¤7ÝÿØ7Ýÿü7ÝÿH8Ýÿ|8Ýÿ 8Ýÿì8Ýÿ 9ÝÿD9Ýÿ9ÝÿÄ9Ýÿè9Ýÿ4:(NSString *)arg1 Ýÿh:Ýÿ:ÝÿØ:Ýÿ;Ýÿ0;Ýÿ|;Ýÿ°;ÝÿÔ;Ýÿø;ÝÿD<Ýÿx<Ýÿ<ÝÿÀ<Ýÿ=Ýÿ@=Ýÿd=Ýÿ=Ýÿ¬=ÝÿÐ=Ýÿô=Ýÿ>Ýÿd>Ýÿ>Ýÿ¼>Ýÿà>Ýÿ?ÝÿP?Ýÿ?Ýÿ¨?ÝÿÌ?Ýÿð?Ýÿ<@Ýÿp@Ýÿ@Ýÿ¸@ÝÿAÝÿ8AÝÿ\AÝÿAÝÿÌAÝÿ /* Error: Ran out of types for this method. */;
+- (NSArray *)BTôÿ°ß÷ÿ:Tôÿtþôÿ¼cöÿ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (long long)Ú7øÿxNûÿ;
+- (NSDate *)1ýÿ;
+- (FCAssetHandle *)3Müÿ;
+- (void)Ó$;
+- (id <FCTagProviding>)8;
+- (NSArray *)ging in to Newsroom...;
+- (NSString *)ís;
+- (NSDate *)|ý¡ÿ;
+- (_Bool)SgFormatLayoutViewToken;
+- (FCAssetHandle *)±ÿ5|rþ¡ÿ5xrþ©ÿ5trþÿ5prþ;
+- (_Bool)è°;
+- (double)üÂòþ;
+- (_Bool)'¯þ5>Ü'¯þ%>(¯þ;
+- (_Bool) ;
+- (_Bool)g@Ä;
+- (_Bool)þ¸ÿgmä?È;
+- (_Bool);
+- (_Bool)þ ;
+- (_Bool)BT@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -115,6 +67,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -141,6 +95,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

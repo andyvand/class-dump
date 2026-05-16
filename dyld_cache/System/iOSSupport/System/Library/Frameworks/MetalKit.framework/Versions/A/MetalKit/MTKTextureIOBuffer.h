@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (id);
-- (void)ge:withText: /* Error: Ran out of types for this method. */;
-- (id).ROWID WHERE   m.thread_originator_guid = ? AND m.thread_originator_part = ?   AND m.date >= (SELECT om.date FROM message om WHERE om.guid = ?) ORDER BY   m.date ASC LIMIT ? + 1;
-- (id)s;
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;

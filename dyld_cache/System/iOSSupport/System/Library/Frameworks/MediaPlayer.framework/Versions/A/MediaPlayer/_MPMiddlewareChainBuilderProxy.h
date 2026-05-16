@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     Protocol *_protocol;
 }
 
-+ (id)eamIdentifier:(id)arg1;
++ (id);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)lEntries:initialObjects:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

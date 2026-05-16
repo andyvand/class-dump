@@ -14,9 +14,9 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (float);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;

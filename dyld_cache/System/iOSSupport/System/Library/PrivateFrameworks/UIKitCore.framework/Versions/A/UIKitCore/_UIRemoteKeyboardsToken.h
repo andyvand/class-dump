@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSString *sceneIdentityString;
 }
 
-+ (id);
++ (id)webkit-line-break:after-white-space; /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)"16@0:(id)arg1 8;
 - (void);
-- (id)ighlighted:forSegmentAtIndex:forceInfoDisplay: /* Error: Ran out of types for this method. */;
-- (id)Kind: /* Error: Ran out of types for this method. */;
-- (id)tomHighlighter;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sceneIdentityString; // @synthesize sceneIdentityString;

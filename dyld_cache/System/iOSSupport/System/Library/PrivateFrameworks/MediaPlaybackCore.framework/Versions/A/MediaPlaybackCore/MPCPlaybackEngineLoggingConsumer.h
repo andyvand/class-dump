@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)56@0:8d16Q24@"NSDate"32@"NSUUID"40@?<v@?B>48 /* Error: Ran out of types for this method. */;
-- (id)ientInfo;
-- (_Bool)cPreferences;
-- (void)H7;
-- (id)troller - overlappedPlaybackWillBegin with outgoingItem: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)public}@ô® MEDIASERVICES PURGE       %{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

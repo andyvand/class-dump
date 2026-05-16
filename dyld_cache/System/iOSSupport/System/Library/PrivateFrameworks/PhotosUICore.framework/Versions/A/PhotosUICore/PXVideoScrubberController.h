@@ -66,19 +66,21 @@
 - (id);
 - (double);
 - (void);
+- (id);
 - (void);
 - (void);
 - (double);
+- (double);
+- (id);
 - (id);
 - (void);
-- (void);
 - (void);
-- (id);
-- (float)PXPhotosLayoutSpec"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)rementalDetails;
-- (id);
 - (void);
-- (double)ActionTypeMoveOut;
+- (void)¤FùE°1â
+0@ù
+× ;
+- (void);
+- (float)È;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setActiveSeekRequest:) PXScrubberSeekRequest *_activeSeekRequest; // @synthesize _activeSeekRequest=__activeSeekRequest;

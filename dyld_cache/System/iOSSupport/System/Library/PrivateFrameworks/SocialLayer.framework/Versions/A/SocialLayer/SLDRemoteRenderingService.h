@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (id)aÊK=;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -35,8 +35,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *connectionViewIDs; // @synthesize connectionViewIDs=_connectionViewIDs;

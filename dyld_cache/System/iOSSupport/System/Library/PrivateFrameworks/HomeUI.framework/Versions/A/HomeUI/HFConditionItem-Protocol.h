@@ -7,7 +7,6 @@
 @class HFCondition;
 
 @protocol HFConditionItem
-- (HFCondition *)GridViewControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) HFCondition *condition;

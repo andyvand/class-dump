@@ -12,14 +12,13 @@
 {
 }
 
-- (void)fromAccounts:(_Bool)arg1;
-- (void)ddressedSIMID:(_Bool)arg1 saveResolvedCallerIDToChat: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)1¢!0@ù
-× ;
-- (id)gPreview does not support zero-sized previews. This is a client issue. PLEASE FIX ME. %@;
+- (id)ansitionUpdate:(long long)arg1 forceTwoPartCrossfade:(id)arg2 completion:(unsigned long long)arg3;
+- (id)n;
 
 // Remaining properties
 @property(nonatomic) _Bool blackWallpaperModeEnabled;

@@ -29,17 +29,17 @@
 - (void);
 - (struct CGPDFTaggedNode *);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (int);
-- (id);
-- (id);
 - (void);
+- (id);
+- (unsigned long long);
+- (int);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak PDFAnnotation *annotation; // @synthesize annotation=_annotation;

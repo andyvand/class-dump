@@ -7,7 +7,6 @@
 @class _UIDestructionConditionSetBSXPCCodingAdapter;
 
 @protocol _UISceneDestructionClientSettings
-- (void)erify the local sealing manifest, skipping;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDestructionConditionSetBSXPCCodingAdapter *destructionConditions;

@@ -14,8 +14,8 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (id)olbarChangeNotification;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *subitems; // @synthesize subitems=_subitems;

@@ -14,12 +14,13 @@ __attribute__((visibility("hidden")))
     id <_UITouchFallbackViewDelegate> _delegate;
 }
 
-- (id)Au°!DCùÉð1¢!0@ù
+- (id);
+- (id)
 × ;
-- (int)]}24i32;
-- (id)he -addChildViewController:(struct CGRect)arg1 and -removeFromParentViewController APIs to manage view controller containment. Make a symbolic breakpoint at -[UIViewController setParentViewController:] to catch this in the debugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
-- (id)llover;
-- (void)xÐþÿ;
+- (void)ña°1Â0@ù
+× ;
+- (int)w: /* Error: Ran out of types for this method. */;
+- (id)DynamicFailureRequirementForGestureRecognizer:(struct CGRect)arg1;
 
 // Remaining properties
 @property(nonatomic) id <_UITouchFallbackViewDelegate> delegate; // @synthesize delegate=_delegate;

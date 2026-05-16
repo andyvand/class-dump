@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)lay: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

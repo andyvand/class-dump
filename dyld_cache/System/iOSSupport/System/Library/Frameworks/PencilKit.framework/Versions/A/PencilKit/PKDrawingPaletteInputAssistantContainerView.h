@@ -11,10 +11,10 @@
     PKPaletteButton *_UCBbutton;
 }
 
-- (void)@, priority=%.2f>;
+- (void);
 - (id);
-- (void)a;
 - (id);
+- (void)¸Ö;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaletteButton *UCBbutton; // @synthesize UCBbutton=_UCBbutton;

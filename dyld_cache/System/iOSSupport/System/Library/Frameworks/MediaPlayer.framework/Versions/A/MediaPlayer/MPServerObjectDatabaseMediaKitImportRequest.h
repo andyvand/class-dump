@@ -10,11 +10,11 @@
 {
 }
 
-+ (id)ignificant:isMe: /* Error: Ran out of types for this method. */;
-+ (id)nitWithGuardedData: /* Error: Ran out of types for this method. */;
-+ (id)dicate:(id)arg1;
-+ (id)pIdentifiers:(id)arg1 bundleID:(id)arg2;
-- (id)name__TEXT;
++ (id);
++ (id);
++ (id);
++ (id);
+- (id);
 - (long long);
 - (id);
 - (id);

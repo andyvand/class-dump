@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id)G;
+- (id)device data.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

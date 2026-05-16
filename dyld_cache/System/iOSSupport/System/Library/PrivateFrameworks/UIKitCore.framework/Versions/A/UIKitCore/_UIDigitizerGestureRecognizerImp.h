@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,30 +48,26 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGPoint);
 - (struct CGPoint);
-- (void)ype:(id)arg1;
-- (_Bool)fromOldConversation: /* Error: Ran out of types for this method. */;
-- (_Bool)withCompletionBlock:(id)arg1;
-- (_Bool)count;
 - (void);
-- (double);
-- (void),N,SsetHLSKeyCertificateURL: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void)1¢!0@ù
+- (id);
+- (void)!hGùeÐ1Â0@ù
 × ;
-- (void)áu!°GùqÊ°1¢!0@ù
-× ;
-- (void)Ôáx!BùqÎ1¢!0@ù
-× ;
-- (void)ollection;
-- (void)yout:(id)arg1;
-- (void)cementFrom:(id)arg1 to:(id)arg2 forController: /* Error: Ran out of types for this method. */;
-- (void)rIfNeeded;
-- (id)tusBarHiddenKey;
-- (void)oups={
-	%@
-};
-- (void)nvoke;
+- (void);
+- (void)mmingViewVisible:(id)arg1;
+- (void)nObservable;
+- (void)roperty list, using dictionary directly:(double)arg1 %@;
+- (double)tateMachine.m;
+- (void);
+- (void);
+- (void)o15_UIBarBadgeViewCG;
+- (void)cketInteractionKey;
+- (void);
+- (void)È4ÿ2¸ÔÈ'`;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIDigitizerGestureRecognizerImpDelegate> delegate; // @synthesize delegate=_delegate;

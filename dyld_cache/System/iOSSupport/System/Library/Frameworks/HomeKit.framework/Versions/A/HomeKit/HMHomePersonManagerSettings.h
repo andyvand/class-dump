@@ -11,21 +11,21 @@
     _Bool _faceClassificationEnabled;
 }
 
-+ (id);
-+ (_Bool)le HMHomeManager instances: /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)Control;
-- (id)c}@Starting pairing with accessory description:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ponseValueCodingKeyAccessoryAccessCodeValues;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

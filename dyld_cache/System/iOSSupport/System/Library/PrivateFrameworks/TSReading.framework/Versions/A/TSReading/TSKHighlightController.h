@@ -25,17 +25,17 @@
 - (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (struct CGAffineTransform);
 - (id);
-- (id);
 - (void);
 - (void);
+- (struct CGPath *);
+- (id)}40;
 - (void);
-- (struct CGPath *)m/Library/PrivateFrameworks/CoreSuggestionsUI.framework/Versions/A/CoreSuggestionsUI;
-- (id);
-- (void);
-- (void);
-- (void)move all requested styles.;
+- (id)[üØ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

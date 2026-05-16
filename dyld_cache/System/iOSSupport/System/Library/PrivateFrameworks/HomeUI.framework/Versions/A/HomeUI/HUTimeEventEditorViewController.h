@@ -61,12 +61,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)Fê;
+- (void)inueButtonString;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,7 +10,7 @@
 {
 }
 
-- (double)ataPersister:createNewAttachmentsInNote:error: /* Error: Ran out of types for this method. */;
+- (double);
 
 @end
 

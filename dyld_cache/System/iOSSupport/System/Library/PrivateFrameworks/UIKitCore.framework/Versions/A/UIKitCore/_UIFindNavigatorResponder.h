@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
     _UIFindNavigatorViewController *_findNavigatorViewController;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -36,56 +36,56 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void):(id)arg1;
-- (id)rableGUIDFromMessageGUID:chatGUID:partIndex: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool)ceContainer:%@ /* Error: Ran out of types for this method. */;
-- (void)check...;
+- (_Bool);
+- (void);
 - (id);
 - (id);
-- (id)ltValue:(id)arg1 error:(long long)arg2;
-- (void)`;
-- (_Bool)~Uº;
 - (id);
-- (void)1¢!0@ù
+- (void);
+- (void);
+- (void)!@ù\°1Â0@ù
 × ;
-- (id)rBurnTintMaskViewMap:(id)arg1;
+- (_Bool);
+- (void)dentifier;
+- (id)teDidBeginDidEndSearch;
+- (_Bool)ations:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)ÀÔþpÙþHßþÌâþØKcþ¸:cþYþØCcþ /* Error: Ran out of types for this method. */;
+- (id)nger support raw layer or view animations.;
+- (long long)zÿÿ;
+- (_Bool)barVisualProvider;
 - (id);
-- (id)autoFillDelegate;
-- (_Bool)UIStatusBarDataImageEntry;
-- (_Bool)Ü;
-- (void)Ä=þÿ;
-- (struct CGRect)ndex < self.count;
+- (id)orVisualElement;
+- (id);
+- (id);
+- (void)òÕD\;
+- (long long)TXpW\;
+- (id)`i\;
 - (long long);
-- (void)usableView isKindOfClass:(id)arg1 [UICollectionReusableView class]];
-- (id)rdAvailabilityChanged];
-- (void)xt;
-- (id)mmittedIndexPath:(id)arg1 %@; isUncomitted:%@> /* Error: Ran out of types for this method. */;
-- (id)Candidate"16@"UITextRange"24;
-- (id)dFocused;
-- (id)tringForColor(UIColor *, NSUInteger);
-- (id)a word;
-- (void)0347E0D9CE21SheetLayoutAttributes;
-- (id);
-- (long long)erties;
+- (id)Î¤«\;
 - (long long);
-- (void)_;
-- (long long)e3;
-- (_Bool)èÛÿQÉnû];
-- (id)ù^;
+- (id)ü£ÒLÓ];
+- (struct CGRect)l@ÿ;/ÖÄ«^;
+- (void)Tø^;
+- (id)^@ï_;
+- (id);
+- (id)I `;
 - (id);
-- (id);
-- (id)\;ÓEm`;
-- (void)Ýþ;
-- (void)XækÿÃ;×îø`;
-- (id);
-- (void)¨Bÿ;
-- (void)&òa;
-- (struct CGRect)8b;
-- (id)xÎÿªÐØ|b;
-- (id)1ÿ;
-- (id)6×7/c;
+- (id)ÀSa;
+- (id)H);
+- (void);
+- (void)Õÿü´;
+- (struct CGRect)*;
+- (void)Äuúþ@;
+- (id);
+- (id)ä©ÕØ$b;
+- (id)b;
+- (id);
+- (void);
+- (void)þ;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
@@ -457,6 +457,10 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIColor",?,&,N
+
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
 
 @property(nonatomic) _Bool useAutomaticEndpointing;
 // Preceding property had unknown attributes: ?

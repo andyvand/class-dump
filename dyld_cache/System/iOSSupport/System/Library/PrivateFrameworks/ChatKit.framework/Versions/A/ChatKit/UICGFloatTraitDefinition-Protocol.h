@@ -5,6 +5,6 @@
 //
 
 @protocol UICGFloatTraitDefinition
-+ (double)ticker is not saveable. (e.g. it is from a sticker pack);
++ (double)%@;
 @end
 

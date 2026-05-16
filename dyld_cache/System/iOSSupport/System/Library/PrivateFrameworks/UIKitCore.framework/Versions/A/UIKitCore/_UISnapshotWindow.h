@@ -12,19 +12,18 @@ __attribute__((visibility("hidden")))
     _Bool __extendsScreenSceneLifetime;
 }
 
-+ (_Bool)skipClientRotationCallbacks;
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool)Ð1¢!0@ù
++ (_Bool);
+- (void)1Â0@ù
 × ;
-- (void)ù
-× ;
+- (_Bool)ize: /* Error: Ran out of types for this method. */;
+- (_Bool)abled: /* Error: Ran out of types for this method. */;
+- (_Bool)rtical/horizontalScrollIndicatorInsets. This is a UIKit bug.;
+- (void)ift;
 - (_Bool);
+- (_Bool)C\;
+- (double);
 - (_Bool);
-- (_Bool)W1\;
-- (_Bool)öÏ];
-- (double)nØ;
+- (_Bool);
 
 // Remaining properties
 @property _Bool _extendsScreenSceneLifetime; // @synthesize _extendsScreenSceneLifetime=__extendsScreenSceneLifetime;

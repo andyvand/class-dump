@@ -10,12 +10,12 @@
     double _upperBound;
 }
 
-- (id)(;
-- (double);
-- (double);
-- (unsigned long long);
-- (_Bool);
 - (id);
+- (double);
+- (double);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (id);
 
 // Remaining properties

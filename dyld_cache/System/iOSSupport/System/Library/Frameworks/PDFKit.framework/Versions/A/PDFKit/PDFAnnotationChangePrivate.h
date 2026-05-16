@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     unsigned long long changeTimestamp;
 }
 
-- (void)AttachmentDrawingViewProviderView;
+- (void);
 
 @end
 

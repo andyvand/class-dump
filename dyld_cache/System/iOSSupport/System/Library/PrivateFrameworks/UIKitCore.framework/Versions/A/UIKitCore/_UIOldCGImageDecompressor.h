@@ -16,11 +16,12 @@ __attribute__((visibility("hidden")))
 + (void);
 - (long long);
 - (id);
-- (_Bool)teActiveNicknameRecordsListIfNeeded: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
 - (unsigned long long);
-- (struct CGImage *);
-- (_Bool)kM;
-- (void)urrentUser=nil];
+- (struct CGImage *)!Cùa1Â0@ù
+× ;
+- (_Bool)v48@0:(id)arg1 8@16d24d32@?40;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isHardwareBased;

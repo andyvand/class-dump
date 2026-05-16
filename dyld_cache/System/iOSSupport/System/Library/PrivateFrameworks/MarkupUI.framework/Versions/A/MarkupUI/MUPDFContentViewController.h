@@ -51,7 +51,7 @@
 - (struct CGPoint);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -71,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,7 +84,7 @@
 - (id);
 - (void);
 - (void);
-- (id)#;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -114,7 +114,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (double);
 - (_Bool);
 - (struct CGSize);
@@ -123,18 +123,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)P;
-- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect)tionIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ivateKey;
+- (struct CGRect);
+- (id);
 - (void);
-- (void)A;
-- (id)adwear;
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -147,35 +147,35 @@
 - (void);
 - (void);
 - (void);
-- (void)iji8_	ka;
+- (void);
 - (void);
 - (struct CGSize);
 - (struct CGAffineTransform);
 - (id);
 - (void);
-- (void)?;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void);
-- (struct CGSize);
 - (void);
 - (void);
-- (id);
-- (void)serUserInterfaceStyle;
-- (void);
-- (void)reate CGImageDestinationRef.;
+- (void)iews;
+- (struct CGSize):toController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsThumbnailViewPageReordering;

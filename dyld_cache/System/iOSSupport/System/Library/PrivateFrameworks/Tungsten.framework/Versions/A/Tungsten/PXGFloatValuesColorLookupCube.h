@@ -25,15 +25,15 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (unsigned long long);
+- (MISSING_TYPE *);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (MISSING_TYPE *)@"PXMediaProvider",R,N,V_defaultMediaProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) float *colorValuesData; // @synthesize colorValuesData=_colorValuesData;

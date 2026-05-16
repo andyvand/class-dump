@@ -16,9 +16,8 @@
     MISSING_TYPE *completion;
 }
 
-- (void)
-× ;
-- (id)C,N,V_parameters;
+- (id);
+- (void)l;
 
 @end
 

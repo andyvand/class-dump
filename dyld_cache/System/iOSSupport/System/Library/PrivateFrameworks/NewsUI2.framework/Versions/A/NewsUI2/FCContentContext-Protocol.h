@@ -5,24 +5,28 @@
 //
 
 @class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCCoreConfigurationManager><FCNewsAppConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (void);
-- (id <FCBackgroundTaskable>)$;
-- (FCSportsEventController *)>;
-- (NSString *)ÐÐÑ@ÑxÑ ÑÈÑðÑ(ÒdÒ¬ÒØÒ;
-- (FCAssetManager *)êLë$ìzÜî;
-- (NSURL *)¼¥øÿÕ;
-- (long long)Q;
-- (NSString *);
-- (id <FCNetworkReachabilityType>)udioFeedRelayoutBlueprintModifier;
-- (id <FCPPTContext>)î[;
-- (FCArticleController *);
-- (FCFeedDatabase *)áqÀt;
-- (void)ÆÏë;
-- (id <FCCoreConfigurationManager><FCNewsAppConfigurationManager>)¿þ;
-- (id <FCNewsAppConfigurationManager>)Ú¢O2;
+- (NSURL *);
+- (FCAssetManager *)hØð;
+- (NSString *)ì!;
+- (long long)age_$_sessionObserver;
+- (NSString *)shouldFilterFollows;
+- (void)r button item to dismiss the web view;
+- (NSString *)9Y°M
+;
+- (NSString *)bôûþEb@ûþ;
+- (id <FCFeedItemFactoryType>)`;
+- (id <FCRecipeItemFactoryType>)þ-óbÌ§ªþ;
+- (id <FCPPTContext>)½bô®þ;
+- (id <FCMagazinesConfigurationManager>);
+- (FCPuzzleTypeController *)b¹0;
+- (id <FCAVAssetFactoryType>)ntConfig;
+- (id <FCNetworkReachabilityType>)°cè;
+- (void)EndOfRecipeCoordinator;
+- (id <FCNewsAppConfigurationManager>)þ¡ÈddÇÃþQÈd´ÇÃþaÈdÜ¬þÈdtù¸þYÈdÌ¬þiÈdØÇÃþÈdú¸þÈd`ú¸þ)ÈdÀú¸þÙÇd û¸þÁÇdhû¸þÙÇd°û¸þ©Çdøû¸þÇd@ü¸þAÈdü¸þIÈdØü¸þ©Çd8ý¸þÇdý¸þùÇdØý¸þ;
+- (FCPuzzleController *)yàeÄz­þiàetz­þ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;

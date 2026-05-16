@@ -17,8 +17,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

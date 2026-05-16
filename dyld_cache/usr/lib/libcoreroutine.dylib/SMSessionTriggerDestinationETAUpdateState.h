@@ -15,24 +15,24 @@
     double _nominalTravelTimeDifference;
 }
 
-+ (_Bool)stPeriodicLocRequest,%{public}.3lf;
++ (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)b;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (double);
 - (double);
 - (id);
-- (double)S;
+- (double);
 - (double);
 - (void);
-- (void);
-- (id)ive %d peer-sub-streams;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double distanceDifference; // @synthesize distanceDifference=_distanceDifference;

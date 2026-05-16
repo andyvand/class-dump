@@ -14,10 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)inueButton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,5 +5,8 @@
 //
 
 @protocol RTWatchdogProtocol
+
+@optional
+- (double)d;
 @end
 

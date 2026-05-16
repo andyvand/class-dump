@@ -22,16 +22,16 @@
 - (_Bool);
 - (unsigned long long);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void)ֈ@9;
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)HI;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buffers;

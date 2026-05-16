@@ -20,27 +20,26 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)r;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id)*$<8,
-;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (struct CGSize);
+- (void);
+- (id);
 - (void);
 - (void);
+- (long long)ntent;
 - (void);
-- (void);
-- (long long)setChatBot: /* Error: Ran out of types for this method. */;
-- (id)g^ô=yAHG]ô=yAHG\ô=y_AHGbô=y_AHGSgNô=y_AHGtGGÙ@ýÿGG;
-- (void)®yç®yAAyA4_AIG¹]®ySayðí>Gÿ­AFyADyAAyTê®yA4_AGGALyM[®SgGGA4_GGGG_Qo_IìýÿyA19_GGGALyY%®SgGGANGû>GALytà®GGA8_GAEGAWtGGAIGAIGAIG;
-- (struct CGSize);
+- (void)¡!|E1;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKBusinessInfoViewDelegate> delegate; // @synthesize delegate=_delegate;

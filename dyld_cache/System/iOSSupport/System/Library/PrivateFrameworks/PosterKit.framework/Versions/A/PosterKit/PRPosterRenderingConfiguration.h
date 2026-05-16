@@ -11,24 +11,24 @@
 }
 
 + (id);
-+ (_Bool);
 + (void);
-+ (_Bool)m:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
-+ (id)IRounded-Medium;
++ (_Bool);
++ (_Bool);
++ (id)GG_AAyAUA4_GtGGt;
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (Class);
 - (unsigned long long);
 - (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (Class);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

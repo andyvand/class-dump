@@ -5,8 +5,5 @@
 //
 
 @protocol _UIPressGestureRecognizerDelegate
-
-@optional
-- (_Bool)i;
 @end
 

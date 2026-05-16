@@ -29,8 +29,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id):åÿ'÷c /* Error: Ran out of types for this method. */;
+- (void)/?context=aUNsb3VkU3Vic2NyaXB0aW9uX2NvbS5hcHBsZS5ob21lS2l0X2NhbWVyYVNldHRpbmdz&cameraCount=;
+- (id)EditViewControllerTableViewCellShuffleMusicSwitchCellReuseIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;

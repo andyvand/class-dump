@@ -43,14 +43,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)T;
 - (void);
 - (void);
-- (double)l;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (struct CGPoint);
 - (double);
 - (id);
@@ -58,13 +58,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)> -1 && prev > -1;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AKTSDLineEnd *headLineEnd; // @synthesize headLineEnd=_headLineEnd;

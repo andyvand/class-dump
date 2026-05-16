@@ -21,43 +21,40 @@
 }
 
 - (void);
-- (_Bool)ration;
 - (void);
 - (void);
-- (void)oreAudio;
-- (void)ylistEntrySocialContributor;
 - (double);
-- (long long);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void);
+- (void);
+- (double)
+× ;
+- (_Bool)±bÐ1Â0@ù
+× ;
+- (void);
 - (_Bool);
-- (void);
-- (void)ý/º;
-- (void);
-- (unsigned long long)aqÐ!äDùqÄð1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)1¢!0@ù
-× ;
-- (void);
-- (void)0@ù
-× ;
-- (unsigned long long)!¼EùÎÐ1¢!0@ù
-× ;
-- (void)t:(long long)arg1;
-- (unsigned long long)setSupportedComponent: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)nabled: /* Error: Ran out of types for this method. */;
-- (void)referredWidth:(id)arg1;
-- (void)t:(id)arg1 isMarkedText:(id)arg2;
-- (id)pe:(id)arg1 vibrancyStyle:(SEL)arg2 category: /* Error: Ran out of types for this method. */;
-- (void)ToScrollNotificationsIfNecessary:(unsigned long long)arg1;
-- (double)T@"NSValue",&,N,VtitlePositionOffset;
-- (double)es;
-- (void)Context=@}8Q16Q24;
-- (double);
-- (void)¼;
-- (_Bool)S;
-- (struct CGPoint)ø1ÿ;
-- (id)úØT²g;
+- (struct CGPoint)enu:(id)arg1 didPickDocumentPicker: /* Error: Ran out of types for this method. */;
+- (void)th;
+- (unsigned long long)Multiplier: /* Error: Ran out of types for this method. */;
+- (void)owingDeleteConfirmation:(id)arg1 rowWidth:(id)arg2;
+- (void)ayoutSynchronously;
+- (void)S_setUniqueWritingToolsAnimatedLayoutInfo:(double)arg1;
+- (void)IDiffableDataSourceSectionControllerInternal;
+- (long long)èD;
+- (double)-[UIDocumentBrowserViewControllerDelegate documentBrowser:didRequestDocumentCreationWithHandler:]. /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (unsigned long long)boardIdentifier;
+- (_Bool)ButtonAddress;
+- (struct CGPoint)TÓþÿz\þÿx\þÿÅþÿÅþÿ6Óþÿ8Óþÿ;
+- (void);
+- (void) tþ;
+- (void)´;
 
 // Remaining properties
 @property double allowableMovement;

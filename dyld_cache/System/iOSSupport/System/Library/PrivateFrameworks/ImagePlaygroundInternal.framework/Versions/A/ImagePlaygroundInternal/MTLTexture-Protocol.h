@@ -7,10 +7,14 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (unsigned long long)8ðÿlðÿðÿøðÿDðÿ¬ðÿ%ðÿè%ðÿ'ðÿ¨(ðÿÌ(ðÿ)ðÿ<+ðÿH+ðÿ`+ðÿ,ðÿ$-ðÿ0-ðÿL.ðÿÔ/ðÿø/ðÿ0ðÿX0ðÿ0ðÿÐ0ðÿ¬2ðÿ?ðÿAðÿÐCðÿØDðÿüDðÿ0EðÿtEðÿ¨EðÿÌEðÿðEðÿ$Fðÿ`FðÿFðÿ¨FðÿèGðÿHðÿ0HðÿTHðÿHðÿÔHðÿIðÿèIðÿJðÿ0KðÿÜKðÿ;
-- (unsigned long long)qxG_ ZQo__Qo_DXGA29_G_AEQo__Qo_;
-- (unsigned long long)y!tXGGSg_A2KtGABSgG;
-- (unsigned long long)c/ÿ;
+- (unsigned long long)__<Qo_SgG_A50_Qo_Qo_A53_GQo__A51_Qo_A65_GSg_AAyAAyA_yAAyÿ×;
+- (id <MTLBuffer>);
+- (unsigned long long);
+- (unsigned long long)ontentVyACG_tF;
+- (_Bool);
+- (unsigned long long)³ä{ÿ;
+- (unsigned long long)ÿXÂsÿò
+;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;

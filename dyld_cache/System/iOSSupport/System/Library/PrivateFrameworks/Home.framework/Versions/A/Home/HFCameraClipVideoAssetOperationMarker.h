@@ -19,15 +19,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)r"24;
-- (void)ems;
-- (void)ils.Manufacturer;
+- (void)eristic:(id)arg1 value: /* Error: Ran out of types for this method. */;
+- (void)FChimeOnAccessories_ValueOff;
+- (void)ficant event (error:(id)arg1 %@);
+- (id)write state dump from %@;
+- (void);
+- (id)Éûä÷;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *clip; // @synthesize clip=_clip;

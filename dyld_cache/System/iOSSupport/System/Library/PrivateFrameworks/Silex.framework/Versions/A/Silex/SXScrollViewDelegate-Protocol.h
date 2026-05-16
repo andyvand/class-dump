@@ -5,8 +5,5 @@
 //
 
 @protocol SXScrollViewDelegate
-
-@optional
-- (_Bool);
 @end
 

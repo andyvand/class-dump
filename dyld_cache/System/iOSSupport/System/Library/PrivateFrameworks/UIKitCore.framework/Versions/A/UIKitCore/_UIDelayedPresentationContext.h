@@ -27,15 +27,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)@48C56@60B68;
-- (void)20@0:8B16 /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
-- (long long)Ô ;
-- (long long)0:8@"UIPointerStyle"16@"UIPointerRegion"24@?<v@?@"_UIPortalView"@"_UIPortalView"@"_UIPointerContentEffectAnimationBuilder"@"_UILumaTrackingBackdropView">32@?<v@?>40 /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)teConformsToBETextInput;
-- (void)ld to layout its visible cells and other contents without being in the view hierarchy (the table view or one of its superviews has not been added to a window). This may cause bugs by forcing views inside the table view to load and perform layout without accurate information (e.g. table view bounds, trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view:(CDUnknownBlockType)arg1 %{public}@;
-- (long long)didateOperations;
+- (void);
+- (long long);
+- (void);
+- (void);
+- (long long)
+× ;
+- (CDUnknownBlockType)AÐ!°Eù\ð1Â0@ù
+× ;
+- (void);
+- (long long)æÿé«Ôø.b;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;

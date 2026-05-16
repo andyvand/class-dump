@@ -5,7 +5,8 @@
 //
 
 @protocol _UISceneHostingActivating
-- (void);
+- (_Bool)!!ÔGù^°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

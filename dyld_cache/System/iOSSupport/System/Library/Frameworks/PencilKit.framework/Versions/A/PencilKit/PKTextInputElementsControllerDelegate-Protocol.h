@@ -5,6 +5,5 @@
 //
 
 @protocol PKTextInputElementsControllerDelegate
-- (void);
 @end
 

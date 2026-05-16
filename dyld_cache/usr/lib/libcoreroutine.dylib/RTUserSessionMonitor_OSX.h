@@ -16,11 +16,11 @@
 - (id);
 - (void);
 - (void);
-- (void)onType:usesRelay:currentNATType:remoteNATType:relayConnectDuration:isInitiator:linkQuality:gksReturnCode: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (unsigned int);
-- (id)mExtensionMode;
-- (_Bool)receive FOLLOWUP_KE packet (responder rekey child followup KE);
+- (_Bool)dler:] /* Error: Ran out of types for this method. */;
+- (void)hedCluster,%{public}d,numberOfTripsToFormLR,%{public}d,numberOfClusterStat,%{public}d,dtwForMatchedTripAvg,%{public}.3lf,dtwForUnmatchedTripAvg,%{public}.3lf,routeLengthAvg,%{public}.3lf,tripsToFormLearnedRouteAvg,%{public}.3lf,waypointCountAvg,%{public}.3lf,clusterProcessingRunTimeAvg,%{public}.3lf;
 
 @end
 

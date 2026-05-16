@@ -5,7 +5,5 @@
 //
 
 @protocol PKTextInputHandwritingControllerDelegate
-- (void)�g;
-- (void);
 @end
 

@@ -16,12 +16,12 @@
 
 - (double);
 - (double);
-- (void));
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double)#;
+- (double);
 - (void);
 
 // Remaining properties

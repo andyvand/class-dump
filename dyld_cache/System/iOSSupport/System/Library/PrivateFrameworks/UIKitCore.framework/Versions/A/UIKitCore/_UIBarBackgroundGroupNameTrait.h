@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)al size (%llu) final size (%llu);
 + (_Bool);
-+ (id)e;
-+ (id)_;
-+ (id)Åe;
++ (_Bool);
++ (id);
++ (id)no name, skipping:%@ /* Error: Ran out of types for this method. */;
++ (id)gqÛÌg;
 
 @end
 

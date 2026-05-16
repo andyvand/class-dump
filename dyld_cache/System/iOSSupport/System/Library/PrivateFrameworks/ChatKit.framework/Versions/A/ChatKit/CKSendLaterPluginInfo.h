@@ -15,19 +15,19 @@
     _Bool showingDatePicker;
 }
 
-+ (_Bool)8¯®ÿº1;
++ (_Bool)anscriptTextAttributes;
 - (_Bool);
-- (void)%d ocrSummary %d imageClassificationSummary %d hasPreviewImage %d;
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)NT_TO_REMOVE_THESE_CONVERSATIONS_FROM_JUNK;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *selectedDate;

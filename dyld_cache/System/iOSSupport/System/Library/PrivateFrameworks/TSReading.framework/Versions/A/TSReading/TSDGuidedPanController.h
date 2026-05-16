@@ -29,7 +29,6 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (void);
 - (id);
 - (CDStruct_499be82c);
 - (id);
@@ -38,16 +37,17 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (struct CGPoint);
+- (void);
 - (id);
 - (struct CGPoint);
-- (void)ildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/tables/TSTTableSelection.mm;
-- (void)Break;
-- (struct CGPoint)eadOnlyDataFromURL:context:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ableInfo",R,N,VmTableInfo;
 
 // Remaining properties
 @property(nonatomic) TSDCanvasLayer *canvasLayer; // @synthesize canvasLayer=_canvasLayer;

@@ -8,8 +8,8 @@
 @protocol SXComponentAnchor;
 
 @protocol SXConditionalComponentProperties
-- (NSString *)D;
-- (id <SXComponentAnchor>)oreTests,XavierNews,XavierNewsTests;
+- (NSString *)Color: /* Error: Ran out of types for this method. */;
+- (id <SXComponentAnchor>)-ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentAnchor> anchor;

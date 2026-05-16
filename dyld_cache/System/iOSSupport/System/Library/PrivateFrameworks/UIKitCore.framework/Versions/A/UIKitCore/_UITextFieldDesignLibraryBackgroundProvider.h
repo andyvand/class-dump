@@ -16,18 +16,17 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)n;
-- (void)!FùqÄÐ1¢!0@ù
-× ;
-- (id)AnimationPropertyName:inLayer: /* Error: Ran out of types for this method. */;
-- (id)Autofilling;
-- (id)Ø²	¨³;
-- (_Bool)t;
-- (double);
-- (struct CGSize)lDÈÿ;
-- (id)Ôþ;
-- (void)ÿ;
-- (struct CGRect)¸d ÿ¿;
+- (id);
+- (id)ingPreference:(struct CGRect)arg1;
+- (void);
+- (id)÷c;
+- (void)þl;
+- (double)h_ÿ]NÕ¢m;
+- (_Bool)¾F;
+- (struct CGRect)¼Mèþ+Òç;
+- (id)0Üq;
+- (void)´¼;
+- (struct CGSize)ØÓ{ÿjÕÀ3s;
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *backgroundView;

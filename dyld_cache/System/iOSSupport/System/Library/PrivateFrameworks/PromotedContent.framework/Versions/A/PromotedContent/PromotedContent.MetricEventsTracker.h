@@ -23,22 +23,22 @@
     MISSING_TYPE *failedKey;
 }
 
-- (void)when iCloud is off and issue is not downloaded;
-- (void)want to remove these issues from My Magazines?;
-- (void)loaded single issue;
-- (void)e message for the button to remove the downloaded single issue;
-- (void){public}@;
-- (void)config. Error=%{public}@);
-- (id)will fetch configuration;
-- (id)ontroller.swift;
-- (id)oller;
-- (id)2.ModalNavigationController;
-- (void)istItemFactory:Creating list item for track %{public}@ /* Error: Ran out of types for this method. */;
-- (void)ay. IE "4 min left";
-- (void)for the remaining time of a track in CarPlay. IE "4 min left";
-- (void)les. IE "4 min";
-- (void)on shown in MPContentItem subtitles. IE "4 min";
-- (id)serInfo that couldn't be case as an AudioFeedTrack, this is unexpected. %{public}@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *adResponseTimestamp;

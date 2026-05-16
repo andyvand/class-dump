@@ -17,11 +17,11 @@
     MISSING_TYPE *settingsViewController;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)l%ùÿaüÿÐÀùÿ;
+- (void)°D;
+- (void)®YF@;
 
 @end
 

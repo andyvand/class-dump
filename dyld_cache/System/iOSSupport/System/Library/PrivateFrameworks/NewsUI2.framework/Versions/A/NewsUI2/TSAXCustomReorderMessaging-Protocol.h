@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol TSAXCustomReorderMessaging
-- (NSString *)channels
-;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *tsaxAccessibilityLabelForReordering;

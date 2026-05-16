@@ -5,17 +5,9 @@
 //
 
 @class NSString;
-@protocol MPCQueueControllerBehaviorHost, MPCQueueControllerItemIdentifierComponents;
+@protocol MPCQueueControllerBehaviorHost;
 
 @protocol MPCQueueControllerBehaviorImplementation
-- (long long);
-- (void):(id <MPCQueueControllerBehaviorHost>)arg1 8;
-- (id <MPCQueueControllerItemIdentifierComponents>)ential;
-- (_Bool)iatype.itunes;
-- (_Bool)tChangeTypeSaveFailed;
-- (_Bool)ccount;
-- (void);
-- (id <MPCQueueControllerBehaviorHost>)no account found [failed to create delegate request environment] dsidError=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCQueueControllerBehaviorHost> host;

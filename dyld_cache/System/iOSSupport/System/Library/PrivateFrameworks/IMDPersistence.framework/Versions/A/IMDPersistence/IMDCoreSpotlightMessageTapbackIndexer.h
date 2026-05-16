@@ -12,6 +12,7 @@
 {
 }
 
++ (unsigned long long);
 + (void);
 + (int);
 

@@ -39,21 +39,21 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (_Bool);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)valid bundle:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMacAddress;

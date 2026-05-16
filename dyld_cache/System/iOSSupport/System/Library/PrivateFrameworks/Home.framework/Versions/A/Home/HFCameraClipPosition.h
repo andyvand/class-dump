@@ -19,14 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (double);
+- (void)essorySettingGroupItemOff;
+- (double)main string with assumption that access is always allowed.;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraClip *clip;

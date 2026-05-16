@@ -9,11 +9,11 @@
     double roundTrackPadding;
 }
 
-- (void)ion Early due to operation cancelled:(double)arg1 %@;
-- (double)e;
+- (void);
 - (double);
-- (double)%@";
-- (id)	k;
+- (double);
+- (double);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) double roundTrackContainerViewCornerRadius;

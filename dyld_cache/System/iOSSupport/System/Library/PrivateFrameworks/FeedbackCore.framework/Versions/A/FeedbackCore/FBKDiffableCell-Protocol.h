@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol FBKDiffableCell
-- (NSString *)hî;
+- (NSString *)Ä;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *itemIdentifier;

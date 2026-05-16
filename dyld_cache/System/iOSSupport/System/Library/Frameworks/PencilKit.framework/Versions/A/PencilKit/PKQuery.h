@@ -17,11 +17,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)Tool>",R,N;
+- (void)ention;
 
 // Remaining properties
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;

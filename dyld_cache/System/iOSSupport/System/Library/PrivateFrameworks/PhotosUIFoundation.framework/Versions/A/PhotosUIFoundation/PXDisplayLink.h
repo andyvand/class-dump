@@ -32,16 +32,16 @@
 - (id);
 - (id);
 - (double);
-- (double);
-- (double);
 - (id);
+- (double);
 - (void);
-- (id);
+- (double);
 - (long long);
-- (SEL);
 - (id);
-- (double);
+- (SEL);
 - (void);
+- (double)_subitemIndexesByItemBySectionByDataSourceIdentifier;
+- (id)ourceItemListVersion ;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentMediaTime;

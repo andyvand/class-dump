@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PREditingPosterContentStyleCoordinator *styleCoordinator; // @synthesize styleCoordinator=_styleCoordinator;

@@ -16,20 +16,17 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (double);
+- (id);
+- (double);
+- (struct CGPoint);
 - (struct CGRect);
 - (double);
 - (void);
-- (id);
-- (double);
 - (void);
 - (void);
-- (void)ailure:(double)arg1;
-- (void)tifiers;
-- (double);
-- (struct CGPoint)z3`ñMû;RêåJ«Sý»êö8xËHìU³*µÄ²Öþ÷àÜÛÊ"ôóì¶ßXT@ã?ÞßVÎÓ ÁÈC"éÃ¥kXúmw'y±áóÝÙ±tB*À¸ì-ÿ«Âô¬ø¨-uO{¿i±ï+hxÄö/¯HzÇávÎÆ~]gØäÁLb{Ù$=íþ#J¥Ãß¶Q&-¿mOfêKb¼µâÏZRªjè¾ SûÐÎHíhÀæcÉCþÍ¨'Í1 ipöç¼lÌL°3|è5ü³¹ÀeÞòX|ÇóR!NÞA2»Pñ^Côß9b]ÒàñA1<ûf¯r
-ðQ²¼G}B~Ôî¥s.;Lîöã¾%bx4ëÌCãÝxç$È(w2Ù}ùµEâC°òWK÷ëâ¶ú¤:ÄðhËPîd	¯úï}óÕÀN«¤zV|T´Æ©¶»ûOB<Â+Ï;ÅÍÐC6êª9wð/¬ì3,%Û§ðÓH×æ]kòÃ^¹²ø õ.PÄnqkë0©3u«1^Ô?äý¢y"e'Éñpð	2s¤ÁÊp§q¾K¦çk=@Ø)ÿÈ~¾ÃúÇvtË6©cJjrÂ^ù7õEíMZê?èIPº8{d7ç½X."æUàSâa­Rã(ümÅZ#ãK5ÞàõÐ­	Æ9x¦Y^×aq	H|±âÖË:!`éåw®Ñ­°!?jwÜ··n¹¡¦«]$DÏý^E6Åf&XñÆ¹þ¬½ýêÍcA¾yÄï§"@UvQqìØT>ÂºQËg=
-Ô¬q¯Xyþxz\ÚÉ6²8¯3í½lÉIrî&a]¦ë½2ýÐ,ø4`s¿
-êó	)uüB®±>}Ï©4º#H+$ïÎBLæ\WÖ°éÚ³ÑºÖù4<Àu{<E+Q¸@:\vÁñÛaJ>Õæ´ÖH\´Ï®óË3Ù:U« ×B(b7ÁmÑb_ï}í;:ëÏË¸æNJ1IL~d/eÃÜ=+>*LZcÚ[Óó@©!G´tÑW¡aY1¬Y4Úèrfnãez÷v[ÈnÓg°\D¦\ IÅ¹8z4lErÄº¹Ýÿ¿IF§Q¯Õ)w¼à[¡°÷ä`'ÛRTm0ºnWx0Z×eV®ÉÆa/ò¥«DõûÅq~Õ(çYòDÊÜ»Î,}¸ªJ¾2±ºaéìè	ò½è·tªK(]³!1ÊîHÃÑ¸ü·PÓ²ù9¨já¹äsFZxVvÏ*×î#A¿Çµ³ñ¡Nÿoá+Egç|0·ÑuüÈ^Ê¥£ç÷ Ú­j`1¢»±ô8>t~×Ò`,ôf9Àÿ_P§óhg$4Ù´¤IÔÍh¯uUµ<=.mê«ü_[Ekqé-)U5tßýõmOØ¨{ÆÛ~¡£¬	»»Ê­f-úypCf)Ç&w{ÿ_ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

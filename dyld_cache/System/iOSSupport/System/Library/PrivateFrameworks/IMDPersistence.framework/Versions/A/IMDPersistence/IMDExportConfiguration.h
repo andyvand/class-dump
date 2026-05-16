@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString;
 
 @interface IMDExportConfiguration
 {
@@ -12,24 +12,31 @@
     long long batchSize;
     unsigned long long messagesExcluded;
     unsigned long long participantsIncluded;
+    void limitToGUIDs;
+    _Bool quickEstimates;
 }
 
-+ (_Bool)eSDB.swift;
++ (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)ng",&,N,V_synthesizedDrawing;
-- (id);
 - (long long);
 - (long long);
+- (void)mentsAsNeedingSync ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long batchSize; // @synthesize batchSize;
 @property(nonatomic, readonly) NSString *description;
+@property(nonatomic, readonly) NSArray *limitToGUIDs;
 @property(nonatomic, readonly) unsigned long long messagesExcluded; // @synthesize messagesExcluded;
 @property(nonatomic, readonly) unsigned long long participantsIncluded; // @synthesize participantsIncluded;
+@property(nonatomic, readonly) _Bool quickEstimates; // @synthesize quickEstimates;
 @property(nonatomic, readonly) long long sortOrder; // @synthesize sortOrder;
 
 @end

@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     const char *_typeEncoding;
 }
 
-+ (id)e;
++ (id);
 - (void);
 - (void);
 - (struct objc_ivar *);
@@ -26,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (const char *);
 - (id);
 - (void);
-- (id)laration;
-- (void)a_with_cfdata invalid size for serialized fileReferenceData;
 - (void);
-- (id)n"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (void)msBlock:(id)arg1;
-- (_Bool)spondingToLifecycleEvent:,V_respondingToLifecycleEvent /* Error: Ran out of types for this method. */;
-- (id)2d;
+- (id);
+- (id);
+- (void)arIgnoresInset"I};
+- (id)t¨;
+- (_Bool);
+- (void)¬¹Ò$È];
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isObject;

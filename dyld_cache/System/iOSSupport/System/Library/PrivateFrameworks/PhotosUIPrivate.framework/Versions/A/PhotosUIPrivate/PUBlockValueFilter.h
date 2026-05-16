@@ -12,9 +12,9 @@
 }
 
 - (double);
-- (void);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void)m;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType operationBlock; // @synthesize operationBlock=_operationBlock;

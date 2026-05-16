@@ -26,17 +26,18 @@ __attribute__((visibility("hidden")))
 
 - (struct CGAffineTransform);
 - (double);
-- (void)@56;
-- (void)24@32@40B48B52B56B60@64;
-- (void)rdDeletion: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGRect);
-- (void)s[request->requestClass].hasItemsNotDone;
 - (void);
-- (id)tObserver: /* Error: Ran out of types for this method. */;
-- (void)KBInputBackdropView;
-- (double);
+- (void);
+- (void);
 - (CDUnknownBlockType);
+- (void);
+- (id);
+- (struct CGRect)
+× ;
+- (void)out:(CDUnknownBlockType)arg1;
+- (double)ndefinedChange;
+- (void)s;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

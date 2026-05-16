@@ -9,7 +9,7 @@
 @protocol _UIWindowSceneComponentProviding
 
 @optional
-- (UITraitCollection *)mentOrigin:coordinateSpace:scale:fallbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
+- (UITraitCollection *)bItemAppearanceStorage;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *_traitOverrides;

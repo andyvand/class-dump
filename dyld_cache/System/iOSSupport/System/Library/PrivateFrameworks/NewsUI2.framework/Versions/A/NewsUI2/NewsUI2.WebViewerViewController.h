@@ -17,18 +17,18 @@
 }
 
 - (void);
-- (void)Vv;
-- (void)terAccessibility;
 - (void);
 - (void);
-- (void);
-- (id)?;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)backTimeToUserTime:(id)arg1;
-- (void)«ßÿL«ßÿ«ßÿ¬«ßÿt¬ßÿ¬ßÿ¬ßÿX­ßÿÀ­ßÿô­ßÿÄ¯ßÿ;
 - (void);
+- (void)ÿÿÿÿô;
+- (void);
+- (void)ü°	;
+- (void)þ;
+- (void);
 
 @end
 

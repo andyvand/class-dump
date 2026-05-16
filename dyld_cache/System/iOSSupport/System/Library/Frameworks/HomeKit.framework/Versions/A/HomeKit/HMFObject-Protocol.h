@@ -7,9 +7,6 @@
 @class NSArray, NSString;
 
 @protocol HMFObject
-+ (NSString *)sListFromError: /* Error: Ran out of types for this method. */;
-- (NSString *)ingPresentation;
-- (NSString *)hed action sets;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

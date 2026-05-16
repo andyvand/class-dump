@@ -15,20 +15,19 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
+- (void);
+- (double);
+- (double);
+- (void);
 - (_Bool);
-- (void)lRelationshipGenericGenre__MAPPING_MISSING__;
 - (void);
-- (void);
-- (void)#;
-- (void)u°!(FùñÉÐ1¢!0@ù
-× ;
-- (void)Ôáv°!BùÑË1¢!0@ù
-× ;
-- (CDUnknownBlockType)ewLargeTitleHeight: /* Error: Ran out of types for this method. */;
-- (_Bool)holderWithWidth:height: /* Error: Ran out of types for this method. */;
-- (double)rovider override.;
-- (void);
-- (double)Ëâ[;
+- (void)_typeSelectActive;
+- (CDUnknownBlockType)$<L>;
+- (_Bool)¬	
+-ì;
+- (void)nch as __ExecOrResumeTime is 0;
+- (void)tem (bug!);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType animations; // @synthesize animations=_animations;

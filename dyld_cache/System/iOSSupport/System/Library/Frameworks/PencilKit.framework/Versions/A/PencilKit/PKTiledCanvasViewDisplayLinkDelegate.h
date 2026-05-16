@@ -11,10 +11,10 @@
     PKTiledCanvasView *_view;
 }
 
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)QQQ}}16^{?={?=QQQ}{?=QQQ}}24{?=QQQ}32Q56;
+- (void)ickerViewLeftConstraint;
+- (void)-´;
 
 // Remaining properties
 @property(nonatomic) __weak PKTiledCanvasView *view; // @synthesize view=_view;

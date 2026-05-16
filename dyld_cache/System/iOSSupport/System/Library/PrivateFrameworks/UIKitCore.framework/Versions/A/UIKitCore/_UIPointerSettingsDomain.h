@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ayloadDefaultServiceHandlers;
 + (id);
-+ (Class)_screenSize;
-+ (id)À;
++ (id)ing;
++ (id): /* Error: Ran out of types for this method. */;
++ (Class);
 
 @end
 

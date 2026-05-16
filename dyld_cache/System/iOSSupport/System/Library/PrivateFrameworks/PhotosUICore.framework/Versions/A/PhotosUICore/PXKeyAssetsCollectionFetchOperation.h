@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (long long)Ô ;
+- (long long)× ;
+- (void)}ÿÅÌÈD}ÿµÌÈh}ÿ;
 
 // Remaining properties
 @property(nonatomic) long long maxKeyAssets; // @synthesize maxKeyAssets=_maxKeyAssets;

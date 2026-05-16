@@ -11,29 +11,29 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)`yÿ>h;
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (long long);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool)elled.;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)éóº;
-- (long long)
+- (_Bool)!ø@ùqZ°1Â0@ù
 × ;
-- (_Bool)1Å1¢!0@ù
+- (_Bool)ÔáÐ!Dù_ð1Â0@ù
 × ;
-- (long long)geName:textAnimationName: /* Error: Ran out of types for this method. */;
-- (long long)ForShiftKey;
-- (_Bool)sition:currentTransformedPosition: /* Error: Ran out of types for this method. */;
-- (long long)ypes:inItemSet: /* Error: Ran out of types for this method. */;
-- (_Bool)ngStateMachine;
-- (_Bool)ouldBeFlexible: /* Error: Ran out of types for this method. */;
-- (long long)orcingBlackText: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)mework/RevealCore;
-- (_Bool){®Gáz?ü©ñÒMbP?;
+- (long long);
+- (_Bool)eView:(id)arg1;
+- (_Bool)tyItemsConfigurationCanPerformAction:(id)arg1 sender: /* Error: Ran out of types for this method. */;
+- (_Bool)total for this environment.;
+- (_Bool)pareSceneForLayout:(id)arg1 ];
+- (long long)SJG;
 
 @end
 

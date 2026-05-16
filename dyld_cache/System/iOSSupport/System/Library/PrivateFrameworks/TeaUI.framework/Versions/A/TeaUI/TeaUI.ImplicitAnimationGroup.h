@@ -11,21 +11,26 @@
     MISSING_TYPE *animators;
 }
 
+- (id);
+- (long long);
 - (_Bool);
 - (void);
-- (long long);
-- (id)ntmostViewControllerForHierarchy: /* Error: Ran out of types for this method. */;
-- (void);
-- (double)b;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)|%ÿÿ;
-- (void)Ä;
-- (void)PÙÿÿ<vüÿÍÿLÎ;
-- (_Bool)contextStore=;
 - (void);
+- (void);
+- (double);
+- (void)üÿPüÿlüÿüÿ¤üÿÀüÿÜüÿüÿ(üÿLüÿpüÿüÿäüÿüüÿüÿ,üÿDüÿüÿ¬üÿÄüÿÜüÿôüÿüÿ$üÿ<üÿ\üÿ|üÿüÿäüÿ<üÿ\üÿ|üÿÌüÿ	üÿ4	üÿL	üÿp	üÿ	üÿ 	üÿ¸	üÿÜ	üÿ
+üÿ<
+üÿ´
+üÿÌ
+üÿä
+üÿpüÿÀüÿ$üÿüÿüÿüÿüÿ|üÿôüÿLüÿdüÿ|üÿüÿ¬üÿÄüÿ(üÿüÿ°üÿÔüÿtüÿ¬üÿLüÿüÿüÿÔüÿüüÿüÿLüÿ;
+- (_Bool)¨Sþÿ;
+- (void)³lÿ;
+- (void)ops=;
 
 // Remaining properties
 @property(nonatomic) double fractionComplete;

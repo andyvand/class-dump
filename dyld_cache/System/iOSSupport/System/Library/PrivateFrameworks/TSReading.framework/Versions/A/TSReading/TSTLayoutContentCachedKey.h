@@ -19,23 +19,22 @@
     int mWritingDirection;
 }
 
-- (struct UIEdgeInsets);
-- (_Bool);
+- (struct UIEdgeInsets);
+- (_Bool);
 - (id);
 - (_Bool);
 - (int);
 - (unsigned int);
-- (unsigned long long)=;
+- (void);
 - (id);
+- (id);
+- (unsigned long long);
+- (int);
+- (id);
+- (double);
+- (double);
 - (_Bool);
 - (id);
-- (void);
-- (double);
-- (id)ype %{public}@;
-- (double);
-- (id)Ið!ÔDùÑQ°1¢!0@ù
-× ;
-- (int)rackingDidEnd;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool cellWraps; // @synthesize cellWraps=mCellWraps;

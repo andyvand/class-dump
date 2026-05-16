@@ -48,19 +48,18 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (double);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)Ky Þ\GG©ë^GtGGÐã\GGG;
-- (void)_PAYMENT_BUBBLE_ACTION_ACCEPT;
-- (long long)shq?ôýÔ¼¬Z¾=
-7¿;
 - (long long);
-- (double)øÿ?ú|: /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (void)to be set. Falling back to onTime content | flightID=%s;
+- (void);
+- (long long)÷ÿÔ²;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *bucket; // @synthesize bucket=_bucket;

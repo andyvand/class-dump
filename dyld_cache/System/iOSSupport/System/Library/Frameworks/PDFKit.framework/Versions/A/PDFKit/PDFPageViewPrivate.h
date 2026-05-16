@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
     PDFHighlightDetectedFormFieldsEffectLayer *detectedFormFieldBoundingBoxesLayer;
 }
 
-- (void)ers;
+- (void);
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (long long);
++ (long long);
 + (double);
 - (id);
 - (_Bool);
@@ -21,13 +21,13 @@
 - (void);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void)êy;
-- (double);
+- (void);
+- (double);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
 - (double);
+- (_Bool);
 - (_Bool);
 
 @end

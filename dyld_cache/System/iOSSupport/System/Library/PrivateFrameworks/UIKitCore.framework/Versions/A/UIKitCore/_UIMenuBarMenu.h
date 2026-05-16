@@ -5,6 +5,7 @@
 //
 
 @class NSArray, NSString, UIWindow;
+@protocol UINSMenuItem;
 
 @interface _UIMenuBarMenu
 {
@@ -15,12 +16,13 @@
     unsigned long long _presentationStyle;
     long long _selectionMode;
     UIWindow *_sourceUIWindow;
+    id <UINSMenuItem> _currentHighlightedItem;
     NSString *_title;
     struct CGRect _rectInUIWindow;
 }
 
 + (void);
-+ (_Bool)ne fetch complete zoneID %@ changeToken %@ tokenData %@ moreComing %d error %@;
++ (_Bool);
 + (_Bool);
 + (id);
 + (id);
@@ -34,27 +36,30 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (struct CGRect);
+- (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (id)0@ù
-× ;
-- (void)izer";
-- (id)ontainerLayoutCustomizationDelegate;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)¨ÂÜÂ;
-- (long long)xceededVelocity;
-- (void)¤þÿÿÿÿ;
-- (id)Ó\;
 - (id);
-- (unsigned long long)I^;
-- (void)6;
+- (id);
+- (id);
+- (long long)
+× ;
+- (id)dleAutoFillCreditCardPopoverCommand;
+- (void)rKeyCommand:(id)arg1;
+- (void)sitionInSession:(id)arg1;
+- (void)azy_storage_$_lensingPortalContainer;
+- (id)DxX;
+- (void)ubtitle Cell;
+- (id)lassifiers/_UIForceLevelClassifier.m;
+- (unsigned long long)ing items while animating can result in a corrupted navigation bar;
+- (void);
 
 // Remaining properties
+@property(nonatomic) __weak id <UINSMenuItem> currentHighlightedItem; // @synthesize currentHighlightedItem=_currentHighlightedItem;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

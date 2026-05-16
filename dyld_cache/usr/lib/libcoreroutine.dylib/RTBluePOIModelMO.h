@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)¼+;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) RTBluePOITileMO *bluePOITile; // @dynamic bluePOITile;

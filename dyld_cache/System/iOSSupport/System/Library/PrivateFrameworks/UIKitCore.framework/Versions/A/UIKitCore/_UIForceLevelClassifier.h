@@ -18,27 +18,29 @@
     double _currentTouchForceMultiplier;
 }
 
+- (void);
+- (void);
+- (void);
 - (id);
+- (long long);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)lip__MAPPING_MISSING__;
-- (void)mapping for MPModelPropertyLyricsHasDownloadedCatalogLyrics;
-- (void);
-- (void);
-- (double)!FùñÍÐ1¢!0@ù
+- (id);
+- (double)@ù
 × ;
-- (void)rigin:(_Bool)arg1 height: /* Error: Ran out of types for this method. */;
-- (long long)gAnimations;
-- (_Bool)reviousArrows;
-- (id)proportionalFillLengthForOrderedArrangement:relevantParentAxis: /* Error: Ran out of types for this method. */;
-- (void)xS;
-- (_Bool)tofill payload delegate is nil;
-- (void)ÿübüÿ;
-- (id)stants> _UITableConstantsForTraitCollection(UITraitCollection *__strong);
-- (void)_PPT_LaunchMetricsPayload;
-- (void)C[;
-- (void)ÿ/(ÍÊ];
+- (void)A°!´FùdÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (id)paceView;
+- (_Bool)pingDisabled;
+- (void)';
+- (void)@; scene session:(double)arg1 %{public}@;
+- (void);
+- (_Bool)nd=%ld). View:%@; Subviews:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentForceLevel; // @synthesize currentForceLevel=_currentForceLevel;

@@ -4,11 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSNumber;
+
 @protocol MusicKit_SoftLinking_MPArtworkColorAnalysis
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *musicKit_backgroundColor;
+@property(readonly, nonatomic) struct CGColor *musicKit_gradientColor;
+@property(readonly, nonatomic) NSNumber *musicKit_gradientEndPosition;
+@property(readonly, nonatomic) NSNumber *musicKit_gradientStartPosition;
+@property(readonly, nonatomic) NSArray *musicKit_gradientTextColors;
 @property(readonly, nonatomic) struct CGColor *musicKit_primaryTextColor;
+@property(readonly, nonatomic) struct CGColor *musicKit_quaternaryTextColor;
 @property(readonly, nonatomic) struct CGColor *musicKit_secondaryTextColor;
 @property(readonly, nonatomic) struct CGColor *musicKit_tertiaryTextColor;
 @end

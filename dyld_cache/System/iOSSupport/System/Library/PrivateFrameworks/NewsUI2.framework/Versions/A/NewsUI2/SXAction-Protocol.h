@@ -7,40 +7,7 @@
 @class NSString, SXJSONDictionary;
 
 @protocol SXAction
-- (NSString *)ïyÀP:ó:Gõ_:ø_:GïyAeNiY:GãïyAeNGASGGG /* Error: Ran out of types for this method. */;
-- (SXJSONDictionary *){
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "knobsConfig":{
-        "minGroups":1,
-        "maxGroups":4294967296,
-        "groupKnobs":{}
-    }
-} /* Error: Ran out of types for this method. */;
+- (SXJSONDictionary *)yTypeP;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *analytics;

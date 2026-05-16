@@ -24,11 +24,11 @@
 - (long long);
 - (long long);
 - (void);
-- (_Bool);
 - (void);
 - (id);
-- (_Bool)ialGroupsAction;
-- (CDStruct_e83c9415);
+- (_Bool);
+- (_Bool)À>;
+- (CDStruct_e83c9415)AlbumLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_e83c9415 cueTimeRange;

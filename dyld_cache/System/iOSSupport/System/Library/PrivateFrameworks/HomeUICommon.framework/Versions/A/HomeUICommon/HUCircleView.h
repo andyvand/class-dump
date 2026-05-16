@@ -20,11 +20,11 @@
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundColorFollowsTintColor; // @synthesize backgroundColorFollowsTintColor=_backgroundColorFollowsTintColor;

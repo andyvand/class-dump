@@ -12,9 +12,10 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (id)@"<TFResolver>"8;
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

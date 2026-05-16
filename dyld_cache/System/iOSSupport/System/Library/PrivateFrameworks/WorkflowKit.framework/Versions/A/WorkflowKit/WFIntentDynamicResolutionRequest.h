@@ -12,11 +12,10 @@
 
 - (void);
 - (CDUnknownBlockType);
-- (void);
 - (id);
-- (_Bool);
-- (void)	
-;
+- (void);
+- (_Bool);
+- (void)regex|newline|format;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;

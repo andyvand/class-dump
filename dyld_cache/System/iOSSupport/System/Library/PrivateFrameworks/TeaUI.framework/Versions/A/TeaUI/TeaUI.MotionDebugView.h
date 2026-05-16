@@ -12,12 +12,12 @@
     MISSING_TYPE *labelBackgroundView;
 }
 
-- (void);
-- (id)els;
-- (void)SString",R,N,V_icon;
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)øÿÿ;
 
 @end
 

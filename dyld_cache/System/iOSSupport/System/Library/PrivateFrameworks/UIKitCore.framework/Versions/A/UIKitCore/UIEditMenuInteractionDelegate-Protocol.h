@@ -9,8 +9,8 @@
 @protocol UIEditMenuInteractionDelegate
 
 @optional
-- (void)P;
-- (void)d}48{CGPoint=dd}64q80;
-- (UIMenu *)\;
+- (void);
+- (UIMenu *)3GGSOGGGAJG_Ý.3Qo__¾7Qo__}.3Qo__Qo_AFy¬.3GGG;
+- (struct CGRect)M13ÜþU13Àó¸þ;
 @end
 

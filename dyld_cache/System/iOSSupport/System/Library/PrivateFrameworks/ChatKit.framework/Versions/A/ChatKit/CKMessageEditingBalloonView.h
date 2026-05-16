@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKTextBalloonView.h>
 
-@class CKCompositionTranslator, CKMessageEditingBalloonTextView, NSAttributedString, NSDictionary, NSLocale, NSString;
+@class CKCompositionTranslationSessionManager, CKMessageEditingBalloonTextView, NSAttributedString, NSDictionary, NSLocale, NSString;
 @protocol CKMessageEditingBalloonViewDelegate;
 
 @interface CKMessageEditingBalloonView : CKTextBalloonView
@@ -20,19 +20,20 @@
     NSString *_sourceLanguageID;
     NSString *_destinationLanguageID;
     NSDictionary *_typingAttributes;
-    CKCompositionTranslator *_translator;
-    long long _translationVersion;
+    CKCompositionTranslationSessionManager *_translationSessionManager;
     CDUnknownBlockType _pendingTranslationBlock;
     struct CGRect _customTextViewLayoutBounds;
 }
 
 + (_Bool);
-- (void)tTrait: /* Error: Ran out of types for this method. */;
-- (long long)auseWritingToolsIsActiveWithOpenGroup;
-- (id)topButton;
-- (id)url;
-- (id)ordHintWarningLabel;
-- (_Bool)Key;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -48,25 +49,23 @@
 - (void);
 - (void);
 - (void);
-- (void)x;
 - (void);
 - (void);
 - (void);
-- (id)k;
+- (void);
 - (id);
-- (id)y** added a subfolder;
-- (id)+Conversion.swift;
-- (struct CGRect)le.systempreferences:com.apple.systempreferences.AppleIDSettings*AppleIDSettings?iCloud /* Error: Ran out of types for this method. */;
-- (id)omViewBackingStore];
-- (id)d*)0);
-- (void)View hostViewDidZoom:(id)arg1 ];
-- (void)on;
+- (id);
+- (id);
+- (id);
+- (struct CGRect);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -74,16 +73,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)er:updatedJoinStateWithStyle: /* Error: Ran out of types for this method. */;
-- (id)8;
-- (void);
-- (id)ÿe3.;
-- (void)ÿì;
-- (id);
+- (void)Ì;
+- (id)7;
 
 // Remaining properties
 @property(nonatomic, getter=isBeingTornDown) _Bool beingTornDown; // @synthesize beingTornDown=_beingTornDown;
@@ -104,9 +101,8 @@
 @property(copy, nonatomic) NSString *sourceLanguageID; // @synthesize sourceLanguageID=_sourceLanguageID;
 @property(readonly) Class superclass;
 @property(retain, nonatomic) NSLocale *translationLanguage; // @synthesize translationLanguage=_translationLanguage;
+@property(retain, nonatomic) CKCompositionTranslationSessionManager *translationSessionManager; // @synthesize translationSessionManager=_translationSessionManager;
 @property(retain, nonatomic) NSLocale *translationToLanguage; // @synthesize translationToLanguage=_translationToLanguage;
-@property(nonatomic) long long translationVersion; // @synthesize translationVersion=_translationVersion;
-@property(retain, nonatomic) CKCompositionTranslator *translator; // @synthesize translator=_translator;
 @property(retain, nonatomic) NSDictionary *typingAttributes; // @synthesize typingAttributes=_typingAttributes;
 
 @end

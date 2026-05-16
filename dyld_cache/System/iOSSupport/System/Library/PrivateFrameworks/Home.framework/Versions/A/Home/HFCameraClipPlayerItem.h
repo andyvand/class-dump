@@ -29,10 +29,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (_Bool);
-- (_Bool)pthread_rwlock_t="__sig"q"__opaque"[192c]};
+- (void)FImageIconIdentifierValveShowerHeadOff;
+- (_Bool)to enable UWB for wallet key, error occurred %@;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *clip; // @synthesize clip=_clip;

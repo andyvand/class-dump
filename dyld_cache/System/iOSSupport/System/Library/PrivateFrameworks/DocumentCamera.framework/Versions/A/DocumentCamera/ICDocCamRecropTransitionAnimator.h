@@ -41,17 +41,17 @@
 - (id);
 - (void);
 - (_Bool);
+- (double);
+- (void);
+- (double);
+- (void);
 - (id);
-- (void);
-- (void);
 - (long long);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (double);
-- (void)ler:(id)arg1 didFinishWithScan: /* Error: Ran out of types for this method. */;
-- (void)oryDidChange:(id)arg1;
-- (double)&,N,V_iPadLayoutConstraints;
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

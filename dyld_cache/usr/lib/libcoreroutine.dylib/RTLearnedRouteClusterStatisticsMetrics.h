@@ -37,20 +37,19 @@
 - (void);
 - (void);
 - (void);
-- (void)A
-;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (float);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (float);
 - (float);
 - (int);
 - (int);
@@ -59,15 +58,15 @@
 - (id);
 - (float);
 - (float);
-- (float)$;
+- (float);
 - (float);
 - (float);
 - (float);
 - (float);
 - (void);
-- (void)1A;
 - (void);
-- (id)iction;
+- (void);
+- (id);
 
 // Remaining properties
 @property float clusterProcessingRunTimeAvg; // @synthesize clusterProcessingRunTimeAvg=_clusterProcessingRunTimeAvg;

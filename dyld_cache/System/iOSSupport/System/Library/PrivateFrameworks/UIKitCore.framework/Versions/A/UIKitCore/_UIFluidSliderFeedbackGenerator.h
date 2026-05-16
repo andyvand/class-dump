@@ -13,12 +13,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)0@ù
+× ;
 - (_Bool);
-- (id)rSending;
-- (_Bool)SDate",&,V_lastSentDowngradeRequestSinceLoadDate;
+- (id);
 - (_Bool);
-- (id)ä;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

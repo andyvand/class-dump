@@ -22,26 +22,26 @@
     _Bool _lock_activated;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -31,74 +31,71 @@
 }
 
 - (double);
-- (_Bool)|;
+- (_Bool);
+- (_Bool);
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (double);
+- (_Bool);
 - (void);
 - (_Bool);
 - (double);
-- (_Bool)etwork;
-- (_Bool)OSVersion;
-- (void);
-- (_Bool);
+- (id);
+- (id);
+- (double);
+- (double);
 - (_Bool);
 - (double);
-- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool)| chunkCount == getFile->item->chunksPartOfItemInstanceCount;
-- (_Bool);
-- (_Bool);
 - (double);
 - (void);
-- (void);
+- (double);
+- (double)Á;
+- (double)
+× ;
+- (void)ñ\ð1Â0@ù
+× ;
 - (id);
+- (void)0@ù
+× ;
+- (void)!;
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (double)"_UITouchBarController";
+- (double)ACornerRadii={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)erredTransition:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (_Bool)SelectColor: /* Error: Ran out of types for this method. */;
+- (void)ble:(double)arg1;
+- (_Bool)dContentSize;
+- (_Bool)election: /* Error: Ran out of types for this method. */;
+- (id)nu: /* Error: Ran out of types for this method. */;
+- (_Bool)readingSuggestionPendingUnderlineForPoofreadingSuggestionID: /* Error: Ran out of types for this method. */;
+- (void)dth;
+- (double)ration:reorderingCell:additionalAnimations: /* Error: Ran out of types for this method. */;
+- (long long),V_screenBounds;
+- (_Bool),N,GisTouchBarAvailable,V_touchBarAvailable;
+- (void)teSection;
+- (id)SourceIndexPathsOfDraggingItems;
+- (void)ometry;
+- (_Bool)itor;
+- (_Bool)è$À;
+- (void)drop-shadow-center.png;
+- (void)ornerRadius;
+- (void)to present %@  on %@ which is already presenting %@;
+- (double)NavigationBarContentView+TransitionContainer.swift;
+- (_Bool);
+- (_Bool)¨:¯þ /* Error: Ran out of types for this method. */;
+- (double)¼Ð[;
+- (void)ÿ;
+- (void)@¤Hÿ;
+- (void);
+- (double);
 - (id);
-- (double);
 - (void);
-- (double);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void)8;	º;
-- (void)!Gù±ÁÐ1¢!0@ù
-× ;
-- (_Bool);
-- (void)¢!0@ù
-× ;
-- (_Bool)¡sð!¨GùÇ°1¢!0@ù
-× ;
-- (void)ùÈ°1¢!0@ù
-× ;
-- (void)É1¢!0@ù
-× ;
-- (void);
-- (id)
-× ;
-- (void)!DùñÌð1¢!0@ù
-× ;
-- (double)gInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (double)esolvedTitleIsOversized"b1"resolvedSubtitleIsOversized"b1"resolvedIndicator"b2"titleAlignment"b2"alwaysApplyTitleAlignment"b1"resolvedMonochromaticTreatmentUnspecified"b1"resolvedMonochromaticTreatment"b2"disableGlassAdaptivitiy"b1"resolvedColorMaterialRenderingModeAutomatic"b1"resolvedColorMaterialRenderingMode"b2};
-- (double)@"UINavigationItem"16@"NSURL"24;
-- (void)lidate;
-- (_Bool)livery: /* Error: Ran out of types for this method. */;
-- (_Bool)nterOfRehostedVC;
-- (double)fyRects: /* Error: Ran out of types for this method. */;
-- (double)gePrefixAtIndentLevel: /* Error: Ran out of types for this method. */;
-- (double)lock;
-- (id)urrentRequest;
-- (_Bool)ationDrivers;
-- (double)yboardEmojiWellView;
-- (void)llObservationInteraction;
-- (_Bool);
-- (void)oard;
-- (double)Entries;
-- (long long)PickerControllerIrisVideoFileURL;
-- (double);
-- (void)_;
-- (void),ìþ;
-- (id)ÿ;
-- (double)f;
-- (id)¼j;
 
 // Remaining properties
 @property(nonatomic, setter=_setCollapsedState:) long long _collapsedState; // @synthesize _collapsedState=__collapsedState;

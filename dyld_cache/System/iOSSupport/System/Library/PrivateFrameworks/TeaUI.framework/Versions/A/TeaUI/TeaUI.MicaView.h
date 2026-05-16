@@ -13,10 +13,10 @@
     MISSING_TYPE *packageSize;
 }
 
-- (void);
-- (id)cGroupableMultiplier;
-- (void): /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

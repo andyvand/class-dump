@@ -14,18 +14,18 @@
 
 + (id);
 + (id);
-+ (_Bool)Û-;
-- (id)ent:(id)arg1 withTextAttachment: /* Error: Ran out of types for this method. */;
++ (_Bool)ginForAvatarView;
+- (id);
 - (void);
 - (id);
-- (id)bnail;
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void)üà¤ø;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *composeImage; // @synthesize composeImage=_composeImage;

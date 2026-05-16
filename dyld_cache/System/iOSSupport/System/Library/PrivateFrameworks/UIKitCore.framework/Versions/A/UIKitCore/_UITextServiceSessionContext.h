@@ -18,26 +18,26 @@ __attribute__((visibility("hidden")))
     struct CGRect _presentationRect;
 }
 
-+ (id)eipt to AskTo;
-+ (id)ng input to next pipeline;
 + (id);
-+ (struct CGRect)lic}s with error:(id)arg1 %@;
-+ (id)Deinit %@;
-+ (_Bool)¿ìl;
++ (id);
++ (id);
++ (struct CGRect);
++ (id);
++ (_Bool)uld never be nil. This likely means that the UIKit_Artwork.bundle inside UIKitCore.framework is missing.;
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
 - (_Bool);
-- (void)ntifier:style: /* Error: Ran out of types for this method. */;
-- (id)eAttachmentAtPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id));
-- (id);
-- (void);
-- (void)ons view at index path:(id)arg1 %@;
-- (struct _NSRange);
+- (void)gnored;
+- (id)dd}{CGSize=dd}},N;
+- (struct _NSRange)%@;
+- (void)7f%03G;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect presentationRect; // @synthesize presentationRect=_presentationRect;

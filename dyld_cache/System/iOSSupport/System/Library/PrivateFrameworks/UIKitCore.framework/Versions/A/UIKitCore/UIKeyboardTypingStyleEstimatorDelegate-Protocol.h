@@ -5,6 +5,6 @@
 //
 
 @protocol UIKeyboardTypingStyleEstimatorDelegate
-- (void)dd}{CGSize=dd}}24;
+- (void)i¸43ä;
 @end
 

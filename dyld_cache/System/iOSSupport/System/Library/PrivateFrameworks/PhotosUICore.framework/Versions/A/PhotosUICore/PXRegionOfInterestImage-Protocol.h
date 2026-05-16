@@ -8,7 +8,7 @@
 @protocol PXDisplayAsset;
 
 @protocol PXRegionOfInterestImage
-- (id <PXDisplayAsset>): /* Error: Ran out of types for this method. */;
+- (id <PXDisplayAsset>)6;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset;

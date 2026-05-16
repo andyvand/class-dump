@@ -56,22 +56,24 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (double);
-- (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void)nteraction:(id)arg1;
+- (void);
+- (_Bool)Ñð1â
+0@ù
+× ;
+- (id)ons:range:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)applyBrushBeforeStroke;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

@@ -20,7 +20,7 @@
     _Bool reverseAuth;
 }
 
-+ (_Bool)Get Current Weather;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -34,10 +34,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 

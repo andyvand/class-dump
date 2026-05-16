@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PUAlbumListCellContentView *albumListCellContentView;

@@ -16,11 +16,11 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)e source for its main service (self.service) and its child services (self.service.hf_childServices). But the client requested a value source for some other services:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessoryType; // @synthesize accessoryType=_accessoryType;

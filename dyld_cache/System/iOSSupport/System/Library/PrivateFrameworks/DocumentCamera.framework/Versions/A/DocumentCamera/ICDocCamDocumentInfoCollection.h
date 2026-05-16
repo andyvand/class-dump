@@ -19,24 +19,23 @@
 + (void);
 + (void);
 + (id);
-+ (_Bool)0@ù
-× ;
++ (_Bool);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)tensionWithIdentifier:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

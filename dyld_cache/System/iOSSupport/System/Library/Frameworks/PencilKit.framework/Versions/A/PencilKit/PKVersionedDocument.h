@@ -11,8 +11,7 @@
 
 + (unsigned int);
 + (unsigned int);
-+ (unsigned int)¡¤	!Bù1Á1¢!0@ù
-× ;
++ (unsigned int);
 - (_Bool);
 - (id);
 - (void);

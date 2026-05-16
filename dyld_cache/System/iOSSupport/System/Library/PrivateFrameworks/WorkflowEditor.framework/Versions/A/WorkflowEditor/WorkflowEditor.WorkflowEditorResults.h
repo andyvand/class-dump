@@ -12,8 +12,8 @@
     MISSING_TYPE *_finalResultCollection;
 }
 
-- (void);
 - (id);
+- (void)ü<;
 
 @end
 

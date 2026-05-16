@@ -29,16 +29,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool)roll: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) LNAction *action; // @synthesize action=_action;

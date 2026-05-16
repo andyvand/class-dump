@@ -25,14 +25,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void)9Ô94¸989Ð¹99\è9$Õ9ë9àÈ9Ì¶9PÜ98Ñ9Lò9<9d29èþ9 ¦9ä¼<ö;
-- (id);
-- (id);
-- (id)dMode: /* Error: Ran out of types for this method. */;
-- (id)Î;
+- (id)
+× ;
+- (id);
+- (void)is unimplemented;
+- (id)M§;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artistName; // @synthesize artistName=_artistName;

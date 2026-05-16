@@ -22,10 +22,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (SEL)Ü4¤;
 - (_Bool);
+- (void);
+- (void);
+- (SEL)§2Ø÷4DÉ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

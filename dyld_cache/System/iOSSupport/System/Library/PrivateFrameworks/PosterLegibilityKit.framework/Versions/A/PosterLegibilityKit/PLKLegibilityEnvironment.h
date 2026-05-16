@@ -21,10 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (double);
-- (id);
 - (id);
 - (double);
+- (id);
+- (double);
+- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -32,13 +35,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
 - (id);
 - (double);
-- (id);
-- (double)2;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *averageColor;

@@ -17,10 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)operties: /* Error: Ran out of types for this method. */;
+- (void)¨Ð!Gù±ñÐ1â
+0@ù
+× ;
+- (void),C,N;
+- (void)Hýÿe¼êDýÿ5¼ê@ýÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) BSUIVibrancyConfiguration *fromConfiguration; // @synthesize fromConfiguration=_fromConfiguration;

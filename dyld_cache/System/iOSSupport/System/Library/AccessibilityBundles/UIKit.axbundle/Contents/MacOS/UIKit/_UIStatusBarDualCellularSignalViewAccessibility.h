@@ -10,12 +10,12 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (_Bool);
-- (void)neTableCellLabel: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

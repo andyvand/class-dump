@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol UIKeyboardSplitControlMenuItem
-- (NSString *)!DAù±É1¢!0@ù
-× ;
-- (_Bool)traints;
+- (_Bool);
 
 // Remaining properties
 @property(readonly) NSString *label;

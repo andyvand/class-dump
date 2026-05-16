@@ -16,11 +16,11 @@
 
 - (int);
 - (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (void)eta scale factor;
-- (CDUnknownBlockType)ate}@;
+- (void)val,startDate,%@,endDate,%@,chunkInterval,%@;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

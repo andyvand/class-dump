@@ -7,12 +7,10 @@
 @class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
-- (_Bool);
-- (void);
-- (void)h¬à@h È 8 `  Ø ¡@¡¡°¡à¡¢\¢¢°¢à¢£8£`££¸£è£¤@¤h¤¤À¤è¤¥H¥x¥¨¥ì¥(¦`¦¦Ð¦;
-- (NSDate *)òñÿ;
-- (NSArray *)Ñâÿ´ÑâÿðÑâÿÒâÿlÒâÿÒâÿ ÓâÿDÓâÿhÓâÿ¤ÓâÿÈÓâÿ Ôâÿ8ÔâÿPÔâÿtÔâÿÔâÿÕâÿ$Õâÿ<Õâÿ`ÕâÿÕâÿ¨ÕâÿÀÕâÿäÕâÿüÕâÿÖâÿ8Öâÿ\ÖâÿÖâÿÖâÿÔ×âÿø×âÿ4ØâÿXØâÿdØâÿÐÛâÿèÛâÿ;
-- (_Bool)¾üÿ;
+- (_Bool)P;
+- (NSArray *)layeredCoverLayerProviderFactory;
+- (NSDate *)oryTypeP;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allEngagedIssueIDs;

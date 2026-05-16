@@ -13,14 +13,13 @@
     OBPrivacyLinkController *_privacyLinkController;
 }
 
-+ (_Bool)";
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-- (void)hPaperAttachment:(struct CGRect)arg1;
-- (void)chment",W,N,V_attachment;
-- (void);
-- (id)x expected to find valid row range %@ %lu %@;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,14 +27,18 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)int=dd}16{CGSize=dd}32d48d56d64Q72;
-- (_Bool)StopWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)`;
-- (CDUnknownBlockType);
-- (void)f-;
+- (_Bool);
+- (void);
+- (void);
+- (void)attempting trustkit requery for chat:(_Bool)arg1 %s;
+- (CDUnknownBlockType)oading collaboration metadata for documentURL:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ÕÊj;
 
 // Remaining properties
 @property(retain, nonatomic) AKTapToSignInViewController *akSignInVC; // @synthesize akSignInVC=_akSignInVC;

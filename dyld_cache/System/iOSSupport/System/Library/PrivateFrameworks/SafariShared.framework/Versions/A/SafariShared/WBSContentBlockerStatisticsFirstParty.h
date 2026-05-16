@@ -15,9 +15,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
 - (double);
+- (id);
+- (void),;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;

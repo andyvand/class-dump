@@ -10,15 +10,15 @@
 {
 }
 
-- (id)ForDeletingEmptyParagrahIfNecessaryForTextView:textStorage:paragraphRange:andLocation: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)t;
 - (id);
-- (long long)D_A_FILE;
+- (id);
+- (id);
+- (long long)allback placeholder.;
 
 @end
 

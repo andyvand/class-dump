@@ -8,8 +8,6 @@
 @protocol PXPhotosLensControlItem, PXPhotosOverlayControllerDelegate;
 
 @protocol PXPhotosOverlayController
-- (id <PXPhotosOverlayControllerDelegate>).øøÿ;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableLenses;

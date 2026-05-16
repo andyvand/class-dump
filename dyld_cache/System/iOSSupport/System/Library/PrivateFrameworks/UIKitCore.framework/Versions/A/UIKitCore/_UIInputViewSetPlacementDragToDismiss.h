@@ -14,17 +14,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)¬ñrþá;
-- (void)tos;
++ (_Bool)ts emoji:%d
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (id)yLogData:(id)arg1;
-- (Class)]Ä^Ô_ü`pb f<g´g;
-- (double)r, skipping:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)dFinalSpring;
-- (void);a;
+- (void);
+- (_Bool)transitionContainer;
+- (void)lesUpdateLastUsedInputModeTimer:(id)arg1;
+- (Class);
+- (id)nViewTableLayout rows will result in layout issues in the collection view. Please ensure that row heights are integral values. This message will only be logged once.;
+- (void)ws deeper in the view controller hierarchy than the window's root view controller. The safeAreaAspectFitLayoutGuide should only be used for displaying full-window/full-screen media content with views that are direct subviews or close descendants of the guide's window. %@;
+- (_Bool)Ì)¦þÀoþÀoþ;
+- (double)ÃÚäã^;
 
 // Remaining properties
 @property(nonatomic) _Bool dismissKeyboardOnly; // @synthesize dismissKeyboardOnly=_dismissKeyboardOnly;

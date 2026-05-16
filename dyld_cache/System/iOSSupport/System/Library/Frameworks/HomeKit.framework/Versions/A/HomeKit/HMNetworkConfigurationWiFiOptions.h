@@ -13,8 +13,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (long long);
 - (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;

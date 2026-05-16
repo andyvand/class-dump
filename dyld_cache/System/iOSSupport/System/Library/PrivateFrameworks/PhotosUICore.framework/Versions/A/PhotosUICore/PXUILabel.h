@@ -22,12 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)l×ÜØ(Ù;
+- (id)QEÐ1â
+0@ù
+× ;
+- (void)PathForAsset:(id)arg1 inCollection: /* Error: Ran out of types for this method. */;
+- (void)oupAction;
 
 // Remaining properties
 @property(retain, nonatomic) PXLabelSpec *spec; // @synthesize spec=_spec;

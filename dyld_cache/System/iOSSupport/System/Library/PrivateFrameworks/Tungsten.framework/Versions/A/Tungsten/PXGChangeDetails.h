@@ -49,11 +49,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PXArrayChangeDetails *arrayChangeDetails;

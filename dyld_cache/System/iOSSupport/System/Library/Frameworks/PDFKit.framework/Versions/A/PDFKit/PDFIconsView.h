@@ -30,19 +30,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)"NSArray"@"NSError">24;
-- (void)NSTableView"16@"<NSDraggingInfo>"24;
-- (void)24{CGPoint=dd}32Q48;
-- (void)ton";
+- (id);
 - (void);
-- (void)olor",C,N,V_selectedColor;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (struct CGRect);
-- (void)±¦;
-- (double)1úÿV
-Ä;
+- (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

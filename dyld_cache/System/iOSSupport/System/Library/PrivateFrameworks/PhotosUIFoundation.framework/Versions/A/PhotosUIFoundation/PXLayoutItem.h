@@ -25,11 +25,11 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGAffineTransform);
-- (double);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
+- (void);
+- (void);
+- (double);
 - (void);
 
 // Remaining properties

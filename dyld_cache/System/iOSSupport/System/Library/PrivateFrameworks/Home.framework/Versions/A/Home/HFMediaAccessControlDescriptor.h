@@ -21,12 +21,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (unsigned long long);
+- (void)D@ ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long access; // @synthesize access=_access;

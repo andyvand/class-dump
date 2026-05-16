@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 + (long long);
 - (void);
 - (id);
-- (void)stExpireStateWithCompletion: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id)s;
-- (void);
-- (id)@_;
+- (id)ø^;
+- (void);
+- (id)13ÄÞþõì13è÷oþ;
 
 // Remaining properties
 @property(retain, nonatomic) _UIPrototypingValue *prototypingSetting; // @synthesize prototypingSetting=_prototypingSetting;

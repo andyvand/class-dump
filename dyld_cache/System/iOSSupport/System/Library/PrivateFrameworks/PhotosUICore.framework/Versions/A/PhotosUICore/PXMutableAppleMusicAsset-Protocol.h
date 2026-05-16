@@ -7,12 +7,12 @@
 @class NSArray, NSNumber, NSString, NSURL, PHPhotoLibrary;
 
 @protocol PXMutableAppleMusicAsset
-- (NSString *)legate;
-- (CDStruct_1b6d18a9);
-- (void)ÿ ;
-- (PHPhotoLibrary *);
-- (void);
-- (NSString *)ÛC3;
+- (unsigned long long)ionDuration;
+- (void)olItem;
+- (NSString *)isTransient;
+- (void)entShare;
+- (PHPhotoLibrary *)½uÈËr;
+- (void)3;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumTitle;

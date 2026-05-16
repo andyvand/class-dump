@@ -33,11 +33,16 @@
 - (id);
 - (void);
 - (long long);
+- (_Bool);
+- (id);
+- (id)D	|	´	ì	8
+
+¤
+Ì
+ô
+0TÌü$LtØü$Lt¤ÌôT;
 - (void);
-- (id);
-- (id)$_updater;
-- (_Bool)estinationView;
-- (id);
+- (id)85;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *allowedTransitionKinds; // @synthesize allowedTransitionKinds=_allowedTransitionKinds;

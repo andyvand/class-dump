@@ -15,10 +15,10 @@
 - (_Bool);
 - (double);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)x;
+- (void));
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

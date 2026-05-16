@@ -5,9 +5,8 @@
 //
 
 @protocol _UIMutableTextLayoutFragmentView
-- (void));
-- (struct CGPoint)ForIDs:style:onServices:chatID: /* Error: Ran out of types for this method. */;
-- (void)iew;
+- (struct CGSize)@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect clipRect;

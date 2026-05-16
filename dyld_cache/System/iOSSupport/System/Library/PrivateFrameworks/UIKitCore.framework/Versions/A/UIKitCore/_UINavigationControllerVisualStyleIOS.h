@@ -14,13 +14,14 @@
     _UINavigationInteractiveTransition *_interactionController;
 }
 
-- (_Bool);
 - (id);
-- (id)ions/A/AudioSession;
-- (id);
-- (void);
-- (void);
-- (void)iew;
+- (void)!EùQfð1Â0@ù
+× ;
+- (_Bool)yleForMenu"B"accessoriesForMenu"B"shouldByDelayedByGestureRecognizer"B"asyncConfigurationForMenuAtLocation"B"overrideSuggestedActions"B"shouldPresent"B"shouldAllowDragAfterDismiss"B"shouldAllowSwipeToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
+- (id)stemIndigoColor;
+- (void)numerate a focus hierarchy with a focus environment that is in the process of deallocating. This should never happen.;
+- (id)tion;
+- (void);
 
 @end
 

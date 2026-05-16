@@ -9,22 +9,23 @@
 
 @interface NFTagInternal
 {
-    unsigned int _type;
-    unsigned int _technology;
     NSData *_tagID;
     NSData *_idm;
     NSData *_pmm;
     NSArray *_allSystemCodes;
     NSData *_appData;
     NSData *_uid;
-    unsigned int _ndefAvailability;
-    unsigned long long _ndefMessageSize;
-    unsigned long long _ndefContainerSize;
     NSData *_atqa;
     NSData *_sak;
     NSData *_historicalBytes;
+    unsigned int _type;
+    unsigned int _technology;
+    unsigned int _ndefAvailability;
+    unsigned long long _ndefMessageSize;
+    unsigned long long _ndefContainerSize;
     unsigned char _silentType;
     unsigned char _sfgi;
+    _Bool _supportsPACE;
 }
 
 + (_Bool);
@@ -43,10 +44,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (double);
 - (unsigned char);
 - (id);
@@ -56,7 +59,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
@@ -69,19 +72,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (unsigned int);
+- (unsigned int);
+- (void);
 - (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void)rTypeKey:(unsigned int)arg1;
-- (unsigned int)opping transit/ETA updates;
-- (unsigned int);
-- (id);
+- (id)essionStateChangeEvent;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *AppData;
@@ -109,6 +112,7 @@
 @property(readonly, nonatomic) unsigned char sfgi;
 @property(readonly, nonatomic) double sfgt;
 @property(readonly) Class superclass;
+@property(readonly, nonatomic) _Bool supportsPACE;
 @property(readonly, nonatomic) id <NFTagA> tagA;
 @property(readonly, nonatomic) id <NFTagB> tagB;
 @property(readonly, nonatomic) id <NFTagF> tagF;

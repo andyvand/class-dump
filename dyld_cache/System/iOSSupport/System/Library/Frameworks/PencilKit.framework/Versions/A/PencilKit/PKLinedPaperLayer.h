@@ -11,14 +11,14 @@
     id <PKLinedPaperLayerDelegate> _linedPaperLayerDelegate;
 }
 
-- (void)lRequestHTTPHeaders;
-- (void)mpletionHandler:(struct CGRect)arg1;
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id)K;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)tá°áDâ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PKLinedPaperLayerDelegate> linedPaperLayerDelegate; // @synthesize linedPaperLayerDelegate=_linedPaperLayerDelegate;

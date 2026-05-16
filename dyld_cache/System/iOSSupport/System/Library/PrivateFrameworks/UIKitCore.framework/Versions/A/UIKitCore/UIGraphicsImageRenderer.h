@@ -11,20 +11,20 @@
 }
 
 + (void);
-+ (struct CGContext *)ance:(id)arg1 ,V__shouldPresentedViewControllerControlStatusBarAppearance;
-+ (Class)Ø¯ÿÌÖa;
-- (_Bool);
-- (id);
++ (Class)utesTransformer;
++ (struct CGContext *)EêÿÈEêÿÀFêÿGêÿHGêÿtGêÿ¨GêÿèGêÿHêÿ@HêÿHêÿ¸HêÿäHêÿ0Iêÿ\IêÿIêÿÔIêÿ;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)ð!CùÑÅð1¢!0@ù
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)1Â0@ù
 × ;
-- (id)6@0:(struct CGSize)arg1 8@"UIPreviewItemController"16@"UIViewController"24{CGPoint=dd}32@"UIView"48;
-- (id)ng:,V__exteriorDismissPadding /* Error: Ran out of types for this method. */;
-- (id)icatorSettings;
-- (void);
+- (_Bool)ateHighlightAndPressedFeedback;
+- (id)tionController;
+- (id)b",&,N,V_selectedChild;
 
 @end
 

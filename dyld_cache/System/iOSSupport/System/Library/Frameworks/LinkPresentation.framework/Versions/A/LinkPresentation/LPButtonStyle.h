@@ -41,14 +41,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)E;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -59,37 +59,38 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void)nerateHeader;
-- (void)ataDetector;
-- (id)onnections:error: /* Error: Ran out of types for this method. */;
-- (id)ddMedia: /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
-- (id)ZP;
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (long long);
-- (void)rmation;
-- (void)data:(id)arg1 failed to retrieve a documentURL from a shareURL (%@);
-- (void)DÀ;
-- (void)Ô;
-- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)ø!8Dù1Â0@ù
+× ;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)$;
+- (id)mail_resources/app_icons/numbers@2x.png;
 
 // Remaining properties
 @property(retain, nonatomic) LPPointUnit *additionalVerticalPadding; // @synthesize additionalVerticalPadding=_additionalVerticalPadding;

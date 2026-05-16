@@ -5,8 +5,5 @@
 //
 
 @protocol CKComposeSubscriptionSelectorButtonDelegate
-
-@optional
-- (void)mpt update];
 @end
 

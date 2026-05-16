@@ -9,9 +9,9 @@
 @interface (null) (MetricManager)
 - (_Bool);
 - (id);
-- (id);
-- (long long)`;
 - (id);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

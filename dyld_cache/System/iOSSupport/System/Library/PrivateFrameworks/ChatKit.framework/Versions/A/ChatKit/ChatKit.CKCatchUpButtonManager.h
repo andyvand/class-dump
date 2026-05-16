@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)yÅj;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *catchUpButtonHost; // @synthesize catchUpButtonHost;

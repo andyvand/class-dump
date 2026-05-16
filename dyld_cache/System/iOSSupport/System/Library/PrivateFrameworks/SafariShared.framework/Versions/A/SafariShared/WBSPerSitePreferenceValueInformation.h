@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)*, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, WTF::HashTraits<OpaqueJSContext *>>::validateKey(const ValueType &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

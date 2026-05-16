@@ -26,10 +26,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)ithIdentifier:account:bag:logKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

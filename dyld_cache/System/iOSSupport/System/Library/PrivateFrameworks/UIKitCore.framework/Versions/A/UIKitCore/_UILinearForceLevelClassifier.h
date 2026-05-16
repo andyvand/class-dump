@@ -24,30 +24,29 @@
 - (void);
 - (void);
 - (void);
+- (double);
 - (void);
-- (double)letionHandler: /* Error: Ran out of types for this method. */;
-- (void)oupingType: /* Error: Ran out of types for this method. */;
-- (void)er.datasource did not respond to playableContentManager:initiatePlaybackOfContentItemAtIndexPath:before timeout. /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (double);
-- (double);
-- (double);
-- (void)án!EùÁÐ1¢!0@ù
+- (void);
+- (void);
+- (id);
+- (void)1Â0@ù
 × ;
-- (double)@ù
+- (double)eð1Â0@ù
 × ;
-- (void)!0@ù
-× ;
-- (id)nimateLift:(long long)arg1;
-- (double)rdOutput:(double)arg1 checkingDelegate:(long long)arg2;
-- (id)idFinishScrolling: /* Error: Ran out of types for this method. */;
-- (void),V_positionZ;
 - (double);
-- (long long)IStatusBarBluetoothBatteryItemView;
-- (void)µ<}Yþ;
-- (double)ÿÿJÿÿ"ÿÿ"ÿÿ"ÿÿhþÿ"ÿÿ;
-- (void)in;
-- (double)Ø9Î_;
+- (id)eExclusionRequirements;
+- (double)psWithIdentifier: /* Error: Ran out of types for this method. */;
+- (double)nHighlight:(long long)arg1 forItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (long long)UISceneExternalSettingsModifierSettingsExtension;
+- (double);
+- (double);
+- (double)rchTextField with token following text. See rdar:(double)arg1 //102647358. %@;
+- (void)ing request to suspend due to background feedback entitlement for engine %@;
+- (void)zÇþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentImpulse;

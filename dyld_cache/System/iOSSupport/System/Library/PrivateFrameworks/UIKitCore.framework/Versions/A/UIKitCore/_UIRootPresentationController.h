@@ -15,26 +15,26 @@ __attribute__((visibility("hidden")))
     UIWindow *_presentingWindow;
 }
 
-+ (_Bool);
++ (_Bool)unction;
+- (int);
 - (id);
-- (void);
-- (id)j;
+- (id);
+- (id);
 - (long long);
+- (id)ÑYð1Â0@ù
+× ;
 - (id);
-- (id);
+- (void)qf1Â0@ù
+× ;
+- (_Bool)son: /* Error: Ran out of types for this method. */;
+- (id)insStalledExtensionInputMode: /* Error: Ran out of types for this method. */;
+- (id): /* Error: Ran out of types for this method. */;
+- (_Bool)by task_threads;
+- (_Bool)ing Scene Session userInfo:%@ /* Error: Ran out of types for this method. */;
+- (void)er.;
 - (void);
-- (_Bool);
-- (id)Â1¢!0@ù
-× ;
-- (int)1¢!0@ù
-× ;
-- (_Bool)dq}{?=dddq}BBB}48{?={?=dd}{?=dd}dd}152d200;
-- (long long)AreaInsets"{UIEdgeInsets="top"d"left"d"bottom"d"right"d}"size"{CGSize="width"d"height"d}};
-- (id)ew"16{CGPoint=dd}24;
-- (id)rollPocketAppearance:luma:glassFrost:pocketContainer:rect:identifier: /* Error: Ran out of types for this method. */;
-- (_Bool)ostedWindowHostingHandle;
-- (id)t;
-- (void)¡ÿt ;
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) int _preferredStatusBarVisibility;

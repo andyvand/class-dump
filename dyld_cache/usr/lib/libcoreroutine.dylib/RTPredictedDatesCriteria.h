@@ -15,17 +15,17 @@
 }
 
 - (_Bool);
-- (id);
-- (id)?;
 - (void);
 - (void);
-- (void);
-- (double)ing"16@"NSString"24@"NSError"32@"NSDate"40;
-- (void);
-- (id)Code;
 - (void);
 - (id);
-- (double)cation, %{sensitive}@;
+- (id);
+- (void);
+- (double);
+- (id);
+- (id);
+- (double)etedInitialWifiScan;
+- (void)tive}@,zdrSetupEntryWithOldestValidLocation,%{sensitive}@;
 
 // Remaining properties
 @property(nonatomic) double minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;

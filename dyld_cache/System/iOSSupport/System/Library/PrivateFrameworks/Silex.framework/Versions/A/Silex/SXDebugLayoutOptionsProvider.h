@@ -34,22 +34,22 @@
 - (id);
 - (double);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (unsigned long long);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);;
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)8@0:8@"UIDragInteraction"16@"<UIDragSession>"24{CGPoint=dd}32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus=_bundleSubscriptionStatus;

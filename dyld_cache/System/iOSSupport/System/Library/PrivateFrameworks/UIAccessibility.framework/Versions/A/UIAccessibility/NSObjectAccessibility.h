@@ -10,10 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)ion:peerDisappeared:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id)`;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,9 +27,9 @@
 - (id);
 - (id);
 - (id);
-- (id)ectingTitle;
-- (id)calizedShortDateDescription;
-- (id)?,R,D,N;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,7 +47,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
@@ -57,18 +57,18 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (void);
 - (id);
-- (void);
-- (void)U;
-- (void);
-- (id)nnection getAllEstablishedConnections:] /* Error: Ran out of types for this method. */;
-- (unsigned long long);
 - (_Bool);
+- (id);
 - (void);
 - (struct CGRect);
 - (id);
+- (void);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 

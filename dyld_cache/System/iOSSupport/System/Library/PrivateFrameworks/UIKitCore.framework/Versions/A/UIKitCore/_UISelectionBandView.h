@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
+- (id)erAction:(struct CGRect)arg1 withArgument: /* Error: Ran out of types for this method. */;
+- (void)UIGestureRecognizer",R,N;
 
 @end
 

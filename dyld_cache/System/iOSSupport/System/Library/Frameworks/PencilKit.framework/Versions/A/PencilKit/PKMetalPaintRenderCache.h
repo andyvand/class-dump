@@ -15,13 +15,13 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (id)lkit.draw-input;
+- (void)l$$Ô0"#;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buffers;

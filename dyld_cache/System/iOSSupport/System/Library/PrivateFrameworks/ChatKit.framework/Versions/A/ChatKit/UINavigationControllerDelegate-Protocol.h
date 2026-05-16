@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINavigationController, UIViewController;
-@protocol UIViewControllerAnimatedTransitioning;
+@protocol UIViewControllerInteractiveTransitioning;
 
 @protocol UINavigationControllerDelegate
 
 @optional
-- (id <UIViewControllerAnimatedTransitioning>);
-- (void)7ChatKit36CKMessageDisplayViewLayoutAttributes"96;
-- (void)n:(UINavigationController *)arg1 willAddItems:(UIViewController *)arg2 forInteraction:(_Bool)arg3;
+- (void)seToolbarItem;
+- (id <UIViewControllerInteractiveTransitioning>)GAWâyAF_AWQo_GG_ATQo_ACGSgAByAcDyAfJGACGAByAcDyADyDD]yAFG¦\ySbGGAJGACGtG;
 @end
 

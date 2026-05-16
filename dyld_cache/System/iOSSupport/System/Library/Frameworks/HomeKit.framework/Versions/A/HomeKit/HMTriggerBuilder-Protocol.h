@@ -7,7 +7,6 @@
 @class NSArray, NSString;
 
 @protocol HMTriggerBuilder
-- (_Bool)ifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionSets;

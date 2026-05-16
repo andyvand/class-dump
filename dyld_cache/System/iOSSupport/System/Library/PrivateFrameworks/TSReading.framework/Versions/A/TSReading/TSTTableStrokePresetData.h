@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (void);
-- (void)`C;
 - (id);
+- (_Bool);
 - (unsigned int);
+- (void)herButtonTitle:(unsigned int)arg1 otherOtherButtonTitle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) TSDStroke *exteriorStroke; // @synthesize exteriorStroke=mExteriorStroke;

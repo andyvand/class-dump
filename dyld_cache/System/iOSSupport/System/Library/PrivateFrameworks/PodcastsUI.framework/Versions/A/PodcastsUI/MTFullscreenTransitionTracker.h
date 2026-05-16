@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;

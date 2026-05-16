@@ -7,18 +7,14 @@
 @class NSString, UIColor, UIImage;
 
 @protocol UIPreviewActionItem_Internal
-- (UIColor *)liasToCNIDMapAndHistoryTokenWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void){;
-- (NSString *))Z0º;
-- (void)1¢!0@ù
+- (void)°!@ù_°1Â0@ù
 × ;
-- (long long)tÐ!ØDùñÇð1¢!0@ù
-× ;
-- (void)
-× ;
-- (UIColor *)tUpdate;
-- (NSString *)nimationPrototypeSettings",&,N,V_acceleratedUpdate;
-- (void)ingControllerC;
+- (void)ndSession:(NSString *)arg1;
+- (void)attingShouldSkipHidingOnResignFirstResponder;
+- (NSString *)eractionDriver;
+- (void)¤;
+- (NSString *)d phase = %@, autocompleted phase = %@, to responder:%@, from responder:%@ /* Error: Ran out of types for this method. */;
+- (UIColor *)ÿÎÙþ;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *color;

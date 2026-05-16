@@ -14,14 +14,16 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)*ªúÿÄ;
-- (id)òÿÝzK¾Æ5;
-- (id)ÕÿÒÀ;
+- (void)¡ùð!À@ùQF1â
+0@ù
+× ;
+- (id);
+- (id)photos challenge;
+- (void)u0;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;

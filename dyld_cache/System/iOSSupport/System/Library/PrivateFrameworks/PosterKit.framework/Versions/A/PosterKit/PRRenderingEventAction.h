@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (struct CGPoint);
-- (id);
-- (id);
-- (id)ngPosterContentStyleCoordinator"24@0:8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *eventType;

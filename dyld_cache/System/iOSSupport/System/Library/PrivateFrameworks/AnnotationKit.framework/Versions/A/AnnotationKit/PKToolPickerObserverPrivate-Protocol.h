@@ -5,10 +5,5 @@
 //
 
 @protocol PKToolPickerObserverPrivate
-
-@optional
-- (void)rIdentity;
-- (void);
-- (_Bool)`;
 @end
 

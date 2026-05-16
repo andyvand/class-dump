@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)temptToEnableMiCByDefaultOnceAttempt: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)inFrame;
+- (void)ding33_E2FBA5A6CB26719268BDB9CA2E30CFC2LLP;
 - (void);
-- (void)UITableView delegate method %@ returned an invalid target index path (section:%ld, row:%ld) because there are only %ld rows in this section of the table view. /* Error: Ran out of types for this method. */;
-- (void);
+- (void)¬ÿ½};
 
 @end
 

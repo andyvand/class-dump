@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     void *cfValue;
 }
 
-- (id)iSharedUISuggestionsViewInterface";
-- (void)!;
+- (id);
+- (void);
 
 @end
 

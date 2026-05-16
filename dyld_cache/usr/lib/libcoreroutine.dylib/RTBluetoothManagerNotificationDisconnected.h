@@ -16,8 +16,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)PhoneNumber: /* Error: Ran out of types for this method. */;
+- (void)ex, tripSegmentVisitStatus[%ld], Passthrough;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;

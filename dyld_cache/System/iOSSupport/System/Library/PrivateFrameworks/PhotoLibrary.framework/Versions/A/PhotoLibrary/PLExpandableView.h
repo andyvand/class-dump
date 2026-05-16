@@ -93,15 +93,14 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (int);
-- (void);
 - (void);
 - (int);
 - (id);
-- (id);
 - (void);
-- (_Bool)@ù
-× ;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsExpansion;

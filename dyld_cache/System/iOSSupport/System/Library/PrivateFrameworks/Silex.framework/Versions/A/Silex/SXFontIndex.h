@@ -14,6 +14,8 @@
     NSMutableArray *_fontFamilyProviders;
 }
 
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,8 +26,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)bleSpacerComponent;
+- (void)ew"16;
+- (id)@"<SXComponentController>"16@?0@"<TFResolver>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *attributeToFontIndex; // @synthesize attributeToFontIndex=_attributeToFontIndex;

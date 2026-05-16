@@ -21,9 +21,9 @@
 - (double);
 - (struct PHDisplayVelocity);
 - (double);
-- (void);
 - (id);
 - (id);
+- (void)aring: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double dismissalProgress;

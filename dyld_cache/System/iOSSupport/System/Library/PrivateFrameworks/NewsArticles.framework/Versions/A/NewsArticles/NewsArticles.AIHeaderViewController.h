@@ -16,10 +16,10 @@
 
 - (id);
 - (double);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)vityProviderFactory;
 
 @end
 

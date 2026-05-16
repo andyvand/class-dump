@@ -12,12 +12,12 @@
     _Bool _alreadySetUp;
 }
 
-- (_Bool)rror: /* Error: Ran out of types for this method. */;
-- (void)@"ICAuthenticationPrompt",R,N,V_prompt;
-- (void)erStyleSheetGenerator;
+- (_Bool);
 - (void);
 - (void);
-- (_Bool)Error generating PDF URL for pasteboard image gallery attachment;
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);

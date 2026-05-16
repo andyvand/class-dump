@@ -23,9 +23,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)essage.;
+- (void)t;
 
 @end
 

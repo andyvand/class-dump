@@ -39,7 +39,7 @@
     NSObject<OS_dispatch_queue> *_templateFinalizationQueue;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -65,15 +65,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activeComplications;

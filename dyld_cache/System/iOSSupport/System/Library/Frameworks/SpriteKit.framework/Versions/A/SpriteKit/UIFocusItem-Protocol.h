@@ -9,7 +9,7 @@
 @protocol UIFocusItem
 
 @optional
-- (UIFocusEffect *);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

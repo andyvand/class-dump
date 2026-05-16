@@ -5,7 +5,6 @@
 //
 
 @protocol EQKitLayout
-- (_Bool);
-- (double)Fw;
+- (double)ispatcher sharedLowPriorityDispatcher];
 @end
 

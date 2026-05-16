@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)dReconnectFlag at logout;
-- (id)check for incoming message:%@ in chat:%@ was determined to be %@ /* Error: Ran out of types for this method. */;
-- (id)ssageGuid %@ in chatGuid %@;
-- (void);
-- (id)ointerTouchRequired;
-- (void)ovider>",R,&,N;
-- (double);
+- (void);
+- (id);
+- (id);
+- (void)eadcrumbArrowLeft;
+- (id)IKit.emoji-client;
+- (double);
+- (void)ÐNa;
 
 // Remaining properties
 @property(readonly) double pointSize;

@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXProxyConfiguration
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *proxyAutoConfigScript;

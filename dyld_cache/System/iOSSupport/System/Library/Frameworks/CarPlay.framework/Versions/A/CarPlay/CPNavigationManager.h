@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPElectricVehicleWaypoint, CPNavigationSystemInfo, CPRouteGuidance, CPRouteLine, CPVehicleStateManager, NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
+@class CPElectricVehicleWaypoint, CPNavXPCProxy, CPNavigationSystemInfo, CPRouteGuidance, CPRouteLeg, CPRouteLine, CPVehicleStateManager, NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
 @protocol CPNavigationManagerDelegate, OS_dispatch_queue;
 
 @interface CPNavigationManager
@@ -18,10 +18,13 @@
     CPNavigationSystemInfo *_systemInfo;
     NSString *_lastNavigatingBundleIdentifier;
     CPRouteLine *_routeLine;
+    CPRouteLeg *_currentLeg;
     id <CPNavigationManagerDelegate> _delegate;
     CPVehicleStateManager *_vehicleStateManager;
     NSXPCConnection *_connection;
+    CPNavXPCProxy *_xpcProxy;
     NSObject<OS_dispatch_queue> *_connectionQueue;
+    NSObject<OS_dispatch_queue> *_routeGuidanceQueue;
     long long _navigatingCount;
     NSString *_identifier;
     CPRouteGuidance *_routeGuidance;
@@ -40,6 +43,7 @@
 - (unsigned char);
 - (_Bool);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -56,10 +60,13 @@
 - (void);
 - (void);
 - (void);
-- (unsigned char);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -89,15 +96,23 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (double);
 - (void);
 - (long long);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (unsigned char);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -105,16 +120,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)danceShowing;
 
 // Remaining properties
 @property(copy, nonatomic) CPElectricVehicleWaypoint *chargePrecondition;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
 @property(nonatomic) _Bool controlsAccNav; // @synthesize controlsAccNav=_controlsAccNav;
+@property(retain, nonatomic) CPRouteLeg *currentLeg; // @synthesize currentLeg=_currentLeg;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -135,17 +147,19 @@
 @property(nonatomic) _Bool ownershipRequested; // @synthesize ownershipRequested=_ownershipRequested;
 @property(readonly, nonatomic) _Bool ownsNavigation;
 @property(retain, nonatomic) CPRouteGuidance *routeGuidance; // @synthesize routeGuidance=_routeGuidance;
+@property(retain, nonatomic) NSObject<OS_dispatch_queue> *routeGuidanceQueue; // @synthesize routeGuidanceQueue=_routeGuidanceQueue;
 @property(retain, nonatomic) CPRouteLine *routeLine; // @synthesize routeLine=_routeLine;
 @property(readonly, nonatomic) _Bool routeSharingActive;
 @property(readonly, nonatomic) _Bool routeSharingUserEnabled;
 @property(readonly, nonatomic) _Bool routeSharingVehicleEnabled;
-@property(readonly, nonatomic) unsigned char routeSource;
+@property(readonly, nonatomic) unsigned long long routeSource;
 @property(readonly, nonatomic) NSArray *stateCaptures; // @synthesize stateCaptures=_stateCaptures;
 @property(readonly) Class superclass;
 @property(nonatomic) _Bool supportsAccNav; // @synthesize supportsAccNav=_supportsAccNav;
 @property(nonatomic) _Bool supportsRouteSharing; // @synthesize supportsRouteSharing=_supportsRouteSharing;
 @property(retain, nonatomic) CPNavigationSystemInfo *systemInfo; // @synthesize systemInfo=_systemInfo;
 @property(retain, nonatomic) CPVehicleStateManager *vehicleStateManager; // @synthesize vehicleStateManager=_vehicleStateManager;
+@property(retain, nonatomic) CPNavXPCProxy *xpcProxy; // @synthesize xpcProxy=_xpcProxy;
 
 @end
 

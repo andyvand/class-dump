@@ -55,11 +55,13 @@
 - (double);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)s_firstObjectPassingTest:(id)arg1;
+- (void);
+- (void)1â
+0@ù
+× ;
+- (void)oKeyPreviewing;
 
 // Remaining properties
 @property(nonatomic, getter=isAdaptiveTimeHeightUserConfigured) _Bool adaptiveTimeHeightUserConfigured; // @synthesize adaptiveTimeHeightUserConfigured=_adaptiveTimeHeightUserConfigured;

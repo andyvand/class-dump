@@ -11,7 +11,7 @@
     int _pageTheme;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,26 +26,24 @@
 + (id);
 + (id);
 - (void);
-- (int);
+- (int);
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (double);
+- (id);
+- (double);
 - (double);
 - (struct CGSize);
 - (id);
-- (id)ȅ;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (int);
-- (id)aa
-ð!ÔAùq°1¢!0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) int annotationStyle;

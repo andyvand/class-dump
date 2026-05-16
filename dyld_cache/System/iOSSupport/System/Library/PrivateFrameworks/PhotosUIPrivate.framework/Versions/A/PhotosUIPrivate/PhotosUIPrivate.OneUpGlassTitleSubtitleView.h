@@ -13,6 +13,7 @@
     MISSING_TYPE *symbolName;
     MISSING_TYPE *titleFont;
     MISSING_TYPE *subtitleFont;
+    MISSING_TYPE *preferredHeight;
     MISSING_TYPE *updater;
     MISSING_TYPE *subtitleFormatter;
     MISSING_TYPE *cachedHasExuberatedLineHeightFont;
@@ -21,12 +22,12 @@
 }
 
 - (void);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)layer;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

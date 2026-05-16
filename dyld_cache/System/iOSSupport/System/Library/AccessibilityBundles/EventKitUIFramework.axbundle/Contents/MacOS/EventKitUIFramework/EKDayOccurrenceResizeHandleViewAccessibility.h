@@ -10,13 +10,13 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (_Bool);
 - (_Bool);
 - (struct CGPoint);
-- (id);
 - (_Bool);
+- (id);
 - (id);
 
 @end

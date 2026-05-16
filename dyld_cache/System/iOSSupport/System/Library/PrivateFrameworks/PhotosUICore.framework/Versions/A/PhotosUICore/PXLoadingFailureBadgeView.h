@@ -23,16 +23,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id)q}°1b0@ù
+- (id);
+- (void);
+- (id)!(CùñFÐ1â
+0@ù
 × ;
-- (id)els;
-- (id)@âûÿ(ZýÿLZýÿdZýÿZýÿ Zýÿ¸ZýÿÜZýÿôZýÿ¨\ýÿÌ\ýÿø\ýÿ]ýÿ8]ýÿâûÿL]ýÿ^ýÿ,^ýÿd^ýÿ^ýÿÔ^ýÿxâûÿø^ýÿ_ýÿ8_ýÿX_ýÿx_ýÿ_ýÿÌ9üÿè9üÿ:(struct CGRect)arg1 üÿ :üÿàáûÿ¼áûÿøáûÿÐ:üÿì:üÿ(:üÿ;üÿ /* Error: Ran out of types for this method. */;
+- (id)GImage=}16B24;
+- (void);
+- (id)er;
 
 // Remaining properties
 @property(copy, nonatomic) NSError *error; // @synthesize error=_error;

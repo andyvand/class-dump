@@ -14,7 +14,7 @@
     MISSING_TYPE *puzzleImageShareAttributeProvider;
     MISSING_TYPE *puzzleRankProvider;
     MISSING_TYPE *puzzleDifficultyDescriptionProvider;
-    MISSING_TYPE *externalRecipeFactory;
+    MISSING_TYPE *recipeFactory;
     MISSING_TYPE *featureAvailability;
 }
 

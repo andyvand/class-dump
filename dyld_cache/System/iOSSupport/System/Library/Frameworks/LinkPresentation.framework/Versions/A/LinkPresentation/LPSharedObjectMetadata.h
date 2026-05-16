@@ -19,7 +19,7 @@
 }
 
 + (id);
-+ (_Bool)hed;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -31,23 +31,23 @@
 - (void);
 - (id);
 - (id);
-- (void)llBeginSwipingHandler:(_Bool)arg1;
-- (_Bool)ogress: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)itInvitation.controllerPairingName;
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)X#A�;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,9 +15,9 @@
 
 - (id);
 - (unsigned long long);
-- (void)i;
 - (id);
-- (id)r>"8;
+- (void);
+- (id)ier;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;

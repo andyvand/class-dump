@@ -19,7 +19,7 @@
 - (id);
 - (long long);
 - (void);
-- (id)ringPolicyProvider;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

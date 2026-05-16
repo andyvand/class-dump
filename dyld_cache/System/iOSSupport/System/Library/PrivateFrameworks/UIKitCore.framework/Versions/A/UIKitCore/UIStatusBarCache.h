@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     _Bool _writeable;
 }
 
-+ (id);
-- (void):(id)arg1;
-- (_Bool)WithIdentifier:style:lastAddressedHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
-- (id)_addLocationShareItemToMatchingChats:(id)arg1 handleID:(id)arg2 hasStoredItem:(double)arg3 broadcastChanges: /* Error: Ran out of types for this method. */;
++ (id)*@;
 - (void);
-- (void);
-- (id)_createBridgedAlert;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)óáþØÈâb;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isWriteable) _Bool writeable; // @synthesize writeable=_writeable;

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)× ;
-- (_Bool)rimaryAction:(id)arg1;
+- (_Bool);
+- (void)á[;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

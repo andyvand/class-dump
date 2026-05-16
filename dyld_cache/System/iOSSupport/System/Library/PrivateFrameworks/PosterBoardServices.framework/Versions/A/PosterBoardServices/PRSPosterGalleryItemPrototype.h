@@ -15,17 +15,17 @@
 }
 
 + (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *containerBundleIdentifier; // @synthesize containerBundleIdentifier=_containerBundleIdentifier;

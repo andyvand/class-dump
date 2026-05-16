@@ -15,12 +15,12 @@
     UIColor *_color;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
 - (long long);
 - (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

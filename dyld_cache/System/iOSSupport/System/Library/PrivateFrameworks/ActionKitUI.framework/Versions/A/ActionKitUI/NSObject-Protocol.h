@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)FileRepresentation"16@?<v@?@"NSError">24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

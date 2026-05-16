@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)TextInputTraits:supportedInteractionModel: /* Error: Ran out of types for this method. */;
-+ (id)î3;
-+ (long long)èã;
++ (id);
++ (id)ow (%@) to a screen with a nil FBSDisplayIdentity;
++ (long long),cÿtÌ`g;
 
 @end
 

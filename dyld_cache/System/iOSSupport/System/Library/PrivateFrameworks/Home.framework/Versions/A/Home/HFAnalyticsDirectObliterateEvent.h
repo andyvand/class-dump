@@ -14,13 +14,13 @@
     NSNumber *_problemFlags;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)ãÿ;
+- (void);
+- (void);
+- (id);
+- (void)State;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

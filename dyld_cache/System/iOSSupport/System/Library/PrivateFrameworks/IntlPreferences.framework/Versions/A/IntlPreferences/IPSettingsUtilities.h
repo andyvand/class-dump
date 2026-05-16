@@ -17,7 +17,7 @@
 + (void);
 + (void);
 + (void);
-+ (void)electionRangeForFormattedCreditCardNumber:(id)arg1 withOriginalSelectionRange: /* Error: Ran out of types for this method. */;
++ (void);
 
 @end
 

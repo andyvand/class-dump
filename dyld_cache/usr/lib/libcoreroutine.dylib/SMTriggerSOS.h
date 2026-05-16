@@ -23,22 +23,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id)Rw;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)entinel zone setup;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *SOSNotifications; // @synthesize SOSNotifications=_SOSNotifications;

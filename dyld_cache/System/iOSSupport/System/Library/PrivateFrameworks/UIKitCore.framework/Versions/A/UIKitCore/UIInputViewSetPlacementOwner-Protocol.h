@@ -8,19 +8,15 @@
 @protocol UIInputViewSetPlacementApplicator;
 
 @protocol UIInputViewSetPlacementOwner
-- (_Bool)%@;
-- (void)__strong, UITouch *const __strong, UIView *const __strong);
-- (id <UIInputViewSetPlacementApplicator>);
-- (void)ns=[%p]; identifiers=[%p]>;
-- (_Bool)nd view:%@ /* Error: Ran out of types for this method. */;
-- (UIView *)arReplyLandscape.png;
-- (_Bool)ISearchBarVisualProviderIOS.m;
-- (UIInputViewSetPlacement *)Controller support methods should run on this version of iOS;
-- (void)tion = %ld;
-- (long long)Growing Intermediate Shape Ratio;
-- (UIView *);
-- (struct UIEdgeInsets)ß4`jþ;
-- (UIInputViewSet *)ï[;
+- (id <UIInputViewSetPlacementApplicator>)-accents;
+- (void)[%ld] outEdgesCount:[%ld] inOutEdgesCount:[%ld] %@ /* Error: Ran out of types for this method. */;
+- (_Bool)a focus update, which takes priority.;
+- (_Bool);
+- (struct UIEdgeInsets)f the UITransitionView for UITextEffectsWindow.;
+- (void)ccessoryView]|;
+- (_Bool)cross the letters to compose a word.;
+- (UIView *)to find element matching candidate ;
+- (void)d43Ösþ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIInputViewSetPlacementApplicator> applicator;

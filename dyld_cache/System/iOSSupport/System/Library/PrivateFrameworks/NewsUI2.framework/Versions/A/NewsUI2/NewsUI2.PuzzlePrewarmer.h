@@ -17,9 +17,9 @@
     MISSING_TYPE *featureAvailability;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

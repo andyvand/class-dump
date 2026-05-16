@@ -14,18 +14,18 @@
     PRSPosterDescriptorCollection *_descriptors;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Path:extensionIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id context; // @synthesize context=_context;

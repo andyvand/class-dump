@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)8;
-+ (_Bool)8@16@24;
-- (void)_cfstring;
++ (_Bool);
++ (_Bool);
+- (void);
 
 @end
 

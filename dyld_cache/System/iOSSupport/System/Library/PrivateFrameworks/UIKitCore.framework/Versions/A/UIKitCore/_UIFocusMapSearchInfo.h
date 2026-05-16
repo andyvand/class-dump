@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,10 +33,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)airProtocol;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)ousCheckedSentenceRange;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *destinationRegions;

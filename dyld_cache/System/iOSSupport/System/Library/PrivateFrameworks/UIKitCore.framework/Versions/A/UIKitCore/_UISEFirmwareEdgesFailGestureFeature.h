@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
     unsigned long long _touchedEdges;
 }
 
-- (void);
-- (void)ranceStorage:(const struct _UISEGestureFeatureSample *)arg1;
-- (id);
-- (unsigned long long)id _UIIntelligenceScreenshotServiceGeneratePDF(UIScreenshotService *__strong _Nonnull, void (^__strong _Nonnull)(void), void (^__strong _Nonnull)(NSData * _Nullable __strong, NSInteger, CGRect));
 - (id);
+- (void)tInteractionSpec:(const struct _UISEGestureFeatureSample *)arg1;
+- (unsigned long long)LBüB;
+- (id)r_;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long touchedEdges; // @synthesize touchedEdges=_touchedEdges;

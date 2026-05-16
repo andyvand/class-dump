@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)XED_WIDTH;
++ (void);
 
 @end
 

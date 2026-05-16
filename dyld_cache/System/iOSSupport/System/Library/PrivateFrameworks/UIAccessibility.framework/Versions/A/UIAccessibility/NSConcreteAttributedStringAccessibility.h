@@ -10,13 +10,13 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)o Activate SFS for %@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id),V_deprecated;
+- (id);
+- (id);
 
 @end
 

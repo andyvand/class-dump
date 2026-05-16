@@ -5,6 +5,7 @@
 //
 
 @protocol PUInterruptibleViewControllerTransition
+- (void)ateValueFilter",&,N,S_setTransitionProgressValueFilter:,V__transitionProgressValueFilter /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isTransitionPaused) _Bool transitionPaused;

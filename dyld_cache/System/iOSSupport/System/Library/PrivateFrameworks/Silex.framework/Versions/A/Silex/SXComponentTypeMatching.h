@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)J;
+- (id);
+- (void)ory>";
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *descriptions; // @synthesize descriptions=_descriptions;

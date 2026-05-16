@@ -19,12 +19,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
-- (void);
-- (_Bool)eWalletKeyDeviceStateCanAddWalletKey;
 
 // Remaining properties
 @property(copy) NSArray *accessories;

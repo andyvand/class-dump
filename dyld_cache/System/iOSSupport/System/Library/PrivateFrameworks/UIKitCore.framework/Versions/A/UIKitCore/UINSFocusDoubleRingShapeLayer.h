@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     CAShapeLayer *_topBorderLayer;
 }
 
-- (id):analyticDictionary: /* Error: Ran out of types for this method. */;
-- (void)geWithGUID:(id)arg1 queryID: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (void)owLevelStack;
-- (id)ansion;
+- (id);
+- (void);
+- (void)ð0e;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *topBorderLayer; // @synthesize topBorderLayer=_topBorderLayer;

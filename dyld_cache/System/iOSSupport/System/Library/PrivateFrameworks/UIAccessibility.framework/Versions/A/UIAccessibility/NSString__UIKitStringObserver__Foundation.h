@@ -10,8 +10,8 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)MSystem_Daemon_Network session:resolvedPeerNamed:txtRecord:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

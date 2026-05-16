@@ -21,79 +21,83 @@ __attribute__((visibility("hidden")))
     NSMapTable *_contentMaskCache;
 }
 
-- (id);
+- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
 - (_Bool);
 - (_Bool);
-- (void)eValuePair;
-- (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)¥ º;
-- (_Bool)¢!0@ù
+- (void);
+- (_Bool)
 × ;
+- (_Bool)
+× ;
+- (void)@ù
+× ;
+- (long long);
+- (_Bool)Qb1Â0@ù
+× ;
+- (long long);
 - (id)0@ù
 × ;
-- (long long)!ÜGùQÅ°1¢!0@ù
+- (id)
+°!4Cùqf1Â0@ù
 × ;
-- (_Bool);
-- (void)¡tð!üCùÑÈð1¢!0@ù
-× ;
-- (void)Áx°!¸AùQÎ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)er: /* Error: Ran out of types for this method. */;
-- (_Bool)Value:(struct CGPoint)arg1 forKey:(struct CGRect)arg2 error:(double)arg3;
-- (id)th: /* Error: Ran out of types for this method. */;
-- (long long)ID:(struct CGPoint)arg1 flags:reason:name: /* Error: Ran out of types for this method. */;
-- (void)nForTranslation: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (void)ngRepliesAsynchronously;
-- (_Bool)delegateRequiresKeyEvents;
-- (_Bool)etRectForDictationTrailingGlowView;
-- (id)nsets=dddd},N,V_platterInsets;
-- (long long)nt=dd},N,G_contentOffset,S_setContentOffset:(id)arg1 ,V_contentOffset;
-- (id)atorView;
-- (_Bool)eExplicit:(id)arg1;
-- (_Bool);
-- (void) D  à ;
-- (void)àD$;
-- (void)´;
-- (long long);
-- (id);
-- (_Bool)Ûí3ye8j8G;
-- (void)been created and stored in `-textViewportLayoutController:(id)arg1 renderingSurfaceForTextLayoutFragment:(struct CGRect)arg2;
-- (void)tment;
-- (void)ÜþDU;
-- (void)#ù`;
-- (_Bool)UfÞa;
-- (_Bool)ÿÂ2Òb;
-- (_Bool);
-- (id);
-- (void)>t;
+- (_Bool)6@24@32o^@40;
+- (id)int=dd}{CGSize=dd}}48{CGPoint=dd}80@96;
+- (id)llBeginHighlighterGesture;
+- (void)sWithBlock: /* Error: Ran out of types for this method. */;
+- (id)rectedQuery:(id)arg1;
+- (void)quiredGestureRecognizerCompletedOrWasUnrelated:(id)arg1;
 - (void);
-- (void)ÿïsËc;
-- (_Bool)&;
-- (id)5yÿ;
-- (id)þÍ'Éü7d;
-- (_Bool);
-- (void)óÕc;
-- (_Bool)Èçc;
-- (_Bool)nÿÓÓëc;
+- (void)cy;
+- (void)D);
+- (id)
+;
+- (void)es an unstable PFE chain. Results might be unreliable. Environment %@ had these childs before:%@
+now has:%@ /* Error: Ran out of types for this method. */;
+- (id)ow:(struct CGPoint)arg1 %d; hasCurrentKeyboard:%d; keyboardVisible:%d /* Error: Ran out of types for this method. */;
+- (id)ugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)<_UIMenuLeafAlternateOrCommandAlternate>"8;
+- (void)tionDidStartNotification;
+- (_Bool)able. Use a designated initializer instead.;
+- (_Bool)28_UISceneDestructionConditionCG;
+- (void)æüÿ_p;
 - (void);
-- (void)¾×º<d;
-- (_Bool)@Nv;
+- (void)tþµ¦43´tþµ¦43¤tþý¦43ôtþ5§43¼tþ§43ìtþ;
+- (_Bool)!òn;
+- (_Bool)¬@Ü{^;
+- (void);
+- (void)Ô(ÿ;
+- (_Bool)íÿLôÉÔ^;
+- (id);
+- (_Bool)À&^;
+- (_Bool)\K^;
+- (_Bool)Ôd^;
+- (void)(Lÿ;
+- (void)ÿ%,;;
+- (void)¸	qÿ;
+- (_Bool)`;
+- (_Bool);
+- (id)þlÛ;
+- (void)H¯a;
+- (id)öc;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

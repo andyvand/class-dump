@@ -16,10 +16,10 @@
 - (void);
 - (struct __CVBuffer *);
 - (void);
+- (CDStruct_1b6d18a9);
 - (unsigned long long);
 - (void);
-- (CDStruct_1b6d18a9);
-- (void);
+- (void)on;
 
 // Remaining properties
 @property(nonatomic) struct __CVBuffer *dataBuffer; // @synthesize dataBuffer=_dataBuffer;

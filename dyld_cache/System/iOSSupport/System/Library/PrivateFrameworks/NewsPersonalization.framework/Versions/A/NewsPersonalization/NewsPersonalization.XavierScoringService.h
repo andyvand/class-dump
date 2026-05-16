@@ -28,14 +28,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (double);
-- (void);
 - (id);
+- (void)±sð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, readonly) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;

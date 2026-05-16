@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id <FMMapAnnotationGestureRecognizerDelegate> touchDelegate; // @synthesize touchDelegate=_touchDelegate;

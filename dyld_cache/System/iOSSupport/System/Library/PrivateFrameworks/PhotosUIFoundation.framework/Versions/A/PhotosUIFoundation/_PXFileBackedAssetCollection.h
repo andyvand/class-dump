@@ -28,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)ogress;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

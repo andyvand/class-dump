@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id)UID:didFinishRunningWithError:serializedVariable:executionResultMetadata: /* Error: Ran out of types for this method. */;
+- (void)TML and turns it into rich text, which can then be converted to other formats.;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) INCodableEnumAttribute *attribute; // @synthesize attribute=_attribute;

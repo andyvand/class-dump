@@ -9,9 +9,6 @@
 @protocol NSLayoutManagerDelegate
 
 @optional
-- (void);
-- (unsigned long long);
-- (void)entsEffectSupport"b1"implementsDeprecatedAPISupport"b1"implementsDeprecatedSPISupport"b1"preferredBehavioralStyle"b4"implementsSetControl"b1};
-- (long long)eSelectionDuringEditing:(NSLayoutManager *)arg1;
+- (_Bool)paratorAttributes",&,N,G_visualStyleOverrideSeparatorAttributes,S_setVisualStyleOverrideSeparatorAttributes:(NSLayoutManager *)arg1 ,V_visualStyleOverrideSeparatorAttributes;
 @end
 

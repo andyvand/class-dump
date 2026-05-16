@@ -5,6 +5,5 @@
 //
 
 @protocol CKDetailsSearchControllerDelegate
-- (void)GSg;
 @end
 

@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
-- (void)rContents>",&,N,V_existingPoster;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *extensionIdentifiers; // @synthesize extensionIdentifiers=_extensionIdentifiers;

@@ -16,32 +16,32 @@
     NSMutableDictionary *_selectedStates;
 }
 
-- (id)insertItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
-- (void)List:(id)arg1;
-- (void)llowsUnmanagedToManagedMove;
-- (void)e;
-- (void)on;
-- (id),&,N,V_virtualSmartFolderIdentifiers;
-- (id)HeightConstraint:(id)arg1;
-- (id)etBorderWidth: /* Error: Ran out of types for this method. */;
-- (unsigned long long)bleSet",&,N,V_accountsOfModernSourceObjects;
-- (id)ntsOfHTMLSourceObjects:(unsigned long long)arg1;
-- (void)uteComparable;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
-- (void)CAttachment"8Q16^B24;
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
-- (void)anagerSession:(id)arg1;
+- (void);
 - (id);
-- (void)ficationObserverTokens;
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ÿ-!;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chatItems;

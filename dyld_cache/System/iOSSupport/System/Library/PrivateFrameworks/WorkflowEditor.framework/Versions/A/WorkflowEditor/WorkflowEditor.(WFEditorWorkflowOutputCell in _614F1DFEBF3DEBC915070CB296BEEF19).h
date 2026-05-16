@@ -13,9 +13,9 @@
     MISSING_TYPE *hostingView;
 }
 
-- (void);
 - (id);
 - (void);
+- (void)¿`¿¤¿(À;
 
 @end
 

@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long)llocate valueEncoder;
-- (unsigned long long)%@;
-- (_Bool);
-- (id);
-- (void);
+- (long long);
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void)eria: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;

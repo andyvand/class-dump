@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     NSArray *_visualEffects;
 }
 
-+ (id)ssfully deleted zone IDs%@ DB %@;
++ (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)urce: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
+- (id)tViews;
 - (void);
-- (id)ntensity: /* Error: Ran out of types for this method. */;
-- (unsigned int)valid and may cause issues as it is not in a window hierarchy:self:%{public}@; hit-tested subview:%{public}@; invalid returned view:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)w to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:(id)arg1 ] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
+- (unsigned int)V´ÿ;
+- (void)¸õa;
 
 // Remaining properties
 @property(nonatomic) _Bool bold; // @synthesize bold=_bold;

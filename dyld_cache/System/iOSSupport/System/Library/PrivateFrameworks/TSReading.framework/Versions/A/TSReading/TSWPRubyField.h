@@ -22,10 +22,10 @@
 - (id);
 - (unsigned int);
 - (id);
-- (int);
-- (void)";
+- (void);
 - (id);
-- (_Bool)P;
+- (_Bool);
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *baseText;

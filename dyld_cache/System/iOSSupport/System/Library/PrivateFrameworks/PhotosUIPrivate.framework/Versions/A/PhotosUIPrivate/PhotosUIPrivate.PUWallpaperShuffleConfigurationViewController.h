@@ -21,15 +21,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void)tReference"8@"PUAssetViewModel"16^B24;
+- (void)NavigationBar;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP15PhotosUIPrivate53PUWallpaperShuffleConfigurationViewControllerDelegate_> delegate; // @synthesize delegate;

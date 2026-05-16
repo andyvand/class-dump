@@ -12,7 +12,6 @@
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *callerIconPath;
 @property(readonly, nonatomic) NSData *externalizedContext;
-@property(readonly, nonatomic) _Bool isAdminRequired;
 @property(readonly, nonatomic) _Bool isMultiUserAuthentication;
 @property(retain, nonatomic) NSXPCConnection *smartCardConnection;
 @property(readonly, nonatomic) _Bool smartCardInhibited;

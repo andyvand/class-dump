@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)ntifer;
+- (void);
+- (void)lView:forEdge: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *cardArtworkSize; // @synthesize cardArtworkSize=_cardArtworkSize;

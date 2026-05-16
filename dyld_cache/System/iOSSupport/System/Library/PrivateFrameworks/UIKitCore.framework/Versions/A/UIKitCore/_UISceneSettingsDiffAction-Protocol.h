@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FBSScene, UIScene;
+
 @protocol _UISceneSettingsDiffAction
+- (void)Alignment:(UIScene *)arg1 fromClient:(FBSScene *)arg2;
 @end
 

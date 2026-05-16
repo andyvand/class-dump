@@ -46,7 +46,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)apeStyle;
+- (_Bool)actions;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDMediaInfo *mediaInfo;

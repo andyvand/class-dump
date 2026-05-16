@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)Q;
 
 // Remaining properties
 @property(nonatomic) _Bool supportsGuides; // @synthesize supportsGuides=_supportsGuides;

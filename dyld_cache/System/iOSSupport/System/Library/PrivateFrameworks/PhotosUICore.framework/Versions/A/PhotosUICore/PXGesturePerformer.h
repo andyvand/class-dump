@@ -22,7 +22,7 @@
 + (void);
 + (struct CGRect);
 + (double);
-+ (_Bool);
++ (_Bool);
 
 @end
 

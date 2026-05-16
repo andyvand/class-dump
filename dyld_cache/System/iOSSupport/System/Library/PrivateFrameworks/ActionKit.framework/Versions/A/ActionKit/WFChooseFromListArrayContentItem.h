@@ -15,7 +15,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (id)wKit.ShortcutsIntents.WFChooseFromListIntent;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items;

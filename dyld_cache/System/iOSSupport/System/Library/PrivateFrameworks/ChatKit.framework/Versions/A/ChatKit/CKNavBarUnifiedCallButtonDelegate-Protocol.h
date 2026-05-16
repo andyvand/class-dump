@@ -5,11 +5,5 @@
 //
 
 @protocol CKNavBarUnifiedCallButtonDelegate
-- (void));
-- (void);
-- (void)e;
-
-@optional
-- (void)a;
 @end
 

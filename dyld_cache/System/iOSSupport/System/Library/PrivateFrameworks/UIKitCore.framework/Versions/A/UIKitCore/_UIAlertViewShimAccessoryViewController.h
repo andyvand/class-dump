@@ -13,9 +13,10 @@ __attribute__((visibility("hidden")))
     double _preferredHeight;
 }
 
-- (id)"IMServiceReachabilityRequest";
-- (struct CGSize);
-- (void)Øhº;
+- (id);
+- (struct CGSize)Ð!PDùeð1Â0@ù
+× ;
+- (void)(ì^;
 
 @end
 

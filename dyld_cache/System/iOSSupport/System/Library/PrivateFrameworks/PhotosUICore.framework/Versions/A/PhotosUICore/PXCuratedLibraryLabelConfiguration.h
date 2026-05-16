@@ -13,16 +13,16 @@
     UIColor *_textColor;
 }
 
-- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long)ºßÿì0P^Ñ6;
-- (void);
+- (id){CGPoint=dd}16;
+- (id)napshotForBrowserSummaryController: /* Error: Ran out of types for this method. */;
+- (void)ò,ÿÿÿÿÿ ;
+- (void)sitionsPauseToken;
+- (void)8ç4;
+- (long long)?6;
+- (void)8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

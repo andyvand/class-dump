@@ -24,11 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (void)eRepresentations;
+- (id)onverting zone;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;

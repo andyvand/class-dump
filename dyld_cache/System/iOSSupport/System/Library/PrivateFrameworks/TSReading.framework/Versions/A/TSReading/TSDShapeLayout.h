@@ -59,7 +59,7 @@
 - (struct CGRect);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (void);
 - (id);
@@ -70,7 +70,7 @@
 - (id);
 - (struct CGRect);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -90,11 +90,11 @@
 - (struct CGRect);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (void);
 - (void);
-- (id)h;
+- (id);
 - (void);
 - (struct CGRect);
 - (void);
@@ -127,11 +127,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (_Bool);
 - (id);
 - (struct CGSize);
-- (_Bool)`;
+- (id);
+- (void)atternWithPattern:(id)arg1 count:phase: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) TSDFill *dynamicFill; // @synthesize dynamicFill=mDynamicFill;

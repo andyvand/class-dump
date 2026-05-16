@@ -16,18 +16,18 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void)ileDefinitionIDsInGroupRules;
 
 @end
 

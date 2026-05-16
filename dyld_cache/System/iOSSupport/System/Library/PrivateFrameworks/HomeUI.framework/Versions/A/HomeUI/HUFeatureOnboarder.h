@@ -47,10 +47,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (_Bool);
-- (id)ñ.ð1b0@ù
-× ;
+- (void)Items:] /* Error: Ran out of types for this method. */;
+- (id)À;
 
 // Remaining properties
 @property __weak UIViewController<HUConfigurationViewController> *_currentViewControllerForTests; // @synthesize _currentViewControllerForTests=__currentViewControllerForTests;

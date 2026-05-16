@@ -26,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void)at:(struct CGRect)arg1 colorSize:colorPixelFormat:sensorPort: /* Error: Ran out of types for this method. */;
+- (id)edUpsamplingCoefficients;
 
 // Remaining properties
 @property(readonly) PTFocusBlurMap *map; // @synthesize map=_map;

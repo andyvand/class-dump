@@ -7,10 +7,10 @@
 @class UIView;
 
 @protocol UIInteraction
-- (void)
+- (UIView *)0@ù
 × ;
-- (void)QÆ1¢!0@ù
-× ;
+- (void)B,R,N,GisReadOnlyChat;
+- (void)ersationListCollectionViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *view;

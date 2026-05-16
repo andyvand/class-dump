@@ -50,22 +50,22 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)udeExperimentData:(id)arg1;
-- (id)L:callback:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)0AppleMediaServicesUI18BannerMessageModel;
+- (id)ouldUseStackedLayout;
+- (void)presentingViewController: /* Error: Ran out of types for this method. */;
+- (id)dius;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;

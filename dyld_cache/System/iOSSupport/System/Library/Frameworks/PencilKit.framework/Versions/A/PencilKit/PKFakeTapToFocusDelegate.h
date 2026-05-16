@@ -18,7 +18,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id)x;
++ (id);
 - (void);
 - (_Bool);
 - (void);
@@ -29,8 +29,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)(;
-- (id);
+- (void)Ü Ü4)ðÌhX8à	 E¨£;
+- (id)^{CGPoint}}8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

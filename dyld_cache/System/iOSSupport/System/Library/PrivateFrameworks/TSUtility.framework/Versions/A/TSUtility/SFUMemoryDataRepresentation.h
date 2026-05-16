@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (void);
 - (id);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
+- (id);
 
 @end
 

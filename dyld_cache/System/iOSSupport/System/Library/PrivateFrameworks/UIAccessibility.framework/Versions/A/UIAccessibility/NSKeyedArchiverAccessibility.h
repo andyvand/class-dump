@@ -10,11 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)heckingForNewConnectionMethods;
-- (void);
-- (id)0@ù
-× ;
+- (id)@"UITextPosition"16q24;
+- (void)yConstants.h for the list of valid values.;
 
 @end
 

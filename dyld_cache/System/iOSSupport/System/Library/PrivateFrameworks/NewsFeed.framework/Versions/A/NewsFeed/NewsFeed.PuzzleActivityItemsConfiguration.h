@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)eb articles;
+- (id);
 
 @end
 

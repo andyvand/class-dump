@@ -8,8 +8,8 @@
 {
 }
 
-- (id)PKAutoRefineQuery created;
-- (id)5;
+- (id);
+- (id);
 
 @end
 

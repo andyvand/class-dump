@@ -23,22 +23,22 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (long long);
 - (long long);
-- (long long)KEDIT;
+- (long long);
 - (id);
 - (id);
 - (void);
-- (id)conUpdates"24@?<v@?B>32;
-- (long long)@?@"NSDictionary"@"NSError">16;
-- (id)ray">32;
-- (long long)>32;
-- (id)SDateInterval"24@?<v@?@"NSArray">32;
-- (id)8@"NSUUID"16@?<v@?@"SPBeacon"@"SPBeaconGroup">24;
-- (id)EXT;
+- (id);
+- (long long);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id)P;
-- (id)Unable to configure item for vocal attenuation;
+- (id);
+- (id)PCAssistantPause;
+- (void)ent = .clearUpNext];
 
 @end
 

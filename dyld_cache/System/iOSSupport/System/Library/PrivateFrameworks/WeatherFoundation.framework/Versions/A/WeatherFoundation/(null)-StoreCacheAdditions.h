@@ -7,7 +7,7 @@
 @interface (null) (StoreCacheAdditions)
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 @end

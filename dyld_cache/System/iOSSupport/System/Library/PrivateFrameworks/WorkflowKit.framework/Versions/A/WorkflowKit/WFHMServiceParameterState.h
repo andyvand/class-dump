@@ -16,17 +16,17 @@
 
 - (void);
 - (id);
-- (id)0%EÉ;
+- (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id)hAction;
+- (void)tes a new playlist in the Music app, adding any items passed as input to the new playlist.;
+- (id)¤ùèÿ/Bâð³;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

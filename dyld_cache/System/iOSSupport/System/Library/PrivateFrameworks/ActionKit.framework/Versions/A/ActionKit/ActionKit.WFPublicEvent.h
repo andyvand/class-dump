@@ -12,10 +12,10 @@
     long long type;
 }
 
-- (void);
 - (id);
 - (id);
 - (long long);
+- (void)CountryFieldParameter.m;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;

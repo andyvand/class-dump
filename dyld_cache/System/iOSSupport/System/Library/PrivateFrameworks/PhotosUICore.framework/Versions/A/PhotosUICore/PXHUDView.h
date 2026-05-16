@@ -20,8 +20,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;

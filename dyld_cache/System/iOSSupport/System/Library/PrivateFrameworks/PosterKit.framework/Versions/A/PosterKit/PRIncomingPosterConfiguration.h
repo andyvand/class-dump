@@ -32,21 +32,23 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)tingsDiff;
+- (void)±ñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *assetDirectory; // @dynamic assetDirectory;

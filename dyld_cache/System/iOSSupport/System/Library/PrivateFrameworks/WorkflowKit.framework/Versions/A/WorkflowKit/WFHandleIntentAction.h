@@ -55,20 +55,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)Ì;
-- (_Bool)¬Ö0%EÉ;
-- (id)°myl«x´÷l¬Ö0%EÉ;
-- (unsigned long long);
-- (void)T³Ì;
 - (void);
-- (id)%EÉ;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -96,6 +95,7 @@
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -108,13 +108,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (_Bool)¡O;
-- (void)Tíÿÿÿÿÿ¼;
-- (id)PÚÚèÚ\Û;
-- (id)how?date=[[date]];
+- (long long)Key;
+- (id)ion;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *associatedAppBundleIdentifier;

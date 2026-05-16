@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ÿã6;
+- (void)aderContentView;
+- (void)1 ÿ-}É2Eÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

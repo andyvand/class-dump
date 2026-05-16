@@ -39,14 +39,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)SoftwareUpdateV2;
+- (id)roup: /* Error: Ran out of types for this method. */;
+- (void)¸Ø"\ ¸;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;

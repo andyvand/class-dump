@@ -6,6 +6,8 @@
 
 @protocol UIViewControllerPreemptableAnimatedTransitioning
 - (id);
+- (_Bool)vþÿrÅîÿ;
+- (void), %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g];
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool prefersPreemptionEnabledForPresentations;

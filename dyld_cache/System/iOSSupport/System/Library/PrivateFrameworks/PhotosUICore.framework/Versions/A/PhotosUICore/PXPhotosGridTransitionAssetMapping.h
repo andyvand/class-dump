@@ -15,7 +15,7 @@
     unsigned long long _transitionViewsCount;
 }
 
-- (void);
+- (void)tuÿuÿÆ`;
 
 @end
 

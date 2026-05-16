@@ -20,7 +20,7 @@
     CDUnknownBlockType _analyticsEventSender;
 }
 
-+ (id)cteristic",R,N,V_mute;
++ (id)gerActivationStateDisabledNoLocationServicesAuthorization;
 - (void);
 - (void);
 - (id);
@@ -29,17 +29,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
 - (CDUnknownBlockType);
+- (id)teProtectionMode: /* Error: Ran out of types for this method. */;
+- (void)MMissingWalletKey;
 - (id);
-- (id)llable;
-- (id)5;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowWriteAccess; // @synthesize allowWriteAccess=_allowWriteAccess;

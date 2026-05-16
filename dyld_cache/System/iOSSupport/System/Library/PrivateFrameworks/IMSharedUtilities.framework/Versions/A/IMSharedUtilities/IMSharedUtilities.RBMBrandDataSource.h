@@ -9,7 +9,6 @@
 @interface IMSharedUtilities.RBMBrandDataSource
 {
     MISSING_TYPE *cacheClient;
-    MISSING_TYPE *resultHandlers;
 }
 
 @end

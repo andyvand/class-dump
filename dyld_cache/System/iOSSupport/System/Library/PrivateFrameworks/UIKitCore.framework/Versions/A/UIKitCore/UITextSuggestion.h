@@ -23,45 +23,43 @@
     NSUUID *_uuid;
 }
 
-+ (id)z_Xx;
-+ (id)Sb_G;
 + (id);
-+ (id)t Share processing FAILED, caught exception:(id)arg1 %@;
-+ (id)@?<v@?@>16;
 + (id);
-+ (_Bool)6$Û¯m;
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool)ntrollerDidRotateNotification;
 - (void);
 - (void);
-- (id)MemoryEnabled;
+- (id);
 - (_Bool);
-- (_Bool)omSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)rocess for availability reply from %ld messages to %ld messages.;
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)illedByPeers;
-- (id)er->fd != -1;
-- (id)getITLibMediaItemPropertyComposer(void);
 - (id);
-- (void)¶Ú
-º;
-- (id)1¢!0@ù
-× ;
-- (void)¡wð!ÀCùÑÌð1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)llowsWritingDirection"b1"textAlignmentMirrored"b1"shortcutIntrinsicContentSize"b1"multilineLabelRequiresCarefulMeasurement"b1"noNeedsDisplayCheckForBaselineCalculationNeeded"b1"overallWritingDirectionFollowsLayoutDirection"b1"hyphenationFactorIgnoredIfURLsDetected"b1"extendedAccessibilityAdjustments"b1"canUseUILabelLayer"b1"implementsDefaultAttributes"b1"textColorFollowsTintColor"b1"materialTextColorFollowsTintColor"b1"showsExpansionTextWhenTruncated"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
-- (id)e;
-- (id)ackEpsilon;
-- (id)screteButtonDriverSettings;
-- (unsigned long long)cenePlacement;
+- (id);
+- (id);
 - (void);
-- (void)tion in window:(id)arg1 %@; location in view:%@; previous location in view:%@ /* Error: Ran out of types for this method. */;
-- (id)4¹ï;
-- (void)yÿ&ÀÖ;
+- (id);
+- (id);
+- (id)ÔAð!AùÑZ°1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (unsigned long long)InSection:heightCanBeGuessed: /* Error: Ran out of types for this method. */;
+- (void)onIndex;
+- (void)dowProvider;
+- (void)emoveSymbolEffect:(unsigned long long)arg1;
+- (id)eenshotServiceDelegate>",W,N,V_privateDelegate;
+- (void)or;
+- (id)tor:object:] /* Error: Ran out of types for this method. */;
+- (id)eCatalogName;
+- (void)^;
+- (void)H\ëÿN+ÖXöf;
+- (id)g;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardCandidate *_keyboardCandidate;

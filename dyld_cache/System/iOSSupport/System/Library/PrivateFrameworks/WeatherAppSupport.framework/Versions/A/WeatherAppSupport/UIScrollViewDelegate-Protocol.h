@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)string including the unit;
-- (void)of Precipitation in L2 descriptor indicating next precipitation will be wintry mix and less than a given amount on Saturday. The first argument is the precipitation amount, like 1.2. The second argument is the formatted precipitation amount with units, like 1.2 mm or 1.2â³.;
+- (void);
 @end
 

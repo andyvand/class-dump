@@ -35,15 +35,15 @@
 - (void);
 - (unsigned long long);
 - (long long);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)<	þÿSQÿÿ;
 - (long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)ionsChanged;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

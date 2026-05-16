@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTIDocumentRequest;
+@class RTITextOperations;
 
 @protocol RTIInputSystemClientDelegate
 
 @optional
-- (_Bool);
-- (void)ate>"8@"NSError"16;
-- (void)ectRect:(RTIDocumentRequest *)arg1 delegateView:container: /* Error: Ran out of types for this method. */;
-- (void)hButtonIndex:(NSString *)arg1;
-- (void)Éj8Xo;
-- (void)õ¬þ0;
+- (void)1Â0@ù
+× ;
+- (void)ognizer:(RTITextOperations *)arg1;
+- (void)erOffset;
+- (void)tionCallback;
 @end
 

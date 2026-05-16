@@ -15,8 +15,6 @@
     NAFuture *_onboardingFuture;
     UIViewController<HUConfigurationViewController> *_initialViewController;
     NAFuture *_readyFuture;
-    unsigned long long _previousState;
-    unsigned long long _currentState;
     _TtC6HomeUI24UtilityOnboardingContext *_context;
 }
 
@@ -27,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -37,19 +35,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (unsigned long long)geView";
-- (void)itWithCollectionViewLayout:(id)arg1;
+- (void);
+- (void)We will display iCloud and iTunes Accounts;
 
 // Remaining properties
 @property(retain, nonatomic) _TtC6HomeUI24UtilityOnboardingContext *context; // @synthesize context=_context;
-@property(nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -59,7 +51,6 @@
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;
 @property(retain, nonatomic) UIViewController<HUConfigurationViewController> *initialViewController; // @synthesize initialViewController=_initialViewController;
 @property(retain, nonatomic) NAFuture *onboardingFuture; // @synthesize onboardingFuture=_onboardingFuture;
-@property(nonatomic) unsigned long long previousState; // @synthesize previousState=_previousState;
 @property(retain, nonatomic) NAFuture *readyFuture; // @synthesize readyFuture=_readyFuture;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NAFuture",?,&,N,V_readyFuture

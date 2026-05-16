@@ -5,10 +5,5 @@
 //
 
 @protocol CNContactContentViewControllerDelegate
-
-@optional
-- (void)1¢!0@ù
-× ;
-- (void)rvice:(id)arg1;
 @end
 

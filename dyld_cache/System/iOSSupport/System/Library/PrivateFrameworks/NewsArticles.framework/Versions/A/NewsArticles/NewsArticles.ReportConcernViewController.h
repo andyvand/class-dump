@@ -17,13 +17,13 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void)=;
-- (void)ransaction: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)r;
+- (void);
+- (void);
 
 @end
 

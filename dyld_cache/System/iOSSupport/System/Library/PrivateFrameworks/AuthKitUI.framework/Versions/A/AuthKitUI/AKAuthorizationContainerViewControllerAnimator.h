@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id)r13BitmapDecoder;
-- (_Bool);
 - (id);
-- (void)try.framework/Versions/A/NanoRegistry;
-- (double)¢!0@ù
-× ;
+- (_Bool);
+- (double);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

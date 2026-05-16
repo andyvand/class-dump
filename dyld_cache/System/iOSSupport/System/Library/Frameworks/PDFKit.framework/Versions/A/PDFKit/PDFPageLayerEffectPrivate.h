@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
     PDFPageLayerEffect *noteLayer;
 }
 
-- (void)_PKColorAlphaSliderDelegate>",W,N;
+- (void);
 
 @end
 

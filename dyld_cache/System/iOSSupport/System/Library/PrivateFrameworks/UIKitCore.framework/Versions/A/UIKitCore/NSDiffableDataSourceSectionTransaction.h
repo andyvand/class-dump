@@ -14,16 +14,15 @@
     NSOrderedCollectionDifference *_difference;
 }
 
-- (id)) group ID from %@ => %@;
-- (id)oint:withDisplayName: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
-- (void)ÁpÐ!8Bù±Ã1¢!0@ù
-× ;
 - (id);
-- (id)_visualEffectGroupName;
-- (id);
-- (id)Épq;
+- (id);
+- (id);
+- (_Bool)ntrolKeyBackgroundColorName;
+- (id)ustsFontForContentSizeCategory;
+- (id)meFormat;
+- (id)-3;
+- (void)@Âj;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;

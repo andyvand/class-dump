@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)"NSLayoutConstraint",R,N,V_maximumWidthConstraint;
 
 @end
 

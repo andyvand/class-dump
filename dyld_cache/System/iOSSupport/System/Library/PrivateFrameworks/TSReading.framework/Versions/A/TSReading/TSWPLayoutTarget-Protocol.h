@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, TSDCanvas, TSDLayout, TSPObject;
+@class NSMutableArray, TSDCanvas, TSDLayout, TSPObject;
 @protocol TSDHint, TSWPFootnoteHeightMeasurer, TSWPFootnoteMarkProvider, TSWPOffscreenColumn;
 
 @protocol TSWPLayoutTarget
-- (TSDLayout *)<;
-- (NSArray *);
-- (unsigned long long);
-- (struct CGSize)mbedding_CollabEmbedding;
-- (struct CGPoint)(;
-- (struct CGSize);
-- (struct CGSize)_Gradient;
-- (NSMutableArray *)¤;
-
-@optional
-- (double);
-- (TSDCanvas *)belProperty;
+- (struct CGSize)AlderShared/tables/TSTTableRep.mm;
+- (NSMutableArray *)4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/text/TSWPStorage_attributeTables.mm;
+- (unsigned long long)arpness;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsDescendersToClip;

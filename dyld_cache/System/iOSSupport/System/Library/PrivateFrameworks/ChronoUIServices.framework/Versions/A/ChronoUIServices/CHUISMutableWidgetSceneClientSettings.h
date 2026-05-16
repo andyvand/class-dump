@@ -10,18 +10,18 @@
 {
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool baseContentTouchedDown;

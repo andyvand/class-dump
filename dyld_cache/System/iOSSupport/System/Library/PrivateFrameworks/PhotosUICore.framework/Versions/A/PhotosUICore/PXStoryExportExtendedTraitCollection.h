@@ -15,7 +15,7 @@
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (void)ro:(CDUnknownBlockType)arg1 1) Face crops needing detection: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect overrideFullScreenReferenceRect; // @synthesize overrideFullScreenReferenceRect=_overrideFullScreenReferenceRect;

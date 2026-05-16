@@ -46,11 +46,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType)finishWorkoutWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)	
-;
-- (id)¨ñ8ò;
+- (id);
+- (CDUnknownBlockType)uthenticationToken: /* Error: Ran out of types for this method. */;
+- (void)brary;
+- (void)number of 'Time Machine Destination's;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

@@ -16,18 +16,17 @@
     NSString *_hidDraggedPatternName;
 }
 
-+ (id)!0@ù
-× ;
++ (id)filters.vibrantColorMatrix.inputColorMatrix;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)@"IMDRelayPushHandler"16@"NSDictionary"24@"NSData"32;
+- (id);
 - (long long);
-- (long long);
-- (void);
-- (id)ÚYcd;
+- (id)hObservers;
+- (long long)onfigurationCornerStyle;
+- (void)\g×þ°X^;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *draggedPattern;

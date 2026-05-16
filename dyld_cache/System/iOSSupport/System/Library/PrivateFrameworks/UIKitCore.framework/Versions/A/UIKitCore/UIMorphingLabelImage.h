@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     struct CGRect _contentsRect;
 }
 
-- (id);
 - (void);
-- (void)
+- (void);
+- (struct CGRect);
+- (id)× ;
+- (struct CGSize)!°DùÑbð1Â0@ù
 × ;
-- (void)ÏÐ1¢!0@ù
-× ;
-- (struct CGSize)htBorderView;
-- (struct CGRect)AÿÀ]ÕCBb;
+- (void)h;
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;

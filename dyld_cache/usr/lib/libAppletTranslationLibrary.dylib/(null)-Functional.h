@@ -6,6 +6,6 @@
 
 @interface (null) (Functional)
 - (id);
-- (id)on count is decremented to %d;
+- (id);
 @end
 

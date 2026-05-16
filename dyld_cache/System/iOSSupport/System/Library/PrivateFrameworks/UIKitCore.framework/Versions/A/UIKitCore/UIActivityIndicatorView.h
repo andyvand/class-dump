@@ -39,11 +39,12 @@
     struct CGSize _shadowOffset;
 }
 
-+ (unsigned long long)store.macos;
-+ (id)s;
 + (id);
-+ (struct CGSize);
-+ (id);
++ (id);
++ (id)0@ù
+× ;
++ (unsigned long long)onSuperview,S_setCurrentPresentationSuperview:(long long)arg1 ,V__currentPresentationSuperview;
++ (struct CGSize)zÄîÿþtþÿ;
 
 // Remaining properties
 @property(nonatomic, setter=_setCustomWidth:) double _customWidth; // @synthesize _customWidth;

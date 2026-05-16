@@ -13,18 +13,19 @@ __attribute__((visibility("hidden")))
     CKActionMenuView *_actionMenuView;
 }
 
-+ (id)w08ï1;
-- (id);
++ (id)`Û;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)sTextIfNeeded;
-- (void)ChatItemForReplyCountChatItem:(id)arg1 chatItems: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)³-;
+- (id);
+- (void)Fùñ1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)on in indexPath %@;
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) CKActionMenuView *actionMenuView; // @synthesize actionMenuView=_actionMenuView;

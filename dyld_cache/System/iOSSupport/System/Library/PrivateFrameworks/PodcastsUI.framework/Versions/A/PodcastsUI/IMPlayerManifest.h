@@ -21,7 +21,7 @@
 
 + (id);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (void);
@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)V;
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -37,24 +37,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id)ork;
+- (id);
 - (void);
-- (void)@;
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (void)with error:%{public}s. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSUserActivity *activity; // @synthesize activity=_activity;

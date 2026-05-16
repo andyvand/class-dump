@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)isFullScreen;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

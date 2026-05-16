@@ -9,7 +9,7 @@
 @interface NewsUI2.TagFeedConfig
 {
     MISSING_TYPE *publishDate;
-    MISSING_TYPE *groups;
+    MISSING_TYPE *placements;
     MISSING_TYPE *background;
     MISSING_TYPE *theme;
     MISSING_TYPE *metadata;

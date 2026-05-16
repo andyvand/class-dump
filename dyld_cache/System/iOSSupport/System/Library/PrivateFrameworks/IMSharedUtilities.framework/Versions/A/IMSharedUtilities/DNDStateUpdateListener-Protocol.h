@@ -5,6 +5,5 @@
 //
 
 @protocol DNDStateUpdateListener
-- (void);
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @protocol MTLAllocation
-- (unsigned long long)L6	;
+- (unsigned long long)people fetching:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

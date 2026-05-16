@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool)rotected;
++ (_Bool);
 + (_Bool);
 
 @end

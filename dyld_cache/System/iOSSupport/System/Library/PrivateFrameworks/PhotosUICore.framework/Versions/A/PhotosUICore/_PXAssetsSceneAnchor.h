@@ -15,9 +15,9 @@
 
 - (id);
 - (struct CGPoint);
-- (id);
-- (void)¬Ö0e;
-- (double)llectionResults;
+- (double);
+- (id)°^êÿÔ^êÿø^êÿ_êÿ@_êÿd_êÿ_êÿ¬_êÿÐ_êÿô_êÿ`êÿ<`êÿx`êÿ¨`êÿ¼éÿÐ`êÿø`êÿaêÿ\éÿéÿ´éÿàéÿéÿ@éÿ8aêÿaêÿÐaêÿbêÿhbêÿ´bêÿ;
+- (void)s;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint anchorOrigin; // @synthesize anchorOrigin=_anchorOrigin;

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (long long)k_invoke  Scene became focused:%@ /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long imageOrientation; // @synthesize imageOrientation=_imageOrientation;

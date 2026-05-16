@@ -27,9 +27,9 @@
 }
 
 + (id);
-+ (id)P(;
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -61,15 +61,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (CDUnknownBlockType)X;
+- (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (void);
-- (void):(long long)arg1;
+- (id);
+- (id);
+- (long long);
 - (void);
-- (id);
-- (id);
-- (long long)cks;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allowedElementsForTraversal; // @synthesize allowedElementsForTraversal=_allowedElementsForTraversal;

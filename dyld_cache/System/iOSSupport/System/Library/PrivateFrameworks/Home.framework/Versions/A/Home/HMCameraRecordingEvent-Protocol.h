@@ -7,7 +7,6 @@
 @class NSDate, NSUUID;
 
 @protocol HMCameraRecordingEvent
-- (NSUUID *)nForDiffableDataItemManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSDate *dateOfOccurrence;

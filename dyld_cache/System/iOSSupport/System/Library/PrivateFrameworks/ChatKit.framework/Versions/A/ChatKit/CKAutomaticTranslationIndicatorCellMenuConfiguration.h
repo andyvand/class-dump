@@ -13,12 +13,12 @@
     _Bool localLanguageSelected;
 }
 
-- (void)ta for attachment:(id)arg1 %@;
-- (void)the note;
-- (void)e note;
-- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

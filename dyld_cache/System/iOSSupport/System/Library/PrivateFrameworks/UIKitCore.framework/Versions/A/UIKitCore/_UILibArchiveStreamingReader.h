@@ -29,18 +29,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (_Bool)ded:(id)arg1;
-- (_Bool)updateLastMessageGUID:(id)arg1 forLanguageCode:(id)arg2;
-- (_Bool)pamExtensionName:(CDUnknownBlockType)arg1 isBlackholed:(CDUnknownBlockType)arg2 spamDetectionSource:(id *)arg3;
-- (id)ntifierGUID;
-- (id)ithTemporaryGUID:(struct ui_archive_entry *)arg1;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (id)te for compatiblity.;
+- (id);
+- (_Bool);
 - (void);
-- (_Bool)6@"NSCoder"24;
-- (void)wInteractionSimulatingTouchForceProvider;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long appleDoubleIdentificationType; // @synthesize appleDoubleIdentificationType=_appleDoubleIdentificationType;

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ectly?;
++ (id);
 
 @end
 

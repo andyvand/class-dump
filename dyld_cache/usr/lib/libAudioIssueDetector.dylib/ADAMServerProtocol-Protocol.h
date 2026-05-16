@@ -5,9 +5,5 @@
 //
 
 @protocol ADAMServerProtocol
-- (void)*;
-
-@optional
-- (void);
 @end
 

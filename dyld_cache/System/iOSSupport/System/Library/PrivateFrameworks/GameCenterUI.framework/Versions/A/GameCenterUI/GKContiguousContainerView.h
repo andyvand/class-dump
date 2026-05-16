@@ -30,12 +30,12 @@
 - (id);
 - (void);
 - (double);
-- (_Bool);
 - (struct CGSize);
-- (void);
-- (void);
+- (struct CGSize);
 - (struct UIEdgeInsets);
-- (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 
 // Remaining properties

@@ -20,31 +20,31 @@
     struct CGRect _lastLayoutBounds;
 }
 
-- (void);
-- (id):filePresenter:error:byAccessor: /* Error: Ran out of types for this method. */;
-- (id)deoFormatPlayableOnAllDevices: /* Error: Ran out of types for this method. */;
-- (void)I);
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id)te;
-- (void);
+- (id);
+- (id);
 - (struct CGRect);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NUAnimationQueue *animationQueue; // @synthesize animationQueue=_animationQueue;

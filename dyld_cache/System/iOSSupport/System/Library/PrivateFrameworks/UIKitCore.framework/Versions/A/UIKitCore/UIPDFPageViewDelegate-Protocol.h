@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPDFPageView;
-
 @protocol UIPDFPageViewDelegate
-
-@optional
-- (_Bool)ength is 0;
-- (void);
-- (void)on:(UIPDFPageView *)arg1;
 @end
 

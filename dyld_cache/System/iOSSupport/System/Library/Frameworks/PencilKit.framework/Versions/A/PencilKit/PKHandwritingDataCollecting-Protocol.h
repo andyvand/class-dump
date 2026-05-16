@@ -7,8 +7,6 @@
 @class UIViewController;
 
 @protocol PKHandwritingDataCollecting
-- (void);
-- (UIViewController *)wsToSearch: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) UIViewController *viewController;

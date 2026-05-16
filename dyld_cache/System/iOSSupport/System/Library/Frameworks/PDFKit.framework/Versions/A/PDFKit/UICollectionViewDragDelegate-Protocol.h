@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UICollectionView, UIDragPreviewParameters;
-
 @protocol UICollectionViewDragDelegate
-- (NSArray *)a4;
 
 @optional
-- (UIDragPreviewParameters *)(;
-- (void)`B;
-- (_Bool)oScaleFactorForPageWithSize:(UICollectionView *)arg1;
+- (_Bool)v1Â0@ù
+× ;
 @end
 

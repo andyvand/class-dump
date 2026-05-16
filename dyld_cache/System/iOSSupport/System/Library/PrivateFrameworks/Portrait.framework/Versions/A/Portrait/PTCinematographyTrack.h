@@ -41,18 +41,18 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
-- (long long);
 - (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (long long);
 - (void);
 - (id);
-- (long long);
+- (id);
 - (CDStruct_e83c9415);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cachedTrackIdentifierString; // @synthesize cachedTrackIdentifierString=_cachedTrackIdentifierString;

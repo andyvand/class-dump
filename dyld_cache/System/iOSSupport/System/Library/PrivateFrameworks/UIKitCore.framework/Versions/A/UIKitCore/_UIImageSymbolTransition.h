@@ -9,22 +9,23 @@
     CDUnknownBlockType _completionHandler;
 }
 
-+ (id)à0úþÈÓxd;
-+ (_Bool)àsÿ;
-- (void)dTimeSensitiveMessagesDetected: /* Error: Ran out of types for this method. */;
-- (id)dChat: /* Error: Ran out of types for this method. */;
-- (_Bool)rkDataAvailabilityChanged: /* Error: Ran out of types for this method. */;
-- (_Bool)R,C;
-- (_Bool)th route:%s id:%s selector:%s /* Error: Ran out of types for this method. */;
-- (void)L parameter;
-- (unsigned long long);
-- (_Bool);
-- (id)yCommand;
-- (CDUnknownBlockType);
-- (id);
++ (_Bool)%ld
+;
++ (id)tt;
 - (void);
-- (id)fore;
-- (void)ntrollerAdaptiveImpl _enableAppearanceTransitionsInViewController:(CDUnknownBlockType)arg1 ];
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)er;
+- (void)efaultTrailingCellMarginWidth:(id)arg1;
+- (CDUnknownBlockType)TextField;
+- (id)Menu;
+- (void)BarFrame != NULL;
+- (void)©~Ê$@[;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isValidAnimationPreset) _Bool _validAnimationPreset;

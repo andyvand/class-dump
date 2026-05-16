@@ -22,11 +22,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)tAnalysis;
-- (void);
-- (id);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id element; // @synthesize element=_element;

@@ -18,11 +18,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)xture;
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
 - (id);
-- (id);
+- (void)r: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

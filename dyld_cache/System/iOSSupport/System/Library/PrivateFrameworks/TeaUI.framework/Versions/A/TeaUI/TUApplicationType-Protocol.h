@@ -5,7 +5,6 @@
 //
 
 @protocol TUApplicationType
-- (_Bool)Jٺ;;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldChangeWindowFrameSize;

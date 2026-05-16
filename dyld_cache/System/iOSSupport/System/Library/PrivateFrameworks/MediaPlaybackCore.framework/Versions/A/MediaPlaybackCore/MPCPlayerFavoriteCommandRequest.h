@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
     MPModelObject *_modelObject;
 }
 
-- (id)riptionId:(id)arg1 completion:(_Bool)arg2;
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ic}@ %2i %{public}@  â° totalTime:%0.3f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *modelObject; // @synthesize modelObject=_modelObject;

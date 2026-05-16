@@ -24,16 +24,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)eArray must be a CFArray;
-- (void)ryData for manp create failed;
-- (_Bool)FDRDecodeSearchEntryFromPropertyList;
-- (_Bool)digest mismatch;
-- (_Bool)ed;
-- (_Bool)st propertyLength (%d) != instLength (%zu);
-- (void)%@;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,25 +47,26 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (id);
-- (id)R;
+- (id);
 - (_Bool);
 - (_Bool);
 - (int);
 - (double);
-- (void);
 - (void);
-- (void)laborationId: /* Error: Ran out of types for this method. */;
-- (void)ger:(_Bool)arg1 conversation:updatedMessagesGroupPhoto: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)itialSyncAttempts;
-- (id);
-- (id);
-- (void)ow:(id)arg1;
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)t";
-- (void)view:(id)arg1 positioned:relativeTo: /* Error: Ran out of types for this method. */;
-- (id)highlight;
+- (id);
+- (void)°!`Gù_Ð1Â0@ù
+× ;
+- (void)tUpInitialValues;
+- (id)%@;
+- (id)ownHoverAzimuthUnitVector;
+- (void)SgSg;
+- (id)J;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double customNavigationTransitionDuration; // @synthesize customNavigationTransitionDuration=_customNavigationTransitionDuration;

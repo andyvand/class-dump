@@ -5,12 +5,9 @@
 //
 
 @protocol UIViewAnimating
-- (void)B;
-- (void)Dîýÿ4ÿÿ;
-- (void)ionBarTitleViewC;
-- (void)Ñ;
-- (_Bool)embly;
-- (void)Èóìÿ;
+- (double):8@"UIPresentationController"16@"UITraitCollection"24 /* Error: Ran out of types for this method. */;
+- (_Bool)¬êýÿDÿÿ;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) double fractionComplete;

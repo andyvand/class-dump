@@ -35,13 +35,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id),D;
 - (id);
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (void)com.apple.InCallService:(struct CGSize)arg1 InCallCollaborationNotice;
+- (void);
+- (void)GtGGA9_G;
+- (void)N­^,ý;
 
 @end
 

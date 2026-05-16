@@ -18,21 +18,21 @@
 + (id);
 + (id);
 + (id);
-- (Class)ictionary",C,N;
+- (Class);
 - (void);
-- (void),;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)excist in our set of devices or was nil %@;
-- (id)o mark as not synced successfully;
-- (void)%@;
-- (id)e;
+- (id);
+- (id);
 - (void);
 - (void);
-- (id)edToPreferEnvironment: /* Error: Ran out of types for this method. */;
-- (id)dantDragging;
+- (id);
+- (void):(id)arg1;
+- (id)edSize:(id)arg1 title:accessibilityHint:systemImageName:subcomponents: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setClassNameToRecord:) NSString *_classNameToRecord; // @synthesize _classNameToRecord;

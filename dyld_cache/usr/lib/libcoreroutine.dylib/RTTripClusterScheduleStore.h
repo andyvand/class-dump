@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id)9?I;
+- (id);
 - (long long);
 - (void);
 - (void);
@@ -35,7 +35,7 @@
 - (void);
 - (void);
 - (id);
-- (id)/;
+- (id)send failed with error %@,GUID,%@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

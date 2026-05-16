@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)emperatureColor init];
 
 @end
 

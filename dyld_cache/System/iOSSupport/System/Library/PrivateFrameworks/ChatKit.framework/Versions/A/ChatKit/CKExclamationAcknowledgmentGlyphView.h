@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct CGPoint)tedSamples;
+- (struct CGPoint);
 - (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (double)`;
-- (void)corationsForDateComponents:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)ih:ñÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *leftExclamationGlyph; // @synthesize leftExclamationGlyph=_leftExclamationGlyph;

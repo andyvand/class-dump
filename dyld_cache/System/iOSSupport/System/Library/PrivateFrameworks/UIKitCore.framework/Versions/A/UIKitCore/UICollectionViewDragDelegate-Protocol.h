@@ -7,13 +7,14 @@
 @class NSArray, UIDragPreviewParameters;
 
 @protocol UICollectionViewDragDelegate
+- (NSArray *)eters",&,N,V_previewParameters;
 
 @optional
-- (NSArray *)s;
-- (UIDragPreviewParameters *)uestHandlers;
-- (void)indowNewOrientationUserInfoKey;
-- (void)eractive Scale Animation;
-- (_Bool)elay;
-- (NSArray *);
+- (_Bool)tively;
+- (void)dFontValueBeforeScaling;
+- (UIDragPreviewParameters *)loudKitShareAction;
+- (void)c;
+- (NSArray *)ocusedFrameGuide;
+- (_Bool)i23Ð;
 @end
 

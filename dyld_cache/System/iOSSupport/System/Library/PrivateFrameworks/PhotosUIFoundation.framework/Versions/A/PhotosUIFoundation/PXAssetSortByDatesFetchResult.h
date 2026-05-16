@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dateByIndex; // @synthesize dateByIndex=_dateByIndex;

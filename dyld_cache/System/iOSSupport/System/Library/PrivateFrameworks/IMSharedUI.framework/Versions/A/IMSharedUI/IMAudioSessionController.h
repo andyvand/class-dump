@@ -13,7 +13,7 @@
 
 + (void);
 + (id);
-+ (id)long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, mpark::variant<WebKit::JavaScriptEvaluationResult::EmptyType, bool, double, WTF::String, WTF::Seconds, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 - (_Bool);
 - (_Bool);
@@ -21,13 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool), T = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;

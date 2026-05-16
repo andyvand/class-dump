@@ -16,7 +16,7 @@
 }
 
 - (_Bool);
-- (_Bool)9;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,7 +25,7 @@
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (_Bool)tionHighlightLayer;
+- (_Bool)troke;
 
 @end
 

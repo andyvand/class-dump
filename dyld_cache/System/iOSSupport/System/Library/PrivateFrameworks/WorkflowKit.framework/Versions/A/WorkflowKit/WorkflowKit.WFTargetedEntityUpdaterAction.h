@@ -15,17 +15,17 @@
     MISSING_TYPE *$__lazy_storage_$__localizedNameForParameterKey;
 }
 
-- (id)Ì;
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (void)|aiff;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool approvedForPublicShortcutsDrawer;

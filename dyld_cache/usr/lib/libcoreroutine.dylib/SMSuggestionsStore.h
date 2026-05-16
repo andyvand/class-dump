@@ -14,16 +14,16 @@
 
 + (id);
 - (void);
-- (void)9h;
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ossibleMapItem, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

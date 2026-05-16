@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)allowing you to trim the media passed into the action.;
 
 @end
 

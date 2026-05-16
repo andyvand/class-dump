@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long), clearing cache. Subscription:%@ /* Error: Ran out of types for this method. */;
 - (long long);
+- (long long)Count;
 
 // Remaining properties
 @property(readonly, nonatomic) long long underlyingValue; // @synthesize underlyingValue=_underlyingValue;

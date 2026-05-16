@@ -11,9 +11,9 @@
     NSUUID *_uuid;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;

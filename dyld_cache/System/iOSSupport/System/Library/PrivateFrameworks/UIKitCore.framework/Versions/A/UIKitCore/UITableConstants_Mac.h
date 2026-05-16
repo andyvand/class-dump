@@ -11,35 +11,35 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)ng",C,N,V_headerTitle;
 - (id);
 - (int);
 - (_Bool);
-- (id)ring",R,N,V_proxyAccount;
-- (struct _UITableConstantsBackgroundProperties)iptionService;
-- (double)Type;
-- (double)teEngramID:(id)arg1;
-- (double)er;
-- (id)romPushID;
-- (id)SString",&,N,V_originalGroupID;
-- (struct UIEdgeInsets)ssageGUID;
-- (double)ice:(_Bool)arg1;
-- (double)GUID;
-- (id)fromChat:(id)arg1;
 - (id);
-- (struct UIEdgeInsets)g;
-- (Class)V_pendingPriorityMessageGUIDs;
-- (id)edMessages;
-- (struct UIEdgeInsets)tupComplete;
-- (double)_serviceProperties;
-- (double)ryAdditions;
-- (double)ID;
-- (double)rgencyChat;
-- (id)D:(long long)arg1;
+- (struct _UITableConstantsBackgroundProperties);
+- (double);
+- (double);
+- (double);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (Class);
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
 - (void);
 - (struct _UITableConstantsMacSidebarAppearance);
 - (double);
-- (struct _UITableConstantsBackgroundProperties);
+- (struct _UITableConstantsBackgroundProperties)nIdentifier;
 
 @end
 

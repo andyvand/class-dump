@@ -21,22 +21,23 @@
 }
 
 - (void);
-- (void)olvingAndStandardizingPath;
+- (void);
 - (struct CGRect);
-- (id):(id)arg1;
-- (id)unt:(id)arg1;
-- (struct CGRect)ortedParticipantIDHashForParticipants: /* Error: Ran out of types for this method. */;
-- (_Bool)pMessagesSettingandBroadcastToAllDevices;
-- (struct CGRect)dcaster;
-- (void);
-- (void);
-- (struct CGRect)g state did change event notification;
-- (struct CGRect)n for message:%@ to device:%@, ID:%@ because of excludedCapability:%@ /* Error: Ran out of types for this method. */;
-- (void)<IMDIDSAccount:(id)arg1 %p, ID:%@, idsAccount:%@ > /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
+- (struct CGRect);
+- (_Bool);
+- (struct CGRect);
 - (void);
-- (id)0ÈÅEa;
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (id)ð!lCù1[1Â0@ù
+× ;
+- (void)6d24Q32@?40@?48@?56;
+- (void)EÑþ;
+- (id)þýtÔ $e;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bodyRect;

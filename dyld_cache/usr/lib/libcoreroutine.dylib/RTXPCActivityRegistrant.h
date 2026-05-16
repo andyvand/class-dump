@@ -15,16 +15,16 @@
     CDUnknownBlockType _deferHandler;
 }
 
+- (CDUnknownBlockType);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (CDUnknownBlockType)8;
-- (void);
-- (id)i;
-- (id)Interface_s=}16;
+- (CDUnknownBlockType);
 - (id);
-- (id);
-- (id);
-- (void);
-- (CDUnknownBlockType)@;
+- (id)Ô ;
+- (id)onBoundWithCompletion:] /* Error: Ran out of types for this method. */;
+- (void)isplay name update failed due to, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTXPCActivityCriteria *criteria; // @synthesize criteria=_criteria;

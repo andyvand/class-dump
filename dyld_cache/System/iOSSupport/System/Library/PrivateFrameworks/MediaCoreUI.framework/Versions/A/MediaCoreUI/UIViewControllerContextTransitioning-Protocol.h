@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIView;
 
 @protocol UIViewControllerContextTransitioning
-- (struct CGRect);
-- (struct CGAffineTransform)ôÿÿ|ýÿÔøüÿýÿ;
-- (void)ÿ;
-- (long long)AAyAAyAAyð±Aî±ySiSgGGEßGÿë³G_Xj´yâ±GQo_aê±yè±GG;
-- (_Bool)rackChange;
-- (UIViewController *)ÊÝÿõÄµø,ÖÿÕÄµ\ÊÝÿ;
+- (_Bool)0:8:16@24 /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)nimumResolution: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (UIView *)Èß	ô(üÿ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

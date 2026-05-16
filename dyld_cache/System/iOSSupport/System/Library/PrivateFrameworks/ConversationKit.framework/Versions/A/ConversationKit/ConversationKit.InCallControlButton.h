@@ -28,22 +28,22 @@
     MISSING_TYPE *menuDataSource;
 }
 
-- (id);
 - (void);
+- (id)H;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void)ConversationKit17ParticipantLayoutP;
-- (_Bool)¥®yO§®y©¤°_»®yADy ®®GAFGSgtGG;
 - (_Bool);
-- (void)|1Å©)·hG	;
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)pdateContext"24;
+- (id);
+- (id);
+- (void);
+- (void)y_lÊSo6TUCallCG;
+- (void)ÜúGNõyXéGGAGyfúSgGGAGy2öSgGG!¢yADQüySayðñÏGAU¢y*ûyÄýyAD_£ûAESgtGGGG-ýGG;
+- (_Bool)zoom unavaiable notification;
+- (_Bool)led tap count %@;
+- (unsigned long long)rolsViewController.swift;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;

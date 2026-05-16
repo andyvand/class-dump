@@ -19,12 +19,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)orSize:allowSmaller: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

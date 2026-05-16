@@ -9,11 +9,11 @@
 }
 
 + (id);
-+ (_Bool)i;
-+ (id)tionsDelegate;
-+ (id)ge=QQ}16B32;
-+ (id)}24;
-+ (long long)ve;
++ (_Bool);
++ (id);
++ (id);
++ (id);
++ (long long);
 + (id);
 + (id);
 + (id);

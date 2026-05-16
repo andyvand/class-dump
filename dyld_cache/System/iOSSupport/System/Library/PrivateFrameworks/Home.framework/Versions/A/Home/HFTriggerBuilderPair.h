@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)È3à3 4(4h4p4°4¸4ø45È56p6Ð7 8;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HMTriggerBuilder *builder; // @synthesize builder=_builder;

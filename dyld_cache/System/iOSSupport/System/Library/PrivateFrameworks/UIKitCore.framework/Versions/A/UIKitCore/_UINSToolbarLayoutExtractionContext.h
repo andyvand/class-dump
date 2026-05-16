@@ -41,16 +41,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool)ecurity;
-- (_Bool)eworks/Security.framework/Versions/A/Security;
-- (_Bool)`;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)inerModifyInnerParallaxScaleStrength;
+- (id);
+- (void)©»33hö;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *centeredItems; // @synthesize centeredItems=_centeredItems;

@@ -17,19 +17,19 @@
 
 + (id);
 + (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (long long);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessIntent; // @synthesize accessIntent=_accessIntent;

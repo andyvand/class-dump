@@ -14,17 +14,18 @@
     NSIndexPath *_adjustedTargetIndexPath;
 }
 
-- (id)atLoadedWithChatIdentifier:(unsigned long long)arg1 chats:(long long)arg2;
-- (id)GUIDToSpamCheckTimerMap;
-- (id)d:(unsigned long long)arg1;
 - (id);
-- (void)t retry after for workload reporting:(id)arg1 %@;
-- (long long)boration Notice with error:%@ /* Error: Ran out of types for this method. */;
-- (long long)pelineComponent> Started processing;
-- (id)se-rtc-reporting;
-- (void)ê	0º;
-- (long long)þ;
-- (void)2Êÿ³úÉ@d;
+- (id);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (long long);
+- (id);
+- (void);
+- (long long)!´CùÑ`1Â0@ù
+× ;
+- (void)­;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _dropLocation;

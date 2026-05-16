@@ -19,26 +19,26 @@
     LPEvent *_parent;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool)07";
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (double);
-- (long long);
-- (id)e failed validation.;
 - (void);
-- (void);
+- (double);
 - (id);
-- (id)h;
+- (id);
+- (double);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (double);
-- (id)trictlyRespectsSizeClassHeightConstraints: /* Error: Ran out of types for this method. */;
-- (double)¶;
-- (id);
-- (_Bool);
+- (long long);
+- (void);
+- (_Bool)",&,N,V_inlinePlaybackInformation;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

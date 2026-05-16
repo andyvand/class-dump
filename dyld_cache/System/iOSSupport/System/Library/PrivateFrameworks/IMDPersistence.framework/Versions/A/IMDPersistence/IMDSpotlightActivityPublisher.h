@@ -18,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) OS_dispatch_queue *queue; // @synthesize queue;

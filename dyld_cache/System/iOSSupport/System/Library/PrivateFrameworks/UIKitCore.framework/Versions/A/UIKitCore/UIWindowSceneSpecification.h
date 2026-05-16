@@ -8,9 +8,9 @@
 {
 }
 
-- (id)rstName:lastName:avatar:pronouns: /* Error: Ran out of types for this method. */;
-- (Class)picsFromSourcesWithBundleId:documentIds:algorithm:atLeastOneTopicRemoved:deletedCount:error: /* Error: Ran out of types for this method. */;
-- (Class)t: /* Error: Ran out of types for this method. */;
+- (id);
+- (Class);
+- (Class);
 - (Class);
 
 @end

@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (_Bool)tion: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
 

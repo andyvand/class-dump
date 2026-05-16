@@ -54,17 +54,16 @@
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (double);
 - (long long);
+- (double);
 - (unsigned long long);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void);
+- (id);
 - (double);
-- (id)
-× ;
-- (unsigned long long)°r>ÿ@s>ÿps>ÿ ÿ;
+- (void)mumFullPageScreenshotDimension;
+- (unsigned long long)ÿ&j;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize defaultTileSize; // @synthesize defaultTileSize=_defaultTileSize;

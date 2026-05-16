@@ -31,7 +31,7 @@
 }
 
 + (id);
-+ (id)7H;
++ (id);
 - (struct CGPoint);
 - (id);
 - (struct CGRect);
@@ -52,9 +52,9 @@
 - (id);
 - (double);
 - (id);
-- (void)@;
+- (id);
 - (struct CGSize);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) double alignmentDescender; // @synthesize alignmentDescender;

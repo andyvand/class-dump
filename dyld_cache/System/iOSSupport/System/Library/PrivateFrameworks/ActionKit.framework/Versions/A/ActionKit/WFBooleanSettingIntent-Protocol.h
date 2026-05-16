@@ -7,10 +7,8 @@
 @class NSNumber;
 
 @protocol WFBooleanSettingIntent
-- (long long)ù¶
-°1b0@ù
-× ;
-- (void)rameter;
+- (long long)/REALPATH response, no name entries;
+- (void)*H÷*H÷*H÷*H÷`He`He`He`He++g+g+*HÎ=*HÎ=*HÎ=*HÎ=*HÎ=;
 
 // Remaining properties
 @property(nonatomic) long long operation;

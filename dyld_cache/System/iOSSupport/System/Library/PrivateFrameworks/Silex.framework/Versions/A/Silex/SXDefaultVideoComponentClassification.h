@@ -12,9 +12,9 @@
 
 + (id);
 + (id);
-+ (int)Ìî;
-- (Class);
++ (int);
 - (id);
+- (Class);
 
 @end
 

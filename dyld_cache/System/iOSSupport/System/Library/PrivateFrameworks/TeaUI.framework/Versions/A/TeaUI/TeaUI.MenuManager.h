@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (_Bool);
-- (id)OwnFrame;
+- (void)Äýÿÿÿ;
 
 @end
 

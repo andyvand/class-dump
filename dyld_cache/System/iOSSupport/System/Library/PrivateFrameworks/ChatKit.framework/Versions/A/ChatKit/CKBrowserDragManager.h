@@ -24,42 +24,42 @@
 
 - (_Bool);
 - (id);
-- (id)C;
-- (void)v;
-- (void);
-- (void);
-- (void);
-- (void).;
-- (void);
-- (void);
-- (id);
-- (struct CGPoint)style];
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)vigationBarDelegate;
-- (id)û­yý­y´>­yAAyAAyAAyAAyêû­yý­y¦ù­yxv®cp­ySay¢\ýÿGSSAAyÿù­yA]ýÿ_ó­Qo_ûW­ym÷­GGGG_[ò­Qo__Qo_÷E­G¹R­yADyAAyÍm­xa­yÞ\ýÿGGGGGÀ_­yA_`ý=SQ12CoreGraphicsyHCg0_GG\ýÿGG_óõ­y_ìõ­y_ýð­yyt=ú­ywü­yAi­G_Qo_GQo_Qo_Qo__SSQo__Qo_GrE­G;
-- (void)ÿöÔÿ;
-- (id)6;
-- (id)REPORT_APPLE_ALERT_MESSAGE;
-- (_Bool)ðÿAu4(-;
+- (struct CGPoint);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void)ange:(id)arg1;
+- (id)versations;
+- (void)¼;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id currentItem; // @synthesize currentItem=_currentItem;

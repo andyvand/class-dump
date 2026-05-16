@@ -11,9 +11,9 @@
     MISSING_TYPE *localizerFactory;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)ø;
 
 @end
 

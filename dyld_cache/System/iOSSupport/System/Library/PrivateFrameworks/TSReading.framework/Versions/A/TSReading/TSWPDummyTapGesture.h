@@ -22,15 +22,15 @@
 - (void);
 - (struct CGPoint);
 - (id);
-- (struct CGPoint)S;
-- (id);
-- (void)џ;
 - (struct CGPoint);
 - (id);
-- (int)ansitionController;
 - (void);
+- (struct CGPoint);
 - (id);
-- (_Bool)STCellRange *, CGFloat *, BOOL *, TSTCellRange *, CGFloat *);
+- (int);
+- (void);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget; // @synthesize cachedGestureTarget;

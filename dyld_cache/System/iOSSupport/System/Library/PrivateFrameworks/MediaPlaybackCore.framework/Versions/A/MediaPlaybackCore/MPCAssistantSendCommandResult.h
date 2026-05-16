@@ -14,14 +14,14 @@
     NSNumber *_devicesControlled;
 }
 
-- (void)terval:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)ount:(id)arg1;
-- (id)ssing necessary method in ICCloudServiceStatusMonitor;
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)essAudioTap %p - Starting processing audio queue;
 
 // Remaining properties
 @property(readonly, nonatomic) MRCommandResult *commandResult; // @synthesize commandResult=_commandResult;

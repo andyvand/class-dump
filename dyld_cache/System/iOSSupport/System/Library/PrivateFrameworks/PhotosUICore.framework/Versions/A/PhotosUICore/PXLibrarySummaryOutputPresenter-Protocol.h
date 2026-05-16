@@ -9,8 +9,9 @@
 @protocol PXLibrarySummaryOutputPresenter
 
 @optional
-- (NSAttributedString *)
-× ;
+- (NSString *)RawValue;
+- (NSDictionary *)plus.circle;
+- (NSAttributedString *)supported widget size:%@. Only support small, medium, large or extraLarge /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

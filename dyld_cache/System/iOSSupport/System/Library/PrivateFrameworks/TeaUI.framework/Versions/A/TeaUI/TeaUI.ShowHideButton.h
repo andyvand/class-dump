@@ -14,9 +14,9 @@
     MISSING_TYPE *toggleState;
 }
 
-- (id)houldExportJSONSidecar;
-- (void);
 - (id);
+- (id);
+- (void)øÿÿº=þÿ;
 
 @end
 

@@ -23,15 +23,16 @@
 - (id);
 - (double);
 - (id);
-- (double)emsToMatchAttributesHandler;
-- (void);
 - (double);
-- (long long);
 - (unsigned long long);
 - (double);
+- (long long);
 - (id);
-- (unsigned long long);
-- (long long);
+- (double);
+- (void);
+- (unsigned long long)@ù
+× ;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) double DNSDuration; // @synthesize DNSDuration=_DNSDuration;

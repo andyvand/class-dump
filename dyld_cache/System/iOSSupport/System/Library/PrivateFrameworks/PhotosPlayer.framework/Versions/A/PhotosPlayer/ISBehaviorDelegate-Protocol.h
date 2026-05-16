@@ -5,7 +5,5 @@
 //
 
 @protocol ISBehaviorDelegate
-- (float)J);
-- (_Bool);
 @end
 

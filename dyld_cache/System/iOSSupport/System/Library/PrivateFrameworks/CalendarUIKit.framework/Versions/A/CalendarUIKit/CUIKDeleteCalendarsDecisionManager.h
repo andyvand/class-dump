@@ -20,7 +20,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -33,18 +33,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (void)acyDrawingImage:toConvertedDrawing:debugImagesDirectory: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void)ForFont: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CUIKDeleteCalendarsConfirmationInfo *nextConfirmation;

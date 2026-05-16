@@ -28,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)omeHub2FromPresentingViewController:devices:usageOptions:> home = %@ (%{public}@) | presentingVC:%@ | devices:%@ | usageOptions:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUAddTriggerItem *addTriggerItem; // @synthesize addTriggerItem=_addTriggerItem;

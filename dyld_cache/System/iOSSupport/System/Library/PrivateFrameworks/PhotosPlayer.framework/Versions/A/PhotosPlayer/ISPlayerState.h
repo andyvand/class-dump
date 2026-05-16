@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *diagnosticLabel; // @synthesize diagnosticLabel=_diagnosticLabel;

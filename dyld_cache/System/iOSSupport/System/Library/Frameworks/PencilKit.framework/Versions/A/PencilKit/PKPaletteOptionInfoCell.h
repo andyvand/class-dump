@@ -14,8 +14,8 @@
     UILabel *_subTextLabel;
 }
 
-- (id)Content-Type;
-- (void);
+- (id);
+- (void)nalDelegate;
 
 @end
 

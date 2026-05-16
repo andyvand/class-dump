@@ -7,15 +7,15 @@
 @class NSData, NSDate, NSNumber, NSString;
 
 @protocol PXDisplayAsset
-- (unsigned long long)on: /* Error: Ran out of types for this method. */;
+- (_Bool)!ÔFùF°1â
+0@ù
+× ;
+- (_Bool)@0:8@"<PXDisplayAssetFetchResult>"16Q24Q32@?<v@?dddd>40 /* Error: Ran out of types for this method. */;
+- (NSString *)ionSkimmingModel;
 
 @optional
-- (NSNumber *)8;
-- (unsigned short)ÿ;
-- (double);
-- (double)rtChecker.m;
-- (NSNumber *)=¯f;
-- (unsigned long long);
+- (NSNumber *);
+- (NSNumber *)y²æAAyABæGGACG;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

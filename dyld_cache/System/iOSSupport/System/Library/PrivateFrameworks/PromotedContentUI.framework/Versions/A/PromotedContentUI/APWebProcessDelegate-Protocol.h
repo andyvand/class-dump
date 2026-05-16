@@ -5,13 +5,5 @@
 //
 
 @protocol APWebProcessDelegate
-
-@optional
-- (void)agesGroup:OK /* Error: Ran out of types for this method. */;
-- (void)nfirmAddToMessagesGroup:canceled by user /* Error: Ran out of types for this method. */;
-- (void)5˿;
-- (void);
-- (void)B;
-- (void)waiting for continuation [%ld edits remain] activeEdits=%{public}@;
 @end
 

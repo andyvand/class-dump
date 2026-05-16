@@ -41,15 +41,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)PositionAnimated:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)tyAmount;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEdgeAntialiasing; // @synthesize allowsEdgeAntialiasing=_allowsEdgeAntialiasing;

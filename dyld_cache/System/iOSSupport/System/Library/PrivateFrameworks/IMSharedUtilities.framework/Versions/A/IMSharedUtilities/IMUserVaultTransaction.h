@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)èRÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url;

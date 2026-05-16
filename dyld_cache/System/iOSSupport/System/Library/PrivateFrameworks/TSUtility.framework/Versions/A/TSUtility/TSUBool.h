@@ -9,8 +9,8 @@
     _Bool _value;
 }
 
-- (_Bool);
 - (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool value; // @synthesize value=_value;

@@ -22,15 +22,15 @@
     MISSING_TYPE *router;
     MISSING_TYPE *sessionBadgeState;
     MISSING_TYPE *sessionBadgeSource;
-    MISSING_TYPE *engagement;
-    MISSING_TYPE *appIconBadgeIdentifierBase;
+    MISSING_TYPE *sessionBadgeMetrics;
+    MISSING_TYPE *sessionBadgeActionMetricsEvent;
+    MISSING_TYPE *engagementEnqueueHandler;
     MISSING_TYPE *$__lazy_storage_$_paidBundleViaOfferConfig;
 }
 
-- (void);
-- (void)0;
-- (void)P;
 - (id);
+- (void);
+- (void);
 
 @end
 

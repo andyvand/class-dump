@@ -17,11 +17,11 @@
 }
 
 - (id);
-- (void);
-- (id);
 - (void);
-- (void);
-- (_Bool)=dd}{CGSize=dd}}16;
+- (void);
+- (_Bool);
+- (id);
+- (void)è³;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

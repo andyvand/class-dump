@@ -35,69 +35,73 @@
     struct UIEdgeInsets _preferredContentInsets;
 }
 
-- (id);
-- (void)e{;
-- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)4@28;
-- (void)otatedPayload;
-- (id);
-- (void)ent:%{public}@, pressed:%{BOOL}u /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (id);
-- (void)ñÁð1¢!0@ù
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)¡°!¬Aù`°1Â0@ù
 × ;
-- (void)ationControllerPalette";
-- (void)eesWithProperty:(_Bool)arg1 value: /* Error: Ran out of types for this method. */;
-- (_Bool)hResponse: /* Error: Ran out of types for this method. */;
-- (_Bool)tCollection: /* Error: Ran out of types for this method. */;
-- (struct CGSize)Throttle;
+- (id)
+× ;
+- (void)àEùÑaÐ1Â0@ù
+× ;
 - (void);
-- (_Bool)vent: /* Error: Ran out of types for this method. */;
-- (id)n!toÐr(s´sätìvÐw;
-- (void)Õ;
-- (void)bBar._barMetrics unexpectedly not _UITabBarMetricsTV in _UITabBarVisualProviderLegacyTVOS. _tabBar = %@;
-- (id)j±ùÿ;
-- (id)ÔÏþ`{þÿ;
-- (_Bool);
-- (void);
-- (void)FüÿB|ýÿÎ¨üÿ;
+- (void)0@ù
+× ;
+- (_Bool)
+°!@ùg°1Â0@ù
+× ;
+- (void)eedback:(struct CGSize)arg1;
+- (void):(id)arg1 contentSizeForZoomScale:withProposedSize: /* Error: Ran out of types for this method. */;
+- (void)erForFailureRelationship;
+- (id)lSnapshot:initialSectionSnapshots: /* Error: Ran out of types for this method. */;
+- (void)tionFilter;
+- (void)DateComponents",&,N;
+- (id)8+;
+- (_Bool)P;87ÑÌQh7ÑÜh7Ñ ¨7Ñ@Ä7ÑTGØ7Ñ01ô7Ñm8Ñ{D8Ñ8åh:ÑDúx:ÑÔ:ÑtÜ:Ñ¸¨@;Ñ¬«x;Ñ4®¤;Ñ¼i ô;Ñ¸s <ÑXx ,<Ñà%!T<Ñà3!¤<Ñà8!`=ÑTN!¼=ÑxS!Ð=ÑÈ[!ä=Ñ!>Ñ´!D>Ñ(©!p>ÑXÐ! /* Error: Ran out of types for this method. */;
+- (void)view controller must call -[super initWithCoder:] when created from -[%@ %@] /* Error: Ran out of types for this method. */;
+- (_Bool)gSessionByType;
 - (void);
-- (_Bool)m;
-- (_Bool);
-- (_Bool);
-- (void)built;
-- (void)textMenu_BackgroundDimAlpha;
-- (void)olate range (beginning to end);
-- (_Bool)entPayload;
-- (void)%@;
-- (void)omecalendar;
-- (id)sitioned from %@ to %@;
-- (unsigned long long)board;
-- (void)splayTypeRightArrow;
-- (void)roller?;
-- (void)to a view;
-- (void)[_UISceneMacHelperUtilities sceneIdentifierForUIScene:] /* Error: Ran out of types for this method. */;
-- (void)systemDisconnection;
-- (void)ollectionLayoutAuxillaryOffsets indexesForElementKind:(struct CGSize)arg1 ];
-- (void)ert controllers assigned to the same window %@;
-- (struct UIEdgeInsets)rolGlassStyle;
-- (void)ed;
-- (void)ü©ñ=¦D<;
-- (id)Configuration;
-- (_Bool)ÿÿÿÿ;
-- (_Bool)×£p=
-×?j¼tÔ?ìQ¸ëá?Ñ"Ûù~jÜ?ü©ñÒMb ?Ház®GÑ?;
-- (void)¼4<;
-- (void);
-- (void)¿L×Ü^;
+- (unsigned long long);
+- (_Bool);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (void);
-- (void)è4bþ;
-- (_Bool)²Ökø^;
-- (void)´£_;
+- (void)Ô\;
+- (void);
+- (void);
+- (id);
+- (void)ÆÖÔ§[;
+- (_Bool);
+- (void)c;
+- (_Bool)^;
+- (_Bool)Üä¡\;
+- (void);
+- (void);
+- (void)ÿ;
+- (void)ÙGÙDA];
+- (id)Ôr];
+- (void)0¿];
+- (void)DÌþ;
+- (id)þÉ;
+- (_Bool)8H1ÿ\|Ø;
+- (void)XÊÿ;
+- (void)î^;
+- (void)5ÚØ`;
+- (void)`;
+- (_Bool)¬TËÿ¾çË¸P`;
+- (void)E;
+- (struct CGSize)¯`;
+- (void)âÍÚpµ`;
+- (void)pOa;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_attachmentIsChanging) _Bool _attachmentIsChanging;

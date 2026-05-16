@@ -14,9 +14,9 @@
     MISSING_TYPE *counter;
 }
 
-- (void);h;
 - (id);
-- (void)urs"s"mMinutes"s"mSeconds"s"mFrames"s}"mFlags"I"mReserved"I};
+- (void);
+- (void)AOS] <%p> Routing to devices;
 
 @end
 

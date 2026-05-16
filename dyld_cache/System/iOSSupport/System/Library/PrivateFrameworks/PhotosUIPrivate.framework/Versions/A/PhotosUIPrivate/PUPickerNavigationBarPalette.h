@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)llAppear:(id)arg1;
+- (void);
+- (id)ngeColor;
 
 @end
 

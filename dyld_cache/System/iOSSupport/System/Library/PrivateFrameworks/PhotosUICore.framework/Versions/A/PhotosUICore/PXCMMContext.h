@@ -36,7 +36,7 @@
     double _ppt_delay;
 }
 
-+ (id)M#: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -67,28 +67,32 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (long long);
-- (long long);
 - (id);
+- (id);
+- (void)qE1â
+0@ù
+× ;
 - (void);
-- (id);
+- (void)AùQH1â
+0@ù
+× ;
+- (void)oggleButtonTimer;
+- (unsigned long long)r;
+- (id)i0i;
 - (void);
-- (id);
-- (id),ðñÄñXò;
-- (id)²ùÿîÁøÿ;
-- (void)nøÿûÿïøÿ;
-- (id)tionalAttributes.keywords;
-- (id);
-- (long long);
-- (id)Ül;
-- (void);
-- (unsigned long long)ÿAÇñ7;
-- (void),8;
-- (void)D¤÷ÿ¶¥OnG8;
-- (unsigned long long)·­8;
+- (long long):photoLibrary:) started. /* Error: Ran out of types for this method. */;
+- (id)Error loading live photo item from attachment:%{public}s | asset %{public}s:%@ /* Error: Ran out of types for this method. */;
+- (void)StyleSwitchingFullsizeLayout.m;
+- (id)`u9Æÿÿÿ;
+- (void)ícÊª"ÿÝcÊÿ;
+- (void)|Áÿ;
+- (unsigned long long)QìÓ7;
+- (long long)68;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMActionManager *actionManager;

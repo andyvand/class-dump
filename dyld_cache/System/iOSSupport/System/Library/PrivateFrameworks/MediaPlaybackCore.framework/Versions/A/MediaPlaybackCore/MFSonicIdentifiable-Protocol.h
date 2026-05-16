@@ -5,8 +5,6 @@
 //
 
 @protocol MFSonicIdentifiable
-- (id)ueue;
-- (id)re2;
 
 // Remaining properties
 @property(readonly, nonatomic) id contentIdentifier;

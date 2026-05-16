@@ -4,111 +4,74 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, MTLMeshRenderPipelineDescriptor, MTLResidencySetDescriptor, MTLSharedTextureHandle, MTLTensorDescriptor, MTLTextureDescriptor, NSArray, NSBundle, NSString;
-@protocol MTL4ArgumentTable, MTL4BinaryFunction, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTL4CounterHeap, MTLAccelerationStructure, MTLArgumentEncoder, MTLBinaryArchive, MTLBuffer, MTLBufferBinding, MTLCommandQueue, MTLComputePipelineState, MTLCounterSampleBuffer, MTLDynamicLibrary, MTLFence, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTexture, MTLTextureViewPool;
+@class MTLArchitecture, MTLCommandQueueDescriptor, MTLIndirectCommandBufferDescriptor, MTLRenderPipelineDescriptor, MTLSharedEventHandle, NSArray, NSString;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent;
 
 @protocol MTLDevice
-- (id <MTL4CommandAllocator>)
-× ;
-- (void)MÐ1B0@ù
-× ;
-- (id <MTLRenderPipelineState>)0@ù
-× ;
-- (id <MTLCounterSampleBuffer>)!`Bù±M°1B0@ù
-× ;
-- (void)1B0@ù
-× ;
-- (id <MTLComputePipelineState>)Á3!\EùÑM1B0@ù
-× ;
-- (id <MTL4CounterHeap>)× ;
-- (id <MTLLibrary>)!4BùÑM°1B0@ù
-× ;
-- (_Bool)ùñM1B0@ù
-× ;
-- (id <MTL4CommandQueue>)á3°!°AùñMÐ1B0@ù
-× ;
-- (_Bool)4°! Eù1N1B0@ù
-× ;
-- (id <MTLCommandQueue>)!(Eù1N1B0@ù
-× ;
-- (id <MTL4CommandBuffer>)°!Dù1N1B0@ù
-× ;
-- (id <MTLIOFileHandle>)Ô ;
-- (_Bool)4Ð!´Bù1N°1B0@ù
-× ;
-- (id <MTLFunctionHandle>)LEvent>"16@0:(id <MTL4BinaryFunction>)arg1 8;
-- (id <MTLAccelerationStructure>)PipelineReflection"@"NSError">32;
-- (_Bool)t=dd}24;
-- (unsigned long long)er";
-- (id <MTLRenderPipelineState>)t=dd}{CGSize=dd}}24B56;
-- (id <MTLBuffer>)=}16@0:(unsigned long long)arg1 8;
-- (id <MTLIOCommandQueue>)ointerInteraction"16@"UIPointerRegion"24@"<UIPointerInteractionAnimating>"32;
-- (_Bool)AndGroupNormalizedQuadsForHighlight:aspectRatio:expansionScale:radiusToAvgHeightRatio: /* Error: Ran out of types for this method. */;
-- (void)e:(unsigned long long *)arg1 inRange:(unsigned long long *)arg2 options:usingBlock: /* Error: Ran out of types for this method. */;
-- (id <MTLLibrary>)vk_colorWith20PercentOpacity;
-- (id <MTL4ArgumentTable>)ateSelectionRects;
-- (void)ViewScale:(MTLMeshRenderPipelineDescriptor *)arg1;
-- (CDStruct_4bcfbbae)DocumentOutputRegion:(MTLTensorDescriptor *)arg1;
-- (id <MTLTexture>)yer:(MTLTextureDescriptor *)arg1;
-- (_Bool)tIsAnalysisVisible: /* Error: Ran out of types for this method. */;
-- (_Bool)d: /* Error: Ran out of types for this method. */;
-- (_Bool)rs: /* Error: Ran out of types for this method. */;
-- (id <MTLLibrary>)StrokeLengthFraction:(NSBundle *)arg1 beginDelay:(id *)arg2 identifier: /* Error: Ran out of types for this method. */;
-- (_Bool)intInsideValueForStartPoint:(unsigned long long)arg1 endPoint:testPoint: /* Error: Ran out of types for this method. */;
-- (id <MTLArgumentEncoder>):(id <MTLBufferBinding>)arg1;
-- (id <MTLAccelerationStructure>)tSettingsValue;
-- (_Bool)ffset:endOffset: /* Error: Ran out of types for this method. */;
-- (id <MTLResidencySet>)rce:(MTLResidencySetDescriptor *)arg1 value:(id *)arg2 contentType:maxCharacterCount: /* Error: Ran out of types for this method. */;
-- (unsigned long long)terSet:(unsigned long long)arg1;
-- (id <MTLTextureViewPool>)ettingsValue;
-- (id <MTLArgumentEncoder>)lySetBackgroundDiameter;
-- (void)ize;
-- (id <MTL4CommandAllocator>)rateImage;
-- (_Bool)Object:(unsigned long long)arg1;
-- (id <MTLDynamicLibrary>)entedMaskImage;
-- (unsigned long long)eView;
-- (void)eSmallStrokeRadiusMultiplier;
-- (id <MTLRenderPipelineState>)mentDuration;
-- (id <MTLLibrary>),N,V_cornerRadiusRatio;
-- (CDStruct_14f26992)_performInPlace;
-- (unsigned long long)Pane;
-- (void)ognizer",&,N,V_tapGR;
-- (id <MTLLibrary>)t;
-- (MTLArchitecture *)kenizer",&,N,V_tokenizer;
-- (unsigned long long)ring",C,N,V_localIdentifier;
-- (id <MTLSharedEvent>)@"NSString",&,N,V_previousString;
-- (id <MTLIOFileHandle>)ration;
-- (unsigned long long)er",W,N,V_textHighlightLayer;
-- (id <MTLCommandQueue>)omographyFrameProcessor;
-- (_Bool)@i;
-- (unsigned int)O
-@QTThW;
-- (id <MTLComputePipelineState>)û;
-- (unsigned long long)´ôµp¶+·2¸2,º`¼Ì¾¿¸¿À¿0ÔÃdÅøÅ=É¤ÊPË;
-- (unsigned int)Y;
-- (id <MTLTexture>)malizedVisibleRect window:(MTLSharedTextureHandle *)arg1 %@  windowContentsRect:%@ /* Error: Ran out of types for this method. */;
-- (id <MTLComputePipelineState>)sual Intelligence as an active type, but AI is not available, removing VI;
-- (id <MTLFunctionHandle>)6@0:(id <MTLFunction>)arg1 8;
-- (unsigned long long);
-- (_Bool)kerComicRendererP33_81D8FC30437B9707A932704C59B93E757Shaders;
-- (_Bool)ectorInfo"32@?0@"VKCTextDataDetectorElement"8q16q24;
-- (_Bool)AnalyzerRequest:] /* Error: Ran out of types for this method. */;
-- (unsigned long long)tTypePostalCode;
-- (_Bool)s.domain_key.cats;
-- (id <MTLBinaryArchive>)nAlbum;
-- (_Bool)to insert object in mutableArray at index (%ld) greater than count (%ld);
-- (id <MTLSharedEvent>)ectorElementView sendAnalyticsEventIfNecessaryForDDType:] /* Error: Ran out of types for this method. */;
-- (_Bool)NSNotFound processing table region;
-- (NSArray *)bilityFromSampleBuffer:] /* Error: Ran out of types for this method. */;
-- (_Bool)ctions error;
-- (void);
-- (_Bool)ü;
-- (unsigned long long)ÿÿw;
-- (id <MTLFence>);
-
-@optional
-- (unsigned long long);
-- (void)"16;
+- (id <MTLAccelerationStructure>);
+- (unsigned long long)y"16Q24@?<v@?B@"VKCVisualSearchResult"@"NSError">32;
+- (_Bool)Date: /* Error: Ran out of types for this method. */;
+- (id <MTL4CommandAllocator>)lineState;
+- (id <MTLEvent>)e;
+- (id <MTL4Archive>);
+- (unsigned long long)ns:start:completion: /* Error: Ran out of types for this method. */;
+- (id <MTLRenderPipelineState>)er;
+- (id <MTLDynamicLibrary>)ssor;
+- (id <MTL4ArgumentTable>);
+- (_Bool)#%"°');
+- (void);
+- (void)×;
+- (void)eGenerator;
+- (id <MTLRasterizationRateMap>)talLayerContainer;
+- (_Bool)ErrorType;
+- (id <MTLFunctionHandle>)wn;
+- (id <MTLDynamicLibrary>)y/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore;
+- (id <MTLSharedEvent>)visual search results:(MTLSharedEventHandle *)arg1 %@;
+- (void)nalysis object:(MTLRenderPipelineDescriptor *)arg1 %@;
+- (id <MTLLibrary>)d:(NSString *)arg1 %@;
+- (id <MTLFence>)th an invalid image. %@;
+- (id <MTLCommandQueue>)dexes:(MTLCommandQueueDescriptor *)arg1 %@, :%@ /* Error: Ran out of types for this method. */;
+- (id <MTL4CommandBuffer>)f 
+ analysisTypes:%@ 
+ requestType:%@ 
+ requestSource:%@ 
+ imageSize:%@ 
+ textLength:%ld 
+ lineCount:%ld 
+ ddCount:%ld 
+ mrcCount:%ld 
+ visualSearchCount:%ld 
+ automatedTest:%@ 
+ bundleIdentifier:%@ 
+ error:%@  /* Error: Ran out of types for this method. */;
+- (_Bool)rt;
+- (unsigned long long)<>: /* Error: Ran out of types for this method. */;
+- (id <MTLFunctionHandle>)eText;
+- (id <MTL4CommandAllocator>)rResult"8q16q24;
+- (_Bool)calPoint:%@ 
+ serverProcessingTime:%f 
+ serverResultWasCached:%@ 
+ automatedTest:%@ 
+ bundleIdentifier:%@ 
+  /* Error: Ran out of types for this method. */;
+- (_Bool)lements:%lu 
+ textLength:%lu 
+ averageTextSelectionLength:%lu 
+ numberOfSelectionChanges:%lu 
+ didActivateHighlightAll:%@ 
+ didActivateRegexHighlight:%@ 
+ automatedTest:%@ 
+ bundleIdentifier:%@ 
+  /* Error: Ran out of types for this method. */;
+- (id <MTLSharedEvent>)eForHorizonLevelPreview;
+- (MTLArchitecture *)a;
+- (id <MTLIndirectCommandBuffer>)[VKCRemoveBackgroundResult _memoryFriendlyCreateCGImageFromBGRAPixelBuffer:(MTLIndirectCommandBufferDescriptor *)arg1 cropRect:(unsigned long long)arg2 ];
+- (unsigned long long)RemoveBackgroundResult initWithMADResult:request:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)rer;
+- (_Bool)r;
+- (_Bool)ror;
+- (unsigned long long)óSt$ß?;
+- (id <MTLLibrary>);
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -125,7 +88,7 @@
 @property(readonly) unsigned long long maxArgumentBufferSamplerCount;
 @property(readonly) unsigned long long maxBufferLength;
 @property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) CDStruct_14f26992 maxThreadsPerThreadgroup;
+@property(readonly) struct maxThreadsPerThreadgroup;
 @property(readonly) unsigned long long maxTransferRate;
 @property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
@@ -146,6 +109,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

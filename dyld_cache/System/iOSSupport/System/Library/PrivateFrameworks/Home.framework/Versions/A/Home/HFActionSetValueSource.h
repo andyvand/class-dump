@@ -46,10 +46,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
 - (void);
+- (_Bool);
+- (void)entAirPurifierStateInactive;
 
 // Remaining properties
 @property(retain, nonatomic) HMActionSet *actionSet; // @synthesize actionSet=_actionSet;

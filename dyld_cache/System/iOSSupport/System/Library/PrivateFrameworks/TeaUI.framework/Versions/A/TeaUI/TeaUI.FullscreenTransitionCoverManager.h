@@ -14,11 +14,11 @@
     MISSING_TYPE *dimmed;
 }
 
-- (void)&r;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 
 @end
 

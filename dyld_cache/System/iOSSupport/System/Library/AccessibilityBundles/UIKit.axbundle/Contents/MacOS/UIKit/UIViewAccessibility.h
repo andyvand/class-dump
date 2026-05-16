@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (id);
 - (void);
@@ -57,9 +57,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -75,18 +75,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
 - (_Bool);
 - (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
-- (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (void);
 
 @end
 

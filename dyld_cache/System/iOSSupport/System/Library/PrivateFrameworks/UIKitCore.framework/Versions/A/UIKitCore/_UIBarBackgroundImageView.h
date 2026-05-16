@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
     _Bool _translucent;
 }
 
+- (void);
 - (id);
 - (void);
-- (void)#;
-- (void)±ËÐ1¢!0@ù
+- (id)Ôa;
+- (void)1Â0@ù
 × ;
-- (void)e.UIKit.UISheetPresentationControllerExteriorPanGesture;
-- (id)IKBCacheToken.m;
-- (void)el;
-- (_Bool))®Ôy];
+- (void)ion: /* Error: Ran out of types for this method. */;
+- (_Bool)ist: /* Error: Ran out of types for this method. */;
+- (void)Dmÿb7Ö ^;
 
 // Remaining properties
 @property(nonatomic, getter=isTranslucent) _Bool translucent; // @synthesize translucent=_translucent;

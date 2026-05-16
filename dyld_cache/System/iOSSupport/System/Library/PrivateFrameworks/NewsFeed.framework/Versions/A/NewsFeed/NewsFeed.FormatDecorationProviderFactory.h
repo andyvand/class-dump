@@ -11,6 +11,7 @@
     MISSING_TYPE *assetManager;
     MISSING_TYPE *systemFactory;
     MISSING_TYPE *config;
+    MISSING_TYPE *commandCenter;
 }
 
 @end

@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
 - (long long);
+- (struct CGRect);
 - (id);
+- (void);
+- (void);
+- (void)Height;
 
 // Remaining properties
 @property(retain, nonatomic) MUImpressionElement *clientElement; // @synthesize clientElement=_clientElement;

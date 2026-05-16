@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     UIView *_separatorView;
 }
 
-- (void);
-- (id)So15CAMeshTransformCSg;
+- (id)e:(struct CGRect)arg1;
+- (void)¸YÌþ`í;
 
 @end
 

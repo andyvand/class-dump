@@ -8,19 +8,17 @@
 
 @interface WBSHistoryCrypto
 {
-    NSData *_cachedCryptographicKey;
     NSData *_salt;
 }
 
++ (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)(;
+- (void)È;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *cryptographicKey;

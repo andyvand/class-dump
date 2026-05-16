@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)dle:(id)arg1 onService: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

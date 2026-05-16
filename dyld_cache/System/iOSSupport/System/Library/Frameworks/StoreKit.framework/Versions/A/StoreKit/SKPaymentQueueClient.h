@@ -25,7 +25,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,26 +35,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)@;
-- (void)";
+- (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id)B�;
-- (void)*A;
-- (void)ÿ
-ÿÿ;
-- (id)8StoreKit23StoreKitPaymentDelegate;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsBootstrapCellularData; // @synthesize allowsBootstrapCellularData;

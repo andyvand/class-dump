@@ -28,7 +28,7 @@
     PFTFuture *_future;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (_Bool);
@@ -38,14 +38,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
-- (void)Hç;
+- (void);
+- (void)!lBùñèð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PUIPosterSnapshotCaptureController *captureController; // @synthesize captureController=_captureController;

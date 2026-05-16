@@ -26,33 +26,35 @@
 }
 
 + (id);
-+ (id)nsSettings;
-+ (id)_queryID;
++ (id);
++ (id);
+- (id);
+- (void);
 - (long long);
-- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long)nment:(long long)arg1;
-- (id)V^<ahiôi8kr;
-- (id);
-- (id);
-- (id);
-- (void)ð yACy:(id)arg1 ç"yTý AEGø"y¶ö _Qo_GACyxAGGGGëç"G;
-- (void)r];
+- (long long);
 - (struct CGSize);
-- (id)ZJÑ4;
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)qGÐ1â
+0@ù
+× ;
+- (void);
+- (void)mension;
+- (void)osUICore/LemonadeFeatureAvailabilityProcessingViewFactory.swift;
+- (id)UICore.PhotosSecondaryToolbarPageControl;
+- (void);
+- (id)LDñÿ!;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

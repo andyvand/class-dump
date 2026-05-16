@@ -22,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)ia;
+- (void)etUpcomingItemCount;
+- (id)%1$d through %2$d, and the list has only %3$d).;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMNotFoundException *notFoundException; // @synthesize notFoundException=_notFoundException;

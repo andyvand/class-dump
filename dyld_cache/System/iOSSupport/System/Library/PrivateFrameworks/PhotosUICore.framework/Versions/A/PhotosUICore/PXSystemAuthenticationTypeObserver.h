@@ -25,13 +25,13 @@
 - (void);
 - (long long);
 - (void);
+- (void);
+- (void);
 - (id);
 - (long long);
-- (void);
-- (void);
 - (id);
-- (void)nfoPanelVisibilityFractionAnimator;
-- (id)ÍÿF\HÂ;
+- (id)85;
+- (void)ScrollDetentsProvider;
 
 // Remaining properties
 @property(nonatomic) long long authenticationType; // @synthesize authenticationType=_authenticationType;

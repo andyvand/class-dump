@@ -23,10 +23,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (double);
 - (id);
 - (double);
-- (void);
 
 // Remaining properties
 @property(nonatomic) double iconToTitleSpacing; // @synthesize iconToTitleSpacing=_iconToTitleSpacing;

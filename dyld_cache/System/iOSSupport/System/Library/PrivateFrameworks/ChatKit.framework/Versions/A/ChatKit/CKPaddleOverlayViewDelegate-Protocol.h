@@ -5,6 +5,5 @@
 //
 
 @protocol CKPaddleOverlayViewDelegate
-- (void);
 @end
 

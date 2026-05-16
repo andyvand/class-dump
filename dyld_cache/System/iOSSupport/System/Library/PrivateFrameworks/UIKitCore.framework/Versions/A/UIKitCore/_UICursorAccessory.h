@@ -16,31 +16,31 @@
     unsigned long long _style;
 }
 
-+ (_Bool):Pm /* Error: Ran out of types for this method. */;
++ (_Bool)tedText:toCharacterRange:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)& ITU:(_Bool)arg1 %@;
-- (_Bool)share off grid mode with handle %@ from handle %@. didAttemptInvitation:%{BOOL}d wasAlreadyInvited:%{BOOL}d didShareHandle:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (void)r:(id)arg1;
-- (unsigned long long);
+- (void);
 - (_Bool);
-- (double);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (unsigned long long)0@ù
+- (void)0@ù
 × ;
-- (void)_map_hasher<long, std:(id)arg1:__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)temSolver";
-- (id)ItemSpace;
-- (void);
-- (id)üu;
-- (id)h the same identifier must have the same data type.;
-- (void)oPoint;
-- (_Bool)tempting to change directional layout margins of a private view;
+- (double)tField"16;
+- (_Bool)Color;
+- (void)ptions;
+- (void)onItemUpdatedAllowsInteractivePopWhenBackButtonHidden:(id)arg1;
+- (void)umn:(id)arg1;
+- (id)@;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;

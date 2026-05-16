@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ithIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)Workflow:workflowReference:withCompletionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *lastKnownDestinations; // @synthesize lastKnownDestinations=_lastKnownDestinations;

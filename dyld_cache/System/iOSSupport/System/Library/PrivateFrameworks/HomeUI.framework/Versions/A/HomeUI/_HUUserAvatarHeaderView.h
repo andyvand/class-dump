@@ -31,17 +31,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)|ÏÿM|ÏÿU|;
+- (id)n:contentLayout: /* Error: Ran out of types for this method. */;
+- (void)] home = %@ (uniqueIdentifier = %{public}@) | residentDevice = [%@] (uniqueIdentifier = %{public}@) supportsHH2 = [%d];
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;

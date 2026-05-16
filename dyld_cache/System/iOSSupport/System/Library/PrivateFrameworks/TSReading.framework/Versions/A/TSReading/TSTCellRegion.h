@@ -21,10 +21,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -46,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -79,14 +79,14 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)apple.news.personalizationStorage.CompressedSessionEventArticleRead;
 - (_Bool);
 
 // Remaining properties

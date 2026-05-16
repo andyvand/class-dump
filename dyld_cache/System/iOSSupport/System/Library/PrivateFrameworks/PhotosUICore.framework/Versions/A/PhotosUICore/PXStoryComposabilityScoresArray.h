@@ -16,11 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)}{CGSize=dd}}^v}BB^v^v^vQ}8;
-- (unsigned long long);
+- (id);
+- (unsigned long long)ºGGGG<ºG_Qo__Qo__AAy0abc5ModalE0A74_QzATySbSgGGSgQo_eåyxGG
+OåG_SbQo_;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

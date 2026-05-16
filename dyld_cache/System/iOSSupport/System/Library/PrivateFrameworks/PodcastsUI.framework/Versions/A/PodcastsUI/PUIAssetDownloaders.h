@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PUIAssetDownloaders
 {
-    MISSING_TYPE *backgroundArtworkDownloader;
-    MISSING_TYPE *backgroundArtworkSource;
-    MISSING_TYPE *storeArtworkSource;
-    MISSING_TYPE *libraryArtworkSource;
 }
 
-+ (id);
-- (void);
-- (void);
++ (void);
 - (id);
 
 @end

@@ -5,8 +5,8 @@
 //
 
 @interface (null) (UITextServiceSession)
-- (void)HighQualityPhotoUploadForNetworkConditions:(CDUnknownBlockType)arg1 (%@), isWifiUsable:(%@), hasLTE:(%@) /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)NSArray"16;
+- (void);
+- (CDUnknownBlockType);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dismissCompletionHandler;

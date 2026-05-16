@@ -5,8 +5,7 @@
 //
 
 @protocol _UIHyperregion
-- (void)áqÐ!¤Gù1Å°1¢!0@ù
-× ;
+- (void)';
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions;

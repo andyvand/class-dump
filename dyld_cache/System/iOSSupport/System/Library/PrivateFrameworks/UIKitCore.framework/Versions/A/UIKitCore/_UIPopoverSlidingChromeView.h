@@ -13,20 +13,21 @@ __attribute__((visibility("hidden")))
 
 + (struct UIEdgeInsets);
 + (double);
-+ (double)lidateSubviewCache;
-+ (double)leTimedInhibitor;
++ (double)ÿ¶éw];
++ (double)h79ÿ;
 - (id);
 - (struct UIEdgeInsets);
 - (double);
 - (void);
-- (unsigned long long);
-- (struct CGSize)
+- (double)@ù
 × ;
-- (double)tive;
-- (void);
-- (void);
-- (struct UIEdgeInsets)tEffectsWindowFrameDidChangeNotificationToFrame;
-- (double);
+- (struct CGSize)1Â0@ù
+× ;
+- (double)cLayoutPoint;
+- (struct UIEdgeInsets)gViewControllerDuringAdaptation:,V_changedPresentingViewControllerDuringAdaptation /* Error: Ran out of types for this method. */;
+- (unsigned long long)group layout: /* Error: Ran out of types for this method. */;
+- (void)C;
+- (void)IsForcedFullScreen;
 
 @end
 

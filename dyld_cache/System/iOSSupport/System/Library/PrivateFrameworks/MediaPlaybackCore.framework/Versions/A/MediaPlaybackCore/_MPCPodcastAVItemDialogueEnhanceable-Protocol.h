@@ -5,8 +5,6 @@
 //
 
 @protocol _MPCPodcastAVItemDialogueEnhanceable
-- (_Bool)geObserver did notify pass library.;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEnhanceDialogueActive;

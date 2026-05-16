@@ -5,8 +5,5 @@
 //
 
 @protocol NSLayoutManagerDelegate
-
-@optional
-- (_Bool);
 @end
 

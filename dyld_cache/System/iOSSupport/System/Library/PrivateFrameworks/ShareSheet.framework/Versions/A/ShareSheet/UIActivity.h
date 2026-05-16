@@ -32,9 +32,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)entationBlockingViewControllerDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *activityImage; // @synthesize activityImage=_activityImage;

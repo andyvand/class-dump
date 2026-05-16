@@ -5,8 +5,9 @@
 //
 
 @protocol FCNetworkReachabilityType
-- (_Bool)@üÿ;
-- (long long)NewsUI2;
+- (void)Failed to fetch audio playlist feed service config. Error=%{public}@);
+- (long long);
+- (_Bool)|±	-bL~;
 
 // Remaining properties
 @property(readonly, nonatomic) long long cellularRadioAccessTechnology;

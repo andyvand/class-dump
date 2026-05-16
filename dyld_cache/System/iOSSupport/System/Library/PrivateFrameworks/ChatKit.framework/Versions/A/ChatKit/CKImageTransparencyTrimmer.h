@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-- (double)VerifyDoNotMatchLabel;
-- (double)tField",W,N,V_passwordAndVerifyDoNotMatchLabel;
-- (double)ld;
-- (struct CGRect)tField",W,N,V_hintTextField;
-- (double)ingPathComponent: /* Error: Ran out of types for this method. */;
-- (id)Title;
-- (unsigned char)f;
+- (double);
+- (double);
+- (double);
+- (struct CGRect);
+- (double);
+- (id);
+- (unsigned char);
 - (_Bool);
 - (void);
 - (int);
@@ -30,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (char *);
 - (void);
 - (int);
-- (id);
-- (void);
 - (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (double);
 - (double);
 - (void);
-- (struct CGSize);
-- (void);
-- (double)releaseOwnershipOfBrowserForConsumer: /* Error: Ran out of types for this method. */;
+- (void)$Ø¤è;
 
 // Remaining properties
 @property(nonatomic) char *bitmap; // @synthesize bitmap=_bitmap;

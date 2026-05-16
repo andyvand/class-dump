@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)BXSG;
-- (void)µE`UGRCG;
+- (void)¶	yAAyó¸¶	¸¶	ySbGG_Qo_ACy½¸¶	GGACy«¯¶	GGACySiSgGGACyX¸¶	SgGG;
 @end
 

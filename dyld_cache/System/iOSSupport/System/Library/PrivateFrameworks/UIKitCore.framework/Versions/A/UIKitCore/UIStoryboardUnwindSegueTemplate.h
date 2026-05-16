@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     NSString *_action;
 }
 
-- (id)TimerWithInterval:(id)arg1;
-- (id)lookup failed, falling back to display name:(id)arg1 %@ participants:(id)arg2 %@ mergeDisplayNames:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)Font:(id)arg1;
 - (id);
-- (void)=iº;
-- (void);
-- (id);
+- (void)rwardProgress;
+- (id)nil;
+- (void)pSgXw;
+- (void)´gþ#úR;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *action; // @synthesize action=_action;

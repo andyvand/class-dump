@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSMapTable, NSString, NSUUID, UIFocusContainerGuide, UIKeyCommand, UILayoutContainerView, UINavigationBar, UINavigationDeferredTransitionContext, UINavigationTransitionView, UISearchController, UITabGroup, UITapGestureRecognizer, UIToolbar, UITraitCollection, UIView, _UIAnimationCoordinator, _UIBarPanGestureRecognizer, _UIBarTapGestureRecognizer, _UINavigationControllerPalette, _UINavigationControllerVisualStyle, _UIScrollPocketCollectorInteraction, _UIScrollPocketContainerInteraction, _UITVScrollViewManager, _UIUnsafeUnretainedCleanupHelper, _UIViewControllerTransitionConductor, _UIViewControllerTransitionManager;
+@class NSMapTable, NSString, NSUUID, UIFocusContainerGuide, UIKeyCommand, UILayoutContainerView, UINavigationBar, UINavigationDeferredTransitionContext, UINavigationTransitionView, UIScrollView, UISearchController, UITabGroup, UITapGestureRecognizer, UIToolbar, UITraitCollection, UIView, _UIAnimationCoordinator, _UIBarPanGestureRecognizer, _UIBarTapGestureRecognizer, _UINavigationControllerPalette, _UINavigationControllerVisualStyle, _UIScrollPocketCollectorInteraction, _UIScrollPocketContainerInteraction, _UITVScrollViewManager, _UIUnsafeUnretainedCleanupHelper, _UIViewControllerTransitionConductor, _UIViewControllerTransitionManager;
 @protocol UINavigationControllerDelegate, _UIFloatingBarContainer, _UIInvalidatable;
 
 @interface UINavigationController : UIViewController
@@ -18,8 +18,8 @@
     UIView<_UIFloatingBarContainer> *_floatingBarContainerView;
     UINavigationTransitionView *_navigationTransitionView;
     double _statusBarHeightForHideShow;
-    _UIScrollPocketCollectorInteraction *_scrollPocketCollectorInteraction;
     _UIScrollPocketContainerInteraction *_navigationBarScrollPocketContainerInteraction;
+    _UIScrollPocketCollectorInteraction *_scrollPocketCollectorInteraction;
     UIViewController *_disappearingViewController;
     UINavigationDeferredTransitionContext *_deferredTransitionContext;
     UITraitCollection *_overrideTraitCollectionForPoppingViewControler;
@@ -33,7 +33,7 @@
     _UINavigationControllerPalette *_freePalette;
     _UINavigationControllerPalette *_transitioningTopPalette;
     _UINavigationControllerVisualStyle *_visualStyle;
-    _Bool _interactiveScrollActive;
+    UIScrollView *_lastInteractedScrollView;
     struct {
         double minimum;
         double preferred;
@@ -104,6 +104,7 @@
         unsigned int layingOutTopViewController:1;
         unsigned int hasScheduledDeferredUpdateNavigationBarHostedRefreshControl:1;
         unsigned int allowsFreezeLayoutForOrientationChangeOnDismissal:1;
+        unsigned int interactiveScrollActive:1;
         unsigned int scrollViewObservationReasonHasVariableHeightNavigationBar:1;
         unsigned int scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar:1;
         unsigned int scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance:1;
@@ -152,7 +153,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)úMj;
++ (_Bool)owAlphaForExpansionProgress: /* Error: Ran out of types for this method. */;
 
 @end
 

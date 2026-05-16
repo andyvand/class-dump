@@ -5,6 +5,5 @@
 //
 
 @protocol IMFocusStateManagerDelegate
-- (void)Ï­yÑ­y­G_Qo__Qo__AEt;
 @end
 

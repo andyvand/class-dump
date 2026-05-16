@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)ÿÝ(OêÁ8;
+- (void);
+- (void)bilityStatus;
 
 @end
 

@@ -22,56 +22,56 @@ __attribute__((visibility("hidden")))
     long long _contentMaterialRenderingMode;
 }
 
-+ (id)textCache;
 + (id);
-+ (id)leResult for %@ does not support encryption.;
-+ (id)cause messageID:%@, [[self service] supportsDatabase]:%@, service:%@ /* Error: Ran out of types for this method. */;
-+ (id)ice is capable of sending SMS but is not on correct subscription. Failing message;
-+ (id)e groupID (%@) and service (%@) at rowID:%lld, existing display name is (%@) and new display name is (%@) /* Error: Ran out of types for this method. */;
-+ (long long)is not yet complete, Retrying it a bit ;
-+ (id)le safe render failed for Peer Relay because the filetype was not found;
-+ (id)llbackHashesProcessingPipelineComponent> Found no source message GUID for fallback hash with length %llu, rejecting replicated message;
-+ (id)d the zone and we got back same error again.;
-+ (id)ask;
-+ (id)l;
 + (id);
-+ (id)code as CKRecord;
 + (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void)aration_IKEv2;
-- (void);
-- (id);
-- (id);
++ (id);
++ (id);
++ (id);
++ (long long);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (long long);
-- (void);
 - (long long);
-- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (long long);
-- (void)íßÿ¹;
-- (id)ð1¢!0@ù
-× ;
-- (id)ÑÈ1¢!0@ù
-× ;
-- (id)
-× ;
-- (long long)±Ì°1¢!0@ù
-× ;
-- (void)primaryInteractionModel;
-- (id)startHeight;
-- (CDUnknownBlockType)alled;
-- (void)dddd},N,V_preferredBackgroundInsets;
-- (CDUnknownBlockType)viewInteractionPresentationTransition",&,N,V_currentPresentationTransition;
-- (id)losingScrollerIncludingSelf;
-- (void)ingOnly;
-- (void)N;
-- (long long)ositionBottom or UIBarPositionBottomAttached;
-- (void);
 - (void);
-- (long long)jEd;
+- (id);
+- (id);
+- (void)!;
+- (long long);
+- (id)1^ð1Â0@ù
+× ;
+- (CDUnknownBlockType)× ;
+- (id)0@ù
+× ;
+- (CDUnknownBlockType)0@ù
+× ;
+- (CDUnknownBlockType)fÐ1Â0@ù
+× ;
+- (void)rminateProcessExplicitly;
+- (void)stKeyboardEvent:(id)arg1;
+- (long long)n:(id)arg1;
+- (long long)mpletionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)D migration:%d /* Error: Ran out of types for this method. */;
+- (void)roller hierarchy before presenting from it. Will become a hard exception in a future release.;
+- (long long);
+- (CDUnknownBlockType)mat;
+- (id)vementStyle(__strong id<UIFocusEnvironment> _Nonnull);
+- (id)§þÙ«13&§þÙ«13þù«13¬&§þ;
+- (void)3åa;
+- (id)$vØt^;
 
 // Remaining properties
 @property(nonatomic) long long automaticMacIdiomStyle; // @synthesize automaticMacIdiomStyle=_automaticMacIdiomStyle;

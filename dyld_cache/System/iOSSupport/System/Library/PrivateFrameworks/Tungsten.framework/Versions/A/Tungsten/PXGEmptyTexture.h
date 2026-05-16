@@ -12,9 +12,9 @@
 
 - (long long);
 - (unsigned char);
+- (_Bool);
 - (struct CGImage *);
 - (struct CGSize);
-- (_Bool);
 
 @end
 

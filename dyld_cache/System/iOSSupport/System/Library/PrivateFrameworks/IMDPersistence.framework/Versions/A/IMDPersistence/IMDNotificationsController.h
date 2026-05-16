@@ -24,7 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -33,12 +33,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
-+ (id);
++ (id)was found;
++ (id);
 - (void);
-- (void)ftUI12ViewModifierP;
+- (void);
 - (long long);
 - (id);
 - (long long);
@@ -56,9 +56,9 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)�;
 - (void);
-- (void)!;
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -66,7 +66,7 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
@@ -83,16 +83,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -104,6 +104,7 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -164,12 +165,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool)`;
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -182,19 +183,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (id)oller",&,N,V_plusButtonViewController;
-- (void)entInfo, madrid_url, madrid_error, is_madrid, madrid_date_read, madrid_date_delivered FROM message_legacy ORDER BY ROWID ASC;
-- (id)dleRecordsFilteredByPredicate:] /* Error: Ran out of types for this method. */;
-- (void)Ýÿïµ
-é;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void)$;
+- (id)tchBucket"8Q16^B24;
+- (void).chat_id JOIN message AS m  ON m.ROWID = crmj.message_id WHERE crmj.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'   UNION ALL SELECT c.guid, rmp.message_id, m.guid, rmp.delete_date, rmp.part_index, rmp.part_text  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'  LIMIT ?;;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *activeAccountAliases; // @synthesize activeAccountAliases=_activeAccountAliases;

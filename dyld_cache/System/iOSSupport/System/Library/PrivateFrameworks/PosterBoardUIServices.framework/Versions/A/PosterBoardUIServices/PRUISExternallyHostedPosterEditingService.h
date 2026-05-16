@@ -20,12 +20,12 @@
 - (oneway void);
 - (oneway void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)er Configuration is nil.;
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

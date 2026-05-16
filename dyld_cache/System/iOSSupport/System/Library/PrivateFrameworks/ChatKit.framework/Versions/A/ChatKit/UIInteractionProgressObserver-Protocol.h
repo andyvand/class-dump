@@ -7,7 +7,7 @@
 @protocol UIInteractionProgressObserver
 
 @optional
-- (void)%@;
-- (void)e;
+- (void)V;
+- (void)Ðÿÿ;
 @end
 

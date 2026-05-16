@@ -12,19 +12,19 @@
     NSHashTable *_observers;
 }
 
-+ (id)Ü$ýÿ¨*ô§;
++ (id)essoryInvitationAccessoryProfileItemProvider.m;
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)eplacedIdentifiers;
+- (_Bool)tailComparator;
+- (void)lD;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

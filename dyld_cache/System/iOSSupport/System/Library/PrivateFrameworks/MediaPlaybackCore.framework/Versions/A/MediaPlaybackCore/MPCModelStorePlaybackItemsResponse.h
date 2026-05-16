@@ -25,17 +25,17 @@
 - (long long);
 - (void);
 - (id);
-- (void)ccount-flags;
+- (void);
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
+- (long long);
+- (id);
 - (void);
 - (_Bool);
-- (long long);
-- (void);
+- (id);
+- (void)ic}@ %{public}@ %2i %{public}@  â° cached:%{BOOL}u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPStoreLibraryPersonalizationResponse *_personalizationResponse; // @synthesize _personalizationResponse;

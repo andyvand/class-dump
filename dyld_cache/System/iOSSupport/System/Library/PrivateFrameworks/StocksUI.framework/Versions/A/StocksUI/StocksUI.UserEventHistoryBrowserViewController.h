@@ -10,21 +10,21 @@
 {
     MISSING_TYPE *dateFormatter;
     MISSING_TYPE *headlineService;
-    MISSING_TYPE *sessionDataProvider;
-    MISSING_TYPE *sessions;
+    MISSING_TYPE *userEventHistory;
+    MISSING_TYPE *debugInspection;
     MISSING_TYPE *tagService;
 }
 
+- (id);
+- (id);
+- (id);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (long long);
-- (id);
+- (void);
+- (void)ôZùÿP[ùÿÐ[ùÿH\ùÿp]ùÿ¸]ùÿ^ùÿ<^ùÿ`^ùÿ^ùÿ¸^ùÿô^ùÿ_ùÿ_ùÿÐ_ùÿ`ùÿ0`ùÿ´`ùÿØ`ùÿaùÿÄaùÿÐaùÿÜaùÿTbùÿ`bùÿlbùÿÔbùÿcùÿ8dùÿ\dùÿdùÿeùÿTeùÿäeùÿfùÿdfùÿ fùÿÄfùÿTgùÿgùÿ´gùÿìgùÿhùÿLhùÿhùÿÀhùÿ´iùÿ(jùÿ¨jùÿ\kùÿØkùÿ lùÿÄlùÿðlùÿmùÿmùÿDnùÿnùÿÄnùÿ¸oùÿäoùÿpùÿpùÿÈpùÿ0qùÿTqùÿ¬rùÿèrùÿsùÿ0sùÿdsùÿpsùÿtùÿtùÿ¬tùÿètùÿHuùÿ¨uùÿÌuùÿvùÿ4vùÿXvùÿðvùÿ$wùÿPwùÿüwùÿ(xùÿLxùÿpxùÿ xùÿÄxùÿèxùÿ$yùÿHyùÿDzùÿPzùÿ\zùÿzùÿ¬zùÿèzùÿ{ùÿX{ùÿ{ùÿè{ùÿ|ùÿ`|ùÿ|ùÿÈ|ùÿ }ùÿ}ùÿ°~ùÿ ùÿÜùÿùÿ8ùÿüùÿ0ùÿ<ùÿHùÿùÿÐùÿ8ùÿlùÿäùÿùÿ¨ùÿ´ùÿÀùÿÌùÿØùÿTùÿxùÿÜùÿùÿ<ùÿ¸ùÿèùÿùÿèùÿLùÿ¬ùÿ;
+- (id)isEngagementUpsellEnabled;
 
 @end
 

@@ -13,10 +13,10 @@
     UIVisualEffect *_backgroundEffect;
 }
 
-+ (id)Attribute_AttachmentInfo"8Q16^B24;
++ (id);
+- (void)BandExtentBeyondMaximumOffset;
+- (id){%lu, %lu} with text of length %lu. Animating? %@;
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;

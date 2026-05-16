@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (unsigned int);
 - (id);
-- (void)c;
+- (void);
 - (unsigned int);
-- (id);
 - (id);
-- (id)__TEXT;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned int securityDomain; // @synthesize securityDomain=_securityDomain;

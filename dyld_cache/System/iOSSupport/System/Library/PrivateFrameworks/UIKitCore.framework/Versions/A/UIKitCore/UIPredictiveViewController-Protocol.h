@@ -8,16 +8,15 @@
 @protocol UIKeyInput;
 
 @protocol UIPredictiveViewController
-- (_Bool)tsSeparatedByString:(id <UIKeyInput>)arg1;
+- (double)1Â0@ù
+× ;
+- (_Bool)rState:(id <UIKeyInput>)arg1;
 
 @optional
-- (_Bool)rectRegionsBuffer;
-- (_Bool)!ÈBù1Î1¢!0@ù
-× ;
-- (double)ionDelegateImplements;
-- (void)ame;
-- (NSArray *)c;
-- (_Bool)NavigationBarSubtitleView;
+- (_Bool)olorsByThemeKey;
+- (_Bool);
+- (NSArray *)on context with identifier:%@ /* Error: Ran out of types for this method. */;
+- (void)erC;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *displayedCandidates;

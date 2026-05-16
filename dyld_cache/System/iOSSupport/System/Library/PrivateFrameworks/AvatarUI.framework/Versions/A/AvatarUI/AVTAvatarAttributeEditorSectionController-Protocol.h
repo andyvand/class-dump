@@ -7,12 +7,6 @@
 @protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate, AVTAvatarAttributeEditorSection;
 
 @protocol AVTAvatarAttributeEditorSectionController
-+ (_Bool);
-- (void);
-- (void)P;
-- (void);
-- (struct CGSize);
-- (id <AVTAvatarAttributeEditorControllerSubSelectionDelegate>)when the mail server is temporarily unavailable, e.g. when it is too busy, or down for service.;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate;

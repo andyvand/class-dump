@@ -14,7 +14,7 @@
 - (Class);
 - (id);
 - (id);
-- (id)@"NSArray",R,N,V_contentEffects;
+- (id);
 
 @end
 

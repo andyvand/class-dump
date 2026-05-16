@@ -12,9 +12,10 @@
 {
 }
 
-- (void);
 - (id);
-- (id)ySo44UITextFormattingViewControllerComponentGroupCG;
+- (id)!CùQ\1Â0@ù
+× ;
+- (void)Ü2;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *text;

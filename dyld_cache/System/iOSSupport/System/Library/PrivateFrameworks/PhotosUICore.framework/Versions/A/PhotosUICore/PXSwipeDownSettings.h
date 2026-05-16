@@ -26,7 +26,7 @@
     double _transitionDistance;
 }
 
-+ (id)EoMÚè8;
++ (id)0ËHÝ;
 - (double);
 - (long long);
 - (double);
@@ -57,10 +57,10 @@
 - (long long);
 - (double);
 - (long long);
-- (void);
 - (double);
 - (void);
-- (id)ÿ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long downMotionType; // @synthesize downMotionType=_downMotionType;

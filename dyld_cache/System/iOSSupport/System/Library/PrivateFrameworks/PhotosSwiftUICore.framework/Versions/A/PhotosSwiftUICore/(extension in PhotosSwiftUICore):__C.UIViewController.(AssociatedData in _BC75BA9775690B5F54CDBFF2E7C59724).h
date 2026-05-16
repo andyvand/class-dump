@@ -11,8 +11,8 @@
     MISSING_TYPE *detailsNavigationContext;
 }
 
-- (void);
 - (id);
+- (void)_selectionIdentifier;
 
 @end
 

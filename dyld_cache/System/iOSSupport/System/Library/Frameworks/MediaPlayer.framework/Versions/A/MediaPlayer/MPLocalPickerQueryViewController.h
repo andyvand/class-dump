@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
 - (void);
 - (void);
-- (void)�;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -30,11 +30,11 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (id);
 - (double);
-- (long long)enceManagerListener:(id)arg1;
 - (id);
+- (long long);
 - (void);
 - (void);
-- (void);
+- (void)recommendationID;
 
 // Remaining properties
 @property(retain, nonatomic) Class mCellClass; // @synthesize mCellClass=_mCellClass;

@@ -11,10 +11,10 @@
     PHPhotoLibrary *_photoLibrary;
 }
 
-- (void);
-- (void);
-- (id)7¨ÿâòNSï8;
-- (void)ËÿÉOµ9;
+- (void)thScrollController:(id)arg1;
+- (void)Sprite;
+- (id)ô6;
+- (void)«ÿî!Sh¨9;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

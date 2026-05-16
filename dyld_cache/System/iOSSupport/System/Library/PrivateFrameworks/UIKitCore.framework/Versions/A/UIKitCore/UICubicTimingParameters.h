@@ -15,28 +15,26 @@
 }
 
 - (void);
-- (void);
-- (id)CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)};
-- (_Bool);
-- (id);
-- (struct CGPoint)tStoreFronts;
+- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (id)Ô ;
-- (id)orMovement;
-- (id)lectionInsets: /* Error: Ran out of types for this method. */;
-- (id),V_selectByIndirectPointerTouchEnabled;
-- (id)nstraintBasedLayoutHostingView;
-- (long long)Attempted to enqueue post settings update response block while processing current response blocks;
-- (long long);
-- (id)Ûþ;
-- (struct CGPoint)Ãe;
-- (id)Äf;
+- (id)× ;
+- (_Bool)extLayoutFragmentsFromLocation:(id)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)ariantsOfCurrencyKey:(id)arg1 language: /* Error: Ran out of types for this method. */;
+- (void)tearOffActivity;
+- (id)ateDuringDecoding:,V__useCurrentDateDuringDecoding /* Error: Ran out of types for this method. */;
+- (id)ttachment;
+- (id)ataIntegerEntry;
+- (id)H;
+- (id)«;
+- (id)ished;
+- (long long)deBackgroundColor;
+- (id)esults;
+- (id);
+- (long long)ec;
+- (void)`Õh;
 
 // Remaining properties
 @property(readonly, nonatomic) long long animationCurve; // @synthesize animationCurve=_animationCurve;

@@ -18,11 +18,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)@9i;
 - (id);
-- (struct os_unfair_lock_s)P;
+- (id);
+- (id);
+- (struct os_unfair_lock_s);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXRenderingConfigurationProvider> configurationProvider; // @synthesize configurationProvider=_configurationProvider;

@@ -7,7 +7,7 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void);
-- (void)gBeforeDriveClusters;
+- (void)KNS_12StaticLoggerEE3$_3;
+- (void)extE;
 @end
 

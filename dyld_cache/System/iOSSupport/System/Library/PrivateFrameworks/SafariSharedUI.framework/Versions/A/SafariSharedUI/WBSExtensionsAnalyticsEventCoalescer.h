@@ -17,17 +17,17 @@
     double _resetInterval;
 }
 
-- (void);
 - (void);
 - (void);
-- (_Bool)LPMetadataTwitterCard;
-- (_Bool)tadataRelatedURL;
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (id);
+- (void);
 - (double);
-- (id);
-- (void);
+- (void)onURLString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

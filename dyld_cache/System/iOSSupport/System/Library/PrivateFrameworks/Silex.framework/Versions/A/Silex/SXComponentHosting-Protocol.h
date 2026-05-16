@@ -5,6 +5,5 @@
 //
 
 @protocol SXComponentHosting
-- (void);
 @end
 

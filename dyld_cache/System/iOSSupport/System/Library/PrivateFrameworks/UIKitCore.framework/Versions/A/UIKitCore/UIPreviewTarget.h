@@ -15,23 +15,23 @@
 }
 
 + (id);
-+ (id)[ÿ§ìÚs;
++ (id);
 - (id);
 - (id);
-- (struct CATransform3D)ages; nil pTaskQueryProvider.;
-- (struct CATransform3D)ore %ld reparentable messages; nil pTaskQueryProvider.;
-- (void)uested display name was zero length, chat:(double)arg1 %@;
+- (struct CATransform3D);
+- (struct CATransform3D);
+- (void);
 - (double);
-- (void).;
-- (struct CGAffineTransform);
-- (_Bool);
+- (void);
 - (id);
-- (void)anÐ!DùqÀð1¢!0@ù
+- (struct CGAffineTransform);
+- (id);
+- (struct CGPoint)0@ù
 × ;
-- (id)data;
-- (id)yNotification;
-- (id)ÿþIÏ¦ód;
-- (struct CGPoint)`ªÀÿ%;
+- (_Bool)ettings;
+- (id)rtion>",&,N,V__borrowedAssertion;
+- (id)¼ÏÜ2Ya;
+- (void)ÌÿaØGd;
 
 // Remaining properties
 @property(nonatomic, getter=_contentScale, setter=_setContentScale:) double _contentScale; // @synthesize _contentScale;

@@ -29,15 +29,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
+- (void);
+- (void);
+- (long long);
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (long long)on non-iPads:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

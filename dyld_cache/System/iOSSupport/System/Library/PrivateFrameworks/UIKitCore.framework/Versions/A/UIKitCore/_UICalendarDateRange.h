@@ -12,11 +12,11 @@
     NSDateComponents *_endDate;
 }
 
-- (id)nges:(id)arg1;
-- (void);
-- (id)ctionsWantingFocus;
-- (id)~­ûÿyþÿ;
-- (id)eractionLoupeVariantSpec";
+- (id);
+- (id);
+- (id)ForImageSheetForWebView:(id)arg1;
+- (id)ce:timestamp: /* Error: Ran out of types for this method. */;
+- (void)tQÿS;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponents *endDate; // @synthesize endDate=_endDate;

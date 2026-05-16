@@ -5,6 +5,5 @@
 //
 
 @protocol AVTNotifyingContainerViewDelegate
-- (void);
 @end
 

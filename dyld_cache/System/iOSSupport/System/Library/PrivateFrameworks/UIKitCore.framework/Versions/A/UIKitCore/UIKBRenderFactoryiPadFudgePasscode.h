@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)abilityVerificationRecipientEncryptionValidationTokenWithBlastDoorTextMessage: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (id);
-- (id)oto components:%s /* Error: Ran out of types for this method. */;
-- (id)delete DB at path %@;
-- (id)path:(id)arg1 %@  error:%@ /* Error: Ran out of types for this method. */;
-- (id)ration.;
-- (id):(id)arg1 %ld, guid:(id)arg2 %@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

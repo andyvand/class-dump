@@ -15,12 +15,13 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)× ;
-- (void)EQKitMathMLMStackGroup;
+- (void);
+- (id)Á~ð!¸Bùð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) TSDInteractiveCanvasController *controller; // @synthesize controller=mController;

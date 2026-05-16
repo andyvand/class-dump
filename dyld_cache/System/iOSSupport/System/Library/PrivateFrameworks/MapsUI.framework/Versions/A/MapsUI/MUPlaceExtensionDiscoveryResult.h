@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)oConstraints;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOAppleMediaServicesResult *appStoreApp; // @synthesize appStoreApp=_appStoreApp;

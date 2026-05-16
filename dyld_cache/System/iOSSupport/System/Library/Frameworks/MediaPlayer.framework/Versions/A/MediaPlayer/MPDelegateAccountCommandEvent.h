@@ -14,10 +14,10 @@
     NSData *_delegateAccountData;
 }
 
-- (id)e>";
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)T@"NSDictionary",C,N;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *delegateAccountData; // @synthesize delegateAccountData=_delegateAccountData;

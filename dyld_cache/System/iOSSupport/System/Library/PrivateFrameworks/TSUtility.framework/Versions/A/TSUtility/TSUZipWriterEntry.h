@@ -16,13 +16,13 @@
 
 - (unsigned int);
 - (void);
-- (void);
-- (void);
 - (id);
 - (unsigned long long);
-- (void),;
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (void)ìuv!}|}8~d¤p  ¨;
 
 // Remaining properties
 @property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;

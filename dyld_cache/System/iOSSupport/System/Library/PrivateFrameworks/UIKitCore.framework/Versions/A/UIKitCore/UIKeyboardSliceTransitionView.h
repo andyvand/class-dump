@@ -32,39 +32,38 @@ __attribute__((visibility("hidden")))
     } _rebuildFlags;
 }
 
-- (void)Name:(id)arg1 analyticDictionary:(id)arg2;
-- (void)tCloudKitAnalyticWithDictionary:operationGroupName:completion: /* Error: Ran out of types for this method. */;
-- (void)legateQueue:(double)arg1;
-- (struct CGImage *)nMessageFromData:error: /* Error: Ran out of types for this method. */;
-- (void)g",&,N,V_messageGUID;
-- (void)originalGroupID;
 - (void);
-- (void)ictionary",&,N,V_shareURLsToContexts;
-- (void)e;
-- (void)V_serviceNameCapabilityCache;
-- (void)pts;
-- (void)ecordNameToRowIDMap;
-- (void)N,V_recordIDToTransferMap;
-- (void)URLs:(unsigned long long)arg1;
-- (void)text: /* Error: Ran out of types for this method. */;
-- (void)",&,N,V_pendingRequests;
+- (void);
+- (void);
+- (struct CGImage *);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (struct CGImage *);
 - (struct CGImage *);
-- (id)d;
+- (id);
 - (_Bool);
-- (double)ancel task request;
-- (double)%@;
+- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)er;
+- (id)r;
 - (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)entRestrictedContentNotification;
+- (void);
 
 @end
 

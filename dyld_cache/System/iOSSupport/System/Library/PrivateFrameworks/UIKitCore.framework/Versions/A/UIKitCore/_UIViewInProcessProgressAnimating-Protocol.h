@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewInProcessProgressAnimating
-- (void)ncodedMessagePartGUID:(void (^)(double))arg1 messagePartRange: /* Error: Ran out of types for this method. */;
 @end
 

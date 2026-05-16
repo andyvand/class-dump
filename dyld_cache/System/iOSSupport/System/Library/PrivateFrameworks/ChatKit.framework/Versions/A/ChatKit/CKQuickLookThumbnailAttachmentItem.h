@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (struct CGSize);
-- (struct CGSize)onrapcop;
+- (struct CGSize);
 
 @end
 

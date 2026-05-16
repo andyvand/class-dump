@@ -21,15 +21,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)\Bù±|ð1b0@ù
-× ;
-- (id);
-- (id)low;
-- (id)ViewCell;
+- (id);
+- (id);
+- (id);
+- (id)ÿ;
+- (void)*È*;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;

@@ -8,23 +8,19 @@
 @protocol _UIMenuLeaf;
 
 @protocol _UIMenuLeaf
-- (void)loadKeyUsage:(NSString *)arg1;
-- (void)serMonitor %p> privateListeningEnabledForAccessoryWithRouteID:(_Bool)arg1 ] failed to fetch privateListeningSetting [userListeningControl=nil];
-- (_Bool)Á°1¢!0@ù
+- (NSString *);
+- (_UIMenuLeafKeyboardShortcut *)Ð1Â0@ù
 × ;
-- (_Bool)Áo°!ÜBùQÂ1¢!0@ù
+- (void)ð!\Bù1a1Â0@ù
 × ;
-- (NSArray *)0@ù
-× ;
-- (_Bool)rIndicatorsInRangeCache="dirty"b1"range"{_NSRange="location"Q"length"Q}"contentSize"{CGSize="width"d"height"d}}};
-- (id)et_showsGridOnly:(id)arg1;
-- (UISPasteVariant *)rollViewNotifications;
-- (NSAttributedString *)RingManagerShouldDrawFocusRingWhenChildrenFocused;
-- (id <_UIMenuLeaf>)e:(id)arg1;
-- (_UIMenuLeafKeyboardShortcut *);
-- (BKSHIDEventDeferringEnvironment *)jþ;
-- (void)t¢üÿê:(NSAttributedString *)arg1 ýÿ²üÿ;
-- (long long)View.UIButton;
+- (long long)B16;
+- (id <_UIMenuLeaf>)railingDragOffset;
+- (BKSHIDEventDeferringEnvironment *)exPath:withSender: /* Error: Ran out of types for this method. */;
+- (void)igationController;
+- (_Bool)Autolayout doesn't support transforms that don't preserve rectangles. The offending view is:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)rt -%@;
+- (NSAttributedString *)view:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setAllowsGlobeKeyModifier:) _Bool _allowsGlobeKeyModifier;

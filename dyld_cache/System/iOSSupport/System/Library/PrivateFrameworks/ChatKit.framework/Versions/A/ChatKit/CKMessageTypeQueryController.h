@@ -21,35 +21,35 @@
 
 + (_Bool);
 + (id);
-+ (unsigned long long)e;
-- (id)fixedDisplayTexts;
-- (id)rifyDoNotMatchLabel;
++ (unsigned long long);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void)nterval;
-- (id)R;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (id));
+- (id);
 - (_Bool);
-- (CDUnknownBlockType)Private;
-- (void)rtFolder;
-- (id);
-- (void);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool gotResults; // @synthesize gotResults=_gotResults;

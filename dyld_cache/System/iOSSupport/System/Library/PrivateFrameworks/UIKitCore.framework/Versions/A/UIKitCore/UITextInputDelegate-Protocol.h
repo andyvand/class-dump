@@ -5,10 +5,7 @@
 //
 
 @protocol UITextInputDelegate
-- (void)1¢!0@ù
-× ;
-- (void)yerForBackgroundEffects;
-- (void)ontext;
-- (void)oner is useless without a transitionContext and a search bar;
+- (void);
+- (void)ensionState,V_suspensionState;
 @end
 

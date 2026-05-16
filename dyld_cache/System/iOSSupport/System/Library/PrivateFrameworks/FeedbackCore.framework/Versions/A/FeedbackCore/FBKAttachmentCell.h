@@ -64,11 +64,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)ed to pin pair on demand for device [%{public}@];
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *accessoryLabel; // @synthesize accessoryLabel=_accessoryLabel;

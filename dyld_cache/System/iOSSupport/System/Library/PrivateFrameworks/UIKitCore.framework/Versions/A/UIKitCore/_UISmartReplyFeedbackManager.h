@@ -22,17 +22,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (_Bool)e;
-+ (_Bool)ingClientConnectionListener;
-+ (_Bool)tener;
-+ (_Bool).apple.Messages.IncomingClientConnectionListener;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (void);
 + (id);
-- (_Bool)alformed FDR Metadata Record Format;
-- (void)d;
-- (void)in amfdr->optionsDict is NULL;
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)=�;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -62,20 +62,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)$;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (void);
-- (void)0;
-- (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (unsigned long long)eUIEdgeInsetsForKey: /* Error: Ran out of types for this method. */;
-- (id)tonItem;
+- (_Bool);
+- (id);
+- (unsigned long long);
 - (void);
+- (void)q[;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *analyticsSessionId; // @synthesize analyticsSessionId=_analyticsSessionId;

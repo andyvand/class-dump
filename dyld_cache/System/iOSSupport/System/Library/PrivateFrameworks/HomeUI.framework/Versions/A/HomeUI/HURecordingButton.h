@@ -14,11 +14,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (id)0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isRecording;

@@ -68,15 +68,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)°myl«PB­Ö0e;
 - (void);
 - (id);
-- (id)fí5;
-- (id)]6;
+- (id)0@ù
+× ;
+- (id)õ\ÿ;
+- (id)ManagerFfæQz;
+- (void)favoriting is not supported for Social Groups.;
+- (void)0OÿýzÇÜ
+lÿ;
+- (id);
+- (id)q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *_actionTypeByBarButtonItem; // @synthesize _actionTypeByBarButtonItem=__actionTypeByBarButtonItem;

@@ -16,14 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id)@9i
-;
+- (id);
 - (id);
 - (long long);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONObjectMerger *componentStyleMerger; // @synthesize componentStyleMerger=_componentStyleMerger;

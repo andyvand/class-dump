@@ -27,12 +27,13 @@
     MISSING_TYPE *separatorViews;
 }
 
-- (void);
-- (void);
-- (_Bool);
 - (id);
-- (void)erAgentString:adIdentifier:maxRequestCount: /* Error: Ran out of types for this method. */;
-- (id)$óþ;
+- (void);
+- (id)
+× ;
+- (void)¤gBhCTh;
+- (_Bool)Òtïÿ¢[ïÿ;
+- (void)DïþÝ^:h¿wþÝ^:dïþ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -8,12 +8,9 @@
 @protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, VFXWorldRendererDelegate;
 
 @protocol VFXWorldRenderer
-- (void);
-- (void)PÿP;
-- (id <MTLDevice>);
-- (NSArray *)eleration structure;
-- (void)5×d=;
-- (id <MTLCommandQueue>)d-Wÿ;
+- (void)øNÌ;
+- (id <MTLCommandQueue>);
+- (NSArray *)<÷Vÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha;

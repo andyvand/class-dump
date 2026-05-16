@@ -20,8 +20,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)guration;
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;

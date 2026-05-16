@@ -11,13 +11,13 @@
     MISSING_TYPE *storage;
 }
 
-+ (id)so we send a nickname on the next message send;
 + (id);
 + (id);
-- (id)ag check and defaulting to yes;
-- (id)ble Quota in bytes:(unsigned long long)arg1 and message database size:%llu, %llu /* Error: Ran out of types for this method. */;
-- (id)s:(unsigned long long)arg1 %lu message:%@ reason:%d properties:%@] session=%@ /* Error: Ran out of types for this method. */;
-- (id)nection",&,V_connection;
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

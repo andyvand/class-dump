@@ -19,16 +19,17 @@
 - (void);
 - (id);
 - (id);
-- (double)esFromRecentlyDeletedForChatsWithGUIDs: /* Error: Ran out of types for this method. */;
-- (id)andled nickname, updating name;
+- (double);
 - (id);
-- (id)aseRenewThreshold;
-- (void)8)b¬;
 - (void);
-- (void)0@ù
+- (id);
+- (id)ù1Y°1Â0@ù
 × ;
-- (id)rollInProgress;
-- (long long)SBHomeScreenWindow;
+- (long long)
+× ;
+- (id)ller;
+- (void)-23Ë;
+- (void)ØRzÿÑÜ];
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

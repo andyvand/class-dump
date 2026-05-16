@@ -18,27 +18,27 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ô4qÿìI2pñ-;
++ (_Bool)Threshold;
 - (void);
-- (void)eActivePublisher;
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)rase because account is not authenticated {account:(id)arg1 %@};
-- (id)nil);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)¬!AùQÄð1¢!0@ù
+- (id)Ð1Â0@ù
 × ;
-- (void);
-- (id);
+- (id)"PRInjectedEditingClientSettings"16;
+- (void)T;
+- (id)rNonPurgeableUTITypes;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *composeRecipients; // @synthesize composeRecipients=_composeRecipients;

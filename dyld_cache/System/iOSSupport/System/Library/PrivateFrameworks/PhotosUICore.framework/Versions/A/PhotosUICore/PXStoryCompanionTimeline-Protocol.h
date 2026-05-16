@@ -8,6 +8,7 @@
 @protocol PXStoryCompanionColorEffect;
 
 @protocol PXStoryCompanionTimeline
+- (NSString *)be same as selection snapshot datasource.;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryCompanionColorEffect> colorGradingEffect;

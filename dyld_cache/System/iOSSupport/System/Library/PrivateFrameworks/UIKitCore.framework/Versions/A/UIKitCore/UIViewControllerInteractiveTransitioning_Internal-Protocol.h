@@ -7,6 +7,6 @@
 @protocol UIViewControllerInteractiveTransitioning_Internal
 
 @optional
-- (_Bool);
+- (_Bool)arMetrics: /* Error: Ran out of types for this method. */;
 @end
 

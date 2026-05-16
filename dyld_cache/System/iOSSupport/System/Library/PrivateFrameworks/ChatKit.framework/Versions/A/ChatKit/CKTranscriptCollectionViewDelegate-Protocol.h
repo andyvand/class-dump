@@ -4,17 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 @protocol CKTranscriptCollectionViewDelegate
-- (void);
-- (NSIndexPath *);
-- (void)Sg;
-- (void)$sScI;
-- (void)g06objectD0t;
-- (void)tUI11ButtonStyleP;
-- (struct UIEdgeInsets)CTTTextStorageC;
-- (_Bool)5ICActivityStreamSelectionCSg;
-- (void)G;
 @end
 

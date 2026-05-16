@@ -18,15 +18,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (void):(struct __CFRunLoop *)arg1;
+- (void)eStateQueue;
+- (void)offPresentation;
 - (id);
-- (void);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (void)ù
-× ;
-- (void)ntext:(id)arg1;
-- (void)p without delegate;
+- (void)lic}@, for expected property type, %{public}s;
+- (id);
+- (void)Rh;
 
 // Remaining properties
 @property(retain, nonatomic) UIEventEnvironment *mainEnvironment; // @synthesize mainEnvironment=_mainEnvironment;

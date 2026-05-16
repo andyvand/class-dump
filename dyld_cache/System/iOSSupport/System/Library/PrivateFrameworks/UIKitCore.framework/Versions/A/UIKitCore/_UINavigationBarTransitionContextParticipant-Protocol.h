@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UINavigationBarTransitionContextProtocol;
-
 @protocol _UINavigationBarTransitionContextParticipant
-- (void)mpletion:(id <_UINavigationBarTransitionContextProtocol>)arg1 invalidationContext:tentativelyForReordering:animator: /* Error: Ran out of types for this method. */;
-- (void)lapsedPreviewBackgroundSuppression;
+- (void);
+- (void);
+- (void);
 - (void);
-- (void)4lÈiþ;
+- (void)?[;
 @end
 

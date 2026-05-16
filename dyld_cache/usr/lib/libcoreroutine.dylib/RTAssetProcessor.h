@@ -14,11 +14,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (id)load;
-- (void);
-- (id)@;
-- (id)µQ.T1;
+- (id)];
+- (void)%@, returning nil without adding;
+- (id), %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

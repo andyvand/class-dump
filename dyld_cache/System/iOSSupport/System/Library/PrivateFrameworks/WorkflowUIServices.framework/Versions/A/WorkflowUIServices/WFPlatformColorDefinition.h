@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double)faultValueProviderClass(void)_block_invoke;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;

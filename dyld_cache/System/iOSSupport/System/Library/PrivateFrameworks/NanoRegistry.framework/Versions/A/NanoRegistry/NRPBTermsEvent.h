@@ -57,21 +57,21 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (double);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (int);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *acknowledgedDeviceName; // @synthesize acknowledgedDeviceName=_acknowledgedDeviceName;

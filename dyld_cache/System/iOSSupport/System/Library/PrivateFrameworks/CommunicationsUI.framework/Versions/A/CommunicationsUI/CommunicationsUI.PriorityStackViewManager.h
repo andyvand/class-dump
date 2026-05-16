@@ -14,8 +14,8 @@
     MISSING_TYPE *orderCounter;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

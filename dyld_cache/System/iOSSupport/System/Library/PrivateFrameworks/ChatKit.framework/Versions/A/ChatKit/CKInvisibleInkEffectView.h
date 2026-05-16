@@ -16,29 +16,29 @@
     CKInvisibleInkEffectCoverageTracker *_coverageTracker;
 }
 
-+ (double);
-+ (void)ô0;
++ (void)hGÿõ4Ì£0;
++ (double)4Qÿ³<4ìE3;
 - (void);
 - (void);
-- (void)(;
-- (void)review thumbnail — falling back to default preview thumbnail {accountId:(id)arg1 %s, noteId:%s} /* Error: Ran out of types for this method. */;
-- (void)ked Attachment;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)c;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)?;
-- (void);
-- (_Bool)
+- (id);
+- (void)aý°!Cù1Ð1Â0@ù
 × ;
-- (id)|¯;
-- (id)<I«GÎn«yP«GGABybuüÿAHGGAAyR«AIGG;
-- (void)Sg_A2DtGG;
-- (void)ÿE9;
-- (void)Wÿ18¶.;
+- (void);
+- (_Bool)¨ò1;
 
 // Remaining properties
 @property(retain, nonatomic) CKInvisibleInkEffectCoverageTracker *coverageTracker; // @synthesize coverageTracker=_coverageTracker;

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)nistrativePrivilegesForHighlight:chatGUID: /* Error: Ran out of types for this method. */;
-- (_Bool):removeTombstones:activity:completion: /* Error: Ran out of types for this method. */;
-- (id)xtOffsetForKey: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (id);
 
 @end
 

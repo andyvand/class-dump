@@ -14,19 +14,19 @@
     UIView *_blurView;
 }
 
-- (void):(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)DE;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (long long);
 - (id);
-- (id);
-- (void)tion;
+- (void);
+- (void);
+- (id)oposal;
+- (void);
+- (void)TIATED_WELCOME_OPTOUT_DESCRIPTION;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName;

@@ -15,27 +15,26 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _menuProvider;
 }
 
-+ (id)figuredSystemImages;
-- (_Bool);
++ (id);
 - (id);
-- (id)fTypeFromPayload: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (id);
+- (long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)!TEùËÐ1¢!0@ù
-× ;
-- (id)nTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
-- (id)nt:reusingView: /* Error: Ran out of types for this method. */;
-- (long long)ulfilledUncachedItems;
-- (id)nvokeEmoji;
-- (id)¸hì	T;
-- (id),òdò ò;
-- (_Bool)¬;
-- (void);
-- (struct CGPoint)];
-- (void)ÇÿÂ¬;
+- (void)1"position"b3"autosizeText"b1"isMomentary"b1"wasSelected"b1"needsBackgroundAndContentViewUpdate"b1"usesAXTextSize"b1"selectionIndicatorDragged"b1"adjustsForContentSizeCategory"b1"hovered"b1"animatingSelectionIndicator"b1"hasCustomInfoView"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
+- (id)nishingModalTransition;
+- (id)buttonTitle;
+- (id)PhoneTVMacView;
+- (id)ported. Animation key path '%@' value '%@';
+- (_Bool)edFrameGuide-topConstraint;
+- (void)X.3Qo__Qo_AQyi¯.3GGGGGG;
+- (_Bool);
+- (id)@\;
+- (struct CGPoint)/t5;
+- (id);
+- (void);
+- (void)¨c];
 
 @end
 

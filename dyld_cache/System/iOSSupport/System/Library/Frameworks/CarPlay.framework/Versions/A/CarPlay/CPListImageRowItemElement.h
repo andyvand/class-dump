@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPImageSet, CPListImageRowItem, NSString, UIImage;
+@class CPImageSet, CPListImageRowItem, CPPlaybackConfiguration, NSString, UIImage;
 
 @interface CPListImageRowItemElement
 {
     _Bool _enabled;
     CPImageSet *_image;
+    CPPlaybackConfiguration *_playbackConfiguration;
+    NSString *_accessibilityLabel;
     NSString *_identifier;
     CPListImageRowItem *_rowItem;
+    UIImage *_accessorySymbolCustomSymbolImage;
 }
 
 + (void);
@@ -20,26 +23,44 @@
 + (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
+@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
+@property(retain, nonatomic) UIImage *accessorySymbolCustomSymbolImage; // @synthesize accessorySymbolCustomSymbolImage=_accessorySymbolCustomSymbolImage;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
+@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic) UIImage *image; // @dynamic image;
 @property(retain, nonatomic) CPImageSet *imageSet; // @synthesize imageSet=_image;
+@property(copy, nonatomic) CPPlaybackConfiguration *playbackConfiguration; // @synthesize playbackConfiguration=_playbackConfiguration;
 @property(nonatomic) __weak CPListImageRowItem *rowItem; // @synthesize rowItem=_rowItem;
+@property(readonly) Class superclass;
 
 @end
 

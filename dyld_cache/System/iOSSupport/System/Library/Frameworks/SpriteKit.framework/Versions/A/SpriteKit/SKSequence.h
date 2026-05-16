@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ÿÿ	$;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)Q32{CGSize=dd}40@56;
 
 @end
 

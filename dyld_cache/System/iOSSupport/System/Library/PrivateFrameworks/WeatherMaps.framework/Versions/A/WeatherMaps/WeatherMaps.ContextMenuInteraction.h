@@ -13,8 +13,8 @@
     MISSING_TYPE *weatherDelegate;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

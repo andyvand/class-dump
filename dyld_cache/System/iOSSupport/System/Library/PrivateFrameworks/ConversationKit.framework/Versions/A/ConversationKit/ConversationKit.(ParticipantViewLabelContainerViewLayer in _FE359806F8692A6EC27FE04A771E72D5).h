@@ -10,8 +10,8 @@
 
 - (id);
 - (id);
-- (id)_SbQo__Qo__Qo_GA1_G;
-- (void)ßg®8imageURL_AASg05videoB0t;
+- (id);
+- (void);
 
 @end
 

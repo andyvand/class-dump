@@ -52,11 +52,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)CameraItem"8;
 
 // Remaining properties
 @property(readonly, nonatomic) LSApplicationProxy *applicationProxy; // @synthesize applicationProxy=_applicationProxy;

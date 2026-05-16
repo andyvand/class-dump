@@ -18,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (unsigned long long)!¸@ùn°1b0@ù
-× ;
+- (void)ForTextStyleInTableViewCell:weight:contentSizeCategory:symbolicTraits: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long actionType; // @synthesize actionType=_actionType;

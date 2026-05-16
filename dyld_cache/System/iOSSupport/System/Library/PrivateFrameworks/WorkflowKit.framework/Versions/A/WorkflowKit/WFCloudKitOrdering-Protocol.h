@@ -7,9 +7,7 @@
 @class NSOrderedSet, NSString;
 
 @protocol WFCloudKitOrdering
-- (NSOrderedSet *);
-- (NSOrderedSet *)ÐÌ;
-- (NSString *)Definition parameterStateFromLinkValue:] /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *collectionIdentifier;

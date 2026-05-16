@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayLabel;

@@ -9,12 +9,8 @@
 @protocol UIGestureRecognizerDelegatePrivate
 
 @optional
-- (_Bool)@0:(UIGestureRecognizer *)arg1 8;
-- (_Bool);
-- (_Bool)asserting [already finished];
-- (_Bool)\	ë;
-- (_Bool)0@ù
-× ;
-- (_Bool);
+- (_Bool):(UIGestureRecognizer *)arg1;
+- (_Bool)ssary;
+- (_Bool)nableTelemetry=YES offsets=%{signpost.telemetry:(UIGestureRecognizer *)arg1 number1,public,name=offsets}ld, highRateDuration=%{signpost.telemetry:(UIGestureRecognizer *)arg2 number2,public,name=highRateDuration}f, sx=%{public,name=sx}f, sy=%{public,name=sy}f, id=%{public,name=id}p;
 @end
 

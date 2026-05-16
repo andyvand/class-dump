@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (Class);
 - (id);
-- (id)jc_imageinfo__DATA_CONST;
-- (void);
+- (id);
+- (void)nedHasCompilations;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

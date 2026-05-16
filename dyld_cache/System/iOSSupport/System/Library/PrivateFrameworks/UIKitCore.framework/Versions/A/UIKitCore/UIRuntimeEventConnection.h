@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)t;
-- (id)SING__;
-- (id)A;
-- (void)ack:(unsigned long long)arg1;
-- (id)Placement;
-- (void)thFlags:withInputManagerHint:executionContext: /* Error: Ran out of types for this method. */;
-- (SEL)	äþÓ±;
-- (unsigned long long)Óxci;
+- (id);
+- (id);
+- (id);
+- (void)wWithTintColor:(id)arg1 inContext: /* Error: Ran out of types for this method. */;
+- (void)BackProjectTimeFactor;
+- (unsigned long long)_UITraitMetadata _UIGetTraitMetadataWithTraitTokenValueAcquireLock(const _UITraitDataType, const NSUInteger, const BOOL);
+- (SEL);
+- (void)ÿÓ´ég;
 
 // Remaining properties
 @property(readonly) SEL action;

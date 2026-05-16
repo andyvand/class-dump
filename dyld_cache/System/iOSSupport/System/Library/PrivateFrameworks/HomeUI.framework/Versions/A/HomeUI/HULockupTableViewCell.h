@@ -19,10 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)UpdateMigrationFailed2FAMessage;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

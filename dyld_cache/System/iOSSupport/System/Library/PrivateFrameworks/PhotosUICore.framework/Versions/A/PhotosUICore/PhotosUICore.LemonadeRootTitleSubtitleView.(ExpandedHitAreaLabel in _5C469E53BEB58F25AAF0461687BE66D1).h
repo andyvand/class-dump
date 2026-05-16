@@ -12,9 +12,10 @@
     MISSING_TYPE *verticalHitAreaExpansion;
 }
 
-- (_Bool);
 - (id);
-- (id)+;
+- (id)
+× ;
+- (_Bool)_invalidateSwipeDownTriggeringDismissal;
 
 @end
 

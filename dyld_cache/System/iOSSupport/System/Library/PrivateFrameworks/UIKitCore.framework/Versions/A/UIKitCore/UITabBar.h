@@ -60,11 +60,11 @@
     NSArray *_backgroundEffects;
 }
 
-+ (Class);
-+ (void)±È°1¢!0@ù
-× ;
-+ (id)IKeyboardUIInformation"qB>40;
-+ (id)illEnterForeground:(id)arg1;
++ (Class)n;
++ (id),V_allowSelection;
++ (void)dJôÑ(eJÑ(gJXÑXkJÑ°kJ,Ñ¸mJlÑ4nJ|ÑoJÑPpJ¼ÑÔpJÌÑ\sJÑôtJLÑvJhÑvJxÑyJÄÑ´zJøÑJÑtíJ0ÑÜïJDÑ<KXÑPHK8Ñ¸·K`ÑÅK|Ñ`ÈKÑ8ÉK¤ÑL¸ÑLLèÑ4ILDÑìYLÑLL¤ÑìL¸ÑLüÑP LÑçL0Ñ`èL`Ñ´éLÑëLÀÑäëLÔÑìLèÑ4íLüÑÄîL0ÑpMDÑ+MXÑ±MôÑÜØM$ÑX N8Ñ0¨NLÑ<¾N\ÑôéNÑ ìN°Ñø
+OÄÑ¨qOÑèªOdÑ8PxÑPvP<ÑDPLÑt¡PlÑÄ¦PÑÎP¤ÑìÕPtÑ0Q ÑQ0 ÑRx ÑtR Ñp}R  Ñ8MSÈ ÑS8¡Ñ8åS¡Ñ¬ Tô¡Ñ°XT¢Ñ0\TÈ¢ÑìpT£Ñ$ÆT£Ñ<ÊT<£ÑôÏTX£ÑÔTt£Ñ äT£Ñ°	UÄ£ÑtUØ£ÑÈUð£ÑÔ(UÄ¤ÑÜ*Uè¤ÑRU¥Ñ]U4¥ÑrUp¥ÑPuUÌ¥ÑÐzUT¦ÑdUh¦ÑÐUÌ§Ñ¸Uì§ÑU¨Ñð¨UH¨Ñd»Ut¨ÑüÅU¤¨ÑüÇUì¨ÑHàU,©ÑðâUl©ÑàïU©ÑøVì©ÑP,V ªÑÄ4VtªÑ8V¬ªÑ·VàªÑü¿VôªÑ¸#W(«Ñ¼OW`«ÑpQWt«ÑphW«Ñü®W «Ñ|äW´¬Ñ¸XÈ­Ñ;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAccessoryView:) UIView *_accessoryView;

@@ -55,10 +55,12 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)s:softwareUpdateCounter] Hiding banner because the block view is visible. /* Error: Ran out of types for this method. */;
-- (void)Öõ&Ã;
+- (void)!°Aùð1â
+0@ù
+× ;
+- (void)homeProtectionItem;
+- (void)HomeUIServiceLaunchReasonValueLockAccessFirmwareUpdate;
+- (id)ngthC__G;
 
 // Remaining properties
 @property(retain, nonatomic) HUAboutResidentDeviceFooterView *aboutResidentDeviceFooterView; // @synthesize aboutResidentDeviceFooterView=_aboutResidentDeviceFooterView;

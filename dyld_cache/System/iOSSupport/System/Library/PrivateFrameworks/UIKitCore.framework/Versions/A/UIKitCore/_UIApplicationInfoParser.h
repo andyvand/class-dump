@@ -60,66 +60,65 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void)esponsesBuffer:(id)arg1;
-- (_Bool);
-- (id);
-- (id)tWithOutputDevices:parentRoute: /* Error: Ran out of types for this method. */;
-- (id)_MISSING__;
-- (_Bool)dentifierListDataSource>",&,N,V_dataSource;
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (long long);
+- (id);
 - (unsigned long long);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (long long);
-- (_Bool);
-- (void)z;
-- (_Bool)!ÐGùÁ°1¢!0@ù
-× ;
-- (_Bool)pð!tGùÃ°1¢!0@ù
-× ;
-- (long long)ù
-× ;
-- (_Bool)aw!BùqÌ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (unsigned long long)ÑÎ°1¢!0@ù
-× ;
-- (id)wSubviewMonitoring>";
-- (_Bool)e *, std::allocator<_UIVelocityIntegratorDataSample *>>="__first_"^^{_UIVelocityIntegratorDataSample}"__begin_"^^{_UIVelocityIntegratorDataSample}"__end_"^^{_UIVelocityIntegratorDataSample}""{?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
-- (id)e"16@"UISceneSession"24@"UISceneConnectionOptions"32;
-- (id)bleCells;
-- (_Bool)d: /* Error: Ran out of types for this method. */;
-- (_Bool)iew;
-- (_Bool)shadowSelectionDuration;
-- (id)eemtiveLayoutToEnsureNoMoreLayoutWhileSelecting:(id)arg1;
-- (_Bool)ides:defaultValueOverrides: /* Error: Ran out of types for this method. */;
-- (id)und: /* Error: Ran out of types for this method. */;
-- (_Bool)",R,N,V_indexPath;
-- (_Bool)XÌ\Ð ¨;
-- (_Bool)¨U;
-- (_Bool);
-- (_Bool)tor was auto-deactivated for style %@ but finally got a deactivate, swallowing it:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)tributes to a nil view. Collection View:%@, Attributes:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (long long)Key;
+- (long long);
+- (id);
 - (_Bool);
-- (_Bool))Ã[;
-- (long long)ç^;
-- (unsigned long long)l[ÿQÕ)"`;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)× ;
+- (_Bool)@ù
+× ;
+- (id)b°1Â0@ù
+× ;
+- (_Bool)Ð!@Dùbð1Â0@ù
+× ;
+- (long long);
+- (_Bool)× ;
+- (id)0@ù
+× ;
+- (_Bool)eEmoji;
+- (_Bool)umContentWidth: /* Error: Ran out of types for this method. */;
+- (id)tyle: /* Error: Ran out of types for this method. */;
+- (_Bool)esture:touchCancelledAtDigitizerLocation: /* Error: Ran out of types for this method. */;
+- (_Bool)singComparator:fromItem:inDirection:loopAround: /* Error: Ran out of types for this method. */;
+- (id)ersectsDateComponents:accuracy: /* Error: Ran out of types for this method. */;
+- (_Bool)teTargetContentOffset;
+- (_Bool)Image:forState:barMetrics: /* Error: Ran out of types for this method. */;
+- (id)ostRotationInputViewSet;
+- (_Bool)ordanceView;
+- (_Bool)ecognizer;
+- (_Bool);
+- (id)iewSupplementaryRegistration;
+- (_Bool)\U;
+- (id)hes current phase. Not doing so runs a risk of triggering infinite loop.;
+- (void)%ld;
+- (id)ViewControllerSceneShimEnabledForBundleIdentifierAndExtensionPointIdentifier(NSString * _Nullable __strong, NSString * _Nullable __strong);
+- (void)Document File Access;
+- (long long)ibutes:%@; new transform:%@ /* Error: Ran out of types for this method. */;
+- (id)ification;
+- (_Bool)ionContextCSgIggg_;
+- (_Bool)Ñ;
+- (unsigned long long)ü`\;
+- (void);
+- (_Bool)±È;
+- (long long)ò­É`;
 
 // Remaining properties
 @property(readonly, nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;

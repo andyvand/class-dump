@@ -13,7 +13,7 @@
     MPRadioStation *_radioStation;
 }
 
-+ (_Bool)agerObserver %p> HMHomeManagerDelegatePrivate homeManager:%{public}@ homeManagerDidUpdateCurrentHome: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) MPRadioStation *radioStation; // @synthesize radioStation=_radioStation;

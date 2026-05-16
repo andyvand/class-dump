@@ -11,14 +11,14 @@
     MISSING_TYPE *foregroundColor;
 }
 
-- (void)*;
 - (void);
-- (_Bool);
-- (void);
+- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (id)¼úÿ;
-- (struct CGSize)òIÿòIÿòIÿ;
+- (_Bool);
+- (id);
+- (void)rovider;
 
 @end
 

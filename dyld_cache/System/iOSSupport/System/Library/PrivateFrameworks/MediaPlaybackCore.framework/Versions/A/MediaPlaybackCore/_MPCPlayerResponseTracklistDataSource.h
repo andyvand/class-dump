@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)6;
-- (id)count:(id)arg1 willChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
-- (id)ernalExtras,TeaStateTool,TeaBreezeCatalog;
 - (id);
 - (id);
-- (void)K	;
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long)_signalStrength;
+- (unsigned long long)led - error:(unsigned long long)arg1 %{public}@;
+- (void)g shuffle type [first data source loaded] shuffleType=%{public}@ startItem=%{public}@ startSection=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

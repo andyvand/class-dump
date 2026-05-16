@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol MPCCriticalSectionAssertion
-- (NSString *)njl8.;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;

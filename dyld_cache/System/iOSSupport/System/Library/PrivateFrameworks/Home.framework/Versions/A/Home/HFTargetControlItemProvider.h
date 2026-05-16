@@ -20,13 +20,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)MusicAccountNoCredentials;
+- (void)aining;
+- (void)PòhòPóXóóõ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

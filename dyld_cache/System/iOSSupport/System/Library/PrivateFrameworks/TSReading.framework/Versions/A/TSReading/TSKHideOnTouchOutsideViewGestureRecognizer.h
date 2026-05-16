@@ -18,10 +18,10 @@
 - (id);
 - (void);
 - (void);
-- (void)";
 - (void);
-- (_Bool)n down before dealloc;
-- (void)teractiveCanvasController performBlockAfterNextLayout:(id)arg1 ];
+- (_Bool);
+- (void)ertyMapForListNumberType:(id)arg1;
+- (void)ùv;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

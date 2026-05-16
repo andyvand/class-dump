@@ -27,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)licitFilterInfo:(id)arg1;
+- (void);
+- (void);
+- (void)duleType;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *cnContactStore;

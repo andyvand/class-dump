@@ -20,14 +20,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)rredStatusBarUpdateAnimation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *role; // @synthesize role=_role;

@@ -17,9 +17,10 @@
 - (id);
 - (long long);
 - (void);
-- (void);
 - (id);
-- (id)ationObserver>"16;
+- (void)
+× ;
+- (id)ptors;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

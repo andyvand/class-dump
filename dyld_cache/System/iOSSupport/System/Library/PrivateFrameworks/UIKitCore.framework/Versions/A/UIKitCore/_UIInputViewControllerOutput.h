@@ -29,7 +29,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _inputModeListUpdatePoint;
 }
 
-+ (_Bool)Q3m;
++ (_Bool)efault contents:%d
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,35 +50,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)#;
+- (_Bool);
 - (struct CGPoint);
 - (long long);
 - (double);
 - (struct CGPoint);
 - (void);
 - (void);
-- (id)r;
-- (_Bool)Ds %s;
-- (id)ed invalid message type:%lld when fetching message types. /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (_Bool);
-- (id)kupBlock:(struct _NSZone *)arg1;
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)erlinesIfNeeded;
-- (long long)SecondaryItemIdentifiers;
-- (id)iew;
 - (id);
-- (void)ligncenter;
-- (_Bool)71;
-- (struct _NSRange)ÿ;
-- (void)]`;
-- (void)`;
+- (void);
+- (id);
+- (void);
+- (_Bool)etion;
+- (void)lter:(id)arg1;
+- (void)getsOnContentOffsetChanges;
+- (void)Controller:didChangeToState:withSize: /* Error: Ran out of types for this method. */;
+- (id)V_shadowFadesToBottom;
+- (long long)stureRecognizer",&,N,V_pressGR;
+- (struct _NSRange)gKeyboardTrackingElement;
+- (void);
+- (void)q;
+- (_Bool)Dí;
+- (id)zb;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *hasDictation; // @synthesize hasDictation=_hasDictation;

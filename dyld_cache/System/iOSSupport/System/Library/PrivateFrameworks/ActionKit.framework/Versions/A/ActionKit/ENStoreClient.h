@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)24@32@40@48@?56;
+- (void);
+- (void)GIF was passed as input to Get Frames from Image.;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

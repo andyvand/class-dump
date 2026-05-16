@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)ghlightColor: /* Error: Ran out of types for this method. */;
-+ (id)Û2î3;
-+ (id)ûe;
++ (id);
++ (id)andlers, but no registration.;
++ (id)Ìtg;
 
 @end
 

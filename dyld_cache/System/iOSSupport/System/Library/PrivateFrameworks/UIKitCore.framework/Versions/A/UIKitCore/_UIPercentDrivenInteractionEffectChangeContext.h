@@ -15,10 +15,10 @@
 
 - (void);
 - (double);
-- (void)erValueType of %d in destructor;
+- (void);
 - (_Bool);
-- (double);
-- (void)¤þÿ;
+- (double)located before animationDidFinish:(%@) /* Error: Ran out of types for this method. */;
+- (void)izations with archive version %ld;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

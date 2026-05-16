@@ -17,7 +17,7 @@
     struct atomic<int> mOwnerCount;
 }
 
-+ (id);
++ (id)au;
 - (void);
 - (void);
 - (void);
@@ -26,21 +26,21 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (int);
-- (_Bool)#;
+- (_Bool);
+- (id);
+- (unsigned long long);
+- (void);
 - (oneway void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long)LessThanOrEqualToIndex: /* Error: Ran out of types for this method. */;
-- (struct CGSize)­å;
+- (struct CGSize)H;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long imageGamut;

@@ -7,7 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)agSession;
-- (_Bool)£[G;
+- (_Bool)TûÖÿàûÖÿýÖÿLþÖÿX;
 @end
 

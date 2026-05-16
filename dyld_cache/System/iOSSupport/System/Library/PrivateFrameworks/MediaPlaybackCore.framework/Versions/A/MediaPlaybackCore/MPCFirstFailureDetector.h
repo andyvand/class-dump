@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
     MPCAudioFailure *_multiSamplesFailure;
 }
 
-- (id)framework/Versions/A/IDS;
-- (double)cription;
-- (_Bool);
-- (id)H_CONST;
 - (id);
-- (void);
+- (double);
+- (_Bool);
+- (id);
+- (id);
+- (void)ic}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCAudioFailure *multiSamplesFailure; // @synthesize multiSamplesFailure=_multiSamplesFailure;

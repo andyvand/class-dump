@@ -10,10 +10,11 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (struct CGPDFSelection *);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,9 +25,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);

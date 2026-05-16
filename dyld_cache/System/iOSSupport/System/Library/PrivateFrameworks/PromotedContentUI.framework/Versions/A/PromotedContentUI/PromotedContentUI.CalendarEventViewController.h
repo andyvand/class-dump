@@ -18,10 +18,10 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)Q;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 

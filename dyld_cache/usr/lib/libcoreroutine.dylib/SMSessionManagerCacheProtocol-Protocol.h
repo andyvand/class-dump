@@ -5,8 +5,5 @@
 //
 
 @protocol SMSessionManagerCacheProtocol
-- (void);
-- (void);
-- (void)l	;
 @end
 

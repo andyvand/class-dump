@@ -13,11 +13,11 @@
     UIBarButtonItem *_barButtonItem;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)de;
-- (id)%@ with error %@;
+- (id);
+- (void);
 
 // Remaining properties
 @property __weak UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;

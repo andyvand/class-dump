@@ -30,13 +30,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)a&Ð!BùQ0°1b0@ù
-× ;
-- (id)ontroller"24@"UIViewController"32;
-- (void)setTimeComponents:(id)arg1;
+- (void);
+- (void)itle;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *customizeButton; // @synthesize customizeButton=_customizeButton;

@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (void);
-- (_Bool)tle:valueKeyPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) WFContextualAction *contextualAction; // @synthesize contextualAction=_contextualAction;

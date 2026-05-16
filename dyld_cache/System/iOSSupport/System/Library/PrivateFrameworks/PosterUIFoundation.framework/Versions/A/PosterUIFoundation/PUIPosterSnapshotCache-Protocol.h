@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSURL;
+@class NSFileManager, NSURL, PFTFuture;
 
 @protocol PUIPosterSnapshotCache
-- (NSFileManager *)entViewController;
+- (PFTFuture *)rs:range: /* Error: Ran out of types for this method. */;
+- (NSFileManager *)@"IOSurface",R,N;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL;

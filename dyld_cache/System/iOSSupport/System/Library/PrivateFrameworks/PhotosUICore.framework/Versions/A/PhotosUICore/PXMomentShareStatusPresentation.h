@@ -40,7 +40,7 @@
     long long _pauseResolutionActionType;
 }
 
-+ (id)Q;	: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -93,20 +93,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (id);
+- (id);
 - (void);
 - (long long);
-- (id);
-- (id)1b0@ù
-× ;
-- (long long)|8üÿ~8üÿ;
-- (void)ithIdentifier:(CDUnknownBlockType)arg1 kind:] /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)romeOpacity;
-- (void)\Ø;
-- (id):1Ý /* Error: Ran out of types for this method. */;
-- (long long)4;
-- (void)º5;
+- (long long);
+- (void)rKey:(long long)arg1;
+- (CDUnknownBlockType)lfProvider;
+- (void)tication stack. Was:(CDUnknownBlockType)arg1 %{public}@. ;
+- (long long)tsController;
+- (void)dicationCountsController init];
+- (void);
+- (id)L­5;
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

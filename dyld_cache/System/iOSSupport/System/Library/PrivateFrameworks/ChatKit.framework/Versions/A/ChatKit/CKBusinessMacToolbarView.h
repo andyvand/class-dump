@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);;
 - (void);
 - (void);
-- (id)nt > 0);
+- (void);
+- (id);
 - (id);
 - (struct CGRect);
 - (void);
@@ -36,10 +36,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (double);
-- (void)ImageView",&,N,V_cellGlpyh;
+- (void)ew;
+- (double)G;
+- (void)¨Ä¸;
+- (void)ndView;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *bannerImage; // @synthesize bannerImage=_bannerImage;

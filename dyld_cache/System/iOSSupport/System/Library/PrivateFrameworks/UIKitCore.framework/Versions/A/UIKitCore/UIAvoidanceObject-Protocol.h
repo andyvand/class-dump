@@ -7,7 +7,6 @@
 @class UIAvoidanceCoordinator;
 
 @protocol UIAvoidanceObject
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIAvoidanceCoordinator *avoidanceCoordinator;

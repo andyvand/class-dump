@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol UIAccessibilityHUDGestureDelegateInternal
+
+@optional
+- (UIViewController *)Ôá;
 @end
 

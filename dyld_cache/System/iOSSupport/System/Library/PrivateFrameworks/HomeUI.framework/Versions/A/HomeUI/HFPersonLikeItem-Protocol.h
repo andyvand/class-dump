@@ -7,6 +7,9 @@
 @class HMHome, HMPerson, HMPersonManager;
 
 @protocol HFPersonLikeItem
+- (HMPerson *)ùQ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home;

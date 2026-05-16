@@ -7,7 +7,6 @@
 @class NSURL;
 
 @protocol APPCPromotableVideoRepresentation
-- (double);
 
 // Remaining properties
 @property(nonatomic, readonly) double bitrate;

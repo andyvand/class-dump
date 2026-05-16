@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)ewFooterLinkViewDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

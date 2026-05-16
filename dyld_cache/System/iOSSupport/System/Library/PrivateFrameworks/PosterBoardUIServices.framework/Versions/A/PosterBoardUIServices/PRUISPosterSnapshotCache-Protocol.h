@@ -7,7 +7,7 @@
 @class NSURL;
 
 @protocol PRUISPosterSnapshotCache
-+ (id);
+- (void)loatingSceneLayerView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL;

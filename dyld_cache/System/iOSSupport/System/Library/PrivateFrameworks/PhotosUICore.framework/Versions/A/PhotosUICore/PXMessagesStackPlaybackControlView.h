@@ -27,15 +27,16 @@
 - (struct CGRect);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id)@dÿeÿhmÿÄvÿÿÿ0ÿlIÿ ÿ(¢ÿ¼ÿ\Iÿ\HÿVÿnÿ°ÿ¬ÿð7ÿ@IÿxnÿVÿpnÿÄÿxÇÿ;
-- (void);
-- (id)"LF(7;
+- (id)0@ù
+× ;
+- (_Bool)PhotosFilterPredicate;
+- (void)< _decorationInfoBySpriteIndexSize;
+- (void)ontroller;
+- (id)@È©ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

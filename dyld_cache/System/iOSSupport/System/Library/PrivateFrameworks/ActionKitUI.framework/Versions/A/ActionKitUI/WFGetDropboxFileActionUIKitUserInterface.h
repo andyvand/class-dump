@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)ObjectTypeEAN8Code(void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

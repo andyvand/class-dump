@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (int)MultipleSessions"b1};
+- (int)rdContainingCaretSelection;
 
 @end
 

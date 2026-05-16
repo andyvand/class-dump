@@ -16,29 +16,28 @@
     UILabel *_progressLabel;
 }
 
-- (void)İ;
-- (void);
-- (void)achmentC;
-- (void).;
 - (void);
 - (void);
-- (_Bool)esultForIdentifier:forHiding:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)eConfiguration;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)Ôá®Ð!üGù±Ç1¢!0@ù
-× ;
-- (id)$¬d¬;
 - (id);
-- (void)¼vhÿ;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)enerateFilters;
+- (void)sViewController;
+- (void);
+- (id)ìá±ÿi5ðþ.;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *backgroundVisualEffectView; // @synthesize backgroundVisualEffectView=_backgroundVisualEffectView;

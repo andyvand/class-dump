@@ -10,9 +10,9 @@
 
 + (_Bool);
 + (_Bool);
-- (void)nged. Posting a storefront changed notification. oldStorefront = %{public}@ | newStorefront = %{public}@;
-- (void)the storefront of the local account.;
-- (id)H;
+- (void);
+- (void);
+- (id);
 
 @end
 

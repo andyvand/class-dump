@@ -17,10 +17,10 @@
 }
 
 - (void);
-- (_Bool)hServerTime;
-- (id)ChangeType:(id)arg1;
-- (id)D;
-- (void)IDSService",&,N,V_smsRelayService;
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,12 +28,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)lStyle;
+- (long long)ayoutInfo",&,N;
+- (void)B;
 - (void);
-- (long long)chingMask: /* Error: Ran out of types for this method. */;
-- (id)pFilterChain;
-- (id)÷;
-- (long long)adingListClass(void)_block_invoke;
-- (void);
+- (long long)p×¥ÿ
+;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void)3;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,11 +39,10 @@
 - (id);
 - (id);
 - (void);
-- (void)fiersCount;
 - (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)ocialPersonHandle__MAPPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *playActivityFeatureName; // @synthesize playActivityFeatureName=_playActivityFeatureName;

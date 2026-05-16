@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)OUNT(*) AS count FROM ;
+- (void)CloudKitAutoShortcutsPreferences.m;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;

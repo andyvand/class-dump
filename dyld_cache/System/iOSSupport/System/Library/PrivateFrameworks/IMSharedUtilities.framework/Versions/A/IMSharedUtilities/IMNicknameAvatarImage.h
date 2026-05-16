@@ -15,30 +15,30 @@
     NSString *_imageFilePath;
 }
 
-+ (_Bool)serializableRanges;
-- (id);
-- (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)j@`;
-- (void)P;
 - (id);
-- (id)d;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (id)ontext:keyHierarchy:bundleType:defaultValue:valueIfError: /* Error: Ran out of types for this method. */;
-- (_Bool)HE;
+- (void)esentationType;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool contentIsSensitive; // @synthesize contentIsSensitive=_contentIsSensitive;

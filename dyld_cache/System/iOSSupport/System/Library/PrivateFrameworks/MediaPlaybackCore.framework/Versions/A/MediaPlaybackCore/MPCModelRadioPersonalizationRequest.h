@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)oding;
++ (_Bool);
 - (void);
 - (id);
-- (_Bool)ams_mergedPrivacyAcknowledgement;
+- (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)}@ %{public}@                   â %{public}@;
 
 // Remaining properties
 @property(nonatomic) _Bool analyticsSignpostsEnabled; // @synthesize analyticsSignpostsEnabled=_analyticsSignpostsEnabled;

@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)g an identity's persistent reference;
++ (Class);
 - (id);
-- (id)nction;
+- (id)@ð;
 
 @end
 

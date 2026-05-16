@@ -26,15 +26,17 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (long long);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)!;
-- (id)dConfigurationProfile;
-- (void)dbackPlatter:(id)arg1;
-- (void)Ò·;
+- (void)!4@ùq1â
+0@ù
+× ;
+- (void)bilityFooter;
 
 // Remaining properties
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;

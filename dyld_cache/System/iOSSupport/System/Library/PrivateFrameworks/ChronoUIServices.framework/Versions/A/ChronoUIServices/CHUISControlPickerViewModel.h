@@ -30,21 +30,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void)failed:(_Bool)arg1 initial search for an existing archive was not found; session will be creating the content on demand:%{public}s:%{public}s /* Error: Ran out of types for this method. */;
+- (_Bool)er;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;

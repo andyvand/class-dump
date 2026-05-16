@@ -19,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)ock;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)usly;
-- (void);
-- (id)itialTouchTypeIfNeeded: /* Error: Ran out of types for this method. */;
-- (id)N,V_geometryIsChanging;
-- (id)Ìa;
+- (id)etStateChangeObserver:(id)arg1 observer: /* Error: Ran out of types for this method. */;
+- (id)Updating battery data based on properties:(id)arg1 %{public}@;
+- (void)ViewControllerFormattingDescriptorAttributeState;
+- (id);
 
 @end
 

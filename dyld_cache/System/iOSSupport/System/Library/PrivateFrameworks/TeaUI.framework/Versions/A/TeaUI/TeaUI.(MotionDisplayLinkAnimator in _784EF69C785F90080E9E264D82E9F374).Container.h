@@ -11,7 +11,7 @@
     MISSING_TYPE *animator;
 }
 
-- (void)DictionaryKey2;
+- (void);
 
 @end
 

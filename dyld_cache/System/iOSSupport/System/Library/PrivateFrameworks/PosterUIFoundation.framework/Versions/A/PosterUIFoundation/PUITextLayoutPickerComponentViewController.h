@@ -41,13 +41,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)re MLM assertion for %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)SQLiteCache.m;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cellViews; // @synthesize cellViews=_cellViews;

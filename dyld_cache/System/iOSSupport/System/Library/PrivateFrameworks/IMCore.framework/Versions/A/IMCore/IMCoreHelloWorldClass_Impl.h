@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)½g;
 
 @end
 

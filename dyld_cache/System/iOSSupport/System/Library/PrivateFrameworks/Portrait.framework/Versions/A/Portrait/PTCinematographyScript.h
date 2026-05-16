@@ -180,17 +180,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (CDStruct_e83c9415);
-- (id)ª½&g;
+- (void);
+- (_Bool);
+- (id)­®mÿ¶®mÿ¾®nÿÆ¯pÿÎ¯qÿÖ°rÿÞ°sÿæ±tÿï²uÿ÷³uÿÿ³wÿµkÿµkÿµkÿµkÿ!µkÿ)µkÿ1µkÿ:µkÿBµkÿJµkÿRµkÿZµkÿcµkÿkµkÿsµkÿ{µkÿµkÿµkÿµkÿµlÿ¥µlÿ­µlÿ¶¶mÿ¾¶nÿÆ·oÿÏ·pÿ×¸rÿß¸sÿç¹uÿðºvÿ÷»wÿÿ¼xÿ /* Error: Ran out of types for this method. */;
+- (void)ÿÞBÿÞCÿÞCÿÞCÿ¥ÞCÿ­ÞDÿ¶ÞDÿ¾ßEÿÆßFÿÏßGÿ×ßHÿààJÿèáLÿñáNÿúãQÿÿãTÿ;
 
 // Remaining properties
 @property(retain, nonatomic) AVAsset *asset; // @synthesize asset=_asset;

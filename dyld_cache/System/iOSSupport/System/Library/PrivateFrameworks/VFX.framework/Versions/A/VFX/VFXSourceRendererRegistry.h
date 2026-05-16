@@ -9,7 +9,7 @@
     struct __CFDictionary *_registry;
 }
 
-+ (id);
++ (id)amilyName;
 - (id);
 - (void);
 - (void);

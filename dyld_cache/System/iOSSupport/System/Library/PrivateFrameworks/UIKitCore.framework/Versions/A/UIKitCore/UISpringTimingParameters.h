@@ -15,9 +15,10 @@
 }
 
 + (void);
-+ (void)q,R,N,V_focusTouchSensitivityStyle;
-+ (void)UserInterfaceStyleToScreen;
-+ (_Bool)Ù·m;
++ (void)á°!xBùñ\1Â0@ù
+× ;
++ (void)es:(double)arg1 %@;
++ (_Bool)sult=%@;
 
 @end
 

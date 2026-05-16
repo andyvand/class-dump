@@ -25,17 +25,14 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -44,6 +41,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak ARUICountdownView *countdownView; // @synthesize countdownView=_countdownView;

@@ -38,19 +38,19 @@
 - (id);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

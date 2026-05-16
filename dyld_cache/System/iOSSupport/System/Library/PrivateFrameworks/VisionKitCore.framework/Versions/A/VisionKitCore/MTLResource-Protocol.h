@@ -8,13 +8,8 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
-- (unsigned long long)ù
-× ;
-- (unsigned long long)>"32;
-- (unsigned long long)mumCandidateCount: /* Error: Ran out of types for this method. */;
-- (unsigned long long)formAndBoundingBox: /* Error: Ran out of types for this method. */;
-- (unsigned long long),V_quickActionType;
-- (int)°#²²ð´Ì¹èºðº½8Á;
+- (unsigned long long)aitsAffectingColorAppearance;
+- (id <MTLHeap>)Key;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

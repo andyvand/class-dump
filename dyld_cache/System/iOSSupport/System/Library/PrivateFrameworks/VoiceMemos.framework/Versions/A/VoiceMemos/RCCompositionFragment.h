@@ -28,13 +28,13 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (void);
+- (unsigned long long);
 - (double);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *AVOutputURL; // @synthesize AVOutputURL=_AVOutputURL;

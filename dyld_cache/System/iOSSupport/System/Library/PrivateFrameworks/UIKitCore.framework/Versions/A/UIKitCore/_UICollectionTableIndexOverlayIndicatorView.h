@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
     id <_UICollectionTableIndexOverlayHost> _host;
 }
 
-- (void)dsTrustedData:(long long)arg1 isFromDefaultPairedDevice:(id)arg2;
-- (void)nc;
-- (void)messages needing T1 update with limit;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)A;
-- (void);
-- (id)¬â(ÿ:(id)arg1 í[c;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentText;

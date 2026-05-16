@@ -17,26 +17,27 @@
     MISSING_TYPE *currentSetQueueIdentifier;
 }
 
-- (void)%s line %lu (queue:(id)arg1 %s, waitingTime:%llums) /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)__TEXT;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)wasModified:(long long)arg1 %@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)i;
-- (id);
-- (long long);
 - (float);
-- (_Bool)Reachable;
+- (long long);
+- (id);
+- (void);
+- (id);
+- (_Bool)ineInfoProvider;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isModeManagedSession;
@@ -47,6 +48,7 @@
 @property(nonatomic) float relativeVolume;
 @property(nonatomic, readonly) long long renderingMode;
 @property(nonatomic, readonly) NSDictionary *stateDictionary;
+@property(nonatomic, readonly) _Bool supportsMultichannelAudio;
 
 @end
 

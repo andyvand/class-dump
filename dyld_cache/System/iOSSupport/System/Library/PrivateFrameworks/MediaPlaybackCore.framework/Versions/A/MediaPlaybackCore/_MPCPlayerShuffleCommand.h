@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
-- (id)me;
-- (void)mActionsForDataclasses:(_Bool)arg1;
-- (void)ccount:(_Bool)arg1 willChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)data source] edit=%{public}@;
 
 // Remaining properties
 @property(nonatomic) long long currentShuffleType; // @synthesize currentShuffleType=_currentShuffleType;

@@ -22,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)iri_Home_Level_Setting_Title;
 
 // Remaining properties
 @property(retain, nonatomic) HUAccessorySettingsItemModule *accessorySettingsSectionItemModule; // @synthesize accessorySettingsSectionItemModule=_accessorySettingsSectionItemModule;

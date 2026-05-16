@@ -26,23 +26,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)sionListsProducer;
-- (id)ð¢¤;
 - (id);
-- (id)äÛøÿ@vûÿ(Þøÿ;
-- (_Bool);
-- (id)J<ÿ ;
+- (id);
+- (double);
 - (void);
-- (double)ryTransitionShelfHeaderBlurRadius;
-- (id)tB§ÿê»I4;
-- (void)hjòÿíO Æ5;
-- (void)½ÿÀÎMâZ6;
+- (id)tchResult:(id)arg1;
+- (_Bool)ngChanges:(id)arg1;
+- (void)hChapter;
+- (id);
+- (void)tionManageClientAuthentication_Title;
+- (id);
+- (void)oryPhotosBarsUpdatesPermissionManager;
+- (void);
+- (id)Üê­ÿ\	R5;
+- (void)ÿ;
+- (void)ORx­5;
+- (void)ÿ;
 
 @end
 

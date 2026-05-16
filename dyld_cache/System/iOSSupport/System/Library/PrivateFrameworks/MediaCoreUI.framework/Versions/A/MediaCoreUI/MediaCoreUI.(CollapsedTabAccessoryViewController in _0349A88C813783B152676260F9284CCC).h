@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void);
+- (void)of assets on disk:%s. /* Error: Ran out of types for this method. */;
 
 @end
 

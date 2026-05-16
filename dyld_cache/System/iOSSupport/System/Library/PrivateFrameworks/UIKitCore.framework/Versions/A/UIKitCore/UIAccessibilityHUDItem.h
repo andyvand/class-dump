@@ -21,30 +21,28 @@
 + (id);
 + (id);
 - (void);
-- (void)UI;
 - (void);
 - (void);
-- (_Bool)ck purgeability status for %{private}s:%s /* Error: Ran out of types for this method. */;
-- (id)mark as purgable;
-- (id)ansfer, storing instead;
-- (struct UIEdgeInsets)ordID data of size %lu, and encryption key of size %lu to disk;
-- (_Bool)ing path:%@,  /* Error: Ran out of types for this method. */;
-- (_Bool)transfer %@ is in thumbnail state, not retrieving;
-- (long long)ed to fail. Error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
 - (_Bool);
-- (void)emIdentifier;
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)áu!BùqÊ1¢!0@ù
-× ;
-- (void)ene"16@"FBSSceneUpdate"24;
-- (id)ÿ­Ö×h.q;
+- (id);
+- (struct UIEdgeInsets);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (id)× ;
+- (_Bool)ttomAnchor;
+- (void)ocusPlatterInset;
+- (id)#À#<$ð$X(0)`*;
+- (id)PÁ^;
+- (void)ÿêÉ°h;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long customUserInterfaceStyle; // @synthesize customUserInterfaceStyle=_customUserInterfaceStyle;

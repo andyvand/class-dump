@@ -22,10 +22,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)l;
+- (_Bool)ion;
 - (void);
-- (void);
-- (_Bool)ÿÿx;
+- (void);
 
 // Remaining properties
 @property _Bool isCancelled; // @synthesize isCancelled=_isCancelled;

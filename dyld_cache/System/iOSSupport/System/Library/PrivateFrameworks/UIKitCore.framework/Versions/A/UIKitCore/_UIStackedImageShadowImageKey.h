@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     long long _alpha;
 }
 
-+ (id)ne %d [%@];
++ (id);
 - (unsigned long long);
-- (_Bool)ta_std;
+- (_Bool)oat"b1"sectionFootersFloat"b1"headerFollowsSectionMargins"b1"footerFollowsSectionMargins"b1"fetchingItemsInfoForRect"b1"isInUpdateVisibleCellsPass"b1};
 
 @end
 

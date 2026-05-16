@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (id)dsPreferredStatusBarStyle;
+- (void)_animateScrollToStyleKind:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *lineColor; // @synthesize lineColor=_lineColor;

@@ -5,13 +5,5 @@
 //
 
 @protocol UITextLinkInteraction
-- (void);
-- (void)D;
-- (_Bool)hing food curations...;
-- (void);
-
-@optional
-- (_Bool)ecs.];
-- (_Bool);
 @end
 

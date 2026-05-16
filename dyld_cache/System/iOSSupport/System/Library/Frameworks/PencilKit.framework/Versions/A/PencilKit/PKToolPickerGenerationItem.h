@@ -12,7 +12,7 @@
 {
 }
 
-- (id)@"NSURLSessionTask"24q32@?<v@?@"NSInputStream">40;
+- (id);
 - (_Bool);
 - (id);
 

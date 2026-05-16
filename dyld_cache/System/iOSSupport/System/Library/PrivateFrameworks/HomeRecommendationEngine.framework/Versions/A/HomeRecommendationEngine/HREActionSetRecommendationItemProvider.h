@@ -25,11 +25,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long engineOptions;

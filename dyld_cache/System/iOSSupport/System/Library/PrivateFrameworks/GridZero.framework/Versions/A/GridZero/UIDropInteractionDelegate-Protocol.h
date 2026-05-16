@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDropProposal;
+@class UIDropInteraction;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (UIDropProposal *)/!l@ùq<	°1b0@ù
-× ;
-- (_Bool)
-× ;
-- (void)eAttributes;
+- (void)nableInlineVideo:(UIDropInteraction *)arg1;
 @end
 

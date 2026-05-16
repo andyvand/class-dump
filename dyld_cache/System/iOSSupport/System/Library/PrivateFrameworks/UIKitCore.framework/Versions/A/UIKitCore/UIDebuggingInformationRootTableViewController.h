@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)|,;
-- (void)@ù;
+- (void)Ü`;
+- (id)j;
 
 @end
 

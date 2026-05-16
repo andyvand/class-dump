@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void) `;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *autoEditStyleConfigurations; // @synthesize autoEditStyleConfigurations=_autoEditStyleConfigurations;

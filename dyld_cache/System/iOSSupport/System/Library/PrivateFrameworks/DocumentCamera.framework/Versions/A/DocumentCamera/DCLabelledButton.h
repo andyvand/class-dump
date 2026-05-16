@@ -18,12 +18,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)ð!Ô@ù}Ð1B50@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, retain) UIMenu *menu;

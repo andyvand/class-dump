@@ -14,12 +14,11 @@ __attribute__((visibility("hidden")))
     UIKeyboardUIService *_service;
 }
 
-- (id)ssageID:(id)arg1 account:shouldNotify:wasDowngraded: /* Error: Ran out of types for this method. */;
-- (id)nt:(id)arg1 shouldNotify: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (id);
-- (void)1Á°1¢!0@ù
-× ;
+- (void)\_Æÿ;
 
 @end
 

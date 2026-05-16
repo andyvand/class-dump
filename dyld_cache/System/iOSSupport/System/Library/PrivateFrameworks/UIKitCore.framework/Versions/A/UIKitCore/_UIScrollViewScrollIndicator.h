@@ -21,33 +21,35 @@
 }
 
 + (id);
-+ (void)ew;
-+ (id)cyAccumulatorWithName:(id)arg1;
-+ (void):V /* Error: Ran out of types for this method. */;
-- (id);
++ (void);
++ (id)er:(long long)arg1;
++ (void)itles;
+- (long long);
 - (void);
 - (void);
-- (void);
-- (void)ViewController:(_Bool)arg1;
-- (id)Hijack - RoutingController %{public}@ Presenting:%{public}@ NowPlaying:%{public}@ /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (struct CGRect);
-- (long long)0@ù
-× ;
-- (id)!ôAù±Ê1¢!0@ù
-× ;
-- (void)_textAlignment;
-- (struct CGSize)ansaction flush now.;
-- (id)ôÿÿÿ¹èÿpþäþÿê{úÿ;
-- (void);
-- (unsigned long long)L¡þ;
-- (void)sing visible cell to setup animations;
-- (id)bOverrideDefaultPlacements;
 - (void);
-- (void)4ôÊiþm4LËiþ;
+- (void)
+× ;
+- (id)1^ð1Â0@ù
+× ;
+- (void);
+- (unsigned long long)0@ù
+× ;
+- (struct CGSize)!pEùQgð1Â0@ù
+× ;
+- (_Bool)dleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (id)ryContainer;
+- (id)ngHandler;
+- (id)",&,N,V_screenEdgePanRecognizer;
+- (void)Animations:(unsigned long long)arg1;
+- (void);
+- (id)o¾7yÛ«;
+- (void)Ù.3yALyAAy_ABy¸;
+- (void)13Ø,;
+- (void)*àÿ>úÑ;
+- (id)2ÿòÙÐÐ^;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_visualStyle) id <_UIScrollViewScrollIndicatorVisualStyle> _visualStyle;

@@ -5,7 +5,5 @@
 //
 
 @protocol MPObjectDatabase
-- (void).mac;
-- (void)Phone.Evernote;
 @end
 

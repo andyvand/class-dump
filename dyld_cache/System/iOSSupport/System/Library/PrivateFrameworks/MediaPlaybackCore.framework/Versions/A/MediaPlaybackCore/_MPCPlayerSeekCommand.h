@@ -20,18 +20,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long)ibrary/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore;
+- (unsigned long long);
 - (_Bool);
-- (id)tionController";
-- (id)t"16@"ACDAccountStore"24@?<v@?@"ACAccount"@"NSError">32;
-- (id);
-- (id)_objc_classname__TEXT;
-- (id);
-- (id)pletion:(unsigned int)arg1;
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)c}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

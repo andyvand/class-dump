@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _isDecomposedFragment;
 }
 
-- (_Bool);
 - (void);
+- (_Bool);
 - (void);
 
 // Remaining properties

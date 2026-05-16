@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)age;
+- (id);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void)ngContainerViewCompactWidthConstraint;
 - (id);
-- (struct CGRect);
+- (struct CGRect);
+- (void);
 
 @end
 

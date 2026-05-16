@@ -33,12 +33,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
@@ -46,8 +46,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)[¼](m¸mpn¤nèno`ooqDqqÀqÐr t`x`yz;
+- (id)item with identifier %@ provided by delegate as its already present;
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;

@@ -7,6 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void);
+- (void)InteractionEnabled,V_extensionUserInteractionEnabled;
 @end
 

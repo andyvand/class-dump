@@ -7,8 +7,9 @@
 @class NSAttributedString, UIFont;
 
 @protocol WFSlotTemplateTextEntry
-- (struct _NSRange);
-- (void)¢TüùÿÂ;
+- (void)rð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *attributedText;

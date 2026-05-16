@@ -16,8 +16,8 @@
     MISSING_TYPE *entityDescription;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

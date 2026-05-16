@@ -19,16 +19,18 @@ __attribute__((visibility("hidden")))
     NSTimer *_timer;
 }
 
-+ (id)ô#;
++ (id)@ù
+× ;
 - (_Bool);
 - (double);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
-- (void)htImage;
-- (double);
-- (_Bool)¸;
+- (void)á÷!,GùQð1Â0@ù
+× ;
+- (double)dresses;
+- (void)roviderSpecialization.m;
 
 @end
 

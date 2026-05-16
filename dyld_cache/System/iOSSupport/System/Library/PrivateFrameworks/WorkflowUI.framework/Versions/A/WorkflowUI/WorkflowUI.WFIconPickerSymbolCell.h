@@ -17,13 +17,12 @@
 }
 
 - (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)
-× ;
-- (_Bool)w;
+- (_Bool);
+- (void);
 
 @end
 

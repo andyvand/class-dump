@@ -28,8 +28,8 @@
 - (id);
 - (double);
 - (double);
-- (void);
 - (id);
+- (void)Øÿÿÿ;
 
 // Remaining properties
 @property(nonatomic) long long saliencyFallbackBehavior; // @synthesize saliencyFallbackBehavior=_saliencyFallbackBehavior;

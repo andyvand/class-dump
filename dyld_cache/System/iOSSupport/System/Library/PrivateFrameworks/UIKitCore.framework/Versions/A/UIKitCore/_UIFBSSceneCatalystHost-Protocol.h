@@ -5,7 +5,6 @@
 //
 
 @protocol _UIFBSSceneCatalystHost
-- (void)put data store;
 
 // Remaining properties
 @property(nonatomic) long long hostingWindowCreationBehavior;

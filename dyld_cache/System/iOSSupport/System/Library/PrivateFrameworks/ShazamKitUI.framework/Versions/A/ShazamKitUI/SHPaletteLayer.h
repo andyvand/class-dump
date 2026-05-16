@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)dùþÿÒÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) SHPalette *palette; // @synthesize palette=_palette;

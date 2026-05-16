@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
     SEL _action;
 }
 
-+ (SEL)èRñþ;
++ (SEL);
 - (void);
-- (void)fication:(id)arg1;
-- (id)ubclass of _UITextFieldViewBackgroundProvider) needs to override -backgroundView.;
+- (id)1Â0@ù
+× ;
+- (void)gnnr_;
 
 @end
 

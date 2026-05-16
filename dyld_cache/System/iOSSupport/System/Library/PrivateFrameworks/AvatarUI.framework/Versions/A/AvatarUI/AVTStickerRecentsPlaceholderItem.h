@@ -19,13 +19,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (CDUnknownBlockType)field ';
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
+- (CDUnknownBlockType);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

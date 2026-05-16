@@ -5,6 +5,6 @@
 //
 
 @protocol UINSIntegerTraitDefinition
-+ (long long)(e.g. it is from a sticker pack);
++ (long long)e;
 @end
 

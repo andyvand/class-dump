@@ -24,10 +24,10 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
-- (long long);
+- (void)ller;
+- (long long)ÛÁ;
+- (void);
 
 @end
 

@@ -37,20 +37,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)#;
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
-- (void)$;
+- (_Bool);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (struct sqlite3 *)adata pending update;
+- (struct sqlite3 *);
+- (_Bool)(t;
+- (_Bool)n;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *createIndexesSQL; // @synthesize createIndexesSQL=_createIndexesSQL;

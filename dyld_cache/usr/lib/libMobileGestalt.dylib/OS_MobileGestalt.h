@@ -14,11 +14,11 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (id)8;
-- (void);
-- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;

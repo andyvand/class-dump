@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void)andler) ic_addDidMoveToWindowHandler:(double)arg1 ];
-- (long long)NSNumber"8{_NSRange=QQ}16^B32;
+- (void);
+- (long long);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (double)enerationCompleted;
 - (void);
-- (void);
-- (void);
-- (double);
-- (void)etMaxWidth:(id)arg1;
-- (id)DetailsController: /* Error: Ran out of types for this method. */;
+- (void)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *dot; // @synthesize dot=_dot;

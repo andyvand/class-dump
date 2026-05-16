@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)ÚHýÿôKýÿxIýÿ;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @dynamic data;

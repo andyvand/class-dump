@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TSPresenterType;
-
 @protocol TSPresentable
-- (void)ption  key %s has wrong type in dictionary
-;
-- (void)r:(id <TSPresenterType>)arg1:getChannelsForStreamAndSubscription  key %s has wrong type in dictionary
- /* Error: Ran out of types for this method. */;
-- (void)in dictionary
-;
-- (void)treamAndSubscription  no key %s in dictionary
-;
 @end
 

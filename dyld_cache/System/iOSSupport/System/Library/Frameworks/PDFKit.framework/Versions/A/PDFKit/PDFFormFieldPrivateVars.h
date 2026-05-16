@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     struct __CFDictionary *dictionary;
 }
 
-- (void)ectValue;
+- (void);
 
 @end
 

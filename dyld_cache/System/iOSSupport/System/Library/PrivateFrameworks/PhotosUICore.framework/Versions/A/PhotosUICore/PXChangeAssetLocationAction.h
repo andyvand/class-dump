@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (long long)$¾7;
+- (long long)7;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAnnotatedLocation *annotatedLocation; // @synthesize annotatedLocation=_annotatedLocation;

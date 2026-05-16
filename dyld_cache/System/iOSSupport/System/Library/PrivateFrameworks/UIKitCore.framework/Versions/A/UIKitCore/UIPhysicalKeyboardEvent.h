@@ -36,75 +36,77 @@ __attribute__((visibility("hidden")))
     long long _source;
 }
 
-+ (id)";
-+ (_Bool)©;
-- (void)8L;
-- (id);
-- (void);
++ (id);
++ (_Bool)detent %@ is not encodable. Custom detents are not supported for remote view controllers yet. rdar://65243005 (Custom sheet detents for remote view controllers) /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (long long);
-- (void)HELLO;
-- (id)thDeviceID: /* Error: Ran out of types for this method. */;
-- (id)tusRestrictedBool;
-- (id)ation;
-- (void);
-- (void);
+- (long long);
 - (_Bool);
-- (id);
-- (void);
 - (void);
-- (void);
-- (unsigned int)rList;
 - (void);
 - (void);
 - (_Bool);
-- (void)antType: /* Error: Ran out of types for this method. */;
-- (id)pKey=%@;
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (long long);
 - (_Bool);
-- (void)ÿº;
-- (void)±À1¢!0@ù
-× ;
-- (long long);
-- (_Bool)0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (void);
-- (long long)1¢!0@ù
-× ;
-- (long long)× ;
-- (_Bool)Allowed: /* Error: Ran out of types for this method. */;
-- (_Bool)eDoubleForKey: /* Error: Ran out of types for this method. */;
-- (long long)rray:(id)arg1;
-- (void)nConsideringTraitsThatCanRepresentUnspecifiedOnly:(id)arg1;
-- (long long): /* Error: Ran out of types for this method. */;
-- (_Bool)tionDidComplete: /* Error: Ran out of types for this method. */;
-- (_Bool)entaryParallaxShadowView;
-- (void)ingMode:(_Bool)arg1;
-- (long long)B,R,N,GisFocused;
-- (int)te: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)ronment. This indicates an unstable PFE chain. Results might be unreliable. Environment %@ had these childs before:%@
-now has:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)n't do anything and we would like to remove it. You have a radar about this (139002488 & 139002492). This will become an assert in a future version.;
-- (_Bool)xæùÿ;
-- (id)-----
-;
-- (void)scene session %@;
-- (long long)HHapticEngineOptionKeyUsageCategory(void);
-- (long long)on mode %@ -> %@;
-- (void)Û¥>\;
-- (void)%ÿµ^;
-- (_Bool)g;
+- (long long);
 - (id);
-- (id)UÐik;
-- (long long)k;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (int);
+- (id);
+- (void)ù[ð1Â0@ù
+× ;
+- (void)Ô ;
+- (void)°1Â0@ù
+× ;
+- (void)ù
+× ;
+- (long long)× ;
+- (void)0@ù
+× ;
+- (void)@ù
+× ;
+- (id);
+- (void)dð1Â0@ù
+× ;
+- (_Bool)qdð1Â0@ù
+× ;
+- (id)Ôá	°!(Dù1fð1Â0@ù
+× ;
+- (long long)iewLayoutObserver>";
+- (id)4@0:8@"<UITextDragFinishState>"16 /* Error: Ran out of types for this method. */;
+- (void)oolbarCustomizationSnapshot;
+- (void)ver:(_Bool)arg1;
+- (void)sure:(_Bool)arg1;
+- (_Bool)iaTypes;
+- (void);
+- (void);
+- (_Bool)Mode;
+- (void);
+- (void)wWidthConstraint;
+- (_Bool)leColorForState: /* Error: Ran out of types for this method. */;
+- (void)setDidSetPreferredFocusedEnvironments:(_Bool)arg1;
+- (void)tingsDiffInspector",&,N,V_carPlayDiffInspector;
+- (unsigned int)nary",&,N,V_delegateForCandidateRequest;
+- (long long)t",&,N,V_leadingBarConstraint;
+- (long long)IGraphicsImageRendererFormat;
+- (void);
+- (long long);
+- (_Bool)f%@, %.2f%@) padding(%.2f%@, %.2f%@, %.2f%@, %.2f%@);
+- (long long)tance1;
+- (void);
+- (void);
+- (_Bool)Âg;
+- (id)ÎðÂi;
+- (long long)Rj;
+- (id)èK&ÿ*;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *_commandModifiedInput; // @synthesize _commandModifiedInput;

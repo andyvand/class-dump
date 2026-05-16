@@ -7,8 +7,7 @@
 @class NSArray, NSString;
 
 @protocol INSpeakable
-- (NSString *);
-- (NSArray *)ParameterDefinition localizedTitleForValue:parameterMetadata:] must be overridden /* Error: Ran out of types for this method. */;
+- (NSString *),public}d, output:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alternativeSpeakableMatches;

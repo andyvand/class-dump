@@ -12,10 +12,10 @@
     id <SWNavigationManager> _navigationManager;
 }
 
-- (id)z;
-- (id)SearchHomeBlueprintModifierFactory;
+- (id);
 - (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -17,13 +17,13 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))d1/;
+- (void)ä`gÁ:3 /* Error: Ran out of types for this method. */;
+- (void)]@;
 
 @end
 

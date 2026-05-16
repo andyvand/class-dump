@@ -7,11 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (_Bool):(SEL)arg1 userInfo: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *)x;
+- (struct _NSZone *)for context %s;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

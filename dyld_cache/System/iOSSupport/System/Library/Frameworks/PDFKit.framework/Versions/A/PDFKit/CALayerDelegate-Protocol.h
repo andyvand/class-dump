@@ -5,12 +5,11 @@
 //
 
 @class CALayer;
+@protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
-- (void)dface:(CALayer *)arg1;
-- (void)@0:(CALayer *)arg1 8:16 /* Error: Ran out of types for this method. */;
-- (void)},N;
+- (id <CAAction>)t:(CALayer *)arg1 "%@";
 @end
 

@@ -4,15 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIView;
 
 @protocol UIViewControllerTransitionCoordinatorContext
-- (_Bool);
-- (struct CGAffineTransform)ýÿyüÿ;
-- (long long);
-- (_Bool)HþÿVÞR;
-- (long long)yAAyAAyADBí±yAFSgGGNÛ±G`à±G_AAyAAyAAyAAyAAybÚ±y4ó±AFGLç±GASG«Ü±GAUGAIGtGG¬á±GGGG;
-- (UIViewController *))³';
+- (_Bool)rollerAnimatedTransitioning>"24@0:8@"UIViewController"16 /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)adowOpacity: /* Error: Ran out of types for this method. */;
+- (_Bool)ÿÿÿÿÿ;
+- (_Bool)WaveformPlayIndicator;
+- (_Bool)¤jôÿÜ3;
+- (UIView *)Â;
+- (double)y^r
+YïR
+GADGG;
+- (double)eControllerCSg;
+- (long long)Sg_AAy)ùS
+yAAyAAyAAyAAyAAyAAyAAyæør
+yABG5÷S
+yßør
+SgGGARyÛør
+_pGGARy×ør
+GGARy÷S
+SgGGAEGñS
+G{0T
+G_AIQo_×ôS
+GAAy¶øS
+yAAyAAyAAyAAyAAyAqXGA_GAEGA6_GA8_G_AIQo_A11_GSgt;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

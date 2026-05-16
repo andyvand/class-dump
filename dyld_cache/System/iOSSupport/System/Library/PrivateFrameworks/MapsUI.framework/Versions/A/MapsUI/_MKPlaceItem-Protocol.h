@@ -7,7 +7,7 @@
 @class CNContact, EKCalendarItem, MKMapItem, NSString;
 
 @protocol _MKPlaceItem
-- (NSString *)Z®;
+- (NSString *)Manager.work;
 
 // Remaining properties
 @property(readonly, nonatomic) EKCalendarItem *calendarItem;

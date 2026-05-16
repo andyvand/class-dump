@@ -8,8 +8,8 @@
 {
 }
 
-- (id)\;
-- (id)hanges detected for the received accessory config. Skipping...;
+- (id);
+- (id);
 
 @end
 

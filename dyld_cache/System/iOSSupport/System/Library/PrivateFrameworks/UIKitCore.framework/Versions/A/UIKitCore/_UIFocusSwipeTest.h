@@ -26,11 +26,12 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)eUpdated: /* Error: Ran out of types for this method. */;
-- (void)chments:(CDUnknownBlockType)arg1;
-- (id)tivationMode:(id)arg1 %@, isAuthenticationRequired:%@, isDestructive:%@, parameters:%@> /* Error: Ran out of types for this method. */;
-- (void)ers.glassBackground.inputOuterRefractionHeight;
-- (id)V;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)s: /* Error: Ran out of types for this method. */;
+- (void)sBarHiddenWhenVerticallyCompact;
+- (void)è[;
 
 // Remaining properties
 @property(nonatomic) unsigned long long swipeAxis; // @synthesize swipeAxis=_swipeAxis;

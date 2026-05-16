@@ -44,20 +44,20 @@
 - (void);
 - (void);
 - (long long);
-- (void);
 - (id);
 - (struct UIOffset);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (void);
-- (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (void);
-- (void),N,V_actionManager;
-- (id)Pòpôàô;
-- (void)RD_URL;
-- (id)l	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id):8@"MUTransitDeparturesSectionController"16@"<GEOTransitDepartureSequence>"24@"MKMapItem"32 /* Error: Ran out of types for this method. */;
+- (id);
+- (void),N,V_maxTitleHeight;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *arrangedLayoutItems;

@@ -30,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,11 +49,11 @@
 - (void);
 - (float);
 - (unsigned long long);
-- (unsigned long long);
 - (void);
-- (char *);
-- (void)?;
 - (id);
+- (unsigned long long);
+- (char *);
+- (void)elds that overlap selections.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bufferCount; // @synthesize bufferCount=_bufferCount;

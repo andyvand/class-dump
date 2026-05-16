@@ -17,7 +17,7 @@
 }
 
 + (id);
-+ (_Bool)ngKeys;
++ (_Bool)32;
 - (void);
 - (void);
 - (_Bool);
@@ -29,13 +29,13 @@
 - (void);
 - (void *);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (float);
-- (void);
-- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) MISSING_TYPE *maskCenter;

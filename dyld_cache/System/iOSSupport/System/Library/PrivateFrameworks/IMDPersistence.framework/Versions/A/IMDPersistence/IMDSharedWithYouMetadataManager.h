@@ -12,7 +12,7 @@
 + (id);
 + (Class);
 + (Class);
-+ (id)9Y@9i;
++ (id);
 - (void);
 - (id);
 - (id);
@@ -24,11 +24,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool)1;
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 
 @end

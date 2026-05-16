@@ -5,7 +5,5 @@
 //
 
 @protocol CAReportingServiceProtocol
-- (void);
-- (void);
 @end
 

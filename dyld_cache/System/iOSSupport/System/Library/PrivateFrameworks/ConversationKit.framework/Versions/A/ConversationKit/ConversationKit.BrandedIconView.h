@@ -11,12 +11,12 @@
     MISSING_TYPE *icon;
 }
 
+- (struct CGSize)jc_selrefs;
+- (id)±l¬ÖÐK;
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
-- (struct CGSize)ADGDq­G~{­y0­»p­GGq­GG_¼t¯Qo_v­y^h­yAKw­GGG{­yh­GGAGG;
+- (void)¢y×;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

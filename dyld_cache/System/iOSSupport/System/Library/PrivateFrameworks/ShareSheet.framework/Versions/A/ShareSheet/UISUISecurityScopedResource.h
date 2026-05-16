@@ -39,12 +39,12 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool)laborationShareOptions: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long allowedAccess; // @synthesize allowedAccess=_allowedAccess;

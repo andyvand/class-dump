@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)remember a password for your locked notes—just use your login password or Touch ID.;
+- (void);
 - (void);
 
 @end

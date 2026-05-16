@@ -8,9 +8,9 @@
 {
 }
 
-- (_Bool);
 - (id);
-- (id)MúÿMúÿÐýÿ;
+- (id);
+- (_Bool)epareToDismissForSecondInstance;
 
 @end
 

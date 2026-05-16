@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ecipientToLabel;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *accessories; // @synthesize accessories=_accessories;

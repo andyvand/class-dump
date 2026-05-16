@@ -30,59 +30,52 @@
 }
 
 - (id);
+- (long long);
+- (struct CGSize);
+- (id);
+- (struct CGRect);
 - (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void)@;
-- (void)}r;
-- (long long);
-- (struct CGSize)or track %@;
-- (id);
-- (double);
-- (id);
+- (_Bool);
 - (void);
-- (void)a@9;
-- (void)0@ù
+- (void);
+- (void)ñ^°1Â0@ù
 × ;
-- (_Bool)!DùQÁð1¢!0@ù
-× ;
-- (_Bool)Âð1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (_Bool)ÃÐ1¢!0@ù
-× ;
-- (void)`FùÑËÐ1¢!0@ù
-× ;
-- (id)¡w°!LBùÑÌ1¢!0@ù
-× ;
-- (id)!0@ù
-× ;
-- (id)4@"NSNumber"32;
-- (void)inRange:(double)arg1 interaction: /* Error: Ran out of types for this method. */;
-- (id)forExtractionRootedAtStandardizedSubpathInArchive: /* Error: Ran out of types for this method. */;
-- (long long)yStrength;
-- (void)ctionInteraction;
-- (void)ageTextColor;
-- (_Bool)sAgainstUp;
-- (void)gConstraints;
-- (id)Manager;
-- (id)action;
-- (struct CGSize)ctionConcreteVisualStyle_iOSActivitySheet;
-- (void)x;
-- (void)ì;
-- (void)creen;
-- (double)eAudioClick;
-- (void)ind enrollments.;
-- (id)ngProviderSceneComponent.swift;
-- (struct _UIListContentViewLayoutInfo);
-- (struct CGRect)kÿ;
-- (struct CGSize)$ÿãZ;
-- (CDUnknownBlockType)V*ÿr×­®b;
-- (id)@2;*bd;
-- (struct CGSize);
+- (_Bool);
+- (void)ed:(id)arg1;
+- (id)butes: /* Error: Ran out of types for this method. */;
+- (void)estedPinchingDisabled:(id)arg1;
+- (_Bool)tModesForSiriLanguageFromInputModes:(id)arg1;
+- (void)ntrolKeyBackgroundColorName;
+- (void)VisibilityForWindow:(struct UIEdgeInsets)arg1 targetOrientation:animationParameters: /* Error: Ran out of types for this method. */;
+- (void)Action:group:acceptItemsFromDropSession: /* Error: Ran out of types for this method. */;
+- (id)arContainerView;
+- (void)dImageViewTraitCollection;
+- (id)s: /* Error: Ran out of types for this method. */;
+- (void)dAnimationStateForTracking:(struct CGRect)arg1;
+- (id)ChangedDiscontinuouslyOnChange;
+- (double)ldDisableInteractionDuringTransitions;
+- (CDUnknownBlockType)ndowSceneDidUpdateEffectiveGeometry: /* Error: Ran out of types for this method. */;
+- (void)ay",&,N,V_ownedGroups;
+- (void)C5UIKitP33_A96866C2920FEF12151F6D0347E0D9CE21SheetLayoutAttributes;
+- (id)@ÕüÕ;
+- (void);
+- (id)Ðs;
+- (struct CGSize);
+- (long long)mask animation;
+- (struct CGSize)d user info is not a property list, securely decoding;
+- (id)UpdateContextKey;
+- (struct CGSize)he %@ and %@ initializers.;
+- (id)ame:withItemList:] /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)AyÈ¿.3yj°;
+- (double);
+- (struct _UIListContentViewLayoutInfo)d;
+- (void);
+- (id)éÿ;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setDefaultListContentConfigurationProvider:) CDUnknownBlockType _defaultListContentConfigurationProvider;

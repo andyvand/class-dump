@@ -62,11 +62,11 @@
 - (void);
 - (struct CGRect);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)otoBanner;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleBadgeViewDelegate> badgeViewDelegate; // @synthesize badgeViewDelegate=_badgeViewDelegate;

@@ -7,7 +7,7 @@
 @protocol CAAnimationDelegate
 
 @optional
-- (void);
-- (void)iji8_;
+- (void)=%{public}@, state=%{public}@;
+- (void)ViewController;
 @end
 

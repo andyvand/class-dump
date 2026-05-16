@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
     double _blurRadius;
 }
 
-- (void)Transfer: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)owSceneDelegate;
-- (void)(AB;
-- (void)iacritic-forward-compose;
-- (id)´³°ÿzÐ¥#i;
-- (void)ÿ;
-- (double)2:l /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (id),;
+- (void);
+- (void)ÙLh;
+- (id)ÿLñZ;
+- (void)S;
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;

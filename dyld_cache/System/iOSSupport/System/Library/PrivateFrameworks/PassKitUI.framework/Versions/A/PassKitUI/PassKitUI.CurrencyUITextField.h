@@ -20,7 +20,9 @@
 - (id);
 - (void);
 - (id);
-- (void)ardMainDotsDigit03PreSequence03;
+- (void)±øÐ1â
+0@ù
+× ;
 
 @end
 

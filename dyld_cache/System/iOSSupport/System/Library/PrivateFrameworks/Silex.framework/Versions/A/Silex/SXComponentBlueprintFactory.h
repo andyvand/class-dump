@@ -10,7 +10,7 @@
 {
 }
 
-- (id)@9;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

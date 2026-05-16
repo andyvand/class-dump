@@ -20,10 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id)_file;
+- (id)ring"32@"NSString"40@"NSDictionary"48@?<v@?@"WFContentCollection"@"NSError">56;
+- (void)ord;
+- (void)untrySubstitutableState"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *result; // @synthesize result=_result;

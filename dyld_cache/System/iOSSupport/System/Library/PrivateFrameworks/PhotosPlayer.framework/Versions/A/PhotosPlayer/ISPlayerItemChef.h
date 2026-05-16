@@ -17,15 +17,15 @@
 
 + (id);
 - (long long);
-- (long long)5;
+- (long long);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setCurrentRequestID:) long long _currentRequestID; // @synthesize _currentRequestID=__currentRequestID;

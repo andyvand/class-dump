@@ -31,16 +31,16 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void)normalConstraints;
-- (void)C·oÖÿ-C·oÖÿC·oÖÿ;
-- (void)¹	¼;
+- (id)r;
+- (void)¢Gt;
 
 // Remaining properties
 @property(nonatomic) _Bool isPipped; // @synthesize isPipped;

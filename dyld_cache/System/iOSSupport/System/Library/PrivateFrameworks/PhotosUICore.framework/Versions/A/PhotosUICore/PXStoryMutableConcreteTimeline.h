@@ -29,10 +29,10 @@
 - (long long);
 - (long long);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)referBeingDisplayedInWholeRow;
+- (void)LT7¡3;
 
 @end
 

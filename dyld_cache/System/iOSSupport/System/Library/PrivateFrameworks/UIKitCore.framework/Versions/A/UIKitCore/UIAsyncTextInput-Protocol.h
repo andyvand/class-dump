@@ -5,50 +5,35 @@
 //
 
 @class NSArray, NSAttributedString, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
-@protocol UIAsyncTextInputDelegate, UIEditMenuInteractionAnimating, UIExtendedTextInputTraits, UITextInputTraits;
+@protocol UIAsyncTextInputDelegate, UIExtendedTextInputTraits, UITextInputTraits;
 
 @protocol UIAsyncTextInput
 
 @optional
-- (void);
-- (id <UIAsyncTextInputDelegate>);
-- (void);
-- (UIView *)tID:cloudLibraryID:time:completionHandler: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)1¢!0@ù
-× ;
-- (NSString *)!r°!ä@ùqÅ°1¢!0@ù
+- (void)Að!ØAù1\1Â0@ù
 × ;
 - (void)
 × ;
-- (void)!DGùQÆ°1¢!0@ù
+- (void)dÐ1Â0@ù
 × ;
-- (_Bool)0@ù
-× ;
-- (struct CGRect)!<Gù1Ì°1¢!0@ù
-× ;
-- (_Bool)roller"16@0:(SEL)arg1 8;
-- (_Bool)rfaceActionVisualStyle"32@0:8@"UITraitCollection"16q24 /* Error: Ran out of types for this method. */;
-- (_Bool)ectedPredictiveInputCandidate:isAutocorrection:index: /* Error: Ran out of types for this method. */;
-- (void)ath:(id <UIEditMenuInteractionAnimating>)arg1;
-- (id <UITextInputTraits>)Size: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)X;
-- (void)yet added;
-- (NSString *)re than 2 touches;
-- (struct CGRect)Èºþÿ0¼þÿH¼þÿt¼þÿ¼þÿ;
-- (void)iesDisplayAngle;
-- (struct CGRect)ÿºgþÿ"!ÿÿÚ!ÿÿ¨gþÿÖ!ÿÿ;
-- (UITextRange *)dPlacementCG;
-- (void)tricsLabelD0P;
-- (UIView *)ifier.;
-- (NSString *)yout.m;
-- (NSArray *)ct class is %@;
-- (UITextRange *)ture;
-- (void)ection connection with source %@, value %@, variable name %@, and runtime collection class name %@.;
-- (void)ontroller"8;
-- (long long)om path edge:(UITextPosition *)arg1 %.2f;
-- (void)expected one.;
-- (struct CGRect)ÿ3(ÍþÍìÿ3¼jþåìÿ34Íþ;
+- (NSDictionary *)sicalSize:(UITextPosition *)arg1 supportedFeedbackTypes:(long long)arg2;
+- (void)Capacity:(NSString *)arg1;
+- (_Bool)ssary;
+- (_Bool)Fill;
+- (NSString *)ion_hasCustomized_adjustsFontSizeToFitWidth;
+- (NSArray *)°ÿÿ;
+- (struct CGRect);
+- (long long)ÿµþ;
+- (UITextRange *)2Î/3Qz;
+- (void)C;
+- (struct CGRect);
+- (void);
+- (UITextRange *)ibrary/Frameworks/CoreHaptics.framework/CoreHaptics;
+- (struct CGRect)[±¿ê?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
+- (struct CGRect)rialTraitDefinition;
+- (void)513D3ºþ513¹þ;
+- (NSArray *)¯[;
+- (_Bool)´öWÐw\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alternativesForSelectedText;

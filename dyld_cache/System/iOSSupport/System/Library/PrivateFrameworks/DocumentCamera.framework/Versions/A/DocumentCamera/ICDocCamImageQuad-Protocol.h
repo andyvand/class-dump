@@ -5,7 +5,6 @@
 //
 
 @protocol ICDocCamImageQuad
-- (struct CGPoint);
 
 // Remaining properties
 @property(readonly) struct CGPoint bottomLeft;

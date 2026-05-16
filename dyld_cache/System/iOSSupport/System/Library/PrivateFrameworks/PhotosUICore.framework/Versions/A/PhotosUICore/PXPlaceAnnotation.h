@@ -19,15 +19,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (id):(id)arg1 8@?16@?24;
+- (void)wStatus;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;

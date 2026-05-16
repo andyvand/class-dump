@@ -47,9 +47,9 @@
 - (id);
 - (long long);
 - (void);
-- (void);
 - (id);
-- (long long)D;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long clientEncodingPolicy; // @synthesize clientEncodingPolicy;

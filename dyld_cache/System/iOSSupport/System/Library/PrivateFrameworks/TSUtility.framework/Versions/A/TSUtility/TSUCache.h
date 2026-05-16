@@ -14,20 +14,20 @@
     NSMutableDictionary *mCache;
 }
 
-- (id)\;
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void)ess;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id)J;
-- (id);
-- (id);
-- (unsigned long long)kA;
+- (unsigned long long);
 
 @end
 

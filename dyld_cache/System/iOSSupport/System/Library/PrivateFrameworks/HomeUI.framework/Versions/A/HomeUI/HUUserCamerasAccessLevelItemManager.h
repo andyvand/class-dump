@@ -21,8 +21,8 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -30,8 +30,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)D78;
+- (void)nager:didUpdateHH2State:> didUpdateHH2State = %{BOOL}d | Updating context for home %@ (uniqueIdentifier:%{public}@) /* Error: Ran out of types for this method. */;
+- (id)!= 0;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessLevelItems; // @synthesize accessLevelItems=_accessLevelItems;

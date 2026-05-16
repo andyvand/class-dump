@@ -33,10 +33,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)p;
 - (id);
-- (id);
-- (id)}}{?={CGAffineTransform=dddddd}}{?=qiIq}}64^{?=cC{?=qiIq}c(?=cccc)(?=ddc)}72^{?=qqfdddd}80^Q88;
+- (void)xìÿ;
+- (id)terMenuItems];
+- (id)configurations;
 - (void);
 
 // Remaining properties

@@ -5,5 +5,6 @@
 //
 
 @protocol BSServiceConnectionEndpointInjectorConfiguring
+- (void)Ïòÿ]¡Ãk÷ÿ]¡Ã;
 @end
 

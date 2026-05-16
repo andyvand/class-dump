@@ -21,43 +21,44 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)@ù
-× ;
-+ (id)ontroller;
++ (id);
++ (id)tifier:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void);
-- (id)payloadAllowWritingTools;
-- (void)erBeforeCreatingMA;
-- (_Bool);
-- (struct CGRect);
-- (_Bool)ast_send_time;
 - (struct CGSize);
-- (struct CGSize)ertAfterContentItemID;
-- (_Bool)emMusicPlayerController>",R,N;
 - (void);
-- (void)!;
+- (struct CGSize);
+- (id);
 - (void);
-- (void);
-- (id)ñÊ1¢!0@ù
+- (_Bool);
+- (struct CGSize);
+- (struct CGSize);
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)ð!AùQb°1Â0@ù
+× ;
+- (void)
+× ;
+- (id)ÑeÐ1Â0@ù
 × ;
 - (void);
-- (void)Ð1¢!0@ù
+- (id)0@ù
 × ;
-- (void)¢!0@ù
-× ;
-- (struct CGSize)idebarBlurEffectForPanelController: /* Error: Ran out of types for this method. */;
-- (_Bool)mWidth: /* Error: Ran out of types for this method. */;
-- (struct CGSize)etDecorationView: /* Error: Ran out of types for this method. */;
-- (id)se:event: /* Error: Ran out of types for this method. */;
-- (void)Tq,R,N,V_activeFocusAnimation;
-- (void)N,V_path;
-- (id)eyplaneBeforeDictation;
-- (void)ØPhì¬$;
-- (void)size:(struct CGSize)arg1 %lu %lu;
+- (_Bool)^@48;
+- (void)Bias;
+- (void)ent: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)[;
+- (void);
+- (void)event: /* Error: Ran out of types for this method. */;
+- (_Bool)torShouldCoordinate;
+- (_Bool)illMenus;
+- (void)[;
+- (void)lÜÝÞßßìàÔáÔâtåèÔè°éTê,ë;¤îò;
+- (void)ntrollerUsesDeviceOverlayPreferences;
+- (struct CGRect)mporaryConstants;
+- (void)e23Æmþm23Æmþ}23$Æmþ}23<Æmþ}23dÆmþ23Æmþ=23ÆmþE23Æmþ23¤Æmþm23°Æmþý23¼Æmþý23ìûqþE23ÔÆmþ}23ÜÆmþM23ìÆmþ;
+- (void)iguration;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *associatedView; // @synthesize associatedView=_associatedView;

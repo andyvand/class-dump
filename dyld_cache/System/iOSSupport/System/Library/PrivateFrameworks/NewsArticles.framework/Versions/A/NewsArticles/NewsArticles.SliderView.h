@@ -30,16 +30,16 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (long long);
 - (id);
+- (void);
+- (void);
+- (void)dler;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

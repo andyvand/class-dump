@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)A22_GtGG_Qo__2ZQo__AZQo_AXGG_A26_A45_tGGÄlXGA48_G;
+- (long long)G_ABQo_;
+- (void)[Zð0ìÿ[Z^ìÿõZZ^ìÿåZZ ^ìÿ;
 @end
 

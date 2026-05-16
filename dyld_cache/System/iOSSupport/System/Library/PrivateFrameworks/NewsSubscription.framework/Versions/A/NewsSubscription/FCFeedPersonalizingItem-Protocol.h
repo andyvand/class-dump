@@ -7,18 +7,9 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (_Bool)?;
-- (unsigned long long);
-- (_Bool)nfigsByID;
-- (NSString *)tion title for subscription offline alert.;
-
-@optional
-- (NSData *)sts,TeaBreezeInternalExtras,Breeze,TeaCharts,TeaChartsTests,TeaDB,TeaDBTests,TeaDemo,TeaFoundationTests,TeaSettings,TeaSettingsTests,TeaState,TeaStateCatalog,TeaStateTests,TeaStateInternalExtras,TeaSnappy,TeaSnappyTests,TeaTemplate,TeaTemplateTests,TeaUI,TeaUITests,SwiftUI,TeaBreezeInternalExtras,TeaStateTool,TeaBreezeCatalog;
-- (NSData *)D;
-- (_Bool)P;
-- (_Bool);
-- (_Bool);
-- (NSString *)eButton3;
+- (NSString *)URL"16@0:8 /* Error: Ran out of types for this method. */;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)ideMyEmailSignupBlueprintFooterView;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

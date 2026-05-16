@@ -35,17 +35,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (long long);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)FormatWorkspaceCanvasStatusView;
-- (long long);
-- (void);
-- (id)upFormat;
-- (id)|4;
+- (void)È<§ÿÈvµfØ$1Ìu;
+- (void)Hþ:<þõ:0þ /* Error: Ran out of types for this method. */;
+- (id)D%;
+- (id);
+- (void)y@;
 - (void);
 
 @end

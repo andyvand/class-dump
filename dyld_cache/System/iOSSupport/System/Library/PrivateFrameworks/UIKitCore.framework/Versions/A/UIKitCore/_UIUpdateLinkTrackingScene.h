@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     UIScene *_scene;
 }
 
-+ (id)@;
++ (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)ingRequestsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (id)imatablePoint;
+- (_Bool);
+- (id)usSpellCheckingEnabled;
 
 @end
 

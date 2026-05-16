@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISwitchVisualElement;
-
 @protocol UISwitchControl
-- (void)ion:(UISwitchVisualElement *)arg1 collaborationState:(_Bool)arg2;
 @end
 

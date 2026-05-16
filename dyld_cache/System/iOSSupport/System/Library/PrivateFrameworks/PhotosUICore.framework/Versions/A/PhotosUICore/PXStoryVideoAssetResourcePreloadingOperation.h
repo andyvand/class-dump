@@ -28,10 +28,10 @@
 - (id);
 - (CDStruct_e83c9415);
 - (_Bool);
-- (id);
-- (void)À;
 - (void);
-- (void);
+- (void)sChangedNumberOfVideoAssets;
+- (id)ormAuthorizationRequest(for:) /* Error: Ran out of types for this method. */;
+- (void)w.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

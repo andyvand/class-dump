@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)manager listeners;
-- (void);
-- (void)al;
-- (void)ryRequestCodingKeyIsUpgradedSmartPlaylistLegacyMediaQuery;
+- (UIView *)!(@ù1@Ð1Â0@ù
+× ;
+- (void)nID setting target session ID = %{public}d;
 @end
 

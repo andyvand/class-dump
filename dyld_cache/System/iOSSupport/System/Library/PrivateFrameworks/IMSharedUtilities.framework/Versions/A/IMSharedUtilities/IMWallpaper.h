@@ -11,27 +11,27 @@
     IMWallpaper_SwiftImpl *swiftImpl;
 }
 
-+ (_Bool)randColorHexString;
++ (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)7@;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (_Bool);
 - (long long);
 - (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)esult. This is a programmer error.;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool contentIsSensitive;

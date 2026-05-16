@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (struct _NSRange)üÁ;
+- (struct _NSRange);
+- (void)lityChangeDelegate>",N,V_graphicsQualityChangeDelegate;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextViewCanvasViewContext> context; // @dynamic context;

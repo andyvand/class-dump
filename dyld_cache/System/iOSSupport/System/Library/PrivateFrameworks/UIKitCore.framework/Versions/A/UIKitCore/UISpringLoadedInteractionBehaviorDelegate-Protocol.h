@@ -5,6 +5,5 @@
 //
 
 @protocol UISpringLoadedInteractionBehaviorDelegate
-- (void)%f;
 @end
 

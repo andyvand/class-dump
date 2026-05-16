@@ -15,17 +15,17 @@
     double _canvasWidth;
 }
 
-+ (_Bool)%;
-+ (_Bool)ew;
++ (_Bool);
++ (_Bool);
 - (double);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)Point=dd}{CGSize=dd}}48@0:8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24@"UIView"32Q40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double canvasWidth; // @synthesize canvasWidth=_canvasWidth;

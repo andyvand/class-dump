@@ -63,9 +63,9 @@
 
 + (void);
 + (double);
-+ (_Bool)@48@0:8@16@24@32^@40 /* Error: Ran out of types for this method. */;
-+ (_Bool),ÿÿÿDñèÿ°Óþðþÿ;
-+ (_Bool)¬ÿþ;
++ (_Bool);
++ (_Bool);
++ (_Bool)e>"8;
 
 @end
 

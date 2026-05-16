@@ -10,6 +10,11 @@
 
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (unsigned long long);
 + (id);
 + (id);
@@ -17,14 +22,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)itleInsets:(id)arg1;
-+ (id)_actionConfirmationAlertSubtitle;
-+ (id);
-+ (id);
-+ (id)±ÿÝMò 5;
++ (id)elected;
++ (id)`ûÿ;
++ (id)QZ;
 
 @end
 

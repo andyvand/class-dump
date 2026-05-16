@@ -20,17 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (void)y;
+- (void);
 - (_Bool);
 - (struct UIEdgeInsets);
 - (double);
 - (id);
 - (void);
-- (void);
 - (void);
-- (id)essPoolCache:proxyAuthenticationHandler:sceneStateMonitor:analyticsReportingProvider: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGSize);
+- (void)ndColor;
+- (id)lueprintModifierFactoryType;
+- (struct CGSize)h6Òÿ ;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *animationReferenceView; // @synthesize animationReferenceView=_animationReferenceView;

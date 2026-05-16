@@ -18,11 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)pe:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)B,N,V_canSwipeToDismiss;
+- (void)äâ[ÿÕfÈàâ[ÿfÈÜâ[ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXGadgetSpec *gadgetSpec; // @synthesize gadgetSpec=_gadgetSpec;

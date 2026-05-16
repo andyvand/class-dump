@@ -84,16 +84,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void)OverrideMatchedQueryText: /* Error: Ran out of types for this method. */;
-- (id)`è;
-- (id)Unknown TCC preflight result ;
-- (void)Ç?4;
-- (id)¼$²ÿ;
+- (id);
+- (id);
+- (void)sGridToggleSharedLibraryBadgeActionPerformer.m;
+- (void)á#Çd«;
+- (id)dUaùFËó;
+- (id)´ÿÜKXL4;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

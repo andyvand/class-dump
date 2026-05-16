@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)SXComponentBlueprintFactory;
 
 // Remaining properties
 @property(readonly, nonatomic) SVKeyValueObserver *observer; // @synthesize observer=_observer;

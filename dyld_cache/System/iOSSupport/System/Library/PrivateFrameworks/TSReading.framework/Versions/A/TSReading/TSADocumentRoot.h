@@ -39,42 +39,42 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)R4;
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (struct CGImageSource *);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)2(;
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)!;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -83,7 +83,7 @@
 - (id);
 - (void);
 - (void);
-- (void)tag factory created tag, identifier=%{public}@, type=%{public}@, name=%{public}@;
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -91,14 +91,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id)
-× ;
-- (id)V]Ä;
+- (void);
+- (id);
+- (id)fr_elementMax;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,14 +10,14 @@
 {
 }
 
-- (BOOL)oObject:keyPath: /* Error: Ran out of types for this method. */;
-- (_Bool),N,V_trackedToDoParagraphs;
-- (id)e;
+- (BOOL);
+- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
 - (Class);
-- (unsigned long long)loonViewTextViewDidChangeRenderBounds: /* Error: Ran out of types for this method. */;
-- (long long)tKit26TapbackPickerContainerView;
+- (unsigned long long);
+- (long long)X0;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long replyCount;

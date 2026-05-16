@@ -49,13 +49,13 @@
 - (void);
 - (void);
 - (void);
-- (void)9	9;
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)A;
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (struct CGRect);
@@ -76,28 +76,26 @@
 - (struct CGPoint);
 - (_Bool);
 - (void);
-- (void)emoteController;
+- (void);
 - (double);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (struct UIEdgeInsets);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id)@ù
-× ;
-- (void)
-× ;
-- (id)axNumberOfColumns;
-- (void)P`Ø¤;
-- (void)ernal/Library/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/application/ios/TIADocument.m;
+- (id)e=dd}80B96@100;
+- (void)ptorFinal status %i;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPinchZoom; // @synthesize allowsPinchZoom=mAllowsPinchZoom;

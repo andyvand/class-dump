@@ -33,17 +33,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)uItemForImageAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *AMPMSymbols; // @synthesize AMPMSymbols=_AMPMSymbols;

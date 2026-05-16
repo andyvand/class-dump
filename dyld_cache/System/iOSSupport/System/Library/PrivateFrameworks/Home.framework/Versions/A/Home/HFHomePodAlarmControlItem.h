@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (Class)`Æô_~;
++ (Class)anismState;
 - (id);
 - (id);
 - (id);
@@ -28,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)¨;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

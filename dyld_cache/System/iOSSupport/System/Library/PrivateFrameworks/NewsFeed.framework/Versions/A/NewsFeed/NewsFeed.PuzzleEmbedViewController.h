@@ -8,6 +8,25 @@
 
 @interface NewsFeed.PuzzleEmbedViewController
 {
+    MISSING_TYPE *onReuse;
+    MISSING_TYPE *reuseIdentifier;
+    MISSING_TYPE *layoutGuide;
+    MISSING_TYPE *feedConfiguration;
+    MISSING_TYPE *onEmbedInteraction;
+    MISSING_TYPE *layoutGuideView;
+    MISSING_TYPE *interactionProvider;
+    MISSING_TYPE *$__lazy_storage_$_contentEnvironment;
+    MISSING_TYPE *hasPuzzleDataLoadAttempted;
+    MISSING_TYPE *textInputTraits;
+    MISSING_TYPE *webEmbedFailureHandler;
+    MISSING_TYPE *isResizable;
+    MISSING_TYPE *liveResizingView;
+    MISSING_TYPE *puzzleData;
+    MISSING_TYPE *puzzleDataManager;
+    MISSING_TYPE *puzzleAccessArbiter;
+    MISSING_TYPE *bundleSubscriptionManager;
+    MISSING_TYPE *delegate;
+    MISSING_TYPE *puzzleSource;
     MISSING_TYPE *webContentViewController;
     MISSING_TYPE *errorProvider;
     MISSING_TYPE *failureProvider;
@@ -18,25 +37,6 @@
     MISSING_TYPE *errorView;
     MISSING_TYPE *coverViewManager;
     MISSING_TYPE *embedLocation;
-    MISSING_TYPE *onReuse;
-    MISSING_TYPE *reuseIdentifier;
-    MISSING_TYPE *isResizable;
-    MISSING_TYPE *liveResizingView;
-    MISSING_TYPE *puzzleData;
-    MISSING_TYPE *puzzleDataManager;
-    MISSING_TYPE *puzzleAccessArbiter;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *puzzleSource;
-    MISSING_TYPE *layoutGuide;
-    MISSING_TYPE *layoutGuideView;
-    MISSING_TYPE *feedConfiguration;
-    MISSING_TYPE *onEmbedInteraction;
-    MISSING_TYPE *interactionProvider;
-    MISSING_TYPE *$__lazy_storage_$_contentEnvironment;
-    MISSING_TYPE *hasPuzzleDataLoadAttempted;
-    MISSING_TYPE *textInputTraits;
-    MISSING_TYPE *webEmbedFailureHandler;
 }
 
 - (void);
@@ -44,10 +44,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)iew;
 - (id);
-- (void)?Ö;;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *inputAccessoryView;

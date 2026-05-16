@@ -12,13 +12,13 @@
 {
 }
 
-+ (_Bool):0n /* Error: Ran out of types for this method. */;
++ (_Bool)l with identifier %@ - must register a nib or a class for the identifier or connect a prototype cell in a storyboard;
+- (id);
+- (void)lowNilParameters:(id)arg1;
+- (long long)ray",R,C,N,V_suggestionItems;
+- (id)Spyì03GIggy_;
+- (id);
 - (long long);
-- (id)eferredVibrancy;
-- (id)UnderlapsStatusBar;
-- (long long)s false.;
-- (void)e currently supported!;
-- (id)ót_;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor;

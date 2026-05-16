@@ -44,21 +44,21 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)/x¢;
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

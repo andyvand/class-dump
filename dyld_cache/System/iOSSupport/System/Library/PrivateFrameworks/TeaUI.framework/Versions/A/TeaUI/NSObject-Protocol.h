@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)"16@"NSURLSessionDataTask"24@"NSURLSessionDownloadTask"32;
-- (_Bool)!;
-- (NSString *)GroupableCoeffIPhone: /* Error: Ran out of types for this method. */;
-- (_Bool)FEED_CELL_HOST_TYPE;
+- (struct _NSZone *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

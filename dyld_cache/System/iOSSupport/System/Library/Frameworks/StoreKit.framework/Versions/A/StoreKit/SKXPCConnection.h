@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)T+;
 - (id);
 - (void);
-- (CDUnknownBlockType)5;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType disconnectBlock;

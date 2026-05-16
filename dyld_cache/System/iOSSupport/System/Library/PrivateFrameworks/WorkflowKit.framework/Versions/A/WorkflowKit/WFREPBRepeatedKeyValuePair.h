@@ -12,16 +12,14 @@
     NSMutableArray *_values;
 }
 
-+ (Class)llectionsForWorkflowReference:]_block_invoke /* Error: Ran out of types for this method. */;
++ (Class);
+- (id);
 - (unsigned long long);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -29,8 +27,10 @@
 - (id);
 - (id);
 - (id);
+- (void)or:(id)arg1 %@;
+- (void)runWorkflowWithDescriptor:request:inEnvironment:runningContext:completion:] /* Error: Ran out of types for this method. */;
+- (void)îäÿÿÿpdð;
 - (id);
-- (void)8PÍÿ ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;

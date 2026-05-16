@@ -11,11 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (_Bool)!ð!ÔEùQ]Ð1Â0@ù
+× ;
+- (_Bool)
+× ;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)Displacement;
-- (_Bool)ÏÑ;
+- (_Bool)zeRuleSettings",&,N,V_sizeRuleSettings;
+- (_Bool);
 
 @end
 

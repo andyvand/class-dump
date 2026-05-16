@@ -18,13 +18,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (long long);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsAlbums;

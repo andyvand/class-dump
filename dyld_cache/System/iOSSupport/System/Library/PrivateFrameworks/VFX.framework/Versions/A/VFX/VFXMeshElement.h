@@ -33,7 +33,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)pileOptions"24^@32;
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -64,13 +64,72 @@
 - (unsigned long long);
 - (long long);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (float)ÿ¶¿;
+- (float)[[ function_constant(renderer_constants_enable_alpha_fade) ]];
+constant bool enable_dither_fade            [[ function_constant(renderer_constants_enable_dither_fade) ]];
+constant bool enable_depth_mitigation       [[ function_constant(renderer_constants_enable_depth_mitigation) ]];
+constant bool enable_sample_mask_read  = enable_dither_fade;
+constant bool enable_sample_mask_write = enable_dither_fade;
+
+constant bool enable_auto_alpha             [[ function_constant(renderer_constants_enable_auto_alpha) ]];
+
+constant bool outputs_normal_roughness      [[ function_constant(renderer_constants_outputs_normal_roughness) ]];
+constant bool outputs_albedo_metalness      [[ function_constant(renderer_constants_outputs_albedo_metalness) ]];
+constant bool outputs_radiance_ao           [[ function_constant(renderer_constants_outputs_radiance_ao) ]];
+constant int rendering_mode                 [[ function_constant(renderer_constants_rendering_mode) ]];
+constant bool enable_ssao                   [[ function_constant(renderer_constants_enable_ssao) ]];
+
+constant bool need_inter_frame_interpolation = (animation_mode != -1) && inter_frame_interpolation;
+
+constant bool is_opaque = (blending_mode == blend_mode_constants_opaque) || (blending_mode == blend_mode_constants_mask);
+constant bool need_worldPos = enable_scattering || has_pbr_lighting || enable_clipping;
+constant bool need_worldNrm = has_pbr_lighting || enable_texture_cube || is_opaque;
+constant bool need_point_coord = enable_texture_2d || enable_texture_3d || has_pbr_lighting;
+constant bool need_box_normal = enable_texture_2d || enable_texture_3d;
+
+
+constant bool gamma_blending             [[ function_constant(renderer_constants_gamma_blending) ]];
+constant bool re_uniforms                [[ function_constant(renderer_constants_inside_re) ]];
+
+constant bool vfx_uniforms = !re_uniforms;
+constant bool use_api_v1_in_re = use_api_v1 && re_uniforms;
+
+#if VFX_RE_SHADERS_AVAILABLE
+constant bool enable_re_pbr_lighting = re_uniforms;
+#else
+constant bool enable_re_pbr_lighting = false;
+#endif
+constant bool enable_env_probes = re_uniforms;
+constant bool enable_multiscatter_brdf = re_uniforms;
+constant bool enable_breakthrough = re_uniforms;
+constant bool enable_nearfield_vignetting = re_uniforms;
+constant bool enable_fog = !re_uniforms;
+
+constant bool need_screen_uv = enable_breakthrough;
+
+constant bool use_interpolated_crworld   [[ function_constant(renderer_constants_use_interpolated_crworld) ]];
+
+constant bool might_use_vrr_map = false;
+
+constant bool enable_texture_prelighted_array = enable_texture_prelighted && enable_texture_2d_array;
+constant bool enable_texture_prelighted_2d = enable_texture_prelighted && !enable_texture_2d_array;
+
+constant bool uniform_sphere = has_size1D && !has_particle_transform;
+constant bool non_uniform_sphere = !uniform_sphere;
+
+#if TARGET_OS_VISION
+constant bool enable_depth_as_color = re_uniforms;
+#else
+constant bool enable_depth_as_color = false;
+#endif
+
+#endif
+;
+- (void)ÝgQÐ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long bytesPerIndex;

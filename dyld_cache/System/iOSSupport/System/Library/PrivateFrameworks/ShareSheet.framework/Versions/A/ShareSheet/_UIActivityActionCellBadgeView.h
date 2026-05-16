@@ -13,9 +13,9 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)N,S_setSheetConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;

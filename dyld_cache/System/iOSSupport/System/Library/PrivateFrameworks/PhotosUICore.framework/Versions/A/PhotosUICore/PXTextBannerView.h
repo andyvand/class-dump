@@ -17,15 +17,19 @@
 
 - (void);
 - (_Bool);
+- (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id)è«;
-- (struct CGSize)iguration?capturemode=photo&capturedevice=back;
-- (long long);
-- (void)ðv;
+- (void)1â
+0@ù
+× ;
+- (id)qE1â
+0@ù
+× ;
+- (void)utableArray",R,N,V_additionalMenuItems;
+- (void)cause self or localIdentifier is nil;
+- (long long)ontrollerSwipeDownDismissalController;
+- (void)¶xú3;
 
 // Remaining properties
 @property(nonatomic, getter=isDestructiveText) _Bool destructiveText; // @synthesize destructiveText=_destructiveText;

@@ -16,9 +16,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void)PüÿìÞÿ¤5;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEarth) _Bool earth;

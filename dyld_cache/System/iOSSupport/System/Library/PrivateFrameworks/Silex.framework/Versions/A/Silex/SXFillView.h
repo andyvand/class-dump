@@ -20,10 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (struct CGRect);
-- (void);
-- (struct CGRect)oint=dd}16@32;
+- (void)ver>"16;
+- (void)age;
+- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentFrame;

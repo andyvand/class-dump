@@ -25,11 +25,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tionsByReducingWithOptions:reducer: /* Error: Ran out of types for this method. */;
+- (void)essoryStateControlDescriptionVolume;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *isOn; // @synthesize isOn=_isOn;

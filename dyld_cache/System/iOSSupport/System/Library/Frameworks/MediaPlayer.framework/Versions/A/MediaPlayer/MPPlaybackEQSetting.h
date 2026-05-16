@@ -17,9 +17,8 @@
 - (int);
 - (id);
 - (id);
-- (id);
-- (id)it:message %d non-existant
- /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (long long);
 
 // Remaining properties

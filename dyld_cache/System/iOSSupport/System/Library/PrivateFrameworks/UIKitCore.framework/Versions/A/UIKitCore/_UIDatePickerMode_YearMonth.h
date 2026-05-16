@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (unsigned long long)packing Collaboration Notice, error:%@ /* Error: Ran out of types for this method. */;
++ (unsigned long long);
 + (long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id)c;
+- (id);
 
 @end
 

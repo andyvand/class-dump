@@ -25,11 +25,11 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (void);
 - (struct CGRect);
 - (unsigned int);
 - (id);
-- (id):]ÿB\ÿJ [ÿR ZÿZ!Zÿc!Zÿk!Zÿs!Zÿ{!Zÿ!Zÿ!Zÿ!Zÿ!Zÿ¥!Zÿ­!Zÿµ!Zÿ½!ZÿÅ!ZÿÎ!ZÿÖ!ZÿÞ"Zÿæ"Zÿï"Zÿ÷"Zÿÿ#Zÿ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;

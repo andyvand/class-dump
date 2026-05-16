@@ -34,12 +34,12 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (unsigned long long);
-- (void)NSError",&,N,V_error;
+- (void);
+- (void)rror:(unsigned long long)arg1;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint comparisonPoint; // @synthesize comparisonPoint=_comparisonPoint;

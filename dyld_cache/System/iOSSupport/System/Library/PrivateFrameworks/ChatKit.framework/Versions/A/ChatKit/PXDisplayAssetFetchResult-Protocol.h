@@ -5,12 +5,13 @@
 //
 
 @class NSArray;
-@protocol PXDisplayAsset, PXDisplayThumbnailAsset;
+@protocol PXDisplayAsset;
 
 @protocol PXDisplayAssetFetchResult
-- (id <PXDisplayThumbnailAsset>);
-- (NSArray *)NComposeRecipientTableViewCellDelegate>";
-- (id <PXDisplayAsset>)der:(unsigned long long)arg1 %{bool}d;
+- (id <PXDisplayAsset>)nFromTranscript;
+- (id <PXDisplayAsset>)ewTextEffectsDelegate>",W,N,V_textEffectsDelegate;
+- (id <PXDisplayAsset>)List _handleChatsDidRemergeNotification:(unsigned long long)arg1 ];
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> firstObject;

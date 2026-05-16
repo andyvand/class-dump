@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)dateLegibilityLayerProperties;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PUPosterOverrideConfiguration> overrideConfiguration; // @synthesize overrideConfiguration=_overrideConfiguration;

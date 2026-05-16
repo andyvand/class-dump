@@ -16,34 +16,34 @@
     CDStruct_d1897728 _flags;
 }
 
-+ (_Bool)ansfer:(id)arg1 outError:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (double);
 - (void);
 - (void);
-- (void)ssageSavedReceiptForMessageID:(id)arg1 account: /* Error: Ran out of types for this method. */;
-- (void)ID:(id)arg1 account:(id)arg2;
-- (void)ceiptForMessageID:(id)arg1;
-- (id)hat;
-- (id)er;
-- (void);
-- (void)sibleByArrayLiteralP;
-- (void);
-- (_Bool)lock Incomming Display Pin Code ;
-- (_Bool)to mark nil handles as transitioned;
-- (id)astdoor;
-- (void)or:%@  loginStatus:%lu  disconnectReason:%d /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (long long);
-- (id)#;
 - (void);
 - (void);
-- (id)uch;
-- (void)ghtForHeaderInSection:(id)arg1;
-- (void)aitNameUserInterfaceLevel;
-- (void)ration) encodeRestorableStateWithCoder:(_Bool)arg1 ];
-- (void)Ãüe;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)eProperties";
+- (void)ity;
+- (void);
+- (void)ppâÿhãÒè¯g;
 
 // Remaining properties
 @property(nonatomic) id <UINavigationControllerDelegate><UIVideoEditorControllerDelegate> delegate; // @dynamic delegate;

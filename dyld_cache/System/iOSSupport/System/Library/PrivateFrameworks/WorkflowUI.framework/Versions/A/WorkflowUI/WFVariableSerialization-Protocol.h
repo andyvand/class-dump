@@ -7,8 +7,7 @@
 @protocol WFPropertyListObject;
 
 @protocol WFVariableSerialization
-- (id <WFPropertyListObject>)H
-HyGGACySiSgGGCG;
+- (id <WFPropertyListObject>)hæØÿ]|ÌæØÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation;

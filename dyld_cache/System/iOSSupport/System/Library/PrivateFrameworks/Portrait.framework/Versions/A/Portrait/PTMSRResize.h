@@ -9,6 +9,8 @@
 @interface PTMSRResize
 {
     FigM2MController *_msrController;
+    struct OpaqueVTPixelTransferSession *_vtPixelTransferSession;
+    struct OpaqueVTPixelRotationSession *_vtPixelRotationSession;
     struct __CVBuffer *_outputPixelbuffer[10];
     struct __IOSurface *_outputIOSurface[10];
     NSArray *_pyramidRGBA;
@@ -38,8 +40,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property _Bool enablePyramidDownsampling; // @synthesize enablePyramidDownsampling=_enablePyramidDownsampling;

@@ -5,6 +5,5 @@
 //
 
 @protocol PXGShadowSource
-- (double);
 @end
 

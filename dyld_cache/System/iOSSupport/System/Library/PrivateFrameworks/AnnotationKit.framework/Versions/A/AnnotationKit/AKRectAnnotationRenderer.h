@@ -10,7 +10,7 @@
 {
 }
 
-+ (struct CGPath *),;
++ (struct CGPath *);
 + (struct CGPath *);
 + (struct CGRect);
 + (void);
@@ -18,7 +18,7 @@
 + (_Bool);
 + (_Bool);
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize);
 
 @end
 

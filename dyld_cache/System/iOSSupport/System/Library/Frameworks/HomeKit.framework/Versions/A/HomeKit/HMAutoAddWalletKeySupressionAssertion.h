@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)\àÿ¹;
-- (id)7¡×;
+- (id);
+- (void)¤;
 
 // Remaining properties
 @property(readonly) __weak HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;

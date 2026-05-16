@@ -10,8 +10,11 @@
 
 @interface PromotedContent.ClientLayoutRepresentation : APPCContentRepresentation
 {
+    MISSING_TYPE *locale;
     MISSING_TYPE *headline;
     MISSING_TYPE *accessibilityHeadline;
+    MISSING_TYPE *caption;
+    MISSING_TYPE *accessibilityCaption;
     MISSING_TYPE *adCopy;
     MISSING_TYPE *accessibilityAdCopy;
     MISSING_TYPE *sponsoredBy;
@@ -26,6 +29,7 @@
     MISSING_TYPE *targetingDimensions;
     MISSING_TYPE *style;
     MISSING_TYPE *journeyRelayCampaignID;
+    MISSING_TYPE *skipThreshold;
 }
 
 - (void);

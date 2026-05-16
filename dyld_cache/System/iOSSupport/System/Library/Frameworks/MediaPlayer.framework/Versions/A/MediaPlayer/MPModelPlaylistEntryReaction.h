@@ -12,14 +12,14 @@
 {
 }
 
-+ (id)mbers;
-+ (id)_motionActivityState;
-+ (id)ivenessAssessment;
-+ (id)ed;
-+ (void)_approvalTime;
++ (id);
++ (id);
++ (id);
++ (id);
 + (void);
-+ (void),V_state;
-+ (void)SString",&,N,V_sourceBundleId;
++ (void);
++ (void);
++ (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @dynamic date;

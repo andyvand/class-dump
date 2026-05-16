@@ -16,7 +16,7 @@
     _Bool _isSyncing;
 }
 
-+ (id)æAL¾;9;
++ (id)·<;
 - (void);
 - (void);
 - (void);
@@ -26,11 +26,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSyncing; // @synthesize isSyncing=_isSyncing;

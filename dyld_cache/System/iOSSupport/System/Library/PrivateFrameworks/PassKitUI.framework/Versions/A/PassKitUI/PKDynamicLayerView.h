@@ -36,8 +36,6 @@
 }
 
 - (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -47,18 +45,20 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (_Bool)É¯¼5;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyLoadContent; // @synthesize automaticallyLoadContent=_automaticallyLoadContent;

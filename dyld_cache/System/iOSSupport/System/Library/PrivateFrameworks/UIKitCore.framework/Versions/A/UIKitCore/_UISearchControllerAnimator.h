@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)fest;
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
-- (double)ÅÚþñR;
+- (void);
+- (_Bool);
+- (void);
+- (double);
+- (void)tionsAreEnabled:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

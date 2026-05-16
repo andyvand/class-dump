@@ -11,9 +11,9 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
-- (CDUnknownBlockType)N,V_rulerAngleMarker;
+- (CDUnknownBlockType);
+- (void),N,V_minScale;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

@@ -5,9 +5,5 @@
 //
 
 @protocol SMUserNotificationProtocol
-- (void);
-
-@optional
-- (long long);
 @end
 

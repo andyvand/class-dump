@@ -17,13 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *instructions; // @synthesize instructions=_instructions;

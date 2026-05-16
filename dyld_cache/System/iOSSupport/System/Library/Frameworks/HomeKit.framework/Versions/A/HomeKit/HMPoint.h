@@ -9,15 +9,15 @@
     struct CGPoint _point;
 }
 
-+ (_Bool)SError"16;
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (struct CGPoint);
-- (id);
 
 // Remaining properties
 @property(readonly) struct CGPoint point; // @synthesize point=_point;

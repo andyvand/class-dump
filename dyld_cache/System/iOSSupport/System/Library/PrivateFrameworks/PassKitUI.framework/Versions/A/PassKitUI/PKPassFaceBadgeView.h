@@ -17,18 +17,19 @@
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)0@ù
+× ;
+- (id)fness: /* Error: Ran out of types for this method. */;
+- (void)"NSString",&,N,V_rightTitleText;
 
 // Remaining properties
 @property(retain, nonatomic) PKPassField *field; // @synthesize field=_field;

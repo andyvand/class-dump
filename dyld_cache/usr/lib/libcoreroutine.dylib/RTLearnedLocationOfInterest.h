@@ -16,26 +16,26 @@
 }
 
 + (id);
-+ (id)oRelayInterfaceInfoDeliveryStatus;
++ (id);
++ (id);
++ (id);
 + (unsigned long long);
-+ (id);
-+ (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (double);
 - (id);
 - (id);
-- (id)ion handling _strictlyUnarchivedObjectOfClasses:%@ /* Error: Ran out of types for this method. */;
-- (id)_flowDivertQueue;
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (id)yVerificationWithContext:] /* Error: Ran out of types for this method. */;
+- (id)alidateTrainingDurationCapTimer;
+- (id)Transit;
+- (void)dVisits.count (in %s:%d) /* Error: Ran out of types for this method. */;
+- (double)error while verifying visit graph expiration dates, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

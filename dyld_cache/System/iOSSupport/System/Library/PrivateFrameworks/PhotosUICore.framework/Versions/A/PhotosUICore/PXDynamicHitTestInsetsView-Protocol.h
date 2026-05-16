@@ -5,6 +5,7 @@
 //
 
 @protocol PXDynamicHitTestInsetsView
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long extendedHitTestInsetsEdges;

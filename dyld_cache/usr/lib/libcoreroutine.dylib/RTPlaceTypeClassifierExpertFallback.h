@@ -21,18 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)dConfig:sessionConfig:queue:ipsecInterface:ikeSocketHandler:saSession:packetDelegate: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (void);
-- (id)sPercentage;
-- (void)Visits,not applicable,loopback check not cleared,tId,%{public}ld,loopback,%{public}d;
+- (void);
+- (id);
+- (void);
+- (void)0@ù
+× ;
+- (id);
+- (void).2f, footprint, %.4f MB;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

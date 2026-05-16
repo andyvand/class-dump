@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     _UIVelocityIntegrator *_locationIntegrator;
 }
 
-- (id){;
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)k:(double)arg1;
-- (double)TypeAndPartIndex;
 - (void);
-- (void);
-- (id)deInlineAactiveWidth;
+- (double);
+- (id);
+- (void)ÿ;
+- (void)ø¯\;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDeepPressLikely) _Bool deepPressLikely;

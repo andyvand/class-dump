@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIKBRTRecognizer;
+
 @protocol _UIKBRTRecognizerDelegate
-- (void)xÐ!ÈEùQÍÐ1¢!0@ù
-× ;
-- (void)r;
-- (void)H!;
-- (void)nt.;
-- (void)Item.;
-- (void)7506E9CF9A7668188D4F11SegmentView;
+- (void))" -> %llu;
+- (void)y view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:(_UIKBRTRecognizer *)arg1 %@;
 - (void);
+- (void)ltStatusBarHeightLandscapeLeft;
+- (void)7y_t¾7SgycSgG;
 @end
 

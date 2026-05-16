@@ -16,18 +16,20 @@
 }
 
 + (id);
-- (id)ùz;
-- (void);
-- (id)þéy;
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void);
+- (_Bool)°!Dùq4°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

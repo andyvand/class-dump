@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)o items for artwork request.;
+- (void)AssetCacheProviding>";
+- (void)TcÏÿ(÷;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceGUID; // @dynamic deviceGUID;

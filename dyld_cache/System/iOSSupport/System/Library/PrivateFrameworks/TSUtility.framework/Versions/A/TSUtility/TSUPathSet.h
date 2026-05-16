@@ -21,10 +21,10 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
 - (id);
-- (void)M?�;
 - (id);
-- (id)?;
+- (id);
 
 @end
 

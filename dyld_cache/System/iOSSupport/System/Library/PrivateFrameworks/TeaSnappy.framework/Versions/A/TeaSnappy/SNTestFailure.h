@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;

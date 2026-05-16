@@ -43,10 +43,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)ItemManager.m;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *assistantDeviceIntendedRecognitionLanguage; // @synthesize assistantDeviceIntendedRecognitionLanguage=_assistantDeviceIntendedRecognitionLanguage;

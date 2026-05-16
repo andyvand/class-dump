@@ -7,13 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long)`;
-- (id)@;
-- (unsigned long long)aging>",&,N,V_bundlePropertiesManager;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

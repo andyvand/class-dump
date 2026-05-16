@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void)rvalSinceNow:(double)arg1;
-- (void)oÀopXq;
-- (void)l[VKy;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) TSUColor *TSUColor; // @dynamic TSUColor;

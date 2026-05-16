@@ -54,8 +54,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool endingPositionConstraintsShouldBeActive; // @synthesize endingPositionConstraintsShouldBeActive=_endingPositionConstraintsShouldBeActive;

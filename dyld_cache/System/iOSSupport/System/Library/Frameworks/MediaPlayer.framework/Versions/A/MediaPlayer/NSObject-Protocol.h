@@ -7,11 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)hough the NSUbiquitousKeyValueStore is initialized and the user has already pinned something before. This is an issue in NSUbiquitousKeyValueStore. Trying again.;
-- (id)ver.ChunkKey;
-
-@optional
-- (unsigned long long);
+- (struct _NSZone *)odelRelationshipGenericTVEpisode;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

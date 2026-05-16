@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)bjects %@ and %@. This is probably a bug.;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessorySelectionSettingItem *optionItem; // @synthesize optionItem=_optionItem;

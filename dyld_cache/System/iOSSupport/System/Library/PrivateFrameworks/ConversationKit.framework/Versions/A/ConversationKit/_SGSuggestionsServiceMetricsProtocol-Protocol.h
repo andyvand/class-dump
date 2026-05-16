@@ -5,10 +5,8 @@
 //
 
 @protocol _SGSuggestionsServiceMetricsProtocol
-- (void)	
-;
-- (void)MenuStyle;
-- (void)áÿxíÅ;
+- (void)Õùÿu¦Õùÿe¦Õùÿ;
+- (void);
 - (void);
 @end
 

@@ -5,7 +5,6 @@
 //
 
 @protocol MFGaplessParameters
-- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long durationInFrames;

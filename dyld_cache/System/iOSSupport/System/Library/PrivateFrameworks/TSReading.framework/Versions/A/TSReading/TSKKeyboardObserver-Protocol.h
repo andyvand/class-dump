@@ -5,9 +5,5 @@
 //
 
 @protocol TSKKeyboardObserver
-
-@optional
-- (void)- %{BOOL}u - process sample - %fs;
-- (void);
 @end
 

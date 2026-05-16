@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     struct CGPoint _lastLocation;
 }
 
-- (long long)ger:conversationUpdatedMessagesGroupName:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (long long)ed: /* Error: Ran out of types for this method. */;
-- (long long)ContactStoreSync;
-- (void)",&,N,V_archivedNicknamesKVStore;
-- (void)ppleID;
+- (long long);
+- (long long);
+- (long long);
 - (void);
-- (double)DeferReplicatedMessagePipelineComponent> Started processing;
 - (void);
-- (struct CGPoint);
-- (void)wsWithOffsetSupportingMultiLineShrinkToFit:(struct CGPoint)arg1 useRestingTitleHeight: /* Error: Ran out of types for this method. */;
-- (id)quiringContentMargin;
+- (void);
+- (double);
+- (void);
+- (id);
+- (struct CGPoint)nsets;
+- (void)|aÜbÈd;
 
 // Remaining properties
 @property(nonatomic) double dragDistanceSquared; // @synthesize dragDistanceSquared=_dragDistanceSquared;

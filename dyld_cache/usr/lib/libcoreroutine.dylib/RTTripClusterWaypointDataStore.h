@@ -19,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)o;
+- (_Bool);
 - (void);
 - (int);
 - (id);
@@ -29,16 +29,16 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)�_;
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id)ssage from URL %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

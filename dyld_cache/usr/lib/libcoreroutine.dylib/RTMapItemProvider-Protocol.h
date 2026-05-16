@@ -5,6 +5,5 @@
 //
 
 @protocol RTMapItemProvider
-- (_Bool);
 @end
 

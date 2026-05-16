@@ -45,7 +45,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)UsageOptions] Found Users that need to upgrade to support HH2:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak HUEditableTextCollectionListCell *createNewZoneCell; // @synthesize createNewZoneCell=_createNewZoneCell;

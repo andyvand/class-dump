@@ -53,13 +53,13 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned char);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool)RC;
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -69,25 +69,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned int);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
+- (id);
+- (id);
+- (unsigned int);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned char);
 - (void);
 - (id);
+- (id);
+- (id);
 - (unsigned int);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)is image on this device for this user.;
 
 // Remaining properties
 @property unsigned int boardID; // @synthesize boardID=_boardID;

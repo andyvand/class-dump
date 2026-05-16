@@ -29,18 +29,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
+- (id);
 - (CDStruct_e4cb95de);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (long long);
+- (void);
 - (id);
 - (void);
-- (id));
+- (id)PQZ;
 
 // Remaining properties
 @property(nonatomic) long long capacity; // @synthesize capacity=_capacity;

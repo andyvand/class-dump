@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)d:menuItemId:menuType: /* Error: Ran out of types for this method. */;
 
 @end
 

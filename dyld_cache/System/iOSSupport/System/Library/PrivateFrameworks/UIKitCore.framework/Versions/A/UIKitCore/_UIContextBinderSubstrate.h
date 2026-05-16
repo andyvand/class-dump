@@ -11,11 +11,11 @@
     FBSScene *_scene;
 }
 
-- (void)tchingForFrames;
-- (void);
-- (void)ds index into _visibleCells array in call to %@. indexPath:(id)arg1 %@; index into _visibleCells:%ld; _visibleRows:%@; _visibleCells:%@ /* Error: Ran out of types for this method. */;
-- (id)fersSolidColorHardPocket;
-- (id)G¼ÔÏø];
+- (void)wMemoji;
+- (void)"_UIFocusGroup",R,W,N,V_parentGroup;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

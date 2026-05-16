@@ -11,17 +11,17 @@
     SEL _action;
 }
 
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (_Bool);
-- (void)s text after dragging to the entry view;
-- (id)on;
-- (SEL)SyndicationBehaviorNone;
+- (SEL)ance;
+- (void)GÄÇ[o»\yA%\yë	\yE»\yç \j%\GAIGGGG;
+- (_Bool)è;
+- (void);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

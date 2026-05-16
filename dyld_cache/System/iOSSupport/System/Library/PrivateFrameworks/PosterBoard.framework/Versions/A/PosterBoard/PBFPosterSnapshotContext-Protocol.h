@@ -8,8 +8,6 @@
 @protocol PBFDisplayContext;
 
 @protocol PBFPosterSnapshotContext
-- (PBFPosterSnapshotDefinition *)?ð1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PBFPosterSnapshotDefinition *definition;

@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)source attributes change.;
+- (id)ctionManager;
+- (void)O-;
 
 // Remaining properties
 @property(readonly, nonatomic) long long numberOfClips;

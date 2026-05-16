@@ -5,6 +5,5 @@
 //
 
 @protocol MPCVocalAttenuationPolicyDelegate
-- (void);
 @end
 

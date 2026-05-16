@@ -19,14 +19,14 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (id);
 - (double);
+- (void);
+- (void);
+- (_Bool);
 - (double);
-- (void);
-- (_Bool);
-- (void);
-- (id)c;
-- (void);
 - (id);
 - (void);
 

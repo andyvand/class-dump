@@ -15,9 +15,9 @@
 - (double);
 - (double);
 - (double);
-- (id)uxiliaryDataForKey: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)rent date, %@;
+- (id);
+- (id)> 1,(%lu) drive segments, attempting route compounding, commuteID,%@;
 
 // Remaining properties
 @property(readonly, nonatomic) double favoriteConfidence; // @synthesize favoriteConfidence=_favoriteConfidence;

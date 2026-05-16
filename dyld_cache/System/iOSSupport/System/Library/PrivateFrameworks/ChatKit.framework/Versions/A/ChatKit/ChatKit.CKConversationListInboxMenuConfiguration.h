@@ -16,13 +16,13 @@
     MISSING_TYPE *blackholeEnabled;
     MISSING_TYPE *showsSpamFiltering;
     MISSING_TYPE *showImages;
-    MISSING_TYPE *allowInboxFilters;
+    MISSING_TYPE *hasCompletedDraftsPreloading;
     MISSING_TYPE *displayMode;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

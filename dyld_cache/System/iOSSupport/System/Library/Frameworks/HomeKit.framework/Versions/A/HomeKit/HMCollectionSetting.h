@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
 - (_Bool);
+- (void)b;
+- (unsigned long long)nt"8@?0;
 
 // Remaining properties
 @property(readonly, copy) NSSet *itemValueClasses; // @synthesize itemValueClasses=_itemValueClasses;

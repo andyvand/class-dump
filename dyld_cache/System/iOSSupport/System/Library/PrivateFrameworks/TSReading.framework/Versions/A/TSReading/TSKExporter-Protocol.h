@@ -4,14 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSUProgressContext;
-
 @protocol TSKExporter
-- (TSUProgressContext *);
-- (void);
-
-@optional
-- (id);
-- (NSString *)iaRemoteMiddlewareMetadataOperationConfiguration>",&,N,V_request;
+- (_Bool)d: /* Error: Ran out of types for this method. */;
 @end
 

@@ -12,10 +12,10 @@
     NSString *_latestIDSTokenURI;
 }
 
-+ (id)\¦fZ±;
++ (id)Failed to return a common path for %s because the base user vault directory was not found.;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

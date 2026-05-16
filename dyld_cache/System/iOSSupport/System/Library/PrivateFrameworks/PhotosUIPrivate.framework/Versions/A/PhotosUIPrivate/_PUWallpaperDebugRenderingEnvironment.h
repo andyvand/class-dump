@@ -57,18 +57,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (long long);
 - (struct CGRect);
-- (struct CGRect);
 - (id);
 - (void);
+- (unsigned long long);
+- (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (void);
-- (unsigned long long)0@ù
-× ;
+- (void)yle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *assetDirectory; // @synthesize assetDirectory=_assetDirectory;

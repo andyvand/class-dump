@@ -20,11 +20,11 @@
 - (id);
 - (void);
 - (id);
+- (double);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void)55;
-- (double)Jäÿ÷P.×5;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

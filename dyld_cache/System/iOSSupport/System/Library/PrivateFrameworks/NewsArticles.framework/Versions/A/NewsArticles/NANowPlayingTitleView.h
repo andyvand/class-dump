@@ -24,7 +24,7 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -34,13 +34,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (struct CGSize)",R,N;
-- (id)`Óÿáo¨`Óÿ;
+- (void);
+- (void)rnal;
+- (id)tion;
 
 // Remaining properties
 @property(nonatomic) __weak id <NANowPlayingTitleViewDelegate> delegate; // @synthesize delegate=_delegate;

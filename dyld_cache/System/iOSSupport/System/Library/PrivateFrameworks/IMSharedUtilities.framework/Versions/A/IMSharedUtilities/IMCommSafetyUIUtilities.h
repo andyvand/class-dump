@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)v32@?0@"UIKeyboardStickerCollectionViewCell"8@"NSIndexPath"16@24;
++ (id);
 + (id);
 
 @end

@@ -32,20 +32,19 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (void)n hasSecondaryValue is NO. 0 will be used instead.;
+- (void)Item"16@?0@"HFSiriLanguageOption"8;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *circleLayer; // @synthesize circleLayer=_circleLayer;

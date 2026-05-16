@@ -19,20 +19,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)x³;
++ (id);
 - (void);
 - (void);
 - (double);
-- (void),N,V_query;
-- (void);
-- (void);
-- (void)=dd}32i48d52;
-- (double)"UIPopoverPresentationController"16;
-- (_Bool)rTransitionOfType:forAlertController: /* Error: Ran out of types for this method. */;
-- (void)FirstResponder:(_Bool)arg1;
-- (void)dDismissWhenTappedOutside:(CDUnknownBlockType)arg1;
-- (struct CGPoint)_sceneView;
-- (double),V_extraConstraints;
+- (double);
+- (double)iewControllerImpl>"64;
+- (_Bool)@"UIActionSheet";
+- (void)ractedContentAbsolutePaths;
+- (void)pDataOwner;
+- (void)Preference;
+- (void)ty:(struct CGPoint)arg1 key:target: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)GRect={CGPoint=dd}{CGSize=dd}}16@?0@"UIZoomTransitionAlignmentRectContext"8;
+- (void)xSo16UIViewControllerCIegno_;
+- (void)ics;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint centroid; // @synthesize centroid=_centroid;

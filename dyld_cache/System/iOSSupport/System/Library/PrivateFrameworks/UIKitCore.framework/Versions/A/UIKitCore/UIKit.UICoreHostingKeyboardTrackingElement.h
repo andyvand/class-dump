@@ -12,10 +12,9 @@
 }
 
 - (void);
-- (_Bool)session for imessage to send the nickname info or no contents in message dictionary %@ %@;
-- (void)1¢!0@ù
-× ;
-- (id)rval;
+- (_Bool);
+- (id);
+- (void)0íþ$XÏÈl;
 
 @end
 

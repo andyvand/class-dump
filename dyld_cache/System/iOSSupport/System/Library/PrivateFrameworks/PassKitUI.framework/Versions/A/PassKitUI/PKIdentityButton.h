@@ -12,10 +12,10 @@
 + (id);
 + (Class);
 - (id);
+- (id);
+- (id);
 - (double);
-- (id);
-- (id);
-- (void)count:(double)arg1;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) TSDLineEnd *headLineEnd; // @synthesize headLineEnd=mHeadLineEnd;

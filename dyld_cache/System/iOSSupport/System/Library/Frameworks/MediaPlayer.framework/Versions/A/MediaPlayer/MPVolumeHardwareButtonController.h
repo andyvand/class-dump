@@ -15,27 +15,28 @@
 }
 
 + (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)coveryKeyDeviceKey:withSystemIntegrityProtectionEnabled:withFirewallSettings:withFirmwarePasswordStatus: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void):pickerResponder:showArtists: /* Error: Ran out of types for this method. */;
+- (void)Â0@ù
+× ;
+- (void)ptionLeaseReturningLikelyToReachRemoteServer: /* Error: Ran out of types for this method. */;
+- (void)sing remote view controller at app's request.;
 
 // Remaining properties
 @property(retain, nonatomic) id <MPVolumeControllerDataSource> activeDataSource; // @synthesize activeDataSource=_activeDataSource;

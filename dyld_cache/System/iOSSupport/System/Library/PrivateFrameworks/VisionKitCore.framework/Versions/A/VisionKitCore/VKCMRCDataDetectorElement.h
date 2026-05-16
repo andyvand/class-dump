@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     struct CGRect _boundingBox;
 }
 
-+ (_Bool)ction: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -35,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (void);
 - (unsigned long long);
-- (id)mpletionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGRect);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VNBarcodeObservation *barcodeObservation; // @synthesize barcodeObservation=_barcodeObservation;

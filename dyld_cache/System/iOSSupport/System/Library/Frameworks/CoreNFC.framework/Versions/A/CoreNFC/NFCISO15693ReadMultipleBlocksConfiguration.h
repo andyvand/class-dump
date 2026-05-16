@@ -18,11 +18,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (struct _NSRange);
 - (void);
 - (id);
 - (unsigned char);
-- (struct _NSRange);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long chunkSize; // @synthesize chunkSize=_chunkSize;

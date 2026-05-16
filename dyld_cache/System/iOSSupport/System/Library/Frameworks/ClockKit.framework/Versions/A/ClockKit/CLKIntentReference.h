@@ -20,15 +20,15 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long indexingHash; // @synthesize indexingHash=_indexingHash;

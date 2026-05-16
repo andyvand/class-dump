@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAdaptativeLayout
-- (struct CGSize);
 @end
 

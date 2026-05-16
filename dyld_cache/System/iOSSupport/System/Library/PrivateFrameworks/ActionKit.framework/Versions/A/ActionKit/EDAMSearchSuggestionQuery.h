@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)i.com/1/disable_access_token;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMNoteFilter *contextFilter; // @synthesize contextFilter=_contextFilter;

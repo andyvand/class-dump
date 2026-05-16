@@ -14,27 +14,27 @@ __attribute__((visibility("hidden")))
     id <BSInvalidatable> _stateCaptureToken;
 }
 
-+ (id)ster may not be nil;
++ (id);
 - (id);
 - (id);
-- (_Bool)ndicationRanges;
-- (void)ationGroupName:(unsigned long long)arg1 completion:(id)arg2;
+- (_Bool);
 - (void);
 - (void);
-- (id)cord passed to cleanUpAssetsOnDiskForRecord:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)0@ù
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)!Ð!|CùQ]1Â0@ù
 × ;
-- (id)!Bù1È1¢!0@ù
+- (id)
 × ;
-- (id)onLanguageForInputModeSwitch;
-- (id)avigationBarInsetViewController:(id)arg1;
-- (id)tCollection;
-- (id)abled;
-- (id)ü¡þ;
-- (id);
-- (id)&×þ´«;
+- (id)ections: /* Error: Ran out of types for this method. */;
+- (id)transition for presentation;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

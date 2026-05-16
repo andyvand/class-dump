@@ -7,6 +7,10 @@
 @class NSArray, NSString;
 
 @protocol SNTestCase
+- (NSString *)C;
+
+@optional
+- (NSArray *).swift;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long aggregate;

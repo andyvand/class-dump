@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void)le transposing skeleton or morph target;
+- (void);
 
 // Remaining properties
 @property __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;

@@ -7,8 +7,6 @@
 @class TSDStrokePattern, TSUColor;
 
 @protocol TSDMutableStroke
-- (void);
-- (TSUColor *);
 
 // Remaining properties
 @property(nonatomic) double actualWidth;

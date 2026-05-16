@@ -12,14 +12,17 @@ __attribute__((visibility("hidden")))
     struct CGPoint _velocity;
 }
 
-- (void)_9(67;
+- (void);
 - (struct CGPoint);
-- (void)!;
-- (struct CGPoint)sDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2};
-- (struct CGPoint)rlayAllowance;
-- (long long)y;
-- (struct CGPoint)update map;
-- (void)Ú¹[;
+- (struct CGPoint);
+- (void);
+- (struct CGPoint)1Â0@ù
+× ;
+- (long long)
+°!Aùg°1Â0@ù
+× ;
+- (void);
+- (struct CGPoint)¨];
 
 // Remaining properties
 @property(nonatomic) struct CGPoint digitizerLocation; // @synthesize digitizerLocation=_digitizerLocation;

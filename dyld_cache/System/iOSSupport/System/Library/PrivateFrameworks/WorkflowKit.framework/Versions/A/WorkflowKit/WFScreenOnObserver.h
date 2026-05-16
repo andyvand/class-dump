@@ -16,19 +16,17 @@
 }
 
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (int);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)0@ù
-× ;
-- (void)! Fùf°1B0@ù
-× ;
-- (_Bool)SpeakTextLanguagePickerParameterMigration migrateSpeakTextLanguageParameterInParametersDictionary:] /* Error: Ran out of types for this method. */;
+- (void)StopSession sendToDestinations:options:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFScreenOnObserverDelegate> delegate; // @synthesize delegate=_delegate;

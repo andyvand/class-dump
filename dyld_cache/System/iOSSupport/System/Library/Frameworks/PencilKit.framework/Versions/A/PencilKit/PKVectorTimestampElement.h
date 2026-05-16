@@ -12,10 +12,10 @@
 
 - (unsigned long long);
 - (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void)ifyingDelegate;
-- (unsigned long long)sizeDelta;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long clock; // @synthesize clock=_clock;

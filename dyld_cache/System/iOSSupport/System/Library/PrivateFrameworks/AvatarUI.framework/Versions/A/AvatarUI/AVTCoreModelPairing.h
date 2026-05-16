@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedPairTitle; // @synthesize localizedPairTitle=_localizedPairTitle;

@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)G;
++ (id)ø;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

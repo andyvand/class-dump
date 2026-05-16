@@ -25,12 +25,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void)A42_GADyAEyAfDyAGyAHBÎATySayA46_GA46_AHGG_òÈpyAHGSgA51_tGAFG_AEyAFA51_AHGtGSgtGADyAH_AAyAAyA2HGADyAH_AHtGGA2HtGG_AAyAJyA11_ALGADy	ÂpyAGyAH6P;
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PUIPosterSnapshotCache> cache; // @synthesize cache=_cache;

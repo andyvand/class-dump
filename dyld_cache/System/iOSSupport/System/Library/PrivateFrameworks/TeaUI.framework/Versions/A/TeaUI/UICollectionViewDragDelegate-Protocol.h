@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UICollectionViewDragDelegate
-- (NSArray *);
 
 @optional
-- (_Bool)ingConfigurationProvider;
-- (_Bool);
+- (_Bool);
 @end
 

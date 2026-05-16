@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (id)1¢!0@ù
-× ;
-+ (id)ertionVisit:menuDeletionVisit: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)n:(id)arg1;
++ (_Bool)tentForAdditionalRenderingDestination;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -52,9 +52,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void)ions.cellInnerMargin;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *addAutomationActivityIndicator; // @synthesize addAutomationActivityIndicator=_addAutomationActivityIndicator;

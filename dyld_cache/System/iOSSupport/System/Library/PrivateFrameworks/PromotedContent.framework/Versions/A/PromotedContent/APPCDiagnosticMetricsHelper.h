@@ -16,16 +16,16 @@
     unsigned long long networkType;
 }
 
-- (void)uzzle Continue Playing;
-- (void)n error fetching artwork, using fallback %{public}@;
-- (void)e and error;
-- (void)NewsUI216EditorialService;
 - (void);
-- (id)eprecated and no longer available;
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long networkType; // @synthesize networkType;

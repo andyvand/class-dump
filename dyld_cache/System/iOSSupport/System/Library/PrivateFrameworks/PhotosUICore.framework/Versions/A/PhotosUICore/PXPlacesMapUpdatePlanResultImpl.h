@@ -26,9 +26,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSMutableSet *annotationsToAddImmediately; // @synthesize annotationsToAddImmediately=_annotationsToAddImmediately;

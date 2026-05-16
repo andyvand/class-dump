@@ -11,18 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (double);
+- (_Bool);
 - (struct CGRect);
 - (double);
-- (id)!¼BùqÃ1¢!0@ù
-× ;
-- (double)egate>";
-- (_Bool)onstant: /* Error: Ran out of types for this method. */;
-- (CDStruct_f413d7fe)eForAccessoryAtIndex:(_Bool)arg1 inAccessories:containerSize:withXOrigin: /* Error: Ran out of types for this method. */;
-- (_Bool)dle;
-- (struct UIEdgeInsets)emote mute capability has been initialized to:%@ /* Error: Ran out of types for this method. */;
-- (id)currently assigned. Current:(long long)arg1 %f. Candidate:(_Bool)arg2 %s;
-- (double)4¼u;
+- (double);
+- (id)er";
+- (_Bool)a: /* Error: Ran out of types for this method. */;
+- (id)ePromptViewAndActuallyHide:(long long)arg1;
+- (CDStruct_f413d7fe)onInAnimations;
+- (struct UIEdgeInsets)cognizer",&,N,S_setBarSwipeHideGesture:,V__barSwipeHideGesture /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool clipsToBounds;

@@ -15,13 +15,13 @@
 + (id);
 - (id);
 - (id);
-- (long long)!1;
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (id);
 - (long long);
+- (long long);
+- (_Bool);
+- (id);
+- (id);
+- (void)for %s, name:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) id <IMAttributableContent> chip; // @synthesize chip;

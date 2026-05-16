@@ -14,18 +14,16 @@
 }
 
 - (id);
-- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (id)rdict;
-- (id)32B40@"NSError"44@"IDSMessageContext"52;
-- (void)placeType, %@, placeStat, %{sensitive}@, total dwell time, %@, mlFeatures, %@, 
-
-output target score, %lf, error, %@;
-- (void)ation, %{sensitive}@, startDate, %@, timeInterval, %.2f hrs;
-- (void)essionID:(id)arg1 %@,%@,%@,successfully deleted SMReceiverContact from store with identifier %@;
-- (_Bool)kback start,%{public}@,trustedNow,%{public}@;
+- (id);
+- (id)hRestorationIdentifier;
+- (void)location;
+- (id)OF-STATE-OP;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

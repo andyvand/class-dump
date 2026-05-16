@@ -14,12 +14,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)rchFeaturesAvailabilityState;
 - (id);
+- (id);
+- (void)Ü7ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *categories;

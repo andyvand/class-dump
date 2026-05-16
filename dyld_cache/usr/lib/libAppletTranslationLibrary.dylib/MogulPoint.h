@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     NSString *_name;
 }
 
-- (void)START;
-- (void)del Name;
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain) NSNumber *balance; // @synthesize balance=_balance;

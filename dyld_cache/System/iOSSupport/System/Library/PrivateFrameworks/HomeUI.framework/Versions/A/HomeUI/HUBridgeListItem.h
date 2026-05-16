@@ -12,11 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)oardingDisplayOption_UseFullScreen;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

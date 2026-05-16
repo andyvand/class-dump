@@ -70,15 +70,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (id)"NSDictionary"24;
-- (void)atchedRequests:(id)arg1;
+- (void);
+- (void);
+- (_Bool);
+- (void)@"NSString"8Q16^B24;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *accessoriesToEdit; // @synthesize accessoriesToEdit=_accessoriesToEdit;

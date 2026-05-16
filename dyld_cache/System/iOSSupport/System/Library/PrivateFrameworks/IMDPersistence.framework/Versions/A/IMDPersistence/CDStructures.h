@@ -116,6 +116,10 @@ struct __CFRuntimeBase {
 
 struct __CFString;
 
+struct os_unfair_lock_s {
+    unsigned int _os_unfair_lock_opaque;
+};
+
 struct sqlite3;
 
 struct sqlite3_stmt;

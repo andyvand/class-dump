@@ -12,11 +12,11 @@
 }
 
 + (id);
-+ (id)i;
++ (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *cleanupPredicates; // @synthesize cleanupPredicates=_cleanupPredicates;

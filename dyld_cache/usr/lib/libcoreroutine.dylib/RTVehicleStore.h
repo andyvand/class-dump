@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void)articipantType"b1"sessionStateCounter"b1"isNewlyJoined"b1};
-- (id);
-- (void)lÏ;
+- (void);
+- (id)(in %s:(id)arg1 %d);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

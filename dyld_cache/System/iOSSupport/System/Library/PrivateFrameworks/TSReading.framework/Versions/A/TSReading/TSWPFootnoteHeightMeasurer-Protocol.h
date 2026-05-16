@@ -5,6 +5,5 @@
 //
 
 @protocol TSWPFootnoteHeightMeasurer
-- (void)BA9	A;
 @end
 

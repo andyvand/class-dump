@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)DurationForIncrementingViewCount;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

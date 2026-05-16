@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _appearing;
 }
 
-- (void)_;
-- (id)l;
+- (void);
+- (id);
 - (_Bool);
-- (void)33o.;
-- (double)¤-;
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAppearing) _Bool appearing; // @synthesize appearing=_appearing;

@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)MG_FP;
-- (_Bool)s hardware encountered an error and was reset:0x%08x
- /* Error: Ran out of types for this method. */;
-- (id)ö;
-- (void).amazon.firetv.remote;
+- (void);
+- (_Bool);
+- (void)× ;
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool collectAsRemoteElement;

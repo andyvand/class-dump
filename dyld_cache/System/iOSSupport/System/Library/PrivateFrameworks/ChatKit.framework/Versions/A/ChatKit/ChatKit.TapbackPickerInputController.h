@@ -16,15 +16,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
+- (void);
+- (id);
 - (_Bool);
-- (_Bool)ndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)Øÿç±VìÉ0;
+- (_Bool);
+- (void);
+- (void)iguration;
+- (_Bool)A;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

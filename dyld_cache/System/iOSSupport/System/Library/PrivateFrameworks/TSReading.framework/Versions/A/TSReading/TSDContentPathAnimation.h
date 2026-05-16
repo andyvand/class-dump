@@ -25,14 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (void)/;
+- (void);
+- (void);
+- (double);
+- (void);
 - (id);
-- (void)A;
+- (id);
 - (void);
 - (void);
-- (void):(id)arg1 tlBoundsInfluencingWrap:wrapOutset:wrapMargin:makeInline: /* Error: Ran out of types for this method. */;
-- (id)lor=},R,N;
-- (double)ate;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contentLocations; // @synthesize contentLocations=_contentLocations;

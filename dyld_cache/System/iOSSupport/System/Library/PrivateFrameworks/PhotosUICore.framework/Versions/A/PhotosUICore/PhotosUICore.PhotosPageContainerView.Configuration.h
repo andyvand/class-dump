@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id)ection:(void *)arg1;
+- (void)Ä1$ÿ^ËÀ1$ÿÝ^Ë¼1$ÿ_Ë´ ÿå^Ë°1$ÿ;
 
 // Remaining properties
 @property(nonatomic, retain) PXGSingleViewLayout *weakLayout; // @synthesize weakLayout;

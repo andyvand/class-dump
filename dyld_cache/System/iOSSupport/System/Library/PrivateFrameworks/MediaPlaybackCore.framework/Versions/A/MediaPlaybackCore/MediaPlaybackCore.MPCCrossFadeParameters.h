@@ -9,8 +9,8 @@
     double duration;
 }
 
+- (double);
 - (void);
-- (double)ype] type=%{public}@;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration;

@@ -8,9 +8,6 @@
 @protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
-- (void)nelUpsellConfigsByChannelID;
-- (void);
-- (FCBundleSubscription *)ons/C/Foundation;
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;

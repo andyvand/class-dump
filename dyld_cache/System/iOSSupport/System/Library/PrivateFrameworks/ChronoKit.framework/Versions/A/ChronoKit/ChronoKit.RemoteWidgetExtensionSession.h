@@ -35,7 +35,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)wift;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool boostToForegroundPriority; // @synthesize boostToForegroundPriority;

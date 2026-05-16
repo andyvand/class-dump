@@ -38,9 +38,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)[HUDashboardViewController:_clearEnergyIndicator] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

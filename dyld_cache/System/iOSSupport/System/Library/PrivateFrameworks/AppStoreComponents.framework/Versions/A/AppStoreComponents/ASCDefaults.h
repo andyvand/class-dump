@@ -33,23 +33,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;

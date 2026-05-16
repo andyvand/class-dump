@@ -17,18 +17,18 @@
     long long _type;
 }
 
-+ (_Bool)isAudioCallTranslationEnabled;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (id)estWithError: /* Error: Ran out of types for this method. */;
+- (void)rollerCSgXw;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;

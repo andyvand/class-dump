@@ -25,30 +25,30 @@
     RTLocationShifter *_locationShifter;
 }
 
-+ (double)nfo.;
 + (double);
 + (double);
-- (void)ription;
++ (double)Store:(double)arg1;
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (double);
+- (id);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
 - (double);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (id)text=};
-- (void);
-- (id)E method %zu does not match KE method %zu in CHILD SA rekey proposal;
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id)ceMetric:threshold:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long) ;
+- (id)cher;
+- (id)tWithLocation:locationsOfInterest:minCircleOverlapThreshold: /* Error: Ran out of types for this method. */;
+- (unsigned long long)nitiatorService _onDeletedConversation:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)nDetailsOutOfSync, %{Bool}d, setting handoffRebootReconciliationState to, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTLocation *centroid; // @synthesize centroid=_centroid;

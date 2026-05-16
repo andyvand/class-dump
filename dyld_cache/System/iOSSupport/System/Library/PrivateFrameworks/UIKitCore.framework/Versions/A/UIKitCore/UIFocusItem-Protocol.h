@@ -7,13 +7,10 @@
 @class UIFocusEffect;
 
 @protocol UIFocusItem
-- (_Bool)as the controller we're walking:%@, %@ /* Error: Ran out of types for this method. */;
+- (struct CGRect)Previewing>"16{CGPoint=dd}24;
 
 @optional
-- (long long);
-- (long long)er;
-- (_Bool). targetOrientation=%@; preferredOrientation=%@; supportedOrientations=[%@].;
-- (UIFocusEffect *)õ;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

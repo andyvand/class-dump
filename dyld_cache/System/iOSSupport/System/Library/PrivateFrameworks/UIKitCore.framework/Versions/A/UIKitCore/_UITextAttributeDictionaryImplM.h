@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)redicateValue: /* Error: Ran out of types for this method. */;
-+ (Class)ð!èAùÌ1¢!0@ù
++ (Class);
++ (Class);
++ (_Bool)pMÿÓ;
+- (void);
+- (void);
+- (void)!øGù1\°1Â0@ù
 × ;
-+ (Class)/ÿÿ"üÿ>ýÿª>ýÿ;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)y view using a registration that was created inside -collectionView:(id)arg1 viewForSupplementaryElementOfKind:atIndexPath:or inside a UICollectionViewDiffableDataSource supplementary view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
-- (void)ItemProvider;
+- (void)ationFactor:(id)arg1 decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
+- (void)¼;
+- (void)Value;
 
 @end
 

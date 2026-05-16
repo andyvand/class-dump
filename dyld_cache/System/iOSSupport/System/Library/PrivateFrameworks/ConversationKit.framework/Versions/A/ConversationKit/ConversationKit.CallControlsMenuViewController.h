@@ -34,14 +34,15 @@
     MISSING_TYPE *dodgingView;
     MISSING_TYPE *containingGuide;
     MISSING_TYPE *rosterViewProvider;
+    MISSING_TYPE *isUpdatingDodgingState;
 }
 
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (_Bool);
+- (void)/¢, y& SgGG Gß GÉ yAAy  k yÅ yAAy ×;
 
 @end
 

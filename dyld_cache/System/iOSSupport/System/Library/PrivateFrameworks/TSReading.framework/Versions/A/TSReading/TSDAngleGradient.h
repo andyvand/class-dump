@@ -28,7 +28,7 @@
 - (double);
 - (void);
 - (long long);
-- (id)˿;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -42,10 +42,10 @@
 - (void);
 - (double);
 - (void);
-- (unsigned long long);
-- (id)=;
-- (_Bool);
 - (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
 - (id);
 
 // Remaining properties

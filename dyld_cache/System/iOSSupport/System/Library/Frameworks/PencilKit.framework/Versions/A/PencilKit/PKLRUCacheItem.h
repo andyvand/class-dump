@@ -17,7 +17,8 @@
     unsigned long long _cost;
 }
 
-- (void);
+- (void)dFHÐOÜR
+T;
 
 @end
 

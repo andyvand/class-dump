@@ -9,7 +9,7 @@
 @interface VoiceShortcuts.ToolTransformer
 {
     MISSING_TYPE *database;
-    MISSING_TYPE *session;
+    MISSING_TYPE *sessionPool;
 }
 
 @end

@@ -17,6 +17,7 @@
     _Bool _shouldNotifyOnSend;
     _Bool _sentViaRemoteIntent;
     _Bool _isRCSSendWithoutEncryption;
+    _Bool _isFirstUnencryptedSend;
     IMHandle *_sender;
     IMHandle *_subject;
     NSAttributedString *_messageSubject;
@@ -69,7 +70,6 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -79,7 +79,8 @@
 + (id);
 + (id);
 + (id);
-+ (id)EXT;
++ (id);
++ (id);
 + (id);
 
 // Remaining properties
@@ -96,6 +97,11 @@
 @property(retain, nonatomic) NSData *customTypingIndicatorIcon; // @synthesize customTypingIndicatorIcon=_customTypingIndicatorIcon;
 @property(retain, nonatomic, setter=_updatedDateEdited:) NSDate *dateEdited; // @synthesize dateEdited=_dateEdited;
 @property(retain, nonatomic, setter=_updatedDateRecovered:) NSDate *dateRecovered; // @synthesize dateRecovered=_dateRecovered;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool didNotifyRecipient;
 @property(retain, nonatomic) NSIndexSet *editedPartIndexes;
 @property(retain, nonatomic, setter=_updateError:) NSError *error; // @synthesize error=_error;
@@ -108,12 +114,15 @@
 @property(readonly, nonatomic) _Bool hasEditedParts;
 @property(readonly, nonatomic) _Bool hasInlineAttachments;
 @property(nonatomic) _Bool hasMention; // @synthesize hasMention=_hasMention;
+@property(readonly, nonatomic) _Bool hasRetractedParts;
+@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *inlineAttachmentAttributesArray;
 @property(readonly, nonatomic) _Bool isAddressedToMe; // @synthesize isAddressedToMe=_isAddressedToMe;
 @property(readonly, nonatomic) _Bool isAlert;
 @property(readonly, nonatomic) _Bool isAssociatedMessage;
 @property(readonly, nonatomic) _Bool isAudioMessage;
 @property(readonly, nonatomic) _Bool isAutoReply;
+@property(readonly, nonatomic) _Bool isCancelTypingMessage;
 @property(readonly, nonatomic) _Bool isCritical;
 @property(readonly, nonatomic) _Bool isDelayed;
 @property(readonly, nonatomic) _Bool isDelivered;
@@ -121,6 +130,7 @@
 @property(readonly, nonatomic) _Bool isEmote;
 @property(readonly, nonatomic) _Bool isEmpty;
 @property(readonly, nonatomic) _Bool isFinished;
+@property(nonatomic) _Bool isFirstUnencryptedSend; // @synthesize isFirstUnencryptedSend=_isFirstUnencryptedSend;
 @property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, nonatomic) _Bool isGroupTypingMessage;
 @property(nonatomic) _Bool isHQTransfer; // @synthesize isHQTransfer=_isHQTransfer;
@@ -163,6 +173,7 @@
 @property(retain, nonatomic) NSString *sourceApplicationID; // @synthesize sourceApplicationID=_sourceApplicationID;
 @property(readonly, nonatomic) IMHandle *subject; // @synthesize subject=_subject;
 @property(readonly, nonatomic) NSString *summaryString;
+@property(readonly) Class superclass;
 @property(copy, nonatomic, setter=_syncedSyndicationRanges:) NSArray *syncedSyndicationRanges; // @synthesize syncedSyndicationRanges=_syncedSyndicationRanges;
 @property(copy, nonatomic, setter=_syndicationRanges:) NSArray *syndicationRanges; // @synthesize syndicationRanges=_syndicationRanges;
 @property(readonly, copy, nonatomic) IMTapback *tapback;
@@ -182,6 +193,7 @@
 @property(readonly, nonatomic) _Bool wasDeliveredQuietly;
 @property(readonly, nonatomic) _Bool wasDetonated;
 @property(readonly, nonatomic) _Bool wasDowngraded;
+@property(nonatomic) _Bool wasDowngradedManually;
 
 @end
 

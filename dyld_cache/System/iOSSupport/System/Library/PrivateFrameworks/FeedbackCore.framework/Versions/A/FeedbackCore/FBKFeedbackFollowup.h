@@ -15,7 +15,7 @@
 }
 
 + (unsigned long long);
-+ (id);
++ (id)public}s;
 - (id);
 - (id);
 - (id);
@@ -50,16 +50,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
 - (void);
-- (void);
-- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool)ÿ²¦ÿÿ;
-- (void)òÿd;
+- (void);
+- (void)¡9°!ìCùñ=Ð1B50@ù
+× ;
+- (_Bool)erabilityTitle: /* Error: Ran out of types for this method. */;
+- (_Bool)CandidateFormStubsPredicate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *choiceText;

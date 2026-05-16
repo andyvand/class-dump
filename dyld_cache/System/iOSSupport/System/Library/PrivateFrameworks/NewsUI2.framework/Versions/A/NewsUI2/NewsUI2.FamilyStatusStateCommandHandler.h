@@ -12,8 +12,8 @@
     MISSING_TYPE *familyStatusManager;
 }
 
-- (void);
 - (id);
+- (void)Üè¦þ4_¬v¦þu4_é¦þ;
 
 @end
 

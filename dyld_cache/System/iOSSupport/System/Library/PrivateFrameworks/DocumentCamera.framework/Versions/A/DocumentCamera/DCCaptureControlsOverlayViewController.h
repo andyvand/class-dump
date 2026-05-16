@@ -39,15 +39,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (void)title;
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <_TtP14DocumentCamera46DCCaptureControlsOverlayViewControllerDelegate_> delegate; // @synthesize delegate;

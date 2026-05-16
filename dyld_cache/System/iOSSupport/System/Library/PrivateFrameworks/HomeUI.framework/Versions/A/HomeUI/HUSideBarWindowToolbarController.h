@@ -34,10 +34,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)C;
-- (void)diaAccessoryItem",N,&,VmediaItem;
+- (void)m:(id)arg1;
+- (id)UWallpaperPhotoCell",&,N,V_customWallpaperCell;
+- (void)ure.socialdance;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

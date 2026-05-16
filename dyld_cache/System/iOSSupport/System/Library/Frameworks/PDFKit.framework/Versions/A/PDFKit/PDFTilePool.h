@@ -12,22 +12,22 @@ __attribute__((visibility("hidden")))
     PDFTilePoolPrivate *_private;
 }
 
-+ (id)tionCoordinating>"40;
++ (id);
 - (int);
 - (void);
 - (void);
 - (void);
-- (void)4q32;
-- (id)16@"NSEvent"24;
-- (struct CGContext *)8@"CNContactPicker"16@"CNContactProperty"24;
-- (void)eviewList";
-- (int)"NSEvent"32^{CGPoint=dd}40;
-- (int)g"16;
-- (void){_NSRange=QQ}40;
-- (int)IAutoDismissalController"16B24;
 - (void);
-- (void)sFullyRenderedNotification;
-- (id)0;
+- (id);
+- (struct CGContext *);
+- (void);
+- (int);
+- (int);
+- (void);
+- (int);
+- (void);
+- (id);
+- (void);
 
 @end
 

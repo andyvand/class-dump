@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)ing to see if duplicate certificate already exists in keychain;
++ (Class);
 - (id);
-- (id)nitoredScenarioTriggerTypes;
+- (id)2;
 
 @end
 

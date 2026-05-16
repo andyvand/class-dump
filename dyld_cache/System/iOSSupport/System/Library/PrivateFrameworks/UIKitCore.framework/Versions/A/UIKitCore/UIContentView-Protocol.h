@@ -7,6 +7,11 @@
 @protocol UIContentConfiguration;
 
 @protocol UIContentView
+- (void)0@ù
+× ;
+
+@optional
+- (_Bool)earchBar";
 
 // Remaining properties
 @property(copy, nonatomic) id <UIContentConfiguration> configuration;

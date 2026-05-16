@@ -19,7 +19,7 @@
     MISSING_TYPE *imageEditionViewController;
 }
 
-+ (_Bool);
++ (_Bool)Äÿÿÿ°È;
 - (void);
 - (id);
 - (_Bool);
@@ -29,20 +29,26 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)ÿ
+ï
+ÿ
+GGG;
+- (id)Uÿ
+yTÿ
+GGDGG_Qo_Rÿ
+G;
 
 // Remaining properties
 @property(nonatomic, retain) GPAppleConnectTokenProvider *appleConnectTokenProvider; // @synthesize appleConnectTokenProvider;

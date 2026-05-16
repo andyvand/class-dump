@@ -5,14 +5,12 @@
 //
 
 @class NSString;
-@protocol MTLCommandBuffer, MTLDevice;
+@protocol MTLDevice;
 
 @protocol MTLCommandQueue
-- (id <MTLCommandBuffer>);
-- (void)=;
-- (void)r",&,N,V_translator;
-- (id <MTLDevice>);
-- (void)E_AND_BLOCK_THIS_CONVERSATION;
+- (void)!CùÑÐ1Â0@ù
+× ;
+- (void)}d;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

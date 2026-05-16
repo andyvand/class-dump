@@ -20,7 +20,12 @@
 
 + (id);
 + (id);
-+ (_Bool)Updated(_:) /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -28,23 +33,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (void):(id)arg1;
+- (id)arizationModelsAvailable;
+- (id)_resource;
 - (void);
-- (id)maticSpellingCorrectionNotification;
-- (void)Yº¹5LÃ;
+- (void)ContentConfigurationKey;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

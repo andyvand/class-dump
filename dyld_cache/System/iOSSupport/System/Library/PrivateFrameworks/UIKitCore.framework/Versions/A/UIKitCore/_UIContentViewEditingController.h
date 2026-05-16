@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool)(;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,16 +39,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)transfer doesn't have a guid, returning nil.;
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)ion;
-- (id)¬æÿÜæÿæÿDæÿæÿ°æÿìæÿæÿLæÿtæÿ¬æÿÜæÿæÿDæÿæÿ°æÿÔæÿøæÿæÿXæÿæÿÀæÿüæÿ(æÿLæÿæÿDæÿxæÿ¨æÿÐæÿæÿÐæÿæÿ,æÿ`æÿ æÿÈæÿ;
-- (_Bool)l;
-- (_Bool)or from non-fullscreen view controller %@.;
-- (id)ng to reuse a view that's currently the first responder or contains the first responder. Collection view:%@; view:%@; view layout attributes:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)¸þ;
+- (void)¬`];
+- (_Bool)ãØ" `;
+- (id)´Âa;
+- (id)À6c;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *contentView; // @synthesize contentView=_contentView;

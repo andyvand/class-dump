@@ -15,10 +15,10 @@
     MISSING_TYPE *destinationTransformableView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

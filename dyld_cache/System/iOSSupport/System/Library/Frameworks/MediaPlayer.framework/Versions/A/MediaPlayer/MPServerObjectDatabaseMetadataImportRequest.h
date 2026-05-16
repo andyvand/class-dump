@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)first;
++ (id);
 - (id);
 
 @end

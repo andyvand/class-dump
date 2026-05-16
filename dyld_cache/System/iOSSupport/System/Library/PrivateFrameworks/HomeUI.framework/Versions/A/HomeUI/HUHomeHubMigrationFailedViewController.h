@@ -28,24 +28,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)!¤Eù0ð1b0@ù
-× ;
-- (id)temImageNamed: /* Error: Ran out of types for this method. */;
-- (void)gDelegate:(id)arg1;
-- (void)gÓÿ
-;
+- (id);
+- (void);
+- (void);
+- (void)layoutOptions;
+- (void)ers.AddPerson.ChooseRole.Subtitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

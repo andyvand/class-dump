@@ -5,5 +5,6 @@
 //
 
 @protocol UIViewSpringAnimationBehaviorDescribing
+- (CDStruct_aa45ca86)ExtraProminentStyle:(int)arg1 outAxesPreservingSuperviewLayoutMargins:(int)arg2;
 @end
 

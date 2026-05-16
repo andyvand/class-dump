@@ -30,19 +30,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
+- (void);
+- (id)titlement %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;

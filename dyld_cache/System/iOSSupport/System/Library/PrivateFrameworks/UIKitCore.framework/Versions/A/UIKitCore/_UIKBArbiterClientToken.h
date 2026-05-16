@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSString *_sceneIdentityString;
 }
 
-+ (id);
++ (id)eshold;
+- (id);
+- (id);
+- (id);
+- (void)ctedTextSearchDocument"b1"compareOrderFromDocument"b1"compareFoundRangeToRange"b1};
+- (_Bool)ExitProcessWithStatus:(id)arg1;
 - (void);
-- (_Bool);
-- (void);
-- (id)orderSeparatorView;
-- (id)view:atZIndex:forced: /* Error: Ran out of types for this method. */;
-- (id)lorEffect;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sceneIdentityString; // @synthesize sceneIdentityString=_sceneIdentityString;

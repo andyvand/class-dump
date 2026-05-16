@@ -7,14 +7,12 @@
 @class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
 
 @protocol FCFeedTheming
-- (FCColor *)scrollRectToVisible:animated: /* Error: Ran out of types for this method. */;
-- (FCColor *)DÄxÄÔÅ;
-- (FCAssetHandle *)l;
-- (FCColor *)h§ùÿ¬§ùÿè§ùÿ¨ùÿ¨¨ùÿÌ¨ùÿð¨ùÿ¨©ùÿÌ©ùÿð©ùÿ,ªùÿPªùÿªùÿÜªùÿp«ùÿT¬ùÿ¬ùÿÔ¬ùÿø¬ùÿ,­ùÿ8­ùÿd­ùÿx®ùÿ®ùÿ®ùÿÌ®ùÿ¯ùÿ¯ùÿ¯ùÿ`°ùÿ°ùÿ,±ùÿ±ùÿ ²ùÿT²ùÿH³ùÿl³ùÿÈ³ùÿ´ùÿ(´ùÿ°´ùÿ;
-- (FCAssetHandle *)ÿÿè;
-- (FCAssetHandle *);
-- (unsigned long long)line message when search is not available due to device offline;
-- (FCAssetHandle *)r;
+- (NSArray *);
+- (struct FCEdgeInsets);
+- (FCColor *)tchlistSwitcherMenuProvider;
+- (FCTextInfo *)llViewLayoutAttributesFactory;
+- (double)ZÙr
+;
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *adBackgroundColor;

@@ -5,14 +5,18 @@
 //
 
 @class NSArray, NSIndexPath, UICollectionViewDropProposal;
-@protocol UICollectionViewDropPlaceholderContext, UIDropSession;
+@protocol UICollectionViewDropPlaceholderContext, UIDragAnimating, UIDropSession;
 
 @protocol UICollectionViewDropCoordinator
-- (NSIndexPath *)@9AqM;
-- (id <UICollectionViewDropPlaceholderContext>)ssInteractionSettings;
-- (NSArray *));
-- (id <UIDropSession>)²;
-- (UICollectionViewDropProposal *)Ú0"a;
+- (id <UICollectionViewDropPlaceholderContext>)0@ù
+× ;
+- (id <UIDragAnimating>)!äCùq]ð1Â0@ù
+× ;
+- (id <UIDragAnimating>)4;
+- (NSArray *)s;
+- (NSIndexPath *)ngToDisplayMode;
+- (UICollectionViewDropProposal *)anManageList;
+- (id <UIDragAnimating>)zer because it does not match _initialTouchType(%@);
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *destinationIndexPath;

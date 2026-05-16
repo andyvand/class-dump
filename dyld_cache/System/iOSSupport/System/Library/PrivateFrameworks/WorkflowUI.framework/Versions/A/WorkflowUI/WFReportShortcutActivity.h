@@ -15,8 +15,7 @@
     MISSING_TYPE *$__lazy_storage_$_reportShortcutHostingViewController;
 }
 
-+ (id)6
-;
++ (id);
 - (void);
 - (id);
 - (id);
@@ -25,9 +24,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)U;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _isDisabled;

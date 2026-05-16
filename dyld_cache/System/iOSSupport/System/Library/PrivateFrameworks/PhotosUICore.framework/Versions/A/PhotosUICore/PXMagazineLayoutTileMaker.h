@@ -53,16 +53,16 @@
 - (_Bool);
 - (void);
 - (double);
-- (double);
 - (long long);
+- (double);
 - (unsigned long long);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void);
-- (double);
 - (id);
-- (unsigned long long)H8ÿ;
+- (double);
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize defaultTileSize; // @synthesize defaultTileSize=_defaultTileSize;

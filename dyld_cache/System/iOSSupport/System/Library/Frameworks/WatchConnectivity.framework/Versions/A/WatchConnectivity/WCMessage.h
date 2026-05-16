@@ -17,15 +17,15 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSData *data; // @synthesize data=_data;

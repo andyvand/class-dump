@@ -21,9 +21,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)etInset;
-- (void);
-- (id)P;
+- (id);
+- (id);
+- (void)ment: /* Error: Ran out of types for this method. */;
 
 @end
 

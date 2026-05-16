@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     UIWindow *_windowWithBorder;
 }
 
-+ (id)íDk;
++ (id)umberOfMulticolorLayers;
 - (void);
 - (void);
-- (void);
 - (void);
+- (void)yÞÚ.3yAAy­¾7Ã.3y:º.3GGSOGGGAIy3£.3yU¾7GGG_Û.3Qo__#¾7Qo__|.3Qo_ /* Error: Ran out of types for this method. */;
 
 @end
 

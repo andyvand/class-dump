@@ -136,35 +136,35 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void)¬Ö0e;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)ØüÙ;
-- (_Bool)@³;
-- (void)r label;
-- (id)containsIndex:0] && _asset != nil /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)activeMemoryFullscreenPlaybackStarted;
 - (void);
-- (CDUnknownBlockType)#ÿM2t»#ÿ-M2°L1ÿ;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (CDStruct_1b6d18a9)th;
+- (long long)sFromUI: /* Error: Ran out of types for this method. */;
+- (id)¬ÈDÿ;
+- (_Bool)ON;
+- (void)or one up group activity;
+- (CDUnknownBlockType);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long HUDContentChangeDescriptor;

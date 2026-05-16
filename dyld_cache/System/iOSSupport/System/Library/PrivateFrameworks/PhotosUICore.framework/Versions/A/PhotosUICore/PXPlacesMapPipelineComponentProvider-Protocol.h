@@ -8,9 +8,8 @@
 @protocol PXPlacesMapAnnotationRenderer, PXPlacesMapLayout, PXPlacesMapSelectionHandler, PXPlacesMapUpdatePlan;
 
 @protocol PXPlacesMapPipelineComponentProvider
-- (id <PXPlacesMapLayout>)
-× ;
-- (id <PXPlacesMapAnnotationRenderer>)p§Ð§d¨;
+- (id <PXPlacesMapSelectionHandler>);
+- (id <PXPlacesMapLayout>)t={CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}96Q288@"<NSObject>"296^B304;
 
 // Remaining properties
 @property(retain) PXPlacesImageCache *imageCache;

@@ -5,7 +5,5 @@
 //
 
 @protocol NSCoding
-- (void);
-- (id)code(n.name)+"="+l}}let s=document.createElement("a");return s.href=t.action,s.search=i,s.href}function handleFormSubmission(e){const t=e.target;if(!isSearchForm(t))return;const n=visibleNonEmptyFormTextControlsInForm(t);if(n.length>1)return;const r=n[0];if(!r)return;const i=searchTextFieldFormSubmissionURLString(r);i&&window.webkit.messageHandlers.quickWebsiteSearchDetectedSearchURL.postMessage(i)}window.addEventListener("submit",handleFormSubmission);;
 @end
 

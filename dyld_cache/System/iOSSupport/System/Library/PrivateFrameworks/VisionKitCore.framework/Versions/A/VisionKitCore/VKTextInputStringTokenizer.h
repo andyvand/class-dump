@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKCTextRecognitionResult *recognitionResult; // @synthesize recognitionResult=_recognitionResult;

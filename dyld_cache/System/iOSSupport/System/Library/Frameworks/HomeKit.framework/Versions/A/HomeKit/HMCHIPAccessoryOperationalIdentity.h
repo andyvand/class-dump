@@ -12,17 +12,17 @@
     NSNumber *_nodeID;
 }
 
-+ (id)`Ô4Öì×XÜHÝÞ¨Þ4áxá;
++ (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)ctivation;
-- (id)ting %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

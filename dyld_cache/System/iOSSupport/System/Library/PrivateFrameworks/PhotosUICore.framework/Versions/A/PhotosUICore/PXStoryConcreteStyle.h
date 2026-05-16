@@ -40,9 +40,8 @@
 - (long long);
 - (CDStruct_aa11df03);
 - (_Bool);
-- (void);
-- (id)vð!Aùñzð1b0@ù
-× ;
+- (id);
+- (void)eGlobalTraitsForLoadingAnimation;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryAutoEditDecisionList> autoEditDecisionList; // @synthesize autoEditDecisionList=_autoEditDecisionList;

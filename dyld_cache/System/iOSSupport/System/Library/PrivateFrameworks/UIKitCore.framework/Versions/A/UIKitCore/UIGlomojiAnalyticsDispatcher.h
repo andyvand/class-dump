@@ -18,30 +18,29 @@ __attribute__((visibility("hidden")))
     unsigned long long _KBMenuSelectedAction;
 }
 
-- (id)m;
-- (void)e;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long)ing with error:[%@] /* Error: Ran out of types for this method. */;
-- (id)ckSwitch got unknown resource ULR callback over quick switch service %ld;
-- (unsigned long long)nd a database that can be downgraded to version:%ld /* Error: Ran out of types for this method. */;
-- (void)hanged recordID:%@ for ChatGUID %@ /* Error: Ran out of types for this method. */;
-- (void)t the lock record %@ **;
-- (void)ack for processing records;
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void)
-× ;
 - (id);
+- (void) h;
 
 // Remaining properties
 @property(nonatomic) _Bool KBMenuAppeared; // @synthesize KBMenuAppeared=_KBMenuAppeared;

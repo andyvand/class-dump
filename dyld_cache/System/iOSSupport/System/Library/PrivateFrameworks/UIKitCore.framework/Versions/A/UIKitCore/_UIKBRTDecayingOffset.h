@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     struct CGPoint _offset;
 }
 
-- (id);
+- (id);
 - (void);
-- (struct CGPoint)6@24^@32;
+- (struct CGPoint);
 - (void);
-- (struct CGPoint)tionNotification;
+- (struct CGPoint)¼+àÿÓÎ¸^;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint offset;

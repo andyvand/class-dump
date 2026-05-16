@@ -5,8 +5,8 @@
 //
 
 @interface (null) (Workaround_128568145)
-+ (void);
-- (_Bool)<;
++ (void);
+- (_Bool);
 - (struct CGRect);
 - (void);
 

@@ -17,20 +17,19 @@ __attribute__((visibility("hidden")))
     _UIButtonBar *_buttonBar;
 }
 
-+ (Class)(ÅTÆ ÈàÈ;
++ (Class);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)Count;
-- (void)a¬;
-- (void)!8EùÇÐ1¢!0@ù
+- (void)0@ù
 × ;
-- (void)qÍ°1¢!0@ù
-× ;
-- (id)TB,N,V_isMovingFocusFromHorizontalIndexTitleBarToContent;
-- (id)W,D,N;
-- (void)verGlassBackground;
-- (void)²y^;
+- (void)foreSection: /* Error: Ran out of types for this method. */;
+- (id)ring:(id)arg1 %@;
+- (id)ary/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation;
+- (void)°Ô,;^;
+- (void)ÕÿX;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak _UIButtonBar *buttonBar; // @synthesize buttonBar=_buttonBar;

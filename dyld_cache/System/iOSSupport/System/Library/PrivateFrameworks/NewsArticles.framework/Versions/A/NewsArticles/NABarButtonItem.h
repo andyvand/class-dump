@@ -13,9 +13,9 @@
 }
 
 - (struct UIEdgeInsets);
-- (void);
 - (id);
 - (id);
+- (void)s;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets additionalPageContentInset; // @synthesize additionalPageContentInset;

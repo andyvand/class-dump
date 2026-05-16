@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScene;
+
 @protocol UISceneDelegate
 
 @optional
-- (void)Configuration;
+- (void)@0:(UIScene *)arg1 8@16;
+- (void)_TtC11PosterBoard24PosterRackCollectionView;
 @end
 

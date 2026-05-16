@@ -17,37 +17,33 @@
     struct CGRect _trailingStaticItemRect;
 }
 
+- (struct CGRect);
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (void);
+- (id);
+- (struct CGRect);
+- (struct CGRect);
+- (void);
 - (id);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
-- (void);
 - (void);
 - (struct CGRect);
+- (struct CGRect)aÐ1Â0@ù
+× ;
+- (id)tformKey;
+- (void)eName:(struct CGRect)arg1;
+- (void)tePopoverFrame:(struct CGRect)arg1 arrowOffset: /* Error: Ran out of types for this method. */;
+- (long long)SectionOrRow: /* Error: Ran out of types for this method. */;
+- (struct CGRect)nteraction;
+- (struct CGRect)owTopView;
+- (struct CGRect)À©;
 - (void);
-- (void)1l2;
-- (struct CGRect)rrections
-;
-- (void)OpaqueReferenceData failed to create cfdata from fileReferenceData.;
-- (void);
-- (long long)ionHandler: /* Error: Ran out of types for this method. */;
-- (void)me:didUpdateSupportsResidentActionSetStateEvaluation: /* Error: Ran out of types for this method. */;
-- (struct CGRect)qÐ!@ùQÄ°1¢!0@ù
-× ;
-- (struct CGRect)¢!0@ù
-× ;
-- (struct CGRect)
-× ;
-- (struct CGRect)ences;
-- (id)AllowGlassAdaptivity: /* Error: Ran out of types for this method. */;
-- (struct CGRect)or;
-- (void)ToDismissOnTouchDownForGestureRecognizer:(struct CGRect)arg1;
-- (id)ngTintColor: /* Error: Ran out of types for this method. */;
-- (struct CGRect),N;
-- (struct CGRect)Ô
-èDÜH;
-- (struct CGRect)DEE6C8426C15FCDB740980229AlphaOverrideAssertionSubject;
-- (void)ort.swift;
+- (struct CGRect)ublic}@;
+- (void)houldSend from update touches;
 
 // Remaining properties
 @property(nonatomic) struct CGRect backButtonRect; // @synthesize backButtonRect=_backButtonRect;

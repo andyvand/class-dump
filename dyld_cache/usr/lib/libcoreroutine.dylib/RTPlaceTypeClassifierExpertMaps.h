@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id)y: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)icationsForLearnedLocationOfInterest:(id)arg1 startDate:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id)ÿÿ2;
+- (void)us, %@, locationOfInterest, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

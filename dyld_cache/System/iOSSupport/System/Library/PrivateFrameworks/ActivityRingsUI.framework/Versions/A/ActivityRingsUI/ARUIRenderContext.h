@@ -19,16 +19,16 @@
 - (CDStruct_14d5dc5e);
 - (id);
 - (float);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (float);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
 - (MISSING_TYPE *);
-- (_Bool)s count is <= 0 saving completion to call later;
 
 // Remaining properties
 @property(readonly, nonatomic) float drawableDiameter;

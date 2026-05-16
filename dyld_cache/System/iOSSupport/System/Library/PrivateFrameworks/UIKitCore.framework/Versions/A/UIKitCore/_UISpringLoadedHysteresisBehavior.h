@@ -19,23 +19,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)ptionStatusObservationToken;
+- (double);
 - (void);
 - (void);
-- (double)º;
-- (void)ùñÎ°1¢!0@ù
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id)1Â0@ù
 × ;
-- (_Bool)e:(id)arg1;
-- (void)Handler:(id)arg1;
-- (id)osition:withInfo: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)ÿÿ7;
-- (void)too large to fit in _viewFlags.preferredContentsFormat:%ld /* Error: Ran out of types for this method. */;
-- (double)dexPathsRequiringPreferredAttributes:cv == %p; recomputing preferred attributes for cell in prefetch cache:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (void)l_yp5valuetG;
-- (void)modified;
-- (void)ustsFontForContentSizeCategory=%@;
+- (id)ng;
+- (void)enuConfigurationForItemsAtIndexPaths:(id)arg1 point: /* Error: Ran out of types for this method. */;
+- (void)erredSize;
+- (void)ccessoryView:(id)arg1;
+- (double)Options;
+- (void);
+- (id)$ç^;
 
 // Remaining properties
 @property(nonatomic) double beginningVelocityThreshold; // @synthesize beginningVelocityThreshold=_beginningVelocityThreshold;

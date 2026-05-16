@@ -21,7 +21,7 @@
 - (long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ive;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowOverScroll; // @synthesize allowOverScroll=_allowOverScroll;

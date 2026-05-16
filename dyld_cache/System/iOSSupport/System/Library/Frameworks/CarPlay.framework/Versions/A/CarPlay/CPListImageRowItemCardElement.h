@@ -6,11 +6,12 @@
 
 #import <CarPlay/CPListImageRowItemElement.h>
 
-@class NSString, UIColor;
+@class CPThumbnailImage, NSString, UIColor;
 
 @interface CPListImageRowItemCardElement : CPListImageRowItemElement
 {
     _Bool _showsImageFullHeight;
+    CPThumbnailImage *_thumbnail;
     NSString *_title;
     NSString *_subtitle;
     UIColor *_tintColor;
@@ -18,23 +19,31 @@
 
 + (struct CGSize);
 + (id);
++ (id);
++ (struct CGSize);
 + (struct CGSize);
 + (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void)à;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool showsImageFullHeight; // @synthesize showsImageFullHeight=_showsImageFullHeight;
 @property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
+@property(retain, nonatomic) CPThumbnailImage *thumbnail; // @synthesize thumbnail=_thumbnail;
 @property(copy, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 

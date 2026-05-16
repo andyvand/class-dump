@@ -29,12 +29,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (void);
-+ (id)te account defaults:(id)arg1 %@;
++ (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (BOOL);
@@ -42,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (void)9;
+- (void);
 - (double);
 - (BOOL);
 - (struct CGPoint);
@@ -50,13 +50,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (id)Ô ;
-- (id)ÀDùÑÍð1¢!0@ù
+- (id);
+- (struct CGPoint)e°1Â0@ù
 × ;
-- (id)OutTabBar;
-- (struct CGPoint)is rescheduling autosaving:%@ /* Error: Ran out of types for this method. */;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)tion: /* Error: Ran out of types for this method. */;
+- (void)%t43Î;
+- (void)qÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTimestamp; // @synthesize currentTimestamp=_currentTimestamp;

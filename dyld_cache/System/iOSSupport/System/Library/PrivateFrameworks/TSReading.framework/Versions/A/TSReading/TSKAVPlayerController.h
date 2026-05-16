@@ -25,7 +25,7 @@
 }
 
 + (id);
-+ (id)@9*;
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -43,8 +43,8 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
-- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -54,32 +54,31 @@
 - (double);
 - (double);
 - (_Bool);
-- (void)$;
 - (void);
-- (void));
+- (void);
+- (void);
+- (double);
+- (void);
+- (double);
 - (double);
 - (long long);
-- (_Bool);
-- (void);
-- (void)z;
-- (void);
-- (void);
-- (id),;
-- (void);
-- (_Bool);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (float);
-- (void);
-- (double)
-× ;
-- (double)texAttributes:quadParticleCount:device: /* Error: Ran out of types for this method. */;
-- (double)DownTextures;
-- (void)R,N,VmDepth;
-- (void)øÃ;
-- (double)enciesNotification;
-- (_Bool)Q¸ë±?;
-- (void)PÔÿ;
+- (double);
+- (id);
+- (double);
+- (_Bool);
+- (_Bool)ew: /* Error: Ran out of types for this method. */;
+- (void)ldDismissAnnotations;
+- (_Bool)V_allowsLastLineTruncation;
+- (void);
+- (void)Z±;
+- (void)õ[o4;
 
 // Remaining properties
 @property(nonatomic) double absoluteCurrentTime; // @synthesize absoluteCurrentTime=_absoluteCurrentTime;

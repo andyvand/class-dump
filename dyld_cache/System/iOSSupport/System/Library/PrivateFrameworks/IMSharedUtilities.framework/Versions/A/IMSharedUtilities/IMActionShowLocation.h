@@ -16,16 +16,16 @@
 }
 
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (void)%f, for message guid:%s /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

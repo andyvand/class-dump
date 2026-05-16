@@ -19,8 +19,8 @@
 - (Class);
 - (id);
 - (_Bool);
-- (id)4@0:8@16 /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)leSecond: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) EKChangeTracker *originalChangeTracker; // @synthesize originalChangeTracker=_originalChangeTracker;

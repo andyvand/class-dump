@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (void)ue;
+- (void);
 
 @end
 

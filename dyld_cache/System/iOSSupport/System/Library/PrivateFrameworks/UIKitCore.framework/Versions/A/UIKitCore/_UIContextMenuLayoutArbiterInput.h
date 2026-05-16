@@ -44,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
@@ -53,15 +53,15 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (double);
 - (double);
-- (CDUnknownBlockType)ports: /* Error: Ran out of types for this method. */;
-- (double)tPostedNotificationsForMessagesMatchingChatGUIDs: /* Error: Ran out of types for this method. */;
-- (unsigned long long)essages. No more messages to write up. ***;
-- (CDStruct_17a0fc55)nique records;
-- (void);
-- (_Bool)or: /* Error: Ran out of types for this method. */;
-- (id)timeRegisteredImagesInMutableCatalog;
-- (void)NING:(id)arg1 This app's CFBundleDevelopmentRegion is not a string value. This can lead to unexpected results at runtime. Please change CFBundleDevelopmentRegion in your Info.plist to a string value.;
+- (CDUnknownBlockType);
+- (double);
+- (unsigned long long);
+- (CDStruct_17a0fc55);
 - (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;

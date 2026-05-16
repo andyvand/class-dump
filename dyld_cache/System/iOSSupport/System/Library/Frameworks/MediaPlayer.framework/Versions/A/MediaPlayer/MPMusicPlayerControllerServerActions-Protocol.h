@@ -5,8 +5,5 @@
 //
 
 @protocol MPMusicPlayerControllerServerActions
-- (void)sion;
-- (void);
-- (void);
 @end
 

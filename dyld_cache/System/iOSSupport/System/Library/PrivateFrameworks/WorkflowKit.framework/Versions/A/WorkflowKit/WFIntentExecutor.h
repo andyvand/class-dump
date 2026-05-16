@@ -56,20 +56,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id)qfÐ1B0@ù
-× ;
-- (void);
-- (void)lÿÿÿÿÿ¸;
-- (id)X;
-- (void)FDialogTransformer sequentialParameterInputProvider:didAdvanceToParameter:action:defaultState:prompt:linkDialog:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)s: /* Error: Ran out of types for this method. */;
+- (void)is.workflow.actions.properties.health.quantity;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

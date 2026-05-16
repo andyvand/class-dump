@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)me.OnboardingView.CameraRecording.SetUp.DetailsLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;

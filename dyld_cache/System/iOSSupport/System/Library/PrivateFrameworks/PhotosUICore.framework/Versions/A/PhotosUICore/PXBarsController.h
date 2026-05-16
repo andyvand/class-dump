@@ -57,26 +57,26 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (double);
+- (id);
+- (double);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (double);
+- (id)actionWrapper;
 - (id);
-- (id)4;
-- (id)ted;
-- (id)Yyðk;
-- (void)ó;
-- (id)r social group:(id)arg1 %s;
-- (id)entryPointBackgroundMode;
-- (void)»ÿ¢Lû	8;
-- (id)ÿx9 7;
+- (id)ÿp;
+- (void)wÊà¥ÿUwÊì¥ÿåvÊø¥ÿåvÊÔÿ-wÊü¥ÿewÊ¦ÿ5wÊ¦ÿ;
+- (id);
+- (id);
+- (void)ùO°6;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXActionPerformerDelegate> actionPerformerDelegate; // @synthesize actionPerformerDelegate=_actionPerformerDelegate;

@@ -40,17 +40,17 @@
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (_Bool)48B52d56@?64@?72@80;
-- (void)enceArray:(_Bool)arg1;
-- (id)eiveAddViewsSignalForSuggestions:(struct CGRect)arg1 currentMode:(unsigned long long)arg2 ];
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (void)Ð^;
-- (struct CGSize)P~ÚÿZs,¹Ù;
-- (void);;
-- (_Bool)äÿàí*;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void)ÉÿÿÿÿÿÀ;
+- (unsigned long long);
+- (void)g, skipping.;
+- (_Bool)ÝÙb°¹Ðÿ;
+- (struct CGSize)	;
 
 // Remaining properties
 @property(nonatomic) _Bool doubleBuffered; // @synthesize doubleBuffered=_doubleBuffered;

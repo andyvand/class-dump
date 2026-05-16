@@ -14,14 +14,14 @@
     struct CGSize _size;
 }
 
-+ (id);
-- (id);
-- (void);
-- (id);
-- (void);
++ (id);
 - (id);
 - (struct CGSize);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 

@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id)hCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)HMMutableCameraUserSettings;
+- (id)move nil home;
 
 // Remaining properties
 @property(readonly) NSString *containerID; // @synthesize containerID=_containerID;

@@ -26,25 +26,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)Sync:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIMenu *actionsMenu; // @synthesize actionsMenu=_actionsMenu;

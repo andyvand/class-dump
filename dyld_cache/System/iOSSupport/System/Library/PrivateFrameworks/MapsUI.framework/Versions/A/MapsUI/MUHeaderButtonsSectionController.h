@@ -50,12 +50,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
-- (_Bool)yleConfig;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)ctController;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

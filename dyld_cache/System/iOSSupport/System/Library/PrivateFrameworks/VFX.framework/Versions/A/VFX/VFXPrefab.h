@@ -12,19 +12,19 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ction>"16;
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ç:(id)arg1 ¾c*>r?^?¨:$¾ïÉc>:yu?Â[?9G¾?>Nx?ßY?}­ë½>n¦z?ú³W?»½ÒÇü=Þ|?_{V?>½úA½=U~?ÑV?ðû7½Ûz=)?ÔU?©0¶¼;ÿö<`Ë?U?$¹s08 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

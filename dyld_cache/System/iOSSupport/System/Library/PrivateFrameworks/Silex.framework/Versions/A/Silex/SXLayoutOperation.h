@@ -23,7 +23,7 @@
     double _startTime;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)R;;
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -39,22 +39,22 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (double);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
 - (double);
 - (_Bool);
-- (_Bool)dObjectFactory;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)esentationBlock;
+- (_Bool)NObject:andVersion: /* Error: Ran out of types for this method. */;
+- (void)ver>"8;
+- (_Bool)xMôÿªWy ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

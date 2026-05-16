@@ -16,24 +16,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)/;
-- (void)tialSync;
-- (void)oading;
-- (void)leRequestedTransfers;
++ (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void)MyLocateSession friendShipUpdateCallback. updateFriend:%@, updateType:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)nterrupted;
-- (void)1¢!0@ù
-× ;
-- (id)!yÐ!AùÑÎ°1¢!0@ù
-× ;
-- (id)Öþ;
-- (id)`wþ;
-- (id)âäÿ;
-- (_Bool)Èõk;
+- (void);
+- (_Bool);
+- (id)4Q*ÿ±È;
+- (id)ð_;
+- (id)`;
+- (void);
+- (id);
+- (id)üj;
 
 // Remaining properties
 @property(readonly) UIScreen *_intendedScreen;

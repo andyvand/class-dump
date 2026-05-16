@@ -8,7 +8,7 @@
 {
 }
 
-- (id)GSize=dd}24{CGPoint=dd}40;
+- (id);
 
 @end
 

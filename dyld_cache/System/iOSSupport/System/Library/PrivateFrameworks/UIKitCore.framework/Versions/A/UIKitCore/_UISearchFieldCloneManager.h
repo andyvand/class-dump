@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)s;
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id)TextColor;
+- (id);
+- (void)was saved, skipping save;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UISearchTextField *activeClone;

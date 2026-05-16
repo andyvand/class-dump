@@ -5,8 +5,6 @@
 //
 
 @protocol PKPaletteErasingTool
-- (_Bool)dylib;
-- (double)A%;
 
 // Remaining properties
 @property(nonatomic, getter=isBitmapEraser) _Bool bitmapEraser;

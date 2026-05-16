@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-@protocol CKPinnedConversationActivityItemView;
+@class NSString;
 
 @protocol CKPinnedConversationActivityItem
-- (NSString *)m;
-- (UIView<CKPinnedConversationActivityItemView> *);
-- (double)n;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;

@@ -8,7 +8,7 @@
 {
 }
 
-- (id)onRecordNextCheckDate;
+- (id);
 - (id);
 
 @end

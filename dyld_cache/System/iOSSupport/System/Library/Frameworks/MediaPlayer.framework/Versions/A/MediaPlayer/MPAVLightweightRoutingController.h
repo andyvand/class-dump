@@ -18,21 +18,21 @@
     id <MPAVLightweightRoutingControllerDelegate> _delegate;
 }
 
-- (id)8@16@24d32@40@48@56@64@72@80@88@96@104@112B120@124@132@140@148@156@164@172;
+- (id);
 - (_Bool);
-- (void)taType:requestOnly:extractBlock:setValueBlock: /* Error: Ran out of types for this method. */;
-- (void)D:(id)arg1 messagesChatGuid:participantHandles:memberHandles:experienceType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void){;
+- (void);
 - (id);
 - (id);
-- (id)"8@"NSError"16;
-- (id)ready open. Is there a response?'%@';
+- (id);
+- (id);
 - (void);
-- (long long)rSet>"8;
 - (void);
+- (void);
+- (void)illMoveToParentViewController: /* Error: Ran out of types for this method. */;
+- (long long)Ø;
 
 // Remaining properties
 @property(nonatomic) __weak id <MPAVLightweightRoutingControllerDelegate> delegate; // @synthesize delegate=_delegate;

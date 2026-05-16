@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)leItem;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *_cnui_IDSIDRepresentation;

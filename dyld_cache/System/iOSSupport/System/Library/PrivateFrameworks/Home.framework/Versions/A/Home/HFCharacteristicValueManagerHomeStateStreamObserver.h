@@ -16,9 +16,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)buildItemProviders, but does not;
 
 @end
 

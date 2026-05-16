@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (void);
-- (struct ct_green_tea_logger_s *)rovider;
+- (struct ct_green_tea_logger_s *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct ct_green_tea_logger_s *logger; // @synthesize logger=_logger;

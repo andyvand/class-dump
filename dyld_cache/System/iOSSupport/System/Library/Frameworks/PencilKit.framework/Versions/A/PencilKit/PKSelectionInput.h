@@ -11,12 +11,13 @@
     struct CGPoint _location;
 }
 
-+ (id)/;
++ (id);
 - (long long);
-- (long long);
+- (long long);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)!°CùQ'ð1Â0@ù
+× ;
 - (void);
 
 // Remaining properties

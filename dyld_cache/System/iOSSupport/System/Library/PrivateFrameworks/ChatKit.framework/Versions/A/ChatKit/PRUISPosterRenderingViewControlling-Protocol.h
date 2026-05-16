@@ -7,13 +7,9 @@
 @class PRPosterContentOcclusionRectSet, UIColor;
 
 @protocol PRUISPosterRenderingViewControlling
-- (void);
-- (void)®í;
-- (void)Ô;
-- (void)ClickableAttributedString;
-- (UIColor *)ic_withHashtagPrefix;
-- (UIColor *)ewrapWithMainKey:] /* Error: Ran out of types for this method. */;
-- (PRPosterContentOcclusionRectSet *)er;
+- (void)Ð1Â0@ù
+× ;
+- (struct CGRect)ViewControllers;
 
 // Remaining properties
 @property(retain, nonatomic) PRPosterContentOcclusionRectSet *contentOcclusionRectangles;

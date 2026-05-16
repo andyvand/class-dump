@@ -29,10 +29,10 @@
 - (double);
 - (_Bool);
 - (id);
-- (double)Rߜ;
-- (double);
-- (void);
-- (id)ÿÚ*y¤;
+- (double);
+- (double);
+- (id);
+- (void)Ä7ô\;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool accepted; // @synthesize accepted=_accepted;

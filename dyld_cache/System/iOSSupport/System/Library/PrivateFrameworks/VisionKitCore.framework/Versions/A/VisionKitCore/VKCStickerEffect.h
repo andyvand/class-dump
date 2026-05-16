@@ -83,14 +83,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (struct CGPoint);
 - (id);
 - (unsigned long long);
+- (id);
 - (void);
+- (void);
+- (struct CGPoint)Mask;
+- (double)KCVisualSearchResult;
+- (void)ULL.;
 
 // Remaining properties
 @property(nonatomic) _Bool applyBrushBeforeStroke; // @synthesize applyBrushBeforeStroke=_applyBrushBeforeStroke;

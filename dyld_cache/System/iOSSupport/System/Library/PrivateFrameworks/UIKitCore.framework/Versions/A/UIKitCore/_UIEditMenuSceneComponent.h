@@ -13,17 +13,19 @@ __attribute__((visibility("hidden")))
     _UIEditMenuPresentation *_activePresentation;
 }
 
-+ (id);
-- (void);
-- (void)BN;
-- (id);
-- (_Bool);
-- (void);
-- (void)
++ (id)@ù
 × ;
-- (void)[;
-- (id)ÂH\;
-- (id)]O;
+- (_Bool);
+- (void)0@ù
+× ;
+- (void)redKeyList;
+- (void)quidLensViewSmallVariantSpec",N,&,Vsmall;
+- (id)èæçè¬è	pé
+Lêàêë;
+- (id);
+- (void)!ÇÜl>\;
+- (id)ü_;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

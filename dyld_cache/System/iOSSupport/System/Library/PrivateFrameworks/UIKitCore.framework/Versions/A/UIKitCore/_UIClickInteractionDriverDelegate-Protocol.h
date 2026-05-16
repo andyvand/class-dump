@@ -5,12 +5,9 @@
 //
 
 @protocol _UIClickInteractionDriverDelegate
-- (void)nchor;
-- (void)IActivityItemSource;
 
 @optional
-- (_Bool)XFR¬;
-- (void)largeTitleHeight;
-- (_Bool)ÿ3ìZÿmRÿ3|ûdþmRÿ3 /|þuRÿ3À±þ;
+- (_Bool);
+- (void)atteryLevelDidChangeMessage;
 @end
 

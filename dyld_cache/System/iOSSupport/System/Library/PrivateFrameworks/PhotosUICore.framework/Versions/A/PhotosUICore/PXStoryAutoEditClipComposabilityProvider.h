@@ -30,10 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)!Dù|Ð1b0@ù
-× ;
-- (long long);
+- (long long)ession¡%;
+- (id)÷x;
+- (void)xOÿlúPñ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;

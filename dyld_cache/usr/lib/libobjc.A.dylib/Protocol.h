@@ -10,12 +10,12 @@
 {
 }
 
-- (struct objc_method_description *)MTL4DebugCommandBuffer popDebugGroup];
+- (const char *);
 - (unsigned long long);
 - (_Bool);
 - (struct objc_method_description *);
-- (const char *);
-- (_Bool)m_demangle8QualTypeE;
+- (_Bool);
+- (struct objc_method_description *);
 
 @end
 

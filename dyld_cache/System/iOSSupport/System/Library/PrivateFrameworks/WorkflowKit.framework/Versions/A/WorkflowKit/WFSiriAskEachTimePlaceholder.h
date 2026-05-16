@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool)ed draft in Drafts.;
++ (_Bool);
+- (id);
 - (void);
-- (id);
 
 @end
 

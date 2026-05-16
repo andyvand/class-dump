@@ -17,14 +17,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;

@@ -5,6 +5,6 @@
 //
 
 @protocol WebDocumentText
-- (void);
+- (void);
 @end
 

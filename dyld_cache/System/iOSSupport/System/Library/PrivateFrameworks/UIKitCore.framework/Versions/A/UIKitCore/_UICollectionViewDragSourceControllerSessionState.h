@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
     id <UIDragSession> _dragSession;
 }
 
-- (_Bool);
+- (id);
+- (_Bool)
+× ;
+- (void)entTransition. Captured debug information outside block:(id)arg1 %@;
+- (id)oudSharingController>"8@?<v@?@"CKShare"@"CKContainer"@"NSError">16;
 - (void);
-- (void)%º;
-- (id)ected;
-- (id)ate;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIDragSession> dragSession; // @synthesize dragSession=_dragSession;

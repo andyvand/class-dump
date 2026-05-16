@@ -20,14 +20,14 @@
 - (id);
 - (long long);
 - (void);
-- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id)$y;
-- (id)ionEnabledWhenNotVisible,V__pencilInteractionEnabledWhenNotVisible;
-- (void);
 - (unsigned long long);
+- (void);
+- (void)ÿ;
+- (unsigned long long)4;
 
 // Remaining properties
 @property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;

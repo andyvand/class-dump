@@ -35,10 +35,10 @@
 - (void);
 - (void);
 - (void);
-- (void)d;
 - (void);
 - (void);
 - (id);
+- (void)ac-TapToRadarIcon;
 
 @end
 

@@ -5,9 +5,5 @@
 //
 
 @protocol MPCProcessAudioTapDelegate
-- (void)ionsForDataclasses:(void *)arg1;
-
-@optional
-- (void);
 @end
 

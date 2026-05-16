@@ -8,6 +8,7 @@
 
 @interface CallsAppUI.FavoriteSectionController
 {
+    MISSING_TYPE *hasFinishedFirstLoad;
     MISSING_TYPE *parent;
     MISSING_TYPE *items;
     MISSING_TYPE *isEditingFavorites;
@@ -15,8 +16,9 @@
     MISSING_TYPE *editActions;
     MISSING_TYPE *dataSource;
     MISSING_TYPE *detailsPresenter;
-    MISSING_TYPE *contactActionsController;
+    MISSING_TYPE *favoriteContextMenu;
     MISSING_TYPE *cancellables;
+    MISSING_TYPE *showAllCell;
     MISSING_TYPE *_showAll;
     MISSING_TYPE *expandAnimationPerformed;
     MISSING_TYPE *cellConfig;

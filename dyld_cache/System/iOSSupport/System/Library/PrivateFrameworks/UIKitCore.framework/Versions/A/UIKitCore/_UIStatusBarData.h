@@ -49,106 +49,107 @@
 }
 
 + (id);
-+ (id);
-+ (_Bool);
-- (id);
-- (void)#;
-- (id);
-- (id)�#у5;
-- (id);
-- (void);
-- (void));
-- (id)`;
++ (id)onTime;
++ (_Bool)ehavior;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)too long (more than 1 second);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)yPlaybackPositionBookmarkTime;
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)â|¬;
-- (id)¸	ë;
-- (id)øBò;
-- (id)åº;
-- (id);
-- (id);
-- (void);
-- (void)¡sð! CùÇ1¢!0@ù
-× ;
-- (id)1¢!0@ù
+- (id)ñ[ð1Â0@ù
 × ;
 - (id);
+- (void)@ù
+× ;
+- (void)!TGùbÐ1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (void);
+- (void)
+°!°GùgÐ1Â0@ù
+× ;
+- (id)
+× ;
+- (void)ù
+× ;
+- (void)terfaceIdiom"q"displayScale"d"displayGamut"q"touchLevel"q"interactionModel"Q"primaryInteractionModel"Q"artworkSubtype"q"horizontalSizeClass"q"verticalSizeClass"q"userInterfaceStyle"q"layoutDirection"q"forceTouchCapability"q"preferredContentSizeCategory"q"displayCornerRadius"d"legibilityWeight"q"semanticContext"q"presentationSemanticContext"q"splitViewControllerContext"q"accessibilityContrast"q"userInterfaceLevel"q"vibrancy"q"userInterfaceRenderingMode"q"activeAppearance"q"focusSystemState"q"selectionIsKey"q"toolbarItemPresentationSize"q};
+- (_Bool)wControllerConfiguration";
+- (void)arToggleGenerator;
+- (id)ntalScrollingToParent: /* Error: Ran out of types for this method. */;
+- (void)entPoint:(id)arg1;
+- (id)cusEnvironmentOverride;
+- (void)dexBarInsets;
+- (id)tions:completion: /* Error: Ran out of types for this method. */;
+- (void)entifiers;
+- (id)ayModeIfNecessaryForChangeFromOldWidth:toNewWidth: /* Error: Ran out of types for this method. */;
+- (id)_setUpInitialValues;
+- (id)wingMacOverlay;
+- (id)Size: /* Error: Ran out of types for this method. */;
+- (id)veTest:willMoveFocusAlongHeading:forMove:duringIteration: /* Error: Ran out of types for this method. */;
+- (void)abelFrame;
+- (id)_allowedDirections;
+- (id)N,S_setGrabberSpacing:(id)arg1 ,V__grabberSpacing;
+- (void),&,N,V_clonedCellAttributes;
+- (id)orDetectMode;
+- (id)dIDs;
+- (id)nce;
+- (id)because we're in live resize.;
+- (_Bool)ntraints to NO for the view of a view controller that is pushed on a UINavigationController is not supported and at high risk of a layout feedback loop when built on iOS 13.0 or later. Problem occurs for %@;
+- (id)emoji search - override insertion %lu, deletion %lu, net %ld;
+- (id)ng object as a delegate. This will be a hard crash in the future. Offending object:%@ hostObject:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)esponseNotification;
+- (id)ineTransform=dddddd}24@?0q8q16;
+- (id)tLoopingKey;
+- (id)TraitCollection"8;
+- (void);
+- (void)áz®GáZ@;
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)Ð1¢!0@ù
-× ;
-- (id)ù1Îð1¢!0@ù
-× ;
-- (id)Ð!@ùQÎ°1¢!0@ù
-× ;
-- (void)faceActionVisualBackgroundDisplaying>";
-- (void)ion;
-- (void)uBackgroundEffect:(id)arg1;
-- (void)etion:(id)arg1;
-- (id)edSectionTitle;
-- (void)ct;
-- (void)ration;
-- (id)MPM;
-- (void)hanged:(id)arg1;
-- (void)FailToContinueUserActivityWithType:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)nerView;
-- (void)_sheetDropInteraction:(id)arg1 presentingViewControllerForDroppingUserActivityOfType: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)el;
-- (void)umPrimaryColumnWidthForSize:(id)arg1;
-- (id)iscreteInteraction;
-- (id)eaderFooterBehavior;
-- (id)ovider;
-- (id)r:,V__pinchGestureRecognizer /* Error: Ran out of types for this method. */;
-- (void)rNotificationSettings;
 - (id);
-- (void),V_delegate;
-- (id)0;
-- (id)'l(*;
-- (id)·Ü·D¸¹¹Ä¹;
-- (id)¤;
-- (_Bool)lëØìØî\ï;
-- (void)ÃÄ$É;
-- (void)nown character (%C) in a date format. dateFormat:(id)arg1 %@; calendar:%@; locale:%@ /* Error: Ran out of types for this method. */;
-- (id)file presenter if necessary on main thread:%@ /* Error: Ran out of types for this method. */;
-- (void)enNativeDisplayBoundsSizeForType(_UIScreenType);
-- (id)filterMaskImage:%@
- /* Error: Ran out of types for this method. */;
-- (id)IAnimation"8Q16^B24;
-- (void)ceneHostingController37UIKeyboardCandidateSceneSpecification;
-- (void)rance;
-- (void);
-- (void);
+- (id);
+- (void)p=;
 
 // Remaining properties
 @property(copy, nonatomic) _UIStatusBarDataActivityEntry *activityEntry; // @synthesize activityEntry=_activityEntry;

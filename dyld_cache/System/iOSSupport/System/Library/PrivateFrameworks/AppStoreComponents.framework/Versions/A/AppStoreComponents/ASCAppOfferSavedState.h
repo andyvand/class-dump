@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void);
+- (_Bool);
+- (id);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long flags; // @synthesize flags=_flags;

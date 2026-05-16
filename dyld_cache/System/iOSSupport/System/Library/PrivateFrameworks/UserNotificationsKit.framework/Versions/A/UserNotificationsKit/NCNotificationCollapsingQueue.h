@@ -30,10 +30,10 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long collapsingThreshold; // @synthesize collapsingThreshold=_collapsingThreshold;

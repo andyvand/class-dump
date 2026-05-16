@@ -6,7 +6,7 @@
 
 @interface (null) (WBSNSLayoutConstraintExtras)
 + (id);
-+ (id);
-+ (id)O;
++ (id);
++ (id);
 @end
 

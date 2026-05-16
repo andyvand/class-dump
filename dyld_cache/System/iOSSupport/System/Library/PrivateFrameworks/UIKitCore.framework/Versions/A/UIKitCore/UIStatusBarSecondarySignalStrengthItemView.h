@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)IMDRelayEnrollmentControllerServiceDelegate>",R,N,V_serviceDelegate;
+- (double);
 
 @end
 

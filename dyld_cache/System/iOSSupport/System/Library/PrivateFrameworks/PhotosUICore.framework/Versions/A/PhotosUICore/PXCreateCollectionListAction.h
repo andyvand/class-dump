@@ -32,8 +32,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 

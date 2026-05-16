@@ -5,6 +5,6 @@
 //
 
 @protocol TSWPReplaceAction
-- (unsigned long long);
+- (long long)e playing when it is told to teardown;
 @end
 

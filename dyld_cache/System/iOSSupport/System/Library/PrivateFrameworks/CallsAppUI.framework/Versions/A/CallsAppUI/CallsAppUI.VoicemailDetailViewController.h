@@ -29,14 +29,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)çªèÒèG_AByhªêcèGAAyAE_?ªèyAAyAC_kêyAAyAIyAAyAByé©êyABy¸©êyª¥èu©èG?ÿÿGGÿÿG_)¥êyAT_SSAAyAKyAMG_AUtGQo_SgtGG_wªèyAYGtGGACtGGtGSgtG;
+- (void);
+- (void);
+- (void);
 
 @end
 

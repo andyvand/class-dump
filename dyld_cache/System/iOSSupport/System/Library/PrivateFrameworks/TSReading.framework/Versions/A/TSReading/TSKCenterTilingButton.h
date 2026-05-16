@@ -46,14 +46,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 
 @end
 

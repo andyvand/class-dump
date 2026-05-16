@@ -5,8 +5,5 @@
 //
 
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)lectionView"16@"UICollectionViewFocusUpdateContext"24;
 @end
 

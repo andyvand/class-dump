@@ -21,19 +21,18 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_rightWidthConstraint;
 }
 
-- (void)ry>"32@0:(id)arg1 8@"OS_dispatch_data"16^@24;
 - (void);
-- (void)!XFù±ÁÐ1¢!0@ù
-× ;
-- (id);
-- (_Bool)PressAndHoldPopoverController",R,N,V_pressAndHoldPopoverController;
-- (void)üBêþ;
-- (id)ÿþËh;
-- (void)e¡ÿÔ¸;
-- (void)þ¸pÑ8=l;
-- (void)Yjl;
-- (void)m;
-- (void)ÿúµËõhm;
+- (id)hççÿççÿÈççÿøççÿ èçÿhèçÿèçÿÈèçÿøèçÿ éçÿhéçÿéçÿÈéçÿøéçÿ êçÿhêçÿêçÿÈêçÿøêçÿ ëçÿhëçÿëçÿ¸ëçÿìëçÿ°ìçÿäìçÿíçÿDíçÿpíçÿ¤íçÿhîçÿîçÿÀîçÿôîçÿ ïçÿDïçÿïçÿ°ïçÿàïçÿ ðçÿhðçÿðçÿÀðçÿ;
+- (void)wportLayoutController"8{CGRect={CGPoint=dd}{CGSize=dd}}16@"NSTextRange"48;
+- (void)ntextMenuSubmenuTitleHeader;
+- (void)sProvidingP;
+- (void)!13;
+- (id)Åó;
+- (void)Ýãb;
+- (void)Áð;
+- (void);
+- (void)t7­ÿkÄÏ4·f;
+- (_Bool)8Zãÿ´°¯;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *filterType; // @synthesize filterType=_currentFilterType;

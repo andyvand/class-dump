@@ -12,9 +12,9 @@
     long long _childCount;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

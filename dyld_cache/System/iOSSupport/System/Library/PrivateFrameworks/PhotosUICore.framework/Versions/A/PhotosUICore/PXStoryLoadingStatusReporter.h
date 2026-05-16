@@ -30,11 +30,11 @@
 - (CDStruct_a06f635e *);
 - (unsigned char);
 - (void);
-- (void);
-- (void);
+- (id);
+- (void)edOnSelectedSegment;
 - (id);
 - (void);
-- (id)didFailToAddImportSource:exceptions: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;

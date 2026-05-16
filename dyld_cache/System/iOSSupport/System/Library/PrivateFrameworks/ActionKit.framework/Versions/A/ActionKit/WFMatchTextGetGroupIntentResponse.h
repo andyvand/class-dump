@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (long long)Unable to allocate memory for FXP_RMDIR packet;
-- (void)lpaperLocation);
+- (long long);
+- (void)ccessResourceUserInterface;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

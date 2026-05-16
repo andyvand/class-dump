@@ -21,17 +21,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id)@"NSArray"24;
-- (struct _NSRange)ckDummyView;
-- (long long);
-- (void)",C,N,V_cloudArtistID;
+- (id);
 - (void);
-- (id)ÑË°1¢!0@ù
+- (struct _NSRange);
+- (void);
+- (id);
+- (void)0@ù
 × ;
-- (CDUnknownBlockType)dler: /* Error: Ran out of types for this method. */;
-- (void)EqualToSystemSpacingBelowAnchor:(long long)arg1;
-- (void)ntationController;
-- (void)complete already running transition on %@.;
+- (long long)ace: /* Error: Ran out of types for this method. */;
+- (void)tScreenScaleForView(UIView *__strong);
+- (CDUnknownBlockType)tViewControllerAdaptiveImpl _dismantleViewControllerInColumn:layout:] /* Error: Ran out of types for this method. */;
+- (void)ÅüÛLI\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *allowedActionSourceTypes; // @synthesize allowedActionSourceTypes=_allowedActionSourceTypes;

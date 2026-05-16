@@ -13,22 +13,24 @@
     id <UILargeContentViewerInteractionDelegate> _delegate;
 }
 
-+ (void)èhÈóp;
-+ (_Bool)EQ;
++ (_Bool)1Â0@ù
+× ;
++ (void);
 - (void);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)¡rÐ!lGù1Æ°1¢!0@ù
+- (id)!@ù1[°1Â0@ù
 × ;
 - (id);
-- (id)or;
-- (void)ÜÝHÞ°Þ;
-- (void)1 ;
-- (_Bool)sDispatcher] Glomoji Tap. old:(id)arg1 %@, new:(id)arg2 %@;
-- (id)ontroller of %@, expected %@;
-- (id)haviorWhenContinued;
+- (id)@ù
+× ;
+- (id)yView: /* Error: Ran out of types for this method. */;
+- (id)bModel;
+- (id)eyboardSplitControlMenu_Floating;
+- (id)8D101770CCFE86694726ManagerDriverShimPresenter;
+- (void)ze;
+- (void)ifying a tab bar managed by a tab bar controller is not allowed.;
+- (void)dy¿ÿÖ}e;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

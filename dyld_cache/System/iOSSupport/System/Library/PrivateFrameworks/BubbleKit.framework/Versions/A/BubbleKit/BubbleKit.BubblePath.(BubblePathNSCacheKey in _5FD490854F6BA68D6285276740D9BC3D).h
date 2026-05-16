@@ -12,9 +12,9 @@
     MISSING_TYPE *frame;
 }
 
+- (id);
 - (long long);
 - (_Bool);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

@@ -13,8 +13,8 @@
     MISSING_TYPE *metricsBuilder;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

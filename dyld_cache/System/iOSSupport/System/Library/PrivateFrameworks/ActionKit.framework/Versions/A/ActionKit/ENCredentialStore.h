@@ -16,12 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)de;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *store; // @synthesize store=_store;

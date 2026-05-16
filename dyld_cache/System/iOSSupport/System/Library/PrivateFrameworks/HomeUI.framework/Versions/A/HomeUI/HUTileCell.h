@@ -74,17 +74,19 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (double);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)1â
+0@ù
+× ;
+- (void)%s - %s:hf_hasWalletKey %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) UICellConfigurationState *_bridgedConfigurationState;

@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (struct os_unfair_lock_s);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isHandlingRequest) _Bool handlingRequest; // @synthesize handlingRequest=_handlingRequest;

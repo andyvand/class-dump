@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _UIButtonBarGroupOrderOwner
+- (NSArray *)ð!FùQdÐ1Â0@ù
+× ;
 @end
 

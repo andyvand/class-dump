@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     _EditScriptIndexedAtom *_currentScriptAtom;
 }
 
-+ (id)the default 10 seconds;
-+ (id)or report-junk-mmcs-upload-timeout, using the default 10 seconds;
-- (void)0:8@"TUConversationManager"16@"TUConversation"24@"TUConversationActivitySession"32 /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
+- (void);
 - (id);
-- (void)omID:acknowledgementBlock:context: /* Error: Ran out of types for this method. */;
-- (id)yAuthorizationForBundleIdentifier:(id)arg1;
-- (void)nAccountUpdateIfAppropriate;
-- (void)*º;
+- (void);
+- (id);
+- (void);
+- (void)ãEÓâ_;
 
 @end
 

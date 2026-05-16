@@ -19,15 +19,15 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)Constraint;
-- (void)ìtëyvæGGWçGG;
+- (void),;
 
 // Remaining properties
 @property(nonatomic, retain) WFDatabase *database; // @synthesize database;

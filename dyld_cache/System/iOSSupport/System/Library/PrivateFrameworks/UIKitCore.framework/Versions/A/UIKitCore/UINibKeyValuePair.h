@@ -16,13 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (void)ationDeclaration;
-- (id)�	;
-- (void)!ÔFùÑÀÐ1¢!0@ù
-× ;
-- (id)g *getIAChannelFeedbackService(void);
-- (void)@"TIKeyboardOutput"8@"TIKeyboardConfiguration"16;
 - (id);
+- (id);
+- (void)aterial;
+- (id)|°;
+- (void)owColor;
+- (void)zâÿ±vÝèÔd;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath;

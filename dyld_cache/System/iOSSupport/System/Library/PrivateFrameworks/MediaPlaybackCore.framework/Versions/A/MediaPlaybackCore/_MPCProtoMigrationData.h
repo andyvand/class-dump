@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     _MPCProtoMigrationDataTimeSync *_timeSync;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)lic}@:%{public}@] _addAutoPlayPlaybackContext:| rolling back edit [autoPlayIdentifierList changed before dataSource finished loading] dataSource=%p section=%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

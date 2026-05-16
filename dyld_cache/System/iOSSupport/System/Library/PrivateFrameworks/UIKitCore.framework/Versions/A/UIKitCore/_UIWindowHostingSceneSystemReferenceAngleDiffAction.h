@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (void)`	;
+- (void)restedGestureRecognizersForTouchInView:(id)arg1;
+- (void)²Âþÿ°Âþÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

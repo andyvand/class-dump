@@ -25,11 +25,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (_Bool);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)p: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *filePaths;

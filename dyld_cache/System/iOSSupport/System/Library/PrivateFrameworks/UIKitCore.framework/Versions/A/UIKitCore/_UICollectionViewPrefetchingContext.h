@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     struct CGRect _prefetchRect;
 }
 
-- (id)Identifier:withName: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
-- (id):fromData:error: /* Error: Ran out of types for this method. */;
-- (struct CGRect);
-- (void)¤Ôº;
-- (void)e=dd}}164;
-- (void)w:(id)arg1 delegate: /* Error: Ran out of types for this method. */;
-- (id)yIndexPaths;
+- (void);
 - (id);
-- (id)a;
-- (void)2íÇWd;
+- (id)geItemsTo:removingItems:selectedItem:animate: /* Error: Ran out of types for this method. */;
+- (id)son;
+- (_Bool):,V_dictationReplacementAction /* Error: Ran out of types for this method. */;
+- (id)ðxð;
+- (id)Jþÿ;
+- (struct CGRect)ould not decode SceneSession for identifier %@, skipping;
+- (void)rimaryLanguage;
+- (void);
+- (void)hó];
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;

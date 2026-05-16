@@ -26,12 +26,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (id);
+- (void)vigationBarButton"8@"HUNavigationBarButton"16;
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;

@@ -7,11 +7,6 @@
 @class CKConversationListCellLayout;
 
 @protocol CKConversationListCell
-+ (double);
-- (void);
-- (void)uô;
-- (void)earchResults;
-- (CKConversationListCellLayout *)v;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversationListCellLayout *cellLayout;

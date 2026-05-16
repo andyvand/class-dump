@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)Inserted elements contain an element with invalid properties;
+- (id)s;
+- (void)>ßÎÌol;
 
 @end
 

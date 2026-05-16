@@ -17,36 +17,37 @@
     double _mainWidth;
 }
 
-- (void)�;
+- (double);
+- (void);
+- (void);
+- (void);
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
 - (unsigned long long);
 - (double);
-- (_Bool);
-- (void);
-- (id)�
-;
-- (double)#;
-- (void);
-- (_Bool);
-- (void);
-- (void)1¢!0@ù
+- (double)0@ù
 × ;
-- (double)1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (void)lidatedCommandMenuForMenu:(double)arg1 context:validator: /* Error: Ran out of types for this method. */;
-- (double)yle: /* Error: Ran out of types for this method. */;
-- (double)_debugger;
-- (id)containsEnd;
-- (id)atchesCurrentCounts;
-- (id)YäYÈZ;
-- (id)!;
-- (id)@; Layout attributes:(id)arg1 %@; Focused view:%@; Collection view:%@; Data source counts:%@ /* Error: Ran out of types for this method. */;
-- (void)leContent;
-- (double)hTransparencyAllowed;
+- (double)!FùÑZÐ1Â0@ù
+× ;
+- (void);
+- (void)1Â0@ù
+× ;
+- (void)setTabsBecomingHidden:(double)arg1;
+- (_Bool)rredDefaultSceneSessionRole;
+- (id)idReplaceWithCandidate:(id)arg1;
+- (double)ngDefaultDampedSpringWithDelay:initialSpringVelocity:options:animations:completion: /* Error: Ran out of types for this method. */;
+- (id)iftLockTouchIDs;
+- (void);
+- (void)right bounds;
 - (double);
-- (id)[;
-- (id)[;
-- (void)_;
-- (double)Ûjf;
-- (void)ug;
+- (id)¹W;
+- (_Bool)nþOLÝ;
+- (void)ÕØ×h;
 
 // Remaining properties
 @property(nonatomic) double leadingOffscreenWidth; // @synthesize leadingOffscreenWidth=_leadingOffscreenWidth;

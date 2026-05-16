@@ -31,8 +31,8 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
 - (id);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

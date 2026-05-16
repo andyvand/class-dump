@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)roller: /* Error: Ran out of types for this method. */;
+- (id)UndimmedDetentIdentifierWhenFloating;
+- (void)CompactableSet;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allSettings;

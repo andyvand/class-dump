@@ -15,13 +15,13 @@
     MISSING_TYPE *$__lazy_storage_$_sendButton;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)tRangesExcludedOfParagraphSpacing: /* Error: Ran out of types for this method. */;
+- (void)nteractor;
+- (void);
+- (void);
 
 @end
 

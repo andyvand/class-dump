@@ -27,10 +27,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 
 @end
 

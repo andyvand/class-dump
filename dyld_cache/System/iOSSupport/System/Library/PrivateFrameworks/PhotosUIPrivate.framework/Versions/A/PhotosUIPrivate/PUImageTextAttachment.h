@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (struct CGRect);
 - (id);
 - (struct CGSize);
 - (id);
+- (void)tID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

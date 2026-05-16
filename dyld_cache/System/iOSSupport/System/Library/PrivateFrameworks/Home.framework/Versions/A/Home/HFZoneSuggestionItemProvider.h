@@ -21,13 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)atusDescription_AllOff;
+- (void)AtKeyPath:(CDUnknownBlockType)arg1;
+- (void)$;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

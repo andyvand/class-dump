@@ -22,7 +22,7 @@
 - (id);
 - (CDStruct_2bd92d94);
 - (CDStruct_fe8c0406);
-- (void)9Àh9LxD;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *focusedClipIdentifiers; // @synthesize focusedClipIdentifiers=_focusedClipIdentifiers;

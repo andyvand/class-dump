@@ -20,21 +20,21 @@ __attribute__((visibility("hidden")))
     UIScene *_scene;
 }
 
-- (void)sFromDefaultPairedDevice;
-- (void)storageContext:(_Bool)arg1;
-- (void)ier:(_Bool)arg1 fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
-- (void)opyNextBatchWithSize:(id)arg1 iterationContext: /* Error: Ran out of types for this method. */;
-- (void)atabaseFullAlert;
 - (void);
-- (void)P;
-- (void)stDateFavorited;
 - (void);
-- (id);
-- (id)acterRange: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 withPath: /* Error: Ran out of types for this method. */;
-- (void)4ìþiþ½Ó4èþiþ;
-- (id)5ë[;
-- (id)#,Ú;ú[;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)letion: /* Error: Ran out of types for this method. */;
+- (void)atePagingGestures;
+- (void)râíÿðþÿ;
+- (id)b¼;
+- (void)6sÑXk[;
+- (id)ÏÁ×Ôý^;
+- (void)ta_;
+- (id)Aÿò"Ø¦a;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

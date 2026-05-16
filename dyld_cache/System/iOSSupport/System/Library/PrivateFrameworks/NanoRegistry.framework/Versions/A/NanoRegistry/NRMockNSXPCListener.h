@@ -18,12 +18,12 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)end: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,17 +16,17 @@
     id <CKBalloonTextViewInteractionDelegate> _interactionDelegate;
 }
 
-- (struct CGSize)FolderIdentifiers:(struct CGSize)arg1;
-- (_Bool)s;
+- (struct CGSize);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void)ect;
+- (void);
 - (_Bool);
+- (id);
 - (void);
-- (void);
-- (id)ntBottomSeperator: /* Error: Ran out of types for this method. */;
-- (_Bool)¯Pÿx¡3å-;
+- (void)èX;
+- (_Bool)32e0;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

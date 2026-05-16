@@ -33,21 +33,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)52;
-- (id)8B16@20@28B36@40;
-- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
-- (struct CGSize);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id):count: /* Error: Ran out of types for this method. */;
-- (id)recorded delivery %@
-%@;
-- (id)ÿÿ<ÿÿÿÿÄ¢ÿÿh§ÿÿÈ§ÿÿ,©ÿÿØªÿÿP¼ÿÿl¼ÿÿÁÿÿ,ÇÿÿÈÿÿÀÈÿÿðÈÿÿÍÿÿÎÿÿðÎÿÿØÏÿÿÄÖÿÿ$×ÿÿÚÿÿ(ÜÿÿDÜÿÿØßÿÿ;
+- (void)!ð!@AùQa°1Â0@ù
+× ;
+- (struct CGSize)Ð!Dùdð1Â0@ù
+× ;
+- (id),V_reusePreventedCells;
+- (id)wcase / QuickLook);
+- (void)pô\;
+- (id)s;
+- (id)ç;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;

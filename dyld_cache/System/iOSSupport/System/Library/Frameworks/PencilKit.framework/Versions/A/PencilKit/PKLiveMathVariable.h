@@ -23,17 +23,17 @@
     struct CGRect _calculatedFitBoundsForExtraLeadingSlack;
 }
 
-- (id)ppVersion;
-- (id)ers;
-- (void)task identifier for request %{public}@;
-- (void)metrics:(id)arg1 %{public}@;
-- (void)ground refresh rate:(id)arg1 %lu modMax:%lu modThreshold:%lu /* Error: Ran out of types for this method. */;
-- (void)g with foreground refresh rate:(id)arg1 %lu background refresh rate:%lu modMax:%lu modThreshold:%lu /* Error: Ran out of types for this method. */;
-- (void)not call method;
-- (void)pple.com/v1/configs;
-- (void)figs;
-- (id).2f};
-- (id)ion"8;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
@@ -43,8 +43,8 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Dñ¼ñ$òÀò'Ôó`ø14ü+lýÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect calculatedFitBounds; // @synthesize calculatedFitBounds=_calculatedFitBounds;

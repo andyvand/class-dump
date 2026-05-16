@@ -22,26 +22,26 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (long long);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)ontact for handle %@.;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

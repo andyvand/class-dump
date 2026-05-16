@@ -5,6 +5,5 @@
 //
 
 @protocol _UIBarButtonItemViewOwnerInternal
-- (struct CGRect);
 @end
 

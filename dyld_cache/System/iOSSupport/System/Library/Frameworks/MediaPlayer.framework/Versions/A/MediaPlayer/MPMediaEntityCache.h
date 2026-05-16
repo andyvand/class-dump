@@ -24,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)tBackingEvents:(Class)arg1;
-- (id)Handles;
-- (void *)x:(Class)arg1;
-- (void)ore;
-- (id);
 - (void);
+- (id);
+- (void *);
+- (void);
+- (id);
+- (void)onIdentifierOverride;
 
 @end
 

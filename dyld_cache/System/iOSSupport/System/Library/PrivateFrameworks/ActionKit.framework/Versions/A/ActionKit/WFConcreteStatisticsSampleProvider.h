@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)2_1.11.0;
+- (id);
+- (void)cel;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canProvideDataSamples; // @dynamic canProvideDataSamples;

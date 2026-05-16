@@ -18,7 +18,7 @@
     WFContentCollection *_cachedSourceContentCollection;
 }
 
-+ (_Bool)Get Contents of Draft (Action Name);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -30,11 +30,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)ðAÓ;
 - (id);
 - (void);
+- (void)the selected location doesn't exist.;
+- (id)sage (Action Name);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) WFDialogButton *allowAlwaysButton; // @synthesize allowAlwaysButton=_allowAlwaysButton;

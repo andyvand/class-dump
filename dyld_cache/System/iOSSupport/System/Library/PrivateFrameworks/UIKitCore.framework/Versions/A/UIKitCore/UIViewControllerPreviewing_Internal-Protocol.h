@@ -7,9 +7,8 @@
 @protocol UIViewControllerPreviewingDelegate;
 
 @protocol UIViewControllerPreviewing_Internal
-- (id <UIViewControllerPreviewingDelegate>);
-- (void)ts;
-- (void)0;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIViewControllerPreviewingDelegate> delegate;

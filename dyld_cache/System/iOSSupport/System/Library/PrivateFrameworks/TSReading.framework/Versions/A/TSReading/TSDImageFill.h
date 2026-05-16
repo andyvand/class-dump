@@ -48,10 +48,10 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (id)R;
+- (long long);
+- (id);
 - (SEL);
-- (_Bool)E;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -60,26 +60,26 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (struct CGSize);
-- (void)";
+- (void);
 - (id);
 - (id);
 - (int);
 - (void);
 - (void);
 - (int);
+- (void);
+- (_Bool);
 - (unsigned long long);
-- (double);
+- (double);
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (_Bool)ÀMP;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize fillSize; // @synthesize fillSize=mFillSize;

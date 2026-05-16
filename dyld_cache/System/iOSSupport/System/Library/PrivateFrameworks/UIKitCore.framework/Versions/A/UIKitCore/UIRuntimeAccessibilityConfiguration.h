@@ -17,25 +17,25 @@ __attribute__((visibility("hidden")))
     NSObject *object;
 }
 
-- (void)tedAccountMigrations;
-- (void)iveMessagePlayedForMessageID:(id)arg1 date:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)lityMessageGUID:(id)arg1;
-- (void)ssageGUID:(id)arg1 partIndex:previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
-- (void)ReceiveMessageEditingUnsupportedHandleIDs:(id)arg1 forMessageGUID:partIndex:previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
-- (id)initWithString: /* Error: Ran out of types for this method. */;
-- (id)ze:(id)arg1 serverConfigurationBag:(id)arg2 phoneNumber:(id)arg3 simID:(id)arg4;
-- (id)derHandle;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)t;
 - (id);
-- (void)!BùqÀ1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)!ÐDùÑfð1Â0@ù
 × ;
-- (void)sitionCoordinator;
-- (id)ontrollerContext;
-- (void)uestHandlers;
+- (void)unds:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)4ûc;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityConfigurationHint; // @synthesize accessibilityConfigurationHint;

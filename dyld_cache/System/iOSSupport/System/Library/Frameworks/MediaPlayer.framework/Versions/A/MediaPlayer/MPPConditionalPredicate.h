@@ -17,22 +17,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)rraydata__DATA_CONST;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long)ccount (%@:%@):%{BOOL}d  (Environment:%@) /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void)PING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) MPPMediaPredicate *conditionalPredicate; // @synthesize conditionalPredicate=_conditionalPredicate;

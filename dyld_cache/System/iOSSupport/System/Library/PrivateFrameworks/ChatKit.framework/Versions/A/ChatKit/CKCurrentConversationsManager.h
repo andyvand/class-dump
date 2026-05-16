@@ -13,24 +13,24 @@
     IMDoubleLinkedList *_orderedKeys;
 }
 
-+ (id)V}3@Ø1;
-- (void)ecognitionControllerCSgXw;
++ (id)Background;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)sphrase for diverged notes in account… {account:(id)arg1 %@}%s:(_Bool)arg2 %d;
-- (id)init ActivityStreamDigest:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)tatusToggleOn;
+- (void)8æÿ;
+- (unsigned long long)±IjD»Øÿ¹IjP»Øÿ©Ij\»ØÿIjh»Øÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cacheSize;

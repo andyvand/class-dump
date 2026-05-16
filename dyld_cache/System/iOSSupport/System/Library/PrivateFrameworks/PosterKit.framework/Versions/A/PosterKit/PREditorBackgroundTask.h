@@ -12,12 +12,12 @@
     NSString *_reason;
 }
 
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 

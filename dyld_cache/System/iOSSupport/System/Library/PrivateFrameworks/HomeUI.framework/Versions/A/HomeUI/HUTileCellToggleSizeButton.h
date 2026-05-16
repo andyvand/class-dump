@@ -18,13 +18,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isExpanding; // @synthesize isExpanding;

@@ -32,11 +32,11 @@
 - (int);
 - (int);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation;
+@class CKConversation, CKMacToolbarController, MISSING_TYPE;
 @protocol CKDetailsControllerDelegate;
 
 @interface CKBusinessDetailsController
@@ -12,25 +12,34 @@
     void detailsControllerDelegate;
     CKConversation *conversation;
     _Bool isShowingAddMemberPopover;
+    void macToolbarController;
+    MISSING_TYPE *closeToolbarItem;
 }
 
-- (void)mebody** moved the folder;
-- (void)tachmentInfos("%@", %@);;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id)!ÈBù±Ð1Â0@ù
+× ;
+- (void)L§ÿ;
 
 // Remaining properties
 @property(nonatomic, retain) CKConversation *conversation; // @synthesize conversation;
 @property(nonatomic) __weak id <CKDetailsControllerDelegate> detailsControllerDelegate; // @synthesize detailsControllerDelegate;
 @property(nonatomic) _Bool isShowingAddMemberPopover; // @synthesize isShowingAddMemberPopover;
+@property(nonatomic) __weak CKMacToolbarController *macToolbarController; // @synthesize macToolbarController;
 
 @end
 

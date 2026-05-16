@@ -18,9 +18,8 @@
 }
 
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)imator;
+- (id)Only;
+- (void);
 
 @end
 

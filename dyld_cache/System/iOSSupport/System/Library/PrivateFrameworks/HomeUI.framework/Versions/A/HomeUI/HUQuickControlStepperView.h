@@ -60,20 +60,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
-- (id)llpaperItem;
-- (_Bool)Warning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromHomePodSoftwareUpdate) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationInProgress) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationSucceeded) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationFailed) || (userInputValue.integerValue== HUHomeHub2OnboardingValue_ResetAppleHome);
-- (id);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id)rtworkFetchTask;
+- (void)T°$Ð0ô4üD!#c¼&dÌ'eü);
+- (void)ptionMultipleSingleApp_Mac;
+- (id)Access:for:withManager:] /* Error: Ran out of types for this method. */;
+- (void)s;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double accumulatedTouchDistance; // @synthesize accumulatedTouchDistance=_accumulatedTouchDistance;

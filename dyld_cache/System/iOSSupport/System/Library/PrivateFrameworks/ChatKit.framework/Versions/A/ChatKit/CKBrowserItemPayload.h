@@ -24,38 +24,39 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)tûgÿQ&h.;
++ (_Bool)figureWithContact: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)t;
 - (void);
-- (void)o;
 - (void);
-- (_Bool)or size:%.1f, scale %.1f /* Error: Ran out of types for this method. */;
-- (id)om others that may know your device passcode, you can create a separate password just for your locked notes. This is a powerful security option for some users, however, if you forget this password, you will lose access to these locked notes and Apple will not be able to recover your password.;
-- (id)ltsController"8;
-- (id)sController"8;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)@;
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id)
+× ;
+- (id)yANyANy_Zy9*[yAFyAbGGG_ARSgn*[ARtGAOyAR_AsrtRtGGANyAOyAR_AtRtGáZGGAYGGäGACGt;
+- (void)¨ø;
+- (void)thËÿ ;
 - (void);
-- (void);
-- (id)ÿó¾@¦ÿýò¾ÀKÿó¾¼Kÿ5ó¾XcËÿ=ó¾°Kÿó¾pdËÿUó¾¤Kÿ=ó¾ KÿMó¾Kÿõò¾Kÿ;
-- (id)`aÿ^B4Ó1;
+- (id)¢5;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;

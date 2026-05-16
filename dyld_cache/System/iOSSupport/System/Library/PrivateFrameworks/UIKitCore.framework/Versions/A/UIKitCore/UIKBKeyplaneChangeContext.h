@@ -19,28 +19,29 @@
     struct CGSize _size;
 }
 
-+ (id)¢!0@ù
-× ;
-+ (id)¸;
-- (void);
-- (void);
++ (id);
++ (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)ù
+- (id)0@ù
 × ;
-- (_Bool)gate>"16;
-- (void)velyMovingItems:(_Bool)arg1;
-- (struct CGSize)tion:smartReplace:collapseToEnd: /* Error: Ran out of types for this method. */;
-- (id)ance;
+- (void)°!4Fù_Ð1Â0@ù
+× ;
+- (struct CGSize)
+× ;
+- (void)havior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
 - (void);
-- (_Bool)estructiveColor;
-- (void)erredScrollTruncationDetent;
-- (void)%@) must conform to NSCopying to copy self (%@);
-- (_Bool)-Èÿ;
-- (_Bool)XQðþ;
-- (void)Öçf;
-- (_Bool)kl;
+- (_Bool)_preferredCornerRadius;
+- (_Bool):textToSecondaryTextVerticalPadding: /* Error: Ran out of types for this method. */;
+- (void)þ<þÿ;
+- (void)phPlatterViewBase"8q16B24^B28;
+- (void);
+- (_Bool);
+- (void)I]Tg;
+- (void)¨Rÿ5¤Õ.i;
+- (_Bool)qm;
 
 // Remaining properties
 @property(nonatomic) _Bool isDynamicLayout; // @synthesize isDynamicLayout=_isDynamicLayout;

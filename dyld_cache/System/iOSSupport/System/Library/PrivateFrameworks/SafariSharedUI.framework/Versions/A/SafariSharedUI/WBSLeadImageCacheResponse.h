@@ -15,10 +15,9 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)erWithNumberOfTrackers:privateBrowsingEnabled:privacyReportData:selectionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *thumbnail; // @synthesize thumbnail=_thumbnail;

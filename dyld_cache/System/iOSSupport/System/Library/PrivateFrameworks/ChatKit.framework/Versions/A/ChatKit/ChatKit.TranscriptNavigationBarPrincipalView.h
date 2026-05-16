@@ -11,17 +11,21 @@
     MISSING_TYPE *avatarViewButton;
     MISSING_TYPE *ornamentView;
     MISSING_TYPE *delegate;
+    MISSING_TYPE *contextMenuActionHandler;
+    MISSING_TYPE *currentConversation;
     MISSING_TYPE *conversationTitlePocketInteraction;
     MISSING_TYPE *shouldShowAvatarView;
     MISSING_TYPE *prefersOrnamentView;
 }
 
-- (void);
+- (void);
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (void)!;
-- (id)ct",R,N,V_mediaObject;
-- (struct CGSize)=dddd}BqqBBBBB}16@144;
+- (id)GtGGk®]G_Äà]tGG¤¼]G¶¶]GAAyÝå]yA5_GA7_GGGmÝ]ySbGGtGGA18_GA7_GÎ]yu^GG;
+- (void)NSData"8@"NSString"16@"NSError"24;
+- (id)ÍÌÌÌÌÌì?;
 
 @end
 

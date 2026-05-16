@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (void);
-- (void)node of %@;
-- (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <AKAuthenticationRVSServiceDelegate> remoteViewServiceDelegate; // @synthesize remoteViewServiceDelegate=_remoteViewServiceDelegate;

@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     id <WFFavoriteLocationProviderDelegate> _delegate;
 }
 
-- (id)(!Ț;
+- (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 

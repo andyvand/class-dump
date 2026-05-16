@@ -29,10 +29,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)re16LemonadeFeedSpec;
+- (id)r";
+- (id)tIndex:(id)arg1 key: /* Error: Ran out of types for this method. */;
+- (void)ator;
 
 // Remaining properties
 @property(retain, nonatomic) ISWrappedAVAudioSession *audioSession; // @synthesize audioSession=_audioSession;

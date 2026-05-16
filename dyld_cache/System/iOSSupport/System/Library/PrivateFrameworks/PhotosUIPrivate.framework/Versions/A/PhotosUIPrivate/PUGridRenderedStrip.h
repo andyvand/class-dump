@@ -49,20 +49,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (double);
+- (id);
+- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (int);
-- (struct CGSize);
 - (void);
 - (void);
-- (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (id)8@"UITextField"16@"NSArray"24@"NSString"32;
-- (void)viewRectForLayoutRect:(id)arg1;
-- (double)landscapeLayerStack;
-- (long long)de;
+- (void);
+- (id)ouldPlaceSelectAllButtonInRightNavigationBar;
+- (void)yer:didChange: /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, setter=_setNeedsRendering:) _Bool _needsRendering; // @synthesize _needsRendering=__needsRendering;

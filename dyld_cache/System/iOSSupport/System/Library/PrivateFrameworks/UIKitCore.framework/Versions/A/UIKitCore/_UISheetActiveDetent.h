@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
+- (id):restoration class for object does not conform to UIObjectRestoration protocol:Class is %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)orSession:atPoint: /* Error: Ran out of types for this method. */;
-- (id)ollection must have a mutable dictionary _clientDefinedTraits;
-- (double)ÁÌÚ[;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_identifier; // @synthesize _identifier=__identifier;

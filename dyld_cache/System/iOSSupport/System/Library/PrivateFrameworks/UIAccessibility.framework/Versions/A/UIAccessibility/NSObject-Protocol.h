@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (id)A;
-
-@optional
-- (Class);
+- (struct _NSZone *)odeBoolForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

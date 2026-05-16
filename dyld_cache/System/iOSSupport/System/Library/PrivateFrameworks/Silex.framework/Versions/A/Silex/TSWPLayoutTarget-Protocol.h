@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, TSDCanvas, TSDLayout, TSPObject;
+@class NSMutableArray, TSDCanvas, TSDLayout, TSPObject;
 @protocol TSDHint, TSWPFootnoteHeightMeasurer, TSWPFootnoteMarkProvider, TSWPOffscreenColumn;
 
 @protocol TSWPLayoutTarget
-- (_Bool);
-- (void)ր
-;
-- (NSArray *);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGSize)ponentStyleToComponentsMap;
-
-@optional
-- (void)};
-- (const void *);
-- (TSDCanvas *)utHosting>",R,N,V_textComponentLayoutHosting;
+- (struct CGSize);
+- (NSMutableArray *)g: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fineTransform=dddddd},N,V_wrapSpaceToCanvasSpace;
+- (struct CGSize)ted;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsDescendersToClip;

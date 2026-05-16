@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (vector_ef673ceb);
 - (id);
-- (void)24;
-- (id);
-- (void)d to get bundle identifier for %@;
-- (void);
 - (void);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (void)t;
 
 // Remaining properties
 @property(nonatomic) MPMediaLibraryView *libraryView; // @synthesize libraryView=_libraryView;

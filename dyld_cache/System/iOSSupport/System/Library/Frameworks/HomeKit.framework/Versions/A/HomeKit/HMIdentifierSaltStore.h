@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Xj¨kmìmPr;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *assistantIdentifierSalt; // @synthesize assistantIdentifierSalt=_assistantIdentifierSalt;

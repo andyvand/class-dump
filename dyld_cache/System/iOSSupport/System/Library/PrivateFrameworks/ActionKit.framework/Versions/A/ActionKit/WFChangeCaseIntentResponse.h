@@ -13,9 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)HERE extracted_dates.name = ?;
-    ;
-- (void)representation - Physical Activity;
+- (long long);
+- (void)t;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

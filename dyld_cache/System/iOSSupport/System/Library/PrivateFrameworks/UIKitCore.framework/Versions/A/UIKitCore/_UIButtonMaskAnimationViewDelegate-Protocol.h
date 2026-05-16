@@ -5,6 +5,6 @@
 //
 
 @protocol _UIButtonMaskAnimationViewDelegate
-- (void)o:duration: /* Error: Ran out of types for this method. */;
+- (void)Collection: /* Error: Ran out of types for this method. */;
 @end
 

@@ -5,8 +5,7 @@
 //
 
 @protocol TUNavigationBarCompressible
-- (double)rItemsContainer;
-- (void);
+- (void)ßüÿßüÿDýÿ´éüÿ@ýÿßüÿýÿ¤éüÿ²ýÿ;
 
 // Remaining properties
 @property(nonatomic) double contentAlpha;

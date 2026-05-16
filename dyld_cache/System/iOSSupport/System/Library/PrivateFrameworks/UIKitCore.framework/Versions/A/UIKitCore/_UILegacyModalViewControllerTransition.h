@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (_Bool)litySizeLimit:(id)arg1 forTransfer: /* Error: Ran out of types for this method. */;
-- (_Bool)N,V_associatedMessageGUID;
+- (_Bool);
+- (_Bool);
 
 @end
 

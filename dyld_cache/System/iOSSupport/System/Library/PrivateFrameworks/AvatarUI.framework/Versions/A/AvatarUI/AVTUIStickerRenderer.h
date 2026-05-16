@@ -33,16 +33,16 @@
 - (void);
 - (id);
 - (void);
-- (void)c;
+- (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id)S;
+- (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -64,11 +64,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id)*9;
-- (id);
-- (id);
+- (id)<ì;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTMemoji *avatar; // @synthesize avatar=_avatar;

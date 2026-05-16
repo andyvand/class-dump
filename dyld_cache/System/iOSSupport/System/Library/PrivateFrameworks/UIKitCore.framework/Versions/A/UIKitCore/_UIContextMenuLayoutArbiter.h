@@ -19,25 +19,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDStruct_17a0fc55);
 - (id);
-- (id)8@"NSDate"16@"NSString"24B32;
-- (struct CGRect)8@56@64B72@76;
+- (id);
+- (struct CGRect);
 - (id);
 - (void);
-- (void)};
+- (void);
 - (unsigned long long);
-- (struct CGRect)invalid object type from IMDChatAddedNotification %s;
-- (struct CGRect)e chat exists;
+- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
-- (unsigned long long)ion;
-- (struct CGRect)group chat %@;
-- (id)essedSIMID %@;
+- (unsigned long long);
+- (struct CGRect);
+- (id);
 - (double);
 - (struct CGRect);
+- (unsigned long long);
+- (void)d:(unsigned long long)arg1;
 - (void);
-- (void);
-- (unsigned long long)stureCancellingTouchesUserInfoKey;
-- (id)÷îZ;
-- (void)Ð=c;
+- (void)Í];
+- (id)3S;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;

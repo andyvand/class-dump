@@ -16,23 +16,23 @@
 }
 
 + (id);
-+ (_Bool)edsCompleteFetch;
-- (id);
++ (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id)1¢!0@ù
+- (void)Á÷ð!ÔAùQ°1Â0@ù
 × ;
-- (id)È;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *album; // @synthesize album=_album;

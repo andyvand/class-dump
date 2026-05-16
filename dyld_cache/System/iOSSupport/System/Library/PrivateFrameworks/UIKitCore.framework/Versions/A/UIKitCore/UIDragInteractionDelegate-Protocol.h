@@ -4,26 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIDragInteraction, UITargetedDragPreview;
-@protocol UIDragSession;
+@class NSArray, UIDragInteraction, UIDragItem, UITargetedDragPreview;
+@protocol UIDragAnimating, UIDragSession;
 
 @protocol UIDragInteractionDelegate
-- (NSArray *)areViewControllerInColumn:(UIDragInteraction *)arg1 layout:(id <UIDragSession>)arg2 ];
+- (NSArray *)0J¤L@O¤O PXUÄVW0^0Ø^i
+Ljðjèo`q¬q4ss;
 
 @optional
-- (void)nInProgress;
-- (UITargetedDragPreview *)ssionRefCount;
-- (void)TB,R,N,V_canToggleBoldface;
-- (void),N,S_setNeedsBottomBarCrossfade:(UIDragInteraction *)arg1 ,V__needsBottomBarCrossfade;
-- (NSArray *)etStrokeColor:(UIDragInteraction *)arg1 ,V_strokeColor;
-- (UITargetedDragPreview *)eItems:(UIDragInteraction *)arg1;
-- (void)nt:(UIDragInteraction *)arg1;
-- (_Bool)ationDelegate;
-- (_Bool)$;
-- (void)om deprecated UIWindow SPI %{public}@;
-- (void)ctivation suppressed:(UIDragInteraction *)arg1 %@;
-- (void);
-- (id <UIDragSession>)colorKnobView;
-- (_Bool)È";
+- (id <UIDragSession>)erm:(UIDragInteraction *)arg1;
+- (void)mptDragLiftAtLocation:(UIDragInteraction *)arg1 useDefaultLiftAnimation:(id <UIDragSession>)arg2;
+- (void)mBarIsTabBar;
+- (NSArray *)imultaneousDropSessions;
+- (void)etDrawsDebugGlyphPathBoundsClipping:(UIDragInteraction *)arg1;
+- (void)UIContentPlatterView",N,R;
+- (void)À#´$¤%	<&&À&;
+- (UITargetedDragPreview *)¸°;
+- (void)tem:(UIDragInteraction *)arg1 %@ with parentFocusEnvironment:(UIDragItem *)arg2 %@  focusItemContainer:(id <UIDragAnimating>)arg3 %@;
+- (_Bool)tþÿ;
+- (_Bool)e (%@);
+- (void)NSDirectionalEdgeInsets;
+- (void)pplementaryViewNibDict;
+- (UITargetedDragPreview *)t"8;
+- (_Bool);
 @end
 

@@ -10,17 +10,17 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void)isHandwritingPlane;
-- (void)dateAutocorrectPrompt: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

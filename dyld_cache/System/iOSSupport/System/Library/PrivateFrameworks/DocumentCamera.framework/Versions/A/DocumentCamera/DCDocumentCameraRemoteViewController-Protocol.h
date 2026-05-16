@@ -5,5 +5,6 @@
 //
 
 @protocol DCDocumentCameraRemoteViewController
+- (void)wLifetimeBlocker;
 @end
 

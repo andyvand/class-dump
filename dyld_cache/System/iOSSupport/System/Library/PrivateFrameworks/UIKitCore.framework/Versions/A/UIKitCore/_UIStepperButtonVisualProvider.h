@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (struct CGRect)ropShadowEnabled;
+- (_Bool)H;
+- (struct CGRect)/3Iegn_;
 
 @end
 

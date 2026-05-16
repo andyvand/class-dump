@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (_Bool)Style;
+- (void)ultipleAccessoryConfiguration;
+- (_Bool)ngFooterSomeUsersNeedSoftwareUpdate;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;

@@ -17,11 +17,11 @@
 
 - (float);
 - (void);
-- (void)$;
+- (void);
 - (float);
 - (float);
 - (id);
-- (void)timeZone;
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);

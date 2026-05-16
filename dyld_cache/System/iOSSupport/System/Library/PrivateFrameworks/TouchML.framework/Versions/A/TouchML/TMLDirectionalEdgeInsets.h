@@ -13,12 +13,12 @@
 - (id);
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (double);
-- (double);
-- (id);
 - (id);
 - (double);
 - (double);
+- (double);
+- (double);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double bottom;

@@ -14,28 +14,28 @@
 }
 
 + (id);
-+ (id)echanism:(id)arg1;
 + (id);
 + (id);
-+ (id)ity count;
-+ (double)dStore;
++ (double);
++ (id);
++ (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)nkIDToParticipantMap;
-- (id)%@;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id)fetimeDispatchTimer;
-- (id)EExtensionProviderHostContext",&,N,V_sessionContext;
-- (id);
-- (void)Ô ;
-- (double)nvoke;
+- (double);
+- (void)veTimeFromDateTime:(double *)arg1 withCalendar:(double *)arg2;
+- (id)inatedUUIDs;
+- (void),%@,failed to fetch active session details after retries with recoverable error %@;
 
 // Remaining properties
 @property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;

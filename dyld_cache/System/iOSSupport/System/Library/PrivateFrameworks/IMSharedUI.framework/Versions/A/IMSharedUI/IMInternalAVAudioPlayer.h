@@ -28,20 +28,20 @@
 - (void);
 - (void);
 - (void);
-- (void)"^{BrowsingWarning}};
-- (void)e_RequestDocumentEditingContextReply;
-- (void)h;
-- (void)2;
 - (void);
+- (void);
+- (void);
+- (double);
 - (void);
 - (id);
 - (void);
-- (float);
 - (void);
-- (double);
+- (void);
+- (float);
 - (double);
-- (void);
 - (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTime;

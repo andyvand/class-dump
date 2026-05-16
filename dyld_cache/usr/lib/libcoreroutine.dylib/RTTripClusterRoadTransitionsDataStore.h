@@ -17,7 +17,7 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,10 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (void)q;
+- (void);
 - (void);
 - (id);
-- (id)7;
+- (id)kely false LC visit, %{sensitive}@, with identical entry as last visit, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

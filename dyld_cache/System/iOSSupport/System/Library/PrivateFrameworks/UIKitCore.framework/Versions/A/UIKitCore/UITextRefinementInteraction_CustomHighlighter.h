@@ -11,9 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)yloadData:(id)arg1 expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (_Bool)Ð1¢!0@ù
-× ;
+- (id);
+- (_Bool)__hostDidMoveToParentSceneWithSettings: /* Error: Ran out of types for this method. */;
 
 @end
 

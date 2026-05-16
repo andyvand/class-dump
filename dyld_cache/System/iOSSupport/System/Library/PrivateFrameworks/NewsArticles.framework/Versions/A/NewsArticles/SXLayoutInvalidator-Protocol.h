@@ -5,7 +5,5 @@
 //
 
 @protocol SXLayoutInvalidator
-- (void);
-- (void)a;
 @end
 

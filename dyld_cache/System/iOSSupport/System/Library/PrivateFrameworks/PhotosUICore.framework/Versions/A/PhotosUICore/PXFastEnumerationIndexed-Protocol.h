@@ -5,6 +5,5 @@
 //
 
 @protocol PXFastEnumerationIndexed
-- (unsigned long long);
 @end
 

@@ -14,46 +14,47 @@
     UIView *_currentBackgroundView;
 }
 
-+ (_Bool);
++ (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void)oadProxyPACURL;
-- (void);
-- (void);
-- (void);
-- (void)@;
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (id)À°1¢!0@ù
+- (struct NSDirectionalEdgeInsets)DùÑYð1Â0@ù
 × ;
-- (id)ñÂ1¢!0@ù
+- (unsigned long long)Ð!¼BùÑ[1Â0@ù
 × ;
-- (void);
-- (void)0@ù
+- (struct CGSize)1Â0@ù
 × ;
-- (_Bool)0@ù
+- (id)
 × ;
-- (void)ing>";
-- (void)ant";
-- (void)formatWithCalendar:(id)arg1 locale: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eGesture: /* Error: Ran out of types for this method. */;
-- (id)aultChildIdentifier;
-- (void)eractionSession;
-- (void)yInsets:(struct CGRect)arg1;
-- (struct NSDirectionalEdgeInsets)mLeftConcentricLayoutPoint;
-- (struct CGRect);
-- (void)oint=dd}{CGSize=dd}}16{CGSize=dd}48;
+- (id)Qb1Â0@ù
+× ;
+- (id)esUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (void)tabBarButtonsForItem;
+- (void)ews:(id)arg1;
+- (_Bool)nsertSiblingMenu:afterMenuForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)n: /* Error: Ran out of types for this method. */;
+- (void)ightForContentOffset:(_Bool)arg1 origin: /* Error: Ran out of types for this method. */;
+- (void)zeChange;
+- (id)tentAnimationIdentifier;
+- (struct CGRect)tNavigationGestureRecognizer;
+- (void)olete status bar cache items to delete.;
+- (void)lar;
+- (void)gerCSg;
+- (id)xInteractionSmallVariantSpec;
+- (void);
 - (_Bool);
-- (double)ntDragging;
-- (void)eworks/SystemStatusUI.framework/SystemStatusUI;
+- (void)tþµ¦43´tþµ¦43¤tþý¦43ôtþ5§43¼tþ§43ìtþ;
 - (id);
-- (void)1_ÿ3H;
+- (double);
+- (void)Ú9];
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIBarAppearanceChangeObserver> appearanceObserver;

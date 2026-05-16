@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)h GUID %@ has been read;
++ (id);
 - (id);
 
 @end

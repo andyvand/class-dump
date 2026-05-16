@@ -18,12 +18,12 @@
 - (struct CGPoint);
 - (id);
 - (CDStruct_c3b9c2ee);
-- (id);
-- (id);
 - (double);
+- (id);
+- (id);
 - (double);
 - (void);
-- (void)÷Rè;
+- (void)onFooter;
 
 // Remaining properties
 @property(retain, nonatomic) id <HUColorWheelSpace> colorWheelSpace; // @synthesize colorWheelSpace=_colorWheelSpace;

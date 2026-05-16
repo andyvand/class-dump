@@ -7,10 +7,6 @@
 @class NSString, NSURL, UIImage;
 
 @protocol AVTStickerRecentsItem
-- (void (^)(void (^)(void)) (^)(void (^)(AVTStickerResource *), _Bool));
-- (NSURL *)4_8LogEntryEEJPS5_RKNS_12placeholders4__phILi1EEEEEENS_9allocatorISH_EEFvS8_EEE;
-- (void)Requests:(NSURL *)arg1 deliveryIdsToClear:deliveryIdsToSoftClear:inFolderWithId:forAccountWithId:] /* Error: Ran out of types for this method. */;
-- (NSString *)à$;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image;

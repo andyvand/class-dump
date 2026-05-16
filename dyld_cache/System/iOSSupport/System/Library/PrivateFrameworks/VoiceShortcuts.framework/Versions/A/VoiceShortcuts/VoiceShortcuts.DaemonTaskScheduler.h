@@ -10,9 +10,12 @@
 {
     MISSING_TYPE *executor;
     MISSING_TYPE *eventObserversByDescriptor;
+    MISSING_TYPE *state;
     MISSING_TYPE *$__lazy_storage_$_sources;
+    MISSING_TYPE *activeTransactions;
 }
 
+- (void);
 - (void);
 
 @end

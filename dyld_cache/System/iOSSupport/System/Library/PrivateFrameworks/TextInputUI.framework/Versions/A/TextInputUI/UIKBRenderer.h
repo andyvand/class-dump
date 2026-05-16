@@ -88,19 +88,18 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (double);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
 - (struct CGSize);
-- (id);
-- (id);
 - (struct CGContext *);
 - (id);
-- (long long)!àCùQ|1b0@ù
-× ;
+- (_Bool);
+- (long long);
+- (long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect _layerPaddedFrame; // @synthesize _layerPaddedFrame=__layerPaddedFrame;

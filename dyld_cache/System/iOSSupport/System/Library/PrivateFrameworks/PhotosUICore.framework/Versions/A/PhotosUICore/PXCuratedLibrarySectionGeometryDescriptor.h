@@ -31,12 +31,11 @@
 - (id);
 - (CDStruct_2bd92d94);
 - (struct CGRect);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id)|°1b0@ù
-× ;
+- (void)YâÉ ¨"ÿ1âÉÈ§"ÿâÉÜ§"ÿâÉØ§"ÿâÉàv!ÿYâÉÔ§"ÿâÉì§"ÿaâÉÈ§"ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> headerAsset; // @synthesize headerAsset=_headerAsset;

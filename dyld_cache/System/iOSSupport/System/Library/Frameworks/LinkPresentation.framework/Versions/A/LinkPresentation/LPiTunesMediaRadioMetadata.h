@@ -19,13 +19,13 @@
 }
 
 + (id);
-+ (_Bool),R,N,V_hasLoadedResource;
++ (_Bool);
 - (id);
 - (void);
 - (id);
-- (id)a;
 - (id);
-- (void));
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -34,17 +34,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)17AdPlatformsCommon22DeviceCapabilityEngine;
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)!A;
+- (void);
+- (id):øâ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

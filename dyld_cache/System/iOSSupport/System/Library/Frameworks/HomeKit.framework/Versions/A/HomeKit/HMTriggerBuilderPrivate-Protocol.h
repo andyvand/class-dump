@@ -7,7 +7,6 @@
 @class HMActionSetBuilder, HMTriggerPolicy;
 
 @protocol HMTriggerBuilderPrivate
-- (void)g;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool nameIsConfigured;

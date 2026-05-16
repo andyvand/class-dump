@@ -7,6 +7,6 @@
 @protocol WFActionRunningDelegate
 
 @optional
-- (_Bool)ow Definition;
+- (_Bool);
 @end
 

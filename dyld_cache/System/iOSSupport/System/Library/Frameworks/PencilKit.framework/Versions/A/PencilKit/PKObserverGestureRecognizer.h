@@ -11,16 +11,14 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id)oked:(id)arg1;
-- (_Bool);
-- (_Bool)Èà;
+- (void)	
+;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;

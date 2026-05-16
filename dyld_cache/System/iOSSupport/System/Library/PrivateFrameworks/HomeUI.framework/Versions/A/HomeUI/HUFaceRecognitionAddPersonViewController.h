@@ -29,10 +29,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)sparencyStyle;
-- (void)ject:(id)arg1;
+- (void)RequiredDescription;
 
 // Remaining properties
 @property(readonly, nonatomic) HUFaceRecognitionAddPersonItemManager *addPersonItemManager; // @synthesize addPersonItemManager=_addPersonItemManager;

@@ -15,11 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (id)R ;
 - (id);
-- (void)";
 - (id);
-- (id)attempting to remove store from coordinator, %@;
+- (id);
+- (void)us %{sensitive}@;
+- (id)last, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

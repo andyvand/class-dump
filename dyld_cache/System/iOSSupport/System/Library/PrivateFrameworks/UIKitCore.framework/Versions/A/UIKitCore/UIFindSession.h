@@ -19,31 +19,31 @@
     UIResponder *_searchableResponder;
 }
 
-- (_Bool)erverBag: /* Error: Ran out of types for this method. */;
-- (void)anager;
-- (void)Delegate;
+- (_Bool);
 - (void);
-- (void)<;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (long long)uledMessageCoordinatorC;
+- (long long);
 - (void);
-- (id)};
+- (id);
 - (void);
-- (long long)ationNoticeRateLimiter:collaboration id %s => %s /* Error: Ran out of types for this method. */;
-- (id)y TrustKit:%@ /* Error: Ran out of types for this method. */;
-- (id)ata (auxAssetPath %@);
-- (_Bool)ived older version number (%lu, old:%lu), dropping transitioned list update /* Error: Ran out of types for this method. */;
-- (_Bool)to the transitioned list;
-- (void);
-- (void);
+- (long long);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id)× ;
-- (long long)erivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (id)zontalAlignment:showsArrow:isRTL: /* Error: Ran out of types for this method. */;
-- (void)þÿ;
-- (void)ility:(id)arg1 {top:%@, bottom:%@}, bottom insets:%@> /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void)biterClientFocusContext"24@"NSArray"32B40i44@?<v@?@"_UIKeyboardChangedInformation"@"_UIKeyboardUIInformation"qB>48;
+- (void) Ö;
+- (void)¸mqþ´Ì:h /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsReplacement; // @synthesize allowsReplacement=_allowsReplacement;

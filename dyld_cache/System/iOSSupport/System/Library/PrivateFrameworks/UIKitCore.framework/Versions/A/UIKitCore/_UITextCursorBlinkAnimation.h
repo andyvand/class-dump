@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)tusPipelineComponent;
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void)Point:(_Bool)arg1;
 - (_Bool);
+- (void)eMaxSizeV@1000)]-(0@990)-|;
+- (void)7_G;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *cursorShapeView; // @synthesize cursorShapeView=_cursorShapeView;

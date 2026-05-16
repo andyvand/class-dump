@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class NSString, UIView, UIViewController;
 
 @protocol UIViewControllerContextTransitioning
-- (void);
-- (void)pdateBackdropActionButton;
-- (struct CGRect)leError;
-- (void)o mark moment share as needing notification when ready for session %@ - error:(_Bool)arg1 %@;
-- (_Bool)astFormat:Error in image chooser:%@ /* Error: Ran out of types for this method. */;
-- (UIView *)umberOfVideos;
-- (struct CGRect)1D867Mutator;
-- (struct CGAffineTransform)AssetsRecoveryNotificationListManager;
-- (void);
-- (UIViewController *)¬Mÿ ;
+- (_Bool)PlaceholderSearchBarTrailingNavigationBarButtonItem;
+- (UIView *)\³ÿÿÿÿÿ¬;
+- (long long)ContentSyndicationConfiguration:Syndication photo library loading not needed. Must be using a mock/internal data source type. Dispatching to main. /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (UIViewController *)ryAssetActionPerformer:(NSString *)arg1 Failed to present save alert;
+- (_Bool):%@> /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)pterHeaderLayout displayScaleDidChange];
+- (UIView *)ActiveSearchUpdater;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

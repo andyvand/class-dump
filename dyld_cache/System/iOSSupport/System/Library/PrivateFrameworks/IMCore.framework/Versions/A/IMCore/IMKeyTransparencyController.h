@@ -20,14 +20,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void)tPresetForAVAsset:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (id)ply;
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool selfOptedIn;

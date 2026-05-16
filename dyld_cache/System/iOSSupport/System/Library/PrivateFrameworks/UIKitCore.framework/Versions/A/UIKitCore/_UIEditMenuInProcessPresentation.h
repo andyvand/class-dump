@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     _UIEditMenuContainerView *_touchPassthroughView;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool)ng"32@?<v@?>40;
-- (void);
-- (id)14°«;
+- (_Bool);
+- (void)âÝøn\;
+- (id)J;
 
 @end
 

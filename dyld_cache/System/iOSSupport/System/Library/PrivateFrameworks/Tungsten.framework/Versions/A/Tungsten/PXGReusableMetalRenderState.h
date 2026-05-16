@@ -58,17 +58,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDStruct_b1513b2e *);
 - (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (CDStruct_aa2c6c27);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id)× ;
-- (id)0@ù
-× ;
-- (void)CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_normalizedTitleRect;
-- (void)Opcode4DLUT;
+- (id)scured;
+- (id)redTextures;
+- (void)rted number of components:(id)arg1 %zu of colorSpace:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *captureSpriteTextures; // @synthesize captureSpriteTextures=_captureSpriteTextures;

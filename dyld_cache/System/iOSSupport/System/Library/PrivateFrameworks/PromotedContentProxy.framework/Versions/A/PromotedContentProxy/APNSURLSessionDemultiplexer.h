@@ -24,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -33,22 +33,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
-- (void)crollDirections;
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void);
-- (id);
-- (void)ount:(id)arg1;
 
 // Remaining properties
 @property(retain) NSURLSessionConfiguration *configuration; // @synthesize configuration=_configuration;

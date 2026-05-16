@@ -16,10 +16,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)csScrollingPoint;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;

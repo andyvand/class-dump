@@ -15,7 +15,7 @@
     NSObject<OS_dispatch_queue> *_stateLock;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (id)H;
-- (void)dampingRatio:(CDUnknownBlockType)arg1 animations: /* Error: Ran out of types for this method. */;
-- (id)GSize=dd},R,N,V_engagedCellSize;
+- (id);
+- (void);
+- (id)`öÿRªø¤;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

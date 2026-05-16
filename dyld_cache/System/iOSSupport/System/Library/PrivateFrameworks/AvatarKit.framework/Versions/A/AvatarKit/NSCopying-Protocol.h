@@ -5,6 +5,5 @@
 //
 
 @protocol NSCopying
-- (id);
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITargetedPreview;
+
 @protocol UIContextMenuInteractionDelegate
+
+@optional
+- (UITargetedPreview *)egate>";
+- (void)fariViewController"16;
+- (UITargetedPreview *)temViewController;
 @end
 

@@ -22,7 +22,7 @@
 - (long long);
 - (id);
 - (int);
-- (void);
+- (void)ty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *analyticsEventValue; // @synthesize analyticsEventValue=_analyticsEventValue;

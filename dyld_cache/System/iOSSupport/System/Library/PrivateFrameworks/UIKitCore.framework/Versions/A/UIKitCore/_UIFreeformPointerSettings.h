@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (double);
-- (double);
-- (void);
 - (double);
-- (void)Junk filtering:(double)arg1 TrustKit decisioning skipped because chat has been recovered by user.;
-- (void)error:(double)arg1 %@;
-- (void)tCustomSpringAnimationBehavior: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (void);
+- (void);
+- (void)entifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double defaultPointerCornerRadius; // @synthesize defaultPointerCornerRadius=_defaultPointerCornerRadius;

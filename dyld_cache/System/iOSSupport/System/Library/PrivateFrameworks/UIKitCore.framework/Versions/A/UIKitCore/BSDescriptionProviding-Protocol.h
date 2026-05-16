@@ -7,10 +7,8 @@
 @class BSDescriptionBuilder, NSString;
 
 @protocol BSDescriptionProviding
-- (NSString *)1¢!0@ù
+- (NSString *)
 × ;
-- (BSDescriptionBuilder *)roupedBackgroundColorLegacyWhite;
-- (NSString *)tOccurred;
-- (BSDescriptionBuilder *)an assert in a future version.;
+- (BSDescriptionBuilder *)Read;
 @end
 

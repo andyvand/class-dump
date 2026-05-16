@@ -11,13 +11,13 @@
     NSMutableArray *_eventListeners;
 }
 
-- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (unsigned long long)led;
+- (void);
+- (unsigned long long);
+- (void)7Ø;
 
 @end
 

@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIContextMenuConfiguration, UITargetedPreview;
+
 @protocol UIContextMenuInteractionDelegate
+- (UIContextMenuConfiguration *)4ÍÄÿ0ÍÄÿ,ÍÄÿÄÅÿDàÅÿÜêÅÿ¸hÆÿkÆÿÈmÆÿoÆÿ@vÆÿèxÆÿx~ÆÿXÆÿKÉÿ¼MÉÿVÉÿ8YÉÿÔÉÿ`ÉÿDÉÿ¢Éÿh1Ëÿä3Ëÿ,9Ëÿ¨MËÿÐWËÿDfËÿ¨wËÿTËÿËÿ(£ËÿÜºËÿ¨ÀËÿØÃËÿ\ÇËÿ ÕËÿøßËÿpáËÿ;
 
 @optional
-- (void)Þ;
-- (void)ø¤¡;
+- (void)Üîÿî;
+- (void)ACyACy¡y#¡yACyACyACyACyqûìGAIGKïGÅùyOÒîGGG_¹¡Qo_ôykæyAP£õGGGKùy¥æGG~ùySbGGôîGSgtGG;
+- (UITargetedPreview *);
+- (UITargetedPreview *)ð¯é;
 @end
 

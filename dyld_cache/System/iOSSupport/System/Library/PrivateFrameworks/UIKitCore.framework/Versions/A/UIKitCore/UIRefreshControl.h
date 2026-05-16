@@ -24,80 +24,75 @@
     long long _refreshControlState;
 }
 
-+ (Class);
-+ (void)!BùñÉ1¢!0@ù
-× ;
-+ (_Bool)SArray"^B>24@0:8@"UIPanelController"16 /* Error: Ran out of types for this method. */;
-+ (id)ling back to first defined description for %@;
-- (void)lFolders;
++ (void)yControlKeyWithName:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
++ (Class)orSuspension;
++ (_Bool)setStateCaptureToken;
++ (id)=dd},N,V_keyboardSizeBasis;
 - (void);
-- (void);
-- (void);
-- (void)P;
+- (long long);
 - (id);
-- (void)
-× ;
-- (double)Å1¢!0@ù
-× ;
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
+- (id);
 - (double);
-- (long long)>"32@0:8@"NSLayoutConstraint"16@"<NSLayoutItem>"24 /* Error: Ran out of types for this method. */;
-- (id)OneFingerSelectWithExecutionContext: /* Error: Ran out of types for this method. */;
-- (id)thViewController:contentScrollView:preservingContentInset:respectFullExtension:gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
-- (double)rIdentifier;
-- (void)AtPoint:(id)arg1 indexPath: /* Error: Ran out of types for this method. */;
-- (id)edictiveViewController>",&,N,V_centerViewController;
-- (id)igurationUsingState: /* Error: Ran out of types for this method. */;
-- (id)sByIndexPath;
-- (id)tionForSpringLoading;
-- (_Bool)ns;
-- (id)olorPickerColorQueue;
-- (void)´;
-- (struct CGPoint)PàQxR<SS¤T;
-- (void)t;
-- (void)¸¼º
-ä»½´½;
-- (void)Ìj;
-- (unsigned long long)fØf<i;
-- (id)Pì;
-- (double)perview as a UIView. This can happen through use of CALayer API on the view layers instead of UIView API on the views. 
-	view:(struct CGPoint)arg1 %@
-	superview:(struct CGPoint)arg2 %@
-Break on UIViewReportBrokenSuperviewChain to debug.;
-- (double)%@) can only be presented when the view is in a window scene:%@ /* Error: Ran out of types for this method. */;
-- (void)entry_pathname() not set];
-- (long long)y %@
-%@;
-- (void)Èûÿ¤wþÿ;
-- (void)¢µüÿ¼þÿ¬µüÿÎ¸üÿÞ¨üÿ;
-- (_Bool)ntationController;
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (double)rks/DataDetectorsUI.framework/DataDetectorsUI;
-- (void)rl;
-- (void)StoryboardProxy initWithCoder:(double)arg1 ];
-- (void)eGray;
-- (void);
-- (id)re-alternate-small-display;
-- (void)0;
+- (long long);
 - (double);
-- (double)breakdown;
+- (_Bool)× ;
+- (void)CùÑ[1Â0@ù
+× ;
+- (double)0@ù
+× ;
+- (struct UIEdgeInsets)1Â0@ù
+× ;
+- (double)ates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
+- (struct CGPoint)rencyString:(struct CGPoint)arg1;
+- (double)ant: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ift;
-- (void)tion"@?>8@?<@"UITraitCollection<UIMutableTraitsInternal>"@?>16;
-- (long long)iÿ3Ý¦þiÿ3Ô¦±þ;
+- (void)ingLoadedInteractionBehavior;
+- (void)etsToEdgeOfContent;
+- (void)wController: /* Error: Ran out of types for this method. */;
+- (double)rver;
+- (_Bool)tle;
+- (void)View:(double)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void)stentIdentifiers:(struct CGRect)arg1;
+- (id)ctView;
+- (void)nBackgroundColor,S_setPlainButtonBackgroundColor:(double)arg1 ,V__plainButtonBackgroundColor;
+- (id)N,V_searchBar;
+- (void)³`´Èµ|¶ ·´¸@¹;
+- (void)¸K;
+- (double)ity;
+- (void)e at least 0.0, or UITableViewAutomaticDimension.;
+- (void)UserActivityManager _deleteSceneSessionsWithPersistentIdentifiers:(_Bool)arg1 ]_block_invoke;
+- (void)itleSpace)-[layoutView][rightSpacer(>=leftSpacer,==leftSpacer@200)]-(rightTitleInset)-|;
+- (void)emProviders:] /* Error: Ran out of types for this method. */;
+- (id)tricsSectionD0P;
 - (void);
-- (void);
-- (void)27\;
-- (void)];
-- (void)^;
-- (void)i|^;
-- (id)p¡~ÿ6	;
-- (struct CGSize)ð¾Gÿ\Ò;
-- (void);
-- (_Bool)Úä;
-- (void)²þzÑkOg;
-- (_Bool)¾ ÿ©G;
-- (struct UIEdgeInsets)Öcßh;
+- (void)ÿ;
+- (_Bool)ÿ ;
+- (id)(·`;
+- (id)¬Õ0ºb;
+- (void)ªÙÌd;
+- (id)bí;
+- (void)lÿí<T$i;
+- (id)hXÏ@·f;
+- (unsigned long long)`SÿË-Ëèúg;
+- (void)ÜRh;
+- (void)£Tø;
+- (void)$ø$ÿ.è;
+- (void)LOk;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _areInsetsBeingApplied;

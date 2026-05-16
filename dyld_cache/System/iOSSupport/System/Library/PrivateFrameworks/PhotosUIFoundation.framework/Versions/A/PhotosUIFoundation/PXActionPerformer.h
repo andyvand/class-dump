@@ -48,10 +48,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -62,21 +62,21 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)Æ¼;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;

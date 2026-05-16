@@ -20,8 +20,8 @@
     NSMutableArray *discardedLabels;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

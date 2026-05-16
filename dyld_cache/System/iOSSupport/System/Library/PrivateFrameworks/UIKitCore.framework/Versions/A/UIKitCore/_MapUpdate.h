@@ -26,18 +26,18 @@ __attribute__((visibility("hidden")))
     struct _NSRange _moveToRange;
 }
 
-+ (id)We had corrupt messages amongst dirty messages. Trying to load messages again. numberOfAttempts %lu;
-+ (id)temptCount %lu;
 + (id);
-+ (id)ransfers were updated.;
-+ (id)consumed breadcrumb:(long long)arg1 %@ for '%@' session %@;
-+ (id)w sticker user info;
-- (void)s:(long long)arg1;
-- (void)eForKey:(id)arg1;
-- (void)axValue:(long long)arg1;
-- (void)ntValue:(struct _NSRange)arg1;
-- (void)setFloatValue:(id)arg1;
-- (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,27 +45,27 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
-- (struct _NSRange)tring"36;
-- (struct _NSRange)Available;
-- (_Bool)e command for message:%@ /* Error: Ran out of types for this method. */;
-- (void)S disabled via carrier bag.;
-- (void)rred message processing in:(struct _NSRange)arg1 %f;
-- (void)code (guid:(struct _NSRange)arg1 %@) to recently deleted.;
-- (id)transfer guid for part:%@ /* Error: Ran out of types for this method. */;
-- (long long)set:%@ /* Error: Ran out of types for this method. */;
+- (struct _NSRange);
+- (struct _NSRange);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (void)withCategoriesVersion2:(long long)arg1 withExemptApps: /* Error: Ran out of types for this method. */;
-- (long long);
 - (id);
-- (void)Ø¡/º;
-- (long long)
+- (long long);
+- (_Bool);
+- (id);
+- (_Bool)!\CùñX1Â0@ù
 × ;
-- (id)ackingEnabled,S_setGrabberLumaTrackingEnabled:,V__grabberLumaTrackingEnabled /* Error: Ran out of types for this method. */;
-- (void)ber;
-- (void)âÞ[;
-- (void)ÿîÖjjh;
+- (id);
+- (void)pdateContentFitDisableScrolling;
+- (long long)utViews;
+- (void)@"NSArray",&,VsuggestedInputModesForSiriLanguage;
+- (long long)UIKBColorBlack_Alpha65;
 - (_Bool);
+- (void)tm|ÿ;
+- (void)Ðÿçñ\Ác;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct _NSRange deleteRange; // @synthesize deleteRange=_deleteRange;

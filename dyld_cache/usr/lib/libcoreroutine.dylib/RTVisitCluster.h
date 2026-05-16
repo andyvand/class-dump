@@ -15,14 +15,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)A;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id)e;
-- (id);
-- (id);
-- (_Bool)× ;
+- (_Bool)W,V_delegate;
+- (_Bool)ategoryReligiousSite;
+- (void)ate, %@;
+- (id)at %@ (in %.1f seconds), error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisitLocationPoints *points; // @synthesize points=_points;

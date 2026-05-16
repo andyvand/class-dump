@@ -27,11 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)cation:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *caption; // @synthesize caption=_caption;

@@ -14,15 +14,16 @@
     MISSING_TYPE *state;
 }
 
-- (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)ect={CGPoint=dd}{CGSize=dd}}16d48@?56;
-- (id)erProvider;
-- (void)ontentKeyAttachmentCount;
+- (_Bool);
+- (void)¬¬;
 
 // Remaining properties
 @property(nonatomic, readonly) OS_dispatch_queue *listenerQueue;

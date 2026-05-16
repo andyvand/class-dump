@@ -24,7 +24,7 @@
 - (double);
 - (void);
 - (void);
-- (void)°;
+- (void)on);
 
 @end
 

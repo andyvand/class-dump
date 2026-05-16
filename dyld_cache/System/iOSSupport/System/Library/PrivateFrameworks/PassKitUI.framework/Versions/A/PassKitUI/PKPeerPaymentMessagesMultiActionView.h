@@ -45,15 +45,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
+- (struct CGSize);
 - (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (struct CGSize);
+- (id);
+- (void)©Ð!èFùqøð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

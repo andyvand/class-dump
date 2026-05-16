@@ -7,7 +7,6 @@
 @class ISIcon, NSArray, NSDictionary, NSString, NSUUID;
 
 @protocol _EXExtensionRepresenting
-- (NSString *)àkîÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly) NSDictionary *attributes;

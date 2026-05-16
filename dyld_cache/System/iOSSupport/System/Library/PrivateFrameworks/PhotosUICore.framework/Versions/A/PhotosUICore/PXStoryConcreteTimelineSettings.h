@@ -38,8 +38,8 @@
 - (double);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (id)asset from URL:%@ (isSensitive:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long initialProductionCountLimit; // @synthesize initialProductionCountLimit=_initialProductionCountLimit;

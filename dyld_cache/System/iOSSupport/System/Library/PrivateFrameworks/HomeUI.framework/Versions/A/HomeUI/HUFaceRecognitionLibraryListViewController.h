@@ -29,10 +29,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)Ô ;
-- (void);
+- (void)ForEvent:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

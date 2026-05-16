@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (id)n;
+- (void)idatableEntities;
 
 @end
 

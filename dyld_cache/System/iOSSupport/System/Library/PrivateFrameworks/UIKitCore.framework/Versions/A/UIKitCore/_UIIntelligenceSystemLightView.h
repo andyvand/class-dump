@@ -13,8 +13,8 @@
     MISSING_TYPE *preferAudioReactivity;
 }
 
-- (id)ocessingPipelineComponent> Failed to find any message items;
-- (id)ers;
+- (id);
+- (id);
 
 @end
 

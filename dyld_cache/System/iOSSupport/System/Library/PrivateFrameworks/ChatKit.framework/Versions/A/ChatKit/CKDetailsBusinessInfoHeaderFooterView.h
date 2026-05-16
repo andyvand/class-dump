@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)w;
 
 // Remaining properties
 @property(retain, nonatomic) CKBusinessInfoView *businessInfoView; // @synthesize businessInfoView=_businessInfoView;

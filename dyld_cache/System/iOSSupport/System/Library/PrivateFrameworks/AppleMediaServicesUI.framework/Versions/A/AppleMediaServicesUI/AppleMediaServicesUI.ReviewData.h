@@ -15,11 +15,11 @@
 }
 
 + (void);
-+ (_Bool)$Þ ¬Þ,ß0ðãtä(å;
-- (void);
++ (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)nHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

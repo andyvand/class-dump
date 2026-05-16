@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)%@, hasEmbeddingResults:%@ rankingSignalsByObjectID.count:%lu> /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

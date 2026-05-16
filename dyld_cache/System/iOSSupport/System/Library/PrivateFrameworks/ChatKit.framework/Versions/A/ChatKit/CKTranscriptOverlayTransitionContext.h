@@ -21,30 +21,30 @@
     struct CGRect _parentCollectionViewFrame;
 }
 
-- (_Bool)`qô;
-- (_Bool)Õ;
-- (id)°my¬;
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets)hanges;
-- (void)utedSubstringFromRange:(_Bool)arg1;
-- (void)nTableColumnTextStorage:(id)arg1 range: /* Error: Ran out of types for this method. */;
-- (void)dObjectsUsingBlock:(struct UIEdgeInsets)arg1;
-- (void):(struct UIEdgeInsets)arg1;
-- (void)NeededWithRecordID:(id)arg1 accountID: /* Error: Ran out of types for this method. */;
-- (void)lButtonPressed:(_Bool)arg1;
-- (void)ionObject;
-- (void)etionHandler:(_Bool)arg1;
-- (void)veImplicitHighlights;
-- (void)yout;
-- (id)ID;
-- (_Bool)ageDelegate;
-- (struct CGRect);
-- (_Bool)ment;
 - (_Bool);
-- (id)people incl. you) were removed from the note;
+- (_Bool);
+- (id);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (struct CGRect);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)noReplyGrayBalloonColorFilled;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anchorChatItemGUID; // @synthesize anchorChatItemGUID=_anchorChatItemGUID;

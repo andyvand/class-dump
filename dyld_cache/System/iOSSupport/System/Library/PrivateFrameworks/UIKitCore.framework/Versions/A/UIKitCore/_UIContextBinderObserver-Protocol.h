@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIContextBindable;
-
 @protocol _UIContextBinderObserver
-- (void)roupUUID;
-- (void)xtBatchWithSize:(id <_UIContextBindable>)arg1 iterationContext: /* Error: Ran out of types for this method. */;
 @end
 

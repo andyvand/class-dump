@@ -23,7 +23,7 @@
     long long _sharingBehavior;
 }
 
-+ (id)ñÿ®K#^9;
++ (id)q¬ÊÀ;
 - (_Bool);
 - (void);
 - (void);
@@ -51,8 +51,8 @@
 - (long long);
 - (void);
 - (long long);
+- (id);
 - (void);
-- (id)Assets %ld:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double additionalContentThreshold; // @synthesize additionalContentThreshold=_additionalContentThreshold;

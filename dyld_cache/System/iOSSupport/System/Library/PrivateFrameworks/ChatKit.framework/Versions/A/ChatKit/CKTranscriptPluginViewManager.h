@@ -12,17 +12,17 @@
     NSMutableDictionary *_pluginViewToReuseDelegateMap;
 }
 
-+ (id)|ÿéú4$¢1;
++ (id);
 - (void);
 - (id);
-- (void):(id)arg1 ];
-- (id)thin it.;
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)HoverGestureRecognizerCSg;
+- (void)ACHMENTS;
+- (void);
 
 @end
 

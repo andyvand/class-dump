@@ -53,16 +53,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (long long);
+- (long long);
+- (long long);
 - (void);
-- (long long);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (long long);
+- (_Bool)× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *_indexesForItemsWithSubitemsBySectionByDataSourceIdentifier; // @synthesize _indexesForItemsWithSubitemsBySectionByDataSourceIdentifier=__indexesForItemsWithSubitemsBySectionByDataSourceIdentifier;

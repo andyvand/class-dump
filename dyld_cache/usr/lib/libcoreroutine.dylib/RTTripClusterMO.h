@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)Ð3;
++ (id);
 
 // Remaining properties
 @property(nonatomic) double avgBikeDistance; // @dynamic avgBikeDistance;

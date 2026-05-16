@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol WFSyntaxHighlightToken
-- (void)AyAByACyGR;
+- (void)À ;
 
 // Remaining properties
 @property int length;

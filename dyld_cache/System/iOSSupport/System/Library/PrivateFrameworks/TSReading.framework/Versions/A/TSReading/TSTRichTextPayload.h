@@ -16,11 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)¨;
 
 // Remaining properties
 @property(retain, nonatomic) TSWPStorage *storage; // @synthesize storage=mStorage;

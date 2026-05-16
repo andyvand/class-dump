@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)valFailed;
+- (void);
 
 // Remaining properties
 @property(readonly) UARPAssetTagOS *tag; // @synthesize tag=_tag;

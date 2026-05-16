@@ -39,10 +39,10 @@
 - (void);
 - (struct CGSize);
 - (struct CGRect);
-- (void);
 - (struct CGRect);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak PXGCompositeLayout *compositeLayout; // @synthesize compositeLayout=_compositeLayout;

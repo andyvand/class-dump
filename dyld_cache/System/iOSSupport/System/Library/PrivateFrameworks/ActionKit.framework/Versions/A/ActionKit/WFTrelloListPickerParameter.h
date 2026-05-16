@@ -21,13 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void)
-× ;
-- (id)V_lineRanges;
+- (void)www.amazon.com/s/s?k=%@;
+- (void)ìï×oðP~Þrg=ÏEðzÂêJ `T\±Xû[°Þý^þ¡ã¼ÆnÝKJÜëtøè±Ò^Á·("(¼sP)D'
+BN½ÌÓ*íô3+öwä
+f¨%P0*J.ÖÝ §wGÅøz{0#ê©`Åx·ãª:(id)arg1 sû­¦¶1ªå;
+- (id)*	+7U.+UUUUUUUUUUUUUUUUUU U!U"U#U$U%U&U'U(U/U0U1U2U3U4U5U6*H÷		`He`He`He`He`He`He`He.`He/`He0*K=*K=*K=U%;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

@@ -12,12 +12,12 @@
     NSArray *_cellIndices;
 }
 
-- (id)k;
 - (id);
-- (void);
+- (id);
 - (void);
-- (double)nnectionStatus:value: /* Error: Ran out of types for this method. */;
-- (void), %lu, duration %.3f;
+- (double);
+- (void)onPreprocessor:applyRule_largeDistanceTransitionsAreInvalid_ForTransitionAtIndex:failed to fetch visit location for identifiers %@ and %@. Passthrough. /* Error: Ran out of types for this method. */;
+- (void)%@, poi category, %@, timezone, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cellIndices; // @synthesize cellIndices=_cellIndices;

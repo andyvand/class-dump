@@ -33,39 +33,39 @@
     struct UIEdgeInsets _drawingInsets;
 }
 
-+ (id);
-+ (void)andle=%@; destinationCallerID= %@, unformatted=%@; country=%@; roomName='%@'; flags=0x%llx; subject='%@' text='%@' messageID:(id *)arg1 %lld GUID:(id *)arg2 '%@' sortID:(id)arg3 %lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-+ (void)ompositingModeWhenSelected;
-+ (id)onder: /* Error: Ran out of types for this method. */;
++ (id);
++ (void);
++ (id);
++ (void)tions:(Class)arg1 animated:(long long)arg2;
 - (void);
 - (void);
 - (void);
-- (void)ionsProtocol>"24@0:(unsigned long long)arg1 8@"IMDService"16;
-- (void)6;
-- (id)completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)Source:service: /* Error: Ran out of types for this method. */;
-- (unsigned long long)rIDs:(double)arg1 style:onServices:chatID:queryID: /* Error: Ran out of types for this method. */;
-- (id)ode: /* Error: Ran out of types for this method. */;
-- (id)toLoginAccount: /* Error: Ran out of types for this method. */;
-- (id)utoBugCaptureWithSubType:errorPayload: /* Error: Ran out of types for this method. */;
-- (unsigned long long)er: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)EligibleForSuggestAddingUser: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (struct UIEdgeInsets);
 - (void);
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (double)okensUpdatedBlock should not get called;
-- (void)set:%@ /* Error: Ran out of types for this method. */;
-- (void)%@ for chat with guid %@ error:(id)arg1 %@;
-- (long long)old:(struct CGPoint)arg1 %lu), dropping deny/allow list update;
-- (void)cked by an ids account ---- please file a radar;
-- (id)AddressedSIMID is %@;
-- (struct CGRect)or local chats;
-- (id)not allowed for chatIdentifier:%@. returning early. /* Error: Ran out of types for this method. */;
-- (id)failed to create the subscription:%@  with error:%@ /* Error: Ran out of types for this method. */;
-- (long long)kup exists:%@ /* Error: Ran out of types for this method. */;
-- (void)sociatedMessageType:%lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (double);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (id);
+- (struct CGRect);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -73,34 +73,33 @@
 - (long long);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
+- (void);
+- (_Bool);
+- (void);
+- (id)!à@ùQY°1Â0@ù
+× ;
+- (_Bool);
+- (void)d;
+- (id)Controller;
+- (void)heetContext:(id)arg1;
+- (void)h«;
+- (void);
+- (id);
+- (void)toFillTestArchives;
+- (_Bool)andscapeImagePhone;
+- (void)_UIDatePickerCombinedDateComponents(NSDateComponents * _Nonnull __strong, NSDateComponents * _Nonnull __strong);
+- (void)À[;
+- (void)b;
+- (void)ÍÿsôÖîb;
+- (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id)!BùqÄ1¢!0@ù
-× ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)allHandleUIKeyCommandEventHandler:(id)arg1;
-- (_Bool)eractiveUpdateHandler:(id)arg1 keyboardShouldAnimateAlongsideForInteractiveTransitions:(id)arg2 keyboardAnimationStyle:pinningInputViewsResponder:extraPinningInputViewsBlock:handoffData: /* Error: Ran out of types for this method. */;
-- (void)fectStyle;
-- (void)äù¼ú;
-- (_Bool);
-- (void)´¸";
-- (id)KeyboardPrivateWillShowNotification;
-- (_Bool)view;
-- (void)NNSTextEffectStyle;
-- (struct CGSize)';
-- (void)Gb;
-- (id)JÊc;
-- (void)1ÿ¸~Øqf;
+- (id)´@ÚdTf;
+- (_Bool)df;
+- (void)üJÿH);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

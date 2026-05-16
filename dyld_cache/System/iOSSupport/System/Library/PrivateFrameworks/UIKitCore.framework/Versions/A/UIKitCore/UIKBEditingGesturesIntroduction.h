@@ -15,20 +15,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id)endingMessage:forChat:style:account: /* Error: Ran out of types for this method. */;
-- (id)ption;
-- (id)rWithRemoteHost:delegate:allowsUltraConstrainedNetwork: /* Error: Ran out of types for this method. */;
-- (id)pletionBlock: /* Error: Ran out of types for this method. */;
-- (void)ChatsToHighlightsQueue;
-- (_Bool);
-- (double)sistentTaskReportCGSg;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)%@, %@;
-- (void)o°!<FùñÁÐ1¢!0@ù
+- (_Bool);
+- (double);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
 × ;
-- (void)t=dd}{CGSize=dd}}24{CGPoint=dd}56;
-- (id)tyLayoutInFrame: /* Error: Ran out of types for this method. */;
+- (id)dd}}64@0:8{CGPoint=dd}16{CGSize=dd}32{CGSize=dd}48 /* Error: Ran out of types for this method. */;
+- (void)p;
 
 // Remaining properties
 @property(readonly, nonatomic) long long appearance; // @dynamic appearance;

@@ -11,6 +11,7 @@
 
 @interface AMSUIMarketingItemViewController : AMSUIDynamicViewController
 {
+    _Bool _attemptedCampaignAttribution;
     NSDictionary *_campaignQueryParameters;
     NSDictionary *_contextInfo;
     NSString *_placement;
@@ -19,34 +20,36 @@
 }
 
 + (id);
-+ (id)7y|7yîz7yØ7yABG7yq7SgGG_AEy7AKG7tGGG;
++ (id)Gùÿ;
 + (id);
-+ (id)²ï;
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
++ (id)ledAction;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)! Cù
-Ð1b0@ù
-× ;
-- (id)cation;
+- (id);
+- (void);
+- (void);
+- (void)EngagementController: /* Error: Ran out of types for this method. */;
+- (void)zDÿÿWÅÿÿ;
+- (id)d3yö3yAAyÅu1y¿w1yAAyÖp1±d1G_AGh3yAEGSgu1tGGåa1GG_Qo_d1Gôl1yæs1GG_ACyãu1ySayNÒ;
+- (id)Þëÿ;
 
 // Remaining properties
+@property(nonatomic) _Bool attemptedCampaignAttribution; // @synthesize attemptedCampaignAttribution=_attemptedCampaignAttribution;
 @property(retain, nonatomic) NSDictionary *campaignQueryParameters; // @synthesize campaignQueryParameters=_campaignQueryParameters;
 @property(copy, nonatomic) NSDictionary *contextInfo; // @synthesize contextInfo=_contextInfo;
 @property(readonly, copy) NSString *debugDescription;

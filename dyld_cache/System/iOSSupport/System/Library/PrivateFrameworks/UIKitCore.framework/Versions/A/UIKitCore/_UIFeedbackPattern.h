@@ -20,39 +20,40 @@
 
 + (Class);
 + (id);
-+ (id);
-+ (_Bool)ppsÿ)ú;
++ (id)e=dd}}24d56B64B68;
++ (_Bool)d *CoreAnalyticsLibrary(void);
 - (void);
 - (id);
 - (void);
-- (void)SDate",&,N,V_syncStartDate;
+- (void);
 - (id);
-- (id)e as scheduled. Error:%@ /* Error: Ran out of types for this method. */;
-- (id)cheduled message:%s from %s to %s to maintain ordering /* Error: Ran out of types for this method. */;
-- (unsigned long long)a corresponding file transfer was not found using the asset's syndicationIdentifier. syndicationIdentifier:%@, asset:%@ /* Error: Ran out of types for this method. */;
-- (void)hat recordIDs to those with modification date after %@;
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (struct CGPoint);
 - (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (id)onshipLibraryPinSong__MAPPING_MISSING__;
+- (double);
 - (void);
-- (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id)ardCompose: /* Error: Ran out of types for this method. */;
-- (id)ionAnimationPreviews;
-- (id)`,	;
-- (id)quest to show compact column when UISplitViewController is not collapsed. Using a default presentation. <%{public}@:%{public}p> /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (double)ðiþ4[fþ4(iþ;
-- (_Bool)a;
-- (_Bool)b;
+- (id);
+- (_Bool)× ;
+- (_Bool)lver;
+- (id);
+- (id)	
+;
+- (id)bleLayoutAwareShortcutsAutomatic;
+- (void)g the title text alignment of an alert action is not supported with descriptive text;
+- (_Bool);
+- (id)"tþá°43t#tþá°43p#tþá°43l#tþ;
+- (void)((\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

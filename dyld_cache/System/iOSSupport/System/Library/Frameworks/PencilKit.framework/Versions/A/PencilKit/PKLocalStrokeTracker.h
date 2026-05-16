@@ -11,12 +11,13 @@
     PKLRUCache *_lruCache;
 }
 
-+ (id);
++ (id)h6;
 - (long long);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)Ì,ô	8Hð,¬
+ø¤$,;
 
 // Remaining properties
 @property(readonly, nonatomic) long long strokeLimit;

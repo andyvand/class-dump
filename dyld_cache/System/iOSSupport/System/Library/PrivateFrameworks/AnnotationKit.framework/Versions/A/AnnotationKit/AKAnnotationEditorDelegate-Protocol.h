@@ -5,9 +5,5 @@
 //
 
 @protocol AKAnnotationEditorDelegate
-
-@optional
-- (void);
-- (void)ent;
 @end
 

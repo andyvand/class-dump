@@ -20,6 +20,7 @@
     MISSING_TYPE *nativeAdInfo;
     MISSING_TYPE *blockedState;
     MISSING_TYPE *premiumBadge;
+    MISSING_TYPE *liveState;
 }
 
 @end

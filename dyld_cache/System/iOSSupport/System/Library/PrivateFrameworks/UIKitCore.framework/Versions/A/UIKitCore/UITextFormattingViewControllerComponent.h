@@ -12,16 +12,16 @@
     long long _preferredSize;
 }
 
-+ (_Bool)Hÿ;
++ (_Bool)ble view.;
 - (long long);
-- (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)citContent;
-- (id);
-- (void);
+- (_Bool)nBoundingBoxForTextInput:(id)arg1;
+- (void)initWithSourceArchivePath:(id)arg1 destinationExtractionRootPath: /* Error: Ran out of types for this method. */;
+- (id)&,VblurOutSpring;
+- (void)LÆ;ÿú hUa;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *componentKey; // @synthesize componentKey=_componentKey;

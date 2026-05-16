@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
+- (void)lor:(id)arg1;
+- (void)ener>",&,N,V_urlOpener;
 
 @end
 

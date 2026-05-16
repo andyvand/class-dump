@@ -45,7 +45,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (struct _PKStrokeID);
 - (struct _PKStrokeID);
 - (struct _PKStrokePoint);
@@ -58,7 +58,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -74,7 +74,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -96,33 +96,33 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (struct _PKStrokeID);
-- (void);
-- (void)";
-- (void);
-- (id);
 - (void);
 - (double);
 - (void);
 - (id);
-- (struct _PKStrokeID);
+- (id);
+- (struct _PKStrokeID);
+- (void);
+- (void);
+- (void);
+- (id);
+- (struct _PKStrokeID);
 - (void);
 - (void);
 - (void);
 - (CDStruct_3593b622);
+- (struct CGAffineTransform);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
 - (id);
-- (void)(=;
-- (id);
-- (id)N;
-- (void);
 - (id);
-- (struct CGAffineTransform)ck: /* Error: Ran out of types for this method. */;
-- (id)_tStart;
+- (void)e",&,N,V_toolTipImageRight;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isFullyHidden;

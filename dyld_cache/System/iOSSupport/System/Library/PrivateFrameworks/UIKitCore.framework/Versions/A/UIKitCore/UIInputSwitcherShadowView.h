@@ -19,23 +19,26 @@ __attribute__((visibility("hidden")))
     struct CGRect _keyRect;
 }
 
-- (void)ithQOI;
-- (void)egistry;
-- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (struct CGRect);
-- (void);
 - (int);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)UINavigationController";
-- (id):transitionManager: /* Error: Ran out of types for this method. */;
-- (void)_updateCornerRadius:(id)arg1;
-- (id)oller.m;
-- (void)ÿÉüÔaòp;
+- (void)@"UITableViewDropProposal";
+- (id)orceProviding>",&,N,V_presentedViewTouchForceProvider;
+- (void)appeared in superview's subviews. 
+	view:(struct CGRect)arg1 %@
+	expected superview:%@
+Break on UIViewReportBrokenSuperviewChain to debug. /* Error: Ran out of types for this method. */;
+- (void)Elements;
+- (id)úþ¦ÚÌãa;
+- (void)PúÐþ;
+- (void)hÑèg;
+- (id)j;
 
 // Remaining properties
 @property(retain, nonatomic) _UIBackdropView *blurView; // @synthesize blurView=_blurView;

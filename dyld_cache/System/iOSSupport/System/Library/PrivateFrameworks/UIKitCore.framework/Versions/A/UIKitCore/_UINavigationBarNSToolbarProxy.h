@@ -47,16 +47,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)@"NSString"24B32@"NSNumber"36@"NSString"44@"NSString"52@"NSData"60B68@"NSNumber"72;
-- (void)g"32@"NSString"40@"NSData"48@"NSNumber"56@"NSNumber"64;
-- (void)tionProperties:(id)arg1 pushToken: /* Error: Ran out of types for this method. */;
-- (void)dationTokens;
-- (void)e;
-- (void)ecessary:(id)arg1;
-- (_Bool)d;
-- (void)ary:(id)arg1;
-- (void)V_perTransferProgress;
-- (void)udKitSaveWithLimit:(id)arg1 filter: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,28 +70,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)@;
 - (void);
-- (void)enuationGracePeriodAfterPause;
-- (id)sing mapping for MPModelPropertyTVEpisodeDuration;
 - (void);
 - (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (id)dFù±ÂÐ1¢!0@ù
+- (id)!ôEù1^Ð1Â0@ù
 × ;
-- (_Bool)"UICollectionView"16;
-- (id)n;
-- (void)nInContainerView;
+- (id)lledRestTimer"b1"delegateRotaryGestureRecognizerBeganClassifyingMovement"b1"delegateRotaryGestureRecognizerUpdatedClassifyingMovement"b1"delegateRotaryGestureRecognizerFailedClassifyingMovement"b1"delegateWasNonNil"b1};
+- (void):(id)arg1;
+- (void);
+- (id)terMaskImage must be backed by a CGImage:%@ /* Error: Ran out of types for this method. */;
+- (void)sets;
+- (void);
+- (void)Xô¡ÿ§;
+- (void)ÿ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)½Ö4Tjþ­Ö4ô
-jþÖ4ð
-jþ;
-- (void)H¦ÝÿðÛ^)];
-- (void)?@$;
+- (void)`;
 
 // Remaining properties
 @property(readonly, nonatomic) _UINavigationBarPalette *bottomPalette; // @synthesize bottomPalette=_bottomPalette;

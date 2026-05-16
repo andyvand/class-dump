@@ -29,7 +29,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)kRestrictionFormat;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfSegments; // @synthesize numberOfSegments=_numberOfSegments;

@@ -19,7 +19,7 @@
     CDUnknownBlockType _handlerBlock;
 }
 
-+ (id)";
++ (id);
 - (void);
 - (void);
 - (void);
@@ -40,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType)p;
+- (CDUnknownBlockType);
 - (void);
 
 // Remaining properties

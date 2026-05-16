@@ -21,7 +21,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ing action because ruleItem = %@ | item = %@;
 
 // Remaining properties
 @property(retain, nonatomic) HFPinCodeManager *pinCodeManager; // @synthesize pinCodeManager=_pinCodeManager;

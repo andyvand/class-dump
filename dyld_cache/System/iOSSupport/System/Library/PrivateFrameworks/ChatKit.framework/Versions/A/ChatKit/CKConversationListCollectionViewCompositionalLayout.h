@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)î0;
+- (id)ingLocationAlert;
 
 @end
 

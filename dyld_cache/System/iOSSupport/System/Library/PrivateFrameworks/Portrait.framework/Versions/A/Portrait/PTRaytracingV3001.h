@@ -57,7 +57,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (int)Rkÿ{RkÿRkÿRkÿRkÿRkÿ¥Rkÿ­RkÿµRkÿ½RkÿÅRkÿÎRkÿÖRkÿÞRkÿæRkÿïSkÿ÷SkÿÿSkÿ;
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

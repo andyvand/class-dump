@@ -38,10 +38,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ocalizedFormatString in Strings file:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)acteristicValueCurrentSecuritySystemStateAwayArm;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *customSuggestionItems; // @synthesize customSuggestionItems=_customSuggestionItems;

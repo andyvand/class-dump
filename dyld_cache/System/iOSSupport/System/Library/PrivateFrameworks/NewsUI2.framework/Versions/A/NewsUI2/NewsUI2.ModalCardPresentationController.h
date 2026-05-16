@@ -14,11 +14,11 @@
 }
 
 - (void);
-- (void);
-- (void)utablePersonalStoreIdentifiers>"8;
-- (void);
-- (struct CGRect);
 - (id);
+- (void)HandlerDelegateP;
+- (void)Ä± þòX¼± þòX`Ä¤þòX#¦þ;
+- (struct CGRect)´¨þ;
+- (void)øé¦þG_\w¦þ;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect frameOfPresentedViewInContainerView;

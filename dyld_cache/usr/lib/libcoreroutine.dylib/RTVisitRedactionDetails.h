@@ -24,14 +24,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (long long);
 - (void);
+- (long long);
 - (void);
-- (id)l";
 - (id);
+- (id);
+- (void)urning to the queue of the SessionManager, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long redactedVisitCount;

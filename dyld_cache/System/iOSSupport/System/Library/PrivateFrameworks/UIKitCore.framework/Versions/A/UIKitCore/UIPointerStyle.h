@@ -23,45 +23,54 @@
 
 + (id);
 + (id);
-+ (id)e;
 + (id);
-+ (id)#A�:(id)arg1 ;
 + (id);
-- (void)equiresBuddyComplete:(_Bool)arg1;
-- (void)TaskStore:(_Bool)arg1;
-- (void)tworkMonitorDidUpdate:(id)arg1;
-- (void)on;
-- (void)undleID:(unsigned long long)arg1 withCompletion: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id)nsferSizeForAAVideoFromServerBag:smallSize:serverBag: /* Error: Ran out of types for this method. */;
-- (_Bool)TransferMatchingAttribute:inFileTransfers: /* Error: Ran out of types for this method. */;
-- (id)fileTransferForAssetUUID:forMessage:momentShare:atIndex:ofTotal: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (_Bool)sage %@ to replicationProxy;
-- (struct CGPoint)t on the allowed list, it should not have been trying to send a relay message, sending a message back to it to tell it to not send relay messages in the future;
-- (_Bool)-;
-- (struct CGPoint)+;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (struct CGPoint);
+- (_Bool);
+- (struct CGPoint);
 - (void);
 - (unsigned long long);
 - (struct CGPoint);
 - (id);
 - (struct CGPoint);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void)8@0:(unsigned long long)arg1 8I16@20;
 - (id);
 - (void);
-- (unsigned long long)1¢!0@ù
+- (unsigned long long);
+- (id)
 × ;
-- (double)eractionDelegate>";
-- (id)ck: /* Error: Ran out of types for this method. */;
-- (id)faceActionOnPressBegan: /* Error: Ran out of types for this method. */;
-- (void)Input API editMenuForTextRange:(id)arg1 suggestedActions:instead. /* Error: Ran out of types for this method. */;
-- (id)ng-imageLayoutGuide-constraint;
-- (long long)ibutes"24@"NSCollectionLayoutItem"32@40;
-- (void)=­;
+- (id)ùQeð1Â0@ù
+× ;
+- (unsigned long long);
+- (void)0@ù
+× ;
+- (long long)ionTouchpadFeedbackDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
+- (double)aragraphAndModifySelection: /* Error: Ran out of types for this method. */;
+- (_Bool)inimumPressDuration;
+- (id)itleView;
+- (void)àHÑ¸äÑÈ ôÑP¡Ñ¢ Ñ¢4Ñ¤|Ñà¤Ñ¦´Ñô®Ñ¬¯@Ñ¨°\Ñx±pÑl²Ñt´ÜÑXµøÑ¶ÑhÔTÑ Ù¤Ñä¸ÑÌ,PÑHdÑ)
+ôÑ:(long long)arg1 ÑF
+ÑdI
+ÑJ
+$Ñ4L
+Ñ0M
+ Ñ¼M
+´ÑtÇÈÑÄÝ4 Ñ4ù0!Ñ{"Ñì "Ñ;
+- (void)q;
 
 // Remaining properties
 @property(nonatomic) _Bool _convertsAccessoriesToNSCursor; // @synthesize _convertsAccessoriesToNSCursor=__convertsAccessoriesToNSCursor;

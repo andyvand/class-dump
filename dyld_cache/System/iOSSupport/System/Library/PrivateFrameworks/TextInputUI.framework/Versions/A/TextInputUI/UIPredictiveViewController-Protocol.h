@@ -8,10 +8,6 @@
 
 @protocol UIPredictiveViewController
 
-@optional
-- (_Bool)¡~Ð!8Aù±|°1b0@ù
-× ;
-
 // Remaining properties
 @property(readonly, nonatomic) NSArray *displayedCandidates;
 // Preceding property had unknown attributes: ?

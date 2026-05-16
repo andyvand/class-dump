@@ -5,6 +5,5 @@
 //
 
 @protocol WBSHistoryStoreDelegate
-- (void);
 @end
 

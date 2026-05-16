@@ -33,7 +33,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)%@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

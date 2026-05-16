@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _drawingProvider;
 }
 
-+ (id)sharing payload:(CDUnknownBlockType)arg1 %@  to ID:(CDUnknownBlockType)arg2 %@ - immediately failed.;
-- (CDUnknownBlockType);
++ (id);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)ore work to do, but blocked by low power mode;
-- (CDUnknownBlockType)Not adding to record.;
-- (void);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType CGImageProvider; // @synthesize CGImageProvider=_CGImageProvider;

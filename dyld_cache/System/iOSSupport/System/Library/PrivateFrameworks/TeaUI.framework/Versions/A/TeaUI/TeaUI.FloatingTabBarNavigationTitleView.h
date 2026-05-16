@@ -20,13 +20,13 @@
 - (void);
 - (double);
 - (double);
-- (void);
-- (id)gs;
-- (void)SidecarEntity;
-- (void);
-- (void)nnelTagID;
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)pðüÿðüÿ ðüÿ$ñüÿ<ñüÿTñüÿñüÿ¬ñüÿÄñüÿlóüÿóüÿóüÿ;
 
 // Remaining properties
 @property(nonatomic) double contentAlpha;

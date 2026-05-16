@@ -19,22 +19,22 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (double);
 - (double);
-- (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)temIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)dingActivityIndicator:(id)arg1;
-- (void)ilsCameraSettingsReaderWriterConfigurator;
-- (id)s = [%@];
-- (void)ûÿ ;
+- (void)ell;
+- (void)q24@?0@"HUSoftwareUpdateInfoItem"8@"HUSoftwareUpdateInfoItem"16;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *HTMLContent; // @synthesize HTMLContent=_HTMLContent;

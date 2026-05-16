@@ -8,14 +8,13 @@
 @protocol UINamedLayerContentProvider;
 
 @protocol UINamedLayerImage
-- (NSString *);
-- (int)UIDropAnimationHandlers";
-- (double)sWithUITransitionBlock: /* Error: Ran out of types for this method. */;
+- (int)!¤Gù±[Ð1Â0@ù
+× ;
+- (struct CGRect)""matchCase"@"UIAction""wholeWords"@"UIAction"};
+- (double);
 
 @optional
-- (void);
-- (_Bool)dLongLongValue;
-- (id <UINamedLayerContentProvider>)ÜL%;
+- (id <UINamedLayerContentProvider>)contentAreaDidResize;
 
 // Remaining properties
 @property(readonly, nonatomic) int blendMode;

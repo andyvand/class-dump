@@ -19,16 +19,16 @@
 
 - (id);
 - (void);
-- (void)@;
 - (void);
 - (id);
+- (long long);
+- (void);
 - (void);
 - (long long);
+- (void);
+- (void);
 - (id);
-- (long long);
-- (id)UbiquitousIdentifier;
-- (void)ase] - %{public}@:(long long)arg1 Has subscription lease session, using it. Lease status:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)Ð0ÿÿ®0ÿÿ1ÿÿ;
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *identifier;

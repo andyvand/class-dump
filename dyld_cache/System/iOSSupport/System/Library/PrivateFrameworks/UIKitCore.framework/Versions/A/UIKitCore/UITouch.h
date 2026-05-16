@@ -76,7 +76,7 @@
     struct CGSize _displacement;
 }
 
-+ (id)B^;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAuthenticationMessage:) BKSHIDEventAuthenticationMessage *_authenticationMessage; // @synthesize _authenticationMessage=__authenticationMessage;

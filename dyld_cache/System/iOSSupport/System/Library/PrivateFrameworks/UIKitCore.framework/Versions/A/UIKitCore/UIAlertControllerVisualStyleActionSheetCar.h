@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)at %@;
-- (long long)check on upgrade after %f seconds;
-- (id)idated;
-- (id)ner Client %d connection invalidated;
-- (long long)de but the message had no parts, don't wake me up. ;
-- (long long)to MMCS ;
-- (double)ntitlement;
-- (double)for IMDBackgroundMessagingAPIListener missing entitlement;
-- (struct UIEdgeInsets)returned with error:(id)arg1 %@;
+- (_Bool);
+- (long long);
 - (id);
 - (id);
+- (long long);
+- (long long);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (id);
+- (id)Background;
 
 @end
 

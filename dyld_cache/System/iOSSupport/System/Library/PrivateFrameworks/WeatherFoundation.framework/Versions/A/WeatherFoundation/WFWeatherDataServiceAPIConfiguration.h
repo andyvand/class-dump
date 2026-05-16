@@ -14,7 +14,7 @@
     NSString *_environment;
 }
 
-- (void)�p�;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -26,8 +26,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

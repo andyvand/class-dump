@@ -8,9 +8,6 @@
 @protocol UIDropSession;
 
 @protocol _UITableViewDropCoordinator
-- (void);
-- (NSArray *)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *_destinationIndexPath;

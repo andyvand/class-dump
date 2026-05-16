@@ -4,9 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITargetedPreview;
+
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (void)yx¬U;
+- (void);
+- (UITargetedPreview *)§S
+y©S
+yÐ¤S
+yABy¤S
+y¤S
+y¤S
+yABy²¤S
+y¬¤S
+yF£S
+yT
+xG_Qo__Qo_	iS
+yëT
+GG_Qo__Qo__Qo_AHyÝ S
+GG_Qo__S
+Qo__Qo_íaS
+GAVG\jr
+G_ývr
+Qo_ecS
+y¿vr
+GGG;
+- (void)lêÒÿ;
+- (UITargetedPreview *)Èÿÿÿ;
 @end
 

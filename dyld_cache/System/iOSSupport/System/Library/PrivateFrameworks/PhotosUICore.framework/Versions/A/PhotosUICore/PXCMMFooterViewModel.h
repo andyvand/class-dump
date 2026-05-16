@@ -17,11 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void)ÿ	F_ÿ;
-- (void)ÿJæx7;
+- (id);
+- (void);
+- (void)apple.photos.search.ui;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

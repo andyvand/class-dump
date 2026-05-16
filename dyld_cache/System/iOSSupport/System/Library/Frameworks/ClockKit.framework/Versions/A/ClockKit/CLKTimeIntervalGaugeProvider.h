@@ -35,19 +35,19 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)ovider;
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

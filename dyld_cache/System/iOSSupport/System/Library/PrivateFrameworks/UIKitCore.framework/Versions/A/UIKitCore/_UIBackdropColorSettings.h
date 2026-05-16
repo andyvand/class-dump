@@ -12,22 +12,22 @@
     _UIBackdropViewSettings *_parentSettings;
 }
 
-- (void);
-- (void);
+- (double);
+- (id);
+- (double);
 - (_Bool);
-- (_Bool);
-- (id)24@0:8@"UIFocusSystem"16 /* Error: Ran out of types for this method. */;
-- (double)upIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)esolve;
-- (double)utAttributesForPinnedSupplementaryItems;
-- (void)e=dd}},N,V_transitionZoneRect;
-- (void):(id)arg1 %@;
-- (void)r activity dictionary for UIScene state:(id)arg1 %@, type = %@, title = %@;
-- (id)tion = %ld);
-- (double)3;
+- (double);
 - (void);
-- (double)øÿÂ¬;
-- (void)rÿåï;
+- (void)mn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
+- (id){CGSize=dd}}48d80d88d96@104{CATransform3D=dddddddddddddddd}112;
+- (void)BETextDocumentRequest"32@?<v@?@"BETextDocumentContext">40;
+- (void)ntDirection;
+- (void);
+- (_Bool)idPerformLoupeSelectionHandoff;
+- (void);
+- (void)¼ó_;
+- (double)c;
+- (void)«ÿ±È;
 
 // Remaining properties
 @property(nonatomic) double averageBrightness;

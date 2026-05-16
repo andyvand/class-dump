@@ -62,12 +62,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)HMHome"32;
-- (void)n;
-- (_Bool)red_Title;
+- (id)0@ù
+× ;
+- (void)nerItemCategory;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) HUQuickControlViewController *activeController; // @synthesize activeController=_activeController;

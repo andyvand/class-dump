@@ -12,14 +12,13 @@
     MISSING_TYPE *delegate;
 }
 
-- (void)h;
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)Åð1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void)ýÿP;
+- (void)rContainerProtocol;
+- (id)ø¦¾ÿÄð5r@1;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC7ChatKit22CKPersistentMenuButton *button; // @synthesize button;

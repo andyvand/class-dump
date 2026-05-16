@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SwiftVCDaemonXPCEventHandler, WFBiomeListener, WFCoreDuetListener, WFTriggerBootManager, WFTriggerEventQueue, WFTriggerNotificationScheduler;
+@class NSObject, WFBiomeListener, WFCoreDuetListener, WFTriggerBootManager, WFTriggerEventQueue, WFTriggerNotificationScheduler;
 @protocol OS_dispatch_queue, WFDatabaseProvider;
 
 @interface WFTriggerRegistrar
 {
+    id <WFDatabaseProvider> _databaseProvider;
     WFCoreDuetListener *_coreDuetListener;
     WFBiomeListener *_biomeListener;
     WFTriggerNotificationScheduler *_scheduler;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <WFDatabaseProvider> _databaseProvider;
-    SwiftVCDaemonXPCEventHandler *_eventHandler;
-    WFTriggerEventQueue *_eventQueue;
     WFTriggerBootManager *_triggerBootManager;
+    NSObject<OS_dispatch_queue> *_queue;
+    WFTriggerEventQueue *_eventQueue;
 }
 
 - (void);
@@ -28,16 +27,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -46,13 +35,17 @@
 - (id);
 - (void);
 - (id);
-- (id)eetWorkflowsForExtensionMatchingDictionaries:hostBundleIdentifier:error:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFBiomeListener *biomeListener; // @synthesize biomeListener=_biomeListener;
 @property(readonly, nonatomic) WFCoreDuetListener *coreDuetListener; // @synthesize coreDuetListener=_coreDuetListener;
 @property(readonly, nonatomic) id <WFDatabaseProvider> databaseProvider; // @synthesize databaseProvider=_databaseProvider;
-@property(readonly, nonatomic) SwiftVCDaemonXPCEventHandler *eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(readonly, nonatomic) WFTriggerEventQueue *eventQueue; // @synthesize eventQueue=_eventQueue;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) WFTriggerNotificationScheduler *scheduler; // @synthesize scheduler=_scheduler;

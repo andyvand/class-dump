@@ -15,18 +15,18 @@
     void properties;
 }
 
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id)P;
-- (void);
-- (long long)esentationHandler;
-- (void);
-- (id);
 - (long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *contentId;

@@ -5,6 +5,6 @@
 //
 
 @protocol _UISceneHostingTraitCollectionPropagationHostReceiving
-- (void)ot request a focus update.;
+- (void);
 @end
 

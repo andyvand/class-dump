@@ -14,17 +14,17 @@
     _PBFPosterExtensionDataStoreAssertionController *_controller;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
 - (long long);
+- (id);
+- (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (_Bool);
 - (id);
-- (id);
-- (void)_TITLE;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

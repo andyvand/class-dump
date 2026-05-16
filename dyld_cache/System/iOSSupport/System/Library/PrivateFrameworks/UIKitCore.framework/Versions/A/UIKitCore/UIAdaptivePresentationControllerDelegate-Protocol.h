@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController;
-
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void)@;
-- (long long)dImplementsFittingSize;
-- (_Bool)ller:(UIPresentationController *)arg1 animated:] can only be called after the popover has been presented. /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)R\;
 @end
 

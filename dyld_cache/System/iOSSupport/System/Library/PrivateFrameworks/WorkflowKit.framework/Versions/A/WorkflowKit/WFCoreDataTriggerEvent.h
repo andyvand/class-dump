@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)Sýÿ;
-- (id);
++ (id);
+- (id)OfClass:from: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool confirmed; // @dynamic confirmed;

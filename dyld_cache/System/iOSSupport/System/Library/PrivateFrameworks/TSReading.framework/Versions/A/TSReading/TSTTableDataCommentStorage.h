@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (unsigned long long);
-- (_Bool)?;
 - (void);
-- (id)minimum %lu;
+- (id);
+- (unsigned long long);
+- (_Bool);
 
 @end
 

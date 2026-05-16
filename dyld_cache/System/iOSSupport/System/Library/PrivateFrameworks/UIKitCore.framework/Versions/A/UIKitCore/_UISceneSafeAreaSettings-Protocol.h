@@ -7,14 +7,6 @@
 @class _UISceneSafeAreaCornerInsetResolver, _UISceneSafeAreaEdgeInsetResolver;
 
 @protocol _UISceneSafeAreaSettings
-- (void)mmitPatch is not implemented;
-- (void)oryMultiCommitPatch;
-- (void)Patch is not implemented;
-- (struct UIEdgeInsets)nvalid dataValueArray count;
-- (_UISceneSafeAreaEdgeInsetResolver *)ount;
-- (struct _UICornerInsets)lassArray is NULL;
-- (_UISceneSafeAreaCornerInsetResolver *)NULL;
-- (void)eIDDelivered:(_UISceneSafeAreaCornerInsetResolver *)arg1 toIdentifier:fromIdentifier:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _UISceneSafeAreaCornerInsetResolver *safeAreaCornerInsetResolver;

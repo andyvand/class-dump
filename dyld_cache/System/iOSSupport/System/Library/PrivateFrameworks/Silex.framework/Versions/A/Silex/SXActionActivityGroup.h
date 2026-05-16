@@ -15,13 +15,13 @@
 
 - (id);
 - (void);
-- (void)p;
-- (id);
-- (id);
 - (id);
 - (id);
-- (void);
-- (id)ureEventIfNeeded;
+- (id);
+- (id);
+- (id);
+- (void)8@"<SXAction>"16;
+- (void)useObject:(id)arg1 forProtocol: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activities; // @synthesize activities=_activities;

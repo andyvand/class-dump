@@ -13,12 +13,12 @@
     MPModelStaticResponse *_staticResponse;
 }
 
-+ (_Bool)%{public}@;
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)(;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) MPModelStaticResponse *staticResponse; // @synthesize staticResponse=_staticResponse;

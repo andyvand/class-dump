@@ -18,15 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (void)
-× ;
-- (void)IOSBase";
-- (void)µÊu7i;
-- (id);
+- (void);
+- (void);
+- (void);
+- (id)bí;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

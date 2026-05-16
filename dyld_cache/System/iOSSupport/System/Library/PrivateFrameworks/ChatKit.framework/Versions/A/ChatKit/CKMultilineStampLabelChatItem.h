@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGSize)o;
+- (struct CGSize);
 - (Class);
 
 @end

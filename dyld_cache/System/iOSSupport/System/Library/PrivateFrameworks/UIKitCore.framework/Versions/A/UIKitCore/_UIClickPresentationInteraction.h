@@ -57,117 +57,111 @@
     struct CAPoint3D _initialLocation;
 }
 
-+ (void)ins;
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool)RoamingEnabled: /* Error: Ran out of types for this method. */;
-- (void)DiffieHellmanGroup:(id)arg1;
-- (unsigned long long);
-- (id);
-- (id);
++ (void);
 - (unsigned long long);
-- (void);
-- (id)imes used:%u%s
- /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (id)eType:forMediaEntity:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)rs:homeUser found after forced update. monitor=%@ /* Error: Ran out of types for this method. */;
-- (id)];
+- (unsigned long long);
 - (void);
 - (struct CAPoint3D);
-- (void)I;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (id)@ù
+× ;
+- (void)q\1Â0@ù
+× ;
+- (void)
+× ;
 - (id);
 - (void);
-- (void);
 - (void);
+- (void)1Â0@ù
+× ;
+- (void){CGSize=dd}48;
+- (void):(id)arg1 8@"UITextRange"16@"NSString"24@"NSArray"32;
+- (void)hange"b1"firstResponderChangedFromPostTransitionResponder"b1"firstResponderChangedFromPostTransitionResponderToNil"b1"usesExtraWidePrimaryColumn"b1"usesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1"isGestureShowingSupplementaryColumn"b1"isGestureHidingPrimaryWithSupplementaryVisible"b1"isForcingOverlayForGesture"b1"overrideSplitBehaviorForRestrictedWidth"b2"allowToggleSidebarButtonWithoutGesture"b1"alwaysHideToggleSidebarButton"b1"allowsTriggeringSidebarKeyCommandAction"b1"wantsHideSidebarDisplayNameForKeyCommand"b1"allowsDimmedSecondaryAsDeepestUnambiguousResponder"b1"ignoresSheetContext"b1"showsSeparators"b1"allowSecondaryOnlyButton"b1"lockedForDelegateCallback"b1"inCollapsingToProposedTopColumnCallback"b1"inExpandingToProposedDisplayModeCallback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
+- (void)tion:inSourceView: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void)!´BùQÁ1¢!0@ù
-× ;
-- (_Bool)FùQÁÐ1¢!0@ù
-× ;
-- (unsigned long long)1¢!0@ù
-× ;
-- (void)p°!°GùQÃ°1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (unsigned long long)ÑÄÐ1¢!0@ù
-× ;
-- (_Bool)ù
-× ;
-- (id)rÐ!@ùQÅ°1¢!0@ù
-× ;
-- (void)ùÈ1¢!0@ù
-× ;
-- (id)Ô¡x!ÌEùÎÐ1¢!0@ù
-× ;
-- (void)ÔayÐ!ÌGù1Ï°1¢!0@ù
-× ;
-- (void)econdaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (id)imationInProgress"b1"animating"b1"animatingEditing"b1"shouldHaveFullLengthBottomSeparator"b1"shouldHaveFullLengthTopSeparator"b1"topSeparatorFollowsLayoutMargins"b1"drawsSeparatorAtTopOfSection"b1"drawsSeparatorAtBottomOfSection"b1"separatorBackdropOverlayBlendMode"b3"separatorDrawsInVibrantLightMode"b1"separatorHidden"b1"hidingSeparatorsForSelection"b1"wantsClipping"b1"allowsReorderingWhenNotEditing"b1"needsHeightCalculation"b1"focusStyle"b3"accessoryViewsHidden"b1"skipsLayout"b1"separatorInsetIsRelativeToCellEdges"b1"highlightingInteractively"b1"userInteractionEnabledWhileDragging"b1"userInteractionEnabledBeforeDragging"b2"insetsContentViewsToSafeArea"b1"needsAccessoriesUpdate"b1"needsAccessoriesUpdateForced"b1"badgeVisible"b1"shouldRestoreTextLabelAfterSystemTextSizeChange"b1"shouldRestoreDetailTextLabelAfterSystemTextSizeChange"b1"shouldRestoreEditableTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
-- (void)eringMode"b2"suppressesAccessibilityHairlineThickening"b1"hasBaseline"b1"isBaselineExplicit"b1"areContentInsetsExplicit"b1"areAlignmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
-- (_Bool)ationHost>"16@"UIInputViewSetPlacement"24@"UIInputViewSetPlacement"32;
-- (void)40;
-- (void)1"wantsThreeUp"b1"changesSelectionAsPrimaryAction"b1"enableSymbolAnimations"b1"sharesBackground"b1"hidesSharedBackground"b1"isSearchBarViewItem"b1"nstoolbarItemIdentifierNeedsPointerForUniqueness"b1};
-- (_Bool)eEmoji: /* Error: Ran out of types for this method. */;
-- (void)ithState:(struct CAPoint3D)arg1 location:locationOfFirstTouch:forTouchType: /* Error: Ran out of types for this method. */;
-- (void)dFont;
-- (void)redSidebarVisibility;
-- (id)geSizeAdjust:imageInsets:landscape: /* Error: Ran out of types for this method. */;
-- (void)pecifiedOnly: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void)apCellular;
-- (unsigned long long)Layout",&,N,V_layout;
-- (id)vealThreshold;
-- (id)",&,N,V_rightButtonView;
-- (_Bool)W,N,V_delegate;
-- (void)rtDescriptors;
-- (id)ingAnimationState;
-- (void)tPickerFontInfo;
-- (void)UISceneIntelligenceSupportHostComponent;
-- (void)ionController;
-- (void)¤;
-- (void)ÊäÌüÌÍÍÎ;
-- (void)g.;
-- (void)items enabled:%@, duration:%f /* Error: Ran out of types for this method. */;
-- (void)5ÿÿ¨5ÿÿ6ÿÿD6ÿÿl6ÿÿ¬6ÿÿÄ6ÿÿè6ÿÿ;
-- (void)rightTrackEffectView;
-- (void)ndex;
-- (void)msModifiedByTextDelegate;
-- (id)minantLanguageAttributeName;
-- (id)it view controller column for resizing;
-- (id)ransformView.content;
-- (id)com.apple.CoreAuthUI;
-- (void)andNavigationViewNotification;
-- (_Bool);
-- (unsigned long long)onValue is called outside of supported contexts, ignoring.;
-- (void)ÿÿÿÿÿÿÿÿÿÿÿÿ;
-- (void)ÕÒÿ3K;
-- (void);
-- (void)¬-71!aÿ3ØÏ;
-- (void);
-- (void);
-- (void);
-- (id):ÓÍð^ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ctItem:(id)arg1 matchingRanges:unmatchingRanges: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ÜÿSX­;
-- (struct CGPoint);
-- (_Bool)õiÑ}Ì`;
+- (void)tomaticallyShowsScopeBar;
+- (_Bool)veTransitionWithProgress: /* Error: Ran out of types for this method. */;
+- (void)ForView:(struct CAPoint3D)arg1;
+- (id)gestionsMenuDismissalPassthroughViews: /* Error: Ran out of types for this method. */;
+- (id)izeChanged;
+- (void)mators;
+- (unsigned long long)Options: /* Error: Ran out of types for this method. */;
+- (_Bool)ct={CGPoint=dd}{CGSize=dd}},R,N,V_searchBarBackgroundLayoutFrame;
+- (id){CGPoint=dd}{CGSize=dd}},N,V_systemFrame;
+- (_Bool)ivityIndicatorForUnRenderedContent;
+- (void)andidatesInCurrentInputMode;
+- (id)"_UIVectorTextLayout",C,D,N;
+- (_Bool)W,N,V__departingParentViewController;
+- (id)ognizer;
+- (_Bool)à;
+- (void);
+- (id)Ü~lÌ0T;
+- (void)tion at index %ld in container %@. Container calculated by applying insets (%@) from sectionInsetsReference "%@" to collection view frame %@.
+UICollectionView behavior with this layout is undefined. Break on UICollectionViewCompositionalLayoutAlertForInvalidLayout to catch this in the debugger.
+Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)÷þÿQ;
+- (void)vÿÿBëîÿøÕïÿ`Ôïÿ;
+- (void)itleHide;
+- (id)oldSectionCount=%ld);
+- (void)om.apple.UIKit.OverlayUI;
+- (void)eyboardTypeNumbersAndPunctuation;
+- (void)tionBinder.m;
+- (void)sConfiguration initWithItemProviders:] /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)`;
-- (_Bool)"ÿ;
+- (void)ClçË?Tã¥Ä ì?ClçË¿!°rhíà¿0ä.ÿ++;
+- (id);
+- (id);
+- (void);
+- (void)b×þ;å>P^;
+- (void);
+- (_Bool)UÌÿ¦IÛø$_;
+- (void)À¹ÿ;
+- (unsigned long long);
+- (_Bool)uW;
+- (void)Ùa;
+- (void)Äb;
+- (void);
+- (void)?ÿb;
+- (id)e;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activatedDriverStyle;

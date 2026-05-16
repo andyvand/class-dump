@@ -23,21 +23,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (CDUnknownBlockType);
 - (double);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

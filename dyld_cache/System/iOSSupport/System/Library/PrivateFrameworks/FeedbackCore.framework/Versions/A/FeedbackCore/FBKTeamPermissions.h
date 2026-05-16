@@ -16,19 +16,19 @@
 }
 
 + (id);
-+ (_Bool)iew:didUnhighlightRowAtIndexPath: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canAssign; // @synthesize canAssign=_canAssign;

@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)jectToken;
+- (void)Õ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

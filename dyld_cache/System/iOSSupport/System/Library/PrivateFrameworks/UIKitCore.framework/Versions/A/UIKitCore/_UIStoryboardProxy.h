@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     UIStoryboard *_storyboard;
 }
 
-+ (_Bool)Zõl;
++ (_Bool)iew.m;
 - (id);
 - (void);
-- (void)Resolver;
 - (id);
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)nEnabled;
 
 @end
 

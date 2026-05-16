@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)hasReceivedReadReceipt: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)>;
+- (void);
+- (void);
 
 @end
 

@@ -16,6 +16,8 @@
     PFTFuture *_activeContentImageFuture;
     id <UITraitChangeRegistration> _backdropAwarenessTraitRegistration;
     unsigned long long _asyncUpdateCounter;
+    unsigned long long _alignmentMode;
+    struct UIEdgeInsets _shadowAlignmentInsets;
     _Bool _hideForegroundContent;
     _Bool _isBackdropAware;
     _Bool _isTraitBasedBackdropAwarenessEnabled;
@@ -23,37 +25,42 @@
 }
 
 + (_Bool);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (void);
 - (long long);
+- (_Bool);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 
 // Remaining properties
+@property(nonatomic) unsigned long long alignmentMode; // @synthesize alignmentMode=_alignmentMode;
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_shadowView;
 @property(retain, nonatomic) PLKLegibilityContent *content; // @synthesize content=_content;
 @property(readonly, nonatomic) UIView *foregroundView; // @synthesize foregroundView=_contentView;
@@ -61,6 +68,7 @@
 @property(readonly, nonatomic) UIImage *image;
 @property(nonatomic, setter=setBackdropAware:) _Bool isBackdropAware; // @synthesize isBackdropAware=_isBackdropAware;
 @property(nonatomic, setter=setTraitBasedBackdropAwarenessEnabled:) _Bool isTraitBasedBackdropAwarenessEnabled; // @synthesize isTraitBasedBackdropAwarenessEnabled=_isTraitBasedBackdropAwarenessEnabled;
+@property(nonatomic) struct UIEdgeInsets shadowAlignmentInsets; // @synthesize shadowAlignmentInsets=_shadowAlignmentInsets;
 @property(readonly, nonatomic) UIImage *shadowImage;
 
 @end

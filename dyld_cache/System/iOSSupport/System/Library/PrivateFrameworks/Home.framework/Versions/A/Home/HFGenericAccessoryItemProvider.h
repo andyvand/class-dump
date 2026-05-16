@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)still changed. Item:%@, Old results:%@, New Results:%@ /* Error: Ran out of types for this method. */;
+- (void)howInHomeDashboardFilter;
+- (void)ø÷C;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)on bundle;
 
 // Remaining properties
 @property(readonly, copy) HMFSoftwareVersion *softwareVersion; // @synthesize softwareVersion=_softwareVersion;

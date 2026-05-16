@@ -20,25 +20,24 @@
 }
 
 + (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (void);
 - (id);
-- (id)Object<OS_os_transaction>";
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
-- (unsigned long long)¡³(!¼Aùñ^,Ð1¢!0@ù
-× ;
-- (_Bool)tination, %@, creationDate, %@, expirationDate, %@, predominantMotionActivityType, %@;
-- (void)rs, %ld;
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id)\K;
+- (void)ation fetch failed, %@, current state, %{sensitive}@, error, %@;
+- (void)g:config (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool bootStrappingDone; // @synthesize bootStrappingDone=_bootStrappingDone;

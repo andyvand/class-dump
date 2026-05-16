@@ -22,10 +22,10 @@
 - (struct PXSimpleIndexPath);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (long long);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *assetDescriptionsBySection; // @synthesize assetDescriptionsBySection=_assetDescriptionsBySection;

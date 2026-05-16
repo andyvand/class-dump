@@ -12,8 +12,8 @@
     MISSING_TYPE *personalizationInspectionGroupProvider;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -14,12 +14,11 @@
     MISSING_TYPE *glassGroupBackgroundEnabled;
 }
 
+- (id);
 - (void);
-- (id)P;
-- (void)ÄÐ1¢!0@ù
-× ;
-- (id)int:(struct CGPoint)arg1;
-- (id)ntStorage;
+- (id)32^@40;
+- (id)verHostManagerProvider;
+- (void)ÕÎüfl;
 
 @end
 

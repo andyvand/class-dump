@@ -5,6 +5,7 @@
 //
 
 @protocol PUTilingViewControllerTransition
+- (_Bool)%@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasStarted;

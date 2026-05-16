@@ -7,23 +7,16 @@
 @protocol UIResponderStandardEditActions
 
 @optional
+- (void)á	ð!´CùQ(ð1Â0@ù
+× ;
+- (void)y;
+- (void)RecognitionTimestamp;
+- (void)¨;
+- (void)umerating char bounds. Shot:(id)arg1 %@;
+- (void)-special;
+- (void)Compute command buffer;
+- (void)meInterval2;
 - (void);
-- (void)5M-;
-- (void)SizeReady:(id)arg1;
-- (void)ght:(id)arg1;
-- (void);
-- (void);
-- (void)teCaptionBar;
-- (void)iewCell"32@0:(id)arg1 8@"UICollectionView"16@"NSIndexPath"24;
-- (void)sFromTool:(id)arg1;
-- (void)ditingView;
-- (void)ltMap;
-- (void)Ð;
-- (void);
-- (void)kes - Cancel;
-- (void)ÿG;
-- (void)hould not attempt to access color on a tool that does not support it.;
-- (void)CGRect={CGPoint=dd}{CGSize=dd}}16^B48;
-- (void)|KÎÿ;
+- (void)ª;
 @end
 

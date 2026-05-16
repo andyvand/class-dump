@@ -14,9 +14,9 @@
 
 - (id);
 - (CDUnknownBlockType);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) CDUnknownBlockType sourceAppBundleIDDidChangeBlock;

@@ -18,8 +18,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)local|external|cellular|wi-fi|wifi;
+- (void)n"@"NSError">24;
+- (id)llerComponents;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *aceCommandDictionary; // @synthesize aceCommandDictionary=_aceCommandDictionary;

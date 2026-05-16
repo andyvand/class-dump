@@ -54,14 +54,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
@@ -71,8 +72,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)etricsPresenter",R,N,V_metricsPresenter;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ageRating; // @synthesize ageRating=_ageRating;

@@ -49,14 +49,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)ng;
-- (CDStruct_1b6d18a9)4@0:8@16 /* Error: Ran out of types for this method. */;
-- (void)ÿí(½
-;
-- (void)ÿkL@l8;
-- (id)äÿLÂç8;
+- (id);
+- (CDStruct_1b6d18a9)ation:curationProvider: /* Error: Ran out of types for this method. */;
+- (void)¼ ;
+- (void);
+- (void)edData;
+- (void)ÓÿÜtjüï6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

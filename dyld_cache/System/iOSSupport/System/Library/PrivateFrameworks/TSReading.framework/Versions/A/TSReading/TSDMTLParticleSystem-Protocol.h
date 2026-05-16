@@ -8,7 +8,6 @@
 @protocol MTLTexture, TSDMTLDataBuffer;
 
 @protocol TSDMTLParticleSystem
-- (id <TSDMTLDataBuffer>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <TSDMTLDataBuffer> dataBuffer;

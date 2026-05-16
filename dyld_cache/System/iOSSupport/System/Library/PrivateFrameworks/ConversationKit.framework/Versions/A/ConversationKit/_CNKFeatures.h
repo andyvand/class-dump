@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)cureHostingController;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,18 +43,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)yAAyS¹¬·¬ySiSgGGACyo¸¬SgGGÞµ¬yè³¬GG;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)¢ySay0ÐGê¢G;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool buttonRemoteControlEnabled;

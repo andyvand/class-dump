@@ -70,23 +70,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)1b0@ù
-× ;
-- (void)onByDefault: /* Error: Ran out of types for this method. */;
-- (id)ØÔTÞxÞ;
-- (void)4é;
-- (id)Internal/Library/BuildRoots/4~CHlougB2_ceHmsyj5Q9AitZLJUJDCWhxAfBVCxk/Library/Caches/com.apple.xbs/Sources/Photos_iosmac/workspaces/photosshared/PhotosUICore/PhotosUICore/People/Shared/PXPeopleUtilities+UI.m;
-- (id)ation state.;
-- (void)ResultCollectionsGroupTrips;
 - (void);
+- (void);
+- (id);
+- (id)rentAssetReference"B"shouldAutoplayAsset"B"didSelectAdditionalItems"B};
+- (id)@!üÿ
+¼þÿZ!üÿ	¼þÿb!üÿìüÿhyûÿ;
+- (void)ASSgQo__A60_Qo__SiQo_jÁºGA64_G;
+- (void)irmationToastMessage;
+- (id)llectionPreviewPlayer.fetch;
+- (void);
+- (id)Á3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -48,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -56,26 +56,26 @@
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double);
 - (id);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (double);
 - (id);
 - (struct CGPoint);
 - (id);
-- (id)#;
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
@@ -91,9 +91,9 @@
 - (void);
 - (void);
 - (void);
-- (id)]_block_invoke;
-- (void);
-- (_Bool)f;
+- (_Bool);
+- (id);
+- (void)dary;
 
 // Remaining properties
 @property(nonatomic) TSDLayout *connectedFrom; // @synthesize connectedFrom=mConnectedFrom;

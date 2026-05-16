@@ -15,10 +15,10 @@
 
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)n_Title;
+- (id)× ;
+- (void)HUServiceDetailsRemoveDeviceAlertTitleManualNetworkReconfiguration_Format;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *alertBody; // @synthesize alertBody=_alertBody;

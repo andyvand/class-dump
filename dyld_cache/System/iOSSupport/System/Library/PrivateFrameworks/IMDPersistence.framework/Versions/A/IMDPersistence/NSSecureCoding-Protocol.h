@@ -5,7 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)chat_id = target_chat.ROWID
-    );;
 @end
 

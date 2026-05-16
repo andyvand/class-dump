@@ -38,17 +38,17 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id)0;
 - (id);
+- (id)iguration:typeSpecificMetadata:customIntentClassName:availabilityAnnotations:shortcutsMetadata:requiredCapabilities:attributionBundleIdentifier:sideEffect:assistantDefinedSchemas: /* Error: Ran out of types for this method. */;
+- (void)d from. This must be an email address that is set up in the Mail app.;
 
 // Remaining properties
 @property(readonly, nonatomic) WFInterchangeApp *app; // @synthesize app=_app;

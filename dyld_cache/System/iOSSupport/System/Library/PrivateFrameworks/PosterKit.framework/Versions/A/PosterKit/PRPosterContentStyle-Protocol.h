@@ -7,7 +7,8 @@
 @class NSArray, NSString, UIColor;
 
 @protocol PRPosterContentStyle
-- (id)omplicationGalleryDodge;
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

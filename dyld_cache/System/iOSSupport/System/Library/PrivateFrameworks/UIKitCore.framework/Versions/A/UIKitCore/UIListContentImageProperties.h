@@ -38,92 +38,88 @@
     struct CGSize _maximumSize;
 }
 
-+ (_Bool)·Ôm;
-- (long long);
-- (long long);
++ (_Bool)d
+;
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long)Buffer;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (id);
 - (struct CGSize);
 - (id);
-- (_Bool);
-- (void);
-- (CDUnknownBlockType)tRelationshipKey;
-- (void)ptySelection;
-- (double);
-- (void)match] library=%{public}@;
-- (double);
+- (long long);
 - (id);
-- (_Bool);
-- (void);
-- (double);
+- (unsigned long long);
+- (struct CGSize);
 - (id);
-- (void)P;
+- (void)1Â0@ù
+× ;
+- (id)Ô ;
+- (CDUnknownBlockType);
 - (void);
-- (id);
+- (_Bool)_UIKBRTRecognizer"16@24d32{CGPoint=dd}40{CGPoint=dd}56Q72@?<v@?@B>80;
+- (double)owFeedbackUI;
+- (double)tate:actions:completion: /* Error: Ran out of types for this method. */;
+- (long long)n: /* Error: Ran out of types for this method. */;
+- (_Bool)sTrackingDrag;
+- (id)ultLeadingCellMarginWidthForTableView: /* Error: Ran out of types for this method. */;
+- (void)focusedTraits:(id)arg1;
+- (CDUnknownBlockType)MaximumRadius: /* Error: Ran out of types for this method. */;
+- (void)tyle;
+- (void)nalSafeAreaInsets;
+- (id)sualStyleUpdatableConstraints;
+- (id)ponent;
+- (void)ISEInitialEdgesFailGestureFeature;
+- (_Bool)ÌøÐDç÷;
+- (void)rLine;
+- (void)ter.motion;
+- (void)arance customization data does not match method signature;
+- (double)ttempt to create a presenter after the scene has been dealloced :manager=%@ identifier=%@ /* Error: Ran out of types for this method. */;
+- (void)lass of _UIRemoteViewController!;
+- (struct CGSize)b;
+- (id)ryEvaluation;
+- (void)ever reach this state.;
+- (long long)ge;
+- (id)ion;
+- (id)com.apple.UIKit.UIButtonBar.UIButton;
+- (id)tCore/_NavigationButtonBarWrapperView.swift;
+- (long long)¸þ;
+- (CDUnknownBlockType)UDGestureManagerCSg;
+- (void)7G;
+- (void);
+- (id)?;
+- (double)';
+- (void);
+- (void)ce;
+- (struct CGSize)43tþQ43Øtþ!43tþ;
+- (void);
+- (void)[;
 - (void);
 - (long long);
-- (void);
-- (long long);
-- (void)1¢!0@ù
-× ;
-- (CDUnknownBlockType)sÐ!Aù±Æ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)1È°1¢!0@ù
-× ;
-- (id);
-- (void)0@ù
-× ;
-- (long long)lerPreviewing>";
-- (void)tionViewLeadingConstraint:(CDUnknownBlockType)arg1;
-- (double)keycapLeftSelectPrimaryTransform;
-- (id)ataWithCapacity: /* Error: Ran out of types for this method. */;
-- (id)enuAtLocation:(id)arg1;
-- (id)pdateMovingTouchesArraySavingOldArray: /* Error: Ran out of types for this method. */;
-- (void)endPoint:(id)arg1;
-- (void)efaultAlwaysBounceVertical:(double)arg1 horizontal: /* Error: Ran out of types for this method. */;
-- (_Bool)ialDisplayContext;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (void)sAutomaticMirroringEnabled,V_automaticMirroringEnabled;
-- (id)ert;
-- (id)yClientComponent;
-- (void)ntBarRoundedButtonViewButton;
-- (CDUnknownBlockType)Q¨R	DShT´TÜU;
-- (CDUnknownBlockType)°;
-- (struct CGSize)PulseNormalizationFactor;
-- (void)?ö;
-- (void)LayoutGuide-constraint;
-- (_Bool)data_block;
-- (struct CGSize)llPocketContainerModel_ObjC;
-- (id);
-- (void)ÿÿÿÿÿ;
-- (void)UIViewAnimatingState;
-- (id)[;
-- (void)ça;
-- (void)Ó7e;
-- (void);
-- (_Bool)×f;
-- (id);
-- (CDUnknownBlockType)ÿV;;
-- (void)Ìîf;
-- (void)ßÐ;
-- (struct CGSize)"íþðÙx8h;
-- (id)ÙÉ`h;
-- (void);
-- (void)Ñíi;
-- (void)ò;
-- (void)E;
-- (CDUnknownBlockType)´C
-ÿº;
-- (double)¦[k;
-- (id);
-- (id)gl;
-- (_Bool)¼5çþµÐl;
-- (_Bool);
-- (void)a÷ÿB;
+- (void)x;
+- (void)];
+- (void)G;
+- (void)øì];
+- (id)¡×Ð_;
+- (_Bool)°Ý_;
+- (id)<a;
+- (void)-ìÿ;
+- (double)´÷þç8Ý¬úa;
+- (_Bool)©d;
+- (void)À·ôþ;
+- (void)1]4g;
+- (void)h;
+- (CDUnknownBlockType)@³ÿ¬ÐÍ¸i;
+- (CDUnknownBlockType);
+- (void)ÔkÐ=l;
 
 // Remaining properties
 @property(nonatomic, setter=__setMonochromaticTreatment:) long long __monochromaticTreatment; // @synthesize __monochromaticTreatment;

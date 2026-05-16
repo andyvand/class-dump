@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)CollectionCustomizationNamingNameThisPerson;
+- (id);
+- (void)2ÿÇü#ÿUÇ$2ÿÇ,2ÿ]Ç<2ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;

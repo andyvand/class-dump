@@ -22,27 +22,27 @@
 
 - (void);
 - (void);
-- (CDStruct_e83c9415);
+- (CDStruct_e83c9415);
 - (CDStruct_e83c9415);
 - (void);
 - (id);
-- (void)LN;
+- (void);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (_Bool)8;
-- (void);
 - (id);
-- (id);
+- (int);
+- (_Bool);
 - (void);
-- (void);
-- (id)Progress;
-- (void);
-- (id);
 - (void);
 - (double);
 - (int);
-- (double);
-- (void);
-- (int)´Ú;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *artwork;

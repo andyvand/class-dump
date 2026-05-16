@@ -20,15 +20,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)H;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)View;
-- (void);
-- (void)è;
-- (id)óþ;
-- (id)ÊÐÌåc;
+- (id);
+- (id);
+- (void)Id:(id)arg1;
+- (void)Ê^;
+- (id)ÿq;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *defaultIssuePrefix; // @synthesize defaultIssuePrefix=_defaultIssuePrefix;

@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)temChangedNotification: /* Error: Ran out of types for this method. */;
 
 @end
 

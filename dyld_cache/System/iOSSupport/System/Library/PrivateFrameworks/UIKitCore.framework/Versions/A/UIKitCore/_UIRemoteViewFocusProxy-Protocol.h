@@ -7,7 +7,7 @@
 @class _UIRemoteViewController;
 
 @protocol _UIRemoteViewFocusProxy
-- (_UIRemoteViewController *)þÿÞûúÿ;
+- (_UIRemoteViewController *)geHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *remoteViewController;

@@ -17,20 +17,21 @@
     long long _count;
 }
 
-+ (id)tive"b1};
-+ (id)highlightType"b1"rank"b1"isConversationAutoDonating"b1"isPrimary"b1};
-+ (_Bool)ser: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eam:segment:iterationStartTime:offset: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (long long);
-- (id)rmationCommand_StatusQueryResponsesOSUpdateSettings",C,N,V_statusOSUpdateSettings;
-- (long long)order_KEY;
-- (id)ongLibraryAdded;
-- (id)raryAddedItemsPersistentIDList;
+- (long long);
+- (id);
+- (void)delPropertyAlbumLibraryAddEligible__MAPPING_MISSING__;
+- (id)d;
+- (id)6Ê
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;

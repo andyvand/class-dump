@@ -14,9 +14,9 @@
 
 - (void);
 - (_Bool);
-- (void)tNewsContext:(id)arg1;
 - (void);
 - (id);
+- (void)coordinatorContainer;
 
 @end
 

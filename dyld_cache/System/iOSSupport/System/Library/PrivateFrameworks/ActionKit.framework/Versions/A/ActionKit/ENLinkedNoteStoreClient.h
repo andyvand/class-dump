@@ -19,10 +19,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void)lId;
+- (id)/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/rsa/rsa_eay.c;
 
 // Remaining properties
 @property(nonatomic) __weak id <ENLinkedNoteStoreClientDelegate> delegate; // @synthesize delegate=_delegate;

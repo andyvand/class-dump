@@ -15,9 +15,9 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)OfInterest, Algorithm, %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;

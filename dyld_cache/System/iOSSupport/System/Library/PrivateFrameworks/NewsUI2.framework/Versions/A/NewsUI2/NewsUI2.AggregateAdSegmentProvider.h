@@ -14,8 +14,8 @@
     MISSING_TYPE *readerAdSegmentLastUpdatedKey;
 }
 
-- (void);
 - (id);
+- (void)Data;
 
 @end
 

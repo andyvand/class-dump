@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (double);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)ta: /* Error: Ran out of types for this method. */;
-- (double)Ý7GAIGAmAyAAyAAyAAyAAyADy5í9yAAyï7yAAyAqYG_SSQo_AFG_Qo_GAIGAIGAIGAIGANGtGG7å7yAAyÎß7AWyvï7GGGG;
+- (id);
+- (void)SelectableSerialNumbers: /* Error: Ran out of types for this method. */;
+- (void)¡H¢ä£¤¤;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

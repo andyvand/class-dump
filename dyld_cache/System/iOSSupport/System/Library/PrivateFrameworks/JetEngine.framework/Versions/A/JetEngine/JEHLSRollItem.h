@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 - (void);
-- (unsigned long long)stack line. Idx=;
 
 // Remaining properties
 @property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;

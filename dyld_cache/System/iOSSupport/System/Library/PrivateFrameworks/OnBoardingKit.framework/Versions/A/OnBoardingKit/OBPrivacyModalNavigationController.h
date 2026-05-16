@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void)ptr;
-- (void);
-- (_Bool)eProxy_WritePromisedAttachmentToPasteboard;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isDarkMode) _Bool darkMode; // @synthesize darkMode=_darkMode;

@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)tedPreview"32@0:8@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

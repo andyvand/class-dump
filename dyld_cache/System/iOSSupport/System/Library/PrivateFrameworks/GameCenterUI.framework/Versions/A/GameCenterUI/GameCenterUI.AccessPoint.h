@@ -26,8 +26,8 @@
     MISSING_TYPE *timer;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

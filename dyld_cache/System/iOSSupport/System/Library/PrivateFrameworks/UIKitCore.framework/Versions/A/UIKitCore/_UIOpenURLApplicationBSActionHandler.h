@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)ormAsDismissTransition;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

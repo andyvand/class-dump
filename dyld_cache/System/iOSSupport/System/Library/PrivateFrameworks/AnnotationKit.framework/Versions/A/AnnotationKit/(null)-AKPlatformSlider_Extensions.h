@@ -7,10 +7,10 @@
 @interface (null) (AKPlatformSlider_Extensions)
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
-- (double);
-- (double);
+- (double);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double akMaximumValue;

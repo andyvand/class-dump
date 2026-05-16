@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)üRýÿ;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain; // @dynamic domain;

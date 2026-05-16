@@ -34,10 +34,10 @@
 - (struct CGSize);
 - (double);
 - (struct CGSize);
-- (void);
-- (struct CGImage *);
 - (id);
-- (struct NSEdgeInsets)ction:error: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets);
+- (struct CGImage *);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) double avatarDiameter;

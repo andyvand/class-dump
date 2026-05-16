@@ -38,54 +38,57 @@
 + (id);
 + (id);
 + (id);
-- (id);
 - (struct UIOffset);
-- (id)adADUseWindowsUNCPath;
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (long long);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (struct UIOffset)B;
-- (void)`;
-- (id);
-- (id);
-- (id);
+- (struct UIOffset);
 - (void);
 - (void);
-- (void)$#%º;
-- (id)Ð!ÀFùQÇÐ1¢!0@ù
-× ;
-- (long long)0@ù
+- (struct UIOffset);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)Ô¡;
+- (id);
+- (id)±[ð1Â0@ù
 × ;
 - (id)× ;
-- (void):(id)arg1 8@"<_UINavigationBarTransitionContextProtocol>"16;
-- (struct UIOffset)zeForPhone;
-- (id)ndFont: /* Error: Ran out of types for this method. */;
-- (_Bool)n;
-- (id)ForGlobalRow:inSection: /* Error: Ran out of types for this method. */;
-- (void),N,V_highlightCornerRadius;
-- (id)T@"UILabel",&,N,V_tipLabel;
-- (id)acings;
-- (id)tomRight;
-- (id)Lü;
-- (void)alue:(id)arg1 %g;
-- (id)oard.complete;
-- (id)ting scene presenter:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)o14_UITabMorphing_p;
-- (id)ot allowed; only the first %1$ld will be used;
-- (void)to dequeue more cells than the table view is requesting, use the -dequeueReusableCellWithIdentifier:(id)arg1 method (without an index path). Cell identifier:%@, index path:%@ /* Error: Ran out of types for this method. */;
-- (long long)%@, object class is %@;
-- (struct UIOffset);
-- (id)sing key window scene;
-- (void)ple.menu.text-color;
-- (void)ibility;
-- (id)eneClassBasedComponentAccess;
-- (void)ompletion was called already;
-- (id)¬-71!aÿ3ØÏ;
-- (id);
-- (_Bool)NáZ;
-- (id)¤$ÿ;
-- (id)c;
-- (id)Ð`ýþ$ÖÍqc;
+- (void)AùÑa°1Â0@ù
+× ;
+- (id)Â0@ù
+× ;
+- (id)	°!,Dù±eð1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (id)ithMetrics: /* Error: Ran out of types for this method. */;
+- (id)omizationAreaBoundsForSession: /* Error: Ran out of types for this method. */;
+- (void)Path:(id)arg1 dropSession:(id)arg2 withDefaultProposal: /* Error: Ran out of types for this method. */;
+- (void)lexibleSpaceCount;
+- (void)ersContentOnly;
+- (struct UIOffset)T@"NSMutableSet",R,N,V_editingCollapsedGroupIdentifiers;
+- (id)$ß½;
+- (long long)ewWillBeginDraggingNotification;
+- (_Bool)arent. Returning path up to loop point. Initial object:(id)arg1 %@, object causing loop:%@, looping is object is parent for %@ /* Error: Ran out of types for this method. */;
+- (void)layoutMetrics of type %@ is not a subclass of _UIFontLayoutMetrics.;
+- (void)%@;
+- (id)Iegnnnr_;
+- (id);
+- (id)3;
+- (void)ü.ZÿÂmÙ<¥^;
+- (id);
+- (void)¼`;
+- (id)p;ºÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *backIndicatorImage;

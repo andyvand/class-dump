@@ -5,6 +5,5 @@
 //
 
 @protocol NFCopying
-- (id)eContainerViewController:willLoadFirstPageWithIdentifier: /* Error: Ran out of types for this method. */;
 @end
 

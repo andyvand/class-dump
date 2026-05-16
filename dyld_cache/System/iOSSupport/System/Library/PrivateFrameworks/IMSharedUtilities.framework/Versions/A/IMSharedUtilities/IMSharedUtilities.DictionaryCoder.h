@@ -16,16 +16,15 @@
 
 - (void);
 - (void);
-- (void);
-- (void)@;
-- (void);
 - (id);
 - (void);
+- (_Bool)tsByDescriptor;
 - (void);
-- (void);
-- (void)k
-;
-- (_Bool)ask completion:%@. Returning nil. /* Error: Ran out of types for this method. */;
+- (void)2;
+- (void)<å;
+- (void)hßÿ!f;
+- (void)zgLo;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsKeyedCoding;

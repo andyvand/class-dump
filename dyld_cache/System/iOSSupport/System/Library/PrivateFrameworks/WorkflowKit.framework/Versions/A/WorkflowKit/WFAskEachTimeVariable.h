@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)ageCropPosition);
+- (_Bool)@"WFAccessResource"8;
+- (void)se.circle.fill;
 
 // Remaining properties
 @property(retain, nonatomic) WFDisambiguationCollectionFilter *collectionFilter; // @synthesize collectionFilter=_collectionFilter;

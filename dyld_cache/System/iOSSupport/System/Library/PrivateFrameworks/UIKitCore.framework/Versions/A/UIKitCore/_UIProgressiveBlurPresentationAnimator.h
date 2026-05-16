@@ -12,11 +12,11 @@
 }
 
 + (id);
-+ (id)MDBroadcastController registerSharedProvider:] /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
-- (id)O;
-- (void)Ë.ÿÏñØ];
-- (double)À;
+- (id);
+- (double);
+- (void)_setDragDataOwner:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -8,10 +8,10 @@
 {
 }
 
-- (_Bool)dificationDate: /* Error: Ran out of types for this method. */;
-- (long long)&,N,V_queue;
+- (_Bool);
+- (long long);
 - (id);
-- (long long)TextAttachmentC;
+- (long long)þÓsâ;
 
 @end
 

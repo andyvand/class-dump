@@ -21,21 +21,21 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
-- (void);
+- (id);
+- (id);
+- (long long);
 - (_Bool);
-- (id);
 - (void);
-- (long long);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (long long);
+- (void);
 - (void);
 - (long long);
 - (void);
-- (void)@"<ARFaceTrackingDataProtocol>",&,N,V_trackingData;
-- (void)and destination buffers match resolution and number of planes but plane %lu within each pixel buffer has a different number of bytes per row;
+- (void);
+- (id);
+- (long long);
+- (void)ô¡;
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;

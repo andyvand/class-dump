@@ -16,7 +16,7 @@
 
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)èb"ÿc"ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) CDUnknownBlockType px_photosViewTouchableHitTestResultTouchAction;

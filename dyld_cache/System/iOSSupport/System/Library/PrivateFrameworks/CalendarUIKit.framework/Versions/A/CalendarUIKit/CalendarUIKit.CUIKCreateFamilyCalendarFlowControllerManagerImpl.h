@@ -12,11 +12,11 @@
     MISSING_TYPE *$__lazy_storage_$_viewController;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void)me: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) UIViewController *viewController;

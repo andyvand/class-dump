@@ -17,37 +17,37 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool)¤z;
-- (id)|;
+- (_Bool);
 - (id);
-- (void)/ræ|;
-- (id);
-- (unsigned long long)xúz;
 - (id);
-- (_Bool)ïAz;
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (struct CGSize);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (double);
-- (struct CGSize);
+- (long long);
 - (void);
-- (id)becomeFirstResponder;
+- (void);
+- (void);
+- (id)Action:(id)arg1;
+- (struct CGSize)lphabet-Keyplane-Switch-Key;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accentVariants; // @synthesize accentVariants=_accentVariants;

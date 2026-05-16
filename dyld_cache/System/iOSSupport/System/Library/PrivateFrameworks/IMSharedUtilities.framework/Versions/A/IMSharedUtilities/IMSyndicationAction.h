@@ -16,8 +16,8 @@
 
 + (id);
 + (id);
-+ (id)P;
-+ (_Bool)value;
++ (id);
++ (_Bool);
 - (unsigned char);
 - (unsigned char);
 - (id);
@@ -28,15 +28,15 @@
 - (id);
 - (void);
 - (unsigned char);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)H;
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;

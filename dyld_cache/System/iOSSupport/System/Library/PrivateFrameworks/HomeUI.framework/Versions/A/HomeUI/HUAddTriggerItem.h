@@ -16,11 +16,11 @@
 - (_Bool);
 - (Class);
 - (id);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
+- (void);
 - (id);
+- (void)ingsConfigurationMismatchDescriptionLink;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

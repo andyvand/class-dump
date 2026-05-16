@@ -13,30 +13,28 @@
 }
 
 + (_Bool);
-+ (struct CGContext *);
-+ (void)@;
++ (struct CGContext *);
 + (void);
-+ (struct CGContext *)rredContentSize:(id)arg1 ,V__shouldRespectPreferredContentSize;
-+ (Class)¤¯ÿxuÕ{a;
++ (void);
++ (Class)onFootersPinToVisibleBounds;
++ (struct CGContext *)$NêÿPNêÿ|NêÿÈNêÿôNêÿ OêÿlOêÿOêÿÄOêÿPêÿ<PêÿhPêÿ´PêÿàPêÿQêÿXQêÿQêÿ°QêÿüQêÿ(RêÿTRêÿ RêÿÌRêÿøRêÿDSêÿpSêÿSêÿèSêÿTêÿ@TêÿTêÿ¸TêÿäTêÿ0Uêÿ\UêÿUêÿÄUêÿôXêÿtYêÿÔYêÿ8ZêÿdZêÿ|Zêÿ¨Zêÿðiêÿ,jêÿhjêÿ¤jêÿàjêÿkêÿXkêÿkêÿÐkêÿlêÿHlêÿlêÿÀlêÿülêÿ8mêÿtmêÿ°mêÿìmêÿ(nêÿdnêÿ nêÿÜnêÿoêÿToêÿoêÿÌoêÿpêÿDpêÿpêÿ¼pêÿøpêÿ4qêÿpqêÿ¬qêÿèqêÿ$rêÿ`rêÿrêÿØrêÿsêÿPsêÿsêÿÈsêÿtêÿ@têÿ|têÿ¸têÿôtêÿ0uêÿluêÿ¨uêÿäuêÿ vêÿ\vêÿvêÿÔvêÿwêÿLwêÿwêÿÄwêÿ;
+- (id);
 - (_Bool);
 - (void);
-- (struct CGContext *);
 - (void);
-- (id)Á¼º;
-- (void)1¢!0@ù
+- (id);
+- (id)
 × ;
-- (void)Avð!lGùË°1¢!0@ù
+- (struct CGContext *)Qa°1Â0@ù
 × ;
-- (void)
-× ;
-- (id)ÏÐ1¢!0@ù
-× ;
-- (id)ForInlineSearch: /* Error: Ran out of types for this method. */;
-- (id)TQ,R,N,V_options;
-- (_Bool)ContentType;
-- (id)tectionState;
-- (_Bool)umnView;
-- (void)GetterForPerformWithoutRetargeting;
+- (void);
+- (_Bool)Transform;
+- (id);
+- (void)d=Ì=¬>;
+- (void)onShouldFocusWithBundle:%{public}@ (userSelectedApp) /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)m.apple.mobilesafari;
+- (void)ø ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsImageOutput;

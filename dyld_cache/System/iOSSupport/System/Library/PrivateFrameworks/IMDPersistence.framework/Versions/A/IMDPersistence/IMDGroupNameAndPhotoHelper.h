@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (id)FeatheringDescriptor",&,N,V_featheringDescriptor;
+- (id);
 
 @end
 

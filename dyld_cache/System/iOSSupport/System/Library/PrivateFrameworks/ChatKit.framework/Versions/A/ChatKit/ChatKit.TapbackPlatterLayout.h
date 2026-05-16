@@ -18,7 +18,7 @@
     MISSING_TYPE *smallTailSolidStroke;
 }
 
-- (id);
+- (id);
 
 @end
 

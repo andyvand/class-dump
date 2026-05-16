@@ -7,11 +7,8 @@
 @class NSURL;
 
 @protocol SVVideoMetadata
-- (double)¼)!ÿå	;
-- (double)uires league tag %{public}@ but there was no event associated, score=%{public}@;
-- (double);
-- (NSURL *);
-- (struct CGSize)FormatFeedConfigManager;
+- (double);
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

@@ -5,6 +5,5 @@
 //
 
 @protocol RTDaemonClientRegistrarVehicleEventProtocol
-- (void)RTMapItemProviderBluePOIParameters",R,C,N,V_parameters;
 @end
 

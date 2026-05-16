@@ -28,17 +28,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)ontact";
-- (_Bool)dentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)ceGroupName: /* Error: Ran out of types for this method. */;
-- (void)ndDate:(long long)arg1;
-- (void)tsWithError:(id)arg1 predicateBlock: /* Error: Ran out of types for this method. */;
-- (void)ggingEnabled:(id)arg1 enableAuthorizer:error: /* Error: Ran out of types for this method. */;
-- (void)haracters:(id)arg1;
-- (void)Query: /* Error: Ran out of types for this method. */;
-- (void)outputDevices:iTunesArtistIdentifier:iTunesAlbumIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)&,N,V_artworkColorAnalysisUtility;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPendingPickedRoutes; // @synthesize hasPendingPickedRoutes=_hasPendingPickedRoutes;

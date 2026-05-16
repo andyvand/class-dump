@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)dHomeMessage;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *itemProviders; // @synthesize itemProviders=_itemProviders;

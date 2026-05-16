@@ -46,11 +46,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (id)0@ù
-× ;
+- (_Bool);
+- (id)ack transition dismissal is only supported from a photos grid;
+- (void)?Ù;
 
 // Remaining properties
 @property(readonly, copy) NSArray *changedIndexPaths;

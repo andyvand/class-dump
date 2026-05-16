@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)VisibleInTouchRotor: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)<þÿÿÿ;
 
 @end
 

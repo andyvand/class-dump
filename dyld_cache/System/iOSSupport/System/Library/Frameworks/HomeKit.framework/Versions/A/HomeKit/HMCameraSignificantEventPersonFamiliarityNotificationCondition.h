@@ -11,8 +11,11 @@
     unsigned long long _personFamiliarityOptions;
 }
 
-+ (id)l;
++ (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -20,9 +23,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)Class;
-- (id)blic}@Failed to dispatch to context queue due to nil context;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

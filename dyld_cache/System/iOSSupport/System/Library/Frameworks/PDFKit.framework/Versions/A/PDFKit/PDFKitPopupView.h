@@ -12,23 +12,23 @@ __attribute__((visibility("hidden")))
     PDFKitPopupViewPrivate *_private;
 }
 
-- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (void);
-- (void)K;
 - (void);
-- (void)W;
-- (id);
-- (void)IDelayedActionCommandCache"16@"SAUIDelayedActionCommand"24;
-- (void)nt=dd}16{CGRect={CGPoint=dd}{CGSize=dd}}32Q64d72B80;
-- (void){CGRect={CGPoint=dd}{CGSize=dd}}16@48;
-- (void)trolling>"16;
 - (void);
-- (void)IImageView",&,N,V_imageView;
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (id);
 - (void);
-- (void)action;
+- (void);
+- (void)setBackgroundColor:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

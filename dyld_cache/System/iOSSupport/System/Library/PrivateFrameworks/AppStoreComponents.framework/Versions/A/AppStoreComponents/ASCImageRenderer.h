@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (struct UIEdgeInsets);
 - (id);
 - (long long);
+- (unsigned long long);
+- (struct UIEdgeInsets);
+- (id);
 - (struct CGSize);
+- (_Bool);
 - (id);
 
 // Remaining properties

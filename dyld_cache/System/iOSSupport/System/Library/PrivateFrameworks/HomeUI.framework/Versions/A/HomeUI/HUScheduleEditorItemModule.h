@@ -40,9 +40,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)"<HUSelectableGridActionSetListViewControllerDelegate>";
-- (void)ndaryLabel;
+- (void)tValue.integerValue == HUTVViewingProfilesOnboardingValue_SetupAll);
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *addScheduleRuleItem; // @synthesize addScheduleRuleItem=_addScheduleRuleItem;

@@ -13,13 +13,13 @@
     NSObject<OS_dispatch_group> *_dispatchGroup;
 }
 
-- (id)rs;
-- (id)rchKeys;
-- (void)dHeadlineServiceRequest;
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

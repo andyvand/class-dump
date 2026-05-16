@@ -7,6 +7,7 @@
 @class UIImage;
 
 @protocol CNKParticipantScreenShareInfoViewProtocol
+- (double)a: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *avatarImage;

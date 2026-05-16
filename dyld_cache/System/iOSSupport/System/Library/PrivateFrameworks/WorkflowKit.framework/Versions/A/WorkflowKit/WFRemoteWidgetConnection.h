@@ -21,8 +21,8 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)²Ì;
-+ (id)Ì;
++ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -38,23 +38,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (id);
 - (void);
-- (_Bool);
-- (void)
-;
-- (void)8¢ÿàã4¢ÿ;
+- (id);
+- (id)!@ù± Ð1â
+0@ù
+× ;
+- (void);
+- (_Bool)unrise;
+- (void)rcion:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

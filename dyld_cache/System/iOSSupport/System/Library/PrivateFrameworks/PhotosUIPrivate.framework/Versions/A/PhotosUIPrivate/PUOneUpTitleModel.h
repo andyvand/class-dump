@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)w;
+- (id)e != nil;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *localizedSubtitle;

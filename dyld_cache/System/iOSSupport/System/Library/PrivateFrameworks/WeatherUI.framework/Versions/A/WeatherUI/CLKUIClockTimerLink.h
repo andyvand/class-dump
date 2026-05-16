@@ -18,9 +18,9 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
+- (void)try's scale.;
 - (CDUnknownBlockType);
-- (void)"UECà`ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType updateHandler; // @synthesize updateHandler=_updateHandler;

@@ -12,13 +12,13 @@
 }
 
 - (long long);
-- (id);
+- (id);
 - (long long);
-- (_Bool)etExpressiveSendStyleIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)ingService: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)&,V_handler;
+- (_Bool);
+- (_Bool);
+- (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType _actionHandler; // @synthesize _actionHandler;

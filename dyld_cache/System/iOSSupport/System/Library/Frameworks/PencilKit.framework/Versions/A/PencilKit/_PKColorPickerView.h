@@ -23,21 +23,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)6;
-- (id)OptionBackupEnabled: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)mingKeysWithKeyAndValueBlock:(id)arg1;
-- (void)TimeIntervalSince1970:(id)arg1;
-- (void)erationThrottler>",&,N,V_saveThrottler;
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (struct CGSize)rTraitCollection:(struct CGSize)arg1;
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)nstraint:(id)arg1;
+- (void)letteViewDelegateProxy;
 
 // Remaining properties
 @property(retain, nonatomic) UIPanGestureRecognizer *crosshairPanGR; // @synthesize crosshairPanGR=_crosshairPanGR;

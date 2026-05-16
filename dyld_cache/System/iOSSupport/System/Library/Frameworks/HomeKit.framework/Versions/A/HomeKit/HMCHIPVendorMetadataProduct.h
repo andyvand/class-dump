@@ -17,24 +17,23 @@
 }
 
 + (id);
-+ (id)
-0È;
++ (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ment;
-- (id)delete siri history payload:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

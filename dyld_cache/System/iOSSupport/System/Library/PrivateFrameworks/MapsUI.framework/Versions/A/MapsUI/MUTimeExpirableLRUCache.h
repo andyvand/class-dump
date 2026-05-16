@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long)Info;
+- (void)ID;
+- (unsigned long long)¤;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

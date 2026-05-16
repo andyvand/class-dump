@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
     UIBarButtonItemGroup *_barButtonGroup;
 }
 
-- (double)Context;
-- (id)GUIDKey in the current transfer dictionary. Skipping it.;
-- (id)@);
-- (id)r of attachments to write up was less than max batch size Not writing more.;
+- (double);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (struct CGSize);
-- (long long);
 - (id);
+- (long long);
 - (void);
-- (void)1¢!0@ù
+- (void);
+- (long long)!PDù±Xð1Â0@ù
 × ;
-- (void)GRect={CGPoint=dd}{CGSize=dd}}24B56;
-- (long long)layToVisible:(id)arg1 shouldFadeBackToInvisible: /* Error: Ran out of types for this method. */;
-- (void)saÿ;
+- (struct CGSize)layForGesture"b1"overrideSplitBehaviorForRestrictedWidth"b2"allowToggleSidebarButtonWithoutGesture"b1"alwaysHideToggleSidebarButton"b1"allowsTriggeringSidebarKeyCommandAction"b1"wantsHideSidebarDisplayNameForKeyCommand"b1"allowsDimmedSecondaryAsDeepestUnambiguousResponder"b1"ignoresSheetContext"b1"showsSeparators"b1"allowSecondaryOnlyButton"b1"lockedForDelegateCallback"b1"inCollapsingToProposedTopColumnCallback"b1"inExpandingToProposedDisplayModeCallback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
+- (void)¼;
+- (void)=Ïli;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItemGroup *barButtonGroup; // @synthesize barButtonGroup=_barButtonGroup;

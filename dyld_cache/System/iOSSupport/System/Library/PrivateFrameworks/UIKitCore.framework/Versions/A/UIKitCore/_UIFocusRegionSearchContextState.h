@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id)ient;
-- (id)or sender:%{private}s /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (struct CGRect);
 - (void);
 

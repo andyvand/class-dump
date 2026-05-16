@@ -21,65 +21,63 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (id);
-+ (void)icRanges;
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void)ion:(id)arg1;
 + (void);
 + (void);
 + (id);
 + (void);
-+ (void)qÂð1¢!0@ù
-× ;
-+ (id)× ;
-+ (void)0@ù
-× ;
-+ (void)@ù
-× ;
-+ (void)
-× ;
-+ (void)1¢!0@ù
-× ;
-+ (id)UIPopoverPresentationController"16;
-+ (void)int=dd}32;
-+ (void)idFinishLoad:(id)arg1;
-+ (void)er: /* Error: Ran out of types for this method. */;
-+ (void)ctedRange:(unsigned long long)arg1;
-+ (void)rIIndex:jIndex: /* Error: Ran out of types for this method. */;
-+ (void)ght;
-+ (void)elSize;
 + (void);
-+ (void)odifiedInput;
 + (void);
-+ (void)nXSpring;
-+ (id)ÐÚ¼×q;
-- (id)Account: /* Error: Ran out of types for this method. */;
-- (void)edPrefsNotification:(id)arg1;
-- (void)R,N,V_identifierToZoneMap;
-- (void)yTransparencyURIToUUIDMapping;
-- (void),N;
-- (void)sitive;
-- (void)ctionary;
-- (void)istProtocol;
-- (void)SxS;
++ (void);
++ (void);
++ (void);
++ (id)1Y1Â0@ù
+× ;
++ (void);
++ (id)0@ù
+× ;
++ (void)!´Aù1d°1Â0@ù
+× ;
++ (void)ð!(Dùqgð1Â0@ù
+× ;
++ (void)ITabContainerViewDelegate>";
++ (void)tHasDestructiveAction: /* Error: Ran out of types for this method. */;
++ (void)ngTabBar:(id)arg1;
++ (void)setApplicationDeactivationReason:(int)arg1;
++ (void)tivated;
++ (void)yFilters:(id)arg1;
++ (void)TitleElementsForLargeTitle;
++ (id)ock_enabled;
++ (void)edictionsBuffer;
++ (void);
++ (void);
++ (void)íîÿîñîÿ;
++ (void)ntainerGuide;
++ (void)No delivery record found. This indicates imbalanced calls of startDeliveringPresses:(id)arg1 inPhase:(id)arg2 withEvent:and finishDeliveringPresses. /* Error: Ran out of types for this method. */;
++ (void)pletionObserving>  _Nonnull const __strong, const BOOL);
++ (void);
++ (id)_;
++ (void)ØÐxÿO;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)|;
-- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool)rchived record %@ guid %@;
-- (_Bool)ived records ***** sync token is %@;
-- (void)
-× ;
-- (id)eIdentificationType;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)Sg;
 
 // Remaining properties
 @property(nonatomic) _Bool analyticsShouldCallDidKeyPress; // @synthesize analyticsShouldCallDidKeyPress=_analyticsShouldCallDidKeyPress;

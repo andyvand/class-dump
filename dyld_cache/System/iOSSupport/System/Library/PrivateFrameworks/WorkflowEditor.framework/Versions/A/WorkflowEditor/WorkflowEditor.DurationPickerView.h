@@ -22,8 +22,9 @@
 - (void);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void)	
+HI;
 
 @end
 

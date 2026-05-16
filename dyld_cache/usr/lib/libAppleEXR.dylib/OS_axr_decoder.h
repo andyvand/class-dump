@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)CompactSize;
-- (id)P;
-- (id)"I#I#I$I%I%I&I&I'I'I(I(I)I*I*I+I+I,I,I-I-I.I.I/I0I0I1I1I2I2I3I3I4I4I5I6I6I7I7I8I8I9I9I:I:I;I<I<I=I=I>I>I?I?I@I@IAIAIBICICIDIDIEIEIFIFIGIGIHIHIIIIIJIKIKILILIMIMININIOIOIPIPIQIQIRISISITITIUIUIVIVIWIWIXIXIYIYIZIZI[I[I\I]I]I^I^I_I_I`I`IaIaIbIbIcIcIdIdIeIeIfIfIgIgIhIhIiIjIjIkIkIlIlImImInInIoIoIpIpIqIqIrIrIsIsItItIuIuIvIvIwIwIxIxIyIyIzIzI{I{I|I|I}I}I~I~IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII I¡I¢I£I¤I¥I¦I§I¨I©IªI«I¬I­I®I¯I°I±I²I³I´IµI¶I·I¸I¹IºIºI»I¼I½I¾I¿IÀIÁIÂIÃIÄIÅIÆIÇIÈIÉIÊIËIÌIÌIÍIÎIÏIÐIÑIÒIÓIÔIÕIÖI×IØIÙIÚIÚIÛIÜIÝIÞIßIàIáIâIãIäIåIåIæIçIèIéIêIëIìIíIîIïIðIðIñIòIóIôIõIöI÷IøIùIùIúIûIüIýIþIÿI /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

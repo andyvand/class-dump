@@ -13,9 +13,9 @@
 
 + (_Bool);
 + (Class);
-- (void);
 - (id);
-- (id);
+- (id)ion:(id)arg1 withTolerance: /* Error: Ran out of types for this method. */;
+- (void)0t;
 
 @end
 

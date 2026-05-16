@@ -5,7 +5,5 @@
 //
 
 @protocol PKTextInputDebugRadarEntryCellDelegate
-- (void);
-- (void)s/RCAsyncSerialQueue.m;
 @end
 

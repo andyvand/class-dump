@@ -17,9 +17,10 @@
 }
 
 - (void);
+- (id)>~;
 - (id);
-- (void);
-- (id);
+- (void)× y©ÐÿG_ACyJ AEGÊ yAAyAByn Sg_ACyAJé yC y _Qo_GGSgtGGeÐGAhCy3
+ yAVyº.¢yÌ4¢yAJG_>;
 
 @end
 

@@ -23,22 +23,24 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void)ý{©ýCÿC;
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
 - (struct CGSize);
-- (unsigned long long)orAuthenticationFailed;
+- (unsigned long long);
+- (void)±ø°1â
+0@ù
+× ;
+- (id);
+- (void)Ìûÿ9ó9;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

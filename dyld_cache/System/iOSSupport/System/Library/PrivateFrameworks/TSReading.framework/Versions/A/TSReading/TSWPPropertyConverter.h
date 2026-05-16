@@ -16,7 +16,7 @@
 + (void);
 + (void);
 + (id);
-+ (void)n-flip;
++ (void)(;
 
 @end
 

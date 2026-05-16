@@ -14,24 +14,25 @@
     NSAttributedString *_unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton;
 }
 
-- (void)Ö;
+- (void);
 - (id);
 - (id);
-- (BOOL);
-- (void)Layout;
-- (void)cation:(id)arg1 withOffset: /* Error: Ran out of types for this method. */;
+- (BOOL);
+- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)ocked notes on any device with your iCloud account by using the passcode or password for that device.;
-- (_Bool);
-- (Class);
-- (struct UIEdgeInsets);
 - (void);
-- (unsigned long long){CGPoint=dd}16;
+- (_Bool);
+- (struct UIEdgeInsets);
+- (Class);
+- (unsigned long long)
+× ;
+- (void)cSharing;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool displayNotifyAnywayButton;

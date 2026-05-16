@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)P;
-- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXSuggestLessPeopleHelperDelegate> delegate; // @synthesize delegate=_delegate;

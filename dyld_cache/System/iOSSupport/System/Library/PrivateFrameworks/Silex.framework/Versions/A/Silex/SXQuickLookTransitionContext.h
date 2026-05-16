@@ -13,7 +13,8 @@
 
 - (id);
 - (id);
-- (void);
+- (void)áÝð!ìCù1ï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *originView; // @synthesize originView=_originView;

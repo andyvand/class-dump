@@ -5,11 +5,5 @@
 //
 
 @protocol ImageGenerationViewControllerDelegate
-- (void)r;
-
-@optional
-- (void)ICPDFTextAttachment;
-- (void)ration;
-- (void)chment;
 @end
 

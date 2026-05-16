@@ -14,14 +14,14 @@
     CKBaseLayer *_baseLayer;
 }
 
-- (double)tion: /* Error: Ran out of types for this method. */;
-- (void)or;
-- (void)dAttributedString:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
-- (void)straint;
-- (id);
-- (id)ation state to failed because the note is no longer shared or the recipient is invalid;
+- (double);
 - (void);
-- (id)mingHandles;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)g=%.4f>;
 
 // Remaining properties
 @property(retain, nonatomic) CKBaseLayer *baseLayer; // @synthesize baseLayer=_baseLayer;

@@ -12,17 +12,16 @@
     CKScrollViewAnimationProperties *_animationProperties;
 }
 
-- (void)tachmentSelection;
-- (_Bool)Xw;
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)ÿ±O7
-.;
+- (_Bool);
+- (id)y.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKScrollViewAnimationProperties *animationProperties; // @synthesize animationProperties=_animationProperties;

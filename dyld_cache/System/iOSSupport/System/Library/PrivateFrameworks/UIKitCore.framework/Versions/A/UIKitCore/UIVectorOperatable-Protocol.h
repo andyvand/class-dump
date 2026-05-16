@@ -7,10 +7,13 @@
 @protocol UIVectorOperatable;
 
 @protocol UIVectorOperatable
-- (id <UIVectorOperatable>)Øþ¹;
-- (void)"NSMutableArray",&,N,V_shadowUpdates;
-- (_Bool)ntext;
-- (_Bool)ring *__autoreleasing *);
-- (id <UIVectorOperatable>)X<n([;
++ (id <UIVectorOperatable>)!ÔEù±`Ð1Â0@ù
+× ;
++ (id <UIVectorOperatable>)¸9Ä:(id <UIVectorOperatable>)arg1 ;
+- (id)deringContext:skipLayoutSegments: /* Error: Ran out of types for this method. */;
+- (id <UIVectorOperatable>);
+- (void)ñÒ­>ÀL7A`3@Ñ"Ûù~<@X9´È60@A`åÐbQ@V½S@=
+×£pý=À=
+×£p=2@ÍÌÌÌÌLD@í|?5þ:(id <UIVectorOperatable>)arg1 @Zd;ßQ@¶óýÔxñU@ClçÛFÀ`åÐ"Ûù;
 @end
 

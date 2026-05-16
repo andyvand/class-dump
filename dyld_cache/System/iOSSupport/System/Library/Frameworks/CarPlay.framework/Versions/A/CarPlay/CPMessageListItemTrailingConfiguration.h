@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (long long);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

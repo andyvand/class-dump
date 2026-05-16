@@ -6,9 +6,9 @@
 
 @interface (null) (ForMessagesOnly)
 - (_Bool);
-- (_Bool)oken;
-- (_Bool)tionPendingDidMoveToWindow;
-- (_Bool)lInteraction _handleHoverGestureRecognizer:(id)arg1 ];
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);

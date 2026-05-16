@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)losionErrorType;
++ (id);
 - (void);
 - (struct UIEdgeInsets);
-- (void)one.;
+- (void);
 
 @end
 

@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)s"B"respondsToMatchedPersonLocalIdentifiers"B"respondsToShouldDisableAutoPlayback"B};
+- (void)§Wÿ ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;

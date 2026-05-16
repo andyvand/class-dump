@@ -23,16 +23,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long)SNumber"76;
+- (unsigned long long);
+- (id);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (void);
-- (double)@"_UIRefreshControlSeedView";
-- (struct UIEdgeInsets)lectedVariantIndex;
-- (double)rFlags:keyCodes:action:upAction:discoverabilityTitle:buttonType: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)View;
-- (id);
-- (struct UIEdgeInsets)^;
+- (double);
+- (struct UIEdgeInsets)6;
+- (double)rPage: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)sHDRDuringPresentation;
+- (struct UIEdgeInsets)setTitleTextColor: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)present inside popover with transition style other than UIModalTransitionStyleCoverVertical %@.;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long artworkSubtype; // @synthesize artworkSubtype;

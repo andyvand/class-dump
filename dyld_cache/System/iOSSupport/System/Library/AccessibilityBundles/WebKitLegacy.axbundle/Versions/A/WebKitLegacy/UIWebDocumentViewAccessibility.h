@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (id);
 - (void);
@@ -47,21 +47,21 @@
 - (id);
 - (long long);
 - (void);
+- (_Bool);
+- (void);
+- (struct CGRect);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)elete:(id)arg1;
 
 @end
 

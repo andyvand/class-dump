@@ -23,23 +23,24 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)!;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool)(;
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
 - (double);
+- (unsigned long long);
+- (_Bool);
 - (id);
-- (void)N,V_fileURL;
+- (void);
+- (void);
+- (void)Þ!ÄBù1ïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;

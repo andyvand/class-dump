@@ -7,11 +7,10 @@
 @class UIView;
 
 @protocol _UIFieldEditorHostingViewRequirements
-- (long long)setAtomic: /* Error: Ran out of types for this method. */;
-- (_Bool)"userInterfaceLevel"q"vibrancy"q"userInterfaceRenderingMode"q"activeAppearance"q"focusSystemState"q"selectionIsKey"q"toolbarItemPresentationSize"q};
-- (struct CGRect)rt:(struct CGRect)arg1;
-- (UIView *)tation:viewWidth: /* Error: Ran out of types for this method. */;
-- (UIView *)tColor2=%@ compositingColor=%@;
+- (struct CGRect)ementProviderWithInitialResponder:(struct CGRect)arg1;
+- (_Bool)@CD8E E(GìG¸I JK;
+- (UIView *)ÿê$ªþ;
+- (UIView *)aitCollectionCSg;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_backgroundView;

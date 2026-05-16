@@ -19,16 +19,16 @@
     struct CGRect _sourceRect;
 }
 
-+ (id)%@;
-- (_Bool)sbupbbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmvminimal-manifest;
-- (_Bool)kskLCrP#doMngeRUKSWDROBMODSdicadiee#tabpcprkadskadbkadmkadpbupsbupbbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmvminimal-manifest;
++ (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)TiC;
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -43,25 +43,25 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void)ipantIdentifiers;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void)UniversalStoreIdentifiers;
-- (void);
-- (void);
-- (void)p;
-- (id)fromTransitionContext: /* Error: Ran out of types for this method. */;
-- (id)sView;
 - (id);
 - (void);
-- (void)hat view's keyboardLayoutGuide. Please use a keyboardLayoutGuide from higher up the view hierarchy. For best results, use viewController.view.keyboardLayoutGuide (or something else that's the size of your window).;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (struct CGRect)ns:completion: /* Error: Ran out of types for this method. */;
+- (void)t;
+- (void)ibleItem:(id)arg1;
+- (void)nt;
+- (void);
+- (void)-:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) _UIStickerPickerServiceRemoteViewController *card; // @synthesize card=_card;

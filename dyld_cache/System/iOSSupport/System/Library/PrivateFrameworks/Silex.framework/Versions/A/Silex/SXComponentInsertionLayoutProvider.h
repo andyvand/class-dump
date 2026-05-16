@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
 - (struct CGSize);
-- (id)on: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)"<SXDocumentLayout>"40d48{UIEdgeInsets=dddd}56;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

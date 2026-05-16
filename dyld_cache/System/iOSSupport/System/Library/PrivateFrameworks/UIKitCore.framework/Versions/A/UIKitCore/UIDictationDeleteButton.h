@@ -15,15 +15,14 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_blurView;
 }
 
-- (id)ister (Environment:(struct CGRect)arg1 %@);
-- (void)aded:(CDUnknownBlockType)arg1 %{BOOL}d emote:(id)arg2 %{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)
-× ;
-- (id)ontainer: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)N;
+- (void)ÁÛe;
+- (void)DÏh;
+- (id)¢#Ô;l;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;

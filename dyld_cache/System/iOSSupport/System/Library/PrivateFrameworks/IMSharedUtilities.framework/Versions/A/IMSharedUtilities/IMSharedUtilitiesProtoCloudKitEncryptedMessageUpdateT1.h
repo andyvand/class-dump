@@ -18,30 +18,30 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)m;
-- (void)ä/:(id)arg1;
-- (id)2éj¹5;
+- (id);
+- (_Bool);
+- (id)p;
+- (void)nylist;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMsgid;

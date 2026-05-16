@@ -5,6 +5,5 @@
 //
 
 @protocol MPAVItemObserver
-- (void);
 @end
 

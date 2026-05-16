@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool),N,R,VhadQOI;
 + (_Bool);
 + (_Bool);
-+ (id)umentStateChange:selectedTextRange:forceSync: /* Error: Ran out of types for this method. */;
-+ (id)Ùj8Sg;
-+ (long long)ìeÿ;
++ (_Bool);
++ (id);
++ (id)t it isn't.;
++ (long long)Øg;
 
 @end
 

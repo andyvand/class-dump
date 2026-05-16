@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <ICDocCamZoomablePageContentViewDelegate> pageContentViewDelegate; // @synthesize pageContentViewDelegate=_pageContentViewDelegate;

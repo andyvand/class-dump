@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)HUControlCenterEmptyHomeWarning;
 
 // Remaining properties
 @property(retain, nonatomic) HUServiceDetailsCameraSettingsReaderWriter *settingsReaderWriter; // @synthesize settingsReaderWriter=_settingsReaderWriter;

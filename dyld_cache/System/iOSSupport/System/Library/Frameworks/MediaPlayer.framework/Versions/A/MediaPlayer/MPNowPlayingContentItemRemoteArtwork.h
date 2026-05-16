@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)%tu byte payload, %tu attachments (change flags:%tu) /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkURLString;

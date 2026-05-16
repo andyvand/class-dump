@@ -25,10 +25,10 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)out setSelectButtonActionPerformer:(id)arg1 ];
 - (void);
-- (id)´Ð;
-- (void)ÿq;
-- (id),;
+- (id)ñ#OÚk6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -43,9 +43,9 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)`{;
 
 // Remaining properties
 @property(retain, nonatomic) HFItemManagerMessageBatchCoordinator *batchCoordinator; // @synthesize batchCoordinator=_batchCoordinator;

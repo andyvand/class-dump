@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id)tickerRecentsPresetsProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

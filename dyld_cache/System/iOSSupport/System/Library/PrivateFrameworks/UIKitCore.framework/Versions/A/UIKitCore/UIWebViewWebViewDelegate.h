@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)B44B48@52q60@68B76;
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,10 +37,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)9I;
+- (void);
 - (void);
 - (void);
 - (void);

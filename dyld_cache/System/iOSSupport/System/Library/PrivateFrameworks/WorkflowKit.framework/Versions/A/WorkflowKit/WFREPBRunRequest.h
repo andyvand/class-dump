@@ -16,18 +16,18 @@
 - (int);
 - (void);
 - (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)O;
+- (void)on workflow should be the same as environment of BGSR;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;

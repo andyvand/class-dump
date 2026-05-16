@@ -18,12 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long)!üDùQfÐ1B0@ù
-× ;
-- (void)temCache:(unsigned long long)arg1 isWebpageCoercion:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Normal audio is returned as an M4A file (with AAC audio), while high-quality audio is returned in uncompressed WAV format.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *recordKey; // @synthesize recordKey=_recordKey;

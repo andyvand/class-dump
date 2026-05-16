@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXInteractionContextManagerDelegate;
+@protocol SXInteractionContextManagerDelegate, SXInteractionContextProviding;
 
 @protocol SXInteractionContextManager
-- (void);
+- (void)eateColumnLayouterWithDelegate:(id <SXInteractionContextProviding>)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXInteractionContextManagerDelegate> delegate;

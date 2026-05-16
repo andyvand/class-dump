@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
     struct CGRect _bounds;
 }
 
-- (id)8@0:(id)arg1 8@16@24@32Q40;
-- (id)8@56@64;
-- (id)pplicationIdentifiers: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
-- (void);
+- (void)sCloud;
 
 // Remaining properties
 @property(readonly, nonatomic) MPArtworkCatalog *artworkCatalog;

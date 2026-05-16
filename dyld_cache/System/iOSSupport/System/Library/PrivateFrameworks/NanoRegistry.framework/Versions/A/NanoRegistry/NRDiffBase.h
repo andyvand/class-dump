@@ -12,9 +12,9 @@
 
 + (id);
 + (_Bool);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 
 // Remaining properties

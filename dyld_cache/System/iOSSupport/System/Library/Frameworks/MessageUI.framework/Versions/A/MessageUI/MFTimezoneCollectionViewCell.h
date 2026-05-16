@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *currentCityName; // @synthesize currentCityName=_currentCityName;

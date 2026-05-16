@@ -15,9 +15,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)ì;
+- (void)block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) LNDialog *linkDialog; // @synthesize linkDialog=_linkDialog;

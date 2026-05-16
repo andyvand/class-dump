@@ -14,11 +14,11 @@
 }
 
 + (id);
-- (id)ThrottleMap:(id)arg1;
-- (struct _MRSystemAppPlaybackQueue *)ic}@] Received a remote device change.;
 - (id);
-- (void);
+- (struct _MRSystemAppPlaybackQueue *);
 - (id);
+- (id);
+- (void)@ -> %{public}@ - Flushing recording session:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *stationStringID; // @synthesize stationStringID=_stationStringID;

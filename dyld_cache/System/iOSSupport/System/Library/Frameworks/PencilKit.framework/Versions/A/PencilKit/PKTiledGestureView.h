@@ -15,31 +15,32 @@
 
 - (id);
 - (void);
-- (void)rary;
-- (void)ccessLock:(struct CGPoint)arg1;
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)nQueue;
-- (_Bool)dler:(struct CGPoint)arg1;
-- (_Bool)rations;
-- (_Bool)resultType;
-- (_Bool)Selector:(struct CGPoint)arg1;
-- (_Bool)estUUID;
-- (_Bool):(struct CGPoint)arg1;
-- (_Bool)equestDataForSettings:(struct CGPoint)arg1;
-- (_Bool)oveObject:(struct CGPoint)arg1;
-- (_Bool)Path;
-- (id)nfigurationSource:debugEnvironment:ignoreCache: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)on:(struct CGPoint)arg1 requestMode:(id)arg2 endpointConfig:endpointTimeoutDuration:fallbackTimeoutDuration:] /* Error: Ran out of types for this method. */;
-- (void)RemoteConfiguration/RemoteConfiguration/Utilities/RCCast.m;
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id)06;
-- (id)ÿÿy;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)Q'°1Â0@ù
+× ;
+- (id)_resourceCacheSize;
+- (void)mConstraint;
 
 // Remaining properties
 @property(retain, nonatomic) id <PKDrawingPaletteStatistics> drawingPaletteStatistics; // @synthesize drawingPaletteStatistics=_drawingPaletteStatistics;

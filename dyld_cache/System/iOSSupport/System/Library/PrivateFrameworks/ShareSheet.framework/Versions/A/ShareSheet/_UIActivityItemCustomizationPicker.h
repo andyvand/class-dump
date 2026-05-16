@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

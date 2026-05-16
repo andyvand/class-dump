@@ -31,11 +31,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)pported collection %s;
-- (void)Crop(__strong id<PXDisplayAsset> _Nonnull, CGSize, CGRect, const PXStoryAssetContentInfo * _Nonnull, PXDisplayAssetPlaybackStyle, __strong id<PXStoryDisplayAssetCroppingContext> _Nonnull, PXStoryCroppingOptions);
+- (id)¡ù°!ØCù1FÐ1â
+0@ù
+× ;
+- (void)
+× ;
+- (void)ing:(id)arg1;
+- (id)etails:countAfterChanges:sublayoutProvider: /* Error: Ran out of types for this method. */;
+- (void)ñ8Ç²!ÿñ8Çðdÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *faceImageView; // @synthesize faceImageView=_faceImageView;

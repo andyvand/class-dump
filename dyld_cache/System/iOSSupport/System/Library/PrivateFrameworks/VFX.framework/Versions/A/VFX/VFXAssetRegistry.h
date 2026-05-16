@@ -13,7 +13,7 @@
     unsigned int _isPresentationObject:1;
 }
 
-+ (_Bool)imationTarget;
++ (_Bool);
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

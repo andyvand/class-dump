@@ -25,13 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)tore reinstall with:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject *object; // @synthesize object=_object;

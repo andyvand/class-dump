@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)nUnsupportedHomePodStereoPairMessage_trigger;
+- (id);
+- (void)ation.HUHomeHubSharedUserWarningViewController.CancelButton;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

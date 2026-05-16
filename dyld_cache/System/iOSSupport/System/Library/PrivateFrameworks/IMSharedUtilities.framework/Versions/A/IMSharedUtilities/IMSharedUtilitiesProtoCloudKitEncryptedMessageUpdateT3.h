@@ -22,22 +22,22 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void)`;
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool)a;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)£óÿ ;
-- (id)5ø&âÿ;
+- (id);
+- (_Bool);
+- (id)ndInfo:%@ brandLogo:%lu]> /* Error: Ran out of types for this method. */;
+- (void).effect.CKHeartEffect;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatid; // @synthesize chatid=_chatid;

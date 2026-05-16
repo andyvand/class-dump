@@ -16,24 +16,21 @@ __attribute__((visibility("hidden")))
     struct NSDirectionalEdgeInsets _contentInsets;
 }
 
-- (void)RequestID:(id)arg1 pushToken:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
-- (id)S!;
 - (void);
-- (struct NSDirectionalEdgeInsets);
-- (void)`;
 - (id);
-- (struct CGSize)%{public}@] _flushEventQueue | recursing [nextEvent was finalized] event=%{public}@;
-- (void);
-- (void);
-- (void)Áxð!DùQÎð1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (void);
+- (id)× ;
+- (struct NSDirectionalEdgeInsets)! FùQ\Ð1Â0@ù
 × ;
-- (void)n happen through use of CALayer API on the view layers instead of UIView API on the views. 
-	view:(_Bool)arg1 %@
-	superview:%@
-Break on UIViewReportBrokenSuperviewChain to debug. /* Error: Ran out of types for this method. */;
-- (id)originalOrientation;
-- (void);
-- (void)¥ÿ;
+- (id)trollerAdaptiveColumnContainerView",R,N,V_containerView;
+- (void)[_UISplitViewControllerAdaptiveImpl setMinimumPrimaryColumnWidth:(_Bool)arg1 ];
+- (void);
+- (void);
+- (void)Ôk;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *contentImageView; // @synthesize contentImageView=_contentImageView;

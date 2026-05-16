@@ -33,34 +33,31 @@
     UIKeyboardMenuView *_popupMenu;
     double _endingTransitionDuration;
     UIKBScreenTraits *_screenTraits;
-    struct CGRect _tapActionRegion;
+    struct CGRect _debugDisplayRect;
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool)guid:(id)arg1 %@, samplingUUID:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool);
-+ (long long);
-- (void)kAdded:(id)arg1;
-- (struct CGRect)ForMessageItem:account:junkChatStyle:serviceName: /* Error: Ran out of types for this method. */;
-- (void)nCallerID:failed:fromMe: /* Error: Ran out of types for this method. */;
-- (void)ngContext:(id)arg1;
-- (void)defaultsStore:(long long)arg1;
-- (void)ster:(id)arg1 recentsController:(id)arg2 chatRegistry:attachmentStore: /* Error: Ran out of types for this method. */;
-- (void)IMMessageItemToIncomingRelayDictionary:(_Bool)arg1 chat:serviceName:overridingAttachmentData: /* Error: Ran out of types for this method. */;
-- (void)onCentricGroupedChatsCache;
-- (void)tenerFileTransfersProtocol>",R,N;
+- (void);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)ansferC_SStG;
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -70,64 +67,61 @@
 - (_Bool);
 - (unsigned long long);
 - (double);
-- (struct CGRect)TrustKit decisioning skipped because sender is known/contact.;
-- (long long)ectedly nil;
-- (_Bool)adar-------*/;
-- (void)operation %@;
-- (void)e render success with output URLs:%@ /* Error: Ran out of types for this method. */;
-- (void)sage with Message Guid %@ and index %lu;
-- (id)essage History to sync.;
-- (unsigned long long)task, waiting for that to complete before kicking off the next task;
-- (long long);
-- (long long)y sync task need to be started;
-- (_Bool)vice does not support text auto reply;
-- (unsigned long long)ds, stopping chunking.;
-- (_Bool)image asset to %@ GUID:(long long)arg1 %@;
-- (_Bool)OL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
-- (void)idance %@ requested size %@;
-- (_Bool)s a plain text outgoing message;
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void)o!pAùñÁ1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)Ìð1¢!0@ù
-× ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)ActiveDictationInputInMultilingualKeyboard: /* Error: Ran out of types for this method. */;
-- (_Bool)ted;
-- (int)sLegacy;
-- (struct UIEdgeInsets)ntViewUsesPointerMaterial;
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (void)ry",C,N,V_forwardNavigationEntry;
-- (id)tView;
-- (id)Ð+\-;
-- (void)î3yoèj8G;
-- (void)dateBar;
-- (void)t the overflow menu without a view to present it from.;
-- (id)íÿ;
-- (_Bool)ô×kþXÎÐ9Ng;
-- (double);
-- (long long)Ù;
-- (id)¥i;
-- (_Bool)äj;
-- (_Bool)ÿ¬
-Û*Rk;
-- (void)¤ÿ%;
-- (void)k;
+- (long long);
+- (struct CGRect);
 - (_Bool);
-- (void)Âjÿ;
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (long long);
+- (long long);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)A
+!ÄGù±fÐ1Â0@ù
+× ;
+- (int)automaticFillColorForActive: /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (id)e's no _last then there can't be a _first either;
+- (id)pendent Visual Effect Views cannot have an independently set group name. Set your group name on on '%@';
+- (double)ewController.TransitionManager (;
+- (_Bool)Æÿÿ;
+- (_Bool);
+- (void)ÀßR0|43°^;
+- (long long)abBarItemState;
+- (_Bool)ÈÄ\;
+- (struct UIEdgeInsets);
+- (void);
+- (void)6;
+- (void)4kÿ;
+- (_Bool)èÔáþTh;
+- (void)­¤À;
+- (void)f;
+- (void)Üaéÿ^ÝÐ g;
+- (void)ÖÕÍD·g;
+- (void)ìv ÿ;
+- (id)¸Û×èXn;
+- (id)Ûn;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetIdiom;
@@ -150,6 +144,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
+@property(nonatomic) struct CGRect debugDisplayRect; // @synthesize debugDisplayRect=_debugDisplayRect;
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) struct UIEdgeInsets displayInsets;
 @property(readonly, nonatomic) _Bool displaysColorImage;
@@ -166,7 +161,6 @@
 @property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=m_renderConfig;
 @property(retain, nonatomic) UIKBScreenTraits *screenTraits; // @synthesize screenTraits=_screenTraits;
 @property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect tapActionRegion; // @synthesize tapActionRegion=_tapActionRegion;
 @property(readonly, nonatomic) struct CGRect variantFrame;
 
 @end

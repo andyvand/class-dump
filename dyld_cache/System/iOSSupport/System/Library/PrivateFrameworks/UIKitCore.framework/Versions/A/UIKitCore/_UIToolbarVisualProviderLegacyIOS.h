@@ -16,28 +16,28 @@ __attribute__((visibility("hidden")))
     UIView *_customBackgroundView;
 }
 
-- (double);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
 - (void);
-- (id)× ;
-- (void)
+- (void);
+- (id);
+- (double)¡ð!ÔFùQ[Ð1Â0@ù
 × ;
-- (id)× ;
-- (void)@ù
+- (struct CGSize)!ÌBù_1Â0@ù
 × ;
-- (void)v72@0:(long long)arg1 8@16q24q32{CGRect={CGPoint=dd}{CGSize=dd}}40;
-- (void)cancelPastAllowableMovement;
-- (void)raints:(struct CGRect)arg1;
-- (struct CGRect)uration;
-- (_Bool)rd;
-- (void)AutoFillUI.framework/AutoFillUI;
+- (void)abBarController:animatorForFromViewController:toViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)rtSublayer:below: /* Error: Ran out of types for this method. */;
+- (void)n;
+- (struct CGRect)oundPlayer;
+- (void)ote view controller:(struct CGRect)arg1 %@;
+- (void)tion;
+- (void)ransitionOverlayViewCSgXw;
+- (void);
 - (id);
 
 @end

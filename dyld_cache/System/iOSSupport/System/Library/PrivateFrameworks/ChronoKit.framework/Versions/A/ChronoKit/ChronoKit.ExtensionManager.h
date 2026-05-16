@@ -23,8 +23,8 @@
     MISSING_TYPE *extensionFactory;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

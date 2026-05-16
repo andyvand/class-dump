@@ -19,31 +19,32 @@
 }
 
 + (id);
-+ (_Bool)a;
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id)"8@"NSError"16;
-- (id);
-- (id)oudStoreZoneInvitationRequestMessage.errorDomain;
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)Á÷°!¬Eù1ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *action; // @synthesize action=_action;

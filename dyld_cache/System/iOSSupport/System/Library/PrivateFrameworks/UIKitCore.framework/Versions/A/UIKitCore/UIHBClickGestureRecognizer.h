@@ -17,22 +17,20 @@
 }
 
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
 - (void);
-- (void)! EùQÂð1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (void)b1"automaticallyUpdatesBackgroundViewConfiguration"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (void)adowWhenContentIsScrolled: /* Error: Ran out of types for this method. */;
-- (void)imer;
-- (void)_blockades;
-- (void)Íÿ3¸ï;
-- (id)¤vÜþÉË=a;
+- (void);
+- (id)eviousBackEntry;
+- (unsigned long long)emInfo.m;
+- (void)q;
+- (void);
+- (void)ÄnÆÿ8óÚp~e;
+- (void)×0ah;
+- (void)¨"¹ÿ!;
+- (void)_Pèk;
+- (void)phÿ-6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allowedPressTypes;

@@ -25,16 +25,16 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
-- (void)`fÔ­Ö0e;
-- (id);
 - (_Bool);
 - (id);
-- (id)rn a settings photo grid;
-- (long long)12PhotosUICore39NotificationsDismissalMutableController;
-- (void)¹5à;
+- (id)ledUnreadCounts;
+- (id)X¬¬l­<®Ì®à±¸³;
+- (void)on;
+- (long long);
+- (void)edTitle;
+- (id)e<Æ´ÿ;
+- (id)ØµÊÿ;
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

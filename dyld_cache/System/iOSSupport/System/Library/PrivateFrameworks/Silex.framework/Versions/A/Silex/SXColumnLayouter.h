@@ -17,7 +17,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -27,7 +27,7 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (struct CGSize);
@@ -35,9 +35,9 @@
 - (void);
 - (struct CGPoint);
 - (id);
+- (id);
 - (void);
-- (id)eadlinesInInventory;
-- (void);
+- (void)@"<SWInteractionProvider>";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

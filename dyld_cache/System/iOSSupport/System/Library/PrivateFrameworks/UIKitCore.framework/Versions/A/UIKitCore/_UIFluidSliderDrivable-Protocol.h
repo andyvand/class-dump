@@ -5,11 +5,10 @@
 //
 
 @protocol _UIFluidSliderDrivable
-- (double)t",&,N;
-- (double)`úÌúDþ¤þÿP\;
-- (unsigned long long)é;
-- (_Bool)1
-4L¢;
+- (double)Ð1Â0@ù
+× ;
+- (double){NSDirectionalEdgeInsets=dddd},N,V_menuItemInternalPadding;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTrackLength;

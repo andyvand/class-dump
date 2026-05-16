@@ -14,11 +14,11 @@
     MISSING_TYPE *timer;
 }
 
-- (void);
-- (id)adowTopicFeedOntologyLevelConfig;
-- (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

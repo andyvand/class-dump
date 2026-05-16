@@ -19,34 +19,32 @@ __attribute__((visibility("hidden")))
     struct CGPoint _origin;
 }
 
-- (_Bool)MSharedEmergencyInfo",&,N;
-- (id)IMMatchingChat: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)from legacy service session, please file a radar-------*/;
-- (void)en %@ for handles %@;
-- (void)output path:(id)arg1 %@  error:%@ /* Error: Ran out of types for this method. */;
-- (void)error:(id)arg1 %@;
-- (id)ipts in SMS chat;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (double);
-- (void);
 - (id);
-- (long long);
-- (void);
 - (id);
-- (void)
-× ;
-- (void)Ë°1¢!0@ù
-× ;
-- (struct CGPoint)cScrollEnabled;
 - (void);
-- (id)d by accessing properties or methods on the view controller before calling a UIViewController initializer. View controller:%@ /* Error: Ran out of types for this method. */;
-- (long long)ps.ÿ+Ùýd;
-- (void);
-- (id)Dm;
+- (id)ithinBound: /* Error: Ran out of types for this method. */;
+- (void)Horizontally;
+- (long long)tÀ;
+- (struct CGPoint)x½;
+- (void)systemUIService from the default system shell (attempt %u).;
+- (long long)ôÿÿÿµúêÿN§þdþÿâuìÿ;
+- (void)_UIFlexInteractionLargeVariantSpec;
+- (void)X{Èÿ2Oý;
+- (id)¸Gm;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

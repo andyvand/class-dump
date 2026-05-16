@@ -7,10 +7,6 @@
 @class NSArray;
 
 @protocol TSKDocumentViewController
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)sion statistics:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *CJKLanguages;

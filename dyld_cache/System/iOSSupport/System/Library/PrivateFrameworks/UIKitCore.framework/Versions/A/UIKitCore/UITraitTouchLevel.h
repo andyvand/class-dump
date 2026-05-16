@@ -12,8 +12,8 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)argetC;
-+ (long long)H@ÿ:úÊ"¶f /* Error: Ran out of types for this method. */;
++ (id)ationDisabled;
++ (long long)(g;
 
 @end
 

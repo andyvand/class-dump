@@ -15,10 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (id)ô'þÿÆÿÿèoþÿ;
-- (void)¥;
+- (id)1Â0@ù
+× ;
+- (void)wAnimator;
+- (void)@;
+- (void)Èÿ' Ü°];
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

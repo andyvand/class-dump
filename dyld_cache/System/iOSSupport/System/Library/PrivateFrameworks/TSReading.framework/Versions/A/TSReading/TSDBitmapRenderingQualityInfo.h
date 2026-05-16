@@ -17,7 +17,7 @@
 - (struct CGImage *);
 - (void);
 - (void);
-- (int)dalOperationPresenter;
+- (int)ng Shader with Motion Blur;
 
 // Remaining properties
 @property(readonly, nonatomic) int quality; // @synthesize quality=mQuality;

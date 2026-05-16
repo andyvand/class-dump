@@ -19,9 +19,9 @@
 - (id);
 - (_Bool);
 - (CDStruct_5f1f7aa9);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 
 @end
 

@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *detections; // @synthesize detections=_detections;

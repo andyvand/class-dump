@@ -12,9 +12,11 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (double);
+- (double)Eð1â
+0@ù
+× ;
+- (void)ringToPlay;
+- (void):(id)arg1 undoManager:context:privacyController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) double displayScale;

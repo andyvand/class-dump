@@ -5,7 +5,6 @@
 //
 
 @protocol IMSendProgressTimeDataSource
-- (double);
 
 // Remaining properties
 @property(readonly) double timeIntervalSinceReferenceDate;

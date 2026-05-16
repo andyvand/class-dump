@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
@@ -26,25 +26,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
+- (_Bool)OfView:(id)arg1;
+- (void)r:(id)arg1;
 - (void);
-- (_Bool)ctForBounds: /* Error: Ran out of types for this method. */;
-- (_Bool)veToFirstVisibleIndex: /* Error: Ran out of types for this method. */;
-- (void)tOpaqueScrolling;
-- (void)essibility__UIKit__AppKit;
-- (_Bool)putWindowControllerAccessibility_super;
-- (void)ø;
-- (_Bool)ª;
-- (void)immingViewWasTapped;
-- (void)oundedCornerView;
+- (void)EdgeBoundaries;
+- (void)blePointHitTest:(id)arg1;
+- (_Bool)ssicImplAccessibility_super;
+- (void)mnContainerViewAccessibility;
+- (void);
+- (void)dRoots/4~CNrWugBQKdr--C7GqYBSB1dyvaQ2qj3L90Qbi_w/Library/Caches/com.apple.xbs/TemporaryDirectory.62SqMK/Sources/AccessibilityBundles_Alias2/UIKitAccessibility/Tables/UITableViewAccessibility.m;
+- (void)Reordering;
+- (_Bool): /* Error: Ran out of types for this method. */;
 
 @end
 

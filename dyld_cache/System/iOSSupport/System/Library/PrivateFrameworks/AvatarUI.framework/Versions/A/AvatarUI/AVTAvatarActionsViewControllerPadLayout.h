@@ -16,7 +16,7 @@
 
 + (double);
 + (double);
-- (struct CGRect)P;
+- (struct CGRect);
 - (id);
 - (id);
 - (struct CGRect);
@@ -24,9 +24,9 @@
 - (struct CGRect);
 - (double);
 - (long long);
+- (struct UIEdgeInsets);
 - (struct CGSize);
 - (void);
-- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(readonly, nonatomic) double actionButtonsViewAlpha;

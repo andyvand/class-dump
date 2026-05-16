@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)LÃÿ;
+- (void);
+- (id);
 
 @end
 

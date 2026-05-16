@@ -7,10 +7,10 @@
 @class NSArray;
 
 @interface (null) (UIKeyboardAdditions)
-- (unsigned long long);
-- (_Bool)%@;
-- (_Bool)ccountDataclassMessages.;
-- (_Bool)Messages.;
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 

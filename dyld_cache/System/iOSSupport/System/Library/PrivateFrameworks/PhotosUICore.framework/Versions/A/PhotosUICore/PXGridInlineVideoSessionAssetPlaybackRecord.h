@@ -42,10 +42,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool)r>"8;
+- (void)from action performer.;
 - (struct CGAffineTransform);
-- (void);
-- (_Bool)\6;
+- (void)¡É¤¿3ÿ¡ÉÀ#ÿ¡É¿3ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *currentPixelBuffer;

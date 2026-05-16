@@ -14,22 +14,22 @@
     UITextRange *_unobscuredRange;
 }
 
-+ (id)tly Deleted:(id)arg1 returning nil record. recordID nil for metadata:(id)arg2 %@;
++ (id);
+- (void)lor;
+- (void)an incorrect role. Expected "%@", Received:"%@" /* Error: Ran out of types for this method. */;
+- (void)with identifier %@. Is the necessary entitlement set?;
+- (void)obal supplementary definition.;
+- (id)t;
+- (id)tEdgeStart;
+- (id)Îþÿ;
+- (void)w;
+- (void)ë?¼t<Âu=¦Ä;;
+- (_Bool);
 - (id);
-- (void);
-- (id)dow;
-- (_Bool)nScale;
-- (id)teractionSubInteractionSettings",N,&,Vpinch;
-- (id)oolbox;
-- (void)á?òÓ¸7¿aÔ?__ëÀy ²ìSËÀ'¼§>ð@;
-- (void);
-- (id)4(iþ;
-- (void);
-- (id)4 |jþÅy4<Jgþµy4X|jþ;
-- (void);
-- (void);
-- (Class);
-- (void)y];
+- (id);
+- (id)awRepresentableTraitDefinition;
+- (void)§_;
+- (Class)}];
 
 // Remaining properties
 @property(retain, nonatomic) Class classicCanvasViewClass; // @synthesize classicCanvasViewClass=_classicCanvasViewClass;

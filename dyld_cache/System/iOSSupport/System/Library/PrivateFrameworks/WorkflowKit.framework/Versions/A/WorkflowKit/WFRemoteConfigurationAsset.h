@@ -17,19 +17,19 @@
 }
 
 + (id);
-+ (id)q~ç;
++ (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id)or photo burst;
+- (void)ResponseForRunRequest:controller:error:completion:] /* Error: Ran out of types for this method. */;
+- (id)Turned Off);
+- (id)arameterDialogRequestC;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *assetDataFile; // @synthesize assetDataFile=_assetDataFile;

@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)MDIDSService received login changed to %@:(id)arg1 %@ (%@);
++ (id);
 - (id);
-- (long long)nPéÇ¤øn|éÇ ÿnéÇoPêÇo`êÇJoêÇ\oëÇäyotëÇ<o ëÇ¸GpèìÇ4píÇÀäp(íÇq\íÇ4qîÇq<îÇølr<ïÇxsrÈïÇÄÌrÜïÇDsôïÇÈs@ðÇl4sXðÇ(DsxðÇh~s°ðÇÃsÐðÇøåsäðÇ´<tdñÇÐ@tÌñÇdEtòÇ^tlòÇ¶tÐòÇîtðòÇàøtóÇàútDóÇtuóÇlQu¬óÇðuÀóÇ ±uÔóÇDÖuDôÇ<ãuöÇôçu,öÇð;vöÇPCv¨öÇ,OvèöÇÔRvüöÇÀfv÷Ç~v0÷Çìvd÷Çªv|÷Ç @w@øÇ$ÀwxøÇ¤;xøÇ4KxÜøÇÄZx;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) BKSAnimationFenceHandle *animationFence;

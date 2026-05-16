@@ -14,16 +14,15 @@
 }
 
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
 - (_Bool);
-- (id)!$Dù1yÐ1b0@ù
-× ;
-- (void)ceAtIndexPath:(CDUnknownBlockType)arg1;
-- (id)ew mode transition %@;
-- (long long)itivityInterventionManagerDelegateHandler";
+- (id);
+- (id)ltValueDidChangeForKey: /* Error: Ran out of types for this method. */;
+- (id)IàI;
+- (long long)azy_storage_$_allowedMovieChromeItems;
+- (void)items;
+- (id);
+- (id)q;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

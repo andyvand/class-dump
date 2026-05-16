@@ -16,21 +16,20 @@
     MISSING_TYPE *defaultThumbTintColor;
 }
 
-+ (_Bool);
-- (void)uring>"8;
-- (void)AskPermission;
++ (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGSize);
 - (id);
-- (void);
-- (struct UIEdgeInsets)",&,N,V_topConstraint;
-- (void);
-- (id)riantSpec;
-- (void)ÿÅ;
-- (struct CGSize)i;
-- (struct CGSize)	
-ÿæÑ£yp;
+- (void)ptionWithText:type: /* Error: Ran out of types for this method. */;
+- (void)rimaryColumnWidth: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)ockedEnvironments;
+- (struct CGRect)tSentSessionDidBegin:(struct CGRect)arg1 ,V_sentSessionDidBegin;
+- (id)lStyle;
+- (struct CGSize)UIResponder or UIStateRestoring:(struct CGSize)arg1 %@;
+- (void)LGÿ¡Û;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *additionalTrackingViews;

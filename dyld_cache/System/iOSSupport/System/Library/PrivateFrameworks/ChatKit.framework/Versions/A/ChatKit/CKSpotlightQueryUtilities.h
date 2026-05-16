@@ -9,18 +9,18 @@
 }
 
 + (id);
-+ (id)s;
-+ (_Bool)m;
-+ (id)ue:(id)arg1 %@, color:(unsigned long long)arg2 %@, aboveExistingHighlights:(id)arg3 %@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
-+ (id).;
-+ (id)%@;
-+ (id)%@;
-+ (id)NoteTimelineControllerInternal;
++ (id);
++ (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id);
 
 @end
 

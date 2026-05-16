@@ -7,12 +7,6 @@
 @class IMSticker, NSDate, NSString;
 
 @protocol CKStickerDetailsItem
-- (NSString *);
-- (NSString *)ÀÕ;
-- (NSString *)Õ;
-- (id)[ÀÕ;
-- (NSDate *)&Ö;
-- (IMSticker *)eSystemPaper;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canDeleteFromStickerDetails;

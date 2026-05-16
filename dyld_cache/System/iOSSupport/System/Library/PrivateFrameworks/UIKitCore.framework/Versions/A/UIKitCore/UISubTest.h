@@ -20,12 +20,12 @@
 
 - (id);
 - (id);
-- (void)SingleSelect;
 - (void);
-- (void);
-- (id)^v16@24^?32:(id)arg1 40;
-- (void)yInsets;
-- (id)xpanded;
+- (void);
+- (void);
+- (id)elatedBy:(id)arg1 toAnchor:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id);Â;
+- (void)ßØÐèb;
 
 // Remaining properties
 @property(readonly) NSNumber *startTime; // @synthesize startTime=_startTime;

@@ -9,19 +9,10 @@
 @protocol RTIInputSystemSessionDelegate
 
 @optional
-- (void);
-- (void)N,GisProxyGroupPlayer;
-- (void);
-- (void);
-- (void)aint:(RTIInputSystemSession *)arg1;
-- (void)abled:(RTIInputSystemSession *)arg1 selected:(RTISessionOptions *)arg2 state: /* Error: Ran out of types for this method. */;
-- (void)ionDidClickUp:(RTIInputSystemSession *)arg1;
-- (void)erization:(RTIInputSystemSession *)arg1;
-- (void)INavigationBarLayout",&,N,V_toLayout;
-- (void)e;
-- (void)itCore.ManagerShim;
-- (void)ewLargeVariantSpec";
-- (void)´øå+$dþ;
-- (void);
+- (void)ationResponse:(RTIInputSystemSession *)arg1;
+- (void);
+- (void)ouping check:(RTIInputSystemSession *)arg1 Beginning at indexPath:(RTISessionOptions *)arg2 %@;
+- (void)Ref);
+- (void)terfaceOrientation;
 @end
 

@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)aysLoggedIn;
-- (id)ier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (double)G#;
-- (double);
-- (double);
-- (double);
+- (double)_UIDatePickerContainerViewController;
+- (double)ew;
+- (id)future version.;
+- (double)toolbar visual provider class, falling back to the default.;
+- (double)egistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double cornerRadius;

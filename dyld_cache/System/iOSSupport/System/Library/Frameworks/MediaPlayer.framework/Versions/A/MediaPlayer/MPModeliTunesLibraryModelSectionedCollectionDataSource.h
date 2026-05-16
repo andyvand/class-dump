@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)ength is 0;
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (unsigned long long)8@16B24@28@36@44@52;
+- (unsigned long long)laying;
+- (void),R,N,V_originalRouteSubtype;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

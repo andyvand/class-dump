@@ -7,20 +7,8 @@
 @class NSString;
 
 @protocol VFXTextJSExport
-- (_Bool);
-- (void)enable_texture_prelighted_2d = enable_texture_prelighted && !enable_texture_2d_array;
-
-constant bool uniform_sphere = has_size1D && !has_particle_transform;
-constant bool non_uniform_sphere = !uniform_sphere;
-
-#if TARGET_OS_VISION
-constant bool enable_depth_as_color = re_uniforms;
-#else
-constant bool enable_depth_as_color = false;
-#endif
-
-#endif
-;
+- (id)thStitchedDescriptor:error: /* Error: Ran out of types for this method. */;
+- (void)LU;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignmentMode;

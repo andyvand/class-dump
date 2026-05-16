@@ -15,21 +15,21 @@
     UIFont *_font;
 }
 
-+ (_Bool)ÍZm;
++ (_Bool)ers - they should only forward them;
 - (id);
-- (void)keys length;
-- (_Bool);
+- (id);
 - (unsigned long long);
-- (void)tDirection;
-- (_Bool)(;
-- (id);
-- (id);
-- (void);
-- (id);
-- (long long)bBarContentLayoutHost;
-- (id)com.apple.CarPlayApp;
-- (void)lçË?Tã¥Ä ì?ClçË¿!°rhíà¿0ä.ÿ++;
-- (id)ö\;
+- (id);
+- (_Bool)SentinelPoint:(id)arg1;
+- (void)eTouchKeyplaneName;
+- (id)regroundAccessoryView;
+- (void)sionTouchpadFeedbackDelegate>",W,N;
+- (id)led because no builder is registered for scene session role "%@".;
+- (void)= %@;
+- (id)g?;
+- (_Bool)ns = %@; offset = %@; increment = %@>;
+- (long long)R7;
+- (void)\)hþ;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontForContentSizeCategory; // @synthesize adjustsFontForContentSizeCategory=_adjustsFontForContentSizeCategory;

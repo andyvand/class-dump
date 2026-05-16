@@ -8,12 +8,11 @@
 @protocol PXAnonymousView, PXGadgetDelegate;
 
 @protocol PXGadget
-- (id <PXGadgetDelegate>);
-- (void);
-- (struct CGSize)nAction init];
 
 @optional
-- (NSObject<PXAnonymousView> *)Destination",R,C,N,V_sidebarBackNavigationRootDestination;
+- (NSString *)IÈ ;
+- (NSObject<PXAnonymousView> *)yModifier;
+- (long long)8ÿÊ|8ÿÊx8ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessoryButtonTitle;

@@ -76,7 +76,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -86,108 +86,34 @@
 - (void);
 - (id);
 - (id);
-- (struct __SecCertificate *);
+- (struct __SecCertificate *);
 - (id);
 - (id);
 - (int);
-- (unsigned long long)>
-			<key>clientProgram</key>
-			<false/>
-		</dict>
-		<key>SceneKit_JitterToEven</key>
-		<dict>
-			<key>outputs</key>
-			<dict>
-				<key>color</key>
-				<string>SceneKit-jitter-even</string>
-			</dict>
-			<key>inputs</key>
-			<dict>
-				<key>textureSampler1</key>
-				<string>SceneKit-jitter-odd</string>
-				<key>textureSampler0</key>
-				<string>COLOR</string>
-			</dict>
-			<key>draw</key>
-			<string>DRAW_QUAD</string>
-			<key>clientProgram</key>
-			<false/>
-		</dict>
-		<key>SceneKit_JitterResolve</key>
-		<dict>
-			<key>outputs</key>
-			<dict>
-				<key>color</key>
-				<string>COLOR</string>
-			</dict>
-			<key>inputs</key>
-			<dict>
-				<key>textureSampler0</key>
-				<string>SceneKit-jitter-odd</string>
-				<key>factor</key>
-				<string>C3D-jitter-factor-resolve</string>
-			</dict>
-			<key>draw</key>
-			<string>DRAW_QUAD</string>
-			<key>clientProgram</key>
-			<false/>
-		</dict>
-	</dict>
-	<key>targets</key>
-	<dict>
-		<key>SceneKit-jitter-odd</key>
-		<dict>
-			<key>type</key>
-			<string>color</string>
-			<key>persistent</key>
-			<true/>
-			<key>format</key>
-			<string>rgba32f</string>
-		</dict>
-		<key>SceneKit-jitter-even</key>
-		<dict>
-			<key>type</key>
-			<string>color</string>
-			<key>persistent</key>
-			<true/>
-			<key>format</key>
-			<string>rgba32f</string>
-		</dict>
-	</dict>
-	<key>symbols</key>
-	<dict>
-		<key>C3D-jitter-factor-resolve</key>
-		<dict>
-			<key>type</key>
-			<string>float</string>
-		</dict>
-	</dict>
-</dict>
-</plist>
-;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (long long);
 - (id);
-- (id)oercionClassesIfNeeded;
-- (id);
 - (void);
-- (id));
-- (id);
-- (id);
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
-- (id)ed;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;

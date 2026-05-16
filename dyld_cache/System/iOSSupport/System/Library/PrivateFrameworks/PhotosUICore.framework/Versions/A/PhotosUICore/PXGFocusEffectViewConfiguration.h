@@ -25,12 +25,12 @@
 - (void);
 - (double);
 - (unsigned long long);
+- (double);
 - (_Bool);
-- (double);
-- (void);
-- (double);
-- (id)ionP;
-- (void)Æ5Lïs3;
+- (void)Ô ;
+- (id)è;
+- (double)ut] %p numberOfSublayouts:%li->%li /* Error: Ran out of types for this method. */;
+- (void).m;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentMotionRotation; // @synthesize contentMotionRotation=_contentMotionRotation;

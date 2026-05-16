@@ -16,11 +16,11 @@
 
 + (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CNAutocompleteSearchManager *owner; // @synthesize owner=_owner;

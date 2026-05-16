@@ -43,11 +43,11 @@ __attribute__((visibility("hidden")))
     struct CGPoint _balloonViewOrigin;
 }
 
-- (id)electingText;
-- (void)ext",R,N;
-- (void)CSortableSearchableItem",R,N,V_sortableSearchableItem;
-- (void)iewGeneratorImageClassificationOperation;
-- (id)dParagraph;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -63,34 +63,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)GATG_G;
-- (void)GGAGGG_G;
 - (void);
 - (void);
-- (void)CNoteCGGSo0aB2IDCG;
 - (void);
-- (void)CG;
-- (void)So6ICNoteCSo8ICFolderCSgG;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)ICCalculateDocumentControllerCSgXw;
+- (id);
 - (void);
 - (void);
-- (void)dia decrypted data for:(id)arg1 %@;
-- (_Bool)of LPLinkMetadata;
-- (id)ody** removed the subfolder;
-- (id)oldShare = ;
-- (_Bool)t's value outside of being installed on a View. This will always read the default value and will not update.;
-- (void)rary/BuildRoots/4~CG-BugC_vsuSi25UhcCZL-obq9FqSoBPBx7ynGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/WebView/NoteHTMLEditorView.m;
-- (void)enotes.text;
-- (id)eLoader loadImage];
-- (id)uid) != nil);
-- (_Bool)have access to these notes may lose it.;
-- (id)cess to this note may lose it.;
-- (void)lder already contains shared notes and folders. People who currently have access to these may lose it.;
-- (id)read and edit all notes within it.;
-- (id)er password to diverge crypto;
-- (void)to find valid row range %@ %lu %@;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -99,17 +99,16 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (id);
 - (id);
-- (id)	
-;
-- (void);
-- (void);
-- (id)*0;
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -120,22 +119,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)%ܚ�;
 - (void);
 - (BOOL);
-- (void);
 - (id);
-- (void)che:(BOOL)arg1;
-- (id)nfigurationUsingState: /* Error: Ran out of types for this method. */;
-- (id)tteChoke;
-- (id)?ç«SSÀò«yí«ySaySSGSSD<yAB_SSQo_G_AFSgtGG_4q¬Qo_;
-- (void)»ç¬y­GG_Qo_ò§=Gô§=GIegynr_;
-- (void)kUÿ;
-- (id)ØhÿE7¼Ü/;
-- (void)P²oÿÇ;
+- (void);
+- (id)ý°!Cù1Ð1Â0@ù
+× ;
+- (void)!DGù1Â0@ù
+× ;
+- (void)tionCell;
+- (id);
+- (void)ot updating conversation selection because current configuration does not show selection.;
+- (void)¾;
+- (id);
+- (id)Ó;
+- (id)³0;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *balloonContainer; // @synthesize balloonContainer=_balloonContainer;

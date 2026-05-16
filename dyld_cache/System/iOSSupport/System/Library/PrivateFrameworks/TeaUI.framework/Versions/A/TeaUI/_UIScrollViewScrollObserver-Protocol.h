@@ -5,6 +5,5 @@
 //
 
 @protocol _UIScrollViewScrollObserver
-- (void)d,N,V_newsTodayWidgetPresentationImpressionValue;
 @end
 

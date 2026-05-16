@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PRPosterHostedContentSettings, UIScene;
-
 @protocol PROverlaySceneObserving
-
-@optional
-- (void)med:(UIScene *)arg1 withTint:(PRPosterHostedContentSettings *)arg2 size: /* Error: Ran out of types for this method. */;
-- (void):(UIScene *)arg1;
 @end
 

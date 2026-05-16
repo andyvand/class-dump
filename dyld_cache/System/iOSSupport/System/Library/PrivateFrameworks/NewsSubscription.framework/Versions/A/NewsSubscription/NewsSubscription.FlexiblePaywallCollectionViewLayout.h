@@ -13,14 +13,14 @@
     MISSING_TYPE *supplementaryItemAttributes;
 }
 
-- (struct CGSize)ndEditing:reason: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)maø%;
-- (id)icFileProvider;
+- (id)mentSectionItemHeightProvider;
+- (id)¨;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;

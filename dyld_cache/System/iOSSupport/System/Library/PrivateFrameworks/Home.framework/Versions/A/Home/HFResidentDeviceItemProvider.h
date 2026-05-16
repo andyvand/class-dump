@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)ed;
+- (void)nentForSymptom:(CDUnknownBlockType)arg1 contextProvider: /* Error: Ran out of types for this method. */;
+- (void)*T,;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

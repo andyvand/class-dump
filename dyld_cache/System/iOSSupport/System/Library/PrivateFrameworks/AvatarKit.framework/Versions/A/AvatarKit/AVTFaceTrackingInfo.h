@@ -9,7 +9,7 @@
     CDStruct_32896d86 _trackingData;
 }
 
-+ (id);
++ (id);
 - (const CDStruct_32896d86 *);
 
 // Remaining properties

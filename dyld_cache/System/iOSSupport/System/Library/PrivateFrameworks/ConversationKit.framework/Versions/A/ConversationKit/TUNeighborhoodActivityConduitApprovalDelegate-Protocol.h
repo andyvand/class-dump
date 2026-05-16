@@ -5,6 +5,5 @@
 //
 
 @protocol TUNeighborhoodActivityConduitApprovalDelegate
-- (void)lingContentInset;
 @end
 

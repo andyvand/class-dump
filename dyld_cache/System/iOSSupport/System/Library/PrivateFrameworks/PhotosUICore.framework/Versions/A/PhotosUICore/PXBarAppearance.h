@@ -57,21 +57,20 @@
 - (long long);
 - (void);
 - (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)!`AùÑy1b0@ù
-× ;
-- (void)RootViewEnvironmentWriter %{public}s;
-- (id)onSlowOrHanging;
-- (void)/;
 - (_Bool);
-- (void)ÿåDN>7;
+- (void);
+- (id);
+- (id)re;
+- (void)tate.90;
+- (void)ackDelegate;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setAnimationOptions:) PXBarAnimationOptions *_animationOptions; // @synthesize _animationOptions=__animationOptions;

@@ -13,9 +13,12 @@
 - (id);
 
 // Remaining properties
+@property(nonatomic) _Bool certified; // @dynamic certified;
+@property(nonatomic) long long circuitScope; // @dynamic circuitScope;
 @property(nonatomic) long long consumptionEnergyMilliwattHours; // @dynamic consumptionEnergyMilliwattHours;
 @property(nonatomic) long long consumptionPowerMilliwatts; // @dynamic consumptionPowerMilliwatts;
 @property(nonatomic, copy) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
+@property(nonatomic, copy) NSString *deviceName; // @dynamic deviceName;
 @property(nonatomic) _Bool guidanceFollowed; // @dynamic guidanceFollowed;
 @property(nonatomic, copy) NSString *guidanceGridID; // @dynamic guidanceGridID;
 @property(nonatomic) _Bool hasEnergyData; // @dynamic hasEnergyData;

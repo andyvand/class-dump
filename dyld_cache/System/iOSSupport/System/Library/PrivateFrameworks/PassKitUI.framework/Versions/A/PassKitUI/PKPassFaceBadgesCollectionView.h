@@ -31,19 +31,20 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (struct NSDirectionalEdgeInsets);
-- (unsigned long long);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
+- (void)
+× ;
+- (void)w;
+- (void)ext:(long long)arg1 Failed to write externalized controller state archive to url:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)Rÿÿ¼2;
+- (id)Dtääz\R|Á®jo5Ô¶"´¥»­ÇÙá0q}ß×jþää!,ÚB_¶;
+- (long long)í;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *badgesBackgroundColor; // @synthesize badgesBackgroundColor=_badgesBackgroundColor;

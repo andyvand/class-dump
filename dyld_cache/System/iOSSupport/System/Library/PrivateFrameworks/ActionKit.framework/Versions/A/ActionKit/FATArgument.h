@@ -13,11 +13,11 @@
 }
 
 + (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)ualToNull: /* Error: Ran out of types for this method. */;
+- (void)open a session;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) FATField *field; // @synthesize field=_field;

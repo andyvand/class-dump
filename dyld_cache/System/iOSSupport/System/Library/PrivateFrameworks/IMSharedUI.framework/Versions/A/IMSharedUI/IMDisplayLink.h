@@ -17,24 +17,24 @@
 }
 
 + (Class);
-+ (id)bKit:(id)arg1:(SEL)arg2 WebTransportSession>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::ThreadSafeWeakPtr<WebKit::WebTransportSession>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::ThreadSafeWeakPtr<WebKit::WebTransportSession>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslatorAdapter<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::ThreadSafeWeakPtr<WebKit::WebTransportSession>>::KeyValuePairTraits, WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::ThreadSafeWeakPtr<WebKit::WebTransportSession>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::WebTransportSessionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
+- (void);
 - (id);
-- (void)tor = WTF:(id)arg1:IdentityHashTranslator<WTF::HashMap<WebCore::ClientOrigin, unsigned int>::KeyValuePairTraits, WTF::DefaultHash<WebCore::ClientOrigin>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WebCore::ClientOrigin] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool));
+- (_Bool);
 - (id);
-- (void)$;
-- (void)@;
 - (id);
+- (void);
+- (void);
 - (long long);
-- (SEL);
-- (id);
-- (id);
-- (void)ryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (void);
+- (SEL);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long preferredFramesPerSecond; // @synthesize preferredFramesPerSecond=_preferredFramesPerSecond;

@@ -24,12 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (long long)];
+- (long long);
 - (void);
-- (void)_stubs;
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)oryURL;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool UIShouldReflectCommittedURLInsteadOfCurrentURL; // @synthesize UIShouldReflectCommittedURLInsteadOfCurrentURL=_UIShouldReflectCommittedURLInsteadOfCurrentURL;

@@ -15,7 +15,7 @@
     DNDGlobalConfigurationService *_cachedDNDGlobalConfigurationService;
 }
 
-+ (id)ûêÿ]ed;
++ (id)Success;
 - (void);
 - (void);
 - (void);
@@ -23,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -40,9 +40,9 @@
 - (id);
 - (void);
 - (id);
-- (id)`;
-- (void);
 - (id);
+- (id);
+- (void)415downloadedBytesAC05totalC0AC11averageRatetÂõñ4_pGSg;
 
 // Remaining properties
 @property(retain, nonatomic) DNDGlobalConfigurationService *cachedDNDGlobalConfigurationService; // @synthesize cachedDNDGlobalConfigurationService=_cachedDNDGlobalConfigurationService;

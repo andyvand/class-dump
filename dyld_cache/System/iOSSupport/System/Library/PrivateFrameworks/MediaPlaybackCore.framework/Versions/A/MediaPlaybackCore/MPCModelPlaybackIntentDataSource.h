@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)or:(id)arg1;
 + (_Bool);
-- (void). account = %{public}@ | accountToDelete = %{public}@;
++ (_Bool);
+- (void);
 
 @end
 

@@ -27,14 +27,14 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *activeConnection; // @synthesize activeConnection=_activeConnection;

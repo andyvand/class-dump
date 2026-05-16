@@ -12,11 +12,11 @@
     MISSING_TYPE *metrics;
 }
 
-+ (id)_ACtGG;
-+ (id);
-+ (id)Õ;
-- (void);
++ (id)²ÿÿ`IýÿÜûÿb;
++ (id)LSessionC;
++ (id)d.;
 - (id);
+- (void)eData;
 
 @end
 

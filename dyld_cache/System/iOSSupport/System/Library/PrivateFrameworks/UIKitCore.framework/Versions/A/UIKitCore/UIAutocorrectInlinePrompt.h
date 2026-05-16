@@ -25,39 +25,37 @@ __attribute__((visibility("hidden")))
     unsigned int m_usageTrackingMask;
 }
 
-- (id)cisioningManaging;
-- (id)isioningManager;
+- (id);
+- (id);
 - (int);
-- (struct CGRect)=;
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (_Bool)s from %s to %s to maintain ordering;
-- (_Bool)one participant;
-- (struct CGRect)) to (%@) for chat %@;
-- (id)ch accepted for:%@ /* Error: Ran out of types for this method. */;
-- (id)ot find a guid;
-- (struct CGRect)pted, ignoring request to fetch %@;
-- (id)ing %@;
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
+- (id);
+- (id);
+- (struct CGRect);
+- (id);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)ÁxÐ!AùQÎ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)rButtonItems:(id)arg1;
-- (void)encilPairingUI;
-- (int)h:isDirectory: /* Error: Ran out of types for this method. */;
-- (void)dListCellConfigurationForState:traitCollection: /* Error: Ran out of types for this method. */;
-- (void)tePreferredColumnsPreferredEdge:(id)arg1;
-- (_Bool)tiveValue:(struct CGPoint)arg1;
-- (id)not support back buttons (button=%p, visual style=%@);
+- (void)_scrollAnimationAdjustsForContentOffsetDelta;
+- (void)eControl;
+- (void)opItemSize:(id)arg1 ,V_visibleDropItemSize;
+- (int)ionFactor;
+- (id)ws;
+- (void)pacity;
+- (_Bool)êÿX9þÐyþÿ;
+- (_Bool)ace;
+- (void)däc;
+- (void)°
+j;
 
 // Remaining properties
 @property(nonatomic) unsigned int usageTrackingMask; // @synthesize usageTrackingMask=m_usageTrackingMask;

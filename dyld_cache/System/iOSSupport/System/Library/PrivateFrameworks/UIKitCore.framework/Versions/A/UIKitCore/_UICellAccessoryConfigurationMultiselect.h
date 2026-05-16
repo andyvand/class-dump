@@ -13,18 +13,18 @@
     UIColor *_selectedTintColor;
 }
 
-+ (_Bool)(S[ÿ;
++ (_Bool)It requires at least [.year, .month, .day];
 - (void);
 - (id);
-- (void)ng rsa encrypting cert;
-- (_Bool);
 - (id);
-- (id);
-- (void)¡-º;
-- (id)figurationChanged: /* Error: Ran out of types for this method. */;
-- (long long)LocalTitlebarToolbarRenameSessionDelegate;
-- (void);
-- (id)int=dd}{CGSize=dd}}{CAPoint3D=ddd}{CGPoint=dd}{CGAffineTransform=dddddd}d}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)torView:(id)arg1;
+- (void)arDebounceTimeIntervalExpired;
+- (void)n:(id)arg1;
+- (id)edView;
+- (id)s loaded (and thus is a View Controller), but it is actually not a View Controller:%@ /* Error: Ran out of types for this method. */;
+- (id)nderChainFinishCollectingDebugInfo but no collection ongoing. (array);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor;

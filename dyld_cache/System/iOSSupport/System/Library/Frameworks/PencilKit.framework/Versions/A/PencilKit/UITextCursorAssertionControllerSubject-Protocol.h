@@ -5,11 +5,6 @@
 //
 
 @protocol UITextCursorAssertionControllerSubject
-- (void)older;
-- (_Bool)p%0;
-
-@optional
-- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long activeIndicators;

@@ -38,11 +38,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)0@ù
-× ;
 - (id);
-- (void)þÿÿÄ;
+- (id);
+- (void);
+- (void)ollectionTitlePlaceholderPeople;
 
 // Remaining properties
 @property(readonly, nonatomic) PXDataSectionArrayController *arrayController; // @synthesize arrayController=_arrayController;

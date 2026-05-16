@@ -44,11 +44,11 @@
 - (id);
 - (void);
 - (id);
-- (double);
-- (void);
-- (void);
 - (void);
 - (id);
+- (double);
+- (void);
+- (void)sRestartHomePodAlertButtonTitle;
 
 // Remaining properties
 @property(nonatomic) __weak HMCameraClip *clip; // @synthesize clip=_clip;

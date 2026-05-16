@@ -13,8 +13,8 @@
     RTUserCurationStore *_userCurationStore;
 }
 
-+ (id);
 + (long long);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -26,9 +26,9 @@
 - (void);
 - (void);
 - (void);
-- (id)ype;
-- (void);
-- (void)ÔÚ;
+- (id);
+- (void)%@, CloudKit schema update in progress - error while adding persistent store, %@;
+- (void)Å+a;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

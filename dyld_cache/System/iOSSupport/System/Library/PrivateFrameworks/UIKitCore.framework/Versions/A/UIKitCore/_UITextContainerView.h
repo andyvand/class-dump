@@ -37,96 +37,94 @@ __attribute__((visibility("hidden")))
     UIView<_UITextCanvas> *_canvasView;
 }
 
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (struct CGRect);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)et;
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool)ngeNotification:(struct CGRect)arg1;
-- (void)xternalPlayback;
-- (_Bool)ess selection %{public}@;
-- (void)dpointRoute.;
-- (void);
-- (void);
 - (_Bool);
-- (void);
+- (void)!ÔAùÑ[1Â0@ù
+× ;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void)Á1¢!0@ù
+- (void)× ;
+- (id)Ð!ÐEùq`Ð1Â0@ù
 × ;
-- (void);
-- (void)1¢!0@ù
+- (void)
 × ;
-- (void);
-- (struct CGRect);
-- (void)1¢!0@ù
-× ;
-- (void)Ì1¢!0@ù
-× ;
-- (void)6@64@72;
-- (void)"UIEvent"16;
-- (void)NSRange=QQ}24;
-- (id)documentStateAfterSettingMarkedText:selectedRange: /* Error: Ran out of types for this method. */;
-- (void)rScrollToVisible:(id)arg1;
-- (id)mbolEffect:(id)arg1 options:(id)arg2 animated: /* Error: Ran out of types for this method. */;
-- (_Bool)alidateStatusBarAppearanceIfNeededForChangeFromTraitCollection:(out struct _NSRange *)arg1 toTraitCollection: /* Error: Ran out of types for this method. */;
-- (id)imageProperties;
-- (id)rView:location:sender: /* Error: Ran out of types for this method. */;
-- (void)nsScrollView;
-- (id)ns;
-- (struct CGSize)h(ì¬ Ô$l¨;
-- (void);
-- (void)blic}@;
-- (id); index path:(struct CGRect)arg1 %@;
-- (id);
-- (void)ÿ_pSo7NSArrayCSgIeyBya_;
-- (struct CGPoint)Ü;
-- (void)on;
-- (_Bool)apIndex *, _UIMapIndex *);
+- (void)=dd}}24;
+- (void)ement<_UIMenuStateObserverableLeaf>"16;
+- (void)SecureValues;
+- (id)tionalSafeAreaInsets: /* Error: Ran out of types for this method. */;
+- (void)arAutofill:(id)arg1;
+- (void)pConstraint: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)etInteractionWithEdge: /* Error: Ran out of types for this method. */;
+- (struct CGRect)wUpdatesSink: /* Error: Ran out of types for this method. */;
+- (void)nterHorizontallyWhilePreservingLayoutWithKeys:inRect:scale: /* Error: Ran out of types for this method. */;
+- (void)owToolbarController;
+- (_Bool)eplacementDeliveryUUIDs;
+- (id)askForRects:(struct CGRect)arg1;
+- (void)_hasBeenReused;
+- (id)nment: /* Error: Ran out of types for this method. */;
 - (void)n;
-- (_Bool)w kb:%d, sw kb min:%d, custom iv %d, isExternal:%d, specialized:%d, wantsAssistant:%d, kb cam:%d, kb substitute:%d) /* Error: Ran out of types for this method. */;
-- (id)ntalPockets;
-- (id)eHostingWorkspaceController.m;
-- (id)tainer;
+- (void)T@"_UIBasicHeaderFooterContentViewConfiguration",C,N,V_configuration;
+- (void)oundCoversContentOnly:(id)arg1;
+- (void)enuPanControllerDelegate>",W,N,V_delegate;
+- (_Bool)eftConstraint;
+- (void)@;
+- (void);
 - (_Bool);
-- (void)?ÇK7A`í?ÙÎ÷Sã?/Ý$Û?`åÐ"Ûùê?®GázÖ?#Ûù~j¼è?Clçûé?ú~j¼tà?=
-×£p=î?V-²å?¢E¶óýÔØ?;
-- (_Bool)°Á71eº4ôü;
-- (struct CGPoint)Ç4$;
-- (id)töiþíÃ4Ìöiþ;
-- (_Bool)InterfaceLevel;
-- (void)n;
-- (void)*õZ;
-- (void);
-- (struct CGSize);
+- (void)ß¾7ySo31UISceneSessionActivationRequestCG;
+- (void)K¿7SbIeggy_;
+- (void);
+- (id)oþ;
+- (void)@;
+- (void)]£13Ð-ÂþE£13Ì-Âþ;
+- (void);
+- (void)ER0ñ13¼;
+- (id)ù;
+- (id)Ähþ;
+- (struct CGSize)h;
+- (_Bool)BlinkingEffect;
+- (struct _NSRange)Ì¨;
+- (id);
+- (_Bool);
+- (void);
+- (void)_UILiquidLensViewSmallVariantSpec;
 - (id);
-- (void)^d[;
-- (void)É<u[;
-- (id)#@(;
-- (id)ûF;
+- (_Bool)33;
 - (id);
-- (id)9Ö¥º[;
-- (void)ûÓ}R_;
-- (long long)ãÖ6C\;
-- (void)gD;
-- (struct _NSRange)¸_;
-- (void)h \;
-- (_Bool)¼;
-- (struct UIEdgeInsets)LoÐþðò;
-- (id)Ê§^;
-- (void)gÈ;
 - (id);
+- (void)3y;
+- (struct CGPoint)3øsþ;
+- (void)/[;
+- (id)`;[;
+- (struct UIEdgeInsets);
+- (void)([;
+- (id);
+- (void)\;
+- (void)LcÜÈ×\;
+- (void)+BØÄ];
+- (id);
+- (id);
+- (long long)xO×èØ];
+- (struct CGSize)Õ];
+- (void)\×þ,Ö,^;
+- (id)²;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _clipRectForFadedEdges;

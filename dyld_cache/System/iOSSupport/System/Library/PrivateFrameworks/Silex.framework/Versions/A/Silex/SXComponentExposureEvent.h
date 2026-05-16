@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)@"SXQuickLookTransitionContext"24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;

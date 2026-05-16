@@ -8,7 +8,7 @@
 {
 }
 
-- (id)URLString;
+- (id);
 - (id);
 
 @end

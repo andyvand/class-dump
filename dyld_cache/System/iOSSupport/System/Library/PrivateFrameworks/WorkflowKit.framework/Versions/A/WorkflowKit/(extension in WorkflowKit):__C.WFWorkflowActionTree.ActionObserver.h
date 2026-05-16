@@ -16,7 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void)er};
 
 @end
 

@@ -23,9 +23,9 @@
 - (id);
 - (void);
 - (id);
-- (_Bool)x;
+- (_Bool);
 - (void);
-- (void)w2?;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,7 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (void)=;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -65,7 +65,7 @@
 - (void);
 - (id);
 - (void);
-- (id)*;
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -77,13 +77,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void)ÿÿ);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *creditCardData;

@@ -39,9 +39,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)aJ½ySbSgGSg;
-- (id);
+- (void)View"24@0:(id)arg1 8@"UIScrollView"16;
+- (void)serAffineTransform;
+- (id)GSg;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *additionalDebugInfo; // @synthesize additionalDebugInfo=_additionalDebugInfo;

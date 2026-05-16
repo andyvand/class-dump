@@ -23,16 +23,16 @@
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)nus;
-- (void)9A;
+- (_Bool);
+- (void);
 - (id);
 - (id);
+- (id);
+- (void);
 - (long long);
 - (id);
-- (id)olorPickersDefinitions: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarListItem> addItem; // @synthesize addItem=_addItem;

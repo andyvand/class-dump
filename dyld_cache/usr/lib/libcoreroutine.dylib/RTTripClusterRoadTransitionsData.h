@@ -14,18 +14,19 @@
 
 + (id);
 + (id);
-+ (_Bool)(%{public}  d):%{sensitive}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id)afficClasses;
 - (void);
 - (id);
-- (id)ripSegmentEnableDatabaseSanitization == false).;
+- (id)!ÄBùqB,Ð1Â0@ù
+× ;
+- (void)etails, identifier, %@, name, %{sensitive}@, location, %{sensitive}@, visit location, %{sensitive}@, distance from place to visit location, %.3f, visit interval start date, %@, visit interval end date, %@, visit interval duration, %.2f, earliestStartDate, %@, latestEndDate, %@, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;

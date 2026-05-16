@@ -14,16 +14,16 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)@;
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, copy) NSData *ciphertext; // @synthesize ciphertext=_ciphertext;

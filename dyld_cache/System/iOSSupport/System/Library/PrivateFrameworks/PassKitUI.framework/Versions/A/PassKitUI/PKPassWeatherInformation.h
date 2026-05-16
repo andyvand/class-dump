@@ -22,7 +22,7 @@
     NSURL *_weatherURL;
 }
 
-+ (_Bool)ion;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -35,14 +35,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *attributionURL; // @synthesize attributionURL=_attributionURL;

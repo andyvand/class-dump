@@ -32,13 +32,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id)x	
-;
+- (id)eúdx;
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessorySettingsEntity *accessoryGroupEntity; // @synthesize accessoryGroupEntity=_accessoryGroupEntity;

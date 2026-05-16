@@ -19,23 +19,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)bscribers.;
+- (void);
 - (id);
 - (id);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (id);
+- (id);
+- (_Bool);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *clientData; // @synthesize clientData=_clientData;

@@ -12,10 +12,10 @@
     MISSING_TYPE *dynamicGradientDescriptor;
 }
 
-+ (Class)ign;
++ (Class);
+- (id);
 - (id);
 - (void);
-- (id);
 
 @end
 

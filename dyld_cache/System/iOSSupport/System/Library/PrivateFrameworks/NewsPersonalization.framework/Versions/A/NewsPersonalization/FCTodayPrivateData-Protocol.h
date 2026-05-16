@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscription, FCDerivedPersonalizationData, NSArray, NSData, NSDictionary, NSNumber, NSSet, NSString;
+@class FCBundleSubscription, FCDerivedPersonalizationData, NSArray, NSDictionary, NSNumber, NSSet, NSString;
 
 @protocol FCTodayPrivateData
-- (NSString *);
-- (NSSet *);
-- (NSNumber *)P;
-- (NSArray *)groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":15,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (NSArray *)ÿÿÿÿP;
-- (NSSet *)ge_CompressedSessionEventArticleUndisliked;
+- (NSSet *)otesEnabled;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *autoFavoriteTagIDs;
@@ -27,6 +22,5 @@
 @property(readonly, copy, nonatomic) NSArray *rankedAllSubscriptionDates;
 @property(readonly, copy, nonatomic) NSDictionary *recentlyReadHistoryItems;
 @property(readonly, copy, nonatomic) NSArray *recentlySeenHistoryItems;
-@property(readonly, copy, nonatomic) NSData *userEmbeddingData;
 @end
 

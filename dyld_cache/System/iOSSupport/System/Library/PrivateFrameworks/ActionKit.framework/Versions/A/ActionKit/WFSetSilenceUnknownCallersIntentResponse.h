@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)get memory;
-- (void)sha256;
+- (long long)okRef;
+- (void)NoteRef"8@"NSError"16;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     UIContextMenuInteraction *_contextMenuInteraction;
 }
 
-+ (id);
-- (id);
++ (id)<UISearchSuggestion>",&,N;
 - (void);
-- (id);
-- (void);
-- (id)£Ò'Kg;
+- (void)ìXa;
+- (id)xõb;
+- (id)c;
+- (id)ÈÂg;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UIContextMenuInteractionDelegate> contextMenuDelegateProxy;

@@ -21,15 +21,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)rocess:(id)arg1 configuration:homeStatus:delegate: /* Error: Ran out of types for this method. */;
-- (void)(%@) implements -itemManager:(id)arg1 performUpdateRequest:, but did not synchronously call -[HFItemManagerDelegateUpdateRequest performWithOptions:]. Did the delegate accidentally drop the request? /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (void)Type:(id)arg1;
+- (void)ÿÿ
+P`ø;
+- (unsigned long long)F;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;

@@ -31,65 +31,63 @@ __attribute__((visibility("hidden")))
     struct CGRect _bounds;
 }
 
-+ (id)in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
++ (id)ntrollerDisableTrimVideoMessage;
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (struct CGPoint);
 - (id);
 - (void);
 - (void);
-- (void)NSString",C,N,V_payloadEnd;
+- (void);
 - (id);
-- (struct CGRect);
-- (void)P;
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (void)IRTY;
-- (void)4;
-- (_Bool);
-- (void)reName;
-- (void)event queue [event completed];
-- (struct CGPoint)clearing result tokens [not found] count=%lld;
-- (struct CGRect);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)c;
-- (struct CGRect);
+- (id)0@ù
+× ;
+- (id)ÔÐ!CùÑ[1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (unsigned long long)ion"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
+- (unsigned long long)@0:8 /* Error: Ran out of types for this method. */;
+- (struct CGRect)bilityPropagationEnabled;
+- (void)ion;
+- (void)esults:(struct CGRect)arg1 waitForNotification:withTeardownBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)DictationButton;
+- (void)llectionViewAnimationContext:(id)arg1;
+- (_Bool)forceHistoryReplacement;
+- (void)ransition:(struct CGRect)arg1;
+- (_Bool)ableContainer;
+- (void)rphContainer;
+- (void)%@, self:(unsigned long long)arg1 %@, event:%@, cmd:"%s" /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGPoint)þÿ;
 - (void);
-- (void)
-× ;
-- (_Bool)QÂ1¢!0@ù
-× ;
-- (unsigned long long);
-- (_Bool)0@ù
-× ;
-- (void)!Ô@ùQÃ°1¢!0@ù
-× ;
-- (void);
-- (void)AùÑÈ1¢!0@ù
-× ;
-- (struct CGPoint)space"16@"FBSWorkspaceSceneRequestOptions"24@"<FBSceneClientProcess>"32@?<v@?@"FBScene"@"NSError">40;
-- (void):(struct CGRect)arg1;
-- (void)rbAnimationForAddingEffect:(struct CGRect)arg1;
-- (struct CGRect)withDisplayName:withType: /* Error: Ran out of types for this method. */;
-- (id)lected: /* Error: Ran out of types for this method. */;
-- (void)nitialView:(_Bool)arg1;
-- (_Bool)date;
-- (id)olumnForView:getIsContent: /* Error: Ran out of types for this method. */;
-- (void),N,V_wideWidthMetrics;
-- (id)uration;
-- (void)w;
-- (id)llAccessoryContainerAdapterView;
-- (void)=¬>È>¼?@;
-- (void);
+- (void)ëÿq~Ôøúf;
 - (_Bool);
-- (_Bool)eView;
-- (unsigned long long);
-- (_Bool)a;
-- (_Bool)BÕ.æh;
-- (double)àQÿñ;
-- (void)ëf;
-- (void)Ù.f;
-- (void)sÅm;
+- (void)Fóþ;
+- (struct CGRect)4Ég;
+- (void)ñh;
+- (unsigned long long)1i;
+- (struct CGRect)oÎ,Ek;
+- (_Bool);
+- (void)ÿ³k;
+- (struct CGRect)2ÿóMÏl;
+- (void);
+- (void)à;
+- (void)Üèl;
+- (_Bool)ýÚhm;
+- (void)ÿÞQ×ðm;
 
 // Remaining properties
 @property(nonatomic) struct CGRect assistantFrame; // @synthesize assistantFrame=_assistantFrame;

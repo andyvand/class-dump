@@ -14,25 +14,25 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_prepareCompletions;
 }
 
-- (void)TH_CONST;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id)ount:didChangeWithType:inStore:oldAccount:] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)Beacon:(id)arg1 skipGroupIdentifier:count:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)blic}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

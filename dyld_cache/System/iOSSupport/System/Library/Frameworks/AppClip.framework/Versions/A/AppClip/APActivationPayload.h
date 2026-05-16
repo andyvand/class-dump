@@ -13,12 +13,12 @@
 
 + (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

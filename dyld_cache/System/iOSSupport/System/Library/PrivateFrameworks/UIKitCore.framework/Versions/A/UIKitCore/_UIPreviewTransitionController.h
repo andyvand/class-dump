@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     id <UIViewControllerContextTransitioning> _transitionContext;
 }
 
-+ (id)for the other session, nothing to do here:(id)arg1 %@;
++ (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -29,29 +29,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)`;
-- (id);
-- (void)ck:(unsigned long long)arg1;
-- (void)ssionProtocol;
-- (void);
-- (void)>?;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ionContext"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)tPreferredContentsFormat: /* Error: Ran out of types for this method. */;
-- (void)ustsFontSizeToFitWidth;
-- (id)adow;
-- (void);
-- (void)s for UINavigationBar managed by a controller;
-- (void)iew;
 - (void);
 - (void);
-- (void)92;
-- (double)H^;
-- (void)^;
+- (double);
+- (id);
+- (void)peWithRoundedRect:(_Bool)arg1 cornerRadii:cornerCurve: /* Error: Ran out of types for this method. */;
+- (void)age:(id)arg1 forLeftSegmentState:rightSegmentState:barMetrics: /* Error: Ran out of types for this method. */;
+- (void)|þÿ;
+- (void);
+- (void)o unsupported type;
+- (void)cationWillChangeStatusBarFrameNotification;
+- (void)E 23Xßmþ 23¤rþÝ23Pßmþµ23\ßmþ½23hßmþÍ23tßmþÍ23ßmþÍ23´ßmþí23Ðßmþ23Üßmþ23èßmþm23ôßmþ½23;
+- (void);
+- (void)];
+- (id)øE_;
+- (void)þ;
+- (id)·¨`;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *animationsByPresentationPhase; // @synthesize animationsByPresentationPhase=_animationsByPresentationPhase;

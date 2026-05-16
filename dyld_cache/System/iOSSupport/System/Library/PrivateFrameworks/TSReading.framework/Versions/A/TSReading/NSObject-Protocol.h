@@ -7,12 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (Class);
-- (unsigned long long)eclarationWithName:publicID:systemID:notationName: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *)Fit;
+- (_Bool)harIndexAndAffinity}""{?="__cap_"^{_TSWPCharIndexAndAffinity}}};
+- (struct _NSZone *)ath:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

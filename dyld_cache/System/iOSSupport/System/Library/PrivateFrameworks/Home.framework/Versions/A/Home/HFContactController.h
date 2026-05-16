@@ -51,13 +51,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id)medWallpaperSource: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1 %@, aReadResponse:%@, readError:%@, readPolicyDisallowedRead:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <HFContactControllerDelegate> delegate; // @synthesize delegate=_delegate;

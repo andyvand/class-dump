@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _CNAtomLayoutView *atomView; // @synthesize atomView=_atomView;

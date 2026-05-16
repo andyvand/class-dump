@@ -32,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)risk.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

@@ -17,12 +17,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long totalCount;

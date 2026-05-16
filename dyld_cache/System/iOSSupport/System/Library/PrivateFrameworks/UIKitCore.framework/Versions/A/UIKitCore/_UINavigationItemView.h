@@ -25,32 +25,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)tUsingComparator:(_Bool)arg1;
-- (void)WithFirstName:(struct CGSize)arg1 lastName:avatar:pronouns: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ication:listener:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)e;
+- (void);
+- (void);
+- (struct CGRect);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
-- (id);
-- (id);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (id)pe:(long long)arg1;
-- (void);
-- (id)ñÁð1¢!0@ù
-× ;
 - (struct CGSize);
-- (id)PreferredTapAction;
-- (id)List:(id)arg1;
-- (void)underneath -splitViewController:(id)arg1 displayModeForExpandingToProposedDisplayMode:is ignored. The delegate method implementation should return the desired displayMode instead. /* Error: Ran out of types for this method. */;
-- (void)ive session %@;
-- (id)er) const;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)dth;
+- (void)iewsNeedDisplay;
+- (id)dowControllerHostingItem;
+- (id)?À?;
+- (id)ïÿ\ïÿ;
+- (void)ionsLocationKey;
+- (id)tMatch;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setFadingInFromCustomAlpha:) _Bool _isFadingInFromCustomAlpha; // @synthesize _isFadingInFromCustomAlpha=__isFadingInFromCustomAlpha;

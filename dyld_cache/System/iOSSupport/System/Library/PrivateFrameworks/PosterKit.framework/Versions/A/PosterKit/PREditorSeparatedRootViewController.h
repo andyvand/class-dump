@@ -40,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (void)nceType:(struct CGSize)arg1;
-- (void);
+- (void);
+- (void)q;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundForegroundContainerViewsZStackView; // @synthesize backgroundForegroundContainerViewsZStackView=_backgroundForegroundContainerViewsZStackView;

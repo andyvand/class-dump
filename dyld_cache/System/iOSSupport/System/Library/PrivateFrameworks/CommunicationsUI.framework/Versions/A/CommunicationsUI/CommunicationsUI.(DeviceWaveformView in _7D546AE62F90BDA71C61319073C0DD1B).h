@@ -16,10 +16,11 @@
     MISSING_TYPE *numBands;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)0@ù
+× ;
 
 @end
 

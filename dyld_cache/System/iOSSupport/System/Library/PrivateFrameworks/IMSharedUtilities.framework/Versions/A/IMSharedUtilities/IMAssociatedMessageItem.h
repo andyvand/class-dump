@@ -20,7 +20,7 @@
     struct _NSRange _associatedMessageRange;
 }
 
-+ (_Bool)ingPurgedAssets(forChatIDs:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *associatedMessageEffect;

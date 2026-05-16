@@ -18,18 +18,18 @@
 
 - (void);
 - (void);
-- (void)(*;
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)AttachmentInfo;
-- (void);
+- (_Bool);
 - (id);
-- (void);
-- (id)gRetry;
-- (void)ttributeNameIsKanaPlane;
-- (unsigned long long)J;`;
+- (id)sistantView;
+- (void)ithWindowMadeKey:(id)arg1 sceneKeyWindowActions:ignoringOldKeyWindow:sceneResignKeyWindowActions:andSceneBecomeKeyWindowActions:forReason: /* Error: Ran out of types for this method. */;
+- (void)P¼½Ð;
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long fileSize; // @synthesize fileSize=_fileSize;

@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
-- (_Bool);
 - (void);
-- (void)397555). This will become an assert in a future version.;
-- (id);
-- (void)ÎÓÿ;
+- (struct CGSize)× ;
+- (_Bool)ellingGuesses: /* Error: Ran out of types for this method. */;
+- (void)AdaptivityStyle;
+- (id)s;
+- (void)Ô¥\;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;

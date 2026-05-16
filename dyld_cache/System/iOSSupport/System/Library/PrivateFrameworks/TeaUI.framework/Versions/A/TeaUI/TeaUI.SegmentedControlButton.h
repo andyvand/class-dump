@@ -11,11 +11,11 @@
     MISSING_TYPE *onTap;
 }
 
-- (id)Records;
-- (void)quest:(id)arg1 %@;
-- (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)@üÿXüÿ(üÿ`üÿôüÿüÿ<üÿTüÿüÿpüÿüÿ üÿ¸üÿðüÿDüÿüÿ´üÿøüÿüÿ(üÿ`üÿüÿ4üÿLüÿdüÿ|üÿüÿ`üÿüÿüÿ4üÿLüÿDüÿüÿ üÿ¸üÿÐüÿèüÿ° üÿÈ üÿ(!üÿ`!üÿ!üÿÐ!üÿ"üÿ@"üÿX"üÿp"üÿð"üÿH#üÿp#üÿ$üÿH$üÿ$üÿ¸$üÿð$üÿh%üÿ%üÿ%üÿÐ%üÿè%üÿ;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityValue;

@@ -10,19 +10,19 @@
 
 + (id);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
 + (id);
 + (void);
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (id);
++ (void);
++ (id);
 + (id);
 
 @end

@@ -14,27 +14,27 @@
     NSIndexSet *_keyCodes;
 }
 
-+ (id)intentClientBroadcaster;
-+ (id)DaemonCore35IntentClientConnectionRouteProvider;
-+ (_Bool);
++ (id);
++ (id);
++ (_Bool)/Caches/DateFormats.plist;
 - (id);
 - (id);
-- (void)essageItem:(id)arg1 withPermanentFileTransferGUIDs: /* Error: Ran out of types for this method. */;
-- (id)edicate:(_Bool)arg1 sortedUsingLastMessageDateAscending:(_Bool)arg2 limit: /* Error: Ran out of types for this method. */;
-- (id)atWithIdentifier:(_Bool)arg1 account:(_Bool)arg2;
-- (id)sDeliveredQuietlyAndNotify:session:chat: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
 - (struct __GSKeyboard *);
-- (id)A;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id)liscoInitialImport;
 - (id);
-- (void);
+- (id);
 - (long long);
-- (id)sible;
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)tes:(id)arg1 objCType: /* Error: Ran out of types for this method. */;
+- (void)xtAttributes:(id)arg1;
+- (id),V_azimuthAngle;
+- (void)ûÃ7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayKeyEquivalentOverride;

@@ -5,7 +5,5 @@
 //
 
 @protocol CKTranscriptBalloonCellDelegate
-- (void);
-- (void)Ä¬;
 @end
 

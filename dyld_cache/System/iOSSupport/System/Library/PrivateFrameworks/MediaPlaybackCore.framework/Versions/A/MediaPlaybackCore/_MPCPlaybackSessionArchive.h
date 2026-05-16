@@ -17,19 +17,19 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id):(id)arg1;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id)toreKit;
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool)p;
-- (void);
-- (id)apple.JetEngine;
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void)ueueShuffledItemsInSectionedIdentifierList:| committing edit [ShuffleSIL dequeued items] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *artworkImage; // @synthesize artworkImage=_artworkImage;

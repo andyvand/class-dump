@@ -10,7 +10,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)eed15FontBookFactory;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);

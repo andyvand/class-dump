@@ -22,10 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (id)ager;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;

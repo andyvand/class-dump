@@ -7,7 +7,6 @@
 @class _UIRemoteViewController;
 
 @protocol _UIRemoteViewControllerContaining
-- (_UIRemoteViewController *)8@16@24@32@40C48@?52;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;

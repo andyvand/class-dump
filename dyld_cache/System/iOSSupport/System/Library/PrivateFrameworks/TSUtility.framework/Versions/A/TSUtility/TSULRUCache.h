@@ -19,14 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (void)ded;
+- (id);
 - (void);
+- (id);
 - (void);
-- (id)singBlock:(unsigned long long)arg1;
 - (id);
 - (id);
+- (void);
 - (unsigned long long);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maxSize; // @synthesize maxSize=mMax;

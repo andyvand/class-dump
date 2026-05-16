@@ -13,33 +13,32 @@
     NSMutableString *_descriptionString;
 }
 
-+ (id)ibrary/Messages/Attachments;
-+ (id)16@"NSString"24;
-+ (id),N,V_identifier;
++ (id);
++ (id);
++ (id)<@@¼@;
 - (id);
-- (void);
 - (id);
-- (id)ed:(id)arg1;
-- (id)Predicate;
-- (id):(id)arg1;
-- (id)ntID();
 - (id);
-- (void)0@ù
-× ;
-- (id){UIEdgeInsets=dddd}32;
-- (void)arginsForProposedLayoutMargins:(id)arg1;
-- (id)alLayout;
-- (id)mSceneReferenceCoordinatesToView: /* Error: Ran out of types for this method. */;
-- (void)rBound;
-- (id)er:(id)arg1;
-- (id)bute requested:(id)arg1 %@;
-- (id)cusItemContainer:%@ yielded by two mismatched owning UIFocusEnvironments:%@ and %@. UIFocusItemContainer should be 1:1 with its owning environment. /* Error: Ran out of types for this method. */;
-- (void)on a stable solution. Views may animate incorrectly as a result. %@;
-- (id)after two consecutive failures sending %@;
-- (id)rovided by %@;
-- (id)KeyboardNotification;
-- (id),VexpandFinalSpringDelay;
-- (id)íi;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)× ;
+- (void)IPlatterClippingView";
+- (id)IViewControllerTransitionConductor"16;
+- (id)set:(id)arg1 forPartWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)inputModeSwitcherVisible;
+- (void)eMediaApplicationStateInheritanceIfNecessary;
+- (id)youtOffsetEdges;
+- (id)lectionForMultipleSelection;
+- (id)tedWindowOffset;
+- (id)ewControllerDuringAdaptation;
+- (id)(;
+- (id)MWþ;
+- (id)èÀd;
+- (void)©n;
+- (void)`$n;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableString *descriptionString; // @synthesize descriptionString=_descriptionString;

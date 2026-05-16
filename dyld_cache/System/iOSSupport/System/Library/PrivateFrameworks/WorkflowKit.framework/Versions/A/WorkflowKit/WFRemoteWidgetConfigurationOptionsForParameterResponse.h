@@ -13,13 +13,13 @@
     INObjectCollection *_options;
 }
 
-+ (_Bool)where the photo was taken, will be stripped from the image file.;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)lKitInvocation:completionHandler:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) INObjectCollection *options; // @synthesize options=_options;

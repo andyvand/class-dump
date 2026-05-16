@@ -17,12 +17,12 @@
 - (id);
 - (long long);
 - (unsigned char);
-- (struct CGImage *);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
 - (_Bool);
+- (id);
+- (id);
+- (struct CGImage *);
+- (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id <NSCopying> payload; // @synthesize payload=_payload;

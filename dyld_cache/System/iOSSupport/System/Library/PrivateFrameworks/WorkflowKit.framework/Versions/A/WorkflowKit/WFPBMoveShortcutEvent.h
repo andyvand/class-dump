@@ -12,22 +12,22 @@
     NSString *_source;
 }
 
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool)WFUserVisibleStringCG;
+- (_Bool)°q¬r;
+- (void)ch;
+- (_Bool)lu apps;
+- (void)Test UI presenter asked to present dialog %@ but there were no matching interactions found;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;

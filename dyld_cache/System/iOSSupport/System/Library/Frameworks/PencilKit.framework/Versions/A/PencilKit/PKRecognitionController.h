@@ -13,13 +13,14 @@
     PKMathRecognitionController *_mathRecognitionController;
     NSUUID *_listenerID;
     NSMutableSet *_currentDrawingStrokeUUIDs;
+    struct os_unfair_lock_s _currentDrawingStrokeUUIDsLock;
     id <PKRecognitionControllerInternalDelegate> _internalDelegate;
     PKRecognitionSessionManager *_sessionManager;
 }
 
 - (void);
-- (void)llowedToReachEndpoint:(id)arg1 configurationSettings:(id)arg2 requestKeys:(struct CGRect)arg3;
-- (void):(id)arg1 didCompleteWithError:(id)arg2;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -56,12 +57,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (void)
+× ;
+- (void)usPoint;
 
 // Remaining properties
 @property(readonly, nonatomic) _PKDataDetectorController *dataDetectorController;

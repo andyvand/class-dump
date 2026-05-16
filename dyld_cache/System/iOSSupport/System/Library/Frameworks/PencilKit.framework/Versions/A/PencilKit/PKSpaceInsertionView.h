@@ -17,15 +17,15 @@
 }
 
 - (void);
-- (unsigned long long)sSameDayAs: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (void);
-- (void)ready created;
+- (void);
+- (_Bool);
+- (void)EndpointType;
+- (_Bool)ÿÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long insertionType; // @synthesize insertionType=_insertionType;

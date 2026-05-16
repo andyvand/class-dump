@@ -14,17 +14,17 @@
 }
 
 + (id);
-+ (_Bool)omTime);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)d;
 
 // Remaining properties
 @property(readonly, nonatomic) INAppDescriptor *appDescriptor; // @synthesize appDescriptor=_appDescriptor;

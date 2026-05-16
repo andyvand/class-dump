@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t Found;
 
 // Remaining properties
 @property(retain, nonatomic) WFSettingsClientBookmark *stateBeforeRun; // @synthesize stateBeforeRun=_stateBeforeRun;

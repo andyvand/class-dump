@@ -17,14 +17,13 @@
 + (id);
 + (id);
 - (_Bool);
-- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long)fð!FùñmÐ1b0@ù
-× ;
+- (unsigned long long);
+- (void)ontroller;
 
 // Remaining properties
 @property(readonly, nonatomic) MUPlaceTileCellConfiguration *cellConfiguration; // @synthesize cellConfiguration=_cellConfiguration;

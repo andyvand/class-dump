@@ -23,58 +23,57 @@
     struct UIEdgeInsets _marginInsets;
 }
 
-+ (Class);
-- (_Bool)tring",C,N,V_title;
-- (void)SetMarkedTextNotification;
++ (Class)øÄGAByACõÄGAByACòÄGAByACïÄGAByACìÄGAByACéÄGtG;
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)yAAy.:(_Bool)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)t;
 - (void);
-- (void)n;
 - (void);
-- (struct UIEdgeInsets)te was marked for deletion before we could attempt to update its thumbnail. Bailing out.;
-- (void)error has occured when syncing the deletion of the share in didStopSharing:%@ /* Error: Ran out of types for this method. */;
-- (void)from shared %@ share %@ recordID %@;
-- (void)@ share %@ recordID %@;
-- (_Bool)Account with empty accountID;
-- (_Bool)s not implemented;
-- (double)ICVirtualSmartFolderItemIdentifierTypeRecentlyDeletedMathNotes;
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (double);
 - (struct CGRect);
 - (struct UIEdgeInsets);
 - (id);
 - (double);
-- (void):(_Bool)arg1 տ
-;
+- (void);
 - (struct UIEdgeInsets);
-- (void)%;;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void);
 - (BOOL);
+- (void)Identity;
 - (void);
-- (void);
+- (void)SbGG_AGt;
+- (long long)o_;
 - (void);
 - (id);
-- (void)eferredAction:(id)arg1;
-- (void)mDialAssist:(_Bool)arg1;
-- (long long)stUnreadMessageCellOriginY;
-- (id)hatIndirect: /* Error: Ran out of types for this method. */;
-- (void),N,V_topHairline;
-- (void)ÿüæ1aÌ/;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing=__ck_editing;

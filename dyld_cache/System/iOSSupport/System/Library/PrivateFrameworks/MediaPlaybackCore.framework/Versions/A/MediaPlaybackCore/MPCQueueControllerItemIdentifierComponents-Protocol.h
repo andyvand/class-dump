@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol MPCQueueControllerItemIdentifierComponents
-- (NSString *);
-- (NSString *);
-- (_Bool)6;
+- (_Bool)Àô\h]p¨X;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short behaviorFlags;

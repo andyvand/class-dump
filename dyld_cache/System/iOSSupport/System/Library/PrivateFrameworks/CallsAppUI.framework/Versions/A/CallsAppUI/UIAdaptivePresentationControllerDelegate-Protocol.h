@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController, UITraitCollection;
+
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)PÈ;
+- (long long)ßy,áGG_wßyACyß_ANtGGKßAAyAAyð4áy4áyAnCy;áyÂßAnTG_¨ßySaySSGSSê:(UIPresentationController *)arg1 áy´:(UITraitCollection *)arg2 áyAnDGGGtGG_ô-áQo_AIy¹ßGGAIygßSgGGAAyAAyAAy4áyAXyADG_A3_Qo_JßyìßGGA10_GAKGtGGßG;
+- (void);
 @end
 

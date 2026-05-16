@@ -33,16 +33,15 @@
 - (long long);
 - (void);
 - (CDStruct_273850af);
-- (void);
-- (CDStruct_618113c1);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)
-× ;
-- (CDStruct_3ac0dd7e)SArray<UIView *> * _Nullable PXAddEdgeOverlaySubviewsToWorkAround53118165(UIView *__strong _Nonnull, CGRect)_block_invoke;
+- (void);
+- (id)traint;
+- (CDStruct_618113c1)m;
+- (CDStruct_3ac0dd7e);
+- (void)¸<ÿÿ;
 
 // Remaining properties
 @property(nonatomic) CDStruct_273850af audioInfo; // @synthesize audioInfo=_audioInfo;

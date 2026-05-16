@@ -35,9 +35,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool);
+- (_Bool)nDispatchNotificationObserver;
+- (void)ger.m;
 
 // Remaining properties
 @property(retain, nonatomic) HFHomeKitAccessorySettingsItemProvider *accessorySettingsItemProvider; // @synthesize accessorySettingsItemProvider=_accessorySettingsItemProvider;

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSArray;
 @protocol NSObject><NSCopying;
 
 @protocol PXSectionedFetchResult
-- (_Bool)F;
-- (NSArray *)d}16@0:(NSIndexSet *)arg1 8;
-- (long long)onBarCollectionViewShouldAdustForEditingModeNotification;
-
-@optional
-- (_Bool);
-- (unsigned long long)s:(id <NSObject><NSCopying>)arg1 audioMessageSourceRect:contextContainerView:audioRecordingPillViewSnapshot: /* Error: Ran out of types for this method. */;
+- (id <NSObject><NSCopying>)nfoDictionaryWithLayoutIntent:parentPreviewWidth:xScalar:yScalar:scale:rotation:initialFrameIndex:externalURI: /* Error: Ran out of types for this method. */;
+- (id <NSObject><NSCopying>)ller>",&,N,V_pluginBubbleViewController;
+- (long long)tBackgroundActive;
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

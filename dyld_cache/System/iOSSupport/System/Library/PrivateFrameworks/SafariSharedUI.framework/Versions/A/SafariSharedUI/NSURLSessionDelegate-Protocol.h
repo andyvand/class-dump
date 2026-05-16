@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSession;
-
 @protocol NSURLSessionDelegate
-
-@optional
-- (void)ler:(NSURLSession *)arg1;
-- (void)mestampOfLastCallToRenameAPI;
 @end
 

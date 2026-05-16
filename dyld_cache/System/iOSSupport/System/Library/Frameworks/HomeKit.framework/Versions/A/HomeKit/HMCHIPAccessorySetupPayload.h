@@ -19,8 +19,8 @@
     NSNumber *_deviceTypeID;
 }
 
-+ (id)PææÐç;
-+ (_Bool)ldItems;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -32,23 +32,23 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void)ettingGroup:(id)arg1 didAddSettingGroup: /* Error: Ran out of types for this method. */;
-- (id)ingsDataSourceDataSource;
-- (void)teHomes:(id)arg1;
-- (id)}@Failed to find target accessory by serial;
+- (void)|@ô;
+- (id)shed with :%@, error %@ /* Error: Ran out of types for this method. */;
+- (void)actory:(id)arg1 %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

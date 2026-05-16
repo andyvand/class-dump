@@ -6,7 +6,7 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTContactsManager, RTDistanceCalculator, RTLearnedLocationEngine, RTLearnedLocationStore, RTLearnedPlaceTypeInferenceStore, RTMapServiceManager;
+@class NSString, RTContactsManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationEngine, RTLearnedLocationStore, RTLearnedPlaceTypeInferenceStore, RTMapServiceManager;
 
 @interface RTLearnedLocationManager : RTService
 {
@@ -14,6 +14,7 @@
     _Bool _training;
     _Bool _migrationComplete;
     RTContactsManager *_contactsManager;
+    RTDefaultsManager *_defaultsManager;
     RTDistanceCalculator *_distanceCalculator;
     RTLearnedLocationEngine *_learnedLocationEngine;
     RTLearnedLocationStore *_learnedLocationStore;
@@ -21,41 +22,40 @@
     RTMapServiceManager *_mapServiceManager;
 }
 
-+ (double);
-+ (id);
-+ (double);
 + (id);
 + (id);
 + (long long);
++ (id);
++ (double);
++ (double);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)OfTransferStart;
-- (void)airing;
 - (void);
-- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (double);
-- (id);
-- (void);
-- (void)A/OpenDirectory;
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (void)sferState(;
-- (void)tedImmediate %@
-;
-- (void)nge flags:(id)arg1 0x%x
-;
-- (id)areOptions"8@"CKAllowedSharingOptions"16;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -64,7 +64,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -72,110 +75,111 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (_Bool);
-- (id);
-- (void)0:(CDUnknownBlockType)arg1 8q16^{?=*QqqICBBBBBBBBBBBI{sockaddr_storage=CC[6c]q[112c]}{sockaddr_storage=CC[6c]q[112c]}{sockaddr_storage=CC[6c]q[112c]}SCi[8{?=*Si[12S]QCSCBBS{?=SSSSS}BBi[4S]CBBBI}]ccid[16C]QQ@@iISQBBBS[0C]}24@32@40;
-- (id)timeSinceStart;
-- (id)ES128CTRKeys: /* Error: Ran out of types for this method. */;
-- (void)tePairs;
-- (void)ataReceivedTime _reportDataReceivedTime:(CDUnknownBlockType)arg1 %@;
-- (id)Cellular Interface - currentInterfaceName %@, _cellInterfaceName %@ skipping currentInterfaceAddress for transport score card!;
-- (void)viceIdentityContainer with a non-nil IDSNGMPublicDeviceIdentity requires a non-nil ngmVersion;
-- (void)-key;
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void)upSessionKeyValues:(id)arg1 key %@;
-- (void)ng delegate %@ to activity monitor %@;
-- (void)%p;
-- (unsigned long long);
-- (id)`;
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void)i;
 - (void);
-- (void)rade:(id)arg1 completionQueue:(CDUnknownBlockType)arg2 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)apProtocols;
-- (void)Failed to receive IKE SA Init reply (connect);
-- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (double);
 - (id);
+- (double);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void),ð1Â0@ù
 × ;
-- (unsigned long long)Ñ^,Ð1¢!0@ù
+- (void);
+- (void)0@ù
 × ;
-- (void)tMinute:(id)arg1;
-- (void)andler: /* Error: Ran out of types for this method. */;
-- (id)teRequestFromCloudManagedObject:(id)arg1 context:(double)arg2;
-- (void)toringWithConfiguration:(id)arg1 handler:(CDUnknownBlockType)arg2;
-- (void)enLockNotificationToken:(id)arg1;
-- (_Bool)D´8";
-- (void)TTripClusterManager _learnedRouteForDriveCluster:(id)arg1 tripClusters:(CDUnknownBlockType)arg2 routeStartLocation:routeEndLocation:fetchAllRouteLocations:metricsCollector:excludeRouteLocations:] /* Error: Ran out of types for this method. */;
-- (id)eligibility callback, isEligible %@, error %@ ;
-- (void)rtType, %@;
-- (void)%p, firing delay, %f secs.;
-- (void)ling collapsed known place LOIs successfully;
-- (id)ot satisfying:(id)arg1 tripClusters (in %s:(id)arg2 %d);
-- (void)ignoring...;
-- (void)ëB@"¥Ù<^ÀùÂgë°Y@;
-- (void)-î;
-- (void)àÿ_X6;
-- (void)+õ.;
-- (void);
+- (void)1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)a(Ð!XEùQC,1Â0@ù
+× ;
+- (double)Ô ;
+- (void)× ;
+- (void)redMapItems:(id)arg1 state:(_Bool)arg2 error:(CDUnknownBlockType)arg3;
+- (void)entLocations;
+- (void)missionQueue;
+- (unsigned long long)cationOfInterestsWithVisits:(unsigned long long)arg1 visitToTransitionMapping:visitToPlaceMapping: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id)ove address of contact. contact required;
+- (void)eAverage_home_bucketed;
+- (void)n error, %@;
+- (void)loi, %{sensitive}@, too close to current location;
+- (void)tor.count > 0;
+- (id)e,Initiator,sessionID:%@,%@,%@,session has ended /* Error: Ran out of types for this method. */;
+- (void)monitor states, predating, %@, error, %@;
+- (void)eter not satisfying:(id)arg1 candidates;
+- (_Bool)e location detected, currentLocation, %{sensitive}@, sensitiveLocation, %{sensitive}@, distance, %.2f;
+- (void);
+- (void)Ö¾ÿNô;
 
 // Remaining properties
 @property(nonatomic) _Bool available; // @synthesize available=_available;
@@ -184,6 +188,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
+@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
 @property(readonly) unsigned long long hash;

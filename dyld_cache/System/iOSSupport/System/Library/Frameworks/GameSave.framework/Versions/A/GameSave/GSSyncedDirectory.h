@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) GSSyncedDirectoryState *directoryState;

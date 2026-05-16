@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
 - (id);
-- (id)1.;
+- (unsigned long long);
+- (void)_2;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accessLevel; // @synthesize accessLevel=_accessLevel;

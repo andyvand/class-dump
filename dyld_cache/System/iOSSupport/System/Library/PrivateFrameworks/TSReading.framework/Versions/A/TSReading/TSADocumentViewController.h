@@ -78,7 +78,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -124,7 +124,7 @@
 - (void);
 - (id);
 - (id);
-- (struct CGRect)�|n�jz;
+- (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
@@ -149,8 +149,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -158,7 +158,7 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool)&�;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -179,7 +179,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)c;
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -196,7 +196,7 @@
 - (double);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -205,45 +205,46 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (double)9;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (double);
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (_Bool)oke;
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)avigationController;
-- (struct CGRect)apeLayout insertChild:above:] /* Error: Ran out of types for this method. */;
-- (void)CûU;
-- (void)@éÿyVH¶;
+- (id)!Ä@ù11Â0@ù
+× ;
+- (void)rHitTesting;
+- (id)ECATEDTrendlineRSquaredParagraphStyleIndexProperty;
+- (void)houldn't be creating _containingLayer again;
+- (struct CGRect)xÛX±;
+- (id)j¾;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *CJKLanguages;

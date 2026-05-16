@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id)reenWallpaperForRequest, checkLockScreenPoster:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *alpha; // @synthesize alpha=_alpha;

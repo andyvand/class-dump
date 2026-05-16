@@ -16,17 +16,17 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id)?<v@?@"NSString">8;
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long)nection: /* Error: Ran out of types for this method. */;
+- (void)tcutAvailabilityOptions & %d) != 0);
+- (void)sion.CalculateAppUsageIntent;
+- (void)Òl^;
 
 // Remaining properties
 @property(nonatomic) _Bool deleted; // @synthesize deleted=_deleted;

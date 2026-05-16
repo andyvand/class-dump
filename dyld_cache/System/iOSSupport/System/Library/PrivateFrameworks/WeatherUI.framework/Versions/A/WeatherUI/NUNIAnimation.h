@@ -42,21 +42,21 @@
 - (MISSING_TYPE *);
 - (float);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (float);
 - (void);
 - (float);
 - (void);
-- (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void)Ì¾\ÁìÁÜÂXÃÜÄ;
+- (void)¬7×ÿR;
+- (_Bool)8tÈÿ=ÚcTtÈÿ;
+- (void);
+- (void);
 - (id);
-- (void);
-- (float)s;
-- (void);
-- (_Bool)-Èé Æ¶ÿ5ÈéøýØÿ;
-- (void)ÿ;
+- (_Bool)`åøý;
 
 // Remaining properties
 @property(nonatomic) __weak id <NUNIAnimatable> animatable; // @synthesize animatable=_animatable;

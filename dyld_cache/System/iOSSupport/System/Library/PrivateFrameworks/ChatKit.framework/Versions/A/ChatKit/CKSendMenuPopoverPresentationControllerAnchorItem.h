@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
-- (id);
 - (void);
+- (id);
+- (void)D°;
 
 // Remaining properties
 @property(nonatomic) struct CGRect anchorRect; // @synthesize anchorRect=_anchorRect;

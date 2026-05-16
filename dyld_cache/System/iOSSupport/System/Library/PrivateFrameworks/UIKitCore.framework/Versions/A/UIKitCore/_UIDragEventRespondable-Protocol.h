@@ -7,7 +7,8 @@
 @class UIDragEvent;
 
 @protocol _UIDragEventRespondable
-- (void)tor:(UIDragEvent *)arg1;
-- (void);
+- (void)yActionPreviewingSegueTemplateStorage:(UIDragEvent *)arg1;
+- (void)utomaticArrowDirectionsFromAvailableSpace;
+- (void)iveRules;
 @end
 

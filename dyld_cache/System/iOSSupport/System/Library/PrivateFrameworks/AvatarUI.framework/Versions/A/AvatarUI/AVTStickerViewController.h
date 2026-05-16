@@ -47,7 +47,7 @@
 - (void);
 - (void);
 - (id);
-- (id)Rҫ;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -98,7 +98,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)P;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -106,18 +106,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)tags:%@ /* Error: Ran out of types for this method. */;
+- (id)xÚ¸Ú;
+- (void)sion"8@?<v@?>16;
+- (void)ffffffæ?ö(\ÂõÐ?;
 
 // Remaining properties
 @property(nonatomic) _Bool allowEditing; // @synthesize allowEditing=_allowEditing;

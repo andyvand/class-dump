@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool)rchResults:(id)arg1 toSection:(id)arg2;
+- (_Bool);
 - (id);
-- (id)itPrimary;
 - (id);
-- (void);
+- (id);
+- (void)«;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXColumnLayout, SXUnitConverter;
+@class SXColumnLayout;
 
 @protocol SXComponentInsertionLayoutProvider
-- (SXUnitConverter *);
 
 // Remaining properties
 @property(readonly, nonatomic) SXColumnLayout *columnLayout;

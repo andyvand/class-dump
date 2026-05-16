@@ -15,15 +15,15 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id)@;
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)@"<SVVideoProviding>"24@0:8@"SVVideoPlayerViewController"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *experimentIdentifier; // @synthesize experimentIdentifier=_experimentIdentifier;

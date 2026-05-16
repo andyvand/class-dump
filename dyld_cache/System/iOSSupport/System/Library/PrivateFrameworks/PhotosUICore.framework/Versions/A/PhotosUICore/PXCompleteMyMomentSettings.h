@@ -91,7 +91,7 @@
     long long _simulateCloudPhotosExitState;
 }
 
-+ (id)3²ÿµNR;9;
++ (id)@.#ÿ-ËL^#ÿ;
 - (_Bool);
 - (long long);
 - (long long);
@@ -108,7 +108,6 @@
 - (long long);
 - (long long);
 - (long long);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -231,12 +230,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (long long);
 - (_Bool);
 - (long long);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -254,8 +254,8 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (id)adeOverlayLayout.m;
 
 // Remaining properties
 @property(nonatomic) _Bool allowLayoutTransitionGesture; // @synthesize allowLayoutTransitionGesture=_allowLayoutTransitionGesture;

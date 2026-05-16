@@ -11,13 +11,13 @@
     id <PKPencilTouchDetectionDelegate> _delegate;
 }
 
-- (void)ay",&,N,V_preferredLanguages;
-- (void)valid URL;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)ractionHelperDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKPencilTouchDetectionDelegate> delegate; // @synthesize delegate=_delegate;

@@ -11,15 +11,15 @@
     NSMutableDictionary *_pidToAssertions;
 }
 
-+ (id)bleViewWrapperViewAccessibility;
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *pidToAssertions; // @synthesize pidToAssertions=_pidToAssertions;

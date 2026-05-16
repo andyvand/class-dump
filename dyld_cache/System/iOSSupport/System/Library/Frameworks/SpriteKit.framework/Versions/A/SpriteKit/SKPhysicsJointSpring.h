@@ -13,12 +13,12 @@
 }
 
 + (id);
-+ (_Bool)ä;
++ (_Bool);
 + (id);
 - (void);
 - (double);
-- (void);
 - (double);
+- (void)Wùÿ;
 
 // Remaining properties
 @property(nonatomic) double damping; // @synthesize damping=_damping;

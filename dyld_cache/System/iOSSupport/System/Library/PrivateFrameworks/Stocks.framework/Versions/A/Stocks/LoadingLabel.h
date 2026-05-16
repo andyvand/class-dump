@@ -13,11 +13,11 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)espondsToSelector: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)exPath"32;
 
 @end
 

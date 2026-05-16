@@ -21,8 +21,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id)meraControl;
-- (void);
++ (id)r:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -39,9 +38,11 @@
 - (void);
 - (void);
 - (id);
-- (id)mpletionHandler:(id)arg1 ];
-- (void)8¢Ù;
-- (id)Eîÿ;
+- (id);
+- (void);
+- (id)
+× ;
+- (void) ´;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

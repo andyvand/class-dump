@@ -19,23 +19,23 @@
 }
 
 + (void);
-+ (id)ûs,a;
++ (id)l¯6;
 - (void);
-- (id)BackgroundTaskResult;
-- (void)er;
+- (id);
 - (void);
-- (id)ndpointURL:%@ /* Error: Ran out of types for this method. */;
-- (void)Queue:(id)arg1 ];
-- (void)sDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Operations/RCOperation.m;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (id);
+- (void)straint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

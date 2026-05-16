@@ -33,18 +33,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (long long);
 - (id);
-- (id);
 - (void);
-- (void)°1b0@ù
-× ;
+- (id);
+- (id);
+- (void)setItemID: /* Error: Ran out of types for this method. */;
+- (id)apshotCache;
+- (id)@"<AMSUIWebActionRunnable>",&,N,V_cachedAction;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;

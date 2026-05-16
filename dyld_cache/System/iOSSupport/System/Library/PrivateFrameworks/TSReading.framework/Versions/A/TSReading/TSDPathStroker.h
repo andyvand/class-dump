@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (void);
+- (double);
 - (void);
-- (double);;
 
 // Remaining properties
 @property(nonatomic) double width; // @synthesize width=mWidth;

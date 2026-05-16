@@ -18,28 +18,30 @@
 }
 
 + (void);
-+ (id);
 + (void);
-+ (void)k;
++ (id)EmojiKeyDisplayController",W,N;
++ (void)üÈ@ÉËÔËpÌ;
 - (double);
 - (void);
+- (long long);
 - (void);
 - (id);
+- (double);
+- (void);
 - (id);
 - (void);
-- (void)
+- (id);
+- (_Bool);
+- (double)Ð!Dù_ð1Â0@ù
 × ;
-- (double)nY: /* Error: Ran out of types for this method. */;
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (id)emGateGestureRecognizersIfNeeded;
-- (_Bool)n setSuppressingKeyboard:forScene:]  setSuppressingKeyboard:%d forScene:%@ (expectedSuppression:%d) /* Error: Ran out of types for this method. */;
-- (_Bool)alled with this behavior;
-- (id)ile there is already an active transaction. Model:%@; Outline view:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (long long)nu.print;
-- (double)¤Wÿ¤©ÔÅ!`;
-- (void)«?<;
-- (void)a6b;
+- (_Bool)Á°!xFùbÐ1Â0@ù
+× ;
+- (void)ñb°1Â0@ù
+× ;
+- (id)utTag;
+- (id)egate;
+- (void)|´zÿ;
+- (void)h;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIBasicAnimationFactory> animationFactory; // @synthesize animationFactory=_animationFactory;

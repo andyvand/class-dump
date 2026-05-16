@@ -9,8 +9,10 @@
 @protocol UINavigationControllerInteractiveTransitioning
 
 @optional
-- (void)tionBuilder";
-- (_UINavigationParallaxTransition *)iorsForState: /* Error: Ran out of types for this method. */;
+- (_UINavigationParallaxTransition *)a
+°!<Bùñf1Â0@ù
+× ;
+- (UIPanGestureRecognizer *);
 
 // Remaining properties
 @property(retain, nonatomic) _UINavigationParallaxTransition *animationController;

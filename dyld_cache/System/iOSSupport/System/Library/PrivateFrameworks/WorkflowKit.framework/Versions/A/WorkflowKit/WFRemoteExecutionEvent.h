@@ -18,20 +18,20 @@
     NSString *_connectionType;
 }
 
-+ (Class){rÉ;
++ (Class);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (_Bool);
-- (void)$;
+- (_Bool)llingBackToDefaultValue: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (void)pe %@;
+- (void)to Run;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

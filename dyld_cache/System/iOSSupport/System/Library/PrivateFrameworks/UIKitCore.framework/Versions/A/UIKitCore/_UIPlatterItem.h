@@ -13,13 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct CGRect)T_CHAIN;
 - (struct CGAffineTransform);
-- (void);
-- (void)olorSpaceName:(struct CGAffineTransform)arg1;
-- (void)ageProvider;
-- (id)Tþ;
-- (struct CGPoint)ïþ;
+- (struct CGPoint)
+× ;
+- (struct CGRect)±dÐ1Â0@ù
+× ;
+- (void)eForModalPresentation:(struct CGAffineTransform)arg1 ,V_segueResponsibleForModalPresentation;
+- (void)JÏîÿ<vþÿ;
+- (void)ndle;
+- (id)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

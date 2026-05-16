@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChat;
-@protocol CKSendAnimationContextProtocol, CKSendAnimationManager;
-
 @protocol CKSendAnimationManagerDelegate
-- (void)ragraphStart:(id <CKSendAnimationManager>)arg1 end:(id <CKSendAnimationContextProtocol>)arg2 contentsEnd:forRange: /* Error: Ran out of types for this method. */;
-- (void)inIndexRange:(id <CKSendAnimationManager>)arg1;
-- (IMChat *);
 @end
 

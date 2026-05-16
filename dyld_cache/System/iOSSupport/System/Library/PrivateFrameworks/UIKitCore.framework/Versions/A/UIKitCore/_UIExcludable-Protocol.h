@@ -5,6 +5,5 @@
 //
 
 @protocol _UIExcludable
-- (_Bool)geSentFromMe: /* Error: Ran out of types for this method. */;
 @end
 

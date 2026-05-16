@@ -10,8 +10,8 @@
 
 + (id);
 + (_Bool);
-- (void);
 - (id);
+- (void)X,Ä;
 
 @end
 

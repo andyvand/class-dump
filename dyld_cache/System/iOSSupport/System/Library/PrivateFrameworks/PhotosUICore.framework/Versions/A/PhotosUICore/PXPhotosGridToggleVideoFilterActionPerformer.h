@@ -15,7 +15,7 @@
 - (id);
 - (long long);
 - (void);
-- (id)Þî5;
+- (id)tCountBlock;
 
 @end
 

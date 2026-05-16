@@ -19,21 +19,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool); owner=%@; target=%@; types=%@>;
-- (void)nsferID:(id)arg1 balloonBundleID:senderContext:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)tWithLimit:(id)arg1 attemptCount: /* Error: Ran out of types for this method. */;
-- (void)UID:(id)arg1 forChatGUID:fromMe:queryID: /* Error: Ran out of types for this method. */;
-- (void)hatGUID;
-- (void),C,N,V_destinationCallerID;
-- (id)ManuallySuspended;
-- (id);
-- (id)ds found.;
-- (id)sing infix string;
-- (id)%@ for service %@ on account %@ with type %d ;
-- (void)QÁð1¢!0@ù
-× ;
++ (_Bool)@"UIViewController"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (void);
-- (id)equestClass(void)_block_invoke;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)sCancelButton;
+- (void)pîe;
 
 // Remaining properties
 @property(retain, nonatomic) UILayoutGuide *aboveAssistantLayoutGuide; // @synthesize aboveAssistantLayoutGuide=_aboveAssistantLayoutGuide;

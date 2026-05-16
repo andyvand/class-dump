@@ -72,12 +72,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void)ªÂ;
 - (id);
 - (id);
+- (void);
+- (id)"ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;

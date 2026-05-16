@@ -5,7 +5,6 @@
 //
 
 @protocol TSDTileGeometryProviding
-- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool tileGeometryDirty;

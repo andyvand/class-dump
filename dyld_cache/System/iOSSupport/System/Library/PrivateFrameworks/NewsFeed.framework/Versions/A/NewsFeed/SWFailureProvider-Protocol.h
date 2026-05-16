@@ -5,6 +5,7 @@
 //
 
 @protocol SWFailureProvider
+- (void (^)(SWFailureMessage *))îÿ;
 
 // Remaining properties
 @property(copy, nonatomic, setter=onEvent:) CDUnknownBlockType block;

@@ -24,43 +24,44 @@
     PXPhotosHeaderCustomizationModel *_headerCustomizationModel;
 }
 
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
+- (SEL);
 - (void);
-- (void)°myl«°myl¬Ö0e;
 - (void);
-- (void);
-- (id);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)1yð1b0@ù
+- (void)°1â
+0@ù
 × ;
-- (SEL)ÿx´Nÿ;
-- (SEL)UD_FEED_YOU_CREATED_STREAM_NAMED_PHRASE_FORMAT;
-- (id)oViewController init];
+- (id)Range=QQ}24@"NSString"40;
+- (void)_actions;
+- (void)Üzü{;
+- (void)è;
+- (SEL);
 - (id);
-- (void)ÿ ;
-- (id)3;
-- (id)æN;
+- (id);
+- (void)on:%@ /* Error: Ran out of types for this method. */;
+- (void)No need to notify on upload completion for moment share:(id)arg1 %{public}@ (status:%hu, counts:%ld vs. %lu) /* Error: Ran out of types for this method. */;
+- (id)hangedTitleOpacity;
+- (void).CPAnalytics.slideshowExportFailed;
+- (void);
+- (void)enerator;
+- (id);
+- (id)­-;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SEL action; // @synthesize action=_action;

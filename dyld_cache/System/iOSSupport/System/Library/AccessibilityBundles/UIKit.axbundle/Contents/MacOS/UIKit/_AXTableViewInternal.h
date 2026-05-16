@@ -18,8 +18,8 @@
     long long _accessibleElementCount;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     PDFAnnotationChangePrivate *_private;
 }
 
-- (id)w"16@"NSTableColumn"24q32;
-- (id)q24q32;
-- (id):(id)arg1 8@16q24;
-- (id)OnboardingManager";
-- (id)8@"NSPopover"16;
-- (unsigned long long)AUIRepeatIt"16;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (int);
-- (void)uchRecognizer;
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) PDFAnnotation *annotation;

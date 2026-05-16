@@ -68,13 +68,13 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (long long)teInfo;
-- (void)llerTransition] previous transitioningDelegate:(struct UIEdgeInsets)arg1 %@;
-- (struct UIEdgeInsets);
+- (long long);
+- (void);
+- (struct UIEdgeInsets)layout: /* Error: Ran out of types for this method. */;
+- (void)eforeUpdate;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

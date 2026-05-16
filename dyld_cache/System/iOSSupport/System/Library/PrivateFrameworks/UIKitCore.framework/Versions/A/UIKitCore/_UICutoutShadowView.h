@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)1"animating"b1"hidIndexBar"b1"hidNavigationBar"b1"noResultsMessageVisible"b1"noResultsMessageAutoDisplay"b1"navigationBarHidingEnabled"b1"dimTableViewOnEmptySearchString"b1"isRotatingWithPopover"b1"cancelButtonManagementDisabled"b1"allowDisablingNavigationBarHiding"b1"showsResultsForEmptyField"b1"searchBarCanBeHoisted"b1"animatingSearchResultsDisappearance"b1"navigationBarShadowWasHidden"b1"hoistingSearchBar"b1};
 
 @end
 

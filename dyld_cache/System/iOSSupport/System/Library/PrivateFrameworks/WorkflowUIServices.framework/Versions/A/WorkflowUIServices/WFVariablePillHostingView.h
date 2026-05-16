@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

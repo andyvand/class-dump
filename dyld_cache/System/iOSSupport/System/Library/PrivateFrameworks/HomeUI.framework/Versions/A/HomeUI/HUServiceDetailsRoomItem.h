@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tField"8;
 
 // Remaining properties
 @property(readonly, nonatomic) HFItemBuilder<HFServiceLikeBuilder> *serviceLikeBuilder; // @synthesize serviceLikeBuilder=_serviceLikeBuilder;

@@ -15,8 +15,8 @@
     MISSING_TYPE *parameters;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

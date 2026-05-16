@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool)yptG;
+- (_Bool);
 - (_Bool);
 
 @end

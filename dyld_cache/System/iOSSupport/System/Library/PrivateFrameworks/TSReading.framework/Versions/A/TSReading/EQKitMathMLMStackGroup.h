@@ -13,13 +13,13 @@
     NSArray *mChildren;
 }
 
-- (id);
-- (const void *)/;
+- (id);
+- (const void *);
 - (struct Schemata);
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (id)VisibleUnscaledRect;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -31,12 +31,11 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)q	ð1b0@ù
-× ;
+- (void)ReachabilityOfflineDurationSameDay%@SingularFormat;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accessoryCount;

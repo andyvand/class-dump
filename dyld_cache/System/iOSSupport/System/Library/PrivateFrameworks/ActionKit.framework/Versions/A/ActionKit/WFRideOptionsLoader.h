@@ -27,7 +27,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -36,6 +35,7 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -48,12 +48,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)em/Library/Frameworks/PDFKit.framework/PDFKit;
+- (id);
+- (void)ace;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

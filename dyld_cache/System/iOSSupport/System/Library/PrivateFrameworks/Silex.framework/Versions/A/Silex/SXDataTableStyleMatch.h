@@ -14,9 +14,9 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)GSize=dd}}16{CGPoint=dd}48;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDataTableSelector *selector; // @synthesize selector=_selector;

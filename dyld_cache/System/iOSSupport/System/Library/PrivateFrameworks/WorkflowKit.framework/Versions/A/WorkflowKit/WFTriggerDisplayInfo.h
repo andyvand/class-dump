@@ -17,9 +17,9 @@
 - (Class);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)arameter;
+- (void)tionCoordinator service:account:incomingUnhandledProtobuf:fromID:context:] /* Error: Ran out of types for this method. */;
+- (id)422;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actionIcons; // @synthesize actionIcons=_actionIcons;

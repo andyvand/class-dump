@@ -8,21 +8,25 @@
 
 @interface SensitiveContentAnalysisUI.InterventionScreenModel.Bullet
 {
+    MISSING_TYPE *titleKey;
     MISSING_TYPE *textKey;
     void imageName;
     void emoji;
+    MISSING_TYPE *table;
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *emoji;
 @property(nonatomic, readonly) NSString *imageName;
 @property(nonatomic, readonly) NSString *text;
+@property(nonatomic, readonly) NSString *title;
 
 @end
 

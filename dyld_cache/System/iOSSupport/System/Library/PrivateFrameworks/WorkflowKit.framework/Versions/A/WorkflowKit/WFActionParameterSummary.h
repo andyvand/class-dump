@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)encrypted;
+- (void)ementUnitTypeKey;
+- (id)ÿ;
 - (id);
 
 // Remaining properties

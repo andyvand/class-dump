@@ -5,10 +5,6 @@
 //
 
 @interface (null) (HUAdditions)
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 @end
 

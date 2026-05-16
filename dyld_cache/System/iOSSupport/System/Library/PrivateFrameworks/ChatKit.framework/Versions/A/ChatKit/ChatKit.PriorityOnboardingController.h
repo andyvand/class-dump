@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)AudioMessageWaveform;
 
 @end
 

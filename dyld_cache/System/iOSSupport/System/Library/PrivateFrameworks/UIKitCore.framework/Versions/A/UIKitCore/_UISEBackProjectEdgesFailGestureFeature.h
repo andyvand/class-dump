@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
     unsigned long long _touchedEdges;
 }
 
-- (void);
-- (void);
-- (id)Q;
-- (unsigned long long)ragInteractionDriverStateMachine *const _Nonnull, _UIDragInteractionDriver *const __strong _Nonnull, _UIDragLiftEvent);
 - (id);
+- (void);
+- (unsigned long long) ;
+- (id);
+- (void)¿©;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long touchedEdges; // @synthesize touchedEdges=_touchedEdges;

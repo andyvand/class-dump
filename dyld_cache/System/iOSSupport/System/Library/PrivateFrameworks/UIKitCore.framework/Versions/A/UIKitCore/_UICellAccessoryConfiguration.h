@@ -13,23 +13,23 @@
     UIColor *_backgroundColor;
 }
 
-+ (_Bool)ÝZm;
++ (_Bool)reate keyboard proxy layers - they should only forward them;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)ding;
+- (id);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)cContentAttribute:(id)arg1;
+- (void)opTintAlpha;
 - (id);
-- (id);
-- (id);
-- (void)ôÿ;
-- (id)ngInlineCalculation:getScopeBarContentInset: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id)boardType;
-- (long long)ICoreKeyboardTrackingElement;
-- (void)öûÿ#þÿîüÿ;
-- (id)AllowMainThreadInProcessAnimationManagers;
+- (id)fTextStorage: /* Error: Ran out of types for this method. */;
+- (id)vediamo e quando?;
+- (long long)x£];
+- (void)-,ÿ;
+- (void)Ïd;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_backgroundColor, setter=_setBackgroundColor:) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

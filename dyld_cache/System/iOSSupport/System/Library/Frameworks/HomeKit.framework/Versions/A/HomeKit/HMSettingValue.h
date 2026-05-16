@@ -16,22 +16,22 @@
     NSString *_selectionValue;
 }
 
-+ (_Bool)ss:completion:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void)ysisEventBulletinEvent;
 - (id);
 
 // Remaining properties

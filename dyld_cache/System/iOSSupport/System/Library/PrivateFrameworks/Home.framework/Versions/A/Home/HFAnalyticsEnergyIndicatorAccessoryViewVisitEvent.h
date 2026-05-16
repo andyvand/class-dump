@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)Admin;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *adviceText; // @synthesize adviceText=_adviceText;

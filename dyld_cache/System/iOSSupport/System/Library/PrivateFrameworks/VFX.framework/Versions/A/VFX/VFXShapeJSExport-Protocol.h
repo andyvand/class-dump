@@ -5,6 +5,9 @@
 //
 
 @protocol VFXShapeJSExport
+- (id)°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long chamferMode;

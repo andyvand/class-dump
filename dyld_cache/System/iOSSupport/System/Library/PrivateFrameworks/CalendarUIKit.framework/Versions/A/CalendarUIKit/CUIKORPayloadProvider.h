@@ -15,7 +15,7 @@
     CUIKORStringGenerator *_stringGenerator;
 }
 
-+ (id);
++ (id);
 + (id);
 - (long long);
 - (void);
@@ -26,17 +26,17 @@
 - (id);
 - (id);
 - (id);
-- (void)T;
-- (void);
-- (id);
-- (id)`;
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)ions;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *drawingQueue; // @synthesize drawingQueue=_drawingQueue;

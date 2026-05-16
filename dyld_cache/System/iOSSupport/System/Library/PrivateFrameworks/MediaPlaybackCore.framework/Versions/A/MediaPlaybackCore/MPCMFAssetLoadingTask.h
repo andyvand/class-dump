@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (_Bool);
+- (_Bool)Management><MFPlaybackStackController_IPI>",&,N,V_playbackStackController;
+- (void)ntConsumer %p:_generateAggregateNoncatalogEndEventForCursor:- could not find queueSectionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

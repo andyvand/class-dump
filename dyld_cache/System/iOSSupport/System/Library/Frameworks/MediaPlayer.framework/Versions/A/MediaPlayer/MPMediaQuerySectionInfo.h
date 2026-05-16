@@ -13,20 +13,20 @@
     _Bool _hasUnknownSection;
 }
 
-+ (_Bool)Failed to create directory at '%{public}@' with error:%{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long)ocialPersonIsPrivate__MAPPING_MISSING__;
+- (unsigned long long);
+- (void)isDefinitiveInformation,V_definitiveInformation;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

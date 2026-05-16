@@ -17,6 +17,7 @@
     MISSING_TYPE *_dataUsageText;
     MISSING_TYPE *_ttyType;
     MISSING_TYPE *_verifiedStatus;
+    MISSING_TYPE *_isCancelled;
     MISSING_TYPE *_recentCall;
     MISSING_TYPE *_cancellables;
     MISSING_TYPE *_$observationRegistrar;

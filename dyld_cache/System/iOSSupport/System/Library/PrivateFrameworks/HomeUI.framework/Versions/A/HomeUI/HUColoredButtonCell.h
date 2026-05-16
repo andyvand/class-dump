@@ -25,17 +25,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id)moveItem: /* Error: Ran out of types for this method. */;
-- (void)moveUserPINButtonItem;
-- (_Bool)ription_NetworkMismatch;
-- (void)éøë;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)RuleItemProvider:(id)arg1;
+- (void)wController;
+- (id)ation;
+- (_Bool)¸;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HUColoredButton *button; // @synthesize button=_button;

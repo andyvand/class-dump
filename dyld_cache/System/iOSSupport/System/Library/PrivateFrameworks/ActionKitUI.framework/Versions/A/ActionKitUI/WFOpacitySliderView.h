@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (double);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double opacity;

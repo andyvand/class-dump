@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)erValue;
-- (void)ueSource:(id)arg1;
+- (void)egory.Energy.AccountLookup.ContactInfo;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUEmbeddedTriggerActionSetGridViewControllerDelegate> delegate; // @synthesize delegate;

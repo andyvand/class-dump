@@ -23,8 +23,6 @@
 + (id);
 - (_Bool);
 - (void);
-- (void)z;
-- (void);
 - (void);
 - (void);
 - (void);
@@ -34,7 +32,9 @@
 - (id);
 - (id);
 - (void);
-- (void)4B32Q36;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <NewsUpdaterDelegate> delegate; // @synthesize delegate=_delegate;

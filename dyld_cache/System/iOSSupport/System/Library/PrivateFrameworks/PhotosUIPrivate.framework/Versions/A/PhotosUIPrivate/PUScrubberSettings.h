@@ -35,7 +35,7 @@
     long long _playingPlaybackIndicator;
 }
 
-+ (id)äý¥v;
++ (id)s;
 - (_Bool);
 - (double);
 - (double);
@@ -86,14 +86,13 @@
 - (void);
 - (double);
 - (double);
+- (id);
 - (long long);
-- (void);
 - (double);
 - (void);
-- (id);
-- (void)Ô¡TÐ!¼CùW1b0@ù
-× ;
-- (double)tal changes to perform an incremental update;
+- (void);
+- (double);
+- (void)"UIView",&,N,S_setView:(double)arg1 ,V_view;
 
 // Remaining properties
 @property(nonatomic) double baseVideoWidth; // @synthesize baseVideoWidth=_baseVideoWidth;

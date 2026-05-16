@@ -17,28 +17,30 @@
 }
 
 - (id);
-- (void);
-- (_Bool)vice_p;
 - (id);
-- (id)licationLockDeclaration_AppUserEnabledOptions",C,N,V_payloadUserEnabledOptions;
-- (void);
 - (id);
-- (void);
-- (void);
-- (id)!ðFùÄÐ1¢!0@ù
+- (id);
+- (_Bool);
+- (void)1Â0@ù
 × ;
-- (void)^{?=Q{CGPoint=dd}{CGPoint=dd}{CGSize=dd}{CGPoint=dd}{CATransform3D=dddddddddddddddd}q@@@@}16@"UIView"24;
-- (id)aviors;
-- (void)ddenSideEffects;
-- (id);
-- (void)et;
-- (id)ightLevel:(id)arg1 ,V_lastNotifiedBacklightLevel;
-- (id):(id)arg1;
-- (void)previewParametersProvider;
-- (id);
-- (void);
-- (void)fyingglass.and.chevron.down;
-- (struct CGPoint)MaskView;
+- (struct CGPoint)@ù
+× ;
+- (id)Aù`°1Â0@ù
+× ;
+- (void)ght"{CGSize="width"d"height"d}"topRight"{CGSize="width"d"height"d}};
+- (void)bilityHintsForTextFormatting;
+- (void)im_touchesEnded:(id)arg1 withEvent:(_Bool)arg2;
+- (id)rovider;
+- (id)moteViewController:(id)arg1 replyHandler: /* Error: Ran out of types for this method. */;
+- (void)patching -_queued_performTextOperations:(id)arg1 %p as main-thread task on keyboard task subqueue:%@ /* Error: Ran out of types for this method. */;
+- (void)ng to save tailspin using DiagnosticPipeline.;
+- (id)tþÿ;
+- (id)ange for coalesced undo or redo. Previous accumulation={%lu, %lu} Replacement range={%lu, %lu} delta=%li;
+- (void)n;
+- (void)eenProbablyBeingRecorded;
+- (id)ifiers;
+- (void)øuR0Åç23®;
+- (void)ent;
 - (void);
 
 // Remaining properties

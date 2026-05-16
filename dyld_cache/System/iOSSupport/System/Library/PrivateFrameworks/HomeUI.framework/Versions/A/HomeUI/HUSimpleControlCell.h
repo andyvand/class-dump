@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)moji.ram.face;
 
 // Remaining properties
 @property(retain, nonatomic) UIView<HUControlView> *controlView; // @synthesize controlView=_controlView;

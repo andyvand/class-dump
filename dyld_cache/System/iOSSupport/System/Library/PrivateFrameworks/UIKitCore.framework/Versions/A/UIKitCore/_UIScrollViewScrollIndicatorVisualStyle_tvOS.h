@@ -10,7 +10,7 @@
 {
 }
 
-- (double)ed;
+- (double)splay:withElementKind:indexPath:elementCategory: /* Error: Ran out of types for this method. */;
 
 @end
 

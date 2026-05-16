@@ -20,10 +20,10 @@
 + (id);
 + (id);
 + (id);
-+ (id)st %@ as completed with waitForCommit %d on application %@;
 + (id);
 + (id);
-+ (id)h:(struct _NSZone *)arg1;
++ (id);
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *CGImage;

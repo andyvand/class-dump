@@ -16,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)É1¢!0@ù
-× ;
-- (id)ad;
-- (id)S__setVisualEffectGroupName:,V_visualEffectGroupName /* Error: Ran out of types for this method. */;
-- (void)Title:(id)arg1 ];
+- (id);
+- (id)_UISceneConnectionOptionDefinitionPayloadStorage.swift;
+- (void)þ¬þ;
+- (void)l;
+- (id)4±8ÿ¾´;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

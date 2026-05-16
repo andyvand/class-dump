@@ -9,9 +9,10 @@
 }
 
 + (_Bool);
-+ (Class)eychainInfoFromData said it had identity, but couldn't retrieve cert;
++ (Class);
 - (id);
-- (id)nStore:(id)arg1 timerManager:sessionMetricManager:] /* Error: Ran out of types for this method. */;
+- (id)ô@
+;
 
 @end
 

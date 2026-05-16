@@ -20,11 +20,11 @@
 + (id);
 + (id);
 - (id);
+- (id);
+- (long long);
 - (long long);
 - (_Bool);
-- (void);
-- (long long);
-- (id);
+- (void)ewDidDisappear: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

@@ -56,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)atValue:(id)arg1 forElement: /* Error: Ran out of types for this method. */;
+- (void)on;
 
 // Remaining properties
 @property(nonatomic) int emulatedControllerMapping; // @synthesize emulatedControllerMapping=_emulatedControllerMapping;

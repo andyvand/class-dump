@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     NSCache *_imageCache;
 }
 
-+ (id);
-- (id)fOptedIn;
-- (void)sionChatID:(id)arg1 identifier:didDeleteConversation:style:account: /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,11 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)OMFocusRedirects;
-- (id)ion:flippedHorizontally: /* Error: Ran out of types for this method. */;
-- (id)del",R,N,V_tabModel;
+- (void);
+- (id);
+- (id)ectDescriptor;
+- (void)hUf;
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *imageCache; // @synthesize imageCache=_imageCache;

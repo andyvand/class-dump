@@ -19,10 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
 - (long long);
-- (CDUnknownBlockType)t={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}8r^{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (unsigned long long)aú!Fù1G°1â
+0@ù
+× ;
+- (CDUnknownBlockType)]);
+- (void);óÔª;
 
 // Remaining properties
 @property(retain) PHImportAssetDataRequest *assetDataRequest; // @synthesize assetDataRequest=_assetDataRequest;

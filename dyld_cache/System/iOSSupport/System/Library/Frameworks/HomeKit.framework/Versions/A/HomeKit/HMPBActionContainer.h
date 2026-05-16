@@ -30,22 +30,23 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (int);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (int);
-- (void),C,V_smartBulletinBoardNotificationCondition;
+- (id)1B50@ù
+× ;
+- (_Bool)tes:error: /* Error: Ran out of types for this method. */;
+- (void)tification:(_Bool)arg1;
+- (void)0;
 
 // Remaining properties
 @property(retain, nonatomic) HMPBCharacteristicWriteAction *characteristicWriteAction; // @synthesize characteristicWriteAction=_characteristicWriteAction;

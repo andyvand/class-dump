@@ -14,16 +14,18 @@
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
-- (void);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)!©Ð!lDù±ø1â
+0@ù
+× ;
+- (struct UIEdgeInsets)tion: /* Error: Ran out of types for this method. */;
+- (void)SelectedPaymentOfferC;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *text;

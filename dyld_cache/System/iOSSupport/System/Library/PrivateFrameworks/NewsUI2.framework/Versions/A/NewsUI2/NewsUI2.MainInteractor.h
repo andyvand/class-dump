@@ -22,6 +22,7 @@
     MISSING_TYPE *bootstrapper;
     MISSING_TYPE *appLaunchMethodChecker;
     MISSING_TYPE *featureAvailability;
+    MISSING_TYPE *paidBundleViaOfferUIHandler;
 }
 
 @end

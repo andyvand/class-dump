@@ -17,8 +17,7 @@
 
 + (id);
 + (id);
-+ (_Bool)ð!Gù±«	1b0@ù
-× ;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -44,22 +43,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (struct CGRect);
 - (_Bool);
+- (void);
+- (struct CGRect);
+- (struct CGPoint);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGRect);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;

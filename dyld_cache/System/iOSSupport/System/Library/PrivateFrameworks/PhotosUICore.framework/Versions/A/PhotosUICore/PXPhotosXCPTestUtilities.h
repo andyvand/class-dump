@@ -10,8 +10,8 @@
 
 + (void);
 + (id);
-- (void);
 - (id);
+- (void)À,HCõ5;
 
 @end
 

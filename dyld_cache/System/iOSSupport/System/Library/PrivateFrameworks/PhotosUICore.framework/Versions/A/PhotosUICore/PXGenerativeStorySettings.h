@@ -91,7 +91,7 @@
 + (_Bool);
 + (id);
 + (long long);
-+ (id)I9;
++ (id);
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -235,14 +235,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (double);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (double);
+- (_Bool);
 - (void);
-- (id)reloaded:%s. Schedule request in the background /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowRadarRequestAlerts; // @synthesize allowRadarRequestAlerts=_allowRadarRequestAlerts;

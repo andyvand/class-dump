@@ -42,12 +42,11 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)±.ð1b0@ù
-× ;
 - (id);
-- (void)TableView"16@"NSIndexPath"24@"NSIndexPath"32;
+- (void);
+- (void);
+- (id);
+- (void)e:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)¤uýÿ¦HýÿtNýÿ;
-- (id);
++ (id);
+- (id)leDescription:from: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bookmarkData; // @dynamic bookmarkData;

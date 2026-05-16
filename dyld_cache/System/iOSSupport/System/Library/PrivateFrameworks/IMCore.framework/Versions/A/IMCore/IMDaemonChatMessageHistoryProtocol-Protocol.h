@@ -5,11 +5,6 @@
 //
 
 @protocol IMDaemonChatMessageHistoryProtocol
-- (void);
-- (void);
-- (void)c
-;
-- (void)1;
-- (void);
+- (void)°"3;
 @end
 

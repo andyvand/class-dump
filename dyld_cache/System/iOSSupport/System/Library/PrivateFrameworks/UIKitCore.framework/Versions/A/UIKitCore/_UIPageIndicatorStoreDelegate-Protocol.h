@@ -5,6 +5,6 @@
 //
 
 @protocol _UIPageIndicatorStoreDelegate
-- (unsigned long long)eShadows;
+- (struct CGSize)vigationBarAugmentedTitleView>";
 @end
 

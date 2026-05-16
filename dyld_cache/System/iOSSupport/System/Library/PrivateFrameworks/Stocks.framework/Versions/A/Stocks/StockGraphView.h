@@ -44,16 +44,16 @@
 - (void);
 - (void);
 - (CDStruct_d4d9707c);
-- (void);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (id);
 - (void);
-- (struct CGRect)Uz;
+- (struct CGRect);
 - (struct CGRect);
 - (double);
 - (void);
-- (float)z;
+- (float);
 - (unsigned long long);
 - (struct CGRect);
 - (void);
@@ -66,10 +66,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)`;
 - (id);
 - (void);
-- (id)ic}@;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak UIView<StockGraphViewContainer> *chartViewDelegate; // @synthesize chartViewDelegate=_chartViewDelegate;

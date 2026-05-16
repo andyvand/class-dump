@@ -13,13 +13,13 @@
 }
 
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *objects; // @synthesize objects=_objects;

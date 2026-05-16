@@ -12,9 +12,10 @@
 }
 
 - (id);
-- (void)onDemux: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

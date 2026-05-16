@@ -23,17 +23,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)y;
 - (void);
-- (void)=�;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long)ingOfAddedMessageWithGUID:chat:reason: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)iewController: /* Error: Ran out of types for this method. */;
-- (id)n:adjustOriginXFactor:adjustOriginYFactor: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void)nset: /* Error: Ran out of types for this method. */;
+- (id)?²ï§ÆKÇ?¤p=
+×£à?Tã¥Ä °?Ê?Ô?ëQ¸ë¡?¸ëQ¸Þ?
+×£p=
+ç??;
+- (void)I;
 
 // Remaining properties
 @property(nonatomic) _Bool animationFenceEnabled; // @synthesize animationFenceEnabled=_animationFenceEnabled;

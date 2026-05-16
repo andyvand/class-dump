@@ -18,7 +18,7 @@
 - (long long);
 - (id);
 - (unsigned long long);
-- (void)3;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *fieldIDToSingleFieldData; // @synthesize fieldIDToSingleFieldData=_fieldIDToSingleFieldData;

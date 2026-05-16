@@ -11,23 +11,21 @@
     NSArray *_destinations;
 }
 
-- (id)ayloadAllowDataRoaming;
-- (id);
-- (void)Mï!º;
-- (id)!|Cù±Äð1¢!0@ù
-× ;
 - (_Bool);
-- (id)1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id)Að!ÐEùÑZÐ1Â0@ù
 × ;
-- (id)ÁuÐ!(AùQÊ°1¢!0@ù
+- (id)0@ù
 × ;
-- (id)ÎÐ1¢!0@ù
-× ;
-- (id)referencesCoordinatorDelegate>",W,N,V_delegate;
-- (id)r;
-- (id)GÇ\Ø GÇÐÞðGÇ å;
-- (long long)üÿp²üÿ;
-- (id)3ø;
+- (id)"NSDictionary"8;
+- (id)phPosition:(long long)arg1 characterIndex:(id)arg2;
+- (id)lyVisualStyleToDisplayedViews;
+- (id)T;
+- (id)34Ísþ;
+- (void)W¸ÿ;
+- (long long)þ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *destinations; // @synthesize destinations=_destinations;

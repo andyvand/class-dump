@@ -39,12 +39,12 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isRTL) _Bool RTL; // @synthesize RTL=_RTL;

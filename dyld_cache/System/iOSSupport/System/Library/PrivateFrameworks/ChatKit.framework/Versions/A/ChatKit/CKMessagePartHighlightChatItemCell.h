@@ -18,11 +18,11 @@
 - (void);
 - (void);
 - (void);
-- (id)t;
-- (void)Width;
+- (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)¨¥îÿ4Ëÿ;
 
 // Remaining properties
 @property(retain, nonatomic) CKMessagePartHighlightBalloonView *highlightBalloonView;

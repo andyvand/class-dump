@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
-- (id);
-- (void)P;
-- (id);
-- (unsigned long long)V;
 - (long long);
-- (long long)Ì¿ÀtÀtÁüÁ`Â¼ÂÃ;
-- (double)cuts from cache... completed, count=%ld;
 - (id);
-- (long long);
+- (double);
+- (id);
+- (unsigned long long);
+- (long long);
+- (void)DetailSection;
+- (id)l¼;
+- (long long)juryReportsTagFeedGroupKnobs;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

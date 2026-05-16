@@ -26,29 +26,29 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (void);
-- (void)h;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id)oIdentifier:conversationType:messageType:messageProtocol: /* Error: Ran out of types for this method. */;
-- (double)nc:didStartSync:didFinishSync:didSucceedSyncing: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ilterMessage:fromSender:receiverISOCountryCode:extensionID:withCompletion: /* Error: Ran out of types for this method. */;
-- (void);
-- (struct __CTFont *)Setting transferred filename:(struct CGPDFFont *)arg1 %@;
-- (_Bool)History, error:%@ /* Error: Ran out of types for this method. */;
-- (void)tor;
+- (id);
+- (double);
 - (unsigned long long);
-- (void)tus;
+- (void);
+- (struct __CTFont *);
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (void)etScope: /* Error: Ran out of types for this method. */;
-- (id)mageStackContentsGravity;
-- (void)emStatusUI;
-- (void)Öÿ¸ÑÕ-"c;
+- (void)ngInsert: /* Error: Ran out of types for this method. */;
+- (void)ting;
+- (unsigned long long)istenceIdentifierForScene: /* Error: Ran out of types for this method. */;
+- (void)\>ÿ;
+- (id)¸êÇÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentPageIndex; // @synthesize currentPageIndex=_pageIndex;

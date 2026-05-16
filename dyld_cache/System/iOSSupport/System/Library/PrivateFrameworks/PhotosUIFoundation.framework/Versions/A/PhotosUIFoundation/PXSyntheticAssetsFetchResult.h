@@ -18,15 +18,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (id)
+× ;
+- (id)ýÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;

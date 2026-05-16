@@ -26,10 +26,9 @@
 - (Class);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)!Dùq11b0@ù
-× ;
-- (void)StatusItemProvider";
+- (void)%@:%@ Found matching PIN code for user. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HUItemCollectionViewController<HUTriggerSummaryActionGridViewControllerProtocol> *actionSetsGridViewController; // @synthesize actionSetsGridViewController=_actionSetsGridViewController;

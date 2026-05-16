@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)eadlineScoringOutputName;
+- (id);
 
 @end
 

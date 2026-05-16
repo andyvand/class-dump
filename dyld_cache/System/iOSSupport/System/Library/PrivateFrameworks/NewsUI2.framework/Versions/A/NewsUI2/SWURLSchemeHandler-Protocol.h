@@ -7,10 +7,6 @@
 @protocol WKURLSchemeTask;
 
 @protocol SWURLSchemeHandler
-- (id <WKURLSchemeTask>)collectionView:shouldBeginMultipleSelectionInteractionAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ice;
-- (void)ntHandler;
-- (void)leChangeNotificationModifier;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WKURLSchemeTask> task;

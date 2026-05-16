@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _cellBeingTouched;
 }
 
-- (void)ntProperties:(_Bool)arg1;
-- (_Bool)UIDs to Delete;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool cellBeingTouched; // @synthesize cellBeingTouched=_cellBeingTouched;

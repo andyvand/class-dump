@@ -16,13 +16,13 @@
 
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (CDStruct_1b6d18a9)ocalMemories: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)häOLÐNÌNIÿR;
-- (void)EªQ;
-- (CDStruct_1b6d18a9)photos;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

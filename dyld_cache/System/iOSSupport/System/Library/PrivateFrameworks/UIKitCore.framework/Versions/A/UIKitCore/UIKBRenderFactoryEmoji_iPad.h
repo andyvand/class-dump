@@ -11,18 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ailed:suggestedRetryGUID:error: /* Error: Ran out of types for this method. */;
-- (_Bool)ticRecordZone;
+- (id);
+- (_Bool);
 - (id);
 - (struct CGPoint);
 - (double);
 - (struct CGPoint);
-- (id)database (%@). ***;
+- (id);
 - (void);
 - (double);
-- (double)itWithTextViewForStateRestoration: /* Error: Ran out of types for this method. */;
-- (id)+j;
-- (long long)h;
+- (id)!`AùQe°1Â0@ù
+× ;
+- (double)ternalTrackingInfo;
+- (long long);
 
 @end
 

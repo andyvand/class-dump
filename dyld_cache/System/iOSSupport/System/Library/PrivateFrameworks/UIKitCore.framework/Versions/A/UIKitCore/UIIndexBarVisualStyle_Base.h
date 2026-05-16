@@ -11,24 +11,22 @@
     UIIndexBarView *_indexBarView;
 }
 
-+ (id)ssionKey;
++ (id);
 - (void);
 - (double);
 - (double);
 - (id);
-- (void)%f;
-- (id)tickerTapbackMessageProcessingPipelineComponent> Started processing for Message GUID:(id)arg1 %@;
-- (struct CGRect)at path:(struct CGRect)arg1 %@ for transfer:(double *)arg2 %@;
+- (void);
+- (id);
+- (struct CGRect);
 - (long long);
 - (double);
-- (double);
-- (void)0@ù
-× ;
-- (_Bool)!;
-- (_Bool)"ºÿUÁ;
-- (struct CGSize)©d;
-- (id)
-Ê;Gh;
+- (_Bool);
+- (struct CGSize);
+- (_Bool);
+- (double)tion:willBeDisplayed: /* Error: Ran out of types for this method. */;
+- (void)ÜÍg;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

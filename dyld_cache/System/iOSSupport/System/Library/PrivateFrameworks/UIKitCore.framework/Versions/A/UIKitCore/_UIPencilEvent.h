@@ -38,33 +38,33 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void)rmCapabilitiesQueryRequest:completion: /* Error: Ran out of types for this method. */;
-- (id)yle:(struct __IOHIDEvent *)arg1 services:(id)arg2;
-- (void)dCompatibilityMessageIdentifier",&,N,V_swiftImplementation;
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
-- (void)ic}@;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)Ð!pFùqZÐ1Â0@ù
+× ;
+- (id)
+× ;
+- (long long)bð1Â0@ù
+× ;
+- (id);
+- (id)eredLanguagesPredicate;
+- (id)ndle the rest.;
+- (long long)n only be called from keyboard process;
 - (void);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (id)rÐ!EùQÅÐ1¢!0@ù
-× ;
-- (long long)
-× ;
-- (id)orizontalVolumeDownScale:(id)arg1;
-- (id)lGroup;
-- (id)ecognizer;
-- (id)blic}s] %{public}p; scene identity:%{public}s; evaluation strategy:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (long long)3_p;
-- (id)ndEffects property. Switch to using backgroundEffects exclusively.;
-- (unsigned long long)5è[;
-- (id)f@_;
-- (id)B5`;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIGenericGestureHIDEventDescriptor *continuousEventDescriptorForDispatch; // @synthesize continuousEventDescriptorForDispatch=_continuousEventDescriptorForDispatch;

@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)AXSuggestionResultFallbackLabel;
 
 // Remaining properties
 @property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

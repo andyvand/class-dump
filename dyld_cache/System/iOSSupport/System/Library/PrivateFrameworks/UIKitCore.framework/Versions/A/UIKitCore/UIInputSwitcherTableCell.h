@@ -18,22 +18,22 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _interactiveInsets;
 }
 
-+ (id)istingToolbarWithItems;
-- (_Bool)oggleiCloudSettingsSwitch;
-- (_Bool)chFailure: /* Error: Ran out of types for this method. */;
-- (void)imeSensitiveMessages;
-- (void)kUniqueID;
-- (void);
-- (struct UIEdgeInsets);
-- (void)WY CMM data) called on object %@ %@;
++ (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void)ÜYÿ;
+- (void);
+- (void)t;
+- (id)ICTFontTextStyleSection3;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIInputSwitcherTableCellBackgroundView *backgroundView; // @dynamic backgroundView;

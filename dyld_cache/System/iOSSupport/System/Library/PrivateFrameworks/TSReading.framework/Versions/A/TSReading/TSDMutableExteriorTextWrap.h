@@ -14,8 +14,8 @@
 - (void);
 - (void);
 - (void);
-- (void)tContext;
-- (void)YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/kit/TSKSegmentedControl.m;
+- (void);
+- (void);
 
 @end
 

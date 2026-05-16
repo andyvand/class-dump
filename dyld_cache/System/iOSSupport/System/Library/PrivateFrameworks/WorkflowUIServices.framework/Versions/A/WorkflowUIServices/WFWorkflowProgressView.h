@@ -39,17 +39,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (double);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (long long);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CAShapeLayer *backgroundCircleLayer; // @synthesize backgroundCircleLayer=_backgroundCircleLayer;

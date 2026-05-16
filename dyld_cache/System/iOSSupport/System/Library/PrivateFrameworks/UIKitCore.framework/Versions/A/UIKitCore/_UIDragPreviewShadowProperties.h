@@ -12,19 +12,19 @@
     struct CGAffineTransform _liftedTransform;
 }
 
-+ (_Bool)¾;
++ (_Bool)e0;
 - (void);
 - (void);
 - (void);
 - (double);
-- (double)bSystem.B.dylib;
-- (void)change:(double)arg1 %@;
-- (struct CGAffineTransform)r, could not find chat by GUID:%@ /* Error: Ran out of types for this method. */;
-- (long long);
+- (double);
 - (void);
-- (id)__MAPPING_MISSING__;
+- (struct CGAffineTransform);
+- (long long);
 - (id);
-- (id)ffset:duration: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)creenEdgePanGestureRecognizer;
+- (id),S_setTraitsWillChangeHandler:(struct _NSZone *)arg1 ,V__traitsWillChangeHandler;
 
 // Remaining properties
 @property(nonatomic) double liftedAlpha; // @synthesize liftedAlpha=_liftedAlpha;

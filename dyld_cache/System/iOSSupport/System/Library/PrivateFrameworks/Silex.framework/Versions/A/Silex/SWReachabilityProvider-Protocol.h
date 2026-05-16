@@ -5,7 +5,6 @@
 //
 
 @protocol SWReachabilityProvider
-- (void)FùQ£ð1¢!0@ù
-× ;
+- (_Bool)alleryType;
 @end
 

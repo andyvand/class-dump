@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)mêeo;
++ (id)version.;
 - (void);
 - (void);
 - (id);

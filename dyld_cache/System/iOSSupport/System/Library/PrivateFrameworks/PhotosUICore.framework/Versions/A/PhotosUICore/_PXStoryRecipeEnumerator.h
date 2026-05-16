@@ -18,10 +18,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType);
 - (void);
-- (void)eAdd;
+- (void)dentifierHelper;
+- (CDUnknownBlockType);
+- (void)ackLabel;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

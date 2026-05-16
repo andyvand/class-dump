@@ -5,9 +5,5 @@
 //
 
 @protocol PKPushRegistryDelegate
-- (void);
-
-@optional
-- (void)UYþ;
 @end
 

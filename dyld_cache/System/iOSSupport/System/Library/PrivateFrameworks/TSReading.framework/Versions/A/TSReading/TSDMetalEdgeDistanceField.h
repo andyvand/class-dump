@@ -31,10 +31,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id)`b;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)owsChanged;
 
 @end
 

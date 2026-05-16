@@ -5,6 +5,6 @@
 //
 
 @protocol UICGFloatTraitDefinition
-+ (double)omUnspecified.;
++ (double)yboardOrientation(void);
 @end
 

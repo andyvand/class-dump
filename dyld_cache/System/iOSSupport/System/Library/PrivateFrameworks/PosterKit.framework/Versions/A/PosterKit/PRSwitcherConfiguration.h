@@ -23,27 +23,28 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)!Ì@ù1ò°1â
+0@ù
 × ;
+- (void)ratedByCharactersInSet:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) PRPosterConfiguration *activeConfiguration; // @synthesize activeConfiguration=_activeConfiguration;

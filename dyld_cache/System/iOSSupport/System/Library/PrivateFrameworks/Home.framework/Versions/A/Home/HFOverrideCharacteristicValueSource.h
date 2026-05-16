@@ -26,13 +26,14 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)Täèì;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HFCharacteristicOperationContextProviding> contextProvider;

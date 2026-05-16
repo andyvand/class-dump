@@ -14,12 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)@;
-- (void);
-- (id)sVisible;
-- (id)üê;
-- (void)stureRotaryAction;
-- (_Bool)Subtype;
+- (id);
+- (id);
+- (id)
+× ;
+- (void)_Of_UICollectionView_Invalid_Number_Of_Sections:(id)arg1;
+- (_Bool)u13¥®þu13Ô³¹þ;
+- (void)Vìµ];
 
 // Remaining properties
 @property(retain, nonatomic) UIFocusUpdateContext *context; // @synthesize context=_context;

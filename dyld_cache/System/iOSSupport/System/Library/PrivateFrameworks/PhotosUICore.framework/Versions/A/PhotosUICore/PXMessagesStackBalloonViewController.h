@@ -30,12 +30,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)guration;
 - (id);
+- (void);
+- (void)RÁO¥8;
 
 // Remaining properties
 @property(retain, nonatomic) PXAssetActionManager *assetActionManager; // @synthesize assetActionManager=_assetActionManager;

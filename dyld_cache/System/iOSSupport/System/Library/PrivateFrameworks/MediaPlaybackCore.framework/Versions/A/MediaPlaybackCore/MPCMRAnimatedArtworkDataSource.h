@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)eNoncatalogEndEventForCursor:- could not find queueSectionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCMediaRemoteController *controller; // @synthesize controller=_controller;

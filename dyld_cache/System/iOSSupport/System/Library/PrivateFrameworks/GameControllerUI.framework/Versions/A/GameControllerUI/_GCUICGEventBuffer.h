@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (long long);
 - (id);
-- (void);
 - (_Bool);
+- (void);
+- (id);
 - (unsigned long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(getter=isEnabled) _Bool enabled;

@@ -37,13 +37,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (long long);
 - (id);
-- (void);
-- (long long)er;
-- (id)on;
-- (id)XImportMediaProviderThumbnailingBecameIdleNotification;
-- (long long)Ôfÿ;
+- (id){o;
+- (long long)ult because Apple Music is not playable for this user.;
+- (id)ideoSessionManager.m;
+- (void)þÿÿ;
+- (unsigned long long)äôÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *childDataSections; // @synthesize childDataSections=_childDataSections;

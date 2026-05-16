@@ -14,10 +14,10 @@
 }
 
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void)u;
-- (id)ewsPersonalization38Com_Apple_News_Personalization_Session7Factory;
 
 @end
 

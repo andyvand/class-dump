@@ -10,9 +10,11 @@
 {
 }
 
-+ (Class)nOut: /* Error: Ran out of types for this method. */;
-- (void)rIconSize:(CDUnknownBlockType)arg1;
-- (CDUnknownBlockType);
++ (Class)1Â0@ù
+× ;
+- (void)!lDùQgð1Â0@ù
+× ;
+- (CDUnknownBlockType)hasFinalized = %@, name = %@);
 
 @end
 

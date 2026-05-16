@@ -12,7 +12,7 @@
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)e_MultipleDates;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

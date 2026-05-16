@@ -28,7 +28,7 @@
 }
 
 - (void);
-- (void)#;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -46,7 +46,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (unsigned long long)~;
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -57,8 +57,8 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)Identity:localIdentityProof:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

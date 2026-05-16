@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)er;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *attributionTitle; // @synthesize attributionTitle=_attributionTitle;

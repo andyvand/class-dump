@@ -7,6 +7,6 @@
 @protocol RTPersistenceMirroringRequestDelegate
 
 @optional
-- (void)ionToCurrentVisit - start.;
+- (void)ce, error, %@;
 @end
 

@@ -15,13 +15,13 @@
     id <MTLDevice> _device;
 }
 
-- (id);
-- (id)`B;
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void)(r;
+- (id)ntroller;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;

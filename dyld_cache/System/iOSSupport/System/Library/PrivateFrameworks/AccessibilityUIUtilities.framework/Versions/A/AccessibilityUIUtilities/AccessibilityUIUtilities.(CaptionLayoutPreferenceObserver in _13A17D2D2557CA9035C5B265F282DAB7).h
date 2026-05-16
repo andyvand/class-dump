@@ -11,7 +11,7 @@
     MISSING_TYPE *objectWillChange;
 }
 
-- (void)n"@"HKWorkoutBuilderConfiguration"@"NSUUID"@"NSError">;
+- (void);
 
 @end
 

@@ -22,14 +22,14 @@
 + (id);
 + (id);
 + (void);
-+ (_Bool)ndingSIMStatus;
++ (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)h"F9;
-- (id);
+- (void)manifestDidEvictGUID:%s with files:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isFromMe; // @synthesize isFromMe;

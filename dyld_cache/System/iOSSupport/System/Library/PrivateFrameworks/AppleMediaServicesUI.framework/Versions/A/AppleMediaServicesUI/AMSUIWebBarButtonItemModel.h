@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (_Bool);
+- (void)headers:parameters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIWebAppViewModel *appViewModel; // @synthesize appViewModel=_appViewModel;

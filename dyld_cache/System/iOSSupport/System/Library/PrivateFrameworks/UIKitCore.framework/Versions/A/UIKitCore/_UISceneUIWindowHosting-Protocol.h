@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIScreen, UIStatusBarManager, UITraitCollection;
+@class UIScreen, UIStatusBarManager, UITraitCollection;
 @protocol UICoordinateSpace;
 
 @protocol _UISceneUIWindowHosting
-+ (_Bool)2;
-- (UIStatusBarManager *);
-- (void);
-- (NSArray *)hatGUIDs;
-- (UITraitCollection *)orDragItem:preferringFullSize: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSArray *)rGroupChatWithAccount: /* Error: Ran out of types for this method. */;
-- (void)nsitionedHandlesDidChange;
+- (UIScreen *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> _coordinateSpace;

@@ -11,12 +11,12 @@
     _Bool _localizable;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (int);
 - (void);
-- (id)graphStyleIndexProperty;
+- (int);
+- (id)@44@0:(id)arg1 8@16{?=SCC}24{_NSRange=QQ}28;
 
 // Remaining properties
 @property(nonatomic) _Bool isLocalizable; // @synthesize isLocalizable=_localizable;

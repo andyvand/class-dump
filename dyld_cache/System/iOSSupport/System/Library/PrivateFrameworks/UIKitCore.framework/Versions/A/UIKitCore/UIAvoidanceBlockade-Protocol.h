@@ -7,7 +7,6 @@
 @class NSSet, NSString;
 
 @protocol UIAvoidanceBlockade
-- (NSSet *);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *blockadeIdentifier;

@@ -26,10 +26,10 @@
 - (id);
 - (unsigned short);
 - (id);
-- (id);
+- (id)ceVolumeController",R,N;
+- (id)vider to provide a preview image for asset:%@ /* Error: Ran out of types for this method. */;
+- (void)?0@"PXNewMagazineFrame"8@"PXNewMagazineFrame"16;
 - (void);
-- (id);
-- (void)3LemonadeMemoryCellPlayButtonViewswift_tBGCofMX89_0_33_6B34B663A471BECBA22D5A7173CE474FLl7PreviewfMf_15PreviewRegistryfMu_;
 
 // Remaining properties
 @property(readonly, nonatomic) PXSuggestionsDataSource *dataSource; // @dynamic dataSource;

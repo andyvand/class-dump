@@ -34,21 +34,22 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
 - (long long);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (struct CGSize);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)
+× ;
+- (long long)ray"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) UIImage *allLevelsExceptFloatingSnapshot;

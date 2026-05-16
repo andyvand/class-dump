@@ -5,11 +5,11 @@
 //
 
 @protocol UIViewControllerInteractiveTransitioning
-- (void);
+- (void)e been deprecated. Update to view-based UIFeedbackGenerator methods.;
 
 @optional
-- (double)rayByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
-- (long long)ew;
+- (_Bool);
+- (long long)33ô¦{þ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long completionCurve;

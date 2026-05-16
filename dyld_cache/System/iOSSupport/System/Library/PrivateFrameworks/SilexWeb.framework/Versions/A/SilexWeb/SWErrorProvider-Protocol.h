@@ -7,7 +7,6 @@
 @class NSError;
 
 @protocol SWErrorProvider
-- (void (^)(NSError *));
 
 // Remaining properties
 @property(copy, nonatomic, setter=onError:) CDUnknownBlockType block;

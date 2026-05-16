@@ -5,10 +5,5 @@
 //
 
 @protocol AKLineWidthChooserUserInterfaceItem
-- (double)ntations are representable via EXIF):right:%d
-left:%d
-up:%d
-down:%d
- /* Error: Ran out of types for this method. */;
 @end
 

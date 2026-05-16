@@ -8,7 +8,6 @@
 @protocol MUInfoCardAnalyticsDelegate;
 
 @protocol MUPlaceSectionControlling
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

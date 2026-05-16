@@ -4,35 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface DDBridgeImageAsset
 {
     void data;
-    unsigned long long width;
-    unsigned long long height;
-    unsigned long long bytesPerPixel;
-    int semantic;
-    void path;
+    long long width;
+    long long height;
+    long long depth;
+    long long bytesPerPixel;
+    unsigned long long textureType;
+    unsigned long long pixelFormat;
+    long long mipmapLevelCount;
+    long long arrayLength;
+    unsigned long long textureUsage;
+    CDStruct_a06f635e swizzle;
 }
 
 - (id);
-- (unsigned long long);
-- (int);
+- (long long);
+- (long long);
+- (id);
+- (long long);
+- (long long);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (long long)crement;
+- (CDStruct_a06f635e)e(%llu);
+- (long long)ureFormat, UExtent = 18446744073709551615UL];
+- (unsigned long long)int>, Traits = WTF::HashMap<unsigned int, std::pair<unsigned int, unsigned int>, WTF::DefaultHash<unsigned int>, WTF::UnsignedWithZeroKeyHashTraits<unsigned int>>::KeyValuePairTraits, KeyTraits = WTF::UnsignedWithZeroKeyHashTraits<unsigned int>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (unsigned long long)s<unsigned int>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long bytesPerPixel; // @synthesize bytesPerPixel;
+@property(nonatomic, readonly) long long arrayLength; // @synthesize arrayLength;
+@property(nonatomic, readonly) long long bytesPerPixel; // @synthesize bytesPerPixel;
 @property(nonatomic, readonly) NSData *data;
-@property(nonatomic, readonly) unsigned long long height; // @synthesize height;
-@property(nonatomic, readonly) NSString *path;
-@property(nonatomic, readonly) int semantic; // @synthesize semantic;
-@property(nonatomic, readonly) unsigned long long width; // @synthesize width;
+@property(nonatomic, readonly) long long depth; // @synthesize depth;
+@property(nonatomic, readonly) long long height; // @synthesize height;
+@property(nonatomic, readonly) long long mipmapLevelCount; // @synthesize mipmapLevelCount;
+@property(nonatomic, readonly) unsigned long long pixelFormat; // @synthesize pixelFormat;
+@property(nonatomic, readonly) CDStruct_a06f635e swizzle; // @synthesize swizzle;
+@property(nonatomic, readonly) unsigned long long textureType; // @synthesize textureType;
+@property(nonatomic, readonly) unsigned long long textureUsage; // @synthesize textureUsage;
+@property(nonatomic, readonly) long long width; // @synthesize width;
 
 @end
 

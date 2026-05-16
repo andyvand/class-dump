@@ -17,9 +17,9 @@
 + (Class);
 + (Class);
 + (Class);
++ (Class);
 + (id);
 + (void);
-+ (Class);
 
 @end
 

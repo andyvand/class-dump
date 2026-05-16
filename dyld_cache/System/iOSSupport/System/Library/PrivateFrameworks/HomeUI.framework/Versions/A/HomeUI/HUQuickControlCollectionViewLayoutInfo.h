@@ -19,7 +19,7 @@
 - (id);
 - (struct CGRect);
 - (struct CGSize);
-- (void);
+- (void)e_Postfix;
 
 // Remaining properties
 @property(nonatomic) struct CGRect availableContentFrame; // @synthesize availableContentFrame=_availableContentFrame;

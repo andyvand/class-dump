@@ -30,9 +30,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowCaching; // @synthesize allowCaching=_allowCaching;

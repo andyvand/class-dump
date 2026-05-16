@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool)scale:isDark: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (id);
+- (_Bool);
 - (void);
-- (struct CGRect)gleFingerTapExtensionGesture";
-- (void)s;
-- (id)Path",&,N,V_scrubbedIndexPath;
-- (void)tionaryWithAction:(_Bool)arg1 sourceApplication:originatingProcess:] /* Error: Ran out of types for this method. */;
-- (_Bool)ce. No class named %@ is loaded.;
-- (id)~Àb;
+- (void);
+- (void)× ;
+- (_Bool);
+- (void)oForward;
+- (id)nerSize: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (void);
+- (id)£@;
 
 // Remaining properties
 @property(nonatomic) struct CGRect itemFrame; // @synthesize itemFrame=_itemFrame;

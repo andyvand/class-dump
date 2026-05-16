@@ -12,11 +12,11 @@
 }
 
 + (id);
-+ (id);
++ (id)iceSetupOperation (%@);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Hø;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *logId; // @synthesize logId=_logId;

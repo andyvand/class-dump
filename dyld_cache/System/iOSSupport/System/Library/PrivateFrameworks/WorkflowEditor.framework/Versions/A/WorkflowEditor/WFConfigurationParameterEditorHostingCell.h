@@ -35,9 +35,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)/P0X1È2°9X:<>0?(@@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *cardBackgroundColor; // @synthesize cardBackgroundColor=_cardBackgroundColor;

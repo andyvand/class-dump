@@ -7,14 +7,11 @@
 @class NSString;
 
 @protocol UINSAlertButton
-- (void);
-- (NSString *);
-- (void)0@ù
-× ;
-- (void)neCreationBlock:(_Bool)arg1;
-- (_Bool)ngTintColor: /* Error: Ran out of types for this method. */;
-- (long long)@"UIPress",&,N,V_trackingPress;
-- (void)ëQâ?;pÎÒÞî?;
+- (void)fetchSettingsModifiers;
+- (void)eedsUpdate;
+- (long long)IWindowSceneActivationAction;
+- (_Bool)sedLayoutThrowExceptionOnUnsatisfiableConstraints;
+- (NSString *)collapsed layout. Split view controller:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool destructive;

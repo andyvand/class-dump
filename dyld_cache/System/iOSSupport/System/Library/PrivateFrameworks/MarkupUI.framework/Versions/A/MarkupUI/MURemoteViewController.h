@@ -22,13 +22,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (long long);
+- (_Bool);
+- (long long);
 - (void);
-- (void);
-- (void)le.;
 - (_Bool);
 - (void);
-- (_Bool)GRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48{CGRect={CGPoint=dd}{CGSize=dd}}80@112d120q128;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

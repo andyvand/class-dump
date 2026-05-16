@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id)al;
-- (void);
-- (CDUnknownBlockType);
 - (id);
+- (id);
+- (CDUnknownBlockType);
+- (void)reateMediaControlsIfNeeded;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

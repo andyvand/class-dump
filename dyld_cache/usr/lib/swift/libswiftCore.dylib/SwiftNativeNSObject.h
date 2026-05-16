@@ -9,20 +9,20 @@
     struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
-+ (_Bool);
-+ (id)XpX®Ø+ùX:(struct _NSZone *)arg1 ¤XúTE´XøÆXZùÖXDäXÉõX¼ú0{úYa Y³ú0Yù@YÀùRY`YCúpY7Y\ù CøY5¬Y:ø¾Y ÌYñ /* Error: Ran out of types for this method. */;
++ (_Bool)G;
++ (id)OÿO;
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (oneway void);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id)format:arguments:time: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (_Bool)ôè;
+- (_Bool)ndedExistentialTypeShapeSymbolicReference;
 
 @end
 

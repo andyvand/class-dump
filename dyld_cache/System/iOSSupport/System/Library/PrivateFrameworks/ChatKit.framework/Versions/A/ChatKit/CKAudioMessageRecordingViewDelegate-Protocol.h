@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAudioMessageRecordingView;
-
 @protocol CKAudioMessageRecordingViewDelegate
-- (double)ntTextViewHeightConstraint;
-- (void);
-- (void)e;
-- (void)";
-- (double)fosWithoutPreviewImagesFromDeviceInfos:(CKAudioMessageRecordingView *)arg1;
-- (void)y;
-- (void)F;
 @end
 

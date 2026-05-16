@@ -14,9 +14,9 @@
 }
 
 + (double);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)T;
 
 @end
 

@@ -15,9 +15,9 @@
 
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
-- (_Bool)hangedPreviousGroupIdentifiersKey;
+- (_Bool)>16;
+- (void)r guid:%s. Skipping search for previews. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isMMSEnabled;

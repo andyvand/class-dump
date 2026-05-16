@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_attributedString;
 }
 
-+ (id);
++ (id)Insets;
 - (id);
-- (void);
 - (id);
-- (id)eceived data (%lu bytes);
-- (id)ty;
+- (id)Identifier:domainIdentifier:attributeSet: /* Error: Ran out of types for this method. */;
+- (id)eviceIndependentID;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;

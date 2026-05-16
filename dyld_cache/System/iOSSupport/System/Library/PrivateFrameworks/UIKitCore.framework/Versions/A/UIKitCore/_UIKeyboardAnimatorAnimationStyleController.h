@@ -13,11 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
 - (void);
-- (void)DùqÌð1¢!0@ù
-× ;
-- (void)tion:(id)arg1 duration:(id)arg2;
+- (id);
+- (void)end up here;
+- (void)pe;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

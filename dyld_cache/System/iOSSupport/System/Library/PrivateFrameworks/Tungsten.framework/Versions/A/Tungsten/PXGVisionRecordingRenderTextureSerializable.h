@@ -34,15 +34,15 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long)v52@0:8@16^{?={?=ddd}}24^{?=f{?=(?={?=ffff}[4f])}ffffSCf{?=[4]}}32^{?=CCfqSC}40I48 /* Error: Ran out of types for this method. */;
-- (void)ation:(_Bool)arg1;
-- (long long)riteTextures;
+- (long long);
+- (id)talCaptureSpriteTexture"8Q16^B24;
+- (void)elerationRate=%ti; clipsToBounds=%@; showsHorizontalScrollIndicator=%@; showsVerticalScrollIndicator=%@; draggingPerformsScroll=%@>;
 
 // Remaining properties
 @property(nonatomic) unsigned long long entity; // @synthesize entity=_entity;

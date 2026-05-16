@@ -21,10 +21,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) Class pageClass;

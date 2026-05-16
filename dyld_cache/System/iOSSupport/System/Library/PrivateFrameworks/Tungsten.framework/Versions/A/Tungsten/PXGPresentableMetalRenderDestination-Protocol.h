@@ -5,5 +5,6 @@
 //
 
 @protocol PXGPresentableMetalRenderDestination
+- (void)rateSubstringsInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
 @end
 

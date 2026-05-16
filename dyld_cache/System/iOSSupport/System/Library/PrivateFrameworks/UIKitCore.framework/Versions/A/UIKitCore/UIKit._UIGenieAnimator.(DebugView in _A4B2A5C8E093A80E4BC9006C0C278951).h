@@ -15,10 +15,10 @@
     MISSING_TYPE *faces;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)ration.swift;
+- (id)tion;
+- (void)DÌ[}m;
 
 @end
 

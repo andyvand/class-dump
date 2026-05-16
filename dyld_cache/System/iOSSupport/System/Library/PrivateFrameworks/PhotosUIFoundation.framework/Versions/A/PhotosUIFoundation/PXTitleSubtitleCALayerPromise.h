@@ -41,11 +41,11 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

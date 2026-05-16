@@ -30,74 +30,74 @@
     UILongPressGestureRecognizer *_tapGestureRecognizer;
 }
 
-- (void);
-- (void);
 - (double);
-- (unsigned long long);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (long long);
+- (id);
 - (void);
 - (id);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (_Bool);
 - (id);
-- (id);
+- (void);
+- (_Bool);
 - (double);
 - (void);
+- (unsigned long long);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (double);
-- (void)!pEùq|ð1b0@ù
+- (void)ñ3Ð1â
+0@ù
 × ;
-- (id)0@ù
+- (_Bool)!ôAù14Ð1â
+0@ù
 × ;
-- (void)!ìBùÑ|1b0@ù
+- (void)× ;
+- (id)0@ù
 × ;
-- (_Bool);
-- (double)1b0@ù
-× ;
-- (void)á~ð!¨Aù}°1b0@ù
-× ;
-- (void):(_Bool)arg1 8C16;
-- (_Bool)tIndex: /* Error: Ran out of types for this method. */;
-- (id)nView:canPerformAction:forItemAtIndexPath:withSender: /* Error: Ran out of types for this method. */;
-- (void)itorButtonCallback;
-- (void)&,N,V_labelLeading;
-- (void);
-- (id)]Lòÿ;
-- (long long);
+- (void)MiddlePaddingWidthConstraint:(id)arg1;
+- (void)ndGlyphCompositingFilterForRenderConfig:(id)arg1;
+- (void) h¸!Ø¸ºüº<¼|Ë;
+- (id)ardTypeTwitter;
+- (double)tracking clients for IAV bounds change:<%@:%p previousBounds=%@; updatedBounds=%@> /* Error: Ran out of types for this method. */;
+- (void)Cancelled smart reply generation due to invalid ICH %{private}@;
+- (long long)~;
 
 // Remaining properties
 @property(retain, nonatomic) TIAutocorrectionList *autocorrectionList; // @synthesize autocorrectionList=_autocorrectionList;

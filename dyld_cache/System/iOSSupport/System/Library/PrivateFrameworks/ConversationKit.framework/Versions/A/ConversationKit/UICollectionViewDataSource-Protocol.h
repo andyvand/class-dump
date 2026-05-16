@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
+@class NSArray, UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)Ä*Úÿ ;
 
 @optional
-- (long long);
-- (NSIndexPath *)AAyß¯×­yeÞ­GGnÌ­G;
-- (UICollectionReusableView *)[%s] Updating local participant videoInfo with isMixedWithScreen:(UICollectionView *)arg1 %s;
+- (NSArray *)t.L/H0Ä1$$´$%P%;
+- (UICollectionViewCell *);
+- (UICollectionReusableView *);
 @end
 

@@ -18,23 +18,23 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)idUpdatesErrorMessage: /* Error: Ran out of types for this method. */;
-+ (id)exPath: /* Error: Ran out of types for this method. */;
-+ (id)nagerHint:(double)arg1 withInputSource:(double)arg2;
-+ (id)llCapsAttributeName;
-+ (id)iewLayoutGroupMode;
-- (id)Z;
-- (id)ertyMovieArtwork;
-- (void);
-- (id);
-- (id)°1¢!0@ù
++ (id)Á!ìFù±dÐ1Â0@ù
 × ;
-- (id)iews;
-- (id)ntationPhase: /* Error: Ran out of types for this method. */;
-- (_Bool)ÂÃèÈ
-`ËüÎ;
-- (id);
++ (id)redMenuElementOrder;
++ (id)implifiedDisplayString;
++ (id)iewDefaultButtonConfiguration;
++ (id)Core/UITextFormattingViewController+FormattingStyle.swift;
 - (id);
+- (id);
+- (id);
+- (id)Ð1Â0@ù
+× ;
+- (_Bool)gerProportions;
+- (id)lProvider;
+- (id)e=dd}},R,N,V_inputAssistantViewBounds;
+- (id);
+- (id)ÜÁ¨ÂÃÃ\Ä;
+- (void)imationState;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;

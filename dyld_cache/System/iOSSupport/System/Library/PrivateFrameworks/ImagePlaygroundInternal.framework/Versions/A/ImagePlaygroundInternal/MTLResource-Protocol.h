@@ -8,10 +8,29 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (unsigned long long);
+- (unsigned long long)ditioningImageAssignmentTask with sketchImage;
+- (unsigned long long)y¶_û
+y_ï]û
+y	/GACyAAyjû
+yjû
+yAAyAAyAAyAAyANy_AOyæ.GACyÝ¦û
+yAAyAAyAAy&¢û
+yAAyAAyAAy×.AGy'^û
+yÑ.GGGÉ û
+Gkdû
+G_Ä.SgAAy2jû
+õ]û
+GSgQo_Êaû
+y¬.yA2_GSgGG¦aû
+Gä9;
+- (void)G_A7_Qo_sü
+yA15__A9_Qo_GGSgGGL;
+- (unsigned long long)¸þ
+Óþ
+y5þ
+SgGGAAtGSgt;
 - (unsigned long long);
-- (unsigned long long)dator needs to be updated (which happens automatically.);
-- (unsigned long long)F06D140F3C1LLV4bodyQrvp;
-- (unsigned long long)p;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

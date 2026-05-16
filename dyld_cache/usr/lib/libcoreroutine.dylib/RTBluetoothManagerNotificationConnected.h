@@ -15,9 +15,9 @@
 }
 
 - (id);
-- (id)H%;
-- (void)`;
-- (id)P;
+- (id);
+- (id)nalAvailability: /* Error: Ran out of types for this method. */;
+- (void)Preprocessor:applyRule_LongVisitsAreValid_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Passthrough /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;

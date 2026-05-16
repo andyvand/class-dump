@@ -7,19 +7,13 @@
 @class UIDatePicker, _UIDatePickerDataModel;
 
 @protocol _UIDatePickerViewComponent
-- (void)t:sent: /* Error: Ran out of types for this method. */;
-- (void)hChat: /* Error: Ran out of types for this method. */;
-- (void)tionToken;
-- (UIDatePicker *)udingChatWithIdentifier: /* Error: Ran out of types for this method. */;
-- (struct CGSize)@ù
+- (void)¡Ð!ÔAùQ[1Â0@ù
 × ;
-- (_UIDatePickerDataModel *)archField:updates: /* Error: Ran out of types for this method. */;
-- (void)on:(_UIDatePickerDataModel *)arg1;
+- (_UIDatePickerDataModel *)rnerRadius"b1"hasCustomizedBackgroundInsets"b1"hasCustomizedEdgesAddingLayoutMarginsToBackgroundInsets"b1"hasCustomizedBackgroundColorOrMode"b1"hasCustomizedVisualEffect"b1"hasCustomizedStrokeColorOrMode"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1};
+- (struct CGSize)ributedStrings:addingSeparation: /* Error: Ran out of types for this method. */;
 
 @optional
-- (void);
-- (_Bool)Message: /* Error: Ran out of types for this method. */;
-- (double)dioStreamAnalyzer;
+- (double)urationCSg;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets appliedInsetsToEdgeOfContent;

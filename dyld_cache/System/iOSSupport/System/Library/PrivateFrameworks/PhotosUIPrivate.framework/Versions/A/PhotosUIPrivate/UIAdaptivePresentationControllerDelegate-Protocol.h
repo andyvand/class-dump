@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController;
+
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool)dReceiveTouchAtPoint"B"respondsToDidChangeIsUserInteracting"B"respondsToDidChangeIsZoomedIn"B};
+- (_Bool)for shuffle operations;
+- (long long)nit test, but it was called from:(UIPresentationController *)arg1 %@;
+- (void);
 @end
 

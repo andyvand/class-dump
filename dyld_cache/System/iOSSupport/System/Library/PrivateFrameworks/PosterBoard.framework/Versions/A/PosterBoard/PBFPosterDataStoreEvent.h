@@ -34,18 +34,20 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id)torLookupInfo:titleStyleConfiguration:focusConfiguration:subtitleComplication:suggestedComplications:suggestedLandscapeComplications:complicationLayoutType:complicationsUseBottomLayout:renderingConfiguration:homeScreenConfiguration:previewType:galleryOptions: /* Error: Ran out of types for this method. */;
-- (void)plicationStateComponent;
-- (_Bool)ding of paths:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)!¿!àGù1	1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool couldRevert;

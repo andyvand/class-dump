@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)low.actions.gettraveltime;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFVariableDataSource> variableDataSource; // @synthesize variableDataSource=_variableDataSource;

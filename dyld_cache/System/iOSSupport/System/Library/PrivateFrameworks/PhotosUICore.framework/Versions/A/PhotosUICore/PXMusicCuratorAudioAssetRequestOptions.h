@@ -13,7 +13,7 @@
 
 - (void);
 - (_Bool);
-- (id);
+- (id)ÀòóôìõÈö`÷Ðø@û;
 
 // Remaining properties
 @property(nonatomic) _Bool forceMetadataRefetch; // @synthesize forceMetadataRefetch=_forceMetadataRefetch;

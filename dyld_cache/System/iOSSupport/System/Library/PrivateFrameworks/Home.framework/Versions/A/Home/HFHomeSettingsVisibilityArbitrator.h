@@ -16,25 +16,25 @@
 }
 
 + (id);
-+ (void)layerItem for clipPlayer:%@ playerItemDidPlayToEndTime:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long);
++ (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (CDUnknownBlockType);
-- (int);
 - (id);
+- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (CDUnknownBlockType);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void)ControlItem;
+- (void)>hÜIKilMjpOk¸RlpdøemØfnhuäwÀÌT;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     struct CGPoint __tableViewContainerOffsetFromTargetCenter;
 }
 
-- (void)NULL;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct CGPoint);
 - (id);
-- (void);
-- (id)Page;
-- (void)itializeTime;
+- (id);
+- (void)IKeyboardScenePresentationModeManagerDelegate>",W,N,V_delegate;
+- (void)d, isForceFixedRateLinksEnabled=%{bool}d;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint _tableViewContainerOffsetFromTargetCenter; // @synthesize _tableViewContainerOffsetFromTargetCenter=__tableViewContainerOffsetFromTargetCenter;

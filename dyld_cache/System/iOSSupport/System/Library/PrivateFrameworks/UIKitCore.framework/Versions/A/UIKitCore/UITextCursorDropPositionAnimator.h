@@ -17,20 +17,20 @@
     UIView<UITextInput> *_textInput;
 }
 
-- (void):(_Bool)arg1 8@16@24C32B36@40;
-- (id)n:(id)arg1 limit:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)Index: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)existing transfers.;
-- (void)we'll just re-download.;
-- (_Bool)ed to update filter params.;
-- (_Bool)unread request not from me for message:%@ /* Error: Ran out of types for this method. */;
-- (id)gnoring;
-- (struct CGRect)m sender:%@ /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (struct CGRect);
+- (void);
+- (id);
+- (id)à;
+- (void)ØRØÔÕa;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView<UITextCursorView> *cursorView; // @synthesize cursorView=_cursorView;

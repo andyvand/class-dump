@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id)SmartShortcutPickerViewLayout;
+- (id);
+- (void):(id)arg1;
+- (void)hortcutPickerParameterEditorCoordinator;
 
 // Remaining properties
 @property(retain, nonatomic) WFSharedShortcut *shortcut; // @synthesize shortcut=_shortcut;

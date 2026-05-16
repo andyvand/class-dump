@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     NSHashTable *_lazy_contextTrackingAssertions;
 }
 
-+ (id)nîp;
++ (id)þÜ;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)etOverrideTraitCollection:(unsigned int)arg1;
+- (void)ngUndoGroupPrematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
+- (id)bleConstraints:(unsigned int)arg1;
+- (id)ctionMethod:(unsigned int)arg1 inputType: /* Error: Ran out of types for this method. */;
+- (id)k;
+- (void)<oþ¶þ;
 
 @end
 

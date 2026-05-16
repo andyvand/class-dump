@@ -5,10 +5,5 @@
 //
 
 @protocol NSTextAttachmentCell
-- (void)ode, mDownstreamNodes);
-
-@optional
-- (void)onResult;
-- (void);
 @end
 

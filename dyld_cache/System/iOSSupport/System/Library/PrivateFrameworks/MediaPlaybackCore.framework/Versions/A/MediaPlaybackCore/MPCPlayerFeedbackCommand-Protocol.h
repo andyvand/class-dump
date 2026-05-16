@@ -7,9 +7,8 @@
 @class NSString;
 
 @protocol MPCPlayerFeedbackCommand
-- (NSString *).;
-- (NSString *);
-- (long long)(interpretted as Last);
+- (long long)irements: /* Error: Ran out of types for this method. */;
+- (NSString *)uestError;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedShortTitle;

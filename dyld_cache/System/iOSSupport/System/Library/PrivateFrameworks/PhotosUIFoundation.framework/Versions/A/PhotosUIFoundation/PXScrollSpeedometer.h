@@ -63,11 +63,11 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id)ictionary",R,N,V_columns;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setLastTime:) double _lastTime; // @synthesize _lastTime=__lastTime;

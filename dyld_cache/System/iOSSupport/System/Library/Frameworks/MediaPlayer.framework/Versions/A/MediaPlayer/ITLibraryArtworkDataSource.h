@@ -12,20 +12,20 @@ __attribute__((visibility("hidden")))
     ITMediaLibrary *_library;
 }
 
-+ (id)y:(id)arg1 error: /* Error: Ran out of types for this method. */;
-+ (id)ing:maxLength:encoding: /* Error: Ran out of types for this method. */;
-- (id)eIdentifier;
++ (id);
++ (id);
 - (id);
-- (_Bool);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id)sConfigurations: /* Error: Ran out of types for this method. */;
+- (void)tEntriesByIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkDataSourceIdentifier;

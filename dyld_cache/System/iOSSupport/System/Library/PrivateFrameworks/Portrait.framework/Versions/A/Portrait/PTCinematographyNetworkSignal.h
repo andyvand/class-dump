@@ -17,9 +17,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long count; // @synthesize count=_count;

@@ -20,23 +20,25 @@
     MISSING_TYPE *driverCoordinatorQueuedActions;
 }
 
-- (id):(id)arg1 chat:(id)arg2;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool)E;
-- (id);
+- (id);
 - (void);
-- (void);
-- (id)RoundRectRadius;
-- (void)hitTest:(_Bool)arg1 withEvent:originalView: /* Error: Ran out of types for this method. */;
-- (id)TextInputSessionUndoAction;
-- (void)Ôççÿ èçÿ¬èçÿ¸èçÿÄèçÿÐèçÿÜèçÿèèçÿdìçÿïçÿ¨ïçÿØðçÿlñçÿØòçÿ|óçÿóçÿ¬óçÿõçÿÌõçÿ`öçÿöçÿÌöçÿðöçÿ,÷çÿP÷çÿ÷çÿ°÷çÿÔ÷çÿøçÿøçÿXøçÿ|øçÿ øçÿÄøçÿèøçÿùçÿ0ùçÿTùçÿxùçÿùçÿÀùçÿäùçÿúçÿ,úçÿ8úçÿtúçÿúçÿÜúçÿ;
-- (id)TM;
-- (_Bool)k;
-- (id)ÿ;
+- (_Bool)0@ù
+× ;
+- (id)!8Dù±fð1Â0@ù
+× ;
+- (void)0i48;
+- (_Bool)bEvent:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)ctStyle;
+- (id)(R(S´T´U;
+- (id)xtension;
+- (void)@@­;
+- (void){ÿÄ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

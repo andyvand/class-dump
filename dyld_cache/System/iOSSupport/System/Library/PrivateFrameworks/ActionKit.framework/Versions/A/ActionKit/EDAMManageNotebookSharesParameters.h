@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)WFSpecifiedDate;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *invitationsToCreateOrUpdate; // @synthesize invitationsToCreateOrUpdate=_invitationsToCreateOrUpdate;

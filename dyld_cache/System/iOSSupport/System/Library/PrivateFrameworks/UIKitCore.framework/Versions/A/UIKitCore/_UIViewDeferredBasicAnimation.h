@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     _UIViewAnimationFrame *_finalValue;
 }
 
-- (void)ntsSimpleKernel;
-- (void)ature %{public}s sent.;
-- (void)oteGenre;
-- (void);
 - (id);
-- (_Bool);
+- (void);
+- (void)geName:(id)arg1 maxLength:boolValue: /* Error: Ran out of types for this method. */;
+- (void)roller;
+- (_Bool);
+- (void)_ytô¯;
 
 @end
 

@@ -5,9 +5,5 @@
 //
 
 @protocol MPArtworkDataSource
-
-@optional
-- (_Bool);
-- (_Bool);
 @end
 

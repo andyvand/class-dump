@@ -20,12 +20,12 @@
 
 - (id);
 - (id);
-- (void);
-- (long long);
 - (id);
 - (id);
 - (id);
-- (id)ting containers. sig:%s ref:%s len:%llu /* Error: Ran out of types for this method. */;
+- (void)_MISSING__;
+- (id)oupLeaderName;
+- (long long)MPModelPropertyAlbumYear;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

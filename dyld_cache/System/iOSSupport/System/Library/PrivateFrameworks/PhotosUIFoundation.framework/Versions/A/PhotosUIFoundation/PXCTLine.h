@@ -43,22 +43,22 @@
 - (double);
 - (double);
 - (struct CGRect);
-- (struct CGRect);
+- (void);
+- (id);
+- (id);
+- (struct __CTLine *);
 - (struct CGAffineTransform);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (double);
+- (struct CGRect);
+- (struct CGContext *);
 - (void);
 - (struct CGPoint);
-- (id);
-- (id);
 - (void);
-- (double);
-- (struct CGContext *);
-- (struct __CTLine *)FY3;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double ascent; // @synthesize ascent=_ascent;

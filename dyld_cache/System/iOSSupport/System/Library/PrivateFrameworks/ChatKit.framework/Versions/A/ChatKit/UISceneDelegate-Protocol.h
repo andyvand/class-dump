@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScene;
-
 @protocol UISceneDelegate
 
 @optional
-- (void)!|GùqÆ1¢!0@ù
-× ;
+- (void)× ;
+- (void)_yU<]SgGGA2_GGGG_Qo_Í;
+- (void)Insets;
 - (void);
-- (void)%@, expectedSize:(UIScene *)arg1 %@, diff:%f sig-diff:%f - gradientViewBounds:%@ â gradientReferenceViewBounds:%@ /* Error: Ran out of types for this method. */;
-- (void)s:(UIScene *)arg1;
-- (void)Q}16^B32;
-- (void)aå¿,å½ÿ;
 @end
 

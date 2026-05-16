@@ -5,9 +5,5 @@
 //
 
 @protocol UIWritingToolsCoordinatorDelegate
-
-@optional
-- (void)"k`;
-- (void);
 @end
 

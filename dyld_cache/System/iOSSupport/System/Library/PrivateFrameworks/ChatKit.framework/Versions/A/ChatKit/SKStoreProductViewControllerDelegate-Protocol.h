@@ -5,8 +5,5 @@
 //
 
 @protocol SKStoreProductViewControllerDelegate
-
-@optional
-- (void)oller;
 @end
 

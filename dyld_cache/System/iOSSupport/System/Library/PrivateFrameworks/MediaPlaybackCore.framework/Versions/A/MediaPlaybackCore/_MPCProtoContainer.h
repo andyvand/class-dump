@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
-- (_Bool)8;
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void)US:%{public}@:%{public}@] _addAutoPlayPlaybackContext:| converting PositionHead to PositionSpecified after deferredNextContentItem [head (current item was placeholder)] deferredNextContentItem=%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

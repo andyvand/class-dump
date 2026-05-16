@@ -28,8 +28,8 @@
 + (double);
 + (double);
 + (id);
-+ (unsigned long long);
 + (_Bool);
++ (unsigned long long)ê;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -59,23 +59,23 @@
 - (double);
 - (_Bool);
 - (double);
+- (id);
 - (double);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (double)omingCallFontsProvider;
-- (double)È»;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (double);
+- (double);
+- (void);
+- (double)onent",&,N,Spui_setPosterComponent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

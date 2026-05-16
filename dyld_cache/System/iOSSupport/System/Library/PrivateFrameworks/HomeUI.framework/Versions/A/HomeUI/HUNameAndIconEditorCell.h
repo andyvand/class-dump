@@ -40,18 +40,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id)istic"16;
-- (void)ldUseAccessoryName:(id)arg1;
-- (id)returned events for camera player (count:%lu). /* Error: Ran out of types for this method. */;
-- (_Bool)ctedLocationItem.m;
-- (void)á I;
-- (void)];
+- (void)em or HFUserItem %@;
+- (void)essViewController switchCell:(id)arg1 didTurnOn:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)y?G;
+- (_Bool)þ¬;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;

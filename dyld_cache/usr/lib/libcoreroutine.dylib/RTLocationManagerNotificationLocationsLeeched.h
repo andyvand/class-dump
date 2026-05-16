@@ -13,9 +13,9 @@
     NSArray *_leechedLocations;
 }
 
-- (id)i;
-- (void)4˟;
 - (id);
+- (id);
+- (void)did update, %f;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *leechedLocations; // @synthesize leechedLocations=_leechedLocations;

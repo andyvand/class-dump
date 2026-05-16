@@ -15,7 +15,7 @@
     NSHashTable *_observers;
 }
 
-+ (id)£;
++ (id)FrameGenerationRequest"8;
 - (void);
 - (id);
 - (void);
@@ -23,17 +23,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id)H=;
-- (id)ershipProof;
+- (void);
+- (id);
+- (id);
+- (void)aper:(id)arg1 currentUserInterfaceStyle: /* Error: Ran out of types for this method. */;
+- (id)N;
+- (void)ð;
+- (void)condition type %@;
+- (void)ected playback date %@!;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

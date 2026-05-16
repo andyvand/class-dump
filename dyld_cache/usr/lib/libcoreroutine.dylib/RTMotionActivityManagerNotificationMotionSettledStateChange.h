@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (unsigned long long)?;
-- (id)nt64ForKey: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long settledState; // @synthesize settledState=_settledState;

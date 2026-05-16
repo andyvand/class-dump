@@ -26,16 +26,17 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
 - (void);
 - (struct CGAffineTransform);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)plication:(double)arg1 layoutType:modeSemanticType:modeUUID:complications:landscapeComplications:blankTemplate:shouldShowAsShuffleStack:source: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (void);
+- (void)
+× ;
+- (id)%{public}@;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform contentTransform; // @synthesize contentTransform=_contentTransform;

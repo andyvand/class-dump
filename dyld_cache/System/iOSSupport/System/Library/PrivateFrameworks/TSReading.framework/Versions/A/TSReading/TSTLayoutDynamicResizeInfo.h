@@ -29,9 +29,9 @@
 }
 
 - (void);
-- (id);
 - (id);
-- (id)9;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -47,13 +47,13 @@
 - (double);
 - (double);
 - (double);
-- (id)@;
+- (id);
 - (double);
-- (id)lure] error=%{public}@;
+- (id);
 - (id);
 - (void);
-- (_Bool)Count;
-- (void)s¨;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

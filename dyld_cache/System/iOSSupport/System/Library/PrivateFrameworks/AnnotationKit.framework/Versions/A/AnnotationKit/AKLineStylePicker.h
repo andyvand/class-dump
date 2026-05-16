@@ -12,13 +12,13 @@
     long long _lineStyle;
 }
 
-- (void)onitorGroupFields;
+- (void);
 - (long long);
 - (id);
 - (void);
 - (long long);
-- (id);
-- (unsigned long long)ropped index message_group_index.;
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly) long long lineStyle; // @synthesize lineStyle=_lineStyle;

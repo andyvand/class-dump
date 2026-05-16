@@ -9,25 +9,26 @@
     CDUnknownBlockType _completionHandler;
 }
 
-+ (id)init] is not a valid initializer. You must call -[UIPopoverController initWithContentViewController:]. /* Error: Ran out of types for this method. */;
-+ (_Bool)8Ü;
-- (long long)date:toPerson:conference:account: /* Error: Ran out of types for this method. */;
-- (void)luateStateAndActIfNeeded;
-- (id)roupID: /* Error: Ran out of types for this method. */;
-- (_Bool)rs:error: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (id)agInteraction"b1};
++ (_Bool)secure text entry:%@
+ /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
-- (_Bool)Junk filtering:TrustKit decisioning skipped because chat is a self chat. /* Error: Ran out of types for this method. */;
-- (void)Helper;
-- (unsigned long long);
-- (_Bool);
-- (id)Section:(struct _NSZone *)arg1;
-- (CDUnknownBlockType);
-- (id);
 - (void);
-- (id)eplacementWithActionName:replacementText: /* Error: Ran out of types for this method. */;
-- (void)handleSecondaryEdgeBarButtonItem:(CDUnknownBlockType)arg1 ];
+- (id);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (long long);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)lingButtonHiddenWhenEmpty;
+- (void)aultInputModes:(id)arg1;
+- (CDUnknownBlockType)resultKind;
+- (id),V_layoutFillsCanvas;
+- (void)troller;
+- (void)ÜîT,[;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _desiredScale;

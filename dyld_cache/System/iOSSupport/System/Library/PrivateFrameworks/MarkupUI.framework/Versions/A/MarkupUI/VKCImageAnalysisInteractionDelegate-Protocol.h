@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol VKCImageAnalysisInteractionDelegate
-
-@optional
-- (void);
-- (NSString *)-	;
-- (_Bool)!;
-- (void);
-- (_Bool)LUES ('lastFailedMessageDate', COALESCE((SELECT m.date FROM message m WHERE m.error != 0 AND m.is_from_me == 1 AND m.is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1), 0)), ('lastFailedMessageRowID', COALESCE((SELECT m.ROWID FROM message m WHERE m.error != 0 AND m.is_from_me == 1 AND m.is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1), 0));;
 @end
 

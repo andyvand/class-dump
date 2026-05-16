@@ -27,42 +27,42 @@ __attribute__((visibility("hidden")))
     NSString *_backdropViewGroupName;
 }
 
-+ (long long)modifiedInput;
++ (long long);
 - (id);
-- (void);
-- (id)`&;
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (long long)1¢!0@ù
-× ;
-- (_Bool)ñÄ°1¢!0@ù
-× ;
-- (double)itionAdjustment;
-- (void)rHeight;
-- (id)setFromBottom:(long long)arg1;
-- (id)tationEnabled: /* Error: Ran out of types for this method. */;
-- (void)entSizeUpdateSeqNo;
-- (id)ependentGroupSizes;
-- (void)ICollectionViewLayoutSwipeActionsModule;
-- (_Bool)_UIContextMenuNode;
-- (void)\c;
-- (id)¤¾¿	h¿
-PÀ	ÈÀ"hÁ,ÃÄÅPÆ;
-- (void)onKeyLocality;
-- (void)_UIRemoteViewController!;
-- (long long)tent"16^B24;
-- (void)ding;
-- (id)ner (;
-- (void)ssBackground.inputBleedColorMatrixSaturation;
-- (id)ñ?;
-- (void)nsetsAndCornerRadiusEnabled;
-- (id)ler;
-- (id)øUÓ[;
+- (id);
 - (id);
 - (void);
+- (double)!XCù1\1Â0@ù
+× ;
+- (long long);
+- (id)0@ù
+× ;
+- (void)ùQd1Â0@ù
+× ;
+- (long long)esExplicitPreferredMaxLayoutWidth"b1};
+- (id)conColorForState: /* Error: Ran out of types for this method. */;
+- (void)figureSplitKeyboardController:(id)arg1;
+- (void)colorNamed:(id)arg1 inBundle:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)indablePointersAsCopy:(_Bool)arg1;
+- (id);
+- (void)dBeArchived:(_Bool)arg1 ,V__shouldBeArchived;
+- (void)nts;
+- (_Bool)rnName;
+- (void)iewMetrics;
+- (void)yboard;
+- (id)ntroller;
+- (id),dÐc§;
+- (id)4;
+- (id);
+- (id)Result:No change, %@ is still focused. /* Error: Ran out of types for this method. */;
+- (void)Ù¾33þ;
+- (void)låÿzýÔ^;
+- (void)ôàÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIBarButtonItemAppearanceStorage *_barButtonAppearanceStorage;

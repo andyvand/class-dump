@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)ithDictionary:(id)arg1 withVerboseLogging: /* Error: Ran out of types for this method. */;
-- (void)ale:(id)arg1 biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (_Bool)records to fetch. Resetting defaults to fetch archived records;
 - (id);
-- (void)\öº;
+- (void);
+- (_Bool);
+- (id);
+- (void)0ÿ.+Î`^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *visibleItemBehaviors;

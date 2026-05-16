@@ -46,51 +46,48 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (long long);
 - (double);
-- (id);
-- (double);
-- (id);
 - (void);
-- (void);
-- (void);
-- (long long)ary;
-- (id)ontext->currentFileSize > 0;
-- (void);
-- (void);
-- (void)etInfo;
 - (void);
 - (id);
-- (void);
 - (void);
+- (id *);
 - (void);
-- (struct _NSRange)}Wº;
-- (void);
+- (id);
 - (void);
-- (_Bool)1¢!0@ù
+- (id);
+- (void)Â0@ù
 × ;
-- (void);
-- (long long)EùñÄÐ1¢!0@ù
-× ;
-- (void)±ÇÐ1¢!0@ù
-× ;
-- (long long)Ô ;
-- (void)× ;
-- (id)24@0:(id)arg1 8@"UITextPosition"16;
-- (long long)Mode;
-- (void)orm:forScene: /* Error: Ran out of types for this method. */;
-- (void)Color: /* Error: Ran out of types for this method. */;
-- (id *)LandscapeLeftWithBlock: /* Error: Ran out of types for this method. */;
-- (void)eFocusConfiguration;
-- (void)fectsSubView;
-- (double)gZTearOffThreshold;
-- (void)sEmojiOnly;
-- (void);
-- (void)ceOrientations;
-- (void)rollerInterface;
-- (void)TakeScreenshotNotification;
-- (void)ment:%@%@) /* Error: Ran out of types for this method. */;
-- (_Bool)gation on the default scene presentation context is not supported.;
-- (void)eOffsets=<%@>; sizes=%@ >;
+- (void)";
+- (void)nlineView:yOffset: /* Error: Ran out of types for this method. */;
+- (void)neWillDeactivate:(long long)arg1 withContext:(struct CGRect)arg2;
+- (id)ForAxis: /* Error: Ran out of types for this method. */;
+- (void)ntsBlendModeForAccessibilityBackgrounds;
+- (void)r: /* Error: Ran out of types for this method. */;
+- (void)Updates;
+- (void)iew;
+- (_Bool)nge;
+- (void)buttonForBackButtonIndicator;
+- (double)umaTrackingBackdropViewGroupDelegate>",W,N,S_setGroupDelegate:(long long)arg1;
+- (double)SearchBarAnimator;
+- (struct _NSRange)`g;
+- (long long)R{þÿ;
+- (void)all;
+- (void)ges;
+- (long long)iew initWithFrame:(long long)arg1 ];
+- (void)Ref);
+- (void)¢03ySbG;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *invalidUpdatesErrorMessage; // @synthesize invalidUpdatesErrorMessage=_invalidUpdatesErrorMessage;

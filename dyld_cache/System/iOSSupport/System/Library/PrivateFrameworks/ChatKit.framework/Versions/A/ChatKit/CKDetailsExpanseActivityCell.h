@@ -19,25 +19,26 @@
 
 + (_Bool);
 + (id);
-- (void)G;
 - (void);
-- (void)_;
 - (void);
-- (id)find account id for container %@;
-- (_Bool)arentItems:] is not implemented /* Error: Ran out of types for this method. */;
-- (double);
-- (id)opied the folder;
-- (void)Color;
+- (void);
+- (void);
 - (id);
-- (double)};
+- (_Bool);
+- (double);
+- (id);
 - (void);
 - (id);
 - (double);
 - (void);
-- (void);
 - (id);
+- (double);
 - (void);
 - (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)BlockButton;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *activityDescriptionLabel; // @synthesize activityDescriptionLabel=_activityDescriptionLabel;

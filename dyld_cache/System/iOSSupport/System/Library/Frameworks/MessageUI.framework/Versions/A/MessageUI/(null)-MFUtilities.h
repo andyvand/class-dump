@@ -6,7 +6,7 @@
 
 @interface (null) (MFUtilities)
 - (double);
-- (struct CGRect)=;
+- (struct CGRect);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGRect);

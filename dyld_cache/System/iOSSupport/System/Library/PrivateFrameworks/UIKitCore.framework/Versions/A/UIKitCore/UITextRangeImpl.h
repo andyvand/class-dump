@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)KdM;
++ (id);
 - (void);
 - (void);
-- (id)etion: /* Error: Ran out of types for this method. */;
-- (void)stDoorTranscriptBackgroundCommandTypeWrapper",&,N,V_type;
-- (_Bool);
-- (long long);
-- (void)Ôü¹;
-- (id)ew:,V_shadowView /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)ng protection class for UIScene restoration state:%@ /* Error: Ran out of types for this method. */;
-- (id)AreaType;
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool)tAlpha:(id)arg1 forState: /* Error: Ran out of types for this method. */;
+- (id)Enabled: /* Error: Ran out of types for this method. */;
+- (_Bool)ived view controller connection before view controller was created.;
+- (long long)ngCursorLocationRangeForProofreadingSuggestion:inContextID:] /* Error: Ran out of types for this method. */;
+- (void)<;ºÿDí;
 
 // Remaining properties
 @property(nonatomic) long long affinity; // @synthesize affinity=_affinityIfCollapsed;

@@ -16,17 +16,16 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)!|Dù|Ð1b0@ù
-× ;
-- (id)Stiffness;
-- (long long)UÁhü;
 - (struct CGSize);
+- (_Bool);
+- (long long);
+- (id)ct={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}96q864;
+- (id)_Nonnull);
+- (void)PhotosPagingSecondaryToolbarController;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

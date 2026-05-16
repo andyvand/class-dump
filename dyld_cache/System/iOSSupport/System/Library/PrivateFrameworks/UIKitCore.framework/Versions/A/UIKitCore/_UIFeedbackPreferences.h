@@ -14,25 +14,26 @@ __attribute__((visibility("hidden")))
     NSUserDefaults *_userDefaults;
 }
 
-+ (id);
-- (id);
-- (void);
-- (void);
++ (id)Yð1Â0@ù
+× ;
 - (unsigned long long);
 - (void);
-- (unsigned long long)7MPMusicPlayerPlayParametersC;
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)ations;
-- (id)egularWidthRegularHeight: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ynamic;
-- (void)tomContainers;
-- (id);
+- (void)rmsPredictiveCandidates:(id)arg1;
+- (unsigned long long)Backdrops:(id)arg1;
+- (id)tiveVolume;
+- (id)clusionRects;
+- (void)tionToHost;
+- (unsigned long long)\MÌN;
+- (void);
+- (id)7G;
 - (void);
-- (id)Ô¤];
-- (void)öJb;
+- (void)ðâåÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *defaultFeedbackTypes; // @synthesize defaultFeedbackTypes=_defaultFeedbackTypes;

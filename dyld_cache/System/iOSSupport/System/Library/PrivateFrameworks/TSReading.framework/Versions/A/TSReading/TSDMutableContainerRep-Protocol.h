@@ -8,7 +8,6 @@
 @protocol TSDMutableContainerInfo;
 
 @protocol TSDMutableContainerRep
-- (NSObject<TSDMutableContainerInfo> *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<TSDMutableContainerInfo> *mutableContainerInfo;

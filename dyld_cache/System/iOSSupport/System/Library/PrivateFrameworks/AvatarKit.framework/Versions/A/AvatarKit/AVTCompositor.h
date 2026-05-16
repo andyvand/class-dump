@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)8;
 - (void);
+- (void);
+- (void)plingFactorKey;
 
 @end
 

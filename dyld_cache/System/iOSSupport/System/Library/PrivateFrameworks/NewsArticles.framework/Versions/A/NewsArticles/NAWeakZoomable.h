@@ -18,12 +18,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)ewController.swift;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void)Section;
 
 @end
 

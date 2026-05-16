@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-- (void)erationNotifications;
-- (void)Identifier:fromToken:fromIDSID:timeStamp:needsDeliveryReceipt:deliveryContext:storageContext: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (void);
+- (id);
 
 @end
 

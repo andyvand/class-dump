@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)DidSelectEditPhotoCredit: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *category; // @synthesize category=_category;

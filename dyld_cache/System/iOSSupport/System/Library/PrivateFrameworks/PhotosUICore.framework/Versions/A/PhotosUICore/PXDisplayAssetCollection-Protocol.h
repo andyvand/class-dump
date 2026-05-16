@@ -7,7 +7,8 @@
 @class NSArray, NSString;
 
 @protocol PXDisplayAssetCollection
-- (_Bool)tWithIdentifier:displayName:pathRelativeToDocumentStorage:hidden: /* Error: Ran out of types for this method. */;
+- (NSString *)dd}},N,V_initialCoordinateRegion;
+- (NSString *)XFlexMusicImageProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long estimatedAssetCount;

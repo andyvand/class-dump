@@ -5,31 +5,25 @@
 //
 
 @class UIGestureRecognizer, UIView;
-@protocol UICoordinateSpace, _UIClickInteractionDriverDelegate;
+@protocol _UIClickInteractionDriverDelegate;
 
 @protocol _UIClickInteractionDriving
-+ (_Bool)learFailedFetchableToken;
-- (_Bool)tenWithPeersAndParents: /* Error: Ran out of types for this method. */;
-- (double)ovie:v%lu:o%lu /* Error: Ran out of types for this method. */;
-- (UIGestureRecognizer *)¸ò;
-- (unsigned long long);
-- (void);
-- (_Bool)1¢!0@ù
++ (_Bool)an invalid target rect (%@); ignoring update.;
+- (void)0@ù
 × ;
-- (_Bool)ddd}16;
-- (_Bool)ngBaseName;
-- (struct CGPoint)eSnapshotContextForSceneRemoval:(id <UICoordinateSpace>)arg1 withName: /* Error: Ran out of types for this method. */;
-- (void)er",&,N,V_materializedViewController;
-- (void)P8;
-- (void)n %@:(double)arg1 %@;
-- (id <_UIClickInteractionDriverDelegate>)ïuþÿ;
-- (void)ontainer;
-- (double)IKBColorWhite_Alpha7;
+- (void)cessibilityAttributedValue:(double)arg1;
+- (UIView *)eryUnfilledColor;
+- (void)_transitionConductor;
+- (_Bool)w;
+- (double)ContentSizePreferenceClientSettings;
+- (void);
+- (_Bool)Ñþÿ;
+- (double);
+- (_Bool)`&¸þ;
+- (_Bool)43Øs;
 
 @optional
-- (void)tRegistry;
-- (unsigned long long)rk;
-- (_Bool)k:r:path:/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager /* Error: Ran out of types for this method. */;
+- (_Bool)e;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement;

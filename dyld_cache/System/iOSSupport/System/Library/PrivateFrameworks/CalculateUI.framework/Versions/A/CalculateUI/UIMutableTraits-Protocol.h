@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol UIMutableTraits
-- (long long)¯	SgGGACy3	GGL	G¶	yH	GG;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContrast;

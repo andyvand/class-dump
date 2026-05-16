@@ -8,7 +8,7 @@
 {
 }
 
-- (id)cationWithChangeType:insertedText:keyInputDelegate: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

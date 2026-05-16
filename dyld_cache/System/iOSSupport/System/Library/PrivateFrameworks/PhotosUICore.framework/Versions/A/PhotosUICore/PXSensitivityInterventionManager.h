@@ -31,11 +31,10 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)tDate:timeZone:forAsset: /* Error: Ran out of types for this method. */;
-- (void)¢3"%ÿ¢3h
-$ÿY¢3"%ÿ¢3à!%ÿa¢3Ì!%ÿ;
+- (void)M;
+- (id)ac/workspaces/photosshared/PhotosUICore/PhotosUICore/PXDisplay Adoption/PhotoKit/Actions/Asset Collection Action Performers/People/PXPhotoKitRenamePersonActionPerformer.m;
+- (void)R3;
 
 // Remaining properties
 @property(nonatomic) long long analysisMediaType; // @synthesize analysisMediaType;

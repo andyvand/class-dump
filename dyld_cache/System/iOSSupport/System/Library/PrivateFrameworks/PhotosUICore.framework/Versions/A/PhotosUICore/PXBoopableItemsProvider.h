@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)ÈÀúÿBëúÿdëúÿÄ;
+- (void);
+- (id)dding;
+- (void)HÌ;ÿèÌ;ÿLdÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *applicationActivitiesForActivityItemsConfiguration;

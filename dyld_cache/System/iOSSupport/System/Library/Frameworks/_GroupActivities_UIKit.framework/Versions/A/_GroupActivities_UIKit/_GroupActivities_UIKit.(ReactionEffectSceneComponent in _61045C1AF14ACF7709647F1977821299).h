@@ -12,11 +12,11 @@
     void _scene;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) __weak UIScene *_scene; // @synthesize _scene;

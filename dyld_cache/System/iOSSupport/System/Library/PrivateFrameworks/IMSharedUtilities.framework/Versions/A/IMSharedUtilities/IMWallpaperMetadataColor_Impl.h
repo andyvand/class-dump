@@ -18,15 +18,15 @@
     MISSING_TYPE *alpha;
 }
 
-+ (_Bool)Tq,N,VmessageType;
-- (void);
++ (_Bool);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)Pké2Õß·5à;
+- (id)"IMSimulatedEntryConfiguration"24@?<v@?@"NSError">32;
+- (void)be in an inconsistent state.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *dictionaryRepresentation;

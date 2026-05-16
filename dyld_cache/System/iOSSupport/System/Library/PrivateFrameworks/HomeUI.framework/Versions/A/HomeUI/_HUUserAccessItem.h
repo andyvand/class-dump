@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType)tem"36@0:8@"NSToolbar"16@"NSString"24B32 /* Error: Ran out of types for this method. */;
-- (id)´ä;
+- (CDUnknownBlockType);
+- (void)ubMigrationOnboardingFlow:_checkHomePodResidentUpgradeRequirementsInHome] home = %@ (uniqueIdentifier = %{public}@) | residentDevice = [%@] (uniqueIdentifier = %{public}@) supportsHH2 = [%d] /* Error: Ran out of types for this method. */;
+- (id)tem"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType resultsBlock; // @synthesize resultsBlock=_resultsBlock;

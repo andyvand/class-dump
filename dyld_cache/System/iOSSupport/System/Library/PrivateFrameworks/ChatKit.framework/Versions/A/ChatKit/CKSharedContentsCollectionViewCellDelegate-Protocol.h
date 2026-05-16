@@ -5,7 +5,5 @@
 //
 
 @protocol CKSharedContentsCollectionViewCellDelegate
-- (void)y¬;
-- (void)bjects;
 @end
 

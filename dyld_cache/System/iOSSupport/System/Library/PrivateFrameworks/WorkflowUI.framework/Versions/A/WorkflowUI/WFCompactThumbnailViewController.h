@@ -16,10 +16,10 @@
 - (void);
 - (double);
 - (unsigned long long);
-- (void);
-- (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (void)$;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool contentHeightLikelyToChange; // @synthesize contentHeightLikelyToChange=_contentHeightLikelyToChange;

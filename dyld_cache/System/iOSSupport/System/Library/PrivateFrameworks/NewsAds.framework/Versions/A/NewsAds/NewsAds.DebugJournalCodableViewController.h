@@ -12,10 +12,10 @@
     MISSING_TYPE *textView;
 }
 
-- (void)T;
 - (id);
 - (id);
-- (void)ndRenderState";
+- (void);
+- (void);
 - (void);
 
 @end

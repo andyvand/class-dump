@@ -18,11 +18,11 @@
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNAutocompleteSearchConsumer> consumer; // @synthesize consumer=_consumer;

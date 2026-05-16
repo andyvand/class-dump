@@ -17,7 +17,7 @@
     unsigned long long _movingToPersonal;
 }
 
-+ (id)encePermission;
++ (id)et:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
 - (id);
-- (id)ûÿ;
-- (void)`§ûÏ%7;
-- (id)8;
+- (void);
+- (id);
+- (long long);
+- (void);
+- (void)¡4;
+- (id)5H<6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

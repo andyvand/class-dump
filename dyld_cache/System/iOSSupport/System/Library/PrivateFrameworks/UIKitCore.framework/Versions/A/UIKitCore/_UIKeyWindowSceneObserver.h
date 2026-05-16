@@ -16,22 +16,22 @@ __attribute__((visibility("hidden")))
     UIScene *_scene;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)onentsIfNecessaryFromDate: /* Error: Ran out of types for this method. */;
-- (id)eViewSize:collapsedState: /* Error: Ran out of types for this method. */;
-- (void)ghlightHorizontalPositionSensitivity;
 - (void);
-- (id);
-- (id);
-- (id)[;
-- (void);
+- (id)eboardItemAtIndex:(id)arg1 inTextField:(id)arg2;
+- (void):(id)arg1 endingLayout:(long long)arg2 animationSetup:(unsigned long long)arg3 animationCompletion:enableCustomAnimations:customAnimationsType: /* Error: Ran out of types for this method. */;
+- (_Bool)_activeDropItem;
+- (void)yle:(id)arg1;
+- (id)vityItemsConfiguration;
+- (id)23YÒ;
+- (void)nfigurationDragState;
+- (id)¼ÿ3ÜL^;
+- (void);
+- (id)Ta;
+- (void)´ªý;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

@@ -13,34 +13,35 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ým;
-- (id)h;
-- (id)ReportToIDSAllowedForMessageItem:chat:notifyInternalSecurity: /* Error: Ran out of types for this method. */;
++ (_Bool)talLeaksUnits;
+- (id);
+- (id);
 - (void);
 - (double);
-- (unsigned long long);
-- (id)l;
-- (unsigned long long)tabase. ***;
-- (id)sync state for a transfer we don't have on disk transfer:(id)arg1 %@ record:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (struct CGAffineTransform);
 - (_Bool);
-- (_Bool)delPropertyMovieHasCloudSyncSource__MAPPING_MISSING__;
-- (double):[ /* Error: Ran out of types for this method. */;
-- (_Bool)rtistKind;
-- (id);
-- (_Bool)º;
-- (void);
-- (_Bool)oard;
-- (_Bool)Needed;
-- (id)startKeysOrdered;
-- (id);
-- (_Bool)resize.;
-- (Class)aseDuration;
-- (struct CGRect)q;
-- (_Bool)jÿ¨Õï,`;
-- (_Bool)úa;
-- (_Bool)@	ÇÿsÎ³ég;
+- (_Bool);
+- (struct CGRect)AÐ!Eù\ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)ngWithLocatable: /* Error: Ran out of types for this method. */;
+- (void)ret:(id)arg1 toPosition:withSize: /* Error: Ran out of types for this method. */;
+- (Class)tionPending;
+- (id)r"8@"UIColor"16Q24@"UITraitCollection"32;
+- (double);
+- (_Bool)ðYðÿ;
+- (void)p|g;
+- (_Bool)l;
+- (_Bool)0/]ÿ;
 
 @end
 

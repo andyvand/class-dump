@@ -14,10 +14,10 @@
     MISSING_TYPE *$__lazy_storage_$_title;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)uration;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *title;

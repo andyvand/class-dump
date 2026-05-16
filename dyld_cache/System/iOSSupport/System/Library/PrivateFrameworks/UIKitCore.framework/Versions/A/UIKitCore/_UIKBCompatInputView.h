@@ -13,25 +13,25 @@ __attribute__((visibility("hidden")))
     UIView *_snapshotView;
 }
 
-+ (_Bool);
-- (void);
-- (struct CGRect)enqueued
-;
++ (_Bool)}32;
 - (void);
 - (struct CGSize);
-- (_Bool)tifiers:(struct CGPoint)arg1 ] nowPlayingIdentifiers cannot be nil. The argument has been replaced with an empty array, please change usage to match this expectation. An assertion will be triggered for apps built on or after the iOS 12.2 SDK.;
-- (void)g mapping for MPModelPropertyTVSeasonStoreCanonicalID;
-- (id);
-- (void);
-- (_Bool)Ô ;
-- (void);
-- (id)1¢!0@ù
+- (struct CGSize);
+- (_Bool)Ð!BùÑ[1Â0@ù
 × ;
-- (void)View;
-- (void)ebuggingInformationRootTableViewController;
-- (id)j8_vÜj8RzlXX;
-- (void)egin renaming a navigation item (%@) that's already being renamed. This request is ignored.;
-- (struct CGSize)µ³þ ;
+- (id)
+× ;
+- (void)sToRecord:(struct CGRect)arg1;
+- (void)dWindowPointerWithInteractionsWantingFocus;
+- (void)ConfigurationHistory;
+- (_Bool)utSwipeActions;
+- (void);
+- (id)or;
+- (void)om padding:(id)arg1 %g; reordered index path:%@; dragged index path:%@; gap row height:%g; dragged row height:%g; section data:%@ /* Error: Ran out of types for this method. */;
+- (void)athElementAddQuadCurveToPoint;
+- (struct CGRect)¸þÿÿÿÿ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;

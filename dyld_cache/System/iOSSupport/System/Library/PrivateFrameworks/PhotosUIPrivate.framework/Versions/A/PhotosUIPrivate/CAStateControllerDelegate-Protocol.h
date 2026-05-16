@@ -5,5 +5,8 @@
 //
 
 @protocol CAStateControllerDelegate
+
+@optional
+- (void)odelDownloadTask;
 @end
 

@@ -24,15 +24,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (void);
-- (id)A&ð!<Gù10Ð1b0@ù
+- (id);
+- (void)A¯°!¤Dù1°1â
+0@ù
 × ;
-- (_Bool)not hidden;
-- (void);
+- (struct CGSize)
+× ;
+- (void)uests_Confirmation_TurnOff;
+- (_Bool)ÿDÁ;
+- (void)ÿuù¤;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *bottomSeparatorView; // @synthesize bottomSeparatorView=_bottomSeparatorView;

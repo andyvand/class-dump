@@ -48,6 +48,10 @@
     MISSING_TYPE *issueCoverContainerView;
     MISSING_TYPE *_windowTitle;
     MISSING_TYPE *pageKind;
+    MISSING_TYPE *featurePromotionManager;
+    MISSING_TYPE *featurePromotionPresenter;
+    MISSING_TYPE *featurePromotionTask;
+    MISSING_TYPE *feedConfigurationFactory;
     MISSING_TYPE *$__lazy_storage_$_bottomPaletteViewController;
     MISSING_TYPE *$__lazy_storage_$_bottomPalettePlugin;
     MISSING_TYPE *pocketStatusBarView;
@@ -57,18 +61,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void)etOtherTraitAreas: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)iss;
+- (long long)hxÌÿ53;
+- (void);
 - (void);
 
 // Remaining properties

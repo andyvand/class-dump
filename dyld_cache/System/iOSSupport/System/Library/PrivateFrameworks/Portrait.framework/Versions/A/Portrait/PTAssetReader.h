@@ -28,7 +28,7 @@
     CDStruct_1b6d18a9 _frameDuration;
 }
 
-+ (void);
++ (void)cusFramesOptions",&,N,V_focusFramesOptions;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -51,13 +51,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (struct opaqueCMFormatDescription *);
+- (unsigned long long);
+- (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id)ÿl{ÿ;
+- (unsigned long long)KÿKÿLÿ¥Mÿ­NÿµNÿ½OÿÅPÿÎQÿÖRÿÞSÿæSÿïTÿ÷UÿÿUÿ;
+- (id)k?;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *YCbCrMatrix; // @synthesize YCbCrMatrix=_YCbCrMatrix;

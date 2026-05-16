@@ -11,9 +11,11 @@
     MISSING_TYPE *_isMoreMenuPresented;
     MISSING_TYPE *_isAddParticipantSheetPresented;
     MISSING_TYPE *_shouldShowCountdown;
+    MISSING_TYPE *_isDisabled;
     MISSING_TYPE *moreMenuDidTap;
     MISSING_TYPE *_cancellables;
     MISSING_TYPE *countdownViewModel;
+    MISSING_TYPE *isScreenLocked;
     MISSING_TYPE *service;
     MISSING_TYPE *_$observationRegistrar;
 }

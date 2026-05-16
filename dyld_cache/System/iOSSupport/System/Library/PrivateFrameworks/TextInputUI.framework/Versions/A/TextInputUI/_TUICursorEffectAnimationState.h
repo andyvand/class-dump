@@ -13,8 +13,8 @@
 }
 
 - (double);
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 

@@ -11,12 +11,12 @@
     struct CGPoint _contextSpacePoint;
 }
 
-- (void)?;
+- (void);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
-- (void);
 - (unsigned int);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;

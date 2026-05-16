@@ -15,39 +15,36 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
-+ (_Bool)+lm;
++ (_Bool)uageAwareStringAutoAdjustWritingDirectionUITextField;
 - (id);
 - (id);
-- (id)ionManager"16B24;
-- (struct CGSize)UIDToCountMap;
-- (void)q=;
+- (id);
+- (struct CGSize);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)Y;
-- (id)d;
-- (id);
-- (void)tching exit record %@, ignoring;
-- (id)d context %@;
-- (id)eceipt For Message GUID:(double)arg1 %@;
-- (void);
-- (_Bool);
-- (unsigned long long);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (struct CGRect);
-- (struct UIEdgeInsets);
-- (void)¯L0º;
-- (long long)ÑÀ1¢!0@ù
-× ;
-- (_Bool)ù
-× ;
-- (struct CGRect)1¢!0@ù
-× ;
-- (void)yChangeOfTopEvaluatedObjectIfNeededForIdiom:(_Bool)arg1 withSortedActivityRecords:mutatedByBlock: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)Glass;
+- (_Bool);
+- (id);
 - (double);
+- (void);
+- (unsigned long long);
+- (struct UIEdgeInsets);
+- (_Bool)uration:(id)arg1;
+- (void)eOrientationChangesDisabledWithBlock:(id)arg1;
+- (_Bool)lÔ;
+- (struct CGRect)nalytics;
+- (void)-ÿiÀp;
+- (struct UIEdgeInsets)4a;
+- (long long);
 
 @end
 

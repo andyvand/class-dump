@@ -64,8 +64,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (_Bool);
 - (id);
 - (double);
@@ -82,11 +82,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)configuration for HomePod with results [%@];
+- (id)enuItemSettings;
 - (void);
-- (id);
-- (id);
-- (void)ü;
-- (id)ÚÖW;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsTextColorWhenDisabled; // @synthesize adjustsTextColorWhenDisabled=_adjustsTextColorWhenDisabled;

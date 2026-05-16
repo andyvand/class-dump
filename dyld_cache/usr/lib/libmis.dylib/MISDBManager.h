@@ -16,6 +16,7 @@
 
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -29,12 +30,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (int);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -45,15 +48,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)#;
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
 
 // Remaining properties
 @property(retain) MISEntitlementsModel *Entitlements; // @synthesize Entitlements;

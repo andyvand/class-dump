@@ -13,7 +13,7 @@
     NSDate *_dateOfOccurrence;
 }
 
-+ (_Bool)C35305FA9FFC;
++ (_Bool);
 
 @end
 

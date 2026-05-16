@@ -11,20 +11,20 @@
 }
 
 + (id);
-+ (id)N;
 + (id);
 + (id);
++ (id);
 + (void);
 + (void);
 + (void);
 + (void);
 + (id);
 + (void);
-+ (id),FæÿÅ£VÿØ;
++ (id);
 - (void);
 - (SEL);
 - (void);
-- (void);
+- (void)tYx/Sources/AlderShared/tables/TSTStrokeRunArray.mm;
 
 @end
 

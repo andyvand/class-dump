@@ -25,18 +25,19 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void)rangeInParentRep;
+- (void)!XGùQï1Â0@ù
+× ;
+- (unsigned long long)ue-UltraLight;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;

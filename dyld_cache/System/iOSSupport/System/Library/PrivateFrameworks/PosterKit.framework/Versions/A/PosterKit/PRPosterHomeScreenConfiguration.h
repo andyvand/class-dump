@@ -11,28 +11,29 @@
 }
 
 + (id);
-+ (_Bool);
 + (id);
-+ (_Bool)ateEnabled:groupName: /* Error: Ran out of types for this method. */;
-+ (id)preter.m;
++ (_Bool);
++ (_Bool);
++ (id)yAN_Qo_GþaéGAAy­
+=AMGGATGÅÑÿÿGSg;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (Class);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *attributeType;

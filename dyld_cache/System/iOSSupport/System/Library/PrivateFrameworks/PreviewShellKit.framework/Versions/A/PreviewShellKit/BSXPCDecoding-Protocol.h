@@ -5,7 +5,5 @@
 //
 
 @protocol BSXPCDecoding
-- (_Bool);
-- (double);
 @end
 

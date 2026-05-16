@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *effects; // @synthesize effects=_effects;

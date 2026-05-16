@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)ervice is not SMS (current %@, override %@), ignoring!;
+- (_Bool);
 - (void);
-- (void)tionBlock;
+- (void)Øüf;
 
 @end
 

@@ -37,11 +37,11 @@
 - (struct CGRect);
 - (struct CGRect);
 - (double);
-- (void);
 - (long long);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double controlKeyWidthRatio; // @synthesize controlKeyWidthRatio=_controlKeyWidthRatio;

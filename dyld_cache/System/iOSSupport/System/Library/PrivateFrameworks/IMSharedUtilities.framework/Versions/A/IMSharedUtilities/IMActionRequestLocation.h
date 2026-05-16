@@ -11,9 +11,9 @@
 
 - (id);
 - (_Bool);
+- (id);
 - (long long);
 - (_Bool);
-- (id);
 - (id);
 - (id);
 

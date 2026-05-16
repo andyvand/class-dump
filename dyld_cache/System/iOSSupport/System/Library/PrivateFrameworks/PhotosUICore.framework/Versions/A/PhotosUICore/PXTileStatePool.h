@@ -33,13 +33,12 @@
 - (void);
 - (void);
 - (struct PXProtectedTileState *);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)
-× ;
-- (long long)ectionLimit;
+- (id);
+- (id);
+- (long long);
+- (void)sharedLibraryCameraSharing;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

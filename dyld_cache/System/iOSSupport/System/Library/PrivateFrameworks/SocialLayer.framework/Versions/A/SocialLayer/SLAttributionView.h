@@ -93,22 +93,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
 - (void);
-- (unsigned long long)eceivedConnection: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *blurEffectGroupName; // @synthesize blurEffectGroupName=_blurEffectGroupName;

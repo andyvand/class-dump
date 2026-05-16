@@ -13,16 +13,16 @@
     NSMeasurement *_concentration;
 }
 
-+ (_Bool)March 7â;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)e><base64>;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMeasurement *concentration; // @synthesize concentration=_concentration;

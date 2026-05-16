@@ -33,8 +33,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Pod_Title;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

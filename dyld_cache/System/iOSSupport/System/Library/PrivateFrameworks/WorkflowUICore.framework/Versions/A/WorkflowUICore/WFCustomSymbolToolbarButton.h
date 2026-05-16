@@ -15,12 +15,12 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
+- (void);
+- (void)F_AFQo_[~úyEÞúyw&úGYèúA41_AEGSgyúyxúyAF_Qo__AFQo_tGABGAAyAeTyAEõõGABGAAyAeCyAL_AIyACyAE_AjVtGGAIyACyAE_AjUyAvEGtGGACyA18__A11_ySo016WFDatabaseObjectK0CGtGSgAlTyAEõGAsTyAEõGSgATyAEõGSgtGABGAAyAeCyAS_A4sFSgAsLSgtGABGAAyAesBGAAyAeCyARyAOG_A76_A76_A76_A76_tGAEGA5_A5_t;
 
 // Remaining properties
 @property(nonatomic) double pointSizeToWidthRatio; // @synthesize pointSizeToWidthRatio=_pointSizeToWidthRatio;

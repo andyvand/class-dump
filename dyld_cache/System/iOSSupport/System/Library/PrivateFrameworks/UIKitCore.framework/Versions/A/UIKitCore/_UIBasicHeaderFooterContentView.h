@@ -17,31 +17,32 @@
     UILabel *_textLabel;
 }
 
-- (struct _UIBasicHeaderFooterContentViewSizes)pre-transfer map, for a CKRecord we fetched an asset for, recordID %@. CAN'T UPDATE!;
-- (void);
-- (void);
-- (void);
-- (id)skipping result [no store identifiers] result=%@ identifiers=%@;
-- (double)fiers;
-- (id);
-- (void);
-- (void)A	*;;
-- (void);
-- (_Bool);
-- (void)isualStyle>";
-- (id)b1"finished"b1"error"b1};
-- (void)Locked;
-- (id),V_currentlyAcceptingInlineCompletionByDirectTap;
-- (struct CGSize)ts;
-- (void)e,V_outOfRange;
-- (id)ß;
-- (void)hÈH>ÌÈU¸ÈtÈP	pÈð	ÈÈ¤È ¸ÈÌäÈPüÈÈp\ÈÈtÀÈðÐÈøäÈ¬øÈÈÈ¬@ÈhÈ#ìÈ¸&`È¤'È)¼ÈØ)ÔÈ°*èÈ(,Èø, Èp/tÈh0È1¨ÈX3ØÈ4ìÈ<5;
-- (double)SceneHostingView-%@;
-- (void)sn't implement state restoration, clearing previous saved state.;
-- (id)ported;
-- (struct CGSize);
-- (id);
+- (struct _UIBasicHeaderFooterContentViewSizes);
 - (struct CGSize);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)q[°1Â0@ù
+× ;
+- (void)nNil"b1};
+- (void)nContextPassingNSNumber:(id)arg1;
+- (void)initWithClientIdentity:(struct UIEdgeInsets)arg1;
+- (void)entCoverColor;
+- (id)oSessionCategoryOverride;
+- (double)rUpdateWidthConstraintWithConstant:owningView:constraintsToActivate: /* Error: Ran out of types for this method. */;
+- (void)LA;
+- (struct CGSize)K;
+- (id)tainer is not recommended. Use an explicit constant for your constraint to override this.;
+- (struct CGSize)as the view controller for the %@ column. Split view controller:(struct CGSize)arg1 %@;
+- (void)omeScreenIconStyleConfiguration;
+- (double)nnot have an independently set capture view. Set your capture view on '%@';
+- (void)rò;
+- (id)ÿz¸;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preventFocus;

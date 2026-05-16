@@ -5,12 +5,10 @@
 //
 
 @protocol CKAudioBalloonView
-- (long long);
-- (void)nTextStorage:(long long)arg1;
-- (void)ath",N,&;
-- (void)ters:(double)arg1 target: /* Error: Ran out of types for this method. */;
-- (double)À;
-- (double)7ChatKitP33_522A160BBD24E8726EEE99D68A03969E32TapbackPickerStrokeContainerView;
+- (double)teractionType: /* Error: Ran out of types for this method. */;
+- (_Bool)ycP^yµS^y¿¹]yABy¾½]©¬]yS½]GG_Qo_G_.J^Qo_AMy[I^GGAMyñ]GGAIG]GAByAByAByp¹]yAByAwMy;¸]SgGG_Qo_AMyC½]GGAMyAYSgGGA11_GGtGGº]GACyADyAK_AEyADyAL_AStGGE¾]A25_tGG_G;
+- (void)SettingsChanged:(double)arg1 , got look %@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double duration;

@@ -10,11 +10,11 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (void)oveDown;
-- (void)ShowingDeleteConfirmation:(id)arg1;
+- (void);
+- (void)ility;
 
 @end
 

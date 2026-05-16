@@ -7,16 +7,19 @@
 @class _TtC16NewsSubscription26PaidBundleViaOfferSettings;
 
 @protocol TSFeatureAvailabilityType
+- (_Bool)@;
+- (_Bool)-Ë;
 - (_Bool);
-- (_Bool)referenceMigrationRule;
-- (_Bool)e;
-- (_Bool);
-- (_Bool)qA;
-- (_Bool)nateKeyCertificateURL;
-- (_Bool)%{public}@ - item:%{public}@ - reason:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)MPStoreRadioStreamAssetInfo"16;
-- (_TtC16NewsSubscription26PaidBundleViaOfferSettings *)ñÿñÿ¤ñÿ¼ñÿÔñÿìñÿñÿñÿ4ñÿLñÿñÿ¼ñÿôñÿ@ñÿdñÿ¤ñÿ¼ñÿôñÿñÿDñÿhñÿñÿ¬ñÿÄñÿÜñÿ;
-- (_Bool)7üÿ;
+- (_Bool)¹Qb ØÃþ;
+- (_Bool)½þ}Zc ¸ìþmZcµªþ;
+- (_Bool)d`Üþý&d «þ;
+- (_Bool)ignupModelFactoryType;
+- (_Bool)eedServiceContext;
+- (_Bool)ÿ³dTB;
+- (_Bool)Àd|;
+- (_Bool);
+- (_Bool)ä;
+- (_Bool)P°þÍ»dQ°þ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowCIPBestOffer;
@@ -28,14 +31,23 @@
 @property(nonatomic, readonly) _Bool articleLinkBehaviorImprovementsEnabled;
 @property(nonatomic, readonly) _Bool configurableOffersEnabled;
 @property(nonatomic, readonly) _Bool dimNonSubscriberContentOffline;
+@property(nonatomic, readonly) _Bool featurePromotionEnabled;
+@property(nonatomic, readonly) _Bool imagesInStepsEnabled;
+@property(nonatomic, readonly) _Bool ingredientScalingEnabled;
 @property(nonatomic, readonly) _Bool interstellarEnabled;
+@property(nonatomic, readonly) _Bool localOnboardingEnabled;
+@property(nonatomic, readonly) _Bool multipartRecipesEnabled;
 @property(nonatomic, readonly) _Bool narrativeAudio;
+@property(nonatomic, readonly) _Bool nutritionInfoEnabled;
 @property(nonatomic, readonly) _TtC16NewsSubscription26PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
 @property(nonatomic, readonly) _Bool puzzlesEnabled;
 @property(nonatomic, readonly) _Bool puzzlesGameCenterEnabled;
+@property(nonatomic, readonly) _Bool recipeHistoryFeedEnabled;
+@property(nonatomic, readonly) _Bool recipeNotesEnabled;
+@property(nonatomic, readonly) _Bool recipeRatingsEnabled;
+@property(nonatomic, readonly) _Bool recipeUnitConversionEnabled;
 @property(nonatomic, readonly) _Bool sportsNativeAdsEnabled;
 @property(nonatomic, readonly) _Bool useContinueReading;
-@property(nonatomic, readonly) _Bool useFeedDifferentiationMode;
 @property(nonatomic, readonly) _Bool useFineGrainedNewsletterManagement;
 @property(nonatomic, readonly) _Bool useFood;
 @property(nonatomic, readonly) _Bool useMoreFromIssueEOA;

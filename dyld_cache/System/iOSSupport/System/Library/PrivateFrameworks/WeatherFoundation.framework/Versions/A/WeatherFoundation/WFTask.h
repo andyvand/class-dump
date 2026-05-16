@@ -18,18 +18,19 @@
 - (id);
 - (void);
 - (void);
-- (void)ionEvents;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) WFTaskIdentifier *identifier; // @synthesize identifier=_identifier;

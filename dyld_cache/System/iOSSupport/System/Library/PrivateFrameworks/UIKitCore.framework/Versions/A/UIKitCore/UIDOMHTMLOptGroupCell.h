@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (id)HSA2 -- turning off messages on iCloud;
+- (id);
 - (void);
 
 @end

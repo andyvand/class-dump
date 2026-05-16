@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (struct CGSize)wController;
+- (void);
+- (void)edAnimated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PUPhotoViewContentHelper *contentHelper; // @synthesize contentHelper=_contentHelper;

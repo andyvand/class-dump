@@ -5,9 +5,5 @@
 //
 
 @protocol UIFindInteractionDelegate
-
-@optional
-- (void)eplyButtonEffectView;
-- (void)nTextFont;
 @end
 

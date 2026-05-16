@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)`ÝS!0;
++ (id)ayerViewController:pausedPlaybackOfVideo: /* Error: Ran out of types for this method. */;
 - (struct CGImage *);
 - (id);
 - (id);
@@ -18,7 +18,7 @@
 - (struct __CFString *);
 - (struct CGColorSpace *);
 - (struct CGColorSpace *);
-- (id);
+- (id);
 
 @end
 

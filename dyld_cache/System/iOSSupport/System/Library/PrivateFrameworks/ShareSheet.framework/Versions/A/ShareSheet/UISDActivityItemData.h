@@ -38,10 +38,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *attachmentNamesByItem; // @synthesize attachmentNamesByItem=_attachmentNamesByItem;

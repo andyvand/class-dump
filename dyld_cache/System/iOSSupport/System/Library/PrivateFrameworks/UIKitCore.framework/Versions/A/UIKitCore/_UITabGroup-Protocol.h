@@ -7,10 +7,6 @@
 @class NSArray, UITab;
 
 @protocol _UITabGroup
-- (NSArray *);
-- (UITab *)ULL;
-- (_Bool)eReason;
-- (NSArray *);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsReordering;

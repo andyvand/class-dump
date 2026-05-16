@@ -13,18 +13,18 @@
     MPModelTVEpisodeKind *_episodeKind;
 }
 
-+ (id)gRequestIdentifier:(id)arg1;
-+ (id)ifiers: /* Error: Ran out of types for this method. */;
-+ (_Bool)alue=%{BOOL}u currentValue=%{BOOL}u;
++ (id);
++ (id);
++ (_Bool);
 - (id);
-- (id);
 - (id);
-- (void);
-- (unsigned long long)nil in _startRequestForDisplayName;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void)stinationOffset;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelTVEpisodeKind *episodeKind; // @synthesize episodeKind=_episodeKind;

@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)MTAlarm;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

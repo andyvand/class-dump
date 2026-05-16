@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)So26UIListContentConfigurationCG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,16 +16,16 @@
 }
 
 + (Class);
-+ (id)Frameworks/ReminderKit.framework/Versions/A/ReminderKit;
 + (id);
 + (id);
-+ (id)ç²Ì;
-+ (id)Pç²Ì;
++ (id);
++ (id);
++ (id);
 + (long long);
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool)will have a bounding box that is as wide as necessary, and may run off the edge of the image. Otherwise, the text will wrap within the bounds of the width. Optional. (WFPercentageTextBoxWidth);
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *selectedContents; // @synthesize selectedContents=_selectedContents;

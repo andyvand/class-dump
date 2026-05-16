@@ -14,14 +14,14 @@
     double _rollOffsetNoise;
 }
 
-- (void):(double)arg1 networkActivity:) /* Error: Ran out of types for this method. */;
-- (void)fetchMultiConfiguration(settings:(double)arg1 networkActivity:) /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (double);
 - (double);
+- (void);
 - (void);
 - (id);
-- (void);
 
 // Remaining properties
 @property(nonatomic) double rollJitterNoise; // @synthesize rollJitterNoise=_rollJitterNoise;

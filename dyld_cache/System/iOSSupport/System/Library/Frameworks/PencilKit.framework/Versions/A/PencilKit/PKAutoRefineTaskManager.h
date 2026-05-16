@@ -17,7 +17,7 @@
     NSUUID *_currentDrawingUUID;
 }
 
-- (void)h;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,12 +29,12 @@
 - (void);
 - (void);
 - (void);
-- (id)O;
+- (id);
 - (id);
 - (void);
-- (void)G;
 - (void);
-- (id);
+- (id);
+- (void)üÝ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAutoRefineViewDelegate> autoRefineViewDelegate; // @synthesize autoRefineViewDelegate=_autoRefineViewDelegate;

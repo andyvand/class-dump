@@ -17,13 +17,13 @@
 
 + (id);
 - (void);
-- (struct UIEdgeInsets)d self.attachment.previewUpdateDate %@ self.attachment.previewImages.count %lu;
-- (void)?0@"NSManagedObject"8^B16;
+- (struct UIEdgeInsets);
+- (void);
 - (_Bool);
 - (void);
+- (id);
 - (struct CGRect);
 - (id);
-- (id)Qÿ3.0ÙÏ/;
 
 // Remaining properties
 @property(nonatomic) struct CGRect containerBounds; // @synthesize containerBounds=_containerBounds;

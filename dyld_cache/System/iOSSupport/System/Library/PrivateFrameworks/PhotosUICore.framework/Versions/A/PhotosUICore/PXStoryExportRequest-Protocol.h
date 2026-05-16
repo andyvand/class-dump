@@ -7,12 +7,9 @@
 @class NSError, NSProgress, NSString, NSURL, PXStoryExportConfiguration;
 
 @protocol PXStoryExportRequest
-- (NSError *)Áv!pCù1{Ð1b0@ù
-× ;
-- (NSProgress *);
-- (_Bool)¼WY;
-- (void)UpFromMomentsDetailPreparation;
-- (NSString *)nalysisResults=qq}8B24@"NSError"28;
+- (long long)Available;
+- (NSProgress *)¢eÿ;
+- (_Bool)%{bool}d;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryExportConfiguration *configuration;

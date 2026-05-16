@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata;
-
 @protocol UIActivityItemSource
-
-@optional
-- (LPLinkMetadata *)R;
 @end
 

@@ -13,16 +13,15 @@
 
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (void)ÑÄ1¢!0@ù
-× ;
-- (id)s: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)¨ÿÿÿµ­èÿÐþìþÿ;
-- (id)»ÏÊ"q;
-- (void)¦ÿªÏÔór;
-- (void)S;
+- (id);
+- (id)óÐôó";
+- (void)eractionCSg;
+- (void);
+- (id)Åa;
+- (void)09m;
+- (unsigned long long)bp;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long edge;

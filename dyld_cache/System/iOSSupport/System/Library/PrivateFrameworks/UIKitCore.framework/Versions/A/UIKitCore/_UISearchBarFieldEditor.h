@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool);
-- (void)aultText:(id)arg1 initiatedByFrame:(id)arg2;
-- (void)es object. Make sure you are using the correct subclass for your target system.;
-- (id)oardTypeNumbersAndPunctuation;
 - (void);
+- (void);
+- (_Bool)ashedParentViewController:(id)arg1;
+- (id);
+- (void)Õ¼®\;
 
 @end
 

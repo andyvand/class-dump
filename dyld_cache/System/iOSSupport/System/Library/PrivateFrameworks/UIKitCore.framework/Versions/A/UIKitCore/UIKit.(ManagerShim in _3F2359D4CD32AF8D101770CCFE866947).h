@@ -11,10 +11,9 @@
     MISSING_TYPE *implementation;
 }
 
-- (void);
-- (void)
-× ;
-- (id)N,V_secondaryColor;
+- (id);
+- (void)?;
+- (void)Dùìþ|FÛ~l;
 
 @end
 

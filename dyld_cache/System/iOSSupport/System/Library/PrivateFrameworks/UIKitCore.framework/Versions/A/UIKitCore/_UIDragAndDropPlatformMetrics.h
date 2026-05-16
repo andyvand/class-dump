@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (CDUnknownBlockType)H;
 - (CDUnknownBlockType);
-- (void);
-- (id)enChargingForIconSize: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id);
+- (void)Ø¡\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType defaultPreviewOutlineProvider; // @synthesize defaultPreviewOutlineProvider=_defaultPreviewOutlineProvider;

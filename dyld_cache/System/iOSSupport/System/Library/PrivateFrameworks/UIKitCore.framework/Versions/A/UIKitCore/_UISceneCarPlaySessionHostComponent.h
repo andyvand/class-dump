@@ -24,9 +24,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
+- (void)@ù
+× ;
+- (id)1Â0@ù
+× ;
 - (void);
-- (id);
-- (void)YES;
 
 // Remaining properties
 @property(nonatomic) unsigned long long availableInteractionModels;

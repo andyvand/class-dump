@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
-
 @protocol FCEndpointConnectionType
-- (void)`;
-- (void)tion;
 - (void);
-- (void)teTitleViewWithUpdate:(NSURL *)arg1 animated:(NSDictionary *)arg2 completion:(NSString *)arg3;
 @end
 

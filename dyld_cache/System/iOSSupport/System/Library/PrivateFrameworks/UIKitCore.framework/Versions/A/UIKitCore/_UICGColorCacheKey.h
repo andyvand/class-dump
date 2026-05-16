@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     struct __CFArray *_colors;
 }
 
-- (unsigned long long)A;
-- (_Bool);
-- (id);
 - (void);
-- (_Bool)iew controller (%@) does not conform to _UIFontPickerClientActionHandling;
-- (id)iew;
+- (unsigned long long);
+- (_Bool)ecureCandidateLabel:(id)arg1;
+- (_Bool)leEffectConfiguration;
+- (id)T@"UIVectorLabel",&,N,V_accessoryLabel;
+- (id)from preferred attributes of cell has unresolved top separator visibility. %@;
 
 @end
 

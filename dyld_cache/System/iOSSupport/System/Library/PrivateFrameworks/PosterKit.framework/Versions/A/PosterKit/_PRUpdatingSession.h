@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void)bottom:%{bool}u because adaptive time configured:%{bool}u and depth effect disabled:%{bool}u /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

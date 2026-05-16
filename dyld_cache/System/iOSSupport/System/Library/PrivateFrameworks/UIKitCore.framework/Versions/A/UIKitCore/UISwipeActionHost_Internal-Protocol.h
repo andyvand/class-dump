@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UISwipeActionController;
 @protocol _UISwipeViewManipulator;
 
 @protocol UISwipeActionHost_Internal
 
 @optional
-- (void)EPersonalRecoveryKeyCMS;
-- (id <_UISwipeViewManipulator>);
-- (void)Î1¢!0@ù
+- (_Bool);
+- (void)Dù±[ð1Â0@ù
 × ;
+- (void)1Â0@ù
+× ;
+- (id <_UISwipeViewManipulator>)nTraits:(UISwipeActionController *)arg1 splitTraits: /* Error: Ran out of types for this method. */;
 @end
 

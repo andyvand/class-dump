@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
     double _interval;
 }
 
-- (id);
 - (double);
-- (void)],°1¢!0@ù
-× ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double interval; // @synthesize interval=_interval;

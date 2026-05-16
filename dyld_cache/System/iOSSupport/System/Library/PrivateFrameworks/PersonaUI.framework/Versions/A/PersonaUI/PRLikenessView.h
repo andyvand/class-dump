@@ -23,25 +23,25 @@
 + (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)6;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)P;
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;

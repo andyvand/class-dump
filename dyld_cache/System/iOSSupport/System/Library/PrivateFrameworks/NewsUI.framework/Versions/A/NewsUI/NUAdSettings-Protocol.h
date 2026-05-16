@@ -7,7 +7,6 @@
 @protocol SXAdvertisingSettings;
 
 @protocol NUAdSettings
-- (id <SXAdvertisingSettings>)˿;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisingSettings> debugAdvertisementSettings;

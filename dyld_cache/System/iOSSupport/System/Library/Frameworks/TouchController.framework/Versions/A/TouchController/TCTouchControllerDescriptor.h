@@ -20,20 +20,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
-- (void);
 - (struct CGSize);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long colorPixelFormat; // @synthesize colorPixelFormat=_colorPixelFormat;

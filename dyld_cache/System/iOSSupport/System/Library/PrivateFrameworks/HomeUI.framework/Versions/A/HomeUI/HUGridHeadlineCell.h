@@ -43,18 +43,17 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id)
-× ;
-- (_Bool)tyLogSettingsModuleController;
+- (_Bool):]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)orNotReachable;
 
 // Remaining properties
 @property(nonatomic, getter=areCellContentsHidden) _Bool cellContentsHidden; // @synthesize cellContentsHidden=_cellContentsHidden;

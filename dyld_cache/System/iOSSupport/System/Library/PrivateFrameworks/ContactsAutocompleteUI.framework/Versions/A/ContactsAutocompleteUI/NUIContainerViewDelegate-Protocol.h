@@ -5,14 +5,5 @@
 //
 
 @protocol NUIContainerViewDelegate
-
-@optional
-- (void)aced. It's outside of an explicit NavigationStack, but inside the detail column of a NavigationSplitView, so it attempts to target the next column. There is no next column after the detail column.
-
-Did you mean to put the navigationDestination inside a NavigationStack or else in a prior column?;
-- (struct CGSize);
-- (_Bool)onder;
-- (struct CGRect)ventCollection.swift;
-- (void)3A918B392E2B95F8B7EF25PlatformSwitchCoordinator;
 @end
 

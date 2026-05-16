@@ -18,7 +18,7 @@
 }
 
 - (_Bool);
-- (void)sionResponse"@"NSError">;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,8 +30,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

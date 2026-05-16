@@ -84,13 +84,15 @@
 - (void);
 - (void);
 - (void);
-- (id)p;
-- (void);
-- (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
-- (void)ceAndNewlineCharacterSet;
+- (CDUnknownBlockType);
+- (void)0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)oBoundsRect: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SXVideoAnalyticsRouter *analyticsRouter; // @synthesize analyticsRouter=_analyticsRouter;

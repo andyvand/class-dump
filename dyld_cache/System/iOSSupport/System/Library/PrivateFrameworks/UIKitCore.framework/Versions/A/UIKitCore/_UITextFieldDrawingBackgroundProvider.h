@@ -18,15 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (void);
 - (void);
-- (id)tionAdjustment;
-- (void)to deliver after animation finishes, %p
-	uuid=%@ state=%@;
+- (id);
+- (void)leDictionary",&,N,S_setTrackingInfos:(id)arg1 ,V_trackingInfos;
 - (void);
-- (void)itialSafeAreaUpdate;
-- (void)Ah[;
+- (void);
+- (void)ÌÀd];
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool drawsContent; // @synthesize drawsContent=_drawsContent;

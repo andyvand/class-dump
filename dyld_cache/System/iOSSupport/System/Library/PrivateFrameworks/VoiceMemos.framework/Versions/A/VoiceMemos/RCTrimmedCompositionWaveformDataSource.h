@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSURL *_destinationWaveformURL;
 }
 
-- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *destinationWaveformURL; // @synthesize destinationWaveformURL=_destinationWaveformURL;

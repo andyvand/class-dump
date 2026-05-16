@@ -19,28 +19,30 @@
 }
 
 + (unsigned long long);
-- (unsigned long long);
-- (void)sThreshold: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (unsigned long long);
-- (double);
-- (id);
-- (unsigned long long)};
-- (void);
-- (id);
-- (double);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (double);
-- (void);
-- (void);
-- (void)ictedContext:(struct _NSRange)arg1 managedObject:inManagedObjectContext: /* Error: Ran out of types for this method. */;
-- (id)V_eventMetrics;
-- (id)rkingEvents %d, locationType %d;
-- (id)ubmit, %@;
+- (id);
+- (void)@ù
+× ;
+- (double)
+× ;
+- (double)idReceiveRemoteStatus:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ä#%Ä*+¨0;
+- (void)fTransportKey;
+- (void)re available, fetch sessionManagerStatus;
+- (void)n notification, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

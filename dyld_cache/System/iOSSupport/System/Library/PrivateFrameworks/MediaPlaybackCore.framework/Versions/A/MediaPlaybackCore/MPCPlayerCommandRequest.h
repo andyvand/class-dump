@@ -18,22 +18,23 @@
     CDUnknownBlockType _statusTransformer;
 }
 
-- (id)"@"NSError">32;
-- (CDUnknownBlockType)+;
-- (void);
+- (id);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (id)con:(unsigned int)arg1 completion:(id)arg2;
-- (id)n:(unsigned int)arg1;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)0@ù
+× ;
+- (void)<ff;
+- (void)%{public}@ (%@);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int command; // @synthesize command=_command;

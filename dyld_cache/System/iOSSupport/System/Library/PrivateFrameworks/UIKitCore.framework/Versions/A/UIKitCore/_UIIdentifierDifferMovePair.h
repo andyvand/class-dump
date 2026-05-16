@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
 - (long long);
+- (long long);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)ymbolNameForModelID:(struct _NSZone *)arg1;
-- (long long)Image:(id)arg1 scale:orientation: /* Error: Ran out of types for this method. */;
-- (id)sets;
+- (_Bool)merWithThreshold:(id)arg1 adjustForPartialCompletion: /* Error: Ran out of types for this method. */;
+- (id)ebarToggleGlobally;
+- (long long)6^B24;
 
 // Remaining properties
 @property(nonatomic) long long fromIndex; // @synthesize fromIndex=_fromIndex;

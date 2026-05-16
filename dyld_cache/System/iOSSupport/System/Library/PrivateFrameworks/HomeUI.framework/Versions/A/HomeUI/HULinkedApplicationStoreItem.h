@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)tViewController initWithItemManager:tableViewStyle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSLookupItem *storeItem; // @synthesize storeItem=_storeItem;

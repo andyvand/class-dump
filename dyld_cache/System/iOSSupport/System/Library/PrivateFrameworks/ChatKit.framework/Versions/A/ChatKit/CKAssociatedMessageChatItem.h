@@ -15,7 +15,7 @@
 
 + (double);
 + (struct CATransform3D);
-+ (double)ompletionHandler:(long long)arg1 ];
++ (double);
 + (struct CGPoint);
 + (double);
 + (struct CGRect);
@@ -29,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (struct CGRect);
 - (id);
@@ -45,11 +45,11 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
 - (_Bool);
-- (id);
-- (id)DITS_TO_%@;
-- (id)¼¡Èÿ;
+- (id)EntryViewHeight;
+- (id)][Qo_a¤Zykg[yACGRGG;
+- (id)Ô°;
+- (void)ð@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *associatedChatItemGUID;

@@ -33,21 +33,21 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
 - (void);
 - (struct CGSize);
-- (id);
-- (void);
-- (unsigned long long);
 - (long long);
-- (void);
-- (id)Delegate>"24@0:8@"HUNavigationBarButton"16 /* Error: Ran out of types for this method. */;
-- (void)userPickerModule;
-- (struct CGSize)Controller;
-- (struct UIEdgeInsets)tionInvalid;
-- (id);
-- (void)merObjectViewControllerOnMainThread];
-- (double)y from layout at position;
-- (void)yDetailsSuggestedAutomationsViewController;
+- (struct UIEdgeInsets);
+- (double);
+- (struct CGSize);
+- (void)ttingsSectionItemModule;
+- (void)ctionViewController_NotVisible;
+- (id);
+- (void){ºÿ[ùg;
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentMargins; // @synthesize contentMargins=_contentMargins;

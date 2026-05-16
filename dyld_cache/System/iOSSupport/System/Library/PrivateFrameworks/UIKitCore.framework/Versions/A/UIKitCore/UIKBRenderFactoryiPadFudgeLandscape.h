@@ -11,30 +11,30 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)ats: /* Error: Ran out of types for this method. */;
-- (double)defaultAccountSettings;
-- (double)Manager:conversation:launchStateChanged:forActivitySession: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)o26IMDFilePurgeabilityMonitorC;
+- (struct CGPoint);
+- (double);
+- (double);
+- (struct CGPoint);
 - (id);
 - (struct CGPoint);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (double);
 - (struct CGPoint);
-- (double);
-- (struct CGPoint);
 - (double);
-- (struct CGPoint)h ;
-- (struct CGPoint)ped.;
-- (double)ard compatibility message %s. Message can be dropped.;
+- (struct CGPoint);
+- (double);
+- (struct CGPoint);
+- (struct CGPoint);
+- (double);
 - (struct CGSize);
-- (double)@) registered for:%@ but registration status was wrong. Saving for later /* Error: Ran out of types for this method. */;
-- (double)cache-delete;
 - (double);
 - (double);
-- (struct CGPoint)!;
-- (double)ew: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)È'`+h,ä-;
+- (double);
+- (double);
+- (struct CGPoint);
+- (double)tString;
+- (struct CGPoint)NäO¨P¨QÔRS;
 
 @end
 

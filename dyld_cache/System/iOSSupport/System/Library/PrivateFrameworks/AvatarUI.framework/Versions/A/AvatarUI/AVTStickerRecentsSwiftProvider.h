@@ -34,7 +34,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -61,15 +61,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)!;
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)614y803v612v012v014v024y024fyv2av024f024svuyfvuy800L80C2r03wr01lh00Lf00Lh0C2f0C2AhGRAfGR4brg4ggr4ggb4rbgsidhsidfpedhpedf024x224x444x02fx22fx44fx;
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;

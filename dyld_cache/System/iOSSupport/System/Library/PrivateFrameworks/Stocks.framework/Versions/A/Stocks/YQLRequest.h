@@ -17,18 +17,8 @@
 + (_Bool);
 + (void);
 + (void);
-+ (void);
++ (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -36,8 +26,17 @@
 - (id);
 - (void);
 - (void);
-- (void)ð!,Gù°1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties

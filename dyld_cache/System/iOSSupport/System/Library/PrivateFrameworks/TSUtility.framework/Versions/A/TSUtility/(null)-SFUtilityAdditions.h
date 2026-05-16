@@ -8,7 +8,7 @@
 
 @interface (null) (SFUtilityAdditions)
 + (id);
-+ (id)zR;
++ (id);
 + (id);
 + (id);
 + (void);

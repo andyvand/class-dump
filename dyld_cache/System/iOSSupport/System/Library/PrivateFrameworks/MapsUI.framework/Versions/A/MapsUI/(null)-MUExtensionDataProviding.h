@@ -8,7 +8,7 @@
 
 @interface (null) (MUExtensionDataProviding)
 - (id);
-- (id)ê©ÿÿB­;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appBundleIdentifier;

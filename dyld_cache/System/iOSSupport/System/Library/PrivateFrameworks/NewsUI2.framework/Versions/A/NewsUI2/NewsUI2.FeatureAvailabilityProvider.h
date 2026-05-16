@@ -42,16 +42,25 @@
     MISSING_TYPE *$__lazy_storage_$_enableAIAttribution;
     MISSING_TYPE *$__lazy_storage_$_useOfflineMode;
     MISSING_TYPE *$__lazy_storage_$_dimNonSubscriberContentOffline;
-    MISSING_TYPE *$__lazy_storage_$_useFeedDifferentiationMode;
     MISSING_TYPE *$__lazy_storage_$_foodEnabled;
+    MISSING_TYPE *$__lazy_storage_$_recipeHistoryFeedEnabled;
+    MISSING_TYPE *$__lazy_storage_$_recipeUnitConversionEnabled;
+    MISSING_TYPE *$__lazy_storage_$_multipartRecipesEnabled;
+    MISSING_TYPE *$__lazy_storage_$_recipeRatingsEnabled;
+    MISSING_TYPE *$__lazy_storage_$_ingredientScalingEnabled;
+    MISSING_TYPE *$__lazy_storage_$_recipeNotesEnabled;
+    MISSING_TYPE *$__lazy_storage_$_imagesInStepsEnabled;
+    MISSING_TYPE *$__lazy_storage_$_nutritionInfoEnabled;
     MISSING_TYPE *$__lazy_storage_$_widgetUpsellFeaturesEnabled;
     MISSING_TYPE *$__lazy_storage_$_useWelcomeSeries;
     MISSING_TYPE *$__lazy_storage_$_useSearchInArticle;
+    MISSING_TYPE *$__lazy_storage_$_localOnboardingEnabled;
+    MISSING_TYPE *$__lazy_storage_$_featurePromotionEnabled;
 }
 
 - (void);
-- (void);
 - (id);
+- (void)!_ìS;
 
 @end
 

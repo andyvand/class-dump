@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -20,11 +20,11 @@
 - (struct CGSize);
 - (id);
 - (struct CGSize);
-- (id)eReferenceDate:(id)arg1;
-- (_Bool);
 - (id);
-- (id)isabled, don't set personal nickname after onboarding;
+- (id);
 - (void);
+- (id);
+- (_Bool);
 
 @end
 

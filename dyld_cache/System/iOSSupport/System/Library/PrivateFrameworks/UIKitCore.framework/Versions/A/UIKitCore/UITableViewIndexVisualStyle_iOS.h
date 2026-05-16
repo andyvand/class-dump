@@ -15,24 +15,24 @@
 
 + (id);
 - (void);
-- (double)n;
+- (double);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)es:(long long)arg1;
-- (double)pletionHandler: /* Error: Ran out of types for this method. */;
-- (void)PendingConversation;
-- (id)houldRelay:(id)arg1;
-- (double)k;
-- (void)emergeForPersonCentricID:(id)arg1;
-- (void)t:(long long)arg1;
-- (double)o unarchive for chat:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (void);
 - (id);
 - (double);
-- (void);
 - (void);
+- (void);
+- (double);
+- (double)UiStateTransitionProgress: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)tionShortcutIconTypeHome;
+- (void)ÐÔ§ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

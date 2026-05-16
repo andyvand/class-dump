@@ -9,9 +9,9 @@
     unsigned int _powerAssertion;
 }
 
+- (void);
 - (id);
-- (void)imeBase:anonymize: /* Error: Ran out of types for this method. */;
-- (id)er;
+- (id);
 
 @end
 

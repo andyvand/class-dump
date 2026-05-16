@@ -14,31 +14,31 @@
 }
 
 + (id);
-+ (id)t03AppA5SceneP;
-+ (id)eplink. This potentially causes an infinite loop.;
-+ (id)h;
++ (id);
++ (id)nceKeyP;
++ (id)kground;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)nBundle;
-- (void)ebDomains;
-- (void)eURL;
+- (void);
+- (id);
+- (void);
+- (id)sUsingCustomBackground;
+- (void)LÚ0GÆâ0y é0GGANGATGATGtGGG_Qo_AHyåÔ0GGtGGATGPNG_AAyAAyAQyACyAR_AAyPNrä0ySbGGtGGATGATGt;
+- (void)F¡'ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account;

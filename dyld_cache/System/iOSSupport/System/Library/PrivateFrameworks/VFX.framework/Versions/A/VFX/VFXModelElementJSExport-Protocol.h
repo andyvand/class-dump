@@ -7,7 +7,16 @@
 @class NSData;
 
 @protocol VFXModelElementJSExport
-- (float);
+- (float)};
+
+struct re_vfx_object_constants {
+    uint16_t render_options;
+    uint16_t perceptual_blending_mode;
+};
+
+#endif 
+;
+- (void)ystem;
 
 // Remaining properties
 @property(readonly, nonatomic) long long bytesPerIndex;

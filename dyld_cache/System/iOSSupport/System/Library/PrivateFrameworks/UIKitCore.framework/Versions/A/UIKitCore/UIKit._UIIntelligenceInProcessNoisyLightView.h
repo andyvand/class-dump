@@ -14,11 +14,10 @@
     MISSING_TYPE *lightView;
 }
 
-- (void);
 - (id);
-- (void)!Aù±Ä1¢!0@ù
-× ;
-- (id)bbleInteraction;
+- (void);
+- (id)PlayRadarTimeItemView;
+- (void)l;
 
 @end
 

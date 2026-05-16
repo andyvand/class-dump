@@ -5,8 +5,8 @@
 //
 
 @protocol _UISearchBarTextFieldOrMailReplacement
-- (void)
+- (void)1Â0@ù
 × ;
-- (void)ottom;
+- (void)gImages;
 @end
 

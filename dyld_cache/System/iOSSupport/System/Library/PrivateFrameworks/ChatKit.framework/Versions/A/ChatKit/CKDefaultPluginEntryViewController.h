@@ -17,27 +17,27 @@
     UIContextMenuInteraction *_contextMenuInteraction;
 }
 
-- (_Bool)lockQuoteBackgroundColor;
-- (_Bool)tDrawing;
-- (void)ntroller",W,N,V_insertionController;
-- (void)Set",R,C,N;
-- (_Bool)o;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)t;
+- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)CompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)hment;
-- (id)de the contents of your locked notes. The notes also lock with inactivity.;
-- (id)Notes;
-- (id)PasswordFirstTimeMessageCompletedKey;
-- (void)ys;
-- (void)\,;
-- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -49,18 +49,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (void)¨<ùÿ0EùÿSùÿÈVùÿÈ^ùÿ|tùÿ{ùÿô{ùÿØ|ùÿ¼}ùÿùÿùÿùÿLùÿ;
-- (struct CGSize)ìä;
-- (id);
-- (void) t¢0;
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void)!ûÐ!´GùQ1Â0@ù
+× ;
+- (void);
+- (id)form for %@ to disk.;
+- (void)9;
+- (id)EntryViewPlusButton;
 
 // Remaining properties
 @property(retain, nonatomic) CKBalloonView *balloonView; // @synthesize balloonView=_balloonView;

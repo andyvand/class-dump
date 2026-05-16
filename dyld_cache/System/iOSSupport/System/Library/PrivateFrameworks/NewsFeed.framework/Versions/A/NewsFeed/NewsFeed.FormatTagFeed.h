@@ -11,6 +11,8 @@
     MISSING_TYPE *identifier;
     MISSING_TYPE *fetchWindow;
     MISSING_TYPE *fetchCount;
+    MISSING_TYPE *_fetchRequirements;
+    MISSING_TYPE *_fetchFilterOptions;
 }
 
 @end

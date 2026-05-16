@@ -74,25 +74,25 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
+- (id);
+- (void);
 - (void);
 - (double);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
 - (double);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

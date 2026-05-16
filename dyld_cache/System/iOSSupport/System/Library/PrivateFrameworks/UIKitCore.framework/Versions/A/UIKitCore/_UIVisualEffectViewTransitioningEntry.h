@@ -13,18 +13,19 @@ __attribute__((visibility("hidden")))
     _UIVisualEffectViewEntry *_destinationEntry;
 }
 
-- (id);
+- (id);
 - (_Bool);
+- (id);
 - (void);
-- (void);
-- (void)(a;
-- (id)urceChanged:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ControllersWithSpineLocation:(id)arg1;
-- (void)nsaction;
-- (id)et;
-- (void)me of the collection view. Registrations should be created up front and reused. Registration:(id)arg1 %@;
-- (id)s;
-- (_Bool)|?;
+- (_Bool);
+- (id);
+- (void)±fÐ1Â0@ù
+× ;
+- (void)GroupedBackgroundColor;
+- (_Bool);
+- (void)imationImages;
+- (id)gLibrary(void);
+- (void)ScenePlacementP;
 
 @end
 

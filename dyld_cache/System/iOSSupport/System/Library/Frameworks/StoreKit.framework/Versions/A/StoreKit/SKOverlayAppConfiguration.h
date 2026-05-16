@@ -12,7 +12,7 @@
 {
 }
 
-- (void)P;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -27,11 +27,11 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void)�;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appIdentifier; // @dynamic appIdentifier;

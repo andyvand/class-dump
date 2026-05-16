@@ -23,23 +23,24 @@ __attribute__((visibility("hidden")))
     id <UIKBAutoFillTestGroundTruthGenerationViewControllerDelegate> _delegate;
 }
 
-- (id)FromConversation:toConversation: /* Error: Ran out of types for this method. */;
-- (void)Conversation:(id)arg1;
-- (void)er:(id)arg1 avModeChangedForConversation:(id)arg2 fromOldConversation: /* Error: Ran out of types for this method. */;
-- (long long)nManager:(id)arg1 avModeChangedForConversation:(id)arg2;
-- (long long)rsationManager:(id)arg1 addedActiveConversation:(id)arg2;
-- (void)ctivitySessionsChangedForConversation:(id)arg1 fromOldConversation:(id)arg2;
-- (void)tivitySessionsChangedForConversation:(id)arg1;
 - (id);
 - (void);
-- (void);
 - (void);
-- (void);
-- (void);
+- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)
+× ;
+- (void)Controller"b1"explicitlyShowsSearchResultsController"b1"searchFieldIsBeginningEditing"b1"hidesNavigationBarDuringPresentation"b2"shouldDeferSettingSearchSuggestions"b3"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"ignoresSearchSuggestionsForStackedSearch"b1"usesSearchSuggestionsMenuForStackedSearch"b1"hasPendingSuggestionMenuRefresh"b1"hasSuppressedSuggestionMenuBeforeHorizontalSizeClassChange"b1"wasShowingSuggestionsWhenChangedToInline"b1"isLayingOutNavigationBarToActivateInlineSearch"b1"isDismissingOrAboutToDismiss"b1"hasDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2"hideSearchResultsDivider"b1};
+- (void)"b1"needsDeferredUpdateWhileUpdatingState"b1"isPerformingDeferredUpdate"b1"nextLayoutIsForInitializingAnimation"b1"isPresentationGestureActive"b1"areClippingViewsUnnecessary"b1"inWillTransitionToTraitCollection"b1"inViewWillTransitionToSize"b1"inViewWillTransitionToSizeRecursingToChildren"b1"viewsLocked"b1"takingDestinationSnapshot"b1"registeredForKeyboardNotifications"b1"borderViewsObservingViewBackgroundColor"b1"updateLayoutRequested"b1"leadingTrailingWrapsNavigationController"b1"shouldDelegateNavigationBarForViewController"b1"isRunExpandScheduled"b1};
+- (void)`g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

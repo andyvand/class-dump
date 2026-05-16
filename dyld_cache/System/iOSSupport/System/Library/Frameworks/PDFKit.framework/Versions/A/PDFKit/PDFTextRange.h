@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void)AnchorConstraint;
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 
 @end
 

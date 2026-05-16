@@ -15,18 +15,18 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void)nusSet:(struct CGRect)arg1;
-- (unsigned int);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void)arePlayNotification_IPCActionWithXPCConnection:(unsigned long long)arg1 requestMessage:responseMessage:completionHandler: /* Error: Ran out of types for this method. */;
-- (void);
 - (struct CGRect);
-- (id)thObject:afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (unsigned int);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int sourceContextId; // @synthesize sourceContextId=_sourceContextId;

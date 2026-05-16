@@ -17,7 +17,7 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)d.;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *typeAheadSuggestions; // @synthesize typeAheadSuggestions=_typeAheadSuggestions;

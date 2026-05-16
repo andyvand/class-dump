@@ -7,7 +7,6 @@
 @class ASCAdamID, ASCViewMetrics;
 
 @protocol ASCViewModel
-- (ASCViewMetrics *)nd;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASCAdamID *id;

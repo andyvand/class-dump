@@ -21,7 +21,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -33,16 +33,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)rations;
 - (void);
 - (id);
 - (id);
-- (void), constant monitor visit count, %lu, output count, %lu;
+- (id)@ù
+× ;
+- (void)cause the learned visit was nil, location, %{sensitive}@, visit, %{sensitive}@, transition, %{sensitive}@;
+- (void)m %{sensitive}@, oldCandidate visit identifier, %@, oldCandidate mapItem identifier, %@;
+- (void), scheduledSendInProgress %d, cleanupConditionsMet %d, shouldBeCleanedUpDate %@;
+- (id)ng expiration date of place subgraph, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTAccountManager *accountManager; // @synthesize accountManager=_accountManager;

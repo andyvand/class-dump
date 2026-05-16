@@ -8,6 +8,7 @@
 @protocol SCUIInterventionViewControllerDelegate;
 
 @protocol SCUIInterventionContainer
+- (NSDictionary *)GyæG_hGyAKGtGGGGG_Qo_GG;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *contextDictionary;

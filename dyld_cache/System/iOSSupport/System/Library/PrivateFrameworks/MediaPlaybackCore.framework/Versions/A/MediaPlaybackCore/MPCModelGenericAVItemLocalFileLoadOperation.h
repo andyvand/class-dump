@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id)tIntoAccount:withStore: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)i %{public}@  â° added:%lld; removed:%lld; updated:%lld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;

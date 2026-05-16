@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
     _Bool _wantsAnimation;
 }
 
-- (void)ms:(struct CGContext *)arg1;
-- (void)}@:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)nil;
-- (_Bool)IView"8;
-- (id)ÿÕÿ,×\§];
+- (_Bool);
+- (void);
+- (void)enderingMode:(_Bool)arg1;
+- (void)pringAnimation;
+- (id)entKeyplaneName;
 
 // Remaining properties
 @property(nonatomic) _Bool wantsAnimation; // @synthesize wantsAnimation=_wantsAnimation;

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserActivity;
+@class NSUserActivity, UIScene;
 
 @protocol UISceneDelegate
 
 @optional
-- (void)I;
 - (void);
-- (NSUserActivity *)desRouteLabelWhenNoRouteChoice;
-- (void)reRecognizer;
-- (void)SwitchActiveGradient;
-- (void)taRanges must be nil or rects and deltaRanges must have the same amount of items;
-- (void)FramesQueryResult *> * _Nonnull _UIPinnedNonOverlappingFramesForContentFrameVisibleFrame(NSArray<_UICollectionLayoutFramesQueryResult *> *const __strong _Nonnull, CGRect, CGRect, BOOL);
-- (void)editor!;
-- (void)}+[;
+- (void)yAtIndex:(UIScene *)arg1;
+- (NSUserActivity *)thTintColor:(UIScene *)arg1;
+- (void)ngDecorationViewsForSession;
+- (void)ndingPathBitmapData decodeBitmapDataWithCoder(NSCoder *__strong);
+- (void)Xwz_Xx;
+- (void)ÒÊ;
 @end
 

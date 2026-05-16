@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id unpersonalizedLookupURL;

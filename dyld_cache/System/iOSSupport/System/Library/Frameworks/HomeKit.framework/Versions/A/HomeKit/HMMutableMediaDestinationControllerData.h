@@ -12,7 +12,7 @@
 {
 }
 
-+ (id)hStateForActionSetsResponse;
++ (id)amVideoResolutionQuality;
 - (id);
 
 // Remaining properties

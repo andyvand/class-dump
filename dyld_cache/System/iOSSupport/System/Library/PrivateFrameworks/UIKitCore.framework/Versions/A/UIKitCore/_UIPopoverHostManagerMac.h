@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_managerMap;
 }
 
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Ì¨;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

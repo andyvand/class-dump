@@ -20,15 +20,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (long long);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)KeyWithAuthData:completion: /* Error: Ran out of types for this method. */;
-- (id)ticReadPolicy>"8Q16^B24;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)à;
 
 // Remaining properties
 @property(retain, nonatomic) HFDemoModeFaceRecognitionDataSource *dataSource; // @synthesize dataSource=_dataSource;

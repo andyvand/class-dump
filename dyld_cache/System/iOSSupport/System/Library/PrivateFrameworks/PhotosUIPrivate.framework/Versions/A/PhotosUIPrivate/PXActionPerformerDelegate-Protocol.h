@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUndoManager, UIViewController;
+@class NSUndoManager, PXActionPerformer;
 @protocol PXMemoryAssetsActionFactory;
 
 @protocol PXActionPerformerDelegate
-- (NSUndoManager *)={CGPoint=dd}{CGSize=dd}}16;
+- (NSUndoManager *)ectionManager"24@0:(PXActionPerformer *)arg1 8@"PUPhotosGridBarsHelper"16;
 
 @optional
-- (UIViewController *);
-- (_Bool)!¨CùX1b0@ù
-× ;
-- (_Bool)xý·ÜQ;
+- (_Bool)nously;
+- (void)dinateSystems;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;

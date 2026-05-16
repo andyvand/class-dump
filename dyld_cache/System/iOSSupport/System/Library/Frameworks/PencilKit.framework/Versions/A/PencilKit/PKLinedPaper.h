@@ -10,10 +10,10 @@
     struct CGPoint _lineSpacing;
 }
 
-- (id);
-- (double)g;
-- (struct CGPoint);
+- (id);
+- (double);
 - (unsigned long long);
+- (struct CGPoint);
 - (_Bool);
 - (id);
 

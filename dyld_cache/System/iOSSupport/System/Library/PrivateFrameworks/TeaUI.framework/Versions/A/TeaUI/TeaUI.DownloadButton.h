@@ -27,12 +27,12 @@
 
 - (void);
 - (_Bool);
-- (void)A;
-- (void)",&,V_printers;
-- (id)ldBypassCache;
-- (void);
-- (id)tcher: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)>þÿõÿÿ;
 
 @end
 

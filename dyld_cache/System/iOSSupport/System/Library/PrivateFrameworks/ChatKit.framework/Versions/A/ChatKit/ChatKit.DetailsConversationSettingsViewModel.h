@@ -21,7 +21,7 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void)e>    </head>    <body id="editor">    </body></html>;
+- (void);
 - (void);
 
 @end

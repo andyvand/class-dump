@@ -13,13 +13,15 @@ __attribute__((visibility("hidden")))
     TIKeyboardCandidate *_source;
 }
 
-+ (id)rvices:(id)arg1 %@  limit:(id)arg2 %d;
++ (id);
 - (id);
-- (id);
-- (void);
-- (id)rnalFirstBaselineOffsetFromTop;
-- (id)@Z[;
-- (id)Û`;
+- (id)áÐ! BùQb1Â0@ù
+× ;
+- (id)
+× ;
+- (id)iguration",&,N,S_setSheetConfiguration:,V__sheetConfiguration /* Error: Ran out of types for this method. */;
+- (id),N,V_leadingBar;
+- (void)tationMode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *candidate;

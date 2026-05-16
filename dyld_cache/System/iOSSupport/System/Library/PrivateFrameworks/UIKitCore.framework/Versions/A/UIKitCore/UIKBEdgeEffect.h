@@ -16,30 +16,30 @@
     struct UIEdgeInsets _insets;
 }
 
-+ (id)Ôauð!0CùÑÉð1¢!0@ù
++ (id)Eù1[ð1Â0@ù
 × ;
-+ (id)ratingAnimations,V_generatingAnimations;
-- (void);
-- (_Bool);
++ (id)amp;
 - (_Bool);
 - (id);
-- (void)!0FùñÁÐ1¢!0@ù
+- (_Bool)1Â0@ù
 × ;
-- (_Bool)Ô ;
-- (_Bool):40:48@56@64@72Q80q88 /* Error: Ran out of types for this method. */;
-- (void)raggingSessionSource"16;
-- (double)te: /* Error: Ran out of types for this method. */;
-- (void)ovider;
-- (struct UIEdgeInsets)ocationsForSource: /* Error: Ran out of types for this method. */;
-- (void)ementalLexiconOperations;
-- (double),N,V_spacing;
-- (id)T@"UIVisualEffect",&,N,V_effect;
-- (id);
-- (struct CGColor *)túçÿúçÿÜúçÿ;
-- (id)fit;
-- (unsigned long long)xPath = %@;
-- (void);
-- (void)ÐÛH5g;
+- (_Bool)Connection: /* Error: Ran out of types for this method. */;
+- (void)ssalHandler:(id)arg1;
+- (struct UIEdgeInsets)ferredHeightForTraitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)arButtonSystemItem:(id)arg1 menu: /* Error: Ran out of types for this method. */;
+- (id)teSpace: /* Error: Ran out of types for this method. */;
+- (void)Entry;
+- (double)ertySource;
+- (id)@"_UIFocusMapRect",R,N,G_searchArea,V_searchArea;
+- (id)arTransitionAnimator;
+- (void)ion; configuration = %@;
+- (double)than 2 touches that are not ended or cancelled, so it cannot be used to start a drag;
+- (void)moving to foreground:(double)arg1 %@;
+- (void)ckground.inputShadowRadius;
+- (void);
+- (struct CGColor *);
+- (unsigned long long)tÚe;
+- (void)p>g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

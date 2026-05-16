@@ -13,18 +13,18 @@
     long long displayContext;
 }
 
-+ (void)oSingleLineA) != nil);
 + (void);
-+ (id)%1;
-- (void)emsPerSection:(CDUnknownBlockType)arg1 ` arrangedObjects.count should match the total number of items in each section in itemsPerSection and index should greater than 0 and less than arrangedObjects.count.;
-- (void)cked notes—just use your login password or Touch ID.;
-- (CDUnknownBlockType);
++ (void);
++ (id);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void);
 - (long long);
-- (id)!	;
+- (id);
+- (void)¸Ù;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC7ChatKit20CKCloudTipDescriptor *currentTipDescriptor; // @synthesize currentTipDescriptor;

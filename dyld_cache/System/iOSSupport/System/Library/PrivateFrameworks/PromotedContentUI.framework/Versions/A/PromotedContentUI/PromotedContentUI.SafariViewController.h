@@ -15,12 +15,12 @@
     MISSING_TYPE *actionDelegate;
 }
 
-- (id):(id)arg1 consumer:(_Bool)arg2;
+- (id);
 - (id);
 - (void);
-- (long long);
 - (void);
-- (void)ÈÓÿÿp¦ÿÿr¬ÿÿ(­ÿÿ;
+- (void);
+- (long long)êÿx+;
 
 // Remaining properties
 @property(nonatomic, readonly) long long preferredStatusBarStyle;

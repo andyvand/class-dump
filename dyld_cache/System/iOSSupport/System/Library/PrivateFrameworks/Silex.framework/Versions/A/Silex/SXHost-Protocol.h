@@ -5,6 +5,7 @@
 //
 
 @protocol SXHost
+- (_Bool)Position;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active;

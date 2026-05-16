@@ -8,15 +8,15 @@
 
 @interface NewsPersonalization.EventHistoryAggregateStoreStateModeResolver
 {
-    MISSING_TYPE *personalizationData;
     MISSING_TYPE *userEventHistoryAggregateStoreFactory;
     MISSING_TYPE *lazyMode;
 }
 
 - (id);
 - (id);
-- (void)9;
 - (id);
+- (void)Áeð!´Aù±sð1Â0@ù
+× ;
 
 @end
 

@@ -16,13 +16,13 @@
     MISSING_TYPE *_cachedTransitionView;
 }
 
-- (void);
-- (void);
-- (void)
+- (id);
+- (void)1^ð1Â0@ù
 × ;
-- (id)eyplane;
-- (void)<_UIDropInteractionOwning>",W,N,V_owner;
-- (void);
+- (void):(id)arg1;
+- (void)rderedSet",&,N,V_contentViews;
+- (void)Ô «^;
+- (void)p­l;
 
 @end
 

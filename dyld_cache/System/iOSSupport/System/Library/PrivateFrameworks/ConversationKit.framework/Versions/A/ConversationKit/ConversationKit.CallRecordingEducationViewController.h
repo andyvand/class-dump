@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void)+¢yë1¢yE G_Z;
 
 @end
 

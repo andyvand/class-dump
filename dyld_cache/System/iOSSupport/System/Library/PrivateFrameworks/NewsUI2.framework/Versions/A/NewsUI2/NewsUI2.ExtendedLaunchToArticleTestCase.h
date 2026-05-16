@@ -14,12 +14,12 @@
     MISSING_TYPE *articleLoadingStateMachine;
 }
 
-- (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)llowingInteractor:didEnqueueImpression /* Error: Ran out of types for this method. */;
-- (id);
+- (void)tu;
+- (id)Û;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

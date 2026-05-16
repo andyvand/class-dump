@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)ou must select a board to retrieve lists from.;
+- (id)e64 decode error;
 
 // Remaining properties
 @property(retain, nonatomic) ENWebResource *mainResource; // @synthesize mainResource=_mainResource;

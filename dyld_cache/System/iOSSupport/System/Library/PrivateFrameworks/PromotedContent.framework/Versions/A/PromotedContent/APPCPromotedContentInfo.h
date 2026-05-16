@@ -16,22 +16,22 @@
     _Bool placeholder;
 }
 
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (long long);
+- (void);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (long long)dgetResolver;
-- (void);
-- (long long);
 - (_Bool);
+- (void);
 - (CDUnknownBlockType);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long desiredPosition;

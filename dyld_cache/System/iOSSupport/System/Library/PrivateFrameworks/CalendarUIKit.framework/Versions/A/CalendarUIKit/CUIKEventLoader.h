@@ -42,7 +42,7 @@
     id <CUIKEventLoaderDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -61,20 +61,20 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void)@e;
 - (void);
-- (void)ageAlertController";
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)88@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80 /* Error: Ran out of types for this method. */;
-- (void)tionary;
 - (void);
-- (void)Shortcuts Automations To Be Enabled;
+- (void)abilityTitle: /* Error: Ran out of types for this method. */;
+- (void)eModelP;
+- (void)ModelTwoDayDisplaySettingChangedNotification;
 
 // Remaining properties
 @property(nonatomic) _Bool allowEventLocationPrediction; // @synthesize allowEventLocationPrediction=_allowEventLocationPrediction;

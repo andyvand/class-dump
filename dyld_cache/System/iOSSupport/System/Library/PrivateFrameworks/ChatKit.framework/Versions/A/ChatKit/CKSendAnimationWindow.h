@@ -12,11 +12,13 @@ __attribute__((visibility("hidden")))
     CKGradientReferenceView *_gradientReferenceView;
 }
 
-- (void);
 - (id);
-- (id);
-- (void) ;
-- (_Bool);
+- (id)Â0@ù
+× ;
+- (void)ù
+× ;
+- (_Bool)ô;
+- (void)èÄ;
 
 // Remaining properties
 @property(retain, nonatomic) CKGradientReferenceView *gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;

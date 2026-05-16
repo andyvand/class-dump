@@ -15,31 +15,32 @@
     unsigned long long _renderID;
 }
 
-+ (_Bool)½ ×ãqm;
++ (_Bool)port Document;
 - (CDStruct_39925896);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id)PartIndexes:editType:previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)setWasDisabledAutomatically: /* Error: Ran out of types for this method. */;
-- (id)anslatedText:(id)arg1;
-- (void)ts;
-- (void)%@;
-- (void);
-- (void);
-- (unsigned long long)zontalCompressionResistance: /* Error: Ran out of types for this method. */;
-- (_Bool)nks for itemid %lld. The file may have been empty.;
-- (void)stream;
-- (struct CGRect)tworkForPersistentID: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (unsigned long long)boardButtonStyle;
-- (unsigned int)e:debugName:attached: /* Error: Ran out of types for this method. */;
-- (id)tiOSMacUseNonacceleratedDelta:,V_iOSMacUseNonacceleratedDelta /* Error: Ran out of types for this method. */;
-- (unsigned int)animator;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (unsigned int);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (unsigned int)
+× ;
+- (_Bool)xFingerInfo:(id)arg1;
+- (struct CGRect)llBeginZooming:withView: /* Error: Ran out of types for this method. */;
+- (void)ToEndOfWord;
+- (void)è<p=Ì=P>;
+- (void)isplayMode:(unsigned int)arg1 ];
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;

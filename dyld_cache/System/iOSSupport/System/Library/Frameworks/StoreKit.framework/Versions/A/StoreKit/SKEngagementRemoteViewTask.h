@@ -27,26 +27,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)g;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)P;
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)WÍó9;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)sation messagesGroupUUID was added:(id)arg1 %@;
++ (id);
 - (struct CGRect);
 - (struct UIRectCornerRadii);
-- (unsigned long long)a;
+- (unsigned long long);
 - (unsigned int);
 
 // Remaining properties

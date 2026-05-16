@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void)=;
 - (void);
-- (void)(;
 - (void);
+- (void);
+- (void)tion:(id)arg1 currentWordRange:(id)arg2 newWordRange:reasonToStop: /* Error: Ran out of types for this method. */;
 
 @end
 

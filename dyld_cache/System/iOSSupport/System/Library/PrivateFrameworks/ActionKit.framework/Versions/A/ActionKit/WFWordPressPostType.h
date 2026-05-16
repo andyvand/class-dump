@@ -15,11 +15,11 @@
 
 + (id);
 + (id);
-+ (_Bool)ItemTitle} from ${WFCalendarItemStartDate} to ${WFCalendarItemEndDate} (Parameter Summary);
-- (void);
++ (_Bool);
 - (id);
 - (id);
 - (id);
+- (void)enumeration:localizedLabelForPossibleState:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

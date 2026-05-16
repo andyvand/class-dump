@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)orage:(id)arg1;
+- (id);
 - (long long);
 - (void);
 

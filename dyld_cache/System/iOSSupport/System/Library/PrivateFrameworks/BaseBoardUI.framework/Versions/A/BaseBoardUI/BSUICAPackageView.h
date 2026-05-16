@@ -19,22 +19,22 @@
     NSDictionary *_publishedObjectMap;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)r: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *publishedObjectNames;

@@ -29,8 +29,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ntentItem"8@16@?<v@?@>24;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *hostConfigs; // @synthesize hostConfigs=_hostConfigs;

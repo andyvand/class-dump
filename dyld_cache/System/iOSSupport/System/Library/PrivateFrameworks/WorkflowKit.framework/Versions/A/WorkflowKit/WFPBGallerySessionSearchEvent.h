@@ -13,21 +13,21 @@
 }
 
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)d.down.left;
-- (void).filter;
+- (_Bool)zÌ{¬|}}ì}T~À~(ü;
+- (void)th ID:(id)arg1 %@;
+- (void):] /* Error: Ran out of types for this method. */;
+- (id));
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;

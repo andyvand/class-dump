@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)rtistOrder;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *lyricsContent; // @synthesize lyricsContent=_lyricsContent;

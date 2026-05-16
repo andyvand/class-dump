@@ -12,7 +12,7 @@
 }
 
 - (long long);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long keyboardButtonStyle; // @synthesize keyboardButtonStyle=_keyboardButtonStyle;

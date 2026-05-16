@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
-- (_Bool);
-- (id);
++ (id)Ô ;
+- (id)¸O;
+- (_Bool)@È[;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOverflowItems;

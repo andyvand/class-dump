@@ -12,6 +12,7 @@
     MISSING_TYPE *puzzleHistoryService;
     MISSING_TYPE *puzzleService;
     MISSING_TYPE *puzzleStatsService;
+    MISSING_TYPE *gameMetricsStore;
 }
 
 @end

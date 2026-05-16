@@ -16,13 +16,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (unsigned long long)GBA8Uint:inputTexture_R8Unorm:descriptorBuffer:refinedKeypointsBuffer:cumulativeKeypointsPerRegionBuffer:intermediateBuffers:keypointCount: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
-- (void)án!ôFùÁÐ1¢!0@ù
-× ;
-- (id)nDescriptionMap;
-- (id)dView;
+- (unsigned long long);
+- (_Bool)ider;
+- (id)nt;
+- (void)'8Û;
+- (id)ä¨k;
 
 @end
 

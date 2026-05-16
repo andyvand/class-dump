@@ -5,12 +5,11 @@
 //
 
 @class MTLComputePipelineReflection, NSString;
-@protocol MTLDevice, MTLFunctionHandle;
+@protocol MTLDevice;
 
 @protocol MTLComputePipelineState
-- (id <MTLFunctionHandle>)4+;
-- (long long);
-- (_Bool)bility;
+- (_Bool);
+- (long long);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
@@ -18,7 +17,7 @@
 @property(readonly) NSString *label;
 @property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
 @property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerThreadgroup;
+@property(readonly) struct requiredThreadsPerThreadgroup;
 @property(readonly, nonatomic) long long shaderValidation;
 @property(readonly) unsigned long long staticThreadgroupMemoryLength;
 @property(readonly) _Bool supportIndirectCommandBuffers;

@@ -22,10 +22,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long)ForceAccInfoUpdateRelaySupport;
-- (_Bool)title;
-- (void);
-- (id)Custom recurrence ordinal picker, Shown in custom recurrence when specifying month pattern;
+- (unsigned long long);
+- (_Bool);
+- (void)saveSource:commit:error: /* Error: Ran out of types for this method. */;
+- (id)É;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool addDate; // @synthesize addDate=_addDate;

@@ -7,12 +7,6 @@
 @class NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor, UIView;
 
 @protocol UILayoutItem
-- (void)anifest check, missing required instances:(_Bool)arg1 %@;
-- (void)or instances %@;
-- (void);
-- (NSLayoutDimension *)SoundActionsUtils;
-- (NSLayoutYAxisAnchor *)alyzerCreating;
-- (NSLayoutXAxisAnchor *)2;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _ui_bounds;

@@ -29,21 +29,19 @@
     MISSING_TYPE *scrollViewEdgeOpacity;
 }
 
-- (struct CGRect)¸®í;
-- (void);
-- (id);
-- (void)@;
+- (struct CGRect);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)0@ù
-× ;
-- (void)!ÌFùñÃ1¢!0@ù
-× ;
-- (id)cToolbarItem",&,N,V_filterToolbarItem;
 - (struct CGPoint);
-- (_Bool);
+- (id);
+- (id)ryFoundItemHandler;
+- (void)ollPreventerDelegate>",W,N,V_delegate;
+- (void)ingEnabled;
+- (id)hat item, displaying empty tapback;
+- (void)oadAllDraftsInConversations:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)ì;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint center;

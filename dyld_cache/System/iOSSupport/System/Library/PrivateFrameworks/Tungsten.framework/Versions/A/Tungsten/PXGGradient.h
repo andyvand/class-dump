@@ -16,13 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long direction; // @synthesize direction=_direction;

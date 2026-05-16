@@ -52,7 +52,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)ACG;
+- (_Bool)rectangle.stack.badge.plus;
 
 // Remaining properties
 @property(nonatomic, setter=_setAudioSessionVolumeIncreaseDidOccur:) _Bool audioSessionVolumeIncreaseDidOccur; // @synthesize audioSessionVolumeIncreaseDidOccur=_audioSessionVolumeIncreaseDidOccur;

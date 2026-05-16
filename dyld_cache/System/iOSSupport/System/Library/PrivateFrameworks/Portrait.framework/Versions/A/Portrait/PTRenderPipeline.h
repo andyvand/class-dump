@@ -19,17 +19,17 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)LFunctionConstantValues";
 - (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (int);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)clÿXclÿcclÿkckÿsckÿ{ckÿckÿckÿckÿckÿ¥ckÿ­ckÿµckÿ½ckÿÅckÿÎckÿÖckÿÞdkÿædkÿïdlÿ÷dlÿÿdlÿ;
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long activeVersion;

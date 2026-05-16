@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id)4;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -36,7 +36,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) WBSCyclerProfileRepresentation *tabGroupsParent; // @synthesize tabGroupsParent=_tabGroupsParent;

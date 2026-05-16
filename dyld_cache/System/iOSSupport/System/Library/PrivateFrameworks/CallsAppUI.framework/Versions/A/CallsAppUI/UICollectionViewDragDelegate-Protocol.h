@@ -5,8 +5,5 @@
 //
 
 @protocol UICollectionViewDragDelegate
-
-@optional
-- (_Bool)GAOGG_AZQo_A1_AAyB1ÿÿAOGAQLaÈtGG|½èG¾ºèG;
 @end
 

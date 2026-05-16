@@ -7,14 +7,12 @@
 @class ACAccount, NSArray, NSString;
 
 @protocol FCAppleAccount
-- (void)¡;
-- (void);
-- (NSString *)tailViewStyler;
-- (NSString *)StocksUI/MainModule.swift;
-- (_Bool)on for a traded entity has gone down to a given value;
-- (NSString *)ÿÿÿXí;
-- (NSString *)Ä'ÑÿÝ6(ÑÿÍ6d(Ñÿ;
-- (NSString *);
+- (_Bool)ingCellBackgroundColor;
+- (NSString *)I£$Òçÿ;
+- (NSString *)ßÿ;
+- (long long)Mõ£1©;
+- (NSString *)}ÀÿÕ¥hÀÿÅ¥Àÿ;
+- (NSString *) P;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *DSID;

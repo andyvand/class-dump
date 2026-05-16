@@ -7,13 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (oneway void)lor: /* Error: Ran out of types for this method. */;
-- (_Bool)P;
-- (_Bool);
-- (_Bool);
-- (_Bool)raRight;
-- (id)e;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

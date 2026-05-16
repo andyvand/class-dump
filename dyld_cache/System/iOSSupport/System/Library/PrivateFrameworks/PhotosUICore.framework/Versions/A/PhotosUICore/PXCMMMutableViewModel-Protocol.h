@@ -7,13 +7,15 @@
 @class NSArray, NSDate, NSSet, NSString, NSURL, PXRecipient, PXSectionedSelectionManager;
 
 @protocol PXCMMMutableViewModel
-- (PXSectionedSelectionManager *)feringHUDAutomatically;
-- (NSDate *)riesLivingOnFeedback;
-- (NSURL *)teClose: /* Error: Ran out of types for this method. */;
-- (void);
-- (NSDate *)ion manager because data source manager is not of type PXPhotoKitAssetsDataSourceManager.;
-- (NSArray *)dddd}}32^B40;
-- (void)Implementation;
+- (void)â
+0@ù
+× ;
+- (void)tVideoPresentationController;
+- (long long)tem;
+- (NSString *)tandard;
+- (void)So22UIPanGestureRecognizerCSg;
+- (NSArray *)rror * _Nullable __strong))_block_invoke;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) _Bool containsUnverifiedPersons;

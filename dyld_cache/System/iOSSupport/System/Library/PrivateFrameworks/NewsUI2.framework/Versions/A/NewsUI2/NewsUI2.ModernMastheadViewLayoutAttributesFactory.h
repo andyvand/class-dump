@@ -11,6 +11,7 @@
     MISSING_TYPE *styler;
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *baseMastheadHeight;
+    MISSING_TYPE *baseMastheadHeightSafeAreaPadding;
     MISSING_TYPE *engagementBannerContentSpacing;
 }
 

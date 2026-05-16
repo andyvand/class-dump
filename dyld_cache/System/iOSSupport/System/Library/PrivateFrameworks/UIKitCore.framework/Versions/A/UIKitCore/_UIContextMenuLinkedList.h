@@ -15,16 +15,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)sim ID from %@ to %@;
-- (void)eding CK update T2 with limit %ld, attemptCount %lu;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id),V__rubberBandCoefficient;
-- (void)ÿn«þ;
-- (id)ide;
-- (id)45îÿS|
-d;
+- (void);
+- (id);
+- (id)mized:(id)arg1;
+- (id)buggingInformationHierarchyLineView;
+- (void);
+- (id)1d;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIContextMenuNode *current;

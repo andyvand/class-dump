@@ -14,20 +14,22 @@
     struct CGSize _size;
 }
 
-+ (_Bool)õl;
++ (_Bool))arg%ld;
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (struct CGSize);
+- (void)0@ù
+× ;
+- (void)!@ùqa°1Â0@ù
+× ;
+- (id);
+- (id)ronment>"@"UITraitCollection">24;
+- (void)ceView;
+- (void)",N,&,VstashedDismissalPivot;
+- (id)6@?0@"UIViewController"8;
 - (void);
-- (id)er: /* Error: Ran out of types for this method. */;
-- (void)ormView:(id)arg1;
-- (struct CGSize)ionWithControlPoints:::: /* Error: Ran out of types for this method. */;
-- (void)ostedScopeBarTopInsetForBarMetrics;
-- (id)ct;
-- (void)edDisplacement;
-- (id)1FJ\;
+- (void)ns;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;

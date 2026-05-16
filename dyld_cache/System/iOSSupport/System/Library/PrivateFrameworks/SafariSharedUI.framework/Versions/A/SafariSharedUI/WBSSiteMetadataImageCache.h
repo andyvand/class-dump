@@ -26,7 +26,7 @@
     id <WBSSiteMetadataImageCacheDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,7 +55,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,16 +68,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (long long)arget;
 - (void);
+- (id);
+- (long long);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)L:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak id <WBSSiteMetadataImageCacheDelegate> delegate; // @synthesize delegate=_delegate;

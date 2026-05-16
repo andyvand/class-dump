@@ -24,19 +24,19 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id);
 - (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long coreUISize; // @synthesize coreUISize=_coreUISize;

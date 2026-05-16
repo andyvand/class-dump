@@ -17,13 +17,14 @@
 + (id);
 + (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)>°!8@ù±?°1b0@ù
+- (void)¿Ð!¼Fù	°1â
+0@ù
 × ;
 
 // Remaining properties

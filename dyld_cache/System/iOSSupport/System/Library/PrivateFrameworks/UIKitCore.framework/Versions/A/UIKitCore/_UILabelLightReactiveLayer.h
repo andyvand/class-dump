@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)BarController:(struct CGContext *)arg1 interactionControllerForAnimationController: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

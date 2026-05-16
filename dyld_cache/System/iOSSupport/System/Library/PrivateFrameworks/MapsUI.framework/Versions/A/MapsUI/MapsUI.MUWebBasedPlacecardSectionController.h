@@ -74,19 +74,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (double);
 - (id);
 - (void);
-- (id)1b0@ù
-× ;
-- (_Bool)ØL;
-- (double)|Áýÿ ÁýÿÜÁýÿ(Âýÿ\ÂýÿÂýÿ´ÂýÿðÂýÿ<ÃýÿpÃýÿ¤ÃýÿÈÃýÿÄýÿPÄýÿÄýÿ¸ÄýÿÜÄýÿÅýÿdÅýÿÅýÿÌÅýÿðÅýÿ,ÆýÿxÆýÿ¬ÆýÿàÆýÿÇýÿ@ÇýÿÇýÿÀÇýÿôÇýÿÈýÿTÈýÿ ÈýÿÔÈýÿÉýÿ,ÉýÿhÉýÿ´ÉýÿèÉýÿÊýÿ@Êýÿ|ÊýÿÈÊýÿüÊýÿ0ËýÿTËýÿËýÿÜËýÿÌýÿDÌýÿhÌýÿ¤ÌýÿðÌýÿ$ÍýÿXÍýÿ|Íýÿ¸ÍýÿÎýÿ8ÎýÿlÎýÿÎýÿÌÎýÿÏýÿLÏýÿÏýÿ¤ÏýÿàÏýÿ,Ðýÿ`ÐýÿÐýÿ¸ÐýÿôÐýÿ@ÑýÿtÑýÿ¨ÑýÿÌÑýÿÒýÿTÒýÿÒýÿ¼ÒýÿàÒýÿÓýÿhÓýÿÓýÿÐÓýÿôÓýÿ0Ôýÿ|Ôýÿ°ÔýÿäÔýÿÕýÿDÕýÿÕýÿÄÕýÿøÕýÿÖýÿXÖýÿ¤ÖýÿØÖýÿ×ýÿ0×ýÿl×ýÿ¸×ýÿì×ýÿ ØýÿDØýÿØýÿÌØýÿ;
-- (_Bool)sArgs;
+- (id);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (id);
+- (void)dType:categoriesDisplayed:categorySelected: /* Error: Ran out of types for this method. */;
+- (_Bool)h>;
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC6MapsUI23MUPlaceActionDispatcher *actionDispatcher; // @synthesize actionDispatcher;

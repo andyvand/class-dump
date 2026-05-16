@@ -8,9 +8,9 @@
 {
 }
 
-- (_Bool)uid:(id)arg1 %@;
-- (id)ction;
-- (_Bool)p÷n;
+- (_Bool);
+- (id);
+- (_Bool)l#;
 
 @end
 

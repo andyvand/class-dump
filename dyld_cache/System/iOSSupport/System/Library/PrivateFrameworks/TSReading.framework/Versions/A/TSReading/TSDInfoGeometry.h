@@ -22,7 +22,7 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
@@ -43,26 +43,26 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)";
+- (id);
 - (id);
 - (id);
 - (struct CGAffineTransform);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGAffineTransform);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (struct CGSize);
+- (struct CGPoint);
+- (struct CGPoint);
+- (_Bool);
 - (double);
 - (id);
-- (struct CGSize);
 - (id);
-- (struct CGPoint)lic}@;
 - (id);
-- (struct CGPoint)¼.;
 
 // Remaining properties
 @property(readonly, nonatomic) double angle; // @synthesize angle=mAngle;

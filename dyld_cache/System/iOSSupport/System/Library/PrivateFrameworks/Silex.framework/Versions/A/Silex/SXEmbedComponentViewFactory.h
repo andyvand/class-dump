@@ -28,14 +28,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (id)icleHostViewControllerForArticle: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
 - (id);
-- (id);
-- (int)itionalObjectAnalysis;
+- (id);
+- (id);
+- (id);
+- (int);
+- (void)@0:8@"<SXActionActivityProvider>"16@"NSString"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;

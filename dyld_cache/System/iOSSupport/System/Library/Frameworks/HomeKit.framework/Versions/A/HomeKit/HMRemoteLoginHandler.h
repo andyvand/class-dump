@@ -21,8 +21,8 @@
     HMAccessory *_accessory;
 }
 
-+ (id)ting;
-+ (_Bool)ries;
++ (_Bool);
++ (id)ModelEntryForProductData:completion:] /* Error: Ran out of types for this method. */;
 
 @end
 

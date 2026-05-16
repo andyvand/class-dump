@@ -20,7 +20,7 @@
 - (int);
 - (int);
 - (void);
-- (void);
+- (void)nation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) PXLoadingStatusManager *loadingStatusManager; // @synthesize loadingStatusManager=_loadingStatusManager;

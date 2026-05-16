@@ -7,6 +7,7 @@
 @class NSDate, NSString;
 
 @protocol PUDisplayAssetCollection
+- (NSString *)Ä^áÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate;

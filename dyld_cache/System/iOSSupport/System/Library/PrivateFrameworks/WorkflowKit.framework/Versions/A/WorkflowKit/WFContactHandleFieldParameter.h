@@ -11,8 +11,8 @@
 }
 
 - (_Bool);
-- (id)É;
-- (Class)þLoü¸`'Ì;
+- (id);
+- (Class);
 - (void);
 
 // Remaining properties

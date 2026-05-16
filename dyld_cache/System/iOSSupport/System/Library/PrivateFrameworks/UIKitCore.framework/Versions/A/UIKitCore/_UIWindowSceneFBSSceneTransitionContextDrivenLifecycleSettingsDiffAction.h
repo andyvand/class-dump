@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (id)Ð!ì@ùQÍ°1¢!0@ù
+- (id)@ù
 × ;
+- (void)applicationDidEnterBackground;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

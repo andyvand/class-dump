@@ -26,7 +26,7 @@
     _Bool _coreGraphicsProxyingEnabled;
 }
 
-+ (id)ixedRealityCameraEnabled;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);

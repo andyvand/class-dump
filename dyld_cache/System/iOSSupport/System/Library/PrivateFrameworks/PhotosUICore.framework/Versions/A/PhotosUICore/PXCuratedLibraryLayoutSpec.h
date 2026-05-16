@@ -70,11 +70,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (double)l«x.;
-- (void);
-- (id);
-- (long long)lÌÂÿ;
-- (long long)Mé5;
+- (long long);
+- (double);
+- (id);
+- (void)=çÉ<-"ÿ;
+- (long long)-æ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCuratedLibrarySectionHeaderLayoutSpec *allPhotosFloatingHeaderSpec; // @synthesize allPhotosFloatingHeaderSpec=_allPhotosFloatingHeaderSpec;

@@ -88,28 +88,26 @@
 - (void);
 - (long long);
 - (void);
-- (double);
-- (void);
-- (double);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (double);
 - (id);
-- (id)mingFunction;
-- (void)AAydÅ#yQo_[!yM!SgGGACy!SgGG;
-- (void)to remove UICollectionView section/s that doesn't exist - Old datasource:(double)arg1 %@, New datasource:%@, Removed indexes:%@, Inserted indexes:%@ /* Error: Ran out of types for this method. */;
-- (void)idence:(long long)arg1 %@
-;
-- (_Bool)(NSString *__strong _Nonnull, NSString *__strong _Nonnull);
-- (id)re30LemonadeFixedShelvesDataSource;
-- (id)nPreview;
-- (long long)missalBlock;
-- (void)´4;
-- (struct UIEdgeInsets);
-- (void)ðN±ÿ¶O5;
-- (_Bool)£ÿ|
-Kñ5;
+- (void);
+- (void)imationsForTile:(id)arg1;
+- (void)AssetsForLibrary:(double)arg1 allowDuplicates:order:batchSize:atEnd: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double)fier;
+- (void);
+- (void)Éuÿ Å`;
+- (void);
+- (id)À5:ÿDc:ÿ4d:ÿH$a /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)­[Ë ÿ[Ë ÿ;
+- (void)ation;
+- (long long)î3;
+- (id)GJPha4;
+- (id)óµÿ:ÿ- /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXSecondaryToolbarActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;

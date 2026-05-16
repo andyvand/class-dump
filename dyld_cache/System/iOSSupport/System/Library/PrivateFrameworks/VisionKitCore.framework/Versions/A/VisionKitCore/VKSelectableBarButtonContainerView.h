@@ -23,23 +23,22 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (double);
-- (struct CGSize);
-- (_Bool);
-- (void)ü@&4Ì,
-;
-- (double)y_p;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)bytesPerRow: /* Error: Ran out of types for this method. */;
+- (double)ngMode;
+- (void)ectText;
+- (_Bool)¹;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

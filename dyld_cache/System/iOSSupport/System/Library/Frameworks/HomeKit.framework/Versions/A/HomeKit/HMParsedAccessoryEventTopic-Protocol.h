@@ -7,7 +7,7 @@
 @class NSUUID;
 
 @protocol HMParsedAccessoryEventTopic
-- (NSUUID *)onLost;
+- (NSUUID *)cessoryAccessCodeFetchResponseValueCodingKeyError;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accessoryEventTopicSuffixID;

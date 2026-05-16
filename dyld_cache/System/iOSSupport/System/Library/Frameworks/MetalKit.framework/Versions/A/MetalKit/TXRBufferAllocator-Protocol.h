@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TXRBuffer;
-
 @protocol TXRBufferAllocator
-- (id <TXRBuffer>)ki8hv;
 @end
 

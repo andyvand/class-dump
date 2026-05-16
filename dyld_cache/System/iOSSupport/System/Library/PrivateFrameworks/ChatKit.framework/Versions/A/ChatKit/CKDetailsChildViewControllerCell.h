@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
+- (id)te;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *childViewControllerView; // @synthesize childViewControllerView=_childViewControllerView;

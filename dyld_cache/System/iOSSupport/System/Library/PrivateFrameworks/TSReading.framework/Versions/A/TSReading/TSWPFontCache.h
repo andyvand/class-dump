@@ -17,8 +17,8 @@
 }
 
 + (id);
-+ (id)A;
 + (id);
++ (id)#È;
 - (id);
 - (id);
 - (id);
@@ -26,14 +26,14 @@
 - (id);
 - (struct __CTFont *);
 - (struct __CTFont *);
+- (id);
+- (unsigned long long);
+- (void);
 - (oneway void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long)gValue:incomingValue:sample:sampleCount: /* Error: Ran out of types for this method. */;
 
 @end
 

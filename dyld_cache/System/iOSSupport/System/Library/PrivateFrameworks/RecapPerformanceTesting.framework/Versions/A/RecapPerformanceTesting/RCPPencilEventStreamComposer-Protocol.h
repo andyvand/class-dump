@@ -5,6 +5,5 @@
 //
 
 @protocol RCPPencilEventStreamComposer
-- (void)N,V_finalSize;
 @end
 

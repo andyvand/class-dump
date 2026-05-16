@@ -7,6 +7,7 @@
 @class TSWPPadding;
 
 @protocol TSWPColumnMetrics
+- (TSWPPadding *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

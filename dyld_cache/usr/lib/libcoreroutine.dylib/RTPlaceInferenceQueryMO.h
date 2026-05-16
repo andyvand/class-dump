@@ -11,13 +11,13 @@
     RTMapItemMO *cachedMapItem;
 }
 
-+ (id);
 + (id);
-- (void):(id)arg1 address: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (id);
-- (void)terations, %lu, placeholderCollapseDistanceThreshold, %.3f, reverseGeocodeLeewayDistance, %.3f, unconcreteLOICollapseDistanceThreshold, %.3f, visitAdjacencyMergeThreshold, %.3f;
++ (id);
+- (void)?@"RTScenarioTrigger"@"NSError">24;
+- (id)tifier:addressIdentifier:isMe:wifiConfidence:wifiFingerprintLabelType: /* Error: Ran out of types for this method. */;
+- (void)panionLinkClient",&,N,V_client;
+- (id)ternal error in cluster selection (1).;
+- (void)@, options, %{sensitive}@, error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTMapItemMO *cachedMapItem; // @synthesize cachedMapItem;

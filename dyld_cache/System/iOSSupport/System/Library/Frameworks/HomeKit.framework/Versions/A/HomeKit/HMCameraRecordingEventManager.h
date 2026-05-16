@@ -15,7 +15,7 @@
     NSMapTable *_delegateCallersByObservers;
 }
 
-+ (id)Private;
++ (id)A;
 - (void);
 - (void);
 - (id);
@@ -29,17 +29,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (id)±¬Ð1B50@ù
+× ;
+- (void)ueEvent"b1};
+- (void)ü
+;
 
 // Remaining properties
 @property(readonly) HMCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;

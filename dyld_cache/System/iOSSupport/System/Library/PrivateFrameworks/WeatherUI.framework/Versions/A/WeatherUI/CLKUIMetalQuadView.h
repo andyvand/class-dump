@@ -65,17 +65,16 @@
 - (float);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (void)current time; X% chance of <type of precipitation> at now.
-Makes use of WeatherKit.Precipitation.accessibilityDescription(with:). Parameterized so that order can be locale specific. /* Error: Ran out of types for this method. */;
-- (CDStruct_d2b197d1) ;
-- (void)Ky;
-- (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
+- (CDStruct_d2b197d1);
+- (void);
+- (void)ö[;
+- (struct CGSize);
+- (void)ù>@½ù>gÓù>éù>µÿù>Ûú>,ú>)Bú>.Xú>Tnú>{ú>ú>°ú>¬Æú>±Üú>Hüú>¼û>Áû>Æ4û>ËJû>Ð`û>´vû>¹û>¾¢û>¢¸û>§Îû>äû>núû>Rü>W&ü>:<ü>Rü>hü>å}ü>§ü>©ü>n¿ü>0Õü>Xþü>Ö /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float aplFilterAmount; // @synthesize aplFilterAmount=_aplFilterAmount;

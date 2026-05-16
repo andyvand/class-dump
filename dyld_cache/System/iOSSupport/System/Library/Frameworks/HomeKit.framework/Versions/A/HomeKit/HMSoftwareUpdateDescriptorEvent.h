@@ -12,10 +12,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)CùÑ¨°1b0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) HMSoftwareUpdateDescriptor *descriptor; // @synthesize descriptor=_descriptor;

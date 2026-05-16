@@ -13,11 +13,11 @@
 }
 
 - (id);
+- (void);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

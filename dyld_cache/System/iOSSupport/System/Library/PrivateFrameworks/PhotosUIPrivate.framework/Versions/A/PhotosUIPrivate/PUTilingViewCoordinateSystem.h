@@ -15,11 +15,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (struct CGPoint);
 - (id);
-- (struct CGPoint)WÐ1b0@ù
-× ;
+- (void)_syndicationStateOverride;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint coordinateSystemOrigin;

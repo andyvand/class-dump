@@ -33,7 +33,7 @@
 - (struct CGPath *);
 - (long long);
 - (id);
-- (double)t;
+- (double);
 - (id);
 - (id);
 - (struct CGPoint);
@@ -44,16 +44,17 @@
 - (double);
 - (void);
 - (_Bool);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (int);
 - (_Bool);
 - (id);
-- (id);
-- (id)e_News_PersonalizationStorage_CompressedSessionEventTagFollowed;
-- (int);
-- (void)ath;
-- (struct CGSize)5Ú;
-- (void);
+- (void);
+- (void)ð
+Ü;
+- (struct CGSize)x;
 
 // Remaining properties
 @property(readonly, nonatomic) double maxScalar;

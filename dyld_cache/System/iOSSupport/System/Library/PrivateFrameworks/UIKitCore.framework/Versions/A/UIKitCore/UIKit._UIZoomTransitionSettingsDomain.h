@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)s;
-+ (id)ew;
-+ (Class)Ý¤þ;
 + (id);
++ (id)sUpdate;
++ (id)teSubviewOrder;
++ (Class);
 
 @end
 

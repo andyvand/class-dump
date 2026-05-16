@@ -15,23 +15,23 @@
 
 - (_Bool);
 - (void);
-- (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (int);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (int);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)@³;
 
 // Remaining properties
 @property(nonatomic) int changeType; // @synthesize changeType=_changeType;

@@ -5,7 +5,5 @@
 //
 
 @protocol AVTPBackendImageHandlingDelegate
-- (_Bool);
-- (void);
 @end
 

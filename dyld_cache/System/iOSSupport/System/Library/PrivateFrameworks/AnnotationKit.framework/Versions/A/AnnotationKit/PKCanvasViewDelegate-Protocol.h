@@ -5,11 +5,5 @@
 //
 
 @protocol PKCanvasViewDelegate
-
-@optional
-- (void)InvitationContext;
-- (void);
-- (void)DictionaryContext;
-- (void);
 @end
 

@@ -108,25 +108,23 @@
 - (void);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (struct CGRect);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void)Ô(Ð!(Fù=Ð1b0@ù
-× ;
-- (void)°1b0@ù
-× ;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, setter=_setPlaybackRequested:) _Bool _playbackRequested; // @synthesize _playbackRequested=__playbackRequested;

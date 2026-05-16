@@ -46,8 +46,8 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)tivityTypes:(id)arg1;
-+ (id)astActivitySheet;
++ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);

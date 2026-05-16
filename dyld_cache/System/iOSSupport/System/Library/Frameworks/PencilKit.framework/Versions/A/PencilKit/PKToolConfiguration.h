@@ -41,7 +41,7 @@
 
 + (id);
 + (id);
-+ (id)R";
++ (id);
 + (id);
 + (id);
 + (id);
@@ -56,11 +56,11 @@
 + (id);
 - (id);
 - (id);
-- (id)A�;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,13 +71,13 @@
 - (void);
 - (void);
 - (void);
-- (void)`;
 - (void);
 - (void);
 - (void);
-- (void)ures;
-- (void)/Gestures.framework/Versions/A/Gestures;
-- (void)stem/Library/PrivateFrameworks/Gestures.framework/Versions/A/Gestures;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (double);
@@ -85,14 +85,14 @@
 - (double);
 - (long long);
 - (id);
-- (void):parentToken: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (double)LSession:task:needNewBodyStream: /* Error: Ran out of types for this method. */;
-- (double)otalBytesSent:(double)arg1 totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
-- (id)ion:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
-- (id)nformationalResponse: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (double);
+- (double);
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -103,22 +103,21 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)riSessionDidEnterLatencyStateWithIntentSummary:(id)arg1;
+- (void);
+- (id);
+- (CDUnknownBlockType);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id)eReason;
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (void);
-- (void)er:(id)arg1;
-- (id)ore;
-- (CDUnknownBlockType)
-;
+- (id);
+- (void);
+- (id);
+- (void)fineController;
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *bandContourImage; // @synthesize bandContourImage=_bandContourImage;

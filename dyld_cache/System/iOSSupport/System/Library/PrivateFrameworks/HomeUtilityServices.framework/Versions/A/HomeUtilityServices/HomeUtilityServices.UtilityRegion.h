@@ -13,8 +13,8 @@
     MISSING_TYPE *shortName;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

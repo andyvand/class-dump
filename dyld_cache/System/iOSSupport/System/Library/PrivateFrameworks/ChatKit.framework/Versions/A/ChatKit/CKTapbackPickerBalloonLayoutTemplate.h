@@ -9,9 +9,9 @@
 }
 
 + (double);
-+ (double)m;
-+ (struct CGSize)ator Queue;
-+ (double)bleTextView adjustHeightConstraintToFitCurrentText:] /* Error: Ran out of types for this method. */;
++ (double);
++ (struct CGSize);
++ (double);
 + (double);
 + (double);
 + (double);

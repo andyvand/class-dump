@@ -11,12 +11,12 @@
     NSString *_messageText;
 }
 
-+ (_Bool)seFromDevice:wasCancelled:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)Ø;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;

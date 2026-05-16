@@ -35,10 +35,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isExtension) _Bool extension;

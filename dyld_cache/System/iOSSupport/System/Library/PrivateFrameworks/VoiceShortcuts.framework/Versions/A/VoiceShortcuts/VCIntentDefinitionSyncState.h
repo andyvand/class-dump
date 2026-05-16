@@ -17,11 +17,11 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *applications; // @synthesize applications=_applications;

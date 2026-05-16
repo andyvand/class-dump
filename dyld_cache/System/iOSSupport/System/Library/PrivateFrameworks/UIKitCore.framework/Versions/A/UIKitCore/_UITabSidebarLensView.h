@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id)ng deferred resolve %@;
-- (void)¼­þÿò[þÿ
-#ÿÿºÿÿ#ÿÿr"ÿÿ#ÿÿøhþÿ#ÿÿ;
+- (_Bool)0@ù
+× ;
+- (id)ect:(struct CGRect)arg1 withFont:lineBreakMode:alignment:lineSpacing: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

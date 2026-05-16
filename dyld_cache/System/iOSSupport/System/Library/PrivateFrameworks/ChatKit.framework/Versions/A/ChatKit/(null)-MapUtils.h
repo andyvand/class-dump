@@ -6,7 +6,7 @@
 
 @interface (null) (MapUtils)
 + (id);
-- (_Bool)í;
-- (void)ideo_play;
+- (_Bool);
+- (void);
 @end
 

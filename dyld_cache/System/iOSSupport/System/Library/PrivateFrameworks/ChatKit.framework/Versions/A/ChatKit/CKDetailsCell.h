@@ -17,16 +17,16 @@
 - (id);
 - (void);
 - (void);
-- (void)17OS_dispatch_queueCGShyA0_GG;
 - (void);
-- (_Bool)tem;
-- (_Bool)otes.folder;
-- (void)ion:(_Bool)arg1 %@, fromValue:%@, toValue:%@, color:%@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
-- (void)e in TextKit 2;
-- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (void)@;
+- (void);
+- (void);
+- (id)eparingPresentationOfAppCard;
 - (void);
 
 // Remaining properties

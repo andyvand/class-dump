@@ -16,35 +16,35 @@
     long long _requestType;
 }
 
++ (id);
++ (void);
 + (void);
 + (void);
 + (_Bool);
 + (id);
 + (void);
-+ (void)5;
-+ (id);
 - (void);
 - (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (double);
 - (id);
-- (void)text;
-- (void);
-- (void)es":(id)arg1 1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"generalTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":100000,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)edMembersFamilyName;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void)llDateFormatter;
 
 // Remaining properties
 @property(retain) NSThread *clientThread; // @synthesize clientThread=_clientThread;

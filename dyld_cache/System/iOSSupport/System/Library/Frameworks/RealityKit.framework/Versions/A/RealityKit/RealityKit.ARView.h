@@ -66,22 +66,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (double);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double contentScaleFactor;

@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (_Bool);
+- (id);
+- (_Bool)udioMixParameters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFavorite) _Bool favorite; // @synthesize favorite=_favorite;

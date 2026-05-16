@@ -10,17 +10,16 @@
     _Bool _waitForCompleteClusters;
 }
 
-- (void)cy acknowledgement.;
-- (void)ic}@;
-- (void)ent = %{public}@;
-- (void)cy acknowledgement. account = %{public}@ | privacyAcknowledgement = %{public}@;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)A6Ð! GùQ<Ð1¢!0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool waitForCompleteClusters; // @synthesize waitForCompleteClusters=_waitForCompleteClusters;

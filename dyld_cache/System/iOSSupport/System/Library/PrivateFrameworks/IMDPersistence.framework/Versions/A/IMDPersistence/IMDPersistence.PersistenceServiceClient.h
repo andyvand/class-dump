@@ -14,9 +14,9 @@
 
 - (id);
 - (void);
-- (void)u;
-- (id)ineDividerVisibleInCompactSize;
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <IMDPersistenceService> remoteProxy;

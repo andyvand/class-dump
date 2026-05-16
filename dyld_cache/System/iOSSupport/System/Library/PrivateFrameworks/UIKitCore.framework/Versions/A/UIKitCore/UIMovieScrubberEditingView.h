@@ -21,11 +21,11 @@
     double _edgeInset;
 }
 
-- (_Bool)SNumber",&,N,V_groupParticipantVersion;
-- (_Bool)"NSNumber",&,N;
-- (int)Ӡ>2Sg;
-- (void)sabled by server bag;
-- (struct CGRect)nd chat for %@ to reply;
+- (_Bool);
+- (_Bool);
+- (int);
+- (void);
+- (struct CGRect);
 - (id);
 - (double);
 - (struct CGRect);
@@ -33,13 +33,12 @@
 - (double);
 - (void);
 - (void);
-- (void)
-× ;
-- (void)ex;
-- (void)ReduceMotionEnabled,S_setReduceMotionEnabled:(_Bool)arg1;
-- (id)tomizableClassInfo"8;
-- (_Bool)b-h;
 - (_Bool);
+- (void)rLaterCoordinatedFlush:(_Bool)arg1;
+- (void)dViewConstraints;
+- (id)extentRangeForDocumentState;
+- (_Bool)ôÿd;
+- (void)9e;
 
 // Remaining properties
 @property(nonatomic) double edgeInset; // @synthesize edgeInset=_edgeInset;

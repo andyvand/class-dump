@@ -9,7 +9,7 @@
     _Bool _forceEnable;
 }
 
-+ (_Bool);
++ (_Bool)4@?0@"NSNumber"8@"NSNumber"16;
 - (_Bool);
 - (struct __CVBuffer *);
 - (void);

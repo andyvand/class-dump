@@ -9,8 +9,8 @@
     _Bool _isEnabled;
 }
 
+- (_Bool);
 - (void);
-- (_Bool)(;
 
 // Remaining properties
 @property _Bool isEnabled; // @synthesize isEnabled=_isEnabled;

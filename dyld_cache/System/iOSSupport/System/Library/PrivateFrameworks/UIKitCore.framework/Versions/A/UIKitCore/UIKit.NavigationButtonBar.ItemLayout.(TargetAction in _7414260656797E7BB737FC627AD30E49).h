@@ -12,9 +12,8 @@
 }
 
 - (void);
-- (void)
-× ;
-- (id)ventSourceForUITouchType: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)'kÐ$l;
 
 @end
 

@@ -42,14 +42,14 @@
 - (MISSING_TYPE *);
 - (unsigned char);
 - (id);
-- (float);
 - (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
 - (id);
 - (_Bool);
+- (id);
+- (struct CGSize);
+- (float);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha; // @synthesize alpha=_alpha;

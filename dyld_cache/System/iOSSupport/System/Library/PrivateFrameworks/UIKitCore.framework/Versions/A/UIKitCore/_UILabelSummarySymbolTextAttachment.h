@@ -19,13 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (double)ocessInputString:forElement: /* Error: Ran out of types for this method. */;
-- (void)ist Header;
-- (id)@;
-- (void);
+- (double);
+- (id)0;
+- (void)eSessionMap]_block_invoke;
+- (_Bool)¢.3GG´.3y	.3y+¾7GGGAByAByACÓ.3GAJGG;
+- (void)V-²ïï?;
+- (void)øÿ÷ÙHb`;
+- (id)wÿ®vñ;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *font;

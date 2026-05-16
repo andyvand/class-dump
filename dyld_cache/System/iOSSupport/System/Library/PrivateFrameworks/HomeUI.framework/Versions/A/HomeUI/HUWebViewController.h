@@ -25,21 +25,21 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
+- (_Bool);
 - (void);
 - (id);
+- (void);
+- (void)rySettingsItemModuleController"16@"HFAccessorySettingGroupItem"24;
+- (void)peRotationDirection;
+- (void)lculated at init time, the 'Hey Siri' Voice Profile for %@ already exists, will skip %@;
+- (id)];
+- (void)y/BuildRoots/4~CNz6ugBPGLsSM0AdSVFPRIZVgttE0sIZBBApmNI/Library/Caches/com.apple.xbs/TemporaryDirectory.pCB1MA/Sources/Home/HomeUI/AccessoryList/ViewControllers/TriggerActionPickerViewController+ConvertToShortcut.swift;
+- (_Bool)ÿM!¤|ÿ;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)V¥ÿ;
-- (_Bool)tifier;
-- (void)LanguageMismatch_FinePrint;
-- (void)Menu_More_Title;
-- (_Bool)t;
-- (void):(_Bool)arg1 8@"HUEmbeddedTriggerActionSetGridViewController"16@24;
-- (void)r;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

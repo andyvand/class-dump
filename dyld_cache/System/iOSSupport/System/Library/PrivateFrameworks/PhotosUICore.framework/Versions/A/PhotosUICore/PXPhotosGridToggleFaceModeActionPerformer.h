@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)yH
-Ö9;
+- (id)	
+;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *activitySystemImageName;

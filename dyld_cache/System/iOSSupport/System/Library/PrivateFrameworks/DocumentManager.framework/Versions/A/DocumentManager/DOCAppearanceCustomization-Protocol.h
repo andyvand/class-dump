@@ -7,7 +7,6 @@
 @class DOCAppearance;
 
 @protocol DOCAppearanceCustomization
-- (DOCAppearance *);
 
 // Remaining properties
 @property(readonly) DOCAppearance *effectiveAppearance;

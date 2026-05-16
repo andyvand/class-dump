@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)operation unsupported.;
++ (id);
 + (id);
 
 @end

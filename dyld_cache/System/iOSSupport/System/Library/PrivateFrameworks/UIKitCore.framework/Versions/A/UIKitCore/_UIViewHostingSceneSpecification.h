@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ting sealing manifest;
-- (Class)sArrayToCopy is NULL;
+- (id);
+- (Class);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 @end
 

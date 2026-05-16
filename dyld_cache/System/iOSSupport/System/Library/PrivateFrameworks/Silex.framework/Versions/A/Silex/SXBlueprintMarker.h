@@ -22,10 +22,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (struct CGPoint);
+- (id);
+- (void)Storage";
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint approximateLocation; // @synthesize approximateLocation=_approximateLocation;

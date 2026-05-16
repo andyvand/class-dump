@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)ons;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

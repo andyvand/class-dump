@@ -18,24 +18,24 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)@88@96@104@112B120;
-- (id)16@24;
-- (void)48@56;
-- (id)4@0:8@"BMStoreEvent"16 /* Error: Ran out of types for this method. */;
-- (id)SQLDatabase";
-- (id)cationSecondsSinceReferenceDate"b1"highlightType"b1"rank"b1"isConversationAutoDonating"b1"isPrimary"b1};
-- (unsigned long long)32@40@48;
-- (id)^@24;
-- (id)hStreamIdentifier:(id)arg1 remoteName:error: /* Error: Ran out of types for this method. */;
-- (id)tRemaining:(id)arg1;
-- (id)icationID:(id)arg1;
-- (id)entifier:(id)arg1;
-- (void)oupID resulting participants %@ ;
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (CDUnknownBlockType);
-- (id)_volumeUpButtonTouchDown: /* Error: Ran out of types for this method. */;
-- (void)usicPlayerController.;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)R,N,V_queueEndAction;
 
 // Remaining properties
 @property(retain, nonatomic) ITLibrary *itLibrary; // @synthesize itLibrary=_itLibrary;

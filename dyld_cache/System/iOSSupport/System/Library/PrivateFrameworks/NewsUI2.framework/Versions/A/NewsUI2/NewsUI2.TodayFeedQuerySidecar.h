@@ -18,7 +18,7 @@
 }
 
 - (_Bool);
-- (id)iftSwiftOnoneSupport.dylib;
+- (id);
 - (id);
 - (id);
 

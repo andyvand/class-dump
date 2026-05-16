@@ -13,14 +13,14 @@
 
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void)tion;
 
 // Remaining properties
 @property(readonly, copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;

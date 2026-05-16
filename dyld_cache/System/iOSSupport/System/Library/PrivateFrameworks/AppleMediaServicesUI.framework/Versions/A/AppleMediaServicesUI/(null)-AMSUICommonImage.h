@@ -12,6 +12,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (double);
 @end
 

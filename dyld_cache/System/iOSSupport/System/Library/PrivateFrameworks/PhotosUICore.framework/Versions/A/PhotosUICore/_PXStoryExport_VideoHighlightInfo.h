@@ -24,11 +24,10 @@
 - (id);
 - (void);
 - (CDStruct_273850af);
-- (void)¬Ö0e;
-- (id)áu°!ÈCùzÐ1b0@ù
-× ;
-- (id)thumbnailVideoDurationAttributedString:layoutDirection:sizeClass: /* Error: Ran out of types for this method. */;
-- (void)storage_$_searchBar;
+- (id);
+- (void);
+- (id)Sâñÿ_pSgIeyBy_;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

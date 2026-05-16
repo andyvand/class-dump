@@ -12,9 +12,9 @@
     MISSING_TYPE *puzzleImageShareAttributeProvider;
 }
 
-- (id)ng dynamic operation without starting a new one;
-- (void)stringWithFormat: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void)ñþõO:lñþõO:°wþõO:Pè$ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) LPLinkMetadata *linkMetadata;

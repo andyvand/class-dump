@@ -9,11 +9,9 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)ionInternal>"16@0:(UIGestureRecognizer *)arg1 8;
-- (_Bool)`p;
-- (_Bool).×ûÿ Lùÿ;
-- (_Bool)aµµ'ÅÿQµµdOÿ;
-- (_Bool)´Þ;
-- (_Bool);
+- (_Bool)Config;
+- (_Bool)ipelineProcessor;
+- (_Bool)er=%{public}@;
+- (_Bool):(UIGestureRecognizer *)arg1 ,y;
 @end
 

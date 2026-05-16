@@ -107,6 +107,9 @@ struct _HMResidentCapabilitiesStruct {
     unsigned int supportsHomeActivityState:1;
     unsigned int supportsUWBUnlock:1;
     unsigned int supportsNativeMatterPlugin:1;
+    unsigned int supportsHKSV3:1;
+    unsigned int supportsHEVC:1;
+    unsigned int supportsDedicatedStatusChannel:1;
 };
 
 struct _NSRange {

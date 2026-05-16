@@ -9,13 +9,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)umContent: /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
-- (void)InputModesForSiriLanguage:(id)arg1;
-- (id)Mode;
-- (_Bool)IndexPath;
-- (_Bool)ry;
-- (void)Recognizer;
+- (void)1_1Â0@ù
+× ;
+- (_Bool);
+- (void)Äþ¤þÿ;
+- (id)com.apple.uikit.pasteboard-detection-pattern.number;
+- (_Bool)lue;
 
 @end
 

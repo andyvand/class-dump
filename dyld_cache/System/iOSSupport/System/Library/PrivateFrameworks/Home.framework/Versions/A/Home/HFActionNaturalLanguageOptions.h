@@ -28,8 +28,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)rviceBuilderItem.m;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accessoryCountType; // @synthesize accessoryCountType=_accessoryCountType;

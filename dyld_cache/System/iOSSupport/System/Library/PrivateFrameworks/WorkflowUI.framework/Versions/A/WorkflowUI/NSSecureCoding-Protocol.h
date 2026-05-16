@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)_ACyAdOh#yAhDGGACyAdByF<yAGyAhIGqaG_AXtGADGACyAD®CyAEyUDyARyA2HGG$ySbGG_ÌÄÈQo_ADGSgACyADzCyA_yAHG_ýNQo_ADGtGG_So24WFWorkflowImportQuestionCáÅÈQo__h>þÿARyARyAyï@y>þÿ_Qo__SSQo_Ay`>þÿ_SSQo_GADGQo__;y;Cy]AyByAEynL1#y3%GG_Qo__SSQo__I>y_:yytA_y·<GGQo_Qo_GQo_ /* Error: Ran out of types for this method. */;
 @end
 

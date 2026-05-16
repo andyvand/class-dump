@@ -7,6 +7,7 @@
 @class CLLocation, NSDate;
 
 @protocol PXMetadataAsset
+- (CLLocation *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool cloudIsDeletable;

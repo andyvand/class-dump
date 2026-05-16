@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void)\Êï;
+- (void)for pageInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

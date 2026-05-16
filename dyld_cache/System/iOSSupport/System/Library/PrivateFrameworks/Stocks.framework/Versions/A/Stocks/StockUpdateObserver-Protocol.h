@@ -5,9 +5,5 @@
 //
 
 @protocol StockUpdateObserver
-
-@optional
-- (void)|l;
-- (void)`H|l;
 @end
 

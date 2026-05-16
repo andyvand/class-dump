@@ -12,8 +12,8 @@
 {
 }
 
-- (oneway void);
 - (void);
+- (oneway void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

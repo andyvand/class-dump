@@ -13,9 +13,9 @@
     NSString *_sessionIdentifier;
 }
 
-- (id)@"<BMBookmark>"16;
-- (void);
-- (id)tManager setNowPlayingIdentifiers:] nowPlayingIdentifiers cannot be nil. /* Error: Ran out of types for this method. */;
+- (id);
+- (void)@"NSString",&,N,V_lyricsContent;
+- (id)ationDurationUserInfoKey;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;

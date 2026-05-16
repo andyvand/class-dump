@@ -35,18 +35,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool ignoreHierarchicalLayers; // @synthesize ignoreHierarchicalLayers=_ignoreHierarchicalLayers;

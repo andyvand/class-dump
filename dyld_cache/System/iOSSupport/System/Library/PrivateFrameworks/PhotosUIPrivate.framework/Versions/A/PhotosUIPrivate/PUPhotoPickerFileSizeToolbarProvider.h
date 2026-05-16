@@ -32,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)onManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

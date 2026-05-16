@@ -7,9 +7,11 @@
 @class UIFont;
 
 @protocol UIButtonDeprecatedAPISupportingVisualProvider
-- (UIFont *)Z;
-- (_Bool)ry",&,N,V_finalAlphas;
-- (void)xtSelection;
-- (struct CGSize)We're considering the collapse unintentional and using standard height instead. Cell:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)]Ð1Â0@ù
+× ;
+- (void)ayoutAxis;
+- (UIFont *)¼);
+- (void)UISplitViewController, %@;
+- (long long)the navigation bar (activeLayout is nil with non-nil inactiveLayout). ;
 @end
 

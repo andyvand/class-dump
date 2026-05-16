@@ -15,22 +15,22 @@ __attribute__((visibility("hidden")))
     UITapGestureRecognizer *_underlineTap;
 }
 
-- (id)exists in sealing map entry;
-- (void);
-- (void);
-- (void)s:(id)arg1 releaseBlock: /* Error: Ran out of types for this method. */;
-- (void)D;
 - (id);
 - (void);
-- (_Bool)
-× ;
-- (id)suggestionWithLocalizedSuggestion:descriptionString:iconImage: /* Error: Ran out of types for this method. */;
-- (id)stomAnimationsProvider:(id)arg1;
 - (void);
-- (void)ortsCustomizablePlacements;
-- (id)%þÿhþÿX%þÿ;
-- (void)p¼þ;
-- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void)Áð!üBù1b1Â0@ù
+× ;
+- (void)elAuthenticationChallenge:(id)arg1 fromDataSource: /* Error: Ran out of types for this method. */;
+- (id)ationCompositeViewIncludingForeground:(id)arg1;
+- (_Bool)esForType:(id)arg1 createIfNeeded:(id)arg2;
+- (id)dd}{CGSize=dd}},N,V_snapshotFrame;
+- (id)adientView;
+- (void)layers %p to nil.;
+- (void)ÿ;
+- (void)`03tSg;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

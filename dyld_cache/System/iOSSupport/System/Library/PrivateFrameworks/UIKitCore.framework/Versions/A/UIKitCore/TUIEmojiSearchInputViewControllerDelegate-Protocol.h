@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextField;
+
 @protocol TUIEmojiSearchInputViewControllerDelegate
-- (void)R	;
-- (void);
+- (void)
+× ;
+- (void)sentationView:(UITextField *)arg1 action: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)w9DebugView;
 
 @optional
-- (void)ew;
+- (void);
 @end
 

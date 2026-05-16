@@ -15,25 +15,27 @@ __attribute__((visibility("hidden")))
     struct CGSize _maxContentSize;
 }
 
-- (void):(id)arg1;
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (long long);
-- (void);
+- (id);
+- (id);
 - (struct CGSize);
 - (void);
-- (void)leMultiplier:(id)arg1;
-- (id)pInsideSendMomentButton: /* Error: Ran out of types for this method. */;
-- (double)=;
-- (struct CGSize)teAppWithIdentifier id %@;
-- (struct UIEdgeInsets)i;
-- (void)¬,¨;
-- (double)9L¿qê;
-- (id);
-- (id)4,;
+- (double);
+- (struct UIEdgeInsets)ð!´Fù±1Â0@ù
+× ;
+- (double)þð!@Gù11Â0@ù
+× ;
+- (struct CGSize)xtViewWritingToolsDidEnd:(id)arg1;
+- (long long)achedToCellsForBoundsChange:(id)arg1;
+- (void)ulge;
+- (void)re update;
+- (void);
+- (id)QÎ;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

@@ -11,15 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)l end-to-end encrypted.
-
-Set a login password to protect locked notes on this Mac.;
-+ (id)tionSetDevicePasswordInfoPresentedAt;
 + (id);
-- (void)_135534566;
-- (_Bool)queue;
-- (_Bool)gistrar;
-- (_Bool)ples;
++ (id);
++ (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
 
 @end

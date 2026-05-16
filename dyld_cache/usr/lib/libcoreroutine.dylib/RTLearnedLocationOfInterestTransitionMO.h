@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (id);
-+ (id)chÜ;
++ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;

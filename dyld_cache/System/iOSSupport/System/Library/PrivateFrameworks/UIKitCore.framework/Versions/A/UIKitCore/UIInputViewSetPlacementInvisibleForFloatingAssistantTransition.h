@@ -13,13 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)tionCreated;
+- (id);
 - (_Bool);
 - (struct CGAffineTransform);
-- (double)Model response invalid before completion;
-- (_Bool)P;
-- (void)0@ù
-× ;
+- (_Bool)`;
+- (double);
+- (void)Øg;
 
 @end
 

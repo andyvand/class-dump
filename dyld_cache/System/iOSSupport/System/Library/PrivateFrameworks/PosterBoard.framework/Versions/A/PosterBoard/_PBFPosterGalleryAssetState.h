@@ -45,9 +45,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)erExtensionStoreCoordinator _accessLock_createModelStoreCoordinator:posterUUID:descriptorIdentifier:role:error:] /* Error: Ran out of types for this method. */;
-- (void)OADABLE;
+- (void)¿Ð!È@ù	1â
+0@ù
+× ;
+- (_Bool)Ó5;
+- (void)%{public}@ setting bundle %{public}@ (was:(_Bool)arg1 %{public}@);
 
 // Remaining properties
 @property(readonly, nonatomic) PBFPosterGalleryAsset *asset; // @synthesize asset=_asset;

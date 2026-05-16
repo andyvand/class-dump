@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -26,18 +26,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void)`b;
 - (_Bool);
 - (void);
-- (void)A;
+- (_Bool);
 - (void);
-- (id)B;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (unsigned long long)¸@üEz´H{\L| O}W~Z[l_a;
+- (unsigned long long);
+- (void)0 ô0
+Tø;
+- (id)at idx %lu;
 
 // Remaining properties
 @property(nonatomic) long long coalesceCount; // @synthesize coalesceCount=_coalesceCount;

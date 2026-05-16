@@ -16,23 +16,25 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)oStreamAnalyzer init];
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id)0;
-- (id);
-- (struct CGRect);
-- (void);
-- (id)h^Ô^,_`ì`0aÀa;
-- (id);
-- (void)CHHapticPatternLibraryKeyKeyboardDeletionRepeat;
-- (_Bool)lGesture;
-- (void);
 - (_Bool);
+- (id);
+- (id);
+- (void)
+× ;
+- (id)1aÐ1Â0@ù
+× ;
+- (id)age"[256c]"quietModeName"[256c]};
+- (struct CGRect)visibleSupplementaryViewsOfKind: /* Error: Ran out of types for this method. */;
+- (id)splacement:reuseViewIfPossible:willDisplay: /* Error: Ran out of types for this method. */;
+- (void)Àºþÿºíîÿóîÿíîÿ;
+- (_Bool)Saturation;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)layTimer: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) AMSUIWebClientContext *context;

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)%ld, Error:(_Bool)arg1 %@;
+- (id);
+- (void);
 - (_Bool);
-- (void)¶;
 
 @end
 

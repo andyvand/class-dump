@@ -21,11 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (void);
 - (id);
-- (void);
-- (id)mpletion: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id);
+- (void)1B50@ù
+× ;
+- (void)ickingMode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *authorizationURLs; // @synthesize authorizationURLs=_authorizationURLs;

@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PFServerPosterPath *activePath; // @synthesize activePath=_activePath;

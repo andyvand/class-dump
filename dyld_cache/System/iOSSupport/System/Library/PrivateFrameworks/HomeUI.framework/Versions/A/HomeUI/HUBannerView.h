@@ -63,21 +63,22 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (id)TrailingInset: /* Error: Ran out of types for this method. */;
-- (void)troller:(id)arg1 interactionControllerForAnimationController: /* Error: Ran out of types for this method. */;
-- (id);
+- (struct CGSize)0@ù
+× ;
+- (_Bool)selectedRowBorderWidth;
+- (void)T@"NSSet",C,N,V_alternateQuickControlContexts;
+- (void)ognizer %@;
+- (id)edItems:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=areCellContentsHidden) _Bool cellContentsHidden; // @synthesize cellContentsHidden=_cellContentsHidden;

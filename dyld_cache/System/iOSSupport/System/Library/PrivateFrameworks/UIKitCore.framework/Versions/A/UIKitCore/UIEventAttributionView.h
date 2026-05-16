@@ -10,16 +10,16 @@
 {
 }
 
-+ (void)n transfers.;
++ (void);
 + (id);
 + (void);
 - (void);
-- (void);
 - (id);
+- (void)tentFocusContainerGuide;
+- (void)Action;
+- (id)UIFluidParallaxTransitionSettings",N,R;
+- (void);
 - (void);
-- (void);
-- (id)ported for this IPI;
-- (void)ÕÊPl;
 
 @end
 

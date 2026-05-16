@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)ÿÿ4;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *age; // @dynamic age;

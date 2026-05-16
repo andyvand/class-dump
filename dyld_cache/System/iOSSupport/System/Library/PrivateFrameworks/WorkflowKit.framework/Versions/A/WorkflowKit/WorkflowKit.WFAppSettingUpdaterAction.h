@@ -18,10 +18,10 @@
 
 - (void);
 - (long long);
-- (id)Ì;
-- (_Bool)EÉ;
-- (id)l«¨Ì;
-- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)kground;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool approvedForPublicShortcutsDrawer;

@@ -23,15 +23,9 @@
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -39,15 +33,25 @@
 - (id);
 - (long long);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id)+Ôÿÿ;
-- (void)s(void)_block_invoke;
-- (void)ÿÿÿÿÿÿÿÿÿÿ¢à¸ð>Ý)E\\*=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþÿÿü/;
-- (void)#oÿ\T+;
-- (void)ÅI|ûw;
-- (void)"~a';
+- (void);
+- (void);
+- (void);
+- (void)efaultLongitude:(id)arg1;
+- (void)tAccessResourceUserInterface;
+- (long long)m{¥bøW¸·ñüë(þØêVJeë@êLlèGJ(#E5-«ØÀ21¬Ëôº.Ê¹|½y`¾=ï&:©w`/ÖðËPá­É5'êâ._ý(fÑ/]âÎÿA«ó9ÞþCG'ÈÄ÷REÆª®S^ó¬´O¢úIB«2¥?ZbåQ+ÇAHÚvæã×H@åäd²§Ór®CÖÚ#;r¡á¤IA¦8´¶%ÉÞxeÝêº¬¦Ï
+sÂP¶½Âÿ»^½3 ßG,jN*ïl·M2Byr*1As÷Íÿ¿8²L
+ù8,lj$:ZoÚå<_Æ~SÃDÿYÇ¨æ9âüàÎC)¢Þ$yØÍ@è¢ÈëØéôF»Ïó'C³S>"äUØ/ÍPFQo²lè ç9W¯kÅBmÎZ@Áo ;=OÅ¿«{ædßMBïpXØ7¬|9×Æ±s2Dá¨!i\?oøgöÏWãïõ$«òvÐ)cÕ-£fNu¹^½wÒ(Áý}ô`<U7¶ý©ª~9¢àÚµ0kxÚ¦°UãnÃN/÷VZmSX¤OÿA7üXu³YH¬|¥	\ÇÕö~ûluJÀ¿ë&«Ý¬ùhïÅg¤sÊ1á|\3»äA±3©Ûy;h¿äp´ +§ú äz:{sùQìÕ¾£h"îíI¹#±DÙpM¸³Ü1`!'eþÓ³úÜñòz	-1ü¦	RÄ£xímÌPÌ¿^ºÙ4kÕf*OÎPÔýÙß+%¼ûE u&gÄ+fIü¿I$ ür2YÝCmÔÂ»<nEør³ c¼i¯hÔ>¤ºî»¶ÊÐLµi¬ÊË	ÉTÃØs78d&þÅÀ-ºÊÂÞ©×x¾;>g- î¹På°ê7{²Eó
+±6Ë´%`b7,ûèk(/¡ÌëT.å7KSÒ¢:a":Ø
+Á6ÂDt­%z#Óé÷L¾!öçhÅíÏ_6'w÷ÖëZ0M+GÑRÜà_{ýÂ4ìø$wxX=Íê{¦|DÕªLáZi /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long bytesDownloaded; // @synthesize bytesDownloaded=_bytesDownloaded;

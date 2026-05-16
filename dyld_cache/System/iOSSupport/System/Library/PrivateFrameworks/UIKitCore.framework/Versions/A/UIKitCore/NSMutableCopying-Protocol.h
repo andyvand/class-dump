@@ -5,6 +5,5 @@
 //
 
 @protocol NSMutableCopying
-- (id)playCell:(struct _NSZone *)arg1 forTableColumn:row: /* Error: Ran out of types for this method. */;
 @end
 

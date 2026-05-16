@@ -37,15 +37,15 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)�;
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

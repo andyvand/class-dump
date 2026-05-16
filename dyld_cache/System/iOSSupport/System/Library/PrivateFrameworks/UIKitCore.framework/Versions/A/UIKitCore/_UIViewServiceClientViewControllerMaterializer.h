@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)U;
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)³µ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *materializedViewController; // @synthesize materializedViewController=_materializedViewController;

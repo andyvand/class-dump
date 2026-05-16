@@ -20,10 +20,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)ortKey;
 
 // Remaining properties
 @property(nonatomic) _Bool isHomePod; // @synthesize isHomePod=_isHomePod;

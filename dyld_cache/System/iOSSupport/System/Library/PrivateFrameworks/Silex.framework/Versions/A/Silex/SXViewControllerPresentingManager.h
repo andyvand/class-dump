@@ -13,11 +13,11 @@
 
 - (void);
 - (void);
-- (void)B;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *controller;

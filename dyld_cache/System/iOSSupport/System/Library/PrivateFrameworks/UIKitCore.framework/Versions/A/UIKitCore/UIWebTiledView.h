@@ -42,37 +42,36 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (void)>32;
-- (void)0:(struct CGRect)arg1 8@"NSString"16@"NSArray"24@?<v@?q>32;
-- (void)v@?B@"NSDictionary">32;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)ng"16I24@"NSDictionary"28@"NSString"36B44;
-- (_Bool)MessagesBefore:numberOfMessagesAfter:finishedWithResult:hasMessagesBefore:hasMessagesAfter: /* Error: Ran out of types for this method. */;
-- (void)ify:wasDowngraded:wasInterworked: /* Error: Ran out of types for this method. */;
-- (void)LoadMapsInfoFromDisk;
-- (_Bool)gContextTimer;
-- (unsigned int)essage: /* Error: Ran out of types for this method. */;
-- (void)ating analytic zone %@;
-- (_Bool)led to generate relay data for chip list, we cannot parse the attributes:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned int);
 - (void);
 - (_Bool);
 - (void);
-- (void)K;
+- (_Bool);
 - (void);
 - (void);
-- (void)!pGùñÈ°1¢!0@ù
+- (void)0@ù
 × ;
-- (struct CGRect)
-× ;
-- (void)nsitionStartBackdropView;
-- (void)_windowForSetDownOfDragItem:(struct CGAffineTransform)arg1;
-- (void)er;
+- (struct CGRect)updateAnimationDidStop:finished: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGSize)usesDeviceOverlayPreferences,S_setUsesDeviceOverlayPreferences: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ng;
-- (struct CGSize)itViewControllerAdaptiveImpl _invalidateLayoutForSizeChange];
-- (void)UILibrary(void);
-- (void)2ÖþB!;
-- (void)Ó.d;
+- (void);
+- (void)Tläo$p;
+- (void)S;
+- (void)ble;
+- (void)Jÿ;
+- (void)Õ=`;
+- (void)ÛÚ0Çb;
+- (void)~li;
 
 @end
 

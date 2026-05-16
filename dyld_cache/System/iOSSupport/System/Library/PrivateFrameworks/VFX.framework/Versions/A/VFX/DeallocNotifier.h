@@ -12,7 +12,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)á¹Pd¤ÿÑ¹Pd¤ÿÁ¹Pd¤ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType onDealloc; // @synthesize onDealloc=_onDealloc;

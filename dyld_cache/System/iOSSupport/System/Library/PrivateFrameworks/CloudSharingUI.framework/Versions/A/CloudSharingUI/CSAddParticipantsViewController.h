@@ -40,14 +40,14 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)/;
 
 // Remaining properties
 @property(retain, nonatomic) CSAddressingViewModel *addressingViewModel; // @synthesize addressingViewModel=_addressingViewModel;

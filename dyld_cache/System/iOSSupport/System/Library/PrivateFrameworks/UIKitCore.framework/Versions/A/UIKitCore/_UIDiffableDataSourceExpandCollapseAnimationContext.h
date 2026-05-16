@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long)iceIdentifier;
 - (long long);
-- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

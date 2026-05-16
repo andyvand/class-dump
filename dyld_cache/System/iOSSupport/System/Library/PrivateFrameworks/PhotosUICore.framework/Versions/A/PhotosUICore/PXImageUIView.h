@@ -51,19 +51,20 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)kimmingDataSourceIdentifier;
-- (id);
-- (id);
-- (_Bool)XTransientCollectionIdentifierUtilities;
-- (struct CGRect)Response"8@"NSError"16;
 - (long long);
-- (id)dãÌÿÆ5L6;
-- (void)
-;6;
+- (id)Gð1â
+0@ù
+× ;
+- (void);
+- (void)ontextMenuInteraction;
+- (id)aSource: /* Error: Ran out of types for this method. */;
+- (_Bool)te;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCornerView:) PXRoundedCornerOverlayView *_cornerView; // @synthesize _cornerView=__cornerView;

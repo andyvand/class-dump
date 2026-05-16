@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKTranscriptLayoutEnvironment, NSCollectionLayoutEdgeSpacing, NSCollectionLayoutItem, NSString;
+@class NSString;
 
 @protocol CKTranscriptItemLayoutProvider
-- (NSCollectionLayoutItem *)entifier:(CKTranscriptLayoutEnvironment *)arg1;
-- (NSCollectionLayoutEdgeSpacing *)anagedObjectContext",&,N,V_context;
-- (Class)s;
-- (NSString *)9	;
 
 // Remaining properties
 @property(readonly, nonatomic) Class chatItemClass;

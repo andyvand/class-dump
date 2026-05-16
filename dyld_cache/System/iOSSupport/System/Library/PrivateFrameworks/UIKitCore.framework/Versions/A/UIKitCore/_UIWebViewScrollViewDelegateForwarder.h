@@ -14,13 +14,15 @@ __attribute__((visibility("hidden")))
     UIWebView *_webView;
 }
 
-- (void)import:(id)arg1 %@;
-- (_Bool);
-- (id)@;
 - (void);
-- (id)w:didDismissPreview:committing: /* Error: Ran out of types for this method. */;
-- (id)rait;
-- (void)Ð^þÿ;
+- (id);
+- (void)að!Bù±a1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (void)16{CGPoint=dd}24;
+- (id)ÌÂÄÈ;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

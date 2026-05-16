@@ -33,17 +33,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void)B;
-- (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -59,12 +59,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)rses: /* Error: Ran out of types for this method. */;
-- (void)
-× ;
-- (void)_imageContainer;
 
 // Remaining properties
 @property(nonatomic) _Bool adoptTableViewScrollView; // @synthesize adoptTableViewScrollView=_adoptTableViewScrollView;

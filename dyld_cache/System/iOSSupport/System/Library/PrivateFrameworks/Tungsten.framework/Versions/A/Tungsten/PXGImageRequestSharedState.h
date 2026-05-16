@@ -29,12 +29,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (double);
-- (id);
 - (unsigned long long);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id)with format:%u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXGDisplayAssetAdjustment> adjustment; // @synthesize adjustment=_adjustment;

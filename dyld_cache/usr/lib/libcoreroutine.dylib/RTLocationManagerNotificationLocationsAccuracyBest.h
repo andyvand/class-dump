@@ -13,10 +13,9 @@
     NSArray *_locations;
 }
 
-- (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)event;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;

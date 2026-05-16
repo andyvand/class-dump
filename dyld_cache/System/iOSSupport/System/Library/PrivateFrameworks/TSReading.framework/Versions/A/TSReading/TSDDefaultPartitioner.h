@@ -17,7 +17,7 @@
     TSUPointerKeyDictionary *mPartialRepsByCanvas;
 }
 
-- (void)T4;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -31,7 +31,7 @@
 - (void);
 - (id);
 - (struct CGImage *);
-- (id)�;
+- (id);
 - (_Bool);
 - (id);
 - (id);

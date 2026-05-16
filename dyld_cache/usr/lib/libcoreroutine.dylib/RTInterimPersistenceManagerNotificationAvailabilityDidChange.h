@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (unsigned long long)H;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long availability; // @synthesize availability=_availability;

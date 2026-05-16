@@ -36,9 +36,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (void)r.m;
+- (void)ÿl(;
+- (id)´;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *noteCount; // @synthesize noteCount=_noteCount;

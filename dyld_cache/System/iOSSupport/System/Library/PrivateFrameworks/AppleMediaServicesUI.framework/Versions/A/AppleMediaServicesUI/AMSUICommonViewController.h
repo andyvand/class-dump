@@ -22,13 +22,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)n: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isMovingFromParentViewController, setter=setIsMovingFromParentViewController:) _Bool movingFromParentViewController; // @synthesize movingFromParentViewController=_movingFromParentViewController;

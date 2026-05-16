@@ -19,18 +19,18 @@
     MISSING_TYPE *tipObservationTask;
 }
 
-- (void)i;
 - (void);
 - (void);
-- (void)chment:(long long)arg1 %@;
+- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)ªÿ ;
 
 // Remaining properties
 @property(nonatomic, retain) UIView *miniTipUIView; // @synthesize miniTipUIView;

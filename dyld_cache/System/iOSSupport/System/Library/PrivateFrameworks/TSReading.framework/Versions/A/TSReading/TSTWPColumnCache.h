@@ -8,7 +8,7 @@
 {
 }
 
-- (id)subscriptionState;
+- (id);
 
 @end
 

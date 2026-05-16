@@ -11,13 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)0@ù
-× ;
-- (void)!,FùÍÐ1¢!0@ù
-× ;
-- (void)howingTrackLabel;
+- (void)ppearanceCallbacksWhenScrolling;
+- (void)tInsets;
+- (void)chHighlighting;
 - (void);
-- (void);
+- (void)H¨ÿ;
 
 @end
 

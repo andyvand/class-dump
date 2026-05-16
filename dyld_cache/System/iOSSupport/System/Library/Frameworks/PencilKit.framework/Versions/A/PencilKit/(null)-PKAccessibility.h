@@ -5,14 +5,14 @@
 //
 
 @interface (null) (PKAccessibility)
-+ (id)(AA9	A;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 @end
 

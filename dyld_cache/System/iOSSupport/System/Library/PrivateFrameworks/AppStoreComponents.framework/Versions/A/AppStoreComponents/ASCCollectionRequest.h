@@ -21,18 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (void);
+- (id);
+- (long long);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;

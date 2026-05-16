@@ -16,10 +16,10 @@
 + (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)h 1, %@;
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;

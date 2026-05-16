@@ -23,7 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -37,16 +37,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)7;
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id)"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) TSUColor *cellViolatorColor;

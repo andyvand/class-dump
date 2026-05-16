@@ -77,16 +77,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool)10ð1b0@ù
-× ;
-- (void)tems:(_Bool)arg1;
-- (void)Controller:(_Bool)arg1;
-- (void)Ì·ÚMc;
-- (void) ;
+- (void);
+- (void);
+- (void)oorbell;
+- (void)6@?0@"HRERecommendation"8;
+- (_Bool)ss;
+- (void)meTheaterOnboardingValue_Setup) || (userInputValue.integerValue == HUHomeTheaterOnboardingValue_DontSetup);
+- (void)G;
+- (void)$cèÿþæú¸¼;
 
 // Remaining properties
 @property(readonly, nonatomic) HFControlItem *controlItem;

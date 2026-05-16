@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long arrayIndex; // @synthesize arrayIndex=_arrayIndex;

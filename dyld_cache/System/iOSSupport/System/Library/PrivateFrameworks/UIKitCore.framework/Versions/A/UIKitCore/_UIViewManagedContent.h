@@ -11,9 +11,9 @@
     MISSING_TYPE *value;
 }
 
+- (id);
 - (long long);
-- (_Bool):(id)arg1 8@16f24;
-- (id)aPlaybackRequiresUserAction;
+- (_Bool)Responder:(id)arg1;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

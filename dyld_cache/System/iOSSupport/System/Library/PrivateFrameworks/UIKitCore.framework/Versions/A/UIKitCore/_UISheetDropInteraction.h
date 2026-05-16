@@ -18,23 +18,23 @@
 
 - (void);
 - (id);
-- (void)"16@"IDSAccount"24@"NSString"32@"NSString"40q48@"NSError"56B64@"IDSMessageContext"68;
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id)WhenDetentDirectionIsDown;
-- (void)TB,N,V_showsAlternateText;
-- (void)>",R,N;
-- (id)3y5¿î3ySayÜ^j8GGzj8è¥í3yjí3yAHyYÂí3üí3GÎªí3yÀí3yzj8GGGAHy÷¾í3y¾í3yó½í3ye½í3yAHy<í3y_eí3yú;
-- (void)UsesDeviceOverlayPreferences;
-- (id)mponentKey;
-- (id)tentTrailingPadding;
+- (id);
+- (id);
+- (id)pleted:(id)arg1;
+- (id)Td,N,V_displayDelaySeconds;
+- (_Bool)unknown contextID (%i). Returning "unknown".;
+- (void)=%ld request=%{private}@ %{private}@;
+- (void)ÿPvþÿ¸Äîÿ;
+- (id)d will be used;
+- (void)item for bar=%p;
+- (id)InputModeDidChangeNotification;
+- (id)ss;
+- (void)ceneStackRecord"16;
 - (void);
-- (id)Åbÿ3<Û²þÅbÿ3¼Ú±þ;
-- (id)erProviderKey;
-- (_Bool)Ó [;
-- (void)$»æÿ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *activityTypesOrActivities; // @synthesize activityTypesOrActivities=_activityTypesOrActivities;

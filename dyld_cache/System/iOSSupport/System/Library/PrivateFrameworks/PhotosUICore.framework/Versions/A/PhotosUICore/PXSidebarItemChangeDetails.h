@@ -24,13 +24,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)LayoutPromise: /* Error: Ran out of types for this method. */;
+- (id)Rect;
 - (void);
-- (id);
-- (id);
-- (id)Affordance;
-- (_Bool)²ÿøÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXArrayChangeDetails *arrayChangeDetails; // @synthesize arrayChangeDetails=_arrayChangeDetails;

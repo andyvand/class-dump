@@ -18,45 +18,45 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
-+ (void);
 + (void);
 + (void);
 + (id);
 + (id);
-+ (id)(;
-+ (id)ùÑÆ°1¢!0@ù
++ (id)1Â0@ù
 × ;
-+ (id)0@ù
++ (void)!ÌGù]°1Â0@ù
 × ;
-+ (id)nentIfExists;
-+ (void)rSizing:(id)arg1;
-+ (void)cellBackgroundShapeProvider;
-+ (id)troller:(id)arg1 traitCollection:(id)arg2 fromServiceWithBundleIdentifier:service:connectionHandler: /* Error: Ran out of types for this method. */;
-+ (void)GisShowingFloatingTabBar;
-+ (id)D/Ï;
-+ (id)= %p; animated = %d;
-+ (void);
-+ (void)em:(id)arg1;
-+ (void);
-+ (id)´··ÿD;
-- (_Bool);
++ (void)nceAnimation";
++ (void)iew"16@"UIBarButtonItem"24;
++ (id);
++ (void)tionWithPoint:(id)arg1;
++ (id)C,V_presentedItemURL;
++ (id);
++ (id)ðT;
++ (void)c file %@:(id)arg1 %@;
++ (id). state = %lu is interpreted as UIControlStateHighlighted.;
++ (void)SheetHostManagerProvider.;
++ (id)ed;
++ (void)?];
++ (id);
++ (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id)0;
-- (void);
-- (void)
-× ;
-- (SEL)QÉ°1¢!0@ù
-× ;
-- (void)@"_UIRefreshControlModernReplicatorView";
-- (id)ltitapCompleteKeyImageName;
-- (id)thScene:andPost: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ackGeneratorConfiguration;
-- (void)LA4DôEÀFG¨G;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)!ÌAù_1Â0@ù
+× ;
+- (SEL)dIsValid"b1"_deliversUpdatesInTouchesMoved"b1"_isPredictedTouch"b1"_didDispatchAsEnded"b1"_isPointerTouch"b1};
+- (void)hEvent:(id)arg1 inContentView:(unsigned long long)arg2;
+- (void)Rotation;
+- (void)ionRangeView;
+- (id)P.îÿFþÿ;
+- (_Bool)ContentView;
+- (void)ÿÿ;
+- (_Bool)¸ÿl;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAppearanceCustomizableClassInfo *_customizableClassInfo; // @synthesize _customizableClassInfo;

@@ -17,13 +17,13 @@
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AKFormFeatureLine *baseline; // @synthesize baseline=_baseline;

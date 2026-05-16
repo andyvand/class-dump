@@ -47,15 +47,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (struct UIEdgeInsets);
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (struct UIEdgeInsets);
+- (struct CGSize)h: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;

@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)LibraryItems;
+- (id);
+- (void)icValueDoorStateOpen;
 
 // Remaining properties
 @property(readonly, nonatomic) HMActionSet *actionSet; // @synthesize actionSet=_actionSet;

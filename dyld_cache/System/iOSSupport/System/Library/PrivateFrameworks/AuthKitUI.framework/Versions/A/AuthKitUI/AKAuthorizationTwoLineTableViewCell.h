@@ -9,8 +9,8 @@
 }
 
 - (void);
-- (id)H;
 - (void);
+- (id);
 
 @end
 

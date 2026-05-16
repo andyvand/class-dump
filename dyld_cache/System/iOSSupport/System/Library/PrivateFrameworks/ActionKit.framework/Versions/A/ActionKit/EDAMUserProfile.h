@@ -31,17 +31,18 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)mpletionHandler:(id)arg1;
-- (void)resource owner or authorization server denied the request.;
-- (id);
+- (void)!@ùÑ³1B50@ù
+× ;
+- (id)entation:variableProvider:parameter: /* Error: Ran out of types for this method. */;
+- (id)ipients;
+- (void)e;
+- (void)dCountry;
+- (void)ned, removing unnecessary parameters such as "utm_source".;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMBusinessUserAttributes *attributes; // @synthesize attributes=_attributes;

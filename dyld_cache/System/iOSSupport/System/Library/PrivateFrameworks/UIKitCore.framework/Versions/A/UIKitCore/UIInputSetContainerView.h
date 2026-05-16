@@ -19,30 +19,29 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)orizontal %@/Vertical %@ to Horizontal %@/Vertical %@;
++ (_Bool)× ;
 - (void);
-- (void)Y;
-- (struct CGRect)ied;
-- (id);
-- (id)sicVideosDidChangeNotification;
-- (void)4;
+- (void);
 - (struct CGPoint);
-- (void)!\Fù1ÂÐ1¢!0@ù
-× ;
-- (void)ÃÐ1¢!0@ù
-× ;
-- (void)lMinWidth:(struct CGPoint)arg1;
-- (_Bool)eEvent: /* Error: Ran out of types for this method. */;
-- (_Bool)Item;
-- (void) ¡;
-- (void)+;
-- (id)Coder:(struct CGRect)arg1 ];
-- (void)8sÿ_%;
-- (id)À:®þq4 /* Error: Ran out of types for this method. */;
-- (void)¿;
-- (void)k;
 - (id);
-- (void)ÿ¢Ê;
+- (void);
+- (_Bool){CGSize=dd}{CGSize=dd}}16;
+- (_Bool)oresGeometryChanges: /* Error: Ran out of types for this method. */;
+- (id)OrName>",R,N,V__imageOrName;
+- (struct CGRect)dding;
+- (void)Ä;
+- (void)blic,name=id}p;
+- (void);
+- (id)n on this version of iOS;
+- (void)itingModeLightenSourceOver;
+- (id);
+- (void);
+- (void);
+- (void)6
+Ð¶g;
+- (id)Ôd9ÿ;
+- (void);
+- (void)á9o;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

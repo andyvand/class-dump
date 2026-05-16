@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)add signature oid;
+- (id);
 - (void);
-- (void)tiveSequence;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -14,20 +14,23 @@
     SEL _action;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
-- (void)ndarySourcePreviews;
-- (void)ifyWhenScrollingAnimationStops;
+- (void);
 - (id);
-- (void)ckStyleMedium;
-- (id)[UISplitViewController setViewController:forColumn:] in %@ column /* Error: Ran out of types for this method. */;
-- (SEL)SNotFound;
 - (_Bool);
+- (void)0@ù
+× ;
+- (id)!`CùQ\1Â0@ù
+× ;
+- (void)ù
+× ;
+- (void)dedActiveIndicator:(id)arg1;
+- (id)icDependentRequirementOverride;
+- (void)luidSliderElasticPanDriver;
+- (SEL)ssSpring;
+- (void)mension.;
+- (id)oad popover chrome with unrecognized direction or UIPopoverArrowDirectionUnknown.;
+- (void)ntroller.;
 - (void);
 
 // Remaining properties

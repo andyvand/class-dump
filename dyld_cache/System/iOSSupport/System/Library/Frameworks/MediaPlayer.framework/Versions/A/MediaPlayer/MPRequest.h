@@ -19,8 +19,8 @@
     NSArray *_middlewareClasses;
 }
 
-+ (double)ream;
-+ (Class)erMacOS setValue:forProperty:ofCollectionWithIdentifier:groupingType:completionBlock:] /* Error: Ran out of types for this method. */;
++ (double);
++ (Class);
 - (void);
 - (void);
 - (id);
@@ -29,19 +29,20 @@
 - (void);
 - (id);
 - (id);
-- (id)x;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (double);
-- (long long)qiIq}{?=qiIq}},N,V_timeRange;
-- (void)@Ú	;
+- (id);
+- (id);
+- (void)°!LGùq?Ð1Â0@ù
+× ;
+- (void)etRunLoopForNotifications:(id)arg1;
+- (void)tusReason__MAPPING_MISSING__;
+- (void)calPickerSimpleQueryViewController;
+- (id)deo]:%{public}@ -> %{public}@ /* Error: Ran out of types for this method. */;
+- (double)hipTVSeasonShow;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOperationQueue *calloutQueue; // @synthesize calloutQueue=_calloutQueue;

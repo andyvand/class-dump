@@ -16,7 +16,10 @@
     HMCurrentMediaGroup *_lastSentCurrentMediaGroup;
 }
 
-+ (id)iceSetupOperationHandler;
++ (id);
++ (unsigned long long);
++ (id);
++ (id)orbell.chime.mode;
 - (void);
 - (id);
 - (id);
@@ -31,17 +34,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void)ð! CùÑ¨°1b0@ù
-× ;
-- (id)cessoryDescription: /* Error: Ran out of types for this method. */;
-- (id)fíÿ³¯¢ëJ;
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;

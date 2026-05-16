@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)es: /* Error: Ran out of types for this method. */;
+- (id)NSSet"16@?0@"HMAction"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

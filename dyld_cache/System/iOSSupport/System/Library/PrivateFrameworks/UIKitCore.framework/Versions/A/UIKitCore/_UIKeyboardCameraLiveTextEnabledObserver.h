@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     _Bool _isLiveTextEnabled;
 }
 
-+ (id)R;
++ (id),ráÿ«Íyk;
 - (_Bool);
-- (void)yPlaylistEditTrackDataSource.m;
-- (id)itCollection: /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) _Bool isLiveTextEnabled;

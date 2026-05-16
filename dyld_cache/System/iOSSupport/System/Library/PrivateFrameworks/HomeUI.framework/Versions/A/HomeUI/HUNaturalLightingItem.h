@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool)t status!;
+- (void)ly:(_Bool)arg1 shouldGroupByRoom:valueSource: /* Error: Ran out of types for this method. */;
+- (_Bool)N;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

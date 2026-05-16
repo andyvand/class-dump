@@ -48,7 +48,7 @@
 - (id);
 - (void);
 - (id);
-- (void)tion_Accessories_NoAccess_AwayFromHome_Title;
+- (void)temModule showOptionsItem];
 
 // Remaining properties
 @property(retain, nonatomic) HFActionSetItemProvider *actionSetItemProvider; // @synthesize actionSetItemProvider=_actionSetItemProvider;

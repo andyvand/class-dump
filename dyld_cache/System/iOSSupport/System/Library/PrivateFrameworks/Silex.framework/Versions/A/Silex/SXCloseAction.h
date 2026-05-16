@@ -11,9 +11,9 @@
     SXJSONDictionary *analytics;
 }
 
-- (void);
-- (id)rsity;
 - (id);
+- (id);
+- (void)entTextRules"24@0:8@"SXTextSource"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;

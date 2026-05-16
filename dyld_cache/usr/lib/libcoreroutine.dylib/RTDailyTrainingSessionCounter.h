@@ -14,17 +14,17 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)IssuerCommonName;
-- (id);
-- (id);
-- (void)RequestInterval;
-- (id)ÊvY@;
-- (id)dåÿ;
+- (id)uration;
+- (void)exceeded maximum, %ld;
+- (id)ic}d):(id)arg1 %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

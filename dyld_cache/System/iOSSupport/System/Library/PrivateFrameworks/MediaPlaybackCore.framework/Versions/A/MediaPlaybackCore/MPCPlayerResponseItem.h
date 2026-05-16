@@ -34,30 +34,31 @@
     CDStruct_8b36af64 _duration;
 }
 
-- (id)oller";
+- (double);
 - (id);
-- (id);
-- (id)}};
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id)UID"16@?<v@?@"NSArray"@"NSError">24;
 - (id);
 - (id);
-- (id);
 - (id);
-- (_Bool)serTokensForAccountDSID:withCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)r:(id)arg1;
-- (_Bool)ltWithCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool):(id)arg1 parameters: /* Error: Ran out of types for this method. */;
-- (_Bool)requestWithMethod:bagURL:parameters: /* Error: Ran out of types for this method. */;
-- (id)unt:(id)arg1 bag:(_Bool)arg2;
-- (id)gePrivacy;
-- (id)tifier:(unsigned int)arg1;
-- (unsigned long long)count:store: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ng added or modified. Enabling the UI for iTunes sandbox accounts.;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -66,20 +67,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (_Bool)rtedShuffleTypes: /* Error: Ran out of types for this method. */;
 - (CDStruct_8b36af64);
-- (id)y;
-- (id)oÇÿ	TÿÆÿ;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (_Bool)ng script data corresponding to %{public}@ not found [returning nil] metadataItems=%{public}@;
+- (void)ic}@ events:%{public}@ /* Error: Ran out of types for this method. */;
+- (long long)dioTap %p - Audio tap - Error freeing AQ buffer:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)½ô];
 
 // Remaining properties
 @property(readonly, nonatomic) MPCPlayerAudioFormat *activeFormat; // @synthesize activeFormat=_activeFormat;
@@ -111,6 +112,7 @@
 @property(readonly, nonatomic) __weak MPCPlayerResponse *response; // @synthesize response=_response;
 @property(readonly, nonatomic) long long revision; // @synthesize revision=_revision;
 @property(readonly) Class superclass;
+@property(readonly, nonatomic) double timeUntilFirstAudioFrame;
 @property(readonly, copy, nonatomic) NSDictionary *transitionInfo; // @synthesize transitionInfo=_transitionInfo;
 
 @end

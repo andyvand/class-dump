@@ -18,15 +18,15 @@
 
 - (long long);
 - (void);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
 - (_Bool);
+- (void)Oÿÿ;
+- (id)DQþÿ þÿ;
 
 @end
 

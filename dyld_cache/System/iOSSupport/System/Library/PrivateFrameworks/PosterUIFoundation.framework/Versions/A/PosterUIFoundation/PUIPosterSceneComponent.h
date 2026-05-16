@@ -30,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void)napshot orientation xattr;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

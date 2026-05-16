@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (CDUnknownBlockType);
 - (void);
+- (CDUnknownBlockType);
 - (void);
 
 // Remaining properties

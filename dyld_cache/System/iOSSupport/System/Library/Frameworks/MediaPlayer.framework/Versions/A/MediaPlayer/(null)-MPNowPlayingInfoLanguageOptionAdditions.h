@@ -5,6 +5,6 @@
 //
 
 @interface (null) (MPNowPlayingInfoLanguageOptionAdditions)
-- (id)honeNumbersCount;
+- (id);
 @end
 

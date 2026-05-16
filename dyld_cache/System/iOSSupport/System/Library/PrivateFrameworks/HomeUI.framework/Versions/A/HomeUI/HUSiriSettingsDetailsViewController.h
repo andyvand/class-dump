@@ -32,7 +32,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)tionalityDueToSchedule_Alert_SingleGuest_SingleLock;
 
 // Remaining properties
 @property(retain) NSMapTable *cellToItemMap; // @synthesize cellToItemMap=_cellToItemMap;

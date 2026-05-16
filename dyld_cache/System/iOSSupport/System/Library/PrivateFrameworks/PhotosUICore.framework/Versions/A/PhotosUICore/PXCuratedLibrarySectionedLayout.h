@@ -91,12 +91,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void),W,N,V_delegate;
 - (void);
-- (struct UIEdgeInsets);
-- (id)6×ÿ;
+- (void)Social Group view;
+- (void)tDebugOverlayView;
+- (struct UIEdgeInsets)0¬¥ÿ;
+- (id)Príÿú"8(M7;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

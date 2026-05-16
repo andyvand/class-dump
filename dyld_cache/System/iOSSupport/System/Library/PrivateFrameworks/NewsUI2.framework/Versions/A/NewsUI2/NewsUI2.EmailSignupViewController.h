@@ -20,15 +20,15 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)Rºôÿ;
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void)¡@_ ¦þ@_ ¹ªþ;
+- (void)\îÿ;
+- (void)5rÚäF5;
 
 @end
 

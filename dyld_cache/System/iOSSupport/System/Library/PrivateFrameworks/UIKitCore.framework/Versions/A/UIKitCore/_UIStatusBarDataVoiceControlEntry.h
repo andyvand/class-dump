@@ -11,16 +11,15 @@
     long long _type;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)ibited. This is an application bug;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id)0@ù
-× ;
-- (long long)þÿ;
-- (void)tep Delay;
+- (long long);
+- (_Bool)@0:(id)arg1 8@"<UITraitEnvironment>"16;
+- (void)skipNextFrame;
+- (id)unds:context: /* Error: Ran out of types for this method. */;
+- (id)wsTextAnimations;
+- (void)gBarConfiguration",&,N,S_setSuspendedConfiguration:(long long)arg1 ,V__suspendedConfiguration;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

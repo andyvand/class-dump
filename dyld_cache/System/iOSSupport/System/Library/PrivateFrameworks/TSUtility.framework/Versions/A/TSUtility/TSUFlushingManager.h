@@ -27,9 +27,10 @@
     unsigned long long _activeBgThreadTask;
 }
 
-+ (id);
 + (id);
-+ (id)thPath:(struct _NSZone *)arg1 collapseCommonRootDirectory: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)ÑÏ1Â0@ù
+× ;
 - (void);
 - (void);
 - (void);
@@ -48,23 +49,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (void);
 - (oneway void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)*;
-- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 
 @end
 

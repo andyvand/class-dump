@@ -63,7 +63,7 @@
     struct PREditingSceneViewControllerTopButtonLayout _lastValidDelegateTopButtonLayout;
 }
 
-+ (id)iüijÐjäkìk¸lÌm;
++ (id);
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
@@ -171,8 +171,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -206,43 +206,44 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long)16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ance;
-- (_Bool)nfo: /* Error: Ran out of types for this method. */;
-- (long long)fer;
-- (void)cene %@ did deactivate with fatal error %@;
-- (void)JöÿÈþí~;
+- (long long)0@ù
+× ;
+- (void);
+- (void)(ð;
 
 // Remaining properties
 @property(nonatomic) long long acceptButtonType; // @synthesize acceptButtonType=_acceptButtonType;

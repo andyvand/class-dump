@@ -48,7 +48,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ApplicationWithIdentifier:suspended: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *availableSenderIdentities; // @synthesize availableSenderIdentities=_availableSenderIdentities;

@@ -5,6 +5,5 @@
 //
 
 @protocol DOCServicePopoverTrackerProtocol
-- (void)C;
 @end
 

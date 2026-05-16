@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)w;
-- (id)4;
+- (id);
+- (id)stored in AppleDouble file %@ into %@;
+- (void)Ù+;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAction *headerAction; // @synthesize headerAction=_headerAction;

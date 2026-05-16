@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SWInteraction;
-
 @protocol SWInteractionFactory
-- (id <SWInteraction>)torType;
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol TSPCopying
-- (id)t;
 @end
 

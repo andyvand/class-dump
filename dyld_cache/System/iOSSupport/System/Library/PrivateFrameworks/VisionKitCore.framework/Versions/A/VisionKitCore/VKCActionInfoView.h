@@ -89,27 +89,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (struct UIEdgeInsets);
+- (_Bool);
+- (void);
 - (CDUnknownBlockType);
+- (id);
 - (void);
 - (struct CGRect);
+- (id);
+- (id);
 - (double);
 - (void);
+- (void);
 - (id);
-- (id)Ô3ð!hBùM°1B0@ù
+- (void);
+- (void);
+- (void);
+- (void)!TFù±Ð1â
+0@ù
 × ;
-- (_Bool)_orientedImageFromImage:toOrientation: /* Error: Ran out of types for this method. */;
-- (void)Dot"8Q16^B24;
+- (void)stureRecognizer:(CDUnknownBlockType)arg1;
+- (id)iveTextButtonDisabled;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool _quickActionsHidden; // @synthesize _quickActionsHidden=__quickActionsHidden;

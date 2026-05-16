@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,18 +29,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)36@"NSNumber"44B52;
-- (_Bool)@"APSURLTokenInfo"32;
-- (_Bool)OnSend:(CDUnknownBlockType)arg1;
+- (id);
+- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
-- (id)ueryID: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)cacheDisplayString;
-- (id)Menu;
-- (id)le Animation;
-- (void)rKeyPopupSolidLightBackground;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)ÿ`;
+- (void)ceneClass;
+- (void)ÔÊ7b;
+- (void)h0b;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDropAnimationHandlers *animationHandlers; // @synthesize animationHandlers=_animationHandlers;

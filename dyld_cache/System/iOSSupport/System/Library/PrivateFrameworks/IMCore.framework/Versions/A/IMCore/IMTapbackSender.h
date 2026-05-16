@@ -30,10 +30,10 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (id).xbs/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkConnectionToWebProcess.cpp 970:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (id)»;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *attributedContentString; // @synthesize attributedContentString=_attributedContentString;

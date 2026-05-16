@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
+- (void)ÈÆ3;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceName;

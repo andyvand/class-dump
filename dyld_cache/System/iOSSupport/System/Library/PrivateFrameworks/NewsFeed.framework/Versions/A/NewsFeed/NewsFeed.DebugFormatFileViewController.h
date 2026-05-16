@@ -15,11 +15,11 @@
     MISSING_TYPE *model;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)ocol: /* Error: Ran out of types for this method. */;
-- (void)ugüÿoùÿ;
+- (void)A:%ø /* Error: Ran out of types for this method. */;
+- (void)@¹@;
 
 @end
 

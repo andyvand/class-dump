@@ -24,7 +24,6 @@
 
 - (id);
 - (id);
-- (id)yi;
 - (id);
 - (id);
 - (id);
@@ -33,9 +32,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)jc_classlist__DATA_CONST;
-- (int)mponentExposureMonitor",R,N,V_componentExposureMonitor;
+- (id);
+- (id);
+- (int);
+- (void)ï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

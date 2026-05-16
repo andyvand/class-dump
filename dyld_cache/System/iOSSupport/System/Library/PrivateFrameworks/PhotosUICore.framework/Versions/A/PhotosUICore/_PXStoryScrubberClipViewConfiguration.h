@@ -20,8 +20,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)ôÿÿÿH>ëÿu"ÿJ;
-- (_Bool)Pk;
+- (_Bool)1â
+0@ù
+× ;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isCurrent; // @synthesize isCurrent=_isCurrent;

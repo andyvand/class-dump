@@ -11,12 +11,14 @@
     MISSING_TYPE *pageIndicator;
 }
 
-- (void);
+- (struct CGSize);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)B;
-- (struct CGSize);
+- (id)!äDùQHÐ1â
+0@ù
+× ;
+- (void)H!$ÿ ;
 
 @end
 

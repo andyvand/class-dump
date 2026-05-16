@@ -10,7 +10,7 @@
 {
 }
 
-- (int)teMonitor;
+- (int);
 
 @end
 

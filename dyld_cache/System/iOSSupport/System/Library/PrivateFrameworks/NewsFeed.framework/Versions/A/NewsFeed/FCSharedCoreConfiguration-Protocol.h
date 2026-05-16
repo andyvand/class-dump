@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPersonalizationPublisherDampeningConfig, FCPersonalizationTreatment, FCTopStoriesConfiguration, NSArray, NSString;
+@class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (FCPersonalizationTreatment *)c;
-- (FCTopStoriesConfiguration *)rollView;
-- (NSString *)b;
-- (_Bool)´L;
-- (long long);
+- (_Bool)ñÿtñÿ¼oðÿ2ñÿñÿJñÿ8ïÿñÿdñÿ;
 
 @optional
-- (double);
-- (_Bool);
-- (double);
-- (double)0;
-- (double)H;
+- (double)uiescenceInterval;
+- (_Bool);
+- (_Bool)Ð^;
+- (double)´9òÿÌ9òÿä9òÿ:òÿ4:òÿL:òÿd:òÿ|:òÿ:òÿÌ:òÿ;òÿ,;òÿX;òÿp;òÿ;òÿ°;òÿè;òÿ<òÿ4<òÿL<òÿl<òÿ /* Error: Ran out of types for this method. */;
 - (double);
-- (long long)G;
-- (double)ÿXûñÿ8»ÿ<O
-;
+- (long long);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

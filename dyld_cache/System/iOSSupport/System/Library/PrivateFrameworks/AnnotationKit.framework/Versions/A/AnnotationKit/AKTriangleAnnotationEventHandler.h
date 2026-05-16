@@ -10,7 +10,7 @@
 {
 }
 
-- (double)D;
+- (double);
 
 @end
 

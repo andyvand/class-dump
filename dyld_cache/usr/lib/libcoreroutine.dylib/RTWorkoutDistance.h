@@ -29,14 +29,13 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
-- (id)Endpoint";
 - (id);
 - (id);
-- (id)!pEùñ\,1¢!0@ù
-× ;
-- (double)eenPoints_km:lon1:lat2:lon2: /* Error: Ran out of types for this method. */;
+- (id);
+- (double);
+- (id)ns: /* Error: Ran out of types for this method. */;
+- (void), %{sensitive}@;
+- (long long)blic}.3lf;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areBothWorkoutsDecimated; // @synthesize areBothWorkoutsDecimated=_areBothWorkoutsDecimated;

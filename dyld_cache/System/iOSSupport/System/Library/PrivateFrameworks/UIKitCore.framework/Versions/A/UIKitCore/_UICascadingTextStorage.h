@@ -14,42 +14,41 @@ __attribute__((visibility("hidden")))
     id <_UITextAttributeDefaults> _defaults;
 }
 
-+ (id)"NSString",C,N,S_setSelectedDetentIdentifier:,V__selectedDetentIdentifier /* Error: Ran out of types for this method. */;
-- (long long);
-- (id);
-- (long long);
++ (id)ð¥\;
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (long long);
 - (id);
 - (void);
-- (void)lic}@ Applied changes:(struct CGSize)arg1 %{public}@;
-- (void);
-- (id);
+- (long long);
+- (long long);
 - (_Bool);
+- (void)× ;
 - (double);
-- (void)oFº;
-- (long long)!$CùqÀ1¢!0@ù
-× ;
+- (id)bBarController"16@0:(unsigned long long)arg1 8;
+- (void)der;
+- (id)nalSnapshot:(id)arg1 source:(unsigned long long)arg2 difference:(struct _NSRange *)arg3 reorderedItemIdentifiers:(struct _NSRange)arg4 sectionTransactions: /* Error: Ran out of types for this method. */;
+- (id)shifted:(id)arg1;
+- (id)on;
+- (id)xÆ,¨QÑÌì,ÐQÑü;
+- (id)et catalog from bundle %@:%@ /* Error: Ran out of types for this method. */;
+- (id)teraction's view (or an ancestor) from the view hierarchy while the interaction is active is not recommended!;
+- (void)?0{CGPoint=dd}8;
+- (id)ontrollers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift;
+- (id)flèf Ð?7n1?·è?I Á¦þ½ßÀ§X5ósiÀ¢ÀDõ?;
+- (id)ü´;
+- (void)þ;
 - (id);
-- (id)aringController>"16;
-- (void)youtInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32@0:(id)arg1 8{CGSize=dd}16;
-- (void)lityHintBlock;
-- (id)ingAxis;
-- (void)onshipCandidates;
-- (id)xt;
-- (long long)didZoom;
-- (id)ostedWindow;
-- (struct CGSize)];
-- (void)IViewController initializer. View controller:(id)arg1 %@Set a symbolic breakpoint on UIViewControllerMissingInitialTraitCollection and check the backtrace to see what's causing this. This will become an assert in a future version.;
-- (id)ndaryEdgeColumnIndex;
-- (void)butes=%@;
-- (id)ive_read_close(struct ui_archive *);
-- (void)A;
+- (long long)\"Ëÿ©·Üxa];
+- (void)¼ÿ;
+- (void)xca;
 - (void);
-- (id)Dæàþ;
-- (long long)&ÔY#c;
-- (void)üÓþ;
+- (struct CGSize);
+- (long long)bí;
+- (void)¼Í`Rd;
+- (id)|Nd;
+- (void)Øþ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDefaults:) id <_UITextAttributeDefaults> _defaults; // @synthesize _defaults;

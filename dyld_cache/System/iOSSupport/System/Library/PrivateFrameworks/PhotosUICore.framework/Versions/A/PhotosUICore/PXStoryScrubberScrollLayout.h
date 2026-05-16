@@ -50,14 +50,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void);
+- (id)0@ù
+× ;
+- (void)te%ldMemoriesOkChoice;
+- (void)é?333333ã?;
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void)nPerformerDelegate;
-- (void);
-- (id)®4;
+- (id)j"TÌÇ3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

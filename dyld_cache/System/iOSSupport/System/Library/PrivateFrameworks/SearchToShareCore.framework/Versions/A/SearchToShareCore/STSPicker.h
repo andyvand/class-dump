@@ -84,29 +84,30 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void);
+- (id)
+× ;
+- (void)etching %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

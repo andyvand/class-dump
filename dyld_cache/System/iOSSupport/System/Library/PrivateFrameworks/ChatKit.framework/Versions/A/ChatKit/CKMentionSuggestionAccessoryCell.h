@@ -11,13 +11,13 @@
     UIView *_separatorView;
 }
 
-+ (id)e;
++ (id);
 + (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)¬;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;

@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)tion,mostRecentUserInteractionTime, grandfathered, isPrevalent, isVeryPrevalent, dataRecordsRemoved, timesAccessedAsFirstPartyDueToUserInteraction,timesAccessedAsFirstPartyDueToStorageAccessAPI, isScheduledForAllButCookieDataRemoval, mostRecentWebPushInteractionTime) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
-- (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (id);
 

@@ -43,15 +43,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool);
 - (id);
 
 // Remaining properties

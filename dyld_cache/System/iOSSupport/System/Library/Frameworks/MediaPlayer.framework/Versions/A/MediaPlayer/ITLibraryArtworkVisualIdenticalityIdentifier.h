@@ -11,18 +11,23 @@ __attribute__((visibility("hidden")))
 {
     long long _artworkType;
     unsigned long long _libraryID;
+    NSString *_artworkUUID;
 }
 
-- (id):(long long)arg1;
-- (long long)lback;
-- (unsigned long long);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (id) ;
-- (unsigned long long)¿êÿ;
+- (void)reID;
 
 // Remaining properties
 @property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;
+@property(readonly, nonatomic) NSString *artworkUUID; // @synthesize artworkUUID=_artworkUUID;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

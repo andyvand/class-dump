@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)inId:personaId:absoluteTimestamp:conversationId:fromHandle:toHandles:suggestedNickname:suggestedPhotoPath:content:accountIdentifier:accountHandles:accountType:attachment:URL:contentProtection: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

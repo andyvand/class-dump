@@ -21,7 +21,7 @@
     NSData *_playbackSessionData;
 }
 
-+ (_Bool)ublic}@ didAddHome:%{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 @end
 

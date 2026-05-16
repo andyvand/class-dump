@@ -10,7 +10,7 @@
 + (_Bool);
 + (double);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

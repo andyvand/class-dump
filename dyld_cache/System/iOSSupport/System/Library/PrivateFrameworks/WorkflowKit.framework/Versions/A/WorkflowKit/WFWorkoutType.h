@@ -12,11 +12,11 @@
     NSString *_name;
 }
 
-+ (id);
-- (void);
++ (id)es:qualityOfService:timeoutIntervalForRequest:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
+- (void):] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activityType; // @synthesize activityType=_activityType;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)%½7)1;
-- (id)atchingTokens;
++ (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

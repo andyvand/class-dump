@@ -49,15 +49,15 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
 - (id);
 - (id);
 - (struct _NSRange);
-- (void);
-- (void);
 - (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)Action.m;
+- (void)³<6;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange currentLineRange;

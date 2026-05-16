@@ -11,15 +11,15 @@
     unsigned long long _variants;
 }
 
-+ (id)MarkerForStream:(unsigned long long)arg1;
-+ (id)itWithUniqueId:domainId:absoluteTimestamp:title:notes:isAllDay:completionDateTimestamp:dueDateTimestamp:priority:contentProtection: /* Error: Ran out of types for this method. */;
-+ (_Bool)progress handler;
-- (void);
++ (id);
++ (id);
++ (_Bool);
 - (unsigned long long);
-- (_Bool){;;
 - (id);
-- (unsigned long long)dEntityPortraitScores:priorityQueue: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;

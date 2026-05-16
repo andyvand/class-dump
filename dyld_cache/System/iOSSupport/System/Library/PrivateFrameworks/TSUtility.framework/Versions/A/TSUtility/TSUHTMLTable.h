@@ -25,17 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void)A;
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long)M;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)?;
-- (id);
+- (id);
+- (void);
 - (unsigned long long);
 
 // Remaining properties

@@ -11,11 +11,11 @@
 }
 
 + (_Bool);
-+ (_Bool)WithRequest:inFrame: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (id);
 - (id);
 

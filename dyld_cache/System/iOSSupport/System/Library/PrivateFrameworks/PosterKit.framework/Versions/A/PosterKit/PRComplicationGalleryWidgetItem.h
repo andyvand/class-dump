@@ -20,13 +20,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
+- (id);
+- (_Bool);
 - (long long);
 - (id);
-- (id);
-- (_Bool)criptors-result;
+- (void)!ôGùññ°1â
+0@ù
+× ;
+- (_Bool)tyUpdate;
 
 // Remaining properties
 @property(readonly, nonatomic) PRComplicationDescriptor *descriptor; // @synthesize descriptor=_descriptor;

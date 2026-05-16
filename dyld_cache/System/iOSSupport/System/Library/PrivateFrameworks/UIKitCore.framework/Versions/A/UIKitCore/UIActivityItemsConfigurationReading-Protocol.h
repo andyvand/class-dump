@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSItemProvider;
+@class NSArray;
 
 @protocol UIActivityItemsConfigurationReading
-- (NSArray *);
-
-@optional
-- (NSItemProvider *)g;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *applicationActivitiesForActivityItemsConfiguration;

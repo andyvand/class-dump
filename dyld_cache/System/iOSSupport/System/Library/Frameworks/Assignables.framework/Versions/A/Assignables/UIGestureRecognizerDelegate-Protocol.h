@@ -5,8 +5,5 @@
 //
 
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)$òTòüòPóôXô¼ö÷X÷;
 @end
 

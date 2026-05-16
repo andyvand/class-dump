@@ -16,14 +16,13 @@ __attribute__((visibility("hidden")))
 
 + (unsigned int);
 + (id);
-- (void)errefs__DATA_CONST;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id)! Gù1<Ð1¢!0@ù
-× ;
-- (id);
+- (id);
+- (id);
+- (void)ic}@ - Error initializing audio unit:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

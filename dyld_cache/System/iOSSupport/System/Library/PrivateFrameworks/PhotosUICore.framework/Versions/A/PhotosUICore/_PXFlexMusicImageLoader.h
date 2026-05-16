@@ -24,13 +24,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (struct CGImage *);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id);
-- (struct CGSize)putsForLastPadding;
-- (void)ºæøÿ;
+- (void);
+- (struct CGSize)q[Ç½;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFlexMusicArtworkAsset *artworkAsset; // @synthesize artworkAsset=_artworkAsset;

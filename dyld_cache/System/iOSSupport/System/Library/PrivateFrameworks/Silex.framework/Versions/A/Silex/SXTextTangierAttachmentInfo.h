@@ -17,8 +17,9 @@
 - (id);
 - (struct _NSRange);
 - (void);
-- (void);
 - (Class);
+- (void)áÝ°!àBùïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange actualRange; // @synthesize actualRange=_actualRange;

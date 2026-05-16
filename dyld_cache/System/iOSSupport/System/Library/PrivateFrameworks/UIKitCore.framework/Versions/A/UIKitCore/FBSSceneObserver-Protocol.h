@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class FBSScene, NSSet;
 
 @protocol FBSSceneObserver
 
 @optional
-- (void)lysis28SNLogMelSpectrogramExtractor;
-- (void)ifier;
-- (NSSet *)lpha;
-- (void)dÿ;
+- (void);
+- (NSSet *)
+× ;
+- (void)¼246(889d:(FBSScene *)arg1 |;Ø;è=;
 @end
 

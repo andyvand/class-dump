@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
     UIView *_unavailableView;
 }
 
-- (void)MessageHistoryForSpamReport;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)
-× ;
-- (id)l;
+- (id)ity;
+- (void)p Ôþq;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *unavailableView; // @synthesize unavailableView=_unavailableView;

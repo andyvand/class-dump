@@ -9,21 +9,20 @@
     struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
-+ (_Bool);
-+ (id)eplacement that is already disabled
-;
++ (id);
++ (_Bool)îH;
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (oneway void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id)putURL;
-- (unsigned long long);
+- (id);
+- (_Bool)QèQRdR;
+- (_Bool)unk-helper>;
 
 @end
 

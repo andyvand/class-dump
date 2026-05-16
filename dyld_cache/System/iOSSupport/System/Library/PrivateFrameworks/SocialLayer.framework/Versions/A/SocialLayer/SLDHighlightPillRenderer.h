@@ -27,12 +27,12 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (struct __CTFont *);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);

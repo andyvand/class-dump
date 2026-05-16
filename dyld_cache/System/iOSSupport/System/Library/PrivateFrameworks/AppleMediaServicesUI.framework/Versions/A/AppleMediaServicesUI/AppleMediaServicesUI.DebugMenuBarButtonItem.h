@@ -14,8 +14,8 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)cription;
 
 @end
 

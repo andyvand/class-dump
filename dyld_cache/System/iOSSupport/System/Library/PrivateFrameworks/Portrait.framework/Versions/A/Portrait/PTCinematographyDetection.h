@@ -33,8 +33,7 @@
 + (id);
 + (id);
 + (id);
-+ (void)0@ù
-× ;
++ (void)tOffset;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -67,24 +66,25 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
+- (id);
+- (float);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (long long);
-- (id);
+- (long long);
+- (_Bool);
 - (void);
+- (struct CGRect);
 - (id);
-- (void);
 - (CDStruct_1b6d18a9);
-- (long long);
 - (id);
-- (id);
-- (float)ïJ;
-- (struct CGRect)ùÿ´NsIr;
+- (void);
+- (void);
+- (void);
+- (id)@ù
+× ;
+- (id)KéY£9;
 
 // Remaining properties
 @property(nonatomic, getter=_isExcludedAsCinematicChoice, setter=_setExcludedAsCinematicChoice:) _Bool _excludedAsCinematicChoice; // @synthesize _excludedAsCinematicChoice=__excludedAsCinematicChoice;

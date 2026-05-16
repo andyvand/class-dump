@@ -8,8 +8,6 @@
 @protocol MFTimeStamp;
 
 @protocol MFUserAction
-- (NSString *);
-- (NSString *)oryURL;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

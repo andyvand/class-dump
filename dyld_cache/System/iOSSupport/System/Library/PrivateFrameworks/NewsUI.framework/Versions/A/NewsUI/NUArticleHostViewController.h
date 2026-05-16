@@ -5,7 +5,7 @@
 //
 
 @class FCArticle, FCIssue, FCObservable, NSHashTable, NSString, NUArticleContext, TFMultiDelegate, UIResponder, UIScrollView, UIView, UIViewController;
-@protocol NUAnalyticsReporting, NUArticleContentSizeManager, NUArticleExperimentationDelegate, NUArticleHostViewControllerDelegate, NUArticleViewControllerFactory, NUErrorMessageFactory, NULoadingDelegate, NULoadingViewProviding, NUSettings;
+@protocol NUAnalyticsReporting, NUArticleContentSizeManager, NUArticleExperimentationDelegate, NUArticleHostViewControllerDelegate, NUArticleViewControllerFactory, NUArticleViewControllerLiveCoverageDelegate, NUErrorMessageFactory, NULoadingDelegate, NULoadingViewProviding, NUSettings;
 
 @interface NUArticleHostViewController
 {
@@ -18,6 +18,7 @@
     NUArticleContext *_articleContext;
     UIResponder *_responder;
     id <NUArticleExperimentationDelegate> _experimentationDelegate;
+    id <NUArticleViewControllerLiveCoverageDelegate> _liveCoverageDelegate;
     FCArticle *_article;
     FCIssue *_issue;
     id <NUArticleViewControllerFactory> _articleViewControllerFactory;
@@ -45,12 +46,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,35 +65,36 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (long long);
 - (id);
 - (_Bool);
-- (_Bool)mpressionFrame;
-- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (long long);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void)FeedTitleViewDelegate>";
-- (void)ger:router: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)eCoverageManager"16@"NSError"24;
+- (id);
+- (void)üt;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;
@@ -111,6 +116,7 @@
 @property(nonatomic) __weak id <NUArticleExperimentationDelegate> experimentationDelegate; // @synthesize experimentationDelegate=_experimentationDelegate;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) FCIssue *issue; // @synthesize issue=_issue;
+@property(nonatomic) __weak id <NUArticleViewControllerLiveCoverageDelegate> liveCoverageDelegate; // @synthesize liveCoverageDelegate=_liveCoverageDelegate;
 @property(nonatomic) __weak id <NULoadingDelegate> loadingDelegate; // @synthesize loadingDelegate=_loadingDelegate;
 @property(readonly, nonatomic) NSHashTable *loadingListeners;
 @property(retain, nonatomic) UIView<NULoadingViewProviding> *loadingView; // @synthesize loadingView=_loadingView;

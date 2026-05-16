@@ -4,14 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIView;
+@class UIButton, UIContextMenuConfiguration, UIImageView, UIShape, UITargetedPreview, UIView;
+@protocol UIHoverEffect;
 
 @protocol UIButtonVisualProvider
-- (void)NearestStationRowView";
-- (void)ew",&,N,V_view;
-- (void);
-- (struct CGRect)servationRegistrar;
-- (UIView *)Éäÿ]>éØLéÿe>é4Léÿe>é0LéÿM>éÄãÿ5>éÉäÿ]>éÉäÿM>éøKéÿU>éÉäÿ;
+- (_Bool);
+- (void)0@ù
+× ;
+- (UIShape *)!EùÑA1â
+0@ù
+× ;
+- (void)1â
+0@ù
+× ;
+- (struct CGRect)ad:(struct CGRect)arg1;
+- (struct CGPoint)ibraryPlaceSavedState:(UIContextMenuConfiguration *)arg1;
+- (void)iewController:launchAttributionURLs:withAttribution:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGRect)sSizeIncrease;
+- (UIView *)dLayoutItem:(_Bool)arg1;
+- (struct UIEdgeInsets);
+- (void)rror:(long long)arg1 %@;
+- (UITargetedPreview *)EADS;
+- (void)swift;
+- (id <UIHoverEffect>)apsUI35WatchHeaderButtonViewModelProvidingP;
+- (UIImageView *);
+
+@optional
+- (UIButton *)Loading;
+- (_Bool)@)èÿm]
+mæÿ]]
+¤(èÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;

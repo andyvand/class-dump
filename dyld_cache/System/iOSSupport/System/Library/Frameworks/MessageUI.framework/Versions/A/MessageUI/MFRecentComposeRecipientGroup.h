@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (id)d' === 'iphone') {window.addEventListener('orientationchange', changeClass);window.addEventListener('resize', changeClass);window.addEventListener('load', changeClass);}</script></body></html>;
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) CRRecentContact *recentContact; // @synthesize recentContact=_recentContact;

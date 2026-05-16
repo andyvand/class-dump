@@ -5,24 +5,5 @@
 //
 
 @protocol _TtP7ChatKit35CKLinkPreviewTextAttachmentDelegate_
-- (_Bool);
-- (double)itle;
-- (void),V_isHandlingDrawingDidChange;
-- (void)ibutes;
-- (void)_isEditingPlaceholderForWritingTools;
-- (void)ecklistItemInsideChecklist;
-- (void)TB,N,V_isDropping;
-- (void)ables;
-- (void),V_isChangingTypingAttributeFontByFontPanel;
-- (void)tInsertionDisabled;
-- (_Bool)TäÕ;
-- (void)achmentView;
-- (void)TB,R,N,V_hasBorder;
-- (void)N,GisRTL,V_RTL;
-- (void),GisAuthenticating;
-- (void)B,N,V_waitingForMetadata;
-- (void)icationIfAvailable;
-- (void)esBiometricAuthenticationIfAvailable;
-- (void)_useConstraintBasedRendering;
 @end
 

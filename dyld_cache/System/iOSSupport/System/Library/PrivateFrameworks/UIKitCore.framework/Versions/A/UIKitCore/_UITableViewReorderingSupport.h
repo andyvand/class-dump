@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
     _Bool _hadAdjustsContentInsetWhenScrollDisabled;
 }
 
-- (void);
+- (void)erInteractionAssistantCSg;
 
 @end
 

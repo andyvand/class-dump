@@ -28,13 +28,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (long long);
+- (void)$;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;

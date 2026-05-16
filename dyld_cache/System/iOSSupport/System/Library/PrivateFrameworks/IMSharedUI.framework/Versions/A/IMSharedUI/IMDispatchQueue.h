@@ -19,31 +19,33 @@
 }
 
 + (id);
-- (void)UP;
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id)Ҹ;
-- (id)Q;
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)ExtensionContentWorldType, WTF:(id)arg1:ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::Vector<std::pair<WTF::String, std::optional<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>>::KeyValuePairTraits, WTF::DefaultHash<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
-- (void);
-- (struct __CFBinaryHeap *);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)(;
 - (id);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (struct __CFBinaryHeap *)Ô!¿
+Ð!`Cùqêð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;

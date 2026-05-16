@@ -10,8 +10,7 @@
 {
 }
 
-- (unsigned long long)Á°1¢!0@ù
-× ;
+- (unsigned long long);
 
 @end
 

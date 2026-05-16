@@ -16,36 +16,33 @@ __attribute__((visibility("hidden")))
     struct CGRect finalFrameForContainerView;
 }
 
-- (void);
-- (_Bool)sAtHead:inSection: /* Error: Ran out of types for this method. */;
-- (id)alID:(CDStruct_912cb5d2)arg1;
+- (_Bool)uches:%@ /* Error: Ran out of types for this method. */;
+- (id)view's window has a different frame than the popover window; popover may have the wrong frame.;
+- (double)Analytics] enumerateAnalytics:Completed queued publishing /* Error: Ran out of types for this method. */;
+- (void);
+- (id)R;
+- (long long)µéÿ;
+- (id);
+- (void)ÿÈîÿÒÕïÿðÔïÿ;
+- (void);
+- (void)@;
+- (_Bool)torInsetAdjustmentBehavior;
+- (_Bool)%u), %s;
+- (unsigned long long)eprecated. This application should use the smoother single-stage animation.;
+- (double)ust be called for tab-only content.;
+- (struct CGRect)o:%@ /* Error: Ran out of types for this method. */;
+- (void)ation;
+- (_Bool)ocused item prevented the focus update from occurring: /* Error: Ran out of types for this method. */;
+- (id)a different rename session (%@).;
+- (void)sKeyboardFocusAlwaysEnabledForSceneAndIdiom(UIScene *__unsafe_unretained, UIUserInterfaceIdiom);
+- (id)G;
+- (void)(;
+- (id)D23°!¶þåC23´!¶þíC23Ð!¶þÝC23ì!¶þåC23"¶þ;
+- (_Bool)eTransparencyStatusDidChangeMessage;
+- (_Bool)$;
+- (void)ÐDÛÄõ];
+- (_Bool)¬_;
 - (_Bool);
-- (long long);
-- (_Bool)v;
-- (void);
-- (void);
-- (id)0º;
-- (void)!;
-- (id);
-- (_Bool)1¢!0@ù
-× ;
-- (void)As!|GùñÆ°1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (double)tPreviews;
-- (id)xtInputSessionWithID:(id)arg1 didRemoveRTISupplementalLexiconWithIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)q_setSeparateCycleAccumulatorNames: /* Error: Ran out of types for this method. */;
-- (_Bool)erColor;
-- (struct CGRect)ment:parentView:textLayoutManager:location: /* Error: Ran out of types for this method. */;
-- (_Bool)teItems:moveItemSourceIndexPaths:moveItemDestinationIndexPaths:oldModel:newModel:oldContentOffset:newContentOffset: /* Error: Ran out of types for this method. */;
-- (double)dToSize: /* Error: Ran out of types for this method. */;
-- (void)"NSMutableArray",C,N,V_keyboardResponderOverrides;
-- (void)N,V_shortTitle;
-- (void)eldEditingToken;
-- (unsigned long long)Ìå;
-- (id)o decode the bitmap data corner:(id)arg1 decoded row bytes length (%ld) does not equal expected length (%ld);
 
 // Remaining properties
 @property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;

@@ -6,10 +6,6 @@
 
 @protocol _UIFocusItemPrivate
 
-@optional
-- (unsigned long long)0:8@16^@24^@32 /* Error: Ran out of types for this method. */;
-- (long long);
-
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _focusSpeedBumpEdges;
 // Preceding property had unknown attributes: ?

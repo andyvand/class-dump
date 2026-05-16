@@ -18,23 +18,23 @@ __attribute__((visibility("hidden")))
     struct vector<pc_session *, std::allocator<pc_session *>> _sessions;
 }
 
-- (void);
-- (id)rprintLabelType: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (void);
 - (unsigned short);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)asset (required by OS).;
 - (id);
 - (void);
-- (id)Case Synthetic Temp(Ts0S);
-- (id)pf;
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void *);
 

@@ -22,18 +22,16 @@ __attribute__((visibility("hidden")))
     id <UIScenePresenter> _presenter;
 }
 
-- (id);
-- (void);
-- (id).airplay.destinations;
-- (void)= @hashedPersonID AND url_expiration_date > @now;
 - (void);
 - (void);
-- (void)
-× ;
-- (void)ùñÍð1¢!0@ù
-× ;
-- (id)ate>",W,D,N;
-- (void)Ä;
+- (void);
+- (void);
+- (id)FBSSceneTransitionContext"24;
+- (id)nt;
+- (void);
+- (id)B379CBLLP;
+- (void)c·;
+- (void)E\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

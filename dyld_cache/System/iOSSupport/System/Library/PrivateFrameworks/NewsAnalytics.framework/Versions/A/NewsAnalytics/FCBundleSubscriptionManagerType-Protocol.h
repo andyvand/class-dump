@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscription, FCBundleSubscriptionLookUpEntry;
+@class FCBundleSubscription;
 @protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
-- (FCBundleSubscription *);
-- (FCBundleSubscriptionLookUpEntry *)ave a range selection.;
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;

@@ -24,42 +24,42 @@
 }
 
 + (id);
-+ (_Bool)V_hasVideo;
++ (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)9`i)81@yQi)8);
-- (id)`;
+- (void);
 - (id);
 - (id);
-- (id)P;
 - (id);
-- (void));
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)y;
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id)motedcontent.trialbucketid;
-- (id);
-- (id)ng;
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)(Ü;
-- (void)ple.com;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

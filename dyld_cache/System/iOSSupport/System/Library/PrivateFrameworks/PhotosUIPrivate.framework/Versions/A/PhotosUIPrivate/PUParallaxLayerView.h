@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)setPosterMedia: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _UIPortalView *contentPortalView; // @synthesize contentPortalView=_contentPortalView;

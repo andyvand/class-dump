@@ -11,8 +11,8 @@
     MISSING_TYPE *delegate;
 }
 
-- (void);
 - (id);
+- (void)y;
 
 @end
 

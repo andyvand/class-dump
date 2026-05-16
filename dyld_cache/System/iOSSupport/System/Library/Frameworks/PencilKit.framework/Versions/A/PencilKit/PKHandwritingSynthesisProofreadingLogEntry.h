@@ -14,11 +14,11 @@
     NSArray *_replacedStrokes;
 }
 
-- (id);
-- (id)P;
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)ÄD;
 
 @end
 

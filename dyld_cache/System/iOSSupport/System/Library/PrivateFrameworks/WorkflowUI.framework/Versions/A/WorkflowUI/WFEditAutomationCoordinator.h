@@ -40,23 +40,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ller: /* Error: Ran out of types for this method. */;
-- (id);
-- (void),¹yADy³½yACy»ÖGSg_AGSg(×yACy'ÚyAGGNºyÈ»SgGG_ÒQo_tGGAFy@¼yAFyAJ_¼ATtGG_AKtGGG¶GA2_GG;
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)§ÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) WFAutomationSummaryViewController *automationSummaryViewController; // @synthesize automationSummaryViewController=_automationSummaryViewController;

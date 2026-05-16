@@ -45,16 +45,16 @@
 - (id);
 - (double);
 - (double);
-- (_Bool)w;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)!;
-- (id)d;
+- (id);
+- (id);
+- (void)ô@;
 
 @end
 

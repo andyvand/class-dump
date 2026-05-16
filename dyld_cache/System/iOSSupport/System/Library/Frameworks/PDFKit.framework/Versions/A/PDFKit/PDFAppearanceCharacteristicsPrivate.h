@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     _Bool scaleProportional;
 }
 
-- (void)VectorTimestampPersistenceAdditions;
+- (void);
 
 @end
 

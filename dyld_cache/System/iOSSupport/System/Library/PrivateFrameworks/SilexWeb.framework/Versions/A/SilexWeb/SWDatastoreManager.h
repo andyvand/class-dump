@@ -16,18 +16,18 @@
     id <SWDatastoreSynchronizationManager> _datastoreSynchronizationManager;
 }
 
-- (void)AudioUnfinishedTrackRescuer;
-- (void)igationBlueprintViewHeaderProvider;
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)r: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SWDatastore *datastore;

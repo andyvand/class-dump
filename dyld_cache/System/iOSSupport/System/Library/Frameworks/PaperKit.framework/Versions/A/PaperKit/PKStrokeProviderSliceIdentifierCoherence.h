@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *strokeDataUUID;
 }
 
-+ (_Bool)Ä;
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (_Bool)meMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 

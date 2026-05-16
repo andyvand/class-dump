@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool)=;
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -34,10 +34,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id)a;
+- (id);
+- (void)êøÿxØÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long excludes; // @synthesize excludes=_excludes;

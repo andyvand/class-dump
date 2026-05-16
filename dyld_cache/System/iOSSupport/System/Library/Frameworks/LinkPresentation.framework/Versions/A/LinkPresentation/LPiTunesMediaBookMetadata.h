@@ -20,7 +20,7 @@
 }
 
 + (id);
-+ (_Bool)esInferredAppearanceWithOverriddenBackgroundColor;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -30,24 +30,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id)processId;
-- (id);
-- (void)t�;
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)0@ù
+× ;
+- (id);
+- (id)esentation.MediaFetching;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

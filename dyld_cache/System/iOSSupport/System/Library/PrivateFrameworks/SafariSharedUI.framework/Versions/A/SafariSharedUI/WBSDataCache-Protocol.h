@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WBSDataCacheDelegate;
 
 @protocol WBSDataCache
-- (id)void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std:(NSString *)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (_Bool)*;
+- (void)p-q,.H/rd1s¨2t 3uä4vÜ5w 7x(8yÜ8zÈ9{´:| ;}h<~´=d?¨@AðDTFðF`GìGH<HtIXJKPL L`MM	<O /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSDataCacheDelegate> dataCacheDelegate;

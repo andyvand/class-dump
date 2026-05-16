@@ -9,17 +9,17 @@
 @interface (null) (IMAVPlayer)
 - (id);
 - (void);
-- (void)Action:(id)arg1;
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (double);
-- (id);
 - (void);
-- (void)@º;
-- (id);
+- (id)Ä;
+- (id)CSgSo7NSErrorCSgIeyByy_Sg;
+- (void)UITraitCollection;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *containerIdentifier;

@@ -22,8 +22,8 @@
 }
 
 + (id);
-+ (id)´®;
-+ (_Bool)ServiceLastKnownOperatingStateAbnormalReasonsCodingKey;
++ (id);
++ (_Bool);
 
 @end
 

@@ -21,10 +21,10 @@
 + (unsigned long long);
 + (id);
 + (double);
-+ (_Bool);
 + (unsigned long long);
 + (_Bool);
-+ (id),R,N;
++ (_Bool);
++ (id)DeviceOrientation:(struct _NSZone *)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -51,18 +51,18 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (Class);
 - (id);
+- (unsigned long long);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 

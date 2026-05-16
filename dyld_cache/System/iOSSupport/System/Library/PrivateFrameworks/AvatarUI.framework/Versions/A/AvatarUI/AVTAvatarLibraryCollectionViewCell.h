@@ -13,9 +13,9 @@
 
 + (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

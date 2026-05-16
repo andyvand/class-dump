@@ -8,6 +8,9 @@
 @protocol RCFolderIdentifier;
 
 @protocol RCFolder
+- (long long)@°!8GùQ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <RCFolderIdentifier> folderControllerID;

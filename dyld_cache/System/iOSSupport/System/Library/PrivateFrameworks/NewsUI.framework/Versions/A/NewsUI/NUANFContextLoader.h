@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCANFContent, FCAsyncOnceOperation, FCFlintResourceManager, NSError, NSOperationQueue, NSString, NUANFAssetLoader, SXContext;
+@class FCANFContent, FCAsyncOnceOperation, FCFlintResourceManager, NSError, NUANFAssetLoader, SXContext;
 @protocol FCHeadlineProviding, FCNetworkReachabilityType, NUArticleResourceURLTranslator, SXHost;
 
 @interface NUANFContextLoader
@@ -20,37 +20,30 @@
     id <SXHost> _host;
     id <NUArticleResourceURLTranslator> _resourceURLTranslator;
     FCAsyncOnceOperation *_asyncOnceOperation;
-    NSOperationQueue *_imageDecodingQueue;
     id <FCHeadlineProviding> _headline;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (long long);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)³!¬Bù±¼1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) FCANFContent *anfContent; // @synthesize anfContent=_anfContent;
@@ -58,21 +51,13 @@
 @property(retain, nonatomic) FCAsyncOnceOperation *asyncOnceOperation; // @synthesize asyncOnceOperation=_asyncOnceOperation;
 @property(retain, nonatomic) SXContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSError *contextError; // @synthesize contextError=_contextError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager; // @synthesize flintResourceManager=_flintResourceManager;
 @property(readonly, nonatomic) _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
 @property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) NSOperationQueue *imageDecodingQueue; // @synthesize imageDecodingQueue=_imageDecodingQueue;
 @property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
 @property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
 @property(readonly, nonatomic) id <NUArticleResourceURLTranslator> resourceURLTranslator; // @synthesize resourceURLTranslator=_resourceURLTranslator;
-@property(readonly) Class superclass;
 
 @end
 

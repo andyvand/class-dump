@@ -12,8 +12,8 @@
     MISSING_TYPE *puzzleArchiveFilterOptionManager;
 }
 
-- (void);
 - (id);
+- (void)ntinuePlayingRouter;
 
 @end
 

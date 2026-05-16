@@ -12,27 +12,27 @@ __attribute__((visibility("hidden")))
     NSSet *_environments;
 }
 
-+ (_Bool)?Zm;
++ (_Bool)ontDescriptorClassTransitionalSerifs ;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)PendingRequestsCount__MAPPING_MISSING__;
 - (id);
-- (void);
-- (void)
+- (id)0@ù
 × ;
-- (id)ÑÆ°1¢!0@ù
+- (id)Ð!P@ùqe°1Â0@ù
 × ;
-- (id)ngScaleFactor:(id)arg1 forTargetSize: /* Error: Ran out of types for this method. */;
-- (id)paratorContent;
-- (id)interSenderID;
-- (id)Point=dd},N,V_contentAlignmentPoint;
-- (id)lover state, nothing to animate out;
-- (id)Úüÿ;
-- (id)gsideBuildInAnimation;
-- (id)¢#ÑOc;
+- (id);
+- (_Bool)ReceiveGlowAnimationState:(id)arg1 forStyle: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 granularity:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)yboardLayersToHost:(struct _NSZone *)arg1;
+- (id)Value2BlueColor;
+- (void)ñWüV\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

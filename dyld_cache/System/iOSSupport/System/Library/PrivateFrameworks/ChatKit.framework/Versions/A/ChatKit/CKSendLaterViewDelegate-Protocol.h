@@ -5,7 +5,5 @@
 //
 
 @protocol CKSendLaterViewDelegate
-- (void);
-- (void)ount.entity != %@;
 @end
 

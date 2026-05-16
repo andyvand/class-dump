@@ -12,7 +12,7 @@
     void *_skcCropNode;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -23,10 +23,10 @@
 - (void *);
 - (void);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)d: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool invertMask;

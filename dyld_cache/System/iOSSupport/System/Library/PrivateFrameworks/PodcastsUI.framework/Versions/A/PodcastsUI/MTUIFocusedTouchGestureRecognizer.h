@@ -17,10 +17,10 @@
 - (struct UIEdgeInsets);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)resenterView;
+- (void);
 - (void);
 
 // Remaining properties

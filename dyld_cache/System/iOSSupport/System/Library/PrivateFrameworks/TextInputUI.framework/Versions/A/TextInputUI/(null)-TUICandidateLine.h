@@ -5,7 +5,7 @@
 //
 
 @interface (null) (TUICandidateLine)
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

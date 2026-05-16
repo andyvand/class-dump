@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)KK.#5;
+- (void)ô`ùòðÈI;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;

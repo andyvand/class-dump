@@ -14,13 +14,14 @@ __attribute__((visibility("hidden")))
     NSDictionary *_propertiesToMatch;
 }
 
-+ (id)@¨Ì°Ø±;
-+ (id)arPlatters;
-- (_Bool);
-- (id);
-- (_Bool);
-- (void)source=pid pid=%lld;
-- (void)for UISplitViewControllerStyleTripleColumn.;
++ (id);
++ (id)a°!Dù1`ð1Â0@ù
+× ;
+- (void);
+- (void);
+- (id)°NðNXS;
+- (_Bool)remote view controller for extension invalidation:%{public}@; contextToken:%{public}@, rvc:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)Ç\;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setPropertiesToMatch:) NSDictionary *_propertiesToMatch; // @synthesize _propertiesToMatch;

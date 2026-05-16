@@ -12,13 +12,13 @@
     _Bool _showCollaborationUIToCreateNewShares;
 }
 
-+ (id)Ô¿ÊÿyQ÷8;
++ (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)mRelatedDetailPreparation;
 
 // Remaining properties
 @property(nonatomic) _Bool showCollaborationUIForExistingShares; // @synthesize showCollaborationUIForExistingShares=_showCollaborationUIForExistingShares;

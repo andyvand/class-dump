@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol PXStoryMutableDummyStyle
-- (long long)yAAy³!®û y¬<;
+- (CDStruct_cac3ced6)È-¬.1`1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allowedClipCompositionsInLandscape;

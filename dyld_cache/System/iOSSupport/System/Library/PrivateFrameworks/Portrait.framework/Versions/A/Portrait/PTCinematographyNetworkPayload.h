@@ -16,8 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (CDStruct_1b6d18a9);
+- (void);
 
 // Remaining properties
 @property(readonly) PTCinematographyDetection *detection; // @synthesize detection=_detection;

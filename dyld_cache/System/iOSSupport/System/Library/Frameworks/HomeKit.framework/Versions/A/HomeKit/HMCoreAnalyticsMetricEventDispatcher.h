@@ -10,9 +10,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void)redicate:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)¸b;
 
 @end
 

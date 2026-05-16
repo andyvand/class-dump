@@ -13,9 +13,9 @@
 
 - (void);
 - (id);
-- (void)onnections;
-- (void)B;
-- (id);
+- (void);
+- (void);
+- (id)mitBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)rNameLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *darkGrid; // @synthesize darkGrid=_darkGrid;

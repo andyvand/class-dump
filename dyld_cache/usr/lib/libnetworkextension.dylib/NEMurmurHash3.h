@@ -8,7 +8,7 @@
 {
 }
 
-+ (unsigned int)daSession:(const char *)arg1 timeout:(unsigned int)arg2 preWait:withDMTool: /* Error: Ran out of types for this method. */;
++ (unsigned int);
 + (unsigned int);
 
 @end

@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id)˿;
-- (void);
-- (id)B;
-- (int)H<;
+- (id);
+- (id);
+- (int);
+- (void)atedImage"16Q24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TFResolver> resolver; // @synthesize resolver=_resolver;

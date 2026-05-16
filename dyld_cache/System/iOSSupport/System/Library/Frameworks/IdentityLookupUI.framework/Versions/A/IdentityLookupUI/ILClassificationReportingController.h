@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

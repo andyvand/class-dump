@@ -20,31 +20,31 @@
 
 - (_Bool);
 - (id);
-- (void)s;
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)ipient;
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)?;
 - (id);
-- (id);
-- (id)eralSessionConfiguration;
-- (id)tEvent;
-- (void)eshold:(id)arg1;
-- (id)íÿr3,cE;
+- (void)|| hintSource == RTHintSourceCompanionSyncVisit;
+- (void)ter operation failed,err,%@;
+- (id)entTransitionPreprocessor:applyRule_longTransitionsAreInvalid_ForTransitionAtIndex, tripSegmentTransitionStatus[%ld], Passthrough /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *contextRequestsQueue; // @synthesize contextRequestsQueue=_contextRequestsQueue;

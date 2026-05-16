@@ -47,12 +47,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (long long);
+- (struct CGRect);
+- (id);
 - (struct CGSize);
-- (id);
-- (id);
-- (struct CGRect)d;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexSet *activeMADSubjectIndexes; // @synthesize activeMADSubjectIndexes=_activeMADSubjectIndexes;

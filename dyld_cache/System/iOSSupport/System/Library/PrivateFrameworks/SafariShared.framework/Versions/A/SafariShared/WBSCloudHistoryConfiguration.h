@@ -27,7 +27,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,16 +37,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void)h*;
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property unsigned long long maximumRequestCharacterCount; // @synthesize maximumRequestCharacterCount=_maximumRequestCharacterCount;

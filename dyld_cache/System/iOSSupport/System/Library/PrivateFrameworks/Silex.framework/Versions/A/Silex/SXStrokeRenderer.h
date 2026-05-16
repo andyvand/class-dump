@@ -11,7 +11,8 @@
     SXComponentView *_componentView;
 }
 
-- (void);
+- (void)0@ù
+× ;
 
 @end
 

@@ -34,98 +34,95 @@
 }
 
 + (id);
++ (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool)ionSessionIdentifier: /* Error: Ran out of types for this method. */;
-+ (_Bool);
-+ (id)
-`;
++ (_Bool)apsuleForSelection;
++ (id)p8;
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)!;
-- (void)CardDAVCredentials;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)`;
 - (void);
-- (void)tion failure;
-- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)NSString",R,N,V_personID;
-- (void)owPlayingInfoCenter resigned active system fallback error=%{public}@;
-- (_Bool)moteCommandEvent"@?<v@?@"MPRemoteCommandStatus">>16^B24;
-- (void);
-- (void)`;
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)¼~	ë;
-- (void);
 - (_Bool);
-- (void)@ù
-× ;
-- (_Bool)× ;
-- (void)ùÅ°1¢!0@ù
-× ;
-- (void)× ;
-- (id)
-× ;
-- (id)0@ù
-× ;
-- (void);
-- (_Bool)
-× ;
-- (void)EùÌÐ1¢!0@ù
-× ;
-- (void);
-- (id)"dataSourceSuppliesPageCount"b1"dataSourceSuppliesPageNumber"b1};
-- (_Bool)8@52;
-- (void)n:(_Bool)arg1;
-- (id)acePan: /* Error: Ran out of types for this method. */;
-- (id)ndFinalSpring: /* Error: Ran out of types for this method. */;
-- (void)owDirections:(_Bool)arg1 animated:(id)arg2;
-- (_Bool)ontrollerForPresentedController:presentingController:sourceController:style: /* Error: Ran out of types for this method. */;
-- (void)tView;
+- (struct CGRect);
 - (_Bool);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)Delegate:useDynamicShadow:animated: /* Error: Ran out of types for this method. */;
-- (void)sGestureForHitView:(id)arg1;
-- (id)ionallyThen: /* Error: Ran out of types for this method. */;
-- (id)t:(_Bool)arg1;
-- (void)readths;
-- (id)gImmediateCompletion;
-- (id),V_contentInsets;
-- (void)Vm_mode;
-- (void),N,V_currentState;
-- (id)V_shadowEnabled;
-- (id),N,GisAtTarget,V_atTarget;
-- (struct CGRect)oller",&,N,V_previewActionsController;
-- (void)terGroupSpace;
-- (_Bool)`MpN(O;
 - (id);
-- (_Bool)was nil for %@;
 - (id);
-- (id)ºþÿ;
-- (id)nvalid edge argument for -contentScrollViewForEdge:. Only values of NSDirectionalRectEdgeTop or NSDirectionalRectEdgeBottom are accepted. /* Error: Ran out of types for this method. */;
-- (id)rollersToCheckForUserActivity];
-- (id)ed view to be returned to the collection view in preparation for display. When the collection view's data source is asked to provide a view for a given index path, ensure that a single view is dequeued and returned to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ /* Error: Ran out of types for this method. */;
-- (id)ntainerView;
-- (void)tivationState;
-- (id)([;
-- (id);
 - (void);
-- (void);
-- (void)ç¸];
-- (void)Ù/ÿÂ¬;
-- (void)`;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)ð1Â0@ù
+× ;
+- (void)
+× ;
+- (id)Ô ;
+- (id);
+- (_Bool)0@ù
+× ;
+- (id)!$Eù1eð1Â0@ù
+× ;
+- (id);
+- (void)e>";
+- (void)ionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
+- (_Bool)xts"b1};
+- (void)IViewConfigurationState"16;
+- (void)ew>"16;
+- (id)ate;
+- (void)rRowAtIndexPath:(id)arg1;
+- (id)DecorationInfo: /* Error: Ran out of types for this method. */;
+- (void)tShouldAppearBelowOrthogonalScrollingContainer:(id)arg1;
+- (id)Rect: /* Error: Ran out of types for this method. */;
+- (void)rom:(_Bool)arg1 toPlacement:(id)arg2 transition:completion: /* Error: Ran out of types for this method. */;
+- (void):interactionState: /* Error: Ran out of types for this method. */;
+- (void)etAngle:(id)arg1 magnitude: /* Error: Ran out of types for this method. */;
+- (id)SystemEffectSupportingEnvironment;
+- (_Bool)N,S_setFromStartFrame:,V_fromStartFrame /* Error: Ran out of types for this method. */;
+- (id)ityIndicatorForUnRenderedContent;
+- (void)pertyAnimator;
+- (void)Ä ;
+- (_Bool)à¸;
+- (void)¼Ð\·;
+- (void)°éÿôéÿéÿ<éÿÐéÿéÿ4éÿXéÿ|éÿ éÿÔéÿ<¡éÿx¡éÿ¡éÿ¢éÿü¢éÿ£éÿH£éÿ£éÿÀ£éÿü£éÿ8¤éÿä¦éÿÀ§éÿä§éÿH©éÿ¬©éÿÐªéÿ(«éÿt«éÿÜ«éÿP¬éÿh­éÿÔ¯éÿh°éÿ´°éÿ(±éÿT±éÿx±éÿ´±éÿ¬³éÿÐ³éÿ´éÿl´éÿ´´éÿ¸·éÿô·éÿ¸éÿ<¸éÿx¸éÿT¼éÿ¼éÿ<½éÿH½éÿ¼¾éÿ¿éÿDÁéÿÁéÿ,ÄéÿxÄéÿìÄéÿÆéÿ,ÈéÿÉéÿxÊéÿÄÊéÿËéÿàËéÿHÌéÿÌéÿDÎéÿÎéÿÜÎéÿÏéÿÜÏéÿ;
+- (void);
+- (id)ollerColumn = %@;
+- (void)ctionView internal bug:(id)arg1 Attempting to create a cell with invalid attributes. Collection View:%@, Attributes:%@, Index Path:%@ /* Error: Ran out of types for this method. */;
+- (void)@;
+- (id);
+- (void)\[;
+- (_Bool)þÖ3è];
+- (id)Ëÿ;
+- (void)0]_;
+- (id)àØ8ÿ;
+- (void)(Ûb;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFocusEventDelivery *_eventDelivery; // @synthesize _eventDelivery;

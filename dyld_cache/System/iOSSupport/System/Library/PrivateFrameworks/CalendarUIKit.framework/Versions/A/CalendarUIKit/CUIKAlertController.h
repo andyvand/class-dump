@@ -13,17 +13,17 @@
     NSString *_message;
 }
 
-+ (id)I;
++ (id);
 - (long long);
 - (void);
 - (id);
-- (void)id)_block_invoke;
-- (void);
 - (void);
 - (id);
-- (void)gController:(id)arg1;
-- (id);
-- (id)D;
+- (void);
+- (id);
+- (id);
+- (void): /* Error: Ran out of types for this method. */;
+- (void)G?y0æGGqÇG_ACyADyAEÚTyACyìy{QGAJyrSgGG_SbQo_#SyACyA7_W'G_Qo_GA2_GACyADyAE°ëyA7_GAEGA2_GtGG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions;

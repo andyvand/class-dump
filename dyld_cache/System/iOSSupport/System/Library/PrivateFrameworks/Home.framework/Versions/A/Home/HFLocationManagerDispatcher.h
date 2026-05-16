@@ -32,26 +32,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (int);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)0@ù
-× ;
+- (void)tor:(id)arg1;
+- (int)rService;
+- (void)@ß´à<â;
 
 // Remaining properties
 @property(readonly, nonatomic) int authorizationStatus;

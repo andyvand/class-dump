@@ -27,14 +27,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *largeContentTitle;

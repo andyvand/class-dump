@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ged. Number of points changed from:%lu to:%lu /* Error: Ran out of types for this method. */;
 - (id);
+- (void)ppedArea:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

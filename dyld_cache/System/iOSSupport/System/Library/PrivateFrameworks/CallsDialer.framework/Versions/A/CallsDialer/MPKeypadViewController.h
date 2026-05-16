@@ -71,18 +71,18 @@
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (void)le:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *IDSstatusCache; // @synthesize IDSstatusCache=_IDSstatusCache;

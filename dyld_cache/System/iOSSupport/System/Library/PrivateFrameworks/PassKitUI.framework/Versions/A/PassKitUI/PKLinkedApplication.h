@@ -60,22 +60,24 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (long long);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)× ;
+- (void)øð1â
+0@ù
+× ;
+- (_Bool);
+- (id)ïÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *applicationIdentifiers; // @synthesize applicationIdentifiers=_applicationIdentifiers;

@@ -98,15 +98,15 @@
 - (CDStruct_aa11df03);
 - (unsigned long long);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)onOfInterest;
-- (id)n;
-- (void)ExceedAllocationThreshold:(CDUnknownBlockType)arg1 The allocation request failed because it would have exceeded a specified allocation threshold (see kCVPixelBufferPoolAllocationThresholdKey).;
-- (void)ectionSubtype;
+- (void);
+- (id)ts;
+- (void)ratedLibraryOverlayButtonAXLabel;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool areSelectionDataSourceStylesFinal; // @synthesize areSelectionDataSourceStylesFinal=_areSelectionDataSourceStylesFinal;

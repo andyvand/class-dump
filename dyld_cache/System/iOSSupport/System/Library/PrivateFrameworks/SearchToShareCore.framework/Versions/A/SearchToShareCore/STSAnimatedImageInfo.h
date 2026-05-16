@@ -12,12 +12,12 @@
     double _duration;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
 - (double);
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
+- (void)SessionTickets:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

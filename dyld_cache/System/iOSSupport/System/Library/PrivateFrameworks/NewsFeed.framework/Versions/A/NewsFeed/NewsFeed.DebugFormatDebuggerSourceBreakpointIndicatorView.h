@@ -13,11 +13,12 @@
     MISSING_TYPE *onTap;
 }
 
-- (id);
-- (_Bool);
 - (id);
-- (void);
-- (id);
+- (id)! @ùñþ1Â0@ù
+× ;
+- (_Bool)$ïÿ;
+- (id)¥Ì2°yoþÌ2H?pþ;
+- (void)*÷þ-;
 
 @end
 

@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)aÿÆæ6¾1;
-- (long long)b;
-- (Class)lineUpdateOperation;
++ (id)T\;
+- (long long);
+- (Class);
 - (struct CGRect);
-- (id)?רc;
-- (void);
+- (id);
 - (struct CGSize);
 - (id);
-- (double)in­yAEyAEyAEyÏ?®yq¶­Ü­y_>I­y»9®GGAGGSg_>GAEyB®y_>A2GGARy_>SgA2GGGGAEyAEyAHy~_>ALGARy{_>A2GGGAEyARys_>A2GGARyo_>A2GGGGGAEyAEyAEyARy__>A2GGARyX>A2GGGAEyARyK_>A2GGAHyAHyAFyAgHyAGsy­G5_>GAJy<9®GG¦­y5®SgGGGGAFyA3GGGGGG_Qo_;
+- (void)\;
+- (double)l®0;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *placeholderImage;

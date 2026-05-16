@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (void);
+- (id);
+- (void)%@;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

@@ -6,6 +6,6 @@
 
 @interface (null) (SFUCryptoUtilsAdditions)
 + (id);
-- (_Bool);
+- (_Bool);
 @end
 

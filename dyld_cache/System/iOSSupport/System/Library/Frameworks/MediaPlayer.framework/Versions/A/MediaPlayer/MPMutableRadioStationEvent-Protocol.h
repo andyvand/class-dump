@@ -7,10 +7,7 @@
 @class NSDate, NSString;
 
 @protocol MPMutableRadioStationEvent
-- (NSString *)st properties;
-- (void)ForScaledImageSize:(NSDate *)arg1 scaledFittingSize: /* Error: Ran out of types for this method. */;
-- (NSDate *)rIdentityForMediaRemoteOptions -âï¸Cannot decode override user identity. Using active account.;
-- (void);
+- (void)pple.mediaplayer.artworkservice.colorAnalysis.OperationQueue;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *descriptionText;

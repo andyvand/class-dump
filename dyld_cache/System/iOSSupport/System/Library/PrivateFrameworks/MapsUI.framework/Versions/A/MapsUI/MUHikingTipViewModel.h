@@ -17,9 +17,9 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)availability;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *subtitle;

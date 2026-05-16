@@ -20,18 +20,18 @@ __attribute__((visibility("hidden")))
     double _previousProgress;
 }
 
-- (id)pName:activity: /* Error: Ran out of types for this method. */;
-- (id)essageGUID:limit: /* Error: Ran out of types for this method. */;
-- (void)ectionSource:(id)arg1;
-- (void)nedNetwork:(id)arg1;
-- (void)kMonitorWithRemoteHost:(id)arg1 delegate:allowsUltraConstrainedNetwork: /* Error: Ran out of types for this method. */;
-- (void)goDataFromBlastDoorImage:(double)arg1;
-- (void)lyWithInput:(id)arg1;
-- (void)holed;
-- (void)generateLockRecord;
-- (void)Key;
-- (void)esponse;
-- (double)rDelegate;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (double);
 - (id);
 - (struct CGRect);
@@ -40,15 +40,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void)blocking accountIsVerifiedForMOCAndSafeForCacheDelete with time:%@ and accountValidForCD %@ /* Error: Ran out of types for this method. */;
-- (void)verVersion %@;
-- (id)+;
 - (void);
-- (void)@ù
-× ;
-- (void)! EùQÁð1¢!0@ù
-× ;
-- (void),»þ;
+- (void);
+- (id);
+- (void);
+- (void)ppingDescendant;
+- (void)Úüf;
+- (void)È,l;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

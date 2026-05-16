@@ -18,8 +18,8 @@
     MISSING_TYPE *$__lazy_storage_$_initializingTask;
 }
 
-- (void)_videoConfigurationWithBackgroundPriority;
 - (id);
+- (void);
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewTransitionLayout;
+@class NSIndexPath;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (void);
-- (_Bool)Büÿ²üÿ;
-- (UICollectionViewTransitionLayout *)iceChartFrame;
-- (NSIndexPath *)eRangePickerLayoutAttributesFactoryTypeP;
-- (NSIndexPath *);
-- (_Bool)5DEE9A5212ErrorContext;
-- (void)edConfigService;
-- (_Bool);
-- (NSIndexPath *)nuIdentifier;
+- (NSIndexPath *)ators;
+- (_Bool);
+- (_Bool)¼l;
+- (void)pzüÿF-üÿvzüÿ;
+- (_Bool);
 @end
 

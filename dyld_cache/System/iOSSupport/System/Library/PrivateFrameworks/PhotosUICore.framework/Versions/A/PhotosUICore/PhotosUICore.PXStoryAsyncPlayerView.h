@@ -12,10 +12,10 @@
     MISSING_TYPE *hostingView;
 }
 
-- (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void)der;
 
 @end
 

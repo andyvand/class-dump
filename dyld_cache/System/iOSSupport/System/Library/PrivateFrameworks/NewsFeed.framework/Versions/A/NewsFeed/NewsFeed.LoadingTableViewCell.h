@@ -11,10 +11,10 @@
     MISSING_TYPE *activityIndicatorView;
 }
 
-- (void)4;
 - (id);
-- (id);
-- (void)on;
+- (void);
+- (id)bù÷ÿ;
+- (void);
 
 @end
 

@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)lGroupID on service %@;
 + (_Bool);
 + (_Bool);
-+ (id)gOverlapsMain;
-+ (id)figuration;
-+ (long long)µÿ'QÎÝf;
++ (_Bool);
++ (id);
++ (id)nfoKey;
++ (long long)Ø¤ÿZ!Ý8h;
 
 @end
 

@@ -16,7 +16,7 @@
     NSMutableDictionary *_homeIdentifierToFuturePromiseMapping;
 }
 
-+ (id)pÌ;
++ (id)igurationCredential_None;
 - (void);
 - (void);
 - (void);
@@ -35,9 +35,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)ageIconIdentifierOutletBrazil;
+- (void);
+- (void)ActivitySettingsEnableMenuOff;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *concurrentQueryQueue; // @synthesize concurrentQueryQueue=_concurrentQueryQueue;

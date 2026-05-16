@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ulateKeyAllowCurrencyConversions(void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;

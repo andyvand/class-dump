@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (struct CGPoint);
 - (id);
 - (unsigned long long);

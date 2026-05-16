@@ -21,39 +21,38 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (long long);
-+ (id)ontrollerContextTransitioning>"16;
++ (id);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
 - (long long);
-- (id)4@32i40@44@52;
-- (id)@16i24@28@36;
-- (id)ient";
-- (id)pper";
-- (id)@20;
-- (long long)ier:personCentricID:chat: /* Error: Ran out of types for this method. */;
-- (long long)tWithMessage:fromIdentifier:personCentricID:chat: /* Error: Ran out of types for this method. */;
-- (id)push:%@ /* Error: Ran out of types for this method. */;
-- (id)sages found for guid:%@ /* Error: Ran out of types for this method. */;
-- (id)bout message, no messages found for guid:%@ /* Error: Ran out of types for this method. */;
+- (long long);
+- (long long);
 - (id);
-- (void);
-- (long long)P;
-- (id)SongClassicalMovement__MAPPING_MISSING__;
-- (void);
-- (id)
-× ;
-- (id)ÑÎð1¢!0@ù
-× ;
-- (void)ToAnchor:(long long)arg1 multiplier: /* Error: Ran out of types for this method. */;
-- (long long)sture: /* Error: Ran out of types for this method. */;
-- (id)int=dd},N,V_etchOffset;
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (void)ÏÔ0`;
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)Á;
+- (void)
+× ;
+- (long long)nder: /* Error: Ran out of types for this method. */;
+- (id)dChange;
+- (void)usesBottomSafeArea;
+- (void)eAndCalendarIfNeeded;
+- (id)erlineForAccessibilityButtonShapesEnabled:(struct _NSZone *)arg1;
+- (id)N,V_contentSpacingForContainer;
+- (long long)IView",R,N,V_trailingBarSnapshot;
+- (void)Ô;
 - (void);
 
 // Remaining properties

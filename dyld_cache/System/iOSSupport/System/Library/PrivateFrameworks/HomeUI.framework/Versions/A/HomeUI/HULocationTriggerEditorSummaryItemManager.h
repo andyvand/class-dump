@@ -39,7 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)eHubUpdateHomePod.CancelButton;
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerConditionEditorItemModule *conditionEditorModule; // @synthesize conditionEditorModule=_conditionEditorModule;

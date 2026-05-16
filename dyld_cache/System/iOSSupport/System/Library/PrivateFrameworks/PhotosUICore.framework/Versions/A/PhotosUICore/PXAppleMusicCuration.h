@@ -27,8 +27,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Iõ0;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAssetFetchResult> bestMusicSuggestions; // @synthesize bestMusicSuggestions=_bestMusicSuggestions;

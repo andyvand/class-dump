@@ -22,16 +22,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (void);
+- (id);
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

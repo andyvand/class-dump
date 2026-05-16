@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScene;
+
 @protocol UISceneDelegate
 
 @optional
-- (void)[GGâYyAN_Qo_G%YGAByd4ºAMGGATG;
+- (void)Ô¡¨°!GùÑñÐ1â
+0@ù
+× ;
+- (void)ame:(UIScene *)arg1;
 @end
 

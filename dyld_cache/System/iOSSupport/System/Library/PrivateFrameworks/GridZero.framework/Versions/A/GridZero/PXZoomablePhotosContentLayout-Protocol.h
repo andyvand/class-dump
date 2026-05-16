@@ -5,11 +5,9 @@
 //
 
 @protocol PXZoomablePhotosContentLayout
-- (void)Source:(struct UIEdgeInsets)arg1;
-- (struct UIEdgeInsets)s;
-
-@optional
-- (void)ilityAnimator;
+- (struct UIEdgeInsets)6B24@?<v@?>28;
+- (void)tions;
+- (long long)ublic}@;
 
 // Remaining properties
 @property(nonatomic) double accessoryAlpha;

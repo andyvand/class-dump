@@ -16,11 +16,11 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
-- (void)nator.m;
+- (void)iewControllerDelegate_;
 
 // Remaining properties
 @property(retain, nonatomic) WFWorkflowIconDrawer *iconDrawer; // @synthesize iconDrawer=_iconDrawer;

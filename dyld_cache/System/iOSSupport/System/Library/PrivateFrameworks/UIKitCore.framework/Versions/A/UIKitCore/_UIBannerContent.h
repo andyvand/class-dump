@@ -16,25 +16,25 @@
     UIColor *_contentColor;
 }
 
-+ (id)e. transferState:(id)arg1 %@ cloudKitSyncState:%@ existsAtLocalPath:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)¯ÛÁbm;
-- (void);
-- (id);
-- (void);
-- (id);
++ (id);
++ (_Bool)on;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ªó-º;
-- (id)1¢!0@ù
+- (id)Ôa;
+- (id)1Â0@ù
 × ;
-- (void)Ávð!\Eù±ËÐ1¢!0@ù
+- (void)¡°!0@ùd°1Â0@ù
 × ;
-- (id)MenuElementWasFulfilled: /* Error: Ran out of types for this method. */;
+- (void)ler:(id)arg1 collapseOntoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)e:(id)arg1;
+- (void)tageObservable;
+- (id)a;
 - (void);
 - (id);
-- (void)ËIe;
+- (id)nt=dd}{CGSize=dd}}8@?0;
+- (void):( /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

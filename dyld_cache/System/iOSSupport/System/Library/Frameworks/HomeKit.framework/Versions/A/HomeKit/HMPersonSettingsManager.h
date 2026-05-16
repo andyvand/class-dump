@@ -13,17 +13,17 @@
 }
 
 + (id);
-+ (id);
++ (id)DKey;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)t;
+- (void)ÐT¨¸ì¡Ô¥«¤¯t±$´;
+- (id)HMHomeFetchWalletKeyColorMessageKeyColor;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

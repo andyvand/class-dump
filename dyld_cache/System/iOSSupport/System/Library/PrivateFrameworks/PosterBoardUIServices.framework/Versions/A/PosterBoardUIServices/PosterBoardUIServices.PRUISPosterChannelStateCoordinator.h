@@ -27,14 +27,14 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void)ySaySSGSSAFGGAJG_AHyAEyAFSSA1_SgGAJGAHyAHyÃnyÇÂpyAFGSSGÓ¯pGAJGtGAByAfEyAFSSARySaySo9CNContactCGA16_=ÎyAF_SSQo_GGGGAFGtGAAyAHyAwZG_AByAAyA2__AEyAFSo22PRSPosterConfigurationCSgARySayA27_GA27_0=ÎyAF_A27_Qo_GSgGA13_tGAFGtGGAAyAByÚ»pyA9__Qo_AFG_AFSgtGGA40_GAAyACyAdAyAEyAFö:ÎARySayA44_GA44_AFGG_ÝÁpyAFGSgA49_tGADG_ACyADA49_AFGtGSgtGAAyAF_AByAByA2FGAAyAF_AFtGGA2FtGG_AByAHyA9_AJGAAyõºpyAEyAF"I /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP21PosterBoardUIServices42PRUISPosterChannelStateCoordinatorDelegate_> delegate; // @synthesize delegate;

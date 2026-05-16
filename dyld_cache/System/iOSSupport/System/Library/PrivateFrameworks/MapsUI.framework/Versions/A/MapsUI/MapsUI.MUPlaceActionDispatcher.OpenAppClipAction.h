@@ -13,8 +13,8 @@
     MISSING_TYPE *quickLink;
 }
 
-- (void);
 - (id);
+- (void)pectedNumberOfFooterLines: /* Error: Ran out of types for this method. */;
 
 @end
 

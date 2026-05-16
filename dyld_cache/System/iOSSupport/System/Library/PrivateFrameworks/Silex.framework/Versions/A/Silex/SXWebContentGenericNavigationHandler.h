@@ -18,9 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
+- (unsigned long long);
+- (void)ñîð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXURLActionFactory> URLActionFactory; // @synthesize URLActionFactory=_URLActionFactory;

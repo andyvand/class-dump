@@ -34,10 +34,10 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)FinishWithTriggerBuilder so automatically dismissing;
 
 // Remaining properties
 @property(nonatomic) _Bool hideValue; // @synthesize hideValue=_hideValue;

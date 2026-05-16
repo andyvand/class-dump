@@ -17,20 +17,19 @@
     MISSING_TYPE *__guardAgainstDegenerateBaselineCalculation;
 }
 
-+ (Class)ellLayout;
-- (struct CGSize);
-- (struct CGRect);
-- (_Bool);
++ (Class);
 - (id);
-- (void);
-- (_Bool)Fù±ÊÐ1¢!0@ù
-× ;
-- (id):(id)arg1;
-- (id)Cannot insert elements ;
-- (struct CGRect)ÿ 6;
-- (void)ªÜÎ»l;
-- (struct UIEdgeInsets);
-- (_Bool)pÿ;
+- (_Bool);
+- (struct CGSize)ceneSettingsDiff"24@"FBSSceneTransitionContext"32@?<v@?@"FBSWorkspaceSceneUpdateResponse">40;
+- (_Bool)bilityStopServer;
+- (id)CollectionViewSelectionController;
+- (id)subtype:(id)arg1 %li; to windows:%lu /* Error: Ran out of types for this method. */;
+- (void)extStyleEmphasizedTitle2;
+- (struct CGRect)áíþLÎ(kl;
+- (struct CGRect)wÿ¸ï;
+- (_Bool)ø£p;
+- (void)ÿÜÌöq;
+- (struct UIEdgeInsets)¨s;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets _additionalSelectionInsets;

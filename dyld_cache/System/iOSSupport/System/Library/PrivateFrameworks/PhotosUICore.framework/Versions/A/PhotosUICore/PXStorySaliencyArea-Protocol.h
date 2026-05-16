@@ -5,8 +5,7 @@
 //
 
 @protocol PXStorySaliencyArea
-- (float)os.CPAnalytics.userFeedback.avoid.person;
-- (struct CGRect)emoryButtonAccessibilityLabelActionMenu;
+- (float)ngesAndSystemEvents;
 
 // Remaining properties
 @property(readonly, nonatomic) float confidence;

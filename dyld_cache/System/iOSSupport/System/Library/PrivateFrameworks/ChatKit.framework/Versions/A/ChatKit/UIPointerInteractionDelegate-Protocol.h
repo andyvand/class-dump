@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPointerInteraction, UIPointerRegion;
+@class UIPointerInteraction, UIPointerRegion, UIPointerStyle;
 
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (UIPointerRegion *)¡«°!0Aù1Ãð1¢!0@ù
-× ;
-- (void)te failed with error:(UIPointerInteraction *)arg1 %s;
-- (void)ickerAvailbilityDidChangeNotification;
+- (UIPointerRegion *)s;
+- (UIPointerStyle *)Çe]SgGG²6;
+- (void)TextStyle:(UIPointerInteraction *)arg1;
+- (void);
 @end
 

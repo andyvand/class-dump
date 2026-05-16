@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMAnimationTimerObserver;
-
 @protocol IMImageAnimationTimerProtocol
-- (_Bool);
-- (void)ePaperDocumentForAttachment:(id <IMAnimationTimerObserver>)arg1 fromLegacyMediaAtURL:error: /* Error: Ran out of types for this method. */;
-- (void)a;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldStopWhenBackgrounded;

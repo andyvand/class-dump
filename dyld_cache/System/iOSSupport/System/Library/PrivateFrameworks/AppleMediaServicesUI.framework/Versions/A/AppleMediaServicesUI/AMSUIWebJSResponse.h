@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     AMSUIWebJSRequest *_originalRequest;
 }
 
-+ (_Bool)t\D\<^¬_;
-- (id);
-- (void);
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (double);
+- (void);
+- (void);
+- (void)ludeAuthKitTokens: /* Error: Ran out of types for this method. */;
+- (id)esentedInFormSheet;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *body; // @synthesize body=_body;

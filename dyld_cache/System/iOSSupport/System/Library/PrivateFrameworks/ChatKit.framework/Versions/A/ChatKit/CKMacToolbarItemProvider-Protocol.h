@@ -4,17 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMacToolbarController, CKMacToolbarItem;
-
 @protocol CKMacToolbarItemProvider
-- (void)alignmentRectForFrame:(CKMacToolbarController *)arg1;
-- (void)haredInstance instead.;
-
-@optional
-- (CKMacToolbarItem *);
-- (double);
-- (void)ZÞÕ;
-- (_Bool)Responder;
-- (_Bool)PasswordIncorrectTextViewScrollView;
 @end
 

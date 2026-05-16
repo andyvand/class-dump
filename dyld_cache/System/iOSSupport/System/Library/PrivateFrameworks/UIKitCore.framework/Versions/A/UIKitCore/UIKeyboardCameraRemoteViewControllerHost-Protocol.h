@@ -5,7 +5,5 @@
 //
 
 @protocol UIKeyboardCameraRemoteViewControllerHost
-- (void);
-- (void)@9;
 @end
 

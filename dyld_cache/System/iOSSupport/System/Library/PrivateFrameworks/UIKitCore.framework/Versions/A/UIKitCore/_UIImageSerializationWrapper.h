@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     UIImage *_image;
 }
 
-+ (_Bool)24m;
-- (void)Status Ex returns:(id)arg1 uStatus %u (%s) uFilteredDocuments %u, uDocumentsToFilter %u uRatioFinishedDenominator %u, uRationFinishedNumerator %u, FinishedRatio %f uRowsBookmark %u uRowsTotal %u uMaxRank %u uResultsFound %u uWhereId %u;
++ (_Bool)keyboard type:%ld
+ /* Error: Ran out of types for this method. */;
 - (id);
+- (Class);
+- (void)ultCriticallyDampedValues;
+- (id)eHandler:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (Class)!DFùÑÃÐ1¢!0@ù
-× ;
-- (id)s;
 
 @end
 

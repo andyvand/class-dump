@@ -22,14 +22,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)sions:(_Bool)arg1 %@ new permissions %@;
-- (void)s %@;
-- (void)upported;
-- (void)L;
-- (long long)tringInternal;
-- (unsigned long long)orted type and cannot be formatted as identifier;
-- (_Bool)onfigurationBegin;
-- (_Bool)to pubkeyOid;
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,19 +47,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)g"32;
-- (_Bool)ync: /* Error: Ran out of types for this method. */;
-- (double)at: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (double);
 - (unsigned long long);
 - (void);
+- (void)@16@24Q32;
+- (void)TraitWithMetadata:(_Bool)arg1;
+- (_Bool)disablePlatterController;
+- (void)Dþÿ;
+- (void)leInset;
 - (void);
-- (void);
-- (void)B;
-- (void)idating the fence task;
-- (void)q¶þÿÿÿÿ;
-- (_Bool)UÊ;
-- (id)¹iþ;
-- (void);
+- (id)jnþÝ13Ì·¬þ;
+- (void)5°33Xõ;
 - (void);
 
 // Remaining properties

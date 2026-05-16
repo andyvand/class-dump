@@ -30,7 +30,7 @@
     double _viewResetTimeoutDuration;
 }
 
-+ (id)Tªÿ;
++ (id);
 - (double);
 - (_Bool);
 - (double);
@@ -71,8 +71,8 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id);
 - (void);
-- (id)lic}s) Uploading high resolution image;
 
 // Remaining properties
 @property(nonatomic) _Bool allowCapitalization; // @synthesize allowCapitalization=_allowCapitalization;

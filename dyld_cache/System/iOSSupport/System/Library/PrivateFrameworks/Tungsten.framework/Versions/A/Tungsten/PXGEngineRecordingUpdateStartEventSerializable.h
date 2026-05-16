@@ -15,10 +15,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (double);
 - (void);
 - (void);
 - (unsigned long long);
+- (double)oup: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long needsUpdate; // @synthesize needsUpdate=_needsUpdate;

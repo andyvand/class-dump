@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (unsigned long long);
 - (oneway void);
-- (id)E FROM LSQuarantineEvent  WHERE (LSQuarantineTimeStamp >= ? AND LSQuarantineTimeStamp <= ?);VACUUM;;
-- (_Bool);
+- (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (_Bool);
 - (id);
 
 @end

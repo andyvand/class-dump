@@ -7,6 +7,6 @@
 @interface (null) (BaseBoardUIAdditions)
 + (id);
 + (id);
-+ (id);
++ (id);
 @end
 

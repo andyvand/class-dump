@@ -27,8 +27,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)à
-;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -55,23 +54,23 @@
 - (double);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool);
-- (struct CGPath *);
-- (void);
+- (id);
 - (long long);
 - (void);
+- (void);
 - (id);
+- (struct CGPath *);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)fÙÿdØÿcØÿ!4ý;
 - (double);
+- (void)|;
+- (_Bool)ÿkÝÿkÜÿlÝÿhÛÿiÛÿgÚÿfÚÿfÚÿ9Uþ;
 
 // Remaining properties
 @property(nonatomic, getter=isAntialiased) _Bool antialiased;

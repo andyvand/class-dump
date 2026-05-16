@@ -5,7 +5,6 @@
 //
 
 @protocol FBSSceneDelegate
-- (void)ional (for multichannel audio).;
-- (void)ttingsDeclaration;
+- (void)olor;
 @end
 

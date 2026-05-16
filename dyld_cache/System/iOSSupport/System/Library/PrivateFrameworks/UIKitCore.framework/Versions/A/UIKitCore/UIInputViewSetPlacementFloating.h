@@ -19,40 +19,40 @@ __attribute__((visibility("hidden")))
     NSArray *_subPlacements;
 }
 
-+ (id);
++ (id);
 + (struct CGRect);
-+ (id)Ô ;
-+ (_Bool)Äþm;
-- (id)lightsDidChange:(id)arg1;
-- (void)D: /* Error: Ran out of types for this method. */;
-- (id)pIDOnService: /* Error: Ran out of types for this method. */;
-- (void)henticationController;
-- (void)nary",&,V_chatGUIDToSpamCheckTimerMap;
-- (void);
++ (id)e:(struct CGPoint)arg1;
++ (_Bool)smiss the keyboard for the keyboard show/hide test;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id)tting Value %s to remote key:%s /* Error: Ran out of types for this method. */;
-- (id)e name:%@ /* Error: Ran out of types for this method. */;
-- (void), got new item:(id)arg1 %@;
-- (id)ments with attachment guids from spotlight:(id)arg1 %@;
-- (struct CGRect)roupID:(id)arg1 %@  isFiltered:%d  repairHistory:(Repaired Participant For Chat ID Handle ID Mismatch:%{BOOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (double)nt;
-- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
+- (struct CGRect);
+- (void);
+- (void);
 - (_Bool);
-- (void)
+- (id);
+- (id);
+- (_Bool);
+- (struct CGRect)\ð1Â0@ù
 × ;
-- (_Bool)ardConfigurations;
-- (Class);
-- (void){®Gáz¤¿!ôlV}Æ?[Ó¼ãÝ?;
-- (id);
-- (struct CGRect)Ç3ÉK)`;
-- (_Bool);
-- (void)µ²k;
+- (void)ntainer>"16;
+- (_Bool)g;
+- (void)thDimension:(id)arg1 multiplier:constant: /* Error: Ran out of types for this method. */;
+- (double)t;
+- (_Bool);
+- (Class)ow;
+- (_Bool)t;
+- (void)0î\þ÷ª;
 
 // Remaining properties
 @property(nonatomic) double floatingWidth; // @synthesize floatingWidth=_floatingWidth;

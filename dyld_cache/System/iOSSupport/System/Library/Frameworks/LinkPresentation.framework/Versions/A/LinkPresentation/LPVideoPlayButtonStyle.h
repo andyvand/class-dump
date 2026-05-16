@@ -18,13 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) LPSize *backgroundSize; // @synthesize backgroundSize=_backgroundSize;

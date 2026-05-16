@@ -35,11 +35,11 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
 - (long long);
-- (CDStruct_e83c9415)ilsTimeEditViewModel;
+- (struct CGSize);
+- (struct CGSize);
+- (CDStruct_e83c9415)rViewMode);
+- (id)P;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataSourceIdentifier;

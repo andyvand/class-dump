@@ -11,9 +11,9 @@
     MISSING_TYPE *constrainedWidth;
 }
 
+- (struct CGSize);
 - (id);
 - (id);
-- (struct CGSize)Ð;
 
 @end
 

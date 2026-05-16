@@ -31,10 +31,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id)tivityPerformingHandler;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType activityFinishedPerformingHandler; // @synthesize activityFinishedPerformingHandler=_activityFinishedPerformingHandler;

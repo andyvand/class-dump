@@ -11,8 +11,8 @@
     MISSING_TYPE *configuration;
 }
 
-- (void);
 - (id);
+- (void)£Ù;
 
 @end
 

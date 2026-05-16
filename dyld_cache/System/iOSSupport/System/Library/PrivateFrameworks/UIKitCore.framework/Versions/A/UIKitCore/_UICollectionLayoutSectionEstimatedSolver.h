@@ -31,79 +31,80 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (struct _NSRange);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (double),;
-- (id)i/;
-- (id);
-- (id)configuration.system.airdrop;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (struct CGSize);
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
+- (struct _NSRange);
 - (void);
-- (id);
-- (id);
-- (void);
-- (struct CGVector)sicVideos;
-- (void)@?0@"MPModelArtist"8;
-- (double)elRelationshipMoviePlaybackPosition;
-- (id);
-- (struct CGRect);
-- (long long);
-- (id);
-- (struct CGRect);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (struct CGRect);
-- (_Bool)1¢!0@ù
+- (void);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (id)a;
+- (id)Ð!¸Eùað1Â0@ù
 × ;
-- (struct _NSRange)áp!¤Dù±Ãð1¢!0@ù
+- (void)QfÐ1Â0@ù
 × ;
-- (struct CGRect)
-× ;
-- (id)"16@"UITextRange"24@"<NSCoding><NSCopying>"32;
-- (id)ngController"16@"UIScene<_UISceneUIWindowHosting>"24;
-- (unsigned long long)yplaneSwitcher;
-- (struct _NSRange)donedVisualProvider:(id)arg1;
-- (id)e;
-- (unsigned long long)zer:containerViewForSession: /* Error: Ran out of types for this method. */;
-- (_Bool)ontentInsetsFromFonts;
-- (id)ess:(id)arg1;
-- (id)crollerImp;
+- (id)ddddddddddd}16;
+- (id)olling:(struct CGRect)arg1;
+- (id)WhenVisible;
+- (unsigned long long)teButton;
+- (void)_sizeToOccupy;
+- (id)er;
+- (struct CGVector)Frame:oldFrame:newContentSize:andOldContentSize: /* Error: Ran out of types for this method. */;
+- (void)lightHoverGestureRecognizer;
+- (id)eneSettingsDiffInspector",&,N,V_carPlayDiffInspector;
+- (id)hBarBackground;
+- (void)à(¨)p*h,d-.;
+- (struct CGRect);
+- (id);
+- (void)on (%ld) which is out of bounds.;
+- (double)ly;
+- (double)xt * _Nonnull _renderingSlotDefaultContext(void)_block_invoke;
+- (id)Level-Domain-Variant;
+- (void)Participant:(id)arg1 %p;
+- (_Bool)ÞÞî?{®GázÔ?
+×£p=
+ï?B;
 - (void);
-- (_Bool),´È` ø;
-- (void)er %@;
-- (struct CGRect)=%s, ready=1;
-- (struct CGRect)èÿÿ;
-- (void)ÿ;
-- (unsigned long long)äÌþÿÌÆþÿ¼Ìþÿ;
-- (id)bers, and symbols.;
-- (id)ng;
-- (void)%p equalSize=%p minimumSize=%p;
-- (void)tChunk"16@?<v@?>24;
-- (long long)X@71õä;
-- (id)Õ¯À;
-- (id);
-- (_Bool)¡;
-- (id)©c;
-- (id)`3;
-- (id);
-- (id)ÖØr<d;
-- (long long)Oe;
+- (void);
+- (id){;
+- (id)¤]hþO;
+- (void)D°E®^;
+- (id)Oÿ;
+- (id),ãþ;
+- (void)0L¥;
+- (unsigned long long);
+- (id)ÿÖ¨ÊW(d;
+- (long long)ÿ;
+- (_Bool)3]ÿø;
+- (long long)Î;
+- (id)d;
+- (id)edÀ;
+- (id)þ;
+- (id)Sÿ@ÔÀd;
+- (_Bool)ÿÈMØx±d;
+- (unsigned long long);
+- (struct CGRect)þ»e×§f;
+- (unsigned long long)À;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICollectionLayoutContainer *container; // @synthesize container=_container;

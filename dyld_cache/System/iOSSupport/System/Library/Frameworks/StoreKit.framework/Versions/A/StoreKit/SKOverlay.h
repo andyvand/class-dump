@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) SKOverlayConfiguration *configuration; // @synthesize configuration=_configuration;

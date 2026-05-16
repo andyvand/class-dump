@@ -5,8 +5,5 @@
 //
 
 @protocol RTMetricProtocol
-+ (CDStruct_b8464340)IPv4 STUN_MAGIC_COOKIE:remainingLength:%zd < 4 /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
 @end
 

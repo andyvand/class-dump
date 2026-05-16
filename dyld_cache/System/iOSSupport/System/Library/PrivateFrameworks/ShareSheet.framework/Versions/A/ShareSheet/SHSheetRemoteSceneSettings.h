@@ -33,10 +33,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SFCollaborationCloudSharingRequest *cloudShareRequest; // @synthesize cloudShareRequest=_cloudShareRequest;

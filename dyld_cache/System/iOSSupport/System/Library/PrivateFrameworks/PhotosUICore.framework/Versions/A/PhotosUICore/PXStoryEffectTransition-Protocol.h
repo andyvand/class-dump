@@ -7,7 +7,6 @@
 @class PXGEffect;
 
 @protocol PXStoryEffectTransition
-- (PXGEffect *)ght: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGEffect *auxiliaryEffect;

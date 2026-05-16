@@ -16,16 +16,16 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)put;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dialogRequestData; // @synthesize dialogRequestData=_dialogRequestData;

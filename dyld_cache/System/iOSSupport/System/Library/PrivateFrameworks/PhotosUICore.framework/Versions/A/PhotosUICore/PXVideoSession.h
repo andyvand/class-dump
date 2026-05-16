@@ -201,7 +201,6 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (CDStruct_e83c9415);
 - (void);
 - (void);
@@ -221,6 +220,7 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -229,43 +229,41 @@
 - (void);
 - (long long);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)°myl«°myl¬Ö0e;
-- (void);
-- (CDStruct_1b6d18a9);
 - (id);
 - (_Bool);
-- (id)1b0@ù
-× ;
-- (id)!w!(Dù±{Ð1b0@ù
-× ;
-- (id)String",C,N,V_audioIdentifiersToHighlightString;
-- (id);
-- (id);
-- (void);
-- (struct CGAffineTransform);
-- (float);#ÿ4K;
-- (void)¬Ñüÿøûÿ`Éûÿ;
-- (_Bool)nager¢Z_0aB0@ZQZ;
-- (CDStruct_1b6d18a9).photos.CPAnalytics.cmmPublishFromUnknown;
-- (void)sion.plist;
-- (_Bool)e.FilterView;
-- (void)/Ý$ù?L7A`åø?;
-- (id)5Õi(ÿ;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (float);
+- (id);
 - (void);
+- (_Bool)lowBatches;
+- (CDStruct_1b6d18a9)eScale: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)iveValue:positiveHighlighted:negativeHighlighted: /* Error: Ran out of types for this method. */;
+- (id)leToScroll;
+- (float)ableDisplayAssetViewModel;
+- (void)pùÿhûÿ;
+- (void)onadeHorizontalSizeClass;
+- (void)teChapterCollectionEditTransaction init];
+- (struct CGAffineTransform)FilterMenu_IncludeFromMyMac;
+- (_Bool)AGES_FILTER_SHORTCUT;
 - (void);
-- (struct CGSize);
+- (void)fetch;
+- (_Bool);
 - (void);
+- (struct CGSize)O;
+- (id)ñ1ÿ0;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsExternalPlayback; // @synthesize allowsExternalPlayback=_allowsExternalPlayback;

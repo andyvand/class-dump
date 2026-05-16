@@ -7,12 +7,7 @@
 @class NSString;
 
 @protocol _UIApplicationSceneKeyboardSettings
-- (void)classes;
-- (void)ermissions string for     data class '%@', data instance '%@', action '%d';
-- (void)e;
-- (NSString *)¢!0@ù
-× ;
-- (void)Image:(NSString *)arg1 highlightImage:onRight: /* Error: Ran out of types for this method. */;
+- (void)ilityContentSizeCategoryImageAdjusting;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *hardwareKeyboardExclusivityIdentifier;

@@ -26,9 +26,11 @@
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
+- (long long)I°1â
+0@ù
+× ;
+- (long long)Type;
 - (void);
-- (long long);
-- (long long)lear;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *_fetchResult; // @synthesize _fetchResult=__fetchResult;

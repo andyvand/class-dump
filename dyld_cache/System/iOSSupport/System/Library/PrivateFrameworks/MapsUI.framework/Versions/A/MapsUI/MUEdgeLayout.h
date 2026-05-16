@@ -18,16 +18,17 @@
 - (id);
 - (id);
 - (void);
-- (float);
-- (void);
-- (void);
-- (struct NSDirectionalEdgeInsets);
 - (void);
 - (id);
-- (unsigned long long);
-- (void)ider;
-- (id)à;
-- (void)e [See All Blurb View];
+- (struct NSDirectionalEdgeInsets);
+- (void);
+- (void);
+- (id)kupView";
+- (unsigned long long)nDelegate:externalActionHandler:rapActionHandler: /* Error: Ran out of types for this method. */;
+- (void)browseItems;
+- (float)Mû
+á­;
+- (void)eAccoladesViewModelProviding;
 
 // Remaining properties
 @property(nonatomic) __weak id <MULayoutItem> container;

@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)erMessageKeyHomeUUID;
-- (void);
++ (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)urrentThread;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

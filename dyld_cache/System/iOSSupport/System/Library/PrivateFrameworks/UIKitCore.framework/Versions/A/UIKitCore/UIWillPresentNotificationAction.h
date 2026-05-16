@@ -12,18 +12,20 @@
     UNNotification *_notification;
 }
 
-- (_Bool)2@60;
-- (id)angeIfNeeded:(id)arg1;
-- (id)ngSatelliteMessagesIfNeeded:(id)arg1 onService:(_Bool)arg2;
-- (id);
-- (id)thTargetPathInUserHome:(id)arg1;
-- (void)r­;
-- (id);
-- (id)enAncestorFocused: /* Error: Ran out of types for this method. */;
-- (id)`[¼[ø\];
-- (long long)æÿl'æÿx'æÿ'æÿ'æÿ'æÿ¨'æÿh>æÿ>æÿÐ>æÿø>æÿ ?æÿH?æÿp?æÿ ?æÿà?æÿ(@æÿP@æÿx@æÿ @æÿÈ@æÿì@æÿAæÿDAæÿ|Aæÿ¬AæÿÔAæÿBæÿTBæÿxBæÿBæÿÄBæÿüBæÿ,CæÿTCæÿCæÿÜCæÿDæÿ<DæÿlDæÿDæÿÜDæÿEæÿ<EæÿlEæÿEæÿÜEæÿFæÿ<FæÿlFæÿFæÿÜFæÿGæÿ<GæÿlGæÿGæÿÜGæÿHæÿ<HæÿlHæÿHæÿÜHæÿIæÿ,Iæÿ`Iæÿ$JæÿXJæÿJæÿ¸JæÿäJæÿKæÿÜKæÿLæÿ4LæÿhLæÿLæÿ¸LæÿüLæÿ$MæÿTMæÿMæÿÜMæÿNæÿ4NæÿtNæÿ¼NæÿäNæÿOæÿTOæÿOæÿÄOæÿôOæÿ4Pæÿ|Pæÿ¤PæÿÔPæÿQæÿ\QæÿQæÿ¬QæÿàQæÿ¤RæÿèRæÿSæÿPSæÿSæÿÈSæÿðSæÿ(TæÿLTæÿTæÿ¨TæÿàTæÿUæÿ@UæÿdUæÿUæÿÌUæÿ;
 - (_Bool);
-- (_Bool)(6þ;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)
+× ;
+- (_Bool)lEù1\ð1Â0@ù
+× ;
+- (id)Context:(long long)arg1;
+- (id)itcard;
+- (void)L_;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isDeliverable; // @synthesize isDeliverable=_isDeliverable;

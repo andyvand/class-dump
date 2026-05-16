@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void);
-- (id)äá;
+- (id);
+- (void)(WFGetUpcomingItemCalendar);
 
 // Remaining properties
 @property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;

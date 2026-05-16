@@ -21,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void):(id)arg1;
-- (double)NSSet",&,N,V_senderRegistrationProperties;
-- (id);
-- (id)Ț;
-- (id);
 - (void);
-- (void);
-- (long long)ssibilityHint: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (id);
+- (void)'(¬(();
+- (void)HÜb;
+- (long long)ìÿø(;
+- (id)ã`Ú  i;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dateTimeString; // @synthesize dateTimeString=_dateTimeString;

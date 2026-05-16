@@ -16,10 +16,10 @@
 }
 
 + (void);
-- (void)pairing join state of %@ to %ld;
-- (void)%@);
-- (void);
-- (id)isDelivered;
+- (void);
+- (void);
+- (id);
+- (void)©^;
 
 @end
 

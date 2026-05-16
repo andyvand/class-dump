@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)8n÷b;
+- (void);
+- (void)cesSectionTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

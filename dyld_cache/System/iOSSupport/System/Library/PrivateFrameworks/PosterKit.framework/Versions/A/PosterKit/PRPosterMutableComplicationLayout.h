@@ -13,7 +13,7 @@
 }
 
 + (_Bool);
-+ (_Bool)imeNumberingSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *complicationIconLayout; // @dynamic complicationIconLayout;

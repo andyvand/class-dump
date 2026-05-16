@@ -19,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (_Bool);
-- (id)et;
+- (id);
 - (void);
-- (double);
-- (void)× ;
-- (struct CGPoint)={CGPoint=dd}{CGSize=dd}}56@0:8@16{CGPoint=dd}24Q40@48 /* Error: Ran out of types for this method. */;
-- (id)previewView:animatingTo: /* Error: Ran out of types for this method. */;
-- (void)´;
-- (unsigned long long)¶Ð,`;
+- (void);
+- (_Bool)omponent;
+- (unsigned long long)fLinesForSidebar:traitCollection: /* Error: Ran out of types for this method. */;
+- (id)tating;
+- (double)electionGestureRecognizer;
+- (struct CGPoint)al;
+- (void)p;b;
 
 // Remaining properties
 @property(readonly, nonatomic) double feedbackAlpha;

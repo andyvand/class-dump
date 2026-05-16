@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-- (id)%@, replacement has guid %@;
-- (id)association message;
-- (id)ar message %f seconds back;
-- (long long)ate to:(struct CGPoint)arg1 %@ was successful:(struct CGRect)arg2 %@ for chat with GUID:%@ /* Error: Ran out of types for this method. */;
-- (id)rd with originalGroupID:(id)arg1 %@ and service:%@ /* Error: Ran out of types for this method. */;
-- (id)a:(id)arg1 fromIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (id)dInsets;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
 
 @end
 

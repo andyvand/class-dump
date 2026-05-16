@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)me: /* Error: Ran out of types for this method. */;
-- (void)e;
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -34,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)Ì/];
+- (_Bool)lÍIÿG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewPropertyAnimator *customAnimator;

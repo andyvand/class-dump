@@ -14,10 +14,10 @@
     MISSING_TYPE *textViewTrailingAnchorConstraintToContainer;
 }
 
-- (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
 
 @end
 

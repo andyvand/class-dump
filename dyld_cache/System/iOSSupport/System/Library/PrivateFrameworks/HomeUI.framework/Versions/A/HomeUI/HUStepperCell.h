@@ -31,22 +31,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (_Bool)¦xG×vAEy'vyAByAEyAF¹xG_vAEyAEyovÒvyÄvSgGG3vyõvGGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo_;
+- (id);
+- (id);
+- (id)ellDelegate>";
+- (void)uation;
 - (void);
-- (void)öÊvy(ÐvSgGGAOG´ÈxGSgtGG_Qo__|ÄxQo_´ÀvG;
-- (id)wGswy}wGGSg_AjByABy"yy¾yyh£yAAy@$wySay±vGAN'î;
-- (id)aracteristicValueDisplayErrorKey should only be used for HFCharacteristicValueDisplayErrors. Not a %p:%@! /* Error: Ran out of types for this method. */;
-- (void)Û;
+- (void)e doorbell chime setting :(id)arg1 %@;
+- (void)enting UnanalyzedCameraClipTip;
+- (id)ÿ;
+- (_Bool)ªÿÅ!¨ÿªÿ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

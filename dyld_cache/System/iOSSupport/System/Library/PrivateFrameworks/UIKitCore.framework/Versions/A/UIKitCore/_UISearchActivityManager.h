@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     NSMapTable *__activeAssertions;
 }
 
-- (id)callback is updated;
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (id)tC;
+- (void)xönþý13þ13põ¸þ;
+- (id);
 - (void);
-- (void)·?;
-- (id);
-- (id)adedBlinkingEffect;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *_activeAssertions; // @synthesize _activeAssertions=__activeAssertions;

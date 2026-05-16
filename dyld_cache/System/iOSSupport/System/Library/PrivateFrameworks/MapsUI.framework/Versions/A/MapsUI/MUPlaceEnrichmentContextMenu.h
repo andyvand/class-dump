@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)sui_addHairlineAtBottomWithMargin: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MUPlaceEnrichmentAction *contextMenuAction; // @synthesize contextMenuAction=_contextMenuAction;

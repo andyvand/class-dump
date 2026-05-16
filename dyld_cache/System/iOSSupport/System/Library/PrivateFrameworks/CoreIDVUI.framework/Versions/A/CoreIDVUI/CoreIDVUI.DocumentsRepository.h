@@ -14,6 +14,7 @@
     MISSING_TYPE *mrzData;
     MISSING_TYPE *nfcData;
     MISSING_TYPE *nfcHash;
+    MISSING_TYPE *encryptedNFCData;
     MISSING_TYPE *frontScanMetrics;
     MISSING_TYPE *backScanMetrics;
     MISSING_TYPE *idFrontMetrics;
@@ -49,6 +50,7 @@
     MISSING_TYPE *idFrontFallbackDimensions;
     MISSING_TYPE *idBackFallbackDimensions;
     MISSING_TYPE *selfieFallbackDimensions;
+    MISSING_TYPE *defaultCRCardOutputWidth;
     MISSING_TYPE *fallbackBufferSize;
     MISSING_TYPE *fallbackStableWindow;
     MISSING_TYPE *fallbackFrameRate;

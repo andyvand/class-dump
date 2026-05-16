@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool)¹××Ø;
++ (_Bool)>32;
 - (unsigned long long);
 - (id);
 - (id);
@@ -20,9 +20,9 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
-- (unsigned long long)ivateRenderer:privateRendererOwner:clearsOnDraw: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

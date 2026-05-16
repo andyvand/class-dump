@@ -4,93 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4CounterHeapDescriptor, MTLArchitecture, MTLCommandQueueDescriptor, MTLCounterSampleBufferDescriptor, MTLMeshRenderPipelineDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString;
-@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTL4CounterHeap, MTLAccelerationStructure, MTLArgumentEncoder, MTLBinaryArchive, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLCounterSampleBuffer, MTLDynamicLibrary, MTLFence, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor, MTLTextureViewPool;
+@class MTLArchitecture, NSArray, NSString;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTLAccelerationStructure, MTLDynamicLibrary, MTLEvent, MTLFence, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap;
 
 @protocol MTLDevice
-- (void)16;
-- (unsigned long long)6;
-- (id <MTLRenderPipelineState>)@"MTLStitchedLibraryDescriptor"16@?<v@?@"<MTLLibrary>"@"NSError">24;
-- (id <MTLCounterSampleBuffer>)etVertexBytes:(MTLCounterSampleBufferDescriptor *)arg1 length:(id *)arg2 attributeStride:atIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)ate:(unsigned long long)arg1;
-- (void)tMapRect:(MTLRenderPipelineDescriptor *)arg1;
-- (id <MTLComputePipelineState>)WithDescriptor:(id <MTLFunction>)arg1;
-- (id <MTLCommandQueue>)riptor:(MTLCommandQueueDescriptor *)arg1;
-- (id <MTL4CounterHeap>)criptor:(MTL4CounterHeapDescriptor *)arg1 error:(id *)arg2;
-- (id <MTLTensor>)maxTotalThreadsPerThreadgroup;
-- (unsigned long long)isShareable;
-- (id <MTLLibrary>)ions:(NSString *)arg1;
-- (_Bool);
-- (_Bool)hareable;
-- (id <MTL4CommandQueue>)ÿÿÿÿ¸;
-- (id <MTLIOFileHandle>);
-- (id <MTL4Archive>);
-- (_Bool)	
-;
-- (id <MTLCommandQueue>)¤;
-- (id <MTL4CommandBuffer>)ÿÿh;
-- (_Bool);
-- (id <MTLFunctionHandle>)Ôs´~È~´Àp;
-- (id <MTLAccelerationStructure>)üdp;
-- (_Bool)der not supported;
-- (id <MTLRenderPipelineState>)mergePass:(MTLMeshRenderPipelineDescriptor *)arg1 Rect out of bounds, skipping!;
-- (id <MTLBuffer>)%{public}s;
-- (id <MTLIOCommandQueue>)ÿÐ"þÿ;
-- (_Bool)eþÿeþÿX1þÿt6þÿÄeþÿ9þÿÆeþÿÌeþÿ;
-- (void)NþÿöMþÿ;
-- (id <MTLLibrary>)þÿXHþÿZHþÿ\HþÿÈ:þÿZHþÿ /* Error: Ran out of types for this method. */;
-- (id <MTL4ArgumentTable>)ÿÿÿÿ;
-- (void)f;
-- (_Bool)~ÿÿ;
-- (_Bool)`ÿÿ;
-- (_Bool)îÿÿöÕþÿ;
-- (id <MTLArgumentEncoder>)countryCode;
-- (id <MTLAccelerationStructure>)eMapCGImage;
-- (_Bool)stViewBounds;
-- (id <MTLResidencySet>)ures;
-- (unsigned long long)yAFyA12_ó>>GAYGQo__Qo_G_AByytÔa>y¶b>yAHG_¤b>yA1_AHGQo_GtG;
-- (id <MTLTextureViewPool>)PGQo_GtGQo__Qo_;
-- (id <MTLArgumentEncoder>)>yAFyÝu>yAFyAFyAFy6Y>W>y#Y>GGAIyÉW>SgGGAIyíX>SgGG_Qo_s>GGùQ>GACGtGAByAGyAByAC_AFyW>AYGSgACtGG_AdEyAFyAFyAhOGASGACGtG_G;
-- (void)7BannerViewFactory33_ECE741B16C4E80CA1DBC7B7187CC8165LLP;
-- (id <MTL4CommandAllocator>)tureLoaderC;
-- (_Bool)SfG;
-- (id <MTLDynamicLibrary>)U4path_Sd9startTimet;
+- (id <MTLAccelerationStructure>)overlappingLabelInsets;
 - (unsigned long long);
-- (void);
-- (id <MTLRenderPipelineState>);
-- (id <MTLLibrary>)`­;
-- (CDStruct_14f26992)_þÿ;
-- (unsigned long long)4ïÿô¬;
-- (void);
-- (id <MTLLibrary>)t=dd}16;
-- (MTLArchitecture *)mapOverlays.precipitationForecastRainsInNextHourZoomLevel;
-- (unsigned long long)eOverlayUIView.swift;
-- (id <MTLSharedEvent>)$_titleVibrancyEffectView;
-- (id <MTLIOFileHandle>)ndex;
-- (unsigned long long)ory;
-- (_Bool)third placeholder is the location's name. An example of this formatted string might be'30 miles Southwest of Nantucket'.;
-- (unsigned int)orValue;
-- (id <MTLComputePipelineState>)StatusDidChangeObserver;
-- (unsigned long long)WithHashMapOverlayContainer;
-- (unsigned int)aderBuiltIn;
-- (id <MTLComputePipelineState>);
-- (id <MTLFunctionHandle>)@ä¾õÿ;
-- (unsigned long long)¼@;
-- (_Bool)ÿ;
-- (_Bool)Ñ@óÿ;
-- (unsigned long long)móÿ;
+- (_Bool);
+- (id <MTL4CommandAllocator>)esTiles;
+- (id <MTLEvent>)DSg;
+- (id <MTL4Archive>)ySSSayýÿÿGG;
+- (unsigned long long)ESg;
+- (id <MTLDynamicLibrary>)P;
+- (id <MTL4ArgumentTable>);
 - (_Bool);
-- (id <MTLBinaryArchive>)imationDidStart;
-- (_Bool)þ;
-- (id <MTLSharedEvent>)te;
-- (NSArray *)<¸;
-- (_Bool);
-- (unsigned long long);
-- (id <MTLFence>)äÿIAüßäÿ;
-
-@optional
-- (void):(const CDStruct_4c83c94d *)arg1 8Q16@24Q32@40Q48;
-- (void)ÈéÿÌéÿdØéÿíéÿNãÿ¤^êÿÌbêÿ;
+- (void);
+- (void)âþÿ;
+- (id <MTLRasterizationRateMap>)o}N¸È;
+- (_Bool)rubberBackgroundView;
+- (id <MTLDynamicLibrary>)w¸°ëúÿ;
+- (id <MTLLibrary>);
+- (id <MTLFence>)ÿ;
+- (_Bool)GTexture;
+- (unsigned long long)6p;
+- (MTLArchitecture *)nGroupView;
+- (id <MTLIndirectCommandBuffer>)+¹(;
+- (unsigned long long) ;
+- (_Bool)eatherMapAnnotationPinView;
+- (_Bool)b¹ü%;
+- (unsigned long long)h¹åÿh¹åÿ;
+- (void)PROJECT:(CDStruct_b2fbf00d *)arg1 Weather-1318
+;
+- (id <MTLLibrary>);
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -107,7 +52,7 @@
 @property(readonly) unsigned long long maxArgumentBufferSamplerCount;
 @property(readonly) unsigned long long maxBufferLength;
 @property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) CDStruct_14f26992 maxThreadsPerThreadgroup;
+@property(readonly) struct maxThreadsPerThreadgroup;
 @property(readonly) unsigned long long maxTransferRate;
 @property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
@@ -128,6 +73,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

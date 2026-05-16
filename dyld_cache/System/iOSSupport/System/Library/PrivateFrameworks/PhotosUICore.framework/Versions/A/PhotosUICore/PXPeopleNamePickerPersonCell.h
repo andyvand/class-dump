@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)setPacingClock:(long long)arg1;
+- (id)ÿ;
 - (void);
-- (void);
+- (void)ource;
 
 // Remaining properties
 @property(nonatomic) __weak PHPerson *person;

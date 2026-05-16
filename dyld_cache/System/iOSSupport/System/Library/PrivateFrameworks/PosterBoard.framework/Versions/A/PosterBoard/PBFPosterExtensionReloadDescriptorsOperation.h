@@ -31,35 +31,35 @@
     PFPosterPathsAssertion *_postRefreshPosterPathsAssertion;
 }
 
+- (id);
 - (void);
 - (void);
+- (id);
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (double);
+- (id);
+- (double);
+- (void);
+- (void);
+- (double);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
-- (double);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (double);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (double);
-- (double);
+- (id)rationForRowAtIndexPath:point: /* Error: Ran out of types for this method. */;
+- (double); operation has already finished.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

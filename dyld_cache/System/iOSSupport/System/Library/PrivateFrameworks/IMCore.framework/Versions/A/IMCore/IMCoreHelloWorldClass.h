@@ -11,9 +11,9 @@
     IMCoreHelloWorldClass_Impl *_swiftImpl;
 }
 
-- (void);
-- (void);
+- (void);
 - (id);
+- (void)Ð3;
 
 @end
 

@@ -21,11 +21,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void)dRegistrationRequestForAccount: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)wItem"8;
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool enableEdgeDisappearing; // @synthesize enableEdgeDisappearing=_enableEdgeDisappearing;

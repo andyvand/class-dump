@@ -5,8 +5,5 @@
 //
 
 @protocol SXViewportChangeListener
-
-@optional
-- (void);
 @end
 

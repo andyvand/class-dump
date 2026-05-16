@@ -15,7 +15,9 @@
     MISSING_TYPE *purchaseContextEntriesManager;
     MISSING_TYPE *metricsBuilder;
     MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *activeSceneIdentifier;
+    MISSING_TYPE *activeWindowScene;
+    MISSING_TYPE *offerConfigMatcher;
+    MISSING_TYPE *configurableOffersConfigFetcher;
 }
 
 - (void);
@@ -23,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void)!;
 - (void);
-- (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

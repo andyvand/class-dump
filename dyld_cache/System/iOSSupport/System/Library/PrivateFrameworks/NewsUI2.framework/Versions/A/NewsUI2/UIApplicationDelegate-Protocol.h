@@ -9,16 +9,9 @@
 @protocol UIApplicationDelegate
 
 @optional
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void)ng image. An image for key '%@' already exists on disk.;
-- (void)ìÃôÿÂ0÷ÿ2ñôÿ;
-- (void)ÿÿP§ìÿÀpÓþ8Â
-;
-- (void)ü +;
-- (void)ýýôæ;
-- (UIWindow *)ownloadsConfig.todayFeedRules.maxGroups;
+- (_Bool)× ;
+- (void)bjectProxy;
+- (void)Aö^C;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;

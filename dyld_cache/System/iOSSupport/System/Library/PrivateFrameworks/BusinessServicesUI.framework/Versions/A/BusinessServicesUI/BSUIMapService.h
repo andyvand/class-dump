@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     MKMapService *_mapService;
 }
 
-+ (id)#ySiSgGGAOGSgAByAtOGAByABy=;
++ (id);
 - (id);
 - (void);
 - (id);

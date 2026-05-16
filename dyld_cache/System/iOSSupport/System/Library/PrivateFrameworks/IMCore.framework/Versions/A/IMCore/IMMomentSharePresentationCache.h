@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)A;
 - (id);
-- (void)d}24d40;
-- (void)Ð	;
+- (id);
+- (void);
+- (void)inThreadForNewSetup:(id)arg1;
+- (void)3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

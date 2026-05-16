@@ -55,6 +55,7 @@
         unsigned int updateSearchTextOnDidSelectSuggestion:1;
         unsigned int shouldFocusKeyboardOnNextFocusUpdate:1;
         unsigned int clearAsCancelButtonVisibilityWhenEmpty:2;
+        unsigned int hideSearchResultsDivider:1;
     } _controllerFlags;
     CDUnknownBlockType _deferredActivationOrDismissal;
     UIScrollView *_tvObservingScrollView;
@@ -82,6 +83,7 @@
     id <UISearchControllerDelegate> _delegate;
     UIViewController *_searchResultsController;
     UIScrollView *_searchControllerObservedScrollView;
+    UINavigationItem *__navigationItemPreviouslyDisplayingSearchBarWithSearchActive;
     long long __previousSearchBarPosition;
     double __resultsContentScrollViewPresentationOffset;
     UIView *__systemInputMarginView;
@@ -103,7 +105,7 @@
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _allowsSuggestionsMenu;
@@ -127,6 +129,7 @@
 @property(readonly, nonatomic) __weak id <_UISearchControllerGlobalSearchDelegate> _globalSearchDelegate; // @synthesize _globalSearchDelegate;
 @property(nonatomic, getter=_isGridKeyboardVisible, setter=_setGridKeyboardVisible:) _Bool _gridKeyboardVisible; // @synthesize _gridKeyboardVisible=__gridKeyboardVisible;
 @property(readonly, nonatomic) _Bool _hasVisibleSuggestionsMenu;
+@property(nonatomic, setter=_setHideSearchResultsDivider:) _Bool _hideSearchResultsDivider;
 @property(readonly, nonatomic) _Bool _hidesNavigationBarDuringPresentationRespectingInlineSearch;
 @property(nonatomic, setter=_setInlineSearchAccessoryEnabled:) _Bool _inlineSearchAccessoryEnabled; // @synthesize _inlineSearchAccessoryEnabled;
 @property(readonly, nonatomic) _UIBarButtonItemSearchBarGroup *_inlineSearchBarItemGroup; // @synthesize _inlineSearchBarItemGroup;
@@ -136,6 +139,7 @@
 @property(readonly, retain, nonatomic) _UINavigationControllerManagedSearchPalette *_managedPalette; // @synthesize _managedPalette;
 @property(readonly, nonatomic) __weak UINavigationItem *_navigationItemCurrentlyDisplayingSearchBar; // @synthesize _navigationItemCurrentlyDisplayingSearchBar=__navigationItemCurrentlyDisplayingSearchBar;
 @property(nonatomic, setter=_setNavigationItemCurrentlyDisplayingSearchController:) __weak UINavigationItem *_navigationItemCurrentlyDisplayingSearchController; // @synthesize _navigationItemCurrentlyDisplayingSearchController=__navigationItemCurrentlyDisplayingSearchController;
+@property(readonly, nonatomic) __weak UINavigationItem *_navigationItemPreviouslyDisplayingSearchBarWithSearchActive; // @synthesize _navigationItemPreviouslyDisplayingSearchBarWithSearchActive=__navigationItemPreviouslyDisplayingSearchBarWithSearchActive;
 @property(readonly, nonatomic) _Bool _prefersSearchTextFieldAnchoredToKeyboard;
 @property(nonatomic) long long _previousSearchBarPosition; // @synthesize _previousSearchBarPosition=__previousSearchBarPosition;
 @property(nonatomic, setter=_setRequestedInteractionModel:) unsigned long long _requestedInteractionModel; // @synthesize _requestedInteractionModel=__requestedInteractionModel;

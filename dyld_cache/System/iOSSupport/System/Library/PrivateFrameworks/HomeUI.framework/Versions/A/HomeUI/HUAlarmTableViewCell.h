@@ -42,22 +42,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id)y: /* Error: Ran out of types for this method. */;
-- (void)olves:(id)arg1;
-- (void)%s (%{public}s) | home = %@;
-- (id)ce Done button was pressed.;
-- (_Bool)NAFuture"16@?0@"UNNotificationSettings"8;
-- (void);
-- (id)(Öÿ;
-- (void)2ìÿñËöá3;
+- (id);
+- (_Bool)tors;
+- (void)ntViewContainerHeightConstraint;
+- (void)¤«¨¬è­;
+- (void)ifier;
+- (void)ÿû¨ÿ ;
+- (_Bool)"ÐÝ;
+- (id);
+- (void)@Ñ;
 
 // Remaining properties
 @property(retain, nonatomic) MTAlarm *alarm; // @synthesize alarm=_alarm;

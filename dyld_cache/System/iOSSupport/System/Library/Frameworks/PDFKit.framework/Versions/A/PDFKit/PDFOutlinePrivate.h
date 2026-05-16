@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     struct CGPDFDictionary *srcDictionary;
 }
 
-- (void)de;
+- (void);
 
 @end
 

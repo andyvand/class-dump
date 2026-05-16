@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKNavigationAction, WKWebView;
-
 @protocol WKNavigationDelegate
-
-@optional
-- (void)?;
-- (void);
-- (void)@0:(WKWebView *)arg1 8Q16@?<v@?@"<TSKSearchTarget>">24;
-- (void)leID:(WKWebView *)arg1 articleTitle:(WKNavigationAction *)arg2 adSponsor:(void (^)(long long))arg3 campaignData:adSize:adPolicyData: /* Error: Ran out of types for this method. */;
 @end
 

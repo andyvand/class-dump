@@ -14,21 +14,24 @@
     MISSING_TYPE *symbolConfiguration;
 }
 
-+ (Class)ctionFeedConfigurations;
++ (Class);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)L;
-- (id)led;
-- (void);
-- (void);
-- (id)C;
-- (_Bool)tyShowContextMenuForElement:targetPointValue: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (long long);
-- (void)þÿÿÿ;
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (long long);
+- (id);
+- (id);
+- (void)ðýÿhýÿØýÿ0ýÿàýÿd	ýÿä	ýÿü	ýÿH
+ýÿ´
+ýÿì
+ýÿýÿ$ýÿdýÿýÿÔýÿìýÿýÿýÿ4ýÿ\ýÿÀýÿØýÿHýÿ¬ýÿÜýÿýÿ,ýÿDýÿÔýÿýÿLýÿýÿìýÿ\ýÿtýÿýÿÐýÿèýÿ ýÿýÿ°ýÿèýÿýÿ8ýÿXýÿpýÿ¨ýÿhýÿ¨ýÿìýÿ$ýÿ\ýÿ¼ýÿôýÿýÿ$ýÿýÿÄýÿtýÿÔýÿýÿðýÿ¬ýÿ ýÿàýÿýÿ,ýÿDýÿ\ýÿüýÿ4ýÿTýÿýÿ¤ýÿÜýÿýÿ@ýÿ°ýÿ ýÿXýÿäýÿ( ýÿ`!ýÿ !ýÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool accessibilityElementsHidden;

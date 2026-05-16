@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVItem;
 @protocol MPCQueueControllerBehaviorMusicDataSourceDelegate;
 
 @protocol MPCQueueControllerBehaviorMusicDataSource
-+ (_Bool)6i24@28@36;
-- (_Bool)@0:(id *)arg1 8@16;
-- (_Bool)@"ACAccount"16@"NSArray"24;
-
-@optional
-- (_Bool)ramework/Versions/A/CoreFoundation;
-- (_Bool);
-- (void)emoveAccount:(MPAVItem *)arg1 inStore:error: /* Error: Ran out of types for this method. */;
-- (_Bool)Support.framework/Versions/A/AppleIDAuthSupport;
-- (_Bool)c_selrefs;
-- (id <MPCQueueControllerBehaviorMusicDataSourceDelegate>);
-- (void){;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsLiveStream;

@@ -18,7 +18,9 @@
     double _powerAssertionStartTime;
 }
 
-+ (id);
++ (id)Aû°!|GùqH1â
+0@ù
+× ;
 - (void);
 - (void);
 - (void);
@@ -42,15 +44,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)ÁvÐ!hGùQ{°1b0@ù
-× ;
-- (void)osUICore.StoryDefaultAutoCurationProducer;
-- (unsigned int)À;
+- (void);
+- (void);
+- (unsigned int)tions;
+- (void);
+- (void)Ø±`}[Ç4Ò;
 
 // Remaining properties
 @property(nonatomic) unsigned int assertionID; // @synthesize assertionID=_assertionID;

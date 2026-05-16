@@ -33,8 +33,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIDocumentInteractionController<_UIDICActivityViewControllerDelegate> *documentInteractionActivityDelegate; // @synthesize documentInteractionActivityDelegate=_documentInteractionActivityDelegate;

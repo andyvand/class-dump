@@ -16,21 +16,21 @@
 + (id);
 + (id);
 + (_Bool);
-- (_Bool)ask;
-- (_Bool)updateHighlightsWithAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (Class);
 - (id);
 - (Class);
 - (id);
-- (id)t;
-- (id)> 0;
-- (_Bool);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (int);
+- (_Bool)containerSetupInfo:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PKPass *pass; // @synthesize pass=_pass;

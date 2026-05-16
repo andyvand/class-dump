@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)dexOverlaySelectionViewIfNecessary;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

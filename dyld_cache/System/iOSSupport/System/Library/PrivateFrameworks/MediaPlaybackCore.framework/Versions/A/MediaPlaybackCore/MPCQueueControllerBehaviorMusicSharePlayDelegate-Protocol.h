@@ -5,8 +5,5 @@
 //
 
 @protocol MPCQueueControllerBehaviorMusicSharePlayDelegate
-- (void);
-- (void)e.itunes;
-- (void)eTypeDeleted;
 @end
 

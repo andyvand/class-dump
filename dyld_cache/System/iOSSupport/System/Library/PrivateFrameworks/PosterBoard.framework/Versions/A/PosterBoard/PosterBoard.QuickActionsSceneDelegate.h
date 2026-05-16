@@ -11,12 +11,12 @@
     UIWindow *window;
 }
 
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)Äá;
+- (void)finition:(id)arg1;
 
 // Remaining properties
 @property(nonatomic, retain) UIWindow *window; // @synthesize window;

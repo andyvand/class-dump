@@ -16,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Ô¯;
 
 // Remaining properties
 @property(readonly, nonatomic) WFIconHostingView *iconView; // @synthesize iconView=_iconView;

@@ -13,13 +13,13 @@
 }
 
 - (void);
-- (id)@:[%{public}@] Cookie MODIFIED. oldCookie = %{public}@ | newCookie = %{public}@ /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool)aged session;
+- (_Bool);
+- (id);
+- (void)ting devices on target endpoint:%@  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) id <MPCPlaybackEngineEventConsumer> eventConsumer;

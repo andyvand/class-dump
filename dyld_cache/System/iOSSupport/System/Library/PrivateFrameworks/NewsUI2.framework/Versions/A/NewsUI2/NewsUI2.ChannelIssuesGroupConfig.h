@@ -13,8 +13,9 @@
     MISSING_TYPE *title;
 }
 
-- (void);
 - (id);
+- (void)ð)¸
+;
 
 @end
 

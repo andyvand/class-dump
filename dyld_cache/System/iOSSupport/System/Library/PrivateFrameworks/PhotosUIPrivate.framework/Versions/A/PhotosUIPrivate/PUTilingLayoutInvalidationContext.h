@@ -27,8 +27,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)apToHalfHeight;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *_invalidatedIndexPathsByTileKind; // @synthesize _invalidatedIndexPathsByTileKind=__invalidatedIndexPathsByTileKind;

@@ -13,9 +13,9 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)ngierInteractiveCanvasController"16@"TSWPHyperlinkField"24@"SXTextTangierFlowInfo"32{_NSRange=QQ}40{CGPoint=dd}56B72;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *containers; // @synthesize containers=_containers;

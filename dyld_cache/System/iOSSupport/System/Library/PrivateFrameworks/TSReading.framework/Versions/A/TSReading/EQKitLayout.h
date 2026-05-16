@@ -28,11 +28,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (double);
 - (id);
-- (id);
+- (id);
 - (double);
-- (double)½XÆU;
+- (double);
+- (double)Á/;
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;

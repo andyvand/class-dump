@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) OBPrivacyLinkController *onBoardingKitViewController; // @synthesize onBoardingKitViewController;

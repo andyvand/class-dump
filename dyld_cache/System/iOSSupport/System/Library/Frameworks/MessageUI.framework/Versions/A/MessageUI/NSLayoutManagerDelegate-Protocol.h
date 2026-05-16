@@ -5,12 +5,5 @@
 //
 
 @protocol NSLayoutManagerDelegate
-
-@optional
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (long long)<--> Message was created successfully.;
 @end
 

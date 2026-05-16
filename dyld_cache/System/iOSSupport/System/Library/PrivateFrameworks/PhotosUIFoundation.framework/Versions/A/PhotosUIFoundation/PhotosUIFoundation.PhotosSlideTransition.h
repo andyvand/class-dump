@@ -14,9 +14,9 @@
     MISSING_TYPE *roundDetailsViewCorners;
 }
 
+- (double);
 - (id);
-- (void)IDh×ãRt_r0_lXX;
-- (double)vert it to ensure safe use.;
+- (void);
 
 @end
 

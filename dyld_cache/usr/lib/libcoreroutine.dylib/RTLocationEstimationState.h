@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double)T?%;
+- (double);
 - (double);
 - (void);
 - (long long);
-- (void)_;
-- (double);
 - (id);
-- (id)me;
+- (id);
+- (double);
+- (void);
 - (id);
 
 @end

@@ -20,18 +20,20 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (struct CGSize);
 - (long long);
-- (struct UIEdgeInsets);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void);
 - (struct UIEdgeInsets);
-- (_Bool);
-- (struct CGSize)ension;
-- (double)ance;
-- (void);
-- (id):6 /* Error: Ran out of types for this method. */;
+- (double)ÔÁùÐ! FùqF°1â
+0@ù
+× ;
+- (struct UIEdgeInsets)sibleHeight;
+- (void)CuratedLibraryCardSectionBodyLayout setSkimmingIndexPaths:(id)arg1 ];
+- (_Bool)anagedObjectID"8Q16^B24;
+- (void);
+- (id)6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

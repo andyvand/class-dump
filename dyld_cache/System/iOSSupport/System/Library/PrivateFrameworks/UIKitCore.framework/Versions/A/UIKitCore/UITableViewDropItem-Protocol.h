@@ -7,8 +7,6 @@
 @class NSIndexPath, UIDragItem;
 
 @protocol UITableViewDropItem
-- (struct CGSize)d;
-- (NSIndexPath *)ionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIDragItem *dragItem;

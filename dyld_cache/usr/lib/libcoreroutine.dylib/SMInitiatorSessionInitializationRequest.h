@@ -18,11 +18,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id)c;
-- (CDUnknownBlockType)entUUID,%@,mode,%zd,firstBuffedLoc,%{sensitive}@,bufferedLocCount,%tu;
+- (CDUnknownBlockType);
+- (id);
+- (void)ailed;
 
 // Remaining properties
 @property(readonly, nonatomic) SMConversation *conversation; // @synthesize conversation=_conversation;

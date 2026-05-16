@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)el.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;

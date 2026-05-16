@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UIWindow *_window;
 }
 
-- (void);
-- (void)essibilityTextualContext;
-- (void);
-- (id)Qÿ,éÒXb;
+- (void)lementaryView:(struct CGRect)arg1;
+- (void)previewPresentationDelegate;
+- (id)iderWriting;
+- (void)`;
 
 @end
 

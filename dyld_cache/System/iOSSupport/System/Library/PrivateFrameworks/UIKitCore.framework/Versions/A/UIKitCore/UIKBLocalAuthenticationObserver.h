@@ -20,35 +20,34 @@ __attribute__((visibility("hidden")))
     NSUUID *_uuidOfSessionEndedDuringLocalAuthentication;
 }
 
-- (void)tID:(id)arg1;
-- (id)s;
-- (id)linkMetadataForPluginPayload: /* Error: Ran out of types for this method. */;
-- (void)AutoReport:(id)arg1 withChat:conversationID:maxMessagesToReport:totalMessageCount:isJunkReportedToCarrier:reportReason: /* Error: Ran out of types for this method. */;
-- (void)ySuggestions;
-- (void)ta;
-- (void)peCode;
-- (void)C,N,V_participantIdentifiers;
-- (void)@"IMDCKDatabaseManager",&,N,V_databaseManager;
-- (void)ol;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (_Bool)};
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)m fetched message record. %@, type:(id)arg1 %lld;
-- (id)s" app in chat %@ and conversation %s;
 - (void);
-- (void)s (limit %llu);
+- (id);
 - (void);
-- (void)ZI;
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)
-× ;
-- (id)di},N,SsetPaddingBottom:,Vm_paddingBottom /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (id);
+- (void)Øg;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIKeyInput> delegateResignedDuringLocalAuthentication; // @synthesize delegateResignedDuringLocalAuthentication=_delegateResignedDuringLocalAuthentication;

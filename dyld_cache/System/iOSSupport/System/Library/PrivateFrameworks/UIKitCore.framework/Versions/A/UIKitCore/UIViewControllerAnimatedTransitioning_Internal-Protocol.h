@@ -10,13 +10,8 @@
 @protocol UIViewControllerAnimatedTransitioning_Internal
 
 @optional
-- (double)tBytes:(id <UIViewControllerContextTransitioning>)arg1 totalBytes: /* Error: Ran out of types for this method. */;
-- (UIView *)ithType:activity:completion: /* Error: Ran out of types for this method. */;
-- (long long)ToVersionMismatch;
-- (_Bool)ê	º;
-- (_Bool)nsitionDirection;
-- (void)lection:(id <UIViewControllerContextTransitioning>)arg1 %@
-;
+- (void)ttomTabBar;
+- (_Bool)wTopSeparator:(id <UIViewControllerContextTransitioning>)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;

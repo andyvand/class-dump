@@ -23,6 +23,7 @@
     CKContainerSetupInfo *_containerSetupInfo;
     NSDictionary *_participantDetails;
     CDUnknownBlockType _preparationHandler;
+    CDUnknownBlockType _upgradeShareProvider;
     UIViewController *_originalPresentingViewController;
     UIViewController *_strongReferenceToOurself;
     NSString *_sectionTitleForAuxiliarySwitches;
@@ -38,23 +39,26 @@
 }
 
 + (_Bool);
+- (CDUnknownBlockType);
 - (void);
-- (id)HSA2 -- turning off messages on iCloud;
-- (id):(id)arg1 %@;
-- (id)letion in updateDowngradedDateIfNeeded failed with error:(id)arg1 %@;
-- (id)ng records;
-- (id)p %@;
-- (id)it;
-- (id)ugh iCloud quota;
+- (void);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,7 +79,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -91,18 +95,18 @@
 - (void);
 - (void);
 - (void);
-- (void)5;
 - (void);
-- (void);
-- (id);
-- (void)Ãð1¢!0@ù
+- (id)
 × ;
-- (long long)WithOptions: /* Error: Ran out of types for this method. */;
-- (id)edSize;
-- (void)MaterialProviding;
-- (id)\Àÿ|ÔÕ0h;
-- (id) ;
-- (void)bk;
+- (void)16@24d32Q40Q48;
+- (void)ectionPreference:(id)arg1;
+- (id)yCommandToActionMapTable;
+- (long long)It should not be possible for %@ to be called if the reorder control is not active for the cell:%@ /* Error: Ran out of types for this method. */;
+- (void)3ÿÃÁÕ 0^;
+- (id)­þ;
+- (void)ài;
+- (void)±È;
+- (id)µp;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;
@@ -135,6 +139,7 @@
 @property(retain, nonatomic, getter=_strongReferenceToOurself, setter=_setStrongReferenceToOurself:) UIViewController *strongReferenceToOurself; // @synthesize strongReferenceToOurself=_strongReferenceToOurself;
 @property(readonly) Class superclass;
 @property(retain, nonatomic, getter=_systemSharingUIObserver, setter=_setSystemSharingUIObserver:) CKSystemSharingUIObserver *systemSharingUIObserver; // @synthesize systemSharingUIObserver=_systemSharingUIObserver;
+@property(copy, nonatomic) CDUnknownBlockType upgradeShareProvider; // @synthesize upgradeShareProvider=_upgradeShareProvider;
 
 @end
 

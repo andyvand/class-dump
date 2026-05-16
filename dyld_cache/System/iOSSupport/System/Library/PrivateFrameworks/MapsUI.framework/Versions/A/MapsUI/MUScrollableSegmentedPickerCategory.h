@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)activityProviders;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *categoryName; // @synthesize categoryName=_categoryName;

@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTTableHeaderInfo;
-
 @protocol TSTTableHeaderStorage
-- (TSTTableHeaderInfo *)";
-- (void);
-- (long long)ent: /* Error: Ran out of types for this method. */;
 @end
 

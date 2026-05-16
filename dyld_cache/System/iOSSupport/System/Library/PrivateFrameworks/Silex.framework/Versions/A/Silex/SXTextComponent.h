@@ -13,8 +13,8 @@
 {
 }
 
++ (id);
 + (CDUnknownBlockType);
-+ (id);
 - (unsigned long long);
 
 // Remaining properties

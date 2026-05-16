@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *customizationGroups; // @synthesize customizationGroups=_customizationGroups;

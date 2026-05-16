@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @protocol _UIKBArbiterInputEventsProtocol
-- (void);
-- (void);
-- (void)command dictionary to FDR Service.;
-- (void)with FDR 2.0 format;
-- (void)viceRefKeyClassFinalize;
-- (void)Key is NULL;
-- (void)PasswordForProfileID:(NSString *)arg1 username:(unsigned long long)arg2 service:(NSDictionary *)arg3 outRequestID:completionBlock: /* Error: Ran out of types for this method. */;
 @end
 

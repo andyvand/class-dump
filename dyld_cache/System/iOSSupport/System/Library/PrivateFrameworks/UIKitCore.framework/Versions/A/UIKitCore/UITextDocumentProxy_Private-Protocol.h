@@ -7,8 +7,7 @@
 @class NSString;
 
 @protocol UITextDocumentProxy_Private
-- (_Bool)a nil remoteViewController because Music is crashing.;
-- (NSString *)Local:%s source:%@) /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *markedText;

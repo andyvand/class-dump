@@ -53,14 +53,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)onOptions;
-- (void)idatePhotosAttributionTitle;
 - (void);
+- (id)1â
+0@ù
+× ;
+- (_Bool)@"NSData"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)om.apple.MobileAsset.MediaSupport;
+- (void)LemonadeShelvesIsHiddenID;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryThumbnailActionPerformer> actionPerformer; // @synthesize actionPerformer=_actionPerformer;

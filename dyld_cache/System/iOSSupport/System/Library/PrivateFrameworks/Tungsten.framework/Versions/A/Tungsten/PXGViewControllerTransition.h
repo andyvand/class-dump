@@ -95,30 +95,29 @@
 - (void);
 - (void);
 - (id);
+- (double);
+- (void);
+- (double);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (double);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (double)_Ð1b0@ù
-× ;
-- (id)CGRect={CGPoint=dd}{CGSize=dd}},N,V_visibleRect;
-- (void)zing;
-- (double)<t<=	p>ìCøC¬D¤EäF;
-- (void);
+- (id)tsContentZOrder: /* Error: Ran out of types for this method. */;
+- (id)=(?={?=ffff}[4f])}ffffSCf{?=[4]}}64r^{?=CCfqSC}72@"PXGLayout"80I88;
+- (id)Àçðÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *alongsideAnimationBlocks; // @synthesize alongsideAnimationBlocks=_alongsideAnimationBlocks;

@@ -5,8 +5,5 @@
 //
 
 @protocol AKAppleIDAuthenticationDelegate
-
-@optional
-- (void);
 @end
 

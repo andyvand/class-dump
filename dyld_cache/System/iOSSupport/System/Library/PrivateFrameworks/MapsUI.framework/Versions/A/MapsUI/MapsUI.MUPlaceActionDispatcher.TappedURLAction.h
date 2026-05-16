@@ -14,8 +14,8 @@
     MISSING_TYPE *embeddedWeb;
 }
 
-- (void);
 - (id);
+- (void)seItems: /* Error: Ran out of types for this method. */;
 
 @end
 

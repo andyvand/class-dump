@@ -15,10 +15,10 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)èÖýÿHKÿÿ;
 
 @end
 

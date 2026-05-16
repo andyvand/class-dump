@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _isEligibleForFocusWithZeroAlpha;
 }
 
-- (void)emDidLogout;
+- (void);
 - (_Bool);
 - (_Bool);
-- (id)|6±ÿ*jÎ¢+i;
+- (id)ateSearchFieldForDynamicType;
 
 // Remaining properties
 @property(nonatomic) _Bool isEligibleForFocusWithZeroAlpha; // @synthesize isEligibleForFocusWithZeroAlpha=_isEligibleForFocusWithZeroAlpha;

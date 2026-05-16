@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (_Bool)emonCore;
 + (_Bool);
-+ (id)reSnapshotForInputView: /* Error: Ran out of types for this method. */;
-+ (id)crollPocketLumaObserverInteractionC;
-+ (long long)6óe;
++ (_Bool);
++ (id);
++ (id)ostDidPromoteFirstResponderUserInfoKey;
++ (long long)ÞÍAíi;
 
 @end
 

@@ -28,9 +28,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ûÿ;
-- (id)çÀ8;
+- (id)°ÕüÕ¤Ö;
+- (id);
+- (void)±=ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;

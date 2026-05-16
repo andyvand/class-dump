@@ -21,7 +21,7 @@
 }
 
 + (id);
-- (double)R;
+- (double);
 - (id);
 - (void);
 - (void);
@@ -36,16 +36,16 @@
 - (id);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
-- (void);
 - (id);
 - (id);
-- (double)1¢!0@ù
+- (double);
+- (void)
 × ;
-- (void)rying to endCollectingChanges without beginning (or calls have gotten out of sync);
+- (void)ts/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDBitmapRenderingQualityInfo.m;
 
 // Remaining properties
 @property(nonatomic) double attributeMatchPercent; // @synthesize attributeMatchPercent=_attributeMatchPercent;

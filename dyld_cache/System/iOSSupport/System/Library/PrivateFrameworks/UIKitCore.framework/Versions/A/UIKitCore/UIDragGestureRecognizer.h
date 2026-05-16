@@ -15,18 +15,19 @@ __attribute__((visibility("hidden")))
     UIDragEvent *_dragEvent;
 }
 
-- (_Bool);
-- (_Bool);
-- (id)$;
-- (_Bool);
-- (void)0@ù
+- (id);
+- (_Bool)
 × ;
-- (id)ntext, addInputString for enter;
-- (id)Ap;
-- (_Bool)¼Çÿ;
-- (struct CGPoint)*äi;
-- (_Bool)Â¬;
-- (id)Ãçq;
+- (id)teractionBegan:(id)arg1 allowSwipeToDismiss:(SEL)arg2;
+- (id)etion: /* Error: Ran out of types for this method. */;
+- (_Bool)ctationButton;
+- (struct CGPoint)EndDecelerating:(id)arg1;
+- (_Bool)5;
+- (id)X>?h@
+0A;
+- (_Bool);
+- (_Bool)ì;
+- (void)h;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIDragGestureRecognizerDelegate> delegate; // @dynamic delegate;

@@ -13,16 +13,16 @@
     UIColor *_participantColor;
 }
 
-+ (_Bool)°uÿ;
++ (_Bool)lePosition;
 - (void);
-- (void)sertObject:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)a;
 - (id);
-- (void);
-- (id);
+- (void)parentState:(id)arg1 start:completion: /* Error: Ran out of types for this method. */;
+- (id)R,N,V_changes;
+- (void)þÔX?;
 
 // Remaining properties
 @property(copy) NSString *detailText; // @synthesize detailText=_detailText;

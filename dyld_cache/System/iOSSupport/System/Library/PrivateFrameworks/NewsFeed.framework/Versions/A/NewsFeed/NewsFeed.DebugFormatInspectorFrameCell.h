@@ -23,10 +23,10 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)erAgentWithAdIdentifier:andMaxRequestCount: /* Error: Ran out of types for this method. */;
+- (id)¤Æ÷ÿoûÿÒ¢øÿ;
+- (void)Ì_yþ;
 
 @end
 

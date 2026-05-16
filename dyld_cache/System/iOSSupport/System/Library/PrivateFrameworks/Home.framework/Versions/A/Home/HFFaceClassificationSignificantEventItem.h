@@ -13,7 +13,7 @@
     UIImage *_faceCropImage;
 }
 
-+ (id)nil;
++ (id)hÉ;
 - (void);
 - (id);
 - (id);

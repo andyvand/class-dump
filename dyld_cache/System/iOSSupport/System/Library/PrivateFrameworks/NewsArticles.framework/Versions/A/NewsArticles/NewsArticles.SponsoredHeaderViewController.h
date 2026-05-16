@@ -15,10 +15,10 @@
 
 - (id);
 - (double);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)debar;
 
 @end
 

@@ -12,8 +12,8 @@
     MISSING_TYPE *logoViewModel;
 }
 
-- (void);
 - (id);
+- (void)ImagesURLs;
 
 @end
 

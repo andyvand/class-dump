@@ -7,7 +7,6 @@
 @class NSArray, SXLayoutBlueprint;
 
 @protocol SXComponentController
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *flattenedComponentViews;

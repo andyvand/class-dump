@@ -23,19 +23,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)ÑÆ°1¢!0@ù
-× ;
-- (id)ion;
-- (id)nViewBounds;
-- (id)Bounds: /* Error: Ran out of types for this method. */;
-- (id)_accumulatedAcceleration;
 - (id);
-- (id)int;
-- (unsigned long long).[;
-- (id)½ÏÿÈEc;
+- (id);
+- (id);
+- (id);
+- (id)!´Aùñ[°1Â0@ù
+× ;
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)Feedback: /* Error: Ran out of types for this method. */;
+- (void)TION:(id)arg1 Requested to make a palette of a class that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
+- (id)groundColor;
+- (unsigned long long)llView;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

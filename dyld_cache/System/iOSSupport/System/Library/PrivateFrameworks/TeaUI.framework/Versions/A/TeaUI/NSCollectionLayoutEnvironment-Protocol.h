@@ -8,8 +8,8 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (id <NSCollectionLayoutContainer>);
-- (UITraitCollection *)Ø;
+- (id <NSCollectionLayoutContainer>)sition;
+- (UITraitCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;

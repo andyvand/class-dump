@@ -5,8 +5,6 @@
 //
 
 @protocol IMUIPluginPayloadProtocol
-- (void)e:(_Bool)arg1 currentParagraphStart: /* Error: Ran out of types for this method. */;
-- (_Bool)iatedPoints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool requiresValidation;

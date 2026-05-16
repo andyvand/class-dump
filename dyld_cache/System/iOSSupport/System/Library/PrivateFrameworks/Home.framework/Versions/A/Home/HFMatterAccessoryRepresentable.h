@@ -48,10 +48,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)ø$;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

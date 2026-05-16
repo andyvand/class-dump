@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
 - (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic, setter=onChange:) CDUnknownBlockType changeBlock; // @synthesize changeBlock;

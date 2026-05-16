@@ -18,12 +18,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)LoadSupportedCommands;
-- (id)_;
-- (id)8;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (long long);
 - (id);
 - (id);
@@ -31,8 +30,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)0@ù
+× ;
+- (void)%{public}@ %2i %{public}@  â° incoming:{ targetTime:%3.2f; sourceTime:%3.2f } /* Error: Ran out of types for this method. */;
+- (id)Ù÷ÿU!9ç;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

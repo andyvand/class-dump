@@ -10,18 +10,18 @@
     id _propertyList;
 }
 
-+ (id)c %@ ;
-+ (_Bool)È¤ÿ;
++ (id);
++ (_Bool)sionCompletionType;
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)yEvent",&,N,V_modelPlayEvent;
-- (id);
-- (void);
-- (id)hierarchyStyle;
-- (id)n >= 0;
-- (SEL);
+- (_Bool)gToSizeCoordinator:(id)arg1;
+- (void)thTextAlternatives:(id)arg1 atPosition: /* Error: Ran out of types for this method. */;
+- (id)Presentation;
+- (SEL)row %ld;
+- (void)2;
+- (id)Øåþ;
 
 // Remaining properties
 @property(readonly, nonatomic) SEL action; // @synthesize action=_action;

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCPurchaseOfferableConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (NTPBPublisherPaidDescriptionStrings *)8@"UICollectionView"16@"UICollectionViewLayout"24@"UICollectionViewLayout"32;
-- (void)4;
-- (NSString *)¤2h\;
+- (_Bool)ns;
+- (double)(ÒÀÿÈÿÿ;
+- (_Bool)t calendar event view. Triggered by tapping Add to Calendar in earnings dates;
+- (_Bool)ayoutModel;
+- (_Bool)ckListSectionHeaderViewLayoutAttributesFactory;
+- (_Bool)S¤¹;
+- (_Bool)r;
+- (NSString *)LÎÿñ¤¬ÎÿÙ¤ôÎÿñ¤<ÎÿÁ¤Îÿ±¤ÌÎÿY¤ØÐÐÿa¤ÔÐÐÿÁ¤\Îÿ©¤¬Îÿ¤$ÑÐÿ;
+- (_Bool)¤°D½ÿÝ-¤ØD½ÿå-¤;
 - (_Bool);
-- (_Bool)ðõÿÿAúÿ\¹ÿÐÿÿ;
-- (FCPurchaseOfferableConfiguration *)egn_;
-- (NSArray *)_-Ã;
-- (_Bool)utAlertableP;
-- (NSString *)ew;
-- (_Bool)cksUI40BrandingTitleViewLayoutAttributesFactory;
-- (id <FCPuzzleTypeProviding>)fetching expanded news data, identifier=%{public}@;
-- (id <FCTopicProviding>)tCellViewStylerType;
-- (_Bool)Å#;
-- (_Bool)Y7èL½ÿI7ÌL½ÿ;
+- (NSDate *)er;
+- (long long)o¤84¿ÿío¤¹Çÿp¤ü¹Çÿõo¤ü¹Çÿåo¤ü¹Çÿõo¤lºÇÿ­o¤¥¾ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -47,6 +45,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -73,6 +73,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

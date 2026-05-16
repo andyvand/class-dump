@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)N,V_delegate;
++ (Class);
 - (id);
-- (void)ntBackground;
-- (struct CGSize);
+- (void);
+- (struct CGSize)rom layout, %@, to layout, %@. This is a UIKit bug.;
 
 @end
 

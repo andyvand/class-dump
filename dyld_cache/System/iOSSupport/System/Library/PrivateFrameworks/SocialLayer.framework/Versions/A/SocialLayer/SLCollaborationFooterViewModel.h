@@ -27,17 +27,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (long long);
+- (_Bool);
 - (id);
-- (id)++. /1;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CKContainerSetupInfo *containerSetupInfo; // @synthesize containerSetupInfo=_containerSetupInfo;

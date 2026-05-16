@@ -37,11 +37,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void)&,N,V_highlightColor;
+- (void)@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) VKTextFrameProcessorConfiguration *configuration;

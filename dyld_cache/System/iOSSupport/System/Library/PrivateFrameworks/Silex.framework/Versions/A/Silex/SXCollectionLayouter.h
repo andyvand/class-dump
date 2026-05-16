@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)ntSource;
-- (void);
+- (void)<SXFullscreenCaptionDataSource>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXColumnCalculator> columnCalculator; // @synthesize columnCalculator=_columnCalculator;

@@ -37,7 +37,7 @@
     id <CNAutocompleteSearchControllerInternalDelegate> _delegate;
 }
 
-+ (id)=;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -59,10 +59,10 @@
 - (void);
 - (id);
 - (id);
-- (void)#;
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 

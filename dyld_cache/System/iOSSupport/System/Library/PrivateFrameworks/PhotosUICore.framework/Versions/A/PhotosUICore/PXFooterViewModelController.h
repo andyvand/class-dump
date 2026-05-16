@@ -30,14 +30,14 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (void);
 - (id);
-- (void)tainer;
-- (void)nitialChanges;
-- (id);
-- (void)ÿHX&;
+- (_Bool);
+- (void);
+- (void)racker.tracking;
+- (void);
+- (id);
+- (void)6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

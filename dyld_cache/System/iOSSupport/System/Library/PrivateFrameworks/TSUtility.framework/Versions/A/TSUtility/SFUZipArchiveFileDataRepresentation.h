@@ -17,13 +17,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
 - (void);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (long long);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

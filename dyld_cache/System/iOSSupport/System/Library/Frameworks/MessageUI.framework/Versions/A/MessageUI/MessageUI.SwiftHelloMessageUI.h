@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id)icker;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *world;

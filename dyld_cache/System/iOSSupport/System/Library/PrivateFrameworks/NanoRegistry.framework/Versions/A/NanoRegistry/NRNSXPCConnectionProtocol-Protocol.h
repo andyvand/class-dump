@@ -7,7 +7,6 @@
 @class NSString, NSXPCInterface;
 
 @protocol NRNSXPCConnectionProtocol
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCInterface *exportedInterface;

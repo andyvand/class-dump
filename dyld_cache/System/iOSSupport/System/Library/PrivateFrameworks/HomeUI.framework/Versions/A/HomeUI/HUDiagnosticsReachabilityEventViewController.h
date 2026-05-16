@@ -18,14 +18,14 @@
 - (id);
 - (void);
 - (id);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (id)sory"8;
-- (void)iaPickerUnavailableReasonKey;
+- (id)%{BOOL}d for item:%@ /* Error: Ran out of types for this method. */;
+- (void)eNoCurrentDevice;
+- (void)Ïÿ_lü8p;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

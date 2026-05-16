@@ -11,17 +11,17 @@
     CDUnknownBlockType _didReorderHandler;
 }
 
-- (void);
-- (CDUnknownBlockType)Q;
 - (id);
-- (void)1¢!0@ù
+- (CDUnknownBlockType)
 × ;
-- (id)CùÃð1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (CDUnknownBlockType)"NSTextContainer"{CGRect={CGPoint=dd}{CGSize=dd}}d@"UITextPosition">32;
-- (void)DynamicButtonDelegate>",W,N,V_swipeActionButtonDelegate;
-- (void)ValueView;
-- (CDUnknownBlockType)ition;
+- (CDUnknownBlockType)IDraggingSessionDelegate>";
+- (CDUnknownBlockType)Radius:lineWidth: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)P¼;
+- (void)l;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType canReorderItemHandler; // @synthesize canReorderItemHandler=_canReorderItemHandler;

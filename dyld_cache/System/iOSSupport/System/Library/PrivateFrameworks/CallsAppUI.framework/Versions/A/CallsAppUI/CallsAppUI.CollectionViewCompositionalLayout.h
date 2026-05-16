@@ -13,13 +13,13 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)eForKeyPath:(CDUnknownBlockType)arg1 ofObject:(id)arg2 change:context: /* Error: Ran out of types for this method. */;
-- (id)xÍ;
-- (id)èþÿ;
+- (id)ease;
+- (id)mßyÒáy_AByytACy³fßyADërßy-eßGGGGQo_©áy_AByytAOyâá%hßGGQo_GtG;
 
 @end
 

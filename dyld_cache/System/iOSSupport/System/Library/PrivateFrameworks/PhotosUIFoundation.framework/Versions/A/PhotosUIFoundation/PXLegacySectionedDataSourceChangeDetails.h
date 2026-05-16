@@ -36,10 +36,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *changedItemsIndexPaths;

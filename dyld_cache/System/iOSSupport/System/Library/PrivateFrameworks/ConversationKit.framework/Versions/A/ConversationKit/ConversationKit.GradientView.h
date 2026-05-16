@@ -12,9 +12,9 @@
 }
 
 + (Class);
+- (id)Ý];
 - (id);
-- (void);
-- (id);
+- (void)So17UITargetedPreviewC_Èq¢17preferredTintModeSb13prefersShadowSb0F13ScaledContentt;
 
 @end
 

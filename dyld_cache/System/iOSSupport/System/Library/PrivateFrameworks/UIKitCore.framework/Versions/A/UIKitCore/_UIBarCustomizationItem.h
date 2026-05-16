@@ -23,38 +23,37 @@
     _UIBarCustomizationChiclet *__chiclet;
 }
 
-+ (id)operty update:(id)arg1 %@;
-+ (id)transfer for message GUID %@ transfer guid %@;
++ (id);
++ (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)stChatWithOriginalGroupID:onService: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ateTemporaryFileTransferGUIDsWithPermanentFileTransferGUIDs:(id)arg1;
-- (void)g for throughput tracking for flag %{public}s;
-- (id)We didn't have an md5 hash for fetched record:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGRect);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);cº;
-- (id)1¢!0@ù
-× ;
-- (void)tBaselineWithSubtitle:(id)arg1;
-- (id)ionTransitionDidEnd;
-- (id)ShiftLocked;
-- (void)ection:(_Bool)arg1 positionFactor:inwardSizeFactor:outwardSizeFactor:perpendicularSizeFactor:sizeAspectRatio:scale: /* Error: Ran out of types for this method. */;
-- (id)serInterfaceStyleForGrid: /* Error: Ran out of types for this method. */;
-- (id)Settings;
-- (_Bool)etUpdatedFeedback;
-- (void)|;
-- (id)TÇ û;
-- (void)üÿøüÿ;
-- (void)0ü;
+- (void)× ;
+- (id)rLayer;
+- (id)ibutes;
+- (id)UIFocusRegionContainer>",?,R,W,N,G_focusMapContainer;
+- (id)D;
+- (id)mbolic breakpoint at -[UIViewController setParentViewController:] to catch this in the debugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)p>;
+- (void)icationShortcutIconTypeContact;
+- (void)P_àÿ¨2ÖØv^;
+- (void)ó;
+- (void)ie;
 
 // Remaining properties
 @property(retain, nonatomic) _UIBarCustomizationChiclet *_chiclet; // @synthesize _chiclet=__chiclet;

@@ -29,9 +29,9 @@
 - (id);
 - (id);
 - (id);
-- (void)A;
 - (id);
-- (long long);
+- (long long);
+- (void)ic}@ error=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCSharedListeningCustomEvent *customEvent; // @synthesize customEvent=_customEvent;

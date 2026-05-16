@@ -8,8 +8,8 @@
 {
 }
 
-+ (Class)fetch chat operation ID %@;
-- (id)stions;
++ (Class);
+- (id);
 
 @end
 

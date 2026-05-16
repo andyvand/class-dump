@@ -5,6 +5,5 @@
 //
 
 @protocol IMSpotlightActivityMonitoring
-- (void);
 @end
 

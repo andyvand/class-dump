@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long)ch cleared before fetch could begin, this is an invalid state;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void)H;
-- (id);
-- (id);
-- (id);
+- (void)workCatalogsCache;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

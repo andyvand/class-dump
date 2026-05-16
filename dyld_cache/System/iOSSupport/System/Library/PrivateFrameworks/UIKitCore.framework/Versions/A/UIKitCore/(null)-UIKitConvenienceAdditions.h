@@ -5,7 +5,7 @@
 //
 
 @interface (null) (UIKitConvenienceAdditions)
-+ (id),;
++ (id);
 - (struct _NSRange);
 - (id);
 - (struct CGSize);

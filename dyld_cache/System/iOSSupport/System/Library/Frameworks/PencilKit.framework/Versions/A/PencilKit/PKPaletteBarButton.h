@@ -23,23 +23,23 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)removeCharactersInRange:(double)arg1;
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)wingDisplay:(id)arg1;
-- (void)ctSize:(id)arg1 ,V__useEqualSpacingLayoutInCompactSize;
-- (void)youtConstraint",&,N,V_toolLabelCenterXConstraint;
-- (void)¼{4;
-- (void)mand %p:(id)arg1 failed because text result is nil. Error:(id)arg2 %@. Shot:<%@> /* Error: Ran out of types for this method. */;
-- (void)abled.;
-- (id);
-- (id);
+- (id);
+- (void);
+- (void);
+- (id)ntroller;
+- (void)n;
+- (void)Ô;
+- (void)ple.PencilKit.GroupQueryStrokeGroupComputation;
+- (void);
+- (void)-n;
+- (id);
+- (void)Õ¹);
+- (void)/x(;
+- (void)¨;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;

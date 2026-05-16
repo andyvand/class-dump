@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragItem, UIDropInteraction, UIDropProposal, UITargetedDragPreview;
+@class UIDropInteraction, UIDropProposal, UITargetedDragPreview;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void)nizedResult"24@0:(UIDropInteraction *)arg1 8@"NSSet"16;
-- (void):(UIDropInteraction *)arg1;
-- (void)letion:(UIDropInteraction *)arg1;
-- (void)teFirstAndLastStrokeForKnobPlacement;
-- (void)Path:(UIDropInteraction *)arg1 transform:(UIDragItem *)arg2;
-- (UITargetedDragPreview *)R,N,V_touches;
-- (UIDropProposal *)¤;
-- (_Bool);
-- (void)h delay = %.2f, has active task ? %d, %ld tasks;
+- (UIDropProposal *)0@ù
+× ;
+- (UITargetedDragPreview *)ÔÁ	ð!DEù1(Ð1Â0@ù
+× ;
+- (void)ePageSize:(UIDropInteraction *)arg1;
+- (void)ter;
+- (void);
 @end
 

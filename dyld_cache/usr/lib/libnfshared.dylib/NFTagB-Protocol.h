@@ -15,5 +15,6 @@
 @property(readonly, copy, nonatomic) NSData *selectedAID;
 @property(readonly, nonatomic) unsigned char sfgi;
 @property(readonly, nonatomic) double sfgt;
+@property(readonly, nonatomic) _Bool supportsPACE;
 @end
 

@@ -11,8 +11,8 @@
     _TtC12PhotosUICore23PXEditAutomationManager *_automationManager;
 }
 
-- (void);
-- (id)utMetrics";
+- (id);
+- (void)ionAreaStyle;
 
 @end
 

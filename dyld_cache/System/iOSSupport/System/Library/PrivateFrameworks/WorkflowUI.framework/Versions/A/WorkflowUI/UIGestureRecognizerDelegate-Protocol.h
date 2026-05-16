@@ -7,8 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)kflowCGAUÂÉGGAEGtGGSgtGG`nG
-oG;
-- (_Bool)rtShortcutPickerDetailViewController.swift;
+- (_Bool)¸£;
 @end
 

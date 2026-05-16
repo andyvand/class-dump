@@ -15,10 +15,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
 - (long long);
+- (_Bool);
+- (id)
+× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedTitle;

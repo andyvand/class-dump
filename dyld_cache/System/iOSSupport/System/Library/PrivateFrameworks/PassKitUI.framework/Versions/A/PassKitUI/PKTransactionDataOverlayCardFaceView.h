@@ -18,26 +18,26 @@
     _Bool _contentSuppressed;
 }
 
-+ (double);
 + (id);
-- (void);
++ (double);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)r.nfcOnlyNotSupported;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)Zé;
 
 // Remaining properties
 @property(nonatomic, getter=isContentSuppressed) _Bool contentSuppressed; // @synthesize contentSuppressed=_contentSuppressed;

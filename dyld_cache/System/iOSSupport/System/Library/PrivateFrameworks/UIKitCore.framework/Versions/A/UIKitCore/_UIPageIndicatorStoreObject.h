@@ -17,30 +17,28 @@ __attribute__((visibility("hidden")))
     struct CGSize _activeIndicatorSize;
 }
 
+- (id);
 - (long long);
-- (struct CGSize);
-- (struct CGSize);
-- (void)9SegmentCornerDetector;
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)Oº;
-- (id)!0@ù
-× ;
-- (id)¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void):(struct CGSize)arg1 lineBreakMode:letterSpacing:textAlignment:style:withLegibilityStyle:legibilityStrength:shouldCache: /* Error: Ran out of types for this method. */;
-- (void)Action;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)erAnimatedTransitioning>",R,N;
-- (struct CGSize)ect",C,N,V_shadowEffect;
-- (long long)Hg¼g0hDiÈj<kpk;
-- (void)n;
-- (void)rContainer;
+- (id);
+- (void);
 - (_Bool);
+- (struct CGSize);
+- (id);
+- (void);
+- (void)0@ù
+× ;
+- (void)ndNavigator;
+- (long long)zes;
+- (struct CGSize)eNavigationBar;
+- (void)TQ,N,V_currentDirection;
+- (void),R,N;
+- (struct CGSize)side effects on UICollectionView that cause a new cell to be requested while an existing item is being reconfigured is not allowed. Check the backtrace to see what's causing this. Collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)erParentingMode;
+- (_Bool)(`;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *activeImage; // @synthesize activeImage=_activeImage;

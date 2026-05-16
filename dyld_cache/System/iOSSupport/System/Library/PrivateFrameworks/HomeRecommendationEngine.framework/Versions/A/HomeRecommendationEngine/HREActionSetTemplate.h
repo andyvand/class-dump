@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionSetName; // @synthesize actionSetName=_actionSetName;

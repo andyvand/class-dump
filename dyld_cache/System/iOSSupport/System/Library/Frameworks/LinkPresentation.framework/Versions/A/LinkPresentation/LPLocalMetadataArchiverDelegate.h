@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)eLinkedPeople:(id)arg1;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

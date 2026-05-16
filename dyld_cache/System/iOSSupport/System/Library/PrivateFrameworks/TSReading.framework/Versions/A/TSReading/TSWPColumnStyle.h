@@ -17,7 +17,7 @@
 + (int);
 + (float);
 + (id);
-+ (id)Â¬;
++ (id);
 - (_Bool);
 - (double);
 - (double);
@@ -27,7 +27,7 @@
 - (struct CGSize);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)Transaction *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

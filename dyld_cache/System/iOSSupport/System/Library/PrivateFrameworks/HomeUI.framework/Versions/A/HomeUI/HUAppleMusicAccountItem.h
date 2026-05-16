@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)e_AdminOrOwner;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;

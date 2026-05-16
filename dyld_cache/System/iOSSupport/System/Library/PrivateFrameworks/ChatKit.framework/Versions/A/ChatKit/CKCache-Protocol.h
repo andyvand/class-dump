@@ -5,6 +5,6 @@
 //
 
 @protocol CKCache
-- (id);
+- (void)tionTintColor;
 @end
 

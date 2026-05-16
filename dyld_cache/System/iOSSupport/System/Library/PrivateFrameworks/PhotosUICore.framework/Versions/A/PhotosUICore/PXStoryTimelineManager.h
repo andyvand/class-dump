@@ -74,19 +74,19 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)tableListModel;
-- (void)PhotosUICore23LemonadeViewTimeTracker;
-- (void);
+- (id)tosIsInSelectMode;
+- (void)dgetSpec.m;
+- (void)at least one person.;
+- (id)µ'ÿ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

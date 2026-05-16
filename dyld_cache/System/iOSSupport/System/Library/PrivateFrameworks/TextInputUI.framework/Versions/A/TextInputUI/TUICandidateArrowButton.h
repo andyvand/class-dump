@@ -21,37 +21,36 @@
     struct CGPoint _arrowImageOffset;
 }
 
-- (void)z;
-- (void)1æ|;
-- (void)*æ|;
-- (void)ò;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (double);
 - (id);
-- (struct CGPoint)¨Å ;
+- (struct CGPoint);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)!;
-- (void)0@ù
-× ;
+- (void)romPhotosButtonCallback:(id)arg1;
+- (id)ô1;
 
 // Remaining properties
 @property(nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;

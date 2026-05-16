@@ -16,12 +16,12 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)pletion block {completion:%@, error:%@} /* Error: Ran out of types for this method. */;
-- (id)hDirection;
 - (id);
 - (id);
+- (id);
+- (id)ionsOfOthers: /* Error: Ran out of types for this method. */;
+- (id)ions:outError: /* Error: Ran out of types for this method. */;
+- (void)ce may travel to between startDate, %@, endDate, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;

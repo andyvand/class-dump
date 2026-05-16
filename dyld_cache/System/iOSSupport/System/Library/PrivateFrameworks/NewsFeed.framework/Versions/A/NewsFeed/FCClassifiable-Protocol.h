@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString;
 
 @protocol FCClassifiable
-- (NSString *);
+- (NSString *);
+- (NSArray *)cursor %{public}@ with a consumed identifier=%{public}@, kind=%{public}@, dedupResult=%{public}@;
 @end
 

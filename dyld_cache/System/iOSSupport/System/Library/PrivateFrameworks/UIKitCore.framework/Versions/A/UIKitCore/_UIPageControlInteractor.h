@@ -17,21 +17,20 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (id)table;
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (double);
-- (id)\h	ë;
-- (void)1¢!0@ù
-× ;
-- (double)ace: /* Error: Ran out of types for this method. */;
-- (void)erAnimatedTransitioning>",&,N,V_animator;
-- (double)uggestionInfos;
-- (double)ÄÃ+ÿP,<;
-- (double)ppercase;
+- (double);
+- (void);
+- (double)ontext: /* Error: Ran out of types for this method. */;
+- (void)ck: /* Error: Ran out of types for this method. */;
+- (double): /* Error: Ran out of types for this method. */;
+- (double)ffset;
+- (void)t fields can only be added to an alert controller of style UIAlertControllerStyleAlert;
+- (void)Ú;
 
 // Remaining properties
 @property(readonly, nonatomic) double boundedScrubPosition;

@@ -35,14 +35,14 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (void);
-- (id)y|¢L0;
+- (struct CGRect);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (void)IViewControllerTransitioningDelegate;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;

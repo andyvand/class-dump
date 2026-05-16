@@ -8,7 +8,6 @@
 @protocol AVTDisplayingCarouselControllerDelegate;
 
 @protocol AVTDisplayingCarouselController
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTDisplayingCarouselControllerDelegate> displayingDelegate;

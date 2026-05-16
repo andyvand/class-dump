@@ -16,9 +16,9 @@
     double _topMedian;
 }
 
-- (double);
-- (double)h;
-- (void)K;
+- (double);
+- (double);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,9 +27,10 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (id)uired: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)@;
 
 // Remaining properties
 @property(nonatomic) double avgAggTime_s; // @synthesize avgAggTime_s=_avgAggTime_s;

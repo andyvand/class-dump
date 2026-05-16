@@ -26,11 +26,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (_Bool)nIdentifierOptions;
-- (void)y;
+- (void)hName:(_Bool)arg1;
+- (void)nZoneText;
+- (_Bool)ýÌí;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

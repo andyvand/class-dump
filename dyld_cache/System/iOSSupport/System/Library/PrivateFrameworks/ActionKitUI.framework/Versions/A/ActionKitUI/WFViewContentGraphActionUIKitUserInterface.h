@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
+- (void)ÿÿèÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

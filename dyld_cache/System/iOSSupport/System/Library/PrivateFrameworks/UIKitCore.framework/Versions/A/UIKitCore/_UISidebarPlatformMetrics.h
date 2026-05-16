@@ -17,7 +17,7 @@
     struct NSDirectionalEdgeInsets _platterInsets;
 }
 
-- (struct _UISidebarWidths)ass length is invalid;
+- (struct _UISidebarWidths);
 - (void);
 - (void);
 - (void);
@@ -30,9 +30,9 @@
 - (struct _UISidebarWidths);
 - (id);
 - (double);
-- (id);
-- (void);
-- (id)style:willCloseBlock:didCloseBlock: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIViewMaterial> abuttedBackground; // @synthesize abuttedBackground=_abuttedBackground;

@@ -9,7 +9,6 @@
 @protocol UIContextMenuInteractionDelegate_Private
 
 @optional
-- (_Bool);
-- (_UIContextMenuStyle *)to register for backlight changes, status=%u;
+- (_UIContextMenuStyle *);
 @end
 

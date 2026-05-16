@@ -17,15 +17,16 @@
 - (void);
 - (void);
 - (id);
-- (id)opyValuesFromLegacyNote:toNote:styler:attachmentPreviewGenerator:] /* Error: Ran out of types for this method. */;
-- (id)@9*;
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)
+× ;
+- (void)4;
 
 // Remaining properties
 @property(retain, nonatomic) CKRecipientAvailabilities *availabilities; // @synthesize availabilities=_availabilities;

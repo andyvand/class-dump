@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPickerView;
-
 @protocol UIPickerViewDataSource
-- (long long)didJoinChat:(UIPickerView *)arg1 style:displayName:groupID:originalGroupID:handleInfo: /* Error: Ran out of types for this method. */;
 @end
 

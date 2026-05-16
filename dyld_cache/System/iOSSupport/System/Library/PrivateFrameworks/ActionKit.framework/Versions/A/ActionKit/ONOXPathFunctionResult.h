@@ -14,9 +14,9 @@
 - (struct _xmlXPathObject *);
 - (void);
 - (double);
-- (id);
 - (void);
 - (_Bool);
+- (id);
 - (id);
 
 // Remaining properties

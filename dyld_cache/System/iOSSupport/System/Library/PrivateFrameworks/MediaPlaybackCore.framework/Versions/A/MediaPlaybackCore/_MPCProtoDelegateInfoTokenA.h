@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     NSData *_picRequestData;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)[deferredNextContentItemID is nil];
 
 @end
 

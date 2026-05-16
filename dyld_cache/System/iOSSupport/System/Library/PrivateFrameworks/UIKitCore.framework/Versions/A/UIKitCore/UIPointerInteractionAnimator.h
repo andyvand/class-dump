@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_completions;
 }
 
-- (void)geDictionaryForLogging;
+- (void);
 - (void);
 - (id);
-- (id)neComplete;
-- (void)Àð1¢!0@ù
-× ;
-- (void)Ô¡tÐ!ÜEùÑÈÐ1¢!0@ù
-× ;
-- (void)}{CGSize=dd}}16;
-- (id)ction: /* Error: Ran out of types for this method. */;
-- (void)placementFunction;
-- (void)Àº;
-- (void)8ÒÿPFÒâg;
+- (id);
+- (void)anteedPerformanceIdentifiers;
+- (id);
+- (void)pe;
+- (void)mnViewControllers are %@;
+- (void);
+- (void)Ôpd;
+- (void)ài;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;

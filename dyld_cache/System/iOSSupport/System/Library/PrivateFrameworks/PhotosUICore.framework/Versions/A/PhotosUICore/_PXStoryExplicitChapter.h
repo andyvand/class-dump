@@ -18,14 +18,14 @@
 
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)oomLevel;
-- (id)nitialDataSource;
+- (id)tCounts;
+- (id)eRequestID;
+- (id)p;
+- (void)ncelled:(id)arg1 %@;
+- (id)Source collectionAtIndexPath:] /* Error: Ran out of types for this method. */;
+- (void)unknown OneUpSharePlayActivityActivationResult;
+- (id)QâÈ¨!ÿQâÈ w ÿâÈ¨!ÿÑâÈ,¨!ÿ¡âÈ¨!ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *assetUUIDs; // @synthesize assetUUIDs=_assetUUIDs;

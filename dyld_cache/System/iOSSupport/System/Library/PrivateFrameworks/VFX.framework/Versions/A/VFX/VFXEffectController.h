@@ -11,12 +11,12 @@
     NSString *_tag;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)@"<MTLComputePipelineState>"48@0:8@"MTLComputePipelineDescriptor"16Q24^@32^@40 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)À;
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *tag; // @synthesize tag=_tag;

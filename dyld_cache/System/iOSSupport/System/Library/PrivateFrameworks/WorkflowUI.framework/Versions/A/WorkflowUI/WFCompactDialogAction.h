@@ -23,10 +23,10 @@
 - (id);
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (void);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType)í´î\ï;
+- (void),;
 
 // Remaining properties
 @property(retain, nonatomic) id <WFCompactAppearanceProvider> appearanceProvider; // @synthesize appearanceProvider=_appearanceProvider;

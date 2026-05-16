@@ -12,8 +12,8 @@
     MISSING_TYPE *attachmentResolver;
 }
 
-- (void)Done:modes: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

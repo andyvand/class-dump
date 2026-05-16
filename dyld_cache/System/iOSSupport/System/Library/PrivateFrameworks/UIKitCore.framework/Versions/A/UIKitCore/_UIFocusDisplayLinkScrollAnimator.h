@@ -25,12 +25,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGPoint);
 - (void);
-- (void)48@0:(id)arg1 8@16@24C32B36@40;
-- (void)edNotifier;
-- (void)rMessage:(id)arg1;
-- (void)ayloadAttachment;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void)forMessage:(id)arg1 inChat:(long long)arg2 createIfNeeded:(id)arg3;
+- (void);
 - (struct CGPoint);
 - (id);
 - (id);
@@ -40,12 +40,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct CGPoint);
-- (_Bool)essage:(id)arg1 %@ chat:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (void)DisplayValuesWillChangeNotification;
+- (_Bool);
 - (void);
 - (void);
-- (void)i4¸o;
+- (void)temEngineHostingView";
+- (id)ogressLineWidth;
+- (void)ÃÚ;
 
 // Remaining properties
 @property(nonatomic) double defaultConvergenceRate;

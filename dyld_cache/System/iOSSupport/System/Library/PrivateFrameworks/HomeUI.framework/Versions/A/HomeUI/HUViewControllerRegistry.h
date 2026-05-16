@@ -11,12 +11,12 @@
     NSMutableDictionary *_viewControllerClassesByIdentifier;
 }
 
-+ (id)÷Qw;
++ (id):) /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);
 - (void);
-- (void);
 - (id);
+- (void)PersonalDeviceWarningViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *viewControllerClassesByIdentifier; // @synthesize viewControllerClassesByIdentifier=_viewControllerClassesByIdentifier;

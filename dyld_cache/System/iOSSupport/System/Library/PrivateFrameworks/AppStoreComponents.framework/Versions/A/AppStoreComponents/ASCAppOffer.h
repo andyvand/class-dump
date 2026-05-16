@@ -17,6 +17,7 @@ __attribute__((visibility("hidden")))
     NSArray *_metrics;
     NSString *_baseBuyParams;
     NSString *_metricsBuyParams;
+    NSDictionary *_metricsOverlay;
     NSDictionary *_additionalHeaders;
     NSURL *_preflightPackageURL;
     NSString *_bundleID;
@@ -35,20 +36,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)ô0L2à356;
+- (void);
+- (id)ckupContextSafariExtension context on lockup request;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *additionalHeaders; // @synthesize additionalHeaders=_additionalHeaders;
@@ -67,6 +69,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, copy, nonatomic) NSString *itemName; // @synthesize itemName=_itemName;
 @property(readonly, nonatomic) NSArray *metrics; // @synthesize metrics=_metrics;
 @property(readonly, copy, nonatomic) NSString *metricsBuyParams; // @synthesize metricsBuyParams=_metricsBuyParams;
+@property(readonly, copy, nonatomic) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
 @property(readonly, copy, nonatomic) NSURL *preflightPackageURL; // @synthesize preflightPackageURL=_preflightPackageURL;
 @property(readonly, copy, nonatomic) NSDictionary *subtitles; // @synthesize subtitles=_subtitles;
 @property(readonly) Class superclass;

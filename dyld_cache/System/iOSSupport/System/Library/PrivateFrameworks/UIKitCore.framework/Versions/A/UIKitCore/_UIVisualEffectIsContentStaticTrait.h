@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)nt is Emergency %{BOOL}d, shouldRelayEmergencyTextFromPairedDevice:%{BOOL}d, isDefaultPairedDeviceRelayingLocally:%{BOOL}d, isInProxyMode %{BOOL}d  /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (id)ltListener: /* Error: Ran out of types for this method. */;
-+ (id)@Òþ;
-+ (long long)Ð-Ñÿ;
++ (_Bool);
++ (id);
++ (id)lorSet;
++ (long long)HÍ½gg;
 
 @end
 

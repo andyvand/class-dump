@@ -18,19 +18,20 @@
 }
 
 - (void);
-- (double);
-- (void)LL;
-- (double);
 - (void);
-- (void)PlaylistsLoading;
-- (void)eue;
 - (double);
+- (double);
+- (double);
+- (id);
 - (void);
-- (id)Ô ;
-- (_Bool)1};
-- (id){CGSize=dd}}20B52d56;
-- (id)rator;
 - (void);
+- (void)
+× ;
+- (_Bool)BottomMargin;
+- (void)dex;
+- (id),V_fromIndex;
+- (void)ntationDelegate>",W,N,V_presentationDelegate;
+- (id)ss NSPersistentStoreCoordinator;
 - (void);
 - (id);
 

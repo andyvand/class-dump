@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXRemoteDataResource
-- (NSString *)_typographicBounds;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contentType;

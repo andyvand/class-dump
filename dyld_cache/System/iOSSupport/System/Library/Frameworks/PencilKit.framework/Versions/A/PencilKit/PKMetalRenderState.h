@@ -46,7 +46,7 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (unsigned long long)@;
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -82,12 +82,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id)˟;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -100,15 +100,15 @@
 - (unsigned long long);
 - (CDStruct_5f3a0cd7);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)teractionElementSource>";
 - (void);
-- (void)þÿþÿþÿ¼þÿ(þÿþÿ@þÿdþÿþÿ¼þÿøþÿ,þÿPþÿtþÿþÿ¼þÿàþÿþÿPþÿtþÿ þÿÔþÿþÿ,þÿhþÿþÿÀþÿäþÿþÿ,þÿPþÿtþÿþÿþÿ¤þÿÈþÿìþÿþÿLþÿþÿ¤þÿÔþÿþÿ<þÿ`þÿþÿÐþÿôþÿ þÿTþÿþÿ þÿÔþÿøþÿþÿàþÿþÿ8þÿdþÿþÿ¬þÿàþÿþÿ@þÿtþÿþÿ¼þÿèþÿ þÿ0 þÿT þÿx þÿ þÿÀ þÿä þÿ ¥þÿÄ¥þÿè¥þÿ$¦þÿH¦þÿl¦þÿ¦þÿÌ¦þÿð¦þÿ§þÿ8§þÿt§þÿ§þÿ¼§þÿà§þÿ¨þÿ@¨þÿd¨þÿ¨þÿ¼¨þÿø¨þÿ©þÿ@©þÿd©þÿ ©þÿÄ©þÿè©þÿªþÿHªþÿlªþÿªþÿ´ªþÿðªþÿ«þÿ8«þÿ\«þÿ«þÿ¼«þÿà«þÿ¬þÿP¬þÿ¬þÿè¬þÿ4­þÿ­þÿÌ­þÿ®þÿd®þÿd¯þÿ¯þÿ¬¯þÿè¯þÿ°þÿ;
-- (id)%@>;
+- (id);
+- (void);
+- (void)4µµÔµ;
+- (id)NSTimer"8;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_commandBuffer;

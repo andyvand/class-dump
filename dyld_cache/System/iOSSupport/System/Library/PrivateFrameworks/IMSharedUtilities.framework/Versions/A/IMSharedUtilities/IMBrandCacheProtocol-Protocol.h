@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMBrandInfo, NSData, NSURL;
-
 @protocol IMBrandCacheProtocol
-- (IMBrandInfo *)ssuming snapshot is OK;
-- (NSURL *)NSString *, BOOL *);
-- (NSData *)kApplicationRestorationState(NSString *, NSString *, BOOL *);
 @end
 

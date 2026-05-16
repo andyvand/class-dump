@@ -4,108 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, NSArray, NSString;
-@protocol MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTL4CounterHeap, MTL4PipelineDataSetSerializer, MTLAccelerationStructure, MTLArgumentEncoder, MTLBinaryArchive, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLCounterSampleBuffer, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLLogState, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSamplerState, MTLSharedEvent, MTLTensor, MTLTexture;
+@class MTLAccelerationStructureDescriptor, MTLArchitecture, MTLCounterSampleBufferDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString, NSURL, OS_dispatch_data;
+@protocol MTL4Archive, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLBuffer, MTLCommandQueue, MTLCounterSampleBuffer, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor;
 
 @protocol MTLDevice
-- (id <MTLSamplerState>)n;
-- (unsigned long long)9;
-- (_Bool);
-- (void);
-- (void)ationDuration:(CDStruct_b2fbf00d *)arg1 animationCurve:(unsigned long long)arg2 ];
-- (_Bool)ECTION_TITLE;
-- (_Bool)=%@;
-- (CDStruct_4bcfbbae)eenSharingContext;
-- (id <MTLEvent>)LLIGENCE_ONBOARDING_MESSAGE_SUMMARIES_BULLET_DESCRIPTION;
-- (id <MTLIOFileHandle>)ChatItems;
-- (_Bool)nishNotification;
-- (unsigned long long)ontroller"8Q16^B24;
-- (id <MTLDynamicLibrary>)tWithAddress:(id <MTLLibrary>)arg1 ];
-- (unsigned long long)ssageAlertFiltration;
-- (id <MTLLogState>)Key;
-- (id <MTL4CommandQueue>)ayground;
-- (_Bool)Invalid image source for image:%d %zu /* Error: Ran out of types for this method. */;
-- (void)INGLE;
-- (void)onfettiEffect;
-- (id <MTLRasterizationRateMap>)w;
-- (id <MTL4PipelineDataSetSerializer>)ESSAGE_STATUS_DELIVERED;
-- (id <MTLLibrary>)_TRIGGER_WITH_RECIPIENT_FULL_NAME;
-- (id <MTLLibrary>)T_DESCRIPTION;
-- (id <MTL4CommandAllocator>)ve been already filtered out;
-- (void)damping=%.4f>;
-- (unsigned long long)oseAlternate;
-- (id <MTLRenderPipelineState>)olor;
-- (id <MTLCounterSampleBuffer>);
-- (_Bool)\	;
-- (void)ÿM@;
-- (id <MTLComputePipelineState>)	;
-- (id <MTLCommandQueue>)´jÿ);
-- (id <MTL4CounterHeap>);
-- (id <MTLTensor>)X;
-- (unsigned long long)P;
-- (id <MTLLibrary>)Ì@´;
-- (_Bool)p ÿ!;
-- (_Bool)d;
-- (id <MTLIOFileHandle>)|Îÿuh;
-- (id <MTLRenderPipelineState>)¬ÿ-4¸;
-- (_Bool)°Ø;
-- (id <MTLCommandQueue>)ÿQE;
-- (id <MTL4CommandBuffer>)Tè;
-- (id <MTLIOFileHandle>)';
-- (_Bool)Ð;
-- (id <MTLFunctionHandle>)PÌ;
-- (id <MTLAccelerationStructure>)È	;
-- (unsigned long long)ø¼Ä¨;
-- (id <MTLRenderPipelineState>);
-- (id <MTLBuffer>);
-- (id <MTLIOCommandQueue>);
-- (void);
-- (CDStruct_4bcfbbae)H;
-- (id <MTLTexture>)T;
-- (_Bool)};
-- (_Bool)OpenMessageIntent;
-- (id <MTLLibrary>)L;
-- (_Bool)F;
-- (id <MTLAccelerationStructure>)ÔÊM\òIÿòIÿ¼òIÿ;
-- (unsigned long long)á·;
-- (id <MTLArgumentEncoder>)n½¤Jÿ-n½ ãÿ;
-- (void)UÏ;
-- (id <MTL4CommandAllocator>)¥£¾ü@Ýÿ;
-- (_Bool)©A¾<kÜÿiA¾xkÜÿA¾ükÜÿiA¾økÜÿ¡A¾nÜÿ;
-- (id <MTLDynamicLibrary>),|¼In½L;;
-- (unsigned long long);
-- (void)½äñ½|A;
-- (id <MTLLibrary>)re;
-- (CDStruct_aa0b146f),iKÿm,¿ ªÿ;
-- (unsigned long long)¼-¿,f;
-- (void)i'¾	Ìÿ;
-- (id <MTLLibrary>);
-- (MTLArchitecture *)LayerState;
-- (unsigned long long)enerateButtonBackground;
-- (id <MTLSharedEvent>)2¿l;
-- (id <MTLIOFileHandle>)L®¼a;
-- (_Bool);
-- (unsigned int)ô;
-- (id <MTLComputePipelineState>)£¼ÿò¿£¼ÿõñ¿Ä¤¼ÿ;
-- (unsigned long long).;
-- (unsigned int)´ÿYÑ¿h³ÿAÑ¿´ê§ÿAÑ¿àÈ´ÿ)Ñ¿É´ÿÑ¿¤³ÿÑ¿¨Ê´ÿYÑ¿è¾´ÿ1Ñ¿8³ÿ1Ñ¿4³ÿÑ¿DË´ÿ;
-- (id <MTLFunctionHandle>);
-- (unsigned long long)|ÚLÿ.ÀxÚLÿ%.À¨ß©ÿÍ-À¬ß©ÿ;
-- (_Bool);
-- (unsigned long long)reKey;
-- (_Bool)=ÁÀkó;
-- (id <MTLBinaryArchive>)em;
-- (_Bool);
-- (id <MTLSharedEvent>)ÞÀî§ÿmÞÀ4@¨ÿ;
-- (NSArray *)-Cëâ6?A;
-- (_Bool)à?;
-- (void)ÿc3¼q;
+- (CDStruct_4bcfbbae)ýÐ!Dùq°1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (_Bool)orFileTransfer: /* Error: Ran out of types for this method. */;
+- (unsigned int)ConversationActivityBroadShadowDarkOffset;
+- (id <MTLRenderPipelineState>)Type:(MTLRenderPipelineDescriptor *)arg1;
+- (NSArray *)fMessagesToLoadBeforeGUID:numberOfMessagesToLoadAfterGUID:threadIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)ller:(id <MTLFunction>)arg1 didDetachDetailsNavigationController:(void (^)(id <MTLComputePipelineState>, NSError *))arg2;
+- (id <MTLCounterSampleBuffer>)mationDidFinishSideEffectsWithContext:(MTLCounterSampleBufferDescriptor *)arg1;
+- (id <MTLLibrary>)pts:(OS_dispatch_data *)arg1;
+- (_Bool)V_delegate;
+- (_Bool);
+- (id <MTLResidencySet>)r7ùÿÿÿ;
+- (id <MTLBuffer>);
+- (unsigned long long);
+- (id <MTLIOFileHandle>), isCollaborative:(NSURL *)arg1 %@;
+- (id <MTLAccelerationStructure>)ve Handshake:(MTLAccelerationStructureDescriptor *)arg1 Using the URL to remove participant;
+- (unsigned int)hat items changed before full transcript was sized
+ %@;
+- (unsigned long long)with GUID %@;
+- (_Bool)imatedImage.;
+- (id <MTLIOCommandQueue>)ersationDeferredSetup;
+- (unsigned long long);
+- (id <MTL4Archive>)¸ª;
+- (id <MTLRenderPipelineState>)ngLayout;
+- (_Bool)}Ñkä¸¦ÿ;
+- (void)elegate;
+- (void);
+- (_Bool)¼û;
 - (_Bool);
-- (id <MTLFence>),;
-
-@optional
-- (void)_handleGroupNameChanged:(const CDStruct_4c96eda1 *)arg1 ];
-- (void)°%;
+- (id <MTLSharedEvent>)¨ÿÿÿÅ»j¨ÿÿÿ;
+- (void)À«ÿ;
+- (id <MTLCommandQueue>);
+- (id <MTL4CommandBuffer>)Ý;
+- (id <MTLFunctionHandle>)lT§ÿ;
+- (id <MTL4CommandAllocator>)ize;
+- (unsigned long long)á?À?â?SSSSSSÓ?ôóóóóóÓ?555555Õ?______ï?×?ÓÒÒÒÒÒâ?ñ?;
+- (_Bool).;
+- (unsigned long long);
+- (_Bool)t4:. /* Error: Ran out of types for this method. */;
+- (_Bool)Kp.;
+- (unsigned long long)f³6p¡.;
+- (void)Ï6D.;
+- (id <MTLTensor>)\p.;
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -143,6 +90,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

@@ -43,8 +43,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void);
 - (long long);
+- (void)xtMenuButton;
 
 // Remaining properties
 @property(nonatomic) long long analyticsModuleType; // @synthesize analyticsModuleType=_analyticsModuleType;

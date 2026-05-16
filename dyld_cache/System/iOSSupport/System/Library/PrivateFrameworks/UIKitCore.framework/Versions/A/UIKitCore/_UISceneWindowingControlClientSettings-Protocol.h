@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneWindowingControlClientSettings
-- (void)s) has larger size than estimated (%ld MB);
 
 // Remaining properties
 @property(nonatomic) unsigned long long preferredWindowingControlStyleType;

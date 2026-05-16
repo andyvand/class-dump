@@ -11,10 +11,10 @@
     NSMapTable *_storage;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTCustomFormatList.mm;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *storage; // @synthesize storage=_storage;

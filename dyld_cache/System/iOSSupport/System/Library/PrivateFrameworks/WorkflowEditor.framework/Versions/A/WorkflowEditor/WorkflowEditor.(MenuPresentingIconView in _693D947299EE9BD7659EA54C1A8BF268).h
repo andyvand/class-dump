@@ -12,12 +12,12 @@
     MISSING_TYPE *$__lazy_storage_$_hostingView;
 }
 
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)ç;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

@@ -16,13 +16,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGPoint)pID:%@ /* Error: Ran out of types for this method. */;
-- (void)pð! Fù±ÂÐ1¢!0@ù
-× ;
-- (id)ion;
-- (id);
-- (void)\ØdþViewInstaller;
+- (struct CGPoint);
 - (void);
+- (id);
+- (void)32;
+- (id)itionTrackingView:(struct CGRect)arg1 ,V_overridePositionTrackingView;
+- (void)ðRÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint currentlyInspectedPoint; // @synthesize currentlyInspectedPoint=_currentlyInspectedPoint;

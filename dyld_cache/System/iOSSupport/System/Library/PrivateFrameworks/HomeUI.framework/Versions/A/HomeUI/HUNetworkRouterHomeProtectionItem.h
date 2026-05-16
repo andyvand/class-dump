@@ -12,11 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)legate:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

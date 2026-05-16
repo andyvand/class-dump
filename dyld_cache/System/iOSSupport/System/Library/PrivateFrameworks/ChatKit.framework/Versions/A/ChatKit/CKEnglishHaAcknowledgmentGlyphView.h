@@ -18,14 +18,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)GG;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)ration;
-- (struct CGPoint)isableEditor();
-- (void);`,
-;
+- (id);
+- (struct CGPoint);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -33,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (void)eIdentifier:(id)arg1 loadHandler: /* Error: Ran out of types for this method. */;
+- (void)èÉ[;
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *a1; // @synthesize a1=_a1;

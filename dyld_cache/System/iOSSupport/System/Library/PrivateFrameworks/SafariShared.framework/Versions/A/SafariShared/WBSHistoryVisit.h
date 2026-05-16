@@ -36,7 +36,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -47,45 +47,20 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (void)er:(id)arg1;
 - (void);
 - (id);
-- (void)76@0:(long long)arg1 8B16d20{CGRect={CGPoint=dd}{CGSize=dd}}28Q60@68;
-- (long long);
 - (void);
-- (void)((in.mv_fragment.xy - scn_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
-#else
-    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
-#endif
-    _output.motionblur.z = length(_output.motionblur.xy);
-    _output.motionblur.w = half(-_surface.position.z);
-#endif
-
-#ifdef USE_NORMALS_OUTPUT
-    _output.normals = half4( half3(_surface.normal.xyz), half(_surface.roughness) );
-#endif
-    
-#ifdef USE_RADIANCE_OUTPUT
-    _output.radiance.rgb = half3(_lightingContribution.specular.rgb);
-#endif
-                                 
-#ifdef USE_REFLECTANCE_ROUGHNESS_OUTPUT
-#ifdef USE_PBR
-    _output.reflectanceRoughnessOutput = half4( half3(_lightingContribution.pbr.probeReflectance), half(_surface.roughness) );
-#else 
-    _output.reflectanceRoughnessOutput = half4( 0.h );
-#endif
-#endif
-    
-    return _output;
-}
-;
-- (int);
 - (unsigned long long);
-- (id);
 - (long long);
-- (void)LT 0;
-- (void)`D;
+- (void);
+- (void);
+- (long long);
+- (void);
+- (int);
+- (id);
+- (void)Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;

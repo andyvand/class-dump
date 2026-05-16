@@ -17,8 +17,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)r.m;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool selectable; // @synthesize selectable=_selectable;

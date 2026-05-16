@@ -21,20 +21,21 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void)cacheLock;
-- (id);
-- (struct UIEdgeInsets)oadRemoteViewController]_block_invoke;
+- (id)ù
+× ;
+- (void)thConfiguration:(id)arg1;
+- (struct UIEdgeInsets)imit;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

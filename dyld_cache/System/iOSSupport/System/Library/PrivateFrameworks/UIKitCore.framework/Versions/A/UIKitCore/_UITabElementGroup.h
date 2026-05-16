@@ -24,30 +24,9 @@
     unsigned long long __sidebarAppearance;
 }
 
-- (id)SealingManifestIsMinimal;
-- (unsigned long long)XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (id)gavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -55,7 +34,7 @@ h0Sm4iIj1I5P1NFGq/jR8A==
 - (void);
 - (void);
 - (void);
-- (id)CONST;
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -68,28 +47,28 @@ h0Sm4iIj1I5P1NFGq/jR8A==
 - (void);
 - (void);
 - (void);
-- (id)0:(id)arg1 8@16^q24;
-- (_Bool)SeenAsOffGrid: /* Error: Ran out of types for this method. */;
-- (_Bool)ate: /* Error: Ran out of types for this method. */;
-- (id)tyle: /* Error: Ran out of types for this method. */;
-- (id)ilWithError: /* Error: Ran out of types for this method. */;
-- (void)dleIDs:(id)arg1 forMessageGUID:partIndex:previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
-- (id)sentationContextChangedForConversation: /* Error: Ran out of types for this method. */;
-- (id)dConversation: /* Error: Ran out of types for this method. */;
-- (id)bersChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (_Bool)dViaRelay:(id)arg1 withCompletionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)EncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)iceReachabilityController;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (void)ouches;
-- (id)redColumns;
+- (void)ckerKit;
 - (id);
 
 // Remaining properties

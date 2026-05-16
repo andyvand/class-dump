@@ -15,11 +15,10 @@
 - (void);
 - (double);
 - (double);
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (unsigned long long)!a°! Gùñn	1b0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic) double endTimeInterval; // @synthesize endTimeInterval=_endTimeInterval;

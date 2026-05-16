@@ -18,8 +18,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)Id:classification: /* Error: Ran out of types for this method. */;
 
 @end
 

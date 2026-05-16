@@ -42,12 +42,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void)TµU@¸V<¾W¼¿XxÀàË;
 
 // Remaining properties
 @property(nonatomic) _Bool _testing_disableCaching; // @synthesize _testing_disableCaching=__testing_disableCaching;

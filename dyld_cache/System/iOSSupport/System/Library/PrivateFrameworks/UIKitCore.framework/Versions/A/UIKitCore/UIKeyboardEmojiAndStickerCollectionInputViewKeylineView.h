@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)AndGUIDsToDeleteWithLimit:(double)arg1;
-- (id);
+- (void);
+- (id);
 
 @end
 

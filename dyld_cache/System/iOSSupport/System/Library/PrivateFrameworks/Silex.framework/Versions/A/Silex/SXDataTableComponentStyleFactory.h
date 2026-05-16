@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)@y	;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
@@ -41,8 +41,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ordinate2D=dd}{?=dd}}56@0:8{?={CLLocationCoordinate2D=dd}{?=dd}}16@48 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONObjectMerger *cellStyleMerger; // @synthesize cellStyleMerger=_cellStyleMerger;

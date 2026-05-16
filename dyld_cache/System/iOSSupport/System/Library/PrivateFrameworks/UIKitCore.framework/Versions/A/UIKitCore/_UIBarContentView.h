@@ -17,46 +17,47 @@ __attribute__((visibility("hidden")))
     UIImage *_backIndicatorMaskImage;
 }
 
-- (void);
-- (id)Point=dd}{CGSize=dd}}16{?=ddd}48I72;
-- (double)imaryAction"b1"menu"b1};
-- (double):(id)arg1;
-- (double)tion: /* Error: Ran out of types for this method. */;
-- (long long)r: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eferredLayout;
-- (unsigned long long)groundLuminanceLevel;
-- (double)ateUpdatingLayer;
-- (_Bool)¨wðx¤y|;
+- (id)!GùQ`Ð1Â0@ù
+× ;
+- (double)";
+- (_Bool)1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
+- (unsigned long long)ath:(id)arg1;
+- (id)allbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
+- (id)nteractiveDismissWhenFullScreen;
+- (double)V_selectByIndirectPointerTouchEnabled;
+- (id)DynamicButtonDelegate;
+- (void)ÜH;
+- (unsigned long long)passed to windowDidUpdateOrientationPreferences. Expected:%@, Received:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)rAdjust=%f, _accuracy=%f, CONTENT_MINX=%f, CONTENT_WIDTH=%f, _parentAdjustment=%@, scrollView=%@;
+- (double)lidBaselineConstraints=%p;
+- (void)4;
+- (Class)sistency:unexpected layout requesting collapse. Split view controller:%@ /* Error: Ran out of types for this method. */;
+- (void)sure;
+- (void)thout valid pointers for data=%p, requestedData=%p and overrides=%p;
+- (void);
+- (void)@"UITouchForceGestureRecognizer"8;
+- (void)from state %@;
+- (void).2f, {%.1f%+.1f, %.1f%+.1f}, %s%s%s%s;
+- (double)TextFormattingViewControllerSetItalicChange;
+- (void)UIKitDidEncode;
+- (_Bool)ural;
+- (void)eyDeviceUnsilenced;
+- (void). Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:(id)arg1 forIndexPath:(unsigned long long)arg2 item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (long long)ing;
+- (void)rmMinWidth;
+- (void);
 - (double);
-- (void)%@; on screen %@; tracking %@; resizing %@; local %@, dock state:(id)arg1 %@, hasValidNotif:(unsigned long long)arg2 %@>;
-- (id)Name;
-- (void)screen scale:(double)arg1 %f;
-- (void)IsExternalPlayerCommand(void);
-- (void)dateBarState;
-- (_Bool)dius >= 0;
-- (id)edbackGenerator.m;
-- (void)ng;
-- (void)onaryAssetGetAssetType;
-- (void)sableView"24;
-- (void).m;
+- (id);
+- (void)§ÿ;
+- (void)¢0;
+- (void)Ø&`;
+- (void)»ÕÚpJa;
+- (void)°ñ;
 - (void);
-- (void)I Á¦þ½ßÀ§X5ósiÀ`ÊÀ-÷?;
-- (void)5;
-- (void)4oJ;
-- (void)¤![;
-- (id)|&Wé)[;
-- (void)-Â`;
-- (void);
-- (void)7^;
-- (void)°¥ÿêaE;
-- (void);
-- (void);
-- (void)èb;
-- (id)2Zb;
-- (void)×cc;
-- (void)¸ÈFc;
-- (void)Tz;
-- (Class)¢e;
+- (void)c;
+- (void)4Te;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAppearanceGuideClass:) Class _appearanceGuideClass; // @synthesize _appearanceGuideClass;

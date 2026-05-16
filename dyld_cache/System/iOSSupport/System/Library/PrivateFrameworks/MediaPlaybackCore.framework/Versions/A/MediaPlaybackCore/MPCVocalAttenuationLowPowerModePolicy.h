@@ -22,23 +22,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)rAccount:(_Bool)arg1 client:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void)operty:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (long long);
 - (void);
 - (struct os_unfair_lock_s);
-- (id);
 - (void);
-- (long long);
-- (id);
-- (void);
-- (_Bool)| disabling queue modifications [user default forced];
+- (void)WithTargetContentItemID:completion:| account rectification for originalPlaybackContext [%{public}@] sectionID=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)mponentStationID;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;

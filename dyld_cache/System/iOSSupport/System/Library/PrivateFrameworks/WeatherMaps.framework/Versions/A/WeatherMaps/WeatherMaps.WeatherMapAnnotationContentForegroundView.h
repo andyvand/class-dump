@@ -15,10 +15,10 @@
     MISSING_TYPE *footerSectionView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

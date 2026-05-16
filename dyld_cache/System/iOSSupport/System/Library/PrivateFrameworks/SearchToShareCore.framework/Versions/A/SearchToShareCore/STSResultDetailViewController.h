@@ -49,21 +49,21 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id)16@"NSIndexPath"24@"NSIndexPath"32;
+- (struct CGSize)ndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowCustomContentViewInteraction; // @synthesize allowCustomContentViewInteraction=_allowCustomContentViewInteraction;

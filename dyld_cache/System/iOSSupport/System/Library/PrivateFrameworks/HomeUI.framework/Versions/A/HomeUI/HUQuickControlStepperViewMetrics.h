@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (double);
-- (void);
 - (unsigned long long);
+- (double)thHome:mediaProfileContainer:user: /* Error: Ran out of types for this method. */;
+- (void)riptionNetworkRestrictionPlural;
 
 // Remaining properties
 @property(readonly, nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

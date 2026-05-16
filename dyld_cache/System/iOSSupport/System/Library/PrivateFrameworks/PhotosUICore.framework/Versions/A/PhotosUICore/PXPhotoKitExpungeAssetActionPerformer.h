@@ -12,10 +12,11 @@
 
 + (id);
 + (id);
++ (_Bool);
 + (id);
 + (_Bool);
 - (long long);
-- (id)ys Show Curation Toggle Button;
+- (id);
 
 @end
 

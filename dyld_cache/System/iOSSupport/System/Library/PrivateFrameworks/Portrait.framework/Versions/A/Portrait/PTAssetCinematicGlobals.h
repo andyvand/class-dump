@@ -34,12 +34,12 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
+- (void);
+- (id);
 - (id);
 - (struct opaqueCMFormatDescription *);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *YCbCrMatrix; // @synthesize YCbCrMatrix=_YCbCrMatrix;

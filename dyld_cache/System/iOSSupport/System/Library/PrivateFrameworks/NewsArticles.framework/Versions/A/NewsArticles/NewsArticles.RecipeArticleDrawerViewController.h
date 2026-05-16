@@ -14,13 +14,13 @@
     MISSING_TYPE *router;
 }
 
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)8;
+- (void);
+- (void);
+- (void)recipeCoordinator;
 
 @end
 

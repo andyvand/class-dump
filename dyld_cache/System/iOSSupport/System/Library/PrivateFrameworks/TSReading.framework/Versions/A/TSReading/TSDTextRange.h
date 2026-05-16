@@ -19,14 +19,14 @@
 - (float);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (struct _NSRange);
+- (_Bool);
 - (void);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id)torController";
-- (struct _NSRange)hö;
 
 // Remaining properties
 @property(nonatomic) _Bool isAtEndOfLine; // @synthesize isAtEndOfLine=_eolAffinity;

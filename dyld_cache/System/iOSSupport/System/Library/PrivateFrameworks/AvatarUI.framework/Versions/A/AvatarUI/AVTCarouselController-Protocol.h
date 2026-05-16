@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTAvatarRecord, AVTUIViewSnapshotProvider;
+@protocol AVTAvatarRecord;
 
 @protocol AVTCarouselController
-- (id <AVTUIViewSnapshotProvider>);
+- (void)Record %@ is not editable!;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCreate;

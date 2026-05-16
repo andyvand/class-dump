@@ -5,9 +5,5 @@
 //
 
 @protocol _UIViewServiceDummyPopoverControllerDelegate
-
-@optional
-- (void);
-- (void);
 @end
 

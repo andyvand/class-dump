@@ -24,14 +24,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (id)Sl¶Ç,S¶Ç;
-+ (void)ctionEnabled;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (void)Ôá;
++ (id)R;
 - (void);
 - (void);
 - (void);
@@ -43,17 +37,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)gesToUpload;
-- (void)ChatIndex:(struct UIEdgeInsets)arg1;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)ysis31CombineSubscriberFromXPCAdapter;
-- (void)tus_error_continuation_view_t;
 - (id);
 - (void);
-- (id)BecomeInvisible: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void)So36UIZoomTransitionAlignmentRectContextC&E¾7SgIeggr_;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *currentLayoutView; // @synthesize currentLayoutView=_currentLayoutView;

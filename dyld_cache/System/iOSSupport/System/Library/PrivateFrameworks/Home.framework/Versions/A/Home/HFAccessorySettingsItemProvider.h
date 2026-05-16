@@ -35,10 +35,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
-- (id)oom;
+- (void)e;
+- (void)IPEcosystem"8@"HMCHIPEcosystem"16;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

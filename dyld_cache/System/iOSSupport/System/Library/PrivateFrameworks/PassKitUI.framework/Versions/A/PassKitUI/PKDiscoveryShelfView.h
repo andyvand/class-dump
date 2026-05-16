@@ -14,12 +14,12 @@
 
 + (id);
 + (id);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)So25PKRemotePaymentInstrumentC;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

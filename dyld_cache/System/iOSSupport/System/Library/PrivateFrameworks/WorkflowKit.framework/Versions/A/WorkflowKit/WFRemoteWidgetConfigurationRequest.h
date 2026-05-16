@@ -18,12 +18,16 @@
 }
 
 + (id);
-+ (id)rk/Versions/A/EventKit;
-+ (id)ystem/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate;
 + (id);
 + (id);
 + (id);
-+ (_Bool)n, will be stripped from the image file.;
++ (id);
++ (id);
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,14 +35,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (Class)tilities.AXSettingsShortcuts.AXToggleZoomIntent;
+- (Class)h¼ÔT;
+- (id)tyMetadata:queryMetadata:] /* Error: Ran out of types for this method. */;
+- (void)plementation.;
+- (long long)images. (WFImages);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

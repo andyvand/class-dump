@@ -20,35 +20,36 @@
 + (id);
 + (id);
 + (id);
-+ (id)0@ù
++ (id)aÐ! BùQ\1Â0@ù
 × ;
-+ (_Bool)outManagerAllowsSimpleRectangularTextContainerOnly: /* Error: Ran out of types for this method. */;
-+ (id)erAccess;
-+ (id);
-+ (id)_jitterYTranslationAnimationWithAmount: /* Error: Ran out of types for this method. */;
-+ (id)alStyle;
++ (id)0@ù
+× ;
++ (id)fillColorForEffects;
++ (id)teUnderlapsStatusBar;
++ (_Bool)content;
 + (_Bool);
++ (id)Él\;
 - (double);
-- (double);
-- (void)AccountHostName;
 - (id);
-- (double)1";
+- (id);
 - (_Bool);
+- (CDUnknownBlockType);
+- (void);
 - (id);
-- (void)(;
-- (void)0@ù
+- (id)1Â0@ù
 × ;
-- (CDUnknownBlockType)!0@ù
-× ;
-- (void)DarkKeyboard;
-- (id)ioning;
-- (id)eceived a document state did change notification from a document not associated with this view controller.;
-- (long long)8lìþye8á~e8¼ñþye8Ý~e8`òþQ;
-- (id)appAutofill.loginPassword.forTV.fromKeyboard;
-- (void)ullable);
-- (id);
-- (_Bool)c;
-- (id);
+- (_Bool)outNotify;
+- (void)ion:(id)arg1;
+- (double)les;
+- (void)erredSupplementaryColumnWidth,S_setPreferredSupplementaryColumnWidth:(id)arg1;
+- (void),&,N,V_glomojiAnalyticsInstance;
+- (id)ds/contentOffset is being constantly adjusted. To debug this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
+Collection view:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)MINIMIZE;
+- (id)KeyP;
+- (long long)ÿ)Ýxp^;
+- (void);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double _constant; // @synthesize _constant=__constant;

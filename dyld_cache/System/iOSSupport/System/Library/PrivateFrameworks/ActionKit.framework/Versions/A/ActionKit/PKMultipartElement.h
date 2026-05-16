@@ -18,7 +18,6 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -30,24 +29,18 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
 - (void);
+- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (unsigned long long)|;
-- (id)/item/content:encoded /* Error: Ran out of types for this method. */;
-- (void);
-- (void)¤?mÚÕ^«B£ªØ¾opE[²äN¾1$â´ÿÕÃ}Uo{òt]¾r±;þ±Þ5Ç%§Ü&iÏtñÁÒJñÁiäã%O8G¾ïµÕÆÁe¬wÌ¡$u+Yo,é-ä¦nªtJÔûA½Ü©°\µSÚùv«ßfîRQ>2´-mÆ1¨?!ûÈ'°äï¾ÇY¿Â¨=óàÆ%§
-G§ÕoàQcÊpn
-g))ü/ÒF
-·'&É&\8!.í*ÄZüm,Mß³8SÞc¯Ts
-e¨²w<»
-jvæ®íG.ÉÂ;5,rdñL¡è¿¢0B¼Kf¨øÐpKÂ0¾T£QlÇRïÖèÑ©eU$Ö* qW5ô¸Ñ»2p jÈÐÒ¸Á¤S«AQl7ëßLwH'¨Háµ¼°4cZÉÅ³9ËAãJªØNsãcwOÊ[£¸²Öóo.hü²ï]ît`/Coc¥xr«ð¡xÈì9dÇ(c#úÿ¾é½ÞëlP¤yÆ²÷£ù¾+SrãòxqÆa&êÎ>'ÊÂÀ!Ç¸ÑëàÍÖ}ÚêxÑnîO}õºorªgð¦È¢Å}c
-®ù¾?G5q}#õwÛ($Ç@{«Ê2¼¾É
-¾<LÄgC¶B>Ë¾ÔÅL*~eü)YìúÖ:(unsigned long long)arg1 «oË_XGJDlÿÿÿ;
 - (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void).m;
 
 // Remaining properties
 @property(retain, nonatomic) NSInputStream *body; // @synthesize body=_body;

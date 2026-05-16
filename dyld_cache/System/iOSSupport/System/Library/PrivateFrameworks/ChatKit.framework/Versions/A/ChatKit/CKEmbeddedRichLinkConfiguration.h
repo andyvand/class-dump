@@ -13,20 +13,20 @@
     IMPluginPayload *_pluginPayload;
 }
 
-+ (id)(%@, %@);;
-+ (_Bool)Yô-;
-- (void);
-- (id);
-- (id)order:] /* Error: Ran out of types for this method. */;
-- (id);
++ (id);
++ (_Bool)ckdropLayer;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)0;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (void)´^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

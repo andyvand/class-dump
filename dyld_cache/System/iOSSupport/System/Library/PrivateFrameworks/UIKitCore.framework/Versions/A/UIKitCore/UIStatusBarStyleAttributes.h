@@ -16,32 +16,34 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (void)y"@"NSError">40;
-- (_Bool)erties: /* Error: Ran out of types for this method. */;
-- (double)artingEnabledSettingChange;
-- (id)hS;
 - (void);
-- (_Bool)statusFDEEnabled;
-- (double);
-- (id)mIDList;
-- (id)aEntity;
 - (_Bool);
-- (void);
-- (long long);
-- (_Bool)ileURL:(int)arg1 iconMetadata:(id)arg2 error:scene: /* Error: Ran out of types for this method. */;
-- (_Bool)ubviewWantsAutolayout;
-- (_Bool)Event: /* Error: Ran out of types for this method. */;
-- (id)ackgroundNeedsDarkening: /* Error: Ran out of types for this method. */;
-- (double)legate>",R,W,N,V_delegate;
-- (long long)tail;
-- (id)tity:(id)arg1 %{public}s;
-- (id)ext-color;
-- (double)åÒt;
+- (double);
 - (id);
-- (_Bool)ìéÿ;
-- (long long);
-- (_Bool)=ÿÓAÐäÍc;
-- (long long)ÉÔÓ½[h;
+- (long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)0@ù
+× ;
+- (double)1Â0@ù
+× ;
+- (id);
+- (long long)lts;
+- (_Bool)nmodifiedInput: /* Error: Ran out of types for this method. */;
+- (_Bool)tChangeBarrier;
+- (id)ricCornerRadius;
+- (id)elegate;
+- (long long);
+- (_Bool)SceneForLayout:] /* Error: Ran out of types for this method. */;
+- (double)rfaceLevel;
+- (id)13e\;
+- (void);
+- (_Bool)ðì`;
+- (void)~×þ;
+- (double)¼ÿx¬2,h;
+- (long long)ÿ7ÌlÏi;
 
 // Remaining properties
 @property(nonatomic) double foregroundAlpha; // @dynamic foregroundAlpha;

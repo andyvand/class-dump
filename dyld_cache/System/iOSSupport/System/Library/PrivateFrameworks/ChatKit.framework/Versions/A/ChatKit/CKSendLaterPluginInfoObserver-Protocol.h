@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendLaterPluginInfo;
-
 @protocol CKSendLaterPluginInfoObserver
-- (void)ebView:(CKSendLaterPluginInfo *)arg1 requestGeolocationPermissionForOrigin:initiatedByFrame:decisionHandler: /* Error: Ran out of types for this method. */;
-
-@optional
-- (void)eOffsetFromBottom;
 @end
 

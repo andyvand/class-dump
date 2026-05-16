@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (id)qcû8;
+- (id)tonTile;
 
 @end
 

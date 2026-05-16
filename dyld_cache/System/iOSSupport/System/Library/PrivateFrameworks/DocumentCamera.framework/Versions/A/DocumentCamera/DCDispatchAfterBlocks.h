@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) id <NSCopying> identifier; // @synthesize identifier=_identifier;

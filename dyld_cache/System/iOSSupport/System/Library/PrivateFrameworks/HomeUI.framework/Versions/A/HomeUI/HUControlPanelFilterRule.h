@@ -16,11 +16,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (double);
-- (void);
-- (void);
-- (CDUnknownBlockType)q.ð1b0@ù
-× ;
+- (CDUnknownBlockType)ition: /* Error: Ran out of types for this method. */;
+- (void)d 'Dismiss' from alert;
+- (void)fierRepeat;
+- (double)åÀý¬;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

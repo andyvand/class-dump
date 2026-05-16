@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (_Bool)tð!4DùÑÈð1¢!0@ù
+- (id);
+- (id)
 × ;
-- (id)led;
-- (id)ginFromPreviewItemController:forPosition: /* Error: Ran out of types for this method. */;
-- (id)lEffect;
-- (id)rray",R,N,V_legacyFocusingAnimations;
-- (void)n;
-- (id)¸ø;
-- (id)argeSubtitleContent;
+- (_Bool)fNeededForReason: /* Error: Ran out of types for this method. */;
+- (id)V_currentValue;
+- (void)previouslyFocusedIndexPath;
+- (_Bool)sClient",R,N;
+- (void).3Qo__Qo_AGy»¨.3GGGIegynr_;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *attributes;

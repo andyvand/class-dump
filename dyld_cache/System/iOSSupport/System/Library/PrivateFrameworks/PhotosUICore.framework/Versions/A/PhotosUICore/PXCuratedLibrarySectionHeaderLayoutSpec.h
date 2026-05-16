@@ -132,21 +132,21 @@
 - (void);
 - (struct UIEdgeInsets);
 - (double);
+- (void);
 - (struct UIEdgeInsets);
-- (CDStruct_2bd92d94);
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
 - (double);
 - (id);
+- (_Bool)L8;
+- (CDStruct_2bd92d94)etailShowMore;
+- (void)derBackgroundColor;
 - (void);
-- (unsigned long long)Unable to provide audio cues for asset %@ because it does not respond to -cueSource as expected.;
-- (_Bool);
-- (void)ButtonDelegate;
-- (void);
-- (long long)ÆÿÕþJý7;
-- (void)O7;
-- (struct UIEdgeInsets);
+- (long long);
+- (struct UIEdgeInsets)b¸Q;
+- (void)¥ÿ;
+- (void)rT46;
 
 // Remaining properties
 @property(nonatomic) double buttonHeight; // @synthesize buttonHeight=_buttonHeight;

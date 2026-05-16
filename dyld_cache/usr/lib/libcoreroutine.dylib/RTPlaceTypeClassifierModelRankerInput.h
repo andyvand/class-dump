@@ -30,14 +30,6 @@ __attribute__((visibility("hidden")))
     double _is_Watch;
 }
 
-- (void)9h;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)h;
-- (void);
-- (void)7;
 - (void);
 - (void);
 - (void);
@@ -45,14 +37,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)`;
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (double);
-- (double)9h;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -62,15 +58,19 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double)H;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (double);
 - (double);
 - (double);
 - (double);
 - (id);
 - (double);
-- (id);
-- (id);
+- (id)G_styleAttributes;
+- (id)itorProtocol)] && [sessionManagerDelegate conformsToProtocol:(id)arg1 @protocol(SMSessionManagerRegistrationProtocol)];
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

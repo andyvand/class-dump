@@ -18,19 +18,19 @@ __attribute__((visibility("hidden")))
     struct CGRect _typeBounds;
 }
 
-- (struct CGRect)dSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
-- (void)t:(struct CGRect)arg1 userInfo: /* Error: Ran out of types for this method. */;
-- (void);
-- (struct CGPoint)ssingPipelineComponent> Assigning account %@ service session %@ (replication source:%@) /* Error: Ran out of types for this method. */;
-- (void);
 - (struct CGRect);
-- (id);
-- (void)1Âð1¢!0@ù
-× ;
-- (void)0:(id)arg1 8^q16^Q24q32;
-- (id)cusMovementShoulderButtonPressGestureRecognizer;
 - (void);
-- (id)Úþ;
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)ð1Â0@ù
+× ;
+- (struct CGRect)eyboard;
+- (void)ew;
+- (void)QéËªÿh;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint baselinePoint; // @synthesize baselinePoint=_baselinePoint;

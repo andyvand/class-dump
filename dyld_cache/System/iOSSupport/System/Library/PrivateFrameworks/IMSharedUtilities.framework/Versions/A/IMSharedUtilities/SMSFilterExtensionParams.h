@@ -20,8 +20,8 @@
     NSString *_folderName;
 }
 
-+ (void);
-+ (_Bool)sAutoloopVideo;
++ (void);
++ (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -34,18 +34,18 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void)!;
+- (unsigned long long);
 - (void);
-- (void);
-- (unsigned long long)cipeData;
+- (void)service:(id)arg1 account:inviteDroppedForSessionID:fromID:context:error: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property unsigned long long action; // @synthesize action=_action;

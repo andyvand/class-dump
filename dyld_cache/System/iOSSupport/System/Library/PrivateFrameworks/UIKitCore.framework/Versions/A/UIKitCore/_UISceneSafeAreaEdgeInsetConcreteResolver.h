@@ -13,21 +13,19 @@
     MISSING_TYPE *safeAreaInsets;
 }
 
-+ (_Bool)dLaunchSafe;
-- (struct UIEdgeInsets)%@ maxNumberOfBatches %@;
-- (id)ling ping cloudkit fetch zone operation %@;
-- (id)equestToNoteFeatureIsOn:(struct UIEdgeInsets)arg1 Fetch zone operation error %@;
-- (id)ll feature is on.;
-- (id)dCloudKitZoneFetchRequestToNoteFeatureIsOn;
-- (id):(struct UIEdgeInsets)arg1 %@ noJsonData:%@ so calling completion with success. /* Error: Ran out of types for this method. */;
-- (_Bool)6q24;
-- (void)aqð!`BùÄ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)UIInputViewSetPlacement",&,N,V_endPlacement;
-- (id)@¨È ¡¡Ü¡h¢ ¢\£4¤p¦À§«;
-- (id)_UIIntelligenceRimHighlightEffect;
++ (_Bool)8¿7Sg;
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)yboardCandidateResultSet"16;
+- (_Bool)mpulse:(id)arg1;
+- (void)hForIndexPath:(id)arg1;
+- (void)Zl;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

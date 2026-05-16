@@ -7,8 +7,7 @@
 @class UIColor;
 
 @protocol PXVisualDiagnosticsStrokeRectConfiguration
-- (void)°RdS;
-- (double)P;
+- (void)ion>";
 
 // Remaining properties
 @property(nonatomic) double lineWidth;

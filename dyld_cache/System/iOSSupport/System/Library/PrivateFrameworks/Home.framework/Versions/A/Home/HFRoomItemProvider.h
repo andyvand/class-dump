@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)tractPositionStatusItem multipleOpenServicesDescriptionString];
+- (void)configurationState;
+- (void)¤È;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

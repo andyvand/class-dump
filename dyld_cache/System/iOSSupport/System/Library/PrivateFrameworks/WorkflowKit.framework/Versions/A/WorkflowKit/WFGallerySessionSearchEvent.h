@@ -15,11 +15,11 @@
 }
 
 + (Class);
-- (void);
-- (void);
 - (id);
-- (id));
-- (void)Õzã ÃÿzãÃÿ}zãh#Ãÿ}zã`#ÃÿzãL#ÃÿzãH#Ãÿ­zãP#ÃÿEzãÃÿ5zã|Ãÿ=zãxÃÿ]zãtÃÿzãÜÃÿ;
+- (void);
+- (void)%@ when %@ requires %@;
+- (void);
+- (id)nders (Action Name);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;

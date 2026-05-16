@@ -30,15 +30,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id)C×¿éê;
+- (void)etLocation;
 
 // Remaining properties
 @property(retain, nonatomic) HUAvatarContentView *avatarContentView; // @synthesize avatarContentView=_avatarContentView;

@@ -13,17 +13,17 @@
     double _distance;
 }
 
-+ (_Bool)nd %{public}zu UUIDs in visit log store for interval %{public}@ with %{public}d/%{public}d (%{public}d) sources;
++ (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)";
-- (id)com.apple.ids.;
+- (double);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (double):mapItemManager:mapServiceManager:mapsSupportManager:motionActivityManager:platform:portraitManager:userCurationStore:visitStore: /* Error: Ran out of types for this method. */;
+- (void)inside but last point is not (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

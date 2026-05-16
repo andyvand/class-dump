@@ -11,32 +11,30 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)sIfNeededWithMessage:(id)arg1 reply:(unsigned long long)arg2;
-- (double)offGridModeForHandle:completion: /* Error: Ran out of types for this method. */;
-- (double)mpletionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)ime:(id)arg1 silently:(id)arg2;
-- (double)entData;
-- (struct CGPoint)GroupId: /* Error: Ran out of types for this method. */;
+- (id);
+- (double);
+- (double);
+- (_Bool);
+- (double);
+- (struct CGPoint);
 - (id);
 - (id);
-- (double);
+- (double);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (double);
-- (struct CGPoint);
-- (double)ountID from message.;
-- (id)t pregenerating preview, no persistedPreviewURL;
-- (id)filtering. Checking if we need to update filterCapbilities from relayed message;
-- (double)st added:%@
- /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (struct CGPoint)ntities;
 - (struct CGPoint);
-- (struct CGPoint)0@ù
-× ;
-- (double)nitWithView:length: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint)tyleDarkSecondaryTextColor;
+- (double)onLabel;
 
 @end
 

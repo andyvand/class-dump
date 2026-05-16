@@ -15,28 +15,31 @@ __attribute__((visibility("hidden")))
     struct CGRect _popoverRectPlaceholder;
 }
 
-- (void);
-- (struct UIEdgeInsets);
-- (struct CGAffineTransform);
-- (_Bool);
-- (_Bool)@;
-- (void);
-- (void);
-- (void)!¬CùÂð1¢!0@ù
-× ;
-- (_Bool)Delay"b1"needsReload"b1"editing"b1"editingHandle"I"zoomIsDisabled"b1};
-- (void)ze;
-- (id)thIdentifier:(id)arg1;
-- (id)eaDirty;
-- (_Bool)_overrideBackgroundEffect;
-- (id)e´×Ç-eÌ×Ç¨6eð×ÇTneØÇ@àe(ØÇXf ØÇØfÔØÇ\fÙÇæf$ÙÇîfÙÇ©g¨ÙÇ¨ûgÈÙÇ|þgÚÇ8h<ÚÇ|&hXÚÇ¤KhhÚÇhh¬ÚÇ;
-- (void)r against PEP UIKit Touch Events;
-- (void)ve the contentView's translatesAutoresizingMaskIntoConstraints true or else provide constraints between the contentView and the cell. %@;
-- (struct CGRect)asteboard type;
 - (id);
-- (struct CGRect)ÿñÌ]Pb;
-- (id)®@e;
-- (void)Àå^ÿÊìm;
+- (struct CGRect);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void)1Â0@ù
+× ;
+- (struct CGAffineTransform)°!¨Aù[°1Â0@ù
+× ;
+- (struct CGRect)°!(Gù\Ð1Â0@ù
+× ;
+- (struct UIEdgeInsets)1^1Â0@ù
+× ;
+- (_Bool);
+- (void)ng"b1"bouncesZoom"b1"zoomBouncing"b1"alwaysBounceHorizontal"b1"alwaysBounceVertical"b1"preventsParentFromBeginningHorizontally"b1"preventsParentFromBeginningVertically"b1"scrollableAncestorAllowsScrollingHorizontally"b1"scrollableAncestorAllowsScrollingVertically"b1"searchedForScrollableAncestor"b1"preventScrollingAncestor"b1"preventScrollingContainer"b1"canCancelContentTouches"b1"delaysContentTouches"b1"programmaticScrollDisabled"b1"scrollDisabled"b1"adjustsContentInsetWhenScrollDisabled"b1"zoomDisabled"b1"scrollTriggered"b1"showsHorizontalScrollIndicator"b1"showsVerticalScrollIndicator"b1"indexDisplayMode"b2"indicatorStyle"b2"inZoom"b1"hideIndicatorsInZoom"b1"pushedTrackingMode"b1"shouldRevealScrollIndicators"I"flashingScrollIndicators"b2"verticalIndicatorShrunk"b1"horizontalIndicatorShrunk"b1"contentFitDisableScrolling"b1"pagingEnabled"b1"pagingLeft"b1"pagingRight"b1"pagingUp"b1"pagingDown"b1"lastHorizontalDirection"b1"lastVerticalDirection"b1"dontScrollToTop"b1"scrollingToTop"b1"scrollingDirectionalPress"b1"singleFingerPan"b1"autoscrolling"b1"automaticContentOffsetAdjustmentDisabled"b1"animateAutomaticContentOffsetAdjustments"b1"skipStartOffsetAdjustment"b1"delegateScrollViewDidScroll"b1"delegateScrollViewDidZoom"b1"delegateContentSizeForZoomScale"b1"delegateScrollViewDidChangeContentSize"b1"delegateScrollViewDidChangeAdjustedContentInset"b1"delegateWasNonNil"b1"preserveCenterDuringRotation"b1"delaysTrackingWhileDecelerating"b1"avoidJumpOnInterruptedBounceWithDelayedTrackingWhileDecelerating"b1"pinnedZoomMin"b1"pinnedXMin"b1"pinnedYMin"b1"pinnedXMax"b1"pinnedYMax"b1"staysCenteredDuringPinch"b1"wasDelayingPinchForSystemGestures"b1"disableContentOffsetRounding"b1"alwaysDisableContentOffsetRounding"b1"adjustedDecelerationTargetX"b1"adjustedDecelerationTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (_Bool)resentation:(id)arg1;
+- (_Bool)idle;
+- (void)availableConstants_Watch;
+- (id)lSinglePageView;
+- (id)4P5;
+- (void)ne will invalidate:(id)arg1 %{public}s:%{public}p; scene identity:%{public}s /* Error: Ran out of types for this method. */;
+- (id)táÿüì÷b;
+- (void)ÅÊ|g;
 
 // Remaining properties
 @property(retain, nonatomic) UIKeyboardPopoverContainer *popover; // @synthesize popover=_popover;

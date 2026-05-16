@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
     _Bool _alreadyWarnedAboutExpiration;
 }
 
-+ (id)eedbackSystemSoundEngine only supports playing single feedbacks. Instead got:%lu /* Error: Ran out of types for this method. */;
++ (id)tHost;
 - (void);
-- (void)¦´º;
-- (void)longsideTransitionCoordinator: /* Error: Ran out of types for this method. */;
-- (id)V__UIIBAlwaysProvidePeripheryInsets;
-- (id)emVibrantBackgroundThinDark;
-- (void)ÿ¸;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)Mªgt¯^;
 
 @end
 

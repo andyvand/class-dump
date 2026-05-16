@@ -5,9 +5,8 @@
 //
 
 @protocol NSPredicateVisitor
-- (void){sensitive}@, due to short duration;
-
-@optional
-- (void)i}i^v^?^?^?^?{__sbuf=*i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq}16;
+- (void)message,%@;
+- (void)r, %@;
+- (void)o;
 @end
 

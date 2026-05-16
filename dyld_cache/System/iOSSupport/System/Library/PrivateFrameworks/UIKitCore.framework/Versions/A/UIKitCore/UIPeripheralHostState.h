@@ -15,15 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void):(id)arg1 participantIDs: /* Error: Ran out of types for this method. */;
-- (void)DSID:(_Bool)arg1 timeStamp:needsDeliveryReceipt:deliveryContext:storageContext: /* Error: Ran out of types for this method. */;
-- (id)oMMCSForItem:transfer:completionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void)
-× ;
-- (struct UIPeripheralAnimationGeometry);
+- (void)Þ;
+- (struct UIPeripheralAnimationGeometry),f^;
+- (void)È~d;
 
 // Remaining properties
 @property(nonatomic) struct UIPeripheralAnimationGeometry geometry; // @synthesize geometry=_geometry;

@@ -76,30 +76,32 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id)TilingLayout"24;
-- (void)eInfo: /* Error: Ran out of types for this method. */;
-- (id)escription: /* Error: Ran out of types for this method. */;
-- (void)setCollection:(_Bool)arg1 configuration: /* Error: Ran out of types for this method. */;
-- (id)ä;
-- (void)to-lock timer for %.1fs (reason = %{public}@);
-- (void)person fetching:(double)arg1 %@;
-- (id)edLibraryActionPerformer.;
-- (void)4{CGSize=dd}32;
-- (id)it;
 - (void);
-- (void);
-- (id)N¿5;
+- (id)1â
+0@ù
+× ;
+- (_Bool)displaceTopLeadingCardTitle;
+- (void)justableContentsView;
+- (id);
+- (void)ä£¼@{ÿ;
+- (id)caling temp file at URL:%@ /* Error: Ran out of types for this method. */;
+- (id)%lu shared streams;
+- (id)t failure:%@ /* Error: Ran out of types for this method. */;
+- (id)ctionary<NSAttributedStringKey,id> *__strong _Nonnull, BOOL);
+- (void)age Upgrade;
+- (void);
+- (void)Ðüÿô­ÿYóÆì;
+- (id)iÿ¼ôiÿwallpaperLoadingArtificialDelay;
+- (void)ÿ;
+- (void);
+- (id)¸4;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *assetImage; // @synthesize assetImage=_assetImage;

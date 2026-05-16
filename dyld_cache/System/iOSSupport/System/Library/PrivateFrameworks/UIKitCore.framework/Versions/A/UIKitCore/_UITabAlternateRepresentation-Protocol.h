@@ -7,7 +7,7 @@
 @class NSString, UIImage;
 
 @protocol _UITabAlternateRepresentation
-- (NSString *);
+- (NSString *)Locked;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image;

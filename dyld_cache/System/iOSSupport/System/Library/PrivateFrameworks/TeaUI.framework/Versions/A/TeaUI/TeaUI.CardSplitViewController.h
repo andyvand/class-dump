@@ -24,22 +24,22 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void)ror:(_Bool)arg1 ]_block_invoke_2;
-- (void);
-- (void);
-- (id)DsIntersectingSet:(id)arg1;
-- (id)pe;
-- (void);
-- (id)<;
 - (id);
-- (id);
 - (id);
 - (void);
-- (id)dler;
-- (void)UIKitCardTransitioningDelegate;
-- (void)]S[ÿâÿS[8ÿâÿ;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)tFunction",&,N,V_originFunction;
+- (void)h,üÿ,üÿ¸,üÿ-üÿ-üÿT-üÿ-üÿ´-üÿ;
+- (id)Ô=þÿ;
+- (id)×ýÿ;
+- (id)ÚÿÿýÿüÎÿèÕ;
+- (void)¹½TlËÿÉ½¤FËÿÉ½ÀlËÿÉ½¬lËÿé½FËÿ½FËÿ½`lËÿi½lËÿ¹½FËÿI½lËÿI½(FËÿ½|lËÿÉ½TlËÿ½,lËÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

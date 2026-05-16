@@ -11,7 +11,7 @@
     _Bool _autoFocusEnabled;
 }
 
-+ (id)ì;
++ (id);
 - (void);
 - (_Bool);
 - (id);

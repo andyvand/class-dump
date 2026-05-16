@@ -5,7 +5,6 @@
 //
 
 @protocol IMUnreadCountFiltering
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool filtersMutedChats;

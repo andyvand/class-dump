@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)escription;
 + (_Bool);
 + (_Bool);
-+ (id)yout: /* Error: Ran out of types for this method. */;
-+ (id)Ëj8y_Új8SgG;
-+ (long long);
++ (_Bool);
++ (id);
++ (id)tationRotateAnimatedUserInfoKey;
++ (long long)´/ÿ¶eÍpg;
 
 @end
 

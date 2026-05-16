@@ -15,27 +15,28 @@
     double _foregroundAlpha;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id)etonTasteController;
-- (void);
 - (id);
 - (long long);
-- (id)agCaretRect;
 - (id);
-- (double);
-- (_Bool);
-- (id)ùÚ[;
-- (id){\;
-- (id)À;
-- (id)^;
 - (id);
-- (_Bool)Ua;
-- (long long)¼kÍ³Ob;
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id)ZÐ1Â0@ù
+× ;
+- (id);
+- (_Bool)aractersInRange:(id)arg1 state:replacementAttributedString: /* Error: Ran out of types for this method. */;
+- (_Bool)V_overlayDepth;
+- (id)animatedAppearanceBarButtonItem;
+- (_Bool)terDetailLegacySupport;
+- (id)`DeEìE`Ff¸GÐGgIÀI;
+- (void)Lc;
+- (double)h;
+- (id)Ûèi;
+- (long long)j;
 
 // Remaining properties
 @property(readonly, nonatomic) double foregroundAlpha; // @synthesize foregroundAlpha=_foregroundAlpha;

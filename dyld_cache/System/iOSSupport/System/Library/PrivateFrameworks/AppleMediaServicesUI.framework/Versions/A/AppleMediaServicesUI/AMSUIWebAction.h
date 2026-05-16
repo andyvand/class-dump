@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)l ;
+- (id);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *acceptedResponseVersions; // @synthesize acceptedResponseVersions=_acceptedResponseVersions;

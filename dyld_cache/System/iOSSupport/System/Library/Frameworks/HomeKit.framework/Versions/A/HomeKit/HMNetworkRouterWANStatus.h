@@ -17,14 +17,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (id);
+- (id);
+- (void)ìIàJMÈO;
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *identifier; // @synthesize identifier=_identifier;

@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)stModule initWithItemUpdater:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *associatedAccessories; // @synthesize associatedAccessories=_associatedAccessories;

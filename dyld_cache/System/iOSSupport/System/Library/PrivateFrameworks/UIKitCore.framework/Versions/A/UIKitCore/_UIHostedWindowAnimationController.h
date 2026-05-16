@@ -13,13 +13,14 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
+- (double);
+- (double);
 - (void);
-- (CDUnknownBlockType);
 - (void);
-- (void);
-- (double);
-- (void)bþÓþ;
-- (double)§`;
+- (CDUnknownBlockType)g1Â0@ù
+× ;
+- (void)tMenuWithPreferredDirection:(id)arg1 overrideMenu: /* Error: Ran out of types for this method. */;
+- (void)	;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)2000;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *localizedLabelsForLabelNumbers; // @synthesize localizedLabelsForLabelNumbers=_localizedLabelsForLabelNumbers;

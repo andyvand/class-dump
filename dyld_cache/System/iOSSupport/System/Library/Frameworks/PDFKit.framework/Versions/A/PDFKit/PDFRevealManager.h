@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)ange=QQ}16@0:8 /* Error: Ran out of types for this method. */;
-- (id)CGPoint=dd}{CGSize=dd}}16@48;
-- (id)iewPanel";
-- (void)moveViews;
-- (void)fiers;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 @end
 

@@ -14,13 +14,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id){1b0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryClip> clip; // @synthesize clip=_clip;

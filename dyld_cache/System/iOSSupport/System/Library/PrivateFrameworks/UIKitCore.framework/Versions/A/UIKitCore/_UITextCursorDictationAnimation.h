@@ -36,14 +36,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (void);
-- (void)ractSyncControllerDelegate>",W,V_delegate;
-- (id)SMSPart;
+- (id);
 - (void);
-- (id)ControllerForDocumentAtURL: /* Error: Ran out of types for this method. */;
-- (void)dexForQueryRect:(_Bool)arg1 startRegionIndex:endRegionIndex: /* Error: Ran out of types for this method. */;
-- (void)tomViewProvider;
-- (void)(ì;
-- (_Bool)4Ì÷;
+- (void);
+- (void);
+- (_Bool);
+- (id)on: /* Error: Ran out of types for this method. */;
+- (void)
+¿7yU
+¿7_G;
+- (void)\ùÊÿUà<;
 
 // Remaining properties
 @property(nonatomic) struct CGRect animatedCursorShapeBounds; // @synthesize animatedCursorShapeBounds=_animatedCursorShapeBounds;

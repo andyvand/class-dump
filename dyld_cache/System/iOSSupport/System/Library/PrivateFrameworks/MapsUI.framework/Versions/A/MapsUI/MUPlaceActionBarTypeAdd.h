@@ -15,9 +15,11 @@
 
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool added; // @synthesize added;

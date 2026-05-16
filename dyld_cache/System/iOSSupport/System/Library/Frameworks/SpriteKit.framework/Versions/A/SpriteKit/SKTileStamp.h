@@ -12,18 +12,18 @@
 }
 
 + (id);
-+ (_Bool)Ä;
++ (_Bool);
 - (id);
 - (unsigned int *);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (unsigned long long);
-- (unsigned long long)L¸;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfColumns;

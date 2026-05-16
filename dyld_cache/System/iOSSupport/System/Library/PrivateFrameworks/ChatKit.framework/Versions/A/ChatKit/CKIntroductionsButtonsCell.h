@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void)ations;
-- (id);
-- (id);
 - (void);
-- (id)ü;
-- (struct CGSize)ReplyPreviewBalloonView mediaObject:(struct CGSize)arg1 %@ %@];
+- (id);
+- (struct CGSize);
+- (id);
+- (id);
+- (void)´¤;
 
 // Remaining properties
 @property(nonatomic, retain) UIView *buttonsContainer; // @synthesize buttonsContainer;

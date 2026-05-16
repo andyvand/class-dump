@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol WBSStartPageSuggestionsProvider;
-
 @protocol WBSStartPageSuggestionsProviderDelegate
-- (_Bool)nameLength;
-- (void)d:(id <WBSStartPageSuggestionsProvider>)arg1;
 @end
 

@@ -4,10 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIAppearanceContainer;
-
 @protocol _UIAppearanceContainer
-- (id <_UIAppearanceContainer>)eID:contentString:payload:shouldAccept: /* Error: Ran out of types for this method. */;
-- (Class)¥[;
+- (Class)"%@" for %@ contained UISceneClassName key, but could not load class with name "%@".;
 @end
 

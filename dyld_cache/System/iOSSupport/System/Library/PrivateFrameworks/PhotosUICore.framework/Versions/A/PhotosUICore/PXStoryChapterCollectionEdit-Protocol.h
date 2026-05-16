@@ -5,6 +5,7 @@
 //
 
 @protocol PXStoryChapterCollectionEdit
+- (long long)@Ì6ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long kind;

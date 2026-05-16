@@ -10,11 +10,11 @@
 {
 }
 
-- (void)�`;
 - (void);
-- (double)i;
 - (void);
-- (void)0:8@"SXItemizedScrollView"16 /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (void);
 
 @end
 

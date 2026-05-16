@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (double)0;
-- (void);
-- (void);
-- (id);
+- (double);
+- (void)ropGroupName;
+- (id)¤ZÄZyZy£ZGGGG;
+- (id)age;
+- (void)$;
 
 // Remaining properties
 @property(nonatomic) long long contactItemAlignment; // @synthesize contactItemAlignment=_contactItemAlignment;

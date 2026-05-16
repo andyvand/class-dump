@@ -28,11 +28,11 @@
 - (float);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)reStateIdle;
 
 // Remaining properties
 @property(nonatomic) _Bool alarmDeletedSuccessfully; // @synthesize alarmDeletedSuccessfully=_alarmDeletedSuccessfully;

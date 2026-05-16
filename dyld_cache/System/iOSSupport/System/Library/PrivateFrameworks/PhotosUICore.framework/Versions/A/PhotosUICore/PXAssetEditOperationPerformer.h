@@ -18,10 +18,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)youtsContent;
-- (id)Îlûÿ;
+- (id)aæ;
+- (id);
+- (void)InlinePlaybackModifier;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

@@ -11,11 +11,10 @@
     int _styleAnimation;
 }
 
-- (int);
 - (id);
-- (void)Ð!èGù1É°1¢!0@ù
-× ;
-- (_Bool)ing.;
+- (int);
+- (_Bool);
+- (void)ÃíÿþÿxÊîÿH×íÿ;
 
 // Remaining properties
 @property(nonatomic) int styleAnimation; // @synthesize styleAnimation=_styleAnimation;

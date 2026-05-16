@@ -5,6 +5,5 @@
 //
 
 @protocol GCInvalidatable
-- (void);
 @end
 

@@ -15,30 +15,28 @@
 
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void)alRepresentation:(id)arg1;
-- (unsigned long long);
 - (void);
-- (void);
-- (void)qÃ1¢!0@ù
+- (id);
+- (id)!;
+- (void)ù
 × ;
-- (id)Ô¡pð!AùÃ1¢!0@ù
-× ;
-- (void)Ô ;
-- (id)!àAù±Í1¢!0@ù
-× ;
-- (id)TextFormattingOptions:(id)arg1;
-- (id)talFittingPriority:(id)arg1 verticalFittingPriority:forUseWithSizeThatFits: /* Error: Ran out of types for this method. */;
-- (id)ewProvider;
-- (id)KBRemoteEmojiKeyplaneTransformation;
-- (void)h'ð';
-- (void)!;
-- (id)f %ld;
-- (id)16^B24;
-- (_Bool)R&`;
-- (_Bool)Öie;
-- (void)×ÜZl;
+- (id)edBackgroundColor;
+- (unsigned long long)port;
+- (_Bool)rDuringRotation;
+- (_Bool)ion;
+- (void)ainerSizeForBoundsSize:(id)arg1 allowingOverflow:(id)arg2;
+- (void)_headerFooterView;
+- (id)@"NSAttributedString",C,N,G_attributedMessage,S_setAttributedMessage: /* Error: Ran out of types for this method. */;
+- (void),Z|þ½43¤Z|þ½43P[|þ½43;
+- (void)Äl&ÿ2ÖÏ,&j;
+- (id)õgÿ$îz;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

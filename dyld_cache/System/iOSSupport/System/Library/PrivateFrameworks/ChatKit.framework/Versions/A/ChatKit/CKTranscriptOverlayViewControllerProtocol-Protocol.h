@@ -7,7 +7,7 @@
 @class CKTranscriptOverlayTransitionContext;
 
 @protocol CKTranscriptOverlayViewControllerProtocol
-- (_Bool);
+- (CKTranscriptOverlayTransitionContext *);
 
 // Remaining properties
 @property(readonly, nonatomic) CKTranscriptOverlayTransitionContext *transitionContext;

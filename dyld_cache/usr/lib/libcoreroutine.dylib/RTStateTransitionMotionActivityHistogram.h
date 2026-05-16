@@ -13,16 +13,16 @@
     double _cumulativeInterval;
 }
 
-- (void)9h;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
-- (long long);
+- (long long);
 - (void);
-- (void);
+- (void)%{sensitive}@;
 
 // Remaining properties
 @property(nonatomic) long long activityChangeCount; // @synthesize activityChangeCount=_activityChangeCount;

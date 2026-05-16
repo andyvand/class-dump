@@ -27,20 +27,20 @@
 }
 
 + (id);
-- (struct CKMessageSearchResultVisibilityContext)ultSystemImageName;
-- (void)irtualSmartFolderItemIdentifier",R,C,N;
+- (struct CKMessageSearchResultVisibilityContext);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ngP;
-- (struct UIEdgeInsets)a;
+- (void);
+- (struct UIEdgeInsets);
 - (_Bool);
-- (id){objectID:%@} /* Error: Ran out of types for this method. */;
-- (id)notes—just use your login password or Face ID.;
-- (void)t:(id)arg1 displayWindow:(id)arg2 completionHandler:(unsigned long long)arg3 ];
-- (void)-[ICAuthentication authenticateCustomPasswordWithPrompt:(id)arg1 displayWindow:(id)arg2 completionHandler:(unsigned long long)arg3 ];
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -61,18 +61,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (struct CGSize);
 - (void);
-- (void)g;
 - (void);
 - (id);
+- (id)ýÐ!¬Aù±ð1Â0@ù
+× ;
+- (void)!ÔAùÑÐ1Â0@ù
+× ;
+- (void)Ô ;
+- (void)etedPreview"32@0:(id)arg1 8@"CKViewController<CKCoreTranscriptControllerProtocol>"16@"UIContextMenuConfiguration"24;
+- (void)nDataSource;
+- (void)hevron;
 - (void);
-- (void);
-- (void);
-- (void)box;
-- (id);
-- (struct CGSize)n:(struct CGSize)arg1 ];
-- (void)¢ÿÄ/%.;
-- (id)ÿ;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
+- (_Bool);
+- (id)4;
 - (void);
-- (id)loadVideo(from:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;

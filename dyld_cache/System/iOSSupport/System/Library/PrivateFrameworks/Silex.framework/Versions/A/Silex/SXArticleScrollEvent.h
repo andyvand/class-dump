@@ -15,14 +15,14 @@
 }
 
 - (double);
-- (void)f
-;
+- (void);
 - (void);
 - (double);
 - (double);
 - (void);
-- (double);
-- (void)ring"16@"SXComponentClassification"24@"<SXComponent>"32;
+- (double);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double endPosition; // @synthesize endPosition=_endPosition;

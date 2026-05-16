@@ -25,13 +25,13 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id)autoRenewPreference;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)<;
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SWNavigationPreview *currentPreview; // @synthesize currentPreview=_currentPreview;

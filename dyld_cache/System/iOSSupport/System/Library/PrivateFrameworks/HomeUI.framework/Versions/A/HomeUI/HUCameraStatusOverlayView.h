@@ -30,18 +30,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void)specifiers provided;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *alertBadge; // @synthesize alertBadge=_alertBadge;

@@ -16,7 +16,7 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)userConfigured:preferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -27,19 +27,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (void)¨°!@Cù±ñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsModifyingLegibilityBlur; // @synthesize allowsModifyingLegibilityBlur=_allowsModifyingLegibilityBlur;

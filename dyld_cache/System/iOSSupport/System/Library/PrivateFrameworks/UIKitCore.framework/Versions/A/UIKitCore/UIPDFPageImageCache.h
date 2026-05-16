@@ -22,24 +22,22 @@ __attribute__((visibility("hidden")))
     int jobsComplete;
 }
 
-- (double)etractionReceivedTimeoutEnforcingExactTimeoutInterval: /* Error: Ran out of types for this method. */;
-- (unsigned long long)V_fmlSession;
+- (double);
+- (unsigned long long);
 - (id);
 - (int);
 - (id);
 - (void);
-- (void)};
-- (void);
 - (void);
 - (void);
-- (void)4@0:(id)arg1 8@?<v@?qQ^B>16;
 - (void);
-- (id)Ôaoð!DùÑÁð1¢!0@ù
-× ;
-- (void)QÉ°1¢!0@ù
-× ;
+- (void);
 - (id);
-- (unsigned long long)e;
+- (void);
+- (void);
+- (void)ackgroundFromView;
+- (id)0ÿóvÍig;
+- (unsigned long long)Òti;
 
 // Remaining properties
 @property(readonly) UIPDFDocument *document; // @synthesize document=_document;

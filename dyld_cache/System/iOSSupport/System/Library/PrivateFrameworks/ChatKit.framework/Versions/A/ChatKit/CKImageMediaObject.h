@@ -28,45 +28,46 @@
 + (Class);
 + (id);
 + (_Bool);
-+ (_Bool)°Èqÿ»L2Èð-;
-- (_Bool)adBlock;
-- (_Bool)R,N,V_renderer;
-- (id)G;
++ (_Bool)eCategoryDependentConstraints;
+- (_Bool);
+- (_Bool);
+- (id);
 - (Class);
-- (id)e;
-- (void);
-- (_Bool);
-- (_Bool)uccessfully updated recent System Paper thumbnail;
-- (id)cation for coalesced mentions:(id)arg1 %@;
-- (id)**You** moved the note;
-- (id)Somebody** created a note;
-- (id);
-- (_Bool);
-- (_Bool);
-- (id)or;
-- (struct CGSize)vels;
-- (id)iewLayout;
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (struct CGSize);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (int);
 - (id);
-- (id)or;
-- (_Bool)0±/;
+- (void);
+- (struct CGSize);
+- (id)y=]y¸¢\AAyà§\yAAyAG_L¨\AGtGG_ùy\y=]yAHyAAyAI_AgItGGGÍ\y¦\SgGGtG¼¬\G_½ÛAFyAgAyQ1]yAG±ÛG_AZyAG­ÛGAZyAGªÛGAZyAG§ÛGAZyAG¤ÛGAZyAG¡ÛGAZyAGÛGtGAWGAFyAgZyAGÛGAWGAFyAgAyAZyAGÛG_A19_A19_A19_A19_A19_A19_tGAWGiÛtGG_Qo__Qo__5]y_5]y_ú/]yyt¢9]yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_Ò;]yAGú¥\GQo__p;]yAByAC9]yo;]yÙ:]y39]yADyAeFyAgAyAZyAGíÚG_AZyAGéÚGAZyAGæÚGtGAWGG_Qo__Qo__A32_Qo__Qo_G_A38_Qo_tG /* Error: Ran out of types for this method. */;
+- (id)luginCounts.swift;
+- (void)
+;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUseAsBackground;

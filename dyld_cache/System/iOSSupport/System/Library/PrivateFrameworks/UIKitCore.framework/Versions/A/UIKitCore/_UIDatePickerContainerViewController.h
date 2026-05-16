@@ -17,23 +17,24 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (CDUnknownBlockType)Update;
+- (CDUnknownBlockType);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)on views with bounds transforms that don't preserve rectangles. The problem is in this view:%@ /* Error: Ran out of types for this method. */;
-- (id)alue;
-- (_Bool)fication"16@?0@"UNNotification"8;
-- (void)ayTypeShift;
-- (_Bool)ner. (view:(id)arg1 %@);
-- (void)_;
-- (void)-»a;
+- (_Bool)0@ù
+× ;
+- (void)¿7_p;
+- (_Bool)date;
+- (void)"8;
+- (_Bool)ÔDaÿr;
+- (id)í_;
+- (void)ÐvxþX¾Ö;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

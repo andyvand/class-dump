@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (void);
-- (id).;
-- (void)23, 2018;
+- (id);
+- (void)mProcessedParameterValue:(id)arg1 parameterState:permissionRequestor:runningFromToolKit:action:parameterKey:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)eo with ${WFCameraCaptureDevice} camera (Front);
 
 // Remaining properties
 @property(nonatomic) __weak WFDatabase *database; // @synthesize database=_database;

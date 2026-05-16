@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     UILabel *_changeNameLabel;
 }
 
-+ (id)neratePreviewFromThumbnail:width: /* Error: Ran out of types for this method. */;
++ (id)eWithDuration:animations:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
+- (struct CGSize);
 - (void);
-- (id);
+- (id)ickerDetailsViewStickerPackNameColor;
 - (void);
-- (struct CGSize)$ô;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *cellGlpyh; // @synthesize cellGlpyh=_cellGlpyh;

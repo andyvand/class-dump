@@ -19,7 +19,7 @@
 }
 
 + (_Bool);
-+ (Class)¬QÖÿ¡öõÎS;
++ (Class)Updater:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,25 +30,24 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (double);
 - (id);
 - (void);
-- (double);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (double);
-- (id)Ñ.°1b0@ù
-× ;
-- (id)oadProgressView";
-- (void)32@0:(id)arg1 8@"MKMapView"16@"MKAnnotationView"24;
-- (_Bool)xG¸vAAyvyACyAAyAFxG_{vAAyAAyPv³vy¥vSgGGvyÖvGGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo_¾[yA5_SgGG;
-- (void)Code;
+- (id);
+- (void)or picker;
+- (_Bool)ÿÿ;
+- (double)tyle;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted;

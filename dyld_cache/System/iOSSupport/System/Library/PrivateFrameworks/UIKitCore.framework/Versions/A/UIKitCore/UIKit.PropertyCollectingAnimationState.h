@@ -13,10 +13,9 @@
     MISSING_TYPE *capturedProperties;
 }
 
-- (void)±Ä°1¢!0@ù
-× ;
-- (id)ckdrops:(id)arg1;
-- (id)olor:,V_preferredBackgroundColor /* Error: Ran out of types for this method. */;
+- (id);
+- (id)geStats;
+- (void)l;
 
 @end
 

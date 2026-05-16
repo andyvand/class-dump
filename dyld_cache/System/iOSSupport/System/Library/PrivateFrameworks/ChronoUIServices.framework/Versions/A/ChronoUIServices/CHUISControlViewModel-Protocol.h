@@ -7,6 +7,7 @@
 @class CHUISControlIconView, NSString;
 
 @protocol CHUISControlViewModel
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessibilityIdentifier;

@@ -21,23 +21,23 @@
     CDStruct_5f1f7aa9 dirtyStrokeRange;
 }
 
-- (_Bool)R;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)=;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (CDStruct_5f1f7aa9);
@@ -46,7 +46,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)/Sources/AlderShared/persistence/src/TSPDocumentResourceCacheEntry.m;
+- (_Bool)1ý[d;
 
 // Remaining properties
 @property(nonatomic) CDStruct_5f1f7aa9 dirtyCellRange; // @synthesize dirtyCellRange;

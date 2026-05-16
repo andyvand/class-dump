@@ -24,7 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)fault;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -38,14 +38,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)QÐ1¢!0@ù
-× ;
-- (id)ate: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

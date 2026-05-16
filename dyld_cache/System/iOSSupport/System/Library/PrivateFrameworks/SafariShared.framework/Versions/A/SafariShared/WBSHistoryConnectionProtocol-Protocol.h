@@ -5,7 +5,5 @@
 //
 
 @protocol WBSHistoryConnectionProtocol
-- (void);
-- (void)(>;
 @end
 

@@ -25,40 +25,41 @@
     NSMapTable *_activeTouchesByIdentifier;
 }
 
-+ (_Bool)24;
-+ (_Bool);
-+ (void)9;
-- (struct CGPoint)i;
-- (_Bool)cal;
++ (_Bool);
++ (_Bool);
++ (void)°Ûn;
+- (void);
+- (id);
+- (void);
+- (const struct _UIWebTouchEvent *);
+- (_Bool);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (id);
+- (id);
 - (double);
 - (void);
-- (_Bool)A;
-- (void);
-- (void);
-- (void)cellClass:(id)arg1 pickerResponder:showArtists: /* Error: Ran out of types for this method. */;
-- (void)ShortDescription;
-- (void)- Singleton;
-- (void);
-- (void);
-- (id);
-- (const struct _UIWebTouchEvent *)º;
-- (void)2ò;
-- (id);
-- (void)É°1¢!0@ù
+- (struct CGPoint)!ðAùÑ^1Â0@ù
 × ;
-- (void);
-- (id)!4GùñÉ°1¢!0@ù
+- (void)ù
 × ;
-- (void)Change:(id)arg1;
-- (void)stentAnimation;
-- (id)ange;
+- (int)1Â0@ù
+× ;
+- (id)6;
+- (_Bool)earchFieldAccessoryIsOffscreenForPresentationAnimation: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)ntroller;
-- (id)þÿÆÅþÿ¦þÿ;
-- (int)lorCandidateListBackgroundGradient;
-- (void)tlink:r:path:/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager /* Error: Ran out of types for this method. */;
-- (_Bool)>a;
-- (double)hV*ÿ7>;
+- (_Bool)inState:(id)arg1 whenStateReady: /* Error: Ran out of types for this method. */;
+- (void):withFrame:withItemList: /* Error: Ran out of types for this method. */;
+- (void)ionsWithBlock:(id)arg1;
+- (void)_playFeedbackForCursorMovement;
+- (id)IndexPath;
+- (void),V_color;
+- (void);
+- (void)Lsþ;
+- (void)7;
+- (void)1Å[;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *activeTouchesByIdentifier; // @synthesize activeTouchesByIdentifier=_activeTouchesByIdentifier;

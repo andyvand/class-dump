@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
-
 @protocol UIScrollViewDelegate
-
-@optional
-- (void)mageWithCGImage:(UIScrollView *)arg1;
-- (UIView *)willPresentInputAssistantView:(UIScrollView *)arg1;
-- (void);
-- (void)C;
 @end
 

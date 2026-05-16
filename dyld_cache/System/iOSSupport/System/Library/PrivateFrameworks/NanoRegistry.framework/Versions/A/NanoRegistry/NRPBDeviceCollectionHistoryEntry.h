@@ -21,23 +21,23 @@
 - (void);
 - (void);
 - (_Bool);
+- (double);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
-- (id);
+- (id)cm;
 
 // Remaining properties
 @property(nonatomic) double date; // @synthesize date=_date;

@@ -25,8 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)tionary unless a line of keys has already been given;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSParsecDSession *parsecSession; // @synthesize parsecSession=_parsecSession;

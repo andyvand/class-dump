@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *orderedFramingModeOverrides; // @synthesize orderedFramingModeOverrides=_orderedFramingModeOverrides;

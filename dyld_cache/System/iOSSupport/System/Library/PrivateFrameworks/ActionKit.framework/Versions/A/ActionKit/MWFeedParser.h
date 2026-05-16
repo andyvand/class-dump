@@ -61,28 +61,28 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)NotFound;
-- (void)á<x^ÒàeùÏ¥¶£-H.ÇîXéU[DÅÓ^G 6¼O·á<x^ÒàeùÏ¦öôïO¹ìxì(üÔ±ñ³.'Ó^G 6¼O·á<x^ÒàeùÏ¦öôïO¹ìxì(üÔ±ñ³.$§õaà8ëÕ`³ÑGÛx Lò~Ò|gª÷¸¥GÎµ´þô"4S[éû¯ÆûM>}I4«lO	Ë~àxhÌoÿ3Wö$¢íRcº:(id)arg1 z'H>¿fqÛïz»0ëîNX °w­B¥ çÀE_°ÒÃÓ^G 6¼O·á<x^ÒàeùÏ¥¶£-H.ÇîXéU[DÅ¹£8m(]o~PæAß/q	íTV´±Ú·#¬Ó§)qG;
+- (void)esourceApplicationDataFullMap:(id)arg1;
+- (void)rm-data; charset=utf-8; boundary=%@;
+- (_Bool)y8ÇÿÍyeÄÿ yDÅÿ% y@ÅÿíyeÄÿ yÇÿµyÇÿ% yxÿÿÿe y¤Çÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *currentElementAttributes; // @synthesize currentElementAttributes;

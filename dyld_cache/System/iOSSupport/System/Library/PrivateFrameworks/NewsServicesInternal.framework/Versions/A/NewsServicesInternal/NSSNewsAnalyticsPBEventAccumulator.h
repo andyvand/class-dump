@@ -14,8 +14,6 @@
     NSMutableArray *_events;
 }
 
-- (void);
-- (void)ed shadow;
 - (id);
 - (id);
 - (id);
@@ -23,6 +21,8 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)KR;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSNewsAnalyticsEnvelopeDescriptor *envelopeDescriptor; // @synthesize envelopeDescriptor=_envelopeDescriptor;

@@ -26,12 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ÿ]45l&ÿe45v&ÿE45È&ÿ;
+- (void);
+- (id)1â
+0@ù
+× ;
+- (id)ges;
+- (void)S_MEMORIES_EXPORT_ASPECT_RATIO_OPTION_MATCH_FULL_SIZE_PLAYER;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

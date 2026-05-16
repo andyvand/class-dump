@@ -31,18 +31,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (void);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id)eateAllLayoutsAndReps;
-- (id);
+- (void)¸;
+- (id)Ó*;
 
 // Remaining properties
 @property(nonatomic) __weak TSPComponent *component; // @synthesize component=_component;

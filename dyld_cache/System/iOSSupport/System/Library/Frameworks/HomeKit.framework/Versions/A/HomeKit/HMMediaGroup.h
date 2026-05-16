@@ -18,9 +18,9 @@
 
 + (id);
 + (id);
-+ (id)ess;
-+ (id)\½üÂ;
-+ (_Bool)etinReasonSignificantEvent;
++ (id);
++ (_Bool);
++ (id)irmware-update;
 - (void);
 - (void);
 - (id);
@@ -34,16 +34,16 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
@@ -52,8 +52,8 @@
 - (id);
 - (id);
 - (id);
-- (id)InvitationData",&,N,V_invitationData;
-- (id)lete:%@) /* Error: Ran out of types for this method. */;
+- (void);
+- (void)pÜ;
 
 // Remaining properties
 @property(copy) NSUUID *associatedGroupIdentifier; // @synthesize associatedGroupIdentifier=_associatedGroupIdentifier;

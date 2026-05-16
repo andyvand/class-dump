@@ -26,13 +26,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (double);
 - (void);
-- (id);
-- (void)le %{public}@;
-- (double)nt=dd}{CGSize=dd}}16;
-- (void)n error.;
 - (void);
+- (void);
+- (id)Eù°1â
+0@ù
+× ;
+- (void);
+- (id)RIncomingPosterConfiguration has the wrong incomingPosterType;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimationFinished) _Bool animationFinished; // @synthesize animationFinished=_animationFinished;

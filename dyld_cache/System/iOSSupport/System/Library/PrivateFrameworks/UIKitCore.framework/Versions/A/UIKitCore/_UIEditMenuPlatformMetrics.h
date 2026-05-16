@@ -60,13 +60,13 @@
 - (void);
 - (void);
 - (void);
-- (void)a	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,11 +87,11 @@
 - (_Bool);
 - (double);
 - (long long);
-- (double)rh;
-- (_Bool))?;
+- (double);
+- (_Bool);
 - (id);
-- (id)(q`;
-- (double)!;
+- (id);
+- (double);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -104,24 +104,22 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (double)24@?32@?40@?48@?56;
-- (struct CGSize)24@28@36@?44;
-- (struct UIEdgeInsets)"16B24;
-- (double)as is.;
-- (void)ary:(CDUnknownBlockType)arg1 %@;
+- (double);
+- (struct CGSize);
+- (struct UIEdgeInsets);
+- (void);
+- (double);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void)× ;
-- (double)ôBùÁ1¢!0@ù
-× ;
-- (double)1¢!0@ù
-× ;
-- (void);
-- (id)r;
-- (struct CGSize)ê;
-- (id)ôþ;
-- (void);
+- (id);
+- (double)× ;
+- (void)ewControllerIdentifier;
+- (void)QþÛHx\;
+- (struct CGSize);
+- (double);
+- (void)×@ña;
+- (id)Ìb;
+- (void)ZÖ­b;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalSeparatorInsets; // @synthesize additionalSeparatorInsets=_additionalSeparatorInsets;

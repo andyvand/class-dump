@@ -18,9 +18,9 @@
 }
 
 - (void);
-- (void)IDs:(_Bool)arg1 style:onServices:limit:chatID:queryID: /* Error: Ran out of types for this method. */;
-- (void)ystemRepresentation;
-- (void)le;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIPageControlProgressDelegate> delegate; // @dynamic delegate;

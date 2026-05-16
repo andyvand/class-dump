@@ -11,8 +11,8 @@
 + (CDStruct_5eb12be8);
 + (void);
 + (void);
-+ (void);
 + (CDStruct_5eb12be8);
++ (void);
 + (void);
 
 @end

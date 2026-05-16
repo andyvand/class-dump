@@ -31,8 +31,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)3;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *chatIdentifierToParticipantIDsHash; // @synthesize chatIdentifierToParticipantIDsHash=_chatIdentifierToParticipantIDsHash;

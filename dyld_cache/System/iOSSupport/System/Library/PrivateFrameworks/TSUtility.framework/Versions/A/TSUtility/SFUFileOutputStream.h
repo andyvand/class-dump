@@ -38,12 +38,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id)(;
 - (void);
-- (long long);
 - (id);
-- (_Bool)dRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/NSString_TSUAdditions.m;
+- (id);
+- (_Bool);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

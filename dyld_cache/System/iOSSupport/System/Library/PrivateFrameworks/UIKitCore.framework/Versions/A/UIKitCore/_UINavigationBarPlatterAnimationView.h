@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
-- (id)ent:(struct CGPoint)arg1;
-- (id)Ðè;
-- (id)ringViews;
+- (id);
+- (id)crollerImp"16d24;
+- (id)ragControllerDelegate;
+- (void)-ù;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

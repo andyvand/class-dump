@@ -5,8 +5,5 @@
 //
 
 @protocol UITableViewDropDelegate_Private
-
-@optional
-- (long long)@;
 @end
 

@@ -58,17 +58,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)@64@72@80@88@96@104q112;
 
 // Remaining properties
 @property(readonly, nonatomic) ASCPresenterContext *context; // @synthesize context=_context;

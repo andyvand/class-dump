@@ -16,7 +16,7 @@
 + (void);
 + (void);
 + (void);
-+ (void)tFogColor:(long long)arg1;
++ (void);
 
 @end
 

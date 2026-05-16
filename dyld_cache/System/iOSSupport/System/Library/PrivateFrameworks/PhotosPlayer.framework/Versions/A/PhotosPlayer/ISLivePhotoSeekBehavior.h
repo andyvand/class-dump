@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDStruct_1b6d18a9);
 - (CDUnknownBlockType);
-- (id)R;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);

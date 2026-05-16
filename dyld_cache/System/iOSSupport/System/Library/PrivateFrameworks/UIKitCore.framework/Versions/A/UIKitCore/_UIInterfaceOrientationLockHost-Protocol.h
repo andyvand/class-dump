@@ -5,7 +5,6 @@
 //
 
 @protocol _UIInterfaceOrientationLockHost
-- (void)airConfiguration.plist;
 
 // Remaining properties
 @property(nonatomic) long long interfaceOrientationLockState;

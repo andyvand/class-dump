@@ -19,9 +19,9 @@
 - (id);
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ndex;
 
 @end
 

@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (void);
 - (struct __CFString *);
-- (CDUnknownBlockType)DaemonChatSendMessageProtocol;
-- (void)s;
+- (void)4G;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CFString *notification; // @synthesize notification=_notification;

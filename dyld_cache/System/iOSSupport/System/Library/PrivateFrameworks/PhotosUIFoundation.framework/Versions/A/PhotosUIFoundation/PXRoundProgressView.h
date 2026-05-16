@@ -36,35 +36,35 @@
 - (id);
 - (void);
 - (id);
+- (long long);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (float);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)itialPointInView:(id)arg1 ,V__initialPointInView;
-- (void)ÿåå¼NôÿÕå87ñÿ;
+- (void)ets: /* Error: Ran out of types for this method. */;
+- (id)ePriority: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCircleLayer:) CAShapeLayer *_circleLayer; // @synthesize _circleLayer=__circleLayer;

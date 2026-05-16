@@ -11,6 +11,7 @@
     _Bool _allowsTextOnlyLocations;
     _Bool _allowsCurrentLocation;
     _Bool _skipsProcessingCurrentLocation;
+    _Bool _postalAddressOnly;
     _Bool _defaultToCurrentLocation;
 }
 
@@ -20,6 +21,7 @@
 @property(readonly, nonatomic) _Bool allowsTextOnlyLocations; // @synthesize allowsTextOnlyLocations=_allowsTextOnlyLocations;
 @property(readonly, nonatomic) double currentLocationAccuracy;
 @property(readonly, nonatomic) _Bool defaultToCurrentLocation; // @synthesize defaultToCurrentLocation=_defaultToCurrentLocation;
+@property(readonly, nonatomic) _Bool postalAddressOnly; // @synthesize postalAddressOnly=_postalAddressOnly;
 @property(readonly, nonatomic) _Bool skipsProcessingCurrentLocation; // @synthesize skipsProcessingCurrentLocation=_skipsProcessingCurrentLocation;
 @end
 

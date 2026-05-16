@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool)geForConfiguration:barLength:maximumLength:synchronous: /* Error: Ran out of types for this method. */;
-- (void);
++ (_Bool);
 - (id);
+- (void);
 
 @end
 

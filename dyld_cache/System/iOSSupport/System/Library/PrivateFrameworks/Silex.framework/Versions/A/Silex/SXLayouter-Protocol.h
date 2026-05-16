@@ -7,7 +7,6 @@
 @protocol SXLayouterDelegate;
 
 @protocol SXLayouter
-- (void)R;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXLayouterDelegate> delegate;

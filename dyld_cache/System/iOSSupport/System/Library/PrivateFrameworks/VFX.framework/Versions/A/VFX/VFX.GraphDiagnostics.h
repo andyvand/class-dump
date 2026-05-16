@@ -13,8 +13,8 @@
     MISSING_TYPE *diagnostics;
 }
 
-- (void);
 - (id);
+- (void)XÿðPèÖxÿðPDÿ;
 
 @end
 

@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
     id _anchor;
 }
 
-+ (_Bool)·CÛTm;
-- (void)essageWithGUID:(CDUnknownBlockType)arg1 registerAttachments:(CDUnknownBlockType)arg2;
-- (_Bool)yWithBlastDoorBasicMessage:(CDUnknownBlockType)arg1;
-- (id)ndAnalysis16OneRepresentableP;
++ (_Bool)itCodingFlavor;
 - (void);
-- (unsigned long long)`;
 - (_Bool);
-- (id)equest;
 - (id);
-- (void);
-- (id)ayout to layer for %@ 
-%@;
+- (id);
+- (unsigned long long);
+- (_Bool)verlayView:(id)arg1;
+- (void)e:(id)arg1 UUID:applyDelta: /* Error: Ran out of types for this method. */;
+- (id)KeyboardViewController",R,N,V_numericKeyboardViewController;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id anchor; // @synthesize anchor=_anchor;

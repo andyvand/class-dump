@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)eturned YES after manually popping a view controller (navigationController=%@);
-- (id)$R;
+- (id);
+- (void)oatingCursor;
 
 // Remaining properties
 @property(nonatomic) UIWindow *window; // @synthesize window=_window;

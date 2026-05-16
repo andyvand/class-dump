@@ -13,17 +13,17 @@
     MISSING_TYPE *localizedName;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (struct CGPoint);
-- (id);
-- (id);
-- (id);
-- (void)Ð¬GGÖ¬GxÐ;
-- (void);
+- (id)Jùÿ©þÿ;
+- (void);
+- (struct CGPoint)#&yAAyúyACyáyã&î%G@GºyÀà;
+- (void)tGALGG_AFtGARG;
+- (void)BackedViewControllerProtocolP;
+- (id)elEffectModifier;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

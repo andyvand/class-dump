@@ -5,7 +5,6 @@
 //
 
 @protocol NUANFDebugSettingsProvider
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool testingConditionEnabled;

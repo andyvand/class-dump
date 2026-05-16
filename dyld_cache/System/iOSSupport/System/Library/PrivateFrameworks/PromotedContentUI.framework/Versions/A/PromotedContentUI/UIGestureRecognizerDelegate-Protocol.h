@@ -5,10 +5,5 @@
 //
 
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)ue to playback context;
-- (_Bool);
-- (_Bool);
 @end
 

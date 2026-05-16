@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id)dHelpfulnessScore"b1"restatementScore"b1};
-- (void);
+- (id);
+- (void)ons;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mediaKitType; // @synthesize mediaKitType=_mediaKitType;

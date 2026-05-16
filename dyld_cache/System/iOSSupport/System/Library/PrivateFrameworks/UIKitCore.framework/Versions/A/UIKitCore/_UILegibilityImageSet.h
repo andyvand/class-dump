@@ -13,14 +13,14 @@
 }
 
 + (id);
-- (id))ig8r;
-- (id);
-- (void)ckContextRepeatType;
-- (id);
 - (id);
 - (void);
-- (void)witcher;
+- (void);
 - (id);
+- (id);
+- (id)hø	(h;
+- (id)e;
+- (void)è^;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

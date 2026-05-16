@@ -16,12 +16,12 @@
 - (id);
 - (void);
 - (struct CGSize);
+- (id);
+- (long long);
 - (long long);
 - (id);
-- (void);
-- (long long);
-- (id);
-- (id)hortcuts;
+- (void)ÿÿÿÿ0;
+- (id)romptStateCGtG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

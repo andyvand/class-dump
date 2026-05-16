@@ -30,8 +30,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)Ðy7;
 
 @end
 

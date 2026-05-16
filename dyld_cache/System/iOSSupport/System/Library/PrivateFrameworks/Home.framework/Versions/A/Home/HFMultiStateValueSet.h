@@ -26,19 +26,19 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id)Ô ;
-- (unsigned long long)hìøíÔîXôõ¬õ;
+- (unsigned long long);
+- (void)T±´±´¼¶È·;
+- (id)ted types:(unsigned long long)arg1 %@;
+- (unsigned long long)%s:(CDStruct_70511ce9 *)arg1 Failed to get attribute path for %s from command %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allValues;

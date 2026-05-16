@@ -43,10 +43,10 @@
 + (void);
 + (id);
 + (double);
-+ (void);
 + (double);
-+ (struct CGSize);
 + (_Bool);
++ (void);
++ (struct CGSize);
 - (void);
 - (void);
 - (void);
@@ -71,8 +71,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);

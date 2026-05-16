@@ -7,6 +7,7 @@
 @class NSSet, NSString;
 
 @protocol HMActionSetBuilder
+- (void)ine empty list of video file URLs;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *actions;

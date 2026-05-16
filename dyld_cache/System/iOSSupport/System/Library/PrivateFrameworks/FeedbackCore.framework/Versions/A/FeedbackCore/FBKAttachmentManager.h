@@ -43,24 +43,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
 - (void);
-- (void)mentDisplayName;
+- (id)ð	6;
 - (id);
-- (id)file controller from annotated file browser;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;

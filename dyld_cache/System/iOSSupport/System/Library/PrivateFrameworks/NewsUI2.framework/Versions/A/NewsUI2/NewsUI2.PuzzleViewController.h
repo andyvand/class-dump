@@ -15,7 +15,7 @@
     MISSING_TYPE *puzzleViewConfig;
     MISSING_TYPE *puzzleEmbedViewController;
     MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *hardPaywallViewController;
+    MISSING_TYPE *contentOverlayViewController;
     MISSING_TYPE *puzzleRadarReporter;
     MISSING_TYPE *historyService;
     MISSING_TYPE *puzzleNavigationBarThemeProvider;
@@ -58,23 +58,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)è	ßÿ
-ßÿ0
-ßÿd
-ßÿ
-ßÿ¬
-ßÿè
-ßÿßÿ0ßÿTßÿßÿ´ßÿ;
-- (void)lName;
 - (void);
-- (void)yType;
-- (void)(ÕÉþµ9èUÕþå9ÕÉþå9VÕþ9XVÕþ¥9ÖÉþÕ9ìÖÉþ9<×Éþ­9|VÕþÍ9×ÉþÕ9Ø×Éþm98ØÉþ9ØÉþ9àØÉþ9(ÙÉþí8pÙÉþÝ8¸ÙÉþ9;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)offline title when the following tab is not available due to device offline;
+- (void)ù°	%_¤b;
+- (void)$Ó4;
+- (void);
 
 @end
 

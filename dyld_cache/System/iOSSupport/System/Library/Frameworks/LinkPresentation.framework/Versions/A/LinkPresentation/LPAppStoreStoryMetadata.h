@@ -14,19 +14,20 @@
 }
 
 + (id);
-+ (_Bool),V_webView;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool)H;
 - (id);
-- (id);
-- (id)ion1;
+- (unsigned long long);
+- (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)ø°!Bù°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

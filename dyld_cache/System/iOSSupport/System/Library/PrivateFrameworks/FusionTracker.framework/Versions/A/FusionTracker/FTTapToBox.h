@@ -24,8 +24,8 @@
 - (CDStruct_1586d5e9);
 - (struct CGRect);
 - (id);
-- (void);
 - (id);
+- (void);
 
 @end
 

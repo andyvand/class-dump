@@ -17,9 +17,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)eKeyPhoto:(unsigned long long)arg1;
+- (void)«5;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

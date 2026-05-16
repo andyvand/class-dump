@@ -14,12 +14,12 @@
 }
 
 + (id);
-- (id)viorsForCommand:(double)arg1;
-- (id)ingChatWithGroupID:onService: /* Error: Ran out of types for this method. */;
-- (double)6;
-- (void)#;
-- (unsigned long long);
 - (id);
+- (id);
+- (double);
+- (id);
+- (unsigned long long)(|;
+- (void)izeAnimation;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPencilHoverState *_hoverState;

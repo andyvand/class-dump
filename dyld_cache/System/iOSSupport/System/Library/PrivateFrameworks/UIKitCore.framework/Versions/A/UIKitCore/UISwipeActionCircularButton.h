@@ -11,14 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double)e is low, below:%d byes, Messages database may not be able to store message /* Error: Ran out of types for this method. */;
-+ (double)1¢!0@ù
-× ;
-+ (id)Bar: /* Error: Ran out of types for this method. */;
-- (void)dentifier;
-- (void)nBarTitleRenamerContentView_p;
-- (void)paratorStyleIOS5AndLater;
-- (id)d elements already set;
++ (double);
++ (id);
++ (double);
+- (void);
+- (void)rhangDays:(id)arg1 highlightsToday: /* Error: Ran out of types for this method. */;
+- (id),N,S_setShouldUseDarkGridInDarkMode:(struct CGRect)arg1;
+- (void)tIAPayloadValueMissingKeyboardOrientationPortrait(void);
 
 @end
 

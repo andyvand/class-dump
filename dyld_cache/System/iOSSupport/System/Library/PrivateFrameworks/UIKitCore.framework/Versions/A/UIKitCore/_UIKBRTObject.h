@@ -17,9 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)!tEùñÅÐ1¢!0@ù
-× ;
-- (void)leByArrayLiteralP;
+- (id)setVisualStyleOverrideActionHighlightAttributes: /* Error: Ran out of types for this method. */;
+- (void)dh;
 
 @end
 

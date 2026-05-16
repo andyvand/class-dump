@@ -15,38 +15,38 @@
     NSMutableDictionary *_childMap;
 }
 
-+ (id);
 + (void);
 + (_Bool);
-- (unsigned long long);
-- (void);
++ (id);
 - (id);
-- (unsigned long long);
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (unsigned long long);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (void)lityVersion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id)urned "NO" %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NRMutableDevice *activeDevice;

@@ -53,20 +53,23 @@
 - (id);
 - (id);
 - (id);
-- (void)C;
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)redForGroup(const EQKitAlignmentGroup &, NSUInteger) const;
+- (id);
+- (id);
+- (void);
+- (id)6Q24{_NSRange=QQ}32;
+- (void)0|¨0°8¼P
+è
+8
+ø;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak TSPObjectContext *context; // @synthesize context=_context;

@@ -4,18 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIDragPreviewParameters, UITableView;
-@protocol UIDragSession;
-
 @protocol UITableViewDragDelegate
-
-@optional
-- (NSArray *);
-- (_Bool),%s:(UITableView *)arg1 %s%s%s%s%s%u:(id <UIDragSession>)arg2 %s aks connection failed%s
-;
-- (void)ailed to get cstring from key;
-- (_Bool)eEncodedKey;
-- (UIDragPreviewParameters *)alue;
-- (void);
 @end
 

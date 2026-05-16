@@ -17,16 +17,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)lErrorWithReason:underlyingReason:description: /* Error: Ran out of types for this method. */;
-- (id)Translating;
-- (void)sAutomaticIncomingTranslationEnabled;
-- (void)buildWithIdentifier:(id)arg1 withLocation:withEncryptCertPayloadUUID:withDeviceKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void):(id)arg1;
-- (id)oadDestinationItemFromSource;
-- (id)ö#Û+À^;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)asDarkUIAppearance;
+- (void)pActionRegion;
+- (id)ted orientations has no common orientation with the application, and [%@ shouldAutorotate] is returning YES;
+- (void)(½b;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCIssueBookmark, NSArray, NSDate, NSString;
+@class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
-- (FCIssueBookmark *);
-- (_Bool)P;
-- (NSDate *);
-- (void);
-- (NSString *)back request with response:%{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
-- (NSDate *)nditionsChanged;
-- (void)ndpointUrlForEnvironment:(NSString *)arg1;
-- (NSArray *)Ô;,<<8=C$G¸G¸cee°eLfpfÄf;
-- (_Bool)rviceConfig;
+- (NSArray *);
+- (NSDate *)åøÿ`Þûÿ;
+- (void)FeedScrollView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allEngagedIssueIDs;

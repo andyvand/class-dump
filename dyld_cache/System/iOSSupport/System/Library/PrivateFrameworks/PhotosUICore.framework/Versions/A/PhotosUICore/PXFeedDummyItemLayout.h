@@ -28,9 +28,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)leArray",&,N,V_pendingEdits;
+- (void);
+- (void)`£ÿ%ÏÈ`£ÿ-ÏÈÜTÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

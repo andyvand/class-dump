@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)nteraction"16q24;
+- (SEL)iting;
 - (void);
-- (id)%@ resultKind=%@;
-- (SEL)floatingUserInterfaceStyle = ;
 
 // Remaining properties
 @property(readonly, nonatomic) SEL action; // @synthesize action=_action;

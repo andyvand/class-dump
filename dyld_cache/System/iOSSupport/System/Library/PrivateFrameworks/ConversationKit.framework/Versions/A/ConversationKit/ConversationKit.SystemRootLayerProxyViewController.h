@@ -14,14 +14,14 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)tionKit.ConduitApprovalDelegate;
+- (void);
+- (void)AyAJ yu yÏ _Qo_GGSgtGGÐGAfAye yAVyì,¢yþ2¢yAJG_p;
 
 @end
 

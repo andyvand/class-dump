@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *queriesPendingResponse; // @synthesize queriesPendingResponse=_queriesPendingResponse;

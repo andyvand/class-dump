@@ -5,10 +5,6 @@
 //
 
 @protocol LPInProcessMediaPlayable
-- (_Bool)Failed to decode with error:%@ /* Error: Ran out of types for this method. */;
-
-@optional
-- (double)R;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

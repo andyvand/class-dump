@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
 - (struct CGSize);
+- (void);
+- (_Bool);
+- (id)\s;
 
 @end
 

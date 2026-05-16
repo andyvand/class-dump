@@ -7,25 +7,25 @@
 @class NSArray, NSDictionary, NSString;
 
 @interface (null) (UIKitSceneSpecification)
-- (id)(5,6;
+- (id);
 - (Class);
-- (Class)found %s;
-- (id)ansfer %@;
-- (Class)deleting messages with GUID %@: /* Error: Ran out of types for this method. */;
-- (_Bool)able message callback with error %@;
-- (id)for non-message type, ignoring;
-- (id)d;
-- (id)r message %@ with CMMstate %@;
-- (id)hare ingestion complete for message %@. moment share UUID %@;
-- (id)from RCS;
-- (id)g!;
-- (id)or highlight URL for collaborationId %@ was nil;
+- (Class);
 - (id);
-- (_Bool)mp = %@; isFromStorage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@;;
-- (_Bool):%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
-- (_Bool)ame:%@  Identifier:%@  Unread count:%d  Row ID:%lld  Group ID:%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (Class);
+- (_Bool);
 - (id);
-- (_Bool)only call this on the main thread;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)q;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool affectsAppLifecycleIfInternal;

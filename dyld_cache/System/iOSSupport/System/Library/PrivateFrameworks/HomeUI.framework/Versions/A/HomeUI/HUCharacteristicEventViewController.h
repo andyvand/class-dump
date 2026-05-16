@@ -57,9 +57,8 @@
 - (void);
 - (void);
 - (void);
-- (void)
-× ;
-- (void)_;
+- (void)s",C,N,V_cameraCellOptions;
+- (void)ntegerValue == HUHomeHub2OnboardingValue_MigrationSucceeded) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationFailed) || (userInputValue.integerValue== HUHomeHub2OnboardingValue_ResetAppleHome);
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerConditionEditorItemModuleController *conditionModuleController; // @synthesize conditionModuleController=_conditionModuleController;

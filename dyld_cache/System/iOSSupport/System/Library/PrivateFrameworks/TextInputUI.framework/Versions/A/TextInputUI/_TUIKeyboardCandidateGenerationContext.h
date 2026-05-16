@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
-- (_Bool)@16@24@32@40@48;
-- (id)Collection;
+- (void);
+- (id)28^^{CGColor}36^d44;
+- (_Bool)Row;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;

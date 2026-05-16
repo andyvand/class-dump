@@ -20,11 +20,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXWebContentComponentInteractionHandlerFactory> componentInteractionHandlerFactory; // @synthesize componentInteractionHandlerFactory=_componentInteractionHandlerFactory;

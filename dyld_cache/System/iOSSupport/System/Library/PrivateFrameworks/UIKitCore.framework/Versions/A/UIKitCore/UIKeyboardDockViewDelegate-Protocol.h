@@ -5,7 +5,6 @@
 //
 
 @protocol UIKeyboardDockViewDelegate
-- (void)1Çð1¢!0@ù
-× ;
+- (void);
 @end
 

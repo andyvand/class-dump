@@ -13,23 +13,22 @@
     double _lastSelectionChangeTime;
 }
 
-+ (Class)B;
++ (Class);
 - (void);
-- (void)r:(struct CGPoint)arg1;
+- (void)llerDidExpand: /* Error: Ran out of types for this method. */;
+- (double);
+- (void) ;
+- (void)%@>;
+- (void)ing:(struct CGPoint)arg1 Can't get class name for object for state restoration archive:%@ /* Error: Ran out of types for this method. */;
+- (void)21UITransitionComponentP;
 - (void);
-- (void)Vº;
-- (void)0@ù
-× ;
-- (id)d},R,N;
-- (double)sScrubbing;
-- (void)nSettings;
-- (void)*üf;
-- (void)ëg;
-- (id),*ÿoCÉug;
-- (void)lgþ;
-- (void)KÔ;
-- (void);
-- (void)Ó§ÿ5È³j;
+- (id)0t$;
+- (void)43Lþsþ;
+- (void)ØÕè	\;
+- (void)Ô_;
+- (void)ÌòÿÌHOd;
+- (id)¤íÿ2ÌTg;
+- (void)¬ÿmÕ@­i;
 
 // Remaining properties
 @property(nonatomic) double lastSelectionChangeTime; // @synthesize lastSelectionChangeTime=_lastSelectionChangeTime;

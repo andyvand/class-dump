@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)ÿ[[5ÿ¾6;
+- (void)recipient;
+- (void)¨l"ÿ§É ×Oÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

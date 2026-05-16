@@ -13,12 +13,12 @@
     MISSING_TYPE *homeEnergyTip;
 }
 
-+ (id);
++ (id)eItem;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)iew.Utility.SetUp.DetailsLabel;
 
 @end
 

@@ -26,14 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (void);
 - (id);
-- (void)ithFont:(_Bool)arg1 wrappingEnabled: /* Error: Ran out of types for this method. */;
-- (id)_AFGSg}í=y_AFGtGG:ýÿG /* Error: Ran out of types for this method. */;
-- (void)¯T®yAByà®yAAy]P®¸&®GAEySayôæ>GAHtã®yAByAAyXã®yAK¸T®GjK®yLT®SgGGAKGGGGMåýÿyAAyAAyAKW,®GAWGGGG_RÚ®Qo_ATywÙ®GGATy=O®SgGGA2_GGGGZ®GALGALG;
-- (_Bool)\ÿ	{8U.;
-- (void)|qÿr/3PÌ/;
+- (id);
+- (_Bool);
+- (void);
+- (long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setVolumeDownButtonState:) long long _volumeDownButtonState; // @synthesize _volumeDownButtonState=__volumeDownButtonState;

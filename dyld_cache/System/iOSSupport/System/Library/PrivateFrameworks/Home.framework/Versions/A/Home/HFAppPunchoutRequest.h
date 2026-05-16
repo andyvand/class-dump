@@ -16,18 +16,18 @@
 
 + (_Bool);
 + (id);
-+ (id);
 + (_Bool);
++ (id)TelevisionProfiles:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)em;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;

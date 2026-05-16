@@ -9,7 +9,7 @@
 @protocol UIFocusItem
 
 @optional
-- (UIFocusEffect *)ndPoint>",R,W,N,V_summaryEndPoint;
+- (_Bool)eUnderlaySupport must be turned on when PXGSpriteInfoFlagsUnderlay is used;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

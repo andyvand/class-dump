@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
-- (id);
 - (long long);
 - (id);
 - (CDUnknownBlockType);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

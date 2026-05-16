@@ -15,23 +15,23 @@
     unsigned long long _signalEnvironment;
 }
 
-- (unsigned long long)@�H;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (double);
 - (void);
-- (double)meMs;
-- (void)ndSendDiscoveredDeviceRTCMetrics(APBrowserRef);
-- (id)nedConfiguration;
+- (double);
+- (void);
 - (id);
-- (unsigned long long)esExtractor;
-- (void)7~;
+- (id);
+- (void)tus:(unsigned long long)arg1;
+- (unsigned long long)tyFindPointOfInterest;
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;

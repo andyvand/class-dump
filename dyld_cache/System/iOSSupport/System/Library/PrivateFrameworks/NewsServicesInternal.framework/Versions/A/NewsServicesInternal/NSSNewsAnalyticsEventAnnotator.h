@@ -12,12 +12,12 @@
     id <NSSNewsAnalyticsUserIDProvider> _userIDProvider;
 }
 
-- (void)evice;
-- (void)ZoomAnimationKey;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NSSNewsAnalyticsSessionManager> sessionManager; // @synthesize sessionManager=_sessionManager;

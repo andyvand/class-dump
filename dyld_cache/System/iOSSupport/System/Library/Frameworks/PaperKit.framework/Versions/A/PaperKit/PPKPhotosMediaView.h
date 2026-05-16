@@ -34,15 +34,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void)zþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _PhotosMediaViewAnalysisController *analysisController; // @synthesize analysisController=_analysisController;

@@ -10,20 +10,20 @@
 }
 
 - (struct __CFArray *);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *);
 - (void);
-- (_Bool)@9	;
+- (_Bool);
 - (_Bool);
 - (struct __CFString *);
 - (struct __CFString *);
 - (void *);
 - (void *);
-- (struct __CFNumber *);
+- (struct __CFNumber *);
 - (struct __CFNumber *);
 - (unsigned int);
 - (void *);
 - (struct __CFData *);
-- (struct __CFData *)A�?;
+- (struct __CFData *);
 - (struct __CFBoolean *);
 - (void);
 - (id);

@@ -17,9 +17,9 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)Item;
+- (void)ÙÿýªÆ4ÙÿªÆ@Ùÿ¥ªÆLÙÿ}ªÆXÙÿÍªÆdÙÿ]ªÆpÙÿ]ªÆLËÿ¥ªÆtÙÿÝªÆ|Ùÿ­ªÆÙÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

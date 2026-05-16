@@ -21,14 +21,14 @@
 - (void);
 - (void);
 - (id);
-- (void)c;
-- (void)q!;
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)i;
-- (_Bool);
-- (void);
-- (void)*;
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +43,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)essionID:(id)arg1 %@,%@,%@,messageID:(unsigned long long)arg2 %@,failed to schedule with error %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

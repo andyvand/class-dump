@@ -8,15 +8,18 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
-- (void)v;
-- (unsigned long long)tContainerOverlayView;
-- (id <MTLDevice>)|oúÿ;
-- (unsigned long long);
-- (unsigned long long)4Ä;
-- (unsigned long long);
-- (unsigned long long)CKTranscriptNavigationBarContextFlags;
-- (unsigned long long)=%¿@U¾ÿ-%¿|Iÿ;
-- (int);
+- (int)ð1Â0@ù
+× ;
+- (unsigned long long)áý°!XGùñ1Â0@ù
+× ;
+- (void);
+- (unsigned long long)G_Qo_AMyÂ]GGAMyAXSgGGA10_GGtGG]GADyAEyAK_AFyAEyAL_AStGG¡Ã]A24_tGGGG;
+- (unsigned long long)t valid because the text view no longer contains the managed animation.;
+- (unsigned long long)le transfer matching groupPhotoGuid %@ for chat with identifier %@;
+- (void)t override viewToAlignWith - this is an implementation error.;
+- (unsigned long long)ollection"16;
+- (unsigned long long)ÿ;
+- (id <MTLHeap>)?;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

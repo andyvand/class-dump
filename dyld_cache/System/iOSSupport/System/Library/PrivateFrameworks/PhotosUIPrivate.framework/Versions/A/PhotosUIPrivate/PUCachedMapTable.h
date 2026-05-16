@@ -15,22 +15,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
 - (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (unsigned long long);
+- (id)ù
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableOrderedSet *_cachedObjects; // @synthesize _cachedObjects=__cachedObjects;

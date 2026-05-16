@@ -14,21 +14,21 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)t;
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
++ (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

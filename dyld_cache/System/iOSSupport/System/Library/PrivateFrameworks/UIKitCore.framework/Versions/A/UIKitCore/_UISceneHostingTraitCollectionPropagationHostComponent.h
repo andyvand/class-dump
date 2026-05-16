@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)T{CGPoint=dd},N,R;
+- (void)d;
 
 @end
 

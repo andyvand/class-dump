@@ -7,8 +7,6 @@
 @class CKConversationListCellLayout;
 
 @protocol CKConversationListCellLayoutConfigurable
-- (void)g;
-- (CKConversationListCellLayout *);
 
 // Remaining properties
 @property(retain, nonatomic) CKConversationListCellLayout *cellLayout;

@@ -14,7 +14,7 @@
     MISSING_TYPE *viewModel;
 }
 
-+ (_Bool);
++ (_Bool)r;
 - (double);
 - (void);
 - (void);
@@ -25,14 +25,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (_Bool);
 - (float);
-- (void);
-- (_Bool);
+- (void)X;
+- (void)7@ÿ
+Qo__Nÿ
+tGG.þþ
+Gèÿ
+yýþ
+yÌÿ
+·ÿ
+GGGG;
 
 // Remaining properties
 @property(nonatomic) _Bool isAnimating;

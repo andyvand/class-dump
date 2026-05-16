@@ -19,16 +19,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void)	;
-- (id);
-- (id);
-- (void)__TEXT;
+- (void);
 - (void);
 - (long long);
-- (void)ïJüÿ;
-- (void);
+- (void);
+- (void):(5íþ}:85íþ /* Error: Ran out of types for this method. */;
+- (void)H;
 
 @end
 

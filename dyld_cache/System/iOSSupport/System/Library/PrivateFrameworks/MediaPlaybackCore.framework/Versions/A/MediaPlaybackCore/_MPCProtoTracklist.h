@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
-- (unsigned long long);
-- (_Bool)@;
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (_Bool);
-- (id)0;
-- (id)Ⱦ;
+- (_Bool);
+- (id);
+- (id);
+- (void)inSection=%{public}@;
 
 @end
 

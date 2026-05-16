@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)UTH_CONST;
 - (void);
+- (void)g state [init] oldState=Unknown newState=Loading;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

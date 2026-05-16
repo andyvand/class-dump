@@ -17,19 +17,18 @@ __attribute__((visibility("hidden")))
     NSString *_darkMaterial;
 }
 
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (long long);
-- (void);
-- (long long)±È1¢!0@ù
-× ;
-- (void)ion:(id)arg1;
-- (id)pedRecoveryAttempter:(id)arg1;
-- (_Bool)tionSelection;
-- (_Bool)¤­Ü­\®¨®;
-- (id)ÿ¨þÿ;
-- (void)com.apple.UIKit;
+- (id);
+- (id);
+- (unsigned long long);
+- (long long)ynamicsController";
+- (_Bool)2@0:(id)arg1 8^q16^B24;
+- (void)ontext:(id)arg1;
+- (void)?,C,N,V_postDismissalHandler;
+- (_Bool)elegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (void)uration must have translatesAutoresizingMaskIntoConstraints enabled:(id)arg1 %@;
+- (_Bool)before starting anticipation animations;
+- (void)26_UIBarCustomizationSessionCSg;
 
 @end
 

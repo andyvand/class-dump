@@ -18,19 +18,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

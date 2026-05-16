@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)shouldDisableScreenTimeRestrictions:callerID:iMessageCapability:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
-- (_Bool)allbackIdentifier;
+- (_Bool);
+- (_Bool)¨¼^;
 
 @end
 

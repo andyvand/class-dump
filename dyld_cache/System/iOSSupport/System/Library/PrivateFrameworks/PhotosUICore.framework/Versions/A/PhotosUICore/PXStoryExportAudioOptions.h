@@ -26,8 +26,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (id)1â
+0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStorySongResource> exportSongResource; // @synthesize exportSongResource=_exportSongResource;

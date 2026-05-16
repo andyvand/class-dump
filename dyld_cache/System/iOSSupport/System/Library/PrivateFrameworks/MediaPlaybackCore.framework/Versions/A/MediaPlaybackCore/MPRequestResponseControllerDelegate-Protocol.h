@@ -5,8 +5,5 @@
 //
 
 @protocol MPRequestResponseControllerDelegate
-
-@optional
-- (_Bool)=;
 @end
 

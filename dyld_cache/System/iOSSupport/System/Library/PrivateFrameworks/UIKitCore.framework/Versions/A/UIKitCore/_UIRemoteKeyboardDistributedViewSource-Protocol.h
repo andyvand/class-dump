@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol _UIRemoteKeyboardDistributedViewSource
-- (void)ftCapWidth;
-- (void)rPresentationController (%@) should have a non-nil sourceView or barButtonItem set before the presentation occurs.;
-- (void)FormattingViewController;
-- (void)4Ä;
+- (void)layTypeLeftArrow;
+- (void)ApplicationSceneDeactivationReasonIsValid(reason);
+- (void)opLayoutGuide = %@, bottomlayoutGuide = %@;
+- (void)ectionView:(NSString *)arg1 indexPathForIndexTitle:(NSDictionary *)arg2 atIndex: /* Error: Ran out of types for this method. */;
 @end
 

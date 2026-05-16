@@ -27,11 +27,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
-- (id)reversed:isValid:] /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id)ace",&,N,VmRepeatHeaderCornerSpace;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDDrawableInfo<TSDContainerInfo> *container; // @synthesize container=mContainer;

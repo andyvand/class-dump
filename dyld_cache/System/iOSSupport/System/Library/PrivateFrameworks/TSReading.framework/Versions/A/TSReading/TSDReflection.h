@@ -11,19 +11,19 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)otocol>";
 - (long long);
 - (id);
 - (id);
 - (id);
 - (double);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
 - (double);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double fadeAcceleration; // @synthesize fadeAcceleration=mFadeAcceleration;

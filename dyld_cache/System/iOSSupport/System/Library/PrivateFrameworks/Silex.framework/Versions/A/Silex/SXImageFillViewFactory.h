@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Collection"40;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

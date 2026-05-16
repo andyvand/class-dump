@@ -15,9 +15,9 @@
 
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void)!;
+- (id)ú;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containedTime; // @synthesize containedTime=_containedTime;

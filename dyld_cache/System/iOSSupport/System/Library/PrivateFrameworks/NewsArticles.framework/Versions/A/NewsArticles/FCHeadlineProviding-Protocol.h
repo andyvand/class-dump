@@ -5,35 +5,30 @@
 //
 
 @class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding;
+@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (unsigned long long)tring"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
-- (NSString *)alDirectoryLocatorWithOffset: /* Error: Ran out of types for this method. */;
-- (NSString *)fromReadChannel:completion: /* Error: Ran out of types for this method. */;
-- (NSDate *)	;
-- (FCHeadlineThumbnail *)*@9_;
-- (_Bool)hC;
-- (NSArray *)ementBoostANFMutiplier;
-- (_Bool);
-- (NSURL *)(;
-- (_Bool)?;
-- (FCHeadlineThumbnail *)(;
-- (NSArray *)seButtonTapped: /* Error: Ran out of types for this method. */;
-- (int)FCPuzzleController",R,N;
-- (NSURL *)ewsArticles27ReloadArticleCommandHandler;
-- (unsigned long long)B16;
-- (NSString *)cleBlueprintRouteModel;
-- (NSString *) ;
-- (NSString *)Ô,Ñ¼o;
+- (FCHeadlineThumbnail *)ë! Eù1ý°1Â0@ù
+× ;
+- (unsigned long long)16;
+- (NSArray *)figuration"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)dinatorContainer;
+- (NSDate *)al;
+- (NSURL *)wsArticles31ReportConcernDetailEventHandler;
+- (struct CGRect)M;
+- (FCHeadlineThumbnail *)er;
+- (FCTopStoriesStyleConfiguration *)$Ò,G;
+- (NSArray *);
+- (NSURL *)NAArticleUnavailableBlockedMessage;
+- (FCHeadlineThumbnail *)xÌ;
+- (NSString *)ÉP1ø-;
+- (long long)erViewController;
+- (_Bool);
 
 @optional
-- (_Bool);
-- (NSString *)T;
-- (_Bool)SiG;
-- (NSDate *)agEvaluator;
-- (FCColor *)dRichResponse;
-- (unsigned long long)r;
+- (FCColor *)hÄúÿtÄúÿXÅúÿ4Æúÿ¬ÇúÿèÇúÿÈúÿHÈúÿøÈúÿÉúÿ´Éúÿ,ÊúÿTÊúÿÊúÿ´ÊúÿtËúÿËúÿÈËúÿìËúÿÌúÿLÌúÿpÌúÿÍúÿ8ÍúÿtÍúÿÍúÿ¼ÍúÿðÍúÿ,ÎúÿPÎúÿtÎúÿ¨ÎúÿäÎúÿÏúÿ,ÏúÿÐúÿ`ÐúÿÐúÿÀÐúÿôÑúÿxÒúÿÒúÿÓúÿÀÓúÿäÓúÿÔúÿ<Ôúÿ¼ÔúÿàÔúÿÕúÿ@ÕúÿdÕúÿ°Õúÿ$Öúÿ ×úÿ\ØúÿèØúÿÙúÿ@ÙúÿtÙúÿÙúÿÔÙúÿpÚúÿ¤ÚúÿàÚúÿÛúÿ(ÛúÿìÛúÿÜúÿ@ÜúÿdÜúÿÜúÿÄÜúÿèÜúÿHÝúÿ´ÝúÿXÞúÿ|Þúÿ¬ÞúÿÐÞúÿôÞúÿ0ßúÿTßúÿÈßúÿüßúÿ8àúÿ\àúÿàúÿ,áúÿPáúÿìáúÿ(âúÿLâúÿHãúÿTãúÿtãúÿ ãúÿÄãúÿÔäúÿ´åúÿëúÿëúÿ¼ëúÿìëúÿìúÿ4ìúÿhìúÿ¤ìúÿÈìúÿíúÿ@íúÿôíúÿ`ïúÿlïúÿ ïúÿdðúÿðúÿ¼ðúÿ8ñúÿ|ñúÿ òúÿ´òúÿØòúÿóúÿ8óúÿÌóúÿØóúÿ<õúÿxõúÿõúÿ¨õúÿ´õúÿöúÿL÷úÿ÷úÿ¬÷úÿ°øúÿÔøúÿìøúÿùúÿHùúÿlùúÿùúÿÀùúÿäùúÿ úúÿDúúÿÜúúÿüúÿ\üúÿp+üÿ´+üÿÐ+üÿì+üÿ,üÿ$,üÿ@,üÿ\,üÿx,üÿ,üÿ°,üÿÌ,üÿè,üÿ-üÿ -üÿ<-üÿX-üÿt-üÿ-üÿ¬-üÿÈ-üÿä-üÿ;
+- (int);
+- (FCColor *)Attributes ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryText;
@@ -140,6 +135,8 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C,N
 
+@property(readonly, nonatomic) _Bool liveCoverageCompleted;
+@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
 @property(readonly, copy, nonatomic) NSString *localDraftPath;
 @property(readonly, nonatomic) long long minimumNewsVersion;
 @property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
@@ -201,6 +198,7 @@
 @property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @property(readonly, copy, nonatomic) NSString *sourceName;
 @property(readonly, copy, nonatomic) NSString *sponsoredBy;
+@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
 @property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
 @property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
 // Preceding property had unknown attributes: ?
@@ -210,6 +208,7 @@
 @property(readonly, nonatomic) int storyType;
 @property(readonly, copy, nonatomic) NSString *surfacedByBinID;
 @property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
+@property(readonly, nonatomic) long long surfacedByFlags;
 @property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
 @property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
 @property(readonly, nonatomic) NSArray *tagsExpiration;

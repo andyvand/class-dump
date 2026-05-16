@@ -22,8 +22,8 @@
 + (id);
 + (double);
 - (_Bool);
-- (_Bool)q`;
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -33,19 +33,18 @@
 - (void);
 - (_Bool);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)
-;
-- (void)Cellular;
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ContextTransition"8Q16^B24;
+- (void)latency:%.2f, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

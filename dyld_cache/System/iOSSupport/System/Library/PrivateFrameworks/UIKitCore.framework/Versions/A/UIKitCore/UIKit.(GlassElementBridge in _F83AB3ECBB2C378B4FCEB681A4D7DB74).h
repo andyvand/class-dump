@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *proxy;
     MISSING_TYPE *glass;
+    MISSING_TYPE *cornerRadii;
     MISSING_TYPE *contentView;
     MISSING_TYPE *isGlassSuppressed;
 }

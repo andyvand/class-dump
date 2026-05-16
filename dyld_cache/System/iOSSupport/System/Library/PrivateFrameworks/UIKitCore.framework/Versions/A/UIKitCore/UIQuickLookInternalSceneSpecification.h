@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (id)essageStore",W,N,V_messageStore;
-- (_Bool);
-- (_Bool)destinationEnvironment %@ from non-ancestor environment %@;
+- (id);
+- (_Bool);
+- (_Bool)j;
 
 @end
 

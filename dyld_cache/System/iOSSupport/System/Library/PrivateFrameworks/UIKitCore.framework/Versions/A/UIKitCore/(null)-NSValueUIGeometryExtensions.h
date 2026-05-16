@@ -5,10 +5,6 @@
 //
 
 @interface (null) (NSValueUIGeometryExtensions)
-+ (id)s12IMDaemonCore24ClientConnectionManagingP;
-+ (id)';
-+ (id)yxq_G;
-+ (id)&;
 + (id);
 + (id);
 + (id);
@@ -19,7 +15,11 @@
 + (id);
 + (id);
 + (id);
-- (struct NSDirectionalEdgeInsets)transfer accepted for:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (id);
+- (struct NSDirectionalEdgeInsets);
 - (struct UIRectCornerRadii);
 - (struct _UIPressTrigger);
 - (struct _UICornerInsets);

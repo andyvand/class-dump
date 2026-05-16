@@ -20,12 +20,12 @@
 - (double);
 - (id);
 - (double);
-- (double);
 - (id);
-- (_Bool);
-- (double)`;
-- (double)d parameter not satisfying:requester (in %s:%d) /* Error: Ran out of types for this method. */;
-- (double)4»ÿÜ-V;
+- (double);
+- (double);
+- (_Bool)WeeksWithNonZeroDwellTimePruning;
+- (double)ons for clusterID,%@;
+- (double)8Âºÿ©;
 
 // Remaining properties
 @property(readonly, nonatomic) double desiredAccuracy; // @synthesize desiredAccuracy=_desiredAccuracy;

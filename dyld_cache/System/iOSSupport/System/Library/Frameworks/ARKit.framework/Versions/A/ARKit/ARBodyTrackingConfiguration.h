@@ -24,8 +24,8 @@
 
 + (void);
 + (_Bool);
++ (id);
 + (_Bool);
-+ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -46,8 +46,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool appClipCodeTrackingEnabled; // @synthesize appClipCodeTrackingEnabled=_appClipCodeTrackingEnabled;

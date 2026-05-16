@@ -14,11 +14,11 @@
     MISSING_TYPE *contentView;
 }
 
+- (id);
 - (void);
-- (id);
-- (void);
-- (id)etUnfocusingRepositionBaseDuration:(struct CGPoint)arg1;
-- (id)orInteraction;
+- (id)nceNames"b1};
+- (id)t;
+- (void)lîìþ;
 
 @end
 

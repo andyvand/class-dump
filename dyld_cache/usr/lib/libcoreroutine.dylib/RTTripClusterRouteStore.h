@@ -18,11 +18,11 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (void);
-- (id);
+- (void);
 - (id);
-- (_Bool)z;
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -30,10 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id)id parameter not satisfying:(id)arg1 messageGUID;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

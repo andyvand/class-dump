@@ -33,88 +33,82 @@
     struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
+- (id);
+- (_Bool);
 - (void);
+- (double);
+- (double);
+- (struct NSDirectionalEdgeInsets);
+- (_Bool);
+- (id);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (unsigned long long);
-- (struct NSDirectionalEdgeInsets)`;
-- (id)$G;
-- (void);
-- (id)9;
-- (_Bool);
-- (_Bool);
-- (id)playProperties;
-- (id)AllowedDidChangeNotification;
-- (void);
+- (unsigned long long);
 - (id);
-- (id)`J;
-- (_Bool);
 - (void);
-- (_Bool);
 - (double);
-- (void);
+- (id)× ;
+- (id)!¬@ù1_°1Â0@ù
+× ;
+- (_Bool);
+- (void)Ôað!`AùQd°1Â0@ù
+× ;
+- (void)asing"b1"guardAgainstDegenerateBaselineCalculation"b1"preferredImageDynamicRange"b2"animateHDRHeadroomUsageTraitChange"b1};
+- (void){CGPoint=dd}{CGPoint=dd}}32B96;
+- (long long)ipeActionController"16@"UIView"24@"UIView"32@"UIContextualAction"40@"NSIndexPath"48{?=QQBddd}56@?<v@?B>104;
+- (void)tcherTimer;
+- (id)esizing;
+- (void)tiesWithSet:(double)arg1;
+- (_Bool)forKey:(id)arg1;
+- (void)shotViewForPreview:(id)arg1;
+- (void)izeAndWeight;
+- (void)ings;
+- (double)edViewForTraitCollection:withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)DetectionController;
+- (void)ntingViewControllerHierarchy;
+- (_Bool),&,VzoomInShowcase;
+- (id)ô¸;
+- (void)$l"È0Ì;
+- (void)ew controller:(id)arg1 %@;
+- (unsigned long long)tRectForPosition:with a position beyond the NSTextStorage (%ld) /* Error: Ran out of types for this method. */;
+- (id)Size;
+- (void)buteValueLinear;
+- (void);
+- (id)Åº13´0qþ»13ûlþE»13¤ûlþ»13´ûlþ;
+- (double);
+- (void)8<»ÿëÜ Kb;
+- (void)öb;
+- (void)øäÿ¸;
+- (struct NSDirectionalEdgeInsets)ÜxÀÿd;
+- (void)Èÿ;
+- (double)Øèh;
+- (void)Ì;
+- (double)Ãÿ;
+- (id)ýh;
+- (id);
+- (void)²i;
+- (_Bool)i;
+- (void)j;
+- (id)èVj;
+- (void)Lzÿ;
+- (void)Ëø}k;
+- (void)k;
+- (id)k;
+- (id)è[;
+- (id)º;
+- (id)ß;
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool)0@ù
-× ;
-- (void)àAùQÂ1¢!0@ù
-× ;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (unsigned long long)!rÐ!DùqÅð1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)Ë1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (id)0@ù
-× ;
-- (_Bool)orcePresentationController>"16;
-- (void)24;
-- (void)se";
-- (id)itleControl;
-- (double)onStyle;
-- (void)d;
-- (double): /* Error: Ran out of types for this method. */;
-- (id)erType;
-- (void)x;
-- (_Bool)_updatePivotSection;
-- (double)rimaryRecipientIdentifiers;
-- (id)ty: /* Error: Ran out of types for this method. */;
-- (double)ems: /* Error: Ran out of types for this method. */;
-- (double)nstraint",R,N,V_actionSequenceViewWidthAnchoredToConstantConstraint;
-- (unsigned long long)lue: /* Error: Ran out of types for this method. */;
-- (id)utAttributes;
-- (void);
-- (id)eu of -viewForLastBaselineLayout. Please adopt the iOS 9 API.;
-- (id)D~þÿ;
-- (long long)&,VdimmingView;
-- (void).U;
-- (void)AÔO^;
-- (id)ÑL;
-- (double)öÉÂen;
-- (id)6¨ÐËãn;
-- (void)ÿ );
-- (id)Ó·o;
-- (void)qþ;
-- (void);
-- (struct NSDirectionalEdgeInsets),ÿ;
-- (void);
-- (long long)öo;
+- (id)ÿ;
+- (long long)lUsÿd;
+- (id);
+- (void)Ï®n;
 
 // Remaining properties
 @property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;

@@ -34,8 +34,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)sponding feature is never enabled\"") WaQ27806TVmKtAAAC3G5EA;
 
 // Remaining properties
 @property(retain, nonatomic) HFItemProvider *allowPhotosLibraryAccessItemProvider; // @synthesize allowPhotosLibraryAccessItemProvider=_allowPhotosLibraryAccessItemProvider;

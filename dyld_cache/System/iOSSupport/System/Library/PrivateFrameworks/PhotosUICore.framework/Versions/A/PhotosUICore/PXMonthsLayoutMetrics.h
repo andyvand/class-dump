@@ -30,15 +30,15 @@
 - (long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (void);
 - (id);
 - (unsigned long long);
+- (_Bool);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (void)¯ÿ;;
-- (struct UIEdgeInsets);
+- (id)"PXUIButtonConfiguration";
+- (void)?ÿÿ;
+- (struct UIEdgeInsets)¸áÿÈ/d4;
+- (void)\Ìèÿ;
 
 // Remaining properties
 @property(nonatomic) double chapterHeaderHeight; // @synthesize chapterHeaderHeight=_chapterHeaderHeight;

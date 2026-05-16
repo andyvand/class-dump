@@ -17,7 +17,6 @@
 - (void);
 - (void);
 - (void);
-- (void)_ց;
 - (void);
 - (void);
 - (void);
@@ -26,6 +25,7 @@
 - (id);
 - (void);
 - (void);
+- (void)operationQueue;
 
 @end
 

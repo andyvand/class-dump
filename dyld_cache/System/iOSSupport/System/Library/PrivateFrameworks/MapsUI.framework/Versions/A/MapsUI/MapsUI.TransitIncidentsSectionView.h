@@ -16,9 +16,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)thValidatedFormat:validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
 
 @end
 

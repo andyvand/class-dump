@@ -29,13 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)u
-;
 - (void);
 - (void);
 - (void);
-- (id)|;
+- (void);
+- (void);
+- (id);
 - (struct CGPath *);
 - (id);
 - (id);
@@ -44,13 +43,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)`;
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewControllerControlMessageDeputy_Connection
-- (void)UID:(id)arg1;
 @end
 

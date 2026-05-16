@@ -25,16 +25,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)state;
 
 // Remaining properties
 @property(nonatomic, readonly) id _creationDate;

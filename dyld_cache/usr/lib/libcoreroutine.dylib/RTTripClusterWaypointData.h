@@ -14,18 +14,19 @@
 
 + (id);
 + (id);
-+ (_Bool)fetching current location.;
++ (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id)ion-key-class-c;
 - (void);
 - (id);
-- (id)er:found %ld locations for tripSegment, which is fewer than the minimum requirement of %ld, deleting trip segment, %@. /* Error: Ran out of types for this method. */;
+- (id)1Â0@ù
+× ;
+- (void)@, predicted probability for %@, %@, probability threshold for %@, %@, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;

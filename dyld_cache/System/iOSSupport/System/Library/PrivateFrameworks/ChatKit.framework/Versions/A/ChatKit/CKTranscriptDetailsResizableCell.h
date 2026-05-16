@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ients;
-- (id);
++ (id)nRange: /* Error: Ran out of types for this method. */;
+- (id)nsionIconBadgePaddingAroundBalloon;
 
 @end
 

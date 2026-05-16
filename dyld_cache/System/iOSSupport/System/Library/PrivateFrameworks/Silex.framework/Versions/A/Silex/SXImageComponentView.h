@@ -23,11 +23,11 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (struct CGRect)!;
-- (id);
-- (void);
+- (struct CGRect);
 - (id);
-- (id);;
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -43,10 +43,10 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
-- (id);
 - (id);
-- (void)ew;
+- (id);
+- (void)TSDiOSCanvasViewController"16{CGPoint=dd}24;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SXAnimatedImageController *animatedImageController; // @synthesize animatedImageController=_animatedImageController;

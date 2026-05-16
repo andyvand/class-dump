@@ -54,9 +54,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)Îÿháö.ÿ;
+- (void)eDeclined;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *aClipIsRecordedItem; // @synthesize aClipIsRecordedItem=_aClipIsRecordedItem;

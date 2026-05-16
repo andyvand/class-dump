@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     double _smoothScrollTimeElapsed;
 }
 
-- (void);
+- (void)"132;
 
 @end
 

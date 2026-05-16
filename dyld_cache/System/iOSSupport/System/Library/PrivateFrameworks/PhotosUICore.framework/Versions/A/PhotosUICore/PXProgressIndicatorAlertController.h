@@ -30,14 +30,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (double);
-- (id);
 - (void);
-- (void)a;
+- (id)ÿVÆ>ÿ;
+- (void)onHeaderLayout _updateSprites];
+- (void);
+- (void)VTR6;
 
 // Remaining properties
 @property(nonatomic) double delay; // @synthesize delay=_delay;

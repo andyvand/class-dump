@@ -14,9 +14,9 @@
 + (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)TCoreModelColor"16;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;

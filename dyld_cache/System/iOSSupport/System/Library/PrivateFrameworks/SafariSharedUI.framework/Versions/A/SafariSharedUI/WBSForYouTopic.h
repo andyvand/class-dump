@@ -20,10 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (void)iginatingDeviceName;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *associatedTopics; // @synthesize associatedTopics=_associatedTopics;

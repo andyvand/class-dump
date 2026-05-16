@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id).apple.icloud.searchpartyuseragent.beaconmanager;
-- (id)e account. local account = %{public}@ | source account = %{public}@;
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)wPlayingInfoCenter:(CDUnknownBlockType)arg1 availableLanguageOptionsForContentItem:completion: /* Error: Ran out of types for this method. */;
+- (void)â %{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

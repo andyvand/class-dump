@@ -15,22 +15,22 @@
     unsigned long long _condition;
 }
 
-+ (_Bool)pe:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)àÍÙÿ;
-- (id)Metadata;
-- (id)MessagePartSyndicationTypeHidden;
 - (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;

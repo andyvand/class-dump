@@ -19,17 +19,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void)supportedOptions;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)r°!ìEùñÅÐ1¢!0@ù
-× ;
-- (id)deValid: /* Error: Ran out of types for this method. */;
-- (void)ùÿ+íÉú`;
+- (id);
+- (id)antsGrabber: /* Error: Ran out of types for this method. */;
+- (id)e;
+- (void)rn(void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType onTimer; // @synthesize onTimer=_onTimer;

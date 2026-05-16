@@ -27,14 +27,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)H;
-- (id);
+- (_Bool);
 - (void);
 - (_Bool);
+- (id);
 - (struct os_unfair_lock_s);
 - (void);
-- (void)View:(id)arg1;
-- (id)|o;
+- (id)",R,N,V_issueIdentifier;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *attachments; // @synthesize attachments=_attachments;

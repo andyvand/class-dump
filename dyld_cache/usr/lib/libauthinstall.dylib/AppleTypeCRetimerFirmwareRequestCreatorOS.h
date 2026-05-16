@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSDictionary *requestDictionary; // @synthesize requestDictionary=_requestDictionary;

@@ -14,28 +14,31 @@
     UIBarButtonItemAppearance *_prominentButtonAppearance;
 }
 
-+ (_Bool)Ì¯¨m;
-- (id);
++ (_Bool)extEffectsWindow_fromOrientation;
+- (id);
 - (void);
-- (void)pAnalytics:(id)arg1;
-- (id)not available;
-- (id)ersistentID;
 - (void);
-- (void)U0º;
-- (void)Ô ;
-- (void)6q24@?32;
-- (void)llEdgeTransitionDistance:(id)arg1;
-- (void)tentGuide;
-- (_Bool)__borrowedAssertion;
-- (void);
-- (id)ð;
-- (void)ÿÿ;
-- (id);
-- (id)A8BC2LLP;
-- (unsigned long long)format.;
-- (void)NSArray"8;
-- (id)tyle;
-- (void)Tªÿ\¿Î¨ìc;
+- (id);
+- (void);
+- (void)Ð!@Dùbð1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (void)!¸Fù1cÐ1Â0@ù
+× ;
+- (void)gItems:(id)arg1 withTargetPosition:previousIndexPaths:previousPosition: /* Error: Ran out of types for this method. */;
+- (void)ttributes;
+- (_Bool)stureRecognizer;
+- (unsigned long long)ableView;
+- (void)¼&;
+- (void)¶ÑîÿþÿºÑîÿ;
+- (id)ith %@;
+- (id)0Å;
+- (id)ÿ>ì;
+- (void);
+- (void)s;
+- (void)õþ~A;
+- (id)ÆÌÊg;
 
 // Remaining properties
 @property(copy, nonatomic) UIBarButtonItemAppearance *buttonAppearance; // @synthesize buttonAppearance=_buttonAppearance;

@@ -13,13 +13,13 @@
 
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (id);
-- (id)`öÕÿ<efB;
+- (id)25CTDataConnectionAgentDataC;
+- (void)ol}d;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

@@ -20,9 +20,9 @@
     MISSING_TYPE *resolveHandler;
 }
 
-+ (id)G;
-+ (id)tionContext;
-+ (id)êÿ;
++ (id)ýÿøMôÿ o;
++ (id)3yw1_pG;
++ (id)entify VC strategy;
 - (void);
 - (void);
 - (void);
@@ -38,11 +38,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool);
 - (void);
-- (void)ûÿ;
+- (_Bool);
+- (void)tionController: /* Error: Ran out of types for this method. */;
+- (void)©I¡l;
 
 // Remaining properties
 @property(nonatomic, readonly) id resultPromise; // @synthesize resultPromise;

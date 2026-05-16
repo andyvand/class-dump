@@ -17,23 +17,22 @@
     CDUnknownBlockType _handler;
 }
 
-+ (id);
-- (id)k;
++ (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)6i;
-- (void)>28;
+- (void);
+- (id);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
 - (_Bool);
-- (void)dedToken;
-- (id);
 - (void);
-- (void);
-- (CDUnknownBlockType)@ù
-× ;
-- (void);
-- (_Bool)ÿÿ;
+- (_Bool)DestinationAddress;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

@@ -14,10 +14,11 @@ __attribute__((visibility("hidden")))
     _UINavigationBarVisualProviderLegacyIOS *_visualProvider;
 }
 
-- (void)t: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)Â#ÿ:(id)arg1 |;
+- (void)°1Â0@ù
+× ;
+- (void)ø';
 
 // Remaining properties
 @property(nonatomic) _UINavigationBarVisualProviderLegacyIOS *visualProvider; // @synthesize visualProvider=_visualProvider;

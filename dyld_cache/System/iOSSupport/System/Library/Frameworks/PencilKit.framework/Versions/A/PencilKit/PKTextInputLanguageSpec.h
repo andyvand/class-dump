@@ -14,16 +14,16 @@
 }
 
 - (long long);
-- (double)k;
 - (double);
 - (double);
-- (id)",R,N,V_develURL;
-- (void)ckgroundSessions;
-- (id)2;
+- (double);
+- (id);
+- (void);
+- (id);
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)elegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _commitDelayBehavior; // @synthesize _commitDelayBehavior=__commitDelayBehavior;

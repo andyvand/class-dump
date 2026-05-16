@@ -14,7 +14,7 @@
     NSMutableDictionary *_stateDumpHandlersByName;
 }
 
-+ (id)$¯;
++ (id)urgeVideoFileCacheOnLoadKey;
 - (id);
 - (id);
 - (void);
@@ -25,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int logStateDumpNotifyToken; // @synthesize logStateDumpNotifyToken=_logStateDumpNotifyToken;

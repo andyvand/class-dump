@@ -33,9 +33,8 @@
 }
 
 + (_Bool);
-+ (void)0@ù
-× ;
-+ (_Bool)nteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
++ (void)osting;
++ (_Bool)text: /* Error: Ran out of types for this method. */;
 
 @end
 

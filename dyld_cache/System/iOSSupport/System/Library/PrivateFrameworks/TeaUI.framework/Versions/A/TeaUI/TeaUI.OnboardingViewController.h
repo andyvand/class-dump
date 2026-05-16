@@ -16,10 +16,10 @@
     MISSING_TYPE *currentIndex;
 }
 
-- (id)eedConfigResourceID;
-- (id)aidDescriptionStrings",R,N,V_publisherPaidDescriptionStrings;
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

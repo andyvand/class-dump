@@ -21,11 +21,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) LACUIPackagedViewStateAnimationOptions *animationOptions; // @synthesize animationOptions=_animationOptions;

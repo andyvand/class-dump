@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     _Bool _shouldWorkAround124981589;
 }
 
-+ (id)`úÿ'îp;
++ (id)currentLayoutStyle;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool addRemoveVideoLayer; // @synthesize addRemoveVideoLayer=_addRemoveVideoLayer;

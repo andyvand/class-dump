@@ -27,12 +27,12 @@
 - (id);
 - (long long);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)|fitness|activity;
-- (id). Leaving this empty will get items from Instapaper's Home folder. (WFInstapaperFolder);
+- (void)calendar.;
+- (id)$ÄTs;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

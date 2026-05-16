@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAction, UIMenuSystem;
+@class UIMenuSystem;
 
 @protocol UIMenuBuilder
-- (void)!;
-- (void);
-- (void)_;
-- (UIAction *)º;
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenuSystem *system;

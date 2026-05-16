@@ -22,10 +22,10 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (unsigned long long);
+- (void)n_Accessories_NoAccess_OutOfSchedule_Description;
+- (unsigned long long)ýÄh;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem<HFHomeKitItemProtocol> *baseItem; // @synthesize baseItem=_baseItem;

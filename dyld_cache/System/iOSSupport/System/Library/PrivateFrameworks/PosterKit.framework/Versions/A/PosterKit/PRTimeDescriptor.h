@@ -14,13 +14,13 @@
 
 + (_Bool);
 - (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -16,32 +16,32 @@ __attribute__((visibility("hidden")))
     NSError *_loadingError;
 }
 
-- (_Bool)selrefs;
+- (_Bool);
 - (id);
 - (void);
-- (void)libSystem.B.dylib;
-- (_Bool){ self:(id)arg1 %p };
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)NSUUID"16@?<v@?@"NSArray">24;
-- (id)yUsed;
 - (id);
-- (id);
-- (void);
-- (id)oppelgangerData;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
-- (id)MediaServicesResumingState;
+- (id);
+- (id)$;
+- (void)RestorationWithTargetContentItemID:completion:| restoration failed [adding playback context failed (autoplay SIL)] dataSourceState=%p sectionID=%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *basePath;

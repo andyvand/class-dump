@@ -33,11 +33,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id)ate;
+- (id)o convert from unsupported enum case, this should not happen. Falling back to Standard:%@ /* Error: Ran out of types for this method. */;
+- (void)YU;
 
 // Remaining properties
 @property(readonly, nonatomic) PXContentSyndicationPhotoKitAssetGroup *assetGroup; // @synthesize assetGroup=_assetGroup;

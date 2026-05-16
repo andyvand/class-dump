@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarLibraryItem
-- (void);
 @end
 

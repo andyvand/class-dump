@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)ForDisk:(const char *)arg1 error: /* Error: Ran out of types for this method. */;
++ (id);
 
 @end
 

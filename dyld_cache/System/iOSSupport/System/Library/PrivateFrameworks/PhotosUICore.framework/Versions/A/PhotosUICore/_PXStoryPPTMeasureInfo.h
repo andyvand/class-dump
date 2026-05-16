@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
+- (long long);
 - (id);
-- (id)L;
-- (long long)4;
+- (id);
+- (void)older.AX.Label.subalbums.;
 
 // Remaining properties
 @property(readonly, nonatomic) long long metric; // @synthesize metric=_metric;

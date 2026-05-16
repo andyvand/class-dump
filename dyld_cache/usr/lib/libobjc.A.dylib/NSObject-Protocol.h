@@ -7,12 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class) ;
-- (id);
-
-@optional
-- (NSString *)= %p <%s/function-variant-table#%u>
-;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

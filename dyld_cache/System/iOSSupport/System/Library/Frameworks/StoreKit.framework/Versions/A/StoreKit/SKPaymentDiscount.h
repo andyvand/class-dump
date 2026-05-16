@@ -11,12 +11,12 @@
     id _internal;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)X\yïÀ£_Lþÿ_pt_G;
 - (id);
 
 // Remaining properties

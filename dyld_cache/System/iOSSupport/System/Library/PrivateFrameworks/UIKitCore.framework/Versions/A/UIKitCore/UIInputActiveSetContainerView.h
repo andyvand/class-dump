@@ -11,10 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (_Bool)B;
-- (id)UITabDataProvider>"16@"UITabBarAppearance"24;
-- (int)nitWithView:previewInteraction: /* Error: Ran out of types for this method. */;
++ (_Bool)@ù
+× ;
++ (_Bool)"24;
+- (id)1Â0@ù
+× ;
+- (int)ngNavigationBarHiding;
 
 @end
 

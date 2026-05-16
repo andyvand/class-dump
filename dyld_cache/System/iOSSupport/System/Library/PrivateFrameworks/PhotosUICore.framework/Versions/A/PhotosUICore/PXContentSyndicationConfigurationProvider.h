@@ -64,11 +64,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)lightCurations.count == displayAssets.count;
+- (void)onHeaderTitle;
 - (void);
-- (id);
+- (id)eäÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool contentSyndicationIsAvailable; // @synthesize contentSyndicationIsAvailable=_contentSyndicationIsAvailable;

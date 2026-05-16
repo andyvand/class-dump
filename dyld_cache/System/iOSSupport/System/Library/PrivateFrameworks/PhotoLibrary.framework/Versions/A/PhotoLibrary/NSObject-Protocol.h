@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

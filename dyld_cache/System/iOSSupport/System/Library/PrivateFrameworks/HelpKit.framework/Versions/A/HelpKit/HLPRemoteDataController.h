@@ -25,13 +25,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

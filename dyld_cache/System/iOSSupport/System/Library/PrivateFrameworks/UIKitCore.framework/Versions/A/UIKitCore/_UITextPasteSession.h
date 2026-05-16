@@ -21,27 +21,29 @@ __attribute__((visibility("hidden")))
     UITextRange *_hiddenRange;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)D:(id)arg1 diskVolume:urgency:requestedSize: /* Error: Ran out of types for this method. */;
-- (void)refix:(id)arg1 availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)yDefaultOnce;
 - (void);
 - (void);
-- (void);
-- (void)K3º;
-- (id)ng;
-- (void)O®;
-- (id)NameLookup;
-- (_Bool);
-- (void);
-- (id)othness;
 - (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (void)!´Dùñað1Â0@ù
+× ;
+- (id);
+- (void)xible;
+- (id)IKeyboardScheduledTask",R,N,Vm_autoDeleteTask;
+- (_Bool)EventSessionTouchEventDetail;
+- (id)r;
+- (void)×;
+- (void)eenC;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;

@@ -10,20 +10,20 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (_Bool);
+- (id);
 - (struct CGRect);
+- (void);
 - (id);
 
 @end

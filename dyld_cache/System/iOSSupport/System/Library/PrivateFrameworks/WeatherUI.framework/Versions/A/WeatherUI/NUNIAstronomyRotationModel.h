@@ -37,9 +37,9 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)¡gÂ?a;
 
 // Remaining properties
 @property(readonly, nonatomic) const struct NUNIAstronomyInteractionSettings *interactionSettings; // @synthesize interactionSettings=_interactionSettings;

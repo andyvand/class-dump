@@ -26,10 +26,10 @@
 - (id);
 - (id);
 - (void);
-- (id)_settingsURLHostString:scheme:UUID:forHome: /* Error: Ran out of types for this method. */;
-- (void)ValidCharacters;
-- (id)ItemCharacteristicOptions"8;
-- (void)DoublePaneEnabled;
+- (id);
+- (id);
+- (void);
+- (void)aPlaybackEngine.m;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItems; // @synthesize allItems=_allItems;

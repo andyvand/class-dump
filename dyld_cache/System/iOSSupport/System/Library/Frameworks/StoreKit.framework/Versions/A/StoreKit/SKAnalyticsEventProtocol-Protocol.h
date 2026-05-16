@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SKAnalyticsEventProtocol
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canCreatePayload;

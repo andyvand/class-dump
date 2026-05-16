@@ -14,15 +14,15 @@
     LPLinkMetadata *_metadata;
 }
 
-- (_Bool);
-- (void)ƍSgGG;
-- (void)d;
-- (void)viewImages objectForKey:(_Bool)arg1 appearanceInfo] == ((void*)0);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)nedEffectVisible;
+- (void)nslatorDelegate>",N,W,Vdelegate;
+- (void)coderUserInfo;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;

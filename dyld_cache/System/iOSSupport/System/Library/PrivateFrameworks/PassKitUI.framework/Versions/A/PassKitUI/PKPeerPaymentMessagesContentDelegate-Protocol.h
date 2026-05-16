@@ -7,7 +7,6 @@
 @class MSConversation;
 
 @protocol PKPeerPaymentMessagesContentDelegate
-- (unsigned long long)xpanded:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MSConversation *activeConversation;

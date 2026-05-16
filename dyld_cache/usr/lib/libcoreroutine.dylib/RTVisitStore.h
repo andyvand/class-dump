@@ -13,12 +13,12 @@
 }
 
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)tions:(id)arg1 handler:(CDUnknownBlockType)arg2;
-- (void),V_tripClusterManager;
+- (void);
+- (void)enceLength:(id)arg1;
+- (id)and now have %lu locations;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,7 +15,7 @@
 }
 
 + (void);
-+ (id)ªÁ;
++ (id)fips mode;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)fullName;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *OAuthConsumerKey; // @synthesize OAuthConsumerKey=_OAuthConsumerKey;

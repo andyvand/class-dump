@@ -17,17 +17,17 @@
 
 - (_Bool);
 - (id);
-- (void)raph"16^B24;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)ask;
-- (id);
-- (void)«yÓ<Sg_ACtGSg;
+- (void);
+- (void)ýûkþ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setPluginItems:) NSMutableArray *_pluginItems; // @synthesize _pluginItems=__pluginItems;

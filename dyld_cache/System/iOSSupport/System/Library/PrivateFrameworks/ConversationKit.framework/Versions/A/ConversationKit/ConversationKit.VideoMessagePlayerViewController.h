@@ -15,13 +15,13 @@
     MISSING_TYPE *$__lazy_storage_$_playerStateManager;
 }
 
-- (void);
-- (id);
+- (id)¬ÖÐK;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)¤g	;
+- (void);
+- (void)_>;
 - (void);
 
 @end

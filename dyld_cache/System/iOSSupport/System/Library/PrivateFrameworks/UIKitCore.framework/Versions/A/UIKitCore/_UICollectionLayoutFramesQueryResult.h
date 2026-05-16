@@ -24,40 +24,40 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (long long);
-- (_Bool);
-- (id)com.apple.configuration.account.webclip;
-- (long long);
-- (_Bool);
-- (_Bool)s;
-- (struct CGRect)onary;
-- (id)laying;
-- (id)de;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
-- (id)e3ç;
-- (void);
-- (id)º;
 - (id);
-- (long long)qÅ°1¢!0@ù
+- (long long);
+- (_Bool)
 × ;
-- (long long)!0@ù
+- (id)\°1Â0@ù
 × ;
-- (long long);
-- (id)DefaultModeSize:(struct CGRect)arg1;
-- (_Bool)uch;
-- (id)wScrollPocketElements: /* Error: Ran out of types for this method. */;
-- (id):forProofreadingSuggestionID:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)eIndex;
-- (id)ntrinsicSize;
-- (id)edicate;
-- (void)ne;
-- (double);
-- (_Bool)ÀM\Â;
+- (_Bool)ide"b1"touchDragged"b1"deliveredCancel"b1};
+- (id)iewControllerForInputDelegate: /* Error: Ran out of types for this method. */;
+- (_Bool)URL: /* Error: Ran out of types for this method. */;
+- (double)torVC: /* Error: Ran out of types for this method. */;
+- (struct CGRect)etDecorationViewSymbolConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)ountDownDuration: /* Error: Ran out of types for this method. */;
+- (long long)vedForObservingAnimatorWithId: /* Error: Ran out of types for this method. */;
+- (id):(struct CGRect)arg1 forDate:(long long)arg2;
+- (id)ingEnabled;
+- (id)setsNeedsUpdate;
+- (_Bool)oupName;
+- (long long)ion;
+- (long long)CustomPresentation:,VoverrideUseCustomPresentation /* Error: Ran out of types for this method. */;
+- (id)electionWidgetAnimating>",R,N;
+- (_Bool)id view for view type cell:%@ /* Error: Ran out of types for this method. */;
+- (long long)Info/stateRestorationActivity;
 - (_Bool);
-- (id)ãþ;
+- (void)²ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UICollectionLayoutAuxillaryItem> auxillaryItem;

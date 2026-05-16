@@ -15,31 +15,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)mActivePairedDeviceForService: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (void);
-- (id)veMaxItems;
-- (id)llowsUserInteractionInExpandedPreview;
-- (void)@;
-- (void);
-- (void)p;
-- (_Bool)abelTightBoundingBoxLayoutGuide;
-- (void)for style %ld but font size was not determined;
-- (id);
-- (void)his item and ensure that it does not result in an infinite or null frame, or a frame with members that aren't finite (inf/NaN).;
-- (void)redHeight=%f;
-- (void)ackingEMAWeight;
-- (id)7@ìS{Ç$@;
-- (long long)Ù¦þdÿ3ìÑ±þ;
 - (void);
-- (id)j@§;
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (id)°!DAùd°1Â0@ù
+× ;
+- (_Bool)@48;
+- (void)agController:(id)arg1 pendingDropTabDidChange: /* Error: Ran out of types for this method. */;
+- (void)Indexes;
+- (void)cMessageP;
+- (void)«ªªªªª'@«ªªªªª(@;
+- (void);
+- (void);
+- (_Bool);
+- (long long)Ù;
+- (id)i\;
+- (void)Ì{;
+- (void);
+- (void)ý\;
+- (void)ÊÐV];
+- (void)C<V;
 
 // Remaining properties
 @property(readonly, nonatomic) long long associatedBorderStyle;

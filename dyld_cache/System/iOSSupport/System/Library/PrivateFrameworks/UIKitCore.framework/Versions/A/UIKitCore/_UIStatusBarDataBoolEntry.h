@@ -11,18 +11,18 @@
     _Bool _boolValue;
 }
 
-+ (id)for:(_Bool)arg1 %@;
-+ (_Bool)â©;
-- (void);
-- (unsigned long long);
-- (_Bool);
++ (id);
++ (_Bool)ew;
 - (id);
-- (id);
 - (id);
-- (id)1Ä1¢!0@ù
+- (unsigned long long);
+- (_Bool)
 × ;
-- (_Bool)llTestExpectedResult"24;
-- (void)yNí3yABy=²í3àí3G²í3y¤zí3yfjj8GGGAByAByACvzí3GAJGGAByABy.í;
+- (_Bool)16@24;
+- (void)ForFullScreenSceneWithSceneIdentifier:(id)arg1;
+- (id)ct:withStyle:pressed: /* Error: Ran out of types for this method. */;
+- (id)nces;
+- (void)tyPropagationView.m;
 
 // Remaining properties
 @property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;

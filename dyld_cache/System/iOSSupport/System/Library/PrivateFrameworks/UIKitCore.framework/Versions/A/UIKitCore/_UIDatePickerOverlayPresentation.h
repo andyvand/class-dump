@@ -33,55 +33,54 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (struct CGRect);
-- (void)	
-
-
-;
-- (long long)videAudioOnDeviceUID:channels: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)age:(CDUnknownBlockType)arg1 didReplaceBlock:(CDUnknownBlockType)arg2;
-- (void)lace:(CDUnknownBlockType)arg1;
-- (void)edPartIndexes:(CDUnknownBlockType)arg1 editType:(CDUnknownBlockType)arg2 previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
-- (void)orageTimer;
-- (long long): /* Error: Ran out of types for this method. */;
-- (id)uringStorageNoQOI: /* Error: Ran out of types for this method. */;
-- (void)ockRecord:(long long)arg1;
-- (_Bool)s: /* Error: Ran out of types for this method. */;
-- (void)sportLogNeedsSync;
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (long long);
-- (struct CGPoint);
+- (struct CGPoint);
 - (double);
 - (struct _UIDatePickerOverlayPlatterLayout);
-- (struct CGRect)ating reindex!;
-- (struct CGPoint)created. This could fork the chat. New GroupID:(struct CGRect)arg1 %@;
-- (void);
-- (id);
 - (struct CGRect);
+- (struct CGPoint);
+- (void);
+- (id);
 - (id);
 - (void);
-- (CDUnknownBlockType)izationPropertiesForModelClass:requestedProperties: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void)troller;
-- (id)_performApplyWithoutRebasingSectionSnapshots:(id)arg1;
-- (id)den;
-- (void)0þ;
-- (long long)Date;
-- (id)tNotification;
-- (void)andidates;
+- (CDUnknownBlockType);
 - (id);
+- (long long)0@ù
+× ;
+- (void)!èAù1e1Â0@ù
+× ;
+- (void)fersSingleCharacter;
+- (struct CGRect)Collection: /* Error: Ran out of types for this method. */;
+- (id)´åæXæ@çpèlé´édë°ë	$ìì;
+- (void)éÿAéÿ(AéÿxAéÿ´Aéÿ¤Béÿ CéÿÔCéÿDéÿ¨EéÿhFéÿ|Féÿ FéÿhHéÿtHéÿHéÿPIéÿIéÿÐIéÿÄOéÿèOéÿôOéÿPéÿTPéÿxPéÿPéÿÀPéÿTRéÿRéÿ¤RéÿØRéÿSéÿÐSéÿôSéÿØTéÿüTéÿ UéÿDUéÿHVéÿ¤VéÿðVéÿüVéÿ¤Wéÿ°Wéÿ¼WéÿÈWéÿÔWéÿàWéÿXéÿYéÿ¸YéÿèYéÿ Zéÿ8ZéÿtZéÿZéÿÄZéÿL[éÿ`[éÿl]éÿx]éÿ]éÿ$aéÿ`aéÿaéÿaéÿaéÿ¨aéÿ´aéÿÀaéÿÌaéÿØaéÿäaéÿðaéÿüaéÿbéÿ béÿ8béÿtbéÿbéÿÈbéÿ\céÿhcéÿÄdéÿèdéÿ;
+- (void)Y;
+- (id);
+- (void);
+- (id)ä;
+- (void)Poc;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;

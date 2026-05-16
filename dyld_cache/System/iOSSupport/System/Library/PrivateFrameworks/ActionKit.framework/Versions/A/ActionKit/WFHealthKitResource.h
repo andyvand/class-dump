@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool)un length compression;
++ (_Bool);
 - (void);
 
 @end

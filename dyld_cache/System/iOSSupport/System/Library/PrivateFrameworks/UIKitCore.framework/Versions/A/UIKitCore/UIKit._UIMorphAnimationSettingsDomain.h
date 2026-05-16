@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)hitelistItem;
-+ (id)houldBadgeSubtitle;
-+ (Class)yytmytmG;
 + (id);
++ (id)kgroundImageView;
++ (id)figuration: /* Error: Ran out of types for this method. */;
++ (Class);
 
 @end
 

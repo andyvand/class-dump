@@ -18,20 +18,20 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _replacementCompletionBlock;
 }
 
-+ (id)GUID=%@:(id)arg1 message not found;
-+ (id)notified recipient;
++ (id);
++ (id);
 - (void);
 - (void);
-- (CDUnknownBlockType)8@16@24@32B40@44q52q60q68B76@80@?88;
-- (_Bool)WithProtobufFields:withProtobufDataP3: /* Error: Ran out of types for this method. */;
-- (void)InvalidUseOfGroupIDOnService:(id)arg1;
-- (_Bool):%@ ************* /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (_Bool);
+- (void);
+- (_Bool);
 - (unsigned int);
 - (id);
-- (id)ta.length. %p dataTask=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld accumulatedData.length=%lu;
-- (void)¯ò;
-- (id)º;
-- (id)`;
+- (id);
+- (id)Draw"b1};
+- (id)at least 0.0, or UITableViewAutomaticDimension.;
+- (void)ÿaì;
 
 // Remaining properties
 @property(readonly) _Bool isDictationCommandReplacement; // @synthesize isDictationCommandReplacement=_isDictationCommandReplacement;

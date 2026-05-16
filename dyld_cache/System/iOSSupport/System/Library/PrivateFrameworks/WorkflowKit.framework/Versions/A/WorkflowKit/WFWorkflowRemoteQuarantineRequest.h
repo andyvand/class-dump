@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)utPeaceMigrator migrateWithError:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *workflowJavaScriptCoreRepresentation; // @synthesize workflowJavaScriptCoreRepresentation=_workflowJavaScriptCoreRepresentation;

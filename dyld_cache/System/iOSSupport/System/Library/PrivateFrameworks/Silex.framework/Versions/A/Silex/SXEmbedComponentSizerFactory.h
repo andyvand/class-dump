@@ -13,13 +13,13 @@
     id <SXEmbedDataProvider> _embedDataProvider;
 }
 
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (int)ntClassification;
+- (id);
+- (id);
+- (int);
+- (void)ror">16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

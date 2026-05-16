@@ -13,12 +13,12 @@
     ACAccount *_cachedPrimaryAppleAccount;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool)È?õÿ;
+- (void)¸;
+- (_Bool)ÿh}àí;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSignedIntoiCloud;

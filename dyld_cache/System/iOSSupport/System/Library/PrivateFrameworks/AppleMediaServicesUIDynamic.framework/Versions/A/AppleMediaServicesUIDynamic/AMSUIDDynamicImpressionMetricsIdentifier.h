@@ -14,14 +14,14 @@
 }
 
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void)rl:(id)arg1;
+- (void);
+- (void)B16@0:(long long)arg1 8;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *element;

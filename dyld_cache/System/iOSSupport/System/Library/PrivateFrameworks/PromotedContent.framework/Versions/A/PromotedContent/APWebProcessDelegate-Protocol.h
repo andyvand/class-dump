@@ -5,13 +5,5 @@
 //
 
 @protocol APWebProcessDelegate
-
-@optional
-- (void)P;
-- (void);
-- (void)B;
-- (void)Animation(TSDCAAnimationAdditions) TSD_animationPercentByApplyingTimingFunctionForKeyPath:(float)arg1 atTime:(float)arg2 ];
-- (void);
-- (void)subscribeNewsletter;
 @end
 

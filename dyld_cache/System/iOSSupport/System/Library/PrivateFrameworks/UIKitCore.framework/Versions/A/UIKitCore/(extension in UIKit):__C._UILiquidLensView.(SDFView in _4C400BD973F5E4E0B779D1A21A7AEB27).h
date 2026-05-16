@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class)g;
++ (Class);
 - (id);
-- (id), propertyList:(struct CGRect)arg1;
+- (id)ShowSegueTemplate;
 
 @end
 

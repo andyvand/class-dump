@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (float);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);

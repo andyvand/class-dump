@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -40,10 +40,10 @@
 - (double);
 - (double);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (_Bool);
-- (id);
 - (void);
 - (double);
 - (id);
@@ -100,8 +100,8 @@
 - (void);
 - (id);
 - (long long);
-- (void);
 - (struct CGRect);
+- (void);
 - (void);
 - (struct CGRect);
 

@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (_Bool)ay"24@"NSString"32@"NSString"40;
-- (void)ontentAttachmentType:(unsigned long long)arg1 useBlastDoor:withChatID:completionHandler: /* Error: Ran out of types for this method. */;
-- (unsigned long long *)to enroll a device into SMS Relay from:%@ to:%@, micIsOn:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (unsigned long long)Q;
 - (_Bool);
 - (void);
-- (unsigned long long)equiredSceneUpdateForKeyWindowCandidateOfSceneDelegate:] /* Error: Ran out of types for this method. */;
-- (void)th the collection view requiring a reload. Collection view:(_Bool)arg1 %@;
+- (unsigned long long *);
+- (id);
+- (unsigned long long)Ô ;
+- (unsigned long long)pl _presentationControllerWillBeginDismissalTransition:] /* Error: Ran out of types for this method. */;
+- (void)Xë\;
+- (void)a;
+- (_Bool)#;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;

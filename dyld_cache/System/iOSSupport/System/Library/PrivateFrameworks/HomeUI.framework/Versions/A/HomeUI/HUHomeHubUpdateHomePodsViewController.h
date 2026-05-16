@@ -54,15 +54,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)ithSender: /* Error: Ran out of types for this method. */;
-- (void)omSection:(id)arg1;
-- (id)ÅáÿÅø;
-- (void)];
-- (void)ðÞÿÕw¨3;
+- (void);
+- (void);
+- (void);
+- (void)ectedCircleGradientLayer:(_Bool)arg1;
+- (id)iewController;
+- (void)dMessage;
+- (id)ÿÿÈC;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;

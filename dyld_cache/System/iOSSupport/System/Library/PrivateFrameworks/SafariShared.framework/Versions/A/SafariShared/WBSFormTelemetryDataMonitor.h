@@ -9,6 +9,8 @@
 @interface WBSFormTelemetryDataMonitor
 {
     NSMutableDictionary *_formIDToFormData;
+    unsigned long long typesOfAutoFillOffered;
+    unsigned long long typesOfAutoFillUsed;
     NSString *_webpageLocale;
 }
 
@@ -17,18 +19,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)9;
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void)ä;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *webpageLocale; // @synthesize webpageLocale=_webpageLocale;

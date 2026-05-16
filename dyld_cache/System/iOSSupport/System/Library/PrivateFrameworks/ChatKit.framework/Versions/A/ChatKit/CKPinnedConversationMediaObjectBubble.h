@@ -18,20 +18,20 @@
     NSLayoutConstraint *_imageViewHeightConstraint;
 }
 
-- (_Bool)ntView;
-- (_Bool)sMentions;
-- (void)PreviewGeneratorOperationQueue;
-- (void)X;
-- (id)g;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (double)rage_$_applicationDidBecomeActivePublisher;
-- (long long)_managedObjectContextDidSavePublisher;
+- (double);
+- (long long);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
@@ -42,9 +42,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id)!;
-- (void)ameForType:(id)arg1 forItemProvider:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)¡û°!,Gùñ1Â0@ù
+× ;
+- (void)yle:(id)arg1;
+- (void)Ô;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

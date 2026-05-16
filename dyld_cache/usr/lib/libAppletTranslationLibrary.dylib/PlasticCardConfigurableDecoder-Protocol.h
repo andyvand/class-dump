@@ -5,6 +5,5 @@
 //
 
 @protocol PlasticCardConfigurableDecoder
-- (_Bool);
 @end
 

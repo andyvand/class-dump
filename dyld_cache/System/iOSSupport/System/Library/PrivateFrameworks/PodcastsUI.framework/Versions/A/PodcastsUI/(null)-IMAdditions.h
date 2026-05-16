@@ -11,7 +11,6 @@
 + (void);
 + (id);
 + (void);
-- (void);
 - (double);
 - (void);
 - (void);
@@ -19,34 +18,27 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (id)?;
-- (id);
-- (_Bool)!;
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (long long);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id)H;
-- (long long)transaction;
+- (id)isThinClient;
+- (id)able;
+- (void)@;
+- (long long)T
+¸îÿuT
+¸îÿUT
+¸îÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

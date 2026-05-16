@@ -12,18 +12,18 @@
 {
 }
 
-+ (Class);
-- (id)have this device in our allowed list ;
-- (id)UIFocusItem>"24;
-- (id)actions:(long long)arg1;
++ (Class);
+- (id);
+- (void)ïîÿ;
+- (void)tionViewLayoutAttributes *__strong, UIView *__strong);
 - (void);
-- (void)àa;
-- (id)"ÿ¡ùÍ¹Sb;
-- (void);
-- (void)Ì»{ÿ;Ö+c;
-- (void)ÿTkW5c;
-- (id)´ÿ²ÖÍj;
-- (void);
+- (void)ontCSg;
+- (void);
+- (id)Ø^;
+- (id)(wÿUÄ;
+- (id)q;
+- (id)|d;
+- (void)ø;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_buttonConfiguration) _UIButtonFeedbackGeneratorConfiguration *buttonConfiguration;

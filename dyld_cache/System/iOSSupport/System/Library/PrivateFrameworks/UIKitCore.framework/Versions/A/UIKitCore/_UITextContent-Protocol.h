@@ -8,8 +8,9 @@
 @protocol _UITextLayoutController;
 
 @protocol _UITextContent
-- (NSTextStorage *)MonochromaticTreatment;
-- (_UITextLayoutControllerBase<_UITextLayoutController> *);
+- (NSTextContainer *)ransition:sourceSymbolImage:targetSymbolImage:options:completion: /* Error: Ran out of types for this method. */;
+- (NSTextStorage *)ÕÒx×$ÒØ8ÒàÙXÒ°ÜÒDßÈÒ`àÜÒ8ã<ÒøähÒæÒç¤ÒlèÀÒ°LÒ`lÒð Òd(Ò .´Òx/ÄÒØÒ@ Ò;
+- (_UITextLayoutControllerBase<_UITextLayoutController> *)þ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSTextContainer *textContainer;

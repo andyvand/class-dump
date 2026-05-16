@@ -14,8 +14,8 @@
     struct CGVector _gravity;
 }
 
-+ (_Bool)¤;
-+ (id)x;
++ (_Bool);
++ (id);
 - (MISSING_TYPE *);
 - (_Bool);
 - (_Bool);
@@ -37,12 +37,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (struct CGVector);
-- (id);
-- (id);
 - (double);
+- (struct CGVector);
 - (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) id <SKPhysicsContactDelegate> contactDelegate; // @synthesize contactDelegate=_contactDelegate;

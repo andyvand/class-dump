@@ -29,29 +29,30 @@
     struct CGSize _fakeEmojiKeySize;
 }
 
-+ (id)oving along;
-+ (id)pty iMessage accounts, created one:%@ /* Error: Ran out of types for this method. */;
-- (double)xpirationDate;
-- (double)ceiptProcessingParameter;
++ (id);
++ (id);
+- (double);
+- (double);
 - (long long);
 - (double);
-- (double)d;
+- (double);
 - (id);
 - (struct CGSize);
 - (double);
-- (double)er:%s, participantId:%s /* Error: Ran out of types for this method. */;
-- (double).;
-- (double)hat %s. Not repairing participant.;
-- (double)does not match chat identifier on chat %s. Not repairing participant.;
-- (double)ier;
-- (double)ceivedRelayEnrollRequest;
 - (double);
 - (double);
 - (double);
 - (double);
-- (double)ngWithTitle: /* Error: Ran out of types for this method. */;
-- (double)ldSuppressAssistantBar: /* Error: Ran out of types for this method. */;
-- (double)the Inbox copy %@:%@ /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double)0@ù
+× ;
+- (double)tor to layout in this callback.;
+- (double)ourceCount=%li destinationCount=%li suffixCount=%li innerSourceCount=%li innerDestinationCount=%li;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double alertTextWidth; // @synthesize alertTextWidth=_alertTextWidth;

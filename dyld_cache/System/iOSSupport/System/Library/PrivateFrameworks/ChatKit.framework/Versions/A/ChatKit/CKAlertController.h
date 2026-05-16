@@ -18,17 +18,17 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (void)n;
 - (void);
 - (void);
-- (_Bool)globalZoomFactorIndex];
-- (void)oller updateButton:(id)arg1 ];
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void)@;
-- (void)ÜÊ;
+- (void);
+- (void)Öc4H1;
+- (void)x¨iÿA:(_Bool)arg1 8Î3;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @dynamic actions;

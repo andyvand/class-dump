@@ -5,9 +5,8 @@
 //
 
 @protocol FCAppActivityReceiver
-- (void)s18PodcastsFoundation32AssetBackgroundSessionDescriptorP;
-- (void)(=;
-- (void)A;
+- (void)ÿÿÿÿÿÈ;
+- (void)DØ¥þ;
 - (void);
 @end
 

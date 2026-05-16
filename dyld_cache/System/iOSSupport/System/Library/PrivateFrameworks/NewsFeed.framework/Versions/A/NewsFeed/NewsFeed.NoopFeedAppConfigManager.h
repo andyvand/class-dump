@@ -11,7 +11,8 @@
     MISSING_TYPE *segmentSetIds;
     MISSING_TYPE *timesOfDayConfiguration;
     MISSING_TYPE *formatFeedConfig;
-    MISSING_TYPE *puzzleRanksByPuzzleTypeID;
+    MISSING_TYPE *puzzleRanksByPuzzleTypeId;
+    MISSING_TYPE *countryFlagIconEnabledTagIds;
 }
 
 @end

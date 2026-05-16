@@ -14,12 +14,12 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)no endpoints and no devices for provided UIDs.;
+- (void);
+- (void)body;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;

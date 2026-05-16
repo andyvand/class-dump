@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@:(_Bool)arg1 %lu;
 
 // Remaining properties
 @property __weak DDAction *target; // @synthesize target=_target;

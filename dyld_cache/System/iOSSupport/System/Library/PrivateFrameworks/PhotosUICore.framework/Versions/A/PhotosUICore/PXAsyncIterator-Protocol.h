@@ -5,8 +5,9 @@
 //
 
 @protocol PXAsyncIterator
-- (void)datePlaybackEndDarkening;
+- (unsigned long long)dð;
 - (unsigned long long)itle;
+- (void)zeClass;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

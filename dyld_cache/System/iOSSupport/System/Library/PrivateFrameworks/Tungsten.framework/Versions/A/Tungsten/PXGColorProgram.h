@@ -36,14 +36,14 @@
 - (id);
 - (struct CGColorSpace *);
 - (id);
-- (unsigned short);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (unsigned short);
 - (unsigned long long);
-- (id);
-- (id);
 - (unsigned short);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLTexture> TRCLUTs; // @synthesize TRCLUTs=_TRCLUTs;

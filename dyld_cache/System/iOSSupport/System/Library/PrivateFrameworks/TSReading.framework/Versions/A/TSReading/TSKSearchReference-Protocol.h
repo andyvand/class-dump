@@ -5,12 +5,10 @@
 //
 
 @class NSArray, TSKSelection;
-@protocol TSKAnnotation, TSKModel;
+@protocol TSKAnnotation;
 
 @protocol TSKSearchReference
-- (id <TSKModel>);
-- (void)4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/kit/TSKTreeNode.mm;
-- (TSKSelection *);
+- (TSKSelection *)Internal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/persistence/src/TSPDocumentResourceCacheEntry.m;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSKAnnotation> annotation;

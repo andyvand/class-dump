@@ -32,14 +32,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id);
 - (void);
 
 // Remaining properties

@@ -11,8 +11,8 @@
     MISSING_TYPE *wantsMaterialBackground;
 }
 
-- (void);
 - (id);
+- (void);
 - (id);
 
 @end

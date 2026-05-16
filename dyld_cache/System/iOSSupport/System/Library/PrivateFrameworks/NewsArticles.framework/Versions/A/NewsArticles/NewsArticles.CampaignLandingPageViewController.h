@@ -16,12 +16,12 @@
     MISSING_TYPE *urlHandler;
 }
 
-- (void);
-- (void);
-- (id)?;
+- (id);
 - (id);
 - (void);
-- (void)setQueryItems: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)eFrom;
+- (void);
 
 @end
 

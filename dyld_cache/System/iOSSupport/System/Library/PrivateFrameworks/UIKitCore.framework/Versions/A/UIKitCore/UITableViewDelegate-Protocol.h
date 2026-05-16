@@ -4,42 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, UIContextMenuConfiguration, UISwipeActionsConfiguration, UITableView;
-
 @protocol UITableViewDelegate
-
-@optional
-- (void);
-- (void);
-- (_Bool)\](^;
-- (_Bool);
-- (void).framework/ZhuGeSupport;
-- (UISwipeActionsConfiguration *)ailed%s
-;
-- (long long)ueDict contains NULL value;
-- (double)NULL;
-- (double)e is NULL;
-- (double)L;
-- (double)eDict is NULL;
-- (long long)number of payload values;
-- (NSArray *)onfig sequence:(UITableView *)arg1 %d;
-- (void)is NULL;
-- (void)%ld;
-- (void)type at #%ld:(UITableView *)arg1 %lu;
-- (void)Items for payload is NULL;
-- (void)class;
-- (void)is NULL;
-- (void)adata key #%u is NULL;
-- (void)led to decode sysconfig data:(UITableView *)arg1 0x%llx;
-- (UIContextMenuConfiguration *)FDRDataMemoryRevert is not implemented;
-- (_Bool)dateMetadataWithOptions is not implemented;
-- (_Bool)MetadataWithOptions;
-- (long long)taMemoryPatch is not implemented;
-- (void)ultiCopyManifest is not implemented;
-- (NSIndexPath *);
-- (void)ediaLibraryDataProvider;
-- (NSIndexPath *)0@ù
-× ;
-- (void)× ;
 @end
 

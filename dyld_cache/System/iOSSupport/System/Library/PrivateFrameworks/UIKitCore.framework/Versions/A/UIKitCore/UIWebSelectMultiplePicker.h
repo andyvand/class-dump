@@ -24,21 +24,21 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
-- (id)erty:(id)arg1 ofPerson:(id)arg2 account:(id)arg3;
-- (void)tchCurrentUserForNicknameContainer: /* Error: Ran out of types for this method. */;
-- (void)GUID:reply: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (int);
-- (id)Spam Filtering;
-- (long long)nitor:(id)arg1 %@;
+- (id);
+- (long long);
 - (void);
+- (id);
 - (void);
-- (id)UITab",R,N,V_tabForSelection;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_cachedItems; // @synthesize _cachedItems;

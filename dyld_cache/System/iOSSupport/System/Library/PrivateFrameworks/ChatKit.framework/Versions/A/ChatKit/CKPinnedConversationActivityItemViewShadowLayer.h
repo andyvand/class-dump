@@ -12,13 +12,13 @@
 
 - (id);
 - (void);
-- (long long);
-- (double)I;
+- (long long);
+- (double);
 - (double);
 - (struct CGSize);
 - (long long);
+- (void);
 - (long long);
-- (void)¬ySiSgGGA5_y¯%¬SgGGA5_y÷«GGã¬ye*¬GGAOGAUGAKG}¬Gg¬GADyA19_A23_GtGG;
 
 // Remaining properties
 @property(readonly, nonatomic) long long shadowType; // @synthesize shadowType=_shadowType;

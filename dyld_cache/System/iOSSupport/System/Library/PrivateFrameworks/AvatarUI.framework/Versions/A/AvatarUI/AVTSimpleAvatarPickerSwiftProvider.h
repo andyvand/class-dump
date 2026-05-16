@@ -40,24 +40,24 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (void)a;
-- (id)unload payload:%@ /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
 - (void);
-- (id)3=;
-- (id)MMessageSnippetHintZoneEmailAddresses;
+- (id);
+- (id);
 - (void);
+- (id)Ô;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTSimpleAvatarPicker *avatarPicker; // @synthesize avatarPicker=_avatarPicker;

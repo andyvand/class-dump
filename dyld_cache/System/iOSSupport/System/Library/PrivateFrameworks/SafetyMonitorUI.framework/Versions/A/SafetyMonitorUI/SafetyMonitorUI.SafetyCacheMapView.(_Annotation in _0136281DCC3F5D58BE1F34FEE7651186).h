@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (struct CLLocationCoordinate2D);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate;

@@ -32,11 +32,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (id)3ùÏY	;
+- (void)didSelectRemoveMarkedLocation;
+- (id)teractionTappedTransitDeparture;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

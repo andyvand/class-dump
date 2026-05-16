@@ -15,8 +15,8 @@
 + (long long);
 + (id);
 + (void);
-+ (id);
-+ (id);
++ (id);
++ (id)d¸;
 - (unsigned long long);
 - (void);
 - (void);
@@ -30,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)kIMAccountStatusChangedNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak NSDictionary *currentAVChatInfo;

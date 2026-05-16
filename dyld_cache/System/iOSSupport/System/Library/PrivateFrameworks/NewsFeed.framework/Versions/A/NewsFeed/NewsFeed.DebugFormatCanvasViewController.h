@@ -19,12 +19,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)MUw4/Library/Caches/com.apple.xbs/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsUI/NUArticleTextActivityItemSource.m;
-- (void)!Vüÿ;
+- (void);
+- (void)M%:À·ôþM%:¸ôþM%:ØwþM%:¤½$ÿ /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

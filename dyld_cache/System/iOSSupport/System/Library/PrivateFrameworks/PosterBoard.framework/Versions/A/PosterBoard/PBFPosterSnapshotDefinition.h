@@ -22,11 +22,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
++ (id)PosterRoleProcessor"16@"<PBFPosterRoleProcessorTransaction>"24;
+- (id);
+- (id);
 - (double);
-- (id);
-- (id);
+- (void)¿°!èFù	1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) double persistenceScale; // @synthesize persistenceScale=_persistenceScale;

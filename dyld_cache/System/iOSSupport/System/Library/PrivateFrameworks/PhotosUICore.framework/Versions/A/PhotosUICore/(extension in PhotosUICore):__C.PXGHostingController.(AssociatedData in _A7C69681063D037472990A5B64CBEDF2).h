@@ -11,8 +11,8 @@
     MISSING_TYPE *nextFrameObservers;
 }
 
-- (void);
 - (id);
+- (void)w$ÿM°õw$ÿM°õw$ÿM°õw$ÿ;
 
 @end
 

@@ -12,11 +12,11 @@
 
 - (id);
 - (struct CGSize);
-- (Class)xt;
+- (Class);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (Class);
-- (_Bool)ÿÿ;
 
 @end
 

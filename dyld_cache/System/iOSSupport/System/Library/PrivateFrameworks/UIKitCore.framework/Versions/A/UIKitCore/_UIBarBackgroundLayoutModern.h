@@ -16,37 +16,37 @@ __attribute__((visibility("hidden")))
     _UIBarBackgroundAppearanceData *_backgroundData2;
 }
 
-- (id)ing for MPModelPropertyAlbumLibraryAddedDate;
-- (void);
-- (void):(id)arg1 barStyle: /* Error: Ran out of types for this method. */;
-- (id)ge",R,N,V_pretiledImage;
-- (double)tionDelegate;
-- (id)Gû;
-- (void)nce;
-- (id)view = <%@:%p> /* Error: Ran out of types for this method. */;
-- (id)3|;
-- (id)òEÿ$5;
-- (double)ÿ&	ÈA^;
-- (double)@e;
-- (id);
-- (_Bool)ÿ;
-- (_Bool)92;
-- (double)«9;
-- (id)Â;
-- (long long)=d;
-- (id);;
+- (double);
 - (id);
-- (_Bool)8;
-- (void)ga;
-- (id)³§f;
-- (id)¬b;
-- (_Bool);
-- (id)Òü?c;
 - (id);
-- (long long)àòÑþ;
+- (id);
+- (void);
+- (id);
+- (double);
+- (id);
+- (_Bool);
+- (id)iewHeight;
+- (id)setFrameOrBounds:oldRect:isFrameRect:settingAction: /* Error: Ran out of types for this method. */;
+- (void)torationRoots(id<UIStateRestoring>);
+- (id);
+- (id)3ÿoÙ;
+- (void)Ø^;
+- (double)ÿ+û;
+- (long long)ìS»ÿ;
+- (id)ÿ;
+- (id);
+- (id);
+- (void)@émþ;
+- (long long);
+- (id)+ü;
+- (_Bool)q;
+- (_Bool)vÿý¶ÙèÕa;
+- (double)þ4È×Ôÿa;
+- (id);
+- (id);
 - (id)d;
-- (id)ÿÂ¬;
-- (id).ðþ;
+- (id);
+- (_Bool)r;
 
 // Remaining properties
 @property(retain, nonatomic) _UIBarBackgroundAppearanceData *backgroundData1; // @synthesize backgroundData1=_backgroundData1;

@@ -14,14 +14,14 @@
 }
 
 + (id);
++ (id);
 + (void);
++ (id);
 + (struct _NSRange);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
 + (_Bool);
++ (void);
 - (void);
 - (id);
 - (id);
@@ -33,17 +33,17 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
 - (CDStruct_73a5d3ca);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long averagePowerLevelsRate;

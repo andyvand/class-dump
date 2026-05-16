@@ -43,13 +43,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (long long);
-- (id)qÉ1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *categories; // @synthesize categories=_categories;

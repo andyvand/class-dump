@@ -16,19 +16,18 @@ __attribute__((visibility("hidden")))
     UIColor *_textColor;
 }
 
-- (void);
-- (void);
-- (id)0@ù
-× ;
-- (void)!tCùÑÉð1¢!0@ù
-× ;
-- (id)iptForBestLanguage:(long long)arg1;
 - (id);
-- (void)corationItem;
-- (void)ceneHostingController;
-- (_Bool)@;
+- (id);
 - (_Bool);
-- (id)zd;
+- (void)
+× ;
+- (void)ithWindowServerHitTestWindow:(_Bool)arg1 event:(_Bool)arg2;
+- (void),V_moveFromRange;
+- (_Bool)_UINavigationBarLargeTitleViewLayout",R,N,V_layout;
+- (id);
+- (id)tSÑÿ;
+- (void)äd;
+- (void)@æ¼ÿ·Ó¨h;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isAttributed; // @synthesize _isAttributed;

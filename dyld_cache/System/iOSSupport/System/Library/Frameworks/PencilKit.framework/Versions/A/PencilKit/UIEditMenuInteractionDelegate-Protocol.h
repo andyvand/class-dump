@@ -9,6 +9,9 @@
 @protocol UIEditMenuInteractionDelegate
 
 @optional
-- (UIMenu *);
+- (void)shouldShowFingerDrawsOption;
+- (void),&,N,V_renderer;
+- (UIMenu *),&,N,V__textInputSettings;
+- (struct CGRect)ÿÿ);
 @end
 

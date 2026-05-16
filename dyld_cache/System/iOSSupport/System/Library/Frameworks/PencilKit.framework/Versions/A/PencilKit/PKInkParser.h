@@ -10,11 +10,11 @@
 
 + (void);
 + (void);
-+ (void)8;
 + (void);
 + (void);
-+ (id)=;
-+ (id);
++ (void);
++ (id);
++ (id);
 + (id);
 + (vector_8077eb8f);
 + (unique_ptr_51dafc34);
@@ -23,7 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (struct CGImage *));
++ (struct CGImage *);
 + (_Bool);
 
 @end

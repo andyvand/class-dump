@@ -22,15 +22,15 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
+- (id);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void)tionViewController:(struct UIEdgeInsets)arg1 didSelectSuggestionAtIndex: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isContentCentered) _Bool contentCentered; // @synthesize contentCentered=_contentCentered;

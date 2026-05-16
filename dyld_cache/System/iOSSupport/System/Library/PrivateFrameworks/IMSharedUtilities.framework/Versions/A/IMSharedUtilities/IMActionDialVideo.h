@@ -14,13 +14,13 @@
 
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)pending review count:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *fallbackUrl;

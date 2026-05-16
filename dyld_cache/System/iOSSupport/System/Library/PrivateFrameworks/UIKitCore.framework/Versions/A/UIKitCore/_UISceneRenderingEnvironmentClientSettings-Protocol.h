@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneRenderingEnvironmentClientSettings
-- (void)aledDataRef.;
 
 // Remaining properties
 @property(nonatomic) _Bool prefersContentProtection;

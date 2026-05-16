@@ -8,7 +8,6 @@
 @protocol MTLDevice;
 
 @protocol MTLSamplerState
-- (id <MTLDevice>)RÿøI;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

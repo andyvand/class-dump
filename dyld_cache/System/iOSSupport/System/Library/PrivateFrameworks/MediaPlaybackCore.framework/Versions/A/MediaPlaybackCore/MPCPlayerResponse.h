@@ -21,8 +21,8 @@
 }
 
 + (id);
-- (id)ingWithState:objects:count: /* Error: Ran out of types for this method. */;
-- (id)_stubs;
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -31,20 +31,21 @@
 - (void);
 - (id);
 - (id);
-- (id)-;
-- (void);
-- (id)";
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)¡Tð!dAùñ`°1Â0@ù
+× ;
+- (void)public}@;
+- (id)al;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MPCPlayerResponseBuilder> builder; // @dynamic builder;

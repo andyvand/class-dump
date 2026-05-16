@@ -20,6 +20,7 @@
     MISSING_TYPE *service;
     MISSING_TYPE *dymanicStateSubject;
     MISSING_TYPE *dynamicStateCancellable;
+    MISSING_TYPE *lastKnownMenuFrame;
     MISSING_TYPE *$__lazy_storage_$_statusViewModel;
     MISSING_TYPE *$__lazy_storage_$_statusView;
     MISSING_TYPE *shouldUnconditionallyHideMenuView;
@@ -38,16 +39,16 @@
     MISSING_TYPE *isIncomingCallBannerExpanded;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)ey¸Ì­ÿ;
-- (void)ë R ;
+- (void);
+- (void);
+- (void);
+- (void)L»;
+- (void)poseRecipientCG;
 
 @end
 

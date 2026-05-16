@@ -16,15 +16,15 @@
 }
 
 + (id);
-- (id)gedPrivacyAcknowledgement:(id)arg1;
-- (void)t:(id)arg1;
+- (id);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)K;
+- (id);
+- (void)State changed:%{public}@ -> %{public}@ - New recording session:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaItem *firstItem; // @synthesize firstItem=_firstItem;

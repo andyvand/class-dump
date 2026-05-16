@@ -34,8 +34,8 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (struct CGVector);
 - (_Bool);
+- (struct CGVector);
 
 // Remaining properties
 @property(retain, nonatomic) RPTCoordinateSpaceConverter *conversion; // @synthesize conversion=_conversion;

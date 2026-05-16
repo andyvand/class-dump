@@ -24,11 +24,11 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
 + (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
 + (_Bool);
 - (id);
@@ -48,14 +48,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *callCenterQueue; // @synthesize callCenterQueue=_callCenterQueue;

@@ -19,17 +19,18 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)SString"40@"IDSMessageContext"48;
 - (void);
 - (void);
-- (void);
-- (id)1¢!0@ù
+- (id);
+- (void)Ô ;
+- (void)@ù
 × ;
-- (id)tentScrollViewDidFinishContentOffsetAnimation;
-- (id)P``;
-- (void)rameNotification;
-- (void)not in the window;
-- (id)ompositionalLayoutDeferResolveToQueryTime;
+- (id)ñcÐ1Â0@ù
+× ;
+- (id);
+- (void)crollIndicatorColor;
+- (id)Style:] to reset appearance values /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

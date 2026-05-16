@@ -11,9 +11,9 @@
     WFWorkflowRunningContext *_context;
 }
 
-- (void);
 - (id);
-- (id)gã¢;
+- (id);
+- (void)ageediting;
 
 // Remaining properties
 @property(readonly, nonatomic) WFWorkflowRunningContext *context; // @synthesize context=_context;

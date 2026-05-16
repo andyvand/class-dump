@@ -13,20 +13,19 @@
     long long _displayValue;
 }
 
-+ (_Bool)äÒÀÿÐü;
++ (_Bool)otSafari(void);
 - (void);
-- (_Bool)4;
-- (void);
-- (void);
-- (long long);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id)
-× ;
+- (void);
+- (void);
 - (long long);
+- (id);
+- (unsigned long long);
+- (long long);
+- (_Bool)actDateLabelDelegate>";
+- (void)tViewSet:(id)arg1 withInterfaceOrientation: /* Error: Ran out of types for this method. */;
+- (id)eakMode:alignment:lineSpacing: /* Error: Ran out of types for this method. */;
+- (id)allowsPaintSelectionForLoupeInteraction:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool displayRawValue; // @synthesize displayRawValue=_displayRawValue;

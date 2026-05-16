@@ -13,7 +13,7 @@
     NSAttributedString *_translatedText;
 }
 
-+ (_Bool)IntentUserVault;
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -21,12 +21,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)~Zÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sourceLanguage; // @synthesize sourceLanguage=_sourceLanguage;

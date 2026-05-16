@@ -14,11 +14,11 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id)ct: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)0);
 
 @end
 

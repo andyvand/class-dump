@@ -8,14 +8,14 @@
 {
 }
 
-- (unsigned long long):toIdentifier:receivedGroupParticipantVersion:receivedGroupProtocolVersion:messageTimeStamp:groupPhotoCreationTime: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long)ð;
+- (long long)ÿtôÚx&h;
 
 @end
 

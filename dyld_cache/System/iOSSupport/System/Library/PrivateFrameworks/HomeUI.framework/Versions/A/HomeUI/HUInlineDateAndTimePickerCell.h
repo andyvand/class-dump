@@ -29,18 +29,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (double);
 - (id);
+- (id);
 - (void);
-- (id)tring;
-- (void)tBarButtonItem:(id)arg1;
-- (_Bool)nitWithItemUpdater:] /* Error: Ran out of types for this method. */;
-- (void)f×ÿêõ¡ø;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ovider;
+- (void)Instructions;
+- (_Bool);
+- (void)W;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allConstraints; // @synthesize allConstraints=_allConstraints;

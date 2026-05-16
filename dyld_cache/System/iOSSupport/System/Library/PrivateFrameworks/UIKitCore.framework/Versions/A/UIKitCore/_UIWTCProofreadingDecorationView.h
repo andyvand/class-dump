@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     NSArray *_decorationInformation;
 }
 
-- (void)!;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)void*)0))" -> %llu;
+- (id)ders;
+- (void)ViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *decorationInformation; // @synthesize decorationInformation=_decorationInformation;

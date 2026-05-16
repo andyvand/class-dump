@@ -12,26 +12,16 @@
     void ckRecordID;
 }
 
-+ (_Bool)_for_service(m.service)
-    )
-    /* ck_chat_id matches to a guid (for 1:1 chats) */
-    OR c.guid LIKE '%' || (
-        SELECT CASE
-            WHEN instr(m.ck_chat_id, ';') > 0
-            THEN substr(m.ck_chat_id, instr(m.ck_chat_id, ';') + 1)
-            ELSE NULL
-        END
-    )
-WHERE m.guid IN  /* Error: Ran out of types for this method. */;
-- (id);
-- (void)mon18JourneyOrderVendor;
-- (void);
++ (_Bool);
 - (id);
 - (void);
 - (id);
-- (id),&,N,V_linesLayer;
 - (id);
-- (void)ch operation was unsuccessful.;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)olver:Error! being called in a process that is not in IMDPersistenceAgent! /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *ckRecordID;

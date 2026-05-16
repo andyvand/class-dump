@@ -12,26 +12,26 @@
 {
 }
 
-+ (id)r:(unsigned long long)arg1;
-+ (long long)useCase:user: /* Error: Ran out of types for this method. */;
-+ (id)ifier;
-+ (id)ype;
-+ (id)approvalTime;
-+ (id)e;
-+ (id)HelpfulnessScore;
-+ (id)dueDateTimestamp;
-+ (id)p;
-+ (void)ngStream",R;
-+ (void)ream;
-+ (void)dleID;
-+ (void),R,N,V_index;
-+ (void)"BMHomeKitClientBase",R,C,N,V_base;
-+ (void)Stream",R;
-+ (void)MyLocationChangeStream",R;
-+ (void)reamIdentifiers;
-+ (id),V_calculatedFeatures;
++ (id);
++ (long long);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (id);
 - (id);
-- (id)r";
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType brandLogoArtworkCatalogBlock; // @dynamic brandLogoArtworkCatalogBlock;

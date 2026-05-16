@@ -7,6 +7,7 @@
 @class NSString, UIColor, UIView;
 
 @protocol LACUIAuthenticationAlert
+- (void)28@0:(UIView *)arg1 8B16@?<v@?>20;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView;

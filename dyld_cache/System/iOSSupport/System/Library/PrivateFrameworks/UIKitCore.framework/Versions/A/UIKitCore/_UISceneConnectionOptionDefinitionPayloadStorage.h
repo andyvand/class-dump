@@ -11,11 +11,10 @@
     MISSING_TYPE *payloads;
 }
 
-- (id)x-interval;
+- (id);
 - (void);
-- (void)
-× ;
-- (id)r",&,N,V_inputAssistantViewController;
+- (id);
+- (void)q;
 
 @end
 

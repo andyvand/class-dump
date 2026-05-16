@@ -19,15 +19,15 @@
 - (id);
 - (id);
 - (void);
-- (id)ramework/Versions/A/ToolKit;
 - (id);
-- (id)sions/A/ChronoServices;
-- (id)eworks/ChronoServices.framework/Versions/A/ChronoServices;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)[WFDatabase(Collections) updateFolder:(id)arg1 newName:newIcon:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)T2|2>x3?\4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *parameterStates;

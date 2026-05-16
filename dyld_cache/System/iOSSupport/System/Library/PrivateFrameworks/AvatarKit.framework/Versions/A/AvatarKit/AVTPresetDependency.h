@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
     NSDictionary *_visibilityRules;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool)ü¸0*Ì;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -24,9 +24,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)ems with titles or URLs matching this search will be returned. (WFPocketItemSearchTerm);
-- (id)|Ãÿ=zãxÃÿ]zãtÃÿzãÜÃÿ;
+- (id)vesInputFromSearch:hasShortcutInputVariables:disabledOnLockScreen:source:runEventsCount:hasOutputAction: /* Error: Ran out of types for this method. */;
+- (void)you want to save this as a draft?;
+- (id)W ²ÿûW³ÿýúW³ÿÕúW$´ÿõúW´ÿÕúWü´ÿÅúWÔÿÍúWÐÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *contentItemClasses;

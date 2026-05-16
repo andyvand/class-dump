@@ -27,16 +27,16 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool)emoteCard;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (float);
-- (void)c;
-- (void)utofillMode: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) float timeoutValue; // @synthesize timeoutValue=_timeoutValue;

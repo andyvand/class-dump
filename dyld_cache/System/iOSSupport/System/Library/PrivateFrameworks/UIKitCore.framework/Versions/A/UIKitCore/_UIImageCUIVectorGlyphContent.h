@@ -22,49 +22,51 @@ __attribute__((visibility("hidden")))
     _Atomic long long _numberOfPaletteLayers;
 }
 
-- (id)H;
-- (unsigned long long);
-- (unsigned long long);
+- (void);
+- (_Bool);
 - (id);
-- (struct CGImage *);
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void)_job_queue_sync_halt. Exiting the process.;
-- (_Bool);
-- (double);
-- (void)ArtworkResizeUtility:(struct CGSize)arg1;
-- (void)elationshipSongAlbum;
-- (_Bool);
 - (struct CGImage *);
 - (id);
+- (id);
+- (struct CGImage *);
 - (_Bool);
-- (void);
+- (_Bool);
 - (void);
-- (struct CGImage *)0@ù
+- (unsigned long long);
+- (id);
+- (unsigned long long)ù
 × ;
-- (id)!8BùÑÉ1¢!0@ù
+- (void)1Â0@ù
 × ;
+- (id)1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (struct CGImage *)1"viewLoadedFromControllerNib"b1"isRootViewController"b1"isSuspended"b1"wantsFullScreenLayout"b1"shouldUseFullScreenLayout"b1"allowsAutorotation"b1"searchControllerRetained"b1"oldModalInPopover"b1"isModalInPresentation"b1"isInWillRotateCallback"b1"isFinishingModalTransition"b1"definesPresentationContext"b1"providesPresentationContextTransitionStyle"b1"containmentSupport"b1"isSettingAppearState"b1"isInAnimatedVCTransition"b1"presentationIsChanging"b1"isBeingPresented"b1"containmentIsChanging"b1"explicitTransitionIsAppearing"b1"disableAppearanceTransitions"b1"needsDidMoveCleanup"b1"suppressesBottomBar"b1"isExecutingAfterAppearance"b1"rootResignationNeeded"b1"viewConstraintsNeedUpdateOnAppearance"b1"shouldForceNonAnimatedTransition"b1"isInCustomTransition"b1"mayForwardPresentationsToPresentedViewController"b1"usesSharedView"b1"extendedLayoutIncludesOpaqueBars"b1"automaticallyAdjustInsets"b1"previousShouldUnderlapUnderStatusBar"b1"freezeShouldUnderlapUnderStatusBar"b1"shouldNotFreezeUnderlapsStatusBar"b1"monitorsSystemLayoutFittingSize"b1"shouldLoadInputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
+- (_Bool);
+- (void)requestSessionWithConfiguration:(struct CGSize)arg1 completion:(double)arg2;
+- (double)mLength;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (double)ontrollerFromBarButtonItem:animated:completion: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)or;
+- (void)ntentHeightConstraint;
+- (_Bool):multiplier: /* Error: Ran out of types for this method. */;
+- (id)rimaryOffscreenGestureMode:,V_primaryOffscreenGestureMode /* Error: Ran out of types for this method. */;
+- (id)gationItem",R,N,V_navigationItem;
+- (void)DFAnnotationParserDelegate;
+- (id)ø';
+- (unsigned long long)ð;
+- (struct CGImage *)8@"FBSSceneTransitionContext"16;
+- (double)^;
+- (void);
+- (id)*ÏÄ^;
+- (struct CGImage *);
 - (struct CGSize);
-- (void)28;
-- (_Bool)0:(id)arg1 8^{?=@[4Q]}16;
-- (_Bool)tionalRelativePosition={CGRect={CGPoint=dd}{CGSize=dd}}Qd}16{CGRect={CGPoint=dd}{CGSize=dd}}64;
-- (_Bool)dStopManually: /* Error: Ran out of types for this method. */;
-- (void):(struct CGSize)arg1 displayMode:(double)arg2 shouldUseOverlay:(struct CGContext *)arg3;
-- (_Bool)thTitle:subtitle:origin: /* Error: Ran out of types for this method. */;
-- (id)rView;
-- (id);
-- (id)erDidTriggerPrimaryAction;
-- (double)ceList;
-- (void)s;
-- (id)G;
-- (double)previouslyRequestedSplitBehavior = %ld; preferredSplitBehavior = %ld;
-- (id);
-- (struct CGImage *)reenSize;
-- (struct CGImage *)ontinue;
-- (struct CGImage *);
-- (id);
+- (_Bool);
+- (id)xµ!ÿY;;
+- (_Bool)a;
+- (void)b;
 
 // Remaining properties
 @property(readonly) CUINamedVectorGlyph *_vectorGlyph;

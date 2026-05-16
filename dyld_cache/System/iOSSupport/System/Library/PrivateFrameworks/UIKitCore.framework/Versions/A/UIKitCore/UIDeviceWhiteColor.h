@@ -14,25 +14,25 @@ __attribute__((visibility("hidden")))
     _Atomic struct CGColor *_cachedColor;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (struct CGColor *);
+- (void);
 - (id);
-- (void);
-- (id)ure;
-- (struct CGColor *)vBèÿÌÓ[þè³þÿ;
-- (_Bool)ionViewFlowLayoutInvalidationContext.;
-- (_Bool)k;
-- (id)TtC5UIKit20ScrollEdgeEffectView",N,&,VbottomPocket;
-- (void);
-- (void)Sÿ3;
-- (void)l;
-- (_Bool)9	ÚÝì\;
-- (double)rÿ8TP;
-- (id)À;
-- (id)ÿ/Õö½d;
-- (_Bool)­oe;
-- (id)w;
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)ount;
+- (id)T0;
+- (struct CGColor *)Ì6êÿ;
+- (void)q;
+- (void)êÛdÉl;
+- (_Bool)LÉl;
+- (_Bool)ÿl;
+- (_Bool)Î{;
+- (id)q;
+- (double);
+- (void)¨pÿE¼¥ ßm;
+- (id)ÿ»á×p;
+- (_Bool)¬Æ-ÿAâÛp;
 
 @end
 

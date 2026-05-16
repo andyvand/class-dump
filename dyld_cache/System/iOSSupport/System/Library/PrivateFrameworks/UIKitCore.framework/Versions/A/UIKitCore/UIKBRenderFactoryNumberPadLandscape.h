@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)et;
+- (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
@@ -20,11 +20,10 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct UIEdgeInsets);
-- (struct CGPoint)e task request for %{public}s with error:%@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)chat pairs:'%s'
-    message pairs:'%s' /* Error: Ran out of types for this method. */;
-- (struct CGPoint)leDeleteCommand:%@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)s.SMSReceivedRelayDeleteRequest;
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 
 @end

@@ -14,14 +14,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)6;
-- (void)|;
-- (_Bool);
-- (void)32@0:8@"NSString"16@?<v@?@"NSArray"@"NSArray"@"NSError">24 /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id)Message;
-- (id)astDragPoint;
-- (id)stSecurityAnalysis;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *lockedEnvironments; // @synthesize lockedEnvironments=_lockedEnvironments;

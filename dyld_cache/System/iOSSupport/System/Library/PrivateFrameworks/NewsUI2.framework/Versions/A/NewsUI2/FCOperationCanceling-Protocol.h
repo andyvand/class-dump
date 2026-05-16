@@ -5,6 +5,5 @@
 //
 
 @protocol FCOperationCanceling
-- (void)news.modules.tag_feed.refresh_strategy;
 @end
 

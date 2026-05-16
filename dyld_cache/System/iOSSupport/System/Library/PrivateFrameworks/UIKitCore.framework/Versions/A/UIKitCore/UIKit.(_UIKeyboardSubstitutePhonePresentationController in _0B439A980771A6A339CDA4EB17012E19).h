@@ -19,15 +19,14 @@
 
 - (_Bool);
 - (void);
-- (void)!,Bù±Ä1¢!0@ù
-× ;
 - (void);
-- (void)erticalOverlapForView:(_Bool)arg1 usingKeyboardInfo: /* Error: Ran out of types for this method. */;
-- (void)rHandler;
-- (void)Key;
-- (struct CGRect)tionViewDelegate>",N,V_delegate;
-- (id)h61ÿ;
+- (id)O23£;
 - (void);
+- (void)|áÚþ¢Êhf;
+- (struct CGRect)é;
+- (void)ül;
+- (void)?ºÿùj;
+- (void))dÏlIq;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect frameOfPresentedViewInContainerView;

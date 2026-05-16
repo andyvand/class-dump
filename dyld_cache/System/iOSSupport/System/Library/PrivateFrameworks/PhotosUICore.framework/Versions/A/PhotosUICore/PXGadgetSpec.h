@@ -47,17 +47,19 @@
 - (long long);
 - (_Bool);
 - (long long);
+- (id);
+- (struct UIEdgeInsets);
+- (long long);
+- (double);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (id);
-- (void);
-- (id);
-- (long long)_items;
-- (long long)ØV®ÿM;
-- (long long)?ëPâm7;
+- (double)¡ù!Aù1F1â
+0@ù
+× ;
+- (id)Q;
+- (void)èË;
+- (long long)cRÔò7;
+- (long long)8;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets accessoryViewInset; // @synthesize accessoryViewInset=_accessoryViewInset;

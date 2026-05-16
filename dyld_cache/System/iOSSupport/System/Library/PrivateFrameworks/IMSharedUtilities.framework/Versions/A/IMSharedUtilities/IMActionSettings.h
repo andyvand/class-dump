@@ -9,14 +9,13 @@
     long long type;
 }
 
+- (id);
+- (long long);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id)0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIViewAnimationAttributes;
-
 @protocol _UIViewServiceImplicitAnimationDecodingProxy_EncodingProxyInterface
-
-@optional
-- (void)emoteHost:(NSString *)arg1 delegate:(_UIViewAnimationAttributes *)arg2 allowsUltraConstrainedNetwork:(_Bool)arg3;
 @end
 

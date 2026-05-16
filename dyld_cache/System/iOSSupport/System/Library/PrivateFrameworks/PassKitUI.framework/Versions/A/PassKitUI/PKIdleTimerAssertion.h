@@ -15,10 +15,10 @@
 }
 
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)Ðl;
+- (void);
 
 @end
 

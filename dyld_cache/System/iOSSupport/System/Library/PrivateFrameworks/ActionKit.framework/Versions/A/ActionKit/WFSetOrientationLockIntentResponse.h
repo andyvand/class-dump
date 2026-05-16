@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)sending time data for SCP file;
-- (void)supported;
+- (long long): /* Error: Ran out of types for this method. */;
+- (void)eranceMaximumSpeechRate;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

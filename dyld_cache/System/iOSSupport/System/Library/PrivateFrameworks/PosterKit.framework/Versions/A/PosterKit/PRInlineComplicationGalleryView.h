@@ -14,11 +14,12 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

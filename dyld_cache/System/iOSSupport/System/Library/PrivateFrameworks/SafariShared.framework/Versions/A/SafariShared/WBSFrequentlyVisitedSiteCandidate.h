@@ -15,8 +15,9 @@
 + (id);
 - (id);
 - (id);
-- (void)A;
 - (float);
+- (void)Ü
+;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSHistoryItem *historyItem; // @synthesize historyItem=_historyItem;

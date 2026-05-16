@@ -14,7 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)ÇÿCu
+ÌÇÿCu
+pV¼ÿýBu
+lV¼ÿ;
 
 @end
 

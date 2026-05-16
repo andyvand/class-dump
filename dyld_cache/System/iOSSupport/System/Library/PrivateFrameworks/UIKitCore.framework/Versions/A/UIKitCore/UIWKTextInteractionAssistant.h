@@ -29,85 +29,83 @@
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void)rackCell:(id)arg1 forTableColumn:(struct CGPoint)arg2 row:(struct CGPoint)arg3;
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)tIDs:(id)arg1 andEntryProperties:(unsigned long long)arg2 completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)Kº;
-- (void)1¢!0@ù
-× ;
-- (long long)@ù
-× ;
-- (id)
-× ;
-- (void)Ç1¢!0@ù
-× ;
-- (void)1Ë1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)!È@ùqÌ°1¢!0@ù
-× ;
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (id)inView:animated: /* Error: Ran out of types for this method. */;
-- (void)s:(struct CGPoint)arg1 visibility:loadHandler: /* Error: Ran out of types for this method. */;
-- (void)troller;
-- (_Bool)thSystemEffect: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (Class)crolling;
-- (_Bool)Space:forView: /* Error: Ran out of types for this method. */;
-- (_Bool)Change: /* Error: Ran out of types for this method. */;
-- (_Bool)InNormalizedFrame: /* Error: Ran out of types for this method. */;
-- (void)ectWithTintColor:(struct CGRect)arg1;
-- (void)defaultContextMenuInteraction:(struct CGPoint)arg1 configurationForMenuAtLocation:(long long)arg2 completion:(long long)arg3;
-- (void)SearchField;
-- (void)tBaselineToBottom;
-- (void)amesDict;
-- (void)"NSIndexPath",&,N,G_newIndexPath,S_setNewIndexPath:(id)arg1;
-- (void)Ì;
-- (void)lIndicatorUsesAlternativeTopSafeAreaInset on. Turning it off now.;
-- (id)sert in the future.;
-- (void)2;
-- (_Bool)X{þÿ;
-- (_Bool)l inconsistency:(id)arg1 unexpected cell accessory layout animation;
-- (struct CGRect)Change;
-- (id)UserInterfaceStyleDarkSecondaryTextColor;
-- (void)ing preferred environments. Preferring %@;
-- (id)gines:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)gFrom=%@ draggingItems=%@>;
-- (void)ystem items;
 - (void);
-- (void)MorphableProvider;
-- (id)£X`;
-- (void)Ú¶`;
+- (void);
+- (_Bool);
+- (void);
+- (struct CGRect);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
-- (id)c;
-- (void)ÔÄ¿e;
-- (void);
-- (_Bool)f:e /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void)!|Bùq\1Â0@ù
+× ;
+- (void);
+- (_Bool)ùa1Â0@ù
+× ;
+- (void)!
+ð!èBù±f1Â0@ù
+× ;
+- (void)ð!ü@ùÑf°1Â0@ù
+× ;
+- (void)nController;
+- (id)etVisibilityOnScrollDistance: /* Error: Ran out of types for this method. */;
+- (void)cedTimestamps:(id)arg1 startingAt:endingAt: /* Error: Ran out of types for this method. */;
+- (void)d:(id)arg1 tracking:(struct CGPoint)arg2 orientation:(struct CGPoint)arg3 wantsFence: /* Error: Ran out of types for this method. */;
+- (id)d;
+- (void)assistantWriteboard;
+- (void)I:(id)arg1 showFailure:(struct CGRect)arg2 useSmallBars: /* Error: Ran out of types for this method. */;
+- (Class)cation: /* Error: Ran out of types for this method. */;
+- (void)selineToBottom;
+- (void)yP3Color;
+- (void)M;
+- (void)´®;
+- (void);
+- (void);
+- (void)ÿàféÿ°_]þ;
+- (_Bool)@
+;
+- (_Bool)er;
+- (void)llers (attempted to present %@);
+- (void)on %@.;
+- (void)Ó03ySO»"¿7G;
+- (void)23PÊþmþ23Øþþ;
+- (id);
+- (void)lÿ4¦Ê;
+- (void)h;ÿ;
+- (id)´¹ÿHÛà«a;
+- (id)ðÞc;
+- (void)äÊ|Jd;
+- (_Bool)ÿò;
+- (void)$õþ/^Ë;
+- (id)ýqþUx;
+- (id)zÿ;
+- (void)k;
+- (void)]Ý>g;
 
 // Remaining properties
 @property(nonatomic) struct CGRect caretBeforeTap; // @synthesize caretBeforeTap=_caretBeforeTap;

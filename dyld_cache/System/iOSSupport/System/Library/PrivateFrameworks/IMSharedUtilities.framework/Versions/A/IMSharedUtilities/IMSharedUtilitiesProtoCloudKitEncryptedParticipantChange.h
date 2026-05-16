@@ -24,25 +24,24 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id)k
-;
-- (void);
-- (id);
+- (id)fari;
+- (void)n;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOtherHandle;

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)i!;
-- (_Bool)5!;
+- (id);
 - (_Bool);
-- (id)es/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/bio_ssl.c;
+- (id);
+- (id);
+- (_Bool)witchVisualElement"16B24;
+- (id)ted for extension:(SEL)arg1 %{public}@; with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)Objects;
-- (id)"^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

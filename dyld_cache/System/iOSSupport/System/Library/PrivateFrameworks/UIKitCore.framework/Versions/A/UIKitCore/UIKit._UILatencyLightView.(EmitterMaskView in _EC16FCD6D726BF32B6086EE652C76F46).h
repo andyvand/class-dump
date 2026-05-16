@@ -16,12 +16,11 @@
     MISSING_TYPE *duration;
 }
 
-+ (Class)m;
++ (Class);
+- (id);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)s;
+- (void)È2Í¤jl;
 
 @end
 

@@ -45,17 +45,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)foreChanges;
-- (void)skWithSuccess:error: /* Error: Ran out of types for this method. */;
-- (double)Ð(ÿ;
-- (void)Index;
-- (_Bool)eholder;
+- (_Bool);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (double);
+- (void)attribute}@ ;
+- (void)onadeConcatenatedUIFeedProvider.swift;
+- (void);
+- (id)â!ÿ;
 
 // Remaining properties
 @property(copy) NSString *currentClientIdentifier;

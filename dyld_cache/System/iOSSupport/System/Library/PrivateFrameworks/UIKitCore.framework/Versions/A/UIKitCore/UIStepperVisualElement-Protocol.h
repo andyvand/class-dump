@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UITouch;
 @protocol UIStepperControl;
 
 @protocol UIStepperVisualElement
-- (id <UIStepperControl>);
-- (void)gnature;
-- (void)manifest2);
-- (void)failed;
-- (void)minimalSealingDataInstanceData;
-- (struct CGSize);
-- (UIImage *);
-- (_Bool);
-- (void)fier;
-- (void);
-- (_Bool)eUpdateDate"b1"isEnabled"b1};
-- (id)entationChangedHandler;
-- (void)fierFlags:(_Bool)arg1;
-- (void)inEditing:(UITouch *)arg1;
-- (UIImage *)ring.;
-- (void)t22_UITabBarContainerView;
-- (void)rs:(double)arg1 );
-- (double)I;
-- (double)@shí|5@Ï÷Sã¥Û8@V-2@Ù?;
-- (_Bool)X¨þ$]«þ;
+- (_Bool)Ô ;
+- (void)epresentedElementCategory;
+- (void)iew;
+- (double),G_contentOffset,S_setContentOffset:,V_contentOffset /* Error: Ran out of types for this method. */;
+- (double)esetClient>",W,N,V_client;
+- (void)À´;
+- (double);
+- (void)TÎîÿ;
+- (void)ngErrorDomain;
+- (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
+- (double)F;
 
 // Remaining properties
 @property(nonatomic) _Bool autorepeat;

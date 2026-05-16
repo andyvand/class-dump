@@ -5,5 +5,6 @@
 //
 
 @protocol MPMediaControlsProtocol
+- (void)D,N;
 @end
 

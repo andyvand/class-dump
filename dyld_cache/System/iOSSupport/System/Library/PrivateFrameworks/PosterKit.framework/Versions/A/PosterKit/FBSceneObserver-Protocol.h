@@ -5,5 +5,10 @@
 //
 
 @protocol FBSceneObserver
+
+@optional
+- (void)¡¨! BùÑñ1â
+0@ù
+× ;
 @end
 

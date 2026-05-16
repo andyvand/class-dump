@@ -5,6 +5,6 @@
 //
 
 @interface (null) (LearnedLocationEngine)
-- (id)hers_bucketed;
+- (id);
 @end
 

@@ -45,7 +45,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void)archiving;
+- (void);
 - (id);
 - (id);
 

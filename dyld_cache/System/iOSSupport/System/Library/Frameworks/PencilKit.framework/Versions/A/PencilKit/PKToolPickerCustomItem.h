@@ -13,19 +13,19 @@
     PKToolPickerCustomItemConfiguration *_configuration;
 }
 
-- (void)em/Library/Frameworks/UIKit.framework/Versions/A/UIKit;
+- (void);
 - (id);
 - (id);
-- (id)ateFromVersion: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)fierTable;
+- (id);
+- (void)SwitchCell",&,N,V_autoMinimizeCell;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsColorSelection;

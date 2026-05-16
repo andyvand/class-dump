@@ -17,8 +17,8 @@
 
 + (id);
 + (id);
-+ (_Bool);
 + (id);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -34,16 +34,16 @@
 - (double);
 - (void);
 - (id);
+- (long long);
+- (long long);
 - (id);
+- (unsigned long long);
 - (long long);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long configurationType; // @dynamic configurationType;

@@ -10,7 +10,7 @@
 {
 }
 
-- (id)to missing text storage;
+- (id);
 
 @end
 

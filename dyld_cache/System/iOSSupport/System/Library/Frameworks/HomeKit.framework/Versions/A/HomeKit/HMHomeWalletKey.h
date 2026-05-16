@@ -15,25 +15,24 @@
     long long _color;
 }
 
-+ (id)(P0¬¤H¥¸¥¨;
-+ (_Bool)%@/%@]
-;
++ (id);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
-- (id);
 - (id);
 - (void);
 - (id);
-- (long long);
 - (id);
 - (id);
-- (id)rovider>",R;
-- (id)ption:%@ /* Error: Ran out of types for this method. */;
+- (void)X©à©;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

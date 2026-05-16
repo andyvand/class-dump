@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (long long);
+- (id);
+- (long long);
 - (long long);
 - (_Bool);
-- (id);
-- (void)h;
-- (long long);
-- (id)9;
 - (long long);
 - (id);
+- (id);
+- (void)final result %@;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *cardStyleUrl;

@@ -7,11 +7,9 @@
 @class NSError;
 
 @protocol PXAudioSessionState
-- (NSError *)1b0@ù
-× ;
-- (float);
-- (CDStruct_1b6d18a9)e;
-- (CDStruct_1b6d18a9)tivity does not get interrupted.;
+- (CDStruct_1b6d18a9)trollerPreferredInterfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
+- (long long);
+- (_Bool)m;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;

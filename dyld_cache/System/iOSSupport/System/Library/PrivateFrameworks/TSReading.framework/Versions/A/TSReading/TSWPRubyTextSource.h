@@ -34,7 +34,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -42,13 +42,13 @@
 - (struct _NSRange);
 - (id);
 - (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned short);
-- (void)=;
 - (void);
-- (void);
-- (unsigned long long)ture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

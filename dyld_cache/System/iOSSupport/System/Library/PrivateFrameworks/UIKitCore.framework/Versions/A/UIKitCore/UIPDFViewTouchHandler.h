@@ -28,31 +28,32 @@ __attribute__((visibility("hidden")))
     _Bool _allowMenu;
 }
 
-+ (void)setting state:%d   name:%@   groupID:%@ /* Error: Ran out of types for this method. */;
-- (void)52@0:(id)arg1 8@16@24@32B40B44B48;
-- (void)s:(id)arg1;
-- (void)ountryCode:forChat:style: /* Error: Ran out of types for this method. */;
-- (void)vicesChanged:(_Bool)arg1;
-- (void)dexingDelegate;
++ (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)H;
-- (void);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool)ity:(id)arg1;
-- (void)nDirection:(id)arg1 duration: /* Error: Ran out of types for this method. */;
-- (_Bool):(SEL)arg1 environmentScrollableContainer:(id)arg2;
-- (_Bool)WithoutTextField;
-- (id)orState: /* Error: Ran out of types for this method. */;
-- (_Bool)ogress;
-- (_Bool);
-- (id)[Pe;
-- (_Bool)RÑ¨g;
-- (void)¯k;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool)!@ù±c°1Â0@ù
+× ;
+- (void)ionDidEnter:(id)arg1 isNewSession:isResuming: /* Error: Ran out of types for this method. */;
+- (_Bool)ow:(id)arg1;
+- (_Bool);
+- (_Bool)orC;
+- (id)ÖÄÎÈáh;
+- (id)ÿÆÑû.j;
 
 // Remaining properties
 @property _Bool allowMenu; // @synthesize allowMenu=_allowMenu;

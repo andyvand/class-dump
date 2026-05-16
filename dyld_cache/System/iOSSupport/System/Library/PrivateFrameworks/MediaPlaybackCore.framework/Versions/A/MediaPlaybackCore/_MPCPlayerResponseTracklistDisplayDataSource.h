@@ -18,15 +18,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long)ItemPayload;
-- (id)t:%p participant=%@ reactionEvent=%@> /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long)%{public}@]-MPCPlaybackEngineImplementation:(unsigned long long)arg1 %p - Set audio session active succeeded;
+- (void){public}@] _addPlaybackContext:| setting suggested start item on edit [first data source loaded] suggestedContentItemIDForStart=%{public}@ edit=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

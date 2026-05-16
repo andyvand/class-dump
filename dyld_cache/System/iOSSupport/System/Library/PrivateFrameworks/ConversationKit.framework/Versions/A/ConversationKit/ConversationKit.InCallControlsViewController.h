@@ -65,26 +65,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (void)Àò­yA5_yACyA_A_G_A_SgtGGA0_GGG;
-- (void)k #%ld;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_ãyÓSgGGAGyäÐGG]ÑyêGG;
+- (void)0;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *audioButton;

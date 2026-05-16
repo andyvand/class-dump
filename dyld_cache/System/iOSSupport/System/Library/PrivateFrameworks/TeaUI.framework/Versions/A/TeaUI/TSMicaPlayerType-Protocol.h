@@ -7,8 +7,7 @@
 @class NSString;
 
 @protocol TSMicaPlayerType
-- (void)8`~(a;
-- (void)P;
+- (void)lue.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *path;

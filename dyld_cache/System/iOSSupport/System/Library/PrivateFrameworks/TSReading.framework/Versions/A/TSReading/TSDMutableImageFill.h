@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (id)B;
 - (void);
+- (id);
 - (void);
-- (void);
+- (void)ÄV;
 
 // Remaining properties
 @property(nonatomic) struct CGSize fillSize; // @dynamic fillSize;

@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIView;
-
 @protocol UITableViewDelegate
-
-@optional
-- (void);
-- (UIView *)ckPickerCollectionView;
-- (NSIndexPath *);
-- (_Bool);
-- (_Bool);;
-- (void)on;
-- (double);
-- (double)it;
-- (void)LinkViewRepresentable;
 @end
 

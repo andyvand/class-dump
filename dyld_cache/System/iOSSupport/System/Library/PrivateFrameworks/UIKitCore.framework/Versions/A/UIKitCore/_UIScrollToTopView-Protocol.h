@@ -5,7 +5,6 @@
 //
 
 @protocol _UIScrollToTopView
-- (void);
-- (_Bool);
+- (_Bool)ngViewSupport;
 @end
 

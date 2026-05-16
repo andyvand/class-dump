@@ -13,18 +13,18 @@
     NSNumber *mMaximum;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)(R;
+- (void);
 - (_Bool);
-- (id)¨ñÿØWÒ;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id)on_private) pImportParagraphAttributes:paragraphStyle:] /* Error: Ran out of types for this method. */;
+- (id)youtContext:(id)arg1:EQKitLayoutContext(EQKitLayoutManager &, const EQKitLayoutContext &, id<EQKitLayoutNode>, NSInteger, bool, EQKit::Script::Cramped::Style) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *maximum; // @synthesize maximum=mMaximum;

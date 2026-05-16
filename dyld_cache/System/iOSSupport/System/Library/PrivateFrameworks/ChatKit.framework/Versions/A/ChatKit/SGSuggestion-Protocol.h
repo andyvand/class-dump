@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, SGBannerDividerParameter, SGSuggestionAction, UIColor, UIView, UIViewController, UIVisualEffectView;
-@protocol SGSuggestionCategory, SGSuggestionDelegate, SGSuggestionList;
+@protocol SGSuggestionDelegate;
 
 @protocol SGSuggestion
-- (SGSuggestionAction *)dNames: /* Error: Ran out of types for this method. */;
-- (id <SGSuggestionDelegate>)ParentRef: /* Error: Ran out of types for this method. */;
-- (id <SGSuggestionCategory>)iginX: /* Error: Ran out of types for this method. */;
-- (void)etMode:(id <SGSuggestionDelegate>)arg1;
-
-@optional
-- (id <SGSuggestionList>);
-- (UIView *)9;
-- (NSString *)udedObjectIDs: /* Error: Ran out of types for this method. */;
-- (UIViewController *)ations: /* Error: Ran out of types for this method. */;
-- (NSString *)setEnableSuggestionTokens: /* Error: Ran out of types for this method. */;
-- (SGSuggestionAction *);
-- (SGBannerDividerParameter *)tions: /* Error: Ran out of types for this method. */;
-- (SGSuggestionAction *)edString: /* Error: Ran out of types for this method. */;
-- (UIVisualEffectView *)gration: /* Error: Ran out of types for this method. */;
-- (UIColor *)eueLongLivedOperations: /* Error: Ran out of types for this method. */;
-- (NSAttributedString *)enters: /* Error: Ran out of types for this method. */;
-- (long long)tDidBlockLastSave: /* Error: Ran out of types for this method. */;
-- (_Bool)stemID:notationName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate;

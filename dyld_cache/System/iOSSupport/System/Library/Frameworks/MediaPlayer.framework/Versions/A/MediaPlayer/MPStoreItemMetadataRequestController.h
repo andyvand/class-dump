@@ -20,19 +20,19 @@
 }
 
 + (id);
-+ (unsigned long long)@104@112@120@128@136;
++ (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (long long);
-- (void)Account:(long long)arg1;
-- (void)aLibraryErrorDomain;
+- (void);
+- (void);
+- (void)oCollaborationWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long)opertyPodcastChapterTitle__MAPPING_MISSING__;
+- (void)jp¡õjw¡ºjv¡ju¡ujt¡»j{¡{jz¡<jy¡¬jx¡j¡~j~¡¿j}¡j|¡1jc¡Qjb¡3ja¡áj`¡2jg¡Àjf¡;
 
 // Remaining properties
 @property(nonatomic) long long cacheSize; // @synthesize cacheSize=_cacheSize;

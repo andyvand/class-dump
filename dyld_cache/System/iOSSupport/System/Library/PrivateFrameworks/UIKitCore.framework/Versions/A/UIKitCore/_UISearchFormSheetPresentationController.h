@@ -18,50 +18,43 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)iers:(id)arg1;
-- (void)sFilteredUsingPredicate:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ion: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)Z;
 - (void);
-- (_Bool)ier;
 - (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (id);
-- (void)áoð!¼GùÂ°1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)ñÆ°1¢!0@ù
-× ;
-- (id)ÈÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (_Bool)!dBùñÊ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (double)r;
-- (id)nged:(id)arg1;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (_Bool)rNavigationBar:delegate:crossfade: /* Error: Ran out of types for this method. */;
-- (_Bool)dBoundarySupplementaryItemIndexes;
-- (struct CGRect)sk:breadcrumb: /* Error: Ran out of types for this method. */;
-- (_Bool)iew: /* Error: Ran out of types for this method. */;
-- (void)reaViews;
-- (struct CGRect)Path: /* Error: Ran out of types for this method. */;
-- (double)puteContentSizeForEmptyHostContentSizeForContainer:primaryContentFrame:layoutAxis:supplementaryFrames:preferredSizes:layoutRTL:supplementaryKind: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void)_tvTabBarShouldTrackScrollView: /* Error: Ran out of types for this method. */;
-- (void)ButtonConfigurationVisualProvider;
-- (unsigned long long)l;
-- (id)er);
-- (_Bool)ion;
+- (struct CGRect);
 - (void);
-- (id)Ô;
+- (double)cene settings detected:the scene frame (%@) is too small to fit the scene's rounded corners:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (long long)X¥éÿTx]þh¹þÿ;
+- (id)H{þÿ;
+- (void)Ø}ÿÿÚïÿÚ}ÿÿèÉïÿà}ÿÿèÉïÿ´ïÿ®úîÿ;
+- (void)(same);
+- (_Bool)inatorContext.m;
+- (_Bool)ldRemoteContentRegistry;
+- (_Bool)TraitUIOptimized ;
+- (unsigned long long)rting.;
+- (double)atorViewStyleStatusBarLockScreenSync;
+- (struct CGRect)ternalUserInfo:%@ /* Error: Ran out of types for this method. */;
+- (void)ssEffectDiffusionDidChangeNotification;
+- (_Bool)ent;
+- (void)indof UICellAccessory * _Nonnull _accessoryAsClass(UICellAccessory * _Nonnull __strong, Class  _Nonnull __unsafe_unretained);
+- (_Bool)lProvider(_UISearchBarVisualProviderBase *__strong);
+- (void)ISceneDidChangeSettingsSceneNotification;
+- (struct CGRect)ª;
+- (id)yN¼.3GGSOGGGAPG_¾Ý.3Qo__AFQo__7~.3Qo__Qo_ALyH­.3GGGG;
+- (void)ceReorderingHandlersC;
+- (id)pGG;
+- (void);
+- (id)íµ ÷Æ°>;
+- (_Bool)°þ;
+- (_Bool)½;
+- (id)¬à[;
+- (void)SBÜ4\;
+- (void)¤é\;
+- (void)@Ï];
+- (_Bool)b^;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;

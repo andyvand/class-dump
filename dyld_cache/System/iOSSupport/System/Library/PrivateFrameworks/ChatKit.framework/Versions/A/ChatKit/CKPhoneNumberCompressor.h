@@ -14,17 +14,18 @@
     NSArray *_preferredCompressions;
 }
 
-- (void)"NSAttributedString",R,N;
+- (void);
 - (void);
 - (id);
-- (double)de:%@}%s:%d /* Error: Ran out of types for this method. */;
-- (id)ecentObjectId;
-- (id)/;
+- (double);
+- (id);
 - (id);
 - (void);
-- (void)Changed called on conversation list %@ notification %@;
-- (void)handled case };
-- (id)Qc.;
+- (id);
+- (id)uldUpdate_transcriptAvailabilityFontAttributes;
+- (void);
+- (void)Ð
+ ;
 
 // Remaining properties
 @property(nonatomic) double desiredWidth; // @synthesize desiredWidth=_desiredWidth;

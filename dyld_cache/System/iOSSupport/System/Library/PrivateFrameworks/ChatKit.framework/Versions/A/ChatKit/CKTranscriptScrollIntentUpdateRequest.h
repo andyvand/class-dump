@@ -14,12 +14,12 @@
 }
 
 - (_Bool);
-- (id)9_GtGAJGtGGAGGACyADyAEyA10__A11_AWyAEyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGGGG;
-- (id);
-- (void);
 - (id);
 - (id);
-- (long long)ld} pendingAttachments into the attachments field.;
+- (id);
+- (id);
+- (long long);
+- (void)@"NSString"8@"IMServiceForSendingResult"16B24q28;
 
 // Remaining properties
 @property(readonly, nonatomic) CKScrollViewAnimationProperties *animationProperties; // @synthesize animationProperties=_animationProperties;

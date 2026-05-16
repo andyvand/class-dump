@@ -16,10 +16,10 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (void)releasing *, NSString *__autoreleasing *, NSString *__autoreleasing *);
 - (void);
-- (id);
-- (void);
-- (id)ÖW7;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXCMMActionPerformerDelegate> delegate; // @dynamic delegate;

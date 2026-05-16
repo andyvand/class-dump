@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     double _cornerAngleWindow;
 }
 
-+ (id)%@. Updating existing transfer %@ for message GUID %@;
++ (id);
 + (id);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (void);
 - (double);
-- (void)olsStreamingReplacements: /* Error: Ran out of types for this method. */;
+- (void)on: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double cornerAngleWindow; // @synthesize cornerAngleWindow=_cornerAngleWindow;

@@ -20,9 +20,9 @@
     MISSING_TYPE *$__lazy_storage_$_view;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

@@ -32,8 +32,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIFont *commentAttributionDateFont;

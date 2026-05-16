@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id)resetsOfKind:(id)arg1;
+- (id)hout an elementary stack;
 
 @end
 

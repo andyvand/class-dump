@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)"8Q16^B24;
 + (id);
-- (_Bool);
++ (id);
+- (_Bool);
 - (_Bool);
 
 @end

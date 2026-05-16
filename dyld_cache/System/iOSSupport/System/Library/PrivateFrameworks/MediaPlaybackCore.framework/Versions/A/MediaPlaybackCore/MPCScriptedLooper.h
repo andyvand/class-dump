@@ -21,22 +21,22 @@
     long long _currentLoopCount;
 }
 
-+ (void)_extractPhoneNumberFrom:(_Bool)arg1;
-+ (_Bool)okensIfNeeded;
++ (void);
++ (_Bool);
 - (id);
 - (void);
-- (void)unt"16@"ACDAccountStore"24@"NSString"32@?<v@?q@"NSError">40;
-- (void)"NSDictionary"32;
-- (void):(CDUnknownBlockType)arg1;
-- (void)er token;
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
-- (void)name: /* Error: Ran out of types for this method. */;
-- (void)nIn:%@, isInGoodStateForRepair:%@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType):%@, newAccount:%@, changeType:%@, didSignIn:%@, didSignOut:%@, wasModified:%@ } /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,29 +45,29 @@
 - (id);
 - (id);
 - (id);
-- (long long)conManagerXPCProtocol;
-- (id)tocol;
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)nsignedIntegerValue;
-- (void)frontForMediaType: /* Error: Ran out of types for this method. */;
-- (CDStruct_198678f7)pe:(long long)arg1;
-- (long long)ccount:(CDStruct_198678f7)arg1 willPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
-- (id)processAccountAddition:inStore: /* Error: Ran out of types for this method. */;
+- (long long);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (CDStruct_198678f7);
 - (id);
-- (id);
-- (void)°÷ÿÔ÷ÿ ÷ÿ\ ÷ÿ ÷ÿ¼ ÷ÿì ÷ÿ!÷ÿT!÷ÿ!÷ÿÀ!÷ÿô!÷ÿ "÷ÿD"÷ÿ"÷ÿÄ"÷ÿè"÷ÿ#÷ÿH#÷ÿl#÷ÿ¨#÷ÿì#÷ÿ$÷ÿL$÷ÿ´$÷ÿô$÷ÿ%÷ÿL%÷ÿ%÷ÿÌ%÷ÿô%÷ÿ,&÷ÿ&÷ÿÔ&÷ÿü&÷ÿ,'÷ÿl'÷ÿ¬'÷ÿÐ'÷ÿ(÷ÿ0(÷ÿT(÷ÿ(÷ÿÀ(÷ÿø(÷ÿ`)÷ÿ )÷ÿÈ)÷ÿø)÷ÿ8*÷ÿx*÷ÿ *÷ÿØ*÷ÿ@+÷ÿ+÷ÿ¨+÷ÿØ+÷ÿ,÷ÿX,÷ÿ|,÷ÿ¼,÷ÿä,÷ÿ$-÷ÿ\-÷ÿ-÷ÿ¼-÷ÿì-÷ÿ.÷ÿT.÷ÿ.÷ÿÈ.÷ÿì.÷ÿ /÷ÿä/÷ÿ0÷ÿP0÷ÿ0÷ÿÄ0÷ÿü0÷ÿ41÷ÿl1÷ÿð8÷ÿ$9÷ÿH9÷ÿ|9÷ÿ¨9÷ÿÌ9÷ÿ:(id)arg1 ÷ÿL:(id)arg2 ÷ÿp:(id)arg3 ÷ÿ¤:(void *)arg4 ÷ÿÐ:÷ÿô:÷ÿ8;÷ÿ\;÷ÿ;÷ÿ¼;÷ÿà;÷ÿ$<÷ÿH<÷ÿ|<÷ÿ¨<÷ÿÌ<÷ÿ=÷ÿ8=÷ÿp=÷ÿ =÷ÿÈ=÷ÿ>÷ÿ8>÷ÿp>÷ÿØ>÷ÿ?÷ÿ@?÷ÿp?÷ÿ°?÷ÿð?÷ÿ@÷ÿP@÷ÿ@÷ÿ¨@÷ÿè@÷ÿ0A÷ÿXA÷ÿA÷ÿÀA÷ÿèA÷ÿ(B÷ÿpB÷ÿB÷ÿÐB÷ÿ /* Error: Ran out of types for this method. */;
+- (long long);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (void)ng all events;
+- (id)]lF;
 
 // Remaining properties
 @property(nonatomic) long long currentLoopCount; // @synthesize currentLoopCount=_currentLoopCount;

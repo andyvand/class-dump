@@ -10,7 +10,7 @@
 {
 }
 
-- (id)";
+- (id);
 - (const void *);
 - (struct Schemata);
 - (int);

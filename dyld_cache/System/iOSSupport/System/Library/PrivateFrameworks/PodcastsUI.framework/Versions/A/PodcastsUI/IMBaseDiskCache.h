@@ -14,16 +14,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)ngPlayback;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)WorkItem;
 - (id);
+- (void);
 - (id);
 - (_Bool);
 - (void);
+- (void)iesForCatalog: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;

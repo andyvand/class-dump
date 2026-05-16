@@ -5,6 +5,5 @@
 //
 
 @protocol IMSimulatedDaemonListener
-- (void));
 @end
 

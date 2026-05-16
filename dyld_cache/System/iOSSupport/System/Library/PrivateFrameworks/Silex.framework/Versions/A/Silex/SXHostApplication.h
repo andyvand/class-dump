@@ -12,13 +12,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)
-× ;
-- (id)er;
+- (id);
+- (void)88@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16[128{CGRect={CGPoint=dd}{CGSize=dd}}]48{CGRect={CGPoint=dd}{CGSize=dd}}56 /* Error: Ran out of types for this method. */;
+- (_Bool)eAttributesMap;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active;

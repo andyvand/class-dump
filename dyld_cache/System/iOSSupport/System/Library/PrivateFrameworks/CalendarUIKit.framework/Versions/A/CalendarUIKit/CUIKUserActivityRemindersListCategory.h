@@ -20,9 +20,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)attributes:(id)arg1 context: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)c;
+- (id);
+- (id);
+- (void)eAbbreviatedFormats:lowerCase: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -26,14 +26,14 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id)O+;
 - (id);
-- (void)ta:KTDeviceSignature:mismatchedAccountFlag:ktCapableFlag:transparency:pushToken:sessionToken:expireDate:refreshDate:anonymizedSenderID:verifiedBusiness:serializedPublicMessageProtectionIdentity:queryTimeInterval:serializedNGMDeviceIdentity:serializedNGMDevicePrekey:serializedApplicationPublicKey:endpointURIProperties:familyEndpointData:gameCenterData: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)tspotHS20Settings";
-- (void)ger;
-- (id)hold, %.3f, contextCandidateAmountThreshold, %lu,             contextDistanceThreshold, %.3f, minimumConfidenceRatio, %.3f, minimumNumberPOIs, %lu, passthroughThreshold, %.3f, placeholderWeight, %.3f, revGeoConfidence, %.3f,             sigma, %.3f, weekThreshold, %lu;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)doffSessionCriteriaFetchActiveSessionDetailsCkLatency;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int *binCounts; // @synthesize binCounts=_binCounts;

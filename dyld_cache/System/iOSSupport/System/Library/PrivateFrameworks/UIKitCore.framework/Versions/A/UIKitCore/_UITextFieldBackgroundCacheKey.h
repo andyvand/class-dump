@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void)erNowPlayingTimeSnapshot",R,N,V_lastServerTimeSnapshot;
 - (void);
-- (_Bool)atingInCompactHeight;
+- (unsigned long long);
+- (_Bool)ize";
+- (_Bool)entSizeCategory:(id)arg1 carPlay: /* Error: Ran out of types for this method. */;
+- (id)backingScrollView;
+- (void)g÷¾7y_8õ¾7SgG;
 
 @end
 

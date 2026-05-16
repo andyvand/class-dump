@@ -13,24 +13,24 @@
     NSArray *_searchTokens;
 }
 
-+ (unsigned long long)stomPasswordWithPrompt:(unsigned long long)arg1 displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (_Bool)reshTypingAttributesForTextView:textStorage: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1;
-- (_Bool)completionHandler:(id)arg1;
-- (_Bool)older;
-- (unsigned long long)tor: /* Error: Ran out of types for this method. */;
++ (unsigned long long);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)count:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
-- (id)sword for Your Locked Notes;
-- (id)max-width:(id)arg1 100%%; max-height:(id)arg2 100%%;" src="data:%@;base64,%@" /* Error: Ran out of types for this method. */;
-- (void)te];
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)P;
+- (void)}};
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *searchTokens; // @synthesize searchTokens=_searchTokens;

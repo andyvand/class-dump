@@ -19,9 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)15Ð1b0@ù
-× ;
+- (void)ÿyÍÿyÿyñ~ÿy»ÅÿyýÿSS&ÿySaySSGSSAFGG¾ÿG_ADyAEyAFSSAISgGAKGADyèQyRÿylÅÿyAFGSSG_Qo_AKGtGAByAfEyAFSSAGySaySo9CNContactCGAXnQyAF_SSQo_GGGGAF_G;
+- (void)è;
 
 // Remaining properties
 @property(retain, nonatomic) PRUISPosterAttachmentConfiguration *attachmentConfiguration; // @dynamic attachmentConfiguration;

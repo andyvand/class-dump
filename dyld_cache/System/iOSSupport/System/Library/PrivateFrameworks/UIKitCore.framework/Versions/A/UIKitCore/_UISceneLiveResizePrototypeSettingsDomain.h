@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)s;
 + (id);
-+ (Class)percentPresented;
-+ (id);
++ (id)HeightForStyle: /* Error: Ran out of types for this method. */;
++ (id)iginsToItemsInLayouts: /* Error: Ran out of types for this method. */;
++ (Class)gationBarTitleTransitionSpec;
 
 @end
 

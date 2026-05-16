@@ -15,19 +15,19 @@ __attribute__((visibility("hidden")))
     id _retainedSelf;
 }
 
-+ (void)¨RÿÙ	Í¯k;
++ (void)X@n;
 - (void);
 - (void);
 - (void);
-- (void)ateWithTimeIntervalSince1970: /* Error: Ran out of types for this method. */;
-- (void)ectory:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void)3SoundAnalysis9DivisibleP;
-- (long long);
-- (void)N,V_accessoryImageSpacing;
 - (void);
-- (void)yWithSystemName:(id)arg1 private:configuration: /* Error: Ran out of types for this method. */;
-- (_Bool).m;
+- (long long);
+- (void);
+- (void)edCornerRadius"b1"hasCustomizedBackgroundInsets"b1"hasCustomizedEdgesAddingLayoutMarginsToBackgroundInsets"b1"hasCustomizedBackgroundColor"b1"hasCustomizedBackgroundColorTransformer"b1"hasCustomizedVisualEffect"b1"hasCustomizedVisualEffectGroupName"b1"hasCustomizedVisualEffectblurClippingMode"b1"hasCustomizedImage"b1"hasCustomizedImageContentMode"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1"hasCustomizedMaskedCorners"b1"hasCustomizedMaterial"b1};
+- (void)û¶.3GGSOGGGAJG_kØ.3Qo__ò¾7Qo__áx.3Qo__Qo_AFyò§.3GG_G;
+- (_Bool)elligenceLightSourceConfiguration;
 
 @end
 

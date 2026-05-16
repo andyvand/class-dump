@@ -12,7 +12,7 @@
     MISSING_TYPE *databaseProvider;
     MISSING_TYPE *toolkitSyncEngine;
     MISSING_TYPE *shortcutsSpotlightCoordinator;
-    MISSING_TYPE *toolkitCoordinator;
+    MISSING_TYPE *baseSpotlightToolCoordinator;
     MISSING_TYPE *contextualActionSpotlightSyncService;
     MISSING_TYPE *$__lazy_storage_$_triggerService;
     MISSING_TYPE *$__lazy_storage_$_indexingQueue;

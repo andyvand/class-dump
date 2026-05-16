@@ -6,23 +6,26 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class NSArray;
+@class NSArray, NSDictionary;
 
 @interface IMDExportedParticipantBatch : IMDExportedRecordBatch
 {
+    void batchIterationKeys;
     void records;
 }
 
-+ (_Bool)DPersistence32AttachmentStorageDirectoryLogger;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)iew",R,N;
-- (id);
+- (void)ory too:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(nonatomic, readonly) NSDictionary *batchIterationKeys;
 @property(nonatomic, readonly) NSArray *records;
 
 @end

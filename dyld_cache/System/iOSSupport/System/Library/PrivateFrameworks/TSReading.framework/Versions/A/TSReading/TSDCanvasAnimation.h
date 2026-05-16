@@ -42,29 +42,28 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (float);
-- (id);
-- (id);
 - (void);
+- (double);
 - (void);
-- (void);
-- (double)/usr/lib/swift/libswiftAccelerate.dylib;
 - (CDUnknownBlockType);
+- (double);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void);
 - (void *);
-- (void);
 - (id);
-- (void)";
-- (void);
 - (id);
 - (void);
-- (void)!ÈEùÑQ°1¢!0@ù
-× ;
-- (CDUnknownBlockType)e;
-- (void)ntIndexAtCharIndex:(id)arg1;
-- (id)e: /* Error: Ran out of types for this method. */;
-- (double)ures;
-- (double)TSDMetalEdgeDistanceField_Trace_FragmentShader;
+- (void)n:(id)arg1 columnBounds: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ties: /* Error: Ran out of types for this method. */;
+- (void)oot dataFromDocumentCachePath:(CDUnknownBlockType)arg1 ];
+- (void)Ä.;
+- (void)±Îÿ¿M\q;
+- (void)î5;
+- (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *animationID; // @synthesize animationID=_animationID;

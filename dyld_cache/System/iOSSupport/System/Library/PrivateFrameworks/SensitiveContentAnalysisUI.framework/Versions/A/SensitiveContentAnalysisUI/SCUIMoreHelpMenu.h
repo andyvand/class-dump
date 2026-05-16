@@ -4,58 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SCUIMoreHelpMenuModel, SCUIReportAuthority, UIViewController;
+@class MISSING_TYPE;
 @protocol SCUIMoreHelpMenuDelegate;
 
 @interface SCUIMoreHelpMenu
 {
-    long long _options;
-    id <SCUIMoreHelpMenuDelegate> _menuDelegate;
-    long long _interventionType;
-    SCUIReportAuthority *_authority;
-    UIViewController *_viewControllerThatPresented;
-    SCUIMoreHelpMenuModel *_model;
+    void menuDelegate;
+    MISSING_TYPE *viewControllerThatPresented;
+    MISSING_TYPE *model;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
++ (id)
+ Ò?¬Ô;
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) SCUIReportAuthority *authority; // @synthesize authority=_authority;
-@property(readonly, copy, nonatomic) NSDictionary *contextDictionary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long interventionType; // @synthesize interventionType=_interventionType;
-@property(nonatomic) __weak id <SCUIMoreHelpMenuDelegate> menuDelegate; // @synthesize menuDelegate=_menuDelegate;
-@property(retain, nonatomic) SCUIMoreHelpMenuModel *model; // @synthesize model=_model;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIViewController *viewControllerThatPresented; // @synthesize viewControllerThatPresented=_viewControllerThatPresented;
+@property(nonatomic) __weak id <SCUIMoreHelpMenuDelegate> menuDelegate; // @synthesize menuDelegate;
 
 @end
 

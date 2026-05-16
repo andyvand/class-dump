@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)3;
 + (id);
-+ (id)ôÄ2;
++ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) short contextType; // @dynamic contextType;

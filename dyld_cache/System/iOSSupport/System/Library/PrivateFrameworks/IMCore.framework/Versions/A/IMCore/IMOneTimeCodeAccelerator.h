@@ -24,14 +24,14 @@
 - (void);
 - (id);
 - (void);
-- (void)6;
 - (void);
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (CDUnknownBlockType)L:isSensitive: /* Error: Ran out of types for this method. */;
-- (id)ice: /* Error: Ran out of types for this method. */;
+- (void)Ä]_`a;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <IMDaemonMultiplexedConnectionManaging> daemonConnection; // @synthesize daemonConnection=_daemonConnection;

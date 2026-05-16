@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)fierCommonRenderer;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *flattenMode; // @dynamic flattenMode;

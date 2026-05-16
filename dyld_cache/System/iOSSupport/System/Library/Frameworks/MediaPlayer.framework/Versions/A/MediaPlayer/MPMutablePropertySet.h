@@ -10,12 +10,12 @@
 {
 }
 
-+ (id)r;
++ (id);
 - (void);
 - (id);
 - (void);
-- (void)tput messageItems:(id)arg1 %lu};
-- (void)Token = "%@", encryptionValidationToken = "%@">;
+- (void);
+- (void);
 - (id);
 - (id);
 

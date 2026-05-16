@@ -16,11 +16,11 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)enAddedDateKey %@ is newer or the same as the one being set %@, ignoring.;
+- (id)ÄÏîÿ¸Øÿh;
+- (void);
 
 @end
 

@@ -13,10 +13,10 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;

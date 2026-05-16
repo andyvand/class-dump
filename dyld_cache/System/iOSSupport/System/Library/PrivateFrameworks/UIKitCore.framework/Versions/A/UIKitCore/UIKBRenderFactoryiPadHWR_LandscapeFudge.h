@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)layName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
 - (struct CGPoint);
 - (_Bool);
 

@@ -46,8 +46,8 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
+- (void)ÀÐ;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *bookkeepingQueue; // @synthesize bookkeepingQueue=_bookkeepingQueue;

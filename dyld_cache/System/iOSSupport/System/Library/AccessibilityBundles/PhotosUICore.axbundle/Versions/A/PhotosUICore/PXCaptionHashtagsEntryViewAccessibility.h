@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (struct _NSRange);
@@ -22,9 +22,9 @@
 - (void);
 - (struct _NSRange);
 - (unsigned long long);
+- (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
 - (id);
 

@@ -18,12 +18,13 @@
     NSDictionary *_messageSummaryInfo;
 }
 
-+ (_Bool)s;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
 @property(retain, nonatomic) NSDictionary *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
+@property(copy, nonatomic) NSDictionary *mmcsInfo;
 @property(retain, nonatomic) NSString *otherCountryCode; // @synthesize otherCountryCode=_otherCountryCode;
 @property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
 @property(retain, nonatomic) NSString *otherUnformattedID; // @synthesize otherUnformattedID=_otherUnformattedID;

@@ -42,11 +42,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)|øÿC ÿûc;
+- (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cellViews; // @synthesize cellViews=_cellViews;

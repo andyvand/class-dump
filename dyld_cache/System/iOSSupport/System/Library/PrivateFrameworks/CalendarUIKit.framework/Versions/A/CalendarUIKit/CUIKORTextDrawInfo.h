@@ -12,8 +12,8 @@
 
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (struct CGSize);
+- (void)t: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;

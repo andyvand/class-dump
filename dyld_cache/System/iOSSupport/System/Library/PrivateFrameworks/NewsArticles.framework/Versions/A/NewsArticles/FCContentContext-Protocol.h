@@ -5,21 +5,19 @@
 //
 
 @class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (void)";
-- (id <FCContentContextInternal>);
-- (NSString *)Ȇ;
-- (NSString *);
-- (FCAssetManager *);
-- (NSURL *)iew",&,N,V_currentPreview;
-- (id <FCNetworkReachabilityType>)Data;
-- (id <FCFeedItemFactoryType>)aAssetType;
-- (id <FCPPTContext>)®ëÿµßnìhÌÿµßnìiÊÿ;
-- (FCArticleController *)P]µnø;
-- (FCFeedDatabase *)èn4ÂÓÿñçn0ÂÓÿ;
-- (NSString *)øÏÿµo ÏÿµoHÏÿ;
+- (FCFlintResourceManager *);
+- (NSString *)itional.tag_subscription_status;
+- (id <FCFeedItemFactoryType>)ess recipes in a beautiful and easy-to-use format optimized for cooking.;
+- (id <FCRecipeItemFactoryType>)led to fetch end of article feed service config. Error=%{public}@);
+- (NSString *)ewsArticles/ArticleViewController.swift;
+- (id <FCPPTContext>)article content url broken;
+- (id <FCMagazinesConfigurationManager>)andEvent %{public}@;
+- (id <FCNetworkReachabilityType>)ËÀÅÿ;
+- (FCPuzzleController *)ÁõÅ»;
+- (NSString *)"	èÅÈÿM#	ðàÈÿÝ"	ìÅÈÿÝ"	ÜàÈÿ%#	ìÅÈÿ]#	ìÅÈÿ-#	üÅÈÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;

@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     struct CGPoint _firstReferencePoint;
 }
 
-- (void)ceDelegatePrivate;
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (double);
 - (_Bool);
-- (_Bool)eName:%s /* Error: Ran out of types for this method. */;
-- (struct CGPoint)load task reports for group %{public}lu:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)with non null activity %@;
+- (_Bool);
+- (struct CGPoint);
+- (_Bool);
 - (double);
 - (void);
 

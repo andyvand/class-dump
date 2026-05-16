@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
 - (void);
 - (float);
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly) struct CGRect boundingBox;

@@ -7,7 +7,6 @@
 @class NSArray, NSString;
 
 @protocol CNKCallParticipantLabelDescriptorProtocol
-- (long long)r:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *durationString;

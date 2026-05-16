@@ -16,15 +16,15 @@
 
 - (void);
 - (void);
+- (id)XÁXÁ 	XÁ¬MXÁ4ÒXÁLwXÁ|XÁD XÁ|)XÁð"XÁUXÁ|?XÁ0XÁTÑXÁÌÄXÁüh<K;
 - (id);
 - (void);
+- (_Bool);
 - (id);
 - (id);
+- (_Bool)¸iùÿ$mþÿ;
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void)rrentTime;
+- (void)Sg;
 
 // Remaining properties
 @property(nonatomic) _Bool isOnScreen;

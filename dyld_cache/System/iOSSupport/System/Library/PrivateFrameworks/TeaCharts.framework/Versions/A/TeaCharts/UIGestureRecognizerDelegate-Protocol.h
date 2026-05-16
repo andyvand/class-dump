@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)L;
-- (_Bool);
-- (_Bool)it:(UIGestureRecognizer *)arg1 account.dirtyProperties:(UIGestureRecognizer *)arg2 %{public}@, account.dirthAccountProperties:%{public}@ /* Error: Ran out of types for this method. */;
 @end
 

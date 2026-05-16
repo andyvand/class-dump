@@ -14,13 +14,12 @@
     NSString *_password;
 }
 
-+ (id);
-- (id)ice %@ replicating account %@, but is SOS, permitting on received iMessage account session instead;
++ (id);
 - (id);
-- (void)µÚº;
-- (id)1¢!0@ù
-× ;
-- (id)eplace Dashes;
+- (id);
+- (id)ControllerPartitionAdapter;
+- (id)33àrnþ;
+- (void)Nô;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;

@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id)oreFoundation;
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)e: /* Error: Ran out of types for this method. */;
-- (id)hangedNotification;
+- (void)ronizeSystemAnimationFencesWithCleanUpBlock:(id)arg1;
+- (id)f);
+- (id)r=%li%@%@;
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

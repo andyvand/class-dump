@@ -18,11 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
 - (id);
-- (id);
-- (_Bool);
+- (void)ox Folder (Action Name);
+- (id)28WFWorkflowActionTreeObserver_p;
+- (_Bool)q;
+- (long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

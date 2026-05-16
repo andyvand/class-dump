@@ -12,10 +12,10 @@
 }
 
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id)rank %lu;
 
 @end
 

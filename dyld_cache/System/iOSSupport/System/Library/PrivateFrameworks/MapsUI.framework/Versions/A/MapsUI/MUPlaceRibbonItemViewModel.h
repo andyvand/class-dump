@@ -45,10 +45,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (long long);
 - (_Bool);
 - (void);
-- (long long);
-- (void)fLinesWhenCollapsed;
+- (void)hCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *preferredAccessibilityValue; // @synthesize preferredAccessibilityValue=_preferredAccessibilityValue;

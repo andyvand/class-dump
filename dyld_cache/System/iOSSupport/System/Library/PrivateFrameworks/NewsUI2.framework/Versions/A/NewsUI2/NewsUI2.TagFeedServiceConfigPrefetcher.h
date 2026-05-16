@@ -20,8 +20,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)øý°	CodingKeys;
 
 @end
 

@@ -5,8 +5,6 @@
 //
 
 @protocol AVTDiscardableContent
-- (void);
-- (void (^)(id <AVTDiscardableContent>))$;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType discardableContentHandler;

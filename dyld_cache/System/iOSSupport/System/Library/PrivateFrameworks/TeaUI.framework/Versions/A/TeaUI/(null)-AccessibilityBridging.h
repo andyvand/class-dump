@@ -8,7 +8,7 @@
 
 @interface (null) (AccessibilityBridging)
 - (void);
-- (id);;
+- (id);
 - (id);
 
 // Remaining properties

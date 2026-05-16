@@ -7,9 +7,9 @@
 @class UIView;
 
 @protocol UIInteraction
-- (UIView *)c;
-- (void)cs;
-- (void)t;
+- (UIView *)tentViewControllerContainerViewConstraints;
+- (void);
+- (void)0, or UITableViewAutomaticDimension.;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *view;

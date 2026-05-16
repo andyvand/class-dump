@@ -17,72 +17,72 @@
     _Bool _isCommitting;
 }
 
-- (void);
-- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void)ceAppInstallation;
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
+- (struct CGRect);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void)P;
-- (void)A;
-- (struct CGRect);
-- (void)º;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)!dAù±Y°1Â0@ù
+× ;
+- (void)× ;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)Á°!Dù±`ð1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (void)!AùÑc°1Â0@ù
+× ;
+- (void)B32B36;
+- (_Bool)@"__UIDiffableDataSource";
+- (_Bool)ceRange:(struct CGPoint)arg1;
+- (id)KeyHitTest: /* Error: Ran out of types for this method. */;
+- (id)thButtonSpacing: /* Error: Ran out of types for this method. */;
+- (_Bool)ssDefault: /* Error: Ran out of types for this method. */;
+- (struct CGRect): /* Error: Ran out of types for this method. */;
+- (void)nLoopTimeOut;
+- (_Bool)eview:(struct CGPoint)arg1;
+- (id);
+- (void)ouchForView:(struct CGPoint)arg1;
+- (void)tFrame;
+- (struct CGPoint)kgroundTask with taskName:(struct CGPoint)arg1 %{private}@, expirationHandler:(struct CGRect)arg2 %@;
+- (void)arKeyboardPaste.png;
+- (id)p;
+- (void)3<5¯þå2385¯þ;
+- (void)´Á7à¶;
+- (id);
+- (void);
+- (long long)^Bÿº¡Öp½^;
 - (void);
+- (void)0Ùa;
+- (id)q;
+- (void);
+- (void)q;
+- (void)dk¨ÿÜMÝØd;
 - (id);
-- (void)!DùqÀð1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (_Bool)BùÅ1¢!0@ù
-× ;
-- (void)ù1ÉÐ1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (unsigned long long)Ô ;
-- (id)erKeyboardSession";
-- (id);
-- (void)dding:(long long)arg1;
-- (void)ddsHeightWhenUndocked: /* Error: Ran out of types for this method. */;
-- (_Bool)ycle:(struct CGPoint)arg1 forceDoubleDigitHours:displaysTimeZone: /* Error: Ran out of types for this method. */;
-- (_Bool)dex: /* Error: Ran out of types for this method. */;
-- (_Bool)stureAtPoint:translation: /* Error: Ran out of types for this method. */;
-- (struct CGRect)arance: /* Error: Ran out of types for this method. */;
-- (void)ndEffect:(struct CGPoint)arg1;
-- (void)rounded:(struct CGPoint)arg1 firstActivation:(struct CGPoint)arg2;
-- (struct CGPoint)ensureSynthesizedContent;
-- (id)otsInHierarchy;
-- (_Bool),W,N,V_actionDelegate;
-- (_Bool)|k´opq ®,¾ø((%D3ÜThdtàuä| }4ÄÀ\ì<;
-- (void)Gþÿuüÿ;
-- (void)ay_Track_Regular_%@_%@;
-- (struct CGRect)e Fonts;
-- (id)ph;
-- (id)UIWindowScene;
-- (void)AÿúÒrça;
-- (void)Ø8ÿ7ÆÓf±b;
-- (void)8ÛÑþÍÕf;
-- (id);
-- (void);
-- (void)¥Ûjf;
-- (id)W®ÊÞpf;
-- (void)f;
-- (void)Deÿ*ZÏeg;
+- (id)öÿ;
+- (void)ªÒ;
+- (void)zf;
+- (void);
+- (void)g;
+- (id)ì§ÿ;
+- (id)yÊÿEÒBh;
 
 // Remaining properties
 @property(retain, nonatomic) UITextRange *base; // @synthesize base=_base;

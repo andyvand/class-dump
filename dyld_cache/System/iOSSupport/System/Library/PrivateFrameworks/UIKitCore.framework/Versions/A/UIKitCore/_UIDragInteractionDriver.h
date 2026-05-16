@@ -29,55 +29,62 @@
     UIGestureRecognizer *_gestureRecognizerForDragInitiation;
 }
 
-- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (void)á°!lCùñ`1Â0@ù
+× ;
+- (double)ùqbð1Â0@ù
+× ;
+- (_Bool)Ñb°1Â0@ù
+× ;
+- (void);
+- (void)0@ù
+× ;
+- (_Bool)!dDùQfð1Â0@ù
+× ;
 - (unsigned long long);
-- (id)ction;
-- (void)edCorners:(_Bool)arg1 ignoreLiftScale: /* Error: Ran out of types for this method. */;
-- (void)ustomizationSession;
-- (id)estoration:%@ /* Error: Ran out of types for this method. */;
-- (void)Dictionary is the same as the last one that was saved, skipping save;
-- (void)e.InputIntelligenceUITests-iOS-All.xctrunner;
-- (_Bool)edSourcePreview;
-- (void)PointerHoverStyleDriver;
-- (unsigned long long)om;
-- (double)0:8{CGPoint=dd}16@32 /* Error: Ran out of types for this method. */;
+- (void)1Â0@ù
+× ;
+- (double)0;
+- (void)@0:(_Bool)arg1 8@"UIAlertView"16q24;
+- (_Bool)dateMaskViewsForView: /* Error: Ran out of types for this method. */;
+- (void)selectedDate:followsSystemHourCycle: /* Error: Ran out of types for this method. */;
+- (void)pleteKeys;
+- (_Bool)tionProgressForPresentation;
 - (_Bool);
+- (void)pingViewWithLeftBoundary:(_Bool)arg1 rightBoundary:leftMaskImage:leftMaskIsChevron:rightMaskImage: /* Error: Ran out of types for this method. */;
+- (_Bool)belColor;
+- (void)llView;
+- (_Bool)essed: /* Error: Ran out of types for this method. */;
+- (id)moveEventObserver: /* Error: Ran out of types for this method. */;
+- (unsigned long long)yItem;
+- (void)aultAttributes;
+- (void)tionPreview;
+- (void)ext:(double)arg1 collectionView: /* Error: Ran out of types for this method. */;
+- (void)resSpeedBumpEdges;
+- (void)ightClamping;
+- (void)_UISmartReplyFeedbackManager",&,N,V_smartReplyFeedbackManager;
+- (id)ID;
+- (void)pearanceTransition;
 - (void);
-- (void)cation"8;
-- (_Bool)ndled error during replacement animation: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ng",N,C;
-- (void);
-- (id)Box;
-- (void)ÝEÿ3DNÿÅEÿ3ÔîdþÅEÿ3ø"|þÍEÿ3±þ;
-- (_Bool)Attribute;
-- (_Bool);
-- (void)H8;
-- (id);
-- (void)Wmþ;
-- (void)ì÷iþÅ4¬÷iþ;
-- (double)ewControllerComponentKey;
-- (_Bool)ÚÓ[;
-- (void)ã½[;
-- (void);
-- (void)£\;
-- (double);
-- (void)÷%^;
-- (double)Àã/ÿ;
-- (void)-n;
-- (void)÷àþ;
-- (void)Cy^;
-- (void)ûì^;
-- (struct CGPoint)Jù^;
-- (void)åàþ^;
-- (void)l&iÿq9G_;
-- (_Bool)î7`;
-- (void)Ô*;
-- (void)þã;
-- (void);
-- (void)ÄòþBÖ)£a;
-- (_Bool)æ-ÿ;
+- (void)AccentVariantViewCell;
+- (double),&'( )¤)|*\+p,;
+- (id)c;
+- (void)pletion now:%@ /* Error: Ran out of types for this method. */;
+- (void)to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:(unsigned long long)arg1 ] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
+- (_Bool)x1êÿ1êÿ1êÿ1êÿ¨1êÿ´1êÿ;
+- (void)p.count;
+- (CDUnknownBlockType)y;
+- (void)e non-nil;
+- (struct CGPoint);
+- (void)x\;
+- (double)¬@ÿã;
+- (void)4Ã±ÿÿÜÛ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

@@ -13,16 +13,16 @@
     NSFileHandle *_fileHandle;
 }
 
-+ (id)÷A6j1;
-- (_Bool)MatchingRangeWithAccessingObject: /* Error: Ran out of types for this method. */;
-- (void)rrentDomain:(id)arg1 forQuirkDomains:(_Bool)arg2 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)nge:(id)arg1 inTextStorage:updates:] /* Error: Ran out of types for this method. */;
++ (id)alloonView;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)[Ð^ô^è_`;
+- (void)LE;
 - (id);
 
 // Remaining properties

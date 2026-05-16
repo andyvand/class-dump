@@ -15,12 +15,12 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;

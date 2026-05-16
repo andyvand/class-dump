@@ -15,6 +15,7 @@
     MISSING_TYPE *_publicURL;
     MISSING_TYPE *_notificationsEnabled;
     MISSING_TYPE *_multipleContributorsEnabled;
+    MISSING_TYPE *hasBeenMigrated;
     MISSING_TYPE *observable;
     MISSING_TYPE *_$observationRegistrar;
 }

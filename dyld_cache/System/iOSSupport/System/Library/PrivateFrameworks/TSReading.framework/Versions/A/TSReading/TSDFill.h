@@ -23,15 +23,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)4C@9 S;
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool)ü(
-Ü);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

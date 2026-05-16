@@ -7,7 +7,6 @@
 @class WFTemperatureUnitProvider;
 
 @protocol WeatherServicePrivateProtocol
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFTemperatureUnitProvider *temperatureUnitProvider;

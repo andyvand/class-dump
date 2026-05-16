@@ -21,16 +21,16 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType)ng"16@"NSString"24@"NSData"32@"NSString"40;
-- (id)essagesInChatsWithGUIDs:queryID: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)scriptionValidationToken;
+- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)ceVerticalOffset;
-- (void)ureDoubleTapShortHand;
-- (id)ndowScene;
+- (id)ViewControllerColumn:(struct _NSZone *)arg1;
+- (void)(Ò=ÿêx;
+- (void)jÛ )_;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=_popPreemptsPushInSwiftUIEnabled) _Bool _popPreemptsPushInSwiftUIEnabled; // @synthesize _popPreemptsPushInSwiftUIEnabled=__popPreemptsPushInSwiftUIEnabled;

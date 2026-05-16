@@ -12,13 +12,13 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)imeAudioURLFutureWithHandle:contact: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

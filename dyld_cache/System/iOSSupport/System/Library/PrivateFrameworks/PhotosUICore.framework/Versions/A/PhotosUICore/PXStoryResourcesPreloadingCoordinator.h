@@ -23,13 +23,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void)r;
-- (id);
-- (id)ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.;
 - (void);
-- (void)À;
+- (void)nnull)(BOOL));
+- (void);
+- (id)@La;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNickname, NSDictionary, NSMutableDictionary, NSMutableSet, NSSet;
+@class IMNickname, NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSSet;
+@protocol OS_dispatch_queue;
 
 @interface IMNicknameController
 {
     _Bool _isInitialLoad;
-    NSMutableDictionary *_responseHandlers;
     IMNickname *_personalNickname;
     NSDictionary *_pendingNicknameUpdates;
     NSDictionary *_handledNicknames;
@@ -20,12 +20,14 @@
     NSDictionary *_activeRecords;
     NSDictionary *_ignoredRecords;
     NSDictionary *_unknownSenderRecords;
+    NSMutableDictionary *_responseHandlers;
     NSMutableSet *_scrutinyNicknameHandles;
+    NSObject<OS_dispatch_queue> *_loadQueue;
 }
 
 + (_Bool);
-+ (_Bool)a;
-+ (id)ÐÚÿöß;
++ (_Bool);
++ (id)²Æÿÿ;
 - (void);
 - (void);
 - (void);
@@ -39,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,80 +55,83 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool)�;
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void)/swift/libswiftAppleArchive.dylib;
-- (id);
-- (void)B;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id)%@ bundleID %@ attributionInfoName %@ timeout:%f /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ø¦;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *activeRecords; // @synthesize activeRecords=_activeRecords;
 @property(retain, nonatomic) NSSet *allowListedHandlesForSharing; // @synthesize allowListedHandlesForSharing=_allowListedHandlesForSharing;
-@property(retain, nonatomic) NSDictionary *archivedNicknames; // @synthesize archivedNicknames=_archivedNicknames;
+@property(retain) NSDictionary *archivedNicknames; // @synthesize archivedNicknames=_archivedNicknames;
 @property(retain, nonatomic) NSSet *denyListedHandlesForSharing; // @synthesize denyListedHandlesForSharing=_denyListedHandlesForSharing;
-@property(retain, nonatomic) NSDictionary *handledNicknames; // @synthesize handledNicknames=_handledNicknames;
+@property(retain) NSDictionary *handledNicknames; // @synthesize handledNicknames=_handledNicknames;
 @property(retain, nonatomic) NSDictionary *ignoredRecords; // @synthesize ignoredRecords=_ignoredRecords;
 @property(nonatomic) _Bool isInitialLoad; // @synthesize isInitialLoad=_isInitialLoad;
-@property(retain, nonatomic) NSDictionary *pendingNicknameUpdates; // @synthesize pendingNicknameUpdates=_pendingNicknameUpdates;
+@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *loadQueue; // @synthesize loadQueue=_loadQueue;
+@property(retain) NSDictionary *pendingNicknameUpdates; // @synthesize pendingNicknameUpdates=_pendingNicknameUpdates;
 @property(retain, nonatomic) IMNickname *personalNickname; // @synthesize personalNickname=_personalNickname;
 @property(retain, nonatomic) NSMutableDictionary *responseHandlers; // @synthesize responseHandlers=_responseHandlers;
 @property(retain, nonatomic) NSMutableSet *scrutinyNicknameHandles; // @synthesize scrutinyNicknameHandles=_scrutinyNicknameHandles;

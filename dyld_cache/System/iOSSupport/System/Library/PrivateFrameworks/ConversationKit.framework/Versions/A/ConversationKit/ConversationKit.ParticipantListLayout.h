@@ -14,14 +14,14 @@
     MISSING_TYPE *delegate;
 }
 
-- (_Bool);
+- (id);
+- (id);
 - (struct CGSize);
-- (id);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)LayoutGuideC;
+- (id)ity;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;

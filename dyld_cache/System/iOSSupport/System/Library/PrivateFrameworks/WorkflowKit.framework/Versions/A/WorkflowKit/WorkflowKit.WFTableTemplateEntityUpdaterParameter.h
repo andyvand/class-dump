@@ -20,7 +20,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)p open.;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsMultipleValues;

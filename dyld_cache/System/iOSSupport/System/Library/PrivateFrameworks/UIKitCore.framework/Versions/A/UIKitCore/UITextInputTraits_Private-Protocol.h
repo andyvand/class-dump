@@ -7,101 +7,85 @@
 @class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
 
 @protocol UITextInputTraits_Private
-- (void)8;
 
 @optional
-- (void)sealing map;
-- (UITextRange *)Account: /* Error: Ran out of types for this method. */;
-- (void);
-- (NSIndexSet *)Q;
-- (_Bool);
+- (_Bool)0@ù
+× ;
+- (_Bool)!ÔBùQY1Â0@ù
+× ;
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (_Bool)¡!@Bù\1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (long long)ÔaÐ!°BùQ`1Â0@ù
+× ;
+- (long long)0@ù
+× ;
+- (void)!¸@ùQb°1Â0@ù
+× ;
+- (_Bool)!Dùqbð1Â0@ù
+× ;
+- (void)!	ð!@ùQe°1Â0@ù
+× ;
+- (void)r";
+- (void)UITextField"16{_NSRange=QQ}24@"NSString"40;
+- (double)unhighlightItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)ntaryContentInsetsReference;
+- (void)lor:(_Bool)arg1;
+- (void)alBetweenSuccessiveTaps:(_Bool)arg1;
+- (void)ousContents:(_Bool)arg1;
+- (void)exibleSpaceGuide:(struct _NSRange)arg1;
+- (void)ompletion:(NSString *)arg1;
 - (void);
-- (_Bool)curityInformationCommand_StatusSecurityInfoFirmwarePasswordStatus",C,N,V_statusFirmwarePasswordStatus;
-- (void)s;
-- (void)nArray:(long long)arg1;
-- (void)g",C,N,V_siriAssetInfo;
-- (_Bool)loudUniversalLibraryID;
-- (_Bool)h;
-- (void)ÉQº;
-- (void)¿¹;
-- (void)1¢!0@ù
-× ;
-- (void)Ao°!¬DùÁð1¢!0@ù
-× ;
-- (void)
-× ;
-- (UIColor *)ÑÂ1¢!0@ù
-× ;
-- (NSString *);
-- (void)0@ù
-× ;
-- (void)Çð1¢!0@ù
-× ;
-- (int)1¢!0@ù
-× ;
-- (_Bool)¡tÐ!àFùÑÈÐ1¢!0@ù
-× ;
-- (void)!hFùÊÐ1¢!0@ù
-× ;
-- (_Bool)Ð1¢!0@ù
-× ;
-- (void)!CùQÎð1¢!0@ù
-× ;
-- (_Bool)!AùÑÎ°1¢!0@ù
-× ;
-- (void)esCoordinatorDelegate>"16;
-- (UIColor *)action"16@"<UIDragInteractionContext>"24;
-- (void)"<NSCopying>"32;
-- (void)onmentFromKeyCode:(_Bool)arg1;
-- (long long)r: /* Error: Ran out of types for this method. */;
-- (void)fier;
-- (_Bool)BackgroundLegacy;
-- (void)ioningTo;
-- (void)revealPlatterView;
-- (void)_invalidateSearchSession;
-- (UIImage *)uInteraction;
-- (void)ntMaskViewContainer;
-- (long long)de;
-- (unsigned long long)ontainer:,V__wantsUnclippedHeaderContentViewControllerContainer /* Error: Ran out of types for this method. */;
-- (void)"_UIStatusBarDataBatteryEntry",C,N,V_mainBatteryEntry;
-- (_Bool)etrics;
-- (_Bool)gOptions",R,C,N;
-- (_Bool)isualProviderClassForToolbar: /* Error: Ran out of types for this method. */;
-- (int)findNavigatorViewControllerDelegate;
-- (_Bool)gate>",W,N,V_delegate;
-- (void)dinator",&,N;
-- (_Bool)tyForceClickInteractionDriver;
-- (void)stemState;
-- (_Bool)Üab(pc;
-- (void)üS;
-- (void)ij;
-- (void)LähìÌì<îhõ0öÄ÷øùLû;
-- (_Bool);
-- (_Bool)re, {.location=%lu,.length=%lu}, does not intersect enclosing range, {.location=%lu,.length=%lu};
-- (void)ÿdyþÿ;
-- (void)orage_$_cornerRadii;
-- (int);
-- (UIImage *)ocused.TitleTextAttributes;
-- (struct _NSRange)tThumb;
-- (void)oardTypeEmailAddress;
-- (_Bool)Flags;
-- (void)t internal inconsistency:(int)arg1 unhandled item position;
-- (long long)ate;
-- (void)arStyleOverride;
-- (long long)object which must be a UICollectionReusableView instance;
-- (long long)* _Nonnull __strong, Class  _Nonnull __unsafe_unretained);
-- (double)%ld is too large, there should never be this many internal subviews. Subviews:%@ /* Error: Ran out of types for this method. */;
-- (void)efaultLayoutWidth;
-- (void)onBarArrowDownSmall.png;
-- (NSString *)v24@0:8@16 /* Error: Ran out of types for this method. */;
-- (void)ew;
-- (void)dowColorMatrixFillColor;
-- (void)rameworks/CoreHaptics.framework/CoreHaptics;
-- (void)DÚ;
-- (void);
-- (_Bool)dSpringAnimationState;
-- (void)þ!4è~þ44~þ;
-- (NSString *)Ð¶[;
+- (void):(UIColor *)arg1 willAnimateWithSettings:fromOrientation: /* Error: Ran out of types for this method. */;
+- (void)acters:(_Bool)arg1 length: /* Error: Ran out of types for this method. */;
+- (int)BarPlacementClassSupportingCompactStyle: /* Error: Ran out of types for this method. */;
+- (void)tFocusedHorizontalOutsetForTableView:(UIImage *)arg1;
+- (_Bool)withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (NSIndexSet *)dChildViewService: /* Error: Ran out of types for this method. */;
+- (int)ocused;
+- (_Bool)showCustomInputView;
+- (_Bool)edWindow: /* Error: Ran out of types for this method. */;
+- (void)ange;
+- (_Bool)tationBoundsOffset;
+- (void)emoveFocusEventRecognizer;
+- (void)_passthroughViews;
+- (_Bool)ing;
+- (void)oveDistance;
+- (double)argerDetentWhenScrolledToEdge;
+- (void)ISceneHostingSheetPresentationHostProviding;
+- (void)ternal;
+- (void)ControllerWrapperView;
+- (_Bool)´Ð;
+- (void)È;
+- (_Bool)<çç;
+- (_Bool)ew:is only supported on iPhone /* Error: Ran out of types for this method. */;
+- (void)data source of this table view, instead of the delegate:(_Bool)arg1 %@;
+- (_Bool)ed and UIControlStateDisabled. state = %ld is interpreted as UIControlStateHighlighted.;
+- (void);
+- (void)0à²Ç2x~þÄ;
+- (void)>}îÿ4{þÿÒÍîÿ;
+- (long long)ift.fill;
+- (_Bool)dleObserver(__strong id<_UIUpdateCycleIdleObserver> _Nonnull);
+- (_Bool)ingPathBitmapDataRoundRect _UIBoundingPathBitmapDataCreateRoundRectWithCornerRadii(const _UIIntegralRect, const _UIIntegralCornerRadii);
+- (unsigned long long)red;
+- (void)month marked as visible that is not loaded.;
+- (UIImage *)lerNotification;
+- (NSString *)list of view controllers can be selected.;
+- (long long)p=%p groupSizingGuide=%p
+;
+- (_Bool)pearanceObserverInteraction;
+- (NSString *)ÅþÿÅþÿàµþÿÜµþÿVÆþÿZÆþÿÈþÿpÆþÿ¾þÿÌþÿ¶þÿúÄþÿhÆþÿ;
+- (void)Ã.3yÂ¹.3GGSOGGGAIy»¢.3yÝ¾7GGG_$Û.3Qo__«¾7Qo_;
+- (UIInputContextHistory *)7G;
+- (void)loatingToolbarContent;
+- (long long),oþEì33¤,oþì33´,oþ;
+- (_Bool)þ ;
+- (void)k43ËÃ;
+- (_Bool)hásþk43@Qsþmk43ìàsþuk43Äàsþk43<Qsþk43TQsþk43|Qsþ¥k43QsþEk43TâsþMk43Dâsþ%k43Qsþuk43ásþk43Qsþk43;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;

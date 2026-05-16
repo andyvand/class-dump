@@ -18,33 +18,33 @@
     MISSING_TYPE *$__lazy_storage_$_cloudKitHooks;
 }
 
-+ (void)hange state (%s) of animator;
-+ (id)i2;
++ (void);
++ (id);
 - (long long);
 - (long long);
 - (long long);
-- (long long)(;
 - (long long);
 - (long long);
-- (void)note;
-- (void)eCompletedKey;
-- (void)8@"NSView"16;
-- (void)render view to image from view's backing store;
-- (void)eName];
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (long long)!Ț	;
+- (long long);
 - (long long);
 - (void);
 - (id);
-- (void)=;
 - (void);
-- (id)V;
-- (id)®GGADya®SgGG¿{®yéþÿGG;
-- (void)P;
-- (_Bool)SYNONYM_0;
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)Þí8mõ/;
 
 // Remaining properties
 @property(nonatomic, retain) IMCloudKitHooks *cloudKitHooks;

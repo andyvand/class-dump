@@ -15,9 +15,9 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (long long)È£o]1LÒ;
+- (long long)}«Ê$Üÿ;
+- (void);
 
 @end
 

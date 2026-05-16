@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     UIDragPreview *_preview;
 }
 
-+ (id)ed;
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void),®;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIDragPreviewProvider> _dragPreviewProvider;

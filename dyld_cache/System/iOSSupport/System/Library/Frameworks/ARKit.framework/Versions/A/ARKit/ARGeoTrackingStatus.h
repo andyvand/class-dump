@@ -19,13 +19,13 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (long long);
-- (long long)reateImageAtIndex() failed!;
+- (void);
+- (long long);
+- (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long accuracy; // @synthesize accuracy=_accuracy;

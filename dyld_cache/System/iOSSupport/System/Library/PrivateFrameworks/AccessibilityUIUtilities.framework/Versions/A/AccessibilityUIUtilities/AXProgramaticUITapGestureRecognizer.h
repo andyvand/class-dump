@@ -9,7 +9,7 @@
     long long _axProgramaticState;
 }
 
-- (void);
+- (void);
 - (long long);
 - (long long);
 

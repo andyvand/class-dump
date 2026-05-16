@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)+;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *apToModelMapping; // @dynamic apToModelMapping;

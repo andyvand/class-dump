@@ -17,17 +17,18 @@ __attribute__((visibility("hidden")))
     UIWebDocumentView *_delegate;
 }
 
-- (void)TEXT;
 - (void);
 - (void);
-- (void)ssion:(id)arg1 groupID:toParticipants:toIdentifier:fromIdentifier:account:messageTimeStamp: /* Error: Ran out of types for this method. */;
-- (void)tore;
 - (void);
-- (void)mage asset to %@ GUID:%@ /* Error: Ran out of types for this method. */;
-- (void)Completion returned with error:(long long)arg1 %@;
 - (void);
-- (void);
-- (void)ic.item;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (void)ä¸ÿ±Õx_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

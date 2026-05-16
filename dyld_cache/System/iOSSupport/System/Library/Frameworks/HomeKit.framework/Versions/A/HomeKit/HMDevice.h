@@ -20,9 +20,9 @@
     NSUUID *_uuid;
 }
 
-+ (id)ringSetting;
-+ (id)Ò;
-+ (_Bool)te Offset;
++ (id);
++ (_Bool);
++ (id)l.chime.accessoryUUID;
 
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (CDUnknownBlockType)°ÿ"°ÿ/°ÿ:°ÿE°ÿO°ÿY°ÿc°ÿl°ÿu°ÿ°ÿ°ÿ°ÿ¯ÿ¥­ÿ­­ÿµ­ÿ½­ÿÅ­ÿÎ­ÿÖ­ÿÞ­ÿæ­ÿï­ÿ÷­ÿÿ­ÿ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ÿ÷BµÿÿBµÿ;
 
 @end
 

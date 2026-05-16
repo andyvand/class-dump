@@ -19,24 +19,19 @@
 - (struct CGAffineTransform);
 - (double);
 - (void);
-- (void)cription;
-- (struct CGAffineTransform)set:%ld
- appVersion:%@
- osVersion:%@
- formatVersion:%@
- seedNumber:%@
- buildNumber:%@> /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGAffineTransform);
 - (void);
 - (struct CGAffineTransform);
 - (double);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)nceThreshold:(id)arg1;
+- (void)ifier:(id)arg1;
+- (void)dButtonGroupViewButtons;
 
 // Remaining properties
 @property(nonatomic) double startDelay; // @synthesize startDelay=_startDelay;

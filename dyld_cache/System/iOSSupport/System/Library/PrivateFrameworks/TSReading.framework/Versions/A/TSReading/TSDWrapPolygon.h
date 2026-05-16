@@ -15,19 +15,19 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (int);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (struct CGRect);
+- (void);
 - (id);
-- (void);
-- (void)P;
+- (struct CGRect);
+- (void);
 - (void *);
-- (id)mage;
+- (id);
 
 @end
 

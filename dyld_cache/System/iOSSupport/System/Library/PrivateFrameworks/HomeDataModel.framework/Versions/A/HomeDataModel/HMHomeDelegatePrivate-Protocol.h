@@ -5,5 +5,8 @@
 //
 
 @protocol HMHomeDelegatePrivate
+
+@optional
+- (void);
 @end
 

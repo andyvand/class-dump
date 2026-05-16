@@ -7,7 +7,6 @@
 @class UIView;
 
 @protocol UIViewControllerPreviewing_Private
-- (void)rawValueData. Expected CFData.;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customViewForInteractiveHighlight;

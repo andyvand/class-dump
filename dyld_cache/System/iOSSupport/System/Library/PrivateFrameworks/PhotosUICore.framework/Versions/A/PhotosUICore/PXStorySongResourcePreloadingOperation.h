@@ -20,13 +20,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)&f;
 - (id);
-- (id);
-- (id)D@;
-- (void)Jxûÿ;
-- (id);
+- (void);
+- (id)ume:timeRange: /* Error: Ran out of types for this method. */;
+- (id)èÿ;
+- (void)MActionTypeSaveToLibrary;
 - (void);
 
 // Remaining properties

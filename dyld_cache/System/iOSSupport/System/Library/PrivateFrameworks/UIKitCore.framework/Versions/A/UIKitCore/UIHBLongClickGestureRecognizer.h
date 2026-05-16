@@ -17,20 +17,19 @@
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
+- (id)sFailureCount;
 - (void);
-- (void)QÂÐ1¢!0@ù
-× ;
-- (void)16;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)umScaleFactor;
-- (void)oughWithStyle:(id)arg1;
-- (void);
-- (id)Ýa;
+- (void)4=êÿN;
+- (void)ü¾âÿ;
+- (void)h;
+- (void)°:¹ÿ /* Error: Ran out of types for this method. */;
+- (void)äÝþ;
+- (void)8Cn;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allowedPressTypes;

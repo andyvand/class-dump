@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
     id <UITextCursorAssertion> _blinkAssertion;
 }
 
-- (void)Q;
+- (void);
 - (struct CGPoint);
-- (struct CGPoint)e:(struct CGPoint)arg1 type:error: /* Error: Ran out of types for this method. */;
-- (id)hannelIDPrefix:(struct CGPoint)arg1 availabilityVerificationRecipientEncryptionValidationToken:(struct CGPoint)arg2 availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)s001 %@, pulling syndication_type and syndication_ranges;
-- (void)stamp %@;
-- (void);
-- (void)vÐ!FùQËÐ1¢!0@ù
-× ;
-- (id)d:(id)arg1;
-- (void)Øçlèé;
+- (struct CGPoint);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)InterfaceOrientation:(id)arg1 has postRotationPendingBlock;
+- (void)estureRecognizer;
+- (void)(Fa;
 
 @end
 

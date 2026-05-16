@@ -33,10 +33,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (long long);
 - (id);
-- (void);
+- (id)yßÙ»yh»yóh»yÝ]»y9SubheaderhæQz^»GSg_Ýhæy¡»yñ»yACy7ContentSæQzÑc»yã¼SgGG_SSQo__Qo__Qo_SgtGG_®Ù»yAW_Qo_Qo__6Ù»yAY_ACy*a»yAZyACyhæyÑ»G
+^»G@ç;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;

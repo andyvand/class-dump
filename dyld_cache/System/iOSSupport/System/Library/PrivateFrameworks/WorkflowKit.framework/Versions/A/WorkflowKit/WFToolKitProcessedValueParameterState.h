@@ -22,8 +22,8 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)ccount:fromID:context:] /* Error: Ran out of types for this method. */;
+- (id)¤ éÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

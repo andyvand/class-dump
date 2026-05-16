@@ -14,18 +14,16 @@
 }
 
 - (void);
-- (id)[IMDCollaborationNoticeController highlightCenterHighlightsDidChange:] /* Error: Ran out of types for this method. */;
-- (void);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void). Scrolling may not function correctly. 
-Collection View:(struct CGRect)arg1 %@;
-- (id)fectView;
-- (id)j¶;
+- (id);
+- (void);
+- (struct CGRect)yplaneName: /* Error: Ran out of types for this method. */;
+- (struct CGRect)teEnabled:focused:pressed: /* Error: Ran out of types for this method. */;
+- (id)setupFilterChain;
+- (void)WidePrimaryColumn:(struct CGRect)arg1;
+- (id)ioning_Internal;
+- (void);
+- (void)X=l;
 
 // Remaining properties
 @property(nonatomic, retain) CABackdropLayer *backdropLayer; // @synthesize backdropLayer;

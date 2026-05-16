@@ -35,11 +35,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *deferredRequests; // @synthesize deferredRequests=_deferredRequests;

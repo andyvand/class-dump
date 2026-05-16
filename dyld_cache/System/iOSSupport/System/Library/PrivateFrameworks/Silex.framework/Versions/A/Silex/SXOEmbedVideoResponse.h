@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)N,V_assemblies;
 - (struct CGSize);
 
 // Remaining properties

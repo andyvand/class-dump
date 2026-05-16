@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCustomLocationTrigger;

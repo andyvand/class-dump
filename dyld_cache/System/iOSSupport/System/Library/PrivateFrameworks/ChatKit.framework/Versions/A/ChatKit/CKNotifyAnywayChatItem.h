@@ -10,15 +10,15 @@
 {
 }
 
-- (BOOL)ize;
-- (id)o0aB2IDCGSo17OS_dispatch_queueCGShyA0_GG;
-- (id)r;
-- (struct CGSize)i;
+- (BOOL);
 - (id);
-- (_Bool)create CGContext to generate oriented image. Falling back to unrotated image.;
-- (Class);
+- (id);
+- (struct CGSize);
+- (id);
+- (_Bool);
 - (struct UIEdgeInsets);
-- (unsigned long long)er:didTapPhotoStackForChatItem:assetReference: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long)dddddd}16@0:8 /* Error: Ran out of types for this method. */;
 
 @end
 

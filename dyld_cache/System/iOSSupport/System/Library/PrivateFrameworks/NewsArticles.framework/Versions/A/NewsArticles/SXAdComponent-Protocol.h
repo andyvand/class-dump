@@ -7,8 +7,6 @@
 @class NSString, UIColor;
 
 @protocol SXAdComponent
-- (UIColor *);
-- (unsigned long long)Ț;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long adType;

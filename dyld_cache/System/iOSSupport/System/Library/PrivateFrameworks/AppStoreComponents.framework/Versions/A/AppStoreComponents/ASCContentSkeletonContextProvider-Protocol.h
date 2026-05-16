@@ -5,7 +5,5 @@
 //
 
 @protocol ASCContentSkeletonContextProvider
-- (long long)0@ù
-× ;
 @end
 

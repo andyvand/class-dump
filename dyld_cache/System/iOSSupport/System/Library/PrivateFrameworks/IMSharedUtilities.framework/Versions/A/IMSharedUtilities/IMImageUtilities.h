@@ -8,13 +8,13 @@
 {
 }
 
-+ (struct CGSize)=;
++ (struct CGSize);
 + (_Bool);
 + (double);
 + (void);
 + (void);
 + (_Bool);
-+ (_Bool)P;
++ (_Bool);
 + (struct CGImage *);
 + (struct CGImage *);
 + (struct CGImage *);
@@ -23,7 +23,7 @@
 + (_Bool);
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGContext *);
++ (struct CGContext *);
 + (struct CGSize);
 
 @end

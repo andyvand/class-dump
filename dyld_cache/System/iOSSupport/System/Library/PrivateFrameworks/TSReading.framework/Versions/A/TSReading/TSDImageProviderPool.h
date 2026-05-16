@@ -17,10 +17,10 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id)ÿ>Ì¤;
++ (id)xo;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,14 +30,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (oneway void);
 - (id);
-- (void)!;
-- (id);
 - (id);
 - (id);
-- (unsigned long long): /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

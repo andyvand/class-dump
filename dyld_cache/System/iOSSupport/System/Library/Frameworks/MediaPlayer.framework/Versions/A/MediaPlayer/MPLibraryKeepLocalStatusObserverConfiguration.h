@@ -13,12 +13,12 @@
 }
 
 - (void);
-- (id)64@72@80@88@96@104@112@120@128;
-- (long long)_unfair_lock_opaque"I};
-- (void)iewNameWithStreamIdentifier:(long long)arg1 indexName: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)essionIdentifier:type:data: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long enableState; // @synthesize enableState=_enableState;

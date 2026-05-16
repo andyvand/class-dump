@@ -14,17 +14,17 @@
     AWDCoreRoutineLocationAwarenessIntervalHistogram *_intervalHistogram;
 }
 
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)H ;
-- (void);
-- (void);
-- (id)-payload;
-- (id)timestamp;
-- (void);
+- (id);
+- (id);
+- (id)ndar;
+- (void), error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) AWDCoreRoutineLocationAwarenessStatistics *heartbeatStats; // @synthesize heartbeatStats=_heartbeatStats;

@@ -14,19 +14,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)<i
-;
-- (id);
-- (id);
-- (void)Z/<IJ
-;
-- (id)<TI
-;
 - (void);
 - (id);
 - (id);
-- (id)Z
-;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -39,9 +35,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)entationValues;
-- (void)G;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMediaObjectAssetMenuBuilderDelegate> delegate; // @synthesize delegate=_delegate;

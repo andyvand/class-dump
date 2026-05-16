@@ -17,24 +17,25 @@ __attribute__((visibility("hidden")))
     struct CGPoint _lastDragPoint;
 }
 
-+ (_Bool)to detect unsubscribe;
++ (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool)uldSearchY;
-- (void);
-- (_Bool)hat:style: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id)Awð!$EùQÌð1¢!0@ù
++ (_Bool)0@ù
 × ;
-- (_Bool)ta;
-- (_Bool)èC71;
+- (void);
 - (_Bool);
-- (id)_;
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)gBarContentClippingView;
+- (void):(_Bool)arg1;
+- (void)lÚ4×[;
+- (_Bool)`;
+- (_Bool)a;
 
 @end
 

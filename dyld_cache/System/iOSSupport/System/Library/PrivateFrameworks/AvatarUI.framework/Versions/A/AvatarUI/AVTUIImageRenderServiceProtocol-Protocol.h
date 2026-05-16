@@ -5,6 +5,5 @@
 //
 
 @protocol AVTUIImageRenderServiceProtocol
-- (void);
 @end
 

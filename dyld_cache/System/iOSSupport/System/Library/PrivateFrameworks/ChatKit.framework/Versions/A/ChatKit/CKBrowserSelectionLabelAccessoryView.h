@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     UIImageView *_plusDView;
 }
 
-- (void).;
 - (void);
-- (id)olders;
-- (id)dy** removed %lld subfolders;
+- (void);
 - (id);
 - (id);
-- (void);
-- (id)|~(`Ø;
+- (id);
 - (struct CGSize);
+- (id);
+- (id);
+- (void)¨ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *plusDView; // @synthesize plusDView=_plusDView;

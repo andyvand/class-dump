@@ -14,14 +14,14 @@
 }
 
 - (id);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id)Bøáªñªéò1	?×(;
-- (void);
+- (void)óªõª÷;
 - (id);
 - (void);
 - (void);
+- (void)ø;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;

@@ -12,7 +12,7 @@
     _Bool mClosed;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -42,17 +42,17 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id)int TSDRoundedPointForScale(CGPoint, CGFloat);
-- (_Bool)ËÛ;
+- (void);
+- (id);
+- (_Bool)ð;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allNodesSelected;

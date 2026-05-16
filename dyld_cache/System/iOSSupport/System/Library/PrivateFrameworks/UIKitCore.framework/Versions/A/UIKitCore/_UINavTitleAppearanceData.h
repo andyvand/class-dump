@@ -24,31 +24,32 @@ __attribute__((visibility("hidden")))
     NSObject *__largeSubtitleTextAttributesForSwift;
 }
 
-+ (id);
-+ (id)window:(long long)arg1;
++ (id);
++ (id);
 - (id);
-- (id);
-- (id)r request:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)used.;
+- (_Bool);
+- (void)ù[Ð1Â0@ù
+× ;
+- (id);
+- (void){?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std:(id)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id)Rects;
+- (id)Groups;
+- (id)viewController;
+- (void)tLayoutView;
+- (id)8;
+- (long long)é3hPíÿ¶SíÿB;
+- (_Bool);
+- (void)on;
+- (void)tAcceptedCandidate;
+- (id)or a search bar without a search controller are not supported. This is an internal UIKit bug.;
+- (struct UIOffset);
+- (void)¶"ÿÿ;
 - (void);
-- (id)Color;
-- (void)ard;
-- (id)ÜZþµþÿ;
-- (void)ÿÿ;
-- (long long)verrideAssertionCGSg;
-- (id)rning:Unable to delete State Restoration archive:%@ /* Error: Ran out of types for this method. */;
-- (id)textFieldInsetH)-[textField]-(textFieldInsetH)-|;
-- (void)OTES;
-- (id)po UIFocusDebugger.checkFocusability(for:<item reference>) /* Error: Ran out of types for this method. */;
-- (void)order;
-- (id);
-- (_Bool)r;
-- (void);
-- (void)i4)T;
-- (void)];
-- (struct UIOffset)|¡uÿ;
-- (void):(id)arg1 c;
-- (void)¼_;
+- (void);
+- (void)ttþQ43DtþA43tþ;
+- (void)Ë«;
+- (id)äÓ\;
+- (id)ÐPLa;
 
 // Remaining properties
 @property(copy, nonatomic) NSObject *_largeSubtitleTextAttributesForSwift; // @synthesize _largeSubtitleTextAttributesForSwift=__largeSubtitleTextAttributesForSwift;

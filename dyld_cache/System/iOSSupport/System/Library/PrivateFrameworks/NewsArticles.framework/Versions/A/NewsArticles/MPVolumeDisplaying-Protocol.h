@@ -8,9 +8,6 @@
 
 @protocol MPVolumeDisplaying
 
-@optional
-- (UIWindowScene *);
-
 // Remaining properties
 @property(readonly, nonatomic, getter=isOnScreen) _Bool onScreen;
 // Preceding property had unknown attributes: ?

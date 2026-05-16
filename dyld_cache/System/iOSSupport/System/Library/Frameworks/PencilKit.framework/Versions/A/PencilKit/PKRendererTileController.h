@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)CALayer",&,N,V_rulerLayer;
 
 @end
 

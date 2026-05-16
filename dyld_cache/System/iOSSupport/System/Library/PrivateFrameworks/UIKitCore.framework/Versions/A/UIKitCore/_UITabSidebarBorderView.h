@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id)agsForAboveEffects;
-- (id)onger supported - ignoring update to boundarySupplementaryItems;
+- (id)Mode:(struct CGRect)arg1;
+- (id)ectly on a view controller is not supported, and may result in out-of-order callbacks and other inconsistent behavior. Use the -beginAppearanceTransition:(id)arg1 animated:(id)arg2 and -endAppearanceTransition APIs on UIViewController to manually drive appearance callbacks instead. Make a symbolic breakpoint at UIViewControllerAlertForAppearanceCallbackMisuse to catch this in the debugger. View controller:(id)arg3 %@;
+- (id)?0I8@"PBItemCollection"12;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

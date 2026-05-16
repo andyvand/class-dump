@@ -31,20 +31,19 @@
 - (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ems;
-- (_Bool)oneOff;
-- (void)raStreamingSettingsModuleNoOneHomeSettings;
-- (void)B24;
-- (id)Info_HomeSettings_RestrictedGuest;
-- (id);
-- (void)/
-;
+- (id)aybackStateItem;
+- (void)arent;
+- (void)N,V_accessoryConnectedHomeToCHIPAccessoryPairingFuture;
+- (void)ewReuseIdentifier;
+- (void)ing"8;
+- (id)!b¦;
+- (_Bool)þÄ&;
+- (void)ÿIþäú;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

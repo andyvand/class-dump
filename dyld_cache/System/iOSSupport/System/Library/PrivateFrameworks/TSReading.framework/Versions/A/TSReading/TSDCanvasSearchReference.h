@@ -25,24 +25,24 @@
 - (void);
 - (void);
 - (id);
-- (struct CGPoint)j;
+- (struct CGPoint);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id)8;
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void)V q;
-- (id);
+- (id)äCT£¬;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation=mAnnotation;

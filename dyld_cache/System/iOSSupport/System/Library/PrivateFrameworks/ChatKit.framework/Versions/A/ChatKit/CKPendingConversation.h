@@ -17,10 +17,10 @@
     IMService *_composeSendingService;
 }
 
-+ (id)balContext;
-- (void)letionQueue;
-- (void)tWithDefaults:(id)arg1 initialValues: /* Error: Ran out of types for this method. */;
-- (void)bie;
++ (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -35,11 +35,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)te;
-- (void);
 - (id);
 - (void);
-- (id)CKSuggestedReplyView.swift;
+- (id);
+- (id);
+- (void)Hü;
 
 // Remaining properties
 @property(nonatomic) __weak IMService *composeSendingService; // @synthesize composeSendingService=_composeSendingService;

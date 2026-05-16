@@ -5,5 +5,6 @@
 //
 
 @protocol PhoneBadgeable
++ (CDStruct_5ec447a9);
 @end
 

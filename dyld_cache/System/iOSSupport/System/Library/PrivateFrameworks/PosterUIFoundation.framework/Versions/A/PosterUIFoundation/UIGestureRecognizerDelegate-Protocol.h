@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UIPress;
-
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)initWithIdentifier:(UIGestureRecognizer *)arg1 localizedName:(UIPress *)arg2;
 @end
 

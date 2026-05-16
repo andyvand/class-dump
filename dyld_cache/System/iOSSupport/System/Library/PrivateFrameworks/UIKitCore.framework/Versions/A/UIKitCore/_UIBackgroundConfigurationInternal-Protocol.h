@@ -5,52 +5,41 @@
 //
 
 @class NSString, UIColor, UIImage, UIShadowProperties, UIView, UIVisualEffect;
-@protocol _UIBackgroundConfigurationInternal, _UIViewMaterial;
+@protocol _UIViewMaterial;
 
 @protocol _UIBackgroundConfigurationInternal
-- (void)mber",C,N,V_payloadEnableSpeakSelection;
-- (id <_UIBackgroundConfigurationInternal>);
-- (_Bool);
-- (_Bool);
-- (void)!dFùÁÐ1¢!0@ù
+- (_Bool);
+- (void)ù
 × ;
-- (long long);
-- (void)1¢!0@ù
-× ;
-- (NSString *)qð!\GùÄ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)Ê1¢!0@ù
-× ;
-- (unsigned long long)@ù
-× ;
-- (long long)!0@ù
-× ;
-- (double)0;
-- (unsigned long long)iew"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (UIColor *)ting: /* Error: Ran out of types for this method. */;
-- (void)ionDuringLift:(double)arg1;
-- (_Bool)ctive;
-- (void)gsideAnimations;
-- (_Bool)orForViewState:(id <_UIBackgroundConfigurationInternal>)arg1;
-- (void)titleViewCompressionResistancePriority;
-- (UIVisualEffect *)oAsyncTextInputClient;
-- (UIView *)mEnabledStateDidChange: /* Error: Ran out of types for this method. */;
-- (_Bool)Information",&,N,V_currentUIState;
-- (double)ider>",W,N,V_audioLevelProvider;
-- (void)ovalWithRetainedWindow;
-- (void);
-- (void)À;
-- (void) ;
-- (id <_UIViewMaterial>);
-- (UIColor *)yle;
-- (void)rolConfiguration;
-- (void)s:(UIColor *)arg1 Warning:Checking Split View Controller viewControllers property, and array doesn't have either 1 or 2 elements:%@ /* Error: Ran out of types for this method. */;
-- (void)llerTransition",N,&,VclientTransition;
-- (double)4Èè;
-- (UIColor *)¼[;
-- (_Bool)3[;
+- (_Bool)nsets=dddd}24o^{UIEdgeInsets=dddd}32o^{UIEdgeInsets=dddd}40;
+- (UIColor *)cusAnimationCoordinator"24;
+- (void)ptForReplacementCandidate:(UIColor *)arg1;
+- (void)eActionsGroupView;
+- (void)downSystemSounds;
+- (void)urationForCompact:(unsigned long long)arg1;
+- (void)initialContentOffset;
+- (double)ndAttribute;
+- (UIVisualEffect *)Action;
+- (_Bool)ListCellVisualProvider_iOS;
+- (void)øù@úû;
+- (void)Á;
+- (_Bool)d;
+- (UIColor *)(conformsToProtocol:(UIColor *)arg1 ), (IMP)NSImage_conformsToProtocol, ((void*)0))" -> %llu;
+- (UIColor *)emIndex:%lu type:%@ /* Error: Ran out of types for this method. */;
+- (UIColor *)øÔþ;
+- (double)ght in loop:%@
+
+ /* Error: Ran out of types for this method. */;
+- (void)>:(UIVisualEffect *)arg1 scale:%f, idiom:%ld, subtype:%lu /* Error: Ran out of types for this method. */;
+- (void)RotateToInterfaceOrientation:(double)arg1 %li;
+- (void)before dealloc;
+- (void)InsertionRate;
+- (double)on identifier, skipping:%@ /* Error: Ran out of types for this method. */;
+- (void)u.hide;
+- (_Bool)Settings<_UISceneOcclusionSettings>"8;
+- (unsigned long long);
+- (UIView *)Ç/3GSg;
+- (_Bool)03,C;
 
 // Remaining properties
 @property(nonatomic, setter=__setMaskedCorners:) unsigned long long __maskedCorners;

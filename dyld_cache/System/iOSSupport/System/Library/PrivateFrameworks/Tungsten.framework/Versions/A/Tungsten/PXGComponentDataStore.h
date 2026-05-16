@@ -13,14 +13,14 @@
 
 - (id);
 - (unsigned long long);
-- (_Bool);
 - (void);
-- (unsigned long long);
 - (id);
+- (_Bool);
 - (long long);
 - (void);
-- (id)HasPlatter: /* Error: Ran out of types for this method. */;
-- (const void *)rror:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (const void *);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long capacity; // @synthesize capacity=_capacity;

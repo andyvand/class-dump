@@ -8,24 +8,9 @@
 @protocol CKTranscriptLinkCustomizationPickerDelegate, CKTranscriptPluginView;
 
 @protocol CKTranscriptBalloonPluginController
-- (UIView<CKTranscriptPluginView> *)Devices:url:mainFrameURL:decisionHandler: /* Error: Ran out of types for this method. */;
 
 @optional
-- (void);
-- (void)moveChildWindow:(UIColor *)arg1;
-- (void)thCFTypeRef:(_Bool)arg1;
-- (void)gnitionDrawing;
-- (void)fo: /* Error: Ran out of types for this method. */;
-- (void)Mentions: /* Error: Ran out of types for this method. */;
-- (void)groundContext;
-- (void)cts:scope: /* Error: Ran out of types for this method. */;
-- (UIViewController *)gCurrentLocale;
-- (void)dSearchResults:toSection: /* Error: Ran out of types for this method. */;
-- (void)earchResults:removingFoundIdentifiers:passingVisibilityTesting: /* Error: Ran out of types for this method. */;
-- (UIColor *)rItem;
-- (id <CKTranscriptLinkCustomizationPickerDelegate>)are;
-- (void)extension*TouchIDPasswordPrefs;
-- (_Bool)ersation nor the conversation list, is being displayed in a foreground active scene;
+- (_Bool)spinner in Settings;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsOpeningSensitiveURLs;

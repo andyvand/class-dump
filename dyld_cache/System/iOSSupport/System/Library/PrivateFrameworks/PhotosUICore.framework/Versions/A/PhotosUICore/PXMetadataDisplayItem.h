@@ -21,13 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (void)1b0@ù
-× ;
-- (id)ndex:effectiveRange: /* Error: Ran out of types for this method. */;
-- (_Bool)edSelectionStyle: /* Error: Ran out of types for this method. */;
-- (id)flinePHAsset.m;
-- (id)MemoryExportSucceeded;
-- (void);
+- (id);
+- (void)"ÿÿÿÿÿd;
+- (_Bool)Ø½;
+- (id);
+- (id)mories Generation;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;

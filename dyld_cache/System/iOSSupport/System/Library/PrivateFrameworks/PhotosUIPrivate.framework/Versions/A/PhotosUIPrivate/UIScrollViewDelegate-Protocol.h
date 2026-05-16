@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)mental changes to perform an incremental update;
+- (UIView *)ð1â
+0@ù
+× ;
+- (void)ô;
 @end
 

@@ -14,14 +14,15 @@ __attribute__((visibility("hidden")))
     NSString *_footer;
 }
 
-- (id)stinguishedKind;
 - (void);
-- (void);
-- (id)apsedCornerRadius;
-- (void)*ÿÿ;
-- (void)|¥µÿ;
-- (id)a;
-- (id)3ÿu;
+- (id);
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)vironment:(id)arg1;
+- (void)zÜ4`;
+- (id)c;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *body; // @synthesize body=_body;

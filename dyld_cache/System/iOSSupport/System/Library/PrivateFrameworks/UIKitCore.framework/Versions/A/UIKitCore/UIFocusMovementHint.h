@@ -11,17 +11,17 @@
     struct CGVector _movementDirection;
 }
 
-- (double)ingRequest: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)DCKRecoverableMessageSyncController;
-- (double)r;
-- (struct CGVector)};
+- (double);
+- (void);
+- (void);
+- (double);
+- (struct CGVector);
 - (struct CATransform3D);
 - (id);
-- (id);
 - (struct CATransform3D);
-- (struct CGVector)abled: /* Error: Ran out of types for this method. */;
-- (struct CGVector)8­ÿÌéËl;
+- (struct CGVector);
+- (struct CGVector);
+- (id)HI;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CATransform3D interactionTransform;

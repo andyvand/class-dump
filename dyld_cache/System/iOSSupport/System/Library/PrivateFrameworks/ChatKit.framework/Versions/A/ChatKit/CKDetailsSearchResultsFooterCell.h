@@ -18,30 +18,30 @@
     struct UIEdgeInsets marginInsets;
 }
 
-+ (id)s;
++ (id);
 + (double);
 + (id);
-- (id);
-- (void);
-- (void)GALG;
-- (struct UIEdgeInsets)OCR operations;
 - (id);
 - (void);
 - (void);
+- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)­y}¦üÿG;
-- (void)_F­yAAyAAy:(id)arg1 ­M­yoÿ¬GGAHG_Qo_tGGÖ­yP÷¬GG;
-- (void)ç½àOÖÿ;
-- (id)ferenceKey;
+- (void);
+- (void);
+- (id);
+- (id)è\y×ÿ\y©Ö\yACyACyU]y§]y1ÿ\G_Z]Qo_rú\yd]GGAIyÍ\SgGGÙû\ySbGG_Qo_ÿ\yACyAlRG_Qo_G9	]_G;
+- (void);
+- (void);
+- (id)-S.;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *bottomHairline; // @synthesize bottomHairline=_bottomHairline;

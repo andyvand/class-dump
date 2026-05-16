@@ -14,9 +14,9 @@
 - (id);
 - (long long);
 - (id);
-- (double);
-- (void);
 - (id);
+- (double);
+- (void)CollectionCustomizationActionTitlePeople;
 
 // Remaining properties
 @property(readonly, nonatomic) id media; // @synthesize media=_media;

@@ -13,9 +13,9 @@
 
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);

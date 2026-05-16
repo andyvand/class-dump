@@ -15,7 +15,7 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 - (_Bool);
 - (long long);
 - (id);
@@ -25,11 +25,11 @@
 - (_Bool);
 - (double);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool)8;
-- (id);
 - (void);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double deprecatedPatternOffsetDistance; // @synthesize deprecatedPatternOffsetDistance=mDeprecatedPatternOffsetDistance;

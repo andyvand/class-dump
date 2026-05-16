@@ -8,9 +8,9 @@
 @protocol PXDisplayAsset;
 
 @protocol PXGMutableItemPlacement
-- (float)R,N,V_sourcePersistableRecipe;
-- (void)AAyl?;
-- (void);
+- (double);
+- (CDStruct_2bd92d94);
+- (void)owMore;
 
 // Remaining properties
 @property(nonatomic) double alpha;

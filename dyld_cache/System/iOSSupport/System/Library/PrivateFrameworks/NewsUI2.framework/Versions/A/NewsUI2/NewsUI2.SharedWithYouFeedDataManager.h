@@ -17,8 +17,8 @@
     MISSING_TYPE *feedService;
 }
 
-- (void);
 - (id);
+- (void)FeedGroupConfigData;
 
 @end
 

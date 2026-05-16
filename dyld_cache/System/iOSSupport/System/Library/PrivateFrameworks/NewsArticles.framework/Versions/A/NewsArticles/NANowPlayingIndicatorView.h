@@ -22,6 +22,12 @@
     UIColor *_levelGuttersColor;
 }
 
+- (long long);
+- (_Bool);
+- (id);
+- (void);
+- (struct CGSize);
+- (double);
 - (double);
 - (void);
 - (double);
@@ -29,33 +35,27 @@
 - (double);
 - (double);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (double);
 - (long long);
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double)ge;
-- (id);
-- (void);
-- (void);
+- (double);
 - (_Bool);
 - (void);
-- (double)ticleLinkBehaviorConfig"16@0:(unsigned long long)arg1 8;
-- (struct CGSize)selineMultipliers;
-- (long long)ÄÉÿ;
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)tions;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long bounceStyle; // @synthesize bounceStyle=_bounceStyle;

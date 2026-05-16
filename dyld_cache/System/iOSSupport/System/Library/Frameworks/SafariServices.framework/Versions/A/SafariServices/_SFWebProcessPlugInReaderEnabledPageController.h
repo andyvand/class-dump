@@ -6,7 +6,7 @@
 
 #import <SafariServices/_SFWebProcessPlugInAutoFillPageController.h>
 
-@class NSDictionary, NSString, SFWebProcessPlugInPageExtensionController, _SFReaderWebProcessPlugInPageController, _SFWebProcessSharingLinkExtractor, _WKRemoteObjectInterface;
+@class NSDictionary, NSString, SFWebProcessPlugInPageExtensionController, _SFReaderWebProcessPlugInPageController, _WKRemoteObjectInterface;
 @protocol SFReaderEventsListener;
 
 @interface _SFWebProcessPlugInReaderEnabledPageController : _SFWebProcessPlugInAutoFillPageController
@@ -18,26 +18,13 @@
     long long _cachedReaderTopScrollOffset;
     NSDictionary *_initialScrollPositionAsDictionary;
     SFWebProcessPlugInPageExtensionController *_extensionController;
-    _SFWebProcessSharingLinkExtractor *_sharingLinkExtractor;
-    _Bool _viewingReadingListArchive;
-    NSDictionary *_initalArticleScrollPositionAsDictionary;
-    NSDictionary *_initialReaderConfiguration;
 }
 
 - (void);
-- (void);
 - (id);
 - (_Bool);
-- (void);
 - (void);
 - (struct OpaqueJSValue *);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -47,47 +34,37 @@
 - (void);
 - (void);
 - (void);
-- (void)@E
-;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)1;
-- (void)T�`�;
-- (void)`;
 - (void);
 - (void);
-- (void)hasText;
 - (void);
-- (void)%@.%p.diskAccessQueue;
-- (void)mplerValue;
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long cachedReaderTopScrollOffset; // @synthesize cachedReaderTopScrollOffset=_cachedReaderTopScrollOffset;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *initalArticleScrollPositionAsDictionary; // @synthesize initalArticleScrollPositionAsDictionary=_initalArticleScrollPositionAsDictionary;
-@property(readonly, nonatomic) NSDictionary *initialReaderConfiguration; // @synthesize initialReaderConfiguration=_initialReaderConfiguration;
 @property(readonly, nonatomic) _Bool readerHasBeenActivatedRecently;
 @property(retain, nonatomic) _SFReaderWebProcessPlugInPageController *readerPageController; // @synthesize readerPageController=_readerPageController;
 @property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isViewingReadingListArchive) _Bool viewingReadingListArchive; // @synthesize viewingReadingListArchive=_viewingReadingListArchive;
 
 @end
 

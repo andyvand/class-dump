@@ -11,7 +11,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool doc_displaysSearchResults;

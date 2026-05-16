@@ -29,11 +29,11 @@
 - (void);
 - (void);
 - (long long);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

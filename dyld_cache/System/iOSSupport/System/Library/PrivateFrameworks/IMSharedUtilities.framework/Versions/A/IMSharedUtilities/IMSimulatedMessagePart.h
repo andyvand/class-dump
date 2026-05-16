@@ -13,10 +13,10 @@
 + (id);
 + (Class);
 + (id);
-+ (_Bool)part;
-- (void);
++ (_Bool);
 - (id);
-- (id);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

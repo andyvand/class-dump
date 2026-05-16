@@ -23,24 +23,25 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)in.bundle/Contents/MacOS/AppleIDSSOAuthenticationPlugin;
+- (void);
 - (id);
-- (id)x;
+- (id);
 - (id);
 - (void);
-- (void)le.metricmeasurement.instrument.options.ScheduleKickOffOnNewThread;
+- (void);
 - (id);
 - (void);
 - (double);
-- (void);
-- (void);
 - (void);
 - (double);
-- (void);
-- (_Bool);
-- (void);
 - (double);
-- (id)ndTransactionForSection:%{public}@ | ignoring SIL change [state:Loading] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (_Bool)`ð1Â0@ù
+× ;
+- (void);
+- (void)yloadForSessionStart:Invalid item start event. type=%{public}@ date=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;

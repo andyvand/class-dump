@@ -13,10 +13,10 @@
 
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)ntrol;
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessories;

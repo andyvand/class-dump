@@ -43,12 +43,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (double);
+- (void);
 - (id);
+- (void);
 - (id);
+- (void)OneSceneFourAccessories;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long backgroundDisplayStyle;

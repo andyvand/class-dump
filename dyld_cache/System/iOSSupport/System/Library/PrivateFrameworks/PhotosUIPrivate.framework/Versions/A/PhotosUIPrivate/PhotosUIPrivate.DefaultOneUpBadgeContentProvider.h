@@ -12,9 +12,9 @@
     MISSING_TYPE *actionsDelegate;
 }
 
-- (void);
 - (id);
-- (id)userSafetyInterventionCheckRequiredBeforeSharingAssets:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)AffineTransform=dddddd}72d120d128Q136d144d152d160{PUDisplayVelocity=dddd}168@?200;
+- (void)tialiasing;
 
 @end
 

@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)flectionObject;
+- (void)üèü;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,15 +16,7 @@ __attribute__((visibility("hidden")))
     long long _touchState;
 }
 
-- (_Bool)Es7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,15 +24,13 @@ h0Sm4iIj1I5P1NFGq/jR8A==
 - (id);
 - (struct CGRect);
 - (long long);
+- (id);
 - (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)!TDùÅð1¢!0@ù
-× ;
-- (void)dateConfiguration"b1};
-- (void)teraction:(id)arg1;
-- (id)chromaticTreatment;
+- (void)troller:(id)arg1;
+- (void)iew:(id)arg1 allowsSelectingContentAfterDropForSession:(id)arg2;
+- (void)orFiles;
+- (void)PayloadKeyMissingKeyboardInputMode;
+- (void)+?;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *feedbackIconAndLabelView; // @synthesize feedbackIconAndLabelView=_feedbackIconAndLabelView;

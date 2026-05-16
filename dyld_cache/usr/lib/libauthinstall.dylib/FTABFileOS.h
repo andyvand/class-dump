@@ -46,17 +46,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)tFinisher endWithError:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (unsigned int);
-- (id)est = %@;
+- (void);
+- (id)endedComponent with dstBundleURL;
 
 // Remaining properties
 @property(readonly) NSData *bootNonce; // @synthesize bootNonce=_bootNonce;

@@ -12,6 +12,7 @@
     NSObject<OS_dispatch_queue> *_analyticsQueue;
     NSUUID *_cachedSessionId;
     _Bool _deferLoggingRevealUntilRefinement;
+    id <_MKPlaceItem> _lastRevealedPlaceItem;
     id <MUPlaceCardAnalyticsProvider> _provider;
     id <GEOLogContextDelegate> _logContextDelegate;
 }
@@ -40,7 +41,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tter;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *analyticModules;

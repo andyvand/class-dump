@@ -5,10 +5,5 @@
 //
 
 @protocol UICollectionViewDelegateFlowLayout
-
-@optional
-- (struct UIEdgeInsets)latter;
-- (struct CGSize)äðdñ;
-- (double)tePromptView;
 @end
 

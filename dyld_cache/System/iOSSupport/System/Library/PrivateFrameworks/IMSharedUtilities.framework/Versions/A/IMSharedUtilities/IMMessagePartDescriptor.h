@@ -30,9 +30,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)c;
 - (id);
-- (void);
+- (_Bool);
+- (void)ometimes;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fileTransferGUIDsInMessagePartText; // @synthesize fileTransferGUIDsInMessagePartText=_fileTransferGUIDsInMessagePartText;

@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void)Handler:(id)arg1;
+- (void);
+- (void)overridden by subclass;
 
 // Remaining properties
 @property(retain, nonatomic) WFRemoteExecutionDialogRequestResponse *response; // @synthesize response=_response;

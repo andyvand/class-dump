@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)itWithBaseURL: /* Error: Ran out of types for this method. */;
+- (void)ortcuts preferences.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activityBundleIdentifier; // @synthesize activityBundleIdentifier=_activityBundleIdentifier;

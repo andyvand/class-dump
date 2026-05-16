@@ -18,19 +18,21 @@
 }
 
 + (id);
-+ (_Bool): /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)1	°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *complicationContainingBundleIdentifier; // @synthesize complicationContainingBundleIdentifier=_complicationContainingBundleIdentifier;

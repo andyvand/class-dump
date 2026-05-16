@@ -12,9 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _lastModelValueChangeWasPositive;
 }
 
-- (void)Y;
-- (_Bool)0@ù
-× ;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool lastModelValueChangeWasPositive; // @synthesize lastModelValueChangeWasPositive=_lastModelValueChangeWasPositive;

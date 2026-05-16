@@ -39,8 +39,8 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
 - (float);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -48,18 +48,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (long long);
-- (id);
-- (id)ÁwÐ!@Bù|ð1b0@ù
+- (id)â
+0@ù
 × ;
-- (float);
-- (void);
-- (id);
-- (id)ª8;
+- (float)SDySSJ;
+- (void)r:(float)arg1 %@;
+- (void)ü&a;
+- (id)¬­ÿwL0°5;
 
 // Remaining properties
 @property(readonly, nonatomic) long long alternateTitleIndex; // @synthesize alternateTitleIndex=_alternateTitleIndex;

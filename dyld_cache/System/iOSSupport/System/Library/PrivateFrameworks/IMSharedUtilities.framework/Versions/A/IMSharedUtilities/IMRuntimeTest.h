@@ -14,7 +14,7 @@
 
 + (void);
 + (id);
-+ (id)r_lock_s;
++ (id)ÈÌ¸;
 - (Class);
 - (void);
 - (void);
@@ -24,13 +24,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)B;
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
+- (void)dNotCreateArchive;
+- (id)home directory:%{darwin.errno}d /* Error: Ran out of types for this method. */;
+- (void)image source from %@ to extract embedded JPEG;
+- (void)backStringFormat;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;

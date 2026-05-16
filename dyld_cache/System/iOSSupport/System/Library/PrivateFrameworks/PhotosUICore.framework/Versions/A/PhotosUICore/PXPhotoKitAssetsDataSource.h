@@ -47,7 +47,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -80,25 +79,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (long long);
+- (id);
 - (id);
 - (struct PXSimpleIndexPath);
 - (long long);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (long long);
-- (id);
-- (long long)el;
-- (id)rAssetCollection: /* Error: Ran out of types for this method. */;
-- (long long)l;
-- (id);
-- (void);
+- (long long)rRadius;
+- (_Bool)tion:styleForContextMenuInteraction:configuration: /* Error: Ran out of types for this method. */;
+- (id)etchResult"16@?0@"PHAssetCollection"8;
+- (id)xact Match;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXSectionedDataSourceChangeDetails *changeDetails; // @synthesize changeDetails=_changeDetails;

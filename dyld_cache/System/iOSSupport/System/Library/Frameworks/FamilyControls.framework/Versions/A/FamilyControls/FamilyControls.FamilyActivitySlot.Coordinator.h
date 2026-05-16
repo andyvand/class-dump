@@ -11,8 +11,8 @@
     MISSING_TYPE *currentSlot;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

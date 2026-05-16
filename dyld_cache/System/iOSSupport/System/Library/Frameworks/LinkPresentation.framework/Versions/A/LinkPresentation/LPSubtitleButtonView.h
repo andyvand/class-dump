@@ -23,11 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (struct CGSize);
 - (id);
+- (id);
+- (void)
+× ;
+- (void);
 
 @end
 

@@ -17,35 +17,35 @@ __attribute__((visibility("hidden")))
     _UIPreviewPresentationEffectView *_sourceViewSnapshot;
 }
 
-+ (void)%llu;
-+ (long long)am SMS Capable:Sending Message via CT /* Error: Ran out of types for this method. */;
++ (void);
++ (long long);
 - (_Bool);
 - (double);
-- (id)@;
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void)1";
+- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool)etionBlock;
-- (long long)l be uploading %@ analytic dict %@ to CK. CreatedZones:%@ DeletedZones:%@ /* Error: Ran out of types for this method. */;
-- (id)t for enabling SMS Relay for ourselves, we know of no phone with an alias we can use!!!!!;
-- (_Bool)for message guid:(id)arg1 %@ calculateUnreadCount %{BOOL}d;
-- (id)and;
-- (void)rchiveProvider;
-- (void)LaneShouldHang;
+- (_Bool);
+- (long long);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (struct CGRect);
 - (_Bool);
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (double)ation;
-- (void)umulatorEntry"16^B24;
+- (double)r";
+- (_Bool)kAnimationEnabled;
+- (id)ÌèPé-4ó<õÄöè÷ø;
+- (void)¸ÜªÿØüWj;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool actionsReversed; // @synthesize actionsReversed=_actionsReversed;

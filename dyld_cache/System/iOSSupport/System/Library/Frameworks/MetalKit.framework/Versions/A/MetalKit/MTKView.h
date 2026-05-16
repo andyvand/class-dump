@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, CAMetalLayer, MTKOffscreenDrawable, MTL4RenderPassDescriptor, MTLRenderPassDescriptor, NSString;
-@protocol CAMetalDrawable, MTKViewDelegate, MTLDevice, MTLTexture;
+@class CADisplayLink, CAMetalLayer, MTKOffscreenDrawable, MTL4RenderPassDescriptor, MTLRenderPassDescriptor, NSMutableArray, NSString;
+@protocol CAMetalDrawable, MTKViewDelegate, MTLDevice, MTLResidencySet, MTLTexture;
 
 @interface MTKView
 {
@@ -46,6 +46,8 @@
     long long _forceOrientation;
     double _startTime;
     unsigned int _frameNum;
+    id <MTLResidencySet> _residencySet;
+    NSMutableArray *_allocationsToEvict[3];
     _Bool _enableSetNeedsDisplay;
     _Bool _autoResizeDrawable;
     _Bool _paused;
@@ -74,7 +76,7 @@
 - (void);
 - (void);
 - (void);
-- (void)L;
+- (void);
 - (long long);
 - (const id *);
 - (const id *);
@@ -99,58 +101,62 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)B;
+- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
+- (void);
 - (long long);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (struct CGSize);
 - (void);
+- (void);
 - (double);
-- (void)P;
-- (unsigned long long);
 - (void);
-- (void);
-- (void)a0;
-- (void);
-- (void)leIdentifiersForKnownApplication: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
-- (id)P;
 - (void);
-- (_Bool);
-- (void)etString:(id)arg1;
-- (void)eSpacePlaceholder;
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (unsigned int);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)rnComposeRecipientAtom",&,N,V_atomView;
-- (_Bool);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (CDStruct_3ead2808);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct CGColorSpace *);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (struct CGSize);
+- (void);
 - (id);
-- (_Bool)zeDrawable;
+- (void);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool autoResizeDrawable; // @synthesize autoResizeDrawable=_autoResizeDrawable;
@@ -184,6 +190,7 @@
 @property(readonly, nonatomic) struct CGSize preferredDrawableSize; // @synthesize preferredDrawableSize=_preferredDrawableSize;
 @property(nonatomic) long long preferredFramesPerSecond; // @synthesize preferredFramesPerSecond=_preferredFramesPerSecond;
 @property(nonatomic) _Bool presentsWithTransaction;
+@property(readonly, nonatomic) id <MTLResidencySet> residencySet;
 @property(nonatomic) unsigned long long sampleCount; // @synthesize sampleCount=_sampleCount;
 @property(readonly) Class superclass;
 

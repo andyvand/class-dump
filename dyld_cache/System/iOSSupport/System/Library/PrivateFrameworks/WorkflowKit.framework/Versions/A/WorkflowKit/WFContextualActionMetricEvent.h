@@ -19,14 +19,14 @@
 + (id);
 + (Class);
 - (_Bool);
-- (void)0%EÉ;
 - (void);
-- (void);
-- (void);
-- (unsigned int);
 - (void);
 - (id);
+- (void);
 - (id);
+- (unsigned int);
+- (void)ner:(id)arg1 %s;
+- (void)g ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasTrackpad; // @synthesize hasTrackpad=_hasTrackpad;

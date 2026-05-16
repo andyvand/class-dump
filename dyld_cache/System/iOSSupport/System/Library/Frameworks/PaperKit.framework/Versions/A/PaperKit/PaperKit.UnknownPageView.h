@@ -13,10 +13,10 @@
     MISSING_TYPE *textualContextProvider;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)ÊHÿÿX_þÿF_þÿ;
 
 @end
 

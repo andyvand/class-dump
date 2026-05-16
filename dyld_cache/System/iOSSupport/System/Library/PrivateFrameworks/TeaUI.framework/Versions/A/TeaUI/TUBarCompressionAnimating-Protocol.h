@@ -5,11 +5,6 @@
 //
 
 @protocol TUBarCompressionAnimating
-- (double)dyForDisplay;
-
-@optional
-- (_Bool);
-- (void)ardView;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldAlwaysScrollToTopOnTap;

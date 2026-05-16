@@ -8,11 +8,12 @@
 {
 }
 
-- (id);
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
-- (id)onPressed;
+- (id)1Â0@ù
+× ;
+- (id)Q,N,V_sendProgressSendCount;
 
 @end
 

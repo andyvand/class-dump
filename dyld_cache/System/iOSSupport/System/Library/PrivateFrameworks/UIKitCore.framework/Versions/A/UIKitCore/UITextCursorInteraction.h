@@ -11,11 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)-U;
+- (void);
 - (_Bool);
-- (_Bool)ùQÌ1¢!0@ù
-× ;
-- (id)cordDecorationInfo: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 
 @end
 

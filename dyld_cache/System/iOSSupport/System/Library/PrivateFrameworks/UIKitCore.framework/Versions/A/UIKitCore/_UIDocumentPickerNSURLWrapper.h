@@ -16,24 +16,23 @@
 
 + (id);
 + (id);
-+ (id)Ôaoð!üDùÑÁð1¢!0@ù
++ (void);
++ (id)0@ù
 × ;
-+ (void)ex:(id)arg1 processPrecedingVisibleItem:(id)arg2;
-+ (id)%P_;
-+ (_Bool)/ì;
++ (id)Ô¡	ð!0Dùñeð1Â0@ù
+× ;
++ (_Bool)ICTFontTextStyleSection1;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)endpointRoute;
-- (id);
 - (void);
-- (void)ù
-× ;
-- (void)!(CùQÉ1¢!0@ù
-× ;
-- (id)g: /* Error: Ran out of types for this method. */;
-- (void)discardSceneSessions:(id)arg1;
-- (id)ÿÿ;
+- (void)EdgePreferenceMode"Q};
+- (void)maximumPointSize:(id)arg1;
+- (id)@"<UIColorPickerViewControllerDelegate>",W,N,V_delegate;
+- (void)$U;
+- (id)sionIdentifier:viewController:beginHandler:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain) NSData *promiseScope; // @synthesize promiseScope=_promiseScope;

@@ -7,11 +7,11 @@
 @class UITraitCollection;
 
 @protocol UILayoutRuleEvaluationContext
-- (struct CGSize)rsion;
-- (struct UIEdgeInsets)ath. Please file a bug against UICollectionView with reproduction steps. Collection view:%@; Original index path:%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets);
-- (UITraitCollection *)ÛZ;
-- (struct NSDirectionalEdgeInsets)F;
+- (struct CGSize);
+- (struct UIEdgeInsets)tles;
+- (struct NSDirectionalEdgeInsets);
+- (struct UIEdgeInsets)ySo16UIViewControllerCG;
+- (UITraitCollection *)8TR0;
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;

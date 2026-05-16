@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)etBatchBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double timePerFrame;

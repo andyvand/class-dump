@@ -20,10 +20,11 @@
 - (struct CGPoint);
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint comparisonPoint; // @synthesize comparisonPoint=_comparisonPoint;

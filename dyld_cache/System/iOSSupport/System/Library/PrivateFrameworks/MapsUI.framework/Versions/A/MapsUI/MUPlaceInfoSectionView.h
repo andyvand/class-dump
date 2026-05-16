@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)zedUserRatingScore;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *viewModels; // @synthesize viewModels=_viewModels;

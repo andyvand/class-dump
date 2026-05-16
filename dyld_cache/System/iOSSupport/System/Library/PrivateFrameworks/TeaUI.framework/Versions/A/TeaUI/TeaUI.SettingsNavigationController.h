@@ -9,8 +9,8 @@
 }
 
 - (id);
-- (id)refetchThrottler;
-- (id)Block;
+- (id);
+- (id);
 - (id);
 
 @end

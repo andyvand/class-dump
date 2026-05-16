@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
     unsigned long long _touchedEdges;
 }
 
-- (void);
 - (id);
-- (void)lEffectsToPresentingView:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)¿þ þÿ;
-- (unsigned long long)ndEditing;
+- (void)Delegate:(const struct _UISEGestureFeatureSample *)arg1;
+- (unsigned long long)|Ä°8;
+- (id)ndowScenePlacementP;
+- (void)Í±;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long touchedEdges; // @synthesize touchedEdges=_touchedEdges;

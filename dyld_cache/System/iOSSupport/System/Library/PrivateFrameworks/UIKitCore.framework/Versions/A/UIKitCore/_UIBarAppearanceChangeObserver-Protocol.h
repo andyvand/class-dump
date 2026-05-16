@@ -5,6 +5,6 @@
 //
 
 @protocol _UIBarAppearanceChangeObserver
-- (void). SplitViewController is %@, primary is %@, secondary is %@;
+- (void);
 @end
 

@@ -12,21 +12,21 @@
 }
 
 + (id);
-+ (id)`;
 + (_Bool);
++ (id);
 - (id);
 - (void);
-- (void)#;
-- (id);
-- (id);
-- (void)(;
 - (id);
 - (id);
 - (id);
-- (id)FallbackToCustomerScan;
 - (id);
 - (id);
-- (void)8;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,13 +13,14 @@ __attribute__((visibility("hidden")))
     UITextPosition *_position;
 }
 
-- (_Bool).;
+- (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id)DelayedTouchForTouch:event: /* Error: Ran out of types for this method. */;
-- (void)D°þlþÿ;
+- (id);
+- (id)!,Dùdð1Â0@ù
+× ;
+- (void)oolbarItemIdentifierAgainstExisting:(id)arg1;
+- (void)ackgroundTaskAssertionQueue;
+- (void)Oè´N?±?;
 
 // Remaining properties
 @property(retain, nonatomic) UITextPosition *position; // @synthesize position=_position;

@@ -59,11 +59,13 @@
 - (double);
 - (id);
 - (void);
-- (double);
-- (void);
-- (void);
 - (id);
 - (void);
+- (double);
+- (void);
+- (void)ÑñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool applyVariationOnGlass; // @synthesize applyVariationOnGlass=_applyVariationOnGlass;

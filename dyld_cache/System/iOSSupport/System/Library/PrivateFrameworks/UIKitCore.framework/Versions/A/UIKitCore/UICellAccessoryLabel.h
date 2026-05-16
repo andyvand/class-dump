@@ -15,26 +15,26 @@
     UIFont *_font;
 }
 
-+ (_Bool),0n;
++ (_Bool);
 - (id);
-- (void)#;
-- (_Bool);
+- (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (id);
-- (void)!@Bù1Ã1¢!0@ù
+- (id)Áð!Dùq_ð1Â0@ù
 × ;
-- (id);
-- (id)preferredStatusBarVisibilityForWindow:targetOrientation:animationProvider: /* Error: Ran out of types for this method. */;
-- (long long)tem:%@, expected responder:%@ (%@), actual responder:%@ (%@) /* Error: Ran out of types for this method. */;
-- (void)uncating child array:(id)arg1 %@;
-- (id)áÿÐ¡Òt_;
-- (void)t ;
-- (id)òÉÿ;
+- (_Bool)VisibleAppearance;
+- (void)archControllerChange;
+- (void)eToCellEdges:(id)arg1;
+- (long long)utton;
+- (id)°_;
+- (void);
+- (_Bool)%{public}@, new layers:(id)arg1 %{public}@;
+- (id)eAwareLineHeightRatio;
+- (id)¶;
+- (void)[;
+- (id)pHÙ9^;
+- (_Bool)^;
+- (long long);
+- (void)i;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontForContentSizeCategory; // @synthesize adjustsFontForContentSizeCategory=_adjustsFontForContentSizeCategory;

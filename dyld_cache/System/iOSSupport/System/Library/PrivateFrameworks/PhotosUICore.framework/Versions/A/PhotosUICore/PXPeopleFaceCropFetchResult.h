@@ -22,12 +22,11 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)±{Ð1b0@ù
-× ;
+- (void)Ñ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetLocalIdentifier; // @synthesize assetLocalIdentifier=_assetLocalIdentifier;

@@ -46,19 +46,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *badgeImageView; // @synthesize badgeImageView=_badgeImageView;

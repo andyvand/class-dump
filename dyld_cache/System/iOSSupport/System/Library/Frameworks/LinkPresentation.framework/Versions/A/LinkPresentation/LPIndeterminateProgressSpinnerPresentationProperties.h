@@ -11,9 +11,9 @@
     NSString *_text;
 }
 
+- (id);
 - (void);
 - (void);
-- (id))L;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;

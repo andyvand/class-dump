@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)canonicalized_id, person_centric_id FROM handle ;
+- (void)adSourceContent:(id)arg1 withArchivedModelData:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

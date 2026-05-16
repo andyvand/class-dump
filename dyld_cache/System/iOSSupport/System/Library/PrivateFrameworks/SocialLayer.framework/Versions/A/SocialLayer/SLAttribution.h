@@ -41,22 +41,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)eIdentifier;
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attachmentGUID; // @synthesize attachmentGUID=_attachmentGUID;

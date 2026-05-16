@@ -15,14 +15,13 @@ __attribute__((visibility("hidden")))
     UIColor *_focusedImageTintColor;
 }
 
+- (_Bool);
+- (id);
+- (void)erViewBottomConstraint;
 - (void);
-- (void);
-- (id)@ù
-× ;
-- (_Bool)ingControllerPerformAuxiliaryAction:completion: /* Error: Ran out of types for this method. */;
-- (void)il;
-- (_Bool)ationDisplay;
-- (void)Ò^;
+- (void);
+- (_Bool)}SÀ7Lü;
+- (void)èÿU4×PÅ^;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *focusedImageTintColor; // @synthesize focusedImageTintColor=_focusedImageTintColor;

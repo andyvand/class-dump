@@ -25,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ibrary/BuildRoots/4~CNz6ugBPGLsSM0AdSVFPRIZVgttE0sIZBBApmNI/Library/Caches/com.apple.xbs/TemporaryDirectory.pCB1MA/Sources/Home/HomeUI/AccessoryList/ViewControllers/TriggerActionPickerViewController+ConvertToShortcut.swift;
 
 // Remaining properties
 @property(nonatomic, readonly) HFActionSetBuilder *actionSetBuilder; // @synthesize actionSetBuilder;

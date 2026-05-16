@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
-
 @protocol _UIWindowLevelObserver
-- (void)dation:(UIWindow *)arg1;
 @end
 

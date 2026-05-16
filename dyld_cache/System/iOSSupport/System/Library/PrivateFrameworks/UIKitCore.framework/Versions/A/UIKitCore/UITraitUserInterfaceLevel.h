@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)SMutableDictionary"8;
-+ (_Bool)RenderError;
-+ (_Bool)y	;
-+ (id)nstraintChanges;
-+ (id)gerCSgXwz_Xx;
-+ (long long)Üf;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)is in the background.;
++ (long long)´zÿ%Îpg;
 
 @end
 

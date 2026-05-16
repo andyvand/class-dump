@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
-- (void)for keyboard-interactive authentication;
+- (long long)edCharge;
+- (void)k_invoke;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController;
+
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (long long);
+- (void)Delegate:(UIPresentationController *)arg1 forViewController: /* Error: Ran out of types for this method. */;
 @end
 

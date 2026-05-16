@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void)r";
-- (id)ienceAnimationExecutor";
-- (void)@"SiriUITalkGestureTarget";
-- (void)riIconToggleButtonView"16;
+- (void);
 - (id);
-- (void)windowWillReturnFieldEditor:(id)arg1 toObject: /* Error: Ran out of types for this method. */;
-- (void)ctionImage;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

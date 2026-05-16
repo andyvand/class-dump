@@ -15,11 +15,11 @@
 - (struct CGRect);
 - (struct CGRect);
 - (id);
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

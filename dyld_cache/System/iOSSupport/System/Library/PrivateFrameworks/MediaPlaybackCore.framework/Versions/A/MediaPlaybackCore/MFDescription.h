@@ -8,17 +8,17 @@
 {
 }
 
-+ (id)accountToDelete = %{public}@;
-+ (id)Deleting. account = %{public}@ | accountToDelete = %{public}@;
-+ (id)he account we’re trying to save. Deleting. account = %{public}@ | accountToDelete = %{public}@;
-+ (id)account that is a duplicate of the account we’re trying to save. Deleting. account = %{public}@ | accountToDelete = %{public}@;
-+ (id){public}@:(long long)arg1 [%{public}@] Found a non-active account that is a duplicate of the account we’re trying to save. Deleting. account = %{public}@ | accountToDelete = %{public}@;
-+ (id)Type = %{public}@ | caller = %{public}@;
-+ (id)%{public}@. account = %{public}@ | changeType = %{public}@ | caller = %{public}@;
-+ (id)didChange:(long long)arg1 .;
-+ (id)ic}@] Finished processing account:(long long)arg1 didChange:. /* Error: Ran out of types for this method. */;
-+ (id)f the change.;
-+ (id)AMSAccountsChangedObservables of the change.;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 - (id);

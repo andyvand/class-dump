@@ -29,17 +29,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

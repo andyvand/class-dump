@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (long long);
-- (void);
 - (struct CGSize);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *shapes; // @synthesize shapes=_shapes;

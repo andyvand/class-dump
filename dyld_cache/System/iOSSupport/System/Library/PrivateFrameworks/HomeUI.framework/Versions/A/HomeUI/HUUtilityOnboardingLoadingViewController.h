@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)mations;
-- (void)ets:(id)arg1;
-- (id)7×ÿ;
-- (void)Â¬;
+- (void)er;
+- (id)er;
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

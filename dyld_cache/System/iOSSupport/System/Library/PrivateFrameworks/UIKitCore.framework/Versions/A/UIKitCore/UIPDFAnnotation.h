@@ -29,60 +29,62 @@
     unsigned long long _tag;
 }
 
-+ (id)sage GUIDs:(id)arg1 %@;
-- (void)BlastDoorContext:(id)arg1;
-- (void)meToKVStore:(id)arg1 nickname: /* Error: Ran out of types for this method. */;
-- (void)eTransitionList:(id)arg1 withHandles:forKey:broadcastUpdates: /* Error: Ran out of types for this method. */;
-- (_Bool)sAnyRecordZoneIDHavePendingArchivedRecords: /* Error: Ran out of types for this method. */;
-- (struct CGRect)n;
-- (const char *)SNumber",R,N,V_batchNumber;
-- (id)eportManateeStatus;
-- (struct CGPath *)Update:dropNicknameForUnknownContacts:withCompletionBlock: /* Error: Ran out of types for this method. */;
-- (void)ChallengedSMSRelay:(id)arg1;
-- (id)=;
++ (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGRect);
+- (const char *);
+- (id);
+- (struct CGPath *);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id)8;
 - (id);
-- (id);
-- (struct CGRect);
+- (id);
 - (struct CGRect);
+- (struct CGRect);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (Class);
-- (_Bool)lesms_collaborationMetadata;
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (int);
-- (id);
-- (struct CGRect);
-- (_Bool);
-- (struct CGRect)gress;
-- (void)@;
-- (void)FùqÀÐ1¢!0@ù
-× ;
-- (void)conEffectSettings";
-- (long long)TextHighlightBackgroundView";
-- (struct CGColor *)led: /* Error: Ran out of types for this method. */;
-- (void)mumCapacity:(struct CGContext *)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)erticalAlignmentConstraints;
-- (id)cessary;
-- (void)from a UITableViewDiffableDataSource, but the table view's dataSource is not the UITableViewDiffableDataSource. Table view:(struct CGColor *)arg1 %@ This will become an assert in a future version.;
-- (void)ionBar managed by a controller.;
-- (id)vÉ^;
-- (void)Æd;
-- (void)Ëf;
-- (unsigned long long)^¶ÏImf;
 - (void);
+- (void);
+- (_Bool);
 - (id);
-- (void)ÿ;
-- (id);
+- (id)±að1Â0@ù
+× ;
+- (void);
+- (void)0@ù
+× ;
+- (unsigned long long)!<FùQfÐ1Â0@ù
+× ;
+- (struct CGRect)OfContent"B"skipSnapshotOfEndState"B"preventAdditveAnimations"B"contentStretchRightEdgeInset"d"edgeClip"i};
+- (struct CGColor *)bView:resource:didReceiveAuthenticationChallenge:fromDataSource: /* Error: Ran out of types for this method. */;
+- (id)iewMode;
+- (struct CGRect);
+- (void)End:(_Bool)arg1;
+- (void)SlipFactor;
+- (id)ICollectionViewPrefetchItem"16;
+- (long long)ove your +_forceLegacyVisualProvider override.;
+- (void)yxGSg;
+- (id)|¸Üþ;
+- (void)0ve;
+- (void)Õg;
+- (void)Ãÿ;
+- (void)Äû{þ""ÐÔ§i;
+- (id)ð«j;
 
 // Remaining properties
 @property(nonatomic) UIPDFAnnotationController *annotationController; // @synthesize annotationController=_annotationController;

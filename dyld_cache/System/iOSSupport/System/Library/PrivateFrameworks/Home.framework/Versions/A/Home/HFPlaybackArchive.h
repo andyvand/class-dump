@@ -28,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Ô;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *artworkImageData; // @synthesize artworkImageData=_artworkImageData;

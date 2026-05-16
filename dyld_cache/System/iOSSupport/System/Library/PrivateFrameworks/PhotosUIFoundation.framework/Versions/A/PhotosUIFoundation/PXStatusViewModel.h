@@ -31,17 +31,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (void);
+- (id)Name:"%@", title:"%@", message:"%@", action:"%@", alert:"%@/%@/%@"> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

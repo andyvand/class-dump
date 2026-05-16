@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UITableViewDataSource
-- (long long)TravelTime;
-
-@optional
-- (NSArray *)`r;
 @end
 

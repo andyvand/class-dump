@@ -9,7 +9,6 @@
 @interface ChatKit.DetailsInfoTabView.EncryptionStatusFooter.ViewModel
 {
     MISSING_TYPE *conversation;
-    MISSING_TYPE *_keyTransparencyState;
     MISSING_TYPE *_ktChatState;
     MISSING_TYPE *_$observationRegistrar;
 }

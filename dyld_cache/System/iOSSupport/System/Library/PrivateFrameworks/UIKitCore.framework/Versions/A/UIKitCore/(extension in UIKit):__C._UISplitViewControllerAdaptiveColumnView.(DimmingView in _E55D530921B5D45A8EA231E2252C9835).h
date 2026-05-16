@@ -10,9 +10,8 @@
 {
 }
 
-- (id)P;
-- (id)commands perform the same action with slight variations in behavior, provide a unique propertyList value to distinguish them.
-;
+- (id);
+- (id)rVisualStyle;
 
 @end
 

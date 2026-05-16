@@ -18,20 +18,20 @@ __attribute__((visibility("hidden")))
     struct CGSize _effectiveMaximumSize;
 }
 
-+ (id)epeating task but was only expected to handle repeating tasks.;
-+ (id)ommand:(id)arg1 %@, %@;
-+ (_Bool)up] Invalid Use of GroupID;
-+ (_Bool)service is %@;
++ (id);
++ (id);
++ (_Bool);
++ (_Bool);
 - (void);
 - (void);
-- (id)G�;
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (struct CGSize)progress;
-- (void)esentOnlyWhenLayersExist:(struct CGSize)arg1 %{public}@;
-- (struct CGSize)r _defaultItemsForSelector:] /* Error: Ran out of types for this method. */;
-- (void)p;
+- (struct CGSize)mingHandler;
+- (void)\NÈN<Q¨QÀaxcÔd;
+- (struct CGSize)¦þ;
+- (void)4;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFullScreen; // @synthesize allowsFullScreen=_allowsFullScreen;

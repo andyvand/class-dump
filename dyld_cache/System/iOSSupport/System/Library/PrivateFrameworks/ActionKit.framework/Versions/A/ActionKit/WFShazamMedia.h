@@ -21,25 +21,25 @@
     NSString *_lyricsSnippetSynced;
 }
 
-+ (_Bool)rt Date;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)ic;
-- (id);
+- (id)(T;
+- (void)ems from RSS Feed action.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *appleMusicID; // @synthesize appleMusicID=_appleMusicID;

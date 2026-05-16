@@ -24,11 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)yACyÊàySaymÉG{ÑþyAAyÝãþÿèÙGAFySayãþÿGANdãþÿGæàGGAFySayilÉGAuPGGGåùGALG_öQo_GA2_GGMÚGALG¤ÝyFSgGG;
+- (void);
+- (void)ÿÿÿÿP;
 
 // Remaining properties
 @property(retain, nonatomic) WFDatabase *database; // @synthesize database=_database;

@@ -12,16 +12,16 @@
 + (id);
 + (id);
 + (id);
-- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)`;
-- (struct CGPoint);
+- (_Bool);
+- (_Bool);
+- (struct CGPoint);
 - (id);
-- (_Bool)sBarWillChange: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool fromDragToInsertController;

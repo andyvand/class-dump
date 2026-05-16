@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)üÎ;
 
 // Remaining properties
 @property(nonatomic) _Bool initializedReorderSound; // @synthesize initializedReorderSound=_initializedReorderSound;

@@ -8,8 +8,8 @@
 @protocol UIScrollViewDelegate;
 
 @protocol MUInfoCardContentProtocol
-- (void);
-- (UIScrollView *)nvironment;
+- (void)r;
+- (GEOTransitOptions *);
 
 // Remaining properties
 @property(retain, nonatomic) GEOAutomobileOptions *automobileOptions;

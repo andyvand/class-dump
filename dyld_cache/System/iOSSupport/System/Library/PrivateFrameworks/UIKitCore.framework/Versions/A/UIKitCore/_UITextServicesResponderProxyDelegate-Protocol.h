@@ -5,7 +5,8 @@
 //
 
 @protocol _UITextServicesResponderProxyDelegate
-- (_Bool)tionSize"q};
-- (void)Spec";
+- (void)Ð1Â0@ù
+× ;
+- (_Bool)tion;
 @end
 

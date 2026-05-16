@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *dsid; // @synthesize dsid=_dsid;

@@ -11,10 +11,10 @@
     MISSING_TYPE *effectView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

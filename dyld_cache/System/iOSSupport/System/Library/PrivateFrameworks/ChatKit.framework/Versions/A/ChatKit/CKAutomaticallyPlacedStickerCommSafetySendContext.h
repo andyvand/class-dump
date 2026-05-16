@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id)ߍ;
+- (id);
 - (struct CGRect);
-- (id)are"8@"NSError"16;
+- (id);
 - (id);
 - (id);
 - (id);

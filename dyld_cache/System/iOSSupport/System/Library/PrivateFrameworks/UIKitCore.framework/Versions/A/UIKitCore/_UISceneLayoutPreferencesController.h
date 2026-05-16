@@ -16,16 +16,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnion_c6a188fc);
 - (_Bool);
-- (_Bool)R`;
+- (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void)s;
-- (void);
-- (id)$)$*Ä+;
-- (void)n;
-- (id)o process an invalid or unknown resolve type. Type:%ld /* Error: Ran out of types for this method. */;
+- (id)¡	!¬DùÑeð1Â0@ù
+× ;
+- (void)sFloatingInCompactHeight;
+- (id)¨D |#;
+- (void)H;
+- (void)Æ03+¸þÆ03+¸þ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

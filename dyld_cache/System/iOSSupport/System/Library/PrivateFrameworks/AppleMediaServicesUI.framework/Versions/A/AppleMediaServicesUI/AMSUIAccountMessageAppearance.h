@@ -57,20 +57,20 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)ancel_bar_button_item;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)eEventFieldsForKeys: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;

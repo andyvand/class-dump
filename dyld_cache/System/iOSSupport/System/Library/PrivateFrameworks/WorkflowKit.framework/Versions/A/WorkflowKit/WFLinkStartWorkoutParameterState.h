@@ -16,7 +16,7 @@
 + (id);
 + (Class);
 - (id);
-- (id);
+- (id)ntentItem;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedTitle;

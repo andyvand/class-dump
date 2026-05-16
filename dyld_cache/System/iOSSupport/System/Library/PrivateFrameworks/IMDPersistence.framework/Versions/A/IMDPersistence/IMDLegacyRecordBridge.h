@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);;
++ (void);
 + (void);
 + (long long);
 + (void);
@@ -18,9 +18,9 @@
 + (_Bool);
 + (_Bool);
 + (const CDStruct_47876580 *);
-+ (long long)¼;
-+ (void);
-- (id)Tool",R,N;
++ (long long)xport_table;
++ (void)pple.IMDPersistenceIPCQueue;
+- (id);
 
 @end
 

@@ -15,13 +15,13 @@
 }
 
 - (id);
-- (void)sWithGUIDsAndProperties:(int)arg1;
-- (id);
-- (int)e>";
-- (id);
 - (void);
-- (id)ndDismissal: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (int);
+- (id);
+- (id);
+- (id)led;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *environmentIdentifier; // @synthesize environmentIdentifier=_environmentIdentifier;

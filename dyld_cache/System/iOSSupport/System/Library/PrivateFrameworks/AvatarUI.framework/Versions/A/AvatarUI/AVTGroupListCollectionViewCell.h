@@ -23,15 +23,15 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (struct CGSize);
+- (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

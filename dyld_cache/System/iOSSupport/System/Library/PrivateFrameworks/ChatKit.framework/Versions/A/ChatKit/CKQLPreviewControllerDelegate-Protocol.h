@@ -4,23 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject, CKQLPreviewController, NSArray, NSString;
-@protocol QLPreviewControllerConforming;
-
 @protocol CKQLPreviewControllerDelegate
-- (void)ualSmartFolder:(id <QLPreviewControllerConforming>)arg1;
-
-@optional
-- (NSString *);
-- (_Bool)èÓsô;
-- (_Bool)ô;
-- (void)ationSummaryVersion;
-- (void)ConversionHandler:(CKMediaObject *)arg1;
-- (void)ame;
-- (_Bool)ertAllDrawingsIfNeeded;
-- (_Bool)InNoteWithID:(CKQLPreviewController *)arg1 configuration: /* Error: Ran out of types for this method. */;
-- (_Bool)ndexTitleForSectionName:(CKQLPreviewController *)arg1;
-- (void)ngeContentWithDifference:(CKQLPreviewController *)arg1;
-- (NSArray *)ription:(CKQLPreviewController *)arg1;
 @end
 

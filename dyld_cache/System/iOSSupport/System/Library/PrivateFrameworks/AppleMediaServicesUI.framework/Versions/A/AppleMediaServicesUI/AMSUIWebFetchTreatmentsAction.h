@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)amicViewControllerCSDy+:ypGc.Øýÿ_So6UIViewCXcIegnnnr_ /* Error: Ran out of types for this method. */;
++ (id)ÿ°¡,Ë;
 - (void);
 - (void);
 - (void);
@@ -28,11 +28,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void)ferredPresentation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *areaIds; // @synthesize areaIds=_areaIds;

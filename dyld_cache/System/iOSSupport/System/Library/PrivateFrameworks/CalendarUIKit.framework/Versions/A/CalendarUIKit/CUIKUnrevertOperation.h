@@ -10,7 +10,7 @@
 {
 }
 
-- (Class)!ne;
+- (Class);
 - (_Bool);
 
 @end

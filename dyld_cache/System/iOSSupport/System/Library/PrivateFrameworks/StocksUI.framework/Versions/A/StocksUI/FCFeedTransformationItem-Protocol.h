@@ -8,14 +8,10 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long)Add to Watchlistsâ¦;
-- (NSString *)kTitleViewRendererType;
+- (long long);
 
 @optional
-- (int)TableView: /* Error: Ran out of types for this method. */;
-- (unsigned long long)stSectionHeaderView.swift;
+- (int);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

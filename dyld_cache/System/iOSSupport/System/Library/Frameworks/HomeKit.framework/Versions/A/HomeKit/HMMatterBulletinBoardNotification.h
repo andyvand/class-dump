@@ -17,8 +17,8 @@
     NSNumber *_endpointID;
 }
 
-+ (id)sedEventTopic;
-+ (_Bool)ger.uuid;
++ (_Bool);
++ (id)ateDuration:completionHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -29,13 +29,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)xé;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;

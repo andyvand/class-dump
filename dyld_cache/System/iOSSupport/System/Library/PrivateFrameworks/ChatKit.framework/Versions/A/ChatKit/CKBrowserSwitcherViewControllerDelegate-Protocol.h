@@ -5,13 +5,5 @@
 //
 
 @protocol CKBrowserSwitcherViewControllerDelegate
-- (void)Ømy¬;
-- (void)º®í;
-
-@optional
-- (void);
-- (void);
-- (void)Õ;
-- (void);
 @end
 

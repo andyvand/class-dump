@@ -13,9 +13,9 @@
     MISSING_TYPE *nativeItemDelegate;
 }
 
-- (void);
 - (id);
-- (_Bool)î	;
+- (_Bool);
+- (void),&,N,V_contextMenuAction;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasContent;

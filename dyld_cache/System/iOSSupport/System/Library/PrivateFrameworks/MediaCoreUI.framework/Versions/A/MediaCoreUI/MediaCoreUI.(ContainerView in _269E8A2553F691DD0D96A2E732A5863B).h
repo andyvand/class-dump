@@ -11,10 +11,10 @@
     MISSING_TYPE *routeButton;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)public}s;
 
 @end
 

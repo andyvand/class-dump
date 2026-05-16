@@ -35,26 +35,26 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
 - (id);
+- (struct _NSRange);
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)ction:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

@@ -12,21 +12,21 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (void)er;
 - (id);
-- (id)xonomyGraphTagServiceType;
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)eplacingCharactersInSet:(CDStruct_70511ce9 *)arg1 withCharacter:(id *)arg2;
 
 @end
 

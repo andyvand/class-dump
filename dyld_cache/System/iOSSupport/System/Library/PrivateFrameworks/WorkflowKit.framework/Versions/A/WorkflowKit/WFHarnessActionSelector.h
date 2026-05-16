@@ -11,11 +11,11 @@
     NSPredicate *_predicate;
 }
 
-+ (id);
-- (_Bool)¸Ì;
++ (id);
+- (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)com.apple.iBooks.openin;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;

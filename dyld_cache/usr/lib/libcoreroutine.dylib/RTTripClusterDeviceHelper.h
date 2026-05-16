@@ -11,11 +11,11 @@
 
 + (id);
 + (id);
-+ (id)å;
++ (id)\_¥ÿ;
 - (void);
 - (_Bool);
 - (id);
-- (id)entifier: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool currentDeviceOnly; // @synthesize currentDeviceOnly=_currentDeviceOnly;

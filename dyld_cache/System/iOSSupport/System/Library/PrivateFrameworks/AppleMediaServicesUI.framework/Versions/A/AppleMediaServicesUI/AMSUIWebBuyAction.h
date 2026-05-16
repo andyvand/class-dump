@@ -47,20 +47,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (id)20AMSCarrierLinkResultCL:_pGSgG /* Error: Ran out of types for this method. */;
-- (void)n implemented;
+- (void)0yé+Nd²0G;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

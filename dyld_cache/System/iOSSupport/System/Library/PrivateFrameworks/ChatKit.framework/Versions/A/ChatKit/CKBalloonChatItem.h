@@ -18,31 +18,31 @@
     struct UIEdgeInsets _tailInsetsAtMaxWidth;
 }
 
-+ (double)sword;
++ (double);
 - (_Bool);
 - (struct CGSize);
-- (struct UIEdgeInsets)y79;
+- (struct UIEdgeInsets);
 - (BOOL);
-- (struct UIEdgeInsets)_G;
+- (struct UIEdgeInsets);
 - (BOOL);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
-- (void)tivities — using most recent;
-- (_Bool)ification Date;
-- (_Bool)l:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder:] /* Error: Ran out of types for this method. */;
-- (_Bool)iewGenerator;
-- (id)torage"16{_NSRange=QQ}24;
-- (struct CGSize)^	\S+?	;
-- (Class);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (struct CGSize);
+- (Class);
 - (struct IMColorComponents);
 - (_Bool);
 - (void);
 - (_Bool);
 - (Class);
 - (struct CGSize);
-- (BOOL);
+- (BOOL);
 - (BOOL);
 - (unsigned long long);
 - (_Bool);
@@ -52,17 +52,16 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (Class);
-- (struct UIEdgeInsets);
-- (void);
 - (_Bool);
-- (id)
-× ;
-- (unsigned long long)gressTotalCount;
 - (id);
-- (struct IMColorComponents)àûÿÿ8üÿÿè¤ÛÿÔûÿÿ4üÿÿ ¥ÛÿÈûÿÿ0üÿÿP¦Ûÿ¼ûÿÿôûÿÿ;
-- (id)Added core observers.;
-- (id)) saveCompositionWithChatIdentifier:] /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (Class);
+- (id);
+- (unsigned long long);
+- (id)creen;
+- (struct IMColorComponents)¨#;
+- (id)²xZG©ZySayÁG]IZ=[yAByADyä<[yAE§ZGÎZy ¦ZSgGGAEGGGG_Qo_máyAGGGG;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double balloonCornerRadius;

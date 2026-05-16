@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _didEndHandler;
 }
 
+- (void);
+- (void);
 - (id);
-- (void)ride;
-- (void);
-- (void);
+- (void)03yó/¿7G;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

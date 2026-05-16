@@ -18,17 +18,17 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)q!;
-- (id);
-- (id);
 - (void);
-- (void)qÇð1¢!0@ù
+- (id);
+- (void)0@ù
 × ;
-- (void)erSettingsDiffActionArray:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)ecking archived restorable state:%@ /* Error: Ran out of types for this method. */;
+- (id)ionSnapshotOrphanDisposition:%ld /* Error: Ran out of types for this method. */;
+- (void)ll;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIContextMenuStyle *contextMenuStyle; // @synthesize contextMenuStyle=_contextMenuStyle;

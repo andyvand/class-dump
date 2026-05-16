@@ -22,9 +22,9 @@
 - (id);
 - (SEL);
 - (id);
-- (void);
-- (long long)nitWithWebsiteNameDictionary: /* Error: Ran out of types for this method. */;
+- (long long);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessibilityIdenitifier; // @synthesize accessibilityIdenitifier=_accessibilityIdenitifier;

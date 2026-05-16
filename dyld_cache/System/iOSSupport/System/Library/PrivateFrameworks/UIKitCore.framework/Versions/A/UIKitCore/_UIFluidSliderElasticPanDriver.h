@@ -33,25 +33,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)l^;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)@ù
+- (void)1Â0@ù
 × ;
-- (id);
-- (_Bool)@0:(id)arg1 8@"UISheetPresentationController"16;
-- (void)AddingToSessionAsync"b1"itemsForAddingToSession3D"b1"sessionForAddingItems3D"b1"dynamicallyUpdatesPrefersFullSizePreviews"b1"shouldBecomeDraggingSourceDelegate"b1"delayForLiftBeginningAtLocation"b1};
-- (id):forView: /* Error: Ran out of types for this method. */;
-- (void)estureView;
-- (_Bool)wasTouchInside;
-- (void)81vþÜþÿ;
-- (void)Òüÿ*Òüÿ;
-- (id)dexes (inclusive) <%ld,%ld>; view frame:%@ /* Error: Ran out of types for this method. */;
-- (void)Testing:(id)arg1 Component specified does not exist;
-- (void)mplemented;
-- (id)ged;
+- (void)ùQe°1Â0@ù
+× ;
+- (void)ViewsDidChangeForPopoverWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)ed: /* Error: Ran out of types for this method. */;
+- (id)tered a single UIFocusItemContainer:%@ yielded by two mismatched owning UIFocusEnvironments:%@ and %@. UIFocusItemContainer should be 1:1 with its owning environment. /* Error: Ran out of types for this method. */;
+- (_Bool)ansparent;
+- (void)irmation;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFluidSliderDirectDrivingDelegate> delegate; // @synthesize delegate;

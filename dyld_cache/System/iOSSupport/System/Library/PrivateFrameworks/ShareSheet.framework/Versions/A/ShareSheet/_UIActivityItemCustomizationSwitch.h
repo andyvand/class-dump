@@ -18,11 +18,11 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

@@ -15,8 +15,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)s: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)cRepeatType;
 
 // Remaining properties
 @property(copy, nonatomic) UICubicTimingParameters *springCubicTimingParameters; // @synthesize springCubicTimingParameters=_springCubicTimingParameters;

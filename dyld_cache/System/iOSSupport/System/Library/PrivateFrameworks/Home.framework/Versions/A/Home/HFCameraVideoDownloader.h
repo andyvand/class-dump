@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)¸(ü;
 
 // Remaining properties
 @property(nonatomic) __weak HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

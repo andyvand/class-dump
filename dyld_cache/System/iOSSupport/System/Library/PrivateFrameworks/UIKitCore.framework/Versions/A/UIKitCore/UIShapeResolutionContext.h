@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
-- (id)gureOneFingerForcePressRecognizer: /* Error: Ran out of types for this method. */;
-- (id)¤Èÿt ;
+- (id);
+- (void)òÚ(Ec;
+- (id)¢g;
 
 // Remaining properties
 @property(nonatomic, readonly) UIResolvedShape *contentShape;

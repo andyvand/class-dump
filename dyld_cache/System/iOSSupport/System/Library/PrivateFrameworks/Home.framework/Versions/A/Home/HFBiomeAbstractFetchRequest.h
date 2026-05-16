@@ -28,15 +28,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)1B50@ù
+× ;
+- (void)SiriDisabled;
 - (id);
-- (id)e;
+- (void)ûT;
 
 // Remaining properties
 @property(retain) HMAccessory *accessory; // @synthesize accessory=_accessory;

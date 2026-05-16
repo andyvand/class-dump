@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)zeFormat;
 
 // Remaining properties
 @property(retain, nonatomic) id <WFFileStorageServiceOperation> saveOperation; // @synthesize saveOperation=_saveOperation;

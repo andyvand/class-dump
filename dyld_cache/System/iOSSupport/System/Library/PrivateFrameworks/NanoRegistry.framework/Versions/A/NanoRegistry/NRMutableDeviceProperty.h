@@ -16,23 +16,23 @@
 }
 
 + (id);
-+ (id);
 + (_Bool);
-- (id);
++ (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NRPBMutableDeviceProperty *protobuf; // @synthesize protobuf=_protobuf;

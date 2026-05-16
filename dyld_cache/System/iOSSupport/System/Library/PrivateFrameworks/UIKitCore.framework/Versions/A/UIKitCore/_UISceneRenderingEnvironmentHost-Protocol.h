@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol _UISceneRenderingEnvironmentHostObserver;
 
 @protocol _UISceneRenderingEnvironmentHost
-- (void)equest is NULL;
-- (void)data:(long long)arg1 %d;
-- (long long);
-- (void)@0:(id <_UISceneRenderingEnvironmentHostObserver>)arg1 8q16;
+- (void)load_factor_"f}}};
+- (void)%@, value %@, and variable name %@.;
 
 // Remaining properties
 @property(nonatomic) long long activeAppearance;

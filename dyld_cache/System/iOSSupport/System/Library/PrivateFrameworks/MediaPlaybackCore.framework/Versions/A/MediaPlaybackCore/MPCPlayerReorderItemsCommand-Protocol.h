@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest, MPCPlayerResponseItem;
-
 @protocol MPCPlayerReorderItemsCommand
-- (MPCPlayerCommandRequest *);
-- (_Bool)nteresting { accountMediaTypes:(MPCPlayerResponseItem *)arg1 %@, oldAccount:%@, newAccount:%@, changeType:%@, didSignIn:%@, isInGoodStateForRepair:%@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
 @end
 

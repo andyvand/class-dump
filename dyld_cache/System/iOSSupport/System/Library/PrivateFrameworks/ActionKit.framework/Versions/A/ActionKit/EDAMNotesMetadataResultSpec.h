@@ -47,7 +47,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)y of host '%@' can't be established because it has not been seen before by this device.
+
+The host's key fingerprint is %@.
+
+Are you sure you want to continue connecting?;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *includeAttributes; // @synthesize includeAttributes=_includeAttributes;

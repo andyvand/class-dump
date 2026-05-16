@@ -12,13 +12,11 @@
 }
 
 - (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (_Bool);
-- (void)ñµ
-1b0@ù
-× ;
+- (_Bool)finishRunningWithFile:error: /* Error: Ran out of types for this method. */;
+- (void)eActionDate;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;

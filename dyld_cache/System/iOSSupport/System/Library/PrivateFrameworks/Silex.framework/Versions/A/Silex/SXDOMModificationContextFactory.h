@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ge">40@?<v@?@"NSError">48;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

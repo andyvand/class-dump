@@ -15,16 +15,15 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (struct UIEdgeInsets);
-+ (double)ints:,V_windowInternalConstraints /* Error: Ran out of types for this method. */;
-+ (double)mumOffset;
++ (double);
++ (double);
 - (double);
-- (unsigned long long);
+- (double)Ô;
 - (struct CGSize);
-- (double)tonTint;
-- (void)iveHorizontalScrollIndicatorInsets;
-- (void)L	@
-ÔÜdìLàt°(Ä,Ü ÀÄt| Ü$%°%|)Ä)1¬1H4L5A ChD;
-- (double)et"16@?0@"NSSet"8;
+- (double)nsureCleanedUp;
+- (unsigned long long);
+- (void)raints for UITabBar managed by a controller;
+- (void);
 
 @end
 

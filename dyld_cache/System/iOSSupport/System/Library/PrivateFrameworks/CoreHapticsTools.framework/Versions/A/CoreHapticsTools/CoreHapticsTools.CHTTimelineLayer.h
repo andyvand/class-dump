@@ -42,14 +42,14 @@
     MISSING_TYPE *timeLabelsNeedLayout;
 }
 
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (struct CGRect);
-- (id);
 - (void);
-- (id);
+- (void);
 - (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

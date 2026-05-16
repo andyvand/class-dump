@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (double);
+- (void);
+- (double);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (CDUnknownBlockType);
-- (double);
-- (void)edDocumentController;
-- (void)lPosition;
-- (double)"NSURL",R,N;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

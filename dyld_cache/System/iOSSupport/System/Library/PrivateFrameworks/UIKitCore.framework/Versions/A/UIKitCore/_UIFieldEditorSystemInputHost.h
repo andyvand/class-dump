@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
     UISystemInputViewController *_systemInputViewController;
 }
 
-- (void);
-- (void)onary"32@"NSString"40@?<v@?B>48@"IDSMessageContext"56;
-- (id)FirstDataProtectionLock;
-- (void)tractingPartIndexes:(_Bool)arg1 toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
-- (id)or: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)rk as read:(id)arg1 %@;
-- (double)le to mark error:%d, no messages found for guid:%@ /* Error: Ran out of types for this method. */;
-- (void)yLibraryOpaqueProductID;
 - (void);
-- (id)gRegion;
-- (void):%@ documentState:[ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void)ÌØp\;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UISystemInputViewController *_systemInputViewController; // @synthesize _systemInputViewController;

@@ -12,9 +12,11 @@
 {
     MISSING_TYPE *module;
     MISSING_TYPE *moduleController;
+    MISSING_TYPE *sceneEditorMode;
     MISSING_TYPE *actionSetGridConfig;
 }
 
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -23,7 +25,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)mUpdater:) is not available /* Error: Ran out of types for this method. */;
+
+// Remaining properties
+@property(nonatomic, readonly) unsigned long long presentingSceneEditorMode;
 
 @end
 

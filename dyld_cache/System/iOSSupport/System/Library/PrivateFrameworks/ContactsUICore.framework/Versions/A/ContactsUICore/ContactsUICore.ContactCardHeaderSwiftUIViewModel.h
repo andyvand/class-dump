@@ -12,14 +12,19 @@
     MISSING_TYPE *_actionsProvider;
     MISSING_TYPE *_isEmergencyContact;
     MISSING_TYPE *_isBlocked;
+    MISSING_TYPE *_isDowntimeWhitelisted;
     MISSING_TYPE *$__lazy_storage_$_contactFormatter;
     MISSING_TYPE *$__lazy_storage_$_personNameFormatter;
+    MISSING_TYPE *$__lazy_storage_$_handleNameFormatter;
+    MISSING_TYPE *blockedHeader;
+    MISSING_TYPE *emergencyHeader;
+    MISSING_TYPE *downtimeHeader;
     MISSING_TYPE *_$observationRegistrar;
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ontactMatchingContact: /* Error: Ran out of types for this method. */;
 
 @end
 

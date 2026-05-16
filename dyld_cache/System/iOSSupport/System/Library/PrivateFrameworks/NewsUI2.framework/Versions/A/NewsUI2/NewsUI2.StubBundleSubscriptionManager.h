@@ -16,21 +16,21 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)eSortedFormats;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)	
-;
-- (id)äpòÿqòÿTqòÿqòÿ°qòÿÜqòÿròÿ8ròÿdròÿ|ròÿ¨ròÿÀròÿìròÿsòÿsòÿHsòÿsòÿ¸sòÿtòÿTtòÿltòÿtòÿ´tòÿØtòÿðtòÿPuòÿ¸uòÿðuòÿvòÿ,vòÿPvòÿhvòÿvòÿ¨vòÿÀvòÿØvòÿøvòÿwòÿ0wòÿhwòÿ wòÿàwòÿ;
+- (void)ù11Â0@ù
+× ;
+- (void)zR;
+- (id)2H3;
+- (void)pe;
 
 // Remaining properties
 @property(nonatomic, readonly) FCBundleSubscription *bundleSubscription; // @synthesize bundleSubscription;

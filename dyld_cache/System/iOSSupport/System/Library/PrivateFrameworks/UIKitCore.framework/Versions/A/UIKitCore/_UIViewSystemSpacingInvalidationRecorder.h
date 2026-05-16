@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)sThread: /* Error: Ran out of types for this method. */;
-- (id)GER PRIMARY KEY AUTOINCREMENT, seconds_from_1970 REAL NOT NULL, store_type INTEGER NOT NULL, client_bundleid TEXT NOT NULL, client_identifier TEXT NOT NULL, item_string TEXT NOT NULL, feedback_type INTEGER NOT NULL, mapping_id TEXT);
 - (id);
-- (void)stEpisodeTitle__MAPPING_MISSING__;
+- (id);
+- (id);
 - (void);
-- (id)velClassifier:didUpdateProgress:toForceLevel: /* Error: Ran out of types for this method. */;
-- (void)$©mþeE4sþ;
+- (void);
+- (id);
+- (void)À;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *bottomView; // @synthesize bottomView=_bottomView;

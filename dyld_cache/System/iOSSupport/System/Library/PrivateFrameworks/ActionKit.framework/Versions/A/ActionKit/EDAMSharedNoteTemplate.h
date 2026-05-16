@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ot open the file %1$@.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *noteGuid; // @synthesize noteGuid=_noteGuid;

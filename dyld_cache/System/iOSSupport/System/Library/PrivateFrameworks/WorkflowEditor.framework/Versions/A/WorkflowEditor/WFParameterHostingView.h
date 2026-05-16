@@ -17,12 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)Ñ©ð1B0@ù
-× ;
+- (void)¾e¿f¼Â°Ã@ÅgàÅhÜÇxÈÌÊhËÀËôÍ<ÎôÎ;
 
 @end
 

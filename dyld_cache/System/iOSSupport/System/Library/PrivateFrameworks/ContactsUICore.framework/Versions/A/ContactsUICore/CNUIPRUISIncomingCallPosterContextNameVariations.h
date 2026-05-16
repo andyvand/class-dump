@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ctivityType;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PRUISIncomingCallPosterContextNameVariations *wrappedNameVariations; // @synthesize wrappedNameVariations=_wrappedNameVariations;

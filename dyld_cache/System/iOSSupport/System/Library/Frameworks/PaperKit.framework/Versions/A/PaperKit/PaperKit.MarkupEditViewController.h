@@ -53,6 +53,7 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
 
 @end
 

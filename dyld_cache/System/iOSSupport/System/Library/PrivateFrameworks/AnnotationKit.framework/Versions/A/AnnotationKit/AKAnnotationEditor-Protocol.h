@@ -8,8 +8,6 @@
 @protocol AKAnnotationEditorDelegate;
 
 @protocol AKAnnotationEditor
-- (void);
-- (void)DFDocument:(AKAnnotation *)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) AKAnnotation *annotation;

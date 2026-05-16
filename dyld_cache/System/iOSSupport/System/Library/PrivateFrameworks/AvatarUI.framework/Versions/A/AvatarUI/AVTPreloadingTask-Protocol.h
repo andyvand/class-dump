@@ -5,9 +5,6 @@
 //
 
 @protocol AVTPreloadingTask
-- (void (^)(id <AVTCancelable>))h*@9h*;
-- (void)1¢!0@ù
-× ;
 
 // Remaining properties
 @property(getter=isCanceled) _Bool canceled;

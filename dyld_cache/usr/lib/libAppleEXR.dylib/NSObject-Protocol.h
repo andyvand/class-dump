@@ -7,15 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (id);
-- (oneway void)hB;
-- (unsigned long long);
-- (_Bool);
-- (NSString *)es;
-- (_Bool)E�?;
-- (id)mentDownloadsProtocol;
-- (unsigned long long)%;
+- (struct _NSZone *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,9 +30,9 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)A4_s;
 
 @end
 

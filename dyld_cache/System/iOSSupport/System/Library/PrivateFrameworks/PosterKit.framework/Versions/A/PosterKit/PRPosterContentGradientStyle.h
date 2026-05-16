@@ -16,7 +16,7 @@
 }
 
 + (void);
-+ (_Bool)eferredTitleLayout:titleColor:timeNumberingSystem:userConfigured:preferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -30,21 +30,22 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct CGPoint);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (struct CGPoint)peForLuminance: /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

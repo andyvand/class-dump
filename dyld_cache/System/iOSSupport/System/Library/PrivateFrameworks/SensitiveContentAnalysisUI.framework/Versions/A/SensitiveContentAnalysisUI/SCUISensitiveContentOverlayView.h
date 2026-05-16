@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class MISSING_TYPE, UIViewController;
 
 @interface SCUISensitiveContentOverlayView
 {
@@ -18,9 +18,13 @@
     void onLeaveConversation;
     void onReportEvidenceRequested;
     void onBlockParticipant;
+    void didBlockParticipant;
     void onEndCall;
+    void onEndCallAndReport;
+    void onEndReport;
     void onUnsubscribe;
-    UIView *hostingView;
+    MISSING_TYPE *ignoreNonTokenConfigurationCalls;
+    UIViewController *viewController;
 }
 
 - (void);
@@ -30,6 +34,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -41,8 +50,6 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -52,16 +59,18 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
-@property(nonatomic, retain) UIView *hostingView; // @synthesize hostingView;
+@property(nonatomic, copy) CDUnknownBlockType didBlockParticipant;
 @property(nonatomic, copy) CDUnknownBlockType onAnalysisChanged;
 @property(nonatomic, copy) CDUnknownBlockType onBlockParticipant;
 @property(nonatomic, copy) CDUnknownBlockType onDeleteContent;
 @property(nonatomic, copy) CDUnknownBlockType onEndCall;
+@property(nonatomic, copy) CDUnknownBlockType onEndCallAndReport;
+@property(nonatomic, copy) CDUnknownBlockType onEndReport;
 @property(nonatomic, copy) CDUnknownBlockType onHideContent;
 @property(nonatomic, copy) CDUnknownBlockType onLeaveConversation;
 @property(nonatomic, copy) CDUnknownBlockType onMessageSomeone;
@@ -69,6 +78,7 @@
 @property(nonatomic, copy) CDUnknownBlockType onShieldUp;
 @property(nonatomic, copy) CDUnknownBlockType onShowContent;
 @property(nonatomic, copy) CDUnknownBlockType onUnsubscribe;
+@property(nonatomic, retain) UIViewController *viewController; // @synthesize viewController;
 
 @end
 

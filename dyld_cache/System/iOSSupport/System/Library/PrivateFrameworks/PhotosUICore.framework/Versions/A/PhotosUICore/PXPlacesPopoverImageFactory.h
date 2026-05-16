@@ -13,7 +13,7 @@
 }
 
 + (struct CGSize);
-+ (id)£9;
++ (id)Keys;
 - (id);
 - (double);
 - (struct CGSize);
@@ -29,11 +29,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)át!¸Dù±xÐ1b0@ù
-× ;
+- (id)agnosticsFactory;
+- (void);
+- (void)SharedAlbumMigratedBanner;
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *cachedBackgroundImages; // @synthesize cachedBackgroundImages=_cachedBackgroundImages;

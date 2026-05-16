@@ -27,20 +27,20 @@
 - (_Bool);
 - (id);
 - (long long);
-- (id)%d OR %K = %d OR %K = %d;
-- (void)mKind_AllImportedAlbum_block_invoke_47;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (int)eButtonItem;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)eneratedCodeInfo;
-- (void);
+- (_Bool);
 - (id);
-- (_Bool)B;
+- (void);
+- (int);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *cdHash; // @synthesize cdHash=_cdHash;

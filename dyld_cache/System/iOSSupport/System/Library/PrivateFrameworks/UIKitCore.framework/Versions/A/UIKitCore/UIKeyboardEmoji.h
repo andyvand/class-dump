@@ -14,22 +14,22 @@
     unsigned long long _variantMask;
 }
 
-+ (_Bool);
-+ (id)d to go;
-- (unsigned long long)e:reason:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ag:(_Bool)arg1;
-- (void)sferSizeForSpatialImageFromServerBag:(_Bool)arg1;
-- (_Bool)ySsG;
-- (_Bool)?2ySs_SstG;
-- (id);
++ (_Bool);
++ (id);
+- (unsigned long long);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)
+- (id)á	ð!üEùQfÐ1Â0@ù
 × ;
-- (id)P?;
+- (_Bool)ntStorage:(id)arg1 textContainer: /* Error: Ran out of types for this method. */;
+- (void)ØPf;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *emojiString; // @synthesize emojiString=_emojiString;

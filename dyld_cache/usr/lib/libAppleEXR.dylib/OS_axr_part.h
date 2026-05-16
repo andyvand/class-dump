@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)NewlineCharacterSet;
+- (id);
 - (id);
 
 // Remaining properties

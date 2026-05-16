@@ -13,21 +13,21 @@
 }
 
 + (id);
-+ (id)@"CKRecordID";
-+ (id)ictionary";
-+ (id)r^{?=[8I]};
++ (id);
++ (id);
++ (id);
 - (void);
 - (id);
-- (id)e;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)CSSavedRecordingAccessToken"@"NSError">;
 - (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isGestureAlreadyAssignedToCommand;

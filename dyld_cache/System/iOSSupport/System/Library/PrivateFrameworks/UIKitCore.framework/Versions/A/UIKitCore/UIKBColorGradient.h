@@ -14,11 +14,10 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-+ (id)art;
++ (id);
 - (id);
 - (struct CGGradient *);
-- (void)o°!ÄEùñÁÐ1¢!0@ù
-× ;
+- (void);ÿ$ÕAg;
 
 @end
 

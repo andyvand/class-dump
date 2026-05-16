@@ -31,9 +31,9 @@
 - (id);
 - (id);
 - (id);
-- (id):serviceScreenFrame:initialLayerTransform: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (id);
+- (void)fÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *pendingSendGUIDs; // @synthesize pendingSendGUIDs=_pendingSendGUIDs;

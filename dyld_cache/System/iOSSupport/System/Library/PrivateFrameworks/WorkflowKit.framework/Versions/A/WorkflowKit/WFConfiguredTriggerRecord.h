@@ -41,11 +41,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (_Bool);
 - (void);
 - (int);
-- (void);
-- (_Bool)ight;
+- (void);
+- (void)dAction;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *disablementReason; // @synthesize disablementReason=_disablementReason;

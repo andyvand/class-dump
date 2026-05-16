@@ -13,15 +13,16 @@ __attribute__((visibility("hidden")))
     DOMHTMLOptionElement *_node;
 }
 
-- (void)rameter;
-- (id)and iMessage accounts do not match up.;
 - (void);
 - (id);
-- (void)uppressedTexture:(_Bool)arg1 tileBuffer:desiredKeypointCountsBuffer:thresholdsBuffer:histogramBuffer:thresholdRangeBuffer:keypointsAtChosenThresholdBuffer:truncatedRegionsBuffer:tileCount:maxTileHeight: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ùßÉsg;
-- (_Bool)i;
-- (_Bool)ª;n;
+- (id);
+- (void);
+- (_Bool)
+× ;
+- (void);
+- (id)Um;
+- (_Bool)òÓÌ³n;
 
 // Remaining properties
 @property(retain, nonatomic) DOMHTMLOptionElement *_node; // @synthesize _node;

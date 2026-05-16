@@ -7,7 +7,6 @@
 @class NSString, NSURL;
 
 @protocol PRPosterContents
-- (NSString *)ForFont:text: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *assetDirectory;

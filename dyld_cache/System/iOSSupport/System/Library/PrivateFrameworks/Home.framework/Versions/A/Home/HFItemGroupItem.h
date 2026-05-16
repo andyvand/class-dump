@@ -14,11 +14,11 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id)criptionOutlet_MultipleOff;
-- (id);
-- (void)0Ißÿ;
+- (void)´¯;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *items; // @synthesize items=_items;

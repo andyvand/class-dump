@@ -9,8 +9,8 @@
 }
 
 + (double);
-+ (double);
 + (struct CGSize);
++ (double);
 
 @end
 

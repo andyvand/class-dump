@@ -22,11 +22,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)\ð;
 
 // Remaining properties
 @property(copy, nonatomic) HMWeekDayScheduleRule *weekDayRule; // @synthesize weekDayRule=_weekDayRule;

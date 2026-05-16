@@ -18,13 +18,13 @@
     MISSING_TYPE *followingEngagementViewManager;
 }
 
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)iptionManager;
 - (void);
+- (void);
+- (void)dlineConverter;
 
 @end
 

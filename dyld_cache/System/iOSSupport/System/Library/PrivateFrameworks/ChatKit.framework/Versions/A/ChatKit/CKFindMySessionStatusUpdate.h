@@ -15,9 +15,9 @@
 + (id);
 - (void);
 - (void);
-- (id)h;
-- (_Bool)a view class for an attachment with an unknown text attachment type:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (_Bool);
+- (void)tRepresentation;
 
 // Remaining properties
 @property(nonatomic) _Bool isLocationAvailableForDisplay; // @synthesize isLocationAvailableForDisplay=_isLocationAvailableForDisplay;

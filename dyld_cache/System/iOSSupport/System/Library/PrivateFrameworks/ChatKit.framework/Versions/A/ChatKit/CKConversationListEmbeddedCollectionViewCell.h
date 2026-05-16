@@ -18,36 +18,36 @@
 }
 
 + (Class);
-+ (Class);
++ (Class)DÞÍGtG^\GG_Qo_;
 - (_Bool);
-- (_Bool)y;
+- (_Bool);
 - (void);
 - (void);
-- (void)SfG;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)ble;
-- (void)dString"24@?0@"NSMutableDictionary"8@16;
+- (id);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)More;
-- (_Bool)dButton;
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)-;
 - (id);
+- (void);
+- (id);
+- (void)AddRecipientsControllerRepresentable;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversationListCellLayout *cellLayout; // @synthesize cellLayout=_cellLayout;

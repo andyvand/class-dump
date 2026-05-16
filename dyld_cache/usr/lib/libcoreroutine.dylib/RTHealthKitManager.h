@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void)trics submission error, %@;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

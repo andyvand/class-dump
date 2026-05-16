@@ -37,29 +37,28 @@
 - (void);
 - (void);
 - (void);
-- (void)profile plist valid:(long long)arg1 %d mask:%d
- /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)$;
 - (void);
 - (void);
 - (void);
-- (void)ôÖÞÿ×ÞÿT×Þÿx×ÞÿÜ×Þÿ\ØÞÿØÞÿpÙÞÿÙÞÿØÙÞÿäÙÞÿÚÞÿ¸ÚÞÿìÚÞÿ(ÛÞÿLÛÞÿÛÞÿ¤ÛÞÿØÛÞÿÜÞÿ|ÜÞÿÈÜÞÿHÝÞÿlÝÞÿÝÞÿÀÝÞÿäÝÞÿ ÞÞÿDÞÞÿßÞÿ@ßÞÿ|ßÞÿßÞÿèßÞÿàÞÿhàÞÿàÞÿ°àÞÿÔàÞÿøàÞÿáÞÿHáÞÿláÞÿ|âÞÿâÞÿâÞÿØâÞÿüâÞÿHãÞÿüãÞÿäÞÿäÞÿÀäÞÿääÞÿåÞÿxåÞÿåÞÿÀåÞÿüåÞÿ æÞÿ¨æÞÿÜæÞÿ@çÞÿLèÞÿèÞÿìèÞÿ(éÞÿ¬éÞÿèéÞÿLêÞÿ¤êÞÿÀëÞÿ;
-- (void)utDescriptor;
-- (void);
 - (void);
-- (void)Í£;
+- (void);
+- (void);
+- (void);
+- (void)(Òûÿ¦Iøÿ;
+- (void)title when the following tab is not available due to device obsoletion;
+- (void);
+- (void);
+- (void);
 
 @end
 

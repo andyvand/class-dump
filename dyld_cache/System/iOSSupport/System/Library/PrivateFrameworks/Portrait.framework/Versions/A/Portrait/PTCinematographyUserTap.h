@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (long long);
-- (id);
+- (long long);
 - (CDStruct_1b6d18a9);
-- (long long);
+- (void);
+- (id)èûùÿ4Ã!;
 
 // Remaining properties
 @property(readonly) PTCinematographyDetection *detection; // @synthesize detection=_detection;

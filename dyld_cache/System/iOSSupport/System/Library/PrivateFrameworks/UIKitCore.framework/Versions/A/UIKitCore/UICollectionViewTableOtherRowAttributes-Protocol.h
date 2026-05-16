@@ -5,12 +5,10 @@
 //
 
 @protocol UICollectionViewTableOtherRowAttributes
-- (void)ÔaxÐ!ÐFùÑÍÐ1¢!0@ù
-× ;
-- (long long)UndoManager"24@0:8@"WebView"16 /* Error: Ran out of types for this method. */;
-- (void)uldShowShadow;
-- (void)edSearchBarPlacementAllowsExternalIntegration:(long long)arg1;
-- (long long)´iXl¸lm´mp ¤D¤D°lÌ$;
+- (_Bool)"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
+- (_Bool);
+- (void)ContentOffsetForPoint;
+- (long long)cted %@ characters based on %@ characters;
 
 // Remaining properties
 @property(nonatomic) long long accessoryType;

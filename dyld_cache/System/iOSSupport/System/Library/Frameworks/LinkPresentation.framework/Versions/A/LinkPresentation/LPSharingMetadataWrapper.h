@@ -13,17 +13,18 @@
     LPLinkMetadata *_metadata;
 }
 
-+ (_Bool)N,V_isPointOfInterest;
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasCompletedFetch; // @synthesize hasCompletedFetch=_hasCompletedFetch;

@@ -28,8 +28,8 @@
 - (long long);
 - (void);
 - (double);
-- (void);
-- (id)zR;
+- (void)¥É;
+- (id)(7;
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentPreferredImageDynamicRangeValue;

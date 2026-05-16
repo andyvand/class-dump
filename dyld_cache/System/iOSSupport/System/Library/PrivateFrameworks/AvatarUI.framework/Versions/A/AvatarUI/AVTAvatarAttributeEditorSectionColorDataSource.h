@@ -32,15 +32,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)pdatesWithCompletionHandler:] /* Error: Ran out of types for this method. */;
-- (id)|;
-- (void);
 - (long long);
-- (long long)Có;
+- (void);
+- (long long)a! DùÑI1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatarAttributeEditorColorSection *colorSection; // @synthesize colorSection=_colorSection;

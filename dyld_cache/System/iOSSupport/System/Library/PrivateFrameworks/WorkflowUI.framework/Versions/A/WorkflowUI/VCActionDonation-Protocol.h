@@ -7,7 +7,6 @@
 @class INShortcut, NSDate, NSString;
 
 @protocol VCActionDonation
-- (NSString *)rdCü%_pGIegg_;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date;

@@ -27,19 +27,19 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void)a;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (long long);
-- (void)Tüÿ;
-- (void)CodingKeys;
-- (void)IÅ¤®þ;
+- (void);
+- (void);
+- (void)0Ñu;
+- (void)­#:Ô /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

@@ -24,14 +24,14 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)nabled;
+- (id);
+- (id);
 - (void);
-- (id)!;
-- (id)ê;
-- (void)4;
-- (id)%s, signalEnvironmentAtRisk, %@;
+- (id):]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)sitive}@, latest valid location, %{sensitive}@, distance, %@, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTBluePOIMetricManager *bluePOIMetricManager; // @synthesize bluePOIMetricManager=_bluePOIMetricManager;

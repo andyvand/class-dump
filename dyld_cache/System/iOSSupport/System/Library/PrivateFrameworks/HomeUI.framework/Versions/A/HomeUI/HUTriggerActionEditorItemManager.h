@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void):%@ (target mode %lu) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUTriggerHeaderItem *addShortcutHeader; // @synthesize addShortcutHeader=_addShortcutHeader;

@@ -7,9 +7,12 @@
 @class UIBezierPath;
 
 @protocol UIDynamicItem
-- (void)ems:(struct CGAffineTransform)arg1 inMenu:afterStandardItem: /* Error: Ran out of types for this method. */;
-- (void):(struct CGPoint)arg1 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)°|þ;
+- (struct CGPoint)1Â0@ù
+× ;
+- (struct CGRect)!! Bùb1Â0@ù
+× ;
+- (void)ine;
+- (void)ed. Posting _UIDeviceRemoteSupportsPushToTalkDidChangeNotification. remoteSupportsPushToTalk=%@;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

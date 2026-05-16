@@ -16,12 +16,13 @@ __attribute__((visibility("hidden")))
     } _delegateRespondsTo;
 }
 
-- (_Bool);
-- (_Bool)P;
-- (void)ge;
-- (void)Controller:(id)arg1;
-- (void)r does not conform to UISceneDelegate;
-- (void)bug;
+- (void)1Â0@ù
+× ;
+- (_Bool),N,G_isSuspendedUnderLock;
+- (_Bool)playLink;
+- (void)date;
+- (void)r '%@', which is not allowed. You must always return a cell to the table view:(id)arg1 %@;
+- (void)À¬\;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIPressGestureRecognizerDelegate> delegate; // @dynamic delegate;

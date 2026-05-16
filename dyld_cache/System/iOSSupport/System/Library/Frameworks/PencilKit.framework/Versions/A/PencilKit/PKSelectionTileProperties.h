@@ -12,14 +12,14 @@
     struct CGRect _frame;
 }
 
-- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (void);
-- (id);
+- (void)aint;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;

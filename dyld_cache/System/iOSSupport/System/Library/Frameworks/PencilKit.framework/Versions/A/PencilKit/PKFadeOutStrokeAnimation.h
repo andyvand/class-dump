@@ -16,11 +16,11 @@
 
 - (id);
 - (id);
-- (_Bool)C;
-- (id)etPlaceHolderImageName: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (double);
-- (void);
 - (double);
+- (void)üì$;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;

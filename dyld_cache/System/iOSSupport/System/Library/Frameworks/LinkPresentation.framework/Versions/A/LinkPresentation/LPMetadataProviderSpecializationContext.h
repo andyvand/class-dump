@@ -34,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)Tý;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;

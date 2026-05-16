@@ -16,11 +16,11 @@
     NSLayoutConstraint *_tableViewHeightConstraint;
 }
 
-- (void)isEarlierThan:withPrecision: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (void)olicy:(id)arg1 ];
-- (id)2;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,20 +30,21 @@
 - (id);
 - (id);
 - (double);
-- (id);
-- (void);
-- (void);
-- (id);
-- (long long)verController;
 - (id);
 - (void);
 - (void);
-- (id)uttonImage;
-- (void)t;
-- (id);
-- (id)smissIfPresented];
-- (void);
-- (void)#KZW;
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id)(Ð1Â0@ù
+× ;
+- (void),K;
+- (void);
+- (id)y¾íÿÿG;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allDrawings; // @synthesize allDrawings=_allDrawings;

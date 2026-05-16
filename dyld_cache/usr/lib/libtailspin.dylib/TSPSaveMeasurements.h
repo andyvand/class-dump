@@ -23,30 +23,30 @@
     unsigned long long _numEvents;
 }
 
-- (id)`` aE3;
+- (id);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)	K;
-- (void);
-- (void);
-- (void)E;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)%Q;
 - (void);
 - (void);
-- (void)EU;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (double)!;
-- (void)`` a%Y;
+- (double);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,16 +54,16 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (double)+;
+- (double);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
 - (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool didClientRequestEndTimestamp; // @synthesize didClientRequestEndTimestamp=_didClientRequestEndTimestamp;

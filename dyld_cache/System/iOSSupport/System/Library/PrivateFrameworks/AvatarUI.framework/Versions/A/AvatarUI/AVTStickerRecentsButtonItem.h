@@ -19,13 +19,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (CDUnknownBlockType)t.;
-- (id)PN4siri12dialogengine9VisualRefENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE;
 - (id);
 - (void);
-- (void)@;
+- (id);
 - (void);
 - (id);
+- (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

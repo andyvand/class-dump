@@ -31,16 +31,16 @@
 
 - (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)b;
 - (void);
 - (void);
-- (void)own purchase type set for purchase lookup entry.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)<Öçÿ;
+- (void)êW;
 
 @end
 

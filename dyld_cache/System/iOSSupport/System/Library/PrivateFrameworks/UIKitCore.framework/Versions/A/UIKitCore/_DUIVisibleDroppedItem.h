@@ -21,40 +21,41 @@
     struct CGAffineTransform _appliedTransform;
 }
 
-+ (_Bool)ÞNÛ3ôo;
++ (_Bool)nted when a document could not be opened.;
 - (CDUnion_c6a188fc);
 - (struct CGVector);
 - (void);
-- (void);
 - (void);
-- (void)qA;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)cibility: /* Error: Ran out of types for this method. */;
-- (id)tyle: /* Error: Ran out of types for this method. */;
-- (_Bool)ceipt;
+- (id);
+- (id);
+- (_Bool);
 - (struct CGAffineTransform);
 - (void);
 - (void);
 - (unsigned long long);
-- (CDUnion_c6a188fc);
 - (void);
 - (id);
-- (void);
-- (_Bool)x°!FùqÎÐ1¢!0@ù
+- (id);
+- (double);
+- (id);
+- (CDUnion_c6a188fc);
+- (struct CGPoint)!Aù±a°1Â0@ù
 × ;
-- (id)rollerColumn;
-- (id)Enabled;
-- (id)__dimmingViewTapDismissing;
-- (void)olor:(struct CGPoint)arg1 ,V_color;
-- (struct CGVector)t.png;
-- (void)Þ4\àiþÞ4x®fþñÝ4àiþ;
-- (void)PgÏÿ(³;
-- (double)è#Ðþ;
-- (void)yØ"vc;
-- (struct CGPoint)"ÿTkW5c;
+- (struct CGVector)
+× ;
+- (void)imumValue:(id)arg1 maximumValue: /* Error: Ran out of types for this method. */;
+- (_Bool)sentation:preparedMenuForDisplay:completion: /* Error: Ran out of types for this method. */;
+- (id)cusEventRecognizer;
+- (void)ue destination (%ld) encountered.;
+- (void)eyboardCenterBeginUserInfoKey;
+- (void)ÃÃÙPl\;
+- (void)¨fºÿÎÈ@_;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform appliedTransform; // @synthesize appliedTransform=_appliedTransform;

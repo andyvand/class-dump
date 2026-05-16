@@ -7,8 +7,6 @@
 @protocol UINSDragOperationMasks;
 
 @protocol UINSDragSessionHandler
-- (void);
-- (void)";
 
 // Remaining properties
 @property(readonly, nonatomic) id <UINSDragOperationMasks> operationMasks;

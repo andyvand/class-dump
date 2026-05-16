@@ -11,12 +11,12 @@
 }
 
 - (void);
-- (void)°myl«0øÌ;
 - (void);
 - (void);
 - (void);
-- (_Bool)DescriptionWithContentCollection: /* Error: Ran out of types for this method. */;
-- (_Bool)rchType;
+- (void);
+- (_Bool);
+- (_Bool)?àÿ;
 
 // Remaining properties
 @property _Bool isExecuting; // @synthesize isExecuting=_isExecuting;

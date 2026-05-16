@@ -23,19 +23,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
+- (_Bool);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

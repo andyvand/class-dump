@@ -36,7 +36,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id)¶;
++ (id)ÿ3T4S: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -129,15 +129,15 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -176,46 +176,46 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
 - (id);
+- (unsigned long long);
+- (unsigned short);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (double);
+- (id);
+- (long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long);
 - (long long);
 - (id);
-- (id)
-× ;
-- (unsigned long long)headerIndexesAfterChanges:reloadAllIncludingAnchor: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ePersistableRecipe:recipeAssetEdits:error:progress: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)cerFactory>";
+- (_Bool)urnsWithPortraitAspectAsset: /* Error: Ran out of types for this method. */;
+- (_Bool)ize;
+- (void)_sidebarAvailable;
+- (void)tring:(_Bool)arg1;
+- (id)`<
+ô¡¤¥;
+- (id)o;
+- (void)»Sg;
+- (id)ed.;
+- (id)nController class]];
+- (void)-äÈÄ©!ÿ}äÈØ©!ÿäÈÔ©!ÿäÈÜx ÿUäÈÐ©!ÿäÈè©!ÿ]äÈÄ©!ÿ;
 - (id);
-- (unsigned short)screenEdgeSwipe;
-- (id)ationMode;
-- (double)ÿ!yõ!yACyACyAlQGAOyÿ!SgGGÃÿZGGAMGAJGnè!yÐï!GGAKtGG<ð!GNð!y0óZyA8_GGG_ACyAHyAEyACyACyA8_9ö#Gô#G_ACyACyF;
-- (void)ION;
-- (id)AppleInternal;
-- (double);
-- (void)ache;
-- (_Bool)¹;
-- (void);
-- (id)?LËì4;
-- (unsigned long long)ÿô5OÆ6;
-- (_Bool)St6;
+- (_Bool);
+- (struct CGSize)¨ 3;
+- (id)ZÌÿÛ.OL5;
+- (double)À;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

@@ -31,9 +31,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)Ë÷ÿ²§ù¾T	;
+- (void);
+- (id)tw;
 
 // Remaining properties
 @property(retain, nonatomic) id <MULabeledValueActionViewModelProviding> viewModel; // @synthesize viewModel=_viewModel;

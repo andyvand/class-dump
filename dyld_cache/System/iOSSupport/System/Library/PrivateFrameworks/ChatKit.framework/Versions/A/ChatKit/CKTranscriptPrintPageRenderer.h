@@ -16,21 +16,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-- (id)tents:pinned:container:error: /* Error: Ran out of types for this method. */;
-- (void)lePreviewGenerationQueue;
-- (void)ize:(long long)arg1 options:context: /* Error: Ran out of types for this method. */;
-- (void)tes;
-- (long long);
-- (id)ableP;
-- (void)l;
-- (void)e;
-- (struct CGRect)";
+- (id);
+- (void);
+- (void);
 - (void);
 - (long long);
-- (void);
+- (id);
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
 - (long long);
-- (id)p8Jÿ¼¼;
-- (void)w-;
+- (id)temCG;
+- (void)apshot];
+- (void);
+- (long long)ributeKey;
 
 // Remaining properties
 @property struct CGRect currentPrintableRect; // @synthesize currentPrintableRect=_currentPrintableRect;

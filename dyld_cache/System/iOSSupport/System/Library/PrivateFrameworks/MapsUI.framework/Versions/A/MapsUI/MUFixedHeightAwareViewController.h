@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (id);
 - (_Bool);
-- (void)horizontalAlignment;
+- (void);
+- (void)Layout;
 
 @end
 

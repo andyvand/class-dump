@@ -13,20 +13,20 @@
     PDFActionResetFormPrivateVars *_private2;
 }
 
-- (void)dPresenting>"16@"<CRKIdentifiedCardSectionViewProviding>"24@"<CRKIdentifiedCardSectionViewProviding>"32;
-- (id)"32;
-- (_Bool)40;
-- (struct __CFDictionary *)2;
-- (void)6;
-- (void){?=@}16B24;
+- (void);
 - (id);
-- (id)sAudioType:(struct _NSZone *)arg1;
-- (void)talParticleRenderCache;
+- (_Bool);
+- (struct __CFDictionary *);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *fields;

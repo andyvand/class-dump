@@ -32,9 +32,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
 - (id);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool appeared;

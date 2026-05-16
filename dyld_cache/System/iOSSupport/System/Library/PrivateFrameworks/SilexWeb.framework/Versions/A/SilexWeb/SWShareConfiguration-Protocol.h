@@ -7,7 +7,6 @@
 @class NSArray, NSString;
 
 @protocol SWShareConfiguration
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *shareItems;

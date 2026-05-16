@@ -33,16 +33,16 @@
 - (struct CGRect);
 - (id);
 - (long long);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGSize);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool)`;
-- (void);
-- (void);
-- (id)a;
 - (id);
+- (void);
+- (void)ffsetFromContentBottom;
 
 // Remaining properties
 @property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement;

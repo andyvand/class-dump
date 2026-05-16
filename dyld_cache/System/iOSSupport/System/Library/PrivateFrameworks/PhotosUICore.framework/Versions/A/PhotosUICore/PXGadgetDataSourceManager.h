@@ -62,10 +62,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)Üÿÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cachedProviders; // @synthesize cachedProviders=_cachedProviders;

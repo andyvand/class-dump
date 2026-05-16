@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
     long long _savedCount;
 }
 
-- (void)ink:(long long)arg1;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ÿ
-D6^1.;
+- (void)ift:(id)arg1;
+- (void)ÄP´;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

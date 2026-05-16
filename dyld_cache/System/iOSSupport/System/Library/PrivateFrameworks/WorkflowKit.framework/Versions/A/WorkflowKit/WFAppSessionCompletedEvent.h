@@ -17,13 +17,13 @@
 
 + (id);
 + (Class);
-- (void);
-- (void);
-- (void);
+- (unsigned int);
 - (void);
 - (id);
+- (void);
 - (id);
-- (unsigned int)nagerTrigger localizedDescriptionWithConfigurationSummary];
+- (void)ng, NSString * _Nonnull __strong, WFAppIntentsMetadataProvider * _Nonnull __strong, NSMapTable<NSString *,LNEntityMetadata *> * _Nonnull __strong);
+- (void)PageImageFormat);
 
 // Remaining properties
 @property(nonatomic) unsigned int duration; // @synthesize duration=_duration;

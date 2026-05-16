@@ -9,12 +9,12 @@
     CDUnion_a1316d75 _rotation;
 }
 
-+ (_Bool)ration:colorVariationsConfiguration:quickActionsConfiguration:suggestionMetadata:otherMetadata:userInfo: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
-- (_Bool);
 - (id);
+- (CDUnion_520b3fa7);
+- (_Bool);
 - (void);
-- (CDUnion_520b3fa7)kViews;
 
 // Remaining properties
 @property(nonatomic) CDUnion_520b3fa7 rotation; // @synthesize rotation=_rotation;

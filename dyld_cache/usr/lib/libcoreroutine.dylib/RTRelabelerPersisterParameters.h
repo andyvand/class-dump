@@ -15,15 +15,15 @@
 }
 
 - (double);
-- (double)_;
+- (double);
 - (double);
 - (double);
 - (double);
 - (unsigned long long);
-- (id)B;
-- (id)ovider;
 - (id);
-- (id)ete file, %@, error, %@;
+- (id);
+- (id);
+- (id)ems;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maxCollapseIterations; // @synthesize maxCollapseIterations=_maxCollapseIterations;

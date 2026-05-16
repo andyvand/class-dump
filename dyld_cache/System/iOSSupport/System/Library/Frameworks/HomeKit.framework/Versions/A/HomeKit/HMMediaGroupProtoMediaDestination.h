@@ -21,23 +21,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (_Bool);
+- (void)ÌÃ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *audioGroupIdentifier; // @synthesize audioGroupIdentifier=_audioGroupIdentifier;

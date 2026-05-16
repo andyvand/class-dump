@@ -13,11 +13,13 @@
 }
 
 - (id);
-- (void)_textInputStrokeFadeOutDuration;
-- (long long);
-- (id)mentPadding: /* Error: Ran out of types for this method. */;
-- (void)N,V_submeshes;
-- (void)?Ø?ì@;
+- (id);
+- (void);
+- (void);
+- (long long)1Â0@ù
+× ;
+- (void)Q	ð!ìFùqv1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long offset; // @synthesize offset=_offset;

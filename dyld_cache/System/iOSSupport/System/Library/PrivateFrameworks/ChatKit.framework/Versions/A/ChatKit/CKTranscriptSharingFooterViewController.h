@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)rvice"8@"NSDictionary"16B24B28q32;
 
 // Remaining properties
 @property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

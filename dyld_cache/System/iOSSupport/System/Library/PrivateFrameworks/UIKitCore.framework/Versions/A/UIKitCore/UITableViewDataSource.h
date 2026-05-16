@@ -23,14 +23,14 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (void)setStatusMDMOptions:(id)arg1;
+- (id);
+- (id);
 - (long long);
+- (long long);
+- (void):(id)arg1;
 - (id);
-- (id);
-- (void);
-- (id)0'Âì;
-- (long long)ex;
-- (void)@;
+- (void)d will have no effect until %@ is presented, dismissed, and presented again.;
+- (void)Ð_êÿz$ÐÈÝa;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

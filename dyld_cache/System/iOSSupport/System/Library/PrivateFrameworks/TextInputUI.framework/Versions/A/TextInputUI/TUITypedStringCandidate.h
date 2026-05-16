@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayLabel; // @synthesize displayLabel=_displayLabel;

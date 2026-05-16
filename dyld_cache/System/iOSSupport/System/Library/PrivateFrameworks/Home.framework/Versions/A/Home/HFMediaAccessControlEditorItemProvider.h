@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ServiceTopicName_AllBlindsAndWindowsGroup;
-- (id)rmItem;
+- (id);
+- (id);
+- (void)Pc;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accessControlItems; // @synthesize accessControlItems=_accessControlItems;

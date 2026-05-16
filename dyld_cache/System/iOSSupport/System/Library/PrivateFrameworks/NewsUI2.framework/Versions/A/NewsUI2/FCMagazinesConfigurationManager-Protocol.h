@@ -7,8 +7,6 @@
 @class NSData;
 
 @protocol FCMagazinesConfigurationManager
-- (void)e;
-- (NSData *)eManager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *magazinesConfigurationData;

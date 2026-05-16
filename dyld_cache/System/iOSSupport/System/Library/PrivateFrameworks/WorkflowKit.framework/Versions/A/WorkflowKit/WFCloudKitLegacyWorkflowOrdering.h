@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)rtcuts;
++ (id);
 - (id);
 
 @end

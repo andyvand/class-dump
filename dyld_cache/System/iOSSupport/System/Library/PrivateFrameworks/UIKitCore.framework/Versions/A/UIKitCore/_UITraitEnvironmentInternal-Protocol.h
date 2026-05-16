@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection;
-@protocol UITraitOverrides, _UITraitEnvironmentInternal;
+@class UITraitCollection;
+@protocol UITraitOverrides;
 
 @protocol _UITraitEnvironmentInternal
-- (NSString *);
-- (UITraitCollection *)ateFrameworks/InputAnalytics.framework/InputAnalytics;
-
-@optional
-- (id <UITraitOverrides>);
-- (NSString *)String"32@"NSString"40q48@"NSError"56B64@"IDSMessageContext"68;
-- (void)RecordZoneID;
-- (id <_UITraitEnvironmentInternal>)n°!PEùqÀÐ1¢!0@ù
-× ;
+- (UITraitCollection *)È¹Õ¼6[;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UITraitOverrides> traitOverrides;

@@ -19,12 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (long long);
 - (long long);
-- (long long)}24@0:8q16 /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
+- (void)1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *barcodeSymbology; // @synthesize barcodeSymbology=_barcodeSymbology;

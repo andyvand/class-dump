@@ -26,21 +26,21 @@ __attribute__((visibility("hidden")))
     struct CGRect _timeOfDayRect;
 }
 
-+ (_Bool)f;
++ (_Bool);
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -63,48 +63,50 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void)ithBlastDoorMessage: /* Error: Ran out of types for this method. */;
-- (id)ry:(CDStruct_bf6ff29b *)arg1 operationGroupName:completion: /* Error: Ran out of types for this method. */;
-- (void)tageIndexingDeletionForMigrationIfNeededWithCompletion:(unsigned long long)arg1;
-- (void)DoorPayloadData:messageGUID: /* Error: Ran out of types for this method. */;
-- (void)TransferMap;
-- (_Bool)rvice;
-- (_Bool)ry;
-- (void)edProtobuf2DataForGroupTitleChangeItem;
-- (void)rvice",&,N,V_availabilitySubscriptionService;
-- (_Bool);
-- (_Bool);
-- (void)urn val in storeAttachment for Aux transfer %@;
-- (long long)%@ with record %@;
-- (_Bool)chats after checking pref key %@:merged-duplicate-chats /* Error: Ran out of types for this method. */;
-- (void)ants:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (void);
-- (void)J;
-- (void)py3ç;
-- (id);
-- (_Bool)0@ù
-× ;
-- (id)!HBùÑÍ1¢!0@ù
-× ;
-- (_Bool)nAbsorbSpring:(SEL)arg1;
-- (id)nFromView:toView:containerView: /* Error: Ran out of types for this method. */;
-- (_Bool)ighestIndex;
-- (_Bool)n:includingCalloutBarAdjustments: /* Error: Ran out of types for this method. */;
-- (_Bool)_;
-- (id);
-- (id)CellularTopConstraint;
-- (id)has the same identifier '%@' as a previously used trait named '%@' with a different defaultValue. Trait definitions with the same identifier must have the same defaultValue.;
-- (void)paque;
-- (void)ction"16@?0q8;
-- (_Bool)ithCoder:] /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (_Bool)¼?_ÿÚM^;
-- (id)hØ×þ£m¯;
-- (void)ÈIc;
-- (void)UËØy5b;
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (long long);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)°!Eù±að1Â0@ù
+× ;
+- (void)
+× ;
+- (id)e=dd}}16@48;
+- (void)ionTransition: /* Error: Ran out of types for this method. */;
+- (id)edResources;
+- (id)te requested:%@ /* Error: Ran out of types for this method. */;
+- (id)gnored. Set a symbolic breakpoint on UIContextualActionAlertForOutdatedCompletionHandlerExecution to catch this in the debugger.
+Outdated action:%@ /* Error: Ran out of types for this method. */;
+- (void)ss replacement tracker is rewriting;
+- (_Bool)ble<id<UIFocusEnvironment>> *__strong, NSHashTable<id<UIFocusEnvironment>> *__strong, NSArray<_UIFocusRegionSearchContextState *> *__strong);
+- (id)ourceImpl.m;
+- (_Bool);
+- (void)Ð#];
+- (long long);
+- (id)ù_;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;

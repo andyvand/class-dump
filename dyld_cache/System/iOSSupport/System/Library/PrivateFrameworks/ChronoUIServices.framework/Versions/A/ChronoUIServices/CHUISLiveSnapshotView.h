@@ -11,9 +11,9 @@
     UIView *_snapshotView;
 }
 
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *snapshotView;

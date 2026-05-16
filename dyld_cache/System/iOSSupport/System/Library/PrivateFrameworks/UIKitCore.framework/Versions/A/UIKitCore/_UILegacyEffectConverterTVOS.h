@@ -11,10 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)V;
 - (id);
-- (id);
-- (id)fþD²þÿ;
+- (id)0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (id)rength;
 
 @end
 

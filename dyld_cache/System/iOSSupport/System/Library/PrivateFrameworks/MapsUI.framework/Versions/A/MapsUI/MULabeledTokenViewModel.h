@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_expanded;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *labelValue; // @synthesize labelValue=_labelValue;

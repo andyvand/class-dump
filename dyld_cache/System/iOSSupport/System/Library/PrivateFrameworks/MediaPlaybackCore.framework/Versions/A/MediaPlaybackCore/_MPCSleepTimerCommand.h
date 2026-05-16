@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)SError">16;
-- (long long);
-- (void);
+- (id);
+- (long long);
 - (void);
 - (id);
 - (double);
-- (void)8;
+- (void);
 - (double);
+- (void)dffBBB},R,N,V_duration;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,8 +18,10 @@
 - (id);
 - (Class);
 - (id);
-- (void);
-- (void)<³ëÿ)3öre;
+- (void)1â
+0@ù
+× ;
+- (void)h;
 
 @end
 

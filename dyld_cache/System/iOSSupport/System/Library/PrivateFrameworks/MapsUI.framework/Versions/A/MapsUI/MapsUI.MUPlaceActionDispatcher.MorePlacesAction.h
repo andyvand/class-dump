@@ -15,8 +15,8 @@
     MISSING_TYPE *originalMapsIdentifier;
 }
 
-- (void);
 - (id);
+- (void)_displayName;
 
 @end
 

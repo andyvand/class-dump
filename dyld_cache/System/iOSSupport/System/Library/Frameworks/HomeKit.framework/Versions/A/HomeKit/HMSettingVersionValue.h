@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (long long);
+- (void)nfiguration;
 
 // Remaining properties
 @property(readonly) long long type; // @synthesize type=_type;

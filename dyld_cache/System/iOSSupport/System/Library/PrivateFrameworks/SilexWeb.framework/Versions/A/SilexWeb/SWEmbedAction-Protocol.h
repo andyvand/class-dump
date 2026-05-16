@@ -7,8 +7,6 @@
 @class NSDictionary;
 
 @protocol SWEmbedAction
-- (_Bool);
-- (void)nt;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *info;

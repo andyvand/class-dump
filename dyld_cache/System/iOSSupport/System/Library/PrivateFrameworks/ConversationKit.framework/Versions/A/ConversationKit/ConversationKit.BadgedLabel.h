@@ -12,11 +12,11 @@
     MISSING_TYPE *badge;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (struct CGSize)­ä|­y­SgGGG¼­yÆ¯y~­G_ANSgANtGG¸r­G²m­G;
+- (void)iontGG;
 
 @end
 

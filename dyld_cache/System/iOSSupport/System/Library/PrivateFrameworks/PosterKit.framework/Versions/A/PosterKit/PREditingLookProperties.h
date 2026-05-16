@@ -10,15 +10,15 @@
 {
 }
 
-+ (id)Button Type;
++ (id)WtG_G;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)Z;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

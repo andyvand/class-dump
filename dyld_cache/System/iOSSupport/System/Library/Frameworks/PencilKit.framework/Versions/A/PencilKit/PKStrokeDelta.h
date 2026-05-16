@@ -13,7 +13,7 @@
     NSUUID *_strokeUUID;
 }
 
-- (void)˿;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -21,11 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)¨,T
-;
+- (void)N,V_currentDrawingUUID;
+- (id)¬;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *_strokeUUID; // @synthesize _strokeUUID;

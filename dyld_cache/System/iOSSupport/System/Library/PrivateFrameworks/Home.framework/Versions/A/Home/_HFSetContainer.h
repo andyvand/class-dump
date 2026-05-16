@@ -15,15 +15,15 @@
 + (id);
 - (void);
 - (CDUnknownBlockType);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType)ot.siri.recognitionLanguage;
+- (CDUnknownBlockType)atePackage: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)];
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;

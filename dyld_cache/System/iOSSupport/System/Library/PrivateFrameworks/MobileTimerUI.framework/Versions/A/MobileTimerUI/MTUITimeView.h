@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (void);
 - (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double time; // @synthesize time=_time;

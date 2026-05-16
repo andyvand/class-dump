@@ -11,10 +11,10 @@
 
 - (void);
 - (void);
-- (double);
-- (id);
 - (id);
-- (void);
+- (id);
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

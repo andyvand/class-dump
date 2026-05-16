@@ -20,7 +20,7 @@
 - (void);
 - (struct __CFDateFormatter *);
 - (struct __CFDate *);
-- (struct __CFDate *)=;
+- (struct __CFDate *);
 - (void);
 - (void);
 - (id);

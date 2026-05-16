@@ -18,19 +18,19 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
+- (_Bool);
+- (id)derOverrides;
+- (CDUnknownBlockType)"_UILibArchiveReaderLoadedItem"8@"_UILibArchiveAppleDoublePathSet"16;
 - (void);
-- (id)ard event deferring environment did change:(struct CGRect)arg1 %{public}d; scene:%{public}s:%{public}p; scene identity:%s /* Error: Ran out of types for this method. */;
-- (void)<¶ÿÿì|èÿÜgrþ ¡þÿ;
-- (void)MutableTextSelectionRect"8@"_UIMutableTextSelectionRect"16;
-- (_Bool)UIScreen * _Nonnull const __strong, BOOL (^ _Nullable const __strong)(UIWindow * _Nonnull __strong));
-- (CDUnknownBlockType)the popover's container view or an ancestor to layout in this callback.;
-- (void)];
+- (void)Trait;
+- (void)@ËÿZÏÄS];
+- (void)Ð^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (void);
-- (id)backgroundImage:highlightImage:onRight: /* Error: Ran out of types for this method. */;
-- (void)gnmentComponent;
-- (void)ndleIdentifier);
-- (id)z;
-- (id)eþÍD4¤OeþD4´Oeþ;
-- (void);
+- (id);
+- (id);
+- (id);
+- (void)eGestureRecognizersIfNeeded;
+- (void)aysTouchesBegan = YES;
+- (void)z_Xx;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

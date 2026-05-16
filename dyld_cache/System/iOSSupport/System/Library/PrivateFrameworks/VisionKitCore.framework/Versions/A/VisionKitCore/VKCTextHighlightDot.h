@@ -31,14 +31,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)Ô¡3ð!Fù±Mð1B0@ù
-× ;
-- (id)"40@0:8{CGPoint=dd}16@"UITextRange"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *circleLayer; // @synthesize circleLayer=_circleLayer;

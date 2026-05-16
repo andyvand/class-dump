@@ -13,11 +13,11 @@
     MISSING_TYPE *welcomeSubTitleLabel;
 }
 
+- (void);
+- (id);
 - (id);
 - (void);
-- (void)P;
-- (id)tifier;
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

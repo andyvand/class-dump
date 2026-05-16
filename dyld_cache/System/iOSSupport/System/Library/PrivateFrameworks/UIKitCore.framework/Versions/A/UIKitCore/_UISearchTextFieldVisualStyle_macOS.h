@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)led to parse AP ticket as Img4 manifest
-;
+- (_Bool);
+- (id);
 - (id);
 - (double);
 - (double);
-- (id)ize;
-- (double)nVelocity;
+- (double)eConstraintsPass;
 
 @end
 

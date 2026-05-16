@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol WFSortableGalleryObject
-- (NSString *)ÌÔ¯ÿÿÿÿÿð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *language;

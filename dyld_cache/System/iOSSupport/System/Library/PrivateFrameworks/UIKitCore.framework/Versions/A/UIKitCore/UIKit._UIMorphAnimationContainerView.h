@@ -14,13 +14,12 @@
     MISSING_TYPE *name;
 }
 
-- (void)ngs toggle;
+- (void);
 - (id);
-- (void)!@ù±Ä°1¢!0@ù
-× ;
-- (int)assBehaviors;
-- (id)itCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983512ClippingView",N,&,VclippingView;
-- (void)Êf;
+- (int)eSolver;
+- (id)ics;
+- (void)w.swift;
+- (void)üOíþq;
 
 @end
 

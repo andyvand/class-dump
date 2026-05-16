@@ -12,5 +12,6 @@
 @property(readonly, copy, nonatomic) NSString *emoji;
 @property(readonly, copy, nonatomic) NSString *imageName;
 @property(readonly, copy, nonatomic) NSString *text;
+@property(readonly, copy, nonatomic) NSString *title;
 @end
 

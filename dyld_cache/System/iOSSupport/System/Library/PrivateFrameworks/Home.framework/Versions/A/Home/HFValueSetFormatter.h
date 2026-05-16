@@ -15,11 +15,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)alueSource readValuesForServiceStateRecipe:(long long)arg1 ];
-- (id)aptiveTemperature(to:(id)arg1 );
-- (long long);
+- (void);
+- (id)t:(id)arg1 %@;
+- (void)haracteristic,;
+- (long long)ed fetching timelapse clips with count:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType stringProvider; // @synthesize stringProvider=_stringProvider;

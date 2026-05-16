@@ -31,65 +31,67 @@ __attribute__((visibility("hidden")))
     struct CGRect _initialEndCaretRect;
 }
 
-- (void);
-- (void);
-- (void)!5;
 - (_Bool);
-- (struct CGRect)loadAskForPassword: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGPoint);
+- (id);
 - (void);
 - (double);
-- (_Bool)dimensions of matrix factorization %s (%d x %d).
-;
-- (void);
-- (struct CGRect);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void)ÿº;
-- (void);
-- (struct CGPoint)áxð!¨GùÎ°1¢!0@ù
-× ;
-- (void)Ôay!´FùÏÐ1¢!0@ù
-× ;
-- (_Bool)ù
-× ;
-- (_Bool)nvironment>"@"UITraitCollection">24;
-- (id)GPoint=dd}16^d32;
-- (void);
-- (_Bool)rButtonItem:(long long)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)tationWithCompletion:(_Bool)arg1;
-- (void)mViewForItemAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)e:includingExtensions: /* Error: Ran out of types for this method. */;
-- (void)Wrapper:(struct CGPoint)arg1;
-- (void)alertButtonTapCount;
-- (void)itionToSearchLayoutState:(struct CGPoint)arg1;
-- (_Bool)contextID: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ypeSelectInteraction: /* Error: Ran out of types for this method. */;
-- (void)_ax_adjustedContentOffsetForDifferentialScrollingToShowFocusItemWithInfo:(struct CGPoint)arg1 proposedContentOffset: /* Error: Ran out of types for this method. */;
-- (_Bool)?,C,N,V_presentationCompletionBlock;
+- (struct CGPoint);
 - (void);
-- (id)straints;
-- (double)tOffsetWasInvalidated: /* Error: Ran out of types for this method. */;
-- (void)ÿÿ>ÿÿ@ÿÿ¸EÿÿpGÿÿ HÿÿMÿÿNÿÿ°NÿÿðNÿÿ@OÿÿpOÿÿOÿÿÈOÿÿ,PÿÿhPÿÿPÿÿ Sÿÿ0Vÿÿàcÿÿwÿÿ¸{ÿÿ }ÿÿ}ÿÿÌÿÿðÿÿìÿÿÿÿPÿÿ(ÿÿxÿÿÿÿ ÿÿ<ÿÿÿÿÄ¢ÿÿh§ÿÿÈ§ÿÿ,©ÿÿØªÿÿP¼ÿÿl¼ÿÿÁÿÿ,ÇÿÿÈÿÿÀÈÿÿðÈÿÿÍÿÿÎÿÿðÎÿÿØÏÿÿÄÖÿÿ$×ÿÿÚÿÿ(ÜÿÿDÜÿÿØßÿÿ;
-- (struct CGPoint);
+- (void);
+- (void);
 - (_Bool);
-- (void)ion;
-- (_Bool)achmentFromSticker(_UISticker *__strong _Nonnull);
-- (struct CGPoint)ackground;
-- (id)e(id<_UITraitTrackingSupporting,_UIStateTrackingSupporting>, id<_UITraitTrackingSupporting,_UIStateTrackingSupporting> _Nullable);
-- (_Bool)+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
-- (void)8ø;
-- (id)Ù_;
-- (id)`;
-- (id)Vg;
+- (double);
+- (_Bool);
+- (void);
+- (struct CGRect)
+× ;
+- (struct CGRect)0@ù
+× ;
+- (void)!LAù±_°1Â0@ù
+× ;
+- (void)× ;
+- (struct CGPoint)b1Â0@ù
+× ;
+- (struct CGPoint)0@ù
+× ;
+- (struct CGPoint)1Â0@ù
+× ;
+- (void);
+- (_Bool)bView:showCustomImageSheetForElement:fromLocation: /* Error: Ran out of types for this method. */;
+- (void)rd: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ght;
+- (_Bool)ControllerForStackChange;
+- (void)s:(double)arg1 forEditing: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)eViewController:(struct CGPoint)arg1 replyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)Dirty:(id)arg1;
+- (_Bool)é;
+- (id)<;
+- (void) U¤VWÀW;
+- (void);
+- (void);
+- (_Bool)ing for a delayed presention of %@ to complete;
+- (id)ibutes for view:%@. Attributes from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)4;
+- (void)0DÿPMÛDw`;
+- (void)¤<ºÿ[L;
+- (_Bool)¸Õÿ;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) UITouch *activeTouch; // @synthesize activeTouch=_activeTouch;

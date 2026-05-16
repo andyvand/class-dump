@@ -17,11 +17,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (_Bool);
-- (void)
-× ;
-- (id)DAMNote",&,N,V_serviceNote;
+- (id);
+- (void);
+- (void)T;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

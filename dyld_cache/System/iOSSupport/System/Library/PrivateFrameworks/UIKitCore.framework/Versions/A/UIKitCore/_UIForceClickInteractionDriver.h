@@ -17,38 +17,35 @@ __attribute__((visibility("hidden")))
     UITouchForceGestureRecognizer *_gestureRecognizer;
 }
 
-+ (_Bool);
++ (_Bool)
+× ;
 + (_Bool);
 - (_Bool);
 - (double);
-- (_Bool);
-- (double);
-- (double);
+- (id);
+- (struct CGPoint);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (unsigned long long)Áp!ÐFùÃÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)ÑÅÐ1¢!0@ù
-× ;
+- (void)ght;
+- (void)__stackAlignmentFrame;
+- (id)tionChiclet",&,N,V__chiclet;
+- (void)_hasAskedForDismissalInternally;
 - (_Bool);
-- (void)g:(id)arg1;
-- (id)sToMatch;
+- (double)Õ;
+- (void)tCore/_UISplitViewControllerAdaptivePanelLayout.swift;
+- (double);
+- (void)4v[;
+- (void).\;
+- (_Bool)n\;
 - (_Bool);
-- (struct CGPoint)tersectingFocus;
-- (void)p;
-- (void);
-- (void)¨Nüÿ;
-- (void);
-- (id)ssoryManager.m;
-- (void)nMainPreparations and _configureLaunchOptions. This is unexpected.;
-- (_Bool)load the same index path (%@);
-- (double)t={CGPoint=dd}{CGSize=dd}}56d88d96B104@108;
-- (id)sets;
+- (double)dÖ\;
+- (id)Õÿ;
+- (unsigned long long)Pg^;
+- (id);
+- (_Bool)(jþ«;
+- (_Bool)Aúþ³;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement;

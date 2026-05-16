@@ -14,15 +14,13 @@
 }
 
 - (void);
-- (long long)count:%@:%@ /* Error: Ran out of types for this method. */;
-- (void);
 - (long long);
 - (void);
-- (void)1Âð1¢!0@ù
-× ;
-- (id)@ù
-× ;
-- (id)tionVCHierarchyViewController;
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void)xÍg;
 
 // Remaining properties
 @property(nonatomic) long long displayEntryIndex; // @synthesize displayEntryIndex=_displayEntryIndex;

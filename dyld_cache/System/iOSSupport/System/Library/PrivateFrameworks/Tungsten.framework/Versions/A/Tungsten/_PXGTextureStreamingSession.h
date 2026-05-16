@@ -34,9 +34,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct __CVPixelBufferPool *);
 - (id);
+- (struct __CVPixelBufferPool *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXGDisplayAssetAdjustment> displayAdjustment; // @synthesize displayAdjustment=_displayAdjustment;

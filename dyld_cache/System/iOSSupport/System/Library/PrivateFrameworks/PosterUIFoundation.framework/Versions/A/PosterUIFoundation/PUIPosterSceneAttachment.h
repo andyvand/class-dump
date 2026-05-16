@@ -17,14 +17,14 @@
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (unsigned int)ontextWithSceneID:settings: /* Error: Ran out of types for this method. */;
-- (long long);
+- (void);
+- (unsigned int)iled to capture:%{public}@; capture time %f /* Error: Ran out of types for this method. */;
+- (long long)À;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;

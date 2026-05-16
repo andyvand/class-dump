@@ -18,21 +18,21 @@
 
 - (_Bool);
 - (void);
-- (id)op message;
-- (id)mergency number, not relaying to peer %@;
-- (id)nnected over BT %@, relaying message %@;
-- (id)ay not enabled;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (double);
-- (_Bool)long>>, std:(id)arg1:__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, id>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, id>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
 - (id);
-- (void)0@ù
+- (id)1Â0@ù
 × ;
-- (id)@"UIKBGradient",&,N,V_layeredBackgroundGradient;
-- (id)TUY4Z_à_Ø`¼ab;
-- (id)ð?;
-- (id)Å\;
+- (id)ntsForDisplayItems:layoutGuides:inContainerItem:axis: /* Error: Ran out of types for this method. */;
+- (_Bool)elivery:(id)arg1 matchingInitialDeliveries: /* Error: Ran out of types for this method. */;
+- (id)ÀM;
+- (id)UIKit29UILayoutRuleEvaluationContextP;
+- (void)Ð»l;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *colors;

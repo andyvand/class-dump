@@ -12,11 +12,10 @@
 }
 
 + (id);
-- (_Bool);
-- (id);
-- (void)
-× ;
-- (id)®¡;
+- (_Bool)ble:(id)arg1;
+- (id)IKeyboardFloatingTransitionController;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *entries; // @synthesize entries=_entries;

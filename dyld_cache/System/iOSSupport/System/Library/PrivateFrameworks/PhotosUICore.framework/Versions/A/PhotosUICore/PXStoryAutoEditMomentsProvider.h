@@ -35,13 +35,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id)!ìDù|Ð1b0@ù
-× ;
-- (id)øE;
-- (id)sets for localized title subtest %@;
-- (unsigned long long)ÑE0£;
+- (id);
+- (unsigned long long)temP;
+- (void)ø;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;

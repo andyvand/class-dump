@@ -40,15 +40,14 @@
 - (_Bool);
 - (id);
 - (double);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (id)1b0@ù
-× ;
-- (void)enuConfiguration"24@"<UIContextMenuInteractionCommitAnimating>"32;
+- (void)d for all accessories:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

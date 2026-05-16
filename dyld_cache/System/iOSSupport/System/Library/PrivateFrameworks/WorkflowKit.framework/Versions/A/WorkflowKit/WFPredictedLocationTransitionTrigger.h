@@ -12,12 +12,12 @@
     unsigned long long _minutesBefore;
 }
 
-+ (id)rsions/A/AppIntents;
++ (id);
 + (_Bool);
-+ (id)øó²Ì;
++ (id);
 + (long long);
 + (id);
-+ (_Bool)tateTextStopListening);
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long destinationType; // @synthesize destinationType=_destinationType;

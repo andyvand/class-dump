@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     struct CGPoint _initialPoint;
 }
 
-- (void)parse ticket;
 - (void);
-- (void)`;
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)tionContext:(_Bool)arg1;
-- (_Bool)stLayer;
-- (void)an anchor;
-- (struct CGPoint)bheadlineRegular;
+- (struct CGPoint);
+- (void);
+- (void);
+- (id)N,V_cachedDisplayHighlightedIndex;
+- (_Bool)Key;
+- (void)!13Øð;
 
 // Remaining properties
 @property(retain, nonatomic) _UISelectionBandView *bandView; // @synthesize bandView=_bandView;

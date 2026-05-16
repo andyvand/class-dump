@@ -20,14 +20,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)ithFormat:(id)arg1;
+- (id)±Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _SWCollaborationMetadata *collaborationMetadata; // @synthesize collaborationMetadata=_collaborationMetadata;

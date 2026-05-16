@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void)emsObservers;
+- (void)keSpatialCacheDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

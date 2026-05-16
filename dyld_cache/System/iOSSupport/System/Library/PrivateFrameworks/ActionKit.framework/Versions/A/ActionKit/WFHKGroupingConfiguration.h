@@ -22,7 +22,7 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)on server MAY return an HTTP 401 (Unauthorized) status code to indicate which HTTP authentication schemes are supported.  If the client attempted to authenticate via the "Authorization" request header field, the authorization server MUST respond with an HTTP 401 (Unauthorized) status code and include the "WWW-Authenticate" response header field matching the authentication scheme used by the client.;
 
 // Remaining properties
 @property(nonatomic) _Bool fillMissing; // @synthesize fillMissing=_fillMissing;

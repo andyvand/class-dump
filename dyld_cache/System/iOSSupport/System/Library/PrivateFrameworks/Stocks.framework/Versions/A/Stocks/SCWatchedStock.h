@@ -18,16 +18,16 @@
 + (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)?;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displaySymbol; // @synthesize displaySymbol=_displaySymbol;

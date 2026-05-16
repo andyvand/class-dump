@@ -5,6 +5,5 @@
 //
 
 @protocol AVTTaskScheduler
-- (void)s;
 @end
 

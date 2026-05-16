@@ -9,7 +9,7 @@
 @protocol HUCameraSettingsModule
 
 @optional
-- (unsigned long long);
+- (unsigned long long)argin;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long displayStyle;

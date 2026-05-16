@@ -12,14 +12,14 @@
     struct CGSize _preferredSize;
 }
 
-- (void);
-- (struct CGSize)3;
 - (void);
-- (id)sFadeNavigationBarAnimation;
+- (struct CGSize);
 - (id);
-- (id)This argument is nonnull. Doing nothing.;
-- (_Bool)antDragging;
-- (void);
+- (id)geFile;
+- (void);
+- (_Bool)ketCollectorModel;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

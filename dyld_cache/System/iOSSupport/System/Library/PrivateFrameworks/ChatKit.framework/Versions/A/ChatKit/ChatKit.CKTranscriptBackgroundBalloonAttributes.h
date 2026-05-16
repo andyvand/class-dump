@@ -15,16 +15,16 @@
     UIBezierPath *bubblePath;
 }
 
-- (id)¬;
-- (id)x;
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (struct CGSize);
 - (id);
-- (struct CGPoint)Qy0;
+- (struct CGSize);
+- (struct CGPoint);
+- (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIBezierPath *bubblePath; // @synthesize bubblePath;

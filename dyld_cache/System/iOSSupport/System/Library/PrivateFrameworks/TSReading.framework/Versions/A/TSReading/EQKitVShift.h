@@ -12,21 +12,21 @@
     double mOffset;
 }
 
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (double);
+- (double);
 - (_Bool);
 - (id);
-- (void);
 - (double);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double)âÿ"kVÁh;
+- (double)L°öÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;

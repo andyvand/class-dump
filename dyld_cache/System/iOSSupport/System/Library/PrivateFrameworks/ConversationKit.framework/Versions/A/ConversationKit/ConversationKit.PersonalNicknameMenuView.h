@@ -22,9 +22,9 @@
 }
 
 - (void);
+- (id)Ð*0;
 - (id);
-- (void);
-- (id);
+- (void)ntCG;
 
 @end
 

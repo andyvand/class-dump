@@ -16,9 +16,9 @@
 - (void);
 - (struct _NSRange);
 - (id);
-- (unsigned long long)4;
+- (unsigned long long);
 - (void);
-- (long long);
+- (long long)py instead of -copy;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

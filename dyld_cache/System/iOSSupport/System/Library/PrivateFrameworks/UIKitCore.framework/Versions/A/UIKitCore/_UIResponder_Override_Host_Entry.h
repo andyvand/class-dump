@@ -13,12 +13,13 @@ __attribute__((visibility("hidden")))
     long long _type;
 }
 
-+ (id)ss:(id)arg1 %@  error:(long long)arg2 %@;
++ (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id)verlaySelectionViewIfNecessary;
-- (long long);
+- (long long)!<BùQb1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly) __weak UIResponder *overridden; // @synthesize overridden=_overridden;

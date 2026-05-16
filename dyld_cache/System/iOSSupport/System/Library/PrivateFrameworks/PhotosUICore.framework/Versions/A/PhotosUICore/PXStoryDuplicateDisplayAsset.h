@@ -17,16 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (_Bool);
-- (id)v°!ÜFùñz°1b0@ù
-× ;
-- (_Bool);
-- (id)H6Rÿ¥i3X6Rÿui3°6RÿMi37RÿUi3p7Rÿei3Ð7Rÿei348Rÿei38Rÿi3ô8Rÿ%i39Rÿ-i3<9Rÿi3`®RÿUi3H®Rÿåh3D®Rÿåh3@®Rÿ-i3\®Rÿei3´è$ÿ5i3,®Rÿ;
+- (_Bool)tionConfirmationAlertSubtitle;
+- (id)er;
+- (_Bool)nToParticipant:(id)arg1;
+- (void)(;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *alternateUUID; // @synthesize alternateUUID=_alternateUUID;

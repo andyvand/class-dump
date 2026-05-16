@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (struct CGSize)nsets=dddd},N,Vm_selectionInset;
-- (void)Ø\;
+- (id)N;
+- (void)Ö×;
+- (struct CGSize)l, should be nil;
+- (void)GJ/3Sg;
 
 // Remaining properties
 @property(nonatomic) _Bool layoutWithinSafeArea; // @synthesize layoutWithinSafeArea=_layoutWithinSafeArea;

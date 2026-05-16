@@ -9,7 +9,7 @@
 @interface HomeDataModel.HomeState.AllHomesModel
 {
     MISSING_TYPE *_currentHomeID;
-    MISSING_TYPE *_currentResident;
+    MISSING_TYPE *_currentLocationHomeID;
     MISSING_TYPE *_homeStates;
     MISSING_TYPE *_completedSetupMilestones;
     MISSING_TYPE *signpostState;

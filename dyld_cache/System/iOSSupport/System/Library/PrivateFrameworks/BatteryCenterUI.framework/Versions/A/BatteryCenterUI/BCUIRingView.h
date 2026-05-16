@@ -16,26 +16,26 @@
 }
 
 + (Class);
+- (struct CGSize);
+- (id);
 - (void);
-- (double);
 - (void);
 - (_Bool);
+- (double);
+- (void);
+- (id);
+- (void);
+- (void);
+- (double);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (double);
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

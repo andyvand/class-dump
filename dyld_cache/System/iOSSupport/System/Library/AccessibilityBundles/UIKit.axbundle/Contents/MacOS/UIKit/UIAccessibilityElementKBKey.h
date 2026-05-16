@@ -35,15 +35,15 @@
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (void);
 - (id);
 
 @end

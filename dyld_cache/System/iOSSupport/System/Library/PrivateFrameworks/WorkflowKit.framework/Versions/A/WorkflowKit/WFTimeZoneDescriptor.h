@@ -17,15 +17,15 @@
 
 + (id);
 + (id);
-+ (_Bool)t,DraftsReturn,DraftsActionEnabled(1),DraftsAction,DraftsActionKey,DraftsAfterSuccess;
++ (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)uts.remote-execution.sessions;
+- (id)PM;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *alCityIdentifier; // @synthesize alCityIdentifier=_alCityIdentifier;

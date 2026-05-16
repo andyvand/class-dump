@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsDisplayDiffInspector;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)!;
+- (void)imationsWithPreferredFrameRateRange:(id)arg1 updateReason:animations: /* Error: Ran out of types for this method. */;
+- (void)versize:(id)arg1 extremeSizing:(id)arg2;
+- (void):Çþÿ¦ÒþÿÓþÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

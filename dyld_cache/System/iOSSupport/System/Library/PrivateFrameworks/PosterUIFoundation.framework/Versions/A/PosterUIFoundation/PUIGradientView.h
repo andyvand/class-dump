@@ -18,18 +18,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (struct CGPoint);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (struct CGPoint)A !Cù± 1b0@ù
-× ;
-- (void)ithFBSScene:(struct CGPoint)arg1;
-- (void)ôz;
+- (void);
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *colors;

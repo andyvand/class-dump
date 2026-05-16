@@ -38,11 +38,11 @@
 - (struct UIEdgeInsets);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)CSbIegggd_;
-- (void)x dataâ¦;
-- (id)pageConfigurationProvider;
+- (id);
+- (void);
+- (id)yet (%@ %@);
+- (void)ËæS\¥3;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets criticallyVisibleEdgeInsets;

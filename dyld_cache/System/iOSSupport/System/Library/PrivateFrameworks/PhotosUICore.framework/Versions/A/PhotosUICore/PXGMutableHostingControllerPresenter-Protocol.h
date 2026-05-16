@@ -5,6 +5,5 @@
 //
 
 @protocol PXGMutableHostingControllerPresenter
-- (void)pInfoViewController initWithNibName:(void (^)(id <PXGMutableHostingControllerPresenterMutator>))arg1 bundle:] /* Error: Ran out of types for this method. */;
 @end
 

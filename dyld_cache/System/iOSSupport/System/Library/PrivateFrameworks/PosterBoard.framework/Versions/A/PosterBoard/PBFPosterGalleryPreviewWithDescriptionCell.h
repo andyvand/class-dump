@@ -32,10 +32,11 @@
 - (void);
 - (struct CGSize);
 - (void);
+- (CDStruct_4299e56c);
 - (void);
 - (void);
-- (void);
-- (CDStruct_4299e56c)ndle"8;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedPosterTitle;

@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (_Bool)TextContainer: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;

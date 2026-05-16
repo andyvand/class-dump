@@ -12,7 +12,7 @@
 {
 }
 
-+ (id)rÿ§^ø;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -21,22 +21,22 @@
 - (void);
 - (void);
 - (id);
-- (id)t_item_name;
-- (id)Date;
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)ainerSize: /* Error: Ran out of types for this method. */;
-- (id)arning: /* Error: Ran out of types for this method. */;
-- (id)umn = %ld; viewController = %@; separating view controller;
-- (void);
-- (void);
 - (id);
-- (unsigned long long)Keylayout;
-- (id)mView should be set in order for UIViewControllerBuiltinTransitionViewAnimator to work.;
-- (id)elements: /* Error: Ran out of types for this method. */;
+- (void)meForKeyplaneName:(id)arg1;
+- (id)inItemSet:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ModifierFlags:(id)arg1 keyEquivalent: /* Error: Ran out of types for this method. */;
+- (void)ür<s;
+- (id)¬$;
+- (void)Æ%îÿþÿ;
+- (unsigned long long)Entry;
 - (id);
+- (id);
+- (id)pØÐu];
 
 // Remaining properties
 @property(copy, nonatomic) NSString *familyName;

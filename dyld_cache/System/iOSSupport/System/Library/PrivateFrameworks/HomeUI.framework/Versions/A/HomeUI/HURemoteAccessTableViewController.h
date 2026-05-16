@@ -22,8 +22,8 @@
 - (Class);
 - (void);
 - (void);
-- (void);
-- (id)¨G;
+- (void)_Continue;
+- (id)ptions.cellInnerMargin;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -33,46 +33,46 @@
 - (void);
 - (void);
 - (void);
-- (void)O;
 - (void);
-- (BOOL)o accountID when accepting share:%@ /* Error: Ran out of types for this method. */;
-- (void)ror:(id)arg1 %@;
+- (void);
+- (BOOL);
 - (_Bool);
 - (id);
-- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)';
-- (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (struct _NSRange);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool)";
-- (_Bool)nt: /* Error: Ran out of types for this method. */;
-- (id)1¢!0@ù
+- (_Bool)1Â0@ù
 × ;
-- (id)!¬!@GùñÃ1¢!0@ù
+- (void)Áüð!CùqÐ1Â0@ù
 × ;
-- (id)tionBarTitleSummaryForSearchText: /* Error: Ran out of types for this method. */;
-- (_Bool)ionLoadMoreSpinnerHeight;
-- (_Bool)g media objects. error:%@, mediaObjects:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)M8C·-;
+- (id)uid:subject:associatedMessageGUID:associatedMessageType:associatedMessageRange:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)nguage: /* Error: Ran out of types for this method. */;
+- (id)sionLevel: /* Error: Ran out of types for this method. */;
+- (id)bleP;
+- (void)recent address, selecting first address %@;
+- (void)er;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange _selectedRange; // @synthesize _selectedRange=__selectedRange;

@@ -17,28 +17,29 @@
 
 + (id);
 + (id);
-- (id)oCoalesceBreaking;
-- (void)rentThread;
-- (void)angeSection:(id)arg1 atIndex:forChangeType: /* Error: Ran out of types for this method. */;
-- (void)ue;
-- (void)"NSAttributedString",&,N,V_displayingAttributedTitle;
-- (id)ateChecker;
-- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void)j;
 - (void);
-- (void)e;
 - (void);
-- (id)isplayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (void)torage is nil in -updateAttachmentsInNote;
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)@;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ÈÜ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *attachmentGUID; // @synthesize attachmentGUID=_attachmentGUID;

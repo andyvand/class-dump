@@ -5,7 +5,7 @@
 //
 
 @protocol UIBarPositioning
-- (long long);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long barPosition;

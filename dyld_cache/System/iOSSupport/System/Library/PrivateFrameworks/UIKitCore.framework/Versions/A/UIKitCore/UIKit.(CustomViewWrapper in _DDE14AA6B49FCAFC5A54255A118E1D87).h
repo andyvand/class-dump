@@ -14,10 +14,9 @@
 }
 
 - (id);
-- (void);
-- (void)!8DùÄð1¢!0@ù
-× ;
-- (id)lightEffect;
+- (id)neHostingSheetPresentationHostProviding;
+- (void)Event=I[4Q]}{_UISignpostEvent=I[4Q]}}8@?0;
+- (void)<þÉ¤l;
 
 @end
 

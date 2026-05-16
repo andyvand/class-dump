@@ -34,17 +34,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void)_Ùÿ}°¡_Ùÿ°¡Wôÿ]°¡Wôÿ­°¡_Ùÿ=°¡Wôÿ=°¡_Ùÿ°¡Wôÿ½°¡_Ùÿ°¡Wôÿ;
+- (void)tainerDelegate;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

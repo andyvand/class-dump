@@ -11,9 +11,9 @@
     MISSING_TYPE *childViewController;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 @end

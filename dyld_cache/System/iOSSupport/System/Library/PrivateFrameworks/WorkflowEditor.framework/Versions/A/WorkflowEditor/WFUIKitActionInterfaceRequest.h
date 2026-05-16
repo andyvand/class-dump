@@ -13,14 +13,14 @@
     struct CGSize _presentationSize;
 }
 
-+ (_Bool)rkflowEditor11CommitState;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (struct CGSize);
-- (id);
-- (void);
+- (void)$;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionClassName; // @synthesize actionClassName=_actionClassName;

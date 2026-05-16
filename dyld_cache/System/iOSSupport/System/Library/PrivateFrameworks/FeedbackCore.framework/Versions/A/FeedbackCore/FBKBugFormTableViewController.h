@@ -214,10 +214,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -235,10 +233,10 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (_Bool);
 - (void);
 - (double);
 - (_Bool);
@@ -321,16 +319,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -339,11 +331,17 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)matchNameSs0A3KeytG;
-- (void)ø^þÿTÖúÿðX;
-- (void){public}@;
-- (void)4Âª®;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)yAByAAËGG_ã4Qo__AIQo_ýGGGARGt;
+- (void)owerlogDatabaseReader.framework/PowerlogDatabaseReader;
+- (void)é;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *_cachedLegalFooterView; // @synthesize _cachedLegalFooterView=__cachedLegalFooterView;

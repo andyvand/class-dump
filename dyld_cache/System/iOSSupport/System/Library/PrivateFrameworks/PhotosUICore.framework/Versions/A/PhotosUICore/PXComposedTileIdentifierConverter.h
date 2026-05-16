@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *converters; // @synthesize converters=_converters;

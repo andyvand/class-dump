@@ -11,12 +11,12 @@
 }
 
 - (unsigned long long);
-- (id)eP;
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (id)Xg;
-- (id);
+- (id)À[;
+- (id);
 
 @end
 

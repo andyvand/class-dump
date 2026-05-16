@@ -5,7 +5,7 @@
 //
 
 @interface (null) (Bridge)
-- (struct CGPoint)`;
+- (struct CGPoint);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint tc_startPoint;

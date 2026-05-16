@@ -28,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)0@64@72@80@88B96;
-- (void)@72@80B88;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)
+- (id)
 × ;
-- (id)nBounds: /* Error: Ran out of types for this method. */;
+- (void).framework/DataDetectorsUI;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allGroupIdentifiers; // @synthesize allGroupIdentifiers=_allGroupIdentifiers;

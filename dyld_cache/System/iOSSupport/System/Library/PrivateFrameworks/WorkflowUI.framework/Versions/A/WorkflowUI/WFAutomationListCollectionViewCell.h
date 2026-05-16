@@ -32,16 +32,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)ú;
+- (void);
+- (id)Ø;
+- (void)WorkflowUI/SmartShortcutPickerParameterEditorCoordinator.swift;
 
 // Remaining properties
 @property(retain, nonatomic) WFConfiguredTrigger *configuredTrigger; // @synthesize configuredTrigger=_configuredTrigger;

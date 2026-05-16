@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)honeNumbers:(long long)arg1 optionsGroups:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

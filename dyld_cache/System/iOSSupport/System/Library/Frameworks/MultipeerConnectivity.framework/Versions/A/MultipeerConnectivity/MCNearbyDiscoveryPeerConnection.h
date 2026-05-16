@@ -67,12 +67,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ng: /* Error: Ran out of types for this method. */;
-- (id)ng OSPF Hello protocol with participant [%08X] channelID [%d] DTLS context [%p] pCList [%p].;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType connectedHandler; // @synthesize connectedHandler=_connectedHandler;

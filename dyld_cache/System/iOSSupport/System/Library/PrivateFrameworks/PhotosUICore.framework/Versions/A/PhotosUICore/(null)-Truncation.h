@@ -7,6 +7,6 @@
 @interface (null) (Truncation)
 + (_Bool);
 - (_Bool);
-- (struct CGRect)lenames;
+- (struct CGRect);
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(getter=isFaceClassificationEnabled) _Bool faceClassificationEnabled; // @dynamic faceClassificationEnabled;

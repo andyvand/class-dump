@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)2;
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -28,21 +28,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (id)",C,N,V_guid;
-- (id)tTimer;
 - (id);
-- (void)identifiers for chat with guid %s. Not adding to record.;
-- (void)ssing mapping for MPModelPropertyPlaybackPositionBookmarkTime;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id)gItems;
-- (id)ertController:(id)arg1;
-- (unsigned long long)sLineFragmentOrigin;
-- (id)ContextWrapper: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)mpact;
-- (id)FElementView;
-- (id);
+- (id);
+- (id);
+- (id)á!¬Bù[1Â0@ù
+× ;
+- (id)
+× ;
+- (unsigned long long)ñf°1Â0@ù
+× ;
+- (void)marks;
+- (id)Velocity: /* Error: Ran out of types for this method. */;
+- (id)SupportsWatch;
+- (void)è[;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType commitCompletionBlock; // @synthesize commitCompletionBlock=_commitCompletionBlock;

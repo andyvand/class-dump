@@ -17,11 +17,11 @@
     MISSING_TYPE *parameterSelectionObserver;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)á;
+- (void)4;
 
 @end
 

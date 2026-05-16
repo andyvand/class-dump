@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (id)xtensionDataStore initWithURL:runtimeAssertionProvider:extensionProvider:observer:wasMigrationJustPerformed:applicationStateMonitor:error:] /* Error: Ran out of types for this method. */;
++ (id)orChangeUserInfoKeyOrderedUUIDs;
 
 @end
 

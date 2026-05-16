@@ -24,7 +24,7 @@
     long long _supportedContentOptions;
 }
 
-+ (_Bool)workArtworkDataSource:_disableVideoCache:Reducing video URLCache memory capacity to 0. /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (unsigned int);
 - (_Bool);
 - (long long);
@@ -52,18 +52,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)oorBasicMessage:(unsigned long long)arg1;
-- (unsigned long long)iveSubscriptions;
+- (void);
+- (unsigned long long);
 - (void);
 - (long long);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)illsToLibrary;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPickingMultipleItems; // @synthesize allowsPickingMultipleItems=_allowsPickingMultipleItems;

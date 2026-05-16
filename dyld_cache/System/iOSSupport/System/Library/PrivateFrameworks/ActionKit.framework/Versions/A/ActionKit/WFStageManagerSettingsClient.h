@@ -13,17 +13,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (id);
+- (void)iaItemCollection;
 
 // Remaining properties
-@property(nonatomic) _Bool showDock;
+@property(nonatomic) _Bool automaticallyShowAndHideDock;
+@property(nonatomic) _Bool closeWindowsOnSwipeHome;
 @property(nonatomic) _Bool showRecentApps;
 
 @end

@@ -26,9 +26,9 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

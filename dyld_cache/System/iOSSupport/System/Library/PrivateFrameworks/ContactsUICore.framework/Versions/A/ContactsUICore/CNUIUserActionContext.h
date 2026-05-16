@@ -38,8 +38,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)igurationWithHostWindowScene:attachments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <CNUIUserActionCurator> actionCurator; // @synthesize actionCurator=_actionCurator;

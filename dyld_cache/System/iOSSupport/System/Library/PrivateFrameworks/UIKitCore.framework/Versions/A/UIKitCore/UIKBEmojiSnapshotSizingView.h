@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     UIView *_snapshotView;
 }
 
-- (id);
-- (struct CGSize)ItemWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ñÁÐ1¢!0@ù
+- (struct CGSize)0@ù
 × ;
+- (void)Ð¸éÿª;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;

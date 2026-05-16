@@ -19,13 +19,13 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

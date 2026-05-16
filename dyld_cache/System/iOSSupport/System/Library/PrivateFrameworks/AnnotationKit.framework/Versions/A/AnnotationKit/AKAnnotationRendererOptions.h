@@ -20,8 +20,8 @@
 - (double);
 - (void);
 - (double);
-- (double);
 - (_Bool);
+- (double);
 
 // Remaining properties
 @property(nonatomic) _Bool allowHDR; // @synthesize allowHDR=_allowHDR;

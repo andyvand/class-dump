@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)oResource;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *changeDetails; // @synthesize changeDetails=_changeDetails;

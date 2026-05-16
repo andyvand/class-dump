@@ -12,8 +12,8 @@
     MISSING_TYPE *policyValues;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

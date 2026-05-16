@@ -51,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)a;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -75,15 +75,14 @@
 - (void);
 - (void);
 - (void);
-- (id)en;
-- (void)temporary zip file:(id)arg1 %@;
-- (void)lic}@ %@;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)_bss;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,13 +90,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)ath"24;
 - (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (void)At	!ìEùð1Â0@ù
+× ;
+- (void)tFirstInteractionAfterTranslation:maxVisibleHeightPercentage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

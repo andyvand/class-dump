@@ -42,9 +42,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void),;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLRenderPipelineState> pipelineState; // @synthesize pipelineState=_pipelineState;

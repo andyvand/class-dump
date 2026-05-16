@@ -12,11 +12,11 @@
     RTLocation *_location;
 }
 
-- (void);
-- (id)eParticipantUpgrade %@, type:%u, error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
 - (void);
+- (id)eLocationRequests;
+- (void)lid parameter not satisfying:fingerprintMO /* Error: Ran out of types for this method. */;
+- (id)%{sensitive}@, from current device with mapItem, %{sensitive}@, error, %@;
 
 // Remaining properties
 @property(nonatomic, setter=setNoise:) _Bool isNoise; // @synthesize isNoise=_isNoise;

@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
+- (void)ord data that was compresssed. original data length, %llu, compressed data length, %llu;
+- (id)%@:%@,outputData or clusterRoadData is nil,options,%@,queryResponseTimeMSec,%.2lf /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTElevationManager *elevationManager; // @synthesize elevationManager=_elevationManager;

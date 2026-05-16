@@ -32,18 +32,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (Class);
 - (struct CGPath *);
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (id));
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
@@ -71,32 +71,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)fo"8@"TSPData"16q24;
 - (_Bool);
-- (struct CGSize)¡;
-- (void)X^B;
+- (void);
+- (id);
+- (void)ð;
+- (struct CGSize);
+- (_Bool);
+- (_Bool)0ÒÖÿ][t;;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allNodesSelected;

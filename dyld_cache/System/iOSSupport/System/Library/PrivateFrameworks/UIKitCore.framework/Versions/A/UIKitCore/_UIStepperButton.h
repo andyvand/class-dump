@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _left;
 }
 
-+ (Class)tionary",C,N,V_parameters;
++ (Class);
 - (void);
-- (id)arResizeTapGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (_Bool)jj
-møp@q´uhvÌwy¨|ð|;
+- (id);
+- (_Bool)× ;
 
 // Remaining properties
 @property(nonatomic, getter=isLeft) _Bool left; // @synthesize left=_left;

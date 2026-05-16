@@ -5,11 +5,7 @@
 //
 
 @interface (null) (IMChat_Internal)
-+ (Class)lytics;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (Class);
 - (_Bool);
 - (void);
 - (id);
@@ -23,8 +19,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)ProcessDidChange;
-- (id)<WebKit::WebExtensionMenuItem>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::String, WTF::Ref<WebKit::WebExtensionMenuItem>>::KeyValuePairTraits, WTF::DefaultHash<String>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (id);
 - (id);
 @end

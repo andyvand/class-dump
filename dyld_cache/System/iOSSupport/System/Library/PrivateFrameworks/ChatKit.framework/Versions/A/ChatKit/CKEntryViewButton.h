@@ -17,25 +17,25 @@
     UIVisualEffectView *_vibrancyView;
 }
 
-+ (void)CompatibilityControllerDevice"8Q16^B24;
-+ (id)YES;
++ (void);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-- (_Bool)TQ,N,V_requestCount;
++ (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)ragraphStylestGz_Xx;
 - (void);
-- (id)u;
-- (id)t;
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (long long)Destination];
+- (long long);
 - (void);
 - (BOOL);
 - (id);
@@ -47,15 +47,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (struct CGSize);
-- (id)*E;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (_Bool);
+- (double);
+- (void)mated;
+- (void);
+- (void)ilsInlineContactCard;
+- (id)Ôk8N.;
 
 // Remaining properties
 @property(nonatomic) double blurRadius;

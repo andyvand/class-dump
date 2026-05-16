@@ -13,12 +13,12 @@
     MISSING_TYPE *token;
 }
 
-- (void);
-- (void);
-- (void);
-- (id)tagInventory;
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)2ÿÿö6þÿ~uýÿ;
 
 @end
 

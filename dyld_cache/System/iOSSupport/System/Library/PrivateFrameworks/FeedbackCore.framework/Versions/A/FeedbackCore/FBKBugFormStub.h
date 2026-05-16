@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id){public}s;
 - (id);
 - (id);
 - (id);

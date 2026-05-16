@@ -17,21 +17,22 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (void);
 - (id);
-- (_Bool)erGUID:threadIdentifier:chatID:queryID: /* Error: Ran out of types for this method. */;
-- (void)1;
-- (void)WithIMLocationShareStatusChangeItemFields:(id)arg1;
-- (id)`;
-- (id);
-- (void)z;
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool)ð1¢!0@ù
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)
 × ;
-- (_Bool)t;
-- (void)Contents;
-- (void)aint;
-- (void)ed;
+- (void)1aÐ1Â0@ù
+× ;
+- (void)tionTransactionToken",W,N,S_setOrientationTransactionToken:,V__orientationTransactionToken /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

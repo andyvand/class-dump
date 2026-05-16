@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ller: /* Error: Ran out of types for this method. */;
+- (void)ionBar:didPopItem: /* Error: Ran out of types for this method. */;
 
 @end
 

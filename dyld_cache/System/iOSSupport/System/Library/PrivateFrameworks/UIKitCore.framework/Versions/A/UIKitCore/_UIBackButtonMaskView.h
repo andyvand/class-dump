@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
     UIImageView *_maskImageView;
 }
 
-- (void);
-- (id)Operation: /* Error: Ran out of types for this method. */;
-- (id)oundVisible: /* Error: Ran out of types for this method. */;
-- (id)-leftMargin-guide-constraint;
+- (id);
+- (id);
+- (id)ddedDraggingItemsWaitingForHandOffOfDragImage;
+- (void)q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSLayoutXAxisAnchor *maskExtensionLeadingAnchor;

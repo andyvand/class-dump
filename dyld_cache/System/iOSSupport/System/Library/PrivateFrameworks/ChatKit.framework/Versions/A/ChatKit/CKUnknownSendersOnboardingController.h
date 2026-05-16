@@ -15,9 +15,9 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)á;
-- (void)Éÿÿþ½ýÿ;
+- (void)ggleBoolKey;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKUnknownSendersOnboardingControllerDelegate> delegate; // @synthesize delegate=_delegate;

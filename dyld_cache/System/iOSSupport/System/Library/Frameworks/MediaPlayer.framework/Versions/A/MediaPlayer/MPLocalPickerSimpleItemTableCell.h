@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)videoTaskToData;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *trackNumber; // @synthesize trackNumber=_trackNumber;

@@ -20,7 +20,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)n to set the email body. Other types of input are added as attachments.;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSuccessResponseWithDialog; // @synthesize hasSuccessResponseWithDialog=_hasSuccessResponseWithDialog;

@@ -7,8 +7,7 @@
 @class NSMutableDictionary;
 
 @protocol PXUserInterfaceElementEventTracker
-- (NSMutableDictionary *)ntrinsicContentSize;
-- (void)Q;
+- (void)emonadePickerContentView;
 
 // Remaining properties
 @property(copy, nonatomic) NSMutableDictionary *payload;

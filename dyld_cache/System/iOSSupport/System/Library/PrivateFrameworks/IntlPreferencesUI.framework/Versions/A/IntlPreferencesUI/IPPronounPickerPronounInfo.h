@@ -40,12 +40,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITextField *entryField; // @synthesize entryField=_entryField;

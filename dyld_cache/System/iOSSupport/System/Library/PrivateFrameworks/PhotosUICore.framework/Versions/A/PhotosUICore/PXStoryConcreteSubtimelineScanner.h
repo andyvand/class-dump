@@ -62,13 +62,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (CDStruct_777fda0b)o;
-- (id)bjectReference;
-- (_Bool);
+- (id)nÀnLo;
+- (void);
+- (void)eration;
+- (CDStruct_777fda0b)õ,Ï7ÿ
+õpÏ7ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isAtBeginning;

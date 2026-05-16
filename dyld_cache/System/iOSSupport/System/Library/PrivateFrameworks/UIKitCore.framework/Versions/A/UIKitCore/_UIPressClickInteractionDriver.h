@@ -18,40 +18,39 @@ __attribute__((visibility("hidden")))
     _UISimplePressGestureRecognizer *_pressGR;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (double);
-- (_Bool);
++ (_Bool)!´@ùQ^°1Â0@ù
+× ;
++ (_Bool)hadowBlurRadius;
 - (void);
 - (unsigned long long);
 - (double);
 - (id);
 - (void);
-- (void);
-- (id)Ao!@@ùÁ°1¢!0@ù
-× ;
-- (unsigned long long)
-× ;
-- (void)ÑÂÐ1¢!0@ù
-× ;
-- (_Bool);
-- (_Bool)arDownTextInputView;
-- (void)ransform;
-- (id)r: /* Error: Ran out of types for this method. */;
-- (_Bool)ExceptScale;
-- (struct CGPoint),N,V_unfocusedShadowVerticalOffset;
-- (void)SwitcherView;
-- (void)leCellSegmentView;
-- (id) 	;
-- (void);
-- (void)üÿ²ýÿpýÿ;
-- (id)superlayer is not in a view;
-- (void)tSTUIStatusBarCellularSignalViewClass(void)_block_invoke;
-- (void)com.apple.DragUI.druid.system;
-- (double)rrection]_block_invoke;
+- (struct CGPoint);
 - (id);
-- (_Bool);
 - (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (void)View:(id)arg1 dataOwnerForDragSession: /* Error: Ran out of types for this method. */;
+- (void)ocusItemAtIndexPath:(double)arg1;
+- (id)licitlySetGraphicsQuality;
+- (void)sualEffectView",&,N,V_selectionView;
+- (void)tIndexPath;
+- (_Bool)laryOffsets;
+- (double)Ôh;
+- (id)B24;
+- (id)@; dataSource:<%@:%p>> /* Error: Ran out of types for this method. */;
+- (void)ckgroundTop.png;
+- (void)h;
+- (void);
+- (_Bool)¤;
+- (double)¥43ØÔwþ;
+- (unsigned long long)¼\;
+- (id)e°\;
+- (_Bool)SÚ;
+- (_Bool)¸jÿ¸AÛ(];
+- (_Bool)Õÿ;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

@@ -20,39 +20,41 @@
     CDUnknownBlockType _primaryTextFrameDidChangeHandler;
 }
 
-- (struct _UIBasicCellContentViewSizes)ncountered an error.  Will try this record again on next sync. %@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)ps table [] error=%{public}@;
-- (double)issing mapping for MPModelRelationshipGenericGenre;
+- (struct _UIBasicCellContentViewSizes);
+- (struct CGSize);
+- (id);
+- (struct CGRect);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void)NVº;
 - (_Bool);
-- (_Bool)ý/º;
-- (void)× ;
-- (id)Ô ;
-- (void)otifyWillFinish"b1"didNotifyDidFinish"b1"shouldReenableUserInteraction"b1"isRTL"b1"hasAmbiguousIndexPath"b1"didReloadData"b1};
-- (id)_NSRange=QQ}24@"NSString"40;
-- (void)ier;
-- (_Bool)rawSelectionLayer:inContext: /* Error: Ran out of types for this method. */;
-- (id)tionScheduled;
+- (_Bool);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (void)ÁÐ!ä@ùq[°1Â0@ù
+× ;
+- (void)er>";
+- (void):(id)arg1 forFrame:inView: /* Error: Ran out of types for this method. */;
+- (void)WithCategory:(struct UIEdgeInsets)arg1 actionsByContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)SubstringFromRange: /* Error: Ran out of types for this method. */;
+- (id)barHidden:edge: /* Error: Ran out of types for this method. */;
+- (double)me: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ze=dd},N;
+- (void)q,N,V_uiInterfaceOrientation;
+- (id)intColor:,V_forcedTintColor /* Error: Ran out of types for this method. */;
+- (void)gBackdropViewDelegate>",R,W,N,V_delegate;
+- (void)@ü|;
 - (struct CGSize);
-- (id)T@"UICollectionViewUpdate",R,N,G_currentUpdate;
-- (void)TrackViewDelegate>",W,N,V_delegate;
-- (id) ;
-- (void)|÷Ç @w@øÇ$ÀwxøÇ¤;xøÇ4KxÜøÇÄZx;
-- (double)lock;
-- (void)o restore state for session %@, deleting state restoration archive and skipping restoration;
-- (id)MTimeZero(void);
-- (struct CGRect)g;
-- (struct CGSize)Xa[;
-- (CDUnknownBlockType);
-- (id)v,^;
-- (struct CGSize)Ð`Æ;
+- (id)nKVO2;
+- (struct CGSize)ler:(struct CGSize)arg1 %@;
+- (void)urationSeconds;
+- (_Bool)(__strong id<_UIFocusRegionContainer>, NSHashTable<id<UIFocusEnvironment>> *__strong, NSHashTable<id<UIFocusEnvironment>> *__strong, NSArray<_UIFocusRegionSearchContextState *> *__strong);
+- (double)oundEffects;
+- (void)<¶(ÿå¾,~^;
+- (id)`;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preventFocus;

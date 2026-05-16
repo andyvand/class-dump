@@ -5,9 +5,5 @@
 //
 
 @protocol NAZoomable
-- (_Bool);
-- (void)hyR]�G;
-- (_Bool)your interests will help improve our personalization algorithm. You can answer or skip as many as you like. Be sure to scroll through both sections.;
-- (void)ivedDataCompiler;
 @end
 

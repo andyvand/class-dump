@@ -43,11 +43,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cachesDirectoryURL; // @synthesize cachesDirectoryURL=_cachesDirectoryURL;

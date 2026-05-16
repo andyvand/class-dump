@@ -51,12 +51,12 @@
 }
 
 - (void);
-- (void)?;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)?	;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,21 +68,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)Ө;
-- (void)hb;
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)H;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,7 +115,7 @@
 - (long long);
 - (void);
 - (void);
-- (void)T?;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -131,8 +131,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (void);
 
 // Remaining properties

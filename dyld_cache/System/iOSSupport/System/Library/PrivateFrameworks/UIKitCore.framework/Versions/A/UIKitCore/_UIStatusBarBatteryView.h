@@ -38,129 +38,134 @@
 }
 
 + (struct CGSize);
-+ (struct CGSize);
-+ (struct CGSize);
-+ (double)age:(long long)arg1;
 + (id);
++ (struct CGSize)eReachability;
++ (id)letionBlock:(struct CGSize)arg1;
++ (struct CGSize)rval:(long long)arg1;
++ (double),&,N,V_onTintColor;
 + (id);
-+ (id)size_t, const BOOL);
-- (double);
-- (id);
-- (struct CGSize);
-- (void)(
-;
 - (void);
-- (void)G;
-- (void);
-- (id);
 - (void);
 - (double);
-- (double)e;
+- (double);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
 - (struct CGRect);
 - (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (double);
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool)rrections;
 - (void);
 - (_Bool);
-- (long long);
+- (double);
 - (void);
-- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (double);
+- (long long);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (double);
+- (double);
+- (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (void);
+- (double)
+× ;
 - (id);
 - (struct CGSize);
+- (id)ùQ\ð1Â0@ù
+× ;
+- (CDStruct_c3b9c2ee)!@ù^°1Â0@ù
+× ;
+- (id)Ô¡ð!GùQ_Ð1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (struct CGSize)A!¬DùQað1Â0@ù
+× ;
+- (id)
+× ;
+- (_Bool)Qc1Â0@ù
+× ;
 - (void);
+- (_Bool)0@ù
+× ;
+- (id)!4Dùñfð1Â0@ù
+× ;
 - (void);
-- (id);
-- (void)s:(_Bool)arg1;
-- (void)t.framework/AVKit;
+- (void)8@0:(id)arg1 8d16@?24@?32@?40;
+- (void)dateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
+- (id)d}{CGPoint=dd}}40@0:8Q16d24d32 /* Error: Ran out of types for this method. */;
+- (long long)NSProgress"32;
+- (double)eferredKeyboardStyle;
+- (struct CGRect)urrentOrientation:(id)arg1;
+- (double)AdjustsWritingDirection;
+- (_Bool)on:swipeView: /* Error: Ran out of types for this method. */;
+- (void)shouldHaveBackdropView;
+- (id)ForPresenting;
+- (id)intsOnHeightChange;
+- (void)ntTimeInputLabelFrame;
+- (id)egate;
+- (void)GradientMaskView;
+- (void)B,?,N,VacceptsSplitKeyboard;
+- (void)ring",C,N,V_formattedDateString;
+- (void)BarProvider;
+- (void)"UIScreen",R,N,V_screen;
+- (void)Alert;
+- (id)\îxï;
+- (long long)ent:on gesture:%p (%@) with touches:%@ /* Error: Ran out of types for this method. */;
+- (double)ew with TextViewAllowSelectionContainerInTextLayoutCanvas preference off. Ignoring.;
 - (void);
 - (double);
-- (void)1	J)	J;
+- (_Bool).îÿQuþÿ;
+- (void)¢Ñîÿ£þÿ;
 - (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
+- (id)abled return key:%d
+ /* Error: Ran out of types for this method. */;
+- (void)tViewControllerAdaptiveImpl setPreferredSplitBehavior:(_Bool)arg1 ];
+- (id)rForwardableEventComponent>"8^B16;
+- (void)nHandler:(id)arg1 ];
+- (void)nsSourceApplicationKey;
+- (void)il-for;
+- (long long)has been dealloced :manager=%@ identifier=%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Kit internal inconsistency:registration missing element kind %@ /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
-- (void);
-- (struct CGSize)ÑÁð1¢!0@ù
-× ;
-- (void)Ã1¢!0@ù
-× ;
-- (id)0@ù
-× ;
-- (void)!FùÅÐ1¢!0@ù
-× ;
-- (id);
-- (_Bool)1¢!0@ù
-× ;
-- (double);
-- (struct CGRect)× ;
-- (id)Ë°1¢!0@ù
-× ;
-- (void);
-- (long long)× ;
-- (void)!CùÎ1¢!0@ù
-× ;
-- (void)engthBars"i"serviceString"[100c]"secondaryServiceString"[100c]"serviceCrossfadeString"[100c]"secondaryServiceCrossfadeString"[100c]"serviceImages"[2[100c]]"operatorDirectory"[1024c]"serviceContentType"I"secondaryServiceContentType"I"cellLowDataModeActive"b1"secondaryCellLowDataModeActive"b1"wifiSignalStrengthRaw"i"wifiSignalStrengthBars"i"wifiLowDataModeActive"b1"dataNetworkType"I"secondaryDataNetworkType"I"batteryCapacity"i"batteryState"I"batteryDetailString"[150c]"bluetoothBatteryCapacity"i"thermalColor"i"thermalSunlightMode"b1"slowActivity"b1"syncActivity"b1"activityDisplayId"[256c]"bluetoothConnected"b1"displayRawGSMSignal"b1"displayRawWifiSignal"b1"locationIconType"b2"voiceControlIconType"b2"quietModeInactive"b1"tetheringConnectionCount"I"batterySaverModeActive"b1"deviceIsRTL"b1"lock"b1"breadcrumbTitle"[256c]"breadcrumbSecondaryTitle"[256c]"personName"[100c]"electronicTollCollectionAvailable"b1"radarAvailable"b1"announceNotificationsAvailable"b1"wifiLinkWarning"b1"wifiSearching"b1"backgroundActivityDisplayStartDate"d"shouldShowEmergencyOnlyStatus"b1"emergencyOnly"b1"secondaryCellularConfigured"b1"primaryServiceBadgeString"[100c]"secondaryServiceBadgeString"[100c]"quietModeImage"[256c]"quietModeName"[256c]};
-- (void)onRemoteDragManipulation>"16I24;
-- (id)erColumnDisplayedBeforeSplitViewControllerColumn: /* Error: Ran out of types for this method. */;
-- (void)tWebView:(id)arg1;
-- (id)setFocusedImageTintColor: /* Error: Ran out of types for this method. */;
-- (double)nPhase;
-- (_Bool)contentFrameSupplementaryOffset:(id)arg1;
-- (id)oatForKey: /* Error: Ran out of types for this method. */;
-- (void)rticalOffset;
-- (void)erRange: /* Error: Ran out of types for this method. */;
-- (void)ognizer;
-- (double)ouldOverrideInputActionCountToZero:(id)arg1 withLanguage: /* Error: Ran out of types for this method. */;
-- (void)ipSelf:(double)arg1;
-- (void)de:,V_marginOverride /* Error: Ran out of types for this method. */;
-- (id)windowServerHitTestContextID;
-- (double)dateColorOnTraitCollectionChange;
-- (void)roundedCornersBackground;
-- (_Bool)ockPinchGestureRecognizer;
-- (void)ManagerClient;
-- (double)eyboardAnimatorAnimationStyleControllerContext;
-- (void)Ô;
-- (double)X;
-- (id)Invalid scene settings detected:the scene frame (%@) is too small to fit the scene's rounded corners:%@ /* Error: Ran out of types for this method. */;
-- (void)s not allowed and may result in undefined behavior (%@);
-- (id)on to a view not in the view hierarchy will trigger a fallback transition. To correct the error, be sure to a provide a view that's visible and in a window. View:(struct CGRect)arg1 %{public}s;
-- (id)ö¶üÿ·üÿ:¶üÿ /* Error: Ran out of types for this method. */;
-- (long long)scriptorC;
-- (void)ong * _Nonnull, _UIContentViewLabelConfiguration * _Nonnull __strong);
-- (void)rection;
-- (id)s;
-- (void)of primary. SplitViewController is %@, primary is %@, secondary is %@;
-- (CDStruct_c3b9c2ee);
-- (void);
-- (double);
-- (void)EffectiveSolariumInsetsAndCornerRadiusEnabled;
-- (void)%g;
-- (id)¨4,ø;
-- (id)Z;
-- (id)þZ;
-- (void)j;;
+- (void)@
+;
+- (void)43^;
 - (void);
 - (void);
-- (_Bool)²;
-- (void)^;
-- (id)å6^;
+- (id)èrÿ
+Ðx²];
+- (id)©ÝÍ];
+- (_Bool)À<;
+- (void)/;
+- (void)m!;
 
 // Remaining properties
 @property(retain, nonatomic) _UIStatusBarBatteryViewAXHUDImageCacheInfo *accessibilityHUDImageCacheInfo; // @synthesize accessibilityHUDImageCacheInfo=_accessibilityHUDImageCacheInfo;

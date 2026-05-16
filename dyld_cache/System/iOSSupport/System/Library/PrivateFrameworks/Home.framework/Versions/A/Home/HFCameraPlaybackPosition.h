@@ -23,11 +23,11 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (unsigned long long)r:%@> /* Error: Ran out of types for this method. */;
+- (unsigned long long)UserSelectableWallpaperForWallpaperCollectionType: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *clip; // @synthesize clip=_clip;

@@ -14,13 +14,13 @@
 
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (long long);
+- (long long);
 - (void);
-- (unsigned long long);
-- (long long)deLength=dddd}16;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long dataDetectorTypes; // @synthesize dataDetectorTypes=_dataDetectorTypes;

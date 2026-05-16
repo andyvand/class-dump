@@ -13,11 +13,12 @@
     MISSING_TYPE *scrollView;
     MISSING_TYPE *topCompression;
     MISSING_TYPE *bottomCompression;
+    MISSING_TYPE *shadowPocketView;
 }
 
 - (void);
-- (_Bool)%<;
-- (_Bool)<;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -28,9 +29,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (double)entationWithSize: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)crollAcrossPageBoundaries: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;

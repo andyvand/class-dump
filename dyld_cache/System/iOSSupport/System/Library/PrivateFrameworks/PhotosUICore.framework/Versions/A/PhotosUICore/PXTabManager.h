@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool)È°k;
+- (_Bool);
+- (void)leModel.swift;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

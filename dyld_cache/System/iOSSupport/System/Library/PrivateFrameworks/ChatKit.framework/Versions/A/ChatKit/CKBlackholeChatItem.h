@@ -10,10 +10,10 @@
 {
 }
 
-+ (struct CGSize)o;
++ (struct CGSize);
 - (BOOL);
-- (id)on;
-- (struct CGSize)ession;
+- (id);
+- (struct CGSize);
 - (Class);
 
 @end

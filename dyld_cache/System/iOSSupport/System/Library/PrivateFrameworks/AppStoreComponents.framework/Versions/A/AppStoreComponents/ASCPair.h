@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
     id _second;
 }
 
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

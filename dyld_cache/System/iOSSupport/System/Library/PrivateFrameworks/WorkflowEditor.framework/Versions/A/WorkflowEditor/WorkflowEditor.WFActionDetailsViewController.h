@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Ä;
 - (void);
 
 @end

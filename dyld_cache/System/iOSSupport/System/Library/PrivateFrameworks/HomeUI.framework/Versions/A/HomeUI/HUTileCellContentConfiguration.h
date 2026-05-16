@@ -18,8 +18,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)ControlViewController;
 
 // Remaining properties
 @property(nonatomic) _Bool descriptionHidden;

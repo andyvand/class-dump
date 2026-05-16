@@ -50,7 +50,7 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (id)";
+- (id);
 - (void);
 - (void);
 - (void);
@@ -59,15 +59,15 @@
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (_Bool);
-- (struct CGPoint)er,V_navigationController;
-- (_Bool)clamshell %d remote darwin:%d /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
+- (struct CGPoint);
+- (_Bool);
 - (void);
 - (id);
+- (id);
+- (void)JK;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

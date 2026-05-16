@@ -71,14 +71,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -97,25 +97,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
 - (struct CGRect);
 - (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
+- (id);
+- (struct CGRect);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)ùX1b0@ù
-× ;
-- (_Bool)on:animated: /* Error: Ran out of types for this method. */;
-- (struct CGRect)es: /* Error: Ran out of types for this method. */;
-- (id)shold;
-- (void)utOriginIdentifier;
-- (struct CGRect){CGSize=dd}},N,V_initialPinchRect;
-- (id)PickerSuggestion;
-- (id);
+- (void);
+- (_Bool);
+- (id)aitCollectionChanged;
+- (_Bool)n;
+- (void);
+- (void)Timeout;
+- (id)__Qo__Qo_Sg SAAylK;
+- (struct CGRect)S;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalActionInfoEdgeInsets; // @synthesize additionalActionInfoEdgeInsets=_additionalActionInfoEdgeInsets;

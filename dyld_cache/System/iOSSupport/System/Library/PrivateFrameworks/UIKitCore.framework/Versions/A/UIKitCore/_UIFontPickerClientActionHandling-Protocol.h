@@ -5,6 +5,5 @@
 //
 
 @protocol _UIFontPickerClientActionHandling
-- (void);
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol MPSectionedIdentifierListDataSource
-- (void);
 @end
 

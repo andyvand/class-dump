@@ -11,8 +11,9 @@
     MISSING_TYPE *scoreCache;
 }
 
-- (void);
 - (id);
+- (void)Áeð!xAù±sð1Â0@ù
+× ;
 
 @end
 

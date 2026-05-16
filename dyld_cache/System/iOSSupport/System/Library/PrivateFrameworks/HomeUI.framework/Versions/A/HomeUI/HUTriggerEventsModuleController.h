@@ -27,10 +27,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)!FùQ1ð1b0@ù
-× ;
-- (void);
+- (void)pletes...;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEditingEvents; // @synthesize allowsEditingEvents=_allowsEditingEvents;

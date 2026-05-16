@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)v@?@"<PXStoryMutableChapter>">24;
 - (void);
 
 @end

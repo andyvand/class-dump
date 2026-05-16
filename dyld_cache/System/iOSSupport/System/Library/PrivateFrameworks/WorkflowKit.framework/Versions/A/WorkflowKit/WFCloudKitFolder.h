@@ -21,19 +21,19 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (id)(t;
++ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (void);
+- (id);
 - (unsigned short);
-- (void);
 - (id);
+- (void)"NSString",R,N,V_osVersion;
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

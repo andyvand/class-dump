@@ -14,13 +14,12 @@
     MISSING_TYPE *effects;
 }
 
-+ (Class)o;
++ (Class);
 - (void);
 - (id);
-- (void)0@ù
-× ;
-- (id)is is a UIKit internal bug.;
-- (void);
+- (void);
+- (id)ðððððððððððððððððððððððððððÂ;
+- (void)ødl;
 
 @end
 

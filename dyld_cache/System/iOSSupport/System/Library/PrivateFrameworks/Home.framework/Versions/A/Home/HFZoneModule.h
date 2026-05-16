@@ -46,11 +46,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)4;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *createNewZoneItem; // @synthesize createNewZoneItem=_createNewZoneItem;

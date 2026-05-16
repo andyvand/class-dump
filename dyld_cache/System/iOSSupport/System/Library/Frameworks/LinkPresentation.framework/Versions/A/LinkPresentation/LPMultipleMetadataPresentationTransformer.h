@@ -16,13 +16,13 @@
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long preferredSizeClass; // @synthesize preferredSizeClass=_preferredSizeClass;

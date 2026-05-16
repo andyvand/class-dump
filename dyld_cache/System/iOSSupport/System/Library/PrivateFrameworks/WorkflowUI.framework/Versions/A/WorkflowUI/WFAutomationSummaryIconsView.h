@@ -29,8 +29,8 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
 - (id);
+- (void),;
 
 // Remaining properties
 @property(readonly, nonatomic) WFRowOfIconsView *actionsIconsView; // @synthesize actionsIconsView=_actionsIconsView;

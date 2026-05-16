@@ -5,6 +5,5 @@
 //
 
 @protocol UINSDropSessionHandler
-- (_Bool)4;
 @end
 

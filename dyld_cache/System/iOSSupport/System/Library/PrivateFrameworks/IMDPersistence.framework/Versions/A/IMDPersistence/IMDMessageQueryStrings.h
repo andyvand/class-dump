@@ -9,8 +9,8 @@
 }
 
 + (id);
-- (void);
-- (id)g;
+- (id);
+- (void)te:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

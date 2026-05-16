@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class NSDictionary, SCSensitivityAnalysis;
 
 @protocol SCUIMoreHelpMenuController
+- (NSDictionary *)©y_öÐGy0BH[}©y_ÌGySaySz©GSS×;
 
 // Remaining properties
+@property(readonly, nonatomic) SCSensitivityAnalysis *analysis;
 @property(readonly, copy, nonatomic) NSDictionary *contextDictionary;
 @property(readonly, nonatomic) long long options;
 @end

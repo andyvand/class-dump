@@ -22,9 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool)Q0ð1b0@ù
-× ;
+- (_Bool);
+- (void)erPhraseSettingDetailsItemManager _buildSectionsWithDisplayedItems:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HUQuickControlCollectionViewController *collectionViewController; // @synthesize collectionViewController=_collectionViewController;

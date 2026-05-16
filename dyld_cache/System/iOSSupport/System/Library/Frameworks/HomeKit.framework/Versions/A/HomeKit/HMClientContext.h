@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)¸b;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *metricIdentifier; // @synthesize metricIdentifier=_metricIdentifier;

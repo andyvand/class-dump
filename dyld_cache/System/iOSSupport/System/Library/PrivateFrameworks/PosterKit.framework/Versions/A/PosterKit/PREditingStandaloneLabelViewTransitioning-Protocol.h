@@ -5,6 +5,7 @@
 //
 
 @protocol PREditingStandaloneLabelViewTransitioning
-- (void)CellConstraints;
+- (void)ivationAssertion;
+- (void)edium;
 @end
 

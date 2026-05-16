@@ -15,14 +15,14 @@
     NSString *_dismissalType;
 }
 
-+ (Class)²Ì;
++ (Class);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)stPhotoCount);
+- (id);
+- (void)ÐÿR;
+- (void)ializedRepresentation:variableProvider:parameter:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dismissalType; // @synthesize dismissalType=_dismissalType;

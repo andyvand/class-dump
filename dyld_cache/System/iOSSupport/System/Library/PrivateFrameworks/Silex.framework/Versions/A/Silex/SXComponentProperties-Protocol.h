@@ -7,10 +7,7 @@
 @class NSString, SXComponentClassification, SXComponentConditions, SXJSONArray, SXJSONDictionary;
 
 @protocol SXComponentProperties
-- (unsigned long long);
-- (SXComponentConditions *)Manager: /* Error: Ran out of types for this method. */;
-- (int)V_highlighted;
-- (SXJSONArray *)ComponentController>",R,N,V_componentController;
+- (NSString *)"NSEnumerator"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel;

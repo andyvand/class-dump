@@ -5,7 +5,7 @@
 //
 
 @protocol UIPointerInteractionAnimating
-- (void)eyboard;
-- (void)á)äJ=ò?;
+- (void)index path. Attributes will be ignored. Attributes:(void (^)(void))arg1 %@; layout:%@; data source counts:%@ /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

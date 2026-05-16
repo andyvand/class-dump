@@ -30,12 +30,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
+- (_Bool);
 - (void);
+- (void);
+- (void)ü;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool contentAllowsScrolling;

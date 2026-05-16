@@ -20,22 +20,22 @@ __attribute__((visibility("hidden")))
     MPModelObject *_favoritableModelObject;
 }
 
-- (void)inStore:(_Bool)arg1 oldAccount: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool);
-- (id)ers:(id)arg1 error:(unsigned int)arg2;
 - (id);
 - (id);
-- (void)m=;
-- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long)ICMutableLiveLinkIdentityPrivate>"8;
+- (long long)rocessor: /* Error: Ran out of types for this method. */;
+- (void)nHead to PositionSpecified after deferredNextContentItem [head (current item was placeholder)] deferredNextContentItem=%{public}@;
+- (id)16@?0@"MPIdentifierSet<MPMutableIdentifierSet>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int command; // @synthesize command=_command;

@@ -16,9 +16,9 @@
 }
 
 + (id);
-- (void);
 - (id);
 - (id);
+- (void)parameterState:permissionRequestor:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

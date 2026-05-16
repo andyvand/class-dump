@@ -8,11 +8,6 @@
 @protocol AVTAvatarAttributeEditorSectionSupplementalPicker;
 
 @protocol AVTAvatarAttributeEditorSection
-- (void);
-- (AVTAvatarAttributeEditorSectionOptions *);
-- (NSString *)ht;
-- (void)BusyAssertion;
-- (NSString *):%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

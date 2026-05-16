@@ -35,10 +35,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)GGAGyÑùSgGGAGyõSgGG¢yAD¼ûySay[ñÏGAUû¢yúy/ýyAD_ûAESgtGGGGüGG_Qo_íïG;
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC15ConversationKit28LocalParticipantControlsView *controlsView; // @synthesize controlsView;

@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (id)eyExtractor<WTF::KeyValuePair<std::pair<WebCore::IntSize, double>, WebCore::IntPoint>>, HashFunctions = WTF::DefaultHash<std::pair<WebCore::IntSize, double>>, Traits = WTF::HashMap<std::pair<WebCore::IntSize, double>, WebCore::IntPoint>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<std::pair<WebCore::IntSize, double>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<std::pair<WebCore::IntSize, double>, WebCore::IntPoint>::KeyValuePairTraits, WTF::DefaultHash<std::pair<WebCore::IntSize, double>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = std::pair<WebCore::IntSize, double>] /* Error: Ran out of types for this method. */;
-- (id)nt64_t>, unsigned long long>>, Extractor = WTF:(id)arg1:KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::StorageNamespaceIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

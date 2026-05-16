@@ -22,7 +22,7 @@
     } _requestedClipProperties;
 }
 
-+ (id)urce: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
 

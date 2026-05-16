@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _completionHandler;
 }
 
-- (CDUnknownBlockType);
-- (void)1¢!0@ù
-× ;
-- (void)r;
+- (CDUnknownBlockType)curePasteAuthentication;
+- (void)¡8Z;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

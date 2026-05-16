@@ -14,15 +14,15 @@
 }
 
 - (void);
-- (_Bool)pletionHandler:(id)arg1;
-- (_Bool)n/Operations/RCOperationThrottler.m;
+- (_Bool);
+- (_Bool);
 - (void);
-- (void)z;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool) ;
+- (_Bool)atorHighlightedView;
 
 // Remaining properties
 @property(nonatomic) _Bool _suppressLocaleIdentifier; // @synthesize _suppressLocaleIdentifier;

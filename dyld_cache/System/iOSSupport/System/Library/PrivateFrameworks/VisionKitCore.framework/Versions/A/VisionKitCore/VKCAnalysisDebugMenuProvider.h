@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void)tion:(id)arg1;
-- (id);
+- (void);
+- (void);
+- (id)4{CGSize=dd}32Q48;
+- (id)isionKit Remove Background Movie Request;
 
 // Remaining properties
 @property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;

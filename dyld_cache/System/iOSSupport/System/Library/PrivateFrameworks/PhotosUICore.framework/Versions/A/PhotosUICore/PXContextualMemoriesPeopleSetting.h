@@ -15,10 +15,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)Didn't register %{public}s variant because content type is nil.;
+- (id)llection Action Performers/People/PXPhotoKitRenamePersonActionPerformer.m;
+- (void)W;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

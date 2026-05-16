@@ -7,14 +7,10 @@
 @class UITraitCollection, _UISplitViewControllerStyle;
 
 @protocol _UISplitViewControllerAdaptiveLayoutDataSource
-- (struct UIEdgeInsets)lock: /* Error: Ran out of types for this method. */;
-- (_UISplitViewControllerStyle *)ËÛ	º;
-- (_Bool)
-× ;
-- (long long)Ç°1¢!0@ù
-× ;
-- (long long) ß÷è?x`;
-- (UITraitCollection *);
+- (struct CGSize);
+- (_Bool)move layers %@ from environment:<%p:%@>. /* Error: Ran out of types for this method. */;
+- (long long)D0þÿ;
+- (_UISplitViewControllerStyle *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets containerInsets;

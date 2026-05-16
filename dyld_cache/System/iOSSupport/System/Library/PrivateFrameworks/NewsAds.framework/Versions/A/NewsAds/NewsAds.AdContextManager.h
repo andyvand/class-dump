@@ -10,7 +10,13 @@
 {
     MISSING_TYPE *contextBuilder;
     MISSING_TYPE *subscriptionController;
+    MISSING_TYPE *appConfigurationManager;
 }
+
+- (void);
+- (void);
+- (id);
+- (void);
 
 @end
 

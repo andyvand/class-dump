@@ -4,31 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMessageEntryRichTextView, UIView;
-@protocol CKGradientReferenceView;
-
 @protocol CKMessageEntryRichTextViewDelegate
-- (void)Array",R,N,V_tokens;
-- (void)sSmallSize;
-- (void)nfo;
-- (_Bool)edSizes;
-- (_Bool)ay",C,N,V_shadowColors;
-- (_Bool)rRecordID:(CKMessageEntryRichTextView *)arg1 qualityOfService:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ardTypes;
-- (void)y",C,N,V_columns;
-- (void)",C,N,V_attachmentsToLoad;
-- (void)s;
-- (void);
-- (_Bool)atarContainerViews;
-- (_Bool)ionFolder;
-- (void)traLinesIfNeeded;
-- (void)eiveData:(CKMessageEntryRichTextView *)arg1;
-- (void)chmentIfExists:(CKMessageEntryRichTextView *)arg1;
-- (void)artFolderItemIdentifier",R,N,V_virtualDestinationFolder;
-- (void)R,N,V_noteContext;
-- (void)nailService",R,N;
-- (void)ountOfUpdatableDrawingsInNote:(CKMessageEntryRichTextView *)arg1;
-- (_Bool)vertAllSketchesWithProgress:(CKMessageEntryRichTextView *)arg1;
-- (UIView<CKGradientReferenceView> *);
 @end
 

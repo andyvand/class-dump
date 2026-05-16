@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ù
-× ;
-- (id)ift;
+- (id);
+- (id);
+- (void)ardingView.LanguageSetUp.PersonalIdentity.DetailsLabel;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *connectedEcosystemItems; // @synthesize connectedEcosystemItems=_connectedEcosystemItems;

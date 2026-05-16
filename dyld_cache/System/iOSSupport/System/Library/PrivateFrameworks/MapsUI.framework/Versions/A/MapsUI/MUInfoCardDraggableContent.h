@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)d«ÿÿ;
+- (_Bool);
+- (void)ailability: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int analyticsTarget; // @synthesize analyticsTarget=_analyticsTarget;

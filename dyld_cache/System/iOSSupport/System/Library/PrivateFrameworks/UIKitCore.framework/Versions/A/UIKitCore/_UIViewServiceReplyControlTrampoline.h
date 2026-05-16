@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)y:(id)arg1;
 - (void);
+- (void)AppearsKey;
 
 @end
 

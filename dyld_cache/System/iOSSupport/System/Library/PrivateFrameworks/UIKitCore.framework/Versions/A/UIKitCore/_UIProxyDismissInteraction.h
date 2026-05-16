@@ -15,13 +15,12 @@
     MISSING_TYPE *originalTrackingViewPosition;
 }
 
-- (void)eToSMS = NO;
-- (void)Delete;
 - (void);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)vePopGestureRecognizer;
+- (void);
+- (void);
+- (id);
+- (void)¡^Ö,Tl;
 
 @end
 

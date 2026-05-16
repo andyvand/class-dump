@@ -40,7 +40,7 @@
     struct CGSize _dimensionsOfReservedVideoMemory;
 }
 
-+ (void)`;
++ (void);
 - (id);
 - (void);
 - (void);
@@ -51,13 +51,13 @@
 - (void);
 - (void);
 - (void);
-- (void)֨;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,21 +78,21 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
+- (_Bool);
 - (long long);
-- (id)`;
+- (id);
 - (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id)kname:senderContext:forRecordID:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag:withKey:processImageFields:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
-- (void)setHideMyEmailFrom:(id)arg1;
 - (void);
+- (void);
+- (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *_activeGestures; // @synthesize _activeGestures=__activeGestures;

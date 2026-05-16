@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     long long _changeCount;
 }
 
-- (void)&;
 - (void);
-- (id)doþÿÿÿÿÜ;
-- (long long)¯ÈÕf;
-- (long long)Ñ;
+- (void);
+- (id);
+- (long long)6j;
+- (long long)#fÿ´Ýd¤n;
 
 // Remaining properties
 @property(nonatomic) long long changeCount; // @synthesize changeCount=_changeCount;

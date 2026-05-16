@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak ASCLockupView *lockupView; // @synthesize lockupView=_lockupView;

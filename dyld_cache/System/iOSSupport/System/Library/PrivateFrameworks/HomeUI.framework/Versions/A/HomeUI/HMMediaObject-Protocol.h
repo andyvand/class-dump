@@ -8,9 +8,6 @@
 @protocol HMMediaObjectDelegate;
 
 @protocol HMMediaObject
-- (id <HMMediaObjectDelegate>)1b0@ù
-× ;
-- (void)w";
 
 // Remaining properties
 @property __weak id <HMMediaObjectDelegate> delegate;

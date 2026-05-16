@@ -53,7 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void)P;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,8 +108,8 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void),N,V_swatches;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double currentTValueForSnappedDrawing; // @synthesize currentTValueForSnappedDrawing=_currentTValueForSnappedDrawing;

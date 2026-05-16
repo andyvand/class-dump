@@ -5,6 +5,6 @@
 //
 
 @protocol FCCacheFlushing
-- (void);
+- (void);
 @end
 

@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     struct CGColor *_primaryColor;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (id)4;
 - (void);
-- (id);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)}{CGSize=dd}}24@0:(id)arg1 8@"UITextPosition"16;
+- (_Bool)zeGuideForOrientation:(id)arg1 showsAssistantBar:animated: /* Error: Ran out of types for this method. */;
+- (id)ge;
+- (id)ag;
 
 @end
 

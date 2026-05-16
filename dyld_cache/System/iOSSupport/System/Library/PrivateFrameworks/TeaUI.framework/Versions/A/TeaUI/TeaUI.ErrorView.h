@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)unchUpsellLastPresenterBundleID;
-- (void);
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void)ÿüÿ°ÿüÿÈÿüÿl;
 - (id);
 
 // Remaining properties

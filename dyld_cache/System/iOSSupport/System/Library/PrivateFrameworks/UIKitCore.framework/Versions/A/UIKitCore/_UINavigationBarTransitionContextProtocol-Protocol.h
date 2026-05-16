@@ -7,8 +7,10 @@
 @class _UINavigationBarLargeTitleViewLayout;
 
 @protocol _UINavigationBarTransitionContextProtocol
-- (void)lStrengthBars"i"secondaryGsmSignalStrengthBars"i"serviceString"[100c]"secondaryServiceString"[100c]"serviceCrossfadeString"[100c]"secondaryServiceCrossfadeString"[100c]"serviceImages"[2[100c]]"operatorDirectory"[1024c]"serviceContentType"I"secondaryServiceContentType"I"cellLowDataModeActive"b1"secondaryCellLowDataModeActive"b1"wifiSignalStrengthRaw"i"wifiSignalStrengthBars"i"wifiLowDataModeActive"b1"dataNetworkType"I"secondaryDataNetworkType"I"batteryCapacity"i"batteryState"I"batteryDetailString"[150c]"bluetoothBatteryCapacity"i"thermalColor"i"thermalSunlightMode"b1"slowActivity"b1"syncActivity"b1"activityDisplayId"[256c]"bluetoothConnected"b1"displayRawGSMSignal"b1"displayRawWifiSignal"b1"locationIconType"b2"voiceControlIconType"b2"quietModeInactive"b1"tetheringConnectionCount"I"batterySaverModeActive"b1"deviceIsRTL"b1"lock"b1"breadcrumbTitle"[256c]"breadcrumbSecondaryTitle"[256c]"personName"[100c]"electronicTollCollectionAvailable"b1"radarAvailable"b1"announceNotificationsAvailable"b1"wifiLinkWarning"b1"wifiSearching"b1"backgroundActivityDisplayStartDate"d"shouldShowEmergencyOnlyStatus"b1"emergencyOnly"b1"secondaryCellularConfigured"b1"primaryServiceBadgeString"[100c]"secondaryServiceBadgeString"[100c]"quietModeImage"[256c]"quietModeName"[256c]};
-- (void)¸º»¾`À¸ÀÜÃlÄ;
+- (void)0@ù
+× ;
+- (_UINavigationBarLargeTitleViewLayout *)ouchPosition:velocity:didChangeAxis:axisLock: /* Error: Ran out of types for this method. */;
+- (_UINavigationBarLargeTitleViewLayout *)dBecomeCurrentIfNeeded]_block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) _UINavigationBarLargeTitleViewLayout *fromLargeTitleViewLayout;

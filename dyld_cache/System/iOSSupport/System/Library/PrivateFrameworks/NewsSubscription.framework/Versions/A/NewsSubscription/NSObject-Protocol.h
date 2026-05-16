@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (_Bool)B;
-- (NSString *);
+- (struct _NSZone *)wsSubscription.FlexiblePaywallCollectionViewLayout;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

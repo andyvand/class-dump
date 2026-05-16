@@ -5,7 +5,5 @@
 //
 
 @protocol SWScriptsManager
-- (void);
-- (void);
 @end
 

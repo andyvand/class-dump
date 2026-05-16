@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)accessory: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *categoryType; // @synthesize categoryType=_categoryType;

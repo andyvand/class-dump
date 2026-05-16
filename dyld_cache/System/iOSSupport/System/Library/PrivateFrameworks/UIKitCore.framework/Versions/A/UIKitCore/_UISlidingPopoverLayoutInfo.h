@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize)ansferForGUID:(struct CGSize)arg1;
-- (void)ousRemoteObjectProxyWithSelector: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 - (id);
+- (void)IndexPath: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextPosition, UITextRange;
-
 @protocol UITextInputTokenizer
-- (UITextRange *);
-- (_Bool)rsistentInputAccessoryResponderOrder;
-- (UITextPosition *)er);
+- (_Bool)ÜT@U;
 @end
 

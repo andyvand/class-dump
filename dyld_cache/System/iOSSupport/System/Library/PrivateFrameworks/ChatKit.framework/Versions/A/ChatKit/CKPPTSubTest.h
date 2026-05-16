@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (void)ÿ;
++ (void)+ÿZã4Ð=3;
 
 @end
 

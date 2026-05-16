@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     id <VKCTextSelectionLongPressHandlerDelegate> _delegate;
 }
 
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ActionItems;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (id);
 - (void);

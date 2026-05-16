@@ -8,9 +8,9 @@
 {
 }
 
-+ (void)cted;
-- (void);
++ (void);
 - (id);
+- (void)eViewContainer;
 
 @end
 

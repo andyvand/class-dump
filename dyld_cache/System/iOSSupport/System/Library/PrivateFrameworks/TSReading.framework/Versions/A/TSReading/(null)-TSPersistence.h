@@ -7,6 +7,6 @@
 @interface (null) (TSPersistence)
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 @end
 

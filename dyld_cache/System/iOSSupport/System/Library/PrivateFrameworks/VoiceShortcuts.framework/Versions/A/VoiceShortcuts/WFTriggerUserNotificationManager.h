@@ -28,10 +28,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)chSize:(id)arg1 fetcher:(id)arg2 completionBlock:(CDUnknownBlockType)arg3 ]_block_invoke_3;
 
 // Remaining properties
 @property(readonly, nonatomic) WFTriggerNotificationDebouncer *debouncer; // @synthesize debouncer=_debouncer;

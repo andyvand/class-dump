@@ -5,9 +5,5 @@
 //
 
 @protocol CKMacEmojiPickerDelegate
-- (void)figuration;
-- (void);
-- (void)nDialog;
-- (void)earnMore;
 @end
 

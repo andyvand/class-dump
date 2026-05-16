@@ -21,28 +21,28 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _traitCollectionSourceProvider;
 }
 
-+ (id);
++ (id)ginalCenter: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (Class);
-- (CDUnknownBlockType);
-- (void)çfº;
-- (void)TextDropDelegate>"16@0:(CDUnknownBlockType)arg1 8;
-- (void)itingToolsBehavior:(id)arg1;
-- (Class)ionBecameActive;
-- (CDUnknownBlockType)rtsOverflow;
-- (void)alueForRow:(CDUnknownBlockType)arg1 column: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ing",&,N,V_replacementText;
-- (void)CanvasView;
-- (void)ssertion;
-- (id)d;
-- (void)nts;
-- (CDUnknownBlockType)}ÿPÖóy`;
-- (double)ÿQÍob;
-- (void)t ;
-- (_Bool)5ÿµÖªdc;
-- (_Bool)ÀÉ;
-- (void)Pd;
+- (void);
+- (void)32;
+- (Class);
+- (void)uageSwitchSetting;
+- (CDUnknownBlockType)D_;
+- (double)~;
+- (CDUnknownBlockType)0ÿÿHÿÿ`ÿÿxÿÿÿÿ¨ÿÿÀÿÿØÿÿðÿÿÿÿ ÿÿÿÿ°ÿÿÈÿÿ;
+- (_Bool)inOnKey = %d;
+- (void)ecurePreviouslyUsedEmails;
+- (void)7;
+- (CDUnknownBlockType)tþå430tþõ43¤tþõ43<tþõ43ètþ 43\tþµ43Àtþ½43°tþ43$tþå43xtþu43ttþu43dtþ½43´tþõ43|tþÅ43¬tþ;
+- (void)h^;
+- (void);
+- (_Bool)/d;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType decorationRegistrationHandler; // @synthesize decorationRegistrationHandler=_decorationRegistrationHandler;

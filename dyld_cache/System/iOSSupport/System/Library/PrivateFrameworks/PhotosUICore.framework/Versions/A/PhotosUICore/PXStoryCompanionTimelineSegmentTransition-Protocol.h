@@ -5,7 +5,7 @@
 //
 
 @protocol PXStoryCompanionTimelineSegmentTransition
-- (CDStruct_1b6d18a9)yCardSectionBodyLayout setMaxSkimmingIndex:] /* Error: Ran out of types for this method. */;
+- (long long)àÿÿÿÎìÿ27ÿP);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 duration;

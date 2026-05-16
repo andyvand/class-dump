@@ -14,11 +14,11 @@
 
 + (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)on.y;
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

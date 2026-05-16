@@ -44,7 +44,7 @@
 - (void);
 - (void);
 - (void);
-- (void)@m;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,22 +61,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)P;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)VVolume:(id)arg1;
-- (void)des:(id)arg1;
-- (id);
-- (id);
-- (id)Error:%s /* Error: Ran out of types for this method. */;
-- (void)ReportCreateSamplesRaw() returned 0 sized dictionary;
 - (void);
 - (void);
 - (void);
@@ -85,10 +78,17 @@
 - (id);
 - (void);
 - (void);
-- (id)ng;
-- (void)F;
+- (void);
+- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)ist item, this is unexpected. %{public}@;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *adPreviewID;

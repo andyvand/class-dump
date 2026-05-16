@@ -12,7 +12,8 @@
 {
 }
 
-- (id)transitionWillBegin: /* Error: Ran out of types for this method. */;
+- (id)1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *currentImage;

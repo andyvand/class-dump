@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double cardExpansionProgress; // @synthesize cardExpansionProgress=_cardExpansionProgress;

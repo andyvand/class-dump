@@ -15,8 +15,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)ift;
-- (double)®¡Wôÿ;
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

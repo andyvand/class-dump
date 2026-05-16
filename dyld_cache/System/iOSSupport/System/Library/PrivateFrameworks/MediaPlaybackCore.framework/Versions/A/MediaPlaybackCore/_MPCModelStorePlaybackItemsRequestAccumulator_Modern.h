@@ -28,32 +28,34 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)ForAccount:rawPassword:store:options: /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned int);
 - (id);
 - (id);
 - (id);
 - (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
 - (_Bool);
-- (long long)S.framework/Versions/A/IDS;
+- (long long);
 - (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
-- (id)dPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
-- (id):inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
 - (CDStruct_24e52ce4);
 - (long long);
 - (_Bool);
 - (id);
-- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
-- (_Bool)NST;
+- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
+- (_Bool);
 - (long long);
 - (id);
-- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)1Â0@ù
+× ;
+- (id)T°!@Aù±`°1Â0@ù
+× ;
+- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult)<MPLazySectionedCollectionDataSource>"16;
+- (void){public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *accumulationError; // @synthesize accumulationError=_accumulationError;

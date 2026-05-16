@@ -22,12 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (void)j);
+- (void);
 - (id);
-- (id)hValuesIn:(unsigned int)arg1 withFieldNumber:typeRawValue:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (long long);
-- (void);
+- (void)NG_MISSING__;
 
 // Remaining properties
 @property(nonatomic) long long upNextItemCount; // @synthesize upNextItemCount=_upNextItemCount;

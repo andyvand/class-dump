@@ -5,7 +5,6 @@
 //
 
 @protocol _UIFocusItemUIKitAdditions
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isFocusDirectionFlippedHorizontally) _Bool focusDirectionFlippedHorizontally;

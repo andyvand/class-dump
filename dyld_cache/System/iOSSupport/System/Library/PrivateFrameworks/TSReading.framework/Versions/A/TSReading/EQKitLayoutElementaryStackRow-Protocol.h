@@ -5,8 +5,6 @@
 //
 
 @protocol EQKitLayoutElementaryStackRow
-- (unsigned long long);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignmentShift;

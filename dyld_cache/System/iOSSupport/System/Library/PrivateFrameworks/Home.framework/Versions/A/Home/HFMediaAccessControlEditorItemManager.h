@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)-X--;
 
 // Remaining properties
 @property(readonly, nonatomic) HFMediaAccessControlEditorItemModule *accessControlEditorItemModule; // @synthesize accessControlEditorItemModule=_accessControlEditorItemModule;

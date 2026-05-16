@@ -16,12 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (double);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *horizontalConstraints; // @synthesize horizontalConstraints=_horizontalConstraints;

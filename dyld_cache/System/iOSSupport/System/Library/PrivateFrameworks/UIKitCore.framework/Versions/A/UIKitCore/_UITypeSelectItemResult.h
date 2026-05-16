@@ -13,14 +13,14 @@
     NSIndexSet *_unmatchingRanges;
 }
 
-- (id)iagnosticCreatePropertiesReport;
-- (void)st;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)roller";
-- (id)TB,N,V_skipInitialFire;
+- (id);
+- (void)ionC;
 
 // Remaining properties
 @property(retain, nonatomic) _UITypeSelectItem *item; // @synthesize item=_item;

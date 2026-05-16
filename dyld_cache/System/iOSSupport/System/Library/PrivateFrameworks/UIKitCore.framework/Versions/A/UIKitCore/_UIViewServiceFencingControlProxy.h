@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)letion, set version (%ld) current version (%d);
-- (void)yPushHandler;
-- (void)elayEnrollmentController;
-- (void)sageGUID:(id)arg1 serializedHandles:chatStyle:callerID: /* Error: Ran out of types for this method. */;
-- (void)ceName:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)threadIdentifier:limit:onlyMessages: /* Error: Ran out of types for this method. */;
-- (id)!;
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)°G¤HHLM;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

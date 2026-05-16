@@ -52,15 +52,15 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)Q16;
+- (id)list;
 
 // Remaining properties
 @property(retain, nonatomic) MMElement *blockElement; // @synthesize blockElement=_blockElement;

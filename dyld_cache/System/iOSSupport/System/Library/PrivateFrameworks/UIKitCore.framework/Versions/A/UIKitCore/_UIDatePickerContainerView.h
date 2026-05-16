@@ -20,20 +20,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void)hat command %@;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)ñÌ°1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (void)sCustomizedTintColor"b1"hasCustomizedCornerRadius"b1"hasCustomizedMaximumSize"b1"hasCustomizedAccessibilityIgnoresInvertColors"b1};
-- (void)FeedbackUIPresentedCalledTime;
-- (void)rowserFindOnPageHighlighter;
-- (id)Search suggestions will not be cleared. %@;
-- (_Bool);
-- (id)0CSgIegnnnr_;
+- (void):(struct CGRect)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)ckdropInUse;
+- (void),W,N,V_targetView;
+- (void)onContext;
+- (void)H
+°àÈ;
+- (void);
+- (void);
+- (id)¶b;
+- (_Bool)Ý;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

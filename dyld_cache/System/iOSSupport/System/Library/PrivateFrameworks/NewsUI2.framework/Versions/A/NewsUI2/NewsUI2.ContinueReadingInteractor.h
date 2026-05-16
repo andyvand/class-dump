@@ -13,6 +13,7 @@
     MISSING_TYPE *newsActivityManager;
     MISSING_TYPE *exposureData;
     MISSING_TYPE *navigator;
+    MISSING_TYPE *articleDataFactory;
 }
 
 @end

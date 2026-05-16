@@ -14,15 +14,15 @@
 }
 
 - (void);
-- (void)ages;
-- (void);
-- (void);
-- (void);
-- (void)hasNetworkQualityReports;
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)®;
 
 @end
 

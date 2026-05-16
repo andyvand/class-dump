@@ -13,50 +13,51 @@ __attribute__((visibility("hidden")))
     double _keyScale;
 }
 
-+ (id)OL}d DD results:(id)arg1 %{BOOL}d DD Scanned:(id)arg2 %{BOOL}d Downgraded:(id)arg3 %{BOOL}d emote:(double)arg4 %{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-+ (id)scheduleType:(id)arg1 %lu, scheduleState:(id)arg2 %lu, audio:(id)arg3 %{BOOL}d played:(double)arg4 %{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-+ (id)OOL}d finished:(id)arg1 %{BOOL}d sent:(id)arg2 %{BOOL}d read:(id)arg3 %{BOOL}d delivered:(double)arg4 %{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-+ (id)= %@, unformatted=%@; country=%@; roomName='%@'; flags=0x%llx; subject='%@' text='%@' messageID:(id)arg1 %lld GUID:(id)arg2 '%@' sortID:(id)arg3 %lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-- (void);
-- (double)<;
-- (struct CGRect)oxyAutoConfigEnable;
-- (struct CGRect)ication;
-- (id);
-- (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (void);
 - (id);
-- (void)n;
-- (id)ING_MISSING__;
+- (id);
+- (struct CGRect);
 - (id);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (struct CGRect);
 - (double);
-- (Class);
-- (void);
 - (id);
-- (_Bool);
-- (void)P;
-- (id)!0@ù
+- (Class)0@ù
 × ;
-- (id)Át!ÐAùñÈ1¢!0@ù
+- (id)!Ø@ùqZ°1Â0@ù
 × ;
-- (id)n:(id)arg1;
-- (id)yleResolver;
-- (id)es;
-- (void)numberOfComponents;
-- (Class)eTabBarLeadingConstraint;
-- (id)ayoutLocked;
-- (void)wController",W,N,V_expandedItemsController;
-- (id)orInterfaceOrientation:(id)arg1 inputMode: /* Error: Ran out of types for this method. */;
-- (id),N,VdefaultRawInputModes;
-- (id)rCustomPath",&,N,V_customPath;
-- (id)V_cachedDispatchBehavior;
-- (void)Ä081Ä1ì2;
-- (void)ing disconnection of screen:(id)arg1 %{public}@; assertionsCount:(int)arg2 %lu; assertion:(int)arg3 %{public}@;
-- (_Bool);
-- (id)¥;
-- (_Bool)¤ÄÜþè\;
-- (_Bool)Õ;
-- (void)d;
+- (id);
+- (id)0@ù
+× ;
+- (void)× ;
+- (id)eViewForColumn: /* Error: Ran out of types for this method. */;
+- (void)ent:(id)arg1 transitionContext:(unsigned long long)arg2;
+- (id)Section: /* Error: Ran out of types for this method. */;
+- (Class)animated:(id)arg1 shouldAnimateLabels:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)ollerView;
+- (void)Font:(id)arg1 ,V_visualStyleOverrideTitleLabelFont;
+- (id);
+- (double)oji search - override insertion %lu, deletion %lu, net %ld;
+- (id)Q;
+- (id)%g;
+- (id);
+- (id)¼©h;
+- (_Bool)ÛÌm;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

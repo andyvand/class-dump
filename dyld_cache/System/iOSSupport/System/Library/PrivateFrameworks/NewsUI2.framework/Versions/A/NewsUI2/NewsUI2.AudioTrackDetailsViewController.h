@@ -23,13 +23,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)ôÂÿÿÿÿÿ ;
+- (void);
+- (void)P;
 
 @end
 

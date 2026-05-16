@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     PUBrowsingVideoPlayer *_player;
 }
 
-- (void);
 - (id);
 - (void);
+- (void)onalQuestionsInRadarDescription;
 
 // Remaining properties
 @property(nonatomic) __weak PUBrowsingVideoPlayer *player; // @synthesize player=_player;

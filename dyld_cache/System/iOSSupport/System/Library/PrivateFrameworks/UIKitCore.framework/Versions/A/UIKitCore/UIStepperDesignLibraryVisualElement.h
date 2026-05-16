@@ -36,52 +36,51 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *repeatCount;
 }
 
-+ (void)to user user notifications to notify for urgent messages;
-+ (struct CGSize)umber of accounts:%lu /* Error: Ran out of types for this method. */;
-+ (struct CGSize)rship for URL:%@ /* Error: Ran out of types for this method. */;
-+ (struct UIEdgeInsets)sharing banner;
++ (void);
++ (struct CGSize);
++ (struct CGSize);
++ (struct UIEdgeInsets);
 + (void);
 - (void);
-- (id),;
-- (struct CGSize);
-- (void)dMessageStore.;
-- (void)to notify recipient, should ignore do not disturb;
-- (void)end message;
-- (void)se from:(id)arg1 %@ to:(unsigned long long)arg2 %@;
-- (struct CGSize)max of %ld;
 - (id);
-- (id)AccountController;
-- (id)*;
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (double);
 - (void);
 - (void);
-- (void)unpersonalizedContentDescriptors:(id)arg1;
-- (_Bool)yedLocal;
-- (double);
-- (_Bool);
 - (id);
-- (void)Áð1¢!0@ù
-× ;
-- (void)!(BùÃ1¢!0@ù
-× ;
 - (void);
-- (_Bool);
-- (id)e;
-- (void)isplayedViewControllers;
-- (void)ropertiesMetadata;
-- (void)tePhonePresentationController;
-- (id)shrinkingIntermediateShapeRatio;
-- (id)sLensViewHidden;
-- (void)êm;
-- (void)Ôîxm;
-- (double)ðævÿ;
-- (double)ÿ¾;
-- (_Bool)-§p;
+- (id);
+- (void);
+- (_Bool)Ñ`ð1Â0@ù
+× ;
+- (id);
+- (_Bool)yEnded"b1"automaticallyAdjustsWritingDirection"b1};
+- (void)ckerOverlayPresentationDelegate;
+- (id)lightViewRecord;
+- (void);
+- (double)dô;
+- (double)ÿ.÷îÿ&ùîÿ;
+- (void)information is not known when you present the alert controller, you may provide it in the UIPopoverPresentationControllerDelegate method -prepareForPopoverPresentation.;
+- (double);
+- (void)Å ;
+- (_Bool)¸$Âÿ(Û´^;
+- (void)±È;
+- (void)µ`M;
+- (void);vú;
+- (_Bool)ìq;
+- (double)(ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool autorepeat; // @synthesize autorepeat;

@@ -7,8 +7,11 @@
 @class NSData, NSDate, NSString, NSURL;
 
 @protocol PHShare
-- (NSURL *)XPlacesMapLayoutResult>",R,N,V_sourceLayoutResult;
-- (unsigned short)!ÿH3<,!ÿ;
+- (unsigned short)nPortraitWidthScale: /* Error: Ran out of types for this method. */;
+- (short)hÿB;
+- (NSString *)ItemListManagerOptions;
+- (unsigned short)cAsset>"8;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long assetCount;

@@ -5,7 +5,5 @@
 //
 
 @protocol IMAnimationTimerObserver
-- (void)o;
-- (_Bool);
 @end
 

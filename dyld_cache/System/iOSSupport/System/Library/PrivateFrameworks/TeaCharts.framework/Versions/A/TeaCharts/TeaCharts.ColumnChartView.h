@@ -11,11 +11,11 @@
     MISSING_TYPE *imageView;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

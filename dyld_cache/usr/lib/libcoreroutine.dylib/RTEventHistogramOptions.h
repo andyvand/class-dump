@@ -16,12 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (double);
-- (int)hjh8uS
-;
+- (double);
+- (int);
 - (_Bool);
-- (id),R,N,GisConfigurationGradeEnterprise;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowPredictionsToHome; // @synthesize allowPredictionsToHome=_allowPredictionsToHome;

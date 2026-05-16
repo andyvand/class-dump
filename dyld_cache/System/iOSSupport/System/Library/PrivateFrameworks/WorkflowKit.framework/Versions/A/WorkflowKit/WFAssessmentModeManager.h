@@ -21,15 +21,15 @@
 - (_Bool);
 - (id);
 - (struct os_unfair_lock_s);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id)¡O;
-- (void)tate";
-- (void)ExecuteOnPlatforms;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)inition (Action Name);
 
 // Remaining properties
 @property(readonly, nonatomic) AEAssessmentModeGestalt *assessmentGestalt; // @synthesize assessmentGestalt=_assessmentGestalt;

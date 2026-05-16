@@ -20,9 +20,9 @@
 }
 
 + (id);
-+ (id)eAccountActive:(id)arg1;
++ (id);
 - (id);
-- (id)ibobjc.A.dylib;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,17 +30,17 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned short);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
-- (id);
-- (id);
 - (long long);
-- (_Bool)_isActiveAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)ÜÝúÿ4ÞúÿÔÞúÿÜßúÿàúÿLàúÿLâúÿdâúÿ|âúÿãúÿ;
+- (void)mTimeBase=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short behaviorFlags; // @synthesize behaviorFlags=_behaviorFlags;

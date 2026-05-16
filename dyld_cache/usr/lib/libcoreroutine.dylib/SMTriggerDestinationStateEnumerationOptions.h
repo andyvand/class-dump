@@ -16,18 +16,18 @@
     NSDateInterval *_dateInterval;
 }
 
-+ (_Bool)%{sensitive}@, has a placeInference, %{sensitive}@ but not a map item this should not happen;
++ (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id)have %u pieces, nothing created;
-- (void);
-- (id);
-- (id);
-- (_Bool)changeHandlerCryptoKitP521;
-- (unsigned long long)8@16@24@?32;
-- (id)n class of type:%@ /* Error: Ran out of types for this method. */;
+- (void)il.;
+- (id)led minimum distance check, distance, %f, maximumDistance, %f, ploi, %{sensitive}@;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;

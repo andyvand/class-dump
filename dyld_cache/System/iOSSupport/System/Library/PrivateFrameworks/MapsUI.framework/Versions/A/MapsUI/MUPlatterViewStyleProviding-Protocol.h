@@ -7,7 +7,7 @@
 @class UIColor;
 
 @protocol MUPlatterViewStyleProviding
-- (long long)ToActionSectionControllerForAvailability: /* Error: Ran out of types for this method. */;
+- (long long)eBundleClass;
 
 // Remaining properties
 @property(readonly, nonatomic) long long backgroundStyle;

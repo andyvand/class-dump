@@ -18,14 +18,14 @@
 
 - (id);
 - (id);
-- (void)ctoryType;
 - (void);
-- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
-- (id)bs/Sources/AlderShared/tables/TSTCell.h;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)ility;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *blocks; // @synthesize blocks=_blocks;

@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
-- (void)asing recordings:(id)arg1 %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

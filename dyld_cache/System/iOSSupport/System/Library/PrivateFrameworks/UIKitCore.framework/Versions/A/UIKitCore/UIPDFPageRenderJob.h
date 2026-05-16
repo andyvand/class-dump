@@ -23,27 +23,26 @@ __attribute__((visibility("hidden")))
     struct os_unfair_lock_s _lock;
 }
 
-- (void)f2Data:(id)arg1;
-- (void)RecentMessagesInChat:(_Bool)arg1 withBlock: /* Error: Ran out of types for this method. */;
-- (void)ing;
-- (void)startFMLSessionMonitoring;
-- (void)etFetchForTransfersIfNeededWithActivity: /* Error: Ran out of types for this method. */;
-- (void)stForContext:asset:transfer:didCompleteWithFileURL:error: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)};
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)ð!ÀFù1ÃÐ1¢!0@ù
-× ;
-- (long long)
-× ;
+- (_Bool);
+- (_Bool);
+- (void);
 - (unsigned long long);
-- (struct CGSize)egateDidChange: /* Error: Ran out of types for this method. */;
-- (void)@;
-- (id);
-- (void)`;
+- (void);
+- (id)1Â0@ù
+× ;
+- (struct CGSize);
+- (void);
+- (id)Ìøh;
+- (long long)j;
+- (void)j;
 
 // Remaining properties
 @property(readonly, retain) UIImage *image; // @dynamic image;

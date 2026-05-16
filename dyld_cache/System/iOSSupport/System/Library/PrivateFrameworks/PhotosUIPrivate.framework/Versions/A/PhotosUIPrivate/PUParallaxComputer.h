@@ -13,11 +13,11 @@
 
 - (struct CGPoint);
 - (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (double);
 - (long long);
-- (void);
-- (void)tForAsset:(unsigned long long)arg1 isDestructive: /* Error: Ran out of types for this method. */;
-- (unsigned long long)¼;
 
 // Remaining properties
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;

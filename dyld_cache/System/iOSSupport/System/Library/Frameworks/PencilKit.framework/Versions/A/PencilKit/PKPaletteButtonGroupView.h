@@ -19,32 +19,32 @@
     struct NSDirectionalEdgeInsets _additionalContentMargins;
 }
 
-- (_Bool)6@0:8 /* Error: Ran out of types for this method. */;
-- (void)etionHandler:(_Bool)arg1;
-- (void)ublic}@ failed to find existing task. Tasks:(id)arg1 %{public}@;
-- (void)unknown error;
-- (void)Network operation %{public}@ became invalid with unknown error;
-- (void){public}@ became invalid with error:(id)arg1 %{public}@;
-- (void)tOnly;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)ithObject:(double)arg1;
-- (id);
-- (double);
 - (void);
 - (id);
 - (void);
 - (long long);
+- (id);
+- (double);
+- (void)r;
 
 // Remaining properties
 @property(nonatomic) struct NSDirectionalEdgeInsets additionalContentMargins; // @synthesize additionalContentMargins=_additionalContentMargins;

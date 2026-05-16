@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISwipeActionButton;
-@protocol UIContextMenuInteractionAnimating;
-
 @protocol _UISwipeActionButtonDelegate
-
-@optional
-- (void)tancesRespondToSelector:(UISwipeActionButton *)arg1;
-- (void):(UISwipeActionButton *)arg1 deallocator:(id <UIContextMenuInteractionAnimating>)arg2;
 @end
 

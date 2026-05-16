@@ -22,22 +22,22 @@
 - (void);
 - (void);
 - (double);
-- (void)@f;
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id)d to look up RCS configuration for subscription context %@:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ì4;
+- (void)cÁñ4ySo12NSMutableSetCüFz9G;
+- (_Bool)[;
 
 // Remaining properties
 @property(readonly, getter=isBusy) _Bool busy;

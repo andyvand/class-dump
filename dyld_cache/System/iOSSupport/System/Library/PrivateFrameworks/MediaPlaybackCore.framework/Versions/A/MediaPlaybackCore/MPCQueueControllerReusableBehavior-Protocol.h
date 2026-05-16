@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemotePlaybackQueue;
-
 @protocol MPCQueueControllerReusableBehavior
-- (void):(MPRemotePlaybackQueue *)arg1 objects:(void (^)(_Bool, NSString *, NSString *, NSError *))arg2 count: /* Error: Ran out of types for this method. */;
 @end
 

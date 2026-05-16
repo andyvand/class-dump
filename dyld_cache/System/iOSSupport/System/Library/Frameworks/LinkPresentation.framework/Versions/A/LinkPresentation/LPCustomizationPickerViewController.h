@@ -27,17 +27,18 @@
 - (id);
 - (id);
 - (id);
-- (void)$,;
-- (id);
-- (id)Identifier;
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)úÿOú<ø;
+- (id);
+- (void);
+- (void)á÷ð!ÐFùqð1Â0@ù
+× ;
+- (id)ix:(id)arg1;
+- (void)¤ãòÿÍÚüP/;
 
 // Remaining properties
 @property(nonatomic) __weak id <LPCustomizationPickerViewControllerDelegate> customizationDelegate; // @synthesize customizationDelegate;

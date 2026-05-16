@@ -24,24 +24,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void)VideoCacheMarker;
-- (void)	
-;
-- (id)¸h;
-- (void)±Ð±;
 - (void);
-- (SEL)üÿÿÁ;
+- (void);
+- (id);
+- (id);
+- (void)@"NSString"24;
+- (SEL)CapableObjects:notificationsEnabled:mainActionBlock:notNowActionBlock: /* Error: Ran out of types for this method. */;
+- (void)derForSectionWithIdentifier:(id)arg1;
+- (void)on:(SEL)arg1 didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)unt;
+- (void)ateAll();
+- (id);
 
 // Remaining properties
 @property(nonatomic) SEL action;

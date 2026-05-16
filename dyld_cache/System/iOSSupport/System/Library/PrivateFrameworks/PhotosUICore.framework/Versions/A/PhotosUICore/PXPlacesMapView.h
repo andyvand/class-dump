@@ -29,9 +29,9 @@
 - (double);
 - (double);
 - (double);
-- (id);
-- (id);
 - (CDStruct_02837cd9);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -46,12 +46,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)H;
-- (double)zùÿ;
-- (void)_$observationRegistrar;
-- (void)HORTCUT;
+- (id)
+× ;
+- (double)showDummyTimeRangeHighlight;
 - (void);
+- (void)braryLayout safeAreaInsetsDidChange];
+- (void)=ÌÆ¬ÿ=ÌÆ¨ÿ=ÌÆ¤ÿEÌÆ<}ÿ;
+- (id)~6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

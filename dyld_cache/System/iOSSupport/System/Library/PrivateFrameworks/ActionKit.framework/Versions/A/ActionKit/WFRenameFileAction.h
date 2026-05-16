@@ -17,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)gDataSource;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *parentDirectory; // @synthesize parentDirectory=_parentDirectory;

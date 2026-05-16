@@ -22,17 +22,16 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (void);
 - (float);
+- (union _GLKVector2);
+- (void);
+- (union _GLKVector2);
 - (id);
-- (union _GLKVector2);
-- (void);
-- (union _GLKVector2);
-- (void);
 - (float);
-- (id)
-× ;
 - (void);
+- (void);
+- (void)tion: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float angle; // @synthesize angle=_angle;

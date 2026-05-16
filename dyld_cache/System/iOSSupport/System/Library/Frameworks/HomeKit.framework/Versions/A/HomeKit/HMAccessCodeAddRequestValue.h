@@ -14,14 +14,16 @@
     NSString *_guestName;
 }
 
-+ (id)D¾d¿ÔÀ;
-+ (_Bool)65291;
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -29,10 +31,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)ÁtÂ;
-- (id)mpletion handler due to no delegate caller given by context:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (void)yDate:%@ /* Error: Ran out of types for this method. */;
+- (id)SentinelZoneExistence;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;

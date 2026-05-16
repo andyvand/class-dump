@@ -11,11 +11,10 @@
 }
 
 + (void);
-+ (void)mTraitCollection:(long long)arg1;
++ (void)rView;
 - (void);
 - (void);
-- (void)¢!0@ù
-× ;
+- (void)_FBSDisplayConfigurationConnected:(long long)arg1 andNotify:forceMain: /* Error: Ran out of types for this method. */;
 
 @end
 

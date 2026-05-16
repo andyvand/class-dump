@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXComponentTypeDescribing
-- (int)es;
 
 // Remaining properties
 @property(readonly, nonatomic) int role;

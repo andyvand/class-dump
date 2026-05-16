@@ -25,8 +25,8 @@
 - (id);
 - (void);
 - (void);
-- (CDStruct_cac3ced6);
 - (void);
+- (CDStruct_cac3ced6)xëhìÐíðî;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_99303aee orderInCompositionInfo; // @synthesize orderInCompositionInfo=_orderInCompositionInfo;

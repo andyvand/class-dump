@@ -11,10 +11,10 @@
     MISSING_TYPE *entity;
 }
 
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 
 @end
 

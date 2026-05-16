@@ -13,15 +13,15 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)èÛé;
-- (id);
-- (void);
 - (_Bool);
-- (id)NSString"24@0:(_Bool)arg1 8@"PXOneUpPresentation"16;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)ineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}16;
+- (id)"16;
+- (void)enuItemAddToFavorites;
 
 @end
 

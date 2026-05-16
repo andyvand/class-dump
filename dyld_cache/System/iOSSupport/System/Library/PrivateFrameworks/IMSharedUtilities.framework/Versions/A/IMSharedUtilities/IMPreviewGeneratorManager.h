@@ -12,7 +12,7 @@
     NSDictionary *_dynamicTypes;
 }
 
-+ (id)zª;
++ (id)t:%@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (Class);
@@ -26,8 +26,8 @@
 - (id);
 - (Class);
 - (id);
-- (void);
 - (id);
+- (void)fsFlags;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *UTITypes; // @synthesize UTITypes=_UTITypes;

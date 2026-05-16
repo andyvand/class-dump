@@ -5,13 +5,11 @@
 //
 
 @class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCCoreConfigurationManager><FCNewsAppConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (NSString *)ontentMode;
-- (id <FCCoreConfigurationManager><FCNewsAppConfigurationManager>)@"FCAssetManager",R,N;
-- (id <FCNewsAppConfigurationManager>)nd;
-- (void);
+- (FCPuzzleController *)textConfiguration:contentHostDirectoryFileURL:feldsparIDProvider:appShortVersionString:buildNumberString:networkBehaviorMonitor: /* Error: Ran out of types for this method. */;
+- (NSString *)NewsKit11NewsService;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;

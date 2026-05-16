@@ -7,11 +7,14 @@
 @class NSArray;
 
 @protocol UIDragInteractionContext
-- (void (^)(void))thTranslation:executionContext: /* Error: Ran out of types for this method. */;
-- (long long)thProofreadingController: /* Error: Ran out of types for this method. */;
-- (void (^)(long long))rredLeadingSeparatorInset;
-- (_Bool)etIASignalSmartRepliesComposeFieldInFocus(void);
-- (NSArray *);
+- (_Bool)0@ù
+× ;
+- (long long)!@Bù±c1Â0@ù
+× ;
+- (NSArray *)valuationContext;
+- (void (^)(long long))eWhenAncestorFocused;
+- (void (^)(void))	
+HI;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType animations;

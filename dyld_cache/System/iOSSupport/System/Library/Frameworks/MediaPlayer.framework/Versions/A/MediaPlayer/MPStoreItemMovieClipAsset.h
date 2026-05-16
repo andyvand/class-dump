@@ -12,12 +12,12 @@
 }
 
 - (id);
+- (double);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (double)euePosition;
+- (void)roperties:trackList:playlistEntryProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

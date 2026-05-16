@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (id);
-- (void);
-- (id)tedController:presentingController:sourceController: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)aceCardType:possibleActions:impossibleActions:modules: /* Error: Ran out of types for this method. */;
 
 @end
 

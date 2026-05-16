@@ -8,11 +8,6 @@
 {
 }
 
-+ (double);
-+ (double);
-+ (double);
-+ (double);
-+ (double)P;
 + (double);
 + (double);
 + (double);
@@ -21,14 +16,19 @@
 + (double);
 + (double);
 + (double);
-+ (double);
 + (double);
 + (double);
 + (double);
-+ (double);
 + (double);
 + (double);
 + (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double)16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionCommitAnimating>"32;
 
 @end
 

@@ -36,11 +36,11 @@
 - (id);
 - (id);
 - (long long);
-- (void);
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long countLabelStyle; // @synthesize countLabelStyle=_countLabelStyle;

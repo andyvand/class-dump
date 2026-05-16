@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)lastExpirationTime;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *responseHandlers; // @synthesize responseHandlers=_responseHandlers;

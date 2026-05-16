@@ -32,9 +32,9 @@
 - (double);
 - (void);
 - (double);
-- (id);
 - (void);
-- (_Bool);
+- (id);
+- (_Bool)le;
 
 // Remaining properties
 @property(readonly, nonatomic) double containerLeadingMargin; // @synthesize containerLeadingMargin=_containerLeadingMargin;

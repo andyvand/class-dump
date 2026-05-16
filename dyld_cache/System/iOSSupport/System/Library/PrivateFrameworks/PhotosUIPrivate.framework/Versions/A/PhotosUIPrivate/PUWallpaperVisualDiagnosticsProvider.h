@@ -23,10 +23,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)ridView;
-- (id)Qo_ALy©§½SgGGAAyAByAD_AGyT¨¿yAGyAGyè§½AOG¸ ½yARGGG%½GtGGtGG;
+- (id);
+- (id)tifier:forIndexPath: /* Error: Ran out of types for this method. */;
+- (void)dIndexesInRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

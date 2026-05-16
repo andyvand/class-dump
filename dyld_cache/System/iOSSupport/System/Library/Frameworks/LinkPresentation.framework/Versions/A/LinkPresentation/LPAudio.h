@@ -18,7 +18,7 @@
     NSString *_MIMEType;
 }
 
-+ (_Bool)tion;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -27,19 +27,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (void)(;
-- (id)0;
 - (id);
 - (id);
 - (_Bool);
-- (void)	ð!pDùµ°1¢!0@ù
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)1Â0@ù
 × ;
-- (id)ù
-× ;
-- (id)ùõÿTú@¢;
+- (id)¢;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;

@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)view for question:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

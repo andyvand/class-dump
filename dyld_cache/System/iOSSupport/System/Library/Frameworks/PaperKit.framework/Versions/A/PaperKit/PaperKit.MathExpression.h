@@ -19,12 +19,12 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
-- (void);
+- (long long);
 - (id);
-- (id);
 - (void);
-- (long long)ew";
+- (void)ø9þÿ¹Hÿÿ;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *expression;

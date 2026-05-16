@@ -15,29 +15,29 @@
     NSArray *_preferredFocusEnvironments;
 }
 
-+ (Class)daptation:hasAdapted: /* Error: Ran out of types for this method. */;
++ (Class);
 - (void);
 - (id);
-- (void);
-- (void)0@ù
+- (id);
+- (id);
+- (_Bool)1Â0@ù
 × ;
-- (void)!DùñÌð1¢!0@ù
+- (_Bool)!	!(Aù1e°1Â0@ù
 × ;
-- (id)rLastContainerView;
-- (void)ringBehavior:(id)arg1 delay:duration: /* Error: Ran out of types for this method. */;
-- (_Bool)Map;
-- (void)omeKeyWindowActions:(id)arg1 forReason: /* Error: Ran out of types for this method. */;
-- (id)epresentedItemCount;
-- (struct CGRect)inimumOffsetGetter;
-- (void)stomTitleView;
-- (id)tension;
-- (void)touch predictor during update;
-- (id);
-- (id)ment;
-- (void)`"qÿf;Ùîöa;
-- (_Bool)tsf;
-- (id),Åÿ;
-- (_Bool)Jÿ?ÍÏÑk;
+- (struct CGRect)00c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}}16@0:(id)arg1 8;
+- (id)ransform=dddddd}d}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)humbnailAspectRatio:(id)arg1;
+- (void)atorWithName:(id)arg1 depthRange:block:allowedActionSourceTypes: /* Error: Ran out of types for this method. */;
+- (id)placeWithCandidateAction",R,N;
+- (id)localAuthenticationObserver;
+- (void)_UIKeyboardMediaServiceWarmUpConnection;
+- (void)x);
+- (_Bool)U;
+- (id)o catch this in the debugger and see what caused this to occur. Perhaps you are trying to ask the table view for a cell from inside a table view callback about a specific row? Table view:%@ /* Error: Ran out of types for this method. */;
+- (void)th, can't save mapping for restoration class:(id)arg1 %@;
+- (void)] 1;
+- (void)@®ÿâ©gäMc;
+- (void)vçþ0;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFocusGuideImpl *_impl; // @synthesize _impl;

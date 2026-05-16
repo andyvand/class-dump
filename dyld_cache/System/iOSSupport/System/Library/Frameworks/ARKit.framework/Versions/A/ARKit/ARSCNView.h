@@ -27,12 +27,12 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyUpdatesLighting; // @synthesize automaticallyUpdatesLighting=_automaticallyUpdatesLighting;

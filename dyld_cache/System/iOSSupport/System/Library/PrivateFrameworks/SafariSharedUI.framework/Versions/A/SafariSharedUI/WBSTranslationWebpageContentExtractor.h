@@ -31,8 +31,8 @@
 - (id);
 - (void);
 - (void);
-- (id)toolShadowMaxOpacityInDrawingCanvasForIncreasedContrast;
-- (void);
+- (id);
+- (void)afari_scope;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,28 +15,28 @@
     struct CGRect _clippingRect;
 }
 
-- (id)Change: /* Error: Ran out of types for this method. */;
-- (void)CVirtualSmartFolderItemIdentifier",R,N,V_virtualDestinationFolder;
-- (void)xtChangeControllerDelegate>",W,N,V_delegate;
+- (id);
 - (void);
-- (void)`3@G;
-- (_Bool)JG_G;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool)v;
 - (void);
-- (void)s;
-- (unsigned long long)ion error using file icon;
-- (void)pe != %d || SUBQUERY(notes, $n, $n.markedForDeletion != YES).@count > 0);
-- (void)32@?0@"NSTextView"8Q16^B24;
-- (void)ange.length;
-- (void)Affinity:(id)arg1 ];
-- (void)leColumnTextStorage savedSelectionWithSelectionAffinity:(id)arg1 ];
-- (void)ind valid row range %@ %lu %@;
-- (void)of bounds;
-- (void)a mergeableStringDelegate for a row that already has one.;
-- (Class)ergeableStringDelegates[rowID];
-- (void)ng row location;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (Class);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,14 +45,15 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id)fiedCallButton";
-- (_Bool)etWantsRightTail: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)@ù
+× ;
+- (id)populated;
+- (void)|;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

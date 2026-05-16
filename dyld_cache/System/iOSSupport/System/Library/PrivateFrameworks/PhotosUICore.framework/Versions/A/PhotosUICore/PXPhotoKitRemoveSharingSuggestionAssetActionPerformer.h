@@ -15,7 +15,7 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (id)wCurationButton;
+- (id);
 
 @end
 

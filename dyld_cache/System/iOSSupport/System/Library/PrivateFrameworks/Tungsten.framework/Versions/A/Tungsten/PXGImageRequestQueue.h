@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (long long);
-- (void)entEdge;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

@@ -7,9 +7,6 @@
 @protocol MTLBuffer;
 
 @protocol MTLBuffer
-- (unsigned long long)robability;
-- (void *)=ön>ýw?
-;
 
 // Remaining properties
 @property(readonly) unsigned long long gpuAddress;

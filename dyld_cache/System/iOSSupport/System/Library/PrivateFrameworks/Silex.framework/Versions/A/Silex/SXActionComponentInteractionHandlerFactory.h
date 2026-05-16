@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)A;
+- (id);
+- (void)GSize=dd}}40Q72;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;

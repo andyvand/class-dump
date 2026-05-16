@@ -22,33 +22,33 @@
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

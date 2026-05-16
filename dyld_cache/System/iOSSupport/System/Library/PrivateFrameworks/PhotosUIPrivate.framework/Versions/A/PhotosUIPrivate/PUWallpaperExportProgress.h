@@ -23,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)invalidateInfo;
-- (void)Font;
-- (CDUnknownBlockType)SuggestionBasedWallpaperWatchPeople;
+- (void)ePhotoIfNeeded;
+- (CDUnknownBlockType)brary;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assetUUIDs; // @synthesize assetUUIDs=_assetUUIDs;

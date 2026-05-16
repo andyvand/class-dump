@@ -78,23 +78,25 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
-- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (id);
 - (void);
 - (_Bool);
-- (long long);
-- (void)osGlobalFooterView: /* Error: Ran out of types for this method. */;
-- (void)ollAtRate: /* Error: Ran out of types for this method. */;
-- (id)´]$^4__|`¨aÈbècddXfh;
-- (id);
-- (void);
-- (void);
-- (void)rovider;
-- (struct CGSize)AlbumSelection;
+- (void);
+- (void);
+- (void);
+- (id)!CùQEÐ1â
+0@ù
+× ;
+- (void)ction;
+- (_Bool)tWithPhotoLibrary:(struct CGPoint)arg1 provideLibraryCounts:(id)arg2 provideCloudQuotaOffers: /* Error: Ran out of types for this method. */;
+- (void).swift;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _wantsBottomLabel;

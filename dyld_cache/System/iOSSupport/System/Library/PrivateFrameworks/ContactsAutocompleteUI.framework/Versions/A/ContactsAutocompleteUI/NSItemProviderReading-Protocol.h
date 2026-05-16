@@ -5,6 +5,5 @@
 //
 
 @protocol NSItemProviderReading
-+ (id);
 @end
 

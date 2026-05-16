@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)vice_Title;
 
 // Remaining properties
 @property(retain, nonatomic) HUQuickControlCollectionViewLayoutAttributes *activeLayoutAttributes; // @synthesize activeLayoutAttributes=_activeLayoutAttributes;

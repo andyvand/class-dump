@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class UIFont;
 
 @protocol _UIBarButtonItemDataFallback
-- (UIColor *);
-- (NSString *);
-- (struct UIOffset)temInternal=};
-- (struct UIOffset).üÿ¿þÿ;
-- (NSString *)ct;
-- (UIImage *)Error;
+- (UIFont *)1bÐ1Â0@ù
+× ;
 @end
 

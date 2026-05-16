@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (id);
-- (double);
+- (double)e.UIKit.UIActivityIndicatorViewGearImagesCache;
 
 @end
 

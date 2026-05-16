@@ -14,7 +14,7 @@
 - (id);
 - (struct _PXStoryAutoEditCropScoreInfo);
 - (id);
-- (id);
+- (id)<;
 - (void);
 
 // Remaining properties

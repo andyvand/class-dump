@@ -5,7 +5,5 @@
 //
 
 @protocol _TtP7ChatKit28QuickReplyButtonListDelegate_
-- (void)wedCharacterSet;
-- (void)_markedTextAttributes;
 @end
 

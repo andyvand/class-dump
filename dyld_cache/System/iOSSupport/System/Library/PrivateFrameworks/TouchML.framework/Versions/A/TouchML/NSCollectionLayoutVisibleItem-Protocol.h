@@ -7,8 +7,7 @@
 @class NSIndexPath, NSString;
 
 @protocol NSCollectionLayoutVisibleItem
-- (unsigned long long)Target;
-- (struct CGPoint)dDelimiterKey;
+- (NSString *)oText;
 
 // Remaining properties
 @property(nonatomic) double alpha;

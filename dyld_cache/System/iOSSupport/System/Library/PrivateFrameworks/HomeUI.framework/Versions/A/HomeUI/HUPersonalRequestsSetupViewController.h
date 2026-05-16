@@ -46,15 +46,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)°!(EùÑ.1b0@ù
-× ;
-- (void)a&°!pCùQ01b0@ù
-× ;
-- (id)40@0:8@16@24Q32 /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
+- (void);
+- (void)6;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *customizeButton; // @synthesize customizeButton=_customizeButton;

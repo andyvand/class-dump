@@ -32,8 +32,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)or"16@"HFItem"24;
+- (id);
+- (void)readySetup_ReviewButton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

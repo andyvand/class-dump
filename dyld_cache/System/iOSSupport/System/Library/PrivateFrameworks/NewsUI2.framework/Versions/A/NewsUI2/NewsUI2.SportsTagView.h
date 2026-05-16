@@ -15,17 +15,18 @@
     MISSING_TYPE *token;
 }
 
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)feedServiceConfigFetcher;
-- (id)tC7NewsUI231ModalCardPresentationController;
-- (id);
+- (void)¬ ¸
+¹^4i;
+- (id)ndler;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityCustomActions;

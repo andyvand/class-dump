@@ -50,13 +50,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGPoint);
 - (id);
 - (unsigned long long);
@@ -77,25 +77,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void)tionGroupName:(_Bool)arg1 activity: /* Error: Ran out of types for this method. */;
-- (void)rForChatListenersForService: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (void);
 - (id);
 - (long long);
-- (void)ng input to next pipeline;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
-- (void)ion;
-- (struct CAPoint3D);
-- (id);
-- (void)Angle;
-- (void)1»;
-- (id)tÏáþ;
-- (unsigned int)nÿuÙZ^;
+- (struct CAPoint3D)map file is %@;
+- (id)nent;
+- (void)t is not selectable in %@.;
+- (void);
+- (unsigned int)ÿì¤Üü^;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIDragEvent *activeDragEvent;

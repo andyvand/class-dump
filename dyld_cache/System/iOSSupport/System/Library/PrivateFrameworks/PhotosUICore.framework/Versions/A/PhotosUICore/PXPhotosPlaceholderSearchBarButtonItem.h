@@ -10,7 +10,7 @@
 
 - (id);
 - (id);
-- (id)ipeProducerFactory:(CDUnknownBlockType)arg1 songsProducerFactory:movieHighlightsProducerFactory:detailedSaliencyProducerFactory:chapterCollectionProducerFactory:stylesProducerFactory:autoEditDecisionListsProducerFactory:autoCurationProducerFactory: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

@@ -27,9 +27,9 @@
 - (double);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)¨;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double preferredMaxLayoutWidth; // @synthesize preferredMaxLayoutWidth=_preferredMaxLayoutWidth;

@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (float);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSRegularExpression *matchPattern; // @synthesize matchPattern=_matchPattern;

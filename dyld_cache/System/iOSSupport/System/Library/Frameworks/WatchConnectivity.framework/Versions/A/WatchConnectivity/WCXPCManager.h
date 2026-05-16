@@ -18,10 +18,10 @@
     unsigned long long _reconnectRetryCount;
 }
 
-+ (id)7;
 + (id);
 + (id);
-+ (void)P;
++ (id);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,22 +49,22 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (int);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)(;
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

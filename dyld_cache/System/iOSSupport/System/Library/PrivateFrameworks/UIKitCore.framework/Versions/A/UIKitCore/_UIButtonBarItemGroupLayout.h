@@ -31,50 +31,51 @@ __attribute__((visibility("hidden")))
     double _expandedWidth;
 }
 
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (double)DRestrictDDNSFlag;
-- (void)nk_keys (%p) for update request:(_Bool)arg1 %p;
-- (long long);
-- (void);
+- (id);
 - (id);
 - (double);
-- (_Bool);
-- (void)ÀCº;
-- (void);
-- (_Bool)0Ð¹;
-- (_Bool);
-- (void)
-× ;
-- (CDUnknownBlockType)er:toViewController: /* Error: Ran out of types for this method. */;
-- (void)viewInteractionPopCount;
-- (id)ViewProvider;
-- (void)ficationsForText:(id)arg1 selection:(id)arg2;
-- (id)olvedNumberOfLines;
-- (void)n;
-- (id)d;
-- (_Bool)orMode;
-- (void)¼Þ;
-- (void)%@;
-- (id)ter;
 - (id);
-- (id)ment;
-- (void)ìû;
-- (id)ïa;
+- (id);
+- (id);
 - (void);
-- (void)@Aÿ|Ønåa;
-- (_Bool)ëËþ~Øçb;
-- (_Bool) ÿ;
-- (id)ÇAÿÅ`;
-- (_Bool)Ìe;
-- (void)ÿÅ ;
-- (_Bool),;
-- (void)ÿÉÄÕ9"c;
-- (_Bool)®@c;
-- (id)Ð;
-- (double);
-- (_Bool)>ÿc;
-- (void)´,e;
-- (void)(^ÿ!¾;
+- (void)Ð!FùñaÐ1Â0@ù
+× ;
+- (double)!;
+- (id)rectDrivingDelegate>"16;
+- (void)bviews;
+- (void)d:(CDUnknownBlockType)arg1 viewType:indexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_numberOfSectionsWithTransformVisibleItemsHandler;
+- (_Bool)ontentSizeWhenBottomAttached: /* Error: Ran out of types for this method. */;
+- (id)ion;
+- (_Bool)indows;
+- (void)Delegate>",W,N,V_delegate;
+- (double)andidateAction;
+- (void)Scene;
+- (_Bool);
+- (_Bool)ü;
+- (void)Kit internal bug:(id)arg1 table view prefetch context updated with an out-of-bounds visible range; the _maxIndex is probably stale;
+- (_Bool)rdText:called with nil text /* Error: Ran out of types for this method. */;
+- (void)%ld
+;
+- (id)wareShortcutsAutomatic;
+- (_Bool)ngPathLargestInscribedRectWithAspectRatioAndCenter(const CGFloat, const CGRect, const CGPoint);
+- (CDUnknownBlockType).;
+- (id)ticSharpnessControl;
+- (void)PointerInteractionEnabled;
+- (void)*_UICollectionLayoutCompositionalSolverRebasedPreferredSizesForSolutions(NSArray<_UICollectionCompositionalSolverPreferredSizesRebaseInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_4;
+- (void)navailableConfigurationStateC;
+- (id)_UITransitionOverlayViewCSgXw;
+- (void);
+- (long long)3¸tþµ¦43´tþµ¦43¤tþý¦43ôtþ5§43¼tþ§43ìtþ;
+- (void)ÜÝ3ÿþØpX^;
+- (void)¡^;
+- (_Bool)â_;
+- (void);
+- (void)´±þþ;
 
 // Remaining properties
 @property(nonatomic) _Bool compact; // @synthesize compact=_compact;

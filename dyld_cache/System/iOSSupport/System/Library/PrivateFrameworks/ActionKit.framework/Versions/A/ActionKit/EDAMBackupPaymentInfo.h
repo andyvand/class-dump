@@ -29,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)e updated note;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *currency; // @synthesize currency=_currency;

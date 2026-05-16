@@ -14,15 +14,15 @@
 }
 
 - (void);
-- (void)i;
 - (void);
-- (CDUnknownBlockType)m fallback PDF Data for attachment:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ation;
-- (id)ifier;
 - (void);
+- (CDUnknownBlockType);
+- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
+- (id);
+- (void)onfiguredViewModel;
 
 // Remaining properties
 @property(readonly, nonatomic) _TtC7ChatKit24CKTapbackAttributionView *attributionView; // @synthesize attributionView=_attributionView;

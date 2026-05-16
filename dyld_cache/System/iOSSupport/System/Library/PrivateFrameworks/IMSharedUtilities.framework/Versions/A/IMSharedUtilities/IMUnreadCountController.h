@@ -26,7 +26,7 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool)2;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -39,11 +39,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void)Ü¸;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *cachedUnreadReports;

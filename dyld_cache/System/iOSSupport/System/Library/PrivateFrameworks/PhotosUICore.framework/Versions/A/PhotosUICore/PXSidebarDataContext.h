@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)moryAssetsActionFactory>",N,R;
+- (id):%@, URL:%@, Error:%@, Priority:%ld /* Error: Ran out of types for this method. */;
+- (void)deoPlaybackDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPredicate *assetsFilterPredicate; // @synthesize assetsFilterPredicate=_assetsFilterPredicate;

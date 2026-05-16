@@ -24,32 +24,33 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)stForIdentifier: /* Error: Ran out of types for this method. */;
-- (void)erviceName;
 - (void);
-- (void)rt:protocol: /* Error: Ran out of types for this method. */;
-- (void)ttingsFetcher:retrievedHost:port:protocol: /* Error: Ran out of types for this method. */;
-- (id)romMe: /* Error: Ran out of types for this method. */;
-- (void)dentifier: /* Error: Ran out of types for this method. */;
-- (void)selector:object: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)N,V_unknownSenderRecordInfo;
-- (void)ctionary",R;
-- (void)typingMessage.;
-- (void)e-transfer map, for a CKRecord we fetched an asset for, recordID %@. CAN'T UPDATE!;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (void);
-- (void)@!º;
-- (id)irectSelectionGestureNotification;
-- (void)tring"8@"<NSSecureCoding><NSObject>"16^B24;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
-- (struct CGSize)#	b;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)!dFùÑeÐ1Â0@ù
+× ;
+- (_Bool)onHorizontalPadding: /* Error: Ran out of types for this method. */;
+- (void)`Ò;
+- (struct CGSize)ÑüÑ\U,Ñ0VHÑ4XlÑ´]|Ñ$^Ñ°aÑÐhÑHo(Ñ,qÑÐsüÑ,z¸Ñl|øÑØ|Ñ~0Ñ¨~PÑÐÔÑ@ÑÄ(Ñ$´Ñ¬ðÑ;
+- (id);
+- (void)fb$*^;
 
 // Remaining properties
 @property(retain, nonatomic) _UICalendarDataModel *dataModel; // @synthesize dataModel=_dataModel;

@@ -16,7 +16,7 @@
     MISSING_TYPE *delegate;
 }
 
-- (id)IE "4 min left";
+- (id);
 - (void);
 
 @end

@@ -5,9 +5,5 @@
 //
 
 @protocol IMDaemonAccountsProtocol
-- (void);
-- (void)";
-- (void)otlightMemoryEnabled;
-- (void);
 @end
 

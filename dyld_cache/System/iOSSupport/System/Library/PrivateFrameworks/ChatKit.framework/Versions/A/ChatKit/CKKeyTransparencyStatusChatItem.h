@@ -10,9 +10,9 @@
 {
 }
 
-- (id)ImplicitHighlights;
 - (id);
-- (struct CGSize)n;
+- (id);
+- (struct CGSize);
 - (Class);
 
 @end

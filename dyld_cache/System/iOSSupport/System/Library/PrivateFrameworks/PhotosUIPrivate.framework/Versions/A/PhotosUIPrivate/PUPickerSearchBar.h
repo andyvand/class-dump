@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
+- (void)sitionIdentifiers;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

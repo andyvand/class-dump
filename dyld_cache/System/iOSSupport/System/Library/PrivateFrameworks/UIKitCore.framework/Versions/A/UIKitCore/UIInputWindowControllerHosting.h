@@ -16,57 +16,52 @@ __attribute__((visibility("hidden")))
     UIInputWindowController *_owner;
 }
 
-- (id);
 - (void);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)et;
 - (void);
-- (void);
-- (_Bool)ý/º;
-- (void)0º;
-- (void)@ù
-× ;
-- (void)!¼EùÂÐ1¢!0@ù
-× ;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (_Bool)!xÐ!ÈDùqÍð1¢!0@ù
-× ;
-- (void)
-× ;
-- (struct UIEdgeInsets)LY;
-- (int)lication:originatingProcess:] /* Error: Ran out of types for this method. */;
-- (_Bool)ISplitViewControllerAdaptiveImpl _invalidateLayout];
-- (_Bool)mClient;
-- (void)ErrorDomain;
 - (unsigned long long);
 - (void);
-- (void)Y[;
-- (void){%Ø)`;
-- (void)K`;
-- (void)îÓA§a;
 - (void);
-- (id)ÿë;
-- (void)¾c;
+- (int);
+- (id);
+- (_Bool)Ð!ÜBùQe1Â0@ù
+× ;
+- (void)des;
+- (void)er;
+- (id)nfiguration: /* Error: Ran out of types for this method. */;
+- (void)smissing;
+- (_Bool)oFast;
+- (_Bool)TightBoundingBoxLayoutGuide-right;
+- (struct CGRect)Õ"`;
+- (void)®¶´;
+- (void)ÿN×t`;
+- (void)T¤ºÿMmËØÜa;
 - (void);
-- (void)vOe;
+- (void);
+- (void)´c;
+- (id)Ûóod;
 - (void);
-- (void)ñìÿÅÑf;
-- (struct CGRect)"ÛÀf;
-- (void)üÆoþ,Êog;
-- (id)dêþH9×
-³g;
-- (void);
-- (void)(i;
-- (void)Îbj;
 - (void);
-- (void);
-- (void)e;
-- (void)ãk;
-- (id)Ìiÿ;
+- (void);
+- (id)1ÚlBg;
+- (void)wþ;
+- (void)ÖÿÁñÏà`g;
+- (void)Ôyãÿü<\ág;
+- (void)¬ìh;
+- (void)0ÐÇj;
+- (_Bool)©ïþbL;
+- (struct UIEdgeInsets)táÿ*r× k;
+- (void);
+- (void)Ï¨§k;
+- (void)q;
+- (void)$Wm;
+- (void)LæwÿÁ;
+- (void)ÿº;
+- (void)ÿZgÍ þm;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSArray *allHostingItems;

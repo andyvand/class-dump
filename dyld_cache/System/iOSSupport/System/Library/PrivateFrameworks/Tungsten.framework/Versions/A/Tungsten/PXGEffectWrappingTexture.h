@@ -38,15 +38,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (MISSING_TYPE *);
 - (unsigned char);
-- (float);
-- (struct CGImage *);
-- (void);
-- (id);
-- (struct CGSize);
 - (id);
 - (_Bool);
-- (id)setLazy: /* Error: Ran out of types for this method. */;
-- (void)en18CarouselDataSourceP;
+- (id);
+- (struct CGImage *);
+- (void);
+- (struct CGSize);
+- (float);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha;

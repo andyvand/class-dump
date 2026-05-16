@@ -21,6 +21,7 @@
     MISSING_TYPE *options;
     MISSING_TYPE *selectors;
     MISSING_TYPE *lazyContextLayoutOptions;
+    MISSING_TYPE *commandCenter;
 }
 
 @end

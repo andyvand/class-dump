@@ -13,14 +13,14 @@
     id <_UIWindowSceneDragInteractionImpl> _impl;
 }
 
-- (id)ValidationToken: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id)itialExtentPoint;
-- (void)Appearance",C,N,V_prominentButtonAppearance;
-- (void)pä;
-- (id)ion token:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void);
+- (id)ngColorAppearance;
+- (id)rySymbolView;
+- (void)oupesize)]-padding-[modeLabel(>=labelsize)]-padding-|;
+- (void)nfo"8Q16^B24;
+- (void)}_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

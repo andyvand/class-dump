@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)dDateTS;
-- (void);
-- (void);
+- (id);
+- (void)Type;
+- (void)<¼ÿÒ>Ó8^;
 
 // Remaining properties
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *carPlayDiffInspector; // @synthesize carPlayDiffInspector=_carPlayDiffInspector;

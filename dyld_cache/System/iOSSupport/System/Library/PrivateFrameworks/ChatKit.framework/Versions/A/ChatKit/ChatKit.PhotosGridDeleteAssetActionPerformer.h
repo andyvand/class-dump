@@ -12,9 +12,9 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (void)ass for an attachment with an unknown text attachment type:(unsigned long long)arg1 %@;
-- (unsigned long long)Note:toNote:styler:attachmentPreviewGenerator:] /* Error: Ran out of types for this method. */;
-- (void)';
+- (void);
+- (unsigned long long);
+- (void);
 - (id);
 
 // Remaining properties

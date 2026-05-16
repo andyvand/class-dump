@@ -12,20 +12,20 @@
     NSString *_name;
 }
 
+- (id);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;

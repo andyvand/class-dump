@@ -32,9 +32,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)Q!;
-- (id)ect;
+- (id);
+- (id);
+- (void)Target>"24^B32;
 
 // Remaining properties
 @property(nonatomic) double combinedMaximumWidth; // @synthesize combinedMaximumWidth=_combinedMaximumWidth;

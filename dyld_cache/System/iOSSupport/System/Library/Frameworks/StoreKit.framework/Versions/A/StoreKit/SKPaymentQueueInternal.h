@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
     id <SKPaymentQueueDelegate> _delegate;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

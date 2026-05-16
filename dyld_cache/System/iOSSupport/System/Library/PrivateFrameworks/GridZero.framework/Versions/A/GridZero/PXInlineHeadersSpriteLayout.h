@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (void)|;
+- (void);
 - (id);
 - (unsigned int);
 - (void);
@@ -45,14 +45,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long)ier flags:%lu. Connected to hardware keyboard:%i. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PXZoomableInlineHeadersDataSource *dataSource; // @synthesize dataSource=_dataSource;

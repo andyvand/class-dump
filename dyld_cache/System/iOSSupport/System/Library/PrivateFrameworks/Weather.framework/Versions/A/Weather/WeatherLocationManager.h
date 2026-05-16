@@ -76,28 +76,29 @@
 - (int);
 - (void);
 - (id);
-- (id);
 - (void);
 - (_Bool);
+- (id);
 - (void);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (id);
+- (id);
 - (void);
 - (int);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (double);
+- (double)@ù
+× ;
+- (_Bool)× ;
+- (unsigned long long)itle;
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *accuracyFallbackTimer; // @synthesize accuracyFallbackTimer=_accuracyFallbackTimer;

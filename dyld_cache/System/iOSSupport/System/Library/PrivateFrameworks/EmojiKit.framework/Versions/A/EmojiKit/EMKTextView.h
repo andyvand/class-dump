@@ -67,12 +67,12 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *manifestSuffix; // @synthesize manifestSuffix=_manifestSuffix;

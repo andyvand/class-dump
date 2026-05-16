@@ -17,14 +17,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (double);
+- (void);
 
 @end
 

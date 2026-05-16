@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ntTableDescriptor"16^@24;
 - (id);
 - (id);
 - (void);
@@ -28,11 +28,11 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)D|PÿjÔÕw';
 
 // Remaining properties
 @property(readonly) VFXModel *model;

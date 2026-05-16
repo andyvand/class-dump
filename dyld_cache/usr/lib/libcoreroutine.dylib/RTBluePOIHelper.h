@@ -9,9 +9,11 @@
 }
 
 + (double);
-+ (double)W;
++ (double);
++ (double);
 + (_Bool);
 + (_Bool);
++ (double);
 
 @end
 

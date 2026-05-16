@@ -14,21 +14,21 @@
 }
 
 + (_Bool);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PFPosterPath *_path; // @synthesize _path;

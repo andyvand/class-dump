@@ -7,7 +7,6 @@
 @class NSData;
 
 @protocol PQLInjecting
-- (NSData *)erParameter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *sql;

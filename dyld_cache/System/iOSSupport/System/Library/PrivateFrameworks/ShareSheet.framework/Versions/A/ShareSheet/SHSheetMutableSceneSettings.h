@@ -17,12 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (long long);
+- (void);
 - (id);
 - (long long);
-- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long applicationState;

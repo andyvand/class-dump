@@ -36,13 +36,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
 - (void);
-- (void)lectInteraction:(unsigned long long)arg1 atPoint:keepCurrentSelection: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)
+× ;
+- (void)_selectionChangeCount;
 
 // Remaining properties
 @property(nonatomic) unsigned long long appearance; // @synthesize appearance=_appearance;

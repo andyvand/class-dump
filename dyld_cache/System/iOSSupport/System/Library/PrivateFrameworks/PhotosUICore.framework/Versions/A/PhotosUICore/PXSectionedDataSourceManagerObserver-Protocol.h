@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, PXSectionedDataSourceManager;
 
 @protocol PXSectionedDataSourceManagerObserver
 
 @optional
-- (NSArray *)usPreloadingOperationsCount;
+- (NSArray *)PlaybackWithSettlingEffect:(PXSectionedDataSourceManager *)arg1;
 @end
 

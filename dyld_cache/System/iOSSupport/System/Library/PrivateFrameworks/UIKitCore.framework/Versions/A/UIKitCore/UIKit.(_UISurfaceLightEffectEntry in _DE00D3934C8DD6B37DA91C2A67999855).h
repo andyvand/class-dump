@@ -16,14 +16,14 @@
     MISSING_TYPE *_cachedLightBoxView;
 }
 
-- (void);
-- (void);
-- (void)q°!DDùÄð1¢!0@ù
+- (_Bool);
+- (id);
+- (void)1^°1Â0@ù
 × ;
-- (id)endsBoundary;
-- (void)tionsImpl>",&,N,V_activeImpl;
-- (void)urceViewHidingAssertion;
-- (_Bool)©¡o;
+- (void)le:(id)arg1 image: /* Error: Ran out of types for this method. */;
+- (void)ationForReorderingRow;
+- (void)Ù ^;
+- (void)8ßÿôÊøl;
 
 @end
 

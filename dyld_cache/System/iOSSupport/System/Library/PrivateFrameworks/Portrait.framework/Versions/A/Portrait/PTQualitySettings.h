@@ -56,10 +56,10 @@
 - (_Bool);
 - (float);
 - (void);
-- (void);
 - (id);
 - (void);
 - (int);
+- (void)rmediate2XUpscale:(int)arg1;
 
 // Remaining properties
 @property float circleOfConfusionLimitBackground; // @synthesize circleOfConfusionLimitBackground=_circleOfConfusionLimitBackground;

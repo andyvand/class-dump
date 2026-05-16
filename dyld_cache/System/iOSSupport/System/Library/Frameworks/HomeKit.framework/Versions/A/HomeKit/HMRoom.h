@@ -17,7 +17,7 @@
     _HMContext *_context;
 }
 
-+ (_Bool)ersAtHome;
++ (_Bool);
 
 @end
 

@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)youtGuide;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationMode; // @dynamic activationMode;

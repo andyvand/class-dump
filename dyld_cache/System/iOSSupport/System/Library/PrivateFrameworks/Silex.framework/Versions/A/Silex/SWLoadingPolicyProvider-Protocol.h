@@ -5,6 +5,5 @@
 //
 
 @protocol SWLoadingPolicyProvider
-- (unsigned long long);
 @end
 

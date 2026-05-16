@@ -13,12 +13,12 @@
 
 - (void);
 - (id);
-- (id);
-- (id)R;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)"8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *colorPresets; // @synthesize colorPresets=_colorPresets;

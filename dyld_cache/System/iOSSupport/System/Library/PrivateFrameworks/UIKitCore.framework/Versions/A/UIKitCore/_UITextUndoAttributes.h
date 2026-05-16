@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct _NSRange);
-- (void);
-- (id)on;
+- (id);
+- (void)¡;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;

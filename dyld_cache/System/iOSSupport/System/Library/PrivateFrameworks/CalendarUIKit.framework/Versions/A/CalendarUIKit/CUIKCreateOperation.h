@@ -13,15 +13,15 @@
     NSArray *_precomputedInverseObjects;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (long long);
 - (Class);
 - (_Bool);
-- (id)dInsertFilteredContentsAtIndexes: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)aveChangesToEvents:span: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *precomputedInverseObjects; // @synthesize precomputedInverseObjects=_precomputedInverseObjects;

@@ -19,13 +19,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)Content;
-- (void)rId:(id)arg1 classification: /* Error: Ran out of types for this method. */;
+- (id)ctionControllerForAvailability: /* Error: Ran out of types for this method. */;
+- (void)Menu",&,N,V_contextMenuButton;
+- (void)äE	;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *axID;

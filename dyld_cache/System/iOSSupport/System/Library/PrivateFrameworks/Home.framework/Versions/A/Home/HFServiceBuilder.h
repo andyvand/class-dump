@@ -49,16 +49,16 @@
 - (long long);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void),ê<êhêpê°ê¸êÀëüëííïï\ïhïÔï òðôõHõõõ;
+- (id)meAccessCodes notification with %lu PIN codes;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;

@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)ú}ýÿµÇÿÿ°ýÿøýÿ;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *associatedAppBundleIdentifier; // @dynamic associatedAppBundleIdentifier;

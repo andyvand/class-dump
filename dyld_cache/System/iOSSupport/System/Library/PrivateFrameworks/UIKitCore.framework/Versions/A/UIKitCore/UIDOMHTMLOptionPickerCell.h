@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _disabled;
 }
 
-- (id)wngraded with error:(id)arg1 %@. Broadcasting new state if needed.;
+- (id);
 - (_Bool);
-- (_Bool)ãb;
-- (id)Ê i;
-- (void);
+- (id)è2ÿuÚH¯f;
+- (_Bool)n;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;

@@ -22,7 +22,7 @@
 }
 
 + (id);
-+ (id)raClipSignificantEvent;
++ (id)CF-89FB-450D-94B5-AEE70B7B09F1;
 
 // Remaining properties
 @property(readonly) NSMutableDictionary *clipsByFetchUUID; // @synthesize clipsByFetchUUID=_clipsByFetchUUID;

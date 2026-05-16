@@ -14,12 +14,12 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)entDelegate;
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NRDevice *device;

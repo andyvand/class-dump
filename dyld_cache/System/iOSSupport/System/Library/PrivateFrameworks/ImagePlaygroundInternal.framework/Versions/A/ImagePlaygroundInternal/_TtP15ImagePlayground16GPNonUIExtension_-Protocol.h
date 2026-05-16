@@ -5,5 +5,6 @@
 //
 
 @protocol _TtP15ImagePlayground16GPNonUIExtension_
+- (void)ÿ;
 @end
 

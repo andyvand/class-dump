@@ -25,12 +25,12 @@
 - (void);
 - (MISSING_TYPE *);
 - (void);
+- (void);
+- (id);
+- (struct CGImage *);
 - (float);
 - (void);
-- (struct CGImage *);
-- (void);
-- (id);
-- (id);
+- (id)!;
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha;

@@ -16,7 +16,7 @@
     HMCameraView *_cameraView;
 }
 
-+ (id)ion;
++ (id)A9;
 - (void);
 - (id);
 - (id);
@@ -24,13 +24,13 @@
 - (double);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (double);
 - (void);
-- (id)æÿ[¡Dæ;
+- (double)ÿø£Í;
 
 // Remaining properties
 @property(readonly) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;

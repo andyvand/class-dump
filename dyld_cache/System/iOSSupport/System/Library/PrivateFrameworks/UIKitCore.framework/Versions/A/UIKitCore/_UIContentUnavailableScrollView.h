@@ -12,12 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool)T;
-- (id)
+- (_Bool);
+- (id)1Â0@ù
 × ;
-- (id)rResponder: /* Error: Ran out of types for this method. */;
-- (id)j8Sg;
-- (_Bool)ow.down;
+- (id)ÁÐ!BùÑ`1Â0@ù
+× ;
+- (id)rticalSpacing;
+- (_Bool)o;
 
 @end
 

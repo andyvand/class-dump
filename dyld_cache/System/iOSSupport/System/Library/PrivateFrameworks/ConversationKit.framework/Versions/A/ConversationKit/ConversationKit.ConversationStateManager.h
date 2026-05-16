@@ -22,8 +22,8 @@
     MISSING_TYPE *callDurationStringTimer;
 }
 
-- (void);
 - (id);
+- (void)ÐôÐt;
 
 @end
 

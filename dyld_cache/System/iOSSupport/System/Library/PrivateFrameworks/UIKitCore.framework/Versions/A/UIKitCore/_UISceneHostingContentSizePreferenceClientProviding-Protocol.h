@@ -5,7 +5,7 @@
 //
 
 @protocol _UISceneHostingContentSizePreferenceClientProviding
-- (struct CGSize)3kþ;
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize;

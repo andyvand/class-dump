@@ -6,7 +6,7 @@
 
 @interface (null) (UIKeyboardAdditions)
 - (_Bool);
-- (_Bool)¨Å ;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 

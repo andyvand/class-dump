@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)¸;
++ (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (void)ithPixelSize: /* Error: Ran out of types for this method. */;
 
 @end
 

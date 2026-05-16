@@ -11,14 +11,14 @@
     NSRemoteViewController *_remoteViewController;
 }
 
-+ (void)ns:(CDUnknownBlockType)arg1 completionHandlerIncludingErrors: /* Error: Ran out of types for this method. */;
++ (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void)the root node of a scene from its scene is not allowed;
-- (void)psLeadingAndTrailingWhitespace:(id)arg1;
+- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;

@@ -13,13 +13,13 @@
     _UIPreviewInteractionStateRecognizer *_stateRecognizer;
 }
 
-- (void)ertiesWithPath:assetProtectionType:completionBlock: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)andleFormGestureAtLocation:(long long)arg1;
-- (id)ngLayout: /* Error: Ran out of types for this method. */;
-- (_Bool)eedbackInputDashboardViewController viewDidDisappear;
 - (void);
 - (void);
+- (id);
+- (id)ayItemsForCustomization:(long long)arg1;
+- (_Bool)ancelled;
+- (void)n _findUISceneForLegacyInterfaceOrientation];
+- (void)ToolbarBackgroundContent;
 
 @end
 

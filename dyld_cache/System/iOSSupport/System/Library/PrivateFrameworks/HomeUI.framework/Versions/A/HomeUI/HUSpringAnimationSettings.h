@@ -20,29 +20,29 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (id);
 - (float);
+- (double);
+- (double);
+- (void);
 - (id);
 - (void);
 - (void);
 - (double);
 - (id);
+- (double);
+- (double);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id)w"16@"NSIndexPath"24@"NSIndexPath"32@"NSIndexPath"40;
-- (double)rubberConstraintSet;
-- (void)wxw¬wx;
-- (id)ô;
-- (double)rrentAssistant = %@, currentAssistant.isSiriAssistant = %{BOOL}d;
-- (double)tions;
-- (double)StatusDetailsViewControllerDelegate_p;
-- (void)"8@?0;
-- (void)etingMultipleTriggers;
-- (double)haracteristicTriggerEventOptionTitle;
-- (void)leCircle and circle's center has to be the radius %f. Please check math again;
-- (void)6^B24;
+- (id)ton;
+- (void)ot presenting Energy tip. energyIndicatorVC.view = %@ | isBeingDismissed =  %{bool}d;
 - (void);
+- (void).<®z;
+- (double)Ã!*;
 - (double);
+- (void)Öàÿýdr;
 
 // Remaining properties
 @property(nonatomic) double completionEpsilon; // @synthesize completionEpsilon=_completionEpsilon;

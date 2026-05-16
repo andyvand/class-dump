@@ -17,16 +17,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)@ù
+- (id);
+- (id);
+- (id);
+- (id)Ð!@ùq[°1Â0@ù
 × ;
 - (id);
-- (id)Ô ;
-- (void)ayoutState"b2"isObservingPIP"b1"shouldRestoreKeyboardInputState"b1"subclassOverridesInterfaceOrientation"b1"subclassOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
-- (id)sInAnimatedLayout;
-- (id)`;
-- (id);
-- (id)þ;
+- (id);
+- (id)hadowOpacity;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *rebasedSectionSnapshots; // @synthesize rebasedSectionSnapshots=_rebasedSectionSnapshots;

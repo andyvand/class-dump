@@ -17,26 +17,27 @@
 }
 
 - (void);
-- (id)FromDKStreamName:(id)arg1;
-- (id)mGraph:(void *)arg1;
-- (id)etHasCommunicationSafetyResultEventType: /* Error: Ran out of types for this method. */;
-- (void)pipeline:(unsigned long long)arg1;
-- (void)gagement:(id)arg1 pseDelta:pseContentsDictionary: /* Error: Ran out of types for this method. */;
-- (void)ssLoggingEnabled:(unsigned int)arg1;
-- (void)N,V_isPersonType;
-- (void)"NSString",R,N,V_gestureAssessment;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void *);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id)or:options:completionHandler: /* Error: Ran out of types for this method. */;
-- (void *)etStatusDisplayName: /* Error: Ran out of types for this method. */;
-- (_Bool)dADAllowMultiDomainAuthFlag: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (void)G_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isConnected) _Bool connected;

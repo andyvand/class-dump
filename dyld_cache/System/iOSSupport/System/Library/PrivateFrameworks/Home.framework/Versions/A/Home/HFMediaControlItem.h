@@ -19,7 +19,7 @@
     NSString *_deviceName;
 }
 
-+ (Class)¶;
++ (Class)"NSDiffableDataSourceSectionSnapshot"16;
 - (id);
 - (id);
 - (id);
@@ -41,9 +41,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (void)SString"16@?0@"HFServiceStateCharacteristicRecipe"8;
+- (id)1á1B50@ù
+× ;
+- (void)èä ;
+- (void)tmos;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

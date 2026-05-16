@@ -22,10 +22,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)laybackDidBegin;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *_avatarPreview; // @synthesize _avatarPreview=__avatarPreview;

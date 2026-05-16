@@ -13,14 +13,14 @@
 }
 
 - (id);
-- (_Bool)account.supportsV1Neo:%@, object:%@, object.cipherVersion:%@, isInternetReachable:%@, isBiometricAuthenticationEnabled:%@, isKeychainAvailable:%@, hasKeychainItem:%@, hasCloudAccount:%@, hasDevicePassword:%@, hasDivergedKey:%@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
 - (_Bool);
-- (id)ler;
+- (id);
+- (long long)ze;
+- (id)ubvariant;
 
 // Remaining properties
 @property(readonly, nonatomic) long long changeType;

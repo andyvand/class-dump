@@ -43,9 +43,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)e: /* Error: Ran out of types for this method. */;
+- (void)sManager;
+- (id)ëÿmò;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,10 +11,10 @@
     MPModelGenericObject *_item;
 }
 
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)[no other datasources triggered load] triggered=YES;
+- (id)ontroller.player.currentItem.presentationSize;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *item; // @synthesize item=_item;

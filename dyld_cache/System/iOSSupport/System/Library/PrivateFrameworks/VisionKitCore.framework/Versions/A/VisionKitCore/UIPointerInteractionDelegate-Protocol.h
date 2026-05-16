@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPointerInteraction, UIPointerRegion;
+
 @protocol UIPointerInteractionDelegate
+
+@optional
+- (void)1â
+0@ù
+× ;
+- (void)ampleTimestamps:(UIPointerInteraction *)arg1 gpuTimestamp:(UIPointerRegion *)arg2;
 @end
 

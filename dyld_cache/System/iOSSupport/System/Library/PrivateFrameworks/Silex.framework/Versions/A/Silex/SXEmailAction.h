@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)nuConfiguration"24@"<UIContextMenuInteractionAnimating>"32;
+- (id)ageViews;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;

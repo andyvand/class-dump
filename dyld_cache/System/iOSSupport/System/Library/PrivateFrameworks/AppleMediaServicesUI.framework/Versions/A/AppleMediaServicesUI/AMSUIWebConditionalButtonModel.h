@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)iveRefresh: /* Error: Ran out of types for this method. */;
+- (id)àÿÿÿ<ýÿWùÿ;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIWebButtonModel *button; // @synthesize button=_button;

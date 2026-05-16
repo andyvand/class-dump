@@ -19,11 +19,11 @@
     MISSING_TYPE *service;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Ø0;
+- (void) y; yU Sg_ yADÍ y' y _Qo_GGSgtGGIÐG;
 
 @end
 

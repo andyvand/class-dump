@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (unsigned char);
 - (void);
-- (void);
 - (id);
+- (void);
 - (unsigned char);
 - (id);
 - (void);
-- (void);
+- (void)enericExpressOffset;
 
 // Remaining properties
 @property(retain) NSData *content; // @synthesize content;

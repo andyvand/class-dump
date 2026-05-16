@@ -28,13 +28,13 @@ __attribute__((visibility("hidden")))
     NSMutableSet *trackedPages;
 }
 
-- (void)WithGUID:(int)arg1;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)24;
 - (void);
-- (void)°ÿ\VÙxi;
+- (void);
+- (void);
 
 @end
 

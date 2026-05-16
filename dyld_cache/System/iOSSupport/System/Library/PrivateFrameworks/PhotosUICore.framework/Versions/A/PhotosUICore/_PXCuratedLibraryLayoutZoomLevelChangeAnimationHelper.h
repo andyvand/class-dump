@@ -30,11 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (id)
-;
-- (unsigned int)called out of order, expected storyLayout;
+- (id);
+- (double)ÿ;
+- (unsigned int)photos.curatedlibrary-chapter-header-async-dates;
+- (void)Recently Edited Album;
 
 @end
 

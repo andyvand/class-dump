@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void)iftClass) != nil);
++ (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -18,7 +18,7 @@
 + (_Bool);
 + (long long);
 + (_Bool);
-+ (void);
++ (void)A7_ySayG[AByACyA10__A10_A10_A10_A10_A21_tGGGtGGSgAByA7_ySaySGA24_AEyACyADyz[ÛC[G_AByACyA10__A10_A10_A10_A10_A10_tGGtGGGGSgGGA6_yA6_yA13_A6_yAhFGG[GGGtGGt;
 
 @end
 

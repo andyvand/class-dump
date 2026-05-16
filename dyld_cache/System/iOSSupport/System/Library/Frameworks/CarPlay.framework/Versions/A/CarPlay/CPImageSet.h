@@ -11,6 +11,7 @@
     UIImage *_lightContentImage;
     UIImage *_darkContentImage;
     CPImageSetAssetRegistration *_currentAssetRegistration;
+    unsigned long long _computedHashAtInitialization;
 }
 
 + (_Bool);
@@ -19,20 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
+@property(nonatomic) unsigned long long computedHashAtInitialization; // @synthesize computedHashAtInitialization=_computedHashAtInitialization;
 @property(retain, nonatomic) CPImageSetAssetRegistration *currentAssetRegistration; // @synthesize currentAssetRegistration=_currentAssetRegistration;
 @property(retain, nonatomic) UIImage *darkContentImage; // @synthesize darkContentImage=_darkContentImage;
 @property(retain, nonatomic) UIImage *lightContentImage; // @synthesize lightContentImage=_lightContentImage;

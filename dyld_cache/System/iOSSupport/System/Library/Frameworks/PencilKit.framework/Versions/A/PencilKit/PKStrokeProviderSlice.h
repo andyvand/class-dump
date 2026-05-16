@@ -23,25 +23,24 @@
 - (double);
 - (struct CGPoint);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id)32;
+- (id);
+- (long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (struct CGRect);
-- (unsigned long long)=;
 - (_Bool);
-- (double);
-- (void);
+- (_Bool);
+- (id);
 - (double);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (long long)Á¥	Ð!ðEù±Âð1¢!0@ù
-× ;
+- (void)@"PKMetalResourceHandler",R,N,V_resourceHandler;
+- (double)ÿüû.,c;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

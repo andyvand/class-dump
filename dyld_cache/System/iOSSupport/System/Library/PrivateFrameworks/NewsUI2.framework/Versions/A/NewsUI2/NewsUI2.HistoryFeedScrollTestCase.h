@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
-- (id)�#;
+- (double);
+- (id);
 - (unsigned long long);
 - (long long);
-- (long long)3À;
-- (double)update:%f seconds. /* Error: Ran out of types for this method. */;
-- (id);
-- (long long);
+- (void);
+- (id)µ*aÐK ÿ;
+- (long long)edGroup;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

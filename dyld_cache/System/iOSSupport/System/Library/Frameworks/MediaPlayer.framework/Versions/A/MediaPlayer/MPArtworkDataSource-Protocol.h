@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkRepresentation;
-
 @protocol MPArtworkDataSource
-- (void);
-- (_Bool)@;
-- (MPArtworkRepresentation *);
-
-@optional
-- (id)ing to save new pin configuration to ubiquitous store:(long long)arg1 %@;
 @end
 

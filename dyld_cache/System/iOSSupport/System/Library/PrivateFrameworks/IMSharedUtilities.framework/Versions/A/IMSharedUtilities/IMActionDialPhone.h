@@ -14,13 +14,13 @@
 
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id){fv;
+- (void)t %ld GUID(s) have changed in a way that alters unread counts;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *fallbackUrl;

@@ -14,9 +14,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)entifier;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *controlCenterMaterialView; // @synthesize controlCenterMaterialView=_controlCenterMaterialView;

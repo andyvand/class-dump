@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void)etAffinity:(double)arg1;
+- (void);
 
 @end
 

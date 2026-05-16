@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
     id <MPCPlaybackEngineEventStreamSubscription> _subscription;
 }
 
-+ (id);
 + (id);
-+ (unsigned int);
++ (id);
++ (unsigned int);
 + (id);
 + (id);
 + (id);
@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)_objc_superrefs__DATA_CONST;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -57,13 +57,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ginConfig;
-- (id)ManagementLogicForAccountWillChange:(id)arg1 changeType: /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)_TtC17MediaPlaybackCore14PlayerObserver;
+- (void);
+- (id);
+- (id);
+- (void)}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

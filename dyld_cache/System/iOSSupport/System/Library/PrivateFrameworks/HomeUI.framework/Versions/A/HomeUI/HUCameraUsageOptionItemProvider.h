@@ -9,26 +9,26 @@
 @interface HUCameraUsageOptionItemProvider
 {
     NSMutableSet *_items;
-    unsigned long long _presenceEventType;
+    unsigned long long _cameraHomePresence;
     unsigned long long _displayStyle;
     NSSet *_cameraProfiles;
 }
 
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id)å;
+- (void)ton_Title;
 
 // Remaining properties
+@property(readonly, nonatomic) unsigned long long cameraHomePresence; // @synthesize cameraHomePresence=_cameraHomePresence;
 @property(readonly, copy, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;
 @property(readonly, nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
 @property(readonly, nonatomic) NSMutableSet *items; // @synthesize items=_items;
-@property(readonly, nonatomic) unsigned long long presenceEventType; // @synthesize presenceEventType=_presenceEventType;
 
 @end
 

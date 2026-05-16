@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct _xmlParserCtxt *);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void)urements;
 
 // Remaining properties
 @property(nonatomic) struct _xmlParserCtxt *_parserContext; // @synthesize _parserContext=__parserContext;

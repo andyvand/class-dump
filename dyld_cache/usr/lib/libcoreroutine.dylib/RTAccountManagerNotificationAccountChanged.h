@@ -16,9 +16,9 @@
 
 - (id);
 - (id);
-- (void);
-- (id)ponderTransportIPv6Address;
-- (id)ityRowsAndAttributes: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)grateStoreAutomatically (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTAccount *latestAccount; // @synthesize latestAccount=_latestAccount;

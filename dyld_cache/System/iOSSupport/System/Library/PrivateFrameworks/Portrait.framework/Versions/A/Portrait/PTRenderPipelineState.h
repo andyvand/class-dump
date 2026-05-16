@@ -69,12 +69,12 @@
 - (unsigned long long);
 - (int);
 - (int);
-- (int);
-- (void);
 - (id);
 - (int);
 - (int);
-- (int)inDisparity;
+- (int);
+- (void);
+- (int);
 
 // Remaining properties
 @property(readonly) CDStruct_8e0628e6 cameraIntrinsicMatrix;

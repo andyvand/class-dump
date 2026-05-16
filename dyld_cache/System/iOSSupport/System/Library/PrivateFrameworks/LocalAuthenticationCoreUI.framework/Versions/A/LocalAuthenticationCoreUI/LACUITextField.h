@@ -10,9 +10,9 @@
 {
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

@@ -16,16 +16,15 @@ __attribute__((visibility("hidden")))
     id <NSCustomTextSurface> _surface;
 }
 
-- (void)ntAttributeBatteryVersion;
+- (void);
 - (struct CGRect);
-- (struct CGPoint)essfulQuery;
-- (struct CGRect)gController",R,N;
+- (struct CGPoint);
+- (struct CGRect);
 - (void);
-- (id)ndler: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void);
+- (id);
+- (void)bleTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
+- (void);
+- (void)àÑ];
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCustomTextSurface> surface; // @synthesize surface=_surface;

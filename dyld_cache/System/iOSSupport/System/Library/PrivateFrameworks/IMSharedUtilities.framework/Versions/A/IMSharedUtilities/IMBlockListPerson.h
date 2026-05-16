@@ -14,7 +14,7 @@
     NSString *_cachedCompanyName;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -23,13 +23,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)A;
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)k:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)ÿpz9_p;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cachedCompanyName; // @synthesize cachedCompanyName=_cachedCompanyName;

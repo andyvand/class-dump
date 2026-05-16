@@ -22,18 +22,18 @@
     } _progressHUDFlags;
 }
 
-- (void)GUID:(id)arg1;
-- (void)ontext:(_Bool)arg1;
 - (void);
 - (void);
-- (void)MAX_MD_SIZE;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)ay;
-- (void)ÄÿúôÈãh;
-- (void)è©ÿ;
+- (id)rationContext",&,N,V_currentCandidateRequestGenerationContext;
+- (void)nColor;
+- (void)ÿ_;
+- (void)h;
 
 @end
 

@@ -5,8 +5,5 @@
 //
 
 @protocol _UIPanOrFlickGestureRecognizerDelegate
-
-@optional
-- (void)lectionLayoutItemSolver";
 @end
 

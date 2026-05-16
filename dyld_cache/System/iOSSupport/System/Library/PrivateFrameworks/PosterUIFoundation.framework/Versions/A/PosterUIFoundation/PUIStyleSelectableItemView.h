@@ -12,12 +12,12 @@
     PUIShapeView *_selectionView;
 }
 
-- (void);
 - (struct CGSize);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool)ibrant,V_vibrant;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;

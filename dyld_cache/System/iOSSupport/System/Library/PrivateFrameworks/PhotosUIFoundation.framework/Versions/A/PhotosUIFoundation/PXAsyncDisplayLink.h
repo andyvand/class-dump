@@ -36,21 +36,21 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (double);
-- (double);
-- (double);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (SEL);
-- (id);
 - (double);
-- (unsigned int);
-- (void)dDetail;
+- (double);
 - (void);
+- (double);
+- (void);
+- (long long);
+- (void);
+- (id);
+- (unsigned int);
+- (SEL);
+- (void);
+- (double),V_previousRegime;
+- (id)entValues;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentMediaTime;

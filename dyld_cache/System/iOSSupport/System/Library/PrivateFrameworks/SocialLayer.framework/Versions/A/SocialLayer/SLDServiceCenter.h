@@ -20,10 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)%;
+- (void);
+- (id)16d24Q32@?40;
+- (void)HÒ;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *conn; // @synthesize conn=_conn;

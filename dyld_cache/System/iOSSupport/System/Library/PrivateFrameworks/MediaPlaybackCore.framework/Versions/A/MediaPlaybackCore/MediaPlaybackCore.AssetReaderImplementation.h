@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *playbackEngine;
     MISSING_TYPE *$__lazy_storage_$_fullAlignmentTask;
+    MISSING_TYPE *$__lazy_storage_$_fullAlignmentTaskV2;
     MISSING_TYPE *alignmentCache;
     MISSING_TYPE *scoutingTasks;
     MISSING_TYPE *sessionID;
@@ -21,11 +22,11 @@
 + (unsigned int);
 + (void);
 + (id);
-- (void)s:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ndKeysForUUID:(id)arg1 withCriteria:completion: /* Error: Ran out of types for this method. */;
-- (void)ublic}@:(id)arg1 [%{public}@] Handling canSaveAccount. account = %{public}@;
+- (void);
+- (void);
 - (void);
 - (id);
+- (void)es on the shared audio presentation context:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

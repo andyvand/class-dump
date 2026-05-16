@@ -11,17 +11,16 @@
     NSString *_option;
 }
 
-+ (_Bool)0@ù
-× ;
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *option; // @synthesize option=_option;

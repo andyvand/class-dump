@@ -24,12 +24,12 @@
 + (id);
 + (void);
 + (id);
-+ (_Bool)n registration request for %@, state [%s].;
-+ (void);
 + (_Bool);
 + (id);
 + (void);
 + (id);
++ (_Bool)@32@40@?48;
++ (void)ts:(const char *)arg1;
 - (void);
 - (void);
 - (id);
@@ -40,15 +40,12 @@
 - (id);
 - (id);
 - (id);
-- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -57,18 +54,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)tyStartScanningForType:(id)arg1 withData:mask:peers:boostedScan:duplicates: /* Error: Ran out of types for this method. */;
-- (id)Q;
-- (id)AlgorithmIdentifier, error %d payload %@;
-- (void);
-- (void);
-- (id)`B;
+- (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)gin location, %{sensitive}@, last location, %{sensitive}@;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)OCountryCode, %@;
+- (void)ersation with receivers, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

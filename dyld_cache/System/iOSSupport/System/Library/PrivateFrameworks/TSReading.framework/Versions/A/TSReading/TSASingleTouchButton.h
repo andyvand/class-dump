@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ynamicHidingText;
 
 // Remaining properties
 @property(nonatomic) _Bool showsTouchOnTopWhenHighlighted; // @synthesize showsTouchOnTopWhenHighlighted=_showsTouchOnTopWhenHighlighted;

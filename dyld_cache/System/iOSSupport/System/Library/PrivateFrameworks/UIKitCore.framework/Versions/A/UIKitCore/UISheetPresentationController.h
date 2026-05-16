@@ -55,7 +55,8 @@
 
 + (void);
 + (id);
-+ (long long)ew: /* Error: Ran out of types for this method. */;
++ (long long)GùZÐ1Â0@ù
+× ;
 
 @end
 

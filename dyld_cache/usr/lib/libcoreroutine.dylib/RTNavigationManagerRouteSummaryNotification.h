@@ -19,19 +19,19 @@
 }
 
 - (void);
-- (void)h;
 - (void);
 - (void);
 - (void);
-- (double),;
-- (id);
-- (double)";
-- (double);
+- (void);
 - (double);
 - (id);
-- (void);
-- (id);
-- (unsigned long long)me:phoneNumber: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (double);
+- (id);
+- (id);
+- (void)ot learned, Home count, %lu, Work count, %lu;
+- (unsigned long long)st;
 
 // Remaining properties
 @property(nonatomic) double destinationLatitude; // @synthesize destinationLatitude=_destinationLatitude;

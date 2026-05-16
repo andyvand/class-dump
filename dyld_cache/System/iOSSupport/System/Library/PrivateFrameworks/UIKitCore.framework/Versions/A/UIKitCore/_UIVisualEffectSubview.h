@@ -18,33 +18,33 @@
     id <_UIVisualEffectViewSubviewMonitoring> _subviewMonitor;
 }
 
-- (id);
-- (id)!;
-- (void);
-- (void)ath:(id)arg1 withIdleTime: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool)¡°!`Eù1[ð1Â0@ù
 × ;
-- (void)ù
+- (_Bool)
+× ;
+- (id)fÐ1Â0@ù
 × ;
 - (void);
-- (id)orItem:(id)arg1 hideLargeTitleForActiveSearch:(id)arg2;
-- (id)redToConstantConstraint;
-- (void)ckCoreHapticsEngine;
-- (_Bool)	
-;
-- (id)ailed to update focus with context %{public}@. No additional info available.;
-- (void)o configure a sidebar for  view controller %@ which doesn't support sidebars;
-- (id)n :asking for delegate but already initialized without a delegate :delegate = %@ /* Error: Ran out of types for this method. */;
-- (void)%ld
-;
-- (void)Màÿ3c;
+- (id)0@ù
+× ;
+- (id)meWithAlignmentRect: /* Error: Ran out of types for this method. */;
+- (id)rPoppingViewControler;
+- (void);
+- (void)isHandlingWriting;
+- (void)sBlockedFromReset;
+- (id)[%@];
+- (void)FocusUpdateContextC;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView; // @synthesize containedView=_containedView;

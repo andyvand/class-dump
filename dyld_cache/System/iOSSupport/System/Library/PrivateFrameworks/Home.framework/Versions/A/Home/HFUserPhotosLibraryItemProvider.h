@@ -18,11 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)nditionItemProvider.m;
+- (void)È;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

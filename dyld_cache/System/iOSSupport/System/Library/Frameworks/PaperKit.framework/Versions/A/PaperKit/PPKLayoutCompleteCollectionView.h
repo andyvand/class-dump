@@ -16,7 +16,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)>vþÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool laidOut; // @synthesize laidOut=_laidOut;

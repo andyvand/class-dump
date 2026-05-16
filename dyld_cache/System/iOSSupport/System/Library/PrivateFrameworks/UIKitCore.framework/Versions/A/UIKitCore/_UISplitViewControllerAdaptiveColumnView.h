@@ -28,54 +28,53 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long)%;
-- (void)ication:(struct UIEdgeInsets)arg1 %u;
-- (void):(id)arg1 %{bool}d;
-- (void)summary property on chat with guid %s.;
-- (void)that chat was added %@;
-- (void)no longer the default text app, routing to %@;
-- (void)ts not a IMMessageItem:(double)arg1 %@;
-- (struct UIEdgeInsets)nnot save it to metadata;
-- (id)le a radar **** Asset last path component from url %@ is nil so cannot save it to metadata;
-- (id)ncountered error while fetching archived records %@;
-- (id)essage %@;
-- (id)age items for retracted message part %ld in edited message %@;
-- (id)stFailedMessageDateChanged with new value:%lld  /* Error: Ran out of types for this method. */;
-- (id)ool}d error:%@ /* Error: Ran out of types for this method. */;
-- (id)ame only to:%@ from:%@ /* Error: Ran out of types for this method. */;
-- (id)UID %@;
-- (id)as already played [%@];
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
 - (double);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)CurrentOrientation:(id)arg1;
-- (void)singItemAnimationCoordinator;
-- (id)ôP$4V;
-- (void)ate. This is a client bug.;
-- (id);
-- (id)CustomComponentKey_%@;
 - (id);
-- (void)E4h@;
-- (id)ã¦ÿãÐi;
-- (id)#ÿ;
-- (long long)`êxþNK;
 - (void);
-- (void);
+- (void)ts:(id)arg1;
+- (void)lView:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)UIFocusBehavior_CarPlay;
+- (void);
+- (void);
+- (id)k;
+- (void)dwÎ4¼k;
+- (void)D2l;
+- (void)E;
+- (id)Ìo;
+- (id)þpÌüçp;
+- (id)Dr;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, retain) id <_UIViewMaterial> background; // @synthesize background;

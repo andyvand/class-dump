@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
 - (_Bool);
-- (void);
 - (struct UIEdgeInsets);
-- (struct CGRect)þÿHN¯·;
+- (struct CGRect);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets insets; // @synthesize insets=_insets;

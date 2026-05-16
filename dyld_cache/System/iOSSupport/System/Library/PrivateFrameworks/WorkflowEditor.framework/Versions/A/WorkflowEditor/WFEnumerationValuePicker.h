@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFEnumerationParameter, WFParameterValuePickerViewController, WFSlotIdentifier, WFVariableSubstitutableParameterState;
+@class NSString, WFParameter, WFParameterValuePickerViewController, WFSlotIdentifier, WFVariableSubstitutableParameterState;
+@protocol WFParameterValuePickable;
 
 @interface WFEnumerationValuePicker
 {
     _Bool _suppressAutomaticCancellation;
     WFVariableSubstitutableParameterState *_currentState;
-    WFEnumerationParameter *_parameter;
+    WFParameter<WFParameterValuePickable> *_parameter;
     CDUnknownBlockType _completionHandler;
     WFParameterValuePickerViewController *_parameterValuePickerViewController;
     CDUnknownBlockType _cancelHandler;
@@ -36,15 +37,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void)â9â:¼âØâ /* Error: Ran out of types for this method. */;
+- (long long)peatEditor;
+- (void)Ô)±;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;
@@ -57,7 +58,7 @@
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long editingSlotArrayIndex;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WFEnumerationParameter *parameter; // @synthesize parameter=_parameter;
+@property(retain, nonatomic) WFParameter<WFParameterValuePickable> *parameter; // @synthesize parameter=_parameter;
 @property(retain, nonatomic) WFParameterValuePickerViewController *parameterValuePickerViewController; // @synthesize parameterValuePickerViewController=_parameterValuePickerViewController;
 @property(retain, nonatomic) WFSlotIdentifier *slotIdentifier; // @synthesize slotIdentifier=_slotIdentifier;
 @property(readonly) Class superclass;

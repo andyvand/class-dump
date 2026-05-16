@@ -21,14 +21,12 @@
 - (void);
 - (long long);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)Ì
-à
-¤Ü;
+- (id)dddd}64d112{CGRect={CGPoint=dd}{CGSize=dd}}120@152;
+- (void)ary/CoreServices/SystemVersion.plist;
 - (void);
 
 // Remaining properties

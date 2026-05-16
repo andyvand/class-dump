@@ -14,10 +14,10 @@
 }
 
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *tapCount; // @synthesize tapCount=_tapCount;

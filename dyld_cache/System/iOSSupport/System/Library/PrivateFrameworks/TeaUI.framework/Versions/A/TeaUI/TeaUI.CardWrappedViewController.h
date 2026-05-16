@@ -11,9 +11,9 @@
     MISSING_TYPE *wrapped;
 }
 
-- (void);
-- (id)workReachabilityRequirement;
 - (id);
+- (id);
+- (void);
 - (void);
 
 @end

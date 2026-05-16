@@ -20,8 +20,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (long long);
+- (void)8ótóxôö;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *imageIdentifiersKeyedBySize; // @synthesize imageIdentifiersKeyedBySize=_imageIdentifiersKeyedBySize;

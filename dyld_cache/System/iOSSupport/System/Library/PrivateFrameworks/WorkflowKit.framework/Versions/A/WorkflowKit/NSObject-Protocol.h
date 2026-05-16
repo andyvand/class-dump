@@ -7,11 +7,13 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (unsigned long long)ÆÄýÿ;
+- (id)0@ù
+× ;
+- (_Bool)WorkflowKit271;
+- (struct _NSZone *)ter;
 
 @optional
-- (NSString *)D]Hqpq;
+- (NSString *)ableProvider>"16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

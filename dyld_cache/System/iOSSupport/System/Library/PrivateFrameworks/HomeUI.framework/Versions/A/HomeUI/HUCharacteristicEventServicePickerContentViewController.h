@@ -44,11 +44,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (CDUnknownBlockType).Ð1b0@ù
-× ;
-- (_Bool)esenting,V_presenting;
-- (void);
+- (CDUnknownBlockType)ndleViewVisible: /* Error: Ran out of types for this method. */;
+- (_Bool)tView;
+- (void)nd logged into iCloud. isWifiOrEthernetReachable = %{BOOL}d, isLowPowerModeEnabled = %{BOOL}d, isLoggedIntoiCloud = %{BOOL}d;
+- (void)InputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromSharedUserWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_DontSetup) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_Done) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromAppleTVWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromResidentWarning) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_ContinueFromHomePodSoftwareUpdate) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationInProgress) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationSucceeded) || (userInputValue.integerValue == HUHomeHub2OnboardingValue_MigrationFailed) || (userInputValue.integerValue== HUHomeHub2OnboardingValue_ResetAppleHome);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

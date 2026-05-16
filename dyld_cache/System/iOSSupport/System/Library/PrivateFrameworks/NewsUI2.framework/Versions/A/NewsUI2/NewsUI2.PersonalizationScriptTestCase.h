@@ -18,12 +18,12 @@
     unsigned long long aggregate;
 }
 
-- (void)qA;
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)family status...;
-- (id)àüÿ;
+- (void);
+- (id)êÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

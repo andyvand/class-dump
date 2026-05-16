@@ -19,31 +19,31 @@
     CDStruct_339ad95e _tracklistRange;
 }
 
-+ (Class);
++ (Class);
 - (CDStruct_339ad95e);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ignIn:%@, didSignOut:%@, wasModified:%@ } /* Error: Ran out of types for this method. */;
-- (id)account:%@ } /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
-- (id)`;
+- (id);
+- (id);
+- (void);
+- (void)ô¯ ACCOUNT BEGIN              %{public}@;
+- (id)c}@ %{public}@ %2i %{public}@ôª ITEM CONFIG END            %{public}@ %{public}@ [%.3fs];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

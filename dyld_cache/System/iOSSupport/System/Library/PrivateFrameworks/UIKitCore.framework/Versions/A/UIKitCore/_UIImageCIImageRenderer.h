@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)tchConnectedOverBT;
-- (struct CGColorSpace *)Command:(_Bool)arg1;
-- (void)%d;
-- (struct __IOSurface *)}s;
-- (void)tweightProfile;
 - (void);
-- (id)ä 
-¡´¡è£Ì¤\¥§1|ªôª;
+- (struct CGColorSpace *);
+- (void);
+- (void);
+- (struct __IOSurface *);
+- (id)!(Eù1gð1Â0@ù
+× ;
+- (void)ØxÒÔT[;
 
 // Remaining properties
 @property(readonly, nonatomic) CIContext *context; // @synthesize context=_context;

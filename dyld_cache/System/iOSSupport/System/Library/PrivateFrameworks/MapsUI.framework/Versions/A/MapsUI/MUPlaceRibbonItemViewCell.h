@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (CDUnknownBlockType);
 - (void);
-- (id);
+- (void)ompletion: /* Error: Ran out of types for this method. */;
+- (id)erViewC;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler;

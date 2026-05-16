@@ -14,15 +14,15 @@
     MISSING_TYPE *cachedSegmentFrames;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)_contactsRecentlyAddedToBlocklist;
+- (void);
+- (void);
+- (void);
 
 @end
 

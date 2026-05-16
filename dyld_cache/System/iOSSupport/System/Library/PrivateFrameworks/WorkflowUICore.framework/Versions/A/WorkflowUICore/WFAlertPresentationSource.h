@@ -19,15 +19,15 @@
 + (id);
 + (id);
 - (id);
+- (id);
+- (id);
 - (struct CGRect);
+- (id);
 - (unsigned long long);
 - (void);
-- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id)¸ùøÿM´ùøÿMúøÿúøÿõ;
+- (void)¿àúGñéúy»ìúSgGGúâúGèúy¦îúGG_Qo_GG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;

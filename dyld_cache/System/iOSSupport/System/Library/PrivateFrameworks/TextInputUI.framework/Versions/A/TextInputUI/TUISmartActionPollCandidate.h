@@ -20,17 +20,17 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *options; // @synthesize options=_options;

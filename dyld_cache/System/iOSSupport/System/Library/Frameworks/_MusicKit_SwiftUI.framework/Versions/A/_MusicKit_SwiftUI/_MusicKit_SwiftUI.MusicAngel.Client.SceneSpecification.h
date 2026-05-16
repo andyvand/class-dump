@@ -12,9 +12,9 @@
     MISSING_TYPE *parameters;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

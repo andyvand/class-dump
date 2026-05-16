@@ -13,10 +13,11 @@
     MISSING_TYPE *layerDelegate;
 }
 
-- (void)h;
 - (id);
-- (void)ng: /* Error: Ran out of types for this method. */;
-- (id)yþïÂGG;
+- (void);
+- (id)!°Fùÿ1Â0@ù
+× ;
+- (void);
 
 @end
 

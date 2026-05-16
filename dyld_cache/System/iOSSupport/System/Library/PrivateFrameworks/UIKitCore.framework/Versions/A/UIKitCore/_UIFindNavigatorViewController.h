@@ -25,62 +25,63 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (double);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)°1Â0@ù
+× ;
+- (double)0@ù
+× ;
+- (void);
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (void)ositionalLayoutSolverOptions";
+- (id)atPoint:withVelocity: /* Error: Ran out of types for this method. */;
+- (void)setDiscreteActionGroupViewHorizontalLayoutTrailingConstraint: /* Error: Ran out of types for this method. */;
+- (_Bool)adingCascadedSubmenuOffset;
+- (void)nsitionOfType:(id)arg1 forAlertController: /* Error: Ran out of types for this method. */;
+- (id)ted;
+- (void)peed;
+- (void)ActivationConditions: /* Error: Ran out of types for this method. */;
+- (void)tor,S_setImpactFeedbackGenerator:(id)arg1;
+- (id)Ø;
 - (void);
 - (_Bool);
-- (void)lTVShowCreatorBuilder;
-- (_Bool)dMediaTypes;
+- (_Bool)estureRecognizer"8@"<_UIGestureRecognizerContainer>"16^B24;
+- (void)zer"8;
+- (_Bool)* _Nonnull, _UIContentViewLabelConfiguration * _Nonnull __strong);
+- (id)CollectionCIeggg_;
+- (void)tate;
+- (id)lbarSpec;
 - (void);
+- (void)ÛÌÐ'\;
+- (void)2;
+- (void)ì];
+- (id)_;
+- (id);
+- (void)|Jÿ;
+- (void)WHb;
 - (void);
-- (void);
-- (void)c;
-- (void)�	;
-- (void);
-- (double)©;
-- (void)@ù
-× ;
-- (_Bool)× ;
-- (id);
-- (void)0@ù
-× ;
-- (void)Ô ;
-- (void)BarTitleRenamer"16@"_UINavigationBarTitleRenamerSession"24@"NSError"32;
-- (void)Margins:(id)arg1;
-- (id)ntroller:willChangeToSearchBarPlacement: /* Error: Ran out of types for this method. */;
-- (void)ypes;
-- (void)ibleMonth: /* Error: Ran out of types for this method. */;
-- (void)Map;
-- (void):(id)arg1 activated: /* Error: Ran out of types for this method. */;
-- (id)ActiveKeyboard;
-- (id)ersectability;
-- (void);
-- (void)intsForActiveEdges;
-- (id)Layer: /* Error: Ran out of types for this method. */;
-- (double)Ï\Ò;
-- (_Bool)h;
-- (id)´;
-- (void);
-- (void)t 0.0, or UITableViewAutomaticDimension.;
-- (_Bool)ViewController;
-- (id)UIURLDragPreviewView.m;
-- (id)p;
-- (void)DA2BD43Key;
-- (void);
-- (void)Ä;
-- (void);
-- (void)èS5ÿ;
-- (void)á_;
-- (void)Üßþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

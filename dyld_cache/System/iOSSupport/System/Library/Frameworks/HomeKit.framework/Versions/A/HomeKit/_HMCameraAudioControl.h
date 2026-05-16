@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)gistered;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *mute; // @synthesize mute=_mute;

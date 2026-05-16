@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)thGUID:(id)arg1;
+- (void);
 
 @end
 

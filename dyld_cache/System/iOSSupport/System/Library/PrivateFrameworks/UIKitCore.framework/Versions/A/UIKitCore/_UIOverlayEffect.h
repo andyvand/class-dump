@@ -18,20 +18,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
-- (double);
 - (id);
 - (void);
-- (id)P½ò;
-- (void)1¢!0@ù
+- (void);
+- (id);
+- (id);
+- (id)0@ù
 × ;
-- (id)axð!<DùÑÍð1¢!0@ù
-× ;
-- (void)es;
-- (id)ngMarginWidth: /* Error: Ran out of types for this method. */;
-- (void)ingAdditions;
-- (void)emRedColor;
+- (void)Height:(id)arg1;
+- (void)roundViewHighlight;
+- (void)ditingForIndexPath:(id)arg1;
+- (id)ò;
+- (double)ewTransition needs to return a valid highlighter.;
+- (void)UIColor;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

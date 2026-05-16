@@ -19,24 +19,24 @@
     double _middlePaddingFullRow;
 }
 
-- (unsigned long long)#±»{;
-- (void);
-- (void)|;
-- (void)hz;
+- (unsigned long long);
 - (void);
-- (void)øz;
 - (void);
-- (void);
 - (void);
-- (void)z;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)|;
-- (double){;
-- (double)öz;
-- (id)DÁz;
-- (id)áz;
-- (unsigned long long)|;
-- (id)7z;
+- (id);
+- (double);
+- (double);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
 
 // Remaining properties

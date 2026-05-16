@@ -20,17 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)C;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id)asValidPostfixCharacterForString: /* Error: Ran out of types for this method. */;
+- (id);
+- (void));
+- (void)Ô¤;
 - (void);
-- (id)0@ù
-× ;
-- (id)ck;
-- (void),°;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;

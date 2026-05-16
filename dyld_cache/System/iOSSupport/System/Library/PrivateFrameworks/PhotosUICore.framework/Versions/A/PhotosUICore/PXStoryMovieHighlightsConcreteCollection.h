@@ -15,12 +15,13 @@
 - (id);
 - (id);
 - (id);
-- (void)ÈÈ;
-- (id);
-- (id)ÑzÐ1b0@ù
+- (id)QIð1â
+0@ù
 × ;
-- (id)eshowShuffled;
-- (long long)tem/Library/PrivateFrameworks/CloudPhotoLibrary.framework/CloudPhotoLibrary;
+- (id)nRegistrar;
+- (long long)Äÿ;
+- (id)nadeHasSignificantRegularAlbumCount;
+- (void)aSource;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

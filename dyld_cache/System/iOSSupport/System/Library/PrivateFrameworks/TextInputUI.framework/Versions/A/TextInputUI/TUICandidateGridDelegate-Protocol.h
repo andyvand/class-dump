@@ -5,10 +5,5 @@
 //
 
 @protocol TUICandidateGridDelegate
-
-@optional
-- (void);
-- (void);
-- (void){;
 @end
 

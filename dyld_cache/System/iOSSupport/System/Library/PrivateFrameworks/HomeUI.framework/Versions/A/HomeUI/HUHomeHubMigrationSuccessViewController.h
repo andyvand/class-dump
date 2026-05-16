@@ -18,12 +18,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)!4Fù0ð1b0@ù
-× ;
-- (id)eView:contextMenuConfigurationForRowAtIndexPath:point: /* Error: Ran out of types for this method. */;
-- (void)nityBubble:(id)arg1;
-- (void)@Ö¾ÿö9§;
+- (void);
+- (void)geTitleOptions:(_Bool)arg1;
+- (void)estrictedGuestItemManager initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) OBBoldTrayButton *commitButton; // @synthesize commitButton=_commitButton;

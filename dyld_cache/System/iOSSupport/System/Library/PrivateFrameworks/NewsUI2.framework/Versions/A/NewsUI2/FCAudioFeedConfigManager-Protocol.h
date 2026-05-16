@@ -7,9 +7,6 @@
 @class NSData;
 
 @protocol FCAudioFeedConfigManager
-- (NSData *)ype-%ld;
-- (void)	
-;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *audioFeedConfigData;

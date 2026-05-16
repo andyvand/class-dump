@@ -5,9 +5,5 @@
 //
 
 @protocol CKReusableVideoPlayerDelegate
-- (void)ltTypingAttributesForEmptyDocument;
-- (void)extStyles;
-- (void)tervalInAttributedString: /* Error: Ran out of types for this method. */;
-- (void)ame;
 @end
 

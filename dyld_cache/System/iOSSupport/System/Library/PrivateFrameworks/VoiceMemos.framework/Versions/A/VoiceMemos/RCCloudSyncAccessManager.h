@@ -17,19 +17,19 @@
 }
 
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (int);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
 
 // Remaining properties
 @property(readonly) ACMonitoredAccountStore *accountStore;

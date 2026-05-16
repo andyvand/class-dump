@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -25,27 +25,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double)ji;
-- (long long)tem:(id)arg1;
-- (id)SDictionary",R,N,V_nicknamesForParticipants;
-- (id)ageContext;
 - (double);
-- (id)gz_Xx;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (long long);
 - (id);
-- (double)J;
-- (void)#0º;
-- (double)lAngle"b1"updatedRollAngleStillEstimated"b1};
-- (_Bool)er<_UIDocumentPickerRemoteViewControllerContaining>";
-- (id)ssion:(id)arg1 handedOffDragImageForItem:(_Bool)arg2;
-- (_Bool)reInvocationDelay;
-- (double)butes;
-- (double)IKeyPath;
 - (id);
-- (void)*F;
+- (double);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (double);
+- (_Bool);
+- (double);
+- (double)abled"b1"visualEffectViewEnabled"b1"disableFocus"b1"disableRemoteTextEditing"b1"allowsAttachments"b1"isReceivingDrop"b1"contentCoverUnsecuresText"b1"forcesClearButtonHighContrastAppearance"b1"contentInsetsFromFontsValid"b1"autolayoutWantsBaselines"b1"animateNextHighlightChange"b1"backgroundProviderDraws"b1"backgroundProviderHasBackgroundView"b1"isHandlingClearButton"b1"textLayoutManagerEnabled"b1"extremeSizingEnabled"b1"sizingRule"b1"shouldDisplayDictationPlaceholderMessage"b1"supportsKeyboardNavigationForSuggestions"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"shouldUpdatePlaceholderTextAlignmentWhenOverridden"b1"hasDictationButton"b1};
+- (_Bool)xValue;
+- (id)$';
+- (id);
+- (double)there are only %lu total items.;
+- (id);
+- (void);
+- (void)ØLÿ,ÜP;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowFreeSelectionSliding;

@@ -14,19 +14,19 @@
     MISSING_TYPE *data;
 }
 
-- (void)<;
+- (void);
 - (void);
 - (id);
 - (void);
-- (long long)%@;
 - (id);
+- (id);
+- (id);
+- (long long);
 - (void);
-- (id)gers;
-- (id)T@"NTPBTagRecord",R,N,V_tagRecord;
 - (void);
 - (void);
-- (void)e;
 - (void);
+- (void);
 
 @end
 

@@ -24,38 +24,38 @@
     unsigned int _disableVerticalStretch:1;
 }
 
-- (void)g"24@?<v@?>32;
-- (void)nt:(id)arg1;
-- (void)ChatIdentifier:(_Bool)arg1 style:account: /* Error: Ran out of types for this method. */;
-- (void)presentation;
-- (_Bool)UnreadMessageCountRefreshingReports:guids:delta: /* Error: Ran out of types for this method. */;
-- (_Bool)onReadComplete:error:activity:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
-- (id)inished system workload reporting task;
-- (struct CGRect)workload:%@ /* Error: Ran out of types for this method. */;
-- (void)lHandle, falling back to account's loginID;
-- (void)converted to CKRecord, marking it as clean and moving on.;
-- (void)ckname, feature is disabled;
-- (struct UIEdgeInsets)syncState;
-- (void)eter;
+- (id);
 - (struct CGRect);
-- (struct CGPoint)heduledMessageStore;
 - (void);
 - (void);
 - (void);
-- (void)kMMCSErrorDomain, CFErrorGetDomain(error));
+- (struct UIEdgeInsets);
+- (void);
+- (struct CGRect);
+- (struct CGPoint);
 - (void);
 - (void);
-- (struct CGSize)dModel",&,N,V_inputSpeedModel;
-- (void)|EÐG°H;
-- (id)tateRestoration.m;
-- (struct UIEdgeInsets)ollapseAnimations(UICollectionView *__strong _Nonnull, _UICollectionViewAnimationContext *__strong _Nonnull, __strong id<_UICollectionViewUpdateExpandCollapseAnimationContext> _Nonnull)_block_invoke;
-- (id)extSelectionGestureLongPress;
-- (void)V;
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void)Color:(struct CGRect)arg1 sidebarState: /* Error: Ran out of types for this method. */;
+- (id)eHidden,S_setChromeHidden:(struct CGRect)arg1 ,V_chromeHidden;
+- (void)eBeingSetByLoader;
+- (id)nBackgroundActionResponse;
+- (void)¨¬ à ´"#l#;
+- (struct CGSize)awaiting feedback UI still. Ignoring update.;
+- (void)g.;
 
 // Remaining properties
 @property(nonatomic, getter=_contentOffset, setter=_setContentOffset:) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     _UIContextMenuUIController *_menuUIController;
 }
 
-+ (id)idation-IdentifierMatch;
++ (id);
 - (void);
 - (id);
-- (void)rizationCredentials:token: /* Error: Ran out of types for this method. */;
-- (void)rcedCallerID:(id)arg1 shouldFilterRecepients:requestProxySend:dontSendTo:sentToDevices: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void)F];
 
 // Remaining properties
 @property(retain, nonatomic) _UIContextMenuUIController *menuUIController; // @synthesize menuUIController=_menuUIController;

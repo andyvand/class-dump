@@ -13,17 +13,18 @@
     ATXFaceGalleryItem *_suggestedGalleryItem;
 }
 
-+ (_Bool)pplyUpdatesLocally:error: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *modeSemanticTypeToCreate; // @synthesize modeSemanticTypeToCreate=_modeSemanticTypeToCreate;

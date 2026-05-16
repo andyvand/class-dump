@@ -22,30 +22,30 @@
     NSArray *_titles;
 }
 
-- (int)nitialBalloonX;
-- (void)Seperator;
-- (void)yID;
-- (id)increaseContrastDidChangeNotification: /* Error: Ran out of types for this method. */;
-- (id)ge;
-- (id)tem;
-- (id)ledgmentChatItem;
-- (id)icScrollsTowardBottom;
-- (int)fications;
-- (id)on;
-- (int)ses:(long long)arg1;
-- (id)mation;
-- (void);
-- (id);
-- (int);
-- (void);
-- (id);
-- (CDUnknownBlockType)Descriptor;
-- (id);
-- (id);
 - (int);
 - (void);
 - (void);
-- (id)mSelector:withObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (int);
+- (id);
+- (int);
+- (id);
+- (void);
+- (id);
+- (int);
+- (int);
+- (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

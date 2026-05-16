@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     long long __currentRegion;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,16 +26,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)dInformalPayment:(long long)arg1;
+- (void);
 - (double);
 - (double);
 - (id);
 - (id);
-- (unsigned long long)}};
+- (unsigned long long);
 - (long long);
 - (void);
-- (void)rs;
 - (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long _currentRegion; // @synthesize _currentRegion=__currentRegion;

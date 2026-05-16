@@ -5,7 +5,6 @@
 //
 
 @protocol IMDMessageIndexingJob
-- (void);
-- (void);
+- (void)id, is_time_sensitive, ck_chat_id, index_state;
 @end
 

@@ -31,16 +31,19 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (void);
 - (_Bool);
-- (id);
-- (void)oduleInfo: /* Error: Ran out of types for this method. */;
-- (void)ePercentileThreshold;
-- (id)<;
-- (void)deCollectionCustomizationInThisGroupTitle;
-- (void)à-ÿ-ÿ°p;
+- (void);
+- (void);
+- (double)áø°!Dù1EÐ1â
+0@ù
+× ;
+- (id)× ;
+- (id)0@ù
+× ;
+- (void)urce:(id)arg1 photoLibrary:imageFormat: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)UIBarButtonItem"8@?0;
+- (void)\Hÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool continuousCorners; // @synthesize continuousCorners=_continuousCorners;

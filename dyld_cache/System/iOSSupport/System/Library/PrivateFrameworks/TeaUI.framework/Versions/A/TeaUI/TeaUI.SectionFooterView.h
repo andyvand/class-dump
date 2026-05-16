@@ -13,9 +13,9 @@
     MISSING_TYPE *onButtonTap;
 }
 
-- (id)sTagID;
-- (void);
-- (id)w;
+- (id);
+- (id);
+- (void)èÿÿ;
 
 @end
 

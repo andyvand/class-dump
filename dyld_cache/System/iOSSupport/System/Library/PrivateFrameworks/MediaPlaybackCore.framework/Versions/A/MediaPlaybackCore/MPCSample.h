@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (int);
-- (int);
-- (long long);
 - (void);
+- (long long);
+- (int);
 - (double);
-- (double)h;
+- (int);
+- (double)Ds;
 
 // Remaining properties
 @property(readonly, nonatomic) double level; // @synthesize level=_level;

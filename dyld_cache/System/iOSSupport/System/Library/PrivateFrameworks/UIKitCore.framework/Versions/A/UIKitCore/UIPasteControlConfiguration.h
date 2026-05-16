@@ -17,27 +17,26 @@
     UIColor *_baseBackgroundColor;
 }
 
-+ (_Bool);
-- (void)jectsFromArray:(_Bool)arg1;
-- (_Bool)All done part generation set for:%@   success:%@ /* Error: Ran out of types for this method. */;
++ (_Bool)rgets cannot be encoded.;
 - (void);
-- (id)PathInUserHome:withTargetPath:withTargetPathInUserHome: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (double);
+- (long long);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)_preservedViewSets;
-- (id)lters;
-- (id)(%li);
-- (unsigned long long)om.apple.UIKit.ZoomInteractiveDismissLeadingEdgePan;
+- (unsigned long long);
 - (id);
-- (void)tëÿÊ+;
-- (void)ÝJh;
-- (long long)«j;
-- (unsigned long long)fbk;
+- (void);
+- (id);
+- (void)sInteraction;
+- (void)onEventsEnabled;
+- (void);
+- (id)X;
+- (id)Color;
+- (void)/';
+- (double)tç?(E+÷bw@ÒÇ|@À@[(ÚÀ?;
+- (void)p+];
+- (void)\»*ÿ`K×¡d;
+- (unsigned long long)#×<õf;
 
 // Remaining properties
 @property(nonatomic) _Bool _shouldLayoutSynchronously; // @synthesize _shouldLayoutSynchronously=__shouldLayoutSynchronously;

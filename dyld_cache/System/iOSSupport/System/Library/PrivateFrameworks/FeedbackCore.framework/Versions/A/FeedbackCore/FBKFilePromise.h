@@ -16,18 +16,18 @@
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)draft devices %{public}s;
 - (void);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (id);
 - (unsigned long long);
+- (_Bool);
+- (void);
+- (long long);
+- (long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (long long);
-- (id)_ç`ôÿÙ_çôÿÉ_çôÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUIDString;

@@ -12,7 +12,7 @@
     MISSING_TYPE *stats;
 }
 
-- (void);
+- (void)aàÀ_Ö#Õý{¿©ý;
 
 @end
 

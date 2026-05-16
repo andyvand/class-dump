@@ -5,7 +5,5 @@
 //
 
 @protocol SWLogger
-- (void)Type;
-- (void)eFeedGroupMoreActionsButtonRenderer;
 @end
 

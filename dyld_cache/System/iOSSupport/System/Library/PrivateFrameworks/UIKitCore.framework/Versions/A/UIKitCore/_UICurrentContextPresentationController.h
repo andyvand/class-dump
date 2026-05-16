@@ -11,15 +11,15 @@
 }
 
 - (_Bool);
-- (struct CGRect);
-- (id);
-- (CDStruct_912cb5d2)%{BOOL}d for chat:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ng>"16;
-- (_Bool)bBrowserView:willSendSubmitEventToForm:inFrame:withValues: /* Error: Ran out of types for this method. */;
-- (struct CGRect)descriptor;
-- (_Bool)ÍÁÿ38ãþµÁÿ3dçþµÁÿ38ãþ;
-- (void);
-- (long long)$¨Gÿ;
+- (struct CGRect);
+- (id);
+- (CDStruct_912cb5d2);
+- (_Bool)setCursorHideCount: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (long long);
+- (_Bool);
+- (struct CGRect)ITextFormattingViewControllerHighlight;
+- (void)Tq÷þMÖMc;
 
 @end
 

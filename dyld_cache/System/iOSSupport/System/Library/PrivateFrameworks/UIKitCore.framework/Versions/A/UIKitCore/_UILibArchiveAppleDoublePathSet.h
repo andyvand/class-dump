@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_pathsWithDotUnderscorePrefixedFilenames;
 }
 
-+ (_Bool)isting chat;
++ (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)Dragging: /* Error: Ran out of types for this method. */;
 
 @end
 

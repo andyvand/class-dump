@@ -14,8 +14,8 @@
     MISSING_TYPE *pageKind;
 }
 
-- (void);
-- (id)\;
+- (id);
+- (void)commandCenter;
 
 @end
 

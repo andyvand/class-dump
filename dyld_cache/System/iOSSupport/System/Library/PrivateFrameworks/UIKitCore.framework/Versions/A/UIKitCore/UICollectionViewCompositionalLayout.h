@@ -39,7 +39,7 @@
     struct CGRect _contentFrame;
 }
 
-+ (id);
++ (id)ompletions:(id)arg1 %@ called on animator:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setRecomputesLayoutForEmptyUpdates:) _Bool _recomputesLayoutForEmptyUpdates;

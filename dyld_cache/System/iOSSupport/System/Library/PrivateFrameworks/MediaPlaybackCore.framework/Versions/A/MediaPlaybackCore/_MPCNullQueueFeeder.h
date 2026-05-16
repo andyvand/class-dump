@@ -15,21 +15,22 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-- (_Bool)@24^@32;
-- (_Bool);
-- (id);
-- (id)dsToSelector:(id)arg1;
-- (unsigned long long)re:(id)arg1 options: /* Error: Ran out of types for this method. */;
-- (_Bool)count:(id)arg1 %@, changeType:(id)arg2 %@ };
-- (id);
 - (_Bool);
 - (_Bool);
-- (id)letion:(id)arg1;
-- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)identity:extendedStatusCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)US:%{public}@:%{public}@] _performInsertPlaybackContext:| adding data source [] sil=%{public}@ position=Specified section=%{public}@ upNextSection=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsLiveStream;

@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ailedToEnhanceDialogue;
-- (id)ist;
-- (void);
++ (_Bool);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)4;
-- (id):8@"NSString"16@"<MFTimeStamp>"24 /* Error: Ran out of types for this method. */;
+- (void)em ID mismatch] item.contentItemID=%{public}@ - contentItemID=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

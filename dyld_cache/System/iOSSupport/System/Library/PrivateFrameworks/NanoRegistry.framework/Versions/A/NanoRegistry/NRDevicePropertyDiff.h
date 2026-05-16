@@ -19,16 +19,16 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NRPBDevicePropertyDiff *protobuf;

@@ -21,11 +21,11 @@
 - (long long);
 - (id);
 - (void);
-- (void)øïã;
 - (id);
-- (id)ationEnabled;
-- (id)XImportAssetCollection"8@"PXImportAssetCollection"16;
-- (id)onadeFeedContents.swift;
+- (id);
+- (id);
+- (id);
+- (void)toLibraryObservation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;

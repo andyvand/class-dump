@@ -56,14 +56,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGAffineTransform);
 - (_Bool);
-- (struct CGRect);
-- (_Bool);
+- (id);
 - (long long);
-- (void);
+- (_Bool);
+- (struct CGRect);
+- (id);
 - (double);
-- (id);
-- (id);
-- (struct CGRect)y;
+- (struct CGRect)0@ù
+× ;
+- (void)AnimatedImageLoadingAllowed;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGAffineTransform adaptiveLayoutTransform; // @synthesize adaptiveLayoutTransform=_adaptiveLayoutTransform;

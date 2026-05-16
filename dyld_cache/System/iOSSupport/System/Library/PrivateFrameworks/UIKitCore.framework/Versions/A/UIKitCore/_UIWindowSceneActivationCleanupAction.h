@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)ia Messages file transfer;
-- (id)ldWithIdentifier:withMessage: /* Error: Ran out of types for this method. */;
-- (long long);
++ (id);
+- (id)ymbolEffectOptions"24B32;
+- (long long)þ}23ÜÆmþM23ìÆmþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *interactionIdentifier;

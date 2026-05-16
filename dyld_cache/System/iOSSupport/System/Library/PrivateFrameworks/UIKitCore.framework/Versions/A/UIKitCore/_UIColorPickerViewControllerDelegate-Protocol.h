@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColorPickerViewController;
-
 @protocol _UIColorPickerViewControllerDelegate
-
-@optional
-- (void)orCompressedDataP2:(UIColorPickerViewController *)arg1;
-- (void)st:(UIColorPickerViewController *)arg1 isValidForFormat: /* Error: Ran out of types for this method. */;
-- (void)es;
 @end
 

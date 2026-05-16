@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPointerInteraction, UIPointerRegion;
+@class UIPointerInteraction, UIPointerRegion, UIPointerStyle;
 
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (UIPointerRegion *)dStringToDocumentState:(UIPointerInteraction *)arg1;
-- (void)esClass(void)_block_invoke;
-- (void)):(UIPointerInteraction *)arg1 - Existing action:(UIPointerRegion *)arg2;
+- (UIPointerRegion *)preferredOrientation=%@; supportedOrientations=[%@].;
+- (UIPointerStyle *)to scroll to an invalid index:(UIPointerInteraction *)arg1 %ld;
+- (void)pSg;
+- (void)þæÚ;
 @end
 

@@ -5,9 +5,7 @@
 //
 
 @protocol UIKeyboardKeyplaneTransitionDelegate
+- (void)g_;
 - (void);
-- (void)createCKRecordForUpdateT1:(void (^)(void))arg1 zoneID:salt: /* Error: Ran out of types for this method. */;
-- (void)ng Scene State from background;
-- (void)e();
 @end
 

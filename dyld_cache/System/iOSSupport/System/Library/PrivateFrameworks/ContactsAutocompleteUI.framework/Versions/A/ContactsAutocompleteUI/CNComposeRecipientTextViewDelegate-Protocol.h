@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuConfiguration;
-
 @protocol CNComposeRecipientTextViewDelegate
-
-@optional
-- (UIContextMenuConfiguration *);
-- (_Bool)&;
-- (_Bool)C;
-- (void)`;
-- (void)@`;
 @end
 

@@ -13,11 +13,11 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)Äâÿÿÿÿÿì;
 
 @end
 

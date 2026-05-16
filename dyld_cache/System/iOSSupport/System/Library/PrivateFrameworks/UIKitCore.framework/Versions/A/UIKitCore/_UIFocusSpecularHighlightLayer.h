@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGVector);
 - (_Bool);
-- (void)Range=QQ}16@0:8 /* Error: Ran out of types for this method. */;
+- (void);
 - (struct CGVector);
-- (void)ll;
-- (id)Block;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool appliesFocusDirectionToContentsRect; // @synthesize appliesFocusDirectionToContentsRect=_appliesFocusDirectionToContentsRect;

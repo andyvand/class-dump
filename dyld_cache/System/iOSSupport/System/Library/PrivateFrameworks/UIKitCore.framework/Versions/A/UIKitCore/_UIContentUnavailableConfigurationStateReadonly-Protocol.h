@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol _UIContentUnavailableConfigurationStateReadonly
-- (NSString *)ùqÉ1¢!0@ù
-× ;
-- (id)tleReparentingHelper21TemporaryDonatedTitle;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *searchText;

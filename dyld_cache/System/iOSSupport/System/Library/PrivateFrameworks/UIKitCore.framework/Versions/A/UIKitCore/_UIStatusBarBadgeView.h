@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)tion;
+- (id);
+- (id);
+- (id)eOverrideProvider;
+- (void)D;
+- (id)thout a valid screen is not supported! Please file a bug report for UIKit with the following log messages: /* Error: Ran out of types for this method. */;
+- (void)ft;
 - (void);
-- (id);
-- (id);
-- (id)ettings: /* Error: Ran out of types for this method. */;
-- (void)rOrthogonalScrollingSection:(id)arg1;
-- (id)ew hierarchy will trigger a fallback transition. To correct the error, be sure to a provide a view that's visible and in a window. View:(struct CGRect)arg1 %{public}s;
-- (void)^;
+- (void)4ì;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

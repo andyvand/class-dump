@@ -17,21 +17,20 @@ __attribute__((visibility("hidden")))
     NSArray *_effects;
 }
 
-+ (id)conditions are good, starting next batch request;
-+ (id)owID %lu needsIndexing %@;
-+ (id)ex next batch request complete. New lastIndexedRowID %lu needsIndexing %@;
-+ (id)%@;
-- (void)tor was missing mapping for MPModelPropertySongKeepLocalManagedStatus;
-- (void)@;
-- (id)@ù
++ (id);
++ (id);
++ (id);
++ (id);
+- (void);
+- (void);
+- (id)!°!PCùñc1Â0@ù
 × ;
-- (id)Ôv°!TGùQË°1¢!0@ù
-× ;
-- (void):(struct CGContext *)arg1;
-- (id)tKnownHoverRollAngle;
-- (unsigned int)moving %lu bounding path observer(s) from %@-%p for view %p;
-- (id);
-- (struct CGImage *);
+- (id)b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
+- (id)opInset;
+- (id)rHIDEvent: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)cate:] /* Error: Ran out of types for this method. */;
+- (void)@,ÊH3[;
+- (unsigned int)Ö;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *CGImage;

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)Handler;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType downloadHandler; // @synthesize downloadHandler=_downloadHandler;

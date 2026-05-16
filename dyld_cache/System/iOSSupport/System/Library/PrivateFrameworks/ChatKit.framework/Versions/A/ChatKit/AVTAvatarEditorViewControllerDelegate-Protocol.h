@@ -5,7 +5,5 @@
 //
 
 @protocol AVTAvatarEditorViewControllerDelegate
-- (void)e;
-- (void),R,N,V_saveDelayMinDebounceTime;
 @end
 

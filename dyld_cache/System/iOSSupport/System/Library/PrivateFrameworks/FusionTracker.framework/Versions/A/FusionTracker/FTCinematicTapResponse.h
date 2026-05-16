@@ -15,11 +15,11 @@
 
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) FTCinematicTapRequest *request; // @synthesize request=_request;

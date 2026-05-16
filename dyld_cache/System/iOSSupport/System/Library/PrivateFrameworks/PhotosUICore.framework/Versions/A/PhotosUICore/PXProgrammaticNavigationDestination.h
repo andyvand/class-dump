@@ -91,8 +91,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -111,15 +111,16 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)!¨GùQ{1b0@ù
+- (id)1â
+0@ù
 × ;
-- (id)Collection:assetsSectionLayoutSpec: /* Error: Ran out of types for this method. */;
-- (long long)ì\;ÿ0!;
+- (id):8@"<PXFastEnumeration>"16@"PHPhotoLibrary"24@?<v@?B@"NSError">32 /* Error: Ran out of types for this method. */;
 - (id);
+- (id)r assertion because either:numActiveAssertionIdentifiers=%{public}ld, or already has power assertion:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSObject> additionalAttributes; // @synthesize additionalAttributes=_additionalAttributes;

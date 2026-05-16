@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)act: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;

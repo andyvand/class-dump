@@ -41,21 +41,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (_Bool);
 - (void);
+- (long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (struct CGPoint);
-- (id);
+- (long long);
 - (double);
 - (void);
-- (long long);
 - (void);
 - (void);
-- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint bezelContentCenter; // @synthesize bezelContentCenter=_bezelContentCenter;

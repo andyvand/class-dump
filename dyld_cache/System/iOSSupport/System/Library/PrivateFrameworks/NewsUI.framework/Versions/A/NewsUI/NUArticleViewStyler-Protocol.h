@@ -7,7 +7,6 @@
 @class UIColor;
 
 @protocol NUArticleViewStyler
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *mainBackgroundColor;

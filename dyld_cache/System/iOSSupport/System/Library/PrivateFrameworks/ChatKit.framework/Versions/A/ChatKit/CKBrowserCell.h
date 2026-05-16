@@ -23,7 +23,7 @@
 + (Class);
 + (id);
 - (unsigned long long);
-- (void)r;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,17 +38,18 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)<;
-- (id)pover;
-- (id),y;
-- (id)lÏ²ÿ;
-- (void)hy_SgIegy_;
+- (id);
+- (void)0@ù
+× ;
+- (void)age;
+- (void)y;
+- (_Bool)P3;
 
 // Remaining properties
 @property(retain, nonatomic) CKBadgeView *badgeView; // @synthesize badgeView=_badgeView;

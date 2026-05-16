@@ -43,7 +43,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -82,31 +82,31 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id)@ù
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)
 × ;
-- (unsigned long long)tchChargerIdentifierRelationshipsWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)rovider:(struct CGSize)arg1;
-- (void)",&,N;
-- (void)natorChange.m;
-- (void)NSDate"16B24@"NSError"28;
-- (void)Î;
+- (_Bool)d/%ld items, result=%ld lines;
+- (void)ivated date for poster %{public}@ in role %{public}@:(_Bool)arg1 %{public}@;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PBFComplicationPreviewGenerator> complicationPreviewGenerator; // @synthesize complicationPreviewGenerator=_complicationPreviewGenerator;

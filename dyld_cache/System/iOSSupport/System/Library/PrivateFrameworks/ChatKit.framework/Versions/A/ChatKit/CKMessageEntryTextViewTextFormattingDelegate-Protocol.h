@@ -5,9 +5,5 @@
 //
 
 @protocol CKMessageEntryTextViewTextFormattingDelegate
-- (void)tton;
-- (void)n",W,N,V_confirmButton;
-- (void)ng",R,N,V_highlightsAttributedString;
-- (void)butedString",R,C,N;
 @end
 

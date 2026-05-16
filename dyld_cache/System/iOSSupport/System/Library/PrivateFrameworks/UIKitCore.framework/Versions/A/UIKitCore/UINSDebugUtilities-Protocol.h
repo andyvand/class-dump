@@ -5,6 +5,5 @@
 //
 
 @protocol UINSDebugUtilities
-- (void)!;
 @end
 

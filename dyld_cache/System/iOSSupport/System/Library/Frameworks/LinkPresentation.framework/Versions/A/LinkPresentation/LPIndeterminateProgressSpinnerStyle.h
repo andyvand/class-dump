@@ -23,14 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)nesMediaBookMetadata;
+- (id);
 - (void);
 - (id);
-- (void)\;
-- (void)¼ä;
-- (void)\ü;
-- (id)ô;
-- (id)4ú;
+- (void);
+- (void)1Â0@ù
+× ;
+- (id)d;
+- (void)g;
+- (void)¬ð;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *indicatorColor; // @synthesize indicatorColor=_indicatorColor;

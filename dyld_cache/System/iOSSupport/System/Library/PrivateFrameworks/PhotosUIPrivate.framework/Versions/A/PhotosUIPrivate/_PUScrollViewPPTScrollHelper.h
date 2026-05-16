@@ -26,14 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (CDUnknownBlockType);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)ng effect video failed to load:%@ /* Error: Ran out of types for this method. */;
+- (void)locityInView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setCompletionHandler:) CDUnknownBlockType _completionHandler; // @synthesize _completionHandler=__completionHandler;

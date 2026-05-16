@@ -12,10 +12,10 @@
     MISSING_TYPE *eventStream;
 }
 
-- (void)S;
-- (id)nse = %{public}@;
 - (void);
 - (id);
+- (id);
+- (void)d Command:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

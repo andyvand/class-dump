@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id).feedback type;
 - (_Bool);
 - (id);
 

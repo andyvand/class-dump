@@ -15,7 +15,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)¿°!TAùñð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldTerminateProcess; // @synthesize shouldTerminateProcess=_shouldTerminateProcess;

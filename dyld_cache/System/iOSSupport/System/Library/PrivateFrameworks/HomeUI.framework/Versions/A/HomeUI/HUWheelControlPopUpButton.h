@@ -16,22 +16,21 @@
     NSFormatter *_valueFormatter;
 }
 
-+ (Class)k;
++ (Class)roupItem"8;
 - (id);
 - (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)!xGù11Ð1b0@ù
-× ;
-- (void)24;
+- (id);
+- (id);
+- (void)lder.iconDescriptor:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)´·ÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted;

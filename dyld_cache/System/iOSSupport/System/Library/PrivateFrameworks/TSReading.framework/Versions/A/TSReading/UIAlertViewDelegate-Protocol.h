@@ -5,8 +5,5 @@
 //
 
 @protocol UIAlertViewDelegate
-
-@optional
-- (void);
 @end
 

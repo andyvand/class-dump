@@ -13,10 +13,10 @@
 }
 
 - (void);
+- (void);
 - (CDStruct_14d5dc5e);
 - (void);
-- (void);
-- (id)qÓÔÁ;
+- (id)Xo¦?¢&:? /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VFXNode *node; // @synthesize node=_node;

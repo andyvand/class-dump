@@ -13,18 +13,18 @@
     NSDictionary *_relationshipKinds;
 }
 
-+ (id)Options:(id)arg1;
-+ (id)yDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments:contentProtection:conversationId:dateReceived:mailCategories:isNew:isTwoFactorCode:isFromMe:isJunk:isRead:isVIP:isFlagged: /* Error: Ran out of types for this method. */;
-+ (_Bool)]:%{public}@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)C;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
 - (id);
+- (_Bool);
+- (void);
+- (void)lable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *relationshipKinds; // @synthesize relationshipKinds=_relationshipKinds;

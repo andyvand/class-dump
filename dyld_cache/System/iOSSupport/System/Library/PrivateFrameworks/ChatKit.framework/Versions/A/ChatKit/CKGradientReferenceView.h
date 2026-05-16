@@ -14,9 +14,8 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)Ì;
+- (id);
+- (void)8{CGSize=dd}16B32B36;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

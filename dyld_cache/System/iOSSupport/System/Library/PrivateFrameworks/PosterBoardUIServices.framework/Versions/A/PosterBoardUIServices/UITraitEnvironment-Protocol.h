@@ -7,7 +7,6 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
-- (UITraitCollection *)igurationCGACê;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

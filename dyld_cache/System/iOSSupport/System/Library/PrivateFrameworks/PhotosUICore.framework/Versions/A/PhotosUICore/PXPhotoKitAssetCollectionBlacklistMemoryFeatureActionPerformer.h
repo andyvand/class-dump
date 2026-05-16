@@ -26,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)isibleContentSnapshot init];
+- (void)Ìâkÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isBlockingMemoryFeature; // @synthesize isBlockingMemoryFeature=_isBlockingMemoryFeature;

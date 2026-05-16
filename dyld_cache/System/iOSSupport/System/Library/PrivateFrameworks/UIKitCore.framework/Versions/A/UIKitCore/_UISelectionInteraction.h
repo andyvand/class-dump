@@ -24,25 +24,25 @@
 
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool)xÐ!¼EùQÍÐ1¢!0@ù
-× ;
-- (id)rAboveActionsSequenceView;
-- (void)h:(_Bool)arg1;
-- (void)rds;
-- (void)te;
-- (_Bool)È;
-- (void)%@, offsetIntoAnchor:(id)arg1 %@, contentOffset:%@ /* Error: Ran out of types for this method. */;
-- (id)í3y÷bj8yéû;
-- (void)allout;
 - (_Bool);
-- (_Bool)¬[;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)!PEù±bð1Â0@ù
+× ;
+- (_Bool)decelerationFactor:(id)arg1 decelerationLnFactor:(id)arg2 velocity: /* Error: Ran out of types for this method. */;
+- (_Bool)Duration;
+- (id)pha;
+- (void)%{public}@;
+- (void)ÿ|vþÿÔÇîÿ;
+- (id)ack;
+- (void)Âþ5£13hÂþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

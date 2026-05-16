@@ -13,9 +13,9 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)n failure;
-- (void);
+- (void)<OS_dispatch_queue>",R,N,V_cloudClientCallbackQueue;
 
 // Remaining properties
 @property(nonatomic) __weak id <MPAVErrorResolverDelegate> delegate; // @synthesize delegate=_delegate;

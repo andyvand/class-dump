@@ -7,10 +7,10 @@
 @interface (null) (CloudRecentsExtensions)
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id)eerKeyData;
+- (id);
 @end
 

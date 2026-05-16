@@ -14,11 +14,11 @@
 }
 
 + (id);
-- (id)@;
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void)exit dates in bucket %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *hintSourcesUpdated; // @synthesize hintSourcesUpdated=_hintSourcesUpdated;

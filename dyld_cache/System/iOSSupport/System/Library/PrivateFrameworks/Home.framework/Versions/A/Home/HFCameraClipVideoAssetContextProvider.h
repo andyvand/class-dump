@@ -21,11 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)áð1B50@ù
+× ;
+- (id)N,V_overrideLocalizedTitleKey;
+- (void)oveSiriDictationFooterLink;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

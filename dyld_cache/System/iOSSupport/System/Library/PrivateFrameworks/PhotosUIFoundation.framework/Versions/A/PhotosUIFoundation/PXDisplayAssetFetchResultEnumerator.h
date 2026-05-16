@@ -15,13 +15,13 @@
 }
 
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
 
 @end
 

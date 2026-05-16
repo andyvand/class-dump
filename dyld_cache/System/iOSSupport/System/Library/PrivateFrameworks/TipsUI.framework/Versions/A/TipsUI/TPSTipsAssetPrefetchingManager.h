@@ -27,13 +27,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)esultsPage;
 
 // Remaining properties
 @property(nonatomic) long long assetUserInterface; // @synthesize assetUserInterface=_assetUserInterface;

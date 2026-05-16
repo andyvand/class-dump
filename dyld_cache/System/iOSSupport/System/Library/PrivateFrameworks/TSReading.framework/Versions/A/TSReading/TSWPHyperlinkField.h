@@ -32,15 +32,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (int)DÃ;
-- (id);
+- (int)ygonWithScalar:naturalSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayText;

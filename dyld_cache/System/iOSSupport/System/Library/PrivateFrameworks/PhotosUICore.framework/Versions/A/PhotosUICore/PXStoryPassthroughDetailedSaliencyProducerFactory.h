@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)¬ÜWÿ ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStoryDetailedSaliencyProducer> detailedSaliencyProducer; // @synthesize detailedSaliencyProducer=_detailedSaliencyProducer;

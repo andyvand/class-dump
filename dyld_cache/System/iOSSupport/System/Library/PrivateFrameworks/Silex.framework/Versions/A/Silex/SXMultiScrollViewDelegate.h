@@ -23,22 +23,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void)P;
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)ditionTypesUsedByComponentTextStyle:(id)arg1;
-- (void)tScrollPosition;
-- (void)´'¬p!"#D$x$;
+- (void);
+- (void);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)r;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

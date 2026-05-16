@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
     UIView *_responderForForwarding;
 }
 
-- (void)placeUnknownSenderRecordInfoListWithInfo:(id)arg1 purgeIfNeeded: /* Error: Ran out of types for this method. */;
-- (id)$;
-- (_Bool);
-- (void)±Á1¢!0@ù
-× ;
 - (void);
-- (void)0@ù
-× ;
-- (void)ationItem:(id)arg1 willBeginRenamingWithSuggestedTitle:(id)arg2 selectedRange: /* Error: Ran out of types for this method. */;
-- (void)figureBackButtonFromBarItem:(id)arg1 withAppearanceDelegate:(id)arg2;
+- (id);
+- (void)tDraggableView:(id)arg1 dataOwnerForDrag:(id)arg2;
+- (void)traintAffectsContentSize:(id)arg1;
+- (void)ewMaterial>",&,N,V_background;
+- (_Bool)he top of the stack. This case needs examination in UIKit. items = %@,
+search bar hosting item = %@;
+- (void)Tb`;
+- (void)D¸þz,;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *responderForForwarding; // @synthesize responderForForwarding=_responderForForwarding;

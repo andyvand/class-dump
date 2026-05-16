@@ -22,10 +22,10 @@
 
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)Xs;
 
 @end
 

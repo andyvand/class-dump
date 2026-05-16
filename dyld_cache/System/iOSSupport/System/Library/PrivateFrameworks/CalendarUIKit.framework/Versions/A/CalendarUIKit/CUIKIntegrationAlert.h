@@ -15,11 +15,11 @@
 }
 
 - (id);
-- (void)	;
-- (id);
-- (id)!;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)e: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;

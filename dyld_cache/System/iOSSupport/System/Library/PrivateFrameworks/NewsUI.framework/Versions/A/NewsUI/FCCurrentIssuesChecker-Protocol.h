@@ -5,6 +5,5 @@
 //
 
 @protocol FCCurrentIssuesChecker
-- (void);
 @end
 

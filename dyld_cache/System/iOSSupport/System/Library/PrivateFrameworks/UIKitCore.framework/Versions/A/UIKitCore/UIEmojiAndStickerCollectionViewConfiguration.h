@@ -11,10 +11,9 @@
     UITextInputTraits *_textInputTraits;
 }
 
-- (void)horizePutRequestBody failed to create request body of expected size;
-- (void)1¢!0@ù
-× ;
-- (id)ß;
+- (id);
+- (void);
+- (void)<h;
 
 // Remaining properties
 @property(retain, nonatomic) UITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;

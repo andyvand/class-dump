@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
 - (double);
-- (long long)one action parameter must be specified;
+- (void)d:too short for new style with extra info '%@' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;

@@ -21,22 +21,22 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)ÏãÚíâGüây^ãGGgñâGþâyÿâSgGG_AAyAAyËÿâAMy»îâGGAKGAVtGG_Óÿÿ.ãySnySiGSiAAyÝøâyýäyA0_yýäy·åyAAyAAyAR±óâGAKGG_¦úäQo_A5_G_iõäQo_A8_GAKGGtGGAKG;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)fetch Bug Forms to purge:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -44,7 +44,7 @@
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
-@property(nonatomic) __weak UIImageView *deviceIcon; // @synthesize deviceIcon=_deviceIcon;
+@property(retain, nonatomic) UIImageView *deviceIcon; // @synthesize deviceIcon=_deviceIcon;
 @property(readonly) unsigned long long hash;
 @property(nonatomic) double horizontalFrameInset; // @synthesize horizontalFrameInset=_horizontalFrameInset;
 @property(retain, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier;

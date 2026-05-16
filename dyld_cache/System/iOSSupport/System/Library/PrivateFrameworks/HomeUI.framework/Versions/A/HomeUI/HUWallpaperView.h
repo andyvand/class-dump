@@ -30,8 +30,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)e Profile from user;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *currentImage; // @synthesize currentImage=_currentImage;

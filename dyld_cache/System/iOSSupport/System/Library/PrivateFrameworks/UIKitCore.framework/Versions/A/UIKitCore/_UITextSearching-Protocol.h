@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextRange;
+@class UITextPosition, UITextRange;
 @protocol NSCoding><NSCopying;
 
 @protocol _UITextSearching
-- (void)tesAsynchronously:(UITextRange *)arg1;
-- (void)ts: /* Error: Ran out of types for this method. */;
-- (long long)icatorSpacing;
-- (UITextRange *)when they try to activate a scene session using an invalid role.;
+- (long long);
+- (UITextRange *)joþÿòoþÿÈþÿêoþÿ;
 
 @optional
-- (_Bool)nign for PreSealing failed.;
-- (_Bool)string;
-- (void)ntainsOverflowedButtons;
-- (void)øí¸aþf@%è/ôQõ?;
-- (void);
+- (void)a°!L@ùa°1Â0@ù
+× ;
+- (void)
+× ;
+- (void)gView;
+- (long long)_attemptToAutomaticallyTransitionToMultiSelectModeIfNecessaryAtPoint:(UITextPosition *)arg1 withVelocity:(UITextPosition *)arg2;
+- (_Bool)lem.;
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;

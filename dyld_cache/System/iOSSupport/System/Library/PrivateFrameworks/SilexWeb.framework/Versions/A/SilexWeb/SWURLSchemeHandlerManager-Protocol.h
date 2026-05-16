@@ -5,6 +5,5 @@
 //
 
 @protocol SWURLSchemeHandlerManager
-- (void)entifierLabel;
 @end
 

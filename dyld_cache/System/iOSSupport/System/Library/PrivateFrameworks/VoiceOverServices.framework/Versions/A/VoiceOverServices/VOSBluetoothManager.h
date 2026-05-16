@@ -11,13 +11,12 @@
     NSDictionary *_brailleDriverDeviceDetectionInfo;
 }
 
-+ (id)1¢!0@ù
-× ;
++ (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool)u;
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (_Bool);
 - (void);

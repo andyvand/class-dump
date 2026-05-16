@@ -14,21 +14,20 @@
     NSSet *_properties;
 }
 
-+ (id)@40@48;
-+ (_Bool)ingHistoryControlForAccessory:] failed to set enable=%{BOOL}u [accessory=nil] /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
-- (id);
-- (unsigned long long)in config. previousGroupID:%@, chat:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (void)ack List:(id)arg1 %{public}@
-;
-- (void)rver_url, key_server_adam_id, key_server_protocol_type, is_itunes_store_stream) VALUES (@identifier, @hashedPersonID, @urlExpirationDate, @playlistURL, @keyCertificateURL, @keyServerURL, @keyServerAdamID, @keyServerProtocolType, @isiTunesStoreStream);
-- (id)emPropertyStoreItemID;
+- (void)ncreteClass:mediaRemoteType: /* Error: Ran out of types for this method. */;
+- (void)¨;
+- (id)fers.0.durationInMillis;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

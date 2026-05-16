@@ -13,8 +13,8 @@
 
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *nonSentinelPoints; // @synthesize nonSentinelPoints=_nonSentinelPoints;

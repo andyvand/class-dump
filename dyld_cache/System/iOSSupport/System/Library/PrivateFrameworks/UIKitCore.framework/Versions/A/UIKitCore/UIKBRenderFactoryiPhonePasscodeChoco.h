@@ -11,14 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets);
-- (struct CGPoint);
-- (struct CGPoint);
-- (id)ableViewRowData: /* Error: Ran out of types for this method. */;
-- (_Bool)	
-;
-- (struct UIEdgeInsets)ÀþØºe;
-- (id)f;
+- (struct UIEdgeInsets);
+- (_Bool);
+- (id);
+- (id);
+- (struct CGPoint)utDashboardViewController;
+- (struct CGPoint)orToItemWithOrder:inLayouts: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)þÿ;
 
 @end
 

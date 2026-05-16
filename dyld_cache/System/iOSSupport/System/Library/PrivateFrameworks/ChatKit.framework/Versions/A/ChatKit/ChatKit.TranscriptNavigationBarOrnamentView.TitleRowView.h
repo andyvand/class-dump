@@ -16,11 +16,11 @@
     MISSING_TYPE *wantsChevron;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (struct CGSize)ì;
 
 @end
 

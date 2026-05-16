@@ -14,11 +14,10 @@ __attribute__((visibility("hidden")))
     _UICollectionPreferredSizes *_preferredSizes;
 }
 
-- (id);
-- (void)£<º;
-- (id)Ô¡qÐ!`EùÑÄÐ1¢!0@ù
-× ;
-- (id);
+- (id)ckgroundColor:state:traitCollection: /* Error: Ran out of types for this method. */;
+- (id)PerformedPostConfigurationLayout;
+- (void)\,;
+- (id)ÍaÒc;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICollectionPreferredSizes *preferredSizes; // @synthesize preferredSizes=_preferredSizes;

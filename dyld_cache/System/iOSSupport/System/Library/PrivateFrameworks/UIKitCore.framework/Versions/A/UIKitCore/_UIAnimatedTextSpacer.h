@@ -24,26 +24,26 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)ctiveState;
+- (void);
 - (struct CGRect);
 - (CDUnknownBlockType);
-- (id)NSString"24@"NSString"32@"NSAttributedString"40@"NSString"48q56B64q68@"NSDictionary"76@?<v@?q@"NSDictionary">84;
-- (id)orRecord: /* Error: Ran out of types for this method. */;
-- (id)ppropriate:(double)arg1;
-- (void)oinChat:(double)arg1 style:(double)arg2;
-- (void)dSMS:(double)arg1 attemptingReplication:shouldForceFail:watchSendsOverCellular:forceReflection:forceRelay:callerID: /* Error: Ran out of types for this method. */;
-- (void)%@ is %lu;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (CDUnknownBlockType)opertySocialPersonArtwork;
-- (void);
-- (void);
-- (double)0@ù
+- (double)±`1Â0@ù
 × ;
-- (id)CommitHandlerFromInteractionProgress;
-- (void)IKeyboard setMinimized:(CDUnknownBlockType)arg1 ];
-- (_Bool)en;
-- (void)Ðß ÿT;
+- (CDUnknownBlockType)isRunningSuspendTest;
+- (id)"UIInputViewController",&,N,V_accessoryViewController;
+- (_Bool)h;
+- (void)ffectCornerRadius;
+- (void)É];
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

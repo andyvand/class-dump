@@ -16,11 +16,12 @@
 
 - (id);
 - (id);
-- (void);
-- (id)nRestricted;
-- (unsigned long long)U;
-- (id)v;
 - (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id)!àBù±I1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AVTAvatarEditorColorDefaultsProvider *colorDefaultsProvider; // @synthesize colorDefaultsProvider=_colorDefaultsProvider;

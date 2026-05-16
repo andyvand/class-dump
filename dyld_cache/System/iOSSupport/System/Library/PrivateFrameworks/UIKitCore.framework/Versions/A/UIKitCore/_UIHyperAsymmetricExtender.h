@@ -14,22 +14,23 @@
     unsigned long long __dimensions;
 }
 
-+ (id)apeImagePhone;
-+ (_Bool)Y;
++ (id)ecode: /* Error: Ran out of types for this method. */;
++ (_Bool)-country-code;
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
 - (const double *);
 - (void);
-- (void)Seconds;
-- (_Bool);
-- (id);
-- (id)bled:(struct _NSZone *)arg1 forAudioCategory: /* Error: Ran out of types for this method. */;
-- (void)eaction;
-- (const double *)tionStartInitialImport;
-- (id);
-- (unsigned long long)#;
-- (void)ÔÁnð!ÈGùÁ°1¢!0@ù
+- (void)GùZÐ1Â0@ù
 × ;
-- (id)tleTextAttributes;
-- (void)FractionToContinue;
+- (void)!ðDùQ]ð1Â0@ù
+× ;
+- (_Bool)letion:(id)arg1;
+- (void)etContinuousCornerRadiusEnabled:(id)arg1;
+- (id)edsUpdate;
+- (id),N,V_dueToRotation;
+- (const double *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

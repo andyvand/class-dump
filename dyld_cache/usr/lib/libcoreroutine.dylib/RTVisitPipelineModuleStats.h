@@ -16,32 +16,31 @@
     NSDate *_startDate;
 }
 
-- (void);
 - (unsigned long long);
 - (void);
 - (double);
+- (void);
+- (void);
+- (double);
+- (void);
 - (unsigned long long);
-- (void)ionInfo, qrSessionInfo = %@;
-- (unsigned long long)12c]}{sockaddr_storage=CC[6c]q[112c]}SCi[8{?=*Si[12S]QCSCBBS{?=SSSSS}BBi[4S]CBBBI}]ccid[16C]QQ@@iISQBBBS[0C]}8^B16;
+- (id);
+- (double);
+- (id);
+- (unsigned long long);
+- (double);
+- (unsigned long long);
+- (double);
+- (unsigned long long);
 - (double);
 - (void);
 - (double);
-- (void)h_data>"8@"NSObject<OS_nw_content_context>"16B24@"NSObject<OS_nw_error>"28;
+- (void);
 - (double);
-- (unsigned long long);
-- (id)onProviderHostContext"16;
-- (unsigned long long)8n;
-- (void);
-- (id);
 - (unsigned long long);
-- (void);
 - (unsigned long long);
 - (double);
-- (double);
-- (double)(ð!`Gù^,ð1¢!0@ù
-× ;
-- (double)ID:(id)arg1;
-- (double)atedTransitionTo:transitionType:handler: /* Error: Ran out of types for this method. */;
+- (void)to handoff session to this device;
 
 @end
 

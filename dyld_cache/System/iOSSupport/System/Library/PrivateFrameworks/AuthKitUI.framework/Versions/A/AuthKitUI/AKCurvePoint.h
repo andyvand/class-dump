@@ -21,15 +21,15 @@
 - (void);
 - (void);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (id);
 - (double);
-- (void);
-- (void)a;
-- (double);
 - (void);
+- (void);
+- (void);
+- (double);
 - (double);
 
 // Remaining properties

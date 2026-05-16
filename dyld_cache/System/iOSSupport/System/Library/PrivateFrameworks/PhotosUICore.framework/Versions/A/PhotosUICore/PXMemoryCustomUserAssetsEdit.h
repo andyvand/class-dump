@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)ûÿ;
+- (id)ity;
+- (void)¡;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> assets; // @synthesize assets=_assets;

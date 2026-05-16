@@ -34,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)authorization server encountered an unexpected condition that prevented it from fulfilling the request.;
 
 @end
 

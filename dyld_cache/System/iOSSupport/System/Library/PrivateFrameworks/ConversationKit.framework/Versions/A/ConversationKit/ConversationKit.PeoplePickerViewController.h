@@ -76,16 +76,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)xd¤h¬iôl¤müm<o`otp¬qðqÄsÔt;
+- (void)_äGì¢GtGGtGGG;
 - (void);
-- (void);
-- (void)Ä2ÿÍÍµÅ²ÿ;
+- (void)>;
+- (void)TUNearbyConversationPullContext;
 
 @end
 

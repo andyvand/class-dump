@@ -45,16 +45,16 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (struct CGImage *);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (struct __CVBuffer *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;

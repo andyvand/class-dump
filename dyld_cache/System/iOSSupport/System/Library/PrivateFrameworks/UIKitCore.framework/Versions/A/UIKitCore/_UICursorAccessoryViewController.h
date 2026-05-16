@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,30 +32,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (struct CGRect)52;
-- (void)=QAQ}q^{__CFArray}^{_IMDHandleRecordStruct}^{_IMDHandleRecordStruct}^{__CFArray}^{__CFDictionary}}16@24;
-- (id)ete: /* Error: Ran out of types for this method. */;
-- (void)tency;
-- (void)shouldWriteMore:(struct CGRect)arg1 activity:(unsigned long long)arg2 completion:(_Bool)arg3;
-- (CDStruct_5aea72b4)8;
+- (struct CGRect);
 - (void);
-- (void)k[;
-- (void)tem. sig:%s ref:%s /* Error: Ran out of types for this method. */;
-- (void)pGÚ¹;
-- (id)× ;
-- (id)isRestoringPreLocalAuthenticationDelegate;
-- (id)d: /* Error: Ran out of types for this method. */;
-- (id)xtBinderContextCreationPolicyHolding;
-- (void)wning view for focus momentum calculations.;
-- (_Bool)te :delegate = %@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)l;
-- (_Bool)83F827808D3D6C806BD1021CornerRadiiResolution;
-- (void)¾;
-- (id)pÝæÿ;
+- (void);
+- (void);
+- (CDStruct_5aea72b4);
+- (void);
+- (void);
 - (id);
-- (void):(id)arg1 ÿ÷;
-- (void)c;
+- (id);
+- (id)ð!|Bù±a1Â0@ù
+× ;
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (id)View;
+- (void)ntsOnly;
+- (id)râ¾7G;
+- (id);
+- (void);
+- (void)©ÿÿ;
+- (void)q;
+- (_Bool)a;
+- (void)Ðb;
+- (void)ïÕ hc;
+- (id)ÔÀÎæZd;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;

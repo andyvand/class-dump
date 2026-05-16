@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)eFromLinkValue:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;

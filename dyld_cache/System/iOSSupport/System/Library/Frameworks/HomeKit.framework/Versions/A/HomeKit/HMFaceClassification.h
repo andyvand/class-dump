@@ -13,22 +13,22 @@
     HMFaceCrop *_faceCrop;
 }
 
-+ (id)L»;
-+ (_Bool)eUnknown;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)workInfo;
-- (id)n value updated to %@;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

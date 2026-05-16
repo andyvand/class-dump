@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)city: /* Error: Ran out of types for this method. */;
 
 @end
 

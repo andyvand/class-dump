@@ -7,16 +7,6 @@
 @class NSArray, NSString, PKTool;
 
 @protocol PKDrawingPaletteViewStateSubject
-- (double)/CoreGraphics;
-- (double)ry/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
-- (NSArray *)ary/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting;
-- (_Bool);
-- (_Bool);
-- (double)ed;
-- (_Bool)id RCRepeat(NSUInteger, __strong dispatch_block_t _Nonnull);
-- (_Bool)ackgroundRefreshRate;
-- (_Bool)pletionHandler:] /* Error: Ran out of types for this method. */;
-- (double)e.com/v1/configs;
 
 // Remaining properties
 @property(readonly, nonatomic) double _toolsContainerWidth;

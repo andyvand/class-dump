@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)mToolKit:action:parameterKey:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *signedShortcutFile; // @synthesize signedShortcutFile=_signedShortcutFile;

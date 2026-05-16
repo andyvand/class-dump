@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)ainerUIView"16@"UIWindow"24;
+- (id);
 
 @end
 

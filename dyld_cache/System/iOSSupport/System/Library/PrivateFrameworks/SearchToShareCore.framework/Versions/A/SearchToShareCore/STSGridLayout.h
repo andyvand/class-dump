@@ -33,18 +33,18 @@
 - (double);
 - (void);
 - (double);
-- (void);
-- (_Bool);
-- (struct CGSize);
 - (id);
-- (void);
 - (double);
 - (void);
-- (id);
+- (void);
+- (struct CGSize);
+- (_Bool);
 - (id);
 - (void);
-- (id)?40;
-- (id)onInteractionAtIndexPath:(struct CGRect)arg1;
+- (void);
+- (id);
+- (id);
+- (id)rySuggestionsDelegate;
 
 // Remaining properties
 @property(nonatomic) double footerHeight; // @synthesize footerHeight=_footerHeight;

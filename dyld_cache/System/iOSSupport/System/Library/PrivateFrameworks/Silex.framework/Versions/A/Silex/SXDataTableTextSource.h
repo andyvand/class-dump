@@ -20,8 +20,8 @@
 - (unsigned long long);
 - (void);
 - (CDStruct_2fea82da);
-- (void);
 - (id);
+- (void)=dd}32d48;
 
 // Remaining properties
 @property(nonatomic) unsigned long long defaultTextAlignment; // @synthesize defaultTextAlignment=_defaultTextAlignment;

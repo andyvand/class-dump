@@ -13,8 +13,8 @@
     MISSING_TYPE *mapItemIdentifier;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

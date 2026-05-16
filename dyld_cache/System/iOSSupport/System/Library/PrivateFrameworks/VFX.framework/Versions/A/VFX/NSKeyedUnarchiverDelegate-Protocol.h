@@ -5,8 +5,5 @@
 //
 
 @protocol NSKeyedUnarchiverDelegate
-
-@optional
-- (id)Û;
 @end
 

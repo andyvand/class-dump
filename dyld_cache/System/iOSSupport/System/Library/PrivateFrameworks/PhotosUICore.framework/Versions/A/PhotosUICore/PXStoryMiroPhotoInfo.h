@@ -10,8 +10,9 @@
 {
 }
 
-- (id)8@"_PXPhotosGridContainerUIView"16@"UIWindow"24;
-- (id)Ñ;
+- (id);
+- (id)0@ù
+× ;
 
 @end
 

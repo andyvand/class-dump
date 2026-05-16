@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (double);
-- (void);
 - (double);
 - (void);
 - (double);
 - (void);
-- (void)FoundItemsHandler:(id)arg1;
-- (id)SuggestionsRequestOfFetcherWithSuggestionsURLTemplate: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (double);
+- (void):backgroundColor:foregroundColor:cornerRadius: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;

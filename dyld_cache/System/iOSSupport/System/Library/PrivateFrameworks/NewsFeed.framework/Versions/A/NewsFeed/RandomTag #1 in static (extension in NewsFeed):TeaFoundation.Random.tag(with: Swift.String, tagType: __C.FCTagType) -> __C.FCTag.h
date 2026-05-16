@@ -10,17 +10,17 @@
 {
 }
 
-- (id)>;
-- (id)jéþÿÿÿÿ;
-- (id)h;
-- (id)È¢£D££;
-- (id)¬Ì[;
 - (id);
-- (id)al;
-- (id);
 - (id);
-- (id)Ð´dÊÒÿ;
-- (id)ap½üß;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)angePublisher;
+- (id)arrow.uturn.forward;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *currentIssueIDs;

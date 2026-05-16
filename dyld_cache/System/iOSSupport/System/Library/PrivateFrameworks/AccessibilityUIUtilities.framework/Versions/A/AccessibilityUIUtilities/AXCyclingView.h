@@ -15,10 +15,10 @@
     unsigned long long _cycleIndex;
 }
 
-- (void)ionary"@"NSString">;
+- (void);
 - (void);
 - (_Bool);
-- (void)serQuestionnaire";
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -26,9 +26,9 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

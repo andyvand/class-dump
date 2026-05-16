@@ -7,9 +7,7 @@
 @class NSArray;
 
 @protocol MPMediaLibraryResultSet
-- (_Bool)com.apple.Notes;
-- (long long)!;
-- (void);
+- (long long)elName__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

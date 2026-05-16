@@ -26,8 +26,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ories Unit;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contentClasses; // @synthesize contentClasses=_contentClasses;

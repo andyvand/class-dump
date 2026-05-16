@@ -8,25 +8,25 @@
 {
 }
 
-+ (_Bool);
 + (id);
-+ (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (void);
++ (id);
++ (void);
++ (id);
 + (void);
 + (_Bool);
-+ (id)from album %{public}@;
-+ (id);
-+ (id)aracterFromSet:(id)arg1;
-+ (void);
-+ (void);
-+ (id);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
 + (id);
-+ (void);
-+ (id);
-+ (id);
++ (void)rror: /* Error: Ran out of types for this method. */;
 
 @end
 

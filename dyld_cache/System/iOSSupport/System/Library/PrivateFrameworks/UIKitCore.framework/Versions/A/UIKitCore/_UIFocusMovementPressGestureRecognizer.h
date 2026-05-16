@@ -24,31 +24,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (void)0:(id)arg1 8@16@24C32@36@?44;
-- (void)tsMMS;
-- (void)fUnknownSenderRecords:(id)arg1;
-- (void)pelineFromComponents:(id)arg1;
-- (void)IncomingMessages:(id)arg1 domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id)equired after initial indexing. Success:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (long long)loadParentSelectionPolicy;
-- (void)delPropertyRadioStationGlyph__MAPPING_MISSING__;
 - (id);
 - (_Bool);
-- (void);
 - (void);
-- (void)tForSize:(id)arg1;
-- (void)PopulateInitialAndFinalLayoutAttributesForAllUpdateItems:(id)arg1;
-- (unsigned long long)TouchChanged: /* Error: Ran out of types for this method. */;
-- (void)ailure relationship gesture recognizer;
-- (_Bool)WhenScrolling;
-- (void)%ld
-;
-- (id),R,VbottomEdgeEffect;
+- (void);
+- (long long);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (id)v24@0:(id)arg1 8@"<_DUIServerSessionRemoteDragManipulation>"16;
+- (void)sible;
+- (_Bool)teractor:(id)arg1 ,V__interactor;
+- (_Bool)¬­;
+- (void)cessibilityCarPlayBoldTextStatusDidChangeNotification;
+- (void);
+- (void)ï23Í}þqï23Í}þyï23Í}þYï23Í}þ;
+- (void)¶òÐº[;
+- (void)¸5_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

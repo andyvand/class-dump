@@ -27,49 +27,47 @@ __attribute__((visibility("hidden")))
     NSDate *_appearanceDate;
 }
 
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ssagesBefore:(long long)arg1 hasMessagesAfter:(double)arg2;
-- (void)sary:(id)arg1;
-- (void)tiplePhoneNumbers;
-- (void)tChangesWithChangeType:(id)arg1;
-- (void)ockIdleStatusChanged:(id)arg1;
-- (void)MDIDSService;
-- (void)RecordUtilities;
-- (void)TUConversationManagerDelegate;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)ture. %s vs now %s;
-- (void)build with %ld identifiers;
-- (void)ess;
-- (_Bool)ld not be converted to CKRecord, marking it as clean and moving on.;
-- (id)location item:%@ to the corresponding chats with handleID:%@ hasStoredItem:%{BOOL}d broadcastChanges:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (id)und old message:%@  for error:%d /* Error: Ran out of types for this method. */;
-- (id)rcing an error here (%@);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (long long);
 - (void);
 - (_Bool);
-- (void)0@ù
-× ;
-- (void)!hDù1Èð1¢!0@ù
-× ;
-- (id)dexedAtom";
-- (void)taryOfKind:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
-- (id)erLine]|;
-- (id)and a valid non-nil restoration identifier, and the object must implement the UIStateRestoring protocol.;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)XDÑþ;
-- (id)úKe;
-- (void)Øßk;
-- (void);
+- (id);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (void)nge=QQ}q}24@0:(id)arg1 8q16;
+- (void)egateRespondsToWillChangeGlyphPathsBoundingRect"b1};
+- (void)Manager",R,N;
+- (id)ìEôGDH;
+- (_Bool)for %{public}@ with exported object %{public}@;
+- (void)q;
+- (void);
+- (id)6;
+- (void)­;
+- (void)<wÚ g;
+- (id)äúÖ0k;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBUndoControl *aCopyButtonView; // @synthesize aCopyButtonView=_aCopyButtonView;

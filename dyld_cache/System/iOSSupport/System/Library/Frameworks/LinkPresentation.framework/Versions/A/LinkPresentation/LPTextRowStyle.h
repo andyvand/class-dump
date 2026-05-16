@@ -18,11 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (id)@%;
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)Q°1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long balancingMode; // @synthesize balancingMode=_balancingMode;

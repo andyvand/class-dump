@@ -7,9 +7,10 @@
 @class NSDictionary, UIWindowScene;
 
 @protocol _UISceneBasedObject
-- (UIWindowScene *);
-- (NSDictionary *):path:/System/Library/Frameworks/AVKit.framework/AVKit /* Error: Ran out of types for this method. */;
-- (id)ngIntegratorState;
+- (_Bool);
+- (UIWindowScene *)UIFocusGroup * _Nonnull __strong, _UIFocusGroup * _Nonnull __strong);
+- (id)byte data;
+- (NSDictionary *)wDegreees;
 
 // Remaining properties
 @property(readonly) UIWindowScene *_intendedScene;

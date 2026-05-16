@@ -22,12 +22,12 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)ong:%@, default asset duration:%f, allows N-up:%s, number of clips:%ld, clips:%@> /* Error: Ran out of types for this method. */;
-- (id)ld>;
+- (id) ûÿ Fþÿ²ûÿgFþÿ¢ûÿgFþÿ\¢ûÿ@ûÿÐüÿ;
+- (id)yDirectory.lyBE8G/Sources/Photos_iosmac/workspaces/photosshared/PhotosUICore/PhotosUICore/ActionsCore/PXRenamePersonAction.m;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXPlacesGeotaggedItemDataSource> dataSource;

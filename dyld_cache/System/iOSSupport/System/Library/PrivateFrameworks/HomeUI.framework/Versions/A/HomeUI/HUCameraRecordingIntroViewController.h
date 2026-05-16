@@ -39,16 +39,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)1b0@ù
-× ;
-- (id)oningSizes: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long)öðì;
+- (void)meLayoutGuide;
+- (unsigned long long)Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *captionText; // @synthesize captionText=_captionText;

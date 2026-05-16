@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id).ù;
+- (id);
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;

@@ -31,20 +31,19 @@
 - (long long);
 - (id);
 - (unsigned long long);
-- (_Bool)#;
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)(;
-- (id);
-- (id);
 - (struct CGSize);
+- (void);
 - (CDStruct_6c92d79e);
-- (struct CGSize)P;
-- (void);
-- (id)A®Ð!AùqØ°1¢!0@ù
-× ;
+- (id);
+- (void);
+- (struct CGSize);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool canScrollDocumentViewHorizontally; // @synthesize canScrollDocumentViewHorizontally=_canScrollDocumentViewHorizontally;

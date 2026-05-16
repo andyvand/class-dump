@@ -5,9 +5,5 @@
 //
 
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool);
-- (_Bool)tingIfEmpty;
 @end
 

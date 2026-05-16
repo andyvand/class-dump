@@ -5,5 +5,8 @@
 //
 
 @protocol _TtP15ConversationKit37IMNicknameProviderForwardDeclarations_
+
+@optional
+- (void)@;
 @end
 

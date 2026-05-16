@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)t;
++ (id);
 + (id);
 + (void);
 + (struct CGSize);

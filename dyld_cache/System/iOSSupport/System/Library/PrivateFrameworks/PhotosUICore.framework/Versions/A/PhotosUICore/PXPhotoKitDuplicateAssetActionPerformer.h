@@ -23,9 +23,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)PublishAssetsToSharedAlbum(PHAssetCollection *__strong _Nonnull, __strong id<PXFastEnumeration> _Nonnull, NSString * _Nullable __strong, NSDictionary<NSString *,PHAssetCreationOptions *> * _Nullable __strong, __strong id<PXPresentationEnvironment> _Nonnull, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong))_block_invoke;
-- (long long)PeopleSelectionTitle;
+- (long long)sShelfTitle;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long action; // @synthesize action=_action;

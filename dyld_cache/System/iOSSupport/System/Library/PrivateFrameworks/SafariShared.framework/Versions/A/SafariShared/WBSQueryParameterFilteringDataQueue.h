@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)h;
+- (void);
+- (void)RL;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSQueryParameterFilteringData *currentData; // @synthesize currentData=_currentData;

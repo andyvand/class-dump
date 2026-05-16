@@ -12,24 +12,24 @@
     struct os_unfair_lock_s _lock;
 }
 
-+ (id)´ª0«Ô«;
++ (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)yMessagePayload;
-- (id)ic}@handleEventsUpdatedNotification:current events:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

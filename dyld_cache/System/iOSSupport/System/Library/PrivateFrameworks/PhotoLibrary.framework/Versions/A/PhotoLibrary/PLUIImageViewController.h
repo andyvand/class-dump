@@ -105,19 +105,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned short);
+- (id);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (void);
+- (unsigned short);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)0@ù
-× ;
+- (void)eo URL.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -8,6 +8,7 @@
 
 @interface PaperKit.CalculateScrubberController
 {
+    MISSING_TYPE *viewControllerForPresenting;
     MISSING_TYPE *viewController;
     MISSING_TYPE *scrubber;
     MISSING_TYPE *kSendValueTimeInterval;
@@ -23,9 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (long long);
 - (void);
+- (long long);
 - (id);
+- (void);
 - (long long);
 
 @end

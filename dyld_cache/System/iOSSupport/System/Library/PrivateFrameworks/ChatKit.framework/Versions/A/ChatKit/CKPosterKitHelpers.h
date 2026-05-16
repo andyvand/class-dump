@@ -8,11 +8,10 @@
 {
 }
 
-+ (id)e;
-+ (id)zero seconds;
-+ (id)amesForParticipants:(id)arg1 ];
-+ (void)iX
-;
++ (id);
++ (id);
++ (id);
++ (void);
 
 @end
 

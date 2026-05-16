@@ -29,8 +29,8 @@
 - (double);
 - (id);
 - (id);
-- (void);
-- (void)#Í4;
+- (void)qiIq}{?=qiIq}{?=qiIq}{?={?=qiIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}24q32;
+- (void))»Ç|ú;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAssetImportStatusManager> assetImportStatusManager; // @synthesize assetImportStatusManager=_assetImportStatusManager;

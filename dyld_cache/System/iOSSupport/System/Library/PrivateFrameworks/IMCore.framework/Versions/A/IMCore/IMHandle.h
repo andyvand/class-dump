@@ -85,20 +85,21 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (void);
 + (void);
-+ (_Bool)ousRemoteProxy;
-+ (void)text contains a part index that has been retracted, ignoring it.;
-+ (_Bool)fileTypeNotSupported;
++ (_Bool);
++ (void)!ÜGù1îð1Â0@ù
+× ;
++ (_Bool)tPropertiesChanges;
 - (_Bool);
 - (void);
 - (double);
 - (double);
 - (void);
-- (void)!;
+- (void);
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -109,13 +110,13 @@
 - (void);
 - (void);
 - (void);
-- (void)�);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -146,10 +147,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -159,6 +158,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -167,7 +168,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)P;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -177,10 +178,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -193,20 +194,11 @@
 - (id);
 - (void);
 - (id);
-- (long long)A;
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
 - (id);
 - (id);
@@ -214,54 +206,36 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool)`&;
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void)ystem/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/AppStoreDaemon;
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -269,12 +243,42 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (long long);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (id)C;
-- (void)tE23activityForegroundColoryQrAA0H0VSgF;
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -291,83 +295,62 @@
 - (id);
 - (struct __CFPhoneNumber *);
 - (id);
-- (id)nThreadAccessTraits<uint64_t>, unsigned long long>>={ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}16^v32 /* Error: Ran out of types for this method. */;
-- (long long)rnal/Library/BuildRoots/4~CJtcugBX4pFOe55FdDEAiiTwhDstBNurrfNzWAY/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14809:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void):(id)arg1:MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (_Bool)) [Key = WTF::Ref<WebCore::Element>, Value = WTF::Ref<WebCore::Element>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::Ref<WebCore::Element>>, Traits = WTF::HashTraits<WTF::Ref<WebCore::Element>>, KeyTraits = WTF::HashTraits<WTF::Ref<WebCore::Element>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashTraits<WTF::Ref<WebCore::Element>>, WTF::DefaultHash<WTF::Ref<WebCore::Element>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::Ref<WebCore::Element>] /* Error: Ran out of types for this method. */;
-- (id)sQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>::KeyValuePairTraits, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
-- (id)ne(value)
-{ if(value===undefined||value===null)
-return null;if(typeof value==="boolean"||typeof value==="number"||typeof value==="string")
-return value;if(this._isCollection(value)){this._checkCyclic(value);return[...value].map(item=>this._jsonClone(item));}
-if(value instanceof Node)
-return this._createNodeHandle(value);if(typeof value.toJSON==="function")
-return value.toJSON();let customObject={};for(let property in value){this._checkCyclic(value);customObject[property]=this._jsonClone(value[property]);}
-return customObject;}
-_createNodeHandle(node)
-{if(node.ownerDocument!==window.document||!node.isConnected)
-throw{name:"NodeNotFound",message:"Stale element found when trying to create the node handle"};return{[sessionNodePropertyName]:this._identifierForNode(node)};}
-_nodeForIdentifier(identifier)
-{if(!isValidNodeIdentifier(identifier))
-throw{name:"InvalidNodeIdentifier",message:"Node identifier '"+identifier+"' is invalid"};let node=this._idToNodeMap.get(identifier);if(node)
-return node;throw{name:"NodeNotFound",message:"Node with identifier '"+identifier+"' was not found"};}
-_identifierForNode(node)
-{let identifier=this._nodeToIdMap.get(node);if(identifier)
-return identifier;identifier="node-"+createUUID();this._nodeToIdMap.set(node,identifier);this._idToNodeMap.set(identifier,node);return identifier;}
-_clearStaleNodes()
-{for(var[node,identifier]of this._nodeToIdMap){const rootNode=node.getRootNode({composed:true});if(rootNode!==document){this._nodeToIdMap.delete(node);this._idToNodeMap.delete(identifier);}}}};return new AutomationSessionProxy;})
- /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (unsigned long long)`-;
-- (_Bool);
-- (id);
-- (id);
-- (void)B;
-- (void);
-- (id):(id)arg1;
-- (void);
-- (long long);
-- (_Bool);
 - (long long);
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)A;
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id)!;
-- (id);
 - (_Bool);
 - (id);
-- (id)(;
 - (id);
-- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (double);
 - (id);
 - (id);
 - (id);
-- (id)!aÐ!àBùq°1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (id),H;
-- (void)÷;
-- (_Bool)er than status from time %@. Not inferring a delivery type, as we likely have out of date status data.;
-- (id)Ü¸;
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (long long);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)ÑîÐ1Â0@ù
+× ;
+- (id)on;
+- (id):account:notifyInvitationCancelledFromPerson: /* Error: Ran out of types for this method. */;
+- (void)P9;
+- (_Bool)ÿÿ;
+- (_Bool)@;
+- (id)leted;
+- (void)pð;
+- (id)¤;
+- (long long),í4úÿ;
+- (void)M;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *ID; // @synthesize ID=_id;

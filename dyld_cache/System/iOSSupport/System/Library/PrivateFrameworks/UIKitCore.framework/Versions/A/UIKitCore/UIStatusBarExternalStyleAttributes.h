@@ -11,12 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (Class);
-- (double));
-- (id)_authorDisplayName;
-- (_Bool)tWithDOMRange:(int)arg1;
-- (long long)ConfigurationSupporting_Internal;
-- (long long)Kg;
+- (double)1Â0@ù
+× ;
+- (long long)InParentUIWindow;
+- (id)elegate>",W,N,V_delegate;
+- (long long);
+- (Class)@' relativeRangeBefore:(%lu, %lu) withNumAlternatives:%ld /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 @end
 

@@ -18,7 +18,7 @@
     double _backingScaleFactor;
 }
 
-+ (id)ML: /* Error: Ran out of types for this method. */;
++ (id);
 - (long long);
 - (void);
 - (void);
@@ -37,14 +37,15 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (void);
 - (id);
-- (void)pView"16;
-- (id)wsSecondaryButton:animated: /* Error: Ran out of types for this method. */;
-- (void)o performer for photos picker action, session:(id)arg1 %@;
-- (id)¸`5;
 - (void);
-- (void)ÿjPã[6;
+- (void)eLessActionName;
+- (id)gate;
+- (void)';
+- (void)óÿ
+Á|é4;
 
 // Remaining properties
 @property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;

@@ -21,9 +21,9 @@
 - (void);
 - (struct CGRect);
 - (double);
-- (struct CGRect)=%d %s=%d %s=%d %s=%d;
-- (void);
-- (double)attachment;
+- (double);
+- (struct CGRect);
+- (void)°j;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

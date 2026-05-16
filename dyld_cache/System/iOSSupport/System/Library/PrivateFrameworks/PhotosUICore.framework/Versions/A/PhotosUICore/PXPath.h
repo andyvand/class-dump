@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (struct CGPath *);
-- (void);
-- (id)eSidebarButton: /* Error: Ran out of types for this method. */;
-- (struct CGRect)<0$1ì2X3Ð4|6L8L9;d;P@|A¼A0GIÄUpV_TWYÜY]`];
+- (struct CGRect)eature.swift;
+- (void)AreaBottomInset;
+- (id)z;
 
 // Remaining properties
 @property(retain) struct CGPath *CGPath; // @synthesize CGPath=_CGPath;

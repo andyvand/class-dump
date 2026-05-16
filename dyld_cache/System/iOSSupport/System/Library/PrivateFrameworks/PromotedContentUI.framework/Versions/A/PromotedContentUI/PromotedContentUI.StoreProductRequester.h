@@ -20,8 +20,8 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (id)ironment: /* Error: Ran out of types for this method. */;
 
 @end
 

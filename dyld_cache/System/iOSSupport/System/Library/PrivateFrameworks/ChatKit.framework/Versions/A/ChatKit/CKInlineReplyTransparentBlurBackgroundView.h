@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_blurEffectView;
 }
 
-- (void)gIeyBy_;
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id)x;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;

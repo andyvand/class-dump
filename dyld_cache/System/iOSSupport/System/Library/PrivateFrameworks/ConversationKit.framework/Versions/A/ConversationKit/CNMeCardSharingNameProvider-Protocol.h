@@ -7,7 +7,8 @@
 @class NSString;
 
 @protocol CNMeCardSharingNameProvider
-- (NSString *)LWG±G;
-- (NSString *)articipantSubject;
+- (NSString *)Q8ÔÐd;
+- (NSString *)ÿ;
+- (NSString *);
 @end
 

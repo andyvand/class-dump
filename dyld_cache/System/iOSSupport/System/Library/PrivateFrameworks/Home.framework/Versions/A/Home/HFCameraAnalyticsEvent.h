@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)sorOff;
 
 // Remaining properties
 @property(nonatomic) __weak HMCameraClip *cameraClip; // @synthesize cameraClip=_cameraClip;

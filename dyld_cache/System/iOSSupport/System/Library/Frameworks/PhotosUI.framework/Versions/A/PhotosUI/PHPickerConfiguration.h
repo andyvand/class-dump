@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHPhotoLibrary, PHPickerFilter, _PHPickerAspectRatio, _PHPickerCollectionConfiguration, _PHPickerShareAlbumSheetConfiguration, _PHPickerSuggestionGroup;
+@class NSArray, NSData, NSString, PHPhotoLibrary, PHPickerFilter, _PHPickerAspectRatio, _PHPickerCollectionConfiguration, _PHPickerShareAlbumSheetConfiguration, _PHPickerSuggestionGroup;
 
 @interface PHPickerConfiguration
 {
@@ -29,6 +29,7 @@
     PHPhotoLibrary *_photoLibrary;
     _PHPickerSuggestionGroup *__suggestionGroup;
     NSString *__searchText;
+    NSData *__decoratedQueryData;
     long long _minimumSelectionLimit;
     long long __primaryButtonType;
     long long __secondaryButtonType;
@@ -53,6 +54,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -86,6 +88,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -112,26 +115,26 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
 - (long long);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)tContext;
-- (void);
-- (long long);
+- (long long);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setAlbumsConfiguration:) _PHPickerCollectionConfiguration *_albumsConfiguration; // @synthesize _albumsConfiguration=__albumsConfiguration;
@@ -141,6 +144,7 @@
 @property(nonatomic, setter=_setAlwaysShowLoadingPlaceholder:) _Bool _alwaysShowLoadingPlaceholder; // @synthesize _alwaysShowLoadingPlaceholder=__alwaysShowLoadingPlaceholder;
 @property(copy, nonatomic) _PHPickerAspectRatio *_aspectRatio; // @synthesize _aspectRatio=__aspectRatio;
 @property(copy, nonatomic) NSString *_containerIdentifier; // @synthesize _containerIdentifier=__containerIdentifier;
+@property(copy, nonatomic) NSData *_decoratedQueryData; // @synthesize _decoratedQueryData=__decoratedQueryData;
 @property(nonatomic, setter=_setDesiredCollectionSuggestions:) unsigned long long _desiredCollectionSuggestions; // @synthesize _desiredCollectionSuggestions=__desiredCollectionSuggestions;
 @property(nonatomic, setter=_setDisabledFeatures:) unsigned long long _disabledFeatures;
 @property(nonatomic, setter=_setDisabledPrivateCapabilities:) unsigned long long _disabledPrivateCapabilities; // @synthesize _disabledPrivateCapabilities=__disabledPrivateCapabilities;

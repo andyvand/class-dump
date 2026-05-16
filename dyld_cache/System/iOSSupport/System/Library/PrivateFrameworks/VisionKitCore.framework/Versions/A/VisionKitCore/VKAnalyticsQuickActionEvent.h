@@ -25,11 +25,13 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
 - (id);
 - (long long);
-- (long long):8^{CGPoint=dd}16{CGPoint=dd}24{CGRect={CGPoint=dd}{CGSize=dd}}40 /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
+- (void)aFÐ!tBù1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long eventType; // @synthesize eventType=_eventType;

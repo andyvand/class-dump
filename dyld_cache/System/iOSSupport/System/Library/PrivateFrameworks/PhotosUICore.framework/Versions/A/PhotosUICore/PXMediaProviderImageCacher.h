@@ -18,10 +18,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)PhotosLaunchScheduler;
 
 // Remaining properties
 @property(nonatomic) __weak PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;

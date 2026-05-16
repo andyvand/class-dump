@@ -23,13 +23,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void)nager;
-- (id)(r¼sPuvwØxhyz|Ø|;
-- (id);
-- (id)ultFeedProvider;
-- (void)Ú7;
+- (void)vironment's value outside of being installed on a View. This will always read the default value and will not update.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PXSectionedDataSource *dataSource; // @synthesize dataSource=_dataSource;

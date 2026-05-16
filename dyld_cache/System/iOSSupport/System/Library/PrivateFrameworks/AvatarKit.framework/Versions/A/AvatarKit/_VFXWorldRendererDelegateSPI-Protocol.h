@@ -5,8 +5,5 @@
 //
 
 @protocol _VFXWorldRendererDelegateSPI
-
-@optional
-- (void);
 @end
 

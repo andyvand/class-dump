@@ -19,10 +19,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id)ingObjectsFromArray: /* Error: Ran out of types for this method. */;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

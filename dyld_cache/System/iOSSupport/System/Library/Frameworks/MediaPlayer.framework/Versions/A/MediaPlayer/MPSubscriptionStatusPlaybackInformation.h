@@ -22,8 +22,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)udnessInfo;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDefinitiveInformation) _Bool definitiveInformation; // @synthesize definitiveInformation=_definitiveInformation;

@@ -7,7 +7,7 @@
 @class PXSecondaryToolbarController;
 
 @protocol PXSecondaryToolbarStyleGuideProvider
-- (struct CGSize)rgins:(PXSecondaryToolbarController *)arg1;
-- (double)essionWithDesiredPlayState:(PXSecondaryToolbarController *)arg1;
+- (struct UIEdgeInsets)ByString:(PXSecondaryToolbarController *)arg1;
+- (_Bool)requestID:(PXSecondaryToolbarController *)arg1 %ld asset:%p targetSize:%@ image:%@ gotFullQuality:%@ error:%@> /* Error: Ran out of types for this method. */;
 @end
 

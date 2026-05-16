@@ -18,36 +18,36 @@
 + (id);
 - (id);
 - (id);
-- (void)Ì;
-- (void)â²Ì;
-- (id)°myl«èÌ;
-- (id);
-- (id)¸ÔÌ;
-- (id)EÉ;
-- (id);
-- (id);
-- (_Bool)²Ì;
-- (_Bool)éÌ;
-- (id)0%EÉ;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void)umber;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ü0ÿÿ41ÿÿØ1ÿÿ2ÿÿT2ÿÿx2ÿÿ2ÿÿ¨2ÿÿÈ2ÿÿL3ÿÿ3ÿÿ¼3ÿÿô3ÿÿL4ÿÿ¤4ÿÿÜ4ÿÿ5ÿÿl5ÿÿ¤5ÿÿ¼5ÿÿà5ÿÿ 7ÿÿØ7ÿÿð7ÿÿ8ÿÿ,8ÿÿD8ÿÿd8ÿÿ8ÿÿ¨8ÿÿÀ8ÿÿØ8ÿÿð8ÿÿ9ÿÿD9ÿÿè9ÿÿ:(id)arg1 ÿÿ,:ÿÿ;ÿÿ;ÿÿ;ÿÿ¼;ÿÿ<ÿÿl<ÿÿÌ<ÿÿä<ÿÿü<ÿÿH>ÿÿä?ÿÿü?ÿÿ@ÿÿ,@ÿÿ@ÿÿAÿÿ¬AÿÿÌAÿÿìAÿÿBÿÿBÿÿ4BÿÿlBÿÿBÿÿ¨BÿÿôBÿÿCÿÿ4Cÿÿ\Cÿÿ¤Cÿÿ¼CÿÿäCÿÿDÿÿ<Dÿÿ\Dÿÿ|DÿÿDÿÿ¼DÿÿÔDÿÿEÿÿ4EÿÿtEÿÿÄEÿÿÈFÿÿàFÿÿøFÿÿ0Gÿÿ\GÿÿtGÿÿðGÿÿ8Hÿÿ /* Error: Ran out of types for this method. */;
+- (void)rBoundedNumber;
 
 @end
 

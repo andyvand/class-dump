@@ -13,14 +13,14 @@
 
 + (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (double);
 - (int);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id)O_READING_LIST;
 
 @end
 

@@ -16,12 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id)k;
-- (CDUnknownBlockType);
-- (void)!ÈGù1Á°1¢!0@ù
-× ;
-- (void)er;
+- (id),N,V_clonedDecorationAttributes;
+- (id)iewServiceSceneDelegate;
+- (void)can only be called from keyboard process;
+- (CDUnknownBlockType)ÿ@9ÛÀ_;
+- (void)ñÎÔf;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType breadcrumb; // @synthesize breadcrumb=_breadcrumb;

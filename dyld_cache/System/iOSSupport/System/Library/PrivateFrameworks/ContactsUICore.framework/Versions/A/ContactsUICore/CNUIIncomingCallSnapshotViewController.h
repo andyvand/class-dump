@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)fiersFound;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *nameString; // @synthesize nameString=_nameString;

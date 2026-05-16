@@ -11,8 +11,8 @@
     _Bool _autoDonateMessages;
 }
 
-+ (_Bool)statusChanged:handleInfo:) /* Error: Ran out of types for this method. */;
-- (unsigned char))k;
++ (_Bool);
+- (unsigned char);
 - (_Bool);
 - (id);
 - (id);

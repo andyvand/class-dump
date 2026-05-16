@@ -19,7 +19,7 @@
     FBSScene *_scene;
 }
 
-+ (id)ùÿ|²;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -27,13 +27,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)electedStyle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

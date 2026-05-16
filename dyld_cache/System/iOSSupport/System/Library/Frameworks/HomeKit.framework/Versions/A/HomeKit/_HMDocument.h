@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
 - (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)"HMCHIPEcosystem";
-- (id)Øì;
+- (void),V_anisetteData;
+- (id);
+- (id)ying clients of did update settings:(id)arg1 %@ delegate:(id *)arg2 %@;
 
 // Remaining properties
 @property(readonly, copy) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;

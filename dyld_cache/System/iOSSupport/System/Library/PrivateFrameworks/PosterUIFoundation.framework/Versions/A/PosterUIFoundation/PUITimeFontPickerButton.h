@@ -15,8 +15,8 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *contentLabel; // @synthesize contentLabel=_contentLabel;

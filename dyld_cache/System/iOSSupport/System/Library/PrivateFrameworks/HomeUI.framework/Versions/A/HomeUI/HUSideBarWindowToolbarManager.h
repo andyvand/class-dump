@@ -60,14 +60,14 @@
 - (unsigned long long);
 - (void);
 - (long long);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)nisball.fill;
 - (void);
-- (id)trollerDelegate>";
-- (void)SessionLanguageCode:(id)arg1;
-- (void)electedDateFromCell:(id)arg1 atOffset:(_Bool)arg2;
-- (id)ÿÖõj¼;
 
 // Remaining properties
 @property(retain, nonatomic) HOAppNavigator *appNavigator; // @synthesize appNavigator=_appNavigator;

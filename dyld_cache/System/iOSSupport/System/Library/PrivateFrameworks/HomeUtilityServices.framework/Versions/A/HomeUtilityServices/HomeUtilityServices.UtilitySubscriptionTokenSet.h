@@ -15,8 +15,8 @@
     MISSING_TYPE *tokenType;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

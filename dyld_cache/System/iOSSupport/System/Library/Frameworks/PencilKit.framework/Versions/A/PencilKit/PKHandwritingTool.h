@@ -16,11 +16,11 @@
 - (Class);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)+d,;
 - (id);
 
 // Remaining properties

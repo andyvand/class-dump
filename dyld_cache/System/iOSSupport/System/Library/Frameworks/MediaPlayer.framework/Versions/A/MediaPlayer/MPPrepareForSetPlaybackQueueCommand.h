@@ -15,10 +15,10 @@
 }
 
 - (id);
-- (id)rting;
-- (void);
 - (id);
 - (void);
+- (id);
+- (void)yRecordLabelArtwork__MAPPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *proactiveCommandOptions; // @synthesize proactiveCommandOptions=_proactiveCommandOptions;

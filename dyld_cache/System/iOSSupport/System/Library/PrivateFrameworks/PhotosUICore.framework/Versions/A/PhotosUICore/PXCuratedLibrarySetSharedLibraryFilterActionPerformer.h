@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id)pÞÿ~ûÊ8;
+- (id)ingContext;
 
 @end
 

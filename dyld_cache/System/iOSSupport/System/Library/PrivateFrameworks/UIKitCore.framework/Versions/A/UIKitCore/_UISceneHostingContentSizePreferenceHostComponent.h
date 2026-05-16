@@ -15,9 +15,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (struct CGSize);
-- (void);
-- (void);
+- (struct CGSize)Ô!!,Cùb1Â0@ù
+× ;
+- (void)Ô;
+- (void)wSceneOrderedPlacement;
 
 // Remaining properties
 @property(nonatomic, setter=setContentSizePreferenceReceiver:) __weak id <_UISceneHostingContentSizePreferenceHostReceiving> contentSizePreferenceReceiver; // @synthesize contentSizePreferenceReceiver=_contentSizePreferenceReceiver;

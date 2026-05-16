@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id),N,V_barSpec;
+- (id)Üd0e;
 - (void);
-- (id)sKóå4;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *activityCategory; // @synthesize activityCategory=_activityCategory;

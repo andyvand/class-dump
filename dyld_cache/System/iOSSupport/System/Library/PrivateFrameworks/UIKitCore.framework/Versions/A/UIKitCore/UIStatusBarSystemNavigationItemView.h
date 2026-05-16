@@ -19,25 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (void)Conversation:(int)arg1;
-- (double)tachments: /* Error: Ran out of types for this method. */;
-- (_Bool)Map;
-- (long long)didateGroupChatWithFromIdentifier:toIdentifier:displayName:participants:groupID: /* Error: Ran out of types for this method. */;
-- (double)_exitRecordDate;
-- (double)e",R,N,V_analyticRecordZone;
+- (void);
+- (double);
+- (_Bool);
+- (long long);
+- (double);
+- (double);
 - (int);
-- (double)x;
+- (double);
 - (_Bool);
 - (struct CGSize);
-- (id);
+- (void)_autofillContext;
+- (double)ÆÄÆÀÈ4ÉÊÎÏÏÐ×0ÞÞàhâ4ãàãÐä;
+- (void)dexPath:(id)arg1 item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (id)£;
 - (void);
-- (void);
-- (id)ParentPersistentID;
-- (double);
-- (void);
-- (void);
-- (id)0@ù
-× ;
+- (void)ÄxÚþjÄD;
+- (id)ïÜ¨`f;
+- (id)ÇÌÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

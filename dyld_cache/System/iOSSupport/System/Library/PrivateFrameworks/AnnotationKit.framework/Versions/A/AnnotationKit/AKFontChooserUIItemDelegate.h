@@ -11,13 +11,12 @@
     AKTextAttributesViewController *_parentController;
 }
 
-- (void);
-- (id)rfaceOrientation:(id)arg1;
-- (void);
 - (void);
 - (id);
-- (long long)Ð1¢!0@ù
-× ;
+- (void);
+- (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

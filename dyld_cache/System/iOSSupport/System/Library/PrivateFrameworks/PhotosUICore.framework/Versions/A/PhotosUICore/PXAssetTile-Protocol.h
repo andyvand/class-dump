@@ -7,7 +7,8 @@
 @class PXImageRequester;
 
 @protocol PXAssetTile
-- (void)LÎÿå_.<Îÿõ_. ÿ;
+- (double)¸ûÿ;
+- (void)shared album `%@`, with %lu subscribers;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius;

@@ -43,11 +43,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (long long);
 - (void);
 - (void);
-- (long long)ectedObjectIDs;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long axis; // @synthesize axis=_axis;

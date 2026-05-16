@@ -17,7 +17,7 @@
     _Bool _isHandTrackingEnabled;
 }
 
-+ (_Bool)AÍ×ín;
++ (_Bool)8@16Q24;
 - (void);
 - (void);
 - (void);
@@ -32,11 +32,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)BPÒ&;
+- (void)8M¸ÿ;
+- (id)pelineDescriptor;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

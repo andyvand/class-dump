@@ -7,10 +7,6 @@
 @protocol AVTTransitionModel;
 
 @protocol AVTTransition
-- (void);
-- (void)L�;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)edValidator;
 
 // Remaining properties
 @property(nonatomic) _Bool animated;

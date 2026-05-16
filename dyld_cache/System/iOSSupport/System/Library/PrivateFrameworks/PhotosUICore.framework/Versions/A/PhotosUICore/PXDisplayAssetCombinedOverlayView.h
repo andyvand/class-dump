@@ -48,16 +48,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
-- (void)dMediaProviderDidProcessAsset: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)b.ô°ÿb.ð°ÿb.ì°ÿ©b.äÿ;
-- (void)×¶6;
-- (id)28;
+- (void);
+- (id)úÐ!|EùqG°1â
+0@ù
+× ;
+- (void)ronment;
+- (void)rePlayNavigationGestureSchema;
+- (id)¨µÿõ,î6;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool canShowLoadingProgress; // @synthesize canShowLoadingProgress=_canShowLoadingProgress;

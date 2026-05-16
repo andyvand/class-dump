@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct _NSRange);
 - (id);
-- (void);
+- (void)17ElementIdentifierx;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange rangeToBeReplaced; // @synthesize rangeToBeReplaced=_rangeToBeReplaced;

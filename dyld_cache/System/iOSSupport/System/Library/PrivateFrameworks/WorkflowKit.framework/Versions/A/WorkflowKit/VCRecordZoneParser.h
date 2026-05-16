@@ -10,7 +10,7 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)D«`#Xªh¿<%GÉ;
++ (_Bool);
 + (CDUnknownBlockType);
 
 @end

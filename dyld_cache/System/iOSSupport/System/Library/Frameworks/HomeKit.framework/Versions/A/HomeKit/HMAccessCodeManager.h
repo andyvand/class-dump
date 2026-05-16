@@ -29,7 +29,7 @@
 + (id);
 + (id);
 + (long long);
-+ (id)soryAccessCodeConstraintsFetchResponseValue;
++ (id)teKey:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -57,17 +57,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id):£#s /* Error: Ran out of types for this method. */;
+- (void)aPeerToPeerEnabled:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ey are not unique accessories:%@ /* Error: Ran out of types for this method. */;
+- (id)%@ - %@, s/w:%@, upd:(%@, %@)] hh2:%d, numHomes:%lu, uuid:%@, mediaRouteID:%@, isPrimary:%d, wifi:%@, wifiRSSI:%@, securityType:%@, [eventrouter=> connected:%d date:%@, clients:%@] > /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

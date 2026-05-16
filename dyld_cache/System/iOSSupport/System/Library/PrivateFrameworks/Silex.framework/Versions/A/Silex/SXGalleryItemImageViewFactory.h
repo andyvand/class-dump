@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Range=QQ}16@"<TSWPStyleProvider>"32;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

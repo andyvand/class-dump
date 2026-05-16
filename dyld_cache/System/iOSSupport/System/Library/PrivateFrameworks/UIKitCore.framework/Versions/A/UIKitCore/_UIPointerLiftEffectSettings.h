@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)tSharedInstance: /* Error: Ran out of types for this method. */;
+- (void)etOriginalBackgroundConfiguration: /* Error: Ran out of types for this method. */;
 
 @end
 

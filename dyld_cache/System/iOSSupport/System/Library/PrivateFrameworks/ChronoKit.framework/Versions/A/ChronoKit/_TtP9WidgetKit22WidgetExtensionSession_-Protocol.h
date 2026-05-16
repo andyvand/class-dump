@@ -5,7 +5,6 @@
 //
 
 @protocol _TtP9WidgetKit22WidgetExtensionSession_
-- (void)Collection:more than 'count' elements in collection /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool boostToForegroundPriority;

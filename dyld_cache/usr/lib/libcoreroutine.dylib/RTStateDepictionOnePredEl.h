@@ -16,20 +16,20 @@
     double _density;
 }
 
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (double);
+- (double);
+- (double);
 - (int);
+- (void);
+- (void)%@, time since last training attempt, %@, time since last training success, %@;
 - (double);
-- (void);
-- (double);
-- (void)PreviousError:(double)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)anningChanged;
-- (void);
-- (void);
-- (void);
-- (void);
-- (double)Lite - All accounts %@;
-- (void);
-- (id)requiresAssert;
-- (double);
+- (void)^;
 
 // Remaining properties
 @property(nonatomic) double aggregateTime_s; // @synthesize aggregateTime_s=_aggregateTime_s;

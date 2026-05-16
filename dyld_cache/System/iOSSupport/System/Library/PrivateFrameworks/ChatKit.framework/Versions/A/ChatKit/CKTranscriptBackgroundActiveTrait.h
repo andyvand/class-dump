@@ -10,8 +10,8 @@
 
 + (_Bool);
 + (id);
-+ (id)dChatItems;
-+ (long long)opoverWillHide;
++ (id)guid:createdDate:shareURL: /* Error: Ran out of types for this method. */;
++ (long long)Ð,À;
 
 @end
 

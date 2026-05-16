@@ -10,14 +10,14 @@
 {
 }
 
-+ (_Bool)rkArtworkDataSource:_reEnableVideoCache:Increasing video URLCache memory capacity from 0 to default capacity. /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool)eId;
+- (_Bool);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

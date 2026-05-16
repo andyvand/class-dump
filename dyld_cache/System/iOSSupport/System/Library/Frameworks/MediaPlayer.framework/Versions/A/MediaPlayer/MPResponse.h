@@ -14,19 +14,19 @@
     id _builder;
 }
 
-+ (id)eAssessment;
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)iderMacOS favoriteSongsPlaylistPersistentID];
+- (void)_MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) id builder; // @synthesize builder=_builder;

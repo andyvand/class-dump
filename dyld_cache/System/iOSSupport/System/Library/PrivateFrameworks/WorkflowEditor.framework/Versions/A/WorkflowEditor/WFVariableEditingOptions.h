@@ -23,9 +23,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (unsigned long long);
-- (id);
+- (void)T;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WFVariableEditingAnchor *anchor; // @synthesize anchor=_anchor;

@@ -8,9 +8,9 @@
 @protocol _UIFluidSliderDirectDrivingDelegate;
 
 @protocol _UIFluidSliderDirectDriving
-- (id <_UIFluidSliderDirectDrivingDelegate>)pþÿ:üÿ /* Error: Ran out of types for this method. */;
-- (void)þ¬üÿ°üÿ°üÿ;
-- (UIPanGestureRecognizer *)ionIdentifier;
+- (void)!Bùñ`1Â0@ù
+× ;
+- (UIPanGestureRecognizer *)PÅ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFluidSliderDirectDrivingDelegate> delegate;

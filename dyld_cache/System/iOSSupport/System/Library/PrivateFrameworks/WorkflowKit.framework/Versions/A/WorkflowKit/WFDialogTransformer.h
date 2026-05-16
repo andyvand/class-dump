@@ -52,6 +52,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -72,10 +73,10 @@
 - (void);
 - (id);
 - (id);
-- (id)9479lk9Ä«9Û9°Ú9Ì9xê9Ä9¬¾94ÕÔäEÉ;
-- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void)xØÌ;
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -129,14 +130,12 @@
 - (void);
 - (void);
 - (id);
+- (long long);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
-- (long long);
-- (id)0@ù
-× ;
-- (void)"NSError">32;
-- (void)ð
-ÿÿÿÿÿ4;
+- (void)WFTrelloCardPosition;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *airPlayRouteIDs; // @synthesize airPlayRouteIDs=_airPlayRouteIDs;

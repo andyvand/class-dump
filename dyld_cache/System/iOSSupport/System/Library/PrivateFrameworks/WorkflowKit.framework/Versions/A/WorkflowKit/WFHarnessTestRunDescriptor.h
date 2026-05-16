@@ -16,7 +16,7 @@
     WFHarnessTestCase *_testCase;
 }
 
-+ (_Bool)extX);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -29,11 +29,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void)e.ShortcutsActions.ShowControlCenterAction;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool holdingSecurityScopedAccess; // @synthesize holdingSecurityScopedAccess=_holdingSecurityScopedAccess;

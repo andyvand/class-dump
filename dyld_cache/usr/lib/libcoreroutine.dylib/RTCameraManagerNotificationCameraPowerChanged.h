@@ -12,9 +12,9 @@
     long long _cameraType;
 }
 
-- (id);
 - (long long);
-- (long long)not satisfying:intermittentGNSSManager /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)tenceContextOptionsAllowTombstones.;
 
 // Remaining properties
 @property(readonly, nonatomic) long long cameraType; // @synthesize cameraType=_cameraType;

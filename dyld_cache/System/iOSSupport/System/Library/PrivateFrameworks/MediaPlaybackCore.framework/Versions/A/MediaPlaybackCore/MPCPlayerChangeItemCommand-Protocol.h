@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest, MPCPlayerResponseItem, MPCPlayerResponseSection;
-
 @protocol MPCPlayerChangeItemCommand
-- (MPCPlayerCommandRequest *);
-- (MPCPlayerCommandRequest *)%@, didSignOut:(MPCPlayerResponseSection *)arg1 %@ };
-- (MPCPlayerCommandRequest *)orRepair:(MPCPlayerResponseItem *)arg1 %@, wasModified:%@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
 @end
 

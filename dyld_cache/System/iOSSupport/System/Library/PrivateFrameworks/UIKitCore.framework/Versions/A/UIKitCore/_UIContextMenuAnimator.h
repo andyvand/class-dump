@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_completions;
 }
 
-+ (id)emoved participants:(id)arg1 %@);
++ (id);
 - (void);
 - (long long);
 - (void);
@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)ex:ofStorage: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)e`;
+- (id)ä;
+- (void)tedWindowHostingHandle"8@"_UIHostedWindowHostingHandle"16@"_UIHostedWindowHostingHandle"24;
+- (void)ætÊØd];
+- (void)¶÷þlìÛ`b;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;

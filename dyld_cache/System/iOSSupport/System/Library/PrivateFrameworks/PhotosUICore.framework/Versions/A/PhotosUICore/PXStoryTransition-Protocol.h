@@ -5,8 +5,8 @@
 //
 
 @protocol PXStoryTransition
-- (void)Ì§ûÿ;
-- (CDStruct_1b6d18a9)erIncludeFromMyMacSelected;
+- (BOOL);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler;

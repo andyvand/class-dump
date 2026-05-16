@@ -5,6 +5,5 @@
 //
 
 @protocol CUIKAttachmentDownloadControllerDelegate
-- (void);
 @end
 

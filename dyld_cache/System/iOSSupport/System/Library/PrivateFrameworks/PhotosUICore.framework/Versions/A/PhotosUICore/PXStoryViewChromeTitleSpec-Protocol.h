@@ -5,9 +5,8 @@
 //
 
 @protocol PXStoryViewChromeTitleSpec
-- (long long)eenReferenceRect: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets);
-- (long long)x!p;
+- (long long);
+- (long long)lves;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hidden;

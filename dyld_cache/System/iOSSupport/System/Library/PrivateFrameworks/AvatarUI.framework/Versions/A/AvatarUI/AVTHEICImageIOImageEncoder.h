@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)leBoundsSize: /* Error: Ran out of types for this method. */;
++ (id)16@?24;
 - (id);
 
 @end

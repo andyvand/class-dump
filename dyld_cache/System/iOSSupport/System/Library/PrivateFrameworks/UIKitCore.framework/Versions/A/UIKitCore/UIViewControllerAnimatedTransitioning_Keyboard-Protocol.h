@@ -5,6 +5,9 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning_Keyboard
-- (void)for item %lld;
+- (void)1Â0@ù
+× ;
+- (void)neligible environment %{public}@. Using fallback environment %{public}@ instead.
+%{public}@;
 @end
 

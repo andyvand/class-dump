@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)bled;
 
 // Remaining properties
 @property(readonly, nonatomic) PIParallaxColorPalette *palette; // @synthesize palette=_palette;

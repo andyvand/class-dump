@@ -12,8 +12,8 @@
     MISSING_TYPE *viewController;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

@@ -16,24 +16,24 @@
 }
 
 + (void);
++ (id);
 + (_Bool);
 + (_Bool);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
 - (long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) BSAuditToken *auditToken; // @synthesize auditToken=_auditToken;

@@ -5,6 +5,6 @@
 //
 
 @protocol UIDeferredMenuElementDelegate
-- (void)inDuration;
+- (void);
 @end
 

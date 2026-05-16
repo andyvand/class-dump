@@ -14,18 +14,18 @@
     NSMutableArray *_constraints;
 }
 
-- (void)background task;
-- (void)ds compatibility alert for device password mode…;
-- (id)sShared;
-- (id);
-- (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id)ÿ £57º0;
+- (id);
+- (void);
+- (void)ut;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *activityItemView; // @synthesize activityItemView=_activityItemView;

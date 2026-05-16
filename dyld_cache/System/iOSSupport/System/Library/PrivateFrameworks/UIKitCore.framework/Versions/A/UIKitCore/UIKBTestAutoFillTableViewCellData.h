@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)1¢!0@ù
+- (double)dÐ1Â0@ù
 × ;
-- (double)!y°!`BùÑÎ1¢!0@ù
-× ;
+- (void)aryWithIdentifier:(id)arg1;
+- (void)V)ÿ1;
 
 // Remaining properties
 @property(readonly, nonatomic) UITableViewCell *cell; // @synthesize cell=_cell;

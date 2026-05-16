@@ -7,7 +7,7 @@
 @class NSString, NSUUID;
 
 @protocol HMAccessCodeModificationRequestValue
-- (NSUUID *)ded;
+- (NSUUID *)ults;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID;

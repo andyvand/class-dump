@@ -21,8 +21,8 @@
 - (void);
 - (struct CGSize);
 - (struct CGRect);
-- (void);
 - (id);
+- (void)èÖÿÿìÿ¤Xÿ@d;
 
 // Remaining properties
 @property(nonatomic) struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;

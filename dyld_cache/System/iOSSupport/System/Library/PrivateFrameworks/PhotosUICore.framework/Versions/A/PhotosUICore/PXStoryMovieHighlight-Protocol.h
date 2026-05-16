@@ -7,7 +7,7 @@
 @class NSData;
 
 @protocol PXStoryMovieHighlight
-- (CDStruct_e83c9415)__assetsManager;
+- (CDStruct_e83c9415)24@?0@"NSString"8@"NSDictionary"16;
 
 // Remaining properties
 @property(readonly, nonatomic) float audioQualityScore;

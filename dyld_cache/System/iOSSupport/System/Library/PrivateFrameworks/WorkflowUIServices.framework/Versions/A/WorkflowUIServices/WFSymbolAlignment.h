@@ -10,8 +10,8 @@
 
 + (double);
 + (struct CGSize);
-- (void);
 - (id);
+- (void);
 
 @end
 

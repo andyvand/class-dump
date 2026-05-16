@@ -7,7 +7,6 @@
 @class MTLPointerType, MTLStructType;
 
 @protocol MTLBufferBinding
-- (MTLPointerType *);
 
 // Remaining properties
 @property(readonly) unsigned long long bufferAlignment;

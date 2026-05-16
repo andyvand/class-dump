@@ -11,13 +11,13 @@
 }
 
 - (id);
-- (id)(;
-- (void);
-- (double);
+- (id);
 - (struct CGSize);
 - (double);
-- (void)a;
-- (id)B;
+- (void);
+- (id);
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;

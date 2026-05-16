@@ -32,8 +32,8 @@
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
-- (void);
 - (unsigned char);
+- (void);
 - (void);
 - (void);
 

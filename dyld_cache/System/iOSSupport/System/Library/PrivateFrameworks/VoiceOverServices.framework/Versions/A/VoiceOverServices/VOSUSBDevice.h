@@ -13,19 +13,19 @@
     NSString *_address;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool)__oslogstring;
-- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool)itField;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *address; // @synthesize address=_address;

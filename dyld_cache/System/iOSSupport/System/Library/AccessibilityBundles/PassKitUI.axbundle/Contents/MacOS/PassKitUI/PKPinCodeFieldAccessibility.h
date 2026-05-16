@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (struct _NSRange);
-- (unsigned long long);
 - (_Bool);
 - (id);
+- (unsigned long long);
 - (id);
 
 @end

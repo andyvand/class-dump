@@ -6,8 +6,8 @@
 
 @interface (null) (TUI_NSStringExtras)
 + (id);
-- (struct CGSize)3æ|;
+- (struct CGSize);
 - (struct UIEdgeInsets);
-- (id);
+- (id);
 @end
 

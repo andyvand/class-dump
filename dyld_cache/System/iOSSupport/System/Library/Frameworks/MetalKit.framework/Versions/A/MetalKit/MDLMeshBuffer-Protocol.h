@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLMeshBufferMap;
 @protocol MDLMeshBufferAllocator, MDLMeshBufferZone;
 
 @protocol MDLMeshBuffer
-- (MDLMeshBufferMap *)m.ROWID = cm.message_id INNER JOIN chat c ON   c.ROWID = cm.chat_id WHERE   m.is_from_me = 0   AND m.is_played = 0   AND m.is_audio_message = 1   AND c.guid = ? ORDER BY m.ROWID ASC;
-- (unsigned long long)4;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator;

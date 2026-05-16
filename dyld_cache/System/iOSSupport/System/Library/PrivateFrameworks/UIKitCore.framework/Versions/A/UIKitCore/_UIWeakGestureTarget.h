@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
     SEL _action;
 }
 
-+ (SEL)ssage through Blastdoor name=(%@); reason=(%@);
-- (void)idFire;
++ (SEL);
 - (void);
-- (id)eeds to override -backgroundView.;
+- (id);
+- (void)CollectionViewCellC¬È;
 
 @end
 

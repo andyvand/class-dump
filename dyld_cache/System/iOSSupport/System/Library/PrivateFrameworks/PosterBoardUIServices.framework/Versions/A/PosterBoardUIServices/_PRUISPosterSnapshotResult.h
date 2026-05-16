@@ -36,9 +36,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (double);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundLayerImage; // @synthesize backgroundLayerImage=_backgroundLayerImage;

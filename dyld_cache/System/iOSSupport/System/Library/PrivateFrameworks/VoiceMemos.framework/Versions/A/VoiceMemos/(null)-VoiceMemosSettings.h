@@ -21,7 +21,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (long long);
 - (void);
+- (long long);
 @end
 

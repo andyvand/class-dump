@@ -24,12 +24,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
 - (unsigned long long);
 - (id);
-- (id)4;
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,9 +46,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)à;
 
 // Remaining properties
 @property(readonly, nonatomic) IMDMessageRecordBatchFetcher *batchFetcher; // @synthesize batchFetcher=_batchFetcher;

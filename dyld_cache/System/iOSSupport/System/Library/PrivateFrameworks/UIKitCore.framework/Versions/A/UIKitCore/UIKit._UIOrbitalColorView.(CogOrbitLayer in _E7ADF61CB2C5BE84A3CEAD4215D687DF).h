@@ -17,11 +17,12 @@
 }
 
 - (id);
-- (void)1¢!0@ù
+- (id);
+- (id)0@ù
 × ;
-- (id)nteraction;
-- (id)®a;
-- (void)ãj;
+- (void)w;
+- (void)<
+kþoÍpl;
 
 @end
 

@@ -59,8 +59,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)UServiceDetailsBridgeTitle;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *addOrShowHomeKeyItem; // @synthesize addOrShowHomeKeyItem=_addOrShowHomeKeyItem;

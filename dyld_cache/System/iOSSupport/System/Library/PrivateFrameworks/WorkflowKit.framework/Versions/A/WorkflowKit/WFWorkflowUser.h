@@ -30,13 +30,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (long long);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)@"WFRecordProperty"16@?0@"NSString"8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *dateJoined; // @synthesize dateJoined=_dateJoined;

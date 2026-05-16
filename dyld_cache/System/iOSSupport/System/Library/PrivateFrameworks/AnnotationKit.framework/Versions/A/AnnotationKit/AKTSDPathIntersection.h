@@ -21,9 +21,9 @@
 - (long long);
 - (double);
 - (void);
+- (id);
+- (long long);
 - (struct CGPoint);
-- (id)eIOS;
-- (long long)andler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint point; // @synthesize point=mPoint;

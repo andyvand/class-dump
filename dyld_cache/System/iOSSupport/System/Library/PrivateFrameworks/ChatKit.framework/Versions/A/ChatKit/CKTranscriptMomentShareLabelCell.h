@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 + (struct CGSize);
 + (id);
-- (void)L;
-- (id);
 - (void);
 - (id);
-- (void);
-- (id)nformsToType:(struct CGRect)arg1;
+- (id);
+- (id)WithGlassSendAnimation;
+- (void)HyAG×B\GY²GAJy;
+- (void)SMPickerPageIndicatorColor2;
 
 @end
 

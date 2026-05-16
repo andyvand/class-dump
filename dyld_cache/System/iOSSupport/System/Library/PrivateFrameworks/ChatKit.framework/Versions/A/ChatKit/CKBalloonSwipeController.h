@@ -21,19 +21,19 @@
 }
 
 - (_Bool);
-- (void)iewControllerC;
-- (void);
-- (void);
-- (void).;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ot fixing inline attachment for string because range is invalid {attachment:%@} /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)save a read-only share (%@) for object:%@ /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)mpletionHandler:] /* Error: Ran out of types for this method. */;
-- (double)rObject:accountID:container:qualityOfService:retryPrepHandler:completionHandler:] /* Error: Ran out of types for this method. */;
-- (_Bool)makeDecisionForMovingModernObjectsToVirtualDestination];
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (double);
+- (_Bool);
 - (_Bool);
 - (double);
 - (id);
@@ -51,7 +51,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)alVibrantOuterStrokeLayer;
 
 // Remaining properties
 @property(retain, nonatomic) CKBalloonView *balloonView; // @synthesize balloonView=_balloonView;

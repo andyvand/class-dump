@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     HMHomeManager *_manager;
 }
 
-+ (id)te;
++ (id)hWalleKeyExpressEnablementConflictingPassDescription:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void)V_snapshotControl;
+- (id)emoveRoomRequestKey;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

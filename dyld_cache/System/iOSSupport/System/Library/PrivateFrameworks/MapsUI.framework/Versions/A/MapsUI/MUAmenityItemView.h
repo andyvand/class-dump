@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)½úÿr®ù;	;
+- (void),V_canShowDetourTime;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <MUAmenityItemViewModel> viewModel; // @synthesize viewModel=_viewModel;

@@ -5,10 +5,5 @@
 //
 
 @protocol TSWPLayoutParent
-
-@optional
-- (_Bool);
-- (Class);
-- (struct CGSize);
 @end
 

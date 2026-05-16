@@ -4,21 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MPVolumeControllerDataSource;
-
 @protocol MPVolumeControllerDataSourceDelegate
-- (void)gForWatchOSBundleID:(id <MPVolumeControllerDataSource>)arg1;
-- (void)ySharedCache:(id <MPVolumeControllerDataSource>)arg1;
-- (void)ns:(id <MPVolumeControllerDataSource>)arg1 bundleIdentifier:(NSString *)arg2 primaryWebDomain:canonicalBundleIdentifier: /* Error: Ran out of types for this method. */;
-- (void)rContextResponse:(id <MPVolumeControllerDataSource>)arg1;
-- (void)tegoryIdentifier:(id <MPVolumeControllerDataSource>)arg1;
-
-@optional
-- (void)@"NSArray";
-- (void)@24@32@40@48@56;
-- (void)";
-- (void)onOrderedSet:(id <MPVolumeControllerDataSource>)arg1;
-- (void)ily:(id <MPVolumeControllerDataSource>)arg1;
 @end
 

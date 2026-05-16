@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void)PlayerViewController";
 
 // Remaining properties
 @property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;

@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)epModeChangeReason"b1"sleepModeState"b1};
-- (void)validator;
-- (void)ghlightIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 
 @end
 

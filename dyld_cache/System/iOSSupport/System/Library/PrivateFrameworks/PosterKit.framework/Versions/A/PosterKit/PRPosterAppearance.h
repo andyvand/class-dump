@@ -18,9 +18,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
 - (_Bool);
-- (void);
+- (id);
+- (void)¨°!¼Gù±ñ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIFont *font; // @synthesize font=_font;

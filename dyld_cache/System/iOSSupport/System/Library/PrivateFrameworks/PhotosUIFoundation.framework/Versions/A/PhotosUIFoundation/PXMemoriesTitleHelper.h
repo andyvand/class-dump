@@ -24,10 +24,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (double);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) double minimumScaleFactor; // @synthesize minimumScaleFactor=_minimumScaleFactor;

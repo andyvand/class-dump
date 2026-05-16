@@ -43,11 +43,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)T];
 - (void);
 - (id);
+- (void);
+- (void)o_íïG;
 
 @end
 

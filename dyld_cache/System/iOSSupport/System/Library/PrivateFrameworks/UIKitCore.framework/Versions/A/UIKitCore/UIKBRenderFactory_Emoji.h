@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)StateEnabledReturned [%{bool}d] setting up...;
-- (id)accountRemoved %@;
-- (id)ed as blackholed by TrustKit:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

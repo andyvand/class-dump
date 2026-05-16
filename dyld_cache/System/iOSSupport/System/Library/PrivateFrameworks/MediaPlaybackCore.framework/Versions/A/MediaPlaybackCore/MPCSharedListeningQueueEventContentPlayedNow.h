@@ -13,12 +13,12 @@
     MPModelGenericObject *_startItem;
 }
 
-- (id)A;
 - (id);
-- (void);
 - (id);
-- (id)ation (%{public}f) is too short;
-- (id)earMoviePlayback;
+- (id);
+- (id);
+- (id)@t;
+- (void)urces triggered load] autoPlayState=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *container; // @synthesize container=_container;

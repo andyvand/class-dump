@@ -17,7 +17,8 @@
     NSHashTable *_observers;
 }
 
-+ (id);
++ (id)0@ù
+× ;
 - (void);
 - (id);
 - (id);
@@ -27,13 +28,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

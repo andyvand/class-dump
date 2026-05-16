@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)Timestamp:title:content:summary:publication: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

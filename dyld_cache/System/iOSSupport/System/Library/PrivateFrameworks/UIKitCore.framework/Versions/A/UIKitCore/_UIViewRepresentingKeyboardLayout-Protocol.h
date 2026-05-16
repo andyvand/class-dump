@@ -7,8 +7,8 @@
 @class NSArray, UIKeyboardLayout;
 
 @protocol _UIViewRepresentingKeyboardLayout
-- (NSArray *)1¢!0@ù
-× ;
-- (UIKeyboardLayout *)LoupeInteraction: /* Error: Ran out of types for this method. */;
+- (NSArray *)have unique identifiers, or ensure the existing action is removed or replaced by the new action.
+;
+- (UIKeyboardLayout *);
 @end
 

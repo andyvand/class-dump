@@ -40,12 +40,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
 - (id);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)eredImageForRecrop: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *docInfos; // @synthesize docInfos=_docInfos;

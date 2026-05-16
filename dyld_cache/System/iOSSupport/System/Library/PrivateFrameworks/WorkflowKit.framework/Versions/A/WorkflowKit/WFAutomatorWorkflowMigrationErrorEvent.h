@@ -18,11 +18,11 @@
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)èæ;
+- (id)ameter Summary);
+- (void)de (Action Name);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *automatorActionIdentifier; // @synthesize automatorActionIdentifier=_automatorActionIdentifier;

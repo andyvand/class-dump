@@ -5,8 +5,5 @@
 //
 
 @protocol WebResourceLoadDelegate
-
-@optional
-- (void);
 @end
 

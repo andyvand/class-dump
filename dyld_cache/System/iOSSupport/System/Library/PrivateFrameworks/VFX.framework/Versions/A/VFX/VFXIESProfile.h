@@ -14,15 +14,15 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)y>"16^@24;
 - (const struct __CFXIESInfo *);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)@@@@@@@@}16@24;
+- (void)lutePathStorage;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

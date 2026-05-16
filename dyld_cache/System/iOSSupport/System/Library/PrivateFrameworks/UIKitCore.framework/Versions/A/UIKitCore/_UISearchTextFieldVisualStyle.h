@@ -11,8 +11,8 @@
     UISearchTextField *_searchTextField;
 }
 
-+ (double)ÎÁ·k;
-- (_Bool)read AP Ticket;
++ (double);
+- (_Bool);
 - (double);
 - (double);
 - (double);
@@ -23,17 +23,21 @@
 - (id);
 - (id);
 - (id);
-- (double)8@16@24@32@40@48@56@64@72@80@88@96@104@112@120;
+- (id);
+- (double);
+- (id);
 - (double);
 - (double);
-- (id)ing *getITLibMediaItemPropertyUserSkipCount();
+- (double);
+- (double);
+- (double);
+- (void)Bùqd1Â0@ù
+× ;
+- (void)tViewControllerColumn:(_Bool)arg1;
+- (double)ionUpdates;
+- (id)LastUsedInputModeTimer;
 - (void);
-- (id)Ô ;
-- (id)tag: /* Error: Ran out of types for this method. */;
-- (double)_completionBlock;
-- (id);
-- (double);
-- (double)Àÿ3 H;
+- (id)çnþ13Üíÿ13;
 
 // Remaining properties
 @property(readonly, nonatomic) double backgroundCornerRadius;

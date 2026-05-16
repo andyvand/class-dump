@@ -10,13 +10,13 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (_Bool);
+- (unsigned long long);
 - (id);
 
 @end

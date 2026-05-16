@@ -21,28 +21,27 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (double);
-- (id);
-- (id)tions;
++ (double)ingSpacerType;
 - (id);
 - (id);
-- (void)loadLDAPAccountDescription;
-- (void);
-- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (id);
-- (long long);
 - (void);
-- (id)ù
-× ;
-- (void)leAndMessageLabelVibrantContainerViewConstraints"b1"hasAppliedTitleConstraints"b1"hasAppliedMessageConstraints"b1"hasAppliedDetailConstraints"b1"presentedAsPopover"b1"hasDimmingView"b1"cancelActionIsDiscrete"b1"shouldHaveBackdropView"b1"alignsToKeyboard"b1"hasCachedLargestActionDimension"b1"needsActionsChangedHandling"b1"needsUpdateForPropertyChange"b1};
-- (struct UIEdgeInsets)foreground highlight. This should never happen but it did, so using yellow;
-- (id)here are no scenes;
-- (void)nScheduler;
-- (void)à[;
+- (long long)SArray"16@"_UIFeedback"24d32;
+- (void)hasNonContiguousLayout;
+- (id)icationInfo;
+- (void)eToFocusUpdate,S_setDeferViewUpdateToFocusUpdate:(_Bool)arg1;
+- (void)d Vertical Movement;
+- (void)233333Ã?;
+- (struct UIEdgeInsets)æþ;
+- (id)tþ)43 	tþa43è	tþ143	tþ;
+- (void)¤d];
 - (void);
-- (_Bool)];
-- (void)];
+- (void)ðëÊÿ;
+- (id)Øÿ;
+- (_Bool)þ	t;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

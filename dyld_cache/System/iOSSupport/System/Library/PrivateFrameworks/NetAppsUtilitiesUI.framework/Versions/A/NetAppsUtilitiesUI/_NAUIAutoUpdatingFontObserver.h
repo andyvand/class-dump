@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id target; // @synthesize target=_target;

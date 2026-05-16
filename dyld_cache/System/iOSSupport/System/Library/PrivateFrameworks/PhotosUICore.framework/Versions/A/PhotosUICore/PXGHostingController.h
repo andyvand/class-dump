@@ -32,7 +32,7 @@
     PXApplicationState *_mainQueue_applicationState;
 }
 
-+ (id)EventsCellCollageStyle;
++ (id)N_PHOTOS;
 - (void);
 - (void);
 - (void);
@@ -76,18 +76,18 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id)d}ûÿ;
+- (void)entWriter;
 - (struct os_unfair_lock_s);
 - (void);
-- (id);
-- (id)çÿÄ«çÿ¬¬çÿØ¬çÿ4­çÿ ­çÿÄ­çÿ;
-- (void)ÿì<ÿ;
-- (void)ÿYMâL6;
-- (id)xðºÿãþ°¸7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;

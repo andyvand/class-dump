@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSURL;
+@class NSFileManager, NSURL, PFTFuture;
 
 @protocol PUIPosterSnapshotCache
-- (NSFileManager *)àªnyABy7nyq¥nµnGAYGGGSgtGGt1ÎGGGGADGØ¯nGA15_GGì¯nySbGGG;
+- (PFTFuture *)criptionActive;
+- (NSFileManager *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL;

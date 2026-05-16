@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)putDelegate: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *currentContentSizeCategory;

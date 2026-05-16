@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void)0;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)?;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentPageIndex; // @synthesize currentPageIndex;

@@ -5,12 +5,5 @@
 //
 
 @protocol UIKBAutoFillTestTaggerViewDelegate
-
-@optional
-- (void);
-- (void)emoryMultiCopyDigest is not implemented;
-- (long long)ncombined data;
-- (long long)late;
-- (void)failed;
 @end
 

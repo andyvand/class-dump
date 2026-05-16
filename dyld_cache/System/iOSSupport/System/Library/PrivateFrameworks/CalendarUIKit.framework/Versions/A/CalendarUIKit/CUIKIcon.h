@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,12 +30,12 @@
 - (void);
 - (id);
 - (id);
-- (void)?-;
 - (void);
 - (id);
 - (id);
-- (long long)#;
-- (id)UIKit/EventEditViewControllerManagerImpl.swift;
+- (long long);
+- (void)CalendarIsEnabled:withAccountStore: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;

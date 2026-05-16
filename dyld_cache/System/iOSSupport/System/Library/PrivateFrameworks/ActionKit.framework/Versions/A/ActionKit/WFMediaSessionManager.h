@@ -16,12 +16,12 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)host acknowledge for EOF (return code = %i);
+- (void)5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/JXHTTP/JXHTTP/JXHTTPOperation+Convenience.m;
+- (id)or this event.;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSBag *bag; // @synthesize bag=_bag;

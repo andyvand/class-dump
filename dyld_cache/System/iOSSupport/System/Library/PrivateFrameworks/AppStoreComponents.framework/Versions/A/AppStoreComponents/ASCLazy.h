@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct os_unfair_lock_s);
 - (id);
-- (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType factory; // @synthesize factory=_factory;

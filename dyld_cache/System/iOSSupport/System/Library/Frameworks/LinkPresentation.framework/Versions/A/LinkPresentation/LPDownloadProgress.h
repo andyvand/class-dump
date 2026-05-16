@@ -16,12 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
-- (id)ata;
-- (void);
-- (double);
+- (id);
 - (void);
 - (_Bool);
+- (double);
+- (void);
+- (void)qð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;

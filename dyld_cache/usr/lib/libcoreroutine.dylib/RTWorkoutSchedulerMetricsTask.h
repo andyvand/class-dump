@@ -26,7 +26,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id)I;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -34,18 +34,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long)@�?;
+- (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void)uration-changed;
-- (id);
-- (unsigned long long)Ô ;
+- (id)ng5MinPlusWait;
+- (void)s device is not active and Zelkova RemoteControl is not enabled; skip and do nothing;
+- (unsigned long long)onitoring after exiting a visit;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentNAtFinish; // @synthesize currentNAtFinish=_currentNAtFinish;

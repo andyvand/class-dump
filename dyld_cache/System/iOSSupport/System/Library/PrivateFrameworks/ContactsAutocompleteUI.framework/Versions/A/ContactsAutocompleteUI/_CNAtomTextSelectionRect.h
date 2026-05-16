@@ -13,10 +13,10 @@
 
 - (void);
 - (void);
-- (_Bool)k;
 - (_Bool);
+- (_Bool);
+- (struct CGRect);
 - (void);
-- (struct CGRect)û¾;
 
 // Remaining properties
 @property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;

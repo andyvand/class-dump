@@ -30,13 +30,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)#;
-- (void);
 - (id);
-- (unsigned long long);
 - (void);
+- (unsigned long long);
+- (id);
 - (double);
-- (struct CGSize);
+- (void)ate;
+- (struct CGSize)ÿÿ,;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColorForEmptySlots; // @synthesize backgroundColorForEmptySlots=_backgroundColorForEmptySlots;

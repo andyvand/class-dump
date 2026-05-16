@@ -14,7 +14,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)teColor;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

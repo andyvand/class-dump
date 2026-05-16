@@ -19,7 +19,7 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ndAllocator>"32@0:8@"MTL4CommandAllocatorDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (struct btConeTwistConstraint *);
 - (struct btTypedConstraint *);
 - (void);
@@ -35,9 +35,9 @@
 - (id);
 - (CDStruct_14d5dc5e);
 - (CDStruct_14d5dc5e);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 

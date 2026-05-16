@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)0;
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void)Color;
 
 // Remaining properties
 @property(retain) NSArray *detachedEvents; // @synthesize detachedEvents=_detachedEvents;

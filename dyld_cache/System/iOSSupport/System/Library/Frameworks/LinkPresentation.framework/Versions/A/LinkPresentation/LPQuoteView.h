@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -44,25 +44,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (double);
 - (_Bool);
+- (double);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
 - (double);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)&;
-- (id);
 - (struct CGSize);
-- (id)ÿÿ;
+- (id);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (void);
+- (void)á÷!è@ùQÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAttributedString *attributedString;

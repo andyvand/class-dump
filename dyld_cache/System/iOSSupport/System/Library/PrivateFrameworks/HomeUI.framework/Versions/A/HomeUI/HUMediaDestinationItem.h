@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Format;
 
 // Remaining properties
 @property(readonly) HUHomeTheaterAudioItemModule *homeTheaterAudioItemModule; // @synthesize homeTheaterAudioItemModule=_homeTheaterAudioItemModule;

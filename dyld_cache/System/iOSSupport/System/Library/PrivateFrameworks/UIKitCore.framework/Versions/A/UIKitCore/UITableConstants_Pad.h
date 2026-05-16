@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)ckTintColor;
 - (_Bool);
 - (id);
-- (struct _UITableConstantsBackgroundProperties)adAttachmentPreviewTranscodingQualitySizeCarrierValueForPhoneNumber:(long long)arg1 simID:(id)arg2;
-- (double)bscriptionService;
-- (double)sSubscriptionService",&,N,V_availabilitySubscriptionService;
-- (struct UIEdgeInsets)@"NSString",C,N,V_associatedMessageEmoji;
-- (struct _UITableConstantsBackgroundProperties)tionary",R,N,V_nicknamesForParticipants;
+- (struct _UITableConstantsBackgroundProperties);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (struct _UITableConstantsBackgroundProperties);
 - (double);
 
 @end

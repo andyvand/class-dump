@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *lastPanGestureRecognizerPositionInCollectionViewCoordinates;
 }
 
-- (void)w:(struct CGRect)arg1;
+- (void);
 - (CDUnknownBlockType);
-- (_Bool);
 - (id);
-- (struct CGSize)h@9H;
 - (id);
-- (id)3;
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)­,;
-- (id);
+- (struct CGSize)tSize;
+- (_Bool)î;
+- (id)¬¢;
+- (void);
+- (id);
+- (void)øå#ÿ]O;
+- (id);
+- (id).;
+- (id)4?/;
+- (id)80;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;

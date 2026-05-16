@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned long long _options;
 }
 
-+ (id)e;
 + (id);
++ (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -24,15 +24,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (void)ÿ;
-- (void)®yY®yAEyAfGyAhByA_yAHx>G_A_yAHx>GA_yAHx>GtGAXGG_Qo__Qo__A33_Qo__Qo_G_A39_Qo_tGG;
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (void)e;
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;

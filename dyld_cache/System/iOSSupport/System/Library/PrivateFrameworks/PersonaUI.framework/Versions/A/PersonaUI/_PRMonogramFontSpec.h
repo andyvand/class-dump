@@ -13,11 +13,11 @@
     double _tracking;
 }
 
-+ (id);
++ (id);
 - (double);
-- (void);
-- (double);
 - (id);
+- (void);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double baseSize; // @synthesize baseSize=_baseSize;

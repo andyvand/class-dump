@@ -16,7 +16,7 @@
     CDUnknownBlockType _highlightFetchBlock;
 }
 
-+ (id)Ò99;
++ (id);
 - (void);
 - (id);
 - (void);
@@ -28,8 +28,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

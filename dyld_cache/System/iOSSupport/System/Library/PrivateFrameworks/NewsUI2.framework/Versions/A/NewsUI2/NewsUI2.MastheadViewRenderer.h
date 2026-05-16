@@ -9,7 +9,6 @@
 @interface NewsUI2.MastheadViewRenderer
 {
     MISSING_TYPE *styler;
-    MISSING_TYPE *backgroundImageCache;
 }
 
 @end

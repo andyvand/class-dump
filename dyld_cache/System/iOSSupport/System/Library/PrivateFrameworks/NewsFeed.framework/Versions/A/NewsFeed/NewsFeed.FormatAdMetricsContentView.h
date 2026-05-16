@@ -9,9 +9,10 @@
     long long privacyMarkerPosition;
 }
 
-- (long long)<˟;
+- (long long);
 - (id);
-- (id)zleDataManagerDelegateP;
+- (id)¡îð!L@ùÿ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long privacyMarkerPosition; // @synthesize privacyMarkerPosition;

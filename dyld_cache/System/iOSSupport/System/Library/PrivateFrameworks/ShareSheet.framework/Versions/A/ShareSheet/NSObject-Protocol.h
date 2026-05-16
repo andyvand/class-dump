@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)GPoint=dd}32B48B52;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

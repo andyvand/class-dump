@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)private key file:Wrong passphrase or invalid/unrecognized private key file format /* Error: Ran out of types for this method. */;
-- (void);
+- (long long)NotebookWithContext: /* Error: Ran out of types for this method. */;
+- (void)s not a valid web feed document.;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

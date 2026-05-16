@@ -7,6 +7,6 @@
 @protocol _UIUserInterfaceValidations
 
 @optional
-- (_Bool)0:(SEL)arg1 8d16B24B28@?32;
+- (_Bool)|| insertAbsolute;
 @end
 

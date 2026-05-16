@@ -24,9 +24,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Ô ;
+- (void);
+- (id)entsOfURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *locales; // @synthesize locales=_locales;

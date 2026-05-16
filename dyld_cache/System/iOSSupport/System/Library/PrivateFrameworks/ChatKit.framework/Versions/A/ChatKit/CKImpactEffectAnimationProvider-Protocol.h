@@ -5,8 +5,5 @@
 //
 
 @protocol CKImpactEffectAnimationProvider
-- (void);
-- (void);
-- (void)e;
 @end
 

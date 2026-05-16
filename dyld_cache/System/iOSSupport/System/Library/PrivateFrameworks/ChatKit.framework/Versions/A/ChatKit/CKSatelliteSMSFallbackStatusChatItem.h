@@ -13,19 +13,19 @@
     NSAttributedString *_smsFallbackStatusTitleLabelAttributedText;
 }
 
-- (void)ation:textContainer: /* Error: Ran out of types for this method. */;
-- (BOOL)iew: /* Error: Ran out of types for this method. */;
-- (id)AtLocationToAttachment: /* Error: Ran out of types for this method. */;
-- (void)thenticatedAt;
+- (void);
+- (BOOL);
+- (id);
+- (void);
 - (id);
 - (struct CGSize);
-- (id)tGG;
-- (id)s;
+- (id);
+- (id);
 - (_Bool);
-- (Class);
 - (struct UIEdgeInsets);
-- (void);
-- (unsigned long long)Controller: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long)loudKitSyncState";
+- (void)ÿ- ;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *smsFallbackStatusTitleLabelAttributedText; // @synthesize smsFallbackStatusTitleLabelAttributedText=_smsFallbackStatusTitleLabelAttributedText;

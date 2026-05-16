@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
+@class CALayer, NSString;
+@protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
-- (void)thesisDataCollector:(CALayer *)arg1;
+- (id <CAAction>)s:(CALayer *)arg1 count:(NSString *)arg2;
 @end
 

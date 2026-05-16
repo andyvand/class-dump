@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)16{CGPoint=dd}24;
-- (void);
-- (_Bool);
+- (_Bool)sition"16@"UITextRange"24;
+- (_Bool)ateIfKeyboardStateChanged;
+- (id)cessibility_triggerBarButtonItem:(struct _NSZone *)arg1;
+- (void)inition;
 
 @end
 

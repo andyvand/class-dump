@@ -13,13 +13,13 @@
     NSTimeZone *_timeZone;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cityName; // @synthesize cityName=_cityName;

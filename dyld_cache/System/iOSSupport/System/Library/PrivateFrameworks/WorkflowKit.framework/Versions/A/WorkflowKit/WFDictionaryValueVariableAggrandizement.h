@@ -16,7 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *dictionaryKey;

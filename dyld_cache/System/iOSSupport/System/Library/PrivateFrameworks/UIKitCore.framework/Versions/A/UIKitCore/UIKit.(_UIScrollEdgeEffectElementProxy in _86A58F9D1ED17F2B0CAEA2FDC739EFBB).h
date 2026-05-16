@@ -18,9 +18,9 @@
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (_Bool);
-- (void);
-- (long long)rop;
-- (id),&,N,V_selectionTintColor;
+- (id);
+- (void).X;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _requiresPocket; // @synthesize _requiresPocket;

@@ -7,9 +7,7 @@
 @protocol IDSServiceDelegate
 
 @optional
-- (void)K;
-- (void)à;
-- (void)erUTITypeKey;
-- (void);
+- (void)dÿÿ¸dÿÿeÿÿ eÿÿÀeÿÿàeÿÿøeÿÿ0fÿÿTfÿÿlfÿÿfÿÿ¤fÿÿ gÿÿgÿÿ¸gÿÿügÿÿ4hÿÿ<jÿÿTjÿÿÜjÿÿ4kÿÿTkÿÿ;
+- (void)74f63-6caf-11e7-8569-c753b1bff6fa;
 @end
 

@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (long long)gEffectPossible;
 - (void);
+- (long long);
+- (void)d;
 
 // Remaining properties
 @property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;

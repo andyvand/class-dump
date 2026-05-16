@@ -18,13 +18,13 @@
 + (id);
 + (id);
 + (id);
-- (id)%;
+- (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)ion _cancelTypeToSiriLatencyTimerIfNeeded];
-- (void);
+- (_Bool);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hide; // @synthesize hide=_hide;

@@ -15,11 +15,11 @@
 - (id);
 - (id);
 - (struct PXAssetBadgeInfo);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)nimationForKeyPath:ofReusableView:toLayoutAttributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct PXAssetBadgeInfo badgeInfo; // @synthesize badgeInfo=_badgeInfo;

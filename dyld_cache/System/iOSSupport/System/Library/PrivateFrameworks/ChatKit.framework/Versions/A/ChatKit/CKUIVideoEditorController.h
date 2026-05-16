@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)omArray:(_Bool)arg1 withKey:keySpace: /* Error: Ran out of types for this method. */;
-- (void)ta:(_Bool)arg1;
-- (_Bool)lete;
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

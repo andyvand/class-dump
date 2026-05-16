@@ -7,11 +7,8 @@
 @class NSArray, NSDate, NSString, NSURL, NSUUID;
 
 @protocol FCActivityDescribing
-- (NSUUID *)dSourceContentCollection;
-- (_Bool)	
-;
-- (NSString *)ForAppDescriptor:autoShortcutDisabled:autoShortcutIdentifier:error:] /* Error: Ran out of types for this method. */;
-- (NSString *);
+- (NSString *)er:errorHandler: /* Error: Ran out of types for this method. */;
+- (_Bool):afterFirst:%{bool}d, beforeSecond:%{bool}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activityColorName;

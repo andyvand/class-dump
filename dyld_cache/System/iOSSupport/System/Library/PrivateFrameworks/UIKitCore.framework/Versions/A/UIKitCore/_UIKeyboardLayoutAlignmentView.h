@@ -24,21 +24,21 @@ __attribute__((visibility("hidden")))
 + (struct CGRect);
 - (void);
 - (_Bool);
-- (void)g"44@"NSString"52@"NSString"60@"NSString"68@"NSString"76;
-- (void)?<v@?Q>60;
-- (void)UnreadCount:(id)arg1 reindexMessage: /* Error: Ran out of types for this method. */;
-- (_Bool)setMessageSummaryAdditions:(id)arg1;
-- (void)orConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (void)ruthZone;
-- (void)r:(id)arg1;
-- (struct CGRect)ustKit decisioning skipped because chat is a business chat.;
-- (void);
-- (void)FROM assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND LENGTH(mini_sinf) > 1 AND url_expiration_date > @now;
 - (void);
 - (void);
-- (void)";
-- (void)dd},N,V_platterContentSize;
-- (id)£'ÿÿ6ýÿl6ýÿ¤üÿ;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)¸ÐôÐøÔ;
+- (void)are used inside it. Custom view:(id)arg1 %@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticKeyboardFrameTrackingDisabled; // @synthesize automaticKeyboardFrameTrackingDisabled=_automaticKeyboardFrameTrackingDisabled;

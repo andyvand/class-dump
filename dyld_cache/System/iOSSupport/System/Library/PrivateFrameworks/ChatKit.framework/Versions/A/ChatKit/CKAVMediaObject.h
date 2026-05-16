@@ -13,12 +13,11 @@
 }
 
 + (id);
-- (void)ation %@;
-- (_Bool);
 - (void);
-- (id)
-× ;
+- (_Bool);
+- (id);
 - (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

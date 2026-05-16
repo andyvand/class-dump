@@ -5,7 +5,7 @@
 //
 
 @protocol PXAssetReferenceProtocol
-- (id)cessingProgressForLibrary:result: /* Error: Ran out of types for this method. */;
+- (id)Say$;
 
 // Remaining properties
 @property(readonly, nonatomic) id asset;

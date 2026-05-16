@@ -17,7 +17,7 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)ables.;
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignmentShift;

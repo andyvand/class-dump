@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)xposureEvent;
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

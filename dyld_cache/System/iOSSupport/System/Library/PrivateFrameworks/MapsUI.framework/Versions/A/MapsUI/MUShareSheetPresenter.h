@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void)ViewForView: /* Error: Ran out of types for this method. */;
+- (void)NEXT_STOP;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

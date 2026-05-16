@@ -13,10 +13,12 @@
     MISSING_TYPE *floatingImageView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)1	ð1â
+0@ù
+× ;
 
 @end
 

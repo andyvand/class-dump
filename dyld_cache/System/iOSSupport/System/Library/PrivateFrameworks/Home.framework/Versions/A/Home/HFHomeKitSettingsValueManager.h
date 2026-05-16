@@ -27,8 +27,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ìc;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *homeKitObjectIdentifiers; // @synthesize homeKitObjectIdentifiers=_homeKitObjectIdentifiers;

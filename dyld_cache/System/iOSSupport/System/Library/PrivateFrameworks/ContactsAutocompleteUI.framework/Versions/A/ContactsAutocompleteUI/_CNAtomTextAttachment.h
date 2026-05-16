@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (struct CGRect);
+- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNComposeRecipientAtom *atomView; // @synthesize atomView=_atomView;

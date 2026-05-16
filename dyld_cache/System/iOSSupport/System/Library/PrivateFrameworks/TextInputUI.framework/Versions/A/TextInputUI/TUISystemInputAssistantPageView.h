@@ -24,46 +24,46 @@
     UIScrollView *_scrollView;
 }
 
-- (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (unsigned long long);
 - (id);
 - (void);
-- (id)mWithoutAnimation: /* Error: Ran out of types for this method. */;
-- (_Bool)TUIKeyboardInputManagerProviding;
-- (void)	
-;
-- (void)st;
+- (void)0@ù
+× ;
+- (void)effectsType;
+- (void)eout:(id)arg1 %s, %lu of %lu returned results, generator sources:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *clipView; // @synthesize clipView=_clipView;

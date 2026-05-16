@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)nType:bundleIdentifier:callProviderManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PRMonogramColor *monogramColor; // @synthesize monogramColor=_monogramColor;

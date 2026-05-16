@@ -13,9 +13,9 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
-- (void),&;
-- (void).apple.ShortcutsActions.CellularPlanEntity;
+- (void);
+- (_Bool)cation error â since we're using request location, finishing...;
+- (void)rmal unless you really need it. Normal audio is returned as an M4A file (with AAC audio), while high-quality audio is returned in uncompressed WAV format. (WFRecordingCompression);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;

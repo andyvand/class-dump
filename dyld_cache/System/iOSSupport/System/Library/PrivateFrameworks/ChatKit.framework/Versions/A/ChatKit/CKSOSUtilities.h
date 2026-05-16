@@ -13,10 +13,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)@ mediaData:(id)arg1 %@;
 - (id);
-- (void);
-- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);

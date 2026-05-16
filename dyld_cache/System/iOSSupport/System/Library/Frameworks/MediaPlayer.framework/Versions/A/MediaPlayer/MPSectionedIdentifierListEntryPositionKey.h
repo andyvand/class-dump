@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     NSString *_generation;
 }
 
-+ (id)NSString"40;
-+ (_Bool)urrentUser:] failed to set explicitSettingEnabled=%{BOOL}u [monitorForCurrentUser=nil] /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (long long);
-- (id)tPayloadRestrictStoreMdmInstallSoftwareupdateOnly: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)PING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;

@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (void);
+- (void)¯t;
 
 // Remaining properties
 @property _Bool isGroupItem; // @synthesize isGroupItem=_isGroupItem;

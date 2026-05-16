@@ -14,8 +14,8 @@
     MISSING_TYPE *lastPlayedSoundEventType;
 }
 
-- (void);
 - (id);
+- (void)'¢ySSSaySS2id_SS5titleyyc6actiontGG;
 
 @end
 

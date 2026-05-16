@@ -16,13 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id);
-- (void)0@ù
-× ;
-- (void)n;
-- (void)%@;
-- (void)l occurrences.;
-- (long long)õ¡n;
+- (void);
+- (void);
+- (id)ØØ;
+- (void),oi;
+- (void)@;
+- (long long)ÿãW×êo;
 
 // Remaining properties
 @property(nonatomic) _Bool collapsed; // @synthesize collapsed=_collapsed;

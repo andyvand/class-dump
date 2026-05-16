@@ -11,13 +11,13 @@
 }
 
 - (unsigned long long);
-- (_Bool);
+- (long long);
+- (long long);
+- (_Bool);
 - (id);
 - (long long);
-- (long long);
-- (long long);
-- (id)	;
-- (id)r;
+- (id)assification;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

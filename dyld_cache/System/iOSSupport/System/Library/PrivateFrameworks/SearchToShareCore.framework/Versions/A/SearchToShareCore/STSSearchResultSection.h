@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;

@@ -7,11 +7,9 @@
 @class NSLayoutRect;
 
 @protocol _UIContentViewComponentDescribing
+- (NSLayoutRect *): /* Error: Ran out of types for this method. */;
+- (void (^)(void))EnablementIdentifiers;
 - (void);
-- (NSLayoutRect *)Ð!PGù1È°1¢!0@ù
-× ;
-- (struct CGRect)backgroundStyle;
-- (void (^)(void))mentary view. Element kind:%@; index path:%@; supplementary view:%@; attributes from layout:%@; attributes from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setPrimaryTextFrameDidChangeHandler:) CDUnknownBlockType _primaryTextFrameDidChangeHandler;

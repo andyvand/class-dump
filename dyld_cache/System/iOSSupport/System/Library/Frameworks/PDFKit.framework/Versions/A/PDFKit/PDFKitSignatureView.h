@@ -17,23 +17,23 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)"AFUISiriSession";
-- (void)"AceObject<SAAceCommand>">24;
-- (void)Connection"16@"NSURL"24@?<v@?B>32;
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)le>",&,N,V_menuAvoidanceAssertion;
-- (void)Texture>",&,N,V_sixChannelContentTexture;
-- (void)current selection;
-- (id);
+- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void)nDictionary;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)F¿;
 
 // Remaining properties
 @property(retain) PDFAnnotation *annotation; // @synthesize annotation=_annotation;

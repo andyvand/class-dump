@@ -21,32 +21,34 @@ __attribute__((visibility("hidden")))
     struct CGPoint _targetOffset;
 }
 
-- (_Bool)ice;
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)adcastTranscriptBackgroundChanges;
-- (id)r;
-- (id)ager;
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (struct CGPoint);
 - (void);
 - (void);
-- (void)MediaPickerController",W,N;
+- (id);
+- (void)
+× ;
+- (void)Qbð1Â0@ù
+× ;
+- (void)_internalConfigurationWithRole:(id)arg1 sceneClass:delegateClass:storyboard: /* Error: Ran out of types for this method. */;
+- (id)es are protected while locked, entitlement value is %@;
 - (void);
-- (void)omizing;
-- (id)0þÿFþÿ0þÿ¬ÆþÿÈþÿ;
-- (void)EditMenuConfigurationC;
-- (id);
-- (void)VÞ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

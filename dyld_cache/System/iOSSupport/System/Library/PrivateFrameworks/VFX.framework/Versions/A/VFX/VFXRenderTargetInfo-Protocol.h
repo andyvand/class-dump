@@ -5,7 +5,8 @@
 //
 
 @protocol VFXRenderTargetInfo
-- (unsigned long long);
+- (long long);
+- (unsigned long long)È(ÿ(È(ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long depthPixelFormat;

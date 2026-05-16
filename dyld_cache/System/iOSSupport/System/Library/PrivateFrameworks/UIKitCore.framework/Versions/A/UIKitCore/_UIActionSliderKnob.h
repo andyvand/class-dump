@@ -16,10 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (id)class:(struct CGRect)arg1 %@;
-- (_Bool)dãÿ;
-- (void)|;
+- (void);
+- (_Bool);
+- (id)eForCell:(struct CGRect)arg1 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)
+;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *knobColor; // @synthesize knobColor=_knobColor;

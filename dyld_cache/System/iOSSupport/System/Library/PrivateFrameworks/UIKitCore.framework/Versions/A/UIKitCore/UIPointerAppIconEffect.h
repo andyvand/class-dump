@@ -11,8 +11,8 @@
 }
 
 - (_Bool);
-- (id)s;
-- (id);
+- (id);
+- (id)atchingAlpha;
 
 @end
 

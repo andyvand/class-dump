@@ -19,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) ASCAppOfferStateCenter *appOfferStateCenter; // @synthesize appOfferStateCenter=_appOfferStateCenter;

@@ -10,15 +10,15 @@
 {
 }
 
-+ (struct CGPath *);
 + (struct CGPath *);
-+ (struct CGRect);
-+ (void);
-+ (struct CGRect);
-+ (_Bool);
-+ (_Bool)0;
++ (struct CGPath *);
 + (struct CGRect);
-+ (struct CGSize)4;
++ (void);
++ (struct CGRect);
++ (_Bool);
++ (_Bool);
++ (struct CGRect);
++ (struct CGSize);
 
 @end
 

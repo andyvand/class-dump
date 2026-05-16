@@ -21,12 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id)presentableActivityItemsForWindow: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (void)e;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

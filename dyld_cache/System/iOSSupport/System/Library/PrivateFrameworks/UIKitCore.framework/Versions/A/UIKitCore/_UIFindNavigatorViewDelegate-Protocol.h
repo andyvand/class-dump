@@ -4,11 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFindNavigatorView;
-
 @protocol _UIFindNavigatorViewDelegate
-- (void);
-- (void)ndAppearance"b1"lastNormalBackgroundConfigurationWasClearedForListAppearanceChange"b1"needsFocusEffectUpdateAfterLayout"b1"shouldSkipPrepareForConfigurationStateUpdate"b1"ignoreFocusStateForFetchingLastNormalConfigurationState"b1};
-- (void):(_UIFindNavigatorView *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)q_°1Â0@ù
+× ;
 @end
 

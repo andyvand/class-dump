@@ -32,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Cloud Drive;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *bestPrivilege; // @synthesize bestPrivilege=_bestPrivilege;

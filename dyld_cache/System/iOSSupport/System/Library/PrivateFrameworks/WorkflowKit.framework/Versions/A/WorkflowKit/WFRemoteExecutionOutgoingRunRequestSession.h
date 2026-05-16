@@ -25,15 +25,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)ord;
-- (void)dentityPropertyMapWithModel:(id)arg1 ];
-- (void)s for result;
-- (id)®¡;
+- (id);
+- (id);
+- (void)safe_unretained);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

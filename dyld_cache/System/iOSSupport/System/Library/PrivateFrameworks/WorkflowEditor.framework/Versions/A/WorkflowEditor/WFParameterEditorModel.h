@@ -24,10 +24,10 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
 - (_Bool);
 - (id);
+- (long long);
+- (void)H °¤D;
 
 // Remaining properties
 @property(nonatomic) _Bool becomeFirstResponder; // @synthesize becomeFirstResponder=_becomeFirstResponder;

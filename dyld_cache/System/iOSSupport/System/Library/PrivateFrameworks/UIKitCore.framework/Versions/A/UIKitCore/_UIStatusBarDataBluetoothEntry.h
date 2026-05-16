@@ -14,19 +14,20 @@
     _UIStatusBarDataBatteryEntry *_batteryEntry;
 }
 
-+ (_Bool);
++ (_Bool)ewCellDetailDisclosureView;
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id)finalize CGImageDestination;
-- (id);
-- (void);
-- (id)1¢!0@ù
+- (void)0@ù
 × ;
-- (long long)ex: /* Error: Ran out of types for this method. */;
+- (long long)!°Bùñd1Â0@ù
+× ;
+- (_Bool)"<UIPointerInteractionDelegate>";
+- (void)ollectionOverride;
+- (id)BreakMode:baselineAdjustment:includeEmoji: /* Error: Ran out of types for this method. */;
+- (id)ontrastForBackgroundColor;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) _UIStatusBarDataBatteryEntry *batteryEntry; // @synthesize batteryEntry=_batteryEntry;

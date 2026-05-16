@@ -5,6 +5,5 @@
 //
 
 @protocol MPRemotePlayerServiceProtocol
-- (void)ettings.extension;
 @end
 

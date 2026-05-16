@@ -43,101 +43,100 @@
     long long _colorTransformerIdentifier;
 }
 
-+ (_Bool)²Ôm;
-- (long long);
-- (_Bool);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)om.apple.UIKit.BridgedNSToolbar.%p;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
-- (long long);
-- (long long);
-- (unsigned long long)MTLBuffer>",&,N,V_m_ScoreBuffer;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (void)eloadPlaybackSessionCommand;
-- (void)playlist for %{public}@;
-- (id)_expiration_date, playlist_url, key_certificate_url, key_server_url, key_server_adam_id, key_server_protocol_type, is_itunes_store_stream) VALUES (@identifier, @hashedPersonID, @urlExpirationDate, @playlistURL, @keyCertificateURL, @keyServerURL, @keyServerAdamID, @keyServerProtocolType, @isiTunesStoreStream);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
-- (void)ùº;
-- (void)Ü3Âì;
-- (void)m	ë;
-- (long long)¡n°!lBùÑÀ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)1Â1¢!0@ù
-× ;
 - (long long);
-- (void)0@ù
-× ;
-- (long long)!dAùÇ1¢!0@ù
-× ;
+- (id);
 - (_Bool);
-- (id)1¢!0@ù
-× ;
-- (id)axð!`DùÑÍð1¢!0@ù
-× ;
-- (void);
-- (void)t=dd}{CGSize=dd}}64;
-- (void)@"_UITVScrollViewManager";
-- (id)";
-- (id)thAnimator: /* Error: Ran out of types for this method. */;
-- (void)ion:(id)arg1;
-- (_Bool)romMergedActions: /* Error: Ran out of types for this method. */;
-- (_Bool)oveBackward:(id)arg1;
-- (void)anguages:(id)arg1;
-- (_Bool)hNotification:timeout:withHandler: /* Error: Ran out of types for this method. */;
-- (void)ror:(long long)arg1;
-- (long long)itWithCustomView: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)oDestinationViewController: /* Error: Ran out of types for this method. */;
-- (void)ctionWithGesture:(id)arg1;
-- (void)ltitapTimer;
-- (_Bool)etAlongsideAnimations:toRunByEndOfBlock:animated: /* Error: Ran out of types for this method. */;
-- (void)TransitionFromActivationState:(id)arg1 withReasonsMask: /* Error: Ran out of types for this method. */;
-- (void)arkers;
-- (_Bool)Reachability: /* Error: Ran out of types for this method. */;
-- (void)leBounds:(_Bool)arg1 futureVisibleBounds:prefetchVector: /* Error: Ran out of types for this method. */;
-- (id)_adjustReusableTableCells;
-- (_Bool)eLocation;
-- (void)otView;
-- (id)tingsDiffInspector",&,N,V_sceneSettingsPointerLockedDiffInspector;
-- (CDUnknownBlockType)tManager;
-- (id)4;
-- (void)ÀÞDß;
-- (long long)H¸´¸´¼½;
-- (_Bool);
-- (void)ons:(id)arg1 %@; builder=%@;
-- (void)UIProgress;
-- (long long)utDeferResolveToQueryTime;
-- (void)nDelegate>",N,W,Vdelegate;
-- (void);
-- (double);
-- (void)âx^;
 - (id);
 - (long long);
-- (void)ÉÊa;
-- (_Bool)ÿu¶À#c;
-- (id)T;
-- (long long)¶ÿýã;
+- (_Bool);
+- (long long);
+- (_Bool);
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (long long);
+- (double)!;
+- (void)ð!°Bù±Z1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void);
+- (void)× ;
+- (id)!ðGùq]°1Â0@ù
+× ;
+- (long long)
+× ;
+- (void)Ô ;
+- (void)±g1Â0@ù
+× ;
+- (long long)c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16B24B28B32r*36r*44r*52I60I64i68i72i76B80;
+- (_Bool)egate>";
+- (void)ctActive;
+- (id)n: /* Error: Ran out of types for this method. */;
+- (long long)tationButton: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)uousDisplayedPage;
+- (_Bool)eviceInputSettingForWindow:(id)arg1;
+- (CDUnknownBlockType)tartingWithVersion;
+- (void)temsUpdates;
+- (void):(id)arg1;
+- (void)er;
+- (_Bool)uration",C,N,V_pageButtonConfiguration;
+- (id)Attributes;
+- (void)IGestureGraphElement;
+- (void);
+- (_Bool)ìL;
+- (void)Ä;
+- (void);
+- (void)but no class with that name could be found.;
+- (long long)}d;
+- (id)enuBarItem"8Q16^B24;
+- (id)Anchor;
+- (void)ects tables for unknown view type %ld;
+- (void)ve]=%p;
+- (void);
+- (void)ey;
+- (void)d;
+- (void)=%p;
+- (void)ionState.bookmarks.count;
+- (void)cheAccessQueue;
+- (void)izingGuide=%p
+;
+- (long long)e;
+- (long long)ityShortcut;
+- (id)found duplicate parentMenus. This is a UIKit internal bug.;
+- (long long)/3y§/3yé`üÿ_pGG;
+- (id)(iþ;
+- (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
+- (id);
+- (void)n¦þ¨oþ¨oþØkR0;
+- (CDUnknownBlockType)ation;
+- (_Bool)etionContext;
+- (void);
+- (void)GíÑ¬¶[;
+- (void);
+- (id)Ôxñ\;
+- (void)Pó];
+- (id)­Ô¼°^;
+- (void)ü­`;
+- (void);
+- (_Bool);
+- (long long);
+- (double)ãÆ;
+- (void)r;
+- (void)Ô­f;
+- (id)¨g;
+- (_Bool)Ãà·;
+- (long long)àåËäºj;
 
 // Remaining properties
 @property(nonatomic, setter=__setEnablesMarqueeWhenAncestorFocused:) _Bool __enablesMarqueeWhenAncestorFocused; // @synthesize __enablesMarqueeWhenAncestorFocused;

@@ -11,12 +11,12 @@
 }
 
 + (id);
-+ (void)ing: /* Error: Ran out of types for this method. */;
-- (id)";
++ (void);
+- (id);
 - (id);
 - (void);
-- (void)string;
-- (void)H_CONST;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);

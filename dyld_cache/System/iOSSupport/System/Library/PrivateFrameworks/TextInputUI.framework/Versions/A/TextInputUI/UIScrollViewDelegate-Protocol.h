@@ -9,7 +9,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)ambiguationGridRowType;
-- (void)dStartingSizeDiff:(UIScrollView *)arg1 sizeUpdate: /* Error: Ran out of types for this method. */;
+- (void)ntext:(UIScrollView *)arg1;
 @end
 

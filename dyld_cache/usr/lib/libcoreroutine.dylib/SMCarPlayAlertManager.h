@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)ì+;
+- (void)ectivePairedDevice changed %@;
+- (id)er not satisfying:receiverHandles && receiverHandles.count /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;

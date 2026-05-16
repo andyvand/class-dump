@@ -19,20 +19,20 @@
 }
 
 + (id);
-+ (id)estTriggers:(Class)arg1 modeType: /* Error: Ran out of types for this method. */;
-+ (void)IsVIP;
++ (id);
++ (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)40@48@56@64@72@80@88@96@104@112@120@128;
+- (id);
 - (Class);
-- (id)x:(id)arg1;
-- (id)replyTo:(id)arg1 mailboxIdentifiers:(id)arg2 listId:(id)arg3 accountType:(id)arg4 attachments:contentProtection: /* Error: Ran out of types for this method. */;
-- (id)t:(id)arg1 isFullyDownloaded:(id)arg2 securityMethod:(id)arg3 accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments:contentProtection: /* Error: Ran out of types for this method. */;
-- (Class)StreamName;
-- (void);
-- (id)tions:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (Class);
+- (id);
+- (void)dicate",&,N,V_persistentIDsPredicate;
 
 // Remaining properties
 @property(readonly, nonatomic) Class MPModelClass; // @synthesize MPModelClass=_MPModelClass;

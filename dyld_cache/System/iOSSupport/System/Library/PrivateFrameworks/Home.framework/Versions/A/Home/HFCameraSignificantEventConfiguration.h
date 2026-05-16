@@ -17,13 +17,13 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id),7öÿåôg;
+- (id)o;
 
 // Remaining properties
 @property(nonatomic) unsigned long long eventTypes; // @synthesize eventTypes=_eventTypes;

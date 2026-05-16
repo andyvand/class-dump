@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)TW;
 
 // Remaining properties
 @property(nonatomic) _Bool isTrustedOrigin; // @synthesize isTrustedOrigin=_isTrustedOrigin;

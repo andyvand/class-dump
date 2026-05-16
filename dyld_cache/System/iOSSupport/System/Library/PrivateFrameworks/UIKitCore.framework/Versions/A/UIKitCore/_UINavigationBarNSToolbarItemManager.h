@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)ntSequenceView;
+- (id);
+- (void)Name:%@, term:%@, definition:%@ /* Error: Ran out of types for this method. */;
+- (void)MetricsTemporaryProviding;
 
 // Remaining properties
 @property(readonly) NSMutableDictionary *toolbarItemsToChildBarButtonItemsMap; // @synthesize toolbarItemsToChildBarButtonItemsMap=_toolbarItemsToChildBarButtonItemsMap;

@@ -33,9 +33,8 @@
 - (id);
 - (id);
 - (void);
+- (id)completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)@ùñn	1b0@ù
-× ;
 
 // Remaining properties
 @property(retain) NSHashTable *dependencyChildren; // @synthesize dependencyChildren=_dependencyChildren;

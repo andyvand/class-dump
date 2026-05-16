@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void)orViewFrames: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *body; // @synthesize body=_body;

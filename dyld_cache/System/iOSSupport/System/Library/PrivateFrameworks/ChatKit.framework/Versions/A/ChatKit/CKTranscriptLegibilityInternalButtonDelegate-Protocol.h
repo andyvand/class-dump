@@ -5,6 +5,5 @@
 //
 
 @protocol CKTranscriptLegibilityInternalButtonDelegate
-- (void)veObserver: /* Error: Ran out of types for this method. */;
 @end
 

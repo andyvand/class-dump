@@ -29,13 +29,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)
-× ;
-- (void)qfð1B0@ù
-× ;
+- (void)ice];
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFUIPresenterConnection> connection; // @synthesize connection=_connection;

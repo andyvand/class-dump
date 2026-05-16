@@ -9,11 +9,11 @@
     unsigned long long _headroomMode;
 }
 
-+ (_Bool)±?ÛÉTm;
++ (_Bool)lectable;
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)eInContextFromRangeInText:(id)arg1;
 
 // Remaining properties
 @property(readonly) unsigned long long headroomMode; // @synthesize headroomMode=_headroomMode;

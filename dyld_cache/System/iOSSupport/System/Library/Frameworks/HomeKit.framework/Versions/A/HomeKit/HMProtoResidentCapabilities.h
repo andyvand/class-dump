@@ -11,9 +11,12 @@
     NSString *_tag;
     _Bool _supports03e098e86062k;
     _Bool _supports12r9go0ci9109;
+    _Bool _supports2b7d0fdwcfkth2b7d0fdwcfkth;
     _Bool _supports5348b248a25f84b0c83e;
+    _Bool _supports7a3f2e8b9c1d;
     _Bool _supports946950341b318ffd;
     _Bool _supports9907491178;
+    _Bool _supportsA18daf9c7b4fvdfq;
     _Bool _supportsAccessCodes;
     _Bool _supportsAnnounce;
     _Bool _supportsCHIP;
@@ -23,11 +26,14 @@
     _Bool _supportsCameraRecordingReachabilityNotifications;
     _Bool _supportsCameraSignificantEventNotifications;
     _Bool _supportsCustomMediaApplicationDestination;
+    _Bool _supportsDedicatedStatusChannel;
     _Bool _supportsDirectSync;
     _Bool _supportsDistributedExecutionOnPrimary;
     _Bool _supportsEventLog;
     _Bool _supportsFaceClassification;
     _Bool _supportsFirmwareUpdate;
+    _Bool _supportsHEVC;
+    _Bool _supportsHKSV3;
     _Bool _supportsHealthCheck;
     _Bool _supportsHomeHub;
     _Bool _supportsLockNotificationContext;
@@ -45,6 +51,7 @@
     _Bool _supportsSiriEndpointSetup;
     _Bool _supportsThreadBorderRouter;
     _Bool _supportsThreadNetworkCredentialSharing;
+    _Bool _supportsUWBUnlock;
     _Bool _supportsUnifiedMediaNotifications;
     _Bool _supportsWakeOnLAN;
     _Bool _supportsWalletKey;
@@ -52,14 +59,17 @@
     _Bool _supportsd36b1a5183a0f;
     _Bool _supportsdafedc977558;
     _Bool _supportsea9e49a39bab;
+    _Bool _supportsf0eb727071de4ed44874268eb0bb0d08;
     _Bool _supportsf36a38d2aec7;
-    _Bool _supportsheephfaid6gg1p54;
     struct {
         unsigned int supports03e098e86062k:1;
         unsigned int supports12r9go0ci9109:1;
+        unsigned int supports2b7d0fdwcfkth2b7d0fdwcfkth:1;
         unsigned int supports5348b248a25f84b0c83e:1;
+        unsigned int supports7a3f2e8b9c1d:1;
         unsigned int supports946950341b318ffd:1;
         unsigned int supports9907491178:1;
+        unsigned int supportsA18daf9c7b4fvdfq:1;
         unsigned int supportsAccessCodes:1;
         unsigned int supportsAnnounce:1;
         unsigned int supportsCHIP:1;
@@ -69,11 +79,14 @@
         unsigned int supportsCameraRecordingReachabilityNotifications:1;
         unsigned int supportsCameraSignificantEventNotifications:1;
         unsigned int supportsCustomMediaApplicationDestination:1;
+        unsigned int supportsDedicatedStatusChannel:1;
         unsigned int supportsDirectSync:1;
         unsigned int supportsDistributedExecutionOnPrimary:1;
         unsigned int supportsEventLog:1;
         unsigned int supportsFaceClassification:1;
         unsigned int supportsFirmwareUpdate:1;
+        unsigned int supportsHEVC:1;
+        unsigned int supportsHKSV3:1;
         unsigned int supportsHealthCheck:1;
         unsigned int supportsHomeHub:1;
         unsigned int supportsLockNotificationContext:1;
@@ -91,6 +104,7 @@
         unsigned int supportsSiriEndpointSetup:1;
         unsigned int supportsThreadBorderRouter:1;
         unsigned int supportsThreadNetworkCredentialSharing:1;
+        unsigned int supportsUWBUnlock:1;
         unsigned int supportsUnifiedMediaNotifications:1;
         unsigned int supportsWakeOnLAN:1;
         unsigned int supportsWalletKey:1;
@@ -98,8 +112,8 @@
         unsigned int supportsd36b1a5183a0f:1;
         unsigned int supportsdafedc977558:1;
         unsigned int supportsea9e49a39bab:1;
+        unsigned int supportsf0eb727071de4ed44874268eb0bb0d08:1;
         unsigned int supportsf36a38d2aec7:1;
-        unsigned int supportsheephfaid6gg1p54:1;
     } _has;
 }
 
@@ -116,6 +130,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -242,17 +273,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -261,11 +297,31 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -273,36 +329,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (void)¨³4¶¶;
-- (id)legate:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)m payload:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)n"16;
+- (_Bool)se:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ø¾LÀ¨ÁÆÌtÎlÏ\ÓäØÙüÙtÝ Þâç<è°è(ìÔì4îî	ïDðñ;
+- (void)Home reference was nil in removeSimpleLabelAccessCode;
+- (_Bool)IViewController"16@"NSError"24;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSupports03e098e86062k;
 @property(nonatomic) _Bool hasSupports12r9go0ci9109;
+@property(nonatomic) _Bool hasSupports2b7d0fdwcfkth2b7d0fdwcfkth;
 @property(nonatomic) _Bool hasSupports5348b248a25f84b0c83e;
+@property(nonatomic) _Bool hasSupports7a3f2e8b9c1d;
 @property(nonatomic) _Bool hasSupports946950341b318ffd;
 @property(nonatomic) _Bool hasSupports9907491178;
+@property(nonatomic) _Bool hasSupportsA18daf9c7b4fvdfq;
 @property(nonatomic) _Bool hasSupportsAccessCodes;
 @property(nonatomic) _Bool hasSupportsAnnounce;
 @property(nonatomic) _Bool hasSupportsCHIP;
@@ -312,11 +357,14 @@
 @property(nonatomic) _Bool hasSupportsCameraRecordingReachabilityNotifications;
 @property(nonatomic) _Bool hasSupportsCameraSignificantEventNotifications;
 @property(nonatomic) _Bool hasSupportsCustomMediaApplicationDestination;
+@property(nonatomic) _Bool hasSupportsDedicatedStatusChannel;
 @property(nonatomic) _Bool hasSupportsDirectSync;
 @property(nonatomic) _Bool hasSupportsDistributedExecutionOnPrimary;
 @property(nonatomic) _Bool hasSupportsEventLog;
 @property(nonatomic) _Bool hasSupportsFaceClassification;
 @property(nonatomic) _Bool hasSupportsFirmwareUpdate;
+@property(nonatomic) _Bool hasSupportsHEVC;
+@property(nonatomic) _Bool hasSupportsHKSV3;
 @property(nonatomic) _Bool hasSupportsHealthCheck;
 @property(nonatomic) _Bool hasSupportsHomeHub;
 @property(nonatomic) _Bool hasSupportsLockNotificationContext;
@@ -334,6 +382,7 @@
 @property(nonatomic) _Bool hasSupportsSiriEndpointSetup;
 @property(nonatomic) _Bool hasSupportsThreadBorderRouter;
 @property(nonatomic) _Bool hasSupportsThreadNetworkCredentialSharing;
+@property(nonatomic) _Bool hasSupportsUWBUnlock;
 @property(nonatomic) _Bool hasSupportsUnifiedMediaNotifications;
 @property(nonatomic) _Bool hasSupportsWakeOnLAN;
 @property(nonatomic) _Bool hasSupportsWalletKey;
@@ -341,14 +390,17 @@
 @property(nonatomic) _Bool hasSupportsd36b1a5183a0f;
 @property(nonatomic) _Bool hasSupportsdafedc977558;
 @property(nonatomic) _Bool hasSupportsea9e49a39bab;
+@property(nonatomic) _Bool hasSupportsf0eb727071de4ed44874268eb0bb0d08;
 @property(nonatomic) _Bool hasSupportsf36a38d2aec7;
-@property(nonatomic) _Bool hasSupportsheephfaid6gg1p54;
 @property(readonly, nonatomic) _Bool hasTag;
 @property(nonatomic) _Bool supports03e098e86062k; // @synthesize supports03e098e86062k=_supports03e098e86062k;
 @property(nonatomic) _Bool supports12r9go0ci9109; // @synthesize supports12r9go0ci9109=_supports12r9go0ci9109;
+@property(nonatomic) _Bool supports2b7d0fdwcfkth2b7d0fdwcfkth; // @synthesize supports2b7d0fdwcfkth2b7d0fdwcfkth=_supports2b7d0fdwcfkth2b7d0fdwcfkth;
 @property(nonatomic) _Bool supports5348b248a25f84b0c83e; // @synthesize supports5348b248a25f84b0c83e=_supports5348b248a25f84b0c83e;
+@property(nonatomic) _Bool supports7a3f2e8b9c1d; // @synthesize supports7a3f2e8b9c1d=_supports7a3f2e8b9c1d;
 @property(nonatomic) _Bool supports946950341b318ffd; // @synthesize supports946950341b318ffd=_supports946950341b318ffd;
 @property(nonatomic) _Bool supports9907491178; // @synthesize supports9907491178=_supports9907491178;
+@property(nonatomic) _Bool supportsA18daf9c7b4fvdfq; // @synthesize supportsA18daf9c7b4fvdfq=_supportsA18daf9c7b4fvdfq;
 @property(nonatomic) _Bool supportsAccessCodes; // @synthesize supportsAccessCodes=_supportsAccessCodes;
 @property(nonatomic) _Bool supportsAnnounce; // @synthesize supportsAnnounce=_supportsAnnounce;
 @property(nonatomic) _Bool supportsCHIP; // @synthesize supportsCHIP=_supportsCHIP;
@@ -358,11 +410,14 @@
 @property(nonatomic) _Bool supportsCameraRecordingReachabilityNotifications; // @synthesize supportsCameraRecordingReachabilityNotifications=_supportsCameraRecordingReachabilityNotifications;
 @property(nonatomic) _Bool supportsCameraSignificantEventNotifications; // @synthesize supportsCameraSignificantEventNotifications=_supportsCameraSignificantEventNotifications;
 @property(nonatomic) _Bool supportsCustomMediaApplicationDestination; // @synthesize supportsCustomMediaApplicationDestination=_supportsCustomMediaApplicationDestination;
+@property(nonatomic) _Bool supportsDedicatedStatusChannel; // @synthesize supportsDedicatedStatusChannel=_supportsDedicatedStatusChannel;
 @property(nonatomic) _Bool supportsDirectSync; // @synthesize supportsDirectSync=_supportsDirectSync;
 @property(nonatomic) _Bool supportsDistributedExecutionOnPrimary; // @synthesize supportsDistributedExecutionOnPrimary=_supportsDistributedExecutionOnPrimary;
 @property(nonatomic) _Bool supportsEventLog; // @synthesize supportsEventLog=_supportsEventLog;
 @property(nonatomic) _Bool supportsFaceClassification; // @synthesize supportsFaceClassification=_supportsFaceClassification;
 @property(nonatomic) _Bool supportsFirmwareUpdate; // @synthesize supportsFirmwareUpdate=_supportsFirmwareUpdate;
+@property(nonatomic) _Bool supportsHEVC; // @synthesize supportsHEVC=_supportsHEVC;
+@property(nonatomic) _Bool supportsHKSV3; // @synthesize supportsHKSV3=_supportsHKSV3;
 @property(nonatomic) _Bool supportsHealthCheck; // @synthesize supportsHealthCheck=_supportsHealthCheck;
 @property(nonatomic) _Bool supportsHomeHub; // @synthesize supportsHomeHub=_supportsHomeHub;
 @property(nonatomic) _Bool supportsLockNotificationContext; // @synthesize supportsLockNotificationContext=_supportsLockNotificationContext;
@@ -380,6 +435,7 @@
 @property(nonatomic) _Bool supportsSiriEndpointSetup; // @synthesize supportsSiriEndpointSetup=_supportsSiriEndpointSetup;
 @property(nonatomic) _Bool supportsThreadBorderRouter; // @synthesize supportsThreadBorderRouter=_supportsThreadBorderRouter;
 @property(nonatomic) _Bool supportsThreadNetworkCredentialSharing; // @synthesize supportsThreadNetworkCredentialSharing=_supportsThreadNetworkCredentialSharing;
+@property(nonatomic) _Bool supportsUWBUnlock; // @synthesize supportsUWBUnlock=_supportsUWBUnlock;
 @property(nonatomic) _Bool supportsUnifiedMediaNotifications; // @synthesize supportsUnifiedMediaNotifications=_supportsUnifiedMediaNotifications;
 @property(nonatomic) _Bool supportsWakeOnLAN; // @synthesize supportsWakeOnLAN=_supportsWakeOnLAN;
 @property(nonatomic) _Bool supportsWalletKey; // @synthesize supportsWalletKey=_supportsWalletKey;
@@ -387,8 +443,8 @@
 @property(nonatomic) _Bool supportsd36b1a5183a0f; // @synthesize supportsd36b1a5183a0f=_supportsd36b1a5183a0f;
 @property(nonatomic) _Bool supportsdafedc977558; // @synthesize supportsdafedc977558=_supportsdafedc977558;
 @property(nonatomic) _Bool supportsea9e49a39bab; // @synthesize supportsea9e49a39bab=_supportsea9e49a39bab;
+@property(nonatomic) _Bool supportsf0eb727071de4ed44874268eb0bb0d08; // @synthesize supportsf0eb727071de4ed44874268eb0bb0d08=_supportsf0eb727071de4ed44874268eb0bb0d08;
 @property(nonatomic) _Bool supportsf36a38d2aec7; // @synthesize supportsf36a38d2aec7=_supportsf36a38d2aec7;
-@property(nonatomic) _Bool supportsheephfaid6gg1p54; // @synthesize supportsheephfaid6gg1p54=_supportsheephfaid6gg1p54;
 @property(retain, nonatomic) NSString *tag; // @synthesize tag=_tag;
 
 @end

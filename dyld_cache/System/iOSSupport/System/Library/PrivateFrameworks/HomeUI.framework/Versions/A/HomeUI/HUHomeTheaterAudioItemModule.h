@@ -26,19 +26,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)pdater:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUHomeTheaterAudioItemModuleAlertDelegate> alertDelegate; // @synthesize alertDelegate=_alertDelegate;

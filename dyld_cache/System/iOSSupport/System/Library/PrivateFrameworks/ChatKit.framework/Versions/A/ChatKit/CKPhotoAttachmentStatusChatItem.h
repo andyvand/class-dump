@@ -10,15 +10,15 @@
 {
 }
 
-- (_Bool)onableNamesCache;
-- (BOOL)rchableItemToIndex:additionalItemsToIndex:objectIDURIToDelete:additionalUniqueIdentifiersToDelete:context: /* Error: Ran out of types for this method. */;
-- (id)d;
-- (struct CGSize)o;
-- (id)e;
+- (_Bool);
+- (BOOL);
 - (id);
-- (Class);
+- (struct CGSize);
+- (id);
+- (id);
 - (struct UIEdgeInsets);
-- (unsigned long long)t;
+- (Class);
+- (unsigned long long);
 
 @end
 

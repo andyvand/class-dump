@@ -5,6 +5,5 @@
 //
 
 @protocol HMFTimerManagerDelegate
-- (void)ation;
 @end
 

@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
     NSArray *_containerViewConstraints;
 }
 
-- (id)gDeleteRecoverySync;
+- (id);
 - (void);
-- (double)UID for spotlight;
-- (id)ches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s3_both.c;
+- (double);
 - (void);
-- (void);
-- (id)nsets=%@, effectiveIndicatorInsets=%@, additionalInset=%f, verticalScrollIndicatorInsets=%@, cachedVerticalScrollIndicatorBaseInsets=%@, contentOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINY=%f, CONTENT_HEIGHT=%f, _parentAdjustment=%@, scrollView=%@;
-- (id)vr\;
-- (void)¾¾e;
+- (id);
+- (id)ation:(struct CGRect)arg1 originatingProcess: /* Error: Ran out of types for this method. */;
+- (void)ÿ;
+- (void)hLÿ;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *containerView;

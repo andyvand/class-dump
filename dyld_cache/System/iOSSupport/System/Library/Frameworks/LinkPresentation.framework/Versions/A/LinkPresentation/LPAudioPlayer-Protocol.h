@@ -5,7 +5,8 @@
 //
 
 @protocol LPAudioPlayer
-- (void)chSubresources;
+- (void)Sg;
+- (void)¤;
 
 // Remaining properties
 @property(readonly, nonatomic) float progress;

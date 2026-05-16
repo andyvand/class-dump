@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)PHOTOS_DETAILS_TIME_EDIT_CONFIRMATION_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) PXStoryViewChromeTitleConfiguration *customGeneralChromeTitleConfiguration; // @synthesize customGeneralChromeTitleConfiguration=_customGeneralChromeTitleConfiguration;

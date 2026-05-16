@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     double _componentWidth;
 }
 
-+ (unsigned long long)lastdoor encountered an error unpacking Collaboration Notice, error:%@ /* Error: Ran out of types for this method. */;
++ (unsigned long long);
 + (long long);
 - (double);
 - (long long);
@@ -26,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (id);
-- (_Bool)Block:(id)arg1;
-- (_Bool)ntifier:(long long)arg1 displayName:(long long)arg2 participants:(unsigned long long)arg3 groupID:serviceName: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (id);
-- (id)!;
-- (double)adjustOriginXFactor:adjustOriginYFactor:absoluteOriginFactors: /* Error: Ran out of types for this method. */;
+- (double)ateSequenceItemInternal=}40@0:8r*16^v24@?32 /* Error: Ran out of types for this method. */;
+- (id)high risk of a layout feedback loop when built on iOS 13.0 or later. Problem occurs for %@;
 
 @end
 

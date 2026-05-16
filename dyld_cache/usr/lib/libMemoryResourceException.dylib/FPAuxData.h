@@ -14,15 +14,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (const char *)";
+- (const char *);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=shouldAggregate) _Bool aggregate; // @synthesize aggregate=_aggregate;

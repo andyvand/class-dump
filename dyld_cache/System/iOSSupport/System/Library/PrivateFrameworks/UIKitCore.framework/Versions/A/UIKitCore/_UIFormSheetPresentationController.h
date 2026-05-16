@@ -12,19 +12,20 @@
     double _keyboardYOrigin;
 }
 
-+ (long long)ocity:cancelingVelocity: /* Error: Ran out of types for this method. */;
-- (void);
-- (long long);
++ (long long)FùQZÐ1Â0@ù
+× ;
 - (_Bool);
 - (void);
+- (_Bool);
+- (void)rItemAtIndexPath:(id)arg1;
+- (void)3F7DEFECFDF;
+- (void);
+- (struct CGSize);
+- (long long);
+- (struct CGRect)eÂÁ74¾;
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool)IsValid"b1"roundsToScreenScale"b1"delegateSizesForSection"b1"sectionHeadersFloat"b1"sectionFootersFloat"b1"headerFollowsSectionMargins"b1"footerFollowsSectionMargins"b1"fetchingItemsInfoForRect"b1"isInUpdateVisibleCellsPass"b1};
-- (void)ertedTextInRange: /* Error: Ran out of types for this method. */;
-- (_Bool)sal;
-- (struct CGRect)resentationInPresenterScene;
-- (struct CGSize)n expanding %@;
-- (_Bool)ÿ½%;
 
 @end
 

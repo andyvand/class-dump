@@ -7,12 +7,10 @@
 @class NSData, NSDate, NSNumber, NSString;
 
 @protocol PXDisplayAsset
-- (unsigned long long)AEyAAyAAyAAyAAyUvjGtytuSgGGAWySiSgGGAQG_AAyAAyAAyõyAZGAUGAQGtGG¼ry~yGGtGGgGtGGAWyÐiGGIby«iGGoyAAy»eyA24_GeGGGGGôSG;
 
 @optional
-- (double)h;
 - (NSNumber *);
-- (NSNumber *)GAWGG_Qo_)±GGG_Qo_GA0_G;
+- (double)yB5¹	GGAEyÐ6¹	SgGGGGm+¹	G;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

@@ -25,12 +25,12 @@
 - (struct CGRect);
 - (id);
 - (struct CGSize);
-- (id)?!;
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NUIArrangementContainer> container;

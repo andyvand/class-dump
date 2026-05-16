@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (long long);
-- (id);
 - (void);
 - (SEL);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

@@ -12,9 +12,9 @@
 
 - (long long);
 - (_Bool);
-- (void)pertyName:(id)arg1;
-- (void)W;
-- (id)out an error specified.;
+- (void);
+- (void);
+- (id);
 
 @end
 

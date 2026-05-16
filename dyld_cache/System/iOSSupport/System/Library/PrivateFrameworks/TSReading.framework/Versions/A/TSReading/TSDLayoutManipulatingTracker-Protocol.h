@@ -5,6 +5,5 @@
 //
 
 @protocol TSDLayoutManipulatingTracker
-- (_Bool);
 @end
 

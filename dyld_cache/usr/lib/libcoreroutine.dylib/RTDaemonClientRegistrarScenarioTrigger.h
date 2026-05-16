@@ -19,31 +19,31 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (_Bool)lts override of status with RTAuthorizedLocationEnumUnavailable;
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
++ (_Bool);
 - (unsigned long long);
-- (void)(;
-- (id);
+- (id);
+- (long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void)artWithError:(id)arg1;
-- (id)Server: /* Error: Ran out of types for this method. */;
-- (void)dUserOverrideDisabled;
+- (id);
+- (id);
 - (id);
 - (void);
-- (long long)bles: /* Error: Ran out of types for this method. */;
-- (id)ouldResetCloudStore: /* Error: Ran out of types for this method. */;
-- (id)aWithHandler: /* Error: Ran out of types for this method. */;
-- (void)ionWithTitle:(id)arg1 subtitle:body:footer:defaultActionUrl:categoryIdentifier:interruptionLevel:destination:actions:suppressDismissActionInCarPlay:preventAutomaticRemoval:expirationDate:userInfo:handler: /* Error: Ran out of types for this method. */;
-- (void)uteFromCurrentLocation:(unsigned long long)arg1 options:queryStartTime:handler: /* Error: Ran out of types for this method. */;
-- (void)satisfying:(id)arg1 locationManager;
-- (_Bool)=;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)d:(CDUnknownBlockType)arg1 withError:(CDUnknownBlockType)arg2;
+- (_Bool)¼;
+- (void)adcrumb,%{sensitive}@,startBreadcrumbDist,%f,stopBreadcrumbDist,%f;
+- (void)`ö-}2;
+- (_Bool)dêÿ{Æ+E;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,7 +7,7 @@
 @interface (null) (Bridge)
 - (void);
 - (void);
-- (_Bool)@;
+- (_Bool);
 - (_Bool);
 
 // Remaining properties

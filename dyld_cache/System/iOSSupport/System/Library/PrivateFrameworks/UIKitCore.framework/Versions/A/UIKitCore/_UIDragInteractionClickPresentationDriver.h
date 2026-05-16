@@ -18,17 +18,18 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *_delayedLift;
 }
 
-- (_Bool)H;
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (void)tViewControllerShouldUpdateNotification:(struct CGPoint)arg1;
-- (_Bool)lPocketRegistrationInteractionC;
-- (void)lingImage;
-- (void)celAction;
-- (void)àþ;
-- (void)Tèðþë»Õí£a;
+- (_Bool)!ÔGù`°1Â0@ù
+× ;
+- (void);
+- (_Bool)gGlowViewMode;
+- (void)sWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)lInputModeIdentifiers;
+- (void)iew;
+- (void);
+- (void)newline;
+- (void)H\;
 
 @end
 

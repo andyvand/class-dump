@@ -31,52 +31,52 @@
     _Bool _failed;
 }
 
-+ (_Bool)}56@0:8{CGSize=dd}16d32q40B48B52 /* Error: Ran out of types for this method. */;
-+ (_Bool)@	éÿà¯þp}þÿ;
-+ (_Bool)¤·;
-- (void);
-- (void);
-- (_Bool);
-- (double)tem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
-- (void)playName;
-- (void)ildWithLabel:(id)arg1 withUrl:withFileType:withFileData: /* Error: Ran out of types for this method. */;
-- (void);
-- (double);
-- (void);
-- (struct CGPoint)B;
-- (void);
-- (void)sMusicVideos;
-- (void);
-- (void);
-- (void);
-- (id)x;
++ (_Bool);
++ (_Bool);
++ (_Bool)ing;
+- (struct CGPoint);
 - (void);
 - (unsigned long long);
-- (double);
-- (double);
-- (_Bool)h	ë;
-- (void);
 - (void);
-- (void)!¬CùÊð1¢!0@ù
+- (id);
+- (void);
+- (double);
+- (double);
+- (unsigned long long);
+- (double)! Cù\1Â0@ù
 × ;
 - (void);
-- (unsigned long long)enuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
-- (double)fset: /* Error: Ran out of types for this method. */;
-- (void)PathType:(id)arg1;
-- (void)iew:(id)arg1;
-- (double)Container;
-- (void)ddAttribute:(id)arg1 value:range: /* Error: Ran out of types for this method. */;
-- (double)s;
-- (void)sent to the browser. Ensure you have defined an appropriate URL in your app's Info.plist under the NSAdvertisingAttributionReportEndpoint key.;
-- (_Bool)Sä;
-- (double)èÏ2Ó`;
-- (id)2¸;
-- (void)À;
-- (struct CGPoint)86îÿTlÓ
-d;
-- (double)£Òâ;
-- (unsigned long long)ÿ*áÖæ2e;
-- (struct CGPoint)cf;
+- (double);
+- (void);
+- (double)!GùÑcÐ1Â0@ù
+× ;
+- (void)_UITabModel"16@"_UITabCustomizationStore"24;
+- (id)IntoBoundaryWithInsets:(id)arg1;
+- (double)ansition: /* Error: Ran out of types for this method. */;
+- (void)tring;
+- (struct CGPoint)ansformWithInteractionProgress:(id)arg1 forLocation:inView:containerView: /* Error: Ran out of types for this method. */;
+- (void)Storage:(id)arg1;
+- (void)yerForBackgroundEffects;
+- (void)tWithBehaviors:(id)arg1;
+- (_Bool)on;
+- (void)houldSuppressHDRDuringPresentation;
+- (void)ndowSceneActivationEffect",&,N,V_activeEffect;
+- (_Bool)UIViewControllerTransitionCoordinator>",N,R;
+- (void)fo;
+- (void)egate;
+- (struct CGPoint)0<À>p?	ø?|@A;
+- (_Bool)g focus update for %.2g seconds due to too many failed focus updates.;
+- (void)contentSizeCategory %lu while updating button configuration. The button this configuration is applied to will likely look wrong.;
+- (unsigned long long);
+- (double)Keyboard;
+- (double)ullwidth;
+- (void)Destination;
+- (void)QR0)13Tq;
+- (void);
+- (void);
+- (double)Êyÿ*Á;
+- (void)]u;
+- (void)¬<Ë\Óh;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

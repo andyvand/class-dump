@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool)C;
-- (id)x;
-- (id);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 

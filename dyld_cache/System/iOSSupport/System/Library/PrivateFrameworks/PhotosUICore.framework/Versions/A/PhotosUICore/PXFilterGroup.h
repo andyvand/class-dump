@@ -15,12 +15,12 @@
 + (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id):(struct _NSZone *)arg1 8;
+- (void)°3a;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *filterIdentifiers; // @synthesize filterIdentifiers=_filterIdentifiers;

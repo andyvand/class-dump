@@ -16,12 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (struct CGRect);
 - (id);
+- (id);
+- (struct CGRect);
 - (_Bool);
 - (void);
-- (id);
+- (void)oþÿÊNÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect bounds;

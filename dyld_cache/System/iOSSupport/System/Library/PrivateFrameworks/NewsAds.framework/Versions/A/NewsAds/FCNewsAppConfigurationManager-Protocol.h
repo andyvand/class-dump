@@ -8,12 +8,7 @@
 @protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
 
 @protocol FCNewsAppConfigurationManager
-- (void);
-
-@optional
-- (id <FCNewsAppConfiguration>)F;
-- (NSArray *);
-- (id <FCNewsAppConfiguration><FCJSONEncodableObjectProviding>)n;
+- (id <FCNewsAppConfiguration>)SGGG;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;

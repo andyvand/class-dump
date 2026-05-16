@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ng"16Q24;
+- (id);
 - (void);
-- (void)nRequests: /* Error: Ran out of types for this method. */;
-- (void)´£(¥\¥;
-- (void)k8_pG;
+- (void);
+- (void)ontentViewDidChangeDesiredHeight: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
 
 @end
 

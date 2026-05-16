@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)D;
 
 // Remaining properties
 @property(readonly) HMCoreAnalyticsMetricEventDispatcher *metricEventDispatcher; // @synthesize metricEventDispatcher=_metricEventDispatcher;

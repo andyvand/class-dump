@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)nlock;
-+ (_Bool)ge-data-path;
 + (_Bool);
-+ (id)webThreadWebViewDidLayout: /* Error: Ran out of types for this method. */;
-+ (id)ö;
-+ (double)x¾ÔþåEÖ!Le;
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)ccurrence for %@ and it can't be reused for swipe direction %ld, so it should have been cleaned up in prepareForSwipeDirection:%@ /* Error: Ran out of types for this method. */;
++ (double)(Ûf;
 
 @end
 

@@ -25,10 +25,10 @@
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
 - (id);
-- (void)(=;
 - (long long);
-- (_Bool)adDictionaryExitObserverKey;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

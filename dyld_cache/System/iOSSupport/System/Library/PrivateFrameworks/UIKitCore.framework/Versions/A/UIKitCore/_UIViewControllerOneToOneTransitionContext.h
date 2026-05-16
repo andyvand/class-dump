@@ -26,37 +26,35 @@
 }
 
 - (id);
-- (void);
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (void)ertyAlbumIsStoreRedownloadable__MAPPING_MISSING__;
 - (void);
-- (void);
-- (struct CGRect);
-- (void)è%º;
 - (_Bool);
-- (void)1Å°1¢!0@ù
-× ;
-- (struct CGRect)!hEùÈÐ1¢!0@ù
-× ;
-- (id)@48@?56;
-- (id)Menu"24;
-- (void)utOffsetEdges;
-- (id)StyleChildViewControllersToSendViewWillTransitionToSize;
-- (void)inator;
-- (struct CGAffineTransform)ionOrRow: /* Error: Ran out of types for this method. */;
-- (id)ath:forSelection: /* Error: Ran out of types for this method. */;
-- (struct CGAffineTransform)ssfadeTransition:(id)arg1 ,V__wantsTabCrossFadeTransition;
-- (struct CGRect)estureRecognizer",R,N;
-- (struct CGRect)%;
-- (void)ø\;
-- (struct CGRect)p (%@) with touches:%@ /* Error: Ran out of types for this method. */;
-- (id)Ytèÿ¾qþH¡þÿ;
-- (void)missalTap;
-- (void)nt case (%ld);
-- (struct CGRect)Foreground.inputRefractionHeight;
-- (id)+.[;
+- (void);
+- (void);
+- (struct CGAffineTransform);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (struct CGRect);
+- (struct CGRect)a;
+- (struct CGRect)ntentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
+- (id)UnitOfGranularity:inDirectionIfAtBoundary: /* Error: Ran out of types for this method. */;
+- (void)oteSize;
+- (void)imumValue;
+- (void);
+- (void)Dk;
+- (struct CGRect)show column for search controller;
+- (id)Device.;
+- (struct CGAffineTransform)ction after %lf sec.;
+- (void)8þÈzþÿ;
+- (struct CGRect)ion is already registered with event:(id)arg1 interaction:%@; event:%@ /* Error: Ran out of types for this method. */;
+- (id)S;
+- (void)7_A3At;
+- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic, setter=_setIsDeferred:) _Bool _isDeferred; // @synthesize _isDeferred=__isDeferred;

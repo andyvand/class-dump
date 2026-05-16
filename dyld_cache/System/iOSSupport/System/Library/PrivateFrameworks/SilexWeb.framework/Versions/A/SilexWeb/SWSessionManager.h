@@ -14,12 +14,12 @@
     id <SWLogger> _logger;
 }
 
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)P;
-- (void)C;
+- (void);
+- (id)"16@"SWMediaSettings"24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

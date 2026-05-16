@@ -19,10 +19,10 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long)aceholderContent;
 
 // Remaining properties
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;

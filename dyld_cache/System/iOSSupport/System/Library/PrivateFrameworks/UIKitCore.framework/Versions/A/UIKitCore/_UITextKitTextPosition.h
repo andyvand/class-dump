@@ -15,18 +15,18 @@
     id <NSTextLocation> _location;
 }
 
-+ (id);
-+ (id)1¢!0@ù
++ (id)Fù1YÐ1Â0@ù
 × ;
-+ (id);
++ (id)ctiveTabBarHost;
++ (id)erfacePresentationSemanticContext;
+- (id);
+- (id);
 - (_Bool);
-- (long long);
-- (void);
-- (id)b1"customRenderControllerCanEnumerateTextSegments"b1"customRenderControllerCanCheckFragmentsValid"b1"customRenderControllerCanSetTextDidEditRange"b1"customRenderControllerCanConvertPointToTextAnimationsCoordinateSpace"b1"customRenderControllerCanConvertPointToRenderSpace"b1"customRenderControllerCanConvertPointFromRenderSpace"b1"customRenderControllerCanConvertPointToRenderSpaceWithPosition"b1"customRenderControllerTextAnimatorForAnimation"b1"customRenderControllerCustomTextBounds"b1"delegateDidChangeCustomRenderBounds"b1"hasOverrideOfInsertTextSuggestion"b1"delegateWillBeginTextAssistantSession"b1"delegateDidEndTextAssistantSession"b1"delegateWritingToolsWillBegin"b1"delegateWritingToolsDidEnd"b1"delegateWritingToolsIgnoredRanges"b1"delegateWritingToolsUndoCoalescingWillBegin"b1"delegateWritingToolsUndoCoalescingDidEnd"b1"textStorageOverridesReplaceCharactersInRangeWithAttributedString"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions"b1"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions"b1};
-- (long long)lViewRubberBanding;
-- (id)bled;
-- (id)elyForReordering:animator: /* Error: Ran out of types for this method. */;
-- (long long)leConfigurationCG;
+- (long long);
+- (long long)LayoutGuide;
+- (id)ders:must be overridden if pasteConfiguration is not nil. /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long affinity; // @synthesize affinity=_affinity;

@@ -5,6 +5,5 @@
 //
 
 @protocol ISChangeObserver
-- (void)y2;
 @end
 

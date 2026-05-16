@@ -18,10 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)with a current section;
+- (id)ºyAEy*
+ºyÜºyAGyAGyAGy=tºyÏºGAEyAEyËåyå_Qo_<ºG>ý¹yºGGGAJGAEyAFyAGyyºALGGAMGGO²ºGG¨ý¹GAMGG;
+- (id)AssetActionPerformer_STILL_CONFIRMATION_MESSAGE_ONE_ITEM;
+- (void)hh3;
 
 // Remaining properties
 @property(nonatomic, readonly) CNContact *contact;

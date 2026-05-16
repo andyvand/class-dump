@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)4`;
 
 // Remaining properties
 @property(readonly) struct CGPoint anchor; // @synthesize anchor=_anchor;

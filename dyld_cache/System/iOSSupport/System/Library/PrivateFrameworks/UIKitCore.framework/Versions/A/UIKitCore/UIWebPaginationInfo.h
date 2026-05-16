@@ -19,15 +19,15 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (double)"IMCollaborationClearTransmission"16@"NSSet"24@?<v@?B>32;
-- (id)edManager;
-- (id)t status.;
+- (double);
+- (id);
+- (id);
 - (id);
 - (void);
-- (double);
-- (void);
-- (unsigned long long)Range: /* Error: Ran out of types for this method. */;
-- (struct CGSize)Settings",N,&,VupdateSpring;
+- (double)t be locked to its owning view before retaining system constraints;
+- (struct CGSize)tsHiddenKey;
+- (void);
+- (unsigned long long)d;
 
 // Remaining properties
 @property(readonly, nonatomic) double lastPageHeight;

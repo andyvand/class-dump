@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_additionalObservers;
 }
 
-+ (id);
-- (void)_S;
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType)QÅ°1¢!0@ù
++ (id)1Â0@ù
 × ;
-- (void)override settings outside _enableOverrideSettingsForActions:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void)raryConstantsP;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *additionalObservers; // @synthesize additionalObservers=_additionalObservers;

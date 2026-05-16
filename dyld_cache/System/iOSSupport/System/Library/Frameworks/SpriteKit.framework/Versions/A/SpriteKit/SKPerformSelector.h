@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ØPì;
++ (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)getNode;
 
 @end
 

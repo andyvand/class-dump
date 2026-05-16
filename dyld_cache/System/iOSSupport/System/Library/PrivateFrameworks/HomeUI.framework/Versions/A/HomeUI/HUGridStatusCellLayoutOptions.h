@@ -39,11 +39,11 @@
 - (double);
 - (void);
 - (double);
-- (id);
-- (void);
 - (double);
 - (void);
-- (unsigned long long);
+- (id);
+- (unsigned long long)n;
+- (void)electableServiceGridViewController initWithItemManager:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double backgroundSize; // @synthesize backgroundSize=_backgroundSize;

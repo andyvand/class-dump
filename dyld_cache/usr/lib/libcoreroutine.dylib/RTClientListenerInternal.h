@@ -6,7 +6,7 @@
 
 #import <coreroutine/RTXPCListener.h>
 
-@class NSString, RTAccountManager, RTAssetManager, RTAuthorizationManager, RTAuthorizedLocationManager, RTBluePOITileManager, RTBuildingPolygonManager, RTDeviceLocationPredictor, RTDiagnostics, RTEventAgentManager, RTEventModelProvider, RTFingerprintManager, RTHintManager, RTIntermittentGNSSManager, RTLearnedLocationManager, RTLearnedLocationStore, RTLocationManager, RTLocationStore, RTMapServiceManager, RTMotionActivityManager, RTPeopleDiscoveryProvider, RTPersistenceManager, RTPlaceInferenceQueryStore, RTPlatform, RTPointOfInterestSampler, RTPredictedContextManager, RTPurgeManager, RTScenarioTriggerManager, RTUserCurationManager, RTVehicleLocationProvider, RTVisitManager, RTWiFiManager, RTWorkoutRouteManager, RTWorkoutScheduler, SMSafetyCacheStore;
+@class NSString, RTAccountManager, RTAssetManager, RTAuthorizationManager, RTAuthorizedLocationManager, RTBluePOITileManager, RTBuildingPolygonManager, RTDeviceLocationPredictor, RTDiagnostics, RTEventAgentManager, RTEventModelProvider, RTFingerprintManager, RTHintManager, RTIntermittentGNSSManager, RTLearnedLocationManager, RTLearnedLocationStore, RTLocationManager, RTLocationStore, RTMapServiceManager, RTMotionActivityManager, RTPeopleDiscoveryProvider, RTPersistenceManager, RTPlaceInferenceQueryStore, RTPlatform, RTPointOfInterestSampler, RTPredictedContextManager, RTPurgeManager, RTScenarioTriggerManager, RTTripSegmentManager, RTUserCurationManager, RTVehicleLocationProvider, RTVisitManager, RTWiFiManager, RTWorkoutRouteManager, RTWorkoutScheduler, SMSafetyCacheStore;
 
 @interface RTClientListenerInternal : RTXPCListener
 {
@@ -40,20 +40,13 @@
     RTUserCurationManager *_userCurationManager;
     RTVehicleLocationProvider *_vehicleLocationProvider;
     RTVisitManager *_visitManager;
+    RTTripSegmentManager *_tripSegmentManager;
     RTWiFiManager *_wifiManager;
     RTWorkoutRouteManager *_workoutRouteManager;
     RTWorkoutScheduler *_workoutScheduler;
     SMSafetyCacheStore *_safetyCacheStore;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)@;
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -61,65 +54,78 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void)6;
-- (void)"16@"NSDictionary"24@"NSError"32;
-- (void)B;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)ItemsInDomain:(id)arg1 removeItems: /* Error: Ran out of types for this method. */;
-- (id)uiToggleEnabled;
-- (id)ess, ignore;
-- (id)valid flow UUID;
-- (id);
-- (void);
 - (id);
-- (id));
-- (void);
-- (id)`B;
-- (id);
-- (id);
-- (void);
-- (void)1@9H;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id)1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (void)enyList:(id)arg1 geoCacheInfo:modelCalibrationParameters: /* Error: Ran out of types for this method. */;
-- (id)id;
-- (void)sFromMultiClassModelForPlaceType:(id)arg1 placeStats:metricsData: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)SendSessionEndMessageAssociatedGUIDKey;
-- (id)RTMetricStandardDeviationOptionsMinimumVisitsKey;
-- (id)quires a valid spatial granularity;;
-- (void)yCache,Initiator,sessionID:(id)arg1 %@,%@,%@,cachePersistenceTimerAlarm fireWithDate hit error:%@ /* Error: Ran out of types for this method. */;
-- (id)@, %@, metricsFromCacheStore count, %lu;
-- (void)rl (in %s:(id)arg1 %d);
-- (id)rameter not satisfying:clusterID (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id)!(ð!ðFù±A,1Â0@ù
+× ;
+- (id)
+× ;
+- (id)C,ð1Â0@ù
+× ;
+- (void);
+- (void)cation"16@?<v@?@"RTLocationOfInterest"@"NSError">24;
+- (void)houldBeCleanedUpDate;
+- (void)ore;
+- (void)learnedPlaceIdentifier:(id)arg1 placeType:metricSource:creationDate:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)nitWithConfidence:(id)arg1;
+- (void);
+- (void)ddTripSegmentInertialData:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (id)"SMSessionStore",C,N,V_sessionStore;
+- (void)mbers;
+- (id)tus;
+- (id)´!	¸"H%´+-;
+- (id);
+- (id);
+- (void)ination initWithQueue:(id)arg1 defaultsManager:dataProtectionManager:locationManager:motionActivityManager:distanceCalculator:platform:sessionStore:timerManager:sessionMetricManager:] /* Error: Ran out of types for this method. */;
+- (void)ookupWindowMinMinutes, %.1f, locationUncertaintyThreshold, %.2f, maxLocationsPerFingerprint, %lu;
+- (id)eted;
+- (id)satisfying:workoutDistanceStore /* Error: Ran out of types for this method. */;
+- (void)t;
+- (id)lid parameter not satisfying:placeToVisitsMap /* Error: Ran out of types for this method. */;
+- (id)e, %@, error, %@;
+- (void)	;
+- (void)X;
+- (id)M0';
 
 // Remaining properties
 @property(retain, nonatomic) RTAccountManager *accountManager; // @synthesize accountManager=_accountManager;
@@ -157,6 +163,7 @@
 @property(retain, nonatomic) SMSafetyCacheStore *safetyCacheStore; // @synthesize safetyCacheStore=_safetyCacheStore;
 @property(retain, nonatomic) RTScenarioTriggerManager *scenarioTriggerManager; // @synthesize scenarioTriggerManager=_scenarioTriggerManager;
 @property(readonly) Class superclass;
+@property(retain, nonatomic) RTTripSegmentManager *tripSegmentManager; // @synthesize tripSegmentManager=_tripSegmentManager;
 @property(retain, nonatomic) RTUserCurationManager *userCurationManager; // @synthesize userCurationManager=_userCurationManager;
 @property(retain, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
 @property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;

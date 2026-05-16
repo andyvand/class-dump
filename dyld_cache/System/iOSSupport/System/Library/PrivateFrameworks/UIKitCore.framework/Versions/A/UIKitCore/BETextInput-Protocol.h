@@ -4,55 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDictionary, NSString, UITextRange, UIView;
+@class NSArray, NSAttributedString, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
 @protocol BEExtendedTextInputTraits, BETextInputDelegate;
 
 @protocol BETextInput
-- (void)for required to seal ones failed;
-- (void)l attribute failed;
-- (void)t;
-- (void)tion;
 - (void);
-- (void)mand_StatusExtensionsItem"8;
-- (void);
-- (UIView *)nary;
-- (void)`;
-- (void)0@ù
+- (void)
 × ;
-- (_Bool)!CùQÄð1¢!0@ù
-× ;
-- (void)QÆð1¢!0@ù
-× ;
-- (void)Æð1¢!0@ù
-× ;
-- (struct CGRect)
-× ;
-- (NSArray *)QÏ1¢!0@ù
-× ;
-- (_Bool)t"b1"isObservingFocusUpdateNotification"b1};
-- (_Bool)searchTextFieldDidGainSearchBar: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)Ø;
-- (void)rendering scene for reason:(UITextRange *)arg1 %{public}@;
-- (NSString *)ror %@ while updating the last used date on document %@;
-- (struct CGRect)0ÙæÿlÙæÿ¨ÙæÿÌÙæÿøÛæÿ¼ÜæÿÈÜæÿÔÜæÿàÜæÿìÜæÿøÜæÿ\ÝæÿÝæÿTÞæÿÞæÿ¬Þæÿlßæÿ ßæÿPàæÿàæÿ´àæÿØàæÿáæÿ$áæÿpáæÿææÿ°ææÿÔææÿøææÿçæÿ@çæÿéæÿ@éæÿéæÿÈéæÿTêæÿ ìæÿdìæÿ ìæÿÄìæÿîæÿ@îæÿ¼òæÿÜóæÿôóæÿ0ôæÿõæÿäõæÿ;
-- (UITextRange *)G;
-- (void)ConfigurableSharedTextureP;
-- (void)3G;
-- (void)GlobalIndex < self.count;
-- (UIView *)lue;
-- (NSString *)_LiquidDetection;
-- (NSArray *)s;
-- (UITextRange *)ple.runtime-issues;
-- (void)24@?0@"NSString"8@"NSDictionary"16;
-- (id <BETextInputDelegate>)entTracker.m;
-- (long long)ntext class (%@) must be a subclass of UICollectionViewFlowLayoutInvalidationContext.;
-- (_Bool)tl;
-- (struct CGRect)ÌÓ;
-- (struct CGRect)N-eþeþ[71;
-- (void):Ï|[ /* Error: Ran out of types for this method. */;
-
-@optional
-- (UIView *)houldLookForLargerImageRepresentationsWhenBestRepresentationIsUnavailable;
+- (NSDictionary *)n:(UITextPosition *)arg1;
+- (void)initClickBasedImplementationWithView:(NSString *)arg1;
+- (void)V_markedInput;
+- (void);
+- (void)õÿÿ¨kïÿùÿÿkïÿàjïÿÌkïÿ;
+- (_Bool)View;
+- (NSString *)text.grabber.top;
+- (NSArray *)¤õþÿÂ9þÿÀ9þÿ;
+- (struct CGRect)¾7y¾7_GSg¾7G;
+- (long long)sConfigurationCSgIegnr_;
+- (UITextRange *);
+- (id <BETextInputDelegate>)g;
+- (struct CGRect)Ë¾7y_
+à¾7SgG;
+- (_Bool);
+- (struct CGRect)POÄ7;
+- (UIView *)oardLog;
+- (NSArray *)®ÑL[;
+- (void)ä¢[;
+- (void)È\;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <BETextInputDelegate> asyncInputDelegate;

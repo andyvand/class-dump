@@ -17,13 +17,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)lightedTextAlpha;
+- (void)gnized primitive condition type %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

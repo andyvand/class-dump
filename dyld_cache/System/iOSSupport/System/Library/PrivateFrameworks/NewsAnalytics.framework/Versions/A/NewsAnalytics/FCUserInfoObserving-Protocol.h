@@ -8,10 +8,5 @@
 
 @optional
 - (void);
-- (void);
-- (void)L�;
-- (void)6g;
-- (void);
-- (void)collection observer for ;
 @end
 

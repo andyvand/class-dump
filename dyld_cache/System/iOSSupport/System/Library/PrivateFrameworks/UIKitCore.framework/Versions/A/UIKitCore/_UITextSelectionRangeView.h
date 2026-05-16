@@ -16,20 +16,18 @@ __attribute__((visibility("hidden")))
     double _selectionBorderWidth;
 }
 
-+ (Class)8`;
-- (id);
-- (void)r allocating;
++ (Class);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)0@ù
-× ;
-- (struct CGPath *)!BùÑÎ1¢!0@ù
-× ;
-- (void)setScrollerKnobStyle:(struct CGPath *)arg1;
-- (double)thValueApplier:completion: /* Error: Ran out of types for this method. */;
-- (void)ize=dd}}48f80;
+- (void);
+- (id);
+- (void)enuPresentationLayout";
+- (double)B,GisPresentation,V_presentation;
+- (struct CGPath *)ndidateReceiver;
+- (void);
+- (void)°f];
 
 // Remaining properties
 @property(nonatomic) struct CGPath *path;

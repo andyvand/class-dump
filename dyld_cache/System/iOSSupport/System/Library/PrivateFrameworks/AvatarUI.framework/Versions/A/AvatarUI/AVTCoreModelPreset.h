@@ -16,17 +16,17 @@
 + (id);
 - (id);
 - (_Bool);
-- (id)R( ;
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id);;
-- (id)H;
-- (id)tTransfererDidIdle;
-- (id);
-- (id);
+- (id)ectClipping: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDefaultPreset) _Bool defaultPreset; // @synthesize defaultPreset=_defaultPreset;

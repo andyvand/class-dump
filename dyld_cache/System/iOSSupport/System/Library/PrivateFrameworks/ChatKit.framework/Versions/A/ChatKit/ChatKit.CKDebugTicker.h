@@ -17,14 +17,14 @@
     MISSING_TYPE *capturedDidChangeObserver;
 }
 
-+ (id)enerated user title from gallery attachment %@;
++ (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)Ø;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long tickCounter;

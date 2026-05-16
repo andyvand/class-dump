@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (struct CGImage *);
 - (id);
 - (struct CGImageMetadata *);
-- (struct CGImage *);
+- (struct CGImage *);
 - (struct CGImageSource *);
 - (void);
-- (_Bool);
 - (struct __CFDictionary *);
-- (double)S;
+- (_Bool);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *hdrImage; // @synthesize hdrImage=_hdrImage;

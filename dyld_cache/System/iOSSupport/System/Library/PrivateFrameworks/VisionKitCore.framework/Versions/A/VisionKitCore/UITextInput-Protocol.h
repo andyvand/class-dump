@@ -4,33 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *)erThanDate:(UITextPosition *)arg1;
-- (UITextRange *)on:(struct CGPoint)arg1 requestType: /* Error: Ran out of types for this method. */;
-- (UITextPosition *)ithSymbolConfiguration:(struct CGPoint)arg1;
-- (void)dex;
-- (NSDictionary *)isualSearchCornerViewDisabled;
-- (void)ÿ;
-- (struct CGRect)CImageAnalysis Visual Intelligence Coordinator";
-- (id <UITextInputTokenizer>)o:%f, min:%f, max:%f /* Error: Ran out of types for this method. */;
-- (id <UITextInputDelegate>)CVBuffer;
+- (long long)!@ùÑ°1â
+0@ù
+× ;
+- (void)v28@0:(long long)arg1 8@"VKCImageAnalysisBaseView"16B24;
+- (UITextPosition *)ElementFrames:(UITextPosition *)arg1;
+- (UITextPosition *)esInRange: /* Error: Ran out of types for this method. */;
+- (UITextPosition *)eHandler: /* Error: Ran out of types for this method. */;
+- (id <UITextInputDelegate>)arrayLength;
+- (id <UITextInputTokenizer>)ew;
+- (void)T@"NSArray",C,N,V_symbologies;
+- (struct CGRect)sTwoShader;
+- (void)H ;
+- (UITextRange *);
+- (UITextRange *)$;
+- (UITextPosition *)Û;
+- (UITextPosition *);
+- (void)ng to update all DD element frames, but the bounds or contentsRect are invalid. Bounds:(NSDictionary *)arg1 %@, contentsRect:%@ , skipping /* Error: Ran out of types for this method. */;
+- (void)°;
 
 @optional
-- (struct CGRect)
+- (void)0@ù
 × ;
-- (void)!4!¼EùQN1B0@ù
+- (void)!HBùñ1â
+0@ù
 × ;
-- (void)sk: /* Error: Ran out of types for this method. */;
-- (_Bool)gMenuController;
-- (UITextPlaceholder *)tivatePrimaryAction:(struct CGSize)arg1;
-- (_Bool)ng:initialVelocity:animations:completion: /* Error: Ran out of types for this method. */;
-- (void)åÿÿfåÿÿ;
-- (void);
-- (void)p;
-- (void);
+- (UITextRange *);
+- (UIView *)ct;
+- (struct CGRect)e(AVCaptureDevice *__strong);
+- (void)zerEvent"16@"NSError"24;
+- (_Bool)ore  PROJECT:VisionKit-3
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -60,5 +68,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

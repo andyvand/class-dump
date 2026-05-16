@@ -16,17 +16,17 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (CDUnknownBlockType);
-- (id)ableWalletKeyEncodedPKPass:(id)arg1;
-- (id)etSetupResult:(id)arg1;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)escriptionTelevision_OneOn;
+- (id)HFUserPhotosLibraryItem _subclass_updateWithOptions:(id)arg1 ];
+- (void)ome(Additions) hf_fetchAvailableWalletKeyEncodedPKPass]_block_invoke_2;
+- (id)'t generate image for clipPosition:%@ request using key:%@ for observer:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol _UIDocumentPickerExtensionViewController
-- (void);
-- (void)@?B@"NSString"@"NSString"@"NSString"@"NSString"@"NSError">32;
-- (void)essageChatsExist;
-- (void)condsUnits;
+- (void)rmitted:(UIColor *)arg1 %d; for window:%p; forcingUpdate:%d; consideringCurrentKeyboard:%d; updateFocusedSceneIdentityStringOrIdentifierIfNil:%d; updateProxyFocusContext:%d; notifyViewServiceHostIfNeeded:%d /* Error: Ran out of types for this method. */;
 @end
 

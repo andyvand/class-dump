@@ -11,35 +11,34 @@
     UIKBKeyView *_keyView;
 }
 
-- (void)dle:(id)arg1 subServiceName:(id)arg2;
-- (void)portLogNeedsSync;
-- (void)asEditTypeAndPartIndex;
-- (void)ipelineComponent;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool);
-- (struct CGRect)te timer to %f;
-- (void)variant of the chat exists;
-- (void)t a contact, and cannot be a favorite;
-- (void)pant %@ is a favorite?:%ld /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)ñÁÐ1¢!0@ù
+- (id);
+- (void);
+- (id)A
+°!0Dù±fð1Â0@ù
 × ;
 - (id);
-- (id)0@ù
-× ;
-- (void)xð!¸BùÎ1¢!0@ù
-× ;
-- (id)Updater: /* Error: Ran out of types for this method. */;
-- (id)Ðm;
-- (void)3ySOûÿj8G;
-- (void)tionViewListCellVisualProvider.m;
-- (void)k;
-- (void)û;
-- (void)5ÏÏ×k;
+- (void)¾´;
+- (void)¸+ÿR%;
+- (void)5;
+- (void);
+- (void)ßÎ$Il;
+- (void)tfn;
+- (id)Lgÿ305;
 
 @end
 

@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (void)nimated:(_Bool)arg1;
+- (void)viceDetailsRemoveRouterAlertTitle;
+- (_Bool)stCreateFromXMLData;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activationGranularity;

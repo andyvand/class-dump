@@ -30,9 +30,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact;

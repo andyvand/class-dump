@@ -10,14 +10,14 @@
 {
 }
 
-- (unsigned long long)nyy_;
-- (id)a;
-- (id),;
-- (id)}8;
-- (CDUnknownBlockType)%@ %lu %@;
+- (unsigned long long);
 - (id);
-- (id)4	;
-- (id)Äsjÿ84¸Ï/;
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (id)p¯°;
+- (id)Ã:Ô. /* Error: Ran out of types for this method. */;
 
 @end
 

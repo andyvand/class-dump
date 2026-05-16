@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIFocusUpdateContext;
+@protocol UIFocusEnvironment;
+
 @protocol _UIFocusEnvironmentPlatformSupport
 
 @optional
-- (_Bool);
-- (_Bool)!;
-- (struct CGRect)@"IMDBackgroundMessageProcessingController";
-- (void)@«ªªªªª
-@UUUUUU@;
+- (void)s:(UIFocusUpdateContext *)arg1 When collapsing for size class adaptation, secondary (detail) view controller has a navigation controller without any children, so ignoring it and not collapsing secondary on top of primary. SplitViewController is %@, primary is %@, secondary is %@;
+- (id <UIFocusEnvironment>)¿·é$pÀ`¬o`r£ê?;
 @end
 

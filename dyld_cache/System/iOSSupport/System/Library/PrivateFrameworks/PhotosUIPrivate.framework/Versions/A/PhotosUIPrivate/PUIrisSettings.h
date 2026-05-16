@@ -12,17 +12,17 @@
 }
 
 + (id);
-+ (id)0üuf;
++ (id)ordinateSystemUpdate:,V__reasonForNextLayoutCoordinateSystemUpdate /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldAlwaysBadge; // @synthesize shouldAlwaysBadge=_shouldAlwaysBadge;

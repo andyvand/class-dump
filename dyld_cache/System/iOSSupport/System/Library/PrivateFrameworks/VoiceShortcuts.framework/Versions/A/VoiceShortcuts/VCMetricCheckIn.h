@@ -21,10 +21,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
 - (id);
-- (id)ÜÿÿºÿÿÎ»ÿÿ¾¸ÿÿ;
-- (id);
+- (id);
+- (void);
+- (id)RawValue;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *checkInDate;

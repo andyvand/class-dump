@@ -16,10 +16,10 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
-- (double);
 - (void);
+- (void)aptionToPrimaryLabelConstraint;
+- (double)ÜØ	;
 
 // Remaining properties
 @property(nonatomic) double aspectRatio;

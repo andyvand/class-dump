@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ups: /* Error: Ran out of types for this method. */;
 
 @end
 

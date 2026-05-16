@@ -64,34 +64,34 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (void);
+- (void)$KPKLL¬N OøR TDU|U;
+- (id)	ô1;
+- (id)Ùÿ$vIÿÙÿ´Iÿhý9ÿtºIÿ,»IÿäKÿðKÿìØÿøLÿÜLÿ¼LÿÜØÿ MÿxMÿMÿTÄOÿXPÿ¤PÿÄ­Pÿ¨®Pÿ¸ØÿDWÿWÿ,;Wÿ¨Øÿ îWÿð÷Wÿ|XÿpXÿ;
+- (id)ÿ	;
+- (void)deoFilterActionPerformer.m;
+- (id)n PHAssetCollection All Photos;
+- (void)BookmarksMediaTypesPhotosItemTitle;
+- (id)on;
+- (_Bool)à;
+- (void)=È+o;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void):completionHandler: /* Error: Ran out of types for this method. */;
-- (id)sDataSource;
-- (void);
-- (id);
-- (id)performUserInteractionTask]_block_invoke;
-- (_Bool)teModifiedTitle;
-- (id);
-- (struct CGSize)Y`0°È ÿ¡`0¬@ÿÙ`0´@ÿ©`0Ä@ÿ;
-- (id);
-- (void)ÉJê5;
-- (void);
-- (void)ì¸ßÿ=EHÑ6;
-- (id)ø7;
-- (void);
+- (id)Û­ÿ)ÖSô5;
+- (id)ð6;
+- (void)¨ÿ;
+- (id)ÈÒ6;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXFeedActionPerformer> actionPerformer; // @synthesize actionPerformer=_actionPerformer;

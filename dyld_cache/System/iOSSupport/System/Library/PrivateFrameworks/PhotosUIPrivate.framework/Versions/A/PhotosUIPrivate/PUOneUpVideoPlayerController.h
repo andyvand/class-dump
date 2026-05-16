@@ -15,12 +15,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)idatePlaying;
 
 // Remaining properties
 @property(nonatomic) __weak id <PUOneUpVideoPlayerControllerDelegate> delegate; // @synthesize delegate;

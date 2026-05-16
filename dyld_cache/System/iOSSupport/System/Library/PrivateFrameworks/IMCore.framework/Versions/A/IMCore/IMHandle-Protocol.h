@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol IMHandle
-- (NSString *)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *ID;

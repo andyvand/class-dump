@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)onsider checking the existence of -image instead.;
+- (id);
 - (id);
 - (void);
 - (id);
+- (long long);
 - (void);
-- (long long)	k);
 - (void);
 
 // Remaining properties

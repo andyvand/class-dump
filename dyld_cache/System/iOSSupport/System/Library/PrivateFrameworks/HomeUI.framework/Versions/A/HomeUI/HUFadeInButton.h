@@ -12,14 +12,14 @@
     CAGradientLayer *_fadeLayer;
 }
 
-+ (id);
++ (id)hï;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)arding_Body;
 
 // Remaining properties
 @property(retain) CAGradientLayer *fadeLayer; // @synthesize fadeLayer=_fadeLayer;

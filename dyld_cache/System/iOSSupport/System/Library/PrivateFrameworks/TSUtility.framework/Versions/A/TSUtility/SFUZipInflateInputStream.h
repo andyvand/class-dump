@@ -28,12 +28,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (_Bool);
+- (void);
 - (long long);
-- (_Bool)SUDatabase *, SEL, long, NSString *, ...);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,8 +13,9 @@
 }
 
 - (id);
-- (void)Url:userAgent:withPersistence: /* Error: Ran out of types for this method. */;
-- (id)¡üÿ;
+- (id)1Â0@ù
+× ;
+- (void);
 
 @end
 

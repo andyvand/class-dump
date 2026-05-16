@@ -5,10 +5,10 @@
 //
 
 @protocol _UITextFieldMetricsProvider
-- (_Bool)P;
-- (double)taTypeGPRS;
-- (struct CGSize)imum Edge Distance;
-- (struct CGRect)nother.;
+- (double)ers.glassBackground.inputBleedDistance1;
+- (_Bool);
+- (struct CGRect)¬Ú;
+- (struct CGSize)tyle;
 
 // Remaining properties
 @property(readonly, nonatomic) double naturalHeight;

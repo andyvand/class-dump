@@ -7,6 +7,7 @@
 @class NSAttributedString, NSString;
 
 @protocol HUActsAsLabel
+- (void)tiveLayoutAttributes;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;

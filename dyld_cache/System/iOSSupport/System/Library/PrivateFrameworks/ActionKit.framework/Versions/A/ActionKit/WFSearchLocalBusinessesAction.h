@@ -15,13 +15,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ñµ
-Ð1b0@ù
-× ;
+- (void)WITH %@;
 
 // Remaining properties
 @property(retain, nonatomic) MKLocalSearch *localSearch; // @synthesize localSearch=_localSearch;

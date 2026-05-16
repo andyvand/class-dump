@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)elayGroupMutationMessage"24@"NSNumber"32@"NSNumber"40@"NSData"48@"NSString"56B64;
-- (_Bool);
+- (id);
 - (void);
-- (id)sion;
-- (void)ayerRetained;
+- (id);
+- (_Bool)wProviderForDroppingItem"b1"customSpringAnimationBehaviorForDroppingItem"b1"shouldPlayDropFeedbackForSession"b1};
+- (void)eListMetricsC9BehaviorsP;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *link; // @synthesize link=_link;

@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (void);
-- (id)tButton;
+- (id);
 
 @end
 

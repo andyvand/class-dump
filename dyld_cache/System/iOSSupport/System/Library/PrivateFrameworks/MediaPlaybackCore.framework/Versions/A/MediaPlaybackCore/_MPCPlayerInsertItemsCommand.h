@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void)sDaemon;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long)=N;
+- (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (void)to deferredNextContentItem PositionSpecified [deferredNextContentItemID is nil] edit=%{public}@;
+- (void)Ft;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

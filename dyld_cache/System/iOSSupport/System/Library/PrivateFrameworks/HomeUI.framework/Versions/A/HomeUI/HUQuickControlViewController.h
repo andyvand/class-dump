@@ -60,17 +60,19 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id)bleViewCellDelegate>";
-- (void)temProvider;
-- (void)oundView:(_Bool)arg1;
-- (unsigned long long)DeviceWarningItemManager;
-- (id)uration;
+- (id)¡±!@ùQ1â
+0@ù
+× ;
+- (void)nnerSymptom_VPNProfileExpired_Title;
+- (_Bool)tton;
+- (void)trolTitle;
+- (void)I47AccessoryDetailInfoListModuleControllerDelegateP;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *affectedCharacteristics;

@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)rByAddingFeaturesForTabularFigures;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUPlaceDescriptionSectionControllerDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;

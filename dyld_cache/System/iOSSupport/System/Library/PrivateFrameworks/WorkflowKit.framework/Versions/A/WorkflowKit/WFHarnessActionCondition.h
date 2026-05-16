@@ -15,10 +15,10 @@
 
 - (id);
 - (void);
-- (void);
 - (Class);
 - (CDUnknownBlockType);
-- (id);
+- (id)atabase objectOfClass:withIdentifier:forKey:createIfNecessary:properties:] /* Error: Ran out of types for this method. */;
+- (void)-addresses;
 
 // Remaining properties
 @property(readonly, nonatomic) Class eventClass; // @synthesize eventClass=_eventClass;

@@ -20,7 +20,7 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (struct CGColor *)J;
+- (struct CGColor *);
 - (struct CGColor *);
 - (double);
 - (double);
@@ -30,17 +30,18 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
+- (id);
 - (unsigned long long);
-- (void)dificationConfiguration: /* Error: Ran out of types for this method. */;
-- (id)TopicsScoreCoefficient:userCohort:lowFlowBoostFetchCountWeight:lowFlowBoostFactor:lowFlowBoostMaxProductFactor:lowFlowBoostFetchEstimationConfig:lowFlowBoostEventEstimationConfig:nicheContentBoostOnlyAboveBaselineMembership:nicheContentBaselineMembershipMultiplier:nicheContentManagedTopicBoostAllTags:nicheContentDefaultFlowRate:nicheContentDefaultSubscriptionRate:nicheContentExcludeNonGroupableTopics:nicheContentShouldBoostPublisher:nicheContentTopicFlowExponent:nicheContentPublisherFlowExponent:nicheContentManagedTopicBoost:nicheContentServerFlowWeight:nicheContentTopicSubscriptionExponent:nicheContentPublisherSubscriptionExponent:nicheContentQualityThreshold:contentTriggerMaxEventCount:contentTriggerScoreExponent:contentTriggerTagWeightExponent:contentTriggerMinScoreWeight:contentTriggerMaxDampener:contentTriggerDampenerCoefficient:personalizedMultiplierBaselineMembership:personalizedMultiplierPreBaselineCurvature:personalizedMultiplierPostBaselineCurvature:personalizedMultiplierMembershipDampener:publisherDampenerWeight:recentlyFollowedDurationThreshold:recentlyFollowedMultiplier:tabiScoreCoefficient:clientSideEngagementBoostFeaturedArticleMultiplier:clientSideEngagementBoostFeatureCandidateArticleMultiplier:clientSideEngagementBoostFreeCohortCTRCap:clientSideEngagementBoostPaidCohortCTRCap:clientSideEngagementBoostTagQualityMultiplier:clientSideEngagementBoostReduceVisibilityMultiplier:clientSideEngagementBoostANFMutiplier:dampenerEnabled:multiplierEnabled:peopleAlsoReadBaselineScore:peopleAlsoReadConditionalScoreCoefficient:peopleAlsoReadScoreCoefficient:recipeSeenPenalty:recipeViewedPenalty: /* Error: Ran out of types for this method. */;
-- (void)Request",&,N,V_request;
-- (id);
 - (void);
 - (void);
-- (long long);
+- (long long)ùqZ	°1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) AXFKAFocusRingBorderShapeLayer *bottomBorderLayer; // @synthesize bottomBorderLayer=_bottomBorderLayer;

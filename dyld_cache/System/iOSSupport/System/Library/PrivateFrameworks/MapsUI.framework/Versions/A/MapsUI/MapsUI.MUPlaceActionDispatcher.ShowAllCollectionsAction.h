@@ -15,8 +15,8 @@
     MISSING_TYPE *collectionIds;
 }
 
-- (void);
 - (id);
+- (void)m: /* Error: Ran out of types for this method. */;
 
 @end
 

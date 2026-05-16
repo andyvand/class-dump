@@ -21,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)WithApplicationIdentifier:(id)arg1;
-- (id)dding;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;

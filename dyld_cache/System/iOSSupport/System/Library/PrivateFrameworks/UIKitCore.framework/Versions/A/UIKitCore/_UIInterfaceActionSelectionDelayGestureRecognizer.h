@@ -14,15 +14,13 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *_delayedAction;
 }
 
-- (void);
-- (void)tProperty: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)!HGùÑÆ°1¢!0@ù
-× ;
 - (void);
-- (id)1¢!0@ù
-× ;
-- (void)rContinuous"b1"delegateImplementsDidSelectColor"b1"delegateImplementsDidDeselectColorSPI"b1"disableReshowingColorPickerOnEyedropperDismiss"b1};
+- (id);
+- (void)hHandle:(id)arg1;
+- (void)AnimatableLeftViewNowIfNeeded;
+- (void)Internal;
+- (void)ôtþ5§43¼tþ§43ìtþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIDelayedAction *delayedAction; // @synthesize delayedAction=_delayedAction;

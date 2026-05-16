@@ -39,16 +39,18 @@
 - (void);
 - (id);
 - (id);
+- (long long);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ññ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

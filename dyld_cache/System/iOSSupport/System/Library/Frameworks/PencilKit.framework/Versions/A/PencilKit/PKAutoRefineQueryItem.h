@@ -32,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<àØà;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;

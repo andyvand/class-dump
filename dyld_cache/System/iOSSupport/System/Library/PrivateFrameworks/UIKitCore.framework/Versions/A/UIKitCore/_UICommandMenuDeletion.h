@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)l:(id)arg1 %@;
-- (void)IDs:(CDUnknownBlockType)arg1;
-- (_Bool)tachments:(CDUnknownBlockType)arg1;
++ (id);
+- (void);
+- (_Bool);
 - (id);
 
 // Remaining properties

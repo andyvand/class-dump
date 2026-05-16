@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)k;
++ (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -18,8 +18,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (void)0@ù
-× ;
++ (void)t;
 
 @end
 

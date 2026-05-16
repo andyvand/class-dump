@@ -22,20 +22,22 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (float);
 - (float);
 - (void);
 - (long long);
+- (void);
 - (_Bool);
+- (void);
 - (_Bool);
 - (void);
+- (_Bool)Ó
+Ð3Ùÿ=rÓ
+Ì3Ùÿ;
 - (void);
-- (void);
-- (_Bool)%{public}@ %2i %{public}@  â adjusted-start-item:%{public}@ /* Error: Ran out of types for this method. */;
-- (float)´ÇÈÿù»°ÇÈÿ¼0Åÿá»¤ÇÈÿ;
-- (void);
+- (float)¼»;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

@@ -17,15 +17,15 @@
 
 - (_Bool);
 - (void);
-- (id)pSg;
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (long long);
-- (void)M÷;
+- (void);
+- (void)gPaletteStatistics;
+- (void);
+- (void)(¸;
+- (long long)¼;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

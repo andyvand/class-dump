@@ -29,7 +29,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)on view layout asking for a footer unexpectedly;
 
 // Remaining properties
 @property(retain, nonatomic) HFControlPanelItemProvider *controlPanelItemProvider; // @synthesize controlPanelItemProvider=_controlPanelItemProvider;

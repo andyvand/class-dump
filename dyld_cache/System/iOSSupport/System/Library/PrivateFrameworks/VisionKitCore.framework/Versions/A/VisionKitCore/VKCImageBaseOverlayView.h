@@ -44,12 +44,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (id);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
 - (struct CGRect);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VKCImageAnalysisResult *analysisResult;

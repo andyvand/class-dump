@@ -20,15 +20,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)h;
+- (void);
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)E2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/kit/TSKTintLayer.m;
+- (id)ñÿÙ`[üJ;
+- (void)¸qËÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

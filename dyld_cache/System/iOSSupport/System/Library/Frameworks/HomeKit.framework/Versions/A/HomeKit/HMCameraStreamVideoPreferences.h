@@ -12,22 +12,22 @@
     long long _maximumQuality;
 }
 
-+ (id)he;
-+ (_Bool)rtedCharacteristicsForShortcutConditions;
++ (id);
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)ager>",R,V_removedMediaSystemTimerManager;
-- (id)for accessory with identifier:%@ wifi:%@ WiFi SSID:%@ delegate:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

@@ -44,12 +44,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -58,7 +58,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)9;
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -66,7 +66,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
-- (void)=;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -78,11 +78,11 @@
 - (void);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)database to DAV mode;
+- (id);
+- (void)tModified = %@; tabs = (    %@)>;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSPerSitePreference *cameraMediaCapturePreference; // @synthesize cameraMediaCapturePreference=_cameraMediaCapturePreference;

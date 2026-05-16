@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (void);
+- (id)PHPublicEventInfoCSgëÌS_pGSg;
 
 // Remaining properties
 @property(retain, nonatomic) PUParallaxLayerStackViewModel *viewModel; // @synthesize viewModel=_viewModel;

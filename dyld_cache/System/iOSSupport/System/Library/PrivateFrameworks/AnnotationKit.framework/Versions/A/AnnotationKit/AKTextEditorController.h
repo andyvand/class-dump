@@ -35,10 +35,10 @@
 - (void);
 - (id);
 - (id);
-- (id)ation;
+- (id);
 - (void);
 - (void);
-- (void)T\;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,11 +46,11 @@
 - (void);
 - (void);
 - (id);
-- (double);
-- (_Bool)$;
-- (_Bool);
 - (double);
-- (void)0;
+- (_Bool);
+- (_Bool);
+- (double);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,21 +65,20 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id)eckUserMediaPermissionForURL:mainFrameURL:frameIdentifier:decisionHandler: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id)!LDùQð1¢!0@ù
-× ;
+- (id);
 - (_Bool);
-- (void)dReceiveMemoryWarning:(id)arg1;
-- (void)wHeadStyle;
+- (void);
 
 // Remaining properties
 @property __weak AKAnnotation<AKTextAnnotationProtocol> *annotation; // @synthesize annotation=_annotation;

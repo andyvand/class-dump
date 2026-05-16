@@ -31,10 +31,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)e_2;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *appleTVs; // @synthesize appleTVs=_appleTVs;

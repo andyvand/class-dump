@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<ScreenReaderRemoteControlReceiver> *receiver; // @synthesize receiver=_receiver;

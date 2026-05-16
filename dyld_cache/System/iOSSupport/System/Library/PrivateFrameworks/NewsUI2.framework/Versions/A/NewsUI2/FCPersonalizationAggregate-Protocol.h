@@ -7,10 +7,11 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol FCPersonalizationAggregate
-- (double);
-- (double);
-- (double)ay;
-- (double);
+- (double)CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (NSDictionary *)H;
+- (double)p icon...;
+- (NSDate *)n_;
+- (double)arModuleType;
 
 // Remaining properties
 @property(readonly, nonatomic) double clicks;

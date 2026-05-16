@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
 - (long long);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long cardSize; // @synthesize cardSize=_cardSize;

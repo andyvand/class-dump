@@ -61,18 +61,17 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)Ô ;
-- (id)(Gùñ0ð1b0@ù
-× ;
-- (void)ng:(_Bool)arg1;
-- (void)t»;
+- (void)Name;
+- (void):%{public}s /* Error: Ran out of types for this method. */;
+- (id)">8;
+- (void).5þ+;
+- (void)Pð÷ÿµÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowRefresh; // @synthesize allowRefresh=_allowRefresh;

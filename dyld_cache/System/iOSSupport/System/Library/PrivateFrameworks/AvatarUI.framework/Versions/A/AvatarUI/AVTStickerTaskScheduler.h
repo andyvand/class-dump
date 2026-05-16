@@ -24,20 +24,20 @@
 + (id);
 - (id);
 - (id);
-- (id)�;
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -57,8 +57,8 @@
 - (void);
 - (id);
 - (void);
-- (id)x4;
-- (void)UpdateWithRecord:(CDUnknownBlockType)arg1;
+- (id)PsðtüuÌv;
+- (void)geLock;
 
 // Remaining properties
 @property(retain) NSArray *allAvatarRecordIdentifiers; // @synthesize allAvatarRecordIdentifiers=_allAvatarRecordIdentifiers;

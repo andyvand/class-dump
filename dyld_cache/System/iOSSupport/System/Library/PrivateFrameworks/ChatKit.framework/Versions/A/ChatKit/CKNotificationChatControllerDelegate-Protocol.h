@@ -5,8 +5,5 @@
 //
 
 @protocol CKNotificationChatControllerDelegate
-- (void);
-- (void)ekTime;
-- (void),V_maximumWidth;
 @end
 

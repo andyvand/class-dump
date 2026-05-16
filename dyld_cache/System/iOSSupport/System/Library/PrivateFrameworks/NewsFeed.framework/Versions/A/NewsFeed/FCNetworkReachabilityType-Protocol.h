@@ -5,11 +5,8 @@
 //
 
 @protocol FCNetworkReachabilityType
-- (_Bool)TGHHdH;
-- (_Bool);
-- (_Bool)sedMatch"24B32;
-- (_Bool)cations state.;
-- (long long)Ä©þ;
+- (void);
+- (long long)±ö;ló;
 
 // Remaining properties
 @property(readonly, nonatomic) long long cellularRadioAccessTechnology;

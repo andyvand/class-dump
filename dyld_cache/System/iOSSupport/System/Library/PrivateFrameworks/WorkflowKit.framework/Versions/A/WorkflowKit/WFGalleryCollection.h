@@ -21,24 +21,24 @@
 }
 
 + (id);
-+ (id)Ä;
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id)¬Ö0%EÉ;
+- (id);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (id)t·;
+- (void)RoundTo);
+- (id)WebPage} (Parameter Summary);
 
 // Remaining properties
 @property(readonly, nonatomic) CKRecordID *base; // @synthesize base=_base;

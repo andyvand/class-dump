@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void)%@ todayEndpointURL:(id)arg1 %@;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void)doRedoView",R,N,V_undoRedoView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *uniqueItemsForSetup;

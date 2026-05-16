@@ -50,13 +50,15 @@
 - (long long);
 - (void);
 - (id);
+- (void);
 - (_Bool);
-- (void)M99ñ9à$9)ö;
+- (id)aü°!BùÑIð1â
+0@ù
+× ;
+- (void)> %@; options:(id)arg1 %lx; Original Timeline:(unsigned long long)arg2 %@>;
 - (void);
-- (id);
-- (void)PXSystemAuthenticationTypeObserver",R,N;
-- (void);
-- (id)c4;
+- (void);
+- (id)_Ë´'$ÿq_Ëô'$ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXStoryBufferingController *bufferingController; // @synthesize bufferingController=_bufferingController;

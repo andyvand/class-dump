@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)Ö;
-- (void)ÊQ;
+- (void);
+- (void)chantIdentifier: /* Error: Ran out of types for this method. */;
+- (id))ýÿ<óöÿm;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bundlesToSearch; // @synthesize bundlesToSearch=_bundlesToSearch;

@@ -5,8 +5,6 @@
 //
 
 @protocol _UIViewServiceClientSettings
-- (_Bool);
-- (void)tCoreAutomationNotificationFinishedPeriodicSyncNotificationWithStartTime:(_Bool)arg1 chatsDidsync:messagesDidSync:attachmentsDidSync:recoverableMessagesDidSync: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool clientViewControllerIsReady;

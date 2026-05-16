@@ -39,17 +39,19 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NCNotificationActionRunner> actionRunner; // @synthesize actionRunner=_actionRunner;

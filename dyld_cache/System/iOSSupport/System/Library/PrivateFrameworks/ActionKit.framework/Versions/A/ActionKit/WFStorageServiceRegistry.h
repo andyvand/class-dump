@@ -13,13 +13,14 @@
 
 + (void);
 + (void);
-+ (id);
++ (id)Q´ð1B50@ù
+× ;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Track;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *objectRepresentationClasses;

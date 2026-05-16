@@ -4,11 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation;
-
 @protocol CAAnimationDelegate
 
 @optional
-- (void)oundView:(CAAnimation *)arg1;
+- (void)hone;
+- (void)øL°ÿ;
 @end
 

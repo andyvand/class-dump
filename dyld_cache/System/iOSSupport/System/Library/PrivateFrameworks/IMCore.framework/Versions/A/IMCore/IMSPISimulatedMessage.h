@@ -28,56 +28,55 @@
     NSString *_lastAddressedHandle;
 }
 
-+ (id)j;
++ (id)r;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool)received by a disabled message receiver RemoteFaceDetector;
-- (id)%{public}s world;
-- (void)ue = WTF:(id)arg1:KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, WTF::DefaultHash<String>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
-- (id)sing or empty `action` manifest entry.;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)J;
-- (id)!`Cù°1¢!0@ù
-× ;
 - (id);
-- (id)¸¢;
-- (id)hØ;
-- (id)to update banner. Contact:%@ pendingUpdate:%@ /* Error: Ran out of types for this method. */;
-- (id)mporterStatistics;
-- (void)12@"NSDictionary"20;
 - (void);
+- (id);
+- (id)rtConfiguration;
+- (void)KtM NpOPPpTäT`]_ÀbìixkôkTll`màm;
+- (void)ÿ!ÿÿö#ÿÿÈ*ÿÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;

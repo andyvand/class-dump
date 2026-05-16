@@ -19,9 +19,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (void)oken;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allMatchers;

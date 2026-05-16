@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollEvent;
-
 @protocol _UIScrollEventAsyncDeliveryTarget
-- (void)Storage:(UIScrollEvent *)arg1;
 @end
 

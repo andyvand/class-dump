@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;

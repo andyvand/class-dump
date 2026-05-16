@@ -23,15 +23,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)@`;
-- (void);
-- (double)g, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>, std::default_delete<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>>>=""{?="__ptr_"^v}} /* Error: Ran out of types for this method. */;
-- (id)up time %f ####;
+- (id);
+- (id);
+- (double);
+- (void);
 - (void);
 
 // Remaining properties

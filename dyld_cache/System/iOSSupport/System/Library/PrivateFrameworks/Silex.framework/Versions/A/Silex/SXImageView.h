@@ -5,7 +5,7 @@
 //
 
 @class NSMapTable, NSString, NSTimer, SXAnimatedImage, SXImageResource, UIActivityIndicatorView, UIImage, UILongPressGestureRecognizer, UIView;
-@protocol NSItemProviderWriting, SWReachabilityProvider, SXImageViewDelegate, SXResourceDataSource;
+@protocol NSItemProviderWriting, SWReachabilityProvider, SXImageViewDelegate, SXResourceDataSourceProvider;
 
 @interface SXImageView
 {
@@ -22,7 +22,7 @@
     SXAnimatedImage *_animatedImage;
     unsigned long long _frameIndex;
     CDUnknownBlockType _frameChangeBlock;
-    id <SXResourceDataSource> _resourceDataSource;
+    id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
     id <SWReachabilityProvider> _reachabilityProvider;
     CDUnknownBlockType _preferredQualityImageRequestCancelHandler;
     CDUnknownBlockType _highQualityImageRequestCancelHandler;
@@ -55,10 +55,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -66,6 +62,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -102,7 +103,7 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id)u;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -120,28 +121,28 @@
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)ultTopicFlowExponent;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (unsigned long long)@?0d8d16d24d32;
-- (void)yTwoSCITCTT-Book;
+- (void)ÔÁÝ°!´Dùñî°1Â0@ù
+× ;
+- (void)GPoint=dd}{CGSize=dd}}40@0:8@"QLPreviewController"16@"<QLPreviewItem>"24^@32 /* Error: Ran out of types for this method. */;
+- (_Bool)wControllerDelegate>",W,N,V_delegate;
+- (void);
+- (void)tyleMatch"8@"SXDataTableStyleMatch"16;
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *activeTimer; // @synthesize activeTimer=_activeTimer;
@@ -182,7 +183,7 @@
 @property(readonly, nonatomic) _Bool prefersHighQuality;
 @property(nonatomic) struct CGPoint previousPoint; // @synthesize previousPoint=_previousPoint;
 @property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
-@property(readonly, nonatomic) __weak id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
+@property(readonly, nonatomic) __weak id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
 @property(retain, nonatomic) UILongPressGestureRecognizer *scrubGesture; // @synthesize scrubGesture=_scrubGesture;
 @property(nonatomic) _Bool scrubbingEnabled; // @synthesize scrubbingEnabled=_scrubbingEnabled;
 @property(nonatomic) _Bool shouldResume; // @synthesize shouldResume=_shouldResume;

@@ -16,23 +16,23 @@
 }
 
 + (id);
-+ (id);
 + (_Bool);
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (unsigned long long);
 
 // Remaining properties

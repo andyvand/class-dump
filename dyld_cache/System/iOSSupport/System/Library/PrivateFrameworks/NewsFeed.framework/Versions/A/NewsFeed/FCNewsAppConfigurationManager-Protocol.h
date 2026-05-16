@@ -8,14 +8,10 @@
 @protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
 
 @protocol FCNewsAppConfigurationManager
-- (id <FCNewsAppConfiguration>);
-- (void);
-- (void)`;
+- (id <FCNewsAppConfiguration>)uÜA;
 
 @optional
-- (id <FCNewsAppConfiguration>)B;
-- (NSArray *)@;
-- (NSString *)eFrontWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (NSString *)sionEnabled;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;

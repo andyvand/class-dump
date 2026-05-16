@@ -13,23 +13,23 @@
     long long _preferredBadgeStyle;
 }
 
-+ (_Bool)ïRØnm;
++ (_Bool)documents.error.import.message;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
-- (_Bool)eriodicSync;
-- (void);
-- (_Bool)ve digest results are null for data validation;
-- (void);
+- (_Bool);
 - (id);
 - (id);
-- (id)dActions;
-- (id)_ignoreTopSeparatorInsetsFromCell,S_setIgnoreTopSeparatorInsetsFromCell:,V_ignoreTopSeparatorInsetsFromCell /* Error: Ran out of types for this method. */;
-- (unsigned long long)fffò?«ªªªªª@;
-- (void)[;
-- (_Bool)ÈÿÉÙÊk];
+- (id);
+- (_Bool)tyStyle:(id)arg1;
+- (void):(id)arg1;
+- (void)leadingQuickActionView;
+- (id)UIAvoidanceCoordinator",&,N;
+- (_Bool)ØÒþ;
+- (unsigned long long)c;
+- (void)êÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool forbidden; // @synthesize forbidden=_forbidden;

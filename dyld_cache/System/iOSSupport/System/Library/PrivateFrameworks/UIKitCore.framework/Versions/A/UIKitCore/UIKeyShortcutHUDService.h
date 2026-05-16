@@ -20,64 +20,65 @@
     id <UIKeyShortcutHUDMetricsProvider> _metricsProvider;
 }
 
-+ (_Bool)1¢!0@ù
-× ;
-+ (id)ent";
-+ (id)êf;
++ (id);
++ (id);
++ (_Bool);
 - (void);
-- (void)U;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)rnel;
-- (void);
-- (void);
-- (void);
-- (id)umber;
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)1¢!0@ù
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ÔÐ!ÔEùqZÐ1Â0@ù
 × ;
-- (void)Ð!t@ùQÄ°1¢!0@ù
+- (void)Ñ[1Â0@ù
 × ;
-- (long long);
-- (void);
-- (_Bool);
-- (id)NSRange=QQ}40;
-- (void)UITabBarSwappableImageView";
-- (void)calizedKeys: /* Error: Ran out of types for this method. */;
-- (void)View;
-- (void)ryMetaDataSync;
-- (id)pportsAlpha;
-- (void):(id)arg1;
-- (void)t:(id)arg1 toSceneReferenceCoordinatesFromView: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)_removeSceneComponentStateInWindow: /* Error: Ran out of types for this method. */;
-- (id)},N,V_edgePadding;
-- (void)idLocation;
-- (void)V_markedText;
-- (void)typingMenuSlider;
-- (void)Ðd;
-- (void)´;
-- (void);
-- (void)without the use of object pointers. Toolbar persistence issues may arise. Ensure that all CustomizationIdentifiers are globally unique.;
-- (_Bool)UIApplication.open(_:options:completionHandler:) /* Error: Ran out of types for this method. */;
-- (void);
-- (void)gViewControllerClass;
-- (void)l`.;
-- (void)©þ;
-- (void);
-- (_Bool)´árÿ`ßÏ÷^;
-- (void)ÖPd;
-- (void)Ý!k;
+- (void)Ô ;
+- (_Bool)0@ù
+× ;
+- (_Bool)!øCùqcð1Â0@ù
+× ;
+- (void)anceOverlayAllowance;
+- (id)Used:language:completion: /* Error: Ran out of types for this method. */;
+- (void)leLight;
+- (void)r;
+- (void)ty: /* Error: Ran out of types for this method. */;
+- (void)ompetingGestureRecognizers;
+- (void)insWhenFloating;
+- (void)ationLevel;
+- (void)dSetUpKickTransformer;
+- (void)yFocusOnExternalDisplay;
+- (void)|r;
+- (id)\;
+- (id)UITextInputSessionActionAnalytics] didAutocorrectTapOnCompletionReplacementForText:'%{sensitive}@' withText:'%{sensitive}@' /* Error: Ran out of types for this method. */;
+- (long long)s;
+- (void)itionsInSplitViewController]_block_invoke;
+- (void)quest"8;
+- (void)mapDataRoundRectGetMaxXForY(const _UIBoundingPathBitmapDataRoundRect, const NSInteger);
+- (void)e.m;
+- (_Bool)oleNone;
+- (void)springboard;
+- (id);
+- (void)ement: /* Error: Ran out of types for this method. */;
+- (void)ªØþÿ®Øþÿ;
+- (void)3:(id)arg1 Ñ¾7G;
+- (void)Ø*Òô>_;
+- (void)Ä+¯þ¸w;
+- (void)Æÿæ];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

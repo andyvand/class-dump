@@ -24,15 +24,15 @@
     UIVisualEffectView *_effectView;
 }
 
-- (id)ionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)terEditingIfDelayed;
-- (struct CGSize)ntents;
+- (id);
+- (id);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)uiltyObjects:CompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)32@?0@"NSTextView"8Q16^B24;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,12 +52,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (_Bool);
-- (void)ntComplete;
-- (id)gH";
-- (void)H¬GAQG;
-- (id)3T/;
-- (id)/;
+- (id)atedStickerMediaObject but received %s;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;

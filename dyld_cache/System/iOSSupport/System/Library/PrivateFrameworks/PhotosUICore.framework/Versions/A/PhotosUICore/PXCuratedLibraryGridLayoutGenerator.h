@@ -25,9 +25,9 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (void);
 - (struct CGSize);
-- (void)Lã8;
+- (id)ntainer;
 
 // Remaining properties
 @property(readonly, nonatomic) double lastFullRowBottomEdge;

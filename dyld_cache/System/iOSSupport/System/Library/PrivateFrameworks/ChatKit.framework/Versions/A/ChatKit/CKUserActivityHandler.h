@@ -8,24 +8,24 @@
 {
 }
 
-+ (id)AyAAy-@;
-+ (void)yAX_AKA19_tGGtGGAJtGGAGGGGG;
-+ (void);
-+ (void)R;
++ (id);
 + (void);
 + (void);
 + (void);
-+ (void)ng the current authentication session {note:(id)arg1 %@};
-+ (void)way to recover access to these locked notes.;
-+ (_Bool)nSelected = ;
-+ (_Bool)ned = ;
-+ (void)hare Folder;
-+ (void)dSyncingObjectShareData;
-+ (void)TTextControllerNoteDefaultNamedStyleKey;
-+ (void)st;
-+ (void)StyleAutoListInsertionEnabled;
-+ (void)ordProtected:(id)arg1 removeOriginalNote:(id)arg2 ];
-+ (void)ote(UI) appendAttributedString:(id)arg1 options:(id)arg2 error:(id)arg3 ];
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (_Bool);
++ (_Bool);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -33,15 +33,14 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);K
-;
-+ (void)SR
-;
++ (id);
++ (void);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -50,7 +49,6 @@
 + (void);
 + (id);
 + (_Bool);
-+ (void);
 
 @end
 

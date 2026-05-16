@@ -12,7 +12,7 @@
 {
 }
 
-- (void)04@112@120@128@136@144@152@160@168@176@184@192@200@208@216@224@232;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *sectionIndexTitles; // @dynamic sectionIndexTitles;

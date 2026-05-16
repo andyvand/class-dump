@@ -16,14 +16,14 @@
 + (double);
 + (double);
 + (double);
-+ (double);
 + (_Bool);
++ (double)"`#$)`*ø*È67´>;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 

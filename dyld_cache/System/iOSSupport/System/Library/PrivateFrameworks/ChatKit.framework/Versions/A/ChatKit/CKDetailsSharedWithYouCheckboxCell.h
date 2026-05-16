@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (void);
-- (void)";
-- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (id)ú-¤ì/;
+- (void);
+- (void);
+- (id)thOptions:(long long)arg1;
+- (void)rlayModifier;
+- (id)ãÿDÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;

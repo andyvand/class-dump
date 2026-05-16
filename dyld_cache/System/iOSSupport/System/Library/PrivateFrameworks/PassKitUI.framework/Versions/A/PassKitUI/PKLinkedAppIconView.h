@@ -19,13 +19,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
 - (struct CGSize);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)øð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

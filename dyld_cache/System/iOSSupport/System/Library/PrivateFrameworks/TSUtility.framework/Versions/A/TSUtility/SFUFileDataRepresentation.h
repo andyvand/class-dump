@@ -34,16 +34,16 @@
 - (void);
 - (struct CGDataProvider *);
 - (long long);
-- (_Bool);
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (unsigned int);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (long long);
+- (id);
+- (id);
 
 @end
 

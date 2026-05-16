@@ -21,11 +21,11 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)3[ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

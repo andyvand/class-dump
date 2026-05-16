@@ -21,9 +21,9 @@
 - (double);
 - (void);
 - (long long);
-- (void);
 - (id);
-- (id)barModel;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double delayBetweenIterations; // @synthesize delayBetweenIterations=_delayBetweenIterations;

@@ -25,33 +25,33 @@ __attribute__((visibility("hidden")))
     CKBrowserItemPayload *_cachedPluginPayload;
 }
 
-- (_Bool)CollaboratorAvatarsView;
-- (void)h@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)GtGGAByACyAFyyACyAD_AFyAgNGtGG]9@yAXGG_AEtGG_G;
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool)rror:%@}%s:%d /* Error: Ran out of types for this method. */;
-- (id)he note;
-- (_Bool);
-- (id)p;
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -60,15 +60,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (void);
 - (void);
 - (id);
-- (_Bool)";
-- (id)8¬«GG_(;¬AHtGß±«_G;
-- (void)GòM­yA31_GGtGGs¬GÝ¯¬GtGGAHGAHG;
-- (void)/;
+- (void);
+- (id);
+- (void);
+- (long long)roll to %@ - the scroll velocity is %@;
+- (void)¤°;
+- (void)}7ø/0;
+- (_Bool)¨ÿ£7d1;
 
 // Remaining properties
 @property(nonatomic) _Bool actualVisibility; // @synthesize actualVisibility=_actualVisibility;

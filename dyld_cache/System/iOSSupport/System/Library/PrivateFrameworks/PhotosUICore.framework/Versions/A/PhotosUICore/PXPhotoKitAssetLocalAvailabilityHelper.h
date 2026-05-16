@@ -32,12 +32,11 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (void);
-- (_Bool)!4Gù}°1b0@ù
-× ;
-- (id)hhøÿ;
-- (id)ring;
-- (void)t={CGPoint=dd}{CGSize=dd}}24q56;
+- (_Bool)nvalidTransitionErrors: /* Error: Ran out of types for this method. */;
+- (id)ndVolumeKeyframe: /* Error: Ran out of types for this method. */;
+- (void)iewSpecs;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXFastEnumeration> assets; // @synthesize assets=_assets;

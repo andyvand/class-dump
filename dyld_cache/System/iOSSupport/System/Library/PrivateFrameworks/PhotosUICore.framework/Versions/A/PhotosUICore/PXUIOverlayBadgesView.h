@@ -17,8 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)xð1b0@ù
-× ;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -27,13 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)T;
+- (id);
+- (void)e:(id)arg1;
+- (id)on alert;
+- (void)nadeBookmarksManager.persistenceQueue;
+- (void)ImmediateFetchSize;
 
 // Remaining properties
 @property(nonatomic) __weak UIImageView *backgroundView; // @synthesize backgroundView=_backgroundView;

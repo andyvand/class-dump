@@ -31,15 +31,15 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (void);
 - (CDStruct_14d5dc5e);
+- (id);
 - (unsigned long long);
 - (MISSING_TYPE *);
 - (_Bool);
 - (float);
 - (void);
 - (id);
-- (void);
-- (id)ParticleUpdateAABB;
 
 // Remaining properties
 @property(retain, nonatomic) id component; // @synthesize component;

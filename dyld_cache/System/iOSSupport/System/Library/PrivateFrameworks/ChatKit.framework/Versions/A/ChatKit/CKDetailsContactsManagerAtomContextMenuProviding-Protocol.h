@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu;
-
 @protocol CKDetailsContactsManagerAtomContextMenuProviding
-- (UIMenu *)ispatch_groupC;
-- (UIMenu *);
 @end
 

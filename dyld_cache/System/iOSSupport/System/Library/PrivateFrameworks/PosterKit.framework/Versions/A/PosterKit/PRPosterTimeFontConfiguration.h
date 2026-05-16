@@ -12,24 +12,24 @@
 }
 
 + (id);
++ (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool)weight: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

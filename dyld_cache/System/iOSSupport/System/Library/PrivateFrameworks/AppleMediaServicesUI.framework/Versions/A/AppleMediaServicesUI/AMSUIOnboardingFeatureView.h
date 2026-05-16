@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (struct CGSize);
-- (double)Path: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (double)ionView"16@"NSIndexPath"24;
+- (void)ntAuthorizationController:didAuthorizePeerPaymentQuote:handler: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

@@ -9,7 +9,12 @@
 }
 
 + (void);
-+ (void)ù;
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 + (void);
 
 @end

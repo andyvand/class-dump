@@ -28,12 +28,12 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (long long);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

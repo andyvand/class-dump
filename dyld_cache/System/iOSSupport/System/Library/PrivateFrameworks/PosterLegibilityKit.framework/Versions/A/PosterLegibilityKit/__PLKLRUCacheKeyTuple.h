@@ -13,12 +13,12 @@
 
 - (_Bool);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id context; // @synthesize context=_context;

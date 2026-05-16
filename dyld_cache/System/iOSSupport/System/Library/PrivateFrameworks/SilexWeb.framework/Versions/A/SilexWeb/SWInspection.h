@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accessibilityElements; // @synthesize accessibilityElements=_accessibilityElements;

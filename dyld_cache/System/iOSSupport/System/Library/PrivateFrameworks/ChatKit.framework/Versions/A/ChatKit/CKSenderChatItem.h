@@ -10,22 +10,22 @@
 {
 }
 
-- (_Bool)ntentWithIdentity:nestedInsideIntent: /* Error: Ran out of types for this method. */;
-- (_Bool)onFromPasteboard: /* Error: Ran out of types for this method. */;
-- (id)hlightsRange;
-- (BOOL)g:replicaID:sourceZoomController:keepSourceZoomController:existingStyler: /* Error: Ran out of types for this method. */;
-- (_Bool)etCustomPasswordInfoAlert;
+- (_Bool);
+- (_Bool);
+- (id);
+- (BOOL);
+- (_Bool);
 - (id);
 - (struct CGSize);
 - (id);
-- (id)v;
-- (id)nil;
-- (struct CGSize)Storage rowAtIndex:(struct CGSize)arg1 rowRange:] /* Error: Ran out of types for this method. */;
 - (id);
-- (Class);
+- (id);
+- (struct CGSize);
+- (id);
 - (struct UIEdgeInsets);
+- (Class);
 - (id);
-- (unsigned long long)Data;
+- (unsigned long long)UIGestureRecognizerDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool wantsAddToContactsButton;

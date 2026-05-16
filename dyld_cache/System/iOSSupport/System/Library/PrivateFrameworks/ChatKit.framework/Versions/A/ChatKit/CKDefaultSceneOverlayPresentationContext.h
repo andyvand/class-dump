@@ -13,9 +13,9 @@
     CKChatInputController *_inputController;
 }
 
-- (void)troller;
-- (id)etUserChangedWritingDirection: /* Error: Ran out of types for this method. */;
-- (id)nd task;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -24,10 +24,10 @@
 - (void);
 - (struct CGRect);
 - (id);
+- (id);
 - (void);
-- (id)chingEnabled: /* Error: Ran out of types for this method. */;
-- (void)iewController;
-- (long long)ØõoÿÈ^2èë-;
+- (long long)duration and power levels restored from metadataDict %@.;
+- (void)Hí[;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect anchorRect;

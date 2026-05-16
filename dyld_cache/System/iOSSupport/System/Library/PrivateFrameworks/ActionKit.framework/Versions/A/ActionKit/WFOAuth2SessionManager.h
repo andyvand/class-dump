@@ -29,11 +29,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)unt: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (void)ds;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authenticationMethod; // @synthesize authenticationMethod=_authenticationMethod;

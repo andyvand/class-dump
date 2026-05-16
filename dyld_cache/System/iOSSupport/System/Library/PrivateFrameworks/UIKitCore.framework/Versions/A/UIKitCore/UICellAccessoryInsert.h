@@ -13,20 +13,19 @@
     CDUnknownBlockType _actionHandler;
 }
 
-+ (_Bool)j0n;
-- (_Bool);
++ (_Bool)ell for a nil index path;
 - (id);
-- (_Bool);
+- (CDUnknownBlockType);
+- (void)itleDisplayMode:(CDUnknownBlockType)arg1;
+- (_Bool)Progress;
+- (void)eparatorConfiguration:(id)arg1;
 - (long long);
-- (void)1¢!0@ù
-× ;
-- (id)redStatusBarStyleInWindow:resolvedStyle:withPartStyles:animationProvider: /* Error: Ran out of types for this method. */;
-- (id)ed;
-- (CDUnknownBlockType)on;
+- (id)P8;
+- (_Bool)lic}@:(id)arg1 %{public}@ - rebuilding layers for reason:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)IKit35CoreListMetricsEnvironmentProvidingP;
+- (id)gÊT\;
 - (long long);
-- (void)ntroller at index %ld with identifier %@, truncating child array;
-- (void);
-- (id);
+- (void)(nþ«ÛË¨i;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

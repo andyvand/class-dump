@@ -14,8 +14,8 @@
 
 - (void);
 - (_Bool);
-- (void);
-- (id)dBz;
+- (id);
+- (void)notes.richtext;
 
 @end
 

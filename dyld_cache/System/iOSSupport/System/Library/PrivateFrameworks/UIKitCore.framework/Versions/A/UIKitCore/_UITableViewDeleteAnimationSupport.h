@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     unsigned int _enabledStateBeforeDeleteAnimation:1;
 }
 
-- (void);
+- (void)So17UITraitCollectionCIeyBa_;
 
 @end
 

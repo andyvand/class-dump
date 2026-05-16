@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)d,N,V_fastTypingTime;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

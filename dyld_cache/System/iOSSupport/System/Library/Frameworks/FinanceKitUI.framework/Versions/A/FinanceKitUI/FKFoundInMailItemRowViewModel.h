@@ -30,9 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
+- (id)ÀLM;
+- (id)_´CÊyAFGSgtG-ÈGá Èy{AÊGG;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;

@@ -25,8 +25,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ÉyË;
 
 @end
 

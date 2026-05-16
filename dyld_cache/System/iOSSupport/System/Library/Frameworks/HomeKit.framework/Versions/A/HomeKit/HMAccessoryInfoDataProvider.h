@@ -15,7 +15,7 @@
     id <HMESubscriptionProviding> _eventSubscriptionProvider;
 }
 
-+ (id)essCodeModificationResponse;
++ (id)pdateAssociatedServiceType:forService:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -32,13 +32,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)lightWhenUsingSiriEnabled;
-- (id)5ýÿ	Ïÿ;
+- (void)ode failed for payload %@  error %@;
 
 // Remaining properties
 @property __weak id <HMAccessoryInfoDataProviderDataSource> dataSource; // @synthesize dataSource=_dataSource;

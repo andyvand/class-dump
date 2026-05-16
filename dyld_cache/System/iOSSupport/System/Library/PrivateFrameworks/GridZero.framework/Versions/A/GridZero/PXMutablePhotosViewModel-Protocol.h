@@ -8,10 +8,7 @@
 @protocol PXFilterState, PXTapbackStatusManager;
 
 @protocol PXMutablePhotosViewModel
-- (Class)|;
-- (double);
-- (NSAttributedString *)lementation: /* Error: Ran out of types for this method. */;
-- (void)taSource: /* Error: Ran out of types for this method. */;
+- (void)tton;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalAspectFitEdgeMargins;

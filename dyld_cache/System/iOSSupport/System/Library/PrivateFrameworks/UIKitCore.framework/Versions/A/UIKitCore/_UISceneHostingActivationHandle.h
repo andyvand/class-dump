@@ -13,14 +13,15 @@ __attribute__((visibility("hidden")))
     id <_UISceneHostingActivating> _activationTarget;
 }
 
-- (_Bool);
-- (id);
-- (void);
 - (_Bool);
-- (void);
+- (id);
 - (void);
 - (void);
-- (void)À^;
+- (void);
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

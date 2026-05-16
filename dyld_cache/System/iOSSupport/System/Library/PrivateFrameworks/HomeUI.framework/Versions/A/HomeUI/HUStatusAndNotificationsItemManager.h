@@ -103,13 +103,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -117,10 +117,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)Ñ/Ð1b0@ù
-× ;
-- (id)$Yÿÿ;
+- (id);
+- (id)%@] for Home [%@];
+- (void)ilities found;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *allowActivityNotificationsItem; // @synthesize allowActivityNotificationsItem=_allowActivityNotificationsItem;

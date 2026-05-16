@@ -20,11 +20,11 @@
     MISSING_TYPE *analyticsReporter;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 
 @end
 

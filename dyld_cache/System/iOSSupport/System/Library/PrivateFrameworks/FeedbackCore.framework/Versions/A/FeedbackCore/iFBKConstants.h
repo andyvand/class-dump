@@ -12,7 +12,7 @@
 
 + (id);
 + (struct CGSize);
-+ (void);
++ (void)ameters:encoding:success:error: /* Error: Ran out of types for this method. */;
 
 @end
 

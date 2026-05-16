@@ -15,18 +15,18 @@
 }
 
 + (id);
-+ (_Bool)l;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)r;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;

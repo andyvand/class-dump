@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPointerInteraction, UIPointerRegion;
+@class UIPointerInteraction, UIPointerRegion, UIPointerStyle;
 
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (UIPointerRegion *)±|Ð1b0@ù
-× ;
-- (void)st.telemetry:(UIPointerInteraction *)arg1 string2}lu index:(UIPointerRegion *)arg2 %li;
-- (void)LemonadeProcessingAvailabilityTrips;
+- (UIPointerRegion *)ð=;
+- (UIPointerStyle *)public}@, old data source:(UIPointerInteraction *)arg1 %{public}@;
+- (void);
 @end
 

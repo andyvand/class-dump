@@ -20,23 +20,22 @@ __attribute__((visibility("hidden")))
     UIImage *_topShadowImage;
 }
 
-+ (long long)lProviderClassForToolbar: /* Error: Ran out of types for this method. */;
++ (long long);
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (void)Unexpected playlistable kind:(id)arg1 %@ %@;
+- (id);
+- (id);
 - (void);
-- (_Bool)0@ù
-× ;
-- (id)× ;
-- (void)ponent";
-- (void)ectionModes:(id)arg1;
-- (void)t;
-- (id)ÐÀt$ @¤¤T¥¨d¨;
-- (void)an be recorded.;
-- (void)ted to get MinX of rect {x=%ld, y=%ld, width=%ld, height=%ld} for out of bounds y value %ld;
-- (id)er;
-- (id)textInteractive.swift;
-- (id);
+- (void)tate";
+- (void)l:(_Bool)arg1 offscreen: /* Error: Ran out of types for this method. */;
+- (id)ÄYØ[;
+- (id)ð;
+- (id)±;
+- (void);
+- (void){§;
+- (void)ationItemSwiftRenameHandler;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;

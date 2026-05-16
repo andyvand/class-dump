@@ -16,7 +16,11 @@
     MISSING_TYPE *magazineConfigurationService;
     MISSING_TYPE *assetHandleFactory;
     MISSING_TYPE *engagementInlineViewManager;
+    MISSING_TYPE *localDataManager;
     MISSING_TYPE *suggestedTagModelsArrayByID;
+    MISSING_TYPE *allLocationsSection;
+    MISSING_TYPE *cachedConfigSectionsByIdentifier;
+    MISSING_TYPE *contentVerticalTagIDs;
 }
 
 @end

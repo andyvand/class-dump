@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)etchUserStatsForBeacon:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
 - (id);
+- (id);
+- (void){public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _MPCQueueControllerEnumerator *queueEnumerator; // @synthesize queueEnumerator=_queueEnumerator;

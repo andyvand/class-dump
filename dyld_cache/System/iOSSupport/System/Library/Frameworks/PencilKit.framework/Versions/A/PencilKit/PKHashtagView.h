@@ -17,21 +17,21 @@
 }
 
 - (void);
-- (void)\;
+- (void);
 - (id);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id):forItemUUID:graphable:graphableVariables: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (id):(id)arg1;
+- (void)server;
+- (void)${ð|#Ì~Àø¨1"Lh `;
+- (id)º÷;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *blankPreviewView; // @synthesize blankPreviewView=_blankPreviewView;

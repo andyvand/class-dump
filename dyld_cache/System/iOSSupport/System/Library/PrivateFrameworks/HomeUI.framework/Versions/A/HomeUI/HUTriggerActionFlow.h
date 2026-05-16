@@ -21,7 +21,7 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)resentationMode: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long flowState; // @synthesize flowState=_flowState;

@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol PKPaletteHandwritingTool
+- (NSString *)ntsSize (%lu > %lu);
+- (void)e point count of the path.;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localeIdentifier;

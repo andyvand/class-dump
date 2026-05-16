@@ -10,9 +10,9 @@
 
 @interface CKMessagesSceneDelegate : CKSceneDelegate
 {
+    _Bool _shouldShowRegistrationOverride;
     _Bool _suspended;
     _Bool _locked;
-    _Bool _shouldShowRegistrationOverride;
     _Bool _handlingLaunchTask;
     _Bool _willPresentRegistrationViewController;
     CKMessagesController *_messagesController;
@@ -20,46 +20,13 @@
     CKRegistrationViewController *_madridRegistrationController;
 }
 
-- (void)ifiersToVirtualSmartFolderIdentifiers;
-- (_Bool)derListSectionIdentifiersToButtonIdentifiers;
-- (id)ewImageLoader;
+- (void);
 - (_Bool);
-- (id)ayPause;
-- (void)ueue;
-- (void)gate;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)G;
-- (void)TTextEditCG;
-- (void)tG;
-- (id)eC;
 - (id);
 - (_Bool);
-- (void)r attachment:(id)arg1 %@;
-- (id)ineDrawingChangeCoalescer processIndexableContentWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -68,23 +35,55 @@
 - (id);
 - (void);
 - (void);
-- (id)ѨC;
-- (void);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool)0@ù
-× ;
-- (void)!@EùñÇ°1¢!0@ù
-× ;
-- (void)chorViewPositionChangeIfNecessary;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (void)(stickerDragActive:(id)arg1 %@).;
 - (void);
-- (void)esLibrary(void);
-- (void)°T;
-- (void)ÿQC;
+- (id);
 - (_Bool);
-- (void)¸Øuÿs8²D.;
+- (id);
+- (void)°1Â0@ù
+× ;
+- (void)!´Gùñ1Â0@ù
+× ;
+- (void)indow;
+- (void)ize:(id)arg1 %@, expectedSize:%@, diff:%f sig-diff:%f - gradientViewBounds:%@ â gradientReferenceViewBounds:%@ /* Error: Ran out of types for this method. */;
+- (void)ð;
+- (void)¼;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *alertSuppressionContexts;

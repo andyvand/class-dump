@@ -23,11 +23,11 @@
 }
 
 + (id);
-- (void)Dk\ltm oqLt;
-- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
-- (id)chat for groupID:(id)arg1 (%@);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -38,42 +38,39 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)ñÀ1¢!0@ù
-× ;
-- (void)× ;
-- (id)0@ù
-× ;
-- (void)!èBùÑÂ1¢!0@ù
-× ;
-- (void);
-- (_Bool)Ìð1¢!0@ù
-× ;
-- (_Bool)w!D@ùÌ°1¢!0@ù
-× ;
-- (id)0@ù
-× ;
+- (id);
 - (long long);
-- (_Bool)s;
-- (id)Orientations:(id)arg1;
-- (_Bool)g;
-- (long long)ngHeight:withScaleAdjustment: /* Error: Ran out of types for this method. */;
-- (void)youtItemSolver",&,N,V_solution;
-- (id)",&,N,V_lastTouch;
-- (unsigned long long)gate>",N,V_delegate;
-- (id)ÜäÜ;
-- (id)assertion;
-- (id)pted to get MaxX of rect {x=%ld, y=%ld, width=%ld, height=%ld} for out of bounds y value %ld;
-- (id)IViewSpringAnimationBehaviorSettings",N,&,VinteractiveSpring;
-- (id)link:o:path:/System/Library/PrivateFrameworks/WritingToolsUI.framework/WritingToolsUI /* Error: Ran out of types for this method. */;
-- (id);
-- (void)q[;
-- (id)"ðþ\ùÕÜ¤a;
-- (long long)g;
 - (void);
-- (void)l;
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)°!ØCù±fð1Â0@ù
+× ;
+- (long long)Identifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)t: /* Error: Ran out of types for this method. */;
+- (void)cognizers:(id)arg1;
+- (id)LayoutWithKeys:inRect:scale: /* Error: Ran out of types for this method. */;
+- (long long)paratorAttributes;
+- (void)velocityMagnitudeThreshold;
+- (id)rollerOverlapHeight;
+- (id)tateEqualToGroupViewState: /* Error: Ran out of types for this method. */;
+- (id)sterForLanguageChangedNotification;
+- (void)¨¿À;
+- (void)e called from the main thread.;
+- (void)tifier.;
+- (id)oþoþlR0;
+- (_Bool);
+- (_Bool)ÅÿÌ#;
+- (void);
+- (id)NgÿLÌ;
 
 // Remaining properties
 @property(nonatomic, setter=_setAllowsGlobeKeyModifier:) _Bool _allowsGlobeKeyModifier;

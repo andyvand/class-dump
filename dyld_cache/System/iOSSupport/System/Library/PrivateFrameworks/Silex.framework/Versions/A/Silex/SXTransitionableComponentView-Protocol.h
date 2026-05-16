@@ -7,7 +7,6 @@
 @class UIView;
 
 @protocol SXTransitionableComponentView
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isTransitionable;

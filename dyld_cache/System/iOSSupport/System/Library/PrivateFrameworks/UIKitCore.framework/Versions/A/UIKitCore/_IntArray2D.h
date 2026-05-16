@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
     _Bool _shouldBoundsCheck;
 }
 
-+ (id)age %@ does not match display name of selected chat %@;
++ (id);
 - (_Bool);
-- (void)ր;
-- (unsigned long long);
-- (id)ndler"16@"IMDRelayServiceReachabilityRequest"24@"NSData"32@"NSString"40@"NSString"48@"NSString"56;
-- (_Bool)dBecomeUnidle;
-- (unsigned long long)PartWithBody:forMessageWithGUID:deleteDate: /* Error: Ran out of types for this method. */;
-- (void)dForConversation:(unsigned long long)arg1;
-- (long long)k item as failed but it does not carry error codes or is not a transcript item.;
-- (long long);
-- (void)found for account ID:(unsigned long long)arg1 %@;
 - (void);
-- (id)etryFrozen,S_setGeometryFrozen:,V__geometryFrozen /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (void);
+- (void);
+- (long long);
+- (long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long iSize; // @synthesize iSize=_iSize;

@@ -29,24 +29,25 @@ __attribute__((visibility("hidden")))
     UICalendarView *_calendarView;
 }
 
-+ (id)s:startInsets:endInsets:intensities: /* Error: Ran out of types for this method. */;
++ (id)1_Ð1Â0@ù
+× ;
 - (void);
 - (void);
 - (unsigned long long);
-- (void)ce;
-- (id)ndingNicknameUpdatesKVStore;
-- (void)rticipants:groupID:serviceName: /* Error: Ran out of types for this method. */;
-- (void)dicateWithSubpredicates: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ssion, please file a radar-------*/;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)d'¨'D(;
-- (id)t) _initiateIOSMacConnections]_block_invoke_7;
-- (void)zÙ65`;
+- (id);
+- (void);
+- (void);
+- (id)ter;
+- (void);
+- (void)8;
+- (id)3;
+- (void)<QÿV=Ì"^;
+- (void)Âa;
 
 // Remaining properties
 @property(nonatomic) __weak UICalendarView *calendarView; // @synthesize calendarView=_calendarView;

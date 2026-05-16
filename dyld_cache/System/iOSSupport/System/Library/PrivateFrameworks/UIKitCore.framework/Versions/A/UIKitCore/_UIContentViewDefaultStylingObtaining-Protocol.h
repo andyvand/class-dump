@@ -7,10 +7,7 @@
 @protocol _UIContentViewDefaultStylingObtaining
 
 @optional
-- (void)T ;
-- (UIListContentConfiguration * (^)(void))Items: /* Error: Ran out of types for this method. */;
-- (void)ageActionType: /* Error: Ran out of types for this method. */;
-- (long long)ddd}32;
+- (long long);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setDefaultListContentConfigurationProvider:) CDUnknownBlockType _defaultListContentConfigurationProvider;

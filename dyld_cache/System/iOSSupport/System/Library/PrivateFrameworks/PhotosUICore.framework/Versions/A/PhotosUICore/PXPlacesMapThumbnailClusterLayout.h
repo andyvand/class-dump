@@ -42,7 +42,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Controller;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentChangeType; // @synthesize currentChangeType=_currentChangeType;

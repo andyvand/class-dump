@@ -21,7 +21,8 @@
 - (struct CGSize);
 - (id);
 - (double);
-- (void);
+- (void)Þ!¬Gù1ïð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -8,7 +8,7 @@
 @protocol _UIKeyboardAutoRespondingScrollView;
 
 @protocol _UIKeyboardAutoRespondingScrollViewController
-- (UIScrollView<_UIKeyboardAutoRespondingScrollView> *)@æ(çäëíðí;
+- (UIScrollView<_UIKeyboardAutoRespondingScrollView> *)tivity];
 
 // Remaining properties
 @property(readonly, retain, nonatomic, getter=_scrollView) UIScrollView<_UIKeyboardAutoRespondingScrollView> *scrollView;

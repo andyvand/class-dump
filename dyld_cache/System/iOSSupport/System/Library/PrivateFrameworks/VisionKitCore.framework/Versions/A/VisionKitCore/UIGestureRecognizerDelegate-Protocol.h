@@ -7,7 +7,8 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)4;
-- (_Bool)uickActions;
+- (_Bool)aFÐ!àBù1â
+0@ù
+× ;
 @end
 

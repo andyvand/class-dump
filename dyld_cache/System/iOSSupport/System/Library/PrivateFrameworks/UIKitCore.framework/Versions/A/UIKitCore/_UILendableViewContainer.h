@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)initWithMessagesPTaskStore:(id)arg1;
-- (id);
 - (void);
-- (_Bool)ñÍ°1¢!0@ù
+- (id);
+- (id);
+- (void)!!ØCùÑcð1Â0@ù
 × ;
-- (id):forRegion:animator: /* Error: Ran out of types for this method. */;
-- (id)ously for NSUserActivity for UUID %@;
-- (void)istered for identifier (%@) - nib must contain exactly one top level object which must be a %@ instance;
-- (id)rItemState;
+- (_Bool)TextColorFollowsTintColor"b1"showsExpansionTextWhenTruncated"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
+- (id)dler;
+- (void);
+- (id)ÿ0fÜj^;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UILendableViewContainerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long feedbackType;

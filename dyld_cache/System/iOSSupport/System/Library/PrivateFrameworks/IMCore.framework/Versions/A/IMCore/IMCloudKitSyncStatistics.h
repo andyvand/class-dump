@@ -13,9 +13,9 @@
 
 + (id);
 + (id);
-+ (double);
-+ (id)pletionHandler:(unsigned long long)arg1;
-+ (id)AppRecordingWithHandler:(long long)arg1;
++ (double);
++ (id);
++ (id);
 - (long long);
 - (long long);
 - (long long);
@@ -52,9 +52,9 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
 - (id);
-- (id)A;
+- (id);
+- (void)Ìö2;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

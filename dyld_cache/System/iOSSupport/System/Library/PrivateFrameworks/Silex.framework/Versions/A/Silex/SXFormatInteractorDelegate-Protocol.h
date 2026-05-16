@@ -5,8 +5,5 @@
 //
 
 @protocol SXFormatInteractorDelegate
-
-@optional
-- (void)#;
 @end
 

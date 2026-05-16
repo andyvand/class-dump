@@ -78,24 +78,24 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
+- (double);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (double);
 - (id);
 - (long long);
 - (float);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)creenClicked: /* Error: Ran out of types for this method. */;
+- (void)lButtonTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bufferingState; // @synthesize bufferingState=_bufferingState;

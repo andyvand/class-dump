@@ -7,7 +7,6 @@
 @class PXGadgetDataSource;
 
 @protocol PXGadgetCollectionViewLayoutDelegate
-- (PXGadgetDataSource *)roBlueprint;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGadgetDataSource *dataSource;

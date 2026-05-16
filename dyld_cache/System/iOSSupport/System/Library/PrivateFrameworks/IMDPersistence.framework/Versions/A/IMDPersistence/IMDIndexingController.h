@@ -4,20 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSString;
+@class IMDIndexThrottlingController, NSArray, NSLock, NSMapTable, NSString;
 
 @interface IMDIndexingController
 {
     _Bool _indexingDisabled;
     NSArray *_integrations;
     NSLock *_indexingDisabledLock;
+    NSLock *_integrationsBySelectorLock;
+    NSMapTable *_integrationsBySelector;
+    IMDIndexThrottlingController *_throttlingController;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id)U;
++ (id);
 - (long long);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,28 +33,32 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -61,8 +69,8 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id)sistantItem;
+- (id);
+- (void)Ä;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -74,7 +82,10 @@
 @property(nonatomic, getter=isIndexingDisabled) _Bool indexingDisabled; // @synthesize indexingDisabled=_indexingDisabled;
 @property(readonly, nonatomic) NSLock *indexingDisabledLock; // @synthesize indexingDisabledLock=_indexingDisabledLock;
 @property(readonly, nonatomic) NSArray *integrations; // @synthesize integrations=_integrations;
+@property(readonly, nonatomic) NSMapTable *integrationsBySelector; // @synthesize integrationsBySelector=_integrationsBySelector;
+@property(readonly, nonatomic) NSLock *integrationsBySelectorLock; // @synthesize integrationsBySelectorLock=_integrationsBySelectorLock;
 @property(readonly) Class superclass;
+@property(readonly, nonatomic) IMDIndexThrottlingController *throttlingController; // @synthesize throttlingController=_throttlingController;
 
 @end
 

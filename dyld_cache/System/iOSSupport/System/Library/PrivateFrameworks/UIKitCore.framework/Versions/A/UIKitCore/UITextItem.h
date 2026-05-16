@@ -18,13 +18,13 @@
 + (id);
 + (id);
 + (id);
-- (id)eated new :(long long)arg1 [IMFileTransfer:(struct _NSRange)arg2 %p  state:%ld  sync state:%ld  local path:%@  transferred name:%@  guid:%@  error:%d  total bytes:%d  created:%@ commSafety:%d update reason:%ld] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id)Previews;
-- (id)pitalized;
-- (struct _NSRange)²`;
-- (long long)×=f;
+- (id);
+- (id);
+- (id);
+- (struct _NSRange)itMenuInteraction"16@"UIEditMenuConfiguration"24;
+- (long long);
+- (void)*ßþ¡;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentType; // @synthesize contentType=_contentType;

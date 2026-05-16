@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (double);
 - (id);
-- (void);
+- (double);
+- (void)ost:response:higherPriorityIconDownloadFailedDueToNetworkError:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double luminance; // @synthesize luminance=_luminance;

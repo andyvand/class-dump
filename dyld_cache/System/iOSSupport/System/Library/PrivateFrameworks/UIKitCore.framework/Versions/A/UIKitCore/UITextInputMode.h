@@ -10,12 +10,12 @@
 {
 }
 
-+ (id)ERROR:_MDSChannelRPCRequest unexpected NULL channel /* Error: Ran out of types for this method. */;
-+ (_Bool)¶£m;
-+ (id)hÿ£Ê^p;
-- (void);
++ (id);
++ (id);
++ (_Bool);
 - (id);
-- (id)LayoutFromScratch;
+- (id);
+- (void)tWithTitle:(id)arg1 action:keyEquivalent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *primaryLanguage;

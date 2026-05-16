@@ -6,6 +6,6 @@
 
 @interface (null) (MessagePartUtilities)
 + (id);
-- (id)#;
+- (id);
 @end
 

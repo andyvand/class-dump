@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (double)ename:%@ /* Error: Ran out of types for this method. */;
++ (double);
 - (long long);
 - (void);
 - (id);
 - (unsigned long long);
-- (id)";
-- (long long);
-- (struct CGRect)B,N,V_isStewieActive;
 - (id);
-- (void);
-- (id)undDimmingAmount;
+- (long long);
+- (struct CGRect);
+- (id)tionContainerViewForRange:(id)arg1 inContext:(id)arg2 completion:(id)arg3 and therefore must assign a non-nil value to the coordinator's decorationContainerView property.;
+- (id)t and not collapsing secondary on top of primary. SplitViewController is %@, primary is %@, secondary is %@;
+- (void)UUUUUU@«ªªªªª@46<=0@®Gáz®÷?ÊÃB­iÞú?;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void);
-- (id)Ýã;
+- (id);
+- (void)on:(id)arg1 encodedSnippetActionToolInvocation: /* Error: Ran out of types for this method. */;
+- (void)lock_invoke;
 
 // Remaining properties
 @property(nonatomic) __weak WFDatabase *database; // @synthesize database=_database;

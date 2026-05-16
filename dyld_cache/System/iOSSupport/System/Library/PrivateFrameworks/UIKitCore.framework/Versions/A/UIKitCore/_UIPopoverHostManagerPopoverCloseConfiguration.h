@@ -20,8 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (id)qË1¢!0@ù
-× ;
+- (id)µ­;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *parentWindow; // @synthesize parentWindow=_parentWindow;

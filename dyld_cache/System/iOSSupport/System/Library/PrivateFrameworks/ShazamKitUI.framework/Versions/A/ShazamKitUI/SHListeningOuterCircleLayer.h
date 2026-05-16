@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)title;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *circleContainerLayer; // @synthesize circleContainerLayer=_circleContainerLayer;

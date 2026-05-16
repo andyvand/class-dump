@@ -13,17 +13,17 @@
     RTPersistenceManager *_persistenceManager;
 }
 
-+ (id)h;
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)P;
 - (id);
 - (void);
-- (void);
-- (id)ledByDataProvider;
 - (id);
+- (id);
+- (void)te;
+- (void)ent object, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;

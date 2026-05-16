@@ -12,24 +12,22 @@
     NSArray *__regions;
 }
 
-+ (id)iguration_hasCustomized_backgroundColor;
-+ (_Bool)îZÿ.ËØ	q;
++ (id)setCommonVisibleKeys: /* Error: Ran out of types for this method. */;
++ (_Bool)ctivity for UUID %@;
 - (void);
-- (_Bool)E;
-- (id)`!jK;
-- (id)stWithIdentifier:(struct _NSZone *)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)> posting notification:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (id)Ç1¢!0@ù
-× ;
-- (void)ÑÇ°1¢!0@ù
-× ;
-- (void)ed"b1"isRotating"b1"isUsingOnePartRotationAnimation"b1"disableAutorotationCount"b4"needsAutorotationWhenReenabled"b1"forceTwoPartRotationAnimation"b1"orderKeyboardInAfterRotating"b1"roundedCorners"b4"resizesToFullScreen"b1"keepContextInBackground"b1"forceVisibleOnInit"b1"settingFirstResponder"b1"windowResizedToFullScreen"b1"statusBarFollowsOrientation"b1"secure"b1"isSceneSized"b1"didSetRestorationIdentifier"b1"resigningFirstResponderFromHost"b1"needsBoundingPathUpdate"b1"avoidUpdatingSafeAreaInsets"b1"sceneIsWindowScene"b1"needsFramePositionAdjustmentWhenWindowSceneIsAttached"b1"enqueuedDeferredOrientationUpdate"b1"isNotifyingColorTraitChangeForSubtree"b1"allowsResponderChainSceneHopping"b1"needsCleanupOfOrientationTransaction"b1"wantsSuperlayerSecurityAnalysis"b1};
-- (_Bool)dingToProofreadingSuggestionWithIdentifier:(const double *)arg1 replacingCharactersInRange:(const double *)arg2 newState:contextID: /* Error: Ran out of types for this method. */;
-- (id)ureMode;
-- (void);
+- (id)× ;
+- (_Bool)ractionSubInteractionSettings";
+- (void)redResultOptions:(id)arg1;
+- (id)s;
+- (id),N,S_setUserInterfaceStyleForGrid:(struct _NSZone *)arg1;
+- (void)ested for range overflowing beyond length of text. Please file a radar on UIKit if you have repro steps;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

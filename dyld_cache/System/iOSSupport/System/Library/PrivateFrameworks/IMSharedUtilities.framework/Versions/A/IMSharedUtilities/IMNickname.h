@@ -30,7 +30,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)kRCSEnabledDidChange;
++ (_Bool);
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)Ä!;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bluetoothAddress; // @dynamic bluetoothAddress;

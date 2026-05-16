@@ -17,12 +17,13 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PRAmbientEditingTitledViewControllerDelegate> delegate; // @synthesize delegate;

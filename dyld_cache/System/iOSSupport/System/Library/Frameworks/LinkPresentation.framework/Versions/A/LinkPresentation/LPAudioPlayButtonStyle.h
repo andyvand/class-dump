@@ -22,13 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)';
+- (id);
 - (void);
 - (id);
-- (void)tadata;
-- (id)";
+- (id);
 - (void);
 - (id);
+- (void)ø!ÀCù1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPAudioPlayButtonTheme *appleMusicTheme; // @synthesize appleMusicTheme=_appleMusicTheme;

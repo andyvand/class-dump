@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)16;
-- (void):(id)arg1;
+- (id);
+- (void);
+- (void)ize} into ${WFFileSizeFormat} (Parameter Summary);
 
 // Remaining properties
 @property(nonatomic) __weak id <WFRunningProgressSuppressionStateMachineDelegate> delegate; // @synthesize delegate;

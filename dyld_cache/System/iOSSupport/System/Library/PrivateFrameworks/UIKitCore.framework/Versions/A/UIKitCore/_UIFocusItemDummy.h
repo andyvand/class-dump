@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (id)goryXS;
-- (void)r host connection!;
-- (_Bool)gEditing;
 - (_Bool);
+- (id);
+- (struct CGRect)uldLayoutSubviews: /* Error: Ran out of types for this method. */;
+- (id)lastPanGestureEndTime;
+- (void)IUpdateLinkTracking;
+- (void)SideTop;
+- (_Bool)TR0;
+- (void)WÔ\Û[;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

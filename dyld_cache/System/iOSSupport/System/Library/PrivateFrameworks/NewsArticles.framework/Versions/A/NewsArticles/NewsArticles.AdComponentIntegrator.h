@@ -16,8 +16,8 @@
     MISSING_TYPE *lock;
 }
 
-- (void)A;
 - (id);
+- (void)l;
 
 @end
 

@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewCell;
+@class UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)gXwz_Xx;
+- (UICollectionViewCell *);
 
 @optional
-- (_Bool);
+- (void).;
+- (UICollectionReusableView *)ssage for app store purchase expiration.;
 @end
 

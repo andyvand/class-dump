@@ -16,9 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)!¨FùÑÉÐ1¢!0@ù
-× ;
-- (id)º@ýÿ^@ýÿ;
+- (id)aratorColor_UICollectionLayoutListAppearanceInsetGrouped;
+- (void)ÎsþMU43Ïsþ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIView *dragArea; // @synthesize dragArea=_dragArea;

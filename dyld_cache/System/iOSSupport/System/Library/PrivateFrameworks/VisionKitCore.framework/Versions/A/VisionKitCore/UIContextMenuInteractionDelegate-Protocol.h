@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuInteraction;
+@class UIContextMenuInteraction, UITargetedPreview;
 
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (void)BeginSubjectAnalysis:(UIContextMenuInteraction *)arg1;
+- (UITargetedPreview *)dless;
+- (UITargetedPreview *)&,N,V_frameDelays;
+- (void)_objectsConformingToProtocol:(UIContextMenuInteraction *)arg1;
+- (UITargetedPreview *)uest:(UIContextMenuInteraction *)arg1 %@;
 @end
 

@@ -157,7 +157,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 };
 
 struct unordered_map<int, PXGRequestDetails, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<const int, PXGRequestDetails>>> {
-    struct __hash_table<std::__hash_value_type<int, PXGRequestDetails>, std::__unordered_map_hasher<int, std::__hash_value_type<int, PXGRequestDetails>, std::hash<int>, std::equal_to<int>>, std::__unordered_map_equal<int, std::__hash_value_type<int, PXGRequestDetails>, std::equal_to<int>, std::hash<int>>, std::allocator<std::__hash_value_type<int, PXGRequestDetails>>> {
+    struct __hash_table<std::__hash_value_type<int, PXGRequestDetails>, std::__unordered_map_hasher<int, std::pair<const int, PXGRequestDetails>, std::hash<int>, std::equal_to<int>>, std::__unordered_map_equal<int, std::pair<const int, PXGRequestDetails>, std::equal_to<int>, std::hash<int>>, std::allocator<std::pair<const int, PXGRequestDetails>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<int, PXGRequestDetails>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<int, PXGRequestDetails>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<int, PXGRequestDetails>, void *>*> {
@@ -170,7 +170,7 @@ struct unordered_map<int, PXGRequestDetails, std::hash<int>, std::equal_to<int>,
 };
 
 struct unordered_map<int, unsigned int, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<const int, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<int, unsigned int>, std::__unordered_map_hasher<int, std::__hash_value_type<int, unsigned int>, std::hash<int>, std::equal_to<int>>, std::__unordered_map_equal<int, std::__hash_value_type<int, unsigned int>, std::equal_to<int>, std::hash<int>>, std::allocator<std::__hash_value_type<int, unsigned int>>> {
+    struct __hash_table<std::__hash_value_type<int, unsigned int>, std::__unordered_map_hasher<int, std::pair<const int, unsigned int>, std::hash<int>, std::equal_to<int>>, std::__unordered_map_equal<int, std::pair<const int, unsigned int>, std::equal_to<int>, std::hash<int>>, std::allocator<std::pair<const int, unsigned int>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<int, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<int, unsigned int>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<int, unsigned int>, void *>*> {

@@ -5,9 +5,5 @@
 //
 
 @protocol WBSSiteMetadataProviderDelegate
-- (id);
-- (void)tionary",&,N,V_notifyBlocks;
-- (void)entries;
-- (void),V_sourceReadChannelError;
 @end
 

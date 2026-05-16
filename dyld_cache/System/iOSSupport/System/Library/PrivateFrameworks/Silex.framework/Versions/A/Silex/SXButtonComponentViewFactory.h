@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)Data;
-- (int)¤;
+- (id);
+- (int);
+- (void)StackLayout>"24@0:8d16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionComponentInteractionHandlerFactory> interactionHandlerFactory; // @synthesize interactionHandlerFactory=_interactionHandlerFactory;

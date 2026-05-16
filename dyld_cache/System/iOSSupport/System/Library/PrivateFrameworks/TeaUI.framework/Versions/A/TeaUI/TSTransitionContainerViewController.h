@@ -27,17 +27,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)tiatePlaybackBaselineClickValue;
-- (id)bundlePaid;
-- (void);
-- (id)nStateTracking: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void):(_Bool)arg1 viewForRow:(_Bool)arg2 forComponent:reusingView: /* Error: Ran out of types for this method. */;
-- (void)ñ%Zªæÿù%Zªæÿ&Zì©æÿ&Zhræÿ;
+- (void);
+- (void);
+- (id)8ÈßgÊÿ;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

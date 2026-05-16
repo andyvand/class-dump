@@ -16,7 +16,8 @@
 - (long long);
 - (float);
 - (double);
-- (_Bool)H;
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,7 +32,6 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *__im_associatedMessageContentType;

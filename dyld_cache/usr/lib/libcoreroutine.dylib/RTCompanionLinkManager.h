@@ -20,20 +20,18 @@
     NSMutableDictionary *_sleepCacheDictionary;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)
-;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)t
-;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,20 +42,20 @@
 - (void);
 - (void);
 - (void);
-- (void)h;
 - (void);
 - (void);
 - (void);
-- (void)c;
 - (void);
-- (void);
-- (void);
-- (id)"<NEFilterManagerDelegate>",W,V_delegate;
-- (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
+- (void);
+- (id)le.SafetyMonitor.SafetyCache.InitiatorSession;
+- (void)Rule_VehicleConnectionCannotSpanVisits_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Passthrough;
+- (void)ode, %ld, description, %@ (in %s:(id)arg1 %d);
+- (void)tion, %{sensitive}@;
+- (id)ng, attempt %{public}d.;
 
 // Remaining properties
 @property(retain, nonatomic) RPCompanionLinkClient *client; // @synthesize client=_client;

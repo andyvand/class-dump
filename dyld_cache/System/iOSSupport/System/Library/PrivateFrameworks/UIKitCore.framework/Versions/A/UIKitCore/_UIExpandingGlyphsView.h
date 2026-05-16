@@ -30,17 +30,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)2@60;
-- (double)U;
+- (void);
 - (struct CGSize);
-- (void);
-- (id)ºþÿÒÿÿ;
-- (void)DataSourceSectionSnapshotHandlersC;
-- (void)0@"UISceneDestructionCondition"8^B16;
-- (CDUnknownBlockType)_UIMorphAnimationSpec;
-- (id)?;
-- (struct CGSize)&;
-- (void);
+- (struct CGSize);
+- (id)lEffectView;
+- (id)h D¼<;
+- (void)edCorners;
+- (double)ntly adjusted. To debug this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
+Collection view: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (void)HD\;
+- (void)kÐHð_;
+- (void)ì"ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;

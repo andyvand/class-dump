@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -33,21 +33,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)Color;
-- (void)TubePlayerViewFullScreenDelegate;
-- (void);
-- (void)ies;
-- (void);
-- (void);
-- (void)+;
-- (void);
-- (void)0;
-- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)sset"16;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

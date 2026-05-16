@@ -13,15 +13,15 @@
     MISSING_TYPE *languageAwareString;
 }
 
+- (id);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 
 // Remaining properties
 @property(nonatomic, retain) NSTextStorage *textStorage; // @synthesize textStorage;

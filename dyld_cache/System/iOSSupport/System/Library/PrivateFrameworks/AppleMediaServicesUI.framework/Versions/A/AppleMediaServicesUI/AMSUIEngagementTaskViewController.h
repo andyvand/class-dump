@@ -24,9 +24,9 @@
 }
 
 + (id);
-+ (id)y7SgGG_AGy!7ALG97tGGGGG_|9Qo_;
-+ (id)lientOptions;
-+ (id)ëÿfRa;
++ (id);
++ (id)G;
++ (id)Action;
 - (long long);
 - (void);
 - (void);
@@ -56,7 +56,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -64,18 +64,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void)iveTouchRunning;
+- (id)ttonFont;
+- (void)Qo__Qo_GC1GARGARGARGä1G;
 - (void);
 - (void);
-- (id)1b0@ù
-× ;
-- (id);
-- (void)Ì³7WË7yÉ¶7yADyADyADy*É7yACyADyADy;
-- (void)tackPVT;
+- (void)¬¸éÿÝöXm;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;

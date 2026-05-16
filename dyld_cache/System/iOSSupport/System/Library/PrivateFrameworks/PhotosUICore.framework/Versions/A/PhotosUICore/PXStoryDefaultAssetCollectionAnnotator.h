@@ -12,8 +12,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id sourceObject; // @synthesize sourceObject;

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)dentifier;
-- (void)nitude:(id)arg1;
-- (void)T@"_UIPortalView",&,N,V_reparentingPortalView;
+- (void);
+- (id);
+- (void)ble name %@, and runtime collection class name %@.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

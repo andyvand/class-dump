@@ -11,30 +11,28 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)thState:trackingIdentifier:duration:delay:animations: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (struct NSDirectionalEdgeInsets);
+- (double);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)reItemID:(id)arg1 additionalTrackMetadata: /* Error: Ran out of types for this method. */;
-- (double)%{public}@;
 - (_Bool);
-- (id)°!(@ùñÀ°1¢!0@ù
+- (id);
+- (double)!,Bù1e1Â0@ù
 × ;
-- (id)¡p!°GùqÃ°1¢!0@ù
+- (id)@ù1f°1Â0@ù
 × ;
-- (struct NSDirectionalEdgeInsets)qÐ! DùñÄð1¢!0@ù
-× ;
-- (id)±Ë1¢!0@ù
-× ;
-- (id)de:modifiers: /* Error: Ran out of types for this method. */;
-- (id)tWindowFrameAnimationForNextPendingRequest: /* Error: Ran out of types for this method. */;
-- (double)isterTraitChanges;
-- (id)gressSPI;
-- (double)8Ô;
-- (double)¸¶;
-- (double)ronment:(id)arg1 %@  focusItemContainer:%@ has no coordinate space. /* Error: Ran out of types for this method. */;
-- (id)4äjþ;
+- (id)ing"24;
+- (id)wAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)rKeyboardSnapshot;
+- (id)ingleCharacter;
+- (double)ISystemApplicationDidUnlockNotification;
+- (id)ange;
+- (id)dChangeNotification;
+- (double)dÀg;
 
 @end
 

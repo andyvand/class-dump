@@ -56,20 +56,20 @@
 - (void);
 - (void);
 - (double);
+- (void);
 - (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
 - (double);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (CDUnknownBlockType);
+- (long long);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
 
 // Remaining properties
 @property(nonatomic) double amplitude;

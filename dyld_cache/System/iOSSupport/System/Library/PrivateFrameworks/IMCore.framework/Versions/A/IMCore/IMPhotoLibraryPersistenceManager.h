@@ -20,8 +20,8 @@
 
 + (id);
 + (id);
-+ (id)abled: /* Error: Ran out of types for this method. */;
-+ (id)l;
++ (id);
++ (id)ÐÇÿÿ;
 - (void);
 - (void);
 - (void);
@@ -44,19 +44,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)C;
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)dSetupCompleted;
-- (id)allows, don't downgrade:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
 - (id);
 - (void);
+- (void)¼%ü%;
+- (id)ation;
+- (id)pÜ;
+- (void)Óÿá6fJã;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

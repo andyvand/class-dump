@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TIDocumentState, TIKeyboardInputManagerState, TIKeyboardState, UIKBInputDelegateManager, UIKeyboardAutocorrectionController, UIKeyboardTaskQueue, UITextInputTraits, UIView;
+@class TIDocumentState, TIKeyboardInputManagerState, TIKeyboardState, UIKBInputDelegateManager, UIKeyboardAutocorrectionController, UIKeyboardTaskQueue, UITextInputTraits, UIView;
 @protocol UIInlineTextCompletionLearning;
 
 @protocol UIInlineTextCompletionControllerDelegate
-- (NSArray *);
-- (void),V_payloadVersion;
-- (UIKeyboardTaskQueue *)abledExpansion: /* Error: Ran out of types for this method. */;
-- (UITextInputTraits *)InsertText: /* Error: Ran out of types for this method. */;
-- (TIDocumentState *)und.inputSDRGradientDistance0;
-- (UIView *)AmbiguityAppearanceConfiguration;
-- (UIKBInputDelegateManager *)Message;
-- (TIKeyboardInputManagerState *)UICoreHostingKeyboardTrackingElement;
-- (_Bool)r;
-- (UIKeyboardAutocorrectionController *)Ô¶ÙZ;
-- (void)ß¨ÈãZ;
-- (void)Ì%[;
-- (_Bool).Ó;
+- (void);
+- (UIKeyboardTaskQueue *);
+- (TIKeyboardState *)y;
+- (void)&¸þ;
+- (void)u®43;
+- (TIDocumentState *)urationShadowType;
+- (void)uí;
+- (UIKeyboardAutocorrectionController *)\;
+- (UIView *)«;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool delegateSupportsCorrectionUI;

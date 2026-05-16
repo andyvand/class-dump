@@ -7,7 +7,6 @@
 @class NSSet;
 
 @protocol HMEPersistentConnectionClientDelegate
-- (unsigned long long)ard smart notification:%@ /* Error: Ran out of types for this method. */;
-- (NSSet *);
+- (NSSet *)eived invalid accessory information payload.;
 @end
 

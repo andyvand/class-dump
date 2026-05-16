@@ -35,11 +35,11 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)Override;
+- (id);
+- (void)Lf;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VFXNode *pointOfView;

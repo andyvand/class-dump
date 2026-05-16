@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool)itNameSelectionIsKey;
-+ (id)¨;
-- (id)ws for %@;
-- (id)hecking Application Delegate and implicitly for Object;
-- (id)s are %@;
++ (_Bool);
++ (id)cts is empty. Did CNContact fail to decode?;
+- (id);
+- (id);
+- (id);
 - (id);
 
 @end

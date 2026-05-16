@@ -36,16 +36,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool)a;
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)amsProtocolDelegate;
-- (id)rsion;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=allowsRemoval) _Bool allowsRemoval; // @synthesize allowsRemoval=_allowsRemoval;

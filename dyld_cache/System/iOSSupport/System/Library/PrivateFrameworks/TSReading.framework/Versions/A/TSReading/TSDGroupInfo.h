@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void)R;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -30,7 +30,7 @@
 - (id);
 - (void);
 - (long long);
-- (id)9	A;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -51,10 +51,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (Class);
-- (id);
+- (void)pResize:(id)arg1;
+- (id)eightInfo: /* Error: Ran out of types for this method. */;
+- (void)es/AlderShared/drawables/TSDConnectionLineAbstractLayout.m;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @dynamic anchoredToText;

@@ -65,8 +65,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)update notes from settings;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionEditorInstructionsDescription; // @synthesize actionEditorInstructionsDescription=_actionEditorInstructionsDescription;

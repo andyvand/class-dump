@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (_Bool)mary;
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSDateComponents *offset; // @synthesize offset=_offset;

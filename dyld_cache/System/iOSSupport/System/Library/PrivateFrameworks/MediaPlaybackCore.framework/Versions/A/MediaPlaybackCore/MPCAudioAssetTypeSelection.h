@@ -15,11 +15,11 @@
 
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (long long);
-- (void)PIR:(long long)arg1 %{sonic:fourCC}u] loadNextPageForAccumulator | accumulating metadata response [metadataResponse.isFinalResponse = NO] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)sing:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;

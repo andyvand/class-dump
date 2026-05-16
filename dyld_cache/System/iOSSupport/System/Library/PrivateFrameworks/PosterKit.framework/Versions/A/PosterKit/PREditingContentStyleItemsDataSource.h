@@ -29,10 +29,11 @@
 - (void);
 - (double);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditorContentStylePickerConfiguration *configuration; // @synthesize configuration=_configuration;

@@ -20,7 +20,7 @@
 
 + (id);
 + (id);
-+ (_Bool)<bÿ;
++ (_Bool)@?<v@?@"<MTLLibrary>"@"NSError">24;
 - (void);
 - (void);
 - (void);
@@ -28,17 +28,17 @@
 - (void);
 - (_Bool);
 - (MISSING_TYPE *);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (float);
 - (void);
 - (id);
-- (float);
+- (void);
+- (float)hà;
 
 // Remaining properties
 @property(nonatomic) float maximumDistance;

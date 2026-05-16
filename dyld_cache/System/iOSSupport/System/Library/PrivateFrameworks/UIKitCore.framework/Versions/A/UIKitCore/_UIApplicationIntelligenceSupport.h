@@ -12,18 +12,17 @@
     long long applicationState;
 }
 
-+ (Class)h key %@ -  %@;
++ (Class);
 + (void);
 + (void);
-+ (void)r:(id)arg1 block:(id)arg2;
-+ (id)ÿU;
-- (_Bool)age timer fired, delaying by 15s;
++ (void);
++ (id)m;
+- (_Bool);
 - (void);
+- (id);
 - (void);
-- (void)0@ù
-× ;
-- (id)S_setVisualStyleOverrideTitleLabelFont:,V_visualStyleOverrideTitleLabelFont /* Error: Ran out of types for this method. */;
-- (long long)N;
+- (long long)ment: /* Error: Ran out of types for this method. */;
+- (void)el;
 
 // Remaining properties
 @property(nonatomic) long long applicationState; // @synthesize applicationState;

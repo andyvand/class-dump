@@ -24,20 +24,20 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (id)e:(long long)arg1 textProvider: /* Error: Ran out of types for this method. */;
+- (void)BackgroundRingAlpha:(_Bool)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

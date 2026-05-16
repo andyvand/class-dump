@@ -5,9 +5,6 @@
 //
 
 @protocol APPCDiagnosticMetricsHelping
-- (void)Apple News+ Crossword';
-- (void)onal text for the remove singular issue action from My Magazines section only;
-- (void)issue from My Magazines?;
 
 // Remaining properties
 @property(nonatomic) unsigned long long networkType;

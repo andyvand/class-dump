@@ -17,15 +17,15 @@
 + (id);
 + (id);
 + (id);
-+ (id)rovider;
++ (id);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)ibute);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *email; // @synthesize email=_email;

@@ -25,19 +25,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_1b6d18a9);
 - (id);
-- (CDStruct_1b6d18a9)1b0@ù
+- (id);
+- (_Bool)ùQ"°1â
+0@ù
 × ;
-- (_Bool)etteForEdge:size: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)AssetViewModel:(id)arg1;
-- (id)nputSuggestion: /* Error: Ran out of types for this method. */;
-- (_Bool)ult:] /* Error: Ran out of types for this method. */;
+- (void)toTitle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 currentTime; // @synthesize currentTime=_currentTime;

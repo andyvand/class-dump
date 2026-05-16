@@ -11,10 +11,10 @@
     IOSurface *_surface;
 }
 
-- (void);
-- (id);
-- (void *);
 - (unsigned int);
+- (id);
+- (void);
+- (void *);
 
 // Remaining properties
 @property(readonly, nonatomic) void *buffer;

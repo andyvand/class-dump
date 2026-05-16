@@ -10,9 +10,9 @@
 }
 
 - (void);
-- (void)ration;
+- (id);
 - (CDUnknownBlockType);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType runBlock; // @synthesize runBlock=_runBlock;

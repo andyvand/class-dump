@@ -7,10 +7,7 @@
 @class UICalendarView;
 
 @protocol _UICalendarSelection
-- (void)nBadMessageID;
-- (void);
-- (void);;
-- (void)¨;
+- (UICalendarView *)aleFactor;
 
 // Remaining properties
 @property(nonatomic) __weak UICalendarView *view;

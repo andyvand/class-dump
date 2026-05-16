@@ -7,12 +7,12 @@
 @interface (null) (AKPlatformImageExtensions)
 + (id);
 + (id);
-+ (id)onLinkLifetimeScope;
-+ (id)vailableState;
-+ (id)MessageType;
-+ (id)HandleType;
-+ (id);
-- (struct CGImage *);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
+- (struct CGImage *);
 - (_Bool);
 @end
 

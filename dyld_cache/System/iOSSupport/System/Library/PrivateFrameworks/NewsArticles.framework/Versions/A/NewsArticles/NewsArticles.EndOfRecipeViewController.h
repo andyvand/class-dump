@@ -13,12 +13,12 @@
     MISSING_TYPE *blueprintViewController;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)TextStyleIdentifier:forIdentifier:component: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)te;
+- (void)à;
 
 @end
 

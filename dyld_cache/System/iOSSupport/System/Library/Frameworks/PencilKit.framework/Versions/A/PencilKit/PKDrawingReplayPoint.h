@@ -12,12 +12,12 @@
 }
 
 - (CDStruct_4cc01785);
-- (void)apped:(struct CGPoint)arg1;
-- (double)?;
-- (struct CGPoint);
-- (void)a;
+- (void);
+- (double);
 - (unsigned long long);
-- (void)tor",&,N,V_smoothingDescriptor;
+- (void);
+- (struct CGPoint);
+- (void)Êùÿß.Xî;
 
 // Remaining properties
 @property(nonatomic) double delay; // @synthesize delay=_delay;

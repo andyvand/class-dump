@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITargetedDragPreview;
-@protocol UIDragSession;
+@class UIDragInteraction, UITargetedDragPreview;
 
 @protocol UIDragInteractionDelegate
-- (NSArray *);
 
 @optional
-- (UITargetedDragPreview *);
-- (void)RN;
-- (_Bool)ransportType;
-- (void)A;
-- (id <UIDragSession>)shouldStartUpMinimized;
-- (void)PT¬Ä4;
-- (_Bool)À;
+- (_Bool)a	ð!4Fù±'Ð1Â0@ù
+× ;
+- (void)@0:(UIDragInteraction *)arg1 8{_PKStrokePointSlice={__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}{__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}}16^v32B40B44B48@52;
+- (void)nge:(UIDragInteraction *)arg1;
+- (UITargetedDragPreview *)s:(UIDragInteraction *)arg1;
+- (_Bool);
 @end
 

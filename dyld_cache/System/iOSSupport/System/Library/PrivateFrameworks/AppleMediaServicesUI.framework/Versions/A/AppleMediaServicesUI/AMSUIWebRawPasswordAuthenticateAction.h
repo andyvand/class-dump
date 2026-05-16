@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)sk. dialogRequest = %{public}@;
+- (id);
+- (void)r;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id)public}@> Media Smart Albums Subtypes to Fetch:%@ /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

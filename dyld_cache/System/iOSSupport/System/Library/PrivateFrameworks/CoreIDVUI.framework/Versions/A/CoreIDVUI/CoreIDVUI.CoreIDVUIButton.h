@@ -18,12 +18,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (_Bool)	
-;
+- (id);
+- (void);
+- (void);
+- (_Bool)ð!$@ùÐ1B50@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;

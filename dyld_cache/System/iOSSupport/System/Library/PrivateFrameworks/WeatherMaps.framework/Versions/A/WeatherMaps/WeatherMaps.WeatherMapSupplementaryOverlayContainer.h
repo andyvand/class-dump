@@ -11,11 +11,11 @@
     MISSING_TYPE *overlayView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 @end
 

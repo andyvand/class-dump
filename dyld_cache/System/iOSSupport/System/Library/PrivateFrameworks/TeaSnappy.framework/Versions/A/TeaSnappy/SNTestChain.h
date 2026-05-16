@@ -11,12 +11,12 @@
     NSMutableArray *_linkBlocks;
 }
 
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *linkBlocks; // @synthesize linkBlocks=_linkBlocks;

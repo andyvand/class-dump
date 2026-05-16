@@ -28,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)languageCodeKey;
 
 // Remaining properties
 @property(retain, nonatomic) HFBridgeItemProvider *bridgeItemProvider; // @synthesize bridgeItemProvider=_bridgeItemProvider;

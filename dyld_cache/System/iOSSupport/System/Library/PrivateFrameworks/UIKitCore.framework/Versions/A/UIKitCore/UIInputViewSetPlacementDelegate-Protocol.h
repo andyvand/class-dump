@@ -5,6 +5,6 @@
 //
 
 @protocol UIInputViewSetPlacementDelegate
-- (void)torCoordinatorDelegate;
+- (void)D;
 @end
 

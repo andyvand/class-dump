@@ -23,10 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)`;
-- (void);
-- (id);
+- (id)!ìEùñI°1â
+0@ù
+× ;
+- (id)yImage;
+- (void)cause customTitleWasDeleted is nil;
+- (void)Äb ÿõ3ËÔb ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXGEntityManager *entityManager; // @synthesize entityManager=_entityManager;

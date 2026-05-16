@@ -11,8 +11,11 @@
     unsigned long long _significantEventTypes;
 }
 
-+ (id)ØØ@;
++ (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -20,9 +23,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)",W,V_dataSource;
-- (id)bing to accessory info with home identifier:%@ accessory identifier:%@ options:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

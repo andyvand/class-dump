@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     id savedFirstResponder;
 }
 
-- (void)TextField",W,N,V_textField;
+- (void);
 
 @end
 

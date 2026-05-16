@@ -11,6 +11,7 @@
     MISSING_TYPE *_state;
     MISSING_TYPE *_isPreviewing;
     MISSING_TYPE *player;
+    MISSING_TYPE *audioSessionInterruptionNotificationTask;
 }
 
 @end

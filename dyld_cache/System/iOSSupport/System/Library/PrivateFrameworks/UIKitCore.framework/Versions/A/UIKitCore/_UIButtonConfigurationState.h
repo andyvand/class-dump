@@ -10,7 +10,7 @@
 {
 }
 
-- (unsigned long long)top:withState: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_stackedTrailingPadding;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _controlState;

@@ -14,10 +14,8 @@
 }
 
 - (id);
-- (void)
-× ;
-- (id)iews do not return consistent sizes, or the collection view's frame/bounds/contentOffset is being constantly adjusted. To debug this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
-Collection view:(struct CGRect)arg1;
+- (id)ule;
+- (void)D%&ÿ;
 
 @end
 

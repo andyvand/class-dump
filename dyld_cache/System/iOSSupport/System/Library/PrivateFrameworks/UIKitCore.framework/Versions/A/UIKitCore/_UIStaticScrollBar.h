@@ -21,31 +21,30 @@
     UIButton *_downButton;
 }
 
-- (id)e to load FDR trustObject data;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id)Requests;
-- (unsigned long long)V_numReadReceiptsV1NoQOI;
-- (struct CGRect);
+- (id);
+- (unsigned long long);
+- (struct CGRect);
 - (void);
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (void)Controller";
+- (id)rollerFullWidth;
+- (id)spectRuleMajorDimensionThreshold;
+- (void)esentingModally;
 - (void);
 - (long long);
-- (void);
-- (_Bool)0@ù
-× ;
-- (void)!4EùÊÐ1¢!0@ù
-× ;
-- (void)ection"24@0:(id)arg1 8@"_UIScrollerImp"16;
-- (void)Lõö;
-- (id)xhÿÿhÿÿ¨hÿÿàhÿÿ´iÿÿÌiÿÿäiÿÿüiÿÿÈmÿÿðmÿÿnÿÿ,nÿÿDnÿÿhnÿÿoÿÿ<oÿÿloÿÿoÿÿ´oÿÿÌoÿÿpÿÿDpÿÿ\pÿÿ|pÿÿpÿÿ¬pÿÿÄpÿÿqÿÿ$qÿÿ<qÿÿTqÿÿqÿÿ´qÿÿüqÿÿÐrÿÿsÿÿ$sÿÿHsÿÿlsÿÿsÿÿ¬sÿÿäsÿÿtÿÿDtÿÿ|tÿÿtÿÿ¼tÿÿÜtÿÿütÿÿuÿÿ4uÿÿLuÿÿluÿÿ\vÿÿ vÿÿÄvÿÿðvÿÿwÿÿ wÿÿ8wÿÿPwÿÿÐwÿÿØxÿÿ<yÿÿ`yÿÿyÿÿ¸yÿÿÐyÿÿzÿÿ zÿÿèzÿÿ({ÿÿX{ÿÿ{ÿÿØ{ÿÿ|ÿÿ@|ÿÿ`|ÿÿ|ÿÿ`}ÿÿ}ÿÿ¨}ÿÿÀ}ÿÿØ}ÿÿð}ÿÿ~ÿÿ ~ÿÿ8~ÿÿP~ÿÿh~ÿÿ~ÿÿ~ÿÿ°~ÿÿÈ~ÿÿà~ÿÿø~ÿÿÿÿ(ÿÿ@ÿÿXÿÿpÿÿÿÿ ÿÿÀÿÿØÿÿÿÿHÿÿxÿÿ¸ÿÿðÿÿPÿÿxÿÿÿÿ¨ÿÿÀÿÿØÿÿðÿÿÿÿ ÿÿ8ÿÿPÿÿhÿÿÿÿÿÿ°ÿÿÈÿÿàÿÿøÿÿÿÿ(ÿÿ@ÿÿXÿÿpÿÿÿÿ ÿÿ¸ÿÿÐÿÿèÿÿ;
-- (struct CGSize);
-- (id)ú¡[;
-- (void)¬;
-- (void)^;
+- (void)Ü2\;
 
 // Remaining properties
 @property(readonly, nonatomic) long long desiredAccessoryEdge;

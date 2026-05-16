@@ -24,10 +24,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)Ô ;
-- (void)nerViewController"8;
+- (void)UServiceDetailsGroupSectionIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cameraSettingsModuleControllers; // @synthesize cameraSettingsModuleControllers=_cameraSettingsModuleControllers;

@@ -48,27 +48,27 @@
 - (long long);
 - (double);
 - (double);
-- (double)loadSuccess: /* Error: Ran out of types for this method. */;
-- (void)eCache:calculateUnreadCount:reindexMessage:isCloudImport: /* Error: Ran out of types for this method. */;
-- (long long)stSentMessageDate:(double)arg1;
-- (long long)deRequestSinceLoadSessionIndex:(struct CGPoint)arg1;
-- (void)rkPlayedExpressiveSendForIDs:style:onServices:message: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1;
-- (void)ntifiers:onServices:chatStyle:upToGUID:readDate:fromMe: /* Error: Ran out of types for this method. */;
-- (void)le:asPurgeable: /* Error: Ran out of types for this method. */;
-- (double)sPreviewAttachmentSizeEnabled;
-- (_Bool)rwrite:(struct CGPoint)arg1 options: /* Error: Ran out of types for this method. */;
-- (_Bool)stemRepresentation;
-- (_Bool)rdsFilteredUsingPredicate:(struct CGPoint)arg1 limit:(double)arg2 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)tyle:account:shouldRelay: /* Error: Ran out of types for this method. */;
-- (_Bool)ceiveDisplayNameChange:guid:fromID:toIdentifier:forChat:style:account:shouldRelay: /* Error: Ran out of types for this method. */;
-- (void)SyncEnded;
-- (void)ary:(id)arg1 smsMessage: /* Error: Ran out of types for this method. */;
-- (_Bool)efaultPairedDevice;
-- (_Bool)ngDelegate;
-- (double)nService: /* Error: Ran out of types for this method. */;
-- (double)ryptionValidationToken;
-- (double)p;
+- (double);
+- (void);
+- (long long);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (double);
+- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -79,24 +79,24 @@
 - (double);
 - (double);
 - (void);
-- (void)?2G;
 - (void);
-- (void)eStamp:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)
+- (double)
 × ;
-- (void)Æ°1¢!0@ù
+- (void)cÐ1Â0@ù
 × ;
-- (double)@"<UITextDropDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)sBeingFailureRequirement"b1"privateDelegateAcceptsBeingFailureDependent"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"subclassTouchesEstimatedPropertiesUpdated"b1"subclassShouldReceiveTouchForEventRecognizerView"b1"queriedFailureRequirements"b1"cancelsTouchesInView"b1"delaysTouchesBegan"b1"delaysTouchesEnded"b1"disabled_DO_NOT_USE_DIRECTLY"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"requiresExclusiveTouchType"b1"initialTouchTypeIsValid"b1"forceRequirementSatisfied"b1"wantsDragEvents"b1"conformsToDragEventRespondable"b1"isDynamicGesture"b1"canExcludeWithActiveRequirements_DO_NOT_USE_DIRECTLY"b1"isObservingGesture"b1"didCheckForcePressShouldBegin"b1"canSendForcePressAction"b1"queriedShouldReceiveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (void)ghlight;
 - (double);
-- (double)7î;
-- (void)24@?0@"UIView"8q16;
-- (id)%@; deletedDecorations:(id)arg1 %@>;
-- (void)@ eþÖÿ3¸îcþ%Öÿ3x¥þ;
+- (id)ggestedActions"B"shouldAttemptToPresent"B"interactionEffectForTargetedPreview"B};
+- (void)etIsPhysicallyAttachedHardwareKeyboard;
+- (void)ibility;
+- (void)rTextEffectsContentFrame;
+- (void)UITextDragCaretView;
+- (void)ngToolsCoordinator.m;
+- (void)¹/3;
+- (void);
+- (double)«ÿ;
 
 // Remaining properties
 @property(nonatomic) double accumulatedDistance; // @synthesize accumulatedDistance=_accumulatedDistance;

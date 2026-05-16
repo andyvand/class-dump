@@ -24,16 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id)View"16@"UIContextMenuConfiguration"24@"NSIndexPath"32;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -26,9 +26,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)ctionTurnOn;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *cameraStatusLabel; // @synthesize cameraStatusLabel=_cameraStatusLabel;

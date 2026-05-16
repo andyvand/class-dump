@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
-- (id)"NSString"16;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

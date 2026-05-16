@@ -25,11 +25,11 @@
 - (void);
 - (_Bool);
 - (CDStruct_2d1207dd);
-- (id)h;
 - (id);
 - (void);
 - (void);
-- (void)!;
+- (void);
+- (id)ÖÿS^ü;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

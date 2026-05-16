@@ -5,8 +5,5 @@
 //
 
 @protocol NULoadingDelegate
-
-@optional
-- (void);
 @end
 

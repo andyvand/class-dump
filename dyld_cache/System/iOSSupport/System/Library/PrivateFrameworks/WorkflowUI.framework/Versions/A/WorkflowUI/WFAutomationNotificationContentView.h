@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ÿ;
+- (void)D;
+- (id)Ì@;
 
 // Remaining properties
 @property(readonly, nonatomic) WFRowOfIconsView *actionIconsView; // @synthesize actionIconsView=_actionIconsView;

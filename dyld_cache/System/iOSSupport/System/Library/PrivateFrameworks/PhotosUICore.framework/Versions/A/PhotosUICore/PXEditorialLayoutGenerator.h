@@ -27,10 +27,10 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
 - (void);
 - (struct CGSize);
-- (void)Ö7;
+- (id);
+- (void)n;
 
 // Remaining properties
 @property(copy, nonatomic) PXEditorialLayoutMetrics *metrics; // @dynamic metrics;

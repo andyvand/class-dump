@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)Sync;
-+ (id)edMissingMessageNotification;
-+ (id)tSyncInitiated;
-+ (id)ions;
-+ (id)Within7Days;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (void);
 
 @end

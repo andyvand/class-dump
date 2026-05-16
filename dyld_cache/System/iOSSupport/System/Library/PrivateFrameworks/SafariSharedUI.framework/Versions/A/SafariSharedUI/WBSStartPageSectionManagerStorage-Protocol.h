@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol WBSStartPageSectionManagerStorage
-- (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *startPageSectionDescriptors;

@@ -5,8 +5,5 @@
 //
 
 @protocol SWScriptsManager
-- (void)agerType;
-- (void)[AudioScheduledRefreshManagerType;
-- (void)_D;
 @end
 

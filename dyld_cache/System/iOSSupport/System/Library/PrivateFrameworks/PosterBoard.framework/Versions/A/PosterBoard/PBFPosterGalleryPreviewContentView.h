@@ -34,10 +34,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id):%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentContainerView; // @synthesize contentContainerView=_contentContainerView;

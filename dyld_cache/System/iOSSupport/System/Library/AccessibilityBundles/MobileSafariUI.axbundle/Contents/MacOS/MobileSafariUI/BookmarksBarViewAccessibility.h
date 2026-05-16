@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (long long);
 - (id);
 

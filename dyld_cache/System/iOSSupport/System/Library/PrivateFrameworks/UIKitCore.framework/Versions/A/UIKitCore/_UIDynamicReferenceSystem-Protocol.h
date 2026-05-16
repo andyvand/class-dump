@@ -5,10 +5,12 @@
 //
 
 @protocol _UIDynamicReferenceSystem
+- (struct CGRect)1bÐ1Â0@ù
+× ;
 
 @optional
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)µ"13à)¹þ;
+- (struct CGPoint)OXôW\;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

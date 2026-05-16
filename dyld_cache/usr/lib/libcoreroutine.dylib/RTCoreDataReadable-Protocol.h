@@ -5,8 +5,5 @@
 //
 
 @protocol RTCoreDataReadable
-
-@optional
-+ (id);
 @end
 

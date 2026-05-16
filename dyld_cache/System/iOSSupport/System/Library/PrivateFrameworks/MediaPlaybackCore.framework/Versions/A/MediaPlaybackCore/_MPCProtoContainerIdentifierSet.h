@@ -24,14 +24,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)ter deferredNextContentItem [head (current item was placeholder)] deferredNextContentItem=%{public}@;
 
 @end
 

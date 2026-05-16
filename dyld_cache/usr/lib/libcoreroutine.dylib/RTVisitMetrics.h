@@ -15,7 +15,7 @@
     RTVisitManager *_visitManager;
 }
 
-- (id)9h;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,9 +29,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)"NEDNSSettingsBundle";
+- (id);
+- (id);
+- (void)%s, Received a modifying activeDeviceIdentifier stateSyncMessage, %@, that's not transitionType of SMStateTransitionTypeHandoffBecomeActive or SMStateTransitionTypeStateSyncUpdateReq;
 
 @end
 

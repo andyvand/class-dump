@@ -22,20 +22,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id)ority %s;
-- (double)or:%@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (id)ifiers;
-- (id)entifier:(id)arg1 %@ displayName:%@ participants:%@ sortedIdentifiers:%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ck %@, has incorrect service:%@ /* Error: Ran out of types for this method. */;
-- (id)iority message command not from my local paired device for messages:(id)arg1 %@;
 - (id);
-- (id);
+- (double);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
 - (id);
 - (double);
 - (struct UIEdgeInsets);
-- (void);
-- (id)el;
-- (id)²;
+- (void)*NÚdtg;
+- (id)àh;
+- (id)+Uì;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

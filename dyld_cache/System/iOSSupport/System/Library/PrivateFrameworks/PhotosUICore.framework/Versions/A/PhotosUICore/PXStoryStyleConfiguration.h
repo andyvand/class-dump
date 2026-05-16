@@ -25,11 +25,11 @@
 - (id);
 - (long long);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void)x;
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryAutoEditDecisionList> autoEditDecisionList; // @synthesize autoEditDecisionList=_autoEditDecisionList;

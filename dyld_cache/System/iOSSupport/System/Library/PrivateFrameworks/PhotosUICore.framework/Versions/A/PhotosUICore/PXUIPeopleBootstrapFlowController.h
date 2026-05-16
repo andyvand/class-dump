@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)Þ3;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PXPeopleBootstrapConfirmationViewController *confirmationViewController; // @synthesize confirmationViewController=_confirmationViewController;

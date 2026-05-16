@@ -26,9 +26,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (double);
 - (id);
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;

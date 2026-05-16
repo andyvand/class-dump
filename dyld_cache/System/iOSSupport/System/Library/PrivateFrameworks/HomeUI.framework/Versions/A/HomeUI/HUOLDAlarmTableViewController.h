@@ -44,8 +44,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -59,22 +59,21 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (void);
 - (struct CGSize);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (long long);
-- (_Bool)
-× ;
-- (void)emove device '%{public}@' from alert;
-- (void)´¦ÚÿÆøÈ;
-- (void)´Òÿ;
+- (id)View",&,N,V_timePickerView;
+- (void)icItem",&,N,V_allowCameraStatusChangesItem;
+- (void)iewController _shouldShowInvitePeople];
 
 // Remaining properties
 @property(retain, nonatomic) HUHomePodAlarmItemModuleController *alarmModuleController; // @synthesize alarmModuleController=_alarmModuleController;

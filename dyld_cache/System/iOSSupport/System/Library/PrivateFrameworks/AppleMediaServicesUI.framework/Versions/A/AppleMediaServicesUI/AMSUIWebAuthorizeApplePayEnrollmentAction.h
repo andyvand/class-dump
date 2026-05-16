@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CurrentItemWithPlayerItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *confirmationStyle; // @synthesize confirmationStyle=_confirmationStyle;

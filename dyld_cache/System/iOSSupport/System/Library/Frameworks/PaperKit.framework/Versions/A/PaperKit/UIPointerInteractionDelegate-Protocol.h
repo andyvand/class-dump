@@ -7,6 +7,7 @@
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)countTextFieldsWithAutofillOptionsDetected;
+- (void)estamp;
+- (void);
 @end
 

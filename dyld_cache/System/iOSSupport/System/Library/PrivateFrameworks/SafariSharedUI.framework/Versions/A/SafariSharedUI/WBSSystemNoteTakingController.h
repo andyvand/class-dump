@@ -24,17 +24,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)utputDone:(id)arg1;
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)yModifyingBrightnessByMultiplier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isSystemNoteTakingEnabled;

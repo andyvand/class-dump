@@ -41,16 +41,16 @@
 - (double);
 - (double);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (double);
-- (double)ingWithUTF8String: /* Error: Ran out of types for this method. */;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *averageColor;

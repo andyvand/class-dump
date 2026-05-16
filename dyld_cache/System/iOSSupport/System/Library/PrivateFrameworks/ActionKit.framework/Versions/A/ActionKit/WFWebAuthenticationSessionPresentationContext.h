@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)for this Health sample.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

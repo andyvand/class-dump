@@ -21,7 +21,7 @@
     NSProgress *_postOpenProgress;
 }
 
-+ (id)N,V_didPrerequestPersistencePermission;
++ (id)@, key face:%@, key asset:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -46,13 +46,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (id);
-- (id)positeOrientationCompactMaximumScale;
-- (id)ùÿùÿ;
 - (void);
-- (id)·8;
+- (id);
+- (_Bool);
+- (id)init];
+- (void)reaLabel;
+- (id)ÐÙÀÿ¯H?6;
 
 // Remaining properties
 @property(readonly, nonatomic) PLCPLSettingsObserver *cplSettingsObserver; // @synthesize cplSettingsObserver=_cplSettingsObserver;

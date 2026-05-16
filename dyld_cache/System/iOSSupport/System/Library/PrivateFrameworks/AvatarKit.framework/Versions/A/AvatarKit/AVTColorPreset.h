@@ -17,6 +17,7 @@
     unsigned long long _previewAccentType;
     float _variation;
     AVTMaterial *_material;
+    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -26,8 +27,8 @@
 + (id);
 + (id);
 + (id);
-+ (id)URLs:(long long)arg1;
-+ (id)torForURL:(id)arg1;
++ (id);
++ (id);
 - (_Bool);
 - (void);
 - (id);
@@ -40,16 +41,17 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (float);
-- (id)t private key from pcs %@;
-- (_Bool)tudeActiveObject failed to add noise sample %.3lf to OnlineRobustStatisticsEstimator;
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (long long)e:routeId:delay:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)(;
 
 // Remaining properties
 @property(readonly) long long category;

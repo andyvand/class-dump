@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;

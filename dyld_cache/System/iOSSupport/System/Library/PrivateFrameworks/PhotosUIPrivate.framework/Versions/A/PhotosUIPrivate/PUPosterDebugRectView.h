@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     double _borderWidth;
 }
 
-- (double);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ode;
+- (double)8@0:8{PXAssetBadgeInfo=Qdqq}16 /* Error: Ran out of types for this method. */;
+- (void)urationUUID;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;

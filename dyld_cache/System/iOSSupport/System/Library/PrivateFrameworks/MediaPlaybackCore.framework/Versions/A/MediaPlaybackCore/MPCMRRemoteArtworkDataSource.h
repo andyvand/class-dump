@@ -12,15 +12,16 @@ __attribute__((visibility("hidden")))
     MPCMediaRemoteController *_controller;
 }
 
-- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)$s9JetEngine20JSPlistObjectExports33_D4732CF97A29FCDEA1720AC85A78D8C7LLP;
 - (id);
+- (_Bool);
+- (void);
 - (id);
-- (id)	I!	*));
+- (_Bool);
+- (id)1Â0@ù
+× ;
+- (void)meters event=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCMediaRemoteController *controller; // @synthesize controller=_controller;

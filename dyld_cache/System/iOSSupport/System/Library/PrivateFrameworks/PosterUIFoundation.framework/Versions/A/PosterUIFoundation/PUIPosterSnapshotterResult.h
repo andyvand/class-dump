@@ -15,17 +15,17 @@
     PUIPosterSnapshotBundle *_snapshotBundle;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (double);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)°Ð;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

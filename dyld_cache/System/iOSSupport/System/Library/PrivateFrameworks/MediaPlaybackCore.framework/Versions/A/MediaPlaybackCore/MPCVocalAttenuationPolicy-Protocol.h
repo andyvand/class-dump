@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPolicyEvaluation;
 @protocol MPCVocalAttenuationPolicyDelegate;
 
 @protocol MPCVocalAttenuationPolicy
-- (_Bool)@16@24;
-- (MPCPolicyEvaluation *);
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBeReset;

@@ -40,24 +40,71 @@
 - (void);
 - (void);
 - (CDStruct_14d5dc5e);
+- (id);
 - (MISSING_TYPE *);
-- (void);
 - (_Bool);
+- (void);
+- (MISSING_TYPE *);
+- (float);
 - (CDStruct_183601bc);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (float);
+- (void)}32{CGPoint=dd}48;
+- (id)stomDecodingOfVFXIKConstraint: /* Error: Ran out of types for this method. */;
+- (void);
 - (long long);
-- (MISSING_TYPE *);
-- (id);
-- (id)èÿLtèÿXtèÿdtèÿptèÿtèÿ¸tèÿÄtèÿètèÿôtèÿ;
-- (void);
-- (void)Error:(_Bool)arg1 Unknown geometry class "%@";
-- (void)ullscreen_triangle_VR_pos_uv_uvNorm_vertex;
-- (_Bool)ßRv?/þ>;
+- (void)d(uint16_t flags) {
+    return (flags & vfx_render_option_enable_visual_depth_static_occlusion_texture_available) != 0;
+}
+
+#ifdef __cplusplus
+struct render_options_override {
+    uint16_t overrideBits = 0;
+    uint16_t overrideValues = 0;
+
+    void disableClipping() {
+        disable(vfx_render_option_enable_clipping);
+    }
+
+    void disableDitherFade() {
+        disable(vfx_render_option_enable_dither_fade);
+    }
+
+    void enableDitherFade() {
+        enable(vfx_render_option_enable_dither_fade);
+    }
+
+    void disableBreakthrough() {
+        disable(vfx_render_option_enable_breakthrough);
+    }
+
+    void enableNearFieldVignetting() {
+        enable(vfx_render_option_enable_nearfield_vignetting);
+    }
+
+    uint16_t applyOverrideOn(uint16_t optionFlags) const {
+        return (optionFlags | (overrideValues & overrideBits)) & (overrideValues | ~overrideBits);
+    }
+
+    void enable(uint16_t flag) {
+        overrideBits |= flag;
+        overrideValues |= flag;
+    }
+
+    void disable(uint16_t flag) {
+        overrideBits |= flag;
+        overrideValues &= ~flag;
+    }
+};
+#endif
+
+#endif 
+;
+- (void)µîPÓ;
+- (id)RøÑvÿ;
+- (_Bool)l?;
+- (void)­~?b^?g½äIR=m?|]?þ
+¼³ÐÎ<HÜ?\?½:(_Bool)arg1 Ç8;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *absolutePath;

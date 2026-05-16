@@ -13,17 +13,17 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id)";
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)0.ÿÿJnÿÿ,.ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *attributionFetchQueue;

@@ -7,26 +7,9 @@
 @class IMMessage, NSDictionary, NSError, NSString, NSURL;
 
 @protocol CKFileTransfer
-- (void)g:(IMMessage *)arg1;
-- (void)otRecordID;
-- (void),N,V_sharedObjectsInSource;
-- (_Bool);
-- (_Bool)ure you want to move this shared note?;
-- (IMMessage *)text style found for namedStyle %ld;
-- (id)se; direction:(NSString *)arg1 %@">
-<tbody>
-;
-- (_Bool);
-- (_Bool)hangeAdjustedContentInset: /* Error: Ran out of types for this method. */;
-- (NSURL *)_isTemporarilyOverridingContentOffsetRestriction;
-- (NSString *)DDRESS_%@;
-- (NSURL *)plementryType;
-- (_Bool)¿´d¬ÿ5Z¿°d¬ÿ=Z¿ô©ÿUZ¿¨&²ÿ;
-- (NSString *)à,;
-
-@optional
-- (id)Identifier;
-- (id)chment;
+- (NSString *)Üt;
+- (NSString *)med out while fetching num saved. Assuming none are saved.;
+- (NSURL *)ettingTrait;
 
 // Remaining properties
 @property(retain, nonatomic) IMMessage *IMMessage;

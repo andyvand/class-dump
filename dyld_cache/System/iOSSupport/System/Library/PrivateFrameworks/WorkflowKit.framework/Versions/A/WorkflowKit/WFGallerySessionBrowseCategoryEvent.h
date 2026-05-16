@@ -18,11 +18,11 @@
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)rameters;
 - (void);
+- (void)%s Remote quarantine policy evaluation required for workflow %@:(id)arg1 %@ != %@;
+- (void)red-Millionths;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *galleryCategoryIdentifier; // @synthesize galleryCategoryIdentifier=_galleryCategoryIdentifier;

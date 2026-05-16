@@ -12,10 +12,10 @@
     NSString *_displayName;
 }
 
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *displayName; // @synthesize displayName=_displayName;

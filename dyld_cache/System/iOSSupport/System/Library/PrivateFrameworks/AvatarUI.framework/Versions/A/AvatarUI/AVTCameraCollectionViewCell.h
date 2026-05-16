@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *cameraCellView; // @synthesize cameraCellView=_cameraCellView;

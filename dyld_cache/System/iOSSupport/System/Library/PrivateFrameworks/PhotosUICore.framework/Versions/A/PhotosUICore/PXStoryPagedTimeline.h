@@ -35,12 +35,11 @@
 - (void);
 - (long long);
 - (id);
-- (void)Ømyl¬Ö0e;
-- (long long);
+- (id);
 - (struct CGSize);
-- (id)
-× ;
-- (CDStruct_e83c9415);
+- (CDStruct_e83c9415)tion;
+- (void);
+- (long long)\3;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType clipSizeTranformer; // @synthesize clipSizeTranformer=_clipSizeTranformer;

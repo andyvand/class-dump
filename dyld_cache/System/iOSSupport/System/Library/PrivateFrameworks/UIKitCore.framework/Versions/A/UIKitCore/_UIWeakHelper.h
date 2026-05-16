@@ -10,12 +10,13 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _deallocationBlock;
 }
 
-- (void)MISSING__;
 - (void);
-- (CDUnknownBlockType);
 - (void);
-- (id)UIFocusMovementInfo",&,N,V_movementInfo;
-- (void)½ñ[;
+- (void)!Gù±cÐ1Â0@ù
+× ;
+- (CDUnknownBlockType)NibDecoder";
+- (id)îÿøîÿ;
+- (void)¾7yó¾7_GSg"¾7G;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType deallocationBlock; // @synthesize deallocationBlock=_deallocationBlock;

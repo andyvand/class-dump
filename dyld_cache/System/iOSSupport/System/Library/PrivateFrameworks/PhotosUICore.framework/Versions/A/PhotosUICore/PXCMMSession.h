@@ -27,7 +27,7 @@
     CDUnknownBlockType _customAssetSelectionHandler;
 }
 
-+ (id)Íÿ;
++ (id);
 - (void);
 - (id);
 - (double);
@@ -43,15 +43,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)gestionManager;
+- (id);
+- (id)l, __strong dispatch_block_t _Nonnull, void (^__strong _Nonnull)(NSTimeInterval));
 - (void);
-- (id);
-- (id);
-- (id)'ûÿ;
-- (id);
-- (id){JrÑ6;
-- (unsigned long long)ÿSHb7;
-- (unsigned long long);
-- (id)o¨ÿ*¶Pê8;
+- (id)+PÀÈ7;
+- (unsigned long long)ªÿKM;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMActionManager *actionManager; // @synthesize actionManager=_actionManager;

@@ -12,11 +12,11 @@
 {
 }
 
-+ (Class)NTPBRecommendationProvider;
-- (void);
-- (id)adlineScoringOutputName;
++ (Class);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

@@ -39,12 +39,12 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
 - (long long);
 - (id);
-- (id)¸¥þÿÎüÿüÿýûÿ;
-- (void)age_$_contentPlayerView;
-- (void)ÿÆ-ÿ;
+- (id);
+- (void);
+- (void);
+- (void)actory;
 
 // Remaining properties
 @property(readonly, nonatomic) struct PXTileIdentifier contentTileIdentifier;

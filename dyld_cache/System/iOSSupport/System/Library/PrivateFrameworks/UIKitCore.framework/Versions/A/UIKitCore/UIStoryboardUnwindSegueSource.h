@@ -16,12 +16,12 @@
 
 - (SEL);
 - (id);
-- (id)pdate chat:(id)arg1 %@. with SyndicationAction:(SEL)arg2 %@;
-- (id)means it is NOT proxy registered for SMS;
-- (id);
-- (void),;
-- (id)GlowAlphaMin;
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)n;
+- (void)ìaþV¤ÿ;
 
 // Remaining properties
 @property(readonly) id sender; // @synthesize sender=_sender;

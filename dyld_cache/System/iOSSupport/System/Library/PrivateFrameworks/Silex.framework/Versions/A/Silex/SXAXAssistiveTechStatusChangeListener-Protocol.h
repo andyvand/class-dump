@@ -5,6 +5,5 @@
 //
 
 @protocol SXAXAssistiveTechStatusChangeListener
-- (void);
 @end
 

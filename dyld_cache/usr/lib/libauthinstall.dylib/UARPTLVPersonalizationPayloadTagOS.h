@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)redentialWithIdentity:certificates:persistence: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly) UARPAssetTagOS *tag; // @synthesize tag=_tag;

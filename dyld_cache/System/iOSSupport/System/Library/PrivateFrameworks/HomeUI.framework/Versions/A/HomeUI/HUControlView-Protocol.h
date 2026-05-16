@@ -8,12 +8,9 @@
 @protocol HUControlViewDelegate;
 
 @protocol HUControlView
-+ (Class)Âä;
-- (id <HUControlViewDelegate>)
-× ;
-- (void)@0:(id <HUControlViewDelegate>)arg1 8@"HUQuickControlPresentationCoordinator"16;
-- (_Bool)A;
-- (void)Controller;
++ (Class)rotocol!;
+- (_Bool);
+- (void)\ ÿ=M!¸ ÿ-M!ü ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted;

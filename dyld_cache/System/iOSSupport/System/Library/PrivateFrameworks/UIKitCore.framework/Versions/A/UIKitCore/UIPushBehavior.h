@@ -23,35 +23,36 @@
 + (_Bool);
 - (double);
 - (double);
-- (struct CGPoint)NSDictionary"16@"NSDictionary"24@"NSString"32;
-- (struct UIOffset)32;
-- (void)eApplicationID;
-- (void)allbackHash:(double)arg1 inChat:(double)arg2 limit: /* Error: Ran out of types for this method. */;
-- (void)or:(double)arg1;
-- (void);
-- (void)ialGroupID:(struct UIOffset)arg1;
-- (void)nitialSync:(struct CGVector)arg1;
-- (void)g;
-- (struct CGVector)ansfer:forMessageItem: /* Error: Ran out of types for this method. */;
-- (id)rocessingParameter;
+- (struct CGPoint);
+- (struct UIOffset);
 - (void);
 - (void);
-- (double)8;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGVector);
+- (id);
+- (void);
+- (void);
+- (double);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (double)!à@ù±À°1¢!0@ù
+- (id);
+- (id);
+- (id)0@ù
 × ;
-- (void)vailableSpaceView;
-- (id)nimationFenceCreatingIfNecessary: /* Error: Ran out of types for this method. */;
-- (id)",&,N,V_collapsedViewController;
-- (void)ode point (%lu) and normal (%lu) with different number of dimensions;
-- (_Bool)°Ïjb;
-- (void)T);
-- (id)ªg;
-- (void)HsÿãPÑÇÝg;
-- (id)áñþ;
+- (void)!TFùñdÐ1Â0@ù
+× ;
+- (void)b1"imageOrientation"b3"isHorizontallyFlippedImageGeneratedByFlippingRegularImage"b1"cached"b1"hasPattern"b1"isCIImage"b1"renderingMode"b2"suppressesAccessibilityHairlineThickening"b1"hasBaseline"b1"isBaselineExplicit"b1"areContentInsetsExplicit"b1"areAlignmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
+- (void)tusBarHideAnimationParameters;
+- (id)ddenDefaultLayoutMargins: /* Error: Ran out of types for this method. */;
+- (double)stFactor;
+- (void);
+- (void)l1ÿ`[Õ¬Fd;
+- (_Bool)ÜÓøÚh;
 
 // Remaining properties
 @property(nonatomic) _Bool active;

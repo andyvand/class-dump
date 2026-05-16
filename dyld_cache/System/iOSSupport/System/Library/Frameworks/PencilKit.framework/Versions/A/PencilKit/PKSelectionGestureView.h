@@ -12,13 +12,13 @@
     PKSelectionController *_selectionController;
 }
 
-- (id)k operation %{public}@ failed with error:(struct CGRect)arg1 %{public}@);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id)ometric;
+- (void),N,V_imageViewTopAnchorConstraint;
 
 // Remaining properties
 @property(nonatomic) __weak PKSelectionController *selectionController; // @synthesize selectionController=_selectionController;

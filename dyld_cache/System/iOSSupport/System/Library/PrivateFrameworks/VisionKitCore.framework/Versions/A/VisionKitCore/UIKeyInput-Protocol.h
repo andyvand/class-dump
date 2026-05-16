@@ -5,9 +5,6 @@
 //
 
 @protocol UIKeyInput
-- (_Bool)!dGùÑMð1B0@ù
-× ;
-- (void)IHosted: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

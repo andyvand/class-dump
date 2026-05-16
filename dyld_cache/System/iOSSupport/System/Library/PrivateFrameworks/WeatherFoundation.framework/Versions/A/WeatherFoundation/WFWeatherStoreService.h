@@ -26,7 +26,7 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +37,7 @@
 - (struct os_unfair_lock_s);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
@@ -45,7 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void)";
+- (void);
 - (void);
 - (void);
 - (id);
@@ -60,8 +60,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)<;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -69,14 +69,14 @@
 - (id);
 - (id);
 - (id);
-- (id)h&;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)@9;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -85,17 +85,17 @@
 - (void);
 - (id);
 - (void);
-- (id)'A�;
-- (id)8;
-- (id)pKitContextTypeP;
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)16@0:(id)arg1 8;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *URLToCallbackMap; // @synthesize URLToCallbackMap=_URLToCallbackMap;

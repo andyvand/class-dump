@@ -26,17 +26,16 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
 - (_Bool);
-- (id)!Fù1y°1b0@ù
-× ;
-- (id)ometry kind (%lu). This should be handled by a subclass, otherwise tiles will not be created;
-- (long long)sUICore28StoryThumbnailImageGeneratorP33_2AC47450565EC896EF788DB342AA90677Request;
-- (void)anagerError;
+- (id);
+- (id)phicsQuality;
+- (id)Äðñ;
+- (void)bmenuItems;
+- (long long)ansform;
+- (void);
+- (id);
+- (id)x¥÷ÿKb5;
 
 // Remaining properties
 @property(nonatomic) long long configuredCount; // @synthesize configuredCount=_configuredCount;

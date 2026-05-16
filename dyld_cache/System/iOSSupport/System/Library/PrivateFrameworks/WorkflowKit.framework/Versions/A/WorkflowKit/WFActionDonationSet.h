@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id)EÉ;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)Repeats the contained actions, running them the specified number of times.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *appSuggestedActions; // @synthesize appSuggestedActions=_appSuggestedActions;

@@ -5,7 +5,8 @@
 //
 
 @protocol UIKeyboardPinchGestureRecognizerDelegate
-- (void);
-- (void)ornerStyle;
+- (_Bool)the bitmap data node array.;
+- (void)rController;
+- (void)*þÿ;
 @end
 

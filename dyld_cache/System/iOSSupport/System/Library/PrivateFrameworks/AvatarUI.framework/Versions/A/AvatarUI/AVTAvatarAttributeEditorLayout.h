@@ -36,14 +36,14 @@
 - (double);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
-- (struct CGSize);
-- (void);
-- (id);
-- (id);
-- (double)9Q;
 - (struct UIEdgeInsets);
+- (id);
+- (double);
+- (struct CGSize);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool RTL; // @synthesize RTL=_RTL;

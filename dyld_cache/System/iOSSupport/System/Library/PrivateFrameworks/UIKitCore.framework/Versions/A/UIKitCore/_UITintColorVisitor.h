@@ -16,10 +16,11 @@ __attribute__((visibility("hidden")))
     UIView *_changedSubview;
 }
 
-- (id);
 - (_Bool);
-- (id)1¢Ü¦F(ª\«#À®°;
-- (_Bool)edly missing searchBar in %s;
+- (id);
+- (_Bool)
+× ;
+- (id)fectiveSecondaryItemIdentifiers;
 
 @end
 

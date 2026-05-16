@@ -28,7 +28,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ect a value for this menstruation sample.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *blogId; // @synthesize blogId=_blogId;

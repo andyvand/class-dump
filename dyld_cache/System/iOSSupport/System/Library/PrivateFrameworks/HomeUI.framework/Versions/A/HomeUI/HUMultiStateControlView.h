@@ -15,7 +15,7 @@
     UISegmentedControl *_segmentedControl;
 }
 
-+ (Class)Ètûÿ;
++ (Class)e:detailText:symbolName:contentLayout:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -28,10 +28,10 @@
 - (void);
 - (id);
 - (id);
-- (id)te: /* Error: Ran out of types for this method. */;
-- (void)r:(id)arg1;
-- (_Bool)n;
-- (void)ö"];
+- (id);
+- (void)Identifier;
+- (_Bool)¼ÿú0à;
+- (void)ÿãbÿ´û;
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted;

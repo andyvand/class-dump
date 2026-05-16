@@ -14,12 +14,12 @@
 
 + (id);
 + (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (long long);
 - (void);
-- (long long).ÿÿ_p;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long level; // @synthesize level=_level;

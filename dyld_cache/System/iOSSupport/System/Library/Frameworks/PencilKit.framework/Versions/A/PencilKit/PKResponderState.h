@@ -16,14 +16,14 @@
 - (long long);
 - (void);
 - (void);
-- (void)encodeObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (long long);
 - (id);
-- (void);
-- (id)gConcrete",&,N,V_drawing;
-- (id)ä®Üÿj~*÷7;
+- (id);
+- (void)oupQuery",&,N,V_strokeGroupQuery;
+- (id)ËË-;
 
 // Remaining properties
 @property(nonatomic) __weak UIResponder *_responder; // @synthesize _responder=__responder;

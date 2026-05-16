@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSession;
-
 @protocol NSURLSessionDelegate
 
 @optional
-- (void)iew:(NSURLSession *)arg1;
-- (void)etServiceBuilder:(NSURLSession *)arg1;
+- (void)Á¯ð!ÈEùñ°1â
+0@ù
+× ;
 @end
 

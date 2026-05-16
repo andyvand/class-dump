@@ -30,7 +30,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)Account"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

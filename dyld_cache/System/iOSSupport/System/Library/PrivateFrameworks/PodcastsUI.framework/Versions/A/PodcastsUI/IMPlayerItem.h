@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVURLAsset, IMAVSecureKeyLoader, IMPlayerArtwork, IMPlayerManifest, MPArtworkCatalog, MPNowPlayingContentItem, MTEpisode, NSArray, NSDate, NSManagedObjectID, NSObject, NSString, NSURL, NSUUID;
+@class AVURLAsset, IMAVSecureKeyLoader, IMPlayerArtwork, IMPlayerManifest, MPArtworkCatalog, MPNowPlayingContentItem, MTEpisode, NSArray, NSDate, NSDictionary, NSManagedObjectID, NSObject, NSString, NSURL, NSUUID;
 @protocol OS_dispatch_queue;
 
 @interface IMPlayerItem
@@ -109,7 +109,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -159,64 +159,66 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool)C;
+- (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
 - (void);
-- (id)foCG;
+- (long long);
+- (_Bool);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (double);
 - (void);
 - (void);
 - (void);
+- (id);
 - (unsigned long long);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (long long)ÿS;
+- (void)´×GGGGG¢R
+yAdKGGGG;
+- (void)ÿÿB;
+- (long long):%f),  /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)";
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)reKit17LocalizerProtocolP;
-- (void);
-- (_Bool);
-- (void)_	;
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (double);
-- (void);
-- (_Bool)shouldShowConfirmation;
-- (id)ewC;
-- (void);
-- (long long)SGõ 	G¯ 	_pGAAy_ABy_?)y_AAy_¼)y_AAy_ABy_ACy_ADy_SayRõGAFGAH_pG|(y_Íùy7*ySDy	ypGAH_pG_So17OS_dispatch_queueCQo_AMGGSSGGShySSGGH,yAeH_p_GG2)y_sùy+y:G_AVQo_AEGGAEGG»öG /* Error: Ran out of types for this method. */;
-- (void);
-- (long long)%d;
-- (id)e;
-- (long long)n23EpisodeDownloadsRemover_;
-- (_Bool)6m;
+- (id);
+- (id)Ë);
+- (void)º5;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *album; // @synthesize album=_album;
@@ -224,6 +226,7 @@
 @property(nonatomic) _Bool areChaptersLoaded; // @synthesize areChaptersLoaded=_areChaptersLoaded;
 @property(nonatomic) _Bool areChaptersLoading; // @synthesize areChaptersLoading=_areChaptersLoading;
 @property(retain, nonatomic) MPArtworkCatalog *artworkCatalog; // @synthesize artworkCatalog=_artworkCatalog;
+@property(nonatomic, readonly) NSDictionary *artworkInfo;
 @property(copy, nonatomic) NSURL *artworkUrl; // @synthesize artworkUrl=_artworkUrl;
 @property(retain, nonatomic) AVURLAsset *asset; // @synthesize asset=_asset;
 @property(copy, nonatomic) NSString *author; // @synthesize author=_author;

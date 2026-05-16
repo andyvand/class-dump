@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)tcher sendClearNotice:(long long)arg1 toHandles:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)nstRecipients:(id)arg1 trustLocalChat:error: /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
 
 @end
 

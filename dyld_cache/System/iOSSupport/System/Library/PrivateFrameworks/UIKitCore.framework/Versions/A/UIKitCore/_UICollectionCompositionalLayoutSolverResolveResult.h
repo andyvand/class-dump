@@ -17,21 +17,19 @@ __attribute__((visibility("hidden")))
     struct CGPoint _contentOffsetAdjustment;
 }
 
-- (_Bool);
 - (id);
 - (id);
-- (struct CGPoint)delPropertySharedListeningParticipantArtwork;
-- (void)ß£	º;
-- (void)°!0GùQÃ°1¢!0@ù
-× ;
-- (id)!0@ù
-× ;
-- (void)angeHysteresis"b1"trackingDidEnd"b1"updateSectionForTouch"b1"highlightStyleUpdated"b1"indexColorUpdated"b1"legibilityWeightOrPreferredContentSizeUpdated"b1};
-- (id)erDidToggleSidebar:(id)arg1 source: /* Error: Ran out of types for this method. */;
-- (void)ut:(id)arg1 estimatedHeightForFooterInSection:(id)arg2;
-- (id)cusedFloatingContentView;
-- (id)_triggeredByLongPress;
-- (void)hotProvider;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (struct CGPoint)m:atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)der",W,N,V_originalParentFirstResponder;
+- (void)èk¾ÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffsetAdjustment; // @synthesize contentOffsetAdjustment=_contentOffsetAdjustment;

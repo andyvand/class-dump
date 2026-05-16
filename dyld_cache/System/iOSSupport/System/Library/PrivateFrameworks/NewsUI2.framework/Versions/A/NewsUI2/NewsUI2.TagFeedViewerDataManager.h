@@ -11,21 +11,24 @@
     MISSING_TYPE *delegate;
     MISSING_TYPE *$__lazy_storage_$_unavailableItemAlpha;
     MISSING_TYPE *cloudContext;
+    MISSING_TYPE *feedDescriptor;
     MISSING_TYPE *tagService;
     MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *subscriptionController;
+    MISSING_TYPE *subscriptionService;
     MISSING_TYPE *commandCenter;
     MISSING_TYPE *membershipController;
     MISSING_TYPE *sportsGraphManager;
     MISSING_TYPE *sportsDataService;
+    MISSING_TYPE *localDataManager;
     MISSING_TYPE *offlineManager;
+    MISSING_TYPE *featureAvailability;
     MISSING_TYPE *topLevelSportsTags;
     MISSING_TYPE *_request;
 }
 
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

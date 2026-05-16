@@ -21,8 +21,8 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)tSlotID;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;

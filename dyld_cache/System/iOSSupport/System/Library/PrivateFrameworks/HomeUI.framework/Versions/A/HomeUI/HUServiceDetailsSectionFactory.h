@@ -13,7 +13,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)rForAddingDestinationWithType:andProceed:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType customComparator; // @synthesize customComparator=_customComparator;

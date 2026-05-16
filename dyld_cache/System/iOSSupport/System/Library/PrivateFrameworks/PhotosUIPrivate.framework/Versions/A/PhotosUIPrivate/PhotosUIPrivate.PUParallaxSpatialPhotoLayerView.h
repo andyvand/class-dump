@@ -33,18 +33,18 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (double);
-- (id);
+- (void)ng;
 
 // Remaining properties
 @property(nonatomic) double backlightProgress; // @synthesize backlightProgress;

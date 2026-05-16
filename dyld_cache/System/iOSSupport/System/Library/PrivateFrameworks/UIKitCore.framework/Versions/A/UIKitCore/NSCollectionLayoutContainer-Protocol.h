@@ -5,8 +5,9 @@
 //
 
 @protocol NSCollectionLayoutContainer
+- (struct NSDirectionalEdgeInsets)ocusMoveTestDataSource>";
 - (struct CGSize);
-- (struct CGSize)IKit.m;
+- (struct CGSize)¸;
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSDirectionalEdgeInsets contentInsets;

@@ -22,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void)!;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,9 +34,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void)ndingRect;
+- (id)24;
+- (void)databaseStore;
+- (void)ÌÔ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;

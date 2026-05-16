@@ -14,13 +14,13 @@
     id _delegate;
 }
 
-+ (id)ellAtIndexPath:(id)arg1;
++ (id);
 - (void);
-- (void)legateOfUpdatedBalloonViewFrame;
-- (void)AnimationsForIMChatItems:inserted:removed: /* Error: Ran out of types for this method. */;
-- (void)ickActionButtonRemoval;
 - (void);
-- (id)tudeBuckets;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 
 @end

@@ -55,53 +55,52 @@
 }
 
 + (Class);
-+ (Class)paratorColor_UICollectionLayoutListAppearancePlain;
-- (id)t:(id)arg1;
-- (void)leDictionary",&,N,V_pendingRequests;
-- (void)T@"NSMutableDictionary",&,N,V_mutablePersistentProperties;
-- (void)utableDictionary",&,N,V_handledNicknames;
++ (Class)ityUserInputLabelsBlock;
+- (id);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)CKRecord in zone %s for tombstone dictionary %s;
-- (id)%ld;
-- (id)date:%f, with onetime passcode:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (id)d to:%d /* Error: Ran out of types for this method. */;
-- (id)error:(id)arg1 %@ %@;
-- (_Bool)ecause it is nil %@;
-- (_Bool)ferName (%@) and transfer:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)o chat's account's loginID:%@ /* Error: Ran out of types for this method. */;
-- (double)equest;
-- (id)eWhitelist;
-- (id)from Peer Device;
-- (long long)ordID:(long long)arg1 %@
-error:%@ /* Error: Ran out of types for this method. */;
-- (long long)ickname for %@;
-- (long long)24@?0@"NSArray"8B16I20;
-- (id)@"NSArray"8@"NSString"16@"NSError"24B32B36;
-- (id)backwards-compat-enabled-adaptive-image-glyphs;
-- (struct UIEdgeInsets)duled message send;
-- (void)nNoticeDispatcher unarchiveNoticeTransmissionEvent:(id)arg1 ];
-- (id)romID:context:] /* Error: Ran out of types for this method. */;
-- (_Bool)cord;
-- (_Bool)tedCloudStorage.PendingKeyRoll;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (double);
+- (id);
+- (id);
+- (long long);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)ovider;
-- (_Bool)re;
-- (_Bool)ncController;
-- (_Bool)duledMessageStore;
-- (_Bool);
 - (_Bool);
-- (_Bool)rors;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -112,12 +111,12 @@ error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct _NSRange);
-- (_Bool)I;
+- (_Bool);
 - (struct UIEdgeInsets);
 - (double);
 - (struct UIEdgeInsets);
 - (double);
-- (_Bool)K;
+- (_Bool);
 - (struct UIEdgeInsets);
 - (double);
 - (struct UIEdgeInsets);
@@ -178,95 +177,100 @@ error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
+- (id);
 - (_Bool);
 - (double);
 - (double);
 - (id);
-- (_Bool)P;
-- (id);
+- (_Bool);
 - (long long);
-- (struct UIEdgeInsets)token dictionary;
+- (struct UIEdgeInsets);
 - (struct CGRect);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void)dEnforced;
-- (void)nts;
-- (id);
-- (id)";
-- (_Bool)UnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16;
-- (_Bool);
 - (double);
-- (double)entation"@"NSError">24;
-- (id)orAnalysis;
-- (void)N,V_playActivityQueueGroupingID;
-- (struct CGSize);
-- (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void);
-- (id);
-- (void)
-0º;
-- (_Bool)1¢!0@ù
-× ;
-- (void)Ap!dAùñÂ1¢!0@ù
-× ;
-- (double)
-× ;
-- (id)!0@ù
-× ;
-- (void);
-- (id);
-- (_Bool);
-- (void)32@0:(id)arg1 8@"UIColor"16q24;
-- (void)0:8d16q24@32B40 /* Error: Ran out of types for this method. */;
-- (double)s=dddd}32;
-- (id);
-- (long long)stionWithInputText:(id)arg1 searchText:customInfoType: /* Error: Ran out of types for this method. */;
-- (long long)ayoutPreferenceChanges;
-- (id)ontrollerForPreferredContainerBackgroundStyle;
-- (double)adjustsFontSizeToFitWidth;
-- (_Bool)him_popForCarplayPressAtFakePoint:(id)arg1;
-- (void)eadableWidth;
-- (id)withEvent: /* Error: Ran out of types for this method. */;
-- (void)OnViewController:(double)arg1;
 - (double);
-- (void)ing;
-- (id)deMatchPatternStrings:(id)arg1 excludeMatchPatternStrings:(struct CGPoint)arg2 injectedFrames: /* Error: Ran out of types for this method. */;
-- (void)_addSubscriberForFileURL:(id)arg1 withPublishingHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)_hidEvent;
-- (id)N,V_dataChanged;
-- (void)ø-;
-- (void)P``;
-- (_Bool)4l;
-- (id)xËþÿ;
-- (id)SolariumNewStackedImageRendering3DTransformedGlassLayer;
-- (id)to -application:handleActionWithIdentifier:forLocalNotification:completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (id)image=%@ frame=%@>;
-- (void)n compatibility with previous iOS before 8;
-- (id)î2¹&4ÈP;
-- (id)þ([;
-- (void);
-- (id)ùÑb;
-- (double)Ätñþh0×ºe;
-- (_Bool)Äf;
-- (void)ì²ÿÉk;Óh;
-- (id)Èz>i;
-- (struct UIEdgeInsets)þ	ÚÎ¥Fl;
-- (_Bool)l;
-- (_Bool)0½Aÿ;
 - (_Bool);
-- (void)µ×þ;
-- (id)Ön;
-- (long long)ÿÑÚlo;
-- (void)ÿ~Ðãn;
-- (id)\©Öñn;
 - (void);
-- (id)fÞ{o;
+- (_Bool);
+- (void);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (id);
+- (id);
+- (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)1Â0@ù
+× ;
+- (id)A;
+- (_Bool)
+× ;
+- (_Bool)Q^1Â0@ù
+× ;
+- (id);
+- (void)0@ù
+× ;
+- (_Bool)!tEùqfð1Â0@ù
+× ;
+- (void)ing:(id)arg1 withString:(id)arg2;
+- (id)ewController:(id)arg1;
+- (id);
+- (double)etFixedTrailingGroup: /* Error: Ran out of types for this method. */;
+- (void)SuggestionsForWebBrowserView:(_Bool)arg1;
+- (id)wsAlternateIcons;
+- (void)entationControllerUserActivityForTearOff:(id)arg1;
+- (double)y: /* Error: Ran out of types for this method. */;
+- (void)berSpacing;
+- (long long)tView;
+- (double)ardItemContainerView",&,N,V_containerView;
+- (void)?,N,V_button;
+- (id),þøþ;
+- (double)E@F;
+- (_Bool)@Ñ0VJhÑÈVJÑ@YJàÑ ZJüÑ[JÑè[J4Ñ^JPÑ_J`ÑLaJxÑ¬aJÑ(bJÑbJ¨ÑcJ¸ÑlcJÈÑðcJØÑdJôÑ(eJÑ(gJXÑXkJÑ°kJ,Ñ¸mJlÑ4nJ|ÑoJÑPpJ¼ÑÔpJÌÑ\sJÑôtJLÑvJhÑvJxÑyJÄÑ´zJøÑJÑtíJ0ÑÜïJDÑ<KXÑPHK8Ñ¸·K`ÑÅK|Ñ`ÈKÑ8ÉK¤ÑL¸ÑLLèÑ4ILDÑìYLÑLL¤ÑìL¸ÑLüÑP LÑçL0Ñ`èL`Ñ´éLÑëLÀÑäëLÔÑìLèÑ4íLüÑÄîL0ÑpMDÑ+MXÑ±MôÑÜØM$ÑX N8Ñ0¨NLÑ<¾N\ÑôéNÑ ìN°Ñø
+OÄÑ¨qOÑèªOdÑ8PxÑPvP<ÑDPLÑt¡PlÑÄ¦PÑÎP¤ÑìÕPtÑ0Q ÑQ0 ÑRx ÑtR Ñp}R  Ñ8MSÈ ÑS8¡Ñ8åS¡Ñ¬ Tô¡Ñ°XT¢Ñ0\TÈ¢ÑìpT£Ñ$ÆT£Ñ<ÊT<£ÑôÏTX£ÑÔTt£Ñ äT£Ñ°	UÄ£ÑtUØ£ÑÈUð£ÑÔ(UÄ¤ÑÜ*Uè¤ÑRU¥Ñ]U4¥ÑrUp¥ÑPuUÌ¥ÑÐzUT¦ÑdUh¦ÑÐUÌ§Ñ¸Uì§ÑU¨Ñð¨UH¨Ñd»Ut¨ÑüÅU¤¨ÑüÇUì¨ÑHàU,©ÑðâUl©ÑàïU©ÑøVì©ÑP,V ªÑÄ4VtªÑ8V¬ªÑ·VàªÑü¿VôªÑ¸#W(«Ñ¼OW`«ÑpQWt«ÑphW«Ñü®W «Ñ|äW´¬Ñ¸XÈ­Ñ;
+- (id);
+- (void)fter animation finishes, %p
+	uuid=%@ state=%@;
+- (struct CGSize)t. Search Bar layout may be incorrect. Please send to UIKit for investigation, and include the following recursive description.
+%@;
+- (void);
+- (id)or UIPopoverArrowDirectionUnknown.;
+- (void)lassView.liftedContentWarpWrapper;
+- (id)Ì;
+- (_Bool)7y¹;
+- (id)»»ë??rrrrrrâ?Ú?Ë?p?222222â?ZZZZZZê?[[[[[[ë?ÒÑÑÑÑÑÑ?uuuuuuå?»ºººººê?{{{{{{ë?ç?XXXXXXè?ttttttä?å?ÙØØØØØØ?Ö?______ï?Ó?¤??Ház®GÑ?q=
+×£pÝ?×£p=
+×ã?Á?;
+- (void);
+- (id);
+- (void)8i'ÿ;
+- (_Bool)a;
+- (void)oþ";
+- (id);
+- (_Bool)@ðh;
+- (void)l&i;
+- (id)¹]j;
+- (id);
+- (id)´Dl;
+- (void)a;
+- (struct UIEdgeInsets);
+- (id);
+- (void)(;
+- (id)àËSÿ;
+- (long long)sÉzp;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_contentInset) struct UIEdgeInsets _contentInset;

@@ -12,8 +12,9 @@
 }
 
 - (struct UIEdgeInsets);
-- (void);
-- (id);
+- (void)ÜÐÞüßtà$áÀá
+ãä\ä´åTæÌæTçèÜé;
+- (id)iesDidPerformReturnNotification;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

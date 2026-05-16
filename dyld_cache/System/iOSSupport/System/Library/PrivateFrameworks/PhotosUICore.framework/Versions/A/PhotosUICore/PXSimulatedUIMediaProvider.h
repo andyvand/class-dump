@@ -18,10 +18,10 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
 - (id);
-- (id)`N;
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;

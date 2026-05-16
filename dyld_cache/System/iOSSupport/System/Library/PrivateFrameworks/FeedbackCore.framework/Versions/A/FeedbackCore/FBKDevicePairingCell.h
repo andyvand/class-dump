@@ -21,13 +21,13 @@
 + (double);
 - (void);
 - (void);
+- (id);
 - (double);
+- (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);

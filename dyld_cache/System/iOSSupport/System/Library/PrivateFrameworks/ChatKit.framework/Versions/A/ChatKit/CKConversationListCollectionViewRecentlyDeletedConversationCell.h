@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)aseView;
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)Controller registerForRemoteControlEvents];
+- (_Bool);
 - (unsigned long long);
 - (id);
 

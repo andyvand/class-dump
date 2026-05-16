@@ -5,6 +5,5 @@
 //
 
 @protocol IMDaemonSyncedSettingsProtocol
-- (void);
 @end
 

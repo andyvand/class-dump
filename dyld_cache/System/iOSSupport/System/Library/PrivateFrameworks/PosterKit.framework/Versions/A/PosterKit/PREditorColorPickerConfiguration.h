@@ -25,45 +25,46 @@
 }
 
 + (_Bool);
-+ (_Bool)Identity:options: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
++ (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditorColorPalette *colorPalette; // @synthesize colorPalette=_colorPalette;

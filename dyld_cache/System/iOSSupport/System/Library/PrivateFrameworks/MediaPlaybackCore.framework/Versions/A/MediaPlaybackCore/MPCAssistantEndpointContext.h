@@ -22,13 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)tap [download playback] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

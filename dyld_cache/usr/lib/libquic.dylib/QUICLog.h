@@ -23,37 +23,37 @@ __attribute__((visibility("hidden")))
 + (int);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
-+ (id)_A;
 + (id);
-+ (id):(int)arg1 options:permanent: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)T ;
-- (id)A;
-- (void);
-- (void);
-- (void)h	;
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (struct quiclog_event *);
 - (id);
 - (id);
-- (id);
-- (id)%;
-- (id)%;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -62,8 +62,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct quiclog_event *);
 - (void);
+- (id);
 - (void);
-- (id)[right];
 
 @end
 

@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_constraintsByKey;
 }
 
-- (_Bool)%@;
-- (id)cloud settings toggle;
-- (void)ect>"8;
-- (void)!tDùqÃð1¢!0@ù
-× ;
-- (id)V_object;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

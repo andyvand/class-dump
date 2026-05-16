@@ -13,12 +13,12 @@
 - (double);
 - (void);
 - (double);
-- (id);
-- (id);
 - (void);
-- (void)5;
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (void)´åTæÌæTçèÜé;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;

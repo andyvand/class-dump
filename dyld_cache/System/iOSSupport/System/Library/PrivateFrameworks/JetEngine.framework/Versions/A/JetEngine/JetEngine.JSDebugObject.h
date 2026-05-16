@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void)n;
+- (void);
+- (void)cM;
 
 @end
 

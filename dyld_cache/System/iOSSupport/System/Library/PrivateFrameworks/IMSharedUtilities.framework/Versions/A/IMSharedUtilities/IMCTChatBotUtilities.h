@@ -9,8 +9,10 @@
 }
 
 + (_Bool);
++ (void);
++ (_Bool);
 + (id);
-- (id);
+- (id);
 
 @end
 

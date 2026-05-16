@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void)redUI.WBSMobileAssetController.internalQueue;
-- (id);
+- (void);
+- (id)esafari._SFSearchEngineController;
 
 // Remaining properties
 @property(readonly, nonatomic) WKNavigationAction *navigationAction; // @synthesize navigationAction=_navigationAction;

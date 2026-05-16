@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UIViewControllerInteractiveTransitioning;
+
 @protocol UINavigationControllerDelegate
+
+@optional
+- (void)1â
+0@ù
+× ;
+- (id <UIViewControllerInteractiveTransitioning>)corationIconDescriptor;
 @end
 

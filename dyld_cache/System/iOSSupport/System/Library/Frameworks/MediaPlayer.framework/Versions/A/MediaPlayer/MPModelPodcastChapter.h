@@ -12,16 +12,16 @@
 {
 }
 
-+ (id)rsion;
-+ (id)ndles;
-+ (id)arkTimestamp;
-+ (id)e;
-+ (void)orrectedText;
-+ (void)V_context;
-+ (void),R,C,N,V_clipBundleID;
-+ (void),C,N,V_childID;
-+ (void)R,C,N,V_bundleID;
-+ (id)ream;
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @dynamic URL;

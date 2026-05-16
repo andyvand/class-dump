@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)Home.Onboarding.Utility.Error.DoneButton;
 
 // Remaining properties
 @property(nonatomic, retain) HMHome *home;

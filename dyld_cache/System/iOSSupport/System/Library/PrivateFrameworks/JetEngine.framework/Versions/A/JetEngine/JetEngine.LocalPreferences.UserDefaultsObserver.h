@@ -11,9 +11,9 @@
     MISSING_TYPE *preferences;
 }
 
-- (void);
 - (id);
-- (void)P;
+- (void);
+- (void);
 
 @end
 

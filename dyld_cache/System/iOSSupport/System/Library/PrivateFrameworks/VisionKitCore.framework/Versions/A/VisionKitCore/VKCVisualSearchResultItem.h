@@ -27,20 +27,19 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (struct CGRect);
+- (id);
 - (id);
 - (void);
-- (struct CGRect);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id)DùñM1B0@ù
-× ;
-- (void)0@ù
+- (void)0@ù
 × ;
 
 // Remaining properties

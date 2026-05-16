@@ -19,13 +19,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (id);
 - (void);
-- (id)ldViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool clearButtonHidden; // @synthesize clearButtonHidden=_clearButtonHidden;

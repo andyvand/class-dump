@@ -7,11 +7,6 @@
 @class NSString;
 
 @protocol CKSearchResultCell
-- (void)cate;
-- (void)eAuthorHighlightUpdates;
-- (struct UIEdgeInsets)dateRangeMapping:withinRange: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)a;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

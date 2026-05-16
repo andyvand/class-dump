@@ -14,24 +14,24 @@ __attribute__((visibility("hidden")))
 + (id);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool)etPlainTextSubject:(id)arg1;
-- (_Bool)elineResources:(id)arg1;
-- (_Bool);
-- (_Bool)onCentricGroupedChatsCache:(id)arg1;
-- (void)ReplicationSessions;
-- (_Bool)edWithProperties:(id)arg1 fromLocalChange: /* Error: Ran out of types for this method. */;
-- (_Bool)dleFileTransferForStickerRepositionWithGUID:(id)arg1 updatedWithProperties:fromLocalChange: /* Error: Ran out of types for this method. */;
-- (id)roperties:(id)arg1 isStickerReposition:repositionedLocally: /* Error: Ran out of types for this method. */;
-- (_Bool)RL:(id)arg1;
-- (double)on:(long long)arg1;
-- (id)FileTransfers:(long long)arg1;
-- (id)verySync;
 - (_Bool);
 - (_Bool);
-- (void)dableUTIs called with resourcePath %@;
-- (_Bool);
-- (struct CGSize)tingBarContentAnimated:(id)arg1;
-- (void)o apply deferred symbol effects (effect=%@, options=%@, animated=%s);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (double);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGSize)n;
 
 @end
 

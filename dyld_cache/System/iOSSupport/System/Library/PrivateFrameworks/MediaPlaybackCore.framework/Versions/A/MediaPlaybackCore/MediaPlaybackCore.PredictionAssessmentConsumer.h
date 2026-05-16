@@ -14,12 +14,12 @@
 
 + (void);
 + (unsigned int);
-+ (void);
++ (void);
 + (id);
-- (void)pletion:(id)arg1;
-- (void)eacon:(id)arg1 withIndex:completion: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (void){public}@;
 
 @end
 

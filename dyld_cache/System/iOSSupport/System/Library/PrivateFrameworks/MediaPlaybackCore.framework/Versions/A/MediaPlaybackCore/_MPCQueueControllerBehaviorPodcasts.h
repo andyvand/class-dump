@@ -24,21 +24,21 @@
     id <MPCQueueControllerBehaviorHost> host;
 }
 
-+ (_Bool)blic}@;
++ (_Bool);
 + (id);
 + (void);
 + (_Bool);
 - (id);
 - (void);
-- (void):(_Bool)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
-- (id)24;
+- (void);
+- (id);
 - (long long);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void)ToSelector:(id)arg1;
-- (void)rAccount:(id)arg1;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -46,8 +46,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long)ccount:%@, newAccount:%@, changeType:%@, didSignIn:%@, didSignOut:%@, wasModified:%@ } /* Error: Ran out of types for this method. */;
-- (void)ype for IDS identifier { identifier:(id)arg1 %@ };
+- (long long);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,25 +57,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)T;
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)ccountModified;
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id)%{public}@];
-- (void)quested %@ -> %@;
-- (void)nd with outgoingItem:(id)arg1;
+- (void)ionDuration:(id)arg1;
+- (void)etion:additional loading skipped [data source loading or frozen] - _frozen=%{BOOL}u _state=%{public}ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsQueueModifications; // @synthesize allowsQueueModifications;

@@ -5,6 +5,5 @@
 //
 
 @protocol NSCopying
-- (id)notDecodeObjectOfClassName:(struct _NSZone *)arg1 originalClasses: /* Error: Ran out of types for this method. */;
 @end
 

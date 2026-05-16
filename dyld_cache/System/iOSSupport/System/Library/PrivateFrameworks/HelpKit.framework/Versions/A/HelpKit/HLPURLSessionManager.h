@@ -56,19 +56,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)ath;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURLSession *URLSession; // @synthesize URLSession=_URLSession;

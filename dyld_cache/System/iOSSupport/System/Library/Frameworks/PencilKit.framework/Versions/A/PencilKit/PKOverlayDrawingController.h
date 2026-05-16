@@ -19,17 +19,17 @@
     UIView *_view;
 }
 
-- (id)eoutIntervalForResource:(id)arg1;
-- (void)alEndpointTimeoutDuration:(id)arg1;
-- (void)legate:(id)arg1;
-- (double)romVersion:(id)arg1;
-- (void)ue;
-- (void)d;
-- (void)iled with HTTP status code:(id)arg1 %{public}ld;
-- (void)ic}@);
-- (void)y"8;
-- (void)Device;
-- (void)-value store plist with error:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -46,17 +46,17 @@
 - (void);
 - (void);
 - (void);
-- (void)3W;
-- (void);
-- (id);
-- (void):%li /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void)_%d.png;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *drawingViewResultMap; // @synthesize drawingViewResultMap=_drawingViewResultMap;

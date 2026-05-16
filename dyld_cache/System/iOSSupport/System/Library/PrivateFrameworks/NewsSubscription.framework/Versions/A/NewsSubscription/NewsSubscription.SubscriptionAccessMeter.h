@@ -13,6 +13,7 @@
     MISSING_TYPE *puzzleHistory;
     MISSING_TYPE *purchaseProvider;
     MISSING_TYPE *bundleSubscriptionManager;
+    MISSING_TYPE *paidAccessChecker;
     MISSING_TYPE *offeredBundlePurchaseIDs;
     MISSING_TYPE *aLaCarteSubscriptionMeteredCountMaxLimit;
     MISSING_TYPE *bundleSubscriptionMeteredCountMaxLimit;

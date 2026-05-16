@@ -12,11 +12,11 @@
     MISSING_TYPE *imagePlaygroundBackgroundImageView;
 }
 
-- (void);
-- (id)E;
-- (void);
+- (id);
 - (void);
 - (id);
+- (void)tachments: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

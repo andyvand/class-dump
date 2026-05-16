@@ -15,8 +15,7 @@
     long long _selectedIndex;
 }
 
-+ (_Bool)á~!,Bùñ|°1b0@ù
-× ;
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -24,13 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (void)ö4¤;
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (void);
 - (long long);
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *inputSourceIDs; // @synthesize inputSourceIDs=_inputSourceIDs;

@@ -12,11 +12,12 @@
 }
 
 + (id);
-- (void):(id)arg1;
-- (void);
+- (void)ù
+× ;
 - (id);
-- (id);
-- (void)DefaultsLocationManagerBypassPreprocessor;
+- (void)IMonitorEnabler",&,N,V_bluePOIMonitorEnabler;
+- (id)Monitor;
+- (void)vg,%{public}.3lf,dtwForUnmatchedTripAvg,%{public}.3lf,routeLengthAvg,%{public}.3lf,tripsToFormLearnedRouteAvg,%{public}.3lf,waypointCountAvg,%{public}.3lf,clusterProcessingRunTimeAvg,%{public}.3lf;
 
 // Remaining properties
 @property(retain, nonatomic) RTMapItemMO *cachedMapItem; // @synthesize cachedMapItem;

@@ -10,13 +10,13 @@
 
 - (void);
 - (_Bool);
-- (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)roviders:(id)arg1;
-- (_Bool)nstraint",&,N,V_shapeButtonWidthConstraint;
-- (_Bool)0T;
+- (void)ent:(id)arg1;
 
 @end
 

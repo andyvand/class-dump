@@ -24,7 +24,7 @@
 + (void);
 + (id);
 + (id);
-+ (_Bool)¸@;
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -47,20 +47,20 @@
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)emped to add nil node;
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)8@0:8@16(_GLKMatrix4={?=ffffffffffffffff}[16f])24 /* Error: Ran out of types for this method. */;
+- (id)onstraint;
 
 // Remaining properties
 @property(retain, nonatomic) SKTileGroup *defaultTileGroup;

@@ -34,7 +34,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,10 +42,7 @@
 - (void);
 - (id);
 - (id);
-- (void)C;
-- (id);
-- (void)^;
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -53,6 +50,9 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -61,19 +61,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool)icationAppActivityMonitorMacOS;
-- (struct CGRect)p;
+- (void);
+- (_Bool);
+- (struct CGRect);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)P;
+- (id);
 - (void);
-- (id)!Gùñ£ð1¢!0@ù
-× ;
-- (void)atus:(id)arg1 subscribed; 
-;
+- (void);
+- (void)16;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

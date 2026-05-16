@@ -15,29 +15,29 @@
     NSMutableArray *_titleViewUpdateStack;
 }
 
-- (void),;
-- (void);
-- (void);
-- (void)uffer>";
-- (id)Dest:atCharIndex:dolcContext:undoTransaction: /* Error: Ran out of types for this method. */;
-- (void)ndFontRunIndexForLocalCharIndex(TSWPCharIndex) const;
 - (id);
-- (id);
-- (void);
-- (void)sedPaywallContentData;
-- (void);
-- (void)P;
-- (void);
-- (id);
+- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

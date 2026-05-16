@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void),;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_queue_historyStringsKeyedByLogger; // @synthesize _queue_historyStringsKeyedByLogger=__queue_historyStringsKeyedByLogger;

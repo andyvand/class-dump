@@ -11,9 +11,9 @@
     MISSING_TYPE *label;
 }
 
-- (id);
+- (id);
+- (id);
 - (void);
-- (id)§þ;
 
 @end
 

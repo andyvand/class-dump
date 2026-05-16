@@ -4,14 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TSDMTLDataBuffer;
-
 @protocol TSDMTLDataBuffer
-+ (id <TSDMTLDataBuffer>);
-+ (id <TSDMTLDataBuffer>);
-+ (id <TSDMTLDataBuffer>);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long centerAttributeIndex;

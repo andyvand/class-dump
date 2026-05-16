@@ -7,11 +7,9 @@
 @class NSData, NSDate, NSNumber, NSString;
 
 @protocol PXDisplayAsset
-- (unsigned long long)ment;
 
 @optional
-- (NSNumber *);
-- (NSNumber *)yÓÿÿyxq_Gc18needsUpdateHandler_t;
+- (double)Ù?;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

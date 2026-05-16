@@ -21,7 +21,7 @@
 }
 
 - (int);
-- (int);
+- (int);
 - (unsigned int);
 - (id);
 - (id);
@@ -30,9 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
-- (id);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

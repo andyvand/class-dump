@@ -13,11 +13,11 @@
     CKOrganicImageLayoutRecipe *_layoutRecipe;
 }
 
-- (void)534566;
-- (id),;
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void),ü;
 
 // Remaining properties
 @property(retain, nonatomic) CKOrganicImageLayoutRecipe *layoutRecipe; // @synthesize layoutRecipe=_layoutRecipe;

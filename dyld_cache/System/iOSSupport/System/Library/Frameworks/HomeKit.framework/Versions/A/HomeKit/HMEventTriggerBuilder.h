@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)q;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionSets;

@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)eraction;
+- (id)rection;
+- (void)@ëzþe23¬SvþU23Svþ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isManual) _Bool manual; // @synthesize manual=_manual;

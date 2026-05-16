@@ -9,10 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)ompatible gizmo. Bailing quick switch. localDBVersion %ld gizmoDBVersion %ld;
-+ (id)ade request to %@ expired on %@, clearing;
 + (void);
-+ (void);
++ (id);
++ (void)!øGùñc°1Â0@ù
+× ;
++ (void)pellingCorrection:(id)arg1;
 
 @end
 

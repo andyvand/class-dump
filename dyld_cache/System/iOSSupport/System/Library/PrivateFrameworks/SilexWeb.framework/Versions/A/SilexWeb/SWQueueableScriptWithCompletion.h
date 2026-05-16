@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
-- (id);
 - (CDUnknownBlockType);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

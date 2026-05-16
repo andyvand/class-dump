@@ -11,12 +11,12 @@
     SXComponentTypeMatching *_factoryMatching;
 }
 
-- (id)u;
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void)Controller"16@"<SXFullscreenCanvasShowable>"24Q32;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

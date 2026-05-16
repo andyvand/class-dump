@@ -17,7 +17,7 @@
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (id);
-- (void)P;
 - (id);
+- (void)ByReplacingHomoglyphForSpaceWithSpace;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalReadAccessAllowedURLs; // @synthesize additionalReadAccessAllowedURLs=_additionalReadAccessAllowedURLs;

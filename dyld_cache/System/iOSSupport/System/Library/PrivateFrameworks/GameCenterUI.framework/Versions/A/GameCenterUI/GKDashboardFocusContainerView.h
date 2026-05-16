@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (id);
 - (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic) UIView *focusView; // @synthesize focusView=_focusView;

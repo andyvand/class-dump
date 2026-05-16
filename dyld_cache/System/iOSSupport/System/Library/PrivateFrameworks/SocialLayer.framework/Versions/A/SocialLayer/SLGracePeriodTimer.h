@@ -18,13 +18,13 @@
 
 + (id);
 - (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)om.apple.SharedWithYou;
 
 // Remaining properties
 @property(readonly, getter=isValid) _Bool valid;

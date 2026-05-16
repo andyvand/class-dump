@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)meration:accessoryIconForPossibleState: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *)on: /* Error: Ran out of types for this method. */;
+- (_Bool)1B50@ù
+× ;
+- (struct _NSZone *)ÿ@ü·ÁÒkå{C¿=°KÆÛµæÀcUÈ¡n-J(JÅqoÃÌÂC¸ñCl<	_ÝíPè/~À×¿PûZÐÒG§.Q>¿p¯ÃX.0_ÄÃ|r´
+ï­ý®*,]Ié¸ÚP ô'W¬I´oyÜR}½ï}Yr¦Ø@¨­EõEt]úÃ>èuOÂiVAéï#.ñ©ò'`¶ävteý²yËÛvvw¯ø÷HNßmaâ}/Èå4¶»H±´«<0ï(¯O¯wVÜ M"ª7Ü)}ÜÓV'î|@Òµã|Àç¡´få^aéÃ ø<ãÑ`A£ÍFv\;ê;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

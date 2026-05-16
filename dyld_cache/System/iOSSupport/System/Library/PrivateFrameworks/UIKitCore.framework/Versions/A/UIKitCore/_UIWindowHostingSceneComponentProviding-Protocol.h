@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScene, UIScreen;
-@protocol _UISceneUIWindowHosting;
-
 @protocol _UIWindowHostingSceneComponentProviding
 
 @optional
-- (void)dRequiredOnlyWithContext:(UIScene<_UISceneUIWindowHosting> *)arg1 withPaths:(UIScreen *)arg2;
-- (void);
+- (void)0@ù
+× ;
 @end
 

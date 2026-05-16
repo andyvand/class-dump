@@ -28,10 +28,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void)11Coordinator;
+- (id)teRequiredController;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

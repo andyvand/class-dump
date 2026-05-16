@@ -15,13 +15,13 @@
 }
 
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)teSegmentedControlEnabled;
-- (id)itivityInterventionManager;
-- (void)\!ÿÿ;
+- (void);
+- (void);
+- (id):"%@" /* Error: Ran out of types for this method. */;
+- (void)a	É;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

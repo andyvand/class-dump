@@ -18,25 +18,24 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (id):fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (id)Ratio;
+- (id);
 - (void);
+- (id);
+- (id)0@ù
+× ;
 - (_Bool);
-- (_Bool)b:forCellReuseIdentifier: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)Áw°! @ùñÌ°1¢!0@ù
-× ;
-- (id):(struct CGPoint)arg1 8r^I16Q24{CGRect={CGPoint=dd}{CGSize=dd}}32;
-- (id)HandwritingQuadCurvePointFIFO";
-- (id)e;
-- (_Bool)ÖÊ	ûd;
-- (_Bool)ÿ;
-- (void)¸kÚ¹üi;
+- (id)nputModes:(id)arg1;
+- (id)ent;
+- (void)7;
+- (id)Ô!;
+- (_Bool)laneSwitchActiveGradientEnd;
+- (void)handle estimated items so this method does nothing. Are you calling this in error?;
+- (_Bool)B961B57EBA158E8356A5AC0B1FLLC8DelegateP;
+- (void)ä«!ÿ;
+- (_Bool)7ÑLOh;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_sceneContainerView; // @synthesize _sceneContainerView;

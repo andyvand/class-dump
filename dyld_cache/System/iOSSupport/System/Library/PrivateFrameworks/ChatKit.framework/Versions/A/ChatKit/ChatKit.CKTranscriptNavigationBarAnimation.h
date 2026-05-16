@@ -11,12 +11,12 @@
     MISSING_TYPE *animation;
 }
 
-+ (id)t;
 + (id);
-- (void);
-- (void);
++ (id);
+- (double);
 - (id);
-- (double)ÐY¼;
+- (void);
+- (void)lÿ3	8/;
 
 // Remaining properties
 @property(nonatomic, readonly) double duration;

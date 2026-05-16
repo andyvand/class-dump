@@ -27,7 +27,7 @@
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (double);
-- (void);
+- (void)TangierTextWrapper";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

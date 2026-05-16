@@ -14,7 +14,7 @@
     NSPredicate *_presencePredicate;
 }
 
-+ (id)bdØd;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -26,13 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)entationManager;
-- (id)om encoded invitations data:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ÿÿ,\;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

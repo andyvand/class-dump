@@ -32,8 +32,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ySetupEnableItem_Title;
+- (void)ecause module was deleted. Adding to recently removed for safety;
+- (void)nItemProvider.m;
 
 // Remaining properties
 @property(retain, nonatomic) id <HUFeedbackConsentViewControllerDelegate> consentDelegate; // @synthesize consentDelegate=_consentDelegate;

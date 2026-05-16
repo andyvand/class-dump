@@ -32,100 +32,100 @@ __attribute__((visibility("hidden")))
     struct CGRect _overrideContentRectForPinning;
 }
 
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)#;
+- (long long);
 - (id);
+- (struct _NSRange);
 - (id);
-- (unsigned long long);
-- (double);
-- (id);
-- (id);
-- (id)ccs;
-- (id)tion.system.tvremote;
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool);
 - (struct CGSize);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (long long);
 - (void);
 - (id);
-- (id);
-- (void)ken:(id)arg1;
-- (struct CGVector)sToken: /* Error: Ran out of types for this method. */;
-- (void)apple.MediaPlayerFramework.MPModelLibraryPlaylistEditDataSource.serialQueue;
-- (double)ertyStaticAssetMediaType;
-- (id);
-- (long long)_;
-- (id);
-- (void *);
-- (struct CGRect);
-- (id);
 - (void);
-- (id);
+- (id)
+× ;
+- (id)Z1Â0@ù
+× ;
 - (void);
-- (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (void)!CùÑÀð1¢!0@ù
-× ;
-- (long long)ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (_Bool)Áp°!DùÃð1¢!0@ù
-× ;
-- (struct _NSRange)
-× ;
-- (long long)¤Fù±ÉÐ1¢!0@ù
-× ;
 - (void)0@ù
 × ;
-- (id)b1"delegateWritingToolsWillBegin"b1"delegateWritingToolsDidEnd"b1"delegateWritingToolsIgnoredRanges"b1"delegateWritingToolsUndoCoalescingWillBegin"b1"delegateWritingToolsUndoCoalescingDidEnd"b1"textStorageOverridesReplaceCharactersInRangeWithAttributedString"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions"b1"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions"b1};
-- (id)apability"q"preferredContentSizeCategory"q"displayCornerRadius"d"legibilityWeight"q"semanticContext"q"presentationSemanticContext"q"splitViewControllerContext"q"accessibilityContrast"q"userInterfaceLevel"q"vibrancy"q"userInterfaceRenderingMode"q"activeAppearance"q"focusSystemState"q"selectionIsKey"q"toolbarItemPresentationSize"q};
-- (unsigned long long)temsInline;
-- (void)tFont:(id)arg1;
-- (long long)s:(struct CGRect)arg1;
-- (id)nningWithTouchPosition:currentTransformedPosition: /* Error: Ran out of types for this method. */;
-- (unsigned long long)foreIdentifiers;
-- (void)roller;
-- (_Bool)oundingEnabled;
-- (id)resentationController",&,N,V_presentationController;
-- (id)WindowSceneUserInterfaceStyleSettingsDiffAction;
-- (void)Ì?;
-- (_Bool)=è=,>¨?Ô@;
-- (void)ew for an unsupported swipe direction (%ld);
-- (struct CGRect)d:obj = %s, size = %lu, error = %s /* Error: Ran out of types for this method. */;
-- (void)UICollectionViewTableLayout rows will result in layout issues in the collection view. Please ensure that row heights are integral values. This message will only be logged once.;
-- (struct CGRect)pÿÿ¨ÿÿÀÿÿøÿÿÿÿHÿÿ`ÿÿxÿÿÿÿ¨ÿÿÀÿÿØÿÿðÿÿÿÿ ÿÿ8ÿÿPÿÿhÿÿÿÿÿÿ°ÿÿÈÿÿÿÿ<ÿÿTÿÿlÿÿÿÿ¬ÿÿØÿÿðÿÿÿÿ4ÿÿÿÿ¤ÿÿ¼ÿÿÔÿÿìÿÿÿÿ,ÿÿ|ÿÿ$ÿÿPÿÿüÿÿ¬ÿÿÄÿÿäÿÿÿÿ8ÿÿ|ÿÿÿÿ¬ÿÿÌÿÿÿÿ$ÿÿÄÿÿðÿÿÿÿ(ÿÿhÿÿ¨ÿÿÿÿ ÿÿlÿÿ¤ÿÿÿÿÿÿ\ÿÿ|ÿÿÿÿÈÿÿôÿÿ@ÿÿÿÿ ÿÿHÿÿÿÿ°ÿÿÔÿÿìÿÿÿÿ¨ÿÿÔÿÿÿÿÔÿÿÿÿDÿÿÿÿ´ÿÿàÿÿH ÿÿÈ ÿÿ¡ÿÿÐ¡ÿÿ(¢ÿÿ¥ÿÿ¦ÿÿ4¦ÿÿp¦ÿÿ¦ÿÿÀ¦ÿÿL§ÿÿl§ÿÿ§ÿÿÄ§ÿÿ¨ÿÿT¨ÿÿt¨ÿÿ¨ÿÿ¬¨ÿÿÄ¨ÿÿÜ¨ÿÿô¨ÿÿ©ÿÿD©ÿÿ@ªÿÿXªÿÿ«ÿÿø«ÿÿd¬ÿÿ­ÿÿÄ®ÿÿ¸¯ÿÿP°ÿÿ¸°ÿÿÐ°ÿÿè°ÿÿ;
+- (long long)!¬Gù±\Ð1Â0@ù
+× ;
 - (void);
-- (void);
-- (unsigned long long);
-- (id)leWillChange;
-- (id)-Symbol-Keyplane-Switch-Key;
-- (void)oid _UIBarButtonGroupCheckArguments(NSArray<UIBarButtonItem *> *__strong, UIBarButtonItem *__strong);
-- (unsigned long long)BackButton(CGPoint, _UINavigationBarContentViewLayout *__strong, _UINavigationBarContentView *__strong, BOOL, BOOL);
-- (void)ze=dd}}16@48;
-- (long long);
-- (void);
-- (void);
-- (id)j ^;
-- (id)ç^;
-- (void){S_;
-- (void);
-- (void)<*c;
-- (_Bool)/õ;
-- (id)Î¡c;
-- (id)Lø0ÿxhÈ®Üc;
-- (id)ìc;
-- (id)`.ÿr;
-- (long long)Lîþ+²¿;
+- (unsigned long long)Gù±bÐ1Â0@ù
+× ;
+- (id)ð!@ùÑc°1Â0@ù
+× ;
+- (void)
+× ;
+- (id)ataModel"16;
+- (id)ndaryCellularEntry:(struct CGRect)arg1;
+- (long long)dUpdateHUDIfNeeded;
+- (id)ghlightColor;
+- (void *)er:(long long)arg1;
+- (unsigned long long)_supportsHeaderView;
+- (void)ingViewController;
+- (id)w: /* Error: Ran out of types for this method. */;
+- (void)navigationBarAdditionalActionsForBackButtonMenu:(long long)arg1;
+- (void)nMacIdiom;
+- (id):lineBreakMode:alignment:lineSpacing:includeEmoji:truncationRect: /* Error: Ran out of types for this method. */;
+- (struct CGVector)ation;
+- (void)onPreferringMulticolor:(unsigned long long)arg1;
+- (long long)tyle,S_setPreferredBadgeStyle:(struct CGRect)arg1 ,V_preferredBadgeStyle;
+- (void)e",&,N,V_preferredActiveImage;
+- (id)learMarkedText;
+- (void)ÆÇ8ÉÊÈÌ;
+- (double);
+- (double)ContainerView"8@"UITraitCollection"16;
+- (id)e;
+- (void)wControllerAdaptiveLayoutTransitionC0CSgXwz_Xx;
+- (_Bool);
+- (void);
+- (id);
+- (id)$ïÿÉX;
+- (void)¶JÿwC;
+- (id);
+- (void)¼Ô_;
+- (id)Hz4ÿ)Z;
+- (void)H;
+- (id)¤\ÿ;
+- (unsigned long long)ÛÌ½c;
+- (id);
+- (long long)c;
+- (_Bool)Í$d;
+- (long long)fÿ;AÛü;d;
+- (id)Ý´6d;
+- (void)©d;
+- (id)}d;
+- (id);
+- (id)AÊdd;
+- (_Bool)ºd;
+- (unsigned long long)ÀÚôûd;
+- (struct CGRect);
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) _UICollectionLayoutContainer *container; // @synthesize container=_container;

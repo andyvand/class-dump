@@ -17,11 +17,11 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isApplicationVisible) _Bool applicationVisible;

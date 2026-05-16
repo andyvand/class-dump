@@ -17,8 +17,8 @@
     MISSING_TYPE *selectionCompleteFuture;
 }
 
-- (void);
 - (id);
+- (void)tyListErrorText;
 
 @end
 

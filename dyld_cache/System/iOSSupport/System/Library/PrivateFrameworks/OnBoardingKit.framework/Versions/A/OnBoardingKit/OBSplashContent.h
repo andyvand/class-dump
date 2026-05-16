@@ -14,9 +14,9 @@
 
 - (void);
 - (id);
-- (void)a;
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy) NSArray *bullets; // @synthesize bullets=_bullets;

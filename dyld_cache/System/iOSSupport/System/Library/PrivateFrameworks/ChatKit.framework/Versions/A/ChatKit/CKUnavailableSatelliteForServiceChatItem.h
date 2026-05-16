@@ -10,10 +10,10 @@
 {
 }
 
-+ (id):(_Bool)arg1 %@, duration:(_Bool)arg2 %@, fromValue:%@, toValue:%@, color:%@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (struct CGSize);
-- (Class);
+- (Class);
 
 @end
 

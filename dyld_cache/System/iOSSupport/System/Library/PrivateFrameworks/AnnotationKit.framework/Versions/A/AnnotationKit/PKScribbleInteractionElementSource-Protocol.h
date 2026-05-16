@@ -5,6 +5,5 @@
 //
 
 @protocol PKScribbleInteractionElementSource
-- (void);
 @end
 

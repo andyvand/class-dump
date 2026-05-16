@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)dateProperties: /* Error: Ran out of types for this method. */;
-- (double)Object<OS_dispatch_queue>",R,N,V_queue;
-- (double)ghlightsQueue;
-- (id)pd;
-- (_Bool);
+- (double);
+- (double);
+- (double);
 - (id);
-- (id)er-of-attachment-batches;
-- (id)mentSyncController;
-- (id)on;
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id)åÕ`/i;
 
 @end
 

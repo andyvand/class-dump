@@ -19,12 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool)T@"NSString",C,N,V_payloadSubCalAccountDescription;
+- (id);
+- (id);
+- (_Bool)
+× ;
+- (void)ration;
+- (id);
 - (void);
-- (void);
-- (id)ndHeight:(CDUnknownBlockType)arg1;
-- (id)essDelta:forView: /* Error: Ran out of types for this method. */;
-- (id)urceItem;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

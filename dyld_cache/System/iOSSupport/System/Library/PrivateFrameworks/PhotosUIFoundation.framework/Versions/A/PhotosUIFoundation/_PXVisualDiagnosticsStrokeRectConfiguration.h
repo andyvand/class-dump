@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     double _lineWidth;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)\Ð;
-- (double);
+- (double);
+- (void);
+- (void):(double)arg1 8q16q24@32@?40;
 
 // Remaining properties
 @property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;

@@ -20,16 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id)namicRangeInks;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)neTemplate;
-- (id);
-- (id);
+- (void);
+- (id)@"NSData",R,C,N;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *author; // @synthesize author=_author;

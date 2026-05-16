@@ -30,10 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ldBegin: /* Error: Ran out of types for this method. */;
-- (id)changes;
+- (id);
+- (id)ed lock requested. But we are locked and in the middle of authentication. Cancelling active user authentication.;
+- (void))Qñà|;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *colorLookupCubeCache; // @synthesize colorLookupCubeCache=_colorLookupCubeCache;

@@ -16,14 +16,14 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (void)coUpdateInProgressWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)!XBùÆ1¢!0@ù
+- (void)
 × ;
-- (void);
-- (void)6@"BETextDocumentRequest"32@?<v@?@"BETextDocumentContext">40;
-- (void)y:(id)arg1;
+- (void)tProgress:(id)arg1 animated:duration:delay:options: /* Error: Ran out of types for this method. */;
+- (void)forBeginState:(id)arg1 restartIfNecessary:(id)arg2;
+- (void)_ui_setComponents:(id)arg1;
+- (void)d;
+- (void)abelMetrics_sourceRect;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool tapWasCommandModified; // @synthesize tapWasCommandModified=_tapWasCommandModified;

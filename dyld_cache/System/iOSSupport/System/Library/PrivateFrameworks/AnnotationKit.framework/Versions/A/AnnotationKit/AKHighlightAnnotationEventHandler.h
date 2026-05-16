@@ -12,8 +12,8 @@
 
 + (_Bool);
 - (_Bool);
-- (_Bool)З;
-- (_Bool);
+- (_Bool);
+- (_Bool);
 
 @end
 

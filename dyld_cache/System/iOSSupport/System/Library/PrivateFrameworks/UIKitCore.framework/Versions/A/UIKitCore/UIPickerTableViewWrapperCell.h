@@ -17,21 +17,19 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _wrappedViewInsets;
 }
 
-- (void);
-- (id)C %{public}@:(long long)arg1 Adding observer for %p;
-- (id);
-- (void)nÐ!øBù±À1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!@ùq`°1Â0@ù
 × ;
-- (void)
-× ;
-- (struct UIEdgeInsets)Êð1¢!0@ù
-× ;
-- (void)nFactor;
-- (void)tyle:(id)arg1;
-- (void)arginForPrimaryNavigationBar:(struct UIEdgeInsets)arg1 supplementaryOrSecondaryNavbar:getInterpolatedAlpha: /* Error: Ran out of types for this method. */;
-- (void)MaskImage;
-- (void)r;
-- (id);
+- (id)eometry={NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
+- (void);
+- (struct UIEdgeInsets)alue;
+- (id);
+- (id)er:but the completion handler was never called. /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *wrappedView;

@@ -34,14 +34,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)k(8;
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -57,18 +57,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id)asswordAutoFillDomains;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)1¢!0@ù
-× ;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;

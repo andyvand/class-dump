@@ -15,11 +15,11 @@
 
 - (struct CGImage *);
 - (id);
+- (void);
+- (long long);
 - (double);
-- (id)ComputeServiceType;
-- (void)?;
 - (struct CGSize);
-- (long long)8;
+- (id);
 - (struct CGImage *);
 
 @end

@@ -14,23 +14,22 @@
     double duration;
 }
 
-- (void)@;
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (double);
+- (id);
+- (void);
 - (id);
 - (void);
 - (long long);
-- (_Bool)r;
-- (void);
-- (id);
-- (void);
-- (void)0@ù
-× ;
-- (id)",&,N,V_chevron;
-- (_Bool)W%;
-- (double)ãp;
-- (unsigned long long)Iòn;
+- (_Bool)nDidSuspend:(id)arg1;
+- (unsigned long long)g;
+- (void)33Jpþ-I33Èsþ;
+- (void)°Rl;
 
 // Remaining properties
 @property(nonatomic, retain) _UIColorPalette *colorPalette; // @synthesize colorPalette;

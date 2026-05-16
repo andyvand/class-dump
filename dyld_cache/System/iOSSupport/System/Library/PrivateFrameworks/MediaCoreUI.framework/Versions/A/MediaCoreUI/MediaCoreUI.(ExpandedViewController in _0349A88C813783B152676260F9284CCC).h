@@ -18,8 +18,8 @@
 
 - (void);
 - (void);
-- (void);
-- (void)Þ¯;
+- (void)n folder's number of assets on disk:%ld. /* Error: Ran out of types for this method. */;
+- (void)Þs;
 
 @end
 

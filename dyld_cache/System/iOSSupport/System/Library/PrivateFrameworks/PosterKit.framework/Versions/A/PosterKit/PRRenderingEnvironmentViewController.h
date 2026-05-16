@@ -17,11 +17,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PRPosterEnvironmentImpl *currentEnvironment; // @synthesize currentEnvironment=_environment;

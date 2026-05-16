@@ -15,11 +15,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (double);
 - (id);
+- (void);
+- (void);
 - (double);
-- (double);
-- (void)orMargin;
-- (void)@:(double)arg1 %p>;
 
 // Remaining properties
 @property(nonatomic) double leftSplitWidth; // @synthesize leftSplitWidth=_leftSplitWidth;

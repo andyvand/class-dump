@@ -44,14 +44,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void)Ð1b0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activeMechanisms;

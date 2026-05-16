@@ -22,38 +22,39 @@ __attribute__((visibility("hidden")))
     UIWindow *_primaryHostedWindow;
 }
 
-+ (id)ave a thumbnail.;
-- (void)est;
-- (void)idation failed for property 0x%llX - tag present;
-- (void)st;
++ (id);
 - (void);
-- (void)to parse certificate property;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id)4l^;
+- (id);
 - (id);
 - (int);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id)4@32B40@44@52;
-- (unsigned long long)verifyAccountsMatchForMoc;
-- (void);
-- (id)±Ã1¢!0@ù
-× ;
-- (id)tring:(id)arg1;
-- (id)tifier:(id)arg1;
-- (id)viceLockState;
-- (id)lor: /* Error: Ran out of types for this method. */;
-- (id)ViewDelegate API textView:editMenuForTextInRange:suggestedActions:instead. /* Error: Ran out of types for this method. */;
-- (long long)*üÿ;
-- (id)tor glyph!;
 - (id);
-- (void)y\;
-- (id)Bêþ;
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)A!Gù±bÐ1Â0@ù
+× ;
+- (id)imumDifference;
+- (id)ent;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _hostedWindowCount;

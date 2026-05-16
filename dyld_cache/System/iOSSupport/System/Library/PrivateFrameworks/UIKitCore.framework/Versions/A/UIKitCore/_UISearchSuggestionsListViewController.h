@@ -15,17 +15,18 @@ __attribute__((visibility("hidden")))
     UICollectionViewDiffableDataSource *_dataSource;
 }
 
-- (void)add data to pubkeyOid;
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void)ButtonItemProvider;
-- (id)þÿ;
-- (void)ØÎþÿ;
-- (_Bool)ed;
-- (id)VisualProvider override.;
+- (id);
+- (void)QcÐ1Â0@ù
+× ;
+- (void)et:(id)arg1;
+- (void)Ëîÿ{þÿ;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;

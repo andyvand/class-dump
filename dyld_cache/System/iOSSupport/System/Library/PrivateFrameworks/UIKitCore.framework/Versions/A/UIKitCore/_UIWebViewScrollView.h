@@ -21,14 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)endingPathComponent:(long long)arg1;
-- (void)raryAdded__MAPPING_MISSING__;
-- (void)ligibleForFocusOcclusion"b1"itemIsFocusable"b1"itemIsTransparent"b1};
-- (void)loneGenericView:(long long)arg1;
-- (id)ponderController instance will never be created.;
-- (id)cape;
-- (void);
-- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)ð1Â0@ù
+× ;
+- (void);
+- (void)en:(_Bool)arg1;
+- (id)stureRecognizer;
+- (_Bool)¸°ô°;
 
 @end
 

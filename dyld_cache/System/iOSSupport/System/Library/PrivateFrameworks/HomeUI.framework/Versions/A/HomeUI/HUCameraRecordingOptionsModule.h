@@ -32,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)LearnMore;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;

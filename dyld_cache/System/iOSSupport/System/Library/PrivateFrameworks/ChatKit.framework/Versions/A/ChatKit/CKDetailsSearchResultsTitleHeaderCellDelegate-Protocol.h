@@ -5,6 +5,5 @@
 //
 
 @protocol CKDetailsSearchResultsTitleHeaderCellDelegate
-- (void);
 @end
 

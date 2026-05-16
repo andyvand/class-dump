@@ -5,6 +5,6 @@
 //
 
 @protocol _UITransformEventRespondable
-- (void)set_error_if_not_already_done;
+- (void);
 @end
 

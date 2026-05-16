@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
-
 @protocol UITextInputDelegatePrivate
-- (void);
-- (void)þ;
-- (void)À;
-- (void);
+- (void)t: /* Error: Ran out of types for this method. */;
+- (void)Must have a keyboard layer tracked.;
+- (void)p;
+- (void)¸Rtþe43¼qþU43ðRtþ;
+- (void)ionDomain;
+- (void);
 
 @optional
-- (void)NULL;
-- (NSAttributedString *)}[;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool markedTextFromClient;

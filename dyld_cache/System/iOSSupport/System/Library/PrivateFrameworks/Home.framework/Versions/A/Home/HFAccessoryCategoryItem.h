@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)s;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *categoryType; // @synthesize categoryType=_categoryType;

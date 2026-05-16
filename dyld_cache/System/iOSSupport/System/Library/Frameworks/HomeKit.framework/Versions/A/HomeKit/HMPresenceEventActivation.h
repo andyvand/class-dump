@@ -16,13 +16,13 @@
 + (id);
 + (id);
 + (id);
-- (unsigned long long);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *number;

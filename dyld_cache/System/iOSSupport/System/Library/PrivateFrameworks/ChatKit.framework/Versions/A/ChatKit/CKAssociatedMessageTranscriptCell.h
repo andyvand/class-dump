@@ -34,23 +34,20 @@
 - (void);
 - (void);
 - (void);
-- (void)e;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGRect)t need to remember a separate password for them. Just use the login password or passcode of any device with your iCloud account to lock or unlock a note.
-
-iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
-- (void)MAppearanceAlwaysShowLightContentDidChangeNotification;
-- (double)body_text_color;
-- (_Bool)ote"16@"NSAttributedString"24@"NSError"32;
 - (void);
-- (_Bool)8,
-;
+- (struct CGRect);
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (_Bool);
 - (id);
-- (double);
+- (double);
 - (void);
 - (struct CGRect);
 - (id);
@@ -60,18 +57,18 @@ iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to v
 - (struct IMAssociatedMessageGeometryDescriptor);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (struct CGSize);
+- (id);
 - (void);
-- (void)rDelegate;
-- (id)ýÿ;
-- (void)G;
-- (id)øÿ2|;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)itionFromPluginPayload:(id)arg1 url:shareOptions:previousComposition:completion: /* Error: Ran out of types for this method. */;
+- (id)t to edit message to an empty string.;
+- (void)ø"¬ÿE<jô"¬ÿM<jä"¬ÿe<j.Åÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect adjustedContentAlignmentRect;

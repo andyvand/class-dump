@@ -7,16 +7,13 @@
 @class NSArray;
 
 @protocol UIViewControllerContextTransitioningEx
-- (void)RequestToken;
-- (void)ingDataSourceExternalScreenTypeDidChangeNotification;
-- (void)s;
-- (double);
-- (long long);
-- (void)bleHomeRowReturn:(_Bool)arg1;
-- (_Bool)Snapshots;
+- (long long)sidebarResizeTapGestureRecognizer;
+- (void)ingChanged:(_Bool)arg1;
+- (double)RemoteViewController",&,N,V_card;
+- (_Bool)ä_;
 
 @optional
-- (struct CGAffineTransform)TB,R,N,V_ignoresAccessibilityFilters;
+- (struct CGAffineTransform)defined behavior. %@;
 
 // Remaining properties
 @property(nonatomic, getter=_allowUserInteraction, setter=_setAllowUserInteraction:) _Bool _allowUserInteraction;

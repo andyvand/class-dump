@@ -5,7 +5,7 @@
 //
 
 @protocol _UISETouchedEdgesProvider
-- (unsigned long long)ÿ¶£þÿÉþÿ¢þÿ;
+- (unsigned long long)ç;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long touchedEdges;

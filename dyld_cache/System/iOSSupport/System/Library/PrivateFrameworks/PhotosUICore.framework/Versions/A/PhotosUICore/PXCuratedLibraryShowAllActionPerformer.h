@@ -15,8 +15,8 @@
 
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)OS_DETAILS_TIME_EDIT_NAVIGATION_TITLE;
+- (void)SearchOverlayView;
 
 // Remaining properties
 @property(nonatomic) __weak PXGLayout *layout; // @synthesize layout=_layout;

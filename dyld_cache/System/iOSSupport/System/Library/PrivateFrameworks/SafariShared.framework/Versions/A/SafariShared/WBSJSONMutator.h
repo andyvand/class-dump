@@ -36,7 +36,7 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)Ø;
 
 // Remaining properties
 @property(nonatomic) double collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults; // @synthesize collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults=_collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults;

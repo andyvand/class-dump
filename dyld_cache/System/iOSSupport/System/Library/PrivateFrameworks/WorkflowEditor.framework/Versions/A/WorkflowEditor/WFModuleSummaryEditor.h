@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFMultipleValueParameterState, WFParameter, WFVariable;
+@class WFMultipleValueParameterState, WFParameter, WFSlotIdentifier, WFVariable;
 @protocol WFEditorAuxiliaryViewPresenter, WFModuleSummaryEditorDelegate, WFModuleSummarySupporting, WFParameterState, WFSlotTemplateTextEntry, WFVariableProvider, WFVariableUIDelegate;
 
 @interface WFModuleSummaryEditor
@@ -14,6 +14,7 @@
     _Bool _returnToKeyboardOnComplete;
     id <WFParameterState> _currentState;
     WFParameter<WFModuleSummarySupporting> *_parameter;
+    WFSlotIdentifier *_slotIdentifier;
     unsigned long long _arrayIndex;
     id <WFModuleSummaryEditorDelegate> _delegate;
     id <WFVariableProvider> _variableProvider;
@@ -49,34 +50,36 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)¤eÀf¨h`i¤lälxm;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPickingVariables; // @synthesize allowsPickingVariables=_allowsPickingVariables;
@@ -90,6 +93,7 @@
 @property(readonly, nonatomic) WFParameter<WFModuleSummarySupporting> *parameter; // @synthesize parameter=_parameter;
 @property(readonly, nonatomic, getter=isProcessing) _Bool processing; // @synthesize processing=_processing;
 @property(nonatomic) _Bool returnToKeyboardOnComplete; // @synthesize returnToKeyboardOnComplete=_returnToKeyboardOnComplete;
+@property(readonly, nonatomic) WFSlotIdentifier *slotIdentifier; // @synthesize slotIdentifier=_slotIdentifier;
 @property(readonly, nonatomic) __weak id <WFSlotTemplateTextEntry> textEntry; // @synthesize textEntry=_textEntry;
 @property(nonatomic) __weak id <WFVariableProvider> variableProvider; // @synthesize variableProvider=_variableProvider;
 @property(nonatomic) __weak id <WFVariableUIDelegate> variableUIDelegate; // @synthesize variableUIDelegate=_variableUIDelegate;

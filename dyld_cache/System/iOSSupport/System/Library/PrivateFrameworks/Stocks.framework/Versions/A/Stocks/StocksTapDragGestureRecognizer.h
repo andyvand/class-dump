@@ -17,7 +17,7 @@
     struct CGRect _touchableBounds;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -25,15 +25,15 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)`;
-- (void);
-- (id)ServerResponse:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long maximumNumberOfTouches; // @synthesize maximumNumberOfTouches=_maximumNumberOfTouches;

@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewCell;
+@class UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *);
+- (UICollectionViewCell *)e;
+
+@optional
+- (void);
+- (UICollectionReusableView *)W'÷	yI`÷	G;
 @end
 

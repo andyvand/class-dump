@@ -17,9 +17,9 @@
 
 - (id);
 - (_Bool);
-- (id)16;
 - (id);
-- (void);
+- (id);
+- (void)erForCollectionWithPersistentID:groupingType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *privateListeningOverride; // @synthesize privateListeningOverride=_privateListeningOverride;

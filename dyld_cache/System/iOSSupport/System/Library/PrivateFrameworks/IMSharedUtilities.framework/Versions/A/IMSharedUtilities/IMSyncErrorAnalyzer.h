@@ -19,11 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)B;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     id <_UISEGestureFeatureSettings> _settings;
 }
 
-- (void);
-- (void)edTransform:(const struct _UISEGestureFeatureSample *)arg1;
 - (id);
+- (void)setInterfaceIdiom:(const struct _UISEGestureFeatureSample *)arg1;
+- (void);
 
 @end
 

@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (_Bool);
-- (id);
 - (id);
 - (struct CGRect);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -30,10 +30,10 @@
 - (_Bool);
 - (id);
 - (struct CGPoint);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (struct CGRect);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 

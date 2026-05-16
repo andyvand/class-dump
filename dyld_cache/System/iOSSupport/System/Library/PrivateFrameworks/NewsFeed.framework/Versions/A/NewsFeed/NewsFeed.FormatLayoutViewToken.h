@@ -11,8 +11,8 @@
     MISSING_TYPE *children;
 }
 
-- (void)gerValue;
 - (id);
+- (void)N:ÈY /* Error: Ran out of types for this method. */;
 
 @end
 

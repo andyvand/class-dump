@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)tingConstraintsChange;
 - (void);
-- (_Bool)ú[;
+- (_Bool)X;
 
 @end
 

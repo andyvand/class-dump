@@ -7,9 +7,6 @@
 @class UIView;
 
 @protocol WFInputViewMutable
-- (UIView *)tC13complementingt;
-- (UIView *)íÛ;
-- (void)1à;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *inputAccessoryView;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
+@protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
-- (void)e:(CALayer *)arg1 level:frame:location: /* Error: Ran out of types for this method. */;
-- (void)ller;
+- (id <CAAction>);
 @end
 

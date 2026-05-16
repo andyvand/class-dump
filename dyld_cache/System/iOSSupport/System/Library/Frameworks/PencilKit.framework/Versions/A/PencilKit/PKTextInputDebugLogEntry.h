@@ -26,7 +26,7 @@
 }
 
 + (id);
-+ (id)(;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -49,25 +49,26 @@
 - (id);
 - (id);
 - (struct _NSRange);
-- (id)Task"24@"NSURLSessionStreamTask"32;
-- (id)ispatch_group>";
-- (id)thRequestKey:responseKey:fallbackURL:userID:storefrontID:bundleID:deviceInfo:debugOverrides:useBackgroundRefreshRate:requestMode:endpointTimeoutDuration: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)dFinishObservers;
-- (id)sessionCompletionHandler;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (long long);
 - (id);
-- (id)`;
+- (long long)1Â0@ù
+× ;
+- (void)",&,N,V__feedbackView;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;

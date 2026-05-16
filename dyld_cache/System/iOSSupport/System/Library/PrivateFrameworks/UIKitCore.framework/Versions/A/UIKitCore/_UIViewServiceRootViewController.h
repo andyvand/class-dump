@@ -23,17 +23,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)meForDeviceID: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)payloadProhibitBurn;
 - (id);
-- (void);
-- (_Bool)eometryChangeObserver: /* Error: Ran out of types for this method. */;
-- (id)SDictionary",C,N,V_teamMetadata;
 - (_Bool);
-- (id)edDepthLevel;
-- (unsigned long long);
-- (void))4;
+- (void)0@ù
+× ;
+- (_Bool)!ÌGù1c°1Â0@ù
+× ;
+- (_Bool);
+- (id)ngTransition;
+- (void)allocating. This should never happen.;
+- (id)thFollowsPreferredContentSizeWhenEdgeAttached;
+- (unsigned long long)e.;
+- (void)llerProviderP;
+- (id)§R0Áx33¬Ý;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

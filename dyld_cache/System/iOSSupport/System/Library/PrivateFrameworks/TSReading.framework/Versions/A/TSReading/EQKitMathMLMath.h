@@ -17,21 +17,21 @@
 - (long long);
 - (id);
 - (const void *);
-- (struct Schemata)<;
+- (struct Schemata);
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool)`;
+- (_Bool);
 - (id);
 - (struct AttributeCollection *);
 - (id);
-- (id)Q);
-- (void);
-- (_Bool);
 - (id);
-- (id)nticationEventTranslator;
-- (id)layer.currentItem.status;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

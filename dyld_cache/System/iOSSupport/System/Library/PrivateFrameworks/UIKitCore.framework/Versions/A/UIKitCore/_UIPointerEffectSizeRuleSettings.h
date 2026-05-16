@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void)arkedText: /* Error: Ran out of types for this method. */;
+- (void)tObservers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double explicitRequestMultiplier; // @synthesize explicitRequestMultiplier=_explicitRequestMultiplier;

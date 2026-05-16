@@ -12,17 +12,17 @@
     NSString *_displayName;
 }
 
-+ (_Bool)d:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void)ubAction:(id)arg1;
-- (id);
+- (void)G;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

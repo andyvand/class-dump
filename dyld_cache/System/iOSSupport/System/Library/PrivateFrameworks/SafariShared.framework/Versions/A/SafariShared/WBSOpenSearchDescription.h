@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)~�N;
+- (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id)P;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *descriptionDocumentURLString; // @synthesize descriptionDocumentURLString=_descriptionDocumentURLString;

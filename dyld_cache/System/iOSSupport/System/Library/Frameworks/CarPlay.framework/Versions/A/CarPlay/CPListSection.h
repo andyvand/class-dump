@@ -37,17 +37,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (long long);
 - (long long);
 - (id);
-- (long long);
 - (void);
-- (id);
-- (id);
-- (id)howsExplicitLabel:(id)arg1;
-- (id);
+- (void);
+- (id)X;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *header; // @synthesize header=_header;

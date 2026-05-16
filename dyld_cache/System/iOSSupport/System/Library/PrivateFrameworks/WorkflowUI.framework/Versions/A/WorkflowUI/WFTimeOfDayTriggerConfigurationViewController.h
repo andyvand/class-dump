@@ -39,13 +39,13 @@
 - (void);
 - (id);
 - (id);
-- (long long);
 - (id);
 - (void);
+- (long long);
 - (void);
 - (long long);
-- (void)B16;
-- (void)Á;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

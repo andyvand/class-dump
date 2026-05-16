@@ -17,7 +17,7 @@
 
 + (id);
 + (_Bool);
-+ (Class)8ú×ÿ;
++ (Class)reate trigger builder from trigger:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -39,9 +39,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)State %lu Device UUID %@ uuidTrackingList..%@ Restart Tracking List ..%@;
-- (id)services (self.service.hf_childServices). But the client requested a value source for some other services:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Õ;
+- (id)%@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *maximumCharacteristicType; // @synthesize maximumCharacteristicType=_maximumCharacteristicType;

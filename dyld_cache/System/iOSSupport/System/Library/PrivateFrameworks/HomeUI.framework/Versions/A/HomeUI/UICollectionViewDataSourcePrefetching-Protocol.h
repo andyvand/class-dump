@@ -5,9 +5,6 @@
 //
 
 @protocol UICollectionViewDataSourcePrefetching
-- (void)raManageCloudPlan;
-
-@optional
-- (void);
+- (void)Ô ;
 @end
 

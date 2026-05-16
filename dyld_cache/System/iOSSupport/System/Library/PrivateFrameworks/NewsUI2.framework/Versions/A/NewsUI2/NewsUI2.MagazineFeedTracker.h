@@ -14,6 +14,7 @@
     MISSING_TYPE *issueModelFactory;
     MISSING_TYPE *scienceDataFactory;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *supplementaryDataProvider;
     MISSING_TYPE *articleViewingSession;
     MISSING_TYPE *recipeViewingSession;

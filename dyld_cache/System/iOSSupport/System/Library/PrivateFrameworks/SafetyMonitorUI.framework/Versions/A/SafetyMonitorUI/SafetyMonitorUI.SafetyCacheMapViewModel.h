@@ -18,8 +18,8 @@
     MISSING_TYPE *safetyCache;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

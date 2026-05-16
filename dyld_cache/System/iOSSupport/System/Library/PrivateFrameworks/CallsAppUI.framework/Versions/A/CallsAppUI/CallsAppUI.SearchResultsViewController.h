@@ -12,16 +12,16 @@
 {
     MISSING_TYPE *delegate;
     MISSING_TYPE *searchManager;
+    MISSING_TYPE *contactsSection;
     MISSING_TYPE *callsSection;
     MISSING_TYPE *voicemailSection;
-    MISSING_TYPE *contactsSection;
     MISSING_TYPE *cancellables;
 }
 
 - (id);
 - (void);
 - (void);
-- (void)gèyAAyvKÈùèG;èGSg;
+- (void);
 
 @end
 

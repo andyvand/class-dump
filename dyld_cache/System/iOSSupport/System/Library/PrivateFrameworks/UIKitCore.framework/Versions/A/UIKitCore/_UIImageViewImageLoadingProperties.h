@@ -19,21 +19,21 @@ __attribute__((visibility("hidden")))
     UIView *_placeholderView;
 }
 
-- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void)o in Sparse Context";
-- (void);
-- (void);
-- (id)identifier;
-- (_Bool)P;
-- (void);
-- (void)itle:(id)arg1;
-- (id)updateTextEffectsConfigurationIfNeeded;
-- (_Bool)t",R,N,V_activeEvent;
 - (_Bool);
-- (id)a;
+- (void)"16{CGSize=dd}24;
+- (id)isible: /* Error: Ran out of types for this method. */;
+- (_Bool)ndexPath:startingAtUpdateWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)ndTaskIdentifier;
+- (void)_unregisterBSActionResponderArray:(_Bool)arg1;
+- (void)rtwork.bundle;
+- (void);
+- (_Bool);
+- (void)éÖ43ì;
 
 // Remaining properties
 @property(nonatomic, getter=isEnqueueingLoad) _Bool enqueueingLoad; // @synthesize enqueueingLoad=_enqueueingLoad;

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_canShowDetourTime;
 
 // Remaining properties
 @property(readonly, nonatomic) MUGroupedExternalActionController *actionController; // @synthesize actionController=_actionController;

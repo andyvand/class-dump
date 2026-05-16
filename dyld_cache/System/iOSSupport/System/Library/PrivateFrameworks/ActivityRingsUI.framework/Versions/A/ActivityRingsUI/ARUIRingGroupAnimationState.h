@@ -25,13 +25,13 @@
 - (void);
 - (void);
 - (void);
+- (double);
 - (void);
+- (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (double);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

@@ -31,13 +31,13 @@
 - (struct _xmlNs *);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (int);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)Gamut;
+- (void)ineFragmentArray::line_iterator &, const TSWPLineFragmentArray::line_iterator &, unichar &, BOOL &, BOOL) /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) void *attributeCollection;

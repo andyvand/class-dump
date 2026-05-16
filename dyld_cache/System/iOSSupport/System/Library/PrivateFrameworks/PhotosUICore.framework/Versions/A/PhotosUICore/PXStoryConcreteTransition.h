@@ -40,18 +40,17 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (long long);
-- (void);
-- (BOOL);
-- (void);
+- (CDStruct_1b6d18a9);
 - (_Bool);
-- (id)0@ù
-× ;
 - (id);
-- (double)TzØz{`|x}Ø;
-- (void)«Pÿ;
-- (CDStruct_1b6d18a9)_TtCE12PhotosUICoreCSo22PXPhotosBarsControllerP33_762CC996A8E70096B04419A2D09A919B14AssociatedData;
+- (long long);
+- (CDUnknownBlockType);
+- (double)toolbarModel;
+- (BOOL)tion;
+- (void)ld > %lu;
+- (id)s°;
+- (void)ÿàÅÿÆÿpromptSuggestionCacheExpirationInMinutes;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXGEffect *auxiliaryEffect; // @synthesize auxiliaryEffect=_auxiliaryEffect;

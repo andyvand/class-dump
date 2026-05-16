@@ -11,39 +11,35 @@
     long long _inflightBoltAnimationCount;
 }
 
-+ (id)4@0:(struct CGSize)arg1 8Q16;
-+ (id)terizationRateMapWithDescriptor:(id)arg1;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)0@ù
++ (id);
++ (id)!\Gù1gÐ1Â0@ù
 × ;
-+ (id)× ;
-+ (id)!äAùÑÇ1¢!0@ù
-× ;
-+ (id)ckgroundView;
-+ (id)ontentSwipe;
++ (id)arge;
++ (id)tained in its documentStorageURL (%@);
++ (id)n;
++ (id)ContentViewModifyTransformMaxSize;
++ (id)ÉÍ4#h;
+- (void);
 - (void);
 - (struct CGRect);
+- (void);
+- (struct CGSize);
+- (struct CGRect);
+- (double);
 - (double);
 - (void);
-- (struct CGRect)ctionedIdentifierListEntryTypeItem;
+- (double)× ;
+- (void)aleFactor;
+- (void)tWidthLarge;
+- (void),V_windowFrameAnimationForNextPendingRequest;
+- (_Bool)layout, %@, to layout, %@. This is a UIKit bug.;
+- (void)Uzþÿ;
+- (void)ene controller's delegate (%@) does not conform to _UIFontPickerViewControllerHost;
 - (void);
-- (void);
-- (void);
-- (void)qÅð1¢!0@ù
-× ;
-- (struct CGSize)0@ù
-× ;
-- (void)0@ù
-× ;
-- (double)cker;
-- (double)itionPayloadStorage;
-- (_Bool)tion;
-- (void)tivityManager;
-- (void)able error with description:(struct CGSize)arg1 %@ reason:%@ /* Error: Ran out of types for this method. */;
-- (void)?;
 
 @end
 

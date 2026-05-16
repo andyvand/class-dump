@@ -13,6 +13,8 @@
     MISSING_TYPE *onSelect;
     MISSING_TYPE *toolBar;
     MISSING_TYPE *sizingToolBar;
+    MISSING_TYPE *addToPlacesTapped;
+    MISSING_TYPE *addToFavoritesGuideTapped;
     MISSING_TYPE *showAddedToast;
     MISSING_TYPE *showFavoritedToast;
 }
@@ -20,10 +22,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

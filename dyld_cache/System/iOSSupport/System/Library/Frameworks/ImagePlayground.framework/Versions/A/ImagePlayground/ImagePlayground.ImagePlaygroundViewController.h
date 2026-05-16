@@ -12,7 +12,7 @@
     MISSING_TYPE *__promptElements;
     MISSING_TYPE *allowedGenerationStyles;
     MISSING_TYPE *selectedGenerationStyle;
-    MISSING_TYPE *personalizationPolicy;
+    MISSING_TYPE *options;
     UIImage *sourceImage;
     void delegate;
     MISSING_TYPE *sceneIdentifier;
@@ -24,7 +24,6 @@
     GPRecipe *recipe;
     MISSING_TYPE *previewAspectRatio;
     MISSING_TYPE *pregeneratedImage;
-    MISSING_TYPE *imageImportPolicy;
     MISSING_TYPE *responsibleAuditToken;
     MISSING_TYPE *connectionManager;
     MISSING_TYPE *imageEditionView;
@@ -53,23 +52,22 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (void)ÿÿ6Iÿÿ
-ÿÿ;
+- (void);
+- (void);
+- (void)ÌÅ;
 
 // Remaining properties
 @property(nonatomic) __weak id <ImageGenerationViewControllerDelegate> delegate; // @synthesize delegate;

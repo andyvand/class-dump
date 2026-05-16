@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)ase for diverged notes in account… {account:(unsigned long long)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
-- (id)ayoutChange;
-- (double)t_loading_web;
+- (struct UIEdgeInsets);
+- (id);
+- (double);
 
 @end
 

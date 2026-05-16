@@ -16,10 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)!DùQ{Ð1b0@ù
-× ;
-- (long long)¸¹ëÿPÓ7ÿp*;
+- (id);
+- (long long);
+- (void)Ü½ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXPlacesMapLayoutItem> sourceLayoutItem; // @synthesize sourceLayoutItem=_sourceLayoutItem;

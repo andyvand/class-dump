@@ -8,10 +8,10 @@
 {
 }
 
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (void)tedIntroductions:(id)arg1;
 
 @end
 

@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)nView:canPerformPrimaryActionForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ckControlStepperView.m;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

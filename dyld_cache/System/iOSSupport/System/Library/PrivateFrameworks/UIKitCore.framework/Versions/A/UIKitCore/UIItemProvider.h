@@ -11,47 +11,47 @@
     NSDictionary *_teamMetadata;
 }
 
-- (id)hStateChanged:forActivitySession: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1 filter: /* Error: Ran out of types for this method. */;
-- (void)Private;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)!;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (struct CGSize)iltering:Parsing TrustKit output /* Error: Ran out of types for this method. */;
-- (id)mpatibilityOverride:(Class)arg1 %@, recipients support hqp:(id *)arg2 %@, hqp enabled:%@ /* Error: Ran out of types for this method. */;
-- (id)ze to report:(Class)arg1 %lu, actual file size:(CDUnknownBlockType)arg2 %lu, allowCompatibilityOverride:%@, recipients support hqp:%@, hqp enabled:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ges from update zone %@;
-- (void)nc state, and fetching the updates again %@;
-- (id)t an expired server change token back so resetting local sync state, and fetching the updates again %@;
-- (id)**;
-- (id)or while fetching updates. %@;
-- (void)zone changes operation %@;
-- (id)efault, and skipping Update syncs;
-- (id)learing local updates sync state, flags 0x%x;
-- (_Bool)@;
-- (_Bool)ssage time date (%@) guid (%@) timestamp:(Class)arg1 (%@) Messages time date (%@) timestamp:(%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id)o;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)!,CùñÁð1¢!0@ù
+- (id)ÑcÐ1Â0@ù
 × ;
-- (id)4@32{CGRect={CGPoint=dd}{CGSize=dd}}40;
-- (id)ache: /* Error: Ran out of types for this method. */;
-- (void)ansitionStartBackdropView;
-- (id)SceneIdentifier;
-- (void)Hí;
+- (void)@16q24;
+- (void);
+- (void)Ê>g;
+- (id)0;
 
 // Remaining properties
 @property(nonatomic) struct CGSize estimatedDisplayedSize;

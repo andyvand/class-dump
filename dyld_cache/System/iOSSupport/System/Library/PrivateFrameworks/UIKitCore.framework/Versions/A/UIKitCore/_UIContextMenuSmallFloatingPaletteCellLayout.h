@@ -30,18 +30,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (unsigned long long)oller";
-- (id)48@0:8@"IDSService"16@"IDSAccount"24@"NSString"32@40 /* Error: Ran out of types for this method. */;
-- (_Bool)atedMessageRange: /* Error: Ran out of types for this method. */;
-- (void)essage %s at message part %ld.;
-- (id)erver Bag has no value for max-spam-messages-per-report, using the default 2;
+- (unsigned long long);
+- (id);
+- (_Bool);
 - (void);
-- (void)0@ù
+- (id);
+- (void)!ÄFùqaÐ1Â0@ù
 × ;
-- (void)reRecognizers;
-- (id)ted use of UIKit API off the main thread:UIGuidedAccessRestrictionStateForIdentifier() /* Error: Ran out of types for this method. */;
-- (long long)NSMutableArray * _Nonnull __strong);
-- (id)BackgroundSuppression;
+- (void),N,V_stateWhenDelivered;
+- (long long);
+- (id);
+- (void)Î{;
+- (id)Øçb;
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;

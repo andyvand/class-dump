@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)x;
 - (double);
-- (double);
-- (double)Title;
-- (double)<W;
 - (double);
 - (long long);
 - (double);
-- (double)eSheet>",R,N,V__connectedRemoteSheet;
-- (double)ionDefinitionDelegateInvokableP;
+- (double);
+- (double);
+- (double);
+- (double)gVelocityThreshold: /* Error: Ran out of types for this method. */;
+- (double);
+- (double)a;
 
 @end
 

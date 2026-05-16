@@ -41,28 +41,21 @@
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -70,72 +63,81 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (double);
+- (id);
 - (void);
 - (double);
 - (id);
-- (id)_~;
-- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (double);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool)× ;
+- (id)!xDù1HÐ1â
+0@ù
+× ;
+- (_Bool)desiredSeekTime: /* Error: Ran out of types for this method. */;
+- (void)lections:(id)arg1;
+- (id)sultHandler: /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 identifier:registerIfNeeded: /* Error: Ran out of types for this method. */;
+- (id)nvalidateResourcePreloading;
+- (id)omSuggestions: /* Error: Ran out of types for this method. */;
+- (double)isDFITogglingSidebar;
+- (id)ekRequest;
 - (id);
 - (long long);
+- (id)owBattery_AlertTitle_Description;
+- (id)ifier:(id)arg1 %@;
+- (id)turedPhotos;
+- (void)P;
+- (id)eted;
+- (_Bool)Extra Duration;
+- (id)bumMigratedBanner;
+- (void)ðÿ­ÂÇ¨ðÿµÂÇ´ðÿÅÂÇÀðÿÅÂÇØðÿÅÂÇ;
+- (void)BackingObject;
 - (id);
-- (id);
+- (void)3;
+- (id)Çèªÿ}öÇäªÿöÇ(fÿ;
+- (id)~È'Ä;
 - (void);
 - (id);
-- (id);
+- (id)Éü9Jÿ;
 - (void);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (double);
-- (void);
-- (id)trollerDelegate>";
-- (id)ate;
-- (id)tleTextColor;
-- (_Bool)r: /* Error: Ran out of types for this method. */;
-- (id)entEndBlock;
-- (id)s;
-- (void)locityThreshold;
-- (void)ResponsiveScrolling;
-- (void)apshot;
-- (void)ransformer;
-- (id);
-- (_Bool);
-- (void)`§ûÿî®øÿ;
-- (void)ÿøÿüûÿf;
-- (id);
-- (id)|}üÿn¾ûÿäüÿ;
-- (void)$_logger;
-- (void)ets;
-- (id).;
-- (void)lection;
-- (id)on.m;
-- (_Bool)omposition activated before it has any tiling controller;
-- (id)salMutableController7Mutator;
-- (id);
-- (_Bool);
-- (void)ÆÿuLØ4;
-- (id);
-- (void)oô4;
-- (id)L;
+- (void)ÑÉõ;
+- (id);
+- (void)4;
+- (id)xí­ÿãÎR@5;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *actionTypeByBarButtonItem; // @synthesize actionTypeByBarButtonItem=_actionTypeByBarButtonItem;

@@ -28,28 +28,30 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void);
 - (_Bool);
-- (void);;
-- (_Bool);
-- (id);
-- (void)ro length fileOpaqueReferenceDataLength.;
-- (long long);
+- (void);
 - (id);
 - (double);
-- (void)1¢!0@ù
-× ;
-- (double)u°! @ùñÉ°1¢!0@ù
-× ;
-- (void)askedOverlayView:(_Bool)arg1;
-- (_Bool)nQueue;
-- (_Bool)nectFromAssetManager;
-- (void)IFocusFastScrollingIndexBarEntry",&,N,V_selectedIndexTitleEntry;
-- (id)kGeneratorConfiguration",R,N,G_edgeConfiguration;
-- (id)ine;
+- (void);
 - (_Bool);
-- (_Bool)nDisposition:%ld /* Error: Ran out of types for this method. */;
-- (void)t;
-- (void)MIÿ=@Ù7k;
+- (id);
+- (void);
+- (_Bool);
+- (void)!<FùYÐ1Â0@ù
+× ;
+- (long long)× ;
+- (double)Ô!
+ð!äBù±f1Â0@ù
+× ;
+- (void)Â0@ù
+× ;
+- (_Bool)InSwiftUIEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)awingAndReturnFence;
+- (id)ð;
+- (id)o a terminal state, which is invalid. These gestures will be cancelled to unblock responder event delivery of the new sequence for this touch:(id)arg1 %{public}@;
+- (void)P£Ñ$Gi;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool animateFromCurrentPosition;

@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
+- (_Bool)eft"d"right"d};
+- (_Bool):(id)arg1 8@"UITextRange"16@"NSAttributedString"24;
+- (id)NextResponder;
+- (long long)set;
 - (_Bool);
-- (id)Rect={CGPoint=dd}{CGSize=dd}}16;
-- (long long);
-- (_Bool)ocus movement should always produce a context, even if the focus movement failed.;
-- (_Bool)Ê];
 
 // Remaining properties
 @property(readonly, nonatomic) long long index; // @synthesize index=_index;

@@ -8,7 +8,7 @@
 
 @interface NewsPersonalization.RecipeUserEventHistoryFeaturesFactory
 {
-    MISSING_TYPE *dataProvider;
+    MISSING_TYPE *userEventHistory;
     MISSING_TYPE *computeService;
     MISSING_TYPE *features;
     MISSING_TYPE *eventCount;

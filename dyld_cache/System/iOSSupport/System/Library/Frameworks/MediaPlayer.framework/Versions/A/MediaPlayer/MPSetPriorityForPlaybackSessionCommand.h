@@ -14,9 +14,9 @@
 }
 
 - (void);
-- (id)(B;
 - (id);
-- (void);
+- (id);
+- (void)tURL_KEY;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *preloadedSessions; // @synthesize preloadedSessions=_preloadedSessions;

@@ -25,8 +25,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
+- (void)Ññ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PRPosterColor *baseColor;

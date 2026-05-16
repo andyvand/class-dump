@@ -7,10 +7,6 @@
 @protocol MTLBuffer;
 
 @protocol MTLBuffer
-- (void);
-- (id <MTLBuffer>)±Â°1¢!0@ù
-× ;
-- (unsigned long long)ifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long gpuAddress;

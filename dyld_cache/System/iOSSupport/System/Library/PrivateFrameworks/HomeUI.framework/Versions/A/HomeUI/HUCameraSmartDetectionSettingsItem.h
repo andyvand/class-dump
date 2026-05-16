@@ -19,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)@"HMOutgoingHomeInvitation"8@"HMOutgoingHomeInvitation"16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;

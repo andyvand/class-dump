@@ -26,10 +26,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (_Bool);
+- (void)tcutsSidebarSection;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *barItems;

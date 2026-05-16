@@ -12,13 +12,13 @@
 }
 
 - (void);
-- (id)UserAction;
-- (void)upEmitterFactory;
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)`B;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

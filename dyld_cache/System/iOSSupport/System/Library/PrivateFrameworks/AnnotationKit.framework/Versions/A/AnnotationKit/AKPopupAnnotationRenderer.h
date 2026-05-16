@@ -11,9 +11,9 @@
 }
 
 + (void);
-+ (_Bool);
 + (_Bool);
-+ (struct CGRect)D;
++ (_Bool);
++ (struct CGRect);
 + (struct CGSize);
 
 @end

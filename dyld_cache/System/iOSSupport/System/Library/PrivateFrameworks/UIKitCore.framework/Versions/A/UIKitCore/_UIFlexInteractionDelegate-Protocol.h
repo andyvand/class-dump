@@ -5,6 +5,5 @@
 //
 
 @protocol _UIFlexInteractionDelegate
-- (void)ityOfService;
 @end
 

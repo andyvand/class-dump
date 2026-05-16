@@ -5,6 +5,5 @@
 //
 
 @protocol NSRemoteTitlebarToolbarRenameSessionDelegate
-- (void);
 @end
 

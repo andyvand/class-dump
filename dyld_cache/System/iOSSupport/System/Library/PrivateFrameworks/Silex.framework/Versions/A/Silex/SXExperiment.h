@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)ataSource>",W,N,VaccessibilityDataSource;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;

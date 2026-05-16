@@ -18,8 +18,8 @@
 
 - (void);
 - (void);
-- (void);
-- (id)_	;
+- (id);
+- (void);
 
 @end
 

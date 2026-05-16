@@ -15,8 +15,8 @@
 + (id);
 - (id);
 - (id);
-- (void);
-- (id)on:] /* Error: Ran out of types for this method. */;
+- (id)ID;
+- (void)ÿÿ6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *queryName; // @synthesize queryName=_queryName;

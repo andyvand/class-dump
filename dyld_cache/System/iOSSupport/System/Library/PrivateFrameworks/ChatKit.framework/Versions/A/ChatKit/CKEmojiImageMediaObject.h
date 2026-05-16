@@ -20,15 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (id));
 - (id);
-- (id)otesUI.ICCollaborationAnalyticsTrackerInternal;
-- (_Bool);
-- (id)otes Password?;
-- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id)f;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canDeleteFromStickerDetails;

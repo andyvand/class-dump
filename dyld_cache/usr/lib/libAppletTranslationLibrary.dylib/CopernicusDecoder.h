@@ -39,17 +39,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)yerButton.component_name;
-- (id)ater than start number.;
 - (void);
+- (id);
 - (unsigned int);
-- (void);
-- (void);
-- (id);
-- (unsigned char)_LabeledSetting;
-- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (unsigned char);
+- (id);
+- (void);
+- (void)NumRecords: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *endPointIdentifier; // @synthesize endPointIdentifier=_endPointIdentifier;

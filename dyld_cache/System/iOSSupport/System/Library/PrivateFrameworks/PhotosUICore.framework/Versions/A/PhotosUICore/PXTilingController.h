@@ -157,8 +157,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -172,29 +172,28 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)
-× ;
-- (void)ectKind;
-- (id)ment: /* Error: Ran out of types for this method. */;
-- (id)namicRange;
-- (id)Change;
-- (id)adgetControllerFinishedUpdatingDataSourceWithChange: /* Error: Ran out of types for this method. */;
-- (id)8/¤/0<4È6;
+- (id)Index;
+- (void)lue;
+- (void)pÊÿ;
+- (void)e_;
 - (id);
-- (id)¢[ÿ;
-- (void)ve confirmation;
+- (void)4Ê<ÿ;
+- (id)ÔÚ;
+- (void)¸cÓÿàT¸^4;
 
 // Remaining properties
 @property(nonatomic, setter=_setActiveRect:) struct CGRect _activeRect; // @synthesize _activeRect=__activeRect;

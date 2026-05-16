@@ -36,7 +36,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void){;
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -50,14 +50,13 @@
 - (id);
 - (void);
 - (void);
-- (long long)iverProtocol>"32B40@?<v@?@"NSError">44;
-- (id);
 - (id);
 - (id);
-- (void)@;
 - (void);
-- (void)QR°1¢!0@ù
-× ;
+- (id);
+- (void);
+- (void);
+- (long long){?="__size_"Q}}};
 
 // Remaining properties
 @property(nonatomic) long long cancelButtonIndex;

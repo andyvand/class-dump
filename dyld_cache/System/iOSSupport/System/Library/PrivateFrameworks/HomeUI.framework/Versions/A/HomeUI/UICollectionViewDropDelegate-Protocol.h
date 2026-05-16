@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView, UICollectionViewDropProposal, UIDragPreviewParameters;
+@class UICollectionView;
 
 @protocol UICollectionViewDropDelegate
 
 @optional
-- (UICollectionViewDropProposal *);
-- (void)ouchStartTime;
-- (UIDragPreviewParameters *)etMaxHeightConstraints:(UICollectionView *)arg1;
-- (void)llChangePublisher;
+- (_Bool)1Ð1â
+0@ù
+× ;
+- (void);
+- (void)dItems:(UICollectionView *)arg1;
 @end
 

@@ -14,14 +14,14 @@
     id <SWLogger> _logger;
 }
 
-- (id)wSupplementaryProviderDelegate;
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType)kB;
 - (id);
+- (void);
+- (void);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id)ject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=onError:) CDUnknownBlockType block; // @synthesize block=_block;

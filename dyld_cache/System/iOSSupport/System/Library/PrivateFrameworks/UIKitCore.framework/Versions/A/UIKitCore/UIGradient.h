@@ -11,10 +11,10 @@
     struct CGShading *_shader;
 }
 
-- (id)ling and passing input to next pipeline;
-- (void)sync so device has started doing periodic syncs. Logging full periodic sync metric.;
+- (id);
 - (void);
 - (void);
+- (void)ceOrientationSettingsDiffAction;
 
 @end
 

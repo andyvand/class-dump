@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (unsigned long long);
 - (double);
+- (unsigned long long);
 - (void);
-- (void);
+- (void)peActionsConfigurationForRowAtIndexPath:(unsigned long long)arg1;
 
 // Remaining properties
 @property(nonatomic) struct CGRect anchorRect; // @synthesize anchorRect=_anchorRect;

@@ -11,13 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)@"BKSAnimationFenceHandle";
-+ (_Bool)mpting to associate invalid window:%@; isHosted:%d; isNotDeallocating:%d; isPrimaryHostedWindowElsewhere:%d; sessionIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (void)Áq!0BùñÄ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16B24B28B32r*36r*44r*52I60I64i68i72i76B80;
++ (_Bool);
++ (_Bool);
+- (void)genceRate:(id)arg1;
+- (void)nToReplacements:(id)arg1;
+- (void)d with the proposedEffect when used as a custom view in a UINavigationBar or UIToolbar;
 
 @end
 

@@ -17,19 +17,19 @@
 
 - (void);
 - (_Bool);
-- (_Bool)<;
 - (_Bool);
-- (void)<;
+- (_Bool);
+- (void);
 - (void);
 - (double);
 - (double);
 - (_Bool);
 - (void);
 - (void);
-- (double)atedText:completionHandler: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
 - (void);
-- (id)rbGestureWithState: /* Error: Ran out of types for this method. */;
-- (void)sertSections(_:) /* Error: Ran out of types for this method. */;
+- (void)½<þÿ¬ûýÿÖ`ýÿaýÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;

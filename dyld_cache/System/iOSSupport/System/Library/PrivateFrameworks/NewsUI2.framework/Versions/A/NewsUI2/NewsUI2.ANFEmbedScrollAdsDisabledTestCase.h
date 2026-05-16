@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long);
-- (double)e from %s to %s;
-- (id);
-- (long long);
+- (void)ThTÿ;
+- (id)}aGd;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

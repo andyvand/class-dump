@@ -14,8 +14,8 @@
 - (long long);
 - (id);
 - (id);
+- (id)/LemonadePhotosPagingGrid.swift;
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id content; // @synthesize content=_content;

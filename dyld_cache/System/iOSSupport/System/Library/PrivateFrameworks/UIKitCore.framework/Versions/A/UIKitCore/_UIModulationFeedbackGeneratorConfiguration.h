@@ -15,18 +15,17 @@
     CDUnknownBlockType _feedbackUpdateBlock;
 }
 
-+ (id)°1¢!0@ù
-× ;
-+ (id)DùQÍð1¢!0@ù
-× ;
-- (long long);
-- (id)ectionDisabled;
++ (id)SceneHopping: /* Error: Ran out of types for this method. */;
++ (id)UIKitCore/UIMenuBuilder.swift;
 - (void);
-- (void);
-- (id)nabled: /* Error: Ran out of types for this method. */;
-- (void)ttonShapesNoBlendModeBackgroundColorOnDark;
-- (CDUnknownBlockType)ÁÂ;
-- (id)Çx`;
+- (CDUnknownBlockType);
+- (long long);
+- (id);
+- (void)!Cù`1Â0@ù
+× ;
+- (id)trollerPreviewing>"16@"UIViewController"24;
+- (id)skAlpha;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackContinuousPlayable> *feedback; // @synthesize feedback=_feedback;

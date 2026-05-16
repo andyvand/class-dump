@@ -31,13 +31,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (struct CGSize);
 - (void);
-- (struct CGSize);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
 - (void);
-- (id)kingDotContainer;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *hostedConstraints; // @synthesize hostedConstraints=_hostedConstraints;

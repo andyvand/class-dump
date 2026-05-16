@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (double);
-- (void);
-- (id)a;
 - (int);
+- (void);
+- (double)áø°!;
+- (id);
+- (void)ùÇìñ;
 
 // Remaining properties
 @property(nonatomic) int currentRequestID; // @synthesize currentRequestID=_currentRequestID;

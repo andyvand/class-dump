@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *recordedSpriteIndexes;

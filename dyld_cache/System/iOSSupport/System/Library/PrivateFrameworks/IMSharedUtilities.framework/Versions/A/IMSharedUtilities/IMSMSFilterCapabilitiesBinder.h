@@ -9,7 +9,7 @@
 }
 
 + (int);
-+ (id)儹hh8h;
++ (id);
 + (long long);
 + (_Bool);
 + (void);

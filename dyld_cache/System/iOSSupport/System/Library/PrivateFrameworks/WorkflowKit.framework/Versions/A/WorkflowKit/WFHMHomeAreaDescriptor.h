@@ -15,22 +15,22 @@
     NSString *_homeName;
 }
 
-+ (_Bool)ts at the left of the image. (WFPercentageTextX);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)tþÿ;
+- (void)nly see some but not all of your data in the results, make sure that âAllow Shortcuts to read dataâ is set to on in the Health app.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long areaType; // @synthesize areaType=_areaType;

@@ -18,9 +18,9 @@
 
 - (void);
 - (void);
-- (void)aptionTextButton;
+- (id);
 - (void);
-- (id)ion:session:willAddItems:forInteraction: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties

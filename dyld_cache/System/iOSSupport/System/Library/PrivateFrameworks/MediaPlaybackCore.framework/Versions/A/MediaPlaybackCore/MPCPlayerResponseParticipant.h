@@ -16,16 +16,16 @@
     NSString *_displayName;
 }
 
-- (id)one;
 - (id);
-- (id);
-- (long long);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (long long);
+- (id);
+- (void)t (eventID:%{public}@ item:%{public}@ %{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

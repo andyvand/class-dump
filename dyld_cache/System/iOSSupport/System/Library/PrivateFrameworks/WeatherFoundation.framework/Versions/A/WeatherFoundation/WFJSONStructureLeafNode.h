@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isRequired) _Bool required; // @synthesize required=_required;

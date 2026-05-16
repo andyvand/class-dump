@@ -8,8 +8,8 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (id <NSCollectionLayoutContainer>)EARCH_PHOTOS_ALL_TITLE;
-- (UITraitCollection *)JÿJÿpê¼;
+- (id <NSCollectionLayoutContainer>)l videoComplement %@, [videoComplement imagePath] %@, [videoComplement videoPath] %@;
+- (UITraitCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;

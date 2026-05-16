@@ -33,11 +33,10 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)1B0@ù
-× ;
-- (void)O;
+- (void)delete any %@.;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *defaultStates; // @synthesize defaultStates=_defaultStates;

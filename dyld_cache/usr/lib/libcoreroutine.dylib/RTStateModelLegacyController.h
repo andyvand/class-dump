@@ -20,15 +20,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id)`";
-- (void);
 - (void);
 - (id);
+- (void);
+- (id)4EÜEK;
+- (void)%@, %@, fetched loi from homekit location, %{sensitive}@, error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;

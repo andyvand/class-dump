@@ -131,8 +131,8 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);

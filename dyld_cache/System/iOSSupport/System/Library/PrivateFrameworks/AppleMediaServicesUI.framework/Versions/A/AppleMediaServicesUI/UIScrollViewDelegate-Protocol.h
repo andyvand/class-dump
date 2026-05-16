@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)êë9y8AOGGAKGADyADyAMyADy,ÿ7ÿ÷7yÁþ7GGGAKG6é7GtGG;
-- (void)[%{public}@] Successfully fetched assessment;
+- (void)GG_Ýä0tGG=Ñ0GATGAByaæ0$ü2G_G;
 @end
 

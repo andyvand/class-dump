@@ -14,11 +14,10 @@
     MISSING_TYPE *numberOfAssertions;
 }
 
-- (void)!tFùÄÐ1¢!0@ù
-× ;
-- (id)xt;
-- (_Bool);
-- (void)L®j;
+- (id);
+- (_Bool)detection-pattern.dd.money;
+- (void);
+- (void)nl;
 
 @end
 

@@ -13,11 +13,10 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (unsigned long long)!,@ùqf1B0@ù
-× ;
-- (id)øÛ¤;
+- (unsigned long long);
+- (id);
+- (void)passed into the action.;
 
 // Remaining properties
 @property(nonatomic, readonly) CHSControlIdentity *identity; // @synthesize identity;

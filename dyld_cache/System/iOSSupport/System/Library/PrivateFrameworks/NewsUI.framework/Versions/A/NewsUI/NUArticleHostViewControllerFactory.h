@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (id)i;
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUArticleViewControllerFactory> articleViewControllerFactory; // @synthesize articleViewControllerFactory=_articleViewControllerFactory;

@@ -16,21 +16,21 @@
 
 - (id);
 - (void);
-- (void)A;
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id)S	;
-- (long long)%A9;
-- (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)-Am;
-- (void);
 - (id);
+- (_Bool);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)odifierCommand;
 
 // Remaining properties
 @property(readonly, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;

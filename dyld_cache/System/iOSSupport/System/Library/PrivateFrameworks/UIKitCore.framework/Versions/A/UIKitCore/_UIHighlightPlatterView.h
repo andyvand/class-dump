@@ -23,19 +23,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)bag disabled spam filtering debug ui;
+- (id);
+- (_Bool);
+- (double);
+- (void)!dDùQað1Â0@ù
+× ;
+- (void)mator:(id)arg1 animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (id),&,N,V_nextInputModeToUse;
+- (double);
+- (id)ing a UIBarButtonItemGroup (representativeItem=%@, barButtonItems=%@);
+- (void)@Û|[;
+- (void)`sqþâñÏ¼ò^;
 - (void);
-- (void)0@ù
-× ;
-- (void)!L@ùñÄ°1¢!0@ù
-× ;
-- (void)veResult>>="__begin_"^{_UIRegionSolveResult}"__end_"^{_UIRegionSolveResult}""{?="__cap_"^{_UIRegionSolveResult}}};
-- (id)llInteractionEnabled: /* Error: Ran out of types for this method. */;
-- (double)arplayConstraints;
-- (id)entation is in progress.;
-- (_Bool)(Ò±þ;
-- (double)ø~\;
-- (void)Ma;
 
 // Remaining properties
 @property(nonatomic) double backgroundAlpha; // @synthesize backgroundAlpha=_backgroundAlpha;

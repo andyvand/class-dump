@@ -11,11 +11,11 @@
 }
 
 + (struct CGPoint);
-+ (struct CGPoint);
++ (struct CGPoint);
 + (void);
 + (unsigned long long);
 + (struct CGPoint);
-+ (struct CGPoint);
++ (struct CGPoint);
 + (struct CGPoint);
 
 @end

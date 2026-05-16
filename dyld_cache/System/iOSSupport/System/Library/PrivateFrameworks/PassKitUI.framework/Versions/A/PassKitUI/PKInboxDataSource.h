@@ -34,9 +34,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)!©°!hGùøð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long badgeCount; // @synthesize badgeCount=_badgeCount;

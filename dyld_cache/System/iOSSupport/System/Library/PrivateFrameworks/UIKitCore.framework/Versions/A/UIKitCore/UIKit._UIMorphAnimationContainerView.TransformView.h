@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class)e;
++ (Class);
 - (id);
-- (id)Unexpectedly found duplicate parentMenus. This is a UIKit internal bug.;
+- (id)eferencePropagationHostComponent;
 
 @end
 

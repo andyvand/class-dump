@@ -11,18 +11,18 @@
     long long _onboardingResult;
 }
 
-+ (id)rationWiFiOptions;
-+ (id)È0Í;
++ (id);
++ (id)oarding;
 - (id);
 - (long long);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)bled;
-- (id)}@Unsubscribe to new object's accessory info data provider;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

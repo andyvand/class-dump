@@ -16,16 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (id)J;
-- (void);
 - (id);
 - (id);
+- (void)t update anymore:deadline fired /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *cards;

@@ -30,7 +30,7 @@
 - (id);
 - (void);
 - (id);
-- (void)s/A/AACCore;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -42,7 +42,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)WFPocketItemSearchTags;
 
 // Remaining properties
 @property(retain, nonatomic) DNDModeConfigurationService *configurationService; // @synthesize configurationService=_configurationService;

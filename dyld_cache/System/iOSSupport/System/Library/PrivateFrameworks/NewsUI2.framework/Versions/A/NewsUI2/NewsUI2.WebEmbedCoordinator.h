@@ -9,6 +9,7 @@
 @interface NewsUI2.WebEmbedCoordinator
 {
     MISSING_TYPE *tracker;
+    MISSING_TYPE *articleDataFactory;
 }
 
 @end

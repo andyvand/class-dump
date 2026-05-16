@@ -38,11 +38,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)`;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,10 +58,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
+- (void)rdinateSpace: /* Error: Ran out of types for this method. */;
+- (void)P|R0½ë23üª;
 
 // Remaining properties
 @property(retain, nonatomic) _UIPointerSBAppIconEffectSettings *SBAppIconEffectSettings; // @synthesize SBAppIconEffectSettings=_SBAppIconEffectSettings;

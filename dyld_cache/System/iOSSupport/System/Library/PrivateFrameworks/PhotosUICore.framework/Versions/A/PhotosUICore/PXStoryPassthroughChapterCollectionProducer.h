@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void)è9à?¸ì¨;
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryChapterCollectionManager *chapterCollectionManager; // @synthesize chapterCollectionManager=_chapterCollectionManager;

@@ -11,11 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)T;
-- (void)awð!<AùÌ1¢!0@ù
-× ;
-- (void)ÿ^È}þ;
-- (void)sGeometry.m;
+- (void)rnalContextMenuInteractionDelegate: /* Error: Ran out of types for this method. */;
+- (void)nizersFromContainer:withBlock: /* Error: Ran out of types for this method. */;
+- (void)empt to present %@ on %@ which is waiting for a delayed presention of %@ to complete;
+- (void)ectBlurStyle;
 
 @end
 

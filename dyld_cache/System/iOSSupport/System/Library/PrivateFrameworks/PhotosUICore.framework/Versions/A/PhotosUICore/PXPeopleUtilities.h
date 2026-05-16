@@ -91,7 +91,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)tonTimer;
++ (id);
 
 @end
 

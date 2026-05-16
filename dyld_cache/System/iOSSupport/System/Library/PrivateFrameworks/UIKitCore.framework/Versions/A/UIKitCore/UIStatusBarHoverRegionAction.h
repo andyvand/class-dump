@@ -9,10 +9,9 @@
 }
 
 - (id);
-- (id)áu°!`EùqÊÐ1¢!0@ù
-× ;
-- (long long);
-- (long long)_attributedText;
+- (id);
+- (long long);
+- (long long)µÛü/h;
 
 // Remaining properties
 @property(readonly, nonatomic) long long region;

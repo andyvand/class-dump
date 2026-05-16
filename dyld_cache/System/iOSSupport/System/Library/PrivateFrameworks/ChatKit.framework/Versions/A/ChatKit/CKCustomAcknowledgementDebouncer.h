@@ -15,10 +15,11 @@
 }
 
 - (void);
-- (id);
-- (void)`;
 - (void);
 - (id);
+- (id)1Â0@ù
+× ;
+- (void)SendMenuDismissingCollectionViewLayout;
 
 // Remaining properties
 @property(nonatomic) __weak CKConversation *conversation; // @synthesize conversation;

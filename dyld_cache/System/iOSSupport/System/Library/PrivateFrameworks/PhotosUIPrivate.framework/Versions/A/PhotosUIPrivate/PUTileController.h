@@ -64,21 +64,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
 - (_Bool);
-- (id)/Æ;
+- (void);
+- (void)_showPhotoInLibrary;
+- (void)Photo;
+- (id)ckerCoordinator moveItemWithIdentifier:afterIdentifier:] /* Error: Ran out of types for this method. */;
+- (id)x;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

@@ -11,25 +11,25 @@
 {
 }
 
-- (double)ze:commonCapabilities: /* Error: Ran out of types for this method. */;
+- (double);
 - (long long);
-- (_Bool)>;
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)7_pG;
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)efaulting to %@;
-- (_Bool)notified recipient with GUID=%@:message not found /* Error: Ran out of types for this method. */;
-- (_Bool)not updated syndication ranges for message item with guid %@. newRange:%@ /* Error: Ran out of types for this method. */;
-- (double)to destinations %@;
-- (_Bool)list of available aliases;
+- (id);
+- (_Bool);
+- (_Bool);
+- (double);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -37,15 +37,16 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (unsigned long long)a°1Â0@ù
+× ;
 - (id);
-- (unsigned long long)ceOrientation: /* Error: Ran out of types for this method. */;
-- (void)BeginAfterSatisfyingFailureRequirements;
-- (void)fNeeded:(unsigned long long)arg1 gapWidth: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)à}ÿÿüÿà}ÿÿàÖüÿâ}ÿÿrýÿè}ÿÿrýÿÆÊüÿr¸üÿ;
-- (void)ingInProcessAnimation;
+- (id)resetRenderingModesForBackgroundImageView:(long long)arg1 inBarStyle:(id)arg2 isEnabled:(unsigned long long)arg3 withAccessibilityBackground:wantsBlendModeForAccessibilityBackgrounds:accessibilityBackgroundTintColor: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)À{þÿ;
+- (id)3Üuþ;
+- (void);
+- (long long)ÈÜl¢\;
+- (void)[o;
 
 // Remaining properties
 @property(retain, nonatomic) UISClickAttribution *clickAttribution;

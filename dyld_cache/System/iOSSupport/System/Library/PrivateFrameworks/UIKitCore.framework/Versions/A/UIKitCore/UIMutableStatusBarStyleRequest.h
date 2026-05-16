@@ -14,11 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void)AccessoryButtonMinus;
-- (void)ction"16d24B32;
-- (void):(id)arg1 ;
-- (void)R-;
+- (void);
+- (void)!tCùQg1Â0@ù
+× ;
+- (id)PageControlIndicatorContentView;
+- (void)Éÿä;
+- (void)ÈÞÿ"q};
 
 // Remaining properties
 @property(nonatomic) double foregroundAlpha; // @dynamic foregroundAlpha;

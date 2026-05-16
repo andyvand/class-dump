@@ -75,17 +75,17 @@
 - (void);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 - (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (_Bool);
 - (id);
 - (_Bool);
-- (id)lizable;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowDecorations; // @synthesize allowDecorations=_allowDecorations;

@@ -5,10 +5,5 @@
 //
 
 @protocol TSDiOSCanvasViewControllerDelegate
-
-@optional
-- (_Bool);
-- (Class);
-- (_Bool);
 @end
 

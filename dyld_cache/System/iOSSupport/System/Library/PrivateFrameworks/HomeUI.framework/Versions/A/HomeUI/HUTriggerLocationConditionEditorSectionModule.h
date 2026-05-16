@@ -37,11 +37,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)PresentingViewControllerDismissal;
+- (id);
+- (void);
+- (void)(%s) User tapped don't turn off button '%@' from the alert popup;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *anyLocationOptionItem; // @synthesize anyLocationOptionItem=_anyLocationOptionItem;

@@ -29,9 +29,8 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)--------- End options for:%@ ----------- /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

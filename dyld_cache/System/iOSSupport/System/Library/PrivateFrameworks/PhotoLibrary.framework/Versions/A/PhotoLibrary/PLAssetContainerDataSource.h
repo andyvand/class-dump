@@ -51,8 +51,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (unsigned long long);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *assetCollectionsFetchResult; // @synthesize assetCollectionsFetchResult=_assetCollectionsFetchResult;

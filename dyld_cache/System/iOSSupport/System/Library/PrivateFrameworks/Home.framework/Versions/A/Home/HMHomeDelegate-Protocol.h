@@ -7,7 +7,7 @@
 @protocol HMHomeDelegate
 
 @optional
-- (void)oControlObserver;
-- (void)À;
+- (void)× ;
+- (void)tingDeviceOptionsAdapterUtility;
 @end
 

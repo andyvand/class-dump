@@ -22,10 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (void)sWithProfile: /* Error: Ran out of types for this method. */;
-- (id)hangeMovieTitle;
-- (void)matMetadata;
 - (void);
+- (void)s point;
+- (void);
+- (id)á3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

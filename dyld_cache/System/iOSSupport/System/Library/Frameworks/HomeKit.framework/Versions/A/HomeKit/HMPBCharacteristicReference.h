@@ -17,19 +17,19 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool)erver>"8;
+- (void)à>;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasServiceReference;

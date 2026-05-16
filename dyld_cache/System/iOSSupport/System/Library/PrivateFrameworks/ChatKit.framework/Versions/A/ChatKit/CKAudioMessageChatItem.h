@@ -13,6 +13,7 @@
     _Bool _isExpanded;
 }
 
+- (_Bool);
 - (Class);
 - (unsigned long long);
 - (id);
@@ -20,9 +21,9 @@
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
 - (Class);
 - (_Bool);
-- (_Bool)'®y­y×­yñH>_Qo__¯f­y]­GQo__Qo_ÜB>GSSGG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *audioTranscriptionText;

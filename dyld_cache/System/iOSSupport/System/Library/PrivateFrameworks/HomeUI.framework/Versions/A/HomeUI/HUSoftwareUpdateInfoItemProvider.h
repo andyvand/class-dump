@@ -18,14 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (CDUnknownBlockType);
-- (id)Ð!LBùQ.°1b0@ù
-× ;
-- (id)h;
+- (id);
+- (id);
+- (CDUnknownBlockType)dView";
+- (void);
+- (void)utility id %s;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

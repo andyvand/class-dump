@@ -7,19 +7,17 @@
 @class CHHapticPattern, NSURL, _UIFeedbackParameters;
 
 @protocol _UIFeedbackData
-- (_Bool)!;
-- (_UIFeedbackParameters *);
-- (unsigned long long)(;
-- (unsigned int)Õ½¹;
-- (float)!AùqÁ1¢!0@ù
+- (float)
 × ;
-- (_UIFeedbackParameters *)ÀAùQÄ1¢!0@ù
-× ;
-- (unsigned long long)ÆÐ1¢!0@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (unsigned long long)ew]-(bottomImageInset)-|;
+- (_Bool)× ;
+- (_UIFeedbackParameters *)Name:point:inView: /* Error: Ran out of types for this method. */;
+- (unsigned long long)nteractiveMoveEnds;
+- (_Bool)ce;
+- (double)_UICalendarMonthYearSelectorDelegate;
+- (CHHapticPattern *)ð;
+- (unsigned int)become a hard crash in a future release;
+- (float)a future version.;
+- (NSURL *);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFeedbackParameters *audioParameters;

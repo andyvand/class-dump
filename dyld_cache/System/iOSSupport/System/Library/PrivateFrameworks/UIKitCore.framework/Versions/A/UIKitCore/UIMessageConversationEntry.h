@@ -12,8 +12,8 @@
     long long _dataKind;
 }
 
-- (_Bool)d28@?36;
-- (void)WithQueryID:(_Bool)arg1;
+- (_Bool);
+- (void);
 - (long long);
 - (id);
 - (void);

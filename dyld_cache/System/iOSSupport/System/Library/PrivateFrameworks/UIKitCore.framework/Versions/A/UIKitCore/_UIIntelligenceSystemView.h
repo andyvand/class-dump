@@ -15,24 +15,24 @@
     CDUnknownBlockType __connectionActionProvider;
 }
 
-+ (Class)´-.0.;
++ (Class);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void)rTransfer:(_Bool)arg1 fromCKRecord: /* Error: Ran out of types for this method. */;
-- (id)edWithCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id)eCompatibleBodyForMessage:processedMessageItem: /* Error: Ran out of types for this method. */;
-- (void)OnAccountUpdateIfAppropriate;
-- (void)DSTrustedData",R,N;
-- (void)ustKitManager;
-- (void)"IMDTrustKitDecisioningManager",&,N,V_trustKitManager;
-- (_Bool),N,V_proxyAccount;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void)0:(id)arg1 8@16@24B32@36d44{CGPoint=dd}52;
+- (void)ÔâÜæç¼è;
+- (void)ng, CGRect);
+- (void)__UIListContentTextAlignment;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _connectionActionProvider; // @synthesize _connectionActionProvider=__connectionActionProvider;

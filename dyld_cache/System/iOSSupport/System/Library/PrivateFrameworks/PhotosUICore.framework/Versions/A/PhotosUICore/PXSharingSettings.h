@@ -51,7 +51,7 @@
     long long _sharingHeaderLocationDisplayStyle;
 }
 
-+ (id)9;
++ (id)PhotosCollectionPreviewPlayer;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -135,9 +135,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)itOneUpFromMemoriesDetailShowMore;
-- (id)ationControllerSourceItem>">24@?0q8q16;
+- (id)activityPosterTextAttributes;
 
 // Remaining properties
 @property(nonatomic) _Bool allowCopyingVideos; // @synthesize allowCopyingVideos=_allowCopyingVideos;

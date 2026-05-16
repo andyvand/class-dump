@@ -12,12 +12,12 @@
 }
 
 + (id);
-+ (_Bool)e}@ uniqueIdentifier=%{private}@;
++ (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)on:task:didCompleteWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *relatedProperties; // @synthesize relatedProperties=_relatedProperties;

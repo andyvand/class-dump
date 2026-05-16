@@ -26,18 +26,18 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (struct IMMessagePartRanges)es;
+- (struct IMMessagePartRanges)onalSubscriptionWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)gArchiveOnly;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *encodedMessagePartGUID; // @synthesize encodedMessagePartGUID=_encodedMessagePartGUID;

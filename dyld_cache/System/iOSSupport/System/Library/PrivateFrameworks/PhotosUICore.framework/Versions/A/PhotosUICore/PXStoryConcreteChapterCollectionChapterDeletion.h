@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<NSCopying> *deletedChapterIdentifier; // @synthesize deletedChapterIdentifier=_deletedChapterIdentifier;

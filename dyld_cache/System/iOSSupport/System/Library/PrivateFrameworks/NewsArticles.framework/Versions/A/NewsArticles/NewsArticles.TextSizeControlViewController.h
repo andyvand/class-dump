@@ -21,13 +21,13 @@
 
 - (long long);
 - (void);
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
-- (id);
-- (void)	;
-- (void)µS;
+- (void);
+- (void)appConfigurationManager;
 
 // Remaining properties
 @property(nonatomic) struct CGSize preferredContentSize;

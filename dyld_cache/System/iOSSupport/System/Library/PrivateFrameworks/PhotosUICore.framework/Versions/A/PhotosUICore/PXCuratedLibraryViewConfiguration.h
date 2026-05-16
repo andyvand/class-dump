@@ -55,15 +55,15 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)éÿÐéÿôéÿéÿTéÿxéÿÄéÿéÿ\éÿÈéÿôéÿ éÿDéÿ¨·çÿäçÿØ·çÿçÿHçÿôEçÿpéÿéÿÄéÿøéÿüéÿ¤éÿ0 éÿ@!éÿd!éÿ"éÿ¤"éÿÜ#éÿ;
-- (id)íý7;
+- (id);
+- (id)Q}{?=Q}{?=Q}{?=cc})}24{?=qd(?={?=QQ}{?=Q}{?=Q}{?=cc})}56{?=q(?={?=QQ}{?=Q}{?=Q})}88;
+- (void);
+- (id),ÏÿáÖOèÑ5;
 
 // Remaining properties
 @property(nonatomic) unsigned long long allowedInteractiveDismissBehaviors; // @synthesize allowedInteractiveDismissBehaviors=_allowedInteractiveDismissBehaviors;

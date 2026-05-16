@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)llColor;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;

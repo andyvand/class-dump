@@ -20,16 +20,16 @@
 - (id);
 - (struct UIEdgeInsets);
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (struct CGSize);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets atomInsets;

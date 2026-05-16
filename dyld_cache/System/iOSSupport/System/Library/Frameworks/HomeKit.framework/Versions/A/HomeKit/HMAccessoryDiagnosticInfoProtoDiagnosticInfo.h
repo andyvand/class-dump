@@ -43,21 +43,21 @@
 - (double);
 - (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (int);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
+- (id);
+- (_Bool);
+- (void)}@Unconfiguring service;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessoryDiagnosticInfoProtoAppleMediaAccessoryDiagnosticInfo *appleMediaAccessoryDiagnosticInfo; // @synthesize appleMediaAccessoryDiagnosticInfo=_appleMediaAccessoryDiagnosticInfo;

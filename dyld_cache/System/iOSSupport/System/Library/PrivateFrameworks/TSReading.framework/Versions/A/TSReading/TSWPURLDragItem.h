@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (struct CGPoint);
-- (struct _NSRange)Layout;
+- (struct _NSRange);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint canvasDragPoint; // @synthesize canvasDragPoint=_canvasDragPoint;

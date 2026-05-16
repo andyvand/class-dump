@@ -63,23 +63,24 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)!àAù±à°1B50@ù
+× ;
+- (void)D²;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories;

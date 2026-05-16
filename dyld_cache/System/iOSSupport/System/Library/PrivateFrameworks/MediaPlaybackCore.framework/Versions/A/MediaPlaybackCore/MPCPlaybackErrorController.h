@@ -22,24 +22,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)@0:(id)arg1 8@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
-- (void)entifiers:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)"NSError">24;
-- (id)DAccountNotificationPlugin;
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (long long);
-- (long long)2@0:(id)arg1 8@16@24;
-- (void)account:(id)arg1 bag:(id)arg2;
-- (void)rProcessInfo:(id)arg1;
-- (_Bool)ore removing it.;
+- (long long);
 - (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)loadedTimeRanges;
+- (id);
+- (void)lic}@ô¥ RENDERING MODE CHANGED     %{public}@;
 
 // Remaining properties
 @property(nonatomic) long long contiguousFailSilentlyResolutionCount; // @synthesize contiguousFailSilentlyResolutionCount=_contiguousFailSilentlyResolutionCount;

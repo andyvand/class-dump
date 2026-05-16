@@ -38,11 +38,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (void)ÿÿÿÿÈ;
+- (id)rics;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,11 +18,11 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double chartValue; // @synthesize chartValue=_chartValue;

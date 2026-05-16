@@ -15,8 +15,8 @@
     MISSING_TYPE *prepareForUseDeduper;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

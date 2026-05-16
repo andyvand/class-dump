@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *pluginCache; // @synthesize pluginCache=_pluginCache;

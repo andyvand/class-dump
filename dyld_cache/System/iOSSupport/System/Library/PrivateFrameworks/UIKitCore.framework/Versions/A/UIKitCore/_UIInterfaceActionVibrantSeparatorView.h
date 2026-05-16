@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (long long);
 - (double);
-- (void):toPerson: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id);
 - (void)
 × ;
-- (id)tView;
+- (void){;
 
 // Remaining properties
 @property(nonatomic) double constantAxisDimension;

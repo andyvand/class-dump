@@ -8,8 +8,8 @@
 {
 }
 
-- (id)rameForDoneButton;
-- (long long)èÿ,rþl¡þÿ;
+- (id);
+- (long long);
 
 @end
 

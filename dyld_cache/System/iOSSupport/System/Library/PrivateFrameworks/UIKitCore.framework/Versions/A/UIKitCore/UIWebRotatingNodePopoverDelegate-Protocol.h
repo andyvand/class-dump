@@ -5,6 +5,5 @@
 //
 
 @protocol UIWebRotatingNodePopoverDelegate
-- (void)80;
 @end
 

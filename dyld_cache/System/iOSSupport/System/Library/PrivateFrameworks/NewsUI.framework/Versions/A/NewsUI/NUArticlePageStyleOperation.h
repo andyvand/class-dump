@@ -14,16 +14,16 @@
     NUPageStyle *_pageStyle;
 }
 
-- (void);
-- (id);
 - (unsigned long long);
-- (id)=;
+- (id);
 - (void);
 - (id);
+- (void);
 - (CDUnknownBlockType);
+- (id);
 - (void);
-- (_Bool);
 - (void);
+- (_Bool)y;
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticle *article; // @synthesize article=_article;

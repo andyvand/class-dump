@@ -52,12 +52,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)0ð
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allCharacteristicTypes; // @synthesize allCharacteristicTypes=_allCharacteristicTypes;

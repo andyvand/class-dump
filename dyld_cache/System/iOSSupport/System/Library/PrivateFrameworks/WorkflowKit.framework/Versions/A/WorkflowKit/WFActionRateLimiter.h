@@ -13,16 +13,16 @@
     NSUserDefaults *_userDefaults;
 }
 
-+ (void){;
-+ (id)ÓÍ;
++ (void);
++ (id)n;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)d and it no longer works. However, this action will automatically copy the caption to your clipboard so you can easily paste it in Instagram.;
+- (id)× ;
+- (id)rsion;
+- (void)cation};
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *attempts;

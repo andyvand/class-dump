@@ -15,18 +15,18 @@
 }
 
 - (void);
-- (id)T;
+- (id);
 - (unsigned long long);
 - (void);
-- (long long);
+- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (long long);
-- (id)5;
-- (id);
 - (void);
 - (void);
+- (long long);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

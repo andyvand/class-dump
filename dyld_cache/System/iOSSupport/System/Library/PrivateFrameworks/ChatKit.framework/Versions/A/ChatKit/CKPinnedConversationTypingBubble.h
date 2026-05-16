@@ -26,21 +26,21 @@
     struct CGPoint _originationPoint;
 }
 
-- (id)ttachmentIdentifier:existingPreviewImage:markupModelData:imageOrientation:imageFilterType:mediaDecryptedData:mediaURL:mediaSize:croppingQuad: /* Error: Ran out of types for this method. */;
-- (struct CGSize)e:note:textView:allowAutoExplicitHashtag:isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ngeProgress: /* Error: Ran out of types for this method. */;
-- (_Bool)ttachmentContentInfoType;
-- (_Bool)attachmentContentIDs;
+- (id);
+- (struct CGSize);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (struct CGPoint);
-- (void)N,V_ancestorObjectID;
 - (void);
 - (void);
-- (long long)GAZGA0_t;
+- (void);
+- (long long);
 - (struct CGSize);
 - (struct CGPoint);
 - (double);
 - (id);
-- (void)iqueKey:(id *)arg1 associatedObject:(struct CGRect *)arg2 associatedObjectIdentifier:(struct CGRect *)arg3 associatedObjectTitle:(struct CGRect *)arg4 accountIdentifier:cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (long long);
 - (void);
@@ -52,7 +52,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -69,18 +69,18 @@
 - (struct CGSize);
 - (struct CGPoint);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (double);
 - (void);
 - (void);
 - (id);
-- (void);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (struct CGSize)n;
-- (id)Tø¤$;
+- (id);
+- (void)ta";
+- (void)H;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem;

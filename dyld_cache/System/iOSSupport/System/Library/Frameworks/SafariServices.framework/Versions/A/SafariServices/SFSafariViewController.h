@@ -32,42 +32,40 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool)C;
-- (void);
-- (void);
++ (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)areContext;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)supportsIncomingInvitations;
 - (id);
 - (id);
 - (id);
-- (void)om Recent Search;
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool)tOfList:enforcingTitlePrefixValidity:passingTest: /* Error: Ran out of types for this method. */;
-- (id)(;
+- (id);
 - (void);
-- (void)¡Y
-°!À@ù1{1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setActivatedElementInfo:) _WKActivatedElementInfo *_activatedElementInfo; // @synthesize _activatedElementInfo=__activatedElementInfo;

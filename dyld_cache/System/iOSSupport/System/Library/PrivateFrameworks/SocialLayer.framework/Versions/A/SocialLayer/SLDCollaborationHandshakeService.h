@@ -18,7 +18,7 @@
 
 + (void);
 + (id);
-+ (id)×ùÿ;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -48,9 +48,9 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) SLSWActionDispatcher *actionDispatcher; // @synthesize actionDispatcher=_actionDispatcher;

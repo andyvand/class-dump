@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)tosActionType;
 
 // Remaining properties
 @property(readonly, nonatomic) WFGiphySessionManager *sessionManager; // @synthesize sessionManager=_sessionManager;

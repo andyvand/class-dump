@@ -12,15 +12,16 @@ __attribute__((visibility("hidden")))
     DOMHTMLOptGroupElement *_node;
 }
 
-- (void)riorityMessageCommandProcessingParameter;
-- (id)ng values associated with IMCloudKitAppleIDSecurityLevelHSA2.;
 - (void);
 - (id);
-- (void)eNumber;
 - (void);
-- (id)ßÉ¾pg;
-- (_Bool);
-- (_Bool)u<n;
+- (id);
+- (void);
+- (_Bool)
+× ;
+- (void)Îþ[;
+- (id)tm;
+- (_Bool)©ÉüÉn;
 
 // Remaining properties
 @property(retain, nonatomic) DOMHTMLOptGroupElement *_node; // @synthesize _node;

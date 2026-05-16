@@ -12,8 +12,8 @@
     MISSING_TYPE *lastIsActiveChangeDate;
 }
 
-- (void);
 - (id);
+- (void)Flags;
 
 @end
 

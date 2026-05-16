@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)Ȉ;
-- (void);
-- (_Bool);
 - (id);
+- (void);
+- (_Bool)nMO;
+- (void)isStartOfProcessing,%d;
+- (void)t/stop dates:(_Bool)arg1 %@, %@, Passthrough;
 
 // Remaining properties
 @property(copy, nonatomic) NSError *error; // @synthesize error=_error;

@@ -17,11 +17,11 @@
 }
 
 - (id);
-- (id)!;
-- (void);
-- (id);
-- (id);
 - (long long);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *adTag;

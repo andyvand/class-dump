@@ -26,11 +26,13 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)©Ð!äAùqøÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_PKVisibilityBackdropViewDelegate> delegate; // @synthesize delegate=_delegate;

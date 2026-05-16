@@ -41,83 +41,88 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)mpletion:(id)arg1;
-- (unsigned long long)e: /* Error: Ran out of types for this method. */;
-- (_Bool):(id)arg1 completion:(struct CGPoint)arg2;
-- (_Bool)ier:(id)arg1 answer:(double)arg2 error:(double *)arg3;
-- (void)UID:topic:path:requestURLString:ownerID:signature:decryptionKey:fileSize:balloonBundleID:senderContext:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)queryCurrentStateWithError: /* Error: Ran out of types for this method. */;
-- (void)ileServicingRequestsResponse:identifier: /* Error: Ran out of types for this method. */;
-- (void):services:limit: /* Error: Ran out of types for this method. */;
-- (_Bool)ties: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (struct CGRect)lFlag;
-- (struct CGRect);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)sender: /* Error: Ran out of types for this method. */;
-- (struct CGRect): /* Error: Ran out of types for this method. */;
-- (id)q,N,V_adamID;
 - (void);
-- (void);
-- (struct CGRect);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (id)1¢!0@ù
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)1Â0@ù
 × ;
-- (id)ÁrÐ!$AùQÆ°1¢!0@ù
+- (id)Á°!ØAùq[1Â0@ù
 × ;
-- (void)!$CùqÆ1¢!0@ù
+- (void)ù±]1Â0@ù
 × ;
-- (void)Ê1¢!0@ù
+- (void)±`1Â0@ù
 × ;
 - (id);
-- (struct CGRect)outSource>";
-- (_Bool)eleter_"{__bucket_list_deallocator<std:(id)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)6@"NSURL"24;
-- (void)mUI:(unsigned long long)arg1;
-- (_Bool)boardEvent:(id)arg1;
-- (id)bled;
-- (id)board: /* Error: Ran out of types for this method. */;
-- (void)ews;
-- (struct CGRect)EventParameterForActionType:(struct CGRect)arg1 timeSinceLastAction: /* Error: Ran out of types for this method. */;
-- (void)ouldUpdateAttachment;
-- (void)inearWrappingForEnvironment: /* Error: Ran out of types for this method. */;
-- (void)nuButtonDidChangeHandler: /* Error: Ran out of types for this method. */;
-- (void)ctiveTextHaptic;
-- (id)_insertedPunctuationCount;
-- (struct UIEdgeInsets)_headerPrimaryColor;
-- (void)omized;
-- (void)Control>",&,N,V_control;
-- (void)ewDataSource;
-- (void)ÿ;
-- (void)ðÔ<Õ×PØôØ ÙdÛÈÛTÜôÜ ÞhßÜß áÌáâØâ,ã8ä;
-- (_Bool)L;
-- (void)	;
-- (void)cument from file at URL <%@>:no document class found. Define the correct UIDocument subclass with the key UIDocumentClass in the info.plist's CFBundleDocumentTypes dictionary. /* Error: Ran out of types for this method. */;
-- (id)ss]];
-- (void)n for collapsing item at index path %@;
-- (void)for scene session %@;
-- (void)ling init.;
-- (void)4IntelligenceUI27PromptComposeViewController;
-- (struct CGSize)öº;
-- (_Bool)»a;
-- (struct CGSize)±!Ä;
-- (void)Éþ#Ú6c;
-- (id);
+- (void)ùe1Â0@ù
+× ;
+- (void)Ð!BùÑe1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (void);
+- (struct CGRect)á
+°!LFùgÐ1Â0@ù
+× ;
+- (void)comeFirstResponder: /* Error: Ran out of types for this method. */;
+- (void)dFromFloating: /* Error: Ran out of types for this method. */;
+- (id)ftForceExponent: /* Error: Ran out of types for this method. */;
+- (void)elegateNeedsAutofillMode: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)on: /* Error: Ran out of types for this method. */;
+- (struct CGRect)rRadius;
+- (_Bool)neLayoutAppearance;
+- (struct CGRect)ectionsForResizingSplitViewControllerColumn:(struct CGRect)arg1;
+- (void)crollingElementShouldAppearBelowForAttributes:(struct CGRect)arg1;
+- (id)tributes:(struct CGRect)arg1;
+- (void)alAlignment:(unsigned long long)arg1 ,V__preferredHorizontalAlignment;
+- (_Bool)ngDisabled;
+- (id)faultSystemLeadingBarButtonGroups;
+- (void)ÄpÈLÉ;
+- (struct CGRect)¬m¸n,o¸opPplpq;
+- (void)¤¢x£;
+- (struct CGSize);
+- (void)`;
+- (struct CGRect)g scene:(struct CGRect)arg1 %@;
+- (_Bool)ene's activity restoration file, deleting existing file if it exists:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)valid edge argument for -contentScrollViewForEdge:(id)arg1 . Only values of NSDirectionalRectEdgeTop or NSDirectionalRectEdgeBottom are accepted.;
+- (struct CGRect)reen;
+- (void);
+- (id)UIAnimatableRect;
+- (id);
+- (void);
+- (void)tÕ©a;
+- (struct CGRect)À;
+- (void)Ía;
+- (_Bool)&ÿq;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

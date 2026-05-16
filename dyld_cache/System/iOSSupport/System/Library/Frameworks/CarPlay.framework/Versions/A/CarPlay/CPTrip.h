@@ -4,13 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSArray, NSUUID;
+@class CPNavigationWaypoint, MKMapItem, NSArray, NSUUID;
 
 @interface CPTrip
 {
-    _Bool _sendsNavigationMetadata;
+    _Bool _hasShareableDestination;
+    _Bool _routeSegmentsAvailableForRegion;
     MKMapItem *_origin;
     MKMapItem *_destination;
+    CPNavigationWaypoint *_originWaypoint;
+    CPNavigationWaypoint *_destinationWaypoint;
     NSArray *_routeChoices;
     id _userInfo;
     NSArray *_destinationNameVariants;
@@ -20,19 +23,24 @@
 + (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (short);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (short);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -40,10 +48,13 @@
 // Remaining properties
 @property(readonly, nonatomic) MKMapItem *destination; // @synthesize destination=_destination;
 @property(copy, nonatomic) NSArray *destinationNameVariants; // @synthesize destinationNameVariants=_destinationNameVariants;
+@property(readonly, nonatomic) CPNavigationWaypoint *destinationWaypoint; // @synthesize destinationWaypoint=_destinationWaypoint;
+@property(nonatomic) _Bool hasShareableDestination; // @synthesize hasShareableDestination=_hasShareableDestination;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) MKMapItem *origin; // @synthesize origin=_origin;
+@property(readonly, nonatomic) CPNavigationWaypoint *originWaypoint; // @synthesize originWaypoint=_originWaypoint;
 @property(readonly, copy, nonatomic) NSArray *routeChoices; // @synthesize routeChoices=_routeChoices;
-@property(nonatomic) _Bool sendsNavigationMetadata; // @synthesize sendsNavigationMetadata=_sendsNavigationMetadata;
+@property(nonatomic) _Bool routeSegmentsAvailableForRegion; // @synthesize routeSegmentsAvailableForRegion=_routeSegmentsAvailableForRegion;
 @property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end

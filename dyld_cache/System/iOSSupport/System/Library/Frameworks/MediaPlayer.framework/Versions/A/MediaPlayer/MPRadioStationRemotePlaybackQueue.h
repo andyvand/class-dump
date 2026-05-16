@@ -14,7 +14,7 @@
     NSString *_stationStringID;
 }
 
-+ (_Bool)ome accessory;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long stationID; // @synthesize stationID=_stationID;

@@ -13,24 +13,24 @@
     CDUnknownBlockType _statusUpdateProvider;
 }
 
-- (void)MutableDictionary",&,N,V_folderListSectionIdentifiersToFolderItemIdentifiers;
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)h;
-- (id)tem;
-- (void)ple.notes.paper.indexer;
-- (void)ata at path:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ifier) != nil);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void).&;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

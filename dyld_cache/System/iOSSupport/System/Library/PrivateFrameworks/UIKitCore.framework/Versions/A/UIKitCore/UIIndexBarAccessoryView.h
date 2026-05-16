@@ -15,22 +15,20 @@
     long long _edge;
 }
 
-+ (void);
++ (void)onChangedDiscontinuouslyOnChange:(id *)arg1 ,V__regionChangedDiscontinuouslyOnChange;
+- (void);
+- (id);
 - (_Bool);
-- (long long);
-- (void)!Cù1Âð1¢!0@ù
-× ;
-- (id)Ô¡sð!AùÇ1¢!0@ù
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (void);
 - (_Bool);
-- (void)leLegacy || newScrollerStyle == _UIScrollerStyleOverlay;
-- (void)was not initialized during view loading for ;
-- (id)+Ñk;
-- (void)dÿd]Èåm;
-- (void)¢rÿ¤D;
+- (void);
+- (void)q\Ð1Â0@ù
+× ;
+- (_Bool);
+- (id)ÉVÕ¼\;
+- (void)ÄEãÿÓ´ËäÎg;
+- (void)h;
+- (long long)[k;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <UIIndexBarAccessoryViewDelegate> delegate; // @dynamic delegate;

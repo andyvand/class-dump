@@ -18,13 +18,13 @@
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)edContentVersion;
-- (void);
+- (id);
+- (void)fier:actions:banner:identifiers:configurationProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *availableImageSizes; // @synthesize availableImageSizes=_availableImageSizes;

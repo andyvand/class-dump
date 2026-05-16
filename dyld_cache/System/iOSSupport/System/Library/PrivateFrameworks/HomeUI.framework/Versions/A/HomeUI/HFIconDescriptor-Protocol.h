@@ -8,6 +8,11 @@
 
 @protocol HFIconDescriptor
 
+@optional
+- (long long)á°Ð!BùQð1â
+0@ù
+× ;
+
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) _Bool shouldForceLTR;

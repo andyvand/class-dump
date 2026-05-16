@@ -7,7 +7,6 @@
 @class SXJSONDictionary;
 
 @protocol NUEmbedConfigurationLoader
-- (SXJSONDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *embedConfiguration;

@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGSize);
-- (id)dingNicknamePhotoForHandleID:(id)arg1;
+- (id);
 - (struct UIEdgeInsets);
 - (void);
 - (id);
-- (id);
-- (void)â|¬;
+- (id)¥d43 Úsþ­d43øÙsþ½d43lÛsþ½d43Úsþ½d43°ÚsþÝd43$Úsþ}d43Ûsþd43xÛsþ]d43ìÙsþ­d43@Úsþ=d43<Úsþ=d43,Úsþd43|Úsþ½d43DÛsþd43tÚsþ;
+- (void)ÒjÙ¤ ];
 
 // Remaining properties
 @property(nonatomic) __weak _UIContextMenuView *menuView; // @synthesize menuView=_menuView;

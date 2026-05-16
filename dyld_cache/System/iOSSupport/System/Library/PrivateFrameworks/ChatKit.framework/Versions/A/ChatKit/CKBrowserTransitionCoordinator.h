@@ -32,11 +32,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)ody;
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)s;
 - (void);
 - (void);
 - (void);
@@ -47,42 +46,43 @@
 - (void);
 - (void);
 - (void);
-- (void):(struct CGRect)arg1;
-- (void)h;
-- (id). Share %@, object %@;
-- (void)otes {#notes:(long long)arg1 %@, #migratedNotes:%@} /* Error: Ran out of types for this method. */;
-- (id)inalNote:%@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
-- (id);
-- (void)sword, there is no way to recover access to these locked notes.;
-- (void)separate password for locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
-- (id)UpdateSystemPaperNotesWithCoalescingAndDelay;
-- (id);
-- (long long):%p, foregroundAlpha:%@, highlightColor:%@> /* Error: Ran out of types for this method. */;
-- (_Bool)l);
-- (_Bool)<<;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)M?
-;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
 - (struct CGSize);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool)@;
-- (void);
 - (id);
-- (id)Ü­y/ß­y©#­yQ­yuW­yABylP­ç­G_ABy}Q­AFGÍK­AHtGG#"­GG_AýÿQo_;
-- (void)®AAyAAyAAyî®y½b®yABy$î®yAAyk^®Æ4®GAEySayõ>GAHñ®yAByAAyfñ®yAKÆb®GxY®yZb®SgGGAKGGGG[óýÿyAAyAAyAKe:(id)arg1 ®GAWGGGG_`è®Qo_ATyç®GGATyK]®SgGGA2_GGGG#h®GALGALGALGALG;
+- (void);
+- (_Bool);
+- (id)!äAù±Ð1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *appWindow; // @synthesize appWindow=_appWindow;

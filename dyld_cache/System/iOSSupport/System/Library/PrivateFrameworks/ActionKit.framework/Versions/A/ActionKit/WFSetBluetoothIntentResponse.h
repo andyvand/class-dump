@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)ponse;
-- (void)d public key from file;
+- (long long)ssingTest: /* Error: Ran out of types for this method. */;
+- (void)ke;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

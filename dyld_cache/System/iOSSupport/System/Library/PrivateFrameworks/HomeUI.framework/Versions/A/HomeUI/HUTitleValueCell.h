@@ -56,22 +56,22 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void)icationBundleIdentifier;
-- (void)AutomationsViewRepresentable;
-- (id);
+- (void)g = %{BOOL}d, home.locationServicesEnabled = %{BOOL}d;
+- (id)doesn't implement %@. This is required if using initUsingCompositionalLayoutWithItemManager initializer;
+- (void)yACy¢;8y9SgGGV/G_g9tGG;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowCopyValueToPasteboard; // @synthesize allowCopyValueToPasteboard=_allowCopyValueToPasteboard;

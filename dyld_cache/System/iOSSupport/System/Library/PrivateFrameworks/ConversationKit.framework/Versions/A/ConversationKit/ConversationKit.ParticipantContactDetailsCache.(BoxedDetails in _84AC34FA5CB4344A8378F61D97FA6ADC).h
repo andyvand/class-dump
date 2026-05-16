@@ -11,8 +11,8 @@
     MISSING_TYPE *details;
 }
 
-- (void);
 - (id);
+- (void)menuFrame_AASg06dogingB0tSg;
 
 @end
 

@@ -11,12 +11,12 @@
     NSDate *_lastExitedForYouDate;
 }
 
-+ (id);
++ (id)terForTraitChanges: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

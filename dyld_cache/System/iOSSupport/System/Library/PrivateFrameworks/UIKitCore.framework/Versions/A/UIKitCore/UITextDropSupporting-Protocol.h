@@ -4,15 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
-
 @protocol UITextDropSupporting
-- (void);
-- (void)dentifier:style: /* Error: Ran out of types for this method. */;
-- (_Bool)C0º;
-
-@optional
-- (NSAttributedString *)nsperancyVibrancyStyle:(NSAttributedString *)arg1;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffsetForSameViewDrops;

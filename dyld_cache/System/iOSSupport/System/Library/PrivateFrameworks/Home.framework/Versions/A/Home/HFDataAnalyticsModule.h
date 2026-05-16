@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) HFDataAnalyticsLogItemProvider *logItemProvider; // @synthesize logItemProvider=_logItemProvider;

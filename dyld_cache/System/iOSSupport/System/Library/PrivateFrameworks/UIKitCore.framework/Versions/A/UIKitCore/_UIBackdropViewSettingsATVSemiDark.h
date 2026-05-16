@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)edOnValueInitiatingGesture;
+- (void)ensionThreshold;
 
 @end
 

@@ -19,14 +19,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (long long);
 - (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)1â
+0@ù
+× ;
+- (_Bool)÷	y@X÷	A4_GAKytJ÷	SgGGSgtGG¶Q÷	yPX÷	GG_Qo_GAJSgGG_Qo_tGGR÷	yADGGýR÷	yR÷	GG;
 
 // Remaining properties
 @property(readonly, nonatomic) PKFeatureApplication *accountUserInvitation; // @synthesize accountUserInvitation=_accountUserInvitation;

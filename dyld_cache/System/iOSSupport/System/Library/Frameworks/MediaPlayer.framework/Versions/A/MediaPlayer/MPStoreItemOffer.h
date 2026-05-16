@@ -11,20 +11,20 @@
     NSDictionary *_lookupDictionary;
 }
 
-+ (_Bool)erMonitor %p> Setting privateListening for accessory. userID=%{private}@ routID=%{public}@ enabled=%{BOOL}u;
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)eate, not posting for:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id)_CLIENT_KEY_EXCHANGE;
 - (id);
 - (id);
 - (id);
+- (void)RemoteView;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets;

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (UIView *);
-- (_Bool)T?;
-- (void)on:(UIScrollView *)arg1;
-- (void)ÿÔEþÿ(FþÿLFþÿFþÿÜFþÿôFþÿGþÿGþÿ¤GþÿÈGþÿHþÿ(HþÿtHþÿHþÿÔHþÿIþÿ,IþÿPIþÿhIþÿIþÿJþÿ@JþÿdJþÿ JþÿÄJþÿKþÿÔKþÿøKþÿ4Lþÿ¸LþÿMþÿMþÿMþÿøMþÿNþÿNþÿôNþÿ;
+- (void)erLogo;
 @end
 

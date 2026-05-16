@@ -8,7 +8,7 @@
 {
 }
 
-+ (struct CGSize)';
++ (struct CGSize);
 + (_Bool);
 + (_Bool);
 

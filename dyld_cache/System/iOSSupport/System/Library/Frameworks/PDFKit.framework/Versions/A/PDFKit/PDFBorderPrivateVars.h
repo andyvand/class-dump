@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     double *dashPatternRaw;
 }
 
-- (void)iguration;
+- (void);
 
 @end
 

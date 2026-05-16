@@ -24,7 +24,7 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (void)G;
+- (void)PhotosUICore.SectionedDataSource;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *imageViews; // @synthesize imageViews=_imageViews;

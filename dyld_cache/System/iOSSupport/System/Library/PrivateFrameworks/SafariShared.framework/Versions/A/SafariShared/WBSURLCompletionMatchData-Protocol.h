@@ -5,14 +5,15 @@
 //
 
 @class NSString;
+@protocol WBSCloudTabItem;
 
 @protocol WBSURLCompletionMatchData
 
-@optional
-- (_Bool)@;
-- (long long);
-
 // Remaining properties
+@property(readonly, nonatomic) id <WBSCloudTabItem> cloudTab;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"<WBSCloudTabItem>",?,R,N
+
 @property(readonly, copy, nonatomic) NSString *cloudTabDeviceName;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C,N

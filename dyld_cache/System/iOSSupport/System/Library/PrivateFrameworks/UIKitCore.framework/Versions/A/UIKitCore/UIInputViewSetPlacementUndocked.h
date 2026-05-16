@@ -13,27 +13,27 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _chromeBuffer;
 }
 
++ (struct CGPoint);
 + (id);
-+ (id)0@ù
-× ;
-+ (struct CGPoint)eHandler:(struct CGPoint)arg1;
-+ (_Bool)d¡fÿüÏDþm;
-- (void)sageGUID:account:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)Set",&,N,V_originatedMessages;
++ (id);
++ (_Bool)eltaUnits;
+- (void);
+- (void);
 - (void);
 - (struct CGPoint);
-- (double);
-- (struct UIEdgeInsets)ngrade flag for %@ (expiration:%@) to %@ /* Error: Ran out of types for this method. */;
-- (id)ment %@ with no associate-able message %@;
-- (void);
+- (double);
+- (struct UIEdgeInsets);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool)stingSceneRemoval;
-- (id)UDBookkeeping;
-- (Class);
-- (struct CGRect);
-- (_Bool)2öÍêg;
-- (void)tÿ	;
+- (struct CGRect)\ð1Â0@ù
+× ;
+- (_Bool)ifierForStringsFile;
+- (void)AutocorrectionToText:(id)arg1 fromRect: /* Error: Ran out of types for this method. */;
+- (Class)or;
+- (id)ScreenEdgePanGestureRecognizer.edges;
+- (void)er/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets chromeBuffer; // @synthesize chromeBuffer=_chromeBuffer;

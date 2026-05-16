@@ -5,6 +5,5 @@
 //
 
 @protocol AKSmoothPathViewDelegate
-- (void)X;
 @end
 

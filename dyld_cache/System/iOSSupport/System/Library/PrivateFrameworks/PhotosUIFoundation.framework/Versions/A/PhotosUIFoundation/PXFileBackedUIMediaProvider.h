@@ -28,8 +28,8 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCachingEnabled) _Bool cachingEnabled; // @synthesize cachingEnabled=_cachingEnabled;

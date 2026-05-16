@@ -7,7 +7,6 @@
 @class PXCMMPhotoKitSession;
 
 @protocol PXCMMPhotoKitActionPerformer
-- (PXCMMPhotoKitSession *)namicHeaderView;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMPhotoKitSession *session;

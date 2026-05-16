@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)Í,ÎXÎ¤ÎäÎôÎ4Ï<Ï|ÏÏÄÏÜÏÐDÐÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

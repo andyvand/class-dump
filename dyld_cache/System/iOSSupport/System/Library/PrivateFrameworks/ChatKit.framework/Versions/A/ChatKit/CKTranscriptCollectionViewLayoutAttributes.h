@@ -31,20 +31,21 @@
     struct CGSize _parentChatItemSize;
 }
 
-- (void)utlineState;
-- (void)ctionWithIdentifier:(struct CGSize)arg1;
-- (void)tNeedsStorageAccessFromFileURLsQuirk:(_Bool)arg1;
-- (void),V_shouldAutoExpandSingleSection;
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (struct CATransform3D)l;
-- (id){object:%@} /* Error: Ran out of types for this method. */;
+- (struct CATransform3D);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)1Â0@ù
+× ;
+- (void)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) CKChatItem *chatItem; // @synthesize chatItem=_chatItem;

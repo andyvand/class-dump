@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (id),Q;
++ (id);
 - (void);
 - (id);
 - (id);
@@ -28,18 +28,18 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (long long);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)literate;
-- (id)delegate of updated assistant access control. error:%@ /* Error: Ran out of types for this method. */;
+- (id)ISTERED_ACTION_SETS;
 
 // Remaining properties
 @property(readonly) HMSoftwareUpdateDocumentationMetadata *documentationMetadata; // @synthesize documentationMetadata=_documentationMetadata;

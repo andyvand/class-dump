@@ -52,35 +52,34 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)h;
 - (void);
-- (void)kDuration;
 - (void);
-- (_Bool)?;
-- (id);
+- (_Bool);
 - (id);
 - (void);
-- (id);
-- (id)ey_mimeType;
+- (_Bool);
 - (void);
 - (void);
-- (void)qÉð1¢!0@ù
-× ;
-- (void)tWithAVTViewAspectRatio:(struct CGRect)arg1;
-- (void)VTEditingModelColors",&,N,V_colorCache;
-- (double)nCamAvatarPickerCollectionViewLayout",&,N,V_listLayout;
-- (long long)esource>"24@?0@"<AVTCacheableResource>"8@"<AVTCacheableResourceScope>"16;
+- (void)r:(id)arg1;
+- (double)Identifier: /* Error: Ran out of types for this method. */;
+- (void)teger:(double)arg1;
+- (id)@-%@;
+- (long long);
+- (void)Û;7ä;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;

@@ -19,23 +19,24 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)O;
+- (void);
+- (_Bool)¬,
+D1´1 5868`:@;|> /* Error: Ran out of types for this method. */;
+- (void)by ID. Desired keys:(id)arg1 %@;
+- (void)TestHarness) handleTestingEventIfTesting:completionHandler:]_block_invoke_4 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;

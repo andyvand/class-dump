@@ -43,8 +43,8 @@
 - (id);
 - (void);
 - (void);
-- (id)tes;
-- (void)id parameters;
+- (id);
+- (void).;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *currentSku; // @synthesize currentSku=_currentSku;

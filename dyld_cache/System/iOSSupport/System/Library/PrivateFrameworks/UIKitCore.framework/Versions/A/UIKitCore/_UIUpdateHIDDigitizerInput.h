@@ -18,15 +18,14 @@ __attribute__((visibility("hidden")))
     _Bool _nextEventExpected;
 }
 
-+ (id)ce found, looking at name:(const char *)arg1 %@;
-- (struct __IOHIDEvent *)ission is NULL;
++ (id);
+- (struct __IOHIDEvent *);
 - (_Bool);
 - (id);
-- (void)x;
 - (void);
-- (void)°!¨@ùqÊ°1¢!0@ù
-× ;
 - (void);
+- (void)ringRadiosityEnabled;
+- (void)Qo__#¾7Qo__|.3Qo_;
 
 @end
 

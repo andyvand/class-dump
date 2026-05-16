@@ -13,19 +13,19 @@
     NSString *_name;
 }
 
-+ (unsigned char);
 + (_Bool);
++ (unsigned char);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)c;
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;

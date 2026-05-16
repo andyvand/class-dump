@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     struct CGPoint _offset;
 }
 
-+ (_Bool)±oÖÿm;
-- (id)Width;
++ (_Bool)een;
+- (id);
 - (_Bool);
 - (id);
-- (id)temporary transferGUID:(id)arg1 %@;
+- (id);
 - (double);
-- (struct CGPoint)é?B;
-- (void)©@Ó««m;
+- (void)leGlowOpacity;
+- (struct CGPoint)T«âÿ(Î;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;

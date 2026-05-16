@@ -11,10 +11,10 @@
     id <PKTextInputContainerViewDelegate> _delegate;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)&,N,V_openPencilSettingsCell;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKTextInputContainerViewDelegate> delegate; // @synthesize delegate=_delegate;

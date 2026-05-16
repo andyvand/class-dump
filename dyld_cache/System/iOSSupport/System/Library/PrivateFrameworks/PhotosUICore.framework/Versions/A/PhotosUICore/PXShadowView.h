@@ -21,12 +21,13 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
+- (id)
+× ;
 - (double);
-- (void);
-- (id)ø;
-- (void);
+- (void)iveMemoryBrowserGrid;
+- (void)i4Ç¤Xÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect castingFrame; // @synthesize castingFrame=_castingFrame;

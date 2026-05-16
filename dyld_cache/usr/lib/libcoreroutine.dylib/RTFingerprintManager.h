@@ -25,8 +25,8 @@
     unsigned long long _settledState;
 }
 
-+ (id);
 + (long long);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -46,26 +46,27 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (_Bool)rror from SFNoThrowAsyncSequence {error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)success:(id)arg1 connectionType:resultCode:registrationType:genericError:URLError:POSIXError: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
-- (id));
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)@;
-- (void)PïÕÿÏó;
-- (void)ö;
-- (void);
-- (void)ô;
+- (void)!(Ð!ÐAùA,Ð1Â0@ù
+× ;
+- (id)nager) _submitMetricScoreBoardOnDate:submissionHandler:] /* Error: Ran out of types for this method. */;
+- (id)];
+- (void)ns;
+- (void)on requester, %@;
+- (void)[h], unc Res %{sensitive}f [h], stop Trans %{sensitive}f [h], unc Res %f [h], primaryStopDate, %@, num Of Trans %{sensitive}d, dailyDens %{sensitive}f, weeklyDens %{sensitive}f;
+- (_Bool)import mirroring request, %@;
+- (void);
+- (void)#;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accessPointsCollectedPerFingerprint; // @synthesize accessPointsCollectedPerFingerprint=_accessPointsCollectedPerFingerprint;

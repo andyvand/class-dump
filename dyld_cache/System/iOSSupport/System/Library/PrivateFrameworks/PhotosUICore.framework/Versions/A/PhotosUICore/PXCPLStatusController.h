@@ -31,9 +31,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)ÿ;
+- (void)gsten 2.0] Automatic sprite change details in sprite builder API).;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

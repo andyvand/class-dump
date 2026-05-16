@@ -11,12 +11,12 @@
     NSCache *_attributesCache;
 }
 
-+ (id)Pü;
++ (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)er;
 
 @end
 

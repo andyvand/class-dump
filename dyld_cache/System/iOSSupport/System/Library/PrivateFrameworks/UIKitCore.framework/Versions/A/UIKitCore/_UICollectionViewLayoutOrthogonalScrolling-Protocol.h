@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, UICollectionViewLayoutAttributes;
+@class NSIndexPath;
 
 @protocol _UICollectionViewLayoutOrthogonalScrolling
-- (NSArray *)Q;
-- (_Bool)umber.;
-- (_Bool)rm:(UICollectionViewLayoutAttributes *)arg1;
-- (NSIndexSet *)ControlState;
-- (_Bool)ontroller;
-- (struct CGRect)view controller of class "%@" not included in "UIViewServicePermittedViewControllerClasses" array in View Service bundle "%@"'s Info.plist;
-- (void)st.mixed-user-interface-idioms;
-- (struct CGRect)CenterRevealMode;
-- (struct CGPoint)ze;
+- (void)proximityStateChanged:(struct CGPoint)arg1;
+- (struct CGRect)entityContainerView;
+- (struct CGRect)signActive;
+- (_Bool)nstraints:(NSIndexPath *)arg1 ,V_infoConstraints;
+- (_Bool)îÿÿô¤éÿ w]þ;
 @end
 

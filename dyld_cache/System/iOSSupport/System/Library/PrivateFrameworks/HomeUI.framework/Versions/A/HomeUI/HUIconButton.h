@@ -13,12 +13,12 @@
     UIVisualEffectView *_backgroundEffectView;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -26,14 +26,13 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (id)/Ð1b0@ù
-× ;
+- (long long);
 - (id);
-- (long long)öàxy÷vAFGSgtGG;
-- (void)ÿ/Lö";
-- (void)mÚõs(;
+- (void)L;
+- (void)P;
+- (id)Controller(HUAdditions) alertControllerForAddingDestinationWithTypeString:andProceed:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)edAccessoriesSection_Header;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *backgroundEffectView; // @synthesize backgroundEffectView=_backgroundEffectView;

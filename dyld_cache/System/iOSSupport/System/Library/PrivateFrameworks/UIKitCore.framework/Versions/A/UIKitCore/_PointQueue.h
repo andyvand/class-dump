@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long)ge: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)onElementKindIndexPathsDict;
+- (unsigned long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *nonSentinelPoints; // @synthesize nonSentinelPoints=_nonSentinelPoints;

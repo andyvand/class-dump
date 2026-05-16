@@ -7,13 +7,11 @@
 @class NSArray, NSAttributedString, NSString;
 
 @protocol UINSFontPickerInfo
-+ (id);
-+ (id)";
-- (NSString *)too big; expected at most ;
-- (NSArray *)antsVisualEffectView;
-- (NSString *)AtSize:bold:italic:underline: /* Error: Ran out of types for this method. */;
-- (NSString *)iveView;
-- (NSAttributedString *)ancel cursor;
+- (NSString *)!Eù1^ð1Â0@ù
+× ;
+- (NSAttributedString *)portedOrientations;
+- (NSArray *)o12UIScrollViewCG;
+- (NSString *))è23PSþ;
 
 // Remaining properties
 @property(readonly) NSAttributedString *attributedString;

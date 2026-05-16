@@ -15,10 +15,10 @@
 
 - (void);
 - (struct CGPoint);
-- (struct UIEdgeInsets);
-- (void);
 - (void);
 - (id);
+- (struct UIEdgeInsets);
+- (void);
 - (id);
 
 // Remaining properties

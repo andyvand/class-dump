@@ -5,8 +5,5 @@
 //
 
 @protocol NewsTransparencyViewControllerDelegate
-
-@optional
-- (void);
 @end
 

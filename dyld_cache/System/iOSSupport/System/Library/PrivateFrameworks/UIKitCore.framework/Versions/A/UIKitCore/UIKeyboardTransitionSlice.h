@@ -19,24 +19,23 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)tureKeyForBuddy: /* Error: Ran out of types for this method. */;
-- (struct CGRect)umberOnSubscriptionWithSIMID: /* Error: Ran out of types for this method. */;
-- (void)fetchSyncStateStatistics;
-- (void)ceName:(struct CGRect)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)SyncState;
-- (void)ut:(id)arg1;
+- (id);
+- (struct CGRect);
 - (void);
-- (void)sAssetFetchPerRecordCompletionBlock:(_Bool)arg1 recordID:error: /* Error: Ran out of types for this method. */;
-- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (int);
 - (id);
 - (_Bool);
-- (void)igher priority work;
+- (void);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (id)dContentSubview:atBack: /* Error: Ran out of types for this method. */;
-- (id)h;
-- (struct CGRect)atePickerMode localizedFormatString];
+- (id);
+- (struct CGRect);
+- (id);
+- (void)EþÛ$e;
 
 // Remaining properties
 @property _Bool delayCrossfade; // @synthesize delayCrossfade=_delayCrossfade;

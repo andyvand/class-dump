@@ -33,10 +33,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)leViewController alarmEditController:didDeleteAlarm:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) UICellConfigurationState *_bridgedConfigurationState;

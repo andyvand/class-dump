@@ -8,11 +8,11 @@
 {
 }
 
-+ (id)MS auto reply becuase it does not support CoreTelephony subscriptions;
-+ (id)support iMessage auto reply becuase it is not an iPhone;
-+ (id)usly set one before this device was added. toIdentifier:(long long)arg1 %@, fromIdentifier:%@, chat:%@ /* Error: Ran out of types for this method. */;
-+ (id)error:(long long)arg1 %@ ;
-- (void)nts will be:(id)arg1 %lld;
++ (id);
++ (id);
++ (id);
++ (id);
+- (void);
 
 @end
 

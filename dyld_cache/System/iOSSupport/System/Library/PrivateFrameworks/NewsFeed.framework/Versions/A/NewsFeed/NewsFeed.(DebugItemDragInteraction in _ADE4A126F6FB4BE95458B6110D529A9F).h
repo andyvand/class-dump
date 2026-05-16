@@ -11,8 +11,8 @@
     MISSING_TYPE *feedItemLayoutAttributes;
 }
 
-- (void);
-- (id)ÿÿÿÿ ;
+- (id);
+- (void);
 
 @end
 

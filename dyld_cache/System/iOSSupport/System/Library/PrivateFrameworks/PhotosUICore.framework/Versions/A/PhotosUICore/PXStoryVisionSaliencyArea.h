@@ -15,7 +15,7 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (long long)ukûÿ;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect sourceRegionOfInterest; // @synthesize sourceRegionOfInterest=_sourceRegionOfInterest;

@@ -24,15 +24,15 @@
 - (long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (void);
 - (id);
 - (unsigned long long);
+- (_Bool);
 - (long long);
-- (void);
-- (void);
 - (id);
-- (void);
-- (struct UIEdgeInsets);
+- (void)¶êÿ¶êÿh¶êÿ¸êÿÌ¸êÿ;
+- (struct UIEdgeInsets)ûWÿ;
+- (void)½ù;
 
 // Remaining properties
 @property(nonatomic) double defaultItemAspectRatio; // @synthesize defaultItemAspectRatio=_defaultItemAspectRatio;

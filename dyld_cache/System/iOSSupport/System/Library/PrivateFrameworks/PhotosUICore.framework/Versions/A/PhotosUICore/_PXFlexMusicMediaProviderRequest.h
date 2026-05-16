@@ -15,12 +15,12 @@
 }
 
 - (id);
-- (CDUnknownBlockType)èø©D«`#Xªh¿tP¦;
-- (void)°myl«°myl¬Ö0e;
-- (id);
-- (id);
 - (long long);
-- (id)etsStatusProvider;
+- (id);
+- (id);
+- (id);
+- (CDUnknownBlockType)onsAlpha:] /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXFlexMusicAsset *asset; // @synthesize asset=_asset;

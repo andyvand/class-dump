@@ -13,14 +13,14 @@
     long long _currentTag;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)sage;
+- (id);
 - (long long);
 - (void);
-- (id){;
+- (id);
 - (void);
 
 // Remaining properties

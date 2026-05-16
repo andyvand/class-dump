@@ -24,32 +24,33 @@
 }
 
 - (void);
-- (void)qK;
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)yText;
 - (void);
 - (id);
-- (id));
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)a;
+- (id);
 - (id);
 - (double);
+- (long long);
 - (void);
+- (void);
+- (id);
 - (long long);
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void)__AUTH_CONST;
-- (CDUnknownBlockType)olConfiguration: /* Error: Ran out of types for this method. */;
-- (void)_lp_components;
-- (void)p_icons/FaceTime_icon_white_2x.png;
-- (long long)Jâ;
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)0@ù
+× ;
+- (void);
+- (void)mage because it is uninteresting;
+- (_Bool);
+- (void)À%;
+- (id)e type);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;

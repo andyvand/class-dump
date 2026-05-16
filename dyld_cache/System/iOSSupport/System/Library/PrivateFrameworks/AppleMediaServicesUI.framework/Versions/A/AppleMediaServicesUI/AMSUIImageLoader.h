@@ -31,12 +31,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)from fallbackURL;
-- (void);
-- (id);
+- (void)bled;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIAssetQueue *fetchQueue; // @synthesize fetchQueue=_fetchQueue;

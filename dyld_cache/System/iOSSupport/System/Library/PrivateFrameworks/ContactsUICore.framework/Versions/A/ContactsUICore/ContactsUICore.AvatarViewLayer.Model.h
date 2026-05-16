@@ -12,8 +12,8 @@
     MISSING_TYPE *layer;
 }
 
-- (void);
 - (id);
+- (void)GeminiResult",&,N,V_geminiResult;
 
 @end
 

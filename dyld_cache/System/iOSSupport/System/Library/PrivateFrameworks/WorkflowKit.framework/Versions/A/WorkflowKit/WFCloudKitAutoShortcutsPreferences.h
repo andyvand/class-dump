@@ -22,18 +22,18 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id)zÆÿ¬l;
-+ (id)Ûg;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ty__TEXT;
 - (id);
-- (id)yl¬Ö0%EÉ;
-- (id)9vürÉ;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -43,9 +43,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)"WFLinkEntityContentItem"8@"WFCoercionContext"16^@24;
+- (id);
+- (void)GIFs;
 
 // Remaining properties
 @property(retain, nonatomic) INAppDescriptor *appDescriptor; // @synthesize appDescriptor=_appDescriptor;

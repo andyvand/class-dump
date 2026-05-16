@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
-+ (id)C;
++ (id);
 + (id);
 + (id);
 + (id);

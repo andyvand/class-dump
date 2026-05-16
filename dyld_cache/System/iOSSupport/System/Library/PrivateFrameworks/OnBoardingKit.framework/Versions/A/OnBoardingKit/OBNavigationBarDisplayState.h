@@ -16,7 +16,7 @@
 - (double);
 - (void);
 - (void);
-- (id)?;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double backgroundOpacity; // @synthesize backgroundOpacity=_backgroundOpacity;

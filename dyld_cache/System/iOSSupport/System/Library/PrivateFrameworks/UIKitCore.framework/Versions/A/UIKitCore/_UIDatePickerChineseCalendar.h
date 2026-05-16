@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSCalendar *_realCalendar;
 }
 
-+ (id)y server bag;
-+ (id)ExitRecordIsPresent();
++ (id);
++ (id);
 - (void);
-- (id)9;
+- (id);
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)sked to get restoration identifier path for object that is neither a UIResponder or UIStateRestoring - returning nil:(id)arg1 %@;
-- (id)°ÎÂ#_;
+- (id);
+- (void)led;
 
 // Remaining properties
 @property(retain, nonatomic) NSCalendar *realCalendar; // @synthesize realCalendar=_realCalendar;

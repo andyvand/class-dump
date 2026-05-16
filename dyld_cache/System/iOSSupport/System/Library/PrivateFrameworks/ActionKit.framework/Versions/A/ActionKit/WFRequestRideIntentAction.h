@@ -38,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)keImageFromPDFPageResolution;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

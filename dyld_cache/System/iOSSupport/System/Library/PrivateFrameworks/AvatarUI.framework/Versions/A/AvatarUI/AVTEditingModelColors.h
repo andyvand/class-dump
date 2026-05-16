@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)ity migration for bundleIDs %@;
-- (id)y;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *storage; // @synthesize storage=_storage;

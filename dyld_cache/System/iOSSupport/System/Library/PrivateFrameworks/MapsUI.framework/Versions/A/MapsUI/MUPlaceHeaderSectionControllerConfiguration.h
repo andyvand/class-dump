@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)views: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysShowExpandedVerifiedBusinessHeader; // @synthesize alwaysShowExpandedVerifiedBusinessHeader=_alwaysShowExpandedVerifiedBusinessHeader;

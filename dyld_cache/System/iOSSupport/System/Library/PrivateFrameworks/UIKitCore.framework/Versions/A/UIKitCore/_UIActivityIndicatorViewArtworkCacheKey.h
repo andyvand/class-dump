@@ -16,13 +16,12 @@ __attribute__((visibility("hidden")))
     struct CGColor *_shadowColor;
 }
 
-- (unsigned long long)dViewDelegate>";
-- (_Bool)P;
-- (id);
 - (void);
-- (id)
-× ;
-- (_Bool)d.isOnScreen;
+- (unsigned long long);
+- (_Bool)urce:(id)arg1;
+- (_Bool)nWellViewToPressed:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)ishTransitionWithCompletion:(struct _NSZone *)arg1;
+- (id)2ÄþÿØÏþÿ;
 
 @end
 

@@ -18,8 +18,8 @@
     HMMutableArray *_currentServices;
 }
 
-+ (id)ettingLanguageValue;
-+ (_Bool)rofile setNaturalLightingEnabled:shouldRetryOnFailure:completion:] /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id)0@"NSUUID"8;
 
 @end
 

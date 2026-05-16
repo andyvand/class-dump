@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     UIKeyboardMenuView *_menu;
 }
 
-- (void)=;
-- (void)th local account:(id)arg1 %@;
-- (id);
-- (void)iewsUsingState:(id)arg1;
+- (void);
+- (void);
+- (void)ntainerImplementation;
+- (id)j;
 
 // Remaining properties
 @property(nonatomic) UIKeyboardMenuView *menu; // @synthesize menu=_menu;

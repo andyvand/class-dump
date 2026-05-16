@@ -12,11 +12,11 @@
 }
 
 - (void);
-- (id)sNetworkTethered:(CDUnknownBlockType)arg1;
 - (void);
-- (void)ùQÂ1¢!0@ù
+- (CDUnknownBlockType);
+- (id)1Â0@ù
 × ;
-- (CDUnknownBlockType)g;
+- (void)Effect;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

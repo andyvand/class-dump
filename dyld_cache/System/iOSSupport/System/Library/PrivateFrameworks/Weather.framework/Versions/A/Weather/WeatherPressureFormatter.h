@@ -22,13 +22,13 @@
 - (id);
 - (float);
 - (int);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 - (_Bool);
+- (id);
 - (void);
-- (id)ime;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;

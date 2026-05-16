@@ -7,10 +7,11 @@
 @class UIScrollView;
 
 @protocol _UIRefreshControlHosting
-- (void)½Q¬;
-- (_Bool)cePrefersOverlayInRegularWidth;
-- (void)p¬;
-- (UIScrollView *);
+- (void);
+- (void)howsBackgroundCoverView;
+- (void)BAutofillController",&,N,Vm_autofillController;
+- (_Bool)this table view, instead of the data source:%@ /* Error: Ran out of types for this method. */;
+- (UIScrollView *).apple.TextInput.rdt but timed out after %d seconds;
 
 // Remaining properties
 @property(readonly) _Bool refreshControlInsetsAffectScrollViewRubberBanding;

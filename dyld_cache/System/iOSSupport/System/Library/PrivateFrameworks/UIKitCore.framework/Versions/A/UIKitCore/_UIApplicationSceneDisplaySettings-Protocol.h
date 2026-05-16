@@ -7,8 +7,6 @@
 @class NSValue;
 
 @protocol _UIApplicationSceneDisplaySettings
-- (void)alPopulate;
-- (NSValue *):completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSValue *displayBasedSafeAreaInsetsValue;

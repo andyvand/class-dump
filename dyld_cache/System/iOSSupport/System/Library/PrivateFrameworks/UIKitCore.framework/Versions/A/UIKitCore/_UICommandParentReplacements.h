@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_childReplacements;
 }
 
-- (id)setSyncControllerRecordType: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 inlineAttachments:(id)arg2 attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)hä{¬;
+- (id);
+- (void);
+- (void)Áÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *childReplacements; // @synthesize childReplacements=_childReplacements;

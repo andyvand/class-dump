@@ -207,32 +207,32 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (double);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (double);
 - (id);
-- (void);
-- (id)1Wð1b0@ù
+- (void)
 × ;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (void)ssionDistance:(double)arg1 ,V__scrubbingSessionDistance;
+- (id)setClockLayerOrder:(id)arg1;
+- (void)rtAlbumPreviewAssetsWithCompletionHandler:(double)arg1;
+- (void)igateToPlacesFromCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)PUDisplayAssetCollection>",R,N,V_assetCollection;
+- (id)ySy;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAudioSession:) ISWrappedAVAudioSession *_audioSession; // @synthesize _audioSession=__audioSession;

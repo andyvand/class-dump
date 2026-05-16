@@ -13,14 +13,15 @@ __attribute__((visibility("hidden")))
     unsigned long long _withAlternativesCount;
 }
 
-- (unsigned long long)missing but multiRequestError is NULL;
-- (void)te key data type;
-- (long long)V;
-- (_Bool);
-- (_Bool);
-- (long long);
-- (void)b;
 - (unsigned long long);
+- (void);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (long long);
+- (unsigned long long)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;

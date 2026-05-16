@@ -18,9 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)!v!ðBùQzð1b0@ù
-× ;
+- (id);
+- (void)CollectionCustomizationAddPeopleTitle;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSObject> animationOptions; // @synthesize animationOptions=_animationOptions;

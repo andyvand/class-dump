@@ -13,12 +13,12 @@
     unsigned long long aggregate;
 }
 
-- (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)astUpdate=%{public}s;
-- (id)ºüÿ;
+- (void)Rÿ;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

@@ -17,11 +17,11 @@
     NSData *_brandLogoData;
 }
 
-+ (_Bool)l error;
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -33,15 +33,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id)a;
-- (id);
+- (void)sortID;
 - (void);
-- (void)tiveDate;
-- (_Bool)achmentRendering;
+- (void)2Õÿ£ex;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *brandInfoDictionary; // @synthesize brandInfoDictionary=_brandInfoDictionary;

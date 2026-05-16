@@ -21,7 +21,7 @@
 
 + (id);
 + (id);
-+ (void)/a_time_tm.c;
++ (void)Y;
 - (void);
 - (void);
 - (void);
@@ -63,15 +63,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void)d/entry/title;
 
 // Remaining properties
 @property(nonatomic) unsigned long long encoding; // @synthesize encoding=_encoding;

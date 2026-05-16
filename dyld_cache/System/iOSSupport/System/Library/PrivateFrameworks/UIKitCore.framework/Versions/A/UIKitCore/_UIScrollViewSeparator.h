@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
     long long _edge;
 }
 
-- (void)@2;
 - (void);
-- (long long);
+- (void);
+- (struct CGSize);
 - (id);
-- (void);
 - (_Bool);
-- (void)Ð;
-- (id);
-- (struct CGSize)Monochromatic;
-- (void)¯©ÙZ*\;
-- (id);
 - (void);
-- (void)Î[ô^;
+- (id)htView;
+- (void)erEndpoint;
+- (id)or-Writeboard-Key;
+- (void)OL _UIFocusItemIsFocusableInFocusSystem(__strong id<UIFocusItem> _Nonnull, UIFocusSystem *__strong _Nonnull);
+- (void)¹þ;
+- (long long)qþ^;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long edge; // @synthesize edge=_edge;

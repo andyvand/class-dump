@@ -23,16 +23,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)
-× ;
-- (_Bool)Error = %@. Hiding 'guests' item.;
-- (_Bool);
-- (id)2Óæ$;
+- (void)ionWasInterrupted:(_Bool)arg1;
+- (id)ransitionType;
+- (void)equest"8;
+- (id)ator:] /* Error: Ran out of types for this method. */;
+- (_Bool)g to display router details when unavailable;
+- (_Bool)lSectionFooterSetDurationGeneric;
 
 // Remaining properties
 @property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;

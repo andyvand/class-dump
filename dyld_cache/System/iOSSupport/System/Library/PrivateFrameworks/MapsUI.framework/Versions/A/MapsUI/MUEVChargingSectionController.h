@@ -20,13 +20,13 @@
 - (id);
 - (_Bool);
 - (int);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool)±Ð;
+- (_Bool);
+- (void)entLocation;
 
 // Remaining properties
 @property(nonatomic) _Bool active;

@@ -12,13 +12,13 @@
     NSMutableArray *_queue;
 }
 
-- (_Bool);
-- (id)A;
 - (void);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 
 // Remaining properties

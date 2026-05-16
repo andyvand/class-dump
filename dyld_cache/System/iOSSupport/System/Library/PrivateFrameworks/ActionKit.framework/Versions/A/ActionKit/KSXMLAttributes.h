@@ -17,11 +17,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (_Bool);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)em/content:encoded /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *attributesAsDictionary;

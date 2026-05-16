@@ -16,9 +16,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)%ê<;
+- (void)@&;
+- (id)with future:(id)arg1 %p;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType attributedFormatterBlock; // @synthesize attributedFormatterBlock=_attributedFormatterBlock;

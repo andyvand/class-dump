@@ -12,7 +12,7 @@
     MISSING_TYPE *exportOptions;
     MISSING_TYPE *exportStatistics;
     MISSING_TYPE *currentBatch;
-    MISSING_TYPE *nextBatchStartingRowID;
+    MISSING_TYPE *messageExporterState;
     MISSING_TYPE *standaloneMode;
     MISSING_TYPE *batchCount;
     MISSING_TYPE *fallbackAccountParticipant;

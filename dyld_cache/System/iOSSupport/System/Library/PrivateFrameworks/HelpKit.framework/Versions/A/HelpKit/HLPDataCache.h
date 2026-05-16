@@ -22,22 +22,22 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (long long);
-- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (unsigned long long);
+- (id);
 - (void);
-- (_Bool)ext",R,C,N,V_authenticationContext;
+- (void);
+- (void);
+- (unsigned long long)nCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cacheType; // @synthesize cacheType=_cacheType;

@@ -12,13 +12,15 @@ __attribute__((visibility("hidden")))
     UICollectionView *_collectionView;
 }
 
-- (id)KitMetricWithOperationGroupName: /* Error: Ran out of types for this method. */;
-- (id)andRequiresNetworkTether;
-- (struct NSDirectionalEdgeInsets);
-- (void);
-- (id)rtion:(id)arg1;
-- (void);
-- (struct CGSize)8	;
+- (id);
+- (struct NSDirectionalEdgeInsets)
+× ;
+- (id)1Â0@ù
+× ;
+- (id)¨êÿàn þ4}þÿ;
+- (void)ll animator, timer;
+- (void)éÏÈ¼];
+- (struct CGSize)ÿÜ`*d;
 
 // Remaining properties
 @property(nonatomic, getter=_collectionView) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)%llu extents.;
-- (_Bool)sition from an entry that already has a running transition;
++ (_Bool);
+- (_Bool)tusBarStyle;
 
 @end
 

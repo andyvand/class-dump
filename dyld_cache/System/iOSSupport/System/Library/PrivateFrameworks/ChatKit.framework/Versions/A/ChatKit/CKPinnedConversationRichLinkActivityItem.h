@@ -15,20 +15,19 @@
     LPLinkView *_linkView;
 }
 
-- (id)o;
 - (id);
 - (id);
-- (id)ionary"16;
 - (id);
 - (id);
-- (_Bool);
-- (double);
+- (id);
+- (id);
+- (_Bool);
+- (double);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)QÄ1¢!0@ù
-× ;
+- (id)ntentRectEdgeForConversationListSearchBarInsetsWithRTL: /* Error: Ran out of types for this method. */;
+- (void)ða$ÿA2;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;

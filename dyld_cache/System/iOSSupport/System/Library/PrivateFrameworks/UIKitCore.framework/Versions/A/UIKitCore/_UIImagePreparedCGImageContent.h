@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     void *_renderRef;
 }
 
-- (_Bool);
 - (void);
-- (id)Ü£;
-- (id)b;
+- (id);
+- (_Bool);
+- (id)Hha;
 
 @end
 

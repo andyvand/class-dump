@@ -18,11 +18,11 @@
 
 - (void);
 - (void);
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (void)ïx¢ySb__G;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

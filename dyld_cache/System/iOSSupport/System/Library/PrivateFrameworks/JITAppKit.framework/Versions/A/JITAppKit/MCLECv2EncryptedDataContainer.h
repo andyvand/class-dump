@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) MCLECv2EncryptedData *_encryptedData; // @synthesize _encryptedData;

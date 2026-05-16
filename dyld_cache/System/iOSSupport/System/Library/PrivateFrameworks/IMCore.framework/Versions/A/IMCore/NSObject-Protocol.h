@@ -7,13 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id);
-- (Class);
-- (unsigned long long)usUpdate: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *);
+- (_Bool);
+- (struct _NSZone *)¬¹;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

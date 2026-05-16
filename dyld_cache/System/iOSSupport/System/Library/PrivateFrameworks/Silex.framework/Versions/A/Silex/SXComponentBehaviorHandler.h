@@ -13,16 +13,16 @@
     SXComponentBehavior *_behavior;
 }
 
-- (void)`;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void)@;
-- (_Bool);
 - (id);
+- (_Bool);
+- (void)XColumnLayout"24@0:8@"SXDataTableComponentController"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXComponentBehavior *behavior; // @synthesize behavior=_behavior;

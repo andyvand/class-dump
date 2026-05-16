@@ -15,19 +15,19 @@
     CRRecentContactsLibrary *_recentsInstance;
 }
 
-+ (id)üØðÿÉÍØ4Ûÿ¹ÍØ0Ùðÿ;
++ (id)licate message found with handle:%@ matching body matching service:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void)c7;
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id)lementContent:,V__targetElementContent /* Error: Ran out of types for this method. */;
+- (id);
+- (void)d remaining attachment records;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsOverrideOfObjects; // @synthesize allowsOverrideOfObjects=_allowsOverrideOfObjects;

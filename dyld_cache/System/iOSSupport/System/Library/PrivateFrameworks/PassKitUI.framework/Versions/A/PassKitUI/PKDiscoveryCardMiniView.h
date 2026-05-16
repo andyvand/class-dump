@@ -23,11 +23,11 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PKDiscoveryArticleLayout *articleLayout; // @synthesize articleLayout=_articleLayout;

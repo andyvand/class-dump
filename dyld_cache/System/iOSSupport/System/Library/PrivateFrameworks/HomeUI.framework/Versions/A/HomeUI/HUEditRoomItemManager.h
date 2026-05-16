@@ -39,7 +39,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)again;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *cameraItem; // @synthesize cameraItem=_cameraItem;

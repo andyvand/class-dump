@@ -8,10 +8,9 @@
 @protocol PXCMMInvitationParticipant, PXDisplayAsset, PXDisplayAssetCollection, PXUIImageProvider;
 
 @protocol PXCMMInvitation
-- (NSString *)roll;
-- (NSURL *)cingTimeSourceDelegate>",W,N;
-- (PXAssetCollectionActionManager *)e nil;
-- (unsigned long long)Collection;
+- (NSString *)kMode;
+- (unsigned long long)tory;
+- (NSString *)pe;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection;

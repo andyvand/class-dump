@@ -17,14 +17,13 @@
 
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)0@ù
-× ;
+- (void)er;
+- (void)ÿÿ±¬;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUTransitDeparturesDataSourceDelegate> delegate; // @synthesize delegate;

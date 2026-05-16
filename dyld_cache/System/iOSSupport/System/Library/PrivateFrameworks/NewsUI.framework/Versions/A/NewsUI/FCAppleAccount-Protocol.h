@@ -7,16 +7,12 @@
 @class ACAccount, NSArray, NSString;
 
 @protocol FCAppleAccount
-- (void);
-- (NSString *)2@40^v48;
-- (ACAccount *)ivate}s Journey ID %s;
-- (_Bool)asons;
-- (NSString *)Removing %{public}d requests from waiting;
-- (_Bool);
-- (NSString *)
+- (NSString *)áæ°!BùÑöÐ1Â0@ù
 × ;
-- (NSString *)xtLoader;
-- (NSString *)iewControllerDelegate>",W,N,V_delegate;
+- (NSString *)32@0:8@"UIPageViewController"16@"UIViewController"24 /* Error: Ran out of types for this method. */;
+- (long long)alueForTraitCollection:size: /* Error: Ran out of types for this method. */;
+- (NSString *)loader did finish, articleID=%{public}@, duration=%f;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *DSID;

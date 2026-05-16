@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedDragPreview, UIWindow;
+@class UIWindow;
+@protocol UIViewSpringAnimationBehaviorDescribing;
 
 @protocol _UIDragSetDownAnimationTarget
-- (UIWindow *);
-- (void)ension.;
-- (UITargetedDragPreview *)meDisplayGamut;
+- (UIWindow *)f°1Â0@ù
+× ;
+- (id <UIViewSpringAnimationBehaviorDescribing>)_orthogonalScrollingPrefetchingUnitVector;
 @end
 

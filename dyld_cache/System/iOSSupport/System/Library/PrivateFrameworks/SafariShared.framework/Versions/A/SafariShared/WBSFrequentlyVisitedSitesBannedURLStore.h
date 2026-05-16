@@ -20,12 +20,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)SGlobalContextRef;
+- (void);
 
 @end
 

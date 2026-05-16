@@ -29,10 +29,9 @@
 }
 
 - (id);
-- (id)T;
+- (id);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -41,29 +40,30 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)9h;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (id)ictionary"16;
-- (id)ceived unexpected number of channels (%d != %ld);
-- (void);
-- (id);
-- (id);
 - (void);
-- (void)ionManager;
-- (void)eManager _isEligibleForCacheUpdateAndPerformRecoveryIfNecessary]_block_invoke;
-- (id)thers;
+- (void);
+- (id)cationOfInterest:outError: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)+;
+- (void)is state active state, %{Bool}d, state, %{sensitive}@;
 
 // Remaining properties
 @property(retain, nonatomic) SMAppDeletionManager *appDeletionManager; // @synthesize appDeletionManager=_appDeletionManager;

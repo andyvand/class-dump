@@ -13,10 +13,10 @@
     double _rasterizationScale;
 }
 
+- (void);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void)eCellDidChangeValue:(id)arg1;
-- (void);
 - (void);
 - (void);
 - (double);

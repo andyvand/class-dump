@@ -16,9 +16,10 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (struct CGSize);
-- (id);
+- (struct CGSize)0@ù
+× ;
+- (void)onsIncludeInStatusFooter;
+- (id)=íÿ8îÿ°;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

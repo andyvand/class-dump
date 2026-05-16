@@ -16,9 +16,8 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType)ùqÉÐ1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;

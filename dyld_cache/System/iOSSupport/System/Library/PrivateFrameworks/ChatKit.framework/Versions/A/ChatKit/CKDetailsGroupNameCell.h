@@ -23,14 +23,14 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (_Bool);
-- (void)oin;
 - (void);
 - (void);
 - (void);
-- (id)q;
-- (_Bool)ment:%@ /* Error: Ran out of types for this method. */;
-- (id)unavailable.;
-- (id)etForParticipantMatch:finishingUpRegexMatchFinder:] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -38,11 +38,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (void);
+- (id)orRange:(long long)arg1;
 - (void);
-- (id)?üÿ;
-- (void)g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

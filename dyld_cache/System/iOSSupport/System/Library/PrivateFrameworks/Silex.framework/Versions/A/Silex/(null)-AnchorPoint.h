@@ -7,6 +7,6 @@
 @interface (null) (AnchorPoint)
 - (void);
 - (struct CGRect);
-- (void)b;
+- (void);
 @end
 

@@ -13,11 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void)mentGlyphView;
-- (id)Ü
-;
+- (id);
+- (void);
+- (void);
 
 @end
 

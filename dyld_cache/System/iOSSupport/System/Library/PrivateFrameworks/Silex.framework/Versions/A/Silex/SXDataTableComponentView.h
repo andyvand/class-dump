@@ -40,8 +40,8 @@
 - (id);
 - (void);
 - (void);
-- (void)˟;
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -59,21 +59,20 @@
 - (void);
 - (id);
 - (void);
-- (void)T;
+- (void);
 - (id);
 - (void);
-- (void)H;
-- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (id)
-× ;
-- (void)ldLayoutVertically:(id)arg1;
-- (id)CharIndex:eol: /* Error: Ran out of types for this method. */;
-- (_Bool)ntView:(id)arg1;
-- (id)olicyException;
-- (void)*;
+- (_Bool);
+- (id);
+- (id);
+- (void)ipConfiguration"40@0:8{CGPoint=dd}16@"SXViewport"32 /* Error: Ran out of types for this method. */;
+- (void)dentifiers:(id)arg1;
+- (id)oomLayout;
+- (void)Family;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdIgnorableViewFactory> adIgnorableViewFactory; // @synthesize adIgnorableViewFactory=_adIgnorableViewFactory;

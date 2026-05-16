@@ -19,9 +19,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)îùÿ;
-- (_Bool)aybackRect:%@> /* Error: Ran out of types for this method. */;
-- (id)j36;
+- (id);
+- (_Bool);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFocus; // @synthesize allowsFocus=_allowsFocus;

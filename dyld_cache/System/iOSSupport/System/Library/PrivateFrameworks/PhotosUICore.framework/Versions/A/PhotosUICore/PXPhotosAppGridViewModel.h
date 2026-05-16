@@ -11,6 +11,7 @@
 {
     NSHashTable *_internalMenuProducers;
     _Bool _didRegisterForSWYDefaultsChanges;
+    CDUnknownBlockType _openInPhotosAppButtonWillPerformActionHandler;
     _Bool _hidesViewOptionsToolbar;
     _Bool _alwaysIncludeSharedWithYouAssets;
     PXPhotosViewModel *_viewModel;
@@ -39,10 +40,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (id);
@@ -70,25 +73,25 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (void)lsScreen: /* Error: Ran out of types for this method. */;
-- (id)Index;
-- (id)8Äûÿ;
+- (long long);
+- (void);
+- (void);
 - (id);
-- (void)LemonadeShelfHeaderAppearance;
-- (void)doOrderedMediaTypes;
-- (void)ÿõ	;
-- (_Bool)õ	;
-- (id)J$6;
-- (id)Í;
+- (void);
+- (id);
+- (id)ation;
+- (id)_utility-5;
+- (void)ASE_FORMAT;
+- (_Bool)backAction;
+- (void)àz ÿ;
+- (id)QNÕ4;
+- (id)1S¨L5;
+- (id)®ÿMQÖ5;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysIncludeSharedWithYouAssets; // @synthesize alwaysIncludeSharedWithYouAssets=_alwaysIncludeSharedWithYouAssets;
@@ -110,6 +113,7 @@
 @property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
 @property(readonly, nonatomic) PXProgrammaticNavigationDestination *openInPhotosAppButtonNavigationDestination; // @synthesize openInPhotosAppButtonNavigationDestination=_openInPhotosAppButtonNavigationDestination;
+@property(readonly, nonatomic) CDUnknownBlockType openInPhotosAppButtonWillPerformActionHandler;
 @property(readonly, nonatomic) NSArray *photoLibraries; // @synthesize photoLibraries=_photoLibraries;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
 @property(nonatomic) __weak id <PXPhotosAppSpecificGridDelegate> photosAppGridDelegate; // @synthesize photosAppGridDelegate=_photosAppGridDelegate;

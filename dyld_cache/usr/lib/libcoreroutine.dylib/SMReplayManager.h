@@ -33,13 +33,13 @@
     RTLocationSmoother *_locationSmoother;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)?k;
-- (void)a87?;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,7 +47,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -55,7 +55,7 @@
 - (double);
 - (double);
 - (double);
-- (unsigned long long)w;
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -65,44 +65,43 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (double);
-- (void)T;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
-- (id)lyEnrolled;
-- (void);
-- (void);
-- (void)find relay-session-id for command message, channel %@, _channelToCandidatePairs = %@;
-- (void)key %@ for QR stun message, ignore.;
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)M?;
 - (void);
-- (id)á²(!ø@ùñ],Ð1¢!0@ù
-× ;
-- (id)Success;
-- (id)+ÀK;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)RTWatchdogProtocol>";
+- (void)updateSMTriggerDestinationTransportTypeToAvgSpeedWithDefaultsManager:(id)arg1 ];
+- (void)c instance;
 
 // Remaining properties
 @property(nonatomic) double crowFliesWalkingSpeed; // @synthesize crowFliesWalkingSpeed=_crowFliesWalkingSpeed;

@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id),R,N,V_leadingBar;
-- (id)m;
-- (void)f;
+- (id)clientContainerView;
+- (id)pearanceObserverInteraction;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *oldSuperview; // @synthesize oldSuperview=_oldSuperview;

@@ -53,12 +53,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)©å/GG_Qo_.ó/yAPGGAEyAPSgGG_Qo__SbQo_ñô/ySbGGò1Gaó/GtGG¨ó/yARGG;
+- (void)dentifierScorerCache;
+- (void)ies;
+- (id)É#¬£;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUICoreContactTypeAssessor *contactTypeAssessor; // @synthesize contactTypeAssessor=_contactTypeAssessor;

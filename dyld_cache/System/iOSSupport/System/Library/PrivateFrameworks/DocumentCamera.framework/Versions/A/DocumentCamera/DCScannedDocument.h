@@ -14,7 +14,8 @@
 }
 
 + (id);
-+ (void);
++ (void)0@ù
+× ;
 - (void);
 - (id);
 - (void);
@@ -35,14 +36,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (id);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)e:orientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *docInfos; // @synthesize docInfos=_docInfos;

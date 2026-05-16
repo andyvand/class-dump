@@ -45,7 +45,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)oftware update';
 
 // Remaining properties
 @property(retain, nonatomic) HUControlPanelController *controlPanelController; // @synthesize controlPanelController=_controlPanelController;

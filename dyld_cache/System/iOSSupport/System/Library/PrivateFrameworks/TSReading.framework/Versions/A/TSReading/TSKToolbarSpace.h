@@ -11,9 +11,9 @@
 
 + (id);
 - (void);
-- (void);
+- (_Bool);
 - (double);
-- (_Bool)hartInfoDefault3DLightingPackageProperty;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

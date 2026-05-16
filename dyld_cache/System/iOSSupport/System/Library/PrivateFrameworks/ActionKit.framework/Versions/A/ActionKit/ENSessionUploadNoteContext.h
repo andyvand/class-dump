@@ -28,13 +28,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (long long);
-- (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)»W\ oÊ.VÛißö¨BÕÃÿ~(Æ2g¬sUO°'[iÈXÊ»]£ÿá ð¸=ú¸!ýlµüJ[ÓÑ-yäSeEø¶¼IÒûKÚòÝá3~Ë¤AûbèÆäÎÚÊ ïLw6þ~Ð´ñ+MÚÛ®q­ê ÕkÐÑÐà%Ç¯/[<·uûâöd+ò¸ð ^­OÃhñÏÑ­Á¨³"//w¾þ-uê¡Ì åètoµÖó¬âÎàO¨´·àý;Ä|Ù¨­Òf¢_wsÌw!e ­æúµwõBTÇÏ5û¯Íë >{ÓAÖI~®-%;
+- (CDUnknownBlockType);
+- (void)1B50@ù
+× ;
+- (void)ation failed because the device could not be found.;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

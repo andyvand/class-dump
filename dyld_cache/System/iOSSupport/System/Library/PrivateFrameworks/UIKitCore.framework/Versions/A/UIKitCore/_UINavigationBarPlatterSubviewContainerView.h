@@ -14,10 +14,9 @@
 }
 
 - (id);
-- (void)aqð!°AùÄ1¢!0@ù
-× ;
-- (id);
-- (id)e/NavigationBarContentView+TransitionContainer.swift;
+- (id);
+- (id)ewLabel;
+- (void)ø\l;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

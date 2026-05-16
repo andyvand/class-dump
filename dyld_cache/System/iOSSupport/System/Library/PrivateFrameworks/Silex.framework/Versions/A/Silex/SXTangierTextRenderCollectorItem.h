@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTextTangierFlowInfo, SXTextTangierFlowLayout, SXTextTangierFlowStorage, SXTextTangierStorage, SXTextTangierTextLayout, UIView;
+@class NSString, SXTextTangierFlowInfo, SXTextTangierFlowLayout, SXTextTangierFlowStorage, SXTextTangierStorage, SXTextTangierTextLayout, SXTextView;
 @protocol TSDRepDirectLayerHosting;
 
 @interface SXTangierTextRenderCollectorItem
@@ -14,15 +14,15 @@
     SXTextTangierStorage *_storage;
     SXTextTangierFlowStorage *_flowStorage;
     NSString *_componentIdentifier;
-    UIView<TSDRepDirectLayerHosting> *_directLayerHost;
+    SXTextView<TSDRepDirectLayerHosting> *_directLayerHost;
     SXTextTangierTextLayout *_layout;
     SXTextTangierFlowLayout *_flowLayout;
     struct _NSRange _flowRange;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

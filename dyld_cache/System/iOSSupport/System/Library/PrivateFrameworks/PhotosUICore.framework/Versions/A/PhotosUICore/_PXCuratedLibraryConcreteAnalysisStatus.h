@@ -22,7 +22,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (void)catenatingAssetsDataSource;
+- (void)lerConfiguration.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

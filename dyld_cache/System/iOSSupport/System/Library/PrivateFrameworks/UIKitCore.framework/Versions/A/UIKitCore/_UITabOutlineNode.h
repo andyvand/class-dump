@@ -19,22 +19,23 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (id):(long long)arg1 account:destinationCallerID:messageTime:messageID:silently: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)st;
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)xtEntries-2;
 - (void);
-- (id)putViews;
-- (id)onstraints;
-- (id)RemoteDragManipulation;
-- (id)te:(id)arg1 %@ ;
+- (void);
 - (id);
 - (id);
+- (void);
+- (id);
 - (_Bool);
-- (void)L];
+- (id)!¬GùYÐ1Â0@ù
+× ;
+- (id);
+- (_Bool)elController"16q24d32;
+- (void)reorderingTargetPosition;
+- (id)ä;
+- (void):/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;

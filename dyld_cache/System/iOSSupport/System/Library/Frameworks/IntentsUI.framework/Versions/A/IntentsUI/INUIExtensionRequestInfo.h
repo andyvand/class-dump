@@ -16,11 +16,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) INInteraction *interaction; // @synthesize interaction=_interaction;

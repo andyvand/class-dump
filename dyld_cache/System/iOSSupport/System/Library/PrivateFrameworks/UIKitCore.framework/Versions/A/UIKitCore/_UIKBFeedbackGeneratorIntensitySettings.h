@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double)R;
-- (void);
 - (double);
-- (void)sCompactSectionSpacing: /* Error: Ran out of types for this method. */;
-- (void)ansitionAnimationView;
-- (double)2;
-- (double)©»^;
+- (void);
+- (void);
+- (void): /* Error: Ran out of types for this method. */;
+- (double)Window,V_updatingKeyWindow;
+- (double)ap;
+- (double)delegate needs to be the view controller itself.;
 
 // Remaining properties
 @property(nonatomic) double decayInterval; // @synthesize decayInterval=_decayInterval;

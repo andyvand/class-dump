@@ -22,9 +22,9 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)ngSystemVersion: /* Error: Ran out of types for this method. */;
-- (void)Item:(id)arg1;
+- (void)trollerQuickControlLayoutGuide;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

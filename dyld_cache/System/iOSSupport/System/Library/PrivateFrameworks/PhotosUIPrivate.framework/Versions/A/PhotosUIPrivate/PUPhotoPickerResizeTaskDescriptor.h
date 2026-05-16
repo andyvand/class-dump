@@ -25,12 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (struct CGSize);
 - (_Bool);
 - (id);
-- (void);
-- (struct CGSize)sterSubitemCornerRadius;
-- (id)ª$;
+- (void)ionManagers;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;

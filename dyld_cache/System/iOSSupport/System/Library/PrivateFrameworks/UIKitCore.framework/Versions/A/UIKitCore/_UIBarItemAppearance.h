@@ -14,11 +14,12 @@ __attribute__((visibility("hidden")))
     NSArray *_blindViewAppearances;
 }
 
-+ (id);
-+ (id)aryEdge = %ld;
++ (id)pp bug. Use one or the other, not both.;
++ (id)dth;
 - (void);
-- (void)Q32;
-- (void)ØØ$Ù;
+- (void);
+- (void)0@ù
+× ;
 
 @end
 

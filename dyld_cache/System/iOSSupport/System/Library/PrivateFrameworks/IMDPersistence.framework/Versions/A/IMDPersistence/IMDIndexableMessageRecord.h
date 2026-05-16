@@ -38,16 +38,16 @@
 
 - (id);
 - (id);
-- (id)#;
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)RE;
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -58,19 +58,19 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (long long);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
-- (id)h
+- (unsigned long long);
+- (id);
+- (id);
+- (id)ssages:sourceType: /* Error: Ran out of types for this method. */;
+- (long long)
 ;
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id)ô2Ð 9Üè4èD¨;°ü2Ìð2Ü¨;ä!Ü4ð!4ø!ü3"ð3è"¸7¤%Ø4°%4¸%ø3&¤6¸(Ô4Ä(4Ì(ô3¤)¤5Ô+ôð=;
-- (id)N c.ROWID = j.chat_id         WHERE           j.message_id = OLD.message_id       )       WHERE         message.ROWID = OLD.message_id;  DELETE FROM message WHERE message.ROWID = OLD.message_id AND OLD.message_id NOT IN (SELECT chat_message_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1) AND OLD.message_id NOT IN (SELECT chat_recoverable_message_join.message_id from chat_recoverable_message_join WHERE chat_recoverable_message_join.message_id = OLD.message_id LIMIT 1); END;
+- (void)t count with error:%@ /* Error: Ran out of types for this method. */;
+- (id)tor_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.ROWID DESC;;
+- (id)t_id TEXT, properties BLOB, chat_identifier TEXT, service_name TEXT, guid TEXT, room_name TEXT, account_login TEXT, participants BLOB);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *associatedEmoji; // @synthesize associatedEmoji=_associatedEmoji;

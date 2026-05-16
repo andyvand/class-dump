@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray, NSString;
 
 @protocol FCIssueReadingHistoryType
-- (NSDate *);
-- (NSArray *);
-- (NSDate *)a;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allEngagedIssueIDs;

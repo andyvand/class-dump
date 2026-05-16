@@ -22,27 +22,27 @@
     NSString *_disablementReason;
 }
 
-+ (_Bool)rable;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)um;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
 - (int);
-- (_Bool)First Occurrence;
+- (void)ÐW@Y¤Y;
+- (void)Latest Videos;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *disablementReason; // @synthesize disablementReason=_disablementReason;

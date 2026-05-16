@@ -8,8 +8,6 @@
 @protocol SXFontAttributes;
 
 @protocol SXFontFace
-- (id <SXFontAttributes>);
-- (NSString *)Hosting:textSourceFactory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXFontAttributes> fontAttributes;

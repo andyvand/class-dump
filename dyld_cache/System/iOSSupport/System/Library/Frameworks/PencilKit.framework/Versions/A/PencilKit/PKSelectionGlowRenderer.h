@@ -22,19 +22,19 @@
     id <PKSelectionRenderingDelegate> _renderingDelegate;
 }
 
-+ (id);
++ (id);
 + (void);
 - (void);
 - (void);
-- (void)CMutexLock";
-- (id)dPerformingOperationWithError: /* Error: Ran out of types for this method. */;
-- (id)SONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
-- (id)c}@ finished;
-- (id)ettings:(id)arg1 %{public}@;
-- (struct CGPoint)ialQueue enqueueBlockForMainThread:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)u;
-- (double)D$;
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (id);
+- (void);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -42,9 +42,9 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
-- (id)h;
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -58,7 +58,7 @@
 - (id);
 - (void);
 - (struct CGColor *);
-- (void);
+- (void)ontainerViewCompactHeightConstraint;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,7 +10,7 @@
 {
     MISSING_TYPE *group;
     MISSING_TYPE *tagModel;
-    MISSING_TYPE *curatedShortcutData;
+    MISSING_TYPE *contentShortcutData;
     MISSING_TYPE *allowsUserInteraction;
 }
 

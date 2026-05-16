@@ -8,16 +8,15 @@
 {
 }
 
-+ (id)1¢!0@ù
-× ;
-+ (id)vityContinuationManagerUserCancelledError: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)tViewSizes=q{CGSize=dd}{CGSize=dd}d{CGSize=dd}{CGSize=dd}d}32@0:(id)arg1 8{CGSize=dd}16;
-- (void)on:(id)arg1;
-- (void)_menuIdentifierForStandardItem:(int)arg1;
-- (void)%k;
-- (void)+wÿÜ_Èlk;
-- (id)l;
++ (id);
++ (id)kspace"16@"FBSSceneTransitionContext"24;
+- (id);
+- (void)rientation:(id)arg1;
+- (void)nerSettings;
+- (void);
+- (void);
+- (void)dElementSize cannot be called before the menu has been prepared for display;
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool remoteKeyboardUndocked;

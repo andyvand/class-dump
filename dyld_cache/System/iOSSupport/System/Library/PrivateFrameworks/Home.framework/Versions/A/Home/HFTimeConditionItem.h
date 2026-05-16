@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (void);
+- (void)ìa¼cdÀdf;
 
 // Remaining properties
 @property(retain, nonatomic) HFTimeCondition *condition; // @synthesize condition=_condition;

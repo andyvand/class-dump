@@ -9,7 +9,8 @@
 }
 
 + (id);
-+ (id);
++ (id)»Gy%GyøFy!ÿF4üFG_GtGGSg;
+- (id);
 
 @end
 

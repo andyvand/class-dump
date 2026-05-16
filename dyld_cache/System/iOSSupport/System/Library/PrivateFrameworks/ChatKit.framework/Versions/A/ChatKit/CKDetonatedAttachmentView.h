@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
-- (id)ÔÕ|ÕüÕTÖ¬×ÀØôØ|ÚØÚ)@Ý¨Ýà\áäåç¸çè|è;
 - (struct CGSize);
-- (id)è/;
+- (void);
+- (id);
+- (void)EÂi@îÿ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *iconImageView; // @synthesize iconImageView=_iconImageView;

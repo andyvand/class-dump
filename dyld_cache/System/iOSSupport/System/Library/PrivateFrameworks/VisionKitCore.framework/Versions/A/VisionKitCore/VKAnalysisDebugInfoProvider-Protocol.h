@@ -7,7 +7,6 @@
 @class VKCImageAnalysisResult, VKCImageSubjectContext, VKTextRange;
 
 @protocol VKAnalysisDebugInfoProvider
-- (VKTextRange *)isInteractionDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activeInteractionTypes;

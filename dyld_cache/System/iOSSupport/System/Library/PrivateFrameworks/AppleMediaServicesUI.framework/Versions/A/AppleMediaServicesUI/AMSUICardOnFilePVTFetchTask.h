@@ -34,13 +34,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id)r: /* Error: Ran out of types for this method. */;
-- (void)com.apple.AMSEngagementViewService;
 - (id);
+- (void);
+- (void);
+- (void)ateRequest:account:processInfo:presentingViewController: /* Error: Ran out of types for this method. */;
+- (id)Class:forKey: /* Error: Ran out of types for this method. */;
+- (void)G:(id)arg1 1y9<1y'1yT3y¿R3yáX3y;51G_P3Qo__Qo_H&1G_ACy^91yG3yr;1ANGGAJGACyACyALyACy¢81]11y781GGGAJG"1GtGG;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

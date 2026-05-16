@@ -17,20 +17,10 @@
     NSNumber *_grayscale;
     NSNumber *_smartInvert;
     NSNumber *_differentiateWithoutColor;
+    NSNumber *_reduceHighlightingEffects;
 }
 
 + (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)(;
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -38,11 +28,24 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *boldText; // @synthesize boldText=_boldText;
@@ -51,6 +54,7 @@
 @property(retain, nonatomic) NSNumber *grayscale; // @synthesize grayscale=_grayscale;
 @property(retain, nonatomic) NSNumber *increaseContrast; // @synthesize increaseContrast=_increaseContrast;
 @property(retain, nonatomic) NSNumber *onOffLabels; // @synthesize onOffLabels=_onOffLabels;
+@property(retain, nonatomic) NSNumber *reduceHighlightingEffects; // @synthesize reduceHighlightingEffects=_reduceHighlightingEffects;
 @property(retain, nonatomic) NSNumber *reduceMotion; // @synthesize reduceMotion=_reduceMotion;
 @property(retain, nonatomic) NSNumber *reduceTransparency; // @synthesize reduceTransparency=_reduceTransparency;
 @property(retain, nonatomic) NSNumber *smartInvert; // @synthesize smartInvert=_smartInvert;

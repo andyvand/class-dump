@@ -34,10 +34,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)BÏ;
+- (id)rScheduler;
+- (void)onStyle;
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;

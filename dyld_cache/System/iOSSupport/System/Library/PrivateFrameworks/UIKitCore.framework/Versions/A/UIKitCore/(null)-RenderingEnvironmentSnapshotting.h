@@ -5,6 +5,6 @@
 //
 
 @interface (null) (RenderingEnvironmentSnapshotting)
-- (void)ad because it's time is older than the chat's last read message time including the grace period.;
+- (void);
 @end
 

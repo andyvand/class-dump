@@ -24,12 +24,12 @@
     double _barHeight;
 }
 
-+ (id)z;
++ (id);
 + (id);
 + (id);
 + (void);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,10 +45,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (void);
 - (double);
 
 // Remaining properties

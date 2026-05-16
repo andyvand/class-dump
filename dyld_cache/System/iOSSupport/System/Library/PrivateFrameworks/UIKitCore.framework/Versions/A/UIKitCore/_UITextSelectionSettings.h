@@ -25,36 +25,36 @@ __attribute__((visibility("hidden")))
     NSNumber *_enableDeepPress;
 }
 
-+ (id);
-- (void);
-- (double);
-- (void);
++ (id)¦ Ý$Dk;
 - (id);
-- (void)nges;
 - (double);
 - (void);
+- (double);
+- (void);
+- (void);
+- (double);
+- (double);
 - (id);
-- (void);
-- (double);
-- (id)tent__MAPPING_MISSING__;
-- (void);
 - (double);
 - (void);
 - (void);
-- (double);
-- (void)ù
+- (void);
+- (void)@ù
 × ;
-- (void)0@ù
+- (void)°! Cùñ^1Â0@ù
 × ;
-- (void)ù
+- (double)FùñeÐ1Â0@ù
 × ;
-- (void)ckUnderlineForWebKitCandidate: /* Error: Ran out of types for this method. */;
-- (double)dPunctuationCount: /* Error: Ran out of types for this method. */;
-- (double)ngNSRange: /* Error: Ran out of types for this method. */;
-- (id)etIgnoreBottomSeparatorInsetsFromCell: /* Error: Ran out of types for this method. */;
-- (void)þÿ;
+- (void)"UIControl"16;
+- (id)eTrackingElementsForOffset: /* Error: Ran out of types for this method. */;
+- (void)TwoFingerScrollingAtTouchLocation:andLocation: /* Error: Ran out of types for this method. */;
+- (void)tIAPayloadKeyMissingKeyboardSceneId;
+- (void)ntViewController:(id)arg1;
+- (id);
+- (double)orking;
 - (void);
-- (double);
+- (void)p;
+- (double)ý43´tþí43°tþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *allowExtendingSelections; // @synthesize allowExtendingSelections=_allowExtendingSelections;

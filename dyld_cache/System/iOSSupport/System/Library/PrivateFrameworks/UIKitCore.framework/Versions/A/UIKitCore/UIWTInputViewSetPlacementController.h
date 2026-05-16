@@ -9,17 +9,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)QID_NUM_NATIVE_TEX_INDIRECTIONS;
-- (void)ogram string from PPStream;
-- (void)SW;
-- (void)escription;
-- (void)tadata:(struct CGRect)arg1 queryID: /* Error: Ran out of types for this method. */;
-- (void)Chats:(struct CGRect)arg1;
-- (void)r:(struct CGRect)arg1 token:(struct CGRect)arg2 chat:(_Bool)arg3;
 - (void);
-- (void);
-- (id)entries;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id)plier must be non-nil;
 
 @end
 

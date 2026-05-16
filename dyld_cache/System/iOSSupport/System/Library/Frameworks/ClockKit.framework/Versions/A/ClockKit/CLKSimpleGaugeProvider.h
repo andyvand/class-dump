@@ -22,10 +22,10 @@
 - (float);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (_Bool);
 

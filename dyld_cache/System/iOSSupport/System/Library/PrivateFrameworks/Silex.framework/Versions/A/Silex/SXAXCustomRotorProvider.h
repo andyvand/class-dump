@@ -12,8 +12,8 @@
     NSObject *_rootElement;
 }
 
-- (void);
 - (id);
+- (void)IView"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
 
 @end
 

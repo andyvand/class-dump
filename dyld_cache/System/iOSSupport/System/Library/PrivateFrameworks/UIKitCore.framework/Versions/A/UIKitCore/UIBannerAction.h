@@ -11,14 +11,13 @@
 }
 
 - (_Bool);
-- (id)ready exists in transfer center. not overwriting. Transfer:(id)arg1 %@;
-- (id)unarchive for chat:(id)arg1 %@;
-- (_Bool)g newline;
-- (id)t %@;
 - (id);
-- (id)
-× ;
-- (long long)al;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIBannerContent *bannerContent;

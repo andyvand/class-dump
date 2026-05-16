@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (double);
 - (void);
 - (void);
-- (void)ssetsWithPrefetchingDisabled:(id)arg1;
-- (id)q,N,V_globalFooterVisibility;
+- (id);
+- (void)mator;
+- (id)ath;
+- (void)0ÍðÏ;
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

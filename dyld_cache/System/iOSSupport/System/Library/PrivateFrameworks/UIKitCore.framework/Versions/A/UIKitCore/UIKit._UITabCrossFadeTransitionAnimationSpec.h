@@ -17,18 +17,17 @@
 
 + (id);
 - (void);
-- (void)lic}s] DAS expired;
-- (void)e no message text was available to send;
-- (void)chat:(id)arg1 %@;
-- (id)it twice;
-- (double)</smil>
-;
+- (void);
+- (void);
+- (void);
+- (id);
+- (double);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)Vm_uid;
+- (id);
+- (void)ÒÏ\l;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit30_UIDurationBounceAnimationSpec *fadeIn; // @synthesize fadeIn;

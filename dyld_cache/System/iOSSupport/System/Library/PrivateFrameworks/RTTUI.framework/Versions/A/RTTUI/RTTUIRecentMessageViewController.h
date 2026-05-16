@@ -43,14 +43,14 @@
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
 - (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

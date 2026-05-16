@@ -22,8 +22,8 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
 - (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double arcFraction; // @synthesize arcFraction=_arcFraction;

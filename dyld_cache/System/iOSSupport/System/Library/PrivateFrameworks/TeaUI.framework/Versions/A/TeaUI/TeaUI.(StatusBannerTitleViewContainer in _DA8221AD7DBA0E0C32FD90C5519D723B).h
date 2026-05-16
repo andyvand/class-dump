@@ -11,10 +11,10 @@
     MISSING_TYPE *contentView;
 }
 
-- (struct CGSize);
-- (id)onfiguration;
-- (void);
 - (id);
+- (struct CGSize);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

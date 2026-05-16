@@ -19,14 +19,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long)_updateLocalAccountStorefrontIfNeededForAccount:(id)arg1 store:(id)arg2;
-- (void)nt = %{public}@;
+- (long long);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

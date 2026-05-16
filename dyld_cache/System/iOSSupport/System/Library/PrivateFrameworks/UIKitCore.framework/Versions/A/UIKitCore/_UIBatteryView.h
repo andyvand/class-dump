@@ -38,145 +38,148 @@
     double _pinColorAlpha;
 }
 
-+ (struct CGSize)P;
-+ (struct CGSize)}16@0:(long long)arg1 8;
-+ (double)DescriptionBoxView;
-+ (double);
 + (id);
-+ (double);
-+ (id)wDelagate:(struct CGSize)arg1;
-+ (id)TealColor;
++ (struct CGSize)eorderingCancelled;
++ (id)ext;
++ (struct CGSize)redWellView;
++ (double)uncachedElementWithIdentifier:(long long)arg1;
++ (double)loudSharingController;
++ (id);
++ (double)Ú_;
+- (void);
+- (void);
 - (double);
-- (id);
-- (struct CGSize);
 - (void);
-- (struct CGSize);
+- (double);
 - (void);
 - (void);
-- (id);
-- (void);
-- (double)Button;
-- (double)V_payloadAllowedRemotes;
-- (void)aration_Status;
-- (void)C:(id)arg1 ;
-- (_Bool);
+- (void);
+- (double);
+- (void);
 - (struct CGRect);
 - (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)pth %ld;
+- (double);
 - (_Bool);
-- (long long)c;
-- (void);
-- (id);
-- (id)riptionStatus";
-- (struct CGSize)icationsCounter;
-- (void)uous;
-- (void)atedArtwork;
-- (id);
-- (void)e account;
-- (void);
-- (void);
-- (void);
-- (double)9$;
+- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (long long)P;
+- (double);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (double);
+- (long long);
 - (long long);
 - (id);
-- (double);
-- (double)éóº;
-- (void);
 - (void);
-- (double)1¢!0@ù
-× ;
-- (struct CGSize)r°!°GùQÅ°1¢!0@ù
-× ;
-- (void)sð!(Fù1ÇÐ1¢!0@ù
-× ;
-- (_Bool)Ô ;
-- (id);
-- (void)! DùÈð1¢!0@ù
-× ;
-- (void)!¨BùÉ1¢!0@ù
-× ;
-- (id);
-- (_Bool)1¢!0@ù
-× ;
-- (id)vÐ!ÔFùQËÐ1¢!0@ù
-× ;
-- (double)1¢!0@ù
-× ;
-- (struct CGRect)1¢!0@ù
-× ;
-- (id);
-- (void):8@"_UIViewServiceDeputyManager"16@"NSXPCInterface"24 /* Error: Ran out of types for this method. */;
-- (long long)imatableInfo";
-- (void)v@?@"UIDraggingSystemTouchRoutingPolicy">32;
-- (void)ges:(id)arg1 replacementText: /* Error: Ran out of types for this method. */;
-- (void)ide:(long long)arg1;
-- (id)stureEnabled;
-- (void)EditMenuFrame:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (double)utSubviews: /* Error: Ran out of types for this method. */;
-- (_Bool)ets;
-- (id)Alpha;
-- (void)used;
-- (void)ScrollIndicatorTopSafeAreaInset: /* Error: Ran out of types for this method. */;
-- (void)lementsDragItemsForItemAtIndexPathWithDefaultPreview;
-- (void)sToBounds:(_Bool)arg1;
-- (double)N,V_isSpacePan;
-- (double):(long long)arg1;
-- (void)tring",&,N,VsoftwareLayout;
-- (void)putFlags: /* Error: Ran out of types for this method. */;
-- (id)isplayInteraction",R,W,N,V_manager;
-- (double)ller",N,S_setCompatibilityPopoverController:(id)arg1 ,V__compatibilityPopoverController;
-- (void)ä¼ä  %;
-- (_Bool)Å¨Å;
-- (void)O;
-- (double)\ªD«;
-- (id)is action altogether if possible, or defer it until the table view has been added to a window. Table view:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)ventsOnly);
+- (void);
 - (double);
-- (id);
-- (void)IScrollPocketCollectorInteractionCSgXw;
-- (id)f getkTCCServicePhotos(void);
-- (id)nterfaceAutorotationAnimated:] /* Error: Ran out of types for this method. */;
-- (long long)planeSwitchOn;
-- (double)restoration identifier, truncating array:(id)arg1 %@;
-- (_Bool)ollectionLayoutItem created with invalid combination of spacing and size specified. This group cannot fit even a single item. Inspect the spacing and size of the items in this group and ensure that they fit into the group when its effective size is %@.
-Group:%@ /* Error: Ran out of types for this method. */;
-- (double)0@"UIBarButtonItem"8@"UIView"16;
-- (void)%@;
-- (void)rvices;
-- (id)`°¶}G@Ì¸©úÆÀx^*6æ5@;
+- (double);
+- (struct CGSize);
+- (id)× ;
+- (void)Yð1Â0@ù
+× ;
 - (void);
-- (CDStruct_c3b9c2ee)±wÔVÎ];
+- (void)0@ù
+× ;
+- (double)!ÜEùQ]Ð1Â0@ù
+× ;
+- (id)@ù
+× ;
+- (struct CGSize)1Â0@ù
+× ;
+- (id)× ;
+- (double)0@ù
+× ;
+- (CDStruct_c3b9c2ee)ñað1Â0@ù
+× ;
+- (id)Ð!CùÑb1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (struct CGSize)!À@ùÑd°1Â0@ù
+× ;
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (void)a
+!LEùÑfð1Â0@ù
+× ;
+- (_Bool)rTableView"16q24q32;
+- (id)ntrollerOneToOneTransitionContext"24;
+- (void):(struct CGRect *)arg1 8{CAPoint3D=ddd}16;
+- (void)0:(id)arg1 8@"UIScene"16;
+- (void)pearStatesForPlacement:start:animated: /* Error: Ran out of types for this method. */;
+- (id)InRange: /* Error: Ran out of types for this method. */;
+- (long long)alue:forPasteboardType: /* Error: Ran out of types for this method. */;
+- (id)pareSceneForLowPowerModeChange: /* Error: Ran out of types for this method. */;
+- (double)ltEmptyTextToSecondaryTextPaddingForTraitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)howBreadcrumbs;
+- (struct CGRect)itions;
+- (double)er;
+- (_Bool)SourceIndexPaths;
+- (void)he;
+- (struct CGSize)tWindow:(long long)arg1;
+- (id)eChanges:(struct CGRect)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)ormAccumulation;
+- (void)tHeadersHugContent: /* Error: Ran out of types for this method. */;
+- (id)Fail: /* Error: Ran out of types for this method. */;
+- (void)ndarWeekdayView",&,N,V_weekdayView;
 - (void);
-- (double)0ÊÿFËb7^;
-- (void)ü^;
-- (void)ÉÄ×Ða;
-- (id);
-- (id);
-- (id);
-- (void)26b;
-- (void)Òûc;
-- (void)ú°c;
-- (_Bool)ëÿ§1ÖÁ[d;
-- (id)e;
+- (void);
+- (void)eVisualStyle_iOSInlineActionSheet;
+- (void)¨¡ø¡;
+- (id)ontainer in rect enumeration;
+- (long long)rØïÿØÙïÿ;
+- (double)tyle;
+- (void)icator (%@) frame to %@. indicatorBounds=%@, indicatorInsets=%@, effectiveIndicatorInsets=%@, additionalInset=%f, horizontalScrollIndicatorInsets=%@, cachedHorizontalScrollIndicatorBaseInsets=%@, contentOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINX=%f, CONTENT_WIDTH=%f, _parentAdjustment=%@, scrollView=%@;
+- (void):(long long)arg1 %@;
+- (double)nHoverRollAngle;
+- (_Bool)es;
+- (void)ypeSend;
+- (void)tion;
+- (void)ass getCHHapticEventClass(void)_block_invoke;
+- (id)ponent;
+- (void)ation initializing document picker is missing the iCloud entitlement. Is %@ set?;
+- (id)dSceneId(void);
+- (void)lass  _Nonnull __unsafe_unretained);
+- (void)onEstimatedSolver.m;
+- (void);
+- (long long);
+- (_Bool)13Ø,;
+- (double);
+- (void)-Ê;
+- (void)þD2ÝÆ^;
+- (void)(b;
+- (void)þ;
+- (void)ÿ!-Ý\)d;
+- (id)Õ#/f;
+- (id)Ó@ÌXºd;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIBatteryViewAXHUDImageCacheInfo *accessibilityHUDImageCacheInfo; // @synthesize accessibilityHUDImageCacheInfo=_accessibilityHUDImageCacheInfo;

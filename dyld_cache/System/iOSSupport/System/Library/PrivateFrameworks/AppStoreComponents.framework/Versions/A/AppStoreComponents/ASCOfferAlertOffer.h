@@ -42,18 +42,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id)T@"NSNumber",R,N;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *ageRating; // @synthesize ageRating=_ageRating;

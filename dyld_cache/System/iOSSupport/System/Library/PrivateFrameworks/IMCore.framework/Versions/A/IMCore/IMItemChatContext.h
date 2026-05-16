@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)e:tintColor:linkButton: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)¤X¬`´h¼t,§;
 
 // Remaining properties
 @property(retain, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;

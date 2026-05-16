@@ -60,7 +60,7 @@
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
-- (id);
+- (id);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
@@ -77,7 +77,7 @@
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
-- (_Bool)|b;
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -96,20 +96,20 @@
 - (_Bool);
 - (struct CGPoint);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (id);
@@ -125,7 +125,7 @@
 - (Class);
 - (void);
 - (id);
-- (id)C;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -139,7 +139,7 @@
 - (void);
 - (void);
 - (id);
-- (id)ve lease manager available];
+- (id);
 - (void);
 - (id);
 - (struct CGRect);
@@ -149,13 +149,13 @@
 - (void);
 - (void);
 - (id);
+- (int);
 - (struct CGSize);
+- (void);
 - (id);
-- (void);
-- (int)tterShowLineProperty;
-- (void);
-- (void)(ç÷ÿ;
-- (void)O×ÿ!GW_·;
+- (void)OfRow(TSTTableModel *, TSURowIndex, BOOL *);
+- (void)thTextAttributes:columnWidth:should have been called before validate /* Error: Ran out of types for this method. */;
+- (void)Õ[;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool attachmentLayoutDisplacedByDropCap;

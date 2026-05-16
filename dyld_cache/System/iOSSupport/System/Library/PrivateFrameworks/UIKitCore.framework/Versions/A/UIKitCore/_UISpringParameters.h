@@ -10,16 +10,17 @@
     double __response;
 }
 
-+ (id);
-+ (_Bool)];
-- (void);
-- (_Bool)O_METAL;
++ (_Bool):%p; location = %@> /* Error: Ran out of types for this method. */;
++ (id)[4Q]}}8@?0;
 - (id);
 - (id);
 - (double);
 - (id)× ;
-- (double);
-- (id)ler;
+- (double)1_Ð1Â0@ù
+× ;
+- (_Bool)ight"b1"hasDefaultLayoutMargins"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
+- (void)houldTintContentImage;
+- (id)ContentOffsetForKeyboardIfNeeded;
 
 // Remaining properties
 @property(readonly, nonatomic) double _dampingRatio; // @synthesize _dampingRatio=__dampingRatio;

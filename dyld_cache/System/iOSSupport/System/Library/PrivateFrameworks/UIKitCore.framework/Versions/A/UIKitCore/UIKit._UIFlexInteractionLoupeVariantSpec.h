@@ -10,8 +10,8 @@
 {
 }
 
-- (void)ferredDisplayMode: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)ToSafeArea: /* Error: Ran out of types for this method. */;
+- (id)ÿq;
 
 @end
 

@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void);
-- (void);
-- (void);
+- (void)Dictionary",&,N,V_zoneSnapshotsByZoneName;
+- (void)led to get subscription info for carrier stocks with error:(NSURLSession *)arg1 %{public}@;
 @end
 

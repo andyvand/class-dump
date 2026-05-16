@@ -11,10 +11,10 @@
     CDUnknownBlockType _scrollViewDidEndScrollingAnimationHandler;
 }
 
-- (void):(CDUnknownBlockType)arg1 8@16@24@32@40@48@56@64@72B80@84Q92@100d108d116;
-- (CDUnknownBlockType)onHandler: /* Error: Ran out of types for this method. */;
 - (void);
+- (CDUnknownBlockType);
 - (void);
+- (void)ng:liveScrollOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

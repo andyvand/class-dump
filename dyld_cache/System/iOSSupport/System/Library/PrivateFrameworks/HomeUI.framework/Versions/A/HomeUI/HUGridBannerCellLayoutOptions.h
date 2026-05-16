@@ -68,20 +68,20 @@
 - (double);
 - (double);
 - (void);
-- (void);
 - (id);
 - (void);
-- (double);
-- (double);
 - (void);
-- (void);
+- (double);
 - (double);
 - (void);
 - (double);
 - (void);
 - (double);
+- (void);
+- (double);
+- (void);
 - (id);
-- (void);
+- (void)InsufficientQuotaOneAlert_Title;
 
 // Remaining properties
 @property(nonatomic) double cellHeight; // @synthesize cellHeight=_cellHeight;

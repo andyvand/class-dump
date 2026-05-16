@@ -19,11 +19,11 @@
     MISSING_TYPE *point;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

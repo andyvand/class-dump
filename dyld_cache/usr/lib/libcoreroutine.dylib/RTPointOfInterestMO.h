@@ -10,9 +10,8 @@
 {
 }
 
-+ (id)G)
-;
-+ (id)Ø è1;
++ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) _Bool applePaySupport; // @dynamic applePaySupport;

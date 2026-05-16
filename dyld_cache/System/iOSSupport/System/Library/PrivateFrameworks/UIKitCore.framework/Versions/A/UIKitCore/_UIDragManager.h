@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     UIScreen *_screen;
 }
 
-+ (void)have a recordID. Attempting to load recordID from disk.;
++ (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -32,11 +32,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)C32@36@44B52;
-- (void)uestIDs:(id)arg1;
 - (id);
 - (void);
-- (id)robablyBeingRecorded;
+- (id)sOnScreen;
+- (void)\;
+- (id)hb;
 
 // Remaining properties
 @property(readonly, nonatomic) CAContext *dragImageContext;

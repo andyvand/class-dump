@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     NSDictionary *_mentionAnimations;
 }
 
-- (void)ldWindow:(id)arg1;
-- (void);
-- (id)b;
-- (id)r;
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (id)onItemIdentifier;
 - (void);
 
 // Remaining properties

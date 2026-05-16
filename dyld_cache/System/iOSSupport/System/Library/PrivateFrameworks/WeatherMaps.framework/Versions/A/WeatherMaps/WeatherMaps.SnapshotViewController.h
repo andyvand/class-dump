@@ -22,12 +22,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)½þÿáÿÿ;
-- (void)!kAèÿ;
+- (void);
+- (void);
+- (void);
 
 @end
 

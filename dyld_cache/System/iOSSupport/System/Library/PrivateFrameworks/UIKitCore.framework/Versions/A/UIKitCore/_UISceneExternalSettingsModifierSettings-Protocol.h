@@ -7,11 +7,6 @@
 @class BSServiceConnectionEndpoint;
 
 @protocol _UISceneExternalSettingsModifierSettings
-- (void)@;
-- (BSServiceConnectionEndpoint *);
-
-@optional
-- (void)se sysconfig sequence:(_Bool)arg1 %d;
 
 // Remaining properties
 @property(retain, nonatomic) BSServiceConnectionEndpoint *externalSettingsModifierEndpoint;

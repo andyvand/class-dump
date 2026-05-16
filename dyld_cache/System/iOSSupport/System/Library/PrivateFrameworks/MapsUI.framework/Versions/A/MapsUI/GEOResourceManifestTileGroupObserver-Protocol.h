@@ -5,5 +5,8 @@
 //
 
 @protocol GEOResourceManifestTileGroupObserver
+
+@optional
+- (void)Bridge.MUWebMenuButton;
 @end
 

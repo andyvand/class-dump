@@ -9,7 +9,7 @@
 }
 
 + (struct CGPoint);
-- (id);
+- (id);
 
 @end
 

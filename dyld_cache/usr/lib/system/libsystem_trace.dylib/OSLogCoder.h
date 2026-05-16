@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)oder useHeaps:count:stages:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 

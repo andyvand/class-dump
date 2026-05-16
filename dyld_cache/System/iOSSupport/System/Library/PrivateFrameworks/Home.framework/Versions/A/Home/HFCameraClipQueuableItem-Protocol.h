@@ -7,6 +7,7 @@
 @class HMCameraClip;
 
 @protocol HFCameraClipQueuableItem
+- (_Bool)opertyListFormat:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraClip *clip;

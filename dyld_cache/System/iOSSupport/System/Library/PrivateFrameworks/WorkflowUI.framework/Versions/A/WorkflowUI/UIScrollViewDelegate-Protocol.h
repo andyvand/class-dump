@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void).add-personal;
-- (void);
+- (void)y÷f_YÊykÑËGPÔ+yyAEyTÔyACyAEyÀÓÏy%ÓGG_AEyAEyAEyDÓ?Ðy±ÐSgGGAOGAGGtGGïÆGG__Ä¶Qo_tGG;
 @end
 

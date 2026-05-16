@@ -44,7 +44,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -52,15 +52,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id)e %@, err:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;

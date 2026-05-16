@@ -5,9 +5,5 @@
 //
 
 @protocol _UIDocumentPickerRemoteViewControllerContaining
-- (void)"16@"NSString"24@"NSString"32C40@"NSString"44@"NSString"52;
-- (void)24B32C36@"NSString"40;
-- (void)Number"24@"NSString"32@"NSString"40@"NSString"48;
-- (void)y"36;
 @end
 

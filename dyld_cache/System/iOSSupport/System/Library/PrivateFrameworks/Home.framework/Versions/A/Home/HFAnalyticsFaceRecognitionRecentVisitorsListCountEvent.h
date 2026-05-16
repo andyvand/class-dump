@@ -24,9 +24,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ngSectionsType;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *clusteredNoNamePersonCount; // @synthesize clusteredNoNamePersonCount=_clusteredNoNamePersonCount;

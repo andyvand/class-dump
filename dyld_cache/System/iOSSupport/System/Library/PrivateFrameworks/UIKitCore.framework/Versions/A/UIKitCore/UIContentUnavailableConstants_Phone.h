@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)straint",R,N,V_minimumWidthConstraint;
 
 @end
 

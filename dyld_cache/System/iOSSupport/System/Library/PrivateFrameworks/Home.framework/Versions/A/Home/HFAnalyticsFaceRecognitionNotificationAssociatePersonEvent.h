@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)sersWithPIN;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *openURLSuccess; // @synthesize openURLSuccess=_openURLSuccess;

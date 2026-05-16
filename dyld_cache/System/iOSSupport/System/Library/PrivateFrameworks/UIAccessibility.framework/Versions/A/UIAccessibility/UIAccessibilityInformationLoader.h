@@ -11,14 +11,14 @@
     NSTimer *_coalesceTimer;
 }
 
-+ (id)@&t&;
-- (void);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 
 @end
 

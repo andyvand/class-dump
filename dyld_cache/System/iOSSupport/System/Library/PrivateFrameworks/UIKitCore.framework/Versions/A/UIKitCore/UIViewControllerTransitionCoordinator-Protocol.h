@@ -5,8 +5,9 @@
 //
 
 @protocol UIViewControllerTransitionCoordinator
-- (void)Field;
-- (_Bool)groundView;
-- (_Bool)Bounds;
+- (_Bool)IsDown;
+- (_Bool)Ôþÿ;
+- (void)yÚÒ¾7G;
+- (void)13\o;
 @end
 

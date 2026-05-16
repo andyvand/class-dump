@@ -26,23 +26,22 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (unsigned long long)nge:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)found to merge;
-- (_Bool)est from %@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
 - (id);
-- (void)0@ù
-× ;
-- (id)¾È"ëc;
-- (_Bool)drÖÿ;
-- (_Bool)(äkþ§;
-- (_Bool)Ûl;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)indexesOfObjectsPassingTest:(id)arg1;
+- (id)roviderIOS;
+- (id)P~½@ißÜ_½ô?;
+- (_Bool)è>g;
+- (void)Èáþ;
+- (_Bool)ôþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;

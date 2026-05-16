@@ -8,7 +8,7 @@
 @protocol CNUIPRLikenessProvider;
 
 @protocol CNUIPRLikenessResolver
-- (CNContactStore *)@Eÿÿ;
+- (CNContactStore *);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore;

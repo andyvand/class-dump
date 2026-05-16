@@ -14,11 +14,12 @@
     MISSING_TYPE *gridLayer;
 }
 
-- (void)	?׀;
-- (void);
 - (id);
-- (void)yAddingObject: /* Error: Ran out of types for this method. */;
-- (id)ÂQZ;
+- (void);
+- (id)ÿ°1Â0@ù
+× ;
+- (void)¸;
+- (void)tqyþ;
 
 @end
 

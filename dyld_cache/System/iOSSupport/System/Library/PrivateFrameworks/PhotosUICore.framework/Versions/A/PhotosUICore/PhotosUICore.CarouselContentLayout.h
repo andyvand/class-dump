@@ -39,10 +39,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)ordinatorRecord;
-- (void);
+- (void);
+- (void)PXPeopleNamePickerViewControllerDelegate>",W,N,V_delegate;
+- (void)QÐõ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSIndexSet *axSpriteIndexes;

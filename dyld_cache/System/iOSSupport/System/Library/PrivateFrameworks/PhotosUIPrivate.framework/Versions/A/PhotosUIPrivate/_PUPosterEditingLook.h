@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)entInset;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

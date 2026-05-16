@@ -21,14 +21,14 @@
     MISSING_TYPE *lockStateDelegate;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)QhÀe;
+- (void);
+- (void);
+- (void);
 
 @end
 

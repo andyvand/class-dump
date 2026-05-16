@@ -18,10 +18,10 @@
 - (void);
 - (struct CGPDFDocument *);
 - (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (void)Ȇ;
-- (struct CGSize)Ù;
+- (struct CGSize)¬¤8;
 
 @end
 

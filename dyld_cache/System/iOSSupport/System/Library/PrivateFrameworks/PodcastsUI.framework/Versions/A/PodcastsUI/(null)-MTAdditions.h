@@ -6,16 +6,6 @@
 
 @interface (null) (MTAdditions)
 + (id);
-+ (id)B;
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -31,7 +21,6 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -41,7 +30,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 - (_Bool);

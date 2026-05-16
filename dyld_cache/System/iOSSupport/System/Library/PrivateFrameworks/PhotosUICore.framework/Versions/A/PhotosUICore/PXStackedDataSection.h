@@ -29,10 +29,11 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
 - (id);
-- (void);
-- (long long);
+- (long long)ÿrT_ÿ;
+- (void)'è
+;
+- (unsigned long long)Èï´ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *childDataSections; // @synthesize childDataSections=_childDataSections;

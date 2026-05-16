@@ -19,11 +19,11 @@
 - (void);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id)Ð;
-- (id)$çÿÁçÿ\çÿ8Oçÿçÿx8èÿÄ8èÿ9èÿT9èÿÐ;èÿ>èÿ¸>èÿÜ>èÿ?èÿ<?èÿx?èÿ´?èÿØ?èÿD@èÿ@èÿ´@èÿØ@èÿü@èÿ8AèÿAèÿ´AèÿèAèÿhìÿ4CèÿÐçÿøCèÿDèÿXDèÿDèÿ¸DèÿÜDèÿ4GèÿXGèÿGèÿ¸GèÿìGèÿHèÿDHèÿIèÿ4IèÿXIèÿIèÿÐIèÿJèÿÔLèÿìLèÿMèÿMèÿ4MèÿMèÿØMèÿTNèÿxNèÿ´Nèÿ¼Oèÿ;
-- (id);
+- (id)butes;
+- (void)itCollectionListCustomizeActionPerformer;
+- (id)ZQÐÞ3;
+- (id)yïS36;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetCount;

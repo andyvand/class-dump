@@ -13,7 +13,7 @@
     NSBundle *_localPolicyBundle;
 }
 
-+ (id);
++ (id)× ;
 
 // Remaining properties
 @property(retain, nonatomic) CKContainer *container; // @synthesize container=_container;

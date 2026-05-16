@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)ower than our predetermined threshold.;
 + (_Bool);
 + (_Bool);
-+ (id)zers;
-+ (id)³Ìj8y_So26_UIScrollPocketInteractionCSgG;
-+ (long long)·~óe;
++ (_Bool);
++ (id);
++ (id)FirstResponderDidChangeNotification;
++ (long long)¨tg;
 
 @end
 

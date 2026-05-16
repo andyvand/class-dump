@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXDOMObjectProvider, SXDelayed, SXLayoutBlueprintProvider, SXLayoutOptions, SXLayoutParametersManager;
+@class NSString, SXDOMObjectProvider, SXDelayed, SXDocument, SXLayoutBlueprintProvider, SXLayoutOptions, SXLayoutParametersManager;
 @protocol SXDocumentProviding, SXLayoutCoordinatorDelegate, SXLayoutInstructionFactory, SXLayoutIntegrator, SXLayoutInvalidationManager, SXLayoutPipeline, SXLayoutPolicyManager;
 
 @interface SXLayoutCoordinator
@@ -21,6 +21,7 @@
     id <SXLayoutPolicyManager> _layoutPolicyManager;
     SXLayoutOptions *_layoutOptions;
     SXDelayed *_debouncer;
+    SXDocument *_document;
 }
 
 - (id);
@@ -30,21 +31,24 @@
 - (void);
 - (id);
 - (void);
-- (id)@9i;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)serving;
-- (id);
-- (void)0f;
-- (id);
-- (id);
-- (void);
+- (void)0@ù
+× ;
+- (id)lWithValue:withType: /* Error: Ran out of types for this method. */;
+- (void)lass;
 
 // Remaining properties
 @property(readonly, nonatomic) SXDOMObjectProvider *DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
@@ -56,6 +60,7 @@
 
 @property(nonatomic) __weak id <SXLayoutCoordinatorDelegate> delegate; // @synthesize delegate;
 @property(readonly, copy) NSString *description;
+@property(retain, nonatomic) SXDocument *document; // @synthesize document=_document;
 @property(readonly, nonatomic) id <SXDocumentProviding> documentProvider; // @synthesize documentProvider=_documentProvider;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXLayoutInstructionFactory> instructionFactory; // @synthesize instructionFactory=_instructionFactory;

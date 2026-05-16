@@ -7,12 +7,6 @@
 @class NSString, NSURL;
 
 @protocol TSUDownloadItem
-+ (void);
-- (long long);
-- (NSString *);
-
-@optional
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *downloadTaskDescription;

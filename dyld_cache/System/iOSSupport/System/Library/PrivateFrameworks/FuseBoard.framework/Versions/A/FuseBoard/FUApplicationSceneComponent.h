@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (void)eneManager:(id)arg1 didCommitUpdateForScene:transactionID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

@@ -27,9 +27,9 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)extFieldConstraints;
-- (void)tions:(id)arg1;
+- (void)class]];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

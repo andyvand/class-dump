@@ -12,16 +12,16 @@
     NSDictionary *_classNamesByType;
 }
 
-+ (_Bool)arameter Label);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)ent;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionClassName; // @synthesize actionClassName=_actionClassName;

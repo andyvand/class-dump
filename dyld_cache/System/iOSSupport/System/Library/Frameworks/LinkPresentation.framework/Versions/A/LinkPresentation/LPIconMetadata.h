@@ -13,19 +13,20 @@
     NSString *_accessibilityText;
 }
 
-+ (_Bool)sOpeningSensitiveURLs;
++ (_Bool);
 - (void);
 - (id);
-- (unsigned int)#;
 - (void);
-- (unsigned long long);
+- (id);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
-- (id);
-- (id);
+- (void)qÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

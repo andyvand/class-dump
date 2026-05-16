@@ -6,19 +6,17 @@
 
 #import <WorkflowKit/WFAction.h>
 
-@class INAppDescriptor, MISSING_TYPE, NSArray, WFActionParameterSummary;
+@class INAppDescriptor, LNFullyQualifiedActionIdentifier, MISSING_TYPE, NSArray, WFActionParameterSummary;
 
 @interface WorkflowKit.WFGetAppSettingAction : WFAction
 {
     MISSING_TYPE *entityByEntityIdentifier;
-    MISSING_TYPE *fullyQualifiedActionIdentifier;
+    LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier;
     MISSING_TYPE *$__lazy_storage_$__localizedNameForEntityIdentifier;
 }
 
 - (id);
-- (_Bool)Ì;
-- (id)Ì;
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -30,17 +28,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)FInputMedia};
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool approvedForPublicShortcutsDrawer;
 @property(nonatomic, readonly) INAppDescriptor *displayableAppDescriptor;
+@property(nonatomic, readonly) LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier; // @synthesize fullyQualifiedLinkActionIdentifier;
 @property(nonatomic, readonly) NSArray *outputContentClasses;
 @property(nonatomic, readonly) NSArray *parameterDefinitions;
 @property(nonatomic, readonly) WFActionParameterSummary *parameterSummary;

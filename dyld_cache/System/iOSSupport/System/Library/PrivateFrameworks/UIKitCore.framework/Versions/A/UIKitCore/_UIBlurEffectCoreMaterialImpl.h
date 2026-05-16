@@ -17,22 +17,22 @@ __attribute__((visibility("hidden")))
     NSBundle *_bundle;
 }
 
-- (void);
+- (long long);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)×º;
-- (long long)1¢!0@ù
+- (_Bool)
 × ;
-- (id)usIndexPathsForInteractivelyMovingItems;
-- (void)Identifier:(id)arg1 changeToState:(id)arg2;
-- (_Bool)ditable;
-- (id)ageLayer;
-- (_Bool)RelativeCornerMaskingProvider>",W,V_bottomRight;
-- (_Bool)Q;
+- (_Bool)AlignmentWithBaseWritingDirection:(id)arg1;
+- (void)Animation;
+- (id)gLabel;
+- (void)"<UIMovieScrubberDelegate>",N;
+- (_Bool)st be non-zero unless preferredFrameRateRange is CAFrameRateRangeDefault.;
 - (id);
-- (void);
-- (_Bool)d;
+- (void);
+- (_Bool);
+- (void)F2	;
+- (id)ôd\ÿ;
+- (_Bool);
 
 @end
 

@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
 
 // Remaining properties
 @property(readonly) long long integerValue; // @synthesize integerValue=_integerValue;

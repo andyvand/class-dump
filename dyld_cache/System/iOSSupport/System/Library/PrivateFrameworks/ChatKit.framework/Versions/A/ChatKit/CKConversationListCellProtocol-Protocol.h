@@ -5,6 +5,5 @@
 //
 
 @protocol CKConversationListCellProtocol
-- (_Bool)¸øüì;
 @end
 

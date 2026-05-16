@@ -12,9 +12,9 @@
 }
 
 + (id);
+- (id);
 - (void);
 - (id);
-- (id)H_CONTINUE_BUTTON_TITLE;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;

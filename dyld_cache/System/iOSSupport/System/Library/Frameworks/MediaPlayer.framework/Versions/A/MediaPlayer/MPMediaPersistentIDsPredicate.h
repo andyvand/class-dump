@@ -15,19 +15,19 @@
     unsigned long long _count;
 }
 
-+ (id)ecision:(const long long *)arg1;
-+ (_Bool)context for url=%@;
++ (id);
++ (_Bool);
 - (_Bool);
 - (id);
 - (const long long *);
 - (id);
 - (void);
-- (unsigned long long)$;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id)@;
-- (unsigned long long)odelPropertyPodcastEpisodeDescriptionText__MAPPING_MISSING__;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

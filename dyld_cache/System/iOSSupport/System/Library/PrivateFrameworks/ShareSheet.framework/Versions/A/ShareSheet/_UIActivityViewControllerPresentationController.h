@@ -27,16 +27,16 @@
 - (long long);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (double);
 - (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
-- (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic) double compactCornerRadius; // @synthesize compactCornerRadius=_compactCornerRadius;

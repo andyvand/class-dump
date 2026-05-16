@@ -19,14 +19,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)handlesToContactIDsData;
++ (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)requestTypeIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isFromMe;

@@ -12,13 +12,13 @@
     CKMessageEntryView *_entryView;
 }
 
-+ (_Bool)eLabelAttributedText;
-- (void);
++ (_Bool)$_excludedExtensionIdentifiers;
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void)ÿÿB;
 
 // Remaining properties
 @property(readonly, nonatomic) CKMessageEntryView *entryView; // @synthesize entryView=_entryView;

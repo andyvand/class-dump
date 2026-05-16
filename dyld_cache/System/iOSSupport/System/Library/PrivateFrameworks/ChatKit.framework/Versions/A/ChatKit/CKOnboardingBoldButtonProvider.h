@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)ange: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (id)yload;
+- (id);
 
 @end
 

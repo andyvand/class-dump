@@ -10,7 +10,7 @@
 @interface HUUtilityOnboardingIntroViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *onboardingContext;
+    MISSING_TYPE *context;
     MISSING_TYPE *continueButton;
     MISSING_TYPE *cancelButton;
 }
@@ -21,10 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)elatedItemsAffectedByTrigger: /* Error: Ran out of types for this method. */;
-- (void)ndItemBlock:(id)arg1;
 - (id);
+- (void);
+- (id)UQuickControlColorInteractionCoordinatorDelegate;
+- (void)Detail_MultipleUtilities;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

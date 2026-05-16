@@ -14,8 +14,8 @@
     MISSING_TYPE *mastheadModelProvider;
 }
 
-- (void);
 - (id);
+- (void)¨;
 
 @end
 

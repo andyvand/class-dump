@@ -7,19 +7,12 @@
 @class NSDictionary, NSString, NSTextStorage, UIColor;
 
 @protocol AKTextAnnotationProtocol
-- (_Bool)ifier from the iTunes store - %@.;
-- (_Bool):%@) - Error looking up identifier from the iTunes store - %@. /* Error: Ran out of types for this method. */;
-- (_Bool)ProviderSpecialization (ID:%@) - Error looking up identifier from the iTunes store - %@. /* Error: Ran out of types for this method. */;
-- (_Bool)r;
-- (void)eNode;
-- (void);
-- (void);
-- (UIColor *)TD;
-- (UIColor *);
-- (void)`;
-- (NSString *)eButtonDisabledColor;
-- (void)ath of type '%@';
-- (NSDictionary *)p.annotation_edits;
+- (_Bool)ð!DùÑé°1Â0@ù
+× ;
+- (void)iew"16@"NSIndexPath"24@"<UISpringLoadedInteractionContext>"32;
+- (void)mTB;
+- (UIColor *)outLineWidth: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)ler;
 
 // Remaining properties
 @property(retain) NSTextStorage *annotationText;

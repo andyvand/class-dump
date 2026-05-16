@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSArray, NSDictionary, NSNumber;
 
 @interface IMDIndexingContext
 {
     _Bool _reindexing;
-    _Bool _runningViaBGST;
-    _Bool _fullReindex;
     _Bool _preflight;
     _Bool _ignoreRejections;
     _Bool _ignoreThrottle;
     _Bool _forceDeferral;
-    _Bool _needsPriorityCheck;
+    _Bool _needsTimeSensitiveEvaluation;
     long long _reason;
-    long long _messagesContributingToFullReindex;
-    long long _chatsContributingToFullReindex;
-    NSString *_oldestFullReindexMessageGUID;
+    NSNumber *_bgstLane;
+    unsigned long long _cachedEffectiveMigrationRequirements;
+    unsigned long long _migrationRequirements;
     NSNumber *_laneOverride;
     NSArray *_additionalReasons;
+    NSDictionary *_chatMetadata;
 }
 
 + (id);
 + (id);
-+ (_Bool)time_sensitive_messages
-),
--- Get an unread count per-chat, where unreads are present
-chat_unreads AS (
-    SELECT
-        interesting_messages.chat_id,
-        MIN(CASE WHEN interesting_messages.is_time_sensitive AND interesting_messages.time_sensitive_expiration > ;
++ (_Bool);
+- (unsigned char);
 - (void);
 - (void);
 - (void);
@@ -45,50 +39,61 @@ chat_unreads AS (
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (void);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)ø;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *additionalReasons; // @synthesize additionalReasons=_additionalReasons;
-@property(nonatomic) long long chatsContributingToFullReindex; // @synthesize chatsContributingToFullReindex=_chatsContributingToFullReindex;
+@property(retain, nonatomic) NSNumber *bgstLane; // @synthesize bgstLane=_bgstLane;
+@property(nonatomic) unsigned long long cachedEffectiveMigrationRequirements; // @synthesize cachedEffectiveMigrationRequirements=_cachedEffectiveMigrationRequirements;
+@property(retain, nonatomic) NSDictionary *chatMetadata; // @synthesize chatMetadata=_chatMetadata;
+@property(readonly, nonatomic) unsigned long long effectiveMigrationRequirements;
 @property(nonatomic) _Bool forceDeferral; // @synthesize forceDeferral=_forceDeferral;
-@property(nonatomic) _Bool fullReindex; // @synthesize fullReindex=_fullReindex;
 @property(nonatomic) _Bool ignoreRejections; // @synthesize ignoreRejections=_ignoreRejections;
 @property(nonatomic) _Bool ignoreThrottle; // @synthesize ignoreThrottle=_ignoreThrottle;
+@property(readonly, nonatomic) _Bool indexesTextContent;
 @property(retain, nonatomic) NSNumber *laneOverride; // @synthesize laneOverride=_laneOverride;
 @property(readonly, nonatomic) _Bool mayUpdateUI;
-@property(nonatomic) long long messagesContributingToFullReindex; // @synthesize messagesContributingToFullReindex=_messagesContributingToFullReindex;
-@property(nonatomic) _Bool needsPriorityCheck; // @synthesize needsPriorityCheck=_needsPriorityCheck;
-@property(retain, nonatomic) NSString *oldestFullReindexMessageGUID; // @synthesize oldestFullReindexMessageGUID=_oldestFullReindexMessageGUID;
+@property(nonatomic) unsigned long long migrationRequirements; // @synthesize migrationRequirements=_migrationRequirements;
+@property(nonatomic) _Bool needsTimeSensitiveEvaluation; // @synthesize needsTimeSensitiveEvaluation=_needsTimeSensitiveEvaluation;
 @property(nonatomic) _Bool preflight; // @synthesize preflight=_preflight;
 @property(nonatomic) long long reason; // @synthesize reason=_reason;
+@property(readonly, nonatomic) _Bool reindexesFullMessages;
 @property(nonatomic, getter=isReindexing) _Bool reindexing; // @synthesize reindexing=_reindexing;
-@property(nonatomic) _Bool runningViaBGST; // @synthesize runningViaBGST=_runningViaBGST;
+@property(readonly, nonatomic) _Bool runningViaBGST; // @dynamic runningViaBGST;
 
 @end
 

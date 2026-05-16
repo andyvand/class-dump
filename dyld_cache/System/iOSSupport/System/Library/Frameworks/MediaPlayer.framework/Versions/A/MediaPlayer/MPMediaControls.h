@@ -36,7 +36,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (id);
@@ -44,30 +44,29 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id)nicationSafety;
-- (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (id)P;
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool)$2;
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double);
 - (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)inObservingSubscriptionAvailability;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)verEntityType;
+- (void)Ö;
+- (void)_person_id = @hashedPersonID AND flavor = @flavor;
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaControlsConfiguration *configuration; // @synthesize configuration=_configuration;

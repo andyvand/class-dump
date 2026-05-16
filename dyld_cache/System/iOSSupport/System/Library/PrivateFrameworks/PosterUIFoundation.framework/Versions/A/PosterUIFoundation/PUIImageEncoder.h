@@ -30,12 +30,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void)0@ù
-× ;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) PUIImageOnDiskFormat *format; // @synthesize format=_format;

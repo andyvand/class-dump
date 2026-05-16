@@ -18,19 +18,19 @@ __attribute__((visibility("hidden")))
     NSArray *_insertsAfter;
 }
 
-+ (id)ction %@. newRange:(id)arg1 %@;
-+ (_Bool)­;
++ (id);
++ (_Bool)wsNumberPadPopover;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ze:(CDUnknownBlockType)arg1 operationalErrorDomain:(CDUnknownBlockType)arg2 operationalErrorCode:(CDUnknownBlockType)arg3 validationErrorDomain:(CDUnknownBlockType)arg4 validationErrorCode: /* Error: Ran out of types for this method. */;
-- (_Bool)L:(CDUnknownBlockType)arg1;
 - (void);
-- (id)+;
-- (void)hä{¬;
+- (_Bool);
+- (id);
+- (void);
+- (void)ØXþ²;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *anchor; // @dynamic anchor;

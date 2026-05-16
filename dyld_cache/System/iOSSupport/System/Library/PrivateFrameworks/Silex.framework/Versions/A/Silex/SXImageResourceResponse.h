@@ -16,9 +16,9 @@
 
 - (void);
 - (unsigned long long);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)}{CGSize=dd}}32;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

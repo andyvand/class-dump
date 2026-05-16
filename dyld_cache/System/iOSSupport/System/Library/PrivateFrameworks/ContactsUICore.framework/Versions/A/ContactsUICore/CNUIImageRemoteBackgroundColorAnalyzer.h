@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)vatarIndices;
+- (id)ion;
 
 // Remaining properties
 @property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;

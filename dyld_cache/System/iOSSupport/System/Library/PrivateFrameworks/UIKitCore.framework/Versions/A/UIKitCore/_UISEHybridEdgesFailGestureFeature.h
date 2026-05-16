@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     NSArray *_subfeatures;
 }
 
-- (void);
-- (id)nMatchingContext:(id)arg1;
-- (void):(const struct _UISEGestureFeatureSample *)arg1;
-- (id);
-- (unsigned long long)eview"8@?0;
-- (id)ation;
-- (void)TkþMTÿ3ÀÚ¨þ;
+- (id);
+- (id);
+- (void)AutorotationDisabled:(const struct _UISEGestureFeatureSample *)arg1 forController: /* Error: Ran out of types for this method. */;
+- (unsigned long long)T¨;
+- (void)orm a delete and a move from the same section (%ld);
+- (id)¾þ;
+- (void)A¦;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

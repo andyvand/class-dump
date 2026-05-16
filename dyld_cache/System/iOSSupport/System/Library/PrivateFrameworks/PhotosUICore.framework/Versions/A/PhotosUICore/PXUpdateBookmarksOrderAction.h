@@ -23,8 +23,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id){ÿ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <PXFastEnumeration> orderedCollections; // @synthesize orderedCollections;

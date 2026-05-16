@@ -33,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect)xh;
+- (struct CGRect);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -42,20 +42,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (struct _NSRange);
-- (id)X;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXTextTangierRepAccessibilityDataSource> accessibilityDataSource; // @synthesize accessibilityDataSource;

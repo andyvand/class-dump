@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ØHP°¸;
 
 // Remaining properties
 @property(retain, nonatomic) HFEventTriggerBuilder *containingTriggerBuilder; // @synthesize containingTriggerBuilder=_containingTriggerBuilder;

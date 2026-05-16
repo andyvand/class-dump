@@ -28,16 +28,16 @@
 - (void);
 - (long long);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void)yValueSmoothingApplier: /* Error: Ran out of types for this method. */;
+- (id)SettingsModule;
+- (void)lpha;
+- (void)DetailsItemManager updateSiriTriggerPhrase:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)ne;
-- (void)ntroller:viewDidLoad] presented:HUHomeHubSharedHomesWarningViewController /* Error: Ran out of types for this method. */;
-- (id)ctionDelegate(for:) /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *buttonConstraints; // @synthesize buttonConstraints=_buttonConstraints;

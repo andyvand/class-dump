@@ -12,7 +12,7 @@
     TSKSegmentedControl *mRightSegmentedControl;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

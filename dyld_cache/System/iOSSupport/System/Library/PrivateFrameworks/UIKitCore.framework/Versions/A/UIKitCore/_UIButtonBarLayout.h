@@ -14,35 +14,35 @@ __attribute__((visibility("hidden")))
     _Bool _dirty;
 }
 
-- (_Bool);
-- (void);
-- (void)ChangedEvent:(id)arg1;
-- (id)erveKey;
-- (id),N,V_isHighlighted;
-- (void)ionWeekOfYear.m;
-- (void)¤µ9ÿ$;
-- (void);
-- (void)çÿ1Óúáa;
-- (void)pÿýØGb;
-- (_Bool)ìEÈb;
-- (_Bool)èÇMb;
-- (id)0Ú[ b;
-- (_Bool)¸/ÿ^Ëtìe;
-- (void)ªÉb;
-- (_Bool)¸Èÿ+ÉÉÏÚc;
-- (void)ÿ!c;
-- (_Bool)_@c;
 - (id);
-- (void)ÿ<ÿ;
-- (id)´c;
-- (double)Td;
-- (_Bool)Ìÿ\ÖÕñûc;
-- (void)¼^;
-- (_Bool)ëÿ£SØ¥Vd;
-- (void)wÌd;
-- (id)¼d;
-- (void);
-- (void)ÄWe;
+- (id);
+- (_Bool):accessoryType: /* Error: Ran out of types for this method. */;
+- (_Bool)erredContentAlignment;
+- (_Bool)ropVisible;
+- (id)T@"UIPresentationController",&,N,G_temporaryPresentationController,S_setTemporaryPresentationController:,V_temporaryPresentationController /* Error: Ran out of types for this method. */;
+- (id)T@"UIVisualEffect",N,&;
+- (void)fsetFromContainer:(_Bool)arg1;
+- (double)es;
+- (void)positionalLayoutDynamicAnimator;
+- (void)TjjLkLlØl,nlnànäo¨p;
+- (_Bool)H<ô<Ð= >;
+- (_Bool)4³¹;
+- (void)PT. (CFMessagePortSendRequest error:(id)arg1 %d);
+- (_Bool)placementForText:'%{sensitive}@' withText:'%{sensitive}@' /* Error: Ran out of types for this method. */;
+- (void)°ÿÿÈÿÿàÿÿøÿÿÿÿ(ÿÿ@ÿÿXÿÿpÿÿÿÿ ÿÿ¸ÿÿÐÿÿèÿÿ;
+- (void)åýþÿ êîÿTFïÿj0ïÿ;
+- (void); force:%0.3f; window:%@; responder:%@; %@ /* Error: Ran out of types for this method. */;
+- (id)issalDidBeginNotification;
+- (_Bool)izedEndiannessByteArray(const uint8_t *, const size_t);
+- (void)g;
+- (void)ebaseInfo"8Q16^B24;
+- (void)¾7SgXw;
+- (void);
+- (void)omKey;
+- (void)ä=^;
+- (_Bool)`;
+- (id)Éyc;
+- (void)p«!ÿXºÚ`"d;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItem *barButtonItem;

@@ -7,8 +7,8 @@
 @class GEOMapItemIdentifier, NSArray, NSString, NSURL;
 
 @protocol GEOTransitConnectionInfo
-- (GEOMapItemIdentifier *)¦ÿÿ;
-- (int)ÿþçÿ;
+- (int)_GUIDANCE;
+- (GEOMapItemIdentifier *)çÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapItemIdentifier *itemIdentifier;

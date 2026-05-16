@@ -40,7 +40,7 @@
 - (void);
 - (void);
 - (long long);
-- (CDStruct_b1a1f14e);
+- (CDStruct_b1a1f14e)eg4f;
 - (void);
 
 // Remaining properties

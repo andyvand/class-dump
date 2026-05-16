@@ -14,7 +14,7 @@
 - (double);
 - (double);
 - (unsigned long long);
-- (unsigned long long)!;
+- (unsigned long long);
 - (struct _NSRange);
 - (double);
 - (id);

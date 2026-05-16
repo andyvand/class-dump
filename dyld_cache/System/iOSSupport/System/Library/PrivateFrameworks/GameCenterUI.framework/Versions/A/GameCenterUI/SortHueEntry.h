@@ -12,10 +12,10 @@
 
 - (id);
 - (void);
-- (id);
 - (long long);
-- (void)è4;
-- (long long)ACyADyADyADyADyADyAeTy°SgGGAFGATyAZSgGGAYyþGGAJGSSGACyADyADyA11_A_GAJGSSGGGA19__G;
+- (id);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

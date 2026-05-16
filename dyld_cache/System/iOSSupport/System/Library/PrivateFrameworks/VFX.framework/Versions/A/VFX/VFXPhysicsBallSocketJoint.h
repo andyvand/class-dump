@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)@0:8@"MTLResidencySetDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -33,9 +33,9 @@
 - (id);
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 

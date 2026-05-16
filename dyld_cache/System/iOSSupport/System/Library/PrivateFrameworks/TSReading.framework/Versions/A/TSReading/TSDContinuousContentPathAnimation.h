@@ -14,9 +14,9 @@
 
 - (void);
 - (void);
-- (CDUnknownBlockType)how the sports record and rank, e.g. 10-4 | 3rd West Division;
+- (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 
 // Remaining properties

@@ -14,19 +14,20 @@
     _UIPortalView *_portalView;
 }
 
-+ (id)ing;
++ (id);
 - (id);
-- (void);
+- (struct CGSize);
 - (void);
 - (struct CGSize);
-- (_Bool)%{public}@;
-- (id)P;
-- (void);
-- (void);
-- (void);
+- (id)
+× ;
+- (void)State;
+- (void)me;
+- (id)ranslator",&,N,V_sectionGeometryTranslator;
+- (_Bool)AccessibilityInvertColors;
+- (void)$º;
+- (void)w[;
 - (id);
-- (struct CGSize)	;
-- (id)\;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;

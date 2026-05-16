@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)jectWithExclusiveAccessToken: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)lass getCKAllowedSharingOptionsClass(void)_block_invoke;
+- (void)D;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;

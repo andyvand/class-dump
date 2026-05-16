@@ -52,21 +52,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
 - (void);
 - (void);
-- (void);
-- (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (long long);
 - (void);
 - (long long);
+- (long long);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id)Ð!ôDù°1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

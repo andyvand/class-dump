@@ -25,10 +25,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
 - (id);
 - (MISSING_TYPE *);
+- (unsigned long long);
+- (void);
 - (void);
 
 // Remaining properties

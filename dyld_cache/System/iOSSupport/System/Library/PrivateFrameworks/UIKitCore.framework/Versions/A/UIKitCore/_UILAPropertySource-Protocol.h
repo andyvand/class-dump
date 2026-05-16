@@ -7,16 +7,18 @@
 @class NSSet;
 
 @protocol _UILAPropertySource
-- (void)ShellManagesKeyboardFocusAlwaysEnabledForSceneAndIdiom(UIScene *__unsafe_unretained, UIUserInterfaceIdiom);
-- (NSSet *)eOffsetY;
-- (_Bool);
-- (NSSet *).TransitionManager;
-- (_Bool)adjusted. To debug this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
-Collection view: /* Error: Ran out of types for this method. */;
-- (long long);
-- (NSSet *)71éª4Üw;
-- (void)hÀ;
-- (void)yle;
+- (void)
+× ;
+- (long long)q\1Â0@ù
+× ;
+- (void)asRequestedKeyboardEventEnvironmentDeferring;
+- (NSSet *)led:serviceEnabled:dataNetworkEnabled:serviceString:serviceCrossfadeString:serviceBadgeString:serviceContentType:dataNetworkType:gsmSignalStrengthRaw:gsmSignalStrengthBars:callForwardingType:lowDataModeActive: /* Error: Ran out of types for this method. */;
+- (void)cay;
+- (NSSet *)lOpacities;
+- (void)found a touch view the current view without finding a touch for the current window;
+- (NSSet *)arItemGroup;
+- (_Bool)y;
+- (_Bool)ê³þÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_newlyHiddenItems;

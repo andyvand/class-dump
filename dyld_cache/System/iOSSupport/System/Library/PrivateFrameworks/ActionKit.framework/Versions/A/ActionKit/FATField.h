@@ -29,15 +29,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (unsigned int);
 - (id);
 - (unsigned int);
 - (void);
-- (void).m;
 - (void);
+- (unsigned int);
+- (void)±³°1B50@ù
+× ;
+- (void)d host acknowledge for EOF (return code = %i);
+- (void)0;
 
 // Remaining properties
 @property unsigned int index; // @synthesize index=_index;

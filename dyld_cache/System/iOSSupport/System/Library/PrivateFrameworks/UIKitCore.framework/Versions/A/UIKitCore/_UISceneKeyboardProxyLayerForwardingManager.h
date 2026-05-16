@@ -12,24 +12,24 @@ __attribute__((visibility("hidden")))
     NSMapTable *_mapEnvironmentToKeyboardForwardingStateMachine;
 }
 
-+ (_Bool)%@; layout query:%@; collection view:%@; data source counts:%@ /* Error: Ran out of types for this method. */;
-+ (id)T	ëþ·Ë=ìp;
++ (_Bool);
++ (id);
 + (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)D;
-- (void);
 - (id);
-- (id)0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)
 × ;
-- (id)inatingDate:(id)arg1;
-- (id)URL:(id)arg1 toURL:error: /* Error: Ran out of types for this method. */;
-- (id)setUnselectedTintColor: /* Error: Ran out of types for this method. */;
-- (id)ts;
-- (id)s will result in unexpected behaviour or a crash. This may happen if a layout pass is triggered while calling out to a delegate. UICollectionViewFlowLayout instance is (%@);
-- (id)atically removed from the view hierarchy when necessary; never call removeFromSuperview on the customView yourself. Also ensure that the customView of each UIBackgroundConfiguration that gets applied to a different view is unique; setting the same UIView instance to the customView of configurations applied to different views is not allowed. Subview removed:%@; Background view:%@ /* Error: Ran out of types for this method. */;
+- (id)sInlineSearchBarForTraits: /* Error: Ran out of types for this method. */;
+- (id)orableObjectToRoots(NSObject<UIStateRestoring> *);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

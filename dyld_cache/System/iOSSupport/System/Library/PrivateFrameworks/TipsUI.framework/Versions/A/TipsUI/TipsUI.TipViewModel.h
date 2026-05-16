@@ -11,7 +11,6 @@
     MISSING_TYPE *animationSource;
     MISSING_TYPE *collection;
     MISSING_TYPE *colorScheme;
-    MISSING_TYPE *contentModel;
     MISSING_TYPE *currentlyVisible;
     MISSING_TYPE *isPosterLoaded;
     MISSING_TYPE *shouldLogAnimationFinished;
@@ -19,6 +18,7 @@
     MISSING_TYPE *onNextHandler;
     MISSING_TYPE *tipIdentifiableIndexMap;
     MISSING_TYPE *assetsInfo;
+    MISSING_TYPE *contentModel;
     MISSING_TYPE *$__lazy_storage_$_assetViewModel;
     MISSING_TYPE *_$observationRegistrar;
 }

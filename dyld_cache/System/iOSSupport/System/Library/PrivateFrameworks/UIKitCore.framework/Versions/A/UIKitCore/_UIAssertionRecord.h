@@ -17,13 +17,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (long long);
+- (id);
 - (void);
-- (id)artwork"b1"screenshotArtwork"b1"keepLocalEnableState"b1"keepLocalManagedStatus"b1"keepLocalManagedStatusReason"b1"keepLocalConstraints"b1"hasCloudSyncSource"b1"localFileAsset"b1"libraryAdded"b1"libraryAddEligible"b1"musicShow"b1"episodeNumber"b1"explicitRating"b1"storeCanonicalId"b1"season"{?="identifiers"b1"number"b1"year"b1"show"{?="identifiers"b1"title"b1"showCreator"{?="identifiers"b1"name"b1"artwork"b1}}}"show"{?="identifiers"b1"title"b1"showCreator"{?="identifiers"b1"name"b1"artwork"b1}}};
-- (void);
-- (void)ext:(id)arg1;
-- (_Bool)ets and a corrupt root presentation. Make sure %@ is in the view controller hierarchy before presenting from it. Will become a hard exception in a future release.;
-- (unsigned long long)stantBar;
-- (void)rA];
+- (unsigned long long)!	ð!\AùQe°1Â0@ù
+× ;
+- (void)etsForLayout;
+- (void)LTLìLlM NØO;
+- (_Bool)use -[UIDragInteraction_Private _setCancellationDelay:] instead. /* Error: Ran out of types for this method. */;
+- (void)ã¡ÿAÄÄ;
 
 // Remaining properties
 @property(nonatomic) long long activeAssertionCount; // @synthesize activeAssertionCount=_activeAssertionCount;

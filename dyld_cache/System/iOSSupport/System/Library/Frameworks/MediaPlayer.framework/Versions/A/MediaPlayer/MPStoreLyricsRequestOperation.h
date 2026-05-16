@@ -19,17 +19,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id)OnRead:(id)arg1 maxAge:maxStreamSize: /* Error: Ran out of types for this method. */;
++ (id);
 - (long long);
-- (void);
-- (void);
-- (void)hatBot Logo - Generating a new transferGuid %@;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)opertyMediaTypeOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;

@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool)nbb;
++ (_Bool);
 
 @end
 

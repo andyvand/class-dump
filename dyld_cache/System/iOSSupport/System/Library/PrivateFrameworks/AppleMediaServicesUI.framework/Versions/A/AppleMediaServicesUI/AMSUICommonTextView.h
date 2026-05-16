@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)retinaScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUICommonTextViewDelegate> ams_delegate; // @synthesize ams_delegate=_ams_delegate;

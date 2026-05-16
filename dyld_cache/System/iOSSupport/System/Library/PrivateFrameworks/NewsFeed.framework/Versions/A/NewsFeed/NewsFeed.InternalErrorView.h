@@ -21,8 +21,8 @@
 }
 
 - (id);
-- (void)_taskInfoByTaskIdentifier;
 - (id);
+- (void)tË}þ;
 
 @end
 

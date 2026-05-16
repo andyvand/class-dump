@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id)4;
+- (id)ÿ&©N¬E8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;

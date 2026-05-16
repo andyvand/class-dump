@@ -23,7 +23,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)rItemManager_TVViewingProfilesSectionIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) HUHomeKitAccessorySettingsItemModule *collapsedModule; // @synthesize collapsedModule=_collapsedModule;

@@ -15,28 +15,26 @@
     CDStruct_4c969caf _auditToken;
 }
 
-+ (_Bool)f{ÿ;
-- (_Bool)ID:messageExtras: /* Error: Ran out of types for this method. */;
-- (void)owledgementMessagePipelineParameter;
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
++ (_Bool)UITableView internal inconsistency:attempted to add a drop target gap when one already exists /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
-- (void)
-× ;
-- (id)erColumn;
-- (int)¸H;
-- (CDStruct_4c969caf);
-- (void)d called with null argument. %s
-	%@;
-- (id)ôÿ;
-- (void)jj;
-- (unsigned int)u;
 - (void);
-- (void)y7m;
+- (void);
+- (id);
+- (id);
+- (id);
+- (CDStruct_4c969caf);
+- (unsigned long long);
+- (void)Space:(unsigned int)arg1 searchInfo:ignoresRootContainerClippingRect: /* Error: Ran out of types for this method. */;
+- (_Bool)on;
+- (void)rvers;
+- (id)ÿÿÿÿÌ;
+- (void),;
+- (void)èc´eÔfh4i<l mnüop4qrHs4v|y<zü{Dt<dôP<ø8°Hèô4°;
+- (int)yTransformMaxHeight;
+- (void)Qc;
+- (id);
+- (void)\ÁÊzh;
+- (unsigned int)×Öl;
 
 // Remaining properties
 @property(nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;

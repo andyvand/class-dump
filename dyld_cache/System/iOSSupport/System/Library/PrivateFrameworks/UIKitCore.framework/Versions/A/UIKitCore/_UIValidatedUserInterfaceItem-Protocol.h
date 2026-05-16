@@ -5,7 +5,7 @@
 //
 
 @protocol _UIValidatedUserInterfaceItem
-- (SEL)Controller class %@ overrode -title and returned a value of class %@, that is not a subclass of NSString. This is an illegal override. overrideImplementation=%p;
+- (SEL)';
 
 // Remaining properties
 @property(readonly) SEL action;

@@ -18,7 +18,10 @@
 }
 
 + (id);
-+ (id)ð|¨};
++ (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,16 +29,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)yExchangeMSHH1;
-- (id)d string for staged accessory pairing with identifier:%@ /* Error: Ran out of types for this method. */;
-- (id)²¡Ó´;
+- (void)ata;
+- (id)stic;
+- (id)uterServerConnectionMS_HH2;
 
 // Remaining properties
 @property(readonly, copy) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;

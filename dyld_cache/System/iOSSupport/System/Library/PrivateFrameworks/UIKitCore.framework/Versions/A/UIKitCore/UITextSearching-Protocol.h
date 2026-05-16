@@ -8,17 +8,13 @@
 @protocol NSObject><NSCopying;
 
 @protocol UITextSearching
-- (void) ;
-- (void)tSearchBarPlacementAllowsToolbarIntegration:(UITextRange *)arg1;
-- (void)alette: /* Error: Ran out of types for this method. */;
-- (long long)roller:(UITextRange *)arg1 request:(UITextRange *)arg2 error:(id <NSObject><NSCopying>)arg3 completion: /* Error: Ran out of types for this method. */;
-- (UITextRange *)16^B24;
+- (long long)
+× ;
+- (UITextRange *)®;
 
 @optional
-- (_Bool)d for socChipIDECIDData;
-- (void)ntroller Crossfade Settings;
-- (void)×Ó?)\Âõ(Ì?;
-- (_Bool)fþ;
+- (void)gleFullscreen;
+- (_Bool)ary useLocal %d;
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;

@@ -8,7 +8,9 @@
 @protocol UITimingCurveProvider;
 
 @protocol PUParallaxLayerStackMutableViewModel
-- (struct CGRect)gAssetObjectIDs:photoLibrary: /* Error: Ran out of types for this method. */;
+- (struct CGRect)°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform adaptiveLayoutTransform;

@@ -87,13 +87,13 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (struct CGRect);
 - (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (struct CGRect);
+- (unsigned long long);
 - (int);
+- (struct CGRect);
+- (void);
 - (id);
 
 // Remaining properties

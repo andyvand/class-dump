@@ -26,8 +26,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)rror in clLocations fetching,semaError,%@;
 
 // Remaining properties
 @property(retain, nonatomic) RTEventHistogramOptions *options; // @synthesize options=_options;

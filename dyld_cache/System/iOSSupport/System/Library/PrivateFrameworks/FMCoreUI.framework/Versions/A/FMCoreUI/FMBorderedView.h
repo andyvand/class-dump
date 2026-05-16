@@ -13,12 +13,13 @@
 
 - (void);
 - (_Bool);
-- (double);
 - (void);
-- (double);
 - (id);
+- (double);
 - (void);
-- (void);
+- (double);
+- (void)ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor;

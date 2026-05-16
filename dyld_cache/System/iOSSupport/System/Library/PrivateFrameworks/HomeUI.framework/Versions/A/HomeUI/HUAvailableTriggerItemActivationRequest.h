@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)etMinute:(_Bool)arg1;
-- (_Bool)Margin, leftSpeakerMargin, rightSpeakerMargin, leftHomePodDetailView, rightHomePodDetailView, swapButton;
+- (void);
+- (void)boardingFlow>"8;
+- (_Bool)8ÀÄÿwÿÌz;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;

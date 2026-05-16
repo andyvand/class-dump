@@ -39,14 +39,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)ª4­À­Ì±;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *data;

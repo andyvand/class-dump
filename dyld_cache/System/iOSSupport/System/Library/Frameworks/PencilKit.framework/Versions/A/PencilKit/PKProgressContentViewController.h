@@ -9,12 +9,12 @@
     double _progress;
 }
 
+- (_Bool);
 - (void);
-- (id);
+- (void);
 - (double);
 - (void);
-- (_Bool);
-- (void)!;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double progress; // @synthesize progress=_progress;

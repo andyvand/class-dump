@@ -28,7 +28,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)eaderDisplayStyleSetup_Header;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,9 +11,9 @@
 }
 
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long);
 + (void);
-+ (unsigned long long)R;
++ (unsigned long long);
 
 @end
 

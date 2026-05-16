@@ -20,7 +20,7 @@
     struct _NSRange _videoDataSegmentsRange;
 }
 
-+ (id)loudShareResponse;
++ (id)93BA-DD1D5068DF0B;
 - (id);
 - (id);
 - (unsigned long long);
@@ -46,11 +46,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)gionInfo;
+- (id);
+- (void);
+- (void)´;
 
 // Remaining properties
 @property(readonly) HMCameraClip *clip; // @synthesize clip=_clip;

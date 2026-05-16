@@ -12,12 +12,12 @@
 }
 
 + (Class);
-+ (Class);
++ (Class);
 - (void);
-- (void)!;
 - (struct CGSize);
 - (id);
 - (struct CGSize);
+- (void);
 - (id);
 
 // Remaining properties

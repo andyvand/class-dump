@@ -8,13 +8,14 @@
 {
 }
 
++ (id);
++ (void);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (void);
-+ (void);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);

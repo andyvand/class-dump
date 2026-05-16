@@ -12,8 +12,8 @@
 - (id);
 - (id);
 - (id);
-- (id)kablePublisher>"44@0:(id)arg1 8@"NSNumber"16@"NSNumber"24@"NSNumber"32B40;
-- (id)R,N,V_startTime;
+- (id);
+- (id);
 
 @end
 

@@ -5,10 +5,5 @@
 //
 
 @protocol WFDatabaseProxyHost
-- (void);
-- (void);
-- (void)0%EÉ;
-- (void)yl¬Ö0%EÉ;
-- (void)l«¨Ì;
 @end
 

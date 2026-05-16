@@ -9,10 +9,15 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)T;
-- (long long)èþÿþÿHþÿþÿØþÿþÿÔþÿ¨þÿÀþÿ;
-- (void)¸ALGAJG¶GÇ·GATG_SbQo__G;
-- (long long)yAcAyAIySo0A9ReferenceCG_A4PtGGAIySo0A8RunEventCGAIySo19WFConfiguredTriggerCGAIySo09WFTriggerE0CGAIySo31WFShortcutSuggestionsDescriptorCGAIySo0i9BookmarksK0CGeygyACG_A7_Qo_wgyÉzyû9GåA13_ACGSgÏdy)dyA7__Qo__A7_Qo_tG;
+- (long long);
+- (long long)× ;
+- (void);
+- (void)¼¬ÿÿèkÿÿ¾ÿÿp&ÿÿ;
+- (void)fileSizeLoader;
+- (void)y²ú_SSQo__ADQo_GG×%ÿÿG)úG;
+- (long long);
+- (long long);
+- (void)ÝÏ;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

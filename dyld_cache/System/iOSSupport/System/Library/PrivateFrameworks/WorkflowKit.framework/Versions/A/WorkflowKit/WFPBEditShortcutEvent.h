@@ -61,19 +61,19 @@
 - (id);
 - (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
+- (_Bool).¸.¼/84ä5;
+- (void)ublic}@;
+- (void)iableSubstitutableParameterState"8Q16@?<v@?@@"NSError">24;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

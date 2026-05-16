@@ -17,9 +17,9 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)ext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;

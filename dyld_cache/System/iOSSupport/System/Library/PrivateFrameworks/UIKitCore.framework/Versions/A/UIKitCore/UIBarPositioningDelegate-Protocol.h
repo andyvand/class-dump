@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIBarPositioning;
-
 @protocol UIBarPositioningDelegate
-
-@optional
-- (long long)bType:(id <UIBarPositioning>)arg1;
 @end
 

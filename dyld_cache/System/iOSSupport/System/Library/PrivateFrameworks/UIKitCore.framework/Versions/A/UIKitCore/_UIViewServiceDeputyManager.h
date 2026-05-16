@@ -18,24 +18,24 @@ __attribute__((visibility("hidden")))
     id _delegate;
 }
 
-+ (id)ynced attachments as needing sync;
-+ (void)ÒWÖîk;
-- (void)Foundation;
-- (void)unexpected NULL dataValue;
++ (id);
++ (void)Ôthÿúj;
 - (void);
 - (void);
-- (Class)rt:(SEL)arg1 bodyAttributes: /* Error: Ran out of types for this method. */;
-- (void)nerationStateChange:(id)arg1 originalPreviewGenerationState:(CDUnknownBlockType)arg2;
-- (void)ey:(CDUnknownBlockType)arg1;
+- (void);
+- (void);
+- (Class);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)rkTime__MAPPING_MISSING__;
-- (id)dateBackgroundStyle;
-- (id)ion;
-- (void);
-- (void);
+- (void)ckUI;
+- (id)¼Þ°ã4ðãèä;
 
 // Remaining properties
 @property id delegate; // @synthesize delegate=_delegate;

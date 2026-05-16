@@ -8,17 +8,20 @@
 @protocol UIScenePresentation, UISceneSnapshotPresentation;
 
 @protocol UIScenePresenter
-- (void)eviceRotation;
-- (void)× ;
-- (void)aryEdgeSplitViewControllerColumn"q"secondaryEdgeSplitViewControllerColumn"q"collapsedSplitViewControllerColumn"q"presentedSplitViewControllerColumn"q"preferredEdge"q"shouldEnforcePreferences"B"splitBehavior"q"primaryEdgePreferenceMode"Q"secondaryEdgePreferenceMode"Q};
-- (_Bool)le: /* Error: Ran out of types for this method. */;
-- (UIView<UISceneSnapshotPresentation> *)AppendingDualStringKey:toVariants: /* Error: Ran out of types for this method. */;
-- (FBSceneSnapshot *)Item: /* Error: Ran out of types for this method. */;
-- (NSString *)utModeControllerDelegate>",W,N,V_delegate;
-- (FBScene *)ü);
-- (UIView<UIScenePresentation> *)KeyDisplayContents"8Q16^B24;
-- (UIView<UISceneSnapshotPresentation> *)UU<@«ªªªªª6@«ªªªªª4@«ªªªªª(@UUUUUU)@UUUUUU'@«ªªªªª$@;
-- (void)ÙhÔ.ðZ;
+- (_Bool)!ä@ùñ^°1Â0@ù
+× ;
+- (UIScenePresentationManager *);
+- (void)<UICoordinateSpace>";
+- (void)icallyHidden: /* Error: Ran out of types for this method. */;
+- (void);
+- (UIView<UISceneSnapshotPresentation> *)ansform;
+- (UIScenePresentationContext *)egate: /* Error: Ran out of types for this method. */;
+- (FBScene *)mponent;
+- (NSString *)dProvider;
+- (UIView<UISceneSnapshotPresentation> *)¸°<;
+- (FBSceneSnapshot *)ÛÛ;
+- (_Bool)ociated or ancestor view controller; backtrace:%@ /* Error: Ran out of types for this method. */;
+- (void)n appearance customization data does not match method signature;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragItem;
-
 @protocol SXTangierDragItemProvider
-- (UIDragItem *)R8;
 @end
 

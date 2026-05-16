@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (_Bool)Size:activity: /* Error: Ran out of types for this method. */;
-- (id)hChatStyle: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
-- (void);
+- (void)v;
 
 // Remaining properties
 @property(retain, setter=_setProgress:) NSProgress *_progress; // @synthesize _progress=__progress;

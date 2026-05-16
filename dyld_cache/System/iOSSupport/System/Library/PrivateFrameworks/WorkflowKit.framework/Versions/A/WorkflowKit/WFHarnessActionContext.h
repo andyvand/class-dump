@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
 - (id);
+- (void)-parkedcar;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

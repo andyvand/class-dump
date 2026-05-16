@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class UIScrollView, UIView;
 
 @protocol _UIWebRotationDelegate
-- (CDStruct_39925896)o populate local data;
-- (struct CGRect)pTicketIsTrusted;
-- (double);
-- (UIView *)°+`,;
+- (UIScrollView *);
+- (UIView *),¸;
 @end
 

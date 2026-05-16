@@ -21,10 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)e;
+- (void)Name);
+- (id)Sî_p;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identity; // @synthesize identity=_identity;

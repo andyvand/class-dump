@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionTaskDelegate
+
+@optional
+- (void)List corresponding to participant (%08X), channel %d.;
+- (void)ate peerID from data [%@].;
 @end
 

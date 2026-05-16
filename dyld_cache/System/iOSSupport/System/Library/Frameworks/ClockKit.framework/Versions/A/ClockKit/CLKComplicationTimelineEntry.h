@@ -26,17 +26,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void)ileFormatKey:textProviders: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool)¯;
 
 // Remaining properties
 @property(copy, nonatomic) CLKComplicationTemplate *complicationTemplate; // @synthesize complicationTemplate=_complicationTemplate;

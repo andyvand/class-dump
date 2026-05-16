@@ -15,8 +15,8 @@
     MISSING_TYPE *workoutEvent;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

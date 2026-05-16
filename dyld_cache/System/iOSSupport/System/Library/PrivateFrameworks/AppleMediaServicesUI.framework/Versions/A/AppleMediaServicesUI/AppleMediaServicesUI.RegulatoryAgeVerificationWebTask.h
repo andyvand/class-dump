@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ationStyle;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *enablementBagKey;

@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
     _Bool _shouldExpandHeight;
 }
 
-- (_Bool)tes;
+- (_Bool);
 - (void);
-- (void)[cameraIcon];
 - (void);
-- (struct CGSize)l;
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldExpandHeight; // @synthesize shouldExpandHeight=_shouldExpandHeight;

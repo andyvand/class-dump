@@ -7,9 +7,7 @@
 @class NSURL;
 
 @protocol SVVideoMetadata
-- (double);
-- (unsigned long long)Name:argument: /* Error: Ran out of types for this method. */;
-- (struct CGSize)Preroll ad playback paused. placement=%{public}@, contentIdentifier=%{public}@;
+- (struct CGSize)ConfigurationIfNeededWithCompletionQueue:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

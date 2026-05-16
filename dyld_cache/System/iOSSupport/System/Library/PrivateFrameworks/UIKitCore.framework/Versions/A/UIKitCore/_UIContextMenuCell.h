@@ -18,31 +18,31 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-+ (Class)&,N;
++ (Class);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (_Bool)tWithFilter:limit: /* Error: Ran out of types for this method. */;
-- (void)er:(id)arg1 broadcaster:(_Bool)arg2;
-- (_Bool)"NSArray",R,N,V_memberStatusChanges;
+- (id);
 - (_Bool);
-- (void)bled spam filtering debug ui;
-- (void)st:(id)arg1 %@;
-- (id)lock Incoming Read Reciept Message;
-- (_Bool)ssageGuid %@ in chatGuid %@;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (long long);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void)hä{¬;
-- (void)
+- (void)0@ù
 × ;
-- (void)¤&;
-- (id)linkingEffectC;
-- (void)'re trying to reuse a view that's currently focused or contains the focused view. Collection view:(id)arg1 %@; view:(id)arg2 %@; layout attributes:%@; focused item state:%@ /* Error: Ran out of types for this method. */;
+- (id)tension:(struct CGRect)arg1 gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
+- (void)äXÿÿüXÿÿYÿÿ,YÿÿDYÿÿ\YÿÿtYÿÿYÿÿ¤YÿÿÄYÿÿZÿÿ(Zÿÿ4\ÿÿd\ÿÿ\ÿÿÀ]ÿÿø]ÿÿÀ^ÿÿØ^ÿÿ0_ÿÿH_ÿÿx_ÿÿ¼_ÿÿÔ_ÿÿì_ÿÿ`ÿÿ`ÿÿ4`ÿÿL`ÿÿd`ÿÿ|`ÿÿ`ÿÿ¬`ÿÿÄ`ÿÿÜ`ÿÿHaÿÿÜaÿÿbÿÿ0bÿÿHbÿÿhbÿÿbÿÿbÿÿÔcÿÿPdÿÿÜdÿÿeÿÿ4eÿÿTeÿÿteÿÿ¬eÿÿfÿÿ<fÿÿLgÿÿdgÿÿ|gÿÿgÿÿ¬gÿÿðgÿÿ4hÿÿLhÿÿdhÿÿhÿÿpiÿÿiÿÿ iÿÿ¸iÿÿmÿÿ¬mÿÿÐmÿÿèmÿÿ;
+- (void)ling picker view before data model has been created;
+- (void)ted while data transfer was still in progress.;
+- (void)SÚP];
+- (void)úÒt_;
 
 // Remaining properties
 @property(copy, nonatomic) UIShape *_backgroundShape; // @synthesize _backgroundShape=__backgroundShape;

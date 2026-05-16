@@ -14,13 +14,13 @@
     NSData *_customData;
 }
 
-+ (id)ublic}@;
++ (id);
 - (id);
-- (struct _MRSystemAppPlaybackQueue *)rise persona. personaID = %{public}@;
-- (id);
-- (void);
+- (struct _MRSystemAppPlaybackQueue *);
 - (id);
 - (id);
+- (id);
+- (void)[AP] - %{public}@ - Not attaching tap [processor is not ready] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *customData; // @synthesize customData=_customData;

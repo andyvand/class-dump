@@ -7,7 +7,6 @@
 @class NSNumber, NSString;
 
 @protocol CHMathExpression
-- (long long)4;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *expression;

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class CAShapeLayer, NSString;
+@class CAShapeLayer, NSString, _UISlotView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardDockItemButton : UIButton
@@ -14,35 +14,40 @@ __attribute__((visibility("hidden")))
     NSString *_identifier;
     CAShapeLayer *_shapeLayer;
     CAShapeLayer *_debugHitLayer;
+    _UISlotView *_secureDictationSlotView;
     struct CGRect _tapActionRegion;
 }
 
+- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void);
 - (void);
-- (struct CGRect)id8];
+- (_Bool);
 - (void);
 - (void);
-- (id)Ûþ¹;
 - (void);
-- (void)!0@ù
+- (void);
+- (void)
 × ;
-- (void)yÐ!Gù±Î°1¢!0@ù
-× ;
-- (struct CGRect)AutoFillTestGroundTruthGenerationViewControllerDelegate>";
-- (void)wserFromViewController:(id)arg1;
-- (void)r:(id)arg1 cancelTouchOnLayoutWithId:startPoint:endPoint:whenReady: /* Error: Ran out of types for this method. */;
-- (_Bool)modifierFlags:(struct CGPoint)arg1 shouldCancel: /* Error: Ran out of types for this method. */;
-- (void)or: /* Error: Ran out of types for this method. */;
-- (struct CGRect)¨;
-- (id)Üÿÿÿ¸èÿ0órþ¬þÿ;
-- (void)in your Info.plist.;
-- (void)éþhé×Ìäj;
-- (struct CGRect)PËÿ;
+- (void)ableSpace: /* Error: Ran out of types for this method. */;
+- (void)ant: /* Error: Ran out of types for this method. */;
+- (void)ingleMovement;
+- (void)ootView:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (id)de;
+- (void)ÌM;
+- (id)×ïÿ Øïÿ;
+- (struct CGRect)|«\;
+- (id)øk^;
+- (struct CGRect)Tòd;
+- (void)à\f;
+- (void)^þ;
+- (void)xm;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *debugHitLayer; // @synthesize debugHitLayer=_debugHitLayer;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
+@property(retain, nonatomic) _UISlotView *secureDictationSlotView; // @synthesize secureDictationSlotView=_secureDictationSlotView;
 @property(retain, nonatomic) CAShapeLayer *shapeLayer; // @synthesize shapeLayer=_shapeLayer;
 @property(nonatomic) struct CGRect tapActionRegion; // @synthesize tapActionRegion=_tapActionRegion;
 

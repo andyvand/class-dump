@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC7ChatKit31CKBackgroundMotionEventsManager;
-
 @protocol _TtP7ChatKit39CKBackgroundMotionEventsManagerDelegate_
-- (void)ibutedStringForRange:(_TtC7ChatKit31CKBackgroundMotionEventsManager *)arg1;
-- (void)WithVoiceOver;
-- (void)Handler:(_TtC7ChatKit31CKBackgroundMotionEventsManager *)arg1;
-- (void);
 @end
 

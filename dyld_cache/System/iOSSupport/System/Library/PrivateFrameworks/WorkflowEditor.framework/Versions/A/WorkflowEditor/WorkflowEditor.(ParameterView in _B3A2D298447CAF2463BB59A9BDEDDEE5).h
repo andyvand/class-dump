@@ -15,12 +15,11 @@
     MISSING_TYPE *$__lazy_storage_$_parameterView;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)0@ù
-× ;
+- (void)`{{;
 
 @end
 

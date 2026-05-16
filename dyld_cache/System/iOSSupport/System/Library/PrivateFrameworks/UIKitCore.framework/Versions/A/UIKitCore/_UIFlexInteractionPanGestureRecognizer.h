@@ -12,18 +12,17 @@ __attribute__((visibility("hidden")))
     struct CGPoint _initialTouchLocation;
 }
 
-- (_Bool)rdButton;
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)teSpace>"16@"_UICornerMaskingContext"24Q32;
-- (_Bool)L²÷;
-- (id)nt:(id)arg1;
-- (_Bool);
-- (_Bool)%ï];
+- (_Bool)"NSIndexPath"24@"NSString"32;
+- (id)tion";
+- (_Bool):(id)arg1;
+- (void)er;
+- (void)ure:(id)arg1 resetPrevious:(id)arg2;
+- (_Bool)URL;
+- (_Bool)eView internal inconsistency:(id)arg1 encountered out of bounds section index while validating move updates (section=%ld, oldSectionCount=%ld);
+- (void)abMorphTransitionC;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCurrentlyActive;

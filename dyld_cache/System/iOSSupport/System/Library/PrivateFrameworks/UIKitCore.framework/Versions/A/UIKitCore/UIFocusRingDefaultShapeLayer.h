@@ -10,11 +10,11 @@
 {
 }
 
-+ (id)ly becuase it is not an iPhone;
-+ (id)%@;
-+ (id)background request in case others in the chat had previously set one before this device was added. toIdentifier:(long long)arg1 %@, fromIdentifier:%@, chat:%@ /* Error: Ran out of types for this method. */;
-+ (id)error %@;
-- (id)Q,N,V_unclippableCorners;
++ (id);
++ (id);
++ (id);
++ (id);
+- (id);
 
 @end
 

@@ -17,24 +17,26 @@
 }
 
 + (id);
-+ (id);
 + (id);
-- (void)pUUID;
-- (_Bool)Logging;
-- (_Bool)};
++ (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)ksPartOfItemInstanceCount;
-- (void)LookForLyrics;
+- (void);
+- (double);
 - (id);
-- (void)ConstraintsAtEngineLevelIfNeeded;
-- (void)emptToDragParent:(id)arg1 forNewBounds:oldBounds: /* Error: Ran out of types for this method. */;
-- (void)ctiveTextOddAudioPitch:(id)arg1;
-- (id);
-- (id)Ô>üÿ¼þÿ;
-- (void);
-- (double)b¹ÀåØ?sIUÑ@ºmÄ{÷ÉÀÇKªV@;
+- (void);
+- (void)!`Dù1]ð1Â0@ù
+× ;
+- (void)IsFirstResponder:(id)arg1;
+- (id);
+- (id)emHandler: /* Error: Ran out of types for this method. */;
+- (id)stureWithState:(struct CGRect)arg1;
+- (void)%@
+;
 
 // Remaining properties
 @property(nonatomic, setter=_setAllowsArchivingAsSubview:) _Bool _allowsArchivingAsSubview; // @synthesize _allowsArchivingAsSubview;

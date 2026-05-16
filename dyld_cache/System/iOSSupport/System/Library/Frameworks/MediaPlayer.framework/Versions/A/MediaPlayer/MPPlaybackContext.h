@@ -28,7 +28,7 @@
 }
 
 + (_Bool);
-+ (_Bool)legatePrivate homeManager:%{public}@ didRemoveHome:%{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long actionAfterQueueLoad; // @synthesize actionAfterQueueLoad=_actionAfterQueueLoad;

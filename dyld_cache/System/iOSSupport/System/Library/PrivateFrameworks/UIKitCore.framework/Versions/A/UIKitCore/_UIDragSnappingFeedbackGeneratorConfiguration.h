@@ -15,13 +15,13 @@
     NSString *_hidObjectSnappedFeedbackPatternName;
 }
 
-+ (id)× ;
-- (id);
++ (id)Distance Factor;
 - (id);
 - (void);
-- (void)setContentEdgeInsets:(id)arg1;
-- (void);
-- (id).ÿx"Ö+Êb;
+- (id)omWithOptions:sourceBarButtonItemProvider: /* Error: Ran out of types for this method. */;
+- (id)aits;
+- (void)alEvent;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *hidObjectSnappedFeedbackPatternName; // @synthesize hidObjectSnappedFeedbackPatternName=_hidObjectSnappedFeedbackPatternName;

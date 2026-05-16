@@ -22,6 +22,7 @@
     MISSING_TYPE *sportsBracketKnobs;
     MISSING_TYPE *sportsBoxScoresKnobs;
     MISSING_TYPE *sportsEventInfoKnobs;
+    MISSING_TYPE *sportsEventLiveStreamKnobs;
     MISSING_TYPE *sportsInjuryReportsKnobs;
     MISSING_TYPE *sportsKeyPlayersKnobs;
     MISSING_TYPE *sportsEventArticlesKnobs;

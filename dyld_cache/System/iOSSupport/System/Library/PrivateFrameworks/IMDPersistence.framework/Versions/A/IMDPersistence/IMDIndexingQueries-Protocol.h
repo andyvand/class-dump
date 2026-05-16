@@ -5,7 +5,5 @@
 //
 
 @protocol IMDIndexingQueries
-- (void);
-- (void)#;
 @end
 

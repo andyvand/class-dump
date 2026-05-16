@@ -12,8 +12,8 @@
     MISSING_TYPE *tracker;
 }
 
-- (void);
-- (id)P;
+- (id);
+- (void)xéMÿåE_,½þF_(½þF_$½þµE_ ½þ;
 
 @end
 

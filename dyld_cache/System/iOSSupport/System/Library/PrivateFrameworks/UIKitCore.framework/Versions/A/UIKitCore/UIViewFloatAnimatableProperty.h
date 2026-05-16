@@ -10,13 +10,15 @@
 {
 }
 
-- (double)";
 - (void);
-- (id)heightForBarAtIndex:mode: /* Error: Ran out of types for this method. */;
-- (double)<;
-- (double)eingRecorded;
-- (void)äÂÿ*;
-- (id)ÔäÆþêÓÊp`;
+- (id);
+- (double)ð!Dùñ^ð1Â0@ù
+× ;
+- (double)1Â0@ù
+× ;
+- (double)efersCompactAppearance:,V__prefersCompactAppearance /* Error: Ran out of types for this method. */;
+- (void)PÖ8-];
+- (id)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) double presentationValue;

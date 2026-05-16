@@ -20,9 +20,9 @@
 }
 
 - (id);
-- (double);
 - (double);
-- (id)#;
+- (double);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
@@ -30,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ì;
 
 // Remaining properties
 @property(readonly) _Bool isAutoRefined; // @synthesize isAutoRefined=_isAutoRefined;

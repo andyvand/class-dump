@@ -39,7 +39,6 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -48,6 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (double);
+- (id);
 - (void);
 - (double);
 - (_Bool);
@@ -55,16 +55,16 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (struct CGSize);
 - (void);
 - (void);
+- (unsigned long long);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (struct CGSize);
+- (unsigned long long)40@0:8@"PKPaymentAuthorizationCoordinator"16@"PKAccountServicePaymentMethod"24@?<v@?@"PKPaymentRequestPaymentMethodUpdate"@"PKApplePayTrustSignatureRequest">32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPeerPaymentMessagesMultiActionView *actionView; // @synthesize actionView=_actionView;

@@ -17,14 +17,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id)entIndex:ofReply: /* Error: Ran out of types for this method. */;
-- (unsigned long long)1_,1¢!0@ù
-× ;
+- (unsigned long long)nularityInferredMapItems:place:handler: /* Error: Ran out of types for this method. */;
+- (void)r for predicted context;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascendingVisitEntryDate; // @synthesize ascendingVisitEntryDate=_ascendingVisitEntryDate;

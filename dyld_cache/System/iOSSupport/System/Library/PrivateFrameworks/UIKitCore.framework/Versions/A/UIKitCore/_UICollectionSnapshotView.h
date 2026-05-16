@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _snapshottedViewDisablesRasterizationInAnimations;
 }
 
-- (_Bool)ending message received receipt to AskTo;
+- (_Bool);
 
 @end
 

@@ -8,6 +8,7 @@
 
 @interface NFReaderSessionConfig
 {
+    _Bool _delayConnectionHandoverRestart;
     unsigned long long _uiMode;
     unsigned long long _sessionType;
     NSString *_initialScanText;
@@ -18,15 +19,18 @@
 + (id);
 + (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
 - (void);
 - (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
 
 // Remaining properties
+@property(readonly, nonatomic) _Bool delayConnectionHandoverRestart; // @synthesize delayConnectionHandoverRestart=_delayConnectionHandoverRestart;
 @property(readonly, copy, nonatomic) NSString *initialScanText; // @synthesize initialScanText=_initialScanText;
 @property(readonly, nonatomic) unsigned long long sessionType; // @synthesize sessionType=_sessionType;
 @property(readonly, nonatomic) unsigned long long uiMode; // @synthesize uiMode=_uiMode;

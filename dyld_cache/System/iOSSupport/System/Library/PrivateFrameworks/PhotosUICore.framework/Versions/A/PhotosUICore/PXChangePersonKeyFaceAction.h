@@ -23,11 +23,13 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)H°1â
+0@ù
+× ;
+- (id)TransitionsState;
+- (void)ceChanges;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFace *keyFace;

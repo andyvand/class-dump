@@ -9,19 +9,20 @@
     struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
-+ (_Bool);
++ (_Bool)I;
 - (void);
 - (void);
-- (oneway void)(;
-- (void)h";
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id)ector:withObject:afterDelay:ignoreMenuTracking: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
+- (void);
+- (id);
+- (oneway void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)à;
+- (_Bool)'
+;
 
 @end
 

@@ -26,18 +26,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (double);
+- (double);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (double);
 - (id);
-- (double);
-- (id);
-- (id)ÿtÖýÿh;
-- (_Bool)ÿwQxØ;
+- (_Bool);
+- (void);
+- (id)matched request;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *URLTemplate;

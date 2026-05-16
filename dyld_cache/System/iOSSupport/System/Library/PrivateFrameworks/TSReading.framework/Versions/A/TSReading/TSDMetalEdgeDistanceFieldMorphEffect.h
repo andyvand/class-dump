@@ -32,7 +32,7 @@
 + (void);
 - (CDStruct_39925896);
 - (void);
-- (_Bool)h;
+- (_Bool);
 - (double);
 - (double);
 - (struct CGAffineTransform);
@@ -48,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)geWillDelete;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDMetalTextureInfo *incomingTextureInfo; // @synthesize incomingTextureInfo=_incomingTextureInfo;

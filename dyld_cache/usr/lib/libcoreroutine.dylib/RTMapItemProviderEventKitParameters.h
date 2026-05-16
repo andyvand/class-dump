@@ -10,10 +10,10 @@
 }
 
 - (id);
-- (id)thParameters: /* Error: Ran out of types for this method. */;
 - (id);
-- (double)nRevGeoConfidence;
-- (id)gions, error, %@;
+- (id);
+- (double);
+- (id)ve}.7lf, %{sensitive}.7lf),EndLocation,(%{sensitive}.7lf, %{sensitive}.7lf);
 
 // Remaining properties
 @property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;

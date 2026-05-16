@@ -29,60 +29,63 @@
 }
 
 + (Class);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double)d24B32q36q44B52;
-- (id)egateRespondsToDidFinishUpdatingFocusInContext"b1"delegateRespondsToWillMessageOldFocusNodes"b1"delegateRespondsToWillMessageNewFocusNodes"b1"delegateRespondsToEnvironmentDidUpdateFocusInContext"b1"delegateRespondsToDidCancelFocusUpdateInContext"b1"delegateRespondsToFocusItemContainer"b1"delegateRespondsToClippingRect"b1"delegateRespondsToDidUpdateDeferralTarget"b1"delegateRespondsToHandleFailedMovementRequest"b1"delegateRespondsToShouldReverseLayoutDirectionForEnvironment"b1"delegateRespondsToShouldReverseLinearWrappingForEnvironment"b1"delegateRespondsToIsScrollingScrollableContainer"b1};
-- (double)ateView;
-- (void)artingRetry:(double)arg1;
-- (id)er:transform: /* Error: Ran out of types for this method. */;
-- (void)HandoffContext;
-- (void)se:(_Bool)arg1;
-- (id)IScrollView<_UIKeyboardAutoRespondingScrollView>",R,&,N,G_scrollView;
-- (double)UITouchTypeIndirectPointer;
-- (double)loatValue;
-- (long long)antsFullScreen;
-- (void)ç[;
+- (double);
+- (void)!ðCù^ð1Â0@ù
+× ;
 - (long long);
-- (void)ÜÛàþ;
-- (float)_;
+- (double)ornerRadii="minXMaxY"{CGSize="width"d"height"d}"maxXMaxY"{CGSize="width"d"height"d}"maxXMinY"{CGSize="width"d"height"d}"minXMinY"{CGSize="width"d"height"d}};
+- (long long)ttachment:concealedMenu: /* Error: Ran out of types for this method. */;
+- (void)ution to catch this in the debugger.
+Outdated action:%@ /* Error: Ran out of types for this method. */;
+- (long long)zþÿ;
+- (void)Q;
+- (void)shouldDimmingIgnoreTouches;
+- (void)IKeyboardSuggestionOptions;
+- (id)namicRange;
+- (void)tures;
+- (void)ock_invoke;
+- (void)acity;
+- (void)ÞA;
+- (double);
 - (void);
-- (void);
-- (double)¨8lÿ;
-- (void)}?ØÊW`;
-- (void)`;
-- (id)5`;
-- (_Bool);
-- (id)+`;
+- (void)9Õ¾\;
 - (void);
-- (void)pê+ÿ6;
-- (void)l;
-- (long long)ðÓ¹ö`;
-- (void)a;
-- (_Bool)PÄGÿY¨;
-- (void)ÐÜáÿJn¹;
-- (void)Î×þ;
-- (void)ÿ#$;
-- (double)a;
-- (void);
-- (void);
-- (void)çÿÀ°;
-- (void)ÈVb;
-- (double)f;
-- (_Bool)Å ;
-- (void)4Ø$ÿD;;
-- (id)éþ³Ä;
-- (double)ÿ/
+- (id)]Ðð¥\;
+- (double)
 ;
-- (void)\Áÿ;4Õâb;
-- (void)ïb;
-- (void);ÿSnÛKýb;
-- (double)þiÙ}*c;
+- (float);
 - (void);
-- (id)¨-ÿ{aÕßc;
+- (void)ÁmÝxk];
+- (void)bí;
+- (double)àÿbí;
+- (void)ò];
+- (void);
+- (void)^;
+- (double)¯^;
+- (_Bool)7Î(_;
+- (void)_;
+- (void)kwÿK	;
+- (double)?aÿ¨Ç;
+- (id)±È;
+- (_Bool)ú×ÿÎ<`;
+- (void)$èÿ}
+Û8^`;
+- (id)`;
+- (_Bool)¤ô¬ÿBÖ;
+- (id)¸7êÿq;
+- (double)¨a;
+- (void);
+- (void)(¶ÿ{Úb;
+- (void)Áxc;
+- (id)XßÒþ;
+- (void)f;
+- (void)ôí;
+- (void)P_ïþ;
+- (double);
+- (id)±È;
+- (void)x*c;
+- (void)ü)éþî«×ºyd;
+- (void)äT`ÿ;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

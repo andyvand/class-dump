@@ -46,23 +46,24 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)eUrl;
-- (id)lertTime);
-- (void);
-- (id)J;
-- (void)9C|Z;
+- (id)ntainingNotebooks;
+- (id)tWeatherService;
+- (void)alue:parameter:input:completion:] /* Error: Ran out of types for this method. */;
+- (void)øs«#ÓKrâãWUf*«ë²(µ/ÂÅ{7Ó¥(0ò¿#²¥ºjí\Ï+y§´óðòiN¡âÚeÍôÕ¾4Ñb¦Äþ.4Só¢ U2áö¤uë9ì`@ªïq^n½Q!>ùÝ=>Ý®æMF½TµÄq]oÔP`ÿ$û½Öé@ÌCÙgwè°½Bç8[ÈyÛî|¡G
+B|éøÉ;
+- (id)ÿñÖ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *accessType; // @synthesize accessType=_accessType;

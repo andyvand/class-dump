@@ -18,19 +18,18 @@
     void categories;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)B�
-%;
 - (id);
 - (id);
-- (long long);
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (long long)T#,R;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long adjacentPosition; // @synthesize adjacentPosition;

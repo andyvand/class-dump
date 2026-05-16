@@ -73,17 +73,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (float);
-- (void);
 - (id);
-- (id);
-- (MISSING_TYPE *);
 - (unsigned long long);
 - (void);
-- (float)1B0@ù
+- (void)F!dEùð1â
+0@ù
 × ;
-- (void);
+- (MISSING_TYPE *)WithTitle:style:handler: /* Error: Ran out of types for this method. */;
+- (void)Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore;
+- (float)nRef;
+- (void)uring detection or recognition.;
 
 // Remaining properties
 @property(nonatomic) _Bool applyBrushBeforeStroke; // @synthesize applyBrushBeforeStroke;

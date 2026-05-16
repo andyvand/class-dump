@@ -32,10 +32,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)t2:cnt:common temp 2 /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (long long);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -43,31 +42,33 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)0;
-- (id)48@0:8@"NSString"16@"NSString"24B32C36@"NSString"40 /* Error: Ran out of types for this method. */;
 - (id);
-- (void)age:(id)arg1 %@   this is a typing indicator, and we've already stored a completed message;
-- (void)ge %@ is permitted to upgrade but existing message was already marked as deduplicated;
-- (id)at for GUID:%@ /* Error: Ran out of types for this method. */;
-- (void)e %@  to display to enroll them into SMS Relay;
-- (id)source:%@) /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (void);
 - (id);
-- (id)Count;
-- (void)A;
-- (id)Ávð!@@ù±Ë°1¢!0@ù
+- (id);
+- (id);
+- (void)1Â0@ù
 × ;
-- (id)ontentAssertionForReason: /* Error: Ran out of types for this method. */;
-- (id)Ü;
-- (void)(%p):(id)arg1;
-- (void)select a tab (%@) that is not seletable.;
-- (void)Õ^;
-- (id)tpÿº"þa;
+- (id)nSequenceViewHorizontalAlignmentConstraint: /* Error: Ran out of types for this method. */;
+- (void)ureRecognizerShouldBeginWithEvent:(id)arg1;
+- (void)mmingIgnoreTouches;
+- (void);
+- (void);
+- (id);
+- (id)H
+d;
 
 // Remaining properties
 @property(copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;

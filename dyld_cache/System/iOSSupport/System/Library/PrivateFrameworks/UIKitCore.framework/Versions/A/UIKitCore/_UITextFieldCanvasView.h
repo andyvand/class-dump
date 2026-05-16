@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (id)on;
-- (void);
+- (void),N,V_smartReply;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextFieldCanvasContext> context; // @dynamic context;

@@ -17,19 +17,19 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
 - (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)¿ÿÌÄÿÐåýÿ$æýÿPæýÿ°æýÿëýÿxëýÿ`ìýÿ4îýÿpîýÿ´îýÿÄðýÿPòýÿøõýÿ|øýÿ2þÿ;
-- (void)date:(id)arg1 %@ clipUUID:%@. /* Error: Ran out of types for this method. */;
-- (id)is not there in the list %@;
-- (id)oryStateControlDescriptionPause;
+- (id);
+- (void);
+- (void)itchServiceItem;
+- (void)¨<D;
+- (id)n identifier %@ with %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -87,10 +87,10 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (void);
 - (void);
-- (void)Æ;
+- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (unsigned long long);
@@ -104,15 +104,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (CDStruct_2bd92d94);
-- (void);
 - (id);
-- (double)seColumnsIndexRange;
-- (void)Action;
-- (id);
+- (void);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)cing;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource; // @synthesize assetsDataSource=_assetsDataSource;

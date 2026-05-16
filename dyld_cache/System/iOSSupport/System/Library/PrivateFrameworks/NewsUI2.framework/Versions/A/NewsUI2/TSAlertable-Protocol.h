@@ -7,7 +7,8 @@
 @class NSString;
 
 @protocol TSAlertable
-- (NSString *)ediaItem;
+- (NSString *)êòÿòÿ;
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *message;

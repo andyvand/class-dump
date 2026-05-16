@@ -5,6 +5,6 @@
 //
 
 @protocol _UIMultiSelectOneFingerPanGestureDelegate
-- (_Bool)erModeToString(_UICollectionViewSubviewOrderMode);
+- (_Bool)Collection";
 @end
 

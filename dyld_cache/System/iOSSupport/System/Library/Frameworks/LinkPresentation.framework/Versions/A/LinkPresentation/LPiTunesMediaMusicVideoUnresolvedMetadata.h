@@ -16,20 +16,19 @@ __attribute__((visibility("hidden")))
     LPiTunesMediaAsset *_artwork;
 }
 
-- (id)h9<;
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id)a	ð!PDùµ°1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)ìë;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

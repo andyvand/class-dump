@@ -13,9 +13,8 @@
 
 - (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)neralAnalyticsFooter;
 
 // Remaining properties
 @property(readonly, nonatomic) HUColorSwatchView *swatchView; // @synthesize swatchView=_swatchView;

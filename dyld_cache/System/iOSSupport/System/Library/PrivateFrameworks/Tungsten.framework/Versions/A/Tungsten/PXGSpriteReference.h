@@ -24,14 +24,14 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
 

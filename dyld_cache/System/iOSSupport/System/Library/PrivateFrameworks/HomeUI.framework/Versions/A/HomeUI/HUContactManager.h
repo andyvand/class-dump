@@ -14,7 +14,7 @@
     double _monogramDiameter;
 }
 
-+ (id);
++ (id)eIdentifier;
 - (id);
 - (void);
 - (id);
@@ -24,10 +24,10 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
-- (void)sInstructionTitle;
-- (id)iewController _selectItemAtIndexPath:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)le:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *cachedContactByEmails; // @synthesize cachedContactByEmails=_cachedContactByEmails;

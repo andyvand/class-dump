@@ -5,6 +5,5 @@
 //
 
 @protocol VFXMTLDeformer
-+ (unsigned long long)erContext: /* Error: Ran out of types for this method. */;
 @end
 

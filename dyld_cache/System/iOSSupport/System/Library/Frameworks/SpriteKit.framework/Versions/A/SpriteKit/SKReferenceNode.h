@@ -29,13 +29,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *referenceFileName;

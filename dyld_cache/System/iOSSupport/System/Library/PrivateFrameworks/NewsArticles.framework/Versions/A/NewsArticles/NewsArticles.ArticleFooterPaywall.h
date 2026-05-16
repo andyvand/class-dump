@@ -18,10 +18,10 @@
 - (id);
 - (double);
 - (id);
-- (void);
 - (id);
-- (id)A;
+- (id);
 - (void);
+- (void)le;
 
 // Remaining properties
 @property(nonatomic, retain) id <NAArticleFooterDelegate> footerDelegate; // @synthesize footerDelegate;

@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)´]ýÿ;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *importDate; // @dynamic importDate;

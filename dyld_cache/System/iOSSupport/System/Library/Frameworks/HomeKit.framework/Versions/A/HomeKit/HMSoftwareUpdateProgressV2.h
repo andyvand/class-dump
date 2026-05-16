@@ -10,7 +10,7 @@
     double _estimatedTimeRemaining;
 }
 
-+ (id)´¹Ðº;
++ (id);
 
 @end
 

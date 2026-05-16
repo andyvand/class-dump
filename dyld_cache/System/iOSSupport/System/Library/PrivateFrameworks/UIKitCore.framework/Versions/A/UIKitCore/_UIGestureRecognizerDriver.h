@@ -21,25 +21,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)initWithMessageStore:(long long)arg1 chatRegistry:(_Bool)arg2 recents:IDSService: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void)onshipPlaylistEntryReactionSocialProfile__MAPPING_MISSING__;
-- (_Bool);
 - (void);
-- (void)Ç°1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (void)Q^°1Â0@ù
 × ;
 - (void);
-- (void)ionInfo";
-- (void)dardGestureForInteractiveMovement:(id)arg1;
-- (long long)_validateBitmap:withOrientation:scale:forCoordinateSpace: /* Error: Ran out of types for this method. */;
-- (id)utFlushingForTransition;
-- (id)Style;
-- (id)ÐÎ;
-- (id)ion;
-- (void)rate to the UIMenuBuilder or Commands APIs.;
-- (void)dTarget>"8;
+- (long long)0@ù
+× ;
+- (id)!ôEùQgÐ1Â0@ù
+× ;
+- (void)ectionLearningAllowed;
+- (void)angeIndexOfCurrentDetent:(id)arg1;
+- (void)figuredFloatableView;
+- (void)__allReceivers;
+- (_Bool)@"_UINavigationBarLargeTitleViewLayout",&,N,V_largeTitleViewLayout;
+- (void);
+- (void)ØüÓ¡[;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIGestureRecognizerDriverContext> context; // @synthesize context=_context;

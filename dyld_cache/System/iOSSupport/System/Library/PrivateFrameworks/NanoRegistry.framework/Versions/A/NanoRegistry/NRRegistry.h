@@ -52,14 +52,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void)v20@0:8f16 /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NRMutableDeviceCollection *collection; // @synthesize collection=_collection;

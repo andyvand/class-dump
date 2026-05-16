@@ -4,8 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSymbolEffect, UIBarButtonItem, UIContextMenuInteraction;
+
 @protocol _UIBarButtonItemViewOwner
-- (void)istantPageViewDelegate>";
-- (void)seWritingToolsStyle;
+- (void)InsetsForNumberOfRows:(UIBarButtonItem *)arg1;
+- (void)TB,R,N,V_isTransitioning;
+- (void),V_displayedType;
+- (void)l;
+- (void);
+
+@optional
+- (_Bool)ectionView"16@"UICollectionViewLayout"24@"UICollectionViewLayout"32;
+- (_Bool)LineHeightCharacterSet;
+- (_Bool)Priority:(UIBarButtonItem *)arg1 forAxis:(NSSymbolEffect *)arg2;
+- (void)SLayoutConstraint",&,N,V_containerLeading;
+- (UIContextMenuInteraction *)?0@"_TtC11TextInputUI21TUISmartReplyResponse"8;
 @end
 

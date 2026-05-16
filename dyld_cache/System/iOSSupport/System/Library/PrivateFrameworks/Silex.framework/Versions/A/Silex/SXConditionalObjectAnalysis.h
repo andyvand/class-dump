@@ -29,8 +29,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)a;
 - (id);
 - (id);
 - (id);
@@ -47,8 +45,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void)ctiveCanvasController"16{CGPoint=dd}24;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *documentStyleConditionTypes; // @synthesize documentStyleConditionTypes=_documentStyleConditionTypes;

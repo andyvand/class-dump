@@ -15,13 +15,13 @@
 }
 
 - (id);
+- (void);
 - (id);
-- (void)@;
-- (void)?k;
 - (id);
 - (void);
 - (id);
-- (id)erableMessagesCount;
+- (id);
+- (void)Ø3;
 
 // Remaining properties
 @property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;

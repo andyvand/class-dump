@@ -13,11 +13,11 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIApplication *application; // @synthesize application=_application;

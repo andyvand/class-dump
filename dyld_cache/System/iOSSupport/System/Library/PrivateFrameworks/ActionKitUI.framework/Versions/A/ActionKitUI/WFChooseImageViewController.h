@@ -28,17 +28,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (unsigned long long);
-- (void);
+- (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)ithObject:(_Bool)arg1;
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContentCollection *collection; // @synthesize collection=_collection;

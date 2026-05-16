@@ -14,8 +14,8 @@
 - (void);
 - (void);
 - (double);
-- (_Bool)getting app name:%@ /* Error: Ran out of types for this method. */;
-- (void)to move for session %@;
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 

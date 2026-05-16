@@ -64,10 +64,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id),rÍÿà4Pr16;
+- (void)PhotosNavigationBarTitle;
+- (void)l;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHCachingImageManager *cachingImageManager; // @synthesize cachingImageManager=_cachingImageManager;

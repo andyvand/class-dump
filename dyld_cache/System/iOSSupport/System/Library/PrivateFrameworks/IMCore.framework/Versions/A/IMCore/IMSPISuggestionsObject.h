@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (id)TE in %{public}s world;
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)¨	ð	;
 
 // Remaining properties
 @property(readonly) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;

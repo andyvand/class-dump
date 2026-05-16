@@ -16,10 +16,10 @@
     MISSING_TYPE *content;
 }
 
-- (void);
 - (id);
-- (void)er:changeScheme: /* Error: Ran out of types for this method. */;
-- (id)óÂ;
+- (void);
+- (id)?0@"NSArray"8;
+- (void)É	;
 
 @end
 

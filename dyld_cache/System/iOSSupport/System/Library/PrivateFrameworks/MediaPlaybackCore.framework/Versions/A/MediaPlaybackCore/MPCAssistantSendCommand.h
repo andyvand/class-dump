@@ -13,15 +13,15 @@
 }
 
 - (void);
-- (void)$;
-- (void)eBugReport;
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void *);
 - (void);
-- (void);
 - (id);
+- (void)- FFT Info:dt=%3.1fms df=%3.1fHz /* Error: Ran out of types for this method. */;
 
 @end
 

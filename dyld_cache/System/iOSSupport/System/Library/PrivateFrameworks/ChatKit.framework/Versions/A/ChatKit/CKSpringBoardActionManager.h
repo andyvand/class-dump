@@ -13,22 +13,23 @@
     NSArray *_conversationCache;
 }
 
-+ (id)$«1;
-- (void)eletedPredicate;
-- (void): /* Error: Ran out of types for this method. */;
-- (_Bool)dealWidthOfColumn: /* Error: Ran out of types for this method. */;
-- (void)ldShowCancelButton;
-- (void)ICLearnMoreButtonPressedColor;
-- (void)tMatchingRangeInNote;
++ (id)äú;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)linesAutomatically;
 - (void);
-- (void)�=;
+- (void);
 - (void);
 - (id);
+- (void)Ô
+	;
 
 // Remaining properties
 @property(retain, nonatomic) CKContactsSearchManager *contactsSearchManager; // @synthesize contactsSearchManager=_contactsSearchManager;

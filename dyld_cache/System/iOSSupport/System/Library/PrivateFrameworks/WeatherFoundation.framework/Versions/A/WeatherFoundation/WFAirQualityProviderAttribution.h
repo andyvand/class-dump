@@ -20,7 +20,7 @@
     NSURL *_logoURL;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -37,7 +37,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)D;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -46,17 +46,17 @@
 - (id);
 - (void);
 - (id);
-- (void)CGAffineTransform=dddddd}24@0:(id)arg1 8@16;
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (id);
 - (struct os_unfair_lock_s);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *cachedLogoImage; // @synthesize cachedLogoImage=_cachedLogoImage;

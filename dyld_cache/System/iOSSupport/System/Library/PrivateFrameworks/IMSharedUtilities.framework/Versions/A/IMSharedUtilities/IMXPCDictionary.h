@@ -10,8 +10,8 @@
 {
 }
 
-+ (struct _xpc_type_s *);
-- (id)P;
++ (struct _xpc_type_s *);
+- (id);
 - (id);
 
 @end

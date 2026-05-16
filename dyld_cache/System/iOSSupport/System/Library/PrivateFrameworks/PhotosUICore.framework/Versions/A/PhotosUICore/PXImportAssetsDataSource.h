@@ -37,13 +37,15 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (long long)1â
+0@ù
+× ;
+- (unsigned long long)ching contact by identifier for that key returned nil. Attempting with original contact:%@ /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
-- (unsigned long long)°A;
-- (id)nuItemTitle;
-- (long long)a;
+- (void)1RÈ¶;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assetCollections; // @synthesize assetCollections=_assetCollections;

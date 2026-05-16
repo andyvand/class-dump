@@ -13,22 +13,22 @@
     struct CGRect _visibleBounds;
 }
 
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (struct CGRect);
 - (id);
-- (id);
-- (id);
-- (id);
-- (struct CGRect)thGaspar;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

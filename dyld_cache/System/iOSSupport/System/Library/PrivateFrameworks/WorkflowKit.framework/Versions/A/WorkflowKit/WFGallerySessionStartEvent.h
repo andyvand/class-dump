@@ -15,11 +15,11 @@
 }
 
 + (Class);
-- (void);
-- (void);
 - (id);
-- (id)peat ${WFRepeatCount} (Parameter Summary);
-- (void)=zãxÃÿ]zãtÃÿzãÜÃÿ;
+- (void);
+- (void)ss=%{signpost.description:(id)arg1 attribute}@;
+- (void);
+- (id).actions.gethtmlfromrichtext;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;

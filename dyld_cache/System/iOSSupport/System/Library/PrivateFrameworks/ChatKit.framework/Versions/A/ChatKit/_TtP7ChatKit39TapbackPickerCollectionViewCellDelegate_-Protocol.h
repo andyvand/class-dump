@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP7ChatKit39TapbackPickerCollectionViewCellDelegate_
-- (void);
 @end
 

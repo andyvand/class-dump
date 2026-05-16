@@ -28,12 +28,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (_Bool);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 

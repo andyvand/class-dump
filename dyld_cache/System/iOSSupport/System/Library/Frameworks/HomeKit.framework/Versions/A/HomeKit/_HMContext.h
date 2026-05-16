@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ø²x³X´Ø´¼µ<¶··|¸ü¸¸¹;
-- (id)reflected;
+- (id);
+- (void)rofileDelegate>",W,V_delegate;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HMDelegateCaller *delegateCaller; // @synthesize delegateCaller=_delegateCaller;

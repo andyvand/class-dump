@@ -16,13 +16,13 @@
 }
 
 + (_Bool);
-+ (void)jA;
-- (void)tIdentifier:(id)arg1 participants:checkingForSpam:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:completion: /* Error: Ran out of types for this method. */;
++ (void)Æy;
 - (void);
-- (id)ntsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-- (_Bool)chat through legacy path (guid:%@) /* Error: Ran out of types for this method. */;
-- (void)ent %@, override %@), ignoring!;
-- (void)a Watch connected over BT %@, relaying message %@;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,22 +30,21 @@
 - (void);
 - (void);
 - (void);
-- (id)reateRTCReporting;
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)!ðFùfÐ1Â0@ù
 × ;
-- (void)QÉ°1¢!0@ù
-× ;
-- (id)windowWillAnimateRotateNotification: /* Error: Ran out of types for this method. */;
-- (void)et;
-- (id)R,N,V_isFrameAdjustedForPinning;
-- (id)gate_Exiting;
-- (id)rting insertion shadow updates;
-- (void)0>æÿG û;
-- (CDUnknownBlockType);
-- (id)ÈÈ6¿k;
+- (void)ipes;
+- (id)ewWithMenu:position: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)SpringAnimationParameters;
+- (void)<v\;
+- (void)xeh;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

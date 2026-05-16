@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
     UIColor *_textColor;
 }
 
-- (id);
-- (void);
 - (struct CGSize);
-- (void);
-- (void)popupRect;
-- (id)Orientation:willAnimateWithSettings:fromOrientation: /* Error: Ran out of types for this method. */;
-- (void)et;
-- (id);
-- (struct CGSize)em/Library/Frameworks/GameController.framework/GameController;
-- (void);
+- (struct CGSize);
+- (id)wNeedsAnimationRestorationMessage;
+- (id)heritedClientSettings:(struct CGRect)arg1;
+- (id)yEffectsOnProxyView;
+- (void)n;
+- (void)ault style should never be returned at this point;
+- (void)ctivityProvider;
+- (void)t;
+- (void)X];
 
 // Remaining properties
 @property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;

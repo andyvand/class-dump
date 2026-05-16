@@ -13,24 +13,24 @@
     NSMutableArray *_children;
 }
 
-- (id)dy;
-- (void);
-- (id)or:(id)arg1 %s};
-- (void),;
-- (_Bool)ceholderViewModifier;
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)FileCount;
-- (id)ÀtqLÿµ4ÀØ(«ÿ;
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void)RT_MESSAGE_EXPIRED;
+- (void)Ì{$ÿ%;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;

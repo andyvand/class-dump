@@ -12,17 +12,17 @@
 }
 
 + (id);
-- (void)w:(id)arg1 setResizable: /* Error: Ran out of types for this method. */;
-- (void)dZoomFactorIndex;
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)CG;
+- (id);
 - (id);
 - (void);
-- (id)9;
+- (id);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)extFontSize;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *pool;

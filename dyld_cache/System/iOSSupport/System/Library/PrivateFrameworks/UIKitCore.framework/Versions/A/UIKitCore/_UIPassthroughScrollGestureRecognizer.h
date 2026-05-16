@@ -25,35 +25,34 @@ __attribute__((visibility("hidden")))
     unsigned long long _endReason;
 }
 
-+ (_Bool);
-+ (_Bool)sessionIsModeless;
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void)tID:entityType:artworkType:artworkSourceType:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool)°!@ùñÄ°1¢!0@ù
++ (_Bool)q`1Â0@ù
 × ;
-- (void)Æ1¢!0@ù
-× ;
++ (_Bool)nToneEmoji;
 - (void);
-- (void)dedInteractionBehaviorDelegate>";
-- (void)UsesSinglePixelLineWidth:(id)arg1;
-- (void)HostWindow:(id)arg1;
-- (unsigned long long)eDateFrom:animated: /* Error: Ran out of types for this method. */;
-- (void)on;
-- (id)ä¹,º;
-- (_Bool) ''ü'd(¸( )t)Ü)*°*;
-- (void)B;
-- (_Bool)uld have been created and stored in `-textViewportLayoutController:(id)arg1 renderingSurfaceForTextLayoutFragment:(id)arg2;
-- (id)ovider. Remove your +_forceLegacyVisualProvider override.;
-- (_Bool)¼Í*[;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void)Ô ;
+- (_Bool);
+- (id)8{CGRect={CGPoint=dd}{CGSize=dd}}16B48B52@56;
+- (_Bool)apshotterForSnapshot:(id)arg1;
+- (void)andler:(_Bool)arg1;
+- (void)te;
+- (_Bool)hromeBuffer;
+- (void)lectionViewAnimator:(id)arg1 updatingContentOffsetForRestorationAnchor: /* Error: Ran out of types for this method. */;
+- (void)neRect:(id)arg1 outBaselineOffset:(id)arg2;
+- (void)Responder;
+- (_Bool)spondsToDidScroll;
+- (_Bool)V_shouldStartUndoGroup;
+- (unsigned long long)stionID;
+- (_Bool)tificationIsStartNotification;
+- (void)onth;
+- (void)deDestination;
 
 // Remaining properties
 @property(nonatomic, getter=_acceptsFailureRequirements, setter=_setAcceptsFailureRequirements:) _Bool acceptsFailureRequirements; // @synthesize acceptsFailureRequirements=_acceptsFailureRequirements;

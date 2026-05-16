@@ -4,3 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Typedef'd Structures
+
+typedef struct {
+    float *list;
+    unsigned long long count;
+    unsigned long long size;
+} CDStruct_fae3dc92;
+

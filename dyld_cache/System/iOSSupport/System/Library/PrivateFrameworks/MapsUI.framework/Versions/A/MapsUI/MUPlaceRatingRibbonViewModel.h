@@ -17,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (id)qnÐ1b0@ù
-× ;
+- (_Bool);
+- (id);
+- (void)edSystemActionTypes;
 
 // Remaining properties
 @property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;

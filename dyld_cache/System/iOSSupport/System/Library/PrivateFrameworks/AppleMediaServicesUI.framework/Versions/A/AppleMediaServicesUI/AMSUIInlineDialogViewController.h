@@ -60,31 +60,30 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (struct CGPoint);
-- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)!Cù
-Ð1b0@ù
-× ;
-- (id)backingBag: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)lyCircleAction;
+- (void)unesAccountRequired:provideU13Identifier: /* Error: Ran out of types for this method. */;
+- (id)ViewController:didFailToHost:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)y:(id)arg1 1G1y1GG_SSQo_I13G_Qo__Qo_;
+- (id)`1;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

@@ -15,11 +15,11 @@
     MISSING_TYPE *type;
 }
 
-- (double):8@"NSUUID"16q24@"NSString"32@"NSError"40@?<v@?B>48 /* Error: Ran out of types for this method. */;
+- (double);
 - (double);
 - (CDStruct_198678f7);
-- (void);
 - (double);
+- (void)eContinuity;
 
 // Remaining properties
 @property(nonatomic, readonly) double avTime; // @synthesize avTime;

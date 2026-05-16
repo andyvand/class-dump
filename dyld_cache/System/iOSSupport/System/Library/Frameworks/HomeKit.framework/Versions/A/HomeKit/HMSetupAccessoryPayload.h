@@ -23,8 +23,8 @@
     HMCHIPAccessorySetupPayload *_chipAccessorySetupPayload;
 }
 
-+ (id)Ì\] ^p_t`äc\fHkl(mømün@qHrdulw<x@yz{d|¨~Ü¬°¬ÀÈ;
-+ (_Bool)e"8@"NSError"16;
++ (id);
++ (_Bool);
 
 @end
 

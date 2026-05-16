@@ -42,9 +42,9 @@
     } _requestedEpisodeProperties;
 }
 
-+ (id):requesterDSID:responderDSID:websitePath:bundleID: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
-- (void));
+- (void)licationDidBecomeActiveNotification;
 
 @end
 

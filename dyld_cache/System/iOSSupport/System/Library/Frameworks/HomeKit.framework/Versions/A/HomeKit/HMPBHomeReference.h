@@ -13,20 +13,19 @@
 
 + (id);
 + (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (_Bool)Available_INT;
+- (void)øùú\ú;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUniqueIdentifier;

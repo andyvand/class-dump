@@ -8,10 +8,10 @@
 {
 }
 
-- (long long)We would normally refuse to save %{public}@, but we were told to allow duplicate accounts.;
-- (long long)Account = %{public}@;
-- (void)ing to save. Ignoring. account = %{public}@ | existingAccount = %{public}@;
-- (void)t is a duplicate of the account we’re trying to save. Ignoring. account = %{public}@ | existingAccount = %{public}@;
+- (long long);
+- (long long);
+- (void);
+- (void);
 
 @end
 

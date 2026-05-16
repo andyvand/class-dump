@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _responseHandler;
 }
 
-+ (id)@0:(id)arg1 8@"NSDateInterval"16;
-+ (id)0@48B56@60;
-- (void)eceived handle key transparency status changed notification with no information about impacted handles;
-- (void);
-- (void);
++ (id);
++ (id);
 - (CDUnknownBlockType);
+- (id);
 - (void);
-- (id)rrorResolver;
-- (void)UIScene lifecycle (enabled:(id)arg1 %{BOOL}u | category:%{public}@ | volumeDisplays:%{public}@) /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)meOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPStoreLibraryPersonalizationRequest *request; // @synthesize request=_request;

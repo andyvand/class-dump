@@ -32,8 +32,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)tionState init];
 
 // Remaining properties
 @property(retain, nonatomic) HUBannerItemProvider *bannerItemProvider; // @synthesize bannerItemProvider=_bannerItemProvider;

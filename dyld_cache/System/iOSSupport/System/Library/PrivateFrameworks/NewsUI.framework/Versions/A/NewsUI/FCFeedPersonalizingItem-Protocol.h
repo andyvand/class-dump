@@ -7,20 +7,6 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (FCFeedPersonalizedItemScoreProfile *)ontext: /* Error: Ran out of types for this method. */;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *);
-- (_Bool)ovider;
-- (NSString *)Date;
-- (unsigned long long)neFeed;
-- (NSString *)0@ù
-× ;
-
-@optional
-- (NSData *)!;
-- (NSString *);
-- (NSArray *);
-- (_Bool)@�;
-- (NSString *)oller"16q24;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

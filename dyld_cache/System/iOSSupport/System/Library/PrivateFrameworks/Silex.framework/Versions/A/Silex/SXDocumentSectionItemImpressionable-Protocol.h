@@ -5,6 +5,5 @@
 //
 
 @protocol SXDocumentSectionItemImpressionable
-- (void);
 @end
 

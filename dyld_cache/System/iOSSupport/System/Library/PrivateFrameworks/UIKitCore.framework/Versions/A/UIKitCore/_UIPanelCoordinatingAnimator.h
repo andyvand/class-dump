@@ -19,29 +19,28 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
 - (void);
+- (void)nnot animate deleted cell because it already has an animation. Updates:(long long)arg1 %@; Cell:(_Bool)arg2 %@;
+- (void)ityIndicatorViewStyleStatusBarLockScreenSync;
+- (long long)6@?0@8;
+- (_Bool)uration;
+- (double)¬;
+- (id)iffCtcSg;
+- (_Bool);
+- (struct CGAffineTransform);
+- (_Bool)0;
 - (void);
-- (double)
-× ;
-- (id)yViews;
-- (void)n:(CDUnknownBlockType)arg1;
-- (_Bool)e;
-- (_Bool)buttonPressResult=%@;
-- (_Bool)Item=TopRated;
-- (id);
-- (void)ØR71;
-- (void)ignment;
+- (void);
 - (_Bool);
-- (_Bool)?Ò;
-- (double);
-- (struct CGAffineTransform);
-- (long long)4ýiþÍ4°üiþÍ4`ûiþ%Í4ûiþÅÌ4ûiþÍÌ4Lûiþ¥Ì4LûiþõÌ4äûiþÌ4àûiþÌ4ÐûiþÍÌ4`üiþÍ4°ûiþÕÌ4dûiþ;
-- (void)Bx;
-- (long long)â];
-- (_Bool);
-- (id)·ÿ®;
-- (double)àþ;
-- (void);
+- (_Bool)ion;
+- (void)à[;
+- (_Bool)R)ÒÂ[;
+- (id)¨«\;
+- (double);
+- (double)º®Ó,n];
+- (void)àþ¬¹Ò$È];
+- (long long)Ø^;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

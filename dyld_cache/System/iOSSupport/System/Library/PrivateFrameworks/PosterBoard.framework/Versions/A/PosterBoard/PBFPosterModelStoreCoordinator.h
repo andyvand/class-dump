@@ -73,25 +73,27 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)UUID"@"NSError">32;
-- (id)rectoryURL;
-- (void)ized,V_finalized;
-- (id)ng %s due to error %s;
-- (void)ster bundle ID migration conflict:multiple extensions claim old bundle ID %@ /* Error: Ran out of types for this method. */;
-- (id)object conformsToProtocol:@protocol(PBFDisplayContext)] /* Error: Ran out of types for this method. */;
-- (id)] serverIdentity]];
+- (void)¿Ð!Eù	°1â
+0@ù
+× ;
+- (id)HeroActivityIndicationTimer;
+- (id)r _reloadData];
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;

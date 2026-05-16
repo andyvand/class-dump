@@ -17,14 +17,14 @@
 + (id);
 - (id);
 - (id);
-- (void)ate",N,C;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)tStorageInspectorCrossCheckReport;
+- (id)= ? LIMIT 1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *columns; // @synthesize columns=_columns;

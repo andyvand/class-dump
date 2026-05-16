@@ -20,34 +20,33 @@
 }
 
 + (id);
-+ (id):withEvent: /* Error: Ran out of types for this method. */;
++ (id);
 - (float);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
 - (void);
 - (void);
-- (void))@`
-@`;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
-- (double);
 - (double);
 - (double);
-- (double);
+- (double);
+- (double);
+- (double);
 - (id);
 - (id);
 - (double);
 - (double);
+- (long long);
 - (void);
 - (double);
 - (void);
-- (long long)rdinator refreshDataContainerForBundleID:reason:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) ISVitalitySpecificSettings *activityViewSettings; // @synthesize activityViewSettings=_activityViewSettings;

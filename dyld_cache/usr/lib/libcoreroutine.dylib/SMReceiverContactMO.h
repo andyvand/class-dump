@@ -13,8 +13,8 @@
 }
 
 + (id);
-+ (id);
-+ (id)° ;
++ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) long long firstDetailViewSessionState; // @dynamic firstDetailViewSessionState;

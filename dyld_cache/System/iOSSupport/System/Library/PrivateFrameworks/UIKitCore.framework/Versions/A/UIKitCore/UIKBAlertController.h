@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     id <UIKBAlertControllerDelegate> _kbDelegate;
 }
 
-- (void)pProtocolVersion;
-- (id)%;
-- (void)hÎµþÑþ3dÎµþ¥Ñþ3°gþ½Ñþ3XÎµþ;
+- (void);
+- (id);
+- (void)dgÿs>Ö qn;
 
 // Remaining properties
 @property(nonatomic) id <UIKBAlertControllerDelegate> kbDelegate; // @synthesize kbDelegate=_kbDelegate;

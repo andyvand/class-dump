@@ -11,10 +11,10 @@
     MISSING_TYPE *paperkitAttachments;
 }
 
-- (_Bool);
-- (void);
 - (id);
-- (id);
+- (_Bool);
+- (void);
+- (id)ÿEbàfÿ]bßúÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *attachments;

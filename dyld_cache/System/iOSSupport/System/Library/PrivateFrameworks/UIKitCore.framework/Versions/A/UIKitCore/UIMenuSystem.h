@@ -12,21 +12,20 @@
     _Bool _building;
 }
 
-+ (id)Whitelist;
 + (id);
-- (void)erredUnreadCountRefresh;
-- (void)ringSettingsMessage. Success = (%@), error = (%@).;
-- (void)lds called on object %@ %@;
-- (id)m.apple.private.Messages.IMMessagesToTrack;
-- (id)vcalendar;
-- (_Bool);
-- (void);
++ (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)!l@ùÁ°1¢!0@ù
-× ;
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isBuilding) _Bool _building; // @synthesize _building;

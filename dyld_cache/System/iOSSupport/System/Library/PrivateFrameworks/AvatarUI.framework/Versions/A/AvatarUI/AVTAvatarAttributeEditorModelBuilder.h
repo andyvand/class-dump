@@ -32,7 +32,7 @@
 + (id);
 + (unsigned long long);
 + (id);
-+ (void)C;
++ (void);
 
 @end
 

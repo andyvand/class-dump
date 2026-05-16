@@ -21,26 +21,26 @@
 + (id);
 + (id);
 + (id);
-+ (id)}9yACyACyÝ7yï7yACy~AGG_}ACyACy7yALyACy9yË9y7yÏ7yAdQyALyACyASyADG±7y£7SgGG_ACy67AYGN7tGGGGG_ª9Qo_ò7y´7GG_A1_tGGAGGAGGtGGAGGAGGG_Qo_t;
-+ (id)rdinator;
-+ (id);
++ (id)3yS2SG;
++ (id)troller;
++ (id)N;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
-- (id)exPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)tionView:previewForHighlightingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;

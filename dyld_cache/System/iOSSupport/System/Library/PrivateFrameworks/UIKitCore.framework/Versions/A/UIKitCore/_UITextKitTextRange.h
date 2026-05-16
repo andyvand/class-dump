@@ -18,26 +18,28 @@
 }
 
 + (id);
-+ (id)o download;
 + (id);
 + (id);
-+ (id)m;
++ (id);
++ (id)Ùa;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (struct _NSRange);
 - (id);
+- (struct _NSRange);
+- (void)!ðFùYÐ1Â0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (_Bool)t"16@?<v@?@"NSArray"@"BKSAnimationFenceHandle"q>24;
+- (id)Scale;
+- (id)_bestViewControllerForView;
+- (_Bool)è	;
+- (id)IdentifierProvider:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ilingConstraint;
-- (id)ontentHeight:focusedView:focusedViewType: /* Error: Ran out of types for this method. */;
-- (void)prominentlyShowsDetailString;
-- (void)rocessViewAnimatorDelegate;
-- (_Bool)ØØ<ÚÚ;
-- (id);
-- (id)er(const UIRectCorner);
-- (void)IButtonStatefulContent;
-- (id)S;
+- (void)eReaderConfigurationC;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UITextKitTextPosition *end; // @synthesize end=_end;

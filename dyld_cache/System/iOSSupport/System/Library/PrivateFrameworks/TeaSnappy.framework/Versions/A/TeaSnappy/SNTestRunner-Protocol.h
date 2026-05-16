@@ -5,6 +5,5 @@
 //
 
 @protocol SNTestRunner
-- (_Bool);
 @end
 

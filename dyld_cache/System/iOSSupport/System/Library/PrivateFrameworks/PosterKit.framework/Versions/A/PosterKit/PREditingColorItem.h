@@ -33,14 +33,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (_Bool);
+- (id);
 - (void);
+- (void)ññ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PRPosterColor *baseColor;

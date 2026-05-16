@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)rviceName;
+- (void)orySettingsMessageDispatcherStartSendingMessageEvent;
 
 // Remaining properties
 @property(retain) HMSoftwareUpdateDocumentationAsset *asset; // @synthesize asset=_asset;

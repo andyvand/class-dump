@@ -19,16 +19,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)haredBagConfig;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)xyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (id)@"UIContentUnavailableView",&,N,V_errorView;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;

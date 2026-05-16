@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol CKEmbeddedRichLinkRepresentable
-- (NSString *)ct;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *entryItemUUID;

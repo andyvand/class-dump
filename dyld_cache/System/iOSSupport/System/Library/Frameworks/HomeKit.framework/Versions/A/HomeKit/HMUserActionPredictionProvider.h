@@ -12,7 +12,8 @@
     struct os_unfair_lock_s _lock;
     int _firstUnlockToken;
     NSMapTable *_subscribers;
-    _Bool _shouldRefetchFromBackend;
+    int _predictionGenerationCounterToken;
+    unsigned long long _lastSeenPredictionGenerationCounter;
     NSObject<OS_dispatch_queue> *_workQueue;
     HMFMessageDispatcher *_messageDispatcher;
     NSUUID *_uuid;
@@ -23,7 +24,7 @@
     id <HMDarwinNotificationProvider> _darwinNotificationProvider;
 }
 
-+ (id)yInfoDataProvider",&,N,V_accessoryInfoDataProvider;
++ (id)e.user.settings.;
 - (void);
 - (void);
 - (id);
@@ -34,14 +35,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)gManager:destinationControllerWithIdentifier: /* Error: Ran out of types for this method. */;
-- (id)to set access code for user:%@. Could not find modification response objects in message response. /* Error: Ran out of types for this method. */;
-- (void)alityMessage;
-- (id)!Õÿ*ó¡¶;
+- (void)MUserListeningHistoryUpdateControl;
+- (id)blic}@Starting stream with session UUID %{public,uuid_t}.16P and preferences:%@ /* Error: Ran out of types for this method. */;
+- (id)ataFirmwareVersionKey;
 
 // Remaining properties
 @property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider=_darwinNotificationProvider;

@@ -21,8 +21,8 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)onalInformation;
 
 @end
 

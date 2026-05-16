@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)26AMSUIDynamicViewControllerCSDy¦3ypGg±NËýÿ_So6UIViewCXcIegnnnr_;
+- (long long)plement contentViewWithDictionary;
+- (void)Ç;
 @end
 

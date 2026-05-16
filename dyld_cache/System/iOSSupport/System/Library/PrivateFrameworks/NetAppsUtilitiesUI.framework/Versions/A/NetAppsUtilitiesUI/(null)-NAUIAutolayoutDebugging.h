@@ -8,10 +8,10 @@
 
 @interface (null) (NAUIAutolayoutDebugging)
 + (void);
-+ (void);
 + (void);
 + (void);
-+ (void)@;
++ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -21,14 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)e;
+- (void);
 - (void);
 - (id);
 - (id);

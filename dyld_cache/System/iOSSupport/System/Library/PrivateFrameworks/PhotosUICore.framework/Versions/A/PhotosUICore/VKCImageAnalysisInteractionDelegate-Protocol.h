@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class VKCImageAnalysisInteraction;
+
 @protocol VKCImageAnalysisInteractionDelegate
+
+@optional
+- (_Bool)idth:(VKCImageAnalysisInteraction *)arg1 updateSubviewFrames:(struct CGPoint)arg2;
 @end
 

@@ -28,13 +28,13 @@
 - (double);
 - (void);
 - (_Bool);
+- (void);
+- (double);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void)g"24;
-- (double)son"8;
-- (void)DåÿÏ1öoA;
+- (void)ewControllerHomePodRoomChangePromptMessage;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

@@ -12,14 +12,14 @@
     double _numericValue;
 }
 
-+ (id)dMyLocateObjCWrapper;
++ (id);
 - (id);
-- (id)C24@28@?36;
-- (double)�(;
+- (id);
+- (double);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ngualSetForInputModeIdentifier:(id)arg1;
+- (id)s;
 
 // Remaining properties
 @property(readonly, nonatomic) double numericValue; // @synthesize numericValue=_numericValue;

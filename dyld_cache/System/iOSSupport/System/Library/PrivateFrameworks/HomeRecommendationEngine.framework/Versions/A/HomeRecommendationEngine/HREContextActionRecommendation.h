@@ -35,12 +35,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *_actions; // @synthesize _actions=__actions;

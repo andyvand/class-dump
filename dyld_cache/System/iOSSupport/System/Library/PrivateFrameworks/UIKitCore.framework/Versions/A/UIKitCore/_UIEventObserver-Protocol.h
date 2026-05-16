@@ -9,6 +9,6 @@
 @protocol _UIEventObserver
 
 @optional
-- (NSArray *)nitions with the same identifier must have the same _isPrivate value.;
+- (NSArray *);
 @end
 

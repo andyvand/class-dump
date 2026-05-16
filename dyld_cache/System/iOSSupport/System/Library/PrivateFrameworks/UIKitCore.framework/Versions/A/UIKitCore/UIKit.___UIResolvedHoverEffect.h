@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)ezierPath",C,N,V_path;
+- (id)ü;
+- (void)Ó_þFÊl;
 
 @end
 

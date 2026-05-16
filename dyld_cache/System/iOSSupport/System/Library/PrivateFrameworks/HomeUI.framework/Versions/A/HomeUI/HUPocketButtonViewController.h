@@ -14,11 +14,11 @@
 + (struct CGSize);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)ckerDelegate>",W,N,V_delegate;
+- (id);
+- (void)ceDetailsPairingModeItem_Alert_Copy_Button_Title;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;

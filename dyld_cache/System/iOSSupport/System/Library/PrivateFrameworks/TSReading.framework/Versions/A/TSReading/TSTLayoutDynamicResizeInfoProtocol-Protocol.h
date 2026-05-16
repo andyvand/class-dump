@@ -5,8 +5,5 @@
 //
 
 @protocol TSTLayoutDynamicResizeInfoProtocol
-- (id);
-- (_Bool)aFromVideoFormatDescription:forAtomType: /* Error: Ran out of types for this method. */;
-- (void)øpä;
 @end
 

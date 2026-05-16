@@ -5,7 +5,5 @@
 //
 
 @protocol PTSettingsKeyObserver
-- (void)v!Cù1Ëð1¢!0@ù
-× ;
 @end
 

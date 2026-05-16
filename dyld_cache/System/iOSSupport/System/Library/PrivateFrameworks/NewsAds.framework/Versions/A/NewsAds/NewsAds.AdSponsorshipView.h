@@ -11,10 +11,10 @@
     MISSING_TYPE *metricsView;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)anvasControllerDelegate>";
-- (id);
+- (void);
 
 @end
 

@@ -24,19 +24,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)IDSetsForRemerge;
-- (void)e;
-- (void)SatelliteMessageCount;
 - (void);
-- (void)%@;
-- (void)lay to enroll them into SMS Relay;
-- (void);
-- (void)
-0º;
-- (id)ayMode;
-- (id)ËÖØJ^;
-- (void)/ëÞ;
-- (id)3d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)£;
+- (id)tributeState;
+- (void)];
+- (void)$ÿT=H;
 
 // Remaining properties
 @property(nonatomic) UIView *container; // @synthesize container=_container;

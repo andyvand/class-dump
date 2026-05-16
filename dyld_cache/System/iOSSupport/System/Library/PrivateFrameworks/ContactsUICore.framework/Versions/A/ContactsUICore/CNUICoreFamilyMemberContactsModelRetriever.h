@@ -16,7 +16,7 @@
 }
 
 + (long long);
-+ (id)Æ;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)è/GG_Qo_gö/yASGGAHyASSgGG_Qo__SbQo_*ø/ySbGGAEGö/GtGGäö/yAUGGtGGAEGAMG;
+- (id);
+- (void)contactImage;
+- (id)kupKey;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNScheduler> backgroundOrImmediateScheduler;

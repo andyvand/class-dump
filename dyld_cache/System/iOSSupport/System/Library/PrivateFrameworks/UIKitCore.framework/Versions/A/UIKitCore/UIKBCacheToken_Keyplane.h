@@ -26,21 +26,22 @@ __attribute__((visibility("hidden")))
     int _appSpecificBackgroundContrastSetting;
     int _appSpecificDarkenSystemColorsSetting;
     int _appSpecificEnhanceTextLegibilitySetting;
+    int _appSpecificReduceHighlightingEffectsSetting;
 }
 
-+ (id);
++ (id)!ð@ù±c°1Â0@ù
+× ;
+- (void);
+- (CDStruct_227bb23d);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void)1¢!0@ù
+- (void);
+- (struct CGSize)!@ùÑc°1Â0@ù
 × ;
-- (void)ápÐ!ÈEùÑÃÐ1¢!0@ù
-× ;
-- (CDStruct_227bb23d)rinkToFit"B"avoidsUnsafeArea"B};
-- (struct CGSize)egate:activated: /* Error: Ran out of types for this method. */;
-- (void)iers:(struct CGSize)arg1 error: /* Error: Ran out of types for this method. */;
-- (void);
+- (void){CGPoint=dd}32{CGSize=dd}48@64i72;
+- (id);
+- (void)à;èÿè<Ù83g;
 
 @end
 

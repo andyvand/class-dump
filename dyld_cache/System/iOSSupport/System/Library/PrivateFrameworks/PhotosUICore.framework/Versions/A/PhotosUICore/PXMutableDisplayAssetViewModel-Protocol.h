@@ -8,10 +8,9 @@
 @protocol PXDisplayAsset;
 
 @protocol PXMutableDisplayAssetViewModel
-- (id <PXDisplayAsset>)raction;
-- (void)PXCuratedLibraryLoadingCountsDescription;
-- (long long)nsionPercentageAnimator;
-- (void);
+- (void)ass;
+- (id <PXDisplayAsset>)Qo_;
+- (void)áÇx;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTextSelection;

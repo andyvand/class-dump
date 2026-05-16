@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

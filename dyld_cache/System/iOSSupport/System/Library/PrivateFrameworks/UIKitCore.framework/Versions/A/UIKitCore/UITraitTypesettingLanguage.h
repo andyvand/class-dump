@@ -10,9 +10,9 @@
 
 + (_Bool);
 + (_Bool);
-+ (id)Scroll: /* Error: Ran out of types for this method. */;
-+ (id)_Xx;
-+ (id)8÷Hÿ;
++ (id);
++ (id)viewTransformOrientation;
++ (id)©­Íòg;
 
 @end
 

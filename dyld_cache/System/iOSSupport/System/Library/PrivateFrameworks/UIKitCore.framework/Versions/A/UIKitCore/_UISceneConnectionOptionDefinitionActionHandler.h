@@ -8,9 +8,9 @@
 {
 }
 
-- (id)er:(id)arg1;
 - (id);
-- (id)ntroller;
+- (id);
+- (id)Ô ;
 
 @end
 

@@ -14,6 +14,7 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     NSString *_message;
     AMSUIWebClientContext *_context;
     struct CGSize _windowSize;
@@ -28,16 +29,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (struct CGSize)0:8@"UICollectionView"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionAnimating>"32 /* Error: Ran out of types for this method. */;
 - (id);
-- (id)kScreenEnabled;
+- (id);
+- (id);
+- (void)youtMarginsFromSafeArea: /* Error: Ran out of types for this method. */;
+- (id)	
+;
+- (long long)Ø/3yAAy÷1yAAy73yADG½1y¿1GG_SSQo_AEG_Qo__Qo__Qo__Qo_tGG\1GAUGAUGAUGý;
+- (id)ateFrameworks/AppleMediaServicesUI.framework;
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) _Bool animateFadeIn; // @synthesize animateFadeIn=_animateFadeIn;
@@ -59,6 +62,7 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

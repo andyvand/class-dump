@@ -24,10 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (id)q16;
-- (void)d;
-- (void)ernateDateEnabled;
-- (void)ic}@;
+- (id);
+- (void);
+- (void);
+- (void)dyForSnapshotting:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool needsScrollToSelectedItem; // @synthesize needsScrollToSelectedItem=_needsScrollToSelectedItem;

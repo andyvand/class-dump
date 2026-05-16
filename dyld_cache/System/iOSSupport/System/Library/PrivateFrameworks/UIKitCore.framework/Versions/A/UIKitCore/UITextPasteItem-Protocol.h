@@ -7,13 +7,7 @@
 @class NSDictionary, NSItemProvider;
 
 @protocol UITextPasteItem
-- (void)nces must be a CFArray;
-- (void)g map;
-- (void)ULL;
-- (void)optionsDict is NULL;
-- (void)Valid;
-- (NSDictionary *)nge: /* Error: Ran out of types for this method. */;
-- (NSItemProvider *)efficient;
+- (NSDictionary *)ControllerAdaptiveColumnVisibility);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *defaultAttributes;

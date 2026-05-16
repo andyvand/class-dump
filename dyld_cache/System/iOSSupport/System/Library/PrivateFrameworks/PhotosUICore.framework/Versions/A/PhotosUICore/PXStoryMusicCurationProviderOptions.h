@@ -15,12 +15,13 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
-- (void);
+- (id)0@ù
+× ;
+- (void)gDelayTimer;
 - (void);
-- (id)Ä0!ÿ]Â/´0!ÿmÂ/d)lÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *categories; // @synthesize categories=_categories;

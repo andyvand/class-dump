@@ -7,7 +7,7 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
-- (UITraitCollection *);
+- (UITraitCollection *)`$(D,;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

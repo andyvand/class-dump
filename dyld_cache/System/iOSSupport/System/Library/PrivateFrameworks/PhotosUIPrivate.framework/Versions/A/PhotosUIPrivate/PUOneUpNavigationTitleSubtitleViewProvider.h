@@ -24,8 +24,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)impl;
 
 // Remaining properties
 @property(nonatomic) __weak id <PUOneUpNavigationTitleSubtitleViewDelegate> _viewDelegate; // @synthesize _viewDelegate;

@@ -13,11 +13,11 @@
     MPModelResponse *_modelResponse;
 }
 
-+ (id)NumberOfControllersConnected;
++ (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)lityOfService;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelResponse *modelResponse; // @synthesize modelResponse=_modelResponse;

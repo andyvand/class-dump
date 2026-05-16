@@ -15,12 +15,12 @@
 
 - (id);
 - (void);
-- (void)-;
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)4y^z9yÇ^z9_G°Sz9G;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *deletedAliases; // @synthesize deletedAliases=_deletedAliases;

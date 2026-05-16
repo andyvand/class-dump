@@ -7,8 +7,7 @@
 @protocol AVTAvatarDisplayingControllerDelegate;
 
 @protocol AVTAvatarDisplayingController
-- (id);
-- (id <AVTAvatarDisplayingControllerDelegate>)ill automatically try again at the specified time (e.g. 06:12:34). /* Error: Ran out of types for this method. */;
+- (void)io;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTAvatarDisplayingControllerDelegate> delegate;

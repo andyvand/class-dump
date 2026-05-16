@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 
 - (CDUnknownBlockType);
 - (void);
-- (void)L;
+- (void);
 - (id);
-- (void)andleQuickSwitchInitiateRequest;
-- (id)s transfer %@ was already accepted, ignoring;
-- (void);
+- (void);
 - (id);
+- (void)^;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITraitEnvironmentInternal> parentTraitEnvironment; // @synthesize parentTraitEnvironment=_parentTraitEnvironment;

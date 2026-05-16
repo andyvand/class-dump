@@ -19,18 +19,18 @@
 - (_Bool);
 - (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool)@;
-- (void)@;
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsRecovered;

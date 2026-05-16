@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void)ata:(id)arg1 keyImageData:error: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

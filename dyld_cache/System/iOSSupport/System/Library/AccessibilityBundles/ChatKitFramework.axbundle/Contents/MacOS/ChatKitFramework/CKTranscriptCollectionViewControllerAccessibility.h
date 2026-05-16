@@ -11,9 +11,9 @@
     _Bool _axBuddyWasTyping;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (_Bool);
 - (_Bool);

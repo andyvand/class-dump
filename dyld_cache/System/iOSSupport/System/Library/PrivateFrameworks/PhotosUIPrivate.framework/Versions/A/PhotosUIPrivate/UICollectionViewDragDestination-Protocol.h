@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewDropProposal;
-
 @protocol UICollectionViewDragDestination
 
 @optional
-- (UICollectionViewDropProposal *)aTÐ!<Cù±V°1b0@ù
+- (void)ÁØ!@BùÑ#Ð1â
+0@ù
 × ;
-- (void)
-× ;
-- (_Bool)tionPerformer"16;
 @end
 

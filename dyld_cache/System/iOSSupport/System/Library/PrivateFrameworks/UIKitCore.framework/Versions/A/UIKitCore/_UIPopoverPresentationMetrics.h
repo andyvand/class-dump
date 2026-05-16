@@ -12,19 +12,17 @@
     double _cornerRadius;
 }
 
-+ (id)Çð1¢!0@ù
-× ;
++ (id)gari;
 - (_Bool);
-- (void);
-- (void)EditorialArtworkCatalogBlock;
-- (double);
+- (struct CGSize);
 - (_Bool);
-- (_Bool);
-- (void);
-- (struct CGSize)!s°!´GùÑÆ°1¢!0@ù
-× ;
-- (struct CGSize)r;
-- (void)þÈ^M[;
+- (struct CGSize)× ;
+- (_Bool)hange;
+- (void)configureForDescriptor:(_Bool)arg1;
+- (void)willComplete;
+- (void)s changing [%@] to {%0.f, %0.f} [previous size:(_Bool)arg1 {%0.f, %0.f}];
+- (double)LeftWidth;
+- (void)ndex. View:(double)arg1 %@; view attributes:%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

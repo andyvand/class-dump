@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)KitClientBase";
-- (void)lisher;
 - (void);
-- (void)WithError:(id)arg1;
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

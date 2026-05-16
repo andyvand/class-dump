@@ -21,11 +21,11 @@
 - (void);
 - (void);
 - (id);
-- (unsigned int);
-- (void);
-- (void);
 - (void);
 - (id);
+- (unsigned int);
+- (void)ng file at URL:(id)arg1 %{public}@;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *folderSource; // @synthesize folderSource=_folderSource;

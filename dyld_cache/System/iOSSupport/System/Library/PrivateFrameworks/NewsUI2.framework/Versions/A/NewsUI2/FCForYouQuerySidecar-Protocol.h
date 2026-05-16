@@ -5,6 +5,5 @@
 //
 
 @protocol FCForYouQuerySidecar
-- (_Bool)$;
 @end
 

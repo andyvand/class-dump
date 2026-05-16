@@ -31,27 +31,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
+- (long long);
 - (long long);
 - (void);
 - (void);
+- (id);
 - (unsigned long long);
 - (void);
-- (id)ysicalButtonReleased;
+- (id)itNavigationBar;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

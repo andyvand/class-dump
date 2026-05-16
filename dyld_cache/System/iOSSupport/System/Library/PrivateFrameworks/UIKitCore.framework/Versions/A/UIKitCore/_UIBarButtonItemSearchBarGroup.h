@@ -20,29 +20,29 @@ __attribute__((visibility("hidden")))
     UIBarButtonItem *_searchIconItem;
 }
 
-- (_Bool)eModeCommand;
-- (id)ator was missing mapping for MPModelPropertyPlaylistDownloadedTrackCount;
+- (id);
 - (void);
-- (double);
-- (id);
-- (void);
-- (_Bool)Æð1¢!0@ù
+- (void);
+- (id);
+- (void);
+- (void)°1Â0@ù
 × ;
 - (void);
-- (void)
+- (_Bool)1Â0@ù
 × ;
-- (_Bool)8FùñÌÐ1¢!0@ù
+- (_Bool)¡
+°!Eù1gð1Â0@ù
 × ;
-- (_Bool)@ù
-× ;
-- (void)[4@"NSDictionary"];
-- (id)tsTouchInput;
-- (id)readingSuggestionInfos;
-- (_Bool)cessPreflight(CFStringRef, CFDictionaryRef);
-- (void)lags != 0 && ![allAlternateModifierFlags containsIndex:alternateModifierFlags] /* Error: Ran out of types for this method. */;
-- (void)ek of year components (%@) must include [.weekOfYear, .yearForWeekOfYear];
-- (void)º}8ØÿÿÿL&®3;
-- (void)`;
+- (void)@"UITableViewCellReorderControl";
+- (id);
+- (id)leKey: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithEdge: /* Error: Ran out of types for this method. */;
+- (void)tionForTab:(_Bool)arg1;
+- (_Bool)Î#;
+- (double));
+- (void)AndComposerGetterP;
+- (void);
+- (_Bool)¤uÿ5VX;
 
 // Remaining properties
 @property(nonatomic, setter=_setSearchBarShouldBeFlexible:) _Bool _searchBarShouldBeFlexible;

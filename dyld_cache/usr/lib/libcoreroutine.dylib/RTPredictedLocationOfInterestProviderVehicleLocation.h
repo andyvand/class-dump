@@ -12,18 +12,18 @@
     RTDistanceCalculator *_distanceCalculator;
 }
 
-- (_Bool)SigningId:(id)arg1 inBaseDirectory: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)AtIndex: /* Error: Ran out of types for this method. */;
-- (id)chDate;
-- (void)the values are less than 10 mins each.;
-- (void)ted exit dates, latency, %.3f;
-- (void)INInteraction. Error %s;
-- (id)%@;
-- (_Bool)%{public}@;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)rUponStateTransition;
+- (void)upLocationNull,%{public}d,isSetupLocationOld,%{public}d,isSetupLocationValid,%{public}d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

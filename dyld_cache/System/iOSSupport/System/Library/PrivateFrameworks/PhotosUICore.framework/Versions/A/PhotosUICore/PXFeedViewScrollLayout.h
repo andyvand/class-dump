@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)n35mm;
-- (void)sharing;
-- (struct UIEdgeInsets)ÞE6;
-- (void)ÿ@Hºp6;
-- (id)Hï7;
+- (void);
+- (void);
+- (struct UIEdgeInsets)CreateCollectionListActionC;
+- (void)on;
+- (void)þ;
+- (id)¸µÿp@À6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

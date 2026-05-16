@@ -8,15 +8,14 @@
 {
 }
 
-- (unsigned long long)SendEnabled;
-- (id);
-- (id)$;
-- (id)A;
-- (id)1¢!0@ù
-× ;
-- (long long)gnedIndexes:thumb: /* Error: Ran out of types for this method. */;
-- (id)8;
-- (long long)t=%lu;
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)ChangeViewportSize: /* Error: Ran out of types for this method. */;
+- (id):(id)arg1;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long statusBarStyle;

@@ -11,15 +11,14 @@
     struct CGPoint _location;
 }
 
-- (void)vicesForApproval:(long long)arg1;
-- (long long)essage and we are only reflecting it, setting shouldForceToSMS on chat %@ to NO;
-- (_Bool)sages3;
 - (void);
 - (long long);
-- (void)0@ù
-× ;
-- (struct CGPoint)wDidEndDragging:willDecelerate: /* Error: Ran out of types for this method. */;
-- (id)",?,R,N;
+- (_Bool);
+- (void);
+- (long long);
+- (id);
+- (struct CGPoint);
+- (void)w	;
 
 // Remaining properties
 @property(nonatomic) long long _pointerType; // @synthesize _pointerType=__pointerType;

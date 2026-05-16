@@ -22,35 +22,36 @@
     id _delegate;
 }
 
-+ (Class)<;
++ (Class);
 + (double);
-- (_Bool)4@0:(id)arg1 8@16@24@32@40@48^@56;
-- (void)MTimer";
-- (_Bool)rray"148@"NSDictionary"156@"NSString"164@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
-- (_Bool)Played: /* Error: Ran out of types for this method. */;
-- (void)WithID:(_Bool)arg1;
-- (void)fBuddy:(_Bool)arg1;
-- (void)pTrustedSender;
-- (void)isFromMe;
-- (void)ken;
-- (void)ices:(long long)arg1 finishedWithResult:(long long)arg2 limit: /* Error: Ran out of types for this method. */;
-- (int)ding;
-- (void);
-- (void)messages to delete/fetch from CloudKit;
-- (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (void)ImageCIImageRenderer"16@0:(id)arg1 8;
-- (_Bool)rackingAnimationsCurrentlyEnabled;
 - (_Bool);
-- (id)ntrastAny;
-- (void)tion"24;
-- (id)µ\;
-- (void)];
-- (void)h`;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)cð1Â0@ù
+× ;
+- (void)b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2"hideSearchResultsDivider"b1};
+- (id)@"_UIContentClippingVisualEffectView",&,N,S_setLeadingBackgroundView:(struct CGRect)arg1 ,V__leadingBackgroundView;
+- (id)L6;
+- (void)pëÿ}ÜPäd;
+- (id)sþ;
+- (void)ä|h;
+- (void)¨`ÑBÁi;
+- (_Bool)¬ðk;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDebugIssueReporting
-- (void);
 @end
 

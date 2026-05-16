@@ -7,6 +7,7 @@
 @protocol UNUserNotificationCenterDelegate
 
 @optional
-- (void)iorPodcastsTransportableExtension;
+- (void)ÐúþM.bPÆ­þ;
+- (void);
 @end
 

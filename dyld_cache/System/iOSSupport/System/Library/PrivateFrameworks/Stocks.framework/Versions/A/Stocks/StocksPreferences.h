@@ -21,17 +21,17 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool)s;
-- (id);
+- (_Bool);
+- (long long);
 - (void);
-- (long long)Object:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isChangeColorSwapped) _Bool changeColorSwapped; // @synthesize changeColorSwapped=_changeColorSwapped;

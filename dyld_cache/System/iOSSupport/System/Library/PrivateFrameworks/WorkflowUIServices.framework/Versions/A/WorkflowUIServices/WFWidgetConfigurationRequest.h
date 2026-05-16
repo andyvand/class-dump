@@ -56,15 +56,15 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (long long);
-- (id)hasTransparentBackground;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

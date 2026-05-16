@@ -18,8 +18,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)T@"NSArray",R,N,V_AMPMSymbols;
 
 @end
 

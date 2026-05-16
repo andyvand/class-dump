@@ -5,16 +5,15 @@
 //
 
 @class NSError, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLDrawable, MTLLogContainer;
+@protocol MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer;
 
 @protocol MTLCommandBuffer
-- (void)ate: /* Error: Ran out of types for this method. */;
-- (void)onHandler:(id <MTLDrawable>)arg1;
-- (void)es;
-- (id <MTLCommandQueue>)_ÿÿ;
+- (id <MTLComputeCommandEncoder>)dA,D;
+- (void)escription when no precipitation is expected;
+- (id <MTLCommandQueue>)6ÿÿ;
+- (id <MTLLogContainer>)erMapAnnotationStrokeLayer;
 - (void);
-- (void)particleRenderer;
-- (void);
+- (void)ÿ;
 
 // Remaining properties
 @property(readonly) double GPUEndTime;

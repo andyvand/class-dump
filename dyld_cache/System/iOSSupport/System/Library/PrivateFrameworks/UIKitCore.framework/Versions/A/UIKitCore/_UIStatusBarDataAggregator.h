@@ -18,36 +18,37 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_coalescedTimers;
 }
 
-+ (void)×k;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)\;
-- (id);
++ (void)%Õ¼Ln;
 - (id);
 - (void);
 - (void);
-- (void)eateIfRequired:(id)arg1;
-- (id)edDevice;
+- (CDUnknownBlockType);
+- (Class);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)geWithStateFallbacksForToken:(id)arg1;
-- (void)teRTIAllowedAndNotify:(Class)arg1 withReason: /* Error: Ran out of types for this method. */;
-- (void)Presses:(id)arg1 action: /* Error: Ran out of types for this method. */;
-- (void)_endLiftWithoutDragging;
-- (void)hedBackgroundOpacity;
-- (id)View;
-- (Class)genceSystemViewHostLayerDelegate;
-- (id)Ð~<;
-- (void)the localDragSessions;
-- (void)s;
-- (CDUnknownBlockType)tableItem.m;
 - (id);
+- (void);
+- (void)Ð!Eù`ð1Â0@ù
+× ;
+- (void)sponder:(CDUnknownBlockType)arg1;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)InputModesPreference:(id)arg1;
+- (void)ForDate:(id)arg1;
+- (void)rrangementItemsForRTL:(id)arg1;
+- (void)isBackgroundSuppressed;
+- (id)h:toView:bounds: /* Error: Ran out of types for this method. */;
+- (id)PointerShape",C,N,V_shape;
+- (id)sentationControllerClientConfiguration;
+- (id)ü¬;
+- (void)ä;
+- (void);
+- (void)et. Skipping delete of restoration archive for session %@ even though app has previously crashed during state restoration;
+- (void)rd Camera;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *coalescedEntryKeys;

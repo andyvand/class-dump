@@ -20,25 +20,24 @@ __attribute__((visibility("hidden")))
     UIKBUndoStyling *_style;
 }
 
-- (void)mp;
-- (id)ameForHandleURI: /* Error: Ran out of types for this method. */;
-- (id)lastDoorMessage: /* Error: Ran out of types for this method. */;
-- (void)r;
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (void)!¤Bù±Á1¢!0@ù
-× ;
 - (void);
-- (id)tComponentPhaseValue"16;
-- (id)øÈ=LÊ;
-- (id)s:Unarchiving building class list, replaced class in list for key %@ from requested class %@, to class %@ /* Error: Ran out of types for this method. */;
-- (void)MetricsFont;
-- (id)ÌOÑþÉØd;
-- (void)jl;
+- (id)sForView: /* Error: Ran out of types for this method. */;
+- (void)fig",R,N;
+- (id)·`·;
+- (void)Sû;
+- (void)Ìg;
+- (id)ØÎi;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;

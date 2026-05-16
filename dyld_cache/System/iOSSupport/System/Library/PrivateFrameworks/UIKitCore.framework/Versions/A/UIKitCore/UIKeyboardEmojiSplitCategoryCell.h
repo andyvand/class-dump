@@ -16,20 +16,19 @@ __attribute__((visibility("hidden")))
     UIView *_selectedCircle;
 }
 
-- (void)eAccountsWithServiceCapability:(_Bool)arg1;
-- (void)ountsFromIdentityServices;
-- (void)stripFZIDPrefix;
-- (id)irstOccurrence;
-- (id);
 - (void);
 - (void);
-- (id)anslator was missing mapping for MPModelPropertySongDownloadedDate;
-- (void)qÁð1¢!0@ù
-× ;
+- (void);
 - (id);
-- (id)on:oldTraitCollection: /* Error: Ran out of types for this method. */;
-- (id)d into section %ld, but there are only %ld sections after the update;
-- (void)èEÊþ]O;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)V_providedEdges;
+- (id)W,N,V_delegate;
+- (id)er an item in a UITabBarController sidebar while editing, but without an active transaction. Tab model:(long long)arg1 %@;
+- (id);
+- (void)¶";
 
 // Remaining properties
 @property(retain, nonatomic) UIView *selectedCircle; // @synthesize selectedCircle=_selectedCircle;

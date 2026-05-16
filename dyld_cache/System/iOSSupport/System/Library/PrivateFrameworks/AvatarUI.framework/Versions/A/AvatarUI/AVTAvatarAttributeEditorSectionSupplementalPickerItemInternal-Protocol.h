@@ -5,7 +5,6 @@
 //
 
 @protocol AVTAvatarAttributeEditorSectionSupplementalPickerItemInternal
-- (void (^)(AVTAvatarConfiguration *));
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater;

@@ -19,8 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ä¼<ö;
-- (id);
+- (id)1â
+0@ù
+× ;
+- (void)Resuming active session;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;

@@ -24,6 +24,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (double);
 + (double);
 + (struct CGSize);
@@ -34,9 +35,9 @@
 - (void);
 - (struct CGSize);
 - (struct UIEdgeInsets);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

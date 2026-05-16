@@ -5,6 +5,7 @@
 //
 
 @class NSString;
+@protocol WBSCloudTabItem;
 
 @interface WBSHistoryURLCompletionMatchData
 {
@@ -23,24 +24,28 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);;
+- (_Bool);
 - (id);
-- (id)%>;
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
-- (double);
+- (id);
+- (double);
 - (_Bool);
 - (long long);
 - (id);
 - (_Bool);
-- (void)!;
 - (id);
+- (void);
 
 // Remaining properties
+@property(readonly, nonatomic) id <WBSCloudTabItem> cloudTab;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"<WBSCloudTabItem>",?,R,N
+
 @property(readonly, copy, nonatomic) NSString *cloudTabDeviceName;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C,N

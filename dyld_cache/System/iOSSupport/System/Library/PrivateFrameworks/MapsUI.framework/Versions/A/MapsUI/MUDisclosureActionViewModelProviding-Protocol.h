@@ -7,7 +7,10 @@
 @class NSString, UIColor, UIImage;
 
 @protocol MUDisclosureActionViewModelProviding
-- (UIColor *);
+- (void)ÔAñ!àBù±AÐ1â
+0@ù
+× ;
+- (UIColor *): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock;

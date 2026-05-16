@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     DCSandboxExtension *_cachesDirectorySandboxExtension;
 }
 
-+ (_Bool)ð!Fù±«	1b0@ù
-× ;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appName; // @synthesize appName=_appName;

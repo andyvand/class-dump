@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (_Bool);
+- (id);
 - (void);
+- (_Bool);
 - (struct CGPoint);
 - (id);
-- (id);
-- (void)rView.m;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;

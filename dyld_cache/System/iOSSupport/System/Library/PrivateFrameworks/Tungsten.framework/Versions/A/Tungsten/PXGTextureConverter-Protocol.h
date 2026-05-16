@@ -8,8 +8,8 @@
 @protocol OS_dispatch_queue;
 
 @protocol PXGTextureConverter
-- (void)N;
-- (NSObject<OS_dispatch_queue> *);
+- (NSObject<OS_dispatch_queue> *)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool lowMemoryMode;

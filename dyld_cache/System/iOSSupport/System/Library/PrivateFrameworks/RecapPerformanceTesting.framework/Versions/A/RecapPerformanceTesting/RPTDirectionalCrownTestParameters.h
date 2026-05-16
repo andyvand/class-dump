@@ -31,11 +31,11 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
+- (long long);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
 
 // Remaining properties
 @property(nonatomic) _Bool adjustRotationDurationForRevolution; // @synthesize adjustRotationDurationForRevolution=_adjustRotationDurationForRevolution;

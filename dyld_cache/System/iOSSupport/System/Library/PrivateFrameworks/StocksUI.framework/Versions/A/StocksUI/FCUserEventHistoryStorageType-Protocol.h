@@ -8,6 +8,7 @@
 
 @protocol FCUserEventHistoryStorageType
 - (NSArray *);
+- (NSArray *)Ê;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *earliestSessionDate;

@@ -38,18 +38,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id)imageGenerator;
+- (void)À°;
+- (id)ú0G;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

@@ -9,7 +9,7 @@
 @protocol HUGridCellProtocol
 
 @optional
-- (void)isn't in the set of currently-selected date components (%@);
+- (void)mentModule;
 
 // Remaining properties
 @property(nonatomic, getter=areCellContentsHidden) _Bool cellContentsHidden;

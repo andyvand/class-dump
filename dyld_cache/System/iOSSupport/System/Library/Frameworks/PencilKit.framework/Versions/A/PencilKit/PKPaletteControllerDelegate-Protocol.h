@@ -5,6 +5,5 @@
 //
 
 @protocol PKPaletteControllerDelegate
-- (void);
 @end
 

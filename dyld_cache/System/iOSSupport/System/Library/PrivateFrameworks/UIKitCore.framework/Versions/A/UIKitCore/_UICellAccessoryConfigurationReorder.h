@@ -10,9 +10,9 @@
 {
 }
 
-+ (_Bool)êYm;
-- (long long)llerDetentResolutionContext;
-- (id)stashedDismissalPreview;
++ (_Bool)ward;
+- (id)alStrategy:] /* Error: Ran out of types for this method. */;
+- (long long)î;
 
 @end
 

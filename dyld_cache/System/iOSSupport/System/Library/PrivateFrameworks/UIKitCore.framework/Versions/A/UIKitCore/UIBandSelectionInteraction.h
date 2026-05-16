@@ -25,48 +25,53 @@
     CDUnknownBlockType __bandVisibilityHandler;
 }
 
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (CDUnknownBlockType)omColorAlpha;
+- (id);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (struct CGRect)t_process_response_put_chunk_keys;
-- (CDUnknownBlockType)u;
-- (id)rs"b1"number"b1"year"b1"show"{?="identifiers"b1"title"b1"showCreator"{?="identifiers"b1"name"b1"artwork"b1}}}"show"{?="identifiers"b1"title"b1"showCreator"{?="identifiers"b1"name"b1"artwork"b1}}};
-- (struct CGRect);
 - (void);
 - (CDUnknownBlockType);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool)ò;
-- (void)!\Fù1ÁÐ1¢!0@ù
+- (CDUnknownBlockType)YÐ1Â0@ù
+× ;
+- (void)á!¤DùÑ\ð1Â0@ù
+× ;
+- (long long)0@ù
+× ;
+- (_Bool)!@ùq_°1Â0@ù
 × ;
 - (void);
-- (void)amicItemBehavior";
-- (unsigned long long)sh_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (long long)fNecessary:unclampedOriginalTargetOffset:scrollView: /* Error: Ran out of types for this method. */;
-- (void)w;
-- (void)ependentBarStyle;
-- (long long)ttributesStartingFromItemAttributes:withCurrentDragLocation: /* Error: Ran out of types for this method. */;
-- (void)",R,N,V_dropPosition;
-- (void)EndRenamingHandler;
-- (_Bool)StatusBarIndicatorItemView;
-- (id)nBridgeController;
-- (id)å;
-- (void)Ì§p©ªh­è­;
-- (struct CGPoint);
-- (void)SPI not compatible;
-- (void)essClickInteractionDriverForceAccelerationMultiplier;
-- (void)þ;
-- (id)¹ i;
-- (void)JÚ7m;
-- (_Bool)m;
-- (void)Ko;
-- (_Bool)p;
+- (void)Ô ;
+- (void)1Â0@ù
+× ;
+- (void)nteractionDisabled"b1"implementsDrawRect"b1"implementsDidScroll"b1"implementsMouseTracking"b1"implementsIntrinsicContentSize"b1"hasBackgroundColor"b1"hasBackgroundColorSystemColorName"b1"hasInteractionTintColor"b1"hasOverrideTintColor"b1"isOpaque"b1"becomeFirstResponderWhenCapable"b1"isDeallocInitiated"b1"isInUIViewDealloc"b1"hasPreparedForWindowDealloc"b1"isFirstResponder"b1"isAncestorOfFirstResponder"b1"dontAutoresizeSubviews"b1"autoresizeMask"b6"patternBackground"b1"fixedBackgroundPattern"b1"dontAnimate"b1"superLayerIsView"b1"layerKitPatternDrawing"b1"multipleTouchEnabled"b1"exclusiveTouch"b1"hasViewController"b1"needsDidAppearOrDisappear"b1"deliversTouchesForGesturesToSuperview"b1"deliversPressesForGesturesToSuperview"b1"chargeEnabled"b1"skipsSubviewEnumeration"b1"needsDisplayOnBoundsChange"b1"hasTiledLayer"b1"hasContentSizeCategoryLimits"b1"traversalMark"b1"appearanceIsInvalid"b1"monitorsSubtree"b1"hostsAutolayoutEngine"b1"constraintsAreClean"b1"subviewLayoutConstraintsAreClean"b1"intrinsicContentSizeConstraintsAreClean"b1"strictDescendantNeedsDoubleUpdateConstraints"b1"strictDescendantNeedsDoubleUpdateConstraintsIsInvalid"b1"hasStoredLayoutEngineWidth"b1"determiningWidthForDoubleUpdateConstraints"b1"inSecondConstraintsPass"b1"potentiallyHasDanglyConstraints"b1"doesNotTranslateAutoresizingMaskIntoConstraints"b1"autolayoutIsClean"b1"autolayoutBoundsAreClean"b1"layoutFlushingDisabled"b1"layingOutFromConstraints"b1"wantsAutolayout"b1"subviewWantsAutolayout"b1"isApplyingValuesFromEngine"b1"autolayoutIsSendingSetBoundsWithNoChanges"b1"isResizingDueToParentResize"b1"isInLayoutSubviewsOrVCCallback"b1"isInUpdateProperties"b1"isInAnimatedLayout"b1"isSubviewUpdatingAutoresizingConstraints"b1"isUpdatingConstraints"b1"isReapplyingStillActiveBrokenConstraints"b1"isSuppressingUnsatisfiableConstraintsLoggingForNestedLayoutEngines"b1"isHostingUpdateConstraintsPassDuringLayout"b1"isRunningEngineLevelConstraintsPass"b1"isUpdatingLayoutEngineHostConstraints"b1"isExpectingToFlushPendingLayoutChangeNotifications"b1"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges"b1"systemLayoutFittingSizeNeedsUpdate"b1"systemLayoutFittingSizeNeedsUpdateInWholeSubtree"b1"isCalculatingSystemLayoutFittingSize"b1"suppressEncapsulationConstraints"b1"suppressAutoresizingMaskConstraintsUpdate"b1"isFetchingSizeForTAMIC_NOEngineHost"b1"internallyHiddenForReason"b2"stayHiddenAfterBeingInternallyHiddenForReason"b1"skippedPreLayoutWhileInternallyHiddenForReason"b1"skippedLayoutWhileInternallyHiddenForReason"b1"isPendingHiddenForAnimation"b1"hasMaskView"b1"isSettingMaskView"b1"hasVisualAltitude"b1"hasBackdropMaskViews"b1"backdropMaskViewFlags"b5"delaysTouchesForSystemGestures"b1"subclassShouldDelayTouchForSystemGestures"b1"hasMotionEffects"b1"backdropOverlayMode"b2"tintAdjustmentMode"b2"isReferenceView"b1"focusState"b2"hasUserInterfaceIdiom"b1"userInterfaceIdiom"b3"ancestorDefinesTintColor"b1"ancestorDefinesTintAdjustmentMode"b1"ancestorIgnoresInvertColors"b1"needsUpdateProperties"b1"needsTraitCollectionDidChangePropagation"b1"isRootOfTraitCollectionDidChangePropagation"b1"implementsTraitCollectionForChildEnvironment"b1"implementsBaselineOffsetsAtSize"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"preservesSuperviewMargins"b4"insettingLayoutMarginsFromSafeArea"b4"safeAreaInsetsFrozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
+- (long long)edImageDynamicRange: /* Error: Ran out of types for this method. */;
+- (void)ion:indexToEdit:newText:indexInArrayB: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ghtSourceDescriptor:(struct CGPoint)arg1;
+- (void)tipleSelection;
+- (void)LayoutAttributes",&,N,V_attributes;
+- (id)È
+;
+- (struct CGRect)þÿ;
+- (void)[%@];
+- (void)tlink:(id)arg1 o:path:/System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation /* Error: Ran out of types for this method. */;
+- (_Bool)tant;
+- (CDUnknownBlockType);
+- (id)É´1^;
+- (id)þq;
+- (struct CGPoint)h;
+- (unsigned long long);
+- (void)4	ÿU2¸;
+- (void)¤9l;
+- (void)l×}m;
+- (_Bool)p;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setBandVisibilityHandler:) CDUnknownBlockType _bandVisibilityHandler; // @synthesize _bandVisibilityHandler=__bandVisibilityHandler;

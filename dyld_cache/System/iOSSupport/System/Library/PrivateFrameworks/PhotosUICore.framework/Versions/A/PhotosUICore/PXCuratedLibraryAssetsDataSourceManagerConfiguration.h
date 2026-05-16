@@ -18,9 +18,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)t6Úÿ\@;
+- (void)¬\Gÿ¹ÌÉÔ?;
+- (id)¬ñÿ¹ãR@ò5;
 
 // Remaining properties
 @property(nonatomic) _Bool enableDays; // @synthesize enableDays=_enableDays;

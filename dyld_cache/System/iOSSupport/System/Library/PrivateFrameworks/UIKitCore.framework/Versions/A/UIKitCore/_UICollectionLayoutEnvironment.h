@@ -18,19 +18,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
 - (id);
-- (void)sSpatialization:(_Bool)arg1;
 - (void);
-- (void);
-- (void)chAtomBackgroundView;
-- (id)ðQ±;
-- (long long)%.2f
-;
-- (void);
 - (id);
-- (void)`;
-- (id)¸ÿ9Õïc;
+- (long long);
+- (_Bool)d}}40d72d80{CGSize=dd}88{CGRect={CGPoint=dd}{CGSize=dd}}104B136d140;
+- (void)formClick:(long long)arg1;
+- (void)mIdentifying;
+- (void)So31UIWindowSceneProminentPlacementC;
+- (id)`"tþ;
+- (void)¸^;
+- (id)T;a;
+- (void)ØÓ0Ad;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIDataSourceSnapshotTranslating> _dataSourceSnapshot; // @synthesize _dataSourceSnapshot=__dataSourceSnapshot;

@@ -90,19 +90,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void)nds;
-- (void)H4;
+- (void);
+- (void);
+- (id)ItemModuleController"16@"HFAccessorySettingItem"24;
+- (id)undView",&,N,V_backgroundView;
+- (void)oller cellClassForItem:indexPath:] /* Error: Ran out of types for this method. */;
+- (void)R;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;

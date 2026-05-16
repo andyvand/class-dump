@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)vailable;
 
 @end
 

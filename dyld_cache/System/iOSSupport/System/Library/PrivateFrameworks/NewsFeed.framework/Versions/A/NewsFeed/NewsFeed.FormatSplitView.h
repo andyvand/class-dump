@@ -12,10 +12,10 @@
     MISSING_TYPE *model;
 }
 
-- (void);
 - (id);
-- (void)tifier;
-- (id)FCUserInfoC;
+- (void);
+- (id)LHighlightCenter"16;
+- (void)!R:¤^ /* Error: Ran out of types for this method. */;
 
 @end
 

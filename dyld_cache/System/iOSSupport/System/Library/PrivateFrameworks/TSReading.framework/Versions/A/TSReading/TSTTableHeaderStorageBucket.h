@@ -31,8 +31,9 @@
 - (void);
 - (void);
 - (void);
-- (long long)ctors;
-- (id)];
+- (long long)1Â0@ù
+× ;
+- (id)@0:(id)arg1 8@16^B24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

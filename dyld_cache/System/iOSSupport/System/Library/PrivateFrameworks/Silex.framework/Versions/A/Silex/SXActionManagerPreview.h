@@ -14,7 +14,7 @@
     UIViewController *_viewController;
 }
 
-- (void);
+- (void)B40;
 
 @end
 

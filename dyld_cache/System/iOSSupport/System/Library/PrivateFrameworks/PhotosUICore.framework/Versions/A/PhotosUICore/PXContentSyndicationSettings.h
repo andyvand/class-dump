@@ -48,7 +48,7 @@
     long long _footerMockType;
 }
 
-+ (id)º99;
++ (id)t`#ÿ]pËÐ`#ÿ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -125,8 +125,8 @@
 - (void);
 - (void);
 - (long long);
+- (id);
 - (void);
-- (id)[PXVideoSession setShouldDisableAutomaticPixelBufferUpdates:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysLeadingAlignAttributionViewOnRegularWidthPads; // @synthesize alwaysLeadingAlignAttributionViewOnRegularWidthPads=_alwaysLeadingAlignAttributionViewOnRegularWidthPads;

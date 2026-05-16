@@ -5,6 +5,6 @@
 //
 
 @protocol _UIButtonBarDelegate
-- (void)\À`ÁÁÐÂ;
+- (void)nce;
 @end
 

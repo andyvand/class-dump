@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol CUIKAvatarViewControllerProtocol
-- (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contacts;

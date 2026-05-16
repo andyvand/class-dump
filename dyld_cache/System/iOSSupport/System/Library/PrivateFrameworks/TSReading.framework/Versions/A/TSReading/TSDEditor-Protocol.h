@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TSKSelection;
+@class NSSet, TSKSelection;
 
 @protocol TSDEditor
 
 @optional
-- (_Bool);
-- (void)<;
-- (NSString *);
-- (NSSet *);
-- (_Bool);
-- (void)ETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDPathDistortion.m;
+- (void)àâ'äåÔæ!Téë;
+- (void)hadow, the size is too large for the CIContext to render. Returning empty image instead;
+- (TSKSelection *)incrementLastObjectIdentifier:] /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *selectedObjectsSupportingConnectionLineAttributes;

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class)x;
++ (Class)LongFormErrorResidentDeviceNotReachable;
 - (id);
 - (id);
 - (id);

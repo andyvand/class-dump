@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC7ChatKit41CKPosterRenderingTranscriptBackgroundView;
-
 @protocol _TtP7ChatKit49CKPosterRenderingTranscriptBackgroundViewDelegate_
-- (struct UIEdgeInsets)leteCharactersInRange:(_TtC7ChatKit41CKPosterRenderingTranscriptBackgroundView *)arg1;
-- (struct UIEdgeInsets)dates;
 @end
 

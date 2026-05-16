@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id)efresh;
-- (void)Mï!º;
+- (id);
+- (void)¨#c;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *smartReply; // @synthesize smartReply=_smartReply;

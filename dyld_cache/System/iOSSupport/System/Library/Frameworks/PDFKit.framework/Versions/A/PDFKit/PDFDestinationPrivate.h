@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     double zoom;
 }
 
-- (void)ectionInteractionDelegate;
+- (void);
 
 @end
 

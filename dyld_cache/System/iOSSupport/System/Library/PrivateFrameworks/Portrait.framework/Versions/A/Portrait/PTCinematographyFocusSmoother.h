@@ -24,7 +24,6 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -36,6 +35,7 @@
 - (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) MutableFloatArray *cachedSamples; // @synthesize cachedSamples=_cachedSamples;

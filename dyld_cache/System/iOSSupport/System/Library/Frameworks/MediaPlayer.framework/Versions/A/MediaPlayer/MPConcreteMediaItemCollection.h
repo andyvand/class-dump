@@ -18,35 +18,35 @@ __attribute__((visibility("hidden")))
     MPConcreteMediaEntityPropertiesCache *_propertiesCache;
 }
 
-+ (id)hActivity:(long long)arg1 activityName:(id)arg2;
-+ (_Bool)sition %ld for dataTask:%{public}@. URL=%{public}@.storagePolicy=%lu expectedEntrySize=%lld diskCacheAvailableSize=%lld memoryCacheAvailableSize=%lld /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)4@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152@160@168@176@184;
-- (id)e"b1};
-- (id)6i100@104@112@120@128@136B144B148@152;
-- (id)@124@0:(long long)arg1 8@16@24d32Q40@48@56I64@68@76I84@88@96@104B112@116;
-- (long long)6B24@28;
-- (void)ns:(id)arg1;
-- (id)serDevice: /* Error: Ran out of types for this method. */;
-- (id)account:activity:protectionClass: /* Error: Ran out of types for this method. */;
-- (id)mestamp:(long long)arg1 title:(id)arg2 desc:(id)arg3 comment:(long long)arg4 content:(long long)arg5;
-- (void)o:(CDUnknownBlockType)arg1 outputDevices: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)itleIndex;
-- (id)DETAILS] move.fromIndex out of bounds:%ld/%ld /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long);
+- (void)n;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPConcreteMediaEntityPropertiesCache *cachedPropertyValues;

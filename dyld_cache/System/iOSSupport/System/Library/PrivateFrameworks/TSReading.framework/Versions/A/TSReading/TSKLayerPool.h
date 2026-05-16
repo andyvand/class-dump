@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (Class);
+- (id);
 
 // Remaining properties
 @property(nonatomic) Class layerClass; // @synthesize layerClass=mLayerClass;

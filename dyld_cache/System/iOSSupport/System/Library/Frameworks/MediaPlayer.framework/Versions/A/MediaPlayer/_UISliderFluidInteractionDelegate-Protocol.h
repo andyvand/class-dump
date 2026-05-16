@@ -5,8 +5,5 @@
 //
 
 @protocol _UISliderFluidInteractionDelegate
-
-@optional
-- (void);
 @end
 

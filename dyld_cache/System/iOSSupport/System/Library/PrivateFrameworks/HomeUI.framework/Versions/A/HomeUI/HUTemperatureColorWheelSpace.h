@@ -21,8 +21,7 @@
 - (CDStruct_c3b9c2ee);
 - (CDStruct_dbd0f16f);
 - (id);
-- (unsigned long long)1Ð1b0@ù
-× ;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

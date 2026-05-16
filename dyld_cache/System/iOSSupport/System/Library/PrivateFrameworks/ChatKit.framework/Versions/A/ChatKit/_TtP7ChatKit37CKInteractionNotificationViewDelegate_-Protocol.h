@@ -5,7 +5,5 @@
 //
 
 @protocol _TtP7ChatKit37CKInteractionNotificationViewDelegate_
-- (void)ogressText;
-- (void)eue;
 @end
 

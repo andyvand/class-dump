@@ -12,11 +12,12 @@
     MISSING_TYPE *buttonSize;
 }
 
-- (void);
-- (struct CGSize);
 - (id);
 - (void);
-- (id)ViewStylerTypeP;
+- (struct CGSize);
+- (id)!ÐBùñþÐ1Â0@ù
+× ;
+- (void)¹+: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

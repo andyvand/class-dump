@@ -5,8 +5,5 @@
 //
 
 @protocol IMDaemonFileTransferProtocol
-- (void);
-- (void);
-- (void);
 @end
 

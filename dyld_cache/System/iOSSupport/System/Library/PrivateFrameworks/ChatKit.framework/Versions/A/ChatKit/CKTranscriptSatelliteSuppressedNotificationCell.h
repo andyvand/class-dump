@@ -14,13 +14,13 @@
     UILabel *_satelliteNoNotificationTitleLabel;
 }
 
-+ (id)Selection;
 + (id);
-- (void)AttachmentsToGalleryAttachment:(id)arg1 fromDocuments:imageCache:context: /* Error: Ran out of types for this method. */;
-- (void)lePasswordProtectedNotesInAccount:(id)arg1;
-- (id)ICTagContainerItemIdentifier",R,N;
-- (id)doTarget",R,N,V_undoTarget;
-- (void)$;
++ (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -28,8 +28,8 @@
 - (void);
 - (void);
 - (void);
-- (void)referredContextSelected;
-- (id)ssage",C,N,V_appendedMessage;
+- (id);
+- (void)service color in recipient search list for handle:%@, with service:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

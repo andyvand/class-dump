@@ -43,7 +43,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (struct PXSimpleIndexPath);
 - (_Bool);
@@ -67,8 +66,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (long long);
+- (id);
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
@@ -78,9 +77,9 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
+- (_Bool);
 - (id);
-- (id)¡j°!PCùÑm°1b0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areAllSectionsConsideredAccurate;

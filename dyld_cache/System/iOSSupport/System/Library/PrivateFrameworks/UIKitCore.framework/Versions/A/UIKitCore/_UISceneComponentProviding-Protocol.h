@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIScene;
+@class UIScene;
 
 @protocol _UISceneComponentProviding
-- (void)hinDark;
-- (UIScene *);
-- (id)ht.includingDismissDetent;
+- (id)layout axis.;
+- (void)ö?ÀDëÓ@>=¶e1uÀ[²*ÂMò?;
 
 @optional
-- (NSArray *)breviatedForContact:(UIScene *)arg1;
-- (NSArray *)notify:(UIScene *)arg1;
-- (void)dSetUpKickTransformer;
+- (void):(UIScene *)arg1 range:(long long)arg2 options:(unsigned long long)arg3;
+- (UIScene *);
+- (void)0>\;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;

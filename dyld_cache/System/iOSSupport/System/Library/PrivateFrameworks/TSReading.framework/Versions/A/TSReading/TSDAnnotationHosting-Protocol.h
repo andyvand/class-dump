@@ -8,10 +8,7 @@
 @protocol TSKModel;
 
 @protocol TSDAnnotationHosting
-
-@optional
-- (id <TSKModel>);
-- (void)À¯`°d±;
+- (TSKAnnotationAuthor *);
 
 // Remaining properties
 @property(retain, nonatomic) TSKAnnotationAuthor *author;

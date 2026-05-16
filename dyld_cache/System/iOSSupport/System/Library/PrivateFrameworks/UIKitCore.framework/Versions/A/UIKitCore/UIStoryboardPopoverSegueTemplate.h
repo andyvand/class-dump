@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
     UIBarButtonItem *_anchorBarButtonItem;
 }
 
-- (void)achmentsForMessage:(id)arg1 toChatID:style: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)hangePassIntervalDays:(id)arg1;
-- (unsigned long long);
-- (id);
-- (void);
-- (void);;
-- (id)ct={CGPoint=dd}{CGSize=dd}}16d48;
-- (void)r·f;
+- (id);
+- (void)ggestions;
+- (void)t;
+- (id)ionView"8;
+- (unsigned long long)diom to %@ when original interface idiom is %@.;
+- (void);
+- (void)tW(ÿ$Þf;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *anchorBarButtonItem; // @synthesize anchorBarButtonItem=_anchorBarButtonItem;

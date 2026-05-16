@@ -13,12 +13,12 @@
 }
 
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (id)d_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE guid = ? ORDER BY chat.ROWID ASC;;
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;

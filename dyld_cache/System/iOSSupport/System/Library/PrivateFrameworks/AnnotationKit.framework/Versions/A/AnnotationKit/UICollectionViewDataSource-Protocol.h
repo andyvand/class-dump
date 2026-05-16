@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewCell;
+@class UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)illDisplayMenuForConfiguration:(UICollectionView *)arg1 animator:(NSIndexPath *)arg2 forElement:inAttachment: /* Error: Ran out of types for this method. */;
+- (UICollectionViewCell *)egment:(UICollectionView *)arg1;
 
 @optional
-- (long long);
+- (void)zer:(UICollectionView *)arg1;
+- (UICollectionReusableView *);
 @end
 

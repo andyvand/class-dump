@@ -5,17 +5,15 @@
 //
 
 @class _UIScrollPocketCollectorInteraction;
+@protocol _UIFloatingBarContainerDelegate;
 
 @protocol _UIFloatingBarContainer
-- (void)ully.;
-- (_UIScrollPocketCollectorInteraction *)ultiResponseEnd;
 - (void);
-- (void)ructions;
-- (unsigned long long)edWithAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdjacentBarEdges:) unsigned long long _adjacentBarEdges;
 @property(nonatomic, setter=_setEdgesRequiringContentMargin:) unsigned long long _edgesRequiringContentMargin;
+@property(nonatomic) __weak id <_UIFloatingBarContainerDelegate> delegate;
 @property(retain, nonatomic) _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction;
 @property(readonly) double toolbarOverlayInset;
 @end

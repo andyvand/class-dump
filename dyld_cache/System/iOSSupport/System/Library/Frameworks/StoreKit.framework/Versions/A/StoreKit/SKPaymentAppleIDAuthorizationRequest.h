@@ -13,11 +13,11 @@
     NSString *_serviceIdentifier;
 }
 
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (id);
 - (void);
 

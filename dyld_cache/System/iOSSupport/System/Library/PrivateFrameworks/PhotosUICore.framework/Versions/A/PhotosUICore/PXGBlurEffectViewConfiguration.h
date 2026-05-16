@@ -11,12 +11,12 @@
     long long _style;
 }
 
-- (unsigned long long);
-- (_Bool);
-- (id);
 - (long long);
 - (id);
-- (id)d}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16;
+- (unsigned long long);
+- (_Bool);
+- (id)TileAnimator>";
+- (id)Êõ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

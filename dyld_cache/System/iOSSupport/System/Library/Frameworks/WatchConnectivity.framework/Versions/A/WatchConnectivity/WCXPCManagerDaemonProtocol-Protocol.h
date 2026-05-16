@@ -5,6 +5,5 @@
 //
 
 @protocol WCXPCManagerDaemonProtocol
-- (void);
 @end
 

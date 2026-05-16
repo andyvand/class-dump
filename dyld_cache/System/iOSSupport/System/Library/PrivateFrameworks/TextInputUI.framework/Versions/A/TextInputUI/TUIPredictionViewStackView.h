@@ -14,23 +14,23 @@
     struct UIEdgeInsets _contentMargin;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (void);
 - (long long);
 - (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
-- (id)nd:atIndexPath: /* Error: Ran out of types for this method. */;
-- (long long)board-Key;
+- (void)mAtIndexPath:(long long)arg1 point: /* Error: Ran out of types for this method. */;
+- (id)p;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) _Bool cellsHaveBackgroundColor; // @synthesize cellsHaveBackgroundColor=_cellsHaveBackgroundColor;

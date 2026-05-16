@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)nscribes-spoken-dialog;
-- (id)ansaction:(_Bool)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)hotsByGroup;
 
 @end
 

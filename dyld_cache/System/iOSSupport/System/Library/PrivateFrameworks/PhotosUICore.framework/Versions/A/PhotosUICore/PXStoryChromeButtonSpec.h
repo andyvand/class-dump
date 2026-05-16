@@ -51,14 +51,14 @@
 - (long long);
 - (id);
 - (double);
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (double);
+- (long long);
 - (id);
-- (id)tteryBudget;
-- (long long)tionC;
-- (long long);
+- (void)tßÿ;
+- (long long);
+- (double)44;
 
 // Remaining properties
 @property(readonly, nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;

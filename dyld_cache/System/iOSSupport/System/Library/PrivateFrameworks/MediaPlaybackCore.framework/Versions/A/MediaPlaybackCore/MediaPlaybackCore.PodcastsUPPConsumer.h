@@ -17,11 +17,11 @@
 + (unsigned int);
 + (void);
 + (id);
-- (void)etion:(id)arg1;
-- (void)coningKeysForUUID:(id)arg1 dateInterval:forceGenerate:completion: /* Error: Ran out of types for this method. */;
-- (id)sic token. error = %{public}@;
+- (void);
 - (void);
 - (id);
+- (id);
+- (void)ion:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

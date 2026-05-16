@@ -26,16 +26,16 @@ __attribute__((visibility("hidden")))
     struct CGSize _preferredContentSize;
 }
 
-+ (id)while already monitoring.;
-+ (id)scheduled message update fromID:(id)arg1 %@, ;
-+ (_Bool)Invalid Use of GroupID;
-+ (_Bool)rvice is %@;
++ (id);
++ (id);
++ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)";
+- (_Bool);
 - (struct CGPoint);
 - (id);
 - (_Bool);
@@ -50,13 +50,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (struct CGSize)ete:reversed: /* Error: Ran out of types for this method. */;
-- (struct CGSize)_elementsWithAlternates;
-- (void)%@;
-- (struct CGSize)pha;
-- (void)%\;
-- (struct CGSize)À;
-- (id)Ò×\;
+- (id);
+- (struct CGSize)ews;
+- (struct CGSize),;
+- (void)ôÅÐÊÍÙàÙ;
+- (struct CGSize)[;
+- (void);
+- (struct CGSize)6ÂÚtà];
 
 // Remaining properties
 @property(nonatomic, setter=_setContentSize:) struct CGSize _contentSize;

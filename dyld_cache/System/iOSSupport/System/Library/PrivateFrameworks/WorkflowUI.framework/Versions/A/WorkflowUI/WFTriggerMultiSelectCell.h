@@ -42,7 +42,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)PickerHostingControllerFactory;
 
 // Remaining properties
 @property(readonly, nonatomic) WFTriggerOptionSelectionViewContainer *containerBottom; // @synthesize containerBottom=_containerBottom;

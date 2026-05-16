@@ -16,9 +16,9 @@
 }
 
 - (void);
-- (void)ker;
-- (void);
 - (id);
+- (void);
+- (void)dEventHandlerTypeDelegate;
 
 @end
 

@@ -90,21 +90,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
 - (struct CGImage *);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (long long);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (id);
+- (void)ntNetworkIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) long long colorMode; // @synthesize colorMode=_colorMode;

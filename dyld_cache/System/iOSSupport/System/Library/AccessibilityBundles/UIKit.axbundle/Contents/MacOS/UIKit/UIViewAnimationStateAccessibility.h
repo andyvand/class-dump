@@ -10,12 +10,12 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
-- (void);
-- (void);
+- (void)ssibilityBeginningOfDocument;
+- (void)olorMatrixView;
 
 @end
 

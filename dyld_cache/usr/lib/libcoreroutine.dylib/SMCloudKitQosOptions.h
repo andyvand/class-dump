@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)active;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool defaultQos; // @synthesize defaultQos=_defaultQos;

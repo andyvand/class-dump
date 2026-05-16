@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)cation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;

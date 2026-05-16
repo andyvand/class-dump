@@ -13,7 +13,7 @@
 }
 
 - (long long);
-- (id)"52@0:(id)arg1 8@"NSArray"16@"NSString"24d32B40@?<@"<BPSPublisher>"@?@"BMBookmarkablePublisher">44;
+- (id);
 - (_Bool);
 
 // Remaining properties

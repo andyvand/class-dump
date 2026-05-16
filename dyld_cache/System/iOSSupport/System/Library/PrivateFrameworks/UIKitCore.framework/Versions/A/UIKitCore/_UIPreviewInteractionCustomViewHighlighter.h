@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id)_;
+- (id);
+- (void);
+- (void)(;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customView; // @synthesize customView=_customView;

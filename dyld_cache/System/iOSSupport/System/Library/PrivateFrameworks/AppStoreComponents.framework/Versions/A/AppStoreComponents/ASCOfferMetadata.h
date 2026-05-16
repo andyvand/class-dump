@@ -6,8 +6,12 @@
 
 @interface ASCOfferMetadata
 {
+    _Bool _text;
+    _Bool _icon;
+    _Bool _iconAndText;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,10 +26,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,10 +40,11 @@
 // Remaining properties
 @property(readonly, nonatomic, getter=isDeeplink) _Bool deeplink;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic, getter=isIcon) _Bool icon;
+@property(readonly, nonatomic, getter=isIconOnly) _Bool icon; // @synthesize icon=_icon;
+@property(readonly, nonatomic, getter=isTextAndIcon) _Bool iconAndText; // @synthesize iconAndText=_iconAndText;
 @property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder;
 @property(readonly, nonatomic, getter=isProgress) _Bool progress;
-@property(readonly, nonatomic, getter=isText) _Bool text;
+@property(readonly, nonatomic, getter=isTextOnly) _Bool text; // @synthesize text=_text;
 @property(readonly, nonatomic, getter=isViewInAppStore) _Bool viewInAppStore;
 
 @end

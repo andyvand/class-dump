@@ -14,23 +14,22 @@
 - (id);
 - (void);
 - (void);
-- (void)";
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long)¥	Ð!XBùqÂ1¢!0@ù
-× ;
+- (_Bool);
+- (id);
+- (id);
+- (void)el: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *timestamps; // @synthesize timestamps=_timestamps;

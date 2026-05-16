@@ -29,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)k@;
-- (void)port;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -40,26 +40,26 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void)wnSenderRecords:(unsigned long long)arg1;
-- (void)eringContext;
-- (id)CurrentBatchCount:maxBatchCount: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)quest to post notification for conversation %@ on chat %@;
-- (void)versation %s;
-- (void)ication will be posted for "%s" app in chat %@ and conversation %s;
-- (void)h initiator from conversation %@;
-- (void)ation token "%@" from senderHandleID "%@";
-- (void)uld not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
-- (void)age:%@ for chatIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (void)et local asset URL from CKRecord:(_Bool)arg1 %@;
-- (void)token %@, token of last publisher %@, same? %@;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (double);
 - (id);
-- (void)¿b;
-- (double)V;
+- (void)ousCurlCompatibleWithCurlOfType:(id)arg1 inDirection: /* Error: Ran out of types for this method. */;
+- (id)oþoþÛ;
+- (void)±mÛ4d^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

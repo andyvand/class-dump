@@ -17,11 +17,11 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
+- (const void *);
 - (id);
 - (int);
-- (unsigned long long)ColorEnd;
-- (const void *);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) const void *bytes; // @synthesize bytes=_bytes;

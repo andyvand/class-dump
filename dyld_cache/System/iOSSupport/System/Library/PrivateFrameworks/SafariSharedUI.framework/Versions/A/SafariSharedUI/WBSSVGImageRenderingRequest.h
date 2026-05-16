@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize imageSize;

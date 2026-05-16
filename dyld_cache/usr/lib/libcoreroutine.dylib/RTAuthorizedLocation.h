@@ -25,16 +25,15 @@
 - (long long);
 - (long long);
 - (unsigned long long);
-- (id)<;
+- (id);
 - (double);
 - (long long);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (void)
-× ;
-- (long long);
+- (long long)Object:] /* Error: Ran out of types for this method. */;
+- (void)passed bad keys, %@;
 
 // Remaining properties
 @property(readonly) long long ageDaysFirstRegisteredVisit; // @synthesize ageDaysFirstRegisteredVisit=_ageDaysFirstRegisteredVisit;

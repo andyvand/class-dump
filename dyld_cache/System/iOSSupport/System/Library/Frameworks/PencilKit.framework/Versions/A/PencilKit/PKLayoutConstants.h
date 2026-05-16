@@ -8,13 +8,13 @@
 {
 }
 
-+ (struct CGSize);
++ (struct CGSize);
 + (struct CGSize);
 + (double);
-+ (double);
 + (double);
 + (double);
-+ (void);
++ (double);
++ (void)pple.pencilkit.handwritingfeedback;
 
 @end
 

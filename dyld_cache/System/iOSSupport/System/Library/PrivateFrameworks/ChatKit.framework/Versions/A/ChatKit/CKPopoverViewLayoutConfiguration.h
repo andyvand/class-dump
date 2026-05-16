@@ -14,21 +14,21 @@
     double _maximumHeight;
 }
 
-- (void)Collection;
-- (void)Identifier:(double)arg1;
-- (void)cyViewContext;
-- (void)ode;
 - (void);
-- (double)PasswordTitle;
-- (struct CGSize)GG;
-- (struct CGSize);
-- (struct CGSize);
-- (double);
-- (double);
-- (double)SgGG.ǍyPGG_Qo_tGGtGGAJtGG;
-- (double)@ %@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (double);
+- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double defaultAppCompactHeight; // @synthesize defaultAppCompactHeight=_defaultAppCompactHeight;

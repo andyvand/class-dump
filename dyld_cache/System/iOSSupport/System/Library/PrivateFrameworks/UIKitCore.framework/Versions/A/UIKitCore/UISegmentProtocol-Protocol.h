@@ -5,10 +5,11 @@
 //
 
 @protocol UISegmentProtocol
-- (_Bool);
-- (int)nteger or NSUInteger;
-- (_Bool)scene:self:%@, scene: /* Error: Ran out of types for this method. */;
-- (_Bool)4ø·iþq4P¸iþ;
+- (unsigned int)!hCùÑ^1Â0@ù
+× ;
+- (_Bool).isHidden;
+- (_Bool)ibrary/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy;
+- (_Bool)ªªªªú?«ªªªªª*@UUUUUU#@«ªªªªª@333333@ñ?UUUUUU@;
 
 // Remaining properties
 @property(readonly, nonatomic) int controlSize;

@@ -17,41 +17,41 @@
     struct CGRect _appliedCropRect;
 }
 
-+ (_Bool)reationViewController;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)RowViews:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)%;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,12 +63,12 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (_Bool)ice:(id)arg1 %@ personCentricID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)okeUpdate;
+- (void);
+- (id)er;
 
 // Remaining properties
 @property(readonly) NSArray *annotations;

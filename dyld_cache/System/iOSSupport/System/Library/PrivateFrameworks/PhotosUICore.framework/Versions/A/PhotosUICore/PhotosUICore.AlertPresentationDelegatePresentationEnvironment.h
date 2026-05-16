@@ -19,10 +19,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (void)qwËô;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canPresentPopovers;

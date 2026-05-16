@@ -19,21 +19,21 @@
     NSData *_locationMapItemHandle;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
+- (id);
 - (long long);
-- (id)ncomingInvitationUpdate:Invalid Invitaion state %ld. Not delivered {%@} to delegate /* Error: Ran out of types for this method. */;
-- (id)T@"NSString",&,V_eventName;
 - (id);
 - (id);
-- (id);
-- (_Bool)MirroringRequest _createMirroringRequestWithRequestType:affectedStores:options:] /* Error: Ran out of types for this method. */;
+- (id)orMatchedTripAvg;
+- (void)Invalid_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Passthrough;
+- (_Bool)e}@;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;

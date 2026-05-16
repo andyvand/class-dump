@@ -53,7 +53,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)tOBWelcomeController initWithTitle:detailText:icon:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *actionGridItems;

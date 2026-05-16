@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (unsigned long long);
 - (oneway void);
-- (_Bool)match;
-- (_Bool);
 - (id);
-- (unsigned long long);
+- (_Bool);
+- (_Bool)g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

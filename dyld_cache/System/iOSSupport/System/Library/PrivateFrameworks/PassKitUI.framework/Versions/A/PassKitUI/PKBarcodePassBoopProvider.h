@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <UIActivityItemsConfigurationReading> activityItemsConfiguration;

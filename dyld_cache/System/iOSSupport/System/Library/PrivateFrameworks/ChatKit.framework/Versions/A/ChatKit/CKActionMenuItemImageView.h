@@ -16,11 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (void)_conversationContext;
+- (void);
+- (void)render transcript view. GUID:(_Bool)arg1 %@;
 - (void);
-- (void);
-- (void)!DAùÑÅð1¢!0@ù
-× ;
-- (void)tionType:(_Bool)arg1 image: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -23,9 +23,9 @@
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long indexOfCurrentStyle; // @synthesize indexOfCurrentStyle=_indexOfCurrentStyle;

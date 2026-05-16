@@ -5,5 +5,8 @@
 //
 
 @protocol FCAppActivityObserving
+
+@optional
+- (void);
 @end
 

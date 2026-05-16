@@ -7,11 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool)TSDTextSelectionRect;
-- (_Bool);
-- (NSString *);
-- (_Bool);
-- (id)S;
+- (struct _NSZone *)"TSUZipEntry";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

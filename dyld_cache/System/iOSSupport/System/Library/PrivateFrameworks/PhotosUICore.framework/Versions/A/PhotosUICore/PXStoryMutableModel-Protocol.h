@@ -8,15 +8,13 @@
 @protocol PXStorySongResource;
 
 @protocol PXStoryMutableModel
-- (void)cept;
-- (void)gûÿ Ìøÿ;
-- (double)fìÿ;
-- (void)èûÿ;
-- (_Bool)<!ÿÎ/<!ÿÎ/t<!ÿ-Î/øÞjÿ;
-- (long long);
-- (void)4P4ÿ;
-- (CDStruct_1b6d18a9)ÿUk¼{(ÿUkØ{(ÿ;
-- (void)D>p©-5,;
+- (void)ùð!8DùqFÐ1â
+0@ù
+× ;
+- (void)sualization:(long long)arg1;
+- (long long)Ð;
+- (CDStruct_1b6d18a9)½@È;
+- (void)Øµ3;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStorySongResource> activeSongResource;

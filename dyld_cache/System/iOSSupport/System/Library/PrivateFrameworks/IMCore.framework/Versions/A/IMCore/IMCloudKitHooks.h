@@ -10,8 +10,8 @@
 
 + (void);
 + (id);
-+ (id)ys;
-+ (id)oß?;
++ (id);
++ (id);
 - (id);
 - (_Bool);
 - (void);
@@ -21,10 +21,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)i;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -33,66 +33,65 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)SString",&,N,V_msg;
-- (long long)isType;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)*;
-- (void);
-- (void);
-- (void)*;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)6;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)(;
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (long long);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)WithSize: /* Error: Ran out of types for this method. */;
-- (_Bool)AssetClass(void)_block_invoke;
-- (id)Å$êíÿ;
-- (id)JECT:IMCore-
- /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)ttachmentNotExported;
+- (void)Reconstructions:] /* Error: Ran out of types for this method. */;
 
 @end
 

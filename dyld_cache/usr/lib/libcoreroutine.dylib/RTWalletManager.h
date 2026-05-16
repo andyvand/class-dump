@@ -14,26 +14,26 @@
     double _maximumTransactionDistance;
 }
 
-- (void)_runServiceStart]_block_invoke_2;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)*"username_length"I"encryptedEAPIdentity"^{__CFData}"password"*"password_length"I"properties"^{__CFDictionary}"system_mode"B"sec_identity"^{__SecIdentity}"reserved"[6^v]};
-- (void);
-- (void)ECT_ERROR_OVERSLEPT;
 - (void);
 - (id);
+- (void);
+- (void);
 - (double);
-- (void)dDataInFileForReplay,%d,createSparseDataForOneHz,%d;
-- (void)d when fetching visits between date, %@ and date, %@, ascending, %@;
-- (id)== 0.0
-;
-- (void)er;
-- (void)«?eâX·¡?;
+- (void);
+- (void);
+- (void);
+- (void)A,°1Â0@ù
+× ;
+- (void)TEventHistogram",&,N,V_locationOfInterestEventHistograms;
+- (id)ptSafeArrivalWithContext:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)y;
+- (void)u,ChunkIndex,%tu,thisChunk,%@;
+- (void)cess, %{Bool}d, error, %@;
+- (void), no progress distance threshold, %.2f;
+- (id)timer as there are no records left;
+- (void)er is released %u, success!;
+- (void)Cache,Receiver,%@,%@,returning array of %d session status;
+- (void)±¯;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

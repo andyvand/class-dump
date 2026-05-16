@@ -56,17 +56,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)
-× ;
-- (void)X;
+- (id),V_titleString;
+- (void)$¤,¥è¥L¦;
+- (void)iewController.m;
+- (void)ntext;
+- (id)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

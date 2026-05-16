@@ -7,7 +7,6 @@
 @class NSXPCInterface;
 
 @protocol _UIViewServiceDeputyXPCInterface
-- (NSXPCInterface *)at°!GùqÈÐ1¢!0@ù
-× ;
+- (NSXPCInterface *);
 @end
 

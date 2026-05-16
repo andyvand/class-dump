@@ -5,6 +5,5 @@
 //
 
 @protocol WeatherServiceProtocol
-- (void);
 @end
 

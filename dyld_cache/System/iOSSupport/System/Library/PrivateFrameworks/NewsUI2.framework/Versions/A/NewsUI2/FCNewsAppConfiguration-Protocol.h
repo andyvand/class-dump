@@ -8,104 +8,89 @@
 @protocol FCNewsAppConfigurationInternal;
 
 @protocol FCNewsAppConfiguration
-- (NSString *)@;
-- (NSArray *)found.;
-- (NSArray *)create playback queue from playback intent %@;
-- (long long)ÄGóÿÜGóÿHóÿ HóÿHóÿÜHóÿPIóÿ¨IóÿàIóÿøIóÿJóÿ(JóÿhJóÿ JóÿøJóÿ0KóÿtKóÿÔKóÿLóÿlLóÿ¤LóÿüLóÿDMóÿ|Móÿ´MóÿTNóÿxNóÿ¸NóÿÜNóÿOóÿ8Oóÿ\OóÿtOóÿPóÿTPóÿ|PóÿPóÿÌPóÿQóÿ,QóÿLQóÿQóÿÌQóÿRóÿDRóÿRóÿ°RóÿðRóÿSóÿ Sóÿ`SóÿxSóÿSóÿ¨SóÿÀSóÿäSóÿTóÿ,TóÿDTóÿ\TóÿTóÿÌTóÿ$Uóÿ\UóÿUóÿ¬UóÿäUóÿVóÿ,VóÿDVóÿ\Vóÿ|VóÿVóÿ´VóÿÌVóÿWóÿ<Wóÿ°WóÿèWóÿXóÿ,XóÿDXóÿ XóÿÌXóÿYóÿYóÿ¼Yóÿ`Zóÿ [óÿ[óÿ¼[óÿÔ[óÿ;
-- (FCPrefetchConfiguration *)der;
-- (FCIAdConfiguration *)$_cancelSearchBarButtonItem;
-- (_Bool)I244SportsManagementDetailInteractorTypeDelegateP;
-- (double)(R:G /* Error: Ran out of types for this method. */;
-- (NSString *)Øýÿh=òÿ ÿÌÑ
-;
-- (NSString *)t this athlete.;
-- (NSString *)impression started, identifier=%{public}@;
+- (long long)humbnail;
+- (long long)ErrorHandler;
+- (NSString *)¼ä,t;
+- (NSString *)@TdTT¼TìTULU|U¬UÜUV<VtV¬VÜVW,WTWWÌWXDXlXXÄXôX8YYÈYôY8ZdZZÔZ[<[l[¤[Ô[\D\t\¤\Ì\ü\@]t]¤]Ü]^4^p^¤^Ì^ü^,_d__Ô_`<`l``Ì`ü`$a`aaàab`bbàbc`cc´cìcdTdd´dìdeLete¬eÔef4flffÌfôf,gdggÔghDh|h´hähiTi|i¤iÜij<jdjjÌjkXkk´k;
+- (long long)ºÑûÿ;
+- (NSArray *)users.;
+- (long long)m channel %{public}@ superfeed because it is not eligible;
+- (_Bool);
+- (double)sSyncToWatchlistChangeSet;
+- (_Bool);
+- (long long)äedw­þ;
+- (FCIAdConfiguration *)eClass;
 
 @optional
-- (_Bool);
-- (long long);
-- (NSString *);
-- (long long)H
-;
-- (_Bool);
-- (NSString *);
-- (long long)_G;
-- (_Bool)rejected.;
-- (_Bool)!= nil && self != '';
-- (NSString *)DiscardOnErrorEncodable;
+- (NSString *)
+× ;
+- (_Bool)@"NSArray"16q24q32@"NSString"40;
+- (NSString *),N,&,VexternalAnalyticsFeedReferrer;
+- (NSString *)iewSupplementaryViewProvider;
+- (NSArray *)7NewsUI230SportsFavoritesSyncDataManager;
+- (double)sUI229EmailSignupAutomaticPresentor;
+- (_Bool)	
+;
+- (double)ÿÿÿÿ;
+- (long long);
+- (double)\llm_(q`@raub¸vclwdüwe¬xzf(}~g4hD0iØÄjhàküìlllm,n`(oÔp@ ¡À¢4£Ô¤q¦rÌ¨Ì©s¬t®p¯0±±²uH¶v`·wd»xà» ¼y<½zÄÀ{ÈÁ|DÇ},Ë~ ÌÏÑÕÜ×ø×|ØäØ;
+- (double)[ä[X]|];
 - (double);
-- (double);
-- (long long);
-- (double);
-- (NSArray *)(=;
-- (NSString *);
-- (NSDictionary *)";
-- (_Bool)8;
-- (NSString *)FormatSampleRate: /* Error: Ran out of types for this method. */;
-- (NSString *)entString:error: /* Error: Ran out of types for this method. */;
-- (NSString *)r: /* Error: Ran out of types for this method. */;
-- (NSString *)sID;
-- (_Bool)W,N,V_testingDelegate;
-- (NSString *)cription lease session] error:%{public}@ /* Error: Ran out of types for this method. */;
-- (NSArray *)ublic}@:Finished authorize machine request for error resolution with error:%{public}@. /* Error: Ran out of types for this method. */;
-- (NSString *)AL] - %{public}@:Using purchase bundle:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)ublic}@;
-- (_Bool)artTime:%{public}f, pivotTime:%{public}f, style:%{public}ld, debugString:%s /* Error: Ran out of types for this method. */;
-- (double)e;
-- (long long)urrent transition: /* Error: Ran out of types for this method. */;
-- (_Bool)nsitionState;
-- (long long)"24q32@"NSDictionary"40;
-- (_Bool)(;
-- (NSArray *)P;
-- (NSArray *)m;;
-- (double)V;
-- (NSString *)I] Deleted search landing snapshot. %{public}s;
-- (NSDictionary *)Q;
-- (_Bool)Policy check - adding creative ID impression for ID:%{private}@ /* Error: Ran out of types for this method. */;
-- (NSString *)ount;
-- (NSString *)ntShortcutsOnboardingTipQuiescenceInterval;
-- (NSString *);
-- (double);
-- (double);
-- (long long)	
-;
-- (NSString *)üÅ@ÆxÆ¨ÆÐÆøÆ ÇXÇÇÀÇøÇ0È|È¼ÈÉ8ÉhÉÉÐÉ;
-- (NSString *)ÐHlü;
-- (double)ÌÂ;
-- (long long)¤%;
-- (NSString *)y;
-- (_Bool)x`;
-- (NSString *)¸­­þ±­þ¾­þo±þ¸Þ±þã±þ¸å±þäè±þØé±þÄë±þÀë±þÄí±þ¤zµþì~µþÀµþ@µþª·þ$»·þØf½þdl½þ|w½þø}½þ½þ¤½þ0½þð½þ0½þ½þ¡½þx´½þ4Ï½þÙ½þ\ÒÁþ9Âþ@Âþ´DÂþ\EÂþ´KÂþ\LÂþSÂþUÂþÌ¡Âþ´ÂþhhÉþHiÌþØ+Íþ¤~Îþ¤¤þHÎþÎþ\ÈÏþËÏþ<\Ðþ{ÐþdøÐþùÐþ¤þÈÑþ@jÑþ¤oÑþÍÒþñÒþTíÓþP÷ÓþmÖþØþL8ØþèaÛþbÛþ<mÛþèmÛþ\wÛþÐ}ÛþPÛþXÛþäÛþTÃÛþ ÄÛþ0ßÛþøßÛþÈÁÝþ ÍÝþ×ÝþÌÝÝþHâÝþDâÝþ è±þàþ<àþÄ]àþ¸vàþô¤þ¬AáþGáþpNáþÈOáþcáþháþTãþøãþAãþ0íãþ°îãþ0ðãþ°ñãþ0óãþ°ôãþ0öãþ°÷ãþ0ùãþ°úãþ0üãþ°ýãþ0ÿãþ°;
-- (NSString *);
-- (double)t=%{public}s;
-- (_Bool)ñÿøñÿ0ñÿpñÿñÿ´ñÿDñÿ|ñÿÀñÿØñÿðñÿôñÿ,	ñÿ\
-ñÿ´
-ñÿø
-ñÿ0ñÿHñÿ`ñÿñÿ¤ñÿÜñÿñÿ<ñÿñÿñÿLñÿlñÿñÿÄñÿüñÿdñÿ¨ñÿÈñÿàñÿøñÿ$ñÿ<ñÿtñÿ¬ñÿñÿ\ñÿñÿÀñÿØñÿüñÿñÿ@ñÿÈñÿ;
-- (double)TÀøÿLüûÿjÀøÿ`Àøÿ;
-- (unsigned long long)¼þûÿ;
-- (double)üÿ*-ùÿÚøÿ;
-- (_Bool)üÿ;
-- (NSArray *)ity;
-- (NSArray *)d;
-- (long long)odelFactory;
-- (NSArray *)ize;
-- (_Bool)ÿ;
-- (long long)<å©þ;
-- (double)llerCXcSg;
-- (_Bool)íÿ¸ÿäþÄ
+- (_Bool)H¼ðÿL¼ðÿR¼ðÿr¼ðÿ;
+- (NSString *)â&óÿ;
+- (double)l}d]:quiescence interval [%lld]. Last Upsell Shown Date [%s] /* Error: Ran out of types for this method. */;
+- (_Bool)nelMigrationStartupTask:Migration failed, reorder returned false /* Error: Ran out of types for this method. */;
+- (NSString *)$ºãÿèºãÿôºãÿ;
+- (double)HoÝÿoÝÿ¨oÝÿ$pÝÿHpÝÿxpÝÿpÝÿÀpÝÿüpÝÿ qÝÿqÝÿvÝÿÀvÝÿwÝÿPwÝÿtwÝÿ°wÝÿ4xÝÿ`xÝÿxÝÿèxÝÿyÝÿ0yÝÿtyÝÿyÝÿ¼yÝÿàyÝÿzÝÿ0zÝÿTzÝÿ|zÝÿ zÝÿÄzÝÿøzÝÿ4{ÝÿX{ÝÿT|Ýÿ|Ýÿ}Ýÿ¼}Ýÿ ~ÝÿD~Ýÿt~Ýÿ~Ýÿ¼~Ýÿø~ÝÿÝÿÝÿÀÝÿäÝÿÝÿ8Ýÿ\ÝÿÝÿ¼ÝÿØÝÿ<ÝÿHÝÿÝÿ4ÝÿXÝÿÝÿ0Ýÿ\ÝÿôÝÿ;
+- (double)¤Ëûÿ;
+- (NSArray *)ðý÷ÿ;
+- (double);
+- (NSArray *)lver;
+- (_Bool)ÿ5hÿ;
+- (long long)leTypeP;
+- (NSString *)ÿÆèÿ;
+- (_Bool);
+- (NSString *)ÿPA;
+- (_Bool);
+- (_Bool)Tÿþ9;
+- (NSData *)nd Topics feed.;
+- (_Bool)error ;
+- (_Bool)e:eslInventory:peopleAlsoReadInventory:reservedClusterIDs:serviceConfig:personalizationService:) /* Error: Ran out of types for this method. */;
+- (NSString *)llowing a topic;
+- (NSDictionary *)Fallback description of the empty state when there are no search results in the customize location modal, with channel name parameter.;
+- (_Bool)e to show for empty state in Audio History feed.;
+- (_Bool)dDataManagerTypeDelegate;
+- (NSArray *)rInteractorTypeDelegate;
+- (NSString *)ntHandler;
+- (_Bool)Í(YO
 ;
-- (NSString *)ÿxÛþÄÃ
-;
-- (_Bool)ngDisliked/FollowingDislikedTracker.swift;
-- (_Bool)the magazine feed is not available due to unsupported region;
-- (_Bool)ox scores;
-- (long long)wsUI/Modules/Search/SearchTracker.swift;
-- (NSString *)nes to select.;
-- (_Bool)Ñ8üÜÿáÿ;
-- (NSData *)uý´P´þ;
-- (NSString *)aylistStoreType;
-- (_Bool)Ïþq§¾þq§0ä¾þq§~¾þ;
+- (_Bool)ttributesFactory;
+- (NSString *)yPlayedStoreType;
+- (_Bool)SharedWithYouFeedConfigFetchResult;
+- (NSString *);
+- (NSDictionary *)ity;
+- (id <FCNewsAppConfigurationInternal>)ô¹
+\åûþÐ;
+- (NSString *)ry;
+- (NSString *)odingType;
+- (long long)þ;
+- (_Bool)Êþ;
+- (_Bool);
+- (long long)«þ;
+- (NSString *)eEmbedShowSettingsMessageHandlerType;
+- (_Bool)d;
+- (NSString *)Í£cã;
+- (_Bool)edGroupConfigData;
+- (_Bool)äÙ¡þÑ±	;
+- (_Bool)áeØÝ;
+- (NSString *)P;
+- (_Bool)ôº
+e»eøñ;
+- (_Bool);
+- (double);
+- (NSString *);
+- (long long)FontDescriptorAttributeName;
+- (NSDictionary *)ý;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool aggregatesInAppXavierEnabled;
@@ -233,6 +218,22 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
 
+@property(readonly, nonatomic) NSString *blockedCuratedStorySelectionMessage;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSString *blockingConfirmationChannelMessage;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool blockingConfirmationDialogEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) NSString *bundleCampaignConfigurationResourceId;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSString *bundleChannelPickerSuggestionsTabiPackageResourceId;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
@@ -285,9 +286,21 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: Td,?,R,N
 
+@property(readonly, nonatomic) _Bool cookingEnhancementsEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @property(readonly, nonatomic) _Bool corryBarHideDiscoverMoreInterstitialForNonOnboardedUsers;
 @property(readonly, nonatomic) long long corryBarMaxArticleCountForArticleList;
 @property(readonly, nonatomic) long long corryBarMaxArticleCountForSingleArticle;
+@property(readonly, nonatomic) NSString *countryFlagConfigResourceId;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSArray *countryFlagIconEnabledTagIds;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSArray",?,R,N
+
 @property(readonly, nonatomic) long long criticalStorageThreshold;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
@@ -398,6 +411,10 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
+@property(readonly, nonatomic) _Bool featurePromotionEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @property(readonly, nonatomic) long long feedAdScreenfulsToPrefetch;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
@@ -441,6 +458,10 @@
 // Original attribute string: T@"NSString",?,R,N
 
 @property(readonly, nonatomic) FCIAdConfiguration *iAdConfig;
+@property(readonly, nonatomic) _Bool imagesInStepsEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @property(readonly, nonatomic) _Bool inAppMessagesEnabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
@@ -450,6 +471,10 @@
 // Original attribute string: T@"NSString",?,R,N
 
 @property(readonly, nonatomic) _Bool inFeedDebugging;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool ingredientScalingEnabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
@@ -495,6 +520,10 @@
 // Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) _Bool isSmarterFetchEnabledForSupplementalLatest;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool isSportsEventOpenInTVSupported;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
@@ -558,13 +587,73 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
 
+@property(readonly, nonatomic) double liveCoverageActiveWindow;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Td,?,R,N
+
+@property(readonly, nonatomic) double liveCoverageInactiveWindow;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Td,?,R,N
+
+@property(readonly, nonatomic) double liveCoveragePollingInterval;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Td,?,R,N
+
 @property(readonly, nonatomic) NSString *localAreasMappingResourceId;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) long long localDataRefreshInterval;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,R,N
+
 @property(readonly, nonatomic) NSDictionary *localInForYouTopicTagAllowList;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSDictionary",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingCustomizeEmptyStateText;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingCustomizeSearchText;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingCustomizeSubtitle;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingCustomizeTitle;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool localOnboardingEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool localOnboardingManagementAutoPresentation;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingSearchRegionIdentifier;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSArray *localOnboardingSearchSuggestions;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSArray",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingUnonboardedImageResourceID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingUnonboardedMediaAccessibilityTitle;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) NSString *localOnboardingUnonboardedVideoResourceID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
 
 @property(readonly, nonatomic) NSDictionary *localSuperFeedsForYouTopicTagAllowList;
 // Preceding property had unknown attributes: ?
@@ -574,9 +663,21 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) NSString *locationSearchFeedConfigurationResourceId;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) long long lowStorageThreshold;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
+
+@property(readonly, nonatomic) double maxRecipeUnitConversionError;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Td,?,R,N
+
+@property(readonly, nonatomic) double maxRecipeUnitConversionTbspBeforeWeight;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Td,?,R,N
 
 @property(readonly, nonatomic) long long maxSportRecommendationsPerSport;
 // Preceding property had unknown attributes: ?
@@ -627,6 +728,10 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: Td,?,R,N
 
+@property(readonly, nonatomic) long long minRecipeRatingsThreshold;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,R,N
+
 @property(readonly, nonatomic) double minScoreThresholdForSportsRecommendations;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Td,?,R,N
@@ -636,6 +741,10 @@
 // Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) _Bool moreToReadEOAEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool multipartRecipesEnabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
@@ -681,6 +790,10 @@
 @property(readonly, nonatomic) long long numberOfFetchedHeadlinesToReport;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
+
+@property(readonly, nonatomic) _Bool nutritionInfoEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) FCOfflineDownloadsConfiguration *offlineDownloadsConfig;
 // Preceding property had unknown attributes: ?
@@ -763,6 +876,9 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
+@property(readonly, nonatomic) _Bool paywallExperimentationEnabled;
+@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs;
+@property(readonly, nonatomic) NSString *paywallTagID;
 @property(readonly, nonatomic) FCPeopleAlsoReadConfiguration *peopleAlsoReadConfiguration;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCPeopleAlsoReadConfiguration",?,R,N
@@ -772,10 +888,6 @@
 // Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) NSString *personalizationBundleIdMappingResourceId;
-@property(readonly, nonatomic) _Bool personalizationEventTrackingEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSString *personalizationFavorabilityResourceId;
 @property(readonly, nonatomic) NSString *personalizationUrlMappingResourceId;
 @property(readonly, nonatomic) NSString *personalizationWhitelistResourceId;
@@ -798,6 +910,18 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) NSString *recipeHistoryFeedConfigurationResourceId;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool recipeHistoryFeedEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool recipeNotesEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @property(readonly, nonatomic) NSString *recipePersonalizationAllowlistResourceId;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
@@ -810,6 +934,10 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) _Bool recipeRatingsEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @property(readonly, nonatomic) NSString *recipeRecirculationConfigJSON;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
@@ -817,6 +945,10 @@
 @property(readonly, nonatomic) NSString *recipeSearchFeedConfigurationResourceId;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool recipeUnitConversionEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) NSArray *recommendedIssueAllowList;
 // Preceding property had unknown attributes: ?
@@ -907,6 +1039,10 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) long long sportsLiveActivityEducationalMomentLimit;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,R,N
+
 @property(readonly, nonatomic) long long sportsManagementMinChildItemsCount;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
@@ -944,14 +1080,6 @@
 // Original attribute string: T@"NSString",?,R,N
 
 @property(readonly, nonatomic) long long stateRestorationAllowedTimeWindow;
-@property(readonly, nonatomic) _Bool statelessPersonalizationAllowedForExtensions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool statelessPersonalizationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) long long subscriptionsGracePeriodForTokenVerificationSeconds;
 @property(readonly, nonatomic) long long subscriptionsPlacardGlobalMaximumPerDay;
 @property(readonly, nonatomic) long long subscriptionsPlacardPublisherFrequencyInSeconds;
@@ -970,6 +1098,10 @@
 @property(readonly, nonatomic) _Bool tabiScoringInWidgetsEnabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) NSArray *tagChannelPickerConfigurations;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSArray",?,R,N
 
 @property(readonly, copy, nonatomic) NSDictionary *tagFeedGroupClusteringKnobOverrides;
 // Preceding property had unknown attributes: ?
@@ -1124,6 +1256,10 @@
 // Original attribute string: T@"NSString",?,R,N
 
 @property(readonly, nonatomic) _Bool widgetForYouFromDaemonEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool widgetForYouShadowDaemonFetchEnabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 

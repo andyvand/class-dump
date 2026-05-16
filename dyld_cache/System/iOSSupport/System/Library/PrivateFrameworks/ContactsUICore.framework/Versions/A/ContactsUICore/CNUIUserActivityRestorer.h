@@ -29,13 +29,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)faultProvider;
+- (id)Ì;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *activityTypeCreateContactIntent; // @synthesize activityTypeCreateContactIntent=_activityTypeCreateContactIntent;

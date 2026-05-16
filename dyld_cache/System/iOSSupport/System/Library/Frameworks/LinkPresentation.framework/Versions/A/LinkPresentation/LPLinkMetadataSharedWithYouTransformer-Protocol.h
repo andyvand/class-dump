@@ -5,6 +5,5 @@
 //
 
 @protocol LPLinkMetadataSharedWithYouTransformer
-- (_Bool);
 @end
 

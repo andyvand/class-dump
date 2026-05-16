@@ -22,11 +22,12 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (id)es;
-- (void)M
-;
+- (void)ÑñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditorColorPickerConfiguration *configuration; // @synthesize configuration=_configuration;

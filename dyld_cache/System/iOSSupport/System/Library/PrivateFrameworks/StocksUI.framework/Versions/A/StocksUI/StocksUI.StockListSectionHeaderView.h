@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
 - (_Bool);
 - (id);
+- (void)ýøÿÔýøÿøýøÿlþøÿþøÿ´þøÿðþøÿÿøÿHÿøÿÿøÿ¨ÿøÿÌÿøÿðÿøÿÐ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

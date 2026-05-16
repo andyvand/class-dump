@@ -15,18 +15,17 @@
 }
 
 + (id);
-- (void)tsInstance;
+- (void);
 - (id);
-- (void);
-- (id)0@ù
+- (id);
+- (id);
+- (void)1Â0@ù
 × ;
-- (void)!à@ù±Ë°1¢!0@ù
-× ;
-- (void)pshotter";
-- (void);
-- (id)= %g; verticalPriority = %g >;
-- (_Bool)gradientCarousel;
-- (id);
+- (_Bool)äÓ;
+- (id)elConfiguration_hasCustomized_disabledTextColor;
+- (void) !$%0145;
+- (void)tb;
+- (void)l';
 
 // Remaining properties
 @property(retain, nonatomic) NSSymbolContentTransition *contentTransition; // @synthesize contentTransition=_contentTransition;

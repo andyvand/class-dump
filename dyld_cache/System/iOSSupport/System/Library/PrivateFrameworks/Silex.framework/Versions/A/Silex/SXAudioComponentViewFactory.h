@@ -21,11 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)channelSectionDirectory;
-- (id)!Cù¤1¢!0@ù
-× ;
-- (int)R;
+- (id);
+- (id);
+- (int);
+- (void)butesProvider>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

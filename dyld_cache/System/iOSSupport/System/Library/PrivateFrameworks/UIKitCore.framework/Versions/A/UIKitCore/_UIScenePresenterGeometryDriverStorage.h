@@ -11,10 +11,10 @@
     MISSING_TYPE *driver;
 }
 
-- (void)token %@;
-- (id)Data:(id)arg1 %@ so calling completion with success.;
 - (void);
-- (id)lidateFence;
+- (id);
+- (id);
+- (void)ØL¥ÿè)øYl;
 
 @end
 

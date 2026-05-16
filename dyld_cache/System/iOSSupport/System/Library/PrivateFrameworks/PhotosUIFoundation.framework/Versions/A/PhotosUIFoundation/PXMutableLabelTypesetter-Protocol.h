@@ -7,7 +7,7 @@
 @class NSAttributedString;
 
 @protocol PXMutableLabelTypesetter
-- (void)bitemIndexPathsUsingBlock:(NSAttributedString *)arg1;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontSizeToFitWidth;

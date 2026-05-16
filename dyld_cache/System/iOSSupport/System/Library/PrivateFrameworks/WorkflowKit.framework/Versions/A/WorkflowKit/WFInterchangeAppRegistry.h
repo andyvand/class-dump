@@ -19,9 +19,9 @@
     NSMutableDictionary *_observersByIdentifier;
 }
 
-+ (id)°myl¬Ö0%EÉ;
 + (id);
 + (id);
++ (id)LManipulationAdditions_Deprecated;
 - (int);
 - (void);
 - (void);
@@ -43,18 +43,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)éN;
+- (void)Whatâs the subject? (WFSendEmailActionSubject);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *actions; // @synthesize actions=_actions;

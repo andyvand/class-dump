@@ -20,24 +20,26 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)!;
-- (id)LECT payload FROM objects WHERE identifier = @identifier AND person_id = @personID AND source = @source LIMIT 1;
-- (void);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (double)TrackingIgnoredTouchWithId:currentPoint:whenReady: /* Error: Ran out of types for this method. */;
-- (id)fectiveTitleAttributes;
-- (void)ment: /* Error: Ran out of types for this method. */;
-- (id)dding;
-- (_Bool)eedbackConfiguration;
-- (void)iÐÿ¨hÔwO];
 - (id);
-- (void)Éÿ¸®È!é_;
-- (void)ÛSÎ¦÷c;
-- (void)È«¡ÿ·&îk;
-- (_Bool)Ù3l;
+- (void);
+- (id);
+- (double)1Â0@ù
+× ;
+- (void)°!8Cùqb1Â0@ù
+× ;
+- (id)
+× ;
+- (void)AssistingFormNode;
+- (void)ntroller:(id)arg1 parentWidth: /* Error: Ran out of types for this method. */;
+- (_Bool)the section insets left and right values, minus the content insets left and right values.;
+- (void);
+- (_Bool)u§»é»ý@;
+- (id);
+- (void)playMode;
+- (id)Ø!^;
+- (void)ÿ;
+- (void)Ò»h;
+- (void)°o;
 
 // Remaining properties
 @property(readonly) _Bool _canceled; // @synthesize _canceled=m_canceled;

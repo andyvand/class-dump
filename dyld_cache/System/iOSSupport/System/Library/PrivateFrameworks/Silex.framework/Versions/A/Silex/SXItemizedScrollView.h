@@ -42,16 +42,16 @@
 - (unsigned long long);
 - (id);
 - (struct _NSRange);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)der:componentStyleRendererFactory:analyticsReportingProvider:appStateMonitor:resourceDataSourceProvider:host: /* Error: Ran out of types for this method. */;
+- (void)8@0:8@"SXDataDescriptor"16B24 /* Error: Ran out of types for this method. */;
+- (void)i;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *activeView;

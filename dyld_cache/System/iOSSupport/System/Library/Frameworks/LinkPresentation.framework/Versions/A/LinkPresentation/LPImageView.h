@@ -26,23 +26,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)V;
-- (long long)(;
+- (_Bool);
+- (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (id)q@;
+- (id);
 - (void);
-- (void));
-- (double);
 - (void);
 - (long long);
 - (struct CGSize);
-- (id)ÿÿ;
+- (id);
+- (double);
+- (void);
 
 @end
 

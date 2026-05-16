@@ -5,6 +5,5 @@
 //
 
 @protocol ENTProtocol
-- (double);
 @end
 

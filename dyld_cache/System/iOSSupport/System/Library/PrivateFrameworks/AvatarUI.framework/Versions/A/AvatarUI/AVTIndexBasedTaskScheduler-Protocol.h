@@ -5,7 +5,5 @@
 //
 
 @protocol AVTIndexBasedTaskScheduler
-- (void);
-- (void)uestForCustomAvatarsWithLimit:(void (^)(void (^)(void)))arg1;
 @end
 

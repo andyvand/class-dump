@@ -8,18 +8,21 @@
 
 @interface FTRecentsListViewController
 {
+    MISSING_TYPE *$__lazy_storage_$_renderingMode;
     MISSING_TYPE *macCatalystDelegate;
     MISSING_TYPE *recentCallProvider;
     MISSING_TYPE *detailControllerFactory;
     MISSING_TYPE *avatarViewControllerSettings;
     MISSING_TYPE *conversationManager;
     MISSING_TYPE *indexPathForMenu;
+    MISSING_TYPE *logger;
     MISSING_TYPE *$__lazy_storage_$_callCreator;
     MISSING_TYPE *meCardSharingSettingsViewControllerObserver;
     MISSING_TYPE *callItemBlockContactsDelegate;
     MISSING_TYPE *contactAvatarCustomConfig;
     MISSING_TYPE *videoMessagesSink;
     MISSING_TYPE *autoplaySink;
+    MISSING_TYPE *useAlternativeRenderingForCellsObservation;
     MISSING_TYPE *linkCoordinator;
     MISSING_TYPE *faceTimeReportSpamManager;
     MISSING_TYPE *spamAlertBuilder;
@@ -50,7 +53,7 @@
     MISSING_TYPE *isFaceTimeLaunchPageEnabled;
     MISSING_TYPE *touchBarController;
     MISSING_TYPE *contactPreview;
-    MISSING_TYPE *$__lazy_storage_$_linkController;
+    MISSING_TYPE *linkController;
     MISSING_TYPE *$__lazy_storage_$_sensitiveContentTipViewModel;
     MISSING_TYPE *$__lazy_storage_$_dataSource;
     MISSING_TYPE *$__lazy_storage_$_supplementaryViewProvider;
@@ -105,23 +108,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)dX;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id)ÜÝ¬GÍ;
-- (void)Â­yAAyAAyAAyÍ¯y¼Ó¯yAAyAAyPÓ­³Í­y¥Î­SgGGADy)Ó­GGG_XE;
-- (void)@;
-- (void);
+- (void);
+- (void)0§;
+- (id)8:(id)arg1 ýÿZøÿøÿvkøÿ;
+- (void);
+- (id)pacing;
+- (void);
+- (void);
 
 @end
 

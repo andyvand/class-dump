@@ -19,31 +19,31 @@
     MPMediaLibrary *_mediaLibraryOverrideForTestingOnly;
 }
 
-+ (id)};
-+ (id)tart"b1};
-+ (id)6@0:(id)arg1 8@16@24d32@40@48B56@60@68;
++ (id);
++ (id);
++ (id);
 + (_Bool);
-+ (_Bool)ID:] failed to fetch privateListeningSetting [routeID=nil] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)s;
+- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool)got;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)alendar event could not be loaded;
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (id)ilable;
+- (id);
+- (void)pertyEQPresetOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
+- (id)__MPModelRelationshipGenericRecordLabel__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

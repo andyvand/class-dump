@@ -9,7 +9,9 @@
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (UITargetedPreview *);
-- (void)LayerEffect"16;
+- (UITargetedPreview *)× ;
+- (UITargetedPreview *)aceholder;
+- (void)FillingMode;
+- (UITargetedPreview *)Dx@X;
 @end
 

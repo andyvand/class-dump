@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)A¯×%b;
++ (id);
 - (void);
-- (void);
-- (void);
+- (unsigned long long);
 - (double);
-- (double);
-- (_Bool)Ô ;
-- (unsigned long long)tonVisualProviderClass:position: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)0@ù
+× ;
+- (void){CGSize=dd},N,V_asymmetricFocusedSizeIncrease;
+- (double)X [;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,14 +18,15 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (void);
 - (id);
-- (void);
-- (void);
+- (long long);
 - (long long);
 - (void);
-- (unsigned long long)al/Library/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/tables/TSTEphemeralCellMap.m;
-- (void)ÿ4;
+- (void);
+- (void)
+× ;
+- (unsigned long long)ntWithPinning:isTail:selectionType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

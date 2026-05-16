@@ -21,30 +21,29 @@
     struct CGPoint _sourcePoint;
 }
 
-+ (id)notify:(id)arg1 ];
++ (id);
 - (struct CGPoint);
-- (void)t",&,N,V_deviceSupport;
-- (void)@"CKServerChangeToken",&,N;
-- (void)edMessageFailure:(id)arg1;
-- (void)undle;
-- (void)aemonListenerFileProviderProtocol>",R,N;
-- (void)egate;
 - (void);
-- (long long)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)
-× ;
-- (void)alizedViewControllerForExtensionContextWithError:(id)arg1;
-- (id)ut;
-- (id)qÿÿèýÿ(ýÿî«üÿ;
+- (id);
+- (void)edPadding;
+- (id)er.BatteryWidget;
+- (void)Kh;
 
 // Remaining properties
 @property(nonatomic, setter=_setDidHandoff:) _Bool _didHandoff; // @synthesize _didHandoff=__didHandoff;

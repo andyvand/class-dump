@@ -5,7 +5,6 @@
 //
 
 @protocol UIContextMenuInteractionCommitAnimating
-- (void)allocate data class/instance arrays;
 
 // Remaining properties
 @property(nonatomic) long long preferredCommitStyle;

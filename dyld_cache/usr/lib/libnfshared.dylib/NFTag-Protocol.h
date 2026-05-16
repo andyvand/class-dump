@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 @protocol NFTagA, NFTagB, NFTagF;
 
 @protocol NFTag
-- (id <NFTagA>)?ט;
-- (unsigned int);
-- (_Bool);
-- (NSString *);
-- (NSData *);
-- (unsigned int)d from GEOComposedWaypoint for a non-EV waypoint. %@;
+- (NSData *)length field;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *AppData;

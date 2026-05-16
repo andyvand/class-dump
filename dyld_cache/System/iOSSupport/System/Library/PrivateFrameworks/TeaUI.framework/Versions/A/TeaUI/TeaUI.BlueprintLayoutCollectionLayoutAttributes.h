@@ -13,7 +13,6 @@
     MISSING_TYPE *rubberbandEdge;
     MISSING_TYPE *model;
     MISSING_TYPE *source;
-    MISSING_TYPE *isPlugin;
     MISSING_TYPE *layoutData;
     MISSING_TYPE *isEditing;
     MISSING_TYPE *isSelected;
@@ -25,10 +24,10 @@
     MISSING_TYPE *compositionalIndexPath;
 }
 
-- (_Bool)le to synchronize kerberos principal alias(es) '%@';
 - (id);
-- (void);
-- (id)ingWithAncestor:isFirst:isLast:sawAXElement: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (void);
 
 @end
 

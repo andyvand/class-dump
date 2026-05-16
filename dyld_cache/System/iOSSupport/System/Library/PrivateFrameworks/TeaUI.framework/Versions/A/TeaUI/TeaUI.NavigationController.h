@@ -10,10 +10,10 @@
 
 - (_Bool);
 - (id);
-- (id)hWithPath:(id)arg1;
-- (id)RL;
 - (id);
-- (void)er:(_Bool)arg1 shouldRecognizeSimultaneouslyWithGestureRecognizer:(_Bool)arg2;
+- (id);
+- (id);
+- (void);
 
 @end
 

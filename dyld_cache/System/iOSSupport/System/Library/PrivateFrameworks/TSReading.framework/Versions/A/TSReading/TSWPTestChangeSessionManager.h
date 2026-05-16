@@ -15,7 +15,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)sMixedLineShadowProperty;
+- (id)á~!À@ù±1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isTrackingChanges;

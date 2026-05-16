@@ -17,21 +17,21 @@
     long long _colorUserInterfaceStyle;
 }
 
-- (void)t;
-- (void)tes);
-- (void)mpletion handler. Tasks:(double)arg1 %{public}@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (long long);
 - (double);
-- (_Bool)teRowsWithIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id)SliceIDsToRemoveForCommittedTokenColumnCount:forceRemoveAll: /* Error: Ran out of types for this method. */;
+- (void)Document;
+- (void)$;
 
 // Remaining properties
 @property(nonatomic) double colorMaximumLinearExposure;

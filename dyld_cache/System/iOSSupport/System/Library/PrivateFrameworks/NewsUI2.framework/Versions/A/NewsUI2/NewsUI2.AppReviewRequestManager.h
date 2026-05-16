@@ -19,9 +19,9 @@
     MISSING_TYPE *$__lazy_storage_$_appReviewRequestConfig;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

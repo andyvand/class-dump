@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _UIKeyboardInputModeSwitchContext *_inputModeSwitch;
 }
 
-+ (id)as missing a service when loaded from the database.;
++ (id);
 - (void);
 - (id);
-- (void);
+- (void)éj434Úsþ;
 
 // Remaining properties
 @property(retain, nonatomic) _UIKeyboardInputModeSwitchContext *inputModeSwitch; // @synthesize inputModeSwitch=_inputModeSwitch;

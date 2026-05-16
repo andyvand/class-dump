@@ -36,27 +36,29 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (void);
 - (double);
 - (void);
-- (id)ions: /* Error: Ran out of types for this method. */;
-- (void)iëÿÿ;
+- (void)!ÄCùÑ"°1â
+0@ù
+× ;
+- (void)Font;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)}Ûº¨m;
+- (id)andleKeyboardChange:(id)arg1 set currentKeyboard:%s (wasKeyboard:%s) /* Error: Ran out of types for this method. */;
 
 @end
 

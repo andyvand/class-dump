@@ -13,19 +13,19 @@
     NSAttributedString *_satelliteNoNotificationTitleLabelAttributedText;
 }
 
-- (void)mageForResource: /* Error: Ran out of types for this method. */;
-- (BOOL)rrentEventTabOrBackTab;
-- (void)ngTables;
-- (id);
+- (void);
+- (BOOL);
+- (void);
+- (id);
 - (id);
 - (struct CGSize);
 - (id);
-- (id)r;
+- (id);
 - (_Bool);
-- (Class);
 - (struct UIEdgeInsets);
-- (void);
-- (unsigned long long)essageGUID:chatGUID: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long)BalloonView";
+- (void)Ì;
 
 // Remaining properties
 @property(readonly, nonatomic) IMSatelliteSuppressedNotificationChatItem *imSatelliteSuppressedNotificationChatItem;

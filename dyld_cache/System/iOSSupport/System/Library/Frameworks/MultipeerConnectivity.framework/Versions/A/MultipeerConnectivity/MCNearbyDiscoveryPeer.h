@@ -30,15 +30,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (int);
-- (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)asIdentitySet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MCNearbyDiscoveryPeerConnection *connection; // @synthesize connection=_connection;

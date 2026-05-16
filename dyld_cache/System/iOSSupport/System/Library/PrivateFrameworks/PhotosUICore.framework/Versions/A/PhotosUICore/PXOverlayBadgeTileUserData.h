@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (unsigned long long)Gñn"yAGGGGÎ¸$GG;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeOptions; // @synthesize badgeOptions=_badgeOptions;

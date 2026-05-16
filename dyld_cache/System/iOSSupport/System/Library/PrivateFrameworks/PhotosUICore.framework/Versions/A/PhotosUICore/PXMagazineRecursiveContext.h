@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)y-;
 
 // Remaining properties
 @property(retain, nonatomic) PXNewMagazineRectArray *fallbackRectArray; // @synthesize fallbackRectArray=_fallbackRectArray;

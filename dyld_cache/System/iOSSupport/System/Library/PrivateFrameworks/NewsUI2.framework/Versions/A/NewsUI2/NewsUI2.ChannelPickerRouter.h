@@ -12,6 +12,8 @@
     MISSING_TYPE *resolver;
     MISSING_TYPE *tracker;
     MISSING_TYPE *featureAvailability;
+    MISSING_TYPE *localRegionManager;
+    MISSING_TYPE *appConfigManager;
 }
 
 @end

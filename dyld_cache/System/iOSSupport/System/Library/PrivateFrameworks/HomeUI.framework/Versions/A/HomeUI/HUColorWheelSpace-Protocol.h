@@ -5,8 +5,6 @@
 //
 
 @protocol HUColorWheelSpace
-- (unsigned long long)Ñ01b0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long mirroringBiasAxis;

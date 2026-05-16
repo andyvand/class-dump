@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)OneUpSharePlayAssetMetadata;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAssetFetchResult> bestSongSuggestions; // @synthesize bestSongSuggestions=_bestSongSuggestions;

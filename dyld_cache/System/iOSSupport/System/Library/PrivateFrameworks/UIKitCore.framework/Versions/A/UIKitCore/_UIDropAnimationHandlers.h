@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)BTÉÀ¾NêËÒÎ@;
-- (void)*_;
+- (void)"8Q16^B24;
+- (void)ÐK;
+- (void)^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alongsideAnimationHandlers;

@@ -22,12 +22,10 @@
     MISSING_TYPE *evergreenMultiplier;
     MISSING_TYPE *featuredMultiplier;
     MISSING_TYPE *halfLifeCoefficient;
-    MISSING_TYPE *nicheContentMultiplier;
     MISSING_TYPE *multiplierDampener;
     MISSING_TYPE *mutedVoteDampener;
     MISSING_TYPE *contentTriggerDampener;
     MISSING_TYPE *nicheContentScores;
-    MISSING_TYPE *aggregateTriggerScoresByID;
     MISSING_TYPE *personalizedScore;
     MISSING_TYPE *qualitativeMultiplier;
     MISSING_TYPE *rawPersonalizedScore;

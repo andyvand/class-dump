@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (long long)umIdentifier: /* Error: Ran out of types for this method. */;
-- (id)tWithUniqueId:domainId:absoluteTimestamp:title:notes:isAllDay:completionDateTimestamp:dueDateTimestamp:priority:contentProtection: /* Error: Ran out of types for this method. */;
-- (void);
+- (long long);
+- (id);
+- (void)",R,N,V_remoteCommandCenter;
 
 // Remaining properties
 @property(nonatomic) long long currentShuffleType; // @synthesize currentShuffleType=_currentShuffleType;

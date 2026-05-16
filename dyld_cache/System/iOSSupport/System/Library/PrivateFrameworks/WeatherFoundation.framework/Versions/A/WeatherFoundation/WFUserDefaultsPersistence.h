@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
     NSUserDefaults *_userDefaults;
 }
 
-- (_Bool)1?נB;
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool)(F;
-- (id);
+- (_Bool);
 - (id);
-- (void)aqiScaleRetrievalCompletionBlock;
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)Date;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

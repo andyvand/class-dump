@@ -5,6 +5,6 @@
 //
 
 @protocol NSXPCProxyCreating
-- (id);
+- (id)criptionServiceTypeP;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol RTLearnedLocationEngineProtocol
+
+@optional
+- (void)%.2f, is greater than the Threshold, %.2f;
 @end
 

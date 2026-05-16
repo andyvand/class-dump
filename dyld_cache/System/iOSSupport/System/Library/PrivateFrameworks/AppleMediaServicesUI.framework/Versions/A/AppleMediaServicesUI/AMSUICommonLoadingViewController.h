@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ithHeaderImage:titleText:descriptionText:primaryButtonText:secondaryButtonText:privacyLinkController: /* Error: Ran out of types for this method. */;
+- (void)\i;
+- (void)\jèÿ`Øö;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUILoadingView *loadingView; // @synthesize loadingView=_loadingView;

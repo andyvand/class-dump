@@ -11,14 +11,14 @@
     MISSING_TYPE *context;
 }
 
-+ (id)UserEvent.skip - identifier: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)lic}s] performSetQueue(event:%{public}@) | disconnecting queue controller [load failed] queueController=%{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)andleItemResumeEvent:cursor:- could not find queueSectionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

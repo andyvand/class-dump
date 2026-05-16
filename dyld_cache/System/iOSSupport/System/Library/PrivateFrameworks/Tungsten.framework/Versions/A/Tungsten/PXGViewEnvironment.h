@@ -33,16 +33,16 @@
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
+- (_Bool);
 - (id);
 - (id);
-- (long long);
-- (id)v40@?0{_PXGSpriteIndexRange=II}8^{?={?=ddd}}16^{?=f{?=(?={?=ffff}[4f])}ffffSCf{?=[4]}}24^{?=CCfqSC}32;
+- (id);
+- (void);
+- (id)old: /* Error: Ran out of types for this method. */;
+- (long long)alBuffer;
+- (_Bool)r;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool accessibilityEnabled; // @synthesize accessibilityEnabled=_accessibilityEnabled;

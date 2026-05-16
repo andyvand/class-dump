@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned int);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *longname; // @synthesize longname=_longname;

@@ -34,9 +34,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)isNetworkAvailable;
+- (id);
+- (void)ÿC;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allOperations;

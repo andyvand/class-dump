@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
     NSArray *_eventStreamConsumers;
 }
 
-- (id), isInGoodStateForRepair:(id)arg1 %@, wasModified:(id)arg2 %@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)_;
+- (id);
+- (void)c}@] sectionedIdentifierList:dataSourceDidUpdateItems:inSection:| committing edit [data source updated items] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAudioSession *audioSession; // @synthesize audioSession=_audioSession;

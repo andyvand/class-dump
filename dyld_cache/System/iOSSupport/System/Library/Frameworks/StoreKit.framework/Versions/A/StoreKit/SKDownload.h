@@ -20,24 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (void)GG_Qo_AMG_Qo__Qo_;
+- (void);
 - (void);
 - (long long);
 - (void);
 - (id);
+- (id);
+- (id);
 - (long long);
-- (void);
+- (id);
+- (long long);
 - (_Bool);
-- (double);
-- (id);
+- (void);
 - (void);
 - (long long);
-- (id)_;
 - (id);
-- (float)5˿;
-- (long long);
+- (float);
 - (id);
-- (id)NOWN_ERROR;
+- (double);
 - (void);
 
 // Remaining properties

@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)MðM\N¸NO;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *accessoryPickerViewController; // @synthesize accessoryPickerViewController=_accessoryPickerViewController;

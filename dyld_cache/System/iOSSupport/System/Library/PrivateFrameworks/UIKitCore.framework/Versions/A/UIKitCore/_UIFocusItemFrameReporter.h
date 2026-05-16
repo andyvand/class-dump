@@ -16,19 +16,19 @@ __attribute__((visibility("hidden")))
     UIFocusSystem *_focusSystem;
 }
 
-- (void)ForPersonCentricID: /* Error: Ran out of types for this method. */;
-- (void)Fields:(struct CGRect)arg1;
-- (void)edMessageSound;
-- (_Bool)atedWithProperties:(struct CGRect)arg1 withAuditToken:(struct CGRect)arg2;
-- (struct CGRect)X;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (id)i;
-- (void)pping for MPModelRelationshipAlbumRepresentativeSong;
 - (void);
-- (void)eSwipeActionsInvalidationWithContext:(_Bool)arg1;
-- (_Bool)Qï;
+- (id);
+- (_Bool);
+- (void)dler && self.reuseIdentifierProvider);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

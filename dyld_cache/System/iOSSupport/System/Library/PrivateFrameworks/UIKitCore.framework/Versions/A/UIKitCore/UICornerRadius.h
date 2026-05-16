@@ -14,14 +14,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)%;
-- (void);
-- (long long)eam:handleEvent: /* Error: Ran out of types for this method. */;
-- (_Bool)setSortUsingAllowedItemIdentifiers:(id)arg1;
++ (_Bool)Context(void)_block_invoke;
 - (id);
 - (id);
-- (id)tDeliveryID;
-- (id)tWpY;
+- (id);
+- (long long);
+- (_Bool)xtPositionByCharacterOffset:(id)arg1;
+- (void)leAlpha:(id)arg1;
+- (id)(ÕÕDÖ°Ö;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

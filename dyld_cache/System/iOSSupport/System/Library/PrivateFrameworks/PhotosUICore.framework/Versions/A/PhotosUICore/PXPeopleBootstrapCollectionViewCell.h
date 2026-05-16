@@ -34,17 +34,18 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)BestContentIntervalAtDate:numberOfDays:options: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)ÿ4YLøW7;
+- (id)0@ù
+× ;
+- (id)oducer>";
+- (void)lectMode;
+- (_Bool)rchTerms;
+- (void)Ðÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *badgeView; // @synthesize badgeView=_badgeView;

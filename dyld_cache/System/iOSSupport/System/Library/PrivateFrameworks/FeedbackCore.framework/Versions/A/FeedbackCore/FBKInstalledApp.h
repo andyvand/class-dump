@@ -18,20 +18,19 @@
 + (id);
 + (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (id)Size;
 
 // Remaining properties
 @property(readonly) NSNumber *adamID;

@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -22,27 +22,28 @@
 - (void);
 - (void);
 - (void);
-- (void)T;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (struct CGPoint);
-- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)MapCellStylePropertyMap:(struct CGColor *)arg1;
-- (void)loatingAboveText;
 - (void);
-- (void),&¸&;
-- (void)rying to draw merged cell other than origin.;
-- (struct CGPoint)etainedObject(TSSPropertyEntry *, TSSProperty, id);
-- (void),;
-- (void)ÿÿ;;
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)°1Â0@ù
+× ;
+- (struct CGPoint)PHyperlinkField"16;
+- (void)on"16@"UITextPosition"24;
+- (void)r layer class (%@)!;
 
 // Remaining properties
 @property(copy) NSArray *colors;

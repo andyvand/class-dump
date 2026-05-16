@@ -20,14 +20,14 @@
 }
 
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (float)k;
+- (void);
+- (float);
 - (id);
 - (id);
 - (_Bool);
@@ -36,29 +36,29 @@
 - (id);
 - (void);
 - (void);
-- (void)e;
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

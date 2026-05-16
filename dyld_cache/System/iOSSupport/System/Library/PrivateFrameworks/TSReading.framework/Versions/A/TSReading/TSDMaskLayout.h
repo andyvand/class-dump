@@ -66,9 +66,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (struct CGPath *)InfoTransfer: /* Error: Ran out of types for this method. */;
-- (void)Ä£úÿ¸%W%;
+- (struct CGPath *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSmartPath;

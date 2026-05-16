@@ -12,6 +12,7 @@
     MISSING_TYPE *_loadingState;
     MISSING_TYPE *_entries;
     MISSING_TYPE *_totalEntriesCount;
+    MISSING_TYPE *reason;
     MISSING_TYPE *source;
     MISSING_TYPE *maximumBatchLimit;
 }

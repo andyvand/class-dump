@@ -75,23 +75,23 @@
 - (id);
 - (struct CGSize);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)onary"16@"<PBFPosterExtensionDataStorageMutating><PBFPosterExtensionDataStorageRetrieving>"24^@32;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PBFDisplayContext> activeDisplayContext; // @synthesize activeDisplayContext=_activeDisplayContext;

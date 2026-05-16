@@ -8,12 +8,7 @@
 @protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
 
 @protocol FCNewsAppConfigurationManager
-- (void);
-- (id <FCNewsAppConfiguration>)ÿÿÿÿP;
-- (void)Search In Article;
-
-@optional
-- (id <FCNewsAppConfiguration><FCJSONEncodableObjectProviding>)usr/lib/swift/libswiftUniformTypeIdentifiers.dylib;
+- (id <FCNewsAppConfiguration>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;

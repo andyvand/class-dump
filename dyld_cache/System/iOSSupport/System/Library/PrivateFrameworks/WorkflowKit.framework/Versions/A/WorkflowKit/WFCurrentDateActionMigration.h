@@ -14,10 +14,10 @@
 }
 
 + (_Bool);
-- (void)myl«°myl¬Ö0%EÉ;
 - (void);
-- (void);
-- (id)up;
+- (void)¤ ÷|;
+- (void)ction here;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;

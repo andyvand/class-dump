@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (double);
 
 // Remaining properties

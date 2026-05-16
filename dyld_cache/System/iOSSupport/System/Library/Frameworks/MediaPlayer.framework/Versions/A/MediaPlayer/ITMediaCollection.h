@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
     ITMediaItem *_representativeItem;
 }
 
-- (_Bool)scriptionMarkerForStream:(unsigned long long)arg1;
-- (void)ceSubTypeAsString:(CDUnknownBlockType)arg1;
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long)operty;
+- (unsigned long long);
+- (void)ð1Â0@ù
+× ;
+- (void)rror",R,N,V_cancelationError;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

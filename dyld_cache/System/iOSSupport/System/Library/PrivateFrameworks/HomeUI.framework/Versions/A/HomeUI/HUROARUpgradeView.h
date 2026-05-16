@@ -40,20 +40,20 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)0:8@"UICollectionView"16@"NSIndexPath"24 /* Error: Ran out of types for this method. */;
-- (void)tInRange:(id)arg1 replacementText: /* Error: Ran out of types for this method. */;
-- (id)ectionLayoutSection"24@?0q8@"<NSCollectionLayoutEnvironment>"16;
-- (id);
-- (void)_öÒ0;
+- (void)rItemManager";
+- (id)rview;
+- (id)ler;
+- (void)upBannerLocksUserOnboarding_Details_All;
+- (id)onGridModuleController;
+- (void)ÿM;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

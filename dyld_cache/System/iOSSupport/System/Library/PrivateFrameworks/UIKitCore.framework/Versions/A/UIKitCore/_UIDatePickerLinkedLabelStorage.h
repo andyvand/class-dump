@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
     NSCache *_sizeCache;
 }
 
-- (struct CGSize)CKRelatedDefaults;
-- (void)rdZoneChangesCompletionWithError:(long long)arg1 completionBlock:(id)arg2;
-- (void)verBagOrDefault:(struct CGSize)arg1;
-- (void)ta: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 - (void);
 - (void);
-- (_Bool)sationManager registered;
-- (void)count added %@, adding corresponding IDSAccount %@;
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (unsigned long long);
-- (id)traints;
+- (void);
 
 @end
 

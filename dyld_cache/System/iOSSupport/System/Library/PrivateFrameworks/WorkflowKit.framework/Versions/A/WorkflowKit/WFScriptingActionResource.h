@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ion is trying to delete %@, which is not allowed.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

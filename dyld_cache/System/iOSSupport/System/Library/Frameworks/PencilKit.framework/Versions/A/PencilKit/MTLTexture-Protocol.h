@@ -7,20 +7,14 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (long long)%;
-- (id <MTLTexture>);
-- (struct __IOSurface *)screentime with changed Types %{public}@;
-- (unsigned long long)lyticsDict;
-- (id <MTLTexture>).j;
-- (id <MTLResource>)BCBFD7ABCCFB491369827E4E6338C4D17RelativeTimeFrame;
-- (long long)rlyingMessageData;
-- (unsigned long long)&	;
-- (unsigned long long);
-- (id <MTLBuffer>);
-- (unsigned long long)1¢!0@ù
-× ;
-- (unsigned long long)llGestureShouldScroll;
-- (unsigned long long)View;
+- (unsigned long long)l;
+- (id <MTLBuffer>)¼;
+- (unsigned long long);
+- (unsigned long long)5;
+- (CDStruct_a06f635e)¤;
+- (_Bool)ke with Identifier %@ not found in stroke provider.;
+- (unsigned long long)ol to %@;
+- (unsigned long long)textbox;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;

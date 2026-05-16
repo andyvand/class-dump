@@ -4,17 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @interface SWLoader
 {
+    NSURL *_URL;
     CDUnknownBlockType _loadBlock;
 }
 
-+ (id)WarmingSheetPresenterType;
++ (id);
 - (CDUnknownBlockType);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
+@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) CDUnknownBlockType loadBlock; // @synthesize loadBlock=_loadBlock;
 
 @end

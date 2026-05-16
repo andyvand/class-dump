@@ -5,10 +5,7 @@
 //
 
 @protocol _TtPs9_NSNumber_
-- (const char *);
-- (float)to Int because it is either infinite or NaN;
-- (long long):Attempted to read an unowned reference but object %p was already deallocated
- /* Error: Ran out of types for this method. */;
+- (long long)ïÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double doubleValue;

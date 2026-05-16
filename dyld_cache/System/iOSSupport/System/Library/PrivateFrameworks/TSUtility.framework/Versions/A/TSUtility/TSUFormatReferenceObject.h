@@ -11,9 +11,9 @@
 
 - (CDStruct_95e644ef);
 - (id);
-- (_Bool);
 - (void);
 - (id);
+- (_Bool);
 
 @end
 

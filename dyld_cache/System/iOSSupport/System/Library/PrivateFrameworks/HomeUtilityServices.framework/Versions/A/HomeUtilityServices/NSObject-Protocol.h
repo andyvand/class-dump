@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)	
+;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

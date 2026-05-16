@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

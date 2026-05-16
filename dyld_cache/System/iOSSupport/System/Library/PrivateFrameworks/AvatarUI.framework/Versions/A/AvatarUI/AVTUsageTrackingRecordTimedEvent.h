@@ -16,17 +16,17 @@
 }
 
 - (double);
-- (void)3;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (_Bool);
+- (id);
 - (void);
-- (void);
-- (id)ors: /* Error: Ran out of types for this method. */;
 - (double);
-- (void),N,V_isDestructive;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *currentStartTime; // @synthesize currentStartTime=_currentStartTime;

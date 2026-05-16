@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
-- (id)äÿ;
+- (void)etWindowLevel: /* Error: Ran out of types for this method. */;
+- (id)fiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *artistLabel; // @synthesize artistLabel=_artistLabel;

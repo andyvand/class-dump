@@ -16,12 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
 - (id);
-- (void);
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
+- (void)pl$mmØm;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *statuses; // @synthesize statuses=_statuses;

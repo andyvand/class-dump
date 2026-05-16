@@ -14,21 +14,22 @@
     NSArray *_searchResults;
 }
 
-- (void)a was empty;
-- (void)ng begin;
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (long long);
 - (id);
-- (void);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
+- (void);
 - (id);
-- (id)aintCSg;
-- (void)6þÿ;
-- (void)ll to messageGUID:(id)arg1 %@, indexPath:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)9tjy<;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allPlugins; // @synthesize allPlugins=_allPlugins;

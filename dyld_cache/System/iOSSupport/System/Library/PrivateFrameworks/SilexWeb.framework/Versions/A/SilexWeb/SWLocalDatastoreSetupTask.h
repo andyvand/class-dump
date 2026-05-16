@@ -13,12 +13,12 @@
     id <SWScriptsManager> _scriptsManager;
 }
 
-- (id)roupKnobs;
-- (id)EmitterFactory;
+- (id);
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)olor;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWDatastoreManager> datastoreManager; // @synthesize datastoreManager=_datastoreManager;

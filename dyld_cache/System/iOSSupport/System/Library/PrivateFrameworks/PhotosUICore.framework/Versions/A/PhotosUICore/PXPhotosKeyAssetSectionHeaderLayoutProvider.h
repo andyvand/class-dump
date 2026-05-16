@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id):8 /* Error: Ran out of types for this method. */;
+- (void)¤ìvÿèÂ`;
+- (id)xä¨ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXPhotosBannerProvider> bannerProvider; // @synthesize bannerProvider=_bannerProvider;

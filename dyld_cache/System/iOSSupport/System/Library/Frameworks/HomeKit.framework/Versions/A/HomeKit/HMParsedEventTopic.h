@@ -50,10 +50,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)00-0026BB765291;
+- (void)´APB°B;
+- (id)onVersion;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accessoryEventTopicSuffixID;

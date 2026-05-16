@@ -56,6 +56,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -63,14 +66,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)0e;
-- (id)Ph9 mG;
-- (id);
-- (id);
-- (id)è6¼7Ì;ð;;
-- (unsigned long long)ÿ;
-- (id)f½3;
+- (id)initWithAssetCollection:type: /* Error: Ran out of types for this method. */;
+- (id)ÿùÿàùÿ;
+- (void)LemonadeFeaturedPhotosSectionHeaderTitle;
+- (id)mÉ8HPÿ;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assets; // @synthesize assets=_assets;

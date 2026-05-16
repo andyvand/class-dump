@@ -15,8 +15,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
+
+// Remaining properties
+@property(nonatomic) __weak id <LACContextProviding> contextProvider; // @synthesize contextProvider=_contextProvider;
 
 @end
 

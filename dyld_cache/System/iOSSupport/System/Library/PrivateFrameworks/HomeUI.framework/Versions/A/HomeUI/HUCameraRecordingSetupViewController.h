@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)lowReadableWidth: /* Error: Ran out of types for this method. */;
-- (void)ingFeedback:(id)arg1;
-- (void);
+- (void);
+- (void)32@?0@"CNLabeledValue"8Q16^B24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

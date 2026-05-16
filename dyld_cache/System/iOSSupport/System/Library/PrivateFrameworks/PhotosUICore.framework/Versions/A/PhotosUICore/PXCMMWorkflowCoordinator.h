@@ -41,13 +41,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)!$_pG;
-- (_Bool)ges;
-- (id);
-- (_Bool)Ö9;
+- (_Bool);
+- (id)Åyë;
+- (_Bool)lightLuminance;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

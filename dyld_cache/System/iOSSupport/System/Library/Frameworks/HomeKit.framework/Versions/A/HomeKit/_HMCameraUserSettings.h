@@ -20,8 +20,8 @@
     NSSet *_activityZones;
 }
 
-+ (id)l#($L'Ì'<)\+°, -;
-+ (_Bool);
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -38,22 +38,22 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id)llowHeySiri;
-- (id)\¸^;
-- (id)value from data:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (unsigned long long)"NSData";
+- (id)allowedCharacterSets;
+- (void)opying><NSSecureCoding>",R,C,V_value;
 
 // Remaining properties
 @property(copy) NSUUID *UUID; // @synthesize UUID=_UUID;

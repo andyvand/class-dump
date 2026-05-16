@@ -19,6 +19,8 @@
     MISSING_TYPE *alacartePaywallViewModelFactory;
     MISSING_TYPE *offerManager;
     MISSING_TYPE *purchaseModelFactory;
+    MISSING_TYPE *modalAdService;
+    MISSING_TYPE *bundleCampaignSessionManager;
 }
 
 @end

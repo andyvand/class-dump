@@ -23,20 +23,18 @@
 - (void);
 - (void);
 - (void);
-- (void)R4
-@;
+- (void);
+- (double);
+- (void);
+- (id);
 - (double);
 - (void);
 - (id);
 - (void);
-- (double)ngth;
 - (void);
-- (double)S°1¢!0@ù
-× ;
-- (double)reFlipped:includeCenterAttribute: /* Error: Ran out of types for this method. */;
-- (void)mationDuration;
-- (void)ondary thread when not waiting on a secondary thread layout / render and not eligible for background drawing;
-- (id)ìÿÞºWÁb;
+- (void);
+- (double);
+- (double)1WÑ;
 
 // Remaining properties
 @property(nonatomic) double absoluteCurrentTime; // @synthesize absoluteCurrentTime=mAbsoluteCurrentTime;

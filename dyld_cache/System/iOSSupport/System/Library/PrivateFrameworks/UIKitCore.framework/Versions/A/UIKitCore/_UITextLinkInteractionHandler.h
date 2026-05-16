@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)e:(_Bool)arg1 extraKeys:(CDUnknownBlockType)arg2;
-- (id)Suffix: /* Error: Ran out of types for this method. */;
-- (id)ble:(id)arg1;
-- (id)ssagePartBody;
-- (id)stenerFileTransfersProtocol>",R,N;
-- (id)eInterval: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

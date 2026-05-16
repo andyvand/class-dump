@@ -26,16 +26,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
 - (id);
-- (id)zêÿnõÆ´;
+- (id);
+- (id);
+- (void)characteristic types for item %@!;
+- (id)le.Done;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;

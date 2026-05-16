@@ -7,7 +7,7 @@
 @class UIKeyboardAutocorrectionController;
 
 @protocol UIKeyboardAutocorrectionObserver
-- (void)leResultChunkCount;
-- (void)eContainer:(UIKeyboardAutocorrectionController *)arg1;
+- (void)lback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
+- (void):(UIKeyboardAutocorrectionController *)arg1 atPosition:animated: /* Error: Ran out of types for this method. */;
 @end
 

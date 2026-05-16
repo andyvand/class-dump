@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)!;
+- (void);
 - (id);
 - (float);
 - (void);

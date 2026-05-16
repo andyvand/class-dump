@@ -7,7 +7,7 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
-- (UITraitCollection *);
+- (UITraitCollection *)er _removeTimerObjectAtIndexPath:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

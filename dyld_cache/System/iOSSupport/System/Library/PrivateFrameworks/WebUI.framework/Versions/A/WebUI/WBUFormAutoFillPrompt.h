@@ -13,9 +13,9 @@
 }
 
 + (void);
-+ (void)Fi:(id)arg1;
-- (void)imAggregateAcknowledgmentChatItem;
-- (void)lationSupportChanged:(id)arg1;
++ (void);
+- (void);
+- (void);
 - (void);
 
 @end

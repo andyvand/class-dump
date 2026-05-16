@@ -20,15 +20,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (float);
-- (float)	
-;
-- (float)´§;
+- (float);
+- (float);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIColor *UIColor;

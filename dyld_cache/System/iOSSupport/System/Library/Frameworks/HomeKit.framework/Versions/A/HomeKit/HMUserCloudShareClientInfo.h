@@ -11,12 +11,12 @@
     NSData *_accountAuthToken;
 }
 
-+ (_Bool)fce;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (void)atcherFactory;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *accountAuthToken; // @synthesize accountAuthToken=_accountAuthToken;

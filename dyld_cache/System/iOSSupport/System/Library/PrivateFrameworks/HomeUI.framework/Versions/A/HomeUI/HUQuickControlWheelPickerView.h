@@ -54,17 +54,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (id)Ñ.1b0@ù
-× ;
-- (void)setSeparateTileItem:(_Bool)arg1;
-- (id)e;
-- (void)}Ü÷+3;
-- (void);
+- (id);
+- (void)straints;
+- (void)Ø;
+- (void)tupCellSignIn;
+- (void)tadataCSgSo7NSErrorCSgIeyByy_;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *bottomGradientView; // @synthesize bottomGradientView=_bottomGradientView;

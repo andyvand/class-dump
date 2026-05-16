@@ -10,6 +10,8 @@
 @protocol CNUIContactCardActionsProvider
 
 // Remaining properties
+@property(nonatomic) _Bool allowsActions;
+@property(nonatomic) _Bool allowsEditing;
 @property(readonly) CNContact *contact;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"CNContact",?,R

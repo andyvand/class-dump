@@ -15,14 +15,14 @@
 }
 
 - (id);
-- (void)itWithFileName:(id)arg1 filePath:lowResFileName:lowResFilePath:metadata:contentIsSensitive: /* Error: Ran out of types for this method. */;
-- (id)y:restoringAttachments:retryCount:numAttachmentsDownloaded:transfers:completion: /* Error: Ran out of types for this method. */;
-- (double)MessageTimestamp;
+- (void);
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ollToVisible: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Ø@[;
 
 // Remaining properties
 @property(nonatomic, setter=_setMultiplier:) double _multiplier; // @synthesize _multiplier=__multiplier;

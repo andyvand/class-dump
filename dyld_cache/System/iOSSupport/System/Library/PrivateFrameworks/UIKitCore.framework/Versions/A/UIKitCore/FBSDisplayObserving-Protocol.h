@@ -5,10 +5,5 @@
 //
 
 @protocol FBSDisplayObserving
-
-@optional
-- (void)ctionHeaderHeights;
-- (void)nalizeLayoutTransition;
-- (void)et;
 @end
 

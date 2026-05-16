@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)igurationUnknown;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *hiddenBannerCount; // @synthesize hiddenBannerCount=_hiddenBannerCount;

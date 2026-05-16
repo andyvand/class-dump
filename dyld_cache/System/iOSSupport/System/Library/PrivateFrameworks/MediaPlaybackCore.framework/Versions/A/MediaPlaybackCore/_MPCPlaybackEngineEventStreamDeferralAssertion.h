@@ -20,15 +20,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (long long);
-- (void);
+- (id);
+- (_Bool)8¥H;
+- (void)tion=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

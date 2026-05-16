@@ -12,20 +12,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
+- (long long);
 - (double);
 - (double);
 - (double);
-- (double)berOfClass: /* Error: Ran out of types for this method. */;
-- (double)x;
-- (double)dioStationLive;
-- (long long)`
-;
-- (double);
-- (double);
-- (double)gateSupportsDidTap"b1"delegateSupportsDidReceiveTap"b1"delegateSupportsPrivateDidReceiveTap"b1"delegateSupportsDidReceiveSqueeze"b1"delegateSupportsPrivateDidReceiveSqueeze"b1"queriedDispatchBehavior"b1};
-- (id)rtOffset:(long long)arg1 horizontalVelocity:verticalVelocity:animator: /* Error: Ran out of types for this method. */;
-- (double);
-- (double)\;
+- (id);
+- (double)±Y°1Â0@ù
+× ;
+- (double)ionViewLayout:animated: /* Error: Ran out of types for this method. */;
+- (double)fo;
+- (double)missHostedSearchWithTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (double)´;
+- (double)ionStateReadonlyCoreListMetricsState;
+- (double)¼;
+- (double)wÝÿ¶5;
 
 @end
 

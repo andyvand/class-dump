@@ -42,8 +42,8 @@
 - (void);
 - (void);
 - (id);
-- (void)es;
-- (void)TAlarm;
+- (void);
+- (void)essUtility _canTimerManagerControl:withManager:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFActionSetItemProvider *actionSetItemProvider; // @synthesize actionSetItemProvider=_actionSetItemProvider;

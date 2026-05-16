@@ -20,15 +20,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)POwner;
-- (id)s/SPOwner.framework/Versions/A/SPOwner;
-- (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void)ccount rectification [%{public}@] sectionID=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;

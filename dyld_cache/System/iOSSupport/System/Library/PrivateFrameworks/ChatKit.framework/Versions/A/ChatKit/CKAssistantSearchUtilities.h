@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (struct __CFString *);
++ (struct __CFString *);
 
 @end
 

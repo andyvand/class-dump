@@ -15,9 +15,9 @@
     CDUnknownBlockType _dismissalHandler;
 }
 
-+ (id)Ûw0 ï1;
-- (void)lar;
-- (void).badge.checkmark;
++ (id)StringResolver;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,19 +25,19 @@
 - (void);
 - (void);
 - (void);
-- (id)rmBarUpdater;
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)BùÃð1¢!0@ù
-× ;
-- (void)leBounds: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)_SYNDICATION_DETAIL_DESCRIPTION_MAC;
-- (void)0;
+- (id);
+- (CDUnknownBlockType);
+- (void)ÿÿÿÿ;
+- (void)ð\eÿ±A6;
+- (void)N:(id)arg1 
+0;
+- (void)ï[ÿ5[4L3;
 
 // Remaining properties
 @property(retain, nonatomic) UIPopoverPresentationController *currentPresentationController; // @synthesize currentPresentationController=_currentPresentationController;

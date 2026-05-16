@@ -26,8 +26,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)6MìòÌ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *menuItems; // @synthesize menuItems=_menuItems;

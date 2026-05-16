@@ -11,13 +11,13 @@
     id <HFApplicationURLHandling> _applicationURLHandler;
 }
 
-+ (id)Àïÿ~ôL;
++ (id)DescriptionAirPurifier_OneOff;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)\\h¤À¡£°£;
 
 // Remaining properties
 @property(nonatomic) __weak id <HFApplicationURLHandling> applicationURLHandler; // @synthesize applicationURLHandler=_applicationURLHandler;

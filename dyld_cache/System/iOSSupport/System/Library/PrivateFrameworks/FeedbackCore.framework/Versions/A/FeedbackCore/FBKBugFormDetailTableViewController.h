@@ -32,8 +32,6 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -42,24 +40,26 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
+- (long long);
 - (void);
 - (void);
 - (long long);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void)ic}s] falling back to default team;
+- (void);
+- (void);
+- (void);
+- (id): /* Error: Ran out of types for this method. */;
+- (void)rs;
 
 // Remaining properties
 @property(retain, nonatomic) FBKAnswer *answer; // @synthesize answer=_answer;

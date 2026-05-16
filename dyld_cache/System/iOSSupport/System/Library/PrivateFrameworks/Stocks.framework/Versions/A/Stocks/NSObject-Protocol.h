@@ -7,12 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (oneway void);
-- (_Bool)^;
-- (unsigned long long)niformTypeIdentifiers.dylib;
-
-@optional
-- (NSString *)Cookie MODIFIED. oldCookie = %{public}@ | newCookie = %{public}@;
+- (struct _NSZone *)Ô ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

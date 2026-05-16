@@ -5,6 +5,8 @@
 //
 
 @protocol UIContentSizeCategoryAdjusting
+- (void)isible;
+- (_Bool)16^B24;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontForContentSizeCategory;

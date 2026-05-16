@@ -8,30 +8,6 @@
 
 @protocol VFXDrawCallContext
 
-@optional
-- (long long)* Gds) * Bt[tRow] * dScale;
-            wDt[iDst] = (Bdt[tRow] * G[i] + Bt[tRow] * Gdt) * Bs[sCol] * dScale;
-
-            if (find_second_partials) {
-                float Dsqr_inv = D[i]*D[i];
-
-                float Gdss = 2.0f * Dds[i] * Dsqr_inv * (G[i] * Dds[i] - Nds[i]);
-                float Gdst = Dsqr_inv * (2.0f * G[i] * Dds[i] * Ddt[i] - Nds[i] * Ddt[i] - Ndt[i] * Dds[i]);
-                float Gdtt = 2.0f * Ddt[i] * Dsqr_inv * (G[i] * Ddt[i] - Ndt[i]);
-
-                wDss[iDst] = (Bdss[sCol] * G[i] + 2.0f * Bds[sCol] * Gds + Bs[sCol] * Gdss) * Bt[tRow] * d2Scale;
-                wDst[iDst] = (Bt[tRow] * (Bs[sCol] * Gdst + Bds[sCol] * Gdt) + Bdt[tRow] * (Bds[sCol] * G[i] + Bs[sCol] * Gds)) * d2Scale;
-                wDtt[iDst] = (Bdtt[tRow] * G[i] + 2.0f * Bdt[tRow] * Gdt + Bt[tRow] * Gdtt) * Bs[sCol] * d2Scale;
-            }
-        }
-#endif
-    }
-}
-
-#endif /* OPENSUBDIV3_OSD_PATCH_BASIS_COMMON_H */
-
-;
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool depthOnly;
 // Preceding property had unknown attributes: ?

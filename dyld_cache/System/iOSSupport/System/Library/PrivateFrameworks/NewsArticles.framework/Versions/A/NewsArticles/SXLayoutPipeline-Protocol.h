@@ -7,7 +7,6 @@
 @protocol SXLayoutPipelineDelegate;
 
 @protocol SXLayoutPipeline
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXLayoutPipelineDelegate> delegate;

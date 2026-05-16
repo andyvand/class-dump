@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol PXDisplayPerson
-- (NSString *)x;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;

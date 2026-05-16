@@ -5,8 +5,5 @@
 //
 
 @protocol StockChartViewDelegate
-
-@optional
-- (void);
 @end
 

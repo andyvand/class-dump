@@ -21,10 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)IconModifierBrightness;
 
 // Remaining properties
 @property(retain, nonatomic) BSUIMappedImageCache *imageCache; // @synthesize imageCache=_imageCache;

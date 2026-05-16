@@ -23,9 +23,9 @@
 }
 
 + (id);
-+ (id)yW9y©7y[7y7x7y*7yAAyACyAEG37y%7SgGG_AAy¸7ALGÐ7tGGGGG_,|9Qo_t7y67GG;
-+ (id)ientIdentifier;
-+ (id);
++ (id);
++ (id);
++ (id)tion;
 - (long long);
 - (void);
 - (void);
@@ -64,20 +64,20 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id)
+- (void)
 × ;
-- (id)onImage;
-- (void)em-secondary-grouped-background;
-- (void)ethod for handleWindowRequest not found;
+- (void)mageViewHidden;
+- (id)houldBeRequiredToFailByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (_Bool)xportObject;
+- (void)173GG1GAGGAGG;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;

@@ -17,26 +17,23 @@
     NSSet *_secondaryRecipientIdentifiers;
 }
 
-- (void)$3;
 - (void);
-- (void)thYou.framework/SharedWithYou;
-- (id);
-- (id);
-- (id)ender file for:%s. Error:%@ /* Error: Ran out of types for this method. */;
-- (long long)in chat %@ marked as read:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)!x!ìBùqÍ1¢!0@ù
-× ;
-- (id)resentationExpected;
-- (void)6.3.6
-;
-- (id)vent;
-- (id)bÿ½Ý×ÏÔc;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)tivelyMovingItems: /* Error: Ran out of types for this method. */;
+- (id)dowSafeAreaAspectFitLayoutGuideAspectRatio;
+- (void);
+- (void)þa .;
 
 // Remaining properties
 @property(nonatomic) long long conversationType; // @synthesize conversationType=_conversationType;

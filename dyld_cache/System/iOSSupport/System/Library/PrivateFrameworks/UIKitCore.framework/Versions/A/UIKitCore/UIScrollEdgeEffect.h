@@ -21,15 +21,14 @@
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (id);
+- (void)16;
+- (_Bool)d_isHighlighted;
+- (void)entViewsNeedDisplay;
 - (void);
-- (void))°º;
-- (void)
-× ;
-- (id);
-- (_Bool)WillEnterNotification;
-- (id)erRadius;
-- (id);
-- (void)7èÊf6^;
+- (void);
+- (id)ôÀgÿÖqÕè]n;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *_color;

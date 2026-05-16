@@ -26,52 +26,52 @@
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (void)4~CG4qugCAwx2HRnOmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s23_srvr.c;
+- (_Bool);
 - (struct CGRect);
+- (double);
 - (void);
-- (void)Baseline;
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (struct CGPoint);
 - (void);
-- (void)^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)},N,V_hc;
-- (id)h routeSharingPolicy=%{public}lu routingContextUID=%{public}@;
-- (_Bool)%{public}@;
-- (void);
-- (void);
-- (void);
-- (void)Û{º;
-- (_Bool)O/ü¹;
+- (struct CGRect);
+- (id)1Â0@ù
+× ;
 - (id)
 × ;
-- (void)@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (id)ition"16;
-- (struct CGRect)outMonitor:didUpdateDisplayLayout:withContext: /* Error: Ran out of types for this method. */;
-- (void)entifier;
-- (id);
-- (CDUnknownBlockType)ctionBarSuffix;
-- (void)eViewControllerProxyToViewController;
-- (void)ledValue;
-- (id)inForToView;
-- (struct CGPoint)suspended;
-- (id)ITextViewVisualStyle",&,N,V_visualStyle;
-- (void)entSize:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)CustomizingItems;
-- (struct CGRect)nInitialLocation;
-- (CDUnknownBlockType)outOfRange;
-- (void)when on %s idiom. Substituting Stacked style.;
-- (void)tal lexicon:(id)arg1 %@
-;
-- (void)ideo;
-- (void)ager;
-- (_Bool);
 - (void);
-- (double)2;
-- (void)];
-- (id)çü];
+- (void)ù
+× ;
+- (void)ÔÁ!DùQcð1Â0@ù
+× ;
+- (id)tomRenderControllerCanConvertPointToRenderSpaceWithPosition"b1"customRenderControllerTextAnimatorForAnimation"b1"customRenderControllerCustomTextBounds"b1"delegateDidChangeCustomRenderBounds"b1"hasOverrideOfInsertTextSuggestion"b1"delegateWillBeginTextAssistantSession"b1"delegateDidEndTextAssistantSession"b1"delegateWritingToolsWillBegin"b1"delegateWritingToolsDidEnd"b1"delegateWritingToolsIgnoredRanges"b1"delegateWritingToolsUndoCoalescingWillBegin"b1"delegateWritingToolsUndoCoalescingDidEnd"b1"textStorageOverridesReplaceCharactersInRangeWithAttributedString"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions"b1"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions"b1};
+- (void)ions:(id)arg1;
+- (CDUnknownBlockType)ionInteractiveTransitionDuration;
+- (void)DimmingViewTapped;
+- (void)mationStructures;
+- (id)on;
+- (void)rdNotifications;
+- (void)ect;
+- (CDUnknownBlockType)umentTransform;
+- (void)isibleCellsUpdate;
+- (_Bool)tyHeaderElements:(id)arg1;
+- (void)d:(struct CGPoint)arg1;
+- (struct CGRect)ber",&,N,V_shouldUseAcceleration;
+- (void)ForPage:(id)arg1 enabled: /* Error: Ran out of types for this method. */;
+- (_Bool)self if a %@. viewController is a %@. navigationItem = %@;
+- (void)crollNotifications for collection view %@.;
+- (void);
+- (void);
+- (void)urrentHandle;
+- (void)alSize _UIScreenNativeDisplayBoundsSizeForType(_UIScreenType);
+- (CDUnknownBlockType);
+- (void);
+- (_Bool)eDelegate;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;

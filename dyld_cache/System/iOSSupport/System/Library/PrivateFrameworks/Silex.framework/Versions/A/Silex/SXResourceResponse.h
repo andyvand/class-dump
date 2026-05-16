@@ -15,12 +15,11 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)× ;
-- (id)ù¤ð1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void);
+- (id)sification;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

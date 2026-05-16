@@ -11,12 +11,13 @@
 }
 
 + (Class);
-- (_Bool);
-- (id)p;
-- (void);
-- (id)r<%d>:Web Content process was terminated /* Error: Ran out of types for this method. */;
 - (id);
-- (void)B40@0:(id)arg1 8{CGPoint=dd}16B32B36;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void)Ô	ð!Bù&1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor;

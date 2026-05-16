@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void)quest from a device that we do not recognize;
 - (void);
-- (void)¦ï	º;
+- (void);
+- (void)h^^;
 
 @end
 

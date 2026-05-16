@@ -26,15 +26,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)Q1°1b0@ù
-× ;
-- (void)"HMCameraClip"16@"NSURL"24;
-- (void)TB,N,V_didAttemptPasswordlessMethod;
+- (void);
+- (void)m12OClockForPoint:(_Bool)arg1;
+- (void)ashboardItemManager-_updateHomeDashboardWithHome:> home = %@ (uniqueIdentifier = %{public}@) | created new _context = %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;

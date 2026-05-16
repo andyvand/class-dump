@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)F;
-- (_Bool);
++ (Class);
+- (_Bool)±\ð1Â0@ù
+× ;
 
 @end
 

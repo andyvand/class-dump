@@ -16,11 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)lPropertyTVSeasonDownloadedDate__MAPPING_MISSING__;
-- (void);
-- (id)otion: /* Error: Ran out of types for this method. */;
-- (id)pdateEnabledCellsIncludingWMDCells: /* Error: Ran out of types for this method. */;
-- (id)dMetricsProvider;
+- (id);
+- (void)
+× ;
+- (id)astDeletionCountForFastDelete:(id)arg1;
+- (id)tWithDisplayConfiguration:displayEdgeInfo:exclusionArea: /* Error: Ran out of types for this method. */;
+- (void)_UIScrollPocketElement;
 
 @end
 

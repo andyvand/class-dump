@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
 - (void);
-- (void)oatingKeyboardEdgeInsets;
-- (void)llValuesFrom:(id)arg1;
-- (void);
+- (id)crease;
+- (void);
+- (void)ÿ »èÿÐÄèÿÅèÿ0ÅèÿlÅèÿ8ÇèÿÇèÿ´ÇèÿÔÈèÿÉèÿÉèÿ4ÉèÿXÉèÿÉèÿ¸ÉèÿôÉèÿ0ÊèÿTÊèÿÊèÿ´ÊèÿØÊèÿËèÿ Ëèÿ0ÌèÿTÌèÿÌèÿÄÌèÿXÍèÿ;
+- (void)4Çþÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,11 +15,11 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (id).11b;
+- (unsigned long long);
+- (id)dePersonalLinkedNotebooks;
+- (void)time is too far in advance.;
 
 // Remaining properties
 @property(readonly, nonatomic) WFInterchangeScheme *scheme; // @synthesize scheme=_scheme;

@@ -32,17 +32,17 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void)CE_FREQUENCY_MONTH;
 - (void);
 - (id);
-- (void);
+- (id);
+- (struct os_unfair_lock_s);
 - (int);
-- (void);
+- (_Bool);
 - (id);
-- (id);
 - (void);
-- (struct os_unfair_lock_s);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *blockObserversForUUID; // @synthesize blockObserversForUUID=_blockObserversForUUID;

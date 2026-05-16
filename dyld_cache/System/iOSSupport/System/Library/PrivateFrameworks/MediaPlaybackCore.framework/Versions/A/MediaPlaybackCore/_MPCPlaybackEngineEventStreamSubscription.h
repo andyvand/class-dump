@@ -23,27 +23,27 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_eventHandlers;
 }
 
-- (void)tStore"28@"ACAccount"36;
-- (void)unt"36;
 - (void);
-- (void);;
 - (void);
-- (id)objc_const;
+- (void);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id)RD;
+- (id);
 - (_Bool);
 - (void);
-- (void)�;
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void)@;
-- (id)teRestorationWithLoadingItemReady:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)gate of lease prevention [engineDidPauseForLeaseEnd:] - item:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)PlaybackContext:| adding data source [] sil=%{public}@ position=Last section=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCPlaybackEngineEventConsumer> consumer; // @synthesize consumer=_consumer;

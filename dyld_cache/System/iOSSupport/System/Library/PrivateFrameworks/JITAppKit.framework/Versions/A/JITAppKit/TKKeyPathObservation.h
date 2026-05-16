@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     NSString *_keyPath;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;

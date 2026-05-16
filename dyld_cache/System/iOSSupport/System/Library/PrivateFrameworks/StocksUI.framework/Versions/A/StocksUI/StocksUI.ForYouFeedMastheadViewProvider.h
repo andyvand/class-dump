@@ -17,8 +17,8 @@
     MISSING_TYPE *baseStyler;
 }
 
-- (void);
 - (id);
+- (void)Àùÿäùÿùÿ¨ùÿtùÿôùÿ;
 
 @end
 

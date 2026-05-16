@@ -32,17 +32,9 @@
 - (void);
 - (void);
 - (id);
+- (struct CGSize);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
 - (double);
-- (void);
 - (double);
 - (void);
 - (void);
@@ -50,23 +42,34 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (_Bool);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (double);
-- (void);
-- (double);
-- (id)0@ù
+- (id)1â
+0@ù
 × ;
-- (void)roller;
-- (void)sory %@ activation timer fired & is NOT activated - refreshing view to display unavailable text;
-- (struct CGSize)tWithUsageOptions] device = %@ (uniqueIdentifier = %{public}@) supportsHH2 = %{BOOL}d;
-- (long long)u;
-- (void);
-- (id)¨ÍîÿwLVÔW;
+- (void)á¯°!¨@ùñð1â
+0@ù
+× ;
+- (void)s;
+- (_Bool)soriesByStoreIDs;
+- (void);
+- (void),N,V_badgeSize;
+- (double)N,V_backgroundPlayheadView;
+- (id)odule;
+- (void)Äïð;
+- (long long)otosLibraryAccessNever;
+- (double)ListSection;
+- (void)ooter;
+- (void)ogrammableSwitchInAutomationTitle;
+- (void)wy¡GGACy§SgGG;
+- (long long)soryEventPickerViewController;
+- (_Bool)ÉP;
+- (long long);
+- (void)¯;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontForContentSizeCategory; // @dynamic adjustsFontForContentSizeCategory;

@@ -5,6 +5,5 @@
 //
 
 @protocol PKColorPickerCrosshairViewDelegate
-- (struct CGRect);
 @end
 

@@ -30,10 +30,10 @@
 }
 
 + (id);
-- (void)neFeedPoolIssue;
-- (void)|_;
 - (void);
-- (void)nfigManager;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -42,36 +42,36 @@
 - (void);
 - (void);
 - (void);
-- (void)RB;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)eWarning: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)(;
+- (_Bool);
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id)_escapeForIcuRegex;
-- (void);
-- (id);
-- (void)etSource:(id)arg1;
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)äQþÿøé;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *activePictureInPictureURL; // @synthesize activePictureInPictureURL=_activePictureInPictureURL;

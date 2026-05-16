@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSData, NSDictionary, NSString;
+@class CKRecordID, NSData;
 
 @protocol WFCloudKitItem
-+ (NSString *)xÌ"¤$ð$t&'X*L+¤-;
-+ (NSDictionary *)ce;
-
-@optional
-- (void);
-- (NSData *)éÌ;
 
 // Remaining properties
 @property(readonly, nonatomic) CKRecordID *identifier;

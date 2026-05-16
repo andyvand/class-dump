@@ -26,9 +26,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (struct CGRect);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *identifierSourceByDataSourceIdentifier; // @synthesize identifierSourceByDataSourceIdentifier=_identifierSourceByDataSourceIdentifier;

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     id _controlMessageTarget;
 }
 
-+ (id)quest to begin full sync checks %lu (reason %@);
-- (void);
-- (void);
++ (id);
+- (void)eFromContentFrame:(id)arg1 toContentFrame: /* Error: Ran out of types for this method. */;
+- (void)ggg_;
 
 @end
 

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)st ;
-- (void)userauth-keyboard-interactive request;
+- (long long)ytesUsingEncoding: /* Error: Ran out of types for this method. */;
+- (void)_block_invoke;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

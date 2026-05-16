@@ -5,7 +5,6 @@
 //
 
 @protocol PXDisplayFace
-- (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect normalizedCropRect;

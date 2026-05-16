@@ -20,12 +20,12 @@
 - (void);
 - (id);
 - (double);
+- (id);
+- (void);
 - (void);
 - (double);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);

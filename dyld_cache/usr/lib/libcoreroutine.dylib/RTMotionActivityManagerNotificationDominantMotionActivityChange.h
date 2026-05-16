@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)received forced exit signal;
 
 // Remaining properties
 @property(readonly, nonatomic) RTMotionActivity *dominantMotionActivity; // @synthesize dominantMotionActivity=_dominantMotionActivity;

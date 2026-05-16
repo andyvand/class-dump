@@ -18,11 +18,11 @@
 - (id);
 - (CDStruct_68723fc0 *);
 - (void);
-- (void);
-- (long long);
 - (unsigned long long);
+- (long long);
 - (id);
-- (unsigned long long)ge:fullState: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long)ollectionKindAnalyticsName;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource; // @synthesize assetsDataSource=_assetsDataSource;

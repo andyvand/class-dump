@@ -44,11 +44,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (long long);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

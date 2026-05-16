@@ -15,15 +15,15 @@
     long long _maximumNumberOfTrackedImages;
 }
 
-+ (id)~¡;
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAutoFocusEnabled) _Bool autoFocusEnabled; // @synthesize autoFocusEnabled=_autoFocusEnabled;

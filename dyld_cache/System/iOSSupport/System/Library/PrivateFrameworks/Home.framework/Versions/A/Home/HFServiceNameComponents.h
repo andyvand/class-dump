@@ -27,13 +27,13 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id)cache;
-- (void)FStatusSortKeyOutlet;
+- (void);
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (void)»;
+- (id)LJêÿE(Ý;
 
 // Remaining properties
 @property(nonatomic) _Bool allowRepeat; // @synthesize allowRepeat=_allowRepeat;

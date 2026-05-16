@@ -5,6 +5,5 @@
 //
 
 @protocol CKAppManagerViewControllerDelegate
-- (void);
 @end
 

@@ -24,23 +24,22 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void)0@ù
-× ;
-- (void)dDescriptionAttributionMarkdownStringWithContext:(id)arg1;
-- (id);
-- (id)Object<OS_nw_browse_result>"16B24;
-- (void)rus state for testing;
-- (void)11WorkflowKit37WFImagePlaygroundAvailabilityResource;
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)uts.airdropDestination;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFRemoteExecutionSessionDelegate> delegate; // @synthesize delegate=_delegate;

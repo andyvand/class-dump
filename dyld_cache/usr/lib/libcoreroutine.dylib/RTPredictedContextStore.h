@@ -13,10 +13,6 @@
 }
 
 + (long long);
-- (void):(id)arg1;
-- (void);
-- (void);
-- (void)P;
 - (void);
 - (void);
 - (void);
@@ -24,11 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)R);
-- (id);
-- (void)i9;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ing:(id)arg1 enumerationBlock;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

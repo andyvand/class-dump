@@ -8,7 +8,6 @@
 
 @interface NewsUI2.MagazineSectionBarBlueprintViewCellProvider
 {
-    MISSING_TYPE *categoryViewRenderer;
     MISSING_TYPE *pillViewRenderer;
     MISSING_TYPE *sectionSelection;
     MISSING_TYPE *offlineProvider;

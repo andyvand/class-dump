@@ -10,28 +10,12 @@
     long long _wordMatchMethod;
 }
 
-+ (id)Component> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)nifest '%c%c%c%c';
-- (void), data instance '%@', action '%d';
-- (void)kpRGRnIC0WqxAJc8Kg/GglZTtS
-D1b+vW194Fjgwn9nwBGaCQZgFdRXoVPYoi4U6M+DzOurGF0bm/OsNXptKwBuwoUP
-ZpToB4kCgYEA0X22mLX8H70ew2SxFcZdoqej8GYRfKdtOSW3IynJY0jrlPJRV2Zr
-d9Gd0yE89/zbZqpA0CRGP4iZ/JRTSzUAmxd/sf7/7wZvcK/3mCIaDuOmf6h81dfE
-YZUH45YpZksv2lia6beuIYifQEG/FViIUwDkACssh1Whawhm4xzd1SMCgYEAzYxW
-jYvhmDfJBX7B+hoYv79PqWpURRnkbhr2uGm1DHMyqCM2tzL69hxP//92MOfw4grf
-x0fpdG3TVmrSnswEC4rtu3Ubpwa+xcbUrnOPxGJ/JrN8X3vCyalL64Z3sxG3ebAu
-NhJR0Gfy8vWQmWUlc3JttKwXUeguivh+0IS66+MCgYBlUTeOg/V8JCtMtNYwgc+n
-awyOp86tSww4J1V7XCpaKlpFnyxX6ODxAiAijGDATzqNXKocAG85KwfOcK4YIXo5
-iBPqMjn1kFc1WOWWXmfb654K/6Hgioof58P4/hbnslVidJf3kS5WaY0btrCD0l2c
-R0H+EuNmULPQ4C9iiAOBoQKBgF3pi7YaPhVlD4RiONBDUiFxkD0QZrY3sUWZLjZt
-nZm1nGRzylEDiuQdZXPKTT7lCgrM+xc6xPA8KX3nSpnhDswTSrEGPX8fttP4Fz4p
-cHtCoWOWR/H8QrAOmLBgfJolMxX3J/XugtDcXYUiK1Hag7TuiC8vHWx/z5wREyfE
-LP8PAoGBAK11VjQVUXuOrbugSERDPmIfTaZWkqCBUYegJpgyKkXzajYrO8gjrJOm
-+bh/fLkTTgBz/p5wOq0ukbXtP1GExR8h4IK6uTEuwmXthOKduFtyCOzVcsMTjtkB
-O4KWlY8uaMKq8/4EQkrDOCzbk8TmbM+ld/MMl1Dglu/EJ/Xz0uuU
------END RSA PRIVATE KEY-----;
-- (long long)GUIDs;
-- (_Bool);
++ (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (long long);
+- (_Bool)dampingSet"b1"frequencySet"b1"lengthSet"b1};
 
 // Remaining properties
 @property(nonatomic) unsigned long long stringCompareOptions; // @synthesize stringCompareOptions=_stringCompareOptions;

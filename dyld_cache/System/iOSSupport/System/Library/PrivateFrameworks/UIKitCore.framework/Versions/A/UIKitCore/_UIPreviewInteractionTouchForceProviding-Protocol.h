@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UICoordinateSpace;
-
 @protocol _UIPreviewInteractionTouchForceProviding
-- (struct CGPoint)ImagesFromCoder:(id <UICoordinateSpace>)arg1 prefix: /* Error: Ran out of types for this method. */;
-- (void)Event",R,N;
+- (_Bool)!°!`Fù^Ð1Â0@ù
+× ;
+- (double)ysisSceneComponentKey;
+- (void)IKitCore/_UISplitViewControllerAdaptiveColumnView.swift;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

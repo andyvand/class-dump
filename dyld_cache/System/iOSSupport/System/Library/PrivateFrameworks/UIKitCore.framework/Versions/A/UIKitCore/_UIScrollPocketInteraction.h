@@ -11,12 +11,12 @@
     MISSING_TYPE *implementation;
 }
 
-- (id)n because destination supports relay error handling.;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
 - (struct CGRect);
 - (id);
 - (id);
@@ -27,18 +27,18 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)aqð!CùÄ1¢!0@ù
-× ;
-- (void)s;
-- (struct UIEdgeInsets)ionWithUniformBottomRadius:topLeftRadius:topRightRadius: /* Error: Ran out of types for this method. */;
-- (long long)ouldResolveTemplateColor: /* Error: Ran out of types for this method. */;
-- (id)osedActionToActivate;
-- (id)à+H-3;
-- (id)Ä;
-- (void)¤";
+- (id);
+- (id)¨ÕèÕÖ;
+- (void); activation:(id)arg1 %ld) for %@ removedEngines=%@; addedEngines=%@;
 - (void);
-- (id)arIndicatorColor;
-- (void)³0;
+- (void)þ;
+- (id)x;Æÿ]Ôôi;
+- (void)`¡×m;
+- (id)dMíþ
+ÑÉl;
+- (long long);
+- (void)ÿo;
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic) __weak _UIScrollPocketCollectorInteraction *_collectorInteraction;

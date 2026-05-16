@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     struct CGRect _layoutFrame;
 }
 
-- (id)`.;
-- (struct CGRect);
-- (void);
-- (id)ùqÁð1¢!0@ù
+- (void);
+- (id);
+- (id)Ð1Â0@ù
 × ;
-- (void)1¢!0@ù
-× ;
-- (id)r: /* Error: Ran out of types for this method. */;
+- (struct CGRect)·þÿ;
+- (void)D¼ÿ¬u;
+- (id)L@ÿãòÐhgc;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCollectionLayoutItem *item;

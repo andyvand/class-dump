@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)n for key %{sensitive}@ completed with no record in queue. This is a serious bug.;
+- (id);
+- (void)teControllerWithModel:context: /* Error: Ran out of types for this method. */;
 
 @end
 

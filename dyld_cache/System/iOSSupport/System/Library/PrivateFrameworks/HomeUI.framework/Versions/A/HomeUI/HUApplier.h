@@ -20,16 +20,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (double)0@ù
-× ;
-- (_Bool)!PFù11ð1b0@ù
-× ;
-- (_Bool)DashboardCameraItemModule;
-- (_Bool)\\¸\0bblfgglhðhiii	|kÜk;
-- (void)amera itemManager:(CDUnknownBlockType)arg1 %@ for item:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (double)rrentProtectionMode:isValidForTargetProtectionMode: /* Error: Ran out of types for this method. */;
+- (_Bool)erviceDetailsItemManager initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
+- (void)ontroller _sendCode:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInteractive) _Bool interactive;

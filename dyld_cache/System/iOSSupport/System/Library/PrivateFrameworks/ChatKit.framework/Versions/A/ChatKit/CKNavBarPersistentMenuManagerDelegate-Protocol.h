@@ -5,7 +5,5 @@
 //
 
 @protocol CKNavBarPersistentMenuManagerDelegate
-- (void)live;
-- (void)ombie;
 @end
 

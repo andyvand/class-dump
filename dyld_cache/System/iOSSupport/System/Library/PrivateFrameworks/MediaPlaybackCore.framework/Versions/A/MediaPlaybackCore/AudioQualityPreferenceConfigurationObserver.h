@@ -19,9 +19,9 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
 - (void);
 - (id);
+- (void)getRemotePlaybackQueue;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType preferenceChangeClosure;

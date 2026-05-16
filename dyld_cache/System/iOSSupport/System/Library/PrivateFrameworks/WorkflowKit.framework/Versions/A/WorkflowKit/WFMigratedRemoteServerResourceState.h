@@ -11,10 +11,10 @@
     NSSet *entries;
 }
 
-+ (_Bool));
-- (void);
++ (_Bool);
 - (id);
 - (void);
+- (void)rocessPredicateClass(void)_block_invoke;
 
 @end
 

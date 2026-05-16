@@ -7,9 +7,8 @@
 @class NSString;
 
 @protocol CNMeCardSharingNameProvider
-- (NSString *)orPoint:originationHorizontalDirection:originationDirection: /* Error: Ran out of types for this method. */;
-- (NSString *)r¯úÿ;
-- (NSString *)SENDERS_ONBOARDING_TITLE;
-- (NSString *)ÜÔ,;
+- (NSString *)p3;
+- (NSString *);
+- (NSString *)x.;
 @end
 

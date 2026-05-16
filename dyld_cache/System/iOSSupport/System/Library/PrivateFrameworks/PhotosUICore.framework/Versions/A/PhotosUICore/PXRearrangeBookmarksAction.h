@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)ýÿ$íÿØzÿ;
+- (id);
+- (void)[3;
 
 // Remaining properties
 @property(nonatomic, readonly) PHCollectionList *collectionList; // @synthesize collectionList;

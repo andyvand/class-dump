@@ -15,20 +15,20 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void)@;
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)SString",&,V_remoteCertificateAuthorityName;
-- (id);
-- (void)ÿ@ù;
+- (void);
+- (void)alidLoc,%{public}d;
+- (void)?ÏÿdÅ+pt;
+- (_Bool)Éÿ;- ð;
+- (void);
+- (void) +±;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *allowedKeys; // @synthesize allowedKeys=_allowedKeys;

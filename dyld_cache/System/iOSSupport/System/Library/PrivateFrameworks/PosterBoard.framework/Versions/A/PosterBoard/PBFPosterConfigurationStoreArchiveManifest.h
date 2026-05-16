@@ -20,13 +20,15 @@
 - (long long);
 - (id);
 - (long long);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)(%{public}@} Unable to revert %{public}@;
 - (id);
+- (void)1â
+0@ù
+× ;
+- (id)s: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long archiveVersion;

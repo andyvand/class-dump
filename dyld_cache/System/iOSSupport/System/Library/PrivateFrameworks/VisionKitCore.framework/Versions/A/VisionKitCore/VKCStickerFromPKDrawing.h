@@ -28,13 +28,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (struct CGImage *);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id)6ýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *currentView; // @synthesize currentView=_currentView;

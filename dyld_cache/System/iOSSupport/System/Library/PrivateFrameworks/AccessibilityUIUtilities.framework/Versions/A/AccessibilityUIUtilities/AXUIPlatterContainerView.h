@@ -13,16 +13,16 @@
     UIView *_platterView;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (double);
 - (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)eferredFocusedViewInTableView: /* Error: Ran out of types for this method. */;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsScrolling;

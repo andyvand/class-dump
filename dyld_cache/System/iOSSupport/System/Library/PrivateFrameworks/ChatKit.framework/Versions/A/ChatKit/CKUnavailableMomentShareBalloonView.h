@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id)er;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKUnavailableMomentShareBalloonViewDelegate> delegate; // @dynamic delegate;

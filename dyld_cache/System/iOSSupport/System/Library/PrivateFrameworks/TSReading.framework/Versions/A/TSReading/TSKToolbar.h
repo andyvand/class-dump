@@ -35,11 +35,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)!X@ùq1Â0@ù
+× ;
+- (void)lectionForSwatchGeneration;
 
 // Remaining properties
 @property(nonatomic) double leftToolbarItemsInset; // @synthesize leftToolbarItemsInset=_leftToolbarItemsInset;

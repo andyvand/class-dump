@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
     struct UIOffset _titleOffset;
 }
 
-- (struct UIOffset)lob has wrong type %@;
+- (struct UIOffset);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)_passthroughViews;
-- (id);
+- (void)0@ù
+× ;
+- (id)_UISceneScrollPocketHostComponent.m;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *badgeColor; // @synthesize badgeColor=_badgeColor;

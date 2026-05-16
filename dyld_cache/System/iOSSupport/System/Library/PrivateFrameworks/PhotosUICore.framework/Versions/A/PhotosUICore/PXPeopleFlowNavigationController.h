@@ -32,17 +32,17 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (struct CGSize);
+- (void)XSharingSettings";
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)ForRegularYears;
-- (void)gadgetSections;
-- (void)omFetchResult(__strong id<PXDisplayAssetFetchResult> _Nullable);
-- (id)uselContentLayout;
-- (void);
+- (id)pected object type:%@ /* Error: Ran out of types for this method. */;
+- (id)Ç 1ÿ;
+- (void)Õe;
+- (void)4;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *backButton; // @synthesize backButton=_backButton;

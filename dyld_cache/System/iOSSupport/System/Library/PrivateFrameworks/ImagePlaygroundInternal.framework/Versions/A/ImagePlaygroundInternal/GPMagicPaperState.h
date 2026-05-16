@@ -12,9 +12,40 @@
 
 - (id);
 - (void);
-- (void);
 - (struct CGRect);
-- (_Bool)	;
+- (void);
+- (_Bool)HÃþ
+yALGGAIG_SbQo_AIG_AAyvÿ
+yABymÇþ
+yçÆþ
+yIÿ
+y[ÿ
+yAAyAAyAAyyAAyÿ
+yAAyAAyyQÂþ
+yAAy°Çþ
+«Äþ
+yÇþ
+GGAAyÿþ
+y%ÿ
+yÿ
+yiÅþ
+AXGG_çùþ
+Qo_A_GGSgGAYyÍòþ
+GGAYy;fGG_Qo_¸Ãþ
+GòcG$GA13_GiÁþ
+G_Qo__qÿ
+Qo__upA31_SQ12CoreGraphicsyHCg0_Qo__J®þ
+SgQo_SgG_SSQo_OÃþ
+GtGG_Qo_¾þ
+yAAyAAyAAyAAyAAyµy·GÂþ
+y»Àþ
+GGAFGAIG~ºþ
+G»þ
+GSgGGA19_G_SbQo_AJtGGG_T»þ
+y~½þ
+yöþ
+GGQo__A67_y@õþ
+GQo_A19_GA19_G_A15_Qo_;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;

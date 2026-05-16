@@ -17,7 +17,7 @@
     MISSING_TYPE *showsSyncStatusInNavigationBar;
 }
 
-- (_Bool)st;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -25,8 +25,8 @@
 - (double);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)úÞ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isSyncViewCurrentlyVisible;

@@ -7,6 +7,7 @@
 @class HMTrigger, NSString;
 
 @protocol HUTriggerLikeItem
+- (HMTrigger *)le;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

@@ -30,9 +30,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)rror"16;
-- (void)O;
+- (void)orControllerClass(void)_block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *accessTime; // @synthesize accessTime=_accessTime;

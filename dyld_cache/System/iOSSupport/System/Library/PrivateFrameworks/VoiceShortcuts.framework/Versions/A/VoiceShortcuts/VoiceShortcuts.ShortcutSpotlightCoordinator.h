@@ -16,11 +16,5 @@
     MISSING_TYPE *cachedRunWorkflowToolDefinition;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-
 @end
 

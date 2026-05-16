@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)gPeriodicSyncSetByCloudKitHooks;
-- (id)9
-;
 - (void);
+- (id);
 - (void);
-- (void)1Á°1¢!0@ù
+- (void)Ð!PGùqZÐ1Â0@ù
 × ;
+- (void)ØØe;
 
 @end
 

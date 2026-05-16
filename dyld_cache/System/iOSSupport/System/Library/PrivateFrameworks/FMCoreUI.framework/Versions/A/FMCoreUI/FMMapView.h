@@ -221,24 +221,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (long long);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *accuracyOverlays; // @synthesize accuracyOverlays=_accuracyOverlays;

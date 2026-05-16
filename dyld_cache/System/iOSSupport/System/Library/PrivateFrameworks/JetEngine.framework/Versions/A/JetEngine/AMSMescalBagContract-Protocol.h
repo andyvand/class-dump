@@ -7,7 +7,6 @@
 @class AMSBagValue;
 
 @protocol AMSMescalBagContract
-- (AMSBagValue *);
 
 // Remaining properties
 @property(readonly, nonatomic) AMSBagValue *mescalCertificateURL;

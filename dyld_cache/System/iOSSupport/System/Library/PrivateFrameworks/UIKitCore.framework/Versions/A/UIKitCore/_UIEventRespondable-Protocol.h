@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol _UIEventRespondable
-- (void)tion;
-- (void)dulingWithCompletionBlock:(NSSet *)arg1;
-- (void)fURLForIMMessageItem:(NSSet *)arg1;
-- (void)tSyncingEnabled;
 @end
 

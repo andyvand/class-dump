@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)È;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorReasonString; // @synthesize errorReasonString=_errorReasonString;

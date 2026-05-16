@@ -5,6 +5,5 @@
 //
 
 @protocol FCCurrentIssuesChecker
-- (void)c}@ - playbackBufferStateDidChangeToState:(void (^)(FCCurrentIssuesCheckerResult *))arg1 - state=Empty - item=%{public}@ - timeStamp:%{public}@ /* Error: Ran out of types for this method. */;
 @end
 

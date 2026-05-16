@@ -23,13 +23,13 @@
 - (void);
 - (id);
 - (void);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (void)Ô*óÿU©¡Ð*óÿe©¡Ì*óÿe©¡+óÿE©¡Pgáÿe©¡ü*óÿU©¡ø*óÿ]©¡ô*óÿ-©¡ð*óÿ;
+- (void);
+- (void)ryMenuItem11ToggleModel;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

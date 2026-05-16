@@ -5,17 +5,5 @@
 //
 
 @protocol _UIViewServiceTextEffectsOperator_RemoteViewControllerInterface
-- (void)unkReportedToCarrier:(struct CGPoint)arg1 reportReason: /* Error: Ran out of types for this method. */;
-- (void)tMOCDebuggingErrorWithString:(struct UIEdgeInsets)arg1 internalOnly:initialSync: /* Error: Ran out of types for this method. */;
-- (void)unkChatStyle:(int)arg1;
-- (void)tempt:(struct CGSize)arg1 wasSuccessful:duration: /* Error: Ran out of types for this method. */;
-- (void)pletionForSyncType:(struct CGRect)arg1 isCoreDuetSync:onAttempt:wasSuccessful:duration: /* Error: Ran out of types for this method. */;
-- (void)vePersonInfo:chatID:identifier:style: /* Error: Ran out of types for this method. */;
-- (void)ObjectAtIndex:(_Bool)arg1;
-- (void)andleFromRegistry:(_Bool)arg1;
-- (void)ier:(void (^)(_UIHostedWindowHostingHandle *, _UIHostedWindowHostingHandle *))arg1 style:account: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)oad:(void (^)(_UIHostedWindowHostingHandle *, _UIHostedWindowHostingHandle *, _UIHostedWindowHostingHandle *))arg1 serviceName:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void):(unsigned int)arg1 limit:(unsigned long long)arg2;
 @end
 

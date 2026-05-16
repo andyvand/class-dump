@@ -26,10 +26,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)dMultipleBlocksWithRequestFlags:blockRange:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

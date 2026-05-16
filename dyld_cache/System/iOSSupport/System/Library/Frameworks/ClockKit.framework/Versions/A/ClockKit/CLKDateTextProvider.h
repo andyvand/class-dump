@@ -45,20 +45,20 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (long long);
 - (void);
+- (_Bool);
+- (void);
+- (id)PreviewShell;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsNarrowUnits; // @synthesize allowsNarrowUnits=_allowsNarrowUnits;

@@ -25,23 +25,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id)-;
-- (long long)pertyStartTime;
-- (id);
-- (void)²Ó,º;
-- (id)
-× ;
-- (struct CGRect)ñÎð1¢!0@ù
-× ;
-- (id)ryForSecondPass: /* Error: Ran out of types for this method. */;
-- (void)dexOverlayTimer;
-- (long long)yle;
-- (void)ultListSidebarCellConfigurationForState:traitCollection:isAccompanied: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)cognizer;
+- (long long);
+- (struct CGRect);
 - (id);
 - (id);
-- (id)+j;
+- (id);
+- (long long);
+- (id);
+- (id)equest:errorHandler: /* Error: Ran out of types for this method. */;
+- (id):¬kÑÀ:ØkÑ;XlÑ|;lÑ;¨lÑè¥; mÑð <oÑ;<4oÑÌ<<LoÑL<doÑ([<pÑ<ppÑÄ<¨pÑ+=¸pÑ-=ÈpÑ|.=àpÑô7=,qÑ¸9=<qÑ;=PqÑ0x=´qÑ¨z=rÑ¤{=@rÑ`Ö=lwÑxî=¼wÑÄ+>øwÑ¸G>yÑy>yÑ(æ?ìzÑ|ÿ?4{Ñ@t{Ñ@{Ñ(@{Ñè@°{ÑX@à{ÑØ@D}ÑÈ?@\}ÑèË@°}ÑÀ /* Error: Ran out of types for this method. */;
+- (void)hint for a third-argument type of id, %{public}@];
+- (struct CGPoint)ponents in the ended or cancelled phase can be removed.;
+- (id)*__strong, UIPanelBorderView *__strong, UIView *__strong, UIView *__strong, BOOL, UISlidingBarState *__strong, BOOL, CGRect, NSMutableSet *__strong, CGFloat, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong);
+- (void)uttonItemGroup"8B16;
+- (id);
+- (void).^;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint additionalOffsetForOutermostGroup; // @synthesize additionalOffsetForOutermostGroup=_additionalOffsetForOutermostGroup;

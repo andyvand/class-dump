@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-+ (id)Item"8;
++ (id);
 - (void);
-- (unsigned long long);
-- (_Bool)ticForStats:(id)arg1 paramsForStats:error: /* Error: Ran out of types for this method. */;
 - (id);
+- (unsigned long long);
+- (_Bool)tion"b1"avoidMovingNavBarOffscreenBeforeUnhiding"b1"searchBarHidNavBar"b1"isCustomTransition"b1"isBuiltinTransition"b1"resetDidHideOnCancel"b1"delegateWillShowViewController"b1"delegateDidShowViewController"b1"delegateTransitionController"b1"delegateTransitionControllerEx"b1"delegateInteractionController"b1"delegateInteractionControllerEx"b1"delegateShouldCrossFadeNavigationBar"b1"delegateShouldCrossFadeBottomBars"b1"delegateShouldUseBuiltinInteractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
+- (id)nStyleStack;
 - (void);
-- (id)Container:vertical:useContentVariables:engine: /* Error: Ran out of types for this method. */;
 
 @end
 

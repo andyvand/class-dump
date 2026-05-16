@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol BETextInput;
-
 @protocol BETextInputDelegate
-- (void)nstance %d is NULL;
-- (void)Retry is NULL;
-- (_Bool)d to allocate mutableDataInstances arrays;
-- (void);
-- (void)ditType:(id <BETextInput>)arg1 previousMessage:updateChats: /* Error: Ran out of types for this method. */;
 @end
 

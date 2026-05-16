@@ -11,12 +11,12 @@
     TUISystemInputAssistantView *_systemInputAssistantView;
 }
 
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;

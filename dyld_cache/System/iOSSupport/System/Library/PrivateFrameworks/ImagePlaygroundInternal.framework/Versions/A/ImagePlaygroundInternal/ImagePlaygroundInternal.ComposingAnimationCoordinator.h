@@ -10,7 +10,6 @@
 {
     MISSING_TYPE *animationNamespace;
     MISSING_TYPE *_currentBubbleAnimationMatchedGeometryID;
-    MISSING_TYPE *_bubbleAnimationID;
     MISSING_TYPE *bubbleAnimationSignpostIntervalState;
     MISSING_TYPE *_bubbleAnimationState;
     MISSING_TYPE *$__lazy_storage_$_upscalingAnimation;

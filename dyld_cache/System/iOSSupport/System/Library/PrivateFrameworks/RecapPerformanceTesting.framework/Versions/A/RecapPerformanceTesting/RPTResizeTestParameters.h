@@ -24,11 +24,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
 - (void);
 - (void);
 - (id);

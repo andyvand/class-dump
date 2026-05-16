@@ -15,16 +15,16 @@
 }
 
 + (id);
-+ (id)";
++ (id);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned int);
 - (id);
-- (void);
+- (id);
 - (struct CGSize);
-- (id)vider;
 - (unsigned int);
+- (unsigned int);
+- (void);
+- (void)cked12;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsMipmaps; // @synthesize containsMipmaps=_containsMipmaps;

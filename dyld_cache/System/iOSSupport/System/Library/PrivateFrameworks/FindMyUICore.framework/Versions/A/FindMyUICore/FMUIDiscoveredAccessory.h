@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)tionWithUserInterfaceStyle: /* Error: Ran out of types for this method. */;
 
 @end
 

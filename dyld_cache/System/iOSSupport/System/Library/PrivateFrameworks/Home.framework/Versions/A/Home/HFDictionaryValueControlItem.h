@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (Class);
++ (Class)0@"HMAccessoryCollectionSetting"8;
 - (id);
 - (id);
 - (id);
@@ -24,8 +24,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (void)t°;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;

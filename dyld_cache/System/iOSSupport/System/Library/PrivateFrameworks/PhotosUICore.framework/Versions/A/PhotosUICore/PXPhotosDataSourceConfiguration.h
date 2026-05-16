@@ -80,27 +80,28 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (long long);
 - (id);
-- (void)sShapeAtCoordinate:(id)arg1 forViewPort: /* Error: Ran out of types for this method. */;
-- (id)ributedString;
-- (_Bool)¼lûÿ;
 - (void);
-- (id)ated_Photo;
-- (id)ChangeHandler;
-- (void)Â£4;
-- (id)76;
-- (id)ÃD6;
-- (void)óÿiJ*z6;
+- (id);
+- (unsigned long long);
+- (id);
+- (void)Disappear"B"respondsToPresentingViewControllerViewDidDisappear"B"respondsToCanStart"B"respondsToLastViewedAssetReference"B"respondsToCanStop"B"respondsToInvalidatePresentingGeometry"B"respondsToHandlePresentingPinchGestureRecognizer"B};
+- (void)@"PXObservable",R,N,V_observable;
+- (id);
+- (_Bool)Ä;
+- (id)tGreaterThanOrEqual(constrainedOverall.specificDurationInfo.maximumSeconds, %f)
+;
+- (id)m;
+- (id)d;
+- (void)ÅÎÅ5á;
+- (long long)Ôn6ÿUvÆÐn6ÿevÆ@ÿevÆÈn6ÿEvÆüÿevÆÌn6ÿUvÆÈn6ÿ]vÆÄn6ÿ-vÆÀn6ÿ;
+- (void);
+- (id)àK4º3;
+- (void)ÕÛNÐ\5;
+- (void)6;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *allowedOIDs; // @synthesize allowedOIDs=_allowedOIDs;

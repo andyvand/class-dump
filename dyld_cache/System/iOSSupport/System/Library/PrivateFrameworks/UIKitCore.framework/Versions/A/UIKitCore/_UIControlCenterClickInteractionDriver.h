@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (double)eysExcludingEmptyKeys;
-- (double)Text:usingAnimation:completion: /* Error: Ran out of types for this method. */;
-- (id)alColor;
++ (_Bool)q^°1Â0@ù
+× ;
+- (id);
+- (double)v@?@"_UIKeyboardChangedInformation"@"_UIKeyboardUIInformation"qB>40;
+- (double)bviews;
 
 @end
 

@@ -15,9 +15,9 @@
     PUIPosterSnapshotAnalysisDescriptor *_analysis;
 }
 
++ (id);
 + (_Bool);
 + (_Bool);
-+ (id)ùÿ;
 - (_Bool);
 - (id);
 - (id);
@@ -25,17 +25,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)nVariantPickerWrapperView",&,N,V_variantPickerWrapperView;
+- (void);
+- (id)artPoint:endPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PUIPosterSnapshotAnalysisDescriptor *analysis; // @synthesize analysis=_analysis;

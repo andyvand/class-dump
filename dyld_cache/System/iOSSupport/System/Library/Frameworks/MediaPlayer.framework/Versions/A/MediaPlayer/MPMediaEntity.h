@@ -13,25 +13,25 @@
 }
 
 + (_Bool);
-+ (_Bool)kArtworkDataSource:-URLSession:dataTask:willCacheResponse:completionHandler:Updating storage policy from %lu to %lu for dataTask:%{public}@. URL=%{public}@. /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)@72Q80@88@96@104@112B120;
-- (id)ing;
-- (id)ntentHandlingStatus: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void)ng",R,N,V_requestingBundleVersion;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_tokenBinaryIdentifierAsString; // @synthesize _tokenBinaryIdentifierAsString=__tokenBinaryIdentifierAsString;

@@ -22,23 +22,23 @@
 }
 
 + (id);
-+ (id);
 + (id);
 + (id);
-+ (id)or<CLRangingPeerInternal> >=^{}}};
-+ (id)ngPeerInternal> >=^{}^{}{__compressed_pair<CLRangingPeerInternal *, std:(id)arg1:(long long)arg2 __1:(id)arg3:(long long)arg4 allocator<CLRangingPeerInternal> >=^{}}};
++ (id);
++ (id);
++ (id);
 + (double);
-+ (id)iceKeyValueStorageGroup"@"NSError">;
-- (void);
++ (id);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (double)balSettings";
+- (double);
 - (void);
-- (void)sed_pair<CLRangingPeerInternal *, std::__1::allocator<CLRangingPeerInternal> >=^{}}} /* Error: Ran out of types for this method. */;
-- (double)_1:(double)arg1:allocator<CLRangingPeerInternal> >=^{}^{}{__compressed_pair<CLRangingPeerInternal *, std::__1::allocator<CLRangingPeerInternal> >=^{}}} /* Error: Ran out of types for this method. */;
-- (void)TimingCurveProvider>";
+- (void);
+- (double);
+- (void);
 - (double);
 - (void);
 - (void);

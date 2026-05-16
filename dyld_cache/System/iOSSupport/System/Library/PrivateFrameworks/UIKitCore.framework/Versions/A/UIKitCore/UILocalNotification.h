@@ -10,19 +10,20 @@
 {
 }
 
-+ (id)ÿ×v¤rwq;
-+ (id)þóÙÈ;
++ (id))T;
++ (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long)D;
-- (void);
-- (_Bool);
+- (long long);
 - (id);
 - (id);
-- (id)utputFrame: /* Error: Ran out of types for this method. */;
-- (void)ble;
+- (_Bool)!lFùñbÐ1Â0@ù
+× ;
+- (void)controller;
+- (id)ransformerExtension;
+- (void)i;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alertAction; // @dynamic alertAction;

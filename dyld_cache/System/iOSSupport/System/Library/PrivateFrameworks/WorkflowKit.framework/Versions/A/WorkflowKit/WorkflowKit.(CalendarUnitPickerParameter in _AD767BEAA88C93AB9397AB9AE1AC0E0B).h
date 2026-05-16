@@ -16,8 +16,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)bled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *possibleStates;

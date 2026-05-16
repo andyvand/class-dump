@@ -19,8 +19,8 @@
 - (void);
 - (id);
 - (id);
+- (id)) Uploading live photo;
 - (void);
-- (id)nDurationKenBurnsAnimations;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

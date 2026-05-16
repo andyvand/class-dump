@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)s of this outgoing message is an emergency number, Not processing message;
 + (_Bool);
-+ (id)TextInputPanelWithPrompt:defaultText:initiatedByFrame: /* Error: Ran out of types for this method. */;
-+ (id)ConfigurationProvidingP;
-+ (double)ü1ÑÿðR;
++ (_Bool);
++ (id);
++ (id)groundView;
++ (double)3uÌt³f;
 
 @end
 

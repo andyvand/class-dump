@@ -16,8 +16,8 @@
 - (double);
 - (id);
 - (id);
-- (double);
-- (void);
+- (double)e:context: /* Error: Ran out of types for this method. */;
+- (void)nTriggerDisabledValueText;
 
 // Remaining properties
 @property(readonly, nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

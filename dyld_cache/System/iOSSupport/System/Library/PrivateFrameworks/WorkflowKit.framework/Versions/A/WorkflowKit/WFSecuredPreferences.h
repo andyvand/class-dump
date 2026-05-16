@@ -15,15 +15,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id)the `run` function.;
-- (void);
-- (void);
+- (id)H½;
+- (void)etionAuthorizationState deniedPermissionsErrorForContentItemClass:] /* Error: Ran out of types for this method. */;
+- (void)cordAudioActionWatchUserInterface;
+- (void)ctPickerParameter;
 
 // Remaining properties
 @property(copy, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;

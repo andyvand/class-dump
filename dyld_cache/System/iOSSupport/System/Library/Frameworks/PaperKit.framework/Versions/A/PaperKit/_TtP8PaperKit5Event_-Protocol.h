@@ -5,7 +5,6 @@
 //
 
 @protocol _TtP8PaperKit5Event_
-- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) long long momentumPhase;

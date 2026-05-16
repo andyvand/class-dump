@@ -15,16 +15,17 @@ __attribute__((visibility("hidden")))
     unsigned long long _variableChangeCount;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (struct CGPoint)
+- (id);
+- (_Bool)1Â0@ù
 × ;
-- (id)ationPopoverLocationIfNeeded;
-- (id)setsAreAbsolute:(id)arg1;
-- (unsigned long long)§;
-- (id)omStates;
-- (void)æbþÜÿ3¨æbþÜÿ3´æbþ­Üÿ3Àæbþ­Üÿ3èæbþ­Üÿ3çbþÍÜÿ3(çbþmÜÿ34çbþuÜÿ3@çbþMÜÿ3LçbþÜÿ3Xçbþ-Üÿ3dçbþ-Üÿ3xgþuÜÿ3|çbþ­Üÿ3çbþ}Üÿ3çbþ;
+- (void)@ù
+× ;
+- (unsigned long long);
+- (id)t:velocity:currentPanTranslation: /* Error: Ran out of types for this method. */;
+- (id)lFocusRedirect;
+- (struct CGPoint)TB,N,GisInOrderedArrangementUpdateSection,V_inOrderedArrangementUpdateSection;
+- (void)@?,C,N,V_menuHighlightBackgroundDescriptorProvider;
+- (void)SgXw;
 
 // Remaining properties
 @property(nonatomic) __weak NSISEngine *cacheEngine; // @synthesize cacheEngine=_cacheEngine;

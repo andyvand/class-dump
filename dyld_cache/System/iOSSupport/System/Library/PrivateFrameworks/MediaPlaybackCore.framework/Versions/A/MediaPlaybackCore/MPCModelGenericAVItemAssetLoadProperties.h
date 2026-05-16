@@ -35,18 +35,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)oundation.framework/Versions/A/IMFoundation;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)pletion: /* Error: Ran out of types for this method. */;
-- (_Bool)etServiceDescription: /* Error: Ran out of types for this method. */;
-- (long long): /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool);
+- (long long);
 - (id);
 - (id);
 - (id);
-- (id)inStore: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -60,14 +60,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (unsigned long long)blic}@ %{public}@;
-- (id);
+- (void)public}@  â customDataType:%{public}@; customDataSize:%llu /* Error: Ran out of types for this method. */;
+- (id))ÿÿ;
 
 // Remaining properties
 @property(nonatomic) long long HLSContentPolicy; // @synthesize HLSContentPolicy=_HLSContentPolicy;

@@ -30,12 +30,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
 - (void);
 
 // Remaining properties

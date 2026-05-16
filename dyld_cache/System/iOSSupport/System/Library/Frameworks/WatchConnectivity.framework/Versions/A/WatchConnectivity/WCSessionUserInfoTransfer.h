@@ -32,23 +32,23 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)<;
 - (id);
 - (id);
-- (id)C;
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (id);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

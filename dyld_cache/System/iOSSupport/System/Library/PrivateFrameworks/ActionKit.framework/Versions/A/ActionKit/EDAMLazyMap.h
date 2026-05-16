@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)alculateKeyPreferMixedUnits;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *fullMap; // @synthesize fullMap=_fullMap;

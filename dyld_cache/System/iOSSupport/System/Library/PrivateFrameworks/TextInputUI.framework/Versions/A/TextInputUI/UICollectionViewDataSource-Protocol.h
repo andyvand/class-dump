@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewCell;
+@class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)eusableSupplementaryViewOfKind:(UICollectionView *)arg1 withReuseIdentifier:(NSIndexPath *)arg2 forIndexPath: /* Error: Ran out of types for this method. */;
+- (UICollectionViewCell *)nts:(UICollectionView *)arg1 inheritedFactory:(NSIndexPath *)arg2;
+
+@optional
+- (void)ontext;
+- (UICollectionReusableView *),V_locale;
 @end
 

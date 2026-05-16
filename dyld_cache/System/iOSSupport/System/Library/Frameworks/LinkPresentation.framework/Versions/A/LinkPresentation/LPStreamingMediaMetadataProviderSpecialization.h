@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
     LPLinkMetadata *_metadata;
 }
 
-+ (id)6 ;
++ (id);
 + (unsigned long long);
 - (void);
-- (void)nnection"16@"INImage"24;
-- (void);
 - (void);
 - (void);
+- (void);
+- (void)HÐ;
 
 @end
 

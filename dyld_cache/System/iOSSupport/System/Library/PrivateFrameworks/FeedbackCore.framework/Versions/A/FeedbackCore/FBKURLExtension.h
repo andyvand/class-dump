@@ -17,12 +17,12 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)onstraint;
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;

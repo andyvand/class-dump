@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (_Bool)portedInterfaceOrientations: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;

@@ -19,9 +19,8 @@
 - (Class);
 - (void);
 - (void);
-- (void)!ìFù0ð1b0@ù
-× ;
-- (void)´åÿ¦9öò\;
+- (void);
+- (void)erCellLayoutOptions",C,N,V_welcomeUIBannerCellOptions;
 
 // Remaining properties
 @property(nonatomic) NSString *descriptionStringWithFormatKey; // @synthesize descriptionStringWithFormatKey=_descriptionStringWithFormatKey;

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UICollectionView, UIDragPreviewParameters;
+@class NSArray, UICollectionView;
 
 @protocol UICollectionViewDragDelegate
-- (NSArray *)?0@"HFNetworkConfigurationGroupItem"8;
 
 @optional
-- (NSArray *)! Eù11b0@ù
-× ;
-- (UIDragPreviewParameters *);
-- (void)sentationContext:(UICollectionView *)arg1;
-- (void)selectedVolumeItem;
-- (_Bool)e;
-- (_Bool);
+- (NSArray *);
+- (_Bool)wStyle:(UICollectionView *)arg1 ];
 @end
 

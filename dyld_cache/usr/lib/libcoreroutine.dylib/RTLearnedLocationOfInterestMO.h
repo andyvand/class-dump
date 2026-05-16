@@ -4,26 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSOrderedSet, NSSet, NSString, NSUUID, RTMapItemMO;
+@class NSArray, NSData, NSDate, NSNumber, NSOrderedSet, NSSet, NSString, NSUUID;
 
 @interface RTLearnedLocationOfInterestMO
 {
-    RTMapItemMO *cachedMapItem;
 }
 
-+ (id)entry;
 + (id);
 + (id);
-+ (id);
-- (void)lassName unable to get IOHIDEventSystemClient;
++ (id);
++ (id);
+- (id)eratingHours;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)s_NoHome_Work_Others_bucketed;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) RTMapItemMO *cachedMapItem; // @synthesize cachedMapItem;
+@property(copy, nonatomic) NSString *addressAdministrativeArea; // @dynamic addressAdministrativeArea;
+@property(copy, nonatomic) NSString *addressAdministrativeAreaCode; // @dynamic addressAdministrativeAreaCode;
+@property(copy, nonatomic) NSArray *addressAreasOfInterest; // @dynamic addressAreasOfInterest;
+@property(copy, nonatomic) NSString *addressCountry; // @dynamic addressCountry;
+@property(copy, nonatomic) NSString *addressCountryCode; // @dynamic addressCountryCode;
+@property(copy, nonatomic) NSDate *addressCreationDate; // @dynamic addressCreationDate;
+@property(copy, nonatomic) NSDate *addressExpirationDate; // @dynamic addressExpirationDate;
+@property(copy, nonatomic) NSData *addressGeoAddressData; // @dynamic addressGeoAddressData;
+@property(copy, nonatomic) NSString *addressISO3166CountryCode; // @dynamic addressISO3166CountryCode;
+@property(copy, nonatomic) NSString *addressISO3166SubdivisionCode; // @dynamic addressISO3166SubdivisionCode;
+@property(retain, nonatomic) NSUUID *addressIdentifier; // @dynamic addressIdentifier;
+@property(copy, nonatomic) NSString *addressInlandWater; // @dynamic addressInlandWater;
+@property(copy, nonatomic) NSNumber *addressIsland; // @dynamic addressIsland;
+@property(copy, nonatomic) NSString *addressLocality; // @dynamic addressLocality;
+@property(copy, nonatomic) NSString *addressOcean; // @dynamic addressOcean;
+@property(copy, nonatomic) NSString *addressPostalCode; // @dynamic addressPostalCode;
+@property(copy, nonatomic) NSString *addressSubAdministrativeArea; // @dynamic addressSubAdministrativeArea;
+@property(copy, nonatomic) NSString *addressSubLocality; // @dynamic addressSubLocality;
+@property(retain, nonatomic) NSArray *addressSubPremises; // @dynamic addressSubPremises;
+@property(copy, nonatomic) NSString *addressSubThoroughfare; // @dynamic addressSubThoroughfare;
+@property(copy, nonatomic) NSString *addressThoroughfare; // @dynamic addressThoroughfare;
 @property(copy, nonatomic) NSNumber *confidence; // @dynamic confidence;
 @property(copy, nonatomic) NSNumber *dataPointCount; // @dynamic dataPointCount;
 @property(retain, nonatomic) NSUUID *identifier; // @dynamic identifier;
@@ -34,6 +50,29 @@
 @property(copy, nonatomic) NSNumber *locationReferenceFrame; // @dynamic locationReferenceFrame;
 @property(copy, nonatomic) NSNumber *locationSourceAccuracy; // @dynamic locationSourceAccuracy;
 @property(copy, nonatomic) NSNumber *locationVerticalUncertainty; // @dynamic locationVerticalUncertainty;
+@property(copy, nonatomic) NSArray *mapItemBusinessHours; // @dynamic mapItemBusinessHours;
+@property(copy, nonatomic) NSString *mapItemCategory; // @dynamic mapItemCategory;
+@property(copy, nonatomic) NSNumber *mapItemCategoryMUID; // @dynamic mapItemCategoryMUID;
+@property(copy, nonatomic) NSDate *mapItemCreationDate; // @dynamic mapItemCreationDate;
+@property(copy, nonatomic) NSString *mapItemDisplayLanguage; // @dynamic mapItemDisplayLanguage;
+@property(nonatomic) _Bool mapItemDisputed; // @dynamic mapItemDisputed;
+@property(copy, nonatomic) NSDate *mapItemExpirationDate; // @dynamic mapItemExpirationDate;
+@property(copy, nonatomic) NSString *mapItemExtendedAttributesAddressIdentifier; // @dynamic mapItemExtendedAttributesAddressIdentifier;
+@property(copy, nonatomic) NSUUID *mapItemExtendedAttributesIdentifier; // @dynamic mapItemExtendedAttributesIdentifier;
+@property(copy, nonatomic) NSNumber *mapItemExtendedAttributesIsMe; // @dynamic mapItemExtendedAttributesIsMe;
+@property(copy, nonatomic) NSNumber *mapItemExtendedAttributesWifiConfidence; // @dynamic mapItemExtendedAttributesWifiConfidence;
+@property(copy, nonatomic) NSNumber *mapItemExtendedAttributesWifiFingerprintLabelType; // @dynamic mapItemExtendedAttributesWifiFingerprintLabelType;
+@property(copy, nonatomic) NSData *mapItemGeoMapItemHandle; // @dynamic mapItemGeoMapItemHandle;
+@property(copy, nonatomic) NSData *mapItemGeoMapItemIdentifier; // @dynamic mapItemGeoMapItemIdentifier;
+@property(copy, nonatomic) NSNumber *mapItemLatitude; // @dynamic mapItemLatitude;
+@property(copy, nonatomic) NSNumber *mapItemLongitude; // @dynamic mapItemLongitude;
+@property(copy, nonatomic) NSNumber *mapItemMUID; // @dynamic mapItemMUID;
+@property(copy, nonatomic) NSString *mapItemName; // @dynamic mapItemName;
+@property(copy, nonatomic) NSNumber *mapItemPlaceType; // @dynamic mapItemPlaceType;
+@property(copy, nonatomic) NSNumber *mapItemReferenceFrame; // @dynamic mapItemReferenceFrame;
+@property(copy, nonatomic) NSNumber *mapItemResultProviderID; // @dynamic mapItemResultProviderID;
+@property(copy, nonatomic) NSNumber *mapItemSource; // @dynamic mapItemSource;
+@property(copy, nonatomic) NSNumber *mapItemUncertainty; // @dynamic mapItemUncertainty;
 @property(copy, nonatomic) NSDate *placeCreationDate; // @dynamic placeCreationDate;
 @property(copy, nonatomic) NSString *placeCustomLabel; // @dynamic placeCustomLabel;
 @property(copy, nonatomic) NSDate *placeExpirationDate; // @dynamic placeExpirationDate;

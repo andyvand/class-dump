@@ -53,7 +53,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (int)Znÿ;
+- (int)Îÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

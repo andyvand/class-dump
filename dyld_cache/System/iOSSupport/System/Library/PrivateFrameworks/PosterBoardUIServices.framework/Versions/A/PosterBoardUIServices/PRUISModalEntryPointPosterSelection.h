@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *allowedConfigurationUUIDs; // @synthesize allowedConfigurationUUIDs=_allowedConfigurationUUIDs;

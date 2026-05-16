@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
 - (id);
+- (void)devices:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

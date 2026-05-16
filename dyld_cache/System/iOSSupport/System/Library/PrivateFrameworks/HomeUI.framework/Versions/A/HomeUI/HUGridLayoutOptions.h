@@ -128,8 +128,8 @@
 - (id);
 - (id);
 - (void);
-- (double);
 - (void);
+- (double);
 - (void);
 - (id);
 - (id);
@@ -138,17 +138,17 @@
 - (double);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (long long);
 - (id);
 - (double);
-- (id);
-- (long long);
-- (double)View;
-- (long long)ont;
-- (_Bool)lerFactory;
+- (double)ldItemProviders;
+- (_Bool)_invoke;
+- (void)OnboardingView.Utility.SubscriptionInfoCell;
+- (void);
+- (long long)ÿÙýý¸·;
 
 // Remaining properties
 @property(copy, nonatomic) HUGridBannerCellLayoutOptions *bannerCellOptions; // @synthesize bannerCellOptions=_bannerCellOptions;

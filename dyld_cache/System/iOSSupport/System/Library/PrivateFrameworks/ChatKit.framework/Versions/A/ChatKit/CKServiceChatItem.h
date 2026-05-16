@@ -11,18 +11,22 @@
     _Bool _hasInformativeText;
 }
 
-- (void)eTintColor;
+- (void);
 - (id);
-- (_Bool)c;
-- (id)DidMoveToWindowHandler) ic_addDidMoveToWindowHandler:] /* Error: Ran out of types for this method. */;
-- (id)style];
-- (id)hread isMainThread];
+- (id);
+- (id);
 - (_Bool);
-- (_Bool)ions-index-access-queue;
 - (id);
 - (id);
 - (id);
-- (unsigned long long)kRefWithObject: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)@32;
 
 // Remaining properties
 @property(nonatomic) _Bool hasInformativeText; // @synthesize hasInformativeText=_hasInformativeText;

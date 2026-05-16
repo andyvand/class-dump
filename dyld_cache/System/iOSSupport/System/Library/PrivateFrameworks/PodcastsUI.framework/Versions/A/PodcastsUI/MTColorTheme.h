@@ -18,12 +18,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)iblyAllowable: /* Error: Ran out of types for this method. */;
-- (id)$;
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (void);
 
 // Remaining properties

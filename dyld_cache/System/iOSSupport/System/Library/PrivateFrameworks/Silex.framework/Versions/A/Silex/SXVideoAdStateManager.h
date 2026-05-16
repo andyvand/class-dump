@@ -33,15 +33,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)5;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)h2;
 - (void);
 - (void);
+- (void)0@ù
+× ;
+- (void)bjectProvider;
+- (id)=üÒ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

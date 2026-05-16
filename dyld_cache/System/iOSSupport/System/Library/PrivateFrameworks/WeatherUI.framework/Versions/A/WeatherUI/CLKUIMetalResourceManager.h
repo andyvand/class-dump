@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Èe@XAÑÿQ;
 
 @end
 

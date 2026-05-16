@@ -20,19 +20,19 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
-- (struct __IOHIDEvent *);
-- (id);
 - (void);
-- (struct CGAffineTransform);
-- (void)¡uð!\Eù1ÊÐ1¢!0@ù
-× ;
 - (struct CGSize);
-- (void)etry",&,N,V_geometry;
-- (id);
-- (void)7NSCoderCSo16UIViewControllerCSgIggo_;
+- (struct CGAffineTransform);
+- (struct __IOHIDEvent *);
+- (id)
+× ;
+- (void)tionBarSearchFieldSizing:(id)arg1;
+- (id),S_setHasActiveMenuPresentation:(struct __IOHIDEvent *)arg1;
+- (id)L,NðQ\R´R;
+- (void)finished:(struct CGSize)arg1 %@;
+- (void){ëÛ4s[;
 - (void);
-- (unsigned int)¥ÿáÐÒúM`;
+- (unsigned int);
 
 // Remaining properties
 @property(nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;

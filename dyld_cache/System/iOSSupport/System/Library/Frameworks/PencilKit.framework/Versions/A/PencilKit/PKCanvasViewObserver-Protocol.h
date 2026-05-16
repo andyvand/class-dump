@@ -5,6 +5,5 @@
 //
 
 @protocol PKCanvasViewObserver
-- (void)dv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCURLFetchOperation.m;
 @end
 

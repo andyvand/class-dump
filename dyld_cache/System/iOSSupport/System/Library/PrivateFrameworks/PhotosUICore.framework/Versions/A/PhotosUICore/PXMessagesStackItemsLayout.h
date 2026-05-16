@@ -138,11 +138,12 @@
 - (double);
 - (void);
 - (void);
-- (long long);
-- (void);
 - (id);
-- (void),N,V_originatorRecipient;
-- (void)n;
+- (void);
+- (void);
+- (void)idConfiguration;
+- (long long)ÿ
+ªÃÎ5;
 
 // Remaining properties
 @property(nonatomic) unsigned char accessoryMediaKind; // @synthesize accessoryMediaKind=_accessoryMediaKind;

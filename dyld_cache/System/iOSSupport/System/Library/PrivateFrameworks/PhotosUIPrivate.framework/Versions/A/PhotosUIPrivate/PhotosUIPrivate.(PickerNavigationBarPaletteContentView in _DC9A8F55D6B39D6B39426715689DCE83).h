@@ -12,12 +12,12 @@
     MISSING_TYPE *viewsShouldIgnoreHorizontalMargins;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)Øêÿÿ;
+- (void)teImage;
+- (void)SyøRyÛ8SyªSSyò/SyA;
 
 @end
 

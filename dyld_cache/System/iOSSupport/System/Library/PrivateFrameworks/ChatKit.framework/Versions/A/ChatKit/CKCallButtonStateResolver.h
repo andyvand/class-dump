@@ -15,12 +15,13 @@
 - (void);
 - (id);
 - (void);
-- (id){key:%@, error:%s} /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)
+× ;
+- (void)°ÔÍÿ;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

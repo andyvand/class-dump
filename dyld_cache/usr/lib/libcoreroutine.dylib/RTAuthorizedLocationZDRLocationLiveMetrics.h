@@ -32,7 +32,7 @@
 - (_Bool);
 - (double);
 - (int);
-- (id)iguration;
+- (id);
 
 // Remaining properties
 @property int confirmedALOIMatchedWithZDRType; // @synthesize confirmedALOIMatchedWithZDRType=_confirmedALOIMatchedWithZDRType;

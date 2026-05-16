@@ -15,7 +15,7 @@
     WFRemoteExecutionCoordinator *_coordinator;
 }
 
-+ (_Bool)image quality used when compressing the image file. Higher quality images will look better, but result in larger files.;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -27,15 +27,15 @@
 - (id);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)NSArray"@"NSError">24;
-- (id)g class]];
-- (id)¨;
+- (void)onse;
+- (void)_block_invoke;
+- (void)lable.;
+- (id)1.5Ã (WFMediaSpeed);
 
 // Remaining properties
 @property(nonatomic) __weak WFRemoteExecutionCoordinator *coordinator; // @synthesize coordinator=_coordinator;

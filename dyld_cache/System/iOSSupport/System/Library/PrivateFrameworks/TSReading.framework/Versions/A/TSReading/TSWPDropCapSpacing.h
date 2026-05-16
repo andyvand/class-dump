@@ -27,16 +27,16 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (id);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
 - (id);
-- (void)hN;
 - (unsigned long long);
-- (id);
-- (id)uteServiceUnloaderService;
 - (void);
-- (double);
+- (double)if -layerUpdatesPaused is overridden;
+- (void)Notification;
 
 // Remaining properties
 @property(nonatomic) _Bool allowSpanParagraphs; // @synthesize allowSpanParagraphs=_allowSpanParagraphs;

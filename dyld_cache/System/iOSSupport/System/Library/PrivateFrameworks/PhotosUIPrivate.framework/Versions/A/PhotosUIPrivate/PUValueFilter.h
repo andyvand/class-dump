@@ -12,10 +12,11 @@
 - (double);
 - (double);
 - (void);
-- (void);
-- (double);
 - (id);
-- (id)Height:(double)arg1;
+- (double);
+- (void);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double currentValue; // @synthesize currentValue=_currentValue;

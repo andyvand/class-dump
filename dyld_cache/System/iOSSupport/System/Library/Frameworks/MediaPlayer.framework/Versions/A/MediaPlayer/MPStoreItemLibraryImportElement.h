@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long)TxJ;
+- (long long);
+- (void)_localFileAsset_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalTrackMetadata; // @synthesize additionalTrackMetadata=_additionalTrackMetadata;

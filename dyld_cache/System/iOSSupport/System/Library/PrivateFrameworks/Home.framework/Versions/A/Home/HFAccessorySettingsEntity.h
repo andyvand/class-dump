@@ -49,10 +49,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)ore requesting an update;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *adapterIdentifier; // @synthesize adapterIdentifier=_adapterIdentifier;

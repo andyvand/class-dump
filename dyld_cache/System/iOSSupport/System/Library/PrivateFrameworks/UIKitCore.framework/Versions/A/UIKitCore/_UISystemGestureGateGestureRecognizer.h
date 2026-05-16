@@ -19,31 +19,31 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_source> *_delayTimeoutTimer;
 }
 
-+ (_Bool)iwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
-+ (_Bool)Externally modifying the minuteText value of _UIDatePickerCalendarTimeLabel while it is first responder results in undefined behavior. This will become a hard assert in the future.;
-- (id);
-- (void)er;
-- (void);
-- (void)CommandEvent;
-- (void)ady dispatched];
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
++ (_Bool);
++ (_Bool);
 - (void);
 - (id);
-- (void)0@ù
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool)
 × ;
-- (void)!EùQÅÐ1¢!0@ù
+- (id)ñg1Â0@ù
 × ;
-- (void)MLParser"16@"NSData"24;
-- (void)ringLoadRowAtIndexPath:withContext: /* Error: Ran out of types for this method. */;
-- (void)ompletionAsMarkedText;
-- (void)nativeContentSize;
-- (id);
-- (_Bool)ystem/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote;
-- (_Bool)UIViewControllerPreviewSource;
+- (void)UICandidateViewController";
+- (_Bool)isibilityOffsetForGestureState:(id)arg1 touchType:locationInSceneReferenceSpace:majorRadius: /* Error: Ran out of types for this method. */;
+- (void)mpletionHandlers:(id)arg1;
+- (_Bool)iews;
+- (void)dow:(id)arg1;
+- (void)tionProgress;
+- (id),&,N,S_setPreviousInternalState:,V__previousInternalState /* Error: Ran out of types for this method. */;
+- (void)lication (peekAppEvent) stealKB:%s scene:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)for layouts with estimated item sizes.;
+- (void);
+- (void)xÿã;
 
 @end
 

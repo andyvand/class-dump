@@ -23,10 +23,10 @@
 - (_Bool);
 - (id);
 - (const char *);
-- (void);
+- (CDUnknownFunctionPointerType);
 - (id);
-- (struct objc_method *);
-- (CDUnknownFunctionPointerType)á¸5LMùÿ;
+- (struct objc_method *)ions:filterExtensionName: /* Error: Ran out of types for this method. */;
+- (void)H/ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownFunctionPointerType implementation; // @synthesize implementation=_implementation;

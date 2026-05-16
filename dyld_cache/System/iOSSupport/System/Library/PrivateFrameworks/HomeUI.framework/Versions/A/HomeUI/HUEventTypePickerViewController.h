@@ -25,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)"HMCameraClipSignificantEvent"8Q16^B24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

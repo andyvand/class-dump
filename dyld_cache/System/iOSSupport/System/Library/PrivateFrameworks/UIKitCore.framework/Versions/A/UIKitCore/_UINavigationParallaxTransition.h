@@ -32,67 +32,67 @@
     UIView *_toOverlayView;
 }
 
-+ (double);
-+ (void)tiveSelection:(double)arg1;
-- (void);
++ (void);
++ (double)nPerformAction:forRowAtIndexPath:withSender:method must be implemented by the UITableViewDelegate, not the UITableViewDataSource. This error will cause undefined behavior. Please move the implementation of this method to the delegate of this table view, instead of the data source:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)mmutable;
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (double);
 - (id);
-- (void)lid before -setResponse:(id)arg1 after adding observer];
+- (_Bool);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (long long);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (double);
+- (id)! Eù1_ð1Â0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (id);
+- (double);
+- (void)@ù
+× ;
+- (id)idReloadData"b1};
+- (id)8q16@"UIScreen"24;
+- (void)gateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
+- (id)@"UIDragInteraction"16@"<UIDragSession>"24@?<v@?>32;
+- (void)toresizesToFit:(_Bool)arg1;
+- (void)s:(id)arg1;
+- (void)ndexPath;
+- (void)rrentUpdate:(id)arg1 disappearingAnimations:(_Bool)arg2;
+- (id);
+- (id)earchLayoutState: /* Error: Ran out of types for this method. */;
+- (void)r;
+- (id)",R,N,V_maximumDateComponents;
+- (void)>îÿ¹uþÿÅîÿ;
+- (void)ons;
+- (long long)nerRadius;
+- (void)ack;
+- (void)ect:(id)arg1 %@,
+;
+- (_Bool)rStyle;
+- (id)UIAllowDictationFromPlayPause;
+- (void)de the backgroundEffects property. Switch to using backgroundEffects exclusively.;
+- (double)size;
 - (void);
 - (void);
 - (void);
-- (void)º;
-- (void);
-- (id)r­;
-- (id);
-- (void)1¢!0@ù
-× ;
-- (_Bool)Ô ;
-- (void)1¢!0@ù
-× ;
-- (double)±ÉÐ1¢!0@ù
-× ;
-- (void);
-- (id)ñÎÐ1¢!0@ù
-× ;
-- (id)tyPriority;
-- (_Bool)aseFirstResponderViewWithUpdateSupport:(id)arg1 indexPathMapping: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void)dgedPresentation;
-- (void)smissing,S_setRemoteDismissing:(_Bool)arg1 ,V__remoteDismissing;
-- (id)lock;
-- (id)ints;
-- (double)H;
-- (void)|±;
-- (id)¬;
-- (void)ther - flushing recent actions;
-- (double)tDefinitionP;
-- (id)ode must be changed as there's no longer a status bar or status bar window. Use the statusBarManager object on the window scene instead.;
-- (void)r must be non-nil;
-- (long long)ryView;
-- (_Bool)Cell;
-- (void)oint=dd}24B40@44;
-- (void)ÐÅ_;
-- (id);
-- (void)×ÿ^Ù:(id)arg1 ^;
-- (double)é^;
-- (void)M;
+- (void)ÿÿÿÿ;
+- (long long)Õc];
+- (void)_;
+- (id)wJÜLé_;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;

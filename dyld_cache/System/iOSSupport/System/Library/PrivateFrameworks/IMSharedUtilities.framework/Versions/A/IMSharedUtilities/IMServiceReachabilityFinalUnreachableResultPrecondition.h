@@ -15,9 +15,9 @@
 
 + (id);
 - (unsigned long long);
-- (void);
 - (id);
-- (void)ECT_NOD_DISCOVERABILITY;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;

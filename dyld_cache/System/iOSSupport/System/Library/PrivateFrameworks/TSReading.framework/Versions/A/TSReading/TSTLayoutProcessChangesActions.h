@@ -14,12 +14,12 @@
     _Bool mLayoutSpacesInvalidateTableOffsets;
 }
 
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)נ;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);

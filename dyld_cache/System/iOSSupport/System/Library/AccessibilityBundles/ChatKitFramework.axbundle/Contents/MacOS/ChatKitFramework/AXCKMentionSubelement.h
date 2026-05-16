@@ -16,14 +16,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (struct CGRect);
+- (unsigned long long);
 - (int);
-- (void);
 - (struct _NSRange);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UITextView *accessibilityContainerTextView; // @synthesize accessibilityContainerTextView=_accessibilityContainerTextView;

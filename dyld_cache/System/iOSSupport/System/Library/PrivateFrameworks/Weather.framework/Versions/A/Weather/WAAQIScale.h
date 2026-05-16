@@ -15,12 +15,12 @@
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (struct _NSRange);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSMutableArray *categories; // @synthesize categories=_categories;

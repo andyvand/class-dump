@@ -17,31 +17,31 @@
 
 + (_Bool);
 + (void);
-+ (void)red;
++ (void);
 + (_Bool);
 + (double);
 + (void);
 + (void);
 + (id);
 + (id);
-- (BOOL)&؍G;
+- (BOOL);
 - (long long);
 - (id);
-- (id)jectiveCBridgeableP;
 - (id);
-- (id)׿;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)ow range %@ %lu %@;
-- (struct CGSize);
+- (id);
+- (struct CGSize);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)3;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -63,7 +63,7 @@
 - (_Bool);
 - (Class);
 - (void);
-- (id)±¼;
+- (id)0;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *adamID;

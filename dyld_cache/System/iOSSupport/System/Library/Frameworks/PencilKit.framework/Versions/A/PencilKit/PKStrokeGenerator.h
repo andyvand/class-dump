@@ -83,7 +83,7 @@
 
 + (vector_8f46a492);
 + (vector_8f46a492);
-+ (void);
++ (void)ll-Return-Button;
 - (double);
 - (void);
 - (void);
@@ -107,15 +107,6 @@
 - (void);
 - (void);
 - (void);
-- (void)@;
-- (void)=;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)!;
 - (void);
 - (void);
 - (void);
@@ -134,7 +125,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (struct CGAffineTransform);
 - (void *);
@@ -166,7 +166,7 @@
 - (long long);
 - (void *);
 - (double);
-- (void *);
+- (void *);
 - (void *);
 - (void *);
 - (void);
@@ -179,8 +179,8 @@
 - (void *);
 - (double);
 - (unsigned long long);
-- (void);
-- (void *);
+- (void);
+- (void *);
 - (void);
 - (_Bool);
 - (double);
@@ -200,27 +200,26 @@
 - (void);
 - (double);
 - (_Bool);
-- (void);
 - (void *);
+- (void);
 - (long long);
 - (void);
 - (struct CGPoint);
-- (void)TypedText:(_Bool)arg1;
-- (id);
-- (void)-ʺ;
-- (void)eue element.;
-- (double);
 - (void);
-- (void)H	;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void *);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void *)ÔÁ¥	!xCù±Â1¢!0@ù
-× ;
+- (double);
+- (void)t;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activeInputProperties;

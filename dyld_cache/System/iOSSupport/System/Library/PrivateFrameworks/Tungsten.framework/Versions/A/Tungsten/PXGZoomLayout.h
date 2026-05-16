@@ -43,15 +43,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)§¬¨°¨ø©;
-- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (struct UIEdgeInsets)screenScale: /* Error: Ran out of types for this method. */;
+- (void)rovider:(struct UIEdgeInsets)arg1 toURL:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id anchorObjectReference; // @synthesize anchorObjectReference=_anchorObjectReference;

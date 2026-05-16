@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (void);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *fontForAlignment; // @synthesize fontForAlignment=_fontForAlignment;

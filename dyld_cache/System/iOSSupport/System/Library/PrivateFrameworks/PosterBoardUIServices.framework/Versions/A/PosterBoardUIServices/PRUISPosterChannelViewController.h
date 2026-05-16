@@ -67,21 +67,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void) ;
+- (id);
+- (struct CGRect);
 - (void);
+- (void);
+- (void);
+- (void)Æúÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISPosterChannel *channel; // @synthesize channel=_channel;

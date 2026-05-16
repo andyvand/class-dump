@@ -36,15 +36,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (unsigned long long);
 - (_Bool);
 - (struct CGRect);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

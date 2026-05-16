@@ -10,14 +10,14 @@
 {
 }
 
-+ (id)y;
++ (id);
 - (double);
-- (double)lock: /* Error: Ran out of types for this method. */;
-- (struct CGVector);
+- (double);
+- (struct CGVector);
 - (double);
 - (double);
 - (struct CGPoint);
-- (id)setFocusMapSearchInfo: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double _altitudeAngle;

@@ -13,19 +13,19 @@
     NSNumber *_limit;
 }
 
-+ (_Bool)izationManager (in %s:%d) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
-- (id)se;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)"NSString",C,V_remoteHostname;
-- (_Bool)licyMask;
+- (id);
+- (void)d parameter not satisfying:qosOptions (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAscending) _Bool ascending; // @synthesize ascending=_ascending;

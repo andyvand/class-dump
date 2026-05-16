@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void)ettings;
-- (id);
 - (void);
-- (void)tH;
-- (double)T0;
+- (id);
+- (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIViewPropertyAnimator *ascentDescentAnimator; // @synthesize ascentDescentAnimator=_ascentDescentAnimator;

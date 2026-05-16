@@ -9,11 +9,11 @@
     CDUnknownBlockType __providerBlock;
 }
 
-+ (id)session close %@;
-- (void)r:(CDUnknownBlockType)arg1;
-- (CDUnknownBlockType);
++ (id);
 - (void);
-- (id)iftUIGlassInfo;
+- (CDUnknownBlockType);
+- (id);
+- (void)ì­ÌÿG;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _providerBlock; // @synthesize _providerBlock=__providerBlock;

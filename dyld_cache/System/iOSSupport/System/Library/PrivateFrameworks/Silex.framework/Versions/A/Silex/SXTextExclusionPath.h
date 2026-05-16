@@ -26,8 +26,8 @@
     struct CGRect _exclusionRect;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

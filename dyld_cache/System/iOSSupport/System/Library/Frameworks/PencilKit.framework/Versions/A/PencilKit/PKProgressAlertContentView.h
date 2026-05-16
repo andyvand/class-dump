@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (void);
-- (struct CGSize);
-- (void);
-- (double);
-- (id);
 - (void);
+- (struct CGSize);
+- (id);
+- (double);
+- (void);
+- (void)legate>",W,N,V_delegate;
 
 // Remaining properties
 @property(nonatomic) double progress; // @synthesize progress=_progress;

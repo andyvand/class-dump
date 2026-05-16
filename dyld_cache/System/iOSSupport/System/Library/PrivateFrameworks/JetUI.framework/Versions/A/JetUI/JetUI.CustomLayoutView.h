@@ -10,12 +10,12 @@
 {
 }
 
+- (struct CGSize);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

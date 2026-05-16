@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)SString"16@?<v@?@"NSArray">24;
-- (id)y"28@"NSArray"36q44B52;
-- (_Bool)ersationManager"16@"TUConversation"24@"TUConversationParticipant"32;
-- (_Bool)ion"24@"TUConversation"32;
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id)et:(id)arg1;
-- (_Bool)date;
-- (id)Image;
-- (id)qúÿ;
-- (id)safeAreaCornerInsets;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id)doIconOnly;
+- (id)eTokenForKeyplane:caseAlternates: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

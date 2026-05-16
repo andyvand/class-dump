@@ -12,10 +12,10 @@
     MISSING_TYPE *$__lazy_storage_$_iconView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)ÿÿÿÿ;
 
 @end
 

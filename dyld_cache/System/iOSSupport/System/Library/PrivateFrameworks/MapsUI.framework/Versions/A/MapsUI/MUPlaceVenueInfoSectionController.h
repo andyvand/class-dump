@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
-- (void);
 - (id);
+- (void)urceView;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

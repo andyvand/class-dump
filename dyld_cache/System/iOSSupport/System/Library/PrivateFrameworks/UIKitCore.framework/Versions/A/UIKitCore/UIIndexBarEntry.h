@@ -15,29 +15,29 @@
     NSIndexPath *_indexPath;
 }
 
-+ (id)und chat for chatID:(long long)arg1 %@. Known sender:%@, chat:%@ /* Error: Ran out of types for this method. */;
-+ (id)onNotice;
-+ (id)aemonCore28PersistedCollaborationNotice;
 + (id);
 + (id);
 + (id);
 + (id);
-- (_Bool)ificationCenter!;
-- (id)cord passed to chatWithCKRecord %@;
++ (id);
++ (id);
++ (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)!´Cù1Âð1¢!0@ù
-× ;
 - (id);
-- (id)Ëð1¢!0@ù
+- (id)ù
 × ;
-- (void)24c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}}16;
-- (id)resentedViewControllerDetail;
-- (long long)e/UIPointerSupport.swift;
-- (void)D;
-- (void)ý;
+- (id)	Ð!,Dùeð1Â0@ù
+× ;
+- (long long)@48;
+- (void)sparent;
+- (void)óõtö´öh÷4øPùÜúûðûýý0þ;
+- (void)gnoringInteractionEvents;
+- (id)ü\;
+- (void)pþ6ðËpºg;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *effectiveShortTitle;

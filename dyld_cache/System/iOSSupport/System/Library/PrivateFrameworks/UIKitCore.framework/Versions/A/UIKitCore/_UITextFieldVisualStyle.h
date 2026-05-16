@@ -12,19 +12,18 @@ __attribute__((visibility("hidden")))
     id <_UITextFieldVisualStyleSubject> _styleSubject;
 }
 
-+ (id)ÊÐ1¢!0@ù
-× ;
-- (id)ay is NULL;
++ (id)ateTemplateProperties;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)ation.security.smartcard;
+- (_Bool);
 - (id);
-- (_Bool);
-- (void)?;
+- (id);
 - (void);
-- (id)ControlCategory";
-- (id)r: /* Error: Ran out of types for this method. */;
+- (id)ay;
+- (id)ing search bar to new placement. Fixing, but delegate searchBarPlacement callbacks have been skipped. navigationBar = %@;
+- (void)_UITabBarContentLayoutManagerCSgXw;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextFieldVisualStyleSubject> styleSubject; // @synthesize styleSubject=_styleSubject;

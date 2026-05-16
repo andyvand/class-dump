@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (void)d:(id)arg1;
 - (void);
-- (id);
+- (void);
+- (id)Ø	;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *_color;

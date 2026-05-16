@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)sferSize;
-- (id);
-- (id);
-- (void)ertyMovieTagline__MAPPING_MISSING__;
 - (void);
-- (id)@"_UINavigationBarNSToolbarLayout";
-- (void)llIndicatorsPersistingPreviousFlashes;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)G^¾7Sg;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *auxiliaryConnection; // @synthesize auxiliaryConnection=_auxiliaryConnection;

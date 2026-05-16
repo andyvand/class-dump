@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
-- (unsigned long long);
-- (_Bool)5˿;
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void)=%{public}@;
 
 @end
 

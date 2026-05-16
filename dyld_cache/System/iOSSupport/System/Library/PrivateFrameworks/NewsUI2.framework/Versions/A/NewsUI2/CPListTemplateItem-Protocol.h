@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol CPListTemplateItem
-- (id);
-- (NSString *);
-- (void)µú¼ÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

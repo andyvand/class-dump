@@ -19,15 +19,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)ntentEditingController;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

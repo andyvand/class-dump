@@ -21,15 +21,15 @@
 }
 
 + (double);
-- (void)ation validateOperation];
-- (void)figuration/RemoteConfiguration/RCRequestInfo.m;
-- (void)PerformBlockOnMainThread(dispatch_block_t  _Nonnull __strong);
-- (void)/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Operations/RCOperation.m;
-- (id)s;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -42,12 +42,12 @@
 - (id);
 - (id);
 - (void);
-- (void)isionToVisionAvailable;
 - (void);
-- (_Bool);
 - (id);
 - (void);
-- (unsigned long long)uH;
+- (_Bool);
+- (void)\¦È¨ô¨L©Z¬¯ä¯;
+- (unsigned long long)à;
 
 // Remaining properties
 @property(nonatomic) long long colorUserInterfaceStyle;

@@ -14,11 +14,12 @@
     MISSING_TYPE *deviceTypeValues;
     MISSING_TYPE *otherAttributeStates;
     MISSING_TYPE *commandObserver;
+    MISSING_TYPE *overrideEndpointIDs;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)yControlLaunch;
 
 @end
 

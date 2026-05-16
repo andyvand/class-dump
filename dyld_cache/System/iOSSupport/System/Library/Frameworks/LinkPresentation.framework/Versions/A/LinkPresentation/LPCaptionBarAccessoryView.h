@@ -19,10 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)k!;
-- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (id)(H;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize size;

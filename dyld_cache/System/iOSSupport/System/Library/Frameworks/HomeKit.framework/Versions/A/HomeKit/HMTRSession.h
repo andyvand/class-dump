@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (id);
-- (id)e:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)1B;
+- (id)ÿø;
 
 // Remaining properties
 @property(readonly) __weak TRSession *session; // @synthesize session=_session;

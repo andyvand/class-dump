@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)uct;
+- (int);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXQuickLookComponentFileProvider> fileProvider; // @synthesize fileProvider=_fileProvider;

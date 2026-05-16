@@ -17,7 +17,7 @@
     _Bool mAppliesToHidden;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -31,7 +31,8 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long)gate;
+- (unsigned long long)11Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool appliesToHidden; // @synthesize appliesToHidden=mAppliesToHidden;

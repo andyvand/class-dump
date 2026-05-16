@@ -16,20 +16,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)Ô/$0;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool haveNicknamesLoaded;

@@ -101,7 +101,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -157,7 +156,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
@@ -369,18 +367,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (id);
 - (double);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -410,25 +410,25 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)pletion:(id)arg1;
-- (void)er;
-- (id)½yARGGG«½GtGGt;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)1â
+0@ù
+× ;
+- (void)nerFrame;
+- (void)ÀDÜ;
+- (id);
+- (_Bool);
 - (void);
-- (_Bool)î¤
-;
-- (id)`ßü®
-;
 
 // Remaining properties
 @property(retain, nonatomic) PXNumberAnimator *animateScrollToStyleKindAnimator; // @synthesize animateScrollToStyleKindAnimator=_animateScrollToStyleKindAnimator;

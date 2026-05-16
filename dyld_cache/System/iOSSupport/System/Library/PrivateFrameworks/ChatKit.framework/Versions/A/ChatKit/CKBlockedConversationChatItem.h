@@ -14,18 +14,18 @@
     CKTranscriptBlockedConversationCell *_sizingCell;
 }
 
-- (id)GG;
-- (id)IndexerC;
-- (void)g;
-- (void)U;
-- (id)oomController) != nil);
-- (struct CGSize)egacy note does not have valid object context %@;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
 - (_Bool);
 - (id);
 - (_Bool);
 - (Class);
+- (unsigned long long)gePartChatItem: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long)Duration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *blockedRecipients;

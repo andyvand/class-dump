@@ -10,10 +10,11 @@
 {
 }
 
-+ (long long);
-- (_Bool)@0:8@16@24{CGSize=dd}32@48@56 /* Error: Ran out of types for this method. */;
-- (struct CGRect): /* Error: Ran out of types for this method. */;
++ (long long)0@ù
+× ;
 - (_Bool);
+- (_Bool);
+- (struct CGRect);
 
 @end
 

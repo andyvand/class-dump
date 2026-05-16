@@ -14,15 +14,15 @@
 
 - (id);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (double);
-- (id);
+- (void);
+- (void);
+- (id)M!;
 
 // Remaining properties
 @property(nonatomic) double creationTime; // @synthesize creationTime=_creationTime;

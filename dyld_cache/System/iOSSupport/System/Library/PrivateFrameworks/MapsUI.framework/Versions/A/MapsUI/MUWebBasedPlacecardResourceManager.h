@@ -11,13 +11,13 @@
     _TtC6MapsUI35_MUWebBasedPlacecardResourceManager *_manager;
 }
 
-+ (id);
++ (id)ate>",W,N,V_delegate;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ct:cornerRadius: /* Error: Ran out of types for this method. */;
 
 @end
 

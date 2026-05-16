@@ -30,13 +30,13 @@
 - (long long);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)m";
-- (void)rfaceStyle:(id)arg1;
+- (void)sses;
 
 // Remaining properties
 @property(retain, nonatomic) NSDateComponents *currentOffset; // @synthesize currentOffset=_currentOffset;

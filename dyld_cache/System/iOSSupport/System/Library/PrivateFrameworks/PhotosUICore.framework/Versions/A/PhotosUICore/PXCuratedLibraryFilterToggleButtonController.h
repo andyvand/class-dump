@@ -28,9 +28,9 @@
 - (void);
 - (id);
 - (void);
+- (void)ryButton.swift;
 - (void);
-- (void)þ	7;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)¾ßKÔf7;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

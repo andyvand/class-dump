@@ -8,8 +8,6 @@
 @protocol GEOTransitIconDataSource;
 
 @protocol GEOTransitIncident
-- (NSString *)_CURATED_HIKE;
-- (NSDate *)éñ»;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *affectedEntities;

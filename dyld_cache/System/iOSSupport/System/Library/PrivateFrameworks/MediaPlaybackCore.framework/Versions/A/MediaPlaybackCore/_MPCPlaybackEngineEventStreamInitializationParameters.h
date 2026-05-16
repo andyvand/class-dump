@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)c}@ upNextSection=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

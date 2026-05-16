@@ -16,13 +16,14 @@
 - (id);
 - (id);
 - (id);
+- (id)0@ù
+× ;
+- (id);
+- (id),V_secondaryActionsProvider;
+- (id)es contain %@;
 - (id);
 - (id);
-- (id)ct>",&,N,V__internalIdentifier;
-- (id)äò;
-- (id)eady presenting %@.;
-- (long long)oes not support changing content;
-- (id)`¨âÿûÍSd;
+- (long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *action;

@@ -35,9 +35,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void)erviceDetailsTextViewDelegate.m;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *addButtonItem;

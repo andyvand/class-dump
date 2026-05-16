@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)temInURL:(id)arg1 percentEncodedQueryItemKey:percentEncodedQueryItemValue: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)sStandalone;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *blockedTrackers; // @synthesize blockedTrackers=_blockedTrackers;

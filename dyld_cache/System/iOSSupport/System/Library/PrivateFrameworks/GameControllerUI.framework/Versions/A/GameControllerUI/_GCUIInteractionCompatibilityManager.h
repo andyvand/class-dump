@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

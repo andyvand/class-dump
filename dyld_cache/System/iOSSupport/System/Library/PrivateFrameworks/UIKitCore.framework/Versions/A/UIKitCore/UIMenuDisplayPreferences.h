@@ -9,13 +9,13 @@
     long long _maximumNumberOfTitleLines;
 }
 
-+ (_Bool);
-- (void)ionManager:(long long)arg1 remoteScreenShareEndedWithReason: /* Error: Ran out of types for this method. */;
-- (long long);
++ (_Bool);
 - (void);
+- (long long);
 - (id);
 - (id);
-- (id);
+- (void)ror:(id)arg1;
+- (id)zePreferenceExtension;
 
 // Remaining properties
 @property(nonatomic) long long maximumNumberOfTitleLines; // @synthesize maximumNumberOfTitleLines=_maximumNumberOfTitleLines;

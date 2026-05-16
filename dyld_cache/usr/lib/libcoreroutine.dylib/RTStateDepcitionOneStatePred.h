@@ -13,14 +13,15 @@
     NSUUID *_stateUUID;
 }
 
-- (void)se another plugin is ordered same but has precedence;
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)D: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)
+× ;
+- (void)ults for the key %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTStateDepictionOnePredEl *daily; // @synthesize daily=_daily;

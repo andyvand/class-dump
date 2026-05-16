@@ -4,26 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, MTLSharedTextureHandle, NSArray, NSString;
-@protocol MTLBinaryArchive, MTLComputePipelineState, MTLFunctionHandle, MTLTexture;
+@class MTLArchitecture, MTLMeshRenderPipelineDescriptor, MTLRasterizationRateMapDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString;
+@protocol MTL4BinaryFunction, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTLCommandQueue, MTLDynamicLibrary, MTLFunctionHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLSharedEvent;
 
 @protocol MTLDevice
-- (unsigned int)nStructurePassDescriptor"16;
-- (id <MTLTexture>)scriptor:(MTLSharedTextureHandle *)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
-- (id <MTLComputePipelineState>);
-- (id <MTLFunctionHandle>)ÿÿ´=ÿÿØ=ÿÿü=ÿÿ8>ÿÿ\>ÿÿ>ÿÿ¤>ÿÿà>ÿÿ?ÿÿ(?ÿÿL?ÿÿ?ÿÿ¬?ÿÿø?ÿÿD@ÿÿ@ÿÿø@ÿÿAÿÿÀAÿÿüAÿÿ BÿÿBÿÿØBÿÿCÿÿÐCÿÿDÿÿ(DÿÿTDÿÿxDÿÿTFÿÿ`FÿÿlFÿÿ|GÿÿlHÿÿxHÿÿHÿÿHÿÿHÿÿ¨HÿÿÌHÿÿøHÿÿIÿÿHIÿÿlIÿÿIÿÿ¼IÿÿèIÿÿJÿÿ8JÿÿhJÿÿKÿÿ´KÿÿÜKÿÿLÿÿMÿÿ$Mÿÿ`MÿÿMÿÿ¨NÿÿäNÿÿOÿÿ,OÿÿPOÿÿtOÿÿOÿÿøOÿÿPÿÿ@Pÿÿ|Pÿÿ Pÿÿ0QÿÿdQÿÿ(Rÿÿ\RÿÿRÿÿ¬RÿÿàRÿÿ¤SÿÿØSÿÿüSÿÿÄUÿÿ;
-- (unsigned long long)ÿl'ÿÿ¤'ÿÿÔ'ÿÿü'ÿÿ<(ÿÿ(ÿÿ¼(ÿÿä(ÿÿ)ÿÿ)ÿÿ¼)ÿÿô)ÿÿ+ÿÿ¬+ÿÿä+ÿÿ,ÿÿ<,ÿÿ,ÿÿ¨,ÿÿÜ,ÿÿp/ÿÿø/ÿÿ¸0ÿÿÜ0ÿÿ1ÿÿ¨1ÿÿP3ÿÿt3ÿÿ°3ÿÿä3ÿÿ¨4ÿÿÜ4ÿÿ;
-- (_Bool)çÿÿ;
-- (unsigned long long)´ÿÿ;
-- (_Bool)erGraph;
-- (id <MTLBinaryArchive>)icsRendering;
-- (_Bool)rawValue;
-- (_Bool)phoreC;
-- (NSArray *)Sg;
-- (_Bool)y_storage_$_debugProbeMaterial;
-- (void)nizationDiscoveryView;
-- (CDStruct_4bcfbbae)PROJECT:(unsigned long long)arg1 RE-403.60.3
-;
+- (void)tor"16;
+- (void):(MTLMeshRenderPipelineDescriptor *)arg1 8@"NSURL"16^@24;
+- (void)Format:(unsigned long long *)arg1 width:(unsigned long long *)arg2 height:mipmapped: /* Error: Ran out of types for this method. */;
+- (id <MTLRasterizationRateMap>)nt:(MTLRasterizationRateMapDescriptor *)arg1 sparsePageSize: /* Error: Ran out of types for this method. */;
+- (_Bool)ions:(long long)arg1;
+- (id <MTLFunctionHandle>)escriptor:(id <MTL4BinaryFunction>)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)putePipelineStateWithFunction:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)izeAndAlignWithLength:options: /* Error: Ran out of types for this method. */;
+- (id <MTLDynamicLibrary>);
+- (id <MTLSharedEvent>)viceLocator;
+- (void)r:(MTLRenderPipelineDescriptor *)arg1;
+- (id <MTLLibrary>)ronizationIdentityP33_7E3E0600D4E33AA58CAA5FAB3E0E71EC5State;
+- (id <MTLCommandQueue>);
+- (id <MTL4CommandBuffer>)creen_ARKitPassthrough;
+- (_Bool)InDegrees;
+- (id <MTLFunctionHandle>)ÿÿ½åÿÿ;
+- (id <MTL4CommandAllocator>)Öµÿÿ;
+- (_Bool)EntityWrapper;
+- (id <MTLIndirectCommandBuffer>)Løÿ;
+- (unsigned long long)ÿÿ;
+- (_Bool)yn;
+- (unsigned long long)ViewC;
+- (_Bool)_øÿ;
+- (_Bool)';
+- (id <MTL4CommandQueue>),Q;
+- (id <MTLLibrary>);
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -61,6 +71,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

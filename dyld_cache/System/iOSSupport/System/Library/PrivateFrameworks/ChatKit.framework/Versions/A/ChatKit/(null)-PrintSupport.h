@@ -5,20 +5,20 @@
 //
 
 @interface (null) (PrintSupport)
-+ (_Bool);
-- (void)i;
++ (_Bool);
 - (void);
-- (void)t;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool)k;
+- (_Bool);
 - (void);
-- (_Bool)v;
+- (_Bool);
 - (id);
 - (void);
-- (_Bool)i;
+- (_Bool);
 - (void);
-- (void)_;
+- (void);
 - (unsigned long long);
 - (long long);
 @end

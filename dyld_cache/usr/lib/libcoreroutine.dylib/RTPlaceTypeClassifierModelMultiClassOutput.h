@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
 - (long long);
 - (void);
+- (id)ting;
 - (void);
-- (id);
+- (id)ue, %.2f, overridden value, %.2f, by defaultsKey, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;

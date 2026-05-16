@@ -17,7 +17,7 @@
 + (void);
 + (long long);
 + (void);
-+ (void)¼$ÿ;
++ (void)´ õÿ©KÐ,6;
 - (double);
 - (double);
 - (double);
@@ -29,12 +29,12 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (double);
 - (void);
-- (void)¬Ö0e;
+- (double);
 - (id);
 - (id);
-- (void)StoryTimelineLayout update];
+- (void)implemented on the current platform;
+- (void)©¨;
 
 @end
 

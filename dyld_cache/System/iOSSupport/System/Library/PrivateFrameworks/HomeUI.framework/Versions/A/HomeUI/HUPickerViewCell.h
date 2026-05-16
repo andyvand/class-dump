@@ -29,14 +29,14 @@
 - (long long);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)<HUQuickControlItemUpdating>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ider:(id)arg1;
+- (void)is calling settings:didUpdateForIdentifier:keyPath:because it currently does not work for alarms /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -24,22 +24,22 @@
 + (id);
 + (id);
 + (id);
-- (id):withArguments:toAVChat:isVideo: /* Error: Ran out of types for this method. */;
-- (id)allowListChanged: /* Error: Ran out of types for this method. */;
-- (id)edMessagesFromAccount:toIdentifier:isSOS: /* Error: Ran out of types for this method. */;
-- (void)essionInformationOnItem:(id)arg1 toChat:withStyle:forAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)@ lastSyncDate %@ deviceConditionsAllowSync %@;
-- (id)sSyncing %@ isUnderFirstUnlock %@ lastSyncDate %@ deviceConditionsAllowSync %@;
-- (id)kick off an eager sync in %@ seconds;
-- (void)sent in SMSFilterSyncDeviceParams array. Need to update filter params.;
-- (void)ed. Need to update filter params.;
-- (void)update filter params.;
-- (void), filterExtensionName:(CDUnknownBlockType)arg1 %@. Checking if we need to update filter params.;
-- (long long)nd transfer %@ to mark as unsuccessful;
-- (double)ask from store;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (double);
 - (double);
 - (void);
 - (void);
@@ -53,15 +53,13 @@
 - (void);
 - (id);
 - (double);
-- (void);
 - (double);
+- (void);
 - (void);
 - (_Bool);
-- (void)0@ù
-× ;
-- (unsigned long long)!DùÅð1¢!0@ù
-× ;
-- (id)poverArrowDirection;
+- (id);
+- (unsigned long long)dateDescription;
+- (void)8¨ÿ&¬;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_activeAnimationDuration) double activeAnimationDuration;

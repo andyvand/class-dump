@@ -12,21 +12,19 @@
 {
 }
 
-+ (_Bool)e;
-+ (id);
-+ (id)'
-;
++ (_Bool);
 + (id);
 + (id);
-- (void)searchSuggestionType;
-- (_Bool);
-- (id);
-- (id);
-- (id)aph end:(id)arg1 %ld String range:%s /* Error: Ran out of types for this method. */;
-- (_Bool)body** removed the note;
++ (id);
++ (id);
 - (void);
-- (void)ad.;
+- (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -35,8 +33,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (double)tNamer;
-- (long long)tÿÿ]5ö£-;
+- (double);
+- (id);
+- (long long)CONVERSATION_LIST_FOCUS_FILTER_ACTION_DESCRIPTION;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

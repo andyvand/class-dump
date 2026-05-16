@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)nfigurationItemListModuleSectionIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) HUAirPlaySettingsDetailsItemManager *airPlaySettingsDetailsItemManager; // @synthesize airPlaySettingsDetailsItemManager=_airPlaySettingsDetailsItemManager;

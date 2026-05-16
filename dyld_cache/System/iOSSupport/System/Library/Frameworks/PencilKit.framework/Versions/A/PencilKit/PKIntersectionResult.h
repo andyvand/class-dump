@@ -13,14 +13,14 @@
     long long _contentType;
 }
 
-+ (id)";
++ (id);
 - (void);
 - (void);
-- (long long)%;
+- (long long);
 - (id);
-- (void);
-- (long long)lternatives;
-- (void)Tý;
+- (long long);
+- (void)T	 	;
+- (void)electionActionTypeInsertSpace;
 
 // Remaining properties
 @property(nonatomic) long long contentType; // @synthesize contentType=_contentType;

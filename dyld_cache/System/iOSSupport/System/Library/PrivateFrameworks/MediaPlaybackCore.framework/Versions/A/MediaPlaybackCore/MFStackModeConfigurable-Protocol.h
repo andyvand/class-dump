@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol MFStackModeConfigurable
-- (void);
-- (void);
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isModeManagedSession;

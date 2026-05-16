@@ -23,10 +23,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)ock_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long actionSetItemStyle; // @synthesize actionSetItemStyle=_actionSetItemStyle;

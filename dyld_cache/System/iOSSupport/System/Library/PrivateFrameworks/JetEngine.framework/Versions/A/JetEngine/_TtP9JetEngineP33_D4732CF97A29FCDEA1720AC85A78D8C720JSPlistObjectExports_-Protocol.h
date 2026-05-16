@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSValue;
-
 @protocol _TtP9JetEngineP33_D4732CF97A29FCDEA1720AC85A78D8C720JSPlistObjectExports_
-- (JSValue *);
 @end
 

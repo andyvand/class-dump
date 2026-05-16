@@ -49,14 +49,13 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (_Bool)&ð!Dù01b0@ù
-× ;
-- (_Bool)DeviceItemProvider;
-- (void);
-- (_Bool);
-- (void)xyAAyAAyFÆvéºvGs¾xGSgGº®vy¶vGG5°vG;
+- (_Bool);
+- (_Bool);
+- (void):(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)a;
+- (_Bool)dForecast = %{BOOL}d, home can show indicator %{BOOL}d);
+- (void)witch;
 
 // Remaining properties
 @property(nonatomic) double animationFromProgress; // @synthesize animationFromProgress=_animationFromProgress;

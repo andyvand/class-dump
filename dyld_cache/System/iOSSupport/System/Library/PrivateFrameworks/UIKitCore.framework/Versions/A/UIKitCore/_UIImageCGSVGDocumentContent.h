@@ -12,23 +12,21 @@ __attribute__((visibility("hidden")))
     struct CGSVGDocument *_svgDocumentRef;
 }
 
-- (id)presentation:(struct CGSVGDocument *)arg1;
-- (unsigned long long);
-- (struct CGSVGDocument *);
-- (_Bool);
-- (double);
-- (void):(struct CGSize)arg1;
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (struct CGSize)!vÐ!4@ùÑÊ°1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (_Bool)"b1"needsCollectionViewScrollPositionUpdate"b1"needsUpdateSizing"b1"needsUpdateForChangedLayoutMargins"b1"isIgnoringScrollCallbacks"b1"implementsDecorationDelegate"b1"implementsDidChangeVisibleDateDelegate"b1"hasDecorations"b1};
-- (void)neIndex:(struct CGSize)arg1;
-- (id)ePointAdaptationStyle:animationSettings: /* Error: Ran out of types for this method. */;
-- (id)Q;
-- (id)"ÿ;
+- (unsigned long long);
+- (struct CGSVGDocument *)ndering"b8"padding"b8};
+- (_Bool)idChange;
+- (double)ction;
+- (_Bool)tAlignment;
+- (void)contentCoverStateDidChange;
+- (id)«<ÙT\;
+- (struct CGSize);
+- (_Bool)`;
+- (id)U/ØHÏ`;
+- (void)>&;
 
 @end
 

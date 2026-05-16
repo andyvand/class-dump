@@ -15,13 +15,13 @@
 
 + (id);
 + (id);
-- (void)S;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)e.xbs/Sources/AlderShared/text/TSWPLineFragment.mm;
-- (void)y4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDRep.m;
+- (_Bool);
+- (void)&;
 
 @end
 

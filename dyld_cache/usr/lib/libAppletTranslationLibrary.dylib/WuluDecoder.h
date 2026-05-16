@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -42,12 +42,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)V	;
 - (id);
-- (void);
 - (id);
-- (id);
 - (id);
+- (id);
+- (id);
+- (void)ketUsed: /* Error: Ran out of types for this method. */;
 
 @end
 

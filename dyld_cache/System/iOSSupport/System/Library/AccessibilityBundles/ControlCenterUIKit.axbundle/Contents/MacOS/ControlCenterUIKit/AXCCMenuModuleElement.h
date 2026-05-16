@@ -10,17 +10,17 @@
     CDUnknownBlockType _provider;
 }
 
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (unsigned long long);
-- (long long);
 - (_Bool);
+- (id);
 - (struct CGRect);
+- (id);
+- (unsigned long long);
+- (CDUnknownBlockType);
+- (long long);
+- (void);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;

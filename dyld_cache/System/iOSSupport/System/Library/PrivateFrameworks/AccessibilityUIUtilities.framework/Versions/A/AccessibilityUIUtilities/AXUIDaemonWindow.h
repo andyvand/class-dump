@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-- (void);
-- (_Bool)@"NSString";
-- (struct UIEdgeInsets)`;
+- (void);
+- (_Bool);
+- (struct UIEdgeInsets);
 - (id);
 
 @end

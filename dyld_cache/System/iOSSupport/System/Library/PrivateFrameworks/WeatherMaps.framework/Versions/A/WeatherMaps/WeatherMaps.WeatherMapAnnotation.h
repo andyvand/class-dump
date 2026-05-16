@@ -12,10 +12,10 @@
     MISSING_TYPE *overlayKind;
 }
 
-- (void);
-- (id);
 - (id);
 - (struct CLLocationCoordinate2D);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CLLocationCoordinate2D coordinate;

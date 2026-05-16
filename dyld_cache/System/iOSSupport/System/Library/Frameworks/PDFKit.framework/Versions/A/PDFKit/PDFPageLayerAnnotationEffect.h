@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (void);
 - (id);
 - (void);
-- (id).framework/Versions/A/Marco;
+- (void);
+- (id);
 
 @end
 

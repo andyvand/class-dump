@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PDFCoachMarkManagerPrivate *_private;
 }
 
-- (void)CRNextCardCommand"16@"NSViewController<CRKCardViewControlling>"24;
-- (void)CardViewControlling>"16@"NSViewController"24;
-- (id)oller";
-- (void)4@0:8@"NSPasteboard"16 /* Error: Ran out of types for this method. */;
-- (id)"16;
 - (void);
-- (void)yDrawingController;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 
 @end
 

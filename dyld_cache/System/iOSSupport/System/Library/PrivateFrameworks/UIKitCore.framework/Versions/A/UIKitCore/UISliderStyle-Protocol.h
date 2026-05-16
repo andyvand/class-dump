@@ -4,48 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIImageView, UISlider, UISliderDataModel, UIView;
+@class UIImageView, UISlider, UISliderDataModel, UIView;
 
 @protocol UISliderStyle
-- (UIImageView *);
-- (void):tileCount:thresholdsBuffer:cumulativePointsBuffer:keypointLocationsBuffer:keypointResponsesBuffer:maxRegionHeight:maxRegionWidth: /* Error: Ran out of types for this method. */;
-- (void)StoreAsset;
-- (void)atchCommandEvent | finishing event [] event=%{public}@ statuses=[%{public}@];
-- (UIImageView *);
-- (UIView *)0@ù
+- (void)ÁÐ!ìEùq[Ð1Â0@ù
 × ;
-- (void)
+- (void)ð1Â0@ù
 × ;
-- (struct CGRect)1¢!0@ù
+- (void)ù`ð1Â0@ù
 × ;
-- (void)extFormattingViewControllerChangeValue"16@"NSData"24;
-- (_Bool)32@40;
-- (UISliderDataModel *)downloadOperationForActivity: /* Error: Ran out of types for this method. */;
-- (UIView *)thEvent:transitionHandler: /* Error: Ran out of types for this method. */;
-- (void)outValue:(UISliderDataModel *)arg1;
-- (struct CGRect)tle:(struct CGRect)arg1;
-- (void)leSystemItems:tintColor:applyBezel:forButtonItemStyle: /* Error: Ran out of types for this method. */;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (void)exOverlayIndicatorVisible;
-- (void)tentsScaleFactor;
-- (UIImage *)Displacement;
-- (struct UIEdgeInsets)dateMonthYearLabel;
-- (void)idLayoutSubviews;
-- (void)erStreamingManager;
-- (void)_activeQueue;
-- (void)UIDelayedAction",&,N,V_idleAction;
-- (_Bool)@"NSMutableArray",&,N,V_propertyAnimators;
-- (void)xt;
-- (void)Ì>;
-- (void)¨ÿÿÿ¢èÿdyþLþÿ;
-- (void)ollAnimationDuration;
-- (void)ion traits from Horizontal %@/Vertical %@ to Horizontal %@/Vertical %@;
-- (struct CGSize)PortraitCodingKeys;
-- (UISlider *);
+- (void)0@ù
+× ;
+- (void)°!Bùqb1Â0@ù
+× ;
+- (UISliderDataModel *)Q16@"_UISceneCarPlaySessionTouchpad"24;
+- (void)b1"visibleRangeWithLayout"b1"nsrangeForTextRange"b1"textRangeFromNSRange"b1"nsTextRangeForRange"b1"rangeForTextKitRanges"b1"unobscuredContentRect"b1"textLayoutManager"b1"caretTransformForPosition"b1"legacyCaretTransformForPosition"b1"selectionContainerViewBelowText"b1"selectionContainerViewAboveText"b1};
+- (struct UIEdgeInsets)Point=dd}{CGSize=dd}}40d72d80;
+- (_Bool)undColor;
+- (struct CGRect)on:(struct CGRect)arg1 toPosition:(struct CGRect)arg2;
+- (void)teInlineCompletionAsMarkedText:(unsigned long long)arg1;
+- (UIImageView *)ode;
+- (struct CGRect)edAnimatableProperty>",R,N,V_animatableProperty;
+- (void),N,V_aCopyButtonView;
+- (struct CGSize)y;
+- (void)lineSectionControllerInternal;
+- (struct CGRect)Ð+¬,;
+- (_Bool)on steps. Collection view:%@; Original index path:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)kedButton;
+- (struct CGRect);
+- (void)alogName;
+- (UIView *)externalSystemWhiteColor;
+- (UIImageView *)t;
+- (void)mGroups;
+- (struct CGRect)¾7G;
+- (_Bool)8tnþõ333Dtnþý333PtnþÕ333\tnþ%433htnþµ333ttnþµ333¤©rþý333tnþ5433tnþ433¤tnþ;
 
 @optional
-- (void);
-- (UIImage *);
+- (void)ð!;
 
 // Remaining properties
 @property(retain, nonatomic) UISliderDataModel *data;

@@ -22,11 +22,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)elationBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNUIPRUISIncomingCallPosterContext *context; // @synthesize context=_context;

@@ -43,10 +43,10 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long atomDataOffset; // @synthesize atomDataOffset=_atomDataOffset;

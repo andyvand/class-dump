@@ -16,21 +16,21 @@ __attribute__((visibility("hidden")))
     _Bool _isTimeInput;
 }
 
-- (void)H;
-- (id)DeletedZones:(id)arg1;
-- (void)ActiveString;
-- (void)rror: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
 - (long long);
 - (id);
-- (id)with operation %@;
-- (id)ack %@ records moreComing %@ fetchAllChanges %@;
-- (void)unarchive mock ck record data. Error:%@ /* Error: Ran out of types for this method. */;
-- (void)random delay of %@ seconds;
-- (void)%@ identifier %@;
-- (void)c database;
-- (void)(%{BOOL}d).;
+- (id);
+- (id);
 - (void);
-- (id)DFNSNumberFormatter;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIDatePicker *_datePicker; // @synthesize _datePicker;

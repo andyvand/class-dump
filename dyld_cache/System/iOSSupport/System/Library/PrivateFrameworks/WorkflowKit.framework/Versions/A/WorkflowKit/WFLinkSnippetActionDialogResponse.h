@@ -12,16 +12,16 @@
 }
 
 + (_Bool);
-+ (_Bool)Stroke Width (WFTextStrokeWidth);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void)ate;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LNSuccessResult *result; // @synthesize result=_result;

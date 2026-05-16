@@ -8,24 +8,24 @@
 {
 }
 
-+ (id);
++ (unsigned long long);
 + (unsigned int);
-+ (unsigned long long)te;
++ (id);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (unsigned long long);
+- (id);
+- (unsigned int);
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (_Bool);
 - (unsigned int);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned int)leted (reboot expected);
 
 @end
 

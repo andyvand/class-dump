@@ -11,7 +11,10 @@
     MISSING_TYPE *buttonsByIdentifiers;
     MISSING_TYPE *secondaryViewController;
     MISSING_TYPE *primaryViewController;
+    MISSING_TYPE *accessoryButtonAction;
 }
+
+- (void);
 
 @end
 

@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)EntryTypeItem;
-+ (_Bool)ÔAxÐ!dAù±Í1¢!0@ù
++ (_Bool)ð!\Eùqdð1Â0@ù
 × ;
-+ (_Bool)eVisualStyle<UIInterfaceActionConcreteVisualStyleImpl>",&,N,V_concreteVisualStyle;
-- (_Bool)°1¢!0@ù
-× ;
++ (_Bool)BKSHIDEventAuthenticationMessage",C,N;
++ (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

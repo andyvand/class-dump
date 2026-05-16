@@ -44,9 +44,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)le;
 
 // Remaining properties
 @property(nonatomic) _Bool cachedHasEnergySite; // @synthesize cachedHasEnergySite;

@@ -25,9 +25,9 @@
 - (void);
 - (MISSING_TYPE *);
 - (void);
-- (CDStruct_8e0628e6);
 - (struct);
 - (void);
+- (CDStruct_8e0628e6);
 
 // Remaining properties
 @property(nonatomic) double xRotation;

@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol TSKEncryptedDocumentExporter
-- (void)userInfo:(NSString *)arg1 error:(NSString *)arg2;
-
-@optional
-- (void);
 @end
 

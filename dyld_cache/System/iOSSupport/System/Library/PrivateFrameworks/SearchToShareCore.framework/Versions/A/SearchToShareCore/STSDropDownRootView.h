@@ -12,10 +12,10 @@
     UIView *_contentView;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

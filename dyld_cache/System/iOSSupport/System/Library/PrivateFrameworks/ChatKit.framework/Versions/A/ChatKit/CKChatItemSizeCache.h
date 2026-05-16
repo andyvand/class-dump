@@ -20,7 +20,7 @@
 }
 
 + (id);
-+ (id),ã1;
++ (id);
 - (_Bool);
 - (id);
 - (void);
@@ -30,11 +30,11 @@
 - (void);
 - (void);
 - (void);
-- (void)ntation"8@"NSError"16;
-- (void)ThumbnailGenerationRequest;
-- (id)e:(_Bool)arg1 intoFolder:(id)arg2 isPasswordProtected:removeOriginalNote:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -46,20 +46,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
 - (void);
-- (void)ftUI.UIKitToolbar;
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)OF;
-- (void)C39ï/;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ûÿ´ÓùÿÔWúÿ©øÿ;
+- (void)D:%@ /* Error: Ran out of types for this method. */;
+- (void)TON_TITLE_CELEBRATION;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cache; // @synthesize cache=_cache;

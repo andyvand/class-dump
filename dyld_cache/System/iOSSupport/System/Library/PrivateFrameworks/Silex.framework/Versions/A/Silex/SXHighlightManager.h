@@ -17,17 +17,17 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)v@?@"SVVideoPlayerViewController">24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *highlightLayers; // @synthesize highlightLayers=_highlightLayers;

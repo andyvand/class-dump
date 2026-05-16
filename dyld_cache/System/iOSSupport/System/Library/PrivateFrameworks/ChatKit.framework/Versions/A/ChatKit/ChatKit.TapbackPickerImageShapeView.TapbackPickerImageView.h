@@ -11,8 +11,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)ýùÿ&ýÿ;
-- (id)_currentSelection;
+- (id)1Â0@ù
+× ;
+- (id)nograms;
 
 @end
 

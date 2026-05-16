@@ -15,13 +15,13 @@
 - (void);
 - (id);
 - (id);
-- (id)!;
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (struct CGRect);
+- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) MFModernComposeRecipientAtom *atomView; // @synthesize atomView=_atomView;

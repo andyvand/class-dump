@@ -19,7 +19,7 @@
 
 + (id);
 + (id);
-+ (id)`z8{¼{;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -27,26 +27,26 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (id)@"<HMAccessorySettingsDelegate>",W,V_delegate;
-- (id)ervice of type for serviceType:%@ from biome /* Error: Ran out of types for this method. */;
-- (unsigned long long)on"16@?0@"NSDictionary"8;
-- (void)!Ó;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)ck:(_Bool)arg1;
+- (void)¬¢;
+- (_Bool)ccessoryWithUUID:setupCode:onboardingSetupPayloadString:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)entationDate;
+- (unsigned long long)¾;
 
 // Remaining properties
 @property(getter=isAdaptive) _Bool adaptive;

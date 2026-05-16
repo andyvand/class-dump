@@ -21,34 +21,34 @@
     CDStruct_aa0b146f _assetTypeCounts;
 }
 
-- (id)hCMTime:(id)arg1;
+- (id);
 - (void);
 - (void);
-- (void)DidInvalidateObject;
+- (void);
 - (id);
 - (id);
-- (id);
-- (id)ount ID = %@, attemptNumber = %@;
-- (id)collaboration.acceptShare;
-- (struct PXSimpleIndexPath)for %@;
-- (id)d—not even Apple.;
-- (id):(id)arg1 ];
 - (id);
 - (id);
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct PXSimpleIndexPath);
 - (CDStruct_aa0b146f);
 - (long long);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (long long)t;
+- (long long)ü¸;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;

@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)h;
 
 // Remaining properties
 @property(readonly, nonatomic) HFCharacteristicCondition *condition; // @synthesize condition=_condition;

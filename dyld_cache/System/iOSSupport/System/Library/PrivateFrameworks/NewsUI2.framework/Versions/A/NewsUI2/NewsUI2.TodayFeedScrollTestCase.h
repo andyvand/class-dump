@@ -16,16 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)ø;
-- (double)state is not onboarded;
-- (id)Ò#ùÿ}üÿ;
-- (long long)Ì
-;
+- (void)¨ÿÿÿ;
+- (id)5-a¨) ÿ;
+- (long long)IbDó;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

@@ -14,17 +14,17 @@
     void campaignKeywords;
 }
 
-- (void):(id)arg1 Handing back image for track %{public}@;
-- (void)c}@;
-- (void)Encountered an error fetching artwork, using fallback %{public}@;
-- (void)d error;
-- (id)tMessage;
-- (id)@"NSError"24;
-- (id)2@?0@"NSString"8@"NSString"16@"NSError"24;
-- (id)tC7NewsUI224BrowseChannelsURLHandler;
-- (id)C7NewsUI215WebViewerModule;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *campaignCategories;

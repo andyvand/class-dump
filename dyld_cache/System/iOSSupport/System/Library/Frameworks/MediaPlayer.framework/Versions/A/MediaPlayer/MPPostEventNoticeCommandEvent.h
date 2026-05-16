@@ -15,9 +15,9 @@
 }
 
 - (id);
-- (id)a client request handler;
-- (void);
-- (id)@=@ìB$CGpLM;
+- (id);
+- (id);
+- (void)es__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;

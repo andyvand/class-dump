@@ -13,8 +13,8 @@
     UIButton *_button;
 }
 
-- (id)Sources/RemoteConfiguration/RemoteConfiguration/RCEndpointOperation.m;
-- (void);
+- (id);
+- (void)"-T;
 
 @end
 

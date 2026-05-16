@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)X;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ltsPending;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,13 +10,13 @@
     id mTarget;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (SEL);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=mAction;

@@ -5,10 +5,8 @@
 //
 
 @protocol FCNetworkReachabilityType
+- (long long)StorySelectionMessage;
 - (_Bool);
-- (_Bool)B;
-- (_Bool)blic}@:Unable to send initial volume. /* Error: Ran out of types for this method. */;
-- (long long)olor;
 
 // Remaining properties
 @property(readonly, nonatomic) long long cellularRadioAccessTechnology;

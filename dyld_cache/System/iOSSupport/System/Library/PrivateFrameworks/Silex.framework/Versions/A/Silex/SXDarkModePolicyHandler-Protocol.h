@@ -5,6 +5,5 @@
 //
 
 @protocol SXDarkModePolicyHandler
-- (_Bool);
 @end
 

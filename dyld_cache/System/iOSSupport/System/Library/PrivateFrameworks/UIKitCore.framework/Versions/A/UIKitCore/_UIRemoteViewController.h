@@ -38,27 +38,27 @@
 - (void);
 - (void);
 - (void);
-- (void)@76^B84@92@100@108@116@124B132@?136;
-- (id)GroupName: /* Error: Ran out of types for this method. */;
-- (void)itWithLimit:(id)arg1;
-- (void)Type:(id)arg1 recordID: /* Error: Ran out of types for this method. */;
-- (id)tPayloadData:messageGUID: /* Error: Ran out of types for this method. */;
-- (id)pletionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)e:account:messageID: /* Error: Ran out of types for this method. */;
-- (_Bool)achmentSyncToken;
-- (void)ersation:(struct CGRect)arg1;
-- (void)ordWithT1Info: /* Error: Ran out of types for this method. */;
-- (id)ervice:(id)arg1 onChat:(id)arg2;
-- (id)mation: /* Error: Ran out of types for this method. */;
-- (void)ryID:(long long)arg1;
 - (void);
-- (id)habilityRequest",&,N,V_originalRequest;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)<;
-- (void)<;
+- (_Bool);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -69,38 +69,41 @@
 - (CDStruct_4c969caf);
 - (void);
 - (id);
-- (id)ils;
-- (void);
-- (void)`S;
+- (id);
+- (void);
+- (int);
+- (void);
+- (id);
+- (_Bool);
 - (long long);
-- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id)0@ù
+- (void)!ÜBùQ[1Â0@ù
 × ;
-- (int)!pGùñÌ°1¢!0@ù
+- (_Bool);
+- (_Bool)1Â0@ù
 × ;
-- (long long)nEffect>"24@0:8@"_UIClickInteraction"16 /* Error: Ran out of types for this method. */;
-- (_Bool)oundView;
-- (void):(id)arg1;
-- (id)nfo: /* Error: Ran out of types for this method. */;
-- (_Bool),ì;
-- (void)²üÿ²üÿHªüÿ;
-- (void)been loaned out.;
-- (void)"UIKBTextStyle"8Q16^B24;
-- (id)?0@"UIScrollView"8Q16;
-- (void)ec",N,&,VfadeOut;
-- (id)ge;
+- (void)¡!(EùÑað1Â0@ù
+× ;
+- (void)
+× ;
+- (id)dð1Â0@ù
+× ;
+- (void)nInteraction:(_Bool)arg1;
+- (void)rackingDefaultItemSearchInfoIfNecessary;
+- (_Bool)",&,N,V_keyboardSnapshot;
+- (void)chedMargin;
+- (void);
+- (id)s not nil.;
+- (void)mark(CFURLRef, BOOL);
+- (unsigned long long)lizer. You must call -[UIPopoverController initWithContentViewController:]. /* Error: Ran out of types for this method. */;
+- (void)set overrides;
 - (unsigned long long);
-- (void)<jþ;
-- (unsigned long long)¯Û;
-- (void)¦£Wô[;
-- (void)£¸\;
-- (id)Ã];
-- (void);
-- (void)¿;
+- (void)ingDevicePairedEarDidChangeMessage;
+- (id);
+- (id)Þ\;
+- (long long)wÿ%æÕLM_;
+- (void);
+- (void)·2ÿMÙÀù_;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isAppProtectionLocked) _Bool _appProtectionLocked; // @synthesize _appProtectionLocked=__appProtectionLocked;

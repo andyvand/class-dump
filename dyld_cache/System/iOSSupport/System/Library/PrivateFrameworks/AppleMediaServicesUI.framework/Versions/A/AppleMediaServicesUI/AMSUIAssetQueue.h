@@ -33,20 +33,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void);
+- (long long);
 - (id);
-- (void);
-- (void);
-- (struct os_unfair_lock_s);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
-- (void)ommonCollectionViewHandler";
-- (long long)erData;
-- (void)tlink:(struct os_unfair_lock_s)arg1 r:path:/System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore /* Error: Ran out of types for this method. */;
-- (void)îÿ;
+- (void);
+- (void);
+- (void);
+- (struct os_unfair_lock_s);
+- (void)B50@ù
+× ;
+- (void)ntrollerWillDeactivate:error: /* Error: Ran out of types for this method. */;
+- (void)l;
 
 // Remaining properties
 @property(nonatomic) long long maxConcurrentOperationCount;

@@ -15,19 +15,19 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)8@"MTLResourceStatePassDescriptor"16;
 - (void);
 - (void);
 - (void);
 - (float);
 - (float);
 - (float);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (float);
+- (float);
+- (void)Ãe);
 
 // Remaining properties
 @property(nonatomic) float damping;

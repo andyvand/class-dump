@@ -22,6 +22,7 @@
     NSString *_idsIdentifier;
     HMFWiFiNetworkInfo *_wifiInfo;
     NSNumber *_wifiRSSI;
+    unsigned long long _primaryNetworkInterfaceType;
     NSDate *_serverLastConnected;
     NSString *_serialNumber;
     NSString *_model;
@@ -39,6 +40,7 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,10 +50,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -59,7 +60,8 @@
 - (id);
 - (id);
 - (id);
-- (id)bject: /* Error: Ran out of types for this method. */;
+- (void)date constraints request completion;
+- (id)¢ ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool cdpStatusGood; // @synthesize cdpStatusGood=_cdpStatusGood;
@@ -76,6 +78,7 @@
 @property(readonly, copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
 @property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
 @property(readonly, nonatomic) unsigned long long numHomes; // @synthesize numHomes=_numHomes;
+@property(readonly, nonatomic) unsigned long long primaryNetworkInterfaceType; // @synthesize primaryNetworkInterfaceType=_primaryNetworkInterfaceType;
 @property(readonly, copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(readonly, nonatomic) NSDate *serverLastConnected; // @synthesize serverLastConnected=_serverLastConnected;
 @property(readonly, copy, nonatomic) HMSoftwareUpdateV2 *softwareUpdate;

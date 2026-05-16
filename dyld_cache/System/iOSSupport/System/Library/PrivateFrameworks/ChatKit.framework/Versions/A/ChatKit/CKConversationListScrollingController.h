@@ -20,10 +20,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)ation;
-- (id);
+- (id);
+- (id);
 - (void);
-- (void)֕;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,8 +32,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id)T6è±/;
 
 // Remaining properties
 @property(readonly, nonatomic) IMChatRegistry *chatRegistry; // @synthesize chatRegistry=_chatRegistry;

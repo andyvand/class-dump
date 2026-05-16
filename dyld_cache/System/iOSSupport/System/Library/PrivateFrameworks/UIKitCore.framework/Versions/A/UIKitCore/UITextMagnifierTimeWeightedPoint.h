@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     } m_points[16];
 }
 
-- (_Bool)payloadPath;
-- (float);
 - (struct CGPoint);
-- (void)`;
-- (struct CGPoint);
-- (struct CGSize)setAllowsUnsupportedMacIdiomBehavior:(double)arg1;
-- (void)usFastScrollingIndexBarEntry",&,N,V_selectedIndexTitleEntry;
-- (_Bool);
-- (struct CGSize);
 - (float);
+- (struct CGPoint);
+- (float);
+- (void);
+- (_Bool);
+- (_Bool);
+- (struct CGSize)Storage;
+- (void)uldLoadKeySceneInputViewsForResponder: /* Error: Ran out of types for this method. */;
+- (struct CGSize)dowObserver;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint weightedPoint;

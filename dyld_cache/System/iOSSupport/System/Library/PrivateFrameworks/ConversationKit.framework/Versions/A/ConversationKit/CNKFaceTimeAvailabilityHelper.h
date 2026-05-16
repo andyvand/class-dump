@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)$s15ConversationKit11SoundPlayerP;
 
 // Remaining properties
 @property(nonatomic, readonly) IDSURI *preferredFromID; // @synthesize preferredFromID;

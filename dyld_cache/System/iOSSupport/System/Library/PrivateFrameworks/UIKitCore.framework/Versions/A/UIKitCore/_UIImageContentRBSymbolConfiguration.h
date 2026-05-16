@@ -17,20 +17,21 @@ __attribute__((visibility("hidden")))
     double _variableValue;
 }
 
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
-- (void)@/;
 - (void);
-- (void);
-- (unsigned int)ement;
-- (id)hResultDisplayStyle;
-- (id)hangedNotification;
-- (double)ontroller = %@; column = %ld; removing child view controller;
+- (unsigned int);
+- (id);
+- (id)1Â0@ù
+× ;
+- (double);
+- (void)setTrailingBar:(unsigned int)arg1;
+- (void)¥Ò4[;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *knownSymbolStyles; // @synthesize knownSymbolStyles=_knownSymbolStyles;

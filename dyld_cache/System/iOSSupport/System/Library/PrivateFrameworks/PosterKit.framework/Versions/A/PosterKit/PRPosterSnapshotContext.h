@@ -23,14 +23,14 @@
 - (id);
 - (struct CGRect);
 - (long long);
+- (long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (struct CGRect);
-- (long long);
-- (long long);
-- (id);
+- (void);
+- (long long)t=dd}{CGSize=dd}},N,Spr_setTitleReticleFrame: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessibilityContrast; // @synthesize accessibilityContrast=_accessibilityContrast;

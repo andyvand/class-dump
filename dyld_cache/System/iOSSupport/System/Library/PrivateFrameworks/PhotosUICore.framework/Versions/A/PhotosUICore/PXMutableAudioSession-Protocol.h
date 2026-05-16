@@ -5,9 +5,7 @@
 //
 
 @protocol PXMutableAudioSession
-- (void)sableImageRequestsOnResize;
-- (float);
-- (void);
+- (void)î^ÿY\ó î^ÿY\óäî^ÿ;
 
 // Remaining properties
 @property(nonatomic) float targetLoudnessInLKFS;

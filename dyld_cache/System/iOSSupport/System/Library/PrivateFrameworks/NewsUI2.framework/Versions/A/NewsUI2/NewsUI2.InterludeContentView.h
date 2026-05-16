@@ -16,9 +16,9 @@
     MISSING_TYPE *$__lazy_storage_$_maskImageView;
 }
 
-- (id);
-- (void);
-- (id)Tags;
+- (id);
+- (id);
+- (void);
 
 @end
 

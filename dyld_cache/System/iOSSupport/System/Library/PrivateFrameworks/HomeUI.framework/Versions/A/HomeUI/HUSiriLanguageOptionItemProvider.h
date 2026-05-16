@@ -26,10 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)ryString;
-- (id)oardingFlow.initialViewController;
-- (void)t;
+- (id);
+- (id);
+- (void)yState:(id)arg1;
+- (void)monAlertController) hu_presentNotificationAlertForNotificationCapableObjects:notificationsEnabled:mainActionBlock:notNowActionBlock:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessorySettingSiriLanguageAdapter *adapter; // @synthesize adapter=_adapter;

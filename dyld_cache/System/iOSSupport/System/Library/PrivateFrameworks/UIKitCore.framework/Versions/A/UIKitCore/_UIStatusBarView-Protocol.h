@@ -5,8 +5,8 @@
 //
 
 @protocol _UIStatusBarView
-- (long long)`;
-- (void)UICollectionView"16@0:(long long)arg1 8;
+- (long long)6d24;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long iconSize;

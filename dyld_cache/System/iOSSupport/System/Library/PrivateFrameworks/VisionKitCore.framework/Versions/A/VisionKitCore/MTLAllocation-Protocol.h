@@ -5,7 +5,6 @@
 //
 
 @protocol MTLAllocation
-- (unsigned long long)ionType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

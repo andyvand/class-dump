@@ -29,9 +29,9 @@
 - (struct CGPoint);
 - (void);
 - (double);
-- (void)uttonShapesEnabled;
-- (id)ccessibilityHairlineThickening;
-- (void);
+- (id);
+- (void);
+- (void)ÔåøÿæøÿDæøÿ|æøÿ¤æøÿÜæøÿçøÿ<çøÿdçøÿçøÿÌçøÿôçøÿ4èøÿèøÿ¸èøÿàèøÿéøÿàéøÿêøÿ@êøÿxêøÿ¨êøÿÐêøÿëøÿXëøÿëøÿ°ëøÿèëøÿ°ìøÿèìøÿíøÿHíøÿlíøÿ íøÿÌíøÿðíøÿ,îøÿpîøÿîøÿÐîøÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint endValue; // @synthesize endValue=_endValue;

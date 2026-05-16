@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     NSMutableArray *topLevelViewControllerNames;
 }
 
-- (id)createReplicationSessionsIfNecessary;
-- (void)gRelayDictionary:chat:serviceName:overridingAttachmentData: /* Error: Ran out of types for this method. */;
-- (void)tamp: /* Error: Ran out of types for this method. */;
-- (void)dressedSIMID %@;
-- (long long);
 - (id);
 - (void);
-- (void)!øDù±Âð1¢!0@ù
+- (void);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (long long)áÿð!ØDùñXð1Â0@ù
 × ;
-- (void)plementsItemProviderForCopyingTokens"I"delegateImplementsUnderscoredItemProviderForCopyingTokens"I"allowsCopyingTokens"b1"allowsDeletingTokens"b1"alwaysHidesMagnifyingGlassForAccessibilityContentSizeCategory"b1"needsDelayedSearchControllerPresentation"b1"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"supportsStagedDictation"b1"backgroundMaterialShouldBeGlass"b1"makingTextChangesForCloning"b1"needsUpdateBackdropStyle"b1"needsUpdateBackgroundMaterial"b1"isPresentingEditMenu"b1};
-- (long long)edPreviewForChunk:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)Ø;
+- (void);
+- (id)x½ÿ6ê;
 
 @end
 

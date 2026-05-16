@@ -24,6 +24,8 @@
     MISSING_TYPE *suggestionClusteringService;
     MISSING_TYPE *localNewsChannelService;
     MISSING_TYPE *locationManager;
+    MISSING_TYPE *channelLocationService;
+    MISSING_TYPE *promotedHeadlineService;
     MISSING_TYPE *channelHeadlineService;
     MISSING_TYPE *engagementInlineViewManager;
     MISSING_TYPE *todayFeedEngagementEventHandler;

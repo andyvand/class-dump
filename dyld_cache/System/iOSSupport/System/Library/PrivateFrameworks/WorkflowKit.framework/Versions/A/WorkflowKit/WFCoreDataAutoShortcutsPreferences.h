@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)dIýÿÜKýÿvIýÿ;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *appDescriptor; // @dynamic appDescriptor;

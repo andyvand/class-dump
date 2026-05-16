@@ -12,9 +12,9 @@
 
 - (id);
 - (id);
-- (id)ted the note;
-- (unsigned long long)il);
-- (id));
+- (id);
+- (unsigned long long);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

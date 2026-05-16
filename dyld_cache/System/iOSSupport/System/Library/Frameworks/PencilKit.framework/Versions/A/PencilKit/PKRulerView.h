@@ -16,9 +16,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)1Â0@ù
+× ;
+- (void)ntInCompact;
 
 // Remaining properties
 @property(nonatomic) _Bool rulerHidden; // @synthesize rulerHidden=_rulerHidden;

@@ -8,7 +8,7 @@
 {
 }
 
-- (void)u;
+- (void);
 
 @end
 

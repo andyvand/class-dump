@@ -56,28 +56,27 @@
 - (void);
 - (long long);
 - (void);
+- (unsigned long long);
+- (_Bool);
+- (struct CGRect);
+- (struct CGSize);
+- (struct CGRect);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (struct CGRect);
-- (_Bool);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (struct CGRect);
 - (struct CGRect);
 - (void);
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
-- (struct CGSize)qL1B0@ù
-× ;
-- (void)þÿþÿ;
-- (void)tentPreviewViewController.m;
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)iewController;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long alignmentBehavior; // @synthesize alignmentBehavior=_alignmentBehavior;

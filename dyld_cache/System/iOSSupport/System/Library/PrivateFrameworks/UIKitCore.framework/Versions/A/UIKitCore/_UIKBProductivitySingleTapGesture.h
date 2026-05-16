@@ -10,9 +10,8 @@
 {
 }
 
-+ (id)GUIDsOn got something thats not a IMMessageItem:(id)arg1 %@;
-- (unsigned long long)!o!ÄBùqÁ1¢!0@ù
-× ;
++ (id);
+- (unsigned long long)$x]þd½þÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool continuousTapRecognition;

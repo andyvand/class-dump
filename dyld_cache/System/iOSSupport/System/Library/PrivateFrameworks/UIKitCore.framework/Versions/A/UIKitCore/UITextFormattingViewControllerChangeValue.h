@@ -22,35 +22,36 @@
     NSDictionary *__textAnimationAttributes;
 }
 
-+ (_Bool)ÿºq;
-- (id)ReceiptsWithQOIThisBatchSet;
-- (id)ntID;
-- (id)uledMessage;
-- (id)nrollSelfDeviceForSMSRelay:(id)arg1;
-- (id):(id)arg1 services:style:completion: /* Error: Ran out of types for this method. */;
-- (id)nChat:(id)arg1 style:(id)arg2 displayName:groupID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
-- (id)yName:(id)arg1 groupID:handleInfo: /* Error: Ran out of types for this method. */;
-- (id)ageRangeLength;
-- (id)e;
-- (id)f;
++ (_Bool)t didn't belong to lendable view.;
 - (id);
 - (id);
-- (id)iver:%@ is not candidate for Oscar /* Error: Ran out of types for this method. */;
-- (id)cipients %@;
-- (id);
-- (id)e a scheduled typing indicator timeout with a nil handle. Not invalidating scheduled timeout.;
 - (id);
-- (id)g;
 - (id);
-- (id)oundation.framework/Versions/A/CoreFoundation;
-- (void);
 - (id);
-- (id)nEpisodesCount;
 - (id);
-- (void);
-- (id)wObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
-- (id)sure that your footer heights are integral values. This message will only be logged once.;
-- (long long)àØdÿ;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)"NSIndexPath"24;
+- (void)hSolution:(id)arg1 preferredSizes: /* Error: Ran out of types for this method. */;
+- (id)tionAnimator;
+- (id)|þÿ;
+- (id)dStoryboardName;
+- (void)0P¸ÿ
+>ØT]a;
+- (long long)ÜþýÙÀêe;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *_customComponentKey; // @synthesize _customComponentKey=__customComponentKey;

@@ -15,12 +15,12 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)backType:actionRichProviderId:presentationOptions:classification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) MUPlaceActionManager *actionManager; // @synthesize actionManager;

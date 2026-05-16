@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)V_moduleIndex;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *viewModels; // @synthesize viewModels=_viewModels;

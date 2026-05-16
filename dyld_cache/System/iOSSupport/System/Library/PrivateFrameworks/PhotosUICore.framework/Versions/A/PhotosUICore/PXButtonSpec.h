@@ -11,13 +11,13 @@
     UIColor *_highlightedTextColor;
 }
 
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)ÿä{üÿü{üÿ|üÿØúûÿH|üÿè|üÿ;
+- (id)SCf{?=[4]}}80r^{?=CCfqSC}88@"PXGLayout"96;
+- (void)|#aaeÊ°|;
+- (id)¡(ÿÿÿÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *highlightedTextColor; // @synthesize highlightedTextColor=_highlightedTextColor;

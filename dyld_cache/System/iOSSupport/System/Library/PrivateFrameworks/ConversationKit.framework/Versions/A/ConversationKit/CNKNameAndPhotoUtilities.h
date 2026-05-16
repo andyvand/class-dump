@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)ndleMap;
++ (void)j;
 
 @end
 

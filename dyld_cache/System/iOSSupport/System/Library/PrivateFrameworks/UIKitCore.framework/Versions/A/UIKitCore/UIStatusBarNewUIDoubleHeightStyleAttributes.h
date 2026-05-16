@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
-- (_Bool)c;
+- (_Bool);
+- (double)0@ù
+× ;
 
 @end
 

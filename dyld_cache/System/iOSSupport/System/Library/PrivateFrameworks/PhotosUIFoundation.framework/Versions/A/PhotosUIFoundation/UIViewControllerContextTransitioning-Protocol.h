@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIView;
 
 @protocol UIViewControllerContextTransitioning
-- (void)"<PXActionPerformerDelegate>";
-- (long long)ma;
-- (_Bool);
-- (UIViewController *)bserveChangesHandler;
+- (_Bool)ntroller"16B24;
+- (UIView *)ectReferenceClassForItem;
+- (void)xtAttributes;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

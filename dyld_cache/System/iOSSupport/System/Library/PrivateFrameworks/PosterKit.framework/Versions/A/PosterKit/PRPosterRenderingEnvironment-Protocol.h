@@ -8,8 +8,8 @@
 @protocol PRPosterAmbientEnvironment, PRPosterContents;
 
 @protocol PRPosterRenderingEnvironment
-- (id <PRPosterContents>)á,Èã\äðäÀæìætè;
-- (unsigned long long);
+- (_Bool)iguration: /* Error: Ran out of types for this method. */;
+- (_Bool)?;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PRPosterAmbientEnvironment> ambientEnvironment;

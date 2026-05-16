@@ -15,10 +15,9 @@
 + (id);
 + (id);
 + (id);
-- (void);
 - (id);
-- (id)qXÐ1B0@ù
-× ;
+- (id)etVertexLinkedFunctions: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     } _requestedRecordLabelProperties;
 }
 
-+ (id)ublisherStreamName: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

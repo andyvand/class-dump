@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)izationActionItem;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

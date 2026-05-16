@@ -5,6 +5,5 @@
 //
 
 @protocol PKTextInputLanguageSelectionTokenStore
-- (void)ic.warnSize;
 @end
 

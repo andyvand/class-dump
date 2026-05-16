@@ -5,9 +5,5 @@
 //
 
 @protocol AMSUIWebDelegate
-
-@optional
-- (void)er;
-- (_Bool)wValue;
 @end
 

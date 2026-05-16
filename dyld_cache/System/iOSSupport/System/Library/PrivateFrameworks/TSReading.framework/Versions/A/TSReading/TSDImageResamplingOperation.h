@@ -21,15 +21,14 @@
 - (struct CGPath *);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
-- (void)
-× ;
-- (id)Source|Relationship|Target|Target Sheet||Root Sheet|Child Sheet$;
 
 // Remaining properties
 @property(nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=mDesiredSize;

@@ -30,20 +30,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)HREActionVarianceCollection"16@0:(id)arg1 8;
-- (_Bool);
 - (void);
-- (_Bool)8"ö²;
+- (void)ve:(_Bool)arg1;
+- (void)ogressBeginsFromInitialInputProgress;
+- (_Bool);
+- (void)%s dismissPresentedViewControllersAnimated future completed;
+- (_Bool);
+- (void)¢À;
+- (_Bool)M;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

@@ -7,6 +7,7 @@
 @protocol _TtP8PaperKit9Responder_;
 
 @protocol _TtP8PaperKit9Responder_
+- (id <_TtP8PaperKit9Responder_>);
 
 // Remaining properties
 @property(nonatomic, readonly) id <_TtP8PaperKit9Responder_> nextResponder;

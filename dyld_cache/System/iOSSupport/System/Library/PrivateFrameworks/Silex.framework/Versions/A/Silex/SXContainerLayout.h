@@ -19,7 +19,7 @@
 - (int);
 - (void);
 - (_Bool);
-- (void)C;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -30,21 +30,21 @@
 - (id);
 - (id);
 - (id);
-- (id)h;
+- (id);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (int);
 - (_Bool);
-- (void)!;
 - (void);
 - (void);
-- (void)uï;
+- (void);
+- (void)ture>"32;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,13 +12,14 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _block;
 }
 
-- (struct os_unfair_lock_s);
-- (void);
 - (id);
 - (void);
+- (struct os_unfair_lock_s);
+- (void);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void)@;
+- (_Bool)!`Cùq1B50@ù
+× ;
+- (void)ontext:appearance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

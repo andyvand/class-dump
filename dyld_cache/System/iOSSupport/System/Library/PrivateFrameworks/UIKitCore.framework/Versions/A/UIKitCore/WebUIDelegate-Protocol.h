@@ -5,14 +5,5 @@
 //
 
 @protocol WebUIDelegate
-
-@optional
-- (void);
-- (float);
-- (void)b;
-- (void);
-- (void);
-- (void);
-- (_Bool)i;
 @end
 

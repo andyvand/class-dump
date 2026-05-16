@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MFQueuePlayerItem;
-
 @protocol MFAssetLoading
-- (void)"ACAccountCredential"40@0:(id <MFQueuePlayerItem>)arg1 8@"ACAccount"16@"ACDClient"24^@32;
-- (void)ntial"32@0:(id <MFQueuePlayerItem>)arg1 8@"ACAccount"16@"ACDClient"24;
-- (double);
 @end
 

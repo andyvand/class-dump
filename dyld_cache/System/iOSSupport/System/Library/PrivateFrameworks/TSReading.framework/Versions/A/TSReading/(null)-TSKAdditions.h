@@ -16,7 +16,6 @@
 - (void);
 - (void);
 - (void);
-- (void)C;
 - (void);
 - (void);
 - (void);
@@ -24,7 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void)c;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,21 +70,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)Y;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (id);
-- (void);
 - (void);
-- (void)1¢!0@ù
-× ;
+- (void);
+- (void);
+- (id);
 - (struct CGPoint);
+- (void);
+- (void);
+- (void)J×ÿiæ[>;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint center;

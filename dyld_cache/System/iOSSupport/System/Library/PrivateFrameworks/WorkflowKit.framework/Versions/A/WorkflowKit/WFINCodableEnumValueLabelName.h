@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)t.feedURL;
+- (id);
+- (void)to other formats.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

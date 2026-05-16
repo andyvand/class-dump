@@ -9,8 +9,7 @@
 }
 
 + (struct OpaqueJSScript *);
-+ (id)?׀
-;
++ (id);
 + (struct OpaqueJSScript *);
 + (struct OpaqueJSScript *);
 + (id);

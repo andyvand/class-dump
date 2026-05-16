@@ -23,9 +23,9 @@
 - (double);
 - (double);
 - (long long);
-- (void);
 - (id);
-- (long long)ationBetweenValue:secondValue: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowFlickAcrossMultiplePages;

@@ -26,47 +26,46 @@
     struct CGVector _stifledDelta;
 }
 
-- (void);
-- (void);
-- (struct CGVector);
-- (void)(;
-- (struct CGVector);
 - (unsigned long long);
-- (double);
+- (id);
+- (unsigned long long);
 - (struct CGVector);
 - (void);
-- (struct CGVector);
+- (id);
 - (void);
-- (struct CGPoint)º;
-- (void);
-- (unsigned long long)pÐ!EùÑÃÐ1¢!0@ù
+- (_Bool);
+- (_Bool)dCù±^1Â0@ù
 × ;
-- (_Bool)!0@ù
-× ;
-- (id)as!D@ùÇ°1¢!0@ù
+- (struct CGPoint)!Cùb1Â0@ù
 × ;
 - (id)
 × ;
-- (id)@ù
+- (long long)Ñgð1Â0@ù
 × ;
-- (long long)temCache"16@0:8 /* Error: Ran out of types for this method. */;
-- (struct CGPoint)d;
-- (void)tureTranslation:(id)arg1;
-- (_Bool)latingFIFO;
-- (struct CGVector)lassFrost;
-- (void)orItem: /* Error: Ran out of types for this method. */;
-- (id),N,GisShadowEnabled,V_shadowEnabled;
-- (_Bool)ew;
-- (_Bool)°©è©¬ªäª«¬¬4­;
-- (struct CGVector);
-- (void)ormattingViewControllerDecreaseIndentationChange;
-- (long long)ntary view with an unexpected element kind. Collection view:%@; requested element kind:%@; supplementary view element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
-- (void)Ðþ*|;
-- (struct CGPoint)ÆÙóGe;
-- (id)&;
-- (unsigned long long)ëþíÍì\f;
-- (_Bool)¤;
-- (id)àÆ;
+- (struct CGVector)houldAllowSwipeToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
+- (_Bool)dgeInsets=dddd}16;
+- (void)act;
+- (void);
+- (void)ainerSizeDependentAxes;
+- (struct CGPoint)leCaptureModesForCameraDevice:(id)arg1;
+- (_Bool)on:completion: /* Error: Ran out of types for this method. */;
+- (double)rHostView;
+- (struct CGVector)ivate;
+- (id)orTrackingGroup;
+- (struct CGVector)¤L¤Ð¤4¦Ä¦;
+- (unsigned long long)P¯;
+- (_Bool);
+- (void)ÿ;
+- (struct CGVector)unknown.;
+- (id)ickerViewController initForExportingURLs:asCopy:] /* Error: Ran out of types for this method. */;
+- (struct CGVector)emBadge: /* Error: Ran out of types for this method. */;
+- (void)Contribution;
+- (struct CGPoint);
+- (long long);
+- (void)\ºÿâÖ¼Õc;
+- (void);
+- (void);
+- (id)ÿ(£Ó@¸i;
 
 // Remaining properties
 @property(readonly) struct CGVector acceleratedDelta;

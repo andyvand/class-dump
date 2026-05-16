@@ -17,11 +17,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool)Xh;
-- (void)U;
-- (id);
-- (id);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (void)nonicalURL;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,9 +15,9 @@
 }
 
 - (unsigned long long);
-- (id);
 - (id);
-- (void);
+- (id)°FTGPIIpRSØS	;
+- (void)side and use last point, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;

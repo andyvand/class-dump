@@ -15,7 +15,7 @@
     HFItem *_showOptionsItem;
     NSString *_longestCameraUsageOptionItemTitle;
     NSSet *_cameraProfiles;
-    unsigned long long _presenceEventType;
+    unsigned long long _cameraHomePresence;
     UIViewController *_presentingViewController;
     HUCameraUsageOptionItemProvider *_recordingSettingItemProvider;
     HFStaticItemProvider *_itemProvider;
@@ -56,13 +56,14 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -71,22 +72,22 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id)tForPoint: /* Error: Ran out of types for this method. */;
-- (id):%@. Starting live stream for profileUUID:%@. /* Error: Ran out of types for this method. */;
+- (id)ateFromPinCode: /* Error: Ran out of types for this method. */;
+- (void)Hub;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accessModeSetting;
+@property(readonly, nonatomic) unsigned long long cameraHomePresence; // @synthesize cameraHomePresence=_cameraHomePresence;
 @property(readonly, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;
 @property(retain, nonatomic) NSNumber *currentPlanCameraCount; // @synthesize currentPlanCameraCount=_currentPlanCameraCount;
 @property(readonly, copy) NSString *debugDescription;
@@ -106,7 +107,6 @@
 @property(nonatomic) unsigned long long numCamerasSupportRecordingService; // @synthesize numCamerasSupportRecordingService=_numCamerasSupportRecordingService;
 @property(nonatomic) unsigned long long offerState; // @synthesize offerState=_offerState;
 @property(retain, nonatomic) NSArray *optionItems; // @synthesize optionItems=_optionItems;
-@property(readonly, nonatomic) unsigned long long presenceEventType; // @synthesize presenceEventType=_presenceEventType;
 @property(retain, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 @property(retain, nonatomic) HUCameraUsageOptionItemProvider *recordingSettingItemProvider; // @synthesize recordingSettingItemProvider=_recordingSettingItemProvider;
 @property(readonly) Class superclass;

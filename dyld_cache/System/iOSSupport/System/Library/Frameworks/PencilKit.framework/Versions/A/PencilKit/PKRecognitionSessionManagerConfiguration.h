@@ -22,8 +22,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (id);
+- (void)astScrollViewDelegateBeforeScrollingToolToVisible;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *sessionCacheIdentifier; // @synthesize sessionCacheIdentifier=_sessionCacheIdentifier;

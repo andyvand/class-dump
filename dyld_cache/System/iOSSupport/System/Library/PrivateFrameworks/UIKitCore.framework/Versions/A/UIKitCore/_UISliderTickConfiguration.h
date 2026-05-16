@@ -19,20 +19,19 @@
 - (_Bool);
 - (id);
 - (long long);
-- (float));
+- (float);
 - (void);
 - (void);
-- (void)has zero length identifier %s or service %s;
-- (id)pelineComponent> Chat not found. IMMessageLegacyProcessingPipelineComponent will create it.;
+- (void);
+- (id);
 - (_Bool);
 - (double);
 - (id);
-- (_Bool):(id)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
 - (id);
-- (void)aqÐ!¼CùqÄð1¢!0@ù
-× ;
-- (id)writingView",W,N,V_keyView;
-- (long long)-f;
+- (long long);
+- (_Bool)ssertTextForRemoteDocument:(id)arg1 withSelectionDelta:updatingSelection: /* Error: Ran out of types for this method. */;
+- (id)PÌÈÎ|ÏÐÑÒDÓ°ÔÕÖ;
+- (void)¶¤ÿ2Pö;
 
 // Remaining properties
 @property(nonatomic, readonly) long long behavior;

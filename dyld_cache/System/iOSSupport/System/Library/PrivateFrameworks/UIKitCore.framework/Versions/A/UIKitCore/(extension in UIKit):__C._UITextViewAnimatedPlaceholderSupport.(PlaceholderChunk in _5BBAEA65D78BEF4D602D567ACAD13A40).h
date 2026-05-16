@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)utSource;
+- (id);
+- (void)öÞÿgöÒð_;
 
 @end
 

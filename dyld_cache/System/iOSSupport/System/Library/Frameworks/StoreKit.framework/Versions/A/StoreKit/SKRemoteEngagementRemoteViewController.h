@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)AnimatedTransitioning>"24@0:8@"UIViewController"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

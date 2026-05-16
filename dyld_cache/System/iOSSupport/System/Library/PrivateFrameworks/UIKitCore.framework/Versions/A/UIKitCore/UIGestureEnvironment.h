@@ -29,45 +29,46 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (void)t: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
-- (id)[º;
-- (void)1¢!0@ù
-× ;
-- (void)× ;
-- (_Bool)× ;
-- (void)1Äð1¢!0@ù
-× ;
-- (void)°1¢!0@ù
-× ;
-- (void)× ;
-- (void)× ;
-- (void)iers:(id)arg1;
-- (void)rRequester:(id)arg1;
-- (void)ntBottomPadding;
-- (void)s:(id)arg1 writingItemAtURL:options:error:byAccessor: /* Error: Ran out of types for this method. */;
-- (_Bool)Word:(id)arg1;
-- (void)eForChildContentContainer:(id)arg1 withParentContainerSize: /* Error: Ran out of types for this method. */;
-- (void)tTestObserver:(id)arg1;
-- (id);
-- (void)à"$Ø,°.P/;
-- (void)Á;
-- (void)Ü78;
 - (void);
-- (_Bool)dBecomeOccludedNotification;
-- (void)Menu Press Duration;
-- (id)arRefreshLandscape.png;
 - (_Bool);
-- (void)nþ·FËÝi;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)áÿ!ÄDùÑXð1Â0@ù
+× ;
+- (void)!¼Eù±Yð1Â0@ù
+× ;
+- (void)°!üGùñ\°1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (_Bool)kdropRenderConfig:(id)arg1;
+- (void)tContainerOnly:(id)arg1;
+- (void)Additive;
+- (_Bool)sertion;
+- (id)rvingTextEffectsWindowRotation;
+- (void)rentState:(id)arg1 fallbackBackgroundColor:(id)arg2 contentScale: /* Error: Ran out of types for this method. */;
+- (id)asureTitles;
+- (void)anchorBarButtonItem;
+- (void)NSIndexPath",R,N,V_initialIndexPath;
+- (void)nRoutePickerViewController;
+- (void);
+- (void)bþøºþÿ{íÿ;
+- (void)iewController;
+- (_Bool)contentType_/37keyPatht;
+- (void)Ò;
+- (id)¹.Òek;
+- (void)phk;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _hasGesturesNeedingUpdate;

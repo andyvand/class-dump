@@ -5,8 +5,5 @@
 //
 
 @protocol SMEmergencyCallObserverProtocol
-
-@optional
-- (void);
 @end
 

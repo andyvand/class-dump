@@ -11,10 +11,11 @@
     MISSING_TYPE *contentView;
 }
 
-- (void);
 - (id);
-- (void)nnectProxyConfig;
-- (id)gurationServiceTypeP;
+- (void);
+- (id)1Â0@ù
+× ;
+- (void);
 
 @end
 

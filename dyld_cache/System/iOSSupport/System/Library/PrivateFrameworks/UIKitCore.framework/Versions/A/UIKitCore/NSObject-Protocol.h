@@ -7,22 +7,17 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (_Bool);
-- (struct _NSZone *)lator was missing mapping for MPModelPropertyRadioStationProviderName;
-- (_Bool);
 - (_Bool)0@ù
 × ;
-- (NSString *)teConstraintsIfNecessary;
-- (_Bool)ContainerInteraction;
-- (id)Idle;
-- (_Bool)rnally modifying the minuteText value of _UIDatePickerCalendarTimeLabel while it is first responder results in undefined behavior. This will become a hard assert in the future.;
-- (unsigned long long)idiom is %@, idiom from restoration archive is %@;
+- (_Bool)onAnimating>"24;
+- (_Bool)sonNameComponents:(Class)arg1;
+- (_Bool)ctionHighlightColor;
+- (id)ÿÿiïÿiïÿ.6ïÿ;
+- (_Bool);
+- (struct _NSZone *)tivationState;
 
 @optional
-- (NSString *)was determined from the following preferred focus search:|
-%@
-| /* Error: Ran out of types for this method. */;
+- (NSString *)1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

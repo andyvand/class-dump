@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIImageView *_addIcon;
 }
 
-+ (double);
++ (double)%s;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)NSLayoutManager"16q24Q32;
-- (struct CGSize)ô;
+- (struct CGSize);
+- (void);
+- (id)ardDidAppearInSendMenuPopoverViewController:(long long)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *addIcon; // @synthesize addIcon=_addIcon;

@@ -18,9 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)¤1¢!0@ù
-× ;
+- (id);
+- (void)@32@0:8{_SXConvertibleValue=dQ}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXCalendarPresenter> calendarPresenter; // @synthesize calendarPresenter=_calendarPresenter;

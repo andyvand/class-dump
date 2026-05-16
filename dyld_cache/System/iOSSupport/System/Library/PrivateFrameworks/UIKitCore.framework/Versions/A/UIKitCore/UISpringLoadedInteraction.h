@@ -20,43 +20,43 @@
 }
 
 + (id);
-+ (id);
-+ (id)ì$8%Ì%;
-+ (id)Vþÿ;
++ (id);
++ (id);
++ (id)ishedSearching;
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)0@ù
-× ;
-- (void)ùÑÊ°1¢!0@ù
-× ;
-- (id)°1¢!0@ù
-× ;
-- (void)¡v°!D@ùqË°1¢!0@ù
-× ;
-- (void)Mark: /* Error: Ran out of types for this method. */;
-- (double),N,V_rootLayerFrame;
-- (void)itViewControllerPartitionAdapter;
-- (void)Ô@;
-- (id);
-- (id)sualModeWindowed:%d (windowingModeEnabled:%d) /* Error: Ran out of types for this method. */;
-- (id)¤ÿÿÆèüÿýÿ ýÿ;
-- (void)er happen and is a UIKit bug.;
-- (void)Class is %@;
-- (void)rk/InputAnalytics;
-- (void)ÙX[;
+- (double);
+- (id);
 - (void);
-- (CDUnknownBlockType)tÿª©b;
-- (id)ÞÂd;
-- (_Bool);
-- (id)Û;
-- (void)ÿú$úf;
-- (id);
+- (id);
+- (void);
+- (void)0@ù
+× ;
+- (void)× ;
+- (void)1]Ð1Â0@ù
+× ;
+- (void)!ð!´Dùñ_ð1Â0@ù
+× ;
+- (void)Á°!Aùb°1Â0@ù
+× ;
+- (id)pearanceChanged"b1"doneAppearanceChanged"b1"denyPointerInteractions"b1"effectiveLayoutHasCriticalGroup"b1};
+- (id)isExemptFromChecker: /* Error: Ran out of types for this method. */;
+- (void)des;
+- (void)umPredictionsAtIndex:(double)arg1 hardLimit: /* Error: Ran out of types for this method. */;
+- (void)Path",&,N,V_destinationIndexPath;
+- (CDUnknownBlockType)tureRecognizer;
+- (id)ITouchObservingLongPress;
+- (_Bool)k;
+- (void)(inline);
+- (void)ageURL is nil in Open or Move mode.;
+- (void)4xÊÿNÙlc;
+- (id);
 
 // Remaining properties
 @property(nonatomic, setter=_setPossibleStateDuration:) double _possibleStateDuration; // @synthesize _possibleStateDuration;

@@ -25,23 +25,11 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)`;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)8h;
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -51,6 +39,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -65,16 +66,16 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool)reviewActivity;
+- (void);
+- (_Bool)tSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *blueprint; // @synthesize blueprint=_blueprint;

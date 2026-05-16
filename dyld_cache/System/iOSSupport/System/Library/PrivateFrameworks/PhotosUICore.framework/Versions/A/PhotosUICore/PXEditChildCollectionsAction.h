@@ -29,9 +29,9 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)LemonadeShelfHeaderStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;

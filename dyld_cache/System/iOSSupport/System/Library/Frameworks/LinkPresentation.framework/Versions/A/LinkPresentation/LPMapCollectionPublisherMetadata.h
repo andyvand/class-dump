@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)sComputedDominantImageBackgroundColor:,V__hasComputedDominantImageBackgroundColor /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -29,14 +29,15 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (void)á÷!|FùQð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

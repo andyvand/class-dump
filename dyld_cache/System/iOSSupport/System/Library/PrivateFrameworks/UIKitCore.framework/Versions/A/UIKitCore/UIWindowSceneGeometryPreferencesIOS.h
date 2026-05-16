@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (unsigned long long)SArray"56B64B68;
-- (id)nablement:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (unsigned long long)roundedValue:inView: /* Error: Ran out of types for this method. */;
-- (_Bool)PErrorNumber%d;
-- (id)Path: /* Error: Ran out of types for this method. */;
-- (long long)hat isn't actually an existing shadow update;
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)LastVisibleIndexRange:(id)arg1;
+- (long long)omponent;
 
 // Remaining properties
 @property(nonatomic) unsigned long long interfaceOrientations; // @synthesize interfaceOrientations=_interfaceOrientations;

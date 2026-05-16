@@ -29,16 +29,16 @@
 
 - (void);
 - (void);
-- (void)<;
-- (void);;
+- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
-- (id)ents: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
+- (void)è,ûÿ$-ûÿ0-ûÿ/ûÿ<ÿûÿXÿûÿtÿûÿÿûÿ¬ÿûÿÈÿûÿäÿûÿ;
 
 @end
 

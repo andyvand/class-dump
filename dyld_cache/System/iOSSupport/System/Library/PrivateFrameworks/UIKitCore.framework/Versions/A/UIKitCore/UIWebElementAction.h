@@ -16,14 +16,15 @@
 
 + (id);
 + (id);
-+ (id)error=%@>;
-- (id)AttachmentFileSizes;
++ (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (int)ariantsTypeCurrency;
-- (CDUnknownBlockType);
+- (int)1Â0@ù
+× ;
+- (CDUnknownBlockType)ection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dismissalHandler; // @synthesize dismissalHandler=_dismissalHandler;

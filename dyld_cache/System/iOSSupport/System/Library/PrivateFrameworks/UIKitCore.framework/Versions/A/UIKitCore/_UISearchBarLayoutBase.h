@@ -26,26 +26,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (id)rBlackList;
+- (void);
+- (id);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
-- (id)Enumerator"16;
+- (id);
 - (void);
-- (long long)ÁwÐ!EùñÌð1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)k;
-- (_Bool)ingColor;
-- (id)ations:animationsForOnScreenViews:newSubviewCollection:oldVisibleViews: /* Error: Ran out of types for this method. */;
-- (void)erThickness;
+- (void)ctionsType;
+- (void)iewController;
+- (_Bool)_initEmpty;
+- (void)ent:(id)arg1 scrollableContainer:forRequest: /* Error: Ran out of types for this method. */;
+- (id)referredElementDisplayMode;
+- (long long).m;
+- (struct CGSize)em;
+- (void);
+- (void);
 - (void);
-- (struct CGSize)tatusBarHeightPortrait;
-- (void)_UIFeedback;
-- (void)ded an invalid bounding path;
-- (void)inputBleedColorMatrixSaturation;
-- (void)Ö];
-- (void)N^;
+- (void)Û@id;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *associatedView; // @synthesize associatedView=_associatedView;

@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)essingController;
-- (void);
+- (void);
+- (void)à];
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *replacementElements; // @synthesize replacementElements=_replacementElements;

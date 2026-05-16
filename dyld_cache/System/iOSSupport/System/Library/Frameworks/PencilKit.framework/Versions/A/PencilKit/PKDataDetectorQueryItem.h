@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)id;
-- (void);
+- (_Bool);
+- (void)è|;
 
 // Remaining properties
 @property(retain, nonatomic) CHDataDetectorQueryItem *coreHandwritingDataDetectorQueryItem; // @synthesize coreHandwritingDataDetectorQueryItem=_coreHandwritingDataDetectorQueryItem;

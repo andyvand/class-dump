@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (void);
-- (_Bool);
-- (_Bool)r.MPNowPlayingInfoCenter/accessQueue;
-- (_Bool);
-- (void);
 - (id);
-- (void)0@ù
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)Ð! EùYð1Â0@ù
 × ;
-- (double)!´Aù1Á1¢!0@ù
+- (double)
 × ;
-- (_Bool)dForUpdates;
-- (_Bool)t supported on all platforms and can cause feedbacks to become no-ops. Update to view-based UIFeedbackGenerator methods.;
-- (id)a;
-- (_Bool)«Ö}Æf;
-- (id)ÿáÕËÆqj;
+- (_Bool)IFindNavigatorViewLayout";
+- (void)KeyboardVisualState;
+- (_Bool)eletionAtURL:(id)arg1 completionHandler:(id)arg2;
+- (_Bool)cumentView;
+- (void)Nd;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

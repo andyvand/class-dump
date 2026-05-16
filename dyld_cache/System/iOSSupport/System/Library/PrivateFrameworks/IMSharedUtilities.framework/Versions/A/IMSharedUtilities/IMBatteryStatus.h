@@ -11,10 +11,10 @@
     id <IMBatteryStatusTestDelegate> _testDelegate;
 }
 
-- (void);
-- (void);
 - (id);
-- (_Bool),R,N,GisModernFilteringEnabled;
+- (void);
+- (_Bool);
+- (void)4G;
 
 // Remaining properties
 @property(readonly, getter=isCharging) _Bool charging;

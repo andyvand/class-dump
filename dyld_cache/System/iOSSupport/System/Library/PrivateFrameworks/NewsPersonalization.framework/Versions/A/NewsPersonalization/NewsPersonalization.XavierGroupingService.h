@@ -14,8 +14,5 @@
     MISSING_TYPE *deviceIsiPad;
 }
 
-- (id);
-- (id)ÿÿÿÿX;
-
 @end
 

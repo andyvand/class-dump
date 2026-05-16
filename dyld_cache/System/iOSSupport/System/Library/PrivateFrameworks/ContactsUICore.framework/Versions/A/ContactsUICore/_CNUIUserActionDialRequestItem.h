@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)onsentStateOfDelegateWithInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNTUDialRequest> dialRequest; // @synthesize dialRequest=_dialRequest;

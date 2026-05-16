@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (id)8»Uv;
++ (id)¿Zbr;
 - (void);
 - (void);
 - (void);
@@ -24,14 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (unsigned long long);
 - (void);
 - (oneway void);
-- (id)!;
-- (void);
 - (id);
-- (id)$;
 - (id);
-- (unsigned long long)allKeyboardNotifications;
+- (id);
+- (id);
 
 @end
 

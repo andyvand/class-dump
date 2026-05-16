@@ -15,20 +15,20 @@
 }
 
 + (id);
-+ (id)Äv;
++ (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)id: /* Error: Ran out of types for this method. */;
-- (id)Ô;
-- (id)reating HMSoftwareUpdateV2 for accessory:%@, progress:%@ /* Error: Ran out of types for this method. */;
+- (void)ublic}@Successfully set hasOnboardedForAdaptiveTemperatureAutomations;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;

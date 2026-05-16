@@ -11,8 +11,8 @@
     MISSING_TYPE *viewportMonitor;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -11,9 +11,10 @@
     SXQuickLookFile *_file;
 }
 
-- (void);
 - (id);
-- (id)nCoordinator>"28;
+- (id);
+- (void)1ïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

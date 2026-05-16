@@ -10,11 +10,11 @@
 {
 }
 
-- (oneway void);
 - (void);
+- (oneway void);
 - (id);
 - (id);
-- (id)?-;
+- (id);
 
 @end
 

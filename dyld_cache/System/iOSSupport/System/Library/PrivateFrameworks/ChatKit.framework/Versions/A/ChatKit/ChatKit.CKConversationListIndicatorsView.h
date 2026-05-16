@@ -14,20 +14,20 @@
     MISSING_TYPE *indicatorImageViews;
 }
 
-- (double)GG;
 - (double);
-- (double)edObjectIDCG;
-- (void);
+- (double);
+- (double);
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (void)p;
-- (long long)t;
-- (void);
-- (id);
 - (struct CGSize);
-- (_Bool)z;
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void)þÿR;
+- (void);
+- (_Bool)0;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

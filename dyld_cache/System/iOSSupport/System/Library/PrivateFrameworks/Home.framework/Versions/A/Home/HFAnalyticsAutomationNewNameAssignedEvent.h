@@ -24,9 +24,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)mProvider init];
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *didNamingSucceed; // @synthesize didNamingSucceed=_didNamingSucceed;

@@ -42,8 +42,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ockCategorySettingsViewController initWithItemManager:collectionViewLayout:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *createUserPINButtonItem; // @synthesize createUserPINButtonItem=_createUserPINButtonItem;

@@ -67,9 +67,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)AccessoryDetails.RemoveAccessory;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAssistantAccessControl *accessControl;

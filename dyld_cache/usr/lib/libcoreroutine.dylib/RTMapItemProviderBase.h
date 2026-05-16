@@ -15,15 +15,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)7
-;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)Identifier:uid:plugins: /* Error: Ran out of types for this method. */;
-- (id)gment data.;
+- (id);
+- (id);
+- (id);
+- (void)er, %@, no curation was found - this should not happen;
 
 // Remaining properties
 @property(readonly, nonatomic) RTMapItemProviderBaseParameters *baseParameters; // @synthesize baseParameters=_baseParameters;

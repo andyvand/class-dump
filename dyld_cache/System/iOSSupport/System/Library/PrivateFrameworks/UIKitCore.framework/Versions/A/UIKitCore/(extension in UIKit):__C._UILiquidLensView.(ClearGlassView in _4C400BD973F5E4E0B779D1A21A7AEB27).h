@@ -11,7 +11,6 @@
 @interface (extension in UIKit):__C._UILiquidLensView.(ClearGlassView in _4C400BD973F5E4E0B779D1A21A7AEB27) : UIView
 {
     MISSING_TYPE *style;
-    MISSING_TYPE *contentView;
     MISSING_TYPE *liftedContentPortalView;
     MISSING_TYPE *innerShadowView;
     MISSING_TYPE *contentWrapper;
@@ -19,12 +18,12 @@
     MISSING_TYPE *lifted;
 }
 
-- (void)count is %llu;
-- (_Bool);
 - (void);
+- (_Bool);
 - (id);
 - (void);
-- (id)n there were no duplicate commands. This is a UIKit internal bug.;
+- (id)View;
+- (void)ÀBlþÊAÑÈ¥l;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _preventsPropagationOfVisibilityChanges;

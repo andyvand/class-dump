@@ -10,8 +10,8 @@
 
 - (struct CGRect);
 - (id);
-- (unsigned int);
 - (unsigned long long);
+- (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect presentedViewScreenRect;

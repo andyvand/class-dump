@@ -13,17 +13,16 @@
     UILookupEvent *_lookupEvent;
 }
 
-- (void)ReceivedDictionaryInBlastDoor:(id)arg1 storageContext:receivedViaRelay:withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
+- (struct CGPoint)sterFileRepresentationForTypeIdentifier:(id)arg1 fileOptions:visibility:loadHandler: /* Error: Ran out of types for this method. */;
+- (void)utAsInputViewControllerOutput:(id)arg1;
+- (void)ctionTrackingKeyboardFocusUpdateForWindow:(id)arg1;
+- (void)hSelection:(id)arg1;
+- (void)determineScaleAutomatically;
 - (_Bool);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)52@0:(id)arg1 8@16@24@32B40@44;
-- (void)etSecondaryButton:(id)arg1;
-- (void);
-- (struct CGPoint)´ \m¬[;
+- (void)background{view=;
+- (void);
+- (void):IÕ|` /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void),;
 
 // Remaining properties
 @property(readonly, nonatomic) HFEventBuilder<HFTimeEventBuilder> *eventBuilder; // @synthesize eventBuilder=_eventBuilder;

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (long long)ort;
-- (void)allpaperShowPreview);
+- (long long)xtID:storeItemIDs:collectionIdentifierSet: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

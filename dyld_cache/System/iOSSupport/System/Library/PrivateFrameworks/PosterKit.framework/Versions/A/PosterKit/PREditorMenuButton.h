@@ -14,7 +14,9 @@
 - (void);
 - (id);
 - (void);
-- (void)legate;
+- (void)¡¨!lBùÑñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <BSInvalidatable> menuPresentationAssertion; // @synthesize menuPresentationAssertion=_menuPresentationAssertion;

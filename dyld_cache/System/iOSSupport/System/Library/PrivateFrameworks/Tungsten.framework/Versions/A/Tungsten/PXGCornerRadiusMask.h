@@ -27,10 +27,10 @@
 - (double);
 - (long long);
 - (long long);
-- (void);
 - (id);
 - (double);
-- (id);
+- (void);
+- (id)ÿù×íi;
 
 // Remaining properties
 @property(retain) id <MTLTexture> atomicTexture; // @synthesize atomicTexture=_atomicTexture;

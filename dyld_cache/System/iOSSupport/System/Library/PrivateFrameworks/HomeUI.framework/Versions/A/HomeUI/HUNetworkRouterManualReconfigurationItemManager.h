@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dle.AllowedAccess.%@;
 
 // Remaining properties
 @property(retain, nonatomic) HFNetworkConfigurationItemProvider *networkConfigurationItemProvider; // @synthesize networkConfigurationItemProvider=_networkConfigurationItemProvider;

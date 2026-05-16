@@ -29,13 +29,13 @@
 - (void);
 - (long long);
 - (struct CGImage *);
-- (id);
 - (void);
-- (CDUnknownBlockType);
-- (void)­Ö0e;
 - (int);
-- (id)thTitle:style:handler: /* Error: Ran out of types for this method. */;
-- (struct __CVBuffer *);
+- (id);
+- (id)GGADGAAyAAyAAyàºyAN_AHQo_AVGAYGADGGSg_AAy/;
+- (struct __CVBuffer *)e preparing to play.;
+- (CDUnknownBlockType)tion_MoveToLibrary;
+- (void)FromMovie;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

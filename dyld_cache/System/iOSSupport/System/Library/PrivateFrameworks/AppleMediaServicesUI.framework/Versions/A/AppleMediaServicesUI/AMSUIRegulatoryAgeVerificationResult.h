@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)smissLoginAlertController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *tokenData;

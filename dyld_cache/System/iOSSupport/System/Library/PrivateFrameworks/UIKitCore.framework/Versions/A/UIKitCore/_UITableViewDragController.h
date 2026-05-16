@@ -24,68 +24,66 @@ __attribute__((visibility("hidden")))
     NSMapTable *_cellsAnimatingCancel;
 }
 
-+ (_Bool)ÿ;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)TLComputePipelineState>"48@0:(id)arg1 8@"MTLComputePipelineDescriptor"16Q24^@32^@40;
-- (_Bool)E";
++ (_Bool)reBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
 - (id);
-- (void)ead;
-- (void)16@24@32^v40;
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void)Ð!CùqÆð1¢!0@ù
-× ;
-- (_Bool);
-- (_Bool)
-× ;
-- (id)IPopoverBackgroundView";
-- (void)ntFitting;
-- (id)ndColor;
-- (void)tems:(id)arg1;
-- (id)eState;
-- (id)alculateCurrentRotaryAxis;
-- (id)e=dd}},N,S_setFromEndFrame:,V_fromEndFrame /* Error: Ran out of types for this method. */;
-- (void)issesAfterCompletion;
-- (void)ewConfiguration",C,N,V_configuration;
-- (void)dSymbolVariant;
-- (id)tionMode;
-- (id)UIProgressView",W,N,VprogressControlView;
-- (id)ramePositionIfNecessary;
-- (_Bool)r;
-- (id)UINavigationBarPalette;
-- (_Bool)8þ;
-- (void)an appropriate hosting environment for a scene that appears to be in a view service.;
-- (void)ôÿÿÿ*céÿè¢þ|þÿ;
-- (void)vþÿ;
-- (void)9Animation33_6F0AB2EDC77A7506E9CF9A7668188D4FLLP;
-- (long long)tionAnimated:(id)arg1 ];
-- (id)on restorable object %@;
-- (id)a trait collection containing UIUserInterfaceIdiomUnspecified.;
-- (id)w.;
-- (void)MenuGradientMaskSectionSeparator;
-- (long long)cannot be set in a non-keyboard process;
-- (void)adius:(id)arg1;
-- (void)®GázÄ¿ÍÌÌÌÌÌ
-@R¸ëQð¿¸ëQ¸þ?¸ëQ¸þ¿ÍÌÌÌÌÌ
-Àffffff)@®Gáz®@(ÀHáz®GE@(@{®Gáº2Àáz®Ga @ö(\Âõ%Àffffff@ëQ¸ë¿áz®Gáþ?ö(\Âõ@ö(\Âõ;
-- (id)4D71CoreListMetricsSeparatorStyle;
-- (id)þ)|;
-- (_Bool);
 - (id);
-- (void);
-- (id)^;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool)°! Eù1`ð1Â0@ù
+× ;
+- (void)!Aùqb°1Â0@ù
+× ;
+- (void)Picker"16@0:(_Bool)arg1 8;
+- (void)rationCandidates;
+- (id)stureAtLocation: /* Error: Ran out of types for this method. */;
+- (void)InputAssistantViewController:(id)arg1;
+- (void)neByNavigationBar;
+- (void)ectiveFeedbackTypes;
+- (void)iewController:transition:forceImmediate: /* Error: Ran out of types for this method. */;
+- (id)tLine:(id)arg1;
+- (void)TextEffectsWithReplyHandler:(id)arg1;
+- (id);
+- (id)",R,N;
+- (void)etion;
+- (void)lectionViewDiffableDataSourceSectionSnapshotHandlers",C,N;
+- (void)or;
+- (long long)ivate;
+- (_Bool);
+- (id);
+- (void);
+- (id)W°W;
+- (void)rming clear events of window:<%{public}s:%{public}p>; contextId:0x%{public}X /* Error: Ran out of types for this method. */;
+- (id)onAnalytics] didOther - flushing recent actions;
+- (void)ridge a UIDocumentPickerViewController that's already been bridged! Ignoring second attempt since first one is still in flight...;
+- (void)dow:(id)arg1 %{public}d; %{public}s:(id)arg2 %{public}p; scene identity:(id)arg3 %{public}s; for evaluation strategy:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
+- (_Bool)upInSection;
+- (void).apple.eventpump;
+- (void)ct-Next-Candidate;
+- (_Bool)select a tab (%@) that is not selectable.;
+- (void)iewControllerClass;
+- (void)"16@?0@"UIInterfaceActionViewState"8;
+- (id)al inconsistency:(id)arg1 expected data source. Split view controller:(id)arg2;
+- (void);
+- (id);
+- (id);
+- (void)%¸þ;
+- (long long)Ðß;
+- (void)þ;
+- (id)ÑâÁ7hÄ;
+- (void)Ý33BridgedVector;
+- (id)Xk|þ}43ÄÓwþm43 Ówþ;
+- (id);
+- (_Bool)4;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

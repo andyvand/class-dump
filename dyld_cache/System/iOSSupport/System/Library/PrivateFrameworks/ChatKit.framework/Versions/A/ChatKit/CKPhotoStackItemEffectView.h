@@ -13,16 +13,17 @@ __attribute__((visibility("hidden")))
     _TtC7ChatKit14CKBalloonLayer *_contentBackdropLayer;
 }
 
-- (void),;
+- (void);
 - (struct CKBalloonDescriptor_t);
-- (id)thumbnail with a nil image;
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)tedJunkButtonTapped: /* Error: Ran out of types for this method. */;
-- (id)ate;
+- (id);
+- (void)0@ù
+× ;
+- (void)o$ÿ!;
+- (id)<wpÿ­`6à@/;
 
 // Remaining properties
 @property(retain, nonatomic) _TtC7ChatKit14CKBalloonLayer *contentBackdropLayer; // @synthesize contentBackdropLayer=_contentBackdropLayer;

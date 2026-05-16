@@ -21,8 +21,9 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id)TextForContent:withKey: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)
+× ;
+- (id);
 
 @end
 

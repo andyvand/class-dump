@@ -21,17 +21,17 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (long long);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (double);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *boundarySupplementaryItems;

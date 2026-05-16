@@ -26,9 +26,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)2ª4;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXContentSyndicationMockSingleAssetsDataSource *dataSource; // @dynamic dataSource;

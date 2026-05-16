@@ -8,12 +8,10 @@
 @protocol NSObject><NSCopying;
 
 @protocol PXSectionedFetchResult
-- (NSArray *);
-- (long long)ControlItem>",N,&,VcurrentLens;
-
-@optional
-- (unsigned long long)$;
-- (unsigned long long);
+- (id <NSObject><NSCopying>)Boundary;
+- (id <NSObject><NSCopying>)ð@ ´!"x#È#<%%p&@';
+- (long long)s;
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

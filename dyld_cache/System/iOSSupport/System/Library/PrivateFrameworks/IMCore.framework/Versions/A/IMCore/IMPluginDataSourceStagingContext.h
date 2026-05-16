@@ -16,10 +16,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void)dcalling;
+- (id);
+- (id);
+- (void)»;
 
 // Remaining properties
 @property(nonatomic) _Bool isEmbeddedInTextView; // @synthesize isEmbeddedInTextView=_isEmbeddedInTextView;

@@ -12,14 +12,14 @@
     double _scale;
 }
 
-+ (id)C;
++ (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (double)1;
-- (void);
 - (void);
 - (id);
+- (double);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
 

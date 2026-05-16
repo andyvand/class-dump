@@ -11,9 +11,9 @@
     NSArray *_colors;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *colors; // @synthesize colors=_colors;

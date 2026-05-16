@@ -15,13 +15,13 @@
 + (id);
 + (void);
 + (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (long long);
 - (id);
-- (id);
-- (long long)er;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *identifier;

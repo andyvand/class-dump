@@ -10,8 +10,8 @@
 
 + (_Bool);
 + (id);
-+ (id)sageToBusiness;
-+ (double)TON_TITLE_SINGULAR;
++ (id): /* Error: Ran out of types for this method. */;
++ (double);
 
 @end
 

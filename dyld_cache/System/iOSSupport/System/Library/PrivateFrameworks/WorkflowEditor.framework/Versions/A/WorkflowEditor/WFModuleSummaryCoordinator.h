@@ -84,6 +84,7 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -108,18 +109,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (CDUnknownBlockType);
-- (void)ultipleValueParameterStateCSgIegg_;
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)Èt;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPickingVariables; // @synthesize allowsPickingVariables=_allowsPickingVariables;

@@ -15,6 +15,7 @@
     MISSING_TYPE *currentlyUpdatingVertices;
     MISSING_TYPE *inflightExplicitUpdates;
     MISSING_TYPE *pendingScopeDefinitions;
+    MISSING_TYPE *scopes;
 }
 
 @end

@@ -16,18 +16,18 @@
 - (int);
 - (void);
 - (int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void)rEnumeration:searchTerm:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int encodingType; // @synthesize encodingType=_encodingType;

@@ -12,9 +12,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)String",R,C,N,V_identifier;
-- (id)ublic}@;
-- (id)d URL session did finish for identifier:(id)arg1 %{public}@;
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldTriggerReflow; // @synthesize shouldTriggerReflow=_shouldTriggerReflow;

@@ -25,11 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (void)LÐ!¸EùN1b0@ù
-× ;
+- (void);
+- (void);
+- (_Bool)Âÿ;
 
 // Remaining properties
 @property(retain) VFXCamera *camera; // @synthesize camera=_camera;

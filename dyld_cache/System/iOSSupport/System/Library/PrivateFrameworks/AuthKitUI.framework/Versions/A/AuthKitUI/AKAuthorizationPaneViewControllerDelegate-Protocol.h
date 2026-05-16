@@ -5,9 +5,5 @@
 //
 
 @protocol AKAuthorizationPaneViewControllerDelegate
-
-@optional
-- (void)";
-- (void);
 @end
 

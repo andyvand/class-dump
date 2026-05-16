@@ -11,8 +11,8 @@
     MISSING_TYPE *metadataCache;
 }
 
-- (void);
-- (id);
+- (id);
+- (void)DetailsPhotosContactResolver;
 
 @end
 

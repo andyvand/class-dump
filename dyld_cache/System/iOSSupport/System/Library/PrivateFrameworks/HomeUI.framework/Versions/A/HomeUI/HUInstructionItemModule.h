@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e.Home.isDisabled;
 
 @end
 

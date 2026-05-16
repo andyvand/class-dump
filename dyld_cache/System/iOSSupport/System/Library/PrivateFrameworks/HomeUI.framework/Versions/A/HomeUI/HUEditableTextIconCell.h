@@ -21,11 +21,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)QuickLookup;
 
 // Remaining properties
 @property(nonatomic, retain) HFItem *item; // @synthesize item;

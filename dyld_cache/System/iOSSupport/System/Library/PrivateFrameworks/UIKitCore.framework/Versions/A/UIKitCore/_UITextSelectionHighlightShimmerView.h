@@ -20,11 +20,10 @@
 - (id);
 - (void);
 - (double);
-- (void)5Y;
 - (void);
-- (id)Ô¡vð!4AùË1¢!0@ù
-× ;
-- (id)subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
+- (id)spondsToAttributedTitleForRow"b1"delegateRespondsToWidthForComponent"b1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
+- (id)ableLayoutArrangementsCreateIfNecessary;
+- (void)#;
 
 // Remaining properties
 @property(nonatomic, setter=_setSelectionCornerRadius:) double _selectionCornerRadius; // @synthesize _selectionCornerRadius;

@@ -33,8 +33,8 @@
 - (double);
 - (double);
 - (double);
-- (double);
-- (id)pp:withCompletionQueue:query:hasEntitlement:handler: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double cachedReferenceTimeCfatSeconds; // @synthesize cachedReferenceTimeCfatSeconds=_cachedReferenceTimeCfatSeconds;

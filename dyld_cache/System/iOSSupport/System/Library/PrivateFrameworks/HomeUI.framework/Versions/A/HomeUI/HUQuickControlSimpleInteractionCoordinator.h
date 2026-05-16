@@ -30,11 +30,11 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void)yerStrokeLineWidth:(_Bool)arg1;
+- (void)@"NSArray"16@?0@"HMService"8;
+- (_Bool)rSectionIdentifier;
+- (void)/hzy¤GG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController<HUQuickControlInteractiveViewController> *contraptionViewController; // @synthesize contraptionViewController=_contraptionViewController;

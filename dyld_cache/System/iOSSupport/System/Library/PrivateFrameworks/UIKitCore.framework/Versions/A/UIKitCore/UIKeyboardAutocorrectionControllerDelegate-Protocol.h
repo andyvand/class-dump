@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKeyboardTaskQueue;
+@class UIKeyboardTaskQueue, _UITextChoiceAccelerationAssistant;
 
 @protocol UIKeyboardAutocorrectionControllerDelegate
-- (UIKeyboardTaskQueue *)View: /* Error: Ran out of types for this method. */;
-- (void);
+- (UIKeyboardTaskQueue *)nvironment:%@; itemContainer:%@> /* Error: Ran out of types for this method. */;
+- (_Bool)1Ö;
+- (_UITextChoiceAccelerationAssistant *);
+- (void)Ð×[;
 @end
 

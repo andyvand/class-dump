@@ -7,6 +7,7 @@
 @class UIAccessibilityHUDItem;
 
 @protocol UILargeContentViewerItem_Private
+- (UIAccessibilityHUDItem *)r©ÓØ?[;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

@@ -52,19 +52,20 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)eSet",R,C,N,V_possibleValueSet;
-- (unsigned long long)g;
-- (id)nSetShowInHomeDashboard;
-- (id)@;
-- (id)5AccessoryRepresentableSelectableTransformItem;
+- (id)
+× ;
+- (void)øèélé;
+- (id)dor %@ / adapter %@ to settings '%@' from settings '%@';
+- (id)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *accessoryNotFoundFatalTimeoutTimer; // @synthesize accessoryNotFoundFatalTimeoutTimer=_accessoryNotFoundFatalTimeoutTimer;

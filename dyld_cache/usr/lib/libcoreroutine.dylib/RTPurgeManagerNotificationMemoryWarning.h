@@ -12,8 +12,8 @@
 }
 
 - (id);
+- (long long);
 - (void);
-- (long long)egacy RSA signature verification using SHA-256;
 
 // Remaining properties
 @property(nonatomic) long long pressureState; // @synthesize pressureState=_pressureState;

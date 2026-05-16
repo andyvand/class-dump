@@ -13,16 +13,15 @@ __attribute__((visibility("hidden")))
     UIResponder *_owner;
 }
 
-+ (id)r compressedProtobufDataForMessageP2 (reply data) called on object %@ %@;
++ (id);
 - (long long);
 - (void);
 - (void);
-- (void);
 - (void);
-- (id)Áq!BùñÄ1¢!0@ù
-× ;
-- (id)dViaPopoverSegue: /* Error: Ran out of types for this method. */;
-- (id)igureImageWithInsets:paddingEdges:additionalPadding: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)tionForEvent:fallbackSender: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIResponder *owner; // @synthesize owner=_owner;

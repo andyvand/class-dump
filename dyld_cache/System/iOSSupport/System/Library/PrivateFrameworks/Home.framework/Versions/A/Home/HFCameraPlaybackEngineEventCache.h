@@ -45,19 +45,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)setIsHomeElectricitySupported: /* Error: Ran out of types for this method. */;
-- (id)N,V_isCameraItem;
+- (id)ÔßÐ!¬Bùqá1B50@ù
+× ;
+- (void)\;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *clipWithLongestDuration; // @synthesize clipWithLongestDuration=_clipWithLongestDuration;

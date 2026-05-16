@@ -20,7 +20,7 @@
 + (id);
 + (double);
 + (id);
-+ (id);
++ (id);
 + (id);
 
 @end

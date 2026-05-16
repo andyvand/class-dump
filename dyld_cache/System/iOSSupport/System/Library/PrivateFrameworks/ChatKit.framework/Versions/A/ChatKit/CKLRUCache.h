@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)¤7¬|.;
+- (id)napshotUsingReloadData:(unsigned long long)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

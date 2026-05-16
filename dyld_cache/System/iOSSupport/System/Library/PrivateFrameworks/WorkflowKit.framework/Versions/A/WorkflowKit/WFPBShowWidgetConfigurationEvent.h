@@ -24,26 +24,26 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
 - (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (void);
 - (id);
-- (_Bool);
-- (id)Get frames from ${WFImage} (Parameter Summary);
+- (id);
+- (id);
+- (_Bool);
+- (void)widget connection that's invalidated;
+- (_Bool)ttributionSetTrackingQueue;
+- (void)nder fetchRecommendedDonationsForAppPredictionsWithCompletionHandler:]_block_invoke_5 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

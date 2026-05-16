@@ -5,6 +5,5 @@
 //
 
 @protocol SXTagSubscriptionStatusObserving
-- (void);
 @end
 

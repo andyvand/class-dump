@@ -7,6 +7,9 @@
 @class NSString;
 
 @protocol PXStoryMutableChapter
+- (NSString *)sTo3MP;
+- (void)because:(NSString *)arg1 %{public}@;
+- (NSString *)!	;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localizedSubtitle;

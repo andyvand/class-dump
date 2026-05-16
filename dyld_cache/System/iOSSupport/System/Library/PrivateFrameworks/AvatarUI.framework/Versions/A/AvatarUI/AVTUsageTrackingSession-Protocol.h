@@ -5,7 +5,5 @@
 //
 
 @protocol AVTUsageTrackingSession
-- (void);
-- (void);
 @end
 

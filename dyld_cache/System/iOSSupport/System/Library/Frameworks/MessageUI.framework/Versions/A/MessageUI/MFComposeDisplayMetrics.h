@@ -19,12 +19,12 @@
 - (struct NSDirectionalEdgeInsets);
 - (_Bool);
 - (void);
-- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
 - (void);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (struct UIEdgeInsets)alPresentationStyle: /* Error: Ran out of types for this method. */;
-- (id)O;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSDirectionalEdgeInsets headerViewSeparatorInset;

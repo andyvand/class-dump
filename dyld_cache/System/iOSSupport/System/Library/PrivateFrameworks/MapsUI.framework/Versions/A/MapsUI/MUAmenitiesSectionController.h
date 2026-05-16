@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)y,V_performingDiscovery;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

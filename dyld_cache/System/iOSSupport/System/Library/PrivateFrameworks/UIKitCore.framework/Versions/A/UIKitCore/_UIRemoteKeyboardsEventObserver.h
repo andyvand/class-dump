@@ -16,32 +16,31 @@ __attribute__((visibility("hidden")))
     id <_UIRemoteKeyboardsEventObserverDelegate> _delegate;
 }
 
-- (void);
-- (void)mTimeServerDeclaration_Status;
 - (_Bool);
 - (void);
-- (void)onID AND cast(identifier AS INT) != 0;
-- (void);
 - (void);
-- (_Bool);
-- (long long)ÑÅð1¢!0@ù
+- (void);
+- (void);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (id);
+- (void)× ;
+- (_Bool)Cù±`1Â0@ù
 × ;
-- (void)s!¸EùÇÐ1¢!0@ù
+- (void)ð!ÈAù1c1Â0@ù
 × ;
-- (void)ange:(_Bool)arg1 progressSupport:animated:delegate: /* Error: Ran out of types for this method. */;
-- (void)kwise:(id)arg1;
-- (void)torForPage:(id)arg1;
-- (id)urityModeForViewsLayer;
-- (_Bool)ecentInputs;
-- (void)denManagementCountForKey:(id)arg1 bitFlagValue: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)placing range, %@, with attributed text:%@
-addUnderlines? %@ updateSelection? %@ /* Error: Ran out of types for this method. */;
-- (id)e.length > 1;
-- (void)tAutocapitalizationType(void);
-- (void)r:(id)arg1 navigationController:] requires at least one of viewController or navigationController to be non-nil /* Error: Ran out of types for this method. */;
-- (void)rred size group in invalid section %ld. Section count:(id)arg1 %ld;
-- (void)Roots/4~CG94ugAUd-kT2TJnGjOjc0LwVs5qDWKGsb8Xl_0/Library/Caches/com.apple.xbs/Sources/UIKitCore/Sources/Views/UIView/UIView_ViewMasking.swift;
+- (void)atePickerIfNecessaryElement:(id)arg1;
+- (void)rRadius;
+- (void)clearSystemNavigationAction;
+- (void)thCompetingLongPressGestureRecognizers;
+- (_Bool)lationships,S_setAutomaticallyAddsFailureRelationships:(id)arg1 ,V_automaticallyAddsFailureRelationships;
+- (_Bool);
+- (void)gStack;
+- (_Bool)eTransition;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,7 +16,7 @@
     NSMutableArray *_scheduledTimers;
 }
 
-+ (double)°È|ÑÄÒÕpÖXÙàÚã;
++ (double)`«;
 - (void);
 - (void);
 - (id);
@@ -32,11 +32,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *currentTypingHandles;

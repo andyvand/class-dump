@@ -27,28 +27,29 @@
 - (double);
 - (void);
 - (void);
-- (double);
+- (unsigned long long);
+- (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (double);
 - (void);
-- (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void)1b0@ù
+- (double);
+- (id);
+- (id);
+- (id);
+- (double);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void)°!LGù9°1â
+0@ù
 × ;
-- (void)8@0:(double)arg1 8{PXSimpleIndexPath=qqqq}16;
+- (id)emIdentifiers;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

@@ -55,6 +55,7 @@
     NSSet *_allowedActions;
     long long _zoomLevelTransitionPhase;
     long long _lastChromeVisibilityChangeReason;
+    PXSelectionSnapshot *_selectionSnapshot;
     PXSectionedSelectionManager *_selectionManager;
     double _daysMarginScale;
     PXZoomablePhotosViewModel *_zoomablePhotosViewModel;
@@ -77,7 +78,6 @@
     double _secondaryToolbarVisibility;
     PXUpdater *_updater;
     PXScrollViewSpeedometer *_scrollingSpeedometer;
-    PXSelectionSnapshot *_lastSelectionSnapshot;
     PXSharedLibrarySharingSuggestionsCountsManager *_sharedLibrarySuggestionCountsManager;
     struct CGPoint _lastScrollDirection;
     CDStruct_15189878 _selectedAssetsTypedCount;
@@ -110,7 +110,6 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -222,17 +221,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -247,51 +246,48 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id)¨è;
-- (void);
 - (long long);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)! CùyÐ1b0@ù
-× ;
-- (id);
-- (void)ntainerList;
-- (id)",R,N,V_view;
-- (id)	
-HI;
-- (id),ëÿÀ ëÿì ëÿ(!ëÿL!ëÿ !ëÿÄ!ëÿ "ëÿ|#ëÿ%ëÿH%ëÿp%ëÿä%ëÿø'ëÿ(ëÿP(ëÿ)ëÿH)ëÿl)ëÿ)ëÿÜ)ëÿ*ëÿP+ëÿ+ëÿ°+ëÿÈ+ëÿà+ëÿ,ëÿ,ëÿÄ,ëÿø,ëÿ-ëÿT.ëÿl.ëÿ.ëÿÀ.ëÿü.ëÿ0/ëÿH/ëÿ`/ëÿ/ëÿØ/ëÿ0ëÿ$0ëÿ0ëÿÌ0ëÿ1ëÿ<1ëÿ`1ëÿ1ëÿÐ1ëÿ2ëÿ2ëÿx2ëÿ´2ëÿð2ëÿ$3ëÿ|3ëÿ3ëÿ¬3ëÿ åæÿHåæÿåæÿ°åæÿØåæÿ ææÿD6ëÿåæÿ,åæÿdåæÿåæÿ¼åæÿææÿh7ëÿ8ëÿÏêÿ¬9ëÿà9ëÿø9ëÿ<ëÿì=ëÿ >ëÿT>ëÿ>ëÿ<?ëÿ4@ëÿ@ëÿBëÿÔBëÿøBëÿ,CëÿðCëÿ$DëÿHDëÿXEëÿ|Eëÿ¸EëÿÐEëÿèEëÿ;
-- (id);
-- (id)`óNÿv0ûÿ5v0Tûÿv0 ñ!ÿ5v0LóNÿv0HóNÿ;
-- (void)<Ï;
 - (void);
-- (long long)Á[;
-- (void);
-- (void)ÿ;
-- (id)Fø7;
+- (id)@ ´!"x#È#<%%p&@';
+- (id)tIndex:] /* Error: Ran out of types for this method. */;
+- (void)appearance On Dismissal;
+- (void)s&;
+- (void),c¡qôN;
+- (long long)¼#ÿ;
+- (id)X¥ÙÿM¬¤5;
+- (id)ª]7;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCuratedLibraryActionManager *actionManager; // @synthesize actionManager=_actionManager;
@@ -333,7 +329,6 @@
 @property(readonly, nonatomic) _Bool isSelecting; // @synthesize isSelecting=_isSelecting;
 @property(readonly, nonatomic) long long lastChromeVisibilityChangeReason; // @synthesize lastChromeVisibilityChangeReason=_lastChromeVisibilityChangeReason;
 @property(nonatomic) struct CGPoint lastScrollDirection; // @synthesize lastScrollDirection=_lastScrollDirection;
-@property(retain, nonatomic) PXSelectionSnapshot *lastSelectionSnapshot; // @synthesize lastSelectionSnapshot=_lastSelectionSnapshot;
 @property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
 @property(readonly, nonatomic) unsigned long long libraryState; // @synthesize libraryState=_libraryState;
 @property(nonatomic) __weak id <PXLibrarySummaryOutputPresenter> librarySummaryPresenter; // @synthesize librarySummaryPresenter=_librarySummaryPresenter;
@@ -349,7 +344,7 @@
 @property(readonly, nonatomic) NSString *selectModeCaption; // @synthesize selectModeCaption=_selectModeCaption;
 @property(readonly, nonatomic) CDStruct_15189878 selectedAssetsTypedCount; // @synthesize selectedAssetsTypedCount=_selectedAssetsTypedCount;
 @property(readonly, nonatomic) PXSectionedSelectionManager *selectionManager; // @synthesize selectionManager=_selectionManager;
-@property(readonly, nonatomic) PXSelectionSnapshot *selectionSnapshot;
+@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
 @property(readonly, nonatomic) PXSharedLibrarySharingSuggestionsCountsManager *sharedLibrarySuggestionCountsManager; // @synthesize sharedLibrarySuggestionCountsManager=_sharedLibrarySuggestionCountsManager;
 @property(nonatomic) _Bool shouldShowEmptyPlaceholder; // @synthesize shouldShowEmptyPlaceholder=_shouldShowEmptyPlaceholder;
 @property(readonly, nonatomic) _Bool sidebarCanBecomeVisible; // @synthesize sidebarCanBecomeVisible=_sidebarCanBecomeVisible;

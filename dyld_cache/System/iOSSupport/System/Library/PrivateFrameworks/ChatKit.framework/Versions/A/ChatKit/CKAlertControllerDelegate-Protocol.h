@@ -5,6 +5,5 @@
 //
 
 @protocol CKAlertControllerDelegate
-- (void)s;
 @end
 

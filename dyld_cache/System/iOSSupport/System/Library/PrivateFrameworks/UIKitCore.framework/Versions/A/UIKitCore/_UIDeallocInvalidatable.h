@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)iveBypass: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (void);
 - (void);
-- (id)ce: /* Error: Ran out of types for this method. */;
-- (id)imumPower;
-- (id)\]Ä^Ô_ü`pb f<g´g;
-- (void)eady registered with event:(id)arg1 interaction:%@; event:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)!ôBù±^1Â0@ù
+× ;
+- (void)ntConfiguration>",C,N,V_footerContentConfiguration;
+- (id)|mÍ;
+- (void)¶ÜØ\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

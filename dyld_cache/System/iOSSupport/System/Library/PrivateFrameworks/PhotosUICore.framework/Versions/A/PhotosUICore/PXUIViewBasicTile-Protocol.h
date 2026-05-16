@@ -7,6 +7,8 @@
 @class UIView;
 
 @protocol PXUIViewBasicTile
+- (UIView *)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *view;

@@ -27,50 +27,49 @@
     struct CGPoint _initialCentroidLocation;
 }
 
-- (double);
 - (void);
+- (void);
+- (id)]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24r*28i36r*40i48B52;
+- (void)shedObjectWithName:(id)arg1;
+- (void)al;
+- (void)SizeMenus;
+- (void)SizeChange:(double)arg1 withVisibleHeight:pinningEdge: /* Error: Ran out of types for this method. */;
+- (double)ÑXÑ|ãäàñXò\óÐó öôöX÷ øÐùLú;
+- (_Bool)s immediate attention.;
+- (double)hes, %p
+	uuid=%@ state=%@;
+- (void)touch <%@:%p; phase = %@> /* Error: Ran out of types for this method. */;
+- (void);
+- (id)üÏîÿÏþÿ;
+- (void)Äçîÿ;
+- (void);
+- (void)e.uikit.%@ %p;
+- (void)%d
+;
+- (void)l * _Nullable __strong * _Nonnull, _UIContentViewLabelConfiguration * _Nonnull __strong);
+- (void)com.apple.UIKit.bandSelectionHover;
+- (double)ns=%@;
+- (double)target with an explicit container. (view:%@) /* Error: Ran out of types for this method. */;
+- (double)controller for navigation controller doesn't have restoration identifier, truncating array:%@ /* Error: Ran out of types for this method. */;
+- (id)sitionLayout cannot place a sublayout relative to both the top and bottom edge of a sibling layout;
+- (_Bool)tion %d. The number of items contained in an existing section after the update (%d) must be equal to the number of items contained in that section before the update (%d), plus or minus the number of items inserted or deleted from that section (%d inserted, %d deleted) and plus or minus the number of items moved into or out of that section (%d moved in, %d moved out). Collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)unassociationCacheAccessQueue;
+- (void)li);
+- (double)filters.glassBackground.inputBleedColorMatrixWhite;
+- (unsigned long long)ÿ;
+- (void);
+- (double)=13¨ð¸þ;
+- (void)°M;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)Variants:options: /* Error: Ran out of types for this method. */;
-- (void)celing request [request by client];
-- (void)P;
+- (void)À'þ;
+- (_Bool);
 - (struct CGPoint);
+- (void)Ú8i\;
 - (void);
-- (double)Ô¡r!ÄFùÆÐ1¢!0@ù
-× ;
-- (void)!øGùqÆ°1¢!0@ù
-× ;
-- (void);
-- (void)× ;
-- (void)× ;
-- (id)
-× ;
-- (void)EmojiDraggableView"16Q24;
-- (void)iedEffect:(id)arg1;
-- (void)lDecelerationFactor:(double)arg1;
-- (_Bool);
-- (double)ut:animationSetup:animationCompletion:enableCustomAnimations:customAnimationsType: /* Error: Ran out of types for this method. */;
-- (void)electedDay:(double)arg1 time:animated:notify: /* Error: Ran out of types for this method. */;
-- (void)dOpenURLContexts:(id)arg1;
-- (void)ntentWidth;
-- (double)Ø´;
-- (unsigned long long)_UICollectionViewListHeaderFooter's content view insets (top:%g, bottom:%g) exceed the _UICollectionViewListHeaderFooter's target height of %g with required fitting priority. Header/footer:%@ /* Error: Ran out of types for this method. */;
-- (void)_customizedProperties;
-- (double)ButtonProperties;
-- (_Bool)rogresses;
-- (double)ViewAnimationDelegateP;
-- (void)zero subviews. View:(id)arg1 %@;
-- (void)EventParameterID getCHHapticEventParameterIDHapticSharpness(void);
-- (unsigned long long)ive transition. This means we MAY need to support implicit start/finish animator tracking.;
-- (double)umberOfSections;
-- (id)change the delegate of the UINavigationController's barHideOnSwipeGestureRecognizer;
-- (_Bool)only started in the paused state if it is interruptible!;
-- (id)nimationOverlapDuration;
-- (void)7;
-- (void);
+- (id)tA];
+- (unsigned long long)`Û];
+- (void)à|ÿWÝØe³a;
+- (void)%À;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

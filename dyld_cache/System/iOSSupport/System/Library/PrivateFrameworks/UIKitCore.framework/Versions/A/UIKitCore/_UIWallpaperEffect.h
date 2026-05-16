@@ -15,13 +15,13 @@
 }
 
 + (id);
-- (id)wledgmentMessage:(long long)arg1;
-- (_Bool);
-- (void)/;
-- (void)ayoutDirection:(id)arg1;
-- (id)nfocusedShadowOpacity;
-- (_Bool)eBlurRadius:(id)arg1 imageMask:(id)arg2 scale:(long long)arg3 allowingAXAdaptation: /* Error: Ran out of types for this method. */;
-- (long long)xpected a nonnull container view for a resolved focus effect.;
+- (id);
+- (long long);
+- (id);
+- (_Bool)sualProvider>"16;
+- (void)e;
+- (_Bool)edViews:(id)arg1 is no longer supported on iOS 13. Tiling is always on. If you explicitly need to disable tiling, use -_disableTiledViews;
+- (void)ionStateC;
 
 @end
 

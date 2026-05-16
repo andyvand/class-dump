@@ -14,35 +14,36 @@ __attribute__((visibility("hidden")))
     NSCollectionLayoutItem *_layoutItem;
 }
 
-- (_Bool);
-- (void);
-- (struct CATransform3D);
-- (struct CGRect)onName:withDestinationDeviceID:withScanTime:withPassword: /* Error: Ran out of types for this method. */;
-- (struct CGAffineTransform);
-- (void);
-- (id);
-- (double);
-- (struct CGRect)lignmentRectInsets: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void);
-- (void)QÁð1¢!0@ù
-× ;
-- (long long);
-- (id)0@ù
-× ;
-- (id)4Q32;
-- (id)mittedResizeDirections: /* Error: Ran out of types for this method. */;
-- (_Bool)eractiveInsets;
-- (void)unce;
-- (id)ound;
-- (void)eightAboveSearchBar;
-- (id)nted;
-- (void)s;
-- (void)eyboard.switchCount;
-- (void)or searchTextField. This is an internal UIKit bug;
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (struct CGAffineTransform);
+- (id);
+- (void);
+- (id)1`°1Â0@ù
+× ;
 - (struct CGPoint);
+- (void)Ôa°!PEù1dð1Â0@ù
+× ;
+- (struct CGRect)!àEùñfÐ1Â0@ù
+× ;
+- (void)ion"b1};
+- (struct CATransform3D)xt: /* Error: Ran out of types for this method. */;
+- (struct CGRect)tDidUpdateConnection: /* Error: Ran out of types for this method. */;
+- (_Bool)ence: /* Error: Ran out of types for this method. */;
+- (_Bool)iginalSelectedRange:allowAutomaticReplacement:autoHide:voiceCommandUUID:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)ath;
+- (void)ltHeaderFooterConfigurationForState:(_Bool)arg1 traitCollection:isHeader:style: /* Error: Ran out of types for this method. */;
+- (long long)V_displayingMenu;
+- (void)ateTextFormattingController;
+- (void)h.;
+- (void);
+- (void)angeFromPreviousEffectiveGeometry:(struct CGPoint)arg1 ];
+- (double)Tab"8@"UIViewController"16;
+- (id)];
+- (void)P/^;
 
 // Remaining properties
 @property(nonatomic) double alpha;

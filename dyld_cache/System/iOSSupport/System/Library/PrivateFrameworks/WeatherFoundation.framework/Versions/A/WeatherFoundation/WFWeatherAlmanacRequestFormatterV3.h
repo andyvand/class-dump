@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)3!A�v;
++ (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

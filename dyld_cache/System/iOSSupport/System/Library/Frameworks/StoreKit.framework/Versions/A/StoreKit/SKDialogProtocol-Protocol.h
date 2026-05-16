@@ -5,6 +5,5 @@
 //
 
 @protocol SKDialogProtocol
-- (void)�;
 @end
 

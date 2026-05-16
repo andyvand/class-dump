@@ -24,11 +24,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)H#;
 - (id);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *leftSymbol;

@@ -13,12 +13,12 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject *object; // @synthesize object=_object;

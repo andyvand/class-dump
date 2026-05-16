@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long)r;
 - (void);
-- (id)ration:(double)arg1 darkConfiguration:(unsigned long long)arg2 tintColor: /* Error: Ran out of types for this method. */;
-- (double)mentUnavailablePortalContainerView;
+- (double);
+- (id)DP;
+- (unsigned long long)É?(C;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long edge; // @synthesize edge=_edge;

@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)DÊ;
-- (_Bool)ð ü;
+- (_Bool)rokeProperty;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=mEnabled;

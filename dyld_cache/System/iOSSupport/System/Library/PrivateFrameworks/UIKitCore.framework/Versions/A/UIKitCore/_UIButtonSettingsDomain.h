@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)essType:withPassword: /* Error: Ran out of types for this method. */;
 + (id);
-+ (Class)lean;
-+ (id);
++ (id)stination;
++ (id)ationCallbackMemoranda;
++ (Class)7Ðÿÿÿ;
 
 @end
 

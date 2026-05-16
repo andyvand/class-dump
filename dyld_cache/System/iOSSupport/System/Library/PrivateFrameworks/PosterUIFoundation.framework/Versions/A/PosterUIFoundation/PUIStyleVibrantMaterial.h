@@ -22,14 +22,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

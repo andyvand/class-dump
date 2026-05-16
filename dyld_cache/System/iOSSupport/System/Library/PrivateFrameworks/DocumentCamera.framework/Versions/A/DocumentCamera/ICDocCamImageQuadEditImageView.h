@@ -19,14 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (_Bool);
 - (void);
-- (void);
-- (long long);
-- (void);
 - (id);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

@@ -18,9 +18,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ta.;
 
 // Remaining properties
 @property(readonly, nonatomic) SMHandle *from; // @synthesize from=_from;

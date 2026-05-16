@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol APPCJourneyMetricsNotificationsHelping
-- (void);
-- (NSString *)ing by play state and difficulty;
 @end
 

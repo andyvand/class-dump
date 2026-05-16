@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ueLabel;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

@@ -7,6 +7,8 @@
 @class NSString, NSURL;
 
 @protocol AAEndpointType
+- (NSURL *)á°!t@ùñ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;

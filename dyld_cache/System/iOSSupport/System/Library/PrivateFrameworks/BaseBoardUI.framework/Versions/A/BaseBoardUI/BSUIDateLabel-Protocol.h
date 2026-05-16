@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
 @protocol BSUIDateLabelDelegate;
 
 @protocol BSUIDateLabel
-- (void);
-- (void):(NSDate *)arg1 InInputTarget:(NSTimeZone *)arg2 elementContent: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)nterTransformView:(_Bool)arg1;
 
 // Remaining properties
 @property(nonatomic, getter=isAllDay) _Bool allDay;

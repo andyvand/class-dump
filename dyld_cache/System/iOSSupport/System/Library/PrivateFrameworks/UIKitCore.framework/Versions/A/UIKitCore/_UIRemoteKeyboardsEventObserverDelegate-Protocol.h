@@ -5,7 +5,7 @@
 //
 
 @protocol _UIRemoteKeyboardsEventObserverDelegate
-- (void);
-- (void)weekday;
+- (void)Notifications;
+- (long long)ò;
 @end
 

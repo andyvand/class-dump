@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSString *ticketPrefix; // @synthesize ticketPrefix=_ticketPrefix;

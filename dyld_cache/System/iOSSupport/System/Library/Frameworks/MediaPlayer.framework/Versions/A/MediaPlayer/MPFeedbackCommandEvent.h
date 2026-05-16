@@ -11,7 +11,7 @@
     _Bool _negative;
 }
 
-- (id)atedBySiri"b1};
+- (id);
 - (_Bool);
 
 // Remaining properties

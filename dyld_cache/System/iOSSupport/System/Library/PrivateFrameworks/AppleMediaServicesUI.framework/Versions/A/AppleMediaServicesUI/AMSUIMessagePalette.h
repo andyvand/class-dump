@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)WithResult:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType widthProvider;

@@ -25,19 +25,19 @@
 - (double);
 - (id);
 - (id);
-- (void)#;
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)4˟;
+- (id);
 - (void);
 - (_Bool);
-- (void)erOfCachedImages: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)IssueReadingHistoryRecorder;
+- (void)ionFactory;
+- (void);
+- (void)E\;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

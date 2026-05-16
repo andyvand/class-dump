@@ -21,13 +21,13 @@
 - (struct CGRect);
 - (void);
 - (_Bool);
+- (struct CGRect);
+- (double);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (double);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

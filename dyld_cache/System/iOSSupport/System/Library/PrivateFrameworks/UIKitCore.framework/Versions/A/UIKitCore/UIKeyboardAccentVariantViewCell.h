@@ -17,16 +17,17 @@ __attribute__((visibility("hidden")))
     UIKBRenderConfig *_renderConfig;
 }
 
-- (void)handleDenyList;
-- (id)as read;
-- (struct CGSize)ping for MPModelPropertyFileAssetTraits;
 - (void);
-- (id)0@ù
+- (id);
+- (struct CGSize)0@ù
 × ;
-- (_Bool)ion: /* Error: Ran out of types for this method. */;
-- (void)chine:(_Bool)arg1 %p> Dealloc.;
-- (void)ð;
-- (id)ticDynamicParameterID getCHHapticDynamicParameterIDAudioPanControl(void);
+- (_Bool)!`Bùg1Â0@ù
+× ;
+- (id)T@"NSString",R,C,N,V__textAnimationName;
+- (void)-|;
+- (id)d action for unknown session type;
+- (void)BÉ¸³f;
+- (void)Ðâóÿ½¨};
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accentedChar;

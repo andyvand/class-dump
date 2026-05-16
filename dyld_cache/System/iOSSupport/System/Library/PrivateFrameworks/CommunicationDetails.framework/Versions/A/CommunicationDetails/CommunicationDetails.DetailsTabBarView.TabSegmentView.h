@@ -14,14 +14,14 @@
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

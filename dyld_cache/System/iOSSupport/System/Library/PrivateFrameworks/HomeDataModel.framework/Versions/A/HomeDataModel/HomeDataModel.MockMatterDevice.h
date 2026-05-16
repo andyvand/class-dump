@@ -15,12 +15,14 @@
     MISSING_TYPE *nodeID;
     MISSING_TYPE *metadata;
     MISSING_TYPE *attributeWaitingState;
+    MISSING_TYPE *mockDiagnosticLogs;
+    MISSING_TYPE *downloadLogShouldThrow;
     MISSING_TYPE *recordedCommands;
     MISSING_TYPE *recordedReads;
 }
 
-- (void);
 - (id);
+- (void)Covering;
 
 @end
 

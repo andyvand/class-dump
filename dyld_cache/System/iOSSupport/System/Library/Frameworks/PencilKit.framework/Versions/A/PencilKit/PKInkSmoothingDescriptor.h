@@ -19,7 +19,7 @@
 - (double);
 - (double);
 - (double);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double angleSmoothing; // @synthesize angleSmoothing=_angleSmoothing;

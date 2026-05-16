@@ -20,11 +20,12 @@ __attribute__((visibility("hidden")))
 
 - (struct CGRect);
 - (void);
-- (id);
-- (void);
+- (id);
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
+- (void)qð1Â0@ù
+× ;
 
 @end
 

@@ -6,21 +6,21 @@
 
 @interface DDBridgeVertexLayout
 {
-    int bufferIndex;
-    int bufferOffset;
-    int bufferStride;
+    long long bufferIndex;
+    long long bufferOffset;
+    long long bufferStride;
 }
 
 - (id);
-- (int);
-- (int);
+- (long long);
 - (id);
-- (int);
+- (long long);
+- (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) int bufferIndex; // @synthesize bufferIndex;
-@property(nonatomic, readonly) int bufferOffset; // @synthesize bufferOffset;
-@property(nonatomic, readonly) int bufferStride; // @synthesize bufferStride;
+@property(nonatomic, readonly) long long bufferIndex; // @synthesize bufferIndex;
+@property(nonatomic, readonly) long long bufferOffset; // @synthesize bufferOffset;
+@property(nonatomic, readonly) long long bufferStride; // @synthesize bufferStride;
 
 @end
 

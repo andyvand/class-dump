@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void)À;
 - (id);
-- (id)era.viewfinder;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

@@ -13,7 +13,7 @@
     HMAccessory *_accessory;
 }
 
-+ (Class);
++ (Class)ResidentDevice;
 - (id);
 - (_Bool);
 - (id);
@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)aracteristicStateGroupedTitleCarbonMonoxidePeakLevel;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

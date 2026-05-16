@@ -5,7 +5,7 @@
 //
 
 @interface (null) (RTExtensions)
-+ (id)~;
-+ (id)!]9I;
++ (id);
++ (id);
 @end
 

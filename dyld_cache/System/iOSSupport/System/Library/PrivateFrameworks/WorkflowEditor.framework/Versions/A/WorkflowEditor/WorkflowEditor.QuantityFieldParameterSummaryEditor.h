@@ -24,7 +24,6 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -32,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)¸T U|U;
 
 // Remaining properties
 @property(nonatomic, retain) id <WFVariableProvider> variableProvider;

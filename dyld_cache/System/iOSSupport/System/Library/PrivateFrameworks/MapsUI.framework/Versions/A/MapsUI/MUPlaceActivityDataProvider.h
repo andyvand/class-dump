@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)sDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)loperPlaceCard;
 
 // Remaining properties
 @property(readonly, nonatomic) MKAnnotationView *annotationView;

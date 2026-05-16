@@ -24,15 +24,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void):(_Bool)arg1;
-- (void)Æ: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)XÉûÿ ;
+- (void);
+- (id)Ë;
 
 // Remaining properties
 @property(retain, nonatomic) CKForceLayoutAnimator *animator; // @synthesize animator=_animator;

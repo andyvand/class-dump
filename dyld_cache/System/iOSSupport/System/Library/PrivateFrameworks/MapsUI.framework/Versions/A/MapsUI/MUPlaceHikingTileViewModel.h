@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ActionsProvider;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     double _responseFactor;
 }
 
-- (void)veSendPlayed;
-- (void)roupMutationData:(double)arg1 error: /* Error: Ran out of types for this method. */;
-- (double)onService: /* Error: Ran out of types for this method. */;
-- (id)D;
+- (void);
+- (void);
+- (double);
 - (id);
-- (CDStruct_aa45ca86)ibrary:(int)arg1 playlist:(int)arg2 playlistEntryProperties:authorProfile: /* Error: Ran out of types for this method. */;
-- (void)0@ù
-× ;
+- (id);
+- (CDStruct_aa45ca86)sentationSuperview:(int)arg1;
+- (void)ð:d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double responseFactor; // @synthesize responseFactor=_responseFactor;

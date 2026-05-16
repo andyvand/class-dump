@@ -20,10 +20,10 @@
 - (id);
 - (id);
 - (_Bool);
+- (double);
 - (void);
 - (id);
-- (void)ally;
-- (double)"<AVTAvatarRecord>",R,N,V_avatarRecord;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool RTL; // @synthesize RTL=_RTL;

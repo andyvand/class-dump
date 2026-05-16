@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)pterFromParent: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)tialLook: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) BSUIVibrancyConfiguration *fromVibrancyConfiguration; // @synthesize fromVibrancyConfiguration=_fromVibrancyConfiguration;

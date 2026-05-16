@@ -74,18 +74,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (long long);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)0@ù
-× ;
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *acceptButton; // @synthesize acceptButton=_acceptButton;

@@ -33,15 +33,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (struct CGRect);
 - (double);
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)1	Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PRPosterDescriptorGalleryOptions *descriptorGalleryOptions; // @synthesize descriptorGalleryOptions=_descriptorGalleryOptions;

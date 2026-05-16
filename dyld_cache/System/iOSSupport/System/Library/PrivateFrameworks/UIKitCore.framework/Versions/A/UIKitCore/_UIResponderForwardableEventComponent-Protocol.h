@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIResponder, UIWindow;
+@class NSArray, NSMutableArray, UIResponder, UIWindow;
 @protocol _UIGestureRecognizerContainer;
 
 @protocol _UIResponderForwardableEventComponent
-- (NSArray *)opertyTVEpisodeTypeDisplayName__MAPPING_MISSING__;
-- (NSArray *);
-- (SEL)b1"interactive"b1"delegateDidPreventInteraction"b1"interactionRequiresRestart"b1"interactionWasCancelled"b1"previousProgressWasNegativeOrZero"b1"currentState"b3"nextUpdateShouldTransitionToPreview"b1"nextPreviewShouldPreventHapticFeedback"b1};
-- (_Bool)eviewForInsertionInContextID:(UIResponder *)arg1 previewSubrangeIndex:(UIResponder *)arg2;
-- (void)ngPreferredAttributes:cv == %p; recomputing preferred attributes for cell in prefetch cache:%@ /* Error: Ran out of types for this method. */;
-- (UIResponder<_UIGestureRecognizerContainer> *)ityBackground.png;
-- (UIWindow *)¶óý<Ù=X94<;
+- (_Bool)¡ð! FùQcÐ1Â0@ù
+× ;
+- (NSMutableArray *)t_visibleItems: /* Error: Ran out of types for this method. */;
+- (UIResponder<_UIGestureRecognizerContainer> *)n;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setResponder:) UIResponder<_UIGestureRecognizerContainer> *_responder;

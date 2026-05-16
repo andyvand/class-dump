@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)YÉä;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionNameLocalizationKey; // @synthesize actionNameLocalizationKey=_actionNameLocalizationKey;

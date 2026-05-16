@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     NSColor *_preferredBezelColor;
 }
 
-+ (id)eV1;
++ (id);
 - (void);
-- (void)ðò;
 - (long long);
-- (void).0f;
+- (void)!ìDù1dð1Â0@ù
+× ;
+- (void)Á;
 
 // Remaining properties
 @property(nonatomic) long long style; // @synthesize style=_style;

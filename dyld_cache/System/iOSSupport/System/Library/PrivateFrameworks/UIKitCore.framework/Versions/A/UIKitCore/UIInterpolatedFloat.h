@@ -11,23 +11,23 @@
     double _number;
 }
 
-+ (id);
-+ (id);
-+ (id)ìt(<8`Ä ¡;
-- (id);
-- (double)wedWhileSupervised;
-- (id)L;
++ (id)Ô ;
++ (id)nd:(id)arg1 inCategory:atIndexPath: /* Error: Ran out of types for this method. */;
++ (id)tinationController.m;
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)0@ù
+- (id)1Â0@ù
 × ;
+- (id)ltTitleColorForState:isTintColor: /* Error: Ran out of types for this method. */;
+- (id)dCustomImageContainer;
+- (double);
+- (id)gressAnimationState;
 - (void);
-- (_Bool)þÿH^þÿF^þÿ;
-- (_Bool)`;
-- (id)\Ò;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

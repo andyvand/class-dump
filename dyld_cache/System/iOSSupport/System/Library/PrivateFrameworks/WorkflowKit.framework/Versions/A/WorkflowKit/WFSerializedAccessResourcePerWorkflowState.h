@@ -16,11 +16,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)!;
+- (void)count:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

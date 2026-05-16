@@ -27,92 +27,91 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
+- (struct CGRect);
+- (double);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (struct CGSize);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void)dEnd;
-- (id)loadBurnSupport;
 - (id);
 - (void);
 - (id);
-- (struct CGSize);
 - (void);
-- (struct CGPoint)yStartTime(maskRanges);
+- (struct CGPoint);
+- (long long);
+- (long long);
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
-- (double);
-- (void)category;
-- (id)moteCommandEvent",R,N;
-- (id);
-- (long long)istPersistentID;
-- (struct CGSize)oudLibraryOptionMergeWithCloudLibrary;
-- (id);
-- (id);
+- (unsigned long long);
 - (struct CGPoint);
-- (struct CGPoint);
-- (id);
-- (void)D;
-- (struct CGRect);
-- (void);
 - (long long);
 - (id);
+- (void)× ;
+- (void)0@ù
+× ;
+- (id)!0@ùq_°1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (long long)ù
+× ;
+- (id)¡°!´GùdÐ1Â0@ù
+× ;
+- (struct CGPoint)
+× ;
+- (struct CGPoint)antView;
+- (_Bool)pendingSymbolContentTransitionForSettingSymbolImage: /* Error: Ran out of types for this method. */;
+- (void)isHandleValid;
+- (id)inputType: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)DRSuppressionToView:(struct CGPoint)arg1;
+- (unsigned long long)ForChangedLayoutMargins;
+- (id)settingPortraitPixelRect:(struct CGRect)arg1 onPortraitEdges:(struct CGPoint)arg2 performCompleteTest:(long long)arg3;
+- (struct CGSize)ionTickForTimestamp:(id)arg1;
+- (id)ientation;
+- (id);
+- (void)ntPlatterView;
+- (void)orDropPreviews;
+- (id)inerList:(long long)arg1;
+- (unsigned long long)ginVertically;
+- (id):(struct _NSZone *)arg1;
+- (void)",&,N,G_systemProvidedGestureRecognizer,S_setSystemProvidedGestureRecognizer:(id)arg1 ,V_systemProvidedGestureRecognizer;
+- (void)Content;
+- (void)Hl@;
+- (id);
+- (id)Ñ×.XÑÄé.¸XÑLí.ÈXÑÿ.àXÑp/øXÑÔ/`YÑ¨	/xYÑ|/pZÑÜ/ZÑ'/ÈZÑ 2/èZÑ\/;
+- (struct CGRect)þÿ;
+- (id)cornerRadiusForPresentationAndDismissal;
+- (id)lette;
+- (id)tionBar"16@?0@"UIViewController"8;
+- (id)Àtþ¥¨434tþõ¨43tþ¨43tþ¨43ttþÍ¨43Ätþ©43tþÕ¨43¼tþ;
+- (id)¨G#;
+- (void)^;
+- (id)°©Xþ;
+- (id)Vaþ;
+- (struct CGSize)âa;
+- (struct CGRect)ÿ";
+- (unsigned long long)6ÿt;
+- (id);
+- (long long)ÿ;
+- (_Bool)×ÕLd;
+- (long long)1ÿ;
+- (id)³ÿãÊÕÐEd;
+- (id);
+- (id)he;
+- (id)>ÖH¿d;
+- (_Bool)Eÿ;
 - (struct CGRect);
-- (struct CGPoint);
-- (void)m? º;
-- (unsigned long long);
-- (void);
-- (struct CGRect)qÂ°1¢!0@ù
-× ;
-- (id)Ô!p!@Cù±Âð1¢!0@ù
-× ;
-- (struct CGSize)Ð1¢!0@ù
-× ;
-- (_Bool)±Ã1¢!0@ù
-× ;
-- (id);
-- (long long)@ùqÍ°1¢!0@ù
-× ;
-- (void)!dDùÎð1¢!0@ù
-× ;
-- (id);
-- (unsigned long long)1¢!0@ù
-× ;
-- (id)UIIntegralPoint=qq}{_UIIntegralSize=qq}}16;
-- (id)le:(id)arg1 animation:(long long)arg2 startTime:(struct CGPoint)arg3 duration:(double)arg4 curve:(unsigned long long)arg5;
-- (void)rwinNotification:(id)arg1;
-- (void)eStyle:(id)arg1 barStyle:(unsigned long long)arg2;
-- (unsigned long long)dStartingRectForCell:forNewEditingState: /* Error: Ran out of types for this method. */;
-- (id)toScrollFromPoint:(struct CGPoint)arg1;
-- (void)Down:(id)arg1;
-- (void)ConnectionSelector:(id)arg1;
-- (_Bool)neHeightRatio:didAdjustFont: /* Error: Ran out of types for this method. */;
-- (id)Overlay;
-- (id)figuration;
-- (id)_layout;
-- (void)&,N,V_autocorrectBubbleContainer;
-- (id)",C,N,S_setMessage:,V_message /* Error: Ran out of types for this method. */;
-- (id),Ø;
 - (unsigned long long);
-- (id);
-- (unsigned long long)71­¥;
-- (long long)?;
-- (id)'D8;
-- (struct CGRect);
-- (id)$³hþ;
-- (id)ÿ;
-- (id);
-- (struct CGPoint);
-- (long long)Ê_;
-- (_Bool)JÊÇVc;
-- (id)M#ÿ®ØBc;
-- (id);
-- (id)¼«ÿSëc;
-- (id)¢ûc;
-- (id)\Od;
-- (long long)<*ñþ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long auxillaryFrameCount;

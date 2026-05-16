@@ -15,18 +15,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)8;
-- (id)NSError"16;
-- (id);
 - (void);
-- (void);
-- (void);
-- (id)PCServiceDescription";
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (id)MediaPlaybackCore21ScoutingAlignmentTask;
+- (id);
+- (id);
+- (void)@ %2i %{public}@ô¹  RELOAD CURRENT ITEM BEGIN  %{public}@;
+- (id);
+- (id)}]¼;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *deploymentID;

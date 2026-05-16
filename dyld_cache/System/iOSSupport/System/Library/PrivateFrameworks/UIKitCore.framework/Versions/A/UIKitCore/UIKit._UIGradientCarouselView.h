@@ -15,11 +15,10 @@
     MISSING_TYPE *animationKey;
 }
 
+- (id);
 - (void);
-- (id);
-- (void)
-× ;
-- (id);
+- (id)imationSnapshotWindow;
+- (void) X;
 
 @end
 

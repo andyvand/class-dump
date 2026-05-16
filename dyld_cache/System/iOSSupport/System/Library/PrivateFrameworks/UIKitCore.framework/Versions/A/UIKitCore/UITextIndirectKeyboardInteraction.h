@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _Bool _disableTouchesForGestures;
 }
 
-- (_Bool);
-- (void)nimations;
-- (id)èrÿG²;
+- (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool disableTouchesForGestures; // @synthesize disableTouchesForGestures=_disableTouchesForGestures;

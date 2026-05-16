@@ -10,8 +10,8 @@
 {
 }
 
-- (void)eractiveCompletionHandler: /* Error: Ran out of types for this method. */;
-- (id)Count;
+- (void)thFrame: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

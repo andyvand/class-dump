@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)entChannelIDPrefixWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (id);
-- (id)dle components.;
-- (id)r %@;
-- (id)tting complete success to NO because of attachment send result. (Error:(id)arg1 %@);
-- (id)iC is disabled, so no need to enroll device for SMS relay.;
-- (id)h;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

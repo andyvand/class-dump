@@ -43,14 +43,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)±{Ð1b0@ù
-× ;
-- (id)hotoLibrary:fetchLimit: /* Error: Ran out of types for this method. */;
-- (void).;
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
+- (void)timed out preparing to play. Error:(id)arg1 %{public}@;
+- (id)aProvider:[%{public}ld](%{public}s) Image chooser:High Quality /* Error: Ran out of types for this method. */;
+- (void)è`;
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

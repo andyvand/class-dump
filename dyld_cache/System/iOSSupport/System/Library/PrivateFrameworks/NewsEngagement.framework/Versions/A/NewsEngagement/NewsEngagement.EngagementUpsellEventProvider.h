@@ -12,8 +12,8 @@
     MISSING_TYPE *observersStore;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

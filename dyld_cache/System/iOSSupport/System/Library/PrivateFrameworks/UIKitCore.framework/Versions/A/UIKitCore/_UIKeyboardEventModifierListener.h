@@ -16,9 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void)?k;
-- (id)ectorColumnWidth:] /* Error: Ran out of types for this method. */;
-- (void)ightMode;
+- (id);
+- (void)
+× ;
+- (void)IY435³;
 
 // Remaining properties
 @property(nonatomic) long long currentModifierFlags; // @synthesize currentModifierFlags=_currentModifierFlags;

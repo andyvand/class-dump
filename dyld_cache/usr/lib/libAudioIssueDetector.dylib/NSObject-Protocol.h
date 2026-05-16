@@ -7,17 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id)c;
-- (oneway void);
-- (_Bool)`;
-- (_Bool)9;
-- (NSString *)to frequency-to-slot mapping,%s;
-- (_Bool)E_;
-- (unsigned long long)i;
-
-@optional
-- (NSString *)@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

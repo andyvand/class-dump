@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PXGDiagnosticsProvider
+- (NSString *)e range must be <= to the number of itemCount;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *diagnosticDescription;

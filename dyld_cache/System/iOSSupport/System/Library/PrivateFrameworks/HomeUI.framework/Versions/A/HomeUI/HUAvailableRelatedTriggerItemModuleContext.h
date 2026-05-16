@@ -40,9 +40,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
-- (id)òÿ?J&ª;
+- (id)tionAddPersonViewController;
+- (void)eadlineCellOptions.cellCornerRadius;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *analyticsPresentationContext; // @synthesize analyticsPresentationContext=_analyticsPresentationContext;

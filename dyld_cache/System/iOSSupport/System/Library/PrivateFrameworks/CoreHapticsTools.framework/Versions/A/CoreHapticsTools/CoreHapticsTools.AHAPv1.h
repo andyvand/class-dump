@@ -19,8 +19,8 @@
     MISSING_TYPE *_fileParameters;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

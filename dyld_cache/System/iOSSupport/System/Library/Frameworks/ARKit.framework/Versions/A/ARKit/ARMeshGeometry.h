@@ -23,16 +23,16 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void)datesLighting;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) ARGeometrySource *classification; // @synthesize classification=_classification;

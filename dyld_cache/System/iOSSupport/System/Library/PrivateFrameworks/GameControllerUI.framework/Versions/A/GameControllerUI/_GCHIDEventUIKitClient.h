@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     id _eventObserver;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

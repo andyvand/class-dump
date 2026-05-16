@@ -22,17 +22,17 @@
 - (id);
 - (id);
 - (double);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (CDUnknownBlockType);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (CDUnknownBlockType)egate",&,V_gestureRecognizerDelegate;
+- (_Bool)stop ripple coordinator %p;
 
 // Remaining properties
 @property(retain, nonatomic) EMKRippleAnimation *animation; // @synthesize animation=_animation;

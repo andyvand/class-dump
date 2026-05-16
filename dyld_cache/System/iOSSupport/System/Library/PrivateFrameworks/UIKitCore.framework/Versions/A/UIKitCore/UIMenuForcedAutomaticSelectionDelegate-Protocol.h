@@ -5,6 +5,5 @@
 //
 
 @protocol UIMenuForcedAutomaticSelectionDelegate
-- (void)A;
 @end
 

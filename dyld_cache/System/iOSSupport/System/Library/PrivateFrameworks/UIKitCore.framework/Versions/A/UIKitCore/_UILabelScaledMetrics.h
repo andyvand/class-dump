@@ -34,20 +34,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
+- (id);
+- (id);
 - (struct CGRect);
-- (double);
-- (id)indForClass: /* Error: Ran out of types for this method. */;
-- (void);
-- (double)±ÂÐ1¢!0@ù
+- (struct CGSize);
+- (double)Bù^1Â0@ù
 × ;
-- (id)d"z"d}"anchorPoint"{CGPoint="x"d"y"d}"transform"{CGAffineTransform="a"d"b"d"c"d"d"d"tx"d"ty"d}"alpha"d};
-- (struct CGSize)Update;
-- (double): /* Error: Ran out of types for this method. */;
-- (long long)htForTableHeaderViewHiding: /* Error: Ran out of types for this method. */;
-- (id)licationWillResignActive: /* Error: Ran out of types for this method. */;
-- (struct CGSize)redictionsContainSmartActions: /* Error: Ran out of types for this method. */;
+- (struct CGSize)× ;
+- (id)á°!¬Fù_Ð1Â0@ù
+× ;
+- (double);
+- (double)er;
+- (long long);
+- (double);
+- (double)earchBarVisualProviderBase *__strong);
+- (void),ÿ~þ@;
 
 // Remaining properties
 @property(readonly, nonatomic) double actualScaleFactor;

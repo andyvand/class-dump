@@ -265,12 +265,12 @@
 - (id);
 - (double);
 - (double);
-- (double);
-- (double);
 - (_Bool);
 - (id);
+- (double);
+- (double);
 - (_Bool);
-- (void);
+- (void)Àÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionMenuButtonImageName; // @synthesize actionMenuButtonImageName=_actionMenuButtonImageName;

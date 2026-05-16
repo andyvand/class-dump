@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
     struct CGRect _avoidanceFrame;
 }
 
-- (void)transcriptBackgroundCommand;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)%@;
-- (id)d:(id)arg1 %@;
-- (id)low it when Messages is uninstalled:(id)arg1 %@;
-- (struct CGRect)ge, we have no peer devices;
-- (void)Record_TranscriptBackground;
 - (void);
-- (void)0@ù
+- (id);
+- (id);
+- (id);
+- (struct CGRect);
+- (void);
+- (void);
+- (id);
+- (void)!PGùñ^Ð1Â0@ù
 × ;
-- (id)tsOnContentOffsetChanges,S_setAdjustsTargetsOnContentOffsetChanges: /* Error: Ran out of types for this method. */;
-- (void)Æg;
+- (void)j;
 
 // Remaining properties
 @property(nonatomic) struct CGRect avoidanceFrame; // @synthesize avoidanceFrame=_avoidanceFrame;

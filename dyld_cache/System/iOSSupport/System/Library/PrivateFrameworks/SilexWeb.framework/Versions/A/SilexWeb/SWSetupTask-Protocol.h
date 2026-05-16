@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SWSetupTask
-- (NSString *):8@"NSString"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

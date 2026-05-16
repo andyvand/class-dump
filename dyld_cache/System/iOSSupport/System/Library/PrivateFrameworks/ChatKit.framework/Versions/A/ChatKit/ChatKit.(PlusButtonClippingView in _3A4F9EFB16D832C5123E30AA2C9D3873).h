@@ -11,9 +11,9 @@
     MISSING_TYPE *automaticallyAdjustsCornerRadius;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 @end

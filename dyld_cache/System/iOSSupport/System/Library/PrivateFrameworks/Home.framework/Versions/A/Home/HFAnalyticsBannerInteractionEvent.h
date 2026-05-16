@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)teristicStateItem"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *hiddenBannerCount; // @synthesize hiddenBannerCount=_hiddenBannerCount;

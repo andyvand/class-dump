@@ -14,15 +14,15 @@
 - (_Bool);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id)%@;;
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;

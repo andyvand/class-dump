@@ -16,8 +16,8 @@
     MISSING_TYPE *shouldSharePublisherGuide;
 }
 
-- (void);
 - (id);
+- (void)eViewControllerDelegate: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -11,7 +11,7 @@
     NSString *_lutIdentifier;
 }
 
-+ (_Bool)meNumberingSystem:userConfigured:preferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -24,17 +24,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void)±ñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)2@0:(id)arg1 8@"MTLRenderPipelineDescriptor"16^@24;
-- (void)H;
-- (id);
-- (id).duration.all;
+- (void);
+- (id)b;
+- (id)x3ÿ;
+- (void)Óôic;
 
 // Remaining properties
 @property(retain, nonatomic) DOMElement *element; // @synthesize element=_element;

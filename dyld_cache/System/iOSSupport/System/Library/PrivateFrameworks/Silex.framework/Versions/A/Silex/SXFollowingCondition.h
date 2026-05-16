@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (_Bool);
-- (void);
 - (id);
+- (void)"SXTangierTextRenderCollector";
+- (_Bool)ze:documentLayout:safeAreaInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool following; // @synthesize following=_following;

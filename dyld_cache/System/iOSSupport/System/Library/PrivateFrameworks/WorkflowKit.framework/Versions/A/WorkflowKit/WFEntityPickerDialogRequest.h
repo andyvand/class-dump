@@ -13,15 +13,15 @@
     NSArray *_items;
 }
 
-+ (_Bool)FTextPosition(Custom Position),WFTextX,WFTextY;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id)Parameter Summary);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

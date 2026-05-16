@@ -15,7 +15,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)tTitle;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUBackgroundEffectViewGrouping> backgroundEffectViewGrouper; // @synthesize backgroundEffectViewGrouper=_backgroundEffectViewGrouper;

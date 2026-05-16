@@ -13,8 +13,8 @@
     MISSING_TYPE *paused;
 }
 
-- (void);
 - (id);
+- (void)troller;
 
 @end
 

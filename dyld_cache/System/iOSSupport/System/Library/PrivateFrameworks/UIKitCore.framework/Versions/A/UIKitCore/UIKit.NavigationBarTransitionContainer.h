@@ -17,11 +17,10 @@
     MISSING_TYPE *overrideContent;
 }
 
+- (id);
 - (void);
-- (id)B;
-- (void)!Ô@ù±Ä°1¢!0@ù
-× ;
-- (id)tScrollPocketInteraction;
+- (id)ageSymbolVisibilityEffect;
+- (void)BíþJPl;
 
 @end
 

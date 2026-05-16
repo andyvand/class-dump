@@ -28,16 +28,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id);
 - (long long);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *externalDeepLinkURL; // @synthesize externalDeepLinkURL=_externalDeepLinkURL;

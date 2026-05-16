@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool)ghlightsController;
 - (_Bool);
-- (_Bool)%p, shouldPresent:%@, title:%@, message:%@> /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 
 @end

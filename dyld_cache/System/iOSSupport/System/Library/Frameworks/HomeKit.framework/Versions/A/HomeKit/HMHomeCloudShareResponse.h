@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)capability;
+- (void)£;
 
 // Remaining properties
 @property(readonly) HMUserCloudShareClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;

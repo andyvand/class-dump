@@ -16,25 +16,24 @@ __attribute__((visibility("hidden")))
     NSDate *__startTime;
 }
 
-- (id)X;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)+
-;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (void))}SiR;
-- (id)mingParameters;
-- (struct CGSize)EW_BUTTON_TITLE;
-- (id)EntityMessageType;
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)y<;
+- (void)9j/;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponentsFormatter *_durationFormatter; // @synthesize _durationFormatter=__durationFormatter;

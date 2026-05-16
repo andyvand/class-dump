@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (long long)rror">24;
+- (long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tForAutoPlay was nil];
 
 // Remaining properties
 @property(nonatomic) long long actionAtQueueEnd; // @synthesize actionAtQueueEnd=_actionAtQueueEnd;

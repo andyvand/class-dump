@@ -14,14 +14,14 @@
 }
 
 + (long long);
-- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id)mSearchContainer;
 - (id);
+- (void)4À¿ÿÿÿÿÿ;
+- (id)or:(id)arg1 Poster generator missing timelapse for clip %@;
+- (id)r fetching home activity state for home:%s, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;

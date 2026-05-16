@@ -25,40 +25,40 @@
     long long __overlayDismissalID;
 }
 
+- (_Bool);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void)i;
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)0";
-- (id)hich only contains %ld items before the update;
-- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (id)etTargetURLForRecordName:fieldName:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

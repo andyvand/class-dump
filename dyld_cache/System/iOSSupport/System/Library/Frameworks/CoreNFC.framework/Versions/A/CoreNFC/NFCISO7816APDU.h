@@ -20,11 +20,11 @@
 - (long long);
 - (unsigned char);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data;

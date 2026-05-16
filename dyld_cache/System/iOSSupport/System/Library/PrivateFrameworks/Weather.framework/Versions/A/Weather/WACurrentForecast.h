@@ -47,17 +47,17 @@
 - (long long);
 - (void);
 - (id);
-- (float);
-- (float);
-- (unsigned long long);
 - (void);
+- (void);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (float);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void), notifying clients of store change;
+- (float);
 
 // Remaining properties
 @property(nonatomic) unsigned long long UVIndex; // @synthesize UVIndex=_UVIndex;

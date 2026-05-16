@@ -47,17 +47,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)ðéúÿ ;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVCaptureSession *avSession; // @synthesize avSession=_avSession;

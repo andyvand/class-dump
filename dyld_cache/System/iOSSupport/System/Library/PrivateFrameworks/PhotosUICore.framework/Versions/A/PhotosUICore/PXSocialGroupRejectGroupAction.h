@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)ÿÿ1íÿä°{ÿ;
+- (id);
+- (void).¿Q|^3;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;

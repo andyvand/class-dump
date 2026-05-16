@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (id);
+- (id);
 - (double);
 - (id);
+- (id)Ô ;
+- (id)ngState";
+- (void)äÌÝÿ;
 - (id);
-- (void);
-- (id);
-- (id)aMask,S_setWantsAlphaMask: /* Error: Ran out of types for this method. */;
-- (id)Íe;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *frames;

@@ -32,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ersions/A/DesignLibrary;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,24 +43,24 @@
 - (long long);
 - (void);
 - (_Bool);
-- (id)Dictionary";
-- (long long)patch_queue>"16@?<v@?B>24;
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)sSuspended;
-- (struct _NSRange)OfClass: /* Error: Ran out of types for this method. */;
-- (id)ionForFetchConfig:delegateReference: /* Error: Ran out of types for this method. */;
-- (id)ion request %@;
+- (id);
+- (long long);
+- (id);
+- (struct _NSRange);
+- (struct _NSRange);
+- (id);
+- (id);
+- (double);
+- (void);
 - (struct _NSRange);
 - (id);
 - (void);
 - (double);
-- (void)tInset;
-- (double);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)ry",R,N,V_metadataDictionary;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activePreviewText; // @synthesize activePreviewText=_activePreviewText;

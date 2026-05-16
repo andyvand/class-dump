@@ -14,10 +14,10 @@
 - (void);
 - (id);
 - (id);
-- (void)G;
-- (void);
 - (void);
-- (id);
+- (void);
+- (void)#;
+- (id)e1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *template; // @synthesize template=_template;

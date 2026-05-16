@@ -10,12 +10,12 @@
 
 + (void);
 + (id);
-+ (id):(id)arg1;
 + (id);
 + (id);
-+ (id)KMapsTransitMessage">;
++ (id);
++ (id);
 + (_Bool);
-+ (_Bool)rviceProxy>";
++ (_Bool);
 + (id);
 
 @end

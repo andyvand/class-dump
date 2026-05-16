@@ -5,8 +5,5 @@
 //
 
 @protocol WBSExtensionsAnalyticsEventCoalescerDelegate
-
-@optional
-- (void);
 @end
 

@@ -15,23 +15,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)mpactViewController"16@"AceObject"24;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ntentVersionOverride;
 - (void);
+- (id);
 - (void);
-- (void)`;
-- (void)e=? and last_addressed_sim_id in (%@?)) c INNER JOIN chat_message_join cm ON c.ROWID=cm.chat_id;;
-- (void);
-- (id)4@"WBSSavedAccount"32;
-- (void);
-- (void);
-- (void)aleFactor;
-- (void):(id)arg1;
+- (void)
+× ;
+- (void)24@?0@8@"NSArray"16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -36,7 +36,7 @@
 - (id);
 - (long long);
 - (id);
-- (id)_;
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
@@ -46,11 +46,11 @@
 - (id);
 - (void);
 - (void);
-- (void)5;
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)keSpaceRect:(id)arg1 strokeTransform:useLayerContext:completion: /* Error: Ran out of types for this method. */;
+- (void)¨ß;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *colorButtons; // @synthesize colorButtons=_colorButtons;

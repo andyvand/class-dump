@@ -21,25 +21,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)a;
+- (id);
 - (id);
 - (void);
 - (double);
 - (id);
 - (void);
-- (id)?76;
-- (void)angeType:(double)arg1;
-- (id)ZoneID;
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long)State: /* Error: Ran out of types for this method. */;
-- (id)aÔa;
-- (void)nRendersAsShadow;
-- (id)nfiguring a cell. Check the backtrace to see what's causing this. (Attempted to reconfigure cell %@ for index path %@ while already reconfiguring cell %@ for index path %@);
 - (id);
-- (void);
+- (id);
+- (void);
+- (long long)1Â0@ù
+× ;
+- (void)oTabFromDropSession:(id)arg1;
+- (void)State: /* Error: Ran out of types for this method. */;
+- (id)allowsSuggestionsMenu;
+- (id)rrow.uturn.backward.circle.badge.ellipsis;
+- (id)viewClass=%@, entry=%@);
+- (void)´ÍþÿÎÍþÿ;
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;

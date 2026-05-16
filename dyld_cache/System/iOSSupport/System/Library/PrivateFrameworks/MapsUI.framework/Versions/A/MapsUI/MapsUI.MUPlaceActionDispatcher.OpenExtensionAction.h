@@ -14,8 +14,8 @@
     MISSING_TYPE *source;
 }
 
-- (void);
 - (id);
+- (void)goryTitle;
 
 @end
 

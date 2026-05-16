@@ -7,24 +7,11 @@
 @class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
 
 @protocol FCFeedTheming
-- (unsigned long long)U;
-- (FCColorGradient *)4;
-- (struct CGSize)Shared/utility/TSUFlushingManager.mm;
-- (FCTagBanner *)th_stubs;
-- (struct CGSize)istIDPrefix;
-- (FCAssetHandle *)B;
+- (NSArray *)ize=%{public}@;
+- (FCTextInfo *)d to delete value from key value store with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (struct FCEdgeInsets)D surfacedByArticleListIDs ;
 - (FCColor *);
-- (NSString *)D;
-- (double)ldProxyRequestToHost: /* Error: Ran out of types for this method. */;
-- (FCHeadlineTemplate *)ads found for with keys %s.;
-- (FCColorGradient *);
-- (FCColorGradient *)(3;
-- (FCTextInfo *)Ԧ};
-- (FCAssetHandle *)@;
-- (FCAssetHandle *);
-- (FCAssetHandle *)icleID;
-- (unsigned long long)ion31AlacartePaywallDataProviderTypeP;
-- (struct FCEdgeInsets)p.;
+- (FCTextInfo *);
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *adBackgroundColor;

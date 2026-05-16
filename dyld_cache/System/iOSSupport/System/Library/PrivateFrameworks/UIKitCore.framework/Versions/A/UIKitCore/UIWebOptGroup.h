@@ -15,13 +15,14 @@ __attribute__((visibility("hidden")))
     long long _offset;
 }
 
-- (id)freshCachedValue:(id)arg1;
+- (id);
 - (void);
 - (void);
-- (id);
-- (long long)cDynamicParameterIDHapticDecayTimeControl(void);
-- (void)YqÔaº^;
-- (id)qb;
+- (void);
+- (id)0@ù
+× ;
+- (id)y failed with error:%@ /* Error: Ran out of types for this method. */;
+- (long long)lë/ÿçUØÐ,c;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIWebSelectedItemPrivate> group; // @synthesize group=_group;

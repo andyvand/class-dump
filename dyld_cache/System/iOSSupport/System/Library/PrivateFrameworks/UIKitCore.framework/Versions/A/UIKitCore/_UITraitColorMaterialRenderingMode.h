@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)eating salt zone *******;
-+ (_Bool)skip-sfs;
 + (_Bool);
-+ (id)Event;
-+ (id)ö;
-+ (long long);
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)rong, UILabel * _Nullable __strong * _Nonnull, UIListContentTextProperties * _Nonnull __strong);
++ (long long)È¿f;
 
 @end
 

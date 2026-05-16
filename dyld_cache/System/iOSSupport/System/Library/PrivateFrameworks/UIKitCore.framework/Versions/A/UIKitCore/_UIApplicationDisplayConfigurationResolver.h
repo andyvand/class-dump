@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)nse: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)vedForSession:(unsigned int)arg1 fromID:withContext: /* Error: Ran out of types for this method. */;
-- (void)ssion:(id)arg1 fromID: /* Error: Ran out of types for this method. */;
++ (id): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)enuAddition;
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

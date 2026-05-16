@@ -14,8 +14,8 @@
     MISSING_TYPE *canChangeCuration;
 }
 
-- (void);
 - (id);
+- (void)`w$ÿ;
 
 @end
 

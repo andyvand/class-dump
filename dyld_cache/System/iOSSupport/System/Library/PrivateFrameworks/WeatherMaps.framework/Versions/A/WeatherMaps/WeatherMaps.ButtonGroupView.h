@@ -20,11 +20,11 @@
     MISSING_TYPE *cornerRadius;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

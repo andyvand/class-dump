@@ -16,13 +16,13 @@
 }
 
 + (Class);
-- (void);
-- (void);
+- (unsigned int);
 - (void);
 - (id);
-- (unsigned int)Error">24;
-- (id)ContentItemFilterAction;
 - (void);
+- (void)ame active stopping workflow execution.;
+- (void);
+- (id)Action;
 
 // Remaining properties
 @property(nonatomic) unsigned int duration; // @synthesize duration=_duration;

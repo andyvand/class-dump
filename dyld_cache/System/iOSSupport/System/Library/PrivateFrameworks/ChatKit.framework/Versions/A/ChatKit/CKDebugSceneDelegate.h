@@ -13,9 +13,10 @@
 
 - (void);
 - (void);
-- (void)backPileLayout;
-- (void)animationDuration:(id)arg1 animationCurve:] /* Error: Ran out of types for this method. */;
-- (id)OÂ/¼-;
+- (id);
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

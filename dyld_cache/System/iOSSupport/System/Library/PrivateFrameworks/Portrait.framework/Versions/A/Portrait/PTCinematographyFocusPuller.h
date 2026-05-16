@@ -39,18 +39,18 @@
 - (float);
 - (void);
 - (float);
-- (unsigned long long);
-- (float);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (float);
+- (float);
 - (CDStruct_1b6d18a9);
 - (float);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (float)ÿ;
+- (unsigned long long)eleasing reference to %@;
+- (void)ÿl$ÿt%ÿ|&ÿ'ÿ'ÿ(ÿ(ÿ¥(ÿ­(ÿµ)ÿ½)ÿÅ)ÿÎ)ÿÖ)ÿÞ)ÿæ)ÿï)ÿ÷)ÿÿ)ÿ;
 
 // Remaining properties
 @property float alpha; // @synthesize alpha=_alpha;

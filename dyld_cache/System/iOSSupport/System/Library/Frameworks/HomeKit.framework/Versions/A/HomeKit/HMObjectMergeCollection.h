@@ -25,8 +25,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool)R_DECLINED_ADDING_USER;
+- (void)¿ÐÁ	¤Â	,Ã|Å	PÆ È	tÉ	üÉàÊ(ÐtÑlÒ¬Õ°Ö×d×Ø;
+- (_Bool)C50F0C01;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *addedObjects; // @synthesize addedObjects=_addedObjects;

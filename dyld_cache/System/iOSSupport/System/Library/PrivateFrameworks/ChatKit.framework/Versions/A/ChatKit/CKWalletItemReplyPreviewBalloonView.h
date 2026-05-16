@@ -14,17 +14,17 @@
     LPLinkView *_linkView;
 }
 
-- (struct CGSize);
-- (void)n;
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (id)geLayer;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)loonView mediaObject:%@ %@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;

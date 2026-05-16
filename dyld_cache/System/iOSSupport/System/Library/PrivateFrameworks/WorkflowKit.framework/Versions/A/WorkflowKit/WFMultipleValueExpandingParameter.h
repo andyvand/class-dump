@@ -13,9 +13,9 @@
     NSString *_multipleValueParameterKey;
 }
 
-- (id);
 - (id);
-- (void);
+- (id);
+- (void)in(void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *multipleValueParameterKey; // @synthesize multipleValueParameterKey=_multipleValueParameterKey;

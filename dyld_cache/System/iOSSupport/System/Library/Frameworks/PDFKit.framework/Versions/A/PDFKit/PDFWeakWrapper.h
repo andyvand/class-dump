@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)firstIntersectedStrokeAtPoint:inputType:visibleOnscreenStrokes: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id)asswordFromSavedAccount: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property __weak id object; // @synthesize object=_object;

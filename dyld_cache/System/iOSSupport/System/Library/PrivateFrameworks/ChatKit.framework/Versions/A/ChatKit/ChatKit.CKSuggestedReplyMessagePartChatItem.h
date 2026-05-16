@@ -17,8 +17,8 @@
 - (id);
 - (Class);
 - (_Bool);
+- (id);
 - (void);
-- (id)!;
 
 // Remaining properties
 @property(nonatomic, readonly) Class balloonViewClass;

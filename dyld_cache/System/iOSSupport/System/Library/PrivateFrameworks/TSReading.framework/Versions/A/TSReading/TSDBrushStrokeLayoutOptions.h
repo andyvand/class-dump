@@ -19,8 +19,8 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (id)e;
+- (id);
+- (void).;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *patternOffsetsBySubpath; // @synthesize patternOffsetsBySubpath=_patternOffsetsBySubpath;

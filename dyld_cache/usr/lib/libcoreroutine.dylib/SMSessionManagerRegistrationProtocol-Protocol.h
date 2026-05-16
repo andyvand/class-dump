@@ -5,6 +5,6 @@
 //
 
 @protocol SMSessionManagerRegistrationProtocol
-- (void)mbols;
+- (void)à7;
 @end
 

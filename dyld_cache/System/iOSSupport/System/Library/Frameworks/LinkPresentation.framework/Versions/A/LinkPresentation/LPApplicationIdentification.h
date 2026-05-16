@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (long long);
-+ (_Bool)C;
++ (_Bool);
 + (id);
 + (_Bool);
 

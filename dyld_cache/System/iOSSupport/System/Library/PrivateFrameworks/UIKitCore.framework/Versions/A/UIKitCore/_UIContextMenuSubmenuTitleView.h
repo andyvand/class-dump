@@ -26,23 +26,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)t:error: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)dexing;
-- (_Bool)oCNIDMap: /* Error: Ran out of types for this method. */;
-- (void)LoggedOutOfIMessage:(id)arg1;
-- (_Bool)ode;
 - (id);
-- (void)wedDeviceUUIDs count:(_Bool)arg1 %d allowedDeviceUUIDs count:%d /* Error: Ran out of types for this method. */;
-- (void)%@ into winning chat id %@;
-- (long long);
+- (struct UIEdgeInsets);
+- (_Bool);
 - (void);
-- (void)â|¬;
-- (_Bool)ng"40@0:8@"UIPickerView"16q24q32 /* Error: Ran out of types for this method. */;
-- (void)è@¸;
-- (id)onKeyWindow:%{public}d;  %{public}s:%{public}p:scene identity:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (id)geC;
-- (void)gger.;
-- (_Bool)for mixed states is unsupported;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (long long);
+- (_Bool);
+- (_Bool)Ñbð1Â0@ù
+× ;
+- (id)ItemIndex;
+- (void)moteInputViewHost will nil inputView:(_Bool)arg1 %@;
+- (void)modifiable for UIActivityIndicatorViewStyleCustom;
+- (void);
+- (void)dÂ^;
+- (id)°ãb;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFocus; // @synthesize allowsFocus=_allowsFocus;

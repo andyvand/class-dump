@@ -14,19 +14,20 @@ __attribute__((visibility("hidden")))
     _Bool _beginningInputStream;
 }
 
-- (_Bool);
 - (void);
 - (_Bool);
-- (long long)ÑË°1¢!0@ù
+- (void);
+- (struct CGPoint);
+- (_Bool);
+- (_Bool)0@ù
 × ;
-- (_Bool)lPocketInteractions;
-- (void)mated: /* Error: Ran out of types for this method. */;
-- (_Bool)sPosition:(CDStruct_a7a14e3b *)arg1 previousIndexPaths:(id)arg2;
-- (_Bool)ì¸;
-- (_Bool)trait named '%@' with a different _isPrivate value. Trait definitions with the same identifier must have the same _isPrivate value.;
-- (struct CGPoint)lue;
-- (void)onDefinitionStorageInvokableP;
-- (long long)UISplitViewControllerAdaptiveImpl setStyle:] /* Error: Ran out of types for this method. */;
+- (_Bool)
+× ;
+- (long long);
+- (_Bool)outWithContext:(CDStruct_a7a14e3b *)arg1;
+- (_Bool)ÿÄ;
+- (long long)hipID;
+- (void)ngCarPlay;
 
 @end
 

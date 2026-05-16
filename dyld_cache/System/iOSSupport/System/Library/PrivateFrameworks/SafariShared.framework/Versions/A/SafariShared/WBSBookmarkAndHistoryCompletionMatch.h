@@ -23,15 +23,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (long long);
 - (id);
 - (id);
-- (id)A;
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (float);
-- (id)angents;
+- (id);
+- (void)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSURLCompletionMatchData> data;

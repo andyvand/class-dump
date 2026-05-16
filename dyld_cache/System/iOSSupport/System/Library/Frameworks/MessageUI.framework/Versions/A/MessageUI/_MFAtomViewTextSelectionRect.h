@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void)dForModifyingStrokes:(_Bool)arg1 drawing:inks: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGRect))¥<;
+- (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;

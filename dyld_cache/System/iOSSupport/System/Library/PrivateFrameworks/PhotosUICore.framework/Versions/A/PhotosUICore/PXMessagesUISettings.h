@@ -45,7 +45,7 @@
 }
 
 + (id);
-+ (id)h½ÿ;
++ (id)éaËh'$ÿ	bËD'$ÿ©aË'$ÿ±aËx'$ÿaË '$ÿÙaË4'$ÿiaË0'$ÿiaË8ö"ÿ±aË,'$ÿéaËD'$ÿ¹aË '$ÿ;
 - (double);
 - (double);
 - (double);
@@ -108,10 +108,10 @@
 - (double);
 - (double);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)llection %{public}s from share URL:%s /* Error: Ran out of types for this method. */;
 - (double);
+- (void)Óe;
 
 // Remaining properties
 @property(nonatomic) _Bool applyRotationToFirstAndLast; // @synthesize applyRotationToFirstAndLast=_applyRotationToFirstAndLast;

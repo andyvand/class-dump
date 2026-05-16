@@ -11,15 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (void)hadowOpacity;
-- (void)e;
-- (_Bool)¼s;
-- (void)k1;
-- (id)GlassGroupInterfaceStyleOverride;
-- (_Bool)¶àÐ±'[;
-- (_Bool).9ÖãQ];
+- (_Bool)ñ_Ð1Â0@ù
+× ;
+- (_Bool)ger";
+- (id)"b1"delegateImplementsDynamicAnimatorWillResume"b1"physicsKitImplements109159385"b1};
+- (_Bool)PredictionEnabled:(id)arg1;
+- (_Bool)on;
+- (_Bool)Text;
+- (void)DiffableDataSourceSectionSnapshotRebaser.m;
+- (void)tCore/_UIDirectionalMaskView.swift;
+- (void)÷ìÕ¬_;
 
 @end
 

@@ -14,11 +14,12 @@
 - (id);
 - (void);
 - (id);
+- (long long);
 - (void);
-- (id);
-- (long long)øÄ;
-- (void)Ñó;
-- (void)?ëQ¿ëQ¿ëQ¿ëQ?ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ?ëQ?ëQ?ëQ?ëQ¿ëQ¿ëQ¿ëQ?ëQ¿ëQ¿ëQ?ëQ?ëQ¿ëQ¿ëQ?ëQ¿;
+- (void)e;
+- (void)or_linearExtendedSRGB;
+- (id)o>@ô£±¾¨ü?É°Z?,0@v°¾¿Ö?QöZ?Ù[#@0ö®¾LÞ?BZ[?d @¤ü¬¾S[~?{Ø[?h$@«¾
+m?ÁW\?~V@Ëó¨¾,]?}æ\?wû?'ø¦¾ÊO?t]?¡gí?ó¤¾ByC?³^?Ôá?ÍÎ¢¾Ý&8?)²^?åìÕ?ÿì¾<£-?T_?ºÌ?U½¾nú#?º`?FÃ?±¾Æ?+a?v»?åE¾@ß?;
 
 // Remaining properties
 @property(retain, nonatomic) id component; // @synthesize component;

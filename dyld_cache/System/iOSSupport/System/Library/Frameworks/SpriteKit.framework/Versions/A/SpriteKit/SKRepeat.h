@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)hURL: /* Error: Ran out of types for this method. */;
 
 @end
 

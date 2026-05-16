@@ -11,21 +11,21 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)SID: /* Error: Ran out of types for this method. */;
-- (double)e;
-- (id)List;
-- (_Bool);
-- (struct CGPoint);
-- (struct CGPoint);
-- (double)};
 - (struct CGPoint);
 - (double);
 - (id);
-- (double)merged chats on db at path %@ with error:%@ /* Error: Ran out of types for this method. */;
-- (id)CommSafety response from Media-Analysis-Daemon with result %@, %@;
+- (_Bool);
+- (struct CGPoint);
+- (struct CGPoint);
+- (double);
+- (struct CGPoint);
+- (double);
+- (id);
+- (double);
+- (id);
 - (_Bool);
 - (void);
-- (double)hVibrantVisualEffect: /* Error: Ran out of types for this method. */;
+- (double)StickerRestrictedContentView",&,N,V_restrictedContentView;
 
 @end
 

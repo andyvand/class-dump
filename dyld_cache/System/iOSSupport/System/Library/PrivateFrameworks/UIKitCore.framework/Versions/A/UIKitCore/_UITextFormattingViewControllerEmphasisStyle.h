@@ -13,18 +13,18 @@
     UIColor *_color;
 }
 
-+ (_Bool);
++ (_Bool)Received nil font from provider %@;
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id)!°AùÀ1¢!0@ù
+- (id)
 × ;
-- (id);
+- (_Bool)rdChangedInformation"16@?<v@?>24;
+- (void)ForSectionIndexTitle:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (id)esAffectingImageViewStyling;
+- (id)Windows with overrides for size classes:%@ /* Error: Ran out of types for this method. */;
+- (void)neFullscreenPlacementCG;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIColor *color; // @synthesize color=_color;

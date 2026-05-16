@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (id)×cL÷89;
++ (id)SocialGroupModifyGroupActionPerformer;
 - (id);
 - (id);
 - (_Bool);
@@ -41,11 +41,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (long long)ualIntelligenceSheetDidChange: /* Error: Ran out of types for this method. */;
-- (id)FetchResult<PHAsset *> *_AllPhotosFetchResultForPhotoLibrary(PHPhotoLibrary *__strong);
+- (long long)´_;
+- (void)h8a;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTextSelection; // @synthesize allowsTextSelection=_allowsTextSelection;

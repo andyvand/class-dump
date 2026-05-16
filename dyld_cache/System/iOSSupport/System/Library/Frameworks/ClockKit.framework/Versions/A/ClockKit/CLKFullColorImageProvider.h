@@ -29,8 +29,8 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
 + (id);
++ (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -50,22 +50,22 @@
 - (Class);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)$B;
 
 // Remaining properties
 @property(readonly, nonatomic) Class ImageViewClass; // @synthesize ImageViewClass=_ImageViewClass;

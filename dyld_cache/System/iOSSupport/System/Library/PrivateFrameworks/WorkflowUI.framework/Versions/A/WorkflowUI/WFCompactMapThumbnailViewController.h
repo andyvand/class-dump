@@ -17,7 +17,7 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;

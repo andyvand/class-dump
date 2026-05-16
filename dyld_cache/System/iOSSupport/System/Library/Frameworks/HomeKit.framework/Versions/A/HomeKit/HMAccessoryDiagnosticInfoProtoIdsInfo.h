@@ -24,16 +24,16 @@
 - (_Bool);
 - (void);
 - (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)c}@Cannot update configuration state:accessory is nil /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdsIdentifierString;

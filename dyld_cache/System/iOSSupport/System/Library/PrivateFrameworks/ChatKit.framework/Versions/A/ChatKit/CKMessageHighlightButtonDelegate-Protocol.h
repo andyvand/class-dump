@@ -5,10 +5,5 @@
 //
 
 @protocol CKMessageHighlightButtonDelegate
-- (void)ring;
-- (BOOL)hInterval;
-- (struct CGRect);
-- (void)upportedObjectsInSource;
-- (struct CGRect)Newlines;
 @end
 

@@ -52,8 +52,9 @@
 - (void);
 - (id);
 - (void);
-- (void)) || (userInputValue.integerValue == HUTVViewingProfilesOnboardingValue_DontSetup) || (userInputValue.integerValue == HUTVViewingProfilesOnboardingValue_SetupAll);
-- (void);
+- (void)ableItemPressed:(_Bool)arg1 enabled: /* Error: Ran out of types for this method. */;
+- (void)diaProfile is NULL for %@: /* Error: Ran out of types for this method. */;
+- (void)4j»ÿå;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

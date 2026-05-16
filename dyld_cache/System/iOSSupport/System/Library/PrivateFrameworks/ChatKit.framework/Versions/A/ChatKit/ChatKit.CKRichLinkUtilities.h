@@ -11,8 +11,8 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (void);
 - (id);
+- (void)ÔÃ¨ÿ>kø£¬ÿ;
 
 @end
 

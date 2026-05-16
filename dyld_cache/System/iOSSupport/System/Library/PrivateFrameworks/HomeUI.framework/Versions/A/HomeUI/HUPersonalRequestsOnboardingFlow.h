@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)iredUpdateButton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

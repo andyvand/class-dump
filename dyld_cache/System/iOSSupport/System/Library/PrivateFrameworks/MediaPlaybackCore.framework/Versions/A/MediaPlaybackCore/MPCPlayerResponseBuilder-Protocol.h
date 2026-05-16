@@ -4,20 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelGenericObject, NSString;
-@protocol MPCVideoOutput;
-
 @protocol MPCPlayerResponseBuilder
-
-@optional
-- (id <MPCVideoOutput>):(id <MPCVideoOutput>)arg1;
-- (_Bool)low ups for %@;
-- (long long)0@?0B8@"NSError"12;
-- (NSString *);
-- (NSString *)ons/A/AssistantServices;
-- (float);
-- (MPModelGenericObject *)ore:(MPModelGenericObject *)arg1;
-- (double)2;
-- (long long)escription;
 @end
 

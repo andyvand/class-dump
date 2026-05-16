@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *activeTouches; // @synthesize activeTouches=_activeTouches;

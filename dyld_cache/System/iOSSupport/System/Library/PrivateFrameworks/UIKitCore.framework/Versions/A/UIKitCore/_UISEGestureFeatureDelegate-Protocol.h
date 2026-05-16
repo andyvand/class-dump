@@ -5,6 +5,6 @@
 //
 
 @protocol _UISEGestureFeatureDelegate
-- (void)litySpeechAttributeLanguage;
+- (void)ed;
 @end
 

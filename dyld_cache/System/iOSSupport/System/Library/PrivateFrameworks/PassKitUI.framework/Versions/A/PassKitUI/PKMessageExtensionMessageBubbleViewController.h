@@ -21,13 +21,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)tGSi÷á\yaô\ysö\yAGyAGyAGyDï\wí\yqv_GGÚë\yò\GGýë\G_AGyAGyArKyÞ\GGë^GtGG<ã\GGG_Qo_;
-- (id)R;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)øÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -32,10 +32,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)etailsLabel;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

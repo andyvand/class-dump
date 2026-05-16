@@ -30,16 +30,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *buttonText; // @synthesize buttonText=_buttonText;

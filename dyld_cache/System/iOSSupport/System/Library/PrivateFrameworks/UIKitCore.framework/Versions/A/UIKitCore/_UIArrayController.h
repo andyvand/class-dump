@@ -20,24 +20,24 @@
 
 - (void);
 - (_Bool);
-- (void)y:(id)arg1 uniqueID:(id)arg2 serviceName: /* Error: Ran out of types for this method. */;
-- (id)%@ for transfer %@ using record data from DB;
 - (void);
 - (id);
 - (void);
-- (void)OÚ¹;
+- (void);
+- (void);
 - (id);
-- (id)Áo°!GùQÂ°1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (void)× ;
-- (void)ÉÐ1¢!0@ù
+- (void)Á	Ð!pDùfð1Â0@ù
 × ;
-- (id)ardDelegateFlags;
-- (id)ìÁlÂÃäÃxÄÔÄhÌ;
-- (void)eger, const BOOL);
-- (id)5;
-- (void)llGrayTextColor;
-- (void)Ze;
+- (id)uldRenderWithoutTextField: /* Error: Ran out of types for this method. */;
+- (id)stureSubscriptions;
+- (void)s:(id)arg1;
+- (void),¼;
+- (void)ynchronizer :(id)arg1 %{public}@;
+- (id)irm-Candidate;
+- (id)tings;
+- (void)$</ÿSBÜø¯^;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIArrayControllerDelegate> delegate; // @synthesize delegate=_delegate;

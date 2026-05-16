@@ -19,33 +19,32 @@
 }
 
 + (id);
-+ (_Bool)etadataUpdateUntilCompletion;
-- (id)*=;
++ (_Bool);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id)convert bucketID string to Data.;
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)µ°1¢!0@ù
-× ;
+- (id)´;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

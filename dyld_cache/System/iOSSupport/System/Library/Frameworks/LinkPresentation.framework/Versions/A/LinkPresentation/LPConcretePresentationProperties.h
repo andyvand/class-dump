@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)N+;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)
-;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) LPCaptionButtonPresentationProperties *captionButton; // @synthesize captionButton=_captionButton;

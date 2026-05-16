@@ -17,20 +17,19 @@
 
 - (void);
 - (void);
-- (void)chatsWithV0;
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)QD;
-- (void)ing indexing %llu messages to Spotlight;
+- (_Bool);
+- (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void)p!FùÂÐ1¢!0@ù
-× ;
-- (id);
-- (void)`4ÿ;
+- (void)pressLayoutSubviews;
+- (void)$ôàølùû;
+- (id)w;
+- (void)bí;
 
 // Remaining properties
 @property(nonatomic, getter=isCommandeered) _Bool commandeered; // @synthesize commandeered=_commandeered;

@@ -10,7 +10,7 @@
 {
 }
 
-- (double)es: /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
 - (void);
 

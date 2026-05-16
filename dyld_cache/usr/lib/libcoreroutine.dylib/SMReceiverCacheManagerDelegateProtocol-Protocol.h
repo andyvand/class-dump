@@ -5,6 +5,5 @@
 //
 
 @protocol SMReceiverCacheManagerDelegateProtocol
-- (void)i;
 @end
 

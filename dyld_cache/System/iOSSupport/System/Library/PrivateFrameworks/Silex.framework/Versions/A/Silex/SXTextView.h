@@ -42,14 +42,14 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void)A�i;
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)P;
+- (void);
 - (id);
 - (void);
 - (struct CGRect);
@@ -57,19 +57,20 @@
 - (_Bool);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)@"NSDictionary",&,N,V_previousFlows;
-- (id)tionComponentSizerFactory;
-- (void)re:] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void)
+× ;
+- (id)24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak TSDCanvas *canvas; // @synthesize canvas=_canvas;

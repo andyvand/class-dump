@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (id);
++ (id)`;
 - (id);
 - (id);
 - (void);
@@ -32,8 +32,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -43,10 +43,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) FBKModalConfiguration *EnhancedLoggingModalConfiguration;

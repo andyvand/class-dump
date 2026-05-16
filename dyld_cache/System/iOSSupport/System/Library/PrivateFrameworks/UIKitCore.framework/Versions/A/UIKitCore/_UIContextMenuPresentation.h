@@ -18,40 +18,41 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id)@0:(id)arg1 8@16@24;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)@"IDSService"16;
-- (_Bool)ice"16@"IDSAccount"24@"IDSGroupSessionParticipantUpdate"32@"IDSMessageContext"40;
-- (void)"24@"IDSGroupSessionParticipantUpdate"32;
-- (id)ring"36@"NSData"44;
-- (id)@"NSString"40@"NSData"48@"NSError"56;
-- (void)a"48;
-- (void)ng"40@"NSDictionary"48;
-- (void)56@0:(id)arg1 8@"IDSService"16@"IDSAccount"24@"IDSSession"32@"NSString"40@"NSDictionary"48;
-- (void)ring"32@40;
-- (_Bool)ecordZoneID;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)oadAutofillSignUpInputViewController;
-- (void)eringMode;
-- (id)arator;
-- (void)ntView.top;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void);
+- (void)¡W¸E];
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

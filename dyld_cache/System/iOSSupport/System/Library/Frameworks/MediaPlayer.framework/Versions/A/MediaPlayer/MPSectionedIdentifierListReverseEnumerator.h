@@ -21,19 +21,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)0%;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)t: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)ISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *contexts; // @synthesize contexts=_contexts;

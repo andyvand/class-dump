@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDatePickerOverlayPresentationDelegate
-- (void)iveLock";
 @end
 

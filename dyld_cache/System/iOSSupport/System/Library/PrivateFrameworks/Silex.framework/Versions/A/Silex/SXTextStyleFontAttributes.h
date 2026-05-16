@@ -12,7 +12,7 @@
 {
 }
 
-- (unsigned long long));
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

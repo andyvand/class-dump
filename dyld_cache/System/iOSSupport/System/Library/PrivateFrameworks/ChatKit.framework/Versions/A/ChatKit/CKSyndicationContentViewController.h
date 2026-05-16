@@ -28,26 +28,26 @@
     struct CGSize _maxContentSize;
 }
 
-- (void)s;
-- (id);
-- (id)ty:ordinal:nestedInsideIntent: /* Error: Ran out of types for this method. */;
-- (id)wingsInAccount:completion: /* Error: Ran out of types for this method. */;
-- (void)agment: /* Error: Ran out of types for this method. */;
-- (void)ForTextContainer:proposedLineFragment: /* Error: Ran out of types for this method. */;
-- (void)reviewImagesDidUpdateNotification: /* Error: Ran out of types for this method. */;
-- (void)Wrapper:(id)arg1;
-- (void)ecessary:(id)arg1;
-- (void)Source;
 - (void);
-- (void)isDragging;
-- (void)anel;
-- (void)terPastedAttributes;
-- (void)areIDToRootRecordID;
-- (void)backgroundColor;
-- (void)ntainerViews;
-- (void)_type;
-- (void)artAnimation:(id)arg1;
-- (void)MProgressWindowControllerDelegate>",W,N,V_delegate;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (double);
@@ -57,11 +57,10 @@
 - (id);
 - (id);
 - (id);
-- (id)dio:Creating AVAssetExportSession failed - attachment:%s /* Error: Ran out of types for this method. */;
-- (id)nt;
 - (id);
-- (void)2
-;
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -70,14 +69,14 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)}};
-- (void)`F|	3½Èá;
-- (id);
-- (void)(I.;
+- (id)aü°!;
+- (void)=dd}24;
+- (void)},R,N;
+- (void)tions;
+- (void)¤ Ä;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *combinedHighlightsView; // @synthesize combinedHighlightsView=_combinedHighlightsView;

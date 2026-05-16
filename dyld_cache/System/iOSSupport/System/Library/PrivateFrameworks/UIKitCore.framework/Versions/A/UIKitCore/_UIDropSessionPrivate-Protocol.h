@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDropSessionPrivate
-- (struct CGSize);
 @end
 

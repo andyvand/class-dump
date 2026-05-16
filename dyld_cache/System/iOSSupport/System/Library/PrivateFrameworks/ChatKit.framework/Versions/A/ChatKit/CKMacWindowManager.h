@@ -12,17 +12,16 @@
 }
 
 + (id);
-+ (id)>W
-;
++ (id);
 + (void);
 + (id);
 + (void);
 + (void);
 + (void);
-+ (id)69Å1;
++ (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *authKitWindow; // @synthesize authKitWindow=_authKitWindow;

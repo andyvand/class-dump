@@ -67,8 +67,8 @@
 - (id);
 - (CDStruct_5d4c7ed3);
 - (id);
-- (void);
-- (long long)eOverallReadinessStatus;
+- (long long)LocationTitles;
+- (void)!;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;

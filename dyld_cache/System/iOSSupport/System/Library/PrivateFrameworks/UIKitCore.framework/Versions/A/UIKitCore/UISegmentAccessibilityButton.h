@@ -14,13 +14,14 @@ __attribute__((visibility("hidden")))
     UISegment *_segment;
 }
 
-+ (id)tination Information;
-- (void)to abort;
-- (void)Íw#º;
-- (id)16@"NSIndexPath"32;
-- (id): /* Error: Ran out of types for this method. */;
-- (id);
-- (void)Sg;
++ (id);
+- (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)pplySnapshot:animatingDifferences:completion: /* Error: Ran out of types for this method. */;
+- (void)"yc;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UISegment *segment; // @synthesize segment=_segment;

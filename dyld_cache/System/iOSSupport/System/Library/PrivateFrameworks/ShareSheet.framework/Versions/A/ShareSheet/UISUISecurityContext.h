@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isActive; // @dynamic isActive;

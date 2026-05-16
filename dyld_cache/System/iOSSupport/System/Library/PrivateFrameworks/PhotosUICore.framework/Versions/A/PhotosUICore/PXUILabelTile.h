@@ -16,11 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)Øå;
 - (id);
 - (void);
+- (id);
+- (void)et:(id)arg1 interventionType: /* Error: Ran out of types for this method. */;
+- (void)Failed to obtain single Social Group.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

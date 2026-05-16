@@ -30,12 +30,12 @@ __attribute__((visibility("hidden")))
     struct CGPoint _location;
 }
 
-+ (id)nished processing transcript background command %@;
-+ (id)anscript background command processing;
-+ (id)turning:(id)arg1 SMSService recoverCommand - chat not found for GUID:(id)arg2 %@;
-- (void)failed 0x%X;
-- (id)dDict from amfdrRemote to amfdrLocal;
-- (_Bool)drOptions is NULL;
++ (id);
++ (id);
++ (id);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -52,33 +52,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool)`;
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id)"NSString"24@"NSString"32@"NSString"40@"NSNumber"48@"NSNumber"56;
-- (_Bool)n:(long long)arg1 chat: /* Error: Ran out of types for this method. */;
-- (_Bool)gCNID:(id)arg1;
-- (void)ntVersion;
-- (_Bool)sage;
 - (id);
-- (id);
-- (void)d;
 - (_Bool);
-- (struct CGRect);
 - (_Bool);
-- (void)V_releaseDate;
-- (id)child_key));
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (void);
-- (struct CGPoint)nge"b1"delegateRespondsToTextInputWillChangeSelectionFromCharacterRangesToCharacterRanges"b1"delegateRespondsToTextInputEditorDidChangeSelection"b1"delegateRespondsToTextInputPrepareAttributedTextForInsertion"b1"delegateRespondsToTextInputShouldExtendCaretHeight"b1"delegateRespondsToIsSingleLine"b1"delegateRespondsToUndoRedoDidApplyText"b1"delegateRespondsToTextInputDidFinishUndoRedo"b1"delegateRespondsToTextInputDidApplyText"b1"delegateRespondsToTextInputPasteDelegateWillPaste"b1"delegateRespondsToTextInputPasteDelegateDidPaste"b1"delegateRespondsToTextInputWillChangeCharacters"b1"delegateRespondsToAttributesForApplyingFormattingModification"b1"textOrSelectionChangeOriginatesWithKeyboard"b1"undoRedoInProgress"b1"textOrSelectionChangeOriginatesWithMarkedText"b1"nextSelectionChangeMustUpdate"b1"hasTextAlternatives"b1"hasDictationResultMetadata"b1"suppressDelegateChangeNotifications"b1"adaptiveImageGlyphsDisabled"b1"isWritingToolsStreamingReplacements"b1"isWritingToolsStreamingUndoGroupPrematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
-- (id)"32;
-- (id)houldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2};
-- (void)s;
-- (void)maximumPoint;
-- (id)N,V__sheetVisualStyle;
+- (_Bool);
+- (void);
 - (id);
-- (id)I;
+- (void)Ð!¸Aùñ`°1Â0@ù
+× ;
+- (struct CGRect)Qcð1Â0@ù
+× ;
+- (id);
+- (_Bool)rgetedDragPreview"40@0:(id)arg1 8@"_UIDragSetDownAnimation"16@"UIDragItem"24@"_DUIVisibleDroppedItem"32;
+- (void)EdgeInsets=dddd},R,N,G_contentViewInset;
+- (id)ct",C,N;
+- (id)47;
+- (struct CGPoint)Object in root set for index [%d] for identifier path %@:%@ /* Error: Ran out of types for this method. */;
+- (void)ryDriverP;
+- (id)Ü;
+- (id);
+- (id)ä_þ¤Ø«;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

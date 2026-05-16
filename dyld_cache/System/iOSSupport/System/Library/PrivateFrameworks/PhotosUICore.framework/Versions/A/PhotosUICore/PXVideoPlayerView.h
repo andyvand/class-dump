@@ -53,13 +53,18 @@
 - (void);
 - (id);
 - (void);
-- (void)àPÒ;
+- (void);
 - (id);
-- (void)pleNamePickerViewController";
-- (void)ratedAssetsForTCCWithLimit:(id)arg1 seed:library: /* Error: Ran out of types for this method. */;
-- (id)¼23ä3Ü6ð7\9:(struct CGRect)arg1 ;
-- (id)Ø{ÿ;
-- (void)À¡úÿ|ýÿÿ;
+- (id)°!¸AùÑEð1â
+0@ù
+× ;
+- (id)!LCùqGÐ1â
+0@ù
+× ;
+- (void);
+- (void)Ü
+;
+- (void)n;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEdgeAntialiasing; // @synthesize allowsEdgeAntialiasing=_allowsEdgeAntialiasing;

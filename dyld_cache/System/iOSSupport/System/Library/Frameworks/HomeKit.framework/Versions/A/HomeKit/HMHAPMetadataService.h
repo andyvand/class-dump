@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     NSString *_svcDescription;
 }
 
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

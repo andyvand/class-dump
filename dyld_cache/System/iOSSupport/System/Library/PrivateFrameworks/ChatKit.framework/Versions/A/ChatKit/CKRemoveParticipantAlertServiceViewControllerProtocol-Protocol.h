@@ -5,6 +5,5 @@
 //
 
 @protocol CKRemoveParticipantAlertServiceViewControllerProtocol
-- (void);
 @end
 

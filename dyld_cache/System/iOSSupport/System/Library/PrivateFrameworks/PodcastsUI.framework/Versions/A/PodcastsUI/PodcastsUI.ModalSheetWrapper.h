@@ -19,9 +19,8 @@
 
 - (void);
 - (void);
-- (id);
 - (void);
-- (void)lyzed for podcast with uuid:(_Bool)arg1 %@;
+- (void);
 
 @end
 

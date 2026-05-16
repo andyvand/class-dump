@@ -12,10 +12,10 @@
     MISSING_TYPE *prefetchTask;
 }
 
-+ (id)áÅÿR!øsØ;
-- (void);
++ (id)escriptionText:) is not available /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
 
 @end
 

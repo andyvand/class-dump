@@ -16,17 +16,17 @@
 + (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)FromBugForm;
-- (void)s reloading. Will try again later;
-- (void)Phone;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)ntalScrollIndicator: /* Error: Ran out of types for this method. */;
+- (void)Source;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

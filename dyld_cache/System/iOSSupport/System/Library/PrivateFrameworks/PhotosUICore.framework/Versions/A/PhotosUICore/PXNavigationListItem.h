@@ -31,24 +31,23 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)ateRelatedConfigurations;
-- (long long)ViewModel;
-- (id)|ñmÿ3mÿ<3mÿ;
-- (id);
-- (id);
 - (_Bool);
-- (id)`4½ÿD
-Hb\6;
-- (_Bool)¥6;
+- (id)Q{?={?=qiIq}{?=qiIq}{?=qiIq}{?={?=qiIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16q784@792@800{?={?=qiIq}{?=qiIq}}808@856d864q872;
+- (id)PTPreset;
+- (id)butedString;
+- (id);
+- (id)blic}@:%p> capabilities:%{public}@, cplStatus:<%{public}@:%p>, permanentlyUnavailable:%d /* Error: Ran out of types for this method. */;
+- (void)helvesLazyVStack;
+- (id);
+- (id);
+- (id);
+- (_Bool)7;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessibilityIdentifier;

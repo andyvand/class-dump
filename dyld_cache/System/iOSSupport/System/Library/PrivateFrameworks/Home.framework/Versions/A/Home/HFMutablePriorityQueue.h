@@ -22,12 +22,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)tingContext: /* Error: Ran out of types for this method. */;
-- (unsigned long long)Löö;
+- (unsigned long long);
+- (id)ù
+× ;
+- (void)D;
+- (id)eUpdateName;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

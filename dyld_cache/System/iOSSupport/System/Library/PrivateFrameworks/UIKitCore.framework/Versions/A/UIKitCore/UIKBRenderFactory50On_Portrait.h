@@ -11,24 +11,24 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ferDownloadFailedWithLocalURL:error: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)tervalSinceNow: /* Error: Ran out of types for this method. */;
-- (double)xistingMetadata;
-- (_Bool)batchOfRecordIDsToDeleteWithLimit:error: /* Error: Ran out of types for this method. */;
-- (_Bool)Rate;
-- (void)tatus:loginStatusMessage: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (_Bool);
+- (_Bool);
+- (void);
 - (unsigned long long);
-- (double);
+- (double);
 - (id);
 - (double);
-- (unsigned long long);
-- (double)nd %ld blocked Chats. Cancelling scheduled messages for them.;
-- (double)last read timestamp %@;
-- (id)sage items;
+- (unsigned long long);
+- (double);
+- (double);
+- (id);
 - (void);
 - (double);
-- (id)ß;
-- (long long)}ÿ;
+- (id);
+- (long long);
 
 @end
 

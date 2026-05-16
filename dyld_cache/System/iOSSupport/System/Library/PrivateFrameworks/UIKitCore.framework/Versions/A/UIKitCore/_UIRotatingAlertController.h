@@ -26,18 +26,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)ndSMSDictionary:(id)arg1 withCompletionBlock: /* Error: Ran out of types for this method. */;
-- (void)sageGUID:(id)arg1 account: /* Error: Ran out of types for this method. */;
-- (void)tPath:toPath:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (_Bool)!Bù±Í1¢!0@ù
+- (id);
+- (_Bool)¡°!Aùd°1Â0@ù
 × ;
-- (void)imated:(id)arg1;
-- (id)etSubsectionForGeneratingToolbarIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)ViewTransform;
-- (_Bool)yPath;
+- (void)erValue;
+- (_Bool)ä;
+- (void)þ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long arrowDirections; // @synthesize arrowDirections=_arrowDirections;

@@ -5,8 +5,5 @@
 //
 
 @protocol WKWebProcessPlugIn
-
-@optional
-- (void);
 @end
 

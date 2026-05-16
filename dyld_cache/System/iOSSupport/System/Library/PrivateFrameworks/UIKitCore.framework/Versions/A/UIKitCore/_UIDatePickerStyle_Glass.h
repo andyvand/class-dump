@@ -11,11 +11,11 @@
 }
 
 - (_Bool);
-- (double)ufferWithId: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (_Bool)6;
-- (double)n";
-- (double)QQ}32;
+- (_Bool);
+- (double);
+- (double);
 
 @end
 

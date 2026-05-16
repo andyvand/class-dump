@@ -43,15 +43,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (struct CGSize);
 - (void);
-- (double);
-- (void);
-- (long long);
 - (id);
-- (struct CGSize)personLocalIdentifiers;
-- (void)÷;
-- (void)wControllerDelegate_;
-- (double)Åü¦v;
+- (double);
+- (double);
+- (long long);
+- (void)0@ù
+× ;
+- (void):animated: /* Error: Ran out of types for this method. */;
+- (void)_Þ/SQo_SgG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPointerArray *_imageSizes; // @synthesize _imageSizes=__imageSizes;

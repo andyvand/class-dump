@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (double);
-- (void);
-- (id)resentationController:sourceView:sourceRect: /* Error: Ran out of types for this method. */;
-- (void)urfaceContent;
+- (id);
+- (void)tring:(double)arg1;
 - (struct CGPoint);
-- (void);
-- (double);
+- (void)O¯?;
+- (double)^;
+- (double)^;
+- (void)X_;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;

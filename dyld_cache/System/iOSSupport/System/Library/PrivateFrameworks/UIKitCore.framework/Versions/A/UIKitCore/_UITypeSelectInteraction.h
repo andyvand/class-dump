@@ -32,9 +32,9 @@
     long long _inputMethod;
 }
 
-+ (_Bool)tem -> %@;
++ (_Bool);
 + (CDUnknownBlockType);
-- (_Bool)or and underlying error for %@:%@:%ld, %ld /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -44,45 +44,45 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
-- (void);
-- (void)mp 3;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)ConversationParticipant"32@"TUCollaborationNotice"40;
-- (void)versation"32q40;
-- (_Bool)unt"24@"IDSIncomingBatchMessage"32;
-- (id)erence:(id)arg1;
-- (void)ndleIdentifier:(double)arg1;
-- (void)er:(id)arg1 guid: /* Error: Ran out of types for this method. */;
-- (void)Attachments:(id)arg1 requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)ichCardFile;
-- (id)sed;
-- (void)ctionary",&,N,V_personCentricGroupedChatsCache;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)#;
+- (void);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool)!øCùqÌð1¢!0@ù
+- (_Bool);
+- (_Bool)!$@ùq\°1Â0@ù
 × ;
-- (void)e;
-- (id)elNotifications;
-- (void)GSize=dd}{CGSize=dd}{CGSize=dd}},R,N;
-- (void)age;
-- (void)lor",C,N,V_monthYearLabelColor;
-- (_Bool)KeyboardProxyLayerForwardingManager;
-- (id)ctor;
-- (_Bool);
-- (_Bool);
+- (void)oller;
+- (id)ferredSizesWithUpdate:(id)arg1;
+- (_Bool)ntPoint;
+- (id)f;
+- (void)finishObserving;
+- (void)ed to create unarchiver for formatting style attributes:(id)arg1 %@;
+- (void);
+- (void)oviderC;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *currentInput; // @synthesize currentInput=_currentInput;

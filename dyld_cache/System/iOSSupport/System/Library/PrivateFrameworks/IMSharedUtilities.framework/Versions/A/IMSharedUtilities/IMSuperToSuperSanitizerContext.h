@@ -26,10 +26,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)dImageReceived;
 
 // Remaining properties
 @property(readonly, retain) NSArray *attachments; // @synthesize attachments=_attachments;

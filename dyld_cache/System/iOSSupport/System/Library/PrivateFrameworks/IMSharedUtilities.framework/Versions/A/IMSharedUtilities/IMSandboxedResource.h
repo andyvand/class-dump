@@ -14,23 +14,23 @@
 }
 
 + (Class);
-+ (_Bool)d;
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (char *);
 - (char *);
 - (void);
-- (void);
+- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id)Z;
-- (void)Count:(id)arg1 withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)scheduledMessageLastModifiedTime;
 
 // Remaining properties
 @property(retain, nonatomic) id resource; // @synthesize resource=_resource;

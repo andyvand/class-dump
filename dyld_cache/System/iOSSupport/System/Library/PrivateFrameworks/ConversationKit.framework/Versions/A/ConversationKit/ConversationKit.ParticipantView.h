@@ -45,14 +45,14 @@
 - (void);
 - (id);
 - (void);
-- (struct CGAffineTransform);
 - (void);
+- (id)0x;
+- (struct CGAffineTransform);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)o¢y;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC15ConversationKit19ParticipantInfoView *infoView;

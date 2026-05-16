@@ -66,7 +66,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)electedLocationItem init];
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *allDayItem; // @synthesize allDayItem=_allDayItem;

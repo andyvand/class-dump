@@ -5,6 +5,5 @@
 //
 
 @protocol APClientInfoDelegate
-- (void);
 @end
 

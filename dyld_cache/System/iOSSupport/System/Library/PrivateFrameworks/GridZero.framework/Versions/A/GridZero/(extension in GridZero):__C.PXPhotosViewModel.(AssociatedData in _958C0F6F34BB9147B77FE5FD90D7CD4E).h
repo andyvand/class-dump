@@ -26,8 +26,8 @@
     MISSING_TYPE *headerVisibilityObservation;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -18,14 +18,13 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (void);
-- (void)(L`;
 - (void);
-- (void)0@ù
-× ;
-- (id)view"32;
-- (void)roundColor;
-- (id)ntMenuViewController initWithDocumentTypes:(struct CGRect)arg1 inMode:] /* Error: Ran out of types for this method. */;
-- (_Bool)t;
+- (id);
+- (id)derContentViewControllerContainerViewTopAlignmentConstraint;
+- (void);
+- (void)(àc;
+- (_Bool)ôæ`þÌ/;
+- (void)TìÿIkÔ8	g;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;

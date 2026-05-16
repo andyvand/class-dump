@@ -22,9 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
+- (void)1ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *curatorID; // @synthesize curatorID=_curatorID;

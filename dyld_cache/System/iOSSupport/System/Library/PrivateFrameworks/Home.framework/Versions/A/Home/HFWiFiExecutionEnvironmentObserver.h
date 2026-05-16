@@ -25,9 +25,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id)1B50@ù
+× ;
+- (void)¬;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

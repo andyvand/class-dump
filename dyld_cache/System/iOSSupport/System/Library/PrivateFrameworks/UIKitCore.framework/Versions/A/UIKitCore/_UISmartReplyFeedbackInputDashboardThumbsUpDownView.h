@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)lConfiguration;
+- (id);
+- (void)ó18Ó?-DTû!Àhh¶?DçJWÆ¿DçJWÆ?ÐM!Ð¤?ó18Ã?-DTû!	@;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *thumbsDownButton; // @synthesize thumbsDownButton=_thumbsDownButton;

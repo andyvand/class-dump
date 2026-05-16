@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)ithLastSeenMessageGUID:(CDUnknownBlockType)arg1 fromMe: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)eSelectionContainerView;
+- (void);
+- (id)customInputView:(unsigned long long)arg1 accessoryView:assistantView:isKeyboard: /* Error: Ran out of types for this method. */;
+- (void)¬Í¤ÿ*;
 
 @end
 

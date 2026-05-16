@@ -5,6 +5,6 @@
 //
 
 @interface (null) (NABridge)
-- (id);
+- (id);
 @end
 

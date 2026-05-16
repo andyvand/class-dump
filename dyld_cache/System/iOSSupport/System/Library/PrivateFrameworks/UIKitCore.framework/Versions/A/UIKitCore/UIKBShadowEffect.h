@@ -15,28 +15,26 @@
     struct UIEdgeInsets _concaveInsets;
 }
 
-+ (id)kCriticalExecutionMaxSecondsPerDay;
-- (void)amplingUUID;
++ (id);
+- (void);
 - (id);
-- (struct UIEdgeInsets), but we can't find an account for it;
-- (void),N,V_payloadADMapUIDAttributeFlag;
+- (struct UIEdgeInsets);
 - (_Bool);
-- (_Bool)_;
 - (id);
-- (void)
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (_Bool)1"hasUserBadgePosition"b1"hasUserBadgeBackgroundColor"b1"hasUserBadgeTitleFont"b1"hasUserBadgeTitleColor"b1"hasUserBadgeTitlePosition"b1}];
-- (double)ge: /* Error: Ran out of types for this method. */;
-- (void)ehaviorWithReason:(double)arg1;
-- (struct UIEdgeInsets)ActionChanged: /* Error: Ran out of types for this method. */;
-- (id)T@"CAPortalLayer",R,D,N;
-- (struct CGColor *)ion for search bar's background extension%@;
-- (id)pond to action selector -%@;
-- (struct CGSize)mpPreserveHue;
-- (void)ÿ¶if;
-- (void):(struct CGSize)arg1 8;
+- (_Bool);
+- (_Bool)ize:scale: /* Error: Ran out of types for this method. */;
+- (void)ifier:(id)arg1;
+- (struct UIEdgeInsets)yRect;
+- (_Bool)me:(id)arg1 view: /* Error: Ran out of types for this method. */;
+- (id)rHeightForStyle: /* Error: Ran out of types for this method. */;
+- (void)eFactor:(struct UIEdgeInsets)arg1;
+- (id)rAdditions;
+- (double)Ø&;
+- (void)ServicePhotos(void);
+- (void)ffectsApplicationKeyWindow;
+- (struct CGColor *)ØT_;
+- (void)$ÚðþÜKÑlf;
+- (struct CGSize)|® ÿ4ñÙøj;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets concaveInsets; // @synthesize concaveInsets=_concaveInsets;

@@ -29,6 +29,7 @@ __attribute__((visibility("hidden")))
     _Bool _isBottomBarSuppressed;
     _Bool _suppressTabBar;
     _Bool _supportsResizingSidebar;
+    _Bool _avoidsBottomTabBarLayout;
     UIView *_dimmingView;
     UIAction *_sidebarToggleAction;
     _UIFloatingTabBar *_floatingTabBar;
@@ -55,72 +56,31 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _absoluteSidebarInsets;
 }
 
-- (void)dProperties;
-- (void)yDataClassesAndInstances failed;
-- (void)ropertyMismatch;
-- (void)instances to seal over but it's match attribute case;
-- (void)' attribute;
-- (id)ed;
-- (id)st;
-- (id)d revision;
-- (_Bool)c;
-- (_Bool)alloc failed;
-- (long long)ledDataClass is NULL;
-- (id)VC1MT0NBTDAeFw0yMjA0MjEwODQ0MTFaFw0zMjA0MTgwODQ0MTFaMEgx
-CzAJBgNVBAYTAlVTMRMwEQYDVQQKDApBcHBsZSBJbmMuMRAwDgYDVQQLDAdEZXZp
-Y2VzMRIwEAYDVQQDDAlGRFItTE9DQUwwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AATstM3jcCQWuq9Bg83QA8IlrIKWDtWxssWc1c4hdDg/wsmD6Xb+xb45NCRgFnBW
-SS1+dvn52D3WUU5HVS412NMxo4GHMIGEMFoGCiqGSIb3Y2QGAQ8ETDFK/4T6iZRQ
-QzBBFgRPQkpQMTn/hKKdplQMMAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
-AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
-ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
-NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (id)FICATE-----;
-- (id)c68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (id)hG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (id)EUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (long long)azwgNLxsGYNqzueBKI634nX4/MkFzgn
-sIz3rayMogDSgcZmrMe63JmvKJwOWYNFQDs2fTCFNyHBU3lQRL67dddJ8vKKUgPF
-4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (id)GgYJKoZIhvdjZAYQBA0MC3Blcm1pc3Npb25z
-MBcGCSqGSIb3Y2QGEQQKDAhjbGllbnRpZDANBgkqhkiG9w0BAQUFAAOCAQEAFjVa
-sSNfZOzLK10c16i06IRkqLx7xRo7ycnbSazwgNLxsGYNqzueBKI634nX4/MkFzgn
-sIz3rayMogDSgcZmrMe63JmvKJwOWYNFQDs2fTCFNyHBU3lQRL67dddJ8vKKUgPF
-4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
 - (void);
 - (void);
-- (void)I;
 - (void);
 - (void);
-- (void)A;
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -140,7 +100,7 @@ oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (id);
 - (id);
@@ -149,19 +109,20 @@ oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
 - (struct UIEdgeInsets);
 - (double);
 - (struct CGRect);
-- (_Bool)C;
+- (_Bool);
 - (_Bool);
 - (id);
 - (struct UIEdgeInsets);
+- (_Bool);
 - (long long);
 - (struct CGRect);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
-- (void);
-- (void)string;
 - (void);
-- (void)ot;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -171,48 +132,48 @@ oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
 - (void);
 - (id);
 - (_Bool);
-- (id)ptBackgroundProperties:(long long)arg1;
-- (_Bool)tReachable: /* Error: Ran out of types for this method. */;
-- (_Bool)rs:untilDate:syncToPairedDevice: /* Error: Ran out of types for this method. */;
-- (void)WithAssociatedGUID:(id)arg1 shouldLoadAttachments: /* Error: Ran out of types for this method. */;
-- (void)loudKitWithLimit:(id)arg1;
-- (void);
-- (double)Incoming;
-- (double)InThumbnailState;
-- (void): /* Error: Ran out of types for this method. */;
-- (long long)rController:repairParticipantWithIdentifier:onService:onChat: /* Error: Ran out of types for this method. */;
-- (double)hatIdentifier:guid: /* Error: Ran out of types for this method. */;
-- (id)groupID:originalGroupID:displayName:guid:lastAddressedHandle:lastAddressedSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
-- (void)Group:changes: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)ate:withFormatter: /* Error: Ran out of types for this method. */;
-- (id)V_highlightURLs;
-- (id)ion;
-- (_Bool)rocessingPipelineComponent;
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id)leP;
-- (void)for the class SNClassification;
+- (void);
+- (double);
+- (double);
+- (void);
+- (long long);
+- (double);
+- (id);
 - (void);
 - (id);
 - (void);
-- (_Bool)r;
-- (void)tionIfNeeded timeout [ping did not pong];
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)!BùÊ1¢!0@ù
+- (id);
+- (id)!ÜDù]ð1Â0@ù
 × ;
-- (_Bool);
-- (_Bool)ildSheet;
-- (void)ment;
-- (void)Ü-;
-- (id)rOverlayingContent;
-- (id)(ÅþÿÆþÿ;
-- (_Bool);
-- (void)yþ;
-- (_Bool);
 - (void);
-- (_Bool)!4ñ;
+- (void)ches"b1"multitouchTimerOn"b1"requiresImmediateMultipleTouches"b1"sawNonzeroStifledDeltaX"b1"sawNonzeroStifledDeltaY"b1"shouldConsiderAllowedScrollTypeCompatibility"b1"evaluatedAllowedScrollTypeCompatibility"b1};
+- (void)e;
+- (id)stsForContentOffsetDelta:animation: /* Error: Ran out of types for this method. */;
+- (void):(struct CGRect)arg1;
+- (_Bool)exOfCurrentActiveOrDismissDetentWasInvalidated;
+- (id)%@;
+- (_Bool)title.;
+- (_Bool)03y³%¿7Î%¿7G;
+- (void)ath:/System/Library/PrivateFrameworks/InputAnalytics.framework/InputAnalytics /* Error: Ran out of types for this method. */;
+- (void)¡ó»4@(ðN>=¶ó?;
+- (void)¸þ;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_dimmingView; // @synthesize _dimmingView;
@@ -220,6 +181,7 @@ oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
 @property(nonatomic) struct UIEdgeInsets absoluteSidebarInsets; // @synthesize absoluteSidebarInsets=_absoluteSidebarInsets;
 @property(nonatomic) struct UIEdgeInsets additionalSidebarInsets; // @synthesize additionalSidebarInsets=_additionalSidebarInsets;
 @property(nonatomic) long long availableComponent; // @synthesize availableComponent=_availableComponent;
+@property(nonatomic) _Bool avoidsBottomTabBarLayout; // @synthesize avoidsBottomTabBarLayout=_avoidsBottomTabBarLayout;
 @property(readonly, nonatomic) struct UIEdgeInsets bottomAccessoryInsets;
 @property(readonly, nonatomic) _UIScrollPocketContainerInteraction *bottomTabBarPocketContainerInteraction; // @synthesize bottomTabBarPocketContainerInteraction=_bottomTabBarPocketContainerInteraction;
 @property(readonly, nonatomic) _Bool canShowFloatingTabBar;

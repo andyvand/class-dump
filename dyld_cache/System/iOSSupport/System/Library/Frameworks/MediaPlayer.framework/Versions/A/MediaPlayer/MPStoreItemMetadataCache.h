@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (long long)_libraryEntityForModel: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)talogBlock_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

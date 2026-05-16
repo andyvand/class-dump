@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)x: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) UIImage *backgroundSnapshot;

@@ -16,14 +16,14 @@
     id <_PKDataDetectorControllerDelegate> _delegate;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)th",&,N;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *currentItems;

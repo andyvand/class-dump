@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)iew service request completed.;
-- (_Bool)ÂÛ;
+- (id)StyleATVAdaptiveLighten;
+- (_Bool)¨áþ@z;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -14,13 +14,13 @@
 }
 
 + (id);
-+ (_Bool)transcribe|transcription|siri;
++ (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)ton writeTo:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,12 +5,5 @@
 //
 
 @protocol AKHighlightColorEditorControllerDelegate
-- (void);
-- (void)mmand;
-
-@optional
-- (void);
-- (_Bool);
-- (_Bool);
 @end
 

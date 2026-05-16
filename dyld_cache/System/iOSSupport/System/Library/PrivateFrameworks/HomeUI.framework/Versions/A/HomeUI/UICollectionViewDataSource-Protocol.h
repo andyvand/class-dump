@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, UICollectionReusableView, UICollectionViewCell;
+@class NSArray, NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)aRecordingSetup_Title;
+- (UICollectionViewCell *)key value ;
 
 @optional
-- (NSArray *)!@ù11Ð1b0@ù
-× ;
-- (_Bool)leAndDescriptionView";
-- (void)lPresentationCoordinator"16@"HUControllableCollectionViewLayoutOverrideAttributes"24@"HFItem"32;
-- (long long)er;
-- (NSIndexPath *);
-- (UICollectionReusableView *)ted new guest access schedule [%@] from schedule [%@].;
+- (NSArray *)llyUpdateNavigationStackForNewRootItem:(UICollectionView *)arg1 topViewController: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)_searchManager;
+- (void)GGGA4_GGGA2_GA2_GSgoyAByAEyDvyAuCyA6_yAByACyA14_AZyATSgGG_AAyAByAY_AYtGGtGGA4_GAUGAByA40_yAuByACyA6_yAByAY_A19_pyAY_4Qo_tGGA4_GSg_A55_A55_tGAUG_A40_yAyCyA51_A4_GAUGtGG_A40_yAuCyA10_yAYGA4_GAUGAEyACyA10_yA6_yAByAY_A19_SfyA2UGSgtGGGA4_GA71_GSgtGGA19_tGG;
+- (UICollectionReusableView *)¿þÿ_pG;
 @end
 

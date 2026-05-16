@@ -14,9 +14,9 @@
 - (Class);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)ReaderAction;
+- (void)DisplayParameterState.m;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

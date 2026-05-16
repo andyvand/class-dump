@@ -10,21 +10,21 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (_Bool)updateDisplayModeButtonItem;
+- (void)wAccessibility;
+- (void)ableViewAccessibility;
+- (void)X;
 - (_Bool);
-- (id);
-- (void)isibleScrollArea: /* Error: Ran out of types for this method. */;
-- (void)NSSingleLineTypesetterAccessibility__UIKit__UIFoundation;
-- (void)carplay;
-- (void)iceItemViewAccessibility;
-- (void)etoothBatteryItemViewAccessibility;
-- (void)ccessibility;
-- (_Bool)B;
+- (void)r.role;
+- (void)høÿ;
 
 @end
 

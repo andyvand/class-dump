@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MURatingPercentageViewModel
+- (_Bool)eÿÿdÿÿcÿÿbÿÿaÿÿ`ÿÿ_ÿÿ^ÿÿ]ÿÿ\ÿÿ[ÿÿnÿÿkÿÿÿÿjÿÿzÿÿ#Õý{¿©ý;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *categoryTitle;

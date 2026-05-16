@@ -23,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -51,13 +51,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ordinator;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)L;
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

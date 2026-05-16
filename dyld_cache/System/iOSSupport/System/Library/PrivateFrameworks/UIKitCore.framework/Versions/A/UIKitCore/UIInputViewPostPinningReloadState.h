@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
     UIResponder *_responderPreventedFromSettingInputViews;
 }
 
-+ (id)|`;
-- (void)ing",R,N,V_editedMessagePartBody;
++ (id);
+- (void);
 - (id);
 - (void);
-- (void)¡oÐ!TAù1Â1¢!0@ù
-× ;
+- (void)üÓ;
 
 // Remaining properties
 @property(retain, nonatomic) UIResponder *responderToReload; // @synthesize responderToReload=_responderPreventedFromSettingInputViews;

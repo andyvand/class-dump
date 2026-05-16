@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     CALayer *_referenceLayer;
 }
 
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (double)rce>";
+- (double);
+- (id);
+- (void)aybackStyleChanged;
 
 // Remaining properties
 @property(readonly, nonatomic) CALayer *referenceLayer; // @synthesize referenceLayer=_referenceLayer;

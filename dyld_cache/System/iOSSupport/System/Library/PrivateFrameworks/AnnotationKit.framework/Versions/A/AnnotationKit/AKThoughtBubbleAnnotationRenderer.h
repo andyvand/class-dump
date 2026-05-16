@@ -14,19 +14,19 @@
 + (struct CGPoint);
 + (struct CGPoint);
 + (double);
-+ (struct CGPoint);
-+ (struct CGPath *);
-+ (struct CGPath *)<;
++ (struct CGPoint);
 + (struct CGPath *);
 + (struct CGPath *);
-+ (struct CGPath *)4;
-+ (struct CGPath *);
-+ (void)D;
-+ (struct CGRect);
++ (struct CGPath *);
++ (struct CGPath *);
++ (struct CGPath *);
++ (struct CGPath *);
 + (void);
-+ (struct CGRect)<;
++ (struct CGRect);
++ (void);
++ (struct CGRect);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (struct CGRect);
 + (struct CGSize);
 

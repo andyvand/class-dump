@@ -22,8 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id)
-8;
+- (id)eDataSectionManager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *filterInlineMenuItems;

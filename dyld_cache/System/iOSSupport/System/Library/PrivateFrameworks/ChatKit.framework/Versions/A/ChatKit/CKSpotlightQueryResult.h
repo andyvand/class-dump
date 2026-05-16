@@ -24,16 +24,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (void)0;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id)! CùqÅÐ1¢!0@ù
-× ;
-- (id);
-- (id)e: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
+- (void)sÿõv2L0;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

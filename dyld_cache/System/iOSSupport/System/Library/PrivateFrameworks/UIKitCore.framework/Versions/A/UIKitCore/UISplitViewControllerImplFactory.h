@@ -12,13 +12,13 @@
     id <UISplitViewControllerImplProviding> _implProvider;
 }
 
-+ (id)ÿ;
-- (void):(id)arg1 parentChatID: /* Error: Ran out of types for this method. */;
-- (void)nterHighlightsDidChange:(id)arg1;
-- (id)ed,V_managed;
-- (Class)ssage;
++ (id)èñØ8Òk;
 - (void);
-- (id)Inset;
+- (void);
+- (id);
+- (Class);
+- (id);
+- (void)¼ ÒDc;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

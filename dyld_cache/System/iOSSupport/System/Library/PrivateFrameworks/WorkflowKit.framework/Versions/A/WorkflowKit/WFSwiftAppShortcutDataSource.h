@@ -13,11 +13,12 @@
     MISSING_TYPE *organizationStyle;
 }
 
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
+- (void)swift;
 
 @end
 

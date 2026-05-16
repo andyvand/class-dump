@@ -5,9 +5,7 @@
 //
 
 @protocol _UIKBArbiterDelegateInputDestination
-- (void)AllowJavaScript;
-- (void)!¨@ùqÆ°1¢!0@ù
-× ;
-- (void)youtsDict;
+- (void)ew:(_Bool)arg1 toHasColorView:(void (^)(void))arg2;
+- (void);
 @end
 

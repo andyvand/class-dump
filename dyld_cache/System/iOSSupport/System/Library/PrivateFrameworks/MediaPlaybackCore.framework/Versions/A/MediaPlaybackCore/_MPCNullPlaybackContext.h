@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     NSString *_label;
 }
 
-+ (_Bool)te;
++ (_Bool);
 - (Class);
-- (id)(;
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)ce [] sil=%{public}@ position=Specified section=%{public}@ afterItem=%{public}@ inSection=%{public}@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;

@@ -41,20 +41,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (struct CGRect);
 - (void);
 - (struct CGPoint);
-- (struct CGPoint);
-- (id);
-- (id);
 - (void);
+- (id);
 - (_Bool);
-- (struct CGRect);
+- (id);
+- (void);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
+- (struct CGRect);
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> _coordinateSpace;

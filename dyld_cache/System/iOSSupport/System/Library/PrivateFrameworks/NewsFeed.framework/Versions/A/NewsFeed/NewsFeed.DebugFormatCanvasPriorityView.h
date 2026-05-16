@@ -12,10 +12,10 @@
     MISSING_TYPE *notchViews;
 }
 
+- (id);
 - (void);
-- (id);
-- (void)skInfoForTask: /* Error: Ran out of types for this method. */;
-- (id)çÂSg;
+- (id);
+- (void)A=:PR /* Error: Ran out of types for this method. */;
 
 @end
 

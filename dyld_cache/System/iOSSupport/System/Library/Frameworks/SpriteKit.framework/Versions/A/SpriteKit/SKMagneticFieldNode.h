@@ -10,11 +10,11 @@
 {
 }
 
-+ (_Bool)¸;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 @end

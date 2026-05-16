@@ -15,15 +15,9 @@
 + (id);
 + (id);
 + (id);
-- (void))Y;
-- (void);
-- (void);
-- (void)State;
-- (void)Keys;
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -34,9 +28,15 @@
 - (void);
 - (void);
 - (id);
-- (void)rial;
 - (void);
-- (void)apItemIdentifier;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)zation;
+- (id)s:(id)arg1 %d);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

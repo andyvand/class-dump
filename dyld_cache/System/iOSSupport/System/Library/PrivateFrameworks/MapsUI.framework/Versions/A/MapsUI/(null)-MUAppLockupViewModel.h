@@ -10,8 +10,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionButtonText;

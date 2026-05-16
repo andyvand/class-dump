@@ -23,34 +23,35 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long);
 - (void);
 - (void);
-- (id)d",R,N,V_setPlaybackQueueCommand;
-- (void)ybackSessionCommand;
-- (void)nController] Received hardware volume event:(id)arg1 %{public}@, pressed:%{BOOL}u /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void)ñÅð1¢!0@ù
+- (id)0@ù
 × ;
+- (long long)@ù
+× ;
+- (void)zes;
+- (void)yboardShowSegueTemplate;
 - (id);
-- (_Bool)× ;
-- (id)SwipeInfo:completion: /* Error: Ran out of types for this method. */;
-- (long long);
-- (void): /* Error: Ran out of types for this method. */;
-- (long long)_collapsableContentPadding;
-- (void),S_setAllowedTouchTypes:(id)arg1 ,V_allowedTouchTypes;
-- (id)IGestureRecognizerTarget;
-- (void)lection:(unsigned long long)arg1 %@;
-- (void)ÿ¨£üÿ0ýÿýÿ;
-- (void)onsistency:(id)arg1 minimum width exceeds content width;
-- (id)>N;
+- (id)In a future release, this will render the gesture nonfunctional;
+- (unsigned long long)nItem has no searchController and search bar is not hosted by navigation bar. self if a %@. viewController is a %@. navigationItem = %@;
+- (void)ould not be called if the client adopts UIScene lifecycle. Call -[UIWindow setWindowScene:] instead. /* Error: Ran out of types for this method. */;
+- (void)his is indicative of a host issue, where it may have crashed or invalidated the connection before the view service request completed.;
+- (id)roppedSuccessfullyByType;
+- (unsigned long long).swift;
 - (id);
-- (id);
-- (unsigned long long)w2;
-- (void);
+- (void)«ªªªªªú?;
+- (id)ViewBase;
+- (id);
+- (void)¥¤43sþ;
+- (long long)0 ¹;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;

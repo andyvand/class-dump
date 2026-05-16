@@ -21,21 +21,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)erLogChatDescription;
 - (void);
-- (void);
 - (void);
-- (void)yerController:%p] appendQueueDescriptor | ignoring append [userQueueModificationsDisabled] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
-- (void)idth;
-- (void)ing;
-- (id)PortalView;
-- (id);
-- (void)controller is %@:(id)arg1 %@;
-- (id).xbs/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
-- (_Bool)¤¯;
+- (id)dChange;
+- (id)city;
+- (void)ðð;
+- (id)atic changes to interface orientation.;
+- (void)yWindowSceneObserver * _Nonnull _UIKeyWindowSceneObserverForScene(UIWindowScene * _Nonnull const __strong);
+- (void);
+- (void)llCt;
+- (void)ÿÿÿÿ;
+- (_Bool)àa;
 
 // Remaining properties
 @property(copy, nonatomic) UIPreviewAction *action; // @synthesize action=_action;

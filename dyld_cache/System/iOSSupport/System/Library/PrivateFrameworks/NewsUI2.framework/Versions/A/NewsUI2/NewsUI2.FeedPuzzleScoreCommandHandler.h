@@ -12,8 +12,8 @@
     MISSING_TYPE *commandCenter;
 }
 
+- (id);
 - (void);
-- (id);
 
 @end
 

@@ -44,24 +44,24 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
+- (CDStruct_9fcd8b38);
+- (_Bool);
+- (id);
+- (struct CGSize);
 - (double);
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (id);
 - (id);
-- (CDStruct_9fcd8b38);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (CDStruct_3ead2808)onOptions:referencingOptions:usingBlock: /* Error: Ran out of types for this method. */;
-- (struct CGColorSpace *)hh;
+- (CDStruct_3ead2808);
 - (void);
-- (struct CGSize)rgetSize;
+- (struct CGColorSpace *)threadsPerThreadgroup: /* Error: Ran out of types for this method. */;
+- (void)lRequestInfo;
+- (long long)tBaseline;
+- (void)gFrameStartEvent;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canSetColorSpace;

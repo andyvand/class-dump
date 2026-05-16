@@ -41,21 +41,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (unsigned int);
+- (void);
 - (struct CAFrameRateRange);
 - (id);
-- (void);
-- (void);
+- (_Bool)B16@?0@"PKPaymentSetupAssistantCredential"8;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKRenderLoopDelegate> delegate; // @synthesize delegate=_delegate;

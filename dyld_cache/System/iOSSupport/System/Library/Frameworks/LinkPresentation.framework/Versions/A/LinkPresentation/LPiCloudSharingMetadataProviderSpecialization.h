@@ -27,13 +27,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0@ù
+× ;
 
 @end
 

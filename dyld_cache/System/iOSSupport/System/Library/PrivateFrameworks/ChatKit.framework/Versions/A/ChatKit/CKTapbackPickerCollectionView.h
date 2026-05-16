@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *itemWidth;
 }
 
-- (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void)d.Jÿ¼;
-- (struct CGPoint);
+- (_Bool);
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset;

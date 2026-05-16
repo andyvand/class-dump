@@ -5,8 +5,5 @@
 //
 
 @protocol PKPaymentServiceDelegate
-
-@optional
-- (void)F;
 @end
 

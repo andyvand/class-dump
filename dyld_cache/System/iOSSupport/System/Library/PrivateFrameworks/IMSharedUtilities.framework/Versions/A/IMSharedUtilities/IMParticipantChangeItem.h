@@ -20,7 +20,7 @@
     NSDate *_timeRead;
 }
 
-+ (_Bool)essedSimID;
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *activeTelephonyConversationUUID; // @synthesize activeTelephonyConversationUUID=_activeTelephonyConversationUUID;

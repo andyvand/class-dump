@@ -13,14 +13,15 @@
     double _interspace;
 }
 
+- (void);
 - (_Bool);
 - (void);
-- (double)eString;
-- (void)ublic}@ undo called when not available - ignoring. lastAppliedTransactionIndex = %lu;
-- (_Bool);
-- (void)ý/º;
-- (id);
-- (long long);
+- (double);
+- (long long)
+× ;
+- (id)¬;
+- (void)pacing;
+- (_Bool)û[;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

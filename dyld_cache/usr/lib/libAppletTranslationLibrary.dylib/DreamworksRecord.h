@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned char)essionUUID:previousCell: /* Error: Ran out of types for this method. */;
 - (id);
+- (unsigned char);
 - (void);
 
 // Remaining properties

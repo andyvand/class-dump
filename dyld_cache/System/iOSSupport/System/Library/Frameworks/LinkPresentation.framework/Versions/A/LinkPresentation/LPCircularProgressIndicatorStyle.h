@@ -14,15 +14,16 @@ __attribute__((visibility("hidden")))
     UIColor *_fillColor;
 }
 
-- (double)ledState: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)eturnError:(id)arg1;
+- (double);
+- (void)!Fùqð1Â0@ù
+× ;
+- (void)LPApplePhotosSharedLibraryInvitationMetadataProviderSpecialization.m;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;

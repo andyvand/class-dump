@@ -10,40 +10,40 @@
 {
 }
 
-+ (_Bool)hShouldImpact:shouldPrepare: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (Class);
 + (id);
 + (void);
-+ (Class)alert;
 - (_Bool);
 - (_Bool);
-- (_Bool)5;
-- (id);
+- (_Bool);
+- (id);
 - (float);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)lShadow;
-- (_Bool)ionDestination: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (struct CGPoint);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (id)dObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
-- (id);
 - (id);
 - (struct CGRect);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
 - (id);
 

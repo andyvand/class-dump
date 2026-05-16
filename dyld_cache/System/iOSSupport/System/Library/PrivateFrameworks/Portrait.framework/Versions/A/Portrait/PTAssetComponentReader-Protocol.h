@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PTAssetGlobals;
-
 @protocol PTAssetComponentReader
-- (id <PTAssetGlobals>)Wÿ÷WÿÿXÿ;
 @end
 

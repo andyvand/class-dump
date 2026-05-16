@@ -15,8 +15,8 @@
 - (CDStruct_aa0b146f);
 - (CDStruct_15189878);
 - (struct PXSimpleIndexPath);
-- (struct PXTileGeometry);
 - (struct UIEdgeInsets);
+- (struct PXTileGeometry);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_aa0b146f PXDisplayAssetDetailedCountsValue;

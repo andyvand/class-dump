@@ -7,6 +7,7 @@
 @class NSArray, NSDate, NSDateComponents, NSString, NSTimeZone;
 
 @protocol HMTimerTriggerConfiguration
+- (NSTimeZone *)edOptions;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *fireDate;

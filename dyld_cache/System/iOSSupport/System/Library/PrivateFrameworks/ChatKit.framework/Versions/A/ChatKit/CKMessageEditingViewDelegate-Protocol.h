@@ -5,16 +5,5 @@
 //
 
 @protocol CKMessageEditingViewDelegate
-- (void)estination;
-- (void)ginalString;
-- (void)ent",&,N,V_textAttachment;
-- (struct UIEdgeInsets)troller;
-- (double)gin;
-- (void)acyFetchedResultsController;
-- (void)ayingMedia;
-- (void)t",R,N,V_element;
-- (_Bool)llaborationAnalyticsDelegate;
-- (void)share;
-- (BOOL)e;
 @end
 

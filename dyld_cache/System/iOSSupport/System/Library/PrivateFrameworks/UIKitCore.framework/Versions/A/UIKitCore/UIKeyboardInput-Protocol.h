@@ -7,11 +7,10 @@
 @protocol UIKeyboardInput
 
 @optional
-- (_Bool)
+- (_Bool)0@ù
 × ;
-- (_Bool)át!ìFùÉÐ1¢!0@ù
+- (_Bool)!D@ù±c°1Â0@ù
 × ;
-- (void)Code %llx - %{public}@;
 - (_Bool);
 @end
 

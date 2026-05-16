@@ -7,7 +7,8 @@
 @class UIView;
 
 @protocol _UIPickerColumn
-- (UIView *)strainedPosition;
+- (UIView *)eneActivationWithConfiguration: /* Error: Ran out of types for this method. */;
+- (UIView *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *highlightedRegion;

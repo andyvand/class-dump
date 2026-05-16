@@ -24,12 +24,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
+- (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool)on: /* Error: Ran out of types for this method. */;
 
 @end
 

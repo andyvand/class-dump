@@ -5,6 +5,5 @@
 //
 
 @protocol CHRecognitionSessionObserver
-- (void);
 @end
 

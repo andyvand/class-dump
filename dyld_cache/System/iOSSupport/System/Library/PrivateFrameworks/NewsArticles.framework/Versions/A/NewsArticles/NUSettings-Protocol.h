@@ -5,7 +5,6 @@
 //
 
 @protocol NUSettings
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldShowArticlesInExcerptMode;

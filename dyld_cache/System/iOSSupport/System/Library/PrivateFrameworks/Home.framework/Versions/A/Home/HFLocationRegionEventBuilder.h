@@ -16,15 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)notifying delegate;
+- (void)ô5;
+- (id)ver the limit; clip:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

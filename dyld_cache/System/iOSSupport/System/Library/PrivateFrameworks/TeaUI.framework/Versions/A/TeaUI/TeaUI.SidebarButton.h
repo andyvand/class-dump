@@ -11,12 +11,12 @@
     MISSING_TYPE *accessibilityDelegate;
 }
 
-- (struct CGSize);
-- (id)reText2BackgroundColor;
 - (void);
-- (void)lityCompleteUnregistration(void *);
 - (id);
+- (struct CGSize);
 - (id);
+- (void);
+- (id)te;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

@@ -50,10 +50,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)n;
-- (long long);
+- (id);
+- (long long)estionViewModel;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *_assets; // @synthesize _assets=__assets;

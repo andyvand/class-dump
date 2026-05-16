@@ -31,17 +31,17 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
+- (_Bool)lR0TÈU4WW$Y	$\Ä\@]è^D_	aüabäb;
 
 // Remaining properties
 @property(nonatomic) _Bool connected; // @synthesize connected=_connected;

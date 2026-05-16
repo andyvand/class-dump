@@ -17,25 +17,27 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
+- (void);
+- (id);
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
+- (void)ÔÁÐ!äGùÑ`°1Â0@ù
+× ;
 - (void);
-- (id);
-- (void)stationEventID;
-- (void)%f, %f;
-- (void);
-- (struct CGSize);
-- (_Bool);
-- (void);
-- (void)+Ü¹;
-- (id)× ;
-- (id)ngWeight;
-- (void),;
-- (id)leadingBarProperties;
-- (id)tGuide;
-- (void)UIAdjustsFontSizeToFit;
+- (struct CGSize)!	°!Eù1eð1Â0@ù
+× ;
+- (void)<_UIDragDropSessionInternal>";
+- (_Bool)etPaused;
+- (id)UIQuickLookInternalSceneSpecification;
+- (void);
+- (id)L#;
+- (id)dler;
+- (void)Name;
+- (void)tance0;
+- (void)ent;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activeQueue; // @synthesize activeQueue=_activeQueue;

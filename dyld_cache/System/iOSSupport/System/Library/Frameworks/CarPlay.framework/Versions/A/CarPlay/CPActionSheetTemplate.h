@@ -26,12 +26,12 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;

@@ -16,9 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool)¬òòÿðòòÿ8óòÿóòÿÈóòÿ;
-- (id)sData;
+- (_Bool);
+- (void)4C;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

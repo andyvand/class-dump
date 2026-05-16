@@ -20,7 +20,7 @@
     UIViewController *_errorViewController;
 }
 
-+ (id)conds;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -31,22 +31,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)_deviceConditionsAllowsAttachmentFileSizeUpdateForActivity:deferred: /* Error: Ran out of types for this method. */;
-- (void)tyle:(id)arg1 onServices:batchNumber:completion: /* Error: Ran out of types for this method. */;
-- (void)haredWithYou;
-- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (struct CGRect);
 - (void);
 - (void);
-- (struct CGRect)0@ù
-× ;
-- (void)e=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}16;
-- (id)\à¸àá¼á;
-- (void)ô;
-- (id)gXw;
-- (void)n;
-- (void)_¸ÿfDÚ_;
+- (void)lay";
+- (id)ientationMapResolving><BSXPCSecureCoding>",&,N;
+- (void)PþÿR;
+- (id)d a move from the same section (%ld);
+- (void)\³þ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *containedViewController; // @synthesize containedViewController=_containedViewController;

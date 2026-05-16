@@ -5,6 +5,5 @@
 //
 
 @protocol TSDRepDirectLayerHosting
-- (void);
 @end
 

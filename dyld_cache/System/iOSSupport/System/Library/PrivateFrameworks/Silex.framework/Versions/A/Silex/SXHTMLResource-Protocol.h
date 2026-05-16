@@ -7,6 +7,7 @@
 @class NSString, NSURL;
 
 @protocol SXHTMLResource
+- (NSURL *)vityFocusForFullScreenCanvasController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *HTML;

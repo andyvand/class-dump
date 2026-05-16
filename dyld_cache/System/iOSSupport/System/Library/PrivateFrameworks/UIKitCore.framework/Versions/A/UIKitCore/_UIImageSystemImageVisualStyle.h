@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
     UIImage *_strokedCheckmarkImage;
 }
 
-+ (id)rrorCSgIeyBy_Sg;
-+ (id)?2ySo14IMFileTransferC_SStG;
++ (id);
++ (id);
 + (id);
 - (id);
 - (id);
+- (id);
+- (id)reviousWordBoundaryInDocument:tokenAccumulator: /* Error: Ran out of types for this method. */;
+- (id)pletionCoachingTask;
 - (void);
-- (id)troller;
-- (id)PassthroughScrollGestureRecognizer;
-- (id)Xw;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *actionsImage; // @synthesize actionsImage=_actionsImage;

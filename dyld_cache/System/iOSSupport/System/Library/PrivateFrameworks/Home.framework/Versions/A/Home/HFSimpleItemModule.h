@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)¤¬;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *itemProviders; // @synthesize itemProviders=_itemProviders;

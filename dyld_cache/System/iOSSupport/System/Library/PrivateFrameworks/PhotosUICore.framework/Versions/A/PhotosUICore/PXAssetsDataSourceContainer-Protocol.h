@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol PXAssetsDataSourceContainer
-
-@optional
-- (NSString *);
+- (NSString *)è|õ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedFallbackTitle;

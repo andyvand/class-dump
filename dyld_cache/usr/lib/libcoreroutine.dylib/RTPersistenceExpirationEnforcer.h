@@ -22,9 +22,9 @@
 - (void);
 - (id);
 - (id);
-- (id)nuations;
-- (void);
 - (id);
+- (id);
+- (void)s:%d) /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -20,11 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (void)5;
 - (void);
 - (id);
-- (id);
 - (void);
+- (void):error: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSPageContextDataFetcherDelegate> delegate; // @synthesize delegate=_delegate;

@@ -18,14 +18,14 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)fiers;
-- (long long)ustomizationFields;
+- (id);
 - (void);
+- (void)ídÿ7õ÷ò;
+- (long long)wá7;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXMapOptionsChooseMapViewDelegate> delegate;

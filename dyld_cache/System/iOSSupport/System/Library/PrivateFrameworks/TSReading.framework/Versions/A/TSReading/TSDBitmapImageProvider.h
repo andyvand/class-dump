@@ -34,7 +34,7 @@
 + (void);
 + (id);
 + (struct CGImage *);
-+ (void)hecker initWithAsset:] /* Error: Ran out of types for this method. */;
++ (void);
 - (struct CGImage *);
 - (struct CGImageSource *);
 - (struct CGImage *);
@@ -45,7 +45,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)&;
+- (unsigned long long);
 - (void);
 - (void);
 - (struct CGSize);
@@ -53,15 +53,16 @@
 - (struct CGImage *);
 - (struct CGImage *);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *);
 - (_Bool);
 - (struct CGImageSource *);
-- (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
-- (_Bool)(¸;
-- (struct CGSize).XAO;
+- (struct CGSize)dCZ
+¶;
 
 @end
 

@@ -38,7 +38,7 @@
 }
 
 - (int);
-- (int);
+- (int);
 - (void);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
@@ -48,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void)_;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,13 +74,13 @@
 - (void);
 - (void);
 - (void);
-- (int);
 - (void);
-- (void)p;
+- (id);
 - (_Bool);
-- (id)kVisited;
+- (int);
 - (id);
-- (id);
+- (id)sInBackground;
+- (void)rollableAreaBounds;
 
 // Remaining properties
 @property(readonly, nonatomic) TSTLayoutSpaceBundle *bundle; // @synthesize bundle=mBundle;

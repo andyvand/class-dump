@@ -12,11 +12,11 @@
     _Atomic long long _invokeCallCount;
 }
 
-+ (id){uuid_t}.16P;
++ (id);
 + (id);
 - (void);
-- (void);
-- (id)eWindowForGestureFromViewServiceSessionIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)üÅ^;
+- (id)dæCÿ;
 
 @end
 

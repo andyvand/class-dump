@@ -16,8 +16,8 @@
     MISSING_TYPE *channelDataFactory;
 }
 
-- (void);
-- (id);
+- (id);
+- (void)QB_4p;
 
 @end
 

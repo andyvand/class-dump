@@ -10,13 +10,13 @@
 {
 }
 
-- (struct CGSize)onForMovingHTMLObjectsToModernDestination;
-- (_Bool)tringWithMatchHighlighted:optionalAttributedHighlightedString:textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder:] /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (_Bool);
 - (BOOL);
 - (struct CKBalloonDescriptor_t);
-- (id);
+- (id);
 - (void);
-- (BOOL);
+- (BOOL);
 
 @end
 

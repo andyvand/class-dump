@@ -8,9 +8,7 @@
 @protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
 
 @protocol PKPaletteTool
-- (id <PKPaletteErasingTool>);
-- (id <PKPaletteHandwritingTool>)rationEndpointUrl;
-- (NSString *)g locale identifiers for %@;
+- (NSString *)ÍÿhÍÿð§ÍÿÜ±ÍÿíÎÿ@îÎÿôîÎÿ¨÷ÎÿýÎÿà	ÏÿHÏÿÄÏÿÀÏÿ¤Ïÿt$Ïÿ<(ÏÿX*Ïÿð-Ïÿ1Ïÿ5Ïÿ9Ïÿ LËÿvËÿ(ºËÿlÀËÿÔÓËÿ,ëËÿùËÿôüËÿp;
 
 // Remaining properties
 @property(readonly, nonatomic) PKToolConfiguration *configuration;

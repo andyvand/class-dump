@@ -33,13 +33,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)KSeedPortalAPIC;
-- (id)´¸;
+- (id);
+- (void);
+- (id)new FR [%i];
 
 // Remaining properties
 @property(nonatomic, retain) FBKAnswer *answer; // @synthesize answer;

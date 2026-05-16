@@ -17,22 +17,21 @@ __attribute__((visibility("hidden")))
     double _selectionCornerRadius;
 }
 
-+ (Class)8-;
-- (id)nts:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
-- (_Bool)";
++ (Class);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (double)sponse with a FileChunkKeys containing unknown (signature, reference);
+- (id);
 - (void);
 - (void);
-- (id)×½	º;
-- (void);
-- (void)0@ù
-× ;
-- (id)ithFontSize:traitCollection:inBundle: /* Error: Ran out of types for this method. */;
-- (void)rAtomsAscending:(id)arg1 operationPrecedence: /* Error: Ran out of types for this method. */;
-- (double)=;
 - (void);
+- (id);
+- (double);
+- (void)eVisibility:(id)arg1;
+- (double)IKeyboardEmojiVariantViewCell;
+- (id)view is non-nil. self = %@, superview = %@;
+- (void)Fÿ>*;
+- (void)0ßg;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPath;

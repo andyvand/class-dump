@@ -20,10 +20,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)0@ù
-× ;
-- (void)entKind=%@; index=%@; auxillaryKind=%@; isSup=%@>;
-- (struct CGSize)scopeContainer=(%g, %g; %g, %g);
+- (_Bool);
+- (void)cs;
+- (struct CGSize)q;
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;

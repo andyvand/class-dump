@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
 + (Class);
-- (unsigned long long);
++ (id);
 - (id);
+- (unsigned long long);
 - (id);
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
-- (_Bool);
-- (struct CGSize)	;
++ (_Bool)to logfile at %@ ;
+- (struct CGSize);
+- (_Bool)scrubFrom:(struct CGPoint)arg1;
 
 @end
 

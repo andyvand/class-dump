@@ -8,6 +8,8 @@
 @protocol CNUICoreFamilyMemberContactsObserver;
 
 @protocol CNUICoreFamilyMemberWhitelistedContactsDataSource
+- (void)ow?id=;
+- (id <CNUICoreFamilyMemberContactsObserver>)nchronous cache miss for contact with key %{private}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *familyMemberContactItems;

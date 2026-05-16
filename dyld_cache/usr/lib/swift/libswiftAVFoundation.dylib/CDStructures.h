@@ -4,17 +4,3 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Typedef'd Structures
-
-typedef struct {
-    long long _field1;
-    int _field2;
-    unsigned int _field3;
-    long long _field4;
-} CDStruct_198678f7;
-
-typedef struct {
-    CDStruct_198678f7 _field1;
-    CDStruct_198678f7 _field2;
-} CDStruct_3c1748cc;
-

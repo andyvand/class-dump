@@ -20,14 +20,13 @@
     MISSING_TYPE *trackedElements;
 }
 
-+ (Class)s;
++ (Class);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)
-× ;
 - (id);
+- (void)x¢l;
 
 @end
 

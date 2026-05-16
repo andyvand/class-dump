@@ -8,9 +8,9 @@
 @protocol PXDisplayAsset, PXDisplayCollection;
 
 @protocol PXSharedLibrarySharingSuggestion
-- (NSString *)thLandscape;
-- (NSArray *)ÜT´TÄ;
-- (_Bool)gs] %@ monitoring of the current location;
+- (NSString *)Cache;
+- (NSString *)ody;
+- (_Bool)in;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayCollection> displayCollection;

@@ -30,15 +30,15 @@
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void);
 - (unsigned long long);
-- (void);
-- (long long);
 - (id);
+- (id);
+- (long long);
+- (long long);
+- (void);
 - (void);
 - (long long);
-- (long long)egate>";
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long activeInteractionTypes; // @synthesize activeInteractionTypes=_activeInteractionTypes;

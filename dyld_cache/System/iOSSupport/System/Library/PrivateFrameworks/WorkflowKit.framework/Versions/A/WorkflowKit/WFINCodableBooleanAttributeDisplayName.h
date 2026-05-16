@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id)ounces;
+- (_Bool)voice shortcuts from CloudKit;
+- (void)nary};
+- (id)Send Message via LINE (Action Name);
 
 // Remaining properties
 @property(readonly, nonatomic) INCodableBooleanAttributeMetadata *attribute; // @synthesize attribute=_attribute;

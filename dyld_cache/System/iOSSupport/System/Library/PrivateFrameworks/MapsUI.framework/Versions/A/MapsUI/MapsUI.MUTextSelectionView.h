@@ -17,10 +17,10 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)kÝùôý;
+- (void)ctionBlock;
+- (void)rLocation: /* Error: Ran out of types for this method. */;
+- (id)essionConfiguration;
 
 @end
 

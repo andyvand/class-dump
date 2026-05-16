@@ -16,7 +16,7 @@
     struct __CFDictionary *_framespace;
 }
 
-+ (id);
++ (id)Deleting an additional preview url found during eviction for %s:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void)d;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

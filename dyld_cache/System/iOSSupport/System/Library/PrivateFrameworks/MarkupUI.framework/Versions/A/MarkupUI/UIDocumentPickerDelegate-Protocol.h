@@ -5,8 +5,5 @@
 //
 
 @protocol UIDocumentPickerDelegate
-
-@optional
-- (void);
 @end
 

@@ -19,18 +19,18 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *activeModeUUID; // @synthesize activeModeUUID=_activeModeUUID;

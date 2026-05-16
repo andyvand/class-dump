@@ -39,16 +39,15 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)1B0@ù
-× ;
-- (id)ÇÇ;
-- (id)XtnìtPu;
-- (void)ndoff|continuity|workflow;
+- (id);
+- (id);
+- (id)appDefinitionForShortcuts;
+- (long long)e;
+- (id)sMetadataProvider * _Nonnull __strong, NSMapTable<NSString *,LNEntityMetadata *> * _Nonnull __strong);
+- (void)Current IP Address (Default Output Name);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool forceExecutionOnPhone; // @synthesize forceExecutionOnPhone=_forceExecutionOnPhone;

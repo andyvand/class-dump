@@ -11,13 +11,13 @@
     NSHashTable *_itemManagers;
 }
 
-+ (id)Ï};
++ (id)eActionSetBuilder deleteActionSet];
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ÄÉÈÿÿÿÿÿ(;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *itemManagers; // @synthesize itemManagers=_itemManagers;

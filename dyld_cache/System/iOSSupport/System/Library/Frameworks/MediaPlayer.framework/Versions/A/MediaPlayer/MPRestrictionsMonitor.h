@@ -17,20 +17,20 @@
 }
 
 + (id);
-- (void)@40;
-- (void)lite3_context=}24^@32;
-- (long long)rnFromThisAppDisabled: /* Error: Ran out of types for this method. */;
-- (long long)thBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)nt;
-- (_Bool)lAddressesAtIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)stamp;
-- (void)ePersonEntityEqualityForSource:(_Bool)arg1 target: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (long long);
 - (void);
+- (void);
+- (long long);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (long long);
+- (long long);
+- (void)ckerConfiguration;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsDeletion;

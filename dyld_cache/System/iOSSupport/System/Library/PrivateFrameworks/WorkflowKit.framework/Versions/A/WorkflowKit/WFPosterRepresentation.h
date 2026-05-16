@@ -15,19 +15,19 @@
 
 + (id);
 + (id);
-+ (_Bool)xtStopListening);
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ICThingsWhenContentMapping;
+- (void)nitWithFilename:flags:postNotifications:] /* Error: Ran out of types for this method. */;
+- (id)<¡âÿx?°û;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;

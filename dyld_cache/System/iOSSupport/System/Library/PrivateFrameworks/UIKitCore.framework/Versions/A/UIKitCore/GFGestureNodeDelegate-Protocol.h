@@ -5,8 +5,5 @@
 //
 
 @protocol GFGestureNodeDelegate
-
-@optional
-- (void)[;
 @end
 

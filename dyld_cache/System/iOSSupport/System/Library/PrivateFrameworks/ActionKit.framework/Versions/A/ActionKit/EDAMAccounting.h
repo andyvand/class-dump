@@ -86,10 +86,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
+- (void)um;
+- (void)te-sdk-ios.plist;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *availablePoints; // @synthesize availablePoints=_availablePoints;

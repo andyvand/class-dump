@@ -24,10 +24,10 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)ng schedule from %@ | home %@ | accessory %@ | user %@;
+- (void)eUpdateMigrationFailedDueToLowPowerModeAlertMessageWiFi;
 
 // Remaining properties
 @property(retain, nonatomic) HULockCategorySettingsItemManager *lockSettingsItemManager; // @synthesize lockSettingsItemManager=_lockSettingsItemManager;

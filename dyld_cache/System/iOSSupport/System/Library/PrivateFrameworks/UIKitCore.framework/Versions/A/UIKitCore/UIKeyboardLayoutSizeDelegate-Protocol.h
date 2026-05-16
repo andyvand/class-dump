@@ -5,7 +5,8 @@
 //
 
 @protocol UIKeyboardLayoutSizeDelegate
-- (struct CGSize);
-- (struct UIEdgeInsets)Ð[;
+- (struct UIEdgeInsets)n;
+- (struct CGSize)4Ä;
+- (struct UIEdgeInsets)t;
 @end
 

@@ -15,14 +15,14 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)e©}4:(id)arg1 k;
-- (id)´+ÿ;
-- (void);
-- (void)ä5;
+- (void);
+- (void)0ºyj,ºy\B;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

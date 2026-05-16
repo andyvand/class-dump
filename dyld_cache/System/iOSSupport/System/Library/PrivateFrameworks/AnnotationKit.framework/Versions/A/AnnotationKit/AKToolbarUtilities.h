@@ -8,7 +8,7 @@
 {
 }
 
-+ (long long)athDirectory;
++ (long long);
 
 @end
 

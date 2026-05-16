@@ -11,9 +11,9 @@
     NSArray *_input;
 }
 
-- (id)6@?<v@?@"IDSLinksQualityMeasurerDelta">24;
-- (void);
 - (id);
+- (id);
+- (void)ectoryToArchive:] /* Error: Ran out of types for this method. */;
 
 @end
 

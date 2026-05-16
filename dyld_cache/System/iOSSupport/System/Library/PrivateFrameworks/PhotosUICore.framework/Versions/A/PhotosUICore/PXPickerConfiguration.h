@@ -16,15 +16,11 @@
     MISSING_TYPE *reverseSortOrder;
     MISSING_TYPE *assetsFilterPredicate;
     MISSING_TYPE *disableAutoPlaybackInPreview;
-    MISSING_TYPE *photosSelection;
     MISSING_TYPE *selectionModeEnabled;
-    MISSING_TYPE *selectionLimit;
     MISSING_TYPE *selectionCoordinator;
-    MISSING_TYPE *selectionDelegate;
     MISSING_TYPE *showCheckmarkOnSourceAlbum;
     MISSING_TYPE *allowsSwipeToSelect;
     MISSING_TYPE *wantsNumberedSelectionStyle;
-    MISSING_TYPE *allowDeselectionOfPreselectedItems;
     MISSING_TYPE *preselectedLocalIdentifiers;
     MISSING_TYPE *includedLocalIdentifiers;
     MISSING_TYPE *disabledLocalIdentifiers;
@@ -57,8 +53,8 @@
     MISSING_TYPE *excludedCollections;
 }
 
-- (void);
 - (id);
+- (void)@[3;
 
 @end
 

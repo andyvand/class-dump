@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)BϺNcϻN;
+- (id)laKÿDS;
 
 @end
 

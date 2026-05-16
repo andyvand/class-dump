@@ -12,16 +12,16 @@
     CDUnknownBlockType _inclusionFilter;
 }
 
-- (void)TQ,R,N,V_debugEnvironment;
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)e;
+- (id);
 - (void);
-- (id);
-- (id);
+- (void)ew;
+- (id)H;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType inclusionFilter; // @synthesize inclusionFilter=_inclusionFilter;

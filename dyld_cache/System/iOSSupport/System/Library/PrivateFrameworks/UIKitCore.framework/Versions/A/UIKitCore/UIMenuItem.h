@@ -12,14 +12,13 @@
     SEL _action;
 }
 
-- (id)=;
-- (void);
-- (void)Á°1¢!0@ù
-× ;
 - (id);
-- (id)InArray:allowAutorotationToInterfaceOrientation:predicate: /* Error: Ran out of types for this method. */;
-- (void)¶¡\;
-- (SEL)ÛûÖîûa;
+- (id);
+- (void)lState;
+- (SEL)|Òþÿ;
+- (void)try;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

@@ -11,10 +11,10 @@
     CKConversation *_conversation;
 }
 
-- (id)ICFilterTypeUnknown.;
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)HaAsset;
 
 // Remaining properties
 @property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

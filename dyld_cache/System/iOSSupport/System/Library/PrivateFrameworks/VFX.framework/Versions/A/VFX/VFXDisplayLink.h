@@ -22,12 +22,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
 - (id);
 - (void);
-- (void)»ôÃAïÿ?;
-- (void)æ|?!ä?²ºµ½^i	>;}?Öª?&7ª½§çý=*}?¼?¡h½«é=¾Ú}??aT½oÕ=&~?A?i½<Â=&m~?íÒ~?<ùt½}X¯=â®~?êËz?¸\½=¢ë~?F#w?~ÃD½*ä=Ñ"?"ás?~-½&s=S?êp?³&½Q=¦}?K:(_Bool)arg1 n?0þ¼Çõ/='¢?aÞk?kÑ¼Î=+À?²i?Ã¥¼ñá<Ø?4¾g?|Ót¼Â¦<ê?íe?·¼Y<ö?5Ad?;ª»ZÓ;Æý?«¯b?Þ8SÉ·;
 - (void);
+- (void)t3x4;
+- (void)ú';
+- (_Bool)×=ÜD);
 
 // Remaining properties
 @property(nonatomic, getter=isLowLatency) _Bool lowLatency;

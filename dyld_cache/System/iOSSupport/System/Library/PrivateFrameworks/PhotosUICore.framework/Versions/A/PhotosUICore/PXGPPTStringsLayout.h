@@ -19,10 +19,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
+- (id);
+- (void)nment:(id)arg1;
 - (void);
 
 // Remaining properties

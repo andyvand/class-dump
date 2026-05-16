@@ -5,7 +5,6 @@
 //
 
 @protocol TSDWrappableParent
-- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) int wrapContainerMode;

@@ -18,53 +18,56 @@ __attribute__((visibility("hidden")))
     NSMutableArray *__invalidationHandlers;
 }
 
+- (struct CGAffineTransform);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)@328@336@344@352@360@368@376@384@392@400@408@416@424@432@440@448@456@464@472@480;
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
-- (double)1¢!0@ù
+- (void)@ù
 × ;
-- (id)ationItem"24;
-- (_Bool)rm:blurBlending:renderConfig: /* Error: Ran out of types for this method. */;
-- (void)ControlState:(CDUnknownBlockType)arg1;
-- (id)LayoutManager:range: /* Error: Ran out of types for this method. */;
-- (struct CGAffineTransform)rBarMetrics: /* Error: Ran out of types for this method. */;
-- (_Bool)InputAssistantViewController",&,N,V_systemInputAssistantViewController;
-- (void)riginalUpdateItems;
-- (_Bool);
+- (void)1Â0@ù
+× ;
+- (id)Eùñ^ð1Â0@ù
+× ;
+- (void)× ;
+- (id)IKeyboardSecureCandidateRenderTraits"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)ableAdditionalItems: /* Error: Ran out of types for this method. */;
+- (id)sReorderControlForCell: /* Error: Ran out of types for this method. */;
+- (id)wFlipsHorizontalAxis;
+- (id)tInteraction",R,&,N;
+- (_Bool)rameForSection:(id)arg1 layout:(_Bool)arg2;
+- (_Bool)ication:%@ /* Error: Ran out of types for this method. */;
+- (id)loop source;
+- (void);
+- (_Bool)ÔþÿêËîÿôçíÿ;
+- (long long)backService;
+- (_Bool)SplitViewController;
+- (id);
+- (double)Number"8@"NSMutableDictionary"16^B24;
+- (id):(id)arg1 %@>;
+- (_Bool)lid sidebar item not satisfying tab != nil || action != nil;
+- (struct CGAffineTransform)e.uikit.visualEffectCornerMask;
 - (_Bool);
-- (void)þÿ¸£þÿ¼þÿ°£þÿ¤Ìþÿ;
-- (_Bool)nÄþÿÄþÿÄþÿ;
-- (id)ardIdentifier;
-- (void)ginalText;
-- (_Bool)ld force the first responder to change.;
-- (id)]; ;
-- (_Bool)normalizedRadius;
-- (_Bool)EffectCompletionContext"8;
-- (double);
-- (struct CGAffineTransform)ectorsUI;
-- (long long);
-- (void)Ð;
-- (_Bool)dI;
-- (long long);
-- (void)htEffectView;
+- (_Bool);
+- (void)ÈÄ·þ;
+- (void)G;
+- (_Bool);
+- (_Bool)IKit17UITraitDefinitionP;
+- (id)=
+×£;;
+- (void)lEffectContentProxy;
 - (_Bool);
 - (id);
 - (double);
+- (double)y23àñ;
+- (void);
+- (long long)À;
+- (id)[;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAlongsideAnimationViews:) NSMutableArray *_alongsideAnimationViews; // @synthesize _alongsideAnimationViews=__alongsideAnimationViews;

@@ -16,13 +16,13 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSData *data;

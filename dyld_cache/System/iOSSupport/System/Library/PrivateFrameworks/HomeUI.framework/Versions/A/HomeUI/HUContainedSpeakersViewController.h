@@ -29,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)oolbarBarBackButtonAccessibilityTitle;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate;

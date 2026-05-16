@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIWindowScene;
+@class UIWindowScene;
 
 @protocol _UISceneMetricsCalculating
-- (void)ollerForSearchBarGivenTopNavigationItem:(NSArray *)arg1;
-- (void)eenPrimary={%f %f %f %f} bluePrimary={%f %f %f %f} alphaPrimary={%f %f %f %f} additiveColor={%f %f %f %f}};
-- (UIWindowScene *)ctivationConfiguration"16@?0@"UIWindowSceneActivationAction"8;
+- (void)a!PEùÑbð1Â0@ù
+× ;
+- (UIWindowScene *);
+- (void)(E+÷bw@ÒÇ|@À@t$ÿ~ã?;
 
 // Remaining properties
 @property(nonatomic, setter=_setScene:) __weak UIWindowScene *_scene;

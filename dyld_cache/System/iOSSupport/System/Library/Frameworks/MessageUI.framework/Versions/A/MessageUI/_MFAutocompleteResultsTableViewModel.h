@@ -16,13 +16,14 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (void);
+- (void);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfNonEmptySections;

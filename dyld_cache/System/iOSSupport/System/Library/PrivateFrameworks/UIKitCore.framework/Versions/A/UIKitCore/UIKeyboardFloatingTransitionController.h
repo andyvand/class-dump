@@ -35,57 +35,57 @@
 }
 
 + (id);
-+ (double)%@ - updates %@ - archived %@;
-+ (_Bool)in message guid:(struct CGPoint)arg1 %@, forcing category %ld sub category %ld;
-+ (struct CGRect)pected one.;
-- (_Bool)ationProperties: /* Error: Ran out of types for this method. */;
-- (_Bool)Identifiers: /* Error: Ran out of types for this method. */;
-- (void)KitWithCompletion:(struct CGPoint)arg1;
-- (void)anUnsignedLongLong:(id)arg1;
-- (void)ionFactory:(id)arg1 token:batchSize:recordNameToRowIDMap:activity: /* Error: Ran out of types for this method. */;
-- (void)keSentMessage:(struct CGRect)arg1 inChat: /* Error: Ran out of types for this method. */;
-- (void)ed;
-- (void)tain;
-- (void);
-- (_Bool)wnSenderSentMessage: /* Error: Ran out of types for this method. */;
-- (void)sfer:(_Bool)arg1;
-- (void)umber:(_Bool)arg1 simID: /* Error: Ran out of types for this method. */;
-- (void)endingMessage;
-- (void)pMessages;
-- (void)y:(id)arg1 fallbackFilterSubCategory: /* Error: Ran out of types for this method. */;
-- (void)ificationCenter;
-- (void)leMessagePartRecordReadWithDeleteDate:(id)arg1 messageGUID:partBody: /* Error: Ran out of types for this method. */;
-- (void)tsReceivedDuringStorageNoQOI;
-- (void)IndexesDeleted:(_Bool)arg1 subRangesToDeleteMapping:(id)arg2 deleteSubject:deleteTransferCallback:createItemCallback:fromMessageItem: /* Error: Ran out of types for this method. */;
-- (void)akeAllNicknameContentsClassC;
-- (void)faultPairedDeviceRelayingLocally:(id)arg1;
-- (void)Zone;
-- (void)leToDictionary:(_Bool)arg1;
-- (void)ge;
-- (void)ordZone;
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void)ystem/Library/Frameworks/SharedWithYou.framework/SharedWithYou;
-- (void);
-- (void);
-- (double)X;
-- (void)l;
++ (double);
++ (_Bool);
++ (struct CGRect);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)ng message:%@ because it is scheduled for the future. %s vs now %s /* Error: Ran out of types for this method. */;
-- (void)on chat %@;
-- (void)downgraded to version:(id)arg1 %ld;
-- (void)ersionResponse %@;
-- (void)ould not determine file size at path %@ with error %@;
-- (void)not determine file size as path was nil;
-- (id)ng from:%@ (%@) /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -93,25 +93,27 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)Ô¡x°!\DùÎð1¢!0@ù
-× ;
-- (void)eInfo"16@0:(id)arg1 8;
-- (_Bool)butes:(id)arg1;
-- (_Bool)RepresentationView;
-- (void)presentationSizeClassPair;
-- (id)n: /* Error: Ran out of types for this method. */;
-- (double)"48;
-- (void)<v@?>16@?0@"NSProgress"8;
-- (id)ntroller must be distinct (%@);
-- (id)ction;
-- (void);
-- (id)ller+FormattingStyle.swift;
-- (id)µ;
-- (id)Áÿ;
+- (_Bool);
 - (id);
-- (_Bool)¨>Êÿe`h;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)ionList";
+- (void)unsigned short, 16UL>="_vector""_size"Q}}"__tail"(__union<std:(id)arg1:__variant_detail::_Trait::_Available, 2UL, std::vector<unsigned long>>="__dummy"c"__head"{__alt<2UL, std::vector<unsigned long>>="__value"{vector<unsigned long, std::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 3UL>=))))"__index"I}} /* Error: Ran out of types for this method. */;
+- (id)s: /* Error: Ran out of types for this method. */;
+- (void)mator:(id)arg1 customAnimationsProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)earingKeyName;
+- (id)number of rows for section (%ld) which is out of bounds.;
+- (id)but not both.;
+- (double)¼?à?À?í?É?ìQ¸ëÑ?
+×£p=
+×? ï?Âõ(\â?¹ëQ¸Î?Ý?Ý?¹ëQ¸¾?¿¾¾¾¾¾î?ï?Ú?Á?]]]]]]Ý?ëQ¸Û?Âõ(\ê?[[[[[[Û?666666æ?´³³³³³ã?ÍÌÌÌÌÌÜ?ffffffÖ?333333ã?ffffffæ?¶óý<ªñÒ=
+×#<;
+- (void)ÀV[;
+- (id)Àÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *activeKeyboardLayoutGuideTransitionAssertions; // @synthesize activeKeyboardLayoutGuideTransitionAssertions=_activeKeyboardLayoutGuideTransitionAssertions;

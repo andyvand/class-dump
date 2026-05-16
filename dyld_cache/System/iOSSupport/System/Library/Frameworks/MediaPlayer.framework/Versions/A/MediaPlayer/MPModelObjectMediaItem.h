@@ -15,19 +15,19 @@
     CDUnknownBlockType _fallbackArtworkCatalogBlock;
 }
 
-+ (_Bool)BaseRoutingDataSource] Successfully unpicked AirPlay AV routes;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)dentifier:(CDUnknownBlockType)arg1 startTime:privateStreamBasePath: /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
+- (void)Delay;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType fallbackArtworkCatalogBlock; // @synthesize fallbackArtworkCatalogBlock=_fallbackArtworkCatalogBlock;

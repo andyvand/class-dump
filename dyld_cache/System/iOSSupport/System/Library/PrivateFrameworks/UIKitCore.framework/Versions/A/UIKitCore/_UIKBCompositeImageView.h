@@ -18,10 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)Ð1¢!0@ù
-× ;
-- (struct CGSize)ront;
+- (struct CGSize)ss getEMFEmojiPreferencesClientClass(void)_block_invoke;
+- (void)s>"8;
+- (void)À;
 
 // Remaining properties
 @property(nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;

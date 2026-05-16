@@ -5,6 +5,5 @@
 //
 
 @protocol WCXPCPrivateManagerClientProtocol
-- (void)C5;
 @end
 

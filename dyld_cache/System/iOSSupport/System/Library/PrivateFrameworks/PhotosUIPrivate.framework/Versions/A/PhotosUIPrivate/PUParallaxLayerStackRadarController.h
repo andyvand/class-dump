@@ -35,7 +35,7 @@
 - (id);
 - (void);
 - (id);
-- (void)InAnimator;
+- (void)idChange;
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

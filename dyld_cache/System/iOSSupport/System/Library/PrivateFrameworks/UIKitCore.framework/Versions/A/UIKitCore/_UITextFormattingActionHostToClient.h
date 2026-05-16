@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)letionSyncCompleted;
-+ (id)CoreDuetSync;
++ (id);
++ (id);
 - (void);
 
 @end

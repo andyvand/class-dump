@@ -30,12 +30,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
-- (long long)Show Contact Card;
+- (void);
+- (long long);
+- (void) yAMGG;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *durationString;

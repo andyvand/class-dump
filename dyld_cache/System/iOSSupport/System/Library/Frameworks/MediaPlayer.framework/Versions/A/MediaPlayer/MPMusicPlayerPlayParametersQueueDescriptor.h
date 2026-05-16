@@ -15,7 +15,7 @@
     MPMusicPlayerPlayParameters *_containerPlayParameters;
 }
 
-+ (_Bool)MHomeDelegatePrivate homeDidUpdateAccessControlForCurrentUser;
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *playParametersQueue; // @synthesize playParametersQueue=_playParametersQueue;

@@ -9,7 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
+- (void)ets;
 - (id <CAAction>);
-- (void)LayoutAndRenderState setNeedsLayoutForTilingLayers];
 @end
 

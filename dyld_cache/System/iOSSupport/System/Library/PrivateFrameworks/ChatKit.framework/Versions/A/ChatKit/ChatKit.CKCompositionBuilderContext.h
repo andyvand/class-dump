@@ -14,14 +14,12 @@
 }
 
 - (_Bool);
-- (_Bool)n;
-- (void)VComposotion failed with error:(_Bool)arg1 %@ attachment:%s /* Error: Ran out of types for this method. */;
-- (void)e password for “%@” locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (_Bool);
 - (void);
-- (void)ess your locked notes without your device passcode—not even Apple.
-
-Do you still want to know more about how your information is secured? ;
-- (void)MultitaskingOccurKey;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);

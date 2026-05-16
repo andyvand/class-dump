@@ -13,15 +13,15 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)SURL"16^@24;
 - (_Bool);
 - (void);
-- (void);
+- (id);
+- (id);
 - (float);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void)>"16Q24@"<MTLBuffer>"32Q40Q48;
 
 // Remaining properties
 @property(nonatomic) float scale;

@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewCell;
+@class UICollectionReusableView;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)0@ù
-× ;
+
+@optional
+- (void);
+- (UICollectionReusableView *)quareWidthConstraint;
 @end
 

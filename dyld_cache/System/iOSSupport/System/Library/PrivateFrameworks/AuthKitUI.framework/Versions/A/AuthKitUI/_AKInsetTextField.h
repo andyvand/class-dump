@@ -11,11 +11,11 @@
 
 - (void);
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (id);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic) struct CGSize insetSize; // @synthesize insetSize=_insetSize;

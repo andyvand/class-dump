@@ -5,70 +5,51 @@
 //
 
 @class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding;
+@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (double)H;
-- (NSString *);
-- (id <FCNativeAdProviding>);
-- (NSArray *)isodeTranscriptDetail;
-- (NSDate *)h;
-- (FCHeadlineThumbnail *);
-- (_Bool)";
-- (id <FCChannelProviding>)initWithFileAsset: /* Error: Ran out of types for this method. */;
-- (FCAssetHandle *)d] error=%{public}@;
-- (NSURL *)tTime;
-- (_Bool)6;
-- (NSDate *)"<SXPostActionHandler>"16@"NSString"24;
-- (NSArray *)	
-;
-- (_Bool);
-- (_Bool)zR;
-- (NSArray *)	
-;
-- (_Bool)	
-;
-- (struct CGRect)ÿÿÿÿ;
-- (NSString *)ÿÿÿÿ`;
-- (long long)`b¨bèbcLc|c´cäcdLdtddÄdôd0e\ee¼eôe,fdffÌfôf0gdg°gäg0h\hh;
-- (NSString *)ôÿ;
-- (_Bool)FíÿpGíÿÌIíÿJíÿ\JíÿPKíÿLíÿÜLíÿ°Míÿ¨OíÿPíÿdPíÿQíÿèUíÿhVíÿWíÿ\\íÿ°^íÿ$_íÿ°`íÿaíÿàaíÿdíÿfíÿ0gíÿÐhíÿ|míÿdníÿèpíÿríÿHsíÿsíÿ<tíÿDuíÿPwíÿ°zíÿ¸{íÿ<|íÿ;
-- (double)Uÿ;
-- (NSDate *)ç:_p /* Error: Ran out of types for this method. */;
-- (NSArray *)ýÿXñÿ
-wÿ¤Í
+- (NSArray *)ailSignupEventHandler;
+- (NSDate *)ÿÿÿÿØ;
+- (long long);
+- (double)ÿÿÿÿ;
+- (NSArray *)@1;
+- (NSString *)¸Z[\[;
+- (FCAssetHandle *);
+- (NSArray *)0åÿTåÿåÿ¬åÿÐåÿåÿ8åÿ\åÿåÿ¼åÿøåÿåÿ@åÿåÿ¨åÿÌåÿüåÿ åÿDåÿåÿ¤åÿ8åÿ\åÿåÿ¬åÿ<åÿÀåÿäåÿåÿ8åÿ\åÿåÿ¼åÿàåÿLåÿpåÿåÿøåÿåÿ4åÿXåÿpåÿÀåÿäåÿåÿDåÿhåÿäåÿåÿ8åÿ\åÿåÿ¼åÿàåÿ0åÿTåÿìåÿåÿ@åÿdåÿåÿÄåÿèåÿåÿ¤åÿ°åÿdåÿ@åÿtåÿ¸åÿäåÿÌåÿäåÿ¨åÿåÿ|åÿðåÿ$åÿhåÿD åÿh åÿ åÿ° åÿt!åÿ!åÿ¼!åÿà!åÿ"åÿ8"åÿt"åÿ"åÿÌ"åÿ#åÿ,#åÿP#åÿt#åÿ#åÿ¼#åÿà#åÿ$åÿP$åÿt$åÿ$åÿÔ$åÿø$åÿ%åÿ@%åÿ|%åÿ %åÿì%åÿd&åÿ°'åÿÔ'åÿÌ(åÿø(åÿ4)åÿ\)åÿ)åÿ¼)åÿø)åÿ*åÿL*åÿp*åÿ*åÿÐ*åÿô*åÿ;
+- (FCHeadlineThumbnail *)d;
+- (NSString *)groundImageCache;
+- (_Bool)oadsConfigurationCSg;
+- (NSString *)s tag, tag=%@;
+- (NSArray *)is unexpected.;
+- (NSString *)c}@;
+- (NSURL *)dailyArticleOpenUpsellLastSeenDates;
+- (FCHeadlineThumbnail *)I§YÚ­þ1§YØÚ­þI§Y Û­þ§YhÛ­þ	§Y°Û­þ±§YøÛ­þ¹§YHÜ­þ§Y¨Ü­þ§YøÜ­þi§YHÝ­þ;
+- (unsigned long long),Æ
 ;
-- (NSArray *)ôïÿ1NÿÌË
-;
-- (NSArray *)cleAge=%f;
-- (FCCoverArt *)abled, reason=%{public}@;
-- (_Bool)OnboardingManager refreshing onboarding state, in response to subscription change...;
-- (FCHeadlineThumbnail *)sOnboardingManagerType;
-- (NSArray *)`+¸ÿ;
-- (int)9Gþ(0«ÿ9Gþ0«ÿGþ2ºþGþÄ?ºþ	Gþ2ºþ;
-- (NSURL *)ewSupplementaryViewProvider;
-- (unsigned long long)Åß³;
-- (NSArray *)ÝP¼¿;
-- (NSString *)r;
-- (NSString *)3 ;
-- (NSString *)õ÷;
-- (_Bool)printModifier;
+- (NSArray *)-Z(ýÊÿý,ZýÊÿí,ZôýÊÿ;
+- (_Bool);
+- (NSDate *)ineFeedGroupEmitter;
+- (NSURL *)4¨þ;
+- (FCHeadlineThumbnail *);
+- (NSArray *)Õ
+b¬p­þÕ
+bÄp­þÕ
+b@­©þÕ
+bô9©þ;
+- (NSURL *)¸x­þ;
+- (NSString *)T2ÀþÕ©dP2ÀþÅ©d¼2Àþí©d8¹þý©d4¹þå©d0¹þµ©d,¹þÝ©d²þ;
+- (NSString *)";
+- (long long)]­þ;
 
 @optional
-- (NSString *)�>;
-- (_Bool)veiTunesAccount;
-- (_Bool);
-- (FCColor *);
-- (NSArray *)XT;
-- (double)[Diagnostic] preloaded %{public}s for %{public}s. Article count:%{public}ld /* Error: Ran out of types for this method. */;
-- (_Bool)<˟;
-- (NSDate *);
-- (_Bool)£<¤8©Ìª;
-- (_Bool)zle type for activity %s;
-- (NSString *);
-- (FCHeadlineThumbnail *)P;
-- (_Bool);
-- (FCColor *)fication=%@;
+- (NSArray *)r;
+- (FCArticleAudioTrack *)ÿÿÿÿ@	;
+- (FCAssetHandle *)Processing authorization change from %s to %s;
+- (_Bool);
+- (NSDate *);
+- (_Bool)deviceLanguage: /* Error: Ran out of types for this method. */;
+- (unsigned long long)f tag identifiers;
+- (NSArray *)H;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryText;
@@ -175,6 +156,8 @@ wÿ¤Í
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C,N
 
+@property(readonly, nonatomic) _Bool liveCoverageCompleted;
+@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
 @property(readonly, copy, nonatomic) NSString *localDraftPath;
 @property(readonly, nonatomic) long long minimumNewsVersion;
 @property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
@@ -236,6 +219,7 @@ wÿ¤Í
 @property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @property(readonly, copy, nonatomic) NSString *sourceName;
 @property(readonly, copy, nonatomic) NSString *sponsoredBy;
+@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
 @property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
 @property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
 // Preceding property had unknown attributes: ?
@@ -245,6 +229,7 @@ wÿ¤Í
 @property(readonly, nonatomic) int storyType;
 @property(readonly, copy, nonatomic) NSString *surfacedByBinID;
 @property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
+@property(readonly, nonatomic) long long surfacedByFlags;
 @property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
 @property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
 @property(readonly, nonatomic) NSArray *tagsExpiration;

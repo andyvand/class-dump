@@ -15,14 +15,14 @@
 + (id);
 + (id);
 + (id);
-+ (id)<(x;
++ (id);
 + (int);
-+ (id)p;
-- (id)!;
++ (id);
+- (id);
 - (SEL);
 - (id);
-- (void)VmReferenceIdentifiers;
-- (id)sorCellID:baseRegion:selectionType:] /* Error: Ran out of types for this method. */;
+- (void).;
+- (id)À%àP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *presetKind;

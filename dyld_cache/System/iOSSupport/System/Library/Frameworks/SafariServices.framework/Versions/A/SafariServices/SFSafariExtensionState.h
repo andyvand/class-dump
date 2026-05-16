@@ -10,11 +10,11 @@
 }
 
 + (_Bool);
-- (id)<;
-- (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

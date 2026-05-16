@@ -9,7 +9,11 @@
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (UITargetedPreview *)=;
-- (void)topBackgroundView;
+- (void)0@ù
+× ;
+- (UITargetedPreview *)ws;
+- (UITargetedPreview *)butesProvider;
+- (void)StyleProperties;
+- (UITargetedPreview *);
 @end
 

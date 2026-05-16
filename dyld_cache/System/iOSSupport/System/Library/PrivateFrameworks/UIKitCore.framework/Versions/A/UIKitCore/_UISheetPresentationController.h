@@ -15,30 +15,29 @@
     NSArray *__passthroughViews;
 }
 
+- (double);
 - (void);
-- (void)!oð!TBùÁ1¢!0@ù
+- (void);
+- (void)0@ù
 × ;
-- (id);
-- (double)Ùð?p=
-×£på?9R¢Fß? ©?;
-- (void)­;
-- (id);
-- (_Bool)ingMessage;
-- (void)nIdentifier;
-- (_Bool)ò;
+- (void)Ô ;
+- (void)tates:(id)arg1;
+- (double)oterViewForSection: /* Error: Ran out of types for this method. */;
+- (void)terval:(_Bool)arg1;
+- (_Bool)l;
 - (void);
-- (_Bool);
-- (void)mationCurve;
-- (void)9h[;
-- (void)á;
-- (void)Öð[;
-- (_Bool)1L;
-- (id);
-- (void)°uÿ;
-- (double)8t²ÿ,x;
-- (void)8ÿ<2^;
-- (void)ò^;
+- (id)ñC;
+- (_Bool)];
+- (void)ÿ9è;
+- (void)ü];
+- (void);
+- (_Bool);
+- (_Bool)bàÿwÈ$^;
+- (id)q;
+- (void).;
 - (void);
+- (void);
+- (id)t_;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalMinimumTopInset:) double _additionalMinimumTopInset; // @dynamic _additionalMinimumTopInset;

@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (double)}};
-- (void);
-- (id);
+- (double);
 - (void);
 - (void);
-- (void)«ÿí:(_Bool)arg1 Bûh;
+- (void)U­;
+- (void)Xcj;
+- (id)~ÍH'i;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

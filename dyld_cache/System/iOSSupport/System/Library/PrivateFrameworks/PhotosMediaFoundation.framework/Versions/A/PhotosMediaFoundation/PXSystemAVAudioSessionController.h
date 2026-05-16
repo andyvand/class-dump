@@ -29,11 +29,11 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_audioSessionQueue_setAudioSession:) id <PXAVAudioSession> audioSession; // @synthesize audioSession=_audioSession;

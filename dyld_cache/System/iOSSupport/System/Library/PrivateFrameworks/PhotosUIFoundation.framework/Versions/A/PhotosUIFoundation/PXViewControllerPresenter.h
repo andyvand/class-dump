@@ -34,14 +34,14 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (struct CGRect);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *baseViewController; // @synthesize baseViewController=_baseViewController;

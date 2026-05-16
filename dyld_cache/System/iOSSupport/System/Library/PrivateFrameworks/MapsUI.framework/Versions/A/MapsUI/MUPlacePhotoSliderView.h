@@ -36,14 +36,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (void)ecognizer"24;
 - (void);
+- (void);
+- (struct CGSize);
+- (void);
+- (void)leAnalyticActions;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUScrollAnalyticActionObserving> analyticsDelegate; // @synthesize analyticsDelegate=_analyticsDelegate;

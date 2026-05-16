@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol PXAudioAssetEntryPoint
-- (double);
+- (double)portVideoQuality;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fadeInKeyGainValues;

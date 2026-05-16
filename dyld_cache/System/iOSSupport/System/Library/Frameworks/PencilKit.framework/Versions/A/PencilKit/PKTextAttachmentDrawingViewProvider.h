@@ -14,9 +14,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)setNeedsDisplay;
+- (void)Ès;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSTextLocation> updatedLocationForRecycledViewProvider; // @synthesize updatedLocationForRecycledViewProvider=_updatedLocationForRecycledViewProvider;

@@ -7,6 +7,16 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
+- (unsigned long long)1â
+0@ù
+× ;
+- (id <MTLBuffer>)ÁFð!@ù°1â
+0@ù
+× ;
+- (unsigned long long)pecialization;
+- (unsigned long long)t;
+- (CDStruct_a06f635e)hlightedMenuItemUpdateScheduled;
+- (_Bool)on;
 - (unsigned long long);
 
 // Remaining properties
@@ -40,7 +50,7 @@
 @property(readonly) unsigned long long sampleCount;
 @property(readonly, getter=isShareable) _Bool shareable;
 @property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) struct swizzle;
+@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
 @property(readonly) unsigned long long tailSizeInBytes;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R

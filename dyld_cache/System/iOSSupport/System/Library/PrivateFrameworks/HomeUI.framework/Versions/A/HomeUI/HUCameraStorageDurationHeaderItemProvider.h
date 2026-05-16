@@ -15,10 +15,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)1b0@ù
-× ;
-- (id)yK;
+- (id);
+- (unsigned long long)leControllerDelegate;
+- (void)D;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;

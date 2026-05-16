@@ -15,29 +15,30 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *_idleAction;
 }
 
-+ (_Bool)xçè;
-- (void);
-- (void)DefaultServiceHandlers;
++ (_Bool)Ø_;
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void)º;
 - (void);
-- (void);
-- (void)°!BùÑÂ1¢!0@ù
+- (id)!ø@ù±[°1Â0@ù
 × ;
-- (id)!èCùÈð1¢!0@ù
+- (void)!¨Gù_Ð1Â0@ù
 × ;
-- (void)portsHeaderView;
-- (id)ntColor:animated:duration:autoreverses:repeatCount: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (void)iewUpdateItemApplying>",R,W,N,V_viewUpdatesSink;
-- (_Bool)vironmentHostComponent;
-- (void)ong, NSString *__strong);
-- (id)trackedTargetedPreview;
-- (void)internal bug.;
+- (id)Ô!!¤Aù1a°1Â0@ù
+× ;
+- (void)ObservationSource";
+- (void)ingTraitCollectionsForTraitTracking: /* Error: Ran out of types for this method. */;
+- (void)responder;
+- (void)$ñ;
+- (void);
+- (void)s);
+- (void)%@ Undo/Redo pan;
+- (_Bool);
 - (void);
+- (void)þ;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIKeyboardInputModeIndicatorControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
 - (id);
-- (void)øwïÿ;
+- (id);
+- (void)rHidden:(id)arg1 forRequester:withAnimationSettings: /* Error: Ran out of types for this method. */;
+- (void)OtherUserPINCodeAlertMessage;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;

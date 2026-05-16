@@ -17,13 +17,13 @@
 - (id);
 - (double);
 - (void);
+- (id);
+- (void);
 - (double);
 - (void);
-- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *color; // @synthesize color=_color;

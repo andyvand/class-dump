@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)HDRUsageCoordinator",R,N;
+- (id)IKeyboardTypeEmailAddress;
+- (_Bool)ViewCellCSo24UICellConfigurationStateCIeggg_;
 - (id);
-- (void)setLineWidth:(id)arg1;
-- (id)N,V_shuffleStartingItemIdentifier;
-- (void)÷;
-- (_Bool);
-- (id)etPresentationMetrics;
-- (void)ewMacVisualElement;
-- (void)s:(id)arg1 Returning activityContinuationDictionary:(id)arg2 %@;
+- (void)q;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

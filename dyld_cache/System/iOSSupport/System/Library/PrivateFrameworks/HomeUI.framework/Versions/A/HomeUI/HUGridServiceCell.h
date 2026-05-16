@@ -110,10 +110,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -129,17 +129,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)±/Ð1b0@ù
-× ;
+- (void);
+- (id);
+- (void)areUpdateAll;
+- (id)HzÿÿBûþÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;

@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNComposeRecipient;
-
 @protocol CNComposeRecipientTextViewDelegate
-
-@optional
-- (CNComposeRecipient *)G;
-- (void).NotesImporter;
-- (void);
 @end
 

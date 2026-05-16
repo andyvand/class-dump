@@ -11,8 +11,8 @@
     MISSING_TYPE *pluginData;
 }
 
-- (void)olClasses: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

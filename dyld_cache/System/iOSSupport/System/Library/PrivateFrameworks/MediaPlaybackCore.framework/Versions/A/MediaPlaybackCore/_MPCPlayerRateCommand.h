@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)%{public}@;
-- (void)eue;
-- (float)ext request. Skipping.;
-- (float)ss:%@ /* Error: Ran out of types for this method. */;
+- (float);
+- (void);
+- (void){public}@:(float)arg1 %p] supplementalPlaybackContextWithReason:%ld | created supplemental [] supplementalContext=%{public}@ /* Error: Ran out of types for this method. */;
+- (float)n completed - item: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

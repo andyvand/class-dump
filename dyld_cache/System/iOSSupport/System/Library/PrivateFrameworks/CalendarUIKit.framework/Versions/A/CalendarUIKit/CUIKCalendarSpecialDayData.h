@@ -16,13 +16,13 @@
 - (void);
 - (void);
 - (long long);
-- (id)__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (id)h;
+- (id);
 - (void);
 - (struct CGColor *);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) struct CGColor *cgColor; // @synthesize cgColor=_cgColor;

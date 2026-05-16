@@ -24,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct);
 - (CDUnknownBlockType);
+- (void);
 - (double);
-- (void)ñÁ°1¢!0@ù
-× ;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)tKeyResponder;
-- (void)ttributedMessage,S_setAttributedMessage:(struct)arg1;
-- (void)nnection to %d halted;
+- (void)ontentSnapshotView;
+- (void)graphStyle: /* Error: Ran out of types for this method. */;
+- (void)Æªîÿ;
+- (void)È-g;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType emissionHandler; // @synthesize emissionHandler=_emissionHandler;

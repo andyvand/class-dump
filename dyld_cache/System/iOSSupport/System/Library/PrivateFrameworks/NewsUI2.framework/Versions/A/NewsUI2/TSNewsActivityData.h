@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id)*ø*D0T11ð12\2è3;
-- (id)iewingSession;
+- (id)ÐÃ$Ä;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long activity; // @synthesize activity;

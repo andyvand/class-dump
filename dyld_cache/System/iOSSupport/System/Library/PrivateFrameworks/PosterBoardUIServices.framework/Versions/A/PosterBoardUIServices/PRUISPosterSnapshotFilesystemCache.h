@@ -22,10 +22,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)_GACyAEyAfCyAGyAHLÎATySayA46_GA46_AHGG_mÓpyAHGSgA51_tGAFG_AEyAFA51_AHGtGSgtGACyAH_ADyADyA2HGACyAH_AHtGGA2HtGG_ADyAJyA11_ALGACyÌpyAGyAH±Z;
+- (void)barConfigured;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

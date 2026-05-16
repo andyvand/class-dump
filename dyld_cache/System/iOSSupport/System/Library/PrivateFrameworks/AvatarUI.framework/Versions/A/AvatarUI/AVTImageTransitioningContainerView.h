@@ -27,16 +27,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id)A;
+- (id);
 - (void);
-- (void));
+- (void);
 - (void);
 - (id);
+- (void);
 - (struct CGSize);
-- (void)ëÄ;
 
 // Remaining properties
 @property(nonatomic) struct CGSize aspectRatio; // @synthesize aspectRatio=_aspectRatio;

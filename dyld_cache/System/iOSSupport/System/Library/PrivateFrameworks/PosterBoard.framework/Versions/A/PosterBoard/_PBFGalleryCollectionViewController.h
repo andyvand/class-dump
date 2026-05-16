@@ -50,18 +50,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -70,6 +59,18 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -77,12 +78,11 @@
 - (void);
 - (void);
 - (void);
-- (void)ingToAttributes:(struct CGSize)arg1 error:(id)arg2;
-- (void)er;
-- (void)Version %lu from %lu (%@); PRPosterFocusConfiguration conversion to attributedProperties failed with error:(id)arg1 %{public}@;
-- (void)resetKnownDisplayContexts; invalidated;
-- (void)nFilter;
+- (id);
 - (void);
+- (void);
+- (void);
+- (void)PosterBoard;
 
 // Remaining properties
 @property(retain, nonatomic) PBFApplicationStateMonitor *applicationStateMonitor; // @synthesize applicationStateMonitor=_applicationStateMonitor;

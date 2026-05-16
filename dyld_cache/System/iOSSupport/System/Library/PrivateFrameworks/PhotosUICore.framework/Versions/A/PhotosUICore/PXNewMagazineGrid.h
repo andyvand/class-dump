@@ -30,8 +30,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)±E1â
+0@ù
+× ;
 - (unsigned long long);
 
 // Remaining properties

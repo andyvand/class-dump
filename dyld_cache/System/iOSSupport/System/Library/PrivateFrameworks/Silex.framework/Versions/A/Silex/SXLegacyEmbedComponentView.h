@@ -15,7 +15,8 @@
 
 - (void);
 - (id);
-- (void);
+- (void)Qï1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) SXEmbedResource *embedResource; // @synthesize embedResource=_embedResource;

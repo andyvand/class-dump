@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (struct CGSize);
+- (id);
 - (double);
 - (struct CGRect);
-- (id);
 - (struct CGRect);
 
 // Remaining properties

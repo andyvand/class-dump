@@ -5,18 +5,17 @@
 //
 
 @interface (null) (UIWebBrowserViewPrivate)
-- (_Bool)s to %ld messages.;
-- (_Bool)%@;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)
-× ;
-- (_Bool)i_appendOrientationDebugDescription:withName: /* Error: Ran out of types for this method. */;
-- (id)üf¸gØh;
-- (_Bool)$reÿNöÓ¹ëm;
+- (id);
+- (_Bool)elegate>";
+- (_Bool)¤dj;
+- (void)A´×,n;
 @end
 

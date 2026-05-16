@@ -28,17 +28,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
-- (id)stem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
-- (void)"NSString",&,N,V_clientVersionETag;
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id)!$;
-- (void);
+- (void)Key;
 
 // Remaining properties
 @property(nonatomic) long long dataOrigination; // @synthesize dataOrigination=_dataOrigination;

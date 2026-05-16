@@ -12,7 +12,7 @@
     id <AKTextViewKeyCommandDelegate> _keyCommandDelegate;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -20,11 +20,12 @@
 - (void);
 - (void);
 - (long long);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id)tler. Scheduling a fetch in %f seconds in response to processing push notifications;
-- (_Bool);
-- (id);
+- (id)@ù
+× ;
 
 // Remaining properties
 @property __weak id <AKTextViewKeyCommandDelegate> keyCommandDelegate; // @synthesize keyCommandDelegate=_keyCommandDelegate;

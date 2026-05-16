@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, UIProgressView;
+@class UIProgressView;
 
 @protocol UIProgressViewVisualElement
-- (void)ticket;
-- (void)icket for entitlements;
-- (void)ed;
-- (void)et assembly identifier;
-- (void)of StoreAsInteger was set;
-- (void)e needs to be CFNumber if attribute of StoreAsInteger was set;
-- (void)wrong type;
-- (void)ForMessageID:(NSMutableSet *)arg1 date:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)dinates;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIProgressView *progressControlView;

@@ -5,5 +5,8 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (void)nection",&,N,V_connection;
 @end
 

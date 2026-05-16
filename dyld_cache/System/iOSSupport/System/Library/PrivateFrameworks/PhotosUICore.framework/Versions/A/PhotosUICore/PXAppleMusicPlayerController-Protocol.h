@@ -7,9 +7,7 @@
 @class NSString, PXObservable;
 
 @protocol PXAppleMusicPlayerController
-- (PXObservable *)eNavigationControllerWithRootViewController: /* Error: Ran out of types for this method. */;
-- (double);
-- (long long)@;(ÿ;
+- (PXObservable *)Ë¨×;
 
 // Remaining properties
 @property(copy) NSString *currentClientIdentifier;

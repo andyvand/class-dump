@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
     NSString *_compileTimeIssues;
 }
 
+- (_Bool);
+- (void)#¿7G;
+- (void)`þ;
 - (void);
-- (void);
-- (void);
-- (_Bool)1¢!0@ù
-× ;
-- (void);
+- (void);
 
 @end
 

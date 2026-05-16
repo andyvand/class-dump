@@ -30,10 +30,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)ord:isEquivalentToRecord: /* Error: Ran out of types for this method. */;
+- (void)t} with base64 (Parameter Summary);
 
 // Remaining properties
 @property(retain, nonatomic) HFTriggerActionsSetsUISummary *actionSetsSummary; // @synthesize actionSetsSummary=_actionSetsSummary;

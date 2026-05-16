@@ -13,9 +13,9 @@
 - (_Bool);
 - (id);
 - (double);
-- (_Bool);
-- (id);
 - (struct CGPoint);
+- (_Bool);
+- (id);
 - (struct CGPoint);
 
 // Remaining properties

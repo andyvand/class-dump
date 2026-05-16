@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ith_cfdata failed to serialize fileReferenceData to expected size;
 - (float);
-- (void);
-- (void);
-- (void);
-- (_Bool)QÂÐ1¢!0@ù
+- (void)1`ð1Â0@ù
 × ;
-- (_Bool)esPageToFitViewportSettings;
-- (void)kind of class %@;
+- (void);
+- (_Bool)sionInputModeHasDictation;
+- (void)9A7AC459E3971D298134A7167432_UIViewDynamicLayoutGuideSupport;
+- (_Bool)s non-default values for the following traits that cannot represent unspecified values:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
+- (void)ÝW23vþ;
+- (void)qÎác;
 
 // Remaining properties
 @property(nonatomic) _Bool revealsHorizontalScrollIndicator; // @synthesize revealsHorizontalScrollIndicator=_revealsHorizontalScrollIndicator;

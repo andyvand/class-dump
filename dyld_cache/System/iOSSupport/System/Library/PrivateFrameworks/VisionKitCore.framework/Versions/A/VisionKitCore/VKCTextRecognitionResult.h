@@ -39,7 +39,7 @@
     struct CGSize _imageSize;
 }
 
-+ (_Bool)urrentCompilation;
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -120,26 +120,26 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)rmRegionsExcluding:(id)arg1 updateExcludedFields: /* Error: Ran out of types for this method. */;
-- (id):(struct CGPoint)arg1;
-- (unsigned long long)´¶;
+- (id)SearchResultItemView tintedImageForButton];
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allLineQuads;

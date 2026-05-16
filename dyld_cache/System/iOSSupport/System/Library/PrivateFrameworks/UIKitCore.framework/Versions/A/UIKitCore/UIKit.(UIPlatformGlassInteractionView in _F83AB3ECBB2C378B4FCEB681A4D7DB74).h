@@ -14,9 +14,8 @@
 }
 
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)q24;
+- (id)llPocketLumaObserver;
+- (void)hÿFËxl;
 
 @end
 

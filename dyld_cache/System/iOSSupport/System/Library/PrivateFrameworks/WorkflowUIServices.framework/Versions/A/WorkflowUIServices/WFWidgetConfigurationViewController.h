@@ -36,24 +36,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void)lotDisabledBackgroundColor;
-- (void);
+- (id)t;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;

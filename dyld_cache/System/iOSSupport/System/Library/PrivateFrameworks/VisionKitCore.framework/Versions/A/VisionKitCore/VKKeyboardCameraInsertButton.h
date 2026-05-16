@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (_Bool);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

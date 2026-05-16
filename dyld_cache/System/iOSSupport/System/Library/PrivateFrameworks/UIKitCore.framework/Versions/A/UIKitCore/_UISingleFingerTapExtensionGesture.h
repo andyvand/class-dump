@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_trackedEvents;
 }
 
-- (void);
-- (void);
-- (void)!Cù1Åð1¢!0@ù
-× ;
-- (_Bool)ptation:(id)arg1;
-- (_Bool)iss;
-- (long long);
+- (_Bool);
+- (void)text:(id)arg1;
+- (_Bool)MovementRequest:(id)arg1;
+- (void)¹üG?o;·Q: /* Error: Ran out of types for this method. */;
+- (long long)ð[];
+- (void)q;
 
 @end
 

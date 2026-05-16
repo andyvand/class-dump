@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 
 @end
 

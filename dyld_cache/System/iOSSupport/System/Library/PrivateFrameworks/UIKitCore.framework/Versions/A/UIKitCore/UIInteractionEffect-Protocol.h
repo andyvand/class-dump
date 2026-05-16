@@ -5,6 +5,5 @@
 //
 
 @protocol UIInteractionEffect
-- (void);
 @end
 

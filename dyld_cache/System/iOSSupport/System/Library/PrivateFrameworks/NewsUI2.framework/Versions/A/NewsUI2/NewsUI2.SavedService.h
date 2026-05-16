@@ -18,8 +18,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)AudioHistoryFeedRemovalRequest;
 
 @end
 

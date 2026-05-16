@@ -7,7 +7,7 @@
 @interface (null) (Interchange)
 + (id);
 + (id);
-+ (id)myl¬Ö0%EÉ;
++ (id);
 + (id);
 + (id);
 + (id);

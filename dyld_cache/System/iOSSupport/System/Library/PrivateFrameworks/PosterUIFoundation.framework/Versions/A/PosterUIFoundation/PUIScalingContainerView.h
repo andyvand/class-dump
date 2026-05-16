@@ -18,10 +18,10 @@
 - (void);
 - (struct CGSize);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ectangleUpdatesRequested: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @dynamic contentView;

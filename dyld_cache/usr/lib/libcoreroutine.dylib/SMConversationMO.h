@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
 + (id);
-+ (id);
++ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) SMSessionConfigurationMO *configuration; // @dynamic configuration;

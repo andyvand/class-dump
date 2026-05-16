@@ -12,12 +12,12 @@
     _Bool _unknownOrientation;
 }
 
-- (id)catedString;
-- (void)XÞ ÿÍ=-l;
-- (id)Þªÿ;
-- (void)Um;
-- (id)þ;
-- (void)þo;
+- (id);
+- (id)llowed. Subview removed:(struct CGRect)arg1 %@; Background view:(_Bool)arg2 %@;
+- (void)_;
+- (id);
+- (void)$õg;
+- (void)Ì{¯ÿ;
 
 @end
 

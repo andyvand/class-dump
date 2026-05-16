@@ -15,9 +15,9 @@
 
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (void)ryStoreType;
-- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

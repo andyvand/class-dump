@@ -21,12 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (long long)0@ù
-× ;
+- (void);
+- (long long);
+- (void)cessory %@ role %@;
 
 // Remaining properties
 @property(copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;

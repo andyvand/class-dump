@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)´TÞÿiûg8;
+- (id)ssetsDataSourceManager;
 
 @end
 

@@ -29,15 +29,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CPBarButton *backButton;

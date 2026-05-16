@@ -5,44 +5,25 @@
 //
 
 @class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
+@protocol UITextInputTraits;
 
 @protocol UITextInputTraits_Private
-- (void)1	1¢!0@ù
-× ;
+- (void)r:(id <UITextInputTraits>)arg1;
 
 @optional
+- (void)AL	ð!<Bùq1Â0@ù
+× ;
+- (void)q1Â0@ù
+× ;
+- (long long)qð1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (_Bool)0;
+- (void)tionBar;
+- (_Bool)rovider: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct __CFCharacterSet *);
-- (_Bool)rWithBool: /* Error: Ran out of types for this method. */;
-- (void)il_resources/app_icons/notes@3x.png;
-- (struct UIEdgeInsets)C`;
-- (void);
-- (void)4{CGRect={CGPoint=dd}{CGSize=dd}}32@64;
-- (void)ffer:(int)arg1;
-- (void)ForStrokes:(UIColor *)arg1 callCompletionOnMainThread:cancelBlock:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)ion;
-- (void)ration:(long long)arg1 %g;
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long)6@24@32@40@48B56B60;
-- (void)eCustomKey;
-- (_Bool)SpotlightIndexer;
-- (void)P;
-- (void)blID & date from chat identifiers:(struct UIEdgeInsets)arg1 %@;
-- (void), m.subject, m.country, m.attributedBody, m.version, m.type, m.service, m.account, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
-- (_Bool);
-- (void)@0:(_Bool)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
-- (UIImage *)0;
-- (void);
-- (UIColor *)× ;
-- (_Bool)0@ù
-× ;
-- (void)ù	°1¢!0@ù
-× ;
-- (NSString *)dMail;
-- (void)ellDelegate;
-- (void);
+- (UIColor *);
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;

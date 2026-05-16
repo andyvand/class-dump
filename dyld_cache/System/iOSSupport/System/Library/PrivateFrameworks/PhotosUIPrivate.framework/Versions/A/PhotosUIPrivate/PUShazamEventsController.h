@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (_Bool)dicatorsForAssetsWithFetchResult:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)trollers;
+- (void)ctCXcG;
 
 // Remaining properties
 @property(nonatomic, retain) PUAssetViewModel *assetViewModel; // @synthesize assetViewModel;

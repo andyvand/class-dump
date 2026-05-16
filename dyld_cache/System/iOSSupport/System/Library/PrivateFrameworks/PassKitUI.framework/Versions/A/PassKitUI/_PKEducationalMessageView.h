@@ -18,13 +18,13 @@
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
-- (_Bool)0@ù
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)0@ù
 × ;
 
 @end

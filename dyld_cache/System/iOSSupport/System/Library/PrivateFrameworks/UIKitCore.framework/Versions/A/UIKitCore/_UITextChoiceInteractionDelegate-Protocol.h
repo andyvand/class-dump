@@ -5,7 +5,5 @@
 //
 
 @protocol _UITextChoiceInteractionDelegate
-- (_Bool);
-- (void);
 @end
 

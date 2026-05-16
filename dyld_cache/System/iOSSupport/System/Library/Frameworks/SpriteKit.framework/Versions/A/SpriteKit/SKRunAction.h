@@ -21,15 +21,15 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (_Bool)ÿÿp1;
++ (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)ray;
 
 @end
 

@@ -5,7 +5,8 @@
 //
 
 @protocol PXMutableVideoSession
-- (void)à;
+- (void)\ùÿûÿ¼}øÿ;
+- (_Bool)];
 
 // Remaining properties
 @property(nonatomic) _Bool allowsExternalPlayback;

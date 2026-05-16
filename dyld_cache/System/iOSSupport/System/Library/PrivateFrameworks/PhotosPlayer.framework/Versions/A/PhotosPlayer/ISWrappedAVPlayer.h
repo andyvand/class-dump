@@ -44,7 +44,7 @@
     id <ISWrappedAVPlayerDelegate> _delegate;
 }
 
-+ (id);
++ (id);
 + (id);
 
 // Remaining properties

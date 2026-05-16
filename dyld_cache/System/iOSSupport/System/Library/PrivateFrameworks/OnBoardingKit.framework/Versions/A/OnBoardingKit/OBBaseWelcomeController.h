@@ -11,7 +11,7 @@
 
 + (struct CGSize);
 + (struct CGSize);
-+ (struct CGSize)tHash<String>, Traits = WTF::HashMap<WTF::String, void (Inspector::AutomationBackendDispatcher::*)(long, WTF::RefPtr<WTF::JSONImpl::Object> &&)>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::String, void (Inspector::AutomationBackendDispatcher::*)(long, WTF::RefPtr<WTF::JSONImpl::Object> &&)>::KeyValuePairTraits, WTF::DefaultHash<String>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
++ (struct CGSize);
 - (void);
 - (long long);
 - (struct NSDirectionalEdgeInsets);
@@ -20,20 +20,19 @@
 - (void);
 - (void);
 - (id);
-- (void)jectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF:(unsigned long long)arg1:RefPtr<WebKit::FileSystemStorageHandle>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (struct CGSize)ageDownRight;
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void)(;
 - (void);
-- (void)a^Ð!(Gùq1¢!0@ù
-× ;
-- (struct NSDirectionalEdgeInsets)ter/DiagnosticLogs/OnBoarding-DEBUG.log;
-- (void)utton is permitted.;
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct NSDirectionalEdgeInsets);
+- (void)Q;
 
 // Remaining properties
 @property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;

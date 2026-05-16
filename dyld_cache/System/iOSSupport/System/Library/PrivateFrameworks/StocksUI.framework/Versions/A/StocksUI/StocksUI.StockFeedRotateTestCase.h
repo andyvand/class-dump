@@ -15,12 +15,12 @@
     long long rotateOrientation;
 }
 
-- (void);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (unsigned long long);
 - (double);
+- (unsigned long long);
+- (void)}þÿþÿøþÿHþÿ´þÿäþÿ´þÿ4þÿLþÿ;
+- (id)C;
 - (id);
 
 // Remaining properties

@@ -11,17 +11,17 @@
     _Bool mScaleWithText;
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (double);
 - (_Bool);
-- (void);
-- (double);
 - (id);
 - (void);
-- (id)mpressedSessionEventArticleSaved;
+- (double)48B56;
+- (void)ContainedReps;
 
 // Remaining properties
 @property(nonatomic) double baselineOffset; // @synthesize baselineOffset=mBaselineOffset;

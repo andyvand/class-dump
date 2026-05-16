@@ -11,9 +11,9 @@
     MISSING_TYPE *isBlurEnabled;
 }
 
+- (id);
 - (_Bool);
 - (id);
-- (id);
 
 @end
 

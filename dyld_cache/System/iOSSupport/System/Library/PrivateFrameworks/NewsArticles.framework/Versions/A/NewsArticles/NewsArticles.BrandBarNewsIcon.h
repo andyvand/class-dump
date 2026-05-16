@@ -8,9 +8,9 @@
 {
 }
 
+- (struct CGSize);
 - (id);
-- (id)@;
-- (struct CGSize)mControlsDelegate;
+- (id);
 
 @end
 

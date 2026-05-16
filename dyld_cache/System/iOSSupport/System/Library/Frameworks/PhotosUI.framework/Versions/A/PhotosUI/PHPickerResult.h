@@ -24,14 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)1B50@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isAssetResult; // @synthesize _isAssetResult=__isAssetResult;

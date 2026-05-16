@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewLayoutAttributes, UICollectionViewLayoutInvalidationContext;
+@class UICollectionViewLayoutInvalidationContext;
 
 @protocol _UICollectionLayoutSectionCallback
-- (_Bool);
-- (UICollectionViewLayoutInvalidationContext *)ionsProvider:(NSIndexPath *)arg1 ,V_secondaryActionsProvider;
-- (void)erator;
-- (void)Item focused before reload:(UICollectionViewLayoutAttributes *)arg1 %@;
+- (_Bool)roundBlur;
+- (UICollectionViewLayoutInvalidationContext *)li;
 @end
 

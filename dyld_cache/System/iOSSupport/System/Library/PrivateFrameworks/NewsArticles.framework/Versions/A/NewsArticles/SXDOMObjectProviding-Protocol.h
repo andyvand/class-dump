@@ -5,12 +5,9 @@
 //
 
 @class SXComponents;
-@protocol SXAutoPlacement, SXComponentLayout, SXComponentTextStyle, SXDocumentStyle, SXTextStyle;
+@protocol SXAutoPlacement, SXDocumentStyle;
 
 @protocol SXDOMObjectProviding
-- (id <SXTextStyle>)@;
-- (id <SXComponentTextStyle>)a;
-- (id <SXComponentLayout>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement;

@@ -13,10 +13,10 @@
     MISSING_TYPE *isCompactToolPicker;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

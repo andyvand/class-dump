@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewDropProposal, UIDragPreviewParameters;
+@class UICollectionView, UICollectionViewDropProposal, UIDragPreviewParameters;
+@protocol UICollectionViewDropCoordinator;
 
 @protocol UICollectionViewDropDelegate
-- (void);
+- (void)nToTraitCollection:(UICollectionView *)arg1 withTransitionCoordinator:(id <UICollectionViewDropCoordinator>)arg2;
 
 @optional
-- (_Bool)hasizedFontAttributes;
-- (void)ntroller;
-- (UICollectionViewDropProposal *)xòÌò;
-- (void)~Âûÿtÿÿ;
-- (UIDragPreviewParameters *)ceIdiom;
-- (void)NFIRMATION_SINGLE;
+- (void)1Â0@ù
+× ;
+- (UICollectionViewDropProposal *)6@0:(UICollectionView *)arg1 8;
+- (UIDragPreviewParameters *)MacToolbarDelegate>";
+- (_Bool)lsCount;
+- (void)$¾x¾;
+- (void);
 @end
 

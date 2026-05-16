@@ -14,11 +14,11 @@
 
 - (void);
 - (void);
-- (id)onRequiredText;
-- (void)name;
-- (void);
+- (id);
+- (id);
 - (void);
-- (id)5;
+- (void);
+- (void)pÿÿúËýÿ;
 
 @end
 

@@ -20,9 +20,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct UIEdgeInsets);
 - (_Bool);
 - (id);
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic, readonly) Class balloonViewClass;

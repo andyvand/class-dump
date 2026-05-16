@@ -15,7 +15,7 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id)_unwind_info;
+- (id);
 
 @end
 

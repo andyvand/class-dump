@@ -47,34 +47,34 @@
 }
 
 + (id);
-+ (void)ssage to send the nickname info or no contents in message dictionary %@ %@;
-+ (void)ressed:(Class)arg1;
-- (struct CGPoint)hTracker;
-- (id)eCode: /* Error: Ran out of types for this method. */;
-- (void)vider:(struct CGPoint)arg1 block: /* Error: Ran out of types for this method. */;
-- (void)tURL:(id)arg1 archiveFilePermissions:withError: /* Error: Ran out of types for this method. */;
-- (void)emoteIntentProtocol;
-- (void);
-- (void);
-- (void)_;
-- (void)(;
++ (void);
++ (void)on:(Class)arg1 getScopeBarContentInset:(long long)arg2;
+- (struct CGPoint);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)e;
-- (id)o;
-- (id)=/;
-- (unsigned long long)lly, sync time:%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ents have synced successfully, sync time:%@ /* Error: Ran out of types for this method. */;
-- (double)e with GUID:%@ /* Error: Ran out of types for this method. */;
-- (id)ing auto reconnect timer instead;
-- (double)t> Personal off grid status is %d, wantsDeliveryReceipt:%@ /* Error: Ran out of types for this method. */;
-- (double)ine;
-- (id)te %@, unrecognized update type;
-- (void)tBackgroundRequest;
-- (void)processing iml to im association command:%@, %@ /* Error: Ran out of types for this method. */;
-- (void)se sandbox token, %@ token:%@ /* Error: Ran out of types for this method. */;
-- (void)ecents.zip;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (struct UIEdgeInsets);
+- (double);
+- (id);
+- (double);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,45 +87,42 @@
 - (long long);
 - (void);
 - (double);
+- (_Bool);
 - (void);
+- (struct CGSize);
 - (void);
-- (void);
-- (void)ry";
-- (void)dleID;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void)Áo!äCù1Âð1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)±Ê°1¢!0@ù
-× ;
 - (void);
-- (void)0@ù
+- (void);
+- (id)0@ù
 × ;
-- (void)!¬FùÍÐ1¢!0@ù
+- (id)!¸Gù\Ð1Â0@ù
 × ;
+- (void)PointerLensView"16@0:(id)arg1 8;
+- (void)tallHeight;
+- (void)ditingOrHasContent;
+- (id)e>",W,N,V_delegate;
+- (void)teRequest:(id)arg1;
+- (void)V_connectionValues;
+- (void)entationHint of a variable it doesn't know about:(struct CGRect)arg1 %@, which is owned by:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)rectPrompt;
-- (_Bool)arRowHeight;
-- (id)arBackdrop;
-- (void)gItems;
-- (void)ô;
-- (_Bool)ÛþÿÐÛþÿ0ÜþÿHÜþÿpÜþÿèÝþÿÞþÿÈÞþÿèÞþÿßþÿ(ßþÿHßþÿhßþÿßþÿ¨ßþÿÀßþÿØßþÿðßþÿàþÿ àþÿXàþÿàþÿÀàþÿøàþÿáþÿ(áþÿ@áþÿXáþÿpáþÿáþÿ áþÿ¸áþÿÐáþÿðáþÿâþÿ âþÿ8âþÿlâþÿâþÿ¤âþÿ¼âþÿÔâþÿìâþÿãþÿãþÿ4ãþÿLãþÿdãþÿãþÿ¸ãþÿðãþÿ(äþÿ@äþÿXäþÿpäþÿäþÿ`èþÿxèþÿ°èþÿÈèþÿàèþÿ(êþÿ;
-- (void);
+- (void)%ld
+;
+- (void)pCardViewController;
+- (id)sistency:unknown list environment ( /* Error: Ran out of types for this method. */;
+- (_Bool)nStateCIeyByy_;
+- (_Bool)¬?Ä7Øÿÿÿ;
+- (void)¶W;
+- (void)L¾g;
+- (void);
+- (void)áÎjj;
+- (id)ðÅk;
 - (_Bool);
-- (void)t"16@?0@"UIMutableApplicationSceneSettings"8;
-- (id)24;
-- (id)ated with a view, which it needs to animate on displays different from the main one.;
-- (void)element failed to match the Swift Array Element type
-Expected ;
-- (void)1uÀ3PlMò?;
-- (_Bool)§c;
-- (id)ÅÅ;
-- (struct CGSize)Üh?ÿA¶;
-- (_Bool)(;þk;
-- (void)l;
+- (void)|:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) UIAccessibilityHUDGestureManager *axHUDGestureManager; // @synthesize axHUDGestureManager=_axHUDGestureManager;

@@ -17,8 +17,8 @@
 + (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)oveConfirmation:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *posterFrameViewQueue; // @synthesize posterFrameViewQueue=_posterFrameViewQueue;

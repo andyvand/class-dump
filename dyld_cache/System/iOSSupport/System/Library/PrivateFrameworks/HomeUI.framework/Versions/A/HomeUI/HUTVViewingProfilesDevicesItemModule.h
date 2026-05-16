@@ -26,9 +26,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)e Done button was pressed.;
 
 // Remaining properties
 @property(readonly, nonatomic) HMMediaContentProfileAccessControl *accessControl;

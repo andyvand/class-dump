@@ -7,26 +7,10 @@
 @class UIViewController;
 
 @protocol _TtP7ChatKit30CKTranscriptBackgroundProtocol_
-- (void)9;
-- (void)Õ;
-- (void);
-- (void)ddAttachment;
-- (void)R,N,V_indexAccessQueue;
-- (void)etIsCancelled:(struct CGRect)arg1;
-- (void)"NSNumber",C,N,V_toValue;
-- (void)T;
-- (UIViewController *)²ÿ1%;
-- (void)`úÖ;
-- (void)ô;
-- (void)scedString;
-- (void)tedRange:ofTextStorage:note:textView:allowAutoExplicitHashtag:isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
-- (void)NSTextStorage",&,N,V_strongTextStorage;
-- (void)yle;
-- (void)V_reason;
-- (void)>;
-- (long long)earance;
-- (void) s;
-- (UIViewController *)ÀL¸;
+- (double)ctItemIdentifier: /* Error: Ran out of types for this method. */;
+- (UIViewController *)ViewControllerDelegate;
+- (double)ToImage:imageDisplayTime:pairingIdentifier: /* Error: Ran out of types for this method. */;
+- (UIViewController *)CameraViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentDerivedUserInterfaceStyle;

@@ -9,6 +9,7 @@
 @interface ConversationKit.RequestsHandler
 {
     MISSING_TYPE *cachedHandlesToIsUnknown;
+    MISSING_TYPE *featureFlags;
     MISSING_TYPE *$__lazy_storage_$_contactStore;
 }
 

@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKTapbackPickerViewControllerDelegate;
-
 @protocol CKTapbackPickerContainerAccessoryViewDelegate
-- (id <CKTapbackPickerViewControllerDelegate>)onvertRect:fromView: /* Error: Ran out of types for this method. */;
 @end
 

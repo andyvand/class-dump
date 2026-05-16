@@ -15,14 +15,14 @@
 }
 
 + (id);
-+ (id);
++ (id)kground;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ons: /* Error: Ran out of types for this method. */;
 
 @end
 

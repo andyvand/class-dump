@@ -35,10 +35,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)@0:8Q16@24Q32Q40@48 /* Error: Ran out of types for this method. */;
-- (id)ÄÀG;
+- (id);
+- (void)ilText:icon:contentView:] /* Error: Ran out of types for this method. */;
+- (id)assRegularPhone;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

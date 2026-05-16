@@ -7,8 +7,6 @@
 @protocol SCKDatabaseStore;
 
 @protocol SCKDatabaseStoreCoordinator
-- (void);
-- (void)sByZoneName;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SCKDatabaseStore> underlyingStore;

@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (id)ëEÉ;
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -31,10 +31,10 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (id);
+- (_Bool)SProgress",&,N,V_executorProgress;
+- (void)y} ${plus};
+- (void)alogResponseCW_pG;
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsed) _Bool collapsed;

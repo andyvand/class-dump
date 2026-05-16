@@ -5,10 +5,6 @@
 //
 
 @protocol APPCMediaMetricsHelping
-- (void (^)(long long, long long));
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic) long long visiblePercentage;

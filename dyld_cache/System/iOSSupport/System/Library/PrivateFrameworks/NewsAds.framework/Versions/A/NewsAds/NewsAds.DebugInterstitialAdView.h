@@ -15,10 +15,10 @@
     MISSING_TYPE *moreButton;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)oller";
-- (id);
+- (void);
 
 @end
 

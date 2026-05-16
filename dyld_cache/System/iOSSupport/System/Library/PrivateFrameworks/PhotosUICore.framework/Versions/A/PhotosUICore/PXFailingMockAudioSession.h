@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ollection:referencePersons:curationType:curationKind:curationLength:options:sortDescriptors:reverseSortOrder:filterPredicate:fetchPropertySets:libraryFilter: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)eAvailabilityProcessingViewFactory;
+- (CDStruct_1b6d18a9)ctionComplete;
+- (void)¼"a!Ê`;
+- (void)¤Ôÿ±dL<É5;
 
 @end
 

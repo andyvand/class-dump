@@ -12,9 +12,9 @@
 {
 }
 
-+ (long long)initWithTopicIdentifier:title: /* Error: Ran out of types for this method. */;
-+ (id)tring;
-+ (void)ollersConnected;
++ (long long);
++ (id);
++ (void);
 + (id);
 
 // Remaining properties

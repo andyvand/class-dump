@@ -25,17 +25,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id)1b0@ù
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)!PCùñDÐ1â
+0@ù
 × ;
+- (id);
+- (id)ation instance;
 - (void);
-- (void);
-- (id)4;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAssetCollection:) PHAssetCollection *_assetCollection; // @synthesize _assetCollection=__assetCollection;

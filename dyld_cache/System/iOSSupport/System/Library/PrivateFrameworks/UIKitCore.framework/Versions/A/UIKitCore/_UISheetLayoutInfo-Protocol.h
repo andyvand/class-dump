@@ -8,86 +8,52 @@
 @protocol _UISheetLayoutInfo, _UISheetLayoutInfoDelegate, _UIViewMaterial;
 
 @protocol _UISheetLayoutInfo
-- (void);
-- (struct CGAffineTransform);
-- (_Bool)z;
-- (void)`;
-- (void);
-- (void);
-- (void (^)(void))ns;
-- (double)um texture instructions;
-- (void (^)(void))VP num attributes;
-- (double)nstructions;
-- (_Bool)nels;
-- (double);
-- (_Bool)!;
-- (struct CGPoint (^)(void))6@"NSString"24C32@"NSArray"36;
-- (double)te"32;
-- (_Bool)8B52B56B60B64@68;
-- (struct UIEdgeInsets)untimeBase=QAQ}q^{__CFArray}^{_IMDHandleRecordStruct}^{_IMDHandleRecordStruct}^{__CFArray}^{__CFDictionary}}16@24;
-- (struct CGRect)@40@0:8Q16q24^@32 /* Error: Ran out of types for this method. */;
-- (double)@0:8@"IDSService"16@"IDSAccount"24@"IDSProtobuf"32@"NSString"40@"IDSMessageContext"48 /* Error: Ran out of types for this method. */;
-- (double)String"40@"IDSMessageContext"48;
-- (id <_UISheetLayoutInfo>)eleteDate: /* Error: Ran out of types for this method. */;
-- (id <_UIViewMaterial>)tRequestPersistentMenu: /* Error: Ran out of types for this method. */;
-- (_Bool)icknameInfoToChatID: /* Error: Ran out of types for this method. */;
-- (_Bool)t:callerID:account: /* Error: Ran out of types for this method. */;
-- (_Bool)rson:properties:conference: /* Error: Ran out of types for this method. */;
-- (long long)s;
-- (NSArray *)nly:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (double)calCachedSaltPresent;
-- (void)ished;
-- (_Bool)cordType:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)on;
-- (_Bool)adAttachmentAssetsWithActivity:restoringAttachments: /* Error: Ran out of types for this method. */;
-- (_Bool)oCacheWithRecords:failed to add %tu name records to cache:%@ /* Error: Ran out of types for this method. */;
-- (void)(;
-- (_UISheetPresentationMetrics *)$;
-- (_Bool)el;
-- (void);
-- (void)P;
-- (void)A;
-- (void)CMusicSubscriptionStatusMonitor";
-- (void)setEndpoints:(_Bool)arg1;
-- (void);
-- (double)!AùÀ1¢!0@ù
+- (double)°!Dù±Xð1Â0@ù
 × ;
-- (_UISheetPresentationControllerAppearance *)Ð!tGù1È°1¢!0@ù
+- (void);
+- (void)0@ù
 × ;
-- (_Bool)
+- (void)að!GùQ`Ð1Â0@ù
 × ;
-- (long long)Î1¢!0@ù
+- (void)0@ù
 × ;
-- (struct CGRect)ngToolsProofreadingSuggestion";
-- (double)dex;
-- (_Bool)rees: /* Error: Ran out of types for this method. */;
-- (double)nts;
-- (void)ut:(_Bool)arg1;
-- (void)TB,R,N,V_usesVerticalLayout;
-- (_Bool)ropShadowEnabled,V_dropShadowEnabled;
-- (double)T@"NSMutableArray",R,N,V_items;
-- (_UISheetPresentationControllerAppearance *)urveProvider>",C,N,S_setTimingParameters:,V_timingParameters /* Error: Ran out of types for this method. */;
-- (_Bool),Æ;
-- (void)ì³H´µÐµà¶À·;
-- (void)ter:(_Bool)arg1 %@;
-- (void)t info was missing. suggestionID = %@;
-- (void)provider:(UIView *)arg1 %{public}@; session:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)RemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist. /* Error: Ran out of types for this method. */;
-- (struct CGSize)backButtonLeadingPadding;
-- (void)tiveUIEnabled;
-- (double)dateFormat:%@ /* Error: Ran out of types for this method. */;
-- (NSString *)t (e.g. `[focusSystem requestFocusUpdateToEnvironment:environment]`), outlining each step of the process for determining the next focused item. /* Error: Ran out of types for this method. */;
-- (_Bool)"UIImage"16^B24;
-- (struct CGAffineTransform)r;
-- (NSArray *)ICompositingModeArithmeticMax;
-- (double)%@
-;
-- (_Bool)ring;
-- (_Bool)_TtCC5UIKit21_UIIntelligenceButton8FillView;
-- (void)200@0:(_Bool)arg1 8Q16B24B28{_UIListGeometry={NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}32q176q184@192;
-- (_Bool)eworks/BrowserEngineKit.framework/BrowserEngineKit;
-- (void)3\þdþUUÿ3¼]ÿ=Uÿ3Lþdþ=Uÿ3p2|þEUÿ3±þ;
-- (void)å·4°\þ;
+- (_Bool)áð!Ì@ùQb°1Â0@ù
+× ;
+- (void)!	ð!¼AùQe°1Â0@ù
+× ;
+- (void)Ô ;
+- (void)1"didCustomizeDisplayOrder"b1};
+- (double)ner";
+- (_Bool);
+- (void)leHeight:(long long)arg1;
+- (void)ateScrollInsets;
+- (void)onInteractionDidFinishPresentationTransition:(double)arg1;
+- (double)ference;
+- (void)nAtEdge:(_Bool)arg1 force: /* Error: Ran out of types for this method. */;
+- (double)gePlatterizationPreference: /* Error: Ran out of types for this method. */;
+- (double)hDictionary:copyItems:fallback: /* Error: Ran out of types for this method. */;
+- (double)imationLayoutAttributesDict;
+- (void)ateChildViewControllerAtIndex:(_Bool)arg1;
+- (struct CGSize)oraryView: /* Error: Ran out of types for this method. */;
+- (void)lightColor;
+- (_UISheetPresentationControllerAppearance *)_prefersScaledContent;
+- (void)rawsShadow;
+- (UIView *)ignmentConstraint;
+- (void)N,V_tableView;
+- (NSString *)Item;
+- (void)
+Ü;
+- (void)rontBoard;
+- (_Bool)ation _updateSnapshotForBackgroundApplication:] /* Error: Ran out of types for this method. */;
+- (_UISheetPresentationMetrics *)s from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
+- (_UISheetPresentationControllerAppearance *)1UITextInput_p;
+- (_Bool)ýFØ?Ößã?­ú\mÉù¹@Ó.¦î*RÀriüÂ«ñ?;
+- (_Bool)þÿÿÿÿp;
+- (void);
+- (void)2384þ])23ä;þ])2384þ;
+- (_Bool);
+- (NSArray *)@éR0MX43@;
+- (void)I\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *_activeDetents;

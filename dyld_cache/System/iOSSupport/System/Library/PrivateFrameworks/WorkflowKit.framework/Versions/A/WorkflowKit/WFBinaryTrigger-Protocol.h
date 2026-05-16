@@ -5,8 +5,6 @@
 //
 
 @protocol WFBinaryTrigger
-- (_Bool)ØÌ;
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool onDisable;

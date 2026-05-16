@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
     UIColor *_strokeColor;
 }
 
-+ (Class)|;
++ (Class);
 - (id);
-- (void);
-- (id)?24;
-- (void)rapid:(id)arg1 deleteCount: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)}8Q16Q24;
-- (void)nSnapshot"16@?0@8;
-- (void)es-8RÁà??Ð8Æ¦ñ@;
+- (void)rViewHostingImpl>";
+- (id)isPrivate:(struct CGRect)arg1 placeholderToken: /* Error: Ran out of types for this method. */;
+- (id)<æ;
+- (id)NameEntry;
+- (id)ication_BackgroundTasks.m;
+- (void)enterOwner.m;
+- (void)%p; frame:(id)arg1 %@; barButtonItem:%@> /* Error: Ran out of types for this method. */;
+- (void)SÈH;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

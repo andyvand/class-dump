@@ -23,17 +23,17 @@
 - (double);
 - (double);
 - (_Bool);
-- (id)T`;
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (long long)ngeObserver:(struct CGSize)arg1;
+- (id)gments"b1"translucentBackground"b1"appearanceNeedsUpdate"b1"selectionIndicatorDragged"b1"useInnerSegmentSpacing"b1"adjustsForContentSizeCategory"b1"focusUpdatedBeforeSelection"b1"useDynamicShadow"b1"animatingOutDynamicShadow"b1"animatingSeleciton"b1"animatingHoverOut"b1"styleProviderSupportsExtraTraitCollectionChanges"b1"styleProviderSupportsFocusWithoutSelection"b1"styleProviderSupportsHidingSelectionOnFocusUpdate"b1"styleProviderSupportsSegmentHighlightAnimation"b1"appCustomizedSelectedVisualEffect"b1"overridesCustomInfoViewForSegments"b1"styleProviderSupportsFeedbackGeneration"b1"styleProviderSupportsLegacyActiveSegmentControl"b1"hasBackdropView"b1"hasMaterial"b1"forceUseGlass"b1"backdropIsVisualEffectView"b1"shouldPlayFeedback"b1"styleProviderSupportsGlassProvider"b1"styleProviderWantsLensView"b1"styleProviderWantsC2Animation"b1"useSpringBoardVibrancy"b1"styleProviderWantsFreeSlidingSelection"b1"shouldLiftLensView"b1};
+- (long long)BarStateRequest"24@"UISlidingBarState"32d40;
+- (id)ainer view is in a window, but it is not. (container:(id)arg1 %@);
+- (void);
 - (id);
-- (void)Representable;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsColumnResize;

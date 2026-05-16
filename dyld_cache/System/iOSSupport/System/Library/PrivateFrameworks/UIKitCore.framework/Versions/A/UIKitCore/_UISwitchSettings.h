@@ -9,18 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (double)not trusted;
-- (double)oleanEntitlement;
-- (double)ot/SFR/current/apticket.der;
-- (double)d to lookup apticket path;
-- (double)not a CFData;
-- (double)found;
-- (double)omDeviceTree;
-- (double)PropertyCallback;
-- (double)nceIsValid;
-- (double)mmon name from certificate;
-- (double)e;
++ (id)erLayoutFrame;
 - (double);
 - (double);
 - (double);
@@ -31,16 +20,27 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double)#;
 - (double);
 - (double);
 - (double);
-- (double);
 - (double);
 - (double);
-- (double)t;
-- (_Bool)&,N,V_brand;
 - (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (double)Ô ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool feedbackEnabled;

@@ -23,12 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)0@ù
-× ;
+- (unsigned long long)rms;
+- (void)Ä=;
+- (void)Object:(unsigned long long)arg1 %@, accessory:%@, containedProfiles:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *addresses;

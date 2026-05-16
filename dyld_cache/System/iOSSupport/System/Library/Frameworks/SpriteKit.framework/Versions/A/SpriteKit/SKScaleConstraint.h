@@ -26,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)ss<unsigned short>>, std::allocator<std::pair<const unsigned short, SKSpriteNode *>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) SKRange *xRange; // @synthesize xRange=_xRange;

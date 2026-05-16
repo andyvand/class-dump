@@ -17,22 +17,26 @@ __attribute__((visibility("hidden")))
     UIKBBackdropView *_backdropView;
 }
 
-- (void)changedTo:(id)arg1 from:(id)arg2;
-- (id)bActionForDeviceID:action:subAction: /* Error: Ran out of types for this method. */;
-- (void)akableMatches;
-- (void)duplicatedWithGUID:(struct CGRect)arg1;
-- (id);
-- (id);
-- (_Bool)!;
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id)UIPanelController"16@"UIViewController"24;
-- (void)dicatorTransitionMaskSymbolConfiguration;
-- (void)GGí3GtGG;
-- (id)rnal inconsistency:encountered out of bounds section index while validating delete updates (section=%ld, oldSectionCount=%ld) /* Error: Ran out of types for this method. */;
-- (id)Ô;
-- (void)3Êÿø;
+- (id)1Â0@ù
+× ;
+- (void)ÔL;
+- (_Bool)hController and navigation top item aren't correctly associated. Will assign the item to the search controller. 
+	SearchController=%@
+	SearchController's navigation item=%@
+	Top navigation item = %@;
+- (id)pTIÿ;
+- (void)`;
+- (void)`f;
+- (void)`Xÿ;
+- (id)È~l;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBBackdropView *backdropView; // @synthesize backdropView=_backdropView;

@@ -28,14 +28,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)er:(_Bool)arg1;
+- (void)lastUpdateEventBuilders;
+- (void);
+- (_Bool)ing stream control for profile:%@/%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long changeType; // @synthesize changeType=_changeType;

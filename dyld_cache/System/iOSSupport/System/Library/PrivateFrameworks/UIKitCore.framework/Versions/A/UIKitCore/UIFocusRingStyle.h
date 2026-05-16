@@ -8,18 +8,18 @@
 {
 }
 
-+ (double)for previously handled nickname %@;
-+ (double)photo to handle %@;
-+ (double)me feature is disabled, not sending personal nickname to chat;
-+ (double)is disabled, not sending updates to peers;
 + (double);
 + (double);
 + (double);
-+ (double)z;
 + (double);
 + (double);
 + (double);
-+ (double)ja@9_;
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
 
 @end
 

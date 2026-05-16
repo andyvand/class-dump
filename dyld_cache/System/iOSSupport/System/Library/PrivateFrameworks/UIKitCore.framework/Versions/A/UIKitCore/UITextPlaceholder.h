@@ -14,14 +14,13 @@
 }
 
 - (void);
-- (struct CGRect)ntTextProvider:removedTransferGUIDsOut: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)
-× ;
-- (id)ponentPhase;
+- (void);
+- (id);
+- (id)>8?¼?Ø@TA;
+- (void)a;
 
 // Remaining properties
 @property(retain, nonatomic) _UITextPlaceholderAttachment *attachment; // @synthesize attachment=_attachment;

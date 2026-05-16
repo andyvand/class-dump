@@ -24,18 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (struct CGRect);
-- (id)DATA_CONST;
-- (id)ist__DATA_CONST;
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
+- (struct CGPoint);
+- (id);
 - (void);
-- (id)ghtAppearance;
-- (struct CGPoint)ä;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFocusEnvironmentScrollableContainerTuple *environmentScrollableContainer; // @synthesize environmentScrollableContainer=_environmentScrollableContainer;

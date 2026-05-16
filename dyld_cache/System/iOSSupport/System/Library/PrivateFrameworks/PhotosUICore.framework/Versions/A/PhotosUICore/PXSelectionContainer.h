@@ -64,17 +64,16 @@
 - (_Bool);
 - (long long);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
+- (id)»GQo__SSQo__Qo__]»Qo_;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)1{Ð1b0@ù
-× ;
-- (long long)sonPromoterQueue;
-- (id)éYi;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXFastEnumeration> allDataSourceObjects; // @synthesize allDataSourceObjects=_allDataSourceObjects;

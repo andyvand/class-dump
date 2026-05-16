@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)|S;
 
 // Remaining properties
 @property(nonatomic, retain) NSNumber *rowIndex; // @synthesize rowIndex;

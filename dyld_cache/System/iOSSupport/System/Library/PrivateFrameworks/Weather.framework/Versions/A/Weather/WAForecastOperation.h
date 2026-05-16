@@ -87,28 +87,28 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void);
 - (int);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)A!pCù81B0@ù
+- (void)0@ù
 × ;
+- (id)T{_NSRange=QQ},R,N,V_range;
+- (void),;
 
 // Remaining properties
 @property(retain, nonatomic) WFAggregateCommonRequest *aggregateRequest; // @synthesize aggregateRequest=_aggregateRequest;

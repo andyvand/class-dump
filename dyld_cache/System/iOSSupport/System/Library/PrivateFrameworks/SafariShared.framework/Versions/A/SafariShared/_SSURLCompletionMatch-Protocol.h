@@ -7,8 +7,6 @@
 @class NSDate, NSString, NSURL;
 
 @protocol _SSURLCompletionMatch
-- (_Bool);
-- (NSString *)ion.manageShare;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastVisitTime;

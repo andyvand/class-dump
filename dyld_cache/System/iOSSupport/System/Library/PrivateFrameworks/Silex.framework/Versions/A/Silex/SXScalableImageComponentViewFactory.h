@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)itySelectedTextRange;
+- (int);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

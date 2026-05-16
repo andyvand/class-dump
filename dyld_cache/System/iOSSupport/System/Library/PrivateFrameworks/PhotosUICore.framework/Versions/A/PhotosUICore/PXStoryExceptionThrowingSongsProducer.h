@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)ion;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

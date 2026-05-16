@@ -20,20 +20,20 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)7;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)ntroller:didUpdateAndObserveScrollView:forEdges: /* Error: Ran out of types for this method. */;
-- (void)tDelegate;
-- (id)ÈÂçÿ®QþhÇþÿ;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)ithTitle:(id)arg1 image:action:propertyList: /* Error: Ran out of types for this method. */;
+- (void)systemPointerStyle;
+- (id)dgeBarButtonItem:(struct CGRect)arg1;
+- (id)nEditingBegins;
+- (void)ssoryViewController:(struct CGRect)arg1;
+- (void)S;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *platterContentView; // @synthesize platterContentView=_platterContentView;

@@ -24,20 +24,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
 - (struct CGSize);
+- (id);
+- (id);
+- (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (_Bool)÷;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasContent;

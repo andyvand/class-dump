@@ -15,8 +15,8 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXGSpriteReference *decoratedSpriteReference; // @synthesize decoratedSpriteReference=_decoratedSpriteReference;

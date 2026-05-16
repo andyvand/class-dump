@@ -14,12 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void)iguration;
-- (void);
-- (_Bool);
-- (_Bool)6_;
+- (_Bool)
+× ;
+- (_Bool)tyScaleHint:(id)arg1;
+- (void)sets;
+- (void):(id)arg1 inLayer: /* Error: Ran out of types for this method. */;
+- (_Bool)orHighlightedItem:(id)arg1;
+- (void)UIButtonBarItemGroupLayout;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -17,18 +17,17 @@
 + (id);
 - (void);
 - (void);
-- (CDUnknownBlockType)`H@`i@`;
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void)!¼DùqÔð1¢!0@ù
-× ;
-- (id)mForFilterMode: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)SayØFz9G;
+- (_Bool)8569-c753b1bff6fa;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType eventNotificationBlock; // @synthesize eventNotificationBlock=_eventNotificationBlock;

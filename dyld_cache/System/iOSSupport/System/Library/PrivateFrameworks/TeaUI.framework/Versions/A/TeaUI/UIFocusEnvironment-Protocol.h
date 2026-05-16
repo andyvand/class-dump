@@ -8,12 +8,7 @@
 @protocol UIFocusEnvironment, UIFocusItemContainer;
 
 @protocol UIFocusEnvironment
-- (void);
-- (void)hju8i;
-- (_Bool)k;
-
-@optional
-- (UIView *);
+- (_Bool)coordinatingResetSwipeAction;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;

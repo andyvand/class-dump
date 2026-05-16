@@ -11,10 +11,10 @@
     NSNumber *authorized;
 }
 
-+ (_Bool)ortion of the image size between 0 and 1. 0 starts at the left of the image. (WFPercentageTextX);
-- (void);
++ (_Bool);
 - (id);
 - (void);
+- (void)measurementUnitValue;
 
 @end
 

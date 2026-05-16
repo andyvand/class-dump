@@ -14,7 +14,7 @@
 + (id);
 + (Class);
 + (id);
-+ (id)´N*;
++ (id);
 - (_Bool);
 - (id);
 - (void);
@@ -46,9 +46,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)mation.;
 
 // Remaining properties
 @property(readonly, nonatomic) Class accessResourceClass;

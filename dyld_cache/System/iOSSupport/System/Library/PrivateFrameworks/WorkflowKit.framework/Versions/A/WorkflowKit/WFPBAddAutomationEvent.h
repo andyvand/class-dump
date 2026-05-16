@@ -46,32 +46,32 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (_Bool)XÝõ|;
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (_Bool)on.RewriteTextIntent;
-- (void)meterDefinition unitFromUnitString:(id)arg1 ];
 - (id);
-- (id)p7ÚÃ;
+- (id);
+- (_Bool)(\`Ìe;
+- (void)i;
+- (void)%@;
+- (_Bool)NSUUID"24@?0@"WFContentItem"8Q16;
+- (void)utoCollapseDuration;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

@@ -38,17 +38,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id)ilDomain;
+- (_Bool)ntsFromArray: /* Error: Ran out of types for this method. */;
+- (id)(T;
+- (void)e Average;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsWriting;

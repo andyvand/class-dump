@@ -17,16 +17,16 @@
 
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void)mentRoot"16@"TSKAddedToDocumentContext"24;
+- (long long);
 - (void);
-- (long long);
-- (void);
+- (void);
+- (void);
 
 @end
 

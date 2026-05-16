@@ -7,7 +7,8 @@
 @class NSArray;
 
 @protocol VFXBoundingBoxJSExport
-- (NSArray *)4;
+- (NSArray *)¾ù\>h[u?D?¾9>GTx?
+B?m;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *maxValue;

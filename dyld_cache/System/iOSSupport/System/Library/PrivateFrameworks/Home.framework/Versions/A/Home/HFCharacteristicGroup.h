@@ -23,10 +23,10 @@
 - (id);
 - (long long);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *characteristicTypes; // @synthesize characteristicTypes=_characteristicTypes;

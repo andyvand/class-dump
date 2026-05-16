@@ -55,37 +55,36 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (long long);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
 - (long long);
+- (long long);
+- (void);
+- (id);
+- (long long);
 - (_Bool);
-- (long long)0@ù
+- (_Bool);
+- (void)0@ù
 × ;
-- (id)b0@ù
-× ;
-- (void)cationDestination;
-- (void)nknown type that is not supported:(long long)arg1 %@;
-- (long long)share;
+- (void)ce;
+- (void)ng count of reachability events with date interval %@;
+- (void)home is nil;
+- (id)itionalStateEndDate:%@ /* Error: Ran out of types for this method. */;
+- (long long)ATA_SYNC_IN_PROGRESS;
+- (long long)eprints;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;

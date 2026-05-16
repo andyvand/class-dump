@@ -7,7 +7,6 @@
 @class HFCondition;
 
 @protocol HFConditionItem
-- (HFCondition *)arisonResult"24@?0@"<NAHashable>"8@"<NAHashable>"16;
 
 // Remaining properties
 @property(readonly, nonatomic) HFCondition *condition;

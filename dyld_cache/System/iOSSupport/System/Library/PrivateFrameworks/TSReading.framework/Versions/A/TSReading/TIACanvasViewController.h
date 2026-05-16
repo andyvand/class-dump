@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)present popovers on the phone!;
+- (_Bool);
 
 // Remaining properties
 @property UIGestureRecognizer *hyperlinkGestureRecognizer;

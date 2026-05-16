@@ -12,10 +12,10 @@
     MISSING_TYPE *keyboardInfo;
 }
 
-- (void);
-- (id)ScoringConfig;
+- (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -7,17 +7,15 @@
 @class UIView;
 
 @protocol UIBridgedAnimatableProperty
-- (void)ation;
-- (void)ValueData is NULL;
-- (id)niqueDirectoryWithName:(_Bool)arg1 atPath:ofType: /* Error: Ran out of types for this method. */;
-- (UIView *)A;
-- (void)Ôaqð!ÈBùÄ1¢!0@ù
+- (id)Ôa;
+- (id)ñ`1Â0@ù
 × ;
-- (_Bool)ckgroundEffects: /* Error: Ran out of types for this method. */;
-- (id)S_setPreviewContainer:,V__previewContainer /* Error: Ran out of types for this method. */;
-- (id)¤Áûÿìxþÿ;
-- (void)5UIKitP33_F83AB3ECBB2C378B4FCEB681A4D7DB7430UIPlatformGlassInteractionView;
-- (id);
+- (UIView *)iVersion;
+- (id)q,N,S_setTabBarSizing:,V_tabBarSizing /* Error: Ran out of types for this method. */;
+- (_Bool)ler;
+- (id)this will throw an exception. Returning empty values.;
+- (void)d (%lu).;
+- (void)G;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInvalidated;

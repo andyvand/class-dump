@@ -14,18 +14,18 @@
 
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (unsigned long long)};
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long charactersNoWhiteSpace; // @synthesize charactersNoWhiteSpace=_charactersNoWhiteSpace;

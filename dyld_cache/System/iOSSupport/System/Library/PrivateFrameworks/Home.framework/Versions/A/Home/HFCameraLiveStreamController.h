@@ -29,7 +29,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -39,6 +38,7 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -52,13 +52,13 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id)equestedTime:actualTime:forKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void)Format;
 
 // Remaining properties
 @property(retain, nonatomic) HFCameraAudioManager *audioManager; // @synthesize audioManager=_audioManager;

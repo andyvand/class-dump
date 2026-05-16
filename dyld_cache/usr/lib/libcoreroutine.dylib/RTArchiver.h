@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-- (id);
-- (void)R];
+- (id);
 - (void);
-- (void)",C,N,V_currentAverageRTT;
 - (void);
-- (id)tspotPluginManager;
-- (_Bool), resulted in nil object;
-- (void)submitting %lu visits;
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void)RTEventManagerErrorDomain;
 
 // Remaining properties
 @property(nonatomic) _Bool valid; // @synthesize valid=_valid;

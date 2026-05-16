@@ -25,6 +25,7 @@
     MISSING_TYPE *_trailingSwipeActions;
     MISSING_TYPE *_menuActions;
     MISSING_TYPE *_allowsFullSwipe;
+    MISSING_TYPE *_accessibilityLabelOverride;
     MISSING_TYPE *_$observationRegistrar;
 }
 

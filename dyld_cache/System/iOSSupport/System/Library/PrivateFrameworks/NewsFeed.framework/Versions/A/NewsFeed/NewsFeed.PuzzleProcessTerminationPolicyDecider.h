@@ -11,7 +11,7 @@
 
 - (unsigned long long);
 - (void);
-- (id)P;
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long retryPolicy; // @synthesize retryPolicy;

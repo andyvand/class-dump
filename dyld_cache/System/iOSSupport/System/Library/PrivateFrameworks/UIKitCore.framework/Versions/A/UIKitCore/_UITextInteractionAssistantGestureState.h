@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
     long long _mode;
 }
 
+- (long long);
 - (void);
-- (long long)statusIsSupervised;
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool)D;
-- (_Bool);
-- (void)Aù±À1¢!0@ù
+- (_Bool)Ô¡Ð!(CùQ[1Â0@ù
 × ;
-- (_Bool)QÄ1¢!0@ù
+- (_Bool)Gù±_Ð1Â0@ù
 × ;
-- (void)ù
+- (void)aÐ!øAùQ`1Â0@ù
 × ;
-- (void)trollerLayoutState";
-- (void)tInvalidWebBackgroundTaskIdentifier;
+- (_Bool)Impl";
+- (void):(_Bool)arg1;
+- (void)NUIBlurEffectStyle;
+- (_Bool)^;
 
 // Remaining properties
 @property(nonatomic) _Bool hasExternalInteractions; // @synthesize hasExternalInteractions=_hasExternalInteractions;

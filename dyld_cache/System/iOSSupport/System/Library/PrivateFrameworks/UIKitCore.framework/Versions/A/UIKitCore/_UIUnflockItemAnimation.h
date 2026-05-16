@@ -18,25 +18,25 @@ __attribute__((visibility("hidden")))
     UIViewFloatAnimatableProperty *_positionTrackingProperty;
 }
 
-+ (id)at %p _ckUniqueID %@, ckSyncState %ld recordChangeTag %@>;
++ (id);
 - (void);
 - (void);
-- (void));
 - (void);
-- (id);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void)16;
-- (void);
-- (void)! BùqÊ1¢!0@ù
-× ;
-- (id)nfiguration";
 - (long long);
-- (void)Effect;
-- (void)en;
-- (id)tem",N,&;
+- (id)0@ù
+× ;
+- (void)CaptureToken;
+- (void)egate>",W,N,S_setDelegate:(long long)arg1 ,V__delegate;
+- (void)elegate;
+- (void)onAsPrimaryAction enabled:%@ /* Error: Ran out of types for this method. */;
+- (id)s %@;
+- (void)y¬.3GGG;
 
 // Remaining properties
 @property(retain, nonatomic) UITargetedPreview *destination; // @synthesize destination=_destination;

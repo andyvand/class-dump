@@ -29,8 +29,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool)ÉÕ4;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysContainsObjects; // @synthesize alwaysContainsObjects=_alwaysContainsObjects;

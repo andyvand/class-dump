@@ -7,8 +7,7 @@
 @class NSDictionary, NSString;
 
 @protocol UITextInteractionAssertion
-- (void)¬®;
-- (void);
+- (void)ge:(NSDictionary *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *reason;

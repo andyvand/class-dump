@@ -25,18 +25,18 @@
 - (id);
 - (CDStruct_4bcfbbae);
 - (double);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (double);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (void);
 
 // Remaining properties

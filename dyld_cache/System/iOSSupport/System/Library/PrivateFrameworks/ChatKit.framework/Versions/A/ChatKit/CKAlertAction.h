@@ -12,7 +12,7 @@
 + (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType __ck_handler; // @synthesize __ck_handler=___ck_handler;

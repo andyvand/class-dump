@@ -43,7 +43,7 @@
 }
 
 + (_Bool);
-+ (id)1;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -108,8 +108,8 @@
 - (double);
 - (double);
 - (void);
+- (id);
 - (void);
-- (id)p>;
 
 // Remaining properties
 @property(nonatomic) double allShelvesCollapsingMovementAnimationDelay; // @synthesize allShelvesCollapsingMovementAnimationDelay=_allShelvesCollapsingMovementAnimationDelay;

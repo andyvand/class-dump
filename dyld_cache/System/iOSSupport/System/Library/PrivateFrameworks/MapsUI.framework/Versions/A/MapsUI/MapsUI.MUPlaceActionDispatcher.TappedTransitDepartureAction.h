@@ -14,8 +14,8 @@
     MISSING_TYPE *rowType;
 }
 
-- (void);
 - (id);
+- (void)itleString: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -17,20 +17,23 @@
     NSString *__internalIdentifier;
     id <_UIMenuImageOrName> __imageOrName;
     UIAction *__accessoryAction;
+    CDUnknownBlockType __highlightStateUpdateHandler;
 }
 
-+ (_Bool)ªÒm;
-- (void)ed:(id)arg1;
-- (void)ngRecoverableMessageSync:(id)arg1 syncAttemptCount: /* Error: Ran out of types for this method. */;
++ (_Bool)_UINSToolbarLayoutExtractionContext *__strong)_block_invoke_5;
+- (void);
+- (void);
 - (id);
-- (void)d to start monitoring while already monitoring.;
-- (void)Settings message from %@;
-- (id)tarted processing;
-- (unsigned long long)criptionsWithAtLeastOneActive;
-- (_Bool)urces/MessagesCore/IMCore/IMDaemonCore/IMDServiceSession_Chat.m;
-- (_Bool)ScheduledMessageBlocklistController;
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (_Bool);
@@ -40,28 +43,28 @@
 - (void);
 - (void);
 - (void);
-- (id)@;
-- (void)SmartTransition;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)1¢!0@ù
+- (_Bool);
+- (id)!Bù]1Â0@ù
 × ;
-- (id)ásð!TDùÑÇð1¢!0@ù
+- (id)0@ù
 × ;
-- (id)
-× ;
-- (_Bool)iableMinValue;
-- (_Bool)uestedStyle;
-- (void)onResponse;
-- (void)"_UIPreviewPresentationController2",&,N,V_currentPresentationController;
-- (id)nvironment,V_commonAncestorEnvironment;
+- (void)teDelegateCanBePrevented"b1"privateDelegateShouldRecognizeSimultaneously"b1"privateDelegateShouldReceiveEvent"b1"privateDelegateShouldReceiveTouch"b1"privateDelegateShouldReceivePress"b1"privateDelegateShouldRequireFailure"b1"privateDelegateShouldBeRequiredToFail"b1"privateDelegateCanCancel"b1"privateDelegateCanBeCancelled"b1"privateDelegateAcceptsBeingFailureRequirement"b1"privateDelegateAcceptsBeingFailureDependent"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"subclassTouchesEstimatedPropertiesUpdated"b1"subclassShouldReceiveTouchForEventRecognizerView"b1"queriedFailureRequirements"b1"cancelsTouchesInView"b1"delaysTouchesBegan"b1"delaysTouchesEnded"b1"disabled_DO_NOT_USE_DIRECTLY"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"requiresExclusiveTouchType"b1"initialTouchTypeIsValid"b1"forceRequirementSatisfied"b1"wantsDragEvents"b1"conformsToDragEventRespondable"b1"isDynamicGesture"b1"canExcludeWithActiveRequirements_DO_NOT_USE_DIRECTLY"b1"isObservingGesture"b1"didCheckForcePressShouldBegin"b1"canSendForcePressAction"b1"queriedShouldReceiveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
+- (void)Direction:(id)arg1 scale: /* Error: Ran out of types for this method. */;
+- (_Bool)ions;
+- (id)UIDotsInputSwitcherView;
+- (void);
 - (void);
-- (void);
+- (id)xî;
+- (id);
+- (void)Öuþ;
+- (id)Ñ-ÿ"¯Í c;
+- (void)l¯öþ;
+- (void)$Ñ³ÿ¥Ó(i;
 
 // Remaining properties
 @property(copy, nonatomic) UIAction *_accessoryAction; // @synthesize _accessoryAction=__accessoryAction;
+@property(copy, nonatomic, setter=_setHighlightStateUpdateHandler:) CDUnknownBlockType _highlightStateUpdateHandler; // @synthesize _highlightStateUpdateHandler=__highlightStateUpdateHandler;
 @property(readonly, nonatomic) id <_UIMenuImageOrName> _imageOrName; // @synthesize _imageOrName=__imageOrName;
 @property(copy, nonatomic) NSString *_internalIdentifier; // @synthesize _internalIdentifier=__internalIdentifier;
 @property(readonly, nonatomic) _Bool _isLeaf;

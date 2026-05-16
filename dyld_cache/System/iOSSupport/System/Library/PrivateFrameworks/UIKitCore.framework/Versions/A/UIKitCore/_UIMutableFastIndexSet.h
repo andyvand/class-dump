@@ -11,16 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ëÿ;
-- (void)J;
++ (id)Q;
 - (void);
 - (void);
 - (void);
-- (id)nitialImport;
+- (void)TrailingPadding;
+- (void)ingForItem:(unsigned long long)arg1 forClient: /* Error: Ran out of types for this method. */;
+- (id)Offset;
 - (void);
-- (void)!Bù±Å1¢!0@ù
-× ;
-- (void)ionIsDown;
+- (void)þÿ,ßþÿ;
 
 @end
 

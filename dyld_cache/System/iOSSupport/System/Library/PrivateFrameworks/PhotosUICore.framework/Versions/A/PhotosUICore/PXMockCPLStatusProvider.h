@@ -18,13 +18,13 @@
 + (id);
 - (double);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)FrameObservers;
+- (void)¬fcÿUÈ¨fcÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

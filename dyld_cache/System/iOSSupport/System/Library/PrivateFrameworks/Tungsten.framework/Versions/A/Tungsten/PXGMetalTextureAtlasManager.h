@@ -44,16 +44,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (struct CGSize);
-- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (id)0@ù
+- (id);
+- (void);
+- (unsigned long long)0@ù
 × ;
+- (struct CGSize)xtureManagerWhenNotVisible: /* Error: Ran out of types for this method. */;
+- (id)geInsets=dddd},N,V_padding;
 
 // Remaining properties
 @property(copy) NSArray *atlasTextures; // @synthesize atlasTextures=_atlasTextures;

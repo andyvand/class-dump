@@ -13,8 +13,8 @@
     MISSING_TYPE *useWindowSizeViewportAdjustment;
 }
 
+- (id);
 - (void);
-- (id)sibilitySetUnitTestingOrientation: /* Error: Ran out of types for this method. */;
 
 @end
 

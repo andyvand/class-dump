@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
     double _tangentHyperCbrtSpeed;
 }
 
-+ (id)@  Row ID:%lld  originalGroupID:%@  isFiltered:%d  repairHistory:(Repaired Participant For Chat ID Handle ID Mismatch:%{BOOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
++ (id);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)=;
 - (void);
 - (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -39,16 +39,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double)@"NSArray"32;
-- (void)countController";
-- (double)0:(double)arg1 8Q16;
-- (void)ileTransfer.;
-- (double)chat load. OriginalGroupID:(double)arg1 %@ Chat:%@ /* Error: Ran out of types for this method. */;
-- (int)eing edited for a second (or more) time. Not overriding original values.;
-- (void)0@ù
-× ;
-- (id)rHeightChanged:oldHeight: /* Error: Ran out of types for this method. */;
-- (_Bool)ocus:%d; keyboardOnScreen:%d; wantsKeyboard:%d; touchIsPointer:%d; for scene identity or identifier:%@ /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (double);
+- (void);
+- (double);
+- (int);
+- (id);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) double cubicGain; // @synthesize cubicGain=_cubicGain;

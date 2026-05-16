@@ -17,10 +17,10 @@
     MISSING_TYPE *editor;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)questCount: /* Error: Ran out of types for this method. */;
-- (id)G;
+- (void);
 
 @end
 

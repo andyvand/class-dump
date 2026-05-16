@@ -17,21 +17,21 @@
     id <_HMMediaProfileDelegate> _delegate;
 }
 
-+ (_Bool)firmwareVersion_t;
++ (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)AccessoryCategory",&,V_category;
 
 // Remaining properties
 @property(nonatomic) unsigned long long capability; // @synthesize capability=_capability;

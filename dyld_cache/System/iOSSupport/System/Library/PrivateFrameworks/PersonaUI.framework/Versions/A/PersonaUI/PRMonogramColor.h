@@ -46,15 +46,15 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

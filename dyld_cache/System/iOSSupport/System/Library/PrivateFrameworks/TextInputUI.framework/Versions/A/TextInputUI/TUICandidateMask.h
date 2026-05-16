@@ -18,22 +18,22 @@
 }
 
 - (void);
-- (void)±z;
-- (void){;
-- (void)-¢¾z;
-- (id)³|;
-- (id)ñæ|;
-- (id)²|;
-- (id)|;
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

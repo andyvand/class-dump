@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)tRange"32@0:8@"UITextPosition"16q24 /* Error: Ran out of types for this method. */;
-- (_Bool)azy_storage_$_wrappedConfigurationIdentifier;
-- (double)ntsTypeCurrency;
-- (struct CGSize)ion;
-- (id)cation tried to present modally a view controller %@ that is already being presented by %@.;
-- (struct CGRect)ossFadeTransitionAnimationSpec;
-- (long long);
+- (id)ocation selector, %@;
+- (double);
+- (_Bool)a43|d;
+- (struct CGRect);
+- (long long);
+- (id)Jl;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

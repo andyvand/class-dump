@@ -13,17 +13,17 @@
 }
 
 + (id);
-+ (id);
++ (id)ID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (long long);
+- (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
+- (long long);
 - (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID;

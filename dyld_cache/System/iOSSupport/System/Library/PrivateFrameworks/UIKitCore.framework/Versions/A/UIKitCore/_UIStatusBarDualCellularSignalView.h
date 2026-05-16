@@ -20,28 +20,29 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _alignmentRectInsets;
 }
 
-+ (double);
++ (double)ngGroupsMode;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ivated;
-- (void);
-- (void);
 - (struct CGSize);
-- (id);
-- (long long);
-- (void);
-- (id)× ;
-- (void){vector<unsigned long, std:(long long)arg1:allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 3UL>=))))"__index"I}} /* Error: Ran out of types for this method. */;
-- (id)on: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)tViewAllowSelectionContainerInTextLayoutCanvas preference off. Ignoring.;
-- (id)s] %{public}p:(struct CGRect)arg1 Remove window scene from stack affectingApplicationKeyWindow:%{public}d;  %{public}s:%{public}p:scene identity:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (void)scalePulseScheduler;
-- (void)Ñ[;
+- (void)
+× ;
+- (long long)Interaction"16q24@?<{CGPoint=dd}@?>32@?<{CGPoint=dd}@?>40@?<{CGPoint=dd}@?>48q56^B64;
+- (void)rame;
+- (id)inDroppingInto;
+- (id)nd:(struct CGRect)arg1;
+- (void),N,G_contentScrollsAlongYAxis,S_setContentScrollsAlongYAxis:(_Bool)arg1;
+- (id)%s svc = %p; transition = %p; currentLayout = %@; proposedLayout = %@; originalLayout = %@;
+- (void)Bottom Edge Window Size;
+- (id)ary file:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void)];
+- (struct UIEdgeInsets);
+- (id)j;
+- (void)ÿ;
+- (void);
+- (void)[];
+- (id)x·ÿ;
+- (_Bool)ÿ;
+- (void)Ä^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

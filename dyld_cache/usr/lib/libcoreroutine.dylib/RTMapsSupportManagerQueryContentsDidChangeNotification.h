@@ -11,9 +11,9 @@
     long long _queryType;
 }
 
-- (id)Endpoint:fromEndpoint: /* Error: Ran out of types for this method. */;
-- (long long)hAddress;
-- (id)d.metrics.daily;
+- (id);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long queryType; // @synthesize queryType=_queryType;

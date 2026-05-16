@@ -5,6 +5,5 @@
 //
 
 @protocol SXAppStateMonitor
-- (void),NewsKitDemo,NewsLiveActivitiesCore,NewsLiveActivitiesCoreTests,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFormat,NewsFormatTests,NewsSubscription,NewsSubscriptionTests,NewsAnalytics,NewsAnalyticsTests,NewsTag,NewsToday2,NewsTodayIntents,NewsEngagement,NewsEngagementTests,NewsEngagementExtension,NewsDiagnosticExtension,NewsScoringService,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksDiagnosticExtension,StocksWidget,StocksPersonalization,Weather,WeatherTests;
 @end
 

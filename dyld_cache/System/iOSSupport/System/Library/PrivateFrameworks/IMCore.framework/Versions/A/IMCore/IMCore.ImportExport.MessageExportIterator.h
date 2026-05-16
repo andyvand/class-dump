@@ -11,6 +11,8 @@
     MISSING_TYPE *exportOptions;
     MISSING_TYPE *exportStatistics;
     MISSING_TYPE *filteredCounts;
+    MISSING_TYPE *chatRowIDs;
+    MISSING_TYPE *databaseOnly;
 }
 
 @end

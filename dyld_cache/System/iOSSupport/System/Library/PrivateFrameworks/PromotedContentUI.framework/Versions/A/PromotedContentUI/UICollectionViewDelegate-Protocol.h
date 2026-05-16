@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewTransitionLayout, UITargetedPreview;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (UITargetedPreview *);
-- (void)(;
 - (_Bool);
-- (UICollectionViewTransitionLayout *);
-- (void);
-- (_Bool);
-- (NSIndexPath *)Õ;
 @end
 

@@ -45,25 +45,25 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)mplicationsLayoutURLForInstanceURL:(id)arg1;
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) PRPosterAmbientConfiguration *ambientConfiguration; // @synthesize ambientConfiguration=_ambientConfiguration;

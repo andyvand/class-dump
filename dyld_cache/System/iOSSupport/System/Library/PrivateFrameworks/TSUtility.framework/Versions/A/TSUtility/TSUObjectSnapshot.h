@@ -13,7 +13,7 @@
     NSArray *mCompared;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

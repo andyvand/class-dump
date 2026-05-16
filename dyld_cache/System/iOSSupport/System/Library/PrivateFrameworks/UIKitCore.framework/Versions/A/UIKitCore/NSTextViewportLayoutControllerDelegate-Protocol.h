@@ -4,12 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSTextViewportLayoutController;
 @protocol NSTextViewportRenderingSurface;
 
 @protocol NSTextViewportLayoutControllerDelegate
+- (struct CGRect)0@ù
+× ;
+- (void)0@ù
+× ;
 
 @optional
-- (struct CGRect);
-- (id <NSTextViewportRenderingSurface>)eLinkTracking.m;
+- (void)ponderTargetForConfiguration:(NSTextViewportLayoutController *)arg1;
+- (id <NSTextViewportRenderingSurface>);
 @end
 

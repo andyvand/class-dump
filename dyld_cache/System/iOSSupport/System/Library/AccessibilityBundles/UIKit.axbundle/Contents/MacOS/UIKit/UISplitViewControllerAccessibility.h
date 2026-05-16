@@ -10,13 +10,13 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (void);
 - (void);
-- (void)Input:(id)arg1;
+- (void);
 
 @end
 

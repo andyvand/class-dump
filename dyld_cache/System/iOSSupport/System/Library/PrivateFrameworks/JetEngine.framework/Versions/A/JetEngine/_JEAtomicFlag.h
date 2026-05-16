@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 
 @end
 

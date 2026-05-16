@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (void)A;
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)e",&,N,V_activeDevice;
+- (void);
+- (void)ÖpÖ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *pluginBundleID; // @synthesize pluginBundleID=_pluginBundleID;

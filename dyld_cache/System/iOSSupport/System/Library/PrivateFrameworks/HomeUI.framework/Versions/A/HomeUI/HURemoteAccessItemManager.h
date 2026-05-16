@@ -21,8 +21,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -30,8 +30,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)ÿÿm;
+- (void)shUtility;
+- (id)nnerMargin;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *allowRemoteAccessItem; // @synthesize allowRemoteAccessItem=_allowRemoteAccessItem;

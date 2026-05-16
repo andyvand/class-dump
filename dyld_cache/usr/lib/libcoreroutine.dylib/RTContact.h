@@ -21,15 +21,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ner;
 - (id);
-- (id);
-- (id)ype: /* Error: Ran out of types for this method. */;
-- (id)r metrics;
-- (id)OI, %{sensitive}@, visit, %{sensitive}@;
-- (id)ês;
-- (id)]ÿD;
+- (id);
+- (id);
+- (id)tion:destinationMapItem:workoutEvents: /* Error: Ran out of types for this method. */;
+- (id)n _isExceedingUpperBoundEta:mapsExpectedTravelTime:crowFliesExpectedTravelTime:] /* Error: Ran out of types for this method. */;
+- (void)itHasDrivingPredominantActivity, %d;
+- (id), error, %@;
+- (id)not satisfying:destinations (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id)4Âøÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;

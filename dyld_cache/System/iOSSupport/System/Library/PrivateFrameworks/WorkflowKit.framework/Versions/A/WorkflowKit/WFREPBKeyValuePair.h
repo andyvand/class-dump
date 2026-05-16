@@ -12,20 +12,20 @@
     NSData *_value;
 }
 
+- (void);
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)ged:(id)arg1 %{public}@;
+- (void)on:workflowController:descriptor:workflowReference:database:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;

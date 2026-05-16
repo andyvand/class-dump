@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (NSString *)isPDFCanvasForAnalytics;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

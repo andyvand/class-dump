@@ -7,9 +7,7 @@
 @protocol _UITextAttributeDefaults;
 
 @protocol _UITextAttributeDefaultCategories
-- (id <_UITextAttributeDefaults>)ùÑÃð1¢!0@ù
-× ;
-- (id <_UITextAttributeDefaults>)ewServices;
+- (id <_UITextAttributeDefaults>)\Y;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UITextAttributeDefaults> _generic;

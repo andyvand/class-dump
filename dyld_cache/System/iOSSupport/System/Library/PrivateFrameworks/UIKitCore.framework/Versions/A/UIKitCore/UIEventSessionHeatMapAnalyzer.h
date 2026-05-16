@@ -17,18 +17,19 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (double)T_QUOTES;
-+ (CDStruct_24322269)ircle fetch error;
-- (void)erC;
-- (void)nitorCSgXwz_Xx;
-- (void)= ;
-- (void)_;
-- (void)ing message processing with guid %@;
-- (void)Sibling GUID:(id)arg1 %@;
-- (_Bool)message command for message GUIDs:(id)arg1 %@;
-- (void)!ôCùqÂð1¢!0@ù
-× ;
-- (id)lippingMode:,V_visualEffectblurClippingMode /* Error: Ran out of types for this method. */;
++ (double);
++ (CDStruct_3f566597);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void)Ï*ÌT8h;
 
 @end
 

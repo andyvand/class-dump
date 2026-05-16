@@ -32,64 +32,64 @@ __attribute__((visibility("hidden")))
     _Bool _generatorActivated;
 }
 
-+ (_Bool)nterval;
++ (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CATransform3D);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (struct CGPoint);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (long long)$/Âì;
-- (void)ë;
-- (void);
-- (_Bool)1¢!0@ù
+- (struct CGRect);
+- (struct CGRect);
+- (void)
 × ;
-- (void)árð!,GùÆ°1¢!0@ù
+- (void)Ñ_1Â0@ù
 × ;
-- (id)@ù
-× ;
-- (id)ù
-× ;
-- (id);
-- (_Bool);
-- (void)tionDelegate>";
-- (void)et: /* Error: Ran out of types for this method. */;
-- (void)ontainer:(id)arg1 ignoreEmptyUpdate:(_Bool)arg2;
-- (_Bool)tRemovingItems;
-- (void)ntent:responseHandler: /* Error: Ran out of types for this method. */;
-- (void)eKey;
-- (void)issalWithReason:(id)arg1 alongsideActions:completion: /* Error: Ran out of types for this method. */;
-- (void)tEffectAlpha:(id)arg1;
-- (struct CGRect)ping;
-- (_Bool)dContrastEnabled;
-- (_Bool)gContent:(long long)arg1;
-- (void)pl;
-- (void)Ô(p*À+x,d.Ø.h0;
-- (struct CGRect)µyþÿªüÿ;
-- (void)Äþÿ;
-- (id);
-- (_Bool)able Object, skipping:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ot allowed.;
-- (long long)ViewControllerAdaptiveColumnInteractionDelegate>",N,W,VinteractionDelegate;
-- (struct CGRect)bolEffectCompletionContext"8;
 - (void);
-- (void);
-- (void)Ã»ÔÛb;
-- (_Bool);
-- (id)=ÿ8pÈád;
-- (struct CATransform3D)i;
-- (void);
-- (void)ÿÌÜÎäj;
+- (void)0@ù
+× ;
+- (void)!tAùQe°1Â0@ù
+× ;
+- (long long);
+- (id)ionFenceHandle"36@?<v@?{CGSize=dd}>44;
+- (_Bool)ractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
+- (_Bool)Path"32@0:(long long)arg1 8@"UITableView"16@"NSIndexPath"24;
+- (long long);
+- (void)rsorEnabled;
+- (_Bool)iner;
+- (void)s;
+- (_Bool)ervableScrollViewForEdge: /* Error: Ran out of types for this method. */;
+- (_Bool)orDifferentialScrollingToShowFocusItemWithInfo:proposedContentOffset: /* Error: Ran out of types for this method. */;
+- (void)edback<_UIFeedbackDiscretePlayable>",R,N,V_detentFeedback;
+- (void)dSearchOptions;
+- (void)N;
+- (struct CGPoint)pasteVariant;
+- (_Bool)guration",&,N,V_overridingSymbolConfiguration;
+- (void)´LpM\N;
+- (id)(;
+- (struct CGRect)ss is not approved to use -[UIMenuSystem _setOverrideApplicationName];
+- (void)Ieggr_;
+- (void)_;
+- (_Bool)=0a;
+- (void)({-ÿedÀ;
+- (void)ôÔDÿ;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *_textColor;

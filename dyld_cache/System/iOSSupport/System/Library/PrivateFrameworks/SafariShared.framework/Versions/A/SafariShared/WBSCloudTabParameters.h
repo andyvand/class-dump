@@ -22,20 +22,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (_Bool);
-- (void)s;
-- (void);
-- (id);
 - (double);
 - (void);
-- (id)blic}@;
-- (id);
-- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (void);
+- (id);
+- (void)s;
+- (id)÷S;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double lastViewedTime; // @synthesize lastViewedTime=_lastViewedTime;

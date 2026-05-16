@@ -27,8 +27,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ryViewController.m;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory;

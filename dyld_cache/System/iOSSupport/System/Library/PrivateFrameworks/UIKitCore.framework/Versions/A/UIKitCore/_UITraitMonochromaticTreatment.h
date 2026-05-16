@@ -8,16 +8,16 @@
 {
 }
 
-+ (_Bool)ded We have already done this. Not doing again unless you do defaults delete com.apple.madrid initialSyncRecordHasBeenWritten;
-+ (_Bool)gSettingsMessage;
-+ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (long long);
 + (long long);
 + (_Bool);
 + (long long);
-+ (id)ement:defaultMenuItems: /* Error: Ran out of types for this method. */;
-+ (id)4data_t;
-+ (long long)½ÔþIëØòJe;
++ (id);
++ (id)peDirectionRight;
++ (long long)£Êg;
 
 @end
 

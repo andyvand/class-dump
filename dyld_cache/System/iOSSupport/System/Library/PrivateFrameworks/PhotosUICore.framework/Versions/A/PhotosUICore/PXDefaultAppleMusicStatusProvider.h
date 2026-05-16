@@ -18,10 +18,10 @@
 - (long long);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)CLLocation"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)nent;
+- (id);
+- (void)[4;
+- (id)É9;
 
 // Remaining properties
 @property(nonatomic, readonly) NSError *error;

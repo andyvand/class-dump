@@ -7,7 +7,6 @@
 @protocol UIInteraction;
 
 @protocol _UISceneScrollPocketHost
-- (id <UIInteraction>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIInteraction> registrationInteraction;

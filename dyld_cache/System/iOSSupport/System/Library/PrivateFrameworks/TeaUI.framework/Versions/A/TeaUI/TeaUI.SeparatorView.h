@@ -17,13 +17,13 @@
     MISSING_TYPE *thickness;
 }
 
-- (id)_shareClickValue;
-- (void)ationEventConditions",R,N,V_cookModeViewed;
-- (void)6;
-- (_Bool)C;
 - (id);
-- (void) ;
+- (void);
+- (_Bool);
+- (void);
 - (id);
+- (id);
+- (void)È9þÿFÿÿ =þÿ;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;

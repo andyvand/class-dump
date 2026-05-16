@@ -56,15 +56,15 @@
 - (double);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)Çþÿûÿ5üÿÜûÿ;
-- (void)rkShelf;
 - (void);
+- (void)a;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

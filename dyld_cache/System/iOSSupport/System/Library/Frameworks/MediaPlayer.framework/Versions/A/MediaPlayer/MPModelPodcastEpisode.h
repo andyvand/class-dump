@@ -6,18 +6,18 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelFileAsset, MPModelPlaybackPosition, MPModelPodcast, MPModelPodcastAuthor, NSArray, NSDate, NSDateComponents, NSDictionary, NSString, NSURL;
+@class MPModelFileAsset, MPModelPlaybackPosition, MPModelPodcast, MPModelPodcastAuthor, NSArray, NSDate, NSDateComponents, NSDictionary, NSSet, NSString, NSURL;
 
 @interface MPModelPodcastEpisode : MPModelObject
 {
     NSString *_commentText;
 }
 
-- (id)@60@68B76;
 - (id);
-- (void)lize with a non-BMPBSiriUIEvent proto;
+- (id);
 - (void);
 - (id);
+- (void)R,N,V_playbackRate;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areChaptersGenerated; // @dynamic areChaptersGenerated;
@@ -29,6 +29,7 @@
 @property(copy, nonatomic) NSString *commentText; // @synthesize commentText=_commentText;
 @property(copy, nonatomic) NSDate *datePlayed; // @dynamic datePlayed;
 @property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
+@property(readonly, nonatomic) NSSet *downloadedMediaKinds; // @dynamic downloadedMediaKinds;
 @property(nonatomic) double duration; // @dynamic duration;
 @property(nonatomic) long long episodeNumber; // @dynamic episodeNumber;
 @property(readonly, nonatomic) long long episodeType; // @dynamic episodeType;

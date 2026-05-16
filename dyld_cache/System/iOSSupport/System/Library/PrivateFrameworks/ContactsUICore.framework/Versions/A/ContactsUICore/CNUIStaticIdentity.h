@@ -22,9 +22,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ecentContactMetadata: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;

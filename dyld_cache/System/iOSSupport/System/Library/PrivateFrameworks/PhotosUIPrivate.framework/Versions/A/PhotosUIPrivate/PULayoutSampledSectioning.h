@@ -47,12 +47,12 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
 - (long long);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)Response: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool supportsSamplingAndSectionGrouping; // @synthesize supportsSamplingAndSectionGrouping=_supportsSamplingAndSectionGrouping;

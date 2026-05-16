@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (long long);
-- (id)FromLabel:toLabel: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long sequenceIndex; // @synthesize sequenceIndex=_sequenceIndex;

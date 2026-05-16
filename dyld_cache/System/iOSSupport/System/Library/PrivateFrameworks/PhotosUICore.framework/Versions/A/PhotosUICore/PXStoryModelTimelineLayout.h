@@ -30,9 +30,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void)R,N,V_upNextCountdownPlacement;
+- (id)@16q24@32@40q48;
+- (id)uttonDisplayMode;
+- (void)otos.CPAnalytics.sharedAlbumsActivityFeedPostLiked;
 - (void);
 
 // Remaining properties

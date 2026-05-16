@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (_Bool)ount"@"NSError">32;
-- (void)Object: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,14 +34,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id)Session:(id)arg1;
+- (id);
 - (id);
 - (void);
 - (void);
-- (_Bool)ystem/Library/PrivateFrameworks/FMCoreLite.framework/Versions/A/FMCoreLite;
-- (void)meworks/SPOwner.framework/Versions/A/SPOwner;
+- (_Bool);
 - (void);
-- (id)st;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -54,24 +55,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)B44@0:(id)arg1 8@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
-- (void)oveItemAtPath:error: /* Error: Ran out of types for this method. */;
-- (id)elector:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
-- (id)a cache teardown;
-- (id)quest.;
-- (id)%lu;
-- (void)g to refetch next auth.;
 - (void);
-- (id);
-- (id)g;
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)public}@ %2i %{public}@ô¤ NETWORK TASK BEGIN         %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCAudioAssetTypeSelector *audioAssetTypeSelector; // @synthesize audioAssetTypeSelector=_audioAssetTypeSelector;

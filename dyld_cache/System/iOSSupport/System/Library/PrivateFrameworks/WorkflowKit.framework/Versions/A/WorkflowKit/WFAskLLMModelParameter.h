@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ize;
 
 @end
 

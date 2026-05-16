@@ -7,7 +7,6 @@
 @class HMTriggerPolicy, NSArray, NSString;
 
 @protocol HMTriggerConfiguration
-- (_Bool)ng for updates repeatedly on accessory with identifier:%@ UUID:%@ error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *actionSets;

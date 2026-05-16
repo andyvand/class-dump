@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (struct CGSize);
-- (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) ASCContentSkeleton *skeleton; // @synthesize skeleton=_skeleton;

@@ -9,7 +9,6 @@
 @protocol PXSectionedDataSourceManagerObserver
 
 @optional
-- (NSArray *)¢!0@ù
-× ;
+- (NSArray *)Ô ;
 @end
 

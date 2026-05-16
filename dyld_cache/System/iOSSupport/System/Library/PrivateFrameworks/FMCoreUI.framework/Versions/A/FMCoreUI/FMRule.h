@@ -18,13 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

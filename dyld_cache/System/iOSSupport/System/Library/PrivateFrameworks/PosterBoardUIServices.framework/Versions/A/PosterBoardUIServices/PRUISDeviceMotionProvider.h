@@ -35,7 +35,7 @@
 }
 
 + (id);
-+ (id)÷ÿÇÿ;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -70,11 +70,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)eapOnStartup] Reaping stale data from channel identifier %{public}@;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areMotionEventsAvailable; // @synthesize areMotionEventsAvailable=_areMotionEventsAvailable;

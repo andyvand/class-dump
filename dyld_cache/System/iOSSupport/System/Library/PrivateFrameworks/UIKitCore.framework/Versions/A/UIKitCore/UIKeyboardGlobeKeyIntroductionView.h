@@ -21,24 +21,21 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (long long)count:(id)arg1 %@, but we can't find an account for it;
-- (void)ForContacts:(id)arg1 useExtendedAsyncLookup:completion: /* Error: Ran out of types for this method. */;
-- (id)ding: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)ext>"24;
-- (id)ct's class is %@, but class of object saved in state restoration archive is %@:Object = %@ /* Error: Ran out of types for this method. */;
-- (void)o determine navigation direction for scroll;
-- (CDUnknownBlockType)ÌÉÿ
-;
 - (id);
-- (void)O
-h;
-- (id)äÆ;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)_prefersGrabberVisible: /* Error: Ran out of types for this method. */;
+- (void)Ì8ÿ÷Ô];
+- (id)²oÛÈ^;
+- (CDUnknownBlockType)7C´½^;
+- (void)Ðd%`;
+- (void);^Ì<0f;
+- (id)ÕøNg;
+- (void)$ni;
 
 // Remaining properties
 @property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;

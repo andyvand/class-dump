@@ -12,22 +12,22 @@ __attribute__((visibility("hidden")))
     PDFAKPageAdaptorPrivate *_private;
 }
 
-- (void)NSString"16@"NSArray"24;
-- (void)edUIAdditionalDomainFeedback"24;
-- (void)16;
-- (void)Path"24;
-- (id)8@16@24{CGPoint=dd}32Q48;
-- (id)ViewModel>";
-- (void)SURLSession"16@"NSURLSessionTask"24@?<v@?@"NSInputStream">32;
-- (void)<v@?q@"NSURLCredential">40;
-- (void)ize="width"d"height"d};
-- (void)er";
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)orQuery;
 - (void);
-- (void)/;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -46,20 +46,21 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void)
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)a¯Ð! Gùq1â
+0@ù
 × ;
-- (id)View;
-- (void)gSelectedActionSets:(id)arg1;
-- (void)´á;
+- (id)ct;
+- (void)clearAllOverrideAttributesForItems:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *cancelButton; // @synthesize cancelButton=_cancelButton;

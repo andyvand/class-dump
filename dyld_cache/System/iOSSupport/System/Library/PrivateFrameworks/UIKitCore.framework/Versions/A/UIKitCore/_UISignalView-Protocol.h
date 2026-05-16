@@ -7,18 +7,15 @@
 @class UIAccessibilityHUDItem, UIColor;
 
 @protocol _UISignalView
-- (id)
-× ;
-- (long long)0@ù
-× ;
-- (void)ent:(long long)arg1 textInput: /* Error: Ran out of types for this method. */;
-- (long long)ïð¸ðàñóó;
-- (void)ViewHost;
-- (void);
-- (long long)4Êiþý4ÜÊiþ;
-- (UIColor *)èþiþ;
-- (UIColor *)ewControllerTextList;
-- (void)À;
+- (void)dscapeLayout:(long long)arg1;
+- (void)em:(long long)arg1 attachmentAnchor: /* Error: Ran out of types for this method. */;
+- (id)tLinkInteractionHandler;
+- (UIColor *);
+- (void)ò;
+- (UIColor *)#;
+- (long long);
+- (void)wþÅ>43Xrwþ>43drwþ¥>43prwþµ>43|rwþµ>43rwþµ>43¼rwþÕ>43Ørwþu>43ärwþ}>43ðrwþU>43ürwþ¥>43swþ5>43swþ5>43à}wþ}>43swþµ>43oþ>43swþ;
+- (long long)43+û;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

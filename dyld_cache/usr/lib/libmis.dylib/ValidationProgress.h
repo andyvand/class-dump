@@ -15,11 +15,12 @@
     NSLock *_lock;
 }
 
-- (void);
-- (long long);
 - (void);
 - (id);
-- (long long)^bÃ;¥u¢¢RÌÐÁ#ùüåÖÌÝêt3-]¸Âº7?X×O>KÕâÑ%ÜiÏ³ÁøF20HÅÃþ¸ !;
+- (long long);
+- (void);
+- (long long)online_auth
+WHERE uuid = ?1 AND cdhash = ?2;
 
 // Remaining properties
 @property(readonly, nonatomic) long long current; // @synthesize current=_current;

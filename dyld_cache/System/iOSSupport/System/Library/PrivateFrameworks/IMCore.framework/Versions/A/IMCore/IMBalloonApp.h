@@ -52,7 +52,7 @@
 + (id);
 + (id);
 + (void);
-- (unsigned long long)`;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,7 +65,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,7 +90,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool)P;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -103,26 +103,28 @@
 - (id);
 - (id);
 - (id);
-- (void)nBrowser:(_Bool)arg1;
-- (long long)willPositionSheet:usingRect: /* Error: Ran out of types for this method. */;
-- (void)r:(Class)arg1;
-- (id)me:(id)arg1;
-- (Class)enFrame: /* Error: Ran out of types for this method. */;
-- (Class);
-- (void)WebProcess;
-- (id)onsReply;
-- (void)shFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WallTime>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::String, WTF::WallTime>::KeyValuePairTraits, WTF::DefaultHash<String>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (long long);
 - (id);
-- (void)I: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (Class);
 - (Class);
 - (void);
-- (id)	;
+- (id);
+- (void);
+- (Class);
+- (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
 - (void);
-- (void)tivityLastMessageKey;
-- (_Bool)}};
+- (id);
+- (id);
+- (void)Â
+°!GùQî1Â0@ù
+× ;
+- (void);
+- (void)x;
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *appBundle; // @synthesize appBundle=_appBundle;

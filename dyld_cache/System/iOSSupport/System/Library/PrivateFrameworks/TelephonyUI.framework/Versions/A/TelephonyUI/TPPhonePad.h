@@ -58,17 +58,17 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (id);
 - (long long);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 

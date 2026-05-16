@@ -16,7 +16,7 @@
 - (struct CGImage *);
 - (struct CGImage *);
 - (id);
-- (void);
+- (void)ctionProvider;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

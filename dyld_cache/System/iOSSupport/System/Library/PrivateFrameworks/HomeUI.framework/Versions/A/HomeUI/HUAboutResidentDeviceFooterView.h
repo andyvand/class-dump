@@ -25,16 +25,15 @@
 - (id);
 - (void);
 - (id);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)0@ù
-× ;
-- (id)ttingsSections: /* Error: Ran out of types for this method. */;
-- (void)vidersForPrimaryAccessory:(id)arg1 inHome: /* Error: Ran out of types for this method. */;
-- (struct CGSize);
-- (id)B;
+- (void)rmsToProtocol:@protocol(HFPrimaryStateWriter)] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;

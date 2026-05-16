@@ -14,15 +14,15 @@
 + (void);
 + (void);
 + (void);
-+ (id),&,N,V_initialStyleProducer;
++ (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ãõ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *inFlightAnimations; // @synthesize inFlightAnimations=_inFlightAnimations;

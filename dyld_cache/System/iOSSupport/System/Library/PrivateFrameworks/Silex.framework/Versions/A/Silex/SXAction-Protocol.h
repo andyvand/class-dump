@@ -7,7 +7,6 @@
 @class NSString, SXJSONDictionary;
 
 @protocol SXAction
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *analytics;

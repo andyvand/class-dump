@@ -29,12 +29,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)Iq}16^@40;
+- (id)ble;
+- (id)%;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id)ÿ;
-- (id)¬dAç3\c;
-- (_Bool)ÿÐnKbÒ5;
 
 @end
 

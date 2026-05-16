@@ -9,8 +9,7 @@
 @protocol UIWindowSceneDelegate
 
 @optional
-- (void)xtMagnifiedLoupeViewZoomScale;
-- (UIWindow *)citySampler;
+- (void)ingMultiSelectRows:(UIWindow *)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;

@@ -17,11 +17,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)ionViewListCellCGSg;
 
 // Remaining properties
 @property(retain, nonatomic) CNMHContactPickerHelper *contactPickerHelper; // @synthesize contactPickerHelper=_contactPickerHelper;

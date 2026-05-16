@@ -12,7 +12,7 @@
     id <WKScriptMessageHandler> _scriptMessageHandler;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

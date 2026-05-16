@@ -29,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Date;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *dstSavingsAdjustmentMillis; // @synthesize dstSavingsAdjustmentMillis=_dstSavingsAdjustmentMillis;

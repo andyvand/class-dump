@@ -41,17 +41,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (void);
-- (void);
-- (long long);
 - (double);
 - (void);
 - (void);
-- (double)tionLoadingOperationsByAssetUUIDs;
-- (void)rLabel:(long long)arg1;
-- (unsigned int):startedInteractively: /* Error: Ran out of types for this method. */;
-- (struct PUDisplayVelocity)dd}{CGSize=dd}},N,V_px_preferredSalientContentRectangle;
-- (void)archBar;
+- (double);
+- (void);
+- (long long);
+- (unsigned int)nerGenerator: /* Error: Ran out of types for this method. */;
+- (void)_shouldWorkAround124981589;
+- (void).photos;
+- (void)õS¦;
+- (struct PUDisplayVelocity);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *completionGroup; // @synthesize completionGroup=_completionGroup;

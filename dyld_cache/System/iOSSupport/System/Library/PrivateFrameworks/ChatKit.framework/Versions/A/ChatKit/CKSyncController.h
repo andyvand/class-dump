@@ -11,18 +11,18 @@
     int _attachmentRestoredToken;
 }
 
-+ (id)ì©1;
-- (void)Double: /* Error: Ran out of types for this method. */;
-- (void)searchResultsBySection;
-- (void)er;
-- (void)riteSharedSubObjectsInSource;
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (int);
 - (void);
 - (void);
 - (_Bool);
-- (int)enerated title from attachment OCR;
-- (void)tWithObjectID:] /* Error: Ran out of types for this method. */;
-- (id)@;
+- (int);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) int attachmentRestoredToken; // @synthesize attachmentRestoredToken=_attachmentRestoredToken;

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)es;
-- (_Bool)gIntro_Footer;
-- (_Bool)roller:(UIGestureRecognizer *)arg1 ];
+- (_Bool)1â
+0@ù
+× ;
+- (_Bool)ent;
 @end
 

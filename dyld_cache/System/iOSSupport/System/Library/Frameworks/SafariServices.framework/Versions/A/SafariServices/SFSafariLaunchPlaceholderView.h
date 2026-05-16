@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFLargeGladeButton, UIBarButtonItem, UIImageView, UILabel, UINavigationBar, UITextView, UIToolbar;
+@class NSString, UIBarButtonItem, UIButton, UIImageView, UILabel, UINavigationBar, UITextView, UIToolbar;
 
 __attribute__((visibility("hidden")))
 @interface SFSafariLaunchPlaceholderView
@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     UILabel *_linkTitleLabel;
     UINavigationBar *_topNavigationBar;
     UIBarButtonItem *_dismissButton;
-    SFLargeGladeButton *_largeButton;
+    UIButton *_largeButton;
     _Bool _showContinueButton;
     double _topLayoutGuideInset;
 }
@@ -35,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (void)uiredKeys;
-- (void)marks;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

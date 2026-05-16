@@ -17,7 +17,7 @@
     _HMContext *_context;
 }
 
-+ (id)Management;
++ (id)onData:forService:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;

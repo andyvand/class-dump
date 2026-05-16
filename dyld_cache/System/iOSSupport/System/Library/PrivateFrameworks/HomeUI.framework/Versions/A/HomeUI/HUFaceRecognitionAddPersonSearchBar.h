@@ -18,12 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void)ateRequired_HasHH1EOL_Description;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

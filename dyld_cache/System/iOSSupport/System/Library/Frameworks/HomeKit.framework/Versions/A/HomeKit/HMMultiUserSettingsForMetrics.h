@@ -20,8 +20,8 @@
     NSNumber *_numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation;
 }
 
-+ (id)ManagerMonitorCharacteristicsResponse;
-+ (id)@;
++ (id);
++ (id)nabled;
 - (void);
 - (void);
 - (void);
@@ -32,6 +32,8 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -46,10 +48,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (id)recurrenceCalendar;
-- (id):%@ /* Error: Ran out of types for this method. */;
+- (void)<{x~;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

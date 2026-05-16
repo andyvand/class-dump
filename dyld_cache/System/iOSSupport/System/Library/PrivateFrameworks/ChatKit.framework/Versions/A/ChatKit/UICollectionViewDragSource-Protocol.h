@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UICollectionView, UIDragPreviewParameters;
+@class NSArray, UIDragPreviewParameters;
 
 @protocol UICollectionViewDragSource
 
 @optional
-- (UIDragPreviewParameters *)züÿ>züÿýÿ;
-- (void)ntifier:(UICollectionView *)arg1 %@;
-- (NSArray *)18CKDebugTickHUDView;
-- (NSArray *)LanguageNeedsDownload;
-- (void)tCollection"16;
+- (void);
+- (UIDragPreviewParameters *)ÌóÀ;
+- (void)WCollaborationMetadataForDocumentURL or FPCollaborationMetadataForDocumentURL_Preliminary. Cannot retrieve collaboration metadata.;
+- (NSArray *)e"8@"NSDictionary"16B24B28q32;
+- (NSArray *)¼P;
 @end
 

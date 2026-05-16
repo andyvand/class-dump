@@ -24,7 +24,7 @@
 
 - (unsigned long long);
 - (void);
-- (void)r;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,26 +32,27 @@
 - (void);
 - (id);
 - (void);
-- (id)dSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
-- (double)erLogForSyncType:isCoreDuetSync:didCompleteChatSync:didSucceedSyncingChats:didCompleteMessageSync:didSucceedSyncingMessages:didCompleteAttachmentSync:didSucceedSyncingAttachments:didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
-- (void)to allow list;
-- (unsigned long long)racking for %@, IDS timedout waiting for SSM completion;
-- (void):(id)arg1 %@;
-- (void)t Current reads  %@;
-- (void);
-- (_Bool);
 - (id);
-- (void)fileRestrictions;
-- (id);
-- (_Bool)`;
-- (void)d accessory;
+- (double);
 - (void);
 - (unsigned long long);
 - (void);
-- (id)RotationBackgroundEffectContainer;
-- (void)¸;
-- (void)ork/LinkPresentation;
-- (void)ÐË&c;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (void)nt: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ler: /* Error: Ran out of types for this method. */;
+- (void)iveAnimations;
+- (void);
+- (void)d;
+- (id)|/Rÿ;
 
 // Remaining properties
 @property(nonatomic) double documentScale; // @synthesize documentScale;

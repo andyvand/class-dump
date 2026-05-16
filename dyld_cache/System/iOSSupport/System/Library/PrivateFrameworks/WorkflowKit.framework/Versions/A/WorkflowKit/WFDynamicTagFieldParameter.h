@@ -14,9 +14,9 @@
 }
 
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)calized intent from intent data. Status:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)kit-extension;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFDynamicTagFieldDataSource> dataSource; // @synthesize dataSource=_dataSource;

@@ -47,13 +47,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDStruct_aa2c6c27);
 - (void);
 - (id);
-- (id);
-- (void)eAreaEdgeMask;
-- (void)OfSprites beforeChange:%li afterChange:%li
- /* Error: Ran out of types for this method. */;
+- (CDStruct_aa2c6c27);
+- (void);
+- (id)renderOrigin;
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *captureSpriteTextures;

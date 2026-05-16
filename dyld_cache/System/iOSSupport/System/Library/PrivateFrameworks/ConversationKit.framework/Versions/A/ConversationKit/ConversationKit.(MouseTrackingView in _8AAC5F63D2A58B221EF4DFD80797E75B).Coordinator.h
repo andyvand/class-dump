@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)lectionViewCêÏG;
 
 @end
 

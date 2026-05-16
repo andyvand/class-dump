@@ -17,10 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)XHæ;
 - (void);
-- (id)%;
+- (id);
+- (id)1â
+0@ù
+× ;
+- (void)tyle case found for title;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *debugInfoOutputURL; // @synthesize debugInfoOutputURL=_debugInfoOutputURL;

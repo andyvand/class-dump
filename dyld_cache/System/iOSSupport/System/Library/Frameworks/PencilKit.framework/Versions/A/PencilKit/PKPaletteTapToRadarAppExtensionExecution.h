@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)etteScaleFactorPolicy;
+- (void)ÿÿm;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -20,15 +20,15 @@
     unsigned long long _numberOfClearActions;
 }
 
-+ (void);
++ (void);
 + (id);
-- (void),z;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)setController:(id)arg1;
+- (id);
+- (void);
 
 @end
 

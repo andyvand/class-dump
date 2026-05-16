@@ -14,14 +14,14 @@
     _Bool _purgeableBuffers;
 }
 
-- (_Bool)P;
+- (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)d;
+- (id)ó/Î¦;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buffers;

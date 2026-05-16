@@ -11,8 +11,8 @@
 }
 
 - (void);
-- (id)wipeHideGesture;
-- (void)T@"NSURL",C,N,S_setUploadURL:,V_originalURL /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ÿÌ#;
 
 @end
 

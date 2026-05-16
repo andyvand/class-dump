@@ -5,6 +5,5 @@
 //
 
 @protocol OSLogCoder
-- (void)ports:count:] /* Error: Ran out of types for this method. */;
 @end
 

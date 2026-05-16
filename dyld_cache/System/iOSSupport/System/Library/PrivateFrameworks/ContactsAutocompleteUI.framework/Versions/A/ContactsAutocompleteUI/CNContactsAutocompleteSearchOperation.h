@@ -35,13 +35,13 @@
 - (id);
 - (void);
 - (void);
-- (id)@;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)4;
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -59,11 +59,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
-- (void)PC;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long addressableGroupResultStyle; // @synthesize addressableGroupResultStyle=_addressableGroupResultStyle;

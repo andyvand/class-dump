@@ -29,25 +29,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (int);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id)`;
 - (void);
-- (void)ndler:(_Bool)arg1;
-- (void);
-- (_Bool)rFormat;
-- (void)lStartLocation;
-- (id)I;
-- (id)>2y?N2GGAGG;
-- (_Bool)N3GAJy 3SgGG_SbQo_yP3yACyA7_%3G_Qo_GA2_GACyADyAEÆá3yA7_GAEGA2_GtGG_Qo__×3Qo__Qo_;
-- (_Bool)ø G;
-- (id)t when trying to dismiss an event view where the video conference hasn't loaded;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)nceDate: /* Error: Ran out of types for this method. */;
+- (_Bool)oser;
+- (void)find bundle for id %@, %@;
+- (void)is event is an occurrence of a repeating event. Calendar will cut only this selected occurrence.;
+- (_Bool)µüÿ;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) EKCalendar *calendar; // @synthesize calendar=_calendar;

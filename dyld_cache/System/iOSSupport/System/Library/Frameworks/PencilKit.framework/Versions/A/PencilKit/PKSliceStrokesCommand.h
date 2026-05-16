@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)difyRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *substrokes; // @synthesize substrokes=_substrokes;

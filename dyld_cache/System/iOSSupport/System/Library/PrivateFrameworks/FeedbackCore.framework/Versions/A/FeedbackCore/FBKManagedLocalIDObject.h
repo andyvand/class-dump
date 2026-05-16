@@ -16,8 +16,8 @@
 + (id);
 + (id);
 - (void);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(copy) NSNumber *serverID; // @dynamic serverID;

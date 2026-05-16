@@ -10,10 +10,10 @@
 {
 }
 
-+ (_Bool)Level %tu;
++ (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 @end

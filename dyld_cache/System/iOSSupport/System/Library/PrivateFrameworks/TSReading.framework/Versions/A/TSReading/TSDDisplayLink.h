@@ -18,15 +18,15 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void);
 - (double);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType)eadgroup;
-- (void)Rows(TSTTableDataStore *, TSURowIndex, TSURowIndex, TSUColumnRowCount);
+- (CDUnknownBlockType)encePoint;
+- (void)NqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKKeyboardMonitor.m;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

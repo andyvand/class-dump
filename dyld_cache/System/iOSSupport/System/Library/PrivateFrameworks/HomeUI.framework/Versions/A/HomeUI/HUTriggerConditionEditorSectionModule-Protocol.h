@@ -5,6 +5,7 @@
 //
 
 @protocol HUTriggerConditionEditorSectionModule
+- (unsigned long long)AccessCode;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long conditionType;

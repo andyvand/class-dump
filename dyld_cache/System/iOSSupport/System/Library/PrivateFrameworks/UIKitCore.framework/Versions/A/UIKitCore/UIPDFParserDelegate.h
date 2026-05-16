@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)textDroppableView:(id)arg1 positionForDrop:(id)arg2;
-- (struct CGPath *)se: /* Error: Ran out of types for this method. */;
-- (id)ssociatingSceneLayer;
-- (_Bool)playTypeReverseVerticalDark;
-- (void)a;
+- (void);
+- (id);
+- (_Bool)Delegate;
+- (void)xQ¼Q;
+- (struct CGPath *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

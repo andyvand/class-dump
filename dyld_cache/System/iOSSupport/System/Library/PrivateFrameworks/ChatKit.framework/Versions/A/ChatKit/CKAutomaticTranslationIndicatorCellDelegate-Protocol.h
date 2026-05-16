@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAutomaticTranslationIndicatorCellMenuConfiguration;
-
 @protocol CKAutomaticTranslationIndicatorCellDelegate
-- (void);
-- (void)°.¯í;
-- (CKAutomaticTranslationIndicatorCellMenuConfiguration *)tion",R,N,V_configuration;
 @end
 

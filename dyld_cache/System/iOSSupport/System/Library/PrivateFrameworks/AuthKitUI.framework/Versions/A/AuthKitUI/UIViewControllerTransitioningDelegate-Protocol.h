@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
-
 @protocol UIViewControllerTransitioningDelegate
-
-@optional
-- (id <UIViewControllerInteractiveTransitioning>)lear</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
-</dict>
-</plist>
-;
-- (id <UIViewControllerAnimatedTransitioning>)nt;
 @end
 

@@ -46,7 +46,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType snapshotCompletion;
 }
 
-- (void)ionController",R,N;
+- (void);
 
 @end
 

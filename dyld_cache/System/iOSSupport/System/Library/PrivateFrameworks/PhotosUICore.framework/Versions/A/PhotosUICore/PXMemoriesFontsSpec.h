@@ -32,11 +32,11 @@
 + (id);
 - (id);
 - (double);
-- (void);
 - (id);
-- (id)m;
-- (id)AttributedString";
-- (struct UIEdgeInsets)ÿ;
+- (id)presentingSpriteIndex;
+- (id)rol;
+- (void)­ÿòûr;
+- (struct UIEdgeInsets)4;
 
 // Remaining properties
 @property(readonly, nonatomic) double baselineDistance; // @synthesize baselineDistance=_baselineDistance;

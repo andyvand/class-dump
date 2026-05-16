@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (oneway void), ;
+- (oneway void);
 - (id);
 - (void);
 

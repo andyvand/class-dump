@@ -5,9 +5,5 @@
 //
 
 @protocol ISAnimatedImagePlayerDestination
-
-@optional
-- (void)9);
-- (void)_։;
 @end
 

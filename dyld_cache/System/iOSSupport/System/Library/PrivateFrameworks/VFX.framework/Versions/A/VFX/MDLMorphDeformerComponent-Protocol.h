@@ -7,7 +7,7 @@
 @class MDLAnimatedScalarArray, NSArray;
 
 @protocol MDLMorphDeformerComponent
-- (MDLAnimatedScalarArray *)W];
+- (MDLAnimatedScalarArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *shapeSetTargetCounts;

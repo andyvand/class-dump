@@ -11,19 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long);
 - (id);
-- (id)!DFùñÅÐ1¢!0@ù
+- (Class);
+- (id);
+- (id);
+- (long long)!@Aùñ_°1Â0@ù
 × ;
 - (id);
-- (long long)ontentEffectDescriptor>"16@"<_UIContentEffectKey>"24;
-- (id)ctTouchResetGestureRecognizer";
-- (Class)ransitionToPresentingFocusedItem:(long long)arg1;
-- (id)ontentEffects;
-- (id)ationFrames;
-- (id)ewCellReuseParameters;
-- (id)0ÕXÕüÕ	´Ö;
-- (id)ÿÿ9<h;
+- (id)roppedItem:(id)arg1 dropContainerView:defaultAnimation:sourceAnimation:delegate: /* Error: Ran out of types for this method. */;
+- (id)sStyle;
+- (id)V_dataOwner;
+- (long long)`g;
+- (id)for edge value, %ld, not containing NSDirectionalRectEdgeTop or NSDirectionalRectEdgeBottom;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

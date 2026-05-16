@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Format: /* Error: Ran out of types for this method. */;
 
 @end
 

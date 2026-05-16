@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)HomeUI/GridStatusCell.swift;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *sceneSectionHeaderTitle;

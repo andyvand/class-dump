@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool)2IMDaemonCore35ScheduledMessageBlocklistController;
 + (_Bool);
-+ (id)idden;
-+ (id)29_UITabBarContentLayoutManagerC;
-+ (double)äIÿ;
++ (_Bool);
++ (id);
++ (id)nVC;
++ (double)LÊÍÌxg;
 
 @end
 

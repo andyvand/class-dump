@@ -40,8 +40,8 @@
 - (long long);
 - (long long);
 - (long long);
-- (void)¬Ö0e;
 - (id);
+- (void)theticPerson;
 
 // Remaining properties
 @property(readonly, nonatomic) long long anchorBodyIndexAfterChanges; // @synthesize anchorBodyIndexAfterChanges=_anchorBodyIndexAfterChanges;

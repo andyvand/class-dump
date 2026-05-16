@@ -5,8 +5,5 @@
 //
 
 @protocol TSSThemeAsset
-
-@optional
-- (SEL)H;
 @end
 

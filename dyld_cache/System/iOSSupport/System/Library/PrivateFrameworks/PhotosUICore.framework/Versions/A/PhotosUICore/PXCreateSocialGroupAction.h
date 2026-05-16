@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;

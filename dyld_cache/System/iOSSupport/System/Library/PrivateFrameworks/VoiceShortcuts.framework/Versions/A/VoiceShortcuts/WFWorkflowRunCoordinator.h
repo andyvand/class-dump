@@ -29,12 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void)8Q16;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFDatabaseProvider> databaseProvider; // @synthesize databaseProvider=_databaseProvider;

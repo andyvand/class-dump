@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)oldTrait;
-- (void)yGeneratorQueue;
+- (void);
+- (void);
 - (id);
 - (id);
-- (id)l;
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)ticsSessionStartDate;
 
 // Remaining properties
 @property(retain, nonatomic) CKAvatarButton *avatarButton; // @synthesize avatarButton=_avatarButton;

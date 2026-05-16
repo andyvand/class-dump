@@ -16,7 +16,7 @@
 }
 
 - (void);
-- (void);
+- (void)SXExperiment"24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

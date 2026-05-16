@@ -23,9 +23,9 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)!;
 
 // Remaining properties
 @property(readonly, nonatomic) long long maxNumberOfRects; // @synthesize maxNumberOfRects=_maxNumberOfRects;

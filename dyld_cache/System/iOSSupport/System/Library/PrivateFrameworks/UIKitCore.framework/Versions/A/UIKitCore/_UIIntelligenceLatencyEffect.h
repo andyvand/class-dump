@@ -13,11 +13,13 @@
     MISSING_TYPE *mode;
 }
 
-- (id)P;
-- (_Bool)6@0:(id)arg1 8q16@24@32@?40@?48;
 - (id);
-- (void)AttributesCached;
-- (id)TableView: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)ionWantsViewsToDisappear;
+- (void)ler that requires hosting in navigation bar is losing its navigation item
+	%@
+%@;
 
 @end
 

@@ -5,11 +5,6 @@
 //
 
 @interface (null) (AKPlatformColor_Extensions_Shared)
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -21,7 +16,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -32,13 +32,13 @@
 + (id);
 - (void);
 - (id);
-- (_Bool)0;
-- (float)P;
-- (_Bool)H;
+- (_Bool);
+- (float);
+- (_Bool);
 - (double);
-- (struct CGColor *);
+- (struct CGColor *);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool);

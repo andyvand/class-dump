@@ -13,11 +13,11 @@
     _UIBurnableBlock *_deferredCompletion;
 }
 
-+ (id)"56B64B68B72;
++ (id);
 - (_Bool);
 - (void);
-- (void);
-- (id)View:willMoveFromSuperview:toSuperview: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)|Ê´y];
 
 @end
 

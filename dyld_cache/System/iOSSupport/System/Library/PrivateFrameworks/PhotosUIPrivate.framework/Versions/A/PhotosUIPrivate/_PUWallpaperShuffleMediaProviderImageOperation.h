@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
 - (id);
+- (void);
+- (CDUnknownBlockType)ry:style:posterConfiguration:centerMedia: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

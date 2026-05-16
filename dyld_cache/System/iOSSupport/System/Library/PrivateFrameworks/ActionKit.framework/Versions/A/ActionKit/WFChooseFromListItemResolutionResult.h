@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool)d must contain at least 8 characters. Changing the password while the Personal Hotspot is active will disconnect any currently connected users.;
++ (_Bool);
 
 @end
 

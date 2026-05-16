@@ -34,27 +34,26 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
+- (struct CGSize);
 - (void);
-- (_Bool)
-× ;
-- (_Bool)emProvider:(id)arg1;
-- (void)&ÅþÿÞÄþÿòOþÿ;
-- (id)e;
+- (_Bool)_recordedClipInterfaceAvailable;
+- (_Bool)ate;
+- (void)"16@?0@"HFItemModule"8;
+- (id)ellReuseIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) HUGridActionSetItemManager *actionSetItemManager;

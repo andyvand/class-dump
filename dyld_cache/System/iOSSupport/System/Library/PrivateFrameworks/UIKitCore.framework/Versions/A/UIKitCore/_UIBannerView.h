@@ -25,23 +25,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (void);
+- (id);
 - (void);
-- (void)etStreamingContent:(id)arg1;
-- (void);
-- (void)Íð1¢!0@ù
+- (void)Ô ;
+- (void)!lAù1b°1Â0@ù
 × ;
-- (_Bool)__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)Finish;
-- (id)IAction",&,N,V_backAction;
-- (void)°BC;
-- (id)wnloadProgressBorderIndeterminate;
-- (id)??rrrrrrâ?Ú?Ë?p?222222â?ZZZZZZê?[[[[[[ë?ÒÑÑÑÑÑÑ?uuuuuuå?»ºººººê?{{{{{{ë?ç?XXXXXXè?ttttttä?å?ÙØØØØØØ?Ö?______ï?Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
+- (_Bool);
+- (id)trollers;
+- (id)ctivationManager",R,W,N,V_manager;
+- (void)%@;
+- (void);
 - (void);
-- (id)ç;
+- (id)è3,;
+- (void)ðçþ¨%¿;
+- (id)j;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *backgroundLayer; // @synthesize backgroundLayer=_backgroundLayer;

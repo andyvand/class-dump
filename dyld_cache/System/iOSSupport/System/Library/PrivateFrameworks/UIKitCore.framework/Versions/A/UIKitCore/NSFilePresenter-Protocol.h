@@ -7,16 +7,10 @@
 @class NSOperationQueue, NSSet, NSURL;
 
 @protocol NSFilePresenter
-- (NSURL *);
-- (NSOperationQueue *)£X[;
+- (NSURL *)ency:No attributes returned for invalidated decoration view. Element kind:%@; index path:%@; decoration view:%@; attributes from layout:%@; attributes from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
 
 @optional
-- (void)hannel;
-- (void)ð1¢!0@ù
-× ;
-- (void)ccessoryImage;
-- (void)tyle;
-- (void);
+- (void)ing restoration activity into an NSData;
 
 // Remaining properties
 @property(readonly) NSSet *observedPresentedItemUbiquityAttributes;

@@ -21,12 +21,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)ers:errorStr: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)~;
+- (void)pdated learned location of interest was nil, location, %{sensitive}@, visit, %{sensitive}@, transition, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;

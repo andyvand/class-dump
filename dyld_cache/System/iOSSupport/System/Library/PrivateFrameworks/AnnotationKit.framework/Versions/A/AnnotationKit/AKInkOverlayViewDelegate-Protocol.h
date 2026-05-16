@@ -5,6 +5,5 @@
 //
 
 @protocol AKInkOverlayViewDelegate
-- (_Bool)e;
 @end
 

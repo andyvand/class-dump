@@ -25,14 +25,14 @@
     MISSING_TYPE *currentBackgroundColorHighlighted;
 }
 
-- (void);
-- (id)contentKeyIdentifiers:(id)arg1 extension: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)<ëúÿHëúÿÌëúÿíúÿíúÿüíúÿ îúÿ\îúÿîúÿîúÿïúÿ¸ïúÿÜïúÿ;
+- (void)`Ðá;
 
 @end
 

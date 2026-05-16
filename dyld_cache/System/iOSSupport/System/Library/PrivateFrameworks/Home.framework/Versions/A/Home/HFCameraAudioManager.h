@@ -33,7 +33,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)erviceCarbonMonoxideSensorOn;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long audioStreamSetting;

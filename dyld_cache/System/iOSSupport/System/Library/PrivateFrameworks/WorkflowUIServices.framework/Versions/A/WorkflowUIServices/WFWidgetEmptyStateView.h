@@ -23,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)onnull getWFWorkflowFileClass(void)_block_invoke;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFWidgetEmptyStateViewDelegate> delegate; // @synthesize delegate=_delegate;

@@ -7,15 +7,12 @@
 @class UIView;
 
 @protocol _UIRemoteKeyboardInputViewPlaceholder
-- (UIView *);
-- (void)Y;
-- (void)Ð1¢!0@ù
+- (void)q]ð1Â0@ù
 × ;
-- (_Bool)Manager;
-- (struct CGSize)ualStyleOverride;
-- (void)r attributes:(struct CGSize)arg1 %@ and %@;
-- (void)emoved or replaced by the new action.
-;
+- (UIView *);
+- (void)ndicatorTintColor;
+- (_Bool)tle:image:selectedImage:action:forBarStyle:landscape:alwaysBordered: /* Error: Ran out of types for this method. */;
+- (void)SubtitleCellContentViewConfiguration;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *associatedView;

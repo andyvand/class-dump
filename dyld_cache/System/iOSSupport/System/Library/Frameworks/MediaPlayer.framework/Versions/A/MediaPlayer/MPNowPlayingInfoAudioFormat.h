@@ -11,7 +11,7 @@
     MRContentItemMetadataAudioFormat *_mediaRemoteAudioFormat;
 }
 
-+ (_Bool)atus:%lu /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (id)24B32Q36q44q52;
-- (id)ders:(id)arg1 subject:htmlContent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments:contentProtection: /* Error: Ran out of types for this method. */;
-- (long long)IntervalSince1970: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -35,29 +35,28 @@
 - (id);
 - (void);
 - (void);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (void);
-- (unsigned long long)chat found for message guid to mark as played:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long);
+- (long long);
 - (_Bool);
+- (id);
 - (unsigned int);
-- (id);
-- (void)?;
+- (_Bool);
 - (void);
 - (void);
-- (long long)*&;
-- (id);
-- (long long);
-- (id);
 - (void);
-- (id)mO;
-- (long long);
-- (long long);
 - (void);
 - (unsigned int);
-- (_Bool)!0@ù
-× ;
-- (long long)_enableState;
-- (id)@;
+- (long long);
+- (id);
+- (void)tionStoreUbiquitousIdentifier__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *audioChannelLayoutDescription;

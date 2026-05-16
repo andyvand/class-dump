@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDropProposal, UITargetedDragPreview;
+@class UIDropInteraction, UIDropProposal, UITargetedDragPreview;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void)n %@ update, but there are only %lu total items.;
-- (void)Hosting;
-- (void)cation;
+- (_Bool)ÿÿ;
+- (void)X;
+- (void)øèçÿ éçÿhéçÿéçÿÈéçÿøéçÿ êçÿhêçÿêçÿÈêçÿøêçÿ ëçÿhëçÿëçÿ¸ëçÿìëçÿ°ìçÿäìçÿíçÿDíçÿpíçÿ¤íçÿhîçÿîçÿÀîçÿôîçÿ ïçÿDïçÿïçÿ°ïçÿàïçÿ ðçÿhðçÿðçÿÀðçÿ;
 - (void);
-- (void)rotatingPortraitAndLandscape;
-- (UITargetedDragPreview *)UIKit internal bug.;
-- (UIDropProposal *)|gþ;
-- (_Bool)haredLight;
-- (void)youtPreferredColumns;
+- (UIDropProposal *)@"UIView"8B16;
+- (UITargetedDragPreview *)ponder:(UIDropInteraction *)arg1 ];
+- (void)request for number of items in section %ld when there are only %ld sections in the collection view;
+- (void)DCBA8F7AED4F32BF8CB739573LLP;
+- (void);
 @end
 

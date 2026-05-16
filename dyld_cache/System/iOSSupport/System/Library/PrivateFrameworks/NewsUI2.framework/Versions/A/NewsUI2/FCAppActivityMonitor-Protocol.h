@@ -5,6 +5,7 @@
 //
 
 @protocol FCAppActivityMonitor
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentApplicationState;

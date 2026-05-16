@@ -17,8 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)0@ù
-× ;
+- (void)t;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIImageViewOverlayViewDelegate> overlayViewDelegate; // @synthesize overlayViewDelegate=_overlayViewDelegate;

@@ -11,7 +11,7 @@
 }
 
 + (struct CGPath *);
-+ (void)w;
++ (void);
 + (_Bool);
 + (_Bool);
 + (struct CGRect);

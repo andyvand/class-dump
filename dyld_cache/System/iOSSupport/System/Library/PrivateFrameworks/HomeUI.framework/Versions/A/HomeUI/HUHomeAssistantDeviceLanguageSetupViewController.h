@@ -67,13 +67,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)Ô ;
 - (void);
-- (id)supportButtonPressForEntity: /* Error: Ran out of types for this method. */;
-- (void)CellLayer:(id)arg1;
+- (void)kControlColorModeRGB;
 
 // Remaining properties
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;

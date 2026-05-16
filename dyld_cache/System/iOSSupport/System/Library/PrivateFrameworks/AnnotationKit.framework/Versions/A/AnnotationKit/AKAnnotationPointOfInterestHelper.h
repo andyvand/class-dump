@@ -11,13 +11,13 @@
 + (struct CGPoint);
 + (void);
 + (struct CGPoint);
-+ (double)$;
-+ (unsigned long long);
-+ (_Bool);
++ (double);
++ (unsigned long long);
 + (_Bool);
-+ (Class)h;
++ (_Bool);
++ (Class);
 + (struct CGPoint);
-+ (void)(;
++ (void);
 + (unsigned long long);
 + (unsigned long long);
 

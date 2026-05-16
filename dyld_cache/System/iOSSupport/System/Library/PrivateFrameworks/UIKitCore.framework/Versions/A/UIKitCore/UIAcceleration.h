@@ -12,15 +12,16 @@
     double _z;
 }
 
-- (void)tor:(double)arg1;
+- (id);
 - (double);
+- (void)!Bù]1Â0@ù
+× ;
+- (double)fTimer"b1"versionWithoutRecentChangesIsNotLastOpened"b1"ignoreUndoAndRedoNotifications"b1"editingTemporarilyDisabled"b1"editingDisabledDueToPermissions"b1"isRegisteredAsFilePresenter"b1"movingFile"b1"savingError"b1"inConflict"b1"needToStopAccessingSecurityScopedResource"b1"replacedDefaultUserActivity"b1};
+- (void)tionRequestOptions;
 - (void);
-- (id)ìÝþÿÿÿÿ|;
-- (void)iddenYOffset;
+- (void)`¨;
 - (double);
-- (void)HÌáÿÏSg;
-- (double)úhÿ.öl;
-- (double)¥Øþ$øÓ·q;
+- (double)øÁm;
 
 // Remaining properties
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;

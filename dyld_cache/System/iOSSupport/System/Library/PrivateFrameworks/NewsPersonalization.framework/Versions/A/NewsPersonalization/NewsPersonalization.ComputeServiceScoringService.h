@@ -15,8 +15,8 @@
     MISSING_TYPE *paidAccessChecker;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

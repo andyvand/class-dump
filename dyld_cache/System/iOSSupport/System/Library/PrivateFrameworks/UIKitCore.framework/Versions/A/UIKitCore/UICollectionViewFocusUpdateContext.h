@@ -19,12 +19,11 @@
 
 + (id);
 + (id);
-- (id)4;
 - (id);
 - (id);
-- (void)!@EùñÂÐ1¢!0@ù
-× ;
-- (id)ocity;
+- (id);
+- (id)chedKeyList;
+- (void)ãùÒ4$i;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

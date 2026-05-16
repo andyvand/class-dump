@@ -17,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)teractHandler;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;

@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)isPhoneEditable;
 
 // Remaining properties
 @property(nonatomic, readonly) MURealTimeEVCharger *aggregatedInfo; // @synthesize aggregatedInfo;

@@ -37,72 +37,74 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)essage Header is not STATUS_OK! 0x%x;
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)alParameters:(struct __IOHIDEvent *)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)ath:(id)arg1 %@;
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void)c;
-- (id);
+- (struct __CFDictionary *);
 - (void);
 - (void);
-- (id)¹;
-- (void)áoÐ!DCùqÂð1¢!0@ù
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)<Fù^Ð1Â0@ù
 × ;
-- (id)
+- (void)Ôa!xEùÑ^ð1Â0@ù
 × ;
+- (id)0Gù_Ð1Â0@ù
+× ;
+- (id)!°!¼Cùñ_1Â0@ù
+× ;
+- (void)× ;
+- (id)Q`°1Â0@ù
+× ;
+- (id)Ô¡Ð!pFùñaÐ1Â0@ù
+× ;
+- (void)Ô ;
 - (void);
+- (id)ableViewStyle;
+- (void)oardAdjustment:(id)arg1;
+- (id)htColor;
+- (void)eFromConfiguration;
+- (_Bool)ufferFromRect:padding:gamut: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)0@ù
-× ;
+- (void)ionView;
+- (void)n:(long long)arg1;
+- (id)abelImage",&,N,V_image;
+- (void)C,N,V_originalUpdateItems;
+- (id)r;
+- (_Bool)üÂ¸Å<Æ;
+- (struct __CFDictionary *);
 - (id);
-- (void)x!ÌCù1Îð1¢!0@ù
-× ;
-- (void)tring"24;
-- (id);
-- (id)file:(struct __IOHIDEvent *)arg1 lineNumber:description: /* Error: Ran out of types for this method. */;
-- (_Bool)licationActivitiesForActivityItemsConfiguration;
-- (id)groundStyle;
-- (id)completion:(struct __IOHIDEvent *)arg1;
-- (void)redScale;
-- (id)ctive,V__interactive;
-- (void)figurationValues;
-- (long long)"NSDate",&,N,V_touchDownTime;
-- (id)rStandardChromeView;
-- (id)UIPanGestureVelocitySample;
-- (id)VAdaptiveLighten;
-- (id)o;
-- (struct __CFDictionary *)hLMàN;
-- (id) ;
-- (id)ld;
-- (void). This is a UIKit bug.;
-- (void);
-- (void)GAKGG_G;
-- (id)î3y»éj8G;
-- (struct __CFDictionary *)rom Horizontal %@/Vertical %@ to Horizontal %@/Vertical %@;
-- (void)ragRetest;
-- (void)dowWhenHighlighted;
-- (void)ForPrompt;
-- (id)þ;
-- (id)iÚ!O^;
-- (void)º;
-- (void)ëÿÝÕ¯Zd;
-- (void)Úðþál;
-- (id);
+- (id)ormMinHeight;
+- (id)ckForSceneMovingScreens;
+- (id)the UIBarButtonItem's style;
+- (id);
 - (void);
-- (id)©k;
-- (id)n;
+- (id)b;
+- (id)ÿ;
+- (id);
+- (void)Ó2h;
+- (void)Wh;
+- (id)ì[Éÿ;
+- (long long)ÊáÉllh;
+- (void);
 
 // Remaining properties
 @property(nonatomic) UIApplication *application; // @synthesize application=_application;

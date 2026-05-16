@@ -41,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void)!;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,7 +60,7 @@
 - (id);
 - (id);
 - (id);
-- (id)C;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -78,15 +78,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long)=;
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (unsigned long long);
 - (void);
-- (CDUnknownBlockType)HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/tables/TSTTableStrokeDefaults.mm;
-- (void)TypeProperty;
+- (void);
+- (CDUnknownBlockType);
+- (void)ttempt to bootstrap gradient presets for kind %@ in theme <%p>.;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *annotationDisplayStringTypes; // @synthesize annotationDisplayStringTypes=_annotationDisplayStringTypes;

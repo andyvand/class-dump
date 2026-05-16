@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     LPLinkMetadata *_metadata;
 }
 
-- (void);
-- (id);
-- (void)äNþ´¨NþÔ^Xþ eXþ nXþ,vXþà0`þ<`þh>`þ´B`þF`þ¬J`þU`þX`þÔ[`þ<i`þ|t`þ´`þ|`þ`þ`þìuXþØ`þ¨¿`þ¢`þp¤`þØuXþqiþ¿`þÄuiþ8ziþì=jþdwjþOjþÜYjþìXlþh]lþèMrþÔPrþdUrþì_rþbrþerþhrþàsrþÜãvþp^wþÖwþ¤gwþlmXþPuwþ^XþwþØdXþ¨wþ8¾Mþ,þ¤þDªþ®þPuXþ¸dXþ¾Mþ4mXþÌ¿MþÈ¿Mþà¡`þÈþxxþtxþpxþþì[õÿ;
+- (id)ion:progressDidChange:tracking: /* Error: Ran out of types for this method. */;
+- (void)Value;
+- (void)Ý];
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;

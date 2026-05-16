@@ -23,21 +23,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (double);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (double);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id)_setCameraRecordingHasBeenOnboarded;
-- (double)bleDictionary",R,N,V_changedKeys;
-- (_Bool)Key;
+- (unsigned long long)èO;
+- (void);
+- (_Bool)m is nil;
 
 // Remaining properties
 @property(readonly) _Bool canAskForUserFeedback;

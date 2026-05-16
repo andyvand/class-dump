@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MTStylingProvidingSolidColorView *backgroundView; // @synthesize backgroundView=_backgroundView;

@@ -34,6 +34,7 @@
     MISSING_TYPE *recipeAccessProvider;
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *history;
+    MISSING_TYPE *tagFeedHeadlineService;
 }
 
 @end

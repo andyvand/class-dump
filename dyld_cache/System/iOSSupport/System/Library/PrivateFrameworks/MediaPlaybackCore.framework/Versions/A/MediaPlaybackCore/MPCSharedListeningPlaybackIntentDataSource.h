@@ -24,27 +24,27 @@ __attribute__((visibility("hidden")))
     ICLiveLinkIdentity *_identity;
 }
 
-+ (_Bool)ccountUI:(id)arg1;
-+ (_Bool)viceMonitor:(id)arg1;
-- (long long);
-- (void);
-- (void)enticationPlugin;
-- (void)nticationPlugin;
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
++ (_Bool);
++ (_Bool);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)ntifier:(long long)arg1;
-- (void)Modification:(long long)arg1 oldAccount:(id)arg2 inStore: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -58,14 +58,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (long long)LaunchSheet;
 - (void);
-- (struct os_unfair_lock_s);
 - (void);
-- (void)	?׿;
+- (id);
 - (CDUnknownBlockType);
-- (void)x0;
-- (id);
+- (long long);
+- (struct os_unfair_lock_s)ü;
+- (void)s not exist] nextContentItemID=%{public}@;
+- (void)SDySSypG;
 
 // Remaining properties
 @property(nonatomic) long long buildState; // @synthesize buildState=_buildState;

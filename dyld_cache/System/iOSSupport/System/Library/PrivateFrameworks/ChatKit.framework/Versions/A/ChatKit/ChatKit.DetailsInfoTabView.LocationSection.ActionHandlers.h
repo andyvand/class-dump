@@ -14,8 +14,8 @@
     MISSING_TYPE *shareLocation;
 }
 
-- (void);
 - (id);
+- (void)Gÿ]£kÈÙ¨ÿ}£kGÿ£kpGÿU£ko©ÿ£kdGÿ£k`Gÿ£kÙ¨ÿE£kÙ¨ÿ;
 
 @end
 

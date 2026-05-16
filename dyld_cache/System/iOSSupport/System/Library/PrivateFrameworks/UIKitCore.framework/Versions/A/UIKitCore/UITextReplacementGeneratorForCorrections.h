@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
     unsigned long long _maxCountAfterSpellingGuesses;
 }
 
-+ (id)me:(id)arg1 %@;
-+ (id)utations because groupID/originalGroupID were not included in relay message.;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -31,24 +31,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long)tID:identifier:style:reflectOnly: /* Error: Ran out of types for this method. */;
-- (unsigned long long):style:account: /* Error: Ran out of types for this method. */;
-- (_Bool)ailed;
-- (_Bool)Read;
-- (_Bool)ileTransfersForMessage: /* Error: Ran out of types for this method. */;
-- (_Bool)sationLink: /* Error: Ran out of types for this method. */;
-- (_Bool)versation: /* Error: Ran out of types for this method. */;
-- (id)hResult: /* Error: Ran out of types for this method. */;
-- (void)r",&,N,V_dataBaseManager;
-- (id)emptCounts;
-- (void)DSService",R,N,V_service;
-- (void)leTransfersProtocol>",R,N;
-- (void)ingError;
 - (unsigned long long);
-- (void);
-- (id)expandSelectionToStartOfWordsBeforeCaretSelection: /* Error: Ran out of types for this method. */;
-- (id)setType:,V_type /* Error: Ran out of types for this method. */;
-- (id)Aÿ;
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (id)a°!$Gù]Ð1Â0@ù
+× ;
+- (void)äävÿ;
+- (id)¼g;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidate *autocorrectionRecord; // @synthesize autocorrectionRecord=_autocorrectionRecord;

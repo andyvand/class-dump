@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)<:xVÿ VÿÀa /* Error: Ran out of types for this method. */;
+- (id)V5;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id <PXFastEnumeration> collections; // @synthesize collections=_collections;

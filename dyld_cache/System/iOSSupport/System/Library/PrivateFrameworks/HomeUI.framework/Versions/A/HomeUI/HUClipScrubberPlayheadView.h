@@ -12,11 +12,10 @@
 
 - (void);
 - (_Bool);
-- (void);
 - (_Bool);
-- (id)!`Dù01b0@ù
-× ;
-- (void)îÿ¯Å÷Áú;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool drawsUpperContent; // @synthesize drawsUpperContent=_drawsUpperContent;

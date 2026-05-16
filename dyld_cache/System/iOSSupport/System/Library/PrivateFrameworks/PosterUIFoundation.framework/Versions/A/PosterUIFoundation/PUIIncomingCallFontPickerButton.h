@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T@"NSString",C,N,Spui_setPreviewIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

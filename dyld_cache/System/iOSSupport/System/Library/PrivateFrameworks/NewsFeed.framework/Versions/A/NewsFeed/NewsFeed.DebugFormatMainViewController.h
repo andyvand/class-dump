@@ -34,12 +34,12 @@
 }
 
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void)kgroundPriority;
-- (id);
-- (void);
+- (void);
 
 @end
 

@@ -16,18 +16,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)Scheme completionBlock ;
+- (id)@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

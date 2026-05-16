@@ -18,8 +18,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)£1¢!0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *additions; // @dynamic additions;

@@ -5,10 +5,10 @@
 //
 
 @interface (null) (IMFindMyHandleAdditions)
-+ (id)preservedFilter:(id)arg1 forStream:completionHandler: /* Error: Ran out of types for this method. */;
-+ (id)hFilter:(id)arg1 forStream: /* Error: Ran out of types for this method. */;
-+ (id)erDidChangeWithConfiguration:(id)arg1;
++ (id);
++ (id);
++ (id);
 - (id);
-- (id)ortAsynchronouslyWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id);
 @end
 

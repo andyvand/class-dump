@@ -13,11 +13,11 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)¸b;
 
 // Remaining properties
 @property(retain) NSError *error; // @synthesize error=_error;

@@ -14,10 +14,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (_Bool);
-- (id)ionLocalizedIntentResponse;
+- (id)äg};
+- (void)moteQuarantineStatusValue;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

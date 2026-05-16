@@ -21,7 +21,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)Ô ;
++ (id);
 - (void);
 - (id);
 - (void);
@@ -38,17 +38,19 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void)R,N;
-- (void)CGSg;
-- (id)W6;
+- (void);
+- (void);
+- (long long)!4EùH°1â
+0@ù
+× ;
+- (id)etBackButtonDisplayMode:(id)arg1;
+- (void)hapterHeaderLayout setAssetCollectionReference:(_Bool)arg1 ];
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIApplication *application; // @synthesize application=_application;

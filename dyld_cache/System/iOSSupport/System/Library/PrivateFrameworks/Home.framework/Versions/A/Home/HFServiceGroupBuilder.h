@@ -44,26 +44,26 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id)Handler: /* Error: Ran out of types for this method. */;
-- (void)ns;
+- (void)Since1970;
+- (void);
+- (void)<;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableIconDescriptors;

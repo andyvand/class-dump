@@ -17,11 +17,11 @@
     UIWindow *_coordinateContainerWindow;
 }
 
-+ (CDUnknownBlockType)Limiter:(id)arg1 result=%@ for noticeType:%@, elapsedMinutes:%@ < threshold:%@ /* Error: Ran out of types for this method. */;
-+ (id)lating selected/all aliases;
-+ (CDUnknownBlockType)ount info with cloudkit api;
-+ (CDUnknownBlockType)s active %@ can send %@ is madrid account %@;
-+ (_Bool)dTime:(id)arg1 %@ cloudKitRecordID:(_Bool)arg2 %@ isBlackholed:(_Bool)arg3 %@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
++ (CDUnknownBlockType);
++ (id);
++ (CDUnknownBlockType);
++ (CDUnknownBlockType);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,12 +32,12 @@
 - (id);
 - (void);
 - (id);
-- (id)GUID: /* Error: Ran out of types for this method. */;
-- (void)ickSwitch got _handleIncomingRecents on a non gizmo. Really bad!!;
+- (id);
 - (void);
-- (void)(ÒýüÊ?t~ãÀ+ê?©¡ÀÖûÝÀcGãP@ãÞüF÷?;
-- (id)gationBarContentView;
-- (void)ØØ{Z^;
+- (void)crollInteractionEnabled;
+- (void);
+- (id)Vÿ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *containerView;

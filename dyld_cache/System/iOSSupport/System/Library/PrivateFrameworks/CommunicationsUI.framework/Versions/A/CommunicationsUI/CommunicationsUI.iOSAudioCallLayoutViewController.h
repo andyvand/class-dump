@@ -43,9 +43,10 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void)GAJGAJG_Qo_,cbG_Qo_ª^bySbGGA2_ySSSgGGGAFGtGGA9_G;
+- (void)ñ(°1B50@ù
+× ;
 
 @end
 

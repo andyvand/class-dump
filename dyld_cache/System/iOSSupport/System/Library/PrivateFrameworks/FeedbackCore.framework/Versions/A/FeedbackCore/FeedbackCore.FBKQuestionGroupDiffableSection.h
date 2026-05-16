@@ -26,9 +26,9 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isSectionBelowAttachments; // @synthesize isSectionBelowAttachments;

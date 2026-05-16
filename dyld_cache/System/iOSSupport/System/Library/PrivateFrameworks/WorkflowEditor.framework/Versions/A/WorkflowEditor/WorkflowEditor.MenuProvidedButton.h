@@ -11,12 +11,12 @@
     MISSING_TYPE *menuProvider;
 }
 
-- (void);
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void)Ð!;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

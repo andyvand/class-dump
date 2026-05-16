@@ -7,6 +7,6 @@
 @class TSWPPadding;
 
 @protocol TSWPTextDelegate
-- (TSWPPadding *)ference init];
+- (TSWPPadding *)rameRep updateCALayer:toRect:withRepLayer:maskLayer:viewScale:maskLayerTransform:] /* Error: Ran out of types for this method. */;
 @end
 

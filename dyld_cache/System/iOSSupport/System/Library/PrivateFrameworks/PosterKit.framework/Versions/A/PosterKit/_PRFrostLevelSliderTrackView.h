@@ -8,8 +8,8 @@
 {
 }
 
+- (void);
 - (id);
-- (void)hot,V_snapshot;
 
 @end
 

@@ -20,7 +20,7 @@
     long long _layoutStyle;
 }
 
-+ (id)c;;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,10 +39,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (id)slideshowExportDuration;
 
 // Remaining properties
 @property(nonatomic) _Bool addSimulatedProgressComponent; // @synthesize addSimulatedProgressComponent=_addSimulatedProgressComponent;

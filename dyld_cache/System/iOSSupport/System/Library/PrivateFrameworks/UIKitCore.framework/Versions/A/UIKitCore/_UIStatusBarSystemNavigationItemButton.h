@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (_Bool);
-- (struct CGRect)GisCursorBlinkAnimationEnabled;
-- (struct CGRect);
+- (struct CGRect)an assertion that is already invalid. %@;
+- (struct CGRect)PresentationModifierGroupCG;
 
 @end
 

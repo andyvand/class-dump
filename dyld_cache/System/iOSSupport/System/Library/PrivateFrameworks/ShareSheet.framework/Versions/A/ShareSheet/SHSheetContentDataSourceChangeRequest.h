@@ -41,11 +41,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
-- (void)",&,N,V_previewURLOverride;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionProxies; // @synthesize actionProxies=_actionProxies;

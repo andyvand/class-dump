@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
+- (id);
+- (void)tContentSizeCategoryDidChangeNotification;
+- (void)nuationPreview;
 - (void);
-- (id)ttingDelegate;
-- (void)litViewController",R,N;
-- (void)pport;
-- (void)strong);
+- (void)llStyle];
 
 @end
 

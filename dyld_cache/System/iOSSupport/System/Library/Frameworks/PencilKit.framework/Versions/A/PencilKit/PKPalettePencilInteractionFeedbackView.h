@@ -14,16 +14,16 @@
 }
 
 - (id);
-- (void)80@0:(id)arg1 8q16@24@32@40@48@56@64@72;
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)E;;
-- (void);
+- (id)6Q24Q32Q40{CGRect={CGPoint=dd}{CGSize=dd}}48;
+- (void)EffectsWindowObserverDelegate;
+- (void)force from UITouch;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

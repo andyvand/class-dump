@@ -4,38 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCPurchaseOfferableConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
+- (_Bool)ù
+× ;
+- (double)gurationManager;
 - (_Bool);
-- (NSString *);
-- (NSArray *)i;
-- (FCAssetHandle *)@;
-- (NSString *);
-- (_Bool)imageOrientation];
-- (NSString *)P;
-- (NSArray *)L;
-- (id <FCSportsProviding>);
-- (NSString *)etName: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (NSDictionary *);
-- (FCAssetHandle *);
-- (_Bool)_domainName;
-- (_Bool)rameworks/ProactiveEventTracker.framework/Versions/A/ProactiveEventTracker;
-- (id <FCChannelProviding>);
-- (NSString *)iginatingSession;
-- (_Bool)jc_methtype;
-- (NSString *)@"AMSPurchase"16@"AMSUISceneIdentifierRequest"24^@32;
-- (_Bool)ortsStandingConfigurationResourceId;
-- (FCPurchaseOfferableConfiguration *)$;
-- (NSArray *);
-- (_Bool)LandingPage;
-- (NSString *)nse"16@"NSError"24;
-- (_Bool)t action title for alert when In-App subscription is expired.;
-- (id <FCTopicProviding>)edAd;
-- (_Bool)tAttributes;
-- (_Bool)Ñm;
+- (_Bool)dleViaOfferConfigCSgSg;
+- (_Bool);
+- (NSString *)ÿµÕ¨èÿµÕ¨èÿ}Õ;
+- (_Bool)õÿ;
+- (NSString *)µ»Õ´áèÿ]»Õ°áèÿ;
+- (long long)ãÕ @çÿ;
+- (_Bool)²§E¸8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -61,6 +44,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -87,6 +72,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

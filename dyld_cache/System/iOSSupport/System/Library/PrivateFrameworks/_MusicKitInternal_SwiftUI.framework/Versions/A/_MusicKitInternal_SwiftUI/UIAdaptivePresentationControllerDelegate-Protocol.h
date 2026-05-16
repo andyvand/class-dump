@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool);
+- (long long)M¯;
+- (void)when cloud library is not enabled in music picker.;
 @end
 

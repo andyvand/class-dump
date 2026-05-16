@@ -5,8 +5,5 @@
 //
 
 @protocol CKTextBalloonViewTextEffectsDelegate
-- (void);
-- (void);
-- (unsigned long long)è;
 @end
 

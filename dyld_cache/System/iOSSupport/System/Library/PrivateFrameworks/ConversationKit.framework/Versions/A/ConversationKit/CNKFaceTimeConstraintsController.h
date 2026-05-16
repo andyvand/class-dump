@@ -41,8 +41,8 @@
 - (void);
 - (long long);
 - (long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long accessibilityLocalParticipantState;

@@ -11,11 +11,12 @@
     MISSING_TYPE *privacyMarkerView;
     MISSING_TYPE *interactionPresentationDelegate;
     MISSING_TYPE *readyDelegate;
+    MISSING_TYPE *modalAdDelegate;
 }
 
 - (id);
-- (void)"NSObject<TSDCanvasEditor>";
 - (id);
+- (void);
 
 @end
 

@@ -18,36 +18,35 @@
 
 + (id);
 + (id);
-- (_Bool);
+- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (long long);
 - (id);
-- (_Bool);
 - (id);
 - (struct _NSRange);
+- (struct _NSRange);
+- (long long)ù
+× ;
+- (id)e°1Â0@ù
+× ;
+- (_Bool)ingFloatingTabBar;
+- (id)CenterYConstraint;
+- (id)ActionAtIndex: /* Error: Ran out of types for this method. */;
+- (id)rovider;
+- (id)erInsetsValue;
+- (long long),V_replaceReplaceAllSegmentedControl;
+- (id)ckground thread. Performing any operation from a background thread on UIView or a subclass is not supported and may result in unexpected and insidious behavior. trace=%@;
+- (long long)leInternal;
+- (id):] /* Error: Ran out of types for this method. */;
+- (_Bool)eIdentifier;
+- (long long)erInterfaceStyle = ;
 - (_Bool);
-- (long long);
-- (id)ists;
-- (id);
-- (long long);
 - (void);
-- (id)±Å1¢!0@ù
-× ;
-- (id)Æ1¢!0@ù
-× ;
-- (long long)ð!ÄDùÑÇð1¢!0@ù
-× ;
-- (id)× ;
-- (long long)× ;
-- (long long)gmentSelectionScaleFactor;
-- (struct _NSRange)ecelerating:(long long)arg1;
-- (long long)fication;
-- (id)q,N,S_setEdgeType:,V_edgeType /* Error: Ran out of types for this method. */;
-- (long long)PropertyGeometry;
-- (id)à>Ù®b;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;

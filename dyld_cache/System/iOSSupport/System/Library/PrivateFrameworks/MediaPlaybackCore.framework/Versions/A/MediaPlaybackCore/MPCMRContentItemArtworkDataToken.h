@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)public}@ in ItemTransitionParameters event=%{public}@;
+- (id)|éáÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;

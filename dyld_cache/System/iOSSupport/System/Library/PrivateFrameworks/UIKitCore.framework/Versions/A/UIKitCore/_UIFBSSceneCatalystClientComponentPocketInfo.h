@@ -29,11 +29,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
-- (id)into priorityMessageToPeerDevicesForMessageGUIDs:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
-- (float);
 - (id);
+- (float);
 - (void);
-- (void)ndex;
+- (id)eItemScrollView;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long floatingUserInterfaceStyle; // @synthesize floatingUserInterfaceStyle=_floatingUserInterfaceStyle;

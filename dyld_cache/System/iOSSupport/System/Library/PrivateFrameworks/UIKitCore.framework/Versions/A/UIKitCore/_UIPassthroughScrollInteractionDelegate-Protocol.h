@@ -5,7 +5,7 @@
 //
 
 @protocol _UIPassthroughScrollInteractionDelegate
-- (_Bool);
-- (_Bool)ï3y9üj8G;
+- (_Bool)questOptions;
+- (_Bool)wVz;
 @end
 

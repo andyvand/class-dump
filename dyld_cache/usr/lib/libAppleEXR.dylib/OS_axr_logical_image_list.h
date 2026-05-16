@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id)Recognizer;
 - (id);
 
 // Remaining properties

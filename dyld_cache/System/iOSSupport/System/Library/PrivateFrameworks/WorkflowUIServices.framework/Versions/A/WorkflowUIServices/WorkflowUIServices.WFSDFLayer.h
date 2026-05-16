@@ -11,13 +11,13 @@
     MISSING_TYPE *elementLayer;
 }
 
-- (void);
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
-- (double);
-- (id);
 - (void);
-- (id);
-- (id);
+- (double);
+- (void);
 - (void);
 
 // Remaining properties

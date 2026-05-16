@@ -12,7 +12,7 @@
     id <NSXPCProxyCreating> _proxy;
 }
 
-- (void)P9;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -21,7 +21,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)8`;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

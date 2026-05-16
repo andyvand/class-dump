@@ -20,45 +20,47 @@
     UIViewController<UINavigationControllerDelegate> *_customDetails;
 }
 
-- (void)tConstraint",&,N,V_doneEdgeConstraint;
-- (void)N,V_contentSizeHeightConstraint;
-- (id)bject:(id)arg1;
-- (_Bool)yingMedia;
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)5;
-- (void)15paragraphStylestG;
 - (void);
-- (void)agedObjectIDCSg06objectD0t;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)sketch's preview image to use as the fallback;
-- (_Bool)egacy attachment for content ID %@;
-- (_Bool)ersion.swift;
-- (id)CNoteAnalyticsAudioRecordingStoppedNotificationSessionEndedObjectKey;
-- (void)borationController containerForAccountID:(id)arg1 ];
-- (void)tPreviewGenerator:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)ID;
-- (void)IndexPath"16@?0@"NSCollectionViewItem"8;
-- (void)ionKey;
-- (void)ification;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -67,8 +69,9 @@
 - (id);
 - (id);
 - (void);
-- (id)«yèí«GG!ß«G«Ó«GSg;
-- (void)G¶ñ¬GSgAAyAAyÔ)ýÿ«÷¬G}í¬GAKtGGAJGGG¥ñ¬GA0_GGæ¬y&­GGm­ySbGG;
+- (id)!Aùð1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool addMemberPopoverPresented; // @synthesize addMemberPopoverPresented=_addMemberPopoverPresented;

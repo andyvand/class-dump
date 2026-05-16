@@ -12,13 +12,13 @@
     double _photoAnalysisGraphProgressUpdateInterval;
 }
 
-+ (id)·~P'9;
++ (id)È1$ÿ^ËÄ1$ÿ^ËÀ1$ÿÝ^Ë¼1$ÿ_Ë´ ÿå^Ë°1$ÿ;
 - (void);
 - (void);
 - (double);
 - (double);
+- (id);
 - (void);
-- (id)t create change request;
 
 // Remaining properties
 @property(nonatomic) double photoAnalysisGraphInitialGraceDelay; // @synthesize photoAnalysisGraphInitialGraceDelay=_photoAnalysisGraphInitialGraceDelay;

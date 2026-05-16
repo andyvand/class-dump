@@ -11,23 +11,23 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)aTag;
-- (struct UIEdgeInsets):deleteContext:error: /* Error: Ran out of types for this method. */;
-- (_Bool)ts:(id)arg1 groupID:serviceName: /* Error: Ran out of types for this method. */;
-- (id)dIMDHandleToRegistry: /* Error: Ran out of types for this method. */;
-- (id)EditedPartIndex: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct UIEdgeInsets);
+- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (long long)?;
+- (long long);
 - (unsigned long long);
-- (id)egister for throughput tracking for flag %{public}s:%@ /* Error: Ran out of types for this method. */;
-- (id)%@, pulling syndication_type and syndication_ranges;
-- (id)mp %@;
-- (id)e of nil path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
-- (id)* Failed to write md5 hash of file at path:%@ with exception:%@ /* Error: Ran out of types for this method. */;
-- (id)again on next sync;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (struct UIEdgeInsets)âÇe;
+- (struct UIEdgeInsets);
 
 @end
 

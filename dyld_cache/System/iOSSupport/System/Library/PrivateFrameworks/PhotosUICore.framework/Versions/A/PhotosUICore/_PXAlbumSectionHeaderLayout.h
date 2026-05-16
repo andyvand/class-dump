@@ -46,12 +46,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)allaxAsset:(id)arg1;
-- (id)ner: /* Error: Ran out of types for this method. */;
-- (id)ting changing the start time for an empty timeline;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)agers:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFloatingBackground; // @synthesize allowsFloatingBackground=_allowsFloatingBackground;

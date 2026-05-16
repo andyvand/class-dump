@@ -5,6 +5,5 @@
 //
 
 @protocol SMInitiatorDestinationBoundSessionProtocol
-- (void);
 @end
 

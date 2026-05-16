@@ -38,19 +38,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (void)RI¸aA5TXJ!³JxXIT&A4¸R«
-[31 CV0;j?" 38¦HRjAÅ &I)·-¨`c;
-- (void)H^%l+Q¤\[Q'/	ö"Pcw0RÄs1fZ\@-£7u=í­]¯i
-(2´#v:(id)arg1;
-- (id)·D.´Ag=O7	s@4j73i;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)/¯¯®..-­­­,,,¬«+++«ª**ªªª))©©)))©©))¨;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;

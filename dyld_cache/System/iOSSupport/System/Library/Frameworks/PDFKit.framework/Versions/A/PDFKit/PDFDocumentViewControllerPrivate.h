@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     UIScrollView *scrollView;
 }
 
-- (void)elegate;
+- (void);
 
 @end
 

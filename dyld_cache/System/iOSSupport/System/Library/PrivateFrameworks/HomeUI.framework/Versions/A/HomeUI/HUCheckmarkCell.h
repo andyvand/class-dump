@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ionary"24@?0@"HFTransformItem"8@"NSDictionary"16;
 
 // Remaining properties
 @property(nonatomic) _Bool checked; // @synthesize checked=_checked;

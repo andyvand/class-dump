@@ -7,10 +7,9 @@
 @protocol SXEdgeSpacing;
 
 @protocol SXConditionalComponentLayoutProperties
-- (unsigned long long);
-- (struct _NSRange);
-- (struct _SXConvertibleValue)P;
-- (id <SXEdgeSpacing>)@¦;
+- (struct _SXConvertibleValue);
+- (id <SXEdgeSpacing>)tCancelHandler;
+- (id <SXEdgeSpacing>)Configuration;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange columnRange;

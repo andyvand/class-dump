@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)0I8;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *reminderNotifyEmail; // @synthesize reminderNotifyEmail=_reminderNotifyEmail;

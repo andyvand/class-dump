@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)",&,N,V_temperatureUnitProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;

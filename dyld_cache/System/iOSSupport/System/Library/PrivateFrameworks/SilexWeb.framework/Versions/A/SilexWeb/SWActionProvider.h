@@ -16,12 +16,12 @@
 
 - (id);
 - (id);
-- (id)ocalNewsTodayFeedGroup;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)erences;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWEmbedAction> action;

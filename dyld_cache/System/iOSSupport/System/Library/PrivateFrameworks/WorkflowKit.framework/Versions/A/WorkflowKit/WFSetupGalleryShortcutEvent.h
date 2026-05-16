@@ -17,18 +17,18 @@
     NSString *_addToSiriBundleIdentifier;
 }
 
-+ (Class)myl«°myl¬Ö0%EÉ;
++ (Class);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (_Bool);
+- (void)ôÿ;
+- (void)24@?0@"WFDictionaryParameterKeyValuePair"8Q16;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *addToSiriBundleIdentifier; // @synthesize addToSiriBundleIdentifier=_addToSiriBundleIdentifier;

@@ -4,10 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIPageIndicatorView;
-
 @protocol _UIPageIndicatorFeedDelegate
-- (void)s;
-- (void):(_UIPageIndicatorView *)arg1 animated:(long long)arg2 tracking:fence: /* Error: Ran out of types for this method. */;
+- (void)1g1Â0@ù
+× ;
 @end
 

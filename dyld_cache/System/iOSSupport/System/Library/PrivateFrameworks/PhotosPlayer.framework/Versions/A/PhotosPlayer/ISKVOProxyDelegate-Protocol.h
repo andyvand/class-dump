@@ -5,6 +5,5 @@
 //
 
 @protocol ISKVOProxyDelegate
-- (void)j;
 @end
 

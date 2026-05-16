@@ -12,13 +12,13 @@
 }
 
 + (id);
-+ (_Bool)Metadata (WFImagePreserveMetadata);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)Content} to ${WFSendMessageActionRecipients} (Parameter Summary);
+- (void)rtPromptChecksWithUserInterface:contentDestination:contentItemCache:isWebpageCoercion:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

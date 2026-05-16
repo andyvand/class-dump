@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)AND name IS NOT NULL;;
-- (void)32;
+- (long long): /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

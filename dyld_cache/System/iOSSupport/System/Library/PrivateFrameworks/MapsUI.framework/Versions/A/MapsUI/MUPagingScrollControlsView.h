@@ -29,8 +29,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)sContent;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyFlipsForRTL; // @synthesize automaticallyFlipsForRTL=_automaticallyFlipsForRTL;

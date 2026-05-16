@@ -18,25 +18,24 @@
 - (void);
 - (void);
 - (void);
-- (id)in urgent message grace period. Message time %@ grace period start window %@;
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool)â|¬;
-- (id);
-- (id)1¢!0@ù
+- (void)dð1Â0@ù
 × ;
-- (void)ÔAxÐ!¼Bù±Í1¢!0@ù
-× ;
-- (id)redictiveTextEvenAudioPitch;
-- (void)C,N,V_viewControllerTitle;
-- (void)BarItemData;
-- (void) Ì;
-- (void)ÔN,¸;
-- (void)e:]  another keyboard hid us! /* Error: Ran out of types for this method. */;
+- (void)dinateSpace;
+- (id)utedMarkedText:selectedRange:inputString:searchString: /* Error: Ran out of types for this method. */;
+- (void)UIAssertionControllerSubject;
+- (void)*Òîÿ!þÿÒîÿ;
+- (void)w.;
 - (void);
-- (void)SplitViewControllerAdaptivePanelLayout: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

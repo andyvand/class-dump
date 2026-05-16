@@ -4,40 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMessageEntryContentView;
-
 @protocol CKMessageEntryContentViewDelegate
-- (void)er;
-- (void)sibleRange;
-- (void);
-- (void)kQuoteLevel;
-- (void)TMergeableStringUndoGroup",&,N,V_coalescingUndoGroup;
-- (void)lServiceInternal",&,N,V_systemPaperThumbnailService;
-- (_Bool)sortableSearchableItem;
-- (_Bool)elayer",R,N;
-- (_Bool)elayer;
-- (_Bool)ateObjectWithKeychain:(CKMessageEntryContentView *)arg1;
-- (void)ayer",&,N,V_processChangesSelectorDelayer;
-- (void)WithBaseAttributes:(CKMessageEntryContentView *)arg1 highlightColor:insideFrame: /* Error: Ran out of types for this method. */;
-- (void)lightRegexMatchFinder;
-- (struct CGSize)cryptionStateChecker;
-- (void),N;
-- (void)xt",R,N;
-- (void)R,N;
-- (void)er",W,N,V_mentionsController;
-- (void)&,N,V_managedObjectChangeController;
-- (void)FetchedResultsControllers;
-- (void)N,V_subtitleClickableTextView;
-- (void)SheetTouchBarController",&,N,V_touchBarController;
-- (void)reWithMetadata:(CKMessageEntryContentView *)arg1 managedObjectContext:(_Bool)arg2 completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)alescer;
-- (_Bool)_attachment;
-- (void)nailView;
-- (void)gexMatchFinder;
-- (void)achment;
-- (void)FolderCustomNoteSortType",&,N,V_sortType;
-- (void)",&,N,V_hashtagsAndMentionsController;
-- (_Bool)",C,N;
-- (void)mTypeUnknown;
 @end
 

@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
     id <CKCollaborationNoticeSuggestionDelegate> _delegate;
 }
 
-+ (id)m;
-- (_Bool)4;
++ (id);
+- (_Bool);
 - (id);
 - (id);
-- (id)shed;
 - (id);
-- (id)gestions;
-- (id)ptionData;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)a;
-- (id)tOrder:(id)arg1 %lu;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,23 +38,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)t;
-- (id)e;
-- (id)ationIdentifier;
-- (id)mAmount;
-- (id)stThreeMonths;
-- (id)oDate;
-- (id)stemPaper;
-- (id)inned;
-- (id)eRange;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)=SSGGAAyAQyß~=SSGAAy ôüÿ×~=GGGG;
-- (void)Qo_Qo_Qo__Qo_G_ðh®yAIPÚ­GQo__h®yADyAE»f®yh®yÿg®yif®yAFyAgHyAiCyA_yAIã>G_A_yAIß>GA_yAIÜ>GtGAXGG_Qo__Qo__A33_Qo__Qo_G_A39_Qo_tGGARy½>SgGG;
+- (void)|Eÿ­j|Eÿj|Eÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

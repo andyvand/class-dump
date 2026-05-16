@@ -29,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *presentingAlertOperationType; // @synthesize presentingAlertOperationType=_presentingAlertOperationType;

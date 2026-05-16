@@ -27,11 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ristic"8;
-- (id)tilityServicing;
+- (void)t¬ì;
+- (id)ing HomeKit to disable notifications for home <%@> because the last enabledReason was removed;
+- (id)se) Some Siri accessories don't support Voice Recognition (%lu), so we'll rely on self.enabled;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

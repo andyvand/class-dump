@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)lu with length %llu for itemId:%llu sig:%{public}s ref:%{public}s /* Error: Ran out of types for this method. */;
-- (_Bool)nary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)p without delegate;
-- (double)ò;
++ (_Bool);
+- (_Bool);
+- (id);
+- (double);
 
 @end
 

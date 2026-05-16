@@ -21,11 +21,11 @@
     MISSING_TYPE *webAuthButton;
 }
 
-- (id);
-- (void);
 - (void);
 - (struct CGRect);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessibilityFrame;

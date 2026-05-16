@@ -21,10 +21,10 @@
 - (SEL);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)eCySo27HFItemProviderReloadResultsCySo0B0CGG;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HFUpdateLogger *logger; // @synthesize logger=_logger;

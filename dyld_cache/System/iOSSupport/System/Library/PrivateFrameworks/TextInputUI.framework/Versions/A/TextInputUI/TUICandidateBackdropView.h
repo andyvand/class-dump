@@ -16,21 +16,19 @@
 
 - (long long);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)
-× ;
-- (void)Á~°!|AùÑ|°1b0@ù
-× ;
+- (void);
+- (void)}	|Î;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBBackdropView *backdropView; // @synthesize backdropView=_backdropView;
