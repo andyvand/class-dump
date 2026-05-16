@@ -94,8 +94,10 @@ void print_usage(void)
             "                             WebKit) cannot stall the rest of the batch.\n"
             "        --dsc-image-timeout SEC\n"
             "                             per-image wall-clock timeout for --dsc-class-dump\n"
-            "                             (default 600s; 0 disables; child is SIGKILL'd on timeout\n"
-            "                             and the image is reported as failed).\n"
+            "                             (default 180s; 0 disables; child is SIGTERM'd then\n"
+            "                             SIGKILL'd on timeout and reported as failed). While\n"
+            "                             waiting, the parent prints a heartbeat every 15s\n"
+            "                             naming the stuck worker's pid so you can `sample` it.\n"
             "        --dsc-skip-existing  with --dsc-class-dump, skip images whose output subdir\n"
             "                             already exists and is non-empty (resumable batch runs).\n"
             "        --dsc-in-process     with --dsc-class-dump, run all images in-process (legacy\n"
@@ -202,6 +204,9 @@ static BOOL CDDirectoryHasOutput(NSString *dir)
 
 // Run a child class-dump with argv `args` and wait up to `timeoutSec`
 // seconds. If timeoutSec <= 0, wait indefinitely.
+// `label` is used in heartbeat lines so the user can identify which image
+// the worker is processing. The parent prints a heartbeat every 15s while
+// waiting (with the worker's pid, so a stuck process can be `sample`d).
 // Returns:
 //   0   — child exited 0 (success)
 //  -1   — child failed to launch
@@ -209,7 +214,8 @@ static BOOL CDDirectoryHasOutput(NSString *dir)
 // other — child exit status (non-zero)
 static int CDRunChildWithTimeout(NSString *exePath,
                                  NSArray<NSString *> *args,
-                                 double timeoutSec)
+                                 double timeoutSec,
+                                 NSString *label)
 {
     NSTask *task = [[NSTask alloc] init];
     task.launchPath = exePath;
@@ -228,29 +234,49 @@ static int CDRunChildWithTimeout(NSString *exePath,
         return -1;
     }
 
+    pid_t childPid = task.processIdentifier;
+    fprintf(stderr, "class-dump: spawned worker pid %d for %s\n",
+            childPid, [label UTF8String] ?: "");
+    fflush(stderr);
+
     if (timeoutSec <= 0.0) {
         [task waitUntilExit];
         return [task terminationStatus];
     }
 
-    // Poll waitpid via NSTask's isRunning, which internally uses waitpid.
-    // Sleep in small chunks so we can react to timeout reasonably quickly.
+    // Poll the task and print a heartbeat every 15 s so the user can see
+    // which worker is still active and `sample` it if needed.
     NSTimeInterval start = [NSDate timeIntervalSinceReferenceDate];
+    NSTimeInterval lastBeat = start;
     const useconds_t kPollUs = 100 * 1000; // 100 ms
+    const NSTimeInterval kHeartbeatSec = 15.0;
     while ([task isRunning]) {
-        NSTimeInterval elapsed = [NSDate timeIntervalSinceReferenceDate] - start;
+        NSTimeInterval now = [NSDate timeIntervalSinceReferenceDate];
+        NSTimeInterval elapsed = now - start;
         if (elapsed >= timeoutSec) {
-            // Try a graceful terminate first, then escalate to SIGKILL.
-            kill(task.processIdentifier, SIGTERM);
+            fprintf(stderr,
+                    "class-dump: child pid %d exceeded %.0fs on %s — SIGTERM\n",
+                    childPid, timeoutSec, [label UTF8String] ?: "");
+            fflush(stderr);
+            kill(childPid, SIGTERM);
             NSTimeInterval graceStart = [NSDate timeIntervalSinceReferenceDate];
             while ([task isRunning] && ([NSDate timeIntervalSinceReferenceDate] - graceStart) < 3.0) {
                 usleep(kPollUs);
             }
             if ([task isRunning]) {
-                kill(task.processIdentifier, SIGKILL);
+                fprintf(stderr, "class-dump: child pid %d ignored SIGTERM — SIGKILL\n", childPid);
+                fflush(stderr);
+                kill(childPid, SIGKILL);
                 [task waitUntilExit];
             }
             return -2;
+        }
+        if (now - lastBeat >= kHeartbeatSec) {
+            fprintf(stderr,
+                    "class-dump: still waiting on pid %d (%.0fs / %.0fs) %s\n",
+                    childPid, elapsed, timeoutSec, [label UTF8String] ?: "");
+            fflush(stderr);
+            lastBeat = now;
         }
         usleep(kPollUs);
     }
@@ -446,7 +472,7 @@ int main(int argc, char *argv[])
         BOOL shouldDecompile = NO;
         BOOL shouldDecompileSwift = NO;
         BOOL shouldDecompileCpp = NO;
-        double dscImageTimeout = 600.0;
+        double dscImageTimeout = 180.0;
         BOOL dscSkipExisting = NO;
         BOOL dscInProcess = NO;
         BOOL dscWorkerMode = NO;
@@ -1032,7 +1058,7 @@ int main(int argc, char *argv[])
                     if (shouldDecompileCpp)   [childArgs addObject:@"--decompile-cpp"];
                     [childArgs addObject:full];
 
-                    int rc = CDRunChildWithTimeout(selfPath, childArgs, dscImageTimeout);
+                    int rc = CDRunChildWithTimeout(selfPath, childArgs, dscImageTimeout, rel);
                     if (rc == 0) {
                         succeeded++;
                     } else if (rc == -2) {
