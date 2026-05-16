@@ -34,8 +34,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)urce.m;
 
 // Remaining properties
 @property(retain, nonatomic) WFAppleMusicAccessResource *appleMusicAccessResource; // @synthesize appleMusicAccessResource=_appleMusicAccessResource;

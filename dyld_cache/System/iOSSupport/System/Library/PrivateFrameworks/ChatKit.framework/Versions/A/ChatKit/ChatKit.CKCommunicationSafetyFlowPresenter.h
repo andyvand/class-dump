@@ -9,9 +9,9 @@
 }
 
 - (void);
-- (void)饍yA;
 - (void);
-- (id)	k`;
+- (id);
+- (void)om.apple.MobileSMS.PluginPayload;
 
 @end
 

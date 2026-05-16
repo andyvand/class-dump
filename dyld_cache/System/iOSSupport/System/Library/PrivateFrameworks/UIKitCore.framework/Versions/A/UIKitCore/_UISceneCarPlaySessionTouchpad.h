@@ -16,13 +16,12 @@
 
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
+- (void);
 - (id);
-- (struct CGSize);
-- (void)
-× ;
-- (unsigned long long)skView` (%@) to `nil` before adding it as a subview of %@;
+- (unsigned long long)tion: /* Error: Ran out of types for this method. */;
+- (struct CGSize)diaTimeWhenIndicatorWasFirstPresentedInResponseToWheelEvent;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

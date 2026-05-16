@@ -17,19 +17,19 @@ __attribute__((visibility("hidden")))
     id <_MPActiveUserChangeMonitorDelegate> _delegate;
 }
 
-- (void)Rh;
 - (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (struct os_unfair_lock_s);
-- (id);
-- (id);
-- (void)ebug.pid%d.tx%04ld.seq%08ld.%p.%s.%s.headers.txt;
+- (void)configuration;
 
 // Remaining properties
 @property(nonatomic) __weak id <_MPActiveUserChangeMonitorDelegate> delegate; // @synthesize delegate=_delegate;

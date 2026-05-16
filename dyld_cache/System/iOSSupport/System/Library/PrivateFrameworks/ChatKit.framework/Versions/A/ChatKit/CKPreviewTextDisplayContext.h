@@ -14,15 +14,15 @@
     UIFont *_mentionsFont;
 }
 
-- (void)hingPredicate:(id)arg1 context: /* Error: Ran out of types for this method. */;
-- (void)N,V_attachmentObjectID;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)attributedHighlightedString.length;
-- (id)id*)0) || string.length == attributedHighlightedString.length;
-- (void)@;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *baseTextColor; // @synthesize baseTextColor=_baseTextColor;

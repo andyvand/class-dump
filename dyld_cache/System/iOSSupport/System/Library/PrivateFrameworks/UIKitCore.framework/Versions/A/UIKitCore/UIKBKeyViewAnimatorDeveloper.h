@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGRect)yloadProxyAutoDiscoveryEnable;
-- (struct CGRect)ar;
+- (struct CGRect);
+- (struct CGRect);
 
 @end
 

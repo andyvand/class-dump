@@ -12,12 +12,14 @@
     MISSING_TYPE *subtitleView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)4;
-- (long long);
+- (id)ÁøÐ!ÈCùEÐ1â
+0@ù
+× ;
+- (void);
+- (long long)PhotosFilterButtonController;
 
 @end
 

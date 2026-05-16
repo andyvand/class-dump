@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ngageEvent";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)LastName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bodyStrings; // @synthesize bodyStrings=_bodyStrings;

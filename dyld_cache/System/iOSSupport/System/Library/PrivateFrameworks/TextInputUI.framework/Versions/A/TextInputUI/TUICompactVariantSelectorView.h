@@ -10,11 +10,11 @@
 {
 }
 
-+ (long long);
++ (long long);
 + (double);
 - (double);
-- (id)xÛz;
-- (struct UIEdgeInsets);
+- (id);
+- (struct UIEdgeInsets);
 - (id);
 
 @end

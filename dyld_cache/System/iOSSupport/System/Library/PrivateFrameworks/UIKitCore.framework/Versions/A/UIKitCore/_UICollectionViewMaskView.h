@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (id)´j8_²j8SgSo6UIViewCt;
+- (id)ModeActive;
 
 // Remaining properties
 @property(nonatomic) unsigned long long removalToken; // @synthesize removalToken=_removalToken;

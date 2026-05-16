@@ -25,7 +25,7 @@
     _Bool contentIsSensitive;
 }
 
-+ (_Bool)ents;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -35,18 +35,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (_Bool);
 - (long long);
 - (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)to whether iMessage is available;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool contentIsSensitive; // @synthesize contentIsSensitive;

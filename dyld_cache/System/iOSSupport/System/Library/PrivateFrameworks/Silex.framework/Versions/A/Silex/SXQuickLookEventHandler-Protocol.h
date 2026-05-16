@@ -5,6 +5,5 @@
 //
 
 @protocol SXQuickLookEventHandler
-- (void);
 @end
 

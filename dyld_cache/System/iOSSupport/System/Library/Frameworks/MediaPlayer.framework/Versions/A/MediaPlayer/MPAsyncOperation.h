@@ -16,19 +16,20 @@
     ICUserIdentity *_userIdentity;
 }
 
-- (void);
-- (void)no social highlights found in cache, no cache will be persisted.;
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool)?|;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)_didDismissHandler;
-- (id)0ãÿià¤;
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (void)orkInfoType;
+- (id)ontroller: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

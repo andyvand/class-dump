@@ -25,10 +25,8 @@
 - (void);
 - (void);
 - (void);
+- (void)zeOptions;
 - (void);
-- (void)£!ÄGùñµ
-ð1b0@ù
-× ;
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;

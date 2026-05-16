@@ -30,11 +30,11 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (double);
 - (id);
+- (double);
 - (void);
-- (long long);
+- (void);
+- (long long)nsform: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *anchorIdentifier; // @synthesize anchorIdentifier=_anchorIdentifier;

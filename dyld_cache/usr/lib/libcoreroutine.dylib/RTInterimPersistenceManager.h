@@ -24,28 +24,28 @@
 + (id);
 + (id);
 - (void);
-- (id)];
+- (id);
 - (id);
 - (void);
 - (void);
 - (int);
-- (_Bool)System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer;
+- (_Bool);
 - (_Bool);
 - (int);
-- (id)n;
 - (id);
-- (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id)satisfying:bluePOITileStore /* Error: Ran out of types for this method. */;
-- (void)p«äÿa+	;
-- (id)³;
-- (void)ÞÿG½.âX;
+- (void);
+- (id);
+- (id);
+- (void)Error, %@;
+- (void);
+- (void);
+- (id)ÿí*ãv;
 
 // Remaining properties
 @property(nonatomic) unsigned long long availability; // @synthesize availability=_availability;

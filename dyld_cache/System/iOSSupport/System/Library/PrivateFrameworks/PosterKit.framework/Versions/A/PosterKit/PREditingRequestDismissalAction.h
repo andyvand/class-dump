@@ -22,9 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <BSInvalidatable> tempPathValidityExtension; // @synthesize tempPathValidityExtension=_tempPathValidityExtension;

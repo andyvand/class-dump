@@ -19,9 +19,9 @@
 - (id);
 - (struct CGPoint);
 - (void);
+- (void);
 - (double);
 - (void);
-- (void)× ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint drawingOffset; // @synthesize drawingOffset=_drawingOffset;

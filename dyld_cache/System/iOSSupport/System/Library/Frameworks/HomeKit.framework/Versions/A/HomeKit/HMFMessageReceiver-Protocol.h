@@ -8,10 +8,9 @@
 @protocol OS_dispatch_queue;
 
 @protocol HMFMessageReceiver
-- (NSUUID *)ÒÿÉÏbHNÑÿÉÏb\Òÿ;
 
 @optional
-- (NSObject<OS_dispatch_queue> *)ys;
+- (NSObject<OS_dispatch_queue> *)ue;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;

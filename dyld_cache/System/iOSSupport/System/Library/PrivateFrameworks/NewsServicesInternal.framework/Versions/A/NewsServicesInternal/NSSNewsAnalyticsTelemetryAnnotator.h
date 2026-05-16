@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (void)TSDTexturedRectangle.m;
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSSNewsAnalyticsUserIDProvider> userIDProvider; // @synthesize userIDProvider=_userIDProvider;

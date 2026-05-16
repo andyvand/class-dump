@@ -17,8 +17,8 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)public}@];
 
 // Remaining properties
 @property(copy) NSString *contents; // @synthesize contents=_contents;

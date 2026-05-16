@@ -20,12 +20,13 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
-- (id)Ø¦;
-- (void)GAEyç¦!SgGG;
-- (_Bool)need to accept non-pending moment share:%@ /* Error: Ran out of types for this method. */;
+- (id)
+× ;
+- (void)<PXStoryMovieHighlight>",&,N,VmovieHighlight;
+- (void);
+- (void)Frameworks/ContactsUI.framework/ContactsUI;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *text;

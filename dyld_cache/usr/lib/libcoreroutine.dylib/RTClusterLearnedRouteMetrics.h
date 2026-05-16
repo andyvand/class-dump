@@ -19,7 +19,7 @@
     RTDefaultsManager *_defaultsManager;
 }
 
-+ (id)T;
++ (id);
 - (id);
 - (void);
 - (id);
@@ -36,17 +36,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)gs;
 - (void);
 - (id);
+- (void);
+- (id)];
+- (void)public}d,isSameLocation,%{public}d;
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedRouteCloudKitSyncStatisticsMetrics *cloudKitSyncMetrics; // @synthesize cloudKitSyncMetrics=_cloudKitSyncMetrics;

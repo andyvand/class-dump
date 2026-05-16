@@ -15,12 +15,12 @@
 
 - (_Bool);
 - (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (double);
-- (id);
+- (double)ShadowColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool availableForScrollingGesture; // @synthesize availableForScrollingGesture;

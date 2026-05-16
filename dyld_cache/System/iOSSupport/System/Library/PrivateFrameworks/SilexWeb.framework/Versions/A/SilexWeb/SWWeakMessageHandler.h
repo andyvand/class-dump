@@ -12,7 +12,7 @@
     id <SWMessageHandler> _messageHandler;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);

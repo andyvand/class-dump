@@ -12,7 +12,7 @@
 }
 
 - (long long);
-- (void)eneral SW counters;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long windowDismissalAnimation; // @synthesize windowDismissalAnimation=_windowDismissalAnimation;

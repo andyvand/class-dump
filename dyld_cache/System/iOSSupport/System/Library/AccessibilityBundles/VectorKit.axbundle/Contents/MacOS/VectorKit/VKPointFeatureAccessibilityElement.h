@@ -29,16 +29,16 @@
 - (double);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (CDStruct_31142d93);
-- (id);
 - (struct CGRect);
 - (id);
+- (_Bool);
 - (id);
 - (void);
+- (id);
+- (CDStruct_31142d93);
+- (void);
+- (id);
+- (void)vel;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *featureIds; // @synthesize featureIds=_featureIds;

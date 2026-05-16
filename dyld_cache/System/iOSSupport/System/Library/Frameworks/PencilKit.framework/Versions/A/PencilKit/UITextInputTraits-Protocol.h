@@ -9,34 +9,30 @@
 @protocol UITextInputTraits
 
 @optional
-- (unsigned long long)5;
-- (_Bool)lUploadAttachmentSize;
-- (_Bool);
+- (long long)nt=dd}48@0:8{CGPoint=dd}16{CGPoint=dd}32 /* Error: Ran out of types for this method. */;
+- (long long)HeightConstraint;
+- (NSString *)e: /* Error: Ran out of types for this method. */;
+- (void)dsRefreshFeedbackViews;
+- (void)llViewTrailingConstraint;
+- (long long)tBytes:length: /* Error: Ran out of types for this method. */;
+- (void)ue:(long long)arg1;
+- (long long)t;
+- (long long)nsertionType: /* Error: Ran out of types for this method. */;
+- (long long)uttonVisible;
+- (long long)idFinishRenderingNewStrokes:inDrawing:forPreview: /* Error: Ran out of types for this method. */;
+- (long long)ns;
+- (void)Controller",R,N,V_attributeViewController;
+- (void)ortTouchPad;
 - (void);
-- (void)yh;
-- (void)1Ã°1¢!0@ù
-× ;
-- (void)ViewControllerDelegate>";
-- (void)guration";
-- (void)ftKeyStateChangedFromState:(long long)arg1 toState: /* Error: Ran out of types for this method. */;
-- (NSString *)ents: /* Error: Ran out of types for this method. */;
-- (void)electedTool:(long long)arg1;
-- (long long)ckgroundEnabled: /* Error: Ran out of types for this method. */;
-- (void)pletionBlock:(_Bool)arg1;
-- (void)erContainerView:(_Bool)arg1 willPresentInputAssistantView: /* Error: Ran out of types for this method. */;
-- (long long)able:item:openAsCompact: /* Error: Ran out of types for this method. */;
-- (void)erateTriangle:(long long)arg1 sourceStroke:inputScale:averageInputPoint: /* Error: Ran out of types for this method. */;
-- (long long)Redone: /* Error: Ran out of types for this method. */;
-- (long long)wedCharacterSet;
-- (long long)ing;
-- (long long)kViewCenterXConstraint;
-- (long long)aletteViewDelegateProxy;
-- (long long)¿$À$ÃàÃÅÆ È¬ÉÊ(¬ËÌÌ;
-- (void);
-- (void)è	;
-- (long long);
-- (void)ìÜ;
-- (long long)}@ (%ld columns, committable range %ld-%ld) TRIMMED to committable range %ld-%ld, new string to refine = %{sensitive}@;
+- (void)Ä_¼`pbäcÈd*üeg;
+- (long long)Ô7;
+- (long long)¥;
+- (void);
+- (void);
+- (long long)qqq}24;
+- (long long)Threshold;
+- (unsigned long long)ientationTimestamp;
+- (void)@¸Ïÿl6;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

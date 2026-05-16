@@ -13,11 +13,11 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (void)nifier-ranged-lo;
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

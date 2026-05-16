@@ -19,12 +19,11 @@
     MISSING_TYPE *interPlatterSpacing;
 }
 
-- (void);
 - (id);
-- (void)0@ù
-× ;
-- (id)convertRectToBitmapCoordinates: /* Error: Ran out of types for this method. */;
-- (id)Displacement;
+- (id);
+- (void);
+- (id)ng;
+- (void)GÿêìÜØ²l;
 
 @end
 

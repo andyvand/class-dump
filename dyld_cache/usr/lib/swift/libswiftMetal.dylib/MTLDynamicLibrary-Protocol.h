@@ -8,8 +8,6 @@
 @protocol MTLDevice;
 
 @protocol MTLDynamicLibrary
-- (NSString *);
-- (_Bool));
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

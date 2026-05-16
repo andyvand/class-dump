@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@"WKWebView"16@"WKDownload"24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,17 +15,17 @@
 }
 
 - (void);
-- (id)Participants for scheduled messages in chat %s if necessary;
-- (void)e allowed list, Telling the block to continue;
-- (void)yncCompleted;
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)Q}40^q56;
 - (void);
 - (void);
-- (void);
-- (id)scrollHeartbeat;
-- (id)amp;
+- (id);
+- (id);
+- (void);
+- (void)øä]þ?SÝ¡g;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_cachedState, setter=_setCachedState:) _UIInputViewControllerState *cachedState; // @synthesize cachedState=_cachedState;

@@ -10,7 +10,6 @@
 
 @interface _UIPortalView : UIView
 {
-    _Bool _hidesSourceLayerInOtherPortals;
     _Bool _forwardsClientHitTestingToSourceView;
     _Bool __geometryFrozen;
     _Bool __prefersClientLayer;
@@ -19,55 +18,58 @@
     NSSet *__additionalAnimatableKeyPaths;
 }
 
-+ (Class)¡¡X¢¨¢p£p¥ ¦;
++ (Class);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (double);
 - (void);
 - (void);
-- (id);
-- (_Bool)ts:withSystemIntegrityProtectionEnabled:withIsMDMLostModeEnabled:withMaximumResidentUsers:withPushToken:withDiagnosticSubmissionEnabled:withAppAnalyticsEnabled:withICCID:withBluetoothMAC:withWiFiMAC:withEthernetMACs:withCurrentCarrierNetwork:withSIMCarrierNetwork:withSubscriberCarrierNetwork:withCarrierSettingsVersion:withPhoneNumber:withDataRoamingEnabled:withVoiceRoamingEnabled:withPersonalHotspotEnabled:withIsNetworkTethered:withIsRoaming:withSIMMCC:withSIMMNC:withSubscriberMCC:withSubscriberMNC:withCurrentMCC:withCurrentMNC: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void)ll be ignored.;
-- (void);
-- (void);
-- (_Bool)entDescriptor;
-- (_Bool)became active system fallback;
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)P;
-- (id);
-- (_Bool);
-- (id)1¢!0@ù
+- (_Bool)0@ù
 × ;
-- (id)av!ð@ùË°1¢!0@ù
+- (void)Ð!DAùñ\°1Â0@ù
 × ;
-- (void)iewController"32@"<UIViewControllerTransitionCoordinator>"40;
-- (_Bool)leViewCell"32@0:8@"UITableView"16@"NSIndexPath"24 /* Error: Ran out of types for this method. */;
-- (void)Item:(_Bool)arg1 didEndRenamingWithTitle: /* Error: Ran out of types for this method. */;
-- (id)ntConfiguration:(id)arg1;
-- (void)sGuide:(_Bool)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)eraAndShouldInsertText: /* Error: Ran out of types for this method. */;
-- (void)isHidden,S_setHidden:(struct CGPoint)arg1;
-- (void)ollerDelegate>",W,N,V_delegate;
-- (_Bool)mentation of this method to the delegate of this table view, instead of the data source:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (void)etEMFEmojiSearchEngineClass(void)_block_invoke;
-- (void)3|Ù@-DTû!é?u§»é»ý@-DTû!é?-DTû!é?-DTû!é?^8U)zj@;
-- (double)»þ;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)!DFùqdÐ1Â0@ù
+× ;
+- (_Bool)ù
+× ;
+- (id)32@0:8@"UIView<UITableConstantsCellProviding>"16@"UIColor"24 /* Error: Ran out of types for this method. */;
+- (void)";
+- (_Bool)roller"24@"UIViewController"32q40;
+- (void)ntViews;
+- (void)alizedSubtitle;
+- (id)justsFontForContentSizeCategory;
+- (void)ceDelegate;
+- (void)ontext;
+- (_Bool)ib;
+- (void)ted:(struct CGRect)arg1;
+- (_Bool)UITextDropRequest;
+- (void)witchControl;
+- (id)/;
+- (_Bool)image=%p error.domain=%@ error.code=%ld;
+- (void);
+- (void)nNotification;
+- (_Bool)tViewDidScroll;
+- (void)s.;
+- (_Bool)er acceptAutocorrectionWithCompletionHandler:requestedByRemoteInputDestination:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)w;
+- (void)13dËoþi13,ß¥þQ13ß¥þ;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_additionalAnimatableKeyPaths, setter=_setAdditionalAnimatableKeypaths:) NSSet *_additionalAnimatableKeyPaths; // @synthesize _additionalAnimatableKeyPaths=__additionalAnimatableKeyPaths;
@@ -83,7 +85,7 @@
 @property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool forwardsClientHitTestingToSourceView; // @synthesize forwardsClientHitTestingToSourceView=_forwardsClientHitTestingToSourceView;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesSourceLayerInOtherPortals; // @synthesize hidesSourceLayerInOtherPortals=_hidesSourceLayerInOtherPortals;
+@property(nonatomic) _Bool hidesSourceLayerInOtherPortals;
 @property(nonatomic) _Bool hidesSourceView; // @dynamic hidesSourceView;
 @property(nonatomic) _Bool matchesAlpha; // @dynamic matchesAlpha;
 @property(nonatomic) _Bool matchesPosition; // @dynamic matchesPosition;

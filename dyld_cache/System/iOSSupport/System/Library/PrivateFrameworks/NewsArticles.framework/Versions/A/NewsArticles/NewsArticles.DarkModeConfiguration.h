@@ -13,9 +13,9 @@
 
 - (double);
 - (unsigned long long);
-- (void)?;
 - (id);
 - (id);
+- (void)sages;
 - (_Bool);
 
 // Remaining properties

@@ -39,15 +39,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)t;
-- (void);
-- (void);
-- (id)Ö=4;
-- (id)âÔÿÅùI¿4;
-- (void)e6;
-- (void)ÿ;
+- (void)P;
+- (id)enerateSnapshotImage];
+- (void)uratedLibrarySectionedLayout initWithViewModel:(id)arg1 spec:] /* Error: Ran out of types for this method. */;
+- (id)iew();
+- (void)lvjÿÐ·iÿø·iÿ;
+- (void)k;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXPeopleSuggestionManagerDataSource> bootstrapDataSource; // @synthesize bootstrapDataSource=_bootstrapDataSource;

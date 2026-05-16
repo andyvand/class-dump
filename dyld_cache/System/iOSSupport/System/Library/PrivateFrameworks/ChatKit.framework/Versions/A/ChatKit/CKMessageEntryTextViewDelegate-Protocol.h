@@ -5,7 +5,5 @@
 //
 
 @protocol CKMessageEntryTextViewDelegate
-- (void),V_attributedString;
-- (void)utedString;
 @end
 

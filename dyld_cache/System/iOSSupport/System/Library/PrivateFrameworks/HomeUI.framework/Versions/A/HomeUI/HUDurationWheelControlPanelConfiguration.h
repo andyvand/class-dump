@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (Class);
-- (id);
+- (id)ceFooterItem_Accessories;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

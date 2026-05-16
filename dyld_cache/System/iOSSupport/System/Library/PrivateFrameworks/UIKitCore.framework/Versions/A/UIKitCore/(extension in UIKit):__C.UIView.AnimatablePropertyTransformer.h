@@ -22,9 +22,8 @@
     MISSING_TYPE *executionMode;
 }
 
-- (void)!dFùÄÐ1¢!0@ù
-× ;
-- (id)xTitleBarFocusGuide;
+- (id);
+- (void)¤4vþ4Ò ml;
 
 @end
 

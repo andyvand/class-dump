@@ -29,11 +29,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (struct CGContext *);
 - (id);
-- (id);
+- (void);
+- (id)ById;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGContext *CGContext; // @synthesize CGContext=_CGContext;

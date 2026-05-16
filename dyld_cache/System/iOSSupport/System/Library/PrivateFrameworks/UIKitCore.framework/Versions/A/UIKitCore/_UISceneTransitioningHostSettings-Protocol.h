@@ -5,8 +5,6 @@
 //
 
 @protocol _UISceneTransitioningHostSettings
-- (void)calMultiExport;
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool allowedAsMorphTransitionSource;

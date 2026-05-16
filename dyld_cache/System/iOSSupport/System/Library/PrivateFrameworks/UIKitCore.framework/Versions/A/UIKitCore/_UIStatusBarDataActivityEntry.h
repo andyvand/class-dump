@@ -14,20 +14,18 @@
     NSString *_displayId;
 }
 
-+ (_Bool)j;
++ (_Bool)"8;
 - (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id)0@ù
-× ;
-- (void)
-× ;
-- (id)etPhoneSides: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void)useModernAppearance;
+- (_Bool)SecureControlCategory";
+- (void)ObjCTypes:(id)arg1;
+- (id)w1PartImageInRect: /* Error: Ran out of types for this method. */;
+- (id)eationOfFileURLFromItemProvider;
+- (void)equiresCopying;
+- (id)teractionCommitTransition.m;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayId; // @synthesize displayId=_displayId;

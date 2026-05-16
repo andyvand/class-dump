@@ -10,8 +10,8 @@
 {
 }
 
-+ (double);
-+ (struct CGPath *)$;
++ (double);
++ (struct CGPath *);
 + (struct CGPath *);
 + (unsigned long long);
 + (void);
@@ -19,12 +19,12 @@
 + (void);
 + (struct CGRect);
 + (void);
-+ (_Bool);
 + (_Bool);
-+ (struct CGRect);
++ (_Bool);
++ (struct CGRect);
 + (struct CGSize);
 + (void);
-+ (void);
++ (void);
 
 @end
 

@@ -10,10 +10,10 @@
 {
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)enderingServiceClient:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor;

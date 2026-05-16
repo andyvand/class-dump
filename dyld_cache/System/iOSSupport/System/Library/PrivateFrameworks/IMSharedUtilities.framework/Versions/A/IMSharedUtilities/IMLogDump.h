@@ -9,7 +9,7 @@
     _Bool _shouldCollectPowerWifiStats;
 }
 
-+ (id)3;
++ (id)assification string %s to an enum value;
 - (_Bool);
 - (void);
 - (void);

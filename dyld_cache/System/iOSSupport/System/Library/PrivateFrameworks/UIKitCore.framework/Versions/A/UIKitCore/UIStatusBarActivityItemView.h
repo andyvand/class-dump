@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (long long);
-- (void)arency-%@;
 - (void);
-- (id)ONST;
-- (void);
-- (void)i;
+- (void);
+- (void)º¢ÿÄÜàÞb;
+- (void)äëÌ`yh;
+- (id)õ	;
 
 @end
 

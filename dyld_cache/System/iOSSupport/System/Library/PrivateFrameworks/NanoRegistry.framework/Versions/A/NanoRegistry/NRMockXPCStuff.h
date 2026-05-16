@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)erialNumber: /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
 - (id);
+- (void);
 
 @end
 

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     _UIFloatingTabBar *_floatingTabBar;
 }
 
-- (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void)òÅØü\;
 
 // Remaining properties
 @property(nonatomic) __weak _UIFloatingTabBar *floatingTabBar; // @synthesize floatingTabBar=_floatingTabBar;

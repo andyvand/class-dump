@@ -11,9 +11,9 @@
 }
 
 + (id);
-+ (int)èA;
-- (Class);
++ (int);
 - (id);
+- (Class);
 
 @end
 

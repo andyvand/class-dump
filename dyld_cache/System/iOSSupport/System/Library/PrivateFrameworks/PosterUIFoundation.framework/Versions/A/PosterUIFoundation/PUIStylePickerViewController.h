@@ -107,29 +107,29 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)b0@ù
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)0@ù
 × ;
-- (id)16;
-- (void)ons;
-- (void)st scene %{public}@ deferring keyboard events to client %{public}@ with PID:%{public}d /* Error: Ran out of types for this method. */;
+- (void)onSize;
+- (void)xtension process has stopped while snapshotter was idle (expected);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalFonts; // @synthesize additionalFonts=_additionalFonts;

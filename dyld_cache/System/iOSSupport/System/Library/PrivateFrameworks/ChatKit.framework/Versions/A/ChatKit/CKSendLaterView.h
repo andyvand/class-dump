@@ -16,11 +16,11 @@
 
 - (id);
 - (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (id)b6ûÿÀ6ûÿ;
-- (struct CGSize)vigationBarTitleView;
-- (void)]æ1U/;
+- (id);
+- (void)<«ÿÿÿÿÿ;
 
 @end
 

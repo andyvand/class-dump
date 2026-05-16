@@ -15,21 +15,20 @@
     void _view;
 }
 
-- (id)e:(id)arg1 %@ to device:%@, ID:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)!ÀBùÄ1¢!0@ù
-× ;
-- (id)ferredAction;
-- (id)Xh;
-- (void)h$;
-- (void)Ø;
-- (void);
-- (id)ro;
-- (void)tÿr;
+- (id);
+- (id);
+- (void)Kit bug.;
+- (void)NÒþÿ;
+- (void)þ33ØVþñ33ÔVþ;
+- (void)´*m;
+- (void)$9q;
+- (id)¤»ÿ¬k;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *_view; // @synthesize _view;

@@ -29,27 +29,27 @@ __attribute__((visibility("hidden")))
     UIKeyboardSliceSet *_sliceSet;
 }
 
-- (void)PendingConversation:(id)arg1;
-- (_Bool)tical: /* Error: Ran out of types for this method. */;
-- (void)ate:(double)arg1;
-- (id)ervice:activeAccountsChanged: /* Error: Ran out of types for this method. */;
-- (id)RemovingCKRecordDupes: /* Error: Ran out of types for this method. */;
-- (struct CGImage *):onService: /* Error: Ran out of types for this method. */;
-- (struct CGSize)Type;
-- (_Bool)earURL: /* Error: Ran out of types for this method. */;
-- (_Bool)erviewForKey: /* Error: Ran out of types for this method. */;
-- (_Bool)nscriptSharingEnabled;
-- (id)ncWithActivity:completion: /* Error: Ran out of types for this method. */;
-- (void)ssServiceReplacement;
-- (void)ridCapableDeliveries;
-- (struct CGRect)Fetch:(id)arg1;
-- (void)oQOI;
-- (void)otlightEnabled;
-- (void)edRebuildGUIDs;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (struct CGImage *);
+- (struct CGSize);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (id);
 - (struct CGImage *);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGImage *);
 - (id);
@@ -59,12 +59,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)ntCreation;
-- (void)with an action whose identifier is the same as the segment at index %lu (action=%@). Identifiers are required to be unique.;
-- (CDUnknownBlockType);
+- (void)ÄD;
+- (void)ock in %s;
+- (CDUnknownBlockType)Ì3ÿ³ßÛLK^;
+- (void)iI4;
+- (id)\­Èÿ: /* Error: Ran out of types for this method. */;
+- (void)N~y;
 
 // Remaining properties
 @property(readonly) NSArray *backgroundLayers;

@@ -7,6 +7,7 @@
 @class TSWPPadding;
 
 @protocol TSWPColumnMetrics
+- (TSWPPadding *)"16@"SXQuickLookTransitionContext"24;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

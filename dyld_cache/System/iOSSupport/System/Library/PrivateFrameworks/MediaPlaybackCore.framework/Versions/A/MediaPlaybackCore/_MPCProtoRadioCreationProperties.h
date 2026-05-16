@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
     _MPCProtoRadioContentReference *_seedContentReference;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (id)@�;
 - (id);
+- (id);
+- (void):| adding data source [] position=Last section=%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

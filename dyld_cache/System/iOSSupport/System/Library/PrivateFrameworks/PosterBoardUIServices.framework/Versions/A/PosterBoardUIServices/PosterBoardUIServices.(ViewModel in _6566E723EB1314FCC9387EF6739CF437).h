@@ -27,8 +27,8 @@
     MISSING_TYPE *cachedConfigurations;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

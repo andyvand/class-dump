@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
     double _I;
 }
 
-- (void)undleID;
+- (void);
 - (id);
-- (void)PrimaryContentSize:(struct CGContext *)arg1 sectionAuxiliarySolutionSize:layoutAxis:layoutRTL:sectionInsets:contentFrameSupplementaryOffset: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

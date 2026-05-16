@@ -15,11 +15,10 @@ __attribute__((visibility("hidden")))
     void action;
 }
 
-- (double);
-- (void)Ä1¢!0@ù
-× ;
-- (id)stance;
-- (CDUnknownBlockType)S×7n;
+- (id);
+- (double)Ä;
+- (CDUnknownBlockType)ûÌP;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) CDUnknownBlockType action;

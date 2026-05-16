@@ -11,12 +11,12 @@
     MISSING_TYPE *personalNickname;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)åyÕyAAy¦çy éyúæyACy©¢_AAyAAyAAy;
+- (id)þâÿO¤ðþâÿO¤Ü:ÿ-O¤Dÿâÿ /* Error: Ran out of types for this method. */;
 - (id);
-- (id)±G;
-- (id));
+- (id);
 
 @end
 

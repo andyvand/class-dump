@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool)UICTFontTextStyleTitle1;
+- (_Bool)8@16B24i28B32;
 
 @end
 

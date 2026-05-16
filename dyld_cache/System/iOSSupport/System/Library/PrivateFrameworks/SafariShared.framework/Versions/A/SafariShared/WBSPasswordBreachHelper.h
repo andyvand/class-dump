@@ -8,7 +8,7 @@
 {
 }
 
-- (void)N@�;
+- (void);
 - (void);
 - (void);
 - (void);

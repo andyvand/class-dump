@@ -36,9 +36,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (void);
-- (id)P;
-- (void);
+- (void)out:pageNumber:pageCount:footnoteMarkProvider:styleProvider:colorOverride:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysUsesTranslationSprings; // @synthesize alwaysUsesTranslationSprings=mAlwaysUsesTranslationSprings;

@@ -15,10 +15,10 @@
 
 - (void);
 - (id);
-- (id)myl«@òÌ;
-- (void);
 - (id);
 - (void);
+- (id);
+- (void)s;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;

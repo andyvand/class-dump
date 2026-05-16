@@ -20,21 +20,19 @@ __attribute__((visibility("hidden")))
     UINavigationItem *_viewControllerNavigationItem;
 }
 
-+ (id);
-- (id):timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (id)adIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ection:(long long)arg1 didReceiveURLTokenError:forInfo: /* Error: Ran out of types for this method. */;
-- (void)PendingUpdateT1ToCloudKitWithLimit:(id)arg1 attemptCount: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)oPeers:(id)arg1 messageType:(long long)arg2 guid:originalSender:forcedCallerID:hasAttachment:watchOnly:sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)peString:(_Bool)arg1 sender:errorString:payloadAttachmentURL: /* Error: Ran out of types for this method. */;
-- (void)wngradeRequestSinceLoadSessionIndex;
-- (void)"NSCache",&,N,V_subscriptionValidationTokenByHandleIDCache;
-- (_Bool)=;
++ (id);
 - (id);
-- (id);
-- (id)they have turned off SMS Relay for us, but we determined they are not allowed to. Ignoring!;
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -42,10 +40,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)0@ù
-× ;
-- (id)urEffectStyle;
-- (void)%p; viewController = %@; column = %ld; dismissing presented view controller;
+- (void)equestHealthAuthorization:(id)arg1;
+- (void)isitedScrollingContainers;
+- (id);
+- (void)qÔX:g /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIKBAutoFillTestExpectedResult *expectedResult; // @synthesize expectedResult=_expectedResult;

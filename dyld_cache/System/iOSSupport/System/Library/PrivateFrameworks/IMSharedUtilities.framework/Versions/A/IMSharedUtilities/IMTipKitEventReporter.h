@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
++ (id)cted %ld files. Current count:%ld /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)7;
+- (void);
 - (void);
 - (void);
 - (void);

@@ -17,17 +17,17 @@
 }
 
 - (void);
-- (_Bool);
-- (void);
-- (void)anagerDelegatePrivate homeManager:%{public}@ homeManagerDidUpdateCurrentHome: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (void);
+- (void)ingAllowsTextAnimations;
+- (void)ontainer: /* Error: Ran out of types for this method. */;
+- (void)acking_isHidden;
+- (_Bool)tch cache:%@ /* Error: Ran out of types for this method. */;
+- (id)Îcîÿ¶zþÿ;
+- (id)iderLine(hairline)]|;
+- (id)UISceneSessionActivationConfigurationAction %@. UIScene %@ already connected, so UISceneConfiguration cannot be applied. Discarding.;
 - (id);
-- (id)nSize;
-- (void)d:(id)arg1;
-- (id)chingInterfaceOrientationForSpringBoard;
-- (void)V_largeItemContentShapeInsets;
-- (id)ÿ#,Ú_©_;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

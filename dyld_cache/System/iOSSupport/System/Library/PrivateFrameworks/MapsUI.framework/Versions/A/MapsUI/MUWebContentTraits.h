@@ -14,7 +14,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)photo:photoCreditName:shouldAddPhotoCredit: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isNativelyDrawingPlatter) _Bool nativelyDrawingPlatter; // @synthesize nativelyDrawingPlatter=_nativelyDrawingPlatter;

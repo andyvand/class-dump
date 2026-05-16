@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)tentSyndicationPhotoKitDataSource.m;
-- (id)0 ÿ;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXUIImageProvider> mediaProvider; // @synthesize mediaProvider=_mediaProvider;

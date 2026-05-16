@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)deUserInterfaceRenderingMode: /* Error: Ran out of types for this method. */;
+- (id)eCG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

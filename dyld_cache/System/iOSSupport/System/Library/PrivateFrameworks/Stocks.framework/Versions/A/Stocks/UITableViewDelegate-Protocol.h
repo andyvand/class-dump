@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol UITableViewDelegate
-
-@optional
-- (void);
-- (UIView *);
-- (void);
-- (long long);
-- (void)T;
 @end
 

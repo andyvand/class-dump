@@ -8,6 +8,7 @@
 @protocol PXAnonymousViewController, PXAssetCollectionActionPerformerDelegate, PXFeedViewActionPerformer;
 
 @protocol PXStoryMutableFeedViewModel
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXFeedViewActionPerformer> actionPerformer;

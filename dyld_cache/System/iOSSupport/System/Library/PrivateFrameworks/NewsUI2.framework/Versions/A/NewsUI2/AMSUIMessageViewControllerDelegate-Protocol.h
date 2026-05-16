@@ -5,8 +5,5 @@
 //
 
 @protocol AMSUIMessageViewControllerDelegate
-
-@optional
-- (void);
 @end
 

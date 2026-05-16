@@ -47,7 +47,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -61,13 +61,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
 - (unsigned long long);
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
+- (void);
+- (id)oup:symbolNames: /* Error: Ran out of types for this method. */;
+- (id),;
 
 // Remaining properties
 @property(nonatomic) double actionAnimationsMultiplier; // @synthesize actionAnimationsMultiplier=_actionAnimationsMultiplier;

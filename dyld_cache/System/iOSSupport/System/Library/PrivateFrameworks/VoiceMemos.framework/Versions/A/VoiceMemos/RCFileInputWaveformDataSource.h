@@ -20,25 +20,25 @@
     CDStruct_73a5d3ca _sourceTimeRange;
 }
 
-- (void);
-- (void);
-- (id);
-- (CDStruct_73a5d3ca);
 - (double);
-- (void);
-- (_Bool);
+- (double);
+- (id);
 - (float);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
+- (void);
 - (_Bool);
-- (double);
-- (_Bool)torValue:(_Bool)arg1;
+- (CDStruct_73a5d3ca);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *AVFileURL; // @synthesize AVFileURL=_AVFileURL;

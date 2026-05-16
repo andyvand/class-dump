@@ -5,8 +5,5 @@
 //
 
 @protocol _UIHyperOutOfProcessViewAnimatorDelegate
-
-@optional
-- (void)justmentConstraint;
 @end
 

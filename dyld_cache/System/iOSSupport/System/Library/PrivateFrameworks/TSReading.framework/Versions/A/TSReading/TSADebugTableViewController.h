@@ -14,16 +14,16 @@
 
 - (void);
 - (void);
+- (void);
+- (id);
+- (long long);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void)<ÖÿöjVS;
+- (void)mestamp;
+- (void)bí;
 
 @end
 

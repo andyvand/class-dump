@@ -39,10 +39,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (void)lock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

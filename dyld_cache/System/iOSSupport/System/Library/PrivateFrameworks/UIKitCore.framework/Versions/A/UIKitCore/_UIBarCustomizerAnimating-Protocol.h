@@ -5,7 +5,7 @@
 //
 
 @protocol _UIBarCustomizerAnimating
-- (void)RectEdgeLeft;
-- (void);
+- (void)h to the delegate callback per API contract!;
+- (void)7ã;
 @end
 

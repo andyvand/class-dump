@@ -21,10 +21,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)tionOfChanges;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier;

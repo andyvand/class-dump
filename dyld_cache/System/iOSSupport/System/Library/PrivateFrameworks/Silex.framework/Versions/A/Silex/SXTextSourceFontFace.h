@@ -13,13 +13,13 @@
     id <SXFontAttributes> _fontAttributes;
 }
 
-+ (id);
 + (id);
 + (id);
++ (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)rVideoWithURL:analyticsRouter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,5 @@
 //
 
 @protocol CKTranslationTipsViewDelegate
-- (void);
 @end
 

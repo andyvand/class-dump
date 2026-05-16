@@ -5,20 +5,24 @@
 //
 
 @class MTLArchitecture, NSArray, NSString;
-@protocol MTLBinaryArchive, MTLSharedEvent;
+@protocol MTL4CommandAllocator, MTL4CommandBuffer, MTLFunction, MTLFunctionHandle, MTLIndirectCommandBuffer, MTLTensor;
 
 @protocol MTLDevice
-- (_Bool)mentTable>"32@0:8@"MTL4ArgumentTableDescriptor"16^@24 /* Error: Ran out of types for this method. */;
-- (unsigned long long)er>"32@0:8@"MTLCounterSampleBufferDescriptor"16^@24 /* Error: Ran out of types for this method. */;
-- (_Bool)^@40;
-- (id <MTLBinaryArchive>)16Q24^@32^@40;
-- (_Bool)ersFromRender;
-- (id <MTLSharedEvent>)thContext: /* Error: Ran out of types for this method. */;
+- (id <MTL4CommandBuffer>)4;
+- (_Bool)andler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
+- (id <MTLFunctionHandle>)CompletedHandler:(id <MTLFunction>)arg1;
+- (id <MTL4CommandAllocator>)d;
 - (_Bool);
-- (NSArray *)nCameraController;
-- (void)g;
-- (CDStruct_4bcfbbae)etainReleaseableP;
-- (unsigned long long);
+- (_Bool)Ý;
+- (id <MTLIndirectCommandBuffer>)saction;
+- (unsigned long long)tion;
+- (_Bool)aVelocityThreshold;
+- (unsigned long long)yytGG;
+- (unsigned long long)ÿÿ áüÿ45;
+- (_Bool)Üÿÿÿ;
+- (unsigned long long)KÿÿäKÿÿ;
+- (id <MTLTensor>)ÿÝÀõöüÿÍÀõ4÷üÿíÀõøüÿÀõ´øüÿuÀõÈøüÿ}ÀõÜøüÿÀõðøüÿÕÀõäùüÿ;
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -56,6 +60,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     NSString *_uuidStr;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void);
 
 @end
 

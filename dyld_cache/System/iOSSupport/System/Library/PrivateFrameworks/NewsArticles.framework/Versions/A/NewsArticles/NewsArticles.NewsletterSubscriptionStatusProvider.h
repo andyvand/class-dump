@@ -12,13 +12,13 @@
     MISSING_TYPE *observers;
 }
 
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)Element;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long newsletterSubscriptionStatus;

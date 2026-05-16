@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (id);
+- (id):completionHandler: /* Error: Ran out of types for this method. */;
+- (void)¼	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *completion;

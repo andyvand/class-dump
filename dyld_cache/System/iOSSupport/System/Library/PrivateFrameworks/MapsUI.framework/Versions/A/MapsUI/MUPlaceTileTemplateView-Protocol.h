@@ -8,7 +8,7 @@
 @protocol MUPlaceTileViewModel;
 
 @protocol MUPlaceTileTemplateView
-- (id <MUPlaceTileViewModel>)ëÙõ;
+- (id <MUPlaceTileViewModel>);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *tileImageView;

@@ -4,154 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOAddressObject, GEOAppleRating, GEOAssociatedApp, GEOBusinessAssets, GEOEVCharger, GEOEnclosingPlace, GEOEnhancedPlacement, GEOEnrichmentData, GEOEnrichmentInfo, GEOExploreGuides, GEOFeatureStyleAttributes, GEOHikeSummary, GEOInlineRapEnablement, GEOLabelGeometry, GEOLocalizedString, GEOMapItemAdditionalPlaceInfo, GEOMapItemClientAttributes, GEOMapItemContainedPlace, GEOMapItemDetourInfo, GEOMapItemIdentifier, GEOMapItemPhotosAttribution, GEOMapItemPlaceAttribution, GEOMapItemReviewsAttribution, GEOMapRegion, GEOMessageLink, GEOMiniBrowseCategories, GEOMuninViewState, GEOPDFlyover, GEOPDHikeAssociatedInfo, GEOPDHikeGeometry, GEOPDPlace, GEOPDURLData, GEOPOIClaim, GEOPlace, GEOPlaceQuestionnaire, GEOPlaceResult, GEOPlacecardLayoutData, GEOPriceDescription, GEORestaurantFeaturesLink, GEOStorefrontInfo, GEOStorefrontPresentationInfo, GEOStyleAttributes, GEOTooltip, GEOTrailHead, GEOViewportFrame, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSSet, NSString, NSTimeZone, NSURL;
+@class GEOAddress, GEOAppleRating, GEOAssociatedApp, GEOBusinessAssets, GEOEVCharger, GEOEnclosingPlace, GEOEnhancedPlacement, GEOEnrichmentData, GEOEnrichmentInfo, GEOExploreGuides, GEOFeatureStyleAttributes, GEOHikeSummary, GEOInlineRapEnablement, GEOLabelGeometry, GEOLocalizedString, GEOMapItemClientAttributes, GEOMapItemContainedPlace, GEOMapItemDetourInfo, GEOMapItemIdentifier, GEOMapItemPhotosAttribution, GEOMapItemPlaceAttribution, GEOMapItemReviewsAttribution, GEOMapRegion, GEOMessageLink, GEOMiniBrowseCategories, GEOMuninViewState, GEOPDFlyover, GEOPDHikeAssociatedInfo, GEOPDHikeGeometry, GEOPDPlace, GEOPDURLData, GEOPOIClaim, GEOPlace, GEOPlaceQuestionnaire, GEOPlaceResult, GEOPlacecardLayoutData, GEOPriceDescription, GEORestaurantFeaturesLink, GEOStorefrontInfo, GEOStorefrontPresentationInfo, GEOStyleAttributes, GEOTooltip, GEOTrailHead, GEOViewportFrame, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSSet, NSString, NSTimeZone, NSURL;
 @protocol GEOAnnotatedItemList, GEOEncyclopedicInfo, GEOMapItem, GEOMapItemTransitInfo, GEOMapItemVenueInfo, GEOTransitAttribution, GEOTransitVehiclePosition;
 
 @protocol GEOMapItem
-- (NSArray *)gValue;
-- (float)TimeISO;
-- (GEOPlaceQuestionnaire *);
-- (GEOHikeSummary *);
-- (GEOMapItemIdentifier *);
-- (GEOStorefrontPresentationInfo *)icationForSessionWithID: /* Error: Ran out of types for this method. */;
-- (NSArray *);
-- (NSArray *);
-- (int)MHomeManagerConfiguration;
-- (GEOEVCharger *)## Create timeout timer failed
-;
-- (_Bool)nlocked;
-- (NSString *)4˟;
-- (NSArray *)V;
-- (int)a;
-- (NSString *)linkTestStatsPacketOverhead;
-- (NSString *)datePair:options: /* Error: Ran out of types for this method. */;
-- (GEOExploreGuides *)P;
-- (NSArray *)t -> %f;
-- (id <GEOAnnotatedItemList>)provider_instance;
-- (GEOStyleAttributes *)odingKeys;
-- (NSString *)а;
-- (NSNumber *)@;
-- (NSURL *)CConnector",&,N,V_XPCConnector;
-- (_Bool)istration failed {name:%@, status:%u} /* Error: Ran out of types for this method. */;
-- (NSString *)response for @selector(%@);
-- (NSString *)enge"24@?<v@?q@"NSURLCredential">32;
-- (GEOMuninViewState *)@"NSArray",C,V_mailDomains;
-- (int)d with null filterData;
-- (int)FromData:key:prfProtocol:] failed /* Error: Ran out of types for this method. */;
-- (_Bool)A;
-- (unsigned long long);
-- (GEOMapRegion *);
-- (NSData *)ùñ\,°1¢!0@ù
+- (GEOAppleRating *);
+- (NSArray *)0@ù
 × ;
-- (unsigned int)!Cù1],°1¢!0@ù
+- (NSTimeZone *)
 × ;
-- (NSArray *)1¢!0@ù
+- (_Bool)B,Ð1Â0@ù
 × ;
-- (GEOMessageLink *)²(Ð!0Cù],°1¢!0@ù
+- (GEOPDPlace *)0@ù
 × ;
-- (NSString *)
+- (unsigned int)! GùQC,ð1Â0@ù
 × ;
-- (NSString *)Ô ;
-- (NSString *),Gùñ],ð1¢!0@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (GEOPDURLData *)!CùQ^,°1¢!0@ù
-× ;
-- (NSArray *)HAùq^,Ð1¢!0@ù
-× ;
-- (NSString *)@ù
-× ;
-- (NSArray *)ñ^,°1¢!0@ù
-× ;
-- (int)!<Dù_,1¢!0@ù
-× ;
-- (_Bool):8@"SMLocalSessionState"16@"NSError"24 /* Error: Ran out of types for this method. */;
-- (int)"NSError">40;
-- (NSURL *)LocationOfInterestTypeSource: /* Error: Ran out of types for this method. */;
-- (_Bool)RequestWithManagedObjectContext:currentExporterToken: /* Error: Ran out of types for this method. */;
-- (GEOAssociatedApp *)r: /* Error: Ran out of types for this method. */;
-- (GEOMapItemReviewsAttribution *)onInsidePendingTimer: /* Error: Ran out of types for this method. */;
-- (GEOMapItemDetourInfo *)terrupted_WiFi_connection_duration_bucketed: /* Error: Ran out of types for this method. */;
-- (unsigned long long)teria: /* Error: Ran out of types for this method. */;
-- (NSArray *)on:tripVisitEndLocation:tripSegSequenceNumber:tripSegSequenceNumberMax:processingFailureError: /* Error: Ran out of types for this method. */;
-- (id <GEOTransitAttribution>)playType;
-- (int)Manager:lifecycleManager: /* Error: Ran out of types for this method. */;
-- (NSArray *)etyCacheKey:shareURL:participantID:sharingInvitationData:numCacheDownloads:numSuccessfulCacheDownloads:maxPhoneCacheSize:maxWatchCacheSize:maxLocationsInPhoneCacheTrace:maxLocationsInWatchCacheTrace:timeTillCacheRelease:timeTillFirstSuccessfulCacheDownload:sessionID:firstDetailViewSessionState:lastDetailViewSessionState:phoneMaxWorkoutEvents:watchMaxWorkoutEvents: /* Error: Ran out of types for this method. */;
-- (_Bool)Error:numberOfMatches: /* Error: Ran out of types for this method. */;
-- (id <GEOMapItemTransitInfo>)etchTransitionsBetweenStartDate:endDate:handler: /* Error: Ran out of types for this method. */;
-- (id <GEOMapItem>)ns:handler: /* Error: Ran out of types for this method. */;
-- (GEOTrailHead *)onOfInterestIdentifiersWithIdentifier:reply: /* Error: Ran out of types for this method. */;
-- (NSString *)tanceTraveled;
-- (NSURL *):handler: /* Error: Ran out of types for this method. */;
-- (GEOMapItemAdditionalPlaceInfo *)ossibleMapItems: /* Error: Ran out of types for this method. */;
-- (GEOMapItemPlaceAttribution *)ationStateWithNewState:shouldNotify: /* Error: Ran out of types for this method. */;
-- (CDStruct_c3b9c2ee)_sessionMetricManager;
-- (GEOPlaceResult *)tPredictedLocationsOfInterestCache;
-- (int)caleFactor;
-- (GEOEnrichmentData *)Manager;
-- (GEOMapItemIdentifier *)hLocConfirmationStatusCode;
-- (_Bool)tivityType:maxDistanceThreshold:handler: /* Error: Ran out of types for this method. */;
-- (NSString *)LatestClassificationForLearnedPlaceTypeInferences: /* Error: Ran out of types for this method. */;
-- (NSString *)nStatus;
-- (_Bool)bmitMetricScoreBoardFromStartDate:endDate:submissionHandler: /* Error: Ran out of types for this method. */;
-- (double)SNumber",C,N,V_registrationToken;
-- (id <GEOEncyclopedicInfo>)tions;
-- (NSDictionary *)Utilities;
-- (_Bool)ationStateChanged;
-- (GEOPDPlace *)|ô|Ø}xä¼/¬,
-àô$Ø¬	;
-- (NSString *);
-- (NSData *)tL<¼¤;
-- (NSString *)	;
-- (_Bool)ä´Ð;
-- (GEOMapRegion *);
-- (GEOAddressObject *)ØC;
-- (_Bool)Ø;
-- (NSArray *)in does not match current sessionID;
-- (_Bool)dPlaceTypeInferenceDailyStats"8Q16^B24;
-- (_Bool)usterStore _deleteTripClusterWithUUID:handler:] /* Error: Ran out of types for this method. */;
-- (_Bool)gerDidArriveSafelyKey;
-- (NSString *)onitor.workoutManualPauseTimerIdentifier;
-- (NSString *)MetadataStoreCorruptKey;
-- (NSString *)Date:(NSString *)arg1 stopDate:visitIdentifierOrigin:visitIdentifierDestination:creationDate:expirationDate:predominantMotionActivityType:] /* Error: Ran out of types for this method. */;
-- (CDStruct_c3b9c2ee).routined.registration;
-- (GEOPriceDescription *)er:mapServiceManager:wifiManager:] /* Error: Ran out of types for this method. */;
-- (GEOMapRegion *)dLocationStore filterLocationsOfInterests:]_block_invoke /* Error: Ran out of types for this method. */;
-- (_Bool)nnot be after endDate;
-- (_Bool)enceEvent;
-- (NSArray *)visit_duration_weekdays_work_bucketed;
-- (NSArray *)otal_screen_lock_duration_home;
-- (GEORestaurantFeaturesLink *)ate;
-- (NSString *)ithoutTimeWindowFallback;
-- (GEOMapItemClientAttributes *)fiscan.timer;
-- (GEOLocalizedString *)Date"8@"NSError"16;
-- (unsigned int)cached event identifier %@ to paired companion device, error, %@;
-- (unsigned long long)sionState:%{public, signpost.telemetry:string2}s, nextState:%@} /* Error: Ran out of types for this method. */;
-- (NSArray *)ion, stop requesting high accuracy location;
-- (int)event, err, %@;
-- (GEOPlace *)maryStopDate, %@, num Of Trans %{sensitive}d, weeklyDens %{sensitive}f, dailyDens %{sensitive}f;
-- (NSString *)tion, defaulting dominant motionActivityType to %@;
-- (_Bool)llBackToClosestFinalClassifications count, %lu, error, %@;
-- (NSArray *)n, %{sensitive}@;
-- (_Bool)ate hit error:%@ /* Error: Ran out of types for this method. */;
-- (GEOMapRegion *)ty cache update to observers;
-- (_Bool), %@;
-- (GEOPDFlyover *)led to calculate curation distance, error:%@ /* Error: Ran out of types for this method. */;
-- (int)u) in elevations is not equal to number of elements in locations (%tu);
-- (_Bool)ransitions exist in the local for clusterID,%@,continuing with DTW attempt;
-- (NSData *)r drive stats present, ignoring...;
-- (long long)uest, %@, error, %@, isEventActive, %@;
-- (unsigned long long)ce record after reset sync, %@;
-- (_Bool)verride of status with RTAuthorizedLocationEnumIsPresumedAtAuthorizedLocation;
-- (_Bool)ng user curated map item replacement, %{sensitive}@, originalMapItem, %{sensitive}@;
-- (NSArray *)r, %@;
-- (NSString *)Smoother (forward), %{sensitive}@, (E,N) (%.4f, %.4f), qk, %.2f, Xk (%.2f, %.2f), Pkpre, (%.2f, %.2f), Zk, (%.2f, %.2f), Zk-Xk, (%.2f, %.2f), number, %u,  ;
-- (_Bool)r not satisfying:sortedAveragedResults /* Error: Ran out of types for this method. */;
-- (GEOMapRegion *)on current device for mapItem, %{sensitive}@, error, %@.;
-- (GEOTooltip *)ile, %@, status, %d, reason:%s /* Error: Ran out of types for this method. */;
-- (NSString *)peed, %f mps, in location sample,%{sensitive}@.;
-- (NSArray *);
+- (GEOPOIClaim *)× ;
+- (GEOStyleAttributes *);
+- (GEOViewportFrame *)r">24;
+- (NSArray *)LocationUpdates;
+- (NSData *)andler: /* Error: Ran out of types for this method. */;
+- (_Bool)thError: /* Error: Ran out of types for this method. */;
+- (_Bool)ationState:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (GEOMapItemIdentifier *)ccuracy:courseAccuracy:type:timestamp: /* Error: Ran out of types for this method. */;
+- (NSSet *)assifierMetricsCalculator:platform: /* Error: Ran out of types for this method. */;
+- (NSString *)Callback:region:clientIdentifier: /* Error: Ran out of types for this method. */;
+- (NSArray *)sitionsObject:(unsigned int)arg1;
+- (GEOTrailHead *)romDictGeohashToDates:referenceDate: /* Error: Ran out of types for this method. */;
+- (NSArray *)R,N,G_hasEVCharger;
+- (GEOPlace *)PlaceStats",R,N,V_placeStats;
+- (long long)eler;
+- (NSArray *)intOfInterestSampler;
+- (NSData *)`+à+8,;
+- (_Bool)Ü;
+- (int)StatusTime,%@,;
+- (_Bool)RTEventManager calendars];
+- (NSString *)ultsMapItemProviderBluePOIAoiConfidencePassThroughThreshold;
+- (GEOMessageLink *)nOfInterest"8Q16^B24;
+- (_Bool)nHistoryAvailable;
+- (GEOPriceDescription *)s_bucketed;
+- (GEOTooltip *)riggersWithConfiguration:] /* Error: Ran out of types for this method. */;
+- (NSArray *)ion on non active device;
+- (GEOMapItemIdentifier *)andidates, %.2f, minTopMedianDwellTimePlaceCandidates, %.2f:%{sensitive}@ /* Error: Ran out of types for this method. */;
+- (_Bool), Failed to retrieve serialized data from defaults for the key %@;
+- (GEOLocalizedString *)escheduled train policy, %@;
+- (GEOPDFlyover *)r startDate, %@, endDate, %@;
+- (GEOPDURLData *)ation failed,err,%@;
+- (_Bool)ssionID:%@,%@,%@,messageID:%@,conversation:%@,associatedGUID:%@,messsage:%{sensitive}@ /* Error: Ran out of types for this method. */;
+- (NSArray *)en %{public}f to %{public}f;
+- (NSArray *)deleting event model, %@;
+- (NSString *)erredMapItem, %{sensitive}@, oldCandidate visit identifier, %@, oldCandidate map item identifier, %@, associate, %lu, error, %@;
+- (NSString *){public}d.;
+- (NSData *)able (in %s:%d) /* Error: Ran out of types for this method. */;
+- (NSArray *)o vend managed object context due to setup failure. (in %s:%d) /* Error: Ran out of types for this method. */;
+- (float)r, %{public}@;
+- (NSString *)nvalid parameter not satisfying:platform (in %s:%d) /* Error: Ran out of types for this method. */;
+- (NSString *)e}@, type, %@, error, %@;
+- (id <GEOMapItem>)ntManager:uuidForTripSegmentOfType, type, %lu, UUID, %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_RAPFlowType) int RAPFlowType;
@@ -182,7 +91,7 @@
 @property(readonly, nonatomic) double cachingRadiusMeters;
 @property(readonly, nonatomic, getter=_canDownloadMorePhotos) _Bool canDownloadMorePhotos;
 @property(readonly, nonatomic, getter=_captionedPhotoAlbums) NSArray *captionedPhotoAlbums;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee centerCoordinate;
+@property(readonly, nonatomic) struct centerCoordinate;
 @property(readonly, nonatomic, getter=_childItems) NSArray *childItems;
 @property(readonly, nonatomic, getter=_clientAttributes) GEOMapItemClientAttributes *clientAttributes;
 @property(readonly, nonatomic) int contactAddressType;
@@ -190,7 +99,7 @@
 @property(readonly, nonatomic) NSString *contactName;
 @property(readonly, nonatomic) NSString *contactSpokenName;
 @property(readonly, nonatomic, getter=_containedPlace) GEOMapItemContainedPlace *containedPlace;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
+@property(readonly, nonatomic) struct coordinate;
 @property(readonly, nonatomic, getter=_customIconID) unsigned long long customIconID;
 @property(readonly, nonatomic) GEOMapItemDetourInfo *detourInfo;
 @property(readonly, nonatomic, getter=_disambiguationName) NSString *disambiguationName;
@@ -208,6 +117,7 @@
 @property(readonly, nonatomic, getter=_enhancedPlacement) GEOEnhancedPlacement *enhancedPlacement;
 @property(readonly, nonatomic, getter=_enrichmentData) GEOEnrichmentData *enrichmentData;
 @property(readonly, nonatomic, getter=_enrichmentInfo) GEOEnrichmentInfo *enrichmentInfo;
+@property(readonly, nonatomic, getter=_enrichmentPhotos) NSArray *enrichmentPhotos;
 @property(readonly, nonatomic, getter=_evCharger) GEOEVCharger *evCharger;
 @property(readonly, nonatomic) NSDate *eventDate;
 @property(readonly, nonatomic) NSString *eventName;
@@ -267,13 +177,14 @@
 @property(readonly, nonatomic) NSArray *imageEmbeddings;
 @property(readonly, nonatomic, getter=_isInLinkedPlaceRelationship) _Bool inLinkedPlaceRelationship;
 @property(readonly, nonatomic, getter=_inlineRapEnablement) GEOInlineRapEnablement *inlineRapEnablement;
+@property(readonly, nonatomic, getter=_isCoordinateDerived) _Bool isCoordinateDerived;
 @property(readonly, nonatomic) _Bool isEventAllDay;
 @property(readonly, nonatomic, getter=_isPartiallyClientized) _Bool isPartiallyClientized;
 @property(readonly, nonatomic, getter=_isStandaloneBrand) _Bool isStandAloneBrand;
 @property(readonly, nonatomic, getter=_isTransitDisplayFeature) _Bool isTransitDisplayFeature;
 @property(readonly, nonatomic, getter=_iso3166CountryCode) NSString *iso3166CountryCode;
 @property(readonly, nonatomic, getter=_iso3166SubdivisionCode) NSString *iso3166SubdivisionCode;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee labelCoordinate;
+@property(readonly, nonatomic) struct labelCoordinate;
 @property(readonly, nonatomic, getter=_labelGeometry) GEOLabelGeometry *labelGeometry;
 @property(readonly, nonatomic, getter=_linkedServices) NSArray *linkedServices;
 @property(readonly, nonatomic) int mapDisplayType;

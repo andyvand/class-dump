@@ -8,7 +8,19 @@
 @protocol GPImageEditionViewControllerDelegate;
 
 @protocol GPImageEditionViewControllerProtocol
-+ (_Bool)qXGGSg_A3lEyèyZy~ZyACG_Qo_AJGSgAEyvZyÿ|ZyACSi=~XySNySiGSiACGG_:kZQo_AJGSgAZtGACSgGA_G /* Error: Ran out of types for this method. */;
++ (_Bool)yÐü
+yAAyÏü
+yAByóÄü
+yADyADy²Åü
+G¤Åü
+GÄü
+G_ADyäÍü
+yÈü
+yADyõÍü
+(Êü
+yÂÃü
+GGADy;
+- (id)o_Qo_AKG_AAy¦;
 
 // Remaining properties
 @property __weak id <GPImageEditionViewControllerDelegate> delegate;

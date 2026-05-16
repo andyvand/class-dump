@@ -20,7 +20,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)nt 
+%s;
 - (id);
 - (id);
 - (void);
@@ -47,13 +48,13 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (_Bool);
 - (id);
-- (_Bool): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSSet *answers; // @dynamic answers;

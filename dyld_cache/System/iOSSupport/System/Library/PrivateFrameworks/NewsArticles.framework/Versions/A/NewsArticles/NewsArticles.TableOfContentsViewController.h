@@ -16,15 +16,15 @@
     MISSING_TYPE *pageIdentifierToDisplay;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ferredQualityImageRequestCancelHandler: /* Error: Ran out of types for this method. */;
-- (void)P;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)dataManager;
+- (void)è;
 
 @end
 

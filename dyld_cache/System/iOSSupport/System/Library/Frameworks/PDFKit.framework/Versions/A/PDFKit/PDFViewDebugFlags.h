@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)V_backgroundQueue;
 - (void);
-- (id);
+- (void);
+- (id)Ô ;
 
 @end
 

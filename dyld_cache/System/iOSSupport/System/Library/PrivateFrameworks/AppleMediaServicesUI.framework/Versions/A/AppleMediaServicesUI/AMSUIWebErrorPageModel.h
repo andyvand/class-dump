@@ -17,6 +17,7 @@ __attribute__((visibility("hidden")))
     NSString *_errorMessage;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     id <AMSUIWebErrorPageModelDelegate> _delegate;
     id <AMSUIWebActionRunnable> _action;
     CDUnknownBlockType _actionBlock;
@@ -53,22 +54,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (struct CGSize)@"ACAccount"24;
-- (id)sponse"8;
-- (id)fier;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)izeToFitContent: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)y&1GGGG_¼}3y&1GQo_;
+- (id)ontroller type;
+- (struct CGSize);;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSUIWebActionRunnable> action; // @synthesize action=_action;
@@ -99,6 +101,7 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

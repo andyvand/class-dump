@@ -11,16 +11,16 @@
     _Bool __skipDynamicDependentRequirementOverride;
 }
 
-+ (_Bool)ximumActiveValue: /* Error: Ran out of types for this method. */;
-- (void)EffectHandler:completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (void);
 - (_Bool);
-- (_Bool)ity;
-- (void)ø;
-- (_Bool)d;
-- (_Bool)tLayoutCanvasView _updateTraitsForCustomTextRenderer:(id)arg1 ];
-- (_Bool)w controller not accepted for %@ column in %@ UISplitViewController;
-- (_Bool)(%@) - the collection view's data source must return an index path for a valid UICollectionViewCell from -collectionView:(id)arg1 indexPathForIndexTitle:atIndex: /* Error: Ran out of types for this method. */;
-- (id)ce;
+- (void);
+- (id)c][256c][256c]}24i32;
+- (_Bool)hroughInteractionDidRecognize:(id)arg1;
+- (_Bool)sDelay;
+- (_Bool)e>",W,N;
+- (_Bool)¿èÂ`ÃäÃ;
+- (_Bool)overlapping rect -- this is a UIKit bug.;
 
 // Remaining properties
 @property(nonatomic) _Bool _skipDynamicDependentRequirementOverride; // @synthesize _skipDynamicDependentRequirementOverride=__skipDynamicDependentRequirementOverride;

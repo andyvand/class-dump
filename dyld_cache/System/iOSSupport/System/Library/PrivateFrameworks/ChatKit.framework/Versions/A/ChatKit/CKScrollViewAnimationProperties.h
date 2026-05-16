@@ -17,29 +17,29 @@
 }
 
 + (id);
-+ (id)n;
 + (id);
 + (id);
 + (id);
-- (double)sistLeaveActivityEventOnObject: /* Error: Ran out of types for this method. */;
-- (double)ollaborationController:persistLeaveActivityEventOnObject: /* Error: Ran out of types for this method. */;
++ (id);
+- (double);
+- (double);
 - (void);
-- (void)layingSnippetCheckingResult;
-- (void)Title;
 - (void);
-- (_Bool)dispatch_queueC;
-- (id);
-- (id)me="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />        <style>            %@        </style>    </head>    <body id="editor">    </body></html>;
-- (double);
-- (void)?;
-- (unsigned long long);
+- (void);
+- (void);
 - (_Bool);
 - (id);
+- (id);
+- (double);
 - (void);
 - (id);
-- (long long)tachmentMessagePartChatItem"24@"PXAssetReference"32;
-- (double)|%@;
-- (long long)4ÔOÿÁ3)-;
+- (double);
+- (void);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (long long)_sendButtonCircle;
+- (long long)TION_PODCAST_HEADER;
 
 // Remaining properties
 @property(nonatomic) long long animationCurve; // @synthesize animationCurve=_animationCurve;

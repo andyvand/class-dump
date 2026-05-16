@@ -13,22 +13,21 @@
     unsigned long long __dimensions;
 }
 
-+ (id)UITintColor;
-+ (_Bool)l;
-- (const double *)ileTransfersFromCloudKit:capturedWithABC:activity:completion: /* Error: Ran out of types for this method. */;
-- (void)Object<OS_dispatch_queue>",R,N,V_collaborationNoticeDispatcherQueue;
-- (void)bject<OS_dispatch_queue>",R,N,V_changeObservationQueue;
-- (const double *)property on scheduled message;
-- (void)r root;
-- (_Bool);
++ (id)Model: /* Error: Ran out of types for this method. */;
++ (_Bool)onth;
+- (const double *);
+- (void);
+- (void);
+- (const double *);
+- (void);
 - (id);
-- (id)ntityIdentifiers;
-- (void)tationProviderName;
 - (id);
 - (unsigned long long);
-- (void)1¢!0@ù
-× ;
-- (id)InputController;
+- (_Bool)oundImage;
+- (void)setCurrentCommitEffectWindow:(id)arg1;
+- (id)tHidden:(unsigned long long)arg1;
+- (id)n;
+- (void)xPath:(double *)arg1 or -dequeueReusableSupplementaryViewOfKind:(const double *)arg2 withReuseIdentifier:forIndexPath:. Collection view:%@; element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

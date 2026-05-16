@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
 - (id);
-- (id)X²S³L·8¸Ð¸4¹P¹;
+- (void);
+- (id)tions:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)X³ÿí&Æ`³ÿí&Æh³ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAssetFetchResult> assets; // @synthesize assets=_assets;

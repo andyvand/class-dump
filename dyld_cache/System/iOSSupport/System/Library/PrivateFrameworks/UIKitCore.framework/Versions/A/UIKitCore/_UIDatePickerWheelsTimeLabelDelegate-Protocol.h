@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDatePickerWheelsTimeLabelDelegate
-- (void);
 @end
 

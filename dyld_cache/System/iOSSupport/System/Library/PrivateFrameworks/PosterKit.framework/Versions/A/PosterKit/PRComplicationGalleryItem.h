@@ -16,10 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SBHApplicationWidgetCollection *applicationWidgetCollection; // @synthesize applicationWidgetCollection=_applicationWidgetCollection;

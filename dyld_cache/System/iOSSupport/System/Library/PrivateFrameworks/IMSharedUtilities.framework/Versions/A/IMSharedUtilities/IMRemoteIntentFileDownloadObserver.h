@@ -13,8 +13,8 @@
 
 + (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)uest ID %{public}s may begin;
 
 @end
 

@@ -8,12 +8,8 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
-- (unsigned long long)rror: /* Error: Ran out of types for this method. */;
-- (unsigned long long)es)...;
-- (unsigned long long)}ÿÿ;
-- (unsigned long long)ÞÖþÿ;
-- (unsigned long long)èòÿ­;
-- (int)er location. The first placeholder is formatted distance, including the localized unit. The second placeholder is the localized compass direction (eg. 'South Southwest'). The third placeholder is the location's name. An example of this formatted string might be'30 miles Southwest of Nantucket'.;
+- (unsigned long long);
+- (id <MTLHeap>)¨ì;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

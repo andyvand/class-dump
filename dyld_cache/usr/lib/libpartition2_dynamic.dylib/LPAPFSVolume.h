@@ -37,17 +37,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)er>",&,N,V_primaryResidentMessageRouter;
-- (_Bool)vityStateHomePresenceReceiverDelegate>",W,N,V_delegate;
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
 - (int);
+- (id);
 
 @end
 

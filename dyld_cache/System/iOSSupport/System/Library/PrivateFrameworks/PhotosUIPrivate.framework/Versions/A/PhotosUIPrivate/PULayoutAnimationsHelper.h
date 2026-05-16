@@ -31,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (id)uttonItemOnLeft;
+- (void)eadinessForced: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PUSectionedGridLayout *layout; // @synthesize layout=_layout;

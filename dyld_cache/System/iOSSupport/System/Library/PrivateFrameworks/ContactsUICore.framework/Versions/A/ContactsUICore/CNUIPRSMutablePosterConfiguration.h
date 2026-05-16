@@ -16,8 +16,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)ringEnvironment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *assetDirectory;

@@ -9,8 +9,8 @@
 @interface (null) (UVAdditions)
 - (id);
 - (struct CGSize);
-- (double);
 - (id);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;

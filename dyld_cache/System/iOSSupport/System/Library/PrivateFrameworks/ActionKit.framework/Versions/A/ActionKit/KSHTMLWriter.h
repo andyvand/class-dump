@@ -54,7 +54,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)d;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *docType; // @synthesize docType=_docType;

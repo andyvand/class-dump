@@ -83,11 +83,11 @@
 - (struct _NSRange);
 - (id);
 - (void);
-- (struct CGImage *);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (struct CGImage *);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

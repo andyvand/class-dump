@@ -20,22 +20,22 @@ __attribute__((visibility("hidden")))
     _Bool _drawQuads;
 }
 
-+ (struct CGAffineTransform)e"32@0:(struct CGRect)arg1 8@"<SiriUIPresentation>"16@"NSIndexPath"24;
-+ (id)ueuePair"8Q16^B24;
++ (struct CGAffineTransform);
++ (id);
 - (void);
-- (void)dAtom";
-- (struct CGPoint)eboard"32;
-- (void)ViewModelController"16@"NSArray"24;
-- (id)24@"AFUserUtterance"32@"AFUserUtteranceSelectionResults"40;
-- (struct UIEdgeInsets)8@16d24d32;
-- (void)t={CGPoint=dd}{CGSize=dd}}32@0:(CDUnknownBlockType)arg1 8@"QLPreviewPanel"16@"<QLPreviewItem>"24;
-- (void)"16@24;
-- (_Bool){CGSize=dd}40;
-- (void)m>"32@0:(id)arg1 8@"QLPreviewPanel"16q24;
-- (void)AFConnection"16@"NSString"24;
+- (void);
+- (struct CGPoint);
+- (void);
 - (id);
-- (void)StrokeRenderCache>",R,N,V_renderCache;
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void);
 
 @end
 

@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)`ÿÿ;
-- (void)ySay ÑGSSXß\yAAy§â\yACyAAyÒÌ\G_AAyAJ¢Ï\Gã\AAyÎ^yä\A4_GAKyÌ\SgGGSgtGGDØ\yÖä\GG_Qo_GAJSgGG_Qo_tGG]Ú\yADGG;Û\ymÙ\GG_Ô^yÍ^yytAAyÜá^y>à\yAAyAAyjá\=Ú\yADGGóÎ\G_Qo_GèÛ\ySbGGG_A33_yytAJGtGQo_;
+- (void)ABLE_OK_BUTTON_TITLE;
 @end
 

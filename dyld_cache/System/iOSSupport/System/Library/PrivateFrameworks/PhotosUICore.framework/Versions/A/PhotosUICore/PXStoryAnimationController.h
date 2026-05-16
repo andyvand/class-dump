@@ -28,10 +28,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)"PXPhotosViewUIInteraction"16@"PXAssetReference"24;
+- (id)miss:(id)arg1;
+- (void)ry_Action_RemoveThisSharingSuggestion;
+- (void)ry;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;

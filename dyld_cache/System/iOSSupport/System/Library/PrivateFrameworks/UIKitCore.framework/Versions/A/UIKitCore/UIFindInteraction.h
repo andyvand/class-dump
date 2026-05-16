@@ -32,57 +32,53 @@
     _UIFindNavigatorHarness *_findNavigatorHarness;
 }
 
-+ (id)
++ (id);
++ (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)0@ù
 × ;
-+ (void)ÇWÏ#`;
 - (id);
-- (id)W&;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)5ü¹;
-- (unsigned long long);
-- (void)
+- (void)@ù
 × ;
-- (_Bool)Ã1¢!0@ù
-× ;
-- (id)°!BùÑÃ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)!0@ù
-× ;
+- (CDUnknownBlockType)teraction"16;
+- (void)CGSize=dd}}24;
+- (void)ene"16@"UIApplicationShortcutItem"24@?<v@?B>32;
+- (id)immedPopover"b1};
+- (id)fectiveTimeZone;
+- (void)cheKeyForString:(id)arg1 withRenderFlags:renderConfig: /* Error: Ran out of types for this method. */;
+- (unsigned long long)traints;
+- (void)metryChanges;
+- (id)eueDelayedTouchesAndPressesToSend;
+- (id)utesForNewModel: /* Error: Ran out of types for this method. */;
+- (void)plication:(CDUnknownBlockType)arg1 originatingProcess: /* Error: Ran out of types for this method. */;
+- (id)pÔp;
+- (unsigned long long)ÿ;
+- (void)ment:%@  focusItemContainer:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Transform;
+- (id)hOptions. This is unexpected.;
+- (void)ib) %@;
 - (void);
-- (void)ionDelegate>";
-- (void)ary=};
-- (id)dateSize:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)trackWidthProportion;
-- (id);
-- (id)@"UIDeferredMenuElement",&,N,V_additionalItems;
-- (CDUnknownBlockType) Þ;
-- (void)e;
-- (void)or %@;
-- (void)ûÿY{þÿ;
-- (void)ºí3_oí3yACyACyACyHsj8í3G¤í3yPj8Bsj8GGÛªí3ySbGG í3GtG;
-- (void)t override;
-- (void)lue"16^B24;
-- (void)d to implement appendToScriptAtomIndex:(id)arg1 string:operation: /* Error: Ran out of types for this method. */;
-- (id)link:r:path:/System/Library/PrivateFrameworks/DataDetectorsUI.framework/DataDetectorsUI /* Error: Ran out of types for this method. */;
-- (void)4¼Ñmþým4\Ñmþ;
-- (id)þ;
-- (void);
-- (unsigned long long)q;
-- (id);
-- (id);
-- (void)áÏôi;
+- (void)o:(_Bool)arg1 path:/System/Library/PrivateFrameworks/WritingToolsUI.framework/WritingToolsUI /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ØÿJ¨Óøg;
+- (void)Ðlqþ;
+- (id)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextSearchOptions *_configuredSearchOptions;

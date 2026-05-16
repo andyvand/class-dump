@@ -14,11 +14,11 @@
     SXUnitConverter *unitConverter;
 }
 
-+ (id);
++ (id)W,N;
 - (id);
 - (void);
-- (void);
 - (double);
+- (void)ation>";
 
 // Remaining properties
 @property(readonly, nonatomic) struct _SXConvertibleValue actualWidth; // @dynamic actualWidth;

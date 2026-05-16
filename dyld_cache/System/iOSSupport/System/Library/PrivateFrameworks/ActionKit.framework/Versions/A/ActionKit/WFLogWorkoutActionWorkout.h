@@ -25,12 +25,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id)0@ù
+- (void)1B50@ù
 × ;
+- (void)tring"16@"NSError"24;
 
 // Remaining properties
 @property(retain, nonatomic) HKUnit *calorieUnit; // @synthesize calorieUnit=_calorieUnit;

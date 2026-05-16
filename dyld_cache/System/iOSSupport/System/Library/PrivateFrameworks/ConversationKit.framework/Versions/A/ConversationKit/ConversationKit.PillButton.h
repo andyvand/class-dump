@@ -15,7 +15,7 @@
 }
 
 - (id);
-- (void);
+- (void)y} SayE GG;
 
 @end
 

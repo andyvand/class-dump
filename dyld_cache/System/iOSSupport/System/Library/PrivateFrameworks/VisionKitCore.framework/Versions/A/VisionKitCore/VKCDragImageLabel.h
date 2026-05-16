@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (struct UIEdgeInsets);
 - (void);
-- (void);
 - (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets customEdgeInsets; // @synthesize customEdgeInsets=_customEdgeInsets;

@@ -15,8 +15,8 @@
 - (id);
 - (CDStruct_982265da);
 - (id);
-- (void)«°myl¬Ö0e;
-- (id);
+- (id);
+- (void)onadeWallpaperFeature.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_982265da scrollPosition; // @synthesize scrollPosition=_scrollPosition;

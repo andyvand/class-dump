@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragItem, UIDropInteraction, UIDropProposal, UITargetedDragPreview;
-@protocol UIDropSession;
+@class UIDropInteraction, UIDropProposal, UITargetedDragPreview;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void)ation;
-- (void)shotViewFromRect:(UIDropInteraction *)arg1 afterScreenUpdates:(id <UIDropSession>)arg2 withCapInsets: /* Error: Ran out of types for this method. */;
-- (void)ccess control:(UIDropInteraction *)arg1 %@;
-- (void)omeHubSupportingWalletKey=%{BOOL}d | shouldHideWalletKeyExpressModeBanner=%{BOOL}d | %@;
-- (void)t state -> %lu;
-- (UITargetedDragPreview *)ontrol:(UIDropInteraction *)arg1 %{public}s source:(UIDragItem *)arg2 %{public}s;
-- (UIDropProposal *)er_AllResidentsAreHomePodsWithHH1EOL_Description;
-- (_Bool)ColorInteractionCoordinator cancelButtonTappedToDismissColorViewController];
-- (void)ndGuests;
+- (void)á°°!ÜBùQÐ1â
+0@ù
+× ;
+- (void)pshotURL:(UIDropInteraction *)arg1;
+- (UIDropProposal *);
+- (UITargetedDragPreview *)ForSection:(UIDropInteraction *)arg1;
+- (void)ctTableViewController;
+- (void)o ignoring;
+- (void)ils;
 @end
 

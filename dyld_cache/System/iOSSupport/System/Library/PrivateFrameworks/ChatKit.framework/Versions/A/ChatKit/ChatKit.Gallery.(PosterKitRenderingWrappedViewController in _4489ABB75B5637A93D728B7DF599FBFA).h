@@ -15,11 +15,11 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)2'É2;
+- (void)wCell;
+- (void);
 
 @end
 

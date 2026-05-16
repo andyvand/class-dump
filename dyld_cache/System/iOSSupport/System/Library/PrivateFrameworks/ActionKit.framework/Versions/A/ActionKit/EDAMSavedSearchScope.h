@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@"WFContentItem"8Q16@?<v@?@"<WFSystemShareableObject>"@"NSError">24;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *includeAccount; // @synthesize includeAccount=_includeAccount;

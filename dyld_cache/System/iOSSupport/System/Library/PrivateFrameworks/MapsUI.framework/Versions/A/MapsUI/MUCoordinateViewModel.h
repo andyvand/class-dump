@@ -16,8 +16,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)ognizerWithTarget:action: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)atings;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *darkSymbolColor;

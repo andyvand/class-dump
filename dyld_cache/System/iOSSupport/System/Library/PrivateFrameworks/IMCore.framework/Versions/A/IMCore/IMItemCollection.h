@@ -20,14 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)pability:forAlias: /* Error: Ran out of types for this method. */;
-- (_Bool)MCore.IMCloudKitHooks.ProgressChanged;
-- (void)0000000;
+- (void)0¾ÁÈÁ`ÅÆ`ÆÉXÉ
+|ÊØÊ
+üËTÍÐ;
+- (_Bool)g;
+- (unsigned long long)ü;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chatItems; // @synthesize chatItems=_chatItems;

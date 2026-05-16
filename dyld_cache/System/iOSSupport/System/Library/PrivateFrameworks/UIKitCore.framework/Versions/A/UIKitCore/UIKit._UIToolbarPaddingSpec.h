@@ -19,29 +19,28 @@
 }
 
 + (id);
-- (void)ick off an eager sync in %@ seconds;
-- (void)ng is disabled;
-- (void)t to kick off of eager sync, since syncing is disabled;
-- (void)ncNotCompletedRecently %@;
-- (void)clearing cache. Subscription:(double)arg1 %@;
-- (void)ubscription state changed, clearing cache. Subscription:(double)arg1 %@;
-- (void)roval Response;
-- (void)yPinCodeApproval;
-- (double)mpleted, marking pipeline component as finished.;
-- (double):%@) /* Error: Ran out of types for this method. */;
-- (double)combinedPayloadAttachmentDictionary:%@) /* Error: Ran out of types for this method. */;
-- (double)payload (identifier:%@, payload:%@, combinedPayloadAttachmentDictionary:%@) /* Error: Ran out of types for this method. */;
-- (double)essing a balloon plugin payload (identifier:%@, payload:%@, combinedPayloadAttachmentDictionary:%@) /* Error: Ran out of types for this method. */;
-- (double):%@, error:%@ /* Error: Ran out of types for this method. */;
-- (double)@, error:%@ /* Error: Ran out of types for this method. */;
-- (double)sage GUID %@ transfer guid %@;
-- (double)remain ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (double);
-- (void)ÔÁoÐ!8FùQÂÐ1¢!0@ù
-× ;
-- (void)dexBarInsetsUpdate;
-- (id)_setMaskedCorners: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void);
+- (void)erInterfaceLayoutDirection: /* Error: Ran out of types for this method. */;
+- (double)umItemTopToFirstBaseline;
+- (void)olCSg;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double macBottom; // @synthesize macBottom;

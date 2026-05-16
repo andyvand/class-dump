@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)(x;
-- (id)!;
+- (id);
+- (void)layEnabled:%{BOOL}u | ignoring setter [%{public}@] autoPlayState=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPIdentifierSet *inputIdentifiers;

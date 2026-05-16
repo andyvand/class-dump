@@ -65,11 +65,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
@@ -77,7 +73,11 @@
 - (id);
 - (void);
 - (id);
-- (id)%08X.;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAWDLDisabled) _Bool AWDLDisabled; // @synthesize AWDLDisabled=_AWDLDisabled;

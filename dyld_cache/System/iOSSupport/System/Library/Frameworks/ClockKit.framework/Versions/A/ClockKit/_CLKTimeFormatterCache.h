@@ -15,13 +15,13 @@
 }
 
 + (id);
-+ (id)ì;
++ (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

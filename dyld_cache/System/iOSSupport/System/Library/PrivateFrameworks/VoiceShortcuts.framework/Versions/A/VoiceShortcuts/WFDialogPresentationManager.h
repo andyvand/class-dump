@@ -96,15 +96,15 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)e to %s;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *attributionsAwaitingStatusPresentation; // @synthesize attributionsAwaitingStatusPresentation=_attributionsAwaitingStatusPresentation;

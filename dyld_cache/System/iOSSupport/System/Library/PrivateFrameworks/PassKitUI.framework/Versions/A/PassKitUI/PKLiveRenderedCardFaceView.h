@@ -29,7 +29,6 @@
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (void);
@@ -37,18 +36,20 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)T¾;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

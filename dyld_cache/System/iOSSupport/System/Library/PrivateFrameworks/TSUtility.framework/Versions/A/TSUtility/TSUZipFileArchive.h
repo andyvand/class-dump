@@ -17,7 +17,7 @@
     NSURL *_temporaryDirectoryURL;
 }
 
-+ (void);
++ (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,9 +27,9 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

@@ -11,7 +11,6 @@
     MISSING_TYPE *sidebarDelegate;
     MISSING_TYPE *todayTabElement;
     MISSING_TYPE *magazineTabElement;
-    MISSING_TYPE *sportsTabElement;
     MISSING_TYPE *audioTabElement;
     MISSING_TYPE *searchTabElement;
     MISSING_TYPE *followingTabGroup;

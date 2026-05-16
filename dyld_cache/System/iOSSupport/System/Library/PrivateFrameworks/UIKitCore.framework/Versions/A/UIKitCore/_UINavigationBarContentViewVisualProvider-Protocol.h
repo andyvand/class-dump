@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem;
-@protocol _UINavigationBarTitleControlVisualProvider;
-
 @protocol _UINavigationBarContentViewVisualProvider
-- (id <_UINavigationBarTitleControlVisualProvider>);
-- (struct CGPoint)rray"16;
-- (struct CGPoint)sÐ!Aù±Æ1¢!0@ù
-× ;
-- (unsigned long long)rForStartPlacement:(UIBarButtonItem *)arg1 endPlacement: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (unsigned long long)";
+- (double)ackEnginePrewarmDurationWithSuffix: /* Error: Ran out of types for this method. */;
 @end
 

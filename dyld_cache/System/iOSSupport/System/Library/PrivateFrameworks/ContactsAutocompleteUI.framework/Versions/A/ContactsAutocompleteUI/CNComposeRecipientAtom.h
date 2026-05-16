@@ -27,15 +27,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CNComposeRecipientAtomDelegate> delegate; // @synthesize delegate=_delegate;

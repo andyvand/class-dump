@@ -19,16 +19,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void)"24@0:8@"SXDataTableComponentController"16 /* Error: Ran out of types for this method. */;
+- (id)ò;
 
 // Remaining properties
 @property(readonly, nonatomic) UIDynamicAnimator *animator; // @synthesize animator=_animator;

@@ -42,23 +42,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)nternal;
-- (void)meworks/AAAFoundation.framework/Versions/A/AAAFoundation;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)DaemonDisconnectedNotification;
+- (void);
+- (void);
+- (void)ùÿ¬ùÿÐùÿôùÿ0ùÿTùÿ ùÿPùÿ\ùÿ°ùÿôùÿ;
+- (id)ü;
 
 // Remaining properties
 @property(nonatomic) __weak IMChat *chat; // @synthesize chat=_chat;

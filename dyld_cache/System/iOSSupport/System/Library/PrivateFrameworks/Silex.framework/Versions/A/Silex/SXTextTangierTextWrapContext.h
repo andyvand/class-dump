@@ -25,7 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) TSWPColumn *column; // @synthesize column=_column;

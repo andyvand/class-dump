@@ -15,10 +15,10 @@
     MISSING_TYPE *staticLightView;
 }
 
+- (id);
 - (void);
-- (id)_;
-- (void);
-- (id)ntStorage;
+- (id)IActionableStyleAttributes;
+- (void)ÑÎ¬ql;
 
 @end
 

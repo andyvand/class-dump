@@ -4,10 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKLinedPaper;
-
 @protocol PKLinedPaperLayerDelegate
-- (PKLinedPaper *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGAffineTransform drawingTransform;

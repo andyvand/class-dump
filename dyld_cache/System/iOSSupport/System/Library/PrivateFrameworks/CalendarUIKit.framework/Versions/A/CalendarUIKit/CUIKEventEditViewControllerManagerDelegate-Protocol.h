@@ -8,9 +8,6 @@
 @protocol CUIKEditor, EKAutocompleteSearchPasteboardItemProvider;
 
 @protocol CUIKEventEditViewControllerManagerDelegate
-- (id <EKAutocompleteSearchPasteboardItemProvider>);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool disregardInitialDateTimeOfEvent;

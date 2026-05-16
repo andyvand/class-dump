@@ -24,16 +24,16 @@
 - (long long);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
-- (void);
 - (id);
 - (unsigned long long);
-- (id)error %@;
-- (long long)n;
-- (unsigned long long)Öºÿè*µÚ;
+- (unsigned long long),R,N,V_storesDirectory;
+- (long long)sitive}f, number of weeks for prediction, %{sensitive}d, sparse mode, %@;
+- (void)t;
+- (long long)ed car signal;
+- (id)deletion requests after import, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activityType; // @synthesize activityType=_activityType;

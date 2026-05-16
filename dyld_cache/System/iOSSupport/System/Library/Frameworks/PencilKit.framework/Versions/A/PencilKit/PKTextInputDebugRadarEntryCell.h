@@ -24,18 +24,18 @@
     NSLayoutConstraint *__drawingViewAspectRatioConstraint;
 }
 
-- (void)ns/A/CoreFoundation;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)backgroundSessions;
-- (long long)tasks (%lu) on background URLSession:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)eatmentIds;
-- (void)apple.com/v1/configs;
-- (void)configs;
-- (void)news-todayconfig-edge.newsapps.apple.com/v1/configs;
-- (void)-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCConfigurationFetchResult.m;
+- (_Bool);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -53,11 +53,11 @@
 - (long long);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)xOffset;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_borderView; // @synthesize _borderView=__borderView;

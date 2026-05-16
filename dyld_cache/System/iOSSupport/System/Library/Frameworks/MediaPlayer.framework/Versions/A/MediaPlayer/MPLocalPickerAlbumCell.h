@@ -19,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)T@"NSNumber",C,N,V_payloadMagsizeImmutable;
-- (id)æúÿû¯3ó
-;
+- (void)R,C,N;
+- (id)Controller;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *artistLabel; // @synthesize artistLabel=_artistLabel;

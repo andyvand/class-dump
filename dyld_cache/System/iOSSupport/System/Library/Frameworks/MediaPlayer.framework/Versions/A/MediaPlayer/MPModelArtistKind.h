@@ -13,18 +13,18 @@
     MPModelAlbumKind *_albumKind;
 }
 
-+ (id)tion:(id)arg1 streamIdentifier:timestamp:storeEvent: /* Error: Ran out of types for this method. */;
-+ (id)initWithUniqueId:domainId:absoluteTimestamp:title:content:contentIsReaderText:url:contentProtection: /* Error: Ran out of types for this method. */;
-+ (_Bool)led to load account properties error=%{public}@;
-- (id)lite3=};
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void)R,N,GisOnboardedPerson;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelAlbumKind *albumKind; // @synthesize albumKind=_albumKind;

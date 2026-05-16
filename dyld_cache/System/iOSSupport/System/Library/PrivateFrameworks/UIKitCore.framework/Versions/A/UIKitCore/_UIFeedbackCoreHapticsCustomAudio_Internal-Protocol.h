@@ -5,8 +5,6 @@
 //
 
 @protocol _UIFeedbackCoreHapticsCustomAudio_Internal
-- (_Bool)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool disableEventUseVolumeEnvelope;

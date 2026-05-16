@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)P;
-- (id);
-- (id);
-- (id);
 
 @end
 

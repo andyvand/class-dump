@@ -14,15 +14,18 @@
     NSArray *_suggestionGroups;
 }
 
-- (void);
-- (id)a:error: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)port:(id)arg1;
 - (id);
-- (void)ra Light;
-- (void).W[;
-- (id)Æ\;
+- (void)1Â0@ù
+× ;
+- (void)!!(Gù1aÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (id)etReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)FullScreenIgnoredStartingWithVersion;
+- (void)­13Hïlþ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISearchSuggestionControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -11,12 +11,12 @@
     NSData *_data;
 }
 
+- (unsigned long long);
 - (void);
+- (const void *);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)4;
-- (const void *)MMetricsCollectorEventHandwritingDeleted;
+- (void)yName;
 
 // Remaining properties
 @property(readonly) const void *bytes;

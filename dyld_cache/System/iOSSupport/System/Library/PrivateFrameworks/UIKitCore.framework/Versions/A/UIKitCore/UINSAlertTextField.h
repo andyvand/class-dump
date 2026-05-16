@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     UIColor *_textColor;
 }
 
-- (id);
 - (void);
-- (void)selection:(long long)arg1 containsPoint: /* Error: Ran out of types for this method. */;
-- (void)SelectionThresholdForPreviewMenuItemStyle:(id)arg1;
-- (void);
-- (id)rInterfaceStyle: /* Error: Ran out of types for this method. */;
-- (long long)âþÿ8âþÿlâþÿâþÿ¤âþÿ¼âþÿÔâþÿìâþÿãþÿãþÿ4ãþÿLãþÿdãþÿãþÿ¸ãþÿðãþÿ(äþÿ@äþÿXäþÿpäþÿäþÿ`èþÿxèþÿ°èþÿÈèþÿàèþÿ(êþÿ;
-- (id)[;
-- (void)z¢b;
+- (id)verticalOffsetForSucceedingLayout;
+- (void)ooterTrailingMarginWidth;
+- (id)UIGestureRecognizerTarget;
+- (void)Q;
+- (long long)Dþÿ;
+- (void)Nh;
+- (id)f;
+- (void)Øfn;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;

@@ -13,10 +13,10 @@
 }
 
 + (Class);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)¢Ú;
 
 @end
 

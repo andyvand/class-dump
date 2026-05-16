@@ -13,8 +13,8 @@
     MISSING_TYPE *coordinateProvider;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

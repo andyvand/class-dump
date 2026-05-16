@@ -23,13 +23,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (long long);
 - (void);
+- (id);
+- (void)MatchTextGetGroupGroupIndexResolutionResult">24;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long folderID; // @synthesize folderID=_folderID;

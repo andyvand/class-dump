@@ -33,21 +33,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void)ðFæ;
-- (long long);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id)1zð1b0@ù
-× ;
-- (id)el;
-- (id)_assetCollections;
-- (void)üý@þþ;
-- (id)|QÿC;
-- (id)orationView for assetCollection:"%s" (%{public}s) /* Error: Ran out of types for this method. */;
-- (void)vity;
+- (void);
+- (id)alidateTargetAlpha;
+- (void)stimated loading time left:(id)arg1 %f, current preloading segment:%ld /* Error: Ran out of types for this method. */;
+- (void)essoryButton;
+- (long long)PhotosSearchUtilities;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *assetCreationDate; // @synthesize assetCreationDate=_assetCreationDate;

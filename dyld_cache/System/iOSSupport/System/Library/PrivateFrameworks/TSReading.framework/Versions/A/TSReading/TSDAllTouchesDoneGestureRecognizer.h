@@ -14,12 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void)9;
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (id)rence;
-- (_Bool)ontFamilyNameForFontName(NSString *);
-- (_Bool)ller sortLayoutsForDependencies:(id)arg1 ];
+- (void)s;
 
 @end
 

@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)teristicTitleAirQuality;
 
 @end
 

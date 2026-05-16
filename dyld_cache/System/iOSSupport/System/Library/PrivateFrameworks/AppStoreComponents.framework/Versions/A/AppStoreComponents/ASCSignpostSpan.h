@@ -21,16 +21,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDateInterval *dateRange;

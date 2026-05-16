@@ -24,15 +24,15 @@
 - (int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (CDStruct_1b6d18a9);
 - (struct CGImage *);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void)$;
-- (void);
 - (CDStruct_1b6d18a9);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *photo; // @synthesize photo=_photo;

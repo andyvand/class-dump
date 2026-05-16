@@ -23,9 +23,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)ToggleType;
+- (void);
+- (void);
 
 @end
 

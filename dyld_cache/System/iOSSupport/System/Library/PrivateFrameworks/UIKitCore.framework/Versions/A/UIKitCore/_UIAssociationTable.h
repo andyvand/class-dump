@@ -13,24 +13,23 @@ __attribute__((visibility("hidden")))
     NSMapTable *_rightToLeftHashTables;
 }
 
-- (id);
 - (_Bool);
-- (id)occurred;
-- (id)ter:(id)arg1;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)iº;
-- (_Bool)FùÄÐ1¢!0@ù
+- (id)@ù
 × ;
-- (id)!0@ù
-× ;
-- (id)oundEffects: /* Error: Ran out of types for this method. */;
-- (id)itionBarsExclusivelyWithSafeArea;
-- (id)rollerColumn:(id)arg1;
-- (id)entationDebugging;
-- (_Bool)allocating object as dataSource. This will be a hard crash in the future. Offending object:%@ hosting object:%@ /* Error: Ran out of types for this method. */;
-- (void)Ä;
+- (id)undInsets: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)utputModel;
+- (_Bool)dToolRewriting;
+- (id)a path collection when no hidEvent is being processed;
+- (id)fiersWantingOverriddenIndirectEventSupport;
+- (void)ðË^;
 
 @end
 

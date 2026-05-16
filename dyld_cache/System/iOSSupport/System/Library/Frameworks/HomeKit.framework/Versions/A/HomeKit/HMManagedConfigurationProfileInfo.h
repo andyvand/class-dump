@@ -12,14 +12,14 @@
     NSData *_profileData;
 }
 
-+ (_Bool)NotificationEnabled;
-- (id);
-- (void);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)\\ \ô\8]$^;
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;

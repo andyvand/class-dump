@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIDragSession;
+@class UITargetedDragPreview;
 
 @protocol UIDragInteractionDelegate
 
 @optional
-- (id <UIDragSession>);
-- (void)_ACyACyDþÿAFGAFGAItGG,ýy.ÿGGtGSgtG;
-- (_Bool)ySiSgGGSg_AEyAkHySgGGSgtGGèGtGG;
+- (UITargetedDragPreview *)roller"16;
+- (_Bool);
 @end
 

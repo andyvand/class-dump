@@ -11,7 +11,7 @@
     unsigned long long _variants;
 }
 
-+ (id)tDuration:(unsigned long long)arg1;
++ (id);
 + (id);
 - (unsigned long long);
 - (id);

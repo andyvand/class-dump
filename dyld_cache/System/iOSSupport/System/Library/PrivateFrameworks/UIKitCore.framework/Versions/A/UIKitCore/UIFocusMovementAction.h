@@ -10,14 +10,14 @@
 {
 }
 
-- (_Bool)ndonSystemProxySettingsFetcher;
-- (id)to retrieve any notices;
+- (_Bool);
 - (id);
 - (id);
-- (struct CGRect)aunch of imagent;
-- (id)nc %@;
 - (id);
-- (long long)dow and previous key window became visible;
+- (struct CGRect);
+- (id);
+- (id);
+- (long long)þÝÌÀ9k;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFocusMovementInfo *focusMovementInfo;

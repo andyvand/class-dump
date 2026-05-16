@@ -5,6 +5,5 @@
 //
 
 @protocol SXComponentInteractionHandlerManager
-- (void);
 @end
 

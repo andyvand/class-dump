@@ -22,11 +22,11 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void)CountCache:(id)arg1;
+- (id)´TôT;
+- (void)Pòÿ;
 
 // Remaining properties
 @property(nonatomic) AVTUILogger *logger; // @synthesize logger=_logger;

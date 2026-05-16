@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)gested location when the location is the user's school;
 @end
 

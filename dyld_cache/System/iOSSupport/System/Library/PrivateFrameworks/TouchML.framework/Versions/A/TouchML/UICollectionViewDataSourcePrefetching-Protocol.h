@@ -5,6 +5,5 @@
 //
 
 @protocol UICollectionViewDataSourcePrefetching
-- (void)__descriptor;
 @end
 

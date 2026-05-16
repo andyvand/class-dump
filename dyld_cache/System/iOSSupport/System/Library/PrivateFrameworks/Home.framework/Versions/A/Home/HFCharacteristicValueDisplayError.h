@@ -21,18 +21,19 @@
 + (id);
 - (id);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (id);
 - (void);
+- (void) 
+;
 
 // Remaining properties
 @property(nonatomic) unsigned long long category; // @synthesize category=_category;

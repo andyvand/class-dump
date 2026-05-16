@@ -16,11 +16,11 @@
 + (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (long long);
-- (void)åf|F;
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType):8@"PXStoryViewModeTransitionsHelper"16q24 /* Error: Ran out of types for this method. */;
+- (id)lter %ld != %ld;
+- (void)þ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

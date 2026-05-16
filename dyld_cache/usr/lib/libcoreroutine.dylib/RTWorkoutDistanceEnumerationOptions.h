@@ -10,15 +10,15 @@
     _Bool _ascending;
 }
 
-+ (_Bool)not supported.;
++ (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
+- (id);
 - (Class);
-- (id);
-- (id)v16@?0@"NSError"8;
-- (_Bool){H;
-- (id);
-- (unsigned long long);
+- (unsigned long long)redicateInspector";
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;

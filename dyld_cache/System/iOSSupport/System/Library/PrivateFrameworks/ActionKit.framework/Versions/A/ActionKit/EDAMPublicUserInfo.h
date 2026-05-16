@@ -32,10 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)Error:(id)arg1;
-- (id)ntMethod;
+- (id)emFontOfSize: /* Error: Ran out of types for this method. */;
+- (void),&,N,V_scope;
+- (void)/api/1/bookmarks/add;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *noteStoreUrl; // @synthesize noteStoreUrl=_noteStoreUrl;

@@ -47,21 +47,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)1Â0@ù
+× ;
+- (id)VÍ¼;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool appeared; // @synthesize appeared=_appeared;

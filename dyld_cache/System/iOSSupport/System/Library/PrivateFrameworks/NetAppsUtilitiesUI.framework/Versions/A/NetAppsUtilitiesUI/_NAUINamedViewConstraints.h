@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id _stalenessToken;
 }
 
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

@@ -7,8 +7,8 @@
 @class NSString, PRPosterEnvironmentContext, PRTimeFontConfiguration, UIColor, UITraitCollection;
 
 @protocol PRPosterEnvironment
-- (NSString *)lButton;
-- (UITraitCollection *)`;
+- (UITraitCollection *)ationDidChange;
+- (long long)ntVariationStorage;
 
 // Remaining properties
 @property(readonly, nonatomic) long long boundingShape;

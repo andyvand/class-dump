@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)ý0º;
-- (void)nsition:(id)arg1;
-- (void)ce:(id)arg1 %@;
-- (void)sistantTransition placementWithPlacement:(id)arg1 ];
 - (id);
+- (void);
+- (void);
+- (void)ew;
+- (void)VisualProvider;
+- (void)d¡ßþ^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

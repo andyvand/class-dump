@@ -18,9 +18,10 @@
 - (double);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)tivity:(id)arg1;
+- (void);
+- (void)	
+;
 
 // Remaining properties
 @property(readonly, nonatomic) AVPlayerItem *playerItem; // @synthesize playerItem=_playerItem;

@@ -26,13 +26,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool detectorDidRun; // @synthesize detectorDidRun=_detectorDidRun;

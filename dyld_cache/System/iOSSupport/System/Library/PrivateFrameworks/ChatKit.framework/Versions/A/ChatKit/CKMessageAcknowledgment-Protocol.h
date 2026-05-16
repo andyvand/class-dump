@@ -7,9 +7,6 @@
 @class NSString, UIColor;
 
 @protocol CKMessageAcknowledgment
-- (UIColor *);
-- (UIColor *)et:undoManager:usingBlock: /* Error: Ran out of types for this method. */;
-- (UIColor *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *acknowledgmentImageColor;

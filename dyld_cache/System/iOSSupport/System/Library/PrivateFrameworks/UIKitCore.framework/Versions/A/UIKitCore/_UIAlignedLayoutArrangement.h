@@ -17,42 +17,43 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool)8021XFirstActiveEthernetDeclaration;
 - (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)¡rð!Fù1ÆÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (id)Type;
-- (void)alizedCapitalizedString;
-- (id),V__changesSelectionAsPrimaryAction;
-- (unsigned long long);
-- (void)bÏÿ	;
-- (long long)ìÿ;
-- (void)½{ÿ;
-- (void);
-- (_Bool)³«c;
-- (_Bool)Íc;
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id)ýRd;
-- (_Bool)ÝÕ»Zd;
-- (_Bool)5ÿíÑ.d;
 - (id);
-- (unsigned long long)e;
-- (id)®;
-- (void)àÛþh";
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)Ð1Â0@ù
+× ;
+- (_Bool)Fù±_Ð1Â0@ù
+× ;
+- (void)Ñ_ð1Â0@ù
+× ;
+- (void);
+- (unsigned long long)0@ù
+× ;
+- (_Bool)R,N,G_lastFocusedChildViewControllerIndex,V_lastFocusedChildViewControllerIndex;
+- (void)ondaryCellularEntry;
+- (id)<;
+- (long long)d¯;
+- (long long)x;
+- (_Bool)touches:%@, node:%s /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)cancelInteractive;
+- (void)tal %@/Vertical %@;
+- (unsigned long long)fferent.;
+- (void)lready being presented by %@.;
+- (id)iewCell.m;
+- (_Bool)3;
+- (_Bool)ntentImagePropertiesCG;
+- (_Bool)þPÿ²þ;
+- (void)f;
+- (long long);
+- (void)»ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_newlyHiddenItems;

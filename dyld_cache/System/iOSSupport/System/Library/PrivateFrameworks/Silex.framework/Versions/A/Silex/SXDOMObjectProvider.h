@@ -17,14 +17,9 @@
 
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -32,6 +27,11 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ntageProviding>";
 
 // Remaining properties
 @property(retain, nonatomic) SXDOM *DOM; // @synthesize DOM=_DOM;

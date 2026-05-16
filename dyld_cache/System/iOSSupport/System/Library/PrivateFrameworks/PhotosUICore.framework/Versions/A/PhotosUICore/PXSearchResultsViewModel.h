@@ -9,7 +9,9 @@
 }
 
 - (id);
-- (long long);
+- (long long)ÁûÐ!`CùIÐ1â
+0@ù
+× ;
 
 @end
 

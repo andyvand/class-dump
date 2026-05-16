@@ -129,10 +129,10 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -148,17 +148,17 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned short);
-- (void);
-- (void);
-- (id);
-- (id)derPhotosComponent;
-- (void)o;
-- (void)0T;
-- (void)@¯ÔÿþDJ×½4;
-- (void);
-- (id)º6L¢-7;
+- (id)ÿ;
+- (void)leTagWithNewName;
+- (void);
+- (void)ÉYG;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool alreadyImportedItemsSelectable; // @synthesize alreadyImportedItemsSelectable=_alreadyImportedItemsSelectable;

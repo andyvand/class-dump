@@ -8,18 +8,18 @@
 
 @interface PUIObjCArtworkProvider
 {
-    MISSING_TYPE *backingCache;
     MISSING_TYPE *backingProvider;
-    MISSING_TYPE *bucketingStrategy;
     MISSING_TYPE *managedObjectContext;
+    MISSING_TYPE *backingCache;
+    MISSING_TYPE *bucketingStrategy;
 }
 
 + (id);
-+ (id)P;
++ (id);
 - (void);
 - (void);
 - (id);
-- (void)n;
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -29,15 +29,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 
 @end
 

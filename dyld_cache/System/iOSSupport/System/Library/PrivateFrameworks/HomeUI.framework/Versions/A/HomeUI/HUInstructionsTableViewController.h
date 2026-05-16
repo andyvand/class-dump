@@ -27,7 +27,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)HUSoftwareUpdateStandaloneItemManager.m;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *contentViewController; // @synthesize contentViewController=_contentViewController;

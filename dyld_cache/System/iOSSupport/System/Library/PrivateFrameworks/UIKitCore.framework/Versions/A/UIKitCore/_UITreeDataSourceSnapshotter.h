@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSMutableIndexSet *_expandedIndexes;
 }
 
-- (id)c%c%c found tag %c%c%c%c;
-- (id)ecs);
-- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (long long);
@@ -29,16 +29,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)1;
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
 - (void);
-- (id)H;
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -48,29 +48,30 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct _UIOutlineNode *);
 - (struct _UIOutlineNode);
-- (_Bool)nary"32@0:(long long)arg1 8^@16q24;
-- (void)MessagesForMessages:(id)arg1;
-- (void)terval:(long long)arg1;
-- (long long)ode:(long long)arg1;
-- (long long)er:(long long)arg1;
-- (id)enerID;
+- (_Bool);
+- (void);
+- (void);
+- (long long);
+- (long long);
 - (id);
-- (long long)thBundleID:(long long)arg1 recipientHandle: /* Error: Ran out of types for this method. */;
-- (long long):(long long)arg1 groupID:(long long)arg2 originalGroupID:(long long)arg3 displayName:guid:lastAddressedHandle:lastAddressedSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
-- (id)operties;
-- (_Bool)Manager;
-- (id)figureSyncedDefaultsWithOverride: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (long long);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)IntegerVectorForKey:returnedCount: /* Error: Ran out of types for this method. */;
-- (id)opperServerProxy;
-- (long long)nsets=dddd}}200@0:8Q16B24B28{_UIListGeometry={NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}32q176q184@192 /* Error: Ran out of types for this method. */;
-- (void);
-- (id)Ñ×\;
+- (id);
+- (id)0@ù
+× ;
+- (_Bool)sSearchingRegionsOfInterestContainer"b1"clipToSnapshotRect"b1"ignoresRootContainerClippingRect"b1};
+- (id)ight;
+- (void):(long long)arg1 ];
+- (long long)@?0@"NSString"8@"NSNumber"16^B24;
+- (void)o7NSArrayCSgSo6UIMenuCSgIeyByya_;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

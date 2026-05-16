@@ -12,10 +12,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)peRJ;
+- (void);
+- (void);
+- (void)Failed to request live photo video resource;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInSilentMode; // @synthesize isInSilentMode=_isInSilentMode;

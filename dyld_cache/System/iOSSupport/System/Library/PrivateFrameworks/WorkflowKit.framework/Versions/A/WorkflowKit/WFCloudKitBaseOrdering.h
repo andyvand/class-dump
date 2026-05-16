@@ -16,8 +16,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id)9Û: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)wfFileType;
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *collectionIdentifier;

@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (id)F2øÿT¸þÿ;
+- (void)Ð;
+- (unsigned long long)%ÿ%ÿ@è;
 
 @end
 

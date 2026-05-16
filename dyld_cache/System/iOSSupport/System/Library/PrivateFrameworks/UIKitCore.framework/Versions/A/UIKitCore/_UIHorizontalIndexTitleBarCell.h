@@ -24,29 +24,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)4@32C40@44@52;
-- (void)@32C40B44;
-- (void)"CKServerChangeToken"16@"NSString"24;
-- (double),N,V_syncTokenStore;
+- (void);
+- (void);
+- (void);
+- (double);
 - (id);
 - (void);
-- (void)pping to chatIdentifier:(id)arg1 %s;
-- (_Bool)noring current request to sync.
- Syncing Self:%@ Chat:%@ Message:%@ Attachment:%@ Exit:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)!¬GùQÅ°1¢!0@ù
-× ;
-- (id)pleting:(id)arg1;
 - (id);
-- (void)tifierChangedNotification;
-- (id)ÂôþÈ ­a;
-- (void)b;
+- (void);
+- (void);
+- (void);
+- (id)gateWantsToDismissOnTouchDownForGestureRecognizer:(struct CGRect)arg1;
+- (void)onWindow;
+- (void)6^B24;
+- (void)ied;
+- (void)ÒÜ [;
+- (id)[;
+- (void)`;
 
 // Remaining properties
 @property(retain, nonatomic) _UIFocusFastScrollingIndexBarEntry *entry; // @synthesize entry=_entry;

@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_events;
 }
 
-- (struct __IOHIDEvent *)apRevertCurrentDevice;
+- (struct __IOHIDEvent *);
 - (void);
-- (void)!0@ù
-× ;
-- (id)cutionToParent;
-- (void);
+- (id);
+- (void)aleStrength;
+- (void)GAIy»¢.3yÝ¾7GGG_$Û.3Qo__«¾7Qo_;
 
 @end
 

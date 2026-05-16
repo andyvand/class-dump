@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)otifications to notify for urgent messages;
+- (void);
 - (void);
 - (id);
+- (id)ontextIdentifierPreferencesDomainKey;
+- (void)»Ò¬E\;
 - (id);
-- (void);
-- (id)íh¤ª3b;
-- (id)Å¾b;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexPath *indexPathForHighlightedItem; // @synthesize indexPathForHighlightedItem=_indexPathForHighlightedItem;

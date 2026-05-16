@@ -12,17 +12,16 @@
     long long _personalizationStyle;
 }
 
-+ (id)sher>";
-+ (id)blisher;
-+ (id)oPath;
-+ (id)sSubject;
-+ (id)asStatusChangeType;
-- (id);
-- (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
-- (long long)£ñÿ¨Æ
-;
+- (id);
+- (long long);
+- (void)Value: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *model; // @synthesize model=_model;

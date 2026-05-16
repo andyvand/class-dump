@@ -13,16 +13,14 @@
     MISSING_TYPE *resolvers;
 }
 
-+ (_Bool)erredLayoutAttributes:withOriginalAttributes: /* Error: Ran out of types for this method. */;
-- (struct _UICornerInsets)essage sync token to nil;
-- (id)ricWithOperationGroupName not submitting as analytic submission is not enabled;
-- (_Bool)orkRepresentation";
-- (void)1¢!0@ù
-× ;
-- (void)as°!ÀCùÇð1¢!0@ù
-× ;
-- (id)undEnablement;
++ (_Bool)ÿvþoþ;
+- (struct _UICornerInsets);
 - (id);
+- (id);
+- (id)@0:(id)arg1 8@"NSAdaptiveImageGlyph"16;
+- (_Bool)ToImageView:(id)arg1;
+- (void)lItems,V__mutableAdditionalItems;
+- (void)¨?l;
 
 @end
 

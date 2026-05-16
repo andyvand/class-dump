@@ -25,13 +25,13 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)XÿÿGSg;
+- (void);
+- (void)¹}èz	;
+- (void)(9üÿý,ÛÀ	;
 
 @end
 

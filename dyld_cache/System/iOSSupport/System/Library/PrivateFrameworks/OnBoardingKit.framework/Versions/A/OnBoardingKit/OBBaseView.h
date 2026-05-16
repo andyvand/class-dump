@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (struct CGSize);
-- (void)@;
+- (void);
 
 // Remaining properties
 @property struct CGSize parentSize; // @synthesize parentSize=_parentSize;

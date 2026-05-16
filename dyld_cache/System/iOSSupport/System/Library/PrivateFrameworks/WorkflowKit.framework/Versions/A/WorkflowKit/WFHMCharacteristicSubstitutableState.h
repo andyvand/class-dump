@@ -26,8 +26,8 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)reen.;
+- (void)ty.allowedOperators to operator representation not implemented: /* Error: Ran out of types for this method. */;
+- (id)ü÷Öÿ.áX¬;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;

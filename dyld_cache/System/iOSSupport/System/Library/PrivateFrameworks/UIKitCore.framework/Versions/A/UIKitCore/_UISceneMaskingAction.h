@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)@ participants:%@ mergeDisplayNames:%{BOOL}d /* Error: Ran out of types for this method. */;
-+ (id)nWithNoD2DEncryptionSupport;
++ (id);
++ (id);
 
 @end
 

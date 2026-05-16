@@ -7,15 +7,9 @@
 @class NSObject;
 
 @protocol NSSidebarTrackingAdapter
-- (double);
-- (long long);
 
 @optional
-- (void);
-- (void)PCProxyXPCProtocolP;
-- (double)0;
-- (_Bool)e;
-- (_Bool)Ýß;
+- (_Bool)on;
 
 // Remaining properties
 @property(readonly) long long depthOfView;

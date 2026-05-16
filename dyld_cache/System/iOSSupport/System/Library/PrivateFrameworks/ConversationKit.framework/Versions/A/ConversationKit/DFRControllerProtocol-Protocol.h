@@ -7,7 +7,6 @@
 @class CNContact, DFRSelectedItem;
 
 @protocol DFRControllerProtocol
-- (void)?<v@?B>28;
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *buzzableContactFromConversation;

@@ -13,18 +13,18 @@
 }
 
 + (id);
-+ (id)d;
++ (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)iriAnalyticsEnabled:explicitContentAllowed: /* Error: Ran out of types for this method. */;
-- (id)@"NSArray",R,C,V_productDataAlternates;
-- (id)fully added home %p/%@ with isPrimary:%@, current user:%@/%@ /* Error: Ran out of types for this method. */;
+- (void)¤|¦0§´§Ôª¸«´®;
+- (id)download from all video segments:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;

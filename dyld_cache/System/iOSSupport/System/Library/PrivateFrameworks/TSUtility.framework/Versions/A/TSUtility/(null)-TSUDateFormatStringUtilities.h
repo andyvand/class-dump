@@ -7,7 +7,6 @@
 @class NSString;
 
 @interface (null) (TSUDateFormatStringUtilities)
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -19,7 +18,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (id)x;
+- (id);
 - (id);
 - (_Bool);
-- (id)x;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,7 +40,7 @@
 - (id);
 - (id);
 - (id);
-- (id)R;
+- (id);
 - (unsigned short);
 - (unsigned short);
 - (id);
@@ -63,9 +63,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

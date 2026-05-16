@@ -5,6 +5,6 @@
 //
 
 @protocol TUCallProviderManagerDelegate
-- (void);
+- (void)`;
 @end
 

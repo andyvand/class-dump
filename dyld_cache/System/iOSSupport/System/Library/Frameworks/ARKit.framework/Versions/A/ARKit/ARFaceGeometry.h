@@ -22,9 +22,9 @@
 - (const short *);
 - (const MISSING_TYPE **);
 - (unsigned long long);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (id);
 - (const MISSING_TYPE **);
 

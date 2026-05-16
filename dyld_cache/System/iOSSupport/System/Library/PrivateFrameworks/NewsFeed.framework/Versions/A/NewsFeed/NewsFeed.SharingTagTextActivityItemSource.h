@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void)Response"32;
 - (id);
+- (void);
 
 @end
 

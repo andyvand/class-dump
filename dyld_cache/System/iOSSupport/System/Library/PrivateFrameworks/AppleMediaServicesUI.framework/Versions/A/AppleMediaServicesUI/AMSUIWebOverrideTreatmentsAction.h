@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *treatmentOverrides; // @synthesize treatmentOverrides=_treatmentOverrides;

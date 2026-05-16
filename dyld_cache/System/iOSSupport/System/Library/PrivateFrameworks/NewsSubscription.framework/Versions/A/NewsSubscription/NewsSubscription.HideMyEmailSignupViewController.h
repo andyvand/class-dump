@@ -14,10 +14,10 @@
     MISSING_TYPE *purchasePresenter;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 

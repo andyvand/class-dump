@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (double);
-- (double)9;
+- (double);
 - (double);
 - (double);
 - (double);

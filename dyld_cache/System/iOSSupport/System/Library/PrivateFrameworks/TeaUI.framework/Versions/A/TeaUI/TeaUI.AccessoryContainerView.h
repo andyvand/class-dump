@@ -16,10 +16,10 @@
     MISSING_TYPE *cellHeight;
 }
 
-- (void);
-- (_Bool);
-- (id)storedNodeIdentifier;
 - (id);
+- (void);
+- (id);
+- (_Bool);
 
 @end
 

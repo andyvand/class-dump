@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)rHandle:unformattedNumber:countryCode:forChat:style: /* Error: Ran out of types for this method. */;
-- (_Bool)oneTableWithRecordIDs:(id)arg1;
-- (struct CGPoint)tedData;
-- (double)ticipantversion:(unsigned long long)arg1 chatIdentifier: /* Error: Ran out of types for this method. */;
-- (double)ager:collaborationChanged:forConversation:collaborationState: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (id)edSettingsServiceManagerCSgXwz_Xx;
+- (_Bool);
+- (struct CGPoint);
+- (double);
+- (double);
+- (struct CGPoint);
+- (id);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -28,21 +28,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGPoint);
 - (struct CGPoint);
-- (double)led to cancel task request for %s with error:%@ /* Error: Ran out of types for this method. */;
-- (struct CGSize)sage:%@ because it is scheduled for the future. %s vs now %s /* Error: Ran out of types for this method. */;
-- (double)Name:[%@] /* Error: Ran out of types for this method. */;
-- (id)p pipeline for basic message fromID:(id)arg1 %@, ;
-- (double)ilterQueryResponse"8@"NSError"16;
-- (double)ityClassification+SMS;
+- (double);
+- (struct CGSize);
+- (double);
+- (id);
+- (double);
+- (double);
 - (void);
-- (unsigned long long);
 - (double);
 - (_Bool);
+- (unsigned long long);
+- (id);
 - (struct CGPoint);
-- (double)itWithTypeSelectString: /* Error: Ran out of types for this method. */;
-- (id)itCollection: /* Error: Ran out of types for this method. */;
+- (id)!ÜCù1eð1Â0@ù
+× ;
+- (double)CenterXConstraint;
 - (struct CGPoint)Á;
-- (id)ÿô;
 
 @end
 

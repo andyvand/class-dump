@@ -6,7 +6,7 @@
 
 @interface (null) (MediaAdditions)
 - (_Bool);
-- (_Bool)onType;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isQueryResultSetInvalidated;

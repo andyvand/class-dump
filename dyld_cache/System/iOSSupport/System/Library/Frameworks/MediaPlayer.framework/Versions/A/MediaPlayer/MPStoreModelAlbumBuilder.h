@@ -49,7 +49,7 @@
     } _requestedAlbumProperties;
 }
 
-+ (id)her: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

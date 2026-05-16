@@ -31,12 +31,14 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (struct CGSize);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)mPlacementCSg;
-- (void)%@;
-- (struct CGSize)±;
+- (id)1â
+0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXMapOptionsViewDelegate> delegate; // @synthesize delegate;

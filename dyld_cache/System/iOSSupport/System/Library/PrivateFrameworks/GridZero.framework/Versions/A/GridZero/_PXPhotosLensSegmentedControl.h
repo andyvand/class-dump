@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool lastTouchRemainedOnSelectedSegment; // @synthesize lastTouchRemainedOnSelectedSegment=_lastTouchRemainedOnSelectedSegment;

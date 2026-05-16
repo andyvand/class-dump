@@ -16,25 +16,22 @@
 }
 
 - (void);
-- (void)vice will validate subscription validation tokens;
-- (long long)to load personal nickname, feature is disabled;
-- (id)nd a guid in %@;
-- (id)found to report not junk for message guid:(long long)arg1 %@;
-- (id)eport text message allowed to Apple - %@
-.;
-- (id)nternalSecurity is true, allowing reporting;
-- (id)Message Reported - %@;
-- (void)0@ù
-× ;
-- (void)!ðFùÄÐ1¢!0@ù
-× ;
-- (id)ressionAssertion:updatePlacement:wantsAssistant: /* Error: Ran out of types for this method. */;
-- (void)enrolledBindables;
-- (id)leFont;
-- (id)X Ü«¬;
-- (id)ne][_downButton]|;
 - (void);
-- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)undHeightWhenLarge: /* Error: Ran out of types for this method. */;
+- (void)on;
+- (id):[imageView(<=44)] /* Error: Ran out of types for this method. */;
+- (void)ê[;
+- (void)¨Övl;
+- (id)TÀÿ&/Õªq;
+- (void)8CÙÿ<ì;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIBarSectionOwner> _owner;

@@ -11,15 +11,15 @@
     WFHomeWorkflow *_homeWorkflow;
 }
 
-+ (_Bool)The Y Coordinate to start the text at, as a decimal proportion of the image size between 0 and 1. 0 starts at the top of the image. (WFPercentageTextY);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)WFDictionaryValue;
 
 // Remaining properties
 @property(readonly, nonatomic) WFHomeWorkflow *homeWorkflow; // @synthesize homeWorkflow=_homeWorkflow;

@@ -21,23 +21,23 @@ __attribute__((visibility("hidden")))
     _Bool _wordTokenizerIsInvalid;
 }
 
-- (_Bool);
-- (void)unable to send http context;
-- (void)MigrationAvailableState:(int)arg1;
-- (void)MRUserIdentity",R,N;
 - (void);
-- (id)1¢!0@ù
-× ;
-- (void)øDù1Éð1¢!0@ù
-× ;
-- (void)archLayoutState;
-- (id)ostludeForDismissal;
-- (CDStruct_912cb5d2)nabled;
-- (id)¤ràr0u;
-- (void)irst responder cell:(_Bool)arg1 %@; index path:(long long)arg2 %@;
 - (_Bool);
-- (struct __CFStringTokenizer *)aved Scene Session userInfo dictionary;
-- (long long)earance proxy tagging.;
+- (id);
+- (void)!¤Gùq\Ð1Â0@ù
+× ;
+- (id)× ;
+- (void)ÔÐ!ÄCùÑ]1Â0@ù
+× ;
+- (id)ificationTypes:(id)arg1;
+- (struct __CFStringTokenizer *)eFragmentRect;
+- (CDStruct_912cb5d2)tifier;
+- (void)er;
+- (_Bool)mageConfiguration;
+- (void)`;
+- (long long)morph from a view that is not in the hierarchy.;
+- (void)o create a presenter after the scene has been dealloced :(int)arg1 manager=%@ identifier=%@;
+- (void)nBarButtonCSo17UITraitCollectionCIeggg_;
 
 @end
 

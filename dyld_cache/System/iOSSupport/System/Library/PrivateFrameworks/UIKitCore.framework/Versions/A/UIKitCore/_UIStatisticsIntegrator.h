@@ -13,19 +13,20 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_reportingQueue;
 }
 
-+ (void)argins;
-+ (void)à [;
-+ (id)»ÏT$q;
-- (void)˟;
-- (void);
-- (void)ementalContexts;
++ (void);
++ (void)g;
++ (id)÷j;
 - (void);
 - (void);
-- (void):(long long)arg1 atIndexPath:(id)arg2;
+- (void);
 - (id);
-- (void)ry;
-- (void)ion;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void)ÔAð!PBù1`1Â0@ù
+× ;
+- (void)ustedForPinning;
+- (void)?N;
 
 @end
 

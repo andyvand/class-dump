@@ -34,6 +34,7 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -54,13 +55,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

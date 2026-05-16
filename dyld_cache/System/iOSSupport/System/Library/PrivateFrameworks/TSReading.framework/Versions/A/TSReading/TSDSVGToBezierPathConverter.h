@@ -19,14 +19,14 @@
 }
 
 + (struct CGAffineTransform);
-+ (struct CGPath *)(;
++ (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
 - (id);
 - (void);
 - (void);
-- (void)ckground;
+- (void)e:reservedCount:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

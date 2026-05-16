@@ -13,11 +13,11 @@
     NSString *_parentGUID;
 }
 
-- (void)er:(id)arg1 context: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)a;
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)SERVICES_TURNED_OFF;
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObject *mediaObject; // @dynamic mediaObject;

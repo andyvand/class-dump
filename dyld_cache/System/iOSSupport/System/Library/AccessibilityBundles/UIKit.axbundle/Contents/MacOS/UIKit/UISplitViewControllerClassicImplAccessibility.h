@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ideKeyboard;
+- (void);
 
 @end
 

@@ -10,18 +10,18 @@
     float _width;
 }
 
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (float);
-- (void);
-- (void);
+- (float);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (float);
+- (void);
 - (id);
 
 // Remaining properties

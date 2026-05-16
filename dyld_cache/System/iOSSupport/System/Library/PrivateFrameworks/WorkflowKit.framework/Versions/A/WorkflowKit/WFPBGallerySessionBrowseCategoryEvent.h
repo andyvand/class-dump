@@ -17,21 +17,21 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void)ate]];
+- (_Bool)ÿ;
+- (void)ace command dictionary:(id)arg1 %{public}@;
+- (void)Action:] /* Error: Ran out of types for this method. */;
+- (id)ings.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *galleryCategoryIdentifier; // @synthesize galleryCategoryIdentifier=_galleryCategoryIdentifier;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)0;
-- (double)¸ÿ1Ô1®0;
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

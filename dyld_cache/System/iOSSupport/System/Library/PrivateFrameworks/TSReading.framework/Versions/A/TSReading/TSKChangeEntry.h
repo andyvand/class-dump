@@ -14,8 +14,8 @@
 
 - (id);
 - (void);
-- (id)ze;
-- (id)ÔÓÿ<ÉXÄ;
+- (id);
+- (id)úÿ8P\	W;
 
 // Remaining properties
 @property(readonly, nonatomic) id changeSource; // @synthesize changeSource=mChangeSource;

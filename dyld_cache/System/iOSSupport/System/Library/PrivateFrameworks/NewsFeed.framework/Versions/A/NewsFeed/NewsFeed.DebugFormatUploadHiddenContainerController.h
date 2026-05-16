@@ -12,11 +12,11 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)wûÿ<aüÿ¦¿ùÿ;
+- (void)ÜD;
+- (void)(@;
 
 @end
 

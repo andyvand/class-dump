@@ -22,10 +22,12 @@
 }
 
 + (id);
-+ (id)N3à9;
++ (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,16 +37,15 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)1b0@ù
+- (id)qGÐ1â
+0@ù
 × ;
 - (id);
-- (id)verrideAvailabilityPollingInterval: /* Error: Ran out of types for this method. */;
-- (id)fier %@;
+- (id)|;
+- (id)Class _ClassForCursorEffect(PXUIButtonCursorEffect);
+- (void)CustomizationAction;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allEmails; // @synthesize allEmails=_allEmails;

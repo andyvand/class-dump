@@ -18,9 +18,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id)bution;
-- (void);
+- (_Bool);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setOverlappingControlsColor:) UIColor *_overlappingControlsColor; // @synthesize _overlappingControlsColor;

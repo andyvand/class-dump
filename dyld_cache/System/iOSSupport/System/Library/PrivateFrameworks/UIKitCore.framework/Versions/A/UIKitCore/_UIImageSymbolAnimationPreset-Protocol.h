@@ -5,8 +5,8 @@
 //
 
 @protocol _UIImageSymbolAnimationPreset
-- (_Bool);
-- (_Bool)ngCacheIfApplicable: /* Error: Ran out of types for this method. */;
+- (void (^)(id <_UIImageSymbolAnimationPreset>))ewsCreateIfNecessary;
+- (void)w:(void (^)(id <_UIImageSymbolAnimationPreset>))arg1 %@;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isValidAnimationPreset) _Bool _validAnimationPreset;

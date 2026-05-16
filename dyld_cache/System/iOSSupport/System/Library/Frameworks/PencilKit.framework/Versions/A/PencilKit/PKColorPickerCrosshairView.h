@@ -19,20 +19,20 @@
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)ä;
-- (unsigned long long)(£;
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _PKColorPickerCrosshairCornerMaskView *baseMaskView; // @synthesize baseMaskView=_baseMaskView;

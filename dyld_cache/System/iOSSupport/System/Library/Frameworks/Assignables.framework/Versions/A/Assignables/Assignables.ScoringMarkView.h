@@ -37,18 +37,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

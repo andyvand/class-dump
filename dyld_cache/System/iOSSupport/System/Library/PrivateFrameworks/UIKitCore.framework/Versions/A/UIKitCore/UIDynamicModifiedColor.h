@@ -15,24 +15,24 @@ __attribute__((visibility("hidden")))
     long long _prominence;
 }
 
-+ (_Bool)ûn;
-- (void);
++ (_Bool)tempt to set height for header in section %ld when there are only %ld sections in the table;
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)
+- (id)1Â0@ù
 × ;
-- (id)ionControllerImmediate:(long long)arg1 effective:includesRoot:prefersRoot: /* Error: Ran out of types for this method. */;
-- (id)currentItemState;
-- (id)ionButton;
-- (id)rchControllerPresenting;
-- (_Bool)yWindow;
-- (id)4`Íiþ;
-- (id)ÿÜ¢Ò2Ùc;
-- (id)x;
-- (long long)¬aeÿ%«Ûßòm;
+- (id)UIClickPresentation"24Q32;
+- (_Bool)e:(id)arg1;
+- (void)sibilityChanged:(id)arg1;
+- (id)leWindowForDifferentiation;
+- (id);
+- (_Bool)umbnail;
+- (void)t TMh;
+- (id)ÿq;
+- (id)¤Öyÿ;
+- (id)¨Fn;
+- (long long),vÿ';
 
 @end
 

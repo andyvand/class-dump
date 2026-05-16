@@ -16,20 +16,20 @@ __attribute__((visibility("hidden")))
     _UIOldCGImageDecompressor *_decompressor;
 }
 
-- (id)ttachAPN;
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (long long)1¢!0@ù
+- (_Bool);
+- (unsigned long long);
+- (void)Dù1gð1Â0@ù
 × ;
-- (_Bool)ailingToiconViewCenterX: /* Error: Ran out of types for this method. */;
-- (id)on;
-- (_Bool)ÿ½{þÿ;
-- (struct CGImage *)sView;
-- (id)Ùÿ4;
+- (_Bool);
+- (long long)audio;
+- (id)pplicationInitializationContextWithParameters:(id)arg1;
+- (id)p.ø.40;
+- (void);
+- (_Bool)leOverrideRecording;
+- (struct CGImage *)TimeLimit;
+- (void)¤7[;
+- (id)~ÚÌÏ`;
 
 // Remaining properties
 @property(retain, setter=_setDecompressor:) _UIOldCGImageDecompressor *_decompressor; // @synthesize _decompressor;

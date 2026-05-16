@@ -16,8 +16,8 @@
     MISSING_TYPE *minimumFetchThrottleSeconds;
 }
 
-- (void);
 - (id);
+- (void)from the given actions:< %@ > /* Error: Ran out of types for this method. */;
 
 @end
 

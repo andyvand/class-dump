@@ -28,10 +28,10 @@
 - (int);
 - (id);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (void);
-- (id)DefaultWithOrientation:(id)arg1;
+- (id);
 
 // Remaining properties
 @property(retain) NSDictionary *directionSubstringAttributes; // @synthesize directionSubstringAttributes=_directionSubstringAttributes;

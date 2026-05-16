@@ -33,12 +33,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NSArray",&,N,V_fromArray;
+- (void)StayArm;
 
 // Remaining properties
 @property(readonly, nonatomic) HMActionSet *actionSet; // @synthesize actionSet=_actionSet;

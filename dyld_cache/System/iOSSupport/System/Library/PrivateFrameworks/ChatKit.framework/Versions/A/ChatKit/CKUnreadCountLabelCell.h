@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     UIView *_rightSeparator;
 }
 
-- (void)AudioTracks:(id)arg1 audioSettings: /* Error: Ran out of types for this method. */;
-- (void)containsNonWhitespaceCharacters;
-- (id)webView:requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
-- (id)|;
 - (void);
 - (void);
-- (id)e>",W,N;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)ndexPathDictionaryV2Key;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *leftSeparator; // @synthesize leftSeparator=_leftSeparator;

@@ -39,10 +39,10 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
-- (void),;
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowCreate; // @synthesize allowCreate=_allowCreate;

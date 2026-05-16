@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HFTemperatureIconDescriptor *iconDescriptor; // @dynamic iconDescriptor;

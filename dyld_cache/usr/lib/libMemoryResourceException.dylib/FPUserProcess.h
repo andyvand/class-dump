@@ -26,7 +26,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,13 +40,13 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool doOwnedAccountingAdjustments;

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunctionDescriptor, NSArray, NSString;
-@protocol MTLDevice, MTLFunction;
+@class NSArray, NSString;
+@protocol MTLDevice;
 
 @protocol MTLLibrary
-- (id <MTLFunction>)terval:(MTLFunctionDescriptor *)arg1 %f;
-- (NSString *)lastDoorSyndicationAction;
-- (id <MTLFunction>)alt;
-- (void)`;
-- (NSArray *)4@0:8@16d24C32@36C44@48@56@64@72@80@88@96@104@112@120@128@136 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

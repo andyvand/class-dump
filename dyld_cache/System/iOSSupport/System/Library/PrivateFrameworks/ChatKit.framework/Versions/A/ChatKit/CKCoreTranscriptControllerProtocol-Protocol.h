@@ -4,78 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatItem, CKConversation, CKFullScreenEffectManager, CKImpactEffectManager, CKMessagePartChatItem, CKTranscriptCollectionView, CKTranscriptLayoutMessageEditingContext, IMChat, NSArray, NSIndexSet, NSMutableArray, NSObject, NSString, UIColor, UIInputContextHistory, UITapGestureRecognizer, UIView;
+@class CKConversation, CKFullScreenEffectManager, CKImpactEffectManager, CKTranscriptCollectionView, CKTranscriptLayoutMessageEditingContext, IMChat, NSArray, NSIndexSet, NSMutableArray, NSObject, NSString, UIColor, UIInputContextHistory, UITapGestureRecognizer, UIView;
 @protocol CKGradientReferenceView, CKTranscriptCollectionViewControllerDelegate, OS_dispatch_group, UIDragInteractionDelegate, UIGestureRecognizerDelegate;
 
 @protocol CKCoreTranscriptControllerProtocol
-- (void)êBÖ;
-- (NSObject<OS_dispatch_group> *)ßÕ;
-- (id <UIGestureRecognizerDelegate>)Ð¶®í;
-- (void)Ô;
-- (_Bool)nô;
-- (void)yForAccount:(_Bool)arg1;
-- (void)ype:(_Bool)arg1;
-- (void)t:(double)arg1 mergeChanges: /* Error: Ran out of types for this method. */;
-- (void)chingRange;
-- (void)reDisplayingTitleWithAccessingObject:(id <UIGestureRecognizerDelegate>)arg1;
-- (void)otes;
-- (void)noteWillMergeDocumentWithUserInfo:(double)arg1;
-- (void)eateIfNeeded:(NSString *)arg1;
-- (void)I;
-- (void)eadOnly;
-- (void)inAvailable;
-- (void)tWithCGColor:(CKImpactEffectManager *)arg1;
-- (void)s:(NSIndexSet *)arg1;
-- (void)L:(NSIndexSet *)arg1 MIMEType: /* Error: Ran out of types for this method. */;
-- (void)ionError:(NSIndexSet *)arg1;
-- (void)tionEnabled;
-- (void)rMacImageGallery:(CKFullScreenEffectManager *)arg1 allowCached: /* Error: Ran out of types for this method. */;
-- (void)extWithContentSizeCategory:(id <UIDragInteractionDelegate>)arg1;
-- (void)ntsInContext:(long long)arg1 usingBlock: /* Error: Ran out of types for this method. */;
-- (void)t;
-- (NSArray *)aint;
-- (void)cale;
-- (void)uthenticateBiometricsWithPrompt:(_Bool)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)angeProgress:(long long)arg1;
-- (void)tionIfNeeded;
-- (NSString *)foreAttachmentIsSet;
-- (double)iaData;
-- (CKTranscriptLayoutMessageEditingContext *)"NSString",C,N;
-- (struct UIEdgeInsets)tributedString",C,N,V_string;
-- (UITapGestureRecognizer *),&,N,V_identifier;
-- (CKMessagePartChatItem *)ICBaseTextAttachment;
-- (_Bool);
-- (id);
-- (id)w;
-- (void)angePublisher;
-- (void)shold;
-- (void)arted;
-- (void)s;
-- (void)tyleCG15paragraphStylestGz_Xx;
-- (void)xG;
-- (void)ctionCSgt;
-- (CKChatItem *)a;
-- (void)e;
-- (void);
-- (NSArray *)n;
-- (_Bool)r;
-- (struct UIEdgeInsets)n password in System Settings to use it to lock notes.;
-- (void)lDestination];
-- (NSString *)ted:optionalAttributedHighlightedString:textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder:] /* Error: Ran out of types for this method. */;
-- (void)query;
-- (void)AGE_%lu;
-- (void)le who currently have access to it may lose it.;
-- (double)d;
-- (_Bool)efPane;
-- (CKConversation *);
-- (CKTranscriptCollectionView *),R,N,V_shouldInvalidateOnAddressBookChange;
-- (id <CKTranscriptCollectionViewControllerDelegate>)LÆÈ`ÈÉ¨É@Ì;
-- (void)Èýÿ;
-- (UIInputContextHistory *)´D;
-
-@optional
-- (void);
-- (UIView *)ightX;
+- (UIView<CKGradientReferenceView> *)°1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)anager _clearDraftForConversation:(UIInputContextHistory *)arg1 ];
+- (UIInputContextHistory *)L;
+- (void).;
 
 // Remaining properties
 @property(retain, nonatomic, setter=__setCurrentTestName:) NSString *__CurrentTestName;

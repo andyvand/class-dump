@@ -5,6 +5,5 @@
 //
 
 @protocol _NSCustomTextRenderingDisplayLinkToken
-- (void);
 @end
 

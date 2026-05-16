@@ -16,20 +16,21 @@
     UIColor *_foregroundColor;
 }
 
-- (_Bool)scriptNavigationBarController: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (void)@;
-- (void);
-- (id);
-- (void);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)_sizeClass;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (void)40ä;
+- (id)H;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *actionURL;

@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
-- (long long);
-- (long long)Ð0Ðp¼ä4;
-- (double)to fetch app config in shortcuts service, falling back to cached config, error=%{public}@;
-- (id);
 - (long long);
+- (void)erviceConfigPrefetchOperation;
+- (id)'ay ÿ'aøÉ¨þ'aèóÀþ;
+- (long long)ùvbpg·þ!wb°[ùþ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

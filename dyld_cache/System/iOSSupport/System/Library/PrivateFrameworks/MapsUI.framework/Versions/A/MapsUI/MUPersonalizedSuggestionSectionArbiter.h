@@ -23,7 +23,7 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)erSectionController;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

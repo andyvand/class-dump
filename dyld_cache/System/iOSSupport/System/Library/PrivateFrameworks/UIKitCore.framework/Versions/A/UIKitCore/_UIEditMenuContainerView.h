@@ -33,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)`;
-- (id)wÐ!`Bù±Ì1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (void)ceneActivationInteraction";
-- (void)agControllerDelegate>",R,W,N,V_delegate;
+- (void)tate;
+- (void)ButtonVisualProvider;
+- (void)9x´;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

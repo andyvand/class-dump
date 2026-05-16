@@ -22,10 +22,10 @@
     MISSING_TYPE *isInRoster;
 }
 
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)yyt¹}¢G;
 
 @end
 

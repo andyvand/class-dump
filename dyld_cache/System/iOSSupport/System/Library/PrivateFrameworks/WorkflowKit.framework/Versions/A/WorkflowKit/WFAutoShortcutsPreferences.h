@@ -20,7 +20,7 @@
 + (id);
 + (int);
 + (id);
-+ (_Bool)Edit Reminder (Action Name);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -38,9 +38,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)${WFInput} (Parameter Summary);
+- (void)ils of Locations (Action Name);
 
 // Remaining properties
 @property(retain, nonatomic) INAppDescriptor *appDescriptor; // @synthesize appDescriptor=_appDescriptor;

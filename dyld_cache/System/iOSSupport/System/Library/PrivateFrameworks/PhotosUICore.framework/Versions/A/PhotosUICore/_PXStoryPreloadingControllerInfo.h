@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void)0Ç;
-- (long long);
 - (void);
+- (void)erTitle;
+- (long long)ÆÊÀ4ÿÆÊÀ4ÿÆÊ ?%ÿÆÊ$À4ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXObservable<PXStoryResourcesPreloadingCoordinatable> *preloadingController; // @synthesize preloadingController=_preloadingController;

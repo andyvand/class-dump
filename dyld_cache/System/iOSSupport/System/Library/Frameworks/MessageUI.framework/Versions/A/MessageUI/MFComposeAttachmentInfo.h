@@ -17,10 +17,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *className; // @synthesize className=_className;

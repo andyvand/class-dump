@@ -15,20 +15,20 @@
     unsigned long long _options;
 }
 
-+ (id)ent:(unsigned long long)arg1 error:(id)arg2;
-+ (id)tionId:fromHandle:toHandles:suggestedNickname:suggestedPhotoPath:content:accountIdentifier:accountHandles:accountType:attachment:URL: /* Error: Ran out of types for this method. */;
-+ (_Bool)t:completionHandler:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)!;
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (unsigned long long)omFilter;
 - (void);
-- (unsigned long long);
-- (id);
+- (void)adioStream;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

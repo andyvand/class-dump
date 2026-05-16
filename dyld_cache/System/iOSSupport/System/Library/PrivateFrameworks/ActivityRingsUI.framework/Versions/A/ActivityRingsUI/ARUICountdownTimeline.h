@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *animations; // @synthesize animations=_animations;

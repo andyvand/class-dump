@@ -16,20 +16,21 @@
     struct CGRect availableEmptyBarRegionRect;
 }
 
-- (_Bool)i;
-- (void)gration prompt because account has a locked notes mode;
-- (void)t, then try again.;
-- (void)ut Locked Notes;
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (struct CGRect)P;
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void))!;
-- (id)QÃ1¢!0@ù
+- (id)ü°!(Gùq1Â0@ù
 × ;
+- (void)Â0@ù
+× ;
+- (void)HostDebug;
 
 // Remaining properties
 @property(nonatomic) struct CGRect availableEmptyBarRegionRect; // @synthesize availableEmptyBarRegionRect;

@@ -16,11 +16,11 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)HFMediaAccessoryItemUpdateResponse"8;
+- (void)Router received request to open sensitive URL:(id)arg1 %@.;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *numberOfSections; // @synthesize numberOfSections=_numberOfSections;

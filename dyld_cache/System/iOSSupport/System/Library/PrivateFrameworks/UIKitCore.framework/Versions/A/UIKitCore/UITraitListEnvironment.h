@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)OMPATIBILITY_EDITED;
-+ (_Bool)@;
-+ (_Bool)#;
-+ (id)teForSemanticContext;
-+ (id)dlerC;
-+ (long long)äÓÿ;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)the main thread;
++ (long long)vg;
 
 @end
 

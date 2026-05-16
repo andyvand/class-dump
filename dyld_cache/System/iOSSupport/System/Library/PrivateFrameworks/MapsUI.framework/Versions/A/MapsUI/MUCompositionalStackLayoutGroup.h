@@ -12,49 +12,51 @@
     MUCompositionalStackLayoutGroupInternal *_internal;
 }
 
+- (float);
+- (id);
 - (void);
+- (void);
+- (float);
+- (long long);
 - (id);
 - (_Bool);
-- (void);
+- (long long);
 - (struct UIOffset);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (float);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (void);
+- (struct NSDirectionalEdgeInsets);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (float);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (long long);
+- (id);
 - (_Bool);
+- (void);
+- (id);
 - (long long);
-- (void)_browseCategoryVC;
-- (void)legate>",W,N,V_placeViewControllerDelegate;
-- (long long)S;
+- (void);
+- (double);
 - (void);
 - (void);
-- (long long)¼K	;
-- (double)HÿÿØ;­×	;
+- (void);
+- (_Bool);
+- (void);
+- (void)ContentStackView:items: /* Error: Ran out of types for this method. */;
+- (void)üfïÿ
+
+Lgïÿ;
 
 // Remaining properties
 @property(nonatomic) long long alignment;

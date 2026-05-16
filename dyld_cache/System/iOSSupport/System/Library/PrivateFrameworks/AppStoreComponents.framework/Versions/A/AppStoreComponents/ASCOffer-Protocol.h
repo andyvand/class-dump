@@ -7,7 +7,6 @@
 @class ASCAdamID, NSArray, NSDictionary, NSNumber;
 
 @protocol ASCOffer
-- (NSArray *)dWithColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *ageRating;

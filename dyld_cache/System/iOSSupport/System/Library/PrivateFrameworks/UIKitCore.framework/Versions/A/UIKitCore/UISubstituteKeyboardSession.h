@@ -17,25 +17,23 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *responder;
 }
 
-+ (id);
-+ (id)aN for an intrinsicContentSizeDimension. Using UIViewNoIntrinsicMetric instead.;
++ (id){ %@ }%@;
++ (id)a`;
 - (void);
-- (id)roomName:(id)arg1 unformattedID:(id)arg2 countryCode:(id)arg3 type: /* Error: Ran out of types for this method. */;
-- (_Bool)neID;
-- (void)ID;
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)¢!0@ù
-× ;
-- (void)rightIndexFingerInfo;
-- (id)ttributes;
-- (void)contentOffset = %@;
-- (void)ler;
+- (id);
+- (void): /* Error: Ran out of types for this method. */;
+- (void)ver;
+- (void)ents:(id)arg1;
+- (id)];
+- (void)Ø~Úÿ(È´úb;
+- (void)¤nþ+Øë;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isPresented;

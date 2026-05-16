@@ -8,9 +8,10 @@
 @protocol SGSuggestion, SGSuggestionDelegate;
 
 @protocol SGBannerProtocol
+- (NSString *)× ;
 
 @optional
-- (id <SGSuggestion>)y®Sn!WnGGSg_oInyAAyAIyAAyTny:WnyAAyaAnGSg_;} /* Error: Ran out of types for this method. */;
+- (void)oller"16;
 
 // Remaining properties
 @property(nonatomic) long long accessoryType;

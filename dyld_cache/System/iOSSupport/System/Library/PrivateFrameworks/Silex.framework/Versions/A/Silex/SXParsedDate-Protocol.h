@@ -7,6 +7,8 @@
 @class NSDate, NSTimeZone;
 
 @protocol SXParsedDate
+- (NSTimeZone *)ditionKeys:%@; 
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containedTime;

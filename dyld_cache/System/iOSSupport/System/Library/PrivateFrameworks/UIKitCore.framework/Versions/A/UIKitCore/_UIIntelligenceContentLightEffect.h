@@ -16,21 +16,21 @@
     unsigned long long deactivationTransitionDirection;
 }
 
-- (void)**** T3 Update item [%@] could not find a chat as a source of truth, marking it as clean and moving on.;
-- (void)nto SMS Relay from:(unsigned long long)arg1 %@ to:%@ /* Error: Ran out of types for this method. */;
-- (id)n Codes | Presenting Delete Verification Codes notification with title:(id)arg1 "%@" message:(id)arg2 "%@";
-- (id)delete-verfication-codes;
-- (id)to make notification to onboard delete-verfication-codes;
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool)6;
+- (void);
+- (void);
 - (id);
-- (void)0@ù
-× ;
-- (void)t;
-- (id)TopBackgroundImage;
-- (_Bool)T¬;
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (long long);
+- (id);
+- (id);
+- (_Bool)dAutomaticallyLocalizeKeyCommands:(id)arg1;
+- (void)d in navigation bar without knowledge of navigation item currently displaying the search controller.
+	SearchController=%@;
+- (_Bool)ÿ¼Ñþÿ,ÆþÿlÑþÿLÆþÿ;
+- (void)¤íþÃÍèrl;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationTransitionDirection; // @synthesize activationTransitionDirection;

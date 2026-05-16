@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *keysToReconcile; // @synthesize keysToReconcile=_keysToReconcile;

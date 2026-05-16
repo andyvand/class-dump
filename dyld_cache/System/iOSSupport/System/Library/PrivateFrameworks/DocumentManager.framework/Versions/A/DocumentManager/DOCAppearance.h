@@ -24,7 +24,7 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (void)@;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,14 +39,14 @@
 - (double);
 - (_Bool);
 - (void);
-- (double)vice ID %u (status = %d).;
+- (double);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool)hasMovedPastTap:(id)arg1 %@, movedDistance:%0.2f /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) UIColor *backgroundColor;

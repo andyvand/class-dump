@@ -19,20 +19,19 @@
     UIKBRenderTraits *_traits;
 }
 
-+ (id);
++ (id)að1Â0@ù
+× ;
+- (id);
+- (void);
 - (void);
 - (int);
-- (void)`;
-- (void)
-× ;
-- (void)Ð!EùÑÎÐ1¢!0@ù
-× ;
-- (_Bool)@0:(struct CGPoint)arg1 8q16{CGPoint=dd}24q40;
-- (id)kipsConfiguringColumnNavigationController:,V_skipsConfiguringColumnNavigationController /* Error: Ran out of types for this method. */;
-- (void)rentItem:(int)arg1;
-- (_Bool)\%à;
-- (_Bool)8ëì;
-- (id)j"ÿ;
+- (_Bool);
+- (void)int",&,N,V_minHeightConstraint;
+- (id)ø;
+- (void)³ð´;
+- (_Bool)þÿ;
+- (_Bool)is.;
+- (void)^A]_g;
 
 // Remaining properties
 @property(nonatomic) int keyStates; // @synthesize keyStates=_states;

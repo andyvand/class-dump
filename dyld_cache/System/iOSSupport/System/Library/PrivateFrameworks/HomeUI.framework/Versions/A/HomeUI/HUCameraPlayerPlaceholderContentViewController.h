@@ -32,9 +32,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)reCharacteristicControl;
 
 // Remaining properties
 @property(nonatomic) _Bool cameraPlayerHasContentToShow; // @synthesize cameraPlayerHasContentToShow=_cameraPlayerHasContentToShow;

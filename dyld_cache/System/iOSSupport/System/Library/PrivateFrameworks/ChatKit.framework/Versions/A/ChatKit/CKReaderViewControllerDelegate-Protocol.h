@@ -5,8 +5,5 @@
 //
 
 @protocol CKReaderViewControllerDelegate
-
-@optional
-- (void)nFolder;
 @end
 

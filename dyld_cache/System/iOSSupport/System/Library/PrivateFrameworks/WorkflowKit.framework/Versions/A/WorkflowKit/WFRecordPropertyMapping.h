@@ -31,11 +31,11 @@
 - (void);
 - (id);
 - (id);
+- (SEL);
+- (SEL);
 - (unsigned long long);
 - (_Bool);
-- (SEL);
-- (void);
-- (SEL);
+- (void)w;
 
 // Remaining properties
 @property(nonatomic) __weak id destinationObject; // @synthesize destinationObject=_destinationObject;

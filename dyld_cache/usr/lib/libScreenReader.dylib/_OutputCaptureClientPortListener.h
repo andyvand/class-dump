@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)$;
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<ScreenReaderCaptureReceiver> *receiver; // @synthesize receiver=_receiver;

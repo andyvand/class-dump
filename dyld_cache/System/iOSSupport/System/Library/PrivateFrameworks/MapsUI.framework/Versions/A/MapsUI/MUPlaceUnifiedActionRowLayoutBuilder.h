@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)yout;
 
 // Remaining properties
 @property(retain, nonatomic) MUPlaceUnifiedActionRowSectionControllerConfiguration *configuration; // @synthesize configuration=_configuration;

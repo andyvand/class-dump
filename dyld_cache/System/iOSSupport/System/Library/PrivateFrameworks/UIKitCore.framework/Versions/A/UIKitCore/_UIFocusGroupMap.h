@@ -24,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)@*;
+- (void);
 - (id);
 - (id);
-- (id)pe;
-- (void);
-- (id)nteractionSource;
+- (id);
+- (id)UpdatingSize;
+- (void)T;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;

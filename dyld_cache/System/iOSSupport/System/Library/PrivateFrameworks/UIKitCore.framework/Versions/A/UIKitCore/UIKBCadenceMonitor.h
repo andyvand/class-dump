@@ -19,33 +19,31 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *_touchLogTimer;
 }
 
-- (void)dentifier:(double)arg1 fromIdentifier:fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
-- (void)tionUsingToken:(double)arg1 zoneID:resultsLimit:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (float)sageZoneChangesCKOperationUsingToken:zoneID:resultsLimit:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (id)ndForMessageID:account: /* Error: Ran out of types for this method. */;
-- (void)k:(float)arg1 createItemCallback:fromMessageItem: /* Error: Ran out of types for this method. */;
-- (void)mpatibleExpressiveSendText;
-- (void)eType:(int)arg1 message: /* Error: Ran out of types for this method. */;
-- (void)n:(double)arg1;
 - (void);
-- (void)ettingsManager;
-- (id)%<;
-- (id)<;
+- (void);
+- (float);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (double);
 - (void);
 - (_Bool);
 - (double);
-- (void)ine (%@);
 - (void);
-- (void)ñÁÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)ViewFirstResponder:(float)arg1;
-- (float)kPlayerWithCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id)N,V_layoutStyle;
-- (int)ø#;
+- (void);
+- (int);
+- (void);
 - (float);
+- (id);
+- (float)ionController.contentSwipe;
+- (void)ary;
+- (void)à=g;
 
 // Remaining properties
 @property(nonatomic) float cadence; // @synthesize cadence=_cadence;

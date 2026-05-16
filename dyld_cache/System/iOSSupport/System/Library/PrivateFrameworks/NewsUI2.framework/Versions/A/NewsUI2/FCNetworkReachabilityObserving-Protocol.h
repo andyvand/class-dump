@@ -5,8 +5,5 @@
 //
 
 @protocol FCNetworkReachabilityObserving
-
-@optional
-- (void)@;
 @end
 

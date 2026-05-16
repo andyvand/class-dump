@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets): /* Error: Ran out of types for this method. */;
-- (double)uota: /* Error: Ran out of types for this method. */;
-- (double)_;
+- (struct UIEdgeInsets);
+- (double);
+- (double);
 - (id);
 - (double);
-- (double)ch %ld.;
+- (double);
 - (double);
 
 @end

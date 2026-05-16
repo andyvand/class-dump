@@ -37,10 +37,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
 - (unsigned long long);
 - (void);
+- (struct CGSize);
+- (void)tion;
 
 // Remaining properties
 @property(retain, nonatomic) HUQuickControlColorViewController *colorViewController; // @synthesize colorViewController=_colorViewController;

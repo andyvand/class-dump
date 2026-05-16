@@ -17,16 +17,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void):(int)arg1;
-- (void)NoDupe:(id)arg1;
-- (_Bool)_syndicationAction;
-- (id)o;
-- (id);
+- (void);
+- (void);
 - (_Bool);
-- (CDStruct_aa1ce654 *)teIsLeaderOfEndpoint: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id)ckToDisplayScaleFactor;
+- (id);
+- (id);
+- (CDStruct_aa1ce654 *);
+- (_Bool)opCount;
+- (id)_updateTextFormattingController;
+- (void)cÛÓb;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *doubleHeightStatus; // @synthesize doubleHeightStatus=_doubleHeightStatus;

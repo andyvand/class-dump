@@ -14,16 +14,15 @@
     struct CGSize _keyboardSizeBasis;
 }
 
-- (void)mTimeStamp:(struct CGSize)arg1;
-- (void)kFactory;
-- (void)PushHandling;
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (struct CGSize)T;
-- (id)%@;
-- (_Bool)s to defer syncing;
-- (void)0@ù
-× ;
+- (struct CGSize);
+- (id);
+- (_Bool);
+- (void)ýêÿ©»;
 
 // Remaining properties
 @property(nonatomic) _Bool addsSupplementaryControlKeys; // @synthesize addsSupplementaryControlKeys=_addsSupplementaryControlKeys;

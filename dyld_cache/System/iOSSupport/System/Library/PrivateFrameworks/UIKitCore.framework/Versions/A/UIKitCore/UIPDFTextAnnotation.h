@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (int)_֨C;
-- (void)upplementaryOffset:(struct CGContext *)arg1;
+- (int);
+- (void);
 
 @end
 

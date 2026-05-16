@@ -27,22 +27,22 @@
 - (void);
 - (double);
 - (void);
-- (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id)";
 - (id);
-- (void);
 - (double);
-- (struct CGImage *);
 - (struct CGColorSpace *);
+- (id);
+- (id);
+- (struct CGImage *);
 - (void);
 - (void);
-- (void)opRect;
-- (void)actersInSet:(_Bool)arg1;
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;

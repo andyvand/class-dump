@@ -18,17 +18,17 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ng"24B32@?<v@?@"ASCLockupRequest"@"NSError">36;
+- (void)ÔyæyACy²áÍßySiSgGGGÕGG_Qo_ADyrèy¢_ACyACyAE®ÒGAQGSgtGGG;
 
 @end
 

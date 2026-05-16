@@ -18,13 +18,14 @@
 }
 
 - (id);
-- (long long);
 - (id);
-- (void);
 - (id);
+- (long long);
 - (void);
 - (long long);
-- (id)therServiceTypeP;
+- (id)!@Eùñþ°1Â0@ù
+× ;
+- (void);
 
 @end
 

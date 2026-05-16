@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned char);
-- (id)Tw;
+- (id);
 - (id);
 
 // Remaining properties

@@ -16,67 +16,71 @@ __attribute__((visibility("hidden")))
     UICollectionView *_collectionView;
 }
 
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (void)XT;
-- (void)ithScreenSize:(id)arg1 layer:(id)arg2;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (_Bool);
-- (id);
-- (id)ItemIdentifier;
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void)º;
-- (void)Â1¢!0@ù
+- (id);
+- (id);
+- (void)Ô ;
+- (id);
+- (void)0@ù
 × ;
-- (id)Ô ;
-- (void)OutlineNode}}}16q40@48;
-- (void)gueTemplate";
-- (id)riptorWithKey:(id)arg1 ascending: /* Error: Ran out of types for this method. */;
-- (void):(CDUnknownBlockType)arg1;
-- (id)nWithDuration:(id)arg1;
-- (id)led;
-- (id)actuallySetLifted:animated:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)rBoundsChange:(CDUnknownBlockType)arg1 fromOldBounds: /* Error: Ran out of types for this method. */;
-- (_Bool)dOnDismiss;
-- (id),V_touchError;
-- (id)V_modelessUsedAtLeastOnceCount;
-- (id)TQ,N,S_setFocusHeading:,V_focusHeading /* Error: Ran out of types for this method. */;
-- (id)RootPath;
-- (void)º¼´¼Ä½0ÁhÂ;
-- (void)p;
-- (void)l URL:(CDUnknownBlockType)arg1 %@;
-- (void)inator item kind.;
-- (void)$ïÿÿ8èÿ¸ÅQþ½þÿ;
-- (id)ÀÿÿÂÿÿÄÿÿ,þÿ;
-- (_Bool)ÿ;
-- (void)uListViewCell.m;
-- (id)ne not running or activating;
-- (void)ilEvent registerInteraction:(_Bool)arg1 ];
-- (void)aultEdges(CGPoint, CGRect, NSDirectionalRectEdge);
-- (void)onBounceAnimationSpec",N,&,VfadeOut;
-- (_Bool)[;
-- (id)ÿ;
+- (void)a°1Â0@ù
+× ;
+- (void)Ô	ð!ÈGù1e°1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (void)tationBlock;
+- (_Bool)shouldPerformMovementForCurrentProposal;
+- (void)ControllerWithRestorationIdentifierPath:(id)arg1 coder:(CDUnknownBlockType)arg2;
+- (_Bool)ackgroundTransitionProgressForScrollView:(id)arg1 tabBar:isNavigationTransitionUpdate: /* Error: Ran out of types for this method. */;
+- (void)ctionAlphaUpdate;
+- (void):(id)arg1 offset: /* Error: Ran out of types for this method. */;
+- (id)fv1: /* Error: Ran out of types for this method. */;
+- (id)eractionByItem;
+- (id)mutableTraitCollectionProvider:(id)arg1;
+- (id)onRefCount;
+- (id)fo;
+- (void)°ÈÑPñjÈÈÑTýjÜÈÑ´kðÈÑðk¨ÉÑèÉkìÉÑ lÌÊÑèKlìÊÑ m@ËÑàmËÑl¤môËÑ;
+- (_Bool)eType:(id)arg1 %lu;
+- (id)há©þt~þÿ;
+- (void)able;
+- (id)pple.UIKit.accountBasedValidation;
+- (id)keyboard suggestion options:%ld
+ /* Error: Ran out of types for this method. */;
+- (id)shot:(id)arg1 %@;
+- (void)thSnapshot:(id)arg1 ].;
+- (void)"8q16^B24;
+- (id)tSplitViewControllerContext;
+- (void)];
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allVisibleViews;

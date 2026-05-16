@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleController, FCAssetManager, FCContentManifest, FCFeedDatabase, FCFlintResourceManager, FCInterestToken, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCCoreConfigurationManager><FCNewsAppConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
+@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (id <FCMagazinesConfigurationManager>);
-- (NSString *)P;
-- (FCInterestToken *)r:(FCContentManifest *)arg1 size:] /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (id <FCAVAssetFactoryType>)erticalSizeClass;
-- (NSString *)4;
-- (FCAssetManager *)·ßÿL·ßÿp·ßÿ¬·ßÿà·ßÿø·ßÿ,¸ßÿD¸ßÿ\¸ßÿ¸ßÿì¹ßÿø¹ßÿºßÿ@ºßÿ|ºßÿ°ºßÿÈºßÿüºßÿ»ßÿ8»ßÿ¬»ßÿÄ»ßÿÜ»ßÿô»ßÿ¼ßÿ0¼ßÿH¼ßÿ`¼ßÿx¼ßÿ¼ßÿ¨¼ßÿ¾ßÿ4¾ßÿX¿ßÿ¿ßÿÈ¿ßÿà¿ßÿÀßÿÀßÿ4ÀßÿXÀßÿìÀßÿÁßÿPÁßÿhÁßÿÁßÿÁßÿ¤Áßÿ°ÁßÿÔÁßÿ´ÃßÿÌÃßÿäÃßÿÄßÿ,ÄßÿPÄßÿhÄßÿÄßÿ¤ÄßÿÈÄßÿÆßÿØÇßÿðÇßÿüÇßÿÈßÿ8Èßÿ\ÈßÿXÊßÿ|Êßÿ¸ÊßÿÐÊßÿÜÊßÿôÊßÿËßÿ`ËßÿËßÿ¸ËßÿìËßÿ(ÌßÿLÌßÿÌßÿÐÌßÿ@ÍßÿÀÎßÿØÎßÿðÎßÿÏßÿ8Ïßÿ|ÏßÿÏßÿ¸ÏßÿÐÏßÿôÏßÿÐßÿ0ÐßÿHÐßÿlÐßÿÐßÿ´ÐßÿÀÐßÿÌÐßÿäÐßÿÔÒßÿ¤ÓßÿÜÔßÿÕßÿ,Õßÿ`ÕßÿÕßÿ¨ÕßÿxÖßÿÖßÿÀÖßÿüÖßÿ ×ßÿ ×ßÿ`ØßÿØßÿ¨ØßÿÀØßÿ<Ùßÿ`ÙßÿÙßÿ¨ÙßÿäÚßÿüÚßÿ ÛßÿDÛßÿhÛßÿØÛßÿüÛßÿ ÜßÿTÜßÿÜßÿ´Üßÿ;
-- (NSURL *)renceMismatchDataType;
-- (long long)al read and fetch;
-- (void)­;
-- (id <FCFeedItemFactoryType>)I;
-- (FCArticleController *)â;
-- (FCFeedDatabase *)rangementCuration;
-- (NSString *)T
-ÆÀv;
-- (id <FCCoreConfigurationManager><FCNewsAppConfigurationManager>)¨Æh;
+- (NSURL *);
+- (FCAssetManager *)\HÛÿHÛÿ¤HÛÿàHÛÿIÛÿ(LÛÿLLÛÿLÛÿ¼LÛÿàLÛÿMÛÿ(MÛÿdMÛÿMÛÿ¬MÛÿèMÛÿNÛÿ@NÛÿ|NÛÿ NÛÿÄNÛÿèNÛÿ$OÛÿHOÛÿ|OÛÿ¸OÛÿÜOÛÿ;
+- (NSString *)7Óúÿ;
+- (long long)Ôñüÿ½ôÿôªÿ\e;
+- (NSString *)àýÿ]òÿ^wÿ$&;
+- (FCFlintResourceManager *)Ü w;
+- (NSString *)ºþyÕ=6{þyÕ= pzþ;
+- (id <FCFeedItemFactoryType>);
+- (id <FCRecipeItemFactoryType>)viderType;
+- (id <FCPPTContext>)aglessNotification;
+- (FCPuzzleTypeController *)ntrollerFactory;
+- (id <FCAVAssetFactoryType>)>(Ç{þf>p{þ;
+- (FCSportsEventController *)0;£þ;
+- (void)r;
+- (NSString *)E@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;

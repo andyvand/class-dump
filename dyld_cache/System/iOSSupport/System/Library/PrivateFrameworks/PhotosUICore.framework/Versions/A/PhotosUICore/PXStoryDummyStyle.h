@@ -76,13 +76,13 @@
 - (id);
 - (long long);
 - (_Bool);
-- (CDStruct_cac3ced6);
 - (void);
-- (void);
-- (void);
+- (long long);
 - (id);
-- (id)photoLibrary;
-- (long long)a to URL:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)Èð HÜ$ `  Ø ü $!L!|!¤!Ì!ô!$"L""Ô"$#t#;
+- (CDStruct_cac3ced6)¯­;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allowedClipCompositionsInLandscape; // @synthesize allowedClipCompositionsInLandscape=_allowedClipCompositionsInLandscape;

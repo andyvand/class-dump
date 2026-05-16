@@ -21,47 +21,48 @@
 }
 
 + (id);
+- (struct CGPoint);
 - (void);
-- (struct CGPoint)4H;
-- (double);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (double);
-- (_Bool)laylistsLoading:(id)arg1;
-- (_Bool);
-- (_Bool);
 - (CDUnknownBlockType);
-- (void)Èß|¬;
-- (struct CGRect);
+- (double);
+- (struct CGRect);
 - (void);
-- (void)@ù
-× ;
-- (id)anÐ! DùqÀð1¢!0@ù
-× ;
-- (CDUnknownBlockType)@ù
-× ;
 - (id);
-- (struct CGRect)IGrabber";
-- (long long)tronglyRetainsAssetManager: /* Error: Ran out of types for this method. */;
-- (void)er:(double)arg1 appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
-- (_Bool)alIndexPathEqualToUpdateItem: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void)ection;
-- (void)chForceForTouches: /* Error: Ran out of types for this method. */;
-- (id)gingSourceDelegate;
-- (CDUnknownBlockType)\õPö	÷/;
-- (long long)ÆÀ0z;
-- (_Bool)se of unexpectedly nil secondary view controller.;
-- (struct CGRect)Dismiss;
-- (double)on(UIViewController *__strong, UIApplicationSystemVersion);
-- (_Bool);
-- (void)Øb;
-- (id)á<ÖÏb;
-- (id)a^c;
-- (id)$ÿëÖc;
-- (double);
-- (void)5dg;
+- (id);
+- (double);
+- (double);
+- (long long);
+- (struct CGRect);
+- (void)!ÌBùñY1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (_Bool)Ô ;
+- (struct CGRect)qfð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (long long)ngsDiff"16;
+- (CDUnknownBlockType)ionListHead="slh_first"^{ActionListItem}};
+- (double)ckingAreas;
+- (CDUnknownBlockType)hV2Enabled: /* Error: Ran out of types for this method. */;
+- (void)deactivationOrigin;
+- (struct CGRect)_updatePullView:(double)arg1;
+- (_Bool)ayModeButtonItemForDisplayMode:(id)arg1;
+- (void)oint;
+- (void)ttributesBeforeInsertion;
+- (void);
+- (_Bool)tion on the drop animation container view that never began;
+- (void)Vµþ;
+- (_Bool)éó;
+- (id);
+- (_Bool)Ïpÿ;
+- (id)Ìçÿ;
+- (_Bool);
+- (void)$=HËb;
+- (id),`Þþë%;
+- (void)ãÿF;
+- (id)Hi;
 
 // Remaining properties
 @property(nonatomic, getter=_isOverridingStatusBarHidden, setter=_setOverridingStatusBarHidden:) _Bool _overriddingStatusBarHidden; // @synthesize _overriddingStatusBarHidden;

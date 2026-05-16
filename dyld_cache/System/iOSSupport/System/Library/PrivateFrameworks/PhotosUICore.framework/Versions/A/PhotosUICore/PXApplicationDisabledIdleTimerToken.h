@@ -15,10 +15,9 @@
 - (unsigned int);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)x!ÔGùñ|1b0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int powerAssertionID; // @synthesize powerAssertionID=_powerAssertionID;

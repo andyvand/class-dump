@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (double);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)Core/PhotosXCPTestUtilities.swift;
+- (id)hT;
+- (void)oup;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;

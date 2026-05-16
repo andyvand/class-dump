@@ -31,21 +31,20 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ailable image data being larger;
 - (id);
-- (id)!¤Dùq}Ð1b0@ù
-× ;
-- (void)roducers;
-- (id)U½0:Oÿ /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id)Ðÿ²vLd8;
+- (void);
+- (id);
+- (id)à7;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

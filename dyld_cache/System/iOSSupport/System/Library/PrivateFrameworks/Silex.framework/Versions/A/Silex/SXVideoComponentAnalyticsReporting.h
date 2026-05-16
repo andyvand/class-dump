@@ -15,9 +15,10 @@
 
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)ÁÝð!Fùï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;

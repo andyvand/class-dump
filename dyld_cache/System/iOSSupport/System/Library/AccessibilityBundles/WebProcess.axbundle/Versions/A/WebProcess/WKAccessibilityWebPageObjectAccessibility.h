@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
@@ -40,8 +40,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (struct CGRect);
+- (id);
 
 @end
 

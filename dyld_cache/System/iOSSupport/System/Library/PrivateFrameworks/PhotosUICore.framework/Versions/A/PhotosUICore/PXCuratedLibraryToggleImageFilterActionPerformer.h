@@ -16,7 +16,7 @@
 - (long long);
 - (void);
 - (id);
-- (id)TÍìÿ!@JG8;
+- (id)avigationSocialGroupListItem;
 
 @end
 

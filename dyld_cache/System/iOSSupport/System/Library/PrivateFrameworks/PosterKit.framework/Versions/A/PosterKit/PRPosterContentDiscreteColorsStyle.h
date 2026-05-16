@@ -18,7 +18,7 @@
 }
 
 + (void);
-+ (_Bool)initWithTimeFontConfiguration:preferredTitleAlignment:preferredTitleLayout:titleColor:timeNumberingSystem:userConfigured:preferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -51,17 +51,17 @@
 - (_Bool);
 - (double);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

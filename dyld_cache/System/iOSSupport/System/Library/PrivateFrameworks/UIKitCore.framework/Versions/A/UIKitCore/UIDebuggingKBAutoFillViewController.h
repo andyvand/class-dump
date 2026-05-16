@@ -14,16 +14,15 @@ __attribute__((visibility("hidden")))
     UITableView *_tableView;
 }
 
-- (void)session close message fromID:(id)arg1 %@, ;
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (void)
-× ;
-- (void)sTextFieldManagedInNSToolbar"b1"allowSearchFieldShrinkage"b1"searchFieldUsesCustomBackgroundImage"b1"searchFieldEffectivelySupportsDynamicType"b1"isProspective"b1"isHostingNavBarTransitionActive"b1"alwaysForceReadableWidth"b1"needsReconfigurationForScopeBar"b1};
+- (void);
+- (void)Çÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -19,9 +19,9 @@
 
 - (void);
 - (long long);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic) long long bufferSize; // @synthesize bufferSize;

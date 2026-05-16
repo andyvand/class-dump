@@ -28,60 +28,63 @@
     UIView *_flexInteractionGestureView;
 }
 
-+ (_Bool)holder: /* Error: Ran out of types for this method. */;
-- (id)=;
++ (_Bool);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (struct CGRect)CString failed;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)Session"16@"NSURLSessionDataTask"24@"NSURLSessionDownloadTask"32;
-- (void)om:(id)arg1;
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets)º;
-- (void);
-- (id)
+- (struct CGRect);
+- (id)0@ù
 × ;
-- (void)× ;
-- (id)× ;
-- (void)! FùÍÐ1¢!0@ù
+- (id)!`Dùað1Â0@ù
 × ;
-- (void)ableWithKeyOptions:(id)arg1 valueOptions:(id)arg2;
-- (void)eldAnchoredToKeyboard;
-- (void)Update;
-- (id)inatingView:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)llection;
-- (_Bool)ions;
-- (id)_UIAppearance_setTintColor: /* Error: Ran out of types for this method. */;
-- (void)nation:(struct CGRect)arg1;
-- (id)ViewLeading;
-- (void)è!H"°"P#¼#P$Ì$;
-- (void);
-- (void)TÐ;
-- (id)72@?0{CGRect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40;
-- (id)setInputViewSet:(id)arg1;
-- (void)yIndicatorViewStyle;
-- (void)tion controller must be of type _UISearchATVPresentationController.;
-- (id)>;
-- (void)style UIAlertControllerStyleAlert;
-- (id)6@"NSDictionary"24;
-- (double);
-- (void);
-- (void)*1[;
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)qgð1Â0@ù
+× ;
+- (struct UIEdgeInsets)d:(id)arg1;
+- (void)ports1stPartyHaptics;
+- (void)Rect:(id)arg1;
+- (double)dragSourceController:didCompleteLiftForItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (void)extAnimation:(struct CGRect)arg1 withIndex:contextID: /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)dicatorMessageLabel",R,N,G_messageLabel,V_messageLabel;
+- (id)Array",&,N,V_clonedDecorationAttributes;
+- (void);
+- (void)h;
+- (id)defaulting to the minimum height.;
+- (void):(id)arg1 originatingProcess:] /* Error: Ran out of types for this method. */;
+- (id)Impl setMinimumPrimaryColumnWidth:(id)arg1 ];
+- (void)þÔxé&1ä?´Èv¾ë?oÀÊ¡é?®Gáz®ã?Zd;ßOï?¼tVÖ?`åÐ"Ûù¾?Ñ"Ûù~jÔ?ÙÎ÷Sã¥ë?Év¾/­?Zd;ßO·?PnÀ?=
+×£p=î?¢E¶óýÔØ?Clçûé?®GázÖ?#Ûù~j¼è?¾/Ý$Þ?¢E¶óýÔÐ?é&1¬Ú?7A`åÐÒ?¬Zd;ï?¬Zd;ë?7A`åÐâ?;
+- (void)3Èð;
+- (id);
+- (void)4¾ÿ+z;
+- (void)UÖR^;
 
 // Remaining properties
 @property(readonly, nonatomic) double _currentlyAppliedCornerRadius;

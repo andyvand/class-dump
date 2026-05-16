@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)r and throw the first error from submitTAF() received.;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *accessoriesByBundleIDs; // @synthesize accessoriesByBundleIDs=_accessoriesByBundleIDs;

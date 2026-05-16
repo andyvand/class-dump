@@ -9,9 +9,8 @@
 @protocol UICollectionViewDragSource
 
 @optional
-- (void);
-- (NSArray *)ets=dddd}48;
-- (NSArray *)etteIntensity:(UICollectionView *)arg1;
-- (void)ed;
+- (void)odelUpdatersByStyleKind;
+- (NSArray *)er;
+- (NSArray *)ints:(UICollectionView *)arg1;
 @end
 

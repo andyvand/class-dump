@@ -16,13 +16,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void)Connection;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *modified; // @synthesize modified=_modified;

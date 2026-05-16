@@ -11,6 +11,7 @@
 @interface AMSUICommonNavigationBar : AMSUICommonView
 {
     _Bool _prefersLargeTitles;
+    double _buttonSpacing;
     NSArray *_contentConstraints;
     AMSUICommonStackView *_leftStackView;
     AMSUICommonStackView *_rightStackView;
@@ -35,19 +36,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (double);
 - (struct UIEdgeInsets);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void)itWithHeaderImage:titleText:features:primaryButtonText:privacyLinkBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)Ä/0;
 
 // Remaining properties
+@property(nonatomic) double buttonSpacing; // @synthesize buttonSpacing=_buttonSpacing;
 @property(retain, nonatomic) NSArray *contentConstraints; // @synthesize contentConstraints=_contentConstraints;
 @property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
 @property(readonly, nonatomic) AMSUICommonStackView *leftStackView; // @synthesize leftStackView=_leftStackView;

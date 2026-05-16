@@ -16,6 +16,8 @@
     MISSING_TYPE *availableActionIndexesPerAction;
     MISSING_TYPE *actionsByID;
     MISSING_TYPE *allVariables;
+    MISSING_TYPE *parametersUsingActionOutputUUIDs;
+    MISSING_TYPE *parametersUsingUserDefinedVariableNames;
     MISSING_TYPE *parametersWithShortcutInputVariable;
 }
 

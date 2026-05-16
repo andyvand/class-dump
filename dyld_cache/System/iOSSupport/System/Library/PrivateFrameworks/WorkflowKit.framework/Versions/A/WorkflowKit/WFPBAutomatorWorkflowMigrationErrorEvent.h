@@ -16,23 +16,22 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void)ãÜ
-;
-- (id);
-- (_Bool);
+- (_Bool)³;
+- (void)SharedShortcut doesn't have signed shortcut file;
+- (id)nkDynamicOptionSubstitutableState"24@?0@"LNDynamicOption"8Q16;
+- (void)emoteQuarantineAsset;
+- (_Bool)on-identifiers-load;
+- (void)ceP;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *automatorActionIdentifier; // @synthesize automatorActionIdentifier=_automatorActionIdentifier;

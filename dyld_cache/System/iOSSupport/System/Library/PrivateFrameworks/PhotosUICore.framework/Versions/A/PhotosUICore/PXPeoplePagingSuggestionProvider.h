@@ -26,8 +26,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *currentSuggestions; // @synthesize currentSuggestions=_currentSuggestions;

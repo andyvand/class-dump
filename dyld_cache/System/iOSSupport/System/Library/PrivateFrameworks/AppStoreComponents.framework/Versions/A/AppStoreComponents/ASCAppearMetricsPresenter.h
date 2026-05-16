@@ -47,20 +47,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
-- (id)rollViewScrollObserver;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)B50@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) ASCMetricsActivity *activity; // @synthesize activity=_activity;

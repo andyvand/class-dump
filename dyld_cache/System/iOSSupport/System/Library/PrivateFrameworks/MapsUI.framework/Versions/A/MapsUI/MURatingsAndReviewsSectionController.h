@@ -38,11 +38,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (void)ÿ;
+- (id);
+- (void);
+- (void)webMenuButton;
 
 // Remaining properties
 @property(nonatomic) __weak id <MURatingsAndReviewsSectionControllerDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;

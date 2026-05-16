@@ -27,38 +27,40 @@
 }
 
 - (long long);
-- (void)e"24@"NSDictionary"32;
-- (void);
-- (void);
-- (id);
-- (long long)BeaconManagerXPCProtocol;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)sage.swift;
 - (id);
 - (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)kipping setting change.;
-- (void)r active chapter %{private,mask.hash}s.;
-- (long long)sReadyToPlay - timeStamp: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (id);
+- (void)public}@;
+- (void)Rzl<K5InputiÆÎ
+RtzlXX;
+- (void)t event must be chronologically AFTER the limiting event.;
+- (long long)Ó
+ÖÕÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool continuityCameraUsed; // @synthesize continuityCameraUsed=_continuityCameraUsed;

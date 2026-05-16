@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UIPressesEvent;
-
 @protocol _UIPressesEventRespondable
-- (void)
-× ;
-- (void)dText:(NSSet *)arg1 updatingSelection:(UIPressesEvent *)arg2;
-- (void)dPopover;
-- (void)vation;
+- (void)extFormattingViewControllerRemoveItalicToggleChange;
+- (void)erredWidth;
+- (void)ttributesFittingAttributesWithInnerView(UICollectionReusableView *__strong, UICollectionViewLayoutAttributes *__strong, UIView *__strong);
+- (void)-DTû!	@Ò!3|Ù@;
 @end
 

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ultSortDescriptorsForModelKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *clonedEntries; // @synthesize clonedEntries=_clonedEntries;

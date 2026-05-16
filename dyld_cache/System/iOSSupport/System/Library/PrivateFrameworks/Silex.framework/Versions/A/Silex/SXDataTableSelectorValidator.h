@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id)C;
-- (void);
+- (id);
+- (void)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dataOrientation; // @synthesize dataOrientation=_dataOrientation;

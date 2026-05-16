@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class)a;
++ (Class);
 - (id);
-- (id)UIFlexInteractionLargeVariantSpec",N,&,Vlarge;
+- (id)apshotState;
 
 @end
 

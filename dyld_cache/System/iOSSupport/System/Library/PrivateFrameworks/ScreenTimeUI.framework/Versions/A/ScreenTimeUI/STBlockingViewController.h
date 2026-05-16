@@ -111,41 +111,43 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (long long);
-- (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)idChange:(id)arg1;
+- (void);
+- (id);
+- (void);
+- (id)!hEùñµ°1â
+0@ù
+× ;
+- (void)canceled;
 
 // Remaining properties
 @property(retain) UIButton *addContactButton; // @synthesize addContactButton=_addContactButton;

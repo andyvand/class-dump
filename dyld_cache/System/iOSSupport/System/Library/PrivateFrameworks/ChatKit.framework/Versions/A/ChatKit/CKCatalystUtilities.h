@@ -16,29 +16,28 @@
     IMNickname *_myNickname;
 }
 
-+ (id)Ä2`ÿÔs1Ää1;
++ (id)0{±ÿ='lh{±ÿ;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)e;
 - (void);
 - (void);
-- (void)d;
-- (void)i;
-- (void)o save a share (%@) without an account ID for object:%@ /* Error: Ran out of types for this method. */;
-- (void)are for %@, includeHierarchicalShare=%@;
-- (id)png;
-- (_Bool)fter migrating note;
-- (long long)teNote:completionHandler:] /* Error: Ran out of types for this method. */;
-- (void)ONT_NAME];
-- (id)|| SUBQUERY(notes, $n, $n.markedForDeletion != YES).@count > 0);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (long long);
+- (void);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (id)]'
-;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -73,28 +72,25 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)f;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (long long);
+- (void);
 - (id);
 - (_Bool);
-- (id);
 - (long long);
-- (_Bool);
-- (void)b#;
-- (id);
-- (void)!DEùÃ°1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (id)1¢!0@ù
-× ;
-- (id)splayString;
-- (id)ailsSearchViewController;
-- (id)îp÷;
-- (void)ut group with differing layout group classes, returning nil. Expected %@ got %@;
-- (void)ÐÄ/;
+- (void);
+- (id)r:animated:completion: /* Error: Ran out of types for this method. */;
+- (id)V_avatarCache;
+- (id)sonalPriorityEnabled;
+- (void)ýjT;
+- (id)¥ÿe:«¤/ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

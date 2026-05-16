@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)ta;
+- (void);
 - (unsigned long long);
 - (double);
-- (id)dingSelectionIndicatorOnFocusUpdate;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

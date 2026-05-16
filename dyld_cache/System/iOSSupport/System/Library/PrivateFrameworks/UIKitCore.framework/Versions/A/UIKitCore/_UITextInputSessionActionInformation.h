@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)3AA_Ëð¾7tc;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sessionActionString; // @synthesize sessionActionString=_sessionActionString;

@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
 - (id);
+- (void)replicaEntries;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

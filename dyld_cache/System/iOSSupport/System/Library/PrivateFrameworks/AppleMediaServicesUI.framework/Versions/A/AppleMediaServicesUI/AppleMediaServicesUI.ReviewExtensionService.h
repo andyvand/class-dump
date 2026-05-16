@@ -19,8 +19,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)Overrides;
 
 @end
 

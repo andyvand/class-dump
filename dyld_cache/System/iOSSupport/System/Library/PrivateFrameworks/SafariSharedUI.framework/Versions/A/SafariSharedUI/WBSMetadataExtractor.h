@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void)9;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ceDidCommitLoad:loadingSingleResource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) JSContext *context;

@@ -5,6 +5,5 @@
 //
 
 @protocol CKConversationListCellIntroductionsDelegate
-- (void)OSo9NSRunLoopCGAKGGSo6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyA1_GGA4_G;
 @end
 

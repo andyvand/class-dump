@@ -127,7 +127,7 @@
 
 + (void);
 + (_Bool);
-+ (id)Ü H79;
++ (id)4"ÿ;
 - (double);
 - (double);
 - (double);
@@ -348,18 +348,18 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (double);
-- (_Bool);
+- (double);
+- (double);
 - (_Bool);
 - (void);
+- (_Bool);
 - (double);
-- (double);
-- (double);
+- (_Bool);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (id)>"8^v16^B24;
+- (void)ManagerOptions ItemListManager Model Content PlaceholderView;
 
 // Remaining properties
 @property(nonatomic) _Bool alignActionButtonsTrailingEdges; // @synthesize alignActionButtonsTrailingEdges=_alignActionButtonsTrailingEdges;

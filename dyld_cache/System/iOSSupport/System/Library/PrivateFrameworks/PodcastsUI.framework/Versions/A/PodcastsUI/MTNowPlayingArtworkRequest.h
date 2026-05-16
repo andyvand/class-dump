@@ -11,8 +11,8 @@
     MISSING_TYPE *cancellable;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

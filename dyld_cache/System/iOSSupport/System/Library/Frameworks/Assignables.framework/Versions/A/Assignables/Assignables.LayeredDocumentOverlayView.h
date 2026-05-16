@@ -15,10 +15,10 @@
     MISSING_TYPE *paperDocumentView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

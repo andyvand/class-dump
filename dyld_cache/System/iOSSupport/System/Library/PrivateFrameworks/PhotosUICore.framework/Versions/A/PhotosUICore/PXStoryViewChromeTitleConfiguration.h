@@ -13,16 +13,17 @@
 
 - (id);
 - (id);
+- (void);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (struct UIEdgeInsets);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (id);
-- (struct UIEdgeInsets);
-- (long long)øç#ÿ;
-- (void)¾Ä6/4;
+- (id)0@ù
+× ;
+- (long long)>;
+- (void)à3;
 
 // Remaining properties
 @property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;

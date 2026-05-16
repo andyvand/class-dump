@@ -5,11 +5,5 @@
 //
 
 @protocol PXMessagesStackViewDelegate
-
-@optional
-- (void);
-- (_Bool)9;
-- (void);
-- (void);
 @end
 

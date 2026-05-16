@@ -15,9 +15,9 @@
     NSArray *_availableDestinationIdentifiers;
 }
 
-+ (id)er;
-+ (id)È¤¦@ª²;
-+ (_Bool)ellPressed;
++ (id);
++ (_Bool);
++ (id)t-event-notifications;
 - (void);
 - (void);
 - (id);
@@ -25,24 +25,27 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id)FaceClassification",R,C,V_faceClassification;
-- (id)meManager delegate to %@;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void)a c
+Di;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

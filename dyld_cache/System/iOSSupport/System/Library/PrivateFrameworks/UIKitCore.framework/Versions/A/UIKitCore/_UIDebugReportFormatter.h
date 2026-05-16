@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void)ssible availability reply for business chat;
-- (unsigned long long);
 - (void);
-- (id)xtAttributes;
+- (unsigned long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long extraBodyIndentLevel; // @synthesize extraBodyIndentLevel=_extraBodyIndentLevel;

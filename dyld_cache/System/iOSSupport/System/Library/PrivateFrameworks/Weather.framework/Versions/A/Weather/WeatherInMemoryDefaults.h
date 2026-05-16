@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
+- (void);
+- (void)serDefaults";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

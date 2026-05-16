@@ -5,6 +5,5 @@
 //
 
 @protocol CKTextEntryLayoutManagerMentionsDelegate
-- (void)ResultsController",&,N,V_modernFetchedResultsController;
 @end
 

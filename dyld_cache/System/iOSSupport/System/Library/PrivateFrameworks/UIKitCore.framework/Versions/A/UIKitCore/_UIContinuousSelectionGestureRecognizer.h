@@ -17,27 +17,26 @@ __attribute__((visibility("hidden")))
     struct CGPoint _originalLocation;
 }
 
-+ (_Bool)onAction: /* Error: Ran out of types for this method. */;
++ (_Bool)!´Cù`1Â0@ù
+× ;
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
 - (id);
-- (id)aGOST01;
-- (void);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)!pCù1Èð1¢!0@ù
-× ;
-- (void)ar:(id)arg1 collapsibleScopeBar:(id)arg2 forLayoutState: /* Error: Ran out of types for this method. */;
-- (void)AdjustsFontForContentSizeCategory:(id)arg1;
-- (id)NotFirstResponder;
-- (void)ges are not allowed; only the first %1$ld will be used;
-- (_Bool);
-- (struct CGVector)le;
-- (struct CGPoint);
+- (id);
+- (id);
+- (struct CGPoint)Pressed;
+- (void)tOrigin:(id)arg1 coordinateSpace:(id)arg2 scale:fallbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
+- (void)trollerContainerViewWidthConstraint;
+- (void)plyQueue:(id)arg1 completion:(id)arg2;
+- (_Bool)rningMode:(id)arg1;
+- (void)ader;
+- (struct CGVector)&Ä&;
+- (void)BOOL, UISlidingBarState *__strong, BOOL, CGRect, NSMutableSet *__strong, CGFloat, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong);
+- (void)ÿíoþ;
+- (void)ì"];
+- (void)äÿ:è /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGVector allowableMovement; // @synthesize allowableMovement=_allowableMovement;

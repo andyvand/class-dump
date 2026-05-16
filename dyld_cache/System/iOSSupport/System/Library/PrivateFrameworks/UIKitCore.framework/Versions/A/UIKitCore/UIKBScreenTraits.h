@@ -43,63 +43,62 @@
 + (id);
 + (id);
 + (id);
-+ (void);
 + (id);
 + (id);
-+ (id)1¢!0@ù
-× ;
-+ (id)Commands;
-+ (id)ntext"8;
-- (void);
++ (id)GSize=dd}}60@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16i48d52;
++ (void)ollerViewTopConstraint;
++ (id)ectionDisplayInteractionDelegate_Internal;
++ (id)apWidth;
 - (struct CGRect);
+- (id);
 - (void);
-- (double);
-- (id)ExternalMediaContentIdentifier;
-- (struct CGSize)ller;
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (struct CGRect);
-- (_Bool);
-- (void)0@ù
-× ;
-- (_Bool)! Cù±Åð1¢!0@ù
-× ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (_Bool)GSize=dd}}16^{CGContext=}48;
 - (long long);
-- (void)tColor:(long long)arg1;
-- (struct CGSize)round: /* Error: Ran out of types for this method. */;
-- (id)ation:(id)arg1 reverse:(long long)arg2 usingBlock:(_Bool)arg3;
-- (void)sidebarSupportsPassthroughInOverlay;
-- (long long)howingIndex;
-- (_Bool)ions: /* Error: Ran out of types for this method. */;
-- (void)ularTextAttributes:(long long)arg1;
-- (void)Bottom;
-- (id)yer",&,N,V_trackLayer;
-- (double),;
-- (double)Ì$°;
-- (void)|;
-- (void)ionDidChange:(double)arg1 withIAVHeight:isIAVRelevant:notifyRemote:forScene:]  another keyboard hid us! /* Error: Ran out of types for this method. */;
-- (_Bool)èÿ´÷iþ±þÿ;
-- (void)e;
-- (void)ionKeyNotification;
-- (_Bool)ominentClearGlass;
-- (id)Ç;
+- (double);
 - (void);
-- (void)y¨;
-- (_Bool)Dß.ÿ;
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (_Bool)5\o;
-- (void);
-- (_Bool)\Ñö>n;
-- (long long)Ù<l;
-- (struct CGSize);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void)Ôað!ÐAù±a1Â0@ù
+× ;
+- (id)
+× ;
+- (void)
+× ;
+- (_Bool)@32B40@44;
+- (_Bool);
+- (struct CGRect)Q16B24@"UITraitCollection"28;
+- (void)IndexPath:(_Bool)arg1;
+- (_Bool)tSignalEventTimestamp;
+- (long long)boardShown;
+- (double)dFiveRowControlKeyWidthForRow:keysForRow:context: /* Error: Ran out of types for this method. */;
+- (void)ounceMinMaxValueImageViewsIfNeeded;
+- (double)renderJobsCount;
+- (_Bool)namicHidingDelegate;
+- (double);
+- (_Bool);
+- (long long)swipe actions view at index path:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGSize)ÿ;
+- (void)ioParameters;
+- (_Bool)dChangeNotification;
+- (double)ctionStyleDestructive;
+- (void)orphableInternal;
+- (_Bool)À`;
+- (struct CGSize)øwÔ];
+- (void)ÿØ×ÚXa`;
+- (void)@a;
+- (void)Úþ¤¢Êèf;
+- (void)ÙïþúUÎÌ¼f;
+- (struct CGSize)_ÛÜ)g;
+- (_Bool);
+- (void)ðlþXð;
+- (_Bool)±¥ÿ;
+- (id)CêÔ<Tl;
 
 // Remaining properties
 @property(nonatomic) double assistantViewWidth; // @synthesize assistantViewWidth=_assistantViewWidth;

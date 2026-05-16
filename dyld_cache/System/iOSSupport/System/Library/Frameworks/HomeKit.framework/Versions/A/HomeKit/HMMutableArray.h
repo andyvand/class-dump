@@ -24,21 +24,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
+- (void)$t$ø$&;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *array;

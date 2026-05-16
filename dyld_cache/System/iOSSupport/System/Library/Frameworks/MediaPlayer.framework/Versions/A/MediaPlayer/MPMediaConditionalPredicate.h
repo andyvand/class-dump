@@ -15,17 +15,17 @@
     MPMediaPredicate *_elsePredicate;
 }
 
-+ (id)iewResourceMappingCallback:(id)arg1;
-+ (_Bool)t was greater than length] task=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)"b1"isJunk"b1"isKnownSender"b1"isNew"b1"isPinned"b1"isRead"b1"isTwoFactorCode"b1};
-- (id)odable"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void);
+- (void)tring",R,C,N,V_queueItemID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPMediaPredicate *conditionPredicate; // @synthesize conditionPredicate=_conditionPredicate;

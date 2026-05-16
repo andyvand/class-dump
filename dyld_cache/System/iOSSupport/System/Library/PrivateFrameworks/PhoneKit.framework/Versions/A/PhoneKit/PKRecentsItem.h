@@ -29,20 +29,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

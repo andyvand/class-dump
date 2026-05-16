@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id);
++ (id)o generate data from jsonString %{public}s;
 - (void);
 - (id);
 - (id);

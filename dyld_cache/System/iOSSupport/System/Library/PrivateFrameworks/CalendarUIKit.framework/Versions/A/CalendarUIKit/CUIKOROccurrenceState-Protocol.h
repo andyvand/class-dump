@@ -7,14 +7,11 @@
 @class EKEvent, NSArray, NSNumber, UITraitCollection;
 
 @protocol CUIKOROccurrenceState
-- (long long);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (double);
-- (long long)ere sql LIKE '%_legacy%';;
-- (long long);
-- (_Bool)uthenticationSessionRequestHandling>";
-- (NSArray *)o¡2G©2ySiSgGG_Qo_;
-- (_Bool)First day of lunar month;
+- (_Bool)°þÿt°þÿ°þÿ;
+- (UITraitCollection *)yAByAByAByAByC3y2_Qo_ä-yæ1SgGG}GAEySiSgGG~ÈG8GG;
+- (long long)Qo_AFy_`GGtGGSgôyÅéyAMG_KðQo_SgAAyAKyAL_AmN%ÛtGGSgt;
+- (_Bool);
+- (NSArray *),;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *allDayOverride;

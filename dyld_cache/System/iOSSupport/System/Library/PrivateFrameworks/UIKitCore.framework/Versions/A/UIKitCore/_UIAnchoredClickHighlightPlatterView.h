@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)iptForMissingGUID: /* Error: Ran out of types for this method. */;
-- (void)cToken;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)Xm'º;
+- (void)q;
 
 // Remaining properties
 @property(nonatomic) __weak _UIMorphingView *anchorView; // @synthesize anchorView=_anchorView;

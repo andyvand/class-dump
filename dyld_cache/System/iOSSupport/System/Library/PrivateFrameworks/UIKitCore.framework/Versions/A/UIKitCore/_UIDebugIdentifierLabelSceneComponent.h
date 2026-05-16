@@ -13,12 +13,13 @@ __attribute__((visibility("hidden")))
     UIScene *_scene;
 }
 
-+ (_Bool)*Ën;
-- (void);
-- (void)I;
-- (void);
++ (_Bool)0@ù
+× ;
+- (void)eCanGenerateTargetedPreviewForChunk:(id)arg1 completion:(long long)arg2;
+- (id)üÏR0	43Ìb;
+- (void)tó;
 - (id);
-- (id)ß*Ñ½ø];
+- (void)ðp`;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

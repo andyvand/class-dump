@@ -22,9 +22,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)ñµ
-°1b0@ù
-× ;
+- (void)tionNumber;
 
 // Remaining properties
 @property(retain, nonatomic) WFSpeakTextActionOperation *runningOperation; // @synthesize runningOperation=_runningOperation;

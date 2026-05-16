@@ -7,7 +7,6 @@
 @protocol _UISceneMaskingDelegate;
 
 @protocol _UISceneMaskingHostProviding
-- (id <_UISceneMaskingDelegate>)ommon temp 1;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISceneMaskingDelegate> _sceneMaskingHost;

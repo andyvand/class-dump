@@ -13,20 +13,19 @@
     CDUnknownBlockType _snapshotForExpandingParentItemHandler;
 }
 
-- (CDUnknownBlockType)e: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ndexSpotlightIfNeedForPTask: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
-- (void) W;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)q$w;
-- (id)ion %@;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)ñÂð1¢!0@ù
-× ;
+- (id)ÐÌ;
+- (void)ØFi;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType shouldCollapseItemHandler; // @synthesize shouldCollapseItemHandler=_shouldCollapseItemHandler;

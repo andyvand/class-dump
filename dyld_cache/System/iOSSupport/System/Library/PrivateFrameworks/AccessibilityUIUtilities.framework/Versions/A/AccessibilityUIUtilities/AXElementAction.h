@@ -19,16 +19,16 @@
 - (void);
 - (void);
 - (void);
-- (id)t;
-- (id)NSError">;
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)@;
-- (id);
-- (long long);
-- (void)l:(long long)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *customActionIdentifier; // @synthesize customActionIdentifier=_customActionIdentifier;

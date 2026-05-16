@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)ght-index-check;
 + (_Bool);
 + (_Bool);
-+ (id)dateForKeyplane:key: /* Error: Ran out of types for this method. */;
-+ (id)W¾;
-+ (long long);
++ (_Bool);
++ (id);
++ (id)faceAutorotationAnimated:] /* Error: Ran out of types for this method. */;
++ (long long)xng;
 
 @end
 

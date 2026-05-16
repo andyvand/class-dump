@@ -14,16 +14,15 @@ __attribute__((visibility("hidden")))
     UIStoryboardSegueTemplate *_commitTemplate;
 }
 
-- (void)@"NSString"24@"NSString"32@"NSString"40;
-- (void)lQueue:(id)arg1;
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)WallpaperModification:(id)arg1;
 - (id);
-- (void);
-- (void)
-× ;
-- (id);
+- (void)orKey:(id)arg1;
+- (id)Must provide an identifier;
+- (void)À[²*ÂMò?;
+- (void)ÀÏb;
 
 // Remaining properties
 @property(nonatomic) __weak UIStoryboardSegueTemplate *commitTemplate; // @synthesize commitTemplate=_commitTemplate;

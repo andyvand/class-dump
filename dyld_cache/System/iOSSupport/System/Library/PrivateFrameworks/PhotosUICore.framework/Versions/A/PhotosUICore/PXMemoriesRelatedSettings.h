@@ -32,7 +32,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id)òêK19;
++ (id)usicStatusProviderChange;
 - (double);
 - (unsigned long long);
 - (unsigned long long);
@@ -70,11 +70,10 @@
 - (long long);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
+- (id);
 - (void);
 - (void);
-- (unsigned long long)|Ð1b0@ù
-× ;
-- (id)%s, targetObject is nil;
 
 // Remaining properties
 @property(nonatomic) unsigned long long deleteBehavior; // @synthesize deleteBehavior=_deleteBehavior;

@@ -42,16 +42,16 @@
 - (double);
 - (double);
 - (double);
-- (double);
 - (id);
+- (double);
 - (_Bool);
 - (id);
-- (void);
+- (double);
 - (void);
 - (id);
 - (double);
-- (double);
-- (void);
+- (void)tIndexPath:(double)arg1;
+- (void)isticStateItemModule initWithItemUpdater:home:sourceItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double cameraCellHeight;

@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id)paratorItem;
++ (id)eir values from this app's domain.;
 
 @end
 

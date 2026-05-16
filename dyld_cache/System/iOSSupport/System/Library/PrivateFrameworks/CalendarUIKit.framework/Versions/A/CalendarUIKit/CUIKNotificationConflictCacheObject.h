@@ -14,10 +14,10 @@
 
 + (id);
 - (void);
-- (id)`;
-- (void);
+- (id);
 - (void);
 - (unsigned long long);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) EKConflictDetails *conflictInfo; // @synthesize conflictInfo=_conflictInfo;

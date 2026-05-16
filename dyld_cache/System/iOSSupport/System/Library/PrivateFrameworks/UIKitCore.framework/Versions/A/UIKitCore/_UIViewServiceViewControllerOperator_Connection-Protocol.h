@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewServiceViewControllerOperator_Connection
-- (void)iredCapabilities:(id)arg1 excludedCapabilities:(void (^)(id))arg2 excludesWatch:onlyWatch: /* Error: Ran out of types for this method. */;
 @end
 

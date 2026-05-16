@@ -18,17 +18,17 @@
 
 - (void);
 - (void);
-- (id)i;
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ÿ1I6©j/;
+- (void)Controller",&,N,V_presentedModalBrowserNavigationController;
+- (void)}};
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMessageHistoryViewControllerDataSource> messageHistoryDataSource; // @synthesize messageHistoryDataSource;

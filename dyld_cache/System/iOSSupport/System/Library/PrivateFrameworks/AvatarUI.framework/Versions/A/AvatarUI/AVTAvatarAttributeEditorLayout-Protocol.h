@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol AVTAvatarAttributeEditorLayout
-- (unsigned long long);
-- (NSString *)ks_fv_import;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool RTL;

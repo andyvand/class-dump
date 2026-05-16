@@ -8,9 +8,7 @@
 @protocol MTLDevice;
 
 @protocol MTLArgumentEncoder
-- (unsigned long long);
-- (id <MTLDevice>);
-- (void);
+- (void)brary/BuildRoots/4~CNqbugCWo38zFvq9i9uAwKAxuCKXg3yCWsoAn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.8dFyG1/Sources/VFX_iosmac/sources/VFX/CFX/RenderGraphV2/Passes/CopyStereoSideBySidePass.mm;
 
 // Remaining properties
 @property(readonly) unsigned long long alignment;

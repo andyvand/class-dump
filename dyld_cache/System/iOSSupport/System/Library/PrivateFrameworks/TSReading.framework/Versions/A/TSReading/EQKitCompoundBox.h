@@ -19,19 +19,20 @@
     _Bool mErasableBoundsValid;
 }
 
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
+- (void);
+- (id);
+- (id);
+- (double);
+- (double);
 - (_Bool);
 - (id);
-- (void);
-- (double);
-- (id);
-- (id)LocalNewsAutoFavoritesProviderType;
-- (double);
-- (double)§V)J;
+- (double)ûÿ
+Þ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *childBoxes; // @synthesize childBoxes=mChildBoxes;

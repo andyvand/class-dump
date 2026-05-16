@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (_Bool)Summary">44;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool asInputAccessoryView; // @synthesize asInputAccessoryView=_asInputAccessoryView;

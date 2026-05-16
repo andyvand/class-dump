@@ -14,12 +14,12 @@
     struct CGSize _intrinsicContentSize;
 }
 
-- (id)on:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (struct CGSize);
+- (id);
+- (void);
 - (void);
-- (void)jþÉæ4ôjþ;
-- (id)®Õõ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *hostView; // @synthesize hostView=_hostView;

@@ -17,11 +17,13 @@
     MISSING_TYPE *feedService;
     MISSING_TYPE *subscriptionService;
     MISSING_TYPE *recipeAccessProvider;
+    MISSING_TYPE *recipeUserDataManager;
+    MISSING_TYPE *ratingObservationTask;
 }
 
 - (void);
-- (void);
 - (id);
+- (void)Y`_(¦þI`_$¦þQ`_dyþ1`_¦þ;
 
 @end
 

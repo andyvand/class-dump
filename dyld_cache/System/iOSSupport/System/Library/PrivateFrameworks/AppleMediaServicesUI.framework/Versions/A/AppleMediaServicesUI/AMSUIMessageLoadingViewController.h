@@ -16,12 +16,12 @@
 
 + (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)oller;
+- (void)¶¡è¼;
 
 @end
 

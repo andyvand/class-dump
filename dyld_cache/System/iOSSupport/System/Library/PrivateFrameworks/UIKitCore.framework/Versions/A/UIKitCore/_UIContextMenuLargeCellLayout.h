@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_leadingToLabelStackViewLeading;
     NSLayoutConstraint *_decorationViewCenterX;
     NSLayoutConstraint *_iconViewCenterXToTrailing;
-    NSLayoutConstraint *_labelStackViewTrailingToiconViewCenterX;
+    NSLayoutConstraint *_labelStackViewTrailingToIconViewCenterX;
     NSLayoutConstraint *_minHeightConstraint;
     NSLayoutConstraint *_labelStackViewTrailingToDecorationViewLeading;
     NSLayoutConstraint *_keyboardShortcutTrailingToTrailing;
@@ -54,17 +54,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (id)24@32@40Q48B56;
-- (id)NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64B72B76@"NSNumber"80;
+- (id);
+- (id);
 - (_Bool);
-- (id)ation Date (%@ vs %@) is in the past. Not setting syndication type %ld for chat:(_Bool)arg1 %@;
-- (void);
-- (void)ÁwÐ!EùñÌð1¢!0@ù
+- (id);
+- (void)!xAùa°1Â0@ù
 × ;
-- (void)eRect;
-- (id)È`þÿè`þÿaþÿ8aþÿPaþÿ bþÿPbþÿpbþÿ°bþÿÈbþÿàbþÿ,cþÿcþÿÔdþÿeþÿDeþÿ\eþÿeþÿeþÿÀeþÿØeþÿfþÿ$fþÿ<fþÿ\fþÿtfþÿ¸fþÿÐfþÿèfþÿ;
-- (long long)suleShape;
-- (id)expected attempt to start transition which has not been committed;
+- (void)ublicState;
+- (long long)iewAndSubview;
+- (id);
+- (void)ü×þ2JU;
+- (id)*=ÖTc;
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;
@@ -82,8 +82,8 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) NSLayoutConstraint *keyboardShortcutTrailingToTrailing; // @synthesize keyboardShortcutTrailingToTrailing=_keyboardShortcutTrailingToTrailing;
 @property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
 @property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToDecorationViewLeading; // @synthesize labelStackViewTrailingToDecorationViewLeading=_labelStackViewTrailingToDecorationViewLeading;
+@property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToIconViewCenterX; // @synthesize labelStackViewTrailingToIconViewCenterX=_labelStackViewTrailingToIconViewCenterX;
 @property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToKeyboardShortcutLeading; // @synthesize labelStackViewTrailingToKeyboardShortcutLeading=_labelStackViewTrailingToKeyboardShortcutLeading;
-@property(retain, nonatomic) NSLayoutConstraint *labelStackViewTrailingToiconViewCenterX; // @synthesize labelStackViewTrailingToiconViewCenterX=_labelStackViewTrailingToiconViewCenterX;
 @property(readonly, nonatomic) long long labelTextAlignment;
 @property(retain, nonatomic) NSLayoutConstraint *lastBaselineToBottom; // @synthesize lastBaselineToBottom=_lastBaselineToBottom;
 @property(readonly, nonatomic) long long layoutSize;

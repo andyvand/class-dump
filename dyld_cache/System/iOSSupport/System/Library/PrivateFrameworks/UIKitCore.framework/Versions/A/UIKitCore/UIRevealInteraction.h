@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)essing;
-- (void)pients:(id)arg1 %llu;
-- (void)g message due to excessive recipient count:(struct CGPoint)arg1 %llu maxRecipients:%llu /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)Ô!xð!BùÍ1¢!0@ù
-× ;
-- (id)_cancelAndRemoveInteractionFromDescriptors: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)lectionChange;
 
 @end
 

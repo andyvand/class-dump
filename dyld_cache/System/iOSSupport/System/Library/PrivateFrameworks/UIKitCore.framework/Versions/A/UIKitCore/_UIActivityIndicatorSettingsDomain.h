@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)als: /* Error: Ran out of types for this method. */;
 + (id);
-+ (Class)lpha;
-+ (id)ÿ)Ì°<d;
++ (id)reatePeripheralWithDOMHTMLSelectElement: /* Error: Ran out of types for this method. */;
++ (id)nOnLayer: /* Error: Ran out of types for this method. */;
++ (Class);
 
 @end
 

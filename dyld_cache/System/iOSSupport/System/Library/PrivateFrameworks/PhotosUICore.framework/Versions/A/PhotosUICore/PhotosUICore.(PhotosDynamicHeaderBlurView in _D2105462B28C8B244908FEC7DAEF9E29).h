@@ -12,10 +12,10 @@
     MISSING_TYPE *shadowView;
 }
 
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)CYÿØã;
 
 @end
 

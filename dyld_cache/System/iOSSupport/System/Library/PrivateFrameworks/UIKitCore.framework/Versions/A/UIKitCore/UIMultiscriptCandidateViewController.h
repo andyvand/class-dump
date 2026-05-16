@@ -18,36 +18,35 @@ __attribute__((visibility("hidden")))
     TIAutocorrectionList *_cachedCandidates;
 }
 
-- (_Bool)@0:8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32 /* Error: Ran out of types for this method. */;
-- (void)cingAttachments:(_Bool)arg1 didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
-- (void)transcriptBackgroundCommand;
-- (void)nAutomation;
+- (_Bool);
 - (void);
-- (void)ppingAttachmentAndControlCharacters;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id)};
 - (id);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (void);
 - (_Bool);
-- (void)MISSING__;
 - (_Bool);
-- (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (double)Ao!¤EùÁÐ1¢!0@ù
-× ;
-- (_Bool)ragCancellationDelay: /* Error: Ran out of types for this method. */;
-- (void)inToneChooserVariantsForString:(id)arg1;
-- (id)on: /* Error: Ran out of types for this method. */;
-- (_Bool)dth;
 - (id);
-- (_Bool);
-- (id)~>;
-- (void)¿j;
+- (id);
+- (double)1Â0@ù
+× ;
+- (_Bool)dexPath"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)orporateSample:(id)arg1;
+- (_Bool)sition;
+- (void)Action",R,N;
+- (void)"NSString",C,N,S_setLargeContentSizeTitle: /* Error: Ran out of types for this method. */;
+- (_Bool)ingSupport;
+- (id)(NSArray<_UICollectionLayoutFramesQueryResult *> *const __strong _Nonnull, CGRect, CGRect, BOOL)_block_invoke_2;
+- (void)$\;
+- (void)ÿÊ´;
 
 // Remaining properties
 @property(retain, nonatomic) TIAutocorrectionList *cachedCandidates; // @synthesize cachedCandidates=_cachedCandidates;

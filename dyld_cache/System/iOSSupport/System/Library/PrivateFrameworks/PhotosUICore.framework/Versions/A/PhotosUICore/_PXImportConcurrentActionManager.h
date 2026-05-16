@@ -11,11 +11,10 @@
     NSMutableArray *_operations;
 }
 
-+ (id)/ÓKòß8;
-- (void);
++ (id)Ø¾+ÿ0¿+ÿddÿ;
 - (id);
-- (void)
-× ;
+- (void);
+- (void)counts:(id)arg1 %lu != %lu;
 - (void);
 
 @end

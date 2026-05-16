@@ -15,9 +15,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)orFirstUnreadMessage;
+- (void)atuses;
+- (void)y¢k`ð;
 
 @end
 

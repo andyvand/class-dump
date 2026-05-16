@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)þm;
-- (id)sture:(id)arg1;
++ (_Bool)ification;
+- (id)iew"8@"UITraitCollection"16;
 
 @end
 

@@ -23,9 +23,9 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType)content access date for cached document resource with digest:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id);
 - (void);
-- (id)geWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;

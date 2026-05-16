@@ -26,8 +26,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HRERankConfidenceController *rankingController; // @synthesize rankingController=_rankingController;

@@ -15,12 +15,11 @@
 }
 
 - (id);
-- (void);
+- (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long)
-× ;
-- (void)-[WFAction performSmartPromptChecksWithUserInterface:(unsigned long long)arg1 contentDestination:contentItemCache:isWebpageCoercion:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)utedNotifications:(id)arg1;
+- (void)t more space than normal audio, so stick with normal unless you really need it. Normal audio is returned as an M4A file (with AAC audio), while high-quality audio is returned in uncompressed WAV format.;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *filters; // @synthesize filters=_filters;

@@ -13,11 +13,11 @@
 }
 
 - (void);
-- (id)Z;
-- (void);
-- (void);
 - (id);
-- (id)gLegacy(BOOL, NSUInteger, IMCoreSpotlightIndexReason, __strong dispatch_block_t);
+- (id);
+- (id);
+- (void)ies from %ld;
+- (void)ansfer_state, is_outgoing, user_info, transfer_name, total_bytes, is_sticker, sticker_user_info, attribution_info, hide_attachment, ck_sync_state, ck_server_change_token_blob, ck_record_id, original_guid, is_commsafety_sensitive, emoji_image_content_identifier, emoji_image_short_description, preview_generation_state FROM attachment WHERE guid = ? ORDER BY ROWID DESC;;
 
 // Remaining properties
 @property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;

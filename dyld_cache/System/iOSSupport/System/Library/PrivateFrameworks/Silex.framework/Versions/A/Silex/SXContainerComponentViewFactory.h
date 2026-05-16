@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)amilyProvider;
+- (int);
+- (void)"40@0:8@"TSWPHyperlinkField"16@"TSDRep<TSWPHyperlinkHostRepProtocol>"24@"<TSDGesture>"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXMediaSharingPolicyProvider> mediaSharingPolicyProvider; // @synthesize mediaSharingPolicyProvider=_mediaSharingPolicyProvider;

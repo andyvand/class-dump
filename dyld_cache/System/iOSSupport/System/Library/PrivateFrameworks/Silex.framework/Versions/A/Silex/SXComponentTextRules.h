@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
@@ -39,12 +39,12 @@
 - (void);
 - (double);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)lueprintMarker>";
 
 // Remaining properties
 @property(nonatomic) _Bool allowsScrollPositionRestore; // @synthesize allowsScrollPositionRestore=_allowsScrollPositionRestore;

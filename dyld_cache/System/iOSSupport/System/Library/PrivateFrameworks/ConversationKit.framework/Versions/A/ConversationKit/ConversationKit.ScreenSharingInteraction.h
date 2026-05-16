@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)GGAPy8ðSgGGAPyìSgGGó¢yAL#òySayÂçÏGA2_a¢yAAyACyAL_zñAESgtGGGGóGG_Qo_YæG»¢GtGGtGGG;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *view; // @synthesize view;

@@ -11,12 +11,11 @@
 }
 
 + (id);
-+ (id)c;
-- (struct _NSRange)G;
++ (id);
+- (struct _NSRange);
 - (id);
 - (long long);
-- (id)0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;

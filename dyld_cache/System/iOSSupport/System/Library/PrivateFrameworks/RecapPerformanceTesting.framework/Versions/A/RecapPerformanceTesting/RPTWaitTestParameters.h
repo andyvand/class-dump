@@ -18,10 +18,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (double);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id);
 - (id);
 
 // Remaining properties

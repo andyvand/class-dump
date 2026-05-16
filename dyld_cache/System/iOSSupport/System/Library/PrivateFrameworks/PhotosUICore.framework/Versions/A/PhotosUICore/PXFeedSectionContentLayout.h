@@ -75,13 +75,13 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)Type;
-- (void)é;
-- (id)lbumVisibilityObserver;
-- (void)!9;
-- (id);
+- (void)ift;
+- (void);
+- (void)Å;
+- (id),MØÿ:Âè6 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFeedAutoplayController *autoplayController; // @synthesize autoplayController=_autoplayController;

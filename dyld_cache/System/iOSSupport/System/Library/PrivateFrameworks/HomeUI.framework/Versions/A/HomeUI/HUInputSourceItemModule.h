@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)centUpdatesItemManager.m;
 
 // Remaining properties
 @property(readonly, nonatomic) HFItem *chooseInputsSelectionItem; // @synthesize chooseInputsSelectionItem=_chooseInputsSelectionItem;

@@ -26,14 +26,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)cteristicValueWriter>";
+- (void);
+- (id)mation characteristic %@!;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;

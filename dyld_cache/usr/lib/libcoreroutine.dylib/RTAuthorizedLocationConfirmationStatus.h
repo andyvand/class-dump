@@ -18,7 +18,7 @@
 
 + (id);
 + (id);
-+ (_Bool)n %s:%d) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (long long);
 - (long long);
@@ -28,16 +28,16 @@
 - (void);
 - (void);
 - (void);
-- (id)86;
+- (id);
 - (id);
 - (long long);
 - (long long);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long confirmationStatus; // @synthesize confirmationStatus=_confirmationStatus;

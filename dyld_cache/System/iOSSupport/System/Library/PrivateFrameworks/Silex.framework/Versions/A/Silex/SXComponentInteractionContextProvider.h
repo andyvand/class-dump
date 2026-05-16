@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)d16d24@"SXLayoutOptions"32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;

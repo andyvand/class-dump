@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)content access date value. Error:(CDStruct_70511ce9 *)arg1 %@;
 @end
 

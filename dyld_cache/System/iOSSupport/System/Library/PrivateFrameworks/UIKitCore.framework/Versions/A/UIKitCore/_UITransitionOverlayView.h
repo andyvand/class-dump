@@ -17,14 +17,14 @@
 }
 
 - (CDUnknownBlockType);
-- (void)T;
-- (void)earchableItemsDidUpdate(_:mask:) /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)e=dd}}8;
+- (id)putValueForFormatter:(id)arg1;
+- (id);
+- (void)pDl;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType transitionCompletionBlock;

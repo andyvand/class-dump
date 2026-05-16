@@ -12,11 +12,11 @@
     unsigned long long _resultType;
 }
 
+- (void);
+- (unsigned long long);
+- (void);
 - (id);
 - (void);
-- (void)InsertionInDrawing:(id)arg1;
-- (unsigned long long);
-- (void)vuæ»;
 
 // Remaining properties
 @property(nonatomic) unsigned long long resultType; // @synthesize resultType=_resultType;

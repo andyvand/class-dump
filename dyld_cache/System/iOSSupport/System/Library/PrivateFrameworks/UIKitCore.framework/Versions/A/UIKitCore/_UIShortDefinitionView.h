@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (id)missButtonVisible;
+- (void)ÝÜÜÜÜÜì?]]]]]]í?þýýýýýí?;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDefinitionValue *definitionValue;

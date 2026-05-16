@@ -11,9 +11,9 @@
     MISSING_TYPE *buttonFrame;
 }
 
-- (id);
-- (id);
+- (id)ù6;
 - (void);
+- (id);
 
 @end
 

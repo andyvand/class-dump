@@ -12,19 +12,19 @@
 {
 }
 
-+ (long long)ithUserSpecificPlaceType:placeType:starting: /* Error: Ran out of types for this method. */;
-+ (id)tribution;
-+ (id)rURL;
-+ (id)umDevices;
-+ (id)_modeUUID;
-+ (id)tractBlock;
-+ (void)activationCompletion;
-+ (void)Store;
-+ (void)V_query;
-+ (void),N,V_contextStore;
-+ (void)e;
++ (long long);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 - (id);
-- (id)@104@112@120B128@132@140@148@156@164@172@180@188;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;

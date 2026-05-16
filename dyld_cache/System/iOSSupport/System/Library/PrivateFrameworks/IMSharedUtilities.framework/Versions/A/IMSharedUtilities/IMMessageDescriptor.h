@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)RepresentationType;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *messageBody; // @synthesize messageBody=_messageBody;

@@ -18,8 +18,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *itemView; // @synthesize itemView=_itemView;

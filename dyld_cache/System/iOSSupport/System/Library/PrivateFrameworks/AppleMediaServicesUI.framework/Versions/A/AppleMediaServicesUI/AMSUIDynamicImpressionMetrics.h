@@ -17,10 +17,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
+- (void)ithTarget:action: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *custom; // @synthesize custom=_custom;

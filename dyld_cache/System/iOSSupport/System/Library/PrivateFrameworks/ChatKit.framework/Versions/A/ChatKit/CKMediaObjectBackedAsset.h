@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (long long)s;
-- (id)e to find note after accepting share %@;
-- (Class)er:] /* Error: Ran out of types for this method. */;
+- (long long);
+- (id);
+- (Class);
 - (id);
 - (id);
 - (struct CGSize);
@@ -25,20 +25,22 @@
 - (long long);
 - (id);
 - (id);
-- (id)?;
-- (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long)d40@0:8@16@24@32 /* Error: Ran out of types for this method. */;
-- (id)D­G§Q­yAAyABy»l­f`­yÌ[ýÿGGGGG®^­yAYNü=SQ12CoreGraphicsyHCg0_GG[ýÿGG_áô­y_Úô­y_ëï­yyt+ù­yeû­y/h­G_Qo_GQo_Qo_Qo_;
-- (double)øµ®yB%®yAAy¹·®y[.®òÌýÿAHG6®y¨±®GG_Qo__Qo_³®GGG_Qo__l°®Qo__Qo_AKy½±®GG®y;
-- (double)E;
 - (unsigned long long);
+- (long long);
+- (double);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (id)0@ù
+× ;
+- (id)!äFù11Â0@ù
+× ;
+- (id)th;
+- (id)SharedOtherTypesCollectionViewCell;
+- (id)y]\yAYGA_GG;
+- (void)ÿÿ;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) CKAggregateAcknowledgmentChatItem *acknowledgmentChatItem;

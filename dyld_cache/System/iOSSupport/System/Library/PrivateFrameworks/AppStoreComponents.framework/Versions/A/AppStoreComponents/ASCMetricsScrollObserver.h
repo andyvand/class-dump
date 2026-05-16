@@ -28,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (struct CGRect);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (struct CGSize);
 - (void);
-- (id);
+- (struct CGSize)getSize:localizedName:topic: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *appearedModelIDs; // @synthesize appearedModelIDs=_appearedModelIDs;

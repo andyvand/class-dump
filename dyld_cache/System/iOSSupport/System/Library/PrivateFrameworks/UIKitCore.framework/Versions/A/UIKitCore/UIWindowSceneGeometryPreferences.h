@@ -8,9 +8,9 @@
 {
 }
 
-- (_Bool);
 - (id);
-- (long long)tempted to request the index path of an update that isn't actually an existing shadow update;
+- (_Bool)ewedCategory:(id)arg1;
+- (long long)NestedEventType;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _type;

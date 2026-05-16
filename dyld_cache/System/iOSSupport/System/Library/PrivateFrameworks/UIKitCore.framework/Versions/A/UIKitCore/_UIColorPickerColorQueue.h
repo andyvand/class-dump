@@ -19,13 +19,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)*;
-- (void);
-- (id)th;
-- (id)nWithFullSwipe;
-- (id)for scene session %@;
-- (void)-Emoji;
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)a	!°Bùe1Â0@ù
+× ;
+- (void)!XþÌSæ;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIColorPickerColorQueueDelegate> delegate; // @synthesize delegate=_delegate;

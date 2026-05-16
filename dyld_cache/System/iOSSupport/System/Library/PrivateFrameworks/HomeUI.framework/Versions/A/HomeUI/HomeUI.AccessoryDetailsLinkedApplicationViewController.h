@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)v32@0:(_Bool)arg1 8@"HMAccessoryDiagnosticInfo"16@"HMAccessory"24;
+- (void)Cell;
 
 @end
 

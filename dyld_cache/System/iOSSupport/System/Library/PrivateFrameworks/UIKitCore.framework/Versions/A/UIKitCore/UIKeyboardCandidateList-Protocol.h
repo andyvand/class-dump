@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIKeyboardBehaviors, TIKeyboardCandidate, TIKeyboardSecureCandidateRenderTraits;
+@class TIKeyboardCandidate;
 
 @protocol UIKeyboardCandidateList
-- (NSString *)bj;
-- (void)tions;
-- (void)opy failed;
-- (_Bool)pyInternal;
-- (void)35.100.11.1;
-- (void)KlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (TIKeyboardBehaviors *);
-- (_Bool)msBlock: /* Error: Ran out of types for this method. */;
-- (TIKeyboardCandidate *)rrentState=%u;
+- (_Bool)ÔÁ;
+- (unsigned long long)0@ù
+× ;
+- (TIKeyboardCandidate *)0@ù
+× ;
 
 @optional
-- (_Bool);
-- (void)ceRefKeyGetPubKey returned NULL;
-- (TIKeyboardSecureCandidateRenderTraits *)oBeginVertically;
-- (void)ç¹;
+- (void)3330æþ;
+- (void);
 @end
 

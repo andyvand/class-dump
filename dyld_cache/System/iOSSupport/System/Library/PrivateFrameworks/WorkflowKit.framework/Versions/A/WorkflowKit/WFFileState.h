@@ -18,12 +18,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void)l¤;
+- (void)ate);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

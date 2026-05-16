@@ -15,14 +15,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)rror;
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)ublic}@ %2i %{public}@  â discNumber:%ld :trackNumber:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ICRadioContentReference *ICRadioContentReference; // @synthesize ICRadioContentReference=_ICRadioContentReference;

@@ -21,7 +21,7 @@
 }
 
 - (int);
-- (float)#;
+- (float);
 - (void);
 - (void);
 - (void);
@@ -38,7 +38,7 @@
 - (int);
 - (float);
 - (float);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);

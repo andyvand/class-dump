@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
     struct _xmlParserCtxt *__parserContext;
 }
 
-+ (void)didUpdateFocusInContext:withAnimationCoordinator: /* Error: Ran out of types for this method. */;
++ (void)SiÕð2yÇÓ0yAAyAAy×0yAAyêÖ0]Ñ0yWÒ0SgGGîd0GXÄ0GANG_Qo__ç2Qo_GGÇ0y*Ã0yAAyIÖ0\Ð0ybe;
 - (void);
 - (void);
 - (void);
 - (struct _xmlParserCtxt *);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)adPromise;
 - (void);
 
 // Remaining properties

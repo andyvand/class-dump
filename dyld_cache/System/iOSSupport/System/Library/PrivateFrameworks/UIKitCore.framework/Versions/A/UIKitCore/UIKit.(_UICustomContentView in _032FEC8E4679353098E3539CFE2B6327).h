@@ -17,12 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void)ý/º;
-- (void);
-- (_Bool)0@ù
-× ;
-- (id)ðth;
-- (id)old;
+- (id);
+- (void)HitSize;
+- (_Bool)DirectionalChange;
+- (id)ion;
+- (void)È8ÓäÙl;
 
 // Remaining properties
 @property(nonatomic, retain) id <UIContentConfiguration> configuration;

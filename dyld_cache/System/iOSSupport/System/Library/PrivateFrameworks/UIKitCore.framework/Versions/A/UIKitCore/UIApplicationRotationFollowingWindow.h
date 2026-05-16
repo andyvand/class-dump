@@ -12,10 +12,11 @@
     long long _priorityLevel;
 }
 
-+ (_Bool)nterLiftMoveHysteresis: /* Error: Ran out of types for this method. */;
++ (_Bool)0@ù
+× ;
 - (void);
-- (_Bool)sis data. transfer %@, asset:%@ /* Error: Ran out of types for this method. */;
-- (void)nged;
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -24,14 +25,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)՚;
+- (_Bool);
 - (void);
 - (long long);
-- (id)mationBlock;
-- (_Bool)£k;
-- (id)ÅêÈ³ªl;
-- (id)Û>!n;
-- (id)ÿ;
+- (id);
+- (id);
+- (id)Response;
+- (id);ÚD[;
+- (_Bool)e;
 
 // Remaining properties
 @property(nonatomic) _Bool limitToWindowLevel; // @synthesize limitToWindowLevel=_limitToWindowLevel;

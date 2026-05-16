@@ -27,9 +27,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)areVersion;
+- (id);
+- (void)edTitleStatusActive;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

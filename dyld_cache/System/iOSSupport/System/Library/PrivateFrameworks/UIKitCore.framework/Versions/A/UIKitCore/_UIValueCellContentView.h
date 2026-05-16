@@ -20,43 +20,40 @@
     CDUnknownBlockType _primaryTextFrameDidChangeHandler;
 }
 
-- (struct _UIValueCellContentViewSizes)pletion:(struct CGSize)arg1;
+- (struct _UIValueCellContentViewSizes);
 - (id);
-- (void);
-- (void)yloadAllowWebDistributionAppInstallation;
-- (void);
-- (void);
 - (struct CGSize);
 - (id);
-- (double)topMode: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (void)Äð1¢!0@ù
-× ;
-- (id)!0@ù
-× ;
-- (void)ù
-× ;
-- (id)
-× ;
-- (void)lementKind:(struct CGRect)arg1 viewType: /* Error: Ran out of types for this method. */;
-- (id)tsForTypeSelectItems: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ler;
-- (id)oundRoundRectRadius;
 - (void);
-- (id)r;
-- (void)etTitleView;
-- (double)olStateHighlighted.;
-- (void)ûÿþÿ;
+- (void);
 - (id);
-- (struct CGRect)tion found.;
-- (struct CGSize)Content"8@"_UITitleContent"16;
-- (CDUnknownBlockType)ringPayloadIncreasingCapacityIfNeeded(_UIExternalIvarStorageAllocation * _Nullable * _Nonnull, const NSUInteger);
-- (id)wControllerAdaptiveSingleColumnLayout: /* Error: Ran out of types for this method. */;
-- (struct CGSize)tent;
+- (void);
+- (void)!ÈFùÑeÐ1Â0@ù
+× ;
+- (void)orKey:(id)arg1 name:style:renderConfig:size: /* Error: Ran out of types for this method. */;
+- (void)rving:(struct UIEdgeInsets)arg1;
+- (void)tBehaviorDict: /* Error: Ran out of types for this method. */;
+- (id)elWithBlock: /* Error: Ran out of types for this method. */;
+- (id):forUserActivity: /* Error: Ran out of types for this method. */;
+- (double)dDirection;
+- (CDUnknownBlockType)nged;
+- (void)lSafeAreaInsets;
+- (id)ForBounds: /* Error: Ran out of types for this method. */;
+- (void)erateBaselineCalculation;
+- (void)ion;
+- (struct CGSize)apperView;
+- (struct CGSize);
+- (id)lock assertion for reason:(id)arg1 %@;
+- (struct CGSize)recorded.%@;
+- (void)P®þ;
+- (double)oration at index [%d] is %@:%@ /* Error: Ran out of types for this method. */;
+- (void).3G;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preventFocus;

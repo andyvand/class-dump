@@ -13,8 +13,8 @@
 
 + (Class);
 - (id);
-- (void);
 - (id);
+- (void)ngierFlowRep"16;
 
 // Remaining properties
 @property(readonly, nonatomic) SXGradient *gradient; // @synthesize gradient=_gradient;

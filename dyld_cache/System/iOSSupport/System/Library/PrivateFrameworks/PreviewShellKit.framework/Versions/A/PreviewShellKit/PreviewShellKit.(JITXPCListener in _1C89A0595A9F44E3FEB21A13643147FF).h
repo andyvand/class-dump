@@ -15,9 +15,9 @@
     MISSING_TYPE *invalidationHandle;
 }
 
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 
 @end
 

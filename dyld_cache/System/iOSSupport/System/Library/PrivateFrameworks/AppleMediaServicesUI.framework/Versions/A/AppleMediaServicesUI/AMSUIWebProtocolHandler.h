@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     id <AMSUIWebProtocolDelegate> _delegate;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)xtÿÿ;
+- (void);
+- (void)roller: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUIWebProtocolDelegate> delegate; // @synthesize delegate=_delegate;

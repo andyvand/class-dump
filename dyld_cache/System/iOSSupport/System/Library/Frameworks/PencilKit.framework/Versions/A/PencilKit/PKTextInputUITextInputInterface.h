@@ -8,12 +8,12 @@
 {
 }
 
-+ (id)undFetchConfiguration initWithTaskIdentifier:(struct _NSRange)arg1 sessionIdentifier:(id)arg2 sharedContainerIdentifier:earliestBeginDate:timeout:] /* Error: Ran out of types for this method. */;
-+ (_Bool)ry/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Categories/NSDate+RCAdditions.m;
++ (id);
++ (_Bool);
 + (_Bool);
 + (id);
 + (struct _NSRange);
-+ (_Bool)c;
++ (_Bool);
 + (_Bool);
 + (void);
 + (id);
@@ -23,18 +23,18 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)-;
++ (id);
 + (_Bool);
-+ (struct CGRect)8;
++ (struct CGRect);
 + (_Bool);
-+ (long long)E;
++ (long long);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)@;
++ (_Bool);
 + (long long);
 + (long long);
-+ (struct CGRect);
++ (struct CGRect);
 + (struct CGRect);
 + (id);
 + (struct _NSRange);

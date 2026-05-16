@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine;
-
 @protocol MPCPlaybackEngineDelegate_Podcasts
-
-@optional
-- (void)coning:(MPCPlaybackEngine *)arg1 completion:(float)arg2;
 @end
 

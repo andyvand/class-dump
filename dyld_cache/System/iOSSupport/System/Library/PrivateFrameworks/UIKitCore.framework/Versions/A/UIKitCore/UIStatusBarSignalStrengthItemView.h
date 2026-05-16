@@ -18,15 +18,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)R,N;
-- (double)erFileProviderProtocol>",R,N;
-- (id)|@;
-- (_Bool)X;
+- (double);
+- (double);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)Ëð1¢!0@ù
-× ;
+- (void)4Å\;
+- (id)¤mã_j;
 
 @end
 

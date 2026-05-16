@@ -7,12 +7,9 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)0@ù
+- (_Bool)
 × ;
-
-@optional
-- (NSString *)!U°!Eù±W1b0@ù
-× ;
+- (struct _NSZone *).Picker.pickerUsed;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

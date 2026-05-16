@@ -35,16 +35,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool)28@"NSDictionary"32@"NSString"40@"NSString"48;
-- (void)toreAtExternalLocation:(_Bool)arg1 completion:(_Bool)arg2;
-- (_Bool)ion: /* Error: Ran out of types for this method. */;
-- (void)rTesting;
-- (id)d:(id)arg1 eventName:(struct CGRect)arg2 forGUID:(long long)arg3 messageExtras: /* Error: Ran out of types for this method. */;
-- (void)DWasDeletedBlock:(struct CGRect)arg1;
-- (id)ckgroundUpdateInfo",&,N,V_refresh;
-- (struct CGRect)ier",&,N,V_acceptedContactsChangeNotifier;
-- (struct UIEdgeInsets)ssageRecordZone;
-- (void)seUtilitiesAdditions;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (struct CGRect);
+- (struct UIEdgeInsets);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -52,12 +52,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (id)eting transfer GUID from %@ to %@;
+- (id);
 - (void);
-- (struct CGRect);
-- (long long)pacityAfterAnimation;
-- (void)slucentKeyboard;
-- (void)#`;
+- (void);
+- (struct CGRect)Activity"8;
+- (void)P\;
+- (long long)Üÿ;
 
 // Remaining properties
 @property(retain, nonatomic) _UIEditMenuContainerView *containerView; // @dynamic containerView;

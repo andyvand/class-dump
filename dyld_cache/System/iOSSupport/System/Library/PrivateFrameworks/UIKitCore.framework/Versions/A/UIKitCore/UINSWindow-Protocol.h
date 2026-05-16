@@ -5,35 +5,17 @@
 //
 
 @class NSArray, NSISEngine, NSObject, NSString, NSToolbar, NSURL, NSView, NSViewHost, NSWindow, UINSSceneViewController, UIScene, UIWindow;
-@protocol NSScrollViewSeparatorTrackingAdapter, NSSidebarTrackingAdapter, NSSplitViewItemSeparatorTrackingAdapter, UINSTouchBarCoordinator;
+@protocol NSSidebarTrackingAdapter, NSSplitViewItemSeparatorTrackingAdapter, UINSTouchBarCoordinator;
 
 @protocol UINSWindow
-- (id)!;
-- (long long)X;
-- (void);
-- (NSView *);
-- (void);
-- (_Bool);
-- (NSObject<NSSplitViewItemSeparatorTrackingAdapter> *)@;
-- (void);
-- (void)B;
-- (_Bool)%@; function %@; line:(NSObject<NSScrollViewSeparatorTrackingAdapter> *)arg1 %@);
-- (void)AN>X<HISTORY>, where HISTORY is in range [;
-- (void)elObjC;
-- (struct CGSize);
-- (_Bool)a;
-- (void)@32B40@44^@52;
-- (void);
-- (NSString *)=iº;
-- (void)EùqÈÐ1¢!0@ù
-× ;
-- (NSString *)"UITraitCollection"16;
-- (NSString *)UIKit.UITabSidebar;
-- (_Bool)ss;
-- (_Bool)¡\ÿ3`É;
-
-@optional
-- (void);
+- (NSToolbar *)× ;
+- (void)ectsSubView;
+- (void)tableDictionary",&,N,V_touches;
+- (NSString *);
+- (NSString *)@>;
+- (_Bool)tion header height must not be negative - provided height for section %ld is %f;
+- (NSString *)ry;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UIScene *UIScene;

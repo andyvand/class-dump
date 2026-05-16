@@ -14,8 +14,8 @@
 
 + (id);
 - (id);
-- (void);
-- (id),V_invalidated;
+- (id);
+- (void){_;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;

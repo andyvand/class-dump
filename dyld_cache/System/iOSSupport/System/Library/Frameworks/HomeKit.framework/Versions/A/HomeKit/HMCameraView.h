@@ -11,14 +11,15 @@
     HMCameraSource *_cameraSource;
 }
 
-+ (id);
++ (id)FD0-B152-BCDB488446C6;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void)1B50@ù
+× ;
+- (void)P$¼;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraSource *cameraSource; // @synthesize cameraSource=_cameraSource;

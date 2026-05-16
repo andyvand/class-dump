@@ -20,22 +20,22 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)lectReasonUnknown;
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)ier;
-- (void);
+- (id);
 - (long long);
-- (void);
 - (id);
 - (void);
-- (void) ÷;
-- (void)àÿæN;
+- (void)an_visit_duration_weekend_others;
+- (void), setting it to the default value.;
+- (void)%s:%d) /* Error: Ran out of types for this method. */;
+- (void)Î;
 
 // Remaining properties
 @property(nonatomic) long long encryptedDataAvailability; // @synthesize encryptedDataAvailability=_encryptedDataAvailability;

@@ -49,78 +49,76 @@
 - (void);
 - (void);
 - (void);
-- (void)P;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)scripting.updateContentScripts() (%{public}lu %{public}s) in %{public}s world;
-- (_Bool)ster_CreateConnectionTesterAndSendAsyncMessages;
-- (_Bool)bCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, int>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)	;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool)setNeedsDeferredUpdateWithReason: /* Error: Ran out of types for this method. */;
+- (id)tachmentsForIDs:style:onServices:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (id)WithHandles:allowAlternativeService:groupID: /* Error: Ran out of types for this method. */;
+- (void)Àzì}	Ü@;
+- (id);
+- (id)ap to show message;
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long)D9h;
-- (void)V;
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void),&,N,V_topPaddingConstraint;
-- (void);
-- (void);
-- (void)Ð1¢!0@ù
-× ;
-- (id)0@ù
-× ;
-- (id)|.;
-- (id)¤4¥}­~üÅ;
-- (_Bool)initializing to Pending;
-- (void)@?40@?48;
-- (id)sageTotalCount;
-- (id);
-- (void)Õzlr;
-- (void)â;
+- (long long)¨;
+- (void)x³;
+- (void)TfÆ;
+- (void)f;
 
 // Remaining properties
 @property(readonly) _Bool allowedByScreenTime;

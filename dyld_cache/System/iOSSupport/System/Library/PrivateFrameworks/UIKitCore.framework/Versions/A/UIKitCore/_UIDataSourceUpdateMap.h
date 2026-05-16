@@ -18,15 +18,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)le eligible for purging:(id)arg1 %@;
-+ (id)d -> %d update reason:(id)arg1 %d -> %d];
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -37,36 +37,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)rd;
-- (void)te:(id)arg1;
-- (id)yload:(id)arg1;
-- (long long)erationFactory:(long long)arg1 token:(id)arg2 batchSize:(id)arg3 activity: /* Error: Ran out of types for this method. */;
-- (id)nHandler:(id)arg1;
-- (id)agesPerService;
+- (id);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)>;
-- (id)#;
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void)dling, blastdoor not supported in %{public}@ yet;
+- (void);
+- (long long);
 - (id);
-- (id)FileOpaquedReferenceData failed to create fileReferenceData.;
 - (id);
 - (id);
-- (void)ÈQ3ç;
-- (long long)!PDù1Íð1¢!0@ù
-× ;
-- (id)ode: /* Error: Ran out of types for this method. */;
-- (long long)rBarButtonItemGroups:(long long)arg1;
-- (id)t;
-- (void)apple.menu.help;
-- (id)ð°ÿ;
+- (id);
+- (id)resentation;
+- (id)nt=dd}{CGSize=dd}},R,N,V_rect;
+- (id)but could not load class with name "%@".;
+- (long long)UIKitCore/UIButtonConfiguration.swift;
+- (void);
+- (void)ÆI;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDataSourceBatchUpdateMapHelper *batchUpdateMapHelper; // @synthesize batchUpdateMapHelper=_batchUpdateMapHelper;

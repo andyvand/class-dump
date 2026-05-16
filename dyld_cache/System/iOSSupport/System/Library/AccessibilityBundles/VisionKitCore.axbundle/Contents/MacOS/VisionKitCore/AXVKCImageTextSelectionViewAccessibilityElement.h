@@ -17,10 +17,10 @@
 - (id);
 - (void);
 - (struct _NSRange);
-- (void);
 - (struct CGRect);
-- (struct _NSRange);
 - (id);
+- (struct _NSRange);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *_accessibilityContent; // @synthesize _accessibilityContent=__accessibilityContent;

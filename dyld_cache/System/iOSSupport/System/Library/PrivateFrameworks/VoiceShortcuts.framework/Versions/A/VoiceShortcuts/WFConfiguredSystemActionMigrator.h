@@ -22,10 +22,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)yPathForWiFiConnectionSSID;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFConfiguredSystemActionProvider *actionProvider; // @synthesize actionProvider=_actionProvider;

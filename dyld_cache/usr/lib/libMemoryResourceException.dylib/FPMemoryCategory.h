@@ -20,34 +20,36 @@
     unsigned long long _totalWiredSize;
 }
 
-- (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (_Bool);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
+- (void);
+- (id);
 - (id);
 - (unsigned int);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *auxData;
 @property(readonly, nonatomic) NSString *auxDataFullName;
 @property(readonly, nonatomic) NSString *detailedName;
 @property(readonly, nonatomic) NSString *fullName;
+@property(readonly, nonatomic) _Bool hasNoFootprint;
 @property(readonly, nonatomic) NSString *name;
 @property(nonatomic) unsigned long long totalCleanSize; // @synthesize totalCleanSize=_totalCleanSize;
 @property(nonatomic) unsigned long long totalDirtySize; // @synthesize totalDirtySize=_totalDirtySize;

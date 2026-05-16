@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIKeyboardVisualModeManager;
+
 @protocol UIKeyboardVisualModeManagerDelegate
-- (_Bool)Ï¹;
-- (_Bool)!@ùñÎ°1¢!0@ù
-× ;
-- (_Bool)in;
-- (_Bool)Ä¥x§À§ü¨@©0¯ô¯;
-- (void)iptionTargetTransformKey;
+- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (_Bool)rsorAccessory;
+- (void)onForTouchUp:(UIKeyboardVisualModeManager *)arg1 withActions:(int)arg2 timestamp:interval:didLongPress:prevActions:executionContext: /* Error: Ran out of types for this method. */;
+- (_Bool)es;
+- (_Bool)ons;
+- (_Bool)nt;
 @end
 

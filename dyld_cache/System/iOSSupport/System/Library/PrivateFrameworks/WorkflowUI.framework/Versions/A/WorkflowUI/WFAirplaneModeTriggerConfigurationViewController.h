@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (long long);
 - (id);
+- (long long);
 - (void);
 - (long long);
-- (void)ÐW;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

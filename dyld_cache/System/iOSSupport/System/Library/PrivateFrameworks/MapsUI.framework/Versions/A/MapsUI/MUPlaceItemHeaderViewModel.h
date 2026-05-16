@@ -31,7 +31,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ded;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isUserSpecificPlaceItem;

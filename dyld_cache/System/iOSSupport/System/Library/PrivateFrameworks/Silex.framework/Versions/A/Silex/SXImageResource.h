@@ -16,8 +16,8 @@
 - (_Bool);
 - (struct CGSize);
 - (double);
-- (id);
 - (struct CGSize);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;

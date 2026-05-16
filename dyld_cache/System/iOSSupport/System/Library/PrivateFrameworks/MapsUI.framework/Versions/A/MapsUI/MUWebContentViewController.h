@@ -45,21 +45,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (void)ÉDÊ;
 - (void);
-- (_Bool)odel;
+- (id);
+- (void)tion;
+- (_Bool)æ³;
 
 // Remaining properties
 @property(retain, nonatomic) MUPlaceEnrichmentActionManager *actionManager; // @synthesize actionManager=_actionManager;

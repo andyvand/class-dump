@@ -19,13 +19,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)PlaybackDate;
-+ (id)eþP;
++ (id);
++ (id)@ù
+× ;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)ateVolumeAnimated:(struct _NSZone *)arg1 silenceVolumeHUD: /* Error: Ran out of types for this method. */;
+- (_Bool)p:(id)arg1;
+- (id)eTableLayoutDelegateMetrics;
 - (void);
-- (id)w;
 
 @end
 

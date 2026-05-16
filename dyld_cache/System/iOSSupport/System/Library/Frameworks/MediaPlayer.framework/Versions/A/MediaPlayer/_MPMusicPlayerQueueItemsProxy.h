@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
-- (unsigned long long)SourceAndTokenClasses;
+- (id);
+- (unsigned long long);
+- (id);
+- (void)ist;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPMusicPlayerApplicationController *controller; // @synthesize controller=_controller;

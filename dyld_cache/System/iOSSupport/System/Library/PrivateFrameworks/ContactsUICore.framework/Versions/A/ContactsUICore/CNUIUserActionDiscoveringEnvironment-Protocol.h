@@ -8,9 +8,7 @@
 @protocol CNCapabilities, CNLSApplicationWorkspace, CNMCProfileConnection, CNSchedulerProvider, CNTUCallProviderManager, CNUIDefaultUserActionFetcher, CNUIRTTUtilities, CNUIUserActionTargetDiscovering;
 
 @protocol CNUIUserActionDiscoveringEnvironment
-- (CNContactStore *)Vÿÿ
-.þÿ;
-- (id <CNSchedulerProvider>)yle;
+- (CNContactStore *)onSection;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace;

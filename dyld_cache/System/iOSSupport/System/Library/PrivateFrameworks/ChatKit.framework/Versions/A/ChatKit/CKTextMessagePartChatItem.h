@@ -6,23 +6,26 @@
 
 #import <ChatKit/CKMessagePartChatItem.h>
 
-@class NSArray, NSAttributedString, NSItemProvider, NSOrderedSet;
+@class NSArray, NSAttributedString, NSItemProvider, NSLocale, NSOrderedSet;
 
 @interface CKTextMessagePartChatItem : CKMessagePartChatItem
 {
     NSItemProvider *_dragItemProvider;
     long long _bigEmojiStyle;
     _Bool _hasCachedBigEmojiStyle;
+    NSLocale *_translationSourceLanguage;
+    NSLocale *_translationTargetLanguage;
 }
 
-- (void)tring:inFolder:error: /* Error: Ran out of types for this method. */;
-- (id)Controller;
-- (struct UIEdgeInsets)lorAlreadyExists: /* Error: Ran out of types for this method. */;
-- (id)WithMatchFinder:forAttributedString:inRange:highlightedAttributes: /* Error: Ran out of types for this method. */;
-- (_Bool)LegacyFolderIsValid: /* Error: Ran out of types for this method. */;
-- (_Bool)y: /* Error: Ran out of types for this method. */;
-- (id)ersister:(id)arg1 managedObjectContext:error: /* Error: Ran out of types for this method. */;
-- (id)ivityView;
+- (void);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,20 +35,21 @@
 - (id);
 - (_Bool);
 - (Class);
-- (id)e;
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)t;
-- (id)e;
-- (id)t the note;
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (Class);
-- (_Bool)evices;
-- (double)PasswordWithPrompt:result:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (_Bool)rationRequest;
-- (id)sAudioTranscriptInteractionNotificationTypesKey;
-- (_Bool)r;
+- (_Bool);
+- (double);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,10 +57,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)V_alternateTranscriptText;
-- (id)Hx;
+- (id)DescriptorByRemovingSymbolicTrait: /* Error: Ran out of types for this method. */;
+- (void)°;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double ageForTextEffectCoordination;
@@ -71,6 +75,8 @@
 @property(readonly, copy, nonatomic) NSAttributedString *text;
 @property(readonly, copy, nonatomic) NSOrderedSet *transferGUIDsInMessagePartText;
 @property(readonly, copy, nonatomic) NSAttributedString *translationSecondaryText;
+@property(readonly, nonatomic) NSLocale *translationSourceLanguage; // @synthesize translationSourceLanguage=_translationSourceLanguage;
+@property(readonly, nonatomic) NSLocale *translationTargetLanguage; // @synthesize translationTargetLanguage=_translationTargetLanguage;
 
 @end
 

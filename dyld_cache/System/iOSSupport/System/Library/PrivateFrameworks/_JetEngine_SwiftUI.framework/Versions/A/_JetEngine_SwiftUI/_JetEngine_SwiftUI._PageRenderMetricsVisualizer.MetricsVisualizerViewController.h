@@ -13,9 +13,9 @@
     MISSING_TYPE *eventLabel;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 @end

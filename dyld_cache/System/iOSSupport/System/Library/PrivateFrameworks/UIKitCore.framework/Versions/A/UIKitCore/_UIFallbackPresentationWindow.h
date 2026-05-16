@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)ewForFirst: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)p^;
++ (_Bool)!;
+- (_Bool);
+- (_Bool)index path of an inserted shadow update should never be nil;
 
 @end
 

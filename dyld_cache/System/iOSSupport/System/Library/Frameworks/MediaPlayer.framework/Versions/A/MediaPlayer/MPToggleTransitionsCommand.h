@@ -13,10 +13,10 @@
 }
 
 - (id);
+- (void);
+- (void);
 - (_Bool);
 - (long long);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

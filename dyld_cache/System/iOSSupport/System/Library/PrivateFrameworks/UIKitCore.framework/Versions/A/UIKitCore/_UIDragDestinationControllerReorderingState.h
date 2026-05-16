@@ -21,34 +21,36 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool)WithIdentifier:valuesForProperties:itemsQuery:grouping:representativeItemIdentifier:propertiesCache: /* Error: Ran out of types for this method. */;
-- (void)te__MAPPING_MISSING__;
-- (void)MPChangeQueueEndActionCommand",R,N,V_changeQueueEndActionCommand;
-- (id)ittableEnumerationResults;
-- (id)tworkArtworkDataSource:-URLSession:task:didCompleteWithError:finished loading request:%p. URL=%{public}@ dataTask=%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
+- (long long);
 - (double);
-- (void);
-- (void)lerInterfaceActionGroupView";
-- (void)fNeeded;
-- (long long)intColorForStyle: /* Error: Ran out of types for this method. */;
-- (_Bool)=dd}{CGSize=dd}},N,V_pocketRectInNSWindow;
-- (void)mentUnavailableConfiguration",R,N;
-- (void)¬y{L~;
-- (void)ð;
-- (void)ë;
-- (void);
-- (id)ide multiline views (%lu) for optional width disambiguation. Making required constraints instead. Layout might be broken. Stack view:%@ /* Error: Ran out of types for this method. */;
-- (void)g -- scrolled to the start of layout axis (%@);
 - (id);
-- (long long)nControllerUnifiedToolbar;
+- (id);
 - (void);
 - (void);
+- (void)× ;
+- (long long)¡;
+- (void)Ô°!Fù]Ð1Â0@ù
+× ;
+- (_Bool)Ð!8GùqcÐ1Â0@ù
+× ;
+- (id);
+- (void)2@0:(double)arg1 8@"UITableViewCell"16@"UITouch"24;
+- (_Bool):8o^d16@24{CGSize=dd}32 /* Error: Ran out of types for this method. */;
+- (id)tected;
+- (void)yContents:withTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)FloatingContentView:(double)arg1;
+- (void)thoutBouncingIncludingRevealableContentPaddingTopY;
+- (id)eftFrame;
+- (_Bool);
+- (void)Dtuv<w@xy;
+- (void)}@ send trait collection or coordinate space update, interface style %{public}ld -> %{public}ld, %{public}@ (%{public}@);
+- (void)eloadInputViewsForKeyWindowSceneResponder, updateInputViewsIfNecessary for geometryDelegate:(id)arg1 %@;
+- (void)Values;
+- (void)ngeNotification;
+- (void)ctionary"8@"UICollectionViewLayoutAttributes"16;
+- (id)=Refresh;
+- (void)s not expected to use TAMIC;
+- (void) K;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

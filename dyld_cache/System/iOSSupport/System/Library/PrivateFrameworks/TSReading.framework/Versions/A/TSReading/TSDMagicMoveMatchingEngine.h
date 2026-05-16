@@ -13,10 +13,10 @@
 
 + (id);
 - (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id)onHighlightLayerInvalidateDisplay;
 
 @end
 

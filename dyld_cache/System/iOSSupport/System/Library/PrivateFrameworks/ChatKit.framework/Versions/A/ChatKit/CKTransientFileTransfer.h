@@ -47,18 +47,18 @@
     NSURL *animatedImageCacheURL;
 }
 
-- (void)hIdentifier:(id)arg1 subtype: /* Error: Ran out of types for this method. */;
-- (void)(;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool)dSelectMode;
-- (_Bool)Model;
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool)eC;
-- (void)tachmentC;
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -79,23 +79,23 @@
 - (id);
 - (id);
 - (id);
-- (id)P;
-- (_Bool);
 - (id);
-- (long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (long long);
 - (id);
-- (id)SnapshotView;
-- (id)lternate;
-- (id);
-- (_Bool),;
-- (_Bool)¸Ç;
-- (id)÷oÿ´36ï¿-;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)gþÿîøÿmþÿldûÿLeûÿ8ùÿ;
+- (id);
+- (void)pple.systempreferences:com.apple.preference.security?Privacy_LocationServices /* Error: Ran out of types for this method. */;
+- (id)£å;
 
 // Remaining properties
 @property(retain, nonatomic) IMMessage *IMMessage; // @synthesize IMMessage;

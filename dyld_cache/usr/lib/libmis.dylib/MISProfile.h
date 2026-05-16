@@ -22,16 +22,16 @@
 - (int);
 - (struct CEQueryContext *);
 - (id);
-- (void)nKeyAssetRelationship;
 - (void);
 - (void);
-- (int)cleRotation:maskScale:maskScaleConstant:maskMovement:maskDepth:initialRandomRotation:maskInitialRandomOffset:adjustEndCapParticleAlpha:particleBlendMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)z;
+- (int);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy) NSArray *certs; // @synthesize certs;

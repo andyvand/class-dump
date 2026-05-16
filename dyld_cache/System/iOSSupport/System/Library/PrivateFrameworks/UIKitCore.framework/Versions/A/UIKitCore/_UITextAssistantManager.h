@@ -25,12 +25,12 @@ __attribute__((visibility("hidden")))
     UITextView *_textView;
 }
 
-- (void)as set;
-- (void)pecting CFArray or CFString;
-- (void)t from AMFDRSealingMapCopyDataInstanceForSealingMapEntry, expecting CFArray or CFString;
-- (void)copyFDRProductType_block_invoke;
-- (void)4.payload_hashed is false;
-- (void)tag length;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,29 +41,29 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (CDStruct_24e43724);
-- (void)$;
+- (void);
 - (id);
 - (void);
-- (void)erPackGUIDToPackMap:(id)arg1;
-- (void)ChatList;
-- (id)ts:(long long)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)1;
 - (void);
 - (void);
-- (void)T;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct _NSRange);
-- (void)ackRateCommand",R,N,V_changePlaybackRateCommand;
 - (void);
-- (id)haracters: /* Error: Ran out of types for this method. */;
-- (id)ow:(id)arg1;
-- (id):reversed: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)DocumentMovedPopoverViewController;
+- (id),DäD;
+- (void)7_ypt;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

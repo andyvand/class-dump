@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol SafariExtensionHelperProtocol
-- (void)rKey:(NSString *)arg1;
-- (void)orKey:(NSString *)arg1;
 @end
 

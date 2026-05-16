@@ -20,24 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (void)ibswift_Builtin_float.dylib;
+- (void);
 - (_Bool);
-- (void)ting user segmentation config with foreground refresh rate:(id)arg1 %lu background refresh rate:(_Bool)arg2 %lu modMax:(_Bool)arg3 %lu modThreshold:%lu /* Error: Ran out of types for this method. */;
-- (void)nSettings initWithRequestKey:(id)arg1 responseKey:userID:storefrontID:bundleID:deviceInfo:debugOverrides:backgroundFetchConfiguration:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (_Bool);
-- (void)%;
+- (void);
 - (void);
 - (id);
-- (void)k.;
-- (void)mpletion:(id)arg1;
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)aint;
 
 // Remaining properties
 @property(retain, nonatomic) NSNotification *_delayedNotification; // @synthesize _delayedNotification=__delayedNotification;

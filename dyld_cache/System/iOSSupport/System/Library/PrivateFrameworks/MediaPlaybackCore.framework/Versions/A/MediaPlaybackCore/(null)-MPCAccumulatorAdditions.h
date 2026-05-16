@@ -5,6 +5,6 @@
 //
 
 @interface (null) (MPCAccumulatorAdditions)
-- (id)tegerValue;
+- (id);
 @end
 

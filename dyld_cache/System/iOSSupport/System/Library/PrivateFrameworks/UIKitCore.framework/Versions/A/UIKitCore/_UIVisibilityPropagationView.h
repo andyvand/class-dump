@@ -13,13 +13,13 @@
     _UIVisibilityPropagationInteraction *_interaction;
 }
 
-- (void)ioStationArtwork__MAPPING_MISSING__;
-- (id);
 - (void);
-- (void):(_Bool)arg1;
-- (_Bool)ph;
-- (id)le to create security task for checking code sign status;
-- (void)ContentView.staticButton;
+- (id);
+- (void)@"UISApplicationInitializationContext"16@0:(id)arg1 8;
+- (_Bool)eOfDayRect;
+- (id);
+- (void)IKit41_UILightEffectTransitionPreparationHandleP;
+- (void)^;
 
 // Remaining properties
 @property(nonatomic, getter=isVisibilityPropagationEnabled) _Bool visibilityPropagationEnabled;

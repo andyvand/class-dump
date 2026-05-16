@@ -18,20 +18,20 @@ __attribute__((visibility("hidden")))
     double _verticalPadding;
 }
 
-- (id)erride :%@, forceSealing :%@, allowForbidden :%@, allowUnSeal :%d /* Error: Ran out of types for this method. */;
-- (void)dable;
+- (id);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (double)ownDisabledWhileLoggedIn;
-- (double)tationStringID;
 - (double);
+- (double);
+- (id)orScreen;
+- (double)ing offscreen cell to setup animations;
+- (id)countered out of bounds section index while validating move updates (section=%ld, oldSectionCount=%ld);
+- (void)ellStyle;
+- (void)] is unavailable for this object.;
 - (void);
-- (id)Location action = %@, bundleId = %@;
-- (id)izing information will be ignored since the item referenced %@ does not currently exist. layout=%@; collectionView=%@;
-- (void)UIKit inconsistency:(id)arg1 unable to replace minutes.;
-- (void)iÛ;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

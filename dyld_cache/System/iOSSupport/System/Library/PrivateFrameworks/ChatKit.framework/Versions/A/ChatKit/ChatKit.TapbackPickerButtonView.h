@@ -13,11 +13,11 @@
     MISSING_TYPE *longPressGestureRecognizer;
 }
 
-- (void)A
-;
 - (void);
-- (void)A;
-- (_Bool)¯.;
+- (void);
+- (_Bool)!ÔCùñ°1Â0@ù
+× ;
+- (void)ntView;
 
 @end
 

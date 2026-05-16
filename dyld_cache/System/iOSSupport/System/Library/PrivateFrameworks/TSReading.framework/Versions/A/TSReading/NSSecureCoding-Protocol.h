@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)tionLocationBeforeIndex:inRange:locale:hyphenChar:] /* Error: Ran out of types for this method. */;
 @end
 

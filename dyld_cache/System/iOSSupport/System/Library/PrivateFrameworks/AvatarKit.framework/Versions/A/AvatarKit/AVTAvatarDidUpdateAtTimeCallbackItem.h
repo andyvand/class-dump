@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _block;
 }
 
-- (void)%;
+- (void);
 
 @end
 

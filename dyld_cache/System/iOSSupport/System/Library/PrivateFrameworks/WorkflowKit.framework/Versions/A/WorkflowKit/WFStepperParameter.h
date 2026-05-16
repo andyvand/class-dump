@@ -6,21 +6,17 @@
 
 #import <WorkflowKit/WFParameter.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface WFStepperParameter : WFParameter
 {
     NSNumber *_minimumValue;
     NSNumber *_maximumValue;
-    NSString *_stepperPrefix;
-    NSString *_stepperDescription;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(readonly, nonatomic) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(readonly, copy, nonatomic) NSString *stepperDescription; // @synthesize stepperDescription=_stepperDescription;
-@property(readonly, copy, nonatomic) NSString *stepperPrefix; // @synthesize stepperPrefix=_stepperPrefix;
 @end
 

@@ -5,14 +5,8 @@
 //
 
 @class NSArray;
-@protocol IMAnimatedImageProtocol;
 
 @protocol IMAnimatedImageProtocol
-+ (id)_updateStateRestorationIdentifierMap]_block_invoke;
-- (_Bool)ecodeSomeKindOfObject(NSSet<Class> *, NSString *, SEL, UIStateRestorationKeyedUnarchiver *);
-- (id <IMAnimatedImageProtocol>)a valid non-nil object and a valid non-nil restoration identifier, and the object must implement the UIStateRestoring protocol.;
-- (id)ES;
-- (double)P;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *durations;

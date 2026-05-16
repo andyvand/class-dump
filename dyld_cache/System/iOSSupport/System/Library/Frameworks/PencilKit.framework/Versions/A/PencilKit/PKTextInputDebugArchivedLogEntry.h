@@ -13,14 +13,14 @@
     NSDictionary *_logDictionary;
 }
 
-- (id)_finished;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (id)enterYConstraint:(id)arg1;
+- (void)mentsController;
 
 @end
 

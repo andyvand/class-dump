@@ -15,8 +15,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ResourceAttributes"8@"NSError"16;
 
 @end
 

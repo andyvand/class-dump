@@ -5,6 +5,6 @@
 //
 
 @interface (null) (ChatKit)
-- (void);
+- (void);
 @end
 

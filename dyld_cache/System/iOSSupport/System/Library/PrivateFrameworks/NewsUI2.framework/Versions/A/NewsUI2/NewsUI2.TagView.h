@@ -28,22 +28,21 @@
 }
 
 - (void);
-- (id)(1) dsize=%lu, tempLength=%lu
-;
+- (id);
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (void);
+- (struct CGRect);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (struct CGRect);
-- (id)¬¬¬ä¬­`­;
-- (id)m;
-- (id)loudAccountStatusObservable;
-- (id)';
+- (void)ü¦þ;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityCustomActions;

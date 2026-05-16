@@ -9,8 +9,8 @@
 }
 
 + (unsigned long long);
-- (void);
 - (id);
+- (void)etailViewController;
 
 @end
 

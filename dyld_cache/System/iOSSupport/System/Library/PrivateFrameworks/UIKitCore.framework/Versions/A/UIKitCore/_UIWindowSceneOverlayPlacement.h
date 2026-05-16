@@ -15,14 +15,14 @@
 
 + (unsigned long long);
 + (id);
-- (id)a verification failure, attempting to recover.;
-- (void)found;
-- (id);
-- (id)sToRecentlyDeleted:(id *)arg1 deleteDate:queryID: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
 - (void);
-- (id)rdAttachedState;
+- (id);
+- (id);
+- (id);
+- (_Bool)oint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{?={CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{?={CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}}16{CGRect={CGPoint=dd}{CGSize=dd}}304;
+- (id)_commandModifiedInput;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) FBSSceneIdentityToken *targetSceneIdentity; // @synthesize targetSceneIdentity=_targetSceneIdentity;

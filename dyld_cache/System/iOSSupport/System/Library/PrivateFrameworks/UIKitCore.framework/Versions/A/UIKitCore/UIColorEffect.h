@@ -19,21 +19,23 @@
     _Bool _disableInPlaceFiltering;
 }
 
-- (void);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void)!pð!øCùÑÂð1¢!0@ù
+- (id)!dAùÑX°1Â0@ù
 × ;
-- (id)n:sessionWillBegin: /* Error: Ran out of types for this method. */;
-- (void)dIndentWhileEditing:(id)arg1;
-- (_Bool)on;
-- (id)dForCommitInternally;
-- (id)ILegibilityCachedShadow;
-- (_Bool)LargeTitleView;
-- (id);
-- (long long)_;
+- (_Bool)\°1Â0@ù
+× ;
+- (_Bool);
+- (void)IfNecessary:(id)arg1;
+- (id)$ÓàÓ(Ô
+ÌÔ ÖLÖ;
+- (void);
+- (_Bool)];
+- (void)@çÕ¼øh;
 
 @end
 

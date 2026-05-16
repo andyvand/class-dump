@@ -19,16 +19,22 @@
     NSUUID *_sessionId;
 }
 
+- (void);
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
+- (long long);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFinalized) _Bool finalized; // @synthesize finalized=_finalized;
+@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
+@property(readonly, nonatomic) long long powerLogReason; // @synthesize powerLogReason=_powerLogReason;
 @property(copy, nonatomic) NSUUID *sessionId; // @synthesize sessionId=_sessionId;
 
 @end

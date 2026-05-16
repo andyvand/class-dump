@@ -12,18 +12,17 @@
     NSData *_seed;
 }
 
-+ (_Bool)ask:%{public}@. %{public}@ for request:%{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)`ÝÿË*Ï
-;
+- (id);
+- (void);
+- (id);
+- (void)dPropertyAddress;
+- (id)ê;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *seed; // @synthesize seed=_seed;

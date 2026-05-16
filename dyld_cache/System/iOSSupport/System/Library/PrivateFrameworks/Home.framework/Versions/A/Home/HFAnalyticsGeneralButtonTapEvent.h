@@ -18,12 +18,12 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)AT;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;

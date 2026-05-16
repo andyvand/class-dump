@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     struct CGPoint _coordinateSystemOrigin;
 }
 
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
 - (struct CGPoint);
+- (id);
+- (void)pingRatio;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint coordinateSystemOrigin; // @synthesize coordinateSystemOrigin=_coordinateSystemOrigin;

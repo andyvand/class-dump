@@ -26,29 +26,29 @@
     FPTime *_gatherEndTime;
 }
 
-+ (_Bool);
 + (int);
 + (void);
 + (_Bool);
-+ (void);
-+ (void);
 + (id);
++ (void);
++ (void);
++ (_Bool);
 - (void);
 - (void);
-- (id);
+- (unsigned int);
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (unsigned int)token type %u;
 - (void);
-- (void)2r^{?=QQQQQI}40;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

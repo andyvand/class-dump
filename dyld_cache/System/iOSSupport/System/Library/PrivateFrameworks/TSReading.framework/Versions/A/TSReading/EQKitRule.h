@@ -17,15 +17,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
 - (void);
+- (id);
+- (id);
+- (double);
 - (double);
 - (struct CGColor *);
+- (_Bool);
 - (id);
-- (id);
-- (double);
-- (double)1;
+- (double)Åò;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *color; // @synthesize color=mCGColor;

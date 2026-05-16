@@ -21,17 +21,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)*getMPModelRelationshipSongAlbum(void);
+- (void);
+- (void);
+- (void);
+- (id)¤;
 
 // Remaining properties
 @property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;

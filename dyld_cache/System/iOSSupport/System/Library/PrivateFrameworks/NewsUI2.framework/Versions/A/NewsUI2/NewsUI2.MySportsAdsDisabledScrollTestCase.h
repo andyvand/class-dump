@@ -16,16 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)$?;
-- (double)enabling notifications for %s. Error=%s;
-- (id)üÿ;
-- (long long)|´GÿhÊ
-;
+- (void)9/_r;
+- (id);
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

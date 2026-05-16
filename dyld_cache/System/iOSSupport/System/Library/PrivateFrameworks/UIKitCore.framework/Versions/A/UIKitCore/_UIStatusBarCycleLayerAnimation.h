@@ -16,18 +16,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
-- (void)!hAùñÊ1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id)aÐ!°Aùñ^°1Â0@ù
 × ;
-- (id)v!CùqË1¢!0@ù
-× ;
-- (id)alPasteResult: /* Error: Ran out of types for this method. */;
-- (id)yRecordsByDescriptor;
-- (id)perview:,V__currentPresentationSuperview /* Error: Ran out of types for this method. */;
-- (id)ageView;
-- (void);
-- (void)];
+- (void)undleIdentifiers;
+- (id)mum must be greater than or equal to 0.0;
+- (void)) -> %@;
+- (void)w with an unsupported style constant:(id)arg1 %d. This is probably not what you want.;
+- (void);
+- (void)<ØÌÁ[;
 
 // Remaining properties
 @property(retain, nonatomic) CAAnimation *animation; // @synthesize animation=_animation;

@@ -12,12 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (double);
 - (void);
+- (double);
+- (double);
 - (void);
-- (_Bool);
-- (double);
-- (double);
-- (double);
+- (_Bool)ÔÁF°!èDùñð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

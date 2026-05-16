@@ -29,16 +29,15 @@
 - (void);
 - (long long);
 - (void);
-- (void)R,V_stableGroupID;
-- (void);
-- (id)thPrivateNotifies;
 - (void);
 - (id);
-- (id)!¨Gùñ^,ð1¢!0@ù
-× ;
-- (void);
-- (void)è°½ÿ;
-- (void)¤ÿ¨,Ý;
+- (id);
+- (id);
+- (void)oth bestAoiInferredMapItem and bestPoiInferredMapItem are nil.;
+- (void), restorationIdentifier, %@;
+- (void)lace inference in POI update;
+- (void)Êÿü-ÀÄ;
+- (void)¾x;
 
 // Remaining properties
 @property(nonatomic) long long externalConnectionState; // @synthesize externalConnectionState=_externalConnectionState;

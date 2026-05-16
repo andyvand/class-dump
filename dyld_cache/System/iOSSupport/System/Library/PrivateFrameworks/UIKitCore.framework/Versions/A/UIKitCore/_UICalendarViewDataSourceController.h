@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (long long)ushToken:(id)arg1 callerID:didOccurLocally: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
 - (id);
 - (id);
-- (void)àH$º;
+- (void)q;
 
 @end
 

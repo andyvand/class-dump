@@ -14,9 +14,9 @@
 - (struct CGSize);
 - (id);
 - (id);
+- (double);
 - (id);
-- (long long)ÐÀ;
-- (double)6äÿ§Z7;
+- (long long)Assets with error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double hue; // @synthesize hue=_hue;

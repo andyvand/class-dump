@@ -7,7 +7,6 @@
 @class NSLayoutDimension, NSLayoutYAxisAnchor;
 
 @protocol UILayoutSupport
-- (double)24@?0@"NSString"8@"NSString"16;
 
 // Remaining properties
 @property(readonly) NSLayoutYAxisAnchor *bottomAnchor;

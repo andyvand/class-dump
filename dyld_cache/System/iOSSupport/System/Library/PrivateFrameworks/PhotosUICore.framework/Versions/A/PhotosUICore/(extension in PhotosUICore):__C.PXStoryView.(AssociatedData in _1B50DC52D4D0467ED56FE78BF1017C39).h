@@ -14,8 +14,8 @@
     MISSING_TYPE *itemPlacementContext;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

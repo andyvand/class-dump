@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (void)m/v1/configs;
-- (id);
 - (void);
+- (id);
+- (void)er;
 
 @end
 

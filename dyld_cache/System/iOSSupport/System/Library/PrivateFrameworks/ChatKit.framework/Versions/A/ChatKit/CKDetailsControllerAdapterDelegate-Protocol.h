@@ -4,18 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDetailsControllerAdapter, NSArray, UIViewController;
-
 @protocol CKDetailsControllerAdapterDelegate
-- (UIViewController *);
-- (void)>;
-
-@optional
-- (UIViewController *)eSectionAffordanceUsages;
-- (void);
-- (void);
-- (void)deleteObjects;
-- (void)le;
-- (void)migrateLockedNotesInAccount:(CKDetailsControllerAdapter *)arg1 toMode:(NSArray *)arg2 window:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

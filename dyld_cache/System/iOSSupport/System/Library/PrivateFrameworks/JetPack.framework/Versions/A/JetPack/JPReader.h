@@ -23,8 +23,8 @@
 - (void);
 - (struct JetPackReader *);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct JetPackReader *backing; // @synthesize backing=_backing;

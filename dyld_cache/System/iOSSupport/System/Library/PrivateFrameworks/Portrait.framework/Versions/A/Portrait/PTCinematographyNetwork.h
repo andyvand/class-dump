@@ -74,9 +74,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) float expectedFPS;

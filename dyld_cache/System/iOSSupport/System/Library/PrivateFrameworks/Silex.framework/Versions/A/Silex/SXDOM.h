@@ -26,17 +26,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)iftos.dylib;
-- (id)Range:convertTextualAttachments:includeChildTextStorages:forExport:withLayoutParent: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)angierFlowInfo";
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SXDOMAnalysis *analysis; // @synthesize analysis=_analysis;

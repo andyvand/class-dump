@@ -35,12 +35,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)lëpìdííï¼ï;
-- (id)t={CGPoint=dd}{CGSize=dd}}20@?0@"PXStoryChromeButtonConfiguration"8B16;
-- (void)tManager;
-- (void)ÿa;
-- (id);
+- (id),©øÿ3sûÿ;
+- (void)SMutableArray"24@?0@"UIView"8@"NSMutableArray"16;
+- (void)gationContainer;
+- (id)ð(5;
+- (void)8;
+- (id)Tü6;
 
 // Remaining properties
 @property(retain, nonatomic) PXPhotosGridActionPerformer *actionPerformer; // @synthesize actionPerformer=_actionPerformer;

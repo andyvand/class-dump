@@ -8,11 +8,10 @@
 {
 }
 
-+ (id)oOutputItem;
++ (id);
 - (void);
-- (id)!¼Dù01b0@ù
-× ;
-- (void);
+- (void);
+- (id);
 
 @end
 

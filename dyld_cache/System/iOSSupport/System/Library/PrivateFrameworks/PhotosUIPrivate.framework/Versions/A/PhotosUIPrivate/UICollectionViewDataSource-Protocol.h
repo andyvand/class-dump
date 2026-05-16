@@ -7,12 +7,13 @@
 @class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)iewModel:(UICollectionView *)arg1 %@;
+- (UICollectionViewCell *)ø;
 
 @optional
-- (long long)QXð1b0@ù
+- (NSIndexPath *)Ø!ÌAùÑ"Ð1â
+0@ù
 × ;
-- (NSIndexPath *)Description;
-- (UICollectionReusableView *)contentOverlayView;
+- (void)view != nil;
+- (UICollectionReusableView *)022  à¤¸à¥à¤¬à¤¹ 9:(UICollectionView *)arg1 15;
 @end
 

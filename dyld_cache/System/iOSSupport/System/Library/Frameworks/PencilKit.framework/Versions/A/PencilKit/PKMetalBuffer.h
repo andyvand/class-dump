@@ -16,10 +16,10 @@
 
 - (_Bool);
 - (id);
-- (id)ntentAnalysisUI;
-- (_Bool);
-- (void);
-- (void);
+- (id);
+- (_Bool)rokesAnimationBounds;
+- (void)pression;
+- (void)b;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

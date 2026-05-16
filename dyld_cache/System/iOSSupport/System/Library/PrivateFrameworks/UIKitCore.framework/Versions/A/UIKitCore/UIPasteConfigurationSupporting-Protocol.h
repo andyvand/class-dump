@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPasteConfiguration;
+@class NSArray, UIPasteConfiguration;
 
 @protocol UIPasteConfigurationSupporting
-- (void)rty tag '%@', skipping.;
+
+@optional
+- (void)eaderFooterPinningBehavior:(NSArray *)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) UIPasteConfiguration *pasteConfiguration;

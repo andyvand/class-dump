@@ -60,7 +60,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -73,11 +73,11 @@
 - (void);
 - (void);
 - (void);
-- (void)=;
 - (void);
 - (void);
 - (void);
-- (void)";
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -112,7 +112,7 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short)P;
+- (unsigned short);
 - (void);
 - (CDStruct_5f1f7aa9);
 - (id);
@@ -133,7 +133,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)P;
+- (id);
 - (id);
 - (id);
 - (CDStruct_5f1f7aa9);
@@ -169,7 +169,7 @@
 - (CDStruct_5f1f7aa9);
 - (id);
 - (id);
-- (id)";
+- (id);
 - (id);
 - (id);
 - (id);
@@ -180,137 +180,29 @@
 - (_Bool);
 - (CDStruct_5f1f7aa9);
 - (unsigned long long);
-- (id)}@ edit=%{public}@;
+- (id);
 - (CDStruct_5f1f7aa9);
 - (void);
-- (id)-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/2ab70694-a5d2-4fc7-a6b7-29ac3c6a68b8"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0-beta-1.6.1"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/17d566c4-e357-4cee-8507-caa4c72d0086"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/c3eac686-0469-4829-83bd-75dffeb47355"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            },
-            {
-                "identifier":"articleList-1",
-                "paidVisibility":"both",
-                "type":"articleList",
-                "content":{
-                    "identifier":"articleList-1",
-                    "publishDate":"2020-07-28T14:22:38.370148Z",
-                    "themeReferences":[
-                        "926c29ea-3a94-492d-82fc-e534b5ba40e5"
-                    ],
-                    "subgroups":[
-                        {
-                            "layoutReferences":[
-                                "6a308130-6348-4a49-c902-8cc6545fc759"
-                            ],
-                            "contents":[
-                                {
-                                    "items":[
-                                        {
-                                            "data":{
-                                                "identifier":"articles"
-                                            },
-                                            "type":"placeholder"
-                                        }
-                                    ],
-                                    "slot":"articles-0"
-                                }
-                            ],
-                            "layouts":[
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.3.0-beta-1.3.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/f9dc851a-1837-4795-cce1-d46ad292f5b7"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "knobsConfig":{
-        "minGroups":1,
-        "maxGroups":4294967296,
-        "groupKnobs":{}
-    }
-} /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (struct __CFUUID *);
 - (void);
 - (id);
 - (void);
-- (id);
+- (CDStruct_5f1f7aa9);
+- (id);
 - (void);
-- (unsigned short)umentType;
-- (CDStruct_5f1f7aa9)\×ÐØ\ÙøÙ¼Ú	8ÛøÛ$Ü	8ÝøÝ Þ;
-- (unsigned short)Name;
+- (void);
+- (id);
+- (unsigned short)Path:withCachedCurrentElementPercentage: /* Error: Ran out of types for this method. */;
+- (void)Ì¯7;
+- (unsigned short)ÿE[ýe;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDFill *backgroundFill;

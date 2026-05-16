@@ -12,15 +12,15 @@
 {
 }
 
-- (void)ePlaybackRateCommand;
 - (void);
-- (double)q	ë;
-- (double);
-- (void)!lFùQÆÐ1¢!0@ù
+- (double)@ù
 × ;
-- (id)int",&,N,V_leadingSpacing;
-- (struct CGSize)nsitionAlignmentRectContext;
-- (void);
+- (void)sary;
+- (id)¨a;
+- (void)L°\;
+- (struct CGSize);
+- (double)ÿ;
+- (void)üÃ>ÿN;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *shadowColor;

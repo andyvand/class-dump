@@ -5,8 +5,5 @@
 //
 
 @protocol GFGestureNodeContainer
-- (_Bool);
-- (_Bool);
-- (long long);
 @end
 

@@ -21,23 +21,23 @@
 
 - (id);
 - (_Bool);
+- (void);
 - (id);
-- (void)Pg;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)tEnabled;
-- (id)impressions;
-- (id);
-- (id);
-- (void)´;
+- (void)out>";
+- (void)e;
+- (id)ðÎ;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

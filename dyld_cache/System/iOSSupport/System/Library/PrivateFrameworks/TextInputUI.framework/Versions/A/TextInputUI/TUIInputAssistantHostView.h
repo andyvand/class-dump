@@ -17,27 +17,27 @@
     NSArray *_inputAssistantBackdropConstraints;
 }
 
-- (void);
 - (void);
-- (struct CGAffineTransform)uæ|;
 - (void);
-- (void)i{;
-- (void)æ|;
-- (id)æ|;
+- (struct CGAffineTransform);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)ª ;
-- (_Bool);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (int);
+- (_Bool);
 - (void);
-- (id)BColorWhite_Alpha65;
-- (void)ÿ?X½;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *inputAccessoryBackdropConstraints; // @synthesize inputAccessoryBackdropConstraints=_inputAccessoryBackdropConstraints;

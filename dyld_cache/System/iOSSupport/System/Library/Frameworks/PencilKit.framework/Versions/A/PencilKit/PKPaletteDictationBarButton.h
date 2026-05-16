@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sDrawingPolicyControls;
 
 @end
 

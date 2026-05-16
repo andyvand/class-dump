@@ -23,10 +23,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IAMMessage *message; // @synthesize message=_message;

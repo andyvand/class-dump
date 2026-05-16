@@ -16,11 +16,12 @@
 
 + (id);
 + (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)1B50@ù
+× ;
+- (void)e Maps;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

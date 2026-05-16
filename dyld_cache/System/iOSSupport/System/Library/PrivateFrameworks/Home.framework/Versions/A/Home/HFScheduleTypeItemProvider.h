@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
-- (id)xt"8@"NSError"16;
+- (id);
+- (void)ôW;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *items; // @synthesize items=_items;

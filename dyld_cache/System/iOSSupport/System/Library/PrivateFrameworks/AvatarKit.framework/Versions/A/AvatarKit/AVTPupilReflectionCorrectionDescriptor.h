@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     long long _rightEyeTargetIndex;
 }
 
-- (void)h;
+- (void);
 
 @end
 

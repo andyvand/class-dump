@@ -7,10 +7,6 @@
 @class NSArray, NSString;
 
 @protocol WFAlertTextField
-- (void);
-- (NSArray *)AAyAAyÌ'y6
-ySay]_³GSo13WFContentItemCeyAAyAAyAAyAAyAAy¨Z³ëG5yo
-GGxyºGGÃy½yAAyßyÿÿGGGGG¯y©yA6_yA6_yÛyATS î	GAAyA7_yAtYA9_GbGGA14_GA14_GGG_Qo_GG©GÓ"GAEtGGG'"ySSGG]yA_GG_Qo_;
 
 // Remaining properties
 @property(nonatomic) NSString *alertAutocapitalizationType;

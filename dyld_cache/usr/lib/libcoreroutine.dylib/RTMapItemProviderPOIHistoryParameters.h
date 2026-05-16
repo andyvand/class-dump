@@ -9,11 +9,11 @@
     double _distanceThreshold;
 }
 
+- (id);
+- (id);
 - (double);
 - (id);
-- (id)L: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)monitoring location idx, %lu, location, %{sensitive}@;
+- (id)ssful, from commuteID,%@,compound tripsegment commuteID,%@,duration,%.2f,location count,%lu,road transition count,%lu;
 
 // Remaining properties
 @property(readonly, nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;

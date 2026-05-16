@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP8NewsFeed32LocationDetectionManagerObserver_
-- (void);
 @end
 

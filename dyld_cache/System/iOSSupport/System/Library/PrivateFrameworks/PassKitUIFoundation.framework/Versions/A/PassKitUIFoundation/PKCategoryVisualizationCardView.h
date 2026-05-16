@@ -59,14 +59,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isBlurDisabled) _Bool blurDisabled; // @synthesize blurDisabled=_blurDisabled;

@@ -10,12 +10,12 @@
 {
 }
 
-+ (id)not create zip file;
-+ (id):%@ /* Error: Ran out of types for this method. */;
-+ (id));
-+ (id)× ;
++ (id);
++ (id);
++ (id);
++ (id)monochromaticVCM.;
 - (long long);
-- (long long);
+- (long long)ne;
 
 @end
 

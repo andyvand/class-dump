@@ -103,7 +103,7 @@ struct _NUIGridArrangementCell;
 struct _NUIGridArrangementDimension;
 
 struct map<UIView *, _NUIContainerViewArrangedSubview, std::less<UIView *>, std::allocator<std::pair<UIView *const, _NUIContainerViewArrangedSubview>>> {
-    struct __tree<std::__value_type<UIView *, _NUIContainerViewArrangedSubview>, std::__map_value_compare<UIView *, std::__value_type<UIView *, _NUIContainerViewArrangedSubview>, std::less<UIView *>>, std::allocator<std::__value_type<UIView *, _NUIContainerViewArrangedSubview>>> {
+    struct __tree<std::__value_type<UIView *, _NUIContainerViewArrangedSubview>, std::__map_value_compare<UIView *, std::pair<UIView *const, _NUIContainerViewArrangedSubview>, std::less<UIView *>>, std::allocator<std::pair<UIView *const, _NUIContainerViewArrangedSubview>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -111,7 +111,7 @@ struct map<UIView *, _NUIContainerViewArrangedSubview, std::less<UIView *>, std:
 };
 
 struct map<UIView *, const std::pair<_NSRange, _NSRange>, std::less<UIView *>, std::allocator<std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>>> {
-    struct __tree<std::__value_type<UIView *, const std::pair<_NSRange, _NSRange>>, std::__map_value_compare<UIView *, std::__value_type<UIView *, const std::pair<_NSRange, _NSRange>>, std::less<UIView *>>, std::allocator<std::__value_type<UIView *, const std::pair<_NSRange, _NSRange>>>> {
+    struct __tree<std::__value_type<UIView *, const std::pair<_NSRange, _NSRange>>, std::__map_value_compare<UIView *, std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>, std::less<UIView *>>, std::allocator<std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -119,7 +119,7 @@ struct map<UIView *, const std::pair<_NSRange, _NSRange>, std::less<UIView *>, s
 };
 
 struct map<UIView *, double, std::less<UIView *>, std::allocator<std::pair<UIView *const, double>>> {
-    struct __tree<std::__value_type<UIView *, double>, std::__map_value_compare<UIView *, std::__value_type<UIView *, double>, std::less<UIView *>>, std::allocator<std::__value_type<UIView *, double>>> {
+    struct __tree<std::__value_type<UIView *, double>, std::__map_value_compare<UIView *, std::pair<UIView *const, double>, std::less<UIView *>>, std::allocator<std::pair<UIView *const, double>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;

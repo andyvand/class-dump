@@ -17,12 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)H;
-- (void);
-- (void)Button:(double)arg1;
-- (void)cation;
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)esizeSupport;
 
 @end
 

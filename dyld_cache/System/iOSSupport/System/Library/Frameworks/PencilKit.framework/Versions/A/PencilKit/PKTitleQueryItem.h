@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)trokeUUID;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

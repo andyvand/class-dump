@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager;
+
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void)UtilityID:(HMHomeManager *)arg1;
 @end
 

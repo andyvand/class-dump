@@ -28,14 +28,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (long long);
 - (_Bool);
+- (long long);
 - (void);
-- (void);
+- (void)ShySo8TUHandleCGSg;
+- (void)ª;
 
 // Remaining properties
 @property(nonatomic) long long modalPresentationStyle;

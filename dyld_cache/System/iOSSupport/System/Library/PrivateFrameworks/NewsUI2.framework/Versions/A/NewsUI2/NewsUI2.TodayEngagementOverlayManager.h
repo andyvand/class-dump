@@ -19,8 +19,8 @@
     MISSING_TYPE *isFetchingAssets;
 }
 
-- (void);
 - (id);
+- (void)ChannelSectionsGroupModel;
 
 @end
 

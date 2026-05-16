@@ -15,23 +15,24 @@
     _UIImageSymbolEffectRepeatBehavior *_repeatBehavior;
 }
 
-+ (id)on direction for scroll;
-+ (_Bool)-4m;
++ (id)CInterface";
++ (_Bool)%ld
+;
 - (void);
 - (void);
-- (id)ictionaryForRequestedSize: /* Error: Ran out of types for this method. */;
-- (_Bool)geTimerInterval;
-- (long long);
-- (_Bool)do, but is throttled;
-- (void)%u uWhereId %u;
-- (unsigned long long);
-- (_Bool);
-- (id)n:(struct _NSZone *)arg1 afterItem:inSection:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)H;
-- (void);
-- (id)Ê°1¢!0@ù
+- (_Bool);
+- (long long);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)Ð1Â0@ù
 × ;
+- (_Bool)aint;
+- (void)faultFocusedShadowVerticalOffset:(id)arg1;
+- (id)largeTitleViewOverlaysContentView;
+- (void)]Ö-[;
 
 // Remaining properties
 @property(nonatomic) long long bounceDirection; // @synthesize bounceDirection=_bounceDirection;

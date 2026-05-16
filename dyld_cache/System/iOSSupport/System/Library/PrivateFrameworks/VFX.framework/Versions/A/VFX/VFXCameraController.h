@@ -113,10 +113,10 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (void);
-- (void);
 - (id);
-- (id)ôîÿ³ÿ´J;
-- (void)roperty;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticTarget; // @synthesize automaticTarget=_automaticTarget;

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void)TH;
-- (double)lainTextSubject: /* Error: Ran out of types for this method. */;
-- (void)rocessFetchRecordChangesCompleted error %@;
+- (void);
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double endHeight; // @synthesize endHeight=_endHeight;

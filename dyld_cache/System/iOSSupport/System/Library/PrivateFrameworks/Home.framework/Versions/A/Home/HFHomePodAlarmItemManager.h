@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HFHomePodAlarmItemModule *alarmItemModule; // @synthesize alarmItemModule=_alarmItemModule;

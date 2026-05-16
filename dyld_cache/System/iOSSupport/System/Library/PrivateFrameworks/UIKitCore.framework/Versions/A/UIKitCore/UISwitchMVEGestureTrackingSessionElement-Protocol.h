@@ -5,8 +5,7 @@
 //
 
 @protocol UISwitchMVEGestureTrackingSessionElement
-- (void)rDomainSSL;
-- (void)0@ù
-× ;
+- (void)s;
+- (_Bool)Âº);
 @end
 

@@ -19,7 +19,7 @@
     MISSING_TYPE *representationsManager;
     MISSING_TYPE *sessionUndoManager;
     MISSING_TYPE *_promptManager;
-    MISSING_TYPE *_personalizationFeatures;
+    MISSING_TYPE *_optionsFeatures;
     MISSING_TYPE *delegate;
     MISSING_TYPE *creationViewStyle;
     MISSING_TYPE *_currentStyle;

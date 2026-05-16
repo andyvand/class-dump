@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)f;
-- (void)bleState;
+- (id);
+- (void)2@0:(id)arg1 8@"NSString"16@"EDAMLinkedNotebook"24;
+- (void)e);
 
 // Remaining properties
 @property(retain, nonatomic) _LTTextTranslationRequest *request; // @synthesize request=_request;

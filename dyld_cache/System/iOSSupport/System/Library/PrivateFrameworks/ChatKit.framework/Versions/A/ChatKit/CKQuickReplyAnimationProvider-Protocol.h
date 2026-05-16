@@ -5,6 +5,5 @@
 //
 
 @protocol CKQuickReplyAnimationProvider
-- (void)s;
 @end
 

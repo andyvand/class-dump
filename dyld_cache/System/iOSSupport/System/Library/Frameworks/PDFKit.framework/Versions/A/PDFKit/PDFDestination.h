@@ -11,23 +11,24 @@
     PDFDestinationPrivate *_private;
 }
 
-- (id)Command"16@"NSViewController<CRKCardViewControlling>"24;
-- (struct __CFArray *)=dd}{CGSize=dd}}16;
-- (id)lResult"16;
+- (id);
+- (struct __CFArray *);
 - (id);
 - (id);
 - (void);
-- (void)ntroller;
-- (id);
-- (long long)ntContactsLibrary";
-- (struct CGPoint)erHandle;
 - (id);
 - (id);
+- (id);
+- (int);
+- (id);
+- (struct CGPoint);
+- (void);
+- (long long);
 - (double);
 - (void);
-- (int);
-- (id)hNibName:bundle: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PDFPage *page;

@@ -29,13 +29,13 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool)h;
 - (void);
-- (void)ute,public}@ label=%{signpost.description:(_Bool)arg1 attribute,public}@ observer=%{signpost.description:attribute,public}@ enableTelemetry=YES  /* Error: Ran out of types for this method. */;
-- (id)lability;
-- (void)0T;
-- (struct CGSize);
+- (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

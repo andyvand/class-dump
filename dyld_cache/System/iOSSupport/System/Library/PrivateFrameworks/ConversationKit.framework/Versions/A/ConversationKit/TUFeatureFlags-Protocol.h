@@ -5,23 +5,24 @@
 //
 
 @protocol TUFeatureFlags
-- (_Bool)ckStatusDidUpdate;
-- (_Bool)tëðëìCüìÌí;
-- (_Bool);
-- (_Bool)Ä/Äÿ;
-- (_Bool)ÿ;
-- (_Bool)Xýÿ;
-- (_Bool)d activity;
-- (_Bool)hemeral alert, hiding new status view;
+- (_Bool)áªâªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
+- (_Bool)X;
+- (_Bool)h(Goü¸¨V^;
+- (_Bool)«8Kxl¬ÖÐK;
 - (_Bool);
-- (_Bool)_hasFinishedFirstLoad;
-- (_Bool);
-- (_Bool);
+- (_Bool)sory;
+- (_Bool)ÿP;
+- (_Bool);
+- (_Bool)GG;
+- (_Bool)ss:%s, type:%s, error:%s /* Error: Ran out of types for this method. */;
+- (_Bool)essageView.swift;
+- (_Bool)@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool FTUserScore;
 @property(readonly, nonatomic) _Bool IMAVSunsetEnabled;
 @property(readonly, nonatomic) _Bool LVMEverywhere;
+@property(readonly, nonatomic) _Bool LVMMessageQueueingEnabled;
 @property(readonly, nonatomic) _Bool TTRBannerEnabled;
 @property(readonly, nonatomic) _Bool aTVHandoff;
 @property(readonly, nonatomic) _Bool acceptedContactsLabelsEnabled;
@@ -75,6 +76,7 @@
 @property(readonly, nonatomic) _Bool filterGFTaaSCalls;
 @property(readonly, nonatomic) _Bool frsvEnabled;
 @property(readonly, nonatomic) _Bool ftAppDeletionEnabled;
+@property(readonly, nonatomic) _Bool ftCallFilteringHideNotificationsEnabled;
 @property(readonly, nonatomic) _Bool ftlcGeneralASRExpansionEnabled;
 @property(readonly, nonatomic) _Bool ftlcGeneralASRMigrationEnabled;
 @property(readonly, nonatomic) _Bool ftlcPrimaryLanguageControlledEnabled;
@@ -85,13 +87,18 @@
 @property(readonly, nonatomic) _Bool gameOverlayEnabled;
 @property(readonly, nonatomic) _Bool gelatoEnabled;
 @property(readonly, nonatomic) _Bool gftDowngradeToOneToOne;
+@property(readonly, nonatomic) _Bool granularCallFilteringForFaceTimeEnabled;
 @property(readonly, nonatomic) _Bool greenTeaLagunaEnabled;
 @property(readonly, nonatomic) _Bool greenTeaLinksEnabled;
 @property(readonly, nonatomic) _Bool groupConversations;
 @property(readonly, nonatomic) _Bool groupFacetimeAsAServiceEnabled;
+@property(readonly, nonatomic) _Bool holdAssistQfaLocaleExpansionEnabled;
+@property(readonly, nonatomic) _Bool holdAssistQfaMobileAssetsEnabled;
 @property(readonly, nonatomic) _Bool iPadCallRecordingEnabled;
 @property(readonly, nonatomic) _Bool imageBadgeRendererEnabled;
+@property(readonly, nonatomic) _Bool inAppMacNotificationsEnabled;
 @property(readonly, nonatomic) _Bool incomingBannerOverSixUpEnabled;
+@property(readonly, nonatomic) _Bool incomingCallNotificationForwardingEnabled;
 @property(readonly, nonatomic) _Bool increaseCallHistoryEnabled;
 @property(readonly, nonatomic) _Bool intelligentRoutingEnabled;
 @property(readonly, nonatomic) _Bool isDualSimParityEnabled;
@@ -208,5 +215,6 @@
 @property(readonly, nonatomic) _Bool waitOnHoldEnabled;
 @property(readonly, nonatomic) _Bool waitOnHoldLoggingEnabled;
 @property(readonly, nonatomic) _Bool wombatWisdomEnabled;
+@property(readonly, nonatomic) _Bool zoneHierarchiesEnabled;
 @end
 

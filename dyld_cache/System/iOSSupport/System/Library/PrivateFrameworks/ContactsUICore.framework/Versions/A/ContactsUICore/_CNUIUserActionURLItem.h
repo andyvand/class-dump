@@ -22,8 +22,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)MemberContainerIfMissingFuture:preserveEditsToProvidedContactsOverContactsFoundInFamilyMemberStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSensitive; // @synthesize isSensitive=_isSensitive;

@@ -7,8 +7,6 @@
 @class NSString, NSURL;
 
 @protocol SWLocation
-- (NSURL *)meworks/Modules/news-reader/NewsAnalytics/Session/SessionObserver+UserBundleSubscriptionContextData.swift;
-- (NSString *)mRightOfLastDigitPlaceholder;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL;

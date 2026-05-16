@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)¤;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HFStringGenerator> currentFormattedValue; // @synthesize currentFormattedValue=_currentFormattedValue;

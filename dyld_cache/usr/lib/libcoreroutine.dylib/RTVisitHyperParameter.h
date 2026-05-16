@@ -56,7 +56,6 @@
 }
 
 - (unsigned long long);
-- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -65,7 +64,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)6;
+- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -77,30 +77,30 @@
 - (unsigned long long);
 - (double);
 - (double);
-- (unsigned long long)9h;
-- (unsigned long long);
-- (double);
-- (double);
 - (unsigned long long);
 - (unsigned long long);
 - (double);
 - (double);
 - (unsigned long long);
+- (unsigned long long);
+- (double);
+- (double);
+- (unsigned long long);
 - (double);
 - (double);
 - (double);
 - (double);
 - (unsigned long long);
-- (double)B;
+- (double);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
 - (double);
 - (id);
-- (unsigned long long);
-- (unsigned long long)DwellTimePlaceCandidates, %.2f:%{sensitive}@ /* Error: Ran out of types for this method. */;
+- (void)tsWithHandler,fetched receiverContact:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ã.,;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long binSize; // @synthesize binSize=_binSize;

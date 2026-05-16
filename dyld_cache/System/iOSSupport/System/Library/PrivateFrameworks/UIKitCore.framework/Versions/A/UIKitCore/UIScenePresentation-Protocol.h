@@ -8,10 +8,9 @@
 @protocol UIScenePresenter;
 
 @protocol UIScenePresentation
-- (void)Áð1¢!0@ù
-× ;
-- (UIView *)OnViewWillAppear"b1"useLayoutToLayoutNavigationTransitions"b1"installsStandardReorderingGesture"b1};
-- (id <UIScenePresenter>)ailed to create targetedPreview for %@ of %@;
+- (UIView *)@"RTISupplementalItemIcon"16@?0Q8;
+- (id <UIScenePresenter>)e;
+- (void)Q!13Ì0;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView;

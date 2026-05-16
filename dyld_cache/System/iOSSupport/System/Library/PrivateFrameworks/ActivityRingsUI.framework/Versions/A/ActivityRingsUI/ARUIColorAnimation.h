@@ -34,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (double);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (double);
+- (void);
 - (void);
 
 // Remaining properties

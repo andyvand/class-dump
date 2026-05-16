@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (struct CGRect);
 - (id);
 

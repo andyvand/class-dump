@@ -13,22 +13,22 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)tURLs;
-- (_Bool)(;
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
 - (double);
-- (id)-- clearing tombstones for deletes only ;
-- (double)ompressed attachment:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (void)Processed type (%@) for guid %@;
-- (void)%@ with broadcaster:(id)arg1 %p;
-- (id)using fallback identifier %@ rather than identifier %@. Assigning identifier for domain %@ to chat with guid %@ as a historical identifier;
-- (id)ased on groupID and participants:(id)arg1 %@;
-- (struct UIEdgeInsets)che miss for chat with guid:%@ result:%@ /* Error: Ran out of types for this method. */;
-- (id)oring;
-- (_Bool)ng from a 3rd party app;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (struct CGSize);
+- (double);
+- (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);

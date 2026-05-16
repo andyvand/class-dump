@@ -16,9 +16,9 @@
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (void);
 - (id);
 - (long long);
+- (void)ers;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

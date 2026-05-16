@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
     NSMutableIndexSet *_tokenCharacterIndexes;
 }
 
-- (void);
 - (struct _NSRange);
-- (id)2q40;
-- (unsigned long long)sForProperty:(unsigned long long)arg1;
-- (void);
-- (void)1Å°1¢!0@ù
+- (struct _NSRange);
+- (unsigned long long);
+- (struct _NSRange);
+- (struct _NSRange);
+- (id);
+- (id)Á
+ð!dDùqgð1Â0@ù
 × ;
-- (unsigned long long)ù
-× ;
-- (id)<unsigned long>>="__dummy"c"__head"{__alt<2UL, std:(unsigned long long)arg1:vector<unsigned long>>="__value"{vector<unsigned long, std::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 3UL>=))))"__index"I}} /* Error: Ran out of types for this method. */;
-- (id)metry:(id)arg1;
-- (struct _NSRange)opScrollingNotify:(struct _NSRange)arg1 pin: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)utSectionFixedSolver;
-- (struct _NSRange)¨Yþ;
-- (unsigned long long)FromUIImage(UIImage *__strong, UITraitCollection *__strong);
+- (void)iew;
+- (id)requestHostingSceneCreationWithPersistentIdentifierCallback:(unsigned long long)arg1 persistentIdentifier must be non-nil;
+- (unsigned long long)dismiss for:(unsigned long long)arg1 %@;
+- (void).propertyMatch.%@;
+- (unsigned long long);
+- (void)À½ºþâ13d¾ºþâ13Ü¾ºþ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange characterRangeOfAllTokens;

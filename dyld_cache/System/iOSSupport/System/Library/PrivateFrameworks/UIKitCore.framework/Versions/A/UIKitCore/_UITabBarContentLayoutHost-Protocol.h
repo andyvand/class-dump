@@ -7,8 +7,6 @@
 @class UITabBar, UITabBarController;
 
 @protocol _UITabBarContentLayoutHost
-- (long long)ecover;
-- (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) UITabBar *tabBar;

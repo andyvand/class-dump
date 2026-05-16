@@ -21,41 +21,42 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)Þ	º;
-- (void)Ôpð! Eù±ÂÐ1¢!0@ù
+- (id);
+- (void);
+- (void)Ô;
+- (void)1Â0@ù
 × ;
-- (void)!ðAùñÄ1¢!0@ù
+- (void)!<Aù±c°1Â0@ù
 × ;
-- (void)!¨AùÑÎ1¢!0@ù
+- (void)ð!üFùQeÐ1Â0@ù
 × ;
-- (void)0:(id)arg1 8@16Q24@32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGPoint=dd}72Q88;
-- (_Bool)rop: /* Error: Ran out of types for this method. */;
-- (void)rtTextForDictation;
-- (void)_keyboardCameraNormalHeight;
-- (id)sSystemLayoutFittingSizeToContentView: /* Error: Ran out of types for this method. */;
-- (void)isOnSampleThetaDiff;
-- (id)tIsInSidebarSection: /* Error: Ran out of types for this method. */;
-- (id)(õ ÷|ø¬øù;
-- (void)iveIndicatorStyle;
-- (id)w(const _UIBoundingPathBitmapDataCorner, const NSInteger);
-- (void)ntrollerLastVisibleViewController;
-- (void)he customView of configurations applied to different views is not allowed. Subview removed:(id)arg1 %@; Background view:(id)arg2 %@;
-- (void)sition Settings;
+- (id)g1Â0@ù
+× ;
+- (id)24@0:8@"UITextRangeAdjustmentInteraction"16 /* Error: Ran out of types for this method. */;
+- (id)t";
+- (void)gPreviewShadowProperties";
+- (void);
+- (void)yingOffsetToGlobalFrameOrigin:(id)arg1;
+- (void)ured:(id)arg1;
+- (void)efaultTV;
+- (void)djustContentSizeForView:(_Bool)arg1 atScale: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)chEvents:,V_containerIgnoresDirectTouchEvents /* Error: Ran out of types for this method. */;
+- (void)rollInitialContentOffset;
+- (id);
+- (id)IsTranslucent;
+- (void)eneStandardPlacementC;
+- (void);
+- (id)è«[;
 
 // Remaining properties
 @property(nonatomic) __weak _UIVisualEffectBackdropView *captureView; // @synthesize captureView=_captureView;

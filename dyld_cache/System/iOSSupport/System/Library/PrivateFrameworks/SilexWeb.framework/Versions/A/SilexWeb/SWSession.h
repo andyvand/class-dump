@@ -11,10 +11,10 @@
     NSString *_identifier;
 }
 
-- (_Bool)";
-- (void);
 - (id);
-- (id)8^@16^@24;
+- (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

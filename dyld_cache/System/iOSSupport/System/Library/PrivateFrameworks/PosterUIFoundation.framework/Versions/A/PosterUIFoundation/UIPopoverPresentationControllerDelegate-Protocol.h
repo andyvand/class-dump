@@ -9,6 +9,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void)ingTest:(UIPopoverPresentationController *)arg1;
+- (void)tensionBundle:(UIPopoverPresentationController *)arg1;
 @end
 

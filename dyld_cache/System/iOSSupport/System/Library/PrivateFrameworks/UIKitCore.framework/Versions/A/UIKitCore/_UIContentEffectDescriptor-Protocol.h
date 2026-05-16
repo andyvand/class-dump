@@ -7,8 +7,6 @@
 @class NSArray, UITargetedPreview;
 
 @protocol _UIContentEffectDescriptor
-- (_Bool)@;
-- (UITargetedPreview *)geEditForMessageGUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *compatibleDescriptors;

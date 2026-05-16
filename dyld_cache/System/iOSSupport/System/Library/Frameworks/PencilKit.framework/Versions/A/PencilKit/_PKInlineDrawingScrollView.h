@@ -8,9 +8,9 @@
 {
 }
 
+- (void);
 - (id);
-- (void)eBuckets;
-- (_Bool);
+- (_Bool);
 
 @end
 

@@ -9,17 +9,17 @@
     unsigned long long _deviceNotificationMode;
 }
 
-+ (id)È9;
-+ (_Bool)alue:completionHandler:] /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (void);
 - (id);
-- (id)e;
-- (id)Archive from protobuf:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long deviceNotificationMode; // @synthesize deviceNotificationMode=_deviceNotificationMode;

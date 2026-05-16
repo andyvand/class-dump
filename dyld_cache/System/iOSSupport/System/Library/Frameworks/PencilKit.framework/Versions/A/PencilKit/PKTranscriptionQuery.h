@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)B;
+- (void)_shape;
+- (void)|;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;

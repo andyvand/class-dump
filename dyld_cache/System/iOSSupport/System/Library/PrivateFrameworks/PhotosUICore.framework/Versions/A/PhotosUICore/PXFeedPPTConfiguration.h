@@ -15,10 +15,10 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)yStyle;
+- (void)ÍP;
+- (id)ÿq;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFeedConfiguration *feedConfiguration; // @synthesize feedConfiguration=_feedConfiguration;

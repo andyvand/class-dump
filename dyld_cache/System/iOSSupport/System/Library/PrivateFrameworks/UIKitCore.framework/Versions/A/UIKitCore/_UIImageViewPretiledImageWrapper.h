@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     _UIImageViewPretiledImageCacheKey *_cacheKey;
 }
 
-+ (id)rray"8@"NSArray"16;
++ (id);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void)pertyPodcastSortType;
-- (void);
-- (id)s;
+- (_Bool)aitCollectionWithUserInterfaceLevel:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *pretiledImage; // @synthesize pretiledImage=_pretiledImage;

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     id <CKMacToolbarViewDelegate> _delegate;
 }
 
-- (_Bool)=;
+- (id);
 - (void);
-- (id)inimumDelay;
-- (void)y>f¬Gxa¬yZj¬SgGGGQo_Qo_;
+- (_Bool)sparencyReportToApplePopoverWithWindow:(struct CGPoint)arg1;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMacToolbarViewDelegate> delegate; // @synthesize delegate=_delegate;

@@ -20,10 +20,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)t representation is nil;
+- (void)ningCompletionBlockWithResult:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDynamic) _Bool dynamic; // @synthesize dynamic=_dynamic;

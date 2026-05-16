@@ -20,8 +20,8 @@
 }
 
 + (void);
-+ (_Bool)ath"24;
-+ (struct CGPDFOperatorTable *)y"24;
++ (_Bool);
++ (struct CGPDFOperatorTable *);
 + (id);
 - (void);
 - (void);
@@ -35,15 +35,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (struct CGPDFContentStream *)ewController";
-- (_Bool)ectPickerSelection"24@"NSViewController"32;
-- (_Bool)jectPickerViewController"16@"NSViewController"24;
-- (void)ntDelegate>";
-- (void)ion"16B24@"NSDictionary"28;
+- (struct CGPDFContentStream *);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property _Bool containsLargeImage; // @synthesize containsLargeImage=_containsLargeImage;

@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Body;
 
 // Remaining properties
 @property(readonly, nonatomic) CAMediaTimingFunction *inOutSineTimingFunction;

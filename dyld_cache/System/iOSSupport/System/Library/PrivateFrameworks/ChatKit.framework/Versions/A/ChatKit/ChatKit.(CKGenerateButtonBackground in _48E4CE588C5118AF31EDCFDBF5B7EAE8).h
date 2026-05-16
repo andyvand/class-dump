@@ -17,10 +17,10 @@
     MISSING_TYPE *illuminatedPlusDarkerLayer;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)ÈXýÿBúÿ;
+- (id);
+- (void)ew;
 
 @end
 

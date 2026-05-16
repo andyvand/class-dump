@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
     UIColor *_darkModePageBackgroundColor;
 }
 
-+ (struct CGMatrixFilter)ACardSnippet";
-+ (struct CAColorMatrix)"NSError">24;
++ (struct CGMatrixFilter);
++ (struct CAColorMatrix);
 + (_Bool);
 + (id);
 - (void);
@@ -59,24 +59,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGColorSpace *);
 - (id);
-- (double)riUIRoundedCornerImageView";
-- (void)nt"32^{CGPoint=dd}40;
-- (void)FTextRequest"24q32;
-- (_Bool)0;
+- (double);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (long long)ply: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
 - (long long);
 - (_Bool);
 - (void);
-- (void)y",C,N,V_leadingBarButtons;
 - (id);
-- (void);
 - (long long);
-- (void)any vertex layouts in MTLVertexDescriptor to create a MDLVertexDescriptor;
-- (id)ô;
+- (void);
+- (void);
+- (void);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long appearanceStyle; // @synthesize appearanceStyle=_appearanceStyle;

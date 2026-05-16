@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ol>"16;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUConfiguratorDelegate> configuratorDelegate; // @synthesize configuratorDelegate=_configuratorDelegate;

@@ -17,27 +17,27 @@
     id <UICalendarSelectionWeekOfYearDelegate> _delegate;
 }
 
-- (void)tionary:(id)arg1 availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)};
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void)ices, giving up;
-- (void)equest to send nickname info to a specific device %@;
-- (void)CloudKit;
-- (void)g parameters to fetch the CloudKit record (recordID:(id)arg1 %@) (URI:%@) (decryptionKey:%@) /* Error: Ran out of types for this method. */;
-- (void)ure is disabled, not fetching CloudKit record;
-- (_Bool)%@;
-- (id)e to guess URI for sender handle;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)apð!@ù1Ã°1¢!0@ù
+- (id)0@ù
 × ;
-- (id),¼tx;
-- (id);
+- (id),N,V_delegate;
+- (void) @;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UICalendarSelectionWeekOfYearDelegate> delegate; // @synthesize delegate=_delegate;

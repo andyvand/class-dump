@@ -17,12 +17,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (double)t;
+- (struct CGPoint);
 - (void);
-- (struct CGPoint)DimmingAmount;
-- (void)Analyzer;
-- (void);
+- (_Bool)1Â0@ù
+× ;
+- (double);
+- (void);
+- (void)ustomUIViewFillProvider;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

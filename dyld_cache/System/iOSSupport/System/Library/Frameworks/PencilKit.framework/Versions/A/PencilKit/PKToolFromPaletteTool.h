@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)syncBlockOperation initWithBlock:(id)arg1 ];
++ (id);
 
 @end
 

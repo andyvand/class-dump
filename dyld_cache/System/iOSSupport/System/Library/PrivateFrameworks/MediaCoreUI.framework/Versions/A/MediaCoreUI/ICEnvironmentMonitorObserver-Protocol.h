@@ -5,5 +5,10 @@
 //
 
 @protocol ICEnvironmentMonitorObserver
+
+@optional
+- (void),ÀDËáÈ;
+- (void);
+- (void)äÉ;
 @end
 

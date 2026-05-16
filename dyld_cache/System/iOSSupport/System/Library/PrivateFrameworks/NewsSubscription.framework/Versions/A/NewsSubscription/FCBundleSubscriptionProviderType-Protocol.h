@@ -7,7 +7,6 @@
 @class FCBundleSubscription;
 
 @protocol FCBundleSubscriptionProviderType
-- (void)nfosOfClass:(void (^)(void))arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) FCBundleSubscription *bundleSubscription;

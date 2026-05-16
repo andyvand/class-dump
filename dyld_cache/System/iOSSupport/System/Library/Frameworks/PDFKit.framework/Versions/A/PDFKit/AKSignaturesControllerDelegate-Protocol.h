@@ -5,6 +5,5 @@
 //
 
 @protocol AKSignaturesControllerDelegate
-- (void);
 @end
 

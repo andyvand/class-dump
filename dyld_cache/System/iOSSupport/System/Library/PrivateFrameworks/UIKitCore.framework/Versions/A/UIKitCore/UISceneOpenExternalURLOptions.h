@@ -13,11 +13,10 @@
 }
 
 - (_Bool);
-- (void)ignActive;
-- (void)aryStrippingOutMessageContent:(id)arg1;
+- (void);
+- (void);
 - (id);
-- (void)QÀð1¢!0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIEventAttribution *eventAttribution; // @synthesize eventAttribution=_eventAttribution;

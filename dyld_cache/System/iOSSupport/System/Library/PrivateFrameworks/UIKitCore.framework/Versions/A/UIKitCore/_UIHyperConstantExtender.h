@@ -12,18 +12,19 @@
     double __maximumDistance;
 }
 
-+ (id)ets;
-+ (_Bool) sÿp^;
-- (void)ber;
-- (_Bool);
-- (id);
-- (double)ckingWithEvent: /* Error: Ran out of types for this method. */;
++ (id)er: /* Error: Ran out of types for this method. */;
++ (_Bool)local;
+- (double);
 - (id);
 - (id);
-- (unsigned long long);
-- (void)gedDisplayItemAlpha:(double)arg1;
-- (id)yParallaxShadowView;
-- (void)tScrollGesture;
+- (unsigned long long);
+- (void)1Â0@ù
+× ;
+- (_Bool)leItalic:(id)arg1;
+- (void);
+- (id)ackgroundProvider;
+- (id)_enableAlternatePopItem;
+- (void):(double)arg1 %@, to:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

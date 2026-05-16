@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ondIntervalNumber:(long long)arg1 %@;
 - (void);
-- (long long)1¢!0@ù
-× ;
-- (id)yAttributesInRange: /* Error: Ran out of types for this method. */;
-- (id)nDelegate>",W,N,V_transitionDelegate;
-- (void)ÌÁ;
-- (void)%½Ù;
-- (void)Â¬;
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)`#_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

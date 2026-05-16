@@ -8,6 +8,7 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (id <MTLHeap>)æ@òûÿ;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

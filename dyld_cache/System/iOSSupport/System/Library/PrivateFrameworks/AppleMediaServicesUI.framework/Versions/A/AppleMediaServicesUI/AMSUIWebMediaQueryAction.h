@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)public}@;
+- (void)TitleDisplayMode: /* Error: Ran out of types for this method. */;
+- (id)_AAyytqj1yË3yÍ{1G?v1ya{1SgGGGt;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;

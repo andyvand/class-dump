@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (CDUnknownBlockType);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;

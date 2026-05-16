@@ -20,8 +20,8 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowMoves; // @synthesize allowMoves=_allowMoves;

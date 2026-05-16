@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     UIImage *_image;
 }
 
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *image; // @synthesize image=_image;

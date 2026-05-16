@@ -8,10 +8,7 @@
 
 @interface SensitiveContentAnalysisUI.ReportToAuthoritiesViewModel
 {
-    MISSING_TYPE *authority;
-    MISSING_TYPE *interventionType;
-    MISSING_TYPE *evidenceBlock;
-    MISSING_TYPE *_evidence;
+    MISSING_TYPE *_config;
     MISSING_TYPE *_$observationRegistrar;
 }
 

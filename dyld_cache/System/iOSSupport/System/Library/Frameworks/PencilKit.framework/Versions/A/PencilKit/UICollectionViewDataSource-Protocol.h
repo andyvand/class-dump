@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionReusableView, UICollectionViewCell;
+@class NSArray, NSIndexPath, UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (long long)K;
-- (UICollectionViewCell *)Ì;
+- (UICollectionViewCell *)¼;
 
 @optional
-- (_Bool)!;
-- (long long)e;
-- (NSIndexPath *)eStrokes;
-- (UICollectionReusableView *)nFactor;
+- (NSArray *)!Dùq(ð1Â0@ù
+× ;
+- (NSIndexPath *)v@?>96;
+- (void)inish combining manually triggered;
+- (UICollectionReusableView *)yboard-Button;
 @end
 

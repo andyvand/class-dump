@@ -24,12 +24,12 @@
 + (id);
 + (id);
 + (_Bool);
-- (_Bool):(id)arg1;
-- (_Bool)wHeaderInRect:forPageWithTitle:URL: /* Error: Ran out of types for this method. */;
-- (_Bool)Actions;
 - (_Bool);
-- (void)ICHashtagUIModel;
-- (void)ressWindowControllerDelegate;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (Class);
 - (id);
 - (id);
@@ -39,11 +39,11 @@
 - (id);
 - (id);
 - (id);
-- (id)/;
-- (id)s;
-- (_Bool);;
-- (id)s;
-- (Class)rentIntent];
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (Class);
 - (id);
 - (id);
 - (id);
@@ -52,12 +52,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (int);
-- (void)lers;
+- (id);
+- (void)KAppStripLayoutAttributes;
+- (_Bool)ort encryption;
+- (void)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) FKOrderMessagesPreviewMetadata *metadata; // @synthesize metadata=_metadata;

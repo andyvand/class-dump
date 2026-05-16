@@ -18,12 +18,12 @@
 - (id);
 - (void);
 - (void);
-- (void)or Attachment %@. %0.3fs;
-- (void)Attachment:(id)arg1 %@;
-- (void)ale %.1f;
-- (void)generation failed for size:(id)arg1 %.1f, scale %.1f;
-- (CDUnknownBlockType)d ocrSummary %d imageClassificationSummary %d hasPreviewImage %d;
-- (void)ed with error:(id)arg1 %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -45,8 +45,8 @@
 - (void);
 - (void);
 - (id);
-- (void)Ȅ;
-- (void);
+- (void)­§j3S;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKSendAnimationManager> animationDelegate; // @synthesize animationDelegate=_animationDelegate;

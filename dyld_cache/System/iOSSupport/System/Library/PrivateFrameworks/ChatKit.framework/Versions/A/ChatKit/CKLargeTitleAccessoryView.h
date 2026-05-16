@@ -15,10 +15,10 @@
 + (id);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
-- (void);
-- (struct CGSize)2@?0@"CNLabeledValue"8Q16^B24;
-- (struct CGSize)aê,;
+- (struct CGSize)ownChat;
+- (void)ìÀ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessoryButtons; // @synthesize accessoryButtons=_accessoryButtons;

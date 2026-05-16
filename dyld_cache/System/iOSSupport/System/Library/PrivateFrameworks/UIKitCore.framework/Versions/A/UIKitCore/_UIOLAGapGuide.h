@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long);
-- (void)not be deserialized;
 - (id);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id followingItem; // @synthesize followingItem=_followingItem;

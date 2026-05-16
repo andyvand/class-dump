@@ -17,28 +17,26 @@ __attribute__((visibility("hidden")))
     struct CGRect _aggregateInvalidRect;
 }
 
-- (struct)ppressDatabaseUpdates;
-- (void)ginalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (struct);
+- (void);
 - (void);
 - (struct CGRect);
-- (void)t with guid %s. Not adding to record.;
-- (void)bscription service daemon disconnected, clearing cache, but not reconnecting.;
-- (struct CGRect)nectTimer]:(struct CGRect)arg1 %@;
-- (void)he attachments yet, we'll just re-download.;
-- (struct CGRect)ting local sync state, and fetching the recoverable messages again %@;
-- (void)ssage zone.;
-- (void)eviewed command pipeline;
-- (_Bool)che miss for chat with roomname:%@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (_Bool);
 - (struct CGRect);
 - (id);
 - (struct CGContext *);
 - (void);
 - (void);
-- (double)Ao°!ÐDùÁð1¢!0@ù
-× ;
-- (void)
-× ;
-- (void);
+- (void);
+- (double)ethods.;
+- (void)¯U48g;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect aggregateInvalidRect; // @synthesize aggregateInvalidRect=_aggregateInvalidRect;

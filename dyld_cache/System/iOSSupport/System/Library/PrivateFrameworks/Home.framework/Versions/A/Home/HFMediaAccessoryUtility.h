@@ -12,7 +12,7 @@
     NSMutableDictionary *_restartStateList;
 }
 
-+ (id);
++ (id)ription;
 - (id);
 - (void);
 - (void);
@@ -24,8 +24,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void)x××
+àÙ$ÚhÚlÚüÜXÝ;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *restartStateList; // @synthesize restartStateList=_restartStateList;

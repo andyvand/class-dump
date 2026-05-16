@@ -14,9 +14,6 @@
     NSString *_fallbackTemperatureString;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -24,16 +21,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (void);
-- (void)ount;
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void)alyticsLogItemProvider;
+- (void)ÀÐP` ¨Ô;
+- (id)etting value for keypath [%@] with new value [%@];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,6 +7,7 @@
 @protocol HUControlPanelRule;
 
 @protocol HUControlPanelConfiguration
+- (id <HUControlPanelRule>)called without a HFMediaProfileContainer;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

@@ -14,20 +14,20 @@
     NSMutableDictionary *_urlStringToRejectedResourceIconInfoDict;
 }
 
-- (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool)4;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)es: /* Error: Ran out of types for this method. */;
 
 @end
 

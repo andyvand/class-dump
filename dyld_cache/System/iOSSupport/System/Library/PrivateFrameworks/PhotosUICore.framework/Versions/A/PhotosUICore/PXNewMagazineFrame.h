@@ -19,13 +19,13 @@
 - (long long);
 - (double);
 - (id);
-- (void);
+- (id);
+- (long long);
 - (long long);
 - (void);
-- (id);
-- (long long)DuplicatesCollection: /* Error: Ran out of types for this method. */;
-- (double);|Zy}x#yWl!yÁZyÃZ~!Gàw!ySbGG_SSQo__Qo__7ï;
-- (void)OÌ»7;
+- (void);
+- (void)on:(long long)arg1 playbackRange:highlightRange:bestPlaybackRect:normalizationData:audioQualityScore: /* Error: Ran out of types for this method. */;
+- (double);
 
 // Remaining properties
 @property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;

@@ -24,50 +24,51 @@
 + (id);
 + (id);
 + (id);
-+ (id)S}SS^ICssssS{_PR_DBINIT=[1^{_PR_FILE}]^{_PR_FILE}^{_PR_FILE}^{_PR_FILE}^{_PR_FILE}}[1^{_RULEFILE}]{_PR_STATUS=IiS}}56B64B68r*72r*80@88;
-+ (id)del";
++ (id);
++ (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (id)erWithUnretainedReferences;
-- (_Bool)?32@40@?48;
-- (void)_unfairLockOptions;
-- (void)de:(id)arg1 ];
++ (id);
++ (id);
 - (_Bool);
-- (void)H;
-- (void)O;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)!@a@e;
+- (void);
 - (struct CGAffineTransform);
 - (void);
 - (id);
 - (void);
-- (void)ct:(double)arg1;
-- (id)C;
+- (void);
 - (void);
 - (id);
-- (id)__objc_data;
 - (void);
-- (double);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
 - (void);
-- (id)BA9	A;
-- (void)k"�|&;
 - (void);
 - (id);
+- (id);
+- (double);
 - (void);
-- (void)tCuratorID:(id)arg1;
+- (void);
 - (id);
 - (id);
 - (void);
-- (id)t=dd}{CGSize=dd}}36@?68;
+- (void)
+× ;
+- (id)int;
+- (id)es:(id)arg1;
+- (void)Ü*Ëÿÿÿÿÿ´;
+- (id)¸;
+- (id)t:%@, shot:%p /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *_backgroundColor;

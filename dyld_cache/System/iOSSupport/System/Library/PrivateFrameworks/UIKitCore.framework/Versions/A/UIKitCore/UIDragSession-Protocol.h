@@ -5,7 +5,6 @@
 //
 
 @protocol UIDragSession
-- (id)val: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id localContext;

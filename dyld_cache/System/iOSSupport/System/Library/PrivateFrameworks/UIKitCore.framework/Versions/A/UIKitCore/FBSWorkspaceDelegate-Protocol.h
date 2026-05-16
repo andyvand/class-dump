@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSWorkspace;
-
 @protocol FBSWorkspaceDelegate
 
 @optional
-- (void);
-- (void)veEnrollmentWithIdentifier:(FBSWorkspace *)arg1;
+- (void)onGestureMode;
 @end
 

@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (int)DÉ;
++ (int);
 - (Class);
 
 @end

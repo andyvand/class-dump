@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)ICSo23WFComposeViewControllerP33_E347E1AA1954460EC7F8E0E5C834597915DelegateAdaptor;
 
 // Remaining properties
 @property(readonly, nonatomic) UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;

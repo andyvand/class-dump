@@ -27,24 +27,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)fo:(id)arg1;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)al incoming dl push:%@ /* Error: Ran out of types for this method. */;
-- (id)d to update filterCapbilities from relayed message;
+- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (long long);
-- (id)T;
 - (void);
-- (void)Ô ;
-- (long long)youtController:(id)arg1 typingAttributes:usesLineFragmentOrigin:coordinateSpace:scale:fallbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
-- (void)efault size while bar is not in default size is not supported;
-- (_Bool)Ä¬#;
-- (void)-;
-- (void)ÒNe;
+- (id);
+- (long long);
+- (void);
+- (void);
+- (long long);
+- (void)ntBasedLayoutAnimations;
+- (void)tedPlaceholderSupportC;
+- (_Bool)X\;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_cachedItems; // @synthesize _cachedItems;

@@ -19,6 +19,7 @@
     MISSING_TYPE *overriddenStateMask;
     MISSING_TYPE *renderBlock;
     MISSING_TYPE *lastRenderStateMask;
+    MISSING_TYPE *viewportDisplayState;
 }
 
 - (id);
@@ -27,33 +28,34 @@
 - (void);
 - (void);
 - (id);
-- (void)n didn't match hint:(long long)arg1 anchor range mismatch:%@ vs %@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (long long);
-- (void);
 - (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)h/¤233D4¨456;
+- (id)!DDùñþÐ1Â0@ù
+× ;
+- (void)Ä²³(³P³³Ø³$´X´¤´Ø´;
+- (_Bool)Ú[ðÿxAïÿ~<ïÿñÿEïÿ bðÿRîïÿXñÿ;
+- (void)elector;
+- (void)x3ImageURL_6;
+- (void)Á,Òãÿá,<ËãÿÑ,dËãÿñ,Ëãÿ,ÈËãÿy,ÜËãÿ,ðËãÿ¡,ÌãÿÙ,Ìãÿ;
 - (id);
-- (void);
-- (id)_p;
-- (id);
-- (id)ÿü_÷É)º;
-- (_Bool)@;
-- (_Bool);
+- (id)hAÿ;
+- (void)Ý2:Çà /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)e<ðñyþe<H,yþ;
 - (_Bool);
 
 // Remaining properties

@@ -15,12 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)(;
++ (id);
 + (id);
 - (void);
 - (void);
-- (id)Please remove your implementation of this method and set the cell properties accessoryType and/or editingAccessoryType to move to the new cell layout behavior.  This method will no longer be called in a future release.;
-- (void)archive:(id)arg1 %@;
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) id <_UIHostedTextServiceSessionDelegate> delegate; // @synthesize delegate=_delegate;

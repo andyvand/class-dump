@@ -27,38 +27,41 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (double);
+- (double);
 - (void);
-- (struct CGRect);
+- (double);
 - (void);
-- (void)iceHomeScreenLayoutDeclaration_Status;
+- (id);
+- (double);
+- (void);
+- (double);
+- (void);
+- (void);
+- (_Bool);
+- (double);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (double);
-- (double).3f seconds;
-- (double);
-- (void);
-- (_Bool)setProperties:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)cloudItemIDList;
-- (void);
-- (double);
-- (double);
-- (double);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (double)CGSize=dd}32{CGSize=dd}48;
-- (_Bool)orEndedTouchState: /* Error: Ran out of types for this method. */;
-- (id)ppressesMaterialRendering: /* Error: Ran out of types for this method. */;
-- (void)TransitionWithFinalAnimation:(double)arg1;
-- (double)romCellLeadingEdge;
-- (void)sPriority:(double)arg1 ,V__focusPriority;
-- (void)d;
-- (double)w",&,N,V_hostView;
-- (void)delegateMustBeginFromRestValue;
-- (void);
-- (unsigned long long);
-- (double);
-- (void)ª·\;
+- (void)ùñbð1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (void)f1Â0@ù
+× ;
+- (void);
+- (double)6@0:8 /* Error: Ran out of types for this method. */;
+- (double)}60@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16i48d52 /* Error: Ran out of types for this method. */;
+- (void)nsitionForOldItems:(struct CGRect)arg1 newItems: /* Error: Ran out of types for this method. */;
+- (void)_dismissAction;
+- (unsigned long long)ry;
+- (double)tings;
+- (void)ØêÿêÿPêÿêÿÈêÿêÿ@êÿ|êÿêÿ¸êÿtêÿêÿÔêÿêÿÄêÿÐêÿôêÿpêÿØêÿüêÿ8êÿêÿ¤êÿàêÿ`êÿ´êÿ êÿ¸êÿ`êÿ¬êÿÄêÿèêÿêÿ@êÿ`êÿêÿ¨êÿÌêÿäêÿêÿ êÿ êÿ¨ êÿô!êÿ0"êÿT"êÿx"êÿ´"êÿØ"êÿÌ*êÿ;
+- (double)rtIdentifier;
+- (void)y for storing the bitmap data corner edge positions.;
+- (_Bool)out attributes that came from _collectionViewData;
+- (unsigned long long)ÛR0¡m43R;
 
 // Remaining properties
 @property(nonatomic) double backProjectTime; // @synthesize backProjectTime=_backProjectTime;

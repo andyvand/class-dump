@@ -13,10 +13,10 @@
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
 - (id);
+- (struct CGPoint);
 - (double);
-- (double)3BAg@3z4WpMq+p>CB-ZM7A+eV@8xGj]z/{evB-ZM7A+eV@5!mVnpJZ+#B-ZM7A+eV@a#1dXwPy7DBzk]jBA]]Tx>gaMv}xv$wL3=UB-ZM7A+eV@i=xd.Acln3BAg@3z8%6D;
+- (double)vruj4zAofEb0VFXCv+k:x>qG&wNX2BzGGDcBwN0@v}x.5l${ghwPzT4zEES#5ciW-3i$=^vS(D%Cm>i-oikXlr+Vb?c&$P:0sy5}wNXXOwP{KRwjy0wy/2d<C4(2iz/f01pgnrWxjk)@z/c9!8wAI-Cv+k:x>qG330f=3wNXXOwP]4h3jpVVC4>O$BzkVh5!4&mpgnrWxjk)@z/cE83i+0YA=k$h2tOh^A=M8sa$[dKvPEhOCrfnGwjy0wy/2d<C4(2iz/f01pgnrWxjk)@z/dQWx([2SA=M8siW+4N-Slz{Cv+k:x>qGRwN/B+wL^qYx>8ATz/OPYC4>O$BzkVhqE%]*z/fSc5ciW-3i$=^vPEhOCm>i-oikXlr+Vb?8y=7bzEEZ5xjk)@z/eD:B8V5nB7C%#s4=p%C4>O$BzkVhqE%]*z/fSc8w&!(wmYm+B7]MgnmuyDy?mS11.8p^v@0nHCv+k:x>qGHwmYm+wmXOQy?Wy8mSirxvrMu$vruj4zC>4!AbPSnwJBvkv}*0#z/e9OzE^M{AYLPIdG@*zokeF /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint point; // @synthesize point=_point;

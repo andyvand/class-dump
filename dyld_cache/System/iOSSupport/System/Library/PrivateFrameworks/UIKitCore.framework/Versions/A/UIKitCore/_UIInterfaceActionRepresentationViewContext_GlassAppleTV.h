@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (_Bool);
-- (id)ageContext;
-- (id)ckingHandle: /* Error: Ran out of types for this method. */;
-- (void)0;
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 

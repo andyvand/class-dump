@@ -10,9 +10,9 @@
 }
 
 + (id);
-- (id);
-- (id);
 - (unsigned long long);
+- (id);
+- (id)I#I#GSg_I#SgtGG_Ý¯Qo_;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long effectType; // @synthesize effectType=_effectType;

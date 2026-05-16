@@ -77,23 +77,23 @@
 - (id);
 - (struct CGSize);
 - (struct CGSize);
-- (long long);
-- (void);
-- (struct CGSize);
 - (double);
-- (unsigned long long);
-- (unsigned long long);
-- (struct CGSize);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (struct CGSize);
-- (void);
-- (double);
-- (struct CGSize);
 - (long long);
 - (_Bool);
+- (double);
+- (long long);
+- (struct CGSize);
+- (unsigned long long);
 - (void);
 - (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
+- (void);
+- (unsigned long long);
+- (struct CGSize);
+- (void)mation;
 
 // Remaining properties
 @property(readonly, nonatomic) PUFontManager *_fontManager; // @synthesize _fontManager=__fontManager;

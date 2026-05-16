@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     _Bool _refreshControlAutomaticContentOffsetAdjustmentEnabledWhenLastIdle;
 }
 
-- (void);
-- (void)A;
-- (void)
+- (void)!DùQað1Â0@ù
 × ;
-- (_Bool)edoAttributedSubstringFromRange: /* Error: Ran out of types for this method. */;
-- (id)ectionHeaderHeight;
-- (void)è;
+- (id):(id)arg1;
+- (void)_preferredFontForTextStyle:(double)arg1 weight: /* Error: Ran out of types for this method. */;
+- (void)SinglePicker;
+- (_Bool)ÜQþ þÿ;
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

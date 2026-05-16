@@ -29,27 +29,27 @@
 }
 
 - (id);
-- (id)qA;
-- (id)R	;
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id)dcrumbTextMarkerAttribute;
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)ì4`;
-- (id);
-- (id)xpirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id FROM message WHERE date > ?   AND item_type == 0   AND error != 0   AND is_from_me == 1   AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT ?;;
 - (id);
 - (unsigned char);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id)AndLogAfterSuccess;
+- (void)..;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;

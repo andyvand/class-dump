@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)AyR3q;
+- (id);
+- (void)iscoveringEnvironment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *extensionIdentifier;

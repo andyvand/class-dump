@@ -36,128 +36,124 @@ __attribute__((visibility("hidden")))
     UIRemoteInputViewInfo *_remoteAssistantViewInfo;
 }
 
-+ (double);
-+ (long long)!<CùÂð1¢!0@ù
-× ;
-+ (_Bool)Dispatcher;
-+ (_Bool);
-+ (double)with invalid properties;
-- (void);
++ (double)ency:(id)arg1;
++ (_Bool)es: /* Error: Ran out of types for this method. */;
++ (double)en there can't be a _first either;
++ (_Bool)dHoverEffect;
++ (long long)O;
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id)oadADUseWindowsUNCPath;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (id)kD;
-- (void);
-- (void);
 - (double);
 - (void);
 - (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool)te.;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)24B40@44@?52;
-- (void)predicateMatchingPredicates:(id)arg1;
-- (void)dNotifyToken;
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (long long);
 - (id);
-- (void);
+- (_Bool);
 - (void);
-- (double);
-- (_Bool)þ¹;
-- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool)!;
 - (void)
 × ;
-- (void)1¢!0@ù
+- (id)±Z°1Â0@ù
 × ;
-- (_Bool)¡tð!¤DùÑÈð1¢!0@ù
+- (void);
+- (id)°!¨Bùña1Â0@ù
 × ;
-- (id)QÉð1¢!0@ù
+- (void)!ô@ùb°1Â0@ù
 × ;
-- (_Bool)!0@ù
+- (void);
+- (void)1Â0@ù
 × ;
-- (_Bool)Ð1¢!0@ù
+- (void)× ;
+- (_Bool)ùc°1Â0@ù
 × ;
-- (void)0@ù
+- (double)Ñe1Â0@ù
 × ;
-- (_Bool)!vÐ! FùÑÊÐ1¢!0@ù
-× ;
-- (void)ùñÊð1¢!0@ù
-× ;
-- (id)wÐ!¤FùÑÌÐ1¢!0@ù
-× ;
-- (void)Range=QQ}40;
-- (id);
-- (void)options: /* Error: Ran out of types for this method. */;
-- (id)haredRuntimeAssetMap;
-- (_Bool)TranslatesAutoresizingMaskIntoConstraints: /* Error: Ran out of types for this method. */;
-- (_Bool)zerWithTarget:action:delegate: /* Error: Ran out of types for this method. */;
-- (id)lightedIndexUpdated;
-- (id)nstant: /* Error: Ran out of types for this method. */;
-- (void)imation:(id)arg1 withIndex:contextID: /* Error: Ran out of types for this method. */;
+- (id)@"_UIDynamicCaretAlternatives";
+- (_Bool)16@0:8 /* Error: Ran out of types for this method. */;
+- (void)orCoordinateSpace;
+- (id)rSelectableKeyboardInputModes;
 - (void): /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (_Bool)@"UISystemInputViewController",R,N;
-- (void)DifferenceSize",R,N,V_differenceSincePreservingPreviousVersion;
-- (id)SheetPresentationActionToHost;
-- (void)TableConstantsCellProviding;
-- (id)0;
-- (void)ÜT@UlYHZ;
-- (_Bool)able its not the owner of:%@, which is owned by:%@ /* Error: Ran out of types for this method. */;
-- (void)e with UIScene lifecycle;
-- (id)rence:(id)arg1 %{public}@; for scene:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)ate or doesn't implement state restoration, clearing previous saved state.;
-- (_Bool)straints=%p;
-- (void)bleMovement;
-- (id)s;
-- (struct CGRect)TransformMinSize;
+- (void)thEvent:transitionHandler:postTransitionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)r: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool)[;
-- (void)f[;
-- (void)ôa\;
-- (id);
+- (id)SpringAnimations: /* Error: Ran out of types for this method. */;
+- (void)tteByMergingPalette: /* Error: Ran out of types for this method. */;
+- (void)anualScrollEdgeAppearanceProgress;
+- (_Bool)tion:(id)arg1 duration:(id)arg2 andWindow: /* Error: Ran out of types for this method. */;
+- (void)Mode:(id)arg1;
+- (void)DatePadding;
 - (void);
-- (void)];
-- (id)þ;
-- (_Bool);
-- (void)rö^;
-- (void)AÐN,`;
-- (_Bool)ÿ(Pü;
-- (_Bool)¶`;
-- (void)0ÿ;
-- (id)&a;
-- (_Bool)úÕÂVa;
-- (void)Þva;
-- (void)wÜþ/ÇËÍa;
-- (void)|b;
-- (_Bool)äñþuÔ§a;
-- (void)èàÿ;
-- (void)_"ÿ#ÁÖb;
-- (void)Ë;
-- (void)Ä¼mÿ;
-- (_Bool)hëÿàÿ×.Wd;
-- (void)ae;
-- (void)¤´ÿ;
+- (id)tomTextRenderer;
+- (void): /* Error: Ran out of types for this method. */;
+- (_Bool)_updateIdentityTrackerWithUpdateSupport:(id)arg1;
+- (id)rChangeFromPresentationSemanticContext:(double)arg1;
+- (void)l:(id)arg1;
+- (void)resentersAppearanceCallbacks;
+- (_Bool)ssary;
+- (id)fo: /* Error: Ran out of types for this method. */;
+- (void)tion;
+- (void)N,GisRightSelected;
+- (_Bool)fersSingleCharacter;
+- (void)fecycleCompletion;
+- (_Bool)_fallbackSymbolStyle;
+- (void);
+- (void)or;
+- (_Bool)´H·;
+- (void)L<Ô=;
+- (void)lertControllers:(id)arg1 Showing Hidden alert :%@ /* Error: Ran out of types for this method. */;
+- (id)ate response block from a background thread.;
+- (long long);
+- (id)Éíÿþÿ;
+- (id)@þÿ·îÿ;
+- (id)¨ùîÿ;
+- (void)lobalCoordinateSpace;
+- (struct CGRect)tValue:forKey:] with 'contentsGravity'. Temporary workaround in place. /* Error: Ran out of types for this method. */;
+- (_Bool)raint isKindOfClass:[NSLayoutConstraint class]] /* Error: Ran out of types for this method. */;
+- (void)eFormats;
+- (_Bool)default-applications;
+- (void)to revert intermediate update; failing to create map for %@;
+- (id)ntKindSectionFooter;
+- (_Bool)tomDiagnosticReporter;
+- (id)[;
+- (void)VÿiÚb;
+- (_Bool)Hc;
+- (void)ýc;
+- (void)h0h;
 
 // Remaining properties
 @property(nonatomic) long long assistantBarStyle; // @synthesize assistantBarStyle=_assistantBarStyle;

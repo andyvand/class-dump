@@ -20,11 +20,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (_Bool);
 - (struct CGRect);
-- (id);
 - (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isExplorationElement; // @synthesize isExplorationElement=_isExplorationElement;

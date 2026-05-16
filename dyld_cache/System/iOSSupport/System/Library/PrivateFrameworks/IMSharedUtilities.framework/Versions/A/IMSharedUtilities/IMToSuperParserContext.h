@@ -41,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void)%;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -64,16 +64,16 @@
 - (void);
 - (void);
 - (long long);
-- (void)C;
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id)PreviewConstraints=d{CGSize=dd}dBBB}24;
-- (void)T¼ø;
+- (void)ingVersion;
+- (void)éO÷4¼Y;
+- (id)Observer;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

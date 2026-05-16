@@ -14,18 +14,17 @@
 }
 
 - (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)!0Eù1¨ð1¢!0@ù
-× ;
-- (id)rnally;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)q,N,V_integerPredicateValue;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;

@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
-- (void)v24@0:(id)arg1 8d16;
+- (void);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool)eenTimeAskReponseHandler;
-- (Class)tDeletingAnyAttachments:(id)arg1 urgency: /* Error: Ran out of types for this method. */;
-- (void)eConditionsToCheck:(id)arg1 currentBatchCount:(id)arg2 maxBatchCount: /* Error: Ran out of types for this method. */;
-- (void)t:(id)arg1 original: /* Error: Ran out of types for this method. */;
-- (void)V_replicationProxy;
-- (struct CGPoint);
-- (void)p0º;
+- (_Bool);
+- (Class);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

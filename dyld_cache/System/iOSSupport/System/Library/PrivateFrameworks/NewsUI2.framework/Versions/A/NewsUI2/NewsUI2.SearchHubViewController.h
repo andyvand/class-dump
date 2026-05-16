@@ -13,12 +13,14 @@
     MISSING_TYPE *eventManager;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ÞÝôÿèY÷ÿ"<õÿ;
+- (void);
+- (void)	
+;
+- (void)edConfig;
+- (void)Ð)5;
 
 @end
 

@@ -19,31 +19,30 @@ __attribute__((visibility("hidden")))
     struct CGAffineTransform _targetTransform;
 }
 
-+ (id)dler From %@ To %@;
-+ (_Bool)Ã\ÿ¯<ÔÚßl;
-- (long long)*outDataSignature;
-- (void)original data;
-- (void)ject for data claiming;
-- (void);
-- (void);
-- (void);
-- (long long)gsForChat: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void)class];
-- (id);
-- (double)!0Bù±Ç1¢!0@ù
-× ;
-- (_Bool)DVþ<þÿ;
-- (_Bool)ystem.;
-- (double)IMutableTraitsInternal>"@?>16;
-- (struct CGAffineTransform)riPlatformSupport.framework/SafariPlatformSupport;
++ (id);
++ (_Bool)nnot construct a _UIStatistic instance with an empty or nil string;
 - (long long);
-- (void)þ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ipopView;
+- (void);
+- (void)å+¬72êÿø³þÈþÿ;
+- (_Bool)tateWithCoder:] /* Error: Ran out of types for this method. */;
+- (double)e=%p;
+- (_Bool)tentType title ;
+- (struct CGAffineTransform)kgroundStyle;
 - (_Bool);
 - (double);
-- (void);
+- (double)ab;
+- (long long)1^43c·;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimated) _Bool animated; // @synthesize animated=_animated;

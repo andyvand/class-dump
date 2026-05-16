@@ -14,14 +14,15 @@
 
 - (_Bool);
 - (struct CGSize);
-- (void);
 - (id);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
+- (void);
 - (struct CGSize);
 - (struct CGSize);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

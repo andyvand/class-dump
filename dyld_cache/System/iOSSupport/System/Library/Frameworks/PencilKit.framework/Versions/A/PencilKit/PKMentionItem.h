@@ -19,12 +19,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
-- (id);
-- (_Bool)letteTapToRadarConfiguration",R,N,V_configuration;
+- (_Bool)2;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active;

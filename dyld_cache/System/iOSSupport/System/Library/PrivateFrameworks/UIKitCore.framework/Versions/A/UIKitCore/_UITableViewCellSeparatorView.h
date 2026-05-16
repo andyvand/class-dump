@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (_Bool)
+- (_Bool)0@ù
 × ;
-- (id)nView with reproduction steps.;
 - (id);
-- (void);
+- (void)Dè,;
+- (void)ÿ¶ýoþ;
+- (void)Ð|¤\;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool drawsWithVibrantLightMode; // @synthesize drawsWithVibrantLightMode=_drawsWithVibrantLightMode;

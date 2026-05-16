@@ -13,15 +13,16 @@ __attribute__((visibility("hidden")))
     id <_UIPointerArbitrating> _core;
 }
 
-+ (id);
++ (id)etChooseSupplementalCandidateCompletion: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (id)e_chunk_keys;
+- (id);
 - (void);
-- (id)iding: /* Error: Ran out of types for this method. */;
-- (void)w;
-- (void)ze;
-- (long long)te;
+- (void)1Â0@ù
+× ;
+- (long long);
+- (void)can't find context for contextID:(id)arg1 %@;
 - (void);
 
 // Remaining properties

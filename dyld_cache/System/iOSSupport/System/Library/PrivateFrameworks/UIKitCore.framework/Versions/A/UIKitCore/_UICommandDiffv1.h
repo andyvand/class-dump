@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     NSOrderedSet *_changes;
 }
 
-+ (id)y returning:(id)arg1 SMSService recoverCommand - chat not found for GUID:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)dQÛäo;
-- (void);
-- (id)ct",R,N,V_model;
++ (id);
++ (_Bool)eractionEnabled;
 - (id);
 - (id);
-- (void);
+- (void)tion;
 - (id);
+- (id)r;
+- (void)@];
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *changes; // @synthesize changes=_changes;

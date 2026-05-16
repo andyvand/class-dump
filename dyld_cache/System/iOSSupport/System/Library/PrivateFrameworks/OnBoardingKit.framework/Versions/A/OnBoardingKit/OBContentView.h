@@ -27,12 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id)actor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::PendingDownload>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::PendingDownload>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::PendingDownload>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void)DomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE);
-- (void);
-- (id)p;
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool aboveHeaderLayout; // @synthesize aboveHeaderLayout=_aboveHeaderLayout;

@@ -9,19 +9,19 @@
     struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
-+ (_Bool);
++ (_Bool)¬I;
 - (void);
 - (void);
-- (oneway void)`;
+- (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool)0D);
-- (_Bool);
-- (_Bool);
+- (oneway void);
 - (id);
-- (id)ackground:withObject: /* Error: Ran out of types for this method. */;
-- (unsigned long long)¡;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)¼;
+- (_Bool)IGH LIGATURE ALEF WITH YEH BARREE;
 
 @end
 

@@ -14,10 +14,14 @@
     NSDate *_dateRemoved;
 }
 
-+ (id)|;
-+ (_Bool)A;
++ (id);
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -25,12 +29,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)NSString",R,N,V_connectedClientsDescription;
-- (id)@ home:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id)e:expiryDate: /* Error: Ran out of types for this method. */;
+- (void)ô	Èÿÿÿÿÿx;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

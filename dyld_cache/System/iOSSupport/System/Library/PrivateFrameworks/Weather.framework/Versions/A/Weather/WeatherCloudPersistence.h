@@ -28,21 +28,21 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (id)initWithColor:location: /* Error: Ran out of types for this method. */;
+- (id);
+- (void):(_Bool)arg1 8o^@16@24o^@32;
 
 // Remaining properties
 @property(retain, nonatomic) NSUbiquitousKeyValueStore *activeCloudStore; // @synthesize activeCloudStore=_activeCloudStore;

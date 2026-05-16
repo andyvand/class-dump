@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (double);
-- (void)pe: /* Error: Ran out of types for this method. */;
+- (void)AnimatingBackdrops: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double animationDurationDown; // @synthesize animationDurationDown=_animationDurationDown;

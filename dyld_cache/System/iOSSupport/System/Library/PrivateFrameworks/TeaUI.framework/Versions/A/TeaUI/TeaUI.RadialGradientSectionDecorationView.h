@@ -13,11 +13,11 @@
     MISSING_TYPE *overscrollPinPosition;
 }
 
-- (void);
-- (void);
-- (id)_toOrder;
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

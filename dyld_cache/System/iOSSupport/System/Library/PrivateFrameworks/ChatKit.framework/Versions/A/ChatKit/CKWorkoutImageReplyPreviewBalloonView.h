@@ -13,14 +13,14 @@
     LPLinkMetadata *_metadata;
 }
 
-- (void)l;
-- (void)r;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)nPrompt;
+- (void)aultConversationViewingMessageCountOnAppear;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;

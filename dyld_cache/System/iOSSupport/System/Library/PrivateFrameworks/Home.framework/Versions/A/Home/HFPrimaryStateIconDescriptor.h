@@ -19,9 +19,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void)|t;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

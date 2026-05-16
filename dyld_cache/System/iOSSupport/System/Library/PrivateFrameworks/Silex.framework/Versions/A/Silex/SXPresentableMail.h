@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)uts;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *recipient; // @synthesize recipient=_recipient;

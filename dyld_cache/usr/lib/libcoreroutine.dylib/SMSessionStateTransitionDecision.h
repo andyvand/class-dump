@@ -12,10 +12,10 @@
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (_Bool);
-- (void);
+- (void):] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

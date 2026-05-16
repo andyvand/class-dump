@@ -18,21 +18,21 @@ __attribute__((visibility("hidden")))
     struct CGRect _rect;
 }
 
-- (void)sfer:inItem: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)1¢!0@ù
+- (struct CGPoint)
 × ;
-- (void)<ln¸n`oLp;
+- (struct CGPoint)sentation;
+- (struct CGRect)ardChangedInformation",&,V_backupState;
+- (id)tLargeTitleAccessoryView:(struct CGRect)arg1 ,V__largeTitleAccessoryView;
+- (unsigned long long)om.inditex.zara;
+- (void)·þ;
 - (void);
-- (id)al-sources;
-- (struct CGPoint)ditionalRenderingDestination;
-- (struct CGPoint)ËÔ<`;
-- (void)kb;
-- (unsigned long long)ÿ;
-- (void)m;
-- (struct CGRect)Ø9ùo;
+- (void)f;
+- (void)¿;
+- (void)li;
 
 // Remaining properties
 @property(nonatomic) unsigned long long direction; // @synthesize direction=_direction;

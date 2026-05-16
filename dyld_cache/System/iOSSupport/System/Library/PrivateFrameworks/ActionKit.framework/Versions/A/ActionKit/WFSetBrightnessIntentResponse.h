@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)erminated response from SCP server;
-- (void)ey data, not base64 encoded;
+- (long long)nownHostFileURL;
+- (void)nthesizer;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

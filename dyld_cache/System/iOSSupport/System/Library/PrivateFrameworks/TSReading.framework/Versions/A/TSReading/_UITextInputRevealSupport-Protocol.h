@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextRange;
+@class UITextRange;
 
 @protocol _UITextInputRevealSupport
-
-@optional
-- (NSTextRange *);
+- (UITextRange *)shouldn't be adding animations after we've started showing them;
 @end
 

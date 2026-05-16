@@ -12,9 +12,9 @@
     MISSING_TYPE *logKey;
 }
 
-- (void);
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)UIView",R,N,V_containerView;
 
 // Remaining properties
 @property(readonly, nonatomic) HFIncrementalStateControlItem *controlItem; // @dynamic controlItem;

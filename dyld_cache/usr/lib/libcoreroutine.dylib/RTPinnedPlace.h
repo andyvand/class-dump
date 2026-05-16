@@ -13,15 +13,14 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id)itDisconnectOptions: /* Error: Ran out of types for this method. */;
-- (id)';
-- (unsigned long long)Á³(ð!`DùQ_,1¢!0@ù
-× ;
+- (id)ation: /* Error: Ran out of types for this method. */;
+- (void)nap to home work error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;

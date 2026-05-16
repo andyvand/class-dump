@@ -4,22 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButtonConfiguration, UIColor, UIImageSymbolConfiguration;
+@class UIButtonConfiguration, UIColor, UIFont, UITraitCollection;
 
 @protocol UIContentUnavailableConstants
-+ (id)lDAVUseSSL:withCalDAVPort:withCalDAVCredentials: /* Error: Ran out of types for this method. */;
-- (UIImageSymbolConfiguration *);
-- (double)PrivacyProxyFailClosedOverride;
-- (_Bool)immersiveDeepLinkURL"b1"dateReleased"b1"classicalWork"b1"classicalMovement"b1"classicalMovementCount"b1"classicalMovementNumber"b1"album"{?="identifiers"b1"title"b1"releaseDate"b1"year"b1"artist"b1"trackCount"b1}"artist"{?="identifiers"b1"name"b1}"composer"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}"homeSharingAsset"{?="identifiers"b1}"lyrics"{?="identifiers"b1"text"b1"hasStoreLyrics"b1"hasTimeSyncedLyrics"b1"hasDownloadedCatalogLyrics"b1}};
-- (UIButtonConfiguration *)±ÁÐ1¢!0@ù
++ (id)_startEngineIfNecessaryOnQueueWithReason:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)1Â0@ù
 × ;
-- (UIColor *)xtPadding"b1"hasCustomizedTextToSecondaryTextHorizontalPadding"b1"hasCustomizedTextToSecondaryTextVerticalPadding"b1"hasCustomizedEnforcesMinimumHeight"b1"hasCustomizedAlpha"b1"isSidebarStyle"b1};
-- (UIColor *)w;
-- (double);
-- (UIColor *)VisibiltyOfPreviewActionChromeForCurrentState;
-- (double)ckgroundAnimationIdentifier;
-- (double)ndicatorViewFrame;
-- (double)tonItem",&,N,V_backButtonItem;
-- (UIImageSymbolConfiguration *)ÿ;
+- (UIColor *)0@ù
+× ;
+- (UIFont *)°!¸@ùa°1Â0@ù
+× ;
+- (UIColor *)× ;
+- (UIColor *)"UITableView"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionCommitAnimating>"32;
+- (UIFont *)kdrop:(UITraitCollection *)arg1;
+- (double);
+- (UIButtonConfiguration *);
+- (UIColor *)%@; view:%@; layout attributes:%@ /* Error: Ran out of types for this method. */;
+- (double)the default value of %@. Ensure that your app is properly entitled.;
 @end
 

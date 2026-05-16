@@ -32,11 +32,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (double)@ù
-× ;
+- (double);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIKBTree *activeKeyboard; // @synthesize activeKeyboard=_activeKeyboard;

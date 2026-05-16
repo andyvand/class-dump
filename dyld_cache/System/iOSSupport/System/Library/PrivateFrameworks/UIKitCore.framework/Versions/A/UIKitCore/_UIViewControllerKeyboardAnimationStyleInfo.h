@@ -11,11 +11,12 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _previousCompleteHandler;
 }
 
-- (CDUnknownBlockType);
 - (void);
-- (void)ttonSystemItem:(CDUnknownBlockType)arg1 menu: /* Error: Ran out of types for this method. */;
-- (void)ius;
-- (_Bool);
+- (CDUnknownBlockType);
+- (void)ð! @ùQg°1Â0@ù
+× ;
+- (_Bool)not animate the effects property alongside the contentEffects property. Switch to using contentEffects exclusively.;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isAnimationCompleting; // @synthesize isAnimationCompleting=_isAnimationCompleting;

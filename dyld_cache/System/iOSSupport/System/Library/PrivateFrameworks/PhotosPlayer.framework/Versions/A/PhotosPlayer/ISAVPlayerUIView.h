@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class), %{public}s forbids:%{public}s. Requires a list of entries /* Error: Ran out of types for this method. */;
++ (Class);
 - (id);
 
 @end

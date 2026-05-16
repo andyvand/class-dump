@@ -9,11 +9,15 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)!4Gù81B0@ù
+- (UIConversationContext *);
+- (void)ù
 × ;
-- (long long)ementText: /* Error: Ran out of types for this method. */;
-- (void)ng:(long long)arg1;
-- (long long)D;
+- (void)enu:(NSString *)arg1;
+- (void)bled:(long long)arg1;
+- (void)ÿÿÿÿ;
+- (long long)Amount;
+- (_Bool)NSUnitElectricResistanceCG;
+- (void)ySiSgGGÈqèyêqèGGtGGADyACyAE_AsfGtGGGSg;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

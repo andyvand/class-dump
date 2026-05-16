@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _dismissalHandler;
 }
 
-- (void)P;
-- (void);
-- (_Bool)P;
+- (_Bool);
 - (void);
-- (void);
-- (CDUnknownBlockType):%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)eturnKeyType: /* Error: Ran out of types for this method. */;
+- (void)ransition;
+- (void)DirectionalLightEffectView;
+- (void)Ü´¿\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dismissalHandler; // @synthesize dismissalHandler=_dismissalHandler;

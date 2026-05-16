@@ -16,28 +16,27 @@
 }
 
 + (id);
-+ (id)h¬|ÀÔ4¤p
-0È;
-+ (_Bool)]];
++ (id);
++ (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)y;
-- (id)@;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

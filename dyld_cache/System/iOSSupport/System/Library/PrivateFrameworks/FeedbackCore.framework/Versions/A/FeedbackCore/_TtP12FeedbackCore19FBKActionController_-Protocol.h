@@ -5,5 +5,6 @@
 //
 
 @protocol _TtP12FeedbackCore19FBKActionController_
+- (void);
 @end
 

@@ -10,14 +10,13 @@
 {
 }
 
-- (_Bool)orMessage:messageGUID:routingBehaviors: /* Error: Ran out of types for this method. */;
-- (void)achabilityResultCG;
-- (void)SSSo8NSNumberCG;
+- (_Bool);
+- (void);
+- (void);
 - (Class);
-- (int);
-- (void)!0@ù
-× ;
-- (void)Block:(struct CGContext *)arg1;
+- (int);
+- (void);
+- (void);
 
 @end
 

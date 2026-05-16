@@ -9,8 +9,8 @@
 }
 
 - (id);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (_Bool);
 
 // Remaining properties

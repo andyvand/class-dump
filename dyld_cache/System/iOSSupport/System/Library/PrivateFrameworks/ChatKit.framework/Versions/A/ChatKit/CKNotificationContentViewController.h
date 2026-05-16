@@ -14,30 +14,9 @@
     IMTimingCollection *_launchTokeyboardBringUpTC;
 }
 
-+ (void)ShareParticipant"8;
-+ (void);
-- (void)chmentIDsInContext:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)Model;
-- (void)ue;
-- (void)essibilityAnnouncementDate;
++ (void);
++ (void)`¹0;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)o6ICNoteCG;
-- (id);
-- (struct UIEdgeInsets));
-- (struct UIEdgeInsets)(;
-- (void);
-- (void)TimeChangedNotification;
-- (void)ioPlaybackPlayNotification;
-- (void)enotes.filePreviewGenerationQueue;
-- (void)ImageData) != nil);
-- (void)textView's zoomController;
-- (void)CNoteEditorIconImageView hostViewDidZoom:(id)arg1 ];
-- (void)nor device authentication allowed while attempting primary authentication;
-- (id)asDevicePassword:%@, hasDivergedKey:%@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
-- (_Bool)asswordUtilities showReauthenticateTouchIDSheetInWindow:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -47,16 +26,36 @@
 - (void);
 - (void);
 - (id);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (void);
-- (id)llectionViewLayout: /* Error: Ran out of types for this method. */;
-- (void)ctAssetActionManager";
-- (_Bool)aredEvent;
-- (void)XR;
-- (_Bool)@W
-àW<X;
-- (void)oÛüÿG_`£¬AAyAHî¬y;
 - (void);
-- (void)¯Ò-;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void)BadgeView:(id)arg1;
+- (id)arDownRemoteView;
+- (void)ndle. %@;
+- (void)	p-;
+- (void)$À0;
 
 // Remaining properties
 @property(nonatomic, getter=canUpdateContentExtensionSize) _Bool canUpdateContentExtensionSize; // @synthesize canUpdateContentExtensionSize=_canUpdateContentExtensionSize;

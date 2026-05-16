@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)b(;
-- (long long)FrameInsets;
++ (id),yÿS$(;
 - (_Bool);
+- (long long)× ;
 
 @end
 

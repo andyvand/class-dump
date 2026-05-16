@@ -23,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

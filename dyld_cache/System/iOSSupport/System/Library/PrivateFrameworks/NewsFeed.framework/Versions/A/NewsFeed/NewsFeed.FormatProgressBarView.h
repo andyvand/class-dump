@@ -11,9 +11,10 @@
     MISSING_TYPE *identifier;
 }
 
-- (id)P;
-- (void)dCancel;
-- (id)k¡üÿ;
+- (id);
+- (id)!$Gùÿ1Â0@ù
+× ;
+- (void)¹;
 
 @end
 

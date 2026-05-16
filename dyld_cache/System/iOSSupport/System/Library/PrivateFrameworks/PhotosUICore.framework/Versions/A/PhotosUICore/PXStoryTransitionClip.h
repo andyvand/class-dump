@@ -22,10 +22,10 @@
 - (id);
 - (CDStruct_c8120fa9);
 - (_Bool);
-- (void)ü¸¸æÒ;
 - (id);
-- (CDStruct_c8120fa9)ineEnd: /* Error: Ran out of types for this method. */;
-- (long long)peByBarButtonItem;
+- (long long)nItems:pageFocus: /* Error: Ran out of types for this method. */;
+- (CDStruct_c8120fa9): /* Error: Ran out of types for this method. */;
+- (void)ModifyGroupActionPerformer.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c8120fa9 clipInfo; // @synthesize clipInfo=_clipInfo;

@@ -13,15 +13,15 @@
     MISSING_TYPE *cachedValue;
 }
 
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (struct CGRect);
-- (id)ng: /* Error: Ran out of types for this method. */;
-- (id)^;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessibilityFrame;

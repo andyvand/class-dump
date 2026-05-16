@@ -11,15 +11,15 @@
 }
 
 - (id);
-- (id)= nil);
-- (_Bool)wAtIndex:index out of bounds of filled buffer /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (_Bool);
 - (long long);
-- (Class);
+- (Class);
 - (BOOL);
 - (struct CKBalloonDescriptor_t);
 - (id);
-- (id);
+- (id)n: /* Error: Ran out of types for this method. */;
 
 @end
 

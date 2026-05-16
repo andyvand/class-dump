@@ -15,15 +15,15 @@
     Stock *_deferredStock;
 }
 
-- (void)z;
 - (void);
 - (void);
-- (void);
-- (void)@;
-- (void)ւ;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 
 @end

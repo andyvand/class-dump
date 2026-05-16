@@ -15,7 +15,7 @@
 }
 
 + (int);
-+ (id)eButtonClicked;
++ (id);
 - (int);
 - (_Bool);
 - (void);
@@ -27,7 +27,7 @@
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)ollEnabled:(int)arg1;
 
 @end
 

@@ -8,11 +8,6 @@
 
 @protocol MPVolumeDisplaying
 
-@optional
-- (UIWindowScene *);
-- (_Bool)must not be negative (itemid:%lld size:%lld)!
- /* Error: Ran out of types for this method. */;
-
 // Remaining properties
 @property(readonly, nonatomic, getter=isOnScreen) _Bool onScreen;
 // Preceding property had unknown attributes: ?

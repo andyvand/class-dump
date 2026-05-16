@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)utionCoordinator handleRunRequestResponse:service:account:fromID:context:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *calendarStates; // @synthesize calendarStates=_calendarStates;

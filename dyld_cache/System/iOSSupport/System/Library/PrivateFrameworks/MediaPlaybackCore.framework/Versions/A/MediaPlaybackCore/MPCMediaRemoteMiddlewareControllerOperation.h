@@ -19,22 +19,23 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)cation:oldAccount:inStore: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)g;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)?;
-- (id);
-- (void);
-- (id);
+- (id)að1Â0@ù
+× ;
+- (void)stigateTimeoutForEvent:(CDUnknownBlockType)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCMediaRemoteController *controller;

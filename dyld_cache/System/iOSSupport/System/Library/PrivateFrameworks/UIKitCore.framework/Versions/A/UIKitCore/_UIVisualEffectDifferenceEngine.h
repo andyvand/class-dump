@@ -25,19 +25,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)rtEditorNotes__MAPPING_MISSING__;
-- (void)MAPPING_MISSING__;
 - (void);
+- (void);
+- (id);
+- (id);
 - (void)
 × ;
-- (void)¡uð!Eù1ÊÐ1¢!0@ù
+- (id)
 × ;
-- (id)ft"b1"pagingRight"b1"pagingUp"b1"pagingDown"b1"lastHorizontalDirection"b1"lastVerticalDirection"b1"dontScrollToTop"b1"scrollingToTop"b1"scrollingDirectionalPress"b1"singleFingerPan"b1"autoscrolling"b1"automaticContentOffsetAdjustmentDisabled"b1"animateAutomaticContentOffsetAdjustments"b1"skipStartOffsetAdjustment"b1"delegateScrollViewDidScroll"b1"delegateScrollViewDidZoom"b1"delegateContentSizeForZoomScale"b1"delegateScrollViewDidChangeContentSize"b1"delegateScrollViewDidChangeAdjustedContentInset"b1"delegateWasNonNil"b1"preserveCenterDuringRotation"b1"delaysTrackingWhileDecelerating"b1"avoidJumpOnInterruptedBounceWithDelayedTrackingWhileDecelerating"b1"pinnedZoomMin"b1"pinnedXMin"b1"pinnedYMin"b1"pinnedXMax"b1"pinnedYMax"b1"staysCenteredDuringPinch"b1"wasDelayingPinchForSystemGestures"b1"disableContentOffsetRounding"b1"alwaysDisableContentOffsetRounding"b1"adjustedDecelerationTargetX"b1"adjustedDecelerationTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
-- (id)setAlwaysDisableDisplayLink: /* Error: Ran out of types for this method. */;
-- (id)Descriptor;
-- (id)nerEndpoint",&,N,V_dataProviderEndpoint;
-- (void)¦L§;
-- (void)rate scenes from %{public}s -> %{public}s;
+- (void)pickerView:transform: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)bBar;
+- (void)inGesture;
+- (void)ViewType/Ã;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *destination; // @synthesize destination=_destination;

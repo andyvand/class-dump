@@ -13,11 +13,15 @@
 }
 
 + (id);
-- (void);
 - (id);
-- (id)${t{;
-- (_Bool)ingView.SetUp.Footer.LearnMoreButton;
-- (void);
+- (id)!Eù±°1â
+0@ù
+× ;
+- (void)1â
+0@ù
+× ;
+- (_Bool)etMinimumLineHeight: /* Error: Ran out of types for this method. */;
+- (void)DeviceWarningViewController:initWithDevices:homes:] devices = %@ (%lu) | homes = %@ (%lu) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

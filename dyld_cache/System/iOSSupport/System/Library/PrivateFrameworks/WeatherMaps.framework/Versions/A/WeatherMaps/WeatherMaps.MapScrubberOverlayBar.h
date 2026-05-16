@@ -33,15 +33,15 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

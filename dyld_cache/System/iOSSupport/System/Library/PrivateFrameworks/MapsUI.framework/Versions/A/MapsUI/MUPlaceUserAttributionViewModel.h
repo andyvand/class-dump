@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)sortViewModelsAlphabetically: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *attributionName; // @synthesize attributionName=_attributionName;

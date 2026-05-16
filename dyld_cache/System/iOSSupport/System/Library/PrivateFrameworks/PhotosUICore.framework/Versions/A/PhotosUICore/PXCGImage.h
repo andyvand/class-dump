@@ -9,12 +9,12 @@
     struct CGImage *_image;
 }
 
-- (unsigned long long);
-- (struct CGImage *);
-- (_Bool);
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (struct CGImage *);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *image; // @synthesize image=_image;

@@ -7,8 +7,6 @@
 @class NSUUID;
 
 @protocol HMObjectMerge
-- (NSUUID *)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier;

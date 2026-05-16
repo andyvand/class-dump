@@ -13,16 +13,15 @@
     IMMessage *_message;
 }
 
-- (id)D;
-- (id)DocumentUI) newNoteForAirDropDocument:inContext:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (double)\;
-- (_Bool);
-- (void);
-- (id)0@ù
-× ;
+- (double);
+- (_Bool);
+- (id)mator: /* Error: Ran out of types for this method. */;
+- (void)ÿYK;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;

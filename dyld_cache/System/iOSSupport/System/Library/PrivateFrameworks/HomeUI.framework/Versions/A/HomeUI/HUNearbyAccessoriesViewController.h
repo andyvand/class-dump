@@ -41,9 +41,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)ly - this should not happen!;
-- (void)Ap;
+- (void)onTableViewCell;
+- (void)in user input results [%@];
+- (void)ne.AddAccessories.Cancel;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate;

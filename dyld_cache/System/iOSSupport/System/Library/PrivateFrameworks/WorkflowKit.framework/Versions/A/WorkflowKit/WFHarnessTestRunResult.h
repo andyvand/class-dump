@@ -11,13 +11,13 @@
     WFHarnessTestResult *_testResult;
 }
 
-+ (_Bool)to start the text at, in points. 0 starts at the top of the image. (WFTextY);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (void)ngMode);
 
 // Remaining properties
 @property(readonly, nonatomic) WFHarnessTestResult *testResult; // @synthesize testResult=_testResult;

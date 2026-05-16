@@ -5,8 +5,5 @@
 //
 
 @protocol SWDocumentStateProviding
-- (void)AudioPlaylistFeedInteractorType;
-- (void);
-- (_Bool)|tc;
 @end
 

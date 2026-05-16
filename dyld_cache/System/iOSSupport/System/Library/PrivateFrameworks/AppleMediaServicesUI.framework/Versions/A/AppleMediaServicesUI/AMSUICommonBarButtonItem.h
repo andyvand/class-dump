@@ -27,6 +27,7 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -41,18 +42,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
-- (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
 - (void);
+- (id);
 - (SEL);
-- (_Bool)DGÁØ7yËÖ7GG_SSQo_AEG_Qo_tGG|Í7GARGARGARG%Ë7G;
+- (void);
 - (id);
+- (void)ions: /* Error: Ran out of types for this method. */;
+- (id)AEyôÐ0AYGÒ0tGGGGG_¨á2Qo_É0yrÐ0GG_A1_tGGAIGAIGtGGAIGAIGG_Qo_tGG_|'3yæ¾0GQo__t6N¿7NQo_;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

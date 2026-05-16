@@ -4,28 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSArray, NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (long long);
-- (UITextRange *)yyAEGGQo_uyþyayëG}GGGAJG_ñATt;
-- (UITextPosition *)HGAKGAMGSgtGG;
-- (NSDictionary *)StringCG;
-- (void)y­øyÿñyiyAByADy½yAByAAyADyADyADy°íG­÷GóyADyADyóVýyHþSgGGANyAGSgGGSgGGG_ðACyACyADy;
-- (struct CGRect)yAAyAAyAAyAAy¥HyAAyAAyaEAEGAEG_Qo_r9G´6G®=ySbGG¼?y^=GGSgANGSgAAyAAyAdOGARGSgtGGAEGAEG0>yÒ7ylJ·?z0yA8_ñ2GGGGByA8_GG_Ü; Qo_|Ay>HGGÿByñCSgGG;
-- (id <UITextInputTokenizer>)xes_Si11targetIndext;
-- (id <UITextInputDelegate>)_item;
+- (NSArray *)nWith;
+- (long long)Q;
+- (UITextRange *)Û	;
+- (long long)tYúÿé¤³	Â;
+- (UITextRange *)©ÏÿÛ³	©ÏÿÛ³	©ÏÿÛ³	Tëöÿ;
+- (struct CGRect);
+- (void)¥µ	Ýüÿýµ	;
+- (UITextPosition *)¿´üÿ!åµ	$³Ñÿ!åµ	 ³Ñÿ!åµ	 ³Ñÿ)åµ	(]Ùÿ;
+- (UITextPosition *)!;
+- (UITextPosition *)bÑÿY¶	Ð­Õÿ;
+- (id <UITextInputDelegate>)ä¶	yù"·	Ìê¶	y¾í¶	GG;
+- (id <UITextInputTokenizer>)AAyAAyAAy[à	[à	GAAy[à	[à	GGAAyAAy[à	[à	GAAy[à	[à	GGGAAyAAyAAyþZà	[à	GAAy;
+- (void)GtGGQë·	G;
+- (struct CGRect)!;
+- (void)So9OS_os_logC;
+- (UITextRange *)®Mçÿ;
+- (UITextRange *)N¸	SgGGAFySiSgGG_Qo__Qo_óG¸	GSgACyAQÎ¸	GSgG]F¸	GSgG;
+- (UITextPosition *)yá	xGx¸	Gò¸	y,¸	y¸	yACyÕ!á	AAyAAy
+¸	yAIyAJyAAy¸	¸	G_AOtGGGÓ¸	G¸	GGSg_é¸	SgAAyAAyÌ¸	yAJyK¸	yAJyAZ_§¸	AZtGG_A1_A0_yAJyACyAyAyAAyAAyA0_yAJyAAy[¸	yAAy¢¸	¸	y¸	GG_Qo_A5_y;
+- (UITextPosition *)SgGG7¸	GALy6¥¸	SgGG_AGQo_GAW_G;
+- (void):(NSDictionary *)arg1 á	_A3_Qo_tGSgtGGç¨¸	G_AByAFyADyAByA0_ANySiSgGG_W²¸	yA0__Qo_tGGA19_GtGGA19_GAByAEyADyAY_A4_AZA11_ADyA12__A13_tGSgtGGA19_G_G;
+- (void)tGG_AEyACyAAyADyAAyA0__`z¹	yAY_Qo_tGG_A2_tGGA19_GSgtGG_7øá	yAFGtG;
 
 @optional
-- (void);
-- (void)ÿ;
-- (_Bool)RSgGGýyRGGAKySbGG%ûyçvRARSQ12CoreGraphicsyHCg_GG;
-- (UITextPlaceholder *)AyAAy«y£GjyAGyYyã¢GAIGGGAKyAAyAAyAAyAAyAAyö yACyå_A4SSgATtGGySiSgGGAWyFGG?GAyKyEGGGýy_GGGGGpGG_AAyAAyAGy×AIGA16_GA18_GSgAAyAAyAAyAAyAAyAAyAAyARyACyAS_AStGGA2_GAWyAISgGGA8_GA12_GA4_yAIGGAPG_GSgtGGdGöG;
-- (_Bool)GG;
-- (void)û÷y½~T_A2_Qo_tGSgtGGÂçG_ACyAEyAByACyA_AMySiSgGG_;ùyA__Qo_tGGA18_GtGG;
-- (void)_czyU{SgGG;
-- (void)dometer;
+- (NSDictionary *);
+- (void)ÄÿÿÿþÿtUöÿ¼y;
+- (void)Wèÿ;
+- (void)Ä;
+- (UIView *)<¶	GG½¶	yß¶	GG°0ß	G_ANtGGACyACyACyALA12_GA1_GAYGSgtGG_?·	yÉ¶	GQo_Ø¶	y¢¶	yACyACyî¶	I¶	yÛ¡¶	GGÖ¶	G_Qo_GGGGtGGGGAVySiSgGGA15_GACyACyA59_¶	yC¡¶	GG¶	yF¶	GGG_A65_Qo_A68_GQ¶	GC¶	Gý/ß	GACyA76_x¶	GG;
+- (struct CGRect)gtGGGGAKGA9_yO¹	GG^¹	y ¹	GG©¹	yABy`L¹	yA44_GÝ¹	GGGGARGAByACyAByAByAByAByAByAuVyADyAEyABy¢á	A6_G_AAyA18_A30_GSgtGGGGAKGA41_GA45_GA52_GGARGGG;
+- (void)GAWyY¹	GG_AUSgtGGNQ¹	GA6_GtGGG_¹	Qo_;
+- (_Bool)bâ	¥¹	y7¢¹	GGx¹	G;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -55,5 +69,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

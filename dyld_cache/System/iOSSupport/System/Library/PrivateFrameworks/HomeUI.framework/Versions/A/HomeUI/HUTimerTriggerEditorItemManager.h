@@ -45,15 +45,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)HomeHubSimpleTableViewController:viewWillDisappear] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUTriggerConditionEditorItemModule *conditionModule; // @synthesize conditionModule=_conditionModule;

@@ -17,7 +17,7 @@
     NSUUID *_sessionUUID;
 }
 
-+ (id)<HMCacheDelegate>",W,V_delegate;
++ (id)tion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,11 +33,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void)T@"<HMXPCConnection>",&,N,V_connection;
+- (id)dKey;
 
 // Remaining properties
 @property(readonly) HMCameraStream *cameraStream; // @synthesize cameraStream=_cameraStream;

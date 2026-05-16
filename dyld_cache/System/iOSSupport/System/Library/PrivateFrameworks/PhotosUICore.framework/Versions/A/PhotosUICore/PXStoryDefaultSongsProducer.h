@@ -23,10 +23,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)LeadingBadgesInLayout: /* Error: Ran out of types for this method. */;
+- (void)llectionURL:(unsigned long long)arg1;
+- (id)layoutQueue_acceptSize:%@ /* Error: Ran out of types for this method. */;
+- (void)HighlightsSectionSpec;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryPhotoKitAssetContainer *assetContainer; // @synthesize assetContainer=_assetContainer;

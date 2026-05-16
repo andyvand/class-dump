@@ -7,6 +7,6 @@
 @class NSObject;
 
 @protocol HMFLogging
-+ (NSObject *)nergyAutomation: /* Error: Ran out of types for this method. */;
++ (NSObject *)ifier = %@, Name = %@, Value = %@>;
 @end
 

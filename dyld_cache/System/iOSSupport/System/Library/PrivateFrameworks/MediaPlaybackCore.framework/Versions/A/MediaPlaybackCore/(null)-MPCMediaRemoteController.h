@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface (null) (MPCMediaRemoteController)
-- (void *)%s;
+- (void *);
 - (id);
 
 // Remaining properties

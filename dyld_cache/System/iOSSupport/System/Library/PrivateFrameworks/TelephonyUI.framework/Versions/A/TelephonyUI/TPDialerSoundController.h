@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (void);
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
 

@@ -11,7 +11,7 @@
     NSXPCConnection *_progressAppConnection;
 }
 
-+ (id)`;
++ (id);
 - (void);
 - (id);
 - (struct _NSRange);
@@ -24,9 +24,9 @@
 - (_Bool);
 - (float);
 - (void);
-- (void);
 - (id);
-- (void)iquePersonsFromLLMQU;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,13 +12,13 @@
     UIImage *_image;
 }
 
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)r;
-- (void);
-- (id)have two backdrop filter layers;
+- (id)ø;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

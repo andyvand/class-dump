@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)crementTime;
 
 // Remaining properties
 @property(nonatomic, readonly) PUParallaxLayerLayoutInfo *currentLayoutInfo;

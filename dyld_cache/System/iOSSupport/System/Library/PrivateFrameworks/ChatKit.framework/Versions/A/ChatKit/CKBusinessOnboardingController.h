@@ -14,18 +14,17 @@
 + (void);
 - (void);
 - (void);
-- (void)l;
-- (CDUnknownBlockType)nt;
-- (void);)d
-;
-- (void);
-- (void);
-- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)GF´¬ySay¥D=GSSAAyê=­yt=­yn¬y;
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void)D:(CDUnknownBlockType)arg1 %@, groupName:%@, handles:%@ /* Error: Ran out of types for this method. */;
+- (void)ø\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

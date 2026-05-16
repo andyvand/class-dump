@@ -54,11 +54,11 @@
 + (id);
 + (id);
 + (_Bool);
-+ (void)ss:(_Bool)arg1;
-+ (id);
++ (void);
 + (void);
 + (Class);
-+ (id)£×ÿ;
++ (id);
++ (id)`q;
 
 @end
 

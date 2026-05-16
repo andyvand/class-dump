@@ -12,10 +12,11 @@ __attribute__((visibility("hidden")))
     double _height;
 }
 
-+ (id)@ does not implement -drawInBounds:(double)arg1 , and it should!;
-- (_Bool);
-- (id)sableTinting;
-- (struct CGRect)S`;
++ (id);
+- (struct CGRect)\ð1Â0@ù
+× ;
+- (_Bool)SizeForDatePickerMode:(id)arg1;
+- (id)LayerPreferredDynamicRange;
 
 @end
 

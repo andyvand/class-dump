@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (_Bool);
-- (id)llerContextTransitioning>"16;
-- (id)}{?=b1b1b1b1b1b1}}56@0:(double)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@48;
-- (_Bool)ücþÿøcþÿöcþÿ;
+- (_Bool)={CGPoint=dd}{CGSize=dd}}48;
+- (_Bool)ationEventToUIHost:(id)arg1 withOptionalObject: /* Error: Ran out of types for this method. */;
+- (id)onfiguration:(double)arg1;
+- (id)ment;
 
 @end
 

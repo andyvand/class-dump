@@ -40,17 +40,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (void)J;
+- (void)ðS;
+- (void)le;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundOffColor;

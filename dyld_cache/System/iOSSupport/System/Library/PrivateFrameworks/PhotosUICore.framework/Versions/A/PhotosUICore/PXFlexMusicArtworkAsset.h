@@ -28,18 +28,18 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (unsigned long long);
 - (long long);
 - (id);
-- (unsigned long long)hasUserLiked;
+- (_Bool);
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id)d20q28;
+- (_Bool)ck: /* Error: Ran out of types for this method. */;
+- (id)lÇ;
+- (void)äÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

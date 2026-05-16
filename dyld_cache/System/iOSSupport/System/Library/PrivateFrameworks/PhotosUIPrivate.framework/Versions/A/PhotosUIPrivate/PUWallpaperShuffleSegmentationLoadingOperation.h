@@ -44,13 +44,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id)ÿ_p;
+- (id);
+- (void)entHeight;
+- (id)Ô}ôd<t¼Ä
+Ôt¼Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *assetDirectory; // @synthesize assetDirectory=_assetDirectory;

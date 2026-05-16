@@ -5,6 +5,6 @@
 //
 
 @protocol BSServiceConnectionListenerDelegate
-- (void)We're calling _emitMacApplicationLaunchEndSignpostsExtended even though we didn't opt-in to AppKit's extended app launch reporting.;
+- (void);
 @end
 

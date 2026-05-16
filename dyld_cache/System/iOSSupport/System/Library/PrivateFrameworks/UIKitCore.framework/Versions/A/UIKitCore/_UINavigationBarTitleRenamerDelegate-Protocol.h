@@ -5,9 +5,7 @@
 //
 
 @protocol _UINavigationBarTitleRenamerDelegate
-- (void)Ä1¢!0@ù
-× ;
-- (void)Å°1¢!0@ù
-× ;
+- (void)er;
+- (void)´;
 @end
 

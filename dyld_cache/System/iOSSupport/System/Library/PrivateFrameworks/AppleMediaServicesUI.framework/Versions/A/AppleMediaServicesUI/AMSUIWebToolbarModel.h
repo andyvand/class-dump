@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)etShowAllowNotificationsButton: /* Error: Ran out of types for this method. */;
+- (void)",&,N,V_errorTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

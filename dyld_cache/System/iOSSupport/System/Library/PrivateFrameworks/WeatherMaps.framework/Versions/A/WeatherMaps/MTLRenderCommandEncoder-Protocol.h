@@ -5,8 +5,6 @@
 //
 
 @protocol MTLRenderCommandEncoder
-- (unsigned long long);
-- (unsigned long long)ollerCXcSgycSg;
 
 // Remaining properties
 @property(readonly) unsigned long long tileHeight;

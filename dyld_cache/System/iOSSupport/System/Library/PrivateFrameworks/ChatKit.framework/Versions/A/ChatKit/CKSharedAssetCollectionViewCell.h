@@ -17,21 +17,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)disableFirstResponderChanges;
-- (void)raLinesIfNeeded;
-- (id);
-- (id);
-- (id);
-- (void) +;
-- (id);
-- (void);
-- (id);
-- (void);
-- (double);
 - (void);
 - (void);
 - (id);
-- (id)SInvalidatable;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)1Â0@ù
+× ;
+- (double);
+- (void)Ç[GGASGG_qS\Qo__Qo_tGGê¶[yÇ[GG;
+- (void)¤PÀ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

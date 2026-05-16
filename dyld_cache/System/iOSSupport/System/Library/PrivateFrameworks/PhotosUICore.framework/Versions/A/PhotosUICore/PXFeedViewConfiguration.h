@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)Point=dd}{CGSize=dd}}64Q96@104@112d120B128B132;
+- (void)|Æÿ;
 - (id);
-- (id)ûÿ¢¦ûÿÂ¨ûÿ;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *containerViewController; // @synthesize containerViewController=_containerViewController;

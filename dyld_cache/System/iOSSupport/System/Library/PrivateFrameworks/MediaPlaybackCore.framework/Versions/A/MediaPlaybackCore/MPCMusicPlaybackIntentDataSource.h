@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool):(id)arg1 error:(long long)arg2;
-+ (_Bool)count:(id)arg1;
++ (_Bool);
++ (_Bool);
 - (void);
-- (void)Kj;
 - (void);
-- (void)g;
-- (void)lic}@;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

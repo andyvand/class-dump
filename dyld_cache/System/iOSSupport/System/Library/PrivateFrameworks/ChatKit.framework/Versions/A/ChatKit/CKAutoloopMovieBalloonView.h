@@ -25,59 +25,58 @@
 }
 
 + (id);
-+ (_Bool)8t6ä;
-- (id)ge_$_didDeleteSystemPaperNotesImmediately;
++ (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)e;
 - (void);
 - (void);
 - (void);
-- (void)ICCollaborationAnalyticsTrackerInternal;
-- (void)tring",N,C;
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)i: /* Error: Ran out of types for this method. */;
 - (void);
-- (void));
+- (id);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (void)ata;
-- (id)Øtä84;
-- (void)ä';
-- (_Bool)6§/;
-- (void)b0;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)WithDataSource:entryViewDelegate:andPlugin: /* Error: Ran out of types for this method. */;
+- (void)le.MobileSMS.ReadReceiptSettingsConfirmed.changed;
+- (_Bool)ô­#ÿ%;
+- (void)4H;
+- (void)OuterStrokeLayer;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) ISWrappedAVAudioSession *audioSession; // @synthesize audioSession=_audioSession;

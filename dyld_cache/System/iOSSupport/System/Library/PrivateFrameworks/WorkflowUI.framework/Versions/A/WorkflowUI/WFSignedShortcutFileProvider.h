@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ller;
 
 // Remaining properties
 @property(retain, nonatomic) WFShortcutPackageFile *shortcutFile; // @synthesize shortcutFile=_shortcutFile;

@@ -22,35 +22,34 @@
 }
 
 + (id);
+- (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (long long);
+- (long long);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (double);
-- (unsigned long long)^{OpaqueCMTimebase=}16@0:8 /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)Ð1¢!0@ù
+- (id);
+- (unsigned int)0@ù
 × ;
-- (long long)!¨BùqË1¢!0@ù
-× ;
-- (void)?16@?24@?32@?40@?48;
-- (void)tingsWithDuration:(unsigned int)arg1 delay:timingFunction: /* Error: Ran out of types for this method. */;
+- (long long)rameRateRange=fff}20I32@?36;
+- (void)orRenderingMode:(long long)arg1;
+- (void)StateChange:(unsigned long long)arg1;
+- (void)tomView:(double)arg1 ,V_customView;
+- (unsigned long long)iSectionHeaderLayoutInvalidationContext;
+- (void)
+ìlÄtü;
+- (_Bool)%g, %g); ;
+- (unsigned long long)edDataSource != nil;
 - (void);
-- (id)_briefDescription;
-- (unsigned long long)tions;
-- (id)iew;
-- (unsigned int)<qüq¸sDu|wèxìzh|;
-- (id)|`è;
-- (id)onder:%@ force:%s /* Error: Ran out of types for this method. */;
-- (long long)eters:]_block_invoke_10 /* Error: Ran out of types for this method. */;
-- (void)@¡ÿÂ¬;
-- (void)
-c;
-- (void)ºÎb;
-- (double)'èÔÂsc;
-- (long long)^6ÍgÐf;
+- (double);
+- (void)æ0Ó@H`;
+- (void)°ÿ&ÙH]d;
 
 // Remaining properties
 @property(nonatomic) unsigned long long clickCount; // @synthesize clickCount=_clickCount;

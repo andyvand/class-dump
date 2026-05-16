@@ -23,17 +23,17 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (id)luteTimestamp"b1"confidenceScore"b1"uiLocation"b1"modeType"b1"origin"b1"isAutomationEnabled"b1"isStart"b1"shouldSuggestTriggers"b1};
-- (id)p"b1"sessionType"b1};
-- (id)";
-- (struct CGSize)pbackType:(struct CGSize)arg1 messageType:(struct CGSize)arg2 messagesService: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)usicPlayerQueueDescriptor",&,N,V_queueDescriptor;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;

@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)eMessageCount:(id)arg1;
-- (_Bool)oadcastCloudKitStateAfterFetchingAccountStatus;
-- (id)%@ -  %@;
+- (void);
+- (_Bool);
 - (id);
 - (id);
-- (void)À;
+- (id);
+- (void)©WÒ|c;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destinationText; // @synthesize destinationText=_destinationText;

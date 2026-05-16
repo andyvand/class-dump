@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableViewCell, UITouch, UIView;
+@class UITableViewCell;
 
 @protocol UITable_UITableViewCellDelegate
-- (void)R;
-- (double);
-- (void);
-- (void)0:(UITableViewCell *)arg1 8@"NSArray"16@"NSString"24@?<v@?B@"NSDictionary">32;
-- (_Bool)NSString"16@"NSString"24C32@"NSDictionary"36@"NSString"44@"NSString"52@"NSArray"60@"NSArray"68B76;
-- (void)0@48@56@64@72B80;
-- (void)@"IMSyndicationAction"16@0:(UITableViewCell *)arg1 8;
-- (long long)e:(UITableViewCell *)arg1 account: /* Error: Ran out of types for this method. */;
-- (void)Info:(UITableViewCell *)arg1 toID:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)derContext:(UITableViewCell *)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)ontext:(UITableViewCell *)arg1 error: /* Error: Ran out of types for this method. */;
-- (_Bool)aticallyGenerated;
-- (_Bool)ngs;
-- (struct CGRect):(UITableViewCell *)arg1 properties:conference:account: /* Error: Ran out of types for this method. */;
-- (_Bool)yDictionaryToPeers:(UITableViewCell *)arg1 requiresUpload:(UITouch *)arg2 serviceName: /* Error: Ran out of types for this method. */;
-- (void)able;
-- (void)edingCloudKitSync;
-- (void)er:(UIView *)arg1;
-- (UIView *)eCKOperationUsingRecordIDstoDelete: /* Error: Ran out of types for this method. */;
-- (void)e:(UITableViewCell *)arg1 iterationContext: /* Error: Ran out of types for this method. */;
-- (_Bool)ary:(UITableViewCell *)arg1;
-- (void)playNameChanged:(UITableViewCell *)arg1;
-- (long long)Opaque__FileReferenceData__V1__Chunk;
-- (void)lerKey;
+- (long long)Corrections;
+- (void)viewControllerTitle;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isEditingForSwipeDeletion) _Bool editingForSwipeDeletion;

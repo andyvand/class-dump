@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ich could need upgrade for Multi User, but prequisistes aren't satisfied, so ignoring;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *endConditionPickerItem; // @synthesize endConditionPickerItem=_endConditionPickerItem;

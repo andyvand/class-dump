@@ -20,15 +20,15 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (struct CGSize);
-- (id);
-- (id)onary: /* Error: Ran out of types for this method. */;
-- (void)ForOperation:(id)arg1 fromViewController:toViewController: /* Error: Ran out of types for this method. */;
+- (void)oreItems;
+- (void)eItem"16;
 
 // Remaining properties
 @property(readonly, nonatomic) HUBannerView *bannerView; // @synthesize bannerView=_bannerView;

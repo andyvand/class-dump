@@ -5,6 +5,5 @@
 //
 
 @protocol UINSSearchSuggestionControllerDelegate
-- (_Bool)× ;
 @end
 

@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTPersistenceMirroringManager;
-
 @protocol RTPersistenceMirroringMetricsDelegate
-- (void)DL"16@"NSData"24;
-- (void)pdateResponse:(RTPersistenceMirroringManager *)arg1;
-- (void);
 @end
 

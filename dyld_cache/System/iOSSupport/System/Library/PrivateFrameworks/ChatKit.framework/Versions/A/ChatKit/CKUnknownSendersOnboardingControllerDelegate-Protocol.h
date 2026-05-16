@@ -5,6 +5,5 @@
 //
 
 @protocol CKUnknownSendersOnboardingControllerDelegate
-- (void)íÕ;
 @end
 

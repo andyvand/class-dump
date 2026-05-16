@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView;
-
 @protocol UICollectionViewDelegateFlowLayout
-
-@optional
-- (struct CGSize)Iegy_;
-- (struct UIEdgeInsets)h;
-- (double)bject:(UICollectionView *)arg1;
 @end
 

@@ -11,19 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)sferGUIDs;
+- (id);
 - (_Bool);
-- (id):/usr/lib/libsysdiagnose.dylib /* Error: Ran out of types for this method. */;
+- (id);
 - (struct CGPoint);
 - (double);
 - (struct CGPoint);
-- (id)es not need to be noted to storage controller;
-- (id)oon plugin payload (identifier:(id)arg1 %@, payload:(id)arg2 %@, combinedPayloadAttachmentDictionary:%@) /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (double);
-- (double)PersonIDs:primaryRecipients:secondaryRecipients: /* Error: Ran out of types for this method. */;
-- (id)ß;
-- (long long)Æÿ;
+- (id);
+- (double)es:error: /* Error: Ran out of types for this method. */;
+- (long long);
 
 @end
 

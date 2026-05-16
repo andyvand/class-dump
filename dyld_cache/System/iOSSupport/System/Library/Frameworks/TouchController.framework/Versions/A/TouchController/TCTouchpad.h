@@ -52,21 +52,21 @@
 - (double);
 - (_Bool);
 - (void);
-- (long long);
 - (id);
+- (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (void);
 - (struct CGPoint);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (struct CGPoint);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

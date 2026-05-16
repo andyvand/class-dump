@@ -17,9 +17,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)tent_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

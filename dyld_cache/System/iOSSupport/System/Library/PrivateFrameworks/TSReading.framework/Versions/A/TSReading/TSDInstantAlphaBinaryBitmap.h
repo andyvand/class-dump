@@ -12,7 +12,7 @@
     char *mData;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

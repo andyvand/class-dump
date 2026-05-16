@@ -13,8 +13,8 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)iableStringParameterState;
 
 @end
 

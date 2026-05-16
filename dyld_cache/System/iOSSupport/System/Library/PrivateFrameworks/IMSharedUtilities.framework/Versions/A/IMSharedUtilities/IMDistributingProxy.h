@@ -17,14 +17,14 @@
 
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
 - (CDUnknownBlockType);
 - (_Bool);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void)ìÿ;
+- (_Bool)Tâ×ÿîíeÇ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAsynchronous) _Bool asynchronous; // @synthesize asynchronous=_asynchronous;

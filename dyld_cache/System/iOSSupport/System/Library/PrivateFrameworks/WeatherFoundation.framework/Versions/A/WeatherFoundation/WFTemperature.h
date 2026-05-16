@@ -15,7 +15,7 @@
 
 + (_Bool);
 - (double);
-- (void)(=;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -23,16 +23,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (double);
 - (unsigned long long);
 - (double);
-- (_Bool)vel with null _powerLevels;
-- (id)15RemindersUICore33TTREditTodaySectionsPresenterTypeP;
-- (id);
-- (id);
-- (id)L;
+- (_Bool);
+- (void);
 - (double);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double celsius;

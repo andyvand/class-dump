@@ -28,19 +28,12 @@
     id <PKAutoRefineTaskDelegate> _delegate;
 }
 
-- (void)ate:] /* Error: Ran out of types for this method. */;
-- (void)requestInfos:(id)arg1 %@
- userID:(_Bool *)arg2 %@
- storefrontID:%@
- bundleID:%@
- endpointConfig:%@
- deviceInfo:%@
- debugOverrides:%@
- useBackgroundRefreshRate:%d requestMode:%lu applicationState:%lu /* Error: Ran out of types for this method. */;
-- (void)D:(id)arg1 bundleID:(_Bool *)arg2 deviceInfo:] /* Error: Ran out of types for this method. */;
-- (_Bool)!= nil;
-- (void)ches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Operations/RCOperationThrottler.m;
-- (void)CG4tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Operations/RCOperationThrottler.m;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -49,16 +42,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)u;
+- (void);
+- (double);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void)ateSelectionWithExtentPoint:completionHandler: /* Error: Ran out of types for this method. */;
-- (double)ocumentStart;
-- (_Bool)",W,N,V_rulerHostingDelegate;
-- (_Bool)@_Îÿ;
+- (id);
+- (_Bool)ashTable",&,N,V_observers;
+- (void)=)>B(@>CLDÀD;
+- (_Bool)ontentsScale:%g /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAutoRefineTaskDelegate> delegate; // @synthesize delegate=_delegate;

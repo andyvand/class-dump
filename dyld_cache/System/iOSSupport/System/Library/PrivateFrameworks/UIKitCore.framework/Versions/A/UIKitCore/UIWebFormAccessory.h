@@ -37,31 +37,33 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)@16B24@?28;
-- (_Bool):8@16@24^B32 /* Error: Ran out of types for this method. */;
-- (id)equestIDs;
-- (void)Name:(id)arg1;
-- (void)GroupPhotoUpdate:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)low list;
-- (id)ch for message %@ with change %@. Count is now %lu;
-- (void)mentZone perRecordCompletionBlock encountered an error.  Will try this record again on next sync. %@;
-- (id)requested update:%@ /* Error: Ran out of types for this method. */;
-- (void)ler ID Guid reads  %@;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)8@16d24;
-- (id)ng *__autoreleasing *);
-- (void)emoved:(id)arg1 %@.;
-- (void)ú7ÿÁ>;
-- (void)9;
 - (void);
+- (id);
+- (void)!
+°!°@ùf°1Â0@ù
+× ;
+- (void)e;
+- (void)VB;
+- (void)Å_;
+- (void)F£ ¨åf;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *_autofill; // @synthesize _autofill;

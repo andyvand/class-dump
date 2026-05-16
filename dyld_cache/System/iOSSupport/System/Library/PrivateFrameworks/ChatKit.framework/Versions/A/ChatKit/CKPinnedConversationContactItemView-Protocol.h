@@ -7,8 +7,6 @@
 @protocol CKPinnedConversationContactItem;
 
 @protocol CKPinnedConversationContactItemView
-- (void)numberWithUnsignedInteger:(id <CKPinnedConversationContactItem>)arg1;
-- (id <CKPinnedConversationContactItem>)isableHighlightGesture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationContactItem> pinnedConversationContactItem;

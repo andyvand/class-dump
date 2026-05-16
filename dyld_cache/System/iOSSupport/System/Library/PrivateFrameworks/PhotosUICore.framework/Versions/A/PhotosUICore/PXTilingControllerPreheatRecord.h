@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void *)TextInRegularSizeClass;
+- (void *);
 - (void);
-- (struct UIEdgeInsets)p83;
+- (struct UIEdgeInsets)MapOptionsPlatterView;
+- (void)h'a;
 
 // Remaining properties
 @property(readonly, nonatomic) void *context; // @synthesize context=_context;

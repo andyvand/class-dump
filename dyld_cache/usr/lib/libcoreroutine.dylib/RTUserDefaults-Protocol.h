@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol RTUserDefaults
-- (void)\;
-- (void)ord;
-- (void)STUN_MAGIC_COOKIE:(id)arg1 remainingLength:(NSString *)arg2 %zd < 2;
-- (void)u visits to client, %@;
 @end
 

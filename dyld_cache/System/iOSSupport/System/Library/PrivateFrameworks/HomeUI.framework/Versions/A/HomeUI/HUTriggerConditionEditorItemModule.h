@@ -50,8 +50,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ictedScenesOnDashboard to (%{BOOL}d) succeeded:%{BOOL}d  %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HFConditionCollection *conditionCollection; // @synthesize conditionCollection=_conditionCollection;

@@ -11,8 +11,8 @@
     MISSING_TYPE *_factor;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

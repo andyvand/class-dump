@@ -19,16 +19,16 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)P;
 - (void);
-- (struct CGRect)8;
+- (void)Needed;
+- (void)fontAttributes;
+- (struct CGRect)y;
 
 // Remaining properties
 @property(readonly, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;

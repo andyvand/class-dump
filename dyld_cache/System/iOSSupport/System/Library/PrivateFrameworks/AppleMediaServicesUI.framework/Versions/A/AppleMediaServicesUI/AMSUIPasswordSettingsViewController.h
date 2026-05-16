@@ -27,22 +27,22 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void)Detection;
-- (id)onBackgroundColorWithDictionary: /* Error: Ran out of types for this method. */;
-- (id)ordinatorItemKeyPresentingViewController;
 - (void);
+- (void);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (void)placeholderCornerRadius;
+- (void)¼¶;
+- (id)eworks/AVKit.framework/AVKit;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;

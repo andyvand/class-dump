@@ -25,18 +25,18 @@
     AVTAvatarAttributeEditorPreloader *_preloader;
 }
 
-- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -52,21 +52,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id)8B16;
+- (id)¸U;
+- (void)Pëýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) AVTMemoji *avatar; // @synthesize avatar=_avatar;

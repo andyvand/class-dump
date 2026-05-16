@@ -22,20 +22,20 @@
 }
 
 + (_Bool);
-+ (unsigned long long)nd %lu others;
-- (id)achmentFromObject:createIfNecessary: /* Error: Ran out of types for this method. */;
-- (_Bool)withTint: /* Error: Ran out of types for this method. */;
-- (id)lButtonTitle;
-- (_Bool)ew:didTapCaptionButtonWithType: /* Error: Ran out of types for this method. */;
++ (unsigned long long);
+- (id);
 - (_Bool);
-- (void)ge;
-- (void)V_filter;
-- (void)&,N,V_paragraph;
-- (void)ckQuoteLevel;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void)Y;
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -43,32 +43,31 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (unsigned long long)G;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)tes;
-- (id)taining merge block…;
-- (id)data for share %@;
-- (id)ontainer. Using containerWithIdentifier.;
-- (id)rrently authenticating;
-- (void):completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)arnMore;
 - (id);
-- (_Bool)<K
-;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id)CellUsesLargeTextLayout;
-- (id)¤;
-- (id)ôÙûÿ;
-- (void)d;
-- (void)Dnÿÿ5;
-- (id)$6 -;
+- (void);
+- (id)| ;
+- (void)ì&;
+- (id)A¤k «³ÿA¤kÀ«³ÿ)¤kÀ«³ÿ	¤k¬³ÿY¤kH¬³ÿA¤kD¬³ÿA¤k@¬³ÿ)¤kä¬³ÿ¤kp®³ÿ¤kl®³ÿa¤k¢³ÿ1¤k¯³ÿ1¤k;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *currentQueryIdentifier; // @synthesize currentQueryIdentifier=_currentQueryIdentifier;

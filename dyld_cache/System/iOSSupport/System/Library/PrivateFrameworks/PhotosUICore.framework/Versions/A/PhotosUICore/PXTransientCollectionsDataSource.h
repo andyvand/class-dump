@@ -21,10 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long);
-- (long long)on;
+- (long long)1â
+0@ù
+× ;
+- (id)AvatarView",R,N,V_avatarView;
+- (long long)Format_;
+- (void)issalController;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;

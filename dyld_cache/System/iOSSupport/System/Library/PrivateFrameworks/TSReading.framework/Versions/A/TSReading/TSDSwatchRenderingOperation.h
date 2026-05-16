@@ -29,21 +29,21 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long)ց;
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (struct CGImage *);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGSize)0@ù
+- (struct CGSize);
+- (id)!$@ùq1Â0@ù
 × ;
 
 // Remaining properties

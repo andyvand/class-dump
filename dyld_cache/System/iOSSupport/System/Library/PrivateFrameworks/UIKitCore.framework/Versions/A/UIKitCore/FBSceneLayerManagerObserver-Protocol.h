@@ -5,5 +5,8 @@
 //
 
 @protocol FBSceneLayerManagerObserver
+
+@optional
+- (void)onDisabled;
 @end
 

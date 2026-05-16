@@ -25,7 +25,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)ly value off main thread;
++ (_Bool);
 - (id);
 - (long long);
 - (void);
@@ -47,21 +47,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (id);
+- (long long);
+- (id);
+- (id);
+- (id)ssageWithGUIDs:queryID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void)ate;
-- (id)IMUnifiedMessageMetric;
 
 // Remaining properties
 @property(nonatomic, getter=isArchived) _Bool archived; // @synthesize archived=_archived;

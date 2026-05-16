@@ -13,10 +13,10 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)roundColorIsDefault"b1"disableUserInteraction"b1};
-- (void)ô;
+- (void)ewProvider;
+- (void)èÌdÍ;
+- (void).;
+- (void)ÄÏþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

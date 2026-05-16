@@ -18,19 +18,18 @@
 + (_Bool);
 - (void);
 - (void);
-- (_Bool)× ;
-- (void)qÆð1¢!0@ù
-× ;
+- (id);
+- (Class)tSettings";
+- (void)esponder:(id)arg1 WithOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)isplayMode: /* Error: Ran out of types for this method. */;
+- (id)tentSequenceView;
+- (id)LiquidLensViewLargeVariantSpec",N,&,Vlarge;
+- (void)View;
+- (void);
+- (void);
+- (id)kViewAxis;
 - (void);
-- (void)ostRecentRegion;
-- (void)Identifier:(id)arg1 titles:selectionMode:labels:target:action: /* Error: Ran out of types for this method. */;
-- (id)vedObjects:(struct CGRect)arg1;
-- (void)FromGMT:(_Bool)arg1;
-- (id)straint;
-- (id)<eghØjèlÄmXnØn,opDpqsLuàv´w;
-- (id)8inserted_ãNî317memberAfterInsertt;
-- (void)uttonLeadingPadding;
-- (Class)ttonConfigurationImage;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setInheritsSecurity:) _Bool _inheritsSecurity;

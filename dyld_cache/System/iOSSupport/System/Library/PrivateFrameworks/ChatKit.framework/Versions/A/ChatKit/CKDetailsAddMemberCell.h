@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UILabel *_addLabel;
 }
 
-+ (Class);
-+ (double);
 + (id);
++ (Class);
++ (double)nil, no attachment to download;
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void)@16@24B32;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *addLabel; // @synthesize addLabel=_addLabel;

@@ -12,18 +12,17 @@ __attribute__((visibility("hidden")))
     DOMNode *_node;
 }
 
-+ (id)IMDPersistentTaskQueries_p;
-- (id);
++ (id);
+- (id);
+- (id);
+- (_Bool)oDefaultInputModes:(SEL)arg1;
+- (_Bool):(id)arg1;
+- (void)ognizer;
+- (id);
+- (_Bool)ôTXV#¤[];
+- (id)acer;
 - (_Bool);
-- (id)owRecoveryKey;
-- (void);
-- (_Bool);
-- (void)ý/º;
-- (id)°1¢!0@ù
-× ;
-- (_Bool)bAutoFillDelegate>";
-- (id)w",&,N,V_initialSourceViewSnapshotWindow;
-- (_Bool)nAxisLayoutAlignment, UILayoutConstraintAxis);
+- (void)³!ÿÉDÚ(Ó`;
 
 @end
 

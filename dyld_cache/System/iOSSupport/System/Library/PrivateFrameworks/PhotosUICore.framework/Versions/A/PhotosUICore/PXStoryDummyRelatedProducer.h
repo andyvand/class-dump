@@ -17,8 +17,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id)Core.TTRWorkflowViewController;
+- (id);
+- (void)ollectionCustomizeActionPerformer;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long targetUpNextCount; // @synthesize targetUpNextCount=_targetUpNextCount;

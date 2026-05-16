@@ -29,8 +29,6 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -42,15 +40,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
+- (void);
 - (void *);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 
 // Remaining properties
 @property(nonatomic) void *addressBook;

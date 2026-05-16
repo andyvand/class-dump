@@ -18,7 +18,7 @@
 
 + (id);
 + (id);
-+ (id)ptionsByAssetLocalIdentifiers: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
 - (void);
@@ -31,10 +31,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)É0tÔ!ÿ¹0pÔ!ÿÁ0lÔ!ÿ¡0hÔ!ÿ;
+- (id)BMþÿ;
+- (void)ø9a;
 
 // Remaining properties
 @property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;

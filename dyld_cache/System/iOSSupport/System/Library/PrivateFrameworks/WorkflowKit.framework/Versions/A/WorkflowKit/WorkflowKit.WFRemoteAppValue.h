@@ -12,8 +12,8 @@
     MISSING_TYPE *sourceContainer;
 }
 
-- (void);
 - (id);
+- (void)tor|audio|video|movie;
 
 @end
 

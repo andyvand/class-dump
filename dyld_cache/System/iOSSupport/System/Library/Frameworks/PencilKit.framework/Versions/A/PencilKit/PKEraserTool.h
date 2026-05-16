@@ -25,8 +25,8 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (void);
 - (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double _weight;

@@ -12,15 +12,16 @@ __attribute__((visibility("hidden")))
     _Bool _shouldSuppressKeyboard;
 }
 
-+ (_Bool)F!ÔÛæm;
-- (_Bool)eMessageID:forChat:style: /* Error: Ran out of types for this method. */;
-- (void)countWithCompletion:(_Bool)arg1;
-- (void)tion:(_Bool)arg1;
-- (_Bool)2y} ;
++ (_Bool)called on a background scene;
+- (_Bool);
 - (void);
+- (void);
+- (_Bool);
 - (id);
-- (_Bool):8@16q24@32@40@48@56 /* Error: Ran out of types for this method. */;
-- (void)Àq;
+- (_Bool)qfÐ1Â0@ù
+× ;
+- (void)orderingShouldRevertOrdering;
+- (void)<âÿ<Íd8k;
 
 // Remaining properties
 @property(nonatomic) _Bool isSingleLineDocument; // @synthesize isSingleLineDocument=_isSingleLineDocument;

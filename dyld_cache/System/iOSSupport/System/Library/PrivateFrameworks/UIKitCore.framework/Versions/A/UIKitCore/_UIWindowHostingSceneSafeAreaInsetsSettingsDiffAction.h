@@ -11,10 +11,10 @@
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsSafeAreaInsetsDiffInspector;
 }
 
+- (id);
 - (void);
+- (void)DescendantWantsFullScreen;
 - (void);
-- (void);
-- (id)º;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

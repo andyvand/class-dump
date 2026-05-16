@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIFocusSystem, UIFocusUpdateContext;
-@protocol UIFocusEnvironment, UIFocusItem, UIFocusItemContainer;
+@protocol UIFocusEnvironment, UIFocusItemContainer;
 
 @protocol _UIFocusSystemDelegate
 
 @optional
-- (_Bool)rElementReference;
-- (void)ntroller:(UIFocusSystem *)arg1;
-- (_Bool)yingInfoLanguageOption;
-- (id <UIFocusEnvironment>)!ÌGùQÄ°1¢!0@ù
+- (void)°1Â0@ù
 × ;
-- (_Bool)ForWindow:(UIFocusSystem *)arg1;
-- (void)ashTable;
-- (void)ntrolDidEndReordering:(UIFocusSystem *)arg1 cancelled:(UIFocusUpdateContext *)arg2;
-- (id <UIFocusItemContainer>)sedNextItemAttributes:(UIFocusSystem *)arg1;
-- (void)aceholderIfNecessaryWithName:(UIFocusSystem *)arg1 identifier:(id <UIFocusItem>)arg2;
-- (struct CGRect)r;
-- (void)houldContinueTouchesOnTargetViewController,S_setShouldContinueTouchesOnTargetViewController:(UIFocusSystem *)arg1 ,V_shouldContinueTouchesOnTargetViewController;
-- (_Bool)onControllerDelegate>",W,N;
-- (_Bool)ð;
-- (NSArray *)TITLE:(UIFocusSystem *)arg1 %@;
-- (void)Ñ?<<<<<<ì?¸ëQ¸?Å?Ç?È?\\\\\\ì?ì?½¼¼¼¼¼ì?;
+- (void)@"CUIMutableCatalog";
+- (void){CGRect={CGPoint=dd}{CGSize=dd}}24B56B60;
+- (void)tsInputViewItemSelectedCount;
+- (id <UIFocusItemContainer>)rrentPreviewViewController;
+- (void)ata",&,N,V_plainItemAppearance;
+- (id <UIFocusEnvironment>)reviatedDateFormatWithoutCommas;
+- (id <UIFocusEnvironment>);
 @end
 

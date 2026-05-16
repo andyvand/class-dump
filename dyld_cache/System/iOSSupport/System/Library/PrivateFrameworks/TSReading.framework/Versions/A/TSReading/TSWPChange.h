@@ -24,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)[5�;
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,16 +33,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)|n�z;
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)roupAlignmentContext::rightSpaceRequiredForGroup(const EQKitAlignmentGroup &, NSUInteger) const /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TSUColor *changeAdornmentsColor;

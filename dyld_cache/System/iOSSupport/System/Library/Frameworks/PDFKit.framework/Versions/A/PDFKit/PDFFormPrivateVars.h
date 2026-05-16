@@ -12,9 +12,11 @@ __attribute__((visibility("hidden")))
     PDFDocument *document;
     NSMutableArray *fieldArray;
     struct CGPDFString *appearString;
+    struct pdf_unfair_mutex formLock;
 }
 
-- (void)rLayerDelegate>",R,W,N,V_linedPaperLayerDelegate;
+- (id);
+- (void);
 
 @end
 

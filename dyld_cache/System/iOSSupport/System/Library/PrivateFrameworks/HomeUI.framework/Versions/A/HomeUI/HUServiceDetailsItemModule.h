@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)pple.com/guide/ipad/use-grid-forecast-to-plan-your-energy-usage-ipadc6934c14/ipados;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

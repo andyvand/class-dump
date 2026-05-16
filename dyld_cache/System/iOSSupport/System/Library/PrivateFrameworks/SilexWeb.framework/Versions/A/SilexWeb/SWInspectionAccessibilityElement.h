@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
 - (struct CGRect);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;

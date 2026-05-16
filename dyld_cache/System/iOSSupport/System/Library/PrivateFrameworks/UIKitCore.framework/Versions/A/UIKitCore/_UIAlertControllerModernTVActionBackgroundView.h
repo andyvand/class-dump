@@ -16,24 +16,23 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_effectView;
 }
 
-+ (struct CGSize)issing a service when being inserted into the database.;
++ (struct CGSize);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void)AndNoSIM: /* Error: Ran out of types for this method. */;
-- (void)am SMS Capable, My callerID is a phone number:(_Bool)arg1 Sending Message via CT;
+- (void);
+- (void);
 - (void);
 - (double);
-- (void);
-- (void);
-- (struct CGSize)0@ù
+- (double)!ØEù1^Ð1Â0@ù
 × ;
-- (void)pãèä;
-- (id)line baseline:(struct CGRect)arg1 %f
-;
-- (double);
-- (id);
+- (struct CGSize);
+- (id)tionWithPreviewMenuItem:(struct CGRect)arg1;
+- (void)scene specification. Internal scenes must also have a distinct UISceneSessionRole:specification:%@; role:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ÿ;
+- (void)» ª;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;

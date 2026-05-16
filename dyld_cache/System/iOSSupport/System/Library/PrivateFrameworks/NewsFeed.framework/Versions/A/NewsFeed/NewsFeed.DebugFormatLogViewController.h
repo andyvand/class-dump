@@ -26,17 +26,17 @@
 - (double);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (long long);
-- (void)+\üÿ;
+- (void);
+- (void)q½ÿÿÿÿÿè;
+- (void)u(:?Ø /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

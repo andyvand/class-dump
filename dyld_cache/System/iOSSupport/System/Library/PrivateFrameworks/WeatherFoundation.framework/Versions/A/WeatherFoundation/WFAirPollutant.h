@@ -25,18 +25,18 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (id)DGQo_;
-- (id)=;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long)!N;
 - (id);
-- (id)8;
-- (void);
 - (void);
-- (id)cal 30 day JSON forecast data;
+- (unsigned long long);
+- (void);
+- (void);
+- (id)Request:withDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double amount; // @synthesize amount=_amount;

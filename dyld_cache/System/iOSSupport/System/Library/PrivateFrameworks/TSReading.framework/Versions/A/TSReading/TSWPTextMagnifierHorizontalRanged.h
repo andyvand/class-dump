@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (void)Q;
 - (void);
-- (void)@;
+- (void);
 - (void);
 - (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldIgnoreTextInputEditor; // @synthesize shouldIgnoreTextInputEditor=_shouldIgnoreTextInputEditor;

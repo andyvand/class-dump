@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long)0@ù
+- (unsigned long long)!
+Ð!Dùfð1Â0@ù
 × ;
 
 @end

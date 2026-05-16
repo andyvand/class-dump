@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (double);
 - (id);
 - (id);
 - (void);
-- (double)iguringHighlights;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *blurImageView; // @synthesize blurImageView=_blurImageView;

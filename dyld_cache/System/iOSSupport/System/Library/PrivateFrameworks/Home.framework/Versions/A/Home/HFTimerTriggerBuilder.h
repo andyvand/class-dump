@@ -42,16 +42,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)0@ù
+× ;
+- (void)¸ö4÷tùú`û¼ýÿäÿ;
+- (id)´yêÿªúp;
 
 // Remaining properties
 @property(retain, nonatomic) HFTriggerBuilder *concreteTriggerBuilder; // @synthesize concreteTriggerBuilder=_concreteTriggerBuilder;

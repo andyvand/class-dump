@@ -7,20 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)EAiiTwhDstBNurrfNzWAY/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/VisitedLinkStore.cpp;
-- (id)JtcugBX4pFOe55FdDEAiiTwhDstBNurrfNzWAY/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/VisitedLinkStore.cpp;
-- (id)topCapture;
-- (id)t64_t>, RawValue = unsigned long long];
-- (id)ierThreadSafeAccessTraits<uint64_t>, RawValue = unsigned long long];
-- (Class)F::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>::generate() [T = IPC::AsyncReplyIDType, ThreadSafety = WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, RawValue = unsigned long long] /* Error: Ran out of types for this method. */;
-- (oneway void)checkHashTableKey(const T &) [Key = WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::PDFTileRenderType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (_Bool)nitNSAccessibilityRemoteUIElement()_block_invoke;
-- (_Bool);
-- (id)!;
-- (unsigned long long)A;
-
-@optional
-- (unsigned long long)(;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

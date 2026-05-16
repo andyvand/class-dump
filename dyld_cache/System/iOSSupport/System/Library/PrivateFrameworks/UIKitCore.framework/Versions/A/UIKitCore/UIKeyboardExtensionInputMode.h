@@ -16,25 +16,27 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (_Bool)ts;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)l;
-- (id)not proceeding;
-- (id);
+- (_Bool);
 - (id);
-- (void);
-- (void)!oÐ!;
-- (id)ge"48@0:8@"UIActivityViewController"16@"NSString"24{CGSize=dd}32 /* Error: Ran out of types for this method. */;
-- (void)Items;
-- (_Bool)p;
-- (id);
-- (id)pleColor;
-- (id)ty;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)
+× ;
+- (id)Ñf°1Â0@ù
+× ;
+- (_Bool)IDynamicFocusGroupMap";
+- (void)ttributesForLinkAtCharacterIndex:(id)arg1 ofStorage: /* Error: Ran out of types for this method. */;
+- (id)¬¸N_;
+- (void)¯j;
 
 // Remaining properties
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;

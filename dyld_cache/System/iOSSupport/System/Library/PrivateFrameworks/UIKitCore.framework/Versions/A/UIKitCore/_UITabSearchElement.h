@@ -11,11 +11,11 @@
     _Bool _automaticallyActivatesSearch;
 }
 
-- (void)i;
+- (void);
 - (_Bool);
-- (id)40@48;
-- (_Bool)etTranscriptBackground:andSendToChatIdentifier:chatStyle:transferID:isRefresh: /* Error: Ran out of types for this method. */;
-- (id)eView:dragSessionDidEnd: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyActivatesSearch; // @synthesize automaticallyActivatesSearch=_automaticallyActivatesSearch;

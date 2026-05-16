@@ -4,13 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FCBundleSubscriptionProviderType, FCPurchaseProviderType;
+@class FCExperimentalPaywallConfiguration, NSSet;
+@protocol FCBundleCampaignManagerType, FCBundleSubscriptionProviderType, FCPurchaseProviderType;
 
 @protocol FCPaidAccessCheckerType
-- (_Bool);
+- (_Bool)øÿ÷ÕûÿÆøÿ;
+- (id <FCPurchaseProviderType>);
+- (_Bool)ö;
 
 // Remaining properties
+@property(readonly, nonatomic) id <FCBundleCampaignManagerType> bundleCampaignManager;
 @property(readonly, nonatomic) id <FCBundleSubscriptionProviderType> bundleSubscriptionProvider;
+@property(readonly, nonatomic) FCExperimentalPaywallConfiguration *experimentalPaywallConfig;
+@property(readonly, nonatomic) NSSet *notificationOpenedArticleIDs;
 @property(readonly, nonatomic) id <FCPurchaseProviderType> purchaseProvider;
 @end
 

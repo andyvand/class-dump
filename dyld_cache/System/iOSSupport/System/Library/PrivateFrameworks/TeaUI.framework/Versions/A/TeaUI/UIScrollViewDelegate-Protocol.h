@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
+@class UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)illBeginDelayedRequest:(UIScrollView *)arg1 completionHandler:(UIView *)arg2;
+- (UIView *)@ù
+× ;
 - (void);
-- (void)9;
-- (void)ray;
 @end
 

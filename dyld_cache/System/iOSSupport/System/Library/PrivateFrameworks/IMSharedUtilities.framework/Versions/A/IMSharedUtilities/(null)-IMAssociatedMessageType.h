@@ -5,7 +5,7 @@
 //
 
 @interface (null) (IMAssociatedMessageType)
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 

@@ -14,13 +14,13 @@
 }
 
 - (id);
-- (void)e;
-- (id)ator:] /* Error: Ran out of types for this method. */;
-- (struct CGSize)en;
-- (id)tachment from remote file wrapper;
-- (Class);
 - (void);
-- (unsigned long long)ect: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGSize);
+- (id);
+- (Class);
+- (unsigned long long)ctView: /* Error: Ran out of types for this method. */;
+- (void)"N;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *transcriptButtonText; // @synthesize transcriptButtonText=_transcriptButtonText;

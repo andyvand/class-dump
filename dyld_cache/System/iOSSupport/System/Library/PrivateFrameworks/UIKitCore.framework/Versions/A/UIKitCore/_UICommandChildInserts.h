@@ -13,11 +13,10 @@ __attribute__((visibility("hidden")))
     NSArray *_afterElements;
 }
 
-- (id)iority:options:identifier:error: /* Error: Ran out of types for this method. */;
-- (id)MessagesMetadata;
-- (void)er",&,N,V_receiptVersion;
-- (void)
-º;
+- (id);
+- (id);
+- (void);
+- (void)¼ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *afterElements; // @synthesize afterElements=_afterElements;

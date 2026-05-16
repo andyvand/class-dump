@@ -4,23 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKComposition, CKMessageEditingViewController, NSDictionary, UIColor;
-
 @protocol CKMessageEditingViewControllerInteractionDelegate
-- (struct UIEdgeInsets);
-- (NSDictionary *)tachmentsInNoteHTMLEditorView:(CKMessageEditingViewController *)arg1;
-- (void)straint;
-- (void)GeneratorOperationQueue",&,N,V_asyncGeneratorQueue;
-- (void)V_attachmentModel;
-- (void)tionController;
-- (void)ayers;
-- (CKComposition *)tachment",&,N,V_attachment;
-- (void)ranceInfo",R,N,V_appearanceInfo;
-- (struct UIEdgeInsets)rs;
-- (void)layedSheet;
-- (BOOL)MHTMLElement",R,N,V_element;
-- (UIColor *)ableItemAttributeSet",?,R;
-- (_Bool)Link;
-- (double);
 @end
 

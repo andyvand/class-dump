@@ -18,21 +18,22 @@
 + (int);
 + (id);
 + (id);
-+ (_Bool)ion reason 1 (%{public}.1f).;
-- (int);
++ (_Bool);
+- (int);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id)rewallAutoEnroll;
 - (void);
 - (id);
-- (int)Max >= locationUncertaintyMin;
-- (id)und location with speed inconsistent with delta position, (delta pos. %f), updating to new speed, %f mps, in location sample, %{sensitive}@.;
-- (void);
+- (id)1Â0@ù
+× ;
+- (void)mOfWay;
+- (int)SequenceIndex:firstSequenceLength:batchSize: /* Error: Ran out of types for this method. */;
+- (void)ired minDaysNonZeroDwellTime, %.2f, totalWeeklyVisitCount, %.2f, minTopMedianDwellTime, %.2f;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;

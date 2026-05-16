@@ -81,6 +81,7 @@
     NSMutableArray *_messagesPendingJoin;
     NSMutableDictionary *_chatProperties;
     NSMutableDictionary *_participantProperties;
+    NSMutableDictionary *_guidToTimeSensitivePropertiesMap;
     NSArray *_attachments;
     NSNumber *_countOfAttachmentsNotCachedLocally;
     NSNumber *_countOfMessagesMarkedAsSpam;

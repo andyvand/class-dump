@@ -14,11 +14,10 @@
     MISSING_TYPE *initialRange;
 }
 
+- (id);
 - (long long);
-- (_Bool)rkDataSource;
-- (void)!Eù±Äð1¢!0@ù
-× ;
-- (id)pplicationSceneSettingsDiffInspector",&,N,V_sceneSettingsStatusBarDiffInspector;
+- (_Bool)teningForTruncation;
+- (void)Ô&ÿ m;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

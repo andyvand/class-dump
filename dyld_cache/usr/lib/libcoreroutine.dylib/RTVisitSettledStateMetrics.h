@@ -20,9 +20,9 @@
 + (unsigned long long);
 + (unsigned long long);
 + (id);
-+ (CDStruct_b8464340)%u %u;
++ (CDStruct_b8464340);
 - (id);
-- (id)2"I"r3"I"r4"I"s1"I"s2"I"s3"I"s4"I"h0"I"h1"I"h2"I"h3"I"h4"I"buf"[16C]"buf_used"Q"key"[16C]}"aad_nbytes"Q"text_nbytes"Q"state"C};
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

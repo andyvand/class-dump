@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu;
-
 @protocol UIEditMenuInteractionDelegate
-
-@optional
-- (void);
-- (UIMenu *)¿)7¸;
 @end
 

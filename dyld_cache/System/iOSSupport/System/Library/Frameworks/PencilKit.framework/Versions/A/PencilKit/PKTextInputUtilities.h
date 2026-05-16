@@ -8,8 +8,8 @@
 {
 }
 
-+ (id)CConfigurationResource"16;
-+ (_Bool)stInfo"8;
++ (id);
++ (_Bool);
 + (_Bool);
 + (struct CGRect);
 + (long long);
@@ -19,11 +19,11 @@
 + (id);
 + (void);
 + (void);
-+ (void)A;
 + (void);
 + (void);
 + (void);
-+ (_Bool));
++ (void);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);

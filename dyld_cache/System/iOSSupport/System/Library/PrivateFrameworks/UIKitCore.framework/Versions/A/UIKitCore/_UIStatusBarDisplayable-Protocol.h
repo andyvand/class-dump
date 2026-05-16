@@ -9,10 +9,8 @@
 @protocol _UIStatusBarDisplayable
 
 @optional
-- (_Bool)geCalendarPreferences: /* Error: Ran out of types for this method. */;
-- (_Bool)oint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
-The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.;
-- (void);
+- (UIAccessibilityHUDItem *)Ày[;
+- (void)ð²;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

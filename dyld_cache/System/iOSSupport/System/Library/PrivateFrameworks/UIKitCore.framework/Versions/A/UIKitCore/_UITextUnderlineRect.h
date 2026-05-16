@@ -23,16 +23,16 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (long long);
-- (id)swift;
-- (void)s.imcore.spi.userinitiated;
-- (void)ssageWithGUID;
+- (id);
+- (void);
+- (void);
+- (id);
 - (struct CGAffineTransform);
-- (void)P;
-- (void)illChangeToOrientation:(struct CGAffineTransform)arg1 screen: /* Error: Ran out of types for this method. */;
-- (id)isplayMode:toDisplayMode:updateSplitBehaviorOverrides:userGenerated: /* Error: Ran out of types for this method. */;
-- (id)Loop;
-- (void)ring",R,N,V_changeType;
-- (struct CGRect)×;];
+- (id);
+- (struct CGRect)dedStyleCornerRadius: /* Error: Ran out of types for this method. */;
+- (void)ppression;
+- (void)turned a nil host container;
+- (void)X­¾7G;
 
 // Remaining properties
 @property(retain, nonatomic) UITextRange *associatedTextRange; // @synthesize associatedTextRange=_associatedTextRange;

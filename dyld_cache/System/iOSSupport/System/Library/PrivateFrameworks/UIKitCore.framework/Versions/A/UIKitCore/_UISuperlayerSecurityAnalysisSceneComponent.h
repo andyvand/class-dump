@@ -20,12 +20,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)qÄð1¢!0@ù
-× ;
-- (id)UIKeyboardEmojiKeyView",W,N,V_inputView;
-- (void)ø;
-- (id)Qn;
-- (id)ê¾l;
+- (id);
+- (id)Ð ÿêàÎ\j;
+- (void)d°¥ÿ§ÝØHDl;
+- (id)$~Aÿ¼AÎÔo;
+- (void)/p;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *_hostBundleIdentifier;

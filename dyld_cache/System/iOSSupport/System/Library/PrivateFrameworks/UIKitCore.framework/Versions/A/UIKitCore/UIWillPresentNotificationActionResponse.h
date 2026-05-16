@@ -8,12 +8,12 @@
 {
 }
 
-+ (id)oming pushes;
++ (id);
 - (id);
-- (unsigned long long) º;
-- (id)!`BùÑÈ1¢!0@ù
+- (id);
+- (id);
+- (unsigned long long)0@ù
 × ;
-- (id)longsideAnimation;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options;

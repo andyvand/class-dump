@@ -25,10 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (CDUnknownBlockType);
+- (id);
+- (void)L;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType resultsAndItemBlock; // @synthesize resultsAndItemBlock=_resultsAndItemBlock;

@@ -45,7 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,7 +55,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -77,23 +77,23 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id)availability-change notification;
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (void)AllSchedulerTasksExcludingVisibleIndexPaths:(_Bool)arg1;
-- (_Bool)Items;
-- (void)ingCarouselControllerDelegate>",W,N;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id){CGSize=dd}}16;
+- (_Bool)ckerAndCacheForAvatarRecord:withStickerPackName:stickerConfigurationName:resource:withReply: /* Error: Ran out of types for this method. */;
+- (void)tentOffsetForAnimations;
+- (_Bool)ntsSecondaryVideo;
+- (id)¯;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTAvatarAttributeEditorViewController *attributeEditorViewController; // @synthesize attributeEditorViewController=_attributeEditorViewController;

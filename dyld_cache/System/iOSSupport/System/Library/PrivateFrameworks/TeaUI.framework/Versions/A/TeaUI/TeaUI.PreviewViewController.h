@@ -12,13 +12,13 @@
     MISSING_TYPE *triggeringViewController;
 }
 
+- (id);
+- (id);
 - (void);
-- (id)arImpressionCount;
-- (id)@"NSURL",&,N,V_imageURL2x;
 - (void);
 - (void);
-- (void);
-- (void)À;
+- (void)<}ëÿ@Í;
+- (void)@x;
 
 @end
 

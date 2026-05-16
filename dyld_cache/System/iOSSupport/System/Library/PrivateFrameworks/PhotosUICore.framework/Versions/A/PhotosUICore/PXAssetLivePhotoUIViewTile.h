@@ -27,11 +27,11 @@
 - (void);
 - (void);
 - (id);
-- (double);
-- (id);
 - (void);
-- (void);
-- (void)Î4;
+- (id)tionButton:animated: /* Error: Ran out of types for this method. */;
+- (double)ew controllers.;
+- (void)Time:(double)arg1 %@>;
+- (void)Ð!ÿíÉÐ8ÿ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setPlayerItem:) ISPlayerItem *_playerItem; // @synthesize _playerItem=__playerItem;

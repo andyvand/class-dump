@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)parentedOnly:(struct _NSZone *)arg1 limit:completionHandler:] /* Error: Ran out of types for this method. */;
++ (id)CFStringRef, NSError *__autoreleasing *, __strong IMDSqlOperationBlock);
 - (long long);
 - (long long);
 - (id);
@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,27 +30,45 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long);
 - (int);
 - (void *);
-- (struct _IMDMessageRecordStruct *)1;
 - (id);
-- (const CDStruct_7ef4fb35 *);
+- (struct _IMDMessageRecordStruct *);
+- (const CDStruct_7ef4fb35 *);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct _NSRange);
 - (struct __CFArray **);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id)"UIView",W,N,V_elementTextInputView;
-- (unsigned long long);
-- (_Bool);
-- (long long)B;
+- (_Bool)onHandler: /* Error: Ran out of types for this method. */;
+- (long long);
+- (unsigned long long)ERE cm.chat_id = chat
+    ) == 0
+    AND
+    (
+        SELECT COUNT(*) FROM chat_message_join cm
+        WHERE cm.chat_id = excluded.chat
+    ) > 0 )
+    OR
+    (
+       SELECT cm.message_id FROM chat_message_join cm
+       WHERE cm.chat_id = chat
+       ORDER BY cm.message_date DESC, cm.message_id DESC
+       LIMIT 1
+    ) < (
+       SELECT cm.message_id
+       FROM chat_message_join cm where cm.chat_id = excluded.chat
+       ORDER BY cm.message_date DESC, cm.message_id DESC
+       LIMIT 1
+    );;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *account; // @dynamic account;
@@ -86,6 +104,7 @@
 @property(readonly, copy, nonatomic) NSString *destinationCallerID; // @dynamic destinationCallerID;
 @property(readonly, nonatomic, getter=isEmote) _Bool emote; // @dynamic emote;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty; // @dynamic empty;
+@property(readonly, nonatomic) unsigned int error; // @dynamic error;
 @property(readonly, nonatomic, getter=isExpirable) _Bool expirable; // @dynamic expirable;
 @property(readonly, nonatomic) long long expireState; // @dynamic expireState;
 @property(readonly, copy, nonatomic) NSDate *expressiveSendPlayedTime;
@@ -103,6 +122,7 @@
 @property(readonly, nonatomic) _Bool hasDdResults; // @dynamic hasDdResults;
 @property(readonly, copy, nonatomic) NSString *iMessageAppBundleID;
 @property(readonly, copy, nonatomic) NSData *iMessageAppData;
+@property(readonly, nonatomic) unsigned char indexState; // @dynamic indexState;
 @property(readonly, nonatomic) long long itemType; // @dynamic itemType;
 @property(readonly, copy, nonatomic) NSDictionary *messageSummaryInfo;
 @property(readonly, copy, nonatomic) NSData *messageSummaryInfoData;

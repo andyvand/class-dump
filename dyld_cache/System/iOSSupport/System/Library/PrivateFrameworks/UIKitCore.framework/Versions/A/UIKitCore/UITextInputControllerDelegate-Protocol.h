@@ -9,20 +9,15 @@
 @protocol UITextInputControllerDelegate
 
 @optional
-- (_Bool)k/Versions/A/CoreFoundation;
-- (void);
-- (void)framework/Versions/A/IOKitten;
-- (void)/Foundation;
-- (NSArray *)le.configuration.application.asam;
-- (_Bool)/o;
-- (_Bool)1¢!0@ù
+- (void)0@ù
 × ;
-- (_Bool)¢!0@ù
+- (_Bool)!¸Bùñ]1Â0@ù
 × ;
-- (UIColor *)4@0:8@"UIFocusMovementHint"16 /* Error: Ran out of types for this method. */;
-- (void)allowsSimultaneousDropSessions;
-- (void)ü±°²ô²µ@µ;
-- (void)ÌÇÔðþ;
+- (void)ayoutWidth"b1"drawsDebugBaselines"b1"drawsDebugGlyphPathBoundsClipping"b1"explicitBaselineOffset"b1"usesSimpleTextEffects"b1"wantsUnderlineForAccessibilityButtonShapesEnabled"b1"disableUpdateTextColorOnTraitCollectionChange"b1"textAlignmentFollowsWritingDirection"b1"textAlignmentMirrored"b1"shortcutIntrinsicContentSize"b1"multilineLabelRequiresCarefulMeasurement"b1"noNeedsDisplayCheckForBaselineCalculationNeeded"b1"overallWritingDirectionFollowsLayoutDirection"b1"hyphenationFactorIgnoredIfURLsDetected"b1"extendedAccessibilityAdjustments"b1"canUseUILabelLayer"b1"implementsDefaultAttributes"b1"textColorFollowsTintColor"b1"materialTextColorFollowsTintColor"b1"showsExpansionTextWhenTruncated"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
+- (UIColor *)inateSpaceForcingDelegateCallback:withAction: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (NSArray *)rrored;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSingleLineDocument;

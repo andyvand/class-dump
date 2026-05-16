@@ -12,11 +12,11 @@
     MISSING_TYPE *delegate;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

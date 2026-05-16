@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (void)P;
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *invalidProductIdentifiers;

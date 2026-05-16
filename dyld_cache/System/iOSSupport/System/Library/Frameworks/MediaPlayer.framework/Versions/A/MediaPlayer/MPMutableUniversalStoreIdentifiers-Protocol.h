@@ -7,19 +7,10 @@
 @class NSArray, NSString;
 
 @protocol MPMutableUniversalStoreIdentifiers
-- (NSString *)oom.videomeetings;
-- (long long)//com.apple.calculator;
-- (void)noHome;
-- (void)v32@?0@"NSURL"8Q16^B24;
-- (NSString *);
-- (long long)cate"16@"_CDContextualKeyPath"24;
-- (NSString *)0B88q92@100;
-- (void)SString"32@"BMPublisherOptions"40;
-- (void)cSyncDatesDictionaryForKey:(long long)arg1;
-- (void)ys;
-- (long long)alizedAsset:libraryAsset:personalizationProperties: /* Error: Ran out of types for this method. */;
-- (void)Emit;
-- (long long)6@?0B8B12;
+- (long long)I payload] childRelationsCount=%d collectionVersionHash=%{public}@;
+- (long long)or MPModelPropertyAlbumDownloadedDate;
+- (void)RL found in the artwork info dictionary for item with persistent ID %lld;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long adamID;

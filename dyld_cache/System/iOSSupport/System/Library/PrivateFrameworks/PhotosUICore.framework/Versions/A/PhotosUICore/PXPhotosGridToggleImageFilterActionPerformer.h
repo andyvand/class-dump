@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)¿õ5;
+- (id)ect>",&,N,V_animationOptions;
 
 @end
 

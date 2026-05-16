@@ -45,8 +45,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)NSIndexPath"24;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *allowFacialRecognitionItem; // @synthesize allowFacialRecognitionItem=_allowFacialRecognitionItem;

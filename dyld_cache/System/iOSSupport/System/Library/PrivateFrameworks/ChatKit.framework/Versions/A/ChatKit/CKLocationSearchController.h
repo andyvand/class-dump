@@ -13,28 +13,27 @@
 }
 
 + (id);
-+ (id)
-;
 + (id);
 + (id);
-- (id)tion;
-- (void):(id)arg1;
++ (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)tachment:(id)arg1 %@;
-- (void)eSystemPaperNotesWithCoalescingAndDelay;
-- (id);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (double),N,V_separatorStyle;
-- (long long);
+- (id);
+- (double);
+- (id);
+- (long long)you expect it to send as?;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

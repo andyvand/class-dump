@@ -20,16 +20,16 @@
 }
 
 + (id);
-- (_Bool)_destinationFolder;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (double)** deleted the subfolder;
+- (double);
 - (id);
-- (id)ag %@;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -37,16 +37,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)ìAùÐ1Â0@ù
+× ;
+- (void)ð1Â0@ù
+× ;
+- (void)iption;
+- (void)ØH;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetReference *currentAssetReference;

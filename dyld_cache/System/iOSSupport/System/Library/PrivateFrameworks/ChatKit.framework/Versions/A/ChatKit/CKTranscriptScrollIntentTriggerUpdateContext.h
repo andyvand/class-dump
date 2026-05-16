@@ -12,7 +12,7 @@
 
 - (id);
 - (long long);
-- (long long)h;
+- (long long);
 - (id);
 
 // Remaining properties

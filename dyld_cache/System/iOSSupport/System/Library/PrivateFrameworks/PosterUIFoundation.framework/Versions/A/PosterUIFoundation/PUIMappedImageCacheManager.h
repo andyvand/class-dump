@@ -45,9 +45,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void)terUIFoundation.m;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSSet *activeCaches;

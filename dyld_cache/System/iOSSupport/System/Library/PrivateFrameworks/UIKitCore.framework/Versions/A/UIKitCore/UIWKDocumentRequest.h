@@ -16,16 +16,16 @@
 }
 
 - (long long);
-- (void)Framerate:(long long)arg1;
 - (void);
 - (void);
 - (void);
-- (id):didFindMessage:didMarkMessage: /* Error: Ran out of types for this method. */;
-- (long long)rs:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (long long);
 - (struct CGRect);
-- (void)^q48^q56;
 - (void);
-- (long long)2@0:8@"UIGestureRecognizer"16@"UIEvent"24 /* Error: Ran out of types for this method. */;
+- (long long)h;
+- (void)so it cannot be used to start a drag;
 
 // Remaining properties
 @property(nonatomic) struct CGRect documentRect; // @synthesize documentRect=_documentRect;

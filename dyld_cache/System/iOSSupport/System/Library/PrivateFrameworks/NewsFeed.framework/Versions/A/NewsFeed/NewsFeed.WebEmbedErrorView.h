@@ -11,10 +11,10 @@
     MISSING_TYPE *label;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)rationWithBackgroundPriority;
-- (id)þ;
+- (void)a:] /* Error: Ran out of types for this method. */;
 
 @end
 

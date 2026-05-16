@@ -13,10 +13,10 @@
     MISSING_TYPE *activeAnimationCount;
 }
 
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 @end
 

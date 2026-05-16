@@ -7,7 +7,6 @@
 @protocol WBSTranslationContentFillingDelegate;
 
 @protocol WBSTranslationContentFilling
-- (id <WBSTranslationContentFillingDelegate>)a;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSTranslationContentFillingDelegate> fillingDelegate;

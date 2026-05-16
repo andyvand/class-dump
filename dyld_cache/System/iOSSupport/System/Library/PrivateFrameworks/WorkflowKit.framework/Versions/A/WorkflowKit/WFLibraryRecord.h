@@ -26,8 +26,8 @@
 - (long long);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ct);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *cloudKitRecordMetadata; // @synthesize cloudKitRecordMetadata=_cloudKitRecordMetadata;

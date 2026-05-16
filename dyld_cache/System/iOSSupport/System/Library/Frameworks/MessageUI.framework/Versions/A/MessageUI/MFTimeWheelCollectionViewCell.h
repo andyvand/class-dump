@@ -19,12 +19,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)ST_SECONDS;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date;

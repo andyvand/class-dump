@@ -40,13 +40,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id)Ô!fÐ!èEùnÐ1b0@ù
+- (id);
+- (_Bool);
+- (void)qAð1â
+0@ù
 × ;
-- (_Bool)LZéÿë­ãÿ}ëYéÿ;
+- (void)sui_numberOfLines;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

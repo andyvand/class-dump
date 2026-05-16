@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (double);
-- (void);
-- (void);
+- (void)lowing:collectionId:collectionCategory:collectionCurrentlySaved:verticalIndex:horizontalIndex:placeCardType:possibleActions:impossibleActions:modules: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;

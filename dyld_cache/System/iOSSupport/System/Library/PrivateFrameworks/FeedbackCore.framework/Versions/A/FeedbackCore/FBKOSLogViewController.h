@@ -28,16 +28,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (long long);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)is deleted. Cannot refresh FormResponseStub.;
-- (_Bool);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

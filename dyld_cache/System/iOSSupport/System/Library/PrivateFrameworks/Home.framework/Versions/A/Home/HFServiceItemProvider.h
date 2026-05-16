@@ -33,12 +33,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)@?0@"HFCharacteristicReadResponse"8;
+- (void)or:(CDUnknownBlockType)arg1;
+- (void)° ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

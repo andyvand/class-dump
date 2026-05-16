@@ -10,8 +10,8 @@
 
 + (_Bool);
 + (id);
-+ (id)Extensions;
-+ (long long)omOptionsGroups;
++ (id)attachmentBalloonViewPreview;
++ (long long)Ì¼ü;
 
 @end
 

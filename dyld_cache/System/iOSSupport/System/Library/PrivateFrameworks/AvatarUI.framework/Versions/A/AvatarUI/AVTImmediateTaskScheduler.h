@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ider:(CDUnknownBlockType)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

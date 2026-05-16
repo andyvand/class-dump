@@ -39,15 +39,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (_Bool);
+- (struct CGSize);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (struct CGSize);
+- (void)0@ù
+× ;
+- (id)Fits:forSizeCategory: /* Error: Ran out of types for this method. */;
+- (id)mizations;
 
 // Remaining properties
 @property(retain, nonatomic) PKPassColorProfile *colorProfile; // @synthesize colorProfile=_colorProfile;

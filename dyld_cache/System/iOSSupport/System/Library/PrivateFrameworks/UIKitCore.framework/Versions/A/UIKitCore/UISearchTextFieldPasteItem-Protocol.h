@@ -5,6 +5,5 @@
 //
 
 @protocol UISearchTextFieldPasteItem
-- (void)s NULL;
 @end
 

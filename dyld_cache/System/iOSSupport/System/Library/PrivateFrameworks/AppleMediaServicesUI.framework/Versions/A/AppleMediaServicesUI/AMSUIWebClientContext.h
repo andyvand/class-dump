@@ -39,7 +39,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)½z1;
 - (void);
 - (id);
 - (_Bool);
@@ -64,8 +64,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -75,26 +78,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)lock: /* Error: Ran out of types for this method. */;
-- (void)@¶;
-- (id)à;
-- (id)ïÿäN ¾2;
+- (id);
+- (void)ollerProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (id)ser:didEndElement: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak NSString *URL; // @synthesize URL=_URL;

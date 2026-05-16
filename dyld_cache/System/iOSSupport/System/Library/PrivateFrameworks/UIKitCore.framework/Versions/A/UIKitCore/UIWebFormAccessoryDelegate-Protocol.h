@@ -5,6 +5,5 @@
 //
 
 @protocol UIWebFormAccessoryDelegate
-- (void);
 @end
 

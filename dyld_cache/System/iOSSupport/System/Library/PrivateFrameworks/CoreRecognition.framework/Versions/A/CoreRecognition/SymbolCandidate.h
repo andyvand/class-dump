@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (unsigned short);
 - (void);
+- (unsigned short);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *description;

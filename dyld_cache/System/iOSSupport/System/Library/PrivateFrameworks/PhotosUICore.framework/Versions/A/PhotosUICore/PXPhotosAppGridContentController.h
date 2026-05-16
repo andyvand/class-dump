@@ -65,11 +65,11 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)re/LemonadeSearchCollectionResultsShelfProvider.swift;
+- (void);
+- (id);
+- (void)_LIKED_THIS_PHOTO_SUBJECT;
 - (void);
 
 // Remaining properties

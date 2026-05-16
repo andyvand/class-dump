@@ -36,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)ize;
+- (void);
+- (id)d: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

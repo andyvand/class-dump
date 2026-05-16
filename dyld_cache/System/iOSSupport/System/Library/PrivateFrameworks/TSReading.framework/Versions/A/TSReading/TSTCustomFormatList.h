@@ -20,12 +20,13 @@
 - (unsigned int);
 - (id);
 - (void *);
-- (id)^�;
+- (id);
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (id);
-- (long long)TSDCalloutPathSource;
+- (long long)
+× ;
 - (id);
 
 @end

@@ -36,15 +36,15 @@
 - (struct CGImage *);
 - (id);
 - (void);
+- (id);
+- (void);
 - (double);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (struct CGImage *);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *CGImage;

@@ -15,19 +15,20 @@
 }
 
 - (void);
+- (void);
 - (long long);
-- (double)T@"NSNumber",C,N,V_payloadAllowUnmanagedToReadManagedContacts;
-- (void);
-- (void);
+- (id);
 - (double);
-- (void);
+- (id);
+- (void)a!@ù1`°1Â0@ù
+× ;
 - (void)
 × ;
-- (id)dWithUIKit;
-- (id)rivateSubview:(id)arg1;
-- (void)T@"NSDictionary",&,N,V_attributionInfo;
-- (id);
-- (void)PÏþÿnÏþÿpÏþÿØÎþÿxÎþÿ8Áþÿ;
+- (void)itionFromView:(double)arg1 toView:containerView: /* Error: Ran out of types for this method. */;
+- (double)nPanInZ;
+- (void)mateShadow;
+- (id)mator;
+- (void)p;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentValue; // @synthesize currentValue=_currentValue;

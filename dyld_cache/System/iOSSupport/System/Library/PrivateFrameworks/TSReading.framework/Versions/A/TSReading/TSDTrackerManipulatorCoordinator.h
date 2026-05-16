@@ -25,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (id)@;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<TSDTrackerManipulator> *controllingTM; // @synthesize controllingTM=mControllingTM;

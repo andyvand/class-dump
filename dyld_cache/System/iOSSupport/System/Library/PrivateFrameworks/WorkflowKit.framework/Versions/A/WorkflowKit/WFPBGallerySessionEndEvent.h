@@ -15,6 +15,10 @@
 }
 
 - (_Bool);
+- (id);
+- (unsigned int);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -22,25 +26,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned int)rty"8Q16;
-- (id)h|height|photos;
-- (void)ulysses3.stylesheet;
+- (void)	
+;
+- (_Bool)à1	p3;
+- (void)g UUID:(id)arg1 %{public}@;
+@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
+- (id)ctHeading;
 
 // Remaining properties
 @property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
 @property(nonatomic) _Bool hasDuration;
 @property(readonly, nonatomic) _Bool hasKey;
 @property(readonly, nonatomic) _Bool hasSessionIdentifier;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 @property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end

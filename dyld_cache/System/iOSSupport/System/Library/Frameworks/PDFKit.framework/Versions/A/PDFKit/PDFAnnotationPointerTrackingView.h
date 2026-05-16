@@ -14,10 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)nRect;
-- (id)@;
+- (id);
 - (void);
 - (void);
+- (void)ÔAQ	ð!ÄAùQvð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PDFAnnotation *annotation; // @synthesize annotation=_annotation;

@@ -38,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)asonHUNCCameraPlayerViewControllerNotVisible;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *alarmEventItem; // @synthesize alarmEventItem=_alarmEventItem;

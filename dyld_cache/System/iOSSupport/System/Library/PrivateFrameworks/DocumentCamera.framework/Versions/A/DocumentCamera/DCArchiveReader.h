@@ -30,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;

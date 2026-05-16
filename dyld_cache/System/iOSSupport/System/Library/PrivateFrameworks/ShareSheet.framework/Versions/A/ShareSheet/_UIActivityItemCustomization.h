@@ -22,13 +22,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

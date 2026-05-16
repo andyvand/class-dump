@@ -36,52 +36,55 @@
     long long _animationTimingCurve;
 }
 
-+ (double)version;
-- (void);
-- (void);
++ (double);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)R;
-- (long long);
-- (void);
-- (void)houldBadgeSubtitle:(struct CGRect)arg1;
+- (id);
 - (_Bool);
-- (void);
-- (void)CoreImage.framework/Versions/A/CoreImage;
 - (void);
 - (void);
 - (double);
-- (id);
-- (void);
-- (_Bool)au!äCù±Éð1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)ckerServiceRemoteViewController";
-- (void)String"16;
-- (int)OtherHistory: /* Error: Ran out of types for this method. */;
-- (_Bool)rotationAnimated: /* Error: Ran out of types for this method. */;
-- (_Bool)yles;
-- (void)sEquivalentTo:(_Bool)arg1;
-- (_Bool)lection;
-- (_Bool)yObstructedContent;
-- (void)XD¨;
-- (void)`Ò;
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
-- (_Bool)orable object %@;
-- (id)tAction.m;
-- (void)rwarding kb layers.;
-- (void)pt to add layout (%@) to composition layout with sibling (%@) where the sibling does not have the same parent;
-- (double);
-- (void)iveGlass;
-- (_Bool)ÿ;
-- (id)ãc;
+- (_Bool)1Â0@ù
+× ;
+- (long long)Â0@ù
+× ;
+- (_Bool)
+× ;
+- (double)× ;
+- (_Bool);
+- (_Bool)0@ù
+× ;
+- (id)!@ùQb°1Â0@ù
+× ;
+- (void);
+- (void)kgroundHeightWhenLarge;
+- (void)neByNavigationBar;
+- (void)sorMovementCount;
+- (void)gStyle;
+- (void)tionsChildViewControllers;
+- (void)lSize;
+- (int)labelContainerCenterXConstraint;
+- (void)omeWhenCollapsed;
+- (id)acIdiomStyle;
+- (void)¤r;
+- (void)X¹¹;
+- (void)ver;
+- (_Bool)IActivityViewController;
+- (void)apsed;
+- (void);
+- (void)Ø`;
+- (_Bool)Ï;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double _curlUpRevealedHeight;

@@ -13,29 +13,27 @@
     _UIDigitizerGestureRecognizerImp *_imp;
 }
 
-- (void)atchOnly:(id)arg1 sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)h;
+- (void);
+- (void);
 - (void);
 - (void);
 - (double);
-- (struct CGPoint)orRecord %@;
+- (struct CGPoint);
 - (void);
-- (void)
-× ;
-- (void)Íð1¢!0@ù
-× ;
+- (id)eplacementWithSearchQuery:(id)arg1 replacementString:(SEL)arg2 options: /* Error: Ran out of types for this method. */;
+- (void)refersCollapsedAppearanceInToolbar:(id)arg1;
 - (void);
-- (void)0:(id)arg1 8@"NSXMLParser"16@"NSData"24;
-- (void)tate:(id)arg1;
-- (void)hTimeout:(id)arg1 cancellationHandler:(id)arg2;
-- (void)nimation:(id)arg1 animations:(id)arg2 completion: /* Error: Ran out of types for this method. */;
-- (void)astUpdateOffsetX;
-- (void)Identifier:(id)arg1 format:(id)arg2;
-- (void)±;
-- (void)¹``;
-- (id))b;
+- (void)ely;
+- (void)ÀÅ;
+- (void);
+- (void)øþtÿSø;
+- (void)Ë;
+- (void)Lb;
+- (void)>f;
+- (void)¤h;
+- (void)Al;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

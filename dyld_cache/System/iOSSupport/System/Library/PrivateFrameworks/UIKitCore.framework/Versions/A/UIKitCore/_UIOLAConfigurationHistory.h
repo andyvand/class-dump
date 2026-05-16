@@ -22,28 +22,29 @@ __attribute__((visibility("hidden")))
     double _proportionalFillDenominator;
 }
 
+- (double);
 - (void);
 - (void);
-- (double);
 - (_Bool);
-- (id)ngCollaborator:(struct _NSZone *)arg1 onCollaborationWithPersistentID:withApproval:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)rity;
+- (_Bool);
 - (void);
-- (void)°1¢!0@ù
+- (_Bool);
+- (double)ð!XGùÑ\Ð1Â0@ù
 × ;
-- (void)ollerTransition";
-- (double)nCandidate:range:delay: /* Error: Ran out of types for this method. */;
-- (_Bool)entOffsetChanges;
-- (void)ngElements;
-- (void)omizationDelegateSearchFieldContainerWillLayoutSubviewsCallback;
-- (_Bool)LayoutAuxillaryItemSolver;
-- (void)·ÕQ^;
-- (void)ÿkÈÓ±^;
-- (_Bool);
-- (void);
-- (long long)Äàþ;
-- (id)Hóÿ]O;
-- (double)û;
+- (void)qg1Â0@ù
+× ;
+- (long long)ViewFrame;
+- (_Bool)dgeInsets=dddd},N,V_containerSafeAreaInsets;
+- (id),V_imageContentMode;
+- (double)à¡ÑÔ¢;
+- (void)%@; number of sections before update:(double)arg1 %ld; collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)sets=%@}>;
+- (void)elConfiguration_hasCustomized_numberOfLines;
+- (_Bool)þÿ$ÿÿ;
+- (id)vàþÿZàþÿ;
+- (void)uR0ýè23°®;
+- (void)5433tnþ433¤tnþ;
+- (void)ZÀ;
 
 // Remaining properties
 @property(nonatomic, setter=_setItemFittingSizeChanged:) _Bool _itemFittingSizeChanged; // @synthesize _itemFittingSizeChanged;

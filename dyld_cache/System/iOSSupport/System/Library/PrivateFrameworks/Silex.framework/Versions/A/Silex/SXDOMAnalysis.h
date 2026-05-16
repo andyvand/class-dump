@@ -36,7 +36,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -50,8 +49,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)v32@0:8@"<SXLayoutCoordinator>"16@"SXLayoutParameters"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SXConditionalObjectAnalysis *conditionalObjectAnalysis; // @synthesize conditionalObjectAnalysis=_conditionalObjectAnalysis;

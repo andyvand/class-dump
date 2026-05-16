@@ -34,15 +34,17 @@
 - (void);
 - (void);
 - (void);
-- (void)¨;
 - (id);
-- (id);
-- (id);
-- (void)essReport: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)øûÿV;
-- (id)Screenshot;
 - (void);
+- (id);
+- (void);
+- (id)aü!8DùÑIÐ1â
+0@ù
+× ;
+- (id);
+- (void)StorySongController>"8;
+- (void).libraryStatusTapped;
+- (id)¨#!ÿ=oÊ¤#!ÿEoÊ ,-ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXStoryViewModeTransition *currentViewModeTransition; // @synthesize currentViewModeTransition=_currentViewModeTransition;

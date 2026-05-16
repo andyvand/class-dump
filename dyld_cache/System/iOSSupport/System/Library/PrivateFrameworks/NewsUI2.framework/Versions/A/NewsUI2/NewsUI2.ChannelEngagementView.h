@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)subscriptionController;
+- (id);
+- (void)tView;
 
 @end
 

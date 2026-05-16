@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface IMDPersistentTaskQueryProvider
 {
     _Bool _isBlocking;
-    NSUUID *_lastReindexSchedulingID;
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
 + (void);
 - (void);
@@ -27,8 +24,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -36,12 +31,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)P;
-- (id)onBlock;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isBlocking; // @synthesize isBlocking=_isBlocking;
-@property(retain, nonatomic) NSUUID *lastReindexSchedulingID; // @synthesize lastReindexSchedulingID=_lastReindexSchedulingID;
 
 @end
 

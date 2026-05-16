@@ -24,11 +24,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,8 +40,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ellAccessibilityLabelSignificantEventTimeOn%@Format;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

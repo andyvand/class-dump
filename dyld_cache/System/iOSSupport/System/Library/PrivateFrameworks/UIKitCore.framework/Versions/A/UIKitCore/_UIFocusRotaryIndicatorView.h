@@ -29,20 +29,20 @@ __attribute__((visibility("hidden")))
     _UIFocusRotaryRingArrowView *_leftArrow;
 }
 
-+ (id)atch;
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)or: /* Error: Ran out of types for this method. */;
-- (void)t: /* Error: Ran out of types for this method. */;
-- (struct CGAffineTransform)r:(double)arg1;
+- (void);
+- (void);
+- (struct CGAffineTransform);
 - (unsigned long long);
 - (void);
-- (void)ed;
 - (void);
-- (void);
-- (id)startingContentOffsetForObservedScrollView;
+- (id)orForState:(struct CGRect)arg1 button: /* Error: Ran out of types for this method. */;
+- (void)_;
+- (void)vXÜ[;
 
 @end
 

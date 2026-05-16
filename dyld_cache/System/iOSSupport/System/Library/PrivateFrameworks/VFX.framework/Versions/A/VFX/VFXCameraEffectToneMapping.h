@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (_Bool)BasicAnimationRuntime;
++ (_Bool);
 - (float);
 - (float);
 - (float);
@@ -35,13 +35,12 @@
 - (void *);
 - (void);
 - (void);
-- (void);
-- (void);
+- (float);
 - (long long);
 - (id);
+- (void);
+- (void);
 - (id);
-- (float)ÛÏ¾înIDK U>ÎB8ÜÏ¾pICd"U>Ü7B
-ÛÏ¾Y	³B%U>ûÎAñØÏ¾ÁkIBs.U>ÓûA¿ÔÏ¾T·;
 
 // Remaining properties
 @property(nonatomic) float gamma;

@@ -5,8 +5,5 @@
 //
 
 @protocol TUPageViewControllerDelegate
-
-@optional
-- (void);
 @end
 

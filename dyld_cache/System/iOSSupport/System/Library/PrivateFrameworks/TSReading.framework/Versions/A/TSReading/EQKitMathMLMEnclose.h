@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (const void *);
+- (const void *);
 - (struct Schemata);
 
 // Remaining properties

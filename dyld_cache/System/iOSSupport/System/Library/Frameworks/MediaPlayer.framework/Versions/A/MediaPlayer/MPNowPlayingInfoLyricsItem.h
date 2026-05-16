@@ -18,7 +18,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)homeManager:%{public}@ didAddHome:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)Åª
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *lyrics;

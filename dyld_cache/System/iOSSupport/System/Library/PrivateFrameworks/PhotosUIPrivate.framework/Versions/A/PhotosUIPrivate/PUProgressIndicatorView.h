@@ -53,16 +53,18 @@
 - (id);
 - (_Bool);
 - (double);
+- (long long);
+- (void);
+- (id);
 - (struct CGSize);
+- (void);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)aØð!pGùq#ð1â
+0@ù
+× ;
+- (void)utomaticContentOffsetAdjustmentEnabled: /* Error: Ran out of types for this method. */;
+- (id)nVector;
 
 // Remaining properties
 @property(nonatomic, setter=_setCurrentState:) long long _currentState; // @synthesize _currentState=__currentState;

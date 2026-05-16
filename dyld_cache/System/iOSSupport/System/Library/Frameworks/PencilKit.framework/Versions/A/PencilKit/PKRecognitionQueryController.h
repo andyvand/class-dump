@@ -32,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id)$;
+- (id);
 - (void);
 - (void);
 - (void);

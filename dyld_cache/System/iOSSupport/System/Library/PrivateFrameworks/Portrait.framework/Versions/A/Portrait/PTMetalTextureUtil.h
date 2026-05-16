@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
+- (int);
+- (int);
 - (id);
-- (int);
-- (int);
 - (id);
 - (void);
 

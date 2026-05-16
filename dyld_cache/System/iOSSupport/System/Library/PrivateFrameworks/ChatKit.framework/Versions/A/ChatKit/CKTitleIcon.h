@@ -12,11 +12,12 @@
 }
 
 - (id);
-- (id)CalculateRecognitionControllerC;
+- (id);
 - (long long);
 - (id);
 - (_Bool);
-- (id)esAttributedToMessages: /* Error: Ran out of types for this method. */;
+- (id)Aý°!(Dù°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image;

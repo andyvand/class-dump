@@ -14,7 +14,7 @@
     MISSING_TYPE *$__lazy_storage_$_backgroundCollectionController;
     MISSING_TYPE *$__lazy_storage_$_backgroundCollectionView;
     MISSING_TYPE *$__lazy_storage_$_blurView;
-    MISSING_TYPE *$__lazy_storage_$_filterView;
+    MISSING_TYPE *filterView;
     MISSING_TYPE *$__lazy_storage_$_headlineLabel;
     MISSING_TYPE *$__lazy_storage_$_advertiserContainerView;
     MISSING_TYPE *$__lazy_storage_$_advertiserLabel;
@@ -37,21 +37,21 @@
     MISSING_TYPE *actionButtonMinimumWidth;
 }
 
-- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (struct CGSize)#;
-- (struct CGRect)h;
 - (void);
 - (void);
 - (void);
-- (void))A;
-- (void)eExecutionPaused;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)$;
+- (id)validate of type:(id)arg1 %d;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

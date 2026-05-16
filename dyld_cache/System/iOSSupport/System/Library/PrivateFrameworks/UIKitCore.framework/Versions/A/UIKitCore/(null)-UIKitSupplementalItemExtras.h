@@ -6,15 +6,15 @@
 
 @interface (null) (UIKitSupplementalItemExtras)
 - (void);
-- (id)PY;
+- (id);
 - (long long);
-- (_Bool)assigning %@ sortID %@;
-- (_Bool)he Code Is Correct, Welcome;
-- (_Bool)n to compare against, this will fail validation;
-- (_Bool)many participants from sender:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)der:%@, %lu parts, type:%ld  msgCountryCode:%@ service center:%@  incoming code:%@ displayName:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ad, ignoring.;
-- (_Bool)nt:%llu maxRecipients:%llu /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsAlternativeInputCandidates;

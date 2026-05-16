@@ -13,13 +13,13 @@
     LNDynamicOption *_defaultOption;
 }
 
-+ (_Bool)be stripped from the image file. (WFImagePreserveMetadata);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)kippingHiddenParameters:askForValuesIfNecessary:workQueue:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) LNDynamicOption *defaultOption; // @synthesize defaultOption=_defaultOption;

@@ -10,9 +10,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
-- (_Bool)ropertyCuratorKind__MAPPING_MISSING__;
+- (void);
+- (_Bool);
 
 @end
 

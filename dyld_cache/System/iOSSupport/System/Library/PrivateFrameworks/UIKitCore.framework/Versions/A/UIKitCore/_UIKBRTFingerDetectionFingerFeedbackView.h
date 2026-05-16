@@ -23,14 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)|;
 - (void);
 - (void);
 - (void);
-- (double)ÑÉ1¢!0@ù
-× ;
-- (id);
-- (void);
+- (id)chWithTouchInfo:(struct CGRect)arg1;
+- (double)_menuView;
+- (void);
+- (void)xÍàÿ¾´;
 
 // Remaining properties
 @property(retain, nonatomic) _UIKBRTFingerDetectionFingerCircleView *fingerDot; // @synthesize fingerDot=_fingerDot;

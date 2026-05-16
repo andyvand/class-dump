@@ -11,9 +11,9 @@
     MISSING_TYPE *hostingViewController;
 }
 
-- (void);
 - (id);
 - (id);
+- (void) y[ y	;
 
 @end
 

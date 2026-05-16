@@ -26,12 +26,12 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

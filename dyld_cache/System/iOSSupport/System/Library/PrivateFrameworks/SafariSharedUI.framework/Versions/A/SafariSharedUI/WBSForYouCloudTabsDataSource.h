@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)AddedLinkPreviewMetadata:toUserActivity:webView: /* Error: Ran out of types for this method. */;
 
 @end
 

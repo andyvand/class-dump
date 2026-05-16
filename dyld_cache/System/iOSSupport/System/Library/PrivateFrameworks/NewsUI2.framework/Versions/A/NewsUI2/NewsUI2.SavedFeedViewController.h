@@ -19,17 +19,16 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void)8;
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ÈßÿìßÿHßÿßÿ¨ßÿßÿ¼ßÿßÿ@ßÿdßÿßÿ¼ßÿøßÿßÿlßÿßÿ´ßÿßÿ@ßÿdßÿ ßÿÄßÿøßÿ4ßÿXßÿ|ßÿ ßÿ$ßÿHßÿxßÿßÿÀßÿüßÿ ßÿ|ßÿÐßÿôßÿ$ßÿHßÿlßÿ¨ßÿÌßÿ`ßÿßÿ¨ßÿØßÿüßÿ ßÿ\ßÿßÿèßÿÐ ßÿ¸¡ßÿÜ¡ßÿ;
 - (void);
-- (void)¬ÿÿÿäïÿ0&ÿÈ
-;
+- (void);
+- (void);
+- (void)/ÿÿÿÿÿÜ;
+- (void)Roots/4~CNrbugCc7wn9rzpSpGsBvMbd49PVLiWAEKoO4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/RecipeRatingsSubmissionManager.swift;
+- (void)Ññ^Eü;
+- (void);
 - (void);
 
 @end

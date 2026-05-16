@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)rt: /* Error: Ran out of types for this method. */;
-- (double)sedHandle:lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (double);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -20,36 +20,35 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (double);
-- (struct CGPoint)E8;
-- (struct CGPoint)cessing request of OTP(%s) and returning:%ld /* Error: Ran out of types for this method. */;
-- (struct CGPoint)erpreted plain text tapback %s for %s, attaching to %s with range %s, took %fs;
-- (struct CGPoint)sages.SMSReceivedRelaySendRequest;
-- (double)istence of a single chat with identifier:%@ (batch size %d) /* Error: Ran out of types for this method. */;
-- (double)icalIDKey;
-- (double)mattedIDKey;
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
+- (double);
+- (double);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (_Bool);
+- (id);
 - (double);
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (struct CGPoint)Route:outputDeviceRoute: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ame;
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint)Ô ;
-- (struct CGPoint)1¢!0@ù
+- (id)!	!ÌFù1eÐ1Â0@ù
 × ;
-- (struct CGPoint)!y°!\GùÑÎ°1¢!0@ù
+- (struct CGPoint)0@ù
 × ;
-- (double)ialPointPosted;
-- (double)Suggestions: /* Error: Ran out of types for this method. */;
-- (id)SpacingBetweenGuidesForResolvingSymbolicConstant;
-- (double);
-- (_Bool)
-;
-- (struct CGPoint)øÂDÃ;
-- (struct UIEdgeInsets)¬áþÿ;
-- (struct CGPoint)ge;
-- (struct UIEdgeInsets)dÿÒ:Ú­e /* Error: Ran out of types for this method. */;
-- (id)f;
+- (struct CGPoint)GestureRecognizer";
+- (struct CGPoint)DragController:previewForInsertingTab: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)sponseToGlobeKey:atPoint: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)viewsOfCell: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)rTopPadding;
+- (struct CGPoint)ndaryForIdentifier:path: /* Error: Ran out of types for this method. */;
+- (double)ndaryMenu;
+- (struct CGPoint)ï;
+- (struct UIEdgeInsets);
+- (double)ult;
 
 @end
 

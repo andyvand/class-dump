@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCInterestToken, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
+@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (FCInterestToken *);
-- (FCSportsEventController *);
-- (id <FCAVAssetFactoryType>);
-- (FCAssetManager *)eationDate;
-- (NSURL *)public}@:Error in remote proxy while pausing downloads:%{public}@ /* Error: Ran out of types for this method. */;
-- (NSString *)¤YêÿÿÿÿÿX;
-- (void)coringService has score cache:%{public}@ /* Error: Ran out of types for this method. */;
-- (id <FCNetworkReachabilityType>)ailed to get description;
-- (id <FCFeedItemFactoryType>)@40;
-- (id <FCPPTContext>)blisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"missedStories":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"topic":{"autoFavoritesTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"generalTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":100000,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (FCArticleController *):{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":2,"maxPublisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"missedStories":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":2,"maxPublisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"topic":{"autoFavoritesTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":10,"minNumberOfItems":3},"generalTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":10,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":15,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0.1,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":15},{"selector":"platform-pad","value":20}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (FCFeedDatabase *)hanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (void)T}t3;
-- (id <FCCoreConfigurationManager>)¶íÿ=}:Úÿ /* Error: Ran out of types for this method. */;
-- (id <FCNewsAppConfigurationManager>)QS}Ä;
+- (FCFeedDatabase *);
+- (NSString *)Z;
+- (id <FCFeedItemFactoryType>)üµÿÿÈZ;
+- (id <FCRecipeItemFactoryType>)eP;
+- (NSString *)ÿ;
+- (id <FCMagazinesConfigurationManager>)íySo32FCPersonalizationBundleIDMappingCSgG;
+- (id <FCNetworkReachabilityType>)lu, time=%llums, id=%{public}@;
+- (FCSportsEventController *)g %lu tag suggestions against forbidden tags %{public}@;
+- (void)Found non-sports mapped to topic tag %{public}@;
+- (id <FCNewsAppConfigurationManager>)Service;
+- (FCPuzzleController *)§½;
+- (NSString *)s_Personalization_SessionEventTagFeedView;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;

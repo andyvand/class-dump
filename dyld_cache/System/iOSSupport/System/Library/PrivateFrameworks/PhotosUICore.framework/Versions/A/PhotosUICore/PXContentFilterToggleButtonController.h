@@ -61,20 +61,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void)er: /* Error: Ran out of types for this method. */;
-- (id)ndex:(kind) == %d AND noindex:(playbackStyle) != %d /* Error: Ran out of types for this method. */;
-- (void)bLemonadeSectionedFeedProvider;
-- (id)8;
+- (void)â
+0@ù
+× ;
+- (id)etPagingVelocityThreshold: /* Error: Ran out of types for this method. */;
+- (id)eAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore: /* Error: Ran out of types for this method. */;
+- (id)ü;
+- (id)View;
+- (void)(Êhñ"ÿ;
+- (id)5;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allMenuItems;

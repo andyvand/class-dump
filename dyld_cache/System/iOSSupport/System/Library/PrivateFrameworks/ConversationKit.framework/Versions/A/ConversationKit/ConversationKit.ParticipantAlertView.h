@@ -12,11 +12,11 @@
     MISSING_TYPE *titleLabel;
 }
 
+- (id)¸(;
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)y* I+ GSgGGSgALGAByAByq0_ANyAByAOyÐ+ AQG GSgGGALGtGG8# y2$ SgGGA6_yÍ# GGG;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

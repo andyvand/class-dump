@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)KVStore",&,N,V_nicknameRecordsKVStore;
-- (id)IDSKVStore",&,N,V_handleSharingKVStore;
 - (id);
-- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIMenu *displayedMenu; // @synthesize displayedMenu=_displayedMenu;

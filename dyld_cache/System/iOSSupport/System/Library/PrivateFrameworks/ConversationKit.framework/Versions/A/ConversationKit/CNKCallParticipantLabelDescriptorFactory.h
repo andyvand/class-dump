@@ -17,6 +17,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType organizationNameProvider;

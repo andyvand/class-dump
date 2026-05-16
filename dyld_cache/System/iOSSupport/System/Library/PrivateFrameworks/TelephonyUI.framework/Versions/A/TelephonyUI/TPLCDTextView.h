@@ -46,14 +46,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (struct CGSize);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (struct CGSize)!LAùB°1â
+0@ù
+× ;
 
 @end
 

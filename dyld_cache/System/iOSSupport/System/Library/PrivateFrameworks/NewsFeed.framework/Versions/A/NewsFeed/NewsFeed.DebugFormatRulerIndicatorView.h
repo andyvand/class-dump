@@ -14,10 +14,11 @@
     MISSING_TYPE *fill;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)¸¥üÿG;
+- (id)1Â0@ù
+× ;
+- (void)\óÿþåM:\óÿþåM:p®wþåM:Tæ$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

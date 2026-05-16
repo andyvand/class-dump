@@ -13,7 +13,7 @@
     NSString *cachedFullHTMLContent;
 }
 
-+ (id);
++ (id)ailed to fetch Summary Items with error %@;
 - (void);
 - (void);
 - (id);

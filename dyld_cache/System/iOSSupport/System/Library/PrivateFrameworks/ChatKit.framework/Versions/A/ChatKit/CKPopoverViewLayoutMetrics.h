@@ -14,13 +14,13 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void)x;
-- (struct CGRect);
-- (void);
 - (void);
 - (unsigned long long);
+- (struct CGRect);
+- (void)6@0:(struct CGRect)arg1 8@16@24@32@40@48;
+- (void)l force filter mode update to [.oscar] after moving conversation to junk;
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;

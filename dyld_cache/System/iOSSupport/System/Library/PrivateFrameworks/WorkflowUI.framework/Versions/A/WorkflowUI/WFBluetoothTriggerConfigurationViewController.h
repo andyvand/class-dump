@@ -24,13 +24,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (void);
 - (void);
 - (long long);
 - (void);
+- (void)ÿÿÿÿ;
+- (id)ä	;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allDevices; // @synthesize allDevices=_allDevices;

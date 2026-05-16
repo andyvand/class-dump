@@ -8,9 +8,9 @@
 {
 }
 
-- (_Bool);
-- (id)ortsTagSeenAggregateModificationConfiguration;
 - (id);
+- (id);
+- (_Bool);
 
 @end
 

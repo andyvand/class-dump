@@ -21,9 +21,9 @@
     MISSING_TYPE *_releaseTime;
 }
 
-- (void);
-- (void);
 - (CDStruct_5fe7aead);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_5fe7aead duration;

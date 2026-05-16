@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGSize);
-- (double)ady have all these transfers, just moving along as a success!;
-- (double)ct service:%@ /* Error: Ran out of types for this method. */;
-- (id)4;
+- (double);
+- (double);
+- (id);
 - (id);
 
 @end

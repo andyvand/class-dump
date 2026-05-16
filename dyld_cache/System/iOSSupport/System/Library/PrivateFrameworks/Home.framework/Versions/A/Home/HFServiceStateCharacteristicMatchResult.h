@@ -21,12 +21,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)ä;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *allCharacteristics; // @synthesize allCharacteristics=_allCharacteristics;

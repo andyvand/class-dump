@@ -11,8 +11,8 @@
 
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool updated; // @synthesize updated=_updated;

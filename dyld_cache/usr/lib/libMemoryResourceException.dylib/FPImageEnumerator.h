@@ -12,7 +12,7 @@
     unsigned long long _index;
 }
 
-- (void)!A;
+- (void);
 
 @end
 

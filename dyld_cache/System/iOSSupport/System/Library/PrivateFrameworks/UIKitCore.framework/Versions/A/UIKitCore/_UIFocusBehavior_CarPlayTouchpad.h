@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (_Bool)tryMovie;
++ (id)<yÿÏ¬b;
 - (_Bool);
-- (_Bool):topCapHeight: /* Error: Ran out of types for this method. */;
+- (_Bool)
+× ;
+- (_Bool)ibleGeometryChange;
 
 @end
 

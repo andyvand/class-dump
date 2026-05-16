@@ -13,9 +13,9 @@
 
 + (id);
 - (void);
-- (void);
 - (CDUnknownBlockType);
-- (void)#;
+- (void);
+- (void)tentOffset:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

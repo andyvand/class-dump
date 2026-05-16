@@ -14,14 +14,14 @@
 
 - (id);
 - (id);
-- (void)!A�;
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)Endpoints:completionHandler: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (id);
-- (double)ce _onEmergencyCallEnded];
+- (id)ndler: /* Error: Ran out of types for this method. */;
+- (void)ensitive}@, last, %{sensitive}@, total, %lu;
 
 // Remaining properties
 @property(readonly, nonatomic) RTLocation *centroid; // @synthesize centroid=_centroid;

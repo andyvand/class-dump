@@ -16,14 +16,14 @@
 
 + (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)pdateSettings: /* Error: Ran out of types for this method. */;
-- (id)Profile"8;
+- (void)±²4´;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionSetType; // @synthesize actionSetType=_actionSetType;

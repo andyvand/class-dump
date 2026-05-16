@@ -39,8 +39,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id)ú¹ÿ¹NÊ8;
+- (void)7;
+- (id)ÝKÔm7;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canStartSkimming;

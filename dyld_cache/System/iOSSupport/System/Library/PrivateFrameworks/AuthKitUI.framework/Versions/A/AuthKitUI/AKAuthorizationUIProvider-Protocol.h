@@ -5,7 +5,5 @@
 //
 
 @protocol AKAuthorizationUIProvider
-- (void)rofile Shader v%d
-;
 @end
 

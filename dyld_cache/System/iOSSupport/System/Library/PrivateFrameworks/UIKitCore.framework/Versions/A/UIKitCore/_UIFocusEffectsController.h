@@ -24,15 +24,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (void);
-- (void)"<IMDaemonListenerChatCountsProtocol>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)recordChangeTag;
-- (_Bool)Removing client %s;
 - (void);
-- (void)MPModelPropertyLibraryPinEntityType__MAPPING_MISSING__;
 - (void);
-- (void)erBounds;
-- (id)oller: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)++   Number of touches in new touch map:%d /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (struct CGPoint);
+- (id);
+- (void)r:(id)arg1;
+- (void);
+- (void)	\;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint currentOffset; // @synthesize currentOffset=_currentOffset;

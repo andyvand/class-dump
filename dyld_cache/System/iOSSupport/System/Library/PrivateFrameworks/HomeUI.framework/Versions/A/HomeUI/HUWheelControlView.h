@@ -20,7 +20,7 @@
     NSArray *_wheelValues;
 }
 
-+ (Class)^¨;
++ (Class)igurationItemListModuleSectionFooterIncompatibleVersion;
 - (id);
 - (id);
 - (void);
@@ -40,21 +40,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (id)%ð! Dù.1b0@ù
-× ;
-- (id)
-× ;
-- (void)entViewController";
+- (id);
+- (id);
+- (id);
+- (void)Received list of devices = [%@];
 - (_Bool);
-- (void){4±·ÿ;
+- (void)jÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted; // @synthesize canBeHighlighted=_canBeHighlighted;

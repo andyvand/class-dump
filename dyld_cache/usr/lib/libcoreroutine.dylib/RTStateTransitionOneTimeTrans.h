@@ -11,16 +11,16 @@
     unsigned long long _motionActivityType;
 }
 
-+ (_Bool)assAndDeviceInsideALOI,%{public}d,foundAnyWiFi,%{public}d,foundGps,%{public}d,foundHighIntegrityWiFi,%{public}d,isDeviceLocationInsideALOI,%{public}d,isDeviceLocationOutsideALOI,%{public}d,_technologiesMissingToLookForInLocationUpdates,%{public}lu;
-- (unsigned long long);
-- (void);
-- (void);
-- (id)@__local__URI.com;
-- (double);
++ (_Bool);
 - (id);
+- (double);
 - (void);
-- (double)`;
-- (void)ot valid;
+- (void);
+- (double);
+- (void);
+- (unsigned long long);
+- (void)licateWaypoints:(unsigned long long)arg1 tripClusterWaypointStore:tripClusterRouteStore:tripClusterRouteTransitionsStore:minimumTraversalCountForLearnedRoutes: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long motionActivityType; // @synthesize motionActivityType=_motionActivityType;

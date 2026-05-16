@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (struct CGPoint);
+- (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
 
 @end

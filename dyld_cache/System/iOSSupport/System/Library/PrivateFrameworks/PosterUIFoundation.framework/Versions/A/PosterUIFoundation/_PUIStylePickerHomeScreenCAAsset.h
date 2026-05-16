@@ -14,9 +14,9 @@
 
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)hasNotifiedDelegateOfDismissal;
-- (id)tring",C,N,V_posterProvider;
+- (id)QûÕÿÿÿ.ÆP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;

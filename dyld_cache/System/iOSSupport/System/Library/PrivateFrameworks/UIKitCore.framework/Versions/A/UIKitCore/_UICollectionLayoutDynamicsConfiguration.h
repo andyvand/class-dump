@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (id)or"28@"NSString"36;
-- (struct CGRect)ToChat:toChatID:identifier:style:transferID:account:completion: /* Error: Ran out of types for this method. */;
-- (id)dString:(id)arg1 date: /* Error: Ran out of types for this method. */;
-- (id)ath:requestURLString:ownerID:signature:decryptionKey:fileSize:balloonBundleID:senderContext:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)components.;
-- (void)r­;
 - (id);
-- (void)n the Mac Idiom.;
+- (struct CGRect);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)`^;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *behaviorDict; // @synthesize behaviorDict=_behaviorDict;

@@ -8,7 +8,6 @@
 @protocol UIDropSession;
 
 @protocol UITextDropRequest
-- (id <UIDropSession>);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *dropPosition;

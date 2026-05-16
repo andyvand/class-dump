@@ -10,7 +10,7 @@
 {
 }
 
-- (id)ipant;
+- (id);
 - (id);
 
 @end

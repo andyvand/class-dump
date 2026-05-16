@@ -21,15 +21,15 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (long long);
-- (void)NSDictionary",R,N,V_exifData;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;

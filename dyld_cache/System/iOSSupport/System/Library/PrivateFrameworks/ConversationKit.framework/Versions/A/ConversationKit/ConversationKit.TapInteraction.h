@@ -14,11 +14,11 @@
 
 - (void);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (_Bool);

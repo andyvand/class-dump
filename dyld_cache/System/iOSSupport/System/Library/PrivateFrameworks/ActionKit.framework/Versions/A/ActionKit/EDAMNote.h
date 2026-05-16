@@ -44,32 +44,32 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)bleWithVariableProvider:UUIDProvider: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)taType_GIF;
-- (void)ret;
-- (id)roat;
-- (void)ªx((Pzßß¥ø¡¡Y	Ú¿¿e1ææ×ÆBB¸hhÐÃAA°)w--ZË°°{üTT¨Ö»»m:(id)arg1 ,ccÆ¥||øwwî{{öòòÿkkÖ½ooÞ±ÅÅT00`PggÎ©++V}þþç××µb««MævvìÊÊEÉÉ@}}úúúïYY²ëGGÉððû­­AìÔÔ³g¢¢_ý¯¯Eê#¿¤¤S÷rräÀÀ[··uÂýýá=®&&Lj66lZ??~A÷÷õÌÌO44h\¥¥QôååÑ4ññùqqâØØ«s11bS*?ÇÇR##FeÃÃ^0(7¡
-/µ	$6ââß=ëëÍ&''Ni²²Íuuê		,,Xt4.6-nnÜ²ZZ´î  [ûRR¤ö;;vMÖÖ·a³³}Î))R{ããÝ>//^qSS¦õÑÑ¹h;
 - (void);
-- (id)í;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)r:(id)arg1;
+- (id)haredNotebooks;
+- (id)ì;
+- (void)ror;
+- (void)hooseFromListItem"@"NSError">24;
+- (void)FXP_RMDIR command;
+- (id);
+- (id)]ÄqÔoP`ÿû$é½ÖC@ÌÙgwBè°½[ç8îÈyÛ
+|¡GB|éøÉ;
+- (id)nêOÿ¥=ó;
+- (void)ã@;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *active; // @synthesize active=_active;

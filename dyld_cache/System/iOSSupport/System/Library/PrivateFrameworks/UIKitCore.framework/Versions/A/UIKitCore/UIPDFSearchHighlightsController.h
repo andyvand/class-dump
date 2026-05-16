@@ -19,17 +19,17 @@ __attribute__((visibility("hidden")))
     UIPDFSelection *_selection;
 }
 
-- (struct CGRect)24@"TUConversationParticipant"32@"TUConversationNotice"40;
-- (void)ier;
-- (void)nd;
-- (void)pelineResources",&,N,V_pipelineResources;
-- (void)ForAllRecordTypes;
-- (void)Data",R,N,V_idsTrustedData;
-- (void)tedData;
-- (void)"IMDiMessageIDSTrustedData",&,N,V_trustedData;
-- (id);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (_Bool)0<;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -38,10 +38,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)ÿFÙi;
-- (void)ðj;
+- (void)N,V_prefersScaledContent;
+- (void);
+- (void)ø;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

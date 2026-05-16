@@ -6,12 +6,13 @@
 
 #import <WorkflowKit/WFParameter.h>
 
+@class WFDateFieldParameter;
+
 @interface WFDateIntervalParameter : WFParameter
 {
+    WFDateFieldParameter *_startSubparameter;
+    WFDateFieldParameter *_endSubparameter;
 }
-
-- (Class);
-- (id);
 
 @end
 

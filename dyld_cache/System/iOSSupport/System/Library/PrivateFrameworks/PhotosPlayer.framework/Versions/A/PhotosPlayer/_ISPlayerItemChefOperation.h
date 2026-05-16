@@ -26,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDStruct_1b6d18a9);
+- (void);
+- (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)0Q48;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) AVAsset *asset; // @synthesize asset=_asset;

@@ -5,6 +5,5 @@
 //
 
 @protocol FCEndpointConnectionType
-- (void);
 @end
 

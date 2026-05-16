@@ -12,22 +12,22 @@
     unsigned long long _capacity;
 }
 
-+ (_Bool)blic}d;
-- (id);
-- (void);
-- (id)ta"8@"<_TtP7Sharing36_SFXPCAsyncSequenceContainerProtocol_>"16@"<_SFXPCBlockContainerProtocol>"24@"_SFXPCError"32;
-- (id)pletion:] /* Error: Ran out of types for this method. */;
-- (id);
++ (_Bool);
 - (id);
 - (id);
-- (id)IDSQuickRelayAllocateType;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (unsigned long long)0@ù
+- (id);
+- (id);
+- (id)B,Ð1Â0@ù
 × ;
-- (unsigned long long)visits ending yesterday, %@, last 24 hour inference request count, %lu, predictions ending yesterday count, %lu, inferences with predictions ending yesterday count, %lu, total fetched visit count, %lu, visits ending yesterday count, %lu, visits before that, %lu;
-- (id)faults set to force trusted time to be unavailable.;
+- (unsigned long long)anager;
+- (void)ate estimate;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;

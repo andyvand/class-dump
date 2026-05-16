@@ -14,20 +14,20 @@
 }
 
 + (_Bool);
-- (unsigned long long);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
+- (void);
+- (unsigned long long);
+- (id)k;
 
 // Remaining properties
 @property(readonly, nonatomic) NRPBDeviceCollectionDiff *protobuf;

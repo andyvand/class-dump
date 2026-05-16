@@ -34,14 +34,14 @@
 - (_Bool);
 - (double);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)P	;
-- (void)empting to set a passphrase and hint on an exporter that doesn't conform to TSKEncryptedDocumentExporter;
+- (id);
+- (void)ionParagraphStyleIndexProperty;
 
 // Remaining properties
 @property(nonatomic) _Bool autohide; // @synthesize autohide=_autohide;

@@ -16,8 +16,8 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id)raActivityZoneEditorTitle;
+- (id)moveTimer: /* Error: Ran out of types for this method. */;
+- (void)lename;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMAccessoryNetworkProtectionGroup *group; // @synthesize group=_group;

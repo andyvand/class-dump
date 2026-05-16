@@ -14,27 +14,25 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_stuckToBackViews;
 }
 
-- (void)color;
+- (void);
 - (id);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool)Ð1¢!0@ù
-× ;
-- (void);
-- (void)Ô ;
-- (void)!Ø@ù1Ê°1¢!0@ù
-× ;
-- (void);
-- (id)SEvent"16;
-- (void)ilesInMainThread:(id)arg1;
-- (void)enuDelegate:(id)arg1;
-- (void)ü¸;
-- (id)not the window delegate;
-- (unsigned long long)`;
-- (void);
-- (void)¬)ÿñÌKb;
+- (id);
+- (void)Underline;
+- (void)text:(id)arg1;
+- (void)re;
+- (void)ed:(struct CGRect)arg1 fillColor:symbolColor: /* Error: Ran out of types for this method. */;
+- (id)hanted;
+- (void)_setPrefersSideBySideButtonAndSecondaryButton:(id)arg1 ,V_prefersSideBySideButtonAndSecondaryButton;
+- (void)ðø	d;
+- (_Bool)Lä;
+- (void)section and row. Please use the category on NSIndexPath in NSIndexPath+UIKitAdditions.h if possible.;
+- (void)per;
+- (void)|[;
+- (void)¨³Dÿ±&;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *stuckToBackViews; // @synthesize stuckToBackViews=_stuckToBackViews;

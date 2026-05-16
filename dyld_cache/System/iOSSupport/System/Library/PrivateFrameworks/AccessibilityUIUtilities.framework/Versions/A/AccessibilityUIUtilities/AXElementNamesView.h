@@ -21,22 +21,23 @@
 
 - (void);
 - (void);
-- (struct CGRect)"@"<_LSPendingSaveToken>"@"NSError">;
+- (struct CGRect);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)h;
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)h;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundsForLastReload; // @synthesize boundsForLastReload=_boundsForLastReload;

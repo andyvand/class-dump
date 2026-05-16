@@ -11,15 +11,15 @@
     long long _connectionCount;
 }
 
-+ (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
++ (_Bool)expect to happen?;
 - (long long);
 - (id);
-- (void)TextSettings;
+- (unsigned long long);
+- (_Bool)llRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
+- (void)ionOnNextPassOnly;
+- (void);
+- (id):textHeight: /* Error: Ran out of types for this method. */;
+- (id)allowsSkippingLayout;
 
 // Remaining properties
 @property(nonatomic) long long connectionCount; // @synthesize connectionCount=_connectionCount;

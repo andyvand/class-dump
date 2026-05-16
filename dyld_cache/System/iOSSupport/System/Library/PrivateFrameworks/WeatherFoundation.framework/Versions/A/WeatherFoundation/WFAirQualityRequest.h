@@ -19,19 +19,20 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (id)ability:failed to fetch suggestions {error:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void)@;
+- (id);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)°1Â0@ù
+× ;
+- (void)@­;
 
 // Remaining properties
 @property(nonatomic) _Bool attachRawAPIData; // @synthesize attachRawAPIData=_attachRawAPIData;

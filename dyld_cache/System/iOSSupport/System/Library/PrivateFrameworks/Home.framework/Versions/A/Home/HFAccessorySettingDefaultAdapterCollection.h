@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tem.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allAdapters;

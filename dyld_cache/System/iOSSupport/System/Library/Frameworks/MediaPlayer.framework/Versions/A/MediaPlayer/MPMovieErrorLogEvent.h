@@ -17,10 +17,10 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)Lr;
+- (void)ignmentRectInsets;
+- (id)nID;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *URI;

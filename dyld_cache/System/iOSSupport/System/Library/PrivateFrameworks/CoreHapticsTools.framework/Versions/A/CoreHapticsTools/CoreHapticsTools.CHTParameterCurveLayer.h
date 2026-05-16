@@ -23,13 +23,13 @@
     MISSING_TYPE *controlPointHighlightWidth;
 }
 
+- (id);
+- (void);
+- (id);
+- (id);
 - (struct CGRect);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

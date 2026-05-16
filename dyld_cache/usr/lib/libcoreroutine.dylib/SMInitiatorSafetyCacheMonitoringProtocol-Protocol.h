@@ -5,6 +5,5 @@
 //
 
 @protocol SMInitiatorSafetyCacheMonitoringProtocol
-- (void);
 @end
 

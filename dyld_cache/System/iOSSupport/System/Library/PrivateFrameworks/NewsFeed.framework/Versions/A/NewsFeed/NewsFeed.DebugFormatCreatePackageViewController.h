@@ -25,14 +25,15 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (long long);
+- (void)5
+:-yþ /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

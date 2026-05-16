@@ -5,7 +5,5 @@
 //
 
 @protocol WFUIPresenterHostInterface
-- (void);
-- (void);
 @end
 

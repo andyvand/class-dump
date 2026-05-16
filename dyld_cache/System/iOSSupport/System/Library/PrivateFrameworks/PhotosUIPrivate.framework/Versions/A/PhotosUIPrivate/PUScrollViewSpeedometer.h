@@ -58,12 +58,12 @@
 - (struct CGPoint);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)PAPER_SHUFFLE_CONFIGURATION_CHOOSE_PEOPLE_BUTTON_TITLE;
+- (void);
+- (void);
+- (void);
+- (void)nslation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setLastContentOffset:) struct CGPoint _lastContentOffset; // @synthesize _lastContentOffset=__lastContentOffset;

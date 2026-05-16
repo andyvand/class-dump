@@ -9,9 +9,9 @@
 @interface (null) (RPUIViewExtensions)
 - (id);
 - (void);
-- (double);
 - (void);
 - (id);
+- (double);
 - (void);
 
 // Remaining properties

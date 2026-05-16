@@ -7,6 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void);
+- (void)e"32@"JSValue"40;
 @end
 

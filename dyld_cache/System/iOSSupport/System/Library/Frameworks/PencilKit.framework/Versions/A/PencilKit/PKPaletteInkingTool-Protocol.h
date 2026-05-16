@@ -7,7 +7,6 @@
 @class PKInk;
 
 @protocol PKPaletteInkingTool
-- (PKInk *)(=;
 
 // Remaining properties
 @property(readonly, nonatomic) PKInk *ink;

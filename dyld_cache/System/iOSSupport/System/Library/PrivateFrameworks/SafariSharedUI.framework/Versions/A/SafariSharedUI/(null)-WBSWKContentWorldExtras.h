@@ -5,8 +5,10 @@
 //
 
 @interface (null) (WBSWKContentWorldExtras)
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);

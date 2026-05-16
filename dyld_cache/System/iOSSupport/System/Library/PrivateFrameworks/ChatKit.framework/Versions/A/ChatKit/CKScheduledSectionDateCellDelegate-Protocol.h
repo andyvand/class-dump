@@ -5,6 +5,5 @@
 //
 
 @protocol CKScheduledSectionDateCellDelegate
-- (void);
 @end
 

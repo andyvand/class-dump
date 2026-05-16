@@ -25,14 +25,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)sViewControllerDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) WFShortcutExporter *shortcutExporter; // @synthesize shortcutExporter=_shortcutExporter;

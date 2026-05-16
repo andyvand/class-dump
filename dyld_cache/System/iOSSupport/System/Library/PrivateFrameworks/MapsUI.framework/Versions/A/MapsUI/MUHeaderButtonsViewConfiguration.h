@@ -23,7 +23,7 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)dEnterBackground: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double detourTime; // @synthesize detourTime=_detourTime;

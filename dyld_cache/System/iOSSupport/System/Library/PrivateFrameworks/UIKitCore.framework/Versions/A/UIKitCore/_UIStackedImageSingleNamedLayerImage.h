@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (struct CGRect);
-- (void);
-- (id)0@ù
+- (id);
+- (int)!àFù]Ð1Â0@ù
 × ;
-- (int)Target:selector: /* Error: Ran out of types for this method. */;
-- (double)adScrollPositionWithFirstVisibleIndexPath:scrolledToTop: /* Error: Ran out of types for this method. */;
+- (struct CGRect)rs;
+- (double)frame: /* Error: Ran out of types for this method. */;
+- (void)'ö@TR' °í?;
 
 // Remaining properties
 @property(readonly, nonatomic) int blendMode;

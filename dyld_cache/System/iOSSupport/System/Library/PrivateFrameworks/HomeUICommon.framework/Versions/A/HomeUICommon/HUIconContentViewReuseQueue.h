@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (Class);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) Class contentViewClass; // @synthesize contentViewClass=_contentViewClass;

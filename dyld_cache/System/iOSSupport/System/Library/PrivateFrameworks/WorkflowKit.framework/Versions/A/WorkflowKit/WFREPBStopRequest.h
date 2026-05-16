@@ -11,18 +11,18 @@
     NSString *_requestIdentifier;
 }
 
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void)n request;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;

@@ -12,8 +12,8 @@
     MISSING_TYPE *id;
 }
 
-- (void);
 - (id);
+- (void)uter;
 
 @end
 

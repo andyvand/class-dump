@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)insetRect:forAttributedString:withDefaultFont:inView: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

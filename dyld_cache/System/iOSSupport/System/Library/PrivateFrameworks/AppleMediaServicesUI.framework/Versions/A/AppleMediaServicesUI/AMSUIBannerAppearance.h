@@ -59,22 +59,22 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)tPriority: /* Error: Ran out of types for this method. */;
+- (void)ctIdenticalTo: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)atforms:(id)arg1;
-- (id)edHandler: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;

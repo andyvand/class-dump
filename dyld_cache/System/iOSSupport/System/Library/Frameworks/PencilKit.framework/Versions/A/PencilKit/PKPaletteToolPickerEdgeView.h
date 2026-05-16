@@ -15,17 +15,17 @@
     long long _axis;
 }
 
-- (void)ndpointTimeoutDuration;
-- (void)internalEndpointConfig;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void),N,V_encodedStrokeIdentifier;
-- (long long)À	l;
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void)oller;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

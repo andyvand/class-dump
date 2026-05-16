@@ -16,13 +16,13 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)iting;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *dataSourceIdentifier; // @synthesize dataSourceIdentifier=_dataSourceIdentifier;

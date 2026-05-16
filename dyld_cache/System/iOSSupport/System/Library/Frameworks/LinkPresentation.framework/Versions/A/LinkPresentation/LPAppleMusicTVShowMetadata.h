@@ -18,10 +18,10 @@
 }
 
 + (id);
-+ (_Bool)_rootObject;
-- (id)l>L;
++ (_Bool);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -31,16 +31,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)opy=iiiiiiiiiiI}{BSDTimeStructCopy=iiiiiiiiiiI}{BSDTimeStructCopy=iiiiiiiiiiI}S{PWAccessFeatures=b1b1b1b1b1b1b1b1b1b4b1b1b1{BSDTimeStructCopy=iiiiiiiiiiI}{BSDTimeStructCopy=iiiiiiiiiiI}{BSDTimeStructCopy=iiiiiiiiiiI}IIISSS}[512c]S[10{PasswordDigest=[35c][256c]}][256c][16C]{PWAdminGroupList=C[16C]}qc[380c]i{PWMoreAccessFeatures=II[64c]IIb1b1b1b1b1b1b1b1b3b1b1b1b1b1}[37c]}16[16C]24;
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void)!ÌBù°1Â0@ù
+× ;
 - (id);
 
 // Remaining properties

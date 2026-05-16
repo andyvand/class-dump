@@ -8,7 +8,7 @@
 {
 }
 
-- (id)entClicks;
+- (id);
 
 @end
 

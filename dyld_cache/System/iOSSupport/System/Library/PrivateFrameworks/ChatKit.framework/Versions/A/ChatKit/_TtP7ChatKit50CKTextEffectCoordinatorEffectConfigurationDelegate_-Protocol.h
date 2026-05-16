@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC7ChatKit32CKTextEffectExplodeConfiguration;
-
 @protocol _TtP7ChatKit50CKTextEffectCoordinatorEffectConfigurationDelegate_
-- (_TtC7ChatKit32CKTextEffectExplodeConfiguration *)uô;
-- (_TtC7ChatKit32CKTextEffectExplodeConfiguration *)9;
 @end
 

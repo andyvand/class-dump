@@ -21,13 +21,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
 - (long long);
 - (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)gestionDescriptors;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

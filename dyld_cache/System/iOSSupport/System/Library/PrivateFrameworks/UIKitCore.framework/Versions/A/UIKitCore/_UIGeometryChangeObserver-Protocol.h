@@ -5,9 +5,5 @@
 //
 
 @protocol _UIGeometryChangeObserver
-- (void);
-
-@optional
-- (_Bool)ionary"32@"NSData"40;
 @end
 

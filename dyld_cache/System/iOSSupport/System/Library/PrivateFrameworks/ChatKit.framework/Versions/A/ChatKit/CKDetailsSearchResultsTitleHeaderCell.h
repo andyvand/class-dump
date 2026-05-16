@@ -15,20 +15,20 @@
     CALayer *_bottomHairline;
 }
 
-+ (id)c;
 + (id);
-- (void)SManagedObjectCGG;
-- (void);
-- (void)t %lu;
-- (void)CPreviewDeviceContext sharedContext] deviceInfoScalable:(struct CGRect)arg1 YES].count %lu;
-- (id)nKey;
-- (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)0d;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)Q7;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *bottomHairline; // @synthesize bottomHairline=_bottomHairline;

@@ -13,6 +13,8 @@
     MISSING_TYPE *delegate;
     MISSING_TYPE *avatarView;
     MISSING_TYPE *avatarViewModel;
+    MISSING_TYPE *contactCardHeaderView;
+    MISSING_TYPE *contactHeaderAppearance;
     MISSING_TYPE *swiftUIHeaderContentView;
     MISSING_TYPE *backgroundView;
     MISSING_TYPE *scrollPocketInteraction;
@@ -29,12 +31,12 @@
     MISSING_TYPE *overrideTraitCollection;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
-- (id)Ñ$gÿÿLgÿÿÂ;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) UITraitCollection *traitCollection;

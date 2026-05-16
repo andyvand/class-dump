@@ -20,20 +20,20 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
+- (id);
+- (void);
 - (struct CGPoint);
 - (id);
-- (void);
-- (void);
+- (double);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void)ÿ;
-- (double)e;
+- (void);
+- (void)difySubitemIndexSetForDataSourceIdentifier:(id)arg1 section:item:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;

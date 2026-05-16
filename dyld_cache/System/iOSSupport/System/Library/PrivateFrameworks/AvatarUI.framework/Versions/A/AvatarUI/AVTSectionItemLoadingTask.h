@@ -16,12 +16,11 @@
 
 - (id);
 - (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(getter=isCanceled) _Bool canceled; // @synthesize canceled;

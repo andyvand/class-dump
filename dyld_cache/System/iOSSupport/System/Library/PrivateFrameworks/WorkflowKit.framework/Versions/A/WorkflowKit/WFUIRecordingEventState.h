@@ -16,13 +16,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id):(id)arg1 8@"CLLocationManager"16@"NSArray"24@"CLBeaconIdentityConstraint"32;
-- (id)ertEnabled(No Alert);
+- (void)zedInputClasses];
+- (id)#vâ¬t;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

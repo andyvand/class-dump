@@ -16,13 +16,12 @@
     MISSING_TYPE *backgroundView;
 }
 
-- (void);
-- (struct CGSize);
 - (id);
 - (void);
+- (struct CGSize);
 - (void);
-- (id)01b0@ù
-× ;
+- (id);
+- (void)nUnsupportedResidentMessage_trigger;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

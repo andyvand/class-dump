@@ -17,8 +17,9 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)!Dùqá1B50@ù
+× ;
+- (void)entifierServiceOccupancySensorOn;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *cameraClip; // @synthesize cameraClip=_cameraClip;

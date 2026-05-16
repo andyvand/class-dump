@@ -5,6 +5,5 @@
 //
 
 @protocol PRRenderingEventSupporting
-- (void)es;
 @end
 

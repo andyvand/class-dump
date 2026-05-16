@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)focusCursorEnabled;
+- (id);
+- (void)C;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *currentLayoutMethodName; // @synthesize currentLayoutMethodName=_currentLayoutMethodName;

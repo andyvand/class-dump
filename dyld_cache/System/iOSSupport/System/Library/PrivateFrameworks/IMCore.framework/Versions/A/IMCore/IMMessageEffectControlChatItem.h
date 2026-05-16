@@ -17,7 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ì*°+,0t1à1ø2
+3Ä35
+X6;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *effectStyleID; // @synthesize effectStyleID=_effectStyleID;

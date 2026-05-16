@@ -12,14 +12,14 @@
     NSDictionary *_invitationsByMomentShareObjectID;
 }
 
-+ (id)¸ÿîY4®: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)rray";
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *invitationsByMomentShareObjectID; // @synthesize invitationsByMomentShareObjectID=_invitationsByMomentShareObjectID;

@@ -19,17 +19,18 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id)Slider;
-- (void)hapterURL__MAPPING_MISSING__;
-- (_Bool);
+- (id);
 - (void);
 - (void);
-- (void)or:(id)arg1 deviceIdiom:(id)arg2 deviceSubtype:sizeClassHorizontal:sizeClassVertical: /* Error: Ran out of types for this method. */;
-- (void)idateCollectionViewContentSize;
-- (_Bool)ö;
-- (void)board-detection-pattern.number;
-- (void)faceOrientation);
-- (id)atorVisualization.swift;
+- (_Bool)wView";
+- (id)<@"NSDictionary"@?@"NSDictionary">16;
+- (_Bool)SceneNewEffectiveGeometryKey;
+- (void)mponent:(id)arg1;
+- (void)action is removed or replaced by the new action.
+;
+- (void)rch;
+- (void)4»[;
+- (void)ºÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isGroupMode) _Bool groupMode; // @synthesize groupMode=_groupMode;

@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *styler;
     MISSING_TYPE *scrollPocket;
+    MISSING_TYPE *previousScrollPocket;
 }
 
 @end

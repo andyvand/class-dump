@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)lection,V_editingStrokeSelection;
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *expression; // @synthesize expression=_expression;

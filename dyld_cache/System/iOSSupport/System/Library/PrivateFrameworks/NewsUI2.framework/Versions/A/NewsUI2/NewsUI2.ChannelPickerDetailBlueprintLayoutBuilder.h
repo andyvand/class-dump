@@ -12,7 +12,8 @@
     MISSING_TYPE *channelCoinLayoutAttributesFactory;
     MISSING_TYPE *channelEngagementLayoutAttributesFactory;
     MISSING_TYPE *channelCategoryLayoutAttributesFactory;
-    MISSING_TYPE *headerViewLayoutAttributesFactory;
+    MISSING_TYPE *titleViewLayoutAttributesFactory;
+    MISSING_TYPE *footerViewLayoutAttributesFactory;
     MISSING_TYPE *baseStyler;
 }
 

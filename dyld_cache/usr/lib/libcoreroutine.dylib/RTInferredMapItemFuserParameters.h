@@ -18,10 +18,10 @@
 - (double);
 - (double);
 - (double);
-- (double);
-- (id)treamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)de, %@, error, %@;
+- (id);
+- (double);
+- (id)fter reset sync;
 
 // Remaining properties
 @property(readonly, nonatomic) double aoiConsiderThreshold; // @synthesize aoiConsiderThreshold=_aoiConsiderThreshold;

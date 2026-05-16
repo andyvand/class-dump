@@ -57,18 +57,19 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType __traitsDidChangeHandler;
 }
 
-+ (id)ssage %@ did not impact grace period. isFromMe:(id)arg1 %ld, didNotify:(int)arg2 %ld;
 + (id);
-+ (void)òûj;
-- (id)t is NULL;
-- (void)taDict is NULL;
++ (id),@ù±Z°1Â0@ù
+× ;
++ (void)ÀiÿÍß;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -80,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (id);
 - (id);
@@ -95,17 +96,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType) ;
+- (CDUnknownBlockType);
 - (unsigned long long);
 - (double);
 - (id);
-- (id)}c}$;
-- (id)9o;
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)?;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -122,120 +123,119 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)NSString"76;
-- (void)0:8@16@24Q32@40@48^@56 /* Error: Ran out of types for this method. */;
-- (id)@64@72@80;
-- (_Bool)bleDeleteForCommandDictionary:(id)arg1;
-- (void)ugCaptureForChatRepairController:(id)arg1;
-- (int)erLoginIDs;
-- (void)ck:(id)arg1;
-- (void)eTS;
-- (id)erPhoneNumbers;
-- (struct UIEdgeInsets):(id)arg1 style:onServices:chatID:queryID:autoReport:isJunkReportedToCarrier: /* Error: Ran out of types for this method. */;
-- (id)lastDoorFileTransferAttribute:fileTransferGUIDs:supportingStickerAttributes: /* Error: Ran out of types for this method. */;
-- (id);
-- (long long)oNativeTypesInAttributedString:supportingStickerAttributes:existingFileTransfersForMessage: /* Error: Ran out of types for this method. */;
-- (void)iatedWithHandle:(id)arg1;
-- (void)ntController;
-- (void)onnection;
-- (void)nalytics;
-- (void)ializeChatsForRemerge:guidsThatNeedRemerging:chatDictionaryArray: /* Error: Ran out of types for this method. */;
-- (void)ressedSIMID:(struct CGPoint)arg1;
+- (_Bool);
 - (void);
-- (void)ath:(id)arg1 withCommand: /* Error: Ran out of types for this method. */;
-- (void)ToChat:(_Bool)arg1 withUrgentBreakthroughInstructions: /* Error: Ran out of types for this method. */;
-- (void)sendPinCodeToDeviceAndPromptForResponse:(int)arg1;
-- (void)ndle:(_Bool)arg1 onService:completion: /* Error: Ran out of types for this method. */;
-- (void)ge:(id)arg1 inChat:(_Bool)arg2 withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)rAlternatePath:(id)arg1 toChat:(long long)arg2;
-- (void)ionary:(_Bool)arg1 toDevice: /* Error: Ran out of types for this method. */;
-- (void)DSFile:(struct CGSize)arg1 withCommand:(id)arg2;
-- (void)eURL:(struct CGSize)arg1 forMessageGUID:(id)arg2 attachmentIndex: /* Error: Ran out of types for this method. */;
-- (void)rMessages:(id)arg1 forIncomingMessageFromIDSID:inChat: /* Error: Ran out of types for this method. */;
-- (void)kReponseHandler;
-- (void)rride;
-- (void);
-- (_Bool)oChat: /* Error: Ran out of types for this method. */;
-- (void)tLastBatchFromStorageForAccountID:(struct CGRect)arg1;
-- (void)tate: /* Error: Ran out of types for this method. */;
-- (void)etArvchivedRecordSyncToken;
-- (void)dBroadcastBlackholeErrorStateIfNeededForChatIdentifier:(long long)arg1 chatStyle:(double)arg2;
-- (void)AccountReplicationSessions;
-- (void)Info: /* Error: Ran out of types for this method. */;
-- (void):(long long)arg1 completionHandler:(double)arg2;
-- (void)eport:(struct CGSize)arg1;
-- (void)etricForSMSWithMessage:(long long)arg1 context:(double)arg2;
-- (void)arrier:(_Bool)arg1 reportReason: /* Error: Ran out of types for this method. */;
-- (void)orMessages:(_Bool)arg1 isAutoReport:(long long)arg2 withChat:(id)arg3 conversationID:(double)arg4 maxMessagesToReport:(_Bool)arg5 totalMessageCount:(CDUnknownBlockType)arg6 notifyInternalSecurity:isJunkReportedToCarrier:reportReason: /* Error: Ran out of types for this method. */;
-- (void)ySuggestions;
-- (void)ide;
-- (void)replicationSourceServiceNameOverride;
-- (void)ionsChanged;
-- (void)vice;
-- (void)FeaturesUsedByMessageBody: /* Error: Ran out of types for this method. */;
-- (void)ary: /* Error: Ran out of types for this method. */;
-- (void)ory;
-- (void)atedFallbackGUIDs;
-- (void)r;
-- (void)WithInfo:(id)arg1 purgeIfNeeded: /* Error: Ran out of types for this method. */;
-- (void)Necessary:(struct UIEdgeInsets)arg1;
-- (void)sIfNecessary:(long long)arg1;
-- (void)rInconsistentGroupPhotoGuidAcrossMergedChatsIfNecessary: /* Error: Ran out of types for this method. */;
-- (void)removeWrapperForTransfer:(id)arg1;
-- (void)hGuid: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void):(long long)arg1 forDictionary: /* Error: Ran out of types for this method. */;
-- (void)nsitionedList: /* Error: Ran out of types for this method. */;
-- (void)moveFromList:(id)arg1 withKey: /* Error: Ran out of types for this method. */;
-- (void)lyWatch:(id)arg1 overridingAttachmentData:(CDUnknownBlockType)arg2 skipServiceForSending: /* Error: Ran out of types for this method. */;
-- (void)redCapabilities: /* Error: Ran out of types for this method. */;
-- (void)achments:(id)arg1 sentToDevices:(CDUnknownBlockType)arg2 requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)mand:(long long)arg1 messageID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)habilityResult:messageID:fromToken: /* Error: Ran out of types for this method. */;
-- (void)ivity:(CDUnknownBlockType)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)MessageChatForChatIdentifier:(id)arg1 style: /* Error: Ran out of types for this method. */;
-- (void)urce:(id)arg1;
-- (void)erableMessagesWithRecordIDs:(double)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)script:(id)arg1;
 - (id);
 - (_Bool);
+- (void);
+- (int);
+- (void);
+- (void);
+- (id);
 - (struct UIEdgeInsets);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)__;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (id)0@ù
 × ;
-- (_Bool)!CùÆð1¢!0@ù
+- (_Bool)!Ø@ù1c°1Â0@ù
 × ;
 - (void);
-- (_Bool)CustomPrepareForChildViewControllerSelectorName: /* Error: Ran out of types for this method. */;
-- (void)yDelegateWithAccessoryVisibility:(id)arg1;
-- (void)psingHeight;
-- (_Bool)zer;
-- (id)laxTransform;
-- (id)HostingActivationStateHostComponent;
-- (id);
-- (_Bool)dÑþÿR;
-- (void);
-- (id)·åþÿ§üÿ´úüÿ¶úüÿ;
-- (id)ioning;
-- (void)pSg;
-- (id)configuration:%@
-activationCount:%ld, styleActivationCount:%ld
-engines:%@ /* Error: Ran out of types for this method. */;
-- (void)CellIndexKey;
-- (void)ew.swift;
-- (unsigned long long)É?ìQ¸ëÑ? ï?Âõ(\â?¹ëQ¸Î?Ý?Ý?¹ëQ¸¾?¿¾¾¾¾¾î?ï?Ú?Á?]]]]]]Ý?ëQ¸Û?Âõ(\ê?[[[[[[Û?666666æ?´³³³³³ã?;
-- (void);
-- (_Bool)71Á4Ìë;
-- (id);
-- (struct UIEdgeInsets);
-- (id);
+- (_Bool)1Â0@ù
+× ;
+- (void)32;
+- (struct UIEdgeInsets)tDidComplete: /* Error: Ran out of types for this method. */;
+- (id)hOldRowData:oldVisibleViews: /* Error: Ran out of types for this method. */;
+- (void)_drawsOneHandedAffordance;
+- (_Bool)resentationDelegate:,V_presentationDelegate /* Error: Ran out of types for this method. */;
 - (void);
+- (void)ble;
+- (id)entFrame;
+- (id)ceneClientSettings<_UISceneRenderingEnvironmentClientSettings>"8@"FBSSceneTransitionContext"16;
+- (void)isabledBackgroundColor;
+- (struct UIEdgeInsets)oller.;
+- (void)x;
+- (_Bool)_UIColorPickerViewProviding;
+- (void)ce (%@) more than once which is not supported and is most likely an error in the application :(id)arg1 %@;
+- (_Bool)uringEditing;
+- (void)running;
+- (unsigned long long)rk;
+- (void)CGG;
+- (void);
+- (id);
+- (id)]V;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIChildRemoteContentRegistry *_childRemoteContentRegistry; // @synthesize _childRemoteContentRegistry;

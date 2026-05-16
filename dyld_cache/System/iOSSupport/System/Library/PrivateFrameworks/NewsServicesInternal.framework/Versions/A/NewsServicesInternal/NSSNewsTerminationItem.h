@@ -12,14 +12,14 @@
     NSString *_bundleID;
 }
 
-- (id)2Z;
+- (id);
 - (void);
 - (id);
-- (void)ions;
-- (void)reLayerKeyTexturedRectangle;
-- (id);
-- (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;

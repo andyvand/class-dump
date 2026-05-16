@@ -58,17 +58,17 @@
 - (struct CGColorSpace *);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)ocolP;
+- (void);
 - (id);
-- (void)Üìÿÿhtìÿ,|Cÿ;
-- (id):%s /* Error: Ran out of types for this method. */;
-- (id);
-- (id)ó!?0Ö¿¾M?ºM>?¤;
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha;

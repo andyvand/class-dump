@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)onDate:(_Bool)arg1;
-- (void)te:(_Bool)arg1 alpha: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (struct CGRect)i;
+- (void);
+- (void);
+- (struct CGRect);
 - (id);
+- (struct CGSize);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)@;
-- (void);
-- (void)plicationWillResignActive: /* Error: Ran out of types for this method. */;
-- (id)voritesCount;
-- (struct CGSize)rmats-Collaboration;
+- (id);
+- (void)SgtGGANGANGtGGG;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;

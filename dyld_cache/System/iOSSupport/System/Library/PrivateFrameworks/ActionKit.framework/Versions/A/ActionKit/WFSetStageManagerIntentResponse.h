@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)of(buf);
-- (void)create private key;
+- (long long)lNotebooks;
+- (void)ess to your %@ account.;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

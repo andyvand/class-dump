@@ -5,10 +5,5 @@
 //
 
 @protocol UITableViewFocusDelegateLegacy
-
-@optional
-- (void)ks connection failed%s
-;
-- (void)L;
 @end
 

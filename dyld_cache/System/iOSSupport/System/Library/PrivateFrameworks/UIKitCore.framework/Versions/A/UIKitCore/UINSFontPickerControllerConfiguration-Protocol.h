@@ -7,7 +7,6 @@
 @class NSPredicate;
 
 @protocol UINSFontPickerControllerConfiguration
-- (id)es;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _includeDefaultFont;

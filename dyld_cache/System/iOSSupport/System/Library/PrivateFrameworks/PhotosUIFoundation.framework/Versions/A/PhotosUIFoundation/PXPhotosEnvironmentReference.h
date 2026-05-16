@@ -11,8 +11,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id wrappedValue; // @synthesize wrappedValue=_wrappedValue;

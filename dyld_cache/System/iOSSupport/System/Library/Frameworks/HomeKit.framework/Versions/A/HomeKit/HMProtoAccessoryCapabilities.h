@@ -10,7 +10,6 @@
 {
     NSString *_tag;
     _Bool _clearsKeychainWhenRemovedFromHome;
-    _Bool _supports24b183bad693415;
     _Bool _supports29dfaee0e6d26dc;
     _Bool _supports2c25465bb0b47366;
     _Bool _supports3f8b1c7e4d2a;
@@ -27,6 +26,7 @@
     _Bool _supportsCompanionInitiatedRestart;
     _Bool _supportsCoordinationDoorbellChime;
     _Bool _supportsCoordinationFreeDoorbellChime;
+    _Bool _supportsCrossfadeAsAirPlaySource;
     _Bool _supportsDeviceSetup;
     _Bool _supportsDirectSync;
     _Bool _supportsDoorbellChime;
@@ -55,10 +55,10 @@
     _Bool _supportsUserMediaSettings;
     _Bool _supportsWholeHouseAudio;
     _Bool _supportsWiFiRepairV2;
+    _Bool _supportse28d28e7b4de;
     _Bool _supportsf9cc0d9d6aa54e7;
     struct {
         unsigned int clearsKeychainWhenRemovedFromHome:1;
-        unsigned int supports24b183bad693415:1;
         unsigned int supports29dfaee0e6d26dc:1;
         unsigned int supports2c25465bb0b47366:1;
         unsigned int supports3f8b1c7e4d2a:1;
@@ -75,6 +75,7 @@
         unsigned int supportsCompanionInitiatedRestart:1;
         unsigned int supportsCoordinationDoorbellChime:1;
         unsigned int supportsCoordinationFreeDoorbellChime:1;
+        unsigned int supportsCrossfadeAsAirPlaySource:1;
         unsigned int supportsDeviceSetup:1;
         unsigned int supportsDirectSync:1;
         unsigned int supportsDoorbellChime:1;
@@ -103,6 +104,7 @@
         unsigned int supportsUserMediaSettings:1;
         unsigned int supportsWholeHouseAudio:1;
         unsigned int supportsWiFiRepairV2:1;
+        unsigned int supportse28d28e7b4de:1;
         unsigned int supportsf9cc0d9d6aa54e7:1;
     } _has;
 }
@@ -210,6 +212,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -263,32 +268,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -298,22 +297,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)b0b1f0"b1"supports89024c1cadcb8b00"b1"supports8a7c4e2f9b1d"b1"supports90bb069d6bx54e7"b1"supportsAnnounce"b1"supportsAssistantAccessControl"b1"supportsAudioReturnChannel"b1"supportsCaptiveNetworks"b1"supportsCloudDataSync"b1"supportsCompanionInitiatedObliterate"b1"supportsCompanionInitiatedRestart"b1"supportsCoordinationDoorbellChime"b1"supportsCoordinationFreeDoorbellChime"b1"supportsDeviceSetup"b1"supportsDirectSync"b1"supportsDoorbellChime"b1"supportsHomeHub"b1"supportsHomeInvitation"b1"supportsHomeLevelAnalyticsAndImprovementSetting"b1"supportsHomeLevelLocationServiceSetting"b1"supportsInstallManagedConfigurationProfile"b1"supportsKeyTransferClient"b1"supportsKeyTransferServer"b1"supportsKeychainSync"b1"supportsManagedConfigurationProfile"b1"supportsMediaActions"b1"supportsMessagedHomePodSettings"b1"supportsMultiUser"b1"supportsMusicAlarm"b1"supportsNetworkDiagnostics"b1"supportsPreferredMediaUser"b1"supportsSoftwareUpdateV2"b1"supportsStandaloneMode"b1"supportsStereoOdeonTTSUBypassingPrimary"b1"supportsTVOSUpdateManualUpdateAvailableNotification"b1"supportsTargetControl"b1"supportsThirdPartyMusic"b1"supportsThreadBorderRouter"b1"supportsUserMediaSettings"b1"supportsWholeHouseAudio"b1"supportsWiFiRepairV2"b1"supportsf9cc0d9d6aa54e7"b1};
-- (_Bool)State;
-- (_Bool)condDateWithComponents: /* Error: Ran out of types for this method. */;
-- (_Bool)rsonManagerSettings;
-- (void)$ËÐÐÑØôÚààâðâ
-´éë´ëïõ(øXü`T	Pì\°XTð`´ \!À" #	 #¸$ô%;
-- (id), failed to start browse;
+- (_Bool);
+- (_Bool);
+- (void)Î¬Ï	4ÐäÐ
+8ÒôÒhÓ	Ô Õ××;
+- (_Bool)size with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)blic}@Updating component role:%@ during merge /* Error: Ran out of types for this method. */;
+- (void)to update video resoluiton quality:(id)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) _Bool clearsKeychainWhenRemovedFromHome; // @synthesize clearsKeychainWhenRemovedFromHome=_clearsKeychainWhenRemovedFromHome;
 @property(nonatomic) _Bool hasClearsKeychainWhenRemovedFromHome;
-@property(nonatomic) _Bool hasSupports24b183bad693415;
 @property(nonatomic) _Bool hasSupports29dfaee0e6d26dc;
 @property(nonatomic) _Bool hasSupports2c25465bb0b47366;
 @property(nonatomic) _Bool hasSupports3f8b1c7e4d2a;
@@ -330,6 +335,7 @@
 @property(nonatomic) _Bool hasSupportsCompanionInitiatedRestart;
 @property(nonatomic) _Bool hasSupportsCoordinationDoorbellChime;
 @property(nonatomic) _Bool hasSupportsCoordinationFreeDoorbellChime;
+@property(nonatomic) _Bool hasSupportsCrossfadeAsAirPlaySource;
 @property(nonatomic) _Bool hasSupportsDeviceSetup;
 @property(nonatomic) _Bool hasSupportsDirectSync;
 @property(nonatomic) _Bool hasSupportsDoorbellChime;
@@ -358,9 +364,9 @@
 @property(nonatomic) _Bool hasSupportsUserMediaSettings;
 @property(nonatomic) _Bool hasSupportsWholeHouseAudio;
 @property(nonatomic) _Bool hasSupportsWiFiRepairV2;
+@property(nonatomic) _Bool hasSupportse28d28e7b4de;
 @property(nonatomic) _Bool hasSupportsf9cc0d9d6aa54e7;
 @property(readonly, nonatomic) _Bool hasTag;
-@property(nonatomic) _Bool supports24b183bad693415; // @synthesize supports24b183bad693415=_supports24b183bad693415;
 @property(nonatomic) _Bool supports29dfaee0e6d26dc; // @synthesize supports29dfaee0e6d26dc=_supports29dfaee0e6d26dc;
 @property(nonatomic) _Bool supports2c25465bb0b47366; // @synthesize supports2c25465bb0b47366=_supports2c25465bb0b47366;
 @property(nonatomic) _Bool supports3f8b1c7e4d2a; // @synthesize supports3f8b1c7e4d2a=_supports3f8b1c7e4d2a;
@@ -377,6 +383,7 @@
 @property(nonatomic) _Bool supportsCompanionInitiatedRestart; // @synthesize supportsCompanionInitiatedRestart=_supportsCompanionInitiatedRestart;
 @property(nonatomic) _Bool supportsCoordinationDoorbellChime; // @synthesize supportsCoordinationDoorbellChime=_supportsCoordinationDoorbellChime;
 @property(nonatomic) _Bool supportsCoordinationFreeDoorbellChime; // @synthesize supportsCoordinationFreeDoorbellChime=_supportsCoordinationFreeDoorbellChime;
+@property(nonatomic) _Bool supportsCrossfadeAsAirPlaySource; // @synthesize supportsCrossfadeAsAirPlaySource=_supportsCrossfadeAsAirPlaySource;
 @property(nonatomic) _Bool supportsDeviceSetup; // @synthesize supportsDeviceSetup=_supportsDeviceSetup;
 @property(nonatomic) _Bool supportsDirectSync; // @synthesize supportsDirectSync=_supportsDirectSync;
 @property(nonatomic) _Bool supportsDoorbellChime; // @synthesize supportsDoorbellChime=_supportsDoorbellChime;
@@ -405,6 +412,7 @@
 @property(nonatomic) _Bool supportsUserMediaSettings; // @synthesize supportsUserMediaSettings=_supportsUserMediaSettings;
 @property(nonatomic) _Bool supportsWholeHouseAudio; // @synthesize supportsWholeHouseAudio=_supportsWholeHouseAudio;
 @property(nonatomic) _Bool supportsWiFiRepairV2; // @synthesize supportsWiFiRepairV2=_supportsWiFiRepairV2;
+@property(nonatomic) _Bool supportse28d28e7b4de; // @synthesize supportse28d28e7b4de=_supportse28d28e7b4de;
 @property(nonatomic) _Bool supportsf9cc0d9d6aa54e7; // @synthesize supportsf9cc0d9d6aa54e7=_supportsf9cc0d9d6aa54e7;
 @property(retain, nonatomic) NSString *tag; // @synthesize tag=_tag;
 

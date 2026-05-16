@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKAttachmentView, PKAutoRefineTaskCoordinator, PKDrawing, PKRecognitionController, PKStrokeSpatialCache, UIView;
-@protocol UICoordinateSpace;
+@class PKAttachmentView, PKDrawing, PKRecognitionController, PKStrokeSpatialCache, UIView;
 
 @protocol PKAttachment
-- (_Bool)Library/PrivateFrameworks/AttributeGraph.framework/Versions/A/AttributeGraph;
-- (UIView *)NSObject<OS_dispatch_source>";
-- (NSArray *)String;
-- (void)erationCancelledTest  _Nonnull RCHandleOperationCancellation(__autoreleasing dispatch_block_t * _Nonnull, __strong dispatch_block_t _Nonnull);
-- (UIView *)Block  _Nonnull __strong);
-- (NSArray *)b8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCEndpointOperation.m;
-
-@optional
-- (_Bool);
-- (void);
-- (id <UICoordinateSpace>)@0:8@16@24@32Q40@48 /* Error: Ran out of types for this method. */;
-- (id <UICoordinateSpace>)SURLSession"16@"NSURLSessionDownloadTask"24q32q40q48;
-- (id <UICoordinateSpace>)RLResponse">40;
-- (PKAutoRefineTaskCoordinator *)ey: /* Error: Ran out of types for this method. */;
-- (_Bool)lic}@ with parent %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *attachmentContainerView;

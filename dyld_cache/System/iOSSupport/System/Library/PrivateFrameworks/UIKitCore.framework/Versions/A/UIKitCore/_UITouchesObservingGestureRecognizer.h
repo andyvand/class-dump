@@ -14,27 +14,27 @@ __attribute__((visibility("hidden")))
     NSSet *_touches;
 }
 
-+ (_Bool)ionAnimation"b1"disableAutorotationCount"b4"needsAutorotationWhenReenabled"b1"forceTwoPartRotationAnimation"b1"orderKeyboardInAfterRotating"b1"roundedCorners"b4"resizesToFullScreen"b1"keepContextInBackground"b1"forceVisibleOnInit"b1"settingFirstResponder"b1"windowResizedToFullScreen"b1"statusBarFollowsOrientation"b1"secure"b1"isSceneSized"b1"didSetRestorationIdentifier"b1"resigningFirstResponderFromHost"b1"needsBoundingPathUpdate"b1"avoidUpdatingSafeAreaInsets"b1"sceneIsWindowScene"b1"needsFramePositionAdjustmentWhenWindowSceneIsAttached"b1"enqueuedDeferredOrientationUpdate"b1"isNotifyingColorTraitChangeForSubtree"b1"allowsResponderChainSceneHopping"b1"needsCleanupOfOrientationTransaction"b1"wantsSuperlayerSecurityAnalysis"b1};
-+ (_Bool)red symbol effects (effect=%@, options=%@, animated=%s);
++ (_Bool);
++ (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)teChatStatusWithContext:(id)arg1;
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (id)að1Â0@ù
+× ;
+- (_Bool)!x@ùÑe°1Â0@ù
+× ;
 - (id);
+- (_Bool)ror"16;
 - (void);
-- (_Bool);
+- (void)on;
+- (void)tle;
+- (_Bool),V_platterPopoverBackgroundView;
+- (_Bool);
+- (void)0@"UITextReplacement"8Q16^B24;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)¡qð!xCùÑÄð1¢!0@ù
-× ;
-- (void)uration"b1};
-- (void)tLayoutWidth;
-- (_Bool)@^´^<_;
-- (id)"_DUIPresentationUpdate"8;
-- (_Bool)t;
-- (_Bool)á_ÿ3Î;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *touches; // @synthesize touches=_touches;

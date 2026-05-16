@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) IDSIDQueryController *controller; // @synthesize controller=_controller;

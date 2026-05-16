@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsBackgroundAndOcclusionDiffInspector;
 }
 
-- (id);
 - (void);
-- (void);
-- (void)F'ÿÿ6ýÿö7ýÿ¸üÿ;
+- (id)wareKeyboardExclusivityIdentifier:systemShellHostingSpaceIdentifier:systemDisplayIdentifier: /* Error: Ran out of types for this method. */;
+- (void)HasExplicitlySetBounces;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

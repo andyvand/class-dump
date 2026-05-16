@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long);
-- (_Bool)red.ASDSandboxAccountDidChangeNotification;
-- (id)t supported for CloudKit Accounts;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

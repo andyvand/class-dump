@@ -34,10 +34,11 @@
 - (_Bool);
 - (struct CGRect);
 - (unsigned long long);
-- (void);
-- (id);
 - (id);
-- (void)availableHeadlinesCount;
+- (void);
+- (void)
+× ;
+- (id)torLabels;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

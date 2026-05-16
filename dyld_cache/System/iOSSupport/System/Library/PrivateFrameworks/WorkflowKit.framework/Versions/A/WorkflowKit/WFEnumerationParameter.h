@@ -24,39 +24,5 @@
     NSString *_tableViewStyle;
 }
 
-
-// Remaining properties
-@property(readonly, nonatomic) _Bool alwaysShowsButton; // @synthesize alwaysShowsButton=_alwaysShowsButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) struct os_unfair_lock_s definitionLock; // @synthesize definitionLock=_definitionLock;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayNames; // @synthesize displayNames=_displayNames;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hideClearButton; // @synthesize hideClearButton=_hideClearButton;
-@property(readonly, nonatomic) _Bool hidesAccessoryIconInEditor;
-@property(readonly, nonatomic) _Bool hidesSubtitleInEditor;
-@property(readonly, nonatomic) _Bool liveUpdatesPossibleStatesInEditor; // @synthesize liveUpdatesPossibleStatesInEditor=_liveUpdatesPossibleStatesInEditor;
-@property(readonly, nonatomic) NSArray *possibleStates;
-@property(readonly, nonatomic) NSArray *possibleStatesForLocalization;
-@property(readonly, nonatomic) _Bool preferContextMenu;
-@property(readonly, nonatomic) _Bool preferParameterValuePicker;
-@property(readonly, nonatomic) _Bool prefersParameterValuePicker; // @synthesize prefersParameterValuePicker=_prefersParameterValuePicker;
-@property(readonly, nonatomic) _Bool providesLocalizedValuesForSummary; // @synthesize providesLocalizedValuesForSummary=_providesLocalizedValuesForSummary;
-@property(readonly, nonatomic) NSString *selectionType; // @synthesize selectionType=_selectionType;
-@property(readonly, nonatomic) NSArray *staticPossibleStates; // @synthesize staticPossibleStates=_staticPossibleStates;
-@property(readonly, nonatomic) NSArray *subtitles; // @synthesize subtitles=_subtitles;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *symbolNames; // @synthesize symbolNames=_symbolNames;
-@property(readonly, nonatomic) NSString *tableViewStyle; // @synthesize tableViewStyle=_tableViewStyle;
-@property(readonly, nonatomic) _Bool wf_allowsMultipleSelection;
-@property(readonly, nonatomic) _Bool wf_alwaysScaleIconImage;
-@property(readonly, nonatomic) NSString *wf_displayLocalizedPrompt;
-@property(readonly, nonatomic) _Bool wf_shouldValidateCurrentStateOnCollectionChanged;
-@property(readonly, nonatomic) _Bool wf_supportsSearch;
-@property(readonly, nonatomic) _Bool wf_usesGroupTableViewStyle;
-@property(readonly, nonatomic) _Bool wf_usesTogglesForSelection;
 @end
 

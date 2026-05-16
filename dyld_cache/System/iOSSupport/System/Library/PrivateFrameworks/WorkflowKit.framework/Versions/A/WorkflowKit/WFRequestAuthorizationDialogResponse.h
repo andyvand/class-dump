@@ -10,15 +10,15 @@
 }
 
 + (_Bool);
-+ (_Bool)Parameter Summary);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)ray",C,N;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long result; // @synthesize result=_result;

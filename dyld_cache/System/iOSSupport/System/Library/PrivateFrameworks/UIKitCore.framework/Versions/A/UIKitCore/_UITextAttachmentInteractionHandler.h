@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id)tationFrom:properties: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
+- (void)@!/3GG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;

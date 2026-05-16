@@ -20,20 +20,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void)"CADisplayLink";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

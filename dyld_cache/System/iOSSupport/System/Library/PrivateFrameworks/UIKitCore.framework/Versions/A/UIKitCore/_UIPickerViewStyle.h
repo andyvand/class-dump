@@ -10,33 +10,35 @@
 }
 
 - (void);
-- (id)C;
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (double)bject>";
-- (struct UIEdgeInsets)6@0:8 /* Error: Ran out of types for this method. */;
+- (double);
+- (struct UIEdgeInsets);
 - (id);
 - (id);
 - (void);
-- (void)ZoneCreation:(long long)arg1;
+- (void);
+- (struct CATransform3D);
+- (_Bool);
 - (double);
+- (double);
+- (struct CGSize);
 - (struct CATransform3D);
 - (double);
-- (double);
-- (_Bool);
-- (id);
-- (struct CATransform3D);
-- (double);
-- (double);
-- (double)Ð1¢!0@ù
+- (double)0@ù
 × ;
-- (void);
-- (double): /* Error: Ran out of types for this method. */;
-- (double)TransformForSelectionRect:view: /* Error: Ran out of types for this method. */;
-- (struct CGSize)è;
-- (double)8!;
-- (struct CGSize)om layout:(id)arg1 %@; attributes from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
+- (double)1Â0@ù
+× ;
+- (double)Ô ;
+- (void)
+× ;
+- (id)etShowsAlpha: /* Error: Ran out of types for this method. */;
+- (double)estsFirstResponderResignation:(struct CGSize)arg1;
+- (double)hlightedRange:inDocument: /* Error: Ran out of types for this method. */;
+- (struct CGSize)oundBlurEffect;
+- (double)xPath *__strong, UITableViewCell *__strong, UIView *__strong, UISwipeOccurrence *__strong, UIColor *__strong, void (^__strong)(BOOL), void (^__strong)(BOOL))_block_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) double columnHighlightCornerRadius;

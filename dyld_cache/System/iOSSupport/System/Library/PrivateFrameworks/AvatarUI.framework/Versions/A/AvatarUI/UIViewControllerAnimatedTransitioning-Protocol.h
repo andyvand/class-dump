@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerContextTransitioning;
-
 @protocol UIViewControllerAnimatedTransitioning
-- (void)emoval:(id <UIViewControllerContextTransitioning>)arg1 options: /* Error: Ran out of types for this method. */;
-- (double)edRect:(id <UIViewControllerContextTransitioning>)arg1 byRoundingCorners:cornerRadii: /* Error: Ran out of types for this method. */;
 @end
 

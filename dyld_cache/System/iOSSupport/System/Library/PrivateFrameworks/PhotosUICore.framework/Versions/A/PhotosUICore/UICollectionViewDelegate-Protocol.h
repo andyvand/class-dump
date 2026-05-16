@@ -4,44 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
+@class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)son:(UICollectionView *)arg1 completion:(NSIndexPath *)arg2;
-- (UIContextMenuConfiguration *)alidationContexts;
-- (UITargetedPreview *)osedSize;
-- (void)uestAssetTracker;
-- (void);
-- (UITargetedPreview *)T;
-- (void)L×täPåÀæ¤èXé8ëìëÌí0ð;
-- (_Bool)ZDj[pk\XmÈm]Ìn^q_Ør`XuaÐxbôyczd;
-- (UITargetedPreview *)ð ;
-- (_Bool);
-- (UIContextMenuConfiguration *)0]èÿ^èÿÐ`èÿô`èÿ(aèÿdaèÿaèÿbèÿð ëÿ,cèÿxcèÿ¼cèÿdèÿeèÿheèÿ<fèÿTfèÿLgèÿpgèÿ¬gèÿÐgèÿhèÿÀièÿôièÿ(jèÿ\jèÿjèÿÄjèÿ(kèÿkèÿÀkèÿôkèÿ0lèÿllèÿ lèÿÄlèÿ;
-- (void);
-- (void)Ì2fÿ;
-- (_Bool);
-- (void)dding;
-- (void)8üýÿ;
-- (void);
-- (void)sManagerMutatorP;
-- (struct CGPoint)nContentLayout] %p presentedDataSource:(UICollectionView *)arg1 %@;
-- (UIWindowSceneActivationConfiguration *)t to perform authentication.;
-- (_Bool)out;
-- (_Bool)ration:(UICollectionView *)arg1 Content Syndication is never possible in this environment.;
-- (_Bool)l:(UICollectionView *)arg1 [%{public}ld] Player item format immediately available for request;
-- (void)nds are supported;
-- (UITargetedPreview *):(UICollectionView *)arg1 %lu;
-- (void)datasource.;
-- (_Bool)rState;
-- (UICollectionViewTransitionLayout *)redoOrderedBookmarks;
-- (NSIndexPath *)Ìoi1Ú;
-- (NSIndexPath *)cationAuthorizationMonitor;
-- (_Bool)nvironmentKey;
-- (void)-;
+- (void)0@ù
+× ;
+- (UITargetedPreview *)!AùqFð1â
+0@ù
+× ;
+- (_Bool);
+- (UITargetedPreview *)1â
+0@ù
+× ;
+- (void)AüÐ!ÐAù±Ið1â
+0@ù
+× ;
+- (void)neTransform=dddddd}}{?={CGAffineTransform=dddddd}}}16;
+- (void)t"24@"UIPointerRegion"32;
+- (UICollectionViewTransitionLayout *)ddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16d784q792@800;
+- (void)per:(UICollectionView *)arg1 shouldRecognizeSwipeDownGestureRecognizer:(UICollectionReusableView *)arg2;
+- (void)er:(UICollectionView *)arg1;
+- (UIWindowSceneActivationConfiguration *)lowPlaceholder;
+- (UITargetedPreview *);
+- (void)Style;
+- (UITargetedPreview *),N,V_viewModeObservable;
+- (UIContextMenuConfiguration *)tenceController;
+- (void)eue_renderDestination;
+- (NSIndexPath *)roundProcessAssertion;
+- (_Bool)øÍ;
+- (NSIndexPath *)8ã;
+- (void)XØ;
+- (void);
+- (_Bool)fAssets=%lu, includesComment=%@, postSucceeded=%@, userRole=%ld;
+- (_Bool)TypeInfoManager - Query returned no asset! Error:(UICollectionView *)arg1 %@;
+- (UIContextMenuConfiguration *)essfully posted comment to shared asset:(UICollectionView *)arg1 %{public}s;
+- (struct CGPoint)DuplicateActionName;
+- (_Bool)Variant);
+- (_Bool)@?0@"NSManagedObjectID"8@"PXCMMMomentsInvitation"16^B24;
+- (NSIndexPath *)ctiveMemoryButtonAccessibilityLabelActionMenu;
+- (_Bool)PHRASE_FORMAT;
+- (_Bool)setSelectButtonActionPerformer:(UICollectionView *)arg1 ];
 - (_Bool);
-- (NSIndexPath *)þÇ3;
+- (_Bool)`#ÿ;
 @end
 

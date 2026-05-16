@@ -13,12 +13,12 @@
     UIView *_commSafetyBadgeView;
 }
 
-- (void)_undoCommands;
-- (id)rvice:completionHandler:shareArgument is nil /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
 - (id);
-- (id)nboxViewController;
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *commSafetyBadgeView; // @synthesize commSafetyBadgeView=_commSafetyBadgeView;

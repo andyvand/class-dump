@@ -19,9 +19,9 @@
     EMFEmojiLocaleData *_localeData;
 }
 
-- (id)z;
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -30,14 +30,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)mationOffset:(id)arg1;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <TUIEmojiSearchSourceDelegate> delegate; // @synthesize delegate=_delegate;

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSString *_bundleID;
 }
 
-+ (id)È;
++ (id);
 - (void);
 - (id);
-- (void);
+- (void)lor: /* Error: Ran out of types for this method. */;
 
 @end
 

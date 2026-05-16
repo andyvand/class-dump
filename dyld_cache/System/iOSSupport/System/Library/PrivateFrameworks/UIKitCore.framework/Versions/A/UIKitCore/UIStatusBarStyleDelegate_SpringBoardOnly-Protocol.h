@@ -5,9 +5,5 @@
 //
 
 @protocol UIStatusBarStyleDelegate_SpringBoardOnly
-
-@optional
-- (_Bool)sid metadata but faic is set. Skipping update asid metadata;
-- (unsigned long long)iled to verify test station signature, _checkVerificationError %@;
 @end
 

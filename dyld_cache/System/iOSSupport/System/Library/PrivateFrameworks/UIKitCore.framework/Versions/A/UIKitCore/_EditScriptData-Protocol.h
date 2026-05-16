@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol _EditScriptData;
+@class NSString;
 
 @protocol _EditScriptData
-+ (id <_EditScriptData>):(NSString *)arg1 incomingData:(long long)arg2 fromID: /* Error: Ran out of types for this method. */;
-+ (id <_EditScriptData>)astMessageEventWithCommand:(NSArray *)arg1 eventName:forGUID: /* Error: Ran out of types for this method. */;
-- (NSString *)Base:(long long)arg1 arrowTipWidth:arrowTipHeight: /* Error: Ran out of types for this method. */;
-- (long long)ide -collectionView:viewForSupplementaryElementOfKind:atIndexPath:or inside a UICollectionViewDiffableDataSource supplementary view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)1Â0@ù
+× ;
+- (NSString *)N,G_itemSeparatorHandler,S_setItemSeparatorHandler:,V_itemSeparatorHandler /* Error: Ran out of types for this method. */;
 @end
 

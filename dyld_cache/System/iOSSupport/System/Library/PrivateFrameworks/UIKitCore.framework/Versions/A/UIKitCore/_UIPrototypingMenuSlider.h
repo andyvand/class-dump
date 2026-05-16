@@ -21,29 +21,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGPoint);
-- (id)t;
+- (id);
 - (id);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (double);
 - (id);
-- (float);
 - (void);
+- (void)Disappear;
+- (void)nge:(id)arg1;
+- (struct CGRect)Font:(struct CGRect)arg1;
+- (id);
+- (float)eedbackCoreHapticsEngine",W,N,V_hapticEngine;
 - (void);
-- (struct CGRect);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)¡rÐ!¸Gù1Æ°1¢!0@ù
-× ;
-- (void)UITextSelectionDisplayInteraction"16;
-- (void)ionContainer>",W,N,V_regionsContainer;
-- (id);
-- (void)ateTiming=QQQ}24;
+- (void)nceSceneComponentKey;
+- (void); symbol = (%@);
+- (void)ted;
+- (void)GroupID;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *currentValueLabel; // @synthesize currentValueLabel=_currentValueLabel;

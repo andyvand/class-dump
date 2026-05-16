@@ -18,7 +18,7 @@
     HFWallpaperFileManager *_fileManager;
 }
 
-+ (id)iò@;
++ (id)oot.home.dismissedAnnounceOnboarding;
 - (_Bool);
 - (id);
 - (id);
@@ -60,14 +60,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)le transports:%@) /* Error: Ran out of types for this method. */;
-- (void)clips;
+- (void);
+- (id)tionSetID;
+- (void);
+- (void)ediaAccessoryItem"16@?0@"NSNumber"8;
+- (void)%ld;
 - (id);
 
 // Remaining properties

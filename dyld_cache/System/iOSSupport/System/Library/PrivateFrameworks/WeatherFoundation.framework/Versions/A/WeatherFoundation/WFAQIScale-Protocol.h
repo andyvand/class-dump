@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFAQIScaleCategory;
+@class NSString;
 
 @protocol WFAQIScale
-- (WFAQIScaleCategory *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;

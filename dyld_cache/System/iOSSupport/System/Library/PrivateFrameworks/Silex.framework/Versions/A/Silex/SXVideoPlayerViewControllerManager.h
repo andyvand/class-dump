@@ -33,8 +33,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *autoplayURL; // @synthesize autoplayURL=_autoplayURL;

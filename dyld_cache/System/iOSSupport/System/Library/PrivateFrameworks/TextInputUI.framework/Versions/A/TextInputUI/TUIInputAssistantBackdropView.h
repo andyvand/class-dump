@@ -16,9 +16,9 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property double contentCornerRadius;

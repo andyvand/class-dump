@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void)H;
-- (id)luginControlResponse;
+- (void);
 - (id);
+- (id)Ð-;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

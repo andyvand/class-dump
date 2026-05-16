@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)×!áô	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *attributedString;

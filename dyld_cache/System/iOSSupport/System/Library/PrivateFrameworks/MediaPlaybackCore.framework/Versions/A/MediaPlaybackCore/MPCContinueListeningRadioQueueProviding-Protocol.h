@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol MPCContinueListeningRadioQueueProviding
-- (NSArray *)/usr/lib/libSystem.B.dylib;
 @end
 

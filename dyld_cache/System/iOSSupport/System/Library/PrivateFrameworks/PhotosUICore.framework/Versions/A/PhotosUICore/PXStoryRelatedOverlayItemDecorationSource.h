@@ -28,9 +28,9 @@
 - (void);
 - (void);
 - (id);
-- (void)P;
-- (void);
-- (id)sÞÿ4fK`¶5;
+- (void)PhotosKeyAssetSectionHeaderLayout update];
+- (void)Ìÿè`;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

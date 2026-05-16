@@ -14,16 +14,15 @@ __attribute__((visibility("hidden")))
     long long _trackpadFingerDownCount;
 }
 
-- (long long)ssageDict:command:messageID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:sentToDevices:extraOptions:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (long long)eleteAfterRow;
-- (id)MMSUserOverrideForSingleSubscription;
-- (void)leDictionary",&,N,V_peerCompletionBlocks;
-- (void)egates;
+- (long long);
+- (long long);
 - (id);
-- (_Bool):(id)arg1 %@;
 - (void);
-- (void)qÂð1¢!0@ù
-× ;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void)®«Í,}h;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *touchStatus; // @synthesize touchStatus=_touchStatus;

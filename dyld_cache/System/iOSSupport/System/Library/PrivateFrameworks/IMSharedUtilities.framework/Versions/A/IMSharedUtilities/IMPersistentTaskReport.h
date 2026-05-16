@@ -12,22 +12,22 @@
     long long _count;
 }
 
-+ (_Bool)FilesWithGUIDs;
-- (unsigned long long);
++ (_Bool);
+- (unsigned long long);
 - (_Bool);
-- (id)@;
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
+- (id);
 - (long long);
 - (id);
-- (id)8;
 - (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
 - (_Bool);
 - (long long);
 

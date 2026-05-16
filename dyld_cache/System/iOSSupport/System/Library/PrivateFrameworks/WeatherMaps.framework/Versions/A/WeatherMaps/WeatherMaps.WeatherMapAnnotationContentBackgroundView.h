@@ -13,10 +13,10 @@
     MISSING_TYPE *scaleLayer;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

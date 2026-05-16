@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)ontainedToolbarHeight;
 
 // Remaining properties
 @property(nonatomic, retain) id <PUPickerSuggestion> currentSuggestion;

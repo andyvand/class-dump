@@ -18,7 +18,7 @@
 
 + (long long);
 + (long long);
-+ (id);
++ (id)gain in %ld seconds;
 - (void);
 - (id);
 - (id);
@@ -46,21 +46,21 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (long long)x¬;
+- (long long)16;
+- (void)sBugSessionBacked;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @dynamic active;

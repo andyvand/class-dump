@@ -14,7 +14,7 @@
     PKDragIndicatorView *_dragIndicatorView;
 }
 
-- (_Bool)ndpointOperation validateOperation];
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -22,10 +22,10 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void)ckedAudio:(double)arg1;
+- (void);
+- (id);
 - (double);
-- (void);
-- (id);
+- (void)l;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;

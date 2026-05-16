@@ -17,25 +17,25 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);t|;
 - (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (void);
 - (id);
-- (id)An animated GIF or photo burst;
+- (id);
+- (id);
+- (_Bool)¬g;
+- (void)e=%s, error=%@;
+- (void)rray"24@"NSDictionary"32;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

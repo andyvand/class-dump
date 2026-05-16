@@ -4,111 +4,122 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBarButtonItem, UIBlurEffect, UIDimmingView, UIResponder, UISplitViewController, UIView, UIViewController;
-@protocol UIActivityItemsConfigurationReading, UIContentContainer, UIFocusEnvironment, UISplitViewControllerDelegate;
+@class NSArray, NSCoder, NSString, UIBarButtonItem, UIBlurEffect, UIDimmingView, UIResponder, UISplitViewController, UITraitCollection, UIView, UIViewController;
+@protocol UIActivityItemsConfigurationReading, UIContentContainer, UISplitViewControllerDelegate;
 
 @protocol UISplitViewControllerImpl
-- (void)dentials:(_Bool)arg1;
-- (void)w: /* Error: Ran out of types for this method. */;
-- (_Bool)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (long long)t°!ôFùñÇÐ1¢!0@ù
+- (void)Ð!ÈDùað1Â0@ù
 × ;
-- (struct CGRect)
-× ;
-- (_Bool)Region:withFocusMovementRequest:inMap: /* Error: Ran out of types for this method. */;
+- (void)ateShouldCenterSelectionRect:(NSCoder *)arg1;
 - (_Bool);
-- (void)ÐE<GÀG I;
-- (void)focus promise at %@:(_Bool)arg1 %@;
-- (UIViewController *);
-- (void)lDimmingEnabled;
-- (void);
-- (struct CGSize)ns:(id <UIContentContainer>)arg1 %ld; capacity:(struct CGSize)arg2 %ld; minimum row height:%g; table view width:%g; table header height:%g; table footer height:%g; table top padding:%g; table bottom padding:%g; reordered index path:%@; dragged index path:%@; gap row height:%g; dragged row height:%g; section data:%@ /* Error: Ran out of types for this method. */;
-- (void)n is already in progress. Wait for viewDidAppear/viewDidDisappear to know the current transition has completed;
-- (_Bool)onSnapshotRebaser.m;
-- (struct CGSize)ngeNotification;
-- (NSString *)edEntries;
-- (UISplitViewController *)ift;
-- (_Bool)tion"32;
-- (void)ranslationKick;
-- (UIResponder *)Fetch Current User Activity;
-- (long long)46457AA903D9A8178C1F5C6F21037PrivatePressGestureRecognizerDelegate;
-- (_Bool)PresentationController;
-- (UIResponder *)uantizedLuma;
-- (void)ingMoreItem;
-- (UIBarButtonItem *)tCC5UIKit20ScrollEdgeEffectViewP33_A8A62288E15893CDC14B9FB558CFED1E15ObservableState;
-- (struct UIEdgeInsets)does not come first in render order;
-- (_Bool),N,&;
-- (void)ller internal inconsistency:(long long)arg1 expected new layout for transition;
-- (_Bool)have unique actions. If the commands perform the same action with slight variations in behavior, provide a unique propertyList value to distinguish them.
+- (void)endViewWillTransitionToSize;
+- (NSArray *)essInputViewDuringPresentation;
+- (UIView *)terIndicatorColor;
+- (void)ionOffset:forTimeInterval:min:max:decelerationFactor:decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
+- (_Bool)ngDecorationViewOffset;
+- (void):(UITraitCollection *)arg1 color:size: /* Error: Ran out of types for this method. */;
+- (void)ð7;
+- (_Bool)ionBarTitleTransitionBackIndicatorMaskSymbol;
+- (void)0;
+- (void)id _queue_ensureExistenceOfKnownSceneSessionMap(void);
+- (void)replacement;
+- (unsigned long long)ictationRunning;
+- (void)ect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40;
+- (id)ERLINE;
+- (void)buttonLocation = (%f,%f);
+- (void)IKBColorWildcatBarActiveGradient;
+- (void)Lock;
+- (struct UIEdgeInsets)eyInteractionTypeHandwriting;
+- (void)zero.;
+- (void)bilityConfigurationsKey;
+- (void)Capacity;
+- (long long)taSourceUpdate, const _UIMapIndex, const _UIDataSourceModel, const _UIDataSourceModel, _UIMapIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (void)ttings.colorTintMaskImage must be backed by a CGImage:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)or;
+- (void)erPath *path = [UIBezierPath new];
 ;
-- (double)ViewControllerAdaptiveColumnView.swift;
-- (UIBlurEffect *)FormattingViewControllerTextAnimations;
-- (float)ting;
-- (_Bool)e/_UIMagicMorphAnimation.swift;
-- (void)reground;
-- (_Bool)texts, ignoring.;
-- (void)e=dd}}16;
-- (void)A409C69AE26E635);
-- (id <UIFocusEnvironment>)dingPropertyWrapper.swift;
-- (void)ers.glassForeground.inputAberrationHeight;
-- (double)nputBlurDistance3;
-- (void)ices.framework/SafariServices;
-- (UIView *)DetectorsUI;
-- (_Bool)/EmojiFoundation.framework/EmojiFoundation;
-- (void)?;
-- (unsigned long long)òÊø÷ç?ÍÌÌÌÌÌÌ?;
-- (_Bool)?;
-- (long long)Û2à~BÁÀ;
-- (_Bool)DTû!é?;
-- (void)ÙÓÿ3ø;
-- (UIDimmingView *)ha¬3;
-- (id <UIActivityItemsConfigurationReading>)mmonTransitionComponentEventHandling;
-- (UIViewController *)ViewRepresentableAdaptor;
-- (void)¨·;
-- (void)dÿ3Í;
-- (void)resented;
-- (void)ntainerView;
-- (UIViewController *)ibute;
-- (void)Á¬þ`;
-- (_Bool)8B71Õ;
-- (void)¦ñ@-DTû!ù?;
-- (_Bool)à671;
-- (_Bool);
-- (struct CGSize)ion;
-- (NSArray *)6;
-- (_Bool)N-`eþ`eþp[71;
-- (void)ardAssistant;
-- (double);
-- (void)(;
-- (void)kgroundData;
-- (_Bool);
-- (NSArray *)Üw;
-- (void);
-- (void)@;
-- (_Bool)4´þ;
-- (NSArray *)!4ï;
-- (void)_TextureSharingContext;
-- (_Bool)a	4ô;
-- (NSArray *)tShape;
-- (void);
-- (long long)¤Îiþ4üÎiþ;
-- (double)í4Å';
-- (void)ableTraits;
-- (void)!Æ4ÌôiþñÅ4ôiþ;
-- (void)Ý48wiþqÝ48wiþqÝ4wiþqÝ4Ôwiþ;
-- (void)`;
-- (void)öH[;
-- (void)'[;
-- (_Bool)*+[;
-- (void);
-- (long long)[;
-- (void)[;
-- (double)[;
+- (id <UIActivityItemsConfigurationReading>)iCBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m;
+- (long long)UIHIDEventSenderDescriptor.m;
+- (void)ght.to.left;
+- (void)cuments;
+- (_Bool)HighlightPurple;
+- (long long)ger init] is unavailable for use.;
+- (_Bool)ne+UIApp.m;
+- (void)Environment.focusItemContainer == scrollableContainer;
+- (void)trength(void);
+- (void)items is not supported;
+- (UIBlurEffect *)l;
+- (void)w changed must match the window being tracked.;
+- (_Bool)e "%@" nib but didn't get a UITableView.;
+- (struct CGSize)rong, UIView *__strong, BOOL, UISlidingBarState *__strong, BOOL, CGRect, NSMutableSet *__strong, CGFloat, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong);
+- (void)kerControllerAllowsEditing;
+- (long long)imumTouchDuration;
+- (_Bool)16;
+- (_Bool)Identifier (%@). Please file a bug against UICollectionView.;
+- (double)>"8;
+- (_Bool)re are only %ld sections after the update;
+- (NSArray *)ectionViewCellPrototypeNibExternalObjects;
+- (NSArray *)eyWritingToolsUI(void);
+- (_Bool)tion view;
+- (void)SectionFixedSolver.m;
+- (NSArray *)entInsets (%@) do not result in a negative effectiveContentSize when applied to size:%@. /* Error: Ran out of types for this method. */;
+- (_Bool)lPreferredSizes;
+- (unsigned long long)removed:%@; Background view:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)but still preserving false transition state!;
+- (_Bool)d and UIControlStateDisabled. state = %d is interpreted as UIControlStateSelected. Linking with a current SDK causes custom text attributes for UIControlStateHighlighted to be respected separately.;
+- (void)Height=%g;
+- (void)mWidth=%f;
+- (struct UIEdgeInsets)lineBreakStrategy=none;
+- (void)er cannot be nil.;
+- (UIBarButtonItem *)s not allowed on _UISceneHostingWorkspaceController;
+- (NSArray *)= %@;
+- (_Bool)and row. Please use the category on NSIndexPath in NSIndexPath+UIKitAdditions.h if possible.;
+- (long long)TabAccessoryContainer.swift;
+- (_Bool)navigation item (%@) that's already being renamed. This request is ignored.;
+- (_Bool)UITextViewAnimatedPlaceholderSupport;
+- (void)e._UIObjCEquatableBox;
+- (void):(long long)arg1 ×þÿ;
+- (void)Çþÿ;
+- (UISplitViewController *)w/3y»¾7y¾7_GSg¾7G;
+- (long long)50_UISceneConnectionOptionDefinitionStorageInvokableP;
+- (void)AreaCornerInsetConcreteResolverC;
+- (NSArray *)GGÏ.3yAByAByy¬;
+- (_Bool)14TransactionKeyP;
+- (long long)SnySiG;
+- (_Bool)ButtonConfigurationC;
+- (long long)ìèoþ;
+- (void)ojiFoundation.framework/EmojiFoundation;
+- (_Bool)åÐâ>¶óý¼;
+- (double)Ý$Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
+×£p=:@nÀ$@Âõ(\@
+×£p=ZA@¸ëQ¸@ /* Error: Ran out of types for this method. */;
+- (UIViewController *)Ô<À7;
+- (void)ViewRepresentableAdaptor;
+- (void)n;
+- (double)²­;
+- (void)ator;
+- (UIResponder *)e;
+- (void)xlR0;
+- (void)è23D^£þè23ÔTþyè23^£þ;
+- (UIDimmingView *)iguration;
+- (struct CGRect);
+- (_Bool);
+- (void)ableValue;
+- (void)ext;
+- (_Bool)ho;
+- (long long)3¬&tþ;
+- (void)XB[;
+- (UIResponder *)\,;
+- (void)°r[;
+- (long long)¯.Ý¨¥[;
+- (void)ý[;
+- (void)åý^;
+- (UITraitCollection *)]\;
 
 @optional
-- (void);
-- (void);
+- (void)inPlacementsIfNecessaryFrom, intermediate 1:(id <UIContentContainer>)arg1 %@, intermediate 2:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalSidebarSafeAreaInsets:) struct UIEdgeInsets _additionalSidebarSafeAreaInsets;

@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     UISwitch *_muteSwitch;
 }
 
-+ (double);
-+ (id)pbacksForAsset: /* Error: Ran out of types for this method. */;
-- (void)ionalStep;
-- (id);
++ (id)insConfirmedMentionInRange: /* Error: Ran out of types for this method. */;
++ (double)H¿]GGALyAXSgGGA10_GGtGG;
 - (void);
 - (id);
-- (void)`;
+- (void);
+- (id)aximumHeight;
+- (void)ä;
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *muteSwitch; // @synthesize muteSwitch=_muteSwitch;

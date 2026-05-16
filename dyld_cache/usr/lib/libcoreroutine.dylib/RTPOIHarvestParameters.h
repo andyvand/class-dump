@@ -19,9 +19,9 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (id)gistrationFileDescriptor;
 - (id);
-- (id)er monitor handler because routine is either not enabled %d or supported %d.;
+- (id);
+- (id)able 4);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long harvestMask; // @synthesize harvestMask=_harvestMask;

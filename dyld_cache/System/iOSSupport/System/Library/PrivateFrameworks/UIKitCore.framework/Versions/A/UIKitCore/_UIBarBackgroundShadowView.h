@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)maryParallaxDimmingView:,V__primaryParallaxDimmingView /* Error: Ran out of types for this method. */;
++ (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIBarBackgroundShadowContentImageView *contentView; // @dynamic contentView;

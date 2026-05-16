@@ -11,11 +11,11 @@
     MISSING_TYPE *_windowSize;
 }
 
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)àõÿ;
-- (void)pP;
+- (void)eCacheIndices:Client-defined buckets did not change. /* Error: Ran out of types for this method. */;
 
 @end
 

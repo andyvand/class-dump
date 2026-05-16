@@ -11,10 +11,10 @@
     MISSING_TYPE *gradientDescriptor;
 }
 
-+ (Class)sume;
-- (id)imaryColor;
-- (void);
++ (Class);
 - (id);
+- (id);
+- (void)xÿÿ&9þÿýÿ;
 
 @end
 

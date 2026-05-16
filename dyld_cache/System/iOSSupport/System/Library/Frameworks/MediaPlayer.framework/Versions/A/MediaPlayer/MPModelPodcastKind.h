@@ -13,18 +13,18 @@
     MPModelPodcastEpisodeKind *_episodeKind;
 }
 
-+ (id)nnected:(id)arg1;
-+ (id)dentifier;
-+ (_Bool)io UID:%d /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)P;
-- (unsigned long long)rent items array;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void)ityType;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelPodcastEpisodeKind *episodeKind; // @synthesize episodeKind=_episodeKind;

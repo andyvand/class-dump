@@ -12,13 +12,13 @@
 }
 
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UITextField *textField; // @synthesize textField=mTextField;

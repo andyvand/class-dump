@@ -87,23 +87,22 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
-- (void)Ð1b0@ù
-× ;
 - (id);
-- (_Bool)dAutomationsViewController;
-- (unsigned long long)aÑÿßöv;
-- (id)¯;
+- (id);
+- (id)adingMargin: /* Error: Ran out of types for this method. */;
+- (_Bool)nts: /* Error: Ran out of types for this method. */;
+- (void)4PüPTðTôU;
+- (void);
+- (_Bool)ctTableViewController _canManagerControlAccessory];
+- (void)tInfoPlaceholderValue;
+- (unsigned long long)¸<³9y%:SgGGl0G_}:tGG­2GAAyAAyñ<yADyAL_AMK=tGGAPGAPGG4G /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *clipCollectionView; // @synthesize clipCollectionView=_clipCollectionView;

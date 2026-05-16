@@ -7,7 +7,7 @@
 @class NSArray, NSData, NSDate, NSString;
 
 @protocol FCRecipeScorable
-- (NSData *);
+- (NSArray *)¬ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;

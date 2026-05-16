@@ -14,14 +14,14 @@
 }
 
 - (id);
-- (void)d:(id)arg1;
 - (void);
-- (void)hlights:(id)arg1 %@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)@"NSDictionary"8{_NSRange=QQ}16;
 
 @end
 

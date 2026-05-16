@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)nsAdapter.m;
+- (void)e:(CDUnknownBlockType)arg1;
+- (void)¬^´^h_$h<hXij;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

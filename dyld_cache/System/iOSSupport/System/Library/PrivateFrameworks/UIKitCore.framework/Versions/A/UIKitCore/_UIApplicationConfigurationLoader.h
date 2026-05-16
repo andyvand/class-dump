@@ -13,17 +13,16 @@ __attribute__((visibility("hidden")))
     _Atomic _Bool _hasRequestedPreload;
 }
 
-+ (id);
-- (_Bool);
-- (void);
-- (id);
-- (id)ntifier, person_id, child_key, suborder, parent_version_hash) VALUES (@parentIdentifier, @childIdentifier, @personID, @childKey, @suborder, @parentVersionHash);
++ (id)not expected to have alignmentRectInsets.;
 - (void);
-- (void);
-- (id)0@ù
-× ;
-- (_Bool)erView;
-- (id)V[;
+- (id);
+- (id);
+- (id);
+- (_Bool)P9À9;
+- (void)ming the batch updates are inconsistent with the updates.;
+- (_Bool)ULL;
+- (id);
+- (void)¾ÿq;
 
 // Remaining properties
 @property(readonly, nonatomic) UISApplicationInitializationContext *applicationInitializationContext;

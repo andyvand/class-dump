@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ARReferenceObject *referenceObject; // @synthesize referenceObject=_referenceObject;

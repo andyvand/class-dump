@@ -8,7 +8,7 @@
 
 @interface (null) (MPCPlaybackEngineEventPayload)
 + (id);
-- (id)rAccount: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

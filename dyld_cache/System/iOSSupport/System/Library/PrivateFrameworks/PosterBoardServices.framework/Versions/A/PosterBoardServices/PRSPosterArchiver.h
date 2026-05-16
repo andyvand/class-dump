@@ -22,14 +22,15 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 
 @end
 

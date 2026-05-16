@@ -17,8 +17,8 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void)Array",C,N,V_viewModels;
 
 @end
 

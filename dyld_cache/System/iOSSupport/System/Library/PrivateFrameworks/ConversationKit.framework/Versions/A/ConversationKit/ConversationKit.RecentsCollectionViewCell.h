@@ -18,16 +18,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void)ÿÃþÿ;
-- (struct CGSize)@­GG;
-- (void)available.;
+- (id)»þÿ;
+- (void)yÅÝyAEy$ï¯ãGùØGSg_HðyADy_ë_AEyAEy¢y]¢yAEyAEyAEy®¢yAmFGTéy^ÝGGAQylîSgGGAQy8êSgGG'¢yAMWðySayöåÏGA3_¢y/ïyADyAM_«ïAFSgtGGGG5ñGG_Qo_äGì¢GtGGtGGG;
+- (void)activity.;
+- (void)ationLayer.;
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *trailingAccessoryView;

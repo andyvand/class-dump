@@ -14,15 +14,16 @@
     MISSING_TYPE *gradientOverrideFrame;
 }
 
-- (void);
-- (struct CGRect)P;
 - (id);
-- (void);
 - (id);
-- (void)edConversationView;
-- (id);
+- (id);
+- (struct CGRect);
 - (void);
-- (void)íÑ/+ö2;
+- (void)1Â0@ù
+× ;
+- (void):(struct CGRect)arg1;
+- (void)ÿÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

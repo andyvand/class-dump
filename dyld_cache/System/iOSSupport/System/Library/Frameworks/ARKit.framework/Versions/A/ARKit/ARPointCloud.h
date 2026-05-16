@@ -17,12 +17,12 @@
 
 + (_Bool);
 - (id);
-- (void);
 - (id);
 - (void);
-- (const unsigned long long *);
-- (const MISSING_TYPE **);
 - (unsigned long long);
+- (void);
+- (const MISSING_TYPE **);
+- (const unsigned long long *)setBuffer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

@@ -13,21 +13,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
 - (_Bool);
-- (double);
-- (void)onIdentifierSets:(struct CGSize)arg1;
-- (struct CGPDFPage *)iceConnection;
-- (void)ping for MPModelPropertySocialPersonBiography;
-- (_Bool);
-- (struct CGSize)!vÐ!@ùÑÊ°1¢!0@ù
-× ;
-- (_Bool)}}72d104d112;
-- (void):(struct CGSize)arg1 count:(double)arg2 phase:(struct CGContext *)arg3;
-- (id)referredStatusBarStyle:preferredStatusBarVisibility:updateAnimation:currentAnimationSettings: /* Error: Ran out of types for this method. */;
-- (id)²þÿ;
-- (_Bool);
-- (id)Eÿ;
+- (void);
+- (id);
+- (struct CGPDFPage *);
+- (unsigned long long);
+- (_Bool)mp:(id)arg1 pathIndex:forcedKeyCode: /* Error: Ran out of types for this method. */;
+- (double)yForString: /* Error: Ran out of types for this method. */;
+- (_Bool)ataTo: /* Error: Ran out of types for this method. */;
+- (void)entColorFormat;
+- (id)ßAÛ\;
+- (struct CGSize);
+- (_Bool)`;
+- (id)0!ÿí`^;
+- (void)a;
 
 @end
 

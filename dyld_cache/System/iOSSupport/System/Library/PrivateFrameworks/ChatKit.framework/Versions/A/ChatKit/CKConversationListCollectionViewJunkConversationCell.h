@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)ype;
+- (_Bool);
 - (unsigned long long);
 
 @end

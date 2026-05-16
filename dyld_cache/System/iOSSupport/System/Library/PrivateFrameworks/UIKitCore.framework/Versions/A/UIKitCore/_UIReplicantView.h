@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)¸ß;
-- (id);
++ (Class);
 - (id);
-- (id);
-- (id)ÀNuþþÿ;
+- (id)tintColor:(struct CGRect)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (id)ightenedColorForColor:(const struct _UIRenderingSurface *)arg1;
+- (id)¤'èÿÌ'èÿ(èÿT(èÿx(èÿ´(èÿØ(èÿ)èÿ<)èÿt)èÿ¤)èÿÌ)èÿ*èÿT*èÿx*èÿ*èÿÀ*èÿä*èÿ +èÿ\+èÿ+èÿÄ+èÿð+èÿ,èÿH,èÿ-èÿ@-èÿp-èÿ-èÿÐ-èÿ.èÿÐ.èÿô.èÿ(/èÿL/èÿ/èÿÀ/èÿè/èÿ 0èÿP0èÿx0èÿÀ0èÿè0èÿ 1èÿP1èÿx1èÿÀ1èÿè1èÿ 2èÿP2èÿx2èÿÀ2èÿè2èÿ 3èÿP3èÿx3èÿÀ3èÿè3èÿ 4èÿP4èÿx4èÿ¸4èÿ5èÿ45èÿt5èÿ5èÿÌ5èÿø5èÿ6èÿ`6èÿ 6èÿÈ6èÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIReplicantLayer *_layer;

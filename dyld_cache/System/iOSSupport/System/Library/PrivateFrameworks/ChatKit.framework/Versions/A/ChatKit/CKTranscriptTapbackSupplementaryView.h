@@ -14,13 +14,13 @@
 }
 
 + (id);
-- (void)n;
-- (id)g locked notes migration prompt because it has been presented the maximum number of times;
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)matedImageAttachmentItemPreview;
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentBalloonView *balloonView; // @synthesize balloonView=_balloonView;

@@ -16,9 +16,10 @@
 }
 
 + (id);
-+ (id);
-+ (_Bool);
 + (id);
++ (_Bool)Ô(°!LFùqA,1Â0@ù
+× ;
++ (id)Á+é;
 - (void);
 - (void);
 - (void);
@@ -33,13 +34,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)eceiveSessionStats:relayGroupID:relaySessionID:success: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)2ChildSAConfiguration"^{NEVirtualInterface_s=}>48;
+- (unsigned long long);
 - (id);
-- (void)t:(id)arg1 ];
-- (void)r location, %{sensitive}@, error, %@;
-- (void)B@5ì÷Ä:(id)arg1 ^ÀØõvÃrf@;
+- (id);
+- (void)mode,%zd,isFinalSegmentPart,%d,isLastChunk,%d,tripId,%@,timeInterval,%@;
+- (void)TimerAlarm fireWithDate hit error:%@ /* Error: Ran out of types for this method. */;
+- (void)teUpdateNotification (in %s:(id)arg1 %d);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;

@@ -24,12 +24,12 @@
 - (_Bool);
 - (id);
 - (double);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)t-flags:(id)arg1 %u;
-- (id);
-- (id)k called, savedRecords, %@, deletedRecordIDs, %@, operationError, %@;
+- (id)earnedPlaceTypeInferencePlaceStats"8@"NSDictionary"16;
+- (void)placeStatsCandidatesForWorkExcludingPlacesNearHome count is 0. Skipping Work model inference;
+- (id)ion;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

@@ -11,16 +11,16 @@
     NSString *_passwordRulesDescriptor;
 }
 
-+ (id)mmand pipeline;
-+ (_Bool)«¦m;
-- (id)ithQOIThisBatchSet: /* Error: Ran out of types for this method. */;
-- (id)ID:(id)arg1 lastAddressedHandle:lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (id)alid = NO;
++ (id);
++ (_Bool)troller.edgeSwipeBase;
 - (id);
-- (void);
-- (id)ControllerDidChange;
+- (id);
+- (id);
+- (id);
+- (_Bool)eleratedUpdate:(id)arg1;
+- (void)tWithTitle:(id)arg1 actionHandler:type: /* Error: Ran out of types for this method. */;
+- (id)EB2711DestOutView",N,&,VliftedContentPunchout;
+- (void)!èñ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *passwordRulesDescriptor; // @synthesize passwordRulesDescriptor=_passwordRulesDescriptor;

@@ -24,10 +24,10 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long preferredTitleAlignment; // @synthesize preferredTitleAlignment=_preferredTitleAlignment;

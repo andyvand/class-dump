@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_source> *_timer;
 }
 
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void)AuthorizationContainerViewControllerAnimator;
 - (void);
 
 @end

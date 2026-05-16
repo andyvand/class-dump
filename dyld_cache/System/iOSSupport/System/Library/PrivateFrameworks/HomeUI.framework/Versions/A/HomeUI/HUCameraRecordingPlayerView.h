@@ -15,9 +15,9 @@
 + (Class);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)dentity.DeviceConfiguration.HeaderLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) AVPlayer *player; // @synthesize player=_player;

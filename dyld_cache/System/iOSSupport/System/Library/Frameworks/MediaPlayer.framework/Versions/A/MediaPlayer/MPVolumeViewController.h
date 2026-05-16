@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct CGSize);
-- (void);
 - (void);
 - (id);
+- (struct CGSize);
+- (void)bservationCount;
 
 // Remaining properties
 @property(readonly, nonatomic) MPVolumeView *volumeView; // @synthesize volumeView=_volumeView;

@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (Class)Ißÿ;
++ (Class)HorizontalTilt;
 - (id);
 - (id);
 - (id);
@@ -28,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ÐË;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

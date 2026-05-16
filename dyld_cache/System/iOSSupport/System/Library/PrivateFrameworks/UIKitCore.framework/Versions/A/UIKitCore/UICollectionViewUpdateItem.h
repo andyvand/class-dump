@@ -22,47 +22,44 @@
 }
 
 - (_Bool);
-- (long long)erCount;
 - (id);
+- (long long);
+- (void);
 - (_Bool);
-- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long)48@0:(id)arg1 8@16@24{CGPoint=dd}32;
-- (id);
 - (long long);
 - (id);
 - (id);
-- (_Bool);
-- (void)!0CùÑÂð1¢!0@ù
+- (id);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (void)1Â0@ù
 × ;
-- (id)Ð!´FùÑÅÐ1¢!0@ù
-× ;
-- (long long)× ;
-- (long long)AxÐ!Gù±Í°1¢!0@ù
-× ;
-- (id)ù
-× ;
-- (void)rRange:(_Bool)arg1 toCharacterRange: /* Error: Ran out of types for this method. */;
-- (long long)llViewInsetsForItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ntMap;
-- (_Bool)tate:(id)arg1;
-- (_Bool)errideBackgroundColor:,V_overrideBackgroundColor /* Error: Ran out of types for this method. */;
-- (long long)s;
-- (long long)SteadyTouchForceGestureRecognizer;
-- (id)or;
-- (id)Analytics] didAutocorrectReplacementForText:(id)arg1 '%{sensitive}@' withText:(id)arg2 '%{sensitive}@';
-- (_Bool):%@ /* Error: Ran out of types for this method. */;
-- (_Bool)tem for a popover presentation was found, but we cannot find its source view in the window %@. Ignoring the source item.;
-- (void);
-- (id)Button;
-- (void);
-- (long long)4Øýþ;
-- (long long)ÿ;
-- (long long)Í^;
+- (id)st"16;
+- (id)micButton"16;
+- (_Bool)@40@0:8q16q24@32 /* Error: Ran out of types for this method. */;
+- (id)d}{CGSize=dd}}72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16Q48@56@64 /* Error: Ran out of types for this method. */;
+- (id)erContextTransitioning>";
+- (long long)ornerConfiguration;
+- (_Bool)eDistanceFactor;
+- (long long)Materials: /* Error: Ran out of types for this method. */;
+- (void)DefinedTraits;
+- (long long)ameForInterfaceOrientation:(id)arg1 usingStatusbarHeight: /* Error: Ran out of types for this method. */;
+- (long long)cumentState: /* Error: Ran out of types for this method. */;
+- (_Bool)ged: /* Error: Ran out of types for this method. */;
+- (void)nect;
+- (_Bool)skImage:(id)arg1;
+- (id)0)4//ä/00@1;
+- (id);
+- (_Bool)uggest a height of zero                          for a %@'s content view. We're considering the collapse unintentional and using                          standard height instead.;
+- (long long)ÿ~Íîÿ¸ÔïÿàÔïÿ;
+- (id)e list section data, which is unsupported. This is a UIKit bug.;
+- (id)CollectionViewUpdateItem"8Q16^B24;
+- (_Bool) n;
+- (void)|;i;
+- (_Bool)P>^þNsÓÀck;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _finalItem;

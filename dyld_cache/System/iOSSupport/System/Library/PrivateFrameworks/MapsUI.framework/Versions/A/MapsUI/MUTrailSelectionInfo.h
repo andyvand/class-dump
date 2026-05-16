@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)alyticsButtonValues;
 
 // Remaining properties
 @property(nonatomic) unsigned long long trailID; // @synthesize trailID=_trailID;

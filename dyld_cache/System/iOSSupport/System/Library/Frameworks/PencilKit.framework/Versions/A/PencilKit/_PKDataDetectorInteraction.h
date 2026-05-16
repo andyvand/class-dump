@@ -27,26 +27,26 @@
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (_Bool);
-- (id)ouldStartThrottlingWithError:(struct CGPoint)arg1 retryAfter: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (struct CGAffineTransform);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (struct CGRect);
 - (id);
-- (id)L;
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id)hB;
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)Size=dd}24@0:(id)arg1 8q16;
+- (void)IBezierPath",R,N,V_shadowPathIncludingTip;
+- (id)pdateDetectionViews is called with a nil array.;
+- (void)idden, count:(id)arg1 %ld, isVisible:(id)arg2 %{BOOL}d;
+- (id)x;
 
 // Remaining properties
 @property(readonly, nonatomic) _PKDataDetectorController *dataDetectorController; // @synthesize dataDetectorController=_dataDetectorController;

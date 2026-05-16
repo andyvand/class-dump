@@ -37,10 +37,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)1¶
-1b0@ù
-× ;
+- (void)ÿÿÿÿø;
+- (void)tsIfFileURL:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <WFDictateTextActionUserInterface> actionUserInterface; // @synthesize actionUserInterface=_actionUserInterface;

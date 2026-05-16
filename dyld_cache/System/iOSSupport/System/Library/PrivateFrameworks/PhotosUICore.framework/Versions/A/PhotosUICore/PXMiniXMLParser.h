@@ -32,9 +32,9 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)â;
 - (void);
-- (id);
-- (void)ite:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSScanner *_scanner; // @synthesize _scanner=__scanner;

@@ -7,7 +7,9 @@
 @class UIViewController;
 
 @protocol HUViewControllerCell
-- (UIViewController *)ÔÿÈ;
+- (UIViewController *)1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *viewController;

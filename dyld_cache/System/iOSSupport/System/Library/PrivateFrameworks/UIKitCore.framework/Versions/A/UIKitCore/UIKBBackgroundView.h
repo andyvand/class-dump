@@ -27,26 +27,26 @@ __attribute__((visibility("hidden")))
     UIKBScreenTraits *_screenTraits;
 }
 
-- (void);
-- (id)Y;
-- (void);
-- (void);
-- (id)0@ù
+- (void)0@ù
 × ;
-- (id)ldLoadScrollableContainer: /* Error: Ran out of types for this method. */;
-- (void)tï3G;
-- (id)ch is not a kind of UITabBarController.;
-- (void)nil;
-- (id)ëÿ5è;
-- (_Bool)ýÉ0rg;
-- (double)ÿ|*Ú*?h;
-- (long long)¹ÿEW×K»h;
-- (id)Éi;
-- (_Bool)iRÿä;
-- (_Bool)xk;
-- (void)(;
-- (_Bool)Pçþæ× l;
-- (void)è;
+- (id)youtUpdateSection;
+- (id)ÈU;
+- (void)UITableViewCell. Cell:(id)arg1 %@;
+- (id)e=%u, earliestModelTime=%s;
+- (id)= %@ IndexPath = %@%@;
+- (id)initialize custom vibrant color matrix effect without a matix;
+- (double)yboard update with size: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)rialTraitDefinition;
+- (long long);
+- (_Bool);
+- (void)¬-;
+- (void)f\;
+- (_Bool)F;
+- (void)àºÿ;
+- (void)öJn;
+- (void)¼^ÿÑ;
+- (id)\SfÿHÝ¾¾r;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetIdiom;

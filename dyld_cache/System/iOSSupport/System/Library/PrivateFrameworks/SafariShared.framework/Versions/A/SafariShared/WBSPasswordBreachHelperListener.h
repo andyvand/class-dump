@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (void);
-- (_Bool)rceManager>;
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

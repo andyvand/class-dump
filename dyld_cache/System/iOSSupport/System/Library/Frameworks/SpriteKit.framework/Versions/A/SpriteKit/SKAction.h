@@ -111,9 +111,9 @@
 + (id);
 + (Class);
 + (id);
++ (_Bool);
 + (id);
 + (id);
-+ (_Bool)ÿÿ;
 - (void);
 - (void);
 - (void);
@@ -128,21 +128,21 @@
 - (struct SKCAction *);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (id);
 - (double);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (double);
 - (CDUnknownBlockType);
-- (double);
-- (void)è;
+- (_Bool);
 - (void);
-- (id)r_pointerIP12jet_constantNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
+- (void);
+- (id);
+- (void);
+- (id)09;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double duration;

@@ -20,16 +20,22 @@
 - (id);
 - (void);
 - (void);
-- (void)?;
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void)5;
-- (_Bool);
+- (id);
 - (id);
 - (long long);
-- (void)ùxxb;
+- (_Bool);
+- (void);
+- (void)`OÅÿíQu
+ÜOÅÿõQu
+\PÅÿõQu
+ÜPÅÿõQu
+\QÅÿõQu
+ÜQÅÿQu
+ìQÅÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isStopped;

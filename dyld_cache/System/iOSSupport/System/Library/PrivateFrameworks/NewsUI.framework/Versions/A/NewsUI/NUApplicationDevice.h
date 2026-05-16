@@ -14,9 +14,9 @@
 
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void);
+- (id)"24Q32;
 
 // Remaining properties
 @property(readonly, nonatomic) UIApplication *application; // @synthesize application=_application;

@@ -59,14 +59,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void)cItem"16@?0@"HMAccessoryDiagnosticsMetadata"8;
 
 // Remaining properties
 @property(nonatomic) __weak HOAppNavigator *appNavigator; // @synthesize appNavigator=_appNavigator;

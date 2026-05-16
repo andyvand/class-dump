@@ -25,40 +25,40 @@
     } _delegateFlags;
 }
 
-- (void)ecordID;
-- (void)rrentStorageOnDevice;
-- (void)inations:(id)arg1 service:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)pam:(id)arg1 trustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:completion: /* Error: Ran out of types for this method. */;
-- (id)anaging;
 - (void);
-- (void)eID %@ nameForked %@ imageForked %@;
 - (void);
-- (void)ids:(id)arg1 %@;
-- (void)tice protobuf fromHandle:(id)arg1 %@, notice:%@ /* Error: Ran out of types for this method. */;
-- (void)mpleted processing Clear Collaboration Notice protobuf fromHandle:(id)arg1 %@, notice:%@ /* Error: Ran out of types for this method. */;
-- (void)on Notice, error:(id)arg1 %@;
-- (void)e limiting for notice:(id)arg1 %@;
-- (void)tionHighlight"8@"NSError"16;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)&;
-- (void)uestStateDone >= transaction->requestState;
-- (void);
-- (void)tþ¹;
-- (void)¢!0@ù
-× ;
 - (id);
-- (id)ion;
-- (id)fRowFromIndexPath:(id)arg1 toIndexPath: /* Error: Ran out of types for this method. */;
-- (id)SaveOperation:originalContentsURL:error: /* Error: Ran out of types for this method. */;
-- (id)s never called.;
-- (id)s;
-- (void)n only have one action with a style of UIAlertActionStyleCancel;
-- (id)#ÿÄ};
-- (void)}j;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)te"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
+- (id)=};
+- (void)onStateIsActiveForRTI:(id)arg1;
+- (id)d: /* Error: Ran out of types for this method. */;
+- (id),W,N,V_previous;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

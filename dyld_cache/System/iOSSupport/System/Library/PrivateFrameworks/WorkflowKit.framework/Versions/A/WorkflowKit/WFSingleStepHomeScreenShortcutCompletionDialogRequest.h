@@ -12,12 +12,12 @@
     NSString *_applicationBundleIdentifier;
 }
 
-+ (_Bool)This action will get the contents of the specified draft in Drafts.;
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void)re;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;

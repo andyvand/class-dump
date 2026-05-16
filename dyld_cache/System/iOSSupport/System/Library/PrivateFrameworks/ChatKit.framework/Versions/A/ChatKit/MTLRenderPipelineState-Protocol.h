@@ -5,15 +5,16 @@
 //
 
 @class MTLRenderPipelineReflection, NSString;
-@protocol MTLDevice, MTLFunction, MTLFunctionHandle, MTLVisibleFunctionTable;
+@protocol MTLDevice, MTLIntersectionFunctionTable;
 
 @protocol MTLRenderPipelineState
-- (id <MTLVisibleFunctionTable>);
-- (CDStruct_aa0b146f);
-- (id <MTLFunctionHandle>)tBackgroundStyle:(id <MTLFunction>)arg1;
-- (unsigned long long)gBundleIdentifier;
-- (long long)°Üô;
-- (_Bool)nViewControllerQuicklook;
+- (id <MTLIntersectionFunctionTable>)Ô ;
+- (struct MTLResourceID);
+- (unsigned long long)ter;
+- (MTLRenderPipelineReflection *);
+- (CDStruct_aa0b146f)llaborationHighlightForURL failed with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)kGÿu¢k´n©ÿ½¢kGÿ¥¢kGÿ½¢k°Ø¨ÿe¢k´Ø¨ÿ;
+- (long long);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

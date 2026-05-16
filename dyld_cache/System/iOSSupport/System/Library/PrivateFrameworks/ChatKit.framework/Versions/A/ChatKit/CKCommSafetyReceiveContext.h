@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_indexPath;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (_Bool);
-- (id)= YES AND                               (entity != %@ || notes.@count > 0);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;

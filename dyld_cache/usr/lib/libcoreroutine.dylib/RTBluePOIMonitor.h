@@ -32,7 +32,7 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -49,7 +49,7 @@
 - (void);
 - (id);
 - (id);
-- (id)9h;
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -62,27 +62,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)`;
-- (void);
 - (id);
-- (id);
-- (id)s;
-- (id)topTunnelWithReason Invoked;
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)
-× ;
-- (id)T;
-- (void)%;
-- (id)nDate;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)@40@48;
+- (void):(id)arg1;
+- (id)queAOIResultCount;
+- (id)ge_of_days_with_charging_work_bucketed;
+- (void)%@;
+- (id)%@, %@, initializing triggerOffWrist;
 
 // Remaining properties
 @property(nonatomic) double aoiRefreshBackoffInterval; // @synthesize aoiRefreshBackoffInterval=_aoiRefreshBackoffInterval;

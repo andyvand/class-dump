@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout;
+@class NSIndexPath, UICollectionView;
+@protocol UISpringLoadedInteractionContext;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (UICollectionViewTransitionLayout *)?1b0@ù
+- (_Bool)1â
+0@ù
 × ;
-- (NSIndexPath *)ithPreviewGenerator:(UICollectionView *)arg1 extensionProvider:(NSIndexPath *)arg2;
-- (NSIndexPath *)ateMonitor:(UICollectionView *)arg1 contextDidUpdate:(NSIndexPath *)arg2;
-- (_Bool)ations;
-- (void)ocess;
-- (_Bool);
+- (void)á¾ð!Eùñ°1â
+0@ù
+× ;
+- (_Bool)titleComplication:(UICollectionView *)arg1 layoutType:(NSIndexPath *)arg2 modeSemanticType:(id <UISpringLoadedInteractionContext>)arg3 modeUUID:complications:landscapeComplications:blankTemplate:shouldShowAsShuffleStack:source: /* Error: Ran out of types for this method. */;
+- (_Bool)bject isKindOfClass:(UICollectionView *)arg1 NSDictionaryClass];
 @end
 

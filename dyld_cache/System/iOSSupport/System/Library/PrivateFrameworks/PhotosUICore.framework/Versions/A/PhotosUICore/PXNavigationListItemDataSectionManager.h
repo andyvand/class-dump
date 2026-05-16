@@ -48,21 +48,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
 - (_Bool);
-- (void)±xÐ1b0@ù
-× ;
+- (_Bool);
+- (unsigned long long);
 - (id);
-- (id)leDisplayLink: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)5;
-- (void);
-- (id)ô5;
+- (id)hsSublayoutComposition;
+- (void)gestionsSeeAllPhotosViewConfiguration(PHPhotoLibrary *__strong _Nonnull, BOOL);
+- (id)dAssetForActionManager:] /* Error: Ran out of types for this method. */;
+- (void)bum %@;
+- (void)ttomInset;
+- (id)EÉÉ ;
+- (id)µ3;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessoryTitle; // @synthesize accessoryTitle=_accessoryTitle;

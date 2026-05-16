@@ -15,8 +15,8 @@
     MISSING_TYPE *feedContextFactory;
 }
 
-- (void);
 - (id);
+- (void)ervice;
 
 @end
 

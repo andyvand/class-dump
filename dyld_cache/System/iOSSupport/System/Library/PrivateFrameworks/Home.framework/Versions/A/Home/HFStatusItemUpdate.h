@@ -21,16 +21,17 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)[HFAbstractPositionStatusItem multipleOpenServicesDescriptionString];
-- (void)óõØ;
+- (id)ÁÞÐ!L@ùá°1B50@ù
+× ;
+- (void)s;
+- (id)¤jñÿèÅú¥;
 
 // Remaining properties
 @property(nonatomic, retain) HFNumberRange *currentValue;

@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)\Þÿa4ÑÇ8;
+- (id)ControllerDelegate;
 
 @end
 

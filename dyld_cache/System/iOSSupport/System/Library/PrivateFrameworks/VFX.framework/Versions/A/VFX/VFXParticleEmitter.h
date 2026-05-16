@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)¨®uÈ×T;
++ (_Bool)ccelerationStructureDescriptor"16;
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -34,8 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (float);
 - (void);
+- (float);
 - (void);
 - (id);
 - (void);
@@ -47,14 +47,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)on"Q"length"Q};
-- (void)lueNode;
-- (id)@Öðw}ÿ@ÖXx}ÿ;
+- (void);
 - (id);
+- (id)PbÌ;
+- (id)üDyQ;
+- (void)1d;
 
 // Remaining properties
 @property(retain, nonatomic) VFXNode *anchor;

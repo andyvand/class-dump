@@ -32,12 +32,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)ring"8@"WFContentCollection"16;
 
 // Remaining properties
 @property(readonly, nonatomic) AVSpeechSynthesizer *avSynthesizer; // @synthesize avSynthesizer=_avSynthesizer;

@@ -21,11 +21,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)apeLayer",&,N,V_intersectionMask;
-- (id)ax;
+- (id)¼d¨;
+- (void)üø;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addedItems; // @synthesize addedItems=_addedItems;

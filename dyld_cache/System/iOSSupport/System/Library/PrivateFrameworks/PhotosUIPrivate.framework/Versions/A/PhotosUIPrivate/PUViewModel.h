@@ -26,19 +26,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)earAnimated:(CDUnknownBlockType)arg1;
-- (void)·ÚÒ
-;
-- (id)ª;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)nManagerSnapshot: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)achingImageManager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *_changeObservers; // @synthesize _changeObservers=__changeObservers;

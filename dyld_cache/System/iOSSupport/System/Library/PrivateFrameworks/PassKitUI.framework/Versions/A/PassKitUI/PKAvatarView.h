@@ -22,18 +22,17 @@
 - (struct CGSize);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (double);
-- (void);
 - (id);
-- (struct CGSize);
-- (void)Ô$Ð!\Fù+Ð1b0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;

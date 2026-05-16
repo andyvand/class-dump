@@ -29,13 +29,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *overrideDate; // @synthesize overrideDate=_overrideDate;

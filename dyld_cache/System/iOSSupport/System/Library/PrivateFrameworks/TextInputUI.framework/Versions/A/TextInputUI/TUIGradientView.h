@@ -13,17 +13,17 @@
 }
 
 + (Class);
-- (id)Ù¶öz;
-- (void)|;
-- (void);
-- (void)ez;
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
 - (id);
 - (void);
 - (void);
-- (void)ard.updateTrackingElements;
+- (void);
+- (id);
+- (struct CGPoint);
+- (struct CGPoint);
+- (void);
+- (id);
+- (void);
+- (void),ñÿ\	;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

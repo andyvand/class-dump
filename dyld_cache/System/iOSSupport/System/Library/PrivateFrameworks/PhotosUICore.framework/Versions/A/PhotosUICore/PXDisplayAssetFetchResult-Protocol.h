@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol PXDisplayAsset;
 
 @protocol PXDisplayAssetFetchResult
-- (NSArray *)
-× ;
-- (id <PXDisplayAsset>)reuse identifier per clip;
+- (id <PXDisplayAsset>): /* Error: Ran out of types for this method. */;
+- (id <PXDisplayAsset>)D';
+- (id <PXDisplayAsset>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> firstObject;

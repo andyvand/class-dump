@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (long long);
-- (id)8@16d24@32@40@48;
-- (void);
-- (void);
-- (void);
-- (id)ffset:destinationBytesPerRow:destinationBytesPerImage:options: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (CDUnknownBlockType);
+- (void)outingDataSource",R,N,V_dataSource;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

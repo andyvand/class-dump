@@ -40,10 +40,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)ýÿ;
-- (void)îµÿïWPÈC5;
+- (id);
+- (void){CGSize=dd}{CGSize=dd}{CGSize=dd}BQ{CGPoint=dd}}416^B496;
+- (void)on;
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;

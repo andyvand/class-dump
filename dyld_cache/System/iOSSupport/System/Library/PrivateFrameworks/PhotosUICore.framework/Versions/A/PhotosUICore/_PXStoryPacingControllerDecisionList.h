@@ -23,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (void)°¿;
+- (void)howAll;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_12f93e2f *decisions; // @synthesize decisions=_decisions;

@@ -7,10 +7,8 @@
 @class NSNumber, NSString;
 
 @protocol PXLemonadeCollectionsFeedEmptyStateViewModel
-- (void (^)(void));
-- (NSString *)1b0@ù
-× ;
-- (void)rceKind;
+- (NSString *)rrentSongResource;
+- (NSString *)overlapAreaLuminance;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler;

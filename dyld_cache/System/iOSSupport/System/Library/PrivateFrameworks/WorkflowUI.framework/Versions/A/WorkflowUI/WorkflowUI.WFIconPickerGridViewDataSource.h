@@ -17,8 +17,8 @@
     MISSING_TYPE *semanticSymbolIndex;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol PXLayoutItemInput
+- (double)eocodeLocation:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

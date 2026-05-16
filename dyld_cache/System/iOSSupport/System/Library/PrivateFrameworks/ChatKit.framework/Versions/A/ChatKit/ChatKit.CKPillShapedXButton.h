@@ -9,13 +9,13 @@
     BOOL ckTintColor;
 }
 
-+ (struct CGSize)¤nÿê×4+-;
++ (struct CGSize);
 - (BOOL);
 - (void);
 - (struct CGSize);
 - (id);
-- (id)Rúÿ;
-- (struct CGSize)°Yðÿ;
+- (struct CGSize);
+- (id);
 
 // Remaining properties
 @property(nonatomic) BOOL ckTintColor; // @synthesize ckTintColor;

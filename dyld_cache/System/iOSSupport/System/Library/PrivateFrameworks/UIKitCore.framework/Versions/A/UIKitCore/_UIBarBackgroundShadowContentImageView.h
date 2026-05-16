@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
     _Bool _applyTintColorToBackgroundColor;
 }
 
+- (_Bool);
 - (void);
-- (void);
-- (_Bool)ewController: /* Error: Ran out of types for this method. */;
-- (id)fyTransformMaxHeight;
-- (void)andler for phase = %i (current is %i);
+- (void)0@ù
+× ;
+- (id)TypesMask;
+- (void)3UIBridgedAnimationValueP;
 
 // Remaining properties
 @property(nonatomic) _Bool applyTintColorToBackgroundColor; // @synthesize applyTintColorToBackgroundColor=_applyTintColorToBackgroundColor;

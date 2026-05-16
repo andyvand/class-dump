@@ -12,7 +12,7 @@
 
 + (id);
 - (struct CGAffineTransform);
-- (id)Th;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -20,17 +20,17 @@
 - (struct CGAffineTransform);
 - (id);
 - (_Bool);
-- (struct CGAffineTransform)own ActionResult;
 - (struct CGAffineTransform);
 - (id);
+- (struct CGAffineTransform);
+- (id);
+- (id);
+- (struct CGSize);
+- (struct CGPoint);
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (struct CGSize);
 - (id);
-- (id);
-- (id);
-- (struct CGPoint)ô;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=mSize;

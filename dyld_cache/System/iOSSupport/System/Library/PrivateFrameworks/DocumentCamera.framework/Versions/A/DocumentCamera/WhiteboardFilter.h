@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;

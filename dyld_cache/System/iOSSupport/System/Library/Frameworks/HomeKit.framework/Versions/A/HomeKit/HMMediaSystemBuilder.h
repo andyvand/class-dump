@@ -26,7 +26,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)ationData;
++ (id)ttery;
 - (id);
 - (void);
 - (void);
@@ -47,10 +47,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -58,8 +56,10 @@
 - (id);
 - (id);
 - (void);
-- (id)r;
-- (void)C ;
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) HMFActivity *activity; // @synthesize activity=_activity;

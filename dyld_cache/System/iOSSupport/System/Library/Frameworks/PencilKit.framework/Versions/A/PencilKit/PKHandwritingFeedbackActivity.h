@@ -16,16 +16,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)C;
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
 - (id);
-- (id)tÆêÿ­·+õÞ;
+- (void)`*;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

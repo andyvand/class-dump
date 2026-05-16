@@ -66,7 +66,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (Class)ry",&,N,V_kindEnrollmentsDict;
++ (Class)0çÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _allowsHorizontalFocusMovement;

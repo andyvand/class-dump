@@ -19,11 +19,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!tBùÑñ1â
+0@ù
+× ;
+- (id)InTableView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <PREditorNumberingSystemPickerControllerDelegate> delegate; // @synthesize delegate=_delegate;

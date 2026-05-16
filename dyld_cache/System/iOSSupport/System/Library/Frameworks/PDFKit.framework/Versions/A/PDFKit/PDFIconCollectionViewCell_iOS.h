@@ -24,18 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)r>",R,N;
-- (void);
 - (id);
-- (id)licKeyCredentialRequest;
+- (id);
 - (void);
-- (id)lector: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)Private";
+- (void);
+- (void);
+- (void);
+- (void)ggedNode=}16;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionsButton; // @synthesize actionsButton=_actionsButton;

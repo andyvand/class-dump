@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)t>"16@?0@"HFSiriLanguageOption"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *interactionType; // @synthesize interactionType=_interactionType;

@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)eryReceiptProcessingComponent;
-+ (_Bool)0;
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (id);
-+ (long long)úZöe;
++ (id)rrect code path when app does not use UIScene lifecycle API;
++ (long long)(dþÄÍ2jh;
 
 @end
 

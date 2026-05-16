@@ -5,11 +5,8 @@
 //
 
 @class NSPointerArray;
-@protocol _UIMenuElementStateObserver;
 
 @protocol _UIMenuStateObserverableLeaf
-- (void);
-- (void)eceiveHighlightEvent:(id <_UIMenuElementStateObserver>)arg1 fromSender:guidString:date: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_getStateObservers, setter=_setStateObservers:) NSPointerArray *stateObservers;

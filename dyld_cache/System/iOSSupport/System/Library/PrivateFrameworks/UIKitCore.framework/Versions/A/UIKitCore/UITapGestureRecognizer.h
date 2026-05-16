@@ -17,8 +17,9 @@
     long long _buttonType;
 }
 
-+ (_Bool)ltaX;
-+ (_Bool)j¨m;
++ (_Bool)±`°1Â0@ù
+× ;
++ (_Bool)th redesigned_text_cursor=on.;
 
 @end
 

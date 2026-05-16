@@ -5,6 +5,6 @@
 //
 
 @protocol UITextInputSuggestionDelegate
-- (void)MetricsShadowStyle;
+- (void);
 @end
 

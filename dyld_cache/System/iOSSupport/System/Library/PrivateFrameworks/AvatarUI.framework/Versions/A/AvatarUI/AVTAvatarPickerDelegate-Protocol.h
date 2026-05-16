@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarPickerDelegate
-- (void);
 @end
 

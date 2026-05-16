@@ -4,8 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @interface (null) (WBSUINSURLExtras)
 - (struct _NSRange);
 - (id);
+- (id);
+
+// Remaining properties
+@property(readonly, copy, nonatomic) NSString *safari_originForReferrer;
 @end
 

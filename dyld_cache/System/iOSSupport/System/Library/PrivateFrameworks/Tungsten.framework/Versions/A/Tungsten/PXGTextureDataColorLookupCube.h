@@ -20,12 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (MISSING_TYPE *);
 - (id);
-- (unsigned long long);
 - (_Bool);
-- (MISSING_TYPE *)ounds;
+- (void);
+- (unsigned long long)áÑð!hGùqÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

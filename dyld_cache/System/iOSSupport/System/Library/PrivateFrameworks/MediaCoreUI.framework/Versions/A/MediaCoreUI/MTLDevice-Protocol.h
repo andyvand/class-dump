@@ -4,98 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, MTLTileRenderPipelineDescriptor, NSArray, NSString;
-@protocol MTL4ArgumentTable, MTL4CommandQueue, MTL4Compiler, MTL4PipelineDataSetSerializer, MTLAccelerationStructure, MTLArgumentEncoder, MTLBinaryArchive, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunction, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLLogState, MTLRasterizationRateMap, MTLRenderPipelineState, MTLResidencySet, MTLSharedEvent, MTLTensor, MTLTexture, MTLTextureViewPool;
+@class MTLArchitecture, NSArray, NSString;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTLAccelerationStructure, MTLCommandQueue, MTLEvent, MTLFence, MTLIOCommandQueue, MTLLibrary, MTLSharedEvent;
 
 @protocol MTLDevice
-- (void)	
-HI;
-- (_Bool)HI;
-- (_Bool);
-- (id <MTLEvent>)$;
-- (id <MTLIOFileHandle>).Dô.;
-- (_Bool)qøq;
-- (unsigned long long)àÚ;
-- (id <MTLDynamicLibrary>)¼9;
-- (unsigned long long)ÔEF`FÀF;
-- (id <MTLLogState>)Ð;
-- (id <MTL4CommandQueue>)!;
-- (_Bool)%{bool}d to %{bool}d;
-- (void)[ýÿp:(id <MTLFunction>)arg1 üÿ¸.üÿ°#üÿ;
-- (id <MTLRasterizationRateMap>);
-- (id <MTL4PipelineDataSetSerializer>)ÿ¢åüÿ;
-- (id <MTLLibrary>);
-- (void)Îýÿøýÿjdüÿ;
-- (unsigned long long)öfýÿlüÿ;
-- (id <MTLRenderPipelineState>)©ýÿCpÿÿ;
-- (_Bool)`rÿÿ;
-- (void)ëuÿÿ;
-- (id <MTLComputePipelineState>)pýÿ{ÿÿ;
-- (id <MTLCommandQueue>),{ÿÿ;
-- (id <MTLTensor>)}ÿÿ;
-- (unsigned long long)ÖÝüÿù}ÿÿ;
-- (id <MTLLibrary>)¸ýÿ~ÿÿ;
-- (_Bool)ÿ;
-- (id <MTL4CommandQueue>)aspectRatioObserver;
-- (_Bool)holder;
-- (id <MTLCommandQueue>)es;
-- (id <MTL4Compiler>);
-- (id <MTLFunctionHandle>)hÒþÿõ"°âþÿ¤âþÿÂ;
-- (id <MTLAccelerationStructure>)'°;
-- (unsigned long long);
-- (id <MTLRenderPipelineState>)TÞÿ;
-- (id <MTLBuffer>);
 - (id <MTLIOCommandQueue>);
-- (void)ÜÙÿB;
-- (id <MTL4ArgumentTable>)AÕÿô;
-- (void);
-- (CDStruct_4bcfbbae)ÿÿ|æûÿÊÓÿ;
-- (id <MTLTexture>)¦ÞyxGG;
-- (_Bool)GAAyAAyAAyÅ;
-- (_Bool)enuButtonJ;
-- (_Bool)GGGtGGø/±yJ±GG_So7UIImageCSgQo__	÷ÞQo_;
-- (id <MTLLibrary>)ediaCoreUI25ScopeBarItemRepresentableP;
-- (_Bool)CAReplicatorLayerC;
-- (id <MTLArgumentEncoder>)W$;
-- (id <MTLAccelerationStructure>)±y_>±y_G/±y_So13AVQueuePlayerCvCßGSbGG;
-- (_Bool)/5;
-- (id <MTLResidencySet>)SgGG)«±yÓ¡±GG¢±Gþ­±G;
-- (unsigned long long)ßSgGÞÕ±GAHGßGSgG_SbQo_;
-- (id <MTLTextureViewPool>)&c´G;
-- (id <MTLArgumentEncoder>)AAyAAyAAyAAyÙ±yÙñ±AHGñå±GALGPÛ±GANGá±GtGGNà±G;
-- (void)AAyAAyAAyAAyAAyAfGyAWSgGGA17_GA17_GA17_GAOGGGG;
-- (id <MTLDynamicLibrary>)yCompositing;
-- (unsigned long long)nts on a new renderPassDescriptor;
-- (id <MTLRenderPipelineState>)or ScenePhase:(MTLTileRenderPipelineDescriptor *)arg1;
-- (id <MTLLibrary>)MediaCoreUI.GeometryTrackingView;
-- (CDStruct_14f26992)te;
-- (unsigned long long)constraints specified.;
-- (void)ÀÄç;
-- (MTLArchitecture *)Æ;
-- (unsigned long long)e;
-- (id <MTLSharedEvent>)yµqâÿ;
-- (id <MTLIOFileHandle>)';
-- (_Bool)XãØÿ-j³TãØÿ5j³ÌxÖÿEj³$wñÿ;
-- (unsigned int);;
-- (id <MTLTexture>)Ù;
-- (id <MTLComputePipelineState>)ullPlayer;
-- (id <MTLFunctionHandle>)ÀØê¢àIäÿàIäÿ;
-- (unsigned long long)ÿÅÐ;
-- (_Bool)BackgroundStaticArtworkTreatment;
-- (_Bool)-;
-- (unsigned long long)E;
-- (_Bool)Â;
-- (id <MTLBinaryArchive>)tView;
-- (_Bool)´ ;
-- (NSArray *);
-- (void)rsAsset;
-- (CDStruct_4bcfbbae)ntrolSliderModifier;
-- (unsigned long long)½Ã´4>ÙÿÕÃ´0>ÙÿÃ´,>Ùÿ½Ã´(>ÙÿÃ´$>ÙÿÃ´<>ÙÿÃ´L>ÙÿÃ´|>Ùÿ]Ã´ì>Ùÿ;
-- (id <MTLFence>)me;
-
-@optional
-- (void)Ð.ýÿ*süÿ;
-- (void);
+- (id <MTLAccelerationStructure>)æüÿãuÿÿ;
+- (_Bool);
+- (id <MTL4CommandAllocator>)ATA_GA2_GAHGA9_GA11_G_ALQo_A14_GSgtGG£s
+GG;
+- (id <MTLEvent>)\òÿä\òÿ;
+- (id <MTL4Archive>)BackdropView;
+- (id <MTL4ArgumentTable>)5&U
+X]ìÿ%&U
+ø]ìÿ;
+- (id <MTLCommandQueue>)´ìUìÿìUìÿðÆâ	;
+- (_Bool);
+- (void)ã	;
+- (_Bool)XS;
+- (id <MTLFence>);
+- (id <MTL4CommandBuffer>)¡;
+- (_Bool)uteButton;
+- (unsigned long long)3;
+- (id <MTL4CommandAllocator>)³;
+- (_Bool);
+- (id <MTLSharedEvent>)¼¬ÄNÚÿOÚÿàk;
+- (unsigned long long)V
+õù;
+- (_Bool)V
+ì×ÿ;
+- (unsigned long long)ÔÿµV
+øýÔÿ;
+- (_Bool)¼Ôÿ\¼Ôÿ;
+- (unsigned long long)¨ë;
+- (id <MTL4CommandQueue>);
+- (void)CAColorMatrix;
+- (id <MTLLibrary>);
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -112,7 +56,7 @@
 @property(readonly) unsigned long long maxArgumentBufferSamplerCount;
 @property(readonly) unsigned long long maxBufferLength;
 @property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) CDStruct_14f26992 maxThreadsPerThreadgroup;
+@property(readonly) struct maxThreadsPerThreadgroup;
 @property(readonly) unsigned long long maxTransferRate;
 @property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
@@ -133,6 +77,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

@@ -7,8 +7,7 @@
 @class SXDropCapStyle, SXTextStyle;
 
 @protocol SXConditionalComponentTextStyleProperties
-- (double);
-- (long long)onManager;
+- (long long)sented;
 
 // Remaining properties
 @property(readonly, nonatomic) SXDropCapStyle *dropCapStyle;

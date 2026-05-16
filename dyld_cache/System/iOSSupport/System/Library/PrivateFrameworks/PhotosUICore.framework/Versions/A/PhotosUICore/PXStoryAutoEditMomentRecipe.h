@@ -18,8 +18,7 @@
 - (unsigned long long);
 - (CDStruct_b8e7e30c);
 - (id);
-- (id)¡v°!|Cù{Ð1b0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_618113c1 incomingTransition; // @synthesize incomingTransition=_incomingTransition;

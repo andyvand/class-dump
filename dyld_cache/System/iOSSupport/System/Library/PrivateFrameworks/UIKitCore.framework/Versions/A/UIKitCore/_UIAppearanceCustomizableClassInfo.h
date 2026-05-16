@@ -17,19 +17,18 @@ __attribute__((visibility("hidden")))
     Class _guideClass;
 }
 
-+ (id);
-+ (id)ntry"8Q16^B24;
-- (id);
-- (unsigned long long);
-- (_Bool)ex:(id)arg1;
++ (id)0@ù
+× ;
++ (id)erer to avoid this assert.;
 - (void);
-- (Class)Ôáo!LAùqÂ1¢!0@ù
-× ;
-- (unsigned long long)
-× ;
-- (Class)dsDoubleUpdateConstraintsIsInvalidIncludingSelf: /* Error: Ran out of types for this method. */;
-- (id)rButtonHidden:,V_forceDisplayModeBarButtonHidden /* Error: Ran out of types for this method. */;
-- (id)çÿÜçÿpçÿ|çÿçÿ;
+- (id);
+- (Class);
+- (id);
+- (Class);
+- (unsigned long long);
+- (_Bool):(id)arg1;
+- (id)ectionSnapshotState;
+- (unsigned long long)ôe;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_classReferenceKey; // @synthesize _classReferenceKey;

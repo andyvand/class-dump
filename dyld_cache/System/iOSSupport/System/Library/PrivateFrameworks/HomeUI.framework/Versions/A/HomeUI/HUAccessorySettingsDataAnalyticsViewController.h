@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)in selectedItems not conforming to HFActionBuilderFactory:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

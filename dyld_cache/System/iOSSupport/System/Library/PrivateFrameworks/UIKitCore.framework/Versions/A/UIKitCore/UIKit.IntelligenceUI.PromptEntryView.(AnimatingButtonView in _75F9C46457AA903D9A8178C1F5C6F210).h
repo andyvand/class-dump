@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class)eStageInteractionProgress;
++ (Class);
 - (id);
-- (id)nu error log path when there were no duplicate menus. This is a UIKit internal bug.;
+- (id)erver;
 
 @end
 

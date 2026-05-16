@@ -7,7 +7,9 @@
 @class NSArray, NSDictionary;
 
 @protocol PXStoryAutoEditClip
-- (CDStruct_3ac0dd7e)m;
+- (NSDictionary *)tches;
+- (CDStruct_618113c1)HûûýÀýþPÿ ÿ;
+- (CDStruct_3ac0dd7e)ld_ALL_DUPLICATES_ACTION_FORMAT;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_273850af audioInfo;

@@ -10,12 +10,12 @@
 {
 }
 
-- (BOOL)owID: /* Error: Ran out of types for this method. */;
+- (BOOL);
 - (id);
 - (_Bool);
-- (Class);
 - (struct UIEdgeInsets);
-- (unsigned long long)v16@0:8 /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long)ingAudienceViewController"16Q24;
 
 @end
 

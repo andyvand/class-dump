@@ -7,50 +7,27 @@
 @class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
 
 @protocol FCFeedTheming
-- (NSString *);
-- (FCColor *);
-- (struct CGSize)reProfile;
-- (FCAssetHandle *)ÿÿÿÿ¬;
-- (FCTagBanner *),;
-- (FCTagBanner *)¬;
-- (_Bool)Ì°ü°4±p±¤±Ü± ²h²²è²0³d³³Ø³´4´l´´Ì´µXµµØµ¶X¶¶´¶ì¶·;
-- (struct CGSize)`ê~ë;
-- (struct CGSize)T;
-- (FCColorGradient *)@W¤X¥$Y¦ð^\_§<`\a¨c;
-- (FCColorGradient *)=;
-- (FCAssetHandle *)ºrñÿ¾rñÿÄrñÿärñÿ;
-- (FCColorGradient *)c completion notification from watchlist;
-- (FCColor *)óûÿ;
-- (long long)Sections;
-- (NSString *)puzzleStatsService;
-- (FCColor *)em;
-- (struct FCEdgeInsets)on;
-- (FCAssetHandle *)Frame;
-- (double)printLayoutProvider;
-- (FCHeadlineTemplate *)ÿ;
-- (FCColorGradient *)û¬þ;
-- (FCColorGradient *)h=òÿ ÿÌÑ
-;
-- (struct FCEdgeInsets)èO0ÿC;
-- (FCColor *);
-- (FCColor *)P;
-- (FCAssetHandle *)e displayed when loading a puzzle fails because of connection device obsoletion.;
-- (FCTagBanner *)channel or topic in the action sheet that appears when tapping the dislike button in Following;
-- (FCAssetHandle *)Dislike;
-- (FCColor *)The offline title when the page is not available due to unsupported region;
-- (FCAssetHandle *)ySports layoutAttributes ;
-- (FCColor *)inserted section, indicating a replacement, but the index path being replaced isn't at row 0. This is unexpected.;
-- (FCColor *)§±;
-- (_Bool)À¨Z-±Hü¤;
-- (FCColor *)Üºþ©Vþ®ÿ;
-- (FCColor *)ne;
+- (FCContentColorMap *)Ð1Â0@ù
+× ;
+- (FCColorGradient *)orialItems;
+- (FCColor *)_TtC7NewsUI255MagazineCatalogSectionHeaderViewLayoutAttributesFactory;
+- (FCAssetHandle *);
+- (struct CGSize)(11è102;
+- (FCAssetHandle *)`÷ÿ;
+- (FCColor *)ind;
+- (FCAssetHandle *)peP;
 - (FCAssetHandle *);
-- (FCColor *);
-- (FCAssetHandle *)Ð;
-- (FCAssetHandle *)ype;
-- (unsigned long long)?;
-- (struct FCEdgeInsets)¯4E;
-- (FCAssetHandle *)NÆþ5¦|NÆþ;
+- (FCColorGradient *)×<OÿR;
+- (FCTagBanner *)°h¥þ$3;
+- (FCColor *)}
+            ]
+        }
+    ]
+};
+- (struct FCEdgeInsets)ÿ;
+- (FCColor *);
+- (FCTextInfo *)ions;
+- (double)X;
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *adBackgroundColor;

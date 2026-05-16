@@ -7,12 +7,97 @@
 @class NSArray, NSString, VFXMaterial, VFXMeshElement, VFXMeshSource, VFXModelTessellator;
 
 @protocol VFXModelJSExport
-- (NSArray *)ÿæÿæÿ¨æÿ´æÿÀæÿÌæÿØæÿäæÿðæÿüæÿæÿæÿ æÿ,æÿ8æÿDæÿPæÿ\æÿhæÿtæÿæÿæÿæÿ¤æÿ°æÿ¼æÿÈæÿÔæÿàæÿìæÿøæÿæÿæÿæÿ(æÿ4æÿ@æÿLæÿXæÿdæÿpæÿ|æÿæÿæÿ æÿ¬æÿ¸æÿÄæÿÐæÿÜæÿèæÿôæÿ;
-- (void);
-- (id)~®?¡¾L¥?e?ÜI¨?|¾Ô'ù>_f?ê$£?!@¾¤Ãë>¶¿g?ÅX?¬¾rÞ>@i?¾?[^y¾Ñ>Ëj?% ?g|o¾¾Å>Zl?Q?ÚÅd¾T¸>ým?>?ññY¾c¬>¦o?5?A¼N¾ó >74q?0d?ÒÿB¾Xã>ïÊr?Ï¼?H67¾~V>Tt?ä.?'Ù*¾O |>úÐu?	Æ?ý ¾
-øe>37w?/?õô¾ÈP>x?}ìz?g¾ B<>¡¾y?øv?|(ñ½(>ÆÛz?¦s?iÅ×½Í>Ú{?8gp?ën¾½ñ¹>4½|?Vm?¢'¥½Vã=¥}?õj?r½äÀ=Â2~?éÕh?^g½=;Å~?
-÷f?ª6½ïy=i:?>xe?Ý'½­L8=y?ª*d?°7±¼
-ñ<5Ñ?Ôb?rÀ.¼ä,l<ô?ra?ÿÃ8¨û· /* Error: Ran out of types for this method. */;
+- (void)= (patchBits >> 12) & 0x3ff;
+
+    // top left corner
+    float pu = float(iu*frac);
+    float pv = float(iv*frac);
+
+    // normalize u,v coordinates
+    return float2((uv.x - pu) / frac, (uv.y - pv) / frac);
+}
+
+bool isRegular(uint patchBits) {
+    return (((patchBits >> 5) & 0x1u) != 0);
+}
+
+int getNumControlVertices(int patchType) {
+    switch(patchType) {
+        case 3:(NSString *)arg1 return 4;
+        case 6:return 16;
+        case 9:return 20;
+        default:return 0;
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+kernel void eval_patches(
+                         uint thread_position_in_grid [[thread_position_in_grid]],
+                         const constant uint4* patchArrays [[buffer(PATCH_ARRAYS_BUFFER_INDEX)]],
+                         device PatchCoord* patchCoords [[buffer(PATCH_COORDS_BUFFER_INDEX)]],
+                         device int* patchIndices [[buffer(PATCH_INDICES_BUFFER_INDEX)]],
+                         device PatchParam* patchParams [[buffer(PATCH_PARAMS_BUFFER_INDEX)]],
+                         device float* srcVertexBuffer [[buffer(SRC_VERTEX_BUFFER_INDEX)]],
+                         device float* dstVertexBuffer [[buffer(DST_VERTEX_BUFFER_INDEX)]],
+                         device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+                         device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+                         const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+                         )
+{
+    auto current = thread_position_in_grid;
+    auto patchCoord = patchCoords[current];
+    auto patchIndex = patchIndices[patchCoord.patchIndex];
+    auto patchArray = patchArrays[patchCoord.arrayIndex];
+    auto patchBits = patchParams[patchIndex].field1; 
+    auto patchType = select(patchArray.x, uint(6), isRegular(patchBits));
+    auto numControlVertices = getNumControlVertices(patchType);
+    auto uv = normalizePatchCoord(patchBits, float2(patchCoord.s, patchCoord.t));
+    auto dScale = float(1 << getDepth(patchBits));
+    auto boundaryMask = int((patchBits >> 8) & 0xFU);
+
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+
+
+    if(patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 6) {
+        OsdGetBSplinePatchWeights(uv.x, uv.y, dScale, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+
+    Vertex dst, du, dv;
+    clear(dst);
+    clear(du);
+    clear(dv);
+
+
+    auto indexBase = patchArray.z + numControlVertices * (patchCoord.patchIndex - patchArray.w);
+    for(auto cv = 0; cv < numControlVertices; cv++)
+    {
+        auto index = patchIndices[indexBase + cv];
+        auto src = readVertex(index, srcVertexBuffer, args);
+        addWithWeight(dst, src, wP[cv]);
+        addWithWeight(du, src, wDs[cv]);
+        addWithWeight(dv, src, wDt[cv]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    if(args.duDesc.y > 0)
+        writeDu(current, du, duDerivativeBuffer, args);
+
+    if(args.dvDesc.y > 0)
+        writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+
+
+}
+
+ /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) VFXMeshElement *edgeCreasesElement;

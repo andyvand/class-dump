@@ -19,10 +19,10 @@
     MISSING_TYPE *encryptionDelegate;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)0¥ýÿóNÿÿ;
 
 @end
 

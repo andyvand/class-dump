@@ -26,9 +26,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)0@ù
+× ;
+- (_Bool)tity",&,N,V_entity;
+- (void)\>>ü>;
 
 // Remaining properties
 @property(readonly, nonatomic) HFMediaAccessControlEditorItemProvider *accessControlEditorItemProvider; // @synthesize accessControlEditorItemProvider=_accessControlEditorItemProvider;

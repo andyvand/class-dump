@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISPosterAttachment *attachment; // @synthesize attachment=_attachment;

@@ -27,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ormWithName:floatVector2: /* Error: Ran out of types for this method. */;
 
 @end
 

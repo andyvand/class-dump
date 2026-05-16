@@ -15,12 +15,12 @@
 }
 
 + (_Bool);
-- (void);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

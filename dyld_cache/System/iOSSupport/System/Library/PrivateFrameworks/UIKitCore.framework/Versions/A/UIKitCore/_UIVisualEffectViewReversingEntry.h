@@ -13,17 +13,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (id);
 - (void);
-- (void);
+- (_Bool);
+- (id)1Â0@ù
+× ;
 - (void);
-- (id)%º;
-- (id)signUpSignalFromButton: /* Error: Ran out of types for this method. */;
-- (_Bool)idCaretPositionFromCharacterIndex:(id)arg1 downstream: /* Error: Ran out of types for this method. */;
-- (void)etContentRect;
-- (id)entAtScrollingTargetIndexPath: /* Error: Ran out of types for this method. */;
-- (void)er. Creating a new registration each time a cell is requested will prevent reuse and cause created cells to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:(id)arg1 %@;
-- (id)brary/PrivateFrameworks/DocumentManager.framework/DocumentManager;
-- (_Bool)ackgroundContent;
+- (id)Layout:(id)arg1;
+- (void)r;
+- (_Bool)erInsetConcreteResolver;
+- (void)lor;
+- (id)ceApplication;
+- (void);
 
 @end
 

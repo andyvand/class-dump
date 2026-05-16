@@ -23,19 +23,19 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)ÜÉ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *backupGroups; // @synthesize backupGroups=_backupGroups;

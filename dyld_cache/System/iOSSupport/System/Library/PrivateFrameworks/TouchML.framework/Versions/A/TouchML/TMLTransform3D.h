@@ -42,12 +42,12 @@
 - (double);
 - (double);
 - (double);
-- (void);
 - (double);
+- (void);
+- (id);
 - (id);
 - (id);
 - (struct CATransform3D);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) TMLAffineTransform *affineTransform;

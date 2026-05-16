@@ -25,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (Class);
+- (void);
+- (Class);
 - (id);
 - (id);
 - (id);
@@ -37,10 +37,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)fo;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dataQueue; // @synthesize dataQueue=_dataQueue;

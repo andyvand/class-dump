@@ -37,7 +37,7 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)ationItemManager initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double cellHeight;

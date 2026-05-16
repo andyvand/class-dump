@@ -17,9 +17,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)Pþpÿ;
+- (void)gration] Returning NO because current user is not owner of any homes | homes.count = 0;
+- (void)meDashboardTitle;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;

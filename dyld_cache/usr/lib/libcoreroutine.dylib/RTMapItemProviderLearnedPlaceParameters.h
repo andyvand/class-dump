@@ -19,21 +19,21 @@
     unsigned long long _removeSourceMask;
 }
 
+- (id);
 - (double);
-- (double);
+- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (unsigned long long);
-- (double);
-- (double);
-- (id)r: /* Error: Ran out of types for this method. */;
-- (id);
-- (double);
-- (double);
-- (id);
-- (double)ary;
-- (id)nManagerMinimumNumberOfVertices;
+- (double)ndpoints. origin, identifier, %@, visit, %{sensitive}@, destination, identifier, %@, visit, %{sensitive}@;
+- (id)or missing TripSegment sequence,min,%d,max,%d,seq,%d,prev,%d;
 
 // Remaining properties
 @property(readonly, nonatomic) double gymConfidence; // @synthesize gymConfidence=_gymConfidence;

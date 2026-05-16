@@ -20,40 +20,39 @@ __attribute__((visibility("hidden")))
     UIView *_backgroundView;
 }
 
-+ (_Bool)6;
-+ (struct CGSize)teIMDChat] Chat GUID did not match chat properties;
++ (_Bool);
++ (struct CGSize);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)s;
 - (void);
 - (void);
 - (void);
-- (double)eferenceDate:(unsigned long long)arg1;
-- (id)isabling;
-- (double)not succeed in deleting public nickname from CloudKit!;
+- (void);
+- (double);
+- (id);
+- (double);
 - (_Bool);
+- (void);
 - (double);
 - (void);
-- (void)`;
-- (void)]Z'º;
 - (void);
-- (void)aq!|AùqÄ1¢!0@ù
+- (double)@ù1^°1Â0@ù
 × ;
-- (void)
+- (struct CGSize)Ð!¤Eùcð1Â0@ù
 × ;
-- (void)±Æ°1¢!0@ù
-× ;
-- (struct CGSize);
-- (id)ponents:component:currentRow: /* Error: Ran out of types for this method. */;
-- (void)|;
-- (id);
-- (id)nt-margins-bottom;
-- (double)þ;
-- (_Bool)èWÌþ;
-- (void)Ù<í_;
-- (void)`ó`;
-- (void)btb;
+- (void)tContainerForPosition:(_Bool)arg1;
+- (id)eTouchesQueue;
+- (void);
+- (id)EmojiCategory",W;
+- (void)evice.;
+- (void);
+- (void)þÿ;
+- (id)Ð¾7G;
+- (void);
+- (void)èð^;
+- (_Bool)È;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

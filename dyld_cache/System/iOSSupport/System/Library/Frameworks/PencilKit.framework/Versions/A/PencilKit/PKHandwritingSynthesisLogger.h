@@ -12,13 +12,13 @@
 }
 
 + (id);
-- (void)ack operation must have valid requestKey;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)?0;
-- (id)nvasControllerDidCancelStroke:strokeAcceptanceState: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)Ìð;
 
 // Remaining properties
 @property(readonly) NSArray *entries;

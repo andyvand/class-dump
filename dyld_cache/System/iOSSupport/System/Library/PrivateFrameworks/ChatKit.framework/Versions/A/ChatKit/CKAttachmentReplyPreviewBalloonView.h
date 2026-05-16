@@ -14,7 +14,7 @@
     UILabel *_titleLabel;
 }
 
-- (struct CGSize)o;
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
@@ -23,12 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (void)@8k;
-- (void);
 - (void);
 - (id);
-- (id)üs<tuu`vÄy;
-- (id)§71;
+- (void);
+- (id);
+- (void)*\ÙjkD¦;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;

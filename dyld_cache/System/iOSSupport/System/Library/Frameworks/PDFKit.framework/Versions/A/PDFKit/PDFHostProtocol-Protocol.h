@@ -5,6 +5,5 @@
 //
 
 @protocol PDFHostProtocol
-- (oneway void)};
 @end
 

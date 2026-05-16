@@ -5,7 +5,7 @@
 //
 
 @protocol SWShareItem
-- (long long);
+- (long long)P;
 
 // Remaining properties
 @property(readonly, nonatomic) long long kind;

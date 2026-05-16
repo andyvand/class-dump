@@ -36,11 +36,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)ô;
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;

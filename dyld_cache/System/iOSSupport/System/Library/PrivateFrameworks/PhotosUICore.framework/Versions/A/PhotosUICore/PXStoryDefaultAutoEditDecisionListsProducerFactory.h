@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)è`;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryConfiguration *storyConfiguration; // @synthesize storyConfiguration=_storyConfiguration;

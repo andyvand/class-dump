@@ -20,20 +20,20 @@ __attribute__((visibility("hidden")))
     CAAnimation *__animation;
 }
 
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)Ô ;
+- (void)ateUsingData:completion: /* Error: Ran out of types for this method. */;
+- (void)PREPARATION_ERROR_MESSAGE;
+- (void)Ðº;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAnimation:) CAAnimation *_animation; // @synthesize _animation=__animation;

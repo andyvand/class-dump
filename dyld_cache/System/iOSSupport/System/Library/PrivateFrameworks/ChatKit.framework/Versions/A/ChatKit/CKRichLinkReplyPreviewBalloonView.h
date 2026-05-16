@@ -15,20 +15,20 @@
     LPLinkMetadata *_linkMetadata;
 }
 
-- (struct CGSize)CheckingResult:(struct CGSize)arg1 highlightColor:(struct UIEdgeInsets *)arg2 insideFrame:(struct UIEdgeInsets *)arg3 finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
-- (void)ize:(id)arg1 %hd;
+- (struct CGSize);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)outManager;
-- (id)rViewControllerSendDelegate;
-- (id)tingController;
+- (void)ü;
 
 // Remaining properties
 @property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;

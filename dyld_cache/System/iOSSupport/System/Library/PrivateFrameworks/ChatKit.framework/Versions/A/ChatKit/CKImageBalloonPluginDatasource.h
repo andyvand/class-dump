@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     CKBalloonView *_balloonView;
 }
 
-- (void)e;
-- (id)tachments;
-- (id);
-- (void);
-- (id)E�I#;
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (struct CGSize);
+- (void)Ðì¨(Ø;
 
 // Remaining properties
 @property(retain, nonatomic) CKBalloonView *balloonView; // @synthesize balloonView=_balloonView;

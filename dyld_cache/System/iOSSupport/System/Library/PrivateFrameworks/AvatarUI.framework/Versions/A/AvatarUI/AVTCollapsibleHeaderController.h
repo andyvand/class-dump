@@ -62,7 +62,7 @@
 - (id);
 - (double);
 - (double);
-- (void)@;
+- (void);
 - (unsigned long long);
 - (double);
 - (double);
@@ -71,26 +71,25 @@
 - (double);
 - (void);
 - (id);
+- (double);
+- (double);
 - (void);
 - (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void)v
-;
-- (void)te:(id)arg1 memoryStatusFlags: /* Error: Ran out of types for this method. */;
-- (double);
-- (void);
-- (void)col:(double)arg1;
-- (id)yKey_state;
 - (void);
 - (id);
-- (id)vironment:renderingScheduler:callbackQueue: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id)wª;
 
 // Remaining properties
 @property(nonatomic) double additionalTopContentInset; // @synthesize additionalTopContentInset=_additionalTopContentInset;

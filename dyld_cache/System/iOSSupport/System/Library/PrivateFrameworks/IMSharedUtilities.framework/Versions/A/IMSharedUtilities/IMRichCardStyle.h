@@ -13,12 +13,12 @@
 
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool)y2;
+- (_Bool);
+- (_Bool);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
 - (id);
 
 // Remaining properties

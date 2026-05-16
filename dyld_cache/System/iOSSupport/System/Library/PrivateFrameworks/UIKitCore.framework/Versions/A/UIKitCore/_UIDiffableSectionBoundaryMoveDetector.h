@@ -17,11 +17,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (_Bool);
-- (void);
-- (id)ð1¢!0@ù
-× ;
-- (id)tHighlightedView: /* Error: Ran out of types for this method. */;
+- (id)trong, UIView *__strong, UIView *__strong, UIPanelBorderView *__strong, UIView *__strong, UIView *__strong, BOOL, UISlidingBarState *__strong, BOOL, CGRect, NSMutableSet *__strong, CGFloat, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong, UIViewController *__strong);
+- (void)ßn^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool didShortCircuit; // @synthesize didShortCircuit=_didShortCircuit;

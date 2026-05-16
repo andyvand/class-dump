@@ -15,11 +15,11 @@
 
 + (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) WFLocation *location; // @synthesize location=_location;

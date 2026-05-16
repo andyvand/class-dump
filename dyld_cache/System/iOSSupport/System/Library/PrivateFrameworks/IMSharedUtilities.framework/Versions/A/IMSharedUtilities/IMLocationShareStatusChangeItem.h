@@ -19,7 +19,7 @@
     long long _direction;
 }
 
-+ (_Bool)Helpers;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool actionable; // @synthesize actionable=_actionable;

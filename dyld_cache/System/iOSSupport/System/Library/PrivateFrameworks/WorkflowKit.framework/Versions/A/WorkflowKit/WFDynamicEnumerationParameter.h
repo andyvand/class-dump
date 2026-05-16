@@ -33,9 +33,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)brary/Frameworks/Security.framework/Versions/A/Security;
-- (_Bool);
-- (_Bool)Ì;
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -62,11 +62,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (id)cords with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)search terms. You can get more details about the results using the Get Details of App Store App action.;
+- (_Bool)Ã@G;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;

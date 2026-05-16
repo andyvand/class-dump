@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _provider;
 }
 
-+ (_Bool)Òn;
-- (unsigned long long);
-- (_Bool);
++ (_Bool)header in section %ld when there are only %ld sections in the table;
 - (id);
-- (void)áoð!xAùÂ1¢!0@ù
-× ;
-- (id)BleedFocusedShadowOpacity;
-- (id)endSnapshotDisplaySystemIdentifierToOptionsIfNeeded:(id)arg1;
-- (id)nitionWeight,S_setPostRecognitionWeight:(id)arg1;
-- (id)KeyInput;
+- (id);
+- (unsigned long long);
+- (_Bool):(id)arg1;
+- (id)	
+;
+- (id)on;
+- (void)TLh;
+- (id)Ì@n;
 
 @end
 

@@ -14,9 +14,9 @@
     MISSING_TYPE *actionItem;
 }
 
-- (void);
 - (id);
 - (void);
+- (void)¦;
 
 @end
 

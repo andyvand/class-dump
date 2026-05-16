@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 - (id);
 
 // Remaining properties

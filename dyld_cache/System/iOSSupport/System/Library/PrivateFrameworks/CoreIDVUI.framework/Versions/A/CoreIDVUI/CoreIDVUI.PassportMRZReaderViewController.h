@@ -28,9 +28,9 @@
     MISSING_TYPE *$__lazy_storage_$_guidancePrompt;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 

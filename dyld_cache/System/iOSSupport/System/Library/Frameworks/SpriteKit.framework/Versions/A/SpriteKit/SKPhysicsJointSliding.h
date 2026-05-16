@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (_Bool)ÿÿ?;
++ (_Bool);
 + (id);
 - (double);
 - (_Bool);

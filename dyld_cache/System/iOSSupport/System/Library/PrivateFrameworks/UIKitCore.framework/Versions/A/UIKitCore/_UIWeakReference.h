@@ -10,13 +10,14 @@ __attribute__((visibility("hidden")))
     id _object;
 }
 
-+ (id),N,V_pageViews;
-- (id);
-- (void);
-- (void)qÌÐ1¢!0@ù
++ (id)!HCùñc1Â0@ù
 × ;
-- (id)ght:%g) exceed the _UICollectionViewListHeaderFooter's target width of %g with required fitting priority. Header/footer:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (void)
+× ;
+- (id)iew:(struct _NSZone *)arg1 canHandleDropSesson: /* Error: Ran out of types for this method. */;
+- (id)on view's data source returned a cell without a reuseIdentifier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:(id)arg1 forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (void)?9¾7y±¾7_GÒ¾7G;
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;

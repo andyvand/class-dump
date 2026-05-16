@@ -57,161 +57,158 @@
 + (id);
 + (id);
 + (id);
-+ (id)oadAllowedApplications: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id)ckgroundColor;
-+ (id)TVEpisodeLibraryAddEligible;
-+ (id)?0@"HMAccessory"8Q16^B24;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)eInterruptibleAnimatorWithTraitCollection:(id)arg1;
-+ (id)_paddingAboveFirstSectionHeader;
-+ (id)estureRecognizer;
-+ (id)lights;
-+ (id)x_æÿ _æÿà_æÿ(`æÿh`æÿ`æÿÈ`æÿ;
 + (id);
-+ (id)jþÿjþÿR"ÿÿ¢wþÿ;
-+ (id)d, but there are only %ld items in section %ld after the update;
 + (id);
-+ (id)ãce;
-+ (id)¥ÿ;
-+ (_Bool)=vo;
++ (id)0@ù
+× ;
++ (id)itingUI;
++ (id)WillBegin:(id)arg1;
++ (id)ntainerViews;
++ (id)erViewInterMonthButtonSpacing;
++ (id)ckgroundConfigurator;
++ (id)imaryRecipientIdentifiers;
++ (id);
++ (id)CalendarDateComponent.m;
++ (_Bool)). Value must be at least 0.0, or UITableViewAutomaticDimension.;
++ (id)CommandHandlerBlock;
++ (id)apshotRequest"8;
++ (id);
++ (id)<ú`;
++ (id)ì>.ÿüÔ@If;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (long long);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (_Bool);
 - (id);
-- (void)R	kl
-;
-- (void)erviceName:(long long)arg1 withAction: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (long long);
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (struct NSDirectionalEdgeInsets)Að!¤Eùq]ð1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (id)ùQ_Ð1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (_Bool)ùñ`1Â0@ù
+× ;
 - (unsigned long long);
-- (void)A;
+- (_Bool)ÔÁÐ!Eùbð1Â0@ù
+× ;
+- (long long)× ;
+- (unsigned long long)@ùf°1Â0@ù
+× ;
+- (id)ùñf°1Â0@ù
+× ;
 - (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id)UID"24@"NSString"32;
-- (void)e"16@"HMRoom"24@"HMZone"32;
-- (id)composer;
-- (void)eCriteriaCache:(unsigned long long)arg1 entitiesForCriteriaCache:didLoadBlocksByQueryCriteria:valueLoadedFromEntitiesArrayBlock:loadValueFromDataProviderBlock: /* Error: Ran out of types for this method. */;
-- (double);
-- (void);
-- (void);
+- (double)
+× ;
+- (void)52;
+- (double)tSearchFieldFont: /* Error: Ran out of types for this method. */;
+- (long long)etNeedsRevalidate;
+- (_Bool)dex;
+- (_Bool)ultSelectedAtomBackgroundColor;
+- (void)ModernAccessoriesLayout;
+- (id)nator:(id)arg1;
+- (void)ns;
+- (void)ystemMinimumMargins:(id)arg1;
+- (void)e:(_Bool)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (void)V_hasTextfields;
+- (_Bool)troller;
+- (void)LayoutConstraint",&,N,V_rightConstraint;
 - (id);
-- (_Bool);
+- (unsigned long long)X@Z;
+- (void)¨û;
+- (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (double);
+- (id)ToLayout:] /* Error: Ran out of types for this method. */;
+- (_Bool)ht (%g) provided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (unsigned long long)ons:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)requests an unsupported idiom;
+- (void)nteractionTypeMore;
+- (CDUnknownBlockType)f;
+- (void)ffect != nil;
+- (_Bool)and AppStore, please stop calling this method, it doesn't do anything and we would like to remove it. You have a radar about this (139002488 & 139002492).;
+- (double)ndaryFill;
+- (id)8PausableP;
+- (id)x;
+- (id)u13é·;
+- (void)pperView;
 - (CDUnknownBlockType);
-- (double);
-- (id);
-- (id)0@ù
-× ;
-- (_Bool)!Dù1Âð1¢!0@ù
-× ;
-- (id);
-- (void)1¢!0@ù
-× ;
-- (_Bool)BùÃ1¢!0@ù
-× ;
-- (CDUnknownBlockType)
-× ;
-- (id)ÊÐ1¢!0@ù
-× ;
-- (_Bool);
-- (_Bool)0@ù
-× ;
-- (void)!EùñÊð1¢!0@ù
-× ;
-- (CDUnknownBlockType)CùQËð1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (unsigned long long)!Dù±Ìð1¢!0@ù
-× ;
-- (long long)
-× ;
-- (void)qÎð1¢!0@ù
-× ;
-- (id);
-- (_Bool)Vertically"b1"delegateAllowsPanHorizontally"b1"delegateAllowsPanVertically"b1"queriedDelegateAllowsPanHorizontally"b1"queriedDelegateAllowsPanVertically"b1"failsPastMaxTouches"b1"multitouchTimerOn"b1"requiresImmediateMultipleTouches"b1"sawNonzeroStifledDeltaX"b1"sawNonzeroStifledDeltaY"b1"shouldConsiderAllowedScrollTypeCompatibility"b1"evaluatedAllowedScrollTypeCompatibility"b1};
-- (void)@"_UIFeedback<_UIFeedbackContinuousPlayable>";
-- (void)}{CGSize=dd}}40{CGPoint=dd}72;
-- (long long)6@"UIEvent"24;
-- (void)sFencing:(id)arg1;
-- (_Bool)gGroupsMode: /* Error: Ran out of types for this method. */;
-- (void)ms:(struct NSDirectionalEdgeInsets)arg1;
-- (struct NSDirectionalEdgeInsets)or: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long)nAnimationTouchUp;
-- (void)UserNotificationTypes:(unsigned long long)arg1 userNotificationActionSettings: /* Error: Ran out of types for this method. */;
-- (long long)zerStandardKeyPixelSize;
-- (_Bool)d:isLocalEvent: /* Error: Ran out of types for this method. */;
-- (double)ate: /* Error: Ran out of types for this method. */;
-- (id)veScale: /* Error: Ran out of types for this method. */;
-- (unsigned long long)orTraitNamed: /* Error: Ran out of types for this method. */;
-- (double);
-- (void)t:(id)arg1 embeddedInView:usingViewForLayoutConstraints:permittedArrowDirections:animate: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)WidthForHorizontalLayout;
-- (void)Indicator;
-- (void)ocusSystem:(id)arg1 willUpdateFocusInContext: /* Error: Ran out of types for this method. */;
-- (_Bool)ding;
-- (void)tesTransformer;
-- (void)ations:(unsigned long long)arg1;
-- (_Bool),G_shouldDisableInteractionDuringTransitions,S_setShouldDisableInteractionDuringTransitions:(id)arg1 ,V_shouldDisableInteractionDuringTransitions;
-- (void)ies",R,N,V_secondaryTextProperties;
-- (id)ewSearchableObject;
-- (id)l<m,nàn*|xzÄ{;
-- (id)¨ðÜð;
-- (_Bool)estureRecognizerToQuery:%@; otherGestureRecognizer:%@ /* Error: Ran out of types for this method. */;
-- (id)rchy in response of that item becoming focused. This is a client bug that leaves the focus system in an undefined state. Focused item:%@; environment being removed:%@. This is a hard assert for other clients and requires immediate attention. /* Error: Ran out of types for this method. */;
-- (double);
-- (_Bool)emphasizedBodyRegular;
-- (void)SolidColorHardPocket;
-- (void)ext Formatting;
-- (void)plicationShortcutItemType;
-- (long long)*getkMRMediaRemoteOptionTrackID(void);
-- (void)iew:(id)arg1 %@;
-- (id)a single view is dequeued and returned to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ /* Error: Ran out of types for this method. */;
+- (double);
+- (void)ñ];
+- (void)Ô¡_;
+- (void);
+- (long long);
+- (void)XJêÿjäÉ ªa;
+- (void)®a;
+- (void)8b;
+- (id)Ún;
 - (id);
-- (_Bool);
-- (void);
-- (void)U£×û\;
-- (void)è´ÕþNI²;
-- (void)À¬*ÿiòÈÿf;
-- (_Bool)òÁl;
-- (void);
-- (id)VÑl;
-- (void)þ³>¤·fm;
-- (void)ÇÆAo;
-- (void)o;
-- (CDUnknownBlockType)%;
-- (double)ÿ;
-- (void);
-- (id);
-- (id):(id)arg1 Ñ·zp;
-- (_Bool)À$;
-- (id)Cÿ;
-- (long long)Å%ÿ;
-- (void)7&ÿ»ÏÖ"q;
+- (void)f;
+- (void)=.ÿ
+ÕÜRf;
+- (double)¬âÚþ¢ÊTtf;
+- (_Bool)X.g;
+- (void)þ;
+- (_Bool)ù»ÿ"{¹;
+- (void)È|Û¨îi;
+- (unsigned long long)ÿ;
+- (_Bool)Õþ±È;
+- (void),Ùÿ5îÎÊk;
+- (id)|~l;
+- (id)Ï;
+- (void)¹Ûxîl;
+- (_Bool)n;
+- (CDUnknownBlockType)BJÿÛ´ím;
+- (id)¶n;
+- (long long)vÿ;
+- (void)ÿ @ÖÈUo;
 
 // Remaining properties
 @property(nonatomic, setter=__setMaskedCorners:) unsigned long long __maskedCorners; // @synthesize __maskedCorners=_maskedCorners;

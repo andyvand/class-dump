@@ -25,7 +25,7 @@
 - (id);
 - (Class);
 - (_Bool);
-- (void);
+- (void)gsItem.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

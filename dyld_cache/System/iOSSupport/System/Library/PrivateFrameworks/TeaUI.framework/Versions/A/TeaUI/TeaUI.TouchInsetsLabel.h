@@ -11,9 +11,9 @@
     MISSING_TYPE *touchInsets;
 }
 
-- (_Bool);
-- (id)ght;
 - (id);
+- (id);
+- (_Bool);
 
 @end
 

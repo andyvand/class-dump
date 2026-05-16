@@ -13,8 +13,8 @@
 + (_Bool);
 + (id);
 - (void);
-- (id)_applySchemaIfNecessary;
-- (id)If thereâs nowhere to output (WFNoOutputSurfaceBehavior);
+- (id);
+- (id)êÝ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

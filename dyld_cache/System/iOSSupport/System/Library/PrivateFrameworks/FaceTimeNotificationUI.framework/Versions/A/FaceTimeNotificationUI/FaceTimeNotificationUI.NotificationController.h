@@ -13,6 +13,7 @@
     MISSING_TYPE *callCenter;
     MISSING_TYPE *xpc;
     MISSING_TYPE *callsReminder;
+    MISSING_TYPE *_delegate;
     MISSING_TYPE *_callConfirmationResponseCallback;
     MISSING_TYPE *logger;
     MISSING_TYPE *_$observationRegistrar;

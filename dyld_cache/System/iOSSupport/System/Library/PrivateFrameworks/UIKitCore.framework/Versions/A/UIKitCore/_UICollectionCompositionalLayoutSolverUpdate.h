@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void)Ñ'º;
-- (id)nal: /* Error: Ran out of types for this method. */;
-- (id)&,N,S_setLargeBackground: /* Error: Ran out of types for this method. */;
-- (id);
-- (struct CGRect);
+- (id)ciatedWindowSceneForKeyboardWindow;
+- (struct CGRect)nalEdgeInsets=dddd},N,V_sectionInsets;
+- (id)m;
+- (id)pearState;
+- (void)ú];
 
 // Remaining properties
 @property(readonly, nonatomic) _UIDataSourceSnapshotter *finalDataSourceSnapshot; // @synthesize finalDataSourceSnapshot=_finalDataSourceSnapshot;

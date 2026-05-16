@@ -9,12 +9,15 @@
 __attribute__((visibility("hidden")))
 @interface _UIAutoScrollerItemBehavior
 {
+    struct UIEdgeInsets _touchInsets;
 }
 
 - (CDStruct_912d1c89);
+- (double);
 - (void);
-- (void)�I;
-- (double)ayProperties;
+- (void);
+- (struct UIEdgeInsets)nt;
+- (void)w controller:(id)arg1 %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -24,6 +27,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
+@property(nonatomic) struct UIEdgeInsets touchInsets; // @synthesize touchInsets=_touchInsets;
 
 @end
 

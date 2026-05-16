@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)xpanded=%{bool}d and highContrast=%{bool}d;
 
 @end
 

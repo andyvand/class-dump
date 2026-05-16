@@ -17,21 +17,21 @@ __attribute__((visibility("hidden")))
     _UIGravityWellAdaptorInteraction *_adaptorInteraction;
 }
 
-+ (id)priority message command that is not from my local paired device. fromToken:(id)arg1 %@;
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (double)";
+- (double);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)xactMatchInSourceText:(double)arg1;
 - (void);
-- (void)Image;
-- (void)on a different screen rather than the one assosiated with input animatable properties. Transformers don't support simultaneous animations on multiple screens. It is likely that the UIViewFloatAnimatableProperty is not associated with a view, which it needs to animate on displays different from the main one.;
-- (void)ÊO];
+- (void)mations: /* Error: Ran out of types for this method. */;
+- (void)ng,V_springDamping;
+- (void),o[;
+- (void)3f;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIClickHighlightEffect> adaptedEffect; // @synthesize adaptedEffect=_adaptedEffect;

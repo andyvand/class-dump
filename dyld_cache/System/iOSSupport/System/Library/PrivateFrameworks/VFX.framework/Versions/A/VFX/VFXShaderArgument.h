@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (unsigned long long)Xo;
+- (unsigned long long);
 - (void);
+- (void)_from_viewport(io.vertice.position.xyz, camera_index);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

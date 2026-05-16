@@ -16,17 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
-- (long long)
-;
-- (long long)Ø;
-- (double)óÿÜÀóÿüÁóÿÂóÿÃóÿpÃóÿ¨ÃóÿÔÃóÿìÃóÿÄóÿ0ÄóÿPÄóÿÅóÿPÅóÿÅóÿ¨ÅóÿàÅóÿÆóÿ0ÆóÿHÆóÿhÆóÿÆóÿ¨ÆóÿÈÆóÿàÆóÿÇóÿPÇóÿhÇóÿ ÇóÿÀÇóÿØÇóÿðÇóÿ(Èóÿ@ÈóÿdÈóÿ|ÈóÿÈóÿÌÈóÿÉóÿÉóÿ4ÉóÿLÉóÿÉóÿEngagementManager:Using directory %{private}s /* Error: Ran out of types for this method. */;
-- (id);
-- (long long)0Aÿ,Î
-;
+- (long long);
+- (void);
+- (id)erDataProvider;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

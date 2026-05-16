@@ -15,7 +15,7 @@
 }
 
 - (_Bool);
-- (_Bool)�c;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDarkModeConfiguration> darkModeConfiguration; // @synthesize darkModeConfiguration=_darkModeConfiguration;

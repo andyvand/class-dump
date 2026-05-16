@@ -12,29 +12,31 @@ __attribute__((visibility("hidden")))
     id <UICoordinateSpace> _coordinateSpace;
 }
 
-+ (_Bool)/nÿ?äp;
++ (_Bool)larger than text storage length;
 - (struct UIEdgeInsets);
+- (struct CGRect);
 - (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (_Bool)!0@ù
+- (id);
+- (struct CGRect);
+- (struct CGRect)0@ù
 × ;
-- (struct CGRect),R;
-- (struct CGRect)te;
-- (_Bool)t not associated with this view controller.;
-- (struct CGRect)straint;
-- (id)hecking for user activity to save UIScene state for scene with identifier %@;
-- (id)com.apple.stocks;
-- (id)SystemUltraThinMaterial;
+- (_Bool)!Gù1bÐ1Â0@ù
+× ;
+- (struct CGRect)!$EùQdð1Â0@ù
+× ;
+- (struct CGRect)nferPreferenceForEnvironmentHandler;
+- (struct CGRect)InProcessStateProvider:(unsigned long long)arg1;
+- (void)nFrames:(id)arg1;
+- (id)Restoration: /* Error: Ran out of types for this method. */;
+- (id)ed:(id)arg1 forInteraction: /* Error: Ran out of types for this method. */;
+- (_Bool)ounds.origin.x;
+- (void);
 - (struct CGRect);
+- (void)a^;
+- (id)ÿ­=×Íb;
 
 // Remaining properties
 @property(nonatomic) __weak id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;

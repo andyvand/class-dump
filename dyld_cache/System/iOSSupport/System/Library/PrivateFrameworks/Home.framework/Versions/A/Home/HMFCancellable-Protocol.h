@@ -5,7 +5,5 @@
 //
 
 @protocol HMFCancellable
-- (void)Áð!@ù	ð1b0@ù
-× ;
 @end
 

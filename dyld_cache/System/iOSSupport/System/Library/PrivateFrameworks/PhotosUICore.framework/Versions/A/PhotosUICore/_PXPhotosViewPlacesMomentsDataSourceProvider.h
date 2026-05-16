@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)pear Delay;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

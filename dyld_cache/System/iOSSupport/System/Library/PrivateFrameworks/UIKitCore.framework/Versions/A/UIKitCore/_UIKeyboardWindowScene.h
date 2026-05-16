@@ -11,15 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)cess not for this owner %@ != %@;
-+ (_Bool)!0@ù
++ (_Bool)0@ù
 × ;
-+ (_Bool)danceImageView;
-- (_Bool);
++ (_Bool)DefaultCategories>",R,N;
++ (_Bool);
 - (id);
-- (id)8@"UITextRange"16@"NSString"24;
-- (void)State:(id)arg1;
-- (id)screen.;
+- (_Bool);
+- (void)Á!ØBùb1Â0@ù
+× ;
+- (id)ystemOcclusionRects:(id)arg1;
+- (id)itchControl>",W,N,V_switchControl;
 
 @end
 

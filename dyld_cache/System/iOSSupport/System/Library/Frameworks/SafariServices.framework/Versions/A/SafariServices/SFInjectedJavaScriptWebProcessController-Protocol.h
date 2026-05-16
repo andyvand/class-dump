@@ -5,6 +5,5 @@
 //
 
 @protocol SFInjectedJavaScriptWebProcessController
-- (void);
 @end
 

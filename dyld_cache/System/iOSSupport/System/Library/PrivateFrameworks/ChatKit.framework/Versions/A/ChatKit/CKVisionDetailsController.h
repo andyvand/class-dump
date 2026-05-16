@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     long long _context;
 }
 
-- (_Bool)ippetWithAccessingObject: /* Error: Ran out of types for this method. */;
-- (id)ityAttributeValue:(unsigned long long)arg1;
+- (_Bool);
 - (id);
-- (double)=;
+- (id);
+- (double);
 - (long long);
-- (long long)n: /* Error: Ran out of types for this method. */;
-- (void)tfc®yAKyAEG_Qo_GQo_Qo_Qo__Qo_;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long context; // @synthesize context=_context;

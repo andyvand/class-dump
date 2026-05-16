@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
     long long _orderMode;
 }
 
-+ (id)Message;
-+ (id)achment;
++ (id);
++ (id);
 - (long long);
-- (long long)!\Eù1ÅÐ1¢!0@ù
-× ;
-- (id)actionModel:,V__requestedInteractionModel /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)_setShouldAdjustLayoutToCollapseTopSpacing: /* Error: Ran out of types for this method. */;
+- (void)ryColWidth=%g;
 - (unsigned long long);
-- (void)¬ÜÚ¦d;
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;

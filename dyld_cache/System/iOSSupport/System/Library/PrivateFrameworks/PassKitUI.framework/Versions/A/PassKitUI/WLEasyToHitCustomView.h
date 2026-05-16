@@ -9,9 +9,9 @@
     struct UIEdgeInsets _margins;
 }
 
-- (_Bool);
 - (void);
 - (struct UIEdgeInsets);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets margins; // @synthesize margins=_margins;

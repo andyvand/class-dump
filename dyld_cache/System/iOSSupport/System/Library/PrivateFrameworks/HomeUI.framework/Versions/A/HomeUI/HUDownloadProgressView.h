@@ -21,10 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (double)nViewConfiguration;
+- (void);
+- (double)Source:service: /* Error: Ran out of types for this method. */;
+- (void)acteristicTriggerValueRangePickerUnitSuffix_LightLevel;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *centerImage; // @synthesize centerImage=_centerImage;

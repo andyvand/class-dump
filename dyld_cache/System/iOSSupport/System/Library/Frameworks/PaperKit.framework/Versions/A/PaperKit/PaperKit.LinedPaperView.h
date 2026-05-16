@@ -19,8 +19,8 @@
 - (void);
 - (struct CGAffineTransform);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform;

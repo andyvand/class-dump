@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)tem(__strong id<UIFocusItem> _Nonnull, UIFocusSystem *__strong _Nonnull);
+- (void)allyAnimatingStateRequest: /* Error: Ran out of types for this method. */;
+- (void)omAction: /* Error: Ran out of types for this method. */;
+- (void)lTransitionStylePartialCurl to or from non-fullscreen view controller %@.;
 
 @end
 

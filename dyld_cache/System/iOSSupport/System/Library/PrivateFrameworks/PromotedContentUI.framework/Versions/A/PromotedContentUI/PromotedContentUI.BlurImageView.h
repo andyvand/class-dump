@@ -16,9 +16,9 @@
     MISSING_TYPE *$__lazy_storage_$_blurImageView;
 }
 
-- (id)Lg;
+- (id);
+- (id);
 - (void);
-- (id);
 
 @end
 

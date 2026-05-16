@@ -13,13 +13,13 @@
 }
 
 + (id);
-- (id)Success:(id)arg1 %@;
-- (void)P;
-- (id)mage dimensions:(struct _NSZone *)arg1 %{public}@;
-- (void);
 - (id);
-- (void)^U\;
-- (CDUnknownBlockType)T×¹_;
+- (void)PredictionsWithEvent:(CDUnknownBlockType)arg1;
+- (void)ations;
+- (CDUnknownBlockType)artView",&,N,V_leftEdge;
+- (id)ocale",&,D,N;
+- (id)eshold;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

@@ -13,11 +13,12 @@
     MISSING_TYPE *name;
 }
 
-- (double);
-- (void);
 - (void);
-- (id)pyWithOffset: /* Error: Ran out of types for this method. */;
-- (id)¥tÿ½[;
+- (id);
+- (double)ì
+;
+- (void)æÔ²l;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double value;

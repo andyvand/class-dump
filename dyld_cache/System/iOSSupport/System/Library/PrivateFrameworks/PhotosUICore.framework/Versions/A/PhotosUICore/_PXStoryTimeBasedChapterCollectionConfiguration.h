@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)me;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *chapters; // @synthesize chapters=_chapters;

@@ -19,21 +19,21 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)uallyStartExecutingIntent: /* Error: Ran out of types for this method. */;
+- (_Bool)j;
+- (void)smart prompt status, returning nil;
+- (void)quare;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *automatorActionIdentifier; // @synthesize automatorActionIdentifier=_automatorActionIdentifier;

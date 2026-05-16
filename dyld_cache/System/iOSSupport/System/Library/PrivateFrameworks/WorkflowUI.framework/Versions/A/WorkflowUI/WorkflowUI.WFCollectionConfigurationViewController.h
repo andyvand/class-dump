@@ -23,14 +23,14 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)ST;
 - (id);
 - (double);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)G_åQo_AQGSgtGG;
+- (void);
+- (void),;
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *iconPreview; // @synthesize iconPreview;

@@ -7,7 +7,6 @@
 @protocol PXPlacesGeotaggedItemDataSource;
 
 @protocol PXPlacesMapLayout
-- (id <PXPlacesGeotaggedItemDataSource>)set before %@ is called.;
 
 // Remaining properties
 @property(readonly) id <PXPlacesGeotaggedItemDataSource> dataSource;

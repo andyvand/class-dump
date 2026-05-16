@@ -5,9 +5,8 @@
 //
 
 @protocol UIEditable
-- (void)dentifiers;
-- (_Bool)I];
-- (_Bool)teractionView;
+- (void)Range"32@0:(_Bool)arg1 8@"NSAttributedString"16@"UITextRange"24;
+- (_Bool)nt animation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBeEdited;

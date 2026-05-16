@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP7ChatKit32CKTapbackAttributionViewDelegate_
-- (void);
 @end
 

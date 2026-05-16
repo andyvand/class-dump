@@ -14,10 +14,10 @@
 
 - (id);
 - (void);
-- (long long);
-- (void);
 - (void);
 - (id);
+- (void)ponseControllerState %lu@;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) __weak HFItem *item; // @synthesize item=_item;

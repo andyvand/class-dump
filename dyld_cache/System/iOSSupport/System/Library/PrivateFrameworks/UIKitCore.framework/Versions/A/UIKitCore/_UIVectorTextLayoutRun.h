@@ -20,26 +20,26 @@ __attribute__((visibility("hidden")))
     struct CGRect _usedRunRect;
 }
 
-- (struct CGRect)MFDRDataMemoryMultiCommitPatch;
-- (struct CGRect)atch is not implemented;
-- (struct _NSRange), dataClass:%@, dataInstance:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)pertiesFilterCallback;
-- (void)ata;
+- (struct CGRect);
+- (struct CGRect);
+- (struct _NSRange);
+- (_Bool);
+- (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (void)Context:(CDUnknownBlockType)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (struct __CTRun *)tion: /* Error: Ran out of types for this method. */;
-- (void)llFormedChatGUID;
+- (void);
+- (struct __CTRun *);
+- (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void),V_style;
 - (void);
+- (double);
+- (id);
 - (long long);
-- (double)wActionsStyleDragZTearOffThreshold: /* Error: Ran out of types for this method. */;
+- (id)è   ¡|¢ô¢T£;
+- (void)exPath:(struct CGContext *)arg1 method must be implemented by the UITableViewDataSource, not the UITableViewDelegate. This error will cause undefined behavior. Please move the implementation of this method to the data source of this table view, instead of the delegate:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

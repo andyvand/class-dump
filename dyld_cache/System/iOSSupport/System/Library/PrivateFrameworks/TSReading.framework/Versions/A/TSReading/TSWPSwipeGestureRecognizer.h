@@ -20,16 +20,16 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void)G;
 - (void);
 - (void);
 - (unsigned long long);
-- (void)ʣ;
-- (struct CGPoint)s/TSTTableTileRowInfo.mm;
-- (int)erSelectionContentsChanged;
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (int);
+- (void);
+- (void)art;
 
 // Remaining properties
 @property(nonatomic) int direction; // @synthesize direction=mDirection;

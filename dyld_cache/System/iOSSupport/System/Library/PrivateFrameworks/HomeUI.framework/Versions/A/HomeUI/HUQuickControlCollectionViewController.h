@@ -64,15 +64,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void)ingConstraint:(_Bool)arg1;
-- (id);
 - (void);
+- (void)¡°ð!$DùÐ1â
+0@ù
+× ;
+- (void)ionStatePresenting || state == HUQuickControlPresentationStateDismissing;
+- (_Bool)Unhandled item:%@ /* Error: Ran out of types for this method. */;
+- (void)kÿÿ;
+- (id)>û¼Å;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *affectedCharacteristics;

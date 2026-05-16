@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
 - (unsigned long long);
 - (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long)otosLibrarySectionFooterPhotosLink;
-- (_Bool)a÷ò¢Í;
+- (void)rtObjects:(_Bool)arg1 atIndexes: /* Error: Ran out of types for this method. */;
+- (void)lsRemoveGroupAlertTitle;
+- (_Bool)LikeObjectContainer;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activationGranularity; // @synthesize activationGranularity=_activationGranularity;

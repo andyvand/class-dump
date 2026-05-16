@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)× ;
+- (id);
+- (void)t builder but got %@!;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

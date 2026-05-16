@@ -36,8 +36,8 @@
 - (void);
 - (id);
 - (id);
-- (id)#,#z;
-- (id)à¼|;
+- (id);
+- (id);
 - (long long);
 - (long long);
 - (void);
@@ -52,11 +52,11 @@
 - (id);
 - (void);
 - (float);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool)deOverDistance;
-- (_Bool)tle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_e83c9415 bestVideoTimeRange; // @synthesize bestVideoTimeRange=_bestVideoTimeRange;

@@ -24,16 +24,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void)isualEffectView",R,N,V__highlightView;
+- (void)ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) VKTextFrameProcessorConfiguration *configuration;

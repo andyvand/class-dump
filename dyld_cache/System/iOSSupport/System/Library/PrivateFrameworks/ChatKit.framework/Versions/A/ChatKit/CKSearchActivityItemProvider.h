@@ -12,17 +12,16 @@
     LPLinkMetadata *_metadata;
 }
 
-- (id)a;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)tKit28CKTapbackBackdropCaptureView;
 - (void);
-- (id);
-- (id)
-× ;
-- (id)silhouetteItem;
 - (void);
-- (void)brantOuterStrokeLayer;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;

@@ -16,9 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (id):(unsigned int)arg1;
 - (id);
-- (void);
+- (id);
+- (void)o_KEY;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *preferredIntervals; // @synthesize preferredIntervals=_preferredIntervals;

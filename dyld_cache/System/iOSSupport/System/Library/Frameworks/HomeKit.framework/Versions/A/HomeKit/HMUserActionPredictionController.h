@@ -16,7 +16,7 @@
     _HMContext *_context;
 }
 
-+ (id)eForIDSService: /* Error: Ran out of types for this method. */;
++ (id)type NSNumber;
 - (id);
 - (id);
 - (void);
@@ -26,9 +26,9 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void)PBCommandContainer;
 - (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(retain) _HMContext *context; // @synthesize context=_context;

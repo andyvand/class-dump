@@ -13,13 +13,14 @@
 - (_Bool);
 - (double);
 - (double);
-- (id);
 - (double);
-- (void)orOnSingleKeyOnly:(id)arg1;
-- (double)y: /* Error: Ran out of types for this method. */;
-- (double)tleForPriority:width: /* Error: Ran out of types for this method. */;
-- (double)Lw;
-- (struct CGSize)tableDictionary"8@"NSIndexPath"16@"NSString"24Q32;
+- (double)1Â0@ù
+× ;
+- (void)á	Ð!;
+- (id)sExpansionTextWhenTruncated: /* Error: Ran out of types for this method. */;
+- (double)_setHostParentFullHeightUntransformedFrameForDepthLevel: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ew;
+- (double)not be nil when creating the update map;
 
 @end
 

@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
     NSArray *_discounts;
 }
 
-- (void);
+- (void);
 
 @end
 

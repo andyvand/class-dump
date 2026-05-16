@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
 @protocol NSCopying;
 
 @protocol PXGReusableView
 
 @optional
-- (_Bool)my¬;
-- (_Bool)tô;
-- (struct CGRect);
-- (void)E;
-- (void)ndler:(CALayer *)arg1 ];
-- (_Bool)oller:%@, self.imChatItems<IMChatItem *>.count:%@, imChatItems<IMChatItem *>.count:%@, self.chatItems<CKChatItem *>.count:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)nfigureForCommSafety: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

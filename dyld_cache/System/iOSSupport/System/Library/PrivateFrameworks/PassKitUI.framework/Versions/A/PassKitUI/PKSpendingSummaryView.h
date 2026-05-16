@@ -26,12 +26,14 @@
 - (_Bool);
 - (struct CGSize);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (_Bool);
-- (struct CGSize);
-- (void);
+- (void)©Ð!@ùqøÐ1â
+0@ù
+× ;
+- (_Bool)rcle;
+- (void)x4;
 
 // Remaining properties
 @property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;

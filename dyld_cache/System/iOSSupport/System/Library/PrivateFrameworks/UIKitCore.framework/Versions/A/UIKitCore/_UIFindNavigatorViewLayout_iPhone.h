@@ -30,14 +30,15 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void);
-- (void)8@16@24C32@36B44;
-- (void)articipants:sender:chat:fallbackFilterCategory:fallbackFilterSubCategory: /* Error: Ran out of types for this method. */;
-- (struct CGRect)@;
-- (struct CGSize);
 - (void);
 - (void);
-- (id)þÿ;
+- (void);
+- (struct CGRect);
+- (void);
+- (struct CGSize)Ôa°!tDù1dð1Â0@ù
+× ;
+- (id)ForCurrentTouchLevel;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool usesSmallScreenStyle;

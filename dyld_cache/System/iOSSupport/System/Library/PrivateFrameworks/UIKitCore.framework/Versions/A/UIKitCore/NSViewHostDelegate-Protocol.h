@@ -5,6 +5,5 @@
 //
 
 @protocol NSViewHostDelegate
-- (void);
 @end
 

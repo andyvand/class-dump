@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
 - (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

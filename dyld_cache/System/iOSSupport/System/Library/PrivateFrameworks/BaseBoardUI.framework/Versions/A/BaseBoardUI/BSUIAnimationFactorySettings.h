@@ -11,13 +11,12 @@
 }
 
 + (id);
-- (void);
+- (_Bool);
 - (double);
 - (void);
-- (double);
 - (void);
-- (_Bool)0@ù
-× ;
+- (void);
+- (double);
 
 // Remaining properties
 @property(nonatomic) _Bool slowAnimations; // @synthesize slowAnimations=_slowAnimations;

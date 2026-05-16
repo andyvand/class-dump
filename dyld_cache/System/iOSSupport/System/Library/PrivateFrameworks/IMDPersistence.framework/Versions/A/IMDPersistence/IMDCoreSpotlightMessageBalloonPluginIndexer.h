@@ -12,8 +12,9 @@
 {
 }
 
++ (unsigned long long);
 + (void);
-+ (id)#;
++ (id);
 + (id);
 + (id);
 

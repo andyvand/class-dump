@@ -5,10 +5,9 @@
 //
 
 @protocol PXMockMutableExtendedTraitCollection
-- (long long)<;
-- (struct UIEdgeInsets);
-- (long long)=4£;
-- (void)û9ÿ14 û9ÿ14¼û9ÿí04Øû9ÿ;
+- (struct UIEdgeInsets);
+- (void);
+- (long long)É;
 
 // Remaining properties
 @property(nonatomic) long long contentSizeCategory;

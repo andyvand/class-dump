@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)ceTransition;
-- (_Bool);
-- (_Bool);
-- (void)tFont;
++ (_Bool)!;
 - (id);
-- (_Bool);
-- (_Bool)vû`;
-- (id)Óÿb;
-- (_Bool)$Ì;
-- (double)|Kðþ;
+- (id);
+- (_Bool)ibar: /* Error: Ran out of types for this method. */;
+- (_Bool)^þÿ»îÿ;
+- (void)rows out of bounds:(_Bool)arg1 numRowsBeforeSection=%ld, numRowsInSection=%ld, oldRowRange=%@;
+- (_Bool)q;
+- (_Bool)b×þgñÎÂb;
+- (double)dc;
+- (_Bool)ÿ;
 
 @end
 

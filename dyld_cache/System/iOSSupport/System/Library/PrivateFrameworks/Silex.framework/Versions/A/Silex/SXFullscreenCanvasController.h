@@ -57,7 +57,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)9	E;
+- (void);
 - (struct CGPoint);
 - (void);
 - (void);
@@ -70,11 +70,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (int);
 - (void);
@@ -88,7 +88,7 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -96,7 +96,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,7 +115,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
-- (void)T;
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -137,29 +137,29 @@
 - (double);
 - (id);
 - (void);
-- (void)A;
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
 - (_Bool);
-- (void));
-- (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)on:(id)arg1 willPerformPreviewActionForMenuWithConfiguration: /* Error: Ran out of types for this method. */;
-- (_Bool)x:(id)arg1 expanded:(id)arg2 animated: /* Error: Ran out of types for this method. */;
-- (_Bool)zeConstant;
-- (void)ling authentication challenge due to failure count:(id)arg1 %li;
+- (void)es"32@?<v@?q@"WKWebpagePreferences">40;
+- (void)eArray",R,N,V_attributes;
+- (void)0n¤n0p,qôq;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activeViewIndex;

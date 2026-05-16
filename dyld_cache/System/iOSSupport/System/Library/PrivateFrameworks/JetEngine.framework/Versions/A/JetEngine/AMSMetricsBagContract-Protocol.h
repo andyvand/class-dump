@@ -8,9 +8,6 @@
 
 @protocol AMSMetricsBagContract
 
-@optional
-- (AMSBagValue *);
-
 // Remaining properties
 @property(readonly, nonatomic) AMSBagValue *metricsDictionary;
 // Preceding property had unknown attributes: ?

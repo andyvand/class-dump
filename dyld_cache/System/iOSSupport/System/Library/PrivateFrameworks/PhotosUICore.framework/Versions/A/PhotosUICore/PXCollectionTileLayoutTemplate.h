@@ -14,7 +14,9 @@
 
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)J°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect imageRect; // @synthesize imageRect=_imageRect;

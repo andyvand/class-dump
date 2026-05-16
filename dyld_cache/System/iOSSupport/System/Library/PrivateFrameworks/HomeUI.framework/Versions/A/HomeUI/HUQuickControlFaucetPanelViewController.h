@@ -27,9 +27,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool)0@ù
-× ;
+- (_Bool);
+- (void)eduleRuleTime_AllDay;
 
 // Remaining properties
 @property(readonly, nonatomic) HFChildServiceControlItem *childValvesControlItem;

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UICoordinateSpace;
-
 @protocol UICoordinateSpace
-- (struct CGPoint)LKTableColumnAlignment;
-- (struct CGRect)mponent;
-- (struct CGRect)If you really need to dequeue more cells than the table view is requesting, use the -dequeueReusableCellWithIdentifier:(struct CGRect)arg1 method (without an index path). Cell identifier:(id <UICoordinateSpace>)arg2 %@, index path:%@ /* Error: Ran out of types for this method. */;
+- (struct CGRect)0@ù
+× ;
+- (struct CGRect)!¸Aùb°1Â0@ù
+× ;
+- (struct CGPoint);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

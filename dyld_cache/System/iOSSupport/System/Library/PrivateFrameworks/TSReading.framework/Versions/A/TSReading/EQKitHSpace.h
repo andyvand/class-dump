@@ -13,11 +13,11 @@
 
 - (_Bool);
 - (id);
+- (id);
+- (double);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double width; // @synthesize width=mWidth;

@@ -14,8 +14,8 @@
 
 - (void);
 - (void);
-- (void)ppendingString: /* Error: Ran out of types for this method. */;
 - (id);
+- (void),ayþ;
 
 @end
 

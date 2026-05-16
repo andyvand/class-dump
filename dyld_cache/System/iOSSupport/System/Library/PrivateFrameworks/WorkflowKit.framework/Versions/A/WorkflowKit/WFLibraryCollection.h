@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (id)ê?m¬Ö0%EÉ;
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)bytes;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *shortcutIdentifiers;

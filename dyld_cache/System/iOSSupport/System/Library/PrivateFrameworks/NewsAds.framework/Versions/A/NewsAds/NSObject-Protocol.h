@@ -7,9 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (id)?;
-- (_Bool);
-- (unsigned long long);
+- (struct _NSZone *)ic}@, error=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

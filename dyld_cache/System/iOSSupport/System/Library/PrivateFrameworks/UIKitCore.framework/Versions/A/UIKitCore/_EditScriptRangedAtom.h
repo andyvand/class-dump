@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id):(struct _NSRange)arg1 encryptionValidationToken:(id)arg2 receivedByHandleID:fromHandleID:messageDate: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)CodeStatus;
-- (void);
 - (id);
-- (id)setFocusInteractionEnabled: /* Error: Ran out of types for this method. */;
-- (void);
+- (struct _NSRange);
+- (id);
+- (id);
+- (void)ÍÌÌÌÌÌð?;
+- (void)_;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange editRange; // @synthesize editRange=_editRange;

@@ -20,13 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)PerChat;
-- (void);
-- (struct UIEdgeInsets)t does not have a creation date;
-- (void);
-- (void);
 - (id);
-- (long long)wí^;
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (id)0@ù
+× ;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets arrowEdgeInsets; // @synthesize arrowEdgeInsets=_arrowEdgeInsets;

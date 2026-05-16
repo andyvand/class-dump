@@ -14,7 +14,7 @@
 - (id);
 - (CDStruct_15189878);
 - (id);
-- (id);
+- (id)iew"16@"UITableViewFocusUpdateContext"24@"UIFocusAnimationCoordinator"32;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_15189878 additionalItemsCount; // @synthesize additionalItemsCount=_additionalItemsCount;

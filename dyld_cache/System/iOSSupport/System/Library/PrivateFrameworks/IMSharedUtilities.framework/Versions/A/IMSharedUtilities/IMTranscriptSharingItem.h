@@ -15,7 +15,7 @@
     NSString *_otherUnformattedID;
 }
 
-+ (_Bool)rJunk;
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *otherCountryCode; // @synthesize otherCountryCode=_otherCountryCode;

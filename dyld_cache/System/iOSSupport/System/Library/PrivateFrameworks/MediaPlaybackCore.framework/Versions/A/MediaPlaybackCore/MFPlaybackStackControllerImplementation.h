@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, MISSING_TYPE, NSArray, NSDictionary, NSNumber, NSString;
-@protocol MFPlaybackStackControllerDelegate, MFQueuePlayerItem;
+@class AVPlayerViewController, AVQueuePlayer, MISSING_TYPE, NSArray, NSDictionary, NSNumber, NSString;
+@protocol MFExternalPlaybackConfigurable, MFPlaybackStackControllerDelegate, MFQueuePlayerItem;
 
 @interface MFPlaybackStackControllerImplementation
 {
@@ -14,12 +14,14 @@
     MISSING_TYPE *internalStack;
 }
 
-- (void)dateBeacon:(id)arg1 updates:completion: /* Error: Ran out of types for this method. */;
-- (id)ndMy:completion: /* Error: Ran out of types for this method. */;
-- (void)nsWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)ugDescription;
-- (void)erviceDescription;
-- (float)rAgentServiceDescription: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (float);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -27,57 +29,62 @@
 - (void);
 - (void);
 - (void);
-- (void);;
-- (void)8;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)24;
-- (void)ion:(double)arg1;
-- (void)ctAtIndex:(double)arg1;
-- (void)ount:(id)arg1 withCompletionHandler:(CDUnknownBlockType)arg2;
-- (_Bool)refontChangedNotificationIfNeededForAccount:oldAccount:store: /* Error: Ran out of types for this method. */;
-- (void)uccessCriteria:(double)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long)[%{public}@] Failed to request server data cache teardown - no dsid on account;
-- (id)a DSID on the local account.;
 - (void);
-- (void)le.MediaPlayer.RadioExplicitTracksEnabledDidChange;
-- (float)dechanged;
-- (void);
-- (void);
-- (id);
-- (long long)d;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
 - (id);
 - (id);
-- (void);
+- (void);
+- (void);
+- (float);
+- (void);
+- (void);
 - (id);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (float);
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (double)nd: /* Error: Ran out of types for this method. */;
-- (float)ationKey;
-- (_Bool)smentConsumer;
+- (void);
+- (double);
+- (void);
+- (id);
+- (long long);
+- (long long)
+× ;
+- (_Bool)8#d(() .;
+- (void)sampleIndex:%lld - nextContiguous:%lld - previousContiguous:%lld /* Error: Ran out of types for this method. */;
+- (float)aylist;
 
 // Remaining properties
 @property(nonatomic, readonly) id <MFQueuePlayerItem> currentItem;
@@ -87,11 +94,13 @@
 @property(nonatomic, readonly) double currentTime;
 @property(nonatomic) __weak id <MFPlaybackStackControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) float effectiveRate;
+@property(nonatomic, readonly) id <MFExternalPlaybackConfigurable> externalPlaybackConfigurablePlayer;
 @property(nonatomic, readonly) long long interruptedState;
 @property(nonatomic, readonly) _Bool isModeManagedSession;
 @property(nonatomic, readonly) _Bool isModeShared;
 @property(nonatomic, readonly) _Bool isModeSolo;
 @property(nonatomic) _Bool isMuted;
+@property(nonatomic, readonly) _Bool isPlaybackLikelyToKeepUp;
 @property(nonatomic, readonly) _Bool mediaServicesAvailable;
 @property(nonatomic, readonly) NSString *modeDescription;
 @property(nonatomic, readonly) NSArray *nextItems;
@@ -99,9 +108,12 @@
 @property(nonatomic) float relativeVolume;
 @property(nonatomic, readonly) long long renderingMode;
 @property(nonatomic, readonly) NSDictionary *stateDictionary;
+@property(nonatomic, readonly) _Bool supportsMultichannelAudio;
 @property(nonatomic, readonly) float targetRate;
 @property(nonatomic, readonly) NSNumber *targetTime;
 @property(nonatomic, readonly) long long timeControlStatus;
+@property(nonatomic, readonly) AVQueuePlayer *unsafePlayer;
+@property(nonatomic) _Bool videoEnabled;
 @property(nonatomic, readonly) AVPlayerViewController *videoViewController;
 
 @end

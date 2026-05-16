@@ -25,7 +25,7 @@
     _Bool _isUpdating;
 }
 
-+ (id)N,V_didReachEnd;
++ (id)hQueue;
 - (double);
 - (void);
 - (id);
@@ -37,10 +37,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)ÿ/8Mö\7;
+- (id)o:style:isOverContent: /* Error: Ran out of types for this method. */;
+- (void)del.swift;
+- (void)Õv;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

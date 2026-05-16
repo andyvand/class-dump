@@ -29,18 +29,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)0@ù
-× ;
+- (void);
+- (void)sor:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *repChildViews; // @synthesize repChildViews=_repChildViews;

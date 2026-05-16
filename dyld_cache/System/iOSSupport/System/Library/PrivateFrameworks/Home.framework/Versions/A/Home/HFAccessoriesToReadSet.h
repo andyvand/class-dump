@@ -18,9 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (long long)n home:%@. This is going to cause the HFRoomBuilder commit to fail. /* Error: Ran out of types for this method. */;
+- (long long)1B50@ù
+× ;
+- (void)curringEventFetchTimer;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *accessories; // @synthesize accessories=_accessories;

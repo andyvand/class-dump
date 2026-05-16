@@ -5,7 +5,8 @@
 //
 
 @protocol UIActivityIndicatorProvider
-- (_Bool);
+- (_Bool)EndTracking: /* Error: Ran out of types for this method. */;
+- (void)tonItems:(_Bool)arg1 allowsSearchBarPlacementItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isHidden) _Bool hidden;

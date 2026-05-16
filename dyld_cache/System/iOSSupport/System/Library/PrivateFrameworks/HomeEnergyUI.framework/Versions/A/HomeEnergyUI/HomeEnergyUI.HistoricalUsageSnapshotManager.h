@@ -8,17 +8,13 @@
 
 @interface HomeEnergyUI.HistoricalUsageSnapshotManager
 {
-    MISSING_TYPE *_type;
+    MISSING_TYPE *insightProvider;
     MISSING_TYPE *_siteID;
     MISSING_TYPE *_utilityName;
     MISSING_TYPE *_lastReloadDate;
     MISSING_TYPE *_tileRefreshPeriod;
-    MISSING_TYPE *_dailyUsageSnapshot;
-    MISSING_TYPE *_detailedWeeklyUsageSnapshot;
+    MISSING_TYPE *_snapshots;
     MISSING_TYPE *_summaryWeeklySnapshot;
-    MISSING_TYPE *_monthlyUsageSnapshot;
-    MISSING_TYPE *_sixMonthlyUsageSnapshot;
-    MISSING_TYPE *_yearlyUsageSnapshot;
     MISSING_TYPE *_$observationRegistrar;
 }
 

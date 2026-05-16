@@ -27,15 +27,15 @@
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (struct CGSize);
+- (void)\/;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *containingViewController; // @synthesize containingViewController=_containingViewController;

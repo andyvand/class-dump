@@ -7,7 +7,7 @@
 @class PHPhotoLibrary;
 
 @protocol PHPhotoLibraryAsset
-- (PHPhotoLibrary *)ñ&ÿEk°ñ&ÿEk¬ñ&ÿEk°ñ&ÿEk(ò&ÿEk$ò&ÿEk8ò&ÿEkLò&ÿEkHò&ÿEk\ò&ÿEkXò&ÿEkTò&ÿ;
+- (PHPhotoLibrary *)Suggester;
 
 // Remaining properties
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;

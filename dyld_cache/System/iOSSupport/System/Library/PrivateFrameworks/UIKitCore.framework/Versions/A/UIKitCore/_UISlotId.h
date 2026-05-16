@@ -11,11 +11,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (unsigned int);
 - (void);
-- (id)!LGùQÇ°1¢!0@ù
-× ;
-- (id)ter:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ferredInterfaceOrientationGivenCurrentOrientation:(struct CGSize)arg1;
+- (unsigned int)sFeedback;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int value; // @synthesize value=_value;

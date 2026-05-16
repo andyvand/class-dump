@@ -22,12 +22,12 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void)<;
+- (void):(id)arg1 range:(id)arg2;
+- (void)G;
+- (void);
+- (id)itialized;
 - (void);
 
 @end

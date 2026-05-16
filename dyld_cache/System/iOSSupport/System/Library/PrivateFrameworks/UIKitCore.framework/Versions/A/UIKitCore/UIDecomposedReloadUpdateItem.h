@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
     UIDecomposedReloadUpdateItem *_pairedItem;
 }
 
-- (void)y;
-- (id);
-- (void)!`Fù±ÂÐ1¢!0@ù
-× ;
-- (_Bool);
+- (_Bool);
+- (id)ctPatternsForPatterns:inItemSet:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)<RÿÇÕ<¸h;
+- (void)þ#;
 
 // Remaining properties
 @property(nonatomic) __weak UIDecomposedReloadUpdateItem *pairedItem; // @synthesize pairedItem=_pairedItem;

@@ -11,13 +11,13 @@
     _Bool _accessibilityRowSelected;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (_Bool);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 - (id);
 
 // Remaining properties

@@ -8,7 +8,6 @@
 @protocol MTLDevice;
 
 @protocol MTLDepthStencilState
-- (id <MTLDevice>);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

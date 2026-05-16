@@ -7,8 +7,9 @@
 @class UICubicTimingParameters, UISpringTimingParameters;
 
 @protocol UITimingCurveProvider
-- (long long);
-- (UICubicTimingParameters *)%s;
+- (UICubicTimingParameters *)yedRange: /* Error: Ran out of types for this method. */;
+- (UISpringTimingParameters *)without a view is unsupported;
+- (long long)rs;
 
 // Remaining properties
 @property(readonly, nonatomic) UICubicTimingParameters *cubicTimingParameters;

@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ageDetectionResult"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *noSetFullAccess; // @synthesize noSetFullAccess=_noSetFullAccess;

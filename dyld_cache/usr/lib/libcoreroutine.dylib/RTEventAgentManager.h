@@ -14,21 +14,21 @@
     RTPlatform *_platform;
 }
 
-- (void)ONST;
-- (void)T;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
-- (id)#;
 - (_Bool);
-- (id)ary,Vvoluntary;
-- (void);
-- (id)c;
+- (id)ionnaire;
+- (id)ocation;
+- (void)%@, restorationIdentifier, %@, success, %@;
+- (void)rameter not satisfying:beam /* Error: Ran out of types for this method. */;
+- (void)i`;
+- (void)8áØÿí+m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

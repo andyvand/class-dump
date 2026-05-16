@@ -4,16 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDPersistenceServiceListener;
-
 @interface (null) (IMDPersistence)
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-
-// Remaining properties
-@property(nonatomic, setter=__imdp_setPersistenceServiceListener:) IMDPersistenceServiceListener *__imdp_persistenceServiceListener;
++ (unsigned long long);
++ (unsigned long long);
 @end
 

@@ -7,9 +7,6 @@
 @protocol TSLocalDraftsDelegate;
 
 @protocol TSLocalDraftsDeviceManagerType
-- (id <TSLocalDraftsDelegate>);
-- (void)ÈÿÿPÑ
-;
 
 // Remaining properties
 @property(nonatomic, retain) id <TSLocalDraftsDelegate> delegate;

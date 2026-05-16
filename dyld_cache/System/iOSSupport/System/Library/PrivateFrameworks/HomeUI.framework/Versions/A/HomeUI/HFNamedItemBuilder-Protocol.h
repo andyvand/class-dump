@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol HFNamedItemBuilder
+- (void)ues;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name;

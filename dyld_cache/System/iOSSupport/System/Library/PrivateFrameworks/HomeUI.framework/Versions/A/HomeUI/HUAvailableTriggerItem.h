@@ -37,12 +37,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
 - (void);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)adline:(_Bool)arg1;
+- (void);
+- (id)¼ÿÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (double);
 - (double);
-- (void);
-- (_Bool)oupingID;
-- (double);
-- (void)td:(double)arg1:__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)nsets;
-- (id),G_zoomAnchorPoint,S_setZoomAnchorPoint:,V_zoomAnchorPoint /* Error: Ran out of types for this method. */;
-- (double)ction %@ update, but there are only %lu total items.;
+- (_Bool);
 - (id);
-- (void)|l]ÿADB;
-- (void)3ó_;
+- (double);
+- (id);
+- (void);
+- (double);
+- (double)tUseReducedTransparencyForContentEffects: /* Error: Ran out of types for this method. */;
+- (void)UpdateOffsetX;
+- (void);
+- (id)HÌþÿ;
+- (void)èZ´ÿ;
 
 // Remaining properties
 @property(nonatomic) double currentValue; // @synthesize currentValue=_currentValue;

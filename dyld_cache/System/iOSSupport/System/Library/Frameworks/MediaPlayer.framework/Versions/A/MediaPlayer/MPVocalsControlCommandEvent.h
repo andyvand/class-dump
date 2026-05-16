@@ -15,9 +15,9 @@
 }
 
 - (id);
-- (void);
-- (id)e: /* Error: Ran out of types for this method. */;
-- (id)on-nil;
+- (void)isplayName;
+- (id)v16@?0@"NSXPCListenerEndpoint"8;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *active; // @synthesize active=_active;

@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (void);
 - (id);
@@ -21,6 +21,7 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -51,12 +52,12 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -112,8 +113,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (struct CGRect);
 - (_Bool);
+- (struct CGRect);
 - (id);
 - (id);
 - (id);
@@ -128,10 +129,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (struct CGRect);
+- (void);
 - (id);
-- (void)%@ had same index path as self:(id)arg1 %d;
+- (id);
 
 @end
 

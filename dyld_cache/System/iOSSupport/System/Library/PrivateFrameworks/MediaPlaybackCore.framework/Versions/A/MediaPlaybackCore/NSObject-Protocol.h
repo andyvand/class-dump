@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
-- (Class)StoreKit19OfferLabelPresenter;
-- (id);
-- (id)r available;
-- (id)ested but no SearchAdRotationDataProvider available;
-- (Class)rnalVersionID: /* Error: Ran out of types for this method. */;
-- (oneway void)llMaxInterval;
-- (unsigned long long)entity: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *)AdditionalItemsWithCount:forSection:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)v32@0:(Protocol *)arg1 8@"NSString"16@?<B@?@"MPCPlaybackEngineEvent"@"<MPCPlaybackEngineEventStreamCursor>">24;
+- (struct _NSZone *)ifier:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

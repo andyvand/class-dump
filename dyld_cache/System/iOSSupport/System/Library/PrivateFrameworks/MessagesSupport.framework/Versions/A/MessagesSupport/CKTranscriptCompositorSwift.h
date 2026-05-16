@@ -29,19 +29,19 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (long long);
+- (id);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (long long);
 - (double);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *boundarySupplementaryItems;

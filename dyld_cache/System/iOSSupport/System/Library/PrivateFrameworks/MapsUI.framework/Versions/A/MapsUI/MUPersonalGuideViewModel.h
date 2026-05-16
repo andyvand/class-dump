@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ed;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *guideID; // @synthesize guideID=_guideID;

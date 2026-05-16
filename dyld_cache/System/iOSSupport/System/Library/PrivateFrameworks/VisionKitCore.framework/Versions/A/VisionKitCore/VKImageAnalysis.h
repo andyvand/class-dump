@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)sultWhenVisible;
++ (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
@@ -53,13 +53,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)ùñMÐ1B0@ù
-× ;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int analysisRequestID;

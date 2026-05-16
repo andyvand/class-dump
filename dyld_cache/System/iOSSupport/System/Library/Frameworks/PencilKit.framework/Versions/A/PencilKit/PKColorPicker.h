@@ -21,18 +21,18 @@
 - (void);
 - (void);
 - (id);
-- (void)CrossFade;
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)%8;
 - (_Bool);
 - (id);
-- (void);
+- (void)es:(id)arg1 inputScale:start: /* Error: Ran out of types for this method. */;
+- (void)ÔH$I;
+- (void)Äaóÿ^6;
 
 // Remaining properties
 @property(retain, nonatomic) _PKColorPickerView *colorPickerView; // @synthesize colorPickerView=_colorPickerView;

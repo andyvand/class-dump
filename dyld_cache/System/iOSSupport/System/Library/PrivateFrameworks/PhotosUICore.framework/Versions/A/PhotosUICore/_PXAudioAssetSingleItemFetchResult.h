@@ -13,16 +13,16 @@
 }
 
 - (id);
-- (id);
 - (void);
-- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void)mberOfClipsWithResourceKind:(CDUnknownBlockType)arg1;
-- (id)uota;
-- (long long)osUICore.PXVideoFormatMetadata;
-- (id)`ú0ÿ;
+- (id)AnchorSpriteIndexForItemLayout: /* Error: Ran out of types for this method. */;
+- (id)Ð<;
+- (long long)oLibrary;
+- (void)reviews;
+- (id)tItemListManager;
+- (id)¯R(î3;
+- (id)¸O\V4;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

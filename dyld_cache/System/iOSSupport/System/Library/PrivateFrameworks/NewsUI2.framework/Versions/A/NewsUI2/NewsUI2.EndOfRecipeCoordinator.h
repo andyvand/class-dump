@@ -17,6 +17,7 @@
     MISSING_TYPE *feedDismissingManager;
     MISSING_TYPE *bundleSubscriptionManager;
     MISSING_TYPE *config;
+    MISSING_TYPE *articleDataFactory;
 }
 
 @end

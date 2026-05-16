@@ -15,18 +15,18 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (long long);
-- (id);
-- (_Bool)ed/utility/NSException_TSUAdditions.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

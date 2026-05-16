@@ -36,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -49,20 +49,20 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (int);
 - (void);
-- (id)ST;
-- (_Bool)te;
-- (id)%;
-- (void)ation for moving an event to that may require changes;
-- (int);
+- (id);
+- (void)FirstLineHeadIndent: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)topBoundary:[%@], initialStartBoundary:[%f], endBoundary:[%f], number of stacked occurrences:[%lu], top occurrence on stack:[%@] /* Error: Ran out of types for this method. */;
+- (void)Püÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accountError; // @synthesize accountError=_accountError;

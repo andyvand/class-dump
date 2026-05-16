@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
+- (void);
 - (double);
 - (id);
+- (double);
 - (void);
-- (void);
-- (void);
-- (long long)1¢!0@ù
+- (long long);
+- (void)¡!ôBù\1Â0@ù
 × ;
-- (id)ryDirectoryAtURL:backupFileName:error: /* Error: Ran out of types for this method. */;
-- (double)Over;
-- (void)stedView;
+- (id)ws;
+- (void)lPocketCollectorInteractionCSgXw;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

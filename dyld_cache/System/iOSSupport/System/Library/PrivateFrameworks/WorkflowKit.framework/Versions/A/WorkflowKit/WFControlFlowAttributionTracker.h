@@ -4,27 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
+@class NSMutableDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WFControlFlowAttributionTracker
 {
     NSMutableDictionary *_attributionSetsInScope;
+    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (_Bool)Get Dates from Input (Action Name);
++ (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)${operator} ${property} of ${entity} ${value} ${plus};
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *attributionSetsInScope; // @synthesize attributionSetsInScope=_attributionSetsInScope;
+@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

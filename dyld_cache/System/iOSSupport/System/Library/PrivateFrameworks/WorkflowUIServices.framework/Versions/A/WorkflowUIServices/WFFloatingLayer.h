@@ -34,17 +34,17 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (double);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)ance:(_Bool)arg1;
-- (id)AEyADyAF_AsgHtGGGSgALyé<tSgGGP7tGò9tyAAyAAyÎ®¢y(5tyÊ7tAZGGá7tyAAyØ6tk5tyA7_GGGGn:tGSgGG /* Error: Ran out of types for this method. */;
+- (void)qualToString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool appliesCornerRadiusDuringTouchDownOnly; // @synthesize appliesCornerRadiusDuringTouchDownOnly=_appliesCornerRadiusDuringTouchDownOnly;

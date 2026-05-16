@@ -14,22 +14,22 @@ __attribute__((visibility("hidden")))
     UIKBAutoFillTestArchive *_testArchive;
 }
 
-+ (void)unk:(id)arg1 %lld, not recovering:(CDUnknownBlockType)arg2 %@;
-- (id)tySessionsChangedForConversation:(id)arg1;
-- (id)romOldConversation:(id)arg1;
-- (id)ason:(id)arg1;
-- (id)ntextWithKnownSender:(id)arg1 serviceName:(long long)arg2;
-- (double)Protobuf2DataForGroupActionItem;
-- (double)compressFileTransfer:(id)arg1 completionBlock:(long long)arg2;
-- (double):(id)arg1 resolvingAgainstBaseURL:(long long)arg2;
-- (id)8;
++ (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (double);
+- (double);
+- (id);
 - (void);
-- (long long)le:(id)arg1 subtitle:(long long)arg2;
-- (id)r Working Directory, %@;
+- (id);
+- (long long);
 - (void);
-- (void);
-- (long long)earchBarItemGroupForPreferredPlacementChange:(id)arg1;
-- (id)lePresentersAppearanceCallbacks;
+- (id);
+- (long long);
+- (void)uh;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

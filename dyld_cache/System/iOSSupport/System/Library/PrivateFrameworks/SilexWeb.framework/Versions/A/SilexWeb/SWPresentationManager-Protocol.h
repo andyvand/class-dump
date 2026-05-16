@@ -7,8 +7,6 @@
 @class SWPresentationDatastore;
 
 @protocol SWPresentationManager
-- (void (^)(double, SWPresentationDatastore *));
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SWPresentationDatastore *datastore;

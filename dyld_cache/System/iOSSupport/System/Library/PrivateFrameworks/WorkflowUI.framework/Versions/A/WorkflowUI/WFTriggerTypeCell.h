@@ -21,11 +21,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
+- (void)ctionView;
+- (id)s finishing;
+- (void)dçþÿ;
 
 // Remaining properties
 @property(retain, nonatomic) WFTrigger *trigger; // @synthesize trigger=_trigger;

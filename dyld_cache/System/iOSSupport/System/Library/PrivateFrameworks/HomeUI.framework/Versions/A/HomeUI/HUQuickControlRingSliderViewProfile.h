@@ -40,11 +40,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
-- (void)sent:(unsigned long long)arg1;
+- (void);
+- (id);
+- (void)aceRecognitionUserPhotosLibrarySettingsItemManager initWithDelegate:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

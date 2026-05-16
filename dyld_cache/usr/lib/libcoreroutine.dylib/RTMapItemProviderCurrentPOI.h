@@ -15,15 +15,15 @@
     RTMapItemProviderCurrentPOIParameters *_parameters;
 }
 
-- (id)`;
-- (_Bool);
-- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)ate:(id)arg1;
-- (id)on_home;
-- (id). ;
+- (id);
+- (id);
+- (void)or detected:truth visit from yesterday, %@, is unknown /* Error: Ran out of types for this method. */;
+- (id)%d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

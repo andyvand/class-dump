@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     double _target;
 }
 
-- (id)Z;
 - (double);
 - (void);
-- (id);
-- (id)hicle event, fetchError, %@, semaError, %@;
+- (id)ink;
+- (id)à;
+- (id)%@, triggers, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

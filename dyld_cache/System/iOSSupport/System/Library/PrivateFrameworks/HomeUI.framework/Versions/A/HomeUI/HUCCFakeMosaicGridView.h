@@ -24,9 +24,8 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id)1b0@ù
-× ;
-- (void)ü;
+- (id);
+- (void)riIniCloud_Alert_Message;
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_contentBounds;

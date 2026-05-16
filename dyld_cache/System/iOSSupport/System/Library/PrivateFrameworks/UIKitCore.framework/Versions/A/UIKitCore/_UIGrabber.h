@@ -17,25 +17,25 @@
     unsigned long long __backgroundLuminanceLevel;
 }
 
-- (id);
-- (_Bool)`;
+- (_Bool);
 - (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (id)Superview,S_setCurrentPresentationSuperview:(id)arg1 ,V__currentPresentationSuperview;
-- (unsigned long long)noredReloads;
-- (id);
-- (void)Kit internal bug.;
-- (void);
-- (void)þ3;
-- (struct CGSize)0;
-- (unsigned long long)Z;
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (_Bool)è%Ú7Z^;
-- (struct CGSize)ßàþÌm;
+- (id)ItemAtIndexPath:(struct CGRect)arg1;
+- (void)Interaction;
+- (void)<;
+- (struct CGSize)pøÐH;
+- (id)ðîÿ;
+- (_Bool)ontentView.m;
+- (id)tyDidChangeNotification;
+- (id)mpactHeight;
+- (void)ä±[;
+- (unsigned long long)ãEÓâ_;
 
 // Remaining properties
 @property(nonatomic, setter=_setBackgroundLuminanceLevel:) unsigned long long _backgroundLuminanceLevel; // @synthesize _backgroundLuminanceLevel=__backgroundLuminanceLevel;

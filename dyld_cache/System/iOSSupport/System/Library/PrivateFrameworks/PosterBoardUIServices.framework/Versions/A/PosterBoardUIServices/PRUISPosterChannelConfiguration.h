@@ -20,10 +20,10 @@
 - (long long);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)redicateOptions;
-- (id)motion updates (testing provider);
+- (id);
+- (void);
+- (id)G_Qo_ALGtGAQyAdCyADSSAFySaySo9CNContactCGA5_QyAD_SSQo_GGGGADGtG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

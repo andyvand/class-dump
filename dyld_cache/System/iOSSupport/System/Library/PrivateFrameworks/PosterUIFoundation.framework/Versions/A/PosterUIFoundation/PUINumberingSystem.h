@@ -24,19 +24,19 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;

@@ -20,19 +20,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (struct os_unfair_lock_s);
+- (id);
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)ark:(id)arg1 contents:triggers:isDirectory:ignoringSubfolders:error: /* Error: Ran out of types for this method. */;
-- (id)istener;
-- (void)is.workflow.actions.getwebpagecontents;
+- (id);
+- (void)äù±ÿÿÿÿÿÔ;
+- (struct os_unfair_lock_s)n updating parameter summary, this is not an fatal error continuing %@;
+- (CDUnknownBlockType)tabase(SmartPrompts) allStatesDataForReference:actionUUID:] /* Error: Ran out of types for this method. */;
+- (void)uestions;
+- (void)9Coherence8Tagged_2P;
+- (_Bool)¹Æ;
 
 // Remaining properties
 @property(nonatomic) _Bool connected; // @synthesize connected=_connected;

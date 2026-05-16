@@ -13,8 +13,8 @@
 + (double);
 + (double);
 + (struct CGPoint);
-+ (struct CGPoint)W;
-+ (void)Y;
++ (struct CGPoint);
++ (void);
 + (unsigned long long);
 
 @end

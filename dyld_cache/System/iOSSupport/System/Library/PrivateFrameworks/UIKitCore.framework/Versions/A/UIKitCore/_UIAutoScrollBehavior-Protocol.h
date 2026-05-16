@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIAutoScrollAssistant;
-
 @protocol _UIAutoScrollBehavior
-- (CDStruct_912d1c89)ayloadPayloadCertificateAnchorUUID:(_UIAutoScrollAssistant *)arg1;
+- (struct UIEdgeInsets)tifier: /* Error: Ran out of types for this method. */;
+- (void)for an intrinsicContentSizeDimension. Using UIViewNoIntrinsicMetric instead.;
+
+// Remaining properties
+@property(nonatomic) struct UIEdgeInsets touchInsets;
 @end
 

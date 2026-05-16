@@ -24,32 +24,32 @@
     NSDate *_timeZoneRelativeStartDate;
 }
 
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)rties;
-- (void);
-- (void);
 - (id);
-- (void)Session:(id)arg1 completion:(id)arg2;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (long long);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)ches/com.apple.xbs/Sources/MessagesCore_iosmac/IMCore/IMDPersistence/Source/IMDNotificationsController.m;
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void)WithName:(_Bool)arg1;
 
 // Remaining properties
 @property(nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;

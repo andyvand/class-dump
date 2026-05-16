@@ -15,10 +15,10 @@
 }
 
 - (id);
-- (int));
-- (void);
-- (id);
+- (int);
 - (CDStruct_4c969caf);
+- (id);
+- (void)htsBannerSQLiteStore _createDatabaseSchemaIfNeeded];
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;

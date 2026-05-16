@@ -5,6 +5,5 @@
 //
 
 @protocol NANowPlayingPlaybackControlsDelegate
-- (void)#;
 @end
 

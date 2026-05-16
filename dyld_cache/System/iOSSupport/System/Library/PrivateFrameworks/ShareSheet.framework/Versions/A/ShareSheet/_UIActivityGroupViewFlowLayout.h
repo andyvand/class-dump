@@ -58,17 +58,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (struct CGSize);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (id)alues;
+- (void);
+- (void);
+- (void);
+- (id)÷øèødù;
 
 // Remaining properties
 @property(nonatomic) struct UIOffset draggingOffset; // @synthesize draggingOffset=_draggingOffset;

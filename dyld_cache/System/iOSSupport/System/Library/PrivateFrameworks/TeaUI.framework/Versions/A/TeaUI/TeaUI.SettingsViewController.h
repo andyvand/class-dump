@@ -22,18 +22,18 @@
 - (id);
 - (_Bool);
 - (double);
-- (long long)roxy returned error %@;
 - (id);
-- (void);
-- (id)rds;
-- (id)runedSessionSize;
+- (id);
+- (id);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (void);
 - (void);
 - (void);
-- (void)(NÈÿU\LRËÿ;
+- (void);
+- (void);
+- (void)üÿ(üÿ`üÿüÿ4üÿLüÿdüÿ|üÿüÿ`üÿüÿüÿ4üÿLüÿDüÿüÿ üÿ¸üÿÐüÿèüÿ° üÿÈ üÿ(!üÿ`!üÿ!üÿÐ!üÿ"üÿ@"üÿX"üÿp"üÿð"üÿH#üÿp#üÿ$üÿH$üÿ$üÿ¸$üÿð$üÿh%üÿ%üÿ%üÿÐ%üÿè%üÿ;
 
 @end
 

@@ -32,13 +32,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)hHome:] /* Error: Ran out of types for this method. */;
+- (void)Response:(CDUnknownBlockType)arg1 primaryService:temperatureFormatter: /* Error: Ran out of types for this method. */;
+- (void)	
+;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

@@ -126,10 +126,10 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)BSSH2_AGENT=}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)WFFileErrorIfNotFound;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

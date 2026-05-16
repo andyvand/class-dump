@@ -29,9 +29,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)y intended for Lock services;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

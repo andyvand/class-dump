@@ -8,10 +8,10 @@
 {
 }
 
-+ (Class)tReference: /* Error: Ran out of types for this method. */;
++ (Class);
 - (void);
 - (id);
-- (void);
+- (void)sToDiff:changeBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

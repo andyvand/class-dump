@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)äÁìÿ·´M~8;
+- (id)etCollectionShowMapActionPerformer;
 
 @end
 

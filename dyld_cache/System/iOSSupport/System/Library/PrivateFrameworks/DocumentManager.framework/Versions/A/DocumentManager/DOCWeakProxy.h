@@ -11,13 +11,13 @@
     NSObject *_target;
 }
 
-- (id)_;
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property __weak NSObject *target; // @synthesize target=_target;

@@ -17,9 +17,9 @@
 - (oneway void);
 - (id);
 - (void);
-- (void);
 - (long long);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak RPBroadcastActivityViewController *broadcastActivityViewController; // @synthesize broadcastActivityViewController=_broadcastActivityViewController;

@@ -19,10 +19,12 @@
     NSManagedObjectModel *_nextModel;
 }
 
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -33,23 +35,23 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (long long);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (id)%s IC:%zu%?s%?llu%?s%?llu D:%llu%?s/%llu%?s T:%zu/%zu/%llu/%llu/%llu/%llu%?s%?llu/%llu
- /* Error: Ran out of types for this method. */;
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (id)lation;
+- (id);
 - (unsigned long long);
-- (id)ationAdjuster";
+- (void)meter not satisfying:hintSource == RTHintSourceGeoFenceEntry || hintSource == RTHintSourceGeoFenceExit || hintSource == RTHintSourceSignificantRegionEntry || hintSource == RTHintSourceSignificantRegionExit || hintSource == RTHintSourceCompanionSyncVisit /* Error: Ran out of types for this method. */;
+- (unsigned long long)tch deleting entity type during reset sync, %@;
 
 // Remaining properties
 @property(readonly) __weak id <RTPersistenceDelegate> delegate; // @synthesize delegate=_delegate;

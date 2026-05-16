@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntity, CKMentionSuggestionView;
-
 @protocol CKMentionSuggestionViewDelegate
-- (void)ote:(CKMentionSuggestionView *)arg1 mode:(CKEntity *)arg2 window:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

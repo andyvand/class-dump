@@ -13,10 +13,9 @@
     NSArray *_locations;
 }
 
-- (void);
 - (id);
-- (id)³(Ð!°Gù1^,ð1¢!0@ù
-× ;
+- (id);
+- (void)tification, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;

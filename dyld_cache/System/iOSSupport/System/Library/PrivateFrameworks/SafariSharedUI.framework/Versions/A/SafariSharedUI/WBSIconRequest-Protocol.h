@@ -7,8 +7,6 @@
 @class NSString, UIColor;
 
 @protocol WBSIconRequest
-- (struct CGSize)hPath:isDirectory: /* Error: Ran out of types for this method. */;
-- (UIColor *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor;

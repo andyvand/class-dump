@@ -17,8 +17,8 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

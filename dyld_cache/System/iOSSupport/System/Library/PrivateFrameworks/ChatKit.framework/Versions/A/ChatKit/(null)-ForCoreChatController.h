@@ -7,14 +7,14 @@
 @class NSString;
 
 @interface (null) (ForCoreChatController)
-- (double)Õ;
+- (double);
 - (id);
 - (long long);
-- (_Bool)P ;
-- (_Bool)x;
-- (long long)r;
 - (_Bool);
-- (id)n;
+- (_Bool);
+- (long long);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *balloonBackdropGroupName;

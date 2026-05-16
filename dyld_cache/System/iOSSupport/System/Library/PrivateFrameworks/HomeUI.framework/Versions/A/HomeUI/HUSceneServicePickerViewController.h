@@ -38,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void)controller:(id)arg1 %@;
+- (void)ickerEventsSectionTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) HFActionSetBuilder *actionSetBuilder; // @synthesize actionSetBuilder=_actionSetBuilder;

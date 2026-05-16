@@ -17,8 +17,8 @@
     HMRestrictedGuestHomeAccessSettings *_restrictedGuestHomeAccessSettings;
 }
 
-+ (id)4Ôx¤;
-+ (_Bool)entifierKey;
++ (id);
++ (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -30,21 +30,20 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)ð1b0@ù
-× ;
-- (id)ents;
-- (id)] Successfully set cloud storage to %@;
-- (_Bool)lletKey;
-- (id)ù¼;
+- (id)dLongLong: /* Error: Ran out of types for this method. */;
+- (void)ParsedEventTopic;
+- (_Bool)ldRangeEvent;
 
 // Remaining properties
 @property(readonly, getter=isAdministrator) _Bool administrator; // @synthesize administrator=_administrator;

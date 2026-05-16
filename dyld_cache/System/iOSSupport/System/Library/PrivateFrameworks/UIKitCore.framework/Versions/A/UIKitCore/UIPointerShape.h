@@ -19,43 +19,41 @@
 }
 
 + (id);
-+ (id)T;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)= %@;
-- (void)ame:(struct CGPoint)arg1;
-- (void)al:(double)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ErrorToIMFileTransferErrorReason:(double)arg1 additionalErrorInfo: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ccountHasMultiplePhoneNumbers;
-- (_Bool),N,V_syncToken;
++ (id);
++ (id)13ú;
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (_Bool);
 - (struct CGPoint);
 - (double);
 - (double);
 - (void);
-- (_Bool)inTimeInterval: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (double)
-;
 - (_Bool);
-- (id);
 - (double);
-- (void)0@ù
+- (id);
+- (id);
+- (unsigned long long);
+- (struct CGSize)1Â0@ù
 × ;
-- (id)!\Aù±È1¢!0@ù
-× ;
-- (id)ing: /* Error: Ran out of types for this method. */;
-- (void)ortcuts;
-- (struct CGSize)cts;
-- (id)hExpirationHandler: /* Error: Ran out of types for this method. */;
-- (id)N,V_bg1ShadowEffect;
-- (void)sk view type, %@, does not support them. Set the maskView property to nil before setting nonzero gradientMaskLengths.;
-- (long long)ÿ¼þÿ;
-- (_Bool)Òþÿò¾þÿÖþÿ<¾þÿ;
-- (void);
-- (void)`~Èf;
-- (struct CGRect)wÿf-Ôïk;
+- (void)etAccessibilityPerformEscapeBlock:(id)arg1;
+- (_Bool)aceWidth:(id)arg1;
+- (struct CGRect)d}{CGSize=dd}},N,V_systemFrame;
+- (id)R,W,N,G_commonAncestorEnvironment,V_commonAncestorEnvironment;
+- (id)sual provider;
+- (_Bool)ToolbarInspectorSidebarTrackingSeparatorItem;
+- (double);
+- (void)_;
+- (void)ã\;
+- (long long);
+- (void)ÿÏH7`;
+- (void)tnd;
+- (id)0dh;
 
 // Remaining properties
 @property(nonatomic, setter=_setType:) long long _type; // @synthesize _type=__type;

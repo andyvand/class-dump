@@ -19,9 +19,9 @@
     CLLocation *_location;
 }
 
-+ (Class)iqueID;
-+ (id)h`;
-+ (id)áßD;
++ (Class);
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -40,25 +40,27 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)_DATA_CONST;
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)p~;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)!;
-- (id);
-- (id);
-- (int);
-- (void);
-- (void);
-- (void)!TEù1¢!0@ù
+- (id)Ã
+ð!AùÑîÐ1Â0@ù
 × ;
-- (id)djustObservingStatusForHandles;
+- (int)rSiblingChats: /* Error: Ran out of types for this method. */;
+- (id)	
+;
+- (void)ñüñ4óÌô°ö$÷8ø ùüû¼ýP;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;

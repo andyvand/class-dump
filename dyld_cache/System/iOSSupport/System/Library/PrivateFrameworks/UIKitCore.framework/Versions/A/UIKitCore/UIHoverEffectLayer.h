@@ -16,17 +16,17 @@
 }
 
 + (_Bool);
-- (void)mber of messages;
-- (id);
-- (id)ting;
-- (id);
-- (void)
-× ;
-- (id);
-- (id);
-- (id)p|j;
 - (void);
-- (void)A-;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)Q^ð1Â0@ù
+× ;
+- (void)Ý´13@ÿ¦þÝ´13 þý´13ÐÈ¦þ;
+- (void)`Ìl;
+- (void)ltm;
+- (id))p;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView;

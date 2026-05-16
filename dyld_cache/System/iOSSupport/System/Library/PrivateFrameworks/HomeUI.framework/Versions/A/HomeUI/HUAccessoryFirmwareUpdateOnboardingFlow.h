@@ -26,8 +26,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ould be impossible to get here; Alarms need an id <HFMediaAccessoryProfile>.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

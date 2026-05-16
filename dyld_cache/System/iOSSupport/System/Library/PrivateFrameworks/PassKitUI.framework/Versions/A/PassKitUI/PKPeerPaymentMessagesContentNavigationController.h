@@ -13,7 +13,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PKPeerPaymentMessagesContentView *contentView;

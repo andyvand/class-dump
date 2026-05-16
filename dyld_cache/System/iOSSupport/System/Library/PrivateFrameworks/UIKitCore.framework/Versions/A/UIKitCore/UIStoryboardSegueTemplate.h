@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
     _Bool _animates;
 }
 
-- (void)nSource:(id)arg1;
-- (SEL)broadcaster:recentsController:chatRegistry:attachmentStore: /* Error: Ran out of types for this method. */;
-- (id)Updates:(id)arg1;
+- (void);
+- (SEL);
 - (id);
-- (id)paired Chat Identifier:(id)arg1 %{BOOL}d  Repaired Participant V2:(id)arg2 %{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -31,14 +31,15 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
-- (void)dWithIdentifier:(id)arg1 withMode:withCategories:withCategoriesVersion2:withExemptApps: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void)houldRenderWithTintColor;
-- (id)on;
-- (id)rAccessoryViewController;
-- (id)cancellation error for already finished view service connection request '%@' :%{public}@ /* Error: Ran out of types for this method. */;
-- (id)tÞÿ¦õË,s_;
+- (id);
+- (void)!øBùQZ1Â0@ù
+× ;
+- (void)ibleForInterval:(id)arg1;
+- (id)n.;
+- (id)turned a value of class %@, that is not a subclass of NSString. This is an illegal override. overrideImplementation=%p;
+- (void)1±ÔXºb;
+- (id)Jÿ§¼Ð4èd;
 
 // Remaining properties
 @property(nonatomic) _Bool animates; // @synthesize animates=_animates;

@@ -25,8 +25,8 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)p/0l0¤3<4;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numPoints; // @synthesize numPoints=_numPoints;

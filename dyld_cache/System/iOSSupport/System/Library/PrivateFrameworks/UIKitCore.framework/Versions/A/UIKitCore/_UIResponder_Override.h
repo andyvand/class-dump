@@ -14,14 +14,13 @@ __attribute__((visibility("hidden")))
     long long _types;
 }
 
-+ (id)existing message was read, let's mark the new one is read;
++ (id);
 - (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
-- (long long)ons: /* Error: Ran out of types for this method. */;
-- (id)ignment: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)anglePath;
+- (void)Èe;
+- (long long)\;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIResponder *owner; // @synthesize owner=_owner;

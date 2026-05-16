@@ -14,8 +14,8 @@
 
 - (id);
 - (_Bool);
-- (void);
-- (id)xD;
+- (id);
+- (void)tation;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowDelayedResponse; // @synthesize allowDelayedResponse=_allowDelayedResponse;

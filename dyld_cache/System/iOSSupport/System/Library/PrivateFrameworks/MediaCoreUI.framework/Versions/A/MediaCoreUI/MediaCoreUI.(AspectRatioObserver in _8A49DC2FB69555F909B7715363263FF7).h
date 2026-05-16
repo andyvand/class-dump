@@ -9,6 +9,7 @@
 @interface MediaCoreUI.(AspectRatioObserver in _8A49DC2FB69555F909B7715363263FF7)
 {
     MISSING_TYPE *_aspectRatio;
+    MISSING_TYPE *_$observationRegistrar;
 }
 
 @end

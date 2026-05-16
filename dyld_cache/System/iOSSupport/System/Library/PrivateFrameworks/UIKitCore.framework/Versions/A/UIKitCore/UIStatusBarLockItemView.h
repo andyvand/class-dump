@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _animationCompletionBlock;
 }
 
-+ (double)%{BOOL}d;
++ (double);
 - (double);
 - (double);
 - (id);
@@ -41,27 +41,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)eachabilityRequest"16@"IMServiceReachabilityResult"24;
-- (void)equestWatchdogForMessageGuid:(CDUnknownBlockType)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)lity;
-- (double)astAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
-- (id)ID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
-- (void)ription;
-- (CDUnknownBlockType)queID;
-- (void)rocessedChatGUIDs;
-- (_Bool);
-- (void)@0:8@16@24C32@36@44B52 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
+- (double);
 - (id);
 - (void);
+- (CDUnknownBlockType);
 - (void);
-- (void);
-- (id)lts: /* Error: Ran out of types for this method. */;
-- (int)archBarContainerSublayoutDelegate;
+- (_Bool);
 - (void);
-- (_Bool)PÔþ;
-- (_Bool)¯k;
+- (void);
+- (void);
+- (int);
+- (_Bool);
+- (void)onWithClass:(id)arg1;
+- (id)ics] setSessionIdentifier:%@ -> %@ /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void)ª±;
+- (void)H¶ÿ;
+- (id)@z;
 
 // Remaining properties
 @property(nonatomic) _Bool alongsideViewIsBecomingVisible; // @synthesize alongsideViewIsBecomingVisible=_alongsideViewIsBecomingVisible;

@@ -18,10 +18,10 @@
 }
 
 + (id);
-- (void)nPreviewMode;
 - (void);
 - (void);
-- (void)4;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -33,15 +33,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)Ô ;
-- (id)pdatedMessageTintColor: /* Error: Ran out of types for this method. */;
-- (id)°0;
-- (void);
+- (void)de;
+- (id)nge:%@] /* Error: Ran out of types for this method. */;
+- (void)Kit/CKTipCollectionViewCell.swift;
+- (void)Ð;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *colors; // @synthesize colors=_colors;

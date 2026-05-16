@@ -21,11 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (long long)1b0@ù
-× ;
-- (long long);
+- (long long)32;
+- (long long)ÿÿÿ;
+- (void)î3;
 
 // Remaining properties
 @property(nonatomic, readonly) long long numberOfSections;

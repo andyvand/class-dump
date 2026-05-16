@@ -34,7 +34,7 @@ __attribute__((visibility("hidden")))
     double _center;
 }
 
-+ (id)uùÿÓoýÏ{;
++ (id)onDistanceForFastRegime;
 - (void);
 - (void);
 - (double);
@@ -74,19 +74,19 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
 - (void);
 - (void);
 - (id);
-- (double)@16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56;
 - (void);
-- (double)blic}@. Raw Error:%@ /* Error: Ran out of types for this method. */;
-- (double)ha:%f; cornerRadius:%f, cornerCurve:%@, cornerMask:%lu, borderWidth:%f, borderColor:%@, transform:%@; zPosition:%f; parallaxOffset:%@; contentsRect:%@; coordinateSystem:%@; cropInsets:%@; normalizedLegibilityInsets:%@; hitExtensionInsets:%@> /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (double);
+- (void);
+- (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double aperture; // @synthesize aperture=_aperture;

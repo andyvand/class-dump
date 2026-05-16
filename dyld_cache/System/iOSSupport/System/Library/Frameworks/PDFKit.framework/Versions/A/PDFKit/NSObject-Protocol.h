@@ -7,12 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool);
-- (_Bool);
-- (_Bool)q;
-
-@optional
-- (NSString *)extItem"24@"UIMenu"32;
+- (struct _NSZone *)criptor:size: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,10 +7,6 @@
 @class NSArray;
 
 @protocol AVVideoCompositionInstruction
-- (CDStruct_3c1748cc)BuildRoots/4~CG4vugDcXDVa-gdReO0SDhky8vDn7bnSwQJigKk/Library/Caches/com.apple.xbs/Sources/dcerpc/dcerpc/ncklib/cncthd.c;
-
-@optional
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsTweening;
@@ -21,6 +17,6 @@
 // Original attribute string: T@"NSArray",?,R,N
 
 @property(readonly, nonatomic) NSArray *requiredSourceTrackIDs;
-@property(readonly, nonatomic) CDStruct_3c1748cc timeRange;
+@property(readonly, nonatomic) struct timeRange;
 @end
 

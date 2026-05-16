@@ -5,7 +5,7 @@
 //
 
 @class FBKBugFormStub, FBKTeam, MISSING_TYPE;
-@protocol _TtP12FeedbackCore24FBKBugFormPickerDelegate_;
+@protocol FBKBugFormPickerDelegate;
 
 @interface FeedbackCore.FBKBugFormPickerController
 {
@@ -29,26 +29,26 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (void);
+- (id);
+- (long long);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)6;
 
 // Remaining properties
 @property(nonatomic) long long context; // @synthesize context;
 @property(nonatomic, retain) FBKBugFormStub *currentSelection; // @synthesize currentSelection;
-@property(nonatomic) __weak id <_TtP12FeedbackCore24FBKBugFormPickerDelegate_> pickerDelegate; // @synthesize pickerDelegate;
+@property(nonatomic) __weak id <FBKBugFormPickerDelegate> pickerDelegate; // @synthesize pickerDelegate;
 @property(nonatomic, retain) FBKTeam *team; // @synthesize team;
 
 @end

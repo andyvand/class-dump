@@ -27,8 +27,8 @@
 - (_Bool);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

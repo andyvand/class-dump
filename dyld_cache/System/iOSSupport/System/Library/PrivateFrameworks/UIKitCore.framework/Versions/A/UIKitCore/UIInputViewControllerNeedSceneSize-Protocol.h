@@ -5,6 +5,5 @@
 //
 
 @protocol UIInputViewControllerNeedSceneSize
-- (void)AutoReplyForChat: /* Error: Ran out of types for this method. */;
 @end
 

@@ -16,23 +16,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)6@24;
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void)owUpdates:(struct CGSize)arg1;
+- (_Bool)touchIgnoredUUIDSet;
+- (_Bool)ewForFocus: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)bolConfiguration;
+- (void)\P[;
+- (id)ìûÓÄ¢\;
 - (struct CGSize);
-- (_Bool)@"NSDateFormatter";
-- (void)zeArrayFromDictionary:(struct CGSize)arg1 forKey:(double)arg2 initCapacity:(struct CGContext *)arg3;
-- (id)ssInteractionDidDismissWithVelocity: /* Error: Ran out of types for this method. */;
-- (id)tGroupIdentifiers;
-- (id)V=ûÿ;
-- (_Bool)å;
-- (id)ú¢;
-- (id)Æ;
+- (id)Î`;
+- (void)Â`;
+- (_Bool)úþ|;
 
 @end
 

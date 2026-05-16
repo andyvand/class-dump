@@ -9,11 +9,12 @@
 @interface NewsFeed.PuzzleProgressMessageHandler
 {
     MISSING_TYPE *delegate;
+    MISSING_TYPE *gameMetricsStore;
 }
 
 - (void);
-- (void);
 - (id);
+- (void)Ì¿$ÿ;
 
 @end
 

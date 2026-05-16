@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     long long _displayBox;
 }
 
-- (id)ViewController"24@?<v@?B>32;
-- (id)ontroller";
-- (id)tItem"32@0:(unsigned long long)arg1 8@"SiriSharedUISAEViewModelController"16@"AceObject"24;
-- (void)tionContext"24;
-- (vector_ff1a8619)ateController"16@"CALayer"24;
-- (long long)=dd}}16@48B56;
+- (id);
+- (id);
+- (id);
+- (void);
+- (vector_ff1a8619);
+- (long long);
 - (long long);
 - (id);
-- (void)efineQuery;
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

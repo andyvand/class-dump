@@ -14,11 +14,11 @@
 
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

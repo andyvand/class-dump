@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)veTitleString;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *leftText; // @synthesize leftText=_leftText;

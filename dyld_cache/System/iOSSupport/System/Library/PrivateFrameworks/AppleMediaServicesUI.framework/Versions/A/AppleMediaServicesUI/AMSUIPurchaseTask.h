@@ -10,7 +10,7 @@
 {
 }
 
-- (Class)SgG;
+- (Class)contentParameters;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUIPurchaseDelegate> delegate; // @dynamic delegate;

@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (OptionSet_5fe9ad94);
 - (void);
 - (unsigned int);
+- (void);
 - (id);
-- (void);
-- (void);
 - (variant_7329a776);
-- (void);
 - (unsigned long long);
+- (void);
+- (void):(unsigned long long)arg1 state != Unmapped;
 
 // Remaining properties
 @property(nonatomic) unsigned int binding; // @synthesize binding=_binding;

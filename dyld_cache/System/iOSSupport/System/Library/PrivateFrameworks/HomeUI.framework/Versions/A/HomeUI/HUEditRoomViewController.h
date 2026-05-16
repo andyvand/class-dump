@@ -58,9 +58,9 @@
 - (void);
 - (void);
 - (void);
-- (void)esHelper:(id)arg1;
-- (_Bool)V_suggestionItemProvider;
-- (void)rCancelable;
+- (void)akeInternetFixSymptomItem;
+- (_Bool)oller;
+- (void)omeFeatureOnboardingKey_IdentifyVoice_DismissReminderBanner;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HUEditRoomViewControllerAddRoomDelegate> addRoomDelegate; // @synthesize addRoomDelegate=_addRoomDelegate;

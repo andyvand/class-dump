@@ -41,9 +41,10 @@
     struct CGRect _latestKeyboardFrame;
 }
 
++ (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -89,7 +90,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -117,7 +118,7 @@
 - (id);
 - (void);
 - (void);
-- (void)B;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -147,7 +148,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -156,41 +157,41 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id)=;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)llEdgeAppearance:(id)arg1;
+- (id);
+- (void);
 - (_Bool);
-- (void)difier.swift;
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool)t;
-- (id);
-- (void)paratorView;
-- (void)msForBeginningSession:(id)arg1;
-- (void)õÈÚ6;
+- (id)of unified recipients (count:%lu) /* Error: Ran out of types for this method. */;
+- (void)±;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *autocompleteResults; // @synthesize autocompleteResults=_autocompleteResults;

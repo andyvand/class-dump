@@ -17,8 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ckgroundColor: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

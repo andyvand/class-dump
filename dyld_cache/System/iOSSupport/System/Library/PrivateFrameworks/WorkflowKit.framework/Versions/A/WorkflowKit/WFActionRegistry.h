@@ -21,7 +21,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)7;
 - (id);
 - (id);
 - (void);
@@ -33,33 +33,32 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (id);
-- (id)l«ÐÕÌ;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)l«îÌ;
-- (id);
-- (id);
-- (id)HÌ;
-- (void)¨Ì;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 - (id);
-- (id);
-- (id)°!äCù±fð1B0@ù
-× ;
-- (void)essResult",R,C,N,V_result;
+- (void)WFTrelloGetItemsAction;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actionProvidersForFilling; // @synthesize actionProvidersForFilling=_actionProvidersForFilling;

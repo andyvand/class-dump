@@ -99,6 +99,7 @@
 @property(nonatomic, setter=_setUseInlineBackgroundHeightWhenLarge:) _Bool _useInlineBackgroundHeightWhenLarge;
 @property(readonly, nonatomic) UILayoutGuide *_userContentGuide;
 @property(nonatomic, setter=_setWantsHostedTabBarMetrics:) _Bool _wantsHostedTabBarMetrics;
+@property(readonly, nonatomic) _Bool _wantsScrollPocketContainerInteraction;
 @property(nonatomic, setter=_setAlwaysUseDefaultMetrics:) _Bool alwaysUseDefaultMetrics; // @synthesize alwaysUseDefaultMetrics=_alwaysUseDefaultMetrics;
 @property(retain, nonatomic) UIImage *backIndicatorImage;
 @property(retain, nonatomic) UIImage *backIndicatorTransitionMaskImage;

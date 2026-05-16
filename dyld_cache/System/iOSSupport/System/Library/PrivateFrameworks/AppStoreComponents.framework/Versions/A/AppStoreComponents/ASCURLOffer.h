@@ -27,16 +27,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (long long);
 - (id);
-- (id)skeletonNumberOfLines;
+- (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *ageRating; // @synthesize ageRating=_ageRating;

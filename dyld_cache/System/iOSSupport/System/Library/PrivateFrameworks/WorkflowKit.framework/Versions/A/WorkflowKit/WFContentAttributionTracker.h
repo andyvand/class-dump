@@ -13,18 +13,18 @@
     NSObject<OS_dispatch_queue> *_trackingAttributionSetQueue;
 }
 
-+ (_Bool)16@24^@32;
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)Ømyl¬Ö0%EÉ;
-- (void);
-- (id)«HÌ;
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)ages into a rounded rectangle, ellipse or icon shape, or provide a custom alpha mask.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *attributionSets; // @synthesize attributionSets=_attributionSets;

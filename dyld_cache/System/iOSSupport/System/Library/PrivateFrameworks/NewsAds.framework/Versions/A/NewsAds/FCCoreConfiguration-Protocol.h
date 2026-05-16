@@ -4,51 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCFeaturePromotionResourceConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString;
 
 @protocol FCCoreConfiguration
-- (long long);
-- (NSString *):6,"minNumberOfItems":6},"missedStories":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"topic":{"autoFavoritesTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"generalTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":15,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (long long)rtyMap: /* Error: Ran out of types for this method. */;
-- (NSString *)ange: /* Error: Ran out of types for this method. */;
-- (double)roadcastKind: /* Error: Ran out of types for this method. */;
-- (NSNumber *)h;
-- (long long)ow;
-- (NSString *)6Z;
-- (FCPuzzlesConfiguration *);
-- (long long)`;
-- (long long);
-- (NSString *);
-- (NSString *)Library/Caches/com.apple.xbs/Sources/AlderShared/utility/NSPropertyListSerialization_TSUtility.m;
+- (NSString *)ÿÿDÊÿÿ;
 
 @optional
-- (_Bool);
-- (long long)Q&;
-- (FCArticleModalBrandBarConfig *)!;
-- (long long);
-- (NSString *)TH;
-- (NSString *);
-- (NSArray *)wBlendedColorWithFraction:ofColor: /* Error: Ran out of types for this method. */;
-- (FCTimesOfDayConfiguration *)ue:forProperty: /* Error: Ran out of types for this method. */;
-- (_Bool)t=dd},N,VmStart;
-- (long long)inerForEditing;
-- (FCPaidBundleViaOfferConfig *)rollViewFrame;
-- (NSURL *)urces/AlderShared/text/TSWPTabs.mm;
-- (long long)insertParagraphData:charIndex:attributeArray:attributeIndex:undoTransaction:] /* Error: Ran out of types for this method. */;
-- (NSString *):] /* Error: Ran out of types for this method. */;
-- (FCLocationSharingUpsellConfig *)r;
-- (long long)9#;
-- (long long);
-- (NSString *)`;
-- (NSArray *)*@`I@`h@`*;
+- (FCLocationSharingUpsellConfig *)rtsEventOpenInTVSupported;
+- (FCStatelessPersonalizationPublisherFavorability *)r=%{public}@;
+- (_Bool)info succeeded, keywords=%{public}@, placement=%{public}@, contentID=%{public}@, placementID=%{public}@;
+- (NSString *);
+- (NSString *)ºÿÿ;
+- (NSString *)ÿÿ;
+- (NSArray *)ßGÿÿ_p;
+- (NSString *);
+- (_Bool)þGô¨øÿ;
+- (NSString *)Û­èo;
 - (long long);
-- (long long)bscriptionContextData;
-- (double);
-- (NSArray *);
-- (_Bool)P;
-- (NSString *)eateStageWithSteps:takingSteps: /* Error: Ran out of types for this method. */;
-- (NSString *): /* Error: Ran out of types for this method. */;
-- (long long);
+- (NSArray *)ÿ#®øùÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *aLaCartePaidSubscriptionGroupWhitelistedChannelIDs;
@@ -106,6 +79,10 @@
 
 @property(readonly, nonatomic) NSString *breakingNewsChannelID;
 @property(readonly, nonatomic) NSString *briefingsTagID;
+@property(readonly, nonatomic) NSString *cacheInvalidationResourceID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSDictionary *campaignReferralConfigsByID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSDictionary",?,R,N
@@ -168,6 +145,10 @@
 
 @property(readonly, nonatomic) long long expirePinnedArticlesAfter;
 @property(readonly, nonatomic) long long expiredPaidSubscriptionGroupCutoffTime;
+@property(readonly, nonatomic) FCFeaturePromotionResourceConfiguration *featurePromotionResourceConfiguration;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"FCFeaturePromotionResourceConfiguration",?,R,N
+
 @property(readonly, nonatomic) NSString *featuredStoriesTagID;
 @property(readonly, nonatomic) double feedLineHeightMultiplier;
 // Preceding property had unknown attributes: ?
@@ -221,6 +202,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCLaunchPresentationConfig",?,R,N
 
+@property(readonly, nonatomic) NSString *localNewsHubTagID;
 @property(readonly, nonatomic) FCLocationSharingUpsellConfig *locationSharingUpsellConfig;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"FCLocationSharingUpsellConfig",?,R,N
@@ -229,7 +211,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
-@property(readonly, nonatomic) long long maxCuratedShortcutsCount;
+@property(readonly, nonatomic) long long maxContentShortcutsCount;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
 
@@ -336,6 +318,18 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
 
+@property(readonly, nonatomic) _Bool paywallExperimentationEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSArray",?,R,N
+
+@property(readonly, nonatomic) NSString *paywallTagID;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) NSArray *permanentChannelIDs;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,N
@@ -369,7 +363,10 @@
 // Original attribute string: TB,?,R,N,GshouldProxyURLBucketFetch
 
 @property(readonly, nonatomic) FCPuzzlesConfiguration *puzzlesConfig;
+@property(readonly, nonatomic) NSString *recipeAlcoholicDrinkTagID;
+@property(readonly, nonatomic) NSString *recipeBakingTagID;
 @property(readonly, nonatomic) NSString *recipeCatalogTagID;
+@property(readonly, nonatomic) NSString *recipeNonAlcoholicDrinkTagID;
 @property(readonly, nonatomic) long long savedArticlesCutoffTime;
 @property(readonly, nonatomic) long long savedArticlesMaximumCountCellular;
 @property(readonly, nonatomic) long long savedArticlesMaximumCountWiFi;
@@ -486,6 +483,10 @@
 @property(readonly, nonatomic) NSString *todayFeedKnobs;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N
+
+@property(readonly, nonatomic) _Bool treatmentIDAdDonationEnabled;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
 
 @property(readonly, nonatomic) NSString *trendingRecipesListID;
 // Preceding property had unknown attributes: ?

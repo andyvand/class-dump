@@ -8,7 +8,7 @@
 {
 }
 
-- (double));
+- (double);
 
 // Remaining properties
 @property(readonly) double timeIntervalSinceReferenceDate;

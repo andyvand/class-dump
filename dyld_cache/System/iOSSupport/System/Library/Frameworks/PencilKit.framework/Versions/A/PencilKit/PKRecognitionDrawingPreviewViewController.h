@@ -13,19 +13,20 @@
     UIImageView *_imageView;
 }
 
-- (void)formatVersion:(id)arg1;
-- (id)POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCURLFetchOperation.m;
-- (id)hes/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCRequestInfo+News.m;
 - (void);
-- (id)$;
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
 - (void);
-- (id)ANetwork;
-- (id)d drawing with %lu SDR strokes, and %lu HDR strokes;
-- (void)2,I;
+- (id);
 - (void);
+- (void);
+- (id)
+× ;
+- (id)ferenceSearchArea:(id)arg1 referenceCoordSpace:completion: /* Error: Ran out of types for this method. */;
+- (void)zeClass;
+- (void).apple.xbs/TemporaryDirectory.niyppk/Sources/PencilKit_iosmac/PencilKit/Text/UITextView_PencilKit.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,7 +7,7 @@
 @class CLLocation, NSError;
 
 @protocol IMLocationManager
-- (CLLocation *);
+- (CLLocation *)× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CLLocation *currentLocation;

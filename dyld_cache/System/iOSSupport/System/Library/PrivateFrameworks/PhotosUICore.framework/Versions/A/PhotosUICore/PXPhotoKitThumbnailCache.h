@@ -20,16 +20,15 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)oducer;
+- (void)aredAlbumsUnavailableAlbumsHeaderMessageFormat;
+- (void)ticallyï;
+- (id)j7ðÜ3;
 - (void);
-- (id){°1b0@ù
-× ;
-- (void);
-- (id)sÍÿ^ØNv/6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

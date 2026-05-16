@@ -43,11 +43,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
@@ -68,16 +68,16 @@
 - (void);
 - (id);
 - (void);
+- (unsigned long long);
 - (struct CGRect);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (void);
+- (void);
+- (void)referredFocusedViewInTableView:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

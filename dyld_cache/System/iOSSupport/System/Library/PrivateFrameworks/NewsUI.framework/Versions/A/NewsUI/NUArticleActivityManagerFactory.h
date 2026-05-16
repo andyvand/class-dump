@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (id)@"FCCurrentIssuesCheckerResult">16;
-- (id)Controller:direction: /* Error: Ran out of types for this method. */;
-- (id)XAppStateMonitor>",R,N,V_appStateMonitor;
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUURLHandling> URLHandler; // @synthesize URLHandler=_URLHandler;

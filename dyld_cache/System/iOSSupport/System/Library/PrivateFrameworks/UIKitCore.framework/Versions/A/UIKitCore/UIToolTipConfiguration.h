@@ -12,13 +12,13 @@
     struct CGRect _sourceRect;
 }
 
-+ (id)ciatedMessageItem"8;
-+ (id)0@"IMItem"8;
++ (id);
++ (id);
 - (void);
 - (id);
-- (struct CGRect)AllowEnterpriseBookMetadataSync;
-- (void);
-- (void)_searchBarTextFieldDidSelectSearchSuggestion:(struct CGRect)arg1;
+- (void);
+- (struct CGRect)ollers;
+- (void)¸Ì`;
 
 // Remaining properties
 @property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;

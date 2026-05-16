@@ -30,19 +30,19 @@
 + (id);
 - (id);
 - (CDStruct_5f1f7aa9);
-- (void)=;
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (CDStruct_5f1f7aa9);
-- (int);
+- (int);
 - (id);
 - (CDStruct_5f1f7aa9);
 - (CDStruct_0441cfb5);
-- (_Bool);
 - (void);
-- (id)Attempting to score %d items;
+- (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_0441cfb5 cellID; // @synthesize cellID=mCellID;

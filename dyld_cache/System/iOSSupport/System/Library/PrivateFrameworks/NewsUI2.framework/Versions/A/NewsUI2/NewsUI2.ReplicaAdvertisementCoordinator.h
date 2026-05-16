@@ -15,6 +15,7 @@
     MISSING_TYPE *issueSessionManager;
     MISSING_TYPE *channelDataFactory;
     MISSING_TYPE *scienceDataFactory;
+    MISSING_TYPE *articleDataFactory;
 }
 
 @end

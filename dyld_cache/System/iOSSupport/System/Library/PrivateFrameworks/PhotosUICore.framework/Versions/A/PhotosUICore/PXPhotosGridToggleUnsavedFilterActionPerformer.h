@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)ð5;
+- (id)ctionableSectionHeaderViewDelegate>",W,N,V_delegate;
 
 @end
 

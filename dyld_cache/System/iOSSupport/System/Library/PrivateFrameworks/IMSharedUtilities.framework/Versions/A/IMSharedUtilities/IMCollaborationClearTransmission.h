@@ -13,15 +13,15 @@
     NSString *_guidString;
 }
 
-+ (_Bool)sagesUpdated:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *collaborationId; // @synthesize collaborationId=_collaborationId;

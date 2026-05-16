@@ -15,9 +15,9 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *foregroundStateDescription; // @synthesize foregroundStateDescription=_foregroundStateDescription;

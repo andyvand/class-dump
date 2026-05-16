@@ -9,8 +9,7 @@
 @protocol TSADocumentRootDelegate
 
 @optional
-- (void);
-- (void)s/com.apple.xbs/Sources/AlderShared/drawables/TSDStroke.m;
+- (void)rencedStylesOfClass:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *defaultDraftName;

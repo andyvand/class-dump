@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ped;
 
 // Remaining properties
 @property(readonly) NSString *messageName; // @synthesize messageName=_messageName;

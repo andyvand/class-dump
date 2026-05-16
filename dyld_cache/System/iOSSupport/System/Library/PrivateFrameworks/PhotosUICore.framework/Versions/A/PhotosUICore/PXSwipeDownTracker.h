@@ -46,10 +46,10 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (unsigned long long);
 - (id);
-- (id)ïº$G;
+- (id);
+- (unsigned long long);
+- (void)r.swift;
 
 // Remaining properties
 @property(nonatomic) double dismissalProgress; // @synthesize dismissalProgress=_dismissalProgress;

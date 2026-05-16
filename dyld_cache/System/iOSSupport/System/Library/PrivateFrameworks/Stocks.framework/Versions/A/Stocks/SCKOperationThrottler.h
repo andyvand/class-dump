@@ -16,14 +16,14 @@
 }
 
 - (void);
-- (void)6;
-- (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (_Bool);
-- (void):(_Bool)arg1;
+- (void);
+- (void);
 
 // Remaining properties
 @property _Bool suspended; // @synthesize suspended=_suspended;

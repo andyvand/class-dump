@@ -14,7 +14,8 @@
     struct _NSRange _range;
 }
 
-- (void);
+- (void)0@ù
+× ;
 
 @end
 

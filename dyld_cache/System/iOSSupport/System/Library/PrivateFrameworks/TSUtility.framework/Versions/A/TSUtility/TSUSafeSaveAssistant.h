@@ -23,8 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *writeURL; // @synthesize writeURL=_writeURL;

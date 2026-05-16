@@ -21,14 +21,14 @@
 - (Class);
 - (void);
 - (id);
-- (id)u(;
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (double);
 - (id);
 - (double);
-- (void)l;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,11 +37,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)ePlayAvailableState;
-- (void);
+- (_Bool);
 - (id);
-- (id);
+- (void)rTraitCollection: /* Error: Ran out of types for this method. */;
+- (id)tÄ;
+- (id)*ð||};
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setBarButtonItemsProvider:) CDUnknownBlockType _barButtonItemsProvider; // @synthesize _barButtonItemsProvider=__barButtonItemsProvider;

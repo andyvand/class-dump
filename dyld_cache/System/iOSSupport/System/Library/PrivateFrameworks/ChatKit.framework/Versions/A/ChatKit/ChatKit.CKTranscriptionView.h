@@ -20,12 +20,12 @@
 }
 
 - (void);
-- (void);
-- (void)u;
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 @end
 

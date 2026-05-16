@@ -19,13 +19,14 @@
 - (void);
 - (id);
 - (struct CGPoint);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (id)gResults;
-- (id)O;
-- (struct CGSize)áþ$¼ªÿ;
+- (struct CGSize);
+- (id);
+- (id);
+- (void)e
+_;
+- (id)ngsButtonViewRenderer;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

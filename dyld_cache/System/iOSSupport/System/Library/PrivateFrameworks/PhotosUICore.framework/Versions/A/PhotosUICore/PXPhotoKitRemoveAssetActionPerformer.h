@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id)wCurationBarButtonItem;
+- (id);
 
 @end
 

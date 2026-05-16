@@ -21,34 +21,34 @@
     double _fastHapticVolume;
 }
 
-+ (id)be unregistered.;
 + (id);
-+ (id)× ;
-+ (id)UIVectorOperatable>"32@0:8@"<UIVectorOperatable>"16d24 /* Error: Ran out of types for this method. */;
-+ (id)te: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id)e=dd}32@0:(struct _NSZone *)arg1 8{CGSize=dd}16;
-- (double);
-- (long long);
-- (void);
-- (double);
-- (void);
-- (double)ù
++ (id);
++ (id)Z°1Â0@ù
 × ;
-- (void)0@ù
++ (id)
 × ;
-- (id)bled;
-- (double):didEndReorderingRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)Style;
-- (id)ene:withSnapshotBlock: /* Error: Ran out of types for this method. */;
-- (double)ionDraggingEnded: /* Error: Ran out of types for this method. */;
-- (void)e MAY need to support implicit start/finish animator tracking.;
-- (void)utton;
++ (id)ransition;
 - (double);
-- (id)^;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void)tenerEndpoint";
+- (id)8{CGSize=dd}16@32@40;
+- (_Bool)didate"16@0:(id)arg1 8;
+- (void)ands;
+- (double)BarUpdate;
+- (double)h:playFeedback:atLocation:allowAutoNavigation: /* Error: Ran out of types for this method. */;
+- (double)ate;
+- (double)yWasDismissedByUser: /* Error: Ran out of types for this method. */;
+- (void)age;
+- (id)_accessoryButton;
+- (long long)iew.swift;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double fastAudioVolume; // @synthesize fastAudioVolume=_fastAudioVolume;

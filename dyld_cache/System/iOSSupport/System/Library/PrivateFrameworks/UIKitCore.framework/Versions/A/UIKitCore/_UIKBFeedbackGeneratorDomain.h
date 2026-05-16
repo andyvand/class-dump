@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)loadAllowGameCenter;
 + (id);
-+ (Class)esolved;
-+ (id);
++ (id)window:listener: /* Error: Ran out of types for this method. */;
++ (id)een;
++ (Class);
 
 @end
 

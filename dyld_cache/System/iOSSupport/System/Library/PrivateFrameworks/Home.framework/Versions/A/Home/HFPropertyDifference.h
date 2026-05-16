@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)´;
 
 // Remaining properties
 @property(retain, nonatomic) id valueA; // @synthesize valueA=_valueA;

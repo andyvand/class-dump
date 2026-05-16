@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITableMetricsAdapter, UIView;
+@class UITableMetricsAdapter, UIView;
 @protocol UITableConstants;
 
 @protocol UITable_RowDataSource
-- (long long);
-- (UIView *);
-- (_Bool);
-- (struct UIEdgeInsets)f;
-- (_Bool)@0:8@"IMUserNotification"16 /* Error: Ran out of types for this method. */;
-- (double)8@"NSDictionary"76@?<v@?q@"NSDictionary">84;
-- (double)g"32@"NSAttributedString"40@"NSString"48q56B64q68@"NSDictionary"76@?<v@?q@"NSDictionary">84;
-- (double)ng"24;
-- (NSString *)ionary"16;
-- (double)Context;
-- (double)LongValue;
-- (double)nsignedIntValue;
-- (void)ype:(double)arg1;
-- (void)cknameRequestResponse:(double)arg1 encodedNicknameData: /* Error: Ran out of types for this method. */;
-- (double)deleteMessageCKOperationUsingRecordIDstoDelete: /* Error: Ran out of types for this method. */;
-- (double)or: /* Error: Ran out of types for this method. */;
-- (UITableMetricsAdapter *)FromStorageCount;
-- (long long)e";
-- (double)ewControllerTransitioning.m;
-
-@optional
-- (void)nHint;
+- (double)seToCaret;
+- (long long)unchWithFBSScene:transitionContext: /* Error: Ran out of types for this method. */;
+- (double)EffectDescriptor;
+- (id <UITableConstants>)iner path for Safari.;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_contentInset) struct UIEdgeInsets _contentInset;

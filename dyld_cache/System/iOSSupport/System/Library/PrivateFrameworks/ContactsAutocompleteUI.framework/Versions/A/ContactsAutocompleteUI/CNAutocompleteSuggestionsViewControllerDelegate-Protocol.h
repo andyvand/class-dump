@@ -5,8 +5,5 @@
 //
 
 @protocol CNAutocompleteSuggestionsViewControllerDelegate
-
-@optional
-- (_Bool)B;
 @end
 

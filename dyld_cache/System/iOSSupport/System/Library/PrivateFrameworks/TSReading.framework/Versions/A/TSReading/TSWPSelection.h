@@ -51,7 +51,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -62,22 +62,22 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id)=;
-- (void);
 - (void);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (int);
+- (struct _NSRange);
+- (_Bool);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (unsigned long long);
-- (int);
-- (unsigned long long)b16b16b16b16}[0C]}16@24;
-- (struct _NSRange)Array",&,N,VmFindHighlights;
+- (void)eFieldTraceEffect;
 
 // Remaining properties
 @property(readonly, nonatomic) int caretAffinity; // @synthesize caretAffinity=_caretAffinity;

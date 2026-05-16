@@ -19,31 +19,31 @@
 }
 
 - (_Bool);
-- (void)4;
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)(8uR;
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)7;
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)$Ä;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool useManateeContainer; // @synthesize useManateeContainer=_useManateeContainer;

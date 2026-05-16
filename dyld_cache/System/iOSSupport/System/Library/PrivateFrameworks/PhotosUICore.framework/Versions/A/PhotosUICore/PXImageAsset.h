@@ -29,19 +29,21 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (unsigned long long);
 - (long long);
-- (unsigned long long)ceManager:mediaProvider:activityType: /* Error: Ran out of types for this method. */;
-- (double)So27PXPhotoLibraryLocalDefaultsC;
-- (id)neratedText;
-- (unsigned long long)ÿýJÏ76;
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (id)0@ù
+× ;
+- (_Bool)0@ù
+× ;
+- (id)ewModeTransition"16@0:(struct _NSZone *)arg1 8;
+- (_Bool)Titles: /* Error: Ran out of types for this method. */;
+- (id)¬¼¬Ä­D®;
+- (void)BayOótº;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (CDUnknownBlockType);
-- (id)imaryStateCharacteristicType;
+- (void)ntTriggerBuilder+LegacyInterfaces.m;
+- (id)p, %@ %@>;
 
 // Remaining properties
 @property(readonly, nonatomic) HMUser *user; // @synthesize user=_user;

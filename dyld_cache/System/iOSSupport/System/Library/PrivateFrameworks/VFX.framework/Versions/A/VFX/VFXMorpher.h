@@ -38,7 +38,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)x;
++ (_Bool);
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

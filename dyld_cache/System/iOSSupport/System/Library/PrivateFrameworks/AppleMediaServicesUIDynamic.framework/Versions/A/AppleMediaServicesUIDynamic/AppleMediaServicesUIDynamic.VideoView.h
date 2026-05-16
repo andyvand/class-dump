@@ -45,17 +45,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool accessibilityIsPlaying;

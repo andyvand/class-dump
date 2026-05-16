@@ -29,14 +29,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *deBundleIdentifier;

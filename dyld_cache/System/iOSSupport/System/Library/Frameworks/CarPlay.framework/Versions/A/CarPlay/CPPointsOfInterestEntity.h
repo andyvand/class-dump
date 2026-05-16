@@ -18,12 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *pointsOfInterest; // @synthesize pointsOfInterest=_pointsOfInterest;

@@ -23,7 +23,7 @@
 - (id);
 - (Class);
 - (void);
-- (void);
+- (void)ServicePickerUnsupportedResidentMessage;
 
 // Remaining properties
 @property(retain, nonatomic) HUAccessorySceneListContentViewController *existingSceneListContentViewController; // @synthesize existingSceneListContentViewController=_existingSceneListContentViewController;

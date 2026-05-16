@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)itWithCoder: /* Error: Ran out of types for this method. */;
 + (id);
-+ (Class);
-+ (id);
++ (id)eSelectionHighlightColor;
++ (id)me:object: /* Error: Ran out of types for this method. */;
++ (Class)þ;
 
 @end
 

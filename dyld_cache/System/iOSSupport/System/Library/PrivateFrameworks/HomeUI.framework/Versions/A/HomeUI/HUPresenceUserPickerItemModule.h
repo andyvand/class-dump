@@ -58,11 +58,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)er"16i24;
-- (void)hArray:(id)arg1;
+- (void)RouterRemoveAlertButtonCancel;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *activationOptionStateByGranularity; // @synthesize activationOptionStateByGranularity=_activationOptionStateByGranularity;

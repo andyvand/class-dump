@@ -12,20 +12,19 @@
 {
 }
 
-+ (Class);
-- (void)K;
-- (id)erson_id = @hashedPersonID AND url_expiration_date > @now;
-- (void);
-- (void)!4EùqÆÐ1¢!0@ù
++ (Class)`ð1Â0@ù
 × ;
 - (void);
-- (void)ñÆ°1¢!0@ù
-× ;
-- (void)iguration: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)Ra;
-- (void)2ÿX}Ó;1c;
+- (void)lPositionAdjustment:(struct CGPoint)arg1 forBarMetrics: /* Error: Ran out of types for this method. */;
+- (void)},R,N,V_localDataOverrides;
+- (void)extColor: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ement kind:%@; index path:%@; supplementary view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
+- (id)eString;
+- (void)s:toURL:forSaveOperation:originalContentsURL:error:only understands contents of type NSFileWrapper or NSData, not %@. You must override one of the write methods to support custom content types /* Error: Ran out of types for this method. */;
+- (void)acingStyle;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_dragSnappingConfiguration) _UIDragSnappingFeedbackGeneratorConfiguration *dragSnappingConfiguration;

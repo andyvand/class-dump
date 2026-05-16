@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)dDefaultsInstance;
-- (id)ngRequestsWithID: /* Error: Ran out of types for this method. */;
 - (double);
-- (double)ü~e;
+- (id);
+- (double)illedContextMenuConfiguration;
+- (double)ier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (struct CGSize);
-- (void)aceConverter;
-- (void)R8;
+- (void);
 
 @end
 
