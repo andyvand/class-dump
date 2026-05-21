@@ -1414,6 +1414,16 @@ int main(int argc, char *argv[])
                     fprintf(stderr, "class-dump: --fileset-class-dump requires --out OUTDIR\n");
                     exit(1);
                 }
+                // stringByAppendingPathComponent: silently returns nil when its
+                // receiver is a non-absolute path that consists of only a name
+                // under some Foundation versions; standardize/absolutize first.
+                writeOutPath = [writeOutPath stringByExpandingTildeInPath];
+                if (![writeOutPath isAbsolutePath]) {
+                    NSString *cwd = [[NSFileManager defaultManager] currentDirectoryPath];
+                    writeOutPath = [cwd stringByAppendingPathComponent:writeOutPath];
+                }
+                writeOutPath = [writeOutPath stringByStandardizingPath];
+
                 NSFileManager *fm = [NSFileManager defaultManager];
                 if (![fm fileExistsAtPath:writeOutPath]) {
                     NSError *e = nil;
@@ -1450,8 +1460,21 @@ int main(int argc, char *argv[])
                         NSString *entryID = e.entryID ?: [NSString stringWithFormat:@"entry_%llx", e.fileoff];
                         // Sanitize id into a directory-safe leaf (e.g. "com.apple.driver.AppleARMPlatform"
                         // stays as-is; anything containing slashes is collapsed).
-                        NSString *safeName = [entryID stringByReplacingOccurrencesOfString:@"/" withString:@"_"];
-                        NSString *outSub = [writeOutPath stringByAppendingPathComponent:safeName];
+                        NSString *safeName = [[entryID stringByReplacingOccurrencesOfString:@"/" withString:@"_"]
+                                                       stringByReplacingOccurrencesOfString:@"\0" withString:@""];
+                        NSString *outSub = nil;
+                        if ([safeName length] > 0 && [writeOutPath length] > 0) {
+                            outSub = [writeOutPath stringByAppendingPathComponent:safeName];
+                        }
+                        if (outSub == nil) {
+                            fprintf(stderr, "class-dump: [%lu/%lu] %s: bad output path (writeOutPath=%s safeName=%s)\n",
+                                    (unsigned long)idx, (unsigned long)total,
+                                    [entryID UTF8String],
+                                    writeOutPath ? [writeOutPath UTF8String] : "(nil)",
+                                    safeName ? [safeName UTF8String] : "(nil)");
+                            failed++;
+                            continue;
+                        }
                         if (![fm fileExistsAtPath:outSub]) {
                             NSError *ce = nil;
                             if (![fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:&ce]) {

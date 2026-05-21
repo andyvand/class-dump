@@ -42,7 +42,18 @@ struct fileset_entry_command {
         }
 
         NSUInteger remaining = (_command.cmdsize > stringOffset) ? (_command.cmdsize - stringOffset) : 0;
-        _entryID = [cursor readStringOfLength:remaining encoding:NSUTF8StringEncoding];
+        NSString *raw = [cursor readStringOfLength:remaining encoding:NSUTF8StringEncoding];
+
+        // The entry_id occupies the rest of the load command, NUL-padded out to
+        // _command.cmdsize. Strip embedded NULs so the resulting NSString can be
+        // used as a path component without `fileSystemRepresentation` truncating
+        // mid-string. Also trim any trailing whitespace produced by stray bytes.
+        if (raw != nil) {
+            NSRange nul = [raw rangeOfString:@"\0"];
+            if (nul.location != NSNotFound) raw = [raw substringToIndex:nul.location];
+            raw = [raw stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+        }
+        _entryID = raw;
     }
     return self;
 }
