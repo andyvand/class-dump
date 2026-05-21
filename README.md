@@ -12,8 +12,9 @@ original Objective-C dumping it adds:
 
 * **dyld_shared_cache** inspection, extraction, and bulk class-dump
   (`--dsc-info`, `--dsc-list-images`, `--dsc-extract`, `--dsc-class-dump`).
-* **Kernelcache fileset** listing and extraction
-  (`--list-fileset`, `--extract-fileset`).
+* **Kernelcache fileset** listing, extraction, and per-kext class-dump /
+  C++ / Swift header dumping
+  (`--list-fileset`, `--extract-fileset`, `--fileset-class-dump`).
 * **C++** class header generation from Itanium-mangled symbols (`--cpp`).
 * **Swift** type/extension dumping via `libswiftCore` `swift_demangle`
   (`--swift`).
@@ -105,6 +106,15 @@ pid so you can `sample` it.
 
       --list-fileset                       list LC_FILESET_ENTRY entries
       --extract-fileset NAME --out FILE    extract a fileset entry (raw slice)
+      --fileset-class-dump --out OUTDIR    walk every LC_FILESET_ENTRY and dump
+                                           per-kext headers into OUTDIR/<id>/.
+                                           Without --cpp/--swift this emits the
+                                           usual Objective-C header bundle;
+                                           with --cpp it emits C++ headers
+                                           reconstructed from each kext's
+                                           LC_SYMTAB (kexts are mostly C++);
+                                           with --swift it emits Swift
+                                           extensions.
 
 ### C++ and Swift
 
@@ -177,6 +187,11 @@ List and extract a kernelcache fileset entry:
     class-dump --list-fileset kernelcache.release.iphone16
     class-dump --extract-fileset com.apple.driver.AppleH16 \
                kernelcache.release.iphone16 --out AppleH16.macho
+
+C++-dump every kext in a fileset kernelcache (one directory per kext):
+
+    class-dump --fileset-class-dump --cpp \
+               --out /tmp/kcache-cpp kernelcache.release.iphone16
 
 Rewrite a dylib's install name and add an rpath:
 

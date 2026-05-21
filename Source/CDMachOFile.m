@@ -69,6 +69,13 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     NSArray *_dyldEnvironment;
     NSArray *_reExportedDylibs;
 
+    // Non-zero when this image's mach_header lives at an offset inside its
+    // backing NSData (used for LC_FILESET_ENTRY kernelcaches). Segment
+    // fileoff/symoff/stroff values are still parent-absolute, so we keep
+    // self.data pointing at the whole parent file and only shift the cursor
+    // used to read the mach header + load commands.
+    NSUInteger _sliceHeaderOffset;
+
     // The parts of struct mach_header_64 pulled out so that our property accessors can be synthesized.
 	uint32_t _magic;
 	cpu_type_t _cputype;
@@ -93,11 +100,22 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
 - (id)initWithData:(NSData *)data filename:(NSString *)filename searchPathState:(CDSearchPathState *)searchPathState;
 {
+    return [self initWithData:data headerOffset:0 filename:filename searchPathState:searchPathState];
+}
+
+- (id)initWithData:(NSData *)data
+       headerOffset:(NSUInteger)headerOffset
+           filename:(NSString *)filename
+    searchPathState:(CDSearchPathState *)searchPathState;
+{
     if ((self = [super initWithData:data filename:filename searchPathState:searchPathState])) {
         _byteOrder = CDByteOrder_LittleEndian;
-        
+        _sliceHeaderOffset = headerOffset;
+
+        if (headerOffset >= [data length]) return nil;
         CDDataCursor *cursor = [[CDDataCursor alloc] initWithData:data];
-        _header = [data bytes];
+        [cursor setOffset:headerOffset];
+        _header = (const uint8_t *)[data bytes] + headerOffset;
         _magic = [cursor readBigInt32];
         if (_magic == MH_MAGIC || _magic == MH_MAGIC_64) {
             _byteOrder = CDByteOrder_BigEndian;
@@ -133,8 +151,8 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
         NSAssert(_uses64BitABI == CDArchUses64BitABI((CDArch){ .cputype = _cputype, .cpusubtype = _cpusubtype }), @"Header magic should match cpu arch", nil);
         
-        NSUInteger headerOffset = _uses64BitABI ? sizeof(struct mach_header_64) : sizeof(struct mach_header);
-        CDMachOFileDataCursor *fileCursor = [[CDMachOFileDataCursor alloc] initWithFile:self offset:headerOffset];
+        NSUInteger headerSize = _uses64BitABI ? sizeof(struct mach_header_64) : sizeof(struct mach_header);
+        CDMachOFileDataCursor *fileCursor = [[CDMachOFileDataCursor alloc] initWithFile:self offset:_sliceHeaderOffset + headerSize];
         [self _readLoadCommands:fileCursor count:_ncmds];
     }
 
@@ -197,6 +215,12 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
 - (void)applyChainedFixupsIfAny;
 {
+    // When we're a sub-image embedded in a kernelcache (LC_FILESET_ENTRY), we
+    // share the parent file's data and the parent owns any chained-fixup
+    // table. Rewriting it per entry would both mutate state we don't own and
+    // re-apply fixups already applied for the cache as a whole.
+    if (_sliceHeaderOffset != 0) return;
+
     CDLCChainedFixups *cf = nil;
     for (CDLoadCommand *lc in _loadCommands) {
         if ([lc isKindOfClass:[CDLCChainedFixups class]]) { cf = (CDLCChainedFixups *)lc; break; }

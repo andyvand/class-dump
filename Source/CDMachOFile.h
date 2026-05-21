@@ -25,6 +25,16 @@ typedef enum : NSUInteger {
 // shared selector or class pools can still be read.
 @property (strong) CDDyldCache *backingCache;
 
+// Parses the mach-O image embedded at `headerOffset` bytes into `data`. Used
+// for LC_FILESET_ENTRY kernelcaches where each contained image's mach_header
+// sits at a known offset inside the parent file and the image's load
+// commands carry parent-absolute file offsets (segment fileoff, symoff,
+// stroff, …). Passing 0 is equivalent to the regular initializer.
+- (id)initWithData:(NSData *)data
+       headerOffset:(NSUInteger)headerOffset
+           filename:(NSString *)filename
+    searchPathState:(CDSearchPathState *)searchPathState;
+
 @property (readonly) CDByteOrder byteOrder;
 
 @property (readonly) const void *header;

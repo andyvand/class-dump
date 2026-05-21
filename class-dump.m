@@ -74,6 +74,14 @@ void print_usage(void)
             "        --list-fileset       list LC_FILESET_ENTRY entries (kernelcache)\n"
             "        --extract-fileset NAME --out FILE\n"
             "                             extract a fileset entry by name (raw slice)\n"
+            "        --fileset-class-dump --out OUTDIR\n"
+            "                             walk every LC_FILESET_ENTRY in a fileset kernelcache and\n"
+            "                             dump headers for each contained kext into\n"
+            "                             OUTDIR/<entry-id>/. Without --cpp/--swift this emits the\n"
+            "                             usual Objective-C header bundle (-H equivalent);\n"
+            "                             combine with --cpp for C++ headers derived from the\n"
+            "                             kext's LC_SYMTAB (kexts are mostly C++), and/or\n"
+            "                             --swift for Swift extensions.\n"
             "        --dsc-extract DIR    extract every dylib from a dyld_shared_cache to DIR\n"
             "                             (uses Apple's dsc_extractor.bundle from Xcode).\n"
             "                             Combine with --cpp / --swift to additionally write C++\n"
@@ -169,6 +177,7 @@ void print_usage(void)
 #define CD_OPT_DSC_SKIP_EXISTING 45
 #define CD_OPT_DSC_IN_PROCESS    46
 #define CD_OPT_DSC_WORKER        47
+#define CD_OPT_FILESET_DUMPALL   48
 
 // Resolve the absolute path to the currently running class-dump executable.
 // Used by --dsc-class-dump to re-spawn self as a per-image worker.
@@ -443,6 +452,7 @@ int main(int argc, char *argv[])
             { "dsc-skip-existing",       no_argument,       NULL, CD_OPT_DSC_SKIP_EXISTING },
             { "dsc-in-process",          no_argument,       NULL, CD_OPT_DSC_IN_PROCESS },
             { "dsc-worker",              no_argument,       NULL, CD_OPT_DSC_WORKER },
+            { "fileset-class-dump",      no_argument,       NULL, CD_OPT_FILESET_DUMPALL },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -462,6 +472,7 @@ int main(int argc, char *argv[])
         BOOL shouldDscInfo = NO;
         BOOL shouldDscListImages = NO;
         BOOL shouldListFileset = NO;
+        BOOL shouldFilesetClassDump = NO;
         NSString *extractFilesetName = nil;
         NSString *dscExtractDir = nil;
         BOOL shouldDumpCpp = NO;
@@ -678,6 +689,10 @@ int main(int argc, char *argv[])
 
                 case CD_OPT_DSC_WORKER:
                     dscWorkerMode = YES;
+                    break;
+
+                case CD_OPT_FILESET_DUMPALL:
+                    shouldFilesetClassDump = YES;
                     break;
 
                 case CD_OPT_WITH_CACHE: {
@@ -1284,7 +1299,7 @@ int main(int argc, char *argv[])
             exit(0);
         }
 
-        if (optind < argc && (shouldListFileset || extractFilesetName)) {
+        if (optind < argc && (shouldListFileset || extractFilesetName || shouldFilesetClassDump)) {
             NSString *arg = [NSString stringWithFileSystemRepresentation:argv[optind]];
             NSData *fileData = [NSData dataWithContentsOfFile:arg
                                                       options:NSDataReadingMappedAlways
@@ -1392,6 +1407,138 @@ int main(int argc, char *argv[])
                                 [[de localizedFailureReason] UTF8String]);
                     }
                 }
+            }
+
+            if (shouldFilesetClassDump) {
+                if (writeOutPath == nil) {
+                    fprintf(stderr, "class-dump: --fileset-class-dump requires --out OUTDIR\n");
+                    exit(1);
+                }
+                NSFileManager *fm = [NSFileManager defaultManager];
+                if (![fm fileExistsAtPath:writeOutPath]) {
+                    NSError *e = nil;
+                    if (![fm createDirectoryAtPath:writeOutPath withIntermediateDirectories:YES attributes:nil error:&e]) {
+                        fprintf(stderr, "class-dump: cannot create %s: %s\n",
+                                [writeOutPath UTF8String], [[e localizedDescription] UTF8String]);
+                        exit(1);
+                    }
+                }
+
+                NSArray *sortedEntries = [entries sortedArrayUsingComparator:^NSComparisonResult(CDLCFilesetEntry *a, CDLCFilesetEntry *b) {
+                    if (a.fileoff < b.fileoff) return NSOrderedAscending;
+                    if (a.fileoff > b.fileoff) return NSOrderedDescending;
+                    return NSOrderedSame;
+                }];
+
+                NSUInteger total = [sortedEntries count];
+                NSUInteger ok = 0;
+                NSUInteger failed = 0;
+                NSUInteger hCppDone = 0, hCppFail = 0;
+                NSUInteger hSwiftDone = 0, hSwiftFail = 0;
+                NSUInteger idx = 0;
+                for (CDLCFilesetEntry *e in sortedEntries) {
+                    idx++;
+                    if (e.fileoff >= [fileData length]) {
+                        fprintf(stderr, "class-dump: [%lu/%lu] skipping %s: fileoff 0x%llx out of bounds\n",
+                                (unsigned long)idx, (unsigned long)total,
+                                [e.entryID UTF8String], e.fileoff);
+                        failed++;
+                        continue;
+                    }
+
+                    @autoreleasepool {
+                        NSString *entryID = e.entryID ?: [NSString stringWithFormat:@"entry_%llx", e.fileoff];
+                        // Sanitize id into a directory-safe leaf (e.g. "com.apple.driver.AppleARMPlatform"
+                        // stays as-is; anything containing slashes is collapsed).
+                        NSString *safeName = [entryID stringByReplacingOccurrencesOfString:@"/" withString:@"_"];
+                        NSString *outSub = [writeOutPath stringByAppendingPathComponent:safeName];
+                        if (![fm fileExistsAtPath:outSub]) {
+                            NSError *ce = nil;
+                            if (![fm createDirectoryAtPath:outSub withIntermediateDirectories:YES attributes:nil error:&ce]) {
+                                fprintf(stderr, "class-dump: [%lu/%lu] %s: cannot create %s: %s\n",
+                                        (unsigned long)idx, (unsigned long)total,
+                                        [entryID UTF8String], [outSub UTF8String],
+                                        [[ce localizedDescription] UTF8String]);
+                                failed++;
+                                continue;
+                            }
+                        }
+
+                        CDMachOFile *entryMacho = [[CDMachOFile alloc]
+                            initWithData:fileData
+                            headerOffset:(NSUInteger)e.fileoff
+                                filename:[arg stringByAppendingFormat:@"#%@", safeName]
+                         searchPathState:sp];
+                        if (entryMacho == nil) {
+                            fprintf(stderr, "class-dump: [%lu/%lu] %s: not a Mach-O at fileoff 0x%llx\n",
+                                    (unsigned long)idx, (unsigned long)total,
+                                    [entryID UTF8String], e.fileoff);
+                            failed++;
+                            continue;
+                        }
+
+                        // Objective-C header dump (default) unless explicitly only doing --cpp/--swift.
+                        BOOL doObjC = !(shouldDumpCpp || shouldDumpSwift);
+                        @try {
+                            if (doObjC) {
+                                CDClassDump *cd = [[CDClassDump alloc] init];
+                                cd.searchPathState.executablePath = [arg stringByDeletingLastPathComponent];
+                                cd.targetArch = (CDArch){ entryMacho.cputype, entryMacho.cpusubtype };
+                                NSError *le = nil;
+                                if ([cd loadFile:entryMacho error:&le]) {
+                                    [cd processObjectiveCData];
+                                    [cd registerTypes];
+                                    CDMultiFileVisitor *v = [[CDMultiFileVisitor alloc] init];
+                                    v.classDump = cd;
+                                    cd.typeController.delegate = v;
+                                    v.outputPath = outSub;
+                                    [cd recursivelyVisit:v];
+                                }
+                            }
+
+                            if (shouldDumpCpp) {
+                                NSError *ce = nil;
+                                if ([CDCPlusPlusDumper writeHeadersForMachOFile:entryMacho toDirectory:outSub error:&ce]) {
+                                    hCppDone++;
+                                } else {
+                                    hCppFail++;
+                                    fprintf(stderr, "class-dump: [%lu/%lu] %s: cpp dump failed: %s\n",
+                                            (unsigned long)idx, (unsigned long)total,
+                                            [entryID UTF8String],
+                                            [[ce localizedDescription] UTF8String]);
+                                }
+                            }
+                            if (shouldDumpSwift) {
+                                NSError *se = nil;
+                                if ([CDSwiftDumper writeHeadersForMachOFile:entryMacho toDirectory:outSub error:&se]) {
+                                    hSwiftDone++;
+                                } else {
+                                    hSwiftFail++;
+                                    fprintf(stderr, "class-dump: [%lu/%lu] %s: swift dump failed: %s\n",
+                                            (unsigned long)idx, (unsigned long)total,
+                                            [entryID UTF8String],
+                                            [[se localizedDescription] UTF8String]);
+                                }
+                            }
+                            ok++;
+                        } @catch (NSException *exc) {
+                            fprintf(stderr, "class-dump: [%lu/%lu] %s: exception: %s\n",
+                                    (unsigned long)idx, (unsigned long)total,
+                                    [entryID UTF8String], [[exc reason] UTF8String]);
+                            failed++;
+                        }
+                    }
+                }
+
+                fprintf(stderr,
+                        "class-dump: fileset class-dump complete — %lu/%lu entries processed",
+                        (unsigned long)ok, (unsigned long)total);
+                if (shouldDumpCpp)   fprintf(stderr, ", cpp %lu ok / %lu fail",
+                                              (unsigned long)hCppDone, (unsigned long)hCppFail);
+                if (shouldDumpSwift) fprintf(stderr, ", swift %lu ok / %lu fail",
+                                              (unsigned long)hSwiftDone, (unsigned long)hSwiftFail);
+                if (failed)          fprintf(stderr, ", %lu failed", (unsigned long)failed);
+                fprintf(stderr, "\n");
             }
             exit(0);
         }
