@@ -1,4 +1,4 @@
-dependencies: /Users/andyvand/Downloads/class-dump/class-dump-Prefix.pch \
+dependencies: /Users/andyvand/Downloads/class-dump/formatType-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDExtensions.h \
   /Users/andyvand/Downloads/class-dump/Source/CDTopoSortNode.h \
   /Users/andyvand/Downloads/class-dump/Source/CDTopologicalSortProtocol.h \

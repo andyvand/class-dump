@@ -32,6 +32,7 @@
 #import "CDCPlusPlusDumper.h"
 #import "CDSwiftDumper.h"
 #import "CDDecompiler.h"
+#import "CDFilesetExtractor.h"
 
 void print_usage(void)
 {
@@ -81,7 +82,12 @@ void print_usage(void)
             "                             usual Objective-C header bundle (-H equivalent);\n"
             "                             combine with --cpp for C++ headers derived from the\n"
             "                             kext's LC_SYMTAB (kexts are mostly C++), and/or\n"
-            "                             --swift for Swift extensions.\n"
+            "                             --swift for Swift extensions. Combine with --decompile,\n"
+            "                             --decompile-swift, and/or --decompile-cpp to additionally\n"
+            "                             rebase each kext into a stand-alone Mach-O (segments and\n"
+            "                             __LINKEDIT slice copied out, fileoffs rewritten) and run\n"
+            "                             Ghidra on it; the resulting .c/.swift/.cpp file is written\n"
+            "                             into the same OUTDIR/<entry-id>/ directory.\n"
             "        --dsc-extract DIR    extract every dylib from a dyld_shared_cache to DIR\n"
             "                             (uses Apple's dsc_extractor.bundle from Xcode).\n"
             "                             Combine with --cpp / --swift to additionally write C++\n"
@@ -1445,6 +1451,9 @@ int main(int argc, char *argv[])
                 NSUInteger failed = 0;
                 NSUInteger hCppDone = 0, hCppFail = 0;
                 NSUInteger hSwiftDone = 0, hSwiftFail = 0;
+                NSUInteger dcDone = 0, dcFail = 0;
+                NSUInteger swDecDone = 0, swDecFail = 0;
+                NSUInteger cppDecDone = 0, cppDecFail = 0;
                 NSUInteger idx = 0;
                 for (CDLCFilesetEntry *e in sortedEntries) {
                     idx++;
@@ -1543,6 +1552,72 @@ int main(int argc, char *argv[])
                                             [[se localizedDescription] UTF8String]);
                                 }
                             }
+
+                            // Decompilation runs against a stand-alone Mach-O that we
+                            // rebase out of the cache: the fileset entry's segments and
+                            // shared __LINKEDIT slice are copied into a new flat file
+                            // so Ghidra can load the kext on its own. One extraction is
+                            // shared across all three decompile variants.
+                            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp) {
+                                NSString *tmpName = [NSString stringWithFormat:@"class-dump-fileset-%@-%@",
+                                                     safeName, [[NSUUID UUID] UUIDString]];
+                                NSString *tmpPath = [NSTemporaryDirectory() stringByAppendingPathComponent:tmpName];
+                                NSError *xe = nil;
+                                if (![CDFilesetExtractor extractEntry:e fromCache:fileData toPath:tmpPath error:&xe]) {
+                                    fprintf(stderr, "class-dump: [%lu/%lu] %s: extract for decompile failed: %s\n",
+                                            (unsigned long)idx, (unsigned long)total,
+                                            [entryID UTF8String],
+                                            [[xe localizedFailureReason] UTF8String] ?: [[xe localizedDescription] UTF8String]);
+                                    if (shouldDecompile)      dcFail++;
+                                    if (shouldDecompileSwift) swDecFail++;
+                                    if (shouldDecompileCpp)   cppDecFail++;
+                                } else {
+                                    if (shouldDecompile) {
+                                        NSString *cOut = [outSub stringByAppendingPathComponent:
+                                                          [safeName stringByAppendingPathExtension:@"c"]];
+                                        NSError *de = nil;
+                                        if ([CDDecompiler decompileMachOAtPath:tmpPath toPath:cOut error:&de]) {
+                                            dcDone++;
+                                        } else {
+                                            dcFail++;
+                                            fprintf(stderr, "class-dump: [%lu/%lu] %s: decompile failed: %s\n",
+                                                    (unsigned long)idx, (unsigned long)total,
+                                                    [entryID UTF8String],
+                                                    [[de localizedFailureReason] UTF8String]);
+                                        }
+                                    }
+                                    if (shouldDecompileSwift) {
+                                        NSString *sOut = [outSub stringByAppendingPathComponent:
+                                                          [safeName stringByAppendingPathExtension:@"swift"]];
+                                        NSError *de = nil;
+                                        if ([CDDecompiler decompileSwiftMachOAtPath:tmpPath toPath:sOut error:&de]) {
+                                            swDecDone++;
+                                        } else {
+                                            swDecFail++;
+                                            fprintf(stderr, "class-dump: [%lu/%lu] %s: decompile-swift failed: %s\n",
+                                                    (unsigned long)idx, (unsigned long)total,
+                                                    [entryID UTF8String],
+                                                    [[de localizedFailureReason] UTF8String]);
+                                        }
+                                    }
+                                    if (shouldDecompileCpp) {
+                                        NSString *cppOut = [outSub stringByAppendingPathComponent:
+                                                            [safeName stringByAppendingPathExtension:@"cpp"]];
+                                        NSError *de = nil;
+                                        if ([CDDecompiler decompileCppMachOAtPath:tmpPath toPath:cppOut error:&de]) {
+                                            cppDecDone++;
+                                        } else {
+                                            cppDecFail++;
+                                            fprintf(stderr, "class-dump: [%lu/%lu] %s: decompile-cpp failed: %s\n",
+                                                    (unsigned long)idx, (unsigned long)total,
+                                                    [entryID UTF8String],
+                                                    [[de localizedFailureReason] UTF8String]);
+                                        }
+                                    }
+                                    [fm removeItemAtPath:tmpPath error:NULL];
+                                }
+                            }
+
                             ok++;
                         } @catch (NSException *exc) {
                             fprintf(stderr, "class-dump: [%lu/%lu] %s: exception: %s\n",
@@ -1556,11 +1631,17 @@ int main(int argc, char *argv[])
                 fprintf(stderr,
                         "class-dump: fileset class-dump complete — %lu/%lu entries processed",
                         (unsigned long)ok, (unsigned long)total);
-                if (shouldDumpCpp)   fprintf(stderr, ", cpp %lu ok / %lu fail",
-                                              (unsigned long)hCppDone, (unsigned long)hCppFail);
-                if (shouldDumpSwift) fprintf(stderr, ", swift %lu ok / %lu fail",
-                                              (unsigned long)hSwiftDone, (unsigned long)hSwiftFail);
-                if (failed)          fprintf(stderr, ", %lu failed", (unsigned long)failed);
+                if (shouldDumpCpp)        fprintf(stderr, ", cpp %lu ok / %lu fail",
+                                                   (unsigned long)hCppDone, (unsigned long)hCppFail);
+                if (shouldDumpSwift)      fprintf(stderr, ", swift %lu ok / %lu fail",
+                                                   (unsigned long)hSwiftDone, (unsigned long)hSwiftFail);
+                if (shouldDecompile)      fprintf(stderr, ", decompile %lu ok / %lu fail",
+                                                   (unsigned long)dcDone, (unsigned long)dcFail);
+                if (shouldDecompileSwift) fprintf(stderr, ", decompile-swift %lu ok / %lu fail",
+                                                   (unsigned long)swDecDone, (unsigned long)swDecFail);
+                if (shouldDecompileCpp)   fprintf(stderr, ", decompile-cpp %lu ok / %lu fail",
+                                                   (unsigned long)cppDecDone, (unsigned long)cppDecFail);
+                if (failed)               fprintf(stderr, ", %lu failed", (unsigned long)failed);
                 fprintf(stderr, "\n");
             }
             exit(0);

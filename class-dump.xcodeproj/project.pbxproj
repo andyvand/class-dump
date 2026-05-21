@@ -151,6 +151,8 @@
 		C0DEC1A55ED0EFC1A55E0004 /* CDCPlusPlusDumper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */; };
 		CDDECDDECDDECDDECDDE0003 /* CDDecompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDECDDECDDECDDECDDE0001 /* CDDecompiler.h */; };
 		CDDECDDECDDECDDECDDE0004 /* CDDecompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDECDDECDDECDDECDDE0002 /* CDDecompiler.m */; };
+		F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */; };
+		F1E5E000F1E5E000F1E50004 /* CDFilesetExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */; };
 		C270B5C616C54AD6006CA75D /* ULEB128.m in Sources */ = {isa = PBXBuildFile; fileRef = C270B5C516C54AD5006CA75D /* ULEB128.m */; };
 		C270B5C816C54B0C006CA75D /* ULEB128.h in Headers */ = {isa = PBXBuildFile; fileRef = C270B5C716C54B0A006CA75D /* ULEB128.h */; };
 		CFA0CFA0CFA0000000000003 /* CDLCChainedFixups.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */; };
@@ -486,6 +488,8 @@
 		C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CDCPlusPlusDumper.mm; path = Source/CDCPlusPlusDumper.mm; sourceTree = "<group>"; };
 		CDDECDDECDDECDDECDDE0001 /* CDDecompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDDecompiler.h; path = Source/CDDecompiler.h; sourceTree = "<group>"; };
 		CDDECDDECDDECDDECDDE0002 /* CDDecompiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDDecompiler.m; path = Source/CDDecompiler.m; sourceTree = "<group>"; };
+		F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDFilesetExtractor.h; path = Source/CDFilesetExtractor.h; sourceTree = "<group>"; };
+		F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDFilesetExtractor.m; path = Source/CDFilesetExtractor.m; sourceTree = "<group>"; };
 		C270B5C516C54AD5006CA75D /* ULEB128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULEB128.m; path = Source/ULEB128.m; sourceTree = "<group>"; };
 		C270B5C716C54B0A006CA75D /* ULEB128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULEB128.h; path = Source/ULEB128.h; sourceTree = "<group>"; };
 		CFA0CFA0CFA0000000000001 /* CDLCChainedFixups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCChainedFixups.h; path = Source/CDLCChainedFixups.h; sourceTree = "<group>"; };
@@ -869,6 +873,8 @@
 				51F1D04ED5511F1D04ED0002 /* CDSwiftDumper.m */,
 				CDDECDDECDDECDDECDDE0001 /* CDDecompiler.h */,
 				CDDECDDECDDECDDECDDE0002 /* CDDecompiler.m */,
+				F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */,
+				F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */,
 			);
 			name = "Load Commands";
 			sourceTree = "<group>";
@@ -979,6 +985,7 @@
 				C0DEC1A55ED0EFC1A55E0003 /* CDCPlusPlusDumper.h in Headers */,
 				51F1D04ED5511F1D04ED0003 /* CDSwiftDumper.h in Headers */,
 				CDDECDDECDDECDDECDDE0003 /* CDDecompiler.h in Headers */,
+				F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1197,6 +1204,7 @@
 				C0DEC1A55ED0EFC1A55E0004 /* CDCPlusPlusDumper.mm in Sources */,
 				51F1D04ED5511F1D04ED0004 /* CDSwiftDumper.m in Sources */,
 				CDDECDDECDDECDDECDDE0004 /* CDDecompiler.m in Sources */,
+				F1E5E000F1E5E000F1E50004 /* CDFilesetExtractor.m in Sources */,
 				013D1F1A13A5AEA100BF0A67 /* NSArray-CDExtensions.m in Sources */,
 				013D1F1B13A5AEA100BF0A67 /* NSData-CDExtensions.m in Sources */,
 				013D1F1C13A5AEA100BF0A67 /* NSError-CDExtensions.m in Sources */,
@@ -1397,7 +1405,7 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "deprotect-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1422,7 +1430,7 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "deprotect-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1447,7 +1455,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1465,7 +1473,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1491,7 +1499,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "UnitTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1531,7 +1539,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "UnitTests-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
@@ -1562,7 +1570,7 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "formatType-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1587,7 +1595,7 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "formatType-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1743,7 +1751,7 @@
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -1831,7 +1839,7 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "class-dump-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1855,7 +1863,7 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "class-dump-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"-all_load",

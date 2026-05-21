@@ -1,4 +1,4 @@
-dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
+dependencies: /Users/andyvand/Downloads/class-dump/class-dump-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDExtensions.h \
   /Users/andyvand/Downloads/class-dump/Source/CDTopoSortNode.h \
   /Users/andyvand/Downloads/class-dump/Source/CDTopologicalSortProtocol.h \
@@ -28,4 +28,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDCPlusPlusDumper.h \
   /Users/andyvand/Downloads/class-dump/Source/CDSwiftDumper.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDDecompiler.h
+  /Users/andyvand/Downloads/class-dump/Source/CDDecompiler.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDFilesetExtractor.h
