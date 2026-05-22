@@ -2,8 +2,8 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/tmp/class-dump.dst/class-dump'
 relocations:
-  - { offset: 0x4BA74, size: 0x8, addend: 0x0, symName: _class_dumpVersionString, symObjAddr: 0x0, symBinAddr: 0x100052780, symSize: 0x0 }
-  - { offset: 0x4BAAE, size: 0x8, addend: 0x0, symName: _class_dumpVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1000527B0, symSize: 0x0 }
+  - { offset: 0x4BA74, size: 0x8, addend: 0x0, symName: _class_dumpVersionString, symObjAddr: 0x0, symBinAddr: 0x1000528A0, symSize: 0x0 }
+  - { offset: 0x4BAAE, size: 0x8, addend: 0x0, symName: _class_dumpVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1000528D0, symSize: 0x0 }
   - { offset: 0x4BAED, size: 0x8, addend: 0x0, symName: '-[CDClassDump init]', symObjAddr: 0x0, symBinAddr: 0x100000E20, symSize: 0x11E }
   - { offset: 0x4BF41, size: 0x8, addend: 0x0, symName: '-[CDClassDump init]', symObjAddr: 0x0, symBinAddr: 0x100000E20, symSize: 0x11E }
   - { offset: 0x4BFE4, size: 0x8, addend: 0x0, symName: '-[CDClassDump shouldShowName:]', symObjAddr: 0x11E, symBinAddr: 0x100000F3E, symSize: 0xC6 }
@@ -301,8 +301,8 @@ relocations:
   - { offset: 0x5C968, size: 0x8, addend: 0x0, symName: '-[CDSearchPathState .cxx_destruct]', symObjAddr: 0x340, symBinAddr: 0x100012A25, symSize: 0x28 }
   - { offset: 0x5CA1B, size: 0x8, addend: 0x0, symName: _print_usage, symObjAddr: 0x0, symBinAddr: 0x100012A50, symSize: 0x24 }
   - { offset: 0x5CA6C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x24, symBinAddr: 0x100012A74, symSize: 0x97F8 }
-  - { offset: 0x5CA94, size: 0x8, addend: 0x0, symName: _main.kBundleSearchPaths.302, symObjAddr: 0xFD30, symBinAddr: 0x10006A760, symSize: 0x0 }
-  - { offset: 0x5CAAB, size: 0x8, addend: 0x0, symName: _main.kBundleSearchPaths.302, symObjAddr: 0xFD30, symBinAddr: 0x10006A760, symSize: 0x0 }
+  - { offset: 0x5CA94, size: 0x8, addend: 0x0, symName: _main.kBundleSearchPaths.302, symObjAddr: 0xFD30, symBinAddr: 0x10006B760, symSize: 0x0 }
+  - { offset: 0x5CAAB, size: 0x8, addend: 0x0, symName: _main.kBundleSearchPaths.302, symObjAddr: 0xFD30, symBinAddr: 0x10006B760, symSize: 0x0 }
   - { offset: 0x61BBD, size: 0x8, addend: 0x0, symName: _print_usage, symObjAddr: 0x0, symBinAddr: 0x100012A50, symSize: 0x24 }
   - { offset: 0x61EE2, size: 0x8, addend: 0x0, symName: _CDDumpSingleImage, symObjAddr: 0x981C, symBinAddr: 0x10001C26C, symSize: 0x971 }
   - { offset: 0x62691, size: 0x8, addend: 0x0, symName: ___main_block_invoke, symObjAddr: 0xA18D, symBinAddr: 0x10001CBDD, symSize: 0x66 }
@@ -311,8 +311,8 @@ relocations:
   - { offset: 0x62755, size: 0x8, addend: 0x0, symName: ___main_block_invoke.306, symObjAddr: 0xA21D, symBinAddr: 0x10001CC6D, symSize: 0x66 }
   - { offset: 0x627D1, size: 0x8, addend: 0x0, symName: ___main_block_invoke_2, symObjAddr: 0xA283, symBinAddr: 0x10001CCD3, symSize: 0xA1 }
   - { offset: 0x62880, size: 0x8, addend: 0x0, symName: ___main_block_invoke_3, symObjAddr: 0xA324, symBinAddr: 0x10001CD74, symSize: 0xA1 }
-  - { offset: 0x62FB0, size: 0x8, addend: 0x0, symName: _MachObjCVersionString, symObjAddr: 0x0, symBinAddr: 0x1000527D0, symSize: 0x0 }
-  - { offset: 0x62FEA, size: 0x8, addend: 0x0, symName: _MachObjCVersionNumber, symObjAddr: 0x30, symBinAddr: 0x100052800, symSize: 0x0 }
+  - { offset: 0x62FB0, size: 0x8, addend: 0x0, symName: _MachObjCVersionString, symObjAddr: 0x0, symBinAddr: 0x1000528F0, symSize: 0x0 }
+  - { offset: 0x62FEA, size: 0x8, addend: 0x0, symName: _MachObjCVersionNumber, symObjAddr: 0x30, symBinAddr: 0x100052920, symSize: 0x0 }
   - { offset: 0x63029, size: 0x8, addend: 0x0, symName: '-[CDTopoSortNode initWithObject:]', symObjAddr: 0x0, symBinAddr: 0x10001CE15, symSize: 0xD1 }
   - { offset: 0x631BC, size: 0x8, addend: 0x0, symName: '-[CDTopoSortNode initWithObject:]', symObjAddr: 0x0, symBinAddr: 0x10001CE15, symSize: 0xD1 }
   - { offset: 0x63263, size: 0x8, addend: 0x0, symName: '-[CDTopoSortNode description]', symObjAddr: 0xD1, symBinAddr: 0x10001CEE6, symSize: 0xAF }
@@ -441,8 +441,8 @@ relocations:
   - { offset: 0x6B679, size: 0x8, addend: 0x0, symName: '+[CDMachOWriter(Fat) thinSliceForArch:fromFatData:error:]', symObjAddr: 0x2782, symBinAddr: 0x100022EAB, symSize: 0x5B6 }
   - { offset: 0x6C2EE, size: 0x8, addend: 0x0, symName: '-[CDDyldCacheImageInfo initWithAddress:path:]', symObjAddr: 0x0, symBinAddr: 0x100023461, symSize: 0x77 }
   - { offset: 0x6C30C, size: 0x8, addend: 0x0, symName: '-[CDDyldCache probePlatform]', symObjAddr: 0x975, symBinAddr: 0x100023DD6, symSize: 0x7D }
-  - { offset: 0x6C332, size: 0x8, addend: 0x0, symName: _probePlatform.probes, symObjAddr: 0x1470, symBinAddr: 0x100052850, symSize: 0x0 }
-  - { offset: 0x6C3E6, size: 0x8, addend: 0x0, symName: _kProbeImagesOffsets, symObjAddr: 0x1440, symBinAddr: 0x100052820, symSize: 0x0 }
+  - { offset: 0x6C332, size: 0x8, addend: 0x0, symName: _probePlatform.probes, symObjAddr: 0x1470, symBinAddr: 0x100052970, symSize: 0x0 }
+  - { offset: 0x6C3E6, size: 0x8, addend: 0x0, symName: _kProbeImagesOffsets, symObjAddr: 0x1440, symBinAddr: 0x100052940, symSize: 0x0 }
   - { offset: 0x6C667, size: 0x8, addend: 0x0, symName: '-[CDDyldCacheImageInfo initWithAddress:path:]', symObjAddr: 0x0, symBinAddr: 0x100023461, symSize: 0x77 }
   - { offset: 0x6C6EE, size: 0x8, addend: 0x0, symName: '-[CDDyldCacheImageInfo address]', symObjAddr: 0x77, symBinAddr: 0x1000234D8, symSize: 0xA }
   - { offset: 0x6C723, size: 0x8, addend: 0x0, symName: '-[CDDyldCacheImageInfo path]', symObjAddr: 0x81, symBinAddr: 0x1000234E2, symSize: 0xA }
@@ -532,13 +532,13 @@ relocations:
   - { offset: 0x76934, size: 0x8, addend: 0x0, symName: '-[NSData(CDExtensions) SHA1Digest]', symObjAddr: 0xA7, symBinAddr: 0x10002BC42, symSize: 0x12D }
   - { offset: 0x76B2E, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdOtherCharacterSet]', symObjAddr: 0x0, symBinAddr: 0x10002BD6F, symSize: 0x67 }
   - { offset: 0x76B3C, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdOtherCharacterSet]', symObjAddr: 0x0, symBinAddr: 0x10002BD6F, symSize: 0x67 }
-  - { offset: 0x76B66, size: 0x8, addend: 0x0, symName: _cdOtherCharacterSet.otherCharacterSet, symObjAddr: 0x3560, symBinAddr: 0x100086800, symSize: 0x0 }
+  - { offset: 0x76B66, size: 0x8, addend: 0x0, symName: _cdOtherCharacterSet.otherCharacterSet, symObjAddr: 0x3560, symBinAddr: 0x100087800, symSize: 0x0 }
   - { offset: 0x76D13, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdIdentifierStartCharacterSet]', symObjAddr: 0x67, symBinAddr: 0x10002BDD6, symSize: 0xD1 }
-  - { offset: 0x76D3D, size: 0x8, addend: 0x0, symName: _cdIdentifierStartCharacterSet.identifierStartCharacterSet, symObjAddr: 0x3568, symBinAddr: 0x100086808, symSize: 0x0 }
+  - { offset: 0x76D3D, size: 0x8, addend: 0x0, symName: _cdIdentifierStartCharacterSet.identifierStartCharacterSet, symObjAddr: 0x3568, symBinAddr: 0x100087808, symSize: 0x0 }
   - { offset: 0x76DF3, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdIdentifierCharacterSet]', symObjAddr: 0x138, symBinAddr: 0x10002BEA7, symSize: 0xD1 }
-  - { offset: 0x76E1D, size: 0x8, addend: 0x0, symName: _cdIdentifierCharacterSet.identifierCharacterSet, symObjAddr: 0x3570, symBinAddr: 0x100086810, symSize: 0x0 }
+  - { offset: 0x76E1D, size: 0x8, addend: 0x0, symName: _cdIdentifierCharacterSet.identifierCharacterSet, symObjAddr: 0x3570, symBinAddr: 0x100087810, symSize: 0x0 }
   - { offset: 0x76ED3, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdTemplateTypeCharacterSet]', symObjAddr: 0x209, symBinAddr: 0x10002BF78, symSize: 0x8C }
-  - { offset: 0x76EFD, size: 0x8, addend: 0x0, symName: _cdTemplateTypeCharacterSet.templateTypeCharacterSet, symObjAddr: 0x3578, symBinAddr: 0x100086818, symSize: 0x0 }
+  - { offset: 0x76EFD, size: 0x8, addend: 0x0, symName: _cdTemplateTypeCharacterSet.templateTypeCharacterSet, symObjAddr: 0x3578, symBinAddr: 0x100087818, symSize: 0x0 }
   - { offset: 0x76F58, size: 0x8, addend: 0x0, symName: '-[NSScanner(CDExtensions) peekCharacter]', symObjAddr: 0x295, symBinAddr: 0x10002C004, symSize: 0x89 }
   - { offset: 0x76FCB, size: 0x8, addend: 0x0, symName: '-[NSScanner(CDExtensions) peekChar]', symObjAddr: 0x31E, symBinAddr: 0x10002C08D, symSize: 0x5F }
   - { offset: 0x77032, size: 0x8, addend: 0x0, symName: '-[NSScanner(CDExtensions) scanCharacter:]', symObjAddr: 0x37D, symBinAddr: 0x10002C0EC, symSize: 0xAC }
@@ -863,8 +863,8 @@ relocations:
   - { offset: 0x8A5A9, size: 0x8, addend: 0x0, symName: '-[CDMachOFile init]', symObjAddr: 0x0, symBinAddr: 0x1000366D1, symSize: 0x43 }
   - { offset: 0x8A5B7, size: 0x8, addend: 0x0, symName: '-[CDMachOFile _resolveChainSlot:imageBase:cacheBase:]', symObjAddr: 0x11B5, symBinAddr: 0x100037886, symSize: 0x1DE }
   - { offset: 0x8A78C, size: 0x8, addend: 0x0, symName: '-[CDMachOFile pointerAtAddress:]', symObjAddr: 0x21B0, symBinAddr: 0x100038881, symSize: 0x19B }
-  - { offset: 0x8A7B8, size: 0x8, addend: 0x0, symName: '_pointerAtAddress:.n', symObjAddr: 0x15964, symBinAddr: 0x100086820, symSize: 0x0 }
-  - { offset: 0x8A7CF, size: 0x8, addend: 0x0, symName: '_pointerAtAddress:.n.235', symObjAddr: 0x15968, symBinAddr: 0x100086824, symSize: 0x0 }
+  - { offset: 0x8A7B8, size: 0x8, addend: 0x0, symName: '_pointerAtAddress:.n', symObjAddr: 0x15964, symBinAddr: 0x100087820, symSize: 0x0 }
+  - { offset: 0x8A7CF, size: 0x8, addend: 0x0, symName: '_pointerAtAddress:.n.235', symObjAddr: 0x15968, symBinAddr: 0x100087824, symSize: 0x0 }
   - { offset: 0x8A908, size: 0x8, addend: 0x0, symName: '-[CDMachOFile dataOffsetForAddress:]', symObjAddr: 0x25ED, symBinAddr: 0x100038CBE, symSize: 0x32A }
   - { offset: 0x8B4F5, size: 0x8, addend: 0x0, symName: '-[CDMachOFile init]', symObjAddr: 0x0, symBinAddr: 0x1000366D1, symSize: 0x43 }
   - { offset: 0x8B52C, size: 0x8, addend: 0x0, symName: '-[CDMachOFile initWithData:filename:searchPathState:]', symObjAddr: 0x43, symBinAddr: 0x100036714, symSize: 0x1A }
@@ -971,7 +971,7 @@ relocations:
   - { offset: 0x8FA00, size: 0x8, addend: 0x0, symName: '-[CDSection sectionName]', symObjAddr: 0xAE0, symBinAddr: 0x10003B21D, symSize: 0xA }
   - { offset: 0x8FA35, size: 0x8, addend: 0x0, symName: '-[CDSection .cxx_destruct]', symObjAddr: 0xAEA, symBinAddr: 0x10003B227, symSize: 0x3C }
   - { offset: 0x8FB60, size: 0x8, addend: 0x0, symName: '-[CDSymbol initWithName:machOFile:nlist32:]', symObjAddr: 0x0, symBinAddr: 0x10003B263, symSize: 0xDE }
-  - { offset: 0x8FB7A, size: 0x8, addend: 0x0, symName: _ObjCClassSymbolPrefix, symObjAddr: 0x13F0, symBinAddr: 0x10006ACB8, symSize: 0x0 }
+  - { offset: 0x8FB7A, size: 0x8, addend: 0x0, symName: _ObjCClassSymbolPrefix, symObjAddr: 0x13F0, symBinAddr: 0x10006BCB8, symSize: 0x0 }
   - { offset: 0x903F4, size: 0x8, addend: 0x0, symName: '-[CDSymbol initWithName:machOFile:nlist32:]', symObjAddr: 0x0, symBinAddr: 0x10003B263, symSize: 0xDE }
   - { offset: 0x904A3, size: 0x8, addend: 0x0, symName: '-[CDSymbol initWithName:machOFile:nlist64:]', symObjAddr: 0xDE, symBinAddr: 0x10003B341, symSize: 0xDF }
   - { offset: 0x90552, size: 0x8, addend: 0x0, symName: '-[CDSymbol description]', symObjAddr: 0x1BD, symBinAddr: 0x10003B420, symSize: 0x14E }
@@ -1042,353 +1042,353 @@ relocations:
   - { offset: 0x940F6, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor processMethodsAtAddress:]', symObjAddr: 0x1166, symBinAddr: 0x10003E205, symSize: 0x14 }
   - { offset: 0x94147, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor processMethodsAtAddress:isFromProtocolDefinition:]', symObjAddr: 0x117A, symBinAddr: 0x10003E219, symSize: 0x2AB }
   - { offset: 0x94389, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor processCategoryDefinitionAtAddress:]', symObjAddr: 0x1425, symBinAddr: 0x10003E4C4, symSize: 0x58B }
-  - { offset: 0x9465F, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor protocolAtAddress:]', symObjAddr: 0x19B0, symBinAddr: 0x10003EA4F, symSize: 0x506 }
-  - { offset: 0x949B1, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor loadProtocols]', symObjAddr: 0x1EB6, symBinAddr: 0x10003EF55, symSize: 0xFD }
-  - { offset: 0x94A9C, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor objcImageInfoSection]', symObjAddr: 0x1FB3, symBinAddr: 0x10003F052, symSize: 0x88 }
-  - { offset: 0x94B10, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor .cxx_destruct]', symObjAddr: 0x203B, symBinAddr: 0x10003F0DA, symSize: 0x13 }
-  - { offset: 0x9516A, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadProtocols]', symObjAddr: 0x0, symBinAddr: 0x10003F0ED, symSize: 0x10C }
-  - { offset: 0x95178, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadMethodsAtAddress:extendedMethodTypesCursor:]', symObjAddr: 0x28A5, symBinAddr: 0x100041992, symSize: 0x786 }
-  - { offset: 0x951A4, size: 0x8, addend: 0x0, symName: '_loadMethodsAtAddress:extendedMethodTypesCursor:.dbg', symObjAddr: 0xE340, symBinAddr: 0x100086828, symSize: 0x0 }
-  - { offset: 0x951BB, size: 0x8, addend: 0x0, symName: '_loadMethodsAtAddress:extendedMethodTypesCursor:.dbg2', symObjAddr: 0xE344, symBinAddr: 0x10008682C, symSize: 0x0 }
-  - { offset: 0x951D2, size: 0x8, addend: 0x0, symName: '_loadMethodsAtAddress:extendedMethodTypesCursor:.dn', symObjAddr: 0xE348, symBinAddr: 0x100086830, symSize: 0x0 }
-  - { offset: 0x95ED8, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadProtocols]', symObjAddr: 0x0, symBinAddr: 0x10003F0ED, symSize: 0x10C }
-  - { offset: 0x95FBB, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadClasses]', symObjAddr: 0x10C, symBinAddr: 0x10003F1F9, symSize: 0x13D }
-  - { offset: 0x960E5, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadCategories]', symObjAddr: 0x249, symBinAddr: 0x10003F336, symSize: 0x134 }
-  - { offset: 0x961FF, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor protocolAtAddress:]', symObjAddr: 0x37D, symBinAddr: 0x10003F46A, symSize: 0xA08 }
-  - { offset: 0x96721, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor classNameAtClassObjectAddress:]', symObjAddr: 0xD85, symBinAddr: 0x10003FE72, symSize: 0x1DE }
-  - { offset: 0x968D4, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadCategoryAtAddress:]', symObjAddr: 0xF63, symBinAddr: 0x100040050, symSize: 0x9A9 }
-  - { offset: 0x96E1A, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadClassAtAddress:]', symObjAddr: 0x190C, symBinAddr: 0x1000409F9, symSize: 0xB13 }
-  - { offset: 0x9748F, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadPropertiesAtAddress:]', symObjAddr: 0x241F, symBinAddr: 0x10004150C, symSize: 0x23C }
-  - { offset: 0x976A5, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadMethodsOfMetaClassAtAddress:]', symObjAddr: 0x265B, symBinAddr: 0x100041748, symSize: 0x236 }
-  - { offset: 0x978A5, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadMethodsAtAddress:]', symObjAddr: 0x2891, symBinAddr: 0x10004197E, symSize: 0x14 }
-  - { offset: 0x978F6, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor firstByteOffsetOf:address:]', symObjAddr: 0x302B, symBinAddr: 0x100042118, symSize: 0x9 }
-  - { offset: 0x97948, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadIvarsAtAddress:]', symObjAddr: 0x3034, symBinAddr: 0x100042121, symSize: 0x2CA }
-  - { offset: 0x97BF7, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor protocolAddressListAtAddress:]', symObjAddr: 0x32FE, symBinAddr: 0x1000423EB, symSize: 0x186 }
-  - { offset: 0x97D70, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor objcImageInfoSection]', symObjAddr: 0x3484, symBinAddr: 0x100042571, symSize: 0x81 }
-  - { offset: 0x9863A, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState initWithProperties:]', symObjAddr: 0x0, symBinAddr: 0x1000425F2, symSize: 0x2F2 }
-  - { offset: 0x98715, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState initWithProperties:]', symObjAddr: 0x0, symBinAddr: 0x1000425F2, symSize: 0x2F2 }
-  - { offset: 0x98853, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState log]', symObjAddr: 0x2F2, symBinAddr: 0x1000428E4, symSize: 0x34 }
-  - { offset: 0x988D7, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState propertyForAccessor:]', symObjAddr: 0x326, symBinAddr: 0x100042918, symSize: 0x16 }
-  - { offset: 0x98928, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState hasUsedProperty:]', symObjAddr: 0x33C, symBinAddr: 0x10004292E, symSize: 0x6D }
-  - { offset: 0x9899F, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState useProperty:]', symObjAddr: 0x3A9, symBinAddr: 0x10004299B, symSize: 0x50 }
-  - { offset: 0x98A06, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState remainingProperties]', symObjAddr: 0x3F9, symBinAddr: 0x1000429EB, symSize: 0x5B }
-  - { offset: 0x98A61, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState .cxx_destruct]', symObjAddr: 0x454, symBinAddr: 0x100042A46, symSize: 0x28 }
-  - { offset: 0x98BE0, size: 0x8, addend: 0x0, symName: '-[CDOCCategory sortableName]', symObjAddr: 0x0, symBinAddr: 0x100042A6E, symSize: 0x93 }
-  - { offset: 0x98E4D, size: 0x8, addend: 0x0, symName: '-[CDOCCategory sortableName]', symObjAddr: 0x0, symBinAddr: 0x100042A6E, symSize: 0x93 }
-  - { offset: 0x98EC0, size: 0x8, addend: 0x0, symName: '-[CDOCCategory className]', symObjAddr: 0x93, symBinAddr: 0x100042B01, symSize: 0x1D }
-  - { offset: 0x98F03, size: 0x8, addend: 0x0, symName: '-[CDOCCategory displayClassName]', symObjAddr: 0xB0, symBinAddr: 0x100042B1E, symSize: 0x6A }
-  - { offset: 0x98F7A, size: 0x8, addend: 0x0, symName: '-[CDOCCategory methodSearchContext]', symObjAddr: 0x11A, symBinAddr: 0x100042B88, symSize: 0x11B }
-  - { offset: 0x99051, size: 0x8, addend: 0x0, symName: '-[CDOCCategory recursivelyVisit:]', symObjAddr: 0x235, symBinAddr: 0x100042CA3, symSize: 0x139 }
-  - { offset: 0x99167, size: 0x8, addend: 0x0, symName: '-[CDOCCategory identifier]', symObjAddr: 0x36E, symBinAddr: 0x100042DDC, symSize: 0x12 }
-  - { offset: 0x991A8, size: 0x8, addend: 0x0, symName: '-[CDOCCategory dependancies]', symObjAddr: 0x380, symBinAddr: 0x100042DEE, symSize: 0xC3 }
-  - { offset: 0x9921B, size: 0x8, addend: 0x0, symName: '-[CDOCCategory classRef]', symObjAddr: 0x443, symBinAddr: 0x100042EB1, symSize: 0x16 }
-  - { offset: 0x99252, size: 0x8, addend: 0x0, symName: '-[CDOCCategory setClassRef:]', symObjAddr: 0x459, symBinAddr: 0x100042EC7, symSize: 0x11 }
-  - { offset: 0x99291, size: 0x8, addend: 0x0, symName: '-[CDOCCategory .cxx_destruct]', symObjAddr: 0x46A, symBinAddr: 0x100042ED8, symSize: 0x13 }
-  - { offset: 0x9957F, size: 0x8, addend: 0x0, symName: '-[CDOCClass init]', symObjAddr: 0x0, symBinAddr: 0x100042EEB, symSize: 0x3F }
-  - { offset: 0x997EB, size: 0x8, addend: 0x0, symName: '-[CDOCClass init]', symObjAddr: 0x0, symBinAddr: 0x100042EEB, symSize: 0x3F }
-  - { offset: 0x99822, size: 0x8, addend: 0x0, symName: '-[CDOCClass description]', symObjAddr: 0x3F, symBinAddr: 0x100042F2A, symSize: 0xAB }
-  - { offset: 0x9987D, size: 0x8, addend: 0x0, symName: '-[CDOCClass superClassName]', symObjAddr: 0xEA, symBinAddr: 0x100042FD5, symSize: 0x1D }
-  - { offset: 0x998C0, size: 0x8, addend: 0x0, symName: '-[CDOCClass registerTypesWithObject:phase:]', symObjAddr: 0x107, symBinAddr: 0x100042FF2, symSize: 0x1E7 }
-  - { offset: 0x99996, size: 0x8, addend: 0x0, symName: '-[CDOCClass methodSearchContext]', symObjAddr: 0x2EE, symBinAddr: 0x1000431D9, symSize: 0x153 }
-  - { offset: 0x99A91, size: 0x8, addend: 0x0, symName: '-[CDOCClass recursivelyVisit:]', symObjAddr: 0x441, symBinAddr: 0x10004332C, symSize: 0x2A0 }
-  - { offset: 0x99C12, size: 0x8, addend: 0x0, symName: '-[CDOCClass identifier]', symObjAddr: 0x6E1, symBinAddr: 0x1000435CC, symSize: 0x12 }
-  - { offset: 0x99C53, size: 0x8, addend: 0x0, symName: '-[CDOCClass dependancies]', symObjAddr: 0x6F3, symBinAddr: 0x1000435DE, symSize: 0xC3 }
-  - { offset: 0x99CC6, size: 0x8, addend: 0x0, symName: '-[CDOCClass superClassRef]', symObjAddr: 0x7B6, symBinAddr: 0x1000436A1, symSize: 0x16 }
-  - { offset: 0x99CFD, size: 0x8, addend: 0x0, symName: '-[CDOCClass setSuperClassRef:]', symObjAddr: 0x7CC, symBinAddr: 0x1000436B7, symSize: 0x11 }
-  - { offset: 0x99D3C, size: 0x8, addend: 0x0, symName: '-[CDOCClass instanceVariables]', symObjAddr: 0x7DD, symBinAddr: 0x1000436C8, symSize: 0x16 }
-  - { offset: 0x99D73, size: 0x8, addend: 0x0, symName: '-[CDOCClass setInstanceVariables:]', symObjAddr: 0x7F3, symBinAddr: 0x1000436DE, symSize: 0x11 }
-  - { offset: 0x99DB2, size: 0x8, addend: 0x0, symName: '-[CDOCClass isExported]', symObjAddr: 0x804, symBinAddr: 0x1000436EF, symSize: 0x11 }
-  - { offset: 0x99DE7, size: 0x8, addend: 0x0, symName: '-[CDOCClass setIsExported:]', symObjAddr: 0x815, symBinAddr: 0x100043700, symSize: 0x10 }
-  - { offset: 0x99E24, size: 0x8, addend: 0x0, symName: '-[CDOCClass isSwiftClass]', symObjAddr: 0x825, symBinAddr: 0x100043710, symSize: 0x11 }
-  - { offset: 0x99E59, size: 0x8, addend: 0x0, symName: '-[CDOCClass setIsSwiftClass:]', symObjAddr: 0x836, symBinAddr: 0x100043721, symSize: 0x10 }
-  - { offset: 0x99E96, size: 0x8, addend: 0x0, symName: '-[CDOCClass .cxx_destruct]', symObjAddr: 0x846, symBinAddr: 0x100043731, symSize: 0x31 }
-  - { offset: 0x9A45E, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable initWithName:typeString:offset:]', symObjAddr: 0x0, symBinAddr: 0x100043762, symSize: 0xD1 }
-  - { offset: 0x9A7BD, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable initWithName:typeString:offset:]', symObjAddr: 0x0, symBinAddr: 0x100043762, symSize: 0xD1 }
-  - { offset: 0x9A89C, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable description]', symObjAddr: 0xD1, symBinAddr: 0x100043833, symSize: 0xD9 }
-  - { offset: 0x9A949, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable type]', symObjAddr: 0x1AA, symBinAddr: 0x10004390C, symSize: 0x171 }
-  - { offset: 0x9AA9B, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable appendToString:typeController:]', symObjAddr: 0x31B, symBinAddr: 0x100043A7D, symSize: 0x2CD }
-  - { offset: 0x9AC99, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable name]', symObjAddr: 0x5E8, symBinAddr: 0x100043D4A, symSize: 0x14 }
-  - { offset: 0x9ACD0, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable typeString]', symObjAddr: 0x5FC, symBinAddr: 0x100043D5E, symSize: 0x14 }
-  - { offset: 0x9AD07, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable offset]', symObjAddr: 0x610, symBinAddr: 0x100043D72, symSize: 0xA }
-  - { offset: 0x9AD3C, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable parseError]', symObjAddr: 0x61A, symBinAddr: 0x100043D7C, symSize: 0x14 }
-  - { offset: 0x9AD73, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable hasParsedType]', symObjAddr: 0x62E, symBinAddr: 0x100043D90, symSize: 0xA }
-  - { offset: 0x9ADA8, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable setHasParsedType:]', symObjAddr: 0x638, symBinAddr: 0x100043D9A, symSize: 0x9 }
-  - { offset: 0x9ADE5, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable .cxx_destruct]', symObjAddr: 0x641, symBinAddr: 0x100043DA3, symSize: 0x3E }
-  - { offset: 0x9AF95, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassSymbol:]', symObjAddr: 0x0, symBinAddr: 0x100043DE1, symSize: 0x6C }
-  - { offset: 0x9B2FB, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassSymbol:]', symObjAddr: 0x0, symBinAddr: 0x100043DE1, symSize: 0x6C }
-  - { offset: 0x9B372, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassObject:]', symObjAddr: 0x6C, symBinAddr: 0x100043E4D, symSize: 0x6C }
-  - { offset: 0x9B3E9, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassName:]', symObjAddr: 0xD8, symBinAddr: 0x100043EB9, symSize: 0x73 }
-  - { offset: 0x9B460, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference className]', symObjAddr: 0x14B, symBinAddr: 0x100043F2C, symSize: 0xEF }
-  - { offset: 0x9B542, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference isExternalClass]', symObjAddr: 0x23A, symBinAddr: 0x10004401B, symSize: 0x33 }
-  - { offset: 0x9B585, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference classObject]', symObjAddr: 0x26D, symBinAddr: 0x10004404E, symSize: 0x14 }
-  - { offset: 0x9B5BC, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference setClassObject:]', symObjAddr: 0x281, symBinAddr: 0x100044062, symSize: 0xF }
-  - { offset: 0x9B5FB, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference classSymbol]', symObjAddr: 0x290, symBinAddr: 0x100044071, symSize: 0x14 }
-  - { offset: 0x9B632, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference setClassSymbol:]', symObjAddr: 0x2A4, symBinAddr: 0x100044085, symSize: 0xF }
-  - { offset: 0x9B671, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference setClassName:]', symObjAddr: 0x2B3, symBinAddr: 0x100044094, symSize: 0xF }
-  - { offset: 0x9B6B0, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference .cxx_destruct]', symObjAddr: 0x2C2, symBinAddr: 0x1000440A3, symSize: 0x33 }
-  - { offset: 0x9B725, size: 0x8, addend: 0x0, symName: '-[CDOCMethod init]', symObjAddr: 0x0, symBinAddr: 0x1000440D6, symSize: 0x3F }
-  - { offset: 0x9B887, size: 0x8, addend: 0x0, symName: '-[CDOCMethod init]', symObjAddr: 0x0, symBinAddr: 0x1000440D6, symSize: 0x3F }
-  - { offset: 0x9B8D6, size: 0x8, addend: 0x0, symName: '-[CDOCMethod initWithName:typeString:]', symObjAddr: 0x3F, symBinAddr: 0x100044115, symSize: 0x15 }
-  - { offset: 0x9B935, size: 0x8, addend: 0x0, symName: '-[CDOCMethod initWithName:typeString:address:]', symObjAddr: 0x54, symBinAddr: 0x10004412A, symSize: 0xCC }
-  - { offset: 0x9BA08, size: 0x8, addend: 0x0, symName: '-[CDOCMethod copyWithZone:]', symObjAddr: 0x120, symBinAddr: 0x1000441F6, symSize: 0xA2 }
-  - { offset: 0x9BA93, size: 0x8, addend: 0x0, symName: '-[CDOCMethod description]', symObjAddr: 0x1C2, symBinAddr: 0x100044298, symSize: 0xD9 }
-  - { offset: 0x9BB40, size: 0x8, addend: 0x0, symName: '-[CDOCMethod parsedMethodTypes]', symObjAddr: 0x29B, symBinAddr: 0x100044371, symSize: 0x115 }
-  - { offset: 0x9BC4A, size: 0x8, addend: 0x0, symName: '-[CDOCMethod appendToString:typeController:]', symObjAddr: 0x3B0, symBinAddr: 0x100044486, symSize: 0x20B }
-  - { offset: 0x9BDCD, size: 0x8, addend: 0x0, symName: '-[CDOCMethod ascendingCompareByName:]', symObjAddr: 0x5BB, symBinAddr: 0x100044691, symSize: 0x91 }
-  - { offset: 0x9BE68, size: 0x8, addend: 0x0, symName: '-[CDOCMethod name]', symObjAddr: 0x64C, symBinAddr: 0x100044722, symSize: 0x14 }
-  - { offset: 0x9BE9F, size: 0x8, addend: 0x0, symName: '-[CDOCMethod typeString]', symObjAddr: 0x660, symBinAddr: 0x100044736, symSize: 0x14 }
-  - { offset: 0x9BED6, size: 0x8, addend: 0x0, symName: '-[CDOCMethod address]', symObjAddr: 0x674, symBinAddr: 0x10004474A, symSize: 0xA }
-  - { offset: 0x9BF0B, size: 0x8, addend: 0x0, symName: '-[CDOCMethod setAddress:]', symObjAddr: 0x67E, symBinAddr: 0x100044754, symSize: 0xA }
-  - { offset: 0x9BF48, size: 0x8, addend: 0x0, symName: '-[CDOCMethod .cxx_destruct]', symObjAddr: 0x688, symBinAddr: 0x10004475E, symSize: 0x33 }
-  - { offset: 0x9C201, size: 0x8, addend: 0x0, symName: '-[CDOCModule init]', symObjAddr: 0x0, symBinAddr: 0x100044791, symSize: 0x6B }
-  - { offset: 0x9C355, size: 0x8, addend: 0x0, symName: '-[CDOCModule init]', symObjAddr: 0x0, symBinAddr: 0x100044791, symSize: 0x6B }
-  - { offset: 0x9C3A4, size: 0x8, addend: 0x0, symName: '-[CDOCModule description]', symObjAddr: 0x6B, symBinAddr: 0x1000447FC, symSize: 0xDC }
-  - { offset: 0x9C451, size: 0x8, addend: 0x0, symName: '-[CDOCModule formattedString]', symObjAddr: 0x147, symBinAddr: 0x1000448D8, symSize: 0x6C }
-  - { offset: 0x9C4AC, size: 0x8, addend: 0x0, symName: '-[CDOCModule version]', symObjAddr: 0x1B3, symBinAddr: 0x100044944, symSize: 0x9 }
-  - { offset: 0x9C4E1, size: 0x8, addend: 0x0, symName: '-[CDOCModule setVersion:]', symObjAddr: 0x1BC, symBinAddr: 0x10004494D, symSize: 0x9 }
-  - { offset: 0x9C51E, size: 0x8, addend: 0x0, symName: '-[CDOCModule name]', symObjAddr: 0x1C5, symBinAddr: 0x100044956, symSize: 0x14 }
-  - { offset: 0x9C555, size: 0x8, addend: 0x0, symName: '-[CDOCModule setName:]', symObjAddr: 0x1D9, symBinAddr: 0x10004496A, symSize: 0xF }
-  - { offset: 0x9C594, size: 0x8, addend: 0x0, symName: '-[CDOCModule symtab]', symObjAddr: 0x1E8, symBinAddr: 0x100044979, symSize: 0x14 }
-  - { offset: 0x9C5CB, size: 0x8, addend: 0x0, symName: '-[CDOCModule setSymtab:]', symObjAddr: 0x1FC, symBinAddr: 0x10004498D, symSize: 0xF }
-  - { offset: 0x9C60A, size: 0x8, addend: 0x0, symName: '-[CDOCModule .cxx_destruct]', symObjAddr: 0x20B, symBinAddr: 0x10004499C, symSize: 0x28 }
-  - { offset: 0x9C6A5, size: 0x8, addend: 0x0, symName: '-[CDOCProperty initWithName:attributes:]', symObjAddr: 0x0, symBinAddr: 0x1000449C4, symSize: 0x107 }
-  - { offset: 0x9CA20, size: 0x8, addend: 0x0, symName: '-[CDOCProperty initWithName:attributes:]', symObjAddr: 0x0, symBinAddr: 0x1000449C4, symSize: 0x107 }
-  - { offset: 0x9CB1F, size: 0x8, addend: 0x0, symName: '-[CDOCProperty description]', symObjAddr: 0x107, symBinAddr: 0x100044ACB, symSize: 0xCC }
-  - { offset: 0x9CBC0, size: 0x8, addend: 0x0, symName: '-[CDOCProperty defaultGetter]', symObjAddr: 0x1D3, symBinAddr: 0x100044B97, symSize: 0x12 }
-  - { offset: 0x9CC01, size: 0x8, addend: 0x0, symName: '-[CDOCProperty defaultSetter]', symObjAddr: 0x1E5, symBinAddr: 0x100044BA9, symSize: 0x8D }
-  - { offset: 0x9CC74, size: 0x8, addend: 0x0, symName: '-[CDOCProperty getter]', symObjAddr: 0x272, symBinAddr: 0x100044C36, symSize: 0x63 }
-  - { offset: 0x9CCCF, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setter]', symObjAddr: 0x2D5, symBinAddr: 0x100044C99, symSize: 0x63 }
-  - { offset: 0x9CD2A, size: 0x8, addend: 0x0, symName: '-[CDOCProperty ascendingCompareByName:]', symObjAddr: 0x338, symBinAddr: 0x100044CFC, symSize: 0x91 }
-  - { offset: 0x9CE0B, size: 0x8, addend: 0x0, symName: '-[CDOCProperty _parseAttributes]', symObjAddr: 0x3C9, symBinAddr: 0x100044D8D, symSize: 0x5CB }
-  - { offset: 0x9D15B, size: 0x8, addend: 0x0, symName: '-[CDOCProperty name]', symObjAddr: 0x994, symBinAddr: 0x100045358, symSize: 0x14 }
-  - { offset: 0x9D192, size: 0x8, addend: 0x0, symName: '-[CDOCProperty attributeString]', symObjAddr: 0x9A8, symBinAddr: 0x10004536C, symSize: 0x14 }
-  - { offset: 0x9D1C9, size: 0x8, addend: 0x0, symName: '-[CDOCProperty type]', symObjAddr: 0x9BC, symBinAddr: 0x100045380, symSize: 0x14 }
-  - { offset: 0x9D200, size: 0x8, addend: 0x0, symName: '-[CDOCProperty attributes]', symObjAddr: 0x9D0, symBinAddr: 0x100045394, symSize: 0x14 }
-  - { offset: 0x9D237, size: 0x8, addend: 0x0, symName: '-[CDOCProperty attributeStringAfterType]', symObjAddr: 0x9E4, symBinAddr: 0x1000453A8, symSize: 0x14 }
-  - { offset: 0x9D26E, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setAttributeStringAfterType:]', symObjAddr: 0x9F8, symBinAddr: 0x1000453BC, symSize: 0xF }
-  - { offset: 0x9D2AD, size: 0x8, addend: 0x0, symName: '-[CDOCProperty customGetter]', symObjAddr: 0xA07, symBinAddr: 0x1000453CB, symSize: 0x14 }
-  - { offset: 0x9D2E4, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setCustomGetter:]', symObjAddr: 0xA1B, symBinAddr: 0x1000453DF, symSize: 0xF }
-  - { offset: 0x9D323, size: 0x8, addend: 0x0, symName: '-[CDOCProperty customSetter]', symObjAddr: 0xA2A, symBinAddr: 0x1000453EE, symSize: 0x14 }
-  - { offset: 0x9D35A, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setCustomSetter:]', symObjAddr: 0xA3E, symBinAddr: 0x100045402, symSize: 0xF }
-  - { offset: 0x9D399, size: 0x8, addend: 0x0, symName: '-[CDOCProperty isReadOnly]', symObjAddr: 0xA4D, symBinAddr: 0x100045411, symSize: 0xA }
-  - { offset: 0x9D3CE, size: 0x8, addend: 0x0, symName: '-[CDOCProperty isDynamic]', symObjAddr: 0xA57, symBinAddr: 0x10004541B, symSize: 0xA }
-  - { offset: 0x9D403, size: 0x8, addend: 0x0, symName: '-[CDOCProperty .cxx_destruct]', symObjAddr: 0xA61, symBinAddr: 0x100045425, symSize: 0x5F }
-  - { offset: 0x9D7B7, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol init]', symObjAddr: 0x0, symBinAddr: 0x100045484, symSize: 0xFB }
-  - { offset: 0x9DA3F, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol init]', symObjAddr: 0x0, symBinAddr: 0x100045484, symSize: 0xFB }
-  - { offset: 0x9DAD6, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol description]', symObjAddr: 0xFB, symBinAddr: 0x10004557F, symSize: 0x145 }
-  - { offset: 0x9DBCB, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addProtocol:]', symObjAddr: 0x240, symBinAddr: 0x1000456C4, symSize: 0xFC }
-  - { offset: 0x9DC92, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol removeProtocol:]', symObjAddr: 0x33C, symBinAddr: 0x1000457C0, symSize: 0x87 }
-  - { offset: 0x9DD1D, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol protocolNames]', symObjAddr: 0x3C3, symBinAddr: 0x100045847, symSize: 0xCF }
-  - { offset: 0x9DDB8, size: 0x8, addend: 0x0, symName: '___29-[CDOCProtocol protocolNames]_block_invoke', symObjAddr: 0x492, symBinAddr: 0x100045916, symSize: 0x8F }
-  - { offset: 0x9DE6F, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol protocolsString]', symObjAddr: 0x521, symBinAddr: 0x1000459A5, symSize: 0x75 }
-  - { offset: 0x9DEE6, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addClassMethod:]', symObjAddr: 0x596, symBinAddr: 0x100045A1A, symSize: 0x16 }
-  - { offset: 0x9DF33, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addInstanceMethod:]', symObjAddr: 0x5AC, symBinAddr: 0x100045A30, symSize: 0x16 }
-  - { offset: 0x9DF80, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addOptionalClassMethod:]', symObjAddr: 0x5C2, symBinAddr: 0x100045A46, symSize: 0x16 }
-  - { offset: 0x9DFCD, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addOptionalInstanceMethod:]', symObjAddr: 0x5D8, symBinAddr: 0x100045A5C, symSize: 0x16 }
-  - { offset: 0x9E01A, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addProperty:]', symObjAddr: 0x5EE, symBinAddr: 0x100045A72, symSize: 0x16 }
-  - { offset: 0x9E067, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol hasMethods]', symObjAddr: 0x604, symBinAddr: 0x100045A88, symSize: 0x104 }
-  - { offset: 0x9E12E, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol registerTypesWithObject:phase:]', symObjAddr: 0x708, symBinAddr: 0x100045B8C, symSize: 0x120 }
-  - { offset: 0x9E229, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol registerTypesFromMethods:withObject:phase:]', symObjAddr: 0x828, symBinAddr: 0x100045CAC, symSize: 0x2C2 }
-  - { offset: 0x9E35A, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol sortableName]', symObjAddr: 0xAEA, symBinAddr: 0x100045F6E, symSize: 0x12 }
-  - { offset: 0x9E39B, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol ascendingCompareByName:]', symObjAddr: 0xAFC, symBinAddr: 0x100045F80, symSize: 0x91 }
-  - { offset: 0x9E436, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol methodSearchContext]', symObjAddr: 0xB8D, symBinAddr: 0x100046011, symSize: 0xF4 }
-  - { offset: 0x9E4F5, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol recursivelyVisit:]', symObjAddr: 0xC81, symBinAddr: 0x100046105, symSize: 0x15B }
-  - { offset: 0x9E623, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol visitMethods:propertyState:]', symObjAddr: 0xDDC, symBinAddr: 0x100046260, symSize: 0x737 }
-  - { offset: 0x9E9DE, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol mergeMethodsFromProtocol:]', symObjAddr: 0x1513, symBinAddr: 0x100046997, symSize: 0x1246 }
-  - { offset: 0x9F1E5, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol mergePropertiesFromProtocol:]', symObjAddr: 0x2759, symBinAddr: 0x100047BDD, symSize: 0x421 }
-  - { offset: 0x9F3CF, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol name]', symObjAddr: 0x2B7A, symBinAddr: 0x100047FFE, symSize: 0x14 }
-  - { offset: 0x9F406, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol setName:]', symObjAddr: 0x2B8E, symBinAddr: 0x100048012, symSize: 0xF }
-  - { offset: 0x9F445, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol protocols]', symObjAddr: 0x2B9D, symBinAddr: 0x100048021, symSize: 0x14 }
-  - { offset: 0x9F47C, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol classMethods]', symObjAddr: 0x2BB1, symBinAddr: 0x100048035, symSize: 0xA }
-  - { offset: 0x9F4B1, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol instanceMethods]', symObjAddr: 0x2BBB, symBinAddr: 0x10004803F, symSize: 0xA }
-  - { offset: 0x9F4E6, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol optionalClassMethods]', symObjAddr: 0x2BC5, symBinAddr: 0x100048049, symSize: 0xA }
-  - { offset: 0x9F51B, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol optionalInstanceMethods]', symObjAddr: 0x2BCF, symBinAddr: 0x100048053, symSize: 0xA }
-  - { offset: 0x9F550, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol properties]', symObjAddr: 0x2BD9, symBinAddr: 0x10004805D, symSize: 0xA }
-  - { offset: 0x9F585, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol .cxx_destruct]', symObjAddr: 0x2BE3, symBinAddr: 0x100048067, symSize: 0x6A }
-  - { offset: 0x9FC5A, size: 0x8, addend: 0x0, symName: _Blowfish_Encrypt, symObjAddr: 0x0, symBinAddr: 0x1000480D1, symSize: 0x74 }
-  - { offset: 0x9FC74, size: 0x8, addend: 0x0, symName: _ORIG_S, symObjAddr: 0x210, symBinAddr: 0x1000528C0, symSize: 0x0 }
-  - { offset: 0x9FCC1, size: 0x8, addend: 0x0, symName: _ORIG_P, symObjAddr: 0x1210, symBinAddr: 0x1000538C0, symSize: 0x0 }
-  - { offset: 0x9FDAA, size: 0x8, addend: 0x0, symName: _Blowfish_Encrypt, symObjAddr: 0x0, symBinAddr: 0x1000480D1, symSize: 0x74 }
-  - { offset: 0x9FE70, size: 0x8, addend: 0x0, symName: _Blowfish_Decrypt, symObjAddr: 0x74, symBinAddr: 0x100048145, symSize: 0x77 }
-  - { offset: 0x9FF36, size: 0x8, addend: 0x0, symName: _Blowfish_Init, symObjAddr: 0xEB, symBinAddr: 0x1000481BC, symSize: 0x119 }
-  - { offset: 0xA006F, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab init]', symObjAddr: 0x0, symBinAddr: 0x1000482D5, symSize: 0x75 }
-  - { offset: 0xA013E, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab init]', symObjAddr: 0x0, symBinAddr: 0x1000482D5, symSize: 0x75 }
-  - { offset: 0xA018D, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab description]', symObjAddr: 0x75, symBinAddr: 0x10004834A, symSize: 0xC0 }
-  - { offset: 0xA0251, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab addClass:]', symObjAddr: 0x135, symBinAddr: 0x10004840A, symSize: 0x69 }
-  - { offset: 0xA02D0, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab addCategory:]', symObjAddr: 0x19E, symBinAddr: 0x100048473, symSize: 0x69 }
-  - { offset: 0xA034F, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab classes]', symObjAddr: 0x207, symBinAddr: 0x1000484DC, symSize: 0x14 }
-  - { offset: 0xA0386, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab categories]', symObjAddr: 0x21B, symBinAddr: 0x1000484F0, symSize: 0x14 }
-  - { offset: 0xA03BD, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab .cxx_destruct]', symObjAddr: 0x22F, symBinAddr: 0x100048504, symSize: 0x28 }
-  - { offset: 0xA05A3, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004852C, symSize: 0xE3 }
-  - { offset: 0xA0824, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004852C, symSize: 0xE3 }
-  - { offset: 0xA08BF, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter parse:index:level:]', symObjAddr: 0xE3, symBinAddr: 0x10004860F, symSize: 0x37D }
-  - { offset: 0xA0ACC, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter format]', symObjAddr: 0x460, symBinAddr: 0x10004898C, symSize: 0x3D }
-  - { offset: 0xA0B1B, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter .cxx_destruct]', symObjAddr: 0x49D, symBinAddr: 0x1000489C9, symSize: 0x33 }
-  - { offset: 0xA0BAC, size: 0x8, addend: 0x0, symName: '-[CDMethodType initWithType:offset:]', symObjAddr: 0x0, symBinAddr: 0x1000489FC, symSize: 0xA1 }
-  - { offset: 0xA0D9B, size: 0x8, addend: 0x0, symName: '-[CDMethodType initWithType:offset:]', symObjAddr: 0x0, symBinAddr: 0x1000489FC, symSize: 0xA1 }
-  - { offset: 0xA0E52, size: 0x8, addend: 0x0, symName: '-[CDMethodType description]', symObjAddr: 0xA1, symBinAddr: 0x100048A9D, symSize: 0xC0 }
-  - { offset: 0xA0EF3, size: 0x8, addend: 0x0, symName: '-[CDMethodType type]', symObjAddr: 0x161, symBinAddr: 0x100048B5D, symSize: 0x14 }
-  - { offset: 0xA0F2A, size: 0x8, addend: 0x0, symName: '-[CDMethodType offset]', symObjAddr: 0x175, symBinAddr: 0x100048B71, symSize: 0x14 }
-  - { offset: 0xA0F61, size: 0x8, addend: 0x0, symName: '-[CDMethodType .cxx_destruct]', symObjAddr: 0x189, symBinAddr: 0x100048B85, symSize: 0x28 }
-  - { offset: 0xA0FFC, size: 0x8, addend: 0x0, symName: '-[CDType initSimpleType:]', symObjAddr: 0x0, symBinAddr: 0x100048BB0, symSize: 0x69 }
-  - { offset: 0xA12D1, size: 0x8, addend: 0x0, symName: '-[CDType initSimpleType:]', symObjAddr: 0x0, symBinAddr: 0x100048BB0, symSize: 0x69 }
-  - { offset: 0xA133C, size: 0x8, addend: 0x0, symName: '-[CDType initIDType:]', symObjAddr: 0x69, symBinAddr: 0x100048C19, symSize: 0x14 }
-  - { offset: 0xA138D, size: 0x8, addend: 0x0, symName: '-[CDType initIDType:withProtocols:]', symObjAddr: 0x7D, symBinAddr: 0x100048C2D, symSize: 0xA3 }
-  - { offset: 0xA1450, size: 0x8, addend: 0x0, symName: '-[CDType initIDTypeWithProtocols:]', symObjAddr: 0x120, symBinAddr: 0x100048CD0, symSize: 0x5E }
-  - { offset: 0xA14D3, size: 0x8, addend: 0x0, symName: '-[CDType initStructType:members:]', symObjAddr: 0x17E, symBinAddr: 0x100048D2E, symSize: 0xAB }
-  - { offset: 0xA1596, size: 0x8, addend: 0x0, symName: '-[CDType initUnionType:members:]', symObjAddr: 0x229, symBinAddr: 0x100048DD9, symSize: 0xAB }
-  - { offset: 0xA1659, size: 0x8, addend: 0x0, symName: '-[CDType initBitfieldType:]', symObjAddr: 0x2D4, symBinAddr: 0x100048E84, symSize: 0x5E }
-  - { offset: 0xA16DC, size: 0x8, addend: 0x0, symName: '-[CDType initArrayType:count:]', symObjAddr: 0x332, symBinAddr: 0x100048EE2, symSize: 0x98 }
-  - { offset: 0xA179F, size: 0x8, addend: 0x0, symName: '-[CDType initPointerType:]', symObjAddr: 0x3CA, symBinAddr: 0x100048F7A, symSize: 0x5E }
-  - { offset: 0xA1822, size: 0x8, addend: 0x0, symName: '-[CDType initFunctionPointerType]', symObjAddr: 0x428, symBinAddr: 0x100048FD8, symSize: 0x1F }
-  - { offset: 0xA1865, size: 0x8, addend: 0x0, symName: '-[CDType initBlockTypeWithTypes:]', symObjAddr: 0x447, symBinAddr: 0x100048FF7, symSize: 0x5E }
-  - { offset: 0xA18E8, size: 0x8, addend: 0x0, symName: '-[CDType initModifier:type:]', symObjAddr: 0x4A5, symBinAddr: 0x100049055, symSize: 0x66 }
-  - { offset: 0xA197B, size: 0x8, addend: 0x0, symName: '-[CDType copyWithZone:]', symObjAddr: 0x50B, symBinAddr: 0x1000490BB, symSize: 0x213 }
-  - { offset: 0xA1AEE, size: 0x8, addend: 0x0, symName: '-[CDType isEqual:]', symObjAddr: 0x71E, symBinAddr: 0x1000492CE, symSize: 0xC3 }
-  - { offset: 0xA1BBE, size: 0x8, addend: 0x0, symName: '-[CDType description]', symObjAddr: 0x7E1, symBinAddr: 0x100049391, symSize: 0x8B }
-  - { offset: 0xA1C2F, size: 0x8, addend: 0x0, symName: '-[CDType isIDType]', symObjAddr: 0x86C, symBinAddr: 0x10004941C, symSize: 0x1B }
-  - { offset: 0xA1C64, size: 0x8, addend: 0x0, symName: '-[CDType isNamedObject]', symObjAddr: 0x887, symBinAddr: 0x100049437, symSize: 0x12 }
-  - { offset: 0xA1C9A, size: 0x8, addend: 0x0, symName: '-[CDType isTemplateType]', symObjAddr: 0x899, symBinAddr: 0x100049449, symSize: 0x16 }
-  - { offset: 0xA1CDE, size: 0x8, addend: 0x0, symName: '-[CDType isModifierType]', symObjAddr: 0x8AF, symBinAddr: 0x10004945F, symSize: 0x2E }
-  - { offset: 0xA1D14, size: 0x8, addend: 0x0, symName: '-[CDType typeIgnoringModifiers]', symObjAddr: 0x8DD, symBinAddr: 0x10004948D, symSize: 0x40 }
-  - { offset: 0xA1D64, size: 0x8, addend: 0x0, symName: '-[CDType structureDepth]', symObjAddr: 0x91D, symBinAddr: 0x1000494CD, symSize: 0x1BC }
-  - { offset: 0xA1E20, size: 0x8, addend: 0x0, symName: '-[CDType formattedString:formatter:level:]', symObjAddr: 0xAD9, symBinAddr: 0x100049689, symSize: 0xC2E }
-  - { offset: 0xA22F0, size: 0x8, addend: 0x0, symName: '-[CDType formattedStringForMembersAtLevel:formatter:]', symObjAddr: 0x1707, symBinAddr: 0x10004A2B7, symSize: 0x310 }
-  - { offset: 0xA2322, size: 0x8, addend: 0x0, symName: '-[CDType formattedStringForMembersAtLevel:formatter:]', symObjAddr: 0x1707, symBinAddr: 0x10004A2B7, symSize: 0x310 }
-  - { offset: 0xA2489, size: 0x8, addend: 0x0, symName: '-[CDType formattedStringForSimpleType]', symObjAddr: 0x1A17, symBinAddr: 0x10004A5C7, symSize: 0x251 }
-  - { offset: 0xA24BF, size: 0x8, addend: 0x0, symName: '-[CDType typeString]', symObjAddr: 0x1C68, symBinAddr: 0x10004A818, symSize: 0x1C }
-  - { offset: 0xA2501, size: 0x8, addend: 0x0, symName: '-[CDType bareTypeString]', symObjAddr: 0x1C84, symBinAddr: 0x10004A834, symSize: 0x19 }
-  - { offset: 0xA2543, size: 0x8, addend: 0x0, symName: '-[CDType reallyBareTypeString]', symObjAddr: 0x1C9D, symBinAddr: 0x10004A84D, symSize: 0x16 }
-  - { offset: 0xA2585, size: 0x8, addend: 0x0, symName: '-[CDType keyTypeString]', symObjAddr: 0x1CB3, symBinAddr: 0x10004A863, symSize: 0x1C }
-  - { offset: 0xA25C7, size: 0x8, addend: 0x0, symName: '-[CDType _typeStringWithVariableNamesToLevel:showObjectTypes:]', symObjAddr: 0x1CCF, symBinAddr: 0x10004A87F, symSize: 0x462 }
-  - { offset: 0xA26E9, size: 0x8, addend: 0x0, symName: '-[CDType _typeStringForMembersWithVariableNamesToLevel:showObjectTypes:]', symObjAddr: 0x2131, symBinAddr: 0x10004ACE1, symSize: 0x2F6 }
-  - { offset: 0xA26F4, size: 0x8, addend: 0x0, symName: '-[CDType _typeStringForMembersWithVariableNamesToLevel:showObjectTypes:]', symObjAddr: 0x2131, symBinAddr: 0x10004ACE1, symSize: 0x2F6 }
-  - { offset: 0xA2843, size: 0x8, addend: 0x0, symName: '-[CDType canMergeWithType:]', symObjAddr: 0x2427, symBinAddr: 0x10004AFD7, symSize: 0x39F }
-  - { offset: 0xA2B10, size: 0x8, addend: 0x0, symName: '-[CDType mergeWithType:]', symObjAddr: 0x27C6, symBinAddr: 0x10004B376, symSize: 0x8D }
-  - { offset: 0xA2BCB, size: 0x8, addend: 0x0, symName: '-[CDType _recursivelyMergeWithType:]', symObjAddr: 0x2853, symBinAddr: 0x10004B403, symSize: 0x48D }
-  - { offset: 0xA2F1E, size: 0x8, addend: 0x0, symName: '-[CDType memberVariableNames]', symObjAddr: 0x2CE0, symBinAddr: 0x10004B890, symSize: 0xB5 }
-  - { offset: 0xA2FA3, size: 0x8, addend: 0x0, symName: '___29-[CDType memberVariableNames]_block_invoke', symObjAddr: 0x2D95, symBinAddr: 0x10004B945, symSize: 0x8F }
-  - { offset: 0xA3060, size: 0x8, addend: 0x0, symName: '-[CDType generateMemberNames]', symObjAddr: 0x2E24, symBinAddr: 0x10004B9D4, symSize: 0x2E4 }
-  - { offset: 0xA31C1, size: 0x8, addend: 0x0, symName: '-[CDType blockSignatureString]', symObjAddr: 0x3108, symBinAddr: 0x10004BCB8, symSize: 0x134 }
-  - { offset: 0xA32B7, size: 0x8, addend: 0x0, symName: '___30-[CDType blockSignatureString]_block_invoke', symObjAddr: 0x323C, symBinAddr: 0x10004BDEC, symSize: 0x188 }
-  - { offset: 0xA341A, size: 0x8, addend: 0x0, symName: '-[CDType phase:registerTypesWithObject:usedInMethod:]', symObjAddr: 0x33C4, symBinAddr: 0x10004BF74, symSize: 0x22 }
-  - { offset: 0xA3489, size: 0x8, addend: 0x0, symName: '-[CDType phase0RegisterStructuresWithObject:usedInMethod:]', symObjAddr: 0x33E6, symBinAddr: 0x10004BF96, symSize: 0x12A }
-  - { offset: 0xA356F, size: 0x8, addend: 0x0, symName: '-[CDType phase0RecursivelyFixStructureNames:]', symObjAddr: 0x3510, symBinAddr: 0x10004C0C0, symSize: 0x1CC }
-  - { offset: 0xA3672, size: 0x8, addend: 0x0, symName: '-[CDType phase1RegisterStructuresWithObject:]', symObjAddr: 0x36DC, symBinAddr: 0x10004C28C, symSize: 0x1A3 }
-  - { offset: 0xA374F, size: 0x8, addend: 0x0, symName: '-[CDType phase2MergeWithTypeController:debug:]', symObjAddr: 0x387F, symBinAddr: 0x10004C42F, symSize: 0xFA }
-  - { offset: 0xA385F, size: 0x8, addend: 0x0, symName: '-[CDType _phase2MergeWithTypeController:debug:]', symObjAddr: 0x3979, symBinAddr: 0x10004C529, symSize: 0x2A2 }
-  - { offset: 0xA39F7, size: 0x8, addend: 0x0, symName: '-[CDType phase3RegisterWithTypeController:]', symObjAddr: 0x3C1B, symBinAddr: 0x10004C7CB, symSize: 0x58 }
-  - { offset: 0xA3A6C, size: 0x8, addend: 0x0, symName: '-[CDType phase3RegisterMembersWithTypeController:]', symObjAddr: 0x3C73, symBinAddr: 0x10004C823, symSize: 0x14C }
-  - { offset: 0xA3B25, size: 0x8, addend: 0x0, symName: '-[CDType phase3MergeWithTypeController:]', symObjAddr: 0x3DBF, symBinAddr: 0x10004C96F, symSize: 0x1F7 }
-  - { offset: 0xA3C52, size: 0x8, addend: 0x0, symName: '-[CDType variableName]', symObjAddr: 0x3FB6, symBinAddr: 0x10004CB66, symSize: 0x14 }
-  - { offset: 0xA3C89, size: 0x8, addend: 0x0, symName: '-[CDType setVariableName:]', symObjAddr: 0x3FCA, symBinAddr: 0x10004CB7A, symSize: 0xF }
-  - { offset: 0xA3CC8, size: 0x8, addend: 0x0, symName: '-[CDType primitiveType]', symObjAddr: 0x3FD9, symBinAddr: 0x10004CB89, symSize: 0x9 }
-  - { offset: 0xA3CFD, size: 0x8, addend: 0x0, symName: '-[CDType subtype]', symObjAddr: 0x3FE2, symBinAddr: 0x10004CB92, symSize: 0xA }
-  - { offset: 0xA3D32, size: 0x8, addend: 0x0, symName: '-[CDType typeName]', symObjAddr: 0x3FEC, symBinAddr: 0x10004CB9C, symSize: 0xA }
-  - { offset: 0xA3D67, size: 0x8, addend: 0x0, symName: '-[CDType members]', symObjAddr: 0x3FF6, symBinAddr: 0x10004CBA6, symSize: 0xA }
-  - { offset: 0xA3D9C, size: 0x8, addend: 0x0, symName: '-[CDType types]', symObjAddr: 0x4000, symBinAddr: 0x10004CBB0, symSize: 0xA }
-  - { offset: 0xA3DD1, size: 0x8, addend: 0x0, symName: '-[CDType .cxx_destruct]', symObjAddr: 0x400A, symBinAddr: 0x10004CBBA, symSize: 0x6A }
-  - { offset: 0xA4412, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter init]', symObjAddr: 0x0, symBinAddr: 0x10004CC24, symSize: 0x59 }
-  - { offset: 0xA4604, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter init]', symObjAddr: 0x0, symBinAddr: 0x10004CC24, symSize: 0x59 }
-  - { offset: 0xA463B, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter description]', symObjAddr: 0x59, symBinAddr: 0x10004CC7D, symSize: 0xFF }
-  - { offset: 0xA4717, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter _specialCaseVariable:type:]', symObjAddr: 0x158, symBinAddr: 0x10004CD7C, symSize: 0x84 }
-  - { offset: 0xA479A, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter _specialCaseVariable:parsedType:]', symObjAddr: 0x1DC, symBinAddr: 0x10004CE00, symSize: 0x7E }
-  - { offset: 0xA481D, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formatVariable:type:]', symObjAddr: 0x25A, symBinAddr: 0x10004CE7E, symSize: 0x18C }
-  - { offset: 0xA496C, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formattedTypesForMethodName:type:]', symObjAddr: 0x3E6, symBinAddr: 0x10004D00A, symSize: 0x602 }
-  - { offset: 0xA4DD4, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formatMethodName:typeString:]', symObjAddr: 0x9E8, symBinAddr: 0x10004D60C, symSize: 0x64C }
-  - { offset: 0xA5218, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter replacementForType:]', symObjAddr: 0x1034, symBinAddr: 0x10004DC58, symSize: 0x7D }
-  - { offset: 0xA529D, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter typedefNameForStructure:level:]', symObjAddr: 0x10B1, symBinAddr: 0x10004DCD5, symSize: 0x8C }
-  - { offset: 0xA5333, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formattingDidReferenceClassName:]', symObjAddr: 0x113D, symBinAddr: 0x10004DD61, symSize: 0x6C }
-  - { offset: 0xA53B4, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formattingDidReferenceProtocolNames:]', symObjAddr: 0x11A9, symBinAddr: 0x10004DDCD, symSize: 0x6C }
-  - { offset: 0xA5435, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter typeController]', symObjAddr: 0x1215, symBinAddr: 0x10004DE39, symSize: 0x16 }
-  - { offset: 0xA546C, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setTypeController:]', symObjAddr: 0x122B, symBinAddr: 0x10004DE4F, symSize: 0x11 }
-  - { offset: 0xA54AD, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter baseLevel]', symObjAddr: 0x123C, symBinAddr: 0x10004DE60, symSize: 0xA }
-  - { offset: 0xA54E2, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setBaseLevel:]', symObjAddr: 0x1246, symBinAddr: 0x10004DE6A, symSize: 0xA }
-  - { offset: 0xA551F, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter shouldExpand]', symObjAddr: 0x1250, symBinAddr: 0x10004DE74, symSize: 0xA }
-  - { offset: 0xA5554, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setShouldExpand:]', symObjAddr: 0x125A, symBinAddr: 0x10004DE7E, symSize: 0x9 }
-  - { offset: 0xA5591, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter shouldAutoExpand]', symObjAddr: 0x1263, symBinAddr: 0x10004DE87, symSize: 0xA }
-  - { offset: 0xA55C6, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setShouldAutoExpand:]', symObjAddr: 0x126D, symBinAddr: 0x10004DE91, symSize: 0x9 }
-  - { offset: 0xA5603, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter shouldShowLexing]', symObjAddr: 0x1276, symBinAddr: 0x10004DE9A, symSize: 0xA }
-  - { offset: 0xA5638, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setShouldShowLexing:]', symObjAddr: 0x1280, symBinAddr: 0x10004DEA4, symSize: 0x9 }
-  - { offset: 0xA5675, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter .cxx_destruct]', symObjAddr: 0x1289, symBinAddr: 0x10004DEAD, symSize: 0xE }
-  - { offset: 0xA5B94, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004DEBB, symSize: 0xB2 }
-  - { offset: 0xA5ED0, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004DEBB, symSize: 0xB2 }
-  - { offset: 0xA5F53, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer setState:]', symObjAddr: 0xB2, symBinAddr: 0x10004DF6D, symSize: 0xA }
-  - { offset: 0xA5F92, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer string]', symObjAddr: 0xBC, symBinAddr: 0x10004DF77, symSize: 0x16 }
-  - { offset: 0xA5FD5, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer scanNextToken]', symObjAddr: 0xD2, symBinAddr: 0x10004DF8D, symSize: 0x555 }
-  - { offset: 0xA626F, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer peekChar]', symObjAddr: 0x627, symBinAddr: 0x10004E4E2, symSize: 0x16 }
-  - { offset: 0xA62B2, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer remainingString]', symObjAddr: 0x63D, symBinAddr: 0x10004E4F8, symSize: 0x71 }
-  - { offset: 0xA6319, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer peekIdentifier]', symObjAddr: 0x6AE, symBinAddr: 0x10004E569, symSize: 0xE2 }
-  - { offset: 0xA63E8, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer scanner]', symObjAddr: 0x790, symBinAddr: 0x10004E64B, symSize: 0x14 }
-  - { offset: 0xA641F, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer state]', symObjAddr: 0x7A4, symBinAddr: 0x10004E65F, symSize: 0xA }
-  - { offset: 0xA6454, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer shouldShowLexing]', symObjAddr: 0x7AE, symBinAddr: 0x10004E669, symSize: 0xA }
-  - { offset: 0xA6489, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer setShouldShowLexing:]', symObjAddr: 0x7B8, symBinAddr: 0x10004E673, symSize: 0x9 }
-  - { offset: 0xA64C6, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer lexText]', symObjAddr: 0x7C1, symBinAddr: 0x10004E67C, symSize: 0x14 }
-  - { offset: 0xA64FD, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer setLexText:]', symObjAddr: 0x7D5, symBinAddr: 0x10004E690, symSize: 0xF }
-  - { offset: 0xA653C, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer .cxx_destruct]', symObjAddr: 0x7E4, symBinAddr: 0x10004E69F, symSize: 0x28 }
-  - { offset: 0xA65BF, size: 0x8, addend: 0x0, symName: '-[CDTypeName init]', symObjAddr: 0x0, symBinAddr: 0x10004E6C7, symSize: 0x7B }
-  - { offset: 0xA66F0, size: 0x8, addend: 0x0, symName: '-[CDTypeName init]', symObjAddr: 0x0, symBinAddr: 0x10004E6C7, symSize: 0x7B }
-  - { offset: 0xA674B, size: 0x8, addend: 0x0, symName: '-[CDTypeName copyWithZone:]', symObjAddr: 0x7B, symBinAddr: 0x10004E742, symSize: 0x232 }
-  - { offset: 0xA6880, size: 0x8, addend: 0x0, symName: '-[CDTypeName isEqual:]', symObjAddr: 0x2AD, symBinAddr: 0x10004E974, symSize: 0xB1 }
-  - { offset: 0xA691B, size: 0x8, addend: 0x0, symName: '-[CDTypeName description]', symObjAddr: 0x35E, symBinAddr: 0x10004EA25, symSize: 0x1D0 }
-  - { offset: 0xA6A1E, size: 0x8, addend: 0x0, symName: '-[CDTypeName isTemplateType]', symObjAddr: 0x52E, symBinAddr: 0x10004EBF5, symSize: 0x4B }
-  - { offset: 0xA6A79, size: 0x8, addend: 0x0, symName: '-[CDTypeName name]', symObjAddr: 0x579, symBinAddr: 0x10004EC40, symSize: 0x14 }
-  - { offset: 0xA6AB0, size: 0x8, addend: 0x0, symName: '-[CDTypeName setName:]', symObjAddr: 0x58D, symBinAddr: 0x10004EC54, symSize: 0xF }
-  - { offset: 0xA6AEF, size: 0x8, addend: 0x0, symName: '-[CDTypeName templateTypes]', symObjAddr: 0x59C, symBinAddr: 0x10004EC63, symSize: 0x14 }
-  - { offset: 0xA6B26, size: 0x8, addend: 0x0, symName: '-[CDTypeName suffix]', symObjAddr: 0x5B0, symBinAddr: 0x10004EC77, symSize: 0x14 }
-  - { offset: 0xA6B5D, size: 0x8, addend: 0x0, symName: '-[CDTypeName setSuffix:]', symObjAddr: 0x5C4, symBinAddr: 0x10004EC8B, symSize: 0xF }
-  - { offset: 0xA6B9C, size: 0x8, addend: 0x0, symName: '-[CDTypeName .cxx_destruct]', symObjAddr: 0x5D3, symBinAddr: 0x10004EC9A, symSize: 0x33 }
-  - { offset: 0xA6C4E, size: 0x8, addend: 0x0, symName: '-[CDTypeParser initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004ECCD, symSize: 0xF3 }
-  - { offset: 0xA6FAB, size: 0x8, addend: 0x0, symName: '-[CDTypeParser initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004ECCD, symSize: 0xF3 }
-  - { offset: 0xA7071, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseMethodType:]', symObjAddr: 0xF3, symBinAddr: 0x10004EDC0, symSize: 0x3F9 }
-  - { offset: 0xA7311, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseType:]', symObjAddr: 0x4EC, symBinAddr: 0x10004F1B9, symSize: 0x3F9 }
-  - { offset: 0xA75B1, size: 0x8, addend: 0x0, symName: '-[CDTypeParser match:]', symObjAddr: 0x8E5, symBinAddr: 0x10004F5B2, symSize: 0x5C }
-  - { offset: 0xA7624, size: 0x8, addend: 0x0, symName: '-[CDTypeParser match:enterState:]', symObjAddr: 0x941, symBinAddr: 0x10004F60E, symSize: 0xEC }
-  - { offset: 0xA76F3, size: 0x8, addend: 0x0, symName: _CDTokenDescription, symObjAddr: 0xA2D, symBinAddr: 0x10004F6FA, symSize: 0x55 }
-  - { offset: 0xA7736, size: 0x8, addend: 0x0, symName: '-[CDTypeParser error:]', symObjAddr: 0xA82, symBinAddr: 0x10004F74F, symSize: 0x2C }
-  - { offset: 0xA7781, size: 0x8, addend: 0x0, symName: '-[CDTypeParser _parseMethodType]', symObjAddr: 0xAAE, symBinAddr: 0x10004F77B, symSize: 0x106 }
-  - { offset: 0xA786B, size: 0x8, addend: 0x0, symName: '-[CDTypeParser _parseType]', symObjAddr: 0xBB4, symBinAddr: 0x10004F881, symSize: 0x14 }
-  - { offset: 0xA790C, size: 0x8, addend: 0x0, symName: '-[CDTypeParser _parseTypeInStruct:]', symObjAddr: 0xBC8, symBinAddr: 0x10004F895, symSize: 0xC46 }
-  - { offset: 0xA8132, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseUnionTypes]', symObjAddr: 0x180E, symBinAddr: 0x1000504DB, symSize: 0xA8 }
-  - { offset: 0xA81E3, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseOptionalMembers]', symObjAddr: 0x18B6, symBinAddr: 0x100050583, symSize: 0x4E }
-  - { offset: 0xA8244, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseMemberList]', symObjAddr: 0x1904, symBinAddr: 0x1000505D1, symSize: 0xB0 }
-  - { offset: 0xA82C9, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseMember]', symObjAddr: 0x19B4, symBinAddr: 0x100050681, symSize: 0x192 }
-  - { offset: 0xA83C4, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseTypeName]', symObjAddr: 0x1B46, symBinAddr: 0x100050813, symSize: 0x257 }
-  - { offset: 0xA859D, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseIdentifier]', symObjAddr: 0x1D9D, symBinAddr: 0x100050A6A, symSize: 0x7B }
-  - { offset: 0xA8616, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseNumber]', symObjAddr: 0x1E18, symBinAddr: 0x100050AE5, symSize: 0x7B }
-  - { offset: 0xA869E, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInModifierSet:]', symObjAddr: 0x1E93, symBinAddr: 0x100050B60, symSize: 0x27 }
-  - { offset: 0xA86E3, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInSimpleTypeSet:]', symObjAddr: 0x1EBA, symBinAddr: 0x100050B87, symSize: 0x39 }
-  - { offset: 0xA8728, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInTypeSet:]', symObjAddr: 0x1EF3, symBinAddr: 0x100050BC0, symSize: 0x6A }
-  - { offset: 0xA8789, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInTypeStartSet:]', symObjAddr: 0x1F5D, symBinAddr: 0x100050C2A, symSize: 0x3C }
-  - { offset: 0xA87DE, size: 0x8, addend: 0x0, symName: '-[CDTypeParser lexer]', symObjAddr: 0x1F99, symBinAddr: 0x100050C66, symSize: 0x14 }
-  - { offset: 0xA8815, size: 0x8, addend: 0x0, symName: '-[CDTypeParser .cxx_destruct]', symObjAddr: 0x1FAD, symBinAddr: 0x100050C7A, symSize: 0x10 }
-  - { offset: 0xA8BBF, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts functionStarts]', symObjAddr: 0x0, symBinAddr: 0x100050C8A, symSize: 0x15A }
-  - { offset: 0xA90B0, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts functionStarts]', symObjAddr: 0x0, symBinAddr: 0x100050C8A, symSize: 0x15A }
-  - { offset: 0xA9221, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts appendToString:verbose:]', symObjAddr: 0x15A, symBinAddr: 0x100050DE4, symSize: 0x261 }
-  - { offset: 0xA9377, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts .cxx_destruct]', symObjAddr: 0x3BB, symBinAddr: 0x100051045, symSize: 0x13 }
-  - { offset: 0xA9625, size: 0x8, addend: 0x0, symName: '-[CDLCMain initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051058, symSize: 0xB7 }
-  - { offset: 0xA9794, size: 0x8, addend: 0x0, symName: '-[CDLCMain initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051058, symSize: 0xB7 }
-  - { offset: 0xA9823, size: 0x8, addend: 0x0, symName: '-[CDLCMain cmd]', symObjAddr: 0xB7, symBinAddr: 0x10005110F, symSize: 0x10 }
-  - { offset: 0xA9858, size: 0x8, addend: 0x0, symName: '-[CDLCMain cmdsize]', symObjAddr: 0xC7, symBinAddr: 0x10005111F, symSize: 0x11 }
-  - { offset: 0xA997A, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051130, symSize: 0xA6 }
-  - { offset: 0xA9E45, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051130, symSize: 0xA6 }
-  - { offset: 0xA9EC8, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion cmd]', symObjAddr: 0xA6, symBinAddr: 0x1000511D6, symSize: 0x10 }
-  - { offset: 0xA9EFD, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion cmdsize]', symObjAddr: 0xB6, symBinAddr: 0x1000511E6, symSize: 0x11 }
-  - { offset: 0xA9F32, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion sourceVersionString]', symObjAddr: 0xC7, symBinAddr: 0x1000511F7, symSize: 0x64 }
-  - { offset: 0xA9FC5, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion appendToString:verbose:]', symObjAddr: 0x12B, symBinAddr: 0x10005125B, symSize: 0xA9 }
-  - { offset: 0xAA11A, size: 0x8, addend: 0x0, symName: '-[CDLCDataInCode initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051304, symSize: 0x2F }
-  - { offset: 0xAA5C9, size: 0x8, addend: 0x0, symName: '-[CDLCDataInCode initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051304, symSize: 0x2F }
-  - { offset: 0xAA63D, size: 0x8, addend: 0x0, symName: '-[CDLCDataInCode appendToString:verbose:]', symObjAddr: 0x2F, symBinAddr: 0x100051333, symSize: 0x187 }
-  - { offset: 0xAA8A8, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer init]', symObjAddr: 0x0, symBinAddr: 0x1000514BA, symSize: 0x8C }
-  - { offset: 0xAA960, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer init]', symObjAddr: 0x0, symBinAddr: 0x1000514BA, symSize: 0x8C }
-  - { offset: 0xAA9BB, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer protocolWithAddress:]', symObjAddr: 0x8C, symBinAddr: 0x100051546, symSize: 0x67 }
-  - { offset: 0xAAA36, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer setProtocol:withAddress:]', symObjAddr: 0xF3, symBinAddr: 0x1000515AD, symSize: 0x80 }
-  - { offset: 0xAAAD5, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer createUniquedProtocols]', symObjAddr: 0x173, symBinAddr: 0x10005162D, symSize: 0x746 }
-  - { offset: 0xAAE0A, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer uniqueProtocolsAtAddresses:]', symObjAddr: 0x8B9, symBinAddr: 0x100051D73, symSize: 0x1DF }
-  - { offset: 0xAAF27, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer uniqueProtocolsSortedByName]', symObjAddr: 0xA98, symBinAddr: 0x100051F52, symSize: 0x5B }
-  - { offset: 0xAAF82, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer .cxx_destruct]', symObjAddr: 0xAF3, symBinAddr: 0x100051FAD, symSize: 0x33 }
-  - { offset: 0xAB2AD, size: 0x8, addend: 0x0, symName: _read_uleb128, symObjAddr: 0x0, symBinAddr: 0x100051FE0, symSize: 0x14B }
-  - { offset: 0xAB32D, size: 0x8, addend: 0x0, symName: _read_uleb128, symObjAddr: 0x0, symBinAddr: 0x100051FE0, symSize: 0x14B }
-  - { offset: 0xAB3F8, size: 0x8, addend: 0x0, symName: _read_sleb128, symObjAddr: 0x14B, symBinAddr: 0x10005212B, symSize: 0x133 }
-  - { offset: 0xAB42C, size: 0x8, addend: 0x0, symName: _read_sleb128, symObjAddr: 0x14B, symBinAddr: 0x10005212B, symSize: 0x133 }
+  - { offset: 0x9465F, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor protocolAtAddress:]', symObjAddr: 0x19B0, symBinAddr: 0x10003EA4F, symSize: 0x597 }
+  - { offset: 0x949D5, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor loadProtocols]', symObjAddr: 0x1F47, symBinAddr: 0x10003EFE6, symSize: 0xFD }
+  - { offset: 0x94AC0, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor objcImageInfoSection]', symObjAddr: 0x2044, symBinAddr: 0x10003F0E3, symSize: 0x88 }
+  - { offset: 0x94B34, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC1Processor .cxx_destruct]', symObjAddr: 0x20CC, symBinAddr: 0x10003F16B, symSize: 0x13 }
+  - { offset: 0x9518E, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadProtocols]', symObjAddr: 0x0, symBinAddr: 0x10003F17E, symSize: 0x10C }
+  - { offset: 0x9519C, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadMethodsAtAddress:extendedMethodTypesCursor:]', symObjAddr: 0x292E, symBinAddr: 0x100041AAC, symSize: 0x786 }
+  - { offset: 0x951C8, size: 0x8, addend: 0x0, symName: '_loadMethodsAtAddress:extendedMethodTypesCursor:.dbg', symObjAddr: 0xE4C8, symBinAddr: 0x100087828, symSize: 0x0 }
+  - { offset: 0x951DF, size: 0x8, addend: 0x0, symName: '_loadMethodsAtAddress:extendedMethodTypesCursor:.dbg2', symObjAddr: 0xE4CC, symBinAddr: 0x10008782C, symSize: 0x0 }
+  - { offset: 0x951F6, size: 0x8, addend: 0x0, symName: '_loadMethodsAtAddress:extendedMethodTypesCursor:.dn', symObjAddr: 0xE4D0, symBinAddr: 0x100087830, symSize: 0x0 }
+  - { offset: 0x95EFC, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadProtocols]', symObjAddr: 0x0, symBinAddr: 0x10003F17E, symSize: 0x10C }
+  - { offset: 0x95FDF, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadClasses]', symObjAddr: 0x10C, symBinAddr: 0x10003F28A, symSize: 0x13D }
+  - { offset: 0x96109, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadCategories]', symObjAddr: 0x249, symBinAddr: 0x10003F3C7, symSize: 0x134 }
+  - { offset: 0x96223, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor protocolAtAddress:]', symObjAddr: 0x37D, symBinAddr: 0x10003F4FB, symSize: 0xA91 }
+  - { offset: 0x96769, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor classNameAtClassObjectAddress:]', symObjAddr: 0xE0E, symBinAddr: 0x10003FF8C, symSize: 0x1DE }
+  - { offset: 0x9691C, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadCategoryAtAddress:]', symObjAddr: 0xFEC, symBinAddr: 0x10004016A, symSize: 0x9A9 }
+  - { offset: 0x96E62, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadClassAtAddress:]', symObjAddr: 0x1995, symBinAddr: 0x100040B13, symSize: 0xB13 }
+  - { offset: 0x974D7, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadPropertiesAtAddress:]', symObjAddr: 0x24A8, symBinAddr: 0x100041626, symSize: 0x23C }
+  - { offset: 0x976ED, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadMethodsOfMetaClassAtAddress:]', symObjAddr: 0x26E4, symBinAddr: 0x100041862, symSize: 0x236 }
+  - { offset: 0x978ED, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadMethodsAtAddress:]', symObjAddr: 0x291A, symBinAddr: 0x100041A98, symSize: 0x14 }
+  - { offset: 0x9793E, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor firstByteOffsetOf:address:]', symObjAddr: 0x30B4, symBinAddr: 0x100042232, symSize: 0x9 }
+  - { offset: 0x97990, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor loadIvarsAtAddress:]', symObjAddr: 0x30BD, symBinAddr: 0x10004223B, symSize: 0x2CA }
+  - { offset: 0x97C3F, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor protocolAddressListAtAddress:]', symObjAddr: 0x3387, symBinAddr: 0x100042505, symSize: 0x186 }
+  - { offset: 0x97DB8, size: 0x8, addend: 0x0, symName: '-[CDObjectiveC2Processor objcImageInfoSection]', symObjAddr: 0x350D, symBinAddr: 0x10004268B, symSize: 0x81 }
+  - { offset: 0x98682, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState initWithProperties:]', symObjAddr: 0x0, symBinAddr: 0x10004270C, symSize: 0x2F2 }
+  - { offset: 0x9875D, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState initWithProperties:]', symObjAddr: 0x0, symBinAddr: 0x10004270C, symSize: 0x2F2 }
+  - { offset: 0x9889B, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState log]', symObjAddr: 0x2F2, symBinAddr: 0x1000429FE, symSize: 0x34 }
+  - { offset: 0x9891F, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState propertyForAccessor:]', symObjAddr: 0x326, symBinAddr: 0x100042A32, symSize: 0x16 }
+  - { offset: 0x98970, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState hasUsedProperty:]', symObjAddr: 0x33C, symBinAddr: 0x100042A48, symSize: 0x6D }
+  - { offset: 0x989E7, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState useProperty:]', symObjAddr: 0x3A9, symBinAddr: 0x100042AB5, symSize: 0x50 }
+  - { offset: 0x98A4E, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState remainingProperties]', symObjAddr: 0x3F9, symBinAddr: 0x100042B05, symSize: 0x5B }
+  - { offset: 0x98AA9, size: 0x8, addend: 0x0, symName: '-[CDVisitorPropertyState .cxx_destruct]', symObjAddr: 0x454, symBinAddr: 0x100042B60, symSize: 0x28 }
+  - { offset: 0x98C28, size: 0x8, addend: 0x0, symName: '-[CDOCCategory sortableName]', symObjAddr: 0x0, symBinAddr: 0x100042B88, symSize: 0x93 }
+  - { offset: 0x98E95, size: 0x8, addend: 0x0, symName: '-[CDOCCategory sortableName]', symObjAddr: 0x0, symBinAddr: 0x100042B88, symSize: 0x93 }
+  - { offset: 0x98F08, size: 0x8, addend: 0x0, symName: '-[CDOCCategory className]', symObjAddr: 0x93, symBinAddr: 0x100042C1B, symSize: 0x1D }
+  - { offset: 0x98F4B, size: 0x8, addend: 0x0, symName: '-[CDOCCategory displayClassName]', symObjAddr: 0xB0, symBinAddr: 0x100042C38, symSize: 0x6A }
+  - { offset: 0x98FC2, size: 0x8, addend: 0x0, symName: '-[CDOCCategory methodSearchContext]', symObjAddr: 0x11A, symBinAddr: 0x100042CA2, symSize: 0x11B }
+  - { offset: 0x99099, size: 0x8, addend: 0x0, symName: '-[CDOCCategory recursivelyVisit:]', symObjAddr: 0x235, symBinAddr: 0x100042DBD, symSize: 0x139 }
+  - { offset: 0x991AF, size: 0x8, addend: 0x0, symName: '-[CDOCCategory identifier]', symObjAddr: 0x36E, symBinAddr: 0x100042EF6, symSize: 0x12 }
+  - { offset: 0x991F0, size: 0x8, addend: 0x0, symName: '-[CDOCCategory dependancies]', symObjAddr: 0x380, symBinAddr: 0x100042F08, symSize: 0xC3 }
+  - { offset: 0x99263, size: 0x8, addend: 0x0, symName: '-[CDOCCategory classRef]', symObjAddr: 0x443, symBinAddr: 0x100042FCB, symSize: 0x16 }
+  - { offset: 0x9929A, size: 0x8, addend: 0x0, symName: '-[CDOCCategory setClassRef:]', symObjAddr: 0x459, symBinAddr: 0x100042FE1, symSize: 0x11 }
+  - { offset: 0x992D9, size: 0x8, addend: 0x0, symName: '-[CDOCCategory .cxx_destruct]', symObjAddr: 0x46A, symBinAddr: 0x100042FF2, symSize: 0x13 }
+  - { offset: 0x995C7, size: 0x8, addend: 0x0, symName: '-[CDOCClass init]', symObjAddr: 0x0, symBinAddr: 0x100043005, symSize: 0x3F }
+  - { offset: 0x99833, size: 0x8, addend: 0x0, symName: '-[CDOCClass init]', symObjAddr: 0x0, symBinAddr: 0x100043005, symSize: 0x3F }
+  - { offset: 0x9986A, size: 0x8, addend: 0x0, symName: '-[CDOCClass description]', symObjAddr: 0x3F, symBinAddr: 0x100043044, symSize: 0xAB }
+  - { offset: 0x998C5, size: 0x8, addend: 0x0, symName: '-[CDOCClass superClassName]', symObjAddr: 0xEA, symBinAddr: 0x1000430EF, symSize: 0x1D }
+  - { offset: 0x99908, size: 0x8, addend: 0x0, symName: '-[CDOCClass registerTypesWithObject:phase:]', symObjAddr: 0x107, symBinAddr: 0x10004310C, symSize: 0x1E7 }
+  - { offset: 0x999DE, size: 0x8, addend: 0x0, symName: '-[CDOCClass methodSearchContext]', symObjAddr: 0x2EE, symBinAddr: 0x1000432F3, symSize: 0x153 }
+  - { offset: 0x99AD9, size: 0x8, addend: 0x0, symName: '-[CDOCClass recursivelyVisit:]', symObjAddr: 0x441, symBinAddr: 0x100043446, symSize: 0x2A0 }
+  - { offset: 0x99C5A, size: 0x8, addend: 0x0, symName: '-[CDOCClass identifier]', symObjAddr: 0x6E1, symBinAddr: 0x1000436E6, symSize: 0x12 }
+  - { offset: 0x99C9B, size: 0x8, addend: 0x0, symName: '-[CDOCClass dependancies]', symObjAddr: 0x6F3, symBinAddr: 0x1000436F8, symSize: 0xC3 }
+  - { offset: 0x99D0E, size: 0x8, addend: 0x0, symName: '-[CDOCClass superClassRef]', symObjAddr: 0x7B6, symBinAddr: 0x1000437BB, symSize: 0x16 }
+  - { offset: 0x99D45, size: 0x8, addend: 0x0, symName: '-[CDOCClass setSuperClassRef:]', symObjAddr: 0x7CC, symBinAddr: 0x1000437D1, symSize: 0x11 }
+  - { offset: 0x99D84, size: 0x8, addend: 0x0, symName: '-[CDOCClass instanceVariables]', symObjAddr: 0x7DD, symBinAddr: 0x1000437E2, symSize: 0x16 }
+  - { offset: 0x99DBB, size: 0x8, addend: 0x0, symName: '-[CDOCClass setInstanceVariables:]', symObjAddr: 0x7F3, symBinAddr: 0x1000437F8, symSize: 0x11 }
+  - { offset: 0x99DFA, size: 0x8, addend: 0x0, symName: '-[CDOCClass isExported]', symObjAddr: 0x804, symBinAddr: 0x100043809, symSize: 0x11 }
+  - { offset: 0x99E2F, size: 0x8, addend: 0x0, symName: '-[CDOCClass setIsExported:]', symObjAddr: 0x815, symBinAddr: 0x10004381A, symSize: 0x10 }
+  - { offset: 0x99E6C, size: 0x8, addend: 0x0, symName: '-[CDOCClass isSwiftClass]', symObjAddr: 0x825, symBinAddr: 0x10004382A, symSize: 0x11 }
+  - { offset: 0x99EA1, size: 0x8, addend: 0x0, symName: '-[CDOCClass setIsSwiftClass:]', symObjAddr: 0x836, symBinAddr: 0x10004383B, symSize: 0x10 }
+  - { offset: 0x99EDE, size: 0x8, addend: 0x0, symName: '-[CDOCClass .cxx_destruct]', symObjAddr: 0x846, symBinAddr: 0x10004384B, symSize: 0x31 }
+  - { offset: 0x9A4A6, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable initWithName:typeString:offset:]', symObjAddr: 0x0, symBinAddr: 0x10004387C, symSize: 0xD1 }
+  - { offset: 0x9A805, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable initWithName:typeString:offset:]', symObjAddr: 0x0, symBinAddr: 0x10004387C, symSize: 0xD1 }
+  - { offset: 0x9A8E4, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable description]', symObjAddr: 0xD1, symBinAddr: 0x10004394D, symSize: 0xD9 }
+  - { offset: 0x9A991, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable type]', symObjAddr: 0x1AA, symBinAddr: 0x100043A26, symSize: 0x171 }
+  - { offset: 0x9AAE3, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable appendToString:typeController:]', symObjAddr: 0x31B, symBinAddr: 0x100043B97, symSize: 0x2CD }
+  - { offset: 0x9ACE1, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable name]', symObjAddr: 0x5E8, symBinAddr: 0x100043E64, symSize: 0x14 }
+  - { offset: 0x9AD18, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable typeString]', symObjAddr: 0x5FC, symBinAddr: 0x100043E78, symSize: 0x14 }
+  - { offset: 0x9AD4F, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable offset]', symObjAddr: 0x610, symBinAddr: 0x100043E8C, symSize: 0xA }
+  - { offset: 0x9AD84, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable parseError]', symObjAddr: 0x61A, symBinAddr: 0x100043E96, symSize: 0x14 }
+  - { offset: 0x9ADBB, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable hasParsedType]', symObjAddr: 0x62E, symBinAddr: 0x100043EAA, symSize: 0xA }
+  - { offset: 0x9ADF0, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable setHasParsedType:]', symObjAddr: 0x638, symBinAddr: 0x100043EB4, symSize: 0x9 }
+  - { offset: 0x9AE2D, size: 0x8, addend: 0x0, symName: '-[CDOCInstanceVariable .cxx_destruct]', symObjAddr: 0x641, symBinAddr: 0x100043EBD, symSize: 0x3E }
+  - { offset: 0x9AFDD, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassSymbol:]', symObjAddr: 0x0, symBinAddr: 0x100043EFB, symSize: 0x6C }
+  - { offset: 0x9B343, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassSymbol:]', symObjAddr: 0x0, symBinAddr: 0x100043EFB, symSize: 0x6C }
+  - { offset: 0x9B3BA, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassObject:]', symObjAddr: 0x6C, symBinAddr: 0x100043F67, symSize: 0x6C }
+  - { offset: 0x9B431, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference initWithClassName:]', symObjAddr: 0xD8, symBinAddr: 0x100043FD3, symSize: 0x73 }
+  - { offset: 0x9B4A8, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference className]', symObjAddr: 0x14B, symBinAddr: 0x100044046, symSize: 0xEF }
+  - { offset: 0x9B58A, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference isExternalClass]', symObjAddr: 0x23A, symBinAddr: 0x100044135, symSize: 0x33 }
+  - { offset: 0x9B5CD, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference classObject]', symObjAddr: 0x26D, symBinAddr: 0x100044168, symSize: 0x14 }
+  - { offset: 0x9B604, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference setClassObject:]', symObjAddr: 0x281, symBinAddr: 0x10004417C, symSize: 0xF }
+  - { offset: 0x9B643, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference classSymbol]', symObjAddr: 0x290, symBinAddr: 0x10004418B, symSize: 0x14 }
+  - { offset: 0x9B67A, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference setClassSymbol:]', symObjAddr: 0x2A4, symBinAddr: 0x10004419F, symSize: 0xF }
+  - { offset: 0x9B6B9, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference setClassName:]', symObjAddr: 0x2B3, symBinAddr: 0x1000441AE, symSize: 0xF }
+  - { offset: 0x9B6F8, size: 0x8, addend: 0x0, symName: '-[CDOCClassReference .cxx_destruct]', symObjAddr: 0x2C2, symBinAddr: 0x1000441BD, symSize: 0x33 }
+  - { offset: 0x9B76D, size: 0x8, addend: 0x0, symName: '-[CDOCMethod init]', symObjAddr: 0x0, symBinAddr: 0x1000441F0, symSize: 0x3F }
+  - { offset: 0x9B8CF, size: 0x8, addend: 0x0, symName: '-[CDOCMethod init]', symObjAddr: 0x0, symBinAddr: 0x1000441F0, symSize: 0x3F }
+  - { offset: 0x9B91E, size: 0x8, addend: 0x0, symName: '-[CDOCMethod initWithName:typeString:]', symObjAddr: 0x3F, symBinAddr: 0x10004422F, symSize: 0x15 }
+  - { offset: 0x9B97D, size: 0x8, addend: 0x0, symName: '-[CDOCMethod initWithName:typeString:address:]', symObjAddr: 0x54, symBinAddr: 0x100044244, symSize: 0xCC }
+  - { offset: 0x9BA50, size: 0x8, addend: 0x0, symName: '-[CDOCMethod copyWithZone:]', symObjAddr: 0x120, symBinAddr: 0x100044310, symSize: 0xA2 }
+  - { offset: 0x9BADB, size: 0x8, addend: 0x0, symName: '-[CDOCMethod description]', symObjAddr: 0x1C2, symBinAddr: 0x1000443B2, symSize: 0xD9 }
+  - { offset: 0x9BB88, size: 0x8, addend: 0x0, symName: '-[CDOCMethod parsedMethodTypes]', symObjAddr: 0x29B, symBinAddr: 0x10004448B, symSize: 0x115 }
+  - { offset: 0x9BC92, size: 0x8, addend: 0x0, symName: '-[CDOCMethod appendToString:typeController:]', symObjAddr: 0x3B0, symBinAddr: 0x1000445A0, symSize: 0x20B }
+  - { offset: 0x9BE15, size: 0x8, addend: 0x0, symName: '-[CDOCMethod ascendingCompareByName:]', symObjAddr: 0x5BB, symBinAddr: 0x1000447AB, symSize: 0x91 }
+  - { offset: 0x9BEB0, size: 0x8, addend: 0x0, symName: '-[CDOCMethod name]', symObjAddr: 0x64C, symBinAddr: 0x10004483C, symSize: 0x14 }
+  - { offset: 0x9BEE7, size: 0x8, addend: 0x0, symName: '-[CDOCMethod typeString]', symObjAddr: 0x660, symBinAddr: 0x100044850, symSize: 0x14 }
+  - { offset: 0x9BF1E, size: 0x8, addend: 0x0, symName: '-[CDOCMethod address]', symObjAddr: 0x674, symBinAddr: 0x100044864, symSize: 0xA }
+  - { offset: 0x9BF53, size: 0x8, addend: 0x0, symName: '-[CDOCMethod setAddress:]', symObjAddr: 0x67E, symBinAddr: 0x10004486E, symSize: 0xA }
+  - { offset: 0x9BF90, size: 0x8, addend: 0x0, symName: '-[CDOCMethod .cxx_destruct]', symObjAddr: 0x688, symBinAddr: 0x100044878, symSize: 0x33 }
+  - { offset: 0x9C249, size: 0x8, addend: 0x0, symName: '-[CDOCModule init]', symObjAddr: 0x0, symBinAddr: 0x1000448AB, symSize: 0x6B }
+  - { offset: 0x9C39D, size: 0x8, addend: 0x0, symName: '-[CDOCModule init]', symObjAddr: 0x0, symBinAddr: 0x1000448AB, symSize: 0x6B }
+  - { offset: 0x9C3EC, size: 0x8, addend: 0x0, symName: '-[CDOCModule description]', symObjAddr: 0x6B, symBinAddr: 0x100044916, symSize: 0xDC }
+  - { offset: 0x9C499, size: 0x8, addend: 0x0, symName: '-[CDOCModule formattedString]', symObjAddr: 0x147, symBinAddr: 0x1000449F2, symSize: 0x6C }
+  - { offset: 0x9C4F4, size: 0x8, addend: 0x0, symName: '-[CDOCModule version]', symObjAddr: 0x1B3, symBinAddr: 0x100044A5E, symSize: 0x9 }
+  - { offset: 0x9C529, size: 0x8, addend: 0x0, symName: '-[CDOCModule setVersion:]', symObjAddr: 0x1BC, symBinAddr: 0x100044A67, symSize: 0x9 }
+  - { offset: 0x9C566, size: 0x8, addend: 0x0, symName: '-[CDOCModule name]', symObjAddr: 0x1C5, symBinAddr: 0x100044A70, symSize: 0x14 }
+  - { offset: 0x9C59D, size: 0x8, addend: 0x0, symName: '-[CDOCModule setName:]', symObjAddr: 0x1D9, symBinAddr: 0x100044A84, symSize: 0xF }
+  - { offset: 0x9C5DC, size: 0x8, addend: 0x0, symName: '-[CDOCModule symtab]', symObjAddr: 0x1E8, symBinAddr: 0x100044A93, symSize: 0x14 }
+  - { offset: 0x9C613, size: 0x8, addend: 0x0, symName: '-[CDOCModule setSymtab:]', symObjAddr: 0x1FC, symBinAddr: 0x100044AA7, symSize: 0xF }
+  - { offset: 0x9C652, size: 0x8, addend: 0x0, symName: '-[CDOCModule .cxx_destruct]', symObjAddr: 0x20B, symBinAddr: 0x100044AB6, symSize: 0x28 }
+  - { offset: 0x9C6ED, size: 0x8, addend: 0x0, symName: '-[CDOCProperty initWithName:attributes:]', symObjAddr: 0x0, symBinAddr: 0x100044ADE, symSize: 0x107 }
+  - { offset: 0x9CA68, size: 0x8, addend: 0x0, symName: '-[CDOCProperty initWithName:attributes:]', symObjAddr: 0x0, symBinAddr: 0x100044ADE, symSize: 0x107 }
+  - { offset: 0x9CB67, size: 0x8, addend: 0x0, symName: '-[CDOCProperty description]', symObjAddr: 0x107, symBinAddr: 0x100044BE5, symSize: 0xCC }
+  - { offset: 0x9CC08, size: 0x8, addend: 0x0, symName: '-[CDOCProperty defaultGetter]', symObjAddr: 0x1D3, symBinAddr: 0x100044CB1, symSize: 0x12 }
+  - { offset: 0x9CC49, size: 0x8, addend: 0x0, symName: '-[CDOCProperty defaultSetter]', symObjAddr: 0x1E5, symBinAddr: 0x100044CC3, symSize: 0x8D }
+  - { offset: 0x9CCBC, size: 0x8, addend: 0x0, symName: '-[CDOCProperty getter]', symObjAddr: 0x272, symBinAddr: 0x100044D50, symSize: 0x63 }
+  - { offset: 0x9CD17, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setter]', symObjAddr: 0x2D5, symBinAddr: 0x100044DB3, symSize: 0x63 }
+  - { offset: 0x9CD72, size: 0x8, addend: 0x0, symName: '-[CDOCProperty ascendingCompareByName:]', symObjAddr: 0x338, symBinAddr: 0x100044E16, symSize: 0x91 }
+  - { offset: 0x9CE53, size: 0x8, addend: 0x0, symName: '-[CDOCProperty _parseAttributes]', symObjAddr: 0x3C9, symBinAddr: 0x100044EA7, symSize: 0x5CB }
+  - { offset: 0x9D1A3, size: 0x8, addend: 0x0, symName: '-[CDOCProperty name]', symObjAddr: 0x994, symBinAddr: 0x100045472, symSize: 0x14 }
+  - { offset: 0x9D1DA, size: 0x8, addend: 0x0, symName: '-[CDOCProperty attributeString]', symObjAddr: 0x9A8, symBinAddr: 0x100045486, symSize: 0x14 }
+  - { offset: 0x9D211, size: 0x8, addend: 0x0, symName: '-[CDOCProperty type]', symObjAddr: 0x9BC, symBinAddr: 0x10004549A, symSize: 0x14 }
+  - { offset: 0x9D248, size: 0x8, addend: 0x0, symName: '-[CDOCProperty attributes]', symObjAddr: 0x9D0, symBinAddr: 0x1000454AE, symSize: 0x14 }
+  - { offset: 0x9D27F, size: 0x8, addend: 0x0, symName: '-[CDOCProperty attributeStringAfterType]', symObjAddr: 0x9E4, symBinAddr: 0x1000454C2, symSize: 0x14 }
+  - { offset: 0x9D2B6, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setAttributeStringAfterType:]', symObjAddr: 0x9F8, symBinAddr: 0x1000454D6, symSize: 0xF }
+  - { offset: 0x9D2F5, size: 0x8, addend: 0x0, symName: '-[CDOCProperty customGetter]', symObjAddr: 0xA07, symBinAddr: 0x1000454E5, symSize: 0x14 }
+  - { offset: 0x9D32C, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setCustomGetter:]', symObjAddr: 0xA1B, symBinAddr: 0x1000454F9, symSize: 0xF }
+  - { offset: 0x9D36B, size: 0x8, addend: 0x0, symName: '-[CDOCProperty customSetter]', symObjAddr: 0xA2A, symBinAddr: 0x100045508, symSize: 0x14 }
+  - { offset: 0x9D3A2, size: 0x8, addend: 0x0, symName: '-[CDOCProperty setCustomSetter:]', symObjAddr: 0xA3E, symBinAddr: 0x10004551C, symSize: 0xF }
+  - { offset: 0x9D3E1, size: 0x8, addend: 0x0, symName: '-[CDOCProperty isReadOnly]', symObjAddr: 0xA4D, symBinAddr: 0x10004552B, symSize: 0xA }
+  - { offset: 0x9D416, size: 0x8, addend: 0x0, symName: '-[CDOCProperty isDynamic]', symObjAddr: 0xA57, symBinAddr: 0x100045535, symSize: 0xA }
+  - { offset: 0x9D44B, size: 0x8, addend: 0x0, symName: '-[CDOCProperty .cxx_destruct]', symObjAddr: 0xA61, symBinAddr: 0x10004553F, symSize: 0x5F }
+  - { offset: 0x9D7FF, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol init]', symObjAddr: 0x0, symBinAddr: 0x10004559E, symSize: 0xFB }
+  - { offset: 0x9DA87, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol init]', symObjAddr: 0x0, symBinAddr: 0x10004559E, symSize: 0xFB }
+  - { offset: 0x9DB1E, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol description]', symObjAddr: 0xFB, symBinAddr: 0x100045699, symSize: 0x145 }
+  - { offset: 0x9DC13, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addProtocol:]', symObjAddr: 0x240, symBinAddr: 0x1000457DE, symSize: 0xFC }
+  - { offset: 0x9DCDA, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol removeProtocol:]', symObjAddr: 0x33C, symBinAddr: 0x1000458DA, symSize: 0x87 }
+  - { offset: 0x9DD65, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol protocolNames]', symObjAddr: 0x3C3, symBinAddr: 0x100045961, symSize: 0xCF }
+  - { offset: 0x9DE00, size: 0x8, addend: 0x0, symName: '___29-[CDOCProtocol protocolNames]_block_invoke', symObjAddr: 0x492, symBinAddr: 0x100045A30, symSize: 0x8F }
+  - { offset: 0x9DEB7, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol protocolsString]', symObjAddr: 0x521, symBinAddr: 0x100045ABF, symSize: 0x75 }
+  - { offset: 0x9DF2E, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addClassMethod:]', symObjAddr: 0x596, symBinAddr: 0x100045B34, symSize: 0x16 }
+  - { offset: 0x9DF7B, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addInstanceMethod:]', symObjAddr: 0x5AC, symBinAddr: 0x100045B4A, symSize: 0x16 }
+  - { offset: 0x9DFC8, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addOptionalClassMethod:]', symObjAddr: 0x5C2, symBinAddr: 0x100045B60, symSize: 0x16 }
+  - { offset: 0x9E015, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addOptionalInstanceMethod:]', symObjAddr: 0x5D8, symBinAddr: 0x100045B76, symSize: 0x16 }
+  - { offset: 0x9E062, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol addProperty:]', symObjAddr: 0x5EE, symBinAddr: 0x100045B8C, symSize: 0x16 }
+  - { offset: 0x9E0AF, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol hasMethods]', symObjAddr: 0x604, symBinAddr: 0x100045BA2, symSize: 0x104 }
+  - { offset: 0x9E176, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol registerTypesWithObject:phase:]', symObjAddr: 0x708, symBinAddr: 0x100045CA6, symSize: 0x120 }
+  - { offset: 0x9E271, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol registerTypesFromMethods:withObject:phase:]', symObjAddr: 0x828, symBinAddr: 0x100045DC6, symSize: 0x2C2 }
+  - { offset: 0x9E3A2, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol sortableName]', symObjAddr: 0xAEA, symBinAddr: 0x100046088, symSize: 0x12 }
+  - { offset: 0x9E3E3, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol ascendingCompareByName:]', symObjAddr: 0xAFC, symBinAddr: 0x10004609A, symSize: 0x91 }
+  - { offset: 0x9E47E, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol methodSearchContext]', symObjAddr: 0xB8D, symBinAddr: 0x10004612B, symSize: 0xF4 }
+  - { offset: 0x9E53D, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol recursivelyVisit:]', symObjAddr: 0xC81, symBinAddr: 0x10004621F, symSize: 0x15B }
+  - { offset: 0x9E66B, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol visitMethods:propertyState:]', symObjAddr: 0xDDC, symBinAddr: 0x10004637A, symSize: 0x737 }
+  - { offset: 0x9EA26, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol mergeMethodsFromProtocol:]', symObjAddr: 0x1513, symBinAddr: 0x100046AB1, symSize: 0x1246 }
+  - { offset: 0x9F22D, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol mergePropertiesFromProtocol:]', symObjAddr: 0x2759, symBinAddr: 0x100047CF7, symSize: 0x421 }
+  - { offset: 0x9F417, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol name]', symObjAddr: 0x2B7A, symBinAddr: 0x100048118, symSize: 0x14 }
+  - { offset: 0x9F44E, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol setName:]', symObjAddr: 0x2B8E, symBinAddr: 0x10004812C, symSize: 0xF }
+  - { offset: 0x9F48D, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol protocols]', symObjAddr: 0x2B9D, symBinAddr: 0x10004813B, symSize: 0x14 }
+  - { offset: 0x9F4C4, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol classMethods]', symObjAddr: 0x2BB1, symBinAddr: 0x10004814F, symSize: 0xA }
+  - { offset: 0x9F4F9, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol instanceMethods]', symObjAddr: 0x2BBB, symBinAddr: 0x100048159, symSize: 0xA }
+  - { offset: 0x9F52E, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol optionalClassMethods]', symObjAddr: 0x2BC5, symBinAddr: 0x100048163, symSize: 0xA }
+  - { offset: 0x9F563, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol optionalInstanceMethods]', symObjAddr: 0x2BCF, symBinAddr: 0x10004816D, symSize: 0xA }
+  - { offset: 0x9F598, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol properties]', symObjAddr: 0x2BD9, symBinAddr: 0x100048177, symSize: 0xA }
+  - { offset: 0x9F5CD, size: 0x8, addend: 0x0, symName: '-[CDOCProtocol .cxx_destruct]', symObjAddr: 0x2BE3, symBinAddr: 0x100048181, symSize: 0x6A }
+  - { offset: 0x9FCA2, size: 0x8, addend: 0x0, symName: _Blowfish_Encrypt, symObjAddr: 0x0, symBinAddr: 0x1000481EB, symSize: 0x74 }
+  - { offset: 0x9FCBC, size: 0x8, addend: 0x0, symName: _ORIG_S, symObjAddr: 0x210, symBinAddr: 0x1000529E0, symSize: 0x0 }
+  - { offset: 0x9FD09, size: 0x8, addend: 0x0, symName: _ORIG_P, symObjAddr: 0x1210, symBinAddr: 0x1000539E0, symSize: 0x0 }
+  - { offset: 0x9FDF2, size: 0x8, addend: 0x0, symName: _Blowfish_Encrypt, symObjAddr: 0x0, symBinAddr: 0x1000481EB, symSize: 0x74 }
+  - { offset: 0x9FEB8, size: 0x8, addend: 0x0, symName: _Blowfish_Decrypt, symObjAddr: 0x74, symBinAddr: 0x10004825F, symSize: 0x77 }
+  - { offset: 0x9FF7E, size: 0x8, addend: 0x0, symName: _Blowfish_Init, symObjAddr: 0xEB, symBinAddr: 0x1000482D6, symSize: 0x119 }
+  - { offset: 0xA00B7, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab init]', symObjAddr: 0x0, symBinAddr: 0x1000483EF, symSize: 0x75 }
+  - { offset: 0xA0186, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab init]', symObjAddr: 0x0, symBinAddr: 0x1000483EF, symSize: 0x75 }
+  - { offset: 0xA01D5, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab description]', symObjAddr: 0x75, symBinAddr: 0x100048464, symSize: 0xC0 }
+  - { offset: 0xA0299, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab addClass:]', symObjAddr: 0x135, symBinAddr: 0x100048524, symSize: 0x69 }
+  - { offset: 0xA0318, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab addCategory:]', symObjAddr: 0x19E, symBinAddr: 0x10004858D, symSize: 0x69 }
+  - { offset: 0xA0397, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab classes]', symObjAddr: 0x207, symBinAddr: 0x1000485F6, symSize: 0x14 }
+  - { offset: 0xA03CE, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab categories]', symObjAddr: 0x21B, symBinAddr: 0x10004860A, symSize: 0x14 }
+  - { offset: 0xA0405, size: 0x8, addend: 0x0, symName: '-[CDOCSymtab .cxx_destruct]', symObjAddr: 0x22F, symBinAddr: 0x10004861E, symSize: 0x28 }
+  - { offset: 0xA05EB, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter initWithString:]', symObjAddr: 0x0, symBinAddr: 0x100048646, symSize: 0xE3 }
+  - { offset: 0xA086C, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter initWithString:]', symObjAddr: 0x0, symBinAddr: 0x100048646, symSize: 0xE3 }
+  - { offset: 0xA0907, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter parse:index:level:]', symObjAddr: 0xE3, symBinAddr: 0x100048729, symSize: 0x37D }
+  - { offset: 0xA0B14, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter format]', symObjAddr: 0x460, symBinAddr: 0x100048AA6, symSize: 0x3D }
+  - { offset: 0xA0B63, size: 0x8, addend: 0x0, symName: '-[CDBalanceFormatter .cxx_destruct]', symObjAddr: 0x49D, symBinAddr: 0x100048AE3, symSize: 0x33 }
+  - { offset: 0xA0BF4, size: 0x8, addend: 0x0, symName: '-[CDMethodType initWithType:offset:]', symObjAddr: 0x0, symBinAddr: 0x100048B16, symSize: 0xA1 }
+  - { offset: 0xA0DE3, size: 0x8, addend: 0x0, symName: '-[CDMethodType initWithType:offset:]', symObjAddr: 0x0, symBinAddr: 0x100048B16, symSize: 0xA1 }
+  - { offset: 0xA0E9A, size: 0x8, addend: 0x0, symName: '-[CDMethodType description]', symObjAddr: 0xA1, symBinAddr: 0x100048BB7, symSize: 0xC0 }
+  - { offset: 0xA0F3B, size: 0x8, addend: 0x0, symName: '-[CDMethodType type]', symObjAddr: 0x161, symBinAddr: 0x100048C77, symSize: 0x14 }
+  - { offset: 0xA0F72, size: 0x8, addend: 0x0, symName: '-[CDMethodType offset]', symObjAddr: 0x175, symBinAddr: 0x100048C8B, symSize: 0x14 }
+  - { offset: 0xA0FA9, size: 0x8, addend: 0x0, symName: '-[CDMethodType .cxx_destruct]', symObjAddr: 0x189, symBinAddr: 0x100048C9F, symSize: 0x28 }
+  - { offset: 0xA1044, size: 0x8, addend: 0x0, symName: '-[CDType initSimpleType:]', symObjAddr: 0x0, symBinAddr: 0x100048CC8, symSize: 0x69 }
+  - { offset: 0xA1319, size: 0x8, addend: 0x0, symName: '-[CDType initSimpleType:]', symObjAddr: 0x0, symBinAddr: 0x100048CC8, symSize: 0x69 }
+  - { offset: 0xA1384, size: 0x8, addend: 0x0, symName: '-[CDType initIDType:]', symObjAddr: 0x69, symBinAddr: 0x100048D31, symSize: 0x14 }
+  - { offset: 0xA13D5, size: 0x8, addend: 0x0, symName: '-[CDType initIDType:withProtocols:]', symObjAddr: 0x7D, symBinAddr: 0x100048D45, symSize: 0xA3 }
+  - { offset: 0xA1498, size: 0x8, addend: 0x0, symName: '-[CDType initIDTypeWithProtocols:]', symObjAddr: 0x120, symBinAddr: 0x100048DE8, symSize: 0x5E }
+  - { offset: 0xA151B, size: 0x8, addend: 0x0, symName: '-[CDType initStructType:members:]', symObjAddr: 0x17E, symBinAddr: 0x100048E46, symSize: 0xAB }
+  - { offset: 0xA15DE, size: 0x8, addend: 0x0, symName: '-[CDType initUnionType:members:]', symObjAddr: 0x229, symBinAddr: 0x100048EF1, symSize: 0xAB }
+  - { offset: 0xA16A1, size: 0x8, addend: 0x0, symName: '-[CDType initBitfieldType:]', symObjAddr: 0x2D4, symBinAddr: 0x100048F9C, symSize: 0x5E }
+  - { offset: 0xA1724, size: 0x8, addend: 0x0, symName: '-[CDType initArrayType:count:]', symObjAddr: 0x332, symBinAddr: 0x100048FFA, symSize: 0x98 }
+  - { offset: 0xA17E7, size: 0x8, addend: 0x0, symName: '-[CDType initPointerType:]', symObjAddr: 0x3CA, symBinAddr: 0x100049092, symSize: 0x5E }
+  - { offset: 0xA186A, size: 0x8, addend: 0x0, symName: '-[CDType initFunctionPointerType]', symObjAddr: 0x428, symBinAddr: 0x1000490F0, symSize: 0x1F }
+  - { offset: 0xA18AD, size: 0x8, addend: 0x0, symName: '-[CDType initBlockTypeWithTypes:]', symObjAddr: 0x447, symBinAddr: 0x10004910F, symSize: 0x5E }
+  - { offset: 0xA1930, size: 0x8, addend: 0x0, symName: '-[CDType initModifier:type:]', symObjAddr: 0x4A5, symBinAddr: 0x10004916D, symSize: 0x66 }
+  - { offset: 0xA19C3, size: 0x8, addend: 0x0, symName: '-[CDType copyWithZone:]', symObjAddr: 0x50B, symBinAddr: 0x1000491D3, symSize: 0x213 }
+  - { offset: 0xA1B36, size: 0x8, addend: 0x0, symName: '-[CDType isEqual:]', symObjAddr: 0x71E, symBinAddr: 0x1000493E6, symSize: 0xC3 }
+  - { offset: 0xA1C06, size: 0x8, addend: 0x0, symName: '-[CDType description]', symObjAddr: 0x7E1, symBinAddr: 0x1000494A9, symSize: 0x8B }
+  - { offset: 0xA1C77, size: 0x8, addend: 0x0, symName: '-[CDType isIDType]', symObjAddr: 0x86C, symBinAddr: 0x100049534, symSize: 0x1B }
+  - { offset: 0xA1CAC, size: 0x8, addend: 0x0, symName: '-[CDType isNamedObject]', symObjAddr: 0x887, symBinAddr: 0x10004954F, symSize: 0x12 }
+  - { offset: 0xA1CE2, size: 0x8, addend: 0x0, symName: '-[CDType isTemplateType]', symObjAddr: 0x899, symBinAddr: 0x100049561, symSize: 0x16 }
+  - { offset: 0xA1D26, size: 0x8, addend: 0x0, symName: '-[CDType isModifierType]', symObjAddr: 0x8AF, symBinAddr: 0x100049577, symSize: 0x2E }
+  - { offset: 0xA1D5C, size: 0x8, addend: 0x0, symName: '-[CDType typeIgnoringModifiers]', symObjAddr: 0x8DD, symBinAddr: 0x1000495A5, symSize: 0x40 }
+  - { offset: 0xA1DAC, size: 0x8, addend: 0x0, symName: '-[CDType structureDepth]', symObjAddr: 0x91D, symBinAddr: 0x1000495E5, symSize: 0x1BC }
+  - { offset: 0xA1E68, size: 0x8, addend: 0x0, symName: '-[CDType formattedString:formatter:level:]', symObjAddr: 0xAD9, symBinAddr: 0x1000497A1, symSize: 0xC2E }
+  - { offset: 0xA2338, size: 0x8, addend: 0x0, symName: '-[CDType formattedStringForMembersAtLevel:formatter:]', symObjAddr: 0x1707, symBinAddr: 0x10004A3CF, symSize: 0x310 }
+  - { offset: 0xA236A, size: 0x8, addend: 0x0, symName: '-[CDType formattedStringForMembersAtLevel:formatter:]', symObjAddr: 0x1707, symBinAddr: 0x10004A3CF, symSize: 0x310 }
+  - { offset: 0xA24D1, size: 0x8, addend: 0x0, symName: '-[CDType formattedStringForSimpleType]', symObjAddr: 0x1A17, symBinAddr: 0x10004A6DF, symSize: 0x251 }
+  - { offset: 0xA2507, size: 0x8, addend: 0x0, symName: '-[CDType typeString]', symObjAddr: 0x1C68, symBinAddr: 0x10004A930, symSize: 0x1C }
+  - { offset: 0xA2549, size: 0x8, addend: 0x0, symName: '-[CDType bareTypeString]', symObjAddr: 0x1C84, symBinAddr: 0x10004A94C, symSize: 0x19 }
+  - { offset: 0xA258B, size: 0x8, addend: 0x0, symName: '-[CDType reallyBareTypeString]', symObjAddr: 0x1C9D, symBinAddr: 0x10004A965, symSize: 0x16 }
+  - { offset: 0xA25CD, size: 0x8, addend: 0x0, symName: '-[CDType keyTypeString]', symObjAddr: 0x1CB3, symBinAddr: 0x10004A97B, symSize: 0x1C }
+  - { offset: 0xA260F, size: 0x8, addend: 0x0, symName: '-[CDType _typeStringWithVariableNamesToLevel:showObjectTypes:]', symObjAddr: 0x1CCF, symBinAddr: 0x10004A997, symSize: 0x462 }
+  - { offset: 0xA2731, size: 0x8, addend: 0x0, symName: '-[CDType _typeStringForMembersWithVariableNamesToLevel:showObjectTypes:]', symObjAddr: 0x2131, symBinAddr: 0x10004ADF9, symSize: 0x2F6 }
+  - { offset: 0xA273C, size: 0x8, addend: 0x0, symName: '-[CDType _typeStringForMembersWithVariableNamesToLevel:showObjectTypes:]', symObjAddr: 0x2131, symBinAddr: 0x10004ADF9, symSize: 0x2F6 }
+  - { offset: 0xA288B, size: 0x8, addend: 0x0, symName: '-[CDType canMergeWithType:]', symObjAddr: 0x2427, symBinAddr: 0x10004B0EF, symSize: 0x39F }
+  - { offset: 0xA2B58, size: 0x8, addend: 0x0, symName: '-[CDType mergeWithType:]', symObjAddr: 0x27C6, symBinAddr: 0x10004B48E, symSize: 0x8D }
+  - { offset: 0xA2C13, size: 0x8, addend: 0x0, symName: '-[CDType _recursivelyMergeWithType:]', symObjAddr: 0x2853, symBinAddr: 0x10004B51B, symSize: 0x48D }
+  - { offset: 0xA2F66, size: 0x8, addend: 0x0, symName: '-[CDType memberVariableNames]', symObjAddr: 0x2CE0, symBinAddr: 0x10004B9A8, symSize: 0xB5 }
+  - { offset: 0xA2FEB, size: 0x8, addend: 0x0, symName: '___29-[CDType memberVariableNames]_block_invoke', symObjAddr: 0x2D95, symBinAddr: 0x10004BA5D, symSize: 0x8F }
+  - { offset: 0xA30A8, size: 0x8, addend: 0x0, symName: '-[CDType generateMemberNames]', symObjAddr: 0x2E24, symBinAddr: 0x10004BAEC, symSize: 0x2E4 }
+  - { offset: 0xA3209, size: 0x8, addend: 0x0, symName: '-[CDType blockSignatureString]', symObjAddr: 0x3108, symBinAddr: 0x10004BDD0, symSize: 0x134 }
+  - { offset: 0xA32FF, size: 0x8, addend: 0x0, symName: '___30-[CDType blockSignatureString]_block_invoke', symObjAddr: 0x323C, symBinAddr: 0x10004BF04, symSize: 0x188 }
+  - { offset: 0xA3462, size: 0x8, addend: 0x0, symName: '-[CDType phase:registerTypesWithObject:usedInMethod:]', symObjAddr: 0x33C4, symBinAddr: 0x10004C08C, symSize: 0x22 }
+  - { offset: 0xA34D1, size: 0x8, addend: 0x0, symName: '-[CDType phase0RegisterStructuresWithObject:usedInMethod:]', symObjAddr: 0x33E6, symBinAddr: 0x10004C0AE, symSize: 0x12A }
+  - { offset: 0xA35B7, size: 0x8, addend: 0x0, symName: '-[CDType phase0RecursivelyFixStructureNames:]', symObjAddr: 0x3510, symBinAddr: 0x10004C1D8, symSize: 0x1CC }
+  - { offset: 0xA36BA, size: 0x8, addend: 0x0, symName: '-[CDType phase1RegisterStructuresWithObject:]', symObjAddr: 0x36DC, symBinAddr: 0x10004C3A4, symSize: 0x1A3 }
+  - { offset: 0xA3797, size: 0x8, addend: 0x0, symName: '-[CDType phase2MergeWithTypeController:debug:]', symObjAddr: 0x387F, symBinAddr: 0x10004C547, symSize: 0xFA }
+  - { offset: 0xA38A7, size: 0x8, addend: 0x0, symName: '-[CDType _phase2MergeWithTypeController:debug:]', symObjAddr: 0x3979, symBinAddr: 0x10004C641, symSize: 0x2A2 }
+  - { offset: 0xA3A3F, size: 0x8, addend: 0x0, symName: '-[CDType phase3RegisterWithTypeController:]', symObjAddr: 0x3C1B, symBinAddr: 0x10004C8E3, symSize: 0x58 }
+  - { offset: 0xA3AB4, size: 0x8, addend: 0x0, symName: '-[CDType phase3RegisterMembersWithTypeController:]', symObjAddr: 0x3C73, symBinAddr: 0x10004C93B, symSize: 0x14C }
+  - { offset: 0xA3B6D, size: 0x8, addend: 0x0, symName: '-[CDType phase3MergeWithTypeController:]', symObjAddr: 0x3DBF, symBinAddr: 0x10004CA87, symSize: 0x1F7 }
+  - { offset: 0xA3C9A, size: 0x8, addend: 0x0, symName: '-[CDType variableName]', symObjAddr: 0x3FB6, symBinAddr: 0x10004CC7E, symSize: 0x14 }
+  - { offset: 0xA3CD1, size: 0x8, addend: 0x0, symName: '-[CDType setVariableName:]', symObjAddr: 0x3FCA, symBinAddr: 0x10004CC92, symSize: 0xF }
+  - { offset: 0xA3D10, size: 0x8, addend: 0x0, symName: '-[CDType primitiveType]', symObjAddr: 0x3FD9, symBinAddr: 0x10004CCA1, symSize: 0x9 }
+  - { offset: 0xA3D45, size: 0x8, addend: 0x0, symName: '-[CDType subtype]', symObjAddr: 0x3FE2, symBinAddr: 0x10004CCAA, symSize: 0xA }
+  - { offset: 0xA3D7A, size: 0x8, addend: 0x0, symName: '-[CDType typeName]', symObjAddr: 0x3FEC, symBinAddr: 0x10004CCB4, symSize: 0xA }
+  - { offset: 0xA3DAF, size: 0x8, addend: 0x0, symName: '-[CDType members]', symObjAddr: 0x3FF6, symBinAddr: 0x10004CCBE, symSize: 0xA }
+  - { offset: 0xA3DE4, size: 0x8, addend: 0x0, symName: '-[CDType types]', symObjAddr: 0x4000, symBinAddr: 0x10004CCC8, symSize: 0xA }
+  - { offset: 0xA3E19, size: 0x8, addend: 0x0, symName: '-[CDType .cxx_destruct]', symObjAddr: 0x400A, symBinAddr: 0x10004CCD2, symSize: 0x6A }
+  - { offset: 0xA445A, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter init]', symObjAddr: 0x0, symBinAddr: 0x10004CD3C, symSize: 0x59 }
+  - { offset: 0xA464C, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter init]', symObjAddr: 0x0, symBinAddr: 0x10004CD3C, symSize: 0x59 }
+  - { offset: 0xA4683, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter description]', symObjAddr: 0x59, symBinAddr: 0x10004CD95, symSize: 0xFF }
+  - { offset: 0xA475F, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter _specialCaseVariable:type:]', symObjAddr: 0x158, symBinAddr: 0x10004CE94, symSize: 0x84 }
+  - { offset: 0xA47E2, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter _specialCaseVariable:parsedType:]', symObjAddr: 0x1DC, symBinAddr: 0x10004CF18, symSize: 0x7E }
+  - { offset: 0xA4865, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formatVariable:type:]', symObjAddr: 0x25A, symBinAddr: 0x10004CF96, symSize: 0x18C }
+  - { offset: 0xA49B4, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formattedTypesForMethodName:type:]', symObjAddr: 0x3E6, symBinAddr: 0x10004D122, symSize: 0x602 }
+  - { offset: 0xA4E1C, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formatMethodName:typeString:]', symObjAddr: 0x9E8, symBinAddr: 0x10004D724, symSize: 0x64C }
+  - { offset: 0xA5260, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter replacementForType:]', symObjAddr: 0x1034, symBinAddr: 0x10004DD70, symSize: 0x7D }
+  - { offset: 0xA52E5, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter typedefNameForStructure:level:]', symObjAddr: 0x10B1, symBinAddr: 0x10004DDED, symSize: 0x8C }
+  - { offset: 0xA537B, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formattingDidReferenceClassName:]', symObjAddr: 0x113D, symBinAddr: 0x10004DE79, symSize: 0x6C }
+  - { offset: 0xA53FC, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter formattingDidReferenceProtocolNames:]', symObjAddr: 0x11A9, symBinAddr: 0x10004DEE5, symSize: 0x6C }
+  - { offset: 0xA547D, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter typeController]', symObjAddr: 0x1215, symBinAddr: 0x10004DF51, symSize: 0x16 }
+  - { offset: 0xA54B4, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setTypeController:]', symObjAddr: 0x122B, symBinAddr: 0x10004DF67, symSize: 0x11 }
+  - { offset: 0xA54F5, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter baseLevel]', symObjAddr: 0x123C, symBinAddr: 0x10004DF78, symSize: 0xA }
+  - { offset: 0xA552A, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setBaseLevel:]', symObjAddr: 0x1246, symBinAddr: 0x10004DF82, symSize: 0xA }
+  - { offset: 0xA5567, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter shouldExpand]', symObjAddr: 0x1250, symBinAddr: 0x10004DF8C, symSize: 0xA }
+  - { offset: 0xA559C, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setShouldExpand:]', symObjAddr: 0x125A, symBinAddr: 0x10004DF96, symSize: 0x9 }
+  - { offset: 0xA55D9, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter shouldAutoExpand]', symObjAddr: 0x1263, symBinAddr: 0x10004DF9F, symSize: 0xA }
+  - { offset: 0xA560E, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setShouldAutoExpand:]', symObjAddr: 0x126D, symBinAddr: 0x10004DFA9, symSize: 0x9 }
+  - { offset: 0xA564B, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter shouldShowLexing]', symObjAddr: 0x1276, symBinAddr: 0x10004DFB2, symSize: 0xA }
+  - { offset: 0xA5680, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter setShouldShowLexing:]', symObjAddr: 0x1280, symBinAddr: 0x10004DFBC, symSize: 0x9 }
+  - { offset: 0xA56BD, size: 0x8, addend: 0x0, symName: '-[CDTypeFormatter .cxx_destruct]', symObjAddr: 0x1289, symBinAddr: 0x10004DFC5, symSize: 0xE }
+  - { offset: 0xA5BDC, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004DFD3, symSize: 0xB2 }
+  - { offset: 0xA5F18, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004DFD3, symSize: 0xB2 }
+  - { offset: 0xA5F9B, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer setState:]', symObjAddr: 0xB2, symBinAddr: 0x10004E085, symSize: 0xA }
+  - { offset: 0xA5FDA, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer string]', symObjAddr: 0xBC, symBinAddr: 0x10004E08F, symSize: 0x16 }
+  - { offset: 0xA601D, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer scanNextToken]', symObjAddr: 0xD2, symBinAddr: 0x10004E0A5, symSize: 0x555 }
+  - { offset: 0xA62B7, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer peekChar]', symObjAddr: 0x627, symBinAddr: 0x10004E5FA, symSize: 0x16 }
+  - { offset: 0xA62FA, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer remainingString]', symObjAddr: 0x63D, symBinAddr: 0x10004E610, symSize: 0x71 }
+  - { offset: 0xA6361, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer peekIdentifier]', symObjAddr: 0x6AE, symBinAddr: 0x10004E681, symSize: 0xE2 }
+  - { offset: 0xA6430, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer scanner]', symObjAddr: 0x790, symBinAddr: 0x10004E763, symSize: 0x14 }
+  - { offset: 0xA6467, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer state]', symObjAddr: 0x7A4, symBinAddr: 0x10004E777, symSize: 0xA }
+  - { offset: 0xA649C, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer shouldShowLexing]', symObjAddr: 0x7AE, symBinAddr: 0x10004E781, symSize: 0xA }
+  - { offset: 0xA64D1, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer setShouldShowLexing:]', symObjAddr: 0x7B8, symBinAddr: 0x10004E78B, symSize: 0x9 }
+  - { offset: 0xA650E, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer lexText]', symObjAddr: 0x7C1, symBinAddr: 0x10004E794, symSize: 0x14 }
+  - { offset: 0xA6545, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer setLexText:]', symObjAddr: 0x7D5, symBinAddr: 0x10004E7A8, symSize: 0xF }
+  - { offset: 0xA6584, size: 0x8, addend: 0x0, symName: '-[CDTypeLexer .cxx_destruct]', symObjAddr: 0x7E4, symBinAddr: 0x10004E7B7, symSize: 0x28 }
+  - { offset: 0xA6607, size: 0x8, addend: 0x0, symName: '-[CDTypeName init]', symObjAddr: 0x0, symBinAddr: 0x10004E7DF, symSize: 0x7B }
+  - { offset: 0xA6738, size: 0x8, addend: 0x0, symName: '-[CDTypeName init]', symObjAddr: 0x0, symBinAddr: 0x10004E7DF, symSize: 0x7B }
+  - { offset: 0xA6793, size: 0x8, addend: 0x0, symName: '-[CDTypeName copyWithZone:]', symObjAddr: 0x7B, symBinAddr: 0x10004E85A, symSize: 0x232 }
+  - { offset: 0xA68C8, size: 0x8, addend: 0x0, symName: '-[CDTypeName isEqual:]', symObjAddr: 0x2AD, symBinAddr: 0x10004EA8C, symSize: 0xB1 }
+  - { offset: 0xA6963, size: 0x8, addend: 0x0, symName: '-[CDTypeName description]', symObjAddr: 0x35E, symBinAddr: 0x10004EB3D, symSize: 0x1D0 }
+  - { offset: 0xA6A66, size: 0x8, addend: 0x0, symName: '-[CDTypeName isTemplateType]', symObjAddr: 0x52E, symBinAddr: 0x10004ED0D, symSize: 0x4B }
+  - { offset: 0xA6AC1, size: 0x8, addend: 0x0, symName: '-[CDTypeName name]', symObjAddr: 0x579, symBinAddr: 0x10004ED58, symSize: 0x14 }
+  - { offset: 0xA6AF8, size: 0x8, addend: 0x0, symName: '-[CDTypeName setName:]', symObjAddr: 0x58D, symBinAddr: 0x10004ED6C, symSize: 0xF }
+  - { offset: 0xA6B37, size: 0x8, addend: 0x0, symName: '-[CDTypeName templateTypes]', symObjAddr: 0x59C, symBinAddr: 0x10004ED7B, symSize: 0x14 }
+  - { offset: 0xA6B6E, size: 0x8, addend: 0x0, symName: '-[CDTypeName suffix]', symObjAddr: 0x5B0, symBinAddr: 0x10004ED8F, symSize: 0x14 }
+  - { offset: 0xA6BA5, size: 0x8, addend: 0x0, symName: '-[CDTypeName setSuffix:]', symObjAddr: 0x5C4, symBinAddr: 0x10004EDA3, symSize: 0xF }
+  - { offset: 0xA6BE4, size: 0x8, addend: 0x0, symName: '-[CDTypeName .cxx_destruct]', symObjAddr: 0x5D3, symBinAddr: 0x10004EDB2, symSize: 0x33 }
+  - { offset: 0xA6C96, size: 0x8, addend: 0x0, symName: '-[CDTypeParser initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004EDE5, symSize: 0xF3 }
+  - { offset: 0xA6FF3, size: 0x8, addend: 0x0, symName: '-[CDTypeParser initWithString:]', symObjAddr: 0x0, symBinAddr: 0x10004EDE5, symSize: 0xF3 }
+  - { offset: 0xA70B9, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseMethodType:]', symObjAddr: 0xF3, symBinAddr: 0x10004EED8, symSize: 0x3F9 }
+  - { offset: 0xA7359, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseType:]', symObjAddr: 0x4EC, symBinAddr: 0x10004F2D1, symSize: 0x3F9 }
+  - { offset: 0xA75F9, size: 0x8, addend: 0x0, symName: '-[CDTypeParser match:]', symObjAddr: 0x8E5, symBinAddr: 0x10004F6CA, symSize: 0x5C }
+  - { offset: 0xA766C, size: 0x8, addend: 0x0, symName: '-[CDTypeParser match:enterState:]', symObjAddr: 0x941, symBinAddr: 0x10004F726, symSize: 0xEC }
+  - { offset: 0xA773B, size: 0x8, addend: 0x0, symName: _CDTokenDescription, symObjAddr: 0xA2D, symBinAddr: 0x10004F812, symSize: 0x55 }
+  - { offset: 0xA777E, size: 0x8, addend: 0x0, symName: '-[CDTypeParser error:]', symObjAddr: 0xA82, symBinAddr: 0x10004F867, symSize: 0x2C }
+  - { offset: 0xA77C9, size: 0x8, addend: 0x0, symName: '-[CDTypeParser _parseMethodType]', symObjAddr: 0xAAE, symBinAddr: 0x10004F893, symSize: 0x106 }
+  - { offset: 0xA78B3, size: 0x8, addend: 0x0, symName: '-[CDTypeParser _parseType]', symObjAddr: 0xBB4, symBinAddr: 0x10004F999, symSize: 0x14 }
+  - { offset: 0xA7954, size: 0x8, addend: 0x0, symName: '-[CDTypeParser _parseTypeInStruct:]', symObjAddr: 0xBC8, symBinAddr: 0x10004F9AD, symSize: 0xC46 }
+  - { offset: 0xA817A, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseUnionTypes]', symObjAddr: 0x180E, symBinAddr: 0x1000505F3, symSize: 0xA8 }
+  - { offset: 0xA822B, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseOptionalMembers]', symObjAddr: 0x18B6, symBinAddr: 0x10005069B, symSize: 0x4E }
+  - { offset: 0xA828C, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseMemberList]', symObjAddr: 0x1904, symBinAddr: 0x1000506E9, symSize: 0xB0 }
+  - { offset: 0xA8311, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseMember]', symObjAddr: 0x19B4, symBinAddr: 0x100050799, symSize: 0x192 }
+  - { offset: 0xA840C, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseTypeName]', symObjAddr: 0x1B46, symBinAddr: 0x10005092B, symSize: 0x257 }
+  - { offset: 0xA85E5, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseIdentifier]', symObjAddr: 0x1D9D, symBinAddr: 0x100050B82, symSize: 0x7B }
+  - { offset: 0xA865E, size: 0x8, addend: 0x0, symName: '-[CDTypeParser parseNumber]', symObjAddr: 0x1E18, symBinAddr: 0x100050BFD, symSize: 0x7B }
+  - { offset: 0xA86E6, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInModifierSet:]', symObjAddr: 0x1E93, symBinAddr: 0x100050C78, symSize: 0x27 }
+  - { offset: 0xA872B, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInSimpleTypeSet:]', symObjAddr: 0x1EBA, symBinAddr: 0x100050C9F, symSize: 0x39 }
+  - { offset: 0xA8770, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInTypeSet:]', symObjAddr: 0x1EF3, symBinAddr: 0x100050CD8, symSize: 0x6A }
+  - { offset: 0xA87D1, size: 0x8, addend: 0x0, symName: '-[CDTypeParser isTokenInTypeStartSet:]', symObjAddr: 0x1F5D, symBinAddr: 0x100050D42, symSize: 0x3C }
+  - { offset: 0xA8826, size: 0x8, addend: 0x0, symName: '-[CDTypeParser lexer]', symObjAddr: 0x1F99, symBinAddr: 0x100050D7E, symSize: 0x14 }
+  - { offset: 0xA885D, size: 0x8, addend: 0x0, symName: '-[CDTypeParser .cxx_destruct]', symObjAddr: 0x1FAD, symBinAddr: 0x100050D92, symSize: 0x10 }
+  - { offset: 0xA8C07, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts functionStarts]', symObjAddr: 0x0, symBinAddr: 0x100050DA2, symSize: 0x15A }
+  - { offset: 0xA90F8, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts functionStarts]', symObjAddr: 0x0, symBinAddr: 0x100050DA2, symSize: 0x15A }
+  - { offset: 0xA9269, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts appendToString:verbose:]', symObjAddr: 0x15A, symBinAddr: 0x100050EFC, symSize: 0x261 }
+  - { offset: 0xA93BF, size: 0x8, addend: 0x0, symName: '-[CDLCFunctionStarts .cxx_destruct]', symObjAddr: 0x3BB, symBinAddr: 0x10005115D, symSize: 0x13 }
+  - { offset: 0xA966D, size: 0x8, addend: 0x0, symName: '-[CDLCMain initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051170, symSize: 0xB7 }
+  - { offset: 0xA97DC, size: 0x8, addend: 0x0, symName: '-[CDLCMain initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051170, symSize: 0xB7 }
+  - { offset: 0xA986B, size: 0x8, addend: 0x0, symName: '-[CDLCMain cmd]', symObjAddr: 0xB7, symBinAddr: 0x100051227, symSize: 0x10 }
+  - { offset: 0xA98A0, size: 0x8, addend: 0x0, symName: '-[CDLCMain cmdsize]', symObjAddr: 0xC7, symBinAddr: 0x100051237, symSize: 0x11 }
+  - { offset: 0xA99C2, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051248, symSize: 0xA6 }
+  - { offset: 0xA9E8D, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x100051248, symSize: 0xA6 }
+  - { offset: 0xA9F10, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion cmd]', symObjAddr: 0xA6, symBinAddr: 0x1000512EE, symSize: 0x10 }
+  - { offset: 0xA9F45, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion cmdsize]', symObjAddr: 0xB6, symBinAddr: 0x1000512FE, symSize: 0x11 }
+  - { offset: 0xA9F7A, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion sourceVersionString]', symObjAddr: 0xC7, symBinAddr: 0x10005130F, symSize: 0x64 }
+  - { offset: 0xAA00D, size: 0x8, addend: 0x0, symName: '-[CDLCSourceVersion appendToString:verbose:]', symObjAddr: 0x12B, symBinAddr: 0x100051373, symSize: 0xA9 }
+  - { offset: 0xAA162, size: 0x8, addend: 0x0, symName: '-[CDLCDataInCode initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x10005141C, symSize: 0x2F }
+  - { offset: 0xAA611, size: 0x8, addend: 0x0, symName: '-[CDLCDataInCode initWithDataCursor:]', symObjAddr: 0x0, symBinAddr: 0x10005141C, symSize: 0x2F }
+  - { offset: 0xAA685, size: 0x8, addend: 0x0, symName: '-[CDLCDataInCode appendToString:verbose:]', symObjAddr: 0x2F, symBinAddr: 0x10005144B, symSize: 0x187 }
+  - { offset: 0xAA8F0, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer init]', symObjAddr: 0x0, symBinAddr: 0x1000515D2, symSize: 0x8C }
+  - { offset: 0xAA9A8, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer init]', symObjAddr: 0x0, symBinAddr: 0x1000515D2, symSize: 0x8C }
+  - { offset: 0xAAA03, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer protocolWithAddress:]', symObjAddr: 0x8C, symBinAddr: 0x10005165E, symSize: 0x67 }
+  - { offset: 0xAAA7E, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer setProtocol:withAddress:]', symObjAddr: 0xF3, symBinAddr: 0x1000516C5, symSize: 0x80 }
+  - { offset: 0xAAB1D, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer createUniquedProtocols]', symObjAddr: 0x173, symBinAddr: 0x100051745, symSize: 0x746 }
+  - { offset: 0xAAE52, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer uniqueProtocolsAtAddresses:]', symObjAddr: 0x8B9, symBinAddr: 0x100051E8B, symSize: 0x1DF }
+  - { offset: 0xAAF6F, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer uniqueProtocolsSortedByName]', symObjAddr: 0xA98, symBinAddr: 0x10005206A, symSize: 0x5B }
+  - { offset: 0xAAFCA, size: 0x8, addend: 0x0, symName: '-[CDProtocolUniquer .cxx_destruct]', symObjAddr: 0xAF3, symBinAddr: 0x1000520C5, symSize: 0x33 }
+  - { offset: 0xAB2F5, size: 0x8, addend: 0x0, symName: _read_uleb128, symObjAddr: 0x0, symBinAddr: 0x1000520F8, symSize: 0x14B }
+  - { offset: 0xAB375, size: 0x8, addend: 0x0, symName: _read_uleb128, symObjAddr: 0x0, symBinAddr: 0x1000520F8, symSize: 0x14B }
+  - { offset: 0xAB440, size: 0x8, addend: 0x0, symName: _read_sleb128, symObjAddr: 0x14B, symBinAddr: 0x100052243, symSize: 0x133 }
+  - { offset: 0xAB474, size: 0x8, addend: 0x0, symName: _read_sleb128, symObjAddr: 0x14B, symBinAddr: 0x100052243, symSize: 0x133 }
 ...

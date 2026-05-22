@@ -463,19 +463,23 @@ static BOOL debug = NO;
             // Protocols
             if (v3 != 0) {
                 [cursor setAddress:v3];
-                uint32_t val = [cursor readInt32];
-                NSParameterAssert(val == 0); // next pointer, let me know if it's ever not zero
-                //NSLog(@"val: 0x%08x", val);
-                uint32_t count = [cursor readInt32];
-                //NSLog(@"protocol count: %08x", count);
-                for (uint32_t index = 0; index < count; index++) {
-                    val = [cursor readInt32];
-                    //NSLog(@"val[%2d]: 0x%08x", index, val);
-                    CDOCProtocol *anotherProtocol = [self protocolAtAddress:val];
-                    if (anotherProtocol != nil) {
-                        [protocol addProtocol:anotherProtocol];
-                    } else {
-                        NSLog(@"Note: another protocol was nil.");
+                if ([cursor offset] != 0) {
+                    uint32_t val = [cursor readInt32];
+                    NSParameterAssert(val == 0); // next pointer, let me know if it's ever not zero
+                    //NSLog(@"val: 0x%08x", val);
+                    uint32_t count = [cursor readInt32];
+                    //NSLog(@"protocol count: %08x", count);
+                    for (uint32_t index = 0; index < count; index++) {
+                        val = [cursor readInt32];
+                        //NSLog(@"val[%2d]: 0x%08x", index, val);
+                        if (val == 0) continue; // empty slot — no diagnostic
+                        CDOCProtocol *anotherProtocol = [self protocolAtAddress:val];
+                        if (anotherProtocol != nil) {
+                            [protocol addProtocol:anotherProtocol];
+                        } else {
+                            NSLog(@"Note: protocol '%@' references unresolved adopted protocol at 0x%08x.",
+                                  protocol.name ?: @"(unnamed)", val);
+                        }
                     }
                 }
             }

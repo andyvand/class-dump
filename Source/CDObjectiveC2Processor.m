@@ -105,15 +105,19 @@
         
         if (objc2Protocol.protocols != 0) {
             [cursor setAddress:objc2Protocol.protocols];
-            uint64_t count = [cursor readPtr];
-            if (count > 0x10000) count = 0;
-            for (uint64_t index = 0; index < count; index++) {
-                uint64_t val = [cursor readPtr];
-                CDOCProtocol *anotherProtocol = [self protocolAtAddress:val];
-                if (anotherProtocol != nil) {
-                    [protocol addProtocol:anotherProtocol];
-                } else {
-                    NSLog(@"Note: another protocol was nil.");
+            if ([cursor offset] != 0) {
+                uint64_t count = [cursor readPtr];
+                if (count > 0x10000) count = 0;
+                for (uint64_t index = 0; index < count; index++) {
+                    uint64_t val = [cursor readPtr];
+                    if (val == 0) continue; // empty slot — no diagnostic
+                    CDOCProtocol *anotherProtocol = [self protocolAtAddress:val];
+                    if (anotherProtocol != nil) {
+                        [protocol addProtocol:anotherProtocol];
+                    } else {
+                        NSLog(@"Note: protocol '%@' references unresolved adopted protocol at 0x%016llx.",
+                              protocol.name ?: @"(unnamed)", (unsigned long long)val);
+                    }
                 }
             }
         }
